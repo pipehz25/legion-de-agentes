@@ -1,0 +1,16 @@
+{
+    "id":  "prueba-2026-10-26-dalvin-papa",
+    "url_fuente":  "https://www.youtube.com/watch?v=u3uVdH4KsmE",
+    "video_id":  "u3uVdH4KsmE",
+    "inicio":  3230,
+    "fin":  3271.5,
+    "inicio_hms":  "0:53:50",
+    "duracion_seg":  41.5,
+    "gancho":  "Nunca había visto llorar a su papá",
+    "subtitulos":  "orig",
+    "palabras_subtituladas":  84,
+    "modo":  "desenfoque",
+    "archivo":  "salidas/clipero/clips/prueba-2026-10-26-dalvin-papa/clip.mp4",
+    "portada":  "salidas/clipero/clips/prueba-2026-10-26-dalvin-papa/portada.jpg",
+    "creado":  "2026-10-26T22:14:15.0418490-05:00"
+}

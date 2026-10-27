@@ -1,0 +1,27 @@
+{
+  "idioma_audiencia": "es",
+
+  "max_fuentes_por_ciclo": 5,
+  "max_clips_por_ciclo": 3,
+  "presupuesto_por_ciclo": {
+    "busquedas_youtube": 8,
+    "busquedas_web": 10,
+    "lecturas_web": 8
+  },
+
+  "fuente": {
+    "duracion_min_seg": 480,
+    "max_edad_dias": 7,
+    "tipos": ["podcasts", "entrevistas", "streams", "debates", "conferencias", "programas de TV o radio subidos a YouTube", "clips largos de Twitch o Kick"]
+  },
+  "clip": {
+    "duracion_min_seg": 15,
+    "duracion_max_seg": 75,
+    "duracion_ideal_seg": [25, 45],
+    "modo": "desenfoque"
+  },
+  "umbral_produccion": 65,
+
+  "fuentes_autorizadas": [],
+  "_fuentes_autorizadas": "Canales propios o con programa de clips que autoriza a clipers. Formato: { \"canal\": \"...\", \"url\": \"...\", \"condiciones\": \"...\" }. Se priorizan y sus clips se marcan como autorizados."
+}

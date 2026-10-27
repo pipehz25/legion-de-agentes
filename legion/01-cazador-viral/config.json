@@ -1,0 +1,38 @@
+{
+  "regiones": [
+    { "nombre": "Colombia", "geo": "CO", "trends24": "colombia" },
+    { "nombre": "México", "geo": "MX", "trends24": "mexico" },
+    { "nombre": "Argentina", "geo": "AR", "trends24": "argentina" },
+    { "nombre": "España", "geo": "ES", "trends24": "spain" },
+    { "nombre": "Estados Unidos", "geo": "US", "trends24": "united-states" }
+  ],
+  "x_mundial": true,
+  "x_snapshots": 24,
+  "wikipedia": { "idiomas": ["es", "en"], "top": 40 },
+  "youtube": { "max_por_region": 25 },
+  "twitch": { "idiomas": ["es", "en"], "max_streams": 20, "juegos_para_clips": 5 },
+  "retener_snapshots": 60,
+
+  "idioma_audiencia": "es",
+  "nichos": [
+    "famosos y farándula",
+    "música y artistas",
+    "historia y cultura",
+    "inteligencia artificial y tecnología",
+    "creadores de contenido y streamers",
+    "humor y memes",
+    "general (cualquier contenido altamente viral)"
+  ],
+  "plataformas": ["tiktok", "youtube", "instagram", "facebook", "x", "twitch", "kick", "reddit"],
+
+  "presupuesto_por_ciclo": {
+    "busquedas_web": 20,
+    "lecturas_web": 20,
+    "busquedas_youtube": 6,
+    "candidatos_a_descomponer": 12,
+    "formatos_hibridos": 4
+  },
+  "umbral_oportunidad": 60,
+  "umbral_hibridacion": 70,
+  "cadencia_recomendada": "6h"
+}

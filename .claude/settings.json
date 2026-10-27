@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch",
+      "Edit(datos/**)",
+      "Edit(salidas/**)",
+      "PowerShell(powershell -NoProfile -ExecutionPolicy Bypass -File legion/01-cazador-viral/recolectar.ps1)",
+      "PowerShell(powershell -NoProfile -ExecutionPolicy Bypass -File legion/01-cazador-viral/recolectar.ps1 *)",
+      "PowerShell(powershell -NoProfile -ExecutionPolicy Bypass -File legion/02-clipero/clipero.ps1 *)"
+    ]
+  }
+}

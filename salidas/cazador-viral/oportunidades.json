@@ -1,0 +1,252 @@
+{
+  "generado": "2026-10-26T21:50:00-05:00",
+  "ciclo": 1,
+  "oportunidades": [
+    {
+      "id": "formato-stop-the-wedding-carrusel",
+      "nombre": "Stop the wedding, pero…: carrusel de arrepentimientos en retrospectiva",
+      "tipo": "formato",
+      "etapa": "pico",
+      "contexto_destino": "Solo como arbitraje: en pico en tiktok-en, sin adaptar en tiktok-es ni en el nicho de historia. El puntaje usa la etapa del destino.",
+      "puntaje_oportunidad": 74,
+      "ventana_hasta": "2026-11-09",
+      "confianza": "baja",
+      "plataformas_objetivo": ["tiktok", "instagram", "facebook"],
+      "nichos": ["historia y cultura", "famosos y farándula", "inteligencia artificial y tecnología"],
+      "resumen": "Carrusel probado en inglés (canción #6 global en Spotify) y sin versiones en español: trasplantar la estructura a bodas históricas o de famosos.",
+      "genes_clave": {
+        "gancho": "Primera foto con 'Detengan la boda, pero…'",
+        "estructura": "Carrusel con una señal de alarma por foto, de menor a mayor",
+        "participacion": "'¿Qué boda detendrías tú?' y parte 2 con la más votada"
+      },
+      "evidencia": [
+        { "url": "https://kworb.net/spotify/country/global_daily.html", "metrica": "'Stop The Wedding!' (Ashe), #6 en Spotify Global con 3.091.581 reproducciones diarias (25-oct-2026)", "tipo": "medido", "fecha": "2026-10-26" },
+        { "url": "https://www.officialcharts.com/chart-news/ashe-stop-the-wedding-sienna-spiro-great-expectation-number-1-single/", "metrica": "Top 10 del Reino Unido (#9) el 18-sep-2026", "tipo": "medido", "fecha": "2026-10-26" },
+        { "url": "https://newengen.com/insights/october-tiktok-trends/", "metrica": "Trend #6 de octubre de 2026 (señal tardía)", "tipo": "estimado", "fecha": "2026-10-26" }
+      ],
+      "formato_hibrido": "salidas/cazador-viral/formatos/formato-detengan-la-boda-historia.md"
+    },
+    {
+      "id": "formato-dato-perturbador-plano-lento",
+      "nombre": "Dato perturbador en plano lento (Creepy-Fact Storytime)",
+      "tipo": "formato",
+      "etapa": "crecimiento",
+      "contexto_destino": "Crecimiento en tiktok-en; en español, sin verificar.",
+      "puntaje_oportunidad": 73,
+      "ventana_hasta": "2026-11-02",
+      "confianza": "baja",
+      "plataformas_objetivo": ["tiktok", "instagram", "youtube"],
+      "nichos": ["historia y cultura", "general (cualquier contenido altamente viral)"],
+      "resumen": "Formato sin cara, de un solo plano, en temprana subida (+35 % en 10 días), justo en la semana de Halloween y Día de Muertos: ideal para historia hispana.",
+      "genes_clave": {
+        "gancho": "El dato inquietante en la primera línea, sobre un plano quieto",
+        "estructura": "Un solo dato, sin cortes, con texto en pantalla y cámara lenta",
+        "participacion": "'¿Cuál es el dato más macabro de tu ciudad?' y parte 2"
+      },
+      "evidencia": [
+        { "url": "https://www.socialpilot.co/blog/tiktok-trends", "metrica": "Sonido 'white rabbit's bells': 17,5 K videos, etapa 'Early', +35 % en 10 días", "tipo": "estimado", "fecha": "2026-10-26" },
+        { "url": "https://www.sozee.ai/resources/upcoming-tiktok-trends/", "metrica": "Unos 17.500 videos a mediados de octubre, en 'about to peak'", "tipo": "estimado", "fecha": "2026-10-26" },
+        { "url": "https://es.wikipedia.org/wiki/Lizzie_Borden", "metrica": "Wikipedia es (25-oct): 'Lizzie Borden' 8.916 y 'Michael Rockefeller' 7.076 vistas; en 'Kehlsteinhaus' 59.358", "tipo": "medido", "fecha": "2026-10-26" }
+      ],
+      "formato_hibrido": "salidas/cazador-viral/formatos/formato-dato-macabro-historia-hispana.md"
+    },
+    {
+      "id": "tema-jay-z-super-bowl-lxi",
+      "nombre": "Jay-Z, cabeza de cartel del medio tiempo del Super Bowl LXI",
+      "tipo": "tema",
+      "etapa": "emergente",
+      "puntaje_oportunidad": 72,
+      "ventana_hasta": "2026-10-28",
+      "confianza": "media",
+      "plataformas_objetivo": ["tiktok", "x", "instagram"],
+      "nichos": ["música y artistas", "famosos y farándula"],
+      "resumen": "Anuncio oficial de hoy, con el ángulo polémico de que 'se eligió a sí mismo'. Ventana de 24-72 h para explicadores y predicciones de setlist.",
+      "genes_clave": {
+        "gancho": "'Jay-Z se eligió a sí mismo para el Super Bowl'",
+        "estructura": "Explicación en 20 s y predicción de invitados",
+        "participacion": "'Arma tu setlist' en comentarios"
+      },
+      "evidencia": [
+        { "url": "https://trends24.in/united-states/", "metrica": "Nuevo en X EE. UU. en el #9 y en X mundial en el #17 (1 h en lista, 26-oct 21:37)", "tipo": "medido", "fecha": "2026-10-26" },
+        { "url": "https://www.nfl.com/news/jay-z-to-headline-super-bowl-lxi-at-sofi-stadium-in-inglewood", "metrica": "Anuncio oficial de la NFL; en Google Trends MX sube de 200+ a 500+ en 18 min", "tipo": "medido", "fecha": "2026-10-26" }
+      ],
+      "formato_hibrido": null
+    },
+    {
+      "id": "formato-respuesta-en-una-palabra-ia",
+      "nombre": "Responde en una palabra: preguntas personales a ChatGPT con respuesta de una sola palabra",
+      "tipo": "formato",
+      "etapa": "crecimiento",
+      "contexto_destino": "Crecimiento en tiktok-en; sin adaptar en tiktok-es.",
+      "puntaje_oportunidad": 72,
+      "ventana_hasta": "2026-11-09",
+      "confianza": "baja",
+      "plataformas_objetivo": ["tiktok", "instagram"],
+      "nichos": ["inteligencia artificial y tecnología", "humor y memes"],
+      "resumen": "Grabación de pantalla con la IA, de costo cero y sin cara. Lleva 2 semanas en listas en inglés y no se encontraron versiones en español.",
+      "genes_clave": {
+        "gancho": "'Le pedí a ChatGPT que me respondiera en UNA palabra…'",
+        "estructura": "Preguntas cada vez más íntimas, cada una con una sola palabra de respuesta",
+        "participacion": "Los comentarios proponen las preguntas de la parte 2"
+      },
+      "evidencia": [
+        { "url": "https://newengen.com/insights/tiktok-trends/", "metrica": "Trend #8 en las listas semanales del 14-oct y del 26-oct-2026 (sin conteo de videos)", "tipo": "estimado", "fecha": "2026-10-26" }
+      ],
+      "formato_hibrido": "salidas/cazador-viral/formatos/formato-la-ia-defiende-lo-indefendible.md"
+    },
+    {
+      "id": "tema-gta-vi-lanzamiento",
+      "nombre": "Lanzamiento de GTA VI (19-nov-2026)",
+      "tipo": "tema",
+      "etapa": "crecimiento",
+      "puntaje_oportunidad": 71,
+      "ventana_hasta": "2026-11-19",
+      "confianza": "media",
+      "plataformas_objetivo": ["tiktok", "youtube", "kick", "twitch"],
+      "nichos": ["creadores de contenido y streamers", "inteligencia artificial y tecnología", "música y artistas"],
+      "resumen": "Faltan 24 días y la banda sonora ya está en el #2 de México. Hay espacio para una serie diaria de cuenta atrás.",
+      "genes_clave": {
+        "gancho": "'Faltan N días para GTA VI'",
+        "estructura": "Serie diaria: un dato confirmado y una predicción",
+        "participacion": "'¿Lo juegas el día 1?' (sí o no)"
+      },
+      "evidencia": [
+        { "url": "https://www.techradar.com/gaming/grand-theft-auto-6-delayed-again-but-itll-still-ship-in-2026", "metrica": "Fecha confirmada: 19-nov-2026", "tipo": "medido", "fecha": "2026-10-26" },
+        { "url": "https://kworb.net/spotify/country/mx_daily.html", "metrica": "'Suzuki (from GTAVI: The Album)', #2 en Spotify México con 1.142.776 reproducciones diarias", "tipo": "medido", "fecha": "2026-10-26" }
+      ],
+      "formato_hibrido": "salidas/cazador-viral/formatos/formato-cuenta-atras-gta-vi.md"
+    },
+    {
+      "id": "audio-peli-de-terror-koddy-g",
+      "nombre": "'Peli De Terror' (Køddy G) para reacciones y revelaciones de Halloween",
+      "tipo": "audio",
+      "etapa": "crecimiento",
+      "puntaje_oportunidad": 70,
+      "ventana_hasta": "2026-10-31",
+      "confianza": "media",
+      "plataformas_objetivo": ["tiktok", "instagram"],
+      "nichos": ["música y artistas", "humor y memes"],
+      "resumen": "Audio en español en el #1 de Colombia y RD justo antes de Halloween. Es la alternativa hispana a Ramalama, que ya está en pico, para revelaciones de disfraz.",
+      "genes_clave": {
+        "gancho": "Escena normal que se vuelve 'peli de terror' al entrar el coro",
+        "estructura": "Plano bajo y revelación en el drop (estructura de Ramalama)",
+        "participacion": "Etiquetar al amigo con el que harías el disfraz"
+      },
+      "evidencia": [
+        { "url": "https://kworb.net/spotify/country/co_daily.html", "metrica": "#1 en Spotify Colombia con 322.967 reproducciones diarias (25-oct-2026)", "tipo": "medido", "fecha": "2026-10-26" },
+        { "url": "https://kworb.net/spotify/country/do_daily.html", "metrica": "#1 en Spotify República Dominicana con 30.624 reproducciones diarias", "tipo": "medido", "fecha": "2026-10-26" },
+        { "url": "https://www.sozee.ai/resources/upcoming-tiktok-trends/", "metrica": "Sonido de TikTok en subida, 'about to peak' a finales de octubre", "tipo": "estimado", "fecha": "2026-10-26" }
+      ],
+      "formato_hibrido": null
+    },
+    {
+      "id": "audio-two-fishes",
+      "nombre": "Two Fishes: defender con calma una opinión absurda",
+      "tipo": "audio",
+      "etapa": "pico",
+      "contexto_destino": "Solo como arbitraje de estructura: en pico en tiktok-en; sin adaptar en español. El audio no se usa (está en inglés y tiene derechos).",
+      "puntaje_oportunidad": 70,
+      "ventana_hasta": "2026-11-06",
+      "confianza": "baja",
+      "plataformas_objetivo": ["tiktok", "instagram"],
+      "nichos": ["humor y memes", "inteligencia artificial y tecnología"],
+      "resumen": "Lo replicable es la estructura (defender lo absurdo con calma de IA), no el audio en inglés. Se usa como gen del formato híbrido 'La IA defiende lo indefendible'.",
+      "genes_clave": {
+        "gancho": "Opinión absurda en texto y cara seria",
+        "estructura": "Defensa lógica e imperturbable en un plano fijo",
+        "participacion": "Plantilla de opinión rellenable"
+      },
+      "evidencia": [
+        { "url": "https://newengen.com/insights/tiktok-trends/", "metrica": "Trend #1 de la lista semanal del 26-oct-2026 (señal tardía)", "tipo": "estimado", "fecha": "2026-10-26" },
+        { "url": "https://www.sozee.ai/resources/upcoming-tiktok-trends/", "metrica": "'Peaking this week' (semana del 17-oct-2026)", "tipo": "estimado", "fecha": "2026-10-26" }
+      ],
+      "formato_hibrido": "salidas/cazador-viral/formatos/formato-la-ia-defiende-lo-indefendible.md"
+    },
+    {
+      "id": "audio-housewife-tate-mcrae",
+      "nombre": "'Housewife' (Tate McRae) para revelar outfit o trabajo",
+      "tipo": "audio",
+      "etapa": "crecimiento",
+      "puntaje_oportunidad": 68,
+      "ventana_hasta": "2026-11-02",
+      "confianza": "media",
+      "plataformas_objetivo": ["tiktok", "instagram"],
+      "nichos": ["música y artistas", "general (cualquier contenido altamente viral)"],
+      "resumen": "Canción #1 global, con 238 K videos en su primera semana (+19,8 %). Revelación irónica del 'ama de casa' que resulta ser otra cosa. El pico se acerca.",
+      "genes_clave": {
+        "gancho": "Texto 'ama de casa' y mirada fija a cámara",
+        "estructura": "Revelación del outfit o del trabajo en el beat",
+        "participacion": "Plantilla copiable"
+      },
+      "evidencia": [
+        { "url": "https://tokchart.com/", "metrica": "238.000 videos UGC, +39.400 (+19,84 %); primer video hace 1 semana", "tipo": "medido", "fecha": "2026-10-26" },
+        { "url": "https://kworb.net/spotify/country/global_daily.html", "metrica": "#1 en Spotify Global con 6.254.852 reproducciones diarias", "tipo": "medido", "fecha": "2026-10-26" }
+      ],
+      "formato_hibrido": null
+    },
+    {
+      "id": "audio-dame-hombro",
+      "nombre": "'Dame Hombro' (Bulin 47, Kevin Wai, Breyco En Producidera)",
+      "tipo": "audio",
+      "etapa": "emergente",
+      "puntaje_oportunidad": 66,
+      "ventana_hasta": "2026-11-09",
+      "confianza": "baja",
+      "plataformas_objetivo": ["tiktok"],
+      "nichos": ["música y artistas", "humor y memes"],
+      "resumen": "Dembow que salta de RD a Colombia (+25 en Spotify) y sube en TikTok en videos de gimnasio. Plantilla exacta por confirmar.",
+      "genes_clave": {
+        "gancho": "Movimiento de hombro sincronizado con 'dame hombro' (inferido)",
+        "estructura": "Clip único al ritmo, con juego de palabras entre letra y acción",
+        "participacion": "Plantilla copiable"
+      },
+      "evidencia": [
+        { "url": "https://www.revid.ai/viral-tiktok-songs", "metrica": "#3 en la muestra semanal: 6 posts de 6 creadores, 8,9 M de vistas, Rising x1,6", "tipo": "medido", "fecha": "2026-10-26" },
+        { "url": "https://kworb.net/spotify/country/co_daily.html", "metrica": "#107 en Spotify Colombia, +25 (25-oct-2026)", "tipo": "medido", "fecha": "2026-10-26" }
+      ],
+      "formato_hibrido": null
+    },
+    {
+      "id": "tema-huellas-dinosaurio-michoacan",
+      "nombre": "50 huellas de dinosaurio en Apatzingán, Michoacán (INAH)",
+      "tipo": "tema",
+      "etapa": "emergente",
+      "puntaje_oportunidad": 65,
+      "ventana_hasta": "2026-10-28",
+      "confianza": "media",
+      "plataformas_objetivo": ["tiktok", "facebook", "youtube"],
+      "nichos": ["historia y cultura"],
+      "resumen": "Hallazgo oficial del INAH, con búsquedas en subida en México. Encaja con el formato 'cosas que no sabías de tu estado'. Ventana de 48 h.",
+      "genes_clave": {
+        "gancho": "'En Michoacán caminaron tiranosaurios'",
+        "estructura": "Dato, contexto y mito contra realidad",
+        "participacion": "'¿Qué dato raro tiene tu estado?'"
+      },
+      "evidencia": [
+        { "url": "https://www.inah.gob.mx/boletines/inah-confirma-descubrimiento-de-50-huellas-de-dinosaurios-en-apatzingan-michoacan", "metrica": "Google Trends MX: 'michoacán' de 100+ a 200+ (26-oct)", "tipo": "medido", "fecha": "2026-10-26" }
+      ],
+      "formato_hibrido": null
+    },
+    {
+      "id": "tema-microsoft-recompras-60000",
+      "nombre": "Microsoft ofrece salidas voluntarias a unos 60.000 empleados",
+      "tipo": "tema",
+      "etapa": "emergente",
+      "puntaje_oportunidad": 64,
+      "ventana_hasta": "2026-10-28",
+      "confianza": "baja",
+      "plataformas_objetivo": ["tiktok", "x", "youtube"],
+      "nichos": ["inteligencia artificial y tecnología"],
+      "resumen": "Noticia del día con un gancho contraintuitivo ('les pagan para que se vayan'). No atribuir el recorte a la IA: ninguna fuente lo hace.",
+      "genes_clave": {
+        "gancho": "'Microsoft le paga a 60.000 personas para que se vayan'",
+        "estructura": "Explicación en green screen",
+        "participacion": "'¿Aceptarías?' (sí o no)"
+      },
+      "evidencia": [
+        { "url": "https://www.reuters.com/technology/microsoft-is-offering-buyouts-around-60000-employees-business-insider-reports-2026-10-26/", "metrica": "Google Trends CO: 'microsoft' en 200+; noticia de Reuters del 26-oct", "tipo": "medido", "fecha": "2026-10-26" }
+      ],
+      "formato_hibrido": null
+    }
+  ]
+}
