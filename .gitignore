@@ -15,6 +15,10 @@ salidas/**/trabajo/
 # Configuracion personal de Claude Code
 .claude/settings.local.json
 
-# Credenciales que alguien deje por error en el proyecto
+# Marca de subida en curso del Publicador: solo sobrevive si una subida se corta a medias
+datos/publicador/envios/*.enviando
+
+# Credenciales que alguien deje por error en el proyecto (las del Publicador viven en %USERPROFILE%\.legion)
 *.env
 cookies*.txt
+credenciales*.json

@@ -8,8 +8,9 @@ Una legión de agentes autónomos, cada uno controlado por un loop. Esta sesión
 |---|--------|----------|---------|----------------|--------|
 | 01 | Cazador Viral | Detecta patrones virales replicables antes de que se quemen y diseña formatos híbridos | Redes y recolector propio | `/cazador-viral` | Listo |
 | 02 | Clipero | Encuentra momentos en contenido largo (podcasts, streams, entrevistas) ligados a las oportunidades del 01 y produce clips verticales con subtítulos | `salidas/cazador-viral/oportunidades.json` | `/clipero` | Listo; requiere `herramientas/instalar.ps1` |
+| 03 | Publicador | Escribe los textos de cada plataforma y sube a YouTube, TikTok, Instagram y Facebook los clips que el usuario aprueba | `salidas/clipero/clips.json` | `/publicador`, `/publicador aprobar <clip-id>` | En simulación; cada plataforma requiere credenciales (`legion/03-publicador/plataformas.md`) |
 
-**Cadena:** `/legion` ejecuta los agentes en orden (01 → 02). Es lo que debe correr en el loop: `/loop 6h /legion`. Cada agente nuevo que dependa de otro se añade como paso en `.claude/skills/legion/SKILL.md`.
+**Cadena:** `/legion` ejecuta los agentes en orden (01 → 02 → 03). Es lo que debe correr en el loop: `/loop 6h /legion`. Cada agente nuevo que dependa de otro se añade como paso en `.claude/skills/legion/SKILL.md`.
 
 ## Convenciones para todo agente
 
