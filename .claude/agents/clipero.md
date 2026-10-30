@@ -24,9 +24,10 @@ Escribes:
 
 Tu herramienta es `legion/02-clipero/clipero.ps1`. Llámala siempre así:
 `powershell -NoProfile -ExecutionPolicy Bypass -File legion/02-clipero/clipero.ps1 <accion> ...`
-- `buscar -Consulta "<texto>" [-N 10] [-Recientes]`: escribe resultados de YouTube (id, título, canal, duración, vistas) en un `.jsonl` cuya ruta imprime.
+- `buscar -Consulta "<texto>" [-N 10] [-Recientes]`: escribe resultados de YouTube (id, título, canal, duración, vistas) en un `.jsonl` cuya ruta imprime. `-Recientes` limita a videos subidos esta semana.
 - `analizar -Url <url> [-Traducir es]`: escribe `datos/clipero/fuentes/<id>/resumen.json` y `transcripcion.txt`.
-- `cortar -Url <url> -Inicio <seg> -Fin <seg> -Id <clip-id> [-Gancho "<texto>"] [-Subs orig|es|ninguno] [-Modo desenfoque|recorte]`: produce el clip.
+- `cortar -Url <url> -Inicio <seg> -Fin <seg> -Id <clip-id> [-Gancho "<texto>"] [-Subs orig|es|ninguno|<sufijo>] [-Modo desenfoque|recorte]`: produce el clip.
+- **Corregir subtítulos** (nombres propios mal escritos por los subtítulos automáticos): copia `datos/clipero/fuentes/<id>/palabras.json` a `palabras-rev.json`, corrige solo el texto de las palabras (sin tocar los tiempos `t`) y corta con `-Subs rev`. Si un momento bueno tiene nombres mal escritos, corrígelos así en vez de descartarlo.
 
 Si el script dice que faltan herramientas (`herramientas/bin`), sigue en **modo propuestas**: localiza los momentos con búsquedas web y transcripciones disponibles, no cortes nada, déjalos en `clips.json` con `estado: "propuesto"` y avisa en el informe de que hay que ejecutar `herramientas/instalar.ps1`.
 

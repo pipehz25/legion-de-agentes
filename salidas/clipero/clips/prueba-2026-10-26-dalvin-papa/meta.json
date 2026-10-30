@@ -10,7 +10,17 @@
     "subtitulos":  "orig",
     "palabras_subtituladas":  84,
     "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -9.93,
+                  "entrada_tp":  2.41,
+                  "salida_lufs":  -13.89,
+                  "salida_tp":  -1.71
+              },
     "archivo":  "salidas/clipero/clips/prueba-2026-10-26-dalvin-papa/clip.mp4",
     "portada":  "salidas/clipero/clips/prueba-2026-10-26-dalvin-papa/portada.jpg",
-    "creado":  "2026-10-26T22:14:15.0418490-05:00"
+    "revision":  "salidas/clipero/clips/prueba-2026-10-26-dalvin-papa/revision.jpg",
+    "creado":  "2026-10-26T22:30:22.3383070-05:00"
 }

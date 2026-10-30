@@ -54,6 +54,7 @@ Antes de cortar, comprobar si el momento ya está recortado: `clipero.ps1 buscar
 - **Duración:** entre 15 y 75 s; lo ideal, de 25 a 45 s.
 - **Texto de gancho:** como mucho 8 palabras. Crea curiosidad sin mentir sobre lo que pasa.
 - **Subtítulos en el idioma de la audiencia.** Si la fuente está en otro idioma, se analiza con `-Traducir es` y se corta con `-Subs es`.
+- **Audio:** `cortar` lo normaliza a -14 LUFS integrado con pico real ≤ -1 dBTP, en dos pasadas y siempre en modo lineal, y lo exporta en AAC a 48 kHz. Queda registrado en el `audio` de `meta.json`. Si `objetivo_lufs` queda por debajo de -14, la fuente tiene picos extremos y el clip saldrá algo más bajo: se anota en la ficha. Si la fuente ya venía saturada (`entrada_tp` > 0), la normalización no repara esa distorsión; si se oye, se busca otra fuente del mismo momento.
 - **Modo de video:** `desenfoque` (video completo al centro sobre fondo desenfocado) sirve para todo y nunca corta caras. `recorte` (centro a pantalla completa) solo cuando hay una sola persona centrada.
 - **Verificación visual:** después de cortar, mirar `revision.jpg` (4 cuadros repartidos por todo el clip). El gancho y los subtítulos se tienen que leer y no pueden tapar caras. Tampoco puede haber **anuncios ni banners incrustados** en la fuente (promociones de conciertos, patrocinadores, marcas de terceros). Si aparecen, se mueven la entrada o la salida para evitarlos; si ocupan el momento entero, se descarta.
 

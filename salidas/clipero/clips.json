@@ -1,0 +1,81 @@
+{
+  "generado": "2026-10-29T19:20:00-05:00",
+  "ciclo": 1,
+  "clips": [
+    {
+      "id": "2026-10-29-blessd-valle-medellin",
+      "estado": "listo",
+      "tipo": "frase",
+      "puntaje": 74,
+      "gancho": "Blessd y Pirlo: ¿Valle contra Medellín?",
+      "archivo": "salidas/clipero/clips/2026-10-29-blessd-valle-medellin/clip.mp4",
+      "ficha": "salidas/clipero/clips/2026-10-29-blessd-valle-medellin/ficha.md",
+      "duracion_seg": 17.3,
+      "fuente": { "url": "https://youtu.be/LYEB5ioD_pY?t=5149", "canal": "Kerry Kambell", "inicio": 5149.65, "fin": 5166.94 },
+      "oportunidad_cazador": null,
+      "derechos": "sin_verificar",
+      "plataformas": ["tiktok", "youtube", "instagram"],
+      "ventana_hasta": "2026-10-31"
+    },
+    {
+      "id": "2026-10-29-blessd-tregua-pirlo",
+      "estado": "listo",
+      "tipo": "revelacion",
+      "puntaje": 76,
+      "gancho": "¿Habrá tregua entre Blessd y Pirlo?",
+      "archivo": "salidas/clipero/clips/2026-10-29-blessd-tregua-pirlo/clip.mp4",
+      "ficha": "salidas/clipero/clips/2026-10-29-blessd-tregua-pirlo/ficha.md",
+      "duracion_seg": 58.7,
+      "fuente": { "url": "https://youtu.be/LYEB5ioD_pY?t=5502", "canal": "Kerry Kambell", "inicio": 5502.69, "fin": 5561.38 },
+      "oportunidad_cazador": null,
+      "derechos": "sin_verificar",
+      "plataformas": ["tiktok", "instagram", "youtube"],
+      "ventana_hasta": "2026-10-31"
+    },
+    {
+      "id": "2026-10-29-blessd-trap-ser-calle",
+      "estado": "listo",
+      "tipo": "frase",
+      "puntaje": 76,
+      "gancho": "¿Hay que ser calle para cantar trap?",
+      "archivo": "salidas/clipero/clips/2026-10-29-blessd-trap-ser-calle/clip.mp4",
+      "ficha": "salidas/clipero/clips/2026-10-29-blessd-trap-ser-calle/ficha.md",
+      "duracion_seg": 40.8,
+      "fuente": { "url": "https://youtu.be/LYEB5ioD_pY?t=4941", "canal": "Kerry Kambell", "inicio": 4941.41, "fin": 4982.18 },
+      "oportunidad_cazador": null,
+      "derechos": "sin_verificar",
+      "plataformas": ["tiktok", "youtube", "instagram"],
+      "ventana_hasta": "2026-10-31"
+    },
+    {
+      "id": "2026-10-29-blessd-bando-progreso",
+      "estado": "propuesto",
+      "tipo": "frase",
+      "puntaje": 68,
+      "gancho": "Blessd: ¿cuál es su bando?",
+      "archivo": null,
+      "ficha": null,
+      "duracion_seg": 22.0,
+      "fuente": { "url": "https://youtu.be/LYEB5ioD_pY?t=5210", "canal": "Kerry Kambell", "inicio": 5210.1, "fin": 5232.1 },
+      "oportunidad_cazador": null,
+      "derechos": "sin_verificar",
+      "plataformas": ["tiktok", "instagram", "youtube"],
+      "ventana_hasta": "2026-10-31"
+    },
+    {
+      "id": "2026-10-29-blessd-ryan-castro-los-mismos",
+      "estado": "propuesto",
+      "tipo": "frase",
+      "puntaje": 68,
+      "gancho": "¿Diez años con los mismos en el reggaetón?",
+      "archivo": null,
+      "ficha": null,
+      "duracion_seg": 44.6,
+      "fuente": { "url": "https://youtu.be/LYEB5ioD_pY?t=3520", "canal": "Kerry Kambell", "inicio": 3520.9, "fin": 3565.5 },
+      "oportunidad_cazador": null,
+      "derechos": "sin_verificar",
+      "plataformas": ["tiktok", "instagram", "youtube"],
+      "ventana_hasta": "2026-11-01"
+    }
+  ]
+}

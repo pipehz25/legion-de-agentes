@@ -1,6 +1,7 @@
 # Herramienta del Clipero (Agente 02 de la Legion). Tres acciones:
 #   buscar   -Consulta "<texto>" [-N 10] [-Recientes]
-#            -> datos/clipero/busquedas/<marca>.jsonl con videos candidatos (duracion, vistas, canal)
+#            -> datos/clipero/busquedas/<marca>.jsonl con videos candidatos (duracion, vistas, canal).
+#               -Recientes: solo videos subidos esta semana.
 #   analizar -Url <url> [-Traducir es]
 #            -> datos/clipero/fuentes/<id>/: resumen.json (picos de "mas repetido", marcas de tiempo en comentarios,
 #               capitulos), transcripcion.txt y palabras*.json (palabras con tiempo, para subtitular)
@@ -78,7 +79,8 @@ function PalabrasJson3([string]$ruta) {
         for ($k = 0; $k -lt $segs.Count; $k++) {
             $a = $ini + [double]$segs[$k].tOffsetMs
             $b = if ($k + 1 -lt $segs.Count) { $ini + [double]$segs[$k + 1].tOffsetMs } else { $finEv }
-            $ws = @($segs[$k].utf8.Trim() -split '\s+' | Where-Object { $_ })
+            # YouTube tapa las groserias como "[ __ ]"; se deja una sola palabra "***" para que no salgan "[", "__" y "]"
+            $ws = @(($segs[$k].utf8.Trim() -replace '\[\s*_+\s*\]', '***') -split '\s+' | Where-Object { $_ })
             if ($b -le $a) { $b = $a + 400 * $ws.Count }
             for ($q = 0; $q -lt $ws.Count; $q++) {
                 $lista.Add([pscustomobject]@{ t = [math]::Round(($a + ($b - $a) * $q / $ws.Count) / 1000.0, 2); w = $ws[$q] })
@@ -109,14 +111,70 @@ function TiempoAss([double]$s) {
 }
 function TextoAss([string]$s) { ($s -replace '[{}\\]', '') -replace '\r?\n', '\N' }
 
+# Ejecuta ffmpeg dentro de trabajo/ con stderr a un archivo (en PowerShell 5.1, 2>&1 convierte cada linea en error)
+# y devuelve el texto del registro. Los argumentos no pueden llevar espacios: se usan rutas relativas.
+function FfmpegLog([string[]]$argumentos, [string]$nombreLog) {
+    $log = Join-Path $trabajo $nombreLog
+    $p = Start-Process -FilePath $ffmpeg -ArgumentList (@('-hide_banner', '-nostats') + $argumentos) -WorkingDirectory $trabajo `
+        -NoNewWindow -Wait -PassThru -RedirectStandardError $log
+    $texto = [IO.File]::ReadAllText($log, $utf8)
+    if ($p.ExitCode -ne 0) { throw "ffmpeg termino con codigo $($p.ExitCode): $((($texto -split '\r?\n') | Where-Object { $_ } | Select-Object -Last 4) -join ' | ')" }
+    $texto
+}
+# loudnorm imprime sus mediciones como el ultimo bloque JSON (plano) del registro
+function JsonFinal([string]$texto) {
+    $a = $texto.LastIndexOf('{'); $b = $texto.LastIndexOf('}')
+    if ($a -lt 0 -or $b -lt $a) { throw 'loudnorm no devolvio mediciones' }
+    $texto.Substring($a, $b - $a + 1) | ConvertFrom-Json
+}
+function Dbl($s) { [double]::Parse([string]$s, $cultura) }
+
+# Normalizacion de volumen en dos pasadas: -14 LUFS integrado y pico real -1 dBTP, siempre en modo lineal.
+# loudnorm solo aplica modo lineal si la ganancia necesaria no lleva los picos por encima de -1 dBTP y el LRA
+# medido cabe en el objetivo; si no, pasa a modo dinamico (volumen que sube y baja). Para evitarlo:
+#   1. LRA objetivo amplio (20, o el medido si es mayor).
+#   2. Si la ganancia no cabe, un limitador baja los picos antes y se vuelve a medir a traves de el.
+#   3. Ultimo recurso: bajar el objetivo integrado lo justo para seguir en lineal.
+# Devuelve la cadena -af para la pasada 2 y los datos de la medicion.
+function Normalizar([string]$entrada) {
+    $res = [ordered]@{ cadena = $null; normalizacion = 'omitida'; objetivo_lufs = -14.0; limitador = $false }
+    $pistas = & $ffprobe -v error -select_streams a -show_entries stream=index -of csv=p=0 (Join-Path $trabajo $entrada)
+    if (-not $pistas) { $res.normalizacion = 'omitida: sin audio'; return $res }
+    try {
+        $lra = 20
+        $m = JsonFinal (FfmpegLog @('-i', $entrada, '-vn', '-af', "loudnorm=I=-14:TP=-1:LRA=$($lra):print_format=json", '-f', 'null', '-') 'medida1.txt')
+        $i = Dbl $m.input_i; $tp = Dbl $m.input_tp
+        if ((Dbl $m.input_lra) -gt $lra) { $lra = [int][math]::Min(50, [math]::Ceiling((Dbl $m.input_lra)) + 1) }
+        $pre = ''
+        $ganancia = -14 - $i
+        if ($tp + $ganancia -gt -1) {
+            $limite = [math]::Min(1.0, [math]::Max(0.0625, [math]::Pow(10, (-1 - $ganancia - 0.5) / 20)))
+            $pre = "alimiter=limit=$(Num $limite):level=0:attack=5:release=50,"
+            $m = JsonFinal (FfmpegLog @('-i', $entrada, '-vn', '-af', "$($pre)loudnorm=I=-14:TP=-1:LRA=$($lra):print_format=json", '-f', 'null', '-') 'medida2.txt')
+            $i = Dbl $m.input_i; $tp = Dbl $m.input_tp
+            $res.limitador = $true
+        }
+        if ($tp + ($res.objetivo_lufs - $i) -gt -1) { $res.objetivo_lufs = [math]::Floor((-1 - $tp + $i) * 10) / 10 }
+        $res.entrada_lufs = $i; $res.entrada_tp = $tp
+        $res.cadena = "$($pre)loudnorm=I=$(Num $res.objetivo_lufs):TP=-1:LRA=$($lra):measured_I=$($m.input_i):measured_TP=$($m.input_tp)" +
+            ":measured_LRA=$($m.input_lra):measured_thresh=$($m.input_thresh):offset=$($m.target_offset):linear=true:print_format=json"
+    } catch {
+        # Audio sin nivel medible (silencio: loudnorm devuelve -inf) o fallo de la medicion: el clip sale sin normalizar
+        $res.normalizacion = "omitida: $($_.Exception.Message)"
+    }
+    $res
+}
+
 # ---------------------------------------------------------------- buscar
 if ($Accion -eq 'buscar') {
     if (-not $Consulta) { throw 'Falta -Consulta' }
     $dir = Join-Path $raiz 'datos\clipero\busquedas'
     New-Item -ItemType Directory -Force $dir | Out-Null
     $archivo = Join-Path $dir ((Get-Date -Format 'yyyy-MM-dd_HHmmss') + '.jsonl')
-    $prefijo = if ($Recientes) { 'ytsearchdate' } else { 'ytsearch' }
-    YtDlp @('--flat-playlist', '--skip-download', '--print-to-file', '%(.{id,title,channel,duration,view_count,live_status,url})j', $archivo, "$prefijo$($N):$Consulta")
+    # yt-dlp no tiene busqueda ordenada por fecha (ytsearchdate no existe) y YouTube quito ese orden;
+    # -Recientes usa el filtro "subidos esta semana" de la pagina de resultados.
+    $objetivo = if ($Recientes) { "https://www.youtube.com/results?search_query=$([uri]::EscapeDataString($Consulta))&sp=EgIIAw%253D%253D" } else { "ytsearch$($N):$Consulta" }
+    YtDlp @('--flat-playlist', '--skip-download', '--playlist-end', "$N", '--print-to-file', '%(.{id,title,channel,duration,view_count,live_status,url})j', $archivo, $objetivo)
     $total = if (Test-Path $archivo) { @(Get-Content $archivo).Count } else { 0 }
     "Busqueda: $(Relativa $archivo) ($total resultados)"
     exit 0
@@ -302,9 +360,20 @@ try {
     # Rutas relativas dentro de trabajo/: evita problemas de ffmpeg con acentos y espacios en la ruta del proyecto
     Push-Location $trabajo
     try {
-        & $ffmpeg -hide_banner -loglevel error -y -i $video.Name -filter_complex $filtro -map '[v]' -map '0:a?' `
-            -c:v libx264 -preset veryfast -crf 21 -pix_fmt yuv420p -c:a aac -b:a 160k -movflags +faststart '..\clip.mp4'
-        if ($LASTEXITCODE -ne 0) { throw "ffmpeg termino con codigo $LASTEXITCODE" }
+        # Pasada 1 (medicion) dentro de Normalizar; pasada 2 aplicada durante el render. El audio sale en AAC a 48 kHz
+        # (loudnorm trabaja internamente a 192 kHz).
+        $audio = Normalizar $video.Name
+        $af = if ($audio.cadena) { @('-af', $audio.cadena, '-ar', '48000') } else { @() }
+        $log = FfmpegLog (@('-y', '-i', $video.Name, '-filter_complex', $filtro, '-map', '[v]', '-map', '0:a?') + $af + @(
+            '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '21', '-pix_fmt', 'yuv420p',
+            '-c:a', 'aac', '-b:a', '160k', '-movflags', '+faststart', '..\clip.mp4')) 'render.txt'
+        if ($audio.cadena) {
+            $final = JsonFinal $log
+            $audio.normalizacion = $final.normalization_type
+            $audio.salida_lufs = Dbl $final.output_i
+            $audio.salida_tp = Dbl $final.output_tp
+        }
+        $audio.Remove('cadena')
         & $ffmpeg -hide_banner -loglevel error -y -ss (Num ([math]::Min(1.5, $durClip / 2))) -i '..\clip.mp4' -frames:v 1 -q:v 3 '..\portada.jpg'
         # Hoja de revision: 4 cuadros repartidos por todo el clip en una sola imagen
         & $ffmpeg -hide_banner -loglevel error -y -i '..\clip.mp4' -vf "fps=4/$(Num $durClip),scale=270:-2,tile=4x1" -frames:v 1 -q:v 3 '..\revision.jpg'
@@ -315,6 +384,7 @@ try {
         id = $Id; url_fuente = $Url; video_id = $vid
         inicio = [math]::Round($ini, 2); fin = [math]::Round($fin, 2); inicio_hms = Hms $ini; duracion_seg = [math]::Round($real, 1)
         gancho = $Gancho; subtitulos = $(if ($ws.Count) { $Subs } else { 'ninguno' }); palabras_subtituladas = $ws.Count; modo = $Modo
+        audio = $audio
         archivo = Relativa (Join-Path $salida 'clip.mp4'); portada = Relativa (Join-Path $salida 'portada.jpg')
         revision = Relativa (Join-Path $salida 'revision.jpg')
         creado = (Get-Date).ToString('o')
@@ -325,5 +395,10 @@ try {
 }
 
 "Clip: $($meta.archivo) ($($meta.duracion_seg) s, corte $(Num $ini)-$(Num $fin), subtitulos=$($meta.subtitulos) [$($ws.Count) palabras])"
+if ($audio.normalizacion -eq 'linear') {
+    "Audio: $(Num $audio.salida_lufs) LUFS, pico $(Num $audio.salida_tp) dBTP (lineal$(if ($audio.limitador) { ', con limitador' }), objetivo $(Num $audio.objetivo_lufs) LUFS)"
+} else {
+    "AVISO audio: normalizacion '$($audio.normalizacion)' (se esperaba lineal)"
+}
 "Portada: $($meta.portada)"
 "Revision (4 cuadros): $($meta.revision)"

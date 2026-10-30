@@ -1,7 +1,24 @@
 {
-  "actualizado": null,
-  "ciclo": 0,
-  "ultimo_ciclo_cazador": null,
-  "fuentes": [],
-  "momentos": []
+  "actualizado": "2026-10-29T19:20:00-05:00",
+  "ciclo": 1,
+  "ultimo_ciclo_cazador": 1,
+  "fuentes": [
+    {
+      "id": "LYEB5ioD_pY",
+      "url": "https://youtu.be/LYEB5ioD_pY",
+      "titulo": "BLESSD Rompe el Silencio | Sinvergüenza Podcast By Kerry Kambell",
+      "analizado": "2026-10-29",
+      "resultado": "3 clips | fuente indicada por el usuario | publicada 2026-10-28, 7094 s, 590.604 vistas (29-oct 19:01), canal 60.600 subs | sin picos de repetición (menos de 48 h), 3 marcas en comentarios | palabras-rev.json = palabras.json con [ __ ] -> ***"
+    }
+  ],
+  "momentos": [
+    { "fuente": "LYEB5ioD_pY", "inicio": 4941.41, "fin": 4982.18, "estado": "cortado", "clip": "2026-10-29-blessd-trap-ser-calle", "motivo": "frase, 76: ¿hay que ser calle para cantar trap? 'La real, no'" },
+    { "fuente": "LYEB5ioD_pY", "inicio": 5502.69, "fin": 5561.38, "estado": "cortado", "clip": "2026-10-29-blessd-tregua-pirlo", "motivo": "revelacion, 76: descarta la tregua con Pirlo ('son cosas personales'), citado por Infobae, El Universal y RCN el 29-oct" },
+    { "fuente": "LYEB5ioD_pY", "inicio": 5149.65, "fin": 5166.94, "estado": "cortado", "clip": "2026-10-29-blessd-valle-medellin", "motivo": "frase, 74: 'el problema no es del Valle y de Medellín, es de Steven y de Emanuel'" },
+    { "fuente": "LYEB5ioD_pY", "inicio": 5210.1, "fin": 5232.1, "estado": "propuesto", "clip": "2026-10-29-blessd-bando-progreso", "motivo": "68, sin cortar por el límite de 3 clips. Frescura baja: ya está en el avance del podcast (0:00:05-0:00:35). Corregir en subtítulos 'estraditles' -> 'Extraditables' y 'mediocríaad' -> 'mediocridad'" },
+    { "fuente": "LYEB5ioD_pY", "inicio": 3520.9, "fin": 3565.5, "estado": "propuesto", "clip": "2026-10-29-blessd-ryan-castro-los-mismos", "motivo": "68, sin cortar por el límite de 3 clips. 'Llevaban más de 10 años donde eran los mismos: Karol, Maluma, Balvin'. Los subtítulos automáticos tienen nombres mal escritos ('Carol', 'Fake', 'caroluma, Albin'): no cortar sin corregirlos" },
+    { "fuente": "LYEB5ioD_pY", "inicio": 4394.0, "fin": 4450.0, "estado": "propuesto", "clip": null, "motivo": "72, 'yo le quería salvar la vida' (Pirlo). No se corta: es el titular de toda la prensa del 29-oct (frescura baja) y el tramo incluye afirmaciones sobre la adicción de un tercero en un caso con denuncia en la Fiscalía; quitarlas uniría frases separadas. Necesita revisión humana" },
+    { "fuente": "LYEB5ioD_pY", "inicio": 1270.0, "fin": 1334.0, "estado": "descartado", "clip": null, "motivo": "58, bajo el umbral. Habla el anfitrión (Kerry), no Blessd: 'he sido el sinónimo de menosprecio'. Solo 1 mención en comentarios (21:49, 2 likes)" },
+    { "fuente": "LYEB5ioD_pY", "inicio": 0.0, "fin": 35.0, "estado": "descartado", "clip": null, "motivo": "Avance del propio podcast: une la pregunta sobre la tregua (1:31:35) con la respuesta del 'bando' (1:26:48). Une frases separadas (§6). No reutilizar" }
+  ]
 }

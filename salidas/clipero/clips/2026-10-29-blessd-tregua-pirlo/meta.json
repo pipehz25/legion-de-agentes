@@ -1,0 +1,26 @@
+{
+    "id":  "2026-10-29-blessd-tregua-pirlo",
+    "url_fuente":  "https://youtu.be/LYEB5ioD_pY",
+    "video_id":  "LYEB5ioD_pY",
+    "inicio":  5502.69,
+    "fin":  5561.38,
+    "inicio_hms":  "1:31:42",
+    "duracion_seg":  58.7,
+    "gancho":  "¿Habrá tregua entre Blessd y Pirlo?",
+    "subtitulos":  "orig",
+    "palabras_subtituladas":  211,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14.1,
+                  "limitador":  true,
+                  "entrada_lufs":  -20.31,
+                  "entrada_tp":  -7.29,
+                  "salida_lufs":  -14.11,
+                  "salida_tp":  -1.08
+              },
+    "archivo":  "salidas/clipero/clips/2026-10-29-blessd-tregua-pirlo/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-10-29-blessd-tregua-pirlo/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-10-29-blessd-tregua-pirlo/revision.jpg",
+    "creado":  "2026-10-29T19:11:20.9715655-05:00"
+}

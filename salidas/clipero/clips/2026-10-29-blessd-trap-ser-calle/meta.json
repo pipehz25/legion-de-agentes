@@ -1,0 +1,26 @@
+{
+    "id":  "2026-10-29-blessd-trap-ser-calle",
+    "url_fuente":  "https://youtu.be/LYEB5ioD_pY",
+    "video_id":  "LYEB5ioD_pY",
+    "inicio":  4941.41,
+    "fin":  4982.18,
+    "inicio_hms":  "1:22:21",
+    "duracion_seg":  40.8,
+    "gancho":  "¿Hay que ser calle para cantar trap?",
+    "subtitulos":  "orig",
+    "palabras_subtituladas":  157,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -18.19,
+                  "entrada_tp":  -5.21,
+                  "salida_lufs":  -13.76,
+                  "salida_tp":  -1.02
+              },
+    "archivo":  "salidas/clipero/clips/2026-10-29-blessd-trap-ser-calle/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-10-29-blessd-trap-ser-calle/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-10-29-blessd-trap-ser-calle/revision.jpg",
+    "creado":  "2026-10-29T19:08:36.6555408-05:00"
+}
