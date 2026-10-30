@@ -400,10 +400,17 @@ switch ($Accion) {
                         'youtube' { $o.cuenta = @((Api Get 'https://www.googleapis.com/youtube/v3/channels?part=snippet&mine=true' $null @{ Authorization = "Bearer $(TokenYoutube)" }).items)[0].snippet.title }
                         'tiktok' {
                             # Nombre visible de la cuenta conectada (user.info.basic), para saber adonde van los videos
-                            $yo = Api Get 'https://open.tiktokapis.com/v2/user/info/?fields=display_name' $null @{ Authorization = "Bearer $(TokenTiktok)" }
+                            $hTk = @{ Authorization = "Bearer $(TokenTiktok)" }
+                            $yo = Api Get 'https://open.tiktokapis.com/v2/user/info/?fields=display_name' $null $hTk
                             RevisarTiktok $yo
                             $u = UsuarioTiktok $c
                             $o.cuenta = if ($u) { "@$u ($($yo.data.user.display_name))" } else { $yo.data.user.display_name }
+                            # Privacidades que TikTok admite hoy en publicacion directa (sin auditoria: solo SELF_ONLY)
+                            try {
+                                $ci = Api Post 'https://open.tiktokapis.com/v2/post/publish/creator_info/query/' '{}' $hTk
+                                RevisarTiktok $ci
+                                $o.detalle = "directo admite: $(@($ci.data.privacy_level_options) -join ', ')"
+                            } catch { $o.detalle = "directo no disponible: $_" }
                         }
                         'instagram' { $ci = CredInstagram; $o.cuenta = (Api Get "$(BaseInstagram)/$($ci.ig_user_id)?fields=username&access_token=$([Uri]::EscapeDataString($ci.access_token))").username }
                         'facebook' { $o.cuenta = (Api Get "https://graph.facebook.com/$graph/$($c.page_id)?fields=name&access_token=$([Uri]::EscapeDataString($c.page_token))").name }
