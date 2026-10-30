@@ -62,6 +62,12 @@ function LeerSecreto([string]$texto) {
     $p = [Runtime.InteropServices.Marshal]::SecureStringToBSTR($s)
     try { [Runtime.InteropServices.Marshal]::PtrToStringBSTR($p) } finally { [Runtime.InteropServices.Marshal]::ZeroFreeBSTR($p) }
 }
+# autorizar sin preguntas: si existe LEGION_CLIENT_KEY, los datos salen de variables de entorno (vacios si faltan)
+$sinPreguntas = [bool]$env:LEGION_CLIENT_KEY
+function Dato([string]$texto, [string]$variable, [switch]$Secreto) {
+    if ($sinPreguntas) { return ([string][Environment]::GetEnvironmentVariable($variable)).Trim() }
+    if ($Secreto) { (LeerSecreto $texto).Trim() } else { (Read-Host $texto).Trim() }
+}
 
 # --- HTTP ---
 function ErrorHttp($e) {
@@ -201,6 +207,12 @@ function TokenTiktok {
     }
     $r.access_token
 }
+# El usuario (sin @) solo sirve para armar enlaces; si no se dio al autorizar, se toma de config.json
+function UsuarioTiktok($c) {
+    $u = Campo $c 'usuario'
+    if (-not $u) { $u = Campo $config.plataformas.tiktok 'usuario' }
+    $u
+}
 function RevisarTiktok($r) { if ($r.error -and $r.error.code -and $r.error.code -ne 'ok') { throw "TikTok: $($r.error.code). $($r.error.message)" } }
 function SubirTiktok($envio, [string]$archivo) {
     $cfg = $config.plataformas.tiktok
@@ -255,7 +267,7 @@ function ComprobarTiktok([string]$id) {
     }
     # "publicaly" (sic): asi se llama el campo en la API
     $post = @($r.data.publicaly_available_post_id)[0]
-    $usuario = Campo (CredDe 'tiktok') 'usuario'
+    $usuario = UsuarioTiktok (CredDe 'tiktok')
     $url = if ($post -and $usuario) { "https://www.tiktok.com/@$usuario/video/$post" } else { $null }
     [ordered]@{ estado = $estado; url = $url; detalle = "$($r.data.status) $($r.data.fail_reason)".Trim() }
 }
@@ -386,7 +398,7 @@ switch ($Accion) {
                 try {
                     switch ($p) {
                         'youtube' { $o.cuenta = @((Api Get 'https://www.googleapis.com/youtube/v3/channels?part=snippet&mine=true' $null @{ Authorization = "Bearer $(TokenYoutube)" }).items)[0].snippet.title }
-                        'tiktok' { TokenTiktok | Out-Null; $o.cuenta = Campo $c 'usuario' }
+                        'tiktok' { TokenTiktok | Out-Null; $o.cuenta = UsuarioTiktok $c }
                         'instagram' { $ci = CredInstagram; $o.cuenta = (Api Get "$(BaseInstagram)/$($ci.ig_user_id)?fields=username&access_token=$([Uri]::EscapeDataString($ci.access_token))").username }
                         'facebook' { $o.cuenta = (Api Get "https://graph.facebook.com/$graph/$($c.page_id)?fields=name&access_token=$([Uri]::EscapeDataString($c.page_token))").name }
                     }
@@ -486,9 +498,10 @@ switch ($Accion) {
                 GuardarPlataforma 'youtube' ([ordered]@{ client_id = $id; client_secret = $secreto; refresh_token = $t.refresh_token; autorizado = (Ahora) })
             }
             'tiktok' {
-                $clave = (Read-Host 'client_key de la app de TikTok').Trim()
-                $secreto = (LeerSecreto 'client_secret').Trim()
-                $usuario = (Read-Host 'Tu usuario de TikTok, sin @ (solo para armar los enlaces)').Trim().TrimStart('@')
+                $clave = Dato 'client_key de la app de TikTok' 'LEGION_CLIENT_KEY'
+                $secreto = Dato 'client_secret' 'LEGION_CLIENT_SECRET' -Secreto
+                $usuario = (Dato 'Tu usuario de TikTok, sin @ (solo para armar los enlaces)' 'LEGION_USUARIO').TrimStart('@')
+                if (-not $clave -or -not $secreto) { throw 'Falta el client_key o el client_secret (se pego vacio). Vuelve a ejecutar el comando.' }
                 $redir = $config.plataformas.tiktok.redirect_uri
                 $verif = Aleatorio 64
                 $estadoOauth = Aleatorio 24
