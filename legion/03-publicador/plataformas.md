@@ -36,15 +36,30 @@ Un video vertical de hasta 3 minutos se trata como Short automáticamente.
 
 ## 4. TikTok
 
-1. En https://developers.tiktok.com crea una app y añade **Login Kit** y **Content Posting API**.
-2. Permisos: `user.info.basic`, `video.upload` y `video.publish`.
-3. Registra como redirect URI exactamente el de `config.json` → `tiktok.redirect_uri` (por defecto `http://localhost:8765/callback/`). Si TikTok no acepta esa dirección para apps de escritorio, registra la que admita y cópiala en `config.json`.
-4. Ejecuta `autorizar -Plataforma tiktok`: pide client_key, client_secret y tu usuario (sin @).
-5. **Destino:**
+Así quedó configurada el 2026-10-29 (organización *Legion de Agentes IA*, app *Legion Publicador*, en **sandbox**):
+
+1. **Cuenta de developer** en https://developers.tiktok.com. Se crea con un correo y no es la cuenta de TikTok normal. Dentro, crea una organización y, en *Manage apps → Connect an app*, una app de tipo **Other**. El tipo no se puede cambiar después: *Mini game* no sirve.
+2. **Sandbox:** pon el interruptor junto al nombre de la app en *Sandbox* y crea uno. No necesita la revisión de TikTok y sus credenciales empiezan por `sb`. Las de producción, que empiezan por `aw`, no sirven sin revisión.
+3. **Ficha del sandbox.** Todos los campos son obligatorios. Si falta uno, no se guarda nada y la autorización falla con el error `client_key`.
+   - Icono: `docs/icono.png`. Descripción, de 120 caracteres como máximo.
+   - Términos: `https://github.com/pipehz25/legion-de-agentes/blob/main/docs/terminos.md`
+   - Privacidad: `https://github.com/pipehz25/legion-de-agentes/blob/main/docs/privacidad.md`
+   - Plataforma **Desktop**, no Web, con la URL `https://github.com/pipehz25/legion-de-agentes`.
+4. **Productos:** **Login Kit**, con el redirect URI de Desktop igual a `config.json` → `tiktok.redirect_uri` (`http://localhost:8765/callback/`), y **Content Posting API**, con *Direct Post* activado. *Verify domains* no hace falta, porque se sube el archivo y no una URL.
+5. **Scopes:** `user.info.basic`, `video.upload` y `video.publish`.
+6. **Target users:** añade la cuenta de TikTok donde se publica, iniciando sesión con ella. Si falta, la autorización da `non_sandbox_target`.
+7. **Autorizar:** `autorizar -Plataforma tiktok` pide el client_key, el client_secret y tu usuario (sin @). En el navegador se entra con la cuenta de TikTok normal, no con la de developer. Para lanzarlo sin preguntas, por ejemplo desde Claude, pasa los datos en las variables de entorno `LEGION_CLIENT_KEY`, `LEGION_CLIENT_SECRET` y `LEGION_USUARIO`.
+8. **Destino:**
    - `borrador` (por defecto): el video llega a la bandeja de TikTok y se termina de publicar desde la app (sonido, portada y texto). Es lo recomendado mientras la app no esté auditada.
    - `directo`: publica con la privacidad de `config.json`. Sin auditoría, TikTok solo admite `SELF_ONLY` (solo yo). Después de la auditoría se puede usar `PUBLIC_TO_EVERYONE`.
 
-Si falla el canje del código, revisa el formato de `code_challenge` en `publicar.ps1` (TikTok en escritorio lo pide en hexadecimal).
+**Límites:**
+- Cada cuenta admite como máximo **5 borradores pendientes por API en 24 horas**; si se pasa, TikTok devuelve `spam_risk_too_many_pending_share`. Por eso `max_por_dia` está en 4, y conviene publicar o descartar los borradores antes del siguiente ciclo.
+- El endpoint de subida admite 6 llamadas por minuto.
+- En modo `borrador` la API solo recibe el video: el texto y los hashtags se pegan en la app desde `salidas/publicador/pendientes.md`.
+- En modo `directo`, mientras la app no pase la auditoría, TikTok solo publica en **cuentas privadas** (`unaudited_client_can_only_post_to_private_accounts`) y los videos quedan en "solo yo". Para publicar en público con el texto automático hay que pedir la auditoría de la app en producción.
+
+El `code_challenge` del PKCE va en hexadecimal: TikTok lo pide así en escritorio.
 
 ## 5. Instagram
 

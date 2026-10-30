@@ -3,7 +3,7 @@
   "_modo": "aprobacion: solo se publica lo que el usuario aprueba con /publicador aprobar <id>. automatico: se publica sin esperar aprobación, pero solo los clips cuyos derechos estén en derechos_automatico.",
   "derechos_automatico": ["propio", "autorizado"],
 
-  "simulacion": true,
+  "simulacion": false,
   "_simulacion": "true: prepara y valida todo con -Simular, pero no sube nada. Pásalo a false cuando haya credenciales y hayas revisado una simulación.",
 
   "horario": { "desde": "08:00", "hasta": "23:00" },
@@ -19,7 +19,9 @@
       "max_por_dia": 4
     },
     "tiktok": {
-      "activa": false,
+      "activa": true,
+      "usuario": "",
+      "_usuario": "Tu usuario de TikTok, sin @. Solo sirve para armar los enlaces a las publicaciones.",
       "destino": "borrador",
       "_destino": "borrador: el video llega a la bandeja de TikTok y se termina de publicar desde la app. directo: se publica con la privacidad indicada (sin auditoría de TikTok solo se admite SELF_ONLY).",
       "privacidad": "SELF_ONLY",

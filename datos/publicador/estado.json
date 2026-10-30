@@ -1,0 +1,1793 @@
+{
+    "actualizado":  "2026-10-29T20:58:46-05:00",
+    "ciclo":  2,
+    "ultimo_ciclo_clipero":  2,
+    "notas":  [
+                  "Ciclo 1 (instrucción simular): las 63 entradas se crearon pendiente_aprobacion y sus envíos se validaron con subir -Simular. ultima_simulacion.huella es el SHA-256 del archivo de envío: si coincide, no hace falta volver a simular; si el envío cambia, toca simular de nuevo.",
+                  "TikTok está en destino borrador: la API solo recibe el video (privacidad registrada: borrador) y el texto se pega a mano en la app desde salidas/publicador/pendientes.md. comprobar devuelve en_borradores (SEND_TO_USER_INBOX) hasta que el usuario lo publica desde la app.",
+                  "tiktok.usuario está vacío en config.json: sin usuario no se pueden armar las URL de TikTok.",
+                  "Ciclo 2 (2026-10-29): el usuario aprobó expresamente las 21 entradas de TikTok (no YouTube ni Instagram). Se subieron 4 (max_por_dia de TikTok): que-peso-le-quito, tregua-pirlo, trap-ser-calle y valle-medellin. A igualdad de ventana y puntaje (74, 31-oct) se desempató valle-medellin frente a verso-ziploc por la hora de su ficha (30-oct 20:00-22:00); el calendario más reciente del Clipero (informe 2026-10-29_2022) ponía verso-ziploc antes (31-oct 07:00 frente a 16:00). En próximos desempates, usar ese calendario (orden_en_fuente de clips.json).",
+                  "Plan de la cola de TikTok (4 al día, horario 08:00-23:00): 30-oct verso-ziploc, bando-progreso, recuerdo-pirlo, pelea-feid. 31-oct donde-haya-plata, error-adolescencia, jara-50-50, mujeres-mueven-plata. 1-nov esquina-fumar, edificios-frutas, ego-progresar, miles-de-suenos. 2-nov prestamo-primera-cancion, ryan-castro-los-mismos, centro-de-menores, vendedor-controles. 3-nov ryan-mismo-nivel. Así todas caben antes de su ventana, centro-de-menores va después de error-adolescencia y quedan separados al menos un día los pares ryan-castro-los-mismos/ryan-mismo-nivel y edificios-frutas/vendedor-controles.",
+                  "subidas_por_dia cuenta las subidas reales por fecha local y plataforma, para respetar max_por_dia.",
+                  "Si TikTok responde con un límite de borradores pendientes (p. ej. spam_risk_too_many_pending_share), registrar error, sumar un intento y no subir nada más a TikTok en ese ciclo."
+              ],
+    "entradas":  [
+                     {
+                         "clip":  "2026-10-29-blessd-pelea-feid",
+                         "plataforma":  "tiktok",
+                         "estado":  "aprobado",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-pelea-feid__tiktok.json",
+                         "puntaje":  68,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-01",
+                         "aprobado":  "2026-10-29T20:53:40-05:00",
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:17-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  60.6,
+                                                   "huella":  "744cc437818cbdeccff12cbed0898db9f3bb425c3cf98b1af9ce3661c4d89e4f"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Aprobado por el usuario el 2026-10-29T20:53:40-05:00 (solo TikTok).",
+                         "creado":  "2026-10-29T20:49:17-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-pelea-feid",
+                         "plataforma":  "instagram",
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-pelea-feid__instagram.json",
+                         "puntaje":  68,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-01",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:17-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  60.6,
+                                                   "huella":  "dc0f2dc1f587f8eb03389082173e6812a018f0c85d75f3be63a05cd57dc90938"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "",
+                         "creado":  "2026-10-29T20:49:18-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-pelea-feid",
+                         "plataforma":  "youtube",
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-pelea-feid__youtube.json",
+                         "puntaje":  68,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-01",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:18-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  60.6,
+                                                   "huella":  "a3aab5f9f348ef37e9d68d6fa845aeb595f0963fb43d62f5c6d06e67e8ba1bfa"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "",
+                         "creado":  "2026-10-29T20:49:18-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-vendedor-controles",
+                         "plataforma":  "tiktok",
+                         "estado":  "aprobado",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-vendedor-controles__tiktok.json",
+                         "puntaje":  66,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-04",
+                         "aprobado":  "2026-10-29T20:53:40-05:00",
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:18-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  24.5,
+                                                   "huella":  "e72aead6db8a4049d796a790cf37234888bc8399b01400ba4194722072f47cd3"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Aprobado por el usuario el 2026-10-29T20:53:40-05:00 (solo TikTok).",
+                         "creado":  "2026-10-29T20:49:18-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-vendedor-controles",
+                         "plataforma":  "instagram",
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-vendedor-controles__instagram.json",
+                         "puntaje":  66,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-04",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:19-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  24.5,
+                                                   "huella":  "5393941f16fa00021045c29f4b35d0674557f933e5d69685526c859ddba34cd8"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "",
+                         "creado":  "2026-10-29T20:49:19-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-vendedor-controles",
+                         "plataforma":  "youtube",
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-vendedor-controles__youtube.json",
+                         "puntaje":  66,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-04",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:19-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  24.5,
+                                                   "huella":  "85d45c2b035f980200462c8ad24039e538b1fb67f1e9d0b2fd2225d8413c8437"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "",
+                         "creado":  "2026-10-29T20:49:19-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-prestamo-primera-cancion",
+                         "plataforma":  "tiktok",
+                         "estado":  "aprobado",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-prestamo-primera-cancion__tiktok.json",
+                         "puntaje":  69,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-03",
+                         "aprobado":  "2026-10-29T20:53:40-05:00",
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:20-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  64,
+                                                   "huella":  "5954e8508129b3dfab36d3f13af9c6d2a4c20c8190146cc06320f7b819f66bfc"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Aprobado por el usuario el 2026-10-29T20:53:40-05:00 (solo TikTok).",
+                         "creado":  "2026-10-29T20:49:20-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-prestamo-primera-cancion",
+                         "plataforma":  "instagram",
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-prestamo-primera-cancion__instagram.json",
+                         "puntaje":  69,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-03",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:20-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  64,
+                                                   "huella":  "28d07d464ffb049a325765892ba125f03a3af6375f2c72a501cd733c17f2f8d9"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "",
+                         "creado":  "2026-10-29T20:49:20-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-prestamo-primera-cancion",
+                         "plataforma":  "youtube",
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-prestamo-primera-cancion__youtube.json",
+                         "puntaje":  69,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-03",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:21-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  64,
+                                                   "huella":  "bddd664c409cf001ca6028171cffc3c3d4837710799fea19680c05080a85c5e5"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "",
+                         "creado":  "2026-10-29T20:49:21-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-ryan-mismo-nivel",
+                         "plataforma":  "tiktok",
+                         "estado":  "aprobado",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-ryan-mismo-nivel__tiktok.json",
+                         "puntaje":  66,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-04",
+                         "aprobado":  "2026-10-29T20:53:40-05:00",
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:21-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  52.2,
+                                                   "huella":  "c3a11cbbcfdddb4fc13479ba5ece1b48b64eb187ee1b58076f9b8ce79d4470a5"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Aprobado por el usuario el 2026-10-29T20:53:40-05:00 (solo TikTok).",
+                         "creado":  "2026-10-29T20:49:21-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-ryan-mismo-nivel",
+                         "plataforma":  "instagram",
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-ryan-mismo-nivel__instagram.json",
+                         "puntaje":  66,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-04",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:22-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  52.2,
+                                                   "huella":  "724063286b628376f83759d2090258622cb060278e851ac094784b92c80ad5ef"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "",
+                         "creado":  "2026-10-29T20:49:22-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-ryan-mismo-nivel",
+                         "plataforma":  "youtube",
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-ryan-mismo-nivel__youtube.json",
+                         "puntaje":  66,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-04",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:22-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  52.2,
+                                                   "huella":  "78fe7f75bce80fc77d9a841ca3567673270646141902550b554c13e1ac79f81f"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "",
+                         "creado":  "2026-10-29T20:49:22-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-bando-progreso",
+                         "plataforma":  "tiktok",
+                         "estado":  "aprobado",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-bando-progreso__tiktok.json",
+                         "puntaje":  68,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-10-31",
+                         "aprobado":  "2026-10-29T20:53:40-05:00",
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:22-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  22.1,
+                                                   "huella":  "b8da471beae54c5565fb43d980dee3868779aa3666c28acb4aaca0bf41938935"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Aprobado por el usuario el 2026-10-29T20:53:40-05:00 (solo TikTok).",
+                         "creado":  "2026-10-29T20:49:23-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-bando-progreso",
+                         "plataforma":  "instagram",
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-bando-progreso__instagram.json",
+                         "puntaje":  68,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-10-31",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:23-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  22.1,
+                                                   "huella":  "c3c5201c0fe3f5b144b64b349b49110f548dd723c0eb5ffb2c182fe9697c726a"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "",
+                         "creado":  "2026-10-29T20:49:23-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-bando-progreso",
+                         "plataforma":  "youtube",
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-bando-progreso__youtube.json",
+                         "puntaje":  68,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-10-31",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:23-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  22.1,
+                                                   "huella":  "c679a974b0f314ad7eabd911ab1bdde7391fae82d4d1be07c9e34abdf656dcda"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "",
+                         "creado":  "2026-10-29T20:49:23-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-recuerdo-pirlo",
+                         "plataforma":  "tiktok",
+                         "estado":  "aprobado",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-recuerdo-pirlo__tiktok.json",
+                         "puntaje":  70,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-01",
+                         "aprobado":  "2026-10-29T20:53:40-05:00",
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:24-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  46.5,
+                                                   "huella":  "701b04be492891d66d40d05c38cb3d733d768939cd8365ee282368f238cf24dd"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Aprobado por el usuario el 2026-10-29T20:53:40-05:00 (solo TikTok).",
+                         "creado":  "2026-10-29T20:49:24-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-recuerdo-pirlo",
+                         "plataforma":  "instagram",
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-recuerdo-pirlo__instagram.json",
+                         "puntaje":  70,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-01",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:24-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  46.5,
+                                                   "huella":  "3f0fa8ce351da7492e11b5b75e71bd41cb5a8de8a5643f86e8f57054d3c49abb"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "",
+                         "creado":  "2026-10-29T20:49:24-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-recuerdo-pirlo",
+                         "plataforma":  "youtube",
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-recuerdo-pirlo__youtube.json",
+                         "puntaje":  70,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-01",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:25-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  46.5,
+                                                   "huella":  "e3eecea824e186e6c43e99feee7c738a6b9160beb2ef3f4528690d93511165eb"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "",
+                         "creado":  "2026-10-29T20:49:25-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-ego-progresar",
+                         "plataforma":  "tiktok",
+                         "estado":  "aprobado",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-ego-progresar__tiktok.json",
+                         "puntaje":  71,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-03",
+                         "aprobado":  "2026-10-29T20:53:40-05:00",
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:25-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  38.2,
+                                                   "huella":  "9947518225516c1051ec50f72c85e96b829a779b83dd1d72ee40702cd68734b7"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Aprobado por el usuario el 2026-10-29T20:53:40-05:00 (solo TikTok).",
+                         "creado":  "2026-10-29T20:49:25-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-ego-progresar",
+                         "plataforma":  "instagram",
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-ego-progresar__instagram.json",
+                         "puntaje":  71,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-03",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:26-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  38.2,
+                                                   "huella":  "5a2c9a2dbea42c5ac9219f7f35ae718ef625d0ceef3441c5f48126d4fb6fef70"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "",
+                         "creado":  "2026-10-29T20:49:26-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-ego-progresar",
+                         "plataforma":  "youtube",
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-ego-progresar__youtube.json",
+                         "puntaje":  71,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-03",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:26-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  38.2,
+                                                   "huella":  "f2c6ce94e566c502eabefd5c26fe4543f561cba2dfe5b8dc7723f2b3a7f543f2"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "",
+                         "creado":  "2026-10-29T20:49:26-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-centro-de-menores",
+                         "plataforma":  "tiktok",
+                         "estado":  "aprobado",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-centro-de-menores__tiktok.json",
+                         "puntaje":  66,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-04",
+                         "aprobado":  "2026-10-29T20:53:40-05:00",
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:27-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  42.2,
+                                                   "huella":  "e338e14f6f20fc93d83220599cf48f146beb12feb277074f4cc17659352fe283"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Aprobado por el usuario el 2026-10-29T20:53:40-05:00 (solo TikTok).",
+                         "creado":  "2026-10-29T20:49:27-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-centro-de-menores",
+                         "plataforma":  "instagram",
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-centro-de-menores__instagram.json",
+                         "puntaje":  66,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-04",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:27-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  42.2,
+                                                   "huella":  "4840e7200f8be63266c5b6e15af485c3ec3f7c56467a57d91cf826e958ee5a9c"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "",
+                         "creado":  "2026-10-29T20:49:27-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-centro-de-menores",
+                         "plataforma":  "youtube",
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-centro-de-menores__youtube.json",
+                         "puntaje":  66,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-04",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:27-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  42.2,
+                                                   "huella":  "7cfb46985f8397b24e8a100ab0ab13ad852764540149fbd190e0b81aede4c5ee"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "",
+                         "creado":  "2026-10-29T20:49:28-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-ryan-castro-los-mismos",
+                         "plataforma":  "tiktok",
+                         "estado":  "aprobado",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-ryan-castro-los-mismos__tiktok.json",
+                         "puntaje":  68,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-03",
+                         "aprobado":  "2026-10-29T20:53:40-05:00",
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:28-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  45.2,
+                                                   "huella":  "29aa056e7ac4cd41cc0012aea124bc042c31b2d1a3e3382337ac70090d03e070"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Aprobado por el usuario el 2026-10-29T20:53:40-05:00 (solo TikTok).",
+                         "creado":  "2026-10-29T20:49:28-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-ryan-castro-los-mismos",
+                         "plataforma":  "instagram",
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-ryan-castro-los-mismos__instagram.json",
+                         "puntaje":  68,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-03",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:28-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  45.2,
+                                                   "huella":  "b42bb036348be2ed9a6a8a9570065202a9b3f0dd2b911bf2ceb05fd37aeb3959"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "",
+                         "creado":  "2026-10-29T20:49:28-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-ryan-castro-los-mismos",
+                         "plataforma":  "youtube",
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-ryan-castro-los-mismos__youtube.json",
+                         "puntaje":  68,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-03",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:29-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  45.2,
+                                                   "huella":  "012c9bc5519fe781607c279977cb335834af0901d5d460ac4889700f54bd024d"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "",
+                         "creado":  "2026-10-29T20:49:29-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-miles-de-suenos",
+                         "plataforma":  "tiktok",
+                         "estado":  "aprobado",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-miles-de-suenos__tiktok.json",
+                         "puntaje":  70,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-03",
+                         "aprobado":  "2026-10-29T20:53:40-05:00",
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:29-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  19.4,
+                                                   "huella":  "7752961da635175395dbee9c66b160e615f09ff81135ecca7ee6da2410fdb9ec"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Aprobado por el usuario el 2026-10-29T20:53:40-05:00 (solo TikTok).",
+                         "creado":  "2026-10-29T20:49:29-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-miles-de-suenos",
+                         "plataforma":  "instagram",
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-miles-de-suenos__instagram.json",
+                         "puntaje":  70,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-03",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:30-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  19.4,
+                                                   "huella":  "0311405e77b9cad225c89d9f9bbcbbc359b1ea3cb6700a1a57bf478f90ae6c3c"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "",
+                         "creado":  "2026-10-29T20:49:30-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-miles-de-suenos",
+                         "plataforma":  "youtube",
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-miles-de-suenos__youtube.json",
+                         "puntaje":  70,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-03",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:30-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  19.4,
+                                                   "huella":  "22aa92b4d6c9d0e1b7a2723ba0a7c63e0283d755dc00db5ae1b7da3b5d6d4279"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "",
+                         "creado":  "2026-10-29T20:49:30-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-edificios-frutas",
+                         "plataforma":  "tiktok",
+                         "estado":  "aprobado",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-edificios-frutas__tiktok.json",
+                         "puntaje":  71,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-03",
+                         "aprobado":  "2026-10-29T20:53:40-05:00",
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:31-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  41,
+                                                   "huella":  "66ecc873be4da54f86e1999e85c8a6476d780914972ec79e156781491b4be678"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Aprobado por el usuario el 2026-10-29T20:53:40-05:00 (solo TikTok).",
+                         "creado":  "2026-10-29T20:49:31-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-edificios-frutas",
+                         "plataforma":  "instagram",
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-edificios-frutas__instagram.json",
+                         "puntaje":  71,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-03",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:31-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  41,
+                                                   "huella":  "03c904461bd9266d4d6d71b5ee3c7744a035169d8fc6a102cbf14768ac3c2fe5"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "",
+                         "creado":  "2026-10-29T20:49:31-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-edificios-frutas",
+                         "plataforma":  "youtube",
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-edificios-frutas__youtube.json",
+                         "puntaje":  71,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-03",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:32-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  41,
+                                                   "huella":  "b17b8e35bb25d5ba50b28d62ceef4dd96f04198d23d0547395a823ef66ea7a08"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "",
+                         "creado":  "2026-10-29T20:49:32-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-mujeres-mueven-plata",
+                         "plataforma":  "tiktok",
+                         "estado":  "aprobado",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-mujeres-mueven-plata__tiktok.json",
+                         "puntaje":  73,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-03",
+                         "aprobado":  "2026-10-29T20:53:40-05:00",
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:32-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  24,
+                                                   "huella":  "5e77c565dc101224d9e879b856d30339dcd8014e238e8abf1be229eacc53fde2"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Aprobado por el usuario el 2026-10-29T20:53:40-05:00 (solo TikTok).",
+                         "creado":  "2026-10-29T20:49:32-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-mujeres-mueven-plata",
+                         "plataforma":  "instagram",
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-mujeres-mueven-plata__instagram.json",
+                         "puntaje":  73,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-03",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:32-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  24,
+                                                   "huella":  "a6a76429320f6b76db940578ba01d20067f432ee5e3910f5538e60fb3bdf9cb4"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "",
+                         "creado":  "2026-10-29T20:49:33-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-mujeres-mueven-plata",
+                         "plataforma":  "youtube",
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-mujeres-mueven-plata__youtube.json",
+                         "puntaje":  73,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-03",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:33-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  24,
+                                                   "huella":  "62c0927e26a5260b1830bbaf4f3585ae76000130c4988de41b60c1cded6aea52"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "",
+                         "creado":  "2026-10-29T20:49:33-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-verso-ziploc",
+                         "plataforma":  "tiktok",
+                         "estado":  "aprobado",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-verso-ziploc__tiktok.json",
+                         "puntaje":  74,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-10-31",
+                         "aprobado":  "2026-10-29T20:53:40-05:00",
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:33-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  16.2,
+                                                   "huella":  "44fd177db41e1b636bed052c1f93976bdb2b845c2640abb5c8fda50ab00b4da1"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Aprobado por el usuario el 2026-10-29T20:53:40-05:00 (solo TikTok).",
+                         "creado":  "2026-10-29T20:49:33-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-verso-ziploc",
+                         "plataforma":  "instagram",
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-verso-ziploc__instagram.json",
+                         "puntaje":  74,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-10-31",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:34-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  16.2,
+                                                   "huella":  "7b46a1e76748af8355381be4aaa22ba3cecc07c3df70a50ecf0fa2b24433388c"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "",
+                         "creado":  "2026-10-29T20:49:34-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-verso-ziploc",
+                         "plataforma":  "youtube",
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-verso-ziploc__youtube.json",
+                         "puntaje":  74,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-10-31",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:34-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  16.2,
+                                                   "huella":  "3d91a5b88b409086ae26b401486228b28fdb66f2833b1f1ae9cf7c5aa3f72607"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "",
+                         "creado":  "2026-10-29T20:49:34-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-esquina-fumar",
+                         "plataforma":  "tiktok",
+                         "estado":  "aprobado",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-esquina-fumar__tiktok.json",
+                         "puntaje":  71,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-03",
+                         "aprobado":  "2026-10-29T20:53:40-05:00",
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:35-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  17.9,
+                                                   "huella":  "40168000af5c5137128420259aec8828d1a10751642b99c5675a41e167d46168"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Aprobado por el usuario el 2026-10-29T20:53:40-05:00 (solo TikTok).",
+                         "creado":  "2026-10-29T20:49:35-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-esquina-fumar",
+                         "plataforma":  "instagram",
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-esquina-fumar__instagram.json",
+                         "puntaje":  71,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-03",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:35-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  17.9,
+                                                   "huella":  "14b6e4841370dafa9da7e5321bf519921055ff56a5c7b3e2295ab2e86f43fd1b"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "",
+                         "creado":  "2026-10-29T20:49:35-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-esquina-fumar",
+                         "plataforma":  "youtube",
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-esquina-fumar__youtube.json",
+                         "puntaje":  71,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-03",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:36-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  17.9,
+                                                   "huella":  "7950dfcdeb53f0c788f32a966fd96af692e13ead177ddc48948c3d49865f90c0"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "",
+                         "creado":  "2026-10-29T20:49:36-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-jara-50-50",
+                         "plataforma":  "tiktok",
+                         "estado":  "aprobado",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-jara-50-50__tiktok.json",
+                         "puntaje":  75,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-03",
+                         "aprobado":  "2026-10-29T20:53:40-05:00",
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:36-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  31.5,
+                                                   "huella":  "7fd768a784ec8298a93f12811255715f01d2572b535d51c2220e920fcb8de09c"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Aprobado por el usuario el 2026-10-29T20:53:40-05:00 (solo TikTok).",
+                         "creado":  "2026-10-29T20:49:36-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-jara-50-50",
+                         "plataforma":  "instagram",
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-jara-50-50__instagram.json",
+                         "puntaje":  75,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-03",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:37-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  31.5,
+                                                   "huella":  "130878520a5731a118b69f244b49d9b9629f3df1cd1951a0301d5eb9e14638db"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "",
+                         "creado":  "2026-10-29T20:49:37-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-jara-50-50",
+                         "plataforma":  "youtube",
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-jara-50-50__youtube.json",
+                         "puntaje":  75,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-03",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:37-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  31.5,
+                                                   "huella":  "57d5e5fd3ca286f427fb0f2d2cf1c029e14bb31c6e4b49165efcb92da838b379"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "",
+                         "creado":  "2026-10-29T20:49:37-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-error-adolescencia",
+                         "plataforma":  "tiktok",
+                         "estado":  "aprobado",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-error-adolescencia__tiktok.json",
+                         "puntaje":  76,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-03",
+                         "aprobado":  "2026-10-29T20:53:40-05:00",
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:37-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  45.2,
+                                                   "huella":  "e3fc9b995895023b09ffb6e7544857acc63866d727dac26ac145320ba36227db"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Aprobado por el usuario el 2026-10-29T20:53:40-05:00 (solo TikTok).",
+                         "creado":  "2026-10-29T20:49:38-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-error-adolescencia",
+                         "plataforma":  "instagram",
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-error-adolescencia__instagram.json",
+                         "puntaje":  76,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-03",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:38-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  45.2,
+                                                   "huella":  "2f1d8330818e9c5962192eb94e36e4a2d16d38ea3ff3a5261cf81a88319a85a4"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "",
+                         "creado":  "2026-10-29T20:49:38-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-error-adolescencia",
+                         "plataforma":  "youtube",
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-error-adolescencia__youtube.json",
+                         "puntaje":  76,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-03",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:38-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  45.2,
+                                                   "huella":  "d7becd307f86f70229ca7ddf9a5f66b3c18c1294c871d5ec0ab6e7ff08239d7f"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "",
+                         "creado":  "2026-10-29T20:49:39-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-que-peso-le-quito",
+                         "plataforma":  "tiktok",
+                         "estado":  "en_borradores",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-que-peso-le-quito__tiktok.json",
+                         "puntaje":  78,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-10-31",
+                         "aprobado":  "2026-10-29T20:53:40-05:00",
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:39-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  26.7,
+                                                   "huella":  "afcf522f6a2d15ceaa9a39d0aaf164a477136363bcb9f6f6b55ec10065638e98"
+                                               },
+                         "id_publicacion":  "v_inbox_file~v2.7702273083008567309",
+                         "url":  null,
+                         "privacidad":  "borrador",
+                         "publicado":  "2026-10-29T20:53:50-05:00",
+                         "motivo":  "Aprobado por el usuario el 2026-10-29T20:53:40-05:00 (solo TikTok). Subido a la bandeja de TikTok (destino borrador) el 2026-10-29T20:53:50-05:00: falta terminar la publicación desde la app y pegar el texto de pendientes.md.",
+                         "creado":  "2026-10-29T20:49:39-05:00",
+                         "comprobado":  "2026-10-29T20:57:06-05:00",
+                         "detalle_plataforma":  "SEND_TO_USER_INBOX"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-que-peso-le-quito",
+                         "plataforma":  "instagram",
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-que-peso-le-quito__instagram.json",
+                         "puntaje":  78,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-10-31",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:39-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  26.7,
+                                                   "huella":  "ffeec8cbd8966162b7c5291f131a356be9c0c0d9532394fd79f3646406e768c0"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "",
+                         "creado":  "2026-10-29T20:49:39-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-que-peso-le-quito",
+                         "plataforma":  "youtube",
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-que-peso-le-quito__youtube.json",
+                         "puntaje":  78,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-10-31",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:40-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  26.7,
+                                                   "huella":  "afcd7322cfd913778da13c034adf2b9100230e56071e201c185fd642af4dc3f1"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "",
+                         "creado":  "2026-10-29T20:49:40-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-donde-haya-plata",
+                         "plataforma":  "tiktok",
+                         "estado":  "aprobado",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-donde-haya-plata__tiktok.json",
+                         "puntaje":  78,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-03",
+                         "aprobado":  "2026-10-29T20:53:40-05:00",
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:40-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  40.8,
+                                                   "huella":  "25149249e2c85963518dbe8d52c5aa17a96bc11ca0df464701c9b949749e7f20"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Aprobado por el usuario el 2026-10-29T20:53:40-05:00 (solo TikTok).",
+                         "creado":  "2026-10-29T20:49:40-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-donde-haya-plata",
+                         "plataforma":  "instagram",
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-donde-haya-plata__instagram.json",
+                         "puntaje":  78,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-03",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:41-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  40.8,
+                                                   "huella":  "c71e69df19e158a9e3661a8edb21da0881e7aeb20a41da06a70d5da1bb9e0b5a"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "",
+                         "creado":  "2026-10-29T20:49:41-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-donde-haya-plata",
+                         "plataforma":  "youtube",
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-donde-haya-plata__youtube.json",
+                         "puntaje":  78,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-03",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:41-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  40.8,
+                                                   "huella":  "702d9638658de2b2405abb3a0757bed9c4c3d9d2ce042f5af5891dad03172c1c"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "",
+                         "creado":  "2026-10-29T20:49:41-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-valle-medellin",
+                         "plataforma":  "tiktok",
+                         "estado":  "procesando",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-valle-medellin__tiktok.json",
+                         "puntaje":  74,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-10-31",
+                         "aprobado":  "2026-10-29T20:53:40-05:00",
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:42-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  17.3,
+                                                   "huella":  "81658a5e9721932cb10b85b9513191834398dbaca375a702916d2da74b390d02"
+                                               },
+                         "id_publicacion":  "v_inbox_file~v2.7702273815983851534",
+                         "url":  null,
+                         "privacidad":  "borrador",
+                         "publicado":  "2026-10-29T20:56:53-05:00",
+                         "motivo":  "Aprobado por el usuario el 2026-10-29T20:53:40-05:00 (solo TikTok). Subido a la bandeja de TikTok (destino borrador) el 2026-10-29T20:56:53-05:00: falta terminar la publicación desde la app y pegar el texto de pendientes.md.",
+                         "creado":  "2026-10-29T20:49:42-05:00",
+                         "comprobado":  "2026-10-29T20:57:10-05:00",
+                         "detalle_plataforma":  "PROCESSING_UPLOAD"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-valle-medellin",
+                         "plataforma":  "instagram",
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-valle-medellin__instagram.json",
+                         "puntaje":  74,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-10-31",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:42-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  17.3,
+                                                   "huella":  "e511eed70c3e9e6c06af5302c2d0d11b3c194b60382fc46ff4ad2a9a1274293d"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "",
+                         "creado":  "2026-10-29T20:49:42-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-valle-medellin",
+                         "plataforma":  "youtube",
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-valle-medellin__youtube.json",
+                         "puntaje":  74,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-10-31",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:43-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  17.3,
+                                                   "huella":  "8944b8e080b2e0aeba0b87d9258e4b88a95da779d4f848a07302686457e7472d"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "",
+                         "creado":  "2026-10-29T20:49:43-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-tregua-pirlo",
+                         "plataforma":  "tiktok",
+                         "estado":  "en_borradores",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-tregua-pirlo__tiktok.json",
+                         "puntaje":  76,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-10-31",
+                         "aprobado":  "2026-10-29T20:53:40-05:00",
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:43-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  58.7,
+                                                   "huella":  "c923e398b26550af1a10ad131b85f84ba52133eaf1bfa781ea8ddf9a0aea86d4"
+                                               },
+                         "id_publicacion":  "v_inbox_file~v2.7702273363653527565",
+                         "url":  null,
+                         "privacidad":  "borrador",
+                         "publicado":  "2026-10-29T20:54:46-05:00",
+                         "motivo":  "Aprobado por el usuario el 2026-10-29T20:53:40-05:00 (solo TikTok). Subido a la bandeja de TikTok (destino borrador) el 2026-10-29T20:54:46-05:00: falta terminar la publicación desde la app y pegar el texto de pendientes.md.",
+                         "creado":  "2026-10-29T20:49:43-05:00",
+                         "comprobado":  "2026-10-29T20:57:07-05:00",
+                         "detalle_plataforma":  "SEND_TO_USER_INBOX"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-tregua-pirlo",
+                         "plataforma":  "instagram",
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-tregua-pirlo__instagram.json",
+                         "puntaje":  76,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-10-31",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:43-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  58.7,
+                                                   "huella":  "f009b16b330d41b9ffedcd27b7ad4369741a053c5a0ab607a0d5aced3c60e2d7"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "",
+                         "creado":  "2026-10-29T20:49:44-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-tregua-pirlo",
+                         "plataforma":  "youtube",
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-tregua-pirlo__youtube.json",
+                         "puntaje":  76,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-10-31",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:44-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  58.7,
+                                                   "huella":  "77b6c9ca57741916d3d8128a64fef44a1ce1866a864392d4659f729394895ad9"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "",
+                         "creado":  "2026-10-29T20:49:44-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-trap-ser-calle",
+                         "plataforma":  "tiktok",
+                         "estado":  "en_borradores",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-trap-ser-calle__tiktok.json",
+                         "puntaje":  76,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-10-31",
+                         "aprobado":  "2026-10-29T20:53:40-05:00",
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:44-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  40.8,
+                                                   "huella":  "49b065c6de6b274a4155677d1dc8a3c2f5eb6d5bfbfcba32aae35f4943a57325"
+                                               },
+                         "id_publicacion":  "v_inbox_file~v2.7702273565219112974",
+                         "url":  null,
+                         "privacidad":  "borrador",
+                         "publicado":  "2026-10-29T20:55:53-05:00",
+                         "motivo":  "Aprobado por el usuario el 2026-10-29T20:53:40-05:00 (solo TikTok). Subido a la bandeja de TikTok (destino borrador) el 2026-10-29T20:55:53-05:00: falta terminar la publicación desde la app y pegar el texto de pendientes.md.",
+                         "creado":  "2026-10-29T20:49:45-05:00",
+                         "comprobado":  "2026-10-29T20:57:09-05:00",
+                         "detalle_plataforma":  "SEND_TO_USER_INBOX"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-trap-ser-calle",
+                         "plataforma":  "instagram",
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-trap-ser-calle__instagram.json",
+                         "puntaje":  76,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-10-31",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:45-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  40.8,
+                                                   "huella":  "55445fb9a7c2a56af26bdc752da5d6ff59b6643378250d15cb549880c9c59692"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "",
+                         "creado":  "2026-10-29T20:49:45-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-29-blessd-trap-ser-calle",
+                         "plataforma":  "youtube",
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-trap-ser-calle__youtube.json",
+                         "puntaje":  76,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-10-31",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-10-29T20:49:46-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  40.8,
+                                                   "huella":  "755f87a63a5266d09120316cb39891246ad44ec6859cf194f2f3c3679816d546"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "",
+                         "creado":  "2026-10-29T20:49:46-05:00"
+                     }
+                 ],
+    "subidas_por_dia":  {
+                            "2026-10-29":  {
+                                               "tiktok":  4
+                                           }
+                        }
+}
