@@ -1,5 +1,7 @@
 # Un dato macabro de nuestra historia (plano lento)
 
+> Nota del ciclo 2 (2026-10-31): sigue vigente solo hasta el 2-nov (Día de Muertos). En YouTube en español no aparecieron réplicas del formato en plano lento esta semana. La búsqueda "datos perturbadores historia" (filtro semanal, 31-oct 01:16) solo trajo Shorts genéricos de curiosidades, de unas 1.200 vistas en 5-7 h, y un iceberg largo ([Historias del Búho](https://www.youtube.com/watch?v=0RFwCpIT2ks), 28.328 vistas en 58,6 h). El destino sigue sin adaptar. El patrón base baja a 66 y pasa a apuestas. Después del 2-nov, quitar la referencia estacional y seguir como serie perenne. La tendencia "Es su primer Día de Muertos" (fotos de seres queridos fallecidos) **no** se cruza con este formato, por sensibilidad.
+
 - **Fórmula:** [estructura y formato técnico de "Creepy-Fact Storytime": un dato inquietante en texto sobre un plano lento sin cortes] + [nicho historia y cultura hispana] + [contexto estacional Halloween / Día de Muertos (único gen perecedero)]
 - **Patrones base:** `formato-dato-perturbador-plano-lento` (crecimiento en tiktok-en; sin verificar en español)
 - **Palanca:** trasplante de nicho y arbitraje de idioma, con un empujón de actualidad estacional

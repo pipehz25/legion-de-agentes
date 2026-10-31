@@ -1,8 +1,9 @@
 # Herramienta del Clipero (Agente 02 de la Legion). Tres acciones:
-#   buscar   -Consulta "<texto>" [-N 10] [-Recientes | -Hoy] [-Detalle]
+#   buscar   -Consulta "<texto>" [-N 10] [-Recientes | -Hoy] [-Detalle [-MaxHoras 36]]
 #            -> datos/clipero/busquedas/<marca>.jsonl con videos candidatos (duracion, vistas, canal).
-#               -Recientes: subidos esta semana. -Hoy: subidos hoy.
-#               -Detalle: anade fecha exacta, likes, comentarios, horas_desde y vistas_por_hora (mas lento).
+#               -Recientes: subidos esta semana. -Hoy: subidos hoy (filtros de YouTube, no siempre exactos).
+#               -Detalle: anade fecha exacta, likes, comentarios, horas_desde y vistas_por_hora (mas lento; maximo 10).
+#               -MaxHoras: con -Detalle, descarta lo publicado hace mas de esas horas.
 #   analizar -Url <url> [-Traducir es]
 #            -> datos/clipero/fuentes/<id>/: resumen.json (picos de "mas repetido", marcas de tiempo en comentarios,
 #               capitulos), transcripcion.txt y palabras*.json (palabras con tiempo, para subtitular)
@@ -18,6 +19,7 @@ param(
     [switch]$Recientes,
     [switch]$Hoy,
     [switch]$Detalle,
+    [double]$MaxHoras = 0,
     [string]$Url,
     [string]$Traducir = '',
     [double]$Inicio = -1,
@@ -179,7 +181,9 @@ if ($Accion -eq 'buscar') {
     $filtro = if ($Hoy) { 'EgIIAg%253D%253D' } elseif ($Recientes) { 'EgIIAw%253D%253D' } else { $null }
     $objetivo = if ($filtro) { "https://www.youtube.com/results?search_query=$([uri]::EscapeDataString($Consulta))&sp=$filtro" } else { "ytsearch$($N):$Consulta" }
     if ($Detalle) {
-        # Extraccion completa de cada resultado (unos segundos por video): trae fecha exacta y metricas
+        # Extraccion completa de cada resultado (unos 8 s por video): trae fecha exacta y metricas.
+        # Con muchos resultados se va a varios minutos, asi que se limita a 10.
+        if ($N -gt 10) { $N = 10 }
         $campos = '%(.{id,title,channel,channel_follower_count,duration,view_count,like_count,comment_count,timestamp,live_status,webpage_url})j'
         & $ytdlp --quiet --no-warnings --ignore-errors --skip-download --playlist-end "$N" --print-to-file $campos $archivo $objetivo
     } else {
@@ -196,6 +200,8 @@ if ($Accion -eq 'buscar') {
             $r | Add-Member -NotePropertyName vistas_por_hora -NotePropertyValue $(if ($horas -and $r.view_count) { [long]($r.view_count / $horas) } else { $null })
             $r
         }
+        # Los filtros de fecha de YouTube no son fiables (a veces cuelan videos de hace anos): -MaxHoras descarta por fecha real
+        if ($MaxHoras -gt 0) { $filas = @($filas | Where-Object { $_.horas_desde -and $_.horas_desde -le $MaxHoras }) }
         [IO.File]::WriteAllLines($archivo, [string[]]@($filas | Sort-Object { [double]$_.vistas_por_hora } -Descending | ForEach-Object { $_ | ConvertTo-Json -Compress }), $utf8)
     }
     "Busqueda: $(Relativa $archivo) ($(@([IO.File]::ReadAllLines($archivo)).Count) resultados)"

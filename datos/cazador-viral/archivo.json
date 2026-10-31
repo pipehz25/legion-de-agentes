@@ -1,0 +1,88 @@
+{
+  "actualizado": "2026-10-31T01:40:00-05:00",
+  "notas": [
+    "Patrones retirados de patrones.json. La regla general es archivar tras más de 14 días en 'quemado'; en el ciclo 2 se archivaron antes, por instrucción del orquestador, los temas de actualidad cuya ventana de 24-72 h ya había vencido y que salieron de todas las listas del recolector.",
+    "Si alguno vuelve a aparecer (aniversario, nostalgia o noticia nueva), se reabre con el mismo id y se copia aquí su historial."
+  ],
+  "patrones": [
+    {
+      "id": "tema-jay-z-super-bowl-lxi",
+      "nombre": "Jay-Z, cabeza de cartel del medio tiempo del Super Bowl LXI",
+      "tipo": "tema",
+      "descripcion": "La NFL anuncia a Jay-Z como cabeza de cartel del medio tiempo del Super Bowl LXI (SoFi Stadium, febrero de 2027). Polémica porque 'se eligió a sí mismo': Roc Nation produce el show.",
+      "plataformas": ["x", "tiktok", "youtube", "instagram"],
+      "regiones": ["US", "MX"],
+      "nichos": ["música y artistas", "famosos y farándula"],
+      "primera_vez_visto": "2026-10-26",
+      "archivado": "2026-10-31",
+      "motivo_archivo": "Tema de actualidad con ventana vencida (2026-10-28). En el snapshot del 31-oct ya no aparece en X (US ni mundial) ni en Google Trends MX.",
+      "etapa": "quemado",
+      "etapa_por_contexto": { "x-en": "quemado", "tiktok-es": "sin-verificar" },
+      "indice_saturacion": 88,
+      "puntaje_oportunidad": 0,
+      "ventana_hasta": "2026-10-28",
+      "confianza": "media",
+      "evidencia": [
+        { "url": "https://trends24.in/united-states/", "metrica": "'Jay-Z' entra nueva en X EE. UU. en el #9 (1 h en lista) y en X mundial en el #17, a las 21:37 del 26-oct (recolector)", "tipo": "medido", "mide": "patron", "contexto": "x-us", "fecha": "2026-10-26" },
+        { "url": "https://www.nfl.com/news/jay-z-to-headline-super-bowl-lxi-at-sofi-stadium-in-inglewood", "metrica": "Anuncio oficial de la NFL. En Google Trends MX, 'jay z' sube de 200+ a 500+ entre los snapshots de 21:19 y 21:37", "tipo": "medido", "mide": "patron", "contexto": "google-mx", "fecha": "2026-10-26" },
+        { "url": "https://puck.news/jay-z-picks-jay-z-for-super-bowl-lxi/", "metrica": "Ángulo polémico: 'Jay-Z Picks Jay-Z'; adelantado el 20-oct", "tipo": "estimado", "mide": "senal_relacionada", "contexto": "prensa-us", "fecha": "2026-10-26" }
+      ],
+      "historial": [
+        { "fecha": "2026-10-26", "etapa": "emergente", "indice_saturacion": 28, "senal": "Anuncio oficial el mismo día. Dos señales independientes: tendencia nueva en X (US y mundial) y subida en Google Trends MX. Ventana de 24-72 h." },
+        { "fecha": "2026-10-31", "etapa": "quemado", "indice_saturacion": 88, "senal": "Fuera de X (US y mundial) y de Google Trends en el snapshot de 01:05; la ventana de actualidad venció el 28-oct. Se archiva." }
+      ]
+    },
+    {
+      "id": "tema-huellas-dinosaurio-michoacan",
+      "nombre": "50 huellas de dinosaurio en Apatzingán, Michoacán (INAH)",
+      "tipo": "tema",
+      "descripcion": "El INAH confirma 50 huellas de dinosaurio (tiranosaurios, raptores y 'pico de pato') en Apatzingán, Michoacán.",
+      "plataformas": ["tiktok", "youtube", "facebook"],
+      "regiones": ["MX"],
+      "nichos": ["historia y cultura", "general (cualquier contenido altamente viral)"],
+      "primera_vez_visto": "2026-10-26",
+      "archivado": "2026-10-31",
+      "motivo_archivo": "Tema de actualidad con ventana vencida (2026-10-28) y tráfico bajo desde el inicio; no reaparece en Google Trends MX ni en X México el 31-oct. El dato puede reutilizarse como contenido perenne de historia natural.",
+      "etapa": "quemado",
+      "etapa_por_contexto": { "mx": "quemado" },
+      "indice_saturacion": 86,
+      "puntaje_oportunidad": 0,
+      "ventana_hasta": "2026-10-28",
+      "confianza": "media",
+      "evidencia": [
+        { "url": "https://www.inah.gob.mx/boletines/inah-confirma-descubrimiento-de-50-huellas-de-dinosaurios-en-apatzingan-michoacan", "metrica": "En Google Trends MX, 'michoacán' sube de 100+ a 200+ entre los snapshots de 21:19 y 21:37 del 26-oct; boletín oficial del INAH", "tipo": "medido", "mide": "patron", "contexto": "google-mx", "fecha": "2026-10-26" },
+        { "url": "https://www.jornada.com.mx/noticia/2026/10/26/ciencia-y-tecnologia/tiranosaurios-raptores-y-dinosaurios-pico-de-pato-michoacanos-inah-confirma-hallazgo-de-50-huellas-en-apatzingan", "metrica": "Cobertura nacional el mismo día (La Jornada, Yahoo)", "tipo": "medido", "mide": "senal_relacionada", "contexto": "prensa-mx", "fecha": "2026-10-26" }
+      ],
+      "historial": [
+        { "fecha": "2026-10-26", "etapa": "emergente", "indice_saturacion": 20, "senal": "Noticia del día con búsquedas en subida (100+ a 200+) y cobertura nacional. Tráfico absoluto bajo: fuerza viral débil." },
+        { "fecha": "2026-10-31", "etapa": "quemado", "indice_saturacion": 86, "senal": "Sin rastro en Google Trends MX ni en X México en el snapshot de 01:05; ventana vencida el 28-oct. Se archiva." }
+      ]
+    },
+    {
+      "id": "tema-microsoft-recompras-60000",
+      "nombre": "Microsoft ofrece salidas voluntarias a unos 60.000 empleados",
+      "tipo": "tema",
+      "descripcion": "Microsoft ofrece salidas voluntarias pagadas a unos 60.000 empleados (cerca de una cuarta parte de su plantilla) para contener costos.",
+      "plataformas": ["tiktok", "youtube", "x", "instagram"],
+      "regiones": ["CO", "US"],
+      "nichos": ["inteligencia artificial y tecnología"],
+      "primera_vez_visto": "2026-10-26",
+      "archivado": "2026-10-31",
+      "motivo_archivo": "Tema de actualidad con ventana vencida (2026-10-28); 'microsoft' ya no figura en Google Trends CO ni US el 31-oct.",
+      "etapa": "quemado",
+      "etapa_por_contexto": { "global": "quemado" },
+      "indice_saturacion": 86,
+      "puntaje_oportunidad": 0,
+      "ventana_hasta": "2026-10-28",
+      "confianza": "baja",
+      "evidencia": [
+        { "url": "https://www.reuters.com/technology/microsoft-is-offering-buyouts-around-60000-employees-business-insider-reports-2026-10-26/", "metrica": "En Google Trends CO, 'microsoft' en 200+ en los snapshots de 21:19 y 21:37 del 26-oct; noticia de Reuters", "tipo": "medido", "mide": "patron", "contexto": "google-co", "fecha": "2026-10-26" },
+        { "url": "https://www.bloomberg.com/news/articles/2026-10-26/microsoft-to-offer-buyouts-to-60-000-workers-in-latest-cost-cut", "metrica": "Bloomberg confirma: 60.000 trabajadores, recorte de costos", "tipo": "medido", "mide": "senal_relacionada", "contexto": "prensa-us", "fecha": "2026-10-26" }
+      ],
+      "historial": [
+        { "fecha": "2026-10-26", "etapa": "emergente", "indice_saturacion": 22, "senal": "Noticia del día con cobertura de agencias y búsquedas en Colombia. Ninguna fuente atribuye el recorte a la IA: plantearlo solo como pregunta." },
+        { "fecha": "2026-10-31", "etapa": "quemado", "indice_saturacion": 86, "senal": "Sin rastro en Google Trends CO/US ni en X en el snapshot de 01:05; ventana vencida el 28-oct. Se archiva." }
+      ]
+    }
+  ]
+}
