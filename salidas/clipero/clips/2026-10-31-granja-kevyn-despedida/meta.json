@@ -1,0 +1,26 @@
+{
+    "id":  "2026-10-31-granja-kevyn-despedida",
+    "url_fuente":  "https://www.youtube.com/watch?v=i1WkmCJI_ww",
+    "video_id":  "i1WkmCJI_ww",
+    "inicio":  1012.17,
+    "fin":  1066.58,
+    "inicio_hms":  "0:16:52",
+    "duracion_seg":  54.4,
+    "gancho":  "La despedida adelantada de Kevyn",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  107,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -20.25,
+                  "entrada_tp":  -7.74,
+                  "salida_lufs":  -13.97,
+                  "salida_tp":  -1.49
+              },
+    "archivo":  "salidas/clipero/clips/2026-10-31-granja-kevyn-despedida/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-10-31-granja-kevyn-despedida/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-10-31-granja-kevyn-despedida/revision.jpg",
+    "creado":  "2026-10-31T16:05:04.1414163-05:00"
+}

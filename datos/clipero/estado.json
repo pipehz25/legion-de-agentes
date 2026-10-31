@@ -1,7 +1,7 @@
 {
-    "actualizado":  "2026-10-29T20:22:19-05:00",
-    "ciclo":  2,
-    "ultimo_ciclo_cazador":  1,
+    "actualizado":  "2026-10-31T18:36:35-05:00",
+    "ciclo":  3,
+    "ultimo_ciclo_cazador":  2,
     "fuentes":  [
                     {
                         "id":  "LYEB5ioD_pY",
@@ -9,6 +9,27 @@
                         "titulo":  "BLESSD Rompe el Silencio | Sinvergüenza Podcast By Kerry Kambell",
                         "analizado":  "2026-10-29",
                         "resultado":  "21 clips (3 en el ciclo 1 y 18 en el ciclo 2) | fuente indicada por el usuario | publicada 2026-10-28, 7094 s; reanalizada el 29-oct a las 19:33: 602.151 vistas, 18.103 likes, canal de 60.700 suscriptores | sin picos de repetición (menos de 48 h), 3 marcas en comentarios | transcripción leída entera (968 líneas) | palabras-rev.json regenerado desde el palabras.json nuevo (pitido como ***) con 68 correcciones de nombres | 3 momentos esperan revisión humana (Pirlo, 1:12:43-1:14:10 y 1:16:37-1:17:12)"
+                    },
+                    {
+                        "id":  "UdupORUvULE",
+                        "url":  "https://www.youtube.com/watch?v=UdupORUvULE",
+                        "titulo":  "#EnVivo ¬ #LosPeriodistas ¬ Detienen a Inés Gómez-Mont, esposa del facturero Álvarez Puga",
+                        "analizado":  "2026-10-31",
+                        "resultado":  "2 clips (alvarez-puga-deportacion y gomez-mont-amparo-cuentas; el segundo se colgó 2,5 h en la descarga y salió en el único reintento) + 2 propuestos para revisión humana | fuente_para_clips #1 del Cazador (ciclo 2), oportunidad tema-ines-gomez-mont-detencion | directo del 30-oct 22:22, 12.050 s, SinEmbargo Al Aire (2,52 M) | 404.784 vistas a las 09:04 y 432.877 a las 15:39 del 31-oct | sin picos de repetición, 1 marca en comentarios (2:17:00, análisis de Ana Lilia Pérez) | transcripción leída entera (1.352 líneas) | Inés Gómez Mont solo en 1:47:52-2:17:12 (mesa y videocolumna de Ana Lilia Pérez); el resto es Cuauhtémoc Cárdenas, INE/Taddei, CEU, Pemex y Maru Campos | palabras-rev.json: aprensión→aprehensión, WIF→UIF, autoridad idades→autoridades | el rumor de 'fue IA' no aparece"
+                    },
+                    {
+                        "id":  "i1WkmCJI_ww",
+                        "url":  "https://www.youtube.com/watch?v=i1WkmCJI_ww",
+                        "titulo":  "BEBESHITA se resiste a pedir votos por KEVYN BICOLOR y todo se vuelve incómodo",
+                        "analizado":  "2026-10-31",
+                        "resultado":  "4 clips | fuente_para_clips #2 del Cazador (ciclo 2), oportunidad tema-la-granja-vip-mx | canal oficial La Granja VIP México (TV Azteca, 276.000), publicado 31-oct 01:01, 1.444 s, 50.122 vistas a las 09:05 | sin picos, 4 marcas en comentarios (2:19, 10:40, 14:54 y 15:39; 1 mención cada una) | transcripción leída entera (208 líneas) | derechos sin_verificar (metraje de TV) | palabras-rev.json: Kevin→Kevyn, bebecita→Bebeshita, gatuela→Gatúbela, robo→robó, gancito→Gansito, geüey→güey, cabatas→capataz, conita→con (…) | Kevyn = el del pelo rizado (el de la calabaza habla de él en tercera persona); quién se despide en 0:16:52 queda por confirmar"
+                    },
+                    {
+                        "id":  "sGgNvGbwrH4",
+                        "url":  "https://www.youtube.com/watch?v=sGgNvGbwrH4",
+                        "titulo":  "GTA6 SIZE REVEALED, ELDER SCROLLS 6 LEAKED? & MORE",
+                        "analizado":  "2026-10-31",
+                        "resultado":  "error: sin subtítulos (HTTP 429 Too Many Requests de YouTube en en y es, en el análisis de las 09:05 y en el único reintento de las 15:37) | fuente_para_clips #3 del Cazador (ciclo 2), oportunidad tema-gta-vi-lanzamiento | gameranx (8,66 M), publicado 30-oct 15:42, 1.143 s, 416.243 vistas | sí hay resumen.json con 8 marcas en comentarios (0:44 'Kung Pow' 103 likes, 1:03-1:10 peso del juego, 1:58 'lanzar caca', 2:40, 7:52) | 0 clips; 2 momentos propuestos por zona de comentarios | reanalizar con -Traducir es en el ciclo siguiente: cumple 36 h el 1-nov a las 03:42"
                     }
                 ],
     "momentos":  [
@@ -435,6 +456,262 @@
                          "estado":  "descartado",
                          "clip":  null,
                          "motivo":  "Sketch montado del carro (\u0027yo soy millonario\u0027). Largo y depende de lo visual"
+                     },
+                     {
+                         "fuente":  "UdupORUvULE",
+                         "inicio":  7955.77,
+                         "fin":  8016.22,
+                         "estado":  "cortado",
+                         "clip":  "2026-10-31-alvarez-puga-deportacion",
+                         "motivo":  "revelacion, 76 (ciclo 3): situación legal de Álvarez Puga (deportación recurrida, audiencia el 12-nov, órdenes de aprehensión según la FGR, ficha roja, extradición). Termina antes de la frase transcrita 'se ha entregado' (probablemente 'sea entregado'), que no se corrige. Entrada de audio saturada: escuchar antes de publicar"
+                     },
+                     {
+                         "fuente":  "UdupORUvULE",
+                         "inicio":  7774.33,
+                         "fin":  7827.98,
+                         "estado":  "cortado",
+                         "clip":  "2026-10-31-gomez-mont-amparo-cuentas",
+                         "motivo":  "revelacion, 75 (ciclo 3): imputaciones a Álvarez Puga; los amparos de 2023 y el tribunal colegiado que en marzo de 2025 ordenó sacarlos de la lista de personas bloqueadas y descongelar sus cuentas. Entrada de audio saturada: escuchar antes de publicar"
+                     },
+                     {
+                         "fuente":  "UdupORUvULE",
+                         "inicio":  7160.8,
+                         "fin":  7224.3,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "motivo":  "74, los lujos que mostraba en redes y la fiesta para sus 'comadres' en avión privado (Galilea Montijo, Ninfa Salinas). No se corta sin revisión humana: expone a terceras personas no acusadas (Galilea Montijo pidió en 2021 que pararan los ataques por vincularla con Gómez Mont) y la historia del viaje es de 2021 (frescura baja). 'Galilea' es tendencia en X México el 31-oct"
+                     },
+                     {
+                         "fuente":  "UdupORUvULE",
+                         "inicio":  7683.3,
+                         "fin":  7731.6,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "motivo":  "74, el caso de Gobernación (3.000 millones para siete penales, empresas 'fantasma', 'una parte de ese dinero fue a parar a las cuentas de Álvarez Puga y Gómez Mont'). No se corta sin revisión humana: los subtítulos afirmarían como hecho la recepción de recursos en un proceso en curso (presunción de inocencia)"
+                     },
+                     {
+                         "fuente":  "UdupORUvULE",
+                         "inicio":  6661,
+                         "fin":  6765,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Mesa: 'todo lo que presumían… se lo robaban a los trabajadores' y la detención ('faltaba ella en esta trama'). Afirma culpabilidad, y fecha la detención del esposo en 'septiembre' cuando la columna dice 'a mediados de octubre'"
+                     },
+                     {
+                         "fuente":  "UdupORUvULE",
+                         "inicio":  6898,
+                         "fin":  6990,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Anécdota de oídas ('me contaron… yo nunca las vi') de dólares en el avión y bolsas de regalo para conductoras de TV Azteca; cierra con 'dinero sucio'. Rumor y afirmación de culpabilidad"
+                     },
+                     {
+                         "fuente":  "UdupORUvULE",
+                         "inicio":  6990,
+                         "fin":  7016,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Quién fue a la boda (Manuel Velasco). Insinuación sobre un tercero y sin autonomía"
+                     },
+                     {
+                         "fuente":  "UdupORUvULE",
+                         "inicio":  7257,
+                         "fin":  7663,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Columna: 'red de factureras', 'capos', 'maniobras mafiosas', 'opulencia creada a través de operaciones fraudulentas'. Afirma culpabilidad (presunción de inocencia)"
+                     },
+                     {
+                         "fuente":  "UdupORUvULE",
+                         "inicio":  7849,
+                         "fin":  7955,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "'Estructuras de corrupción' (Pablo Gómez), 'en supuesta fuga… vida de lujos en Miami… los prófugos estaban localizables'. Opinión, y repite la idea de los clips del amparo y de la deportación"
+                     },
+                     {
+                         "fuente":  "UdupORUvULE",
+                         "inicio":  8027,
+                         "fin":  8232,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "58, cifras generales de las factureras (SAT 2014-2019, 13.594 contribuyentes) y 'sus compinches'. No habla del caso, y el final afirma culpabilidad"
+                     },
+                     {
+                         "fuente":  "UdupORUvULE",
+                         "inicio":  3222,
+                         "fin":  3358,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "62, discurso de Sheinbaum en el homenaje a Cuauhtémoc Cárdenas ('valiente'). Cárdenas fue #5 en X México, pero el momento está saturado: NMás 116.162, Gobierno de México 125.561 y Milenio 68.994 vistas"
+                     },
+                     {
+                         "fuente":  "UdupORUvULE",
+                         "inicio":  3497,
+                         "fin":  3537,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Comentan que Lázaro Cárdenas Batel sonríe en el funeral de su padre. Persona en duelo (§6)"
+                     },
+                     {
+                         "fuente":  "UdupORUvULE",
+                         "inicio":  4280,
+                         "fin":  4497,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "58-60, mañanera de Sheinbaum ('la democracia del chayote… del apapacho'; AMLO visitó primero a Cárdenas en 2018). Saturado y sin oportunidad del Cazador"
+                     },
+                     {
+                         "fuente":  "UdupORUvULE",
+                         "inicio":  1100,
+                         "fin":  1208,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "63 como máximo, Zedillo 'quema riqueza… cerros de billetes en el Zócalo'. Opinión política sin oportunidad del Cazador ni tendencia"
+                     },
+                     {
+                         "fuente":  "UdupORUvULE",
+                         "inicio":  5418,
+                         "fin":  5441,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "64 como máximo, 'te garantizo que no ha leído un libro en su vida' (Salinas Pliego). Ataque personal sin oportunidad del Cazador"
+                     },
+                     {
+                         "fuente":  "UdupORUvULE",
+                         "inicio":  5782,
+                         "fin":  6102,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "57, gráfico de la deuda de Pemex 'que le pedí a la IA'. Depende de lo visual y no tiene oportunidad del Cazador"
+                     },
+                     {
+                         "fuente":  "UdupORUvULE",
+                         "inicio":  10024,
+                         "fin":  10046,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "63, la suite en París del hijo de Taddei (200.000 pesos por noche). Es material de Latinus ya difundido (frescura baja)"
+                     },
+                     {
+                         "fuente":  "UdupORUvULE",
+                         "inicio":  11116,
+                         "fin":  11199,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "64, archivo de Claudia Sheinbaum en el CEU (16-ene-1987: 'cualquier provocación será culpa de ustedes'). Bajo el umbral: ya está en la 'Parte 3' del propio canal (239.153 vistas); el CEU cumple 40 años el 31-oct, pero no es tendencia ni oportunidad del Cazador"
+                     },
+                     {
+                         "fuente":  "i1WkmCJI_ww",
+                         "inicio":  428.21,
+                         "fin":  495.38,
+                         "estado":  "cortado",
+                         "clip":  "2026-10-31-granja-bebeshita-votos-kevyn",
+                         "motivo":  "confrontacion, 79 (ciclo 3): le piden a Bebeshita votos por Kevyn, 'Jamás, güey… se trata de pedir votos, no milagros… el chiste es chingarme'. Es el momento del título del video oficial"
+                     },
+                     {
+                         "fuente":  "i1WkmCJI_ww",
+                         "inicio":  135.97,
+                         "fin":  182.58,
+                         "estado":  "cortado",
+                         "clip":  "2026-10-31-granja-burlas-cara-a-cara",
+                         "motivo":  "confrontacion, 73 (ciclo 3): responden a las burlas del cara a cara, 'se te borró la sonrisa' (comentario 2:19)"
+                     },
+                     {
+                         "fuente":  "i1WkmCJI_ww",
+                         "inicio":  839.21,
+                         "fin":  863.98,
+                         "estado":  "cortado",
+                         "clip":  "2026-10-31-granja-kevyn-no-me-salves",
+                         "motivo":  "revelacion, 72 (ciclo 3): según su compañero, Kevyn pidió que no lo salvaran ('quiero llegar a esa tabla'). Salió en el único reintento"
+                     },
+                     {
+                         "fuente":  "i1WkmCJI_ww",
+                         "inicio":  1012.17,
+                         "fin":  1066.58,
+                         "estado":  "cortado",
+                         "clip":  "2026-10-31-granja-kevyn-despedida",
+                         "motivo":  "humor, 68 (ciclo 3): despedida adelantada ('así se despide un loco') y la broma 'te quedas tres semanas más de peón extra'. Confirmar visualmente quién se despide antes de publicar"
+                     },
+                     {
+                         "fuente":  "i1WkmCJI_ww",
+                         "inicio":  296.72,
+                         "fin":  345.86,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "66, 'esa pimienta, pero sin el autosabotaje… en esa delgada línea está la gran diferencia'. Repite la idea de kevyn-no-me-salves (romper las reglas con gracia); se corta el mejor"
+                     },
+                     {
+                         "fuente":  "i1WkmCJI_ww",
+                         "inicio":  612.4,
+                         "fin":  652.82,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "70, 'no me menciones… ni malo ni bueno' y la canción 'un patán' (comentario 10:40, 4 likes). Repite la idea de bebeshita-votos-kevyn (Bebeshita harta de Kevyn); se corta el mejor"
+                     },
+                     {
+                         "fuente":  "i1WkmCJI_ww",
+                         "inicio":  1254.28,
+                         "fin":  1284.42,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "63, la rata enorme ('ella se sintió descubierta: ay, soy yo'). Bajo el umbral: depende de lo visual y es una burla a una granjera sin identificar"
+                     },
+                     {
+                         "fuente":  "i1WkmCJI_ww",
+                         "inicio":  51,
+                         "fin":  92,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "62, 'quiero verle la jeta cagándose' en el zoom de la placa. No se sabe quién habla ni de quién"
+                     },
+                     {
+                         "fuente":  "i1WkmCJI_ww",
+                         "inicio":  945,
+                         "fin":  1001,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Canción de Halloween de la calabaza pidiendo votos ('que vote disfuncional'). Transcripción ilegible: no se puede subtitular"
+                     },
+                     {
+                         "fuente":  "i1WkmCJI_ww",
+                         "inicio":  599,
+                         "fin":  611,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "El 'gancito' en doble sentido sexual. No se recorta"
+                     },
+                     {
+                         "fuente":  "i1WkmCJI_ww",
+                         "inicio":  1284,
+                         "fin":  1400,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "55, lágrimas falsas del disfraz y 'nos debes una'. Débil"
+                     },
+                     {
+                         "fuente":  "i1WkmCJI_ww",
+                         "inicio":  0,
+                         "fin":  30,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Avance del video: repite 0:06:35"
+                     },
+                     {
+                         "fuente":  "sGgNvGbwrH4",
+                         "inicio":  45,
+                         "fin":  118,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "motivo":  "Sin puntaje (no hay transcripción). GTA VI y su peso (210 GB según el Cazador: filtración, rotular 'no confirmado'). Zona estimada por los comentarios (1:03 y 1:10). Confirmar inicio y fin con analizar -Traducir es en el ciclo siguiente, antes del 1-nov a las 03:42"
+                     },
+                     {
+                         "fuente":  "sGgNvGbwrH4",
+                         "inicio":  110,
+                         "fin":  150,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "motivo":  "Sin puntaje (no hay transcripción). 'Lanzar caca' en GTA VI (comentarios en 1:58, 2 menciones; según uno de ellos ya se había confirmado en agosto). Zona estimada; confirmar con la transcripción"
                      }
                  ]
 }

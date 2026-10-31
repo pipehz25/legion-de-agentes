@@ -1,0 +1,26 @@
+{
+    "id":  "2026-10-31-granja-kevyn-no-me-salves",
+    "url_fuente":  "https://www.youtube.com/watch?v=i1WkmCJI_ww",
+    "video_id":  "i1WkmCJI_ww",
+    "inicio":  839.21,
+    "fin":  863.98,
+    "inicio_hms":  "0:13:59",
+    "duracion_seg":  24.8,
+    "gancho":  "Kevyn pidió que NO lo salvaran",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  80,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -21.62,
+                  "entrada_tp":  -8.97,
+                  "salida_lufs":  -14.06,
+                  "salida_tp":  -1.35
+              },
+    "archivo":  "salidas/clipero/clips/2026-10-31-granja-kevyn-no-me-salves/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-10-31-granja-kevyn-no-me-salves/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-10-31-granja-kevyn-no-me-salves/revision.jpg",
+    "creado":  "2026-10-31T18:29:50.7183862-05:00"
+}

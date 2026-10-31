@@ -1,0 +1,26 @@
+{
+    "id":  "2026-10-31-granja-bebeshita-votos-kevyn",
+    "url_fuente":  "https://www.youtube.com/watch?v=i1WkmCJI_ww",
+    "video_id":  "i1WkmCJI_ww",
+    "inicio":  428.21,
+    "fin":  495.38,
+    "inicio_hms":  "0:07:08",
+    "duracion_seg":  67.2,
+    "gancho":  "Le piden a Bebeshita votos por Kevyn",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  174,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -21.36,
+                  "entrada_tp":  -8.68,
+                  "salida_lufs":  -13.83,
+                  "salida_tp":  -1.32
+              },
+    "archivo":  "salidas/clipero/clips/2026-10-31-granja-bebeshita-votos-kevyn/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-10-31-granja-bebeshita-votos-kevyn/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-10-31-granja-bebeshita-votos-kevyn/revision.jpg",
+    "creado":  "2026-10-31T15:52:19.3668653-05:00"
+}

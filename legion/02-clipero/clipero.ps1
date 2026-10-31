@@ -44,6 +44,12 @@ foreach ($exe in $ytdlp, $ffmpeg, $ffprobe, (Join-Path $bin 'deno.exe')) {
 # yt-dlp busca deno y ffmpeg en el PATH
 $env:PATH = "$bin;$env:PATH"
 
+# Una sola ejecucion a la vez: varias descargas en paralelo desde la misma IP provocan HTTP 429 de YouTube y cuelgues.
+# Si el agente lanza varias llamadas juntas, esperan su turno. El candado se libera al terminar el proceso.
+$candado = New-Object Threading.Mutex($false, 'Local\LegionClipero')
+try { $turno = $candado.WaitOne([TimeSpan]::FromMinutes(90)) } catch [Threading.AbandonedMutexException] { $turno = $true }
+if (-not $turno) { throw 'Otra ejecucion de clipero.ps1 lleva mas de 90 min ocupada; reintenta mas tarde' }
+
 $utf8 = New-Object Text.UTF8Encoding $false
 $cultura = [Globalization.CultureInfo]::InvariantCulture
 $fuentes = Join-Path $raiz 'datos\clipero\fuentes'
@@ -60,7 +66,7 @@ function Hms([double]$s) {
     '{0}:{1:00}:{2:00}' -f [int][math]::Floor($t.TotalHours), $t.Minutes, $t.Seconds
 }
 function YtDlp([string[]]$argumentos) {
-    & $ytdlp --quiet --no-warnings --ffmpeg-location $bin @argumentos
+    & $ytdlp --quiet --no-warnings --socket-timeout 30 --ffmpeg-location $bin @argumentos
     if ($LASTEXITCODE -ne 0) { throw "yt-dlp termino con codigo $LASTEXITCODE" }
 }
 function IdVideo([string]$u) {
@@ -185,7 +191,7 @@ if ($Accion -eq 'buscar') {
         # Con muchos resultados se va a varios minutos, asi que se limita a 10.
         if ($N -gt 10) { $N = 10 }
         $campos = '%(.{id,title,channel,channel_follower_count,duration,view_count,like_count,comment_count,timestamp,live_status,webpage_url})j'
-        & $ytdlp --quiet --no-warnings --ignore-errors --skip-download --playlist-end "$N" --print-to-file $campos $archivo $objetivo
+        & $ytdlp --quiet --no-warnings --socket-timeout 30 --ignore-errors --skip-download --playlist-end "$N" --print-to-file $campos $archivo $objetivo
     } else {
         YtDlp @('--flat-playlist', '--skip-download', '--playlist-end', "$N", '--print-to-file', '%(.{id,title,channel,duration,view_count,live_status,url})j', $archivo, $objetivo)
     }

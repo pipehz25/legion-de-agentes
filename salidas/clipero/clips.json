@@ -1,7 +1,161 @@
 {
-    "generado":  "2026-10-29T20:22:19-05:00",
-    "ciclo":  2,
+    "generado":  "2026-10-31T18:36:35-05:00",
+    "ciclo":  3,
     "clips":  [
+                  {
+                      "id":  "2026-10-31-alvarez-puga-deportacion",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  76,
+                      "gancho":  "Álvarez Puga: ¿deportación o extradición?",
+                      "archivo":  "salidas/clipero/clips/2026-10-31-alvarez-puga-deportacion/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-10-31-alvarez-puga-deportacion/ficha.md",
+                      "duracion_seg":  60.5,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/UdupORUvULE?t=7955",
+                                     "canal":  "SinEmbargo Al Aire",
+                                     "inicio":  7955.77,
+                                     "fin":  8016.22
+                                 },
+                      "oportunidad_cazador":  "tema-ines-gomez-mont-detencion",
+                      "orden_en_fuente":  1,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-02"
+                  },
+                  {
+                      "id":  "2026-10-31-gomez-mont-amparo-cuentas",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  75,
+                      "gancho":  "¿Por qué les descongelaron las cuentas en 2025?",
+                      "archivo":  "salidas/clipero/clips/2026-10-31-gomez-mont-amparo-cuentas/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-10-31-gomez-mont-amparo-cuentas/ficha.md",
+                      "duracion_seg":  53.7,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/UdupORUvULE?t=7774",
+                                     "canal":  "SinEmbargo Al Aire",
+                                     "inicio":  7774.33,
+                                     "fin":  7827.98
+                                 },
+                      "oportunidad_cazador":  "tema-ines-gomez-mont-detencion",
+                      "orden_en_fuente":  2,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-02"
+                  },
+                  {
+                      "id":  "2026-10-31-granja-bebeshita-votos-kevyn",
+                      "estado":  "listo",
+                      "tipo":  "confrontacion",
+                      "puntaje":  79,
+                      "gancho":  "Le piden a Bebeshita votos por Kevyn",
+                      "archivo":  "salidas/clipero/clips/2026-10-31-granja-bebeshita-votos-kevyn/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-10-31-granja-bebeshita-votos-kevyn/ficha.md",
+                      "duracion_seg":  67.2,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/i1WkmCJI_ww?t=428",
+                                     "canal":  "La Granja VIP México",
+                                     "inicio":  428.21,
+                                     "fin":  495.38
+                                 },
+                      "oportunidad_cazador":  "tema-la-granja-vip-mx",
+                      "orden_en_fuente":  1,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-01"
+                  },
+                  {
+                      "id":  "2026-10-31-granja-burlas-cara-a-cara",
+                      "estado":  "listo",
+                      "tipo":  "confrontacion",
+                      "puntaje":  73,
+                      "gancho":  "Responden a las burlas del cara a cara",
+                      "archivo":  "salidas/clipero/clips/2026-10-31-granja-burlas-cara-a-cara/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-10-31-granja-burlas-cara-a-cara/ficha.md",
+                      "duracion_seg":  46.6,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/i1WkmCJI_ww?t=135",
+                                     "canal":  "La Granja VIP México",
+                                     "inicio":  135.97,
+                                     "fin":  182.58
+                                 },
+                      "oportunidad_cazador":  "tema-la-granja-vip-mx",
+                      "orden_en_fuente":  2,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-02"
+                  },
+                  {
+                      "id":  "2026-10-31-granja-kevyn-no-me-salves",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  72,
+                      "gancho":  "Kevyn pidió que NO lo salvaran",
+                      "archivo":  "salidas/clipero/clips/2026-10-31-granja-kevyn-no-me-salves/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-10-31-granja-kevyn-no-me-salves/ficha.md",
+                      "duracion_seg":  24.8,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/i1WkmCJI_ww?t=839",
+                                     "canal":  "La Granja VIP México",
+                                     "inicio":  839.21,
+                                     "fin":  863.98
+                                 },
+                      "oportunidad_cazador":  "tema-la-granja-vip-mx",
+                      "orden_en_fuente":  3,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-01"
+                  },
+                  {
+                      "id":  "2026-10-31-granja-kevyn-despedida",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  68,
+                      "gancho":  "La despedida adelantada de Kevyn",
+                      "archivo":  "salidas/clipero/clips/2026-10-31-granja-kevyn-despedida/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-10-31-granja-kevyn-despedida/ficha.md",
+                      "duracion_seg":  54.4,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/i1WkmCJI_ww?t=1012",
+                                     "canal":  "La Granja VIP México",
+                                     "inicio":  1012.17,
+                                     "fin":  1066.58
+                                 },
+                      "oportunidad_cazador":  "tema-la-granja-vip-mx",
+                      "orden_en_fuente":  4,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-01"
+                  },
                   {
                       "id":  "2026-10-29-blessd-pelea-feid",
                       "estado":  "listo",

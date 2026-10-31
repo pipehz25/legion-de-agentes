@@ -1,0 +1,26 @@
+{
+    "id":  "2026-10-31-gomez-mont-amparo-cuentas",
+    "url_fuente":  "https://www.youtube.com/watch?v=UdupORUvULE",
+    "video_id":  "UdupORUvULE",
+    "inicio":  7774.33,
+    "fin":  7827.98,
+    "inicio_hms":  "2:09:34",
+    "duracion_seg":  53.7,
+    "gancho":  "¿Por qué les descongelaron las cuentas en 2025?",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  136,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -6.3,
+                  "entrada_tp":  1.31,
+                  "salida_lufs":  -13.88,
+                  "salida_tp":  -6.43
+              },
+    "archivo":  "salidas/clipero/clips/2026-10-31-gomez-mont-amparo-cuentas/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-10-31-gomez-mont-amparo-cuentas/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-10-31-gomez-mont-amparo-cuentas/revision.jpg",
+    "creado":  "2026-10-31T18:32:16.6254282-05:00"
+}

@@ -1,0 +1,26 @@
+{
+    "id":  "2026-10-31-granja-burlas-cara-a-cara",
+    "url_fuente":  "https://www.youtube.com/watch?v=i1WkmCJI_ww",
+    "video_id":  "i1WkmCJI_ww",
+    "inicio":  135.97,
+    "fin":  182.58,
+    "inicio_hms":  "0:02:15",
+    "duracion_seg":  46.6,
+    "gancho":  "Responden a las burlas del cara a cara",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  109,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -15.5,
+                  "limitador":  true,
+                  "entrada_lufs":  -28.62,
+                  "entrada_tp":  -14.15,
+                  "salida_lufs":  -15.25,
+                  "salida_tp":  -1.03
+              },
+    "archivo":  "salidas/clipero/clips/2026-10-31-granja-burlas-cara-a-cara/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-10-31-granja-burlas-cara-a-cara/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-10-31-granja-burlas-cara-a-cara/revision.jpg",
+    "creado":  "2026-10-31T16:02:50.1132870-05:00"
+}

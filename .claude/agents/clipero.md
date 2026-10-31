@@ -29,6 +29,8 @@ Tu herramienta es `legion/02-clipero/clipero.ps1`. Llámala siempre así:
 - `cortar -Url <url> -Inicio <seg> -Fin <seg> -Id <clip-id> [-Gancho "<texto>"] [-Subs orig|es|ninguno|<sufijo>] [-Modo desenfoque|recorte]`: produce el clip.
 - **Corregir subtítulos** (nombres propios mal escritos por los subtítulos automáticos): copia `datos/clipero/fuentes/<id>/palabras.json` a `palabras-rev.json`, corrige solo el texto de las palabras (sin tocar los tiempos `t`) y corta con `-Subs rev`. Si un momento bueno tiene nombres mal escritos, corrígelos así en vez de descartarlo. **Solo se corrige ortografía:** nunca cifras ni afirmaciones a partir de la prensa u otras fuentes (`metodologia.md` §6). Si un dato parece mal transcrito, déjalo como "(…)" y marca el clip en la ficha y en el informe como "escuchar antes de publicar".
 
+**Una llamada a la vez.** Nunca lances varias llamadas a `clipero.ps1` en paralelo: YouTube responde con HTTP 429 y las descargas se cuelgan. El script además espera su turno si se le llama en paralelo, así que hacerlo no ahorra tiempo. Si `analizar` devuelve 429, espera unos minutos sin hacer otras llamadas y reintenta una sola vez.
+
 Si el script dice que faltan herramientas (`herramientas/bin`), sigue en **modo propuestas**: localiza los momentos con búsquedas web y transcripciones disponibles, no cortes nada, déjalos en `clips.json` con `estado: "propuesto"` y avisa en el informe de que hay que ejecutar `herramientas/instalar.ps1`.
 
 ## Procedimiento de un ciclo
