@@ -38,13 +38,14 @@ Escribes:
    - **YouTube con datos medidos**, dentro de `busquedas_youtube`:
      `powershell -NoProfile -ExecutionPolicy Bypass -File legion/02-clipero/clipero.ps1 buscar -Consulta "<texto>" [-N 10] [-Recientes]`
      Imprime la ruta de un `.jsonl` con título, canal, duración y vistas reales de cada resultado. Úsalo sobre todo para comprobar si un formato ya existe en español y cuánto rinden esas versiones. Si falla porque faltan herramientas, anótalo y sigue.
+   - **Fuentes para clips** (para el Clipero): busca contenido largo (≥ 8 min: podcasts, entrevistas, streams, debates, programas) publicado en las últimas `ventana_fuentes_horas`, sobre todo de los temas y las personas que están subiendo ahora. Usa `buscar ... -Hoy -Detalle` y `-Recientes -Detalle`: dan la fecha exacta y las `vistas_por_hora`, y vienen ordenados por ellas. Guarda las mejores en `fuentes_para_clips` (esquema abajo), ordenadas por prioridad.
 4. **Seguimiento.** Revisa con 1-2 consultas cada patrón vigilado en `semilla`, `emergente` o `crecimiento`: réplicas recientes y cómo rinden. Vale más actualizar bien lo vigilado que acumular hallazgos nuevos.
 5. **Descomposición.** De los mejores candidatos nuevos (hasta `candidatos_a_descomponer`), completa el genoma de 10 genes y la evidencia. Descarta lo que sea fama sin sobre-rendimiento.
 6. **Ciclo de vida.** Asigna etapa e índice de saturación a cada patrón, nuevo o vigilado, y desglósalo por contexto cuando difiera entre plataformas, idiomas o nichos. Añade una entrada a `historial` solo si hubo una observación nueva.
 7. **Puntaje y clasificación.** Calcula `puntaje_oportunidad` según `metodologia.md` §5. Si supera el umbral, aplica el filtro de evidencia de ese mismo apartado: es **oportunidad** si tiene al menos una evidencia `medido` con `mide: "patron"` en una plataforma o un mercado de destino; si no, es **apuesta**, con lo que falta medir. Las evidencias antiguas sin `mide` o sin `contexto` se clasifican al revisarlas.
 8. **Hibridación.** Con los patrones que superan `umbral_hibridacion` y están en semilla, emergente o crecimiento, diseña hasta `formatos_hibridos` formatos usando las palancas de `metodologia.md` §6. Si ya existe un formato parecido y sigue vigente, actualízalo en vez de crear otro.
 9. **Escritura.** Actualiza los archivos de salida según los esquemas de abajo y `rotacion` con la fecha de hoy para lo que exploraste a fondo. Mueve a `datos/cazador-viral/archivo.json` los patrones que lleven más de 14 días en `quemado`.
-10. **Respuesta final** para el orquestador, de 10 líneas como máximo: las 3 mejores oportunidades (nombre, etapa, puntaje y ventana), los formatos nuevos, las fuentes que fallaron y la ruta del informe. Nada más.
+10. **Respuesta final** para el orquestador, de 10 líneas como máximo: las 3 mejores oportunidades (nombre, etapa, puntaje y ventana), las 3 mejores `fuentes_para_clips` (título, horas desde la publicación, vistas por hora), los formatos nuevos, las fuentes que fallaron y la ruta del informe. Nada más.
 
 ## Reglas
 
@@ -108,6 +109,8 @@ Dos listas con los patrones que superan `umbral_oportunidad`, cada una ordenada 
 - `oportunidades`: los que tienen evidencia medida del propio patrón en destino.
 - `apuestas`: los que no la tienen todavía. Llevan los mismos campos más `falta`.
 
+Y una tercera lista, `fuentes_para_clips`: hasta 10 videos largos publicados dentro de `ventana_fuentes_horas`, ordenados por prioridad (viralidad medida en `vistas_por_hora`, relación con lo que está subiendo y probabilidad de tener momentos cortables). Es la entrada principal del Clipero.
+
 ```json
 {
   "generado": "2026-10-26T21:00:00-05:00",
@@ -132,6 +135,15 @@ Dos listas con los patrones que superan `umbral_oportunidad`, cada una ordenada 
   "apuestas": [
     { "id": "formato-otro", "...": "mismos campos que una oportunidad",
       "falta": "Qué medición del propio patrón falta, y dónde, para pasar a oportunidad" }
+  ],
+  "fuentes_para_clips": [
+    {
+      "url": "https://www.youtube.com/watch?v=...",
+      "titulo": "", "canal": "", "publicado": "2026-10-30T22:00:00-05:00",
+      "horas_desde": 14.1, "vistas": 324000, "vistas_por_hora": 23011, "duracion_seg": 3111,
+      "por_que": "Una línea: qué tema o persona en alza toca y qué momentos probables tiene",
+      "oportunidad": "id de una oportunidad o apuesta relacionada, o null"
+    }
   ]
 }
 ```

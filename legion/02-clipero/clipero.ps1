@@ -1,7 +1,8 @@
 # Herramienta del Clipero (Agente 02 de la Legion). Tres acciones:
-#   buscar   -Consulta "<texto>" [-N 10] [-Recientes]
+#   buscar   -Consulta "<texto>" [-N 10] [-Recientes | -Hoy] [-Detalle]
 #            -> datos/clipero/busquedas/<marca>.jsonl con videos candidatos (duracion, vistas, canal).
-#               -Recientes: solo videos subidos esta semana.
+#               -Recientes: subidos esta semana. -Hoy: subidos hoy.
+#               -Detalle: anade fecha exacta, likes, comentarios, horas_desde y vistas_por_hora (mas lento).
 #   analizar -Url <url> [-Traducir es]
 #            -> datos/clipero/fuentes/<id>/: resumen.json (picos de "mas repetido", marcas de tiempo en comentarios,
 #               capitulos), transcripcion.txt y palabras*.json (palabras con tiempo, para subtitular)
@@ -15,6 +16,8 @@ param(
     [string]$Consulta,
     [int]$N = 10,
     [switch]$Recientes,
+    [switch]$Hoy,
+    [switch]$Detalle,
     [string]$Url,
     [string]$Traducir = '',
     [double]$Inicio = -1,
@@ -172,11 +175,30 @@ if ($Accion -eq 'buscar') {
     New-Item -ItemType Directory -Force $dir | Out-Null
     $archivo = Join-Path $dir ((Get-Date -Format 'yyyy-MM-dd_HHmmss') + '.jsonl')
     # yt-dlp no tiene busqueda ordenada por fecha (ytsearchdate no existe) y YouTube quito ese orden;
-    # -Recientes usa el filtro "subidos esta semana" de la pagina de resultados.
-    $objetivo = if ($Recientes) { "https://www.youtube.com/results?search_query=$([uri]::EscapeDataString($Consulta))&sp=EgIIAw%253D%253D" } else { "ytsearch$($N):$Consulta" }
-    YtDlp @('--flat-playlist', '--skip-download', '--playlist-end', "$N", '--print-to-file', '%(.{id,title,channel,duration,view_count,live_status,url})j', $archivo, $objetivo)
-    $total = if (Test-Path $archivo) { @(Get-Content $archivo).Count } else { 0 }
-    "Busqueda: $(Relativa $archivo) ($total resultados)"
+    # -Hoy y -Recientes usan los filtros "subidos hoy" y "subidos esta semana" de la pagina de resultados.
+    $filtro = if ($Hoy) { 'EgIIAg%253D%253D' } elseif ($Recientes) { 'EgIIAw%253D%253D' } else { $null }
+    $objetivo = if ($filtro) { "https://www.youtube.com/results?search_query=$([uri]::EscapeDataString($Consulta))&sp=$filtro" } else { "ytsearch$($N):$Consulta" }
+    if ($Detalle) {
+        # Extraccion completa de cada resultado (unos segundos por video): trae fecha exacta y metricas
+        $campos = '%(.{id,title,channel,channel_follower_count,duration,view_count,like_count,comment_count,timestamp,live_status,webpage_url})j'
+        & $ytdlp --quiet --no-warnings --ignore-errors --skip-download --playlist-end "$N" --print-to-file $campos $archivo $objetivo
+    } else {
+        YtDlp @('--flat-playlist', '--skip-download', '--playlist-end', "$N", '--print-to-file', '%(.{id,title,channel,duration,view_count,live_status,url})j', $archivo, $objetivo)
+    }
+    if (-not (Test-Path $archivo)) { "Busqueda: sin resultados ($Consulta)"; exit 0 }
+    if ($Detalle) {
+        # Anade horas desde la publicacion y vistas por hora, y ordena por vistas por hora
+        $ahora = [DateTimeOffset]::UtcNow.ToUnixTimeSeconds()
+        $filas = foreach ($linea in [IO.File]::ReadAllLines($archivo, $utf8)) {
+            $r = $linea | ConvertFrom-Json
+            $horas = if ($r.timestamp) { [math]::Max(1.0, [math]::Round(($ahora - [double]$r.timestamp) / 3600, 1)) } else { $null }
+            $r | Add-Member -NotePropertyName horas_desde -NotePropertyValue $horas
+            $r | Add-Member -NotePropertyName vistas_por_hora -NotePropertyValue $(if ($horas -and $r.view_count) { [long]($r.view_count / $horas) } else { $null })
+            $r
+        }
+        [IO.File]::WriteAllLines($archivo, [string[]]@($filas | Sort-Object { [double]$_.vistas_por_hora } -Descending | ForEach-Object { $_ | ConvertTo-Json -Compress }), $utf8)
+    }
+    "Busqueda: $(Relativa $archivo) ($(@([IO.File]::ReadAllLines($archivo)).Count) resultados)"
     exit 0
 }
 

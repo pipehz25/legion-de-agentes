@@ -18,6 +18,8 @@ Un clip relevante es un **momento de un contenido largo** que funciona solo, eng
 
 ## 2. Cómo encontrar los momentos
 
+La transcripción se lee **entera**, por tramos. Las señales del público sirven para ordenar la prioridad, no para limitar dónde se busca: un momento fuerte puede no tener pico (porque el video es reciente o porque nadie lo comentó todavía).
+
 `clipero.ps1 analizar` entrega tres señales del público y la transcripción:
 
 1. **`picos_repeticion`**: picos del gráfico "más repetido" de YouTube. Son los segundos que la gente vuelve a ver: la señal más fuerte. Cada pico es una **zona** (en videos largos, cada segmento dura ~1 % del video); el momento exacto se busca en la transcripción dentro de esa zona.
@@ -38,6 +40,10 @@ En videos de **menos de 24-48 h** todavía no hay gráfico de repetición ni com
 | Frescura del clip | 15 | Nadie (o casi nadie) ha publicado ya este mismo momento |
 
 Se produce desde `umbral_produccion` (65). Por debajo, el momento puede quedar como propuesta en el informe.
+
+**No hay cuota por fuente.** Todo momento que supere el umbral se corta: la cantidad de clips la decide la calidad de la fuente, no un número fijo. Una entrevista de dos horas llena de revelaciones puede dar 15 clips; una sin nada fuerte, ninguno. Solo se evitan dos cosas:
+- **Solapes:** dos clips no comparten segundos de la fuente.
+- **Ideas repetidas:** si dos momentos dicen lo mismo, se corta el mejor.
 
 ## 4. Saturación del clip
 
@@ -66,4 +72,5 @@ Antes de cortar, comprobar si el momento ya está recortado: `clipero.ps1 buscar
   - `sin_verificar`: hay que revisarlo antes de publicar.
 - Siempre se acredita la fuente: canal, enlace y minuto.
 - **Nunca se altera el sentido.** Está prohibido cortar de forma que alguien parezca decir lo que no dijo: quitar una negación, sacar una ironía de contexto o unir frases separadas.
+- **Los subtítulos dicen lo que se oye, no lo que publicó la prensa.** Al corregir los subtítulos automáticos solo se arregla la ortografía (nombres propios, tildes, palabras mal partidas). Cifras, nombres de personas distintas a las transcritas y afirmaciones no se cambian nunca con información de fuentes externas, aunque parezca que el subtítulo automático se equivocó. Si un dato importante parece mal transcrito y no se puede comprobar escuchando, ese tramo de subtítulo se deja como "(…)" y el clip queda marcado en la ficha para que una persona escuche el audio antes de publicar.
 - No se recortan momentos que expongan a personas privadas o a menores, ni tragedias, ni nada que caiga en las exclusiones del Cazador Viral.

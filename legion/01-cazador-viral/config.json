@@ -28,10 +28,11 @@
   "presupuesto_por_ciclo": {
     "busquedas_web": 20,
     "lecturas_web": 20,
-    "busquedas_youtube": 6,
+    "busquedas_youtube": 10,
     "candidatos_a_descomponer": 12,
     "formatos_hibridos": 4
   },
+  "ventana_fuentes_horas": 36,
   "umbral_oportunidad": 60,
   "umbral_hibridacion": 70,
   "cadencia_recomendada": "6h"

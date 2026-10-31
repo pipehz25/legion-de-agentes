@@ -1,11 +1,12 @@
 {
   "idioma_audiencia": "es",
 
-  "max_fuentes_por_ciclo": 5,
-  "max_clips_por_ciclo": 3,
+  "max_fuentes_por_ciclo": 3,
+  "max_clips_por_ciclo": 30,
+  "_max_clips_por_ciclo": "Solo es un tope de seguridad (unas 2 h de corte). El criterio es cortar todos los momentos que superen umbral_produccion; lo que pase del tope queda propuesto para el ciclo siguiente.",
   "presupuesto_por_ciclo": {
-    "busquedas_youtube": 8,
-    "busquedas_web": 10,
+    "busquedas_youtube": 15,
+    "busquedas_web": 12,
     "lecturas_web": 8
   },
 
