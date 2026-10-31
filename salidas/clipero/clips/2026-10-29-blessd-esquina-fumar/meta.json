@@ -1,0 +1,26 @@
+{
+    "id":  "2026-10-29-blessd-esquina-fumar",
+    "url_fuente":  "https://youtu.be/LYEB5ioD_pY",
+    "video_id":  "LYEB5ioD_pY",
+    "inicio":  210.65,
+    "fin":  228.54,
+    "inicio_hms":  "0:03:30",
+    "duracion_seg":  17.9,
+    "gancho":  "La señora no lo dejaba fumar ahí…",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  61,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -13.73,
+                  "entrada_tp":  -1.88,
+                  "salida_lufs":  -13.77,
+                  "salida_tp":  -2.15
+              },
+    "archivo":  "salidas/clipero/clips/2026-10-29-blessd-esquina-fumar/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-10-29-blessd-esquina-fumar/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-10-29-blessd-esquina-fumar/revision.jpg",
+    "creado":  "2026-10-29T19:58:25.1278639-05:00"
+}

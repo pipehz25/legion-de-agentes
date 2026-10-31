@@ -1,0 +1,26 @@
+{
+    "id":  "2026-10-29-blessd-edificios-frutas",
+    "url_fuente":  "https://youtu.be/LYEB5ioD_pY",
+    "video_id":  "LYEB5ioD_pY",
+    "inicio":  336.33,
+    "fin":  377.3,
+    "inicio_hms":  "0:05:36",
+    "duracion_seg":  41,
+    "gancho":  "¿Cuánto valen los edificios de Blessd?",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  161,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -11.88,
+                  "entrada_tp":  -1.66,
+                  "salida_lufs":  -13.87,
+                  "salida_tp":  -3.78
+              },
+    "archivo":  "salidas/clipero/clips/2026-10-29-blessd-edificios-frutas/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-10-29-blessd-edificios-frutas/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-10-29-blessd-edificios-frutas/revision.jpg",
+    "creado":  "2026-10-29T20:02:51.8630137-05:00"
+}

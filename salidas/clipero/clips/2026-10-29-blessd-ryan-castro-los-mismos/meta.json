@@ -1,0 +1,26 @@
+{
+    "id":  "2026-10-29-blessd-ryan-castro-los-mismos",
+    "url_fuente":  "https://youtu.be/LYEB5ioD_pY",
+    "video_id":  "LYEB5ioD_pY",
+    "inicio":  3520.37,
+    "fin":  3565.5,
+    "inicio_hms":  "0:58:40",
+    "duracion_seg":  45.2,
+    "gancho":  "¿Diez años con los mismos en el reggaetón?",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  132,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14.1,
+                  "limitador":  true,
+                  "entrada_lufs":  -20.51,
+                  "entrada_tp":  -7.47,
+                  "salida_lufs":  -14.36,
+                  "salida_tp":  -1.06
+              },
+    "archivo":  "salidas/clipero/clips/2026-10-29-blessd-ryan-castro-los-mismos/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-10-29-blessd-ryan-castro-los-mismos/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-10-29-blessd-ryan-castro-los-mismos/revision.jpg",
+    "creado":  "2026-10-29T20:13:22.3030158-05:00"
+}

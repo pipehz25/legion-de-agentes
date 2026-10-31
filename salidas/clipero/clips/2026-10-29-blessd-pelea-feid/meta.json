@@ -1,0 +1,26 @@
+{
+    "id":  "2026-10-29-blessd-pelea-feid",
+    "url_fuente":  "https://youtu.be/LYEB5ioD_pY",
+    "video_id":  "LYEB5ioD_pY",
+    "inicio":  6030.29,
+    "fin":  6090.86,
+    "inicio_hms":  "1:40:30",
+    "duracion_seg":  60.6,
+    "gancho":  "Blessd habla de su pelea con Feid",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  173,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -18.63,
+                  "entrada_tp":  -5.85,
+                  "salida_lufs":  -13.85,
+                  "salida_tp":  -1.22
+              },
+    "archivo":  "salidas/clipero/clips/2026-10-29-blessd-pelea-feid/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-10-29-blessd-pelea-feid/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-10-29-blessd-pelea-feid/revision.jpg",
+    "creado":  "2026-10-29T20:21:36.3050976-05:00"
+}

@@ -1,0 +1,26 @@
+{
+    "id":  "2026-10-29-blessd-ryan-mismo-nivel",
+    "url_fuente":  "https://youtu.be/LYEB5ioD_pY",
+    "video_id":  "LYEB5ioD_pY",
+    "inicio":  6106.05,
+    "fin":  6158.14,
+    "inicio_hms":  "1:41:46",
+    "duracion_seg":  52.2,
+    "gancho":  "¿Blessd o Ryan Castro: quién está arriba?",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  160,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14.2,
+                  "limitador":  true,
+                  "entrada_lufs":  -20.76,
+                  "entrada_tp":  -7.64,
+                  "salida_lufs":  -14.06,
+                  "salida_tp":  -1.08
+              },
+    "archivo":  "salidas/clipero/clips/2026-10-29-blessd-ryan-mismo-nivel/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-10-29-blessd-ryan-mismo-nivel/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-10-29-blessd-ryan-mismo-nivel/revision.jpg",
+    "creado":  "2026-10-29T20:17:55.3892744-05:00"
+}

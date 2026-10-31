@@ -1,0 +1,26 @@
+{
+    "id":  "2026-10-29-blessd-bando-progreso",
+    "url_fuente":  "https://youtu.be/LYEB5ioD_pY",
+    "video_id":  "LYEB5ioD_pY",
+    "inicio":  5210.05,
+    "fin":  5232.06,
+    "inicio_hms":  "1:26:50",
+    "duracion_seg":  22.1,
+    "gancho":  "Blessd: ¿cuál es su bando?",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  91,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14.2,
+                  "limitador":  true,
+                  "entrada_lufs":  -22.38,
+                  "entrada_tp":  -9.27,
+                  "salida_lufs":  -13.89,
+                  "salida_tp":  -1.09
+              },
+    "archivo":  "salidas/clipero/clips/2026-10-29-blessd-bando-progreso/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-10-29-blessd-bando-progreso/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-10-29-blessd-bando-progreso/revision.jpg",
+    "creado":  "2026-10-29T20:16:16.9570232-05:00"
+}

@@ -1,0 +1,26 @@
+{
+    "id":  "2026-10-29-blessd-donde-haya-plata",
+    "url_fuente":  "https://youtu.be/LYEB5ioD_pY",
+    "video_id":  "LYEB5ioD_pY",
+    "inicio":  4128.93,
+    "fin":  4169.62,
+    "inicio_hms":  "1:08:48",
+    "duracion_seg":  40.8,
+    "gancho":  "Blessd: \u0027Donde haya plata estoy yo\u0027",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  142,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -18.81,
+                  "entrada_tp":  -6.07,
+                  "salida_lufs":  -13.9,
+                  "salida_tp":  -1.26
+              },
+    "archivo":  "salidas/clipero/clips/2026-10-29-blessd-donde-haya-plata/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-10-29-blessd-donde-haya-plata/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-10-29-blessd-donde-haya-plata/revision.jpg",
+    "creado":  "2026-10-29T19:51:05.2455137-05:00"
+}

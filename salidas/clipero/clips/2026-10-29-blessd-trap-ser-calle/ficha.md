@@ -1,6 +1,6 @@
 # 2026-10-29-blessd-trap-ser-calle
 
-- **Estado:** listo · **Tipo:** `frase` · **Puntaje:** 76/100
+- **Estado:** listo · **Tipo:** `frase` · **Puntaje:** 76/100 · **Orden en la fuente:** 4 (calendario conjunto del ciclo 2: TikTok el 30-oct a las 18:00)
 - **Archivo:** `salidas/clipero/clips/2026-10-29-blessd-trap-ser-calle/clip.mp4` (40,8 s, 1080x1920, modo `desenfoque`, subtítulos `orig` en español)
 - **Gancho en pantalla:** "¿Hay que ser calle para cantar trap?"
 - **Corte:** 1:22:21 → 1:23:02 (4941,41 s → 4982,18 s). Empieza en "Pero el bendito cree que para cantar trap se necesita ser calle, bro" y termina en "…eso es lo que mata a todo el mundo, huevón".

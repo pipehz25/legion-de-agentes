@@ -1,0 +1,26 @@
+{
+    "id":  "2026-10-29-blessd-recuerdo-pirlo",
+    "url_fuente":  "https://youtu.be/LYEB5ioD_pY",
+    "video_id":  "LYEB5ioD_pY",
+    "inicio":  5236.05,
+    "fin":  5282.54,
+    "inicio_hms":  "1:27:16",
+    "duracion_seg":  46.5,
+    "gancho":  "El mejor recuerdo de Blessd con Pirlo",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  138,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -18.62,
+                  "entrada_tp":  -5.65,
+                  "salida_lufs":  -13.78,
+                  "salida_tp":  -1.03
+              },
+    "archivo":  "salidas/clipero/clips/2026-10-29-blessd-recuerdo-pirlo/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-10-29-blessd-recuerdo-pirlo/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-10-29-blessd-recuerdo-pirlo/revision.jpg",
+    "creado":  "2026-10-29T20:14:47.1565972-05:00"
+}

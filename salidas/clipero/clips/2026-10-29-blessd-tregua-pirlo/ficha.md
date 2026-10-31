@@ -1,6 +1,6 @@
 # 2026-10-29-blessd-tregua-pirlo
 
-- **Estado:** listo · **Tipo:** `revelacion` · **Puntaje:** 76/100
+- **Estado:** listo · **Tipo:** `revelacion` · **Puntaje:** 76/100 · **Orden en la fuente:** 1 (calendario conjunto del ciclo 2: sigue siendo el primero)
 - **Archivo:** `salidas/clipero/clips/2026-10-29-blessd-tregua-pirlo/clip.mp4` (58,7 s, 1080x1920, modo `desenfoque`, subtítulos `orig` en español)
 - **Gancho en pantalla:** "¿Habrá tregua entre Blessd y Pirlo?"
 - **Corte:** 1:31:42 → 1:32:41 (5502,69 s → 5561,38 s). Empieza en la pregunta del entrevistador ("musicalmente puede haber una tregua para que hagamos un buen real, ¿no?") y termina en "O sea, yo no necesito de nadie. Sí, me hago entender".

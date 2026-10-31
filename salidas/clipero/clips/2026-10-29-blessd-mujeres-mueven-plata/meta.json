@@ -1,0 +1,26 @@
+{
+    "id":  "2026-10-29-blessd-mujeres-mueven-plata",
+    "url_fuente":  "https://youtu.be/LYEB5ioD_pY",
+    "video_id":  "LYEB5ioD_pY",
+    "inicio":  2811.21,
+    "fin":  2835.18,
+    "inicio_hms":  "0:46:51",
+    "duracion_seg":  24,
+    "gancho":  "¿Por qué Blessd le canta a las mujeres?",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  100,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -16.56,
+                  "entrada_tp":  -4.01,
+                  "salida_lufs":  -13.88,
+                  "salida_tp":  -1.45
+              },
+    "archivo":  "salidas/clipero/clips/2026-10-29-blessd-mujeres-mueven-plata/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-10-29-blessd-mujeres-mueven-plata/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-10-29-blessd-mujeres-mueven-plata/revision.jpg",
+    "creado":  "2026-10-29T20:01:16.1013406-05:00"
+}

@@ -1,0 +1,26 @@
+{
+    "id":  "2026-10-29-blessd-centro-de-menores",
+    "url_fuente":  "https://youtu.be/LYEB5ioD_pY",
+    "video_id":  "LYEB5ioD_pY",
+    "inicio":  864.57,
+    "fin":  906.78,
+    "inicio_hms":  "0:14:24",
+    "duracion_seg":  42.2,
+    "gancho":  "Sus 16 días en un centro de menores",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  170,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -17.82,
+                  "entrada_tp":  -5.21,
+                  "salida_lufs":  -13.86,
+                  "salida_tp":  -1.39
+              },
+    "archivo":  "salidas/clipero/clips/2026-10-29-blessd-centro-de-menores/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-10-29-blessd-centro-de-menores/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-10-29-blessd-centro-de-menores/revision.jpg",
+    "creado":  "2026-10-29T20:13:32.4596957-05:00"
+}

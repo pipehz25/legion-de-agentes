@@ -1,0 +1,26 @@
+{
+    "id":  "2026-10-29-blessd-error-adolescencia",
+    "url_fuente":  "https://youtu.be/LYEB5ioD_pY",
+    "video_id":  "LYEB5ioD_pY",
+    "inicio":  807.73,
+    "fin":  852.9,
+    "inicio_hms":  "0:13:27",
+    "duracion_seg":  45.2,
+    "gancho":  "Lo que Blessd casi nunca cuenta",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  173,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -18.44,
+                  "entrada_tp":  -5.51,
+                  "salida_lufs":  -13.87,
+                  "salida_tp":  -1.07
+              },
+    "archivo":  "salidas/clipero/clips/2026-10-29-blessd-error-adolescencia/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-10-29-blessd-error-adolescencia/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-10-29-blessd-error-adolescencia/revision.jpg",
+    "creado":  "2026-10-29T19:55:44.1266216-05:00"
+}

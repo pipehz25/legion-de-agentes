@@ -1,0 +1,26 @@
+{
+    "id":  "2026-10-29-blessd-prestamo-primera-cancion",
+    "url_fuente":  "https://youtu.be/LYEB5ioD_pY",
+    "video_id":  "LYEB5ioD_pY",
+    "inicio":  3179.37,
+    "fin":  3243.3,
+    "inicio_hms":  "0:52:59",
+    "duracion_seg":  64,
+    "gancho":  "Le pidió 2 millones prestados a su jefe",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  231,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -19.88,
+                  "entrada_tp":  -6.97,
+                  "salida_lufs":  -13.96,
+                  "salida_tp":  -1.09
+              },
+    "archivo":  "salidas/clipero/clips/2026-10-29-blessd-prestamo-primera-cancion/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-10-29-blessd-prestamo-primera-cancion/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-10-29-blessd-prestamo-primera-cancion/revision.jpg",
+    "creado":  "2026-10-29T20:20:42.9052229-05:00"
+}

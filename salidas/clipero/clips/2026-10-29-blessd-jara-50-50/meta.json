@@ -1,0 +1,26 @@
+{
+    "id":  "2026-10-29-blessd-jara-50-50",
+    "url_fuente":  "https://youtu.be/LYEB5ioD_pY",
+    "video_id":  "LYEB5ioD_pY",
+    "inicio":  2401.69,
+    "fin":  2433.14,
+    "inicio_hms":  "0:40:01",
+    "duracion_seg":  31.5,
+    "gancho":  "Blessd y su socio: 50/50 sin firmar nada",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  96,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -18.19,
+                  "entrada_tp":  -5.55,
+                  "salida_lufs":  -13.9,
+                  "salida_tp":  -1.36
+              },
+    "archivo":  "salidas/clipero/clips/2026-10-29-blessd-jara-50-50/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-10-29-blessd-jara-50-50/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-10-29-blessd-jara-50-50/revision.jpg",
+    "creado":  "2026-10-29T19:56:09.7463854-05:00"
+}

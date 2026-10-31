@@ -1,0 +1,26 @@
+{
+    "id":  "2026-10-29-blessd-que-peso-le-quito",
+    "url_fuente":  "https://youtu.be/LYEB5ioD_pY",
+    "video_id":  "LYEB5ioD_pY",
+    "inicio":  4689.29,
+    "fin":  4715.98,
+    "inicio_hms":  "1:18:09",
+    "duracion_seg":  26.7,
+    "gancho":  "Blessd sobre Pirlo: \u0027¿Qué peso le puedo quitar?\u0027",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  96,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -17.27,
+                  "entrada_tp":  -4.58,
+                  "salida_lufs":  -13.77,
+                  "salida_tp":  -1.31
+              },
+    "archivo":  "salidas/clipero/clips/2026-10-29-blessd-que-peso-le-quito/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-10-29-blessd-que-peso-le-quito/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-10-29-blessd-que-peso-le-quito/revision.jpg",
+    "creado":  "2026-10-29T19:52:31.4967416-05:00"
+}

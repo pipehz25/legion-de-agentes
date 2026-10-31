@@ -1,0 +1,26 @@
+{
+    "id":  "2026-10-29-blessd-ego-progresar",
+    "url_fuente":  "https://youtu.be/LYEB5ioD_pY",
+    "video_id":  "LYEB5ioD_pY",
+    "inicio":  4832.93,
+    "fin":  4871.1,
+    "inicio_hms":  "1:20:32",
+    "duracion_seg":  38.2,
+    "gancho":  "¿Desde cuándo el ego es más importante?",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  146,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -16.91,
+                  "entrada_tp":  -4.26,
+                  "salida_lufs":  -13.79,
+                  "salida_tp":  -1.35
+              },
+    "archivo":  "salidas/clipero/clips/2026-10-29-blessd-ego-progresar/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-10-29-blessd-ego-progresar/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-10-29-blessd-ego-progresar/revision.jpg",
+    "creado":  "2026-10-29T20:14:08.6820644-05:00"
+}

@@ -1,0 +1,26 @@
+{
+    "id":  "2026-10-29-blessd-vendedor-controles",
+    "url_fuente":  "https://youtu.be/LYEB5ioD_pY",
+    "video_id":  "LYEB5ioD_pY",
+    "inicio":  388.97,
+    "fin":  413.46,
+    "inicio_hms":  "0:06:28",
+    "duracion_seg":  24.5,
+    "gancho":  "Así vendía Blessd controles en la calle",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  102,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -11.34,
+                  "entrada_tp":  -1.69,
+                  "salida_lufs":  -13.98,
+                  "salida_tp":  -4.48
+              },
+    "archivo":  "salidas/clipero/clips/2026-10-29-blessd-vendedor-controles/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-10-29-blessd-vendedor-controles/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-10-29-blessd-vendedor-controles/revision.jpg",
+    "creado":  "2026-10-29T20:21:21.6995085-05:00"
+}

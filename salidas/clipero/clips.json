@@ -1,81 +1,531 @@
 {
-  "generado": "2026-10-29T19:20:00-05:00",
-  "ciclo": 1,
-  "clips": [
-    {
-      "id": "2026-10-29-blessd-valle-medellin",
-      "estado": "listo",
-      "tipo": "frase",
-      "puntaje": 74,
-      "gancho": "Blessd y Pirlo: ¿Valle contra Medellín?",
-      "archivo": "salidas/clipero/clips/2026-10-29-blessd-valle-medellin/clip.mp4",
-      "ficha": "salidas/clipero/clips/2026-10-29-blessd-valle-medellin/ficha.md",
-      "duracion_seg": 17.3,
-      "fuente": { "url": "https://youtu.be/LYEB5ioD_pY?t=5149", "canal": "Kerry Kambell", "inicio": 5149.65, "fin": 5166.94 },
-      "oportunidad_cazador": null,
-      "derechos": "sin_verificar",
-      "plataformas": ["tiktok", "youtube", "instagram"],
-      "ventana_hasta": "2026-10-31"
-    },
-    {
-      "id": "2026-10-29-blessd-tregua-pirlo",
-      "estado": "listo",
-      "tipo": "revelacion",
-      "puntaje": 76,
-      "gancho": "¿Habrá tregua entre Blessd y Pirlo?",
-      "archivo": "salidas/clipero/clips/2026-10-29-blessd-tregua-pirlo/clip.mp4",
-      "ficha": "salidas/clipero/clips/2026-10-29-blessd-tregua-pirlo/ficha.md",
-      "duracion_seg": 58.7,
-      "fuente": { "url": "https://youtu.be/LYEB5ioD_pY?t=5502", "canal": "Kerry Kambell", "inicio": 5502.69, "fin": 5561.38 },
-      "oportunidad_cazador": null,
-      "derechos": "sin_verificar",
-      "plataformas": ["tiktok", "instagram", "youtube"],
-      "ventana_hasta": "2026-10-31"
-    },
-    {
-      "id": "2026-10-29-blessd-trap-ser-calle",
-      "estado": "listo",
-      "tipo": "frase",
-      "puntaje": 76,
-      "gancho": "¿Hay que ser calle para cantar trap?",
-      "archivo": "salidas/clipero/clips/2026-10-29-blessd-trap-ser-calle/clip.mp4",
-      "ficha": "salidas/clipero/clips/2026-10-29-blessd-trap-ser-calle/ficha.md",
-      "duracion_seg": 40.8,
-      "fuente": { "url": "https://youtu.be/LYEB5ioD_pY?t=4941", "canal": "Kerry Kambell", "inicio": 4941.41, "fin": 4982.18 },
-      "oportunidad_cazador": null,
-      "derechos": "sin_verificar",
-      "plataformas": ["tiktok", "youtube", "instagram"],
-      "ventana_hasta": "2026-10-31"
-    },
-    {
-      "id": "2026-10-29-blessd-bando-progreso",
-      "estado": "propuesto",
-      "tipo": "frase",
-      "puntaje": 68,
-      "gancho": "Blessd: ¿cuál es su bando?",
-      "archivo": null,
-      "ficha": null,
-      "duracion_seg": 22.0,
-      "fuente": { "url": "https://youtu.be/LYEB5ioD_pY?t=5210", "canal": "Kerry Kambell", "inicio": 5210.1, "fin": 5232.1 },
-      "oportunidad_cazador": null,
-      "derechos": "sin_verificar",
-      "plataformas": ["tiktok", "instagram", "youtube"],
-      "ventana_hasta": "2026-10-31"
-    },
-    {
-      "id": "2026-10-29-blessd-ryan-castro-los-mismos",
-      "estado": "propuesto",
-      "tipo": "frase",
-      "puntaje": 68,
-      "gancho": "¿Diez años con los mismos en el reggaetón?",
-      "archivo": null,
-      "ficha": null,
-      "duracion_seg": 44.6,
-      "fuente": { "url": "https://youtu.be/LYEB5ioD_pY?t=3520", "canal": "Kerry Kambell", "inicio": 3520.9, "fin": 3565.5 },
-      "oportunidad_cazador": null,
-      "derechos": "sin_verificar",
-      "plataformas": ["tiktok", "instagram", "youtube"],
-      "ventana_hasta": "2026-11-01"
-    }
-  ]
+    "generado":  "2026-10-29T20:22:19-05:00",
+    "ciclo":  2,
+    "clips":  [
+                  {
+                      "id":  "2026-10-29-blessd-pelea-feid",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  68,
+                      "gancho":  "Blessd habla de su pelea con Feid",
+                      "archivo":  "salidas/clipero/clips/2026-10-29-blessd-pelea-feid/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-10-29-blessd-pelea-feid/ficha.md",
+                      "duracion_seg":  60.6,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/LYEB5ioD_pY?t=6030",
+                                     "canal":  "Kerry Kambell",
+                                     "inicio":  6030.29,
+                                     "fin":  6090.86
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  10,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-01"
+                  },
+                  {
+                      "id":  "2026-10-29-blessd-vendedor-controles",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  66,
+                      "gancho":  "Así vendía Blessd controles en la calle",
+                      "archivo":  "salidas/clipero/clips/2026-10-29-blessd-vendedor-controles/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-10-29-blessd-vendedor-controles/ficha.md",
+                      "duracion_seg":  24.5,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/LYEB5ioD_pY?t=388",
+                                     "canal":  "Kerry Kambell",
+                                     "inicio":  388.97,
+                                     "fin":  413.46
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  21,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-04"
+                  },
+                  {
+                      "id":  "2026-10-29-blessd-prestamo-primera-cancion",
+                      "estado":  "listo",
+                      "tipo":  "historia",
+                      "puntaje":  69,
+                      "gancho":  "Le pidió 2 millones prestados a su jefe",
+                      "archivo":  "salidas/clipero/clips/2026-10-29-blessd-prestamo-primera-cancion/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-10-29-blessd-prestamo-primera-cancion/ficha.md",
+                      "duracion_seg":  64,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/LYEB5ioD_pY?t=3179",
+                                     "canal":  "Kerry Kambell",
+                                     "inicio":  3179.37,
+                                     "fin":  3243.3
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  18,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-03"
+                  },
+                  {
+                      "id":  "2026-10-29-blessd-ryan-mismo-nivel",
+                      "estado":  "listo",
+                      "tipo":  "frase",
+                      "puntaje":  66,
+                      "gancho":  "¿Blessd o Ryan Castro: quién está arriba?",
+                      "archivo":  "salidas/clipero/clips/2026-10-29-blessd-ryan-mismo-nivel/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-10-29-blessd-ryan-mismo-nivel/ficha.md",
+                      "duracion_seg":  52.2,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/LYEB5ioD_pY?t=6106",
+                                     "canal":  "Kerry Kambell",
+                                     "inicio":  6106.05,
+                                     "fin":  6158.14
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  20,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-04"
+                  },
+                  {
+                      "id":  "2026-10-29-blessd-bando-progreso",
+                      "estado":  "listo",
+                      "tipo":  "frase",
+                      "puntaje":  68,
+                      "gancho":  "Blessd: ¿cuál es su bando?",
+                      "archivo":  "salidas/clipero/clips/2026-10-29-blessd-bando-progreso/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-10-29-blessd-bando-progreso/ficha.md",
+                      "duracion_seg":  22.1,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/LYEB5ioD_pY?t=5210",
+                                     "canal":  "Kerry Kambell",
+                                     "inicio":  5210.05,
+                                     "fin":  5232.06
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  9,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-10-31"
+                  },
+                  {
+                      "id":  "2026-10-29-blessd-recuerdo-pirlo",
+                      "estado":  "listo",
+                      "tipo":  "emotivo",
+                      "puntaje":  70,
+                      "gancho":  "El mejor recuerdo de Blessd con Pirlo",
+                      "archivo":  "salidas/clipero/clips/2026-10-29-blessd-recuerdo-pirlo/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-10-29-blessd-recuerdo-pirlo/ficha.md",
+                      "duracion_seg":  46.5,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/LYEB5ioD_pY?t=5236",
+                                     "canal":  "Kerry Kambell",
+                                     "inicio":  5236.05,
+                                     "fin":  5282.54
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  11,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-01"
+                  },
+                  {
+                      "id":  "2026-10-29-blessd-ego-progresar",
+                      "estado":  "listo",
+                      "tipo":  "frase",
+                      "puntaje":  71,
+                      "gancho":  "¿Desde cuándo el ego es más importante?",
+                      "archivo":  "salidas/clipero/clips/2026-10-29-blessd-ego-progresar/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-10-29-blessd-ego-progresar/ficha.md",
+                      "duracion_seg":  38.2,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/LYEB5ioD_pY?t=4832",
+                                     "canal":  "Kerry Kambell",
+                                     "inicio":  4832.93,
+                                     "fin":  4871.1
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  16,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-03"
+                  },
+                  {
+                      "id":  "2026-10-29-blessd-centro-de-menores",
+                      "estado":  "listo",
+                      "tipo":  "historia",
+                      "puntaje":  66,
+                      "gancho":  "Sus 16 días en un centro de menores",
+                      "archivo":  "salidas/clipero/clips/2026-10-29-blessd-centro-de-menores/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-10-29-blessd-centro-de-menores/ficha.md",
+                      "duracion_seg":  42.2,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/LYEB5ioD_pY?t=864",
+                                     "canal":  "Kerry Kambell",
+                                     "inicio":  864.57,
+                                     "fin":  906.78
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  19,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-04"
+                  },
+                  {
+                      "id":  "2026-10-29-blessd-ryan-castro-los-mismos",
+                      "estado":  "listo",
+                      "tipo":  "frase",
+                      "puntaje":  68,
+                      "gancho":  "¿Diez años con los mismos en el reggaetón?",
+                      "archivo":  "salidas/clipero/clips/2026-10-29-blessd-ryan-castro-los-mismos/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-10-29-blessd-ryan-castro-los-mismos/ficha.md",
+                      "duracion_seg":  45.2,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/LYEB5ioD_pY?t=3520",
+                                     "canal":  "Kerry Kambell",
+                                     "inicio":  3520.37,
+                                     "fin":  3565.5
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  15,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-03"
+                  },
+                  {
+                      "id":  "2026-10-29-blessd-miles-de-suenos",
+                      "estado":  "listo",
+                      "tipo":  "emotivo",
+                      "puntaje":  70,
+                      "gancho":  "Miles de sueños y cero ayudas",
+                      "archivo":  "salidas/clipero/clips/2026-10-29-blessd-miles-de-suenos/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-10-29-blessd-miles-de-suenos/ficha.md",
+                      "duracion_seg":  19.4,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/LYEB5ioD_pY?t=4643",
+                                     "canal":  "Kerry Kambell",
+                                     "inicio":  4643.69,
+                                     "fin":  4663.1
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  17,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-03"
+                  },
+                  {
+                      "id":  "2026-10-29-blessd-edificios-frutas",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  71,
+                      "gancho":  "¿Cuánto valen los edificios de Blessd?",
+                      "archivo":  "salidas/clipero/clips/2026-10-29-blessd-edificios-frutas/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-10-29-blessd-edificios-frutas/ficha.md",
+                      "duracion_seg":  41,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/LYEB5ioD_pY?t=336",
+                                     "canal":  "Kerry Kambell",
+                                     "inicio":  336.33,
+                                     "fin":  377.3
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  14,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-03"
+                  },
+                  {
+                      "id":  "2026-10-29-blessd-mujeres-mueven-plata",
+                      "estado":  "listo",
+                      "tipo":  "frase",
+                      "puntaje":  73,
+                      "gancho":  "¿Por qué Blessd le canta a las mujeres?",
+                      "archivo":  "salidas/clipero/clips/2026-10-29-blessd-mujeres-mueven-plata/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-10-29-blessd-mujeres-mueven-plata/ficha.md",
+                      "duracion_seg":  24,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/LYEB5ioD_pY?t=2811",
+                                     "canal":  "Kerry Kambell",
+                                     "inicio":  2811.21,
+                                     "fin":  2835.18
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  12,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-03"
+                  },
+                  {
+                      "id":  "2026-10-29-blessd-verso-ziploc",
+                      "estado":  "listo",
+                      "tipo":  "frase",
+                      "puntaje":  74,
+                      "gancho":  "¿Quién escribió el verso de Ziploc?",
+                      "archivo":  "salidas/clipero/clips/2026-10-29-blessd-verso-ziploc/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-10-29-blessd-verso-ziploc/ficha.md",
+                      "duracion_seg":  16.2,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/LYEB5ioD_pY?t=4781",
+                                     "canal":  "Kerry Kambell",
+                                     "inicio":  4781.69,
+                                     "fin":  4797.94
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  6,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-10-31"
+                  },
+                  {
+                      "id":  "2026-10-29-blessd-esquina-fumar",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  71,
+                      "gancho":  "La señora no lo dejaba fumar ahí…",
+                      "archivo":  "salidas/clipero/clips/2026-10-29-blessd-esquina-fumar/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-10-29-blessd-esquina-fumar/ficha.md",
+                      "duracion_seg":  17.9,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/LYEB5ioD_pY?t=210",
+                                     "canal":  "Kerry Kambell",
+                                     "inicio":  210.65,
+                                     "fin":  228.54
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  13,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-03"
+                  },
+                  {
+                      "id":  "2026-10-29-blessd-jara-50-50",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  75,
+                      "gancho":  "Blessd y su socio: 50/50 sin firmar nada",
+                      "archivo":  "salidas/clipero/clips/2026-10-29-blessd-jara-50-50/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-10-29-blessd-jara-50-50/ficha.md",
+                      "duracion_seg":  31.5,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/LYEB5ioD_pY?t=2401",
+                                     "canal":  "Kerry Kambell",
+                                     "inicio":  2401.69,
+                                     "fin":  2433.14
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  7,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-03"
+                  },
+                  {
+                      "id":  "2026-10-29-blessd-error-adolescencia",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  76,
+                      "gancho":  "Lo que Blessd casi nunca cuenta",
+                      "archivo":  "salidas/clipero/clips/2026-10-29-blessd-error-adolescencia/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-10-29-blessd-error-adolescencia/ficha.md",
+                      "duracion_seg":  45.2,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/LYEB5ioD_pY?t=807",
+                                     "canal":  "Kerry Kambell",
+                                     "inicio":  807.73,
+                                     "fin":  852.9
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  5,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-03"
+                  },
+                  {
+                      "id":  "2026-10-29-blessd-que-peso-le-quito",
+                      "estado":  "listo",
+                      "tipo":  "frase",
+                      "puntaje":  78,
+                      "gancho":  "Blessd sobre Pirlo: \u0027¿Qué peso le puedo quitar?\u0027",
+                      "archivo":  "salidas/clipero/clips/2026-10-29-blessd-que-peso-le-quito/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-10-29-blessd-que-peso-le-quito/ficha.md",
+                      "duracion_seg":  26.7,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/LYEB5ioD_pY?t=4689",
+                                     "canal":  "Kerry Kambell",
+                                     "inicio":  4689.29,
+                                     "fin":  4715.98
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  2,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-10-31"
+                  },
+                  {
+                      "id":  "2026-10-29-blessd-donde-haya-plata",
+                      "estado":  "listo",
+                      "tipo":  "frase",
+                      "puntaje":  78,
+                      "gancho":  "Blessd: \u0027Donde haya plata estoy yo\u0027",
+                      "archivo":  "salidas/clipero/clips/2026-10-29-blessd-donde-haya-plata/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-10-29-blessd-donde-haya-plata/ficha.md",
+                      "duracion_seg":  40.8,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/LYEB5ioD_pY?t=4128",
+                                     "canal":  "Kerry Kambell",
+                                     "inicio":  4128.93,
+                                     "fin":  4169.62
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  3,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-03"
+                  },
+                  {
+                      "id":  "2026-10-29-blessd-valle-medellin",
+                      "estado":  "listo",
+                      "tipo":  "frase",
+                      "puntaje":  74,
+                      "gancho":  "Blessd y Pirlo: ¿Valle contra Medellín?",
+                      "archivo":  "salidas/clipero/clips/2026-10-29-blessd-valle-medellin/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-10-29-blessd-valle-medellin/ficha.md",
+                      "duracion_seg":  17.3,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/LYEB5ioD_pY?t=5149",
+                                     "canal":  "Kerry Kambell",
+                                     "inicio":  5149.65,
+                                     "fin":  5166.94
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  8,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-10-31"
+                  },
+                  {
+                      "id":  "2026-10-29-blessd-tregua-pirlo",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  76,
+                      "gancho":  "¿Habrá tregua entre Blessd y Pirlo?",
+                      "archivo":  "salidas/clipero/clips/2026-10-29-blessd-tregua-pirlo/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-10-29-blessd-tregua-pirlo/ficha.md",
+                      "duracion_seg":  58.7,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/LYEB5ioD_pY?t=5502",
+                                     "canal":  "Kerry Kambell",
+                                     "inicio":  5502.69,
+                                     "fin":  5561.38
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  1,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-10-31"
+                  },
+                  {
+                      "id":  "2026-10-29-blessd-trap-ser-calle",
+                      "estado":  "listo",
+                      "tipo":  "frase",
+                      "puntaje":  76,
+                      "gancho":  "¿Hay que ser calle para cantar trap?",
+                      "archivo":  "salidas/clipero/clips/2026-10-29-blessd-trap-ser-calle/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-10-29-blessd-trap-ser-calle/ficha.md",
+                      "duracion_seg":  40.8,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/LYEB5ioD_pY?t=4941",
+                                     "canal":  "Kerry Kambell",
+                                     "inicio":  4941.41,
+                                     "fin":  4982.18
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  4,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-10-31"
+                  }
+              ]
 }

@@ -1,0 +1,26 @@
+{
+    "id":  "2026-10-29-blessd-miles-de-suenos",
+    "url_fuente":  "https://youtu.be/LYEB5ioD_pY",
+    "video_id":  "LYEB5ioD_pY",
+    "inicio":  4643.69,
+    "fin":  4663.1,
+    "inicio_hms":  "1:17:23",
+    "duracion_seg":  19.4,
+    "gancho":  "Miles de sueños y cero ayudas",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  78,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -18.88,
+                  "entrada_tp":  -6.23,
+                  "salida_lufs":  -13.85,
+                  "salida_tp":  -1.35
+              },
+    "archivo":  "salidas/clipero/clips/2026-10-29-blessd-miles-de-suenos/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-10-29-blessd-miles-de-suenos/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-10-29-blessd-miles-de-suenos/revision.jpg",
+    "creado":  "2026-10-29T20:04:34.3888929-05:00"
+}

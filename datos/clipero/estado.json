@@ -1,24 +1,440 @@
 {
-  "actualizado": "2026-10-29T19:20:00-05:00",
-  "ciclo": 1,
-  "ultimo_ciclo_cazador": 1,
-  "fuentes": [
-    {
-      "id": "LYEB5ioD_pY",
-      "url": "https://youtu.be/LYEB5ioD_pY",
-      "titulo": "BLESSD Rompe el Silencio | Sinvergüenza Podcast By Kerry Kambell",
-      "analizado": "2026-10-29",
-      "resultado": "3 clips | fuente indicada por el usuario | publicada 2026-10-28, 7094 s, 590.604 vistas (29-oct 19:01), canal 60.600 subs | sin picos de repetición (menos de 48 h), 3 marcas en comentarios | palabras-rev.json = palabras.json con [ __ ] -> ***"
-    }
-  ],
-  "momentos": [
-    { "fuente": "LYEB5ioD_pY", "inicio": 4941.41, "fin": 4982.18, "estado": "cortado", "clip": "2026-10-29-blessd-trap-ser-calle", "motivo": "frase, 76: ¿hay que ser calle para cantar trap? 'La real, no'" },
-    { "fuente": "LYEB5ioD_pY", "inicio": 5502.69, "fin": 5561.38, "estado": "cortado", "clip": "2026-10-29-blessd-tregua-pirlo", "motivo": "revelacion, 76: descarta la tregua con Pirlo ('son cosas personales'), citado por Infobae, El Universal y RCN el 29-oct" },
-    { "fuente": "LYEB5ioD_pY", "inicio": 5149.65, "fin": 5166.94, "estado": "cortado", "clip": "2026-10-29-blessd-valle-medellin", "motivo": "frase, 74: 'el problema no es del Valle y de Medellín, es de Steven y de Emanuel'" },
-    { "fuente": "LYEB5ioD_pY", "inicio": 5210.1, "fin": 5232.1, "estado": "propuesto", "clip": "2026-10-29-blessd-bando-progreso", "motivo": "68, sin cortar por el límite de 3 clips. Frescura baja: ya está en el avance del podcast (0:00:05-0:00:35). Corregir en subtítulos 'estraditles' -> 'Extraditables' y 'mediocríaad' -> 'mediocridad'" },
-    { "fuente": "LYEB5ioD_pY", "inicio": 3520.9, "fin": 3565.5, "estado": "propuesto", "clip": "2026-10-29-blessd-ryan-castro-los-mismos", "motivo": "68, sin cortar por el límite de 3 clips. 'Llevaban más de 10 años donde eran los mismos: Karol, Maluma, Balvin'. Los subtítulos automáticos tienen nombres mal escritos ('Carol', 'Fake', 'caroluma, Albin'): no cortar sin corregirlos" },
-    { "fuente": "LYEB5ioD_pY", "inicio": 4394.0, "fin": 4450.0, "estado": "propuesto", "clip": null, "motivo": "72, 'yo le quería salvar la vida' (Pirlo). No se corta: es el titular de toda la prensa del 29-oct (frescura baja) y el tramo incluye afirmaciones sobre la adicción de un tercero en un caso con denuncia en la Fiscalía; quitarlas uniría frases separadas. Necesita revisión humana" },
-    { "fuente": "LYEB5ioD_pY", "inicio": 1270.0, "fin": 1334.0, "estado": "descartado", "clip": null, "motivo": "58, bajo el umbral. Habla el anfitrión (Kerry), no Blessd: 'he sido el sinónimo de menosprecio'. Solo 1 mención en comentarios (21:49, 2 likes)" },
-    { "fuente": "LYEB5ioD_pY", "inicio": 0.0, "fin": 35.0, "estado": "descartado", "clip": null, "motivo": "Avance del propio podcast: une la pregunta sobre la tregua (1:31:35) con la respuesta del 'bando' (1:26:48). Une frases separadas (§6). No reutilizar" }
-  ]
+    "actualizado":  "2026-10-29T20:22:19-05:00",
+    "ciclo":  2,
+    "ultimo_ciclo_cazador":  1,
+    "fuentes":  [
+                    {
+                        "id":  "LYEB5ioD_pY",
+                        "url":  "https://youtu.be/LYEB5ioD_pY",
+                        "titulo":  "BLESSD Rompe el Silencio | Sinvergüenza Podcast By Kerry Kambell",
+                        "analizado":  "2026-10-29",
+                        "resultado":  "21 clips (3 en el ciclo 1 y 18 en el ciclo 2) | fuente indicada por el usuario | publicada 2026-10-28, 7094 s; reanalizada el 29-oct a las 19:33: 602.151 vistas, 18.103 likes, canal de 60.700 suscriptores | sin picos de repetición (menos de 48 h), 3 marcas en comentarios | transcripción leída entera (968 líneas) | palabras-rev.json regenerado desde el palabras.json nuevo (pitido como ***) con 68 correcciones de nombres | 3 momentos esperan revisión humana (Pirlo, 1:12:43-1:14:10 y 1:16:37-1:17:12)"
+                    }
+                ],
+    "momentos":  [
+                     {
+                         "fuente":  "LYEB5ioD_pY",
+                         "inicio":  4941.41,
+                         "fin":  4982.18,
+                         "estado":  "cortado",
+                         "clip":  "2026-10-29-blessd-trap-ser-calle",
+                         "motivo":  "frase, 76: ¿hay que ser calle para cantar trap? \u0027La real, no\u0027"
+                     },
+                     {
+                         "fuente":  "LYEB5ioD_pY",
+                         "inicio":  5502.69,
+                         "fin":  5561.38,
+                         "estado":  "cortado",
+                         "clip":  "2026-10-29-blessd-tregua-pirlo",
+                         "motivo":  "revelacion, 76: descarta la tregua con Pirlo (\u0027son cosas personales\u0027), citado por Infobae, El Universal y RCN el 29-oct"
+                     },
+                     {
+                         "fuente":  "LYEB5ioD_pY",
+                         "inicio":  5149.65,
+                         "fin":  5166.94,
+                         "estado":  "cortado",
+                         "clip":  "2026-10-29-blessd-valle-medellin",
+                         "motivo":  "frase, 74: \u0027el problema no es del Valle y de Medellín, es de Steven y de Emanuel\u0027"
+                     },
+                     {
+                         "fuente":  "LYEB5ioD_pY",
+                         "inicio":  4128.93,
+                         "fin":  4169.62,
+                         "estado":  "cortado",
+                         "clip":  "2026-10-29-blessd-donde-haya-plata",
+                         "motivo":  "frase, 78 (ciclo 2): \u0027no soy cantante de trap… donde haya plata estoy yo\u0027"
+                     },
+                     {
+                         "fuente":  "LYEB5ioD_pY",
+                         "inicio":  4689.29,
+                         "fin":  4715.98,
+                         "estado":  "cortado",
+                         "clip":  "2026-10-29-blessd-que-peso-le-quito",
+                         "motivo":  "frase, 78 (ciclo 2): \u0027¿qué peso le puedo quitar a alguien? Yo hago mi plata… 1.200, 1.500 millones\u0027 (Publimetro e Infobae, 29-oct). Cifra corregida en los subtítulos según la prensa"
+                     },
+                     {
+                         "fuente":  "LYEB5ioD_pY",
+                         "inicio":  807.73,
+                         "fin":  852.9,
+                         "estado":  "cortado",
+                         "clip":  "2026-10-29-blessd-error-adolescencia",
+                         "motivo":  "revelacion, 76 (ciclo 2): de menor de edad lo cogieron por microtráfico, \u0027errores que casi nunca hablo\u0027"
+                     },
+                     {
+                         "fuente":  "LYEB5ioD_pY",
+                         "inicio":  2401.69,
+                         "fin":  2433.14,
+                         "estado":  "cortado",
+                         "clip":  "2026-10-29-blessd-jara-50-50",
+                         "motivo":  "revelacion, 75 (ciclo 2): Jara y él van 50/50 en todo, sin firmar nada, \u0027solo lealtad\u0027"
+                     },
+                     {
+                         "fuente":  "LYEB5ioD_pY",
+                         "inicio":  4781.69,
+                         "fin":  4797.94,
+                         "estado":  "cortado",
+                         "clip":  "2026-10-29-blessd-verso-ziploc",
+                         "motivo":  "frase, 74 (ciclo 2): \u0027el verso de Ziploc es mío, 100%\u0027. Termina antes de la afirmación sobre el estado de Pirlo"
+                     },
+                     {
+                         "fuente":  "LYEB5ioD_pY",
+                         "inicio":  2811.21,
+                         "fin":  2835.18,
+                         "estado":  "cortado",
+                         "clip":  "2026-10-29-blessd-mujeres-mueven-plata",
+                         "motivo":  "frase, 73 (ciclo 2): \u0027lo que mueve la música y la plata son las mujeres\u0027"
+                     },
+                     {
+                         "fuente":  "LYEB5ioD_pY",
+                         "inicio":  210.65,
+                         "fin":  228.54,
+                         "estado":  "cortado",
+                         "clip":  "2026-10-29-blessd-esquina-fumar",
+                         "motivo":  "humor, 71 (ciclo 2): compró la esquina donde no lo dejaban fumar (comentario \u00273:43 pa fumar ahí\u0027)"
+                     },
+                     {
+                         "fuente":  "LYEB5ioD_pY",
+                         "inicio":  336.33,
+                         "fin":  377.3,
+                         "estado":  "cortado",
+                         "clip":  "2026-10-29-blessd-edificios-frutas",
+                         "motivo":  "revelacion, 71 (ciclo 2): \u0027por ahí 2 millones de dólares\u0027 en edificios y su pasado vendiendo frutas"
+                     },
+                     {
+                         "fuente":  "LYEB5ioD_pY",
+                         "inicio":  4832.93,
+                         "fin":  4871.1,
+                         "estado":  "cortado",
+                         "clip":  "2026-10-29-blessd-ego-progresar",
+                         "motivo":  "frase, 71 (ciclo 2): intro para Kris R y \u0027¿desde cuándo el ego es más importante que progresar en familia?\u0027"
+                     },
+                     {
+                         "fuente":  "LYEB5ioD_pY",
+                         "inicio":  4643.69,
+                         "fin":  4663.1,
+                         "estado":  "cortado",
+                         "clip":  "2026-10-29-blessd-miles-de-suenos",
+                         "motivo":  "emotivo, 70 (ciclo 2): \u0027miles de sueños y cero ayudas\u0027"
+                     },
+                     {
+                         "fuente":  "LYEB5ioD_pY",
+                         "inicio":  5236.05,
+                         "fin":  5282.54,
+                         "estado":  "cortado",
+                         "clip":  "2026-10-29-blessd-recuerdo-pirlo",
+                         "motivo":  "emotivo, 70 (ciclo 2): el mejor recuerdo con Pirlo (el balcón y Ziploc)"
+                     },
+                     {
+                         "fuente":  "LYEB5ioD_pY",
+                         "inicio":  3179.37,
+                         "fin":  3243.3,
+                         "estado":  "cortado",
+                         "clip":  "2026-10-29-blessd-prestamo-primera-cancion",
+                         "motivo":  "historia, 69 (ciclo 2): le pidió 2 millones prestados a su jefe para su primera canción"
+                     },
+                     {
+                         "fuente":  "LYEB5ioD_pY",
+                         "inicio":  3520.37,
+                         "fin":  3565.5,
+                         "estado":  "cortado",
+                         "clip":  "2026-10-29-blessd-ryan-castro-los-mismos",
+                         "motivo":  "frase, 68 (ciclo 2; propuesto en el ciclo 1): \u0027llevaban más de 10 años donde eran los mismos\u0027. Nombres corregidos con palabras-rev.json"
+                     },
+                     {
+                         "fuente":  "LYEB5ioD_pY",
+                         "inicio":  5210.05,
+                         "fin":  5232.06,
+                         "estado":  "cortado",
+                         "clip":  "2026-10-29-blessd-bando-progreso",
+                         "motivo":  "frase, 68 (ciclo 2; propuesto en el ciclo 1): \u0027yo voy al progreso, no al bando de la mediocridad\u0027. Corregidos \u0027Extraditables\u0027 y \u0027mediocridad\u0027"
+                     },
+                     {
+                         "fuente":  "LYEB5ioD_pY",
+                         "inicio":  6030.29,
+                         "fin":  6090.86,
+                         "estado":  "cortado",
+                         "clip":  "2026-10-29-blessd-pelea-feid",
+                         "motivo":  "revelacion, 68 (ciclo 2): sobre Feid, \u0027fue una pelea entre dos hombres… así va a quedar\u0027"
+                     },
+                     {
+                         "fuente":  "LYEB5ioD_pY",
+                         "inicio":  864.57,
+                         "fin":  906.78,
+                         "estado":  "cortado",
+                         "clip":  "2026-10-29-blessd-centro-de-menores",
+                         "motivo":  "historia, 66 (ciclo 2): 16 días en El Redentor, \u0027esto no es lo mío\u0027. Parte 2 de error-adolescencia"
+                     },
+                     {
+                         "fuente":  "LYEB5ioD_pY",
+                         "inicio":  6106.05,
+                         "fin":  6158.14,
+                         "estado":  "cortado",
+                         "clip":  "2026-10-29-blessd-ryan-mismo-nivel",
+                         "motivo":  "frase, 66 (ciclo 2): con Ryan Castro \u0027la hicimos real sin ser un dúo… al mismo nivel\u0027"
+                     },
+                     {
+                         "fuente":  "LYEB5ioD_pY",
+                         "inicio":  388.97,
+                         "fin":  413.46,
+                         "estado":  "cortado",
+                         "clip":  "2026-10-29-blessd-vendedor-controles",
+                         "motivo":  "humor, 66 (ciclo 2): imita su discurso de vendedor de controles"
+                     },
+                     {
+                         "fuente":  "LYEB5ioD_pY",
+                         "inicio":  4394,
+                         "fin":  4450,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "motivo":  "72, \u0027yo le quería salvar la vida\u0027 (Pirlo). No se corta: es el titular de toda la prensa del 29-oct (frescura baja) y el tramo incluye afirmaciones sobre la adicción de un tercero en un caso con denuncia en la Fiscalía; quitarlas uniría frases separadas. Necesita revisión humana. Sigue sin cortar en el ciclo 2"
+                     },
+                     {
+                         "fuente":  "LYEB5ioD_pY",
+                         "inicio":  4363,
+                         "fin":  4394,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "motivo":  "Sin puntaje propio. Explica el audio filtrado (\u0027lo van a culear… tiene que pichar primero\u0027). Va pegado a \u0027yo le quería salvar la vida\u0027 y sin él cambia de sentido: se decide en la misma revisión humana"
+                     },
+                     {
+                         "fuente":  "LYEB5ioD_pY",
+                         "inicio":  4597,
+                         "fin":  4632,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "motivo":  "68, \u0027no le niego a nadie que tiene mucho talento… malas decisiones, nunca soltó su pasado, lo malasesoraron\u0027. Opina sobre la vida de Pirlo (\u0027su barrismo y sus loqueras\u0027) en un caso con denuncia y repite la idea de \u0027salvar la vida\u0027. Revisión humana junto con ese momento"
+                     },
+                     {
+                         "fuente":  "LYEB5ioD_pY",
+                         "inicio":  1270,
+                         "fin":  1334,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "58, bajo el umbral. Habla el anfitrión (Kerry), no Blessd: \u0027he sido el sinónimo de menosprecio\u0027. Solo 1 mención en comentarios (21:49, 2 likes)"
+                     },
+                     {
+                         "fuente":  "LYEB5ioD_pY",
+                         "inicio":  0,
+                         "fin":  35,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Avance del propio podcast: une la pregunta sobre la tregua (1:31:35) con la respuesta del \u0027bando\u0027 (1:26:48). Une frases separadas (§6). No reutilizar"
+                     },
+                     {
+                         "fuente":  "LYEB5ioD_pY",
+                         "inicio":  4798,
+                         "fin":  4825,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Continuación de verso-ziploc: dice que Pirlo \u0027estaba muy loquito\u0027 y no le dio para grabar el intro ni el coro. Afirmación sobre el estado de un tercero en un conflicto con denuncia (§6)"
+                     },
+                     {
+                         "fuente":  "LYEB5ioD_pY",
+                         "inicio":  4505,
+                         "fin":  4572,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Demandas en la Fiscalía (\u0027algo que no se ha comprobado\u0027). Caso judicial en curso: no se recorta"
+                     },
+                     {
+                         "fuente":  "LYEB5ioD_pY",
+                         "inicio":  5665,
+                         "fin":  5726,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "67, Kris R en el remix de Yogurcito (\u0027qué necesidad tenía de montarlo: ninguna\u0027). Repite la idea de ego-progresar (ayudó a Kris R); se corta el mejor"
+                     },
+                     {
+                         "fuente":  "LYEB5ioD_pY",
+                         "inicio":  4745,
+                         "fin":  4770,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "62, Kris R fue \u0027la primera persona que me montó en un junte internacional en 2018\u0027. Repite la idea (Kris R) y el dato no está verificado"
+                     },
+                     {
+                         "fuente":  "LYEB5ioD_pY",
+                         "inicio":  2994,
+                         "fin":  3029,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "\u0027Me da rabia cuando dicen que me escriben las cosas\u0027. Repite la idea de verso-ziploc, que es más concreto"
+                     },
+                     {
+                         "fuente":  "LYEB5ioD_pY",
+                         "inicio":  2874,
+                         "fin":  2930,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Pagaba al productor Lil J \u0027cuatro líneas\u0027 por día. Repite la idea de prestamo-primera-cancion (cómo financió sus primeras canciones)"
+                     },
+                     {
+                         "fuente":  "LYEB5ioD_pY",
+                         "inicio":  4982.5,
+                         "fin":  5009,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "70, \u0027la comida de su casa no se negocia… discursos de gente mediocre\u0027. Repite la idea de donde-haya-plata (canta lo que dé plata); se corta el mejor. Además va pegado al final de trap-ser-calle"
+                     },
+                     {
+                         "fuente":  "LYEB5ioD_pY",
+                         "inicio":  5009,
+                         "fin":  5077,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "\u0027Yogurcito es trap… el trap de pistolas es bobada\u0027. Repite la idea de trap-ser-calle"
+                     },
+                     {
+                         "fuente":  "LYEB5ioD_pY",
+                         "inicio":  4920,
+                         "fin":  4941,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "\u0027Si estoy enfierrado son armas legales\u0027. Repite la idea de trap-ser-calle y bando-progreso; va pegado al inicio de trap-ser-calle"
+                     },
+                     {
+                         "fuente":  "LYEB5ioD_pY",
+                         "inicio":  3867,
+                         "fin":  3964,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Lejanía y la pandemia. Repite la idea de ryan-castro-los-mismos"
+                     },
+                     {
+                         "fuente":  "LYEB5ioD_pY",
+                         "inicio":  3991,
+                         "fin":  4010,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "\u0027Llevamos como dos años sin hacer nada, pero hay buena relación\u0027 (Ryan Castro). Repite la idea de ryan-mismo-nivel"
+                     },
+                     {
+                         "fuente":  "LYEB5ioD_pY",
+                         "inicio":  4185,
+                         "fin":  4216,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "62, \u0027los más duros del Valle: El Americano, Cody, Top Boy y las Walas\u0027. Ya lo cita Infobae (29-oct), los nombres no se pudieron verificar y no se entiende sin contexto"
+                     },
+                     {
+                         "fuente":  "LYEB5ioD_pY",
+                         "inicio":  5832,
+                         "fin":  5958,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Regionalismo Cali-Medellín (\u0027lleno el Cañaveralejo\u0027, \u0027el estudio está disponible para los de Buenaventura\u0027). Repite la idea de valle-medellin"
+                     },
+                     {
+                         "fuente":  "LYEB5ioD_pY",
+                         "inicio":  6753,
+                         "fin":  6835,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Mensaje final contra la división regional. Repite la idea de valle-medellin"
+                     },
+                     {
+                         "fuente":  "LYEB5ioD_pY",
+                         "inicio":  2148,
+                         "fin":  2219,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "64, bajo el umbral. Regalo de un iPhone 18 a un acompañante: depende de lo visual y la transcripción es confusa"
+                     },
+                     {
+                         "fuente":  "LYEB5ioD_pY",
+                         "inicio":  6163,
+                         "fin":  6240,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "58, soltería y \u0027el verdadero rockstar de Colombia\u0027: humor sexual con alusiones a otros artistas"
+                     },
+                     {
+                         "fuente":  "LYEB5ioD_pY",
+                         "inicio":  6269,
+                         "fin":  6302,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Contenido sexual referido a cuando tenía unos 17 años (§6, menores)"
+                     },
+                     {
+                         "fuente":  "LYEB5ioD_pY",
+                         "inicio":  6444,
+                         "fin":  6504,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "58, \u0027en una palabra: tranquilidad y paz\u0027. Débil; solo un parecido lejano con formato-respuesta-en-una-palabra-ia del Cazador"
+                     },
+                     {
+                         "fuente":  "LYEB5ioD_pY",
+                         "inicio":  1482,
+                         "fin":  1505,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Broma sobre el terremoto (\u0027me iba a morir con esa plata en el Nequi\u0027). Toca una tragedia (§6)"
+                     },
+                     {
+                         "fuente":  "LYEB5ioD_pY",
+                         "inicio":  6874,
+                         "fin":  6972,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Partido en Apartadó y casas para los damnificados del terremoto. Toca una tragedia (§6) y la transcripción es confusa"
+                     },
+                     {
+                         "fuente":  "LYEB5ioD_pY",
+                         "inicio":  2481,
+                         "fin":  2510,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "63, \u0027les di carro a los que llevan más tiempo conmigo\u0027. Bajo el umbral y parecido a jara-50-50 (lealtad con su gente)"
+                     },
+                     {
+                         "fuente":  "LYEB5ioD_pY",
+                         "inicio":  2649,
+                         "fin":  2760,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "55, Jara y la prueba en Santos Laguna (lo devolvieron por la vacuna). Anécdota de un tercero, con burlas del acompañante"
+                     },
+                     {
+                         "fuente":  "LYEB5ioD_pY",
+                         "inicio":  3069,
+                         "fin":  3135,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Política (voto en blanco, \u0027el voto por un tamal\u0027). Hablantes mezclados y afirmaciones contradictorias: no se puede atribuir con seguridad"
+                     },
+                     {
+                         "fuente":  "LYEB5ioD_pY",
+                         "inicio":  1351,
+                         "fin":  1445,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Anécdota de la CX5 y de la \u0027firma\u0027 que lo trató mal: la cuenta el anfitrión, no Blessd"
+                     },
+                     {
+                         "fuente":  "LYEB5ioD_pY",
+                         "inicio":  521,
+                         "fin":  570,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Zipaquirá: \u0027lo campaneaba\u0027 cuando un amigo robaba. Repite la idea de error-adolescencia"
+                     },
+                     {
+                         "fuente":  "LYEB5ioD_pY",
+                         "inicio":  2237,
+                         "fin":  2333,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Fútbol (\u0027la bestia era yo\u0027, \u0027jugaba con los papeles de un primo\u0027). Hablantes mezclados: no se puede atribuir a Blessd"
+                     },
+                     {
+                         "fuente":  "LYEB5ioD_pY",
+                         "inicio":  1602,
+                         "fin":  1748,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Sketch montado del carro (\u0027yo soy millonario\u0027). Largo y depende de lo visual"
+                     }
+                 ]
 }

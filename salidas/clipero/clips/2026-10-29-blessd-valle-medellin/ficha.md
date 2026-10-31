@@ -1,6 +1,7 @@
 # 2026-10-29-blessd-valle-medellin
 
-- **Estado:** listo · **Tipo:** `frase` · **Puntaje:** 74/100
+- **Estado:** listo · **Tipo:** `frase` · **Puntaje:** 74/100 · **Orden en la fuente:** 8 (calendario conjunto del ciclo 2: TikTok el 31-oct a las 16:00; sustituye a la sugerencia de abajo)
+- **Aviso (ciclo 2):** el nombre real de Blessd es **Stiven** Mesa Londoño (RCN Radio, Candela Estéreo). Los subtítulos de este clip dicen "Steven", como los automáticos. Si se quiere corregir, hay que volver a cortarlo con el `palabras-rev.json` actual.
 - **Archivo:** `salidas/clipero/clips/2026-10-29-blessd-valle-medellin/clip.mp4` (17,3 s, 1080x1920, modo `desenfoque`, subtítulos `rev` en español)
 - **Gancho en pantalla:** "Blessd y Pirlo: ¿Valle contra Medellín?"
 - **Corte:** 1:25:49 → 1:26:07 (5149,65 s → 5166,94 s). Empieza en "porque es que el problema no es del Valle y de Medellín" y termina en "…si ellos no tienen nada que ver".
