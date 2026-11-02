@@ -12,6 +12,8 @@
 #   analizar -Url <url> [-Traducir es]
 #            -> datos/clipero/fuentes/<id>/: resumen.json (picos de "mas repetido", marcas de tiempo en comentarios,
 #               capitulos), transcripcion.txt y palabras*.json (palabras con tiempo, para subtitular)
+#               Si la fuente no tiene subtitulos (Kick, Twitch, Instagram...), transcribe el audio en local con whisper.cpp
+#               (herramientas/bin/whisper + herramientas/modelos); el origen queda en resumen.json (transcripcion_origen).
 #   cortar   -Url <url> -Inicio <seg> -Fin <seg> -Id <clip-id> [-Gancho "<texto>"] [-Subs orig|es|ninguno] [-Modo desenfoque|recorte]
 #            -> salidas/clipero/clips/<Id>/clip.mp4 (1080x1920, subtitulos quemados), portada.jpg y meta.json
 # Uso: powershell -NoProfile -ExecutionPolicy Bypass -File legion/02-clipero/clipero.ps1 <accion> ...
@@ -310,6 +312,41 @@ if ($Accion -eq 'analizar') {
     # Los json3 ya quedaron convertidos en palabras*.json
     Remove-Item (Join-Path $dir 'fuente.*.json3') -ErrorAction SilentlyContinue
 
+    # Sin subtitulos en el idioma original (Kick, Twitch, Instagram, TikTok o YouTube sin automaticos):
+    # se transcribe el audio en local con whisper.cpp, si esta instalado
+    $origenTexto = if ($subsListos -contains 'orig') { 'subtitulos de la plataforma' } else { $null }
+    if (-not $origenTexto) {
+        $whisper = Join-Path $bin 'whisper\whisper-cli.exe'
+        $modelo = Get-ChildItem (Join-Path $raiz 'herramientas\modelos') -Filter 'ggml-*.bin' -ErrorAction SilentlyContinue | Select-Object -First 1
+        if ((Test-Path $whisper) -and $modelo) {
+            Remove-Item (Join-Path $dir 'audio*') -ErrorAction SilentlyContinue
+            YtDlp @('--no-playlist', '-f', 'bestaudio/worst', '-o', (Join-Path $dir 'audio.%(ext)s'), $Url)
+            $audio = Get-ChildItem $dir -Filter 'audio.*' | Select-Object -First 1
+            if (-not $audio) { throw 'No se pudo descargar el audio para transcribir' }
+            # Lo que queda no usa la red: se libera el candado para que la transcripcion no bloquee otras llamadas
+            $candado.ReleaseMutex()
+            $trabajo = $dir
+            FfmpegLog @('-y', '-i', $audio.Name, '-vn', '-ar', '16000', '-ac', '1', '-c:a', 'pcm_s16le', 'audio16.wav') 'audio16.txt' | Out-Null
+            $hilos = [math]::Max(1, [math]::Min(8, [Environment]::ProcessorCount - 2))
+            $t0 = Get-Date
+            # -ml 1 -sow: un segmento por palabra, con su tiempo; -np: sin registro por consola
+            & $whisper -m $modelo.FullName -f (Join-Path $dir 'audio16.wav') -l $idioma -t $hilos -ml 1 -sow -oj -of (Join-Path $dir 'whisper') -np | Out-Null
+            if ($LASTEXITCODE -ne 0) { throw "whisper termino con codigo $LASTEXITCODE" }
+            $w = LeerJson (Join-Path $dir 'whisper.json')
+            # Fuera los marcadores que no son habla: [_BEG_], [Musica], (aplausos)...
+            $palabras = @($w.transcription | Where-Object { $_.text -and $_.text.Trim() -and $_.text.Trim() -notmatch '^[\[\(].*[\]\)]$' } | ForEach-Object {
+                [pscustomobject]@{ t = [math]::Round([double]$_.offsets.from / 1000.0, 2); w = $_.text.Trim() }
+            })
+            EscribirJson (Join-Path $dir 'palabras.json') $palabras -Compacto
+            [IO.File]::WriteAllLines((Join-Path $dir 'transcripcion.txt'), [string[]](Transcripcion $palabras), $utf8)
+            $subsListos += 'orig'
+            $origenTexto = "whisper $($modelo.BaseName), $([int]((Get-Date) - $t0).TotalMinutes) min: revisar nombres y cifras"
+            Remove-Item (Join-Path $dir 'audio*'), (Join-Path $dir 'whisper.json') -ErrorAction SilentlyContinue
+        } else {
+            $origenTexto = 'ninguno: la fuente no tiene subtitulos y whisper no esta instalado (herramientas/instalar.ps1)'
+        }
+    }
+
     # Picos del grafico "mas repetido" (heatmap): maximos locales, sin contar el arranque del video
     $picos = @()
     $dur = [double]$info.duration
@@ -364,6 +401,7 @@ if ($Accion -eq 'analizar') {
         picos_repeticion      = $picos
         marcas_en_comentarios = $marcas
         transcripcion         = $(if ($subsListos -contains 'orig') { Relativa (Join-Path $dir 'transcripcion.txt') } else { $null })
+        transcripcion_origen  = $origenTexto
         analizado             = (Get-Date).ToString('o')
     }
     EscribirJson (Join-Path $dir 'resumen.json') $resumen

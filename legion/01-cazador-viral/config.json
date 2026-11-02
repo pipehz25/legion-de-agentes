@@ -22,7 +22,11 @@
   "_nichos": "Enfoque fijado por el usuario el 2026-11-01: contenido cool de estos perfiles y de otros del mismo estilo. Lo que no encaje aquí no se trae.",
   "perfiles": {
     "música urbana: cantantes jóvenes": ["Maluma", "J Balvin", "Kris R", "Blessd", "Ryan Castro"],
-    "empresarios exitosos y emprendimiento": ["Sebastián Suárez", "Santiago \"el de la X\"", "Diego Ramírez (RR Autos)"],
+    "empresarios exitosos y emprendimiento": [
+      "Sebastián Suárez (instagram.com/sebastiansuaarez0)",
+      "Santiago Ospina, \"el de la X\" (instagram.com/sospinagu)",
+      "Diego Ramírez, RR Autos (instagram.com/rrautosdiego)"
+    ],
     "streamers y creadores": ["Westcol"]
   },
   "_perfiles": "Lista del usuario. El Cazador resuelve sus cuentas y añade similares en datos/cazador-viral/perfiles.json.",
