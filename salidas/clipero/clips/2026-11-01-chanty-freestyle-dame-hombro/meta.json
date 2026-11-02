@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-01-chanty-freestyle-dame-hombro",
+    "url_fuente":  "https://www.youtube.com/watch?v=1TF93cD11g0",
+    "video_id":  "1TF93cD11g0",
+    "inicio":  764.17,
+    "fin":  801.42,
+    "inicio_hms":  "0:12:44",
+    "duracion_seg":  37.3,
+    "gancho":  "Freestyle de \u0027dame hombro\u0027 en El Poblado",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  118,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -15.13,
+                  "entrada_tp":  -2.58,
+                  "salida_lufs":  -13.85,
+                  "salida_tp":  -1.45
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-01-chanty-freestyle-dame-hombro/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-01-chanty-freestyle-dame-hombro/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-01-chanty-freestyle-dame-hombro/revision.jpg",
+    "creado":  "2026-11-01T23:49:49.0817778-05:00"
+}

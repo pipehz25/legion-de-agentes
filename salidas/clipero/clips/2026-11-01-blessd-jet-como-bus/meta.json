@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-01-blessd-jet-como-bus",
+    "url_fuente":  "https://www.youtube.com/watch?v=tLTcYKphXdw",
+    "video_id":  "tLTcYKphXdw",
+    "inicio":  264.77,
+    "fin":  301.82,
+    "inicio_hms":  "0:04:24",
+    "duracion_seg":  37.1,
+    "gancho":  "Viaja en jet con Blessd como en bus",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  118,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -9.85,
+                  "entrada_tp":  0.59,
+                  "salida_lufs":  -13.96,
+                  "salida_tp":  -3.56
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-01-blessd-jet-como-bus/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-01-blessd-jet-como-bus/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-01-blessd-jet-como-bus/revision.jpg",
+    "creado":  "2026-11-01T23:55:13.4373158-05:00"
+}

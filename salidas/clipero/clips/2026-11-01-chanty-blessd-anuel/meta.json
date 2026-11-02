@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-01-chanty-blessd-anuel",
+    "url_fuente":  "https://www.youtube.com/watch?v=zRs0PqfAeWs",
+    "video_id":  "zRs0PqfAeWs",
+    "inicio":  630.43,
+    "fin":  652,
+    "inicio_hms":  "0:10:30",
+    "duracion_seg":  21.6,
+    "gancho":  "Disfrazado de cantante y le preguntan: ¿Anuel?",
+    "subtitulos":  "orig",
+    "palabras_subtituladas":  60,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -13.08,
+                  "entrada_tp":  -0.39,
+                  "salida_lufs":  -14.4,
+                  "salida_tp":  -1.32
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-01-chanty-blessd-anuel/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-01-chanty-blessd-anuel/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-01-chanty-blessd-anuel/revision.jpg",
+    "creado":  "2026-11-02T00:09:59.6622595-05:00"
+}

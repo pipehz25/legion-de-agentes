@@ -1,6 +1,6 @@
 # 2026-10-31-granja-kevyn-despedida
 
-- **Estado:** listo · **Tipo:** `humor` · **Puntaje:** 68/100 · **Orden en la fuente:** 4
+- **Estado:** descartado por el usuario (2026-11-01) · **Tipo:** `humor` · **Puntaje:** 68/100 · **Orden en la fuente:** 4
 - **Archivo:** `salidas/clipero/clips/2026-10-31-granja-kevyn-despedida/clip.mp4` (54,4 s, 1080x1920, modo `desenfoque`, subtítulos `rev` en español)
 - **Gancho en pantalla:** "La despedida adelantada de Kevyn"
 - **Corte:** 0:16:52 → 0:17:47 (1012,17 s → 1066,58 s). Empieza en "Me voy esta semana. Espero se hayan divertido" y termina en "Puedes trabajar de noche, despertar a los animales".

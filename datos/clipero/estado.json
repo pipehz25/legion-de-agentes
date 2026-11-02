@@ -1,7 +1,7 @@
 {
-    "actualizado":  "2026-10-31T18:36:35-05:00",
-    "ciclo":  3,
-    "ultimo_ciclo_cazador":  2,
+    "actualizado":  "2026-11-02T00:17:45-05:00",
+    "ciclo":  4,
+    "ultimo_ciclo_cazador":  3,
     "fuentes":  [
                     {
                         "id":  "LYEB5ioD_pY",
@@ -15,7 +15,7 @@
                         "url":  "https://www.youtube.com/watch?v=UdupORUvULE",
                         "titulo":  "#EnVivo ¬ #LosPeriodistas ¬ Detienen a Inés Gómez-Mont, esposa del facturero Álvarez Puga",
                         "analizado":  "2026-10-31",
-                        "resultado":  "2 clips (alvarez-puga-deportacion y gomez-mont-amparo-cuentas; el segundo se colgó 2,5 h en la descarga y salió en el único reintento) + 2 propuestos para revisión humana | fuente_para_clips #1 del Cazador (ciclo 2), oportunidad tema-ines-gomez-mont-detencion | directo del 30-oct 22:22, 12.050 s, SinEmbargo Al Aire (2,52 M) | 404.784 vistas a las 09:04 y 432.877 a las 15:39 del 31-oct | sin picos de repetición, 1 marca en comentarios (2:17:00, análisis de Ana Lilia Pérez) | transcripción leída entera (1.352 líneas) | Inés Gómez Mont solo en 1:47:52-2:17:12 (mesa y videocolumna de Ana Lilia Pérez); el resto es Cuauhtémoc Cárdenas, INE/Taddei, CEU, Pemex y Maru Campos | palabras-rev.json: aprensión→aprehensión, WIF→UIF, autoridad idades→autoridades | el rumor de 'fue IA' no aparece"
+                        "resultado":  "2 clips (alvarez-puga-deportacion y gomez-mont-amparo-cuentas; el segundo se colgó 2,5 h en la descarga y salió en el único reintento) + 2 propuestos para revisión humana | fuente_para_clips #1 del Cazador (ciclo 2), oportunidad tema-ines-gomez-mont-detencion | directo del 30-oct 22:22, 12.050 s, SinEmbargo Al Aire (2,52 M) | 404.784 vistas a las 09:04 y 432.877 a las 15:39 del 31-oct | sin picos de repetición, 1 marca en comentarios (2:17:00, análisis de Ana Lilia Pérez) | transcripción leída entera (1.352 líneas) | Inés Gómez Mont solo en 1:47:52-2:17:12 (mesa y videocolumna de Ana Lilia Pérez); el resto es Cuauhtémoc Cárdenas, INE/Taddei, CEU, Pemex y Maru Campos | palabras-rev.json: aprensión→aprehensión, WIF→UIF, autoridad idades→autoridades | el rumor de \u0027fue IA\u0027 no aparece"
                     },
                     {
                         "id":  "i1WkmCJI_ww",
@@ -27,9 +27,65 @@
                     {
                         "id":  "sGgNvGbwrH4",
                         "url":  "https://www.youtube.com/watch?v=sGgNvGbwrH4",
-                        "titulo":  "GTA6 SIZE REVEALED, ELDER SCROLLS 6 LEAKED? & MORE",
+                        "titulo":  "GTA6 SIZE REVEALED, ELDER SCROLLS 6 LEAKED? \u0026 MORE",
                         "analizado":  "2026-10-31",
-                        "resultado":  "error: sin subtítulos (HTTP 429 Too Many Requests de YouTube en en y es, en el análisis de las 09:05 y en el único reintento de las 15:37) | fuente_para_clips #3 del Cazador (ciclo 2), oportunidad tema-gta-vi-lanzamiento | gameranx (8,66 M), publicado 30-oct 15:42, 1.143 s, 416.243 vistas | sí hay resumen.json con 8 marcas en comentarios (0:44 'Kung Pow' 103 likes, 1:03-1:10 peso del juego, 1:58 'lanzar caca', 2:40, 7:52) | 0 clips; 2 momentos propuestos por zona de comentarios | reanalizar con -Traducir es en el ciclo siguiente: cumple 36 h el 1-nov a las 03:42"
+                        "resultado":  "error: sin subtítulos (HTTP 429 Too Many Requests de YouTube en en y es, en el análisis de las 09:05 y en el único reintento de las 15:37) | fuente_para_clips #3 del Cazador (ciclo 2), oportunidad tema-gta-vi-lanzamiento | gameranx (8,66 M), publicado 30-oct 15:42, 1.143 s, 416.243 vistas | sí hay resumen.json con 8 marcas en comentarios (0:44 \u0027Kung Pow\u0027 103 likes, 1:03-1:10 peso del juego, 1:58 \u0027lanzar caca\u0027, 2:40, 7:52) | 0 clips; 2 momentos propuestos por zona de comentarios | reanalizar con -Traducir es en el ciclo siguiente: cumple 36 h el 1-nov a las 03:42"
+                    },
+                    {
+                        "id":  "Z1VUghXaEIM",
+                        "url":  "https://www.youtube.com/watch?v=Z1VUghXaEIM",
+                        "titulo":  "Concierto Ryan Castro | 31 de Octubre 2026 | Estadio El Campín Bogotá | Awooween (4K)",
+                        "analizado":  "2026-11-01",
+                        "resultado":  "error: sin texto (transcripcion_origen: ninguno; YouTube no da subtítulos y whisper no está instalado) | fuente_para_clips del Cazador (ciclo 3), oportunidad tema-awooween-ryan-castro-campin | La Vuelta Reacciones (135 suscriptores), publicado 1-nov 11:00, 2.784 s, 13.049 vistas a las 23:25 | 0 clips | reanalizar: YouTube puede generar los subtítulos más tarde, o transcribir con whisper si se instala | es música en vivo: cortar solo tramos hablados y anotar el riesgo de Content ID"
+                    },
+                    {
+                        "id":  "tLTcYKphXdw",
+                        "url":  "https://www.youtube.com/watch?v=tLTcYKphXdw",
+                        "titulo":  "Viajando con blessd🔹",
+                        "analizado":  "2026-11-01",
+                        "resultado":  "1 clip (blessd-jet-como-bus) + 1 propuesto para revisión humana (migración) | fuente_para_clips del Cazador (ciclo 3), perfil Blessd | Yeison guardo (19.800), publicado 1-nov 13:22, 521 s, 15.407 vistas a las 23:27 (1.525/h) | sin picos ni marcas en comentarios | transcripción leída entera (73 líneas) | el mostrador es del INM de México; \u0027Perú\u0027 es parte del chiste | broma recurrente sobre droga en 3:00-4:20 y 5:01: no recortar | palabras-rev.json: Bless→Blessd, regetón→reguetón, Puesto→Puerto, adante→adelante; regresos, suele, vendig y szac como (…)"
+                    },
+                    {
+                        "id":  "1TF93cD11g0",
+                        "url":  "https://www.youtube.com/watch?v=1TF93cD11g0",
+                        "titulo":  "FIESTA DE DISFRACES COMO JUSTIN BIEBER",
+                        "analizado":  "2026-11-01",
+                        "resultado":  "2 clips (chanty-freestyle-dame-hombro y chanty-fotografo-100mil-fotos) | fuente_para_clips del Cazador (ciclo 3), The Chanty (similar) | 240.000, publicado 1-nov 12:40, 1.115 s, 25.180 vistas a las 23:28 (2.331/h) | sin picos ni marcas en comentarios | transcripción leída entera (130 líneas) | Westcol no aparece en la transcripción | mucha música de Justin Bieber de fondo | palabras-rev.json: flo→flow, Dari→Daddy, poblado→Poblado, 100,000→100.000; bulalacia y pelomonos como (…)"
+                    },
+                    {
+                        "id":  "GBvB5F-zSMc",
+                        "url":  "https://www.youtube.com/watch?v=GBvB5F-zSMc",
+                        "titulo":  "Una marca me invitó al concierto de Ryan Castro… Terminé viviendo una noche INCREÍBLE con el Tio 😳🔥",
+                        "analizado":  "2026-11-01",
+                        "resultado":  "1 clip (awooween-invitados-sorpresa) | fuente_para_clips del Cazador (ciclo 3), oportunidad tema-awooween-ryan-castro-campin | Danigoals (1.100), publicado 1-nov 21:52, 882 s, 25 vistas al analizar | sin picos ni marcas en comentarios | transcripción leída entera (98 líneas) | experiencia patrocinada: \u0027Colombiana la rompió\u0027 queda fuera del corte | palabras-rev.json: trabajó→trajo (escuchar antes de publicar)"
+                    },
+                    {
+                        "id":  "hSV5nuZ5w_I",
+                        "url":  "https://www.youtube.com/watch?v=hSV5nuZ5w_I",
+                        "titulo":  "KRIS R y el TRAP DE BOGOTÁ: crítica al CONCIERTO y lo que pasó en el BACKSTAGE",
+                        "analizado":  "2026-11-01",
+                        "resultado":  "5 clips | fuente_para_clips del Cazador (ciclo 3), perfil Kris R (se habla de él; no aparece) | ElWerik Podcast (11), publicado 31-oct 21:09, 662 s, 2 vistas | sin picos ni marcas en comentarios | transcripción leída entera (83 líneas) | concierto del 23-oct en el Movistar Arena (RCN dice 24-oct); próximo el 20-nov en el DaviArena | palabras-rev.json: Criss/Chris→Kris, ER→R, Bless→Blessd"
+                    },
+                    {
+                        "id":  "XkKa6tuUFJ4",
+                        "url":  "https://www.youtube.com/watch?v=XkKa6tuUFJ4",
+                        "titulo":  "CONCURSO DE DISFRACES SE SALE DE CONTROL EN MEDELLÍN",
+                        "analizado":  "2026-11-01",
+                        "resultado":  "sin momentos | fuente_para_clips del Cazador (ciclo 3), The Chanty (similar) | 240.000, publicado 31-oct 12:19, 807 s, 33.308 vistas a las 23:28 (949/h) | sin picos ni marcas en comentarios | transcripción leída entera (140 líneas): casi todo música y bulla de discoteca; máximo 56"
+                    },
+                    {
+                        "id":  "iX4hG7rkl-M",
+                        "url":  "https://www.youtube.com/watch?v=iX4hG7rkl-M",
+                        "titulo":  "LA GANGA REACCIONA A NUESTRO DISFRAZ DE BLESSD Y RYAN",
+                        "analizado":  "2026-11-01",
+                        "resultado":  "sin momentos | fuente_para_clips del Cazador (ciclo 3), The Chanty (similar) | 240.000, publicado 31-oct 11:05, 860 s, 29.446 vistas a las 23:28 (809/h) | sin picos ni marcas en comentarios | transcripción leída entera (112 líneas): parodia con transcripción muy rota y bromas atribuibles a los cantantes reales (\u0027porritas\u0027, vida privada); máximo 60"
+                    },
+                    {
+                        "id":  "zRs0PqfAeWs",
+                        "url":  "https://www.youtube.com/watch?v=zRs0PqfAeWs",
+                        "titulo":  "IRL EN PROVENZA DISFRAZADOS DE RYAN CASTRO Y BLESSD",
+                        "analizado":  "2026-11-01",
+                        "resultado":  "1 clip (chanty-blessd-anuel) | fuente_para_clips del Cazador (ciclo 3), The Chanty (similar) | 240.000, publicado 31-oct 11:42, 720 s, 11.122 vistas a las 23:28 (311/h) | sin picos ni marcas en comentarios | transcripción leída entera (92 líneas) | subtítulos orig, sin correcciones"
                     }
                 ],
     "momentos":  [
@@ -463,7 +519,7 @@
                          "fin":  8016.22,
                          "estado":  "cortado",
                          "clip":  "2026-10-31-alvarez-puga-deportacion",
-                         "motivo":  "revelacion, 76 (ciclo 3): situación legal de Álvarez Puga (deportación recurrida, audiencia el 12-nov, órdenes de aprehensión según la FGR, ficha roja, extradición). Termina antes de la frase transcrita 'se ha entregado' (probablemente 'sea entregado'), que no se corrige. Entrada de audio saturada: escuchar antes de publicar"
+                         "motivo":  "revelacion, 76 (ciclo 3): situación legal de Álvarez Puga (deportación recurrida, audiencia el 12-nov, órdenes de aprehensión según la FGR, ficha roja, extradición). Termina antes de la frase transcrita \u0027se ha entregado\u0027 (probablemente \u0027sea entregado\u0027), que no se corrige. Entrada de audio saturada: escuchar antes de publicar"
                      },
                      {
                          "fuente":  "UdupORUvULE",
@@ -479,7 +535,7 @@
                          "fin":  7224.3,
                          "estado":  "propuesto",
                          "clip":  null,
-                         "motivo":  "74, los lujos que mostraba en redes y la fiesta para sus 'comadres' en avión privado (Galilea Montijo, Ninfa Salinas). No se corta sin revisión humana: expone a terceras personas no acusadas (Galilea Montijo pidió en 2021 que pararan los ataques por vincularla con Gómez Mont) y la historia del viaje es de 2021 (frescura baja). 'Galilea' es tendencia en X México el 31-oct"
+                         "motivo":  "74, los lujos que mostraba en redes y la fiesta para sus \u0027comadres\u0027 en avión privado (Galilea Montijo, Ninfa Salinas). No se corta sin revisión humana: expone a terceras personas no acusadas (Galilea Montijo pidió en 2021 que pararan los ataques por vincularla con Gómez Mont) y la historia del viaje es de 2021 (frescura baja). \u0027Galilea\u0027 es tendencia en X México el 31-oct"
                      },
                      {
                          "fuente":  "UdupORUvULE",
@@ -487,7 +543,7 @@
                          "fin":  7731.6,
                          "estado":  "propuesto",
                          "clip":  null,
-                         "motivo":  "74, el caso de Gobernación (3.000 millones para siete penales, empresas 'fantasma', 'una parte de ese dinero fue a parar a las cuentas de Álvarez Puga y Gómez Mont'). No se corta sin revisión humana: los subtítulos afirmarían como hecho la recepción de recursos en un proceso en curso (presunción de inocencia)"
+                         "motivo":  "74, el caso de Gobernación (3.000 millones para siete penales, empresas \u0027fantasma\u0027, \u0027una parte de ese dinero fue a parar a las cuentas de Álvarez Puga y Gómez Mont\u0027). No se corta sin revisión humana: los subtítulos afirmarían como hecho la recepción de recursos en un proceso en curso (presunción de inocencia)"
                      },
                      {
                          "fuente":  "UdupORUvULE",
@@ -495,7 +551,7 @@
                          "fin":  6765,
                          "estado":  "descartado",
                          "clip":  null,
-                         "motivo":  "Mesa: 'todo lo que presumían… se lo robaban a los trabajadores' y la detención ('faltaba ella en esta trama'). Afirma culpabilidad, y fecha la detención del esposo en 'septiembre' cuando la columna dice 'a mediados de octubre'"
+                         "motivo":  "Mesa: \u0027todo lo que presumían… se lo robaban a los trabajadores\u0027 y la detención (\u0027faltaba ella en esta trama\u0027). Afirma culpabilidad, y fecha la detención del esposo en \u0027septiembre\u0027 cuando la columna dice \u0027a mediados de octubre\u0027"
                      },
                      {
                          "fuente":  "UdupORUvULE",
@@ -503,7 +559,7 @@
                          "fin":  6990,
                          "estado":  "descartado",
                          "clip":  null,
-                         "motivo":  "Anécdota de oídas ('me contaron… yo nunca las vi') de dólares en el avión y bolsas de regalo para conductoras de TV Azteca; cierra con 'dinero sucio'. Rumor y afirmación de culpabilidad"
+                         "motivo":  "Anécdota de oídas (\u0027me contaron… yo nunca las vi\u0027) de dólares en el avión y bolsas de regalo para conductoras de TV Azteca; cierra con \u0027dinero sucio\u0027. Rumor y afirmación de culpabilidad"
                      },
                      {
                          "fuente":  "UdupORUvULE",
@@ -519,7 +575,7 @@
                          "fin":  7663,
                          "estado":  "descartado",
                          "clip":  null,
-                         "motivo":  "Columna: 'red de factureras', 'capos', 'maniobras mafiosas', 'opulencia creada a través de operaciones fraudulentas'. Afirma culpabilidad (presunción de inocencia)"
+                         "motivo":  "Columna: \u0027red de factureras\u0027, \u0027capos\u0027, \u0027maniobras mafiosas\u0027, \u0027opulencia creada a través de operaciones fraudulentas\u0027. Afirma culpabilidad (presunción de inocencia)"
                      },
                      {
                          "fuente":  "UdupORUvULE",
@@ -527,7 +583,7 @@
                          "fin":  7955,
                          "estado":  "descartado",
                          "clip":  null,
-                         "motivo":  "'Estructuras de corrupción' (Pablo Gómez), 'en supuesta fuga… vida de lujos en Miami… los prófugos estaban localizables'. Opinión, y repite la idea de los clips del amparo y de la deportación"
+                         "motivo":  "\u0027Estructuras de corrupción\u0027 (Pablo Gómez), \u0027en supuesta fuga… vida de lujos en Miami… los prófugos estaban localizables\u0027. Opinión, y repite la idea de los clips del amparo y de la deportación"
                      },
                      {
                          "fuente":  "UdupORUvULE",
@@ -535,7 +591,7 @@
                          "fin":  8232,
                          "estado":  "descartado",
                          "clip":  null,
-                         "motivo":  "58, cifras generales de las factureras (SAT 2014-2019, 13.594 contribuyentes) y 'sus compinches'. No habla del caso, y el final afirma culpabilidad"
+                         "motivo":  "58, cifras generales de las factureras (SAT 2014-2019, 13.594 contribuyentes) y \u0027sus compinches\u0027. No habla del caso, y el final afirma culpabilidad"
                      },
                      {
                          "fuente":  "UdupORUvULE",
@@ -543,7 +599,7 @@
                          "fin":  3358,
                          "estado":  "descartado",
                          "clip":  null,
-                         "motivo":  "62, discurso de Sheinbaum en el homenaje a Cuauhtémoc Cárdenas ('valiente'). Cárdenas fue #5 en X México, pero el momento está saturado: NMás 116.162, Gobierno de México 125.561 y Milenio 68.994 vistas"
+                         "motivo":  "62, discurso de Sheinbaum en el homenaje a Cuauhtémoc Cárdenas (\u0027valiente\u0027). Cárdenas fue #5 en X México, pero el momento está saturado: NMás 116.162, Gobierno de México 125.561 y Milenio 68.994 vistas"
                      },
                      {
                          "fuente":  "UdupORUvULE",
@@ -559,7 +615,7 @@
                          "fin":  4497,
                          "estado":  "descartado",
                          "clip":  null,
-                         "motivo":  "58-60, mañanera de Sheinbaum ('la democracia del chayote… del apapacho'; AMLO visitó primero a Cárdenas en 2018). Saturado y sin oportunidad del Cazador"
+                         "motivo":  "58-60, mañanera de Sheinbaum (\u0027la democracia del chayote… del apapacho\u0027; AMLO visitó primero a Cárdenas en 2018). Saturado y sin oportunidad del Cazador"
                      },
                      {
                          "fuente":  "UdupORUvULE",
@@ -567,7 +623,7 @@
                          "fin":  1208,
                          "estado":  "descartado",
                          "clip":  null,
-                         "motivo":  "63 como máximo, Zedillo 'quema riqueza… cerros de billetes en el Zócalo'. Opinión política sin oportunidad del Cazador ni tendencia"
+                         "motivo":  "63 como máximo, Zedillo \u0027quema riqueza… cerros de billetes en el Zócalo\u0027. Opinión política sin oportunidad del Cazador ni tendencia"
                      },
                      {
                          "fuente":  "UdupORUvULE",
@@ -575,7 +631,7 @@
                          "fin":  5441,
                          "estado":  "descartado",
                          "clip":  null,
-                         "motivo":  "64 como máximo, 'te garantizo que no ha leído un libro en su vida' (Salinas Pliego). Ataque personal sin oportunidad del Cazador"
+                         "motivo":  "64 como máximo, \u0027te garantizo que no ha leído un libro en su vida\u0027 (Salinas Pliego). Ataque personal sin oportunidad del Cazador"
                      },
                      {
                          "fuente":  "UdupORUvULE",
@@ -583,7 +639,7 @@
                          "fin":  6102,
                          "estado":  "descartado",
                          "clip":  null,
-                         "motivo":  "57, gráfico de la deuda de Pemex 'que le pedí a la IA'. Depende de lo visual y no tiene oportunidad del Cazador"
+                         "motivo":  "57, gráfico de la deuda de Pemex \u0027que le pedí a la IA\u0027. Depende de lo visual y no tiene oportunidad del Cazador"
                      },
                      {
                          "fuente":  "UdupORUvULE",
@@ -599,7 +655,7 @@
                          "fin":  11199,
                          "estado":  "descartado",
                          "clip":  null,
-                         "motivo":  "64, archivo de Claudia Sheinbaum en el CEU (16-ene-1987: 'cualquier provocación será culpa de ustedes'). Bajo el umbral: ya está en la 'Parte 3' del propio canal (239.153 vistas); el CEU cumple 40 años el 31-oct, pero no es tendencia ni oportunidad del Cazador"
+                         "motivo":  "64, archivo de Claudia Sheinbaum en el CEU (16-ene-1987: \u0027cualquier provocación será culpa de ustedes\u0027). Bajo el umbral: ya está en la \u0027Parte 3\u0027 del propio canal (239.153 vistas); el CEU cumple 40 años el 31-oct, pero no es tendencia ni oportunidad del Cazador"
                      },
                      {
                          "fuente":  "i1WkmCJI_ww",
@@ -607,7 +663,7 @@
                          "fin":  495.38,
                          "estado":  "cortado",
                          "clip":  "2026-10-31-granja-bebeshita-votos-kevyn",
-                         "motivo":  "confrontacion, 79 (ciclo 3): le piden a Bebeshita votos por Kevyn, 'Jamás, güey… se trata de pedir votos, no milagros… el chiste es chingarme'. Es el momento del título del video oficial"
+                         "motivo":  "confrontacion, 79 (ciclo 3): le piden a Bebeshita votos por Kevyn, \u0027Jamás, güey… se trata de pedir votos, no milagros… el chiste es chingarme\u0027. Es el momento del título del video oficial"
                      },
                      {
                          "fuente":  "i1WkmCJI_ww",
@@ -615,7 +671,7 @@
                          "fin":  182.58,
                          "estado":  "cortado",
                          "clip":  "2026-10-31-granja-burlas-cara-a-cara",
-                         "motivo":  "confrontacion, 73 (ciclo 3): responden a las burlas del cara a cara, 'se te borró la sonrisa' (comentario 2:19)"
+                         "motivo":  "confrontacion, 73 (ciclo 3): responden a las burlas del cara a cara, \u0027se te borró la sonrisa\u0027 (comentario 2:19)"
                      },
                      {
                          "fuente":  "i1WkmCJI_ww",
@@ -623,7 +679,7 @@
                          "fin":  863.98,
                          "estado":  "cortado",
                          "clip":  "2026-10-31-granja-kevyn-no-me-salves",
-                         "motivo":  "revelacion, 72 (ciclo 3): según su compañero, Kevyn pidió que no lo salvaran ('quiero llegar a esa tabla'). Salió en el único reintento"
+                         "motivo":  "revelacion, 72 (ciclo 3): según su compañero, Kevyn pidió que no lo salvaran (\u0027quiero llegar a esa tabla\u0027). Salió en el único reintento"
                      },
                      {
                          "fuente":  "i1WkmCJI_ww",
@@ -631,7 +687,7 @@
                          "fin":  1066.58,
                          "estado":  "cortado",
                          "clip":  "2026-10-31-granja-kevyn-despedida",
-                         "motivo":  "humor, 68 (ciclo 3): despedida adelantada ('así se despide un loco') y la broma 'te quedas tres semanas más de peón extra'. Confirmar visualmente quién se despide antes de publicar"
+                         "motivo":  "humor, 68 (ciclo 3): despedida adelantada (\u0027así se despide un loco\u0027) y la broma \u0027te quedas tres semanas más de peón extra\u0027. Confirmar visualmente quién se despide antes de publicar"
                      },
                      {
                          "fuente":  "i1WkmCJI_ww",
@@ -639,7 +695,7 @@
                          "fin":  345.86,
                          "estado":  "descartado",
                          "clip":  null,
-                         "motivo":  "66, 'esa pimienta, pero sin el autosabotaje… en esa delgada línea está la gran diferencia'. Repite la idea de kevyn-no-me-salves (romper las reglas con gracia); se corta el mejor"
+                         "motivo":  "66, \u0027esa pimienta, pero sin el autosabotaje… en esa delgada línea está la gran diferencia\u0027. Repite la idea de kevyn-no-me-salves (romper las reglas con gracia); se corta el mejor"
                      },
                      {
                          "fuente":  "i1WkmCJI_ww",
@@ -647,7 +703,7 @@
                          "fin":  652.82,
                          "estado":  "descartado",
                          "clip":  null,
-                         "motivo":  "70, 'no me menciones… ni malo ni bueno' y la canción 'un patán' (comentario 10:40, 4 likes). Repite la idea de bebeshita-votos-kevyn (Bebeshita harta de Kevyn); se corta el mejor"
+                         "motivo":  "70, \u0027no me menciones… ni malo ni bueno\u0027 y la canción \u0027un patán\u0027 (comentario 10:40, 4 likes). Repite la idea de bebeshita-votos-kevyn (Bebeshita harta de Kevyn); se corta el mejor"
                      },
                      {
                          "fuente":  "i1WkmCJI_ww",
@@ -655,7 +711,7 @@
                          "fin":  1284.42,
                          "estado":  "descartado",
                          "clip":  null,
-                         "motivo":  "63, la rata enorme ('ella se sintió descubierta: ay, soy yo'). Bajo el umbral: depende de lo visual y es una burla a una granjera sin identificar"
+                         "motivo":  "63, la rata enorme (\u0027ella se sintió descubierta: ay, soy yo\u0027). Bajo el umbral: depende de lo visual y es una burla a una granjera sin identificar"
                      },
                      {
                          "fuente":  "i1WkmCJI_ww",
@@ -663,7 +719,7 @@
                          "fin":  92,
                          "estado":  "descartado",
                          "clip":  null,
-                         "motivo":  "62, 'quiero verle la jeta cagándose' en el zoom de la placa. No se sabe quién habla ni de quién"
+                         "motivo":  "62, \u0027quiero verle la jeta cagándose\u0027 en el zoom de la placa. No se sabe quién habla ni de quién"
                      },
                      {
                          "fuente":  "i1WkmCJI_ww",
@@ -671,7 +727,7 @@
                          "fin":  1001,
                          "estado":  "descartado",
                          "clip":  null,
-                         "motivo":  "Canción de Halloween de la calabaza pidiendo votos ('que vote disfuncional'). Transcripción ilegible: no se puede subtitular"
+                         "motivo":  "Canción de Halloween de la calabaza pidiendo votos (\u0027que vote disfuncional\u0027). Transcripción ilegible: no se puede subtitular"
                      },
                      {
                          "fuente":  "i1WkmCJI_ww",
@@ -679,7 +735,7 @@
                          "fin":  611,
                          "estado":  "descartado",
                          "clip":  null,
-                         "motivo":  "El 'gancito' en doble sentido sexual. No se recorta"
+                         "motivo":  "El \u0027gancito\u0027 en doble sentido sexual. No se recorta"
                      },
                      {
                          "fuente":  "i1WkmCJI_ww",
@@ -687,7 +743,7 @@
                          "fin":  1400,
                          "estado":  "descartado",
                          "clip":  null,
-                         "motivo":  "55, lágrimas falsas del disfraz y 'nos debes una'. Débil"
+                         "motivo":  "55, lágrimas falsas del disfraz y \u0027nos debes una\u0027. Débil"
                      },
                      {
                          "fuente":  "i1WkmCJI_ww",
@@ -703,7 +759,7 @@
                          "fin":  118,
                          "estado":  "propuesto",
                          "clip":  null,
-                         "motivo":  "Sin puntaje (no hay transcripción). GTA VI y su peso (210 GB según el Cazador: filtración, rotular 'no confirmado'). Zona estimada por los comentarios (1:03 y 1:10). Confirmar inicio y fin con analizar -Traducir es en el ciclo siguiente, antes del 1-nov a las 03:42"
+                         "motivo":  "Sin puntaje (no hay transcripción). GTA VI y su peso (210 GB según el Cazador: filtración, rotular \u0027no confirmado\u0027). Zona estimada por los comentarios (1:03 y 1:10). Confirmar inicio y fin con analizar -Traducir es en el ciclo siguiente, antes del 1-nov a las 03:42"
                      },
                      {
                          "fuente":  "sGgNvGbwrH4",
@@ -711,7 +767,455 @@
                          "fin":  150,
                          "estado":  "propuesto",
                          "clip":  null,
-                         "motivo":  "Sin puntaje (no hay transcripción). 'Lanzar caca' en GTA VI (comentarios en 1:58, 2 menciones; según uno de ellos ya se había confirmado en agosto). Zona estimada; confirmar con la transcripción"
+                         "motivo":  "Sin puntaje (no hay transcripción). \u0027Lanzar caca\u0027 en GTA VI (comentarios en 1:58, 2 menciones; según uno de ellos ya se había confirmado en agosto). Zona estimada; confirmar con la transcripción"
+                     },
+                     {
+                         "fuente":  "hSV5nuZ5w_I",
+                         "inicio":  0,
+                         "fin":  41.74,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-01-kris-r-critica-trap-bogota",
+                         "motivo":  "frase, 73 (ciclo 4): \u0027hubo cero apoyo para el trap de Bogotá\u0027, \u0027nadie le abrió\u0027. Opinión de los podcasters; matizan después que pudo ser cosa de la promotora (en la ficha)"
+                     },
+                     {
+                         "fuente":  "GBvB5F-zSMc",
+                         "inicio":  807.53,
+                         "fin":  826.38,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-01-awooween-invitados-sorpresa",
+                         "motivo":  "revelacion, 73 (ciclo 4): \u0027esperaba full reguetón y trajo a Johnny Rivera, trajo a Jorge Celedón\u0027. Corregido \u0027trabajó a\u0027 -\u003e \u0027trajo a\u0027: escuchar antes de publicar. Sale antes de \u0027Colombiana la rompió\u0027 (marca)"
+                     },
+                     {
+                         "fuente":  "hSV5nuZ5w_I",
+                         "inicio":  431.53,
+                         "fin":  491.34,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-01-kris-r-musica-cada-semana",
+                         "motivo":  "consejo, 72 (ciclo 4): cómo se pegó Kris R (música cada semana) y el error de los nuevos (\u0027se quemó todos los tres palos en un tema\u0027)"
+                     },
+                     {
+                         "fuente":  "1TF93cD11g0",
+                         "inicio":  764.17,
+                         "fin":  801.42,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-01-chanty-freestyle-dame-hombro",
+                         "motivo":  "humor, 72 (ciclo 4): freestyle con \u0027dame hombro\u0027. Oportunidad audio-dame-hombro; la canción nació de una improvisación callejera. Comprobar si suena la pista original (Content ID)"
+                     },
+                     {
+                         "fuente":  "hSV5nuZ5w_I",
+                         "inicio":  551.61,
+                         "fin":  588.3,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-01-kris-r-primer-estadio",
+                         "motivo":  "prediccion, 71 (ciclo 4): de discotecas de 20 y 200 personas al Movistar; \u0027el año que viene haciendo ya su primer estadio\u0027"
+                     },
+                     {
+                         "fuente":  "tLTcYKphXdw",
+                         "inicio":  264.77,
+                         "fin":  301.82,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-01-blessd-jet-como-bus",
+                         "motivo":  "humor, 67 (ciclo 4): trata el jet de Blessd como un bus (\u0027paramos a comprar unos diabolines\u0027, \u0027apenas hay alguna parada frenamos\u0027). Sale justo antes del chiste sobre droga"
+                     },
+                     {
+                         "fuente":  "1TF93cD11g0",
+                         "inicio":  554.93,
+                         "fin":  575.6,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-01-chanty-fotografo-100mil-fotos",
+                         "motivo":  "emotivo, 67 (ciclo 4): fotógrafo que quiere entregar 100.000 fotos físicas en su vida, \u0027ya vamos en 793\u0027"
+                     },
+                     {
+                         "fuente":  "hSV5nuZ5w_I",
+                         "inicio":  384.29,
+                         "fin":  426.58,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-01-kris-r-avion-musica-desechable",
+                         "motivo":  "historia, 67 (ciclo 4): lo bajan del avión y dos semanas y media después la canción ya no suena: \u0027la música es muy desechable\u0027. No especular el motivo (en la ficha)"
+                     },
+                     {
+                         "fuente":  "zRs0PqfAeWs",
+                         "inicio":  630.43,
+                         "fin":  652,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-01-chanty-blessd-anuel",
+                         "motivo":  "humor, 66 (ciclo 4): disfrazado de cantante le preguntan \u0027¿Anuel?\u0027; \u0027A mí me gustan los Mercedes\u0027 / \u0027Eso es barato\u0027. No se pudo confirmar quién va de Blessd y quién de Ryan Castro"
+                     },
+                     {
+                         "fuente":  "hSV5nuZ5w_I",
+                         "inicio":  253.41,
+                         "fin":  271.06,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-01-kris-r-almighty-miedo",
+                         "motivo":  "humor, 66 (ciclo 4): en el backstage de Kris R pasó al lado de Almighty y no lo saludó: \u0027me dio miedo\u0027"
+                     },
+                     {
+                         "fuente":  "tLTcYKphXdw",
+                         "inicio":  41.49,
+                         "fin":  92.18,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "motivo":  "73, interrogatorio en migración (\u0027¿Sabe quién es Blessd?\u0027 \u0027No los conozco\u0027). Se cortó, se revisó y se borró: una agente del INM de México, reconocible y uniformada, grabada en su puesto (no consta que lo sepa), es el blanco del chiste; además se ven un pasaporte abierto y pases de abordar. Expone a una persona privada (§6). Solo volver a cortar si una persona lo decide y se difuminan cara y documentos: clipero.ps1 no lo hace"
+                     },
+                     {
+                         "fuente":  "tLTcYKphXdw",
+                         "inicio":  0,
+                         "fin":  41,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Inicio del interrogatorio en migración: misma exposición de la agente del INM (§6)"
+                     },
+                     {
+                         "fuente":  "tLTcYKphXdw",
+                         "inicio":  92,
+                         "fin":  175,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Resto del interrogatorio: misma exposición de la agente y se dice el nombre de un viajero (\u0027Usted es José Guillermo\u0027) (§6)"
+                     },
+                     {
+                         "fuente":  "tLTcYKphXdw",
+                         "inicio":  177,
+                         "fin":  262,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Chistes en el control y en el jet (\u0027Tengo marihuana\u0027, \u0027no llevamos ni droga\u0027, \u0027filé miñón con… marihuana\u0027, \u0027huevo perico\u0027). Fuera de contexto se pueden tomar en serio o atribuir a Blessd (§6)"
+                     },
+                     {
+                         "fuente":  "tLTcYKphXdw",
+                         "inicio":  309,
+                         "fin":  322,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "60, \u0027Aquí en Perú hablan peruano\u0027. Bajo el umbral y repite la idea de blessd-jet-como-bus"
+                     },
+                     {
+                         "fuente":  "tLTcYKphXdw",
+                         "inicio":  352,
+                         "fin":  363,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Saludo a una sobrina con cáncer, con nombre y apellido. Enfermedad y posible menor (§6)"
+                     },
+                     {
+                         "fuente":  "tLTcYKphXdw",
+                         "inicio":  363,
+                         "fin":  400,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "63, \u0027las figuras públicas andan con escoltas…\u0027 y el Suzuki con piezas de G-Wagon. Bajo el umbral. Es un discurso en broma: cortar solo la primera frase sacaría de contexto la ironía (§6)"
+                     },
+                     {
+                         "fuente":  "tLTcYKphXdw",
+                         "inicio":  412,
+                         "fin":  519,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "58, fotos y saludos a fans en el aeropuerto. Depende de lo visual, transcripción rota y personas privadas"
+                     },
+                     {
+                         "fuente":  "1TF93cD11g0",
+                         "inicio":  128,
+                         "fin":  174,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "58, \u0027todas las mujeres se mueren por nosotros\u0027. Bajo el umbral, con música de Justin Bieber de fondo (Content ID)"
+                     },
+                     {
+                         "fuente":  "1TF93cD11g0",
+                         "inicio":  361,
+                         "fin":  392,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "52, \u0027soy un furro\u0027 y \u0027generación de cristal\u0027. Doble sentido sexual con personas privadas"
+                     },
+                     {
+                         "fuente":  "1TF93cD11g0",
+                         "inicio":  628,
+                         "fin":  645,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "60, \u0027hay camarógrafos que toman una foto más fea\u0027. Repite al fotógrafo del clip y es más débil"
+                     },
+                     {
+                         "fuente":  "1TF93cD11g0",
+                         "inicio":  801.5,
+                         "fin":  841,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "64, resto del freestyle (\u0027voy a cometer una desgracia\u0027, \u0027Mik la 27\u0027). Repite la idea del clip y la letra está rota"
+                     },
+                     {
+                         "fuente":  "1TF93cD11g0",
+                         "inicio":  995,
+                         "fin":  1062,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "60, resultados del concurso (The Chanty, tercer puesto). Transcripción rota y música de discoteca"
+                     },
+                     {
+                         "fuente":  "GBvB5F-zSMc",
+                         "inicio":  272,
+                         "fin":  300,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "55, \u0027nadie se imagina que hago contenidos de fútbol\u0027. Débil y sin relación con el Awooween"
+                     },
+                     {
+                         "fuente":  "GBvB5F-zSMc",
+                         "inicio":  381,
+                         "fin":  400,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "52, su predicción de invitados antes del show. Es menos fuerte que lo que cuenta al final"
+                     },
+                     {
+                         "fuente":  "GBvB5F-zSMc",
+                         "inicio":  420,
+                         "fin":  690,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Música en vivo, con letras sueltas. Derechos y Content ID; no hay tramo hablado que funcione"
+                     },
+                     {
+                         "fuente":  "GBvB5F-zSMc",
+                         "inicio":  694,
+                         "fin":  713,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Enumeración de invitados con nombres mal transcritos (\u0027Parruco\u0027, \u0027Re\u0027, \u0027Mac\u0027). No se corrigen con la prensa (§6) y repite la idea del clip"
+                     },
+                     {
+                         "fuente":  "GBvB5F-zSMc",
+                         "inicio":  868,
+                         "fin":  882,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "\u0027Se fueron más de unos… 100 por persona\u0027. Cifra ilegible: no se usa"
+                     },
+                     {
+                         "fuente":  "hSV5nuZ5w_I",
+                         "inicio":  42,
+                         "fin":  71,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "66, resto de la crítica (\u0027me pareció feo\u0027). Repite la idea de kris-r-critica-trap-bogota; se corta el mejor"
+                     },
+                     {
+                         "fuente":  "hSV5nuZ5w_I",
+                         "inicio":  71,
+                         "fin":  180,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "60, debate sobre si fue por tiempos o por la promotora. Sin gancho. El matiz queda anotado en la ficha de la crítica"
+                     },
+                     {
+                         "fuente":  "hSV5nuZ5w_I",
+                         "inicio":  197,
+                         "fin":  253,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "63, en el camerino con Kris R y \u0027la mamá dijo que le gustó mi contenido\u0027. Bajo el umbral"
+                     },
+                     {
+                         "fuente":  "hSV5nuZ5w_I",
+                         "inicio":  276,
+                         "fin":  300,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "58, conocer a Nanpa (\u0027Nampa\u0027 en los subtítulos). Débil"
+                     },
+                     {
+                         "fuente":  "hSV5nuZ5w_I",
+                         "inicio":  336,
+                         "fin":  381,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "62, \u0027de 1 a 10, un 20\u0027 y los ocho invitados. Bajo el umbral y con nombres mal transcritos"
+                     },
+                     {
+                         "fuente":  "hSV5nuZ5w_I",
+                         "inicio":  491.5,
+                         "fin":  530,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "64, \u002780 canciones guardadas, ¿y qué hacen ahí? Hagan TikToks\u0027. Repite la idea de kris-r-musica-cada-semana"
+                     },
+                     {
+                         "fuente":  "hSV5nuZ5w_I",
+                         "inicio":  600,
+                         "fin":  662,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "50, lista de lugares donde lo ha visto. Débil, y repite la idea de kris-r-primer-estadio"
+                     },
+                     {
+                         "fuente":  "XkKa6tuUFJ4",
+                         "inicio":  130,
+                         "fin":  245,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "52, entrevistas a disfrazados en la calle. Transcripción rota y personas privadas"
+                     },
+                     {
+                         "fuente":  "XkKa6tuUFJ4",
+                         "inicio":  252,
+                         "fin":  275,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Pareja de Kiko y la Chilindrina: doble sentido sexual con personas privadas"
+                     },
+                     {
+                         "fuente":  "XkKa6tuUFJ4",
+                         "inicio":  444,
+                         "fin":  456,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "48, \u0027¿dónde están las mujeres solteras?\u0027. Débil"
+                     },
+                     {
+                         "fuente":  "XkKa6tuUFJ4",
+                         "inicio":  507,
+                         "fin":  580,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "56, el disfraz de Ronaldo que no baila. Depende de lo visual, con música y transcripción rota"
+                     },
+                     {
+                         "fuente":  "XkKa6tuUFJ4",
+                         "inicio":  600,
+                         "fin":  725,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "54, votación del concurso por bulla. Sin subtítulos útiles y con música de discoteca"
+                     },
+                     {
+                         "fuente":  "XkKa6tuUFJ4",
+                         "inicio":  741,
+                         "fin":  786,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "50, cierre del directo (\u0027la hacemos real\u0027). Débil"
+                     },
+                     {
+                         "fuente":  "iX4hG7rkl-M",
+                         "inicio":  58,
+                         "fin":  175,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "60, compra de cadenas falsas para el disfraz (\u0027Origi, Origi\u0027). Depende de lo visual y la transcripción está rota"
+                     },
+                     {
+                         "fuente":  "iX4hG7rkl-M",
+                         "inicio":  30,
+                         "fin":  58,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Parodia con \u0027unos porritas más para que se tranquilice\u0027, dirigida a los personajes de Blessd y Ryan Castro. Alusión a drogas atribuible a los cantantes (§6)"
+                     },
+                     {
+                         "fuente":  "iX4hG7rkl-M",
+                         "inicio":  215,
+                         "fin":  340,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "58, parodia del camerino (\u0027los mejores hombres del mundo\u0027, \u0027ojo que Manuela está viendo\u0027). Transcripción rota y bromas sobre vida privada atribuibles a los cantantes reales (§6)"
+                     },
+                     {
+                         "fuente":  "iX4hG7rkl-M",
+                         "inicio":  477,
+                         "fin":  515,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "60, imitación: \u0027el peor hombre del mundo\u0027 y \u0027me parezco a Westcol\u0027. Bajo el umbral y atribuible al cantante real (§6)"
+                     },
+                     {
+                         "fuente":  "iX4hG7rkl-M",
+                         "inicio":  690,
+                         "fin":  725,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "58, \u0027el bendito no habla así\u0027. Transcripción rota"
+                     },
+                     {
+                         "fuente":  "iX4hG7rkl-M",
+                         "inicio":  752,
+                         "fin":  782,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "56, \u0027¿quién le hizo ese daño?\u0027 pegado a una letra sexual. Débil"
+                     },
+                     {
+                         "fuente":  "iX4hG7rkl-M",
+                         "inicio":  835,
+                         "fin":  848,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Despedida a su mamá. Persona privada"
+                     },
+                     {
+                         "fuente":  "zRs0PqfAeWs",
+                         "inicio":  12,
+                         "fin":  160,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Cantan \u0027es un amor en la lejanía\u0027 en la calle. Canción con derechos y sin momento hablado"
+                     },
+                     {
+                         "fuente":  "zRs0PqfAeWs",
+                         "inicio":  211,
+                         "fin":  236,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "55, agradecimiento en la coctelería. Confuso sin contexto"
+                     },
+                     {
+                         "fuente":  "zRs0PqfAeWs",
+                         "inicio":  245,
+                         "fin":  258,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "58, \u0027poca gente me ha reconocido\u0027. Corto y débil"
+                     },
+                     {
+                         "fuente":  "zRs0PqfAeWs",
+                         "inicio":  327,
+                         "fin":  347,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "64, \u0027tu máscara\u0027 / \u0027¿cómo que máscara? Esa es mi cara\u0027. Bajo el umbral por poco y parecido a chanty-blessd-anuel (humor con el disfraz)"
+                     },
+                     {
+                         "fuente":  "zRs0PqfAeWs",
+                         "inicio":  360,
+                         "fin":  371,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Letra con \u0027le gustan las tachas\u0027. Alusión a drogas atribuible a los cantantes y con derechos (§6)"
+                     },
+                     {
+                         "fuente":  "zRs0PqfAeWs",
+                         "inicio":  497,
+                         "fin":  528,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Burlas a mujeres mayores (\u0027las pensionadas\u0027, \u0027la gallina más vieja\u0027). Expone a personas privadas (§6)"
+                     },
+                     {
+                         "fuente":  "zRs0PqfAeWs",
+                         "inicio":  573,
+                         "fin":  600,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "50, preguntan nombre y estudios a unas chicas. Personas privadas y débil"
+                     },
+                     {
+                         "fuente":  "zRs0PqfAeWs",
+                         "inicio":  652.5,
+                         "fin":  670,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "55, \u0027Yo soy un koala\u0027. Remate flojo después de chanty-blessd-anuel"
                      }
                  ]
 }

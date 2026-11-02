@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-01-kris-r-primer-estadio",
+    "url_fuente":  "https://www.youtube.com/watch?v=hSV5nuZ5w_I",
+    "video_id":  "hSV5nuZ5w_I",
+    "inicio":  551.61,
+    "fin":  588.3,
+    "inicio_hms":  "0:09:11",
+    "duracion_seg":  36.7,
+    "gancho":  "De 20 personas… ¿a su primer estadio?",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  135,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -27.08,
+                  "entrada_tp":  -14.11,
+                  "salida_lufs":  -13.77,
+                  "salida_tp":  -1.03
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-01-kris-r-primer-estadio/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-01-kris-r-primer-estadio/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-01-kris-r-primer-estadio/revision.jpg",
+    "creado":  "2026-11-01T23:53:23.3477380-05:00"
+}

@@ -41,7 +41,8 @@ Escribes:
    - **Sus subidas:** `canal -Url <canal> -MaxHoras <ventana_fuentes_horas>` en YouTube (revisa videos y directos) y, si hace directos, en Kick (`https://kick.com/<canal>/videos`). Kick y Twitch no tienen subtítulos: el Clipero los transcribe en local con whisper (si está instalado), pero tarda bastante más. Si existe la versión subida a YouTube (canal oficial o canales de clips), pon esa; si no, pon la de Kick y anótalo en `por_que`.
    - **Instagram:** sin sesión iniciada no se puede listar lo que publica un perfil (yt-dlp falla y la página pública solo da seguidores). Úsalo para confirmar identidad y, con búsqueda web, para saber de qué está hablando; si encuentras la URL de un video largo suyo (IG Live guardado, video de más de 8 min), inclúyela como fuente.
    - **Sus apariciones:** `buscar -Consulta "<nombre>" -Hoy -Detalle -MaxHoras <ventana_fuentes_horas>` (y `-Recientes` si no sale nada). Lo más cortable suele estar en podcasts, entrevistas y streams de otros.
-   - Todo video largo (≥ 8 min) de un perfil publicado dentro de la ventana va a `fuentes_para_clips`, aunque tenga pocas vistas por hora: el usuario quiere todo lo nuevo. Pon delante lo de más vistas por hora.
+   - Todo video largo (≥ 8 min) publicado dentro de la ventana donde un perfil **salga en persona** (hablando o en pantalla, comprobado en el título, la descripción o la prensa) va a `fuentes_para_clips` con `aparece: true`, aunque tenga pocas vistas por hora: el usuario quiere todo lo nuevo. Pon delante lo de más vistas por hora.
+   - Un video que solo habla del perfil, una parodia o alguien disfrazado de él **no es contenido del perfil**: va con `aparece: false` y solo entra si rinde de verdad (muchas vistas por hora frente a su canal). Un canal sin audiencia no aporta nada.
    - **Similares.** Si alguien del mismo estilo aparece varias veces junto a los perfiles (colaboraciones, streams y podcasts compartidos) o sube en las tendencias de su nicho, añádelo a `perfiles.json` con `origen: "similar"` y la evidencia, como mucho `max_similares_por_ciclo` por ciclo.
 4. **Exploración web**, dentro del presupuesto (`busquedas_web`, `lecturas_web`), siempre dentro de los `nichos`:
    - Prioriza las 2-3 plataformas y los 2 nichos con la exploración más antigua según `rotacion`. TikTok entra siempre, porque es donde nacen casi todos los formatos.
@@ -63,6 +64,7 @@ Escribes:
 ## Reglas
 
 - **Evidencia o nada.** Toda afirmación de viralidad lleva URL, métrica y fecha de observación. Distingue `medido` (número leído) de `estimado` (inferido). No inventes cifras; si falta un dato, dilo.
+- **Comprueba que la evidencia hable de ese mismo evento.** Una crónica de otro concierto del mismo artista no prueba nada sobre este: lee la fecha y el lugar antes de citarla.
 - **Mide el patrón, no algo cercano.** Las reproducciones de una canción en Spotify, las visitas a Wikipedia o el puesto en una lista de un blog son `senal_relacionada`: apoyan, pero no convierten una apuesta en oportunidad.
 - Nada pasa a `semilla` ni a `emergente` sin dos señales independientes.
 - Un patrón en pico tardío, `saturacion` o `quemado` nunca se recomienda directamente. Solo puede servir de base de arbitraje si está en una etapa temprana en otra plataforma, idioma o nicho, y entonces cuenta la etapa del contexto de destino.
@@ -155,7 +157,8 @@ Y una tercera lista, `fuentes_para_clips`: hasta 15 videos largos publicados den
       "url": "https://www.youtube.com/watch?v=...",
       "titulo": "", "canal": "", "publicado": "2026-10-30T22:00:00-05:00",
       "horas_desde": 14.1, "vistas": 324000, "vistas_por_hora": 23011, "duracion_seg": 3111,
-      "perfil": "Blessd (nombre del perfil o similar que aparece) o null",
+      "perfil": "Blessd (nombre del perfil o similar relacionado) o null",
+      "aparece": true,
       "por_que": "Una línea: qué tema o persona en alza toca y qué momentos probables tiene",
       "oportunidad": "id de una oportunidad o apuesta relacionada, o null"
     }

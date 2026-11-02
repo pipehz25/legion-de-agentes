@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-01-chanty-fotografo-100mil-fotos",
+    "url_fuente":  "https://www.youtube.com/watch?v=1TF93cD11g0",
+    "video_id":  "1TF93cD11g0",
+    "inicio":  554.93,
+    "fin":  575.6,
+    "inicio_hms":  "0:09:14",
+    "duracion_seg":  20.7,
+    "gancho":  "Quiere entregar 100.000 fotos físicas en su vida",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  54,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -16.91,
+                  "entrada_tp":  -4.19,
+                  "salida_lufs":  -13.88,
+                  "salida_tp":  -1.28
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-01-chanty-fotografo-100mil-fotos/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-01-chanty-fotografo-100mil-fotos/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-01-chanty-fotografo-100mil-fotos/revision.jpg",
+    "creado":  "2026-11-01T23:59:21.4134052-05:00"
+}

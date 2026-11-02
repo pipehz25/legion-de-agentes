@@ -1,6 +1,6 @@
 # 2026-10-31-granja-bebeshita-votos-kevyn
 
-- **Estado:** listo · **Tipo:** `confrontacion` · **Puntaje:** 79/100 · **Orden en la fuente:** 1
+- **Estado:** descartado por el usuario (2026-11-01) · **Tipo:** `confrontacion` · **Puntaje:** 79/100 · **Orden en la fuente:** 1
 - **Archivo:** `salidas/clipero/clips/2026-10-31-granja-bebeshita-votos-kevyn/clip.mp4` (67,2 s, 1080x1920, modo `desenfoque`, subtítulos `rev` en español)
 - **Gancho en pantalla:** "Le piden a Bebeshita votos por Kevyn"
 - **Corte:** 0:07:08 → 0:08:15 (428,21 s → 495,38 s). Empieza en "Entonces, Bebeshita, quiero que pidas votos por Kevyn" y termina en "O sea, el chiste es chingarme".

@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-01-kris-r-avion-musica-desechable",
+    "url_fuente":  "https://www.youtube.com/watch?v=hSV5nuZ5w_I",
+    "video_id":  "hSV5nuZ5w_I",
+    "inicio":  384.29,
+    "fin":  426.58,
+    "inicio_hms":  "0:06:24",
+    "duracion_seg":  42.3,
+    "gancho":  "Escuchó la canción… y lo bajaron del avión",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  160,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -28.33,
+                  "entrada_tp":  -15.34,
+                  "salida_lufs":  -13.84,
+                  "salida_tp":  -1.01
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-01-kris-r-avion-musica-desechable/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-01-kris-r-avion-musica-desechable/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-01-kris-r-avion-musica-desechable/revision.jpg",
+    "creado":  "2026-11-02T00:03:40.5555734-05:00"
+}

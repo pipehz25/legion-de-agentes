@@ -1,7 +1,255 @@
 {
-    "generado":  "2026-10-31T18:36:35-05:00",
-    "ciclo":  3,
+    "generado":  "2026-11-02T00:17:45-05:00",
+    "ciclo":  4,
     "clips":  [
+                  {
+                      "id":  "2026-11-01-kris-r-critica-trap-bogota",
+                      "estado":  "listo",
+                      "tipo":  "frase",
+                      "puntaje":  73,
+                      "gancho":  "Su crítica al concierto de Kris R",
+                      "archivo":  "salidas/clipero/clips/2026-11-01-kris-r-critica-trap-bogota/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-01-kris-r-critica-trap-bogota/ficha.md",
+                      "duracion_seg":  41.8,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/hSV5nuZ5w_I?t=0",
+                                     "canal":  "ElWerik Podcast",
+                                     "inicio":  0,
+                                     "fin":  41.74
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  1,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-08"
+                  },
+                  {
+                      "id":  "2026-11-01-awooween-invitados-sorpresa",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  73,
+                      "gancho":  "Los invitados que nadie esperaba en el Awooween",
+                      "archivo":  "salidas/clipero/clips/2026-11-01-awooween-invitados-sorpresa/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-01-awooween-invitados-sorpresa/ficha.md",
+                      "duracion_seg":  18.9,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/GBvB5F-zSMc?t=807",
+                                     "canal":  "Danigoals",
+                                     "inicio":  807.53,
+                                     "fin":  826.38
+                                 },
+                      "oportunidad_cazador":  "tema-awooween-ryan-castro-campin",
+                      "orden_en_fuente":  1,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-03"
+                  },
+                  {
+                      "id":  "2026-11-01-kris-r-musica-cada-semana",
+                      "estado":  "listo",
+                      "tipo":  "consejo",
+                      "puntaje":  72,
+                      "gancho":  "Así se pegó Kris R",
+                      "archivo":  "salidas/clipero/clips/2026-11-01-kris-r-musica-cada-semana/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-01-kris-r-musica-cada-semana/ficha.md",
+                      "duracion_seg":  59.8,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/hSV5nuZ5w_I?t=431",
+                                     "canal":  "ElWerik Podcast",
+                                     "inicio":  431.53,
+                                     "fin":  491.34
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  2,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-20"
+                  },
+                  {
+                      "id":  "2026-11-01-chanty-freestyle-dame-hombro",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  72,
+                      "gancho":  "Freestyle de \u0027dame hombro\u0027 en El Poblado",
+                      "archivo":  "salidas/clipero/clips/2026-11-01-chanty-freestyle-dame-hombro/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-01-chanty-freestyle-dame-hombro/ficha.md",
+                      "duracion_seg":  37.3,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/1TF93cD11g0?t=764",
+                                     "canal":  "The Chanty",
+                                     "inicio":  764.17,
+                                     "fin":  801.42
+                                 },
+                      "oportunidad_cazador":  "audio-dame-hombro",
+                      "orden_en_fuente":  1,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram"
+                                      ],
+                      "ventana_hasta":  "2026-11-08"
+                  },
+                  {
+                      "id":  "2026-11-01-kris-r-primer-estadio",
+                      "estado":  "listo",
+                      "tipo":  "prediccion",
+                      "puntaje":  71,
+                      "gancho":  "De 20 personas… ¿a su primer estadio?",
+                      "archivo":  "salidas/clipero/clips/2026-11-01-kris-r-primer-estadio/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-01-kris-r-primer-estadio/ficha.md",
+                      "duracion_seg":  36.7,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/hSV5nuZ5w_I?t=551",
+                                     "canal":  "ElWerik Podcast",
+                                     "inicio":  551.61,
+                                     "fin":  588.3
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  3,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-20"
+                  },
+                  {
+                      "id":  "2026-11-01-blessd-jet-como-bus",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  67,
+                      "gancho":  "Viaja en jet con Blessd como en bus",
+                      "archivo":  "salidas/clipero/clips/2026-11-01-blessd-jet-como-bus/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-01-blessd-jet-como-bus/ficha.md",
+                      "duracion_seg":  37.1,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/tLTcYKphXdw?t=264",
+                                     "canal":  "Yeison guardo",
+                                     "inicio":  264.77,
+                                     "fin":  301.82
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  1,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-05"
+                  },
+                  {
+                      "id":  "2026-11-01-chanty-fotografo-100mil-fotos",
+                      "estado":  "listo",
+                      "tipo":  "emotivo",
+                      "puntaje":  67,
+                      "gancho":  "Quiere entregar 100.000 fotos físicas en su vida",
+                      "archivo":  "salidas/clipero/clips/2026-11-01-chanty-fotografo-100mil-fotos/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-01-chanty-fotografo-100mil-fotos/ficha.md",
+                      "duracion_seg":  20.7,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/1TF93cD11g0?t=554",
+                                     "canal":  "The Chanty",
+                                     "inicio":  554.93,
+                                     "fin":  575.6
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  2,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-05"
+                  },
+                  {
+                      "id":  "2026-11-01-kris-r-avion-musica-desechable",
+                      "estado":  "listo",
+                      "tipo":  "historia",
+                      "puntaje":  67,
+                      "gancho":  "Escuchó la canción… y lo bajaron del avión",
+                      "archivo":  "salidas/clipero/clips/2026-11-01-kris-r-avion-musica-desechable/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-01-kris-r-avion-musica-desechable/ficha.md",
+                      "duracion_seg":  42.3,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/hSV5nuZ5w_I?t=384",
+                                     "canal":  "ElWerik Podcast",
+                                     "inicio":  384.29,
+                                     "fin":  426.58
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  4,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-08"
+                  },
+                  {
+                      "id":  "2026-11-01-chanty-blessd-anuel",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  66,
+                      "gancho":  "Disfrazado de cantante y le preguntan: ¿Anuel?",
+                      "archivo":  "salidas/clipero/clips/2026-11-01-chanty-blessd-anuel/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-01-chanty-blessd-anuel/ficha.md",
+                      "duracion_seg":  21.6,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/zRs0PqfAeWs?t=630",
+                                     "canal":  "The Chanty",
+                                     "inicio":  630.43,
+                                     "fin":  652
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  1,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram"
+                                      ],
+                      "ventana_hasta":  "2026-11-03"
+                  },
+                  {
+                      "id":  "2026-11-01-kris-r-almighty-miedo",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  66,
+                      "gancho":  "Le dio miedo saludar a Almighty",
+                      "archivo":  "salidas/clipero/clips/2026-11-01-kris-r-almighty-miedo/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-01-kris-r-almighty-miedo/ficha.md",
+                      "duracion_seg":  17.6,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/hSV5nuZ5w_I?t=253",
+                                     "canal":  "ElWerik Podcast",
+                                     "inicio":  253.41,
+                                     "fin":  271.06
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  5,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-08"
+                  },
                   {
                       "id":  "2026-10-31-alvarez-puga-deportacion",
                       "estado":  "listo",
@@ -54,7 +302,7 @@
                   },
                   {
                       "id":  "2026-10-31-granja-bebeshita-votos-kevyn",
-                      "estado":  "listo",
+                      "estado":  "descartado",
                       "tipo":  "confrontacion",
                       "puntaje":  79,
                       "gancho":  "Le piden a Bebeshita votos por Kevyn",
@@ -76,11 +324,12 @@
                                           "youtube",
                                           "facebook"
                                       ],
-                      "ventana_hasta":  "2026-11-01"
+                      "ventana_hasta":  "2026-11-01",
+                      "motivo_descarte":  "El usuario descarta los videos de La Granja el 2026-11-01."
                   },
                   {
                       "id":  "2026-10-31-granja-burlas-cara-a-cara",
-                      "estado":  "listo",
+                      "estado":  "descartado",
                       "tipo":  "confrontacion",
                       "puntaje":  73,
                       "gancho":  "Responden a las burlas del cara a cara",
@@ -102,11 +351,12 @@
                                           "youtube",
                                           "facebook"
                                       ],
-                      "ventana_hasta":  "2026-11-02"
+                      "ventana_hasta":  "2026-11-02",
+                      "motivo_descarte":  "El usuario descarta los videos de La Granja el 2026-11-01."
                   },
                   {
                       "id":  "2026-10-31-granja-kevyn-no-me-salves",
-                      "estado":  "listo",
+                      "estado":  "descartado",
                       "tipo":  "revelacion",
                       "puntaje":  72,
                       "gancho":  "Kevyn pidió que NO lo salvaran",
@@ -128,11 +378,12 @@
                                           "youtube",
                                           "facebook"
                                       ],
-                      "ventana_hasta":  "2026-11-01"
+                      "ventana_hasta":  "2026-11-01",
+                      "motivo_descarte":  "El usuario descarta los videos de La Granja el 2026-11-01."
                   },
                   {
                       "id":  "2026-10-31-granja-kevyn-despedida",
-                      "estado":  "listo",
+                      "estado":  "descartado",
                       "tipo":  "humor",
                       "puntaje":  68,
                       "gancho":  "La despedida adelantada de Kevyn",
@@ -154,7 +405,8 @@
                                           "youtube",
                                           "facebook"
                                       ],
-                      "ventana_hasta":  "2026-11-01"
+                      "ventana_hasta":  "2026-11-01",
+                      "motivo_descarte":  "El usuario descarta los videos de La Granja el 2026-11-01."
                   },
                   {
                       "id":  "2026-10-29-blessd-pelea-feid",

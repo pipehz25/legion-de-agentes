@@ -1,6 +1,6 @@
 # 2026-10-31-granja-kevyn-no-me-salves
 
-- **Estado:** listo · **Tipo:** `revelacion` · **Puntaje:** 72/100 · **Orden en la fuente:** 3
+- **Estado:** descartado por el usuario (2026-11-01) · **Tipo:** `revelacion` · **Puntaje:** 72/100 · **Orden en la fuente:** 3
 - **Archivo:** `salidas/clipero/clips/2026-10-31-granja-kevyn-no-me-salves/clip.mp4` (24,8 s, 1080x1920, modo `desenfoque`, subtítulos `rev` en español)
 - **Gancho en pantalla:** "Kevyn pidió que NO lo salvaran"
 - **Corte:** 0:13:59 → 0:14:24 (839,21 s → 863,98 s). Empieza en "Pero entonces él me pidió, me dijo: '¿Sabes qué? No me salves…'" y termina en "le va a poner hasta los de mi propio equipo".

@@ -47,12 +47,13 @@ Si el script dice que faltan herramientas (`herramientas/bin`), sigue en **modo 
    - aparece un anuncio o banner incrustado en la fuente: mueve la entrada o la salida para evitarlo. Si ocupa el momento entero, descarta el clip.
 8. **Ficha** de cada clip (`ficha.md`): títulos para TikTok, Reels y Shorts; descripción; hashtags; crédito (canal, enlace con el minuto); derechos; tipo de momento; por qué es relevante ahora (id de la oportunidad del Cazador y su etapa); ventana estimada; plataforma y hora sugeridas; puntaje desglosado.
 9. **Escritura.** Actualiza `clips.json`, `estado.json` (fuentes analizadas, momentos cortados o descartados con su motivo, `ultimo_ciclo_cazador`) y escribe el informe.
-10. **Respuesta final** para el orquestador, de 10 líneas como máximo: el número de clips producidos por fuente y los 5 mejores (id, tipo, puntaje), los momentos propuestos sin cortar y por qué, los problemas encontrados y la ruta del informe (que lista todos los clips).
+10. **Respuesta final** para el orquestador, de 10 líneas como máximo: el número de clips producidos por fuente, cuántos muestran en persona a un perfil del usuario, y los 5 mejores (id, tipo, puntaje), los momentos propuestos sin cortar y por qué, los problemas encontrados y la ruta del informe (que lista todos los clips).
 
 ## Reglas
 
 - **Evidencia o nada:** el puntaje de cada clip se apoya en señales concretas (pico de X, N menciones en comentarios, oportunidad Y del Cazador). No inventes cifras.
 - **Nunca alteres el sentido** de lo que alguien dijo (`metodologia.md` §6). Ante la duda, corta más amplio.
+- **Prioridad a quien sale en persona.** Lo que el usuario quiere son momentos de los perfiles: corta primero las fuentes con `aparece: true`. Si el perfil no sale en el clip, el gancho y los títulos dejan claro quién habla, y nunca dan a entender que sale. Antes de poner a alguien en un gancho, comprueba que aparece en ese tramo.
 - Cada clip lleva derechos (`propio`, `autorizado` o `sin_verificar`) y crédito a la fuente. No hace falta descartar lo `sin_verificar`, pero debe quedar marcado.
 - No vuelvas a cortar un momento que ya esté en `estado.momentos`.
 - Si una fuente falla al analizarse o al cortarse, anótala y pasa a la siguiente; no gastes el ciclo en reintentos.

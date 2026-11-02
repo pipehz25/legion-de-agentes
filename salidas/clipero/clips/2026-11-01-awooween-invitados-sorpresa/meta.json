@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-01-awooween-invitados-sorpresa",
+    "url_fuente":  "https://www.youtube.com/watch?v=GBvB5F-zSMc",
+    "video_id":  "GBvB5F-zSMc",
+    "inicio":  807.53,
+    "fin":  826.38,
+    "inicio_hms":  "0:13:27",
+    "duracion_seg":  18.9,
+    "gancho":  "Los invitados que nadie esperaba en el Awooween",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  60,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14.3,
+                  "limitador":  true,
+                  "entrada_lufs":  -19.41,
+                  "entrada_tp":  -6.11,
+                  "salida_lufs":  -14.23,
+                  "salida_tp":  -1
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-01-awooween-invitados-sorpresa/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-01-awooween-invitados-sorpresa/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-01-awooween-invitados-sorpresa/revision.jpg",
+    "creado":  "2026-11-01T23:37:30.3383397-05:00"
+}

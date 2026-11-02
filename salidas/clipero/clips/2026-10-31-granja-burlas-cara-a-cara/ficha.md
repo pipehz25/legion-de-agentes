@@ -1,6 +1,6 @@
 # 2026-10-31-granja-burlas-cara-a-cara
 
-- **Estado:** listo · **Tipo:** `confrontacion` · **Puntaje:** 73/100 · **Orden en la fuente:** 2
+- **Estado:** descartado por el usuario (2026-11-01) · **Tipo:** `confrontacion` · **Puntaje:** 73/100 · **Orden en la fuente:** 2
 - **Archivo:** `salidas/clipero/clips/2026-10-31-granja-burlas-cara-a-cara/clip.mp4` (46,6 s, 1080x1920, modo `desenfoque`, subtítulos `rev` en español)
 - **Gancho en pantalla:** "Responden a las burlas del cara a cara"
 - **Corte:** 0:02:15 → 0:03:02 (135,97 s → 182,58 s). Empieza en "Sí, porque se burlaron en el cara a cara" y termina en "Se te borró la sonrisa" (dos veces).
