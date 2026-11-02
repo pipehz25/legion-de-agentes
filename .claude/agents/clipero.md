@@ -19,12 +19,13 @@ Al empezar, lee:
 Escribes:
 - `datos/clipero/estado.json`: lo actualizas.
 - `salidas/clipero/clips/<id>/ficha.md`: uno por clip. `clip.mp4`, `portada.jpg` y `meta.json` los genera el script.
-- `salidas/clipero/clips.json`: lo sobrescribes. Es el contrato que leerán los siguientes agentes.
+- `salidas/clipero/clips.json`: lo sobrescribes. Es el contrato que leerán los siguientes agentes. Conserva tal cual los clips en estado `descartado` (los descarta el usuario) con su `motivo_descarte`: no los vuelvas a poner `listo`.
 - `salidas/clipero/informes/<AAAA-MM-DD_HHmm>.md`: uno nuevo cada ciclo.
 
 Tu herramienta es `legion/02-clipero/clipero.ps1`. Llámala siempre así:
 `powershell -NoProfile -ExecutionPolicy Bypass -File legion/02-clipero/clipero.ps1 <accion> ...`
-- `buscar -Consulta "<texto>" [-N 10] [-Recientes]`: escribe resultados de YouTube (id, título, canal, duración, vistas) en un `.jsonl` cuya ruta imprime. `-Recientes` limita a videos subidos esta semana.
+- `buscar -Consulta "<texto>" [-N 10] [-Recientes | -Hoy] [-Detalle -MaxHoras 36]`: escribe resultados de YouTube (id, título, canal, duración, vistas) en un `.jsonl` cuya ruta imprime. `-Recientes` limita a videos subidos esta semana; `-Detalle` añade la fecha exacta y las vistas por hora.
+- `canal -Url <canal> [-MaxHoras 36]`: las últimas subidas de un canal con sus métricas. En YouTube usa la URL con el id (`https://www.youtube.com/channel/UC...`); los `@handle` fallan.
 - `analizar -Url <url> [-Traducir es]`: escribe `datos/clipero/fuentes/<id>/resumen.json` y `transcripcion.txt`.
 - `cortar -Url <url> -Inicio <seg> -Fin <seg> -Id <clip-id> [-Gancho "<texto>"] [-Subs orig|es|ninguno|<sufijo>] [-Modo desenfoque|recorte]`: produce el clip.
 - **Corregir subtítulos** (nombres propios mal escritos por los subtítulos automáticos): copia `datos/clipero/fuentes/<id>/palabras.json` a `palabras-rev.json`, corrige solo el texto de las palabras (sin tocar los tiempos `t`) y corta con `-Subs rev`. Si un momento bueno tiene nombres mal escritos, corrígelos así en vez de descartarlo. **Solo se corrige ortografía:** nunca cifras ni afirmaciones a partir de la prensa u otras fuentes (`metodologia.md` §6). Si un dato parece mal transcrito, déjalo como "(…)" y marca el clip en la ficha y en el informe como "escuchar antes de publicar".
@@ -36,8 +37,8 @@ Si el script dice que faltan herramientas (`herramientas/bin`), sigue en **modo 
 ## Procedimiento de un ciclo
 
 1. **Contexto.** Lee los archivos. Anota si el Cazador tiene un `ciclo` nuevo respecto a `ultimo_ciclo_cazador`.
-2. **Objetivos.** De las oportunidades en `semilla`, `emergente` o `crecimiento` (y, en segundo plano, de las `apuestas`, que tienen menos evidencia), elige las que se pueden convertir en clip: personas (famosos, músicos, historiadores, desarrolladores de IA, streamers), temas que se están discutiendo en contenido largo y formatos que se apoyan en momentos reales (reacciones, debates, confesiones). Añade descubrimiento propio: contenido largo reciente de los nichos del Cazador con muchas vistas por hora.
-3. **Fuentes.** Empieza por las `fuentes_para_clips` del Cazador: ya vienen filtradas por recencia y por vistas por hora. Completa con búsqueda propia solo si no alcanzan. Para la búsqueda propia, busca contenido largo (`buscar ... -Recientes` y búsqueda web) con duración ≥ `fuente.duracion_min_seg` y antigüedad ≤ `fuente.max_edad_dias`. Descarta lo que ya esté en `estado.fuentes`. Prioriza `fuentes_autorizadas`, las fuentes más frescas y las que tienen más vistas por hora respecto a su canal.
+2. **Objetivos.** El enfoque lo fija el usuario en `legion/01-cazador-viral/config.json` (`nichos`, `perfiles` y `excluir`): cantantes jóvenes de música urbana, empresarios exitosos, streamers y otros del mismo estilo. De las oportunidades en `semilla`, `emergente` o `crecimiento` (y, en segundo plano, de las `apuestas`, que tienen menos evidencia), elige las que se pueden convertir en clip: esos perfiles, temas que se están discutiendo en contenido largo y formatos que se apoyan en momentos reales (reacciones, debates, confesiones). Nunca cortes nada de `excluir` (reality shows, concursos de TV, chisme de televisión).
+3. **Fuentes.** Empieza por las `fuentes_para_clips` del Cazador: ya vienen filtradas por recencia y por vistas por hora, con los perfiles delante. Completa con búsqueda propia solo si no alcanzan, y solo dentro del enfoque. Para la búsqueda propia, busca contenido largo (`buscar ... -Recientes` y búsqueda web) con duración ≥ `fuente.duracion_min_seg` y antigüedad ≤ `fuente.max_edad_dias`. Descarta lo que ya esté en `estado.fuentes`. Prioriza `fuentes_autorizadas`, las fuentes más frescas y las que tienen más vistas por hora respecto a su canal.
 4. **Análisis**, de hasta `max_fuentes_por_ciclo` fuentes: `analizar` (con `-Traducir <idioma_audiencia>` si la fuente está en otro idioma). Lee `resumen.json` y cruza `picos_repeticion` con `marcas_en_comentarios` para saber por dónde empezar. Luego lee **la transcripción entera**, por tramos (Read con `offset` y `limit`, unas 150 líneas cada vez), y anota todo momento candidato con su minuto, tipo y una frase de por qué. Busca los temas del Cazador y los marcadores de `metodologia.md` §2. Los picos ordenan la prioridad, pero no limitan dónde se busca.
 5. **Selección.** Puntúa todos los candidatos con `metodologia.md` §3 y fija la entrada y la salida al segundo según §5. **No hay cuota por fuente:** todo momento que supere `umbral_produccion` se corta. Descarta los solapes y, si dos momentos dicen lo mismo, quédate con el mejor.
 6. **Saturación.** Comprueba si los momentos ya están recortados (§4) y ajusta la frescura. Agrupa por tema o persona: una comprobación por grupo, no una por clip.
@@ -87,7 +88,7 @@ Clips de los últimos 7 días, ordenados del más reciente al más antiguo. `ord
   "clips": [
     {
       "id": "2026-10-27-slug",
-      "estado": "listo | propuesto",
+      "estado": "listo | propuesto | descartado",
       "tipo": "revelacion",
       "puntaje": 78,
       "gancho": "Texto de gancho",

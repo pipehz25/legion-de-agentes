@@ -15,20 +15,29 @@
 
   "idioma_audiencia": "es",
   "nichos": [
-    "famosos y farándula",
-    "música y artistas",
-    "historia y cultura",
-    "inteligencia artificial y tecnología",
-    "creadores de contenido y streamers",
-    "humor y memes",
-    "general (cualquier contenido altamente viral)"
+    "música urbana: cantantes jóvenes",
+    "empresarios exitosos y emprendimiento",
+    "streamers y creadores"
+  ],
+  "_nichos": "Enfoque fijado por el usuario el 2026-11-01: contenido cool de estos perfiles y de otros del mismo estilo. Lo que no encaje aquí no se trae.",
+  "perfiles": {
+    "música urbana: cantantes jóvenes": ["Maluma", "J Balvin", "Kris R", "Blessd", "Ryan Castro"],
+    "empresarios exitosos y emprendimiento": ["Sebastián Suárez", "Santiago \"el de la X\"", "Diego Ramírez (RR Autos)"],
+    "streamers y creadores": ["Westcol"]
+  },
+  "_perfiles": "Lista del usuario. El Cazador resuelve sus cuentas y añade similares en datos/cazador-viral/perfiles.json.",
+  "max_similares_por_ciclo": 2,
+  "excluir": [
+    "reality shows y concursos de televisión (La Granja VIP, La Casa de los Famosos y similares) y todo lo que salga de ellos",
+    "chisme y farándula de televisión"
   ],
   "plataformas": ["tiktok", "youtube", "instagram", "facebook", "x", "twitch", "kick", "reddit"],
 
   "presupuesto_por_ciclo": {
     "busquedas_web": 20,
     "lecturas_web": 20,
-    "busquedas_youtube": 10,
+    "busquedas_youtube": 15,
+    "revisiones_de_canal": 20,
     "candidatos_a_descomponer": 12,
     "formatos_hibridos": 4
   },

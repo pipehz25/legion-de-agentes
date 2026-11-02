@@ -1,9 +1,14 @@
-# Herramienta del Clipero (Agente 02 de la Legion). Tres acciones:
+# Herramienta del Clipero (Agente 02 de la Legion). Cuatro acciones:
 #   buscar   -Consulta "<texto>" [-N 10] [-Recientes | -Hoy] [-Detalle [-MaxHoras 36]]
-#            -> datos/clipero/busquedas/<marca>.jsonl con videos candidatos (duracion, vistas, canal).
+#            -> datos/clipero/busquedas/<marca>.jsonl con videos candidatos (duracion, vistas, canal, channel_url).
 #               -Recientes: subidos esta semana. -Hoy: subidos hoy (filtros de YouTube, no siempre exactos).
 #               -Detalle: anade fecha exacta, likes, comentarios, horas_desde y vistas_por_hora (mas lento; maximo 10).
 #               -MaxHoras: con -Detalle, descarta lo publicado hace mas de esas horas.
+#   canal    -Url <canal> [-N 6] [-MaxHoras 36]
+#            -> datos/clipero/busquedas/<marca>-canal.jsonl con las ultimas subidas del canal, con las metricas de -Detalle.
+#               YouTube: URL con el id del canal (https://www.youtube.com/channel/UC...; los @handle fallan en yt-dlp),
+#               revisa las pestanas de videos y de directos. Kick: https://kick.com/<canal>/videos (sin subtitulos).
+#               -N: subidas que se miran por pestana (maximo 10).
 #   analizar -Url <url> [-Traducir es]
 #            -> datos/clipero/fuentes/<id>/: resumen.json (picos de "mas repetido", marcas de tiempo en comentarios,
 #               capitulos), transcripcion.txt y palabras*.json (palabras con tiempo, para subtitular)
@@ -13,7 +18,7 @@
 # Requiere herramientas/bin (yt-dlp, ffmpeg, deno): powershell -NoProfile -ExecutionPolicy Bypass -File herramientas/instalar.ps1
 
 param(
-    [Parameter(Mandatory = $true, Position = 0)][ValidateSet('buscar', 'analizar', 'cortar')][string]$Accion,
+    [Parameter(Mandatory = $true, Position = 0)][ValidateSet('buscar', 'canal', 'analizar', 'cortar')][string]$Accion,
     [string]$Consulta,
     [int]$N = 10,
     [switch]$Recientes,
@@ -176,6 +181,24 @@ function Normalizar([string]$entrada) {
     $res
 }
 
+# Campos de la extraccion completa (buscar -Detalle y canal)
+$camposDetalle = '%(.{id,title,channel,channel_url,channel_follower_count,duration,view_count,like_count,comment_count,timestamp,live_status,webpage_url})j'
+
+# Anade horas desde la publicacion y vistas por hora, descarta lo que pase de -MaxHoras y ordena por vistas por hora
+function Medir([string]$archivo) {
+    $ahora = [DateTimeOffset]::UtcNow.ToUnixTimeSeconds()
+    $filas = foreach ($linea in [IO.File]::ReadAllLines($archivo, $utf8)) {
+        $r = $linea | ConvertFrom-Json
+        $horas = if ($r.timestamp) { [math]::Max(1.0, [math]::Round(($ahora - [double]$r.timestamp) / 3600, 1)) } else { $null }
+        $r | Add-Member -NotePropertyName horas_desde -NotePropertyValue $horas
+        $r | Add-Member -NotePropertyName vistas_por_hora -NotePropertyValue $(if ($horas -and $r.view_count) { [long]($r.view_count / $horas) } else { $null })
+        $r
+    }
+    # Los filtros de fecha de YouTube no son fiables (a veces cuelan videos de hace anos): -MaxHoras descarta por fecha real
+    if ($MaxHoras -gt 0) { $filas = @($filas | Where-Object { $_.horas_desde -and $_.horas_desde -le $MaxHoras }) }
+    [IO.File]::WriteAllLines($archivo, [string[]]@($filas | Sort-Object { [double]$_.vistas_por_hora } -Descending | ForEach-Object { $_ | ConvertTo-Json -Compress }), $utf8)
+}
+
 # ---------------------------------------------------------------- buscar
 if ($Accion -eq 'buscar') {
     if (-not $Consulta) { throw 'Falta -Consulta' }
@@ -190,27 +213,57 @@ if ($Accion -eq 'buscar') {
         # Extraccion completa de cada resultado (unos 8 s por video): trae fecha exacta y metricas.
         # Con muchos resultados se va a varios minutos, asi que se limita a 10.
         if ($N -gt 10) { $N = 10 }
-        $campos = '%(.{id,title,channel,channel_follower_count,duration,view_count,like_count,comment_count,timestamp,live_status,webpage_url})j'
-        & $ytdlp --quiet --no-warnings --socket-timeout 30 --ignore-errors --skip-download --playlist-end "$N" --print-to-file $campos $archivo $objetivo
+        & $ytdlp --quiet --no-warnings --socket-timeout 30 --ignore-errors --skip-download --playlist-end "$N" --print-to-file $camposDetalle $archivo $objetivo
     } else {
-        YtDlp @('--flat-playlist', '--skip-download', '--playlist-end', "$N", '--print-to-file', '%(.{id,title,channel,duration,view_count,live_status,url})j', $archivo, $objetivo)
+        YtDlp @('--flat-playlist', '--skip-download', '--playlist-end', "$N", '--print-to-file', '%(.{id,title,channel,channel_url,duration,view_count,live_status,url})j', $archivo, $objetivo)
     }
     if (-not (Test-Path $archivo)) { "Busqueda: sin resultados ($Consulta)"; exit 0 }
-    if ($Detalle) {
-        # Anade horas desde la publicacion y vistas por hora, y ordena por vistas por hora
-        $ahora = [DateTimeOffset]::UtcNow.ToUnixTimeSeconds()
-        $filas = foreach ($linea in [IO.File]::ReadAllLines($archivo, $utf8)) {
-            $r = $linea | ConvertFrom-Json
-            $horas = if ($r.timestamp) { [math]::Max(1.0, [math]::Round(($ahora - [double]$r.timestamp) / 3600, 1)) } else { $null }
-            $r | Add-Member -NotePropertyName horas_desde -NotePropertyValue $horas
-            $r | Add-Member -NotePropertyName vistas_por_hora -NotePropertyValue $(if ($horas -and $r.view_count) { [long]($r.view_count / $horas) } else { $null })
-            $r
-        }
-        # Los filtros de fecha de YouTube no son fiables (a veces cuelan videos de hace anos): -MaxHoras descarta por fecha real
-        if ($MaxHoras -gt 0) { $filas = @($filas | Where-Object { $_.horas_desde -and $_.horas_desde -le $MaxHoras }) }
-        [IO.File]::WriteAllLines($archivo, [string[]]@($filas | Sort-Object { [double]$_.vistas_por_hora } -Descending | ForEach-Object { $_ | ConvertTo-Json -Compress }), $utf8)
-    }
+    if ($Detalle) { Medir $archivo }
     "Busqueda: $(Relativa $archivo) ($(@([IO.File]::ReadAllLines($archivo)).Count) resultados)"
+    exit 0
+}
+
+# ---------------------------------------------------------------- canal
+if ($Accion -eq 'canal') {
+    if (-not $Url) { throw 'Falta -Url' }
+    if (-not $PSBoundParameters.ContainsKey('N')) { $N = 6 }
+    if ($N -gt 10) { $N = 10 }
+    $dir = Join-Path $raiz 'datos\clipero\busquedas'
+    New-Item -ItemType Directory -Force $dir | Out-Null
+    $archivo = Join-Path $dir ((Get-Date -Format 'yyyy-MM-dd_HHmmss') + '-canal.jsonl')
+    $limpia = ($Url -replace '[?#].*$', '').TrimEnd('/')
+    $listas = @($limpia)
+    if ($limpia -match 'youtube\.com/') {
+        $limpia = $limpia -replace '/(videos|streams|shorts|featured|podcasts|live)$', ''
+        $listas = @("$limpia/videos", "$limpia/streams")
+    }
+    # 1. Lista rapida de las ultimas subidas. En YouTube la fecha es aproximada (al dia), de ahi el margen de 48 h;
+    #    la fecha exacta sale de la extraccion completa del paso 2.
+    $ahora = [DateTimeOffset]::UtcNow.ToUnixTimeSeconds()
+    $margen = if ($MaxHoras -gt 0) { $MaxHoras + 48 } else { 0 }
+    $candidatos = New-Object Collections.Generic.List[string]
+    # Un canal sin pestana de directos hace fallar esa lista: se ignora sin cortar el script
+    $ErrorActionPreference = 'Continue'
+    foreach ($lista in $listas) {
+        $lineas = & $ytdlp --quiet --no-warnings --socket-timeout 30 --flat-playlist --playlist-end "$N" `
+            --extractor-args 'youtubetab:approximate_date' --print '%(timestamp)s %(url)s' $lista 2>$null
+        foreach ($l in @($lineas)) {
+            $p = "$l" -split ' ', 2
+            if ($p.Count -lt 2 -or $p[1] -notmatch '^https?://') { continue }
+            $ts = 0.0
+            $conFecha = [double]::TryParse($p[0], [Globalization.NumberStyles]::Float, $cultura, [ref]$ts)
+            if ($margen -gt 0 -and $conFecha -and (($ahora - $ts) / 3600) -gt $margen) { continue }
+            $u = $p[1] -replace '#__youtubedl_smuggle.*$', ''
+            if (-not $candidatos.Contains($u)) { $candidatos.Add($u) }
+        }
+    }
+    $ErrorActionPreference = 'Stop'
+    if ($candidatos.Count -eq 0) { "Canal: sin subidas recientes ($Url)"; exit 0 }
+    # 2. Extraccion completa de las candidatas: fecha exacta y metricas
+    & $ytdlp --quiet --no-warnings --socket-timeout 30 --ignore-errors --skip-download --print-to-file $camposDetalle $archivo @($candidatos)
+    if (-not (Test-Path $archivo)) { "Canal: sin datos de las subidas ($Url)"; exit 0 }
+    Medir $archivo
+    "Canal: $(Relativa $archivo) ($(@([IO.File]::ReadAllLines($archivo)).Count) subidas)"
     exit 0
 }
 

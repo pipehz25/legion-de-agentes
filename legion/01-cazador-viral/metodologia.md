@@ -121,3 +121,5 @@ Reglas de cruce:
 ## 8. Exclusiones
 
 No se recomiendan nunca: retos con riesgo físico, contenido que explote tragedias o víctimas reales, desinformación, acoso, discurso de odio ni nada que implique suplantar a una persona.
+
+Tampoco lo que el usuario excluye por gusto (`config.excluir`): reality shows y concursos de televisión (La Granja VIP, La Casa de los Famosos y similares) y el chisme de televisión. El enfoque es contenido cool de cantantes jóvenes de música urbana, empresarios exitosos y streamers (`config.perfiles`) y de otros del mismo estilo.
