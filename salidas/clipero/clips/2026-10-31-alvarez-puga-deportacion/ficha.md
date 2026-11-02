@@ -1,6 +1,6 @@
 # 2026-10-31-alvarez-puga-deportacion
 
-- **Estado:** listo · **Tipo:** `revelacion` · **Puntaje:** 76/100 · **Orden en la fuente:** 1
+- **Estado:** descartado por el usuario (2026-11-02) · **Tipo:** `revelacion` · **Puntaje:** 76/100 · **Orden en la fuente:** 1
 - **Archivo:** `salidas/clipero/clips/2026-10-31-alvarez-puga-deportacion/clip.mp4` (60,5 s, 1080x1920, modo `desenfoque`, subtítulos `rev` en español)
 - **Gancho en pantalla:** "Álvarez Puga: ¿deportación o extradición?"
 - **Corte:** 2:12:35 → 2:13:36 (7955,77 s → 8016,22 s). Empieza en "A mediados de octubre, Álvarez Puga fue detenido por autoridades migratorias en Miami" y termina en "…para la detención provisional con fines de extradición".

@@ -252,7 +252,7 @@
                   },
                   {
                       "id":  "2026-10-31-alvarez-puga-deportacion",
-                      "estado":  "listo",
+                      "estado":  "descartado",
                       "tipo":  "revelacion",
                       "puntaje":  76,
                       "gancho":  "Álvarez Puga: ¿deportación o extradición?",
@@ -273,11 +273,12 @@
                                           "instagram",
                                           "youtube"
                                       ],
-                      "ventana_hasta":  "2026-11-02"
+                      "ventana_hasta":  "2026-11-02",
+                      "motivo_descarte":  "El usuario descarta los clips de Inés Gómez Mont el 2026-11-02: no encajan con el enfoque nuevo."
                   },
                   {
                       "id":  "2026-10-31-gomez-mont-amparo-cuentas",
-                      "estado":  "listo",
+                      "estado":  "descartado",
                       "tipo":  "revelacion",
                       "puntaje":  75,
                       "gancho":  "¿Por qué les descongelaron las cuentas en 2025?",
@@ -298,7 +299,8 @@
                                           "instagram",
                                           "youtube"
                                       ],
-                      "ventana_hasta":  "2026-11-02"
+                      "ventana_hasta":  "2026-11-02",
+                      "motivo_descarte":  "El usuario descarta los clips de Inés Gómez Mont el 2026-11-02: no encajan con el enfoque nuevo."
                   },
                   {
                       "id":  "2026-10-31-granja-bebeshita-votos-kevyn",

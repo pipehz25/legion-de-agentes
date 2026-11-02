@@ -1,6 +1,6 @@
 # 2026-10-31-gomez-mont-amparo-cuentas
 
-- **Estado:** listo · **Tipo:** `revelacion` · **Puntaje:** 75/100 · **Orden en la fuente:** 2
+- **Estado:** descartado por el usuario (2026-11-02) · **Tipo:** `revelacion` · **Puntaje:** 75/100 · **Orden en la fuente:** 2
 - **Archivo:** `salidas/clipero/clips/2026-10-31-gomez-mont-amparo-cuentas/clip.mp4` (53,7 s, 1080x1920, modo `desenfoque`, subtítulos `rev` en español)
 - **Gancho en pantalla:** "¿Por qué les descongelaron las cuentas en 2025?"
 - **Corte:** 2:09:34 → 2:10:28 (7774,33 s → 7827,98 s). Empieza en "Las autoridades mexicanas imputan a Álvarez Puga delitos de…" y termina en "…para que siguieran haciendo uso del sistema financiero".
