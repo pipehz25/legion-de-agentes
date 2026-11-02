@@ -1,0 +1,250 @@
+{
+  "actualizado": "2026-11-01T23:20:00-05:00",
+  "notas": [
+    "Creado en el ciclo 3 (2026-11-01) con la lista del usuario (config.perfiles). Los @handle de YouTube fallan en yt-dlp: usa siempre el channel_url con id UC....",
+    "Las redes sociales (Instagram, TikTok, X) de los cantantes no se verificaron en este ciclo, por falta de presupuesto web. Quedan en null, no se adivinan. Los Instagram de los tres empresarios los confirmó el usuario el 01-nov (vía orquestador): @rrautosdiego, @sospinagu y @sebastiansuaarez0. Instagram se lee con WebFetch sin iniciar sesión (nombre, bio, seguidores y enlaces), pero el Clipero no puede transcribirlo.",
+    "Candidatos a similares para próximos ciclos (máximo 2 por ciclo): Ovy On The Drums / W Sound, el proyecto musical de Westcol ('Happy Monday - W Sound 10', #4 en Spotify CO con 172.173 reproducciones el 31-oct; W Sound 09 con J Balvin; W Sound 08 'Pico y Chao' con Kris R; productor de 'AMISTA' de Blessd). También Daren Ramirez (canal de negocios que entrevista a Diego RR Autos) y David Vélez (fundador de Nubank, entrevistado por Westcol hace ~31 días)."
+  ],
+  "perfiles": [
+    {
+      "nombre": "Maluma",
+      "nicho": "música urbana: cantantes jóvenes",
+      "origen": "usuario",
+      "estado": "resuelto",
+      "cuentas": {
+        "youtube": "https://www.youtube.com/channel/UClZuKq2m0Qu-HkopkSBLpEw",
+        "kick": null, "twitch": null, "instagram": null, "tiktok": null, "x": null
+      },
+      "canales_relacionados": [],
+      "verificacion": "La búsqueda de YouTube 'Maluma' (01-nov) devuelve este canal con sus videos oficiales: 'Felices los 4' (1.995 M de vistas), 'Hawái' (1.239 M) y 'Borro Cassette' (1.380 M).",
+      "candidatos": [],
+      "evidencia_similar": null,
+      "ultima_revision": "2026-11-01T22:53:00-05:00",
+      "ultimas_subidas": [],
+      "nota": "Sin subidas en 36 h. La última es 'Maluma, Shakira - WATER (Official Lyric Video)', de hace unas 148 h (fecha aproximada al día). En la búsqueda de apariciones de hoy solo salen recopilaciones musicales de terceros, excluidas por derechos.",
+      "apariciones_en_ventana": []
+    },
+    {
+      "nombre": "J Balvin",
+      "nicho": "música urbana: cantantes jóvenes",
+      "origen": "usuario",
+      "estado": "resuelto",
+      "cuentas": {
+        "youtube": "https://www.youtube.com/channel/UCt-k6JwNWHMXDBGm9IYHdsg",
+        "kick": null, "twitch": null, "instagram": null, "tiktok": null, "x": null
+      },
+      "canales_relacionados": [],
+      "verificacion": "La búsqueda de YouTube 'J Balvin' (01-nov) devuelve este canal con sus videos oficiales: 'Ay Vamos' (2.290 M de vistas), '6 AM' (1.334 M) y 'Safari' (1.420 M).",
+      "candidatos": [],
+      "evidencia_similar": null,
+      "ultima_revision": "2026-11-01T22:53:00-05:00",
+      "ultimas_subidas": [],
+      "nota": "Sin subidas en 36 h. En la búsqueda de apariciones de hoy solo salen mixes y videos con letra de terceros, excluidos. Está en el W Sound 09 ('Godzila') con Westcol y Ovy On The Drums.",
+      "apariciones_en_ventana": []
+    },
+    {
+      "nombre": "Kris R",
+      "nicho": "música urbana: cantantes jóvenes",
+      "origen": "usuario",
+      "estado": "resuelto",
+      "cuentas": {
+        "youtube": "https://www.youtube.com/channel/UCRfKDfw9XjSLHTBd8hokHig",
+        "kick": null, "twitch": null, "instagram": null, "tiktok": null, "x": null
+      },
+      "canales_relacionados": [
+        { "url": "https://www.youtube.com/channel/UC9Dnd_dOuWUSQCSizmGpWDw", "que_es": "Sinvergüenza Podcast by Kerry Kambell. Lo entrevistó ('Kris R Rompe el Silencio', 711 K vistas). Ojo: también entrevista a personajes de realities (excluidos)" }
+      ],
+      "verificacion": "La búsqueda de YouTube 'Kris R cantante' (01-nov) devuelve el canal 'Kris R.' con sus videos oficiales: 'GANAS' (50,5 M), 'GAMINA' (30,3 M) y '4LIFE' (12,9 M). 'GAMINA' es #7 en Spotify Colombia (kworb, 31-oct).",
+      "candidatos": [],
+      "evidencia_similar": null,
+      "ultima_revision": "2026-11-01T22:53:00-05:00",
+      "ultimas_subidas": [],
+      "nota": "Sin subidas en 36 h. La búsqueda de apariciones de la semana no devolvió nada dentro de las 36 h. Solo hay un podcast pequeño que habla de un concierto suyo.",
+      "apariciones_en_ventana": [
+        { "url": "https://www.youtube.com/watch?v=hSV5nuZ5w_I", "titulo": "KRIS R y el TRAP DE BOGOTÁ: crítica al CONCIERTO y lo que pasó en el BACKSTAGE", "canal": "ElWerik Podcast", "publicado": "2026-10-31T21:09:49-05:00", "vistas": 2, "nota": "Se habla de él; no aparece" }
+      ]
+    },
+    {
+      "nombre": "Blessd",
+      "nicho": "música urbana: cantantes jóvenes",
+      "origen": "usuario",
+      "estado": "resuelto",
+      "cuentas": {
+        "youtube": "https://www.youtube.com/channel/UCb164jMdHd94O34bASFbI3Q",
+        "kick": null, "twitch": null, "instagram": null, "tiktok": null, "x": null
+      },
+      "canales_relacionados": [
+        { "url": "https://www.youtube.com/channel/UCv0P1cZBruDfD2JaNhR_9MQ", "que_es": "Yeison guardo: vlogs de viaje con Blessd desde su círculo cercano (19,8 K suscriptores)" }
+      ],
+      "verificacion": "La búsqueda de YouTube 'Blessd' (01-nov) devuelve el canal 'SIEMPRE BLESSD 💙' con sus videos oficiales: 'YOGURCITO' (193 M), 'SUPERSTAR' (77,5 M) y 'MERO TOTE' (40,1 M). Tiene 5 canciones en el top 40 de Spotify Colombia (kworb, 31-oct).",
+      "candidatos": [],
+      "evidencia_similar": null,
+      "ultima_revision": "2026-11-01T22:54:00-05:00",
+      "ultimas_subidas": [],
+      "nota": "Sin subidas en 36 h. La búsqueda 'Blessd' mezcla resultados religiosos en inglés ('blessed'); conviene probar con 'Blessd entrevista' o 'Blessd podcast'.",
+      "apariciones_en_ventana": [
+        { "url": "https://www.youtube.com/watch?v=tLTcYKphXdw", "titulo": "Viajando con blessd🔹", "canal": "Yeison guardo", "publicado": "2026-11-01T13:22:01-05:00", "vistas": 14298 }
+      ]
+    },
+    {
+      "nombre": "Ryan Castro",
+      "nicho": "música urbana: cantantes jóvenes",
+      "origen": "usuario",
+      "estado": "resuelto",
+      "cuentas": {
+        "youtube": "https://www.youtube.com/channel/UCU4Zw6BTodIqGYUpvlaLD5A",
+        "kick": null, "twitch": null, "instagram": null, "tiktok": null, "x": null
+      },
+      "canales_relacionados": [],
+      "verificacion": "La búsqueda de YouTube 'Ryan Castro' (01-nov) devuelve este canal con sus videos oficiales: 'Monastery' con Feid (575 M), 'EL RITMO QUE NOS UNE' (193 M) y 'HOPI SENDÉ (Live Session - Medellín, Comuna 13) [2026]'.",
+      "candidatos": [],
+      "evidencia_similar": null,
+      "ultima_revision": "2026-11-01T22:54:00-05:00",
+      "ultimas_subidas": [],
+      "nota": "Sin subidas en 36 h en su canal. El 31-oct dio el concierto Awooween en El Campín (agotado en una hora; Feid de invitado según El Heraldo): salen recortes y vlogs de fans.",
+      "apariciones_en_ventana": [
+        { "url": "https://www.youtube.com/watch?v=Z1VUghXaEIM", "titulo": "Concierto Ryan Castro | 31 de Octubre 2026 | Estadio El Campín Bogotá | Awooween (4K)", "canal": "La Vuelta Reacciones", "publicado": "2026-11-01T11:00:16-05:00", "vistas": 12427 },
+        { "url": "https://www.youtube.com/watch?v=GBvB5F-zSMc", "titulo": "Una marca me invitó al concierto de Ryan Castro… Terminé viviendo una noche INCREÍBLE con el Tio 😳🔥", "canal": "Danigoals", "publicado": "2026-11-01T21:52:14-05:00", "vistas": 25 }
+      ]
+    },
+    {
+      "nombre": "Sebastián Suárez",
+      "nicho": "empresarios exitosos y emprendimiento",
+      "origen": "usuario",
+      "estado": "resuelto",
+      "cuentas": {
+        "youtube": null, "kick": null, "twitch": null,
+        "instagram": "https://www.instagram.com/sebastiansuaarez0",
+        "tiktok": null, "x": null
+      },
+      "canales_relacionados": [
+        { "url": "https://www.instagram.com/somosblim", "que_es": "BLIM, la marca que cita en su bio ('Construyendo marcas que inspiran bienestar, energía y propósito. @somosblim')" },
+        { "url": "https://www.youtube.com/watch?v=AAzUKGGI1GQ", "que_es": "Entrevista probable: 'PODCAST #17 FARID NAFFAH - SEBASTIAN SUAREZ CEO BLIX' (132 min, 7.223 vistas). Es probable que 'BLIX' sea BLIM mal escrito; sin confirmar" },
+        { "url": "https://www.youtube.com/watch?v=TUr9ZTYV3NY", "que_es": "Entrevista posible: 'Millonario a los 23 Años - Hablemos Podcast con Sebastian Suarez (parte 2)' (88 min, 3.713 vistas); sin confirmar que sea él" }
+      ],
+      "verificacion": "Instagram @sebastiansuaarez0 confirmado por el usuario (01-nov), verificado, con 394 K seguidores y bio 'Empresario multisectorial 🚀 13 años Construyendo marcas que inspiran bienestar, energía y propósito. @somosblim'. La bio no enlaza a YouTube, Kick, TikTok ni X. El canal de YouTube 'Sebastián Suarez' (UCBxGljmjoVOM6CcXVcyQsWw) es de un cantante de covers de Michael Jackson: es otra persona, no usar.",
+      "candidatos": [],
+      "evidencia_similar": null,
+      "ultima_revision": "2026-11-01T23:20:00-05:00",
+      "ultimas_subidas": [],
+      "nota": "No se le encontró canal propio de YouTube ni Kick: publica en Instagram, de donde el Clipero no puede transcribir. Para clips, vigilar sus entrevistas en podcasts. En la web no aparece nada sobre BLIM ni @somosblim.",
+      "apariciones_en_ventana": []
+    },
+    {
+      "nombre": "Santiago Ospina (\"el de la X\": XHobbies)",
+      "nicho": "empresarios exitosos y emprendimiento",
+      "origen": "usuario",
+      "estado": "resuelto",
+      "cuentas": {
+        "youtube": "https://www.youtube.com/channel/UCB6mKhj6nBrBnUB0D6EHGUg",
+        "kick": null, "twitch": null,
+        "instagram": "https://www.instagram.com/sospinagu",
+        "tiktok": null, "x": null
+      },
+      "canales_relacionados": [
+        { "url": "https://www.threads.net/@sospinagu", "que_es": "Threads, enlazado en su bio de Instagram" },
+        { "url": "https://www.youtube.com/channel/UC4F5DXjfkTXNBqbscRFVIEA", "que_es": "¿Cómo fue? Podcast: entrevista a empresarios (episodios con 'Santiago Ospina y Pedro Estrada (Pdte. Grupo Excala)' y con Alcides Gutiérrez, CEO de Don Alcides). Parece ser su podcast como anfitrión, sin confirmar" },
+        { "url": "https://www.youtube.com/watch?v=boEBT1jnqTE", "que_es": "Aparición: '#08 Sigo Firme Porque Amo mi País - Santiago Ospina (X Hobbies)' en Camino al Éxito (75 min, 107.560 vistas)" },
+        { "url": "https://www.youtube.com/watch?v=863Hl3OJ1S8", "que_es": "Aparición: 'El mundo de los negocios es bien cabrón | Santiago Ospina | Conversaciones Incómodas' (70 min, 2.447 vistas)" }
+      ],
+      "verificacion": "Instagram @sospinagu confirmado por el usuario (01-nov): Santiago Ospina Gutierrez, verificado, 359 K seguidores, bio 'Empresario multisectorial, papá y esposo / ING CIVIL / Construyo edificios, casas de lujo, marcas y sueños'. La 'X' es XHobbies: el canal de YouTube 'Santi Ospina' (UCB6mKhj6nBrBnUB0D6EHGUg) publica '¿QUÉ PASÓ CON XHOBBIES? | SOSPINAGU' (93 min), con su mismo @, y Camino al Éxito lo presenta como 'Santiago Ospina (X Hobbies)'.",
+      "candidatos": [],
+      "evidencia_similar": null,
+      "ultima_revision": "2026-11-01T23:20:00-05:00",
+      "ultimas_subidas": [],
+      "nota": "Sin subidas en 36 h en 'Santi Ospina' ni en '¿Cómo fue? Podcast', y la búsqueda de apariciones de la semana ('Santiago Ospina', -Recientes, 36 h) no devolvió nada. 'Santi Ospina' está poco activo: sus últimas subidas son de alrededor del 02-jul-2026 (fecha aproximada), con 56-517 vistas ('A day creating content for BANGK', una charla en la FERIA DIGITALEX y un tour de una casa de lujo en obra en Las Palmas). Publica sobre todo en Instagram. No se encontró Kick, TikTok ni X.",
+      "apariciones_en_ventana": []
+    },
+    {
+      "nombre": "Diego Ramírez (RR Autos)",
+      "nicho": "empresarios exitosos y emprendimiento",
+      "origen": "usuario",
+      "estado": "resuelto",
+      "cuentas": {
+        "youtube": "https://www.youtube.com/channel/UC3JF4k7TkzvlH9eDnc4f6_A",
+        "kick": null, "twitch": null,
+        "instagram": "https://www.instagram.com/rrautosdiego",
+        "tiktok": null, "x": null
+      },
+      "canales_relacionados": [
+        { "url": "https://www.instagram.com/rrautos", "que_es": "Instagram del concesionario RR AUTOS (su bio dice 'CEO @rrautos @rrprestigevip @diegorrautos')" },
+        { "url": "https://www.instagram.com/diegorrautos", "que_es": "Segunda cuenta de Instagram que aparece en su bio" },
+        { "url": "https://www.instagram.com/rrprestigevip", "que_es": "RR Prestige VIP, otra marca suya según su bio" },
+        { "url": "https://www.tiktok.com/@rrautoscol", "que_es": "TikTok del concesionario (enlazado en https://bio.site/rrautos)" },
+        { "url": "https://www.youtube.com/channel/UCXte58NqATmb7rfuEwLgLew", "que_es": "Daren Ramirez: lo entrevista en un Rolls-Royce ('así nació RR AUTOS', 17.735 vistas)" },
+        { "url": "https://www.youtube.com/channel/UC1Fhl5pCoQbzI6gLuGx8jOg", "que_es": "La Escuela De Los Audaces: podcast de negocios ('El secreto de RR Autos', 66.272 vistas)" },
+        { "url": "https://www.youtube.com/channel/UCLO0dqi1_XNLkD6biwi-iOw", "que_es": "Westconsin, clips de Westcol: 'DIEGO DE RR ME ROBÓ?' (172.707 vistas) y Diego hablando de negocios en la mansión de los streamers" }
+      ],
+      "verificacion": "Instagram @rrautosdiego confirmado por el usuario (01-nov), verificado, con 113 K seguidores y bio 'CEO @rrautos @rrprestigevip @diegorrautos'. El canal 'Diego RR AUTOS' publica entregas de autos de lujo (Lamborghini Temerario 2027), el 'PODCAST RR AUTOS' y contenido del concesionario. Los clips de Westcol lo llaman 'Diego de RR Autos', y RR AUTOS tiene tienda oficial en Mercado Libre con sede en El Poblado, Medellín (bio.site/rrautos). No se encontró Kick, X ni TikTok personal.",
+      "candidatos": [],
+      "evidencia_similar": null,
+      "ultima_revision": "2026-11-01T22:55:00-05:00",
+      "ultimas_subidas": [],
+      "nota": "Sin subidas en 36 h. La búsqueda de apariciones de la semana ('RR Autos Diego') no devolvió nada dentro de las 36 h. Su vínculo con Westcol (mansión de streamers) hace que sus apariciones suelan llegar por los canales de clips de Westcol.",
+      "apariciones_en_ventana": []
+    },
+    {
+      "nombre": "Westcol",
+      "nicho": "streamers y creadores",
+      "origen": "usuario",
+      "estado": "resuelto",
+      "cuentas": {
+        "youtube": "https://www.youtube.com/channel/UCEg_iK8FKwZfpRMn4-AnnnQ",
+        "kick": "https://kick.com/westcol/videos",
+        "twitch": null, "instagram": null, "tiktok": null, "x": null
+      },
+      "canales_relacionados": [
+        { "url": "https://www.youtube.com/channel/UCB5rTP4yAattbdxABS59TMg", "que_es": "WestClips: canal de clips de sus directos" },
+        { "url": "https://www.youtube.com/channel/UCLO0dqi1_XNLkD6biwi-iOw", "que_es": "Westconsin: cortes largos de sus directos (títulos traducidos al inglés). Última subida hace unos 31 días: la entrevista a David Vélez, fundador de Nubank" },
+        { "url": "https://www.youtube.com/channel/UCg34cRW43lvPkMGfj8TLpjA", "que_es": "Westcol Clips: solo Shorts" }
+      ],
+      "verificacion": "Pistas verificadas por el orquestador (2026-11-01): WestCOL es el canal oficial, donde sube directos completos, y kick.com/westcol es su Kick.",
+      "candidatos": [],
+      "evidencia_similar": null,
+      "ultima_revision": "2026-11-01T22:52:00-05:00",
+      "ultimas_subidas": [],
+      "nota": "Sin subidas en 36 h en YouTube, en Kick, en WestClips ni en Westconsin. Según el orquestador, su último directo en Kick fue hace unos 9 días (viaje por España). Hay una polémica activa por la muerte del streamer Komanche (videos de Green Space, 4.654 vistas/h); queda excluida por regla, porque explota una tragedia y acusaciones de abuso.",
+      "apariciones_en_ventana": []
+    },
+    {
+      "nombre": "Feid",
+      "nicho": "música urbana: cantantes jóvenes",
+      "origen": "similar",
+      "estado": "sin_resolver",
+      "cuentas": { "youtube": null, "kick": null, "twitch": null, "instagram": null, "tiktok": null, "x": null },
+      "canales_relacionados": [],
+      "verificacion": "Añadido el 01-nov. Falta resolver su canal: no quedaban búsquedas de YouTube en el presupuesto del ciclo. Para el próximo: buscar -Consulta 'Feid'.",
+      "candidatos": [],
+      "evidencia_similar": "Fue invitado en el Awooween de Ryan Castro el 31-oct ([El Heraldo](https://www.elheraldo.co/sociedad/ryan-castro-prende-todas-las-radios-en-su-concierto-en-bogota-con-feid-de-invitado-1124249)). Colabora con los perfiles: 'Mentira' con Ryan Castro (#91 en Spotify CO) y '+57' con Blessd, Ryan Castro y J Balvin (#98). 'PARADIXE' es #2 en Spotify Colombia con 352.409 reproducciones diarias (https://kworb.net/spotify/country/co_daily.html, 31-oct).",
+      "ultima_revision": null,
+      "ultimas_subidas": [],
+      "apariciones_en_ventana": []
+    },
+    {
+      "nombre": "The Chanty",
+      "nicho": "streamers y creadores",
+      "origen": "similar",
+      "estado": "resuelto",
+      "cuentas": {
+        "youtube": "https://www.youtube.com/channel/UCF49OdFMVm6LIFXsIgwJpuw",
+        "kick": "https://kick.com/chanty",
+        "twitch": null,
+        "instagram": "https://www.instagram.com/elchantyy",
+        "tiktok": "https://www.tiktok.com/@elchantyyyyy",
+        "x": null
+      },
+      "canales_relacionados": [],
+      "verificacion": "Enlaces tomados de la descripción de su video del 01-nov (https://www.youtube.com/watch?v=1TF93cD11g0), con Kick, Instagram, TikTok y Facebook (https://www.facebook.com/Elchantyyt).",
+      "candidatos": [],
+      "evidencia_similar": "Streamer de Kick de Medellín (240 K suscriptores en YouTube). Apareció en la búsqueda 'Westcol' del 01-nov. En 36 h subió 4 videos largos, dos de ellos disfrazado de Blessd y Ryan Castro ('LA GANGA REACCIONA A NUESTRO DISFRAZ DE BLESSD Y RYAN', 29.212 vistas, https://www.youtube.com/watch?v=iX4hG7rkl-M), y su fiesta de disfraces va a 2.364 vistas/h.",
+      "ultima_revision": "2026-11-01T23:04:00-05:00",
+      "ultimas_subidas": [
+        { "url": "https://www.youtube.com/watch?v=1TF93cD11g0", "titulo": "FIESTA DE DISFRACES COMO JUSTIN BIEBER", "publicado": "2026-11-01T12:40:55-05:00", "vistas": 24584 },
+        { "url": "https://www.youtube.com/watch?v=XkKa6tuUFJ4", "titulo": "CONCURSO DE DISFRACES SE SALE DE CONTROL EN MEDELLÍN", "publicado": "2026-10-31T12:19:58-05:00", "vistas": 33016 },
+        { "url": "https://www.youtube.com/watch?v=iX4hG7rkl-M", "titulo": "LA GANGA REACCIONA A NUESTRO DISFRAZ DE BLESSD Y RYAN", "publicado": "2026-10-31T11:05:06-05:00", "vistas": 29212 },
+        { "url": "https://www.youtube.com/watch?v=zRs0PqfAeWs", "titulo": "IRL EN PROVENZA DISFRAZADOS DE RYAN CASTRO Y BLESSD", "publicado": "2026-10-31T11:42:40-05:00", "vistas": 11090 }
+      ],
+      "apariciones_en_ventana": []
+    }
+  ]
+}

@@ -1,88 +1,1168 @@
 {
-  "actualizado": "2026-10-31T01:40:00-05:00",
-  "notas": [
-    "Patrones retirados de patrones.json. La regla general es archivar tras más de 14 días en 'quemado'; en el ciclo 2 se archivaron antes, por instrucción del orquestador, los temas de actualidad cuya ventana de 24-72 h ya había vencido y que salieron de todas las listas del recolector.",
-    "Si alguno vuelve a aparecer (aniversario, nostalgia o noticia nueva), se reabre con el mismo id y se copia aquí su historial."
-  ],
-  "patrones": [
-    {
-      "id": "tema-jay-z-super-bowl-lxi",
-      "nombre": "Jay-Z, cabeza de cartel del medio tiempo del Super Bowl LXI",
-      "tipo": "tema",
-      "descripcion": "La NFL anuncia a Jay-Z como cabeza de cartel del medio tiempo del Super Bowl LXI (SoFi Stadium, febrero de 2027). Polémica porque 'se eligió a sí mismo': Roc Nation produce el show.",
-      "plataformas": ["x", "tiktok", "youtube", "instagram"],
-      "regiones": ["US", "MX"],
-      "nichos": ["música y artistas", "famosos y farándula"],
-      "primera_vez_visto": "2026-10-26",
-      "archivado": "2026-10-31",
-      "motivo_archivo": "Tema de actualidad con ventana vencida (2026-10-28). En el snapshot del 31-oct ya no aparece en X (US ni mundial) ni en Google Trends MX.",
-      "etapa": "quemado",
-      "etapa_por_contexto": { "x-en": "quemado", "tiktok-es": "sin-verificar" },
-      "indice_saturacion": 88,
-      "puntaje_oportunidad": 0,
-      "ventana_hasta": "2026-10-28",
-      "confianza": "media",
-      "evidencia": [
-        { "url": "https://trends24.in/united-states/", "metrica": "'Jay-Z' entra nueva en X EE. UU. en el #9 (1 h en lista) y en X mundial en el #17, a las 21:37 del 26-oct (recolector)", "tipo": "medido", "mide": "patron", "contexto": "x-us", "fecha": "2026-10-26" },
-        { "url": "https://www.nfl.com/news/jay-z-to-headline-super-bowl-lxi-at-sofi-stadium-in-inglewood", "metrica": "Anuncio oficial de la NFL. En Google Trends MX, 'jay z' sube de 200+ a 500+ entre los snapshots de 21:19 y 21:37", "tipo": "medido", "mide": "patron", "contexto": "google-mx", "fecha": "2026-10-26" },
-        { "url": "https://puck.news/jay-z-picks-jay-z-for-super-bowl-lxi/", "metrica": "Ángulo polémico: 'Jay-Z Picks Jay-Z'; adelantado el 20-oct", "tipo": "estimado", "mide": "senal_relacionada", "contexto": "prensa-us", "fecha": "2026-10-26" }
-      ],
-      "historial": [
-        { "fecha": "2026-10-26", "etapa": "emergente", "indice_saturacion": 28, "senal": "Anuncio oficial el mismo día. Dos señales independientes: tendencia nueva en X (US y mundial) y subida en Google Trends MX. Ventana de 24-72 h." },
-        { "fecha": "2026-10-31", "etapa": "quemado", "indice_saturacion": 88, "senal": "Fuera de X (US y mundial) y de Google Trends en el snapshot de 01:05; la ventana de actualidad venció el 28-oct. Se archiva." }
-      ]
-    },
-    {
-      "id": "tema-huellas-dinosaurio-michoacan",
-      "nombre": "50 huellas de dinosaurio en Apatzingán, Michoacán (INAH)",
-      "tipo": "tema",
-      "descripcion": "El INAH confirma 50 huellas de dinosaurio (tiranosaurios, raptores y 'pico de pato') en Apatzingán, Michoacán.",
-      "plataformas": ["tiktok", "youtube", "facebook"],
-      "regiones": ["MX"],
-      "nichos": ["historia y cultura", "general (cualquier contenido altamente viral)"],
-      "primera_vez_visto": "2026-10-26",
-      "archivado": "2026-10-31",
-      "motivo_archivo": "Tema de actualidad con ventana vencida (2026-10-28) y tráfico bajo desde el inicio; no reaparece en Google Trends MX ni en X México el 31-oct. El dato puede reutilizarse como contenido perenne de historia natural.",
-      "etapa": "quemado",
-      "etapa_por_contexto": { "mx": "quemado" },
-      "indice_saturacion": 86,
-      "puntaje_oportunidad": 0,
-      "ventana_hasta": "2026-10-28",
-      "confianza": "media",
-      "evidencia": [
-        { "url": "https://www.inah.gob.mx/boletines/inah-confirma-descubrimiento-de-50-huellas-de-dinosaurios-en-apatzingan-michoacan", "metrica": "En Google Trends MX, 'michoacán' sube de 100+ a 200+ entre los snapshots de 21:19 y 21:37 del 26-oct; boletín oficial del INAH", "tipo": "medido", "mide": "patron", "contexto": "google-mx", "fecha": "2026-10-26" },
-        { "url": "https://www.jornada.com.mx/noticia/2026/10/26/ciencia-y-tecnologia/tiranosaurios-raptores-y-dinosaurios-pico-de-pato-michoacanos-inah-confirma-hallazgo-de-50-huellas-en-apatzingan", "metrica": "Cobertura nacional el mismo día (La Jornada, Yahoo)", "tipo": "medido", "mide": "senal_relacionada", "contexto": "prensa-mx", "fecha": "2026-10-26" }
-      ],
-      "historial": [
-        { "fecha": "2026-10-26", "etapa": "emergente", "indice_saturacion": 20, "senal": "Noticia del día con búsquedas en subida (100+ a 200+) y cobertura nacional. Tráfico absoluto bajo: fuerza viral débil." },
-        { "fecha": "2026-10-31", "etapa": "quemado", "indice_saturacion": 86, "senal": "Sin rastro en Google Trends MX ni en X México en el snapshot de 01:05; ventana vencida el 28-oct. Se archiva." }
-      ]
-    },
-    {
-      "id": "tema-microsoft-recompras-60000",
-      "nombre": "Microsoft ofrece salidas voluntarias a unos 60.000 empleados",
-      "tipo": "tema",
-      "descripcion": "Microsoft ofrece salidas voluntarias pagadas a unos 60.000 empleados (cerca de una cuarta parte de su plantilla) para contener costos.",
-      "plataformas": ["tiktok", "youtube", "x", "instagram"],
-      "regiones": ["CO", "US"],
-      "nichos": ["inteligencia artificial y tecnología"],
-      "primera_vez_visto": "2026-10-26",
-      "archivado": "2026-10-31",
-      "motivo_archivo": "Tema de actualidad con ventana vencida (2026-10-28); 'microsoft' ya no figura en Google Trends CO ni US el 31-oct.",
-      "etapa": "quemado",
-      "etapa_por_contexto": { "global": "quemado" },
-      "indice_saturacion": 86,
-      "puntaje_oportunidad": 0,
-      "ventana_hasta": "2026-10-28",
-      "confianza": "baja",
-      "evidencia": [
-        { "url": "https://www.reuters.com/technology/microsoft-is-offering-buyouts-around-60000-employees-business-insider-reports-2026-10-26/", "metrica": "En Google Trends CO, 'microsoft' en 200+ en los snapshots de 21:19 y 21:37 del 26-oct; noticia de Reuters", "tipo": "medido", "mide": "patron", "contexto": "google-co", "fecha": "2026-10-26" },
-        { "url": "https://www.bloomberg.com/news/articles/2026-10-26/microsoft-to-offer-buyouts-to-60-000-workers-in-latest-cost-cut", "metrica": "Bloomberg confirma: 60.000 trabajadores, recorte de costos", "tipo": "medido", "mide": "senal_relacionada", "contexto": "prensa-us", "fecha": "2026-10-26" }
-      ],
-      "historial": [
-        { "fecha": "2026-10-26", "etapa": "emergente", "indice_saturacion": 22, "senal": "Noticia del día con cobertura de agencias y búsquedas en Colombia. Ninguna fuente atribuye el recorte a la IA: plantearlo solo como pregunta." },
-        { "fecha": "2026-10-31", "etapa": "quemado", "indice_saturacion": 86, "senal": "Sin rastro en Google Trends CO/US ni en X en el snapshot de 01:05; ventana vencida el 28-oct. Se archiva." }
-      ]
-    }
-  ]
+    "actualizado":  "2026-11-01T23:10:00-05:00",
+    "notas":  [
+                  "Patrones retirados de patrones.json. La regla general es archivar tras más de 14 días en \u0027quemado\u0027; en el ciclo 2 se archivaron antes, por instrucción del orquestador, los temas de actualidad cuya ventana de 24-72 h ya había vencido y que salieron de todas las listas del recolector.",
+                  "Si alguno vuelve a aparecer (aniversario, nostalgia o noticia nueva), se reabre con el mismo id y se copia aquí su historial.",
+                  "Ciclo 3 (2026-11-01): el usuario cambió el enfoque a música urbana de cantantes jóvenes, empresarios exitosos y streamers, y excluyó los reality shows y el chisme de TV. Se archivan aquí los patrones vigilados que quedan fuera de los nichos nuevos, aunque no estén quemados."
+              ],
+    "patrones":  [
+                     {
+                         "id":  "tema-jay-z-super-bowl-lxi",
+                         "nombre":  "Jay-Z, cabeza de cartel del medio tiempo del Super Bowl LXI",
+                         "tipo":  "tema",
+                         "descripcion":  "La NFL anuncia a Jay-Z como cabeza de cartel del medio tiempo del Super Bowl LXI (SoFi Stadium, febrero de 2027). Polémica porque \u0027se eligió a sí mismo\u0027: Roc Nation produce el show.",
+                         "plataformas":  [
+                                             "x",
+                                             "tiktok",
+                                             "youtube",
+                                             "instagram"
+                                         ],
+                         "regiones":  [
+                                          "US",
+                                          "MX"
+                                      ],
+                         "nichos":  [
+                                        "música y artistas",
+                                        "famosos y farándula"
+                                    ],
+                         "primera_vez_visto":  "2026-10-26",
+                         "archivado":  "2026-10-31",
+                         "motivo_archivo":  "Tema de actualidad con ventana vencida (2026-10-28). En el snapshot del 31-oct ya no aparece en X (US ni mundial) ni en Google Trends MX.",
+                         "etapa":  "quemado",
+                         "etapa_por_contexto":  {
+                                                    "x-en":  "quemado",
+                                                    "tiktok-es":  "sin-verificar"
+                                                },
+                         "indice_saturacion":  88,
+                         "puntaje_oportunidad":  0,
+                         "ventana_hasta":  "2026-10-28",
+                         "confianza":  "media",
+                         "evidencia":  [
+                                           {
+                                               "url":  "https://trends24.in/united-states/",
+                                               "metrica":  "\u0027Jay-Z\u0027 entra nueva en X EE. UU. en el #9 (1 h en lista) y en X mundial en el #17, a las 21:37 del 26-oct (recolector)",
+                                               "tipo":  "medido",
+                                               "mide":  "patron",
+                                               "contexto":  "x-us",
+                                               "fecha":  "2026-10-26"
+                                           },
+                                           {
+                                               "url":  "https://www.nfl.com/news/jay-z-to-headline-super-bowl-lxi-at-sofi-stadium-in-inglewood",
+                                               "metrica":  "Anuncio oficial de la NFL. En Google Trends MX, \u0027jay z\u0027 sube de 200+ a 500+ entre los snapshots de 21:19 y 21:37",
+                                               "tipo":  "medido",
+                                               "mide":  "patron",
+                                               "contexto":  "google-mx",
+                                               "fecha":  "2026-10-26"
+                                           },
+                                           {
+                                               "url":  "https://puck.news/jay-z-picks-jay-z-for-super-bowl-lxi/",
+                                               "metrica":  "Ángulo polémico: \u0027Jay-Z Picks Jay-Z\u0027; adelantado el 20-oct",
+                                               "tipo":  "estimado",
+                                               "mide":  "senal_relacionada",
+                                               "contexto":  "prensa-us",
+                                               "fecha":  "2026-10-26"
+                                           }
+                                       ],
+                         "historial":  [
+                                           {
+                                               "fecha":  "2026-10-26",
+                                               "etapa":  "emergente",
+                                               "indice_saturacion":  28,
+                                               "senal":  "Anuncio oficial el mismo día. Dos señales independientes: tendencia nueva en X (US y mundial) y subida en Google Trends MX. Ventana de 24-72 h."
+                                           },
+                                           {
+                                               "fecha":  "2026-10-31",
+                                               "etapa":  "quemado",
+                                               "indice_saturacion":  88,
+                                               "senal":  "Fuera de X (US y mundial) y de Google Trends en el snapshot de 01:05; la ventana de actualidad venció el 28-oct. Se archiva."
+                                           }
+                                       ]
+                     },
+                     {
+                         "id":  "tema-huellas-dinosaurio-michoacan",
+                         "nombre":  "50 huellas de dinosaurio en Apatzingán, Michoacán (INAH)",
+                         "tipo":  "tema",
+                         "descripcion":  "El INAH confirma 50 huellas de dinosaurio (tiranosaurios, raptores y \u0027pico de pato\u0027) en Apatzingán, Michoacán.",
+                         "plataformas":  [
+                                             "tiktok",
+                                             "youtube",
+                                             "facebook"
+                                         ],
+                         "regiones":  [
+                                          "MX"
+                                      ],
+                         "nichos":  [
+                                        "historia y cultura",
+                                        "general (cualquier contenido altamente viral)"
+                                    ],
+                         "primera_vez_visto":  "2026-10-26",
+                         "archivado":  "2026-10-31",
+                         "motivo_archivo":  "Tema de actualidad con ventana vencida (2026-10-28) y tráfico bajo desde el inicio; no reaparece en Google Trends MX ni en X México el 31-oct. El dato puede reutilizarse como contenido perenne de historia natural.",
+                         "etapa":  "quemado",
+                         "etapa_por_contexto":  {
+                                                    "mx":  "quemado"
+                                                },
+                         "indice_saturacion":  86,
+                         "puntaje_oportunidad":  0,
+                         "ventana_hasta":  "2026-10-28",
+                         "confianza":  "media",
+                         "evidencia":  [
+                                           {
+                                               "url":  "https://www.inah.gob.mx/boletines/inah-confirma-descubrimiento-de-50-huellas-de-dinosaurios-en-apatzingan-michoacan",
+                                               "metrica":  "En Google Trends MX, \u0027michoacán\u0027 sube de 100+ a 200+ entre los snapshots de 21:19 y 21:37 del 26-oct; boletín oficial del INAH",
+                                               "tipo":  "medido",
+                                               "mide":  "patron",
+                                               "contexto":  "google-mx",
+                                               "fecha":  "2026-10-26"
+                                           },
+                                           {
+                                               "url":  "https://www.jornada.com.mx/noticia/2026/10/26/ciencia-y-tecnologia/tiranosaurios-raptores-y-dinosaurios-pico-de-pato-michoacanos-inah-confirma-hallazgo-de-50-huellas-en-apatzingan",
+                                               "metrica":  "Cobertura nacional el mismo día (La Jornada, Yahoo)",
+                                               "tipo":  "medido",
+                                               "mide":  "senal_relacionada",
+                                               "contexto":  "prensa-mx",
+                                               "fecha":  "2026-10-26"
+                                           }
+                                       ],
+                         "historial":  [
+                                           {
+                                               "fecha":  "2026-10-26",
+                                               "etapa":  "emergente",
+                                               "indice_saturacion":  20,
+                                               "senal":  "Noticia del día con búsquedas en subida (100+ a 200+) y cobertura nacional. Tráfico absoluto bajo: fuerza viral débil."
+                                           },
+                                           {
+                                               "fecha":  "2026-10-31",
+                                               "etapa":  "quemado",
+                                               "indice_saturacion":  86,
+                                               "senal":  "Sin rastro en Google Trends MX ni en X México en el snapshot de 01:05; ventana vencida el 28-oct. Se archiva."
+                                           }
+                                       ]
+                     },
+                     {
+                         "id":  "tema-microsoft-recompras-60000",
+                         "nombre":  "Microsoft ofrece salidas voluntarias a unos 60.000 empleados",
+                         "tipo":  "tema",
+                         "descripcion":  "Microsoft ofrece salidas voluntarias pagadas a unos 60.000 empleados (cerca de una cuarta parte de su plantilla) para contener costos.",
+                         "plataformas":  [
+                                             "tiktok",
+                                             "youtube",
+                                             "x",
+                                             "instagram"
+                                         ],
+                         "regiones":  [
+                                          "CO",
+                                          "US"
+                                      ],
+                         "nichos":  [
+                                        "inteligencia artificial y tecnología"
+                                    ],
+                         "primera_vez_visto":  "2026-10-26",
+                         "archivado":  "2026-10-31",
+                         "motivo_archivo":  "Tema de actualidad con ventana vencida (2026-10-28); \u0027microsoft\u0027 ya no figura en Google Trends CO ni US el 31-oct.",
+                         "etapa":  "quemado",
+                         "etapa_por_contexto":  {
+                                                    "global":  "quemado"
+                                                },
+                         "indice_saturacion":  86,
+                         "puntaje_oportunidad":  0,
+                         "ventana_hasta":  "2026-10-28",
+                         "confianza":  "baja",
+                         "evidencia":  [
+                                           {
+                                               "url":  "https://www.reuters.com/technology/microsoft-is-offering-buyouts-around-60000-employees-business-insider-reports-2026-10-26/",
+                                               "metrica":  "En Google Trends CO, \u0027microsoft\u0027 en 200+ en los snapshots de 21:19 y 21:37 del 26-oct; noticia de Reuters",
+                                               "tipo":  "medido",
+                                               "mide":  "patron",
+                                               "contexto":  "google-co",
+                                               "fecha":  "2026-10-26"
+                                           },
+                                           {
+                                               "url":  "https://www.bloomberg.com/news/articles/2026-10-26/microsoft-to-offer-buyouts-to-60-000-workers-in-latest-cost-cut",
+                                               "metrica":  "Bloomberg confirma: 60.000 trabajadores, recorte de costos",
+                                               "tipo":  "medido",
+                                               "mide":  "senal_relacionada",
+                                               "contexto":  "prensa-us",
+                                               "fecha":  "2026-10-26"
+                                           }
+                                       ],
+                         "historial":  [
+                                           {
+                                               "fecha":  "2026-10-26",
+                                               "etapa":  "emergente",
+                                               "indice_saturacion":  22,
+                                               "senal":  "Noticia del día con cobertura de agencias y búsquedas en Colombia. Ninguna fuente atribuye el recorte a la IA: plantearlo solo como pregunta."
+                                           },
+                                           {
+                                               "fecha":  "2026-10-31",
+                                               "etapa":  "quemado",
+                                               "indice_saturacion":  86,
+                                               "senal":  "Sin rastro en Google Trends CO/US ni en X en el snapshot de 01:05; ventana vencida el 28-oct. Se archiva."
+                                           }
+                                       ]
+                     },
+                     {
+                         "id":  "tema-ines-gomez-mont-detencion",
+                         "nombre":  "Detención de Inés Gómez Mont en Florida",
+                         "tipo":  "tema",
+                         "descripcion":  "La presentadora mexicana Inés Gómez Mont, prófuga desde 2021 por presunto lavado de dinero, es detenida en Florida el 30-oct-2026. Domina noticias y espectáculos en México y salta a Colombia.",
+                         "plataformas":  [
+                                             "youtube",
+                                             "tiktok",
+                                             "x",
+                                             "instagram",
+                                             "facebook"
+                                         ],
+                         "regiones":  [
+                                          "MX",
+                                          "CO",
+                                          "US"
+                                      ],
+                         "nichos":  [
+                                        "famosos y farándula"
+                                    ],
+                         "primera_vez_visto":  "2026-10-31",
+                         "etapa":  "crecimiento",
+                         "etapa_por_contexto":  {
+                                                    "youtube-mx":  "crecimiento",
+                                                    "x-mx":  "crecimiento",
+                                                    "google-co":  "emergente",
+                                                    "tiktok-es":  "sin-verificar"
+                                                },
+                         "indice_saturacion":  45,
+                         "puntaje_oportunidad":  76,
+                         "puntaje_desglose":  "23 / 22 / 11 / 14 / 6",
+                         "ventana_hasta":  "2026-11-02",
+                         "confianza":  "media",
+                         "genoma":  {
+                                        "gancho":  "Resultado primero: \u0027Detenida tras 5 años prófuga\u0027",
+                                        "estructura":  "Hechos clave o preguntas y respuestas (\u0027¿de qué la acusan?\u0027, \u0027¿deportación o extradición?\u0027)",
+                                        "emocion":  "Morbo, curiosidad e indignación",
+                                        "payoff":  "Qué sigue en el caso",
+                                        "formato_tecnico":  "Cara a cámara o voz en off con titulares citados; vertical, 30-60 s",
+                                        "audio":  "Original",
+                                        "edicion":  "Ritmo de noticia, tarjetas de texto",
+                                        "arquetipo":  "El que explica el chisme con fuentes",
+                                        "participacion":  "Pregunta binaria (¿deportación o extradición?) y \u0027parte 2\u0027 con novedades",
+                                        "contexto":  "Actualidad, 24-72 h",
+                                        "perecederos":  [
+                                                            "contexto"
+                                                        ]
+                                    },
+                         "evidencia":  [
+                                           {
+                                               "url":  "https://www.youtube.com/watch?v=m_IqSFikZMI",
+                                               "metrica":  "Short de El Universal \u0027Detienen a Inés Gómez Mont en Florida\u0027: 495.159 vistas en 8,2 h (60.385/h), 2.500 comentarios",
+                                               "tipo":  "medido",
+                                               "mide":  "patron",
+                                               "contexto":  "youtube-mx",
+                                               "fecha":  "2026-10-31"
+                                           },
+                                           {
+                                               "url":  "https://www.youtube.com/watch?v=mxsMstTitXQ",
+                                               "metrica":  "Explicador \u0027Hechos clave en el caso de Inés Gómez Mont\u0027 (El Universal): 48.785 vistas en 5,9 h (8.269/h)",
+                                               "tipo":  "medido",
+                                               "mide":  "patron",
+                                               "contexto":  "youtube-mx",
+                                               "fecha":  "2026-10-31"
+                                           },
+                                           {
+                                               "url":  "https://www.youtube.com/watch?v=qtp_P0gTfuA",
+                                               "metrica":  "VILLALVAZO 13, \u0027¿Deportación o extradición?\u0027: 13.436 vistas y 1.005 me gusta en 4 h, con 73.900 suscriptores (sobre-rendimiento de canal pequeño)",
+                                               "tipo":  "medido",
+                                               "mide":  "patron",
+                                               "contexto":  "youtube-mx",
+                                               "fecha":  "2026-10-31"
+                                           },
+                                           {
+                                               "url":  "https://trends24.in/mexico/",
+                                               "metrica":  "\u0027Inés Gómez Mont\u0027 en X México: mejor puesto #1, 12 h en lista, #18 a las 01:05 del 31-oct (recolector)",
+                                               "tipo":  "medido",
+                                               "mide":  "patron",
+                                               "contexto":  "x-mx",
+                                               "fecha":  "2026-10-31"
+                                           },
+                                           {
+                                               "url":  "https://www.eltiempo.com/mundo/latinoamerica/esta-es-la-reconocida-presentadora-mexicana-que-fue-arrestada-en-ee-uu-tras-estar-mas-de-cinco-anos-profuga-delitos-por-los-que-la-acusan-3597658",
+                                               "metrica":  "Google Trends CO: \u0027inés gómez mont\u0027 200+ (30-oct, 21:00 PDT; recolector)",
+                                               "tipo":  "medido",
+                                               "mide":  "patron",
+                                               "contexto":  "google-co",
+                                               "fecha":  "2026-10-31"
+                                           },
+                                           {
+                                               "url":  "https://es.wikipedia.org/wiki/In%C3%A9s_G%C3%B3mez_Mont",
+                                               "metrica":  "27.068 visitas en Wikipedia en español el 30-oct (#8; recolector)",
+                                               "tipo":  "medido",
+                                               "mide":  "senal_relacionada",
+                                               "contexto":  "wikipedia-es",
+                                               "fecha":  "2026-10-31"
+                                           },
+                                           {
+                                               "url":  "https://www.youtube.com/watch?v=UdupORUvULE",
+                                               "metrica":  "Remedición de las 08:51: directo de SinEmbargo Al Aire (3,3 h) con 403.760 vistas en 10,5 h (38.453/h). El Short de El Universal sube a 764.626 en 15,9 h (48.090/h)",
+                                               "tipo":  "medido",
+                                               "mide":  "patron",
+                                               "contexto":  "youtube-mx",
+                                               "fecha":  "2026-10-31"
+                                           }
+                                       ],
+                         "historial":  [
+                                           {
+                                               "fecha":  "2026-10-31",
+                                               "etapa":  "crecimiento",
+                                               "indice_saturacion":  45,
+                                               "senal":  "Detención del 30-oct. #1 en X México y cobertura de todos los medios. En YouTube, un Short a 60 K vistas/h y explicadores de canales pequeños que sobre-rinden. Ya circula un rumor de \u0027fue IA\u0027 (desinformación: no amplificar). Ventana de 72 h, ampliable si hay audiencia de extradición."
+                                           }
+                                       ],
+                         "archivado":  "2026-11-01",
+                         "motivo_archivo":  "Fuera del enfoque fijado por el usuario el 2026-11-01: chisme y farándula de televisión (config.excluir). Ya había salido de X México (mejor #3, 12 h, \u0027salio\u0027 en el snapshot del 01-nov 22:48)."
+                     },
+                     {
+                         "id":  "tema-la-granja-vip-mx",
+                         "nombre":  "La Granja VIP (TV Azteca): la Traición de la semana 8",
+                         "tipo":  "tema",
+                         "descripcion":  "Reality de TV Azteca (temporada 2026). La \u0027Traición\u0027 semanal, las nominaciones y la entrada de personajes (\u0027Copetes\u0027, los \u0027patitos\u0027) generan picos en Google, X y YouTube en México.",
+                         "plataformas":  [
+                                             "youtube",
+                                             "tiktok",
+                                             "x",
+                                             "facebook"
+                                         ],
+                         "regiones":  [
+                                          "MX"
+                                      ],
+                         "nichos":  [
+                                        "famosos y farándula",
+                                        "humor y memes"
+                                    ],
+                         "primera_vez_visto":  "2026-10-31",
+                         "etapa":  "crecimiento",
+                         "etapa_por_contexto":  {
+                                                    "youtube-mx":  "crecimiento",
+                                                    "x-mx":  "crecimiento",
+                                                    "google-mx":  "crecimiento",
+                                                    "tiktok-es":  "sin-verificar"
+                                                },
+                         "indice_saturacion":  50,
+                         "puntaje_oportunidad":  73,
+                         "puntaje_desglose":  "20 / 22 / 11 / 14 / 6",
+                         "ventana_hasta":  "2026-11-02",
+                         "confianza":  "media",
+                         "genoma":  {
+                                        "gancho":  "Conflicto con nombres propios: \u0027X TRAICIONA a Y\u0027",
+                                        "estructura":  "Reacción o veredicto sobre el momento de la semana; tier list de jugadas",
+                                        "emocion":  "Indignación, morbo e identificación con un bando",
+                                        "payoff":  "Quién queda nominado o quién \u0027ganó\u0027 la jugada",
+                                        "formato_tecnico":  "Cara a cámara o tabla con texto; vertical, 40-60 s, sin metraje del programa",
+                                        "audio":  "Original",
+                                        "edicion":  "Cortes rápidos y emojis de reacción",
+                                        "arquetipo":  "El que reacciona u opina",
+                                        "participacion":  "Elegir bando o \u0027pon la letra en comentarios\u0027",
+                                        "contexto":  "Actualidad semanal de un reality en emisión",
+                                        "perecederos":  [
+                                                            "contexto"
+                                                        ]
+                                    },
+                         "evidencia":  [
+                                           {
+                                               "url":  "https://trends.google.com/trending/rss?geo=MX",
+                                               "metrica":  "Google Trends MX: \u0027la granja vip\u0027 5000+ y \u0027granja vip\u0027 200+ (30-oct, 21:40 PDT; recolector)",
+                                               "tipo":  "medido",
+                                               "mide":  "patron",
+                                               "contexto":  "google-mx",
+                                               "fecha":  "2026-10-31"
+                                           },
+                                           {
+                                               "url":  "https://trends24.in/mexico/",
+                                               "metrica":  "\u0027#LaGranjaTraición\u0027 entra nueva en el #1 de X México (2 h en lista, 31-oct 01:05; recolector)",
+                                               "tipo":  "medido",
+                                               "mide":  "patron",
+                                               "contexto":  "x-mx",
+                                               "fecha":  "2026-10-31"
+                                           },
+                                           {
+                                               "url":  "https://www.youtube.com/watch?v=4z751s8dVZA",
+                                               "metrica":  "\u0027¡Kevyn ABRE SUS MALETAS…!\u0027 (La Granja VIP México, 276 K suscriptores): 79.786 vistas en 8,3 h (9.613/h)",
+                                               "tipo":  "medido",
+                                               "mide":  "patron",
+                                               "contexto":  "youtube-mx",
+                                               "fecha":  "2026-10-31"
+                                           },
+                                           {
+                                               "url":  "https://www.youtube.com/watch?v=F-luQIvPeyU",
+                                               "metrica":  "\u0027MANELYK TRAICIONA a MONO… | La Traición 08\u0027: 5.570 vistas y 349 comentarios en 1,3 h",
+                                               "tipo":  "medido",
+                                               "mide":  "patron",
+                                               "contexto":  "youtube-mx",
+                                               "fecha":  "2026-10-31"
+                                           },
+                                           {
+                                               "url":  "https://www.youtube.com/watch?v=VLs2ON93e34",
+                                               "metrica":  "Directo de reacción 24/7 de Novex Fire (12.900 suscriptores): 114.135 vistas en 13 h",
+                                               "tipo":  "medido",
+                                               "mide":  "patron",
+                                               "contexto":  "youtube-mx",
+                                               "fecha":  "2026-10-31"
+                                           },
+                                           {
+                                               "url":  "https://es.wikipedia.org/wiki/Mario_Osuna",
+                                               "metrica":  "\u0027Mario Osuna\u0027 5.883 visitas en Wikipedia en español el 30-oct (#39; recolector)",
+                                               "tipo":  "medido",
+                                               "mide":  "senal_relacionada",
+                                               "contexto":  "wikipedia-es",
+                                               "fecha":  "2026-10-31"
+                                           },
+                                           {
+                                               "url":  "https://www.youtube.com/watch?v=F-luQIvPeyU",
+                                               "metrica":  "Remedición de las 08:48: \u0027MANELYK TRAICIONA a MONO\u0027 sube a 84.349 vistas y 633 comentarios en 9 h (9.372/h). \u0027BEBESHITA se resiste…\u0027 (24 min) suma 47.687 en 7,8 h (6.114/h)",
+                                               "tipo":  "medido",
+                                               "mide":  "patron",
+                                               "contexto":  "youtube-mx",
+                                               "fecha":  "2026-10-31"
+                                           }
+                                       ],
+                         "historial":  [
+                                           {
+                                               "fecha":  "2026-10-31",
+                                               "etapa":  "crecimiento",
+                                               "indice_saturacion":  50,
+                                               "senal":  "Tres fuentes independientes en las últimas 24 h: Google MX 5000+, hashtag nuevo en el #1 de X México y videos del canal oficial a ~9.600 vistas/h, más directos de reacción que sobre-rinden. La temporada va por la semana 8, con picos semanales."
+                                           }
+                                       ],
+                         "archivado":  "2026-11-01",
+                         "motivo_archivo":  "Excluido por el usuario el 2026-11-01 (config.excluir: reality shows, La Granja VIP). No se vuelve a traer aunque siga en tendencia (#LaGranjaEliminación #1 en X México el 01-nov)."
+                     },
+                     {
+                         "id":  "audio-la-mujer-del-pelotero",
+                         "nombre":  "\u0027La Mujer del Pelotero\u0027 (Ángel DR / Merenglass) acelera en TikTok México",
+                         "tipo":  "audio",
+                         "descripcion":  "Merengue cómico que encadena comparaciones de oficios (\u0027la mujer del pelotero…\u0027). En TikTok México pasó de ~193 K a 223 K videos en 3 días y triplicó su ritmo diario. El uso concreto en TikTok está sin confirmar (inferido: plantilla \u0027la mujer/el novio de un [oficio]\u0027).",
+                         "plataformas":  [
+                                             "tiktok",
+                                             "instagram"
+                                         ],
+                         "regiones":  [
+                                          "MX"
+                                      ],
+                         "nichos":  [
+                                        "música y artistas",
+                                        "humor y memes"
+                                    ],
+                         "primera_vez_visto":  "2026-10-31",
+                         "etapa":  "crecimiento",
+                         "etapa_por_contexto":  {
+                                                    "tiktok-mx":  "crecimiento",
+                                                    "tiktok-global":  "pico",
+                                                    "tiktok-co":  "sin-verificar"
+                                                },
+                         "indice_saturacion":  40,
+                         "puntaje_oportunidad":  71,
+                         "puntaje_desglose":  "20 / 22 / 12 / 10 / 7",
+                         "ventana_hasta":  "2026-11-06",
+                         "confianza":  "baja",
+                         "genoma":  {
+                                        "gancho":  "Texto \u0027la mujer del [oficio]\u0027 sobre una escena cotidiana de pareja (inferido)",
+                                        "estructura":  "Lista de comparaciones al ritmo, un oficio por verso (inferido de la letra)",
+                                        "emocion":  "Risa e identificación (\u0027literal mi pareja\u0027)",
+                                        "payoff":  "El remate del último oficio, el más absurdo o el del propio creador",
+                                        "formato_tecnico":  "Vertical, 10-20 s, texto en pantalla; con o sin cara",
+                                        "audio":  "La canción. Perecedera y con derechos: solo desde la biblioteca de la plataforma",
+                                        "edicion":  "Un corte por verso",
+                                        "arquetipo":  "La pareja de alguien con un oficio reconocible",
+                                        "participacion":  "Etiquetar a la pareja o al colega del oficio; plantilla copiable",
+                                        "contexto":  "Música tropical en expansión en México (versiones de bandas locales esta semana)",
+                                        "perecederos":  [
+                                                            "audio"
+                                                        ]
+                                    },
+                         "evidencia":  [
+                                           {
+                                               "url":  "https://tokchart.com/es-mx/audios-de-tiktok",
+                                               "metrica":  "#2 en TikTok México: 223 K videos, +22.400 al día (31-oct)",
+                                               "tipo":  "medido",
+                                               "mide":  "patron",
+                                               "contexto":  "tiktok-mx",
+                                               "fecha":  "2026-10-31"
+                                           },
+                                           {
+                                               "url":  "https://tokchart.com/es-mx/audios-de-tiktok",
+                                               "metrica":  "#1 en TikTok México con unos 193 K videos y +7.100 al día (28-oct). Dato leído en el resumen del buscador, no en la página",
+                                               "tipo":  "estimado",
+                                               "mide":  "patron",
+                                               "contexto":  "tiktok-mx",
+                                               "fecha":  "2026-10-31"
+                                           },
+                                           {
+                                               "url":  "https://www.revid.ai/viral-tiktok-songs",
+                                               "metrica":  "#9 en la muestra semanal global: 4 posts de 4 creadores, \u0027Cooling\u0027 (31-oct)",
+                                               "tipo":  "medido",
+                                               "mide":  "patron",
+                                               "contexto":  "tiktok-global",
+                                               "fecha":  "2026-10-31"
+                                           },
+                                           {
+                                               "url":  "https://www.youtube.com/watch?v=xWFNc2LqKnw",
+                                               "metrica":  "Versiones de bandas locales mexicanas subidas en la última semana (banda Reyna de Oaxaca, Ídolos del Pueblo, Grupo Verídico): señal de adopción regional, con pocas vistas",
+                                               "tipo":  "medido",
+                                               "mide":  "senal_relacionada",
+                                               "contexto":  "youtube-mx",
+                                               "fecha":  "2026-10-31"
+                                           },
+                                           {
+                                               "url":  "https://www.youtube.com/watch?v=5HrMR0NqEy0",
+                                               "metrica":  "Video original de MERENGLASS (dic-2024): 21.968.060 vistas",
+                                               "tipo":  "medido",
+                                               "mide":  "senal_relacionada",
+                                               "contexto":  "youtube-global",
+                                               "fecha":  "2026-10-31"
+                                           }
+                                       ],
+                         "historial":  [
+                                           {
+                                               "fecha":  "2026-10-31",
+                                               "etapa":  "crecimiento",
+                                               "indice_saturacion":  40,
+                                               "senal":  "Dos señales: tokchart MX (de +7,1 K a +22,4 K videos al día en 3 días; 223 K en total) y presencia en la muestra global de revid (allí se enfría, luego el empuje es mexicano). Cientos de miles de videos = crecimiento. Plantilla de uso sin ver: prioridad del próximo ciclo. Atribución del artista ambigua: tokchart dice \u0027Ángel DR\u0027; el video original en YouTube es de MERENGLASS."
+                                           }
+                                       ],
+                         "archivado":  "2026-11-01",
+                         "motivo_archivo":  "Fuera de los nichos nuevos (2026-11-01): merengue cómico, no es música urbana de cantantes jóvenes. Última lectura: #3 en TikTok México, 231 K videos, +7.300 al día (tokchart es-mx, 01-nov), frenando frente a +22.400 del 31-oct."
+                     },
+                     {
+                         "id":  "formato-respuesta-en-una-palabra-ia",
+                         "nombre":  "Responde en una palabra: preguntas personales a ChatGPT (o a amigos) con respuesta de una sola palabra",
+                         "tipo":  "formato",
+                         "descripcion":  "Grabación de pantalla o de cámara en la que se pide a ChatGPT, a amigos o a la familia responder preguntas personales con una sola palabra. La gracia está en lo brutal o lo certero de cada respuesta.",
+                         "plataformas":  [
+                                             "tiktok"
+                                         ],
+                         "regiones":  [
+                                          "US"
+                                      ],
+                         "nichos":  [
+                                        "inteligencia artificial y tecnología",
+                                        "humor y memes"
+                                    ],
+                         "primera_vez_visto":  "2026-10-26",
+                         "etapa":  "crecimiento",
+                         "etapa_por_contexto":  {
+                                                    "tiktok-en":  "crecimiento",
+                                                    "tiktok-es":  "sin-adaptar",
+                                                    "youtube-es":  "sin-adaptar"
+                                                },
+                         "indice_saturacion":  48,
+                         "puntaje_oportunidad":  68,
+                         "puntaje_desglose":  "11 / 22 / 17 / 12 / 6",
+                         "ventana_hasta":  "2026-11-09",
+                         "confianza":  "baja",
+                         "genoma":  {
+                                        "gancho":  "Texto: \u0027Le pedí a ChatGPT que me respondiera en UNA palabra…\u0027 y, de inmediato, la primera pregunta incómoda",
+                                        "estructura":  "Serie de preguntas con respuestas de una palabra, cada vez más íntimas",
+                                        "emocion":  "Curiosidad, morbo y risa",
+                                        "payoff":  "La última respuesta, la más brutal o reveladora",
+                                        "formato_tecnico":  "Grabación de pantalla vertical, con reacción opcional en una esquina; funciona sin cara",
+                                        "audio":  "Sin audio fijo (estructural)",
+                                        "edicion":  "Un corte por pregunta y zoom sobre la palabra",
+                                        "arquetipo":  "El que se expone ante la IA",
+                                        "participacion":  "Los comentarios proponen preguntas para la \u0027parte 2\u0027; plantilla copiable",
+                                        "contexto":  "Perenne, con el auge de los asistentes de IA",
+                                        "perecederos":  [
+
+                                                        ]
+                                    },
+                         "evidencia":  [
+                                           {
+                                               "url":  "https://newengen.com/insights/tiktok-trends/",
+                                               "metrica":  "Trend #8 (\u0027Answer in One Word\u0027) en la lista semanal; aparece desde la actualización del 14-oct y sigue en la del 26-oct-2026 (sin actualización posterior al 31-oct). Sin conteo de videos",
+                                               "tipo":  "estimado",
+                                               "mide":  "senal_relacionada",
+                                               "contexto":  "tiktok-en",
+                                               "fecha":  "2026-10-26"
+                                           },
+                                           {
+                                               "url":  "https://newengen.com/insights/october-tiktok-trends/",
+                                               "metrica":  "Listado en la recopilación de octubre de 2026 como pregunta a ChatGPT o a amigos con respuesta de una palabra",
+                                               "tipo":  "estimado",
+                                               "mide":  "senal_relacionada",
+                                               "contexto":  "tiktok-en",
+                                               "fecha":  "2026-10-26"
+                                           },
+                                           {
+                                               "url":  "https://www.youtube.com/results?search_query=le+pedi+a+chatgpt+que+me+respondiera+en+una+palabra",
+                                               "metrica":  "Búsqueda en YouTube con filtro \u0027esta semana\u0027 (31-oct, 01:14): 0 resultados en español. Confirma que está sin adaptar; no mide rendimiento",
+                                               "tipo":  "medido",
+                                               "mide":  "senal_relacionada",
+                                               "contexto":  "youtube-es",
+                                               "fecha":  "2026-10-31"
+                                           }
+                                       ],
+                         "historial":  [
+                                           {
+                                               "fecha":  "2026-10-26",
+                                               "etapa":  "crecimiento",
+                                               "indice_saturacion":  44,
+                                               "senal":  "Lleva al menos 2 semanas en listas semanales en inglés (crecimiento, pero tardío). Una búsqueda en español (\u0027responde con/en una palabra\u0027 + ChatGPT + TikTok) no encontró versiones → sin adaptar al español."
+                                           },
+                                           {
+                                               "fecha":  "2026-10-31",
+                                               "etapa":  "crecimiento",
+                                               "indice_saturacion":  48,
+                                               "senal":  "Segunda comprobación en español (YouTube, filtro semanal): 0 resultados. Sigue sin adaptar. Sin datos nuevos en inglés (las listas no se actualizan desde el 26-oct). Toda la evidencia es de listas de blogs: queda como apuesta."
+                                           }
+                                       ],
+                         "archivado":  "2026-11-01",
+                         "motivo_archivo":  "Fuera de los nichos nuevos (2026-11-01): IA y humor."
+                     },
+                     {
+                         "id":  "formato-dato-perturbador-plano-lento",
+                         "nombre":  "Dato perturbador en plano lento (Creepy-Fact Storytime)",
+                         "tipo":  "formato",
+                         "descripcion":  "Un único dato inquietante, en texto, sobre un plano lento y sin cortes (pasillo, bosque, objeto antiguo), con música de caja musical (\u0027white rabbit\u0027s bells\u0027, de Tomb Gazer).",
+                         "plataformas":  [
+                                             "tiktok"
+                                         ],
+                         "regiones":  [
+                                          "US"
+                                      ],
+                         "nichos":  [
+                                        "historia y cultura",
+                                        "general (cualquier contenido altamente viral)"
+                                    ],
+                         "primera_vez_visto":  "2026-10-26",
+                         "etapa":  "pico",
+                         "etapa_por_contexto":  {
+                                                    "tiktok-en":  "pico",
+                                                    "tiktok-es":  "sin-verificar",
+                                                    "youtube-es":  "sin-adaptar",
+                                                    "historia-es":  "sin-adaptar"
+                                                },
+                         "indice_saturacion":  56,
+                         "puntaje_oportunidad":  66,
+                         "puntaje_desglose":  "10 / 22 / 17 / 12 / 5",
+                         "ventana_hasta":  "2026-11-02",
+                         "confianza":  "baja",
+                         "genoma":  {
+                                        "gancho":  "La primera frase en pantalla es el dato inquietante, sobre una imagen quieta y ominosa",
+                                        "estructura":  "Un dato (o 2-3 frases) sin cortes, leído en pantalla",
+                                        "emocion":  "Morbo, curiosidad y escalofrío",
+                                        "payoff":  "Una última línea que reencuadra el dato (fecha, lugar, \u0027y sigue ahí\u0027)",
+                                        "formato_tecnico":  "Plano lento único, sin cara, texto en pantalla, 10-20 s",
+                                        "audio":  "Caja musical \u0027white rabbit\u0027s bells\u0027. Perecedero",
+                                        "edicion":  "Sin cortes; movimiento de cámara lento (dolly o zoom)",
+                                        "arquetipo":  "El que sabe datos raros",
+                                        "participacion":  "Los comentarios aportan más datos y piden \u0027parte 2\u0027",
+                                        "contexto":  "Estacional (Halloween, Día de Muertos hasta el 2-nov) sobre una base perenne (curiosidades históricas)",
+                                        "perecederos":  [
+                                                            "audio"
+                                                        ]
+                                    },
+                         "evidencia":  [
+                                           {
+                                               "url":  "https://www.sozee.ai/resources/upcoming-tiktok-trends/",
+                                               "metrica":  "Unos 17.500 videos a mediados de oct-2026, +35 % en diez días; en \u0027trends about to peak\u0027 (citado de segunda mano)",
+                                               "tipo":  "estimado",
+                                               "mide":  "patron",
+                                               "contexto":  "tiktok-en",
+                                               "fecha":  "2026-10-26"
+                                           },
+                                           {
+                                               "url":  "https://www.socialpilot.co/blog/tiktok-trends",
+                                               "metrica":  "\u0027white rabbit\u0027s bells\u0027: 17,5 K videos, etapa \u0027Early\u0027, +35 % en diez días; uso: superposición de texto con datos inquietantes",
+                                               "tipo":  "estimado",
+                                               "mide":  "patron",
+                                               "contexto":  "tiktok-en",
+                                               "fecha":  "2026-10-26"
+                                           },
+                                           {
+                                               "url":  "https://es.wikipedia.org/wiki/Lizzie_Borden",
+                                               "metrica":  "Demanda de curiosidad macabra o histórica en Wikipedia el 25-oct: es \u0027Lizzie Borden\u0027 8.916 vistas (#30), es \u0027Michael Rockefeller\u0027 7.076 (#39), en \u0027Kehlsteinhaus\u0027 59.358 (#35) (recolector)",
+                                               "tipo":  "medido",
+                                               "mide":  "senal_relacionada",
+                                               "contexto":  "wikipedia-es",
+                                               "fecha":  "2026-10-26"
+                                           },
+                                           {
+                                               "url":  "https://www.youtube.com/results?search_query=datos+perturbadores+historia",
+                                               "metrica":  "Búsqueda en YouTube con filtro \u0027esta semana\u0027 (31-oct, 01:16): ninguna versión en plano lento en español; solo Shorts genéricos de curiosidades (~1.200 vistas en 5-7 h) y un iceberg largo de Historias del Búho (28.328 vistas en 58,6 h). Confirma que está sin adaptar",
+                                               "tipo":  "medido",
+                                               "mide":  "senal_relacionada",
+                                               "contexto":  "youtube-es",
+                                               "fecha":  "2026-10-31"
+                                           },
+                                           {
+                                               "url":  "https://es.wikipedia.org/wiki/D%C3%ADa_de_Muertos",
+                                               "metrica":  "\u0027Día de Muertos\u0027 9.224 y \u0027Halloween\u0027 19.480 visitas en Wikipedia en español el 30-oct (recolector)",
+                                               "tipo":  "medido",
+                                               "mide":  "senal_relacionada",
+                                               "contexto":  "wikipedia-es",
+                                               "fecha":  "2026-10-31"
+                                           }
+                                       ],
+                         "historial":  [
+                                           {
+                                               "fecha":  "2026-10-26",
+                                               "etapa":  "crecimiento",
+                                               "indice_saturacion":  38,
+                                               "senal":  "El sonido tiene unos 17,5 K videos (+35 % en 10 días), con etapa \u0027early/about to peak\u0027 en dos blogs, y hay demanda en Wikipedia de historia macabra en semana de Halloween. Sin verificar en español."
+                                           },
+                                           {
+                                               "fecha":  "2026-10-31",
+                                               "etapa":  "pico",
+                                               "indice_saturacion":  56,
+                                               "senal":  "En inglés, ya era \u0027about to peak\u0027 a mediados de octubre y Halloween termina hoy: pico estimado (sin cifras nuevas). En español sigue sin adaptar (YouTube, búsqueda semanal). Solo queda la ventana de Día de Muertos hasta el 2-nov; después, serie perenne sin gen estacional. Pasa a apuesta."
+                                           }
+                                       ],
+                         "archivado":  "2026-11-01",
+                         "motivo_archivo":  "Fuera de los nichos nuevos (2026-11-01): historia y curiosidades. Además, su ventana estacional (Día de Muertos) vence el 02-nov."
+                     },
+                     {
+                         "id":  "formato-stop-the-wedding-carrusel",
+                         "nombre":  "Stop the wedding, pero…: carrusel de arrepentimientos en retrospectiva",
+                         "tipo":  "formato",
+                         "descripcion":  "Carrusel de fotos que abre con \u0027Stop the wedding, but…\u0027 y revela, foto a foto, lo que el autor cambiaría de su boda (vestido, decoración, drama familiar o la pareja). Lo impulsa la canción \u0027Stop The Wedding!\u0027 de Ashe.",
+                         "plataformas":  [
+                                             "tiktok",
+                                             "instagram"
+                                         ],
+                         "regiones":  [
+                                          "US"
+                                      ],
+                         "nichos":  [
+                                        "famosos y farándula",
+                                        "humor y memes",
+                                        "historia y cultura"
+                                    ],
+                         "primera_vez_visto":  "2026-10-26",
+                         "etapa":  "pico",
+                         "etapa_por_contexto":  {
+                                                    "tiktok-en":  "pico",
+                                                    "tiktok-es":  "sin-adaptar",
+                                                    "historia-es":  "sin-adaptar"
+                                                },
+                         "indice_saturacion":  64,
+                         "puntaje_oportunidad":  64,
+                         "puntaje_desglose":  "12 / 22 / 16 / 10 / 4",
+                         "ventana_hasta":  "2026-11-09",
+                         "confianza":  "baja",
+                         "genoma":  {
+                                        "gancho":  "Texto en la primera foto: \u0027Stop the wedding, but…\u0027, una frase-plantilla que promete una confesión",
+                                        "estructura":  "Lista en carrusel: un arrepentimiento por foto, de menor a mayor",
+                                        "emocion":  "Identificación y humor agridulce, con nostalgia",
+                                        "payoff":  "La última foto trae el arrepentimiento mayor o un giro",
+                                        "formato_tecnico":  "Carrusel vertical de 5 a 10 fotos con texto en pantalla; no requiere cara",
+                                        "audio":  "\u0027Stop The Wedding!\u0027 (Ashe, agosto de 2026). Perecedero y con derechos: solo desde la biblioteca de la plataforma",
+                                        "edicion":  "Mínima: el ritmo lo marca el deslizamiento del usuario",
+                                        "arquetipo":  "Narrador en retrospectiva (\u0027mi yo del futuro\u0027)",
+                                        "participacion":  "Plantilla copiable; invita a confesar en comentarios (\u0027el mío sería…\u0027)",
+                                        "contexto":  "Perenne (bodas y relaciones), empujado por una canción en listas",
+                                        "perecederos":  [
+                                                            "audio"
+                                                        ]
+                                    },
+                         "evidencia":  [
+                                           {
+                                               "url":  "https://kworb.net/spotify/country/global_daily.html",
+                                               "metrica":  "\u0027Stop The Wedding!\u0027 de Ashe, #6 en Spotify Global con 3.091.581 reproducciones diarias (gráfico del 25-oct-2026)",
+                                               "tipo":  "medido",
+                                               "mide":  "senal_relacionada",
+                                               "contexto":  "spotify-global",
+                                               "fecha":  "2026-10-26"
+                                           },
+                                           {
+                                               "url":  "https://www.officialcharts.com/chart-news/ashe-stop-the-wedding-sienna-spiro-great-expectation-number-1-single/",
+                                               "metrica":  "Entra por primera vez al Top 10 del Reino Unido (#9) el 18-sep-2026; había debutado en el #58 a finales de agosto",
+                                               "tipo":  "medido",
+                                               "mide":  "senal_relacionada",
+                                               "contexto":  "uk-charts",
+                                               "fecha":  "2026-10-26"
+                                           },
+                                           {
+                                               "url":  "https://newengen.com/insights/october-tiktok-trends/",
+                                               "metrica":  "Trend #6 de la lista de octubre de 2026 (actualizada el 26-oct; sigue en el #6 de la semanal sin actualización posterior). Lista de marketing: señal tardía",
+                                               "tipo":  "estimado",
+                                               "mide":  "senal_relacionada",
+                                               "contexto":  "tiktok-en",
+                                               "fecha":  "2026-10-26"
+                                           },
+                                           {
+                                               "url":  "https://www.24horas.cl/tendencias/redes-sociales/te-ibas-a-casar-con-mi-hija-este-mes-padre-detiene-boda-de-su-yerno",
+                                               "metrica":  "Búsqueda web del 31-oct (\u0027detengan la boda\u0027 / \u0027paren la boda\u0027 + TikTok): solo noticias de bodas interrumpidas, ninguna versión del carrusel. Confirma que está sin adaptar",
+                                               "tipo":  "medido",
+                                               "mide":  "senal_relacionada",
+                                               "contexto":  "tiktok-es",
+                                               "fecha":  "2026-10-31"
+                                           }
+                                       ],
+                         "historial":  [
+                                           {
+                                               "fecha":  "2026-10-26",
+                                               "etapa":  "pico",
+                                               "indice_saturacion":  59,
+                                               "senal":  "La canción está en el #6 global y en el Top 10 del Reino Unido, y el formato aparece en listas de marketing (señal tardía) → pico en inglés. Dos búsquedas (una con \u0027detengan/paren la boda\u0027) sin versiones en español → arbitraje de idioma y de nicho (historia)."
+                                           },
+                                           {
+                                               "fecha":  "2026-10-31",
+                                               "etapa":  "pico",
+                                               "indice_saturacion":  64,
+                                               "senal":  "Tercera comprobación en español, sin versiones. Cinco días más de edad en inglés sin datos nuevos: pico tardío probable. Toda la evidencia mide la canción o listas de blogs (señal relacionada): pasa a apuesta, solo como arbitraje sin el audio (ficha \u0027Detengan la boda\u0027 con bodas históricas)."
+                                           }
+                                       ],
+                         "archivado":  "2026-11-01",
+                         "motivo_archivo":  "Fuera de los nichos nuevos (2026-11-01): bodas y humor."
+                     },
+                     {
+                         "id":  "reto-illit-youre-under-arrest",
+                         "nombre":  "Coreografía de \u0027You\u0027re Under Arrest\u0027 (ILLIT)",
+                         "tipo":  "reto",
+                         "descripcion":  "Baile del sencillo \u0027You\u0027re Under Arrest\u0027 de ILLIT (lanzado el 26-oct-2026, EP BREAK EVEN) con gestos policiales: silbato, temblor de rodillas y pistola con los dedos. Sube en la muestra de TikTok cinco días después del lanzamiento.",
+                         "plataformas":  [
+                                             "tiktok",
+                                             "instagram",
+                                             "youtube"
+                                         ],
+                         "regiones":  [
+                                          "KR",
+                                          "US",
+                                          "MX"
+                                      ],
+                         "nichos":  [
+                                        "música y artistas"
+                                    ],
+                         "primera_vez_visto":  "2026-10-31",
+                         "etapa":  "crecimiento",
+                         "etapa_por_contexto":  {
+                                                    "tiktok-global":  "crecimiento",
+                                                    "tiktok-es":  "sin-verificar"
+                                                },
+                         "indice_saturacion":  38,
+                         "puntaje_oportunidad":  60,
+                         "puntaje_desglose":  "15 / 22 / 9 / 9 / 5",
+                         "ventana_hasta":  "2026-11-05",
+                         "confianza":  "baja",
+                         "genoma":  {
+                                        "gancho":  "Gesto de silbato y \u0027¡Estás arrestado!\u0027 en texto, mirando a cámara",
+                                        "estructura":  "Coreografía corta de un fragmento, en loop",
+                                        "emocion":  "Diversión y pertenencia al fandom",
+                                        "payoff":  "El remate con la pistola de dedos sincronizada con el beat",
+                                        "formato_tecnico":  "Vertical, 10-15 s, cuerpo completo; en pareja o en grupo",
+                                        "audio":  "La canción. Perecedera y con derechos: solo desde la biblioteca",
+                                        "edicion":  "Plano fijo o corte en el beat",
+                                        "arquetipo":  "Fan bailarín o \u0027policía\u0027 que arresta a un amigo",
+                                        "participacion":  "Reto copiable; etiquetar a quien \u0027arrestarías\u0027",
+                                        "contexto":  "Lanzamiento de K-pop (comeback de ILLIT)",
+                                        "perecederos":  [
+                                                            "audio"
+                                                        ]
+                                    },
+                         "evidencia":  [
+                                           {
+                                               "url":  "https://www.revid.ai/viral-tiktok-songs",
+                                               "metrica":  "\u0027You\u0027re Under Arrest (Preview)\u0027, #2 en la muestra semanal: 5 posts de 5 creadores, 4,8 M de vistas, Rising x1,5 (31-oct)",
+                                               "tipo":  "medido",
+                                               "mide":  "patron",
+                                               "contexto":  "tiktok-global",
+                                               "fecha":  "2026-10-31"
+                                           },
+                                           {
+                                               "url":  "https://www.bandwagon.asia/articles/illit-break-even-with-5th-ep-go-undercover-in-you-re-under-arrest-music-video-featuring-song-kang",
+                                               "metrica":  "Lanzamiento del 5.º mini álbum BREAK EVEN y del sencillo el 26-oct-2026",
+                                               "tipo":  "medido",
+                                               "mide":  "senal_relacionada",
+                                               "contexto":  "prensa-global",
+                                               "fecha":  "2026-10-31"
+                                           },
+                                           {
+                                               "url":  "https://www.media.io/ai/es/explore/zone/illit-youre-under-arrest-ai-dance",
+                                               "metrica":  "Páginas de generadores de baile con IA dedicadas a esta coreografía (silbato, temblor de rodillas, pistola de dedos): demanda de réplica; fuente promocional",
+                                               "tipo":  "estimado",
+                                               "mide":  "senal_relacionada",
+                                               "contexto":  "web-global",
+                                               "fecha":  "2026-10-31"
+                                           }
+                                       ],
+                         "historial":  [
+                                           {
+                                               "fecha":  "2026-10-31",
+                                               "etapa":  "crecimiento",
+                                               "indice_saturacion":  38,
+                                               "senal":  "Cinco días después del lanzamiento, #2 en la muestra de TikTok y subiendo (x1,5), con plantillas de baile ya disponibles. Sin conteo de videos ni verificación en español. Encaje medio con los nichos (baile)."
+                                           }
+                                       ],
+                         "archivado":  "2026-11-01",
+                         "motivo_archivo":  "Fuera de los nichos nuevos (2026-11-01): K-pop, no música urbana latina."
+                     },
+                     {
+                         "id":  "audio-two-fishes",
+                         "nombre":  "Two Fishes: defender con calma una opinión absurda",
+                         "tipo":  "audio",
+                         "descripcion":  "Audio de Corbin Mims (\u0027CorbinGPT\u0027, Love Island USA T8) explicando con calma que tener dos peces no obliga a devolver uno. Se usa en lip-sync con cara seria y texto en pantalla para \u0027ganar\u0027 una discusión absurda.",
+                         "plataformas":  [
+                                             "tiktok"
+                                         ],
+                         "regiones":  [
+                                          "US"
+                                      ],
+                         "nichos":  [
+                                        "humor y memes",
+                                        "inteligencia artificial y tecnología"
+                                    ],
+                         "primera_vez_visto":  "2026-10-26",
+                         "etapa":  "pico",
+                         "etapa_por_contexto":  {
+                                                    "tiktok-en":  "pico",
+                                                    "tiktok-es":  "sin-adaptar"
+                                                },
+                         "indice_saturacion":  64,
+                         "puntaje_oportunidad":  55,
+                         "puntaje_desglose":  "10 / 22 / 10 / 9 / 4",
+                         "ventana_hasta":  "2026-11-06",
+                         "confianza":  "baja",
+                         "genoma":  {
+                                        "gancho":  "Texto en pantalla con una opinión absurda o mezquina, frente a una cara totalmente seria (contraste)",
+                                        "estructura":  "Lip-sync único en plano fijo, de 7 a 15 s",
+                                        "emocion":  "Risa e identificación (\u0027literal yo discutiendo con mi mamá\u0027)",
+                                        "payoff":  "El remate lógico e impecable del audio \u0027gana\u0027 la discusión",
+                                        "formato_tecnico":  "Cara a cámara, texto en pantalla, vertical, menos de 15 s",
+                                        "audio":  "Voz de Corbin Mims, de un programa de TV con derechos de la cadena. Perecedera y solo en inglés",
+                                        "edicion":  "Sin cortes",
+                                        "arquetipo":  "El razonador imperturbable (\u0027CorbinGPT\u0027, la calma de una IA)",
+                                        "participacion":  "Plantilla de opinión rellenable; contraargumentos en comentarios",
+                                        "contexto":  "Reality de verano (Love Island USA T8) sobre una base perenne (discusiones familiares)",
+                                        "perecederos":  [
+                                                            "audio"
+                                                        ]
+                                    },
+                         "evidencia":  [
+                                           {
+                                               "url":  "https://newengen.com/insights/tiktok-trends/",
+                                               "metrica":  "Trend #1 de la lista semanal actualizada el 26-oct-2026 (sin actualización posterior al 31-oct). Lista de marketing: señal tardía",
+                                               "tipo":  "estimado",
+                                               "mide":  "senal_relacionada",
+                                               "contexto":  "tiktok-en",
+                                               "fecha":  "2026-10-26"
+                                           },
+                                           {
+                                               "url":  "https://www.sozee.ai/resources/upcoming-tiktok-trends/",
+                                               "metrica":  "Entre los trends \u0027peaking this week\u0027 (semana del 17-oct-2026); citado como \u0027el audio de discusión que define la semana\u0027",
+                                               "tipo":  "estimado",
+                                               "mide":  "senal_relacionada",
+                                               "contexto":  "tiktok-en",
+                                               "fecha":  "2026-10-26"
+                                           },
+                                           {
+                                               "url":  "https://tribune.com.pk/story/2617842/love-island-usas-corbin-mims-reacts-to-viral-corbingpt-memes",
+                                               "metrica":  "Memes \u0027CorbinGPT\u0027 virales en julio de 2026 (contexto del origen; sin métrica)",
+                                               "tipo":  "estimado",
+                                               "mide":  "senal_relacionada",
+                                               "contexto":  "prensa-global",
+                                               "fecha":  "2026-10-26"
+                                           }
+                                       ],
+                         "historial":  [
+                                           {
+                                               "fecha":  "2026-10-26",
+                                               "etapa":  "pico",
+                                               "indice_saturacion":  58,
+                                               "senal":  "Aparece en al menos 3 listas de marketing de octubre (señal tardía) y el meme de origen es de julio → pico en inglés. Sin conteo de videos. No se hallaron versiones en español (las fuentes señalan que todos los audios del mes están en inglés)."
+                                           },
+                                           {
+                                               "fecha":  "2026-10-31",
+                                               "etapa":  "pico",
+                                               "indice_saturacion":  64,
+                                               "senal":  "Sin datos nuevos; cinco días más de edad en pico. Toda la evidencia es de listas de blogs y el audio solo existe en inglés: baja a 55 (bajo el umbral). Su estructura ya está aprovechada en la ficha \u0027La IA defiende lo indefendible\u0027."
+                                           }
+                                       ],
+                         "archivado":  "2026-11-01",
+                         "motivo_archivo":  "Fuera de los nichos nuevos (2026-11-01) y en pico en inglés desde el ciclo 1."
+                     },
+                     {
+                         "id":  "audio-housewife-tate-mcrae",
+                         "nombre":  "\u0027Housewife\u0027 (Tate McRae) para revelar outfit o trabajo",
+                         "tipo":  "audio",
+                         "descripcion":  "Canción \u0027Housewife\u0027 de Tate McRae (octubre de 2026), usada para revelar un outfit o el trabajo real del creador, a menudo con contraste irónico (#tradwife, #gymgirl).",
+                         "plataformas":  [
+                                             "tiktok",
+                                             "instagram"
+                                         ],
+                         "regiones":  [
+                                          "US"
+                                      ],
+                         "nichos":  [
+                                        "música y artistas",
+                                        "general (cualquier contenido altamente viral)"
+                                    ],
+                         "primera_vez_visto":  "2026-10-26",
+                         "etapa":  "pico",
+                         "etapa_por_contexto":  {
+                                                    "tiktok-en":  "pico",
+                                                    "tiktok-es":  "sin-verificar"
+                                                },
+                         "indice_saturacion":  60,
+                         "puntaje_oportunidad":  50,
+                         "puntaje_desglose":  "12 / 8 / 12 / 10 / 8",
+                         "ventana_hasta":  "2026-11-02",
+                         "confianza":  "media",
+                         "genoma":  {
+                                        "gancho":  "Texto \u0027ama de casa\u0027 (o un outfit) y mirada fija a cámara",
+                                        "estructura":  "Revelación del outfit o del trabajo, sincronizada con el compás",
+                                        "emocion":  "Aspiración e ironía",
+                                        "payoff":  "La revelación del contraste (la \u0027ama de casa\u0027 resulta ser cirujana, mecánica, etc.)",
+                                        "formato_tecnico":  "Cara a cámara o cuerpo completo, vertical, 10-15 s, con texto",
+                                        "audio":  "\u0027Housewife\u0027. Perecedero y con derechos: solo desde la biblioteca",
+                                        "edicion":  "Transición en el beat",
+                                        "arquetipo":  "Aspiracional o irónico",
+                                        "participacion":  "Plantilla copiable",
+                                        "contexto":  "Lanzamiento musical",
+                                        "perecederos":  [
+                                                            "audio"
+                                                        ]
+                                    },
+                         "evidencia":  [
+                                           {
+                                               "url":  "https://tokchart.com/",
+                                               "metrica":  "238.000 videos UGC, +39.400 (+19,84 %); primer video hace 1 semana (26-oct)",
+                                               "tipo":  "medido",
+                                               "mide":  "patron",
+                                               "contexto":  "tiktok-global",
+                                               "fecha":  "2026-10-26"
+                                           },
+                                           {
+                                               "url":  "https://kworb.net/spotify/country/global_daily.html",
+                                               "metrica":  "#1 en Spotify Global con 6.254.852 reproducciones diarias (25-oct-2026)",
+                                               "tipo":  "medido",
+                                               "mide":  "senal_relacionada",
+                                               "contexto":  "spotify-global",
+                                               "fecha":  "2026-10-26"
+                                           },
+                                           {
+                                               "url":  "https://www.revid.ai/viral-tiktok-songs",
+                                               "metrica":  "#2 en la muestra semanal: 10 posts de 10 creadores, 4,5 M de vistas, Rising x1,4 (26-oct; conteo de la muestra)",
+                                               "tipo":  "medido",
+                                               "mide":  "patron",
+                                               "contexto":  "tiktok-global",
+                                               "fecha":  "2026-10-26"
+                                           },
+                                           {
+                                               "url":  "https://www.revid.ai/viral-tiktok-songs",
+                                               "metrica":  "#3 en la muestra semanal: 4 posts de 4 creadores, 2,2 M de vistas, \u0027Steady\u0027 (31-oct): deja de acelerar",
+                                               "tipo":  "medido",
+                                               "mide":  "patron",
+                                               "contexto":  "tiktok-global",
+                                               "fecha":  "2026-10-31"
+                                           }
+                                       ],
+                         "historial":  [
+                                           {
+                                               "fecha":  "2026-10-26",
+                                               "etapa":  "crecimiento",
+                                               "indice_saturacion":  42,
+                                               "senal":  "Una semana de vida, +19,84 % de videos y en subida en la muestra de revid, pero ya está en listas de marketing y en el #1 global. Crecimiento acelerado; en tendencias de canciones de 1-2 semanas el pico suele llegar pronto."
+                                           },
+                                           {
+                                               "fecha":  "2026-10-31",
+                                               "etapa":  "pico",
+                                               "indice_saturacion":  60,
+                                               "senal":  "Aceleración frenada dos lecturas seguidas: en revid pasa de Rising x1,4 (10 posts) a Steady (4 posts), y sale de la portada de tokchart. Sigue en listas de marketing (#12 en newengen). Pico: no recomendar."
+                                           }
+                                       ],
+                         "archivado":  "2026-11-01",
+                         "motivo_archivo":  "Fuera de los nichos nuevos (2026-11-01): pop en inglés; en pico desde el ciclo 2."
+                     },
+                     {
+                         "id":  "formato-ramalama-costume-walk",
+                         "nombre":  "Ramalama costume walk: revelación de disfraz desde los pies",
+                         "tipo":  "formato",
+                         "descripcion":  "Cámara baja que solo muestra piernas y zapatos avanzando; al golpe de batería se abre el plano y aparece el disfraz completo. Usa \u0027Ramalama (Bang Bang)\u0027 de Róisín Murphy y vuelve desde 2025.",
+                         "plataformas":  [
+                                             "tiktok",
+                                             "instagram"
+                                         ],
+                         "regiones":  [
+                                          "US",
+                                          "MX"
+                                      ],
+                         "nichos":  [
+                                        "general (cualquier contenido altamente viral)",
+                                        "humor y memes"
+                                    ],
+                         "primera_vez_visto":  "2026-10-26",
+                         "etapa":  "saturacion",
+                         "etapa_por_contexto":  {
+                                                    "tiktok-en":  "saturacion",
+                                                    "tiktok-mx":  "pico"
+                                                },
+                         "indice_saturacion":  76,
+                         "puntaje_oportunidad":  28,
+                         "puntaje_desglose":  "12 / 0 / 10 / 6 / 0",
+                         "ventana_hasta":  "2026-10-31",
+                         "confianza":  "media",
+                         "genoma":  {
+                                        "gancho":  "Pies y piernas en plano bajo, sin texto: intriga de \u0027¿quién es?\u0027",
+                                        "estructura":  "Acercamiento lento hasta la revelación",
+                                        "emocion":  "Asombro y aspiración",
+                                        "payoff":  "La revelación del disfraz",
+                                        "formato_tecnico":  "Teléfono en el suelo, plano fijo, 10-15 s, sin texto ni voz",
+                                        "audio":  "\u0027Ramalama (Bang Bang)\u0027. Perecedero",
+                                        "edicion":  "Corte en el golpe de batería",
+                                        "arquetipo":  "Personaje disfrazado",
+                                        "participacion":  "Plantilla copiable",
+                                        "contexto":  "Estacional (Halloween)",
+                                        "perecederos":  [
+                                                            "audio",
+                                                            "contexto"
+                                                        ]
+                                    },
+                         "evidencia":  [
+                                           {
+                                               "url":  "https://www.sozee.ai/resources/upcoming-tiktok-trends/",
+                                               "metrica":  "456.200 videos a mediados de oct-2026; un clip del 6-oct alcanzó 12,4 M de reproducciones en 5 días (citado de segunda mano)",
+                                               "tipo":  "estimado",
+                                               "mide":  "patron",
+                                               "contexto":  "tiktok-en",
+                                               "fecha":  "2026-10-26"
+                                           },
+                                           {
+                                               "url":  "https://www.socialpilot.co/blog/tiktok-trends",
+                                               "metrica":  "Etapa \u0027Peak\u0027, 456,2 K videos; dura hasta el 31-oct",
+                                               "tipo":  "estimado",
+                                               "mide":  "patron",
+                                               "contexto":  "tiktok-en",
+                                               "fecha":  "2026-10-26"
+                                           },
+                                           {
+                                               "url":  "https://www.revid.ai/viral-tiktok-songs",
+                                               "metrica":  "#17 en la muestra semanal, 5 posts de 3 creadores, en enfriamiento (\u0027Cooling\u0027)",
+                                               "tipo":  "medido",
+                                               "mide":  "patron",
+                                               "contexto":  "tiktok-global",
+                                               "fecha":  "2026-10-26"
+                                           },
+                                           {
+                                               "url":  "https://tokchart.com/es-mx/audios-de-tiktok",
+                                               "metrica":  "#6 en TikTok México: 539 K videos, +14.900 al día (31-oct)",
+                                               "tipo":  "medido",
+                                               "mide":  "patron",
+                                               "contexto":  "tiktok-mx",
+                                               "fecha":  "2026-10-31"
+                                           }
+                                       ],
+                         "historial":  [
+                                           {
+                                               "fecha":  "2026-10-26",
+                                               "etapa":  "pico",
+                                               "indice_saturacion":  68,
+                                               "senal":  "Más de 456 K videos, en todas las listas y enfriándose en la muestra de revid; muere el 31-oct. No recomendar: solo su estructura (plano bajo y revelación) sirve como gen estructural."
+                                           },
+                                           {
+                                               "fecha":  "2026-10-31",
+                                               "etapa":  "saturacion",
+                                               "indice_saturacion":  76,
+                                               "senal":  "539 K videos y todavía +14,9 K al día en México el mismo día de Halloween, pero es el último día del contexto estacional. Saturación; el próximo ciclo pasa a quemado."
+                                           }
+                                       ],
+                         "archivado":  "2026-11-01",
+                         "motivo_archivo":  "Fuera de los nichos nuevos (2026-11-01) y estacional (Halloween) ya vencido; en saturación el 31-oct (564 K videos en TikTok México el 01-nov)."
+                     }
+                 ]
 }
