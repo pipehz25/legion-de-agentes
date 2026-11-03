@@ -33,7 +33,8 @@
   "max_similares_por_ciclo": 2,
   "excluir": [
     "reality shows y concursos de televisión (La Granja VIP, La Casa de los Famosos y similares) y todo lo que salga de ellos",
-    "chisme y farándula de televisión"
+    "chisme y farándula de televisión",
+    "casos judiciales, detenciones y escándalos legales de famosos o presentadores (como el caso de Inés Gómez Mont)"
   ],
   "plataformas": ["tiktok", "youtube", "instagram", "facebook", "x", "twitch", "kick", "reddit"],
 
