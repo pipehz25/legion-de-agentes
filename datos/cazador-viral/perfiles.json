@@ -1,9 +1,11 @@
 {
-  "actualizado": "2026-11-01T23:20:00-05:00",
+  "actualizado": "2026-11-02T21:05:00-05:00",
   "notas": [
     "Creado en el ciclo 3 (2026-11-01) con la lista del usuario (config.perfiles). Los @handle de YouTube fallan en yt-dlp: usa siempre el channel_url con id UC....",
-    "Las redes sociales (Instagram, TikTok, X) de los cantantes no se verificaron en este ciclo, por falta de presupuesto web. Quedan en null, no se adivinan. Los Instagram de los tres empresarios los confirmó el usuario el 01-nov (vía orquestador): @rrautosdiego, @sospinagu y @sebastiansuaarez0. Instagram se lee con WebFetch sin iniciar sesión (nombre, bio, seguidores y enlaces), pero el Clipero no puede transcribirlo.",
-    "Candidatos a similares para próximos ciclos (máximo 2 por ciclo): Ovy On The Drums / W Sound, el proyecto musical de Westcol ('Happy Monday - W Sound 10', #4 en Spotify CO con 172.173 reproducciones el 31-oct; W Sound 09 con J Balvin; W Sound 08 'Pico y Chao' con Kris R; productor de 'AMISTA' de Blessd). También Daren Ramirez (canal de negocios que entrevista a Diego RR Autos) y David Vélez (fundador de Nubank, entrevistado por Westcol hace ~31 días)."
+    "Las redes sociales (Instagram, TikTok, X) de los cantantes no se verificaron, por falta de presupuesto web: quedan en null y no se adivinan. Excepción: el Instagram de Peso Pluma (@pesopluma), leído el 02-nov. Los Instagram de los tres empresarios los confirmó el usuario el 01-nov: @rrautosdiego, @sospinagu y @sebastiansuaarez0. Instagram se lee con WebFetch sin iniciar sesión (nombre, bio, seguidores y enlaces), aunque a veces no carga (@lonchedehuevito, 02-nov), y el Clipero no puede transcribirlo.",
+    "Ciclo 4 (02-nov): 'canal' puede no ver una subida muy reciente. No listó 'PARADIXE (REMIX)' de Feid, publicado 3,5 h antes, porque la pestaña de videos aún no lo mostraba y la extracción completa lo atribuye a otro id (UCc3e8O2V5_7OA300ursDyFQ, sin pestaña de videos). Para los cantantes, completa siempre con 'buscar \"<nombre>\" -Hoy -Detalle' o '-Recientes -Detalle'.",
+    "Ciclo 4: en 'canal', el resultado '(0 subidas)' con archivo significa que hubo subidas dentro del margen de 84 h, pero ninguna dentro de las 36 h. El listado de Kick funciona y está al día: The Chanty tenía un VOD de 27 h y Westcol uno de 6 h.",
+    "Candidatos a similares para próximos ciclos (máximo 2 por ciclo): Ovy On The Drums / Hades66 por la W Sound 10 (el proyecto musical de Westcol; Westcol habló de su éxito en su regreso del 02-nov y La Mesita Podcast reaccionó con 73.000 vistas); Yolo Aventuras (sale en el Ferrari con Lonche); La Ganga (el grupo de Westcol); Daren Ramirez (canal de negocios que entrevista a Diego RR Autos); David Vélez (fundador de Nubank, entrevistado por Westcol)."
   ],
   "perfiles": [
     {
@@ -19,9 +21,9 @@
       "verificacion": "La búsqueda de YouTube 'Maluma' (01-nov) devuelve este canal con sus videos oficiales: 'Felices los 4' (1.995 M de vistas), 'Hawái' (1.239 M) y 'Borro Cassette' (1.380 M).",
       "candidatos": [],
       "evidencia_similar": null,
-      "ultima_revision": "2026-11-01T22:53:00-05:00",
+      "ultima_revision": "2026-11-02T20:38:44-05:00",
       "ultimas_subidas": [],
-      "nota": "Sin subidas en 36 h. La última es 'Maluma, Shakira - WATER (Official Lyric Video)', de hace unas 148 h (fecha aproximada al día). En la búsqueda de apariciones de hoy solo salen recopilaciones musicales de terceros, excluidas por derechos.",
+      "nota": "Sin subidas en 36 h (revisado el 02-nov a las 00:34 y a las 20:38). La última es 'Maluma, Shakira - WATER (Official Lyric Video)', de hacia el 26-oct.",
       "apariciones_en_ventana": []
     },
     {
@@ -37,9 +39,9 @@
       "verificacion": "La búsqueda de YouTube 'J Balvin' (01-nov) devuelve este canal con sus videos oficiales: 'Ay Vamos' (2.290 M de vistas), '6 AM' (1.334 M) y 'Safari' (1.420 M).",
       "candidatos": [],
       "evidencia_similar": null,
-      "ultima_revision": "2026-11-01T22:53:00-05:00",
+      "ultima_revision": "2026-11-02T20:39:01-05:00",
       "ultimas_subidas": [],
-      "nota": "Sin subidas en 36 h. En la búsqueda de apariciones de hoy solo salen mixes y videos con letra de terceros, excluidos. Está en el W Sound 09 ('Godzila') con Westcol y Ovy On The Drums.",
+      "nota": "Sin subidas en 36 h (02-nov, 00:34 y 20:39). Está en el W Sound 09 ('Godzila') con Westcol y Ovy On The Drums. No estuvo en el Awooween: era uno de los rumores, pero no figura entre los nueve invitados publicados.",
       "apariciones_en_ventana": []
     },
     {
@@ -57,12 +59,10 @@
       "verificacion": "La búsqueda de YouTube 'Kris R cantante' (01-nov) devuelve el canal 'Kris R.' con sus videos oficiales: 'GANAS' (50,5 M), 'GAMINA' (30,3 M) y '4LIFE' (12,9 M). 'GAMINA' es #7 en Spotify Colombia (kworb, 31-oct).",
       "candidatos": [],
       "evidencia_similar": null,
-      "ultima_revision": "2026-11-01T22:53:00-05:00",
+      "ultima_revision": "2026-11-02T20:39:07-05:00",
       "ultimas_subidas": [],
-      "nota": "Sin subidas en 36 h. La búsqueda de apariciones de la semana no devolvió nada dentro de las 36 h. Solo hay un podcast pequeño que habla de un concierto suyo.",
-      "apariciones_en_ventana": [
-        { "url": "https://www.youtube.com/watch?v=hSV5nuZ5w_I", "titulo": "KRIS R y el TRAP DE BOGOTÁ: crítica al CONCIERTO y lo que pasó en el BACKSTAGE", "canal": "ElWerik Podcast", "publicado": "2026-10-31T21:09:49-05:00", "vistas": 2, "nota": "Se habla de él; no aparece" }
-      ]
+      "nota": "Sin subidas en 36 h (02-nov, 00:34 y 20:39) ni apariciones en persona. Corrección del 02-nov: el podcast de ElWerik ('KRIS R y el TRAP DE BOGOTÁ', 11 suscriptores, 2 vistas) se retira como aparición, porque Kris R no sale en él y el canal no tiene audiencia; no vuelve como fuente. Su próximo momento es el concierto del 20-nov en Medellín.",
+      "apariciones_en_ventana": []
     },
     {
       "nombre": "Blessd",
@@ -79,12 +79,10 @@
       "verificacion": "La búsqueda de YouTube 'Blessd' (01-nov) devuelve el canal 'SIEMPRE BLESSD 💙' con sus videos oficiales: 'YOGURCITO' (193 M), 'SUPERSTAR' (77,5 M) y 'MERO TOTE' (40,1 M). Tiene 5 canciones en el top 40 de Spotify Colombia (kworb, 31-oct).",
       "candidatos": [],
       "evidencia_similar": null,
-      "ultima_revision": "2026-11-01T22:54:00-05:00",
+      "ultima_revision": "2026-11-02T20:39:13-05:00",
       "ultimas_subidas": [],
-      "nota": "Sin subidas en 36 h. La búsqueda 'Blessd' mezcla resultados religiosos en inglés ('blessed'); conviene probar con 'Blessd entrevista' o 'Blessd podcast'.",
-      "apariciones_en_ventana": [
-        { "url": "https://www.youtube.com/watch?v=tLTcYKphXdw", "titulo": "Viajando con blessd🔹", "canal": "Yeison guardo", "publicado": "2026-11-01T13:22:01-05:00", "vistas": 14298 }
-      ]
+      "nota": "Sin subidas en 36 h (02-nov, 20:39; a las 00:34 hubo subidas dentro del margen de 84 h, pero ninguna dentro de 36 h). 'Blessd entrevista' (-Recientes) también mezcla resultados religiosos en inglés: probar 'Blessd podcast' o el nombre de su sello. 'Viajando con blessd' ya lo analizó el Clipero.",
+      "apariciones_en_ventana": []
     },
     {
       "nombre": "Ryan Castro",
@@ -99,13 +97,35 @@
       "verificacion": "La búsqueda de YouTube 'Ryan Castro' (01-nov) devuelve este canal con sus videos oficiales: 'Monastery' con Feid (575 M), 'EL RITMO QUE NOS UNE' (193 M) y 'HOPI SENDÉ (Live Session - Medellín, Comuna 13) [2026]'.",
       "candidatos": [],
       "evidencia_similar": null,
-      "ultima_revision": "2026-11-01T22:54:00-05:00",
+      "ultima_revision": "2026-11-02T20:39:19-05:00",
       "ultimas_subidas": [],
-      "nota": "Sin subidas en 36 h en su canal. El 31-oct dio el concierto Awooween en El Campín (agotado en una hora; Feid de invitado según El Heraldo): salen recortes y vlogs de fans.",
+      "nota": "Sin subidas en 36 h en su canal. El 31-oct dio el concierto Awooween en El Campín: más de 53.000 personas según El Colombiano, y nueve invitados según Publimetro y El Colombiano (Farruko, Hamilton, Ñejo, Reik, Maisak, Tito el Bambino, Aria Vega, Jorge Celedón y Jhonny Rivera). Feid no estuvo: Aria Vega salió disfrazada de él y cantaron 'Monastery'. La búsqueda '-Recientes' de 36 h solo encuentra el recorte de La Vuelta Reacciones.",
       "apariciones_en_ventana": [
-        { "url": "https://www.youtube.com/watch?v=Z1VUghXaEIM", "titulo": "Concierto Ryan Castro | 31 de Octubre 2026 | Estadio El Campín Bogotá | Awooween (4K)", "canal": "La Vuelta Reacciones", "publicado": "2026-11-01T11:00:16-05:00", "vistas": 12427 },
-        { "url": "https://www.youtube.com/watch?v=GBvB5F-zSMc", "titulo": "Una marca me invitó al concierto de Ryan Castro… Terminé viviendo una noche INCREÍBLE con el Tio 😳🔥", "canal": "Danigoals", "publicado": "2026-11-01T21:52:14-05:00", "vistas": 25 }
+        { "url": "https://www.youtube.com/watch?v=Z1VUghXaEIM", "titulo": "Concierto Ryan Castro | 31 de Octubre 2026 | Estadio El Campín Bogotá | Awooween (4K)", "canal": "La Vuelta Reacciones", "publicado": "2026-11-01T11:00:16-05:00", "vistas": 23005, "aparece": true, "nota": "Medido el 02-nov a las 20:49. Sin subtítulos: pendiente en el Clipero" }
       ]
+    },
+    {
+      "nombre": "Peso Pluma",
+      "nicho": "música urbana: cantantes jóvenes",
+      "origen": "usuario",
+      "estado": "resuelto",
+      "cuentas": {
+        "youtube": "https://www.youtube.com/channel/UCzrM_068Odho89mTRrrxqbA",
+        "kick": null, "twitch": null,
+        "instagram": "https://www.instagram.com/pesopluma",
+        "tiktok": null, "x": null
+      },
+      "canales_relacionados": [
+        { "url": "https://www.youtube.com/channel/UChYwYTzrhfxPfJPFWRlYwUg", "que_es": "DEL Records: sello que publicó 'Ella Baila Sola' con Eslabon Armado (815 M de vistas)" },
+        { "url": "https://www.youtube.com/channel/UC-RscjuplLE_66X_ewn97Ow", "que_es": "Prajin Music Group: sello que publicó 'Por Las Noches' (382 M)" }
+      ],
+      "verificacion": "La búsqueda de YouTube 'Peso Pluma' (02-nov) devuelve el canal 'Peso Pluma' con sus videos oficiales: 'NUEVA VIDA' (685 M de vistas), 'Hollywood' con Estevan Plazola (518 M), 'LA PATRULLA' con Neton Vega (315 M) y 'RUBICON' (293 M). Instagram @pesopluma, leído el 02-nov: verificado, 15,7 M de seguidores y nombre visible 'La Doble P'. No se le encontró Kick ni Twitch. Ojo: los podcasts llamados 'Peso Pluma' en Apple Podcasts son series hechas con IA (Inception Point AI), no entrevistas suyas.",
+      "candidatos": [],
+      "evidencia_similar": null,
+      "ultima_revision": "2026-11-02T20:43:08-05:00",
+      "ultimas_subidas": [],
+      "nota": "Añadido por el usuario. Sin subidas en 36 h (02-nov, 00:23 y 20:38). Tampoco tiene apariciones en persona: las búsquedas 'Peso Pluma' (-Hoy y -Recientes), 'Peso Pluma entrevista' y 'Peso Pluma podcast' solo traen videoclips con letra, mixes y mashups de terceros, excluidos por derechos y porque él no aparece. La web no muestra entrevistas ni apariciones anunciadas para noviembre.",
+      "apariciones_en_ventana": []
     },
     {
       "nombre": "Sebastián Suárez",
@@ -127,7 +147,7 @@
       "evidencia_similar": null,
       "ultima_revision": "2026-11-01T23:20:00-05:00",
       "ultimas_subidas": [],
-      "nota": "No se le encontró canal propio de YouTube ni Kick: publica en Instagram, de donde el Clipero no puede transcribir. Para clips, vigilar sus entrevistas en podcasts. En la web no aparece nada sobre BLIM ni @somosblim.",
+      "nota": "No se le encontró canal propio de YouTube ni Kick: publica en Instagram, de donde el Clipero no puede transcribir. No se revisó en el ciclo 4 (no tiene canal que revisar). Para clips, vigilar sus entrevistas en podcasts.",
       "apariciones_en_ventana": []
     },
     {
@@ -150,9 +170,9 @@
       "verificacion": "Instagram @sospinagu confirmado por el usuario (01-nov): Santiago Ospina Gutierrez, verificado, 359 K seguidores, bio 'Empresario multisectorial, papá y esposo / ING CIVIL / Construyo edificios, casas de lujo, marcas y sueños'. La 'X' es XHobbies: el canal de YouTube 'Santi Ospina' (UCB6mKhj6nBrBnUB0D6EHGUg) publica '¿QUÉ PASÓ CON XHOBBIES? | SOSPINAGU' (93 min), con su mismo @, y Camino al Éxito lo presenta como 'Santiago Ospina (X Hobbies)'.",
       "candidatos": [],
       "evidencia_similar": null,
-      "ultima_revision": "2026-11-01T23:20:00-05:00",
+      "ultima_revision": "2026-11-02T20:39:34-05:00",
       "ultimas_subidas": [],
-      "nota": "Sin subidas en 36 h en 'Santi Ospina' ni en '¿Cómo fue? Podcast', y la búsqueda de apariciones de la semana ('Santiago Ospina', -Recientes, 36 h) no devolvió nada. 'Santi Ospina' está poco activo: sus últimas subidas son de alrededor del 02-jul-2026 (fecha aproximada), con 56-517 vistas ('A day creating content for BANGK', una charla en la FERIA DIGITALEX y un tour de una casa de lujo en obra en Las Palmas). Publica sobre todo en Instagram. No se encontró Kick, TikTok ni X.",
+      "nota": "Sin subidas en 36 h en 'Santi Ospina' (02-nov, 00:35 y 20:39). El canal está poco activo desde alrededor del 02-jul-2026 y él publica sobre todo en Instagram. No se encontró Kick, TikTok ni X.",
       "apariciones_en_ventana": []
     },
     {
@@ -178,9 +198,9 @@
       "verificacion": "Instagram @rrautosdiego confirmado por el usuario (01-nov), verificado, con 113 K seguidores y bio 'CEO @rrautos @rrprestigevip @diegorrautos'. El canal 'Diego RR AUTOS' publica entregas de autos de lujo (Lamborghini Temerario 2027), el 'PODCAST RR AUTOS' y contenido del concesionario. Los clips de Westcol lo llaman 'Diego de RR Autos', y RR AUTOS tiene tienda oficial en Mercado Libre con sede en El Poblado, Medellín (bio.site/rrautos). No se encontró Kick, X ni TikTok personal.",
       "candidatos": [],
       "evidencia_similar": null,
-      "ultima_revision": "2026-11-01T22:55:00-05:00",
+      "ultima_revision": "2026-11-02T20:39:25-05:00",
       "ultimas_subidas": [],
-      "nota": "Sin subidas en 36 h. La búsqueda de apariciones de la semana ('RR Autos Diego') no devolvió nada dentro de las 36 h. Su vínculo con Westcol (mansión de streamers) hace que sus apariciones suelan llegar por los canales de clips de Westcol.",
+      "nota": "Sin subidas en 36 h (02-nov, 00:34 y 20:39). Su vínculo con Westcol hace que sus apariciones suelan llegar por los canales de clips de Westcol: vigilar los recortes del regreso de Westcol (02-nov).",
       "apariciones_en_ventana": []
     },
     {
@@ -194,31 +214,87 @@
         "twitch": null, "instagram": null, "tiktok": null, "x": null
       },
       "canales_relacionados": [
-        { "url": "https://www.youtube.com/channel/UCB5rTP4yAattbdxABS59TMg", "que_es": "WestClips: canal de clips de sus directos" },
-        { "url": "https://www.youtube.com/channel/UCLO0dqi1_XNLkD6biwi-iOw", "que_es": "Westconsin: cortes largos de sus directos (títulos traducidos al inglés). Última subida hace unos 31 días: la entrevista a David Vélez, fundador de Nubank" },
-        { "url": "https://www.youtube.com/channel/UCg34cRW43lvPkMGfj8TLpjA", "que_es": "Westcol Clips: solo Shorts" }
+        { "url": "https://www.youtube.com/channel/UCB5rTP4yAattbdxABS59TMg", "que_es": "WestClips: canal de clips de sus directos (sin subidas en 36 h el 02-nov a las 20:49)" },
+        { "url": "https://www.youtube.com/channel/UCLO0dqi1_XNLkD6biwi-iOw", "que_es": "Westconsin: cortes largos de sus directos (títulos traducidos al inglés). Última subida hacia el 01-oct: la entrevista a David Vélez, fundador de Nubank" },
+        { "url": "https://www.youtube.com/channel/UCg34cRW43lvPkMGfj8TLpjA", "que_es": "Westcol Clips: solo Shorts" },
+        { "url": "https://www.youtube.com/watch?v=8L8CP3xe3Qo", "que_es": "WestcolClips (otro canal, 4,6 K suscriptores): sube recortes largos de sus directos. La descripción enlaza kick.com/westcol" },
+        { "url": "https://www.youtube.com/watch?v=MBotzCroy1Q", "que_es": "juan diego mm (114 K suscriptores): recortes largos de sus directos" },
+        { "url": "https://www.youtube.com/watch?v=RPs9ahaF2Rg", "que_es": "🐢Alancitu🐢 (26,3 K suscriptores): recortes de sus directos" }
       ],
       "verificacion": "Pistas verificadas por el orquestador (2026-11-01): WestCOL es el canal oficial, donde sube directos completos, y kick.com/westcol es su Kick.",
       "candidatos": [],
       "evidencia_similar": null,
-      "ultima_revision": "2026-11-01T22:52:00-05:00",
-      "ultimas_subidas": [],
-      "nota": "Sin subidas en 36 h en YouTube, en Kick, en WestClips ni en Westconsin. Según el orquestador, su último directo en Kick fue hace unos 9 días (viaje por España). Hay una polémica activa por la muerte del streamer Komanche (videos de Green Space, 4.654 vistas/h); queda excluida por regla, porque explota una tragedia y acusaciones de abuso.",
-      "apariciones_en_ventana": []
+      "ultima_revision": "2026-11-02T20:49:27-05:00",
+      "ultimas_subidas": [
+        { "url": "https://kick.com/westcol/videos/01a19dbf-c468-7bbd-9bdf-7e7a53d23a81", "titulo": "IM BACK", "publicado": "2026-11-02T14:32:33-05:00", "vistas": 338551, "nota": "Directo de 5 h 5 min en Kick tras unos 10 días sin emitir: 55.500 vistas por hora a las 20:38" }
+      ],
+      "nota": "Vuelve a Kick el 02-nov con 'IM BACK'. En su canal de YouTube no hay subidas en 36 h. Del regreso hay tres recortes largos en YouTube (WestcolClips, juan diego mm y Alancitu) en los que habla de la W Sound 10 con Hades66, de un 'accidente aéreo en Florida' (sin verificar) y del hate que ha recibido. La polémica por la muerte de Komanche sigue: queda excluida. Según el orquestador, Lonche, La Ganga y Willito salen en títulos de sus directos, pero en esta ventana no hay ninguno con ellos.",
+      "apariciones_en_ventana": [
+        { "url": "https://www.youtube.com/watch?v=8L8CP3xe3Qo", "titulo": "ESTOY DE REGRESO - HABLANDO DEL ACCIDENTE AÉREO EN FLORIDA Y DEL ÉXITO DE LA W SOUND CON HADES66 🤯", "canal": "WestcolClips", "publicado": "2026-11-02T16:14:28-05:00", "vistas": 9456, "aparece": true },
+        { "url": "https://www.youtube.com/watch?v=MBotzCroy1Q", "titulo": "WESTCOL HABLANDO DE TODO Y HABLA DEL DISFRAZ QUE QUERÍA USAR", "canal": "juan diego mm", "publicado": "2026-11-02T16:06:54-05:00", "vistas": 4763, "aparece": true },
+        { "url": "https://www.youtube.com/watch?v=RPs9ahaF2Rg", "titulo": "WESTCOL REAPARECE pa HABLAR de TODO EL HATE que HA RECIBIDO y AGRADECE a STREAMERS q lo HAN APOYADO", "canal": "🐢Alancitu🐢", "publicado": "2026-11-02T17:07:59-05:00", "vistas": 2508, "aparece": true },
+        { "url": "https://www.youtube.com/watch?v=OqsKq4thcZA", "titulo": "WESTCOL REACCIONANDO A LOS TIK TOKS MÁS VIRALES", "canal": "Clipskick04", "publicado": "2026-11-01T16:58:10-05:00", "vistas": 2, "aparece": true, "nota": "Solo lo confirma el título; recorte de un directo antiguo" }
+      ]
+    },
+    {
+      "nombre": "Lonche",
+      "nicho": "streamers y creadores",
+      "origen": "usuario",
+      "estado": "resuelto",
+      "cuentas": {
+        "youtube": "https://www.youtube.com/channel/UCK_SIZkQhzMkI1LrHnCwB5A",
+        "kick": "https://kick.com/lonche/videos",
+        "twitch": null,
+        "instagram": "https://www.instagram.com/lonchedehuevito",
+        "tiktok": "https://www.tiktok.com/@lonchedehuevito",
+        "x": "https://x.com/LoncheDeHuevito"
+      },
+      "canales_relacionados": [
+        { "url": "https://www.youtube.com/channel/UCf2X0bOC9219beS6whmQhgw", "que_es": "Lonche y Willito (112 K suscriptores): directos recortados de los dos. La descripción enlaza kick.com/lonche y kick.com/willito" },
+        { "url": "https://www.youtube.com/channel/UCn08tJOVyDPJrLY334y--Ug", "que_es": "Lonche Chacas: recortes diarios de sus directos ('este video fue extraído del stream'). Enlaza su Instagram, TikTok y Kick, y los de Willito" },
+        { "url": "https://www.youtube.com/channel/UCgpDEGylZ9-eFZQxQ3qrnSQ", "que_es": "Lonche PRIME (1.960 suscriptores): recortes de directos ('todos los lives en kick.com/lonche')" },
+        { "url": "https://www.youtube.com/channel/UCFMbOZHCHRL2uYFRHC7SNzw", "que_es": "Lonche Kick (806 suscriptores): recortes sin descripción; no todos se pueden comprobar" },
+        { "url": "https://www.youtube.com/channel/UCYcHfo0uapsWOys9SDwwQdg", "que_es": "Lonche Jorobas: directos largos con Willito (Guatapé, Japón); sin subidas en 36 h" },
+        { "url": "https://www.youtube.com/channel/UCqDkhOrU6kDAPNtlSHPZ7gA", "que_es": "LONCHEVIP: recortes con títulos en inglés; sin subidas en 36 h" },
+        { "url": "https://www.youtube.com/channel/UC1Lh9hvdZt-5gZNS6OPkbwQ", "que_es": "Clipskick04 (9 suscriptores): recopila clips de varios streamers de Kick" },
+        { "url": "https://kick.com/willito/videos", "que_es": "Kick de Willito, su compañero de directos" }
+      ],
+      "verificacion": "Kick: kick.com/lonche, con 1,3 M de seguidores (página leída el 02-nov). Dexerto, con datos de StreamsCharts de noviembre de 2026, lo pone #13 de Kick con 1.239.064 seguidores, se llama Víctor Ordoñez y tiene 23 años (https://www.dexerto.com/kick/most-followed-kick-streamers-2890518/). La Razón dice que es de Los Mochis (Sinaloa) y que usa @LoncheDeHuevito en X (https://www.razon.com.mx/entretenimiento/2025/08/31/quien-es-lonche-y-por-que-yeri-mua-lo-hace-responsable-de-las-amenazas-de-muerte-que-recibio/). Los Instagram y TikTok salen de las descripciones de Lonche Chacas y de Lonche y Willito, porque la página de Instagram no cargó. El YouTube principal 'LoncheWey' es una inferencia: vlogs largos con '| LONCHE' en el título y fiestas con Emma Coronel, Tito Double P y Gerardo Ortiz (1,1-1,4 M de vistas). No se leyó su descripción.",
+      "candidatos": [],
+      "evidencia_similar": null,
+      "ultima_revision": "2026-11-02T20:45:23-05:00",
+      "ultimas_subidas": [
+        { "url": "https://kick.com/lonche/videos/01a166be-6078-7169-bf25-e3cda4a6da20", "titulo": "NOTICIA IMPACTANTE VENGAN YA LA VIDA NOS VOLVIO A SONREIR", "publicado": "2026-10-22T22:11:55-05:00", "vistas": 840043, "nota": "Su VOD más reciente en Kick (unos 10 días). Ni LoncheWey ni Lonche y Willito tienen subidas en 36 h" }
+      ],
+      "nota": "Añadido por el usuario (streamer de México). No hace directo en Kick desde el 22-oct y su canal principal no tiene subidas en 36 h. Lo nuevo en la ventana son 4 recortes de directos anteriores subidos por canales de clips (Lonche Chacas, Lonche Kick, Lonche PRIME y Clipskick04). Hay un quinto, 'COMPRARÉ UNA NUEVA MANSIÓN EN LOS ANGELES' (Lonche Kick, 1 vista), que no se incluye porque no se pudo comprobar que salga él. 'WILLITO NO ME QUIERE PAGAR' (Lonche y Willito, 31-oct, 20:46) salió de la ventana a las 08:46 del 02-nov. Sin apariciones en podcasts ni entrevistas: 'Lonche podcast entrevista' y 'Westcol Lonche Willito' (-Recientes, 36 h) no devolvieron nada.",
+      "apariciones_en_ventana": [
+        { "url": "https://www.youtube.com/watch?v=L6Q2hwgXhYY", "titulo": "SUBI A YOLO A mi NUEVO FERRARI y ESTO PASO 💀​| Lonche", "canal": "Lonche Chacas", "publicado": "2026-11-01T15:36:35-05:00", "vistas": 20194, "aparece": true },
+        { "url": "https://www.youtube.com/watch?v=asaeBTxVfFU", "titulo": "Compré un ROLLS ROYCE CULLINAN MANSORY 💸", "canal": "Lonche Kick", "publicado": "2026-11-01T17:31:25-05:00", "vistas": 425, "aparece": true },
+        { "url": "https://www.youtube.com/watch?v=TGZYr7VNzio", "titulo": "ASÍ es VIVIR un DÍA de CHILL en LOS ANGELES 🇺🇸 | Lonche", "canal": "Lonche PRIME", "publicado": "2026-11-01T19:09:30-05:00", "vistas": 344, "aparece": true },
+        { "url": "https://www.youtube.com/watch?v=XMLQv5JNuK0", "titulo": "LONCHE REACCIONANDO A VÍCTOR MENDIVIL Y OMAR CAMACHO", "canal": "Clipskick04", "publicado": "2026-11-01T17:19:59-05:00", "vistas": 1, "aparece": true }
+      ]
     },
     {
       "nombre": "Feid",
       "nicho": "música urbana: cantantes jóvenes",
       "origen": "similar",
-      "estado": "sin_resolver",
-      "cuentas": { "youtube": null, "kick": null, "twitch": null, "instagram": null, "tiktok": null, "x": null },
-      "canales_relacionados": [],
-      "verificacion": "Añadido el 01-nov. Falta resolver su canal: no quedaban búsquedas de YouTube en el presupuesto del ciclo. Para el próximo: buscar -Consulta 'Feid'.",
+      "estado": "resuelto",
+      "cuentas": {
+        "youtube": "https://www.youtube.com/channel/UCoMlNw7o21I7LqL4OsjSYAg",
+        "kick": null, "twitch": null, "instagram": null, "tiktok": null, "x": null
+      },
+      "canales_relacionados": [
+        { "url": "https://www.youtube.com/channel/UCc3e8O2V5_7OA300ursDyFQ", "que_es": "Id que da la extracción completa del video 'PARADIXE (REMIX)' (canal 'Feid', 7,27 M suscriptores). yt-dlp no le encuentra pestaña de videos: no sirve para 'canal'" }
+      ],
+      "verificacion": "La búsqueda de YouTube 'Feid' (02-nov) devuelve el canal 'Feid' (UCoMlNw7o21I7LqL4OsjSYAg) con sus videos oficiales: 'Classy 101' con Young Miko (669 M de vistas), 'Normal' (558 M), 'Ferxxo 100' (323 M) y 'PARADIXE' con El Americano 4KT y Pirlo (7,95 M). Su pestaña de videos funciona con yt-dlp. Instagram sin verificar.",
       "candidatos": [],
-      "evidencia_similar": "Fue invitado en el Awooween de Ryan Castro el 31-oct ([El Heraldo](https://www.elheraldo.co/sociedad/ryan-castro-prende-todas-las-radios-en-su-concierto-en-bogota-con-feid-de-invitado-1124249)). Colabora con los perfiles: 'Mentira' con Ryan Castro (#91 en Spotify CO) y '+57' con Blessd, Ryan Castro y J Balvin (#98). 'PARADIXE' es #2 en Spotify Colombia con 352.409 reproducciones diarias (https://kworb.net/spotify/country/co_daily.html, 31-oct).",
-      "ultima_revision": null,
-      "ultimas_subidas": [],
-      "apariciones_en_ventana": []
+      "evidencia_similar": "Colabora con los perfiles: 'Monastery' con Ryan Castro (575 M), 'Mentira' con Ryan Castro (#91 en Spotify CO) y '+57' con Blessd, Ryan Castro y J Balvin (#98). 'PARADIXE' fue #2 en Spotify Colombia con 352.409 reproducciones diarias (https://kworb.net/spotify/country/co_daily.html, 31-oct), y su remix del 01-nov va a 28.592 vistas por hora (https://www.youtube.com/watch?v=YXvFLBjTCQA). Corrección del 02-nov: NO fue invitado en el Awooween de Ryan Castro. Publimetro y El Colombiano publican los nueve invitados del 31-oct en El Campín, y Feid no está entre ellos: Aria Vega salió disfrazada de él. La crónica de El Heraldo que se citaba antes describe otro concierto, en el Movistar Arena (septiembre de 2024).",
+      "ultima_revision": "2026-11-02T20:47:15-05:00",
+      "ultimas_subidas": [
+        { "url": "https://www.youtube.com/watch?v=YXvFLBjTCQA", "titulo": "PARADIXE (REMIX)", "publicado": "2026-11-01T17:02:55-05:00", "vistas": 792002, "nota": "Videoclip de 4:20 con Myke Towers, Omar Courtz, El Americano 4KT y Pirlo. Por debajo de 8 min y con música con derechos: no es fuente para clips. 'canal' no lo vio; lo encontró la búsqueda -Hoy" }
+      ],
+      "apariciones_en_ventana": [],
+      "nota": "Resuelto en el ciclo 4. Sin apariciones en persona en 36 h: 'Feid entrevista' solo trae un podcast de AutopiaTv sobre Arod la Corriente, donde él no sale (3 vistas por hora). Hay reacciones de terceros a su remix (La Mesita Podcast, OVELTIME tv) y chisme sobre su relación con Karol G, que queda excluido."
     },
     {
       "nombre": "The Chanty",
@@ -227,7 +303,7 @@
       "estado": "resuelto",
       "cuentas": {
         "youtube": "https://www.youtube.com/channel/UCF49OdFMVm6LIFXsIgwJpuw",
-        "kick": "https://kick.com/chanty",
+        "kick": "https://kick.com/chanty/videos",
         "twitch": null,
         "instagram": "https://www.instagram.com/elchantyy",
         "tiktok": "https://www.tiktok.com/@elchantyyyyy",
@@ -236,15 +312,40 @@
       "canales_relacionados": [],
       "verificacion": "Enlaces tomados de la descripción de su video del 01-nov (https://www.youtube.com/watch?v=1TF93cD11g0), con Kick, Instagram, TikTok y Facebook (https://www.facebook.com/Elchantyyt).",
       "candidatos": [],
-      "evidencia_similar": "Streamer de Kick de Medellín (240 K suscriptores en YouTube). Apareció en la búsqueda 'Westcol' del 01-nov. En 36 h subió 4 videos largos, dos de ellos disfrazado de Blessd y Ryan Castro ('LA GANGA REACCIONA A NUESTRO DISFRAZ DE BLESSD Y RYAN', 29.212 vistas, https://www.youtube.com/watch?v=iX4hG7rkl-M), y su fiesta de disfraces va a 2.364 vistas/h.",
-      "ultima_revision": "2026-11-01T23:04:00-05:00",
+      "evidencia_similar": "Streamer de Kick de Medellín (240 K suscriptores en YouTube). Apareció en la búsqueda 'Westcol' del 01-nov. En 36 h subió 4 videos largos, dos de ellos disfrazado de Blessd y Ryan Castro ('LA GANGA REACCIONA A NUESTRO DISFRAZ DE BLESSD Y RYAN', 29.212 vistas, https://www.youtube.com/watch?v=iX4hG7rkl-M), y su fiesta de disfraces iba a 2.364 vistas/h.",
+      "ultima_revision": "2026-11-02T20:40:19-05:00",
       "ultimas_subidas": [
-        { "url": "https://www.youtube.com/watch?v=1TF93cD11g0", "titulo": "FIESTA DE DISFRACES COMO JUSTIN BIEBER", "publicado": "2026-11-01T12:40:55-05:00", "vistas": 24584 },
-        { "url": "https://www.youtube.com/watch?v=XkKa6tuUFJ4", "titulo": "CONCURSO DE DISFRACES SE SALE DE CONTROL EN MEDELLÍN", "publicado": "2026-10-31T12:19:58-05:00", "vistas": 33016 },
-        { "url": "https://www.youtube.com/watch?v=iX4hG7rkl-M", "titulo": "LA GANGA REACCIONA A NUESTRO DISFRAZ DE BLESSD Y RYAN", "publicado": "2026-10-31T11:05:06-05:00", "vistas": 29212 },
-        { "url": "https://www.youtube.com/watch?v=zRs0PqfAeWs", "titulo": "IRL EN PROVENZA DISFRAZADOS DE RYAN CASTRO Y BLESSD", "publicado": "2026-10-31T11:42:40-05:00", "vistas": 11090 }
+        { "url": "https://www.youtube.com/watch?v=1TF93cD11g0", "titulo": "FIESTA DE DISFRACES COMO JUSTIN BIEBER", "publicado": "2026-11-01T12:40:55-05:00", "vistas": 40678, "nota": "Ya analizada por el Clipero" },
+        { "url": "https://kick.com/chanty/videos/01a194f1-e050-7a0d-9af0-269dc24de8da", "titulo": "BUSCANDO A PUFF DIDDY| EL #2 DE COLOMBIA| LLEGUEN | SUBS", "publicado": "2026-10-31T21:30:42-05:00", "vistas": 51115, "nota": "VOD de 4,3 h en Kick, sin subtítulos. Salió de la ventana a las 09:30 del 02-nov" },
+        { "url": "https://kick.com/chanty/videos/01a19eda-2578-7603-ac9e-c90adb91e4b1", "titulo": "HABLANDO DE LO QUE SE VIENE ESTA SEMANA | EL #2 DE COLOMBIA| LLEGUEN | !RS 2026-11-02 20:40", "publicado": "2026-11-02T19:40:59-05:00", "vistas": 0, "nota": "En directo a las 20:40: todavía no hay VOD completo. Revisar en el próximo ciclo" }
       ],
       "apariciones_en_ventana": []
+    },
+    {
+      "nombre": "Willito",
+      "nicho": "streamers y creadores",
+      "origen": "similar",
+      "estado": "resuelto",
+      "cuentas": {
+        "youtube": null,
+        "kick": "https://kick.com/willito/videos",
+        "twitch": null,
+        "instagram": "https://www.instagram.com/willitooo_",
+        "tiktok": "https://www.tiktok.com/@.willito",
+        "x": null
+      },
+      "canales_relacionados": [
+        { "url": "https://www.youtube.com/channel/UCf2X0bOC9219beS6whmQhgw", "que_es": "Lonche y Willito: canal compartido de recortes de sus directos (112 K suscriptores)" }
+      ],
+      "verificacion": "Kick y redes tomados de las descripciones de los videos de Lonche Chacas (https://www.youtube.com/watch?v=L6Q2hwgXhYY) y de Lonche y Willito (https://www.youtube.com/watch?v=F9pDqP0A1wE), que enlazan kick.com/willito, @willitooo_ y @.willito. Sin canal propio de YouTube encontrado.",
+      "candidatos": [],
+      "evidencia_similar": "Compañero habitual de Lonche: comparten canal de YouTube ('Lonche y Willito', 112 K suscriptores) y directos (Guatapé, Japón, Los Ángeles). Según el orquestador, también sale en títulos de directos de Westcol junto a La Ganga y Lonche. En La Razón aparece como 'su amigo Willito' (https://www.razon.com.mx/entretenimiento/2025/08/31/quien-es-lonche-y-por-que-yeri-mua-lo-hace-responsable-de-las-amenazas-de-muerte-que-recibio/). Su Kick va a 2.424 vistas por hora con 'FIESTA DE HALLOWEEN CON PUDINES' (177.701 vistas, 29-oct).",
+      "ultima_revision": "2026-11-02T20:32:36-05:00",
+      "ultimas_subidas": [
+        { "url": "https://kick.com/willito/videos/01a18b02-c528-7164-8e5d-f5ad5e8889ac", "titulo": "FIESTA DE HALLOWEEN CON PUDINES | VEN YA!!", "publicado": "2026-10-29T23:12:57-05:00", "vistas": 177701, "nota": "VOD de 4,5 h; fuera de la ventana de 36 h" }
+      ],
+      "apariciones_en_ventana": [],
+      "nota": "Añadido como similar en el ciclo 4 (1 de 2 posibles). Sin directos en 36 h."
     }
   ]
 }

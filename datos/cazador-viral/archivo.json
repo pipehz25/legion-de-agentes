@@ -1,5 +1,5 @@
 {
-    "actualizado":  "2026-11-01T23:10:00-05:00",
+    "actualizado":  "2026-11-02T20:45:00-05:00",
     "notas":  [
                   "Patrones retirados de patrones.json. La regla general es archivar tras más de 14 días en \u0027quemado\u0027; en el ciclo 2 se archivaron antes, por instrucción del orquestador, los temas de actualidad cuya ventana de 24-72 h ya había vencido y que salieron de todas las listas del recolector.",
                   "Si alguno vuelve a aparecer (aniversario, nostalgia o noticia nueva), se reabre con el mismo id y se copia aquí su historial.",
@@ -1163,6 +1163,56 @@
                                        ],
                          "archivado":  "2026-11-01",
                          "motivo_archivo":  "Fuera de los nichos nuevos (2026-11-01) y estacional (Halloween) ya vencido; en saturación el 31-oct (564 K videos en TikTok México el 01-nov)."
+                     },
+                     {
+                         "id":  "tema-gta-vi-lanzamiento",
+                         "nombre":  "Lanzamiento de GTA VI (19-nov-2026)",
+                         "tipo":  "tema",
+                         "descripcion":  "Cuenta atrás para el lanzamiento de Grand Theft Auto VI en PS5 y Xbox Series X|S. Para el enfoque nuevo importa como el gran directo de noviembre de los streamers (Kick y Twitch), y su banda sonora vuelve a acelerar en TikTok México.",
+                         "plataformas":  ["kick", "twitch", "youtube", "tiktok", "x"],
+                         "regiones":  ["MX", "CO", "AR", "ES", "US"],
+                         "nichos":  ["streamers y creadores"],
+                         "primera_vez_visto":  "2026-10-26",
+                         "archivado":  "2026-11-02",
+                         "motivo_archivo":  "Fuera del enfoque por decisión del orquestador (02-nov): es un tema de videojuegos, no contenido de los perfiles ni de cantantes jóvenes, empresarios o streamers. El encaje con 'streamers y creadores' era indirecto (9/15). Solo volvería si un perfil (Westcol, Lonche, The Chanty...) hace un directo o un video de GTA VI, y entonces como fuente de ese perfil, no como tema. La ficha salidas/cazador-viral/formatos/formato-cuenta-atras-gta-vi.md queda en la carpeta, pero ya no se recomienda.",
+                         "etapa":  "crecimiento",
+                         "etapa_por_contexto":  { "youtube-en": "crecimiento", "tiktok-mx-audio-suzuki": "crecimiento", "google-es": "crecimiento", "youtube-es": "sin-verificar", "kick-es": "sin-verificar" },
+                         "indice_saturacion":  50,
+                         "puntaje_oportunidad":  69,
+                         "puntaje_desglose":  "18 / 22 / 14 / 9 / 6",
+                         "ventana_hasta":  "2026-11-19",
+                         "confianza":  "media",
+                         "genoma":  {
+                                        "gancho":  "Cuenta atrás ('Faltan N días para GTA VI') o un dato con tarjeta 'confirmado' o 'filtrado'",
+                                        "estructura":  "Predicción, lista o 'lo que sabemos'",
+                                        "emocion":  "Expectativa y nostalgia gamer",
+                                        "payoff":  "Un dato confirmado o una predicción polémica",
+                                        "formato_tecnico":  "Cara a cámara o voz en off con texto; vertical, 20-60 s. En streamers: el directo del lanzamiento y sus reacciones",
+                                        "audio":  "Original, o un tema de la banda sonora desde la biblioteca ('Suzuki' vuelve a acelerar)",
+                                        "edicion":  "Cortes rápidos con inserciones",
+                                        "arquetipo":  "Fan experto o streamer que reacciona",
+                                        "participacion":  "Pregunta binaria ('¿lo compras el día 1?', '¿te cabe en la consola?') y predicciones en comentarios",
+                                        "contexto":  "Actualidad con fecha fija",
+                                        "perecederos":  ["contexto"]
+                                    },
+                         "evidencia":  [
+                                           { "url": "https://www.techradar.com/gaming/grand-theft-auto-6-delayed-again-but-itll-still-ship-in-2026", "metrica": "Lanzamiento confirmado para el 19-nov-2026 (PS5 y Xbox Series X|S); Take-Two lo reafirmó", "tipo": "medido", "mide": "senal_relacionada", "contexto": "prensa-global", "fecha": "2026-10-26" },
+                                           { "url": "https://kworb.net/spotify/country/mx_daily.html", "metrica": "'Suzuki (from GTAVI: The Album)' de Fuerza Regida, #2 en Spotify México con 1.142.776 reproducciones diarias (25-oct-2026)", "tipo": "medido", "mide": "senal_relacionada", "contexto": "spotify-mx", "fecha": "2026-10-26" },
+                                           { "url": "https://www.revid.ai/viral-tiktok-songs", "metrica": "'Suzuki (from GTAVI: The Album)', #4 en la muestra semanal de TikTok, 5 posts de 5 creadores, estable", "tipo": "medido", "mide": "patron", "contexto": "tiktok-global", "fecha": "2026-10-26" },
+                                           { "url": "https://www.youtube.com/watch?v=sGgNvGbwrH4", "metrica": "'GTA6 SIZE REVEALED, ELDER SCROLLS 6 LEAKED? & MORE' (gameranx, 8,66 M suscriptores): 297.048 vistas en 9,5 h (31.268/h)", "tipo": "medido", "mide": "patron", "contexto": "youtube-en", "fecha": "2026-10-31" },
+                                           { "url": "https://www.youtube.com/watch?v=lMOAMJeLS5A", "metrica": "'New GTA 6 Gameplay From South Park And New Details - Luke Reacts': 94.100 vistas en 10,7 h, con 280 K suscriptores", "tipo": "medido", "mide": "patron", "contexto": "youtube-en", "fecha": "2026-10-31" },
+                                           { "url": "https://tokchart.com/es-mx/audios-de-tiktok", "metrica": "'Suzuki (from GTAVI: The Album)' #1 en TikTok México por volumen, con 114 K videos, pero con −11.481 videos al día (31-oct): el audio se enfría", "tipo": "medido", "mide": "patron", "contexto": "tiktok-mx", "fecha": "2026-10-31" },
+                                           { "url": "https://kworb.net/spotify/country/mx_daily.html", "metrica": "'Suzuki' sube al #1 de Spotify México con 1.485.906 reproducciones diarias (29-oct)", "tipo": "medido", "mide": "senal_relacionada", "contexto": "spotify-mx", "fecha": "2026-10-31" },
+                                           { "url": "https://upcomer.com/gta-6-file-size-leak-points-to-nearly-200-gb-on-ps5/", "metrica": "Filtración (27-oct) de 210 GB en PS5, no confirmada por Rockstar: material de noticias para la serie diaria", "tipo": "estimado", "mide": "senal_relacionada", "contexto": "prensa-global", "fecha": "2026-10-31" },
+                                           { "url": "https://tokchart.com/es-mx/audios-de-tiktok", "metrica": "'Suzuki (from GTAVI: The Album)' sigue #1 en TikTok México: 139 K videos, +24.600 al día (01-nov). Vuelve a acelerar tras el −11.481 del 31-oct", "tipo": "medido", "mide": "patron", "contexto": "tiktok-mx", "fecha": "2026-11-01" },
+                                           { "url": "https://www.gamesradar.com/edge/gtavi-cover/", "metrica": "Google Trends España: 'gta 6' #2 con 100+ (recolector, 01-nov 22:48)", "tipo": "medido", "mide": "patron", "contexto": "google-es", "fecha": "2026-11-01" }
+                                       ],
+                         "historial":  [
+                                           { "fecha": "2026-10-26", "etapa": "crecimiento", "indice_saturacion": 45, "senal": "Faltan 24 días. La banda sonora está en el top 2 de México y en la muestra de TikTok. El pico se espera el día del lanzamiento." },
+                                           { "fecha": "2026-10-31", "etapa": "crecimiento", "indice_saturacion": 50, "senal": "Faltan 19 días. Las noticias aceleran en YouTube en inglés (31 K vistas/h en gameranx; canales medianos sobre-rinden). El audio 'Suzuki' llega al #1 de Spotify MX pero cae en creación en TikTok MX (−11,5 K videos al día) y revid lo marca 'Cooling': el audio está en pico y el tema sigue en crecimiento. Falta medir en español." },
+                                           { "fecha": "2026-11-01", "etapa": "crecimiento", "indice_saturacion": 50, "senal": "Faltan 18 días. 'Suzuki' vuelve a acelerar en TikTok México (+24.600 videos al día; de 114 K a 139 K) y 'gta 6' entra en Google Trends España. Pasa al nicho 'streamers y creadores' como el directo previsible del 19-nov; el encaje baja a 9 porque no es contenido de los perfiles. Falta medir en español y en Kick." },
+                                           { "fecha": "2026-11-02", "etapa": "crecimiento", "indice_saturacion": 50, "senal": "Archivado por estar fuera del enfoque (decisión del orquestador del 02-nov), no por estar quemado. Sin medición nueva." }
+                                       ]
                      }
                  ]
 }

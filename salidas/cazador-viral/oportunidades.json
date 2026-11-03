@@ -1,104 +1,196 @@
 {
-  "generado": "2026-11-01T23:15:00-05:00",
-  "ciclo": 3,
+  "generado": "2026-11-02T21:05:00-05:00",
+  "ciclo": 4,
   "enfoque": "Música urbana de cantantes jóvenes, empresarios exitosos y streamers (config.perfiles y similares de datos/cazador-viral/perfiles.json). Excluidos: reality shows, concursos de TV y chisme de televisión.",
   "notas": [
-    "Ningún perfil subió contenido a sus canales propios en las 36 h anteriores a las 23:15 del 01-nov (YouTube de Maluma, J Balvin, Kris R, Blessd, Ryan Castro, Diego RR Autos, Santiago Ospina y Westcol; '¿Cómo fue? Podcast'; Kick de Westcol; WestClips y Westconsin). Sebastián Suárez solo tiene Instagram, de donde no se puede transcribir. Todas las fuentes son apariciones en canales ajenos o contenido de los similares.",
-    "Excluidos a propósito, aunque rinden: 'KAROLA Habla sin filtros' (Sinvergüenza Podcast, 4.258 vistas/h), porque Karola viene de La Casa de los Famosos (config.excluir); y los videos sobre Westcol y la muerte del streamer Komanche (Green Space, 4.654 vistas/h), porque explotan una tragedia y acusaciones de abuso.",
-    "Música en vivo: en las fuentes de conciertos, corta solo los momentos hablados (discursos, presentación de invitados, reacciones). La música tiene derechos y activa Content ID."
+    "Ventana de 36 h calculada a las 21:05 del 02-nov: entra lo publicado desde el 2026-11-01T09:05-05:00. El ciclo empezó a las 00:23 y se cortó por límite de uso; el radar se repitió de 20:31 a 20:51, y todas las métricas de esta lista son de esa segunda pasada (campo medido_a).",
+    "Campo nuevo 'aparece': true solo si el perfil sale en persona (comprobado en el título, la descripción, la miniatura o la transcripción). false si solo se habla de él; esas fuentes entran solo si rinden frente a su propio canal.",
+    "Corrección Awooween: Feid no figura entre los invitados del 31-oct en El Campín. Publimetro y El Colombiano (01-nov) publican los nueve: Farruko, Hamilton, Ñejo, Reik, Maisak, Tito el Bambino, Aria Vega, Jorge Celedón y Jhonny Rivera. Aria Vega salió disfrazada de Feid y cantaron 'Monastery'. La crónica de El Heraldo citada antes describe otro concierto (Movistar Arena, septiembre de 2024). Para el clip 2026-11-01-awooween-invitados-sorpresa: Jorge Celedón y Jhonny Rivera sí están confirmados.",
+    "GTA VI sale del enfoque (tema de videojuegos, no de los perfiles): se archiva y su ficha ya no se recomienda. El podcast de ElWerik sobre Kris R no vuelve: Kris R no aparece y el canal no tiene audiencia.",
+    "No se repiten fuentes ya analizadas por el Clipero, salvo el concierto Z1VUghXaEIM, que sigue pendiente por falta de subtítulos.",
+    "Sin subtítulos (necesitan whisper, que según el informe del Clipero del 02-nov no está instalado): el directo 'IM BACK' de Westcol en Kick y el concierto Z1VUghXaEIM. Del regreso de Westcol hay tres recortes en YouTube con subtítulos automáticos (puestos 1, 2 y 4): empieza por ellos.",
+    "Nada nuevo en persona en la ventana: Peso Pluma, Feid (solo el videoclip de 4:20 de 'PARADIXE (REMIX)'), Maluma, J Balvin, Kris R, Blessd, Ryan Castro (fuera del concierto), Diego RR Autos y Santiago Ospina. Sebastián Suárez no tiene canal. Lonche no hace directo en Kick desde el 22-oct: sus fuentes son recortes de directos anteriores que se subieron a YouTube dentro de la ventana.",
+    "Excluidos a propósito: los videos sobre Westcol y la muerte de Komanche (Green Space, 4.331 vistas/h; Cayco), y el de Turbo Plant (6.846 vistas/h), que también trata lo de Komanche, porque explotan una tragedia; 'Feid y Karol G siguen juntos' (chisme de pareja); y 'COMPRARÉ UNA NUEVA MANSIÓN EN LOS ANGELES' (canal Lonche Kick, 1 vista), porque no se pudo comprobar que salga Lonche (sin descripción y sin su nombre en el título).",
+    "Música: en conciertos, discotecas y reacciones a canciones, corta solo los tramos hablados. La música tiene derechos y activa Content ID."
   ],
   "oportunidades": [
-    {
-      "id": "tema-awooween-ryan-castro-campin",
-      "nombre": "Awooween de Ryan Castro en El Campín (31-oct)",
-      "tipo": "tema",
-      "etapa": "emergente",
-      "puntaje_oportunidad": 74,
-      "ventana_hasta": "2026-11-03",
-      "confianza": "media",
-      "plataformas_objetivo": ["tiktok", "instagram", "youtube"],
-      "nichos": ["música urbana: cantantes jóvenes"],
-      "resumen": "El concierto-fiesta de Halloween de Ryan Castro (El Campín agotado en una hora; Feid de invitado según El Heraldo) ya genera recortes y vlogs de fans que sobre-rinden. Ventana de 72 h para clips y para el formato 'La noche en 3 momentos'.",
-      "genes_clave": {
-        "gancho": "Resultado primero: '3 cosas del Awooween que no viste' o el invitado sorpresa",
-        "estructura": "Lista de 3 momentos, o reacción a un momento del show",
-        "participacion": "¿Cuál fue el mejor momento? Si estuviste, escríbelo"
-      },
-      "evidencia": [
-        { "url": "https://www.youtube.com/watch?v=Z1VUghXaEIM", "metrica": "Recorte de fans de 46 min: 12.427 vistas en 12 h (1.036 por hora) en un canal de 134 suscriptores, unas 92 veces sus suscriptores", "tipo": "medido", "mide": "patron", "contexto": "youtube-co", "fecha": "2026-11-01" },
-        { "url": "https://kworb.net/spotify/country/co_daily.html", "metrica": "Spotify Colombia (31-oct): 'LA VILLA' #21 (+11; 113.462 reproducciones) y 'SANKA' #49 (+14; 87.436)", "tipo": "medido", "mide": "senal_relacionada", "contexto": "spotify-co", "fecha": "2026-11-01" },
-        { "url": "https://www.elheraldo.co/sociedad/ryan-castro-prende-todas-las-radios-en-su-concierto-en-bogota-con-feid-de-invitado-1124249", "metrica": "Crónica del concierto: Feid de invitado (sin cifras)", "tipo": "estimado", "mide": "senal_relacionada", "contexto": "prensa-co", "fecha": "2026-11-01" }
-      ],
-      "formato_hibrido": "salidas/cazador-viral/formatos/formato-noche-de-concierto-en-3-momentos.md"
-    },
     {
       "id": "audio-dame-hombro",
       "nombre": "'Dame Hombro' (Bulin 47, Kevin Wai, Breyco En Producidera)",
       "tipo": "audio",
       "etapa": "crecimiento",
-      "puntaje_oportunidad": 72,
-      "ventana_hasta": "2026-11-08",
+      "puntaje_oportunidad": 70,
+      "ventana_hasta": "2026-11-06",
       "confianza": "media",
       "plataformas_objetivo": ["tiktok", "instagram"],
       "nichos": ["música urbana: cantantes jóvenes"],
-      "resumen": "Dembow de un cantante joven que vuelve a acelerar en TikTok México: +13.200 videos al día el 01-nov, frente a +5.800 el 31-oct. Se puede trasplantar a emprendimiento y a creadores con 'Los que me dieron hombro'.",
+      "resumen": "Dembow de un cantante joven, todavía en crecimiento en TikTok México (+13.200 videos al día; 235 K), pero sale de la muestra semanal de revid el 02-nov: es la primera señal de enfriamiento y la ventana se acorta al 06-nov.",
       "genes_clave": {
-        "gancho": "Texto o movimiento sincronizado con 'dame hombro' (el uso exacto en TikTok está sin ver)",
+        "gancho": "Texto o movimiento sincronizado con 'dame hombro' (el uso exacto en TikTok sigue sin verse)",
         "estructura": "Clip único o lista al ritmo del coro",
         "participacion": "Plantilla copiable; etiquetar a quien te dio hombro"
       },
       "evidencia": [
-        { "url": "https://tokchart.com/es-mx/audios-de-tiktok", "metrica": "#7 en TikTok México: 235 K videos, +13.200 al día (01-nov). El 31-oct estaba en +5.800 al día", "tipo": "medido", "mide": "patron", "contexto": "tiktok-mx", "fecha": "2026-11-01" },
-        { "url": "https://www.revid.ai/viral-tiktok-songs", "metrica": "#3 en la muestra semanal: 3 posts de 3 creadores, 4,3 M de vistas, estable (01-nov; el 31-oct era #6)", "tipo": "medido", "mide": "patron", "contexto": "tiktok-global", "fecha": "2026-11-01" }
+        { "url": "https://tokchart.com/es-mx/audios-de-tiktok", "metrica": "#7 en TikTok México: 235 K videos, +13.200 al día (lista del 01-nov; sin actualizar al leerla el 02-nov a las 00:40)", "tipo": "medido", "mide": "patron", "contexto": "tiktok-mx", "fecha": "2026-11-02" },
+        { "url": "https://www.revid.ai/viral-tiktok-songs", "metrica": "Ya no está en la muestra semanal del 02-nov (el 01-nov era #3). Solo aparece en el índice de 30 días: #12, con 3 videos virales", "tipo": "medido", "mide": "patron", "contexto": "tiktok-global", "fecha": "2026-11-02" }
       ],
       "formato_hibrido": "salidas/cazador-viral/formatos/formato-los-que-me-dieron-hombro.md"
     },
     {
-      "id": "tema-gta-vi-lanzamiento",
-      "nombre": "Lanzamiento de GTA VI (19-nov-2026)",
+      "id": "tema-paradixe-remix-feid",
+      "nombre": "'PARADIXE (REMIX)' de Feid, El Americano 4KT y Pirlo, con Myke Towers y Omar Courtz",
       "tipo": "tema",
-      "etapa": "crecimiento",
-      "puntaje_oportunidad": 69,
-      "ventana_hasta": "2026-11-19",
-      "confianza": "media",
-      "plataformas_objetivo": ["kick", "twitch", "youtube", "tiktok"],
-      "nichos": ["streamers y creadores"],
-      "resumen": "Faltan 18 días: será el directo del mes para los streamers, y el audio 'Suzuki' vuelve al #1 de TikTok México con +24.600 videos al día (el 31-oct perdía 11.481 al día).",
+      "etapa": "semilla",
+      "puntaje_oportunidad": 67,
+      "ventana_hasta": "2026-11-06",
+      "confianza": "baja",
+      "plataformas_objetivo": ["tiktok", "instagram", "youtube"],
+      "nichos": ["música urbana: cantantes jóvenes"],
+      "resumen": "Remix estrenado el 01-nov a las 17:02 en el canal de Feid (792 K vistas en 27,7 h). Las reacciones de canales medianos de música urbana sobre-rinden, pero todavía hay muy pocas: ventana de 3-5 días para opinar sobre el remix sin usar su audio.",
       "genes_clave": {
-        "gancho": "Cuenta atrás ('Faltan N días para GTA VI') o un dato marcado como 'confirmado' o 'filtrado'",
-        "estructura": "Predicción, lista o 'lo que sabemos'",
-        "participacion": "Pregunta binaria ('¿lo compras el día 1?') y predicciones en comentarios"
+        "gancho": "Pregunta binaria en texto: '¿El remix está mejor que la original?' o '¿Quién mató el remix?'",
+        "estructura": "Reacción con veredicto verso por verso (Feid, El Americano, Pirlo, Myke Towers, Omar Courtz)",
+        "participacion": "Votar en comentarios quién tuvo el mejor verso"
       },
       "evidencia": [
-        { "url": "https://tokchart.com/es-mx/audios-de-tiktok", "metrica": "'Suzuki (from GTAVI: The Album)' #1 en TikTok México: 139 K videos, +24.600 al día (01-nov)", "tipo": "medido", "mide": "patron", "contexto": "tiktok-mx", "fecha": "2026-11-01" },
-        { "url": "https://www.gamesradar.com/edge/gtavi-cover/", "metrica": "Google Trends España: 'gta 6' #2 con 100+ (recolector, 01-nov 22:48)", "tipo": "medido", "mide": "patron", "contexto": "google-es", "fecha": "2026-11-01" },
-        { "url": "https://www.youtube.com/watch?v=sGgNvGbwrH4", "metrica": "gameranx: 297.048 vistas en 9,5 h (31.268 por hora)", "tipo": "medido", "mide": "patron", "contexto": "youtube-en", "fecha": "2026-10-31" }
+        { "url": "https://www.youtube.com/watch?v=yxUH4fuvwu4", "metrica": "Reacción de La Mesita Podcast (78,8 K suscriptores): 27.205 vistas en 22,9 h (1.188/h), 4,2 veces su reacción a 'Tura' de la misma edad (6.407 en 22,7 h); 1.028 me gusta", "tipo": "medido", "mide": "patron", "contexto": "youtube-es", "fecha": "2026-11-02" },
+        { "url": "https://www.youtube.com/watch?v=5xnWRSMg5Is", "metrica": "Reacción de OVELTIME tv (528 K suscriptores): 2.106 vistas en 1,3 h (1.620/h). Todavía es pronto para saber si sobre-rinde", "tipo": "medido", "mide": "patron", "contexto": "youtube-es", "fecha": "2026-11-02" },
+        { "url": "https://www.youtube.com/watch?v=YXvFLBjTCQA", "metrica": "Video oficial en el canal de Feid (7,27 M suscriptores): 792.002 vistas en 27,7 h (28.592/h). Mide la canción, no el formato", "tipo": "medido", "mide": "senal_relacionada", "contexto": "youtube-global", "fecha": "2026-11-02" }
       ],
-      "formato_hibrido": "salidas/cazador-viral/formatos/formato-cuenta-atras-gta-vi.md"
+      "formato_hibrido": null
+    },
+    {
+      "id": "tema-awooween-ryan-castro-campin",
+      "nombre": "Awooween de Ryan Castro en El Campín (31-oct)",
+      "tipo": "tema",
+      "etapa": "semilla",
+      "puntaje_oportunidad": 62,
+      "ventana_hasta": "2026-11-03",
+      "confianza": "baja",
+      "plataformas_objetivo": ["tiktok", "instagram", "youtube"],
+      "nichos": ["música urbana: cantantes jóvenes"],
+      "resumen": "El concierto de Halloween de Ryan Castro (más de 53.000 personas y nueve invitados, sin Feid) solo tiene un recorte de fans que rinda en YouTube, y se frena: de 1.055 a unas 430 vistas por hora. Queda menos de un día de ventana.",
+      "genes_clave": {
+        "gancho": "Resultado primero: '9 invitados en El Campín' o 'Salió vestida de Feid… y no era Feid' (Aria Vega)",
+        "estructura": "Lista de 3 momentos, o reacción a un momento hablado del show",
+        "participacion": "¿Cuál fue el mejor invitado? Si estuviste, escríbelo"
+      },
+      "evidencia": [
+        { "url": "https://www.youtube.com/watch?v=Z1VUghXaEIM", "metrica": "Recorte de fans de 46 min (La Vuelta Reacciones, 143 suscriptores): 23.005 vistas en 33,8 h (681/h de media). En las últimas 20 h sumó 8.654 (unas 430/h), frente a las 1.055/h de la mañana", "tipo": "medido", "mide": "patron", "contexto": "youtube-co", "fecha": "2026-11-02" },
+        { "url": "https://www.publimetro.co/entretenimiento/2026/11/01/ryan-castro-sorprendio-en-el-campin-con-nueve-invitados-de-lujo-estos-fueron-los-artistas-que-aparecieron-en-awooween/", "metrica": "Crónica del 31-oct en El Campín: nueve invitados (Farruko, Hamilton, Ñejo, Reik, Maisak, Tito el Bambino, Aria Vega, Jorge Celedón y Jhonny Rivera). Feid solo estaba entre los rumores; Aria Vega salió disfrazada de él", "tipo": "medido", "mide": "senal_relacionada", "contexto": "prensa-co", "fecha": "2026-11-02" },
+        { "url": "https://www.elcolombiano.com/cultura/awooween-concierto-ryan-castro-bogota-DB43064698", "metrica": "Más de 53.000 asistentes y la misma lista de nueve invitados (La Veintitrés habla de más de 40.000)", "tipo": "medido", "mide": "senal_relacionada", "contexto": "prensa-co", "fecha": "2026-11-02" }
+      ],
+      "formato_hibrido": "salidas/cazador-viral/formatos/formato-noche-de-concierto-en-3-momentos.md"
     }
   ],
   "apuestas": [],
   "fuentes_para_clips": [
     {
-      "url": "https://www.youtube.com/watch?v=1TF93cD11g0",
-      "titulo": "FIESTA DE DISFRACES COMO JUSTIN BIEBER",
-      "canal": "The Chanty",
-      "publicado": "2026-11-01T12:40:55-05:00",
-      "horas_desde": 10.4, "vistas": 24584, "vistas_por_hora": 2364, "duracion_seg": 1115,
-      "medido_a": "2026-11-01T23:04:00-05:00",
-      "perfil": "The Chanty (similar)",
-      "por_que": "Streamer de Kick de Medellín (240 K suscriptores) en una fiesta de disfraces de streamers. Apareció al buscar 'Westcol', pero la descripción no confirma que esté. Momentos probables: reacciones a los disfraces y bromas entre streamers.",
+      "url": "https://www.youtube.com/watch?v=8L8CP3xe3Qo",
+      "titulo": "ESTOY DE REGRESO - HABLANDO DEL ACCIDENTE AÉREO EN FLORIDA Y DEL ÉXITO DE LA W SOUND CON HADES66 🤯",
+      "canal": "WestcolClips",
+      "publicado": "2026-11-02T16:14:28-05:00",
+      "horas_desde": 4.8, "vistas": 9456, "vistas_por_hora": 2056, "duracion_seg": 982,
+      "medido_a": "2026-11-02T20:49:00-05:00",
+      "perfil": "Westcol",
+      "aparece": true,
+      "por_que": "Recorte de 16 min del directo de regreso de Westcol en Kick (la descripción enlaza kick.com/westcol). Habla del éxito de la W Sound 10 con Hades66, su proyecto musical. Lleva subtítulos automáticos. El tramo del 'accidente aéreo en Florida' no está verificado: si habla de víctimas, no lo cortes.",
       "oportunidad": null
     },
     {
-      "url": "https://www.youtube.com/watch?v=tLTcYKphXdw",
-      "titulo": "Viajando con blessd🔹",
-      "canal": "Yeison guardo",
-      "publicado": "2026-11-01T13:22:01-05:00",
-      "horas_desde": 9.7, "vistas": 14298, "vistas_por_hora": 1474, "duracion_seg": 521,
-      "medido_a": "2026-11-01T23:03:00-05:00",
-      "perfil": "Blessd",
-      "por_que": "Vlog de viaje con Blessd desde su círculo cercano: 14,3 K vistas en 9,7 h en un canal de 19,8 K suscriptores. Momentos probables: Blessd fuera del escenario, chistes en el trayecto y detrás de cámaras.",
+      "url": "https://www.youtube.com/watch?v=MBotzCroy1Q",
+      "titulo": "WESTCOL HABLANDO DE TODO Y HABLA DEL DISFRAZ QUE QUERÍA USAR",
+      "canal": "juan diego mm",
+      "publicado": "2026-11-02T16:06:54-05:00",
+      "horas_desde": 5.0, "vistas": 4763, "vistas_por_hora": 1013, "duracion_seg": 1520,
+      "medido_a": "2026-11-02T20:49:00-05:00",
+      "perfil": "Westcol",
+      "aparece": true,
+      "por_que": "Recorte de 25 min del mismo directo de regreso (canal de clips con 114 K suscriptores). Momentos probables: anécdotas de su pausa de 10 días y el disfraz de Halloween que no usó. Lleva subtítulos automáticos.",
+      "oportunidad": null
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=L6Q2hwgXhYY",
+      "titulo": "SUBI A YOLO A mi NUEVO FERRARI y ESTO PASO 💀​| Lonche",
+      "canal": "Lonche Chacas",
+      "publicado": "2026-11-01T15:36:35-05:00",
+      "horas_desde": 29.5, "vistas": 20194, "vistas_por_hora": 694, "duracion_seg": 2792,
+      "medido_a": "2026-11-02T20:44:00-05:00",
+      "perfil": "Lonche",
+      "aparece": true,
+      "por_que": "Recorte de 46 min de un directo de Lonche con Yolo Aventuras en su Ferrari nuevo. La descripción dice 'este video fue extraído del stream' (kick.com/lonche) y la miniatura los muestra a los dos. Es la fuente de Lonche con más tracción. Momentos probables: reacciones dentro del carro, cifras del Ferrari y bromas con el chat. El directo puede ser anterior al 22-oct, que es su último VOD en Kick.",
+      "oportunidad": null
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=RPs9ahaF2Rg",
+      "titulo": "WESTCOL REAPARECE pa HABLAR de TODO EL HATE que HA RECIBIDO y AGRADECE a STREAMERS q lo HAN APOYADO",
+      "canal": "🐢Alancitu🐢",
+      "publicado": "2026-11-02T17:07:59-05:00",
+      "horas_desde": 4.0, "vistas": 2508, "vistas_por_hora": 678, "duracion_seg": 829,
+      "medido_a": "2026-11-02T20:49:00-05:00",
+      "perfil": "Westcol",
+      "aparece": true,
+      "por_que": "Recorte de 14 min del regreso de Westcol (26,3 K suscriptores): agradece a los streamers que lo apoyaron. Corta el agradecimiento y la parte de cómo lleva el hate; deja fuera todo lo que toque la muerte de Komanche (tragedia, excluida). Lleva subtítulos automáticos.",
+      "oportunidad": null
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=asaeBTxVfFU",
+      "titulo": "Compré un ROLLS ROYCE CULLINAN MANSORY 💸",
+      "canal": "Lonche Kick",
+      "publicado": "2026-11-01T17:31:25-05:00",
+      "horas_desde": 27.6, "vistas": 425, "vistas_por_hora": 16, "duracion_seg": 1990,
+      "medido_a": "2026-11-02T20:51:00-05:00",
+      "perfil": "Lonche",
+      "aparece": true,
+      "por_que": "Recorte de 33 min de un directo de Lonche (canal de clips de 806 suscriptores). Lo confirman la transcripción, donde se nombra a sí mismo ('van a decir: pinche Lonche'), y la miniatura. Habla de carros de lujo: un Ferrari y el Cullinan que quiere. Tracción baja.",
+      "oportunidad": null
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=TGZYr7VNzio",
+      "titulo": "ASÍ es VIVIR un DÍA de CHILL en LOS ANGELES 🇺🇸 | Lonche",
+      "canal": "Lonche PRIME",
+      "publicado": "2026-11-01T19:09:30-05:00",
+      "horas_desde": 25.9, "vistas": 344, "vistas_por_hora": 14, "duracion_seg": 2938,
+      "medido_a": "2026-11-02T20:31:00-05:00",
+      "perfil": "Lonche",
+      "aparece": true,
+      "por_que": "IRL de 49 min de Lonche en Los Ángeles (la descripción remite a 'todos los lives en kick.com/lonche'; la miniatura lo rotula 'Lonche'). Momentos probables: vida de lujo y charla con el chat. Tracción baja (canal de 1.960 suscriptores).",
+      "oportunidad": null
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=XMLQv5JNuK0",
+      "titulo": "LONCHE REACCIONANDO A VÍCTOR MENDIVIL Y OMAR CAMACHO",
+      "canal": "Clipskick04",
+      "publicado": "2026-11-01T17:19:59-05:00",
+      "horas_desde": 27.8, "vistas": 1, "vistas_por_hora": 0, "duracion_seg": 537,
+      "medido_a": "2026-11-02T20:32:00-05:00",
+      "perfil": "Lonche",
+      "aparece": true,
+      "por_que": "Lonche reacciona a una canción de dos artistas de corridos (la descripción dice 'Kick: lonchedehuevito'; él sale en la miniatura y habla en primera persona: 'me podría comprar 10 lambos'). Entra solo para cubrir todo lo nuevo: el canal tiene 9 suscriptores y suena música con derechos.",
+      "oportunidad": null
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=OqsKq4thcZA",
+      "titulo": "WESTCOL REACCIONANDO A LOS TIK TOKS MÁS VIRALES",
+      "canal": "Clipskick04",
+      "publicado": "2026-11-01T16:58:10-05:00",
+      "horas_desde": 28.1, "vistas": 2, "vistas_por_hora": 0, "duracion_seg": 793,
+      "medido_a": "2026-11-02T20:32:00-05:00",
+      "perfil": "Westcol",
+      "aparece": true,
+      "por_que": "Recopilación de un directo de Westcol reaccionando a TikToks. Solo el título lo confirma: la miniatura es genérica y el canal (9 suscriptores) avisa que 'no somos las personas que aparecen'. Tiene que venir de un directo de antes de su pausa. Prioridad mínima.",
+      "oportunidad": null
+    },
+    {
+      "url": "https://kick.com/westcol/videos/01a19dbf-c468-7bbd-9bdf-7e7a53d23a81",
+      "titulo": "IM BACK",
+      "canal": "Westcol (Kick)",
+      "publicado": "2026-11-02T14:32:33-05:00",
+      "horas_desde": 6.5, "vistas": 338551, "vistas_por_hora": 55500, "duracion_seg": 18287,
+      "medido_a": "2026-11-02T20:38:00-05:00",
+      "perfil": "Westcol",
+      "aparece": true,
+      "por_que": "Su directo completo de regreso (5 h 5 min) tras unos 10 días sin emitir: es la fuente más vista del ciclo. Kick no tiene subtítulos y whisper no está instalado, así que va detrás de los tres recortes de YouTube de este mismo directo. Si se instala whisper, aquí estarán los momentos que esos recortes no recogen. Se desconoce si salen Lonche o La Ganga.",
       "oportunidad": null
     },
     {
@@ -106,66 +198,24 @@
       "titulo": "Concierto Ryan Castro | 31 de Octubre 2026 | Estadio El Campín Bogotá | Awooween (4K)",
       "canal": "La Vuelta Reacciones",
       "publicado": "2026-11-01T11:00:16-05:00",
-      "horas_desde": 12.0, "vistas": 12427, "vistas_por_hora": 1036, "duracion_seg": 2784,
-      "medido_a": "2026-11-01T22:57:00-05:00",
+      "horas_desde": 34.1, "vistas": 23005, "vistas_por_hora": 681, "duracion_seg": 2784,
+      "medido_a": "2026-11-02T20:49:00-05:00",
       "perfil": "Ryan Castro",
-      "por_que": "Recorte de 46 min del Awooween (Feid de invitado según El Heraldo), el tema de música urbana del fin de semana. Un canal de 134 suscriptores suma unas 92 veces sus suscriptores en 12 h. Corta solo los momentos hablados (discursos al público, presentación de invitados): la música en vivo tiene derechos.",
+      "aparece": true,
+      "por_que": "PENDIENTE del ciclo anterior: no tiene subtítulos y dio 0 clips; necesita whisper o que YouTube genere los subtítulos. Ryan Castro en el escenario del Awooween. Invitados confirmados: Farruko, Hamilton, Ñejo, Reik, Maisak, Tito el Bambino, Aria Vega (disfrazada de Feid; Feid no estuvo), Jorge Celedón y Jhonny Rivera. Corta solo lo hablado. Sale de la ventana de 36 h hacia las 23:00 del 02-nov, pero se mantiene por instrucción del orquestador.",
       "oportunidad": "tema-awooween-ryan-castro-campin"
     },
     {
-      "url": "https://www.youtube.com/watch?v=XkKa6tuUFJ4",
-      "titulo": "CONCURSO DE DISFRACES SE SALE DE CONTROL EN MEDELLÍN",
-      "canal": "The Chanty",
-      "publicado": "2026-10-31T12:19:58-05:00",
-      "horas_desde": 34.8, "vistas": 33016, "vistas_por_hora": 949, "duracion_seg": 807,
-      "medido_a": "2026-11-01T23:04:00-05:00",
-      "perfil": "The Chanty (similar)",
-      "por_que": "Directo IRL de un concurso de disfraces en la calle, en Medellín, con público. Momentos probables: disfraces absurdos, el veredicto y el caos del final. Está casi en el límite de las 36 h.",
-      "oportunidad": null
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=iX4hG7rkl-M",
-      "titulo": "LA GANGA REACCIONA A NUESTRO DISFRAZ DE BLESSD Y RYAN",
-      "canal": "The Chanty",
-      "publicado": "2026-10-31T11:05:06-05:00",
-      "horas_desde": 36.0, "vistas": 29212, "vistas_por_hora": 811, "duracion_seg": 860,
-      "medido_a": "2026-11-01T23:04:00-05:00",
-      "perfil": "The Chanty (similar), disfrazado de Blessd y Ryan Castro",
-      "por_que": "Su grupo reacciona al disfraz de Blessd y Ryan Castro (los cantantes no aparecen). Momentos probables: imitaciones de los dos cantantes y las reacciones del grupo. Está justo en el límite de las 36 h.",
-      "oportunidad": null
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=zRs0PqfAeWs",
-      "titulo": "IRL EN PROVENZA DISFRAZADOS DE RYAN CASTRO Y BLESSD",
-      "canal": "The Chanty",
-      "publicado": "2026-10-31T11:42:40-05:00",
-      "horas_desde": 35.4, "vistas": 11090, "vistas_por_hora": 313, "duracion_seg": 720,
-      "medido_a": "2026-11-01T23:04:00-05:00",
-      "perfil": "The Chanty (similar), disfrazado de Ryan Castro y Blessd",
-      "por_que": "IRL en Provenza (zona de fiesta de Medellín) disfrazados de Ryan Castro y Blessd, con reacciones de la gente en la calle. Momentos probables: fans que los confunden con los cantantes.",
-      "oportunidad": null
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=GBvB5F-zSMc",
-      "titulo": "Una marca me invitó al concierto de Ryan Castro… Terminé viviendo una noche INCREÍBLE con el Tio 😳🔥",
-      "canal": "Danigoals",
-      "publicado": "2026-11-01T21:52:14-05:00",
-      "horas_desde": 1.1, "vistas": 25, "vistas_por_hora": 23, "duracion_seg": 882,
-      "medido_a": "2026-11-01T22:57:00-05:00",
-      "perfil": "Ryan Castro",
-      "por_que": "Vlog del Awooween invitado por una marca, de la preparación al show. Se publicó hace 1,1 h y todavía no se puede medir su tracción. Momentos probables: la llegada, detrás de cámaras y la reacción al show. Ojo con la música en vivo.",
-      "oportunidad": "tema-awooween-ryan-castro-campin"
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=hSV5nuZ5w_I",
-      "titulo": "KRIS R y el TRAP DE BOGOTÁ: crítica al CONCIERTO y lo que pasó en el BACKSTAGE",
-      "canal": "ElWerik Podcast",
-      "publicado": "2026-10-31T21:09:49-05:00",
-      "horas_desde": 25.8, "vistas": 2, "vistas_por_hora": 0, "duracion_seg": 662,
-      "medido_a": "2026-11-01T22:58:00-05:00",
-      "perfil": "Kris R (se habla de él; no aparece)",
-      "por_que": "Podcast pequeño que critica un concierto de Kris R y cuenta lo que pasó en el backstage. Prioridad baja: no tiene tracción; se incluye solo para cubrir todo lo nuevo del perfil.",
-      "oportunidad": null
+      "url": "https://www.youtube.com/watch?v=yxUH4fuvwu4",
+      "titulo": "REACCIÓN a \"Paradixe Remix\" Esto No Lo Esperábamos!Myke Towers,Omar Courtz Pirlo,Feid y El Americano",
+      "canal": "La Mesita Podcast",
+      "publicado": "2026-11-01T21:48:23-05:00",
+      "horas_desde": 23.3, "vistas": 27205, "vistas_por_hora": 1188, "duracion_seg": 856,
+      "medido_a": "2026-11-02T20:40:00-05:00",
+      "perfil": "Feid (similar; se habla de él)",
+      "aparece": false,
+      "por_que": "Feid no sale: es una reacción de dos presentadores a su remix. Entra porque rinde frente a su canal: 4,2 veces su reacción a 'Tura', publicada a la misma hora. Corta solo las opiniones habladas (quién tuvo el mejor verso y la comparación con la original), nunca la canción.",
+      "oportunidad": "tema-paradixe-remix-feid"
     }
   ]
 }

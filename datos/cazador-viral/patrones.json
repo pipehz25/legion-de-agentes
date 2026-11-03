@@ -1,39 +1,41 @@
 {
-  "actualizado": "2026-11-01T23:25:00-05:00",
-  "ciclo": 3,
+  "actualizado": "2026-11-02T21:05:00-05:00",
+  "ciclo": 4,
   "rotacion": {
     "plataformas": {
       "tiktok": "2026-11-01",
-      "youtube": "2026-11-01",
+      "youtube": "2026-11-02",
       "instagram": null,
       "facebook": null,
       "x": "2026-10-31",
       "twitch": null,
-      "kick": "2026-11-01",
+      "kick": "2026-11-02",
       "reddit": null
     },
     "nichos": {
-      "música urbana: cantantes jóvenes": "2026-11-01",
+      "música urbana: cantantes jóvenes": "2026-11-02",
       "empresarios exitosos y emprendimiento": "2026-11-01",
-      "streamers y creadores": "2026-11-01"
+      "streamers y creadores": "2026-11-02"
     }
   },
   "notas": [
-    "Ciclo 3 (2026-11-01): enfoque nuevo del usuario. Los nichos pasan a ser 'música urbana: cantantes jóvenes', 'empresarios exitosos y emprendimiento' y 'streamers y creadores', con perfiles en config.perfiles y datos/cazador-viral/perfiles.json. Quedan excluidos los reality shows, los concursos de TV y el chisme de televisión. Los nichos anteriores (farándula, historia, IA, humor, general) salen de la rotación, y 10 patrones vigilados que quedaban fuera se movieron a archivo.json con su motivo.",
+    "Ciclo 3 (2026-11-01): enfoque nuevo del usuario. Los nichos pasan a ser 'música urbana: cantantes jóvenes', 'empresarios exitosos y emprendimiento' y 'streamers y creadores', con perfiles en config.perfiles y datos/cazador-viral/perfiles.json. Quedan excluidos los reality shows, los concursos de TV y el chisme de televisión.",
     "Convención del ciclo 1, vigente: en etapa_por_contexto, 'sin-adaptar' significa que se buscó y no hay versiones; 'sin-verificar', que no se buscó. 'sin-adaptar' puntúa como semilla (22) con confianza baja.",
     "Convención del ciclo 2, vigente: una búsqueda sin réplicas en destino se registra como 'medido', con mide 'senal_relacionada'. puntaje_desglose = fuerza viral / momento / replicabilidad / encaje con nichos / hibridación (metodologia.md §5).",
-    "Sin datos/cazador-viral/resultados.json en los ciclos 1 a 3: no hay calibración.",
-    "Fuentes web: tokchart.com/es-mx/audios-de-tiktok sigue siendo la mejor señal medida de TikTok en destino (top 10 de México, con videos totales y videos por día). tokchart.com/es-co da 404 (ciclo 3). revid.ai/viral-tiktok-songs: muestra semanal. kworb.net/spotify/country/co_daily.html: el ranking de Spotify Colombia es la mejor señal relacionada de música urbana. No renderizan: TikTok Creative Center, tiktok.com/discover, knowyourmeme trending, streamscharts (403).",
-    "Herramienta clipero.ps1 (ciclo 3): 'canal' funciona. Comprobé directamente con yt-dlp que 'sin subidas recientes' era cierto (Maluma: última subida hace ~148 h; Westconsin: hace ~748 h). 'buscar Blessd' mezcla resultados religiosos en inglés ('blessed'): probar 'Blessd entrevista' o 'Blessd podcast'. 'buscar Maluma' y 'buscar J Balvin' con -Hoy solo traen recopilaciones musicales de terceros. El canal de La Vuelta Reacciones devolvió 0 subidas aunque tenía un video de 12 h: posible fallo de extracción, sin reintento.",
-    "Presupuesto usado en el ciclo 3: busquedas_youtube 19/15, revisiones_de_canal 20/20, busquedas_web 22/20 y lecturas_web 8/20. El exceso (4 búsquedas de YouTube y 2 web) vino de la instrucción del orquestador de resolver a los 3 empresarios con los Instagram que dio el usuario a mitad del ciclo. El radar de 9 perfiles se come casi todo el presupuesto de YouTube: en el próximo ciclo, las cuentas ya resueltas solo necesitan 'canal' y una búsqueda de apariciones. Los Instagram se leen con WebFetch sin iniciar sesión.",
-    "Excluidos por regla en el ciclo 3: la polémica Westcol–Temach por la muerte del streamer Komanche ('WestCOL niega haber atacado a Komanche y Temach no se lo compra', Green Space, 4.654 vistas/h; hay presunto suicidio y acusaciones de abuso, así que es una tragedia). 'KAROLA Habla sin filtros' (Sinvergüenza Podcast, 147.329 vistas en 34,6 h), porque Karola Alcendra viene de La Casa de los Famosos Colombia y de La Prisión del Destino (config.excluir). #LaGranjaEliminación (#1 en X México), por config.excluir. Las recopilaciones musicales de terceros con Maluma y J Balvin, por derechos y porque no son apariciones."
+    "Sin datos/cazador-viral/resultados.json en los ciclos 1 a 4: no hay calibración.",
+    "Fuentes web: tokchart.com/es-mx/audios-de-tiktok es la mejor señal medida de TikTok en destino (top 10 de México). El 02-nov a las 00:40 seguía mostrando la lista del 01-nov. tokchart.com/es-co da 404. revid.ai/viral-tiktok-songs tiene una muestra semanal y un índice de 30 días. kworb.net/spotify/country/co_daily.html es la mejor señal relacionada de música urbana. No renderizan: TikTok Creative Center, tiktok.com/discover, knowyourmeme trending ni streamscharts (403).",
+    "Herramienta clipero.ps1: 'canal' funciona, pero puede no ver una subida de pocas horas (ciclo 4: no listó 'PARADIXE (REMIX)' de Feid). Para los cantantes, completa siempre con 'buscar -Hoy -Detalle'. 'buscar Blessd' y 'Blessd entrevista' mezclan resultados religiosos en inglés. El Clipero usa el mismo script y comparte la fila (un candado): si está cortando, las llamadas esperan varios minutos. Para una consulta directa a yt-dlp, toma antes el mismo candado ('Local\\LegionClipero').",
+    "Ciclo 4, correcciones pedidas por el orquestador: (1) la crónica de El Heraldo que se citaba como 'Feid de invitado en el Awooween' es de un concierto en el Movistar Arena (septiembre de 2024). Se retira; los invitados reales del 31-oct los publican Publimetro y El Colombiano. (2) tema-gta-vi-lanzamiento sale del enfoque y se archiva. (3) Una fuente donde el perfil no sale en persona y que no tiene audiencia (ElWerik sobre Kris R) no entra nunca. Regla nueva: comprueba fecha y lugar antes de citar una crónica.",
+    "Ciclo 4: el ciclo empezó a las 00:23 del 02-nov y se cortó por límite de uso. Se retomó a las 20:30 y el radar se repitió entero porque la ventana de 36 h se había movido unas 20 h.",
+    "Presupuesto del ciclo 4: revisiones_de_canal 45/20 (22 en la primera pasada y 23 en la segunda), busquedas_youtube 19/15, busquedas_web 10/20, lecturas_web 13/20, más 5 consultas directas a yt-dlp para comprobar descripciones, transcripciones y miniaturas. El exceso viene de resolver 3 perfiles nuevos (Lonche tiene 7 canales de recortes), de la orden de revisar a todos los demás y de repetir el radar tras el corte. En adelante, el radar barato de 14 perfiles más los canales de Lonche cuesta unas 25 revisiones: conviene subir revisiones_de_canal a 30 o turnar a los perfiles que menos publican (Santiago Ospina, Maluma, J Balvin).",
+    "Excluidos por regla en el ciclo 4: todo lo de la muerte de Komanche (Green Space, Cayco, Turbo Plant; 'El Komanche' tuvo 9.424 visitas en Wikipedia en español el 01-nov) y el chisme 'Feid y Karol G siguen juntos'."
   ],
   "candidatos_pendientes": [
-    { "id": "tema-w-sound-10-happy-monday", "nota": "'Happy Monday - W Sound 10' (W Sound, el proyecto musical de Westcol con Ovy On The Drums) es #4 en Spotify Colombia con 172.173 reproducciones el 31-oct (kworb). No sé la fecha de lanzamiento, los artistas ni el uso en TikTok, y dos búsquedas web no encontraron nada. Une los nichos de streamer y música urbana: buscar el video y el audio en el próximo ciclo.", "fecha": "2026-11-01" },
-    { "id": "formato-vlog-viajando-con-artista", "nota": "Vlog 'viajando con [artista]' grabado por el círculo cercano: 'Viajando con blessd' (Yeison guardo) suma 14.298 vistas en 9,7 h con 19,8 K suscriptores. Es una sola señal; falta la mediana del canal y ver si hay réplicas con otros artistas.", "fecha": "2026-11-01" },
-    { "id": "formato-empresario-cuenta-como-empezo", "nota": "Empresario de lujo que cuenta cómo empezó, dentro de un carro o en un stream: Daren Ramirez con Diego RR Autos en un Rolls-Royce (17.735 vistas), 'El secreto de RR Autos' (66.272), Westcol con David Vélez de Nubank (~31 días) y 'Millonario a los 23 años' (Hablemos Podcast). Es perenne. Falta material reciente con vistas por hora para fecharlo.", "fecha": "2026-11-01" },
-    { "id": "tema-masad-ring-royale", "nota": "'MASAD X RINGROYALE SOON' (#4 en X México, 3 h) y '#masadxringroyalebox' (nueva en el #8, 01-nov): parece un evento de boxeo entre creadores. Sin verificar quién participa. Revisar si es del nicho de streamers.", "fecha": "2026-11-01" },
-    { "id": "audio-zany-emote-fortnite", "nota": "'Zany Emote Fortnite' (CsCrafty): #6 en TikTok México, 1 M de videos y +49.402 al día el 01-nov (+37.418 el 31-oct). Es de gaming, junto al nicho de streamers. Uso desconocido.", "fecha": "2026-11-01" },
+    { "id": "tema-w-sound-10-happy-monday", "nota": "'Happy Monday - W Sound 10' (W Sound, el proyecto musical de Westcol con Ovy On The Drums) es con Hades66: es #4 en Spotify Colombia con 172.173 reproducciones el 31-oct (kworb). La Mesita Podcast reaccionó el 23-oct y lleva 73.000 vistas, su video más visto de los últimos 10. Westcol habló de su éxito en su regreso del 02-nov (https://www.youtube.com/watch?v=8L8CP3xe3Qo, 2.056 vistas/h). Une los nichos de streamer y música urbana. Falta medir el uso del audio en TikTok y si hay réplicas del formato: candidato fuerte para el ciclo 5.", "fecha": "2026-11-02" },
+    { "id": "formato-vlog-viajando-con-artista", "nota": "Vlog 'viajando con [artista]' grabado por el círculo cercano: 'Viajando con blessd' (Yeison guardo) sumaba 15.407 vistas a las 23:25 del 01-nov, con 19,8 K suscriptores. Es una sola señal; falta la mediana del canal y ver si hay réplicas con otros artistas.", "fecha": "2026-11-01" },
+    { "id": "formato-empresario-cuenta-como-empezo", "nota": "Empresario de lujo que cuenta cómo empezó, dentro de un carro o en un stream: Daren Ramirez con Diego RR Autos en un Rolls-Royce (17.735 vistas), 'El secreto de RR Autos' (66.272), Westcol con David Vélez de Nubank (~31 días) y 'Millonario a los 23 años' (Hablemos Podcast). Pariente en streamers: los recortes de Lonche comprando carros de lujo ('SUBI A YOLO A mi NUEVO FERRARI', 694 vistas/h). Es perenne. Falta material reciente de empresarios con vistas por hora para fecharlo.", "fecha": "2026-11-02" },
+    { "id": "tema-masad-ring-royale", "nota": "'MASAD X RINGROYALE SOON' (#4 en X México, 3 h) y '#masadxringroyalebox' (nueva en el #8, 01-nov): parece un evento de boxeo entre creadores. El 02-nov a las 20:31 ya no está en el top 10 de X México. Sin verificar quién participa.", "fecha": "2026-11-01" },
+    { "id": "audio-zany-emote-fortnite", "nota": "'Zany Emote Fortnite' (CsCrafty): #6 en TikTok México, 1 M de videos y +49.402 al día el 01-nov. Es de gaming: con el mismo criterio que GTA VI (fuera del enfoque, 02-nov), solo cuenta si lo usa un perfil.", "fecha": "2026-11-02" },
     { "id": "tema-quackity-qsmp2", "nota": "Quackity #6 en X México (3 h, 31-oct), ligado a QSMP 2. En YouTube rinde poco: el mejor resultado tiene 717 vistas por hora. Nicho de streamers; revisar Twitch o Kick cuando haya clave.", "fecha": "2026-10-31" }
   ],
   "patrones": [
@@ -41,57 +43,100 @@
       "id": "tema-awooween-ryan-castro-campin",
       "nombre": "Awooween de Ryan Castro en El Campín (31-oct)",
       "tipo": "tema",
-      "descripcion": "Concierto-fiesta de Halloween de Ryan Castro en El Campín (Bogotá, 31-oct-2026), agotado en una hora, con Feid de invitado según El Heraldo. Al día siguiente salen recortes de fans, vlogs y podcasts, y el mejor sobre-rinde.",
+      "descripcion": "Concierto-fiesta de Halloween de Ryan Castro en El Campín (Bogotá, 31-oct-2026), agotado en una hora, con más de 53.000 personas y nueve invitados: Farruko, Hamilton, Ñejo, Reik, Maisak, Tito el Bambino, Aria Vega (disfrazada de Feid), Jorge Celedón y Jhonny Rivera. Feid no estuvo. Al día siguiente salen recortes de fans y vlogs; solo uno sobre-rinde.",
       "plataformas": ["youtube", "tiktok", "instagram"],
       "regiones": ["CO"],
       "nichos": ["música urbana: cantantes jóvenes"],
       "primera_vez_visto": "2026-11-01",
-      "etapa": "emergente",
-      "etapa_por_contexto": { "youtube-co": "emergente", "spotify-co": "crecimiento", "tiktok-co": "sin-verificar" },
-      "indice_saturacion": 22,
-      "puntaje_oportunidad": 74,
-      "puntaje_desglose": "16 / 30 / 8 / 15 / 5",
+      "etapa": "semilla",
+      "etapa_por_contexto": { "youtube-co": "semilla", "spotify-co": "crecimiento", "tiktok-co": "sin-verificar" },
+      "indice_saturacion": 15,
+      "puntaje_oportunidad": 62,
+      "puntaje_desglose": "13 / 22 / 7 / 15 / 5",
       "ventana_hasta": "2026-11-03",
-      "confianza": "media",
+      "confianza": "baja",
       "genoma": {
-        "gancho": "Resultado primero: el invitado sorpresa, o '3 cosas del Awooween que no viste'",
+        "gancho": "Resultado primero: '9 invitados en El Campín' o 'Salió vestida de Feid… y no era Feid' (Aria Vega)",
         "estructura": "Recorte de momentos, lista de 3 o vlog de 'cómo lo viví'",
         "emocion": "Euforia, orgullo identitario (Medellín y Bogotá) y FOMO",
-        "payoff": "El momento cumbre: el invitado, el discurso o el estadio lleno",
+        "payoff": "El momento cumbre: un invitado confirmado, el discurso o el estadio lleno",
         "formato_tecnico": "Vertical de 30-45 s con voz en off y tomas propias, o recorte horizontal largo",
         "audio": "La música en vivo tiene derechos: solo de fondo bajo, o reemplazada por música de la biblioteca",
         "edicion": "Cortes en los picos del público",
         "arquetipo": "El que estuvo ahí",
-        "participacion": "¿Cuál fue el mejor momento? Si estuviste, escríbelo",
+        "participacion": "¿Cuál fue el mejor invitado? Si estuviste, escríbelo",
         "contexto": "Actualidad, 24-72 h",
         "perecederos": ["contexto"]
       },
       "evidencia": [
         { "url": "https://www.youtube.com/watch?v=Z1VUghXaEIM", "metrica": "Recorte de fans de 46 min (La Vuelta Reacciones): 12.427 vistas en 12 h (1.036 por hora) en un canal de 134 suscriptores, unas 92 veces sus suscriptores", "tipo": "medido", "mide": "patron", "contexto": "youtube-co", "fecha": "2026-11-01" },
+        { "url": "https://www.youtube.com/watch?v=Z1VUghXaEIM", "metrica": "Remedición: 23.005 vistas en 33,8 h (681/h de media; 143 suscriptores). En las últimas 20 h sumó 8.654, unas 430/h: se frena", "tipo": "medido", "mide": "patron", "contexto": "youtube-co", "fecha": "2026-11-02" },
         { "url": "https://www.youtube.com/watch?v=GBvB5F-zSMc", "metrica": "Vlog nuevo (Danigoals, 1.100 suscriptores): 25 vistas en 1,1 h. Es una réplica temprana, todavía sin tracción", "tipo": "medido", "mide": "patron", "contexto": "youtube-co", "fecha": "2026-11-01" },
+        { "url": "https://www.youtube.com/results?search_query=Ryan+Castro+Awooween", "metrica": "Búsqueda 'Ryan Castro Awooween' en YouTube (esta semana, con fecha exacta, 36 h): solo devuelve el recorte de La Vuelta Reacciones, el 02-nov a las 00:38 y a las 20:49. El Clipero tampoco encontró recortes en 72 h", "tipo": "medido", "mide": "senal_relacionada", "contexto": "youtube-co", "fecha": "2026-11-02" },
         { "url": "https://kworb.net/spotify/country/co_daily.html", "metrica": "Spotify Colombia (31-oct): 'LA VILLA' #21 (+11; 113.462) y 'SANKA' #49 (+14; 87.436)", "tipo": "medido", "mide": "senal_relacionada", "contexto": "spotify-co", "fecha": "2026-11-01" },
-        { "url": "https://www.elheraldo.co/sociedad/ryan-castro-prende-todas-las-radios-en-su-concierto-en-bogota-con-feid-de-invitado-1124249", "metrica": "Crónica: Feid de invitado (sin cifras)", "tipo": "estimado", "mide": "senal_relacionada", "contexto": "prensa-co", "fecha": "2026-11-01" },
+        { "url": "https://www.publimetro.co/entretenimiento/2026/11/01/ryan-castro-sorprendio-en-el-campin-con-nueve-invitados-de-lujo-estos-fueron-los-artistas-que-aparecieron-en-awooween/", "metrica": "Crónica del 31-oct en El Campín: nueve invitados (Farruko, Hamilton, Ñejo, Reik, Maisak, Tito el Bambino, Aria Vega, Jorge Celedón y Jhonny Rivera). Feid, J Balvin y Maluma solo estaban entre los rumores; Aria Vega salió disfrazada de Feid", "tipo": "medido", "mide": "senal_relacionada", "contexto": "prensa-co", "fecha": "2026-11-02" },
+        { "url": "https://www.elcolombiano.com/cultura/awooween-concierto-ryan-castro-bogota-DB43064698", "metrica": "Más de 53.000 asistentes y la misma lista de nueve invitados (La Veintitrés habla de más de 40.000)", "tipo": "medido", "mide": "senal_relacionada", "contexto": "prensa-co", "fecha": "2026-11-02" },
         { "url": "https://canaltrece.com.co/noticias/ryan-castro-agota-awooween-en-el-campin-en-solo-una-hora/", "metrica": "Entradas agotadas en una hora (sin cifra de asistencia confirmada)", "tipo": "estimado", "mide": "senal_relacionada", "contexto": "prensa-co", "fecha": "2026-11-01" }
       ],
       "historial": [
-        { "fecha": "2026-11-01", "etapa": "emergente", "indice_saturacion": 22, "senal": "Dos señales independientes: un recorte de fans que sobre-rinde en YouTube (92 veces los suscriptores del canal en 12 h) y subidas de sus canciones en Spotify CO, más la crónica de prensa. Solo hay 3 réplicas visibles (recorte, vlog y podcast): emergente. Es un tema de actualidad: la ventana cierra el 03-nov." }
+        { "fecha": "2026-11-01", "etapa": "emergente", "indice_saturacion": 22, "senal": "Dos señales independientes: un recorte de fans que sobre-rinde en YouTube (92 veces los suscriptores del canal en 12 h) y subidas de sus canciones en Spotify CO, más la crónica de prensa. Solo hay 3 réplicas visibles (recorte, vlog y podcast): emergente. Es un tema de actualidad: la ventana cierra el 03-nov." },
+        { "fecha": "2026-11-02", "etapa": "semilla", "indice_saturacion": 15, "senal": "Corrección y remedición. Se retira la crónica de El Heraldo ('Feid de invitado'), que es de un concierto en el Movistar Arena en septiembre de 2024. Los invitados reales (nueve, sin Feid) salen de Publimetro y El Colombiano. El puntaje no dependía de esa crónica en cifras (era 'estimado', sin métrica), pero el gancho sí, y se rehace. Además, en 36 h solo hay una réplica que rinda, y se frena (de 1.055 a unas 430 vistas por hora): con 2 réplicas visibles corresponde a semilla, no a emergente. Puntaje: de 74 a 62 (fuerza 16→13, momento 30→22, replicabilidad 8→7). Sigue como oportunidad porque tiene una medición propia en youtube-co. Ventana: 03-nov." }
+      ]
+    },
+    {
+      "id": "tema-paradixe-remix-feid",
+      "nombre": "'PARADIXE (REMIX)' de Feid, El Americano 4KT y Pirlo, con Myke Towers y Omar Courtz",
+      "tipo": "tema",
+      "descripcion": "Remix de 'PARADIXE' (#2 en Spotify Colombia el 31-oct) estrenado el 01-nov a las 17:02 en el canal de Feid. Lo que se replica son reacciones y veredictos de canales de música urbana, que rinden por encima de su media. Une a Feid (similar) con Pirlo, rival de Blessd.",
+      "plataformas": ["youtube", "tiktok", "instagram"],
+      "regiones": ["CO", "PR", "US"],
+      "nichos": ["música urbana: cantantes jóvenes"],
+      "primera_vez_visto": "2026-11-02",
+      "etapa": "semilla",
+      "etapa_por_contexto": { "youtube-es": "semilla", "tiktok-es": "sin-verificar" },
+      "indice_saturacion": 12,
+      "puntaje_oportunidad": 67,
+      "puntaje_desglose": "17 / 22 / 8 / 15 / 5",
+      "ventana_hasta": "2026-11-06",
+      "confianza": "baja",
+      "genoma": {
+        "gancho": "Pregunta binaria en texto: '¿El remix está mejor que la original?' o '¿Quién mató el remix?'",
+        "estructura": "Reacción con veredicto verso por verso, o tier list de los cinco artistas del remix",
+        "emocion": "Curiosidad, polémica y orgullo identitario (Medellín frente a Puerto Rico)",
+        "payoff": "El veredicto: quién tuvo el mejor verso",
+        "formato_tecnico": "Cara a cámara o tarjetas con el nombre de cada artista; vertical, 30-60 s; sin el audio original, o solo con el fragmento de la biblioteca",
+        "audio": "La canción tiene derechos: solo desde la biblioteca de TikTok o Instagram",
+        "edicion": "Un corte por verso, con la tarjeta del artista",
+        "arquetipo": "El crítico que reacciona",
+        "participacion": "Votar en comentarios quién tuvo el mejor verso",
+        "contexto": "Lanzamiento musical: ventana de 3 a 5 días",
+        "perecederos": ["contexto"]
+      },
+      "evidencia": [
+        { "url": "https://www.youtube.com/watch?v=yxUH4fuvwu4", "metrica": "Reacción de La Mesita Podcast (78,8 K suscriptores): 27.205 vistas en 22,9 h (1.188/h), 4,2 veces su reacción a 'Tura', publicada a la misma hora (6.407 en 22,7 h); 1.028 me gusta", "tipo": "medido", "mide": "patron", "contexto": "youtube-es", "fecha": "2026-11-02" },
+        { "url": "https://www.youtube.com/watch?v=5xnWRSMg5Is", "metrica": "Reacción de OVELTIME tv (528 K suscriptores): 2.106 vistas en 1,3 h (1.620/h). Todavía es pronto para saber si sobre-rinde", "tipo": "medido", "mide": "patron", "contexto": "youtube-es", "fecha": "2026-11-02" },
+        { "url": "https://www.youtube.com/watch?v=YXvFLBjTCQA", "metrica": "Video oficial (canal de Feid, 7,27 M suscriptores): 261.813 vistas en 7,5 h (34.908/h) a las 00:32 y 792.002 en 27,7 h (28.592/h) a las 20:47 del 02-nov", "tipo": "medido", "mide": "senal_relacionada", "contexto": "youtube-global", "fecha": "2026-11-02" },
+        { "url": "https://kworb.net/spotify/country/co_daily.html", "metrica": "La versión original 'PARADIXE' era #2 en Spotify Colombia con 352.409 reproducciones diarias (31-oct)", "tipo": "medido", "mide": "senal_relacionada", "contexto": "spotify-co", "fecha": "2026-11-01" }
+      ],
+      "historial": [
+        { "fecha": "2026-11-02", "etapa": "semilla", "indice_saturacion": 12, "senal": "Dos señales independientes: el video oficial a 28.592 vistas/h y reacciones de canales medianos que sobre-rinden (La Mesita, 4,2 veces su video de la misma edad; OVELTIME, 1.620/h en su primera hora). Solo hay 2 reacciones independientes visibles, más resubidas: semilla. Nadie de los perfiles sale en ellas." }
       ]
     },
     {
       "id": "audio-dame-hombro",
       "nombre": "'Dame Hombro' (Bulin 47, Kevin Wai, Breyco En Producidera)",
       "tipo": "audio",
-      "descripcion": "Dembow dominicano de un cantante joven, que en TikTok aparece en videos de #gymmotivation y #dembow. Supera los 235 K videos en TikTok México. El uso probable es un juego de palabras con 'hombro' (día de hombro en el gimnasio o un paso de baile); es una inferencia, no he visto los videos.",
+      "descripcion": "Dembow dominicano de un cantante joven, que en TikTok aparece en videos de #gymmotivation y #dembow. Supera los 235 K videos en TikTok México. El uso probable es un juego de palabras con 'hombro' (día de hombro en el gimnasio o un paso de baile); es una inferencia, no he visto los videos. The Chanty lo usó en un freestyle de su fiesta de disfraces (clip del Clipero del 01-nov).",
       "plataformas": ["tiktok"],
       "regiones": ["MX", "CO", "DO"],
       "nichos": ["música urbana: cantantes jóvenes"],
       "primera_vez_visto": "2026-10-26",
       "etapa": "crecimiento",
-      "etapa_por_contexto": { "tiktok-es-rd": "crecimiento", "tiktok-mx": "crecimiento", "tiktok-co": "emergente", "tiktok-global": "crecimiento", "emprendimiento-es": "sin-verificar" },
-      "indice_saturacion": 47,
-      "puntaje_oportunidad": 72,
-      "puntaje_desglose": "19 / 22 / 11 / 12 / 8",
-      "ventana_hasta": "2026-11-08",
+      "etapa_por_contexto": { "tiktok-es-rd": "crecimiento", "tiktok-mx": "crecimiento", "tiktok-co": "emergente", "tiktok-global": "pico", "emprendimiento-es": "sin-verificar" },
+      "indice_saturacion": 52,
+      "puntaje_oportunidad": 70,
+      "puntaje_desglose": "17 / 22 / 11 / 12 / 8",
+      "ventana_hasta": "2026-11-06",
       "confianza": "media",
       "genoma": {
         "gancho": "Movimiento o levantamiento de hombro sincronizado con 'dame hombro' (inferido)",
@@ -115,59 +160,15 @@
         { "url": "https://kworb.net/spotify/country/co_daily.html", "metrica": "#90 en Spotify Colombia (+16), 65.743 reproducciones diarias (29-oct)", "tipo": "medido", "mide": "senal_relacionada", "contexto": "spotify-co", "fecha": "2026-10-31" },
         { "url": "https://www.youtube.com/watch?v=NitVN99-rkc", "metrica": "Entrevista a Bulin 47 en Queso y Guayaba Podcast (52 min): 28.133 vistas en 11,6 h en un canal de 747 suscriptores (≈37 veces sus suscriptores)", "tipo": "medido", "mide": "senal_relacionada", "contexto": "youtube-es", "fecha": "2026-10-31" },
         { "url": "https://tokchart.com/es-mx/audios-de-tiktok", "metrica": "#7 en TikTok México: 235 K videos, +13.200 al día (01-nov). Vuelve a acelerar: +5.800 al día el 31-oct", "tipo": "medido", "mide": "patron", "contexto": "tiktok-mx", "fecha": "2026-11-01" },
-        { "url": "https://www.revid.ai/viral-tiktok-songs", "metrica": "#3 en la muestra semanal: 3 posts de 3 creadores, 4,3 M de vistas, estable (01-nov; el 31-oct era #6)", "tipo": "medido", "mide": "patron", "contexto": "tiktok-global", "fecha": "2026-11-01" }
+        { "url": "https://www.revid.ai/viral-tiktok-songs", "metrica": "#3 en la muestra semanal: 3 posts de 3 creadores, 4,3 M de vistas, estable (01-nov; el 31-oct era #6)", "tipo": "medido", "mide": "patron", "contexto": "tiktok-global", "fecha": "2026-11-01" },
+        { "url": "https://www.revid.ai/viral-tiktok-songs", "metrica": "Ya no está en la muestra semanal del 02-nov. Solo aparece en el índice de 30 días: #12, con 3 videos virales", "tipo": "medido", "mide": "patron", "contexto": "tiktok-global", "fecha": "2026-11-02" },
+        { "url": "https://tokchart.com/es-mx/audios-de-tiktok", "metrica": "La lista leída el 02-nov a las 00:40 sigue siendo la del 01-nov: #7, 235 K videos, +13.200 al día. No hay dato nuevo", "tipo": "medido", "mide": "patron", "contexto": "tiktok-mx", "fecha": "2026-11-02" }
       ],
       "historial": [
         { "fecha": "2026-10-26", "etapa": "emergente", "indice_saturacion": 23, "senal": "Dos señales independientes: sube en la muestra de TikTok (x1,6, 8,9 M de vistas) y salta +25 en Spotify Colombia; ya está consolidado en RD. Plantilla de uso por confirmar." },
         { "fecha": "2026-10-31", "etapa": "crecimiento", "indice_saturacion": 45, "senal": "Pasa a crecimiento: 221 K videos en TikTok México (+5,8 K al día), sigue subiendo en Spotify CO (#90, +16) y la entrevista del artista sobre-rinde en YouTube. La aceleración se frena en la muestra global (x1,6 → x1,3): pico probable en 1-2 semanas. La plantilla sigue sin verificarse." },
-        { "fecha": "2026-11-01", "etapa": "crecimiento", "indice_saturacion": 47, "senal": "Vuelve a acelerar: +13.200 videos al día en TikTok México (más del doble que el 31-oct) y sube del #6 al #3 en la muestra de revid (4,3 M de vistas, estable). Sigue en crecimiento y la ventana se alarga hasta el 08-nov. Encaja en el nicho nuevo de música urbana (cantante joven dominicano). Se diseña el trasplante 'Los que me dieron hombro' (emprendimiento y creadores). El uso real del audio sigue sin verse." }
-      ]
-    },
-    {
-      "id": "tema-gta-vi-lanzamiento",
-      "nombre": "Lanzamiento de GTA VI (19-nov-2026)",
-      "tipo": "tema",
-      "descripcion": "Cuenta atrás para el lanzamiento de Grand Theft Auto VI en PS5 y Xbox Series X|S. Para el enfoque nuevo importa como el gran directo de noviembre de los streamers (Kick y Twitch), y su banda sonora vuelve a acelerar en TikTok México.",
-      "plataformas": ["kick", "twitch", "youtube", "tiktok", "x"],
-      "regiones": ["MX", "CO", "AR", "ES", "US"],
-      "nichos": ["streamers y creadores"],
-      "primera_vez_visto": "2026-10-26",
-      "etapa": "crecimiento",
-      "etapa_por_contexto": { "youtube-en": "crecimiento", "tiktok-mx-audio-suzuki": "crecimiento", "google-es": "crecimiento", "youtube-es": "sin-verificar", "kick-es": "sin-verificar" },
-      "indice_saturacion": 50,
-      "puntaje_oportunidad": 69,
-      "puntaje_desglose": "18 / 22 / 14 / 9 / 6",
-      "ventana_hasta": "2026-11-19",
-      "confianza": "media",
-      "genoma": {
-        "gancho": "Cuenta atrás ('Faltan N días para GTA VI') o un dato con tarjeta 'confirmado' o 'filtrado'",
-        "estructura": "Predicción, lista o 'lo que sabemos'",
-        "emocion": "Expectativa y nostalgia gamer",
-        "payoff": "Un dato confirmado o una predicción polémica",
-        "formato_tecnico": "Cara a cámara o voz en off con texto; vertical, 20-60 s. En streamers: el directo del lanzamiento y sus reacciones",
-        "audio": "Original, o un tema de la banda sonora desde la biblioteca ('Suzuki' vuelve a acelerar)",
-        "edicion": "Cortes rápidos con inserciones",
-        "arquetipo": "Fan experto o streamer que reacciona",
-        "participacion": "Pregunta binaria ('¿lo compras el día 1?', '¿te cabe en la consola?') y predicciones en comentarios",
-        "contexto": "Actualidad con fecha fija",
-        "perecederos": ["contexto"]
-      },
-      "evidencia": [
-        { "url": "https://www.techradar.com/gaming/grand-theft-auto-6-delayed-again-but-itll-still-ship-in-2026", "metrica": "Lanzamiento confirmado para el 19-nov-2026 (PS5 y Xbox Series X|S); Take-Two lo reafirmó", "tipo": "medido", "mide": "senal_relacionada", "contexto": "prensa-global", "fecha": "2026-10-26" },
-        { "url": "https://kworb.net/spotify/country/mx_daily.html", "metrica": "'Suzuki (from GTAVI: The Album)' de Fuerza Regida, #2 en Spotify México con 1.142.776 reproducciones diarias (25-oct-2026)", "tipo": "medido", "mide": "senal_relacionada", "contexto": "spotify-mx", "fecha": "2026-10-26" },
-        { "url": "https://www.revid.ai/viral-tiktok-songs", "metrica": "'Suzuki (from GTAVI: The Album)', #4 en la muestra semanal de TikTok, 5 posts de 5 creadores, estable", "tipo": "medido", "mide": "patron", "contexto": "tiktok-global", "fecha": "2026-10-26" },
-        { "url": "https://www.youtube.com/watch?v=sGgNvGbwrH4", "metrica": "'GTA6 SIZE REVEALED, ELDER SCROLLS 6 LEAKED? & MORE' (gameranx, 8,66 M suscriptores): 297.048 vistas en 9,5 h (31.268/h)", "tipo": "medido", "mide": "patron", "contexto": "youtube-en", "fecha": "2026-10-31" },
-        { "url": "https://www.youtube.com/watch?v=lMOAMJeLS5A", "metrica": "'New GTA 6 Gameplay From South Park And New Details - Luke Reacts': 94.100 vistas en 10,7 h, con 280 K suscriptores", "tipo": "medido", "mide": "patron", "contexto": "youtube-en", "fecha": "2026-10-31" },
-        { "url": "https://tokchart.com/es-mx/audios-de-tiktok", "metrica": "'Suzuki (from GTAVI: The Album)' #1 en TikTok México por volumen, con 114 K videos, pero con −11.481 videos al día (31-oct): el audio se enfría", "tipo": "medido", "mide": "patron", "contexto": "tiktok-mx", "fecha": "2026-10-31" },
-        { "url": "https://kworb.net/spotify/country/mx_daily.html", "metrica": "'Suzuki' sube al #1 de Spotify México con 1.485.906 reproducciones diarias (29-oct)", "tipo": "medido", "mide": "senal_relacionada", "contexto": "spotify-mx", "fecha": "2026-10-31" },
-        { "url": "https://upcomer.com/gta-6-file-size-leak-points-to-nearly-200-gb-on-ps5/", "metrica": "Filtración (27-oct) de 210 GB en PS5, no confirmada por Rockstar: material de noticias para la serie diaria", "tipo": "estimado", "mide": "senal_relacionada", "contexto": "prensa-global", "fecha": "2026-10-31" },
-        { "url": "https://tokchart.com/es-mx/audios-de-tiktok", "metrica": "'Suzuki (from GTAVI: The Album)' sigue #1 en TikTok México: 139 K videos, +24.600 al día (01-nov). Vuelve a acelerar tras el −11.481 del 31-oct", "tipo": "medido", "mide": "patron", "contexto": "tiktok-mx", "fecha": "2026-11-01" },
-        { "url": "https://www.gamesradar.com/edge/gtavi-cover/", "metrica": "Google Trends España: 'gta 6' #2 con 100+ (recolector, 01-nov 22:48)", "tipo": "medido", "mide": "patron", "contexto": "google-es", "fecha": "2026-11-01" }
-      ],
-      "historial": [
-        { "fecha": "2026-10-26", "etapa": "crecimiento", "indice_saturacion": 45, "senal": "Faltan 24 días. La banda sonora está en el top 2 de México y en la muestra de TikTok. El pico se espera el día del lanzamiento." },
-        { "fecha": "2026-10-31", "etapa": "crecimiento", "indice_saturacion": 50, "senal": "Faltan 19 días. Las noticias aceleran en YouTube en inglés (31 K vistas/h en gameranx; canales medianos sobre-rinden). El audio 'Suzuki' llega al #1 de Spotify MX pero cae en creación en TikTok MX (−11,5 K videos al día) y revid lo marca 'Cooling': el audio está en pico y el tema sigue en crecimiento. Falta medir en español." },
-        { "fecha": "2026-11-01", "etapa": "crecimiento", "indice_saturacion": 50, "senal": "Faltan 18 días. 'Suzuki' vuelve a acelerar en TikTok México (+24.600 videos al día; de 114 K a 139 K) y 'gta 6' entra en Google Trends España. Pasa al nicho 'streamers y creadores' como el directo previsible del 19-nov; el encaje baja a 9 porque no es contenido de los perfiles. Falta medir en español y en Kick." }
+        { "fecha": "2026-11-01", "etapa": "crecimiento", "indice_saturacion": 47, "senal": "Vuelve a acelerar: +13.200 videos al día en TikTok México (más del doble que el 31-oct) y sube del #6 al #3 en la muestra de revid (4,3 M de vistas, estable). Sigue en crecimiento y la ventana se alarga hasta el 08-nov. Encaja en el nicho nuevo de música urbana (cantante joven dominicano). Se diseña el trasplante 'Los que me dieron hombro' (emprendimiento y creadores). El uso real del audio sigue sin verse." },
+        { "fecha": "2026-11-02", "etapa": "crecimiento", "indice_saturacion": 52, "senal": "Sale de la muestra semanal de revid (el 01-nov era #3) y queda solo en el índice de 30 días (#12). Es la primera señal de enfriamiento en el contexto global, que pasa a pico. En México sigue en crecimiento, aunque tokchart no se ha actualizado desde el 01-nov. Fuerza de 19 a 17, puntaje de 72 a 70 y ventana acortada al 06-nov. Si el próximo tokchart baja de +13.200 al día, pasa a pico." }
       ]
     },
     {
