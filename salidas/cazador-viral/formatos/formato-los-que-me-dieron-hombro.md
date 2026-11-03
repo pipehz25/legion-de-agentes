@@ -1,5 +1,7 @@
 # Los que me dieron hombro
 
+> **Estado (03-nov, ciclo 5): no vigente.** 'Dame Hombro' salió del top 10 de TikTok México (era #7, con +13.200 videos al día, el 01-nov) y del índice de 30 días de revid: está en pico. Por la regla de cruce, un gen perecedero en pico no se usa. La estructura (lista de agradecimiento con "etiqueta a quien te dio hombro") se puede reutilizar con otro audio que esté en semilla o emergente.
+
 - **Fórmula:** audio en crecimiento "Dame Hombro" (perecedero; solo desde la biblioteca de la plataforma) + carrusel o lista de fotos "quién me apoyó cuando nadie creía" (estructural) + arquetipo del emprendedor o el creador que empezó desde abajo + participación "etiqueta a quien te dio hombro".
 - **Patrones base:** `audio-dame-hombro` (crecimiento en tiktok-mx, aceleró el 01-nov), con la estructura de storytime o carrusel de agradecimiento como gen estable.
 - **Palanca:** trasplante de nicho. El audio circula en gimnasio y baile (#gymmotivation, #dembow) y aquí pasa a emprendimiento y creadores. Se apoya en la expresión colombiana "hacer el hombro" (ayudar, apoyar); que la letra signifique eso es una inferencia sin verificar.

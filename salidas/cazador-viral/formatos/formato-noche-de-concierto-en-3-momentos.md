@@ -1,5 +1,7 @@
 # La noche en 3 momentos (lo que no salió en las noticias)
 
+> **Estado (03-nov, ciclo 5): no vigente para el Awooween.** La ventana cerró el 03-nov y las réplicas nuevas no rinden (saturación). La estructura sí sigue valiendo para el próximo evento de un perfil: **Stream Fighters 5, el 14-nov** ("La noche de Stream Fighters en 3 momentos", publicada en las 24-48 h siguientes). Ver también `formato-ficha-de-combate-creadores.md` para la previa.
+
 - **Fórmula:** tema del día en música urbana (concierto o evento de un perfil, 24-72 h) + lista corta de 3 momentos (estructural) + arquetipo "el que estuvo ahí" + voz en off con texto en pantalla (estructural) + pregunta de bando al final.
 - **Patrones base:** `tema-awooween-ryan-castro-campin` (emergente en youtube-co), con la estructura de lista de 3 como gen estable.
 - **Palanca:** aprovechar la actualidad con un formato estable (metodología §6.5).
