@@ -24,6 +24,12 @@
   },
   "umbral_produccion": 65,
 
-  "fuentes_autorizadas": [],
+  "fuentes_autorizadas": [
+    {
+      "canal": "Lalo Ocampo",
+      "url": "https://www.youtube.com/channel/UCmCfH4NmlvNvpW4NtrMN3gw",
+      "condiciones": "El usuario confirmó el 2026-11-02 que tiene permiso del artista para recortar sus videos. Sus clips llevan derechos autorizado."
+    }
+  ],
   "_fuentes_autorizadas": "Canales propios o con programa de clips que autoriza a clipers. Formato: { \"canal\": \"...\", \"url\": \"...\", \"condiciones\": \"...\" }. Se priorizan y sus clips se marcan como autorizados."
 }
