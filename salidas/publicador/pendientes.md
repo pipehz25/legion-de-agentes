@@ -1,5 +1,13 @@
 # Pendientes de aprobación del Publicador
 
+> **Actualización 2026-11-02 20:30: clips de Inés Gómez Mont rechazados.** Por tu instrucción, `2026-10-31-alvarez-puga-deportacion` y `2026-10-31-gomez-mont-amparo-cuentas` quedan **rechazados** (motivo: no encajan con el enfoque nuevo de contenido). Ya no están pendientes de aprobación en ninguna plataforma y el script bloquea cualquier subida nueva (`datos/publicador/descartados.json`).
+>
+> **Tienes que borrarlos tú desde la app de TikTok:** los dos siguen como **borradores en tu bandeja de TikTok** (se enviaron el 1-nov a las 22:20 y 22:21). La API de TikTok no permite eliminar borradores, así que hay que descartarlos a mano en la app y **no publicarlos**. En [revision-pendientes-2026-11-02.md](revision-pendientes-2026-11-02.md) aparecen aún en la lista de "notificación enviada": ahí ya no cuentan como pendientes.
+>
+> Los 10 clips nuevos del Clipero del 2026-11-01 todavía no se han preparado: se prepararán en el próximo ciclo normal, cuando termines de revisarlos.
+
+> Actualizacion 2026-11-02: el usuario confirma que ya publico todos los videos. No reenviar sin nueva instruccion. Solicita borrar los pendientes de TikTok, pero la conexion disponible no permite hacerlo; no se elimino contenido. Ver [revision de estados](revision-pendientes-2026-11-02.md). Los estados siguientes son historicos.
+
 Generado: 2026-10-29T21:00:39-05:00 · ciclo 2 · modo `aprobacion` · simulación en config.json: `false` (las subidas son reales)
 
 **TikTok ya está aprobado en los 21 clips.** Quedan **42 envíos por aprobar: Instagram y YouTube** de esos 21 clips. Van ordenados por ventana (la más cercana primero) y, a igualdad, por puntaje.

@@ -1,5 +1,5 @@
 {
-    "actualizado":  "2026-10-29T20:58:46-05:00",
+    "actualizado":  "2026-11-02T20:30:48-05:00",
     "ciclo":  2,
     "ultimo_ciclo_clipero":  2,
     "notas":  [
@@ -9,14 +9,41 @@
                   "Ciclo 2 (2026-10-29): el usuario aprobó expresamente las 21 entradas de TikTok (no YouTube ni Instagram). Se subieron 4 (max_por_dia de TikTok): que-peso-le-quito, tregua-pirlo, trap-ser-calle y valle-medellin. A igualdad de ventana y puntaje (74, 31-oct) se desempató valle-medellin frente a verso-ziploc por la hora de su ficha (30-oct 20:00-22:00); el calendario más reciente del Clipero (informe 2026-10-29_2022) ponía verso-ziploc antes (31-oct 07:00 frente a 16:00). En próximos desempates, usar ese calendario (orden_en_fuente de clips.json).",
                   "Plan de la cola de TikTok (4 al día, horario 08:00-23:00): 30-oct verso-ziploc, bando-progreso, recuerdo-pirlo, pelea-feid. 31-oct donde-haya-plata, error-adolescencia, jara-50-50, mujeres-mueven-plata. 1-nov esquina-fumar, edificios-frutas, ego-progresar, miles-de-suenos. 2-nov prestamo-primera-cancion, ryan-castro-los-mismos, centro-de-menores, vendedor-controles. 3-nov ryan-mismo-nivel. Así todas caben antes de su ventana, centro-de-menores va después de error-adolescencia y quedan separados al menos un día los pares ryan-castro-los-mismos/ryan-mismo-nivel y edificios-frutas/vendedor-controles.",
                   "subidas_por_dia cuenta las subidas reales por fecha local y plataforma, para respetar max_por_dia.",
-                  "Si TikTok responde con un límite de borradores pendientes (p. ej. spam_risk_too_many_pending_share), registrar error, sumar un intento y no subir nada más a TikTok en ese ciclo."
+                  "Si TikTok responde con un límite de borradores pendientes (p. ej. spam_risk_too_many_pending_share), registrar error, sumar un intento y no subir nada más a TikTok en ese ciclo.",
+                  "2026-10-29: usuario solicita publicar TikTok automaticamente. Configurado destino directo y PUBLIC_TO_EVERYONE. Prueba real con verso-ziploc rechazada por app sin auditar (HTTP 403). No reintentar la cola hasta resolver este bloqueo de plataforma. Los 4 envios anteriores siguen siendo borradores; no duplicarlos. No se instalo una tarea programada.",
+                  "2026-10-29T21:49:07-05:00 Usuario solicita enviar todos los clips restantes a la bandeja de TikTok para publicarlos manualmente. Sustituye la peticion anterior de publicacion directa. Esta entrega expresa permite superar el limite local de 4 diarios, sin cambiarlo para ciclos futuros; detener ante rechazo de TikTok.",
+                  "2026-10-29 entrega manual: 6 clips nuevos confirmados en_borradores. 11 aun sin enviar; jara-50-50 rechazado con spam_risk_too_many_pending_share. Se detuvo la cola sin reintentar. Consulta posterior: que-peso-le-quito, valle-medellin y trap-ser-calle ya publicados por el usuario; tregua-pirlo sigue en_borradores. Configuracion actual: borrador. Textos y enlaces en salidas/publicador/entrega-tiktok-2026-10-29.md.",
+                  "2026-10-29T22:22:06-05:00 Incidencia de entrega: el usuario solo ve 4 de los 6 nuevos. Nueva consulta: verso-ziploc PUBLISH_COMPLETE; pelea-feid, bando-progreso, recuerdo-pirlo, error-adolescencia y donde-haya-plata SEND_TO_USER_INBOX. Ese estado no confirma lo visible en la app. Se solicitan los nombres de los ausentes para reenviarlos con autorizacion del usuario; no se han duplicado envios.",
+                  "2026-10-29T22:32:20-05:00 Usuario identifica como ausentes pelea-feid y recuerdo-pirlo. Ambos reenviados con su autorizacion mediante envios reenvio-1, conservando los originales en reenvios. Los dos nuevos ids devuelven SEND_TO_USER_INBOX. Visibilidad en la app aun no confirmada por el usuario. No se reenviaron los otros cuatro clips.",
+                  "El usuario confirma que Pelea con Feid y Recuerdo de Pirlo ya llegaron tras el reenvio y pide continuar con los siguientes 11 clips.",
+                  "2026-10-29T22:38:26-05:00 Usuario solicita enviar todos los clips restantes a la bandeja de TikTok para publicarlos manualmente. Sustituye la peticion anterior de publicacion directa. Esta entrega expresa permite superar el limite local de 4 diarios, sin cambiarlo para ciclos futuros; detener ante rechazo de TikTok.",
+                  "Continuacion solicitada por el usuario: TikTok acepto jara-50-50, mujeres-mueven-plata y edificios-frutas; los tres nuevos ids devuelven SEND_TO_USER_INBOX. Ego-progresar rechazado por spam_risk_too_many_pending_share; detener sin reintentar. Quedan 8 clips sin enviar. Textos en salidas/publicador/entrega-siguiente-tiktok.md. El usuario confirma visibilidad de ambos reenvios anteriores.",
+                  "2026-10-30T19:04:03-05:00 Usuario solicita enviar todos los clips restantes a la bandeja de TikTok para publicarlos manualmente. Sustituye la peticion anterior de publicacion directa. Esta entrega expresa permite superar el limite local de 4 diarios, sin cambiarlo para ciclos futuros; detener ante rechazo de TikTok.",
+                  "2026-10-30T19:04:45-05:00 Usuario solicita continuar. TikTok rechazo esquina-fumar con spam_risk_too_many_pending_share antes de subir: 0 aceptados, 8 siguen sin enviar. Se consultaron los envios anteriores; no se reintento la subida tras el limite.",
+                  "2026-10-30T19:09:37-05:00 Usuario solicita enviar todos los clips restantes a la bandeja de TikTok para publicarlos manualmente. Sustituye la peticion anterior de publicacion directa. Esta entrega expresa permite superar el limite local de 4 diarios, sin cambiarlo para ciclos futuros; detener ante rechazo de TikTok.",
+                  "2026-10-30T19:11:07-05:00 Continuacion tras confirmacion del usuario: esquina-fumar y ego-progresar aceptados. Los dos nuevos ids devolvieron SEND_TO_USER_INBOX; ego requirio una segunda consulta tras procesando. Miles-de-suenos rechazado por spam_risk_too_many_pending_share. Quedan 6 clips sin enviar. No se reintento tras el rechazo.",
+                  "2026-10-30T19:14:09-05:00 Entrega solicitada por el usuario: hasta 1 clips a la bandeja de TikTok para publicarlos manualmente. Esta entrega expresa permite superar el limite local de 4 diarios, sin cambiarlo para ciclos futuros; detener ante rechazo de TikTok.",
+                  "2026-10-31T18:51:39-05:00 Entrega solicitada por el usuario: hasta 6 clips a la bandeja de TikTok para publicarlos manualmente. Esta entrega expresa permite superar el limite local de 4 diarios, sin cambiarlo para ciclos futuros; detener ante rechazo de TikTok.",
+                  "2026-10-31: prestamo-primera-cancion devolvio HTTP 500 sin publish_id. No reintentar automaticamente hasta verificar si aparece en la bandeja. Continuar con los otros clips.",
+                  "2026-10-31T18:52:46-05:00 Entrega solicitada por el usuario: hasta 4 clips a la bandeja de TikTok para publicarlos manualmente. Esta entrega expresa permite superar el limite local de 4 diarios, sin cambiarlo para ciclos futuros; detener ante rechazo de TikTok.",
+                  "2026-10-31: cinco nuevos aceptados y consultados con SEND_TO_USER_INBOX: miles-de-suenos, ryan-castro-los-mismos, vendedor-controles, centro-de-menores y ryan-mismo-nivel. Prestamo-primera-cancion sin confirmar por HTTP 500; se pregunto al usuario si aparece en la bandeja. Textos en salidas/publicador/entrega-tiktok-2026-10-31.md.",
+                  "2026-11-01T21:41:43-05:00 Se preparan 6 clips nuevos del ciclo 3 para la bandeja de TikTok por solicitud del usuario. Revisiones de audio e identidad anotadas en revision_pendiente; no publicacion publica automatica. Prestamo-primera-cancion sigue excluido por resultado incierto anterior.",
+                  "2026-11-01T21:42:08-05:00 Entrega solicitada por el usuario: hasta 6 clips a la bandeja de TikTok para publicarlos manualmente. Esta entrega expresa permite superar el limite local de 4 diarios, sin cambiarlo para ciclos futuros; detener ante rechazo de TikTok.",
+                  "2026-11-01: el usuario confirma que prestamo-primera-cancion no aparece; autorizado a reintentar. Primer intento de granja-bebeshita-votos-kevyn termino con HTTP 0 y error de conexion, sin publish_id; resultado incierto, verificar antes de repetir. Continuar con los otros clips.",
+                  "2026-11-01T22:14:18-05:00 Entrega solicitada por el usuario: hasta 6 clips a la bandeja de TikTok para publicarlos manualmente. Esta entrega expresa permite superar el limite local de 4 diarios, sin cambiarlo para ciclos futuros; detener ante rechazo de TikTok.",
+                  "2026-11-01T22:20:25-05:00 Entrega solicitada por el usuario: hasta 4 clips a la bandeja de TikTok para publicarlos manualmente. Esta entrega expresa permite superar el limite local de 4 diarios, sin cambiarlo para ciclos futuros; detener ante rechazo de TikTok.",
+                  "2026-11-01T22:25:28-05:00 Usuario descarta los cuatro clips de La Granja: rechazados en la cola, descartados en clips.json y bloqueados en publicar.ps1 mediante descartados.json. Dos ya fueron aceptados por TikTok: granja-kevyn-no-me-salves y granja-burlas-cara-a-cara; ambos reportan notificacion enviada y deben descartarse en la app. Los dos informativos y prestamo-primera-cancion fueron aceptados y reportan SEND_TO_USER_INBOX. No quedan clips no descartados pendientes de envio.",
+                  "2026-11-02: usuario confirma que no aparecen vendedor-controles ni ryan-castro-los-mismos. Se prepararon envios reenvio-1 conservando los originales. TikTok rechazo el primer reenvio (vendedor-controles) con spam_risk_too_many_pending_share; no se intento el segundo tras el limite. Cero nuevos envios aceptados. Ambos siguen pendientes de reenvio; los estados en_borradores pertenecen a las notificaciones anteriores que el usuario no ve.",
+                  "2026-11-02T00:20:51-05:00 El usuario confirma que ya publico todos los videos y pide eliminar los pendientes de TikTok. La integracion disponible no tiene accion para eliminar borradores ni control interactivo de la app: no se elimino contenido. No reenviar los clips de este lote por estados SEND_TO_USER_INBOX sin nueva instruccion expresa; la confirmacion del usuario puede corresponder a publicaciones manuales no asociadas al publish_id original. No cambiar estados API a publicado sin evidencia.",
+                  "2026-11-02 00:28 -05:00: nuevo reintento solicitado de vendedor-controles y ryan-castro-los-mismos. TikTok vuelve a rechazar el primero con spam_risk_too_many_pending_share; cero reenvios aceptados. Se descubre TinyFish como alternativa de navegacion web; se sugiere conectar, pero no esta instalado ni autenticado en TikTok. No se ha realizado ninguna subida por navegador.",
+                  "2026-11-02T20:30:48-05:00 Instruccion del usuario: rechazar 2026-10-31-alvarez-puga-deportacion y 2026-10-31-gomez-mont-amparo-cuentas (El usuario descarta los clips de Ines Gomez Mont: no encajan con el enfoque nuevo de contenido). Solo existian sus entradas de TikTok (en_borradores); quedan rechazado y se anaden a descartados.json, que bloquea su subida en publicar.ps1. Ambos siguen como borradores en la bandeja de TikTok: la API no puede borrarlos y el usuario debe eliminarlos desde la app. En este paso no se subio nada, no se ejecuto comprobar y no se prepararon los 10 clips del Clipero del 2026-11-01 (el usuario aun los revisa): quedan para el proximo ciclo normal."
               ],
     "entradas":  [
                      {
                          "clip":  "2026-10-29-blessd-pelea-feid",
                          "plataforma":  "tiktok",
-                         "estado":  "aprobado",
-                         "envio":  "datos/publicador/envios/2026-10-29-blessd-pelea-feid__tiktok.json",
+                         "estado":  "publicado",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-pelea-feid__tiktok.reenvio-1.json",
                          "puntaje":  68,
                          "derechos":  "sin_verificar",
                          "ventana_hasta":  "2026-11-01",
@@ -33,12 +60,37 @@
                                                    "duracion_seg":  60.6,
                                                    "huella":  "744cc437818cbdeccff12cbed0898db9f3bb425c3cf98b1af9ce3661c4d89e4f"
                                                },
-                         "id_publicacion":  null,
+                         "id_publicacion":  "v_inbox_file~v2.7702298021245749262",
                          "url":  null,
-                         "privacidad":  null,
-                         "publicado":  null,
-                         "motivo":  "Aprobado por el usuario el 2026-10-29T20:53:40-05:00 (solo TikTok).",
-                         "creado":  "2026-10-29T20:49:17-05:00"
+                         "privacidad":  "borrador",
+                         "publicado":  "2026-10-29T22:30:25-05:00",
+                         "motivo":  "Reenviado por solicitud expresa: el usuario no ve el envio anterior.",
+                         "creado":  "2026-10-29T20:49:17-05:00",
+                         "reenvios":  [
+                                          {
+                                              "fecha":  "2026-10-29T22:30:47-05:00",
+                                              "envio_anterior":  "datos/publicador/envios/2026-10-29-blessd-pelea-feid__tiktok.json",
+                                              "id_anterior":  "v_inbox_file~v2.7702287791824373774",
+                                              "estado_anterior":  "en_borradores",
+                                              "envio_nuevo":  "datos/publicador/envios/2026-10-29-blessd-pelea-feid__tiktok.reenvio-1.json",
+                                              "resultado":  {
+                                                                "ok":  true,
+                                                                "plataforma":  "tiktok",
+                                                                "clip":  "2026-10-29-blessd-pelea-feid",
+                                                                "simulado":  false,
+                                                                "estado":  "procesando",
+                                                                "id_publicacion":  "v_inbox_file~v2.7702298021245749262",
+                                                                "url":  null,
+                                                                "privacidad":  "borrador",
+                                                                "duracion_seg":  60.6,
+                                                                "avisos":  [
+
+                                                                           ],
+                                                                "error":  null,
+                                                                "fecha":  "2026-10-29T22:30:25-05:00"
+                                                            }
+                                          }
+                                      ]
                      },
                      {
                          "clip":  "2026-10-29-blessd-pelea-feid",
@@ -99,7 +151,7 @@
                      {
                          "clip":  "2026-10-29-blessd-vendedor-controles",
                          "plataforma":  "tiktok",
-                         "estado":  "aprobado",
+                         "estado":  "en_borradores",
                          "envio":  "datos/publicador/envios/2026-10-29-blessd-vendedor-controles__tiktok.json",
                          "puntaje":  66,
                          "derechos":  "sin_verificar",
@@ -117,12 +169,83 @@
                                                    "duracion_seg":  24.5,
                                                    "huella":  "e72aead6db8a4049d796a790cf37234888bc8399b01400ba4194722072f47cd3"
                                                },
-                         "id_publicacion":  null,
+                         "id_publicacion":  "v_inbox_file~v2.7702984098092107789",
                          "url":  null,
-                         "privacidad":  null,
-                         "publicado":  null,
-                         "motivo":  "Aprobado por el usuario el 2026-10-29T20:53:40-05:00 (solo TikTok).",
-                         "creado":  "2026-10-29T20:49:18-05:00"
+                         "privacidad":  "borrador",
+                         "publicado":  "2026-10-31T18:52:55-05:00",
+                         "motivo":  "Usuario no ve el envio anterior; reenvio rechazado: HTTP 400. Error en el servidor remoto: (400) Solicitud incorrecta. {\"error\":{\"code\":\"spam_risk_too_many_pending_share\",\"message\":\"spam_risk_too_many_pending_share\",\"log_id\":\"2026110205280733E40AEB73957921E319\"}}",
+                         "creado":  "2026-10-29T20:49:18-05:00",
+                         "reenvios":  [
+                                          {
+                                              "fecha":  "2026-11-02T00:16:38-05:00",
+                                              "envio_anterior":  "datos/publicador/envios/2026-10-29-blessd-vendedor-controles__tiktok.json",
+                                              "id_anterior":  "v_inbox_file~v2.7702984098092107789",
+                                              "estado_anterior":  "en_borradores",
+                                              "envio_nuevo":  "datos/publicador/envios/2026-10-29-blessd-vendedor-controles__tiktok.reenvio-1.json",
+                                              "resultado":  {
+                                                                "ok":  false,
+                                                                "plataforma":  "tiktok",
+                                                                "clip":  "2026-10-29-blessd-vendedor-controles",
+                                                                "simulado":  false,
+                                                                "estado":  "error",
+                                                                "id_publicacion":  null,
+                                                                "url":  null,
+                                                                "privacidad":  null,
+                                                                "duracion_seg":  24.5,
+                                                                "avisos":  [
+
+                                                                           ],
+                                                                "error":  "HTTP 400. Error en el servidor remoto: (400) Solicitud incorrecta. {\"error\":{\"code\":\"spam_risk_too_many_pending_share\",\"message\":\"spam_risk_too_many_pending_share\",\"log_id\":\"20261102051638F9E6D0BC7980D50823E7\"}}",
+                                                                "fecha":  "2026-11-02T00:16:35-05:00"
+                                                            }
+                                          },
+                                          {
+                                              "fecha":  "2026-11-02T00:17:53-05:00",
+                                              "envio_anterior":  "datos/publicador/envios/2026-10-29-blessd-vendedor-controles__tiktok.json",
+                                              "id_anterior":  "v_inbox_file~v2.7702984098092107789",
+                                              "estado_anterior":  "en_borradores",
+                                              "envio_nuevo":  "datos/publicador/envios/2026-10-29-blessd-vendedor-controles__tiktok.reenvio-1.json",
+                                              "resultado":  {
+                                                                "ok":  false,
+                                                                "plataforma":  "tiktok",
+                                                                "clip":  "2026-10-29-blessd-vendedor-controles",
+                                                                "simulado":  false,
+                                                                "estado":  "error",
+                                                                "id_publicacion":  null,
+                                                                "url":  null,
+                                                                "privacidad":  null,
+                                                                "duracion_seg":  24.5,
+                                                                "avisos":  [
+
+                                                                           ],
+                                                                "error":  "HTTP 400. Error en el servidor remoto: (400) Solicitud incorrecta. {\"error\":{\"code\":\"spam_risk_too_many_pending_share\",\"message\":\"spam_risk_too_many_pending_share\",\"log_id\":\"20261102051753E44EBCC73585984232AD\"}}",
+                                                                "fecha":  "2026-11-02T00:17:52-05:00"
+                                                            }
+                                          },
+                                          {
+                                              "fecha":  "2026-11-02T00:28:06-05:00",
+                                              "envio_anterior":  "datos/publicador/envios/2026-10-29-blessd-vendedor-controles__tiktok.json",
+                                              "id_anterior":  "v_inbox_file~v2.7702984098092107789",
+                                              "estado_anterior":  "en_borradores",
+                                              "envio_nuevo":  "datos/publicador/envios/2026-10-29-blessd-vendedor-controles__tiktok.reenvio-1.json",
+                                              "resultado":  {
+                                                                "ok":  false,
+                                                                "plataforma":  "tiktok",
+                                                                "clip":  "2026-10-29-blessd-vendedor-controles",
+                                                                "simulado":  false,
+                                                                "estado":  "error",
+                                                                "id_publicacion":  null,
+                                                                "url":  null,
+                                                                "privacidad":  null,
+                                                                "duracion_seg":  24.5,
+                                                                "avisos":  [
+
+                                                                           ],
+                                                                "error":  "HTTP 400. Error en el servidor remoto: (400) Solicitud incorrecta. {\"error\":{\"code\":\"spam_risk_too_many_pending_share\",\"message\":\"spam_risk_too_many_pending_share\",\"log_id\":\"2026110205280733E40AEB73957921E319\"}}",
+                                                                "fecha":  "2026-11-02T00:27:36-05:00"
+                                                            }
+                                          }
+                                      ]
                      },
                      {
                          "clip":  "2026-10-29-blessd-vendedor-controles",
@@ -183,13 +306,13 @@
                      {
                          "clip":  "2026-10-29-blessd-prestamo-primera-cancion",
                          "plataforma":  "tiktok",
-                         "estado":  "aprobado",
+                         "estado":  "publicado",
                          "envio":  "datos/publicador/envios/2026-10-29-blessd-prestamo-primera-cancion__tiktok.json",
                          "puntaje":  69,
                          "derechos":  "sin_verificar",
                          "ventana_hasta":  "2026-11-03",
                          "aprobado":  "2026-10-29T20:53:40-05:00",
-                         "intentos":  0,
+                         "intentos":  1,
                          "ultima_simulacion":  {
                                                    "fecha":  "2026-10-29T20:49:20-05:00",
                                                    "ok":  true,
@@ -201,11 +324,11 @@
                                                    "duracion_seg":  64,
                                                    "huella":  "5954e8508129b3dfab36d3f13af9c6d2a4c20c8190146cc06320f7b819f66bfc"
                                                },
-                         "id_publicacion":  null,
+                         "id_publicacion":  "v_inbox_file~v2.7703409099651696654",
                          "url":  null,
-                         "privacidad":  null,
-                         "publicado":  null,
-                         "motivo":  "Aprobado por el usuario el 2026-10-29T20:53:40-05:00 (solo TikTok).",
+                         "privacidad":  "borrador",
+                         "publicado":  "2026-11-01T22:22:05-05:00",
+                         "motivo":  "Enviado a la bandeja de TikTok por solicitud expresa del usuario.",
                          "creado":  "2026-10-29T20:49:20-05:00"
                      },
                      {
@@ -267,7 +390,7 @@
                      {
                          "clip":  "2026-10-29-blessd-ryan-mismo-nivel",
                          "plataforma":  "tiktok",
-                         "estado":  "aprobado",
+                         "estado":  "publicado",
                          "envio":  "datos/publicador/envios/2026-10-29-blessd-ryan-mismo-nivel__tiktok.json",
                          "puntaje":  66,
                          "derechos":  "sin_verificar",
@@ -285,11 +408,11 @@
                                                    "duracion_seg":  52.2,
                                                    "huella":  "c3a11cbbcfdddb4fc13479ba5ece1b48b64eb187ee1b58076f9b8ce79d4470a5"
                                                },
-                         "id_publicacion":  null,
+                         "id_publicacion":  "v_inbox_file~v2.7702984101515020302",
                          "url":  null,
-                         "privacidad":  null,
-                         "publicado":  null,
-                         "motivo":  "Aprobado por el usuario el 2026-10-29T20:53:40-05:00 (solo TikTok).",
+                         "privacidad":  "borrador",
+                         "publicado":  "2026-10-31T18:53:15-05:00",
+                         "motivo":  "Enviado a la bandeja de TikTok por solicitud expresa del usuario.",
                          "creado":  "2026-10-29T20:49:21-05:00"
                      },
                      {
@@ -351,7 +474,7 @@
                      {
                          "clip":  "2026-10-29-blessd-bando-progreso",
                          "plataforma":  "tiktok",
-                         "estado":  "aprobado",
+                         "estado":  "publicado",
                          "envio":  "datos/publicador/envios/2026-10-29-blessd-bando-progreso__tiktok.json",
                          "puntaje":  68,
                          "derechos":  "sin_verificar",
@@ -369,11 +492,11 @@
                                                    "duracion_seg":  22.1,
                                                    "huella":  "b8da471beae54c5565fb43d980dee3868779aa3666c28acb4aaca0bf41938935"
                                                },
-                         "id_publicacion":  null,
+                         "id_publicacion":  "v_inbox_file~v2.7702287317297481742",
                          "url":  null,
-                         "privacidad":  null,
-                         "publicado":  null,
-                         "motivo":  "Aprobado por el usuario el 2026-10-29T20:53:40-05:00 (solo TikTok).",
+                         "privacidad":  "borrador",
+                         "publicado":  "2026-10-29T21:49:43-05:00",
+                         "motivo":  "Enviado a la bandeja de TikTok por solicitud expresa del usuario.",
                          "creado":  "2026-10-29T20:49:23-05:00"
                      },
                      {
@@ -435,8 +558,8 @@
                      {
                          "clip":  "2026-10-29-blessd-recuerdo-pirlo",
                          "plataforma":  "tiktok",
-                         "estado":  "aprobado",
-                         "envio":  "datos/publicador/envios/2026-10-29-blessd-recuerdo-pirlo__tiktok.json",
+                         "estado":  "publicado",
+                         "envio":  "datos/publicador/envios/2026-10-29-blessd-recuerdo-pirlo__tiktok.reenvio-1.json",
                          "puntaje":  70,
                          "derechos":  "sin_verificar",
                          "ventana_hasta":  "2026-11-01",
@@ -453,12 +576,37 @@
                                                    "duracion_seg":  46.5,
                                                    "huella":  "701b04be492891d66d40d05c38cb3d733d768939cd8365ee282368f238cf24dd"
                                                },
-                         "id_publicacion":  null,
+                         "id_publicacion":  "v_inbox_file~v2.7702298100744456205",
                          "url":  null,
-                         "privacidad":  null,
-                         "publicado":  null,
-                         "motivo":  "Aprobado por el usuario el 2026-10-29T20:53:40-05:00 (solo TikTok).",
-                         "creado":  "2026-10-29T20:49:24-05:00"
+                         "privacidad":  "borrador",
+                         "publicado":  "2026-10-29T22:30:47-05:00",
+                         "motivo":  "Reenviado por solicitud expresa: el usuario no ve el envio anterior.",
+                         "creado":  "2026-10-29T20:49:24-05:00",
+                         "reenvios":  [
+                                          {
+                                              "fecha":  "2026-10-29T22:30:56-05:00",
+                                              "envio_anterior":  "datos/publicador/envios/2026-10-29-blessd-recuerdo-pirlo__tiktok.json",
+                                              "id_anterior":  "v_inbox_file~v2.7702287474407589901",
+                                              "estado_anterior":  "en_borradores",
+                                              "envio_nuevo":  "datos/publicador/envios/2026-10-29-blessd-recuerdo-pirlo__tiktok.reenvio-1.json",
+                                              "resultado":  {
+                                                                "ok":  true,
+                                                                "plataforma":  "tiktok",
+                                                                "clip":  "2026-10-29-blessd-recuerdo-pirlo",
+                                                                "simulado":  false,
+                                                                "estado":  "procesando",
+                                                                "id_publicacion":  "v_inbox_file~v2.7702298100744456205",
+                                                                "url":  null,
+                                                                "privacidad":  "borrador",
+                                                                "duracion_seg":  46.5,
+                                                                "avisos":  [
+
+                                                                           ],
+                                                                "error":  null,
+                                                                "fecha":  "2026-10-29T22:30:47-05:00"
+                                                            }
+                                          }
+                                      ]
                      },
                      {
                          "clip":  "2026-10-29-blessd-recuerdo-pirlo",
@@ -519,13 +667,13 @@
                      {
                          "clip":  "2026-10-29-blessd-ego-progresar",
                          "plataforma":  "tiktok",
-                         "estado":  "aprobado",
+                         "estado":  "publicado",
                          "envio":  "datos/publicador/envios/2026-10-29-blessd-ego-progresar__tiktok.json",
                          "puntaje":  71,
                          "derechos":  "sin_verificar",
                          "ventana_hasta":  "2026-11-03",
                          "aprobado":  "2026-10-29T20:53:40-05:00",
-                         "intentos":  0,
+                         "intentos":  1,
                          "ultima_simulacion":  {
                                                    "fecha":  "2026-10-29T20:49:25-05:00",
                                                    "ok":  true,
@@ -537,11 +685,11 @@
                                                    "duracion_seg":  38.2,
                                                    "huella":  "9947518225516c1051ec50f72c85e96b829a779b83dd1d72ee40702cd68734b7"
                                                },
-                         "id_publicacion":  null,
+                         "id_publicacion":  "v_inbox_file~v2.7702617353141635086",
                          "url":  null,
-                         "privacidad":  null,
-                         "publicado":  null,
-                         "motivo":  "Aprobado por el usuario el 2026-10-29T20:53:40-05:00 (solo TikTok).",
+                         "privacidad":  "borrador",
+                         "publicado":  "2026-10-30T19:09:48-05:00",
+                         "motivo":  "Enviado a la bandeja de TikTok por solicitud expresa del usuario.",
                          "creado":  "2026-10-29T20:49:25-05:00"
                      },
                      {
@@ -603,7 +751,7 @@
                      {
                          "clip":  "2026-10-29-blessd-centro-de-menores",
                          "plataforma":  "tiktok",
-                         "estado":  "aprobado",
+                         "estado":  "publicado",
                          "envio":  "datos/publicador/envios/2026-10-29-blessd-centro-de-menores__tiktok.json",
                          "puntaje":  66,
                          "derechos":  "sin_verificar",
@@ -621,11 +769,11 @@
                                                    "duracion_seg":  42.2,
                                                    "huella":  "e338e14f6f20fc93d83220599cf48f146beb12feb277074f4cc17659352fe283"
                                                },
-                         "id_publicacion":  null,
+                         "id_publicacion":  "v_inbox_file~v2.7702984192606390286",
                          "url":  null,
-                         "privacidad":  null,
-                         "publicado":  null,
-                         "motivo":  "Aprobado por el usuario el 2026-10-29T20:53:40-05:00 (solo TikTok).",
+                         "privacidad":  "borrador",
+                         "publicado":  "2026-10-31T18:53:05-05:00",
+                         "motivo":  "Enviado a la bandeja de TikTok por solicitud expresa del usuario.",
                          "creado":  "2026-10-29T20:49:27-05:00"
                      },
                      {
@@ -687,7 +835,7 @@
                      {
                          "clip":  "2026-10-29-blessd-ryan-castro-los-mismos",
                          "plataforma":  "tiktok",
-                         "estado":  "aprobado",
+                         "estado":  "en_borradores",
                          "envio":  "datos/publicador/envios/2026-10-29-blessd-ryan-castro-los-mismos__tiktok.json",
                          "puntaje":  68,
                          "derechos":  "sin_verificar",
@@ -705,11 +853,11 @@
                                                    "duracion_seg":  45.2,
                                                    "huella":  "29aa056e7ac4cd41cc0012aea124bc042c31b2d1a3e3382337ac70090d03e070"
                                                },
-                         "id_publicacion":  null,
+                         "id_publicacion":  "v_inbox_file~v2.7702983944505149454",
                          "url":  null,
-                         "privacidad":  null,
-                         "publicado":  null,
-                         "motivo":  "Aprobado por el usuario el 2026-10-29T20:53:40-05:00 (solo TikTok).",
+                         "privacidad":  "borrador",
+                         "publicado":  "2026-10-31T18:52:46-05:00",
+                         "motivo":  "Enviado a la bandeja de TikTok por solicitud expresa del usuario.",
                          "creado":  "2026-10-29T20:49:28-05:00"
                      },
                      {
@@ -771,13 +919,13 @@
                      {
                          "clip":  "2026-10-29-blessd-miles-de-suenos",
                          "plataforma":  "tiktok",
-                         "estado":  "aprobado",
+                         "estado":  "publicado",
                          "envio":  "datos/publicador/envios/2026-10-29-blessd-miles-de-suenos__tiktok.json",
                          "puntaje":  70,
                          "derechos":  "sin_verificar",
                          "ventana_hasta":  "2026-11-03",
                          "aprobado":  "2026-10-29T20:53:40-05:00",
-                         "intentos":  0,
+                         "intentos":  2,
                          "ultima_simulacion":  {
                                                    "fecha":  "2026-10-29T20:49:29-05:00",
                                                    "ok":  true,
@@ -789,11 +937,11 @@
                                                    "duracion_seg":  19.4,
                                                    "huella":  "7752961da635175395dbee9c66b160e615f09ff81135ecca7ee6da2410fdb9ec"
                                                },
-                         "id_publicacion":  null,
+                         "id_publicacion":  "v_inbox_file~v2.7702983719870695438",
                          "url":  null,
-                         "privacidad":  null,
-                         "publicado":  null,
-                         "motivo":  "Aprobado por el usuario el 2026-10-29T20:53:40-05:00 (solo TikTok).",
+                         "privacidad":  "borrador",
+                         "publicado":  "2026-10-31T18:51:39-05:00",
+                         "motivo":  "Enviado a la bandeja de TikTok por solicitud expresa del usuario.",
                          "creado":  "2026-10-29T20:49:29-05:00"
                      },
                      {
@@ -855,7 +1003,7 @@
                      {
                          "clip":  "2026-10-29-blessd-edificios-frutas",
                          "plataforma":  "tiktok",
-                         "estado":  "aprobado",
+                         "estado":  "publicado",
                          "envio":  "datos/publicador/envios/2026-10-29-blessd-edificios-frutas__tiktok.json",
                          "puntaje":  71,
                          "derechos":  "sin_verificar",
@@ -873,11 +1021,11 @@
                                                    "duracion_seg":  41,
                                                    "huella":  "66ecc873be4da54f86e1999e85c8a6476d780914972ec79e156781491b4be678"
                                                },
-                         "id_publicacion":  null,
+                         "id_publicacion":  "v_inbox_file~v2.7702300065284671502",
                          "url":  null,
-                         "privacidad":  null,
-                         "publicado":  null,
-                         "motivo":  "Aprobado por el usuario el 2026-10-29T20:53:40-05:00 (solo TikTok).",
+                         "privacidad":  "borrador",
+                         "publicado":  "2026-10-29T22:38:52-05:00",
+                         "motivo":  "Enviado a la bandeja de TikTok por solicitud expresa del usuario.",
                          "creado":  "2026-10-29T20:49:31-05:00"
                      },
                      {
@@ -939,7 +1087,7 @@
                      {
                          "clip":  "2026-10-29-blessd-mujeres-mueven-plata",
                          "plataforma":  "tiktok",
-                         "estado":  "aprobado",
+                         "estado":  "publicado",
                          "envio":  "datos/publicador/envios/2026-10-29-blessd-mujeres-mueven-plata__tiktok.json",
                          "puntaje":  73,
                          "derechos":  "sin_verificar",
@@ -957,11 +1105,11 @@
                                                    "duracion_seg":  24,
                                                    "huella":  "5e77c565dc101224d9e879b856d30339dcd8014e238e8abf1be229eacc53fde2"
                                                },
-                         "id_publicacion":  null,
+                         "id_publicacion":  "v_inbox_file~v2.7702299977342781454",
                          "url":  null,
-                         "privacidad":  null,
-                         "publicado":  null,
-                         "motivo":  "Aprobado por el usuario el 2026-10-29T20:53:40-05:00 (solo TikTok).",
+                         "privacidad":  "borrador",
+                         "publicado":  "2026-10-29T22:38:44-05:00",
+                         "motivo":  "Enviado a la bandeja de TikTok por solicitud expresa del usuario.",
                          "creado":  "2026-10-29T20:49:32-05:00"
                      },
                      {
@@ -1023,13 +1171,13 @@
                      {
                          "clip":  "2026-10-29-blessd-verso-ziploc",
                          "plataforma":  "tiktok",
-                         "estado":  "aprobado",
+                         "estado":  "publicado",
                          "envio":  "datos/publicador/envios/2026-10-29-blessd-verso-ziploc__tiktok.json",
                          "puntaje":  74,
                          "derechos":  "sin_verificar",
                          "ventana_hasta":  "2026-10-31",
                          "aprobado":  "2026-10-29T20:53:40-05:00",
-                         "intentos":  0,
+                         "intentos":  1,
                          "ultima_simulacion":  {
                                                    "fecha":  "2026-10-29T20:49:33-05:00",
                                                    "ok":  true,
@@ -1041,11 +1189,11 @@
                                                    "duracion_seg":  16.2,
                                                    "huella":  "44fd177db41e1b636bed052c1f93976bdb2b845c2640abb5c8fda50ab00b4da1"
                                                },
-                         "id_publicacion":  null,
+                         "id_publicacion":  "v_inbox_file~v2.7702287177086191630",
                          "url":  null,
-                         "privacidad":  null,
-                         "publicado":  null,
-                         "motivo":  "Aprobado por el usuario el 2026-10-29T20:53:40-05:00 (solo TikTok).",
+                         "privacidad":  "borrador",
+                         "publicado":  "2026-10-29T21:49:08-05:00",
+                         "motivo":  "Enviado a la bandeja de TikTok por solicitud expresa del usuario.",
                          "creado":  "2026-10-29T20:49:33-05:00"
                      },
                      {
@@ -1107,13 +1255,13 @@
                      {
                          "clip":  "2026-10-29-blessd-esquina-fumar",
                          "plataforma":  "tiktok",
-                         "estado":  "aprobado",
+                         "estado":  "publicado",
                          "envio":  "datos/publicador/envios/2026-10-29-blessd-esquina-fumar__tiktok.json",
                          "puntaje":  71,
                          "derechos":  "sin_verificar",
                          "ventana_hasta":  "2026-11-03",
                          "aprobado":  "2026-10-29T20:53:40-05:00",
-                         "intentos":  0,
+                         "intentos":  1,
                          "ultima_simulacion":  {
                                                    "fecha":  "2026-10-29T20:49:35-05:00",
                                                    "ok":  true,
@@ -1125,11 +1273,11 @@
                                                    "duracion_seg":  17.9,
                                                    "huella":  "40168000af5c5137128420259aec8828d1a10751642b99c5675a41e167d46168"
                                                },
-                         "id_publicacion":  null,
+                         "id_publicacion":  "v_inbox_file~v2.7702617315057289230",
                          "url":  null,
-                         "privacidad":  null,
-                         "publicado":  null,
-                         "motivo":  "Aprobado por el usuario el 2026-10-29T20:53:40-05:00 (solo TikTok).",
+                         "privacidad":  "borrador",
+                         "publicado":  "2026-10-30T19:09:38-05:00",
+                         "motivo":  "Enviado a la bandeja de TikTok por solicitud expresa del usuario.",
                          "creado":  "2026-10-29T20:49:35-05:00"
                      },
                      {
@@ -1191,13 +1339,13 @@
                      {
                          "clip":  "2026-10-29-blessd-jara-50-50",
                          "plataforma":  "tiktok",
-                         "estado":  "aprobado",
+                         "estado":  "publicado",
                          "envio":  "datos/publicador/envios/2026-10-29-blessd-jara-50-50__tiktok.json",
                          "puntaje":  75,
                          "derechos":  "sin_verificar",
                          "ventana_hasta":  "2026-11-03",
                          "aprobado":  "2026-10-29T20:53:40-05:00",
-                         "intentos":  0,
+                         "intentos":  1,
                          "ultima_simulacion":  {
                                                    "fecha":  "2026-10-29T20:49:36-05:00",
                                                    "ok":  true,
@@ -1209,11 +1357,11 @@
                                                    "duracion_seg":  31.5,
                                                    "huella":  "7fd768a784ec8298a93f12811255715f01d2572b535d51c2220e920fcb8de09c"
                                                },
-                         "id_publicacion":  null,
+                         "id_publicacion":  "v_inbox_file~v2.7702299876714399757",
                          "url":  null,
-                         "privacidad":  null,
-                         "publicado":  null,
-                         "motivo":  "Aprobado por el usuario el 2026-10-29T20:53:40-05:00 (solo TikTok).",
+                         "privacidad":  "borrador",
+                         "publicado":  "2026-10-29T22:38:27-05:00",
+                         "motivo":  "Enviado a la bandeja de TikTok por solicitud expresa del usuario.",
                          "creado":  "2026-10-29T20:49:36-05:00"
                      },
                      {
@@ -1275,7 +1423,7 @@
                      {
                          "clip":  "2026-10-29-blessd-error-adolescencia",
                          "plataforma":  "tiktok",
-                         "estado":  "aprobado",
+                         "estado":  "publicado",
                          "envio":  "datos/publicador/envios/2026-10-29-blessd-error-adolescencia__tiktok.json",
                          "puntaje":  76,
                          "derechos":  "sin_verificar",
@@ -1293,11 +1441,11 @@
                                                    "duracion_seg":  45.2,
                                                    "huella":  "e3fc9b995895023b09ffb6e7544857acc63866d727dac26ac145320ba36227db"
                                                },
-                         "id_publicacion":  null,
+                         "id_publicacion":  "v_inbox_file~v2.7702288067993962510",
                          "url":  null,
-                         "privacidad":  null,
-                         "publicado":  null,
-                         "motivo":  "Aprobado por el usuario el 2026-10-29T20:53:40-05:00 (solo TikTok).",
+                         "privacidad":  "borrador",
+                         "publicado":  "2026-10-29T21:51:59-05:00",
+                         "motivo":  "Enviado a la bandeja de TikTok por solicitud expresa del usuario.",
                          "creado":  "2026-10-29T20:49:38-05:00"
                      },
                      {
@@ -1359,7 +1507,7 @@
                      {
                          "clip":  "2026-10-29-blessd-que-peso-le-quito",
                          "plataforma":  "tiktok",
-                         "estado":  "en_borradores",
+                         "estado":  "publicado",
                          "envio":  "datos/publicador/envios/2026-10-29-blessd-que-peso-le-quito__tiktok.json",
                          "puntaje":  78,
                          "derechos":  "sin_verificar",
@@ -1445,7 +1593,7 @@
                      {
                          "clip":  "2026-10-29-blessd-donde-haya-plata",
                          "plataforma":  "tiktok",
-                         "estado":  "aprobado",
+                         "estado":  "publicado",
                          "envio":  "datos/publicador/envios/2026-10-29-blessd-donde-haya-plata__tiktok.json",
                          "puntaje":  78,
                          "derechos":  "sin_verificar",
@@ -1463,11 +1611,11 @@
                                                    "duracion_seg":  40.8,
                                                    "huella":  "25149249e2c85963518dbe8d52c5aa17a96bc11ca0df464701c9b949749e7f20"
                                                },
-                         "id_publicacion":  null,
+                         "id_publicacion":  "v_inbox_file~v2.7702287919742027789",
                          "url":  null,
-                         "privacidad":  null,
-                         "publicado":  null,
-                         "motivo":  "Aprobado por el usuario el 2026-10-29T20:53:40-05:00 (solo TikTok).",
+                         "privacidad":  "borrador",
+                         "publicado":  "2026-10-29T21:51:37-05:00",
+                         "motivo":  "Enviado a la bandeja de TikTok por solicitud expresa del usuario.",
                          "creado":  "2026-10-29T20:49:40-05:00"
                      },
                      {
@@ -1529,7 +1677,7 @@
                      {
                          "clip":  "2026-10-29-blessd-valle-medellin",
                          "plataforma":  "tiktok",
-                         "estado":  "procesando",
+                         "estado":  "publicado",
                          "envio":  "datos/publicador/envios/2026-10-29-blessd-valle-medellin__tiktok.json",
                          "puntaje":  74,
                          "derechos":  "sin_verificar",
@@ -1701,7 +1849,7 @@
                      {
                          "clip":  "2026-10-29-blessd-trap-ser-calle",
                          "plataforma":  "tiktok",
-                         "estado":  "en_borradores",
+                         "estado":  "publicado",
                          "envio":  "datos/publicador/envios/2026-10-29-blessd-trap-ser-calle__tiktok.json",
                          "puntaje":  76,
                          "derechos":  "sin_verificar",
@@ -1783,11 +1931,226 @@
                          "publicado":  null,
                          "motivo":  "",
                          "creado":  "2026-10-29T20:49:46-05:00"
+                     },
+                     {
+                         "clip":  "2026-10-31-alvarez-puga-deportacion",
+                         "plataforma":  "tiktok",
+                         "estado":  "rechazado",
+                         "rechazado":  "2026-11-02T20:30:48-05:00",
+                         "envio":  "datos/publicador/envios/2026-10-31-alvarez-puga-deportacion__tiktok.json",
+                         "puntaje":  76,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-02",
+                         "aprobado":  "2026-11-01T21:41:43-05:00",
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "ok":  true,
+                                                   "plataforma":  "tiktok",
+                                                   "clip":  "2026-10-31-alvarez-puga-deportacion",
+                                                   "simulado":  true,
+                                                   "estado":  "simulado",
+                                                   "id_publicacion":  null,
+                                                   "url":  null,
+                                                   "privacidad":  null,
+                                                   "duracion_seg":  60.5,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "fecha":  "2026-11-01T21:41:44-05:00"
+                                               },
+                         "id_publicacion":  "v_inbox_file~v2.7703408628623394829",
+                         "url":  null,
+                         "privacidad":  "borrador",
+                         "publicado":  "2026-11-01T22:20:26-05:00",
+                         "motivo":  "Rechazado por el usuario el 2026-11-02T20:30:48-05:00: El usuario descarta los clips de Inés Gómez Mont: no encajan con el enfoque nuevo de contenido. Sigue como borrador en la bandeja de TikTok (enviado el 2026-11-01T22:20:26-05:00 por solicitud expresa del usuario); la API no puede borrarlo: el usuario debe eliminarlo desde la app. No reenviar ni publicar.",
+                         "creado":  "2026-11-01T21:41:43-05:00",
+                         "revision_pendiente":  "La ficha detecta distorsion en el audio original: escuchar el borrador antes de publicar. Mantener la atribucion a la periodista y no afirmar culpabilidad."
+                     },
+                     {
+                         "clip":  "2026-10-31-gomez-mont-amparo-cuentas",
+                         "plataforma":  "tiktok",
+                         "estado":  "rechazado",
+                         "rechazado":  "2026-11-02T20:30:48-05:00",
+                         "envio":  "datos/publicador/envios/2026-10-31-gomez-mont-amparo-cuentas__tiktok.json",
+                         "puntaje":  75,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-02",
+                         "aprobado":  "2026-11-01T21:41:43-05:00",
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "ok":  true,
+                                                   "plataforma":  "tiktok",
+                                                   "clip":  "2026-10-31-gomez-mont-amparo-cuentas",
+                                                   "simulado":  true,
+                                                   "estado":  "simulado",
+                                                   "id_publicacion":  null,
+                                                   "url":  null,
+                                                   "privacidad":  null,
+                                                   "duracion_seg":  53.7,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "fecha":  "2026-11-01T21:41:48-05:00"
+                                               },
+                         "id_publicacion":  "v_inbox_file~v2.7703408790481209358",
+                         "url":  null,
+                         "privacidad":  "borrador",
+                         "publicado":  "2026-11-01T22:21:03-05:00",
+                         "motivo":  "Rechazado por el usuario el 2026-11-02T20:30:48-05:00: El usuario descarta los clips de Inés Gómez Mont: no encajan con el enfoque nuevo de contenido. Sigue como borrador en la bandeja de TikTok (enviado el 2026-11-01T22:21:03-05:00 por solicitud expresa del usuario); la API no puede borrarlo: el usuario debe eliminarlo desde la app. No reenviar ni publicar.",
+                         "creado":  "2026-11-01T21:41:43-05:00",
+                         "revision_pendiente":  "La ficha detecta distorsion en el audio original: escuchar el borrador antes de publicar. Mantener la atribucion a la periodista y no afirmar culpabilidad."
+                     },
+                     {
+                         "clip":  "2026-10-31-granja-bebeshita-votos-kevyn",
+                         "plataforma":  "tiktok",
+                         "estado":  "rechazado",
+                         "envio":  "datos/publicador/envios/2026-10-31-granja-bebeshita-votos-kevyn__tiktok.json",
+                         "puntaje":  79,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-01",
+                         "aprobado":  "2026-11-01T21:41:43-05:00",
+                         "intentos":  1,
+                         "ultima_simulacion":  {
+                                                   "ok":  true,
+                                                   "plataforma":  "tiktok",
+                                                   "clip":  "2026-10-31-granja-bebeshita-votos-kevyn",
+                                                   "simulado":  true,
+                                                   "estado":  "simulado",
+                                                   "id_publicacion":  null,
+                                                   "url":  null,
+                                                   "privacidad":  null,
+                                                   "duracion_seg":  67.2,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "fecha":  "2026-11-01T21:41:48-05:00"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Descartado expresamente por el usuario el 2026-11-01: no usar los videos de La Granja. No reenviar. Si existe en la bandeja, descartar desde TikTok.",
+                         "creado":  "2026-11-01T21:41:43-05:00",
+                         "revision_pendiente":  "Revisar el borrador antes de publicarlo desde TikTok."
+                     },
+                     {
+                         "clip":  "2026-10-31-granja-burlas-cara-a-cara",
+                         "plataforma":  "tiktok",
+                         "estado":  "rechazado",
+                         "envio":  "datos/publicador/envios/2026-10-31-granja-burlas-cara-a-cara__tiktok.json",
+                         "puntaje":  73,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-02",
+                         "aprobado":  "2026-11-01T21:41:43-05:00",
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "ok":  true,
+                                                   "plataforma":  "tiktok",
+                                                   "clip":  "2026-10-31-granja-burlas-cara-a-cara",
+                                                   "simulado":  true,
+                                                   "estado":  "simulado",
+                                                   "id_publicacion":  null,
+                                                   "url":  null,
+                                                   "privacidad":  null,
+                                                   "duracion_seg":  46.6,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "fecha":  "2026-11-01T21:41:49-05:00"
+                                               },
+                         "id_publicacion":  "v_inbox_file~v2.7703408905854060557",
+                         "url":  null,
+                         "privacidad":  "borrador",
+                         "publicado":  "2026-11-01T22:21:28-05:00",
+                         "motivo":  "Descartado expresamente por el usuario el 2026-11-01: no usar los videos de La Granja. No reenviar. Si existe en la bandeja, descartar desde TikTok.",
+                         "creado":  "2026-11-01T21:41:43-05:00",
+                         "revision_pendiente":  "Revisar el borrador antes de publicarlo desde TikTok."
+                     },
+                     {
+                         "clip":  "2026-10-31-granja-kevyn-no-me-salves",
+                         "plataforma":  "tiktok",
+                         "estado":  "rechazado",
+                         "envio":  "datos/publicador/envios/2026-10-31-granja-kevyn-no-me-salves__tiktok.json",
+                         "puntaje":  72,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-01",
+                         "aprobado":  "2026-11-01T21:41:43-05:00",
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "ok":  true,
+                                                   "plataforma":  "tiktok",
+                                                   "clip":  "2026-10-31-granja-kevyn-no-me-salves",
+                                                   "simulado":  true,
+                                                   "estado":  "simulado",
+                                                   "id_publicacion":  null,
+                                                   "url":  null,
+                                                   "privacidad":  null,
+                                                   "duracion_seg":  24.8,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "fecha":  "2026-11-01T21:41:50-05:00"
+                                               },
+                         "id_publicacion":  "v_inbox_file~v2.7703407080158480397",
+                         "url":  null,
+                         "privacidad":  "borrador",
+                         "publicado":  "2026-11-01T22:14:18-05:00",
+                         "motivo":  "Descartado expresamente por el usuario el 2026-11-01: no usar los videos de La Granja. No reenviar. Si existe en la bandeja, descartar desde TikTok.",
+                         "creado":  "2026-11-01T21:41:43-05:00",
+                         "revision_pendiente":  "Revisar el borrador antes de publicarlo desde TikTok."
+                     },
+                     {
+                         "clip":  "2026-10-31-granja-kevyn-despedida",
+                         "plataforma":  "tiktok",
+                         "estado":  "rechazado",
+                         "envio":  "datos/publicador/envios/2026-10-31-granja-kevyn-despedida__tiktok.json",
+                         "puntaje":  68,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-01",
+                         "aprobado":  "2026-11-01T21:41:43-05:00",
+                         "intentos":  1,
+                         "ultima_simulacion":  {
+                                                   "ok":  true,
+                                                   "plataforma":  "tiktok",
+                                                   "clip":  "2026-10-31-granja-kevyn-despedida",
+                                                   "simulado":  true,
+                                                   "estado":  "simulado",
+                                                   "id_publicacion":  null,
+                                                   "url":  null,
+                                                   "privacidad":  null,
+                                                   "duracion_seg":  54.4,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "fecha":  "2026-11-01T21:41:50-05:00"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Descartado expresamente por el usuario el 2026-11-01: no usar los videos de La Granja. No reenviar. Si existe en la bandeja, descartar desde TikTok.",
+                         "creado":  "2026-11-01T21:41:43-05:00",
+                         "revision_pendiente":  "La ficha pide confirmar quien se despide antes de publicar: el gancho del video atribuye la despedida a Kevyn sin confirmacion visual. Se envia solo a la bandeja para revision."
                      }
                  ],
     "subidas_por_dia":  {
                             "2026-10-29":  {
-                                               "tiktok":  4
+                                               "tiktok":  15
+                                           },
+                            "2026-10-30":  {
+                                               "tiktok":  2
+                                           },
+                            "2026-10-31":  {
+                                               "tiktok":  5
+                                           },
+                            "2026-11-01":  {
+                                               "tiktok":  5
                                            }
                         }
 }
