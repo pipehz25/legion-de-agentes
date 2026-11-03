@@ -1,5 +1,272 @@
 # Pendientes de aprobación del Publicador
 
+## Nuevos: «Tóxico», de Lalo Ocampo (2026-11-02 20:57)
+
+Hay 4 clips del video oficial de «Tóxico» (canal Lalo Ocampo, estrenado el 31-oct-2026) y **12 envíos (TikTok, Instagram y YouTube), todos pendientes de aprobación**. Ventana: hasta el **2026-11-14**. Como comparten ventana, van en el orden de publicación que sugiere el Clipero.
+
+- **Derechos:** `autorizado` (confirmaste el 2-nov que tienes permiso del artista). El modo es `aprobacion`: no sale nada sin tu aprobación. La canción está distribuida (tiene pista en "Release - Topic"), así que YouTube podría reclamarla por Content ID aunque tengas permiso. Si pasa, el artista o su distribuidora pueden liberar tu canal.
+- **Sonido oficial (es música):** en **TikTok e Instagram** conviene publicar con el **sonido oficial de «Tóxico»** si existe en la app. El Clipero no pudo comprobar si existe.
+  - **TikTok** está en modo borrador: el video llega a tu bandeja y eliges el sonido al terminar la publicación en la app.
+  - **Instagram** por API publica al momento con el audio del clip y no deja elegir el sonido. Si quieres el sonido oficial, súbelo a mano desde la app en vez de aprobar `:instagram`.
+- **Calendario sugerido por el Clipero** (un clip al día; TikTok y Reels de 19:00 a 21:00, Shorts el mismo día): 3-nov `intro-celos-aire`, 4-nov `coro-eres-mia`, 5-nov `celos-completo` y 6-nov `verso-mando-la-ubi`. `intro-celos-aire` y `celos-completo` comparten dos líneas, así que es mejor no publicarlos seguidos.
+- **Plataformas:**
+  - **TikTok** está lista (cuenta Legión Urbana, destino `borrador`, 4 al día como máximo). Ha rechazado envíos recientes por tener demasiados borradores pendientes (`spam_risk_too_many_pending_share`; el último, el 2-nov a las 00:28). Antes de aprobar, vacía la bandeja: publica o descarta lo que haya, incluidos los 2 de Inés Gómez Mont.
+  - **YouTube e Instagram** no tienen credenciales ni están activas. Se pueden aprobar por adelantado y se subirán cuando se activen, si la ventana sigue abierta. YouTube sube en `private`; Instagram publica en público.
+- **Validación:** los textos cumplen los límites de plataformas.md §7 (lo comprobé leyendo los envíos). En este paso no se subió ni se simuló nada.
+
+### 1. 2026-11-02-toxico-intro-celos-aire
+
+- **Gancho:** Lalo Ocampo estrena «Tóxico» · **Tipo:** `frase` · **Puntaje:** 68 · **Duración:** 19,6 s · **Ventana hasta:** 2026-11-14
+- **Derechos:** `autorizado`
+- **Video:** [clip.mp4](../clipero/clips/2026-11-02-toxico-intro-celos-aire/clip.mp4) · **Ficha:** [ficha.md](../clipero/clips/2026-11-02-toxico-intro-celos-aire/ficha.md)
+- **Fuente:** https://youtu.be/bip8ttg-VeE?t=0 (canal Lalo Ocampo, minuto 0:00)
+- **Hora sugerida por el Clipero (estimación):** TikTok y Reels, 3-nov de 19:00 a 21:00 · Shorts, el mismo día
+- **Sonido:** en TikTok e Instagram, usa el sonido oficial de «Tóxico» si existe en la app.
+- **Revisa:** la voz entra a los 9,4 s. Los primeros 8,5 s son instrumentales y los cubre el texto de arriba. El audio no viene saturado.
+
+#### TikTok
+
+Envío: `datos/publicador/envios/2026-11-02-toxico-intro-celos-aire__tiktok.json` · llega a tu bandeja como borrador: pega este texto en la app.
+
+```text
+Lalo Ocampo estrena «Tóxico»: celos hasta del aire.
+
+¿Celos del aire: romántico o tóxico? ¿De qué tienes celos tú? Te leo.
+
+Crédito: Lalo Ocampo, «Tóxico» (video oficial, 31-oct-2026). Canción completa (minuto 0:00): https://youtu.be/bip8ttg-VeE?t=0
+
+#LaloOcampo #Tóxico #Celos #MúsicaUrbana #NuevaMúsica
+```
+
+#### Instagram Reels
+
+Envío: `datos/publicador/envios/2026-11-02-toxico-intro-celos-aire__instagram.json` · cuando Instagram esté activa, se publica al momento y en público.
+
+```text
+"Yo tengo celos del aire porque acaricia tu piel": así arranca «Tóxico», de Lalo Ocampo.
+
+Los primeros 20 segundos del video oficial, estrenado el 31 de octubre. ¿Celos del aire: romántico o tóxico? ¿De qué tienes celos tú?
+
+Crédito: Lalo Ocampo, «Tóxico» (video oficial). Canción completa (minuto 0:00): https://youtu.be/bip8ttg-VeE?t=0
+
+#LaloOcampo #Tóxico #Celos #MúsicaUrbana #Estreno
+```
+
+#### YouTube Shorts
+
+Envío: `datos/publicador/envios/2026-11-02-toxico-intro-celos-aire__youtube.json` · privacidad `private`
+
+**Título:** Lalo Ocampo - Tóxico (los primeros 20 segundos)
+
+**Etiquetas:** Lalo Ocampo, Tóxico, Lalo Ocampo Tóxico, Tóxico video oficial, celos, música urbana, nueva música, estreno
+
+**Descripción:**
+
+```text
+Así empieza «Tóxico», lo nuevo de Lalo Ocampo (video oficial, 31-oct-2026): "Yo tengo celos del aire porque acaricia tu piel". ¿Celos del aire: romántico o tóxico?
+
+Crédito: canal Lalo Ocampo, «Tóxico» (video oficial). Canción completa desde el minuto 0:00: https://youtu.be/bip8ttg-VeE?t=0
+
+#LaloOcampo #Tóxico #MúsicaUrbana #Estreno
+```
+
+**Aprobar:** `/publicador aprobar 2026-11-02-toxico-intro-celos-aire` · solo una: `/publicador aprobar 2026-11-02-toxico-intro-celos-aire:tiktok` (o `:instagram`, `:youtube`)
+
+### 2. 2026-11-02-toxico-coro-eres-mia
+
+- **Gancho:** El coro más tóxico · **Tipo:** `frase` (coro) · **Puntaje:** 76 · **Duración:** 21,7 s · **Ventana hasta:** 2026-11-14
+- **Derechos:** `autorizado`
+- **Video:** [clip.mp4](../clipero/clips/2026-11-02-toxico-coro-eres-mia/clip.mp4) · **Ficha:** [ficha.md](../clipero/clips/2026-11-02-toxico-coro-eres-mia/ficha.md)
+- **Fuente:** https://youtu.be/bip8ttg-VeE?t=84 (canal Lalo Ocampo, minuto 1:24)
+- **Hora sugerida por el Clipero (estimación):** TikTok y Reels, 4-nov de 19:00 a 21:00 · Shorts, el mismo día
+- **Sonido:** en TikTok e Instagram, usa el sonido oficial de «Tóxico» si existe en la app.
+- **Revisa:**
+  - Escucha el audio: la entrada del máster llega a +1,83 dBTP y puede haber distorsión. Si usas el sonido oficial, este audio no se usa.
+  - La letra dice "pobre cabrón" y sale en los subtítulos. Algunas plataformas limitan el alcance por palabrotas.
+
+#### TikTok
+
+Envío: `datos/publicador/envios/2026-11-02-toxico-coro-eres-mia__tiktok.json` · llega a tu bandeja como borrador: pega este texto en la app.
+
+```text
+"Eres mía y de nadie más": el coro de «Tóxico», de Lalo Ocampo.
+
+Etiqueta a tu tóxico o a tu tóxica.
+
+Crédito: Lalo Ocampo, «Tóxico» (video oficial, 31-oct-2026). Canción completa (minuto 1:24): https://youtu.be/bip8ttg-VeE?t=84
+
+#LaloOcampo #Tóxico #EresMía #MúsicaUrbana #NuevaMúsica
+```
+
+#### Instagram Reels
+
+Envío: `datos/publicador/envios/2026-11-02-toxico-coro-eres-mia__instagram.json` · cuando Instagram esté activa, se publica al momento y en público.
+
+```text
+El coro de «Tóxico», de Lalo Ocampo: "Porque eres mía y de nadie más".
+
+Lo nuevo de Lalo Ocampo, del video oficial estrenado el 31 de octubre. Etiqueta a tu tóxico o a tu tóxica.
+
+Crédito: Lalo Ocampo, «Tóxico» (video oficial). Canción completa (minuto 1:24): https://youtu.be/bip8ttg-VeE?t=84
+
+#LaloOcampo #Tóxico #EresMía #MúsicaUrbana #Estreno
+```
+
+#### YouTube Shorts
+
+Envío: `datos/publicador/envios/2026-11-02-toxico-coro-eres-mia__youtube.json` · privacidad `private`
+
+**Título:** Lalo Ocampo - Tóxico (coro): "Porque eres mía y de nadie más"
+
+**Etiquetas:** Lalo Ocampo, Tóxico, Lalo Ocampo Tóxico, Tóxico coro, eres mía y de nadie más, música urbana, nueva música, estreno
+
+**Descripción:**
+
+```text
+El coro de «Tóxico», lo nuevo de Lalo Ocampo (video oficial, 31-oct-2026). ¿A quién se la dedicas?
+
+Crédito: canal Lalo Ocampo, «Tóxico» (video oficial). Canción completa desde el minuto 1:24: https://youtu.be/bip8ttg-VeE?t=84
+
+#LaloOcampo #Tóxico #EresMía #MúsicaUrbana
+```
+
+**Aprobar:** `/publicador aprobar 2026-11-02-toxico-coro-eres-mia` · solo una: `/publicador aprobar 2026-11-02-toxico-coro-eres-mia:tiktok` (o `:instagram`, `:youtube`)
+
+### 3. 2026-11-02-toxico-celos-completo
+
+- **Gancho:** Celos hasta del aire · **Tipo:** `frase` · **Puntaje:** 78 · **Duración:** 21,2 s · **Ventana hasta:** 2026-11-14
+- **Derechos:** `autorizado`
+- **Video:** [clip.mp4](../clipero/clips/2026-11-02-toxico-celos-completo/clip.mp4) · **Ficha:** [ficha.md](../clipero/clips/2026-11-02-toxico-celos-completo/ficha.md)
+- **Fuente:** https://youtu.be/bip8ttg-VeE?t=126 (canal Lalo Ocampo, minuto 2:06)
+- **Hora sugerida por el Clipero (estimación):** TikTok y Reels, 5-nov de 19:00 a 21:00 · Shorts, el mismo día
+- **Sonido:** en TikTok e Instagram, usa el sonido oficial de «Tóxico» si existe en la app. Si existe, este es el mejor tramo para proponer como audio: el gancho entero en 21 s.
+- **Revisa:**
+  - Escucha el audio: la entrada llega a +0,51 dBTP.
+  - Repite dos líneas ("del aire" y "de la luna") de `intro-celos-aire`: publícalos separados.
+
+#### TikTok
+
+Envío: `datos/publicador/envios/2026-11-02-toxico-celos-completo__tiktok.json` · llega a tu bandeja como borrador: pega este texto en la app.
+
+```text
+Celos del aire, de la luna y del sol | Lalo Ocampo - Tóxico
+
+Mándasela a quien tiene celos hasta del sol.
+
+Crédito: Lalo Ocampo, «Tóxico» (video oficial, 31-oct-2026). Canción completa (minuto 2:06): https://youtu.be/bip8ttg-VeE?t=126
+
+#LaloOcampo #Tóxico #Celos #MúsicaUrbana #NuevaMúsica
+```
+
+#### Instagram Reels
+
+Envío: `datos/publicador/envios/2026-11-02-toxico-celos-completo__instagram.json` · cuando Instagram esté activa, se publica al momento y en público.
+
+```text
+Dedícasela a tu persona celosa: «Tóxico», de Lalo Ocampo.
+
+"Yo tengo celos del aire porque acaricia tu piel": el gancho de lo nuevo de Lalo Ocampo, entero. Mándasela a quien tiene celos hasta del sol.
+
+Crédito: Lalo Ocampo, «Tóxico» (video oficial, 31-oct-2026). Canción completa (minuto 2:06): https://youtu.be/bip8ttg-VeE?t=126
+
+#LaloOcampo #Tóxico #Celos #MúsicaUrbana #NuevaMúsica
+```
+
+#### YouTube Shorts
+
+Envío: `datos/publicador/envios/2026-11-02-toxico-celos-completo__youtube.json` · privacidad `private`
+
+**Título:** Lalo Ocampo - Tóxico (los celos): "Yo tengo celos del aire"
+
+**Etiquetas:** Lalo Ocampo, Tóxico, Lalo Ocampo Tóxico, celos del aire, canción de celos, música urbana, nueva música, estreno
+
+**Descripción:**
+
+```text
+"Yo tengo celos del aire porque acaricia tu piel": el gancho de «Tóxico», lo nuevo de Lalo Ocampo (video oficial, 31-oct-2026). Mándasela a quien tiene celos hasta del sol.
+
+Crédito: canal Lalo Ocampo, «Tóxico» (video oficial). Canción completa desde el minuto 2:06: https://youtu.be/bip8ttg-VeE?t=126
+
+#LaloOcampo #Tóxico #Celos #MúsicaUrbana
+```
+
+**Aprobar:** `/publicador aprobar 2026-11-02-toxico-celos-completo` · solo una: `/publicador aprobar 2026-11-02-toxico-celos-completo:tiktok` (o `:instagram`, `:youtube`)
+
+### 4. 2026-11-02-toxico-verso-mando-la-ubi
+
+> **Escúchalo antes de aprobar.** A los 19 s del clip (1:11 de la fuente) hay una palabra que no se entiende. Los subtítulos automáticos decían "Nadie se mi amor" y el clip la muestra como "Nadie (…) mi amor". Confirma también si dice "Más que sea tóxico" o "Más que ser tóxico". Por esa duda, los textos no citan esa línea, aunque la ficha la usaba: citan "Mando la ubi y espero la respuesta".
+
+- **Gancho:** POV: tu novio es tóxico · **Tipo:** `frase` (primer verso) · **Puntaje:** 72 · **Duración:** 31,4 s · **Ventana hasta:** 2026-11-14
+- **Derechos:** `autorizado`
+- **Video:** [clip.mp4](../clipero/clips/2026-11-02-toxico-verso-mando-la-ubi/clip.mp4) · **Ficha:** [ficha.md](../clipero/clips/2026-11-02-toxico-verso-mando-la-ubi/ficha.md)
+- **Fuente:** https://youtu.be/bip8ttg-VeE?t=52 (canal Lalo Ocampo, minuto 0:52)
+- **Hora sugerida por el Clipero (estimación):** TikTok y Reels, 6-nov de 19:00 a 21:00, después de escuchar el tramo dudoso · Shorts, el mismo día
+- **Sonido:** en TikTok e Instagram, usa el sonido oficial de «Tóxico» si existe en la app.
+- **Revisa:**
+  - Escucha el audio: la entrada llega a +1,3 dBTP y puede haber distorsión.
+  - Tono: la letra describe celos controladores ("Mando la ubi y espero la respuesta", "No salgas sola"). Los textos lo tratan con ironía (POV), nunca como un consejo de pareja.
+
+#### TikTok
+
+Envío: `datos/publicador/envios/2026-11-02-toxico-verso-mando-la-ubi__tiktok.json` · llega a tu bandeja como borrador: pega este texto en la app.
+
+```text
+POV: tu novio es tóxico y te manda la ubi | Lalo Ocampo - Tóxico
+
+"Mando la ubi y espero la respuesta". ¿Conoces a alguien así?
+
+Crédito: Lalo Ocampo, «Tóxico» (video oficial, 31-oct-2026). Canción completa (minuto 0:52): https://youtu.be/bip8ttg-VeE?t=52
+
+#LaloOcampo #Tóxico #NovioTóxico #POV #MúsicaUrbana
+```
+
+#### Instagram Reels
+
+Envío: `datos/publicador/envios/2026-11-02-toxico-verso-mando-la-ubi__instagram.json` · cuando Instagram esté activa, se publica al momento y en público.
+
+```text
+"Mando la ubi y espero la respuesta": el primer verso de «Tóxico», de Lalo Ocampo.
+
+POV: tu novio es tóxico. Lo nuevo de Lalo Ocampo, del video oficial estrenado el 31 de octubre. ¿Conoces a alguien así?
+
+Crédito: Lalo Ocampo, «Tóxico» (video oficial). Canción completa (minuto 0:52): https://youtu.be/bip8ttg-VeE?t=52
+
+#LaloOcampo #Tóxico #NovioTóxico #POV #MúsicaUrbana
+```
+
+#### YouTube Shorts
+
+Envío: `datos/publicador/envios/2026-11-02-toxico-verso-mando-la-ubi__youtube.json` · privacidad `private`
+
+**Título:** Lalo Ocampo - Tóxico: "Mando la ubi y espero la respuesta"
+
+**Etiquetas:** Lalo Ocampo, Tóxico, Lalo Ocampo Tóxico, novio tóxico, mando la ubi, música urbana, nueva música, estreno
+
+**Descripción:**
+
+```text
+El primer verso de «Tóxico», lo nuevo de Lalo Ocampo (video oficial, 31-oct-2026): "Mando la ubi y espero la respuesta". ¿Conoces a alguien así?
+
+Crédito: canal Lalo Ocampo, «Tóxico» (video oficial). Canción completa desde el minuto 0:52: https://youtu.be/bip8ttg-VeE?t=52
+
+#LaloOcampo #Tóxico #NovioTóxico #MúsicaUrbana
+```
+
+**Aprobar:** `/publicador aprobar 2026-11-02-toxico-verso-mando-la-ubi` · solo una: `/publicador aprobar 2026-11-02-toxico-verso-mando-la-ubi:tiktok` (o `:instagram`, `:youtube`)
+
+### Comandos para «Tóxico»
+
+- Un clip en sus 3 plataformas: `/publicador aprobar <clip-id>`. El comando exacto está al final de cada clip.
+- Los cuatro a la vez: `/publicador aprobar 2026-11-02-toxico-intro-celos-aire 2026-11-02-toxico-coro-eres-mia 2026-11-02-toxico-celos-completo 2026-11-02-toxico-verso-mando-la-ubi`
+- Solo una plataforma: `/publicador aprobar <clip-id>:<plataforma>` (`tiktok`, `instagram` o `youtube`).
+- `/publicador aprobar todo` aprueba **todo** lo pendiente, incluidos los envíos antiguos de Instagram y YouTube de Blessd (`sin_verificar`). Para aprobar solo «Tóxico», usa los comandos de arriba.
+- Rechazar: `/publicador rechazar <clip-id> <motivo>` o `/publicador rechazar <clip-id>:<plataforma> <motivo>`.
+- Cambiar un texto: `/publicador cambia el título de YouTube de <clip-id> por ...`.
+
+---
+
+## Pendientes anteriores
+
 > **Actualización 2026-11-02 20:30: clips de Inés Gómez Mont rechazados.** Por tu instrucción, `2026-10-31-alvarez-puga-deportacion` y `2026-10-31-gomez-mont-amparo-cuentas` quedan **rechazados** (motivo: no encajan con el enfoque nuevo de contenido). Ya no están pendientes de aprobación en ninguna plataforma y el script bloquea cualquier subida nueva (`datos/publicador/descartados.json`).
 >
 > **Tienes que borrarlos tú desde la app de TikTok:** los dos siguen como **borradores en tu bandeja de TikTok** (se enviaron el 1-nov a las 22:20 y 22:21). La API de TikTok no permite eliminar borradores, así que hay que descartarlos a mano en la app y **no publicarlos**. En [revision-pendientes-2026-11-02.md](revision-pendientes-2026-11-02.md) aparecen aún en la lista de "notificación enviada": ahí ya no cuentan como pendientes.
@@ -1423,5 +1690,5 @@ Aprobar lo que falta (Instagram y YouTube): `/publicador aprobar 2026-10-29-bles
 
 - `/publicador aprobar <clip-id>`: aprueba todas las plataformas de ese clip (TikTok ya está aprobado, así que aprueba Instagram y YouTube).
 - `/publicador aprobar <clip-id>:<plataforma>`: aprueba solo una (`instagram` o `youtube`).
-- `/publicador aprobar todo`: aprueba todo lo pendiente (los 42 envíos de Instagram y YouTube).
+- `/publicador aprobar todo`: aprueba todo lo pendiente (los 42 envíos de Instagram y YouTube de esta lista y los 12 de «Tóxico» de arriba).
 - `/publicador rechazar <clip-id> <motivo>`: lo descarta con el motivo. Para descartar solo una plataforma: `/publicador rechazar <clip-id>:<plataforma> <motivo>`.
