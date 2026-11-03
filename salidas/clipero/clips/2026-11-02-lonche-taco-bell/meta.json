@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-02-lonche-taco-bell",
+    "url_fuente":  "https://www.youtube.com/watch?v=TGZYr7VNzio",
+    "video_id":  "TGZYr7VNzio",
+    "inicio":  1249.13,
+    "fin":  1266.02,
+    "inicio_hms":  "0:20:49",
+    "duracion_seg":  16.9,
+    "gancho":  "Lonche: los mejores tacos son de Taco Bell",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  60,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -13.66,
+                  "entrada_tp":  -0.98,
+                  "salida_lufs":  -14.01,
+                  "salida_tp":  -1.32
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-02-lonche-taco-bell/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-02-lonche-taco-bell/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-02-lonche-taco-bell/revision.jpg",
+    "creado":  "2026-11-02T22:06:10.0645108-05:00"
+}

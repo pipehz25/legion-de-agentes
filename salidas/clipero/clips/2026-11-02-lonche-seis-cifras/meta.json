@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-02-lonche-seis-cifras",
+    "url_fuente":  "https://www.youtube.com/watch?v=XMLQv5JNuK0",
+    "video_id":  "XMLQv5JNuK0",
+    "inicio":  429.81,
+    "fin":  481.78,
+    "inicio_hms":  "0:07:09",
+    "duracion_seg":  52,
+    "gancho":  "Lonche: «seis cifras a la semana»",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  170,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14.1,
+                  "limitador":  true,
+                  "entrada_lufs":  -20.24,
+                  "entrada_tp":  -7.23,
+                  "salida_lufs":  -13.94,
+                  "salida_tp":  -1.09
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-02-lonche-seis-cifras/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-02-lonche-seis-cifras/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-02-lonche-seis-cifras/revision.jpg",
+    "creado":  "2026-11-02T21:32:34.0127958-05:00"
+}

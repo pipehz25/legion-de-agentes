@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-02-lonche-sueno-americano",
+    "url_fuente":  "https://www.youtube.com/watch?v=TGZYr7VNzio",
+    "video_id":  "TGZYr7VNzio",
+    "inicio":  2568.57,
+    "fin":  2611.7,
+    "inicio_hms":  "0:42:48",
+    "duracion_seg":  43.2,
+    "gancho":  "Lonche y su «sueño americano»",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  117,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -14.95,
+                  "entrada_tp":  -1.95,
+                  "salida_lufs":  -13.93,
+                  "salida_tp":  -1
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-02-lonche-sueno-americano/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-02-lonche-sueno-americano/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-02-lonche-sueno-americano/revision.jpg",
+    "creado":  "2026-11-02T21:40:54.3581719-05:00"
+}

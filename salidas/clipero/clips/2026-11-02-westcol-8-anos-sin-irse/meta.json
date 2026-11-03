@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-02-westcol-8-anos-sin-irse",
+    "url_fuente":  "https://www.youtube.com/watch?v=8L8CP3xe3Qo",
+    "video_id":  "8L8CP3xe3Qo",
+    "inicio":  6.89,
+    "fin":  50.94,
+    "inicio_hms":  "0:00:06",
+    "duracion_seg":  44.1,
+    "gancho":  "Westcol vuelve: «nunca me había ido tanto»",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  129,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -21.94,
+                  "entrada_tp":  -14.03,
+                  "salida_lufs":  -13.91,
+                  "salida_tp":  -6.26
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-02-westcol-8-anos-sin-irse/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-02-westcol-8-anos-sin-irse/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-02-westcol-8-anos-sin-irse/revision.jpg",
+    "creado":  "2026-11-02T21:23:29.2291847-05:00"
+}

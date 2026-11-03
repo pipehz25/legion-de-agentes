@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-02-westcol-w-sound-700mil",
+    "url_fuente":  "https://www.youtube.com/watch?v=8L8CP3xe3Qo",
+    "video_id":  "8L8CP3xe3Qo",
+    "inicio":  96.53,
+    "fin":  157.54,
+    "inicio_hms":  "0:01:36",
+    "duracion_seg":  61,
+    "gancho":  "Westcol presume los números de la W",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  185,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -22.46,
+                  "entrada_tp":  -13.69,
+                  "salida_lufs":  -13.92,
+                  "salida_tp":  -5.41
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-02-westcol-w-sound-700mil/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-02-westcol-w-sound-700mil/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-02-westcol-w-sound-700mil/revision.jpg",
+    "creado":  "2026-11-02T21:53:07.3895733-05:00"
+}

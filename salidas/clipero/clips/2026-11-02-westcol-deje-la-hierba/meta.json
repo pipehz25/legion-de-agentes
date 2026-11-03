@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-02-westcol-deje-la-hierba",
+    "url_fuente":  "https://www.youtube.com/watch?v=OqsKq4thcZA",
+    "video_id":  "OqsKq4thcZA",
+    "inicio":  510.81,
+    "fin":  561.7,
+    "inicio_hms":  "0:08:30",
+    "duracion_seg":  50.9,
+    "gancho":  "Westcol: «Yo dejé la hierba»",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  191,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -18.41,
+                  "entrada_tp":  -5.76,
+                  "salida_lufs":  -13.99,
+                  "salida_tp":  -1.35
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-02-westcol-deje-la-hierba/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-02-westcol-deje-la-hierba/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-02-westcol-deje-la-hierba/revision.jpg",
+    "creado":  "2026-11-02T21:48:55.8509289-05:00"
+}

@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-02-westcol-disfraz-presidente",
+    "url_fuente":  "https://www.youtube.com/watch?v=MBotzCroy1Q",
+    "video_id":  "MBotzCroy1Q",
+    "inicio":  1303.45,
+    "fin":  1335.54,
+    "inicio_hms":  "0:21:43",
+    "duracion_seg":  32.1,
+    "gancho":  "El disfraz que Westcol no usó",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  99,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -22.48,
+                  "entrada_tp":  -14.08,
+                  "salida_lufs":  -13.97,
+                  "salida_tp":  -5.91
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-02-westcol-disfraz-presidente/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-02-westcol-disfraz-presidente/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-02-westcol-disfraz-presidente/revision.jpg",
+    "creado":  "2026-11-02T21:27:53.2463457-05:00"
+}

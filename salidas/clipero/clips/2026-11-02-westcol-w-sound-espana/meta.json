@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-02-westcol-w-sound-espana",
+    "url_fuente":  "https://www.youtube.com/watch?v=8L8CP3xe3Qo",
+    "video_id":  "8L8CP3xe3Qo",
+    "inicio":  672.81,
+    "fin":  736.38,
+    "inicio_hms":  "0:11:12",
+    "duracion_seg":  63.6,
+    "gancho":  "Westcol: ¿por qué la W pegó en España?",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  196,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -22.39,
+                  "entrada_tp":  -14.23,
+                  "salida_lufs":  -13.92,
+                  "salida_tp":  -5.84
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-02-westcol-w-sound-espana/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-02-westcol-w-sound-espana/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-02-westcol-w-sound-espana/revision.jpg",
+    "creado":  "2026-11-02T22:09:37.0839049-05:00"
+}

@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-02-westcol-cuerpo-35-anos",
+    "url_fuente":  "https://www.youtube.com/watch?v=MBotzCroy1Q",
+    "video_id":  "MBotzCroy1Q",
+    "inicio":  1405.09,
+    "fin":  1449.86,
+    "inicio_hms":  "0:23:25",
+    "duracion_seg":  44.8,
+    "gancho":  "Westcol: «Mi cuerpo tiene 35 años»",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  110,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -22.23,
+                  "entrada_tp":  -14.39,
+                  "salida_lufs":  -13.96,
+                  "salida_tp":  -6.61
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-02-westcol-cuerpo-35-anos/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-02-westcol-cuerpo-35-anos/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-02-westcol-cuerpo-35-anos/revision.jpg",
+    "creado":  "2026-11-02T21:35:09.2216401-05:00"
+}
