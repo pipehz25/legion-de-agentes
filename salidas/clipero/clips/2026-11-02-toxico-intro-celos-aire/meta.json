@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-02-toxico-intro-celos-aire",
+    "url_fuente":  "https://www.youtube.com/watch?v=bip8ttg-VeE",
+    "video_id":  "bip8ttg-VeE",
+    "inicio":  0,
+    "fin":  19.6,
+    "inicio_hms":  "0:00:00",
+    "duracion_seg":  19.6,
+    "gancho":  "Lalo Ocampo estrena «Tóxico»",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  19,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -12.59,
+                  "entrada_tp":  -0.08,
+                  "salida_lufs":  -14.09,
+                  "salida_tp":  -1.5
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-02-toxico-intro-celos-aire/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-02-toxico-intro-celos-aire/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-02-toxico-intro-celos-aire/revision.jpg",
+    "creado":  "2026-11-02T20:42:21.6656931-05:00"
+}

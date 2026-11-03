@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-02-toxico-coro-eres-mia",
+    "url_fuente":  "https://www.youtube.com/watch?v=bip8ttg-VeE",
+    "video_id":  "bip8ttg-VeE",
+    "inicio":  84.17,
+    "fin":  105.82,
+    "inicio_hms":  "0:01:24",
+    "duracion_seg":  21.7,
+    "gancho":  "El coro más tóxico",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  58,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -9.04,
+                  "entrada_tp":  1.83,
+                  "salida_lufs":  -13.98,
+                  "salida_tp":  -3.3
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-02-toxico-coro-eres-mia/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-02-toxico-coro-eres-mia/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-02-toxico-coro-eres-mia/revision.jpg",
+    "creado":  "2026-11-02T20:44:25.1130748-05:00"
+}

@@ -1,7 +1,107 @@
 {
-    "generado":  "2026-11-02T00:17:45-05:00",
+    "generado":  "2026-11-02T20:55:00-05:00",
     "ciclo":  4,
     "clips":  [
+                  {
+                      "id":  "2026-11-02-toxico-intro-celos-aire",
+                      "estado":  "listo",
+                      "tipo":  "frase",
+                      "puntaje":  68,
+                      "gancho":  "Lalo Ocampo estrena «Tóxico»",
+                      "archivo":  "salidas/clipero/clips/2026-11-02-toxico-intro-celos-aire/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-02-toxico-intro-celos-aire/ficha.md",
+                      "duracion_seg":  19.6,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/bip8ttg-VeE?t=0",
+                                     "canal":  "Lalo Ocampo",
+                                     "inicio":  0,
+                                     "fin":  19.6
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  1,
+                      "derechos":  "autorizado",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-14"
+                  },
+                  {
+                      "id":  "2026-11-02-toxico-coro-eres-mia",
+                      "estado":  "listo",
+                      "tipo":  "frase",
+                      "puntaje":  76,
+                      "gancho":  "El coro más tóxico",
+                      "archivo":  "salidas/clipero/clips/2026-11-02-toxico-coro-eres-mia/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-02-toxico-coro-eres-mia/ficha.md",
+                      "duracion_seg":  21.7,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/bip8ttg-VeE?t=84",
+                                     "canal":  "Lalo Ocampo",
+                                     "inicio":  84.17,
+                                     "fin":  105.82
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  2,
+                      "derechos":  "autorizado",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-14"
+                  },
+                  {
+                      "id":  "2026-11-02-toxico-celos-completo",
+                      "estado":  "listo",
+                      "tipo":  "frase",
+                      "puntaje":  78,
+                      "gancho":  "Celos hasta del aire",
+                      "archivo":  "salidas/clipero/clips/2026-11-02-toxico-celos-completo/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-02-toxico-celos-completo/ficha.md",
+                      "duracion_seg":  21.2,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/bip8ttg-VeE?t=126",
+                                     "canal":  "Lalo Ocampo",
+                                     "inicio":  126.86,
+                                     "fin":  148.1
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  3,
+                      "derechos":  "autorizado",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-14"
+                  },
+                  {
+                      "id":  "2026-11-02-toxico-verso-mando-la-ubi",
+                      "estado":  "listo",
+                      "tipo":  "frase",
+                      "puntaje":  72,
+                      "gancho":  "POV: tu novio es tóxico",
+                      "archivo":  "salidas/clipero/clips/2026-11-02-toxico-verso-mando-la-ubi/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-02-toxico-verso-mando-la-ubi/ficha.md",
+                      "duracion_seg":  31.4,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/bip8ttg-VeE?t=52",
+                                     "canal":  "Lalo Ocampo",
+                                     "inicio":  52.33,
+                                     "fin":  83.7
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  4,
+                      "derechos":  "autorizado",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-14"
+                  },
                   {
                       "id":  "2026-11-01-kris-r-critica-trap-bogota",
                       "estado":  "listo",

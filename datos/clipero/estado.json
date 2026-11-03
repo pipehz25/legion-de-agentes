@@ -1,5 +1,5 @@
 {
-    "actualizado":  "2026-11-02T00:17:45-05:00",
+    "actualizado":  "2026-11-02T20:55:00-05:00",
     "ciclo":  4,
     "ultimo_ciclo_cazador":  3,
     "fuentes":  [
@@ -86,6 +86,13 @@
                         "titulo":  "IRL EN PROVENZA DISFRAZADOS DE RYAN CASTRO Y BLESSD",
                         "analizado":  "2026-11-01",
                         "resultado":  "1 clip (chanty-blessd-anuel) | fuente_para_clips del Cazador (ciclo 3), The Chanty (similar) | 240.000, publicado 31-oct 11:42, 720 s, 11.122 vistas a las 23:28 (311/h) | sin picos ni marcas en comentarios | transcripción leída entera (92 líneas) | subtítulos orig, sin correcciones"
+                    },
+                    {
+                        "id":  "bip8ttg-VeE",
+                        "url":  "https://www.youtube.com/watch?v=bip8ttg-VeE",
+                        "titulo":  "Lalo Ocampo - Tóxico (video oficial)",
+                        "analizado":  "2026-11-02",
+                        "resultado":  "4 clips (intro-celos-aire, coro-eres-mia, celos-completo, verso-mando-la-ubi) | encargo directo del usuario el 2-nov (fuera de ciclo; no aplican duración mínima ni tipo de fuente) | canal Lalo Ocampo (1.480), en fuentes_autorizadas desde el 2-nov: derechos autorizado | video musical de 174 s publicado el 31-oct, 411 vistas, 60 likes y 36 comentarios a las 20:30 del 2-nov | sin picos ni marcas en comentarios | transcripción leída entera (20 líneas; subtítulos automáticos de YouTube, buenos) | estructura: intro 0:00-0:08, gancho de los celos 0:08-0:30 y 2:07-2:28, coro 'eres mía' 0:31-0:52 y 1:24-1:45, verso 1 0:52-1:23, verso 2 1:46-2:02, final instrumental con créditos 2:28-2:54 | visual: hoja de contactos de 1 cuadro cada 3 s; secuencia de primeros planos en 2:09-2:24 | palabras-rev.json: pa→pa', mi→mí (2:01), 'Nadie se mi amor'→'Nadie (…) mi amor' (escuchar) | máster muy alto: entrada de +0,5 a +1,8 dBTP en 3 clips | hay una pista de audio 'Tóxico' en 'Release - Topic' (ZkvoB6zB9P8, 174 s)"
                     }
                 ],
     "momentos":  [
@@ -1216,6 +1223,70 @@
                          "estado":  "descartado",
                          "clip":  null,
                          "motivo":  "55, \u0027Yo soy un koala\u0027. Remate flojo después de chanty-blessd-anuel"
+                     },
+                     {
+                         "fuente":  "bip8ttg-VeE",
+                         "inicio":  0,
+                         "fin":  19.6,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-02-toxico-intro-celos-aire",
+                         "motivo":  "frase, 68 (encargo del usuario: los primeros 20 s): cartel TÓXICO y «Yo tengo celos del aire… de la luna». Sale en 19,6 s para no cortar «Yo tengo celos del sol» (20,1 s)"
+                     },
+                     {
+                         "fuente":  "bip8ttg-VeE",
+                         "inicio":  126.86,
+                         "fin":  148.1,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-02-toxico-celos-completo",
+                         "motivo":  "frase, 78 (encargo del usuario): el gancho de los celos entero (aire, luna, sol, «todo el que se acerque») y la secuencia visual más llamativa (primeros planos en 2:09-2:24). Repite dos líneas del clip 1"
+                     },
+                     {
+                         "fuente":  "bip8ttg-VeE",
+                         "inicio":  84.17,
+                         "fin":  105.82,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-02-toxico-coro-eres-mia",
+                         "motivo":  "frase, 76 (encargo del usuario): coro «Porque eres mía y de nadie más» (x2), segunda aparición: el artista lo canta a cámara"
+                     },
+                     {
+                         "fuente":  "bip8ttg-VeE",
+                         "inicio":  52.33,
+                         "fin":  83.7,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-02-toxico-verso-mando-la-ubi",
+                         "motivo":  "frase, 72 (encargo del usuario): verso 1 con la línea del título («Más que sea tóxico es que yo cuido lo mío») y «Mando la ubi y espero la respuesta». «Nadie (…) mi amor»: escuchar antes de publicar"
+                     },
+                     {
+                         "fuente":  "bip8ttg-VeE",
+                         "inicio":  19.97,
+                         "fin":  31.5,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Segunda mitad del gancho de los celos («celos del sol… todo el que se acerque»). Ya está entero en celos-completo (2:07)"
+                     },
+                     {
+                         "fuente":  "bip8ttg-VeE",
+                         "inicio":  31.5,
+                         "fin":  52.2,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Primera aparición del coro «eres mía»: misma letra que coro-eres-mia. Se cortó la segunda porque el artista canta a cámara; aquí casi todo son planos oscuros y de detalle"
+                     },
+                     {
+                         "fuente":  "bip8ttg-VeE",
+                         "inicio":  106.17,
+                         "fin":  123,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "64, bajo el umbral. Verso 2 («como el pelo te jalo… por ti yo mato… Síndrome de Estocolmo cuando yo a ti te rapto»): 16 s, gancho flojo, sin nada visual especial y con una letra más violenta que el verso 1, lo que puede limitar el alcance"
+                     },
+                     {
+                         "fuente":  "bip8ttg-VeE",
+                         "inicio":  148.1,
+                         "fin":  174,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Final instrumental sin letra (plano de la cruz y créditos del video). Sin autonomía"
                      }
                  ]
 }

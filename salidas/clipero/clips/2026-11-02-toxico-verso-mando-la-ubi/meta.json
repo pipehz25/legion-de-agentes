@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-02-toxico-verso-mando-la-ubi",
+    "url_fuente":  "https://www.youtube.com/watch?v=bip8ttg-VeE",
+    "video_id":  "bip8ttg-VeE",
+    "inicio":  52.33,
+    "fin":  83.7,
+    "inicio_hms":  "0:00:52",
+    "duracion_seg":  31.4,
+    "gancho":  "POV: tu novio es tóxico",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  104,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -9.85,
+                  "entrada_tp":  1.3,
+                  "salida_lufs":  -13.97,
+                  "salida_tp":  -2.89
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-02-toxico-verso-mando-la-ubi/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-02-toxico-verso-mando-la-ubi/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-02-toxico-verso-mando-la-ubi/revision.jpg",
+    "creado":  "2026-11-02T20:46:36.2919305-05:00"
+}
