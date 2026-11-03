@@ -10,7 +10,16 @@ Una legión de agentes autónomos, cada uno controlado por un loop. Esta sesión
 | 02 | Clipero | Encuentra momentos en contenido largo (podcasts, streams, entrevistas) ligados a las oportunidades del 01 y produce clips verticales con subtítulos | `salidas/cazador-viral/oportunidades.json` | `/clipero` | Listo; requiere `herramientas/instalar.ps1` |
 | 03 | Publicador | Escribe los textos de cada plataforma y sube a YouTube, TikTok, Instagram y Facebook los clips que el usuario aprueba | `salidas/clipero/clips.json` | `/publicador`, `/publicador aprobar <clip-id>` | En simulación; cada plataforma requiere credenciales (`legion/03-publicador/plataformas.md`) |
 
-**Cadena:** `/legion` ejecuta los agentes en orden (01 → 02 → 03). Es lo que debe correr en el loop: `/loop 6h /legion`. Cada agente nuevo que dependa de otro se añade como paso en `.claude/skills/legion/SKILL.md`.
+**Cadena:** `/legion` ejecuta los agentes en orden (01 → 02 → 03) en una sola PC. Cada agente nuevo que dependa de otro se añade como paso en `.claude/skills/legion/SKILL.md` (y en el turno que le toque, abajo).
+
+**Reparto entre dos PCs** (vigente): la cadena se parte en dos turnos que se pasan el trabajo por GitHub. Cada turno baja lo último antes de empezar y sube solo las carpetas de sus agentes al terminar.
+
+| Turno | PC | Agentes | Loop |
+|-------|----|---------|------|
+| `/turno-cazador` | Santiago | 01 | `/loop 6h /turno-cazador` |
+| `/turno-clips` | Felipe (tiene los videos y las credenciales de las plataformas) | 02 → 03 | `/loop 6h /turno-clips`, arrancado como una hora después del de Santiago |
+
+Mientras rija el reparto, nadie corre `/legion` ni `/cazador-viral` en la PC de los clips: dos Cazadores a la vez se pisan `datos/cazador-viral/`. Los videos no viajan por GitHub (`.gitignore`), así que el Publicador tiene que correr en la misma PC que el Clipero.
 
 ## Convenciones para todo agente
 
@@ -19,7 +28,7 @@ Una legión de agentes autónomos, cada uno controlado por un loop. Esta sesión
 - **Conocimiento, configuración y scripts:** `legion/NN-<nombre>/`.
 - **Memoria entre ciclos:** `datos/<nombre>/`. Solo la escribe su propio agente.
 - **Entregables:** `salidas/<nombre>/`. Los agentes se comunican **solo** leyendo las salidas de otros (contratos JSON documentados en la definición de cada agente), nunca la carpeta `datos/` ajena.
-- **Scripts:** PowerShell 5.1 (en esta máquina no hay Python, Node ni Git). Los `.ps1` solo llevan caracteres ASCII; los JSON se escriben en UTF-8 sin BOM. Se ejecutan con `powershell -NoProfile -ExecutionPolicy Bypass -File ...`.
+- **Scripts:** PowerShell 5.1 (no se cuenta con Python ni Node en las PCs de la Legión). Los `.ps1` solo llevan caracteres ASCII; los JSON se escriben en UTF-8 sin BOM. Se ejecutan con `powershell -NoProfile -ExecutionPolicy Bypass -File ...`.
 - **Herramientas compartidas** (yt-dlp, ffmpeg, deno): `herramientas/bin/`. Se instalan o actualizan con `herramientas/instalar.ps1`, que ejecuta el usuario (el clasificador bloquea que Claude descargue ejecutables). Conviene actualizar yt-dlp cada pocas semanas, porque YouTube cambia a menudo.
 - **Permisos** para que los loops corran sin preguntar: `.claude/settings.json`. Cada agente nuevo con script propio necesita su regla `PowerShell(...)`.
 - **Idioma:** español. Fechas en ISO 8601 con zona horaria local.
