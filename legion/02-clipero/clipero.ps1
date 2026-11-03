@@ -9,6 +9,9 @@
 #               YouTube: URL con el id del canal (https://www.youtube.com/channel/UC...; los @handle fallan en yt-dlp),
 #               revisa las pestanas de videos y de directos. Kick: https://kick.com/<canal>/videos (sin subtitulos).
 #               -N: subidas que se miran por pestana (maximo 10).
+#   vistazo  -Url <url> [-Cada 20]
+#            -> datos/clipero/fuentes/<id>/vistazo-NN.jpg (hojas de 6x5 fotogramas, uno cada -Cada segundos, con su marca
+#               de tiempo) y volumen.json (sonoridad por tramos de 10 s). Para elegir momentos de fuentes sin texto.
 #   analizar -Url <url> [-Traducir es]
 #            -> datos/clipero/fuentes/<id>/: resumen.json (picos de "mas repetido", marcas de tiempo en comentarios,
 #               capitulos), transcripcion.txt y palabras*.json (palabras con tiempo, para subtitular)
@@ -20,13 +23,14 @@
 # Requiere herramientas/bin (yt-dlp, ffmpeg, deno): powershell -NoProfile -ExecutionPolicy Bypass -File herramientas/instalar.ps1
 
 param(
-    [Parameter(Mandatory = $true, Position = 0)][ValidateSet('buscar', 'canal', 'analizar', 'cortar')][string]$Accion,
+    [Parameter(Mandatory = $true, Position = 0)][ValidateSet('buscar', 'canal', 'vistazo', 'analizar', 'cortar')][string]$Accion,
     [string]$Consulta,
     [int]$N = 10,
     [switch]$Recientes,
     [switch]$Hoy,
     [switch]$Detalle,
     [double]$MaxHoras = 0,
+    [int]$Cada = 20,
     [string]$Url,
     [string]$Traducir = '',
     [double]$Inicio = -1,
@@ -266,6 +270,54 @@ if ($Accion -eq 'canal') {
     if (-not (Test-Path $archivo)) { "Canal: sin datos de las subidas ($Url)"; exit 0 }
     Medir $archivo
     "Canal: $(Relativa $archivo) ($(@([IO.File]::ReadAllLines($archivo)).Count) subidas)"
+    exit 0
+}
+
+# ---------------------------------------------------------------- vistazo
+if ($Accion -eq 'vistazo') {
+    if (-not $Url) { throw 'Falta -Url' }
+    if ($Cada -lt 5) { $Cada = 5 }
+    $vid = IdVideo $Url
+    $dir = Join-Path $fuentes $vid
+    New-Item -ItemType Directory -Force $dir | Out-Null
+    Remove-Item (Join-Path $dir 'baja.*'), (Join-Path $dir 'vistazo-*.jpg') -ErrorAction SilentlyContinue
+    # Copia ligera (240p y audio bajo) solo para mirar: los clips se cortan despues de la fuente original.
+    # YouTube ya casi no ofrece formatos con video y audio juntos, y "worst" puede caer en un storyboard: se pide cada pista.
+    # Solo por https (DASH): los formatos m3u8 (HLS) van limitados por debajo del tiempo real y la descarga parece colgada.
+    YtDlp @('--no-playlist', '-f', ('bv*[height<=360][height>=240][vcodec^=avc1][protocol=https]+wa[protocol=https]/' +
+        'bv*[height<=360][protocol=https]+wa[protocol=https]/bv*[height<=360]+wa'),
+        '--merge-output-format', 'mp4', '-o', (Join-Path $dir 'baja.%(ext)s'), $Url)
+    $baja = Get-ChildItem $dir -Filter 'baja.*' | Select-Object -First 1
+    if (-not $baja) { throw 'No se pudo descargar la copia ligera' }
+    # Lo que queda no usa la red
+    $candado.ReleaseMutex()
+    $trabajo = $dir
+    Copy-Item -Force (Join-Path $env:WINDIR 'Fonts\arialbd.ttf') (Join-Path $dir 'arialbd.ttf')
+    $vf = "fps=1/$($Cada),scale=320:-2,drawtext=fontfile=arialbd.ttf:text='%{pts\:hms}':x=6:y=6:fontsize=22:fontcolor=white:box=1:boxcolor=black@0.6,tile=6x5"
+    FfmpegLog @('-y', '-i', $baja.Name, '-an', '-vf', $vf, '-fps_mode', 'vfr', '-q:v', '4', 'vistazo-%02d.jpg') 'vistazo.txt' | Out-Null
+    # Sonoridad a corto plazo (3 s) promediada por tramos de 10 s. En un concierto, los tramos bajos suelen ser
+    # el artista hablando entre canciones; los altos, el publico o un momento fuerte.
+    $log = FfmpegLog @('-i', $baja.Name, '-vn', '-af', 'ebur128', '-f', 'null', '-') 'volumen.txt'
+    $tramos = @{}
+    foreach ($m in [regex]::Matches($log, 't:\s*([\d.]+)\s+TARGET.*?S:\s*(-?[\d.]+)')) {
+        $s = Dbl $m.Groups[2].Value
+        if ($s -lt -70) { continue }
+        $k = [int]([math]::Floor((Dbl $m.Groups[1].Value) / 10) * 10)
+        if (-not $tramos.ContainsKey($k)) { $tramos[$k] = New-Object Collections.Generic.List[double] }
+        $tramos[$k].Add($s)
+    }
+    $lista = @($tramos.Keys | Sort-Object | ForEach-Object {
+        [pscustomobject][ordered]@{ seg = $_; hms = Hms $_; lufs = [math]::Round(($tramos[$_] | Measure-Object -Average).Average, 1) }
+    })
+    EscribirJson (Join-Path $dir 'volumen.json') ([ordered]@{
+        tramo_seg   = 10
+        mas_fuertes = @($lista | Sort-Object lufs -Descending | Select-Object -First 12)
+        mas_bajos   = @($lista | Sort-Object lufs | Select-Object -First 12)
+        tramos      = $lista
+    })
+    Remove-Item (Join-Path $dir 'baja.*'), (Join-Path $dir 'arialbd.ttf'), (Join-Path $dir 'vistazo.txt'), (Join-Path $dir 'volumen.txt') -ErrorAction SilentlyContinue
+    $hojas = @(Get-ChildItem $dir -Filter 'vistazo-*.jpg' | Sort-Object Name)
+    "Vistazo: $($hojas.Count) hojas de 30 fotogramas (1 cada $Cada s) en $(Relativa $dir)/vistazo-NN.jpg; sonoridad en $(Relativa $dir)/volumen.json"
     exit 0
 }
 
