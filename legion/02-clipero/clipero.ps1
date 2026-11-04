@@ -17,7 +17,8 @@
 #               capitulos), transcripcion.txt y palabras*.json (palabras con tiempo, para subtitular)
 #               Si la fuente no tiene subtitulos (Kick, Twitch, Instagram...), transcribe el audio en local con whisper.cpp
 #               (herramientas/bin/whisper + herramientas/modelos); el origen queda en resumen.json (transcripcion_origen).
-#   cortar   -Url <url> -Inicio <seg> -Fin <seg> -Id <clip-id> [-Gancho "<texto>"] [-Subs orig|es|ninguno] [-Modo desenfoque|recorte]
+#   cortar   -Url <url> -Inicio <seg> -Fin <seg> -Id <clip-id> [-Gancho "<texto>"] [-Subs orig|es|ninguno|whisper|<sufijo>] [-Modo desenfoque|recorte]
+#            -Subs whisper: transcribe con whisper solo el tramo del clip (fuentes sin subtitulos).
 #            -> salidas/clipero/clips/<Id>/clip.mp4 (1080x1920, subtitulos quemados), portada.jpg y meta.json
 # Uso: powershell -NoProfile -ExecutionPolicy Bypass -File legion/02-clipero/clipero.ps1 <accion> ...
 # Requiere herramientas/bin (yt-dlp, ffmpeg, deno): powershell -NoProfile -ExecutionPolicy Bypass -File herramientas/instalar.ps1
@@ -55,11 +56,17 @@ foreach ($exe in $ytdlp, $ffmpeg, $ffprobe, (Join-Path $bin 'deno.exe')) {
 # yt-dlp busca deno y ffmpeg en el PATH
 $env:PATH = "$bin;$env:PATH"
 
-# Una sola ejecucion a la vez: varias descargas en paralelo desde la misma IP provocan HTTP 429 de YouTube y cuelgues.
+# Una sola ejecucion a la vez contra YouTube: varias descargas en paralelo desde la misma IP provocan HTTP 429 y cuelgues.
 # Si el agente lanza varias llamadas juntas, esperan su turno. El candado se libera al terminar el proceso.
+# Las fuentes de otros sitios (Kick, Twitch...) no lo necesitan y no hacen esperar a las de YouTube.
 $candado = New-Object Threading.Mutex($false, 'Local\LegionClipero')
-try { $turno = $candado.WaitOne([TimeSpan]::FromMinutes(90)) } catch [Threading.AbandonedMutexException] { $turno = $true }
-if (-not $turno) { throw 'Otra ejecucion de clipero.ps1 lleva mas de 90 min ocupada; reintenta mas tarde' }
+$tengoCandado = $false
+if (-not $Url -or $Url -match 'youtube\.com|youtu\.be') {
+    try { $turno = $candado.WaitOne([TimeSpan]::FromMinutes(90)) } catch [Threading.AbandonedMutexException] { $turno = $true }
+    if (-not $turno) { throw 'Otra ejecucion de clipero.ps1 lleva mas de 90 min ocupada; reintenta mas tarde' }
+    $tengoCandado = $true
+}
+function SoltarCandado { if ($script:tengoCandado) { $candado.ReleaseMutex(); $script:tengoCandado = $false } }
 
 $utf8 = New-Object Text.UTF8Encoding $false
 $cultura = [Globalization.CultureInfo]::InvariantCulture
@@ -284,13 +291,15 @@ if ($Accion -eq 'vistazo') {
     # Copia ligera (240p y audio bajo) solo para mirar: los clips se cortan despues de la fuente original.
     # YouTube ya casi no ofrece formatos con video y audio juntos, y "worst" puede caer en un storyboard: se pide cada pista.
     # Solo por https (DASH): los formatos m3u8 (HLS) van limitados por debajo del tiempo real y la descarga parece colgada.
-    YtDlp @('--no-playlist', '-f', ('bv*[height<=360][height>=240][vcodec^=avc1][protocol=https]+wa[protocol=https]/' +
-        'bv*[height<=360][protocol=https]+wa[protocol=https]/bv*[height<=360]+wa'),
-        '--merge-output-format', 'mp4', '-o', (Join-Path $dir 'baja.%(ext)s'), $Url)
+    # Kick y Twitch sirven el video en miles de fragmentos HLS: se bajan 8 a la vez (a YouTube no, por los 429)
+    $paralelo = if ($Url -match 'youtube\.com|youtu\.be') { @() } else { @('-N', '8') }
+    YtDlp (@('--no-playlist') + $paralelo + @('-f', ('bv*[height<=360][height>=240][vcodec^=avc1][protocol=https]+wa[protocol=https]/' +
+        'bv*[height<=360][protocol=https]+wa[protocol=https]/bv*[height<=360]+wa/b[height<=240]/worst'),
+        '--merge-output-format', 'mp4', '-o', (Join-Path $dir 'baja.%(ext)s'), $Url))
     $baja = Get-ChildItem $dir -Filter 'baja.*' | Select-Object -First 1
     if (-not $baja) { throw 'No se pudo descargar la copia ligera' }
     # Lo que queda no usa la red
-    $candado.ReleaseMutex()
+    SoltarCandado
     $trabajo = $dir
     Copy-Item -Force (Join-Path $env:WINDIR 'Fonts\arialbd.ttf') (Join-Path $dir 'arialbd.ttf')
     # La marca se dibuja antes de muestrear: asi cada fotograma lleva su propio tiempo. Con fps primero, la marca
@@ -378,7 +387,7 @@ if ($Accion -eq 'analizar') {
             $audio = Get-ChildItem $dir -Filter 'audio.*' | Select-Object -First 1
             if (-not $audio) { throw 'No se pudo descargar el audio para transcribir' }
             # Lo que queda no usa la red: se libera el candado para que la transcripcion no bloquee otras llamadas
-            $candado.ReleaseMutex()
+            SoltarCandado
             $trabajo = $dir
             FfmpegLog @('-y', '-i', $audio.Name, '-vn', '-ar', '16000', '-ac', '1', '-c:a', 'pcm_s16le', 'audio16.wav') 'audio16.txt' | Out-Null
             $hilos = [math]::Max(1, [math]::Min(8, [Environment]::ProcessorCount - 2))
@@ -502,6 +511,27 @@ try {
         '--download-sections', "*$(Num $ini)-$(Num $fin)", '--force-keyframes-at-cuts', '-o', (Join-Path $trabajo 'seccion.%(ext)s'), $Url)
     $video = Get-ChildItem $trabajo -Filter 'seccion.*' | Select-Object -First 1
     if (-not $video) { throw 'yt-dlp no produjo el video de la seccion' }
+
+    # -Subs whisper: transcribe solo el tramo del clip (segundos, no horas), para fuentes sin subtitulos.
+    # Las palabras se guardan junto a la fuente (palabras-whisper.json) para poder corregirlas con palabras-rev.json y -Subs rev.
+    if ($Subs -eq 'whisper') {
+        $whisper = Join-Path $bin 'whisper\whisper-cli.exe'
+        $modelo = Get-ChildItem (Join-Path $raiz 'herramientas\modelos') -Filter 'ggml-*.bin' -ErrorAction SilentlyContinue | Select-Object -First 1
+        if (-not ((Test-Path $whisper) -and $modelo)) { throw 'Falta whisper: powershell -NoProfile -ExecutionPolicy Bypass -File herramientas/instalar.ps1 -Solo whisper' }
+        SoltarCandado
+        FfmpegLog @('-y', '-i', $video.Name, '-vn', '-ar', '16000', '-ac', '1', '-c:a', 'pcm_s16le', 'voz.wav') 'voz.txt' | Out-Null
+        $hilos = [math]::Max(1, [math]::Min(8, [Environment]::ProcessorCount - 2))
+        & $whisper -m $modelo.FullName -f (Join-Path $trabajo 'voz.wav') -l es -t $hilos -ml 1 -sow -oj -of (Join-Path $trabajo 'voz') -np | Out-Null
+        if ($LASTEXITCODE -ne 0) { throw "whisper termino con codigo $LASTEXITCODE" }
+        $w = LeerJson (Join-Path $trabajo 'voz.json')
+        $palabras = @($w.transcription | Where-Object { $_.text -and $_.text.Trim() -and $_.text.Trim() -notmatch '^[\[\(].*[\]\)]$' } | ForEach-Object {
+            [pscustomobject]@{ t = [math]::Round($ini + [double]$_.offsets.from / 1000.0, 2); w = $_.text.Trim() }
+        })
+        $rutaW = Join-Path (Join-Path $fuentes $vid) 'palabras-whisper.json'
+        New-Item -ItemType Directory -Force (Split-Path $rutaW) | Out-Null
+        $previas = if (Test-Path $rutaW) { @(LeerJson $rutaW | Where-Object { $_.t -lt $ini -or $_.t -ge $fin }) } else { @() }
+        EscribirJson $rutaW @(@($previas) + $palabras | Sort-Object t) -Compacto
+    }
 
     # Subtitulos estilo clip (bloques de hasta 3 palabras, mayusculas) y gancho fijo arriba
     $eventos = New-Object Collections.Generic.List[string]
