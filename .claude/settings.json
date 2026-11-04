@@ -8,7 +8,9 @@
       "PowerShell(powershell -NoProfile -ExecutionPolicy Bypass -File legion/01-cazador-viral/recolectar.ps1)",
       "PowerShell(powershell -NoProfile -ExecutionPolicy Bypass -File legion/01-cazador-viral/recolectar.ps1 *)",
       "PowerShell(powershell -NoProfile -ExecutionPolicy Bypass -File legion/02-clipero/clipero.ps1 *)",
-      "PowerShell(powershell -NoProfile -ExecutionPolicy Bypass -File legion/03-publicador/publicar.ps1 *)"
+      "PowerShell(powershell -NoProfile -ExecutionPolicy Bypass -File legion/03-publicador/publicar.ps1 *)",
+      "PowerShell(powershell -NoProfile -ExecutionPolicy Bypass -File herramientas/instalar.ps1)",
+      "PowerShell(powershell -NoProfile -ExecutionPolicy Bypass -File herramientas/instalar.ps1 *)"
     ],
     "deny": [
       "Read(~/.legion/**)",

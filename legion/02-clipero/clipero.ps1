@@ -194,6 +194,28 @@ function Normalizar([string]$entrada) {
     $res
 }
 
+# Transcripcion local con whisper.cpp. Devuelve palabras con su tiempo (s) o $null si whisper no esta instalado.
+# whisper.cpp no abre rutas con caracteres fuera de ASCII (la carpeta del proyecto lleva tilde): se lanza desde la raiz
+# del proyecto con rutas relativas. Va a unas 0,8 veces el tiempo real en esta CPU: para clips, no para directos enteros.
+function Transcribir([string]$wav, [string]$base, [string]$lang = 'es') {
+    $exe = Join-Path $bin 'whisper\whisper-cli.exe'
+    $modelo = Get-ChildItem (Join-Path $raiz 'herramientas\modelos') -Filter 'ggml-*.bin' -ErrorAction SilentlyContinue | Select-Object -First 1
+    if (-not ((Test-Path $exe) -and $modelo)) { return $null }
+    $hilos = [math]::Max(1, [math]::Min(8, [Environment]::ProcessorCount - 2))
+    # -ml 1 -sow: un segmento por palabra, con su tiempo; -np: sin registro por consola
+    $p = Start-Process -FilePath $exe -WorkingDirectory $raiz -NoNewWindow -Wait -PassThru `
+        -RedirectStandardError "$base.err.txt" -RedirectStandardOutput "$base.out.txt" -ArgumentList @(
+            '-m', "herramientas\modelos\$($modelo.Name)", '-f', ((Relativa $wav) -replace '/', '\'), '-l', $lang,
+            '-t', "$hilos", '-ml', '1', '-sow', '-oj', '-of', ((Relativa $base) -replace '/', '\'), '-np')
+    if ($p.ExitCode -ne 0) { throw "whisper termino con codigo $($p.ExitCode): $((Get-Content "$base.err.txt" -Tail 3) -join ' | ')" }
+    $w = LeerJson "$base.json"
+    Remove-Item "$base.json", "$base.err.txt", "$base.out.txt" -ErrorAction SilentlyContinue
+    # Fuera los marcadores que no son habla: [_BEG_], [Musica], (aplausos)...
+    , @($w.transcription | Where-Object { $_.text -and $_.text.Trim() -and $_.text.Trim() -notmatch '^[\[\(].*[\]\)]$' } | ForEach-Object {
+        [pscustomobject]@{ t = [math]::Round([double]$_.offsets.from / 1000.0, 2); w = $_.text.Trim() }
+    })
+}
+
 # Campos de la extraccion completa (buscar -Detalle y canal)
 $camposDetalle = '%(.{id,title,channel,channel_url,channel_follower_count,duration,view_count,like_count,comment_count,timestamp,live_status,webpage_url})j'
 
@@ -378,36 +400,28 @@ if ($Accion -eq 'analizar') {
     # Sin subtitulos en el idioma original (Kick, Twitch, Instagram, TikTok o YouTube sin automaticos):
     # se transcribe el audio en local con whisper.cpp, si esta instalado
     $origenTexto = if ($subsListos -contains 'orig') { 'subtitulos de la plataforma' } else { $null }
-    if (-not $origenTexto) {
-        $whisper = Join-Path $bin 'whisper\whisper-cli.exe'
-        $modelo = Get-ChildItem (Join-Path $raiz 'herramientas\modelos') -Filter 'ggml-*.bin' -ErrorAction SilentlyContinue | Select-Object -First 1
-        if ((Test-Path $whisper) -and $modelo) {
-            Remove-Item (Join-Path $dir 'audio*') -ErrorAction SilentlyContinue
-            YtDlp @('--no-playlist', '-f', 'bestaudio/worst', '-o', (Join-Path $dir 'audio.%(ext)s'), $Url)
-            $audio = Get-ChildItem $dir -Filter 'audio.*' | Select-Object -First 1
-            if (-not $audio) { throw 'No se pudo descargar el audio para transcribir' }
-            # Lo que queda no usa la red: se libera el candado para que la transcripcion no bloquee otras llamadas
-            SoltarCandado
-            $trabajo = $dir
-            FfmpegLog @('-y', '-i', $audio.Name, '-vn', '-ar', '16000', '-ac', '1', '-c:a', 'pcm_s16le', 'audio16.wav') 'audio16.txt' | Out-Null
-            $hilos = [math]::Max(1, [math]::Min(8, [Environment]::ProcessorCount - 2))
-            $t0 = Get-Date
-            # -ml 1 -sow: un segmento por palabra, con su tiempo; -np: sin registro por consola
-            & $whisper -m $modelo.FullName -f (Join-Path $dir 'audio16.wav') -l $idioma -t $hilos -ml 1 -sow -oj -of (Join-Path $dir 'whisper') -np | Out-Null
-            if ($LASTEXITCODE -ne 0) { throw "whisper termino con codigo $LASTEXITCODE" }
-            $w = LeerJson (Join-Path $dir 'whisper.json')
-            # Fuera los marcadores que no son habla: [_BEG_], [Musica], (aplausos)...
-            $palabras = @($w.transcription | Where-Object { $_.text -and $_.text.Trim() -and $_.text.Trim() -notmatch '^[\[\(].*[\]\)]$' } | ForEach-Object {
-                [pscustomobject]@{ t = [math]::Round([double]$_.offsets.from / 1000.0, 2); w = $_.text.Trim() }
-            })
-            EscribirJson (Join-Path $dir 'palabras.json') $palabras -Compacto
-            [IO.File]::WriteAllLines((Join-Path $dir 'transcripcion.txt'), [string[]](Transcripcion $palabras), $utf8)
-            $subsListos += 'orig'
-            $origenTexto = "whisper $($modelo.BaseName), $([int]((Get-Date) - $t0).TotalMinutes) min: revisar nombres y cifras"
-            Remove-Item (Join-Path $dir 'audio*'), (Join-Path $dir 'whisper.json') -ErrorAction SilentlyContinue
-        } else {
-            $origenTexto = 'ninguno: la fuente no tiene subtitulos y whisper no esta instalado (herramientas/instalar.ps1)'
-        }
+    $hayWhisper = (Test-Path (Join-Path $bin 'whisper\whisper-cli.exe')) -and (Get-ChildItem (Join-Path $raiz 'herramientas\modelos') -Filter 'ggml-*.bin' -ErrorAction SilentlyContinue)
+    if (-not $origenTexto -and -not $hayWhisper) {
+        $origenTexto = 'ninguno: la fuente no tiene subtitulos y whisper no esta instalado (herramientas/instalar.ps1)'
+    } elseif (-not $origenTexto -and [double]$info.duration -gt 1800) {
+        # Un directo entero tardaria horas: mejor elegir tramos con vistazo y transcribir solo esos con cortar -Subs whisper
+        $origenTexto = 'ninguno: sin subtitulos y dura mas de 30 min; usar vistazo y cortar -Subs whisper'
+    } elseif (-not $origenTexto) {
+        Remove-Item (Join-Path $dir 'audio*') -ErrorAction SilentlyContinue
+        YtDlp @('--no-playlist', '-f', 'bestaudio/worst', '-o', (Join-Path $dir 'audio.%(ext)s'), $Url)
+        $audio = Get-ChildItem $dir -Filter 'audio.*' | Select-Object -First 1
+        if (-not $audio) { throw 'No se pudo descargar el audio para transcribir' }
+        # Lo que queda no usa la red: se libera el candado para que la transcripcion no bloquee otras llamadas
+        SoltarCandado
+        $trabajo = $dir
+        FfmpegLog @('-y', '-i', $audio.Name, '-vn', '-ar', '16000', '-ac', '1', '-c:a', 'pcm_s16le', 'audio16.wav') 'audio16.txt' | Out-Null
+        $t0 = Get-Date
+        $palabras = Transcribir (Join-Path $dir 'audio16.wav') (Join-Path $dir 'whisper') $idioma
+        EscribirJson (Join-Path $dir 'palabras.json') $palabras -Compacto
+        [IO.File]::WriteAllLines((Join-Path $dir 'transcripcion.txt'), [string[]](Transcripcion $palabras), $utf8)
+        $subsListos += 'orig'
+        $origenTexto = "whisper, $([int]((Get-Date) - $t0).TotalMinutes) min: revisar nombres y cifras"
+        Remove-Item (Join-Path $dir 'audio*') -ErrorAction SilentlyContinue
     }
 
     # Picos del grafico "mas repetido" (heatmap): maximos locales, sin contar el arranque del video
@@ -515,18 +529,12 @@ try {
     # -Subs whisper: transcribe solo el tramo del clip (segundos, no horas), para fuentes sin subtitulos.
     # Las palabras se guardan junto a la fuente (palabras-whisper.json) para poder corregirlas con palabras-rev.json y -Subs rev.
     if ($Subs -eq 'whisper') {
-        $whisper = Join-Path $bin 'whisper\whisper-cli.exe'
-        $modelo = Get-ChildItem (Join-Path $raiz 'herramientas\modelos') -Filter 'ggml-*.bin' -ErrorAction SilentlyContinue | Select-Object -First 1
-        if (-not ((Test-Path $whisper) -and $modelo)) { throw 'Falta whisper: powershell -NoProfile -ExecutionPolicy Bypass -File herramientas/instalar.ps1 -Solo whisper' }
         SoltarCandado
         FfmpegLog @('-y', '-i', $video.Name, '-vn', '-ar', '16000', '-ac', '1', '-c:a', 'pcm_s16le', 'voz.wav') 'voz.txt' | Out-Null
-        $hilos = [math]::Max(1, [math]::Min(8, [Environment]::ProcessorCount - 2))
-        & $whisper -m $modelo.FullName -f (Join-Path $trabajo 'voz.wav') -l es -t $hilos -ml 1 -sow -oj -of (Join-Path $trabajo 'voz') -np | Out-Null
-        if ($LASTEXITCODE -ne 0) { throw "whisper termino con codigo $LASTEXITCODE" }
-        $w = LeerJson (Join-Path $trabajo 'voz.json')
-        $palabras = @($w.transcription | Where-Object { $_.text -and $_.text.Trim() -and $_.text.Trim() -notmatch '^[\[\(].*[\]\)]$' } | ForEach-Object {
-            [pscustomobject]@{ t = [math]::Round($ini + [double]$_.offsets.from / 1000.0, 2); w = $_.text.Trim() }
-        })
+        $locales = Transcribir (Join-Path $trabajo 'voz.wav') (Join-Path $trabajo 'voz') 'es'
+        if ($null -eq $locales) { throw 'Falta whisper: powershell -NoProfile -ExecutionPolicy Bypass -File herramientas/instalar.ps1 -Solo whisper' }
+        # Los tiempos de whisper cuentan desde el inicio del tramo descargado
+        $palabras = @($locales | ForEach-Object { [pscustomobject]@{ t = [math]::Round($ini + $_.t, 2); w = $_.w } })
         $rutaW = Join-Path (Join-Path $fuentes $vid) 'palabras-whisper.json'
         New-Item -ItemType Directory -Force (Split-Path $rutaW) | Out-Null
         $previas = if (Test-Path $rutaW) { @(LeerJson $rutaW | Where-Object { $_.t -lt $ini -or $_.t -ge $fin }) } else { @() }
