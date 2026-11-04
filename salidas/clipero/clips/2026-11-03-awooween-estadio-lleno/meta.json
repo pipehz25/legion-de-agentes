@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-03-awooween-estadio-lleno",
+    "url_fuente":  "https://www.youtube.com/watch?v=Z1VUghXaEIM",
+    "video_id":  "Z1VUghXaEIM",
+    "inicio":  903,
+    "fin":  948,
+    "inicio_hms":  "0:15:03",
+    "duracion_seg":  45,
+    "gancho":  "Así se vivió el Awooween en El Campín",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -9.58,
+                  "entrada_tp":  -0.31,
+                  "salida_lufs":  -13.98,
+                  "salida_tp":  -4.73
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-03-awooween-estadio-lleno/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-03-awooween-estadio-lleno/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-03-awooween-estadio-lleno/revision.jpg",
+    "creado":  "2026-11-03T22:10:44.2167436-05:00"
+}

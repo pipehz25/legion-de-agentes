@@ -293,7 +293,9 @@ if ($Accion -eq 'vistazo') {
     $candado.ReleaseMutex()
     $trabajo = $dir
     Copy-Item -Force (Join-Path $env:WINDIR 'Fonts\arialbd.ttf') (Join-Path $dir 'arialbd.ttf')
-    $vf = "fps=1/$($Cada),scale=320:-2,drawtext=fontfile=arialbd.ttf:text='%{pts\:hms}':x=6:y=6:fontsize=22:fontcolor=white:box=1:boxcolor=black@0.6,tile=6x5"
+    # La marca se dibuja antes de muestrear: asi cada fotograma lleva su propio tiempo. Con fps primero, la marca
+    # salia ~Cada/2 s por delante de la imagen.
+    $vf = "scale=320:-2,drawtext=fontfile=arialbd.ttf:text='%{pts\:hms}':x=6:y=6:fontsize=22:fontcolor=white:box=1:boxcolor=black@0.6,fps=1/$($Cada),tile=6x5"
     FfmpegLog @('-y', '-i', $baja.Name, '-an', '-vf', $vf, '-fps_mode', 'vfr', '-q:v', '4', 'vistazo-%02d.jpg') 'vistazo.txt' | Out-Null
     # Sonoridad a corto plazo (3 s) promediada por tramos de 10 s. En un concierto, los tramos bajos suelen ser
     # el artista hablando entre canciones; los altos, el publico o un momento fuerte.

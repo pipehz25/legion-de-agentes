@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-03-awooween-fuegos-final",
+    "url_fuente":  "https://www.youtube.com/watch?v=Z1VUghXaEIM",
+    "video_id":  "Z1VUghXaEIM",
+    "inicio":  2618,
+    "fin":  2663,
+    "inicio_hms":  "0:43:38",
+    "duracion_seg":  45,
+    "gancho":  "Fuegos artificiales en el Awooween de Ryan Castro",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -9.68,
+                  "entrada_tp":  0.31,
+                  "salida_lufs":  -13.95,
+                  "salida_tp":  -4.01
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-03-awooween-fuegos-final/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-03-awooween-fuegos-final/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-03-awooween-fuegos-final/revision.jpg",
+    "creado":  "2026-11-03T22:00:29.9064019-05:00"
+}

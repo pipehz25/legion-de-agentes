@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-03-awooween-a-todo-volumen",
+    "url_fuente":  "https://www.youtube.com/watch?v=Z1VUghXaEIM",
+    "video_id":  "Z1VUghXaEIM",
+    "inicio":  1553,
+    "fin":  1598,
+    "inicio_hms":  "0:25:53",
+    "duracion_seg":  45,
+    "gancho":  "El Campín a todo volumen en el Awooween",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -8.83,
+                  "entrada_tp":  0.35,
+                  "salida_lufs":  -13.97,
+                  "salida_tp":  -4.82
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-03-awooween-a-todo-volumen/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-03-awooween-a-todo-volumen/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-03-awooween-a-todo-volumen/revision.jpg",
+    "creado":  "2026-11-03T22:14:35.3820623-05:00"
+}

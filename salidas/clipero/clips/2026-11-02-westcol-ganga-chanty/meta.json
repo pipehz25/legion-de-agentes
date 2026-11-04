@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-02-westcol-ganga-chanty",
+    "url_fuente":  "https://www.youtube.com/watch?v=8L8CP3xe3Qo",
+    "video_id":  "8L8CP3xe3Qo",
+    "inicio":  181.97,
+    "fin":  227.82,
+    "inicio_hms":  "0:03:01",
+    "duracion_seg":  45.9,
+    "gancho":  "Westcol: la ganga sin su líder",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  172,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -22.28,
+                  "entrada_tp":  -12.18,
+                  "salida_lufs":  -13.96,
+                  "salida_tp":  -3.96
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-02-westcol-ganga-chanty/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-02-westcol-ganga-chanty/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-02-westcol-ganga-chanty/revision.jpg",
+    "creado":  "2026-11-03T22:17:04.5499118-05:00"
+}
