@@ -1,0 +1,27 @@
+{
+    "id":  "2026-11-04-westcol-robot-permiso-tienda",
+    "url_fuente":  "https://www.youtube.com/watch?v=Xrwm98iaWY8",
+    "video_id":  "Xrwm98iaWY8",
+    "inicio":  1198.29,
+    "fin":  1215.14,
+    "inicio_hms":  "0:19:58",
+    "duracion_seg":  16.9,
+    "gancho":  "¿Dejan entrar robots a esta tienda?",
+    "subtitulos":  "ampliacion",
+    "palabras_subtituladas":  59,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -14.57,
+                  "entrada_tp":  -1.89,
+                  "salida_lufs":  -14,
+                  "salida_tp":  -1.25,
+                  "medicion_mp4_final":  true
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-04-westcol-robot-permiso-tienda/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-04-westcol-robot-permiso-tienda/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-04-westcol-robot-permiso-tienda/revision.jpg",
+    "creado":  "2026-11-04T19:58:28.2164174-05:00"
+}

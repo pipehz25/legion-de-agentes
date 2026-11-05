@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-03-sf5-pelea-ganga",
+    "url_fuente":  "https://www.youtube.com/watch?v=hc_eHyGrndY",
+    "video_id":  "hc_eHyGrndY",
+    "inicio":  756.19,
+    "fin":  811.64,
+    "inicio_hms":  "0:12:36",
+    "duracion_seg":  55.5,
+    "gancho":  "Westcol: ¿quién gana la pelea de la ganga?",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  182,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -21.91,
+                  "entrada_tp":  -13.64,
+                  "salida_lufs":  -13.98,
+                  "salida_tp":  -5.75
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-03-sf5-pelea-ganga/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-03-sf5-pelea-ganga/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-03-sf5-pelea-ganga/revision.jpg",
+    "creado":  "2026-11-03T22:28:43.8955405-05:00"
+}

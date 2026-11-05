@@ -1,0 +1,27 @@
+{
+    "id":  "2026-11-04-westcol-ingles-noruega",
+    "url_fuente":  "https://www.youtube.com/watch?v=Xrwm98iaWY8",
+    "video_id":  "Xrwm98iaWY8",
+    "inicio":  2977.25,
+    "fin":  3000,
+    "inicio_hms":  "0:49:37",
+    "duracion_seg":  22.8,
+    "gancho":  "¿Existe el inglés de Noruega?",
+    "subtitulos":  "ampliacion",
+    "palabras_subtituladas":  52,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14.3,
+                  "limitador":  true,
+                  "entrada_lufs":  -18.36,
+                  "entrada_tp":  -5.13,
+                  "salida_lufs":  -14.31,
+                  "salida_tp":  -1.01,
+                  "medicion_mp4_final":  true
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-04-westcol-ingles-noruega/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-04-westcol-ingles-noruega/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-04-westcol-ingles-noruega/revision.jpg",
+    "creado":  "2026-11-04T20:16:11.8016528-05:00"
+}

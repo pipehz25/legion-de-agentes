@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-04-westcol-lambo-pierde-plata",
+    "url_fuente":  "https://www.youtube.com/watch?v=AiBzbElWaow",
+    "video_id":  "AiBzbElWaow",
+    "inicio":  697.13,
+    "fin":  744.38,
+    "inicio_hms":  "0:11:37",
+    "duracion_seg":  47.3,
+    "gancho":  "Westcol: por qué no compra el Lambo",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  164,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -22.33,
+                  "entrada_tp":  -14.3,
+                  "salida_lufs":  -13.99,
+                  "salida_tp":  -6
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-04-westcol-lambo-pierde-plata/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-04-westcol-lambo-pierde-plata/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-04-westcol-lambo-pierde-plata/revision.jpg",
+    "creado":  "2026-11-04T15:58:23.3465686-05:00"
+}

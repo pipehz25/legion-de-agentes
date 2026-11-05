@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-03-westcol-talento-sin-padre",
+    "url_fuente":  "https://www.youtube.com/watch?v=jYUMEg0M570",
+    "video_id":  "jYUMEg0M570",
+    "inicio":  1580.69,
+    "fin":  1653.54,
+    "inicio_hms":  "0:26:20",
+    "duracion_seg":  72.9,
+    "gancho":  "Westcol y el talento de barrio sin papá",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  250,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -22.91,
+                  "entrada_tp":  -14.29,
+                  "salida_lufs":  -13.91,
+                  "salida_tp":  -5.6
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-03-westcol-talento-sin-padre/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-03-westcol-talento-sin-padre/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-03-westcol-talento-sin-padre/revision.jpg",
+    "creado":  "2026-11-03T22:51:45.3620137-05:00"
+}

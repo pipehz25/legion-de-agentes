@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-03-chanty-pagos-disfraces",
+    "url_fuente":  "https://www.youtube.com/watch?v=In4GYQNFCnk",
+    "video_id":  "In4GYQNFCnk",
+    "inicio":  188.21,
+    "fin":  216.7,
+    "inicio_hms":  "0:03:08",
+    "duracion_seg":  28.5,
+    "gancho":  "The Chanty: lo que gasta en disfraces",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  135,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -25.07,
+                  "entrada_tp":  -12.32,
+                  "salida_lufs":  -13.92,
+                  "salida_tp":  -1.25
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-03-chanty-pagos-disfraces/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-03-chanty-pagos-disfraces/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-03-chanty-pagos-disfraces/revision.jpg",
+    "creado":  "2026-11-03T23:40:36.6704950-05:00"
+}

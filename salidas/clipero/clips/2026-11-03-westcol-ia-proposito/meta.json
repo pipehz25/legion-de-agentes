@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-03-westcol-ia-proposito",
+    "url_fuente":  "https://www.youtube.com/watch?v=UUxoaLXE3CE",
+    "video_id":  "UUxoaLXE3CE",
+    "inicio":  816.89,
+    "fin":  883.5,
+    "inicio_hms":  "0:13:36",
+    "duracion_seg":  66.6,
+    "gancho":  "Westcol: «No quiero saber mi propósito»",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  198,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -22.86,
+                  "entrada_tp":  -14.47,
+                  "salida_lufs":  -13.89,
+                  "salida_tp":  -5.64
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-03-westcol-ia-proposito/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-03-westcol-ia-proposito/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-03-westcol-ia-proposito/revision.jpg",
+    "creado":  "2026-11-03T23:19:19.0036981-05:00"
+}

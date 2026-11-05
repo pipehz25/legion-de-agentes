@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-04-rr-autos-beneficios-tributarios",
+    "url_fuente":  "https://www.youtube.com/watch?v=KhuFp9eIyVU",
+    "video_id":  "KhuFp9eIyVU",
+    "inicio":  294.09,
+    "fin":  340.1,
+    "inicio_hms":  "0:04:54",
+    "duracion_seg":  46,
+    "gancho":  "¿Un Lamborghini por beneficios tributarios?",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  145,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -12.99,
+                  "entrada_tp":  -0.44,
+                  "salida_lufs":  -13.83,
+                  "salida_tp":  -1.45
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-04-rr-autos-beneficios-tributarios/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-04-rr-autos-beneficios-tributarios/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-04-rr-autos-beneficios-tributarios/revision.jpg",
+    "creado":  "2026-11-04T16:39:55.2693784-05:00"
+}

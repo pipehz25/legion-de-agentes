@@ -1,0 +1,28 @@
+{
+    "id":  "2026-11-04-westcol-robot-busca-cama",
+    "url_fuente":  "https://www.youtube.com/watch?v=Xrwm98iaWY8",
+    "video_id":  "Xrwm98iaWY8",
+    "inicio":  3084.49,
+    "fin":  3121.3,
+    "inicio_hms":  "0:51:24",
+    "duracion_seg":  36.8,
+    "gancho":  "Ahora el robot también necesita una cama",
+    "subtitulos":  "ampliacion",
+    "palabras_subtituladas":  67,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14.4,
+                  "limitador":  true,
+                  "entrada_lufs":  -20.09,
+                  "entrada_tp":  -6.69,
+                  "salida_lufs":  -14.91,
+                  "salida_tp":  -1.43,
+                  "medicion_mp4_final":  true,
+                  "ajuste_final_db":  "-0.5"
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-04-westcol-robot-busca-cama/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-04-westcol-robot-busca-cama/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-04-westcol-robot-busca-cama/revision.jpg",
+    "creado":  "2026-11-04T20:10:35.2352547-05:00"
+}

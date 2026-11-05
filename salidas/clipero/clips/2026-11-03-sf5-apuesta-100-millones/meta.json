@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-03-sf5-apuesta-100-millones",
+    "url_fuente":  "https://www.youtube.com/watch?v=hc_eHyGrndY",
+    "video_id":  "hc_eHyGrndY",
+    "inicio":  601.99,
+    "fin":  627.12,
+    "inicio_hms":  "0:10:01",
+    "duracion_seg":  25.1,
+    "gancho":  "Westcol: la apuesta de 100 millones",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  105,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -21.99,
+                  "entrada_tp":  -13.37,
+                  "salida_lufs":  -13.94,
+                  "salida_tp":  -5.38
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-03-sf5-apuesta-100-millones/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-03-sf5-apuesta-100-millones/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-03-sf5-apuesta-100-millones/revision.jpg",
+    "creado":  "2026-11-03T23:11:34.4760585-05:00"
+}

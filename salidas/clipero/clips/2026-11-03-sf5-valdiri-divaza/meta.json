@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-03-sf5-valdiri-divaza",
+    "url_fuente":  "https://www.youtube.com/watch?v=hc_eHyGrndY",
+    "video_id":  "hc_eHyGrndY",
+    "inicio":  52.09,
+    "fin":  82.3,
+    "inicio_hms":  "0:00:52",
+    "duracion_seg":  30.2,
+    "gancho":  "Westcol: la Valdiri casi no pelea",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  102,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -22.27,
+                  "entrada_tp":  -13.88,
+                  "salida_lufs":  -13.97,
+                  "salida_tp":  -5.61
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-03-sf5-valdiri-divaza/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-03-sf5-valdiri-divaza/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-03-sf5-valdiri-divaza/revision.jpg",
+    "creado":  "2026-11-03T22:45:58.2091702-05:00"
+}

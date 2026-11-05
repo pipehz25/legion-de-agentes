@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-03-westcol-obsesionado-futuro",
+    "url_fuente":  "https://www.youtube.com/watch?v=jYUMEg0M570",
+    "video_id":  "jYUMEg0M570",
+    "inicio":  1669.37,
+    "fin":  1731.06,
+    "inicio_hms":  "0:27:49",
+    "duracion_seg":  61.7,
+    "gancho":  "Westcol: ¿está mal pensar en tu futuro?",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  240,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -23.04,
+                  "entrada_tp":  -14.39,
+                  "salida_lufs":  -13.95,
+                  "salida_tp":  -5.41
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-03-westcol-obsesionado-futuro/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-03-westcol-obsesionado-futuro/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-03-westcol-obsesionado-futuro/revision.jpg",
+    "creado":  "2026-11-03T23:09:59.5081306-05:00"
+}

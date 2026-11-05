@@ -1,24 +1,1503 @@
 {
-    "generado":  "2026-11-03T22:20:00-05:00",
-    "ciclo":  5,
+    "generado":  "2026-11-04T21:50:00-05:00",
+    "ciclo":  8,
     "clips":  [
-                  { "id": "2026-11-03-awooween-fuegos-final", "estado": "listo", "tipo": "emotivo", "puntaje": 74, "gancho": "Fuegos artificiales en el Awooween de Ryan Castro", "archivo": "salidas/clipero/clips/2026-11-03-awooween-fuegos-final/clip.mp4", "ficha": "salidas/clipero/clips/2026-11-03-awooween-fuegos-final/ficha.md", "duracion_seg": 45.0, "fuente": { "url": "https://youtu.be/Z1VUghXaEIM?t=2618", "canal": "La Vuelta Reacciones", "inicio": 2618, "fin": 2663 }, "oportunidad_cazador": "tema-awooween-ryan-castro-campin", "orden_en_fuente": 1, "derechos": "sin_verificar", "plataformas": ["tiktok", "instagram", "youtube"], "ventana_hasta": "2026-11-04" },
-                  { "id": "2026-11-03-awooween-estadio-lleno", "estado": "listo", "tipo": "reaccion", "puntaje": 70, "gancho": "Así se vivió el Awooween en El Campín", "archivo": "salidas/clipero/clips/2026-11-03-awooween-estadio-lleno/clip.mp4", "ficha": "salidas/clipero/clips/2026-11-03-awooween-estadio-lleno/ficha.md", "duracion_seg": 45.0, "fuente": { "url": "https://youtu.be/Z1VUghXaEIM?t=903", "canal": "La Vuelta Reacciones", "inicio": 903, "fin": 948 }, "oportunidad_cazador": "tema-awooween-ryan-castro-campin", "orden_en_fuente": 2, "derechos": "sin_verificar", "plataformas": ["tiktok", "instagram", "youtube"], "ventana_hasta": "2026-11-04" },
-                  { "id": "2026-11-03-awooween-a-todo-volumen", "estado": "listo", "tipo": "reaccion", "puntaje": 69, "gancho": "El Campín a todo volumen en el Awooween", "archivo": "salidas/clipero/clips/2026-11-03-awooween-a-todo-volumen/clip.mp4", "ficha": "salidas/clipero/clips/2026-11-03-awooween-a-todo-volumen/ficha.md", "duracion_seg": 45.0, "fuente": { "url": "https://youtu.be/Z1VUghXaEIM?t=1553", "canal": "La Vuelta Reacciones", "inicio": 1553, "fin": 1598 }, "oportunidad_cazador": "tema-awooween-ryan-castro-campin", "orden_en_fuente": 3, "derechos": "sin_verificar", "plataformas": ["tiktok", "instagram", "youtube"], "ventana_hasta": "2026-11-04" },
-                  { "id": "2026-11-03-awooween-arranque", "estado": "propuesto", "tipo": "reaccion", "puntaje": 59, "gancho": "El arranque del Awooween en El Campín", "archivo": "salidas/clipero/clips/2026-11-03-awooween-arranque/clip.mp4", "ficha": "salidas/clipero/clips/2026-11-03-awooween-arranque/ficha.md", "duracion_seg": 44.5, "fuente": { "url": "https://youtu.be/Z1VUghXaEIM?t=20", "canal": "La Vuelta Reacciones", "inicio": 20.5, "fin": 65 }, "oportunidad_cazador": "tema-awooween-ryan-castro-campin", "orden_en_fuente": 4, "derechos": "sin_verificar", "plataformas": ["tiktok", "instagram", "youtube"], "ventana_hasta": "2026-11-04" },
-                  { "id": "2026-11-02-westcol-ganga-chanty", "estado": "listo", "tipo": "humor", "puntaje": 68, "gancho": "Westcol: la ganga sin su líder", "archivo": "salidas/clipero/clips/2026-11-02-westcol-ganga-chanty/clip.mp4", "ficha": "salidas/clipero/clips/2026-11-02-westcol-ganga-chanty/ficha.md", "duracion_seg": 45.9, "fuente": { "url": "https://youtu.be/8L8CP3xe3Qo?t=182", "canal": "WestcolClips", "inicio": 181.97, "fin": 227.82 }, "oportunidad_cazador": null, "orden_en_fuente": 5, "derechos": "sin_verificar", "plataformas": ["tiktok", "instagram", "youtube"], "ventana_hasta": "2026-11-05" },
-                  { "id": "2026-11-02-westcol-8-anos-sin-irse", "estado": "listo", "tipo": "revelacion", "puntaje": 74, "gancho": "Westcol vuelve: «nunca me había ido tanto»", "archivo": "salidas/clipero/clips/2026-11-02-westcol-8-anos-sin-irse/clip.mp4", "ficha": "salidas/clipero/clips/2026-11-02-westcol-8-anos-sin-irse/ficha.md", "duracion_seg": 44.1, "fuente": { "url": "https://youtu.be/8L8CP3xe3Qo?t=6", "canal": "WestcolClips", "inicio": 6.89, "fin": 50.94 }, "oportunidad_cazador": null, "orden_en_fuente": 1, "derechos": "sin_verificar", "plataformas": ["tiktok", "instagram", "youtube"], "ventana_hasta": "2026-11-05" },
-                  { "id": "2026-11-02-westcol-motosierra-carton", "estado": "listo", "tipo": "revelacion", "puntaje": 73, "gancho": "Westcol: castigado por una motosierra de cartón", "archivo": "salidas/clipero/clips/2026-11-02-westcol-motosierra-carton/clip.mp4", "ficha": "salidas/clipero/clips/2026-11-02-westcol-motosierra-carton/ficha.md", "duracion_seg": 62.8, "fuente": { "url": "https://youtu.be/OqsKq4thcZA?t=571", "canal": "Clipskick04", "inicio": 571.41, "fin": 634.2 }, "oportunidad_cazador": null, "orden_en_fuente": 1, "derechos": "sin_verificar", "plataformas": ["tiktok", "instagram", "youtube"], "ventana_hasta": "2026-11-04" },
-                  { "id": "2026-11-02-westcol-disfraz-presidente", "estado": "listo", "tipo": "humor", "puntaje": 72, "gancho": "El disfraz que Westcol no usó", "archivo": "salidas/clipero/clips/2026-11-02-westcol-disfraz-presidente/clip.mp4", "ficha": "salidas/clipero/clips/2026-11-02-westcol-disfraz-presidente/ficha.md", "duracion_seg": 32.1, "fuente": { "url": "https://youtu.be/MBotzCroy1Q?t=1303", "canal": "juan diego mm", "inicio": 1303.45, "fin": 1335.54 }, "oportunidad_cazador": null, "orden_en_fuente": 1, "derechos": "sin_verificar", "plataformas": ["tiktok", "instagram", "youtube"], "ventana_hasta": "2026-11-05" },
-                  { "id": "2026-11-02-lonche-seis-cifras", "estado": "listo", "tipo": "revelacion", "puntaje": 72, "gancho": "Lonche: «seis cifras a la semana»", "archivo": "salidas/clipero/clips/2026-11-02-lonche-seis-cifras/clip.mp4", "ficha": "salidas/clipero/clips/2026-11-02-lonche-seis-cifras/ficha.md", "duracion_seg": 52.0, "fuente": { "url": "https://youtu.be/XMLQv5JNuK0?t=429", "canal": "Clipskick04", "inicio": 429.81, "fin": 481.78 }, "oportunidad_cazador": null, "orden_en_fuente": 1, "derechos": "sin_verificar", "plataformas": ["tiktok", "instagram", "youtube"], "ventana_hasta": "2026-11-06" },
-                  { "id": "2026-11-02-westcol-cuerpo-35-anos", "estado": "listo", "tipo": "humor", "puntaje": 71, "gancho": "Westcol: «Mi cuerpo tiene 35 años»", "archivo": "salidas/clipero/clips/2026-11-02-westcol-cuerpo-35-anos/clip.mp4", "ficha": "salidas/clipero/clips/2026-11-02-westcol-cuerpo-35-anos/ficha.md", "duracion_seg": 44.8, "fuente": { "url": "https://youtu.be/MBotzCroy1Q?t=1405", "canal": "juan diego mm", "inicio": 1405.09, "fin": 1449.86 }, "oportunidad_cazador": null, "orden_en_fuente": 2, "derechos": "sin_verificar", "plataformas": ["tiktok", "instagram", "youtube"], "ventana_hasta": "2026-11-06" },
-                  { "id": "2026-11-02-lonche-sueno-americano", "estado": "listo", "tipo": "frase", "puntaje": 71, "gancho": "Lonche y su «sueño americano»", "archivo": "salidas/clipero/clips/2026-11-02-lonche-sueno-americano/clip.mp4", "ficha": "salidas/clipero/clips/2026-11-02-lonche-sueno-americano/ficha.md", "duracion_seg": 43.2, "fuente": { "url": "https://youtu.be/TGZYr7VNzio?t=2568", "canal": "Lonche PRIME", "inicio": 2568.57, "fin": 2611.7 }, "oportunidad_cazador": null, "orden_en_fuente": 1, "derechos": "sin_verificar", "plataformas": ["tiktok", "instagram", "youtube"], "ventana_hasta": "2026-11-06" },
-                  { "id": "2026-11-02-westcol-que-sigue-lonche", "estado": "listo", "tipo": "frase", "puntaje": 70, "gancho": "Westcol: «¿Qué sigue después de Lonche?»", "archivo": "salidas/clipero/clips/2026-11-02-westcol-que-sigue-lonche/clip.mp4", "ficha": "salidas/clipero/clips/2026-11-02-westcol-que-sigue-lonche/ficha.md", "duracion_seg": 23.3, "fuente": { "url": "https://youtu.be/8L8CP3xe3Qo?t=227", "canal": "WestcolClips", "inicio": 227.93, "fin": 251.22 }, "oportunidad_cazador": null, "orden_en_fuente": 2, "derechos": "sin_verificar", "plataformas": ["tiktok", "instagram", "youtube"], "ventana_hasta": "2026-11-05" },
-                  { "id": "2026-11-02-westcol-tweet-conejita", "estado": "listo", "tipo": "humor", "puntaje": 70, "gancho": "Westcol y el tuit de la conejita", "archivo": "salidas/clipero/clips/2026-11-02-westcol-tweet-conejita/clip.mp4", "ficha": "salidas/clipero/clips/2026-11-02-westcol-tweet-conejita/ficha.md", "duracion_seg": 55.4, "fuente": { "url": "https://youtu.be/MBotzCroy1Q?t=1144", "canal": "juan diego mm", "inicio": 1144.97, "fin": 1200.3 }, "oportunidad_cazador": null, "orden_en_fuente": 3, "derechos": "sin_verificar", "plataformas": ["tiktok", "instagram", "youtube"], "ventana_hasta": "2026-11-04" },
-                  { "id": "2026-11-02-westcol-deje-la-hierba", "estado": "listo", "tipo": "revelacion", "puntaje": 67, "gancho": "Westcol: «Yo dejé la hierba»", "archivo": "salidas/clipero/clips/2026-11-02-westcol-deje-la-hierba/clip.mp4", "ficha": "salidas/clipero/clips/2026-11-02-westcol-deje-la-hierba/ficha.md", "duracion_seg": 50.9, "fuente": { "url": "https://youtu.be/OqsKq4thcZA?t=510", "canal": "Clipskick04", "inicio": 510.81, "fin": 561.7 }, "oportunidad_cazador": null, "orden_en_fuente": 2, "derechos": "sin_verificar", "plataformas": ["tiktok", "instagram", "youtube"], "ventana_hasta": "2026-11-05" },
-                  { "id": "2026-11-02-westcol-w-sound-700mil", "estado": "listo", "tipo": "revelacion", "puntaje": 68, "gancho": "Westcol presume los números de la W", "archivo": "salidas/clipero/clips/2026-11-02-westcol-w-sound-700mil/clip.mp4", "ficha": "salidas/clipero/clips/2026-11-02-westcol-w-sound-700mil/ficha.md", "duracion_seg": 61.0, "fuente": { "url": "https://youtu.be/8L8CP3xe3Qo?t=96", "canal": "WestcolClips", "inicio": 96.53, "fin": 157.54 }, "oportunidad_cazador": null, "orden_en_fuente": 3, "derechos": "sin_verificar", "plataformas": ["tiktok", "instagram", "youtube"], "ventana_hasta": "2026-11-06" },
-                  { "id": "2026-11-02-lonche-taco-bell", "estado": "propuesto", "tipo": "frase", "puntaje": 64, "gancho": "Lonche: los mejores tacos son de Taco Bell", "archivo": "salidas/clipero/clips/2026-11-02-lonche-taco-bell/clip.mp4", "ficha": "salidas/clipero/clips/2026-11-02-lonche-taco-bell/ficha.md", "duracion_seg": 16.9, "fuente": { "url": "https://youtu.be/TGZYr7VNzio?t=1249", "canal": "Lonche PRIME", "inicio": 1249.13, "fin": 1266.02 }, "oportunidad_cazador": null, "orden_en_fuente": 2, "derechos": "sin_verificar", "plataformas": ["tiktok", "instagram", "youtube"], "ventana_hasta": "2026-11-06" },
-                  { "id": "2026-11-02-westcol-w-sound-espana", "estado": "listo", "tipo": "humor", "puntaje": 67, "gancho": "Westcol: ¿por qué la W pegó en España?", "archivo": "salidas/clipero/clips/2026-11-02-westcol-w-sound-espana/clip.mp4", "ficha": "salidas/clipero/clips/2026-11-02-westcol-w-sound-espana/ficha.md", "duracion_seg": 63.6, "fuente": { "url": "https://youtu.be/8L8CP3xe3Qo?t=672", "canal": "WestcolClips", "inicio": 672.81, "fin": 736.38 }, "oportunidad_cazador": null, "orden_en_fuente": 4, "derechos": "sin_verificar", "plataformas": ["tiktok", "instagram", "youtube"], "ventana_hasta": "2026-11-06" },
+                  {
+                      "id":  "2026-11-04-westcol-robot-sin-seguridad",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  82,
+                      "gancho":  "Westcol le quitará la seguridad a su robot",
+                      "archivo":  "salidas/clipero/clips/2026-11-04-westcol-robot-sin-seguridad/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-04-westcol-robot-sin-seguridad/ficha.md",
+                      "duracion_seg":  45.1,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/Xrwm98iaWY8?t=35",
+                                     "canal":  "WestCOL",
+                                     "inicio":  35.73,
+                                     "fin":  80.86
+                                 },
+                      "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "orden_en_fuente":  1,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-14"
+                  },
+                  {
+                      "id":  "2026-11-04-westcol-blessd-camioneta",
+                      "estado":  "listo",
+                      "tipo":  "historia",
+                      "puntaje":  82,
+                      "gancho":  "Westcol le dio su camioneta a Blessd",
+                      "archivo":  "salidas/clipero/clips/2026-11-04-westcol-blessd-camioneta/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-04-westcol-blessd-camioneta/ficha.md",
+                      "duracion_seg":  56.9,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/AiBzbElWaow?t=900",
+                                     "canal":  "WestcolClips",
+                                     "inicio":  900.85,
+                                     "fin":  957.7
+                                 },
+                      "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "orden_en_fuente":  1,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-14",
+                      "nota":  "Escuchar antes de publicar: la cifra final (\u0027$25.000\u0027) y \u0027la Tahoe\u0027"
+                  },
+                  {
+                      "id":  "2026-11-04-westcol-blessd-kris-union",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  75,
+                      "gancho":  "Westcol: lo que hay entre Blessd y Kris R",
+                      "archivo":  "salidas/clipero/clips/2026-11-04-westcol-blessd-kris-union/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-04-westcol-blessd-kris-union/ficha.md",
+                      "duracion_seg":  62.3,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/mtt8Q1438ic?t=499",
+                                     "canal":  "WestCOL",
+                                     "inicio":  499.01,
+                                     "fin":  561.3
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  1,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-09"
+                  },
+                  {
+                      "id":  "2026-11-04-westcol-dinero-parqueado",
+                      "estado":  "listo",
+                      "tipo":  "consejo",
+                      "puntaje":  78,
+                      "gancho":  "Westcol: «Me desespera tener dinero parqueado»",
+                      "archivo":  "salidas/clipero/clips/2026-11-04-westcol-dinero-parqueado/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-04-westcol-dinero-parqueado/ficha.md",
+                      "duracion_seg":  36.0,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/AiBzbElWaow?t=826",
+                                     "canal":  "WestcolClips",
+                                     "inicio":  826.33,
+                                     "fin":  862.34
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  2,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-10"
+                  },
+                  {
+                      "id":  "2026-11-04-westcol-inversion-leyendas",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  75,
+                      "gancho":  "Westcol: negocio con dos creadores «leyenda»",
+                      "archivo":  "salidas/clipero/clips/2026-11-04-westcol-inversion-leyendas/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-04-westcol-inversion-leyendas/ficha.md",
+                      "duracion_seg":  35.3,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/AiBzbElWaow?t=769",
+                                     "canal":  "WestcolClips",
+                                     "inicio":  768.97,
+                                     "fin":  804.18
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  3,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-11"
+                  },
+                  {
+                      "id":  "2026-11-04-westcol-batisenal-w",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  74,
+                      "gancho":  "Westcol quiere una batiseñal de la W",
+                      "archivo":  "salidas/clipero/clips/2026-11-04-westcol-batisenal-w/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-04-westcol-batisenal-w/ficha.md",
+                      "duracion_seg":  41.1,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/AiBzbElWaow?t=37",
+                                     "canal":  "WestcolClips",
+                                     "inicio":  37.57,
+                                     "fin":  78.62
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  4,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-09"
+                  },
+                  {
+                      "id":  "2026-11-04-westcol-americano-kris",
+                      "estado":  "listo",
+                      "tipo":  "prediccion",
+                      "puntaje":  73,
+                      "gancho":  "Westcol quiere a El Americano con Kris R",
+                      "archivo":  "salidas/clipero/clips/2026-11-04-westcol-americano-kris/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-04-westcol-americano-kris/ficha.md",
+                      "duracion_seg":  52.2,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/mtt8Q1438ic?t=617",
+                                     "canal":  "WestCOL",
+                                     "inicio":  617.41,
+                                     "fin":  669.58
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  2,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-09"
+                  },
+                  {
+                      "id":  "2026-11-04-westcol-robot-mas-piquete",
+                      "estado":  "listo",
+                      "tipo":  "frase",
+                      "puntaje":  72,
+                      "gancho":  "Westcol: «Ese robot tiene más piquete que todos»",
+                      "archivo":  "salidas/clipero/clips/2026-11-04-westcol-robot-mas-piquete/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-04-westcol-robot-mas-piquete/ficha.md",
+                      "duracion_seg":  26.6,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/Xrwm98iaWY8?t=2643",
+                                     "canal":  "WestCOL",
+                                     "inicio":  2643.89,
+                                     "fin":  2670.5
+                                 },
+                      "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "orden_en_fuente":  2,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-14"
+                  },
+                  {
+                      "id":  "2026-11-04-westcol-lambo-pierde-plata",
+                      "estado":  "listo",
+                      "tipo":  "consejo",
+                      "puntaje":  72,
+                      "gancho":  "Westcol: por qué no compra el Lambo",
+                      "archivo":  "salidas/clipero/clips/2026-11-04-westcol-lambo-pierde-plata/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-04-westcol-lambo-pierde-plata/ficha.md",
+                      "duracion_seg":  47.3,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/AiBzbElWaow?t=697",
+                                     "canal":  "WestcolClips",
+                                     "inicio":  697.13,
+                                     "fin":  744.38
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  5,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-10",
+                      "nota":  "Escuchar antes de publicar: tres \u0027(…)\u0027 y la cifra \u0027$300.000\u0027 sin moneda clara"
+                  },
+                  {
+                      "id":  "2026-11-04-westcol-robot-salto-tienda",
+                      "estado":  "listo",
+                      "tipo":  "reaccion",
+                      "puntaje":  70,
+                      "gancho":  "El robot de Westcol salta en una tienda",
+                      "archivo":  "salidas/clipero/clips/2026-11-04-westcol-robot-salto-tienda/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-04-westcol-robot-salto-tienda/ficha.md",
+                      "duracion_seg":  30.7,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/Xrwm98iaWY8?t=2326",
+                                     "canal":  "WestCOL",
+                                     "inicio":  2326.25,
+                                     "fin":  2356.98
+                                 },
+                      "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "orden_en_fuente":  3,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-14"
+                  },
+                  {
+                      "id":  "2026-11-04-rr-autos-beneficios-tributarios",
+                      "estado":  "listo",
+                      "tipo":  "consejo",
+                      "puntaje":  72,
+                      "gancho":  "¿Un Lamborghini por beneficios tributarios?",
+                      "archivo":  "salidas/clipero/clips/2026-11-04-rr-autos-beneficios-tributarios/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-04-rr-autos-beneficios-tributarios/ficha.md",
+                      "duracion_seg":  46.0,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/KhuFp9eIyVU?t=294",
+                                     "canal":  "WestCOL",
+                                     "inicio":  294.09,
+                                     "fin":  340.1
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  1,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-10",
+                      "nota":  "Confirmar que quien explica es Diego Ramírez (RR Autos) antes de nombrarlo; cifras tributarias sin verificar; escuchar \u00271500 millones\u0027"
+                  },
+                  {
+                      "id":  "2026-11-04-westcol-rolls-royce-diego",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  66,
+                      "gancho":  "El carro que Westcol siempre ha querido",
+                      "archivo":  "salidas/clipero/clips/2026-11-04-westcol-rolls-royce-diego/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-04-westcol-rolls-royce-diego/ficha.md",
+                      "duracion_seg":  25.5,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/AiBzbElWaow?t=500",
+                                     "canal":  "WestcolClips",
+                                     "inicio":  500.09,
+                                     "fin":  525.58
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  6,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-10",
+                      "nota":  "Westcol solo en la cámara pequeña; la imagen principal es una búsqueda de Google"
+                  },
+                  {
+                      "id":  "2026-11-04-westcol-robot-ascensor",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  77,
+                      "gancho":  "Encerrados en un ascensor con el robot",
+                      "archivo":  "salidas/clipero/clips/2026-11-04-westcol-robot-ascensor/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-04-westcol-robot-ascensor/ficha.md",
+                      "duracion_seg":  35.2,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/Xrwm98iaWY8?t=956",
+                                     "canal":  "WestCOL",
+                                     "inicio":  956.85,
+                                     "fin":  992
+                                 },
+                      "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "orden_en_fuente":  4,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-07",
+                      "revision_audio":  "Escucha humana pendiente; ver ficha",
+                      "revision_visual":  "4 cuadros revisados"
+                  },
+                  {
+                      "id":  "2026-11-04-westcol-robot-permiso-tienda",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  74,
+                      "gancho":  "¿Dejan entrar robots a esta tienda?",
+                      "archivo":  "salidas/clipero/clips/2026-11-04-westcol-robot-permiso-tienda/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-04-westcol-robot-permiso-tienda/ficha.md",
+                      "duracion_seg":  16.9,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/Xrwm98iaWY8?t=1198",
+                                     "canal":  "WestCOL",
+                                     "inicio":  1198.29,
+                                     "fin":  1215.14
+                                 },
+                      "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "orden_en_fuente":  5,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-07",
+                      "revision_audio":  "Escucha humana pendiente; ver ficha",
+                      "revision_visual":  "4 cuadros revisados"
+                  },
+                  {
+                      "id":  "2026-11-04-westcol-robot-orgullo-padre",
+                      "estado":  "listo",
+                      "tipo":  "reaccion",
+                      "puntaje":  75,
+                      "gancho":  "Le compró ropa y terminó sintiéndose papá",
+                      "archivo":  "salidas/clipero/clips/2026-11-04-westcol-robot-orgullo-padre/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-04-westcol-robot-orgullo-padre/ficha.md",
+                      "duracion_seg":  23.2,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/Xrwm98iaWY8?t=2034",
+                                     "canal":  "WestCOL",
+                                     "inicio":  2034.05,
+                                     "fin":  2057.2
+                                 },
+                      "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "orden_en_fuente":  6,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-07",
+                      "revision_audio":  "Escucha humana pendiente; ver ficha",
+                      "revision_visual":  "4 cuadros revisados"
+                  },
+                  {
+                      "id":  "2026-11-04-westcol-robot-busca-cama",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  73,
+                      "gancho":  "Ahora el robot también necesita una cama",
+                      "archivo":  "salidas/clipero/clips/2026-11-04-westcol-robot-busca-cama/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-04-westcol-robot-busca-cama/ficha.md",
+                      "duracion_seg":  36.8,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/Xrwm98iaWY8?t=3084",
+                                     "canal":  "WestCOL",
+                                     "inicio":  3084.49,
+                                     "fin":  3121.3
+                                 },
+                      "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "orden_en_fuente":  7,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-07",
+                      "revision_audio":  "Escucha humana pendiente; ver ficha",
+                      "revision_visual":  "4 cuadros revisados"
+                  },
+                  {
+                      "id":  "2026-11-04-westcol-ingles-noruega",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  69,
+                      "gancho":  "¿Existe el inglés de Noruega?",
+                      "archivo":  "salidas/clipero/clips/2026-11-04-westcol-ingles-noruega/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-04-westcol-ingles-noruega/ficha.md",
+                      "duracion_seg":  22.8,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/Xrwm98iaWY8?t=2977",
+                                     "canal":  "WestCOL",
+                                     "inicio":  2977.25,
+                                     "fin":  3000
+                                 },
+                      "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "orden_en_fuente":  8,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-07",
+                      "revision_audio":  "Escucha humana pendiente; ver ficha",
+                      "revision_visual":  "4 cuadros revisados"
+                  },
+                  {
+                      "id":  "2026-11-04-westcol-paraiso-streamer",
+                      "estado":  "listo",
+                      "tipo":  "frase",
+                      "puntaje":  68,
+                      "gancho":  "Westcol: «Mi casa es el paraíso»",
+                      "archivo":  "salidas/clipero/clips/2026-11-04-westcol-paraiso-streamer/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-04-westcol-paraiso-streamer/ficha.md",
+                      "duracion_seg":  28.7,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/AiBzbElWaow?t=203",
+                                     "canal":  "WestcolClips",
+                                     "inicio":  203.53,
+                                     "fin":  232.18
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  7,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-09",
+                      "nota":  "Audio con normalización dinámica (aviso de la herramienta): escuchar"
+                  },
+                  {
+                      "id":  "2026-11-04-revuelto-el-peso-es-pobreza",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  65,
+                      "gancho":  "¿Cuánto cuesta el primer Lamborghini Revuelto?",
+                      "archivo":  "salidas/clipero/clips/2026-11-04-revuelto-el-peso-es-pobreza/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-04-revuelto-el-peso-es-pobreza/ficha.md",
+                      "duracion_seg":  32.6,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/KhuFp9eIyVU?t=831",
+                                     "canal":  "WestCOL",
+                                     "inicio":  831.77,
+                                     "fin":  864.34
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  2,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-10",
+                      "nota":  "Westcol no sale; confirmar que son Rey de la City y Diego Ramírez antes de nombrarlos; escuchar las cifras"
+                  },
+                  {
+                      "id":  "2026-11-04-westcol-casa-en-construccion",
+                      "estado":  "listo",
+                      "tipo":  "historia",
+                      "puntaje":  65,
+                      "gancho":  "Así será la nueva casa de Westcol",
+                      "archivo":  "salidas/clipero/clips/2026-11-04-westcol-casa-en-construccion/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-04-westcol-casa-en-construccion/ficha.md",
+                      "duracion_seg":  53.3,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/AiBzbElWaow?t=299",
+                                     "canal":  "WestcolClips",
+                                     "inicio":  299.09,
+                                     "fin":  352.34
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  8,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-10",
+                      "nota":  "Fallo de imagen de ~1 s hacia el segundo 48: ver antes de publicar. No señalar la ubicación de la casa (sale un plano del terreno)"
+                  },
+                  {
+                      "id":  "2026-11-04-rr-autos-carro-cada-ciudad",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  65,
+                      "gancho":  "«Un hombre de verdad tiene un carro en cada ciudad»",
+                      "archivo":  "salidas/clipero/clips/2026-11-04-rr-autos-carro-cada-ciudad/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-04-rr-autos-carro-cada-ciudad/ficha.md",
+                      "duracion_seg":  43.7,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/KhuFp9eIyVU?t=972",
+                                     "canal":  "WestCOL",
+                                     "inicio":  972.33,
+                                     "fin":  1016.02
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  3,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-10",
+                      "nota":  "Confirmar identidades (Rey de la City, Diego Ramírez) antes de nombrarlos"
+                  },
+                  {
+                      "id":  "2026-11-03-sf5-robots-blessd",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  80,
+                      "gancho":  "Westcol: Blessd también quiere boxear",
+                      "archivo":  "salidas/clipero/clips/2026-11-03-sf5-robots-blessd/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-03-sf5-robots-blessd/ficha.md",
+                      "duracion_seg":  21.0,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/hc_eHyGrndY?t=12",
+                                     "canal":  "WestcolClips",
+                                     "inicio":  12.37,
+                                     "fin":  33.34
+                                 },
+                      "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "orden_en_fuente":  1,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-14"
+                  },
+                  {
+                      "id":  "2026-11-03-sf5-pelea-ganga",
+                      "estado":  "propuesto",
+                      "tipo":  "revelacion",
+                      "puntaje":  81,
+                      "gancho":  "Westcol: ¿quién gana la pelea de la ganga?",
+                      "archivo":  "salidas/clipero/clips/2026-11-03-sf5-pelea-ganga/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-03-sf5-pelea-ganga/ficha.md",
+                      "duracion_seg":  55.5,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/hc_eHyGrndY?t=756",
+                                     "canal":  "WestcolClips",
+                                     "inicio":  756.19,
+                                     "fin":  811.64
+                                 },
+                      "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "orden_en_fuente":  2,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-14",
+                      "nota":  "Producido. Queda propuesto: el bloque \u0027PATROCINADORES\u0027 de la web del evento (logos de Stake, casa de apuestas, y Kick) sale en 3 de los 4 cuadros y no se puede evitar con la entrada o la salida. Decide el usuario (difuminar o publicar)"
+                  },
+                  {
+                      "id":  "2026-11-03-chanty-lonche-mala-paga",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  80,
+                      "gancho":  "The Chanty le cobra 500 a Lonche",
+                      "archivo":  "salidas/clipero/clips/2026-11-03-chanty-lonche-mala-paga/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-03-chanty-lonche-mala-paga/ficha.md",
+                      "duracion_seg":  53.1,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/In4GYQNFCnk?t=345",
+                                     "canal":  "The Chanty",
+                                     "inicio":  345.93,
+                                     "fin":  399.02
+                                 },
+                      "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "orden_en_fuente":  1,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-14"
+                  },
+                  {
+                      "id":  "2026-11-03-chanty-sin-entrenar",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  76,
+                      "gancho":  "The Chanty confiesa: 5 días sin entrenar",
+                      "archivo":  "salidas/clipero/clips/2026-11-03-chanty-sin-entrenar/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-03-chanty-sin-entrenar/ficha.md",
+                      "duracion_seg":  36.0,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/In4GYQNFCnk?t=56",
+                                     "canal":  "The Chanty",
+                                     "inicio":  56.25,
+                                     "fin":  92.22
+                                 },
+                      "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "orden_en_fuente":  2,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-14"
+                  },
+                  {
+                      "id":  "2026-11-03-westcol-robot-prueba",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  76,
+                      "gancho":  "Westcol vuelve a prender su robot",
+                      "archivo":  "salidas/clipero/clips/2026-11-03-westcol-robot-prueba/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-03-westcol-robot-prueba/ficha.md",
+                      "duracion_seg":  69.2,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/HrCjenG44eE?t=1142",
+                                     "canal":  "juan diego mm",
+                                     "inicio":  1142.21,
+                                     "fin":  1211.34
+                                 },
+                      "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "orden_en_fuente":  1,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-14"
+                  },
+                  {
+                      "id":  "2026-11-03-westcol-tarjeta-alcancia",
+                      "estado":  "listo",
+                      "tipo":  "historia",
+                      "puntaje":  76,
+                      "gancho":  "Westcol felicita a los que le robaron",
+                      "archivo":  "salidas/clipero/clips/2026-11-03-westcol-tarjeta-alcancia/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-03-westcol-tarjeta-alcancia/ficha.md",
+                      "duracion_seg":  69.9,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/HrCjenG44eE?t=886",
+                                     "canal":  "juan diego mm",
+                                     "inicio":  886.25,
+                                     "fin":  956.06
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  2,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-07"
+                  },
+                  {
+                      "id":  "2026-11-03-sf5-valdiri-divaza",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  74,
+                      "gancho":  "Westcol: la Valdiri casi no pelea",
+                      "archivo":  "salidas/clipero/clips/2026-11-03-sf5-valdiri-divaza/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-03-sf5-valdiri-divaza/ficha.md",
+                      "duracion_seg":  30.2,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/hc_eHyGrndY?t=52",
+                                     "canal":  "WestcolClips",
+                                     "inicio":  52.09,
+                                     "fin":  82.3
+                                 },
+                      "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "orden_en_fuente":  3,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-14"
+                  },
+                  {
+                      "id":  "2026-11-03-westcol-talento-sin-padre",
+                      "estado":  "listo",
+                      "tipo":  "emotivo",
+                      "puntaje":  75,
+                      "gancho":  "Westcol y el talento de barrio sin papá",
+                      "archivo":  "salidas/clipero/clips/2026-11-03-westcol-talento-sin-padre/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-03-westcol-talento-sin-padre/ficha.md",
+                      "duracion_seg":  72.9,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/jYUMEg0M570?t=1580",
+                                     "canal":  "WestCOL",
+                                     "inicio":  1580.69,
+                                     "fin":  1653.54
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  2,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-08"
+                  },
+                  {
+                      "id":  "2026-11-03-diego-inundada-lamborghinis",
+                      "estado":  "listo",
+                      "tipo":  "frase",
+                      "puntaje":  74,
+                      "gancho":  "Diego RR: «Colombia está inundada de Lamborghinis»",
+                      "archivo":  "salidas/clipero/clips/2026-11-03-diego-inundada-lamborghinis/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-03-diego-inundada-lamborghinis/ficha.md",
+                      "duracion_seg":  55.8,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/BlYm8d2oNrY?t=342",
+                                     "canal":  "Diego RR Autos live",
+                                     "inicio":  342.86,
+                                     "fin":  398.6
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  1,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-09"
+                  },
+                  {
+                      "id":  "2026-11-03-westcol-ferrari-montana",
+                      "estado":  "listo",
+                      "tipo":  "consejo",
+                      "puntaje":  77,
+                      "gancho":  "Westcol: por qué no llega ese Ferrari",
+                      "archivo":  "salidas/clipero/clips/2026-11-03-westcol-ferrari-montana/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-03-westcol-ferrari-montana/ficha.md",
+                      "duracion_seg":  54.8,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/jYUMEg0M570?t=1731",
+                                     "canal":  "WestCOL",
+                                     "inicio":  1731.85,
+                                     "fin":  1786.7
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  1,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-08"
+                  },
+                  {
+                      "id":  "2026-11-03-westcol-obsesionado-futuro",
+                      "estado":  "listo",
+                      "tipo":  "consejo",
+                      "puntaje":  73,
+                      "gancho":  "Westcol: ¿está mal pensar en tu futuro?",
+                      "archivo":  "salidas/clipero/clips/2026-11-03-westcol-obsesionado-futuro/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-03-westcol-obsesionado-futuro/ficha.md",
+                      "duracion_seg":  61.7,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/jYUMEg0M570?t=1669",
+                                     "canal":  "WestCOL",
+                                     "inicio":  1669.37,
+                                     "fin":  1731.06
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  3,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-08"
+                  },
+                  {
+                      "id":  "2026-11-03-sf5-apuesta-100-millones",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  72,
+                      "gancho":  "Westcol: la apuesta de 100 millones",
+                      "archivo":  "salidas/clipero/clips/2026-11-03-sf5-apuesta-100-millones/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-03-sf5-apuesta-100-millones/ficha.md",
+                      "duracion_seg":  25.1,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/hc_eHyGrndY?t=601",
+                                     "canal":  "WestcolClips",
+                                     "inicio":  601.99,
+                                     "fin":  627.12
+                                 },
+                      "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "orden_en_fuente":  4,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-14"
+                  },
+                  {
+                      "id":  "2026-11-03-diego-diez-lambos-ni-uno",
+                      "estado":  "listo",
+                      "tipo":  "frase",
+                      "puntaje":  72,
+                      "gancho":  "Diego RR: no cualquiera puede tener un Lambo",
+                      "archivo":  "salidas/clipero/clips/2026-11-03-diego-diez-lambos-ni-uno/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-03-diego-diez-lambos-ni-uno/ficha.md",
+                      "duracion_seg":  63.1,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/3HqbgYS-hWk?t=1150",
+                                     "canal":  "DiegoRRAutosCLIPS",
+                                     "inicio":  1150.73,
+                                     "fin":  1213.82
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  1,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-09"
+                  },
+                  {
+                      "id":  "2026-11-03-westcol-ia-proposito",
+                      "estado":  "listo",
+                      "tipo":  "prediccion",
+                      "puntaje":  71,
+                      "gancho":  "Westcol: «No quiero saber mi propósito»",
+                      "archivo":  "salidas/clipero/clips/2026-11-03-westcol-ia-proposito/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-03-westcol-ia-proposito/ficha.md",
+                      "duracion_seg":  66.6,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/UUxoaLXE3CE?t=816",
+                                     "canal":  "WestcolClips",
+                                     "inicio":  816.89,
+                                     "fin":  883.5
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  1,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-09"
+                  },
+                  {
+                      "id":  "2026-11-03-diego-no-es-rentable",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  72,
+                      "gancho":  "Diego RR: los Lamborghini ni siquiera son rentables",
+                      "archivo":  "salidas/clipero/clips/2026-11-03-diego-no-es-rentable/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-03-diego-no-es-rentable/ficha.md",
+                      "duracion_seg":  33.9,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/BlYm8d2oNrY?t=424",
+                                     "canal":  "Diego RR Autos live",
+                                     "inicio":  424.39,
+                                     "fin":  458.24
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  2,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-09"
+                  },
+                  {
+                      "id":  "2026-11-03-westcol-me-eligieron",
+                      "estado":  "listo",
+                      "tipo":  "frase",
+                      "puntaje":  71,
+                      "gancho":  "Westcol: «A mí me eligieron»",
+                      "archivo":  "salidas/clipero/clips/2026-11-03-westcol-me-eligieron/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-03-westcol-me-eligieron/ficha.md",
+                      "duracion_seg":  56.7,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/jYUMEg0M570?t=1393",
+                                     "canal":  "WestCOL",
+                                     "inicio":  1393.93,
+                                     "fin":  1450.66
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  4,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-08"
+                  },
+                  {
+                      "id":  "2026-11-03-sf5-dos-islas",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  70,
+                      "gancho":  "Westcol: la pelea que abre Stream Fighters",
+                      "archivo":  "salidas/clipero/clips/2026-11-03-sf5-dos-islas/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-03-sf5-dos-islas/ficha.md",
+                      "duracion_seg":  42.6,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/hc_eHyGrndY?t=470",
+                                     "canal":  "WestcolClips",
+                                     "inicio":  470.91,
+                                     "fin":  513.44
+                                 },
+                      "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "orden_en_fuente":  5,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-14"
+                  },
+                  {
+                      "id":  "2026-11-03-sf5-sebastuco-leandro",
+                      "estado":  "listo",
+                      "tipo":  "prediccion",
+                      "puntaje":  68,
+                      "gancho":  "Westcol: Leandro no la tiene fácil",
+                      "archivo":  "salidas/clipero/clips/2026-11-03-sf5-sebastuco-leandro/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-03-sf5-sebastuco-leandro/ficha.md",
+                      "duracion_seg":  25.1,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/hc_eHyGrndY?t=685",
+                                     "canal":  "WestcolClips",
+                                     "inicio":  685.35,
+                                     "fin":  710.4
+                                 },
+                      "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "orden_en_fuente":  6,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-14",
+                      "nota":  "Cortado en el ciclo 6 (23:42 del 3-nov) e incorporado en el ciclo 7: el ciclo 6 se cortó por un fallo de red antes de escribirlo aquí. Revisado de nuevo: sin patrocinadores ni anuncios"
+                  },
+                  {
+                      "id":  "2026-11-03-westcol-mundo-dinero",
+                      "estado":  "listo",
+                      "tipo":  "frase",
+                      "puntaje":  70,
+                      "gancho":  "Westcol: «todo gira alrededor del dinero»",
+                      "archivo":  "salidas/clipero/clips/2026-11-03-westcol-mundo-dinero/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-03-westcol-mundo-dinero/ficha.md",
+                      "duracion_seg":  57.3,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/UUxoaLXE3CE?t=885",
+                                     "canal":  "WestcolClips",
+                                     "inicio":  885.37,
+                                     "fin":  942.66
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  2,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-09"
+                  },
+                  {
+                      "id":  "2026-11-03-westcol-capo-mustang",
+                      "estado":  "listo",
+                      "tipo":  "historia",
+                      "puntaje":  70,
+                      "gancho":  "Westcol enseña el capó de su primer carro",
+                      "archivo":  "salidas/clipero/clips/2026-11-03-westcol-capo-mustang/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-03-westcol-capo-mustang/ficha.md",
+                      "duracion_seg":  58.2,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/HrCjenG44eE?t=1255",
+                                     "canal":  "juan diego mm",
+                                     "inicio":  1255.41,
+                                     "fin":  1313.58
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  3,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-10"
+                  },
+                  {
+                      "id":  "2026-11-03-chanty-pagos-disfraces",
+                      "estado":  "propuesto",
+                      "tipo":  "revelacion",
+                      "puntaje":  62,
+                      "gancho":  "The Chanty: lo que gasta en disfraces",
+                      "archivo":  "salidas/clipero/clips/2026-11-03-chanty-pagos-disfraces/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-03-chanty-pagos-disfraces/ficha.md",
+                      "duracion_seg":  28.5,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/In4GYQNFCnk?t=188",
+                                     "canal":  "The Chanty",
+                                     "inicio":  188.21,
+                                     "fin":  216.7
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  3,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-08",
+                      "nota":  "Producido. Queda propuesto (62 tras la revisión visual, 67 antes): habla The Chanty, pero la imagen principal es el directo de Westcol en Kick y The Chanty solo sale en una cámara pequeña. Se le podrían atribuir las frases a Westcol. Editar a mano o descartar"
+                  },
+                  {
+                      "id":  "2026-11-03-awooween-fuegos-final",
+                      "estado":  "listo",
+                      "tipo":  "emotivo",
+                      "puntaje":  74,
+                      "gancho":  "Fuegos artificiales en el Awooween de Ryan Castro",
+                      "archivo":  "salidas/clipero/clips/2026-11-03-awooween-fuegos-final/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-03-awooween-fuegos-final/ficha.md",
+                      "duracion_seg":  45.0,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/Z1VUghXaEIM?t=2618",
+                                     "canal":  "La Vuelta Reacciones",
+                                     "inicio":  2618,
+                                     "fin":  2663
+                                 },
+                      "oportunidad_cazador":  "tema-awooween-ryan-castro-campin",
+                      "orden_en_fuente":  1,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-04"
+                  },
+                  {
+                      "id":  "2026-11-03-awooween-estadio-lleno",
+                      "estado":  "listo",
+                      "tipo":  "reaccion",
+                      "puntaje":  70,
+                      "gancho":  "Así se vivió el Awooween en El Campín",
+                      "archivo":  "salidas/clipero/clips/2026-11-03-awooween-estadio-lleno/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-03-awooween-estadio-lleno/ficha.md",
+                      "duracion_seg":  45.0,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/Z1VUghXaEIM?t=903",
+                                     "canal":  "La Vuelta Reacciones",
+                                     "inicio":  903,
+                                     "fin":  948
+                                 },
+                      "oportunidad_cazador":  "tema-awooween-ryan-castro-campin",
+                      "orden_en_fuente":  2,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-04"
+                  },
+                  {
+                      "id":  "2026-11-03-awooween-a-todo-volumen",
+                      "estado":  "listo",
+                      "tipo":  "reaccion",
+                      "puntaje":  69,
+                      "gancho":  "El Campín a todo volumen en el Awooween",
+                      "archivo":  "salidas/clipero/clips/2026-11-03-awooween-a-todo-volumen/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-03-awooween-a-todo-volumen/ficha.md",
+                      "duracion_seg":  45.0,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/Z1VUghXaEIM?t=1553",
+                                     "canal":  "La Vuelta Reacciones",
+                                     "inicio":  1553,
+                                     "fin":  1598
+                                 },
+                      "oportunidad_cazador":  "tema-awooween-ryan-castro-campin",
+                      "orden_en_fuente":  3,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-04"
+                  },
+                  {
+                      "id":  "2026-11-03-awooween-arranque",
+                      "estado":  "propuesto",
+                      "tipo":  "reaccion",
+                      "puntaje":  59,
+                      "gancho":  "El arranque del Awooween en El Campín",
+                      "archivo":  "salidas/clipero/clips/2026-11-03-awooween-arranque/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-03-awooween-arranque/ficha.md",
+                      "duracion_seg":  44.5,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/Z1VUghXaEIM?t=20",
+                                     "canal":  "La Vuelta Reacciones",
+                                     "inicio":  20.5,
+                                     "fin":  65
+                                 },
+                      "oportunidad_cazador":  "tema-awooween-ryan-castro-campin",
+                      "orden_en_fuente":  4,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-04"
+                  },
+                  {
+                      "id":  "2026-11-02-westcol-ganga-chanty",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  68,
+                      "gancho":  "Westcol: la ganga sin su líder",
+                      "archivo":  "salidas/clipero/clips/2026-11-02-westcol-ganga-chanty/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-02-westcol-ganga-chanty/ficha.md",
+                      "duracion_seg":  45.9,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/8L8CP3xe3Qo?t=182",
+                                     "canal":  "WestcolClips",
+                                     "inicio":  181.97,
+                                     "fin":  227.82
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  5,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-05"
+                  },
+                  {
+                      "id":  "2026-11-02-westcol-8-anos-sin-irse",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  74,
+                      "gancho":  "Westcol vuelve: «nunca me había ido tanto»",
+                      "archivo":  "salidas/clipero/clips/2026-11-02-westcol-8-anos-sin-irse/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-02-westcol-8-anos-sin-irse/ficha.md",
+                      "duracion_seg":  44.1,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/8L8CP3xe3Qo?t=6",
+                                     "canal":  "WestcolClips",
+                                     "inicio":  6.89,
+                                     "fin":  50.94
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  1,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-05"
+                  },
+                  {
+                      "id":  "2026-11-02-westcol-motosierra-carton",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  73,
+                      "gancho":  "Westcol: castigado por una motosierra de cartón",
+                      "archivo":  "salidas/clipero/clips/2026-11-02-westcol-motosierra-carton/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-02-westcol-motosierra-carton/ficha.md",
+                      "duracion_seg":  62.8,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/OqsKq4thcZA?t=571",
+                                     "canal":  "Clipskick04",
+                                     "inicio":  571.41,
+                                     "fin":  634.2
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  1,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-04"
+                  },
+                  {
+                      "id":  "2026-11-02-westcol-disfraz-presidente",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  72,
+                      "gancho":  "El disfraz que Westcol no usó",
+                      "archivo":  "salidas/clipero/clips/2026-11-02-westcol-disfraz-presidente/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-02-westcol-disfraz-presidente/ficha.md",
+                      "duracion_seg":  32.1,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/MBotzCroy1Q?t=1303",
+                                     "canal":  "juan diego mm",
+                                     "inicio":  1303.45,
+                                     "fin":  1335.54
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  1,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-05"
+                  },
+                  {
+                      "id":  "2026-11-02-lonche-seis-cifras",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  72,
+                      "gancho":  "Lonche: «seis cifras a la semana»",
+                      "archivo":  "salidas/clipero/clips/2026-11-02-lonche-seis-cifras/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-02-lonche-seis-cifras/ficha.md",
+                      "duracion_seg":  52.0,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/XMLQv5JNuK0?t=429",
+                                     "canal":  "Clipskick04",
+                                     "inicio":  429.81,
+                                     "fin":  481.78
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  1,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-06"
+                  },
+                  {
+                      "id":  "2026-11-02-westcol-cuerpo-35-anos",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  71,
+                      "gancho":  "Westcol: «Mi cuerpo tiene 35 años»",
+                      "archivo":  "salidas/clipero/clips/2026-11-02-westcol-cuerpo-35-anos/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-02-westcol-cuerpo-35-anos/ficha.md",
+                      "duracion_seg":  44.8,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/MBotzCroy1Q?t=1405",
+                                     "canal":  "juan diego mm",
+                                     "inicio":  1405.09,
+                                     "fin":  1449.86
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  2,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-06"
+                  },
+                  {
+                      "id":  "2026-11-02-lonche-sueno-americano",
+                      "estado":  "listo",
+                      "tipo":  "frase",
+                      "puntaje":  71,
+                      "gancho":  "Lonche y su «sueño americano»",
+                      "archivo":  "salidas/clipero/clips/2026-11-02-lonche-sueno-americano/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-02-lonche-sueno-americano/ficha.md",
+                      "duracion_seg":  43.2,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/TGZYr7VNzio?t=2568",
+                                     "canal":  "Lonche PRIME",
+                                     "inicio":  2568.57,
+                                     "fin":  2611.7
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  1,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-06"
+                  },
+                  {
+                      "id":  "2026-11-02-westcol-que-sigue-lonche",
+                      "estado":  "listo",
+                      "tipo":  "frase",
+                      "puntaje":  70,
+                      "gancho":  "Westcol: «¿Qué sigue después de Lonche?»",
+                      "archivo":  "salidas/clipero/clips/2026-11-02-westcol-que-sigue-lonche/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-02-westcol-que-sigue-lonche/ficha.md",
+                      "duracion_seg":  23.3,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/8L8CP3xe3Qo?t=227",
+                                     "canal":  "WestcolClips",
+                                     "inicio":  227.93,
+                                     "fin":  251.22
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  2,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-05"
+                  },
+                  {
+                      "id":  "2026-11-02-westcol-tweet-conejita",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  70,
+                      "gancho":  "Westcol y el tuit de la conejita",
+                      "archivo":  "salidas/clipero/clips/2026-11-02-westcol-tweet-conejita/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-02-westcol-tweet-conejita/ficha.md",
+                      "duracion_seg":  55.4,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/MBotzCroy1Q?t=1144",
+                                     "canal":  "juan diego mm",
+                                     "inicio":  1144.97,
+                                     "fin":  1200.3
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  3,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-04"
+                  },
+                  {
+                      "id":  "2026-11-02-westcol-deje-la-hierba",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  67,
+                      "gancho":  "Westcol: «Yo dejé la hierba»",
+                      "archivo":  "salidas/clipero/clips/2026-11-02-westcol-deje-la-hierba/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-02-westcol-deje-la-hierba/ficha.md",
+                      "duracion_seg":  50.9,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/OqsKq4thcZA?t=510",
+                                     "canal":  "Clipskick04",
+                                     "inicio":  510.81,
+                                     "fin":  561.7
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  2,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-05"
+                  },
+                  {
+                      "id":  "2026-11-02-westcol-w-sound-700mil",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  68,
+                      "gancho":  "Westcol presume los números de la W",
+                      "archivo":  "salidas/clipero/clips/2026-11-02-westcol-w-sound-700mil/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-02-westcol-w-sound-700mil/ficha.md",
+                      "duracion_seg":  61.0,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/8L8CP3xe3Qo?t=96",
+                                     "canal":  "WestcolClips",
+                                     "inicio":  96.53,
+                                     "fin":  157.54
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  3,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-06"
+                  },
+                  {
+                      "id":  "2026-11-02-lonche-taco-bell",
+                      "estado":  "propuesto",
+                      "tipo":  "frase",
+                      "puntaje":  64,
+                      "gancho":  "Lonche: los mejores tacos son de Taco Bell",
+                      "archivo":  "salidas/clipero/clips/2026-11-02-lonche-taco-bell/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-02-lonche-taco-bell/ficha.md",
+                      "duracion_seg":  16.9,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/TGZYr7VNzio?t=1249",
+                                     "canal":  "Lonche PRIME",
+                                     "inicio":  1249.13,
+                                     "fin":  1266.02
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  2,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-06"
+                  },
+                  {
+                      "id":  "2026-11-02-westcol-w-sound-espana",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  67,
+                      "gancho":  "Westcol: ¿por qué la W pegó en España?",
+                      "archivo":  "salidas/clipero/clips/2026-11-02-westcol-w-sound-espana/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-02-westcol-w-sound-espana/ficha.md",
+                      "duracion_seg":  63.6,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/8L8CP3xe3Qo?t=672",
+                                     "canal":  "WestcolClips",
+                                     "inicio":  672.81,
+                                     "fin":  736.38
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  4,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-06"
+                  },
                   {
                       "id":  "2026-11-02-toxico-intro-celos-aire",
                       "estado":  "listo",

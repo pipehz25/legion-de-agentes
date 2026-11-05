@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-03-sf5-robots-blessd",
+    "url_fuente":  "https://www.youtube.com/watch?v=hc_eHyGrndY",
+    "video_id":  "hc_eHyGrndY",
+    "inicio":  12.37,
+    "fin":  33.34,
+    "inicio_hms":  "0:00:12",
+    "duracion_seg":  21,
+    "gancho":  "Westcol: Blessd también quiere boxear",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  73,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -22,
+                  "entrada_tp":  -14.32,
+                  "salida_lufs":  -13.98,
+                  "salida_tp":  -6.32
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-03-sf5-robots-blessd/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-03-sf5-robots-blessd/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-03-sf5-robots-blessd/revision.jpg",
+    "creado":  "2026-11-03T22:30:07.4883185-05:00"
+}

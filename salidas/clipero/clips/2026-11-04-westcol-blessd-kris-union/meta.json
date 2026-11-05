@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-04-westcol-blessd-kris-union",
+    "url_fuente":  "https://www.youtube.com/watch?v=mtt8Q1438ic",
+    "video_id":  "mtt8Q1438ic",
+    "inicio":  499.01,
+    "fin":  561.3,
+    "inicio_hms":  "0:08:19",
+    "duracion_seg":  62.3,
+    "gancho":  "Westcol: lo que hay entre Blessd y Kris R",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  237,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -22.85,
+                  "entrada_tp":  -14.89,
+                  "salida_lufs":  -13.93,
+                  "salida_tp":  -6.04
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-04-westcol-blessd-kris-union/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-04-westcol-blessd-kris-union/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-04-westcol-blessd-kris-union/revision.jpg",
+    "creado":  "2026-11-04T15:38:23.3302396-05:00"
+}

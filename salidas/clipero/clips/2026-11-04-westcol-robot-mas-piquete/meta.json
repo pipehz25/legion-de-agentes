@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-04-westcol-robot-mas-piquete",
+    "url_fuente":  "https://www.youtube.com/watch?v=Xrwm98iaWY8",
+    "video_id":  "Xrwm98iaWY8",
+    "inicio":  2643.89,
+    "fin":  2670.5,
+    "inicio_hms":  "0:44:03",
+    "duracion_seg":  26.6,
+    "gancho":  "Westcol: «Ese robot tiene más piquete que todos»",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  80,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -11.53,
+                  "entrada_tp":  0.28,
+                  "salida_lufs":  -14.36,
+                  "salida_tp":  -2.19
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-04-westcol-robot-mas-piquete/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-04-westcol-robot-mas-piquete/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-04-westcol-robot-mas-piquete/revision.jpg",
+    "creado":  "2026-11-04T15:48:42.5934990-05:00"
+}

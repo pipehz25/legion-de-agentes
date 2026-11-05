@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-03-chanty-lonche-mala-paga",
+    "url_fuente":  "https://www.youtube.com/watch?v=In4GYQNFCnk",
+    "video_id":  "In4GYQNFCnk",
+    "inicio":  345.93,
+    "fin":  399.02,
+    "inicio_hms":  "0:05:45",
+    "duracion_seg":  53.1,
+    "gancho":  "The Chanty le cobra 500 a Lonche",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  198,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -21.97,
+                  "entrada_tp":  -9.07,
+                  "salida_lufs":  -13.93,
+                  "salida_tp":  -1.1
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-03-chanty-lonche-mala-paga/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-03-chanty-lonche-mala-paga/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-03-chanty-lonche-mala-paga/revision.jpg",
+    "creado":  "2026-11-03T22:32:58.3225323-05:00"
+}

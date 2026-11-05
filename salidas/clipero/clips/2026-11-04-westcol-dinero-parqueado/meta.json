@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-04-westcol-dinero-parqueado",
+    "url_fuente":  "https://www.youtube.com/watch?v=AiBzbElWaow",
+    "video_id":  "AiBzbElWaow",
+    "inicio":  826.33,
+    "fin":  862.34,
+    "inicio_hms":  "0:13:46",
+    "duracion_seg":  36,
+    "gancho":  "Westcol: «Me desespera tener dinero parqueado»",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  142,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -22.99,
+                  "entrada_tp":  -14.72,
+                  "salida_lufs":  -13.94,
+                  "salida_tp":  -5.8
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-04-westcol-dinero-parqueado/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-04-westcol-dinero-parqueado/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-04-westcol-dinero-parqueado/revision.jpg",
+    "creado":  "2026-11-04T15:42:37.3795775-05:00"
+}

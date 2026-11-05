@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-03-westcol-tarjeta-alcancia",
+    "url_fuente":  "https://www.youtube.com/watch?v=HrCjenG44eE",
+    "video_id":  "HrCjenG44eE",
+    "inicio":  886.25,
+    "fin":  956.06,
+    "inicio_hms":  "0:14:46",
+    "duracion_seg":  69.9,
+    "gancho":  "Westcol felicita a los que le robaron",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  228,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -22.53,
+                  "entrada_tp":  -14.17,
+                  "salida_lufs":  -13.99,
+                  "salida_tp":  -5.98
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-03-westcol-tarjeta-alcancia/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-03-westcol-tarjeta-alcancia/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-03-westcol-tarjeta-alcancia/revision.jpg",
+    "creado":  "2026-11-03T22:43:51.7912954-05:00"
+}

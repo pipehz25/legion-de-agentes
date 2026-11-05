@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-03-westcol-ferrari-montana",
+    "url_fuente":  "https://www.youtube.com/watch?v=jYUMEg0M570",
+    "video_id":  "jYUMEg0M570",
+    "inicio":  1731.85,
+    "fin":  1786.7,
+    "inicio_hms":  "0:28:51",
+    "duracion_seg":  54.8,
+    "gancho":  "Westcol: por qué no llega ese Ferrari",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  181,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -23.01,
+                  "entrada_tp":  -14.16,
+                  "salida_lufs":  -13.92,
+                  "salida_tp":  -5.39
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-03-westcol-ferrari-montana/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-03-westcol-ferrari-montana/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-03-westcol-ferrari-montana/revision.jpg",
+    "creado":  "2026-11-03T23:03:48.6968616-05:00"
+}

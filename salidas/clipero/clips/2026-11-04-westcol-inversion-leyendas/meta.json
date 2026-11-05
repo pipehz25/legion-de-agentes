@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-04-westcol-inversion-leyendas",
+    "url_fuente":  "https://www.youtube.com/watch?v=AiBzbElWaow",
+    "video_id":  "AiBzbElWaow",
+    "inicio":  768.97,
+    "fin":  804.18,
+    "inicio_hms":  "0:12:48",
+    "duracion_seg":  35.3,
+    "gancho":  "Westcol: negocio con dos creadores «leyenda»",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  123,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -22.81,
+                  "entrada_tp":  -14.6,
+                  "salida_lufs":  -13.88,
+                  "salida_tp":  -6.02
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-04-westcol-inversion-leyendas/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-04-westcol-inversion-leyendas/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-04-westcol-inversion-leyendas/revision.jpg",
+    "creado":  "2026-11-04T15:45:29.4441998-05:00"
+}

@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-03-westcol-mundo-dinero",
+    "url_fuente":  "https://www.youtube.com/watch?v=UUxoaLXE3CE",
+    "video_id":  "UUxoaLXE3CE",
+    "inicio":  885.37,
+    "fin":  942.66,
+    "inicio_hms":  "0:14:45",
+    "duracion_seg":  57.3,
+    "gancho":  "Westcol: «todo gira alrededor del dinero»",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  200,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -22.17,
+                  "entrada_tp":  -14.32,
+                  "salida_lufs":  -14,
+                  "salida_tp":  -6.15
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-03-westcol-mundo-dinero/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-03-westcol-mundo-dinero/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-03-westcol-mundo-dinero/revision.jpg",
+    "creado":  "2026-11-03T23:33:38.3848394-05:00"
+}

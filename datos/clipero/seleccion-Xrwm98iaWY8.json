@@ -1,0 +1,172 @@
+{
+    "fuente":  "Xrwm98iaWY8",
+    "fecha":  "2026-11-04",
+    "alcance":  "Ampliación solicitada por el usuario. Reutilizar los tres clips existentes; producir cinco momentos distintos. No publicar.",
+    "metricas":  {
+                     "vistas":  112441,
+                     "likes":  2357,
+                     "comentarios":  84,
+                     "consultado":  "2026-11-04T19:47:22-05:00"
+                 },
+    "saturacion":  {
+                       "consulta":  "Westcol robot primera vez calle ascensor tienda ropa noviembre 2026 shorts",
+                       "resultado":  "Ya circulan escenas del paseo y del salto. La búsqueda no permite asegurar exclusividad de los cinco momentos nuevos; frescura limitada a 7/15.",
+                       "referencias":  [
+                                           "https://xitter.cf/terrenoviral",
+                                           "https://www.descargadorminiaturas.com/noticias/robot-westcol-salta-y-derriba-carteles-en-tienda-de-lujo"
+                                       ],
+                       "evidencia_youtube_local":  [
+                                                       "datos/clipero/busquedas/2026-11-04_145947.jsonl",
+                                                       "datos/clipero/busquedas/2026-11-04_150047.jsonl"
+                                                   ]
+                   },
+    "nuevos":  [
+                   {
+                       "id":  "2026-11-04-westcol-robot-ascensor",
+                       "inicio":  956.95,
+                       "fin":  992,
+                       "gancho":  "Encerrados en un ascensor con el robot",
+                       "tipo":  "humor",
+                       "puntaje":  77,
+                       "desglose":  [
+                                        21,
+                                        18,
+                                        13,
+                                        18,
+                                        7
+                                    ],
+                       "evidencia":  "Primera entrada al ascensor, tensión y remate: morimos todos. Escena autocontenida y diferente de los saltos.",
+                       "nota_subtitulos":  "Subtítulos automáticos; abreviación dem. e insulto fragmentado en el original.",
+                       "titulos":  {
+                                       "tiktok":  "Meter al robot al ascensor parecía buena idea",
+                                       "reels":  "El primer viaje en ascensor del robot de Westcol",
+                                       "shorts":  "Westcol y su robot comparten ascensor por primera vez"
+                                   },
+                       "descripcion":  "El primer viaje de Ian en ascensor terminó entre nervios y bromas. ¿Te subirías con él?"
+                   },
+                   {
+                       "id":  "2026-11-04-westcol-robot-permiso-tienda",
+                       "inicio":  1198.4,
+                       "fin":  1215.1,
+                       "gancho":  "¿Dejan entrar robots a esta tienda?",
+                       "tipo":  "humor",
+                       "puntaje":  74,
+                       "desglose":  [
+                                        18,
+                                        18,
+                                        13,
+                                        18,
+                                        7
+                                    ],
+                       "evidencia":  "Quiere comprarle ropa; el personal consulta si puede entrar; remate se porta bien. No afirmar que le prohibieron entrar.",
+                       "nota_subtitulos":  "El subtítulo automático más un momentico requiere escucha humana; no se sustituye con una conjetura.",
+                       "titulos":  {
+                                       "tiktok":  "¿Pedir permiso para entrar con un robot?",
+                                       "reels":  "Llegó con un robot a comprar ropa: primero tocó preguntar",
+                                       "shorts":  "¿Puede entrar un robot? La pregunta de Westcol en la tienda"
+                                   },
+                       "descripcion":  "Westcol llegó a comprarle ropa a su robot y antes tuvieron que preguntar si podía entrar. ¿Qué harías si llega a tu tienda?"
+                   },
+                   {
+                       "id":  "2026-11-04-westcol-robot-orgullo-padre",
+                       "inicio":  2034.1,
+                       "fin":  2057.2,
+                       "gancho":  "Le compró ropa y terminó sintiéndose papá",
+                       "tipo":  "reaccion",
+                       "puntaje":  75,
+                       "desglose":  [
+                                        19,
+                                        18,
+                                        13,
+                                        18,
+                                        7
+                                    ],
+                       "evidencia":  "Robot ya vestido, lo pone a caminar, celebra el resultado y dice sentirse orgulloso de su hijo. Autonomía distinta del comentario de piquete.",
+                       "nota_subtitulos":  "Ian ya corregido en palabras-rev.json; resto sin cambios.",
+                       "titulos":  {
+                                       "tiktok":  "Así reaccionó Westcol al ver a Ian vestido",
+                                       "reels":  "¿Un robot o un hijo? Así lo ve Westcol",
+                                       "shorts":  "Westcol presume el nuevo outfit de su robot"
+                                   },
+                       "descripcion":  "Lo puso a caminar con su nueva ropa y terminó diciendo que se siente orgulloso de su hijo. ¿Cómo le quedó?"
+                   },
+                   {
+                       "id":  "2026-11-04-westcol-robot-busca-cama",
+                       "inicio":  3084.6,
+                       "fin":  3121.3,
+                       "gancho":  "Ahora el robot también necesita una cama",
+                       "tipo":  "humor",
+                       "puntaje":  73,
+                       "desglose":  [
+                                        18,
+                                        17,
+                                        12,
+                                        19,
+                                        7
+                                    ],
+                       "evidencia":  "Búsqueda de cama para el robot, conversación sobre resistencia y pregunta final al robot. Comentario del video señala la escena en 51:33 (2 likes); no hay pico de retención disponible.",
+                       "nota_subtitulos":  "Intervenciones superpuestas de 51:33 a 51:39 marcadas como (...). Se conservan ambas cifras de peso; requieren escucha humana, sin inventar una cifra definitiva.",
+                       "titulos":  {
+                                       "tiktok":  "Primero ropa. Ahora también quiere comprarle cama",
+                                       "reels":  "Westcol busca una cama para su robot Ian",
+                                       "shorts":  "Westcol lleva a su robot a elegir una cama"
+                                   },
+                       "descripcion":  "Después de vestirlo, Westcol también fue a buscarle cama a Ian. ¿Qué le comprarías después?"
+                   },
+                   {
+                       "id":  "2026-11-04-westcol-ingles-noruega",
+                       "inicio":  2977.35,
+                       "fin":  3000,
+                       "gancho":  "¿Existe el inglés de Noruega?",
+                       "tipo":  "humor",
+                       "puntaje":  69,
+                       "desglose":  [
+                                        17,
+                                        17,
+                                        12,
+                                        16,
+                                        7
+                                    ],
+                       "evidencia":  "No habla español, duda sobre el inglés de Noruega y remate inglés vikingo. Broma verbal completa, ajena a las funciones del robot.",
+                       "nota_subtitulos":  "Corregir únicamente Norvega/Norga a Noruega, nombre repetido explícitamente en el mismo diálogo.",
+                       "titulos":  {
+                                       "tiktok":  "¿Inglés de Noruega? La respuesta fue inglés vikingo",
+                                       "reels":  "La conversación que terminó en inglés vikingo",
+                                       "shorts":  "Westcol y la duda del inglés de Noruega"
+                                   },
+                       "descripcion":  "La conversación pasó del español al inglés de Noruega y acabó en inglés vikingo."
+                   }
+               ],
+    "descartados_adicionales":  [
+                                    {
+                                        "inicio":  270.64,
+                                        "fin":  303.5,
+                                        "puntaje":  63,
+                                        "motivo":  "Futuro en la sala: entusiasmo repetitivo y frases superpuestas, sin un remate tan claro."
+                                    },
+                                    {
+                                        "inicio":  394,
+                                        "fin":  423,
+                                        "puntaje":  62,
+                                        "motivo":  "Saludo: depende de movimientos pequeños y conversación fragmentada; menor autonomía."
+                                    },
+                                    {
+                                        "inicio":  533,
+                                        "fin":  559,
+                                        "puntaje":  63,
+                                        "motivo":  "Otro salto: misma idea que el clip existente de la tienda."
+                                    },
+                                    {
+                                        "inicio":  2810,
+                                        "fin":  2824,
+                                        "puntaje":  59,
+                                        "motivo":  "Familia de electrodomésticos: frase corta sin desarrollo; no alcanza duración mínima sin relleno."
+                                    },
+                                    {
+                                        "inicio":  3360,
+                                        "fin":  3372,
+                                        "puntaje":  58,
+                                        "motivo":  "Paciencia para manejarlo: observación breve, sin tensión ni remate."
+                                    }
+                                ]
+}

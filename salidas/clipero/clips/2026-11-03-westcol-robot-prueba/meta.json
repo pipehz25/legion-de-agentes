@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-03-westcol-robot-prueba",
+    "url_fuente":  "https://www.youtube.com/watch?v=HrCjenG44eE",
+    "video_id":  "HrCjenG44eE",
+    "inicio":  1142.21,
+    "fin":  1211.34,
+    "inicio_hms":  "0:19:02",
+    "duracion_seg":  69.2,
+    "gancho":  "Westcol vuelve a prender su robot",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  184,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -21.98,
+                  "entrada_tp":  -13.17,
+                  "salida_lufs":  -13.92,
+                  "salida_tp":  -5.23
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-03-westcol-robot-prueba/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-03-westcol-robot-prueba/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-03-westcol-robot-prueba/revision.jpg",
+    "creado":  "2026-11-03T22:38:36.7670086-05:00"
+}

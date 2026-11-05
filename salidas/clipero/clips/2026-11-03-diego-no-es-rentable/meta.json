@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-03-diego-no-es-rentable",
+    "url_fuente":  "https://www.youtube.com/watch?v=BlYm8d2oNrY",
+    "video_id":  "BlYm8d2oNrY",
+    "inicio":  424.39,
+    "fin":  458.24,
+    "inicio_hms":  "0:07:04",
+    "duracion_seg":  33.9,
+    "gancho":  "Diego RR: los Lamborghini ni siquiera son rentables",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  103,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -16.05,
+                  "entrada_tp":  -3.49,
+                  "salida_lufs":  -13.78,
+                  "salida_tp":  -1.44
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-03-diego-no-es-rentable/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-03-diego-no-es-rentable/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-03-diego-no-es-rentable/revision.jpg",
+    "creado":  "2026-11-03T23:21:42.2640761-05:00"
+}

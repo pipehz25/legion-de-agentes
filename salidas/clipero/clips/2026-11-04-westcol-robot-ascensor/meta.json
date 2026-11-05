@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-04-westcol-robot-ascensor",
+    "url_fuente":  "https://www.youtube.com/watch?v=Xrwm98iaWY8",
+    "video_id":  "Xrwm98iaWY8",
+    "inicio":  956.85,
+    "fin":  992,
+    "inicio_hms":  "0:15:56",
+    "duracion_seg":  35.2,
+    "gancho":  "Encerrados en un ascensor con el robot",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  63,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -9.62,
+                  "entrada_tp":  0.87,
+                  "salida_lufs":  -14.2,
+                  "salida_tp":  -3.52
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-04-westcol-robot-ascensor/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-04-westcol-robot-ascensor/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-04-westcol-robot-ascensor/revision.jpg",
+    "creado":  "2026-11-04T19:53:42.9640378-05:00"
+}

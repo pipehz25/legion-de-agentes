@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-03-westcol-me-eligieron",
+    "url_fuente":  "https://www.youtube.com/watch?v=jYUMEg0M570",
+    "video_id":  "jYUMEg0M570",
+    "inicio":  1393.93,
+    "fin":  1450.66,
+    "inicio_hms":  "0:23:13",
+    "duracion_seg":  56.7,
+    "gancho":  "Westcol: «A mí me eligieron»",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  177,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -22.46,
+                  "entrada_tp":  -14.33,
+                  "salida_lufs":  -13.86,
+                  "salida_tp":  -6.09
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-03-westcol-me-eligieron/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-03-westcol-me-eligieron/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-03-westcol-me-eligieron/revision.jpg",
+    "creado":  "2026-11-03T23:27:26.1111915-05:00"
+}

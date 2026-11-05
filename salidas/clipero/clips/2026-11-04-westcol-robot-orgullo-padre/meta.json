@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-04-westcol-robot-orgullo-padre",
+    "url_fuente":  "https://www.youtube.com/watch?v=Xrwm98iaWY8",
+    "video_id":  "Xrwm98iaWY8",
+    "inicio":  2034.05,
+    "fin":  2057.2,
+    "inicio_hms":  "0:33:54",
+    "duracion_seg":  23.2,
+    "gancho":  "Le compró ropa y terminó sintiéndose papá",
+    "subtitulos":  "ampliacion",
+    "palabras_subtituladas":  66,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -11.41,
+                  "entrada_tp":  0.31,
+                  "salida_lufs":  -13.89,
+                  "salida_tp":  -2.28
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-04-westcol-robot-orgullo-padre/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-04-westcol-robot-orgullo-padre/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-04-westcol-robot-orgullo-padre/revision.jpg",
+    "creado":  "2026-11-04T20:03:43.8718440-05:00"
+}

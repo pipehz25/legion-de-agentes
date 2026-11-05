@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-04-westcol-rolls-royce-diego",
+    "url_fuente":  "https://www.youtube.com/watch?v=AiBzbElWaow",
+    "video_id":  "AiBzbElWaow",
+    "inicio":  500.09,
+    "fin":  525.58,
+    "inicio_hms":  "0:08:20",
+    "duracion_seg":  25.5,
+    "gancho":  "El carro que Westcol siempre ha querido",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  79,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -22.14,
+                  "entrada_tp":  -14.29,
+                  "salida_lufs":  -13.93,
+                  "salida_tp":  -6.3
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-04-westcol-rolls-royce-diego/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-04-westcol-rolls-royce-diego/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-04-westcol-rolls-royce-diego/revision.jpg",
+    "creado":  "2026-11-04T17:17:20.7134141-05:00"
+}

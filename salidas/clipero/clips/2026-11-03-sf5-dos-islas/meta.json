@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-03-sf5-dos-islas",
+    "url_fuente":  "https://www.youtube.com/watch?v=hc_eHyGrndY",
+    "video_id":  "hc_eHyGrndY",
+    "inicio":  470.91,
+    "fin":  513.44,
+    "inicio_hms":  "0:07:50",
+    "duracion_seg":  42.6,
+    "gancho":  "Westcol: la pelea que abre Stream Fighters",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  150,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -22.19,
+                  "entrada_tp":  -14.12,
+                  "salida_lufs":  -13.97,
+                  "salida_tp":  -6.07
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-03-sf5-dos-islas/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-03-sf5-dos-islas/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-03-sf5-dos-islas/revision.jpg",
+    "creado":  "2026-11-03T23:30:04.4544387-05:00"
+}

@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-03-sf5-sebastuco-leandro",
+    "url_fuente":  "https://www.youtube.com/watch?v=hc_eHyGrndY",
+    "video_id":  "hc_eHyGrndY",
+    "inicio":  685.35,
+    "fin":  710.4,
+    "inicio_hms":  "0:11:25",
+    "duracion_seg":  25.1,
+    "gancho":  "Westcol: Leandro no la tiene fácil",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  98,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -21.92,
+                  "entrada_tp":  -12.84,
+                  "salida_lufs":  -13.99,
+                  "salida_tp":  -4.92
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-03-sf5-sebastuco-leandro/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-03-sf5-sebastuco-leandro/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-03-sf5-sebastuco-leandro/revision.jpg",
+    "creado":  "2026-11-03T23:42:42.4892636-05:00"
+}

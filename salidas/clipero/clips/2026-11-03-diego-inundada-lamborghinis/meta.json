@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-03-diego-inundada-lamborghinis",
+    "url_fuente":  "https://www.youtube.com/watch?v=BlYm8d2oNrY",
+    "video_id":  "BlYm8d2oNrY",
+    "inicio":  342.86,
+    "fin":  398.6,
+    "inicio_hms":  "0:05:42",
+    "duracion_seg":  55.8,
+    "gancho":  "Diego RR: «Colombia está inundada de Lamborghinis»",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  142,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -14.18,
+                  "entrada_tp":  -1.66,
+                  "salida_lufs":  -13.95,
+                  "salida_tp":  -1.48
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-03-diego-inundada-lamborghinis/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-03-diego-inundada-lamborghinis/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-03-diego-inundada-lamborghinis/revision.jpg",
+    "creado":  "2026-11-03T22:57:30.1838933-05:00"
+}

@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-04-westcol-robot-salto-tienda",
+    "url_fuente":  "https://www.youtube.com/watch?v=Xrwm98iaWY8",
+    "video_id":  "Xrwm98iaWY8",
+    "inicio":  2326.25,
+    "fin":  2356.98,
+    "inicio_hms":  "0:38:46",
+    "duracion_seg":  30.7,
+    "gancho":  "El robot de Westcol salta en una tienda",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  54,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -9.08,
+                  "entrada_tp":  0.73,
+                  "salida_lufs":  -14.08,
+                  "salida_tp":  -4.21
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-04-westcol-robot-salto-tienda/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-04-westcol-robot-salto-tienda/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-04-westcol-robot-salto-tienda/revision.jpg",
+    "creado":  "2026-11-04T15:55:54.9835494-05:00"
+}

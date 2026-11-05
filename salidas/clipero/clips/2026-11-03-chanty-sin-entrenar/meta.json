@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-03-chanty-sin-entrenar",
+    "url_fuente":  "https://www.youtube.com/watch?v=In4GYQNFCnk",
+    "video_id":  "In4GYQNFCnk",
+    "inicio":  56.25,
+    "fin":  92.22,
+    "inicio_hms":  "0:00:56",
+    "duracion_seg":  36,
+    "gancho":  "The Chanty confiesa: 5 días sin entrenar",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  125,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -20.17,
+                  "entrada_tp":  -7.29,
+                  "salida_lufs":  -14.18,
+                  "salida_tp":  -1.12
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-03-chanty-sin-entrenar/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-03-chanty-sin-entrenar/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-03-chanty-sin-entrenar/revision.jpg",
+    "creado":  "2026-11-03T22:35:33.6214774-05:00"
+}

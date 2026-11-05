@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-03-diego-diez-lambos-ni-uno",
+    "url_fuente":  "https://www.youtube.com/watch?v=3HqbgYS-hWk",
+    "video_id":  "3HqbgYS-hWk",
+    "inicio":  1150.73,
+    "fin":  1213.82,
+    "inicio_hms":  "0:19:10",
+    "duracion_seg":  63.1,
+    "gancho":  "Diego RR: no cualquiera puede tener un Lambo",
+    "subtitulos":  "orig",
+    "palabras_subtituladas":  217,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -13.98,
+                  "entrada_tp":  -1.42,
+                  "salida_lufs":  -14.08,
+                  "salida_tp":  -1.44
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-03-diego-diez-lambos-ni-uno/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-03-diego-diez-lambos-ni-uno/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-03-diego-diez-lambos-ni-uno/revision.jpg",
+    "creado":  "2026-11-03T23:15:36.2273561-05:00"
+}

@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-04-westcol-casa-en-construccion",
+    "url_fuente":  "https://www.youtube.com/watch?v=AiBzbElWaow",
+    "video_id":  "AiBzbElWaow",
+    "inicio":  299.09,
+    "fin":  352.34,
+    "inicio_hms":  "0:04:59",
+    "duracion_seg":  53.3,
+    "gancho":  "Así será la nueva casa de Westcol",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  203,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -22.2,
+                  "entrada_tp":  -12.11,
+                  "salida_lufs":  -13.99,
+                  "salida_tp":  -4.06
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-04-westcol-casa-en-construccion/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-04-westcol-casa-en-construccion/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-04-westcol-casa-en-construccion/revision.jpg",
+    "creado":  "2026-11-04T17:30:53.2029043-05:00"
+}

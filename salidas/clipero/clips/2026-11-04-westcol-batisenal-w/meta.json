@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-04-westcol-batisenal-w",
+    "url_fuente":  "https://www.youtube.com/watch?v=AiBzbElWaow",
+    "video_id":  "AiBzbElWaow",
+    "inicio":  37.57,
+    "fin":  78.62,
+    "inicio_hms":  "0:00:37",
+    "duracion_seg":  41.1,
+    "gancho":  "Westcol quiere una batiseñal de la W",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  152,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14.2,
+                  "limitador":  true,
+                  "entrada_lufs":  -20.16,
+                  "entrada_tp":  -6.97,
+                  "salida_lufs":  -14.29,
+                  "salida_tp":  -1.01
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-04-westcol-batisenal-w/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-04-westcol-batisenal-w/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-04-westcol-batisenal-w/revision.jpg",
+    "creado":  "2026-11-04T15:51:33.4952233-05:00"
+}

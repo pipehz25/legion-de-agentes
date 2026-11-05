@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-04-westcol-americano-kris",
+    "url_fuente":  "https://www.youtube.com/watch?v=mtt8Q1438ic",
+    "video_id":  "mtt8Q1438ic",
+    "inicio":  617.41,
+    "fin":  669.58,
+    "inicio_hms":  "0:10:17",
+    "duracion_seg":  52.2,
+    "gancho":  "Westcol quiere a El Americano con Kris R",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  183,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -23.42,
+                  "entrada_tp":  -13.29,
+                  "salida_lufs":  -13.93,
+                  "salida_tp":  -4.04
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-04-westcol-americano-kris/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-04-westcol-americano-kris/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-04-westcol-americano-kris/revision.jpg",
+    "creado":  "2026-11-04T16:34:19.6914336-05:00"
+}
