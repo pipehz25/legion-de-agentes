@@ -1,7 +1,682 @@
 {
-    "generado":  "2026-11-04T21:50:00-05:00",
-    "ciclo":  8,
+    "generado":  "2026-11-06T02:06:35.5566200-05:00",
+    "ciclo":  9,
     "clips":  [
+                  {
+                      "id":  "2026-11-06-ed138-foto-diez-anos",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  82,
+                      "gancho":  "2026 ED138 ya estaba en las fotos",
+                      "archivo":  "salidas/clipero/clips/2026-11-06-ed138-foto-diez-anos/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-06-ed138-foto-diez-anos/ficha.md",
+                      "duracion_seg":  35.4,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=3fq4h4ae0YY",
+                                     "canal":  "CurioSismo",
+                                     "inicio":  460.65,
+                                     "fin":  495.98
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  1,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-13"
+                  },
+                  {
+                      "id":  "2026-11-06-ed138-oculto-estrellas",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  80,
+                      "gancho":  "Un mundo oculto entre demasiadas estrellas",
+                      "archivo":  "salidas/clipero/clips/2026-11-06-ed138-oculto-estrellas/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-06-ed138-oculto-estrellas/ficha.md",
+                      "duracion_seg":  43.7,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=3fq4h4ae0YY",
+                                     "canal":  "CurioSismo",
+                                     "inicio":  911.05,
+                                     "fin":  954.66
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  2,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-13"
+                  },
+                  {
+                      "id":  "2026-11-06-papiro-leer-sin-abrir",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  79,
+                      "gancho":  "Leyeron un papiro sin abrirlo",
+                      "archivo":  "salidas/clipero/clips/2026-11-06-papiro-leer-sin-abrir/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-06-papiro-leer-sin-abrir/ficha.md",
+                      "duracion_seg":  54.6,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=uq8-x_9vAXs",
+                                     "canal":  "CurioSismo",
+                                     "inicio":  0,
+                                     "fin":  54.54
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  1,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-13"
+                  },
+                  {
+                      "id":  "2026-11-06-papiro-secreto-filosofico",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  77,
+                      "gancho":  "El secreto del papiro carbonizado",
+                      "archivo":  "salidas/clipero/clips/2026-11-06-papiro-secreto-filosofico/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-06-papiro-secreto-filosofico/ficha.md",
+                      "duracion_seg":  43.9,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=uq8-x_9vAXs",
+                                     "canal":  "CurioSismo",
+                                     "inicio":  673.59,
+                                     "fin":  717.44
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  2,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-13"
+                  },
+                  {
+                      "id":  "2026-11-06-pluton-condicion-planeta",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  76,
+                      "gancho":  "La condición que Plutón no cumple",
+                      "archivo":  "salidas/clipero/clips/2026-11-06-pluton-condicion-planeta/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-06-pluton-condicion-planeta/ficha.md",
+                      "duracion_seg":  39.3,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=3fq4h4ae0YY",
+                                     "canal":  "CurioSismo",
+                                     "inicio":  672.61,
+                                     "fin":  711.86
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  3,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-13"
+                  },
+                  {
+                      "id":  "2026-11-06-ayuda-deuda-emocional",
+                      "estado":  "listo",
+                      "tipo":  "frase",
+                      "puntaje":  76,
+                      "gancho":  "Cuando ayudar crea una deuda emocional",
+                      "archivo":  "salidas/clipero/clips/2026-11-06-ayuda-deuda-emocional/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-06-ayuda-deuda-emocional/ficha.md",
+                      "duracion_seg":  21.7,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=sT914Tbv2_s",
+                                     "canal":  "Momentos de la Mente",
+                                     "inicio":  480.31,
+                                     "fin":  501.96
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  1,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-12-06"
+                  },
+                  {
+                      "id":  "2026-11-06-papiro-ia-no-adivina",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  76,
+                      "gancho":  "La IA no adivinó estas palabras",
+                      "archivo":  "salidas/clipero/clips/2026-11-06-papiro-ia-no-adivina/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-06-papiro-ia-no-adivina/ficha.md",
+                      "duracion_seg":  48,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=uq8-x_9vAXs",
+                                     "canal":  "CurioSismo",
+                                     "inicio":  450.95,
+                                     "fin":  498.96
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  3,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-13"
+                  },
+                  {
+                      "id":  "2026-11-06-madre-importante-indispensable",
+                      "estado":  "listo",
+                      "tipo":  "emotivo",
+                      "puntaje":  76,
+                      "gancho":  "Importante sin tener que ser indispensable",
+                      "archivo":  "salidas/clipero/clips/2026-11-06-madre-importante-indispensable/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-06-madre-importante-indispensable/ficha.md",
+                      "duracion_seg":  45.8,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=sT914Tbv2_s",
+                                     "canal":  "Momentos de la Mente",
+                                     "inicio":  956.15,
+                                     "fin":  1001.96
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  2,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-12-06"
+                  },
+                  {
+                      "id":  "2026-11-06-descanso-sin-justificar",
+                      "estado":  "listo",
+                      "tipo":  "frase",
+                      "puntaje":  75,
+                      "gancho":  "No tienes que justificar tu descanso",
+                      "archivo":  "salidas/clipero/clips/2026-11-06-descanso-sin-justificar/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-06-descanso-sin-justificar/ficha.md",
+                      "duracion_seg":  23.8,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=DGnkX2ktBoY",
+                                     "canal":  "Momentos de la Mente",
+                                     "inicio":  1546.48,
+                                     "fin":  1570.25
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  1,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-12-06"
+                  },
+                  {
+                      "id":  "2026-11-06-soledad-experimento-descargas",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  75,
+                      "gancho":  "Eligieron descargas antes que estar sin estímulos",
+                      "archivo":  "salidas/clipero/clips/2026-11-06-soledad-experimento-descargas/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-06-soledad-experimento-descargas/ficha.md",
+                      "duracion_seg":  45.5,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=DGnkX2ktBoY",
+                                     "canal":  "Momentos de la Mente",
+                                     "inicio":  268.06,
+                                     "fin":  313.51
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  2,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-12-06"
+                  },
+                  {
+                      "id":  "2026-11-06-hipopotamos-congreso-carne",
+                      "estado":  "listo",
+                      "tipo":  "historia",
+                      "puntaje":  75,
+                      "gancho":  "Querían criar hipopótamos para comer",
+                      "archivo":  "salidas/clipero/clips/2026-11-06-hipopotamos-congreso-carne/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-06-hipopotamos-congreso-carne/ficha.md",
+                      "duracion_seg":  49.9,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=whgfobzEcqc",
+                                     "canal":  "CurioSismo",
+                                     "inicio":  502.71,
+                                     "fin":  552.6
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  1,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-12-06"
+                  },
+                  {
+                      "id":  "2026-11-06-hijo-carino-sin-competencia",
+                      "estado":  "listo",
+                      "tipo":  "emotivo",
+                      "puntaje":  74,
+                      "gancho":  "Tu hijo no debería tener que elegir",
+                      "archivo":  "salidas/clipero/clips/2026-11-06-hijo-carino-sin-competencia/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-06-hijo-carino-sin-competencia/ficha.md",
+                      "duracion_seg":  61.4,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=sT914Tbv2_s",
+                                     "canal":  "Momentos de la Mente",
+                                     "inicio":  368.35,
+                                     "fin":  429.68
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  3,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-12-06"
+                  },
+                  {
+                      "id":  "2026-11-06-noche-pensamientos-sin-respuesta",
+                      "estado":  "listo",
+                      "tipo":  "emotivo",
+                      "puntaje":  74,
+                      "gancho":  "No debes responder a cada pensamiento",
+                      "archivo":  "salidas/clipero/clips/2026-11-06-noche-pensamientos-sin-respuesta/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-06-noche-pensamientos-sin-respuesta/ficha.md",
+                      "duracion_seg":  27.4,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=6VQixigepm8",
+                                     "canal":  "Momentos de la Mente",
+                                     "inicio":  108.17,
+                                     "fin":  135.5
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  1,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-12-06"
+                  },
+                  {
+                      "id":  "2026-11-06-memoria-cierra-el-libro",
+                      "estado":  "listo",
+                      "tipo":  "consejo",
+                      "puntaje":  74,
+                      "gancho":  "Cierra el libro y comprueba qué recuerdas",
+                      "archivo":  "salidas/clipero/clips/2026-11-06-memoria-cierra-el-libro/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-06-memoria-cierra-el-libro/ficha.md",
+                      "duracion_seg":  36.9,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=lfpQsDO-e0A",
+                                     "canal":  "Momentos de la Mente",
+                                     "inicio":  548.71,
+                                     "fin":  585.6
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  1,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-12-06"
+                  },
+                  {
+                      "id":  "2026-11-06-perros-olor-estres",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  74,
+                      "gancho":  "El estrés tiene un olor",
+                      "archivo":  "salidas/clipero/clips/2026-11-06-perros-olor-estres/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-06-perros-olor-estres/ficha.md",
+                      "duracion_seg":  38.6,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=9PsDzqOsYxY",
+                                     "canal":  "Momentos de la Mente",
+                                     "inicio":  406.23,
+                                     "fin":  444.76
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  1,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-12-06"
+                  },
+                  {
+                      "id":  "2026-11-06-noche-amar-y-descansar",
+                      "estado":  "listo",
+                      "tipo":  "emotivo",
+                      "puntaje":  74,
+                      "gancho":  "Puedes amar y también descansar",
+                      "archivo":  "salidas/clipero/clips/2026-11-06-noche-amar-y-descansar/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-06-noche-amar-y-descansar/ficha.md",
+                      "duracion_seg":  43.7,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=6VQixigepm8",
+                                     "canal":  "Momentos de la Mente",
+                                     "inicio":  623.81,
+                                     "fin":  667.42
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  2,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-12-06"
+                  },
+                  {
+                      "id":  "2026-11-06-noche-pasado-sin-juicio",
+                      "estado":  "listo",
+                      "tipo":  "emotivo",
+                      "puntaje":  74,
+                      "gancho":  "Tu pasado no necesita otro juicio",
+                      "archivo":  "salidas/clipero/clips/2026-11-06-noche-pasado-sin-juicio/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-06-noche-pasado-sin-juicio/ficha.md",
+                      "duracion_seg":  33.5,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=6VQixigepm8",
+                                     "canal":  "Momentos de la Mente",
+                                     "inicio":  543.05,
+                                     "fin":  576.5
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  3,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-12-06"
+                  },
+                  {
+                      "id":  "2026-11-06-socializar-necesitar-silencio",
+                      "estado":  "listo",
+                      "tipo":  "emotivo",
+                      "puntaje":  73,
+                      "gancho":  "Disfrutar la compañía también puede cansarte",
+                      "archivo":  "salidas/clipero/clips/2026-11-06-socializar-necesitar-silencio/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-06-socializar-necesitar-silencio/ficha.md",
+                      "duracion_seg":  47.4,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=DGnkX2ktBoY",
+                                     "canal":  "Momentos de la Mente",
+                                     "inicio":  1118.27,
+                                     "fin":  1165.68
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  3,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-12-06"
+                  },
+                  {
+                      "id":  "2026-11-06-hijo-consejo-o-escucha",
+                      "estado":  "listo",
+                      "tipo":  "consejo",
+                      "puntaje":  73,
+                      "gancho":  "Antes de aconsejar a tu hijo",
+                      "archivo":  "salidas/clipero/clips/2026-11-06-hijo-consejo-o-escucha/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-06-hijo-consejo-o-escucha/ficha.md",
+                      "duracion_seg":  21.8,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=sT914Tbv2_s",
+                                     "canal":  "Momentos de la Mente",
+                                     "inicio":  308.38,
+                                     "fin":  330.11
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  4,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-12-06"
+                  },
+                  {
+                      "id":  "2026-11-06-gatos-ignorar-mito",
+                      "estado":  "listo",
+                      "tipo":  "consejo",
+                      "puntaje":  73,
+                      "gancho":  "¿Los gatos prefieren que los ignores?",
+                      "archivo":  "salidas/clipero/clips/2026-11-06-gatos-ignorar-mito/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-06-gatos-ignorar-mito/ficha.md",
+                      "duracion_seg":  23.6,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=9PsDzqOsYxY",
+                                     "canal":  "Momentos de la Mente",
+                                     "inicio":  184.18,
+                                     "fin":  207.71
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  2,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-12-06"
+                  },
+                  {
+                      "id":  "2026-11-06-gatos-parpadeo-lento",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  73,
+                      "gancho":  "El parpadeo que cambia un encuentro",
+                      "archivo":  "salidas/clipero/clips/2026-11-06-gatos-parpadeo-lento/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-06-gatos-parpadeo-lento/ficha.md",
+                      "duracion_seg":  40.3,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=9PsDzqOsYxY",
+                                     "canal":  "Momentos de la Mente",
+                                     "inicio":  779.31,
+                                     "fin":  819.56
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  3,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-12-06"
+                  },
+                  {
+                      "id":  "2026-11-06-descansar-ayuda-recordar",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  72,
+                      "gancho":  "Descansaron diez minutos y recordaron más",
+                      "archivo":  "salidas/clipero/clips/2026-11-06-descansar-ayuda-recordar/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-06-descansar-ayuda-recordar/ficha.md",
+                      "duracion_seg":  59.6,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=DGnkX2ktBoY",
+                                     "canal":  "Momentos de la Mente",
+                                     "inicio":  490.99,
+                                     "fin":  550.56
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  4,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-12-06"
+                  },
+                  {
+                      "id":  "2026-11-06-hijo-mensajes-presion",
+                      "estado":  "listo",
+                      "tipo":  "consejo",
+                      "puntaje":  72,
+                      "gancho":  "Cuando tus mensajes se vuelven presión",
+                      "archivo":  "salidas/clipero/clips/2026-11-06-hijo-mensajes-presion/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-06-hijo-mensajes-presion/ficha.md",
+                      "duracion_seg":  68,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=sT914Tbv2_s",
+                                     "canal":  "Momentos de la Mente",
+                                     "inicio":  153.5,
+                                     "fin":  221.47
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  5,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-12-06"
+                  },
+                  {
+                      "id":  "2026-11-06-aprender-preguntar-sin-verguenza",
+                      "estado":  "listo",
+                      "tipo":  "consejo",
+                      "puntaje":  72,
+                      "gancho":  "Preguntar no te hace menos inteligente",
+                      "archivo":  "salidas/clipero/clips/2026-11-06-aprender-preguntar-sin-verguenza/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-06-aprender-preguntar-sin-verguenza/ficha.md",
+                      "duracion_seg":  42.2,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=lfpQsDO-e0A",
+                                     "canal":  "Momentos de la Mente",
+                                     "inicio":  784.27,
+                                     "fin":  826.48
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  2,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-12-06"
+                  },
+                  {
+                      "id":  "2026-11-06-memoria-repasos-espaciados",
+                      "estado":  "listo",
+                      "tipo":  "consejo",
+                      "puntaje":  71,
+                      "gancho":  "Estudiar todo de golpe tiene alternativa",
+                      "archivo":  "salidas/clipero/clips/2026-11-06-memoria-repasos-espaciados/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-06-memoria-repasos-espaciados/ficha.md",
+                      "duracion_seg":  56.2,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=lfpQsDO-e0A",
+                                     "canal":  "Momentos de la Mente",
+                                     "inicio":  625.47,
+                                     "fin":  681.64
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  3,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-12-06"
+                  },
+                  {
+                      "id":  "2026-11-06-hipopotamo-no-es-ganado",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  71,
+                      "gancho":  "¿Por qué no criamos hipopótamos?",
+                      "archivo":  "salidas/clipero/clips/2026-11-06-hipopotamo-no-es-ganado/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-06-hipopotamo-no-es-ganado/ficha.md",
+                      "duracion_seg":  45.3,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=whgfobzEcqc",
+                                     "canal":  "CurioSismo",
+                                     "inicio":  887.11,
+                                     "fin":  932.4
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  2,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-12-06"
+                  },
+                  {
+                      "id":  "2026-11-06-hipopotamo-domesticar-no-domar",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  70,
+                      "gancho":  "Obedecer no significa estar domesticado",
+                      "archivo":  "salidas/clipero/clips/2026-11-06-hipopotamo-domesticar-no-domar/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-06-hipopotamo-domesticar-no-domar/ficha.md",
+                      "duracion_seg":  42.3,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=whgfobzEcqc",
+                                     "canal":  "CurioSismo",
+                                     "inicio":  201.06,
+                                     "fin":  243.27
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  3,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-12-06"
+                  },
                   {
                       "id":  "2026-11-04-westcol-robot-sin-seguridad",
                       "estado":  "listo",

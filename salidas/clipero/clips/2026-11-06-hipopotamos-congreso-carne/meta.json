@@ -1,0 +1,28 @@
+{
+    "id":  "2026-11-06-hipopotamos-congreso-carne",
+    "url_fuente":  "https://www.youtube.com/watch?v=whgfobzEcqc",
+    "video_id":  "whgfobzEcqc",
+    "inicio":  502.71,
+    "fin":  552.6,
+    "inicio_hms":  "0:08:22",
+    "duracion_seg":  49.9,
+    "gancho":  "Querían criar hipopótamos para comer",
+    "subtitulos":  "orig",
+    "palabras_subtituladas":  111,
+    "modo":  "desenfoque",
+    "fuente_ancho":  1280,
+    "fuente_alto":  720,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -15.74,
+                  "entrada_tp":  -3.19,
+                  "salida_lufs":  -13.95,
+                  "salida_tp":  -1.45
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-06-hipopotamos-congreso-carne/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-06-hipopotamos-congreso-carne/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-06-hipopotamos-congreso-carne/revision.jpg",
+    "creado":  "2026-11-06T01:19:01.0937774-05:00"
+}

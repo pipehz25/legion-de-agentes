@@ -1,0 +1,28 @@
+{
+    "id":  "2026-11-06-noche-pensamientos-sin-respuesta",
+    "url_fuente":  "https://www.youtube.com/watch?v=6VQixigepm8",
+    "video_id":  "6VQixigepm8",
+    "inicio":  108.17,
+    "fin":  135.5,
+    "inicio_hms":  "0:01:48",
+    "duracion_seg":  27.4,
+    "gancho":  "No debes responder a cada pensamiento",
+    "subtitulos":  "orig",
+    "palabras_subtituladas":  66,
+    "modo":  "desenfoque",
+    "fuente_ancho":  1280,
+    "fuente_alto":  720,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -14.94,
+                  "entrada_tp":  -2.42,
+                  "salida_lufs":  -14.02,
+                  "salida_tp":  -1.48
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-06-noche-pensamientos-sin-respuesta/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-06-noche-pensamientos-sin-respuesta/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-06-noche-pensamientos-sin-respuesta/revision.jpg",
+    "creado":  "2026-11-06T01:21:19.9049788-05:00"
+}

@@ -1,0 +1,28 @@
+{
+    "id":  "2026-11-06-soledad-experimento-descargas",
+    "url_fuente":  "https://www.youtube.com/watch?v=DGnkX2ktBoY",
+    "video_id":  "DGnkX2ktBoY",
+    "inicio":  268.06,
+    "fin":  313.51,
+    "inicio_hms":  "0:04:28",
+    "duracion_seg":  45.5,
+    "gancho":  "Eligieron descargas antes que estar sin estímulos",
+    "subtitulos":  "orig",
+    "palabras_subtituladas":  99,
+    "modo":  "desenfoque",
+    "fuente_ancho":  1280,
+    "fuente_alto":  720,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -14.64,
+                  "entrada_tp":  -2.11,
+                  "salida_lufs":  -13.93,
+                  "salida_tp":  -1.47
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-06-soledad-experimento-descargas/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-06-soledad-experimento-descargas/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-06-soledad-experimento-descargas/revision.jpg",
+    "creado":  "2026-11-06T01:45:47.7112207-05:00"
+}

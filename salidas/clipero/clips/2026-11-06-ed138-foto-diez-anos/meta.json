@@ -1,0 +1,28 @@
+{
+    "id":  "2026-11-06-ed138-foto-diez-anos",
+    "url_fuente":  "https://www.youtube.com/watch?v=3fq4h4ae0YY",
+    "video_id":  "3fq4h4ae0YY",
+    "inicio":  460.65,
+    "fin":  495.98,
+    "inicio_hms":  "0:07:40",
+    "duracion_seg":  35.4,
+    "gancho":  "2026 ED138 ya estaba en las fotos",
+    "subtitulos":  "orig",
+    "palabras_subtituladas":  80,
+    "modo":  "desenfoque",
+    "fuente_ancho":  1280,
+    "fuente_alto":  720,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -15.36,
+                  "entrada_tp":  -2.82,
+                  "salida_lufs":  -14,
+                  "salida_tp":  -1.46
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-06-ed138-foto-diez-anos/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-06-ed138-foto-diez-anos/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-06-ed138-foto-diez-anos/revision.jpg",
+    "creado":  "2026-11-06T01:03:02.9299710-05:00"
+}

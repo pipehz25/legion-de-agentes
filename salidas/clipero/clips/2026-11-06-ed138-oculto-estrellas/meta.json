@@ -1,0 +1,28 @@
+{
+    "id":  "2026-11-06-ed138-oculto-estrellas",
+    "url_fuente":  "https://www.youtube.com/watch?v=3fq4h4ae0YY",
+    "video_id":  "3fq4h4ae0YY",
+    "inicio":  911.05,
+    "fin":  954.66,
+    "inicio_hms":  "0:15:11",
+    "duracion_seg":  43.7,
+    "gancho":  "Un mundo oculto entre demasiadas estrellas",
+    "subtitulos":  "orig",
+    "palabras_subtituladas":  102,
+    "modo":  "desenfoque",
+    "fuente_ancho":  1280,
+    "fuente_alto":  720,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -15.62,
+                  "entrada_tp":  -3.1,
+                  "salida_lufs":  -13.9,
+                  "salida_tp":  -1.48
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-06-ed138-oculto-estrellas/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-06-ed138-oculto-estrellas/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-06-ed138-oculto-estrellas/revision.jpg",
+    "creado":  "2026-11-06T01:04:06.7848667-05:00"
+}

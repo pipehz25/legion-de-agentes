@@ -1,0 +1,28 @@
+{
+    "id":  "2026-11-06-noche-amar-y-descansar",
+    "url_fuente":  "https://www.youtube.com/watch?v=6VQixigepm8",
+    "video_id":  "6VQixigepm8",
+    "inicio":  623.81,
+    "fin":  667.42,
+    "inicio_hms":  "0:10:23",
+    "duracion_seg":  43.7,
+    "gancho":  "Puedes amar y también descansar",
+    "subtitulos":  "orig",
+    "palabras_subtituladas":  107,
+    "modo":  "desenfoque",
+    "fuente_ancho":  1280,
+    "fuente_alto":  720,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -14.44,
+                  "entrada_tp":  -1.92,
+                  "salida_lufs":  -13.94,
+                  "salida_tp":  -1.48
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-06-noche-amar-y-descansar/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-06-noche-amar-y-descansar/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-06-noche-amar-y-descansar/revision.jpg",
+    "creado":  "2026-11-06T01:26:37.5390201-05:00"
+}

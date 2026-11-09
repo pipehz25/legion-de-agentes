@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-05-westcol-clave-exito-obsesion",
+    "url_fuente":  "https://www.youtube.com/watch?v=t_8NxIElLH0",
+    "video_id":  "t_8NxIElLH0",
+    "inicio":  0.29,
+    "fin":  43.26,
+    "inicio_hms":  "0:00:00",
+    "duracion_seg":  43,
+    "gancho":  "La clave del éxito según Westcol",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  150,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -22.49,
+                  "entrada_tp":  -13.29,
+                  "salida_lufs":  -13.93,
+                  "salida_tp":  -5.22
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-05-westcol-clave-exito-obsesion/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-05-westcol-clave-exito-obsesion/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-05-westcol-clave-exito-obsesion/revision.jpg",
+    "creado":  "2026-11-05T09:56:24.6832506-05:00"
+}

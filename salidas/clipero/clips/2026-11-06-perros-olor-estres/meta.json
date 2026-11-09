@@ -1,0 +1,28 @@
+{
+    "id":  "2026-11-06-perros-olor-estres",
+    "url_fuente":  "https://www.youtube.com/watch?v=9PsDzqOsYxY",
+    "video_id":  "9PsDzqOsYxY",
+    "inicio":  406.23,
+    "fin":  444.76,
+    "inicio_hms":  "0:06:46",
+    "duracion_seg":  38.6,
+    "gancho":  "El estrés tiene un olor",
+    "subtitulos":  "orig",
+    "palabras_subtituladas":  85,
+    "modo":  "desenfoque",
+    "fuente_ancho":  1280,
+    "fuente_alto":  720,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -13.82,
+                  "entrada_tp":  -1.12,
+                  "salida_lufs":  -13.85,
+                  "salida_tp":  -1.32
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-06-perros-olor-estres/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-06-perros-olor-estres/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-06-perros-olor-estres/revision.jpg",
+    "creado":  "2026-11-06T01:25:26.5870388-05:00"
+}

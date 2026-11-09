@@ -1,0 +1,28 @@
+{
+    "id":  "2026-11-06-noche-pasado-sin-juicio",
+    "url_fuente":  "https://www.youtube.com/watch?v=6VQixigepm8",
+    "video_id":  "6VQixigepm8",
+    "inicio":  543.05,
+    "fin":  576.5,
+    "inicio_hms":  "0:09:03",
+    "duracion_seg":  33.5,
+    "gancho":  "Tu pasado no necesita otro juicio",
+    "subtitulos":  "orig",
+    "palabras_subtituladas":  84,
+    "modo":  "desenfoque",
+    "fuente_ancho":  1280,
+    "fuente_alto":  720,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -14.66,
+                  "entrada_tp":  -2.14,
+                  "salida_lufs":  -13.89,
+                  "salida_tp":  -1.48
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-06-noche-pasado-sin-juicio/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-06-noche-pasado-sin-juicio/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-06-noche-pasado-sin-juicio/revision.jpg",
+    "creado":  "2026-11-06T01:27:35.6291721-05:00"
+}

@@ -1,0 +1,28 @@
+{
+    "id":  "2026-11-06-hipopotamo-domesticar-no-domar",
+    "url_fuente":  "https://www.youtube.com/watch?v=whgfobzEcqc",
+    "video_id":  "whgfobzEcqc",
+    "inicio":  201.06,
+    "fin":  243.27,
+    "inicio_hms":  "0:03:21",
+    "duracion_seg":  42.3,
+    "gancho":  "Obedecer no significa estar domesticado",
+    "subtitulos":  "orig",
+    "palabras_subtituladas":  102,
+    "modo":  "desenfoque",
+    "fuente_ancho":  1280,
+    "fuente_alto":  720,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -16.45,
+                  "entrada_tp":  -3.92,
+                  "salida_lufs":  -13.96,
+                  "salida_tp":  -1.47
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-06-hipopotamo-domesticar-no-domar/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-06-hipopotamo-domesticar-no-domar/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-06-hipopotamo-domesticar-no-domar/revision.jpg",
+    "creado":  "2026-11-06T01:41:42.7931193-05:00"
+}

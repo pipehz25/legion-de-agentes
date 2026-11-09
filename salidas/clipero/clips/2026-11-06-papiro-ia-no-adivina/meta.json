@@ -1,0 +1,28 @@
+{
+    "id":  "2026-11-06-papiro-ia-no-adivina",
+    "url_fuente":  "https://www.youtube.com/watch?v=uq8-x_9vAXs",
+    "video_id":  "uq8-x_9vAXs",
+    "inicio":  450.95,
+    "fin":  498.96,
+    "inicio_hms":  "0:07:30",
+    "duracion_seg":  48,
+    "gancho":  "La IA no adivinó estas palabras",
+    "subtitulos":  "orig",
+    "palabras_subtituladas":  111,
+    "modo":  "desenfoque",
+    "fuente_ancho":  1280,
+    "fuente_alto":  720,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -15.11,
+                  "entrada_tp":  -2.57,
+                  "salida_lufs":  -13.9,
+                  "salida_tp":  -1.46
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-06-papiro-ia-no-adivina/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-06-papiro-ia-no-adivina/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-06-papiro-ia-no-adivina/revision.jpg",
+    "creado":  "2026-11-06T01:10:43.6821557-05:00"
+}

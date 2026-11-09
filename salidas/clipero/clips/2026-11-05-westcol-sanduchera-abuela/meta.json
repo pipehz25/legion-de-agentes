@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-05-westcol-sanduchera-abuela",
+    "url_fuente":  "https://www.youtube.com/watch?v=t_8NxIElLH0",
+    "video_id":  "t_8NxIElLH0",
+    "inicio":  1003.25,
+    "fin":  1067.26,
+    "inicio_hms":  "0:16:43",
+    "duracion_seg":  64.1,
+    "gancho":  "Westcol vendió la sanduchera de su abuela",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  229,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -22.24,
+                  "entrada_tp":  -14.1,
+                  "salida_lufs":  -13.92,
+                  "salida_tp":  -5.86
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-05-westcol-sanduchera-abuela/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-05-westcol-sanduchera-abuela/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-05-westcol-sanduchera-abuela/revision.jpg",
+    "creado":  "2026-11-05T10:07:01.7441523-05:00"
+}

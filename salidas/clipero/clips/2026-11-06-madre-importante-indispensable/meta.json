@@ -1,0 +1,28 @@
+{
+    "id":  "2026-11-06-madre-importante-indispensable",
+    "url_fuente":  "https://www.youtube.com/watch?v=sT914Tbv2_s",
+    "video_id":  "sT914Tbv2_s",
+    "inicio":  956.15,
+    "fin":  1001.96,
+    "inicio_hms":  "0:15:56",
+    "duracion_seg":  45.8,
+    "gancho":  "Importante sin tener que ser indispensable",
+    "subtitulos":  "orig",
+    "palabras_subtituladas":  124,
+    "modo":  "desenfoque",
+    "fuente_ancho":  1280,
+    "fuente_alto":  720,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -14.51,
+                  "entrada_tp":  -1.73,
+                  "salida_lufs":  -13.9,
+                  "salida_tp":  -1.25
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-06-madre-importante-indispensable/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-06-madre-importante-indispensable/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-06-madre-importante-indispensable/revision.jpg",
+    "creado":  "2026-11-06T01:43:48.5191584-05:00"
+}

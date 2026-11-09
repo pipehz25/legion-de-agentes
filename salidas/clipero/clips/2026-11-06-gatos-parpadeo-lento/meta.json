@@ -1,0 +1,28 @@
+{
+    "id":  "2026-11-06-gatos-parpadeo-lento",
+    "url_fuente":  "https://www.youtube.com/watch?v=9PsDzqOsYxY",
+    "video_id":  "9PsDzqOsYxY",
+    "inicio":  779.31,
+    "fin":  819.56,
+    "inicio_hms":  "0:12:59",
+    "duracion_seg":  40.3,
+    "gancho":  "El parpadeo que cambia un encuentro",
+    "subtitulos":  "orig",
+    "palabras_subtituladas":  97,
+    "modo":  "desenfoque",
+    "fuente_ancho":  1280,
+    "fuente_alto":  720,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -13.65,
+                  "entrada_tp":  -1.15,
+                  "salida_lufs":  -13.98,
+                  "salida_tp":  -1.5
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-06-gatos-parpadeo-lento/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-06-gatos-parpadeo-lento/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-06-gatos-parpadeo-lento/revision.jpg",
+    "creado":  "2026-11-06T01:32:27.3412363-05:00"
+}

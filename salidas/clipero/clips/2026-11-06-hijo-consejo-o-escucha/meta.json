@@ -1,0 +1,28 @@
+{
+    "id":  "2026-11-06-hijo-consejo-o-escucha",
+    "url_fuente":  "https://www.youtube.com/watch?v=sT914Tbv2_s",
+    "video_id":  "sT914Tbv2_s",
+    "inicio":  308.38,
+    "fin":  330.11,
+    "inicio_hms":  "0:05:08",
+    "duracion_seg":  21.8,
+    "gancho":  "Antes de aconsejar a tu hijo",
+    "subtitulos":  "orig",
+    "palabras_subtituladas":  64,
+    "modo":  "desenfoque",
+    "fuente_ancho":  1280,
+    "fuente_alto":  720,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -14.81,
+                  "entrada_tp":  -2.29,
+                  "salida_lufs":  -13.93,
+                  "salida_tp":  -1.48
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-06-hijo-consejo-o-escucha/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-06-hijo-consejo-o-escucha/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-06-hijo-consejo-o-escucha/revision.jpg",
+    "creado":  "2026-11-06T01:30:18.0740998-05:00"
+}

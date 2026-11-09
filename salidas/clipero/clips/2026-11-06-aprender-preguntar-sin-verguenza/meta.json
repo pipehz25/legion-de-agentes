@@ -1,0 +1,28 @@
+{
+    "id":  "2026-11-06-aprender-preguntar-sin-verguenza",
+    "url_fuente":  "https://www.youtube.com/watch?v=lfpQsDO-e0A",
+    "video_id":  "lfpQsDO-e0A",
+    "inicio":  784.27,
+    "fin":  826.48,
+    "inicio_hms":  "0:13:04",
+    "duracion_seg":  42.2,
+    "gancho":  "Preguntar no te hace menos inteligente",
+    "subtitulos":  "orig",
+    "palabras_subtituladas":  97,
+    "modo":  "desenfoque",
+    "fuente_ancho":  1280,
+    "fuente_alto":  720,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -14.32,
+                  "entrada_tp":  -1.83,
+                  "salida_lufs":  -13.93,
+                  "salida_tp":  -1.51
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-06-aprender-preguntar-sin-verguenza/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-06-aprender-preguntar-sin-verguenza/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-06-aprender-preguntar-sin-verguenza/revision.jpg",
+    "creado":  "2026-11-06T01:47:07.2376440-05:00"
+}

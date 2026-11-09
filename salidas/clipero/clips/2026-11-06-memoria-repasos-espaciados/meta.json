@@ -1,0 +1,28 @@
+{
+    "id":  "2026-11-06-memoria-repasos-espaciados",
+    "url_fuente":  "https://www.youtube.com/watch?v=lfpQsDO-e0A",
+    "video_id":  "lfpQsDO-e0A",
+    "inicio":  625.47,
+    "fin":  681.64,
+    "inicio_hms":  "0:10:25",
+    "duracion_seg":  56.2,
+    "gancho":  "Estudiar todo de golpe tiene alternativa",
+    "subtitulos":  "orig",
+    "palabras_subtituladas":  132,
+    "modo":  "desenfoque",
+    "fuente_ancho":  1280,
+    "fuente_alto":  720,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -14.57,
+                  "entrada_tp":  -2.07,
+                  "salida_lufs":  -13.92,
+                  "salida_tp":  -1.5
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-06-memoria-repasos-espaciados/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-06-memoria-repasos-espaciados/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-06-memoria-repasos-espaciados/revision.jpg",
+    "creado":  "2026-11-06T01:49:35.5064992-05:00"
+}

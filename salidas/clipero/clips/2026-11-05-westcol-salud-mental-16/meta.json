@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-05-westcol-salud-mental-16",
+    "url_fuente":  "https://www.youtube.com/watch?v=t_8NxIElLH0",
+    "video_id":  "t_8NxIElLH0",
+    "inicio":  202.81,
+    "fin":  247.86,
+    "inicio_hms":  "0:03:22",
+    "duracion_seg":  45.1,
+    "gancho":  "¿En qué invertir a los 16 años?",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  143,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -22.34,
+                  "entrada_tp":  -14.32,
+                  "salida_lufs":  -13.86,
+                  "salida_tp":  -6.23
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-05-westcol-salud-mental-16/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-05-westcol-salud-mental-16/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-05-westcol-salud-mental-16/revision.jpg",
+    "creado":  "2026-11-05T10:02:36.3193381-05:00"
+}

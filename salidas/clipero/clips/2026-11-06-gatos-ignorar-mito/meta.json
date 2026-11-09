@@ -1,0 +1,28 @@
+{
+    "id":  "2026-11-06-gatos-ignorar-mito",
+    "url_fuente":  "https://www.youtube.com/watch?v=9PsDzqOsYxY",
+    "video_id":  "9PsDzqOsYxY",
+    "inicio":  184.18,
+    "fin":  207.71,
+    "inicio_hms":  "0:03:04",
+    "duracion_seg":  23.6,
+    "gancho":  "¿Los gatos prefieren que los ignores?",
+    "subtitulos":  "orig",
+    "palabras_subtituladas":  58,
+    "modo":  "desenfoque",
+    "fuente_ancho":  1280,
+    "fuente_alto":  720,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -13.81,
+                  "entrada_tp":  -1.04,
+                  "salida_lufs":  -13.98,
+                  "salida_tp":  -1.26
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-06-gatos-ignorar-mito/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-06-gatos-ignorar-mito/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-06-gatos-ignorar-mito/revision.jpg",
+    "creado":  "2026-11-06T01:31:06.5577430-05:00"
+}

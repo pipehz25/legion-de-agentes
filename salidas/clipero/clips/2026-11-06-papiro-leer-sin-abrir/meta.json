@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-06-papiro-leer-sin-abrir",
+    "url_fuente":  "https://www.youtube.com/watch?v=uq8-x_9vAXs",
+    "video_id":  "uq8-x_9vAXs",
+    "inicio":  0,
+    "fin":  54.54,
+    "inicio_hms":  "0:00:00",
+    "duracion_seg":  54.6,
+    "gancho":  "Leyeron un papiro sin abrirlo",
+    "subtitulos":  "orig",
+    "palabras_subtituladas":  128,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -14.91,
+                  "entrada_tp":  -2.4,
+                  "salida_lufs":  -13.92,
+                  "salida_tp":  -1.49
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-06-papiro-leer-sin-abrir/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-06-papiro-leer-sin-abrir/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-06-papiro-leer-sin-abrir/revision.jpg",
+    "creado":  "2026-11-06T00:46:56.3190306-05:00"
+}

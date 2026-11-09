@@ -1,0 +1,28 @@
+{
+    "id":  "2026-11-06-pluton-condicion-planeta",
+    "url_fuente":  "https://www.youtube.com/watch?v=3fq4h4ae0YY",
+    "video_id":  "3fq4h4ae0YY",
+    "inicio":  672.61,
+    "fin":  711.86,
+    "inicio_hms":  "0:11:12",
+    "duracion_seg":  39.3,
+    "gancho":  "La condición que Plutón no cumple",
+    "subtitulos":  "orig",
+    "palabras_subtituladas":  89,
+    "modo":  "desenfoque",
+    "fuente_ancho":  1280,
+    "fuente_alto":  720,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -15.66,
+                  "entrada_tp":  -3.14,
+                  "salida_lufs":  -13.93,
+                  "salida_tp":  -1.48
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-06-pluton-condicion-planeta/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-06-pluton-condicion-planeta/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-06-pluton-condicion-planeta/revision.jpg",
+    "creado":  "2026-11-06T01:07:25.2920364-05:00"
+}

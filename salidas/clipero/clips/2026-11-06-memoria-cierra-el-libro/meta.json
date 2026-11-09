@@ -1,0 +1,28 @@
+{
+    "id":  "2026-11-06-memoria-cierra-el-libro",
+    "url_fuente":  "https://www.youtube.com/watch?v=lfpQsDO-e0A",
+    "video_id":  "lfpQsDO-e0A",
+    "inicio":  548.71,
+    "fin":  585.6,
+    "inicio_hms":  "0:09:08",
+    "duracion_seg":  36.9,
+    "gancho":  "Cierra el libro y comprueba qué recuerdas",
+    "subtitulos":  "orig",
+    "palabras_subtituladas":  85,
+    "modo":  "desenfoque",
+    "fuente_ancho":  1280,
+    "fuente_alto":  720,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -14.69,
+                  "entrada_tp":  -2.19,
+                  "salida_lufs":  -14.02,
+                  "salida_tp":  -1.5
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-06-memoria-cierra-el-libro/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-06-memoria-cierra-el-libro/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-06-memoria-cierra-el-libro/revision.jpg",
+    "creado":  "2026-11-06T01:22:25.6674255-05:00"
+}

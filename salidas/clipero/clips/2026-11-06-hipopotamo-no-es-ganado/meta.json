@@ -1,0 +1,28 @@
+{
+    "id":  "2026-11-06-hipopotamo-no-es-ganado",
+    "url_fuente":  "https://www.youtube.com/watch?v=whgfobzEcqc",
+    "video_id":  "whgfobzEcqc",
+    "inicio":  887.11,
+    "fin":  932.4,
+    "inicio_hms":  "0:14:47",
+    "duracion_seg":  45.3,
+    "gancho":  "¿Por qué no criamos hipopótamos?",
+    "subtitulos":  "orig",
+    "palabras_subtituladas":  99,
+    "modo":  "desenfoque",
+    "fuente_ancho":  1280,
+    "fuente_alto":  720,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -16.3,
+                  "entrada_tp":  -3.74,
+                  "salida_lufs":  -14.14,
+                  "salida_tp":  -1.44
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-06-hipopotamo-no-es-ganado/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-06-hipopotamo-no-es-ganado/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-06-hipopotamo-no-es-ganado/revision.jpg",
+    "creado":  "2026-11-06T01:40:35.9093836-05:00"
+}

@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-05-westcol-robot-cabeza-blessd",
+    "url_fuente":  "https://www.youtube.com/watch?v=t_8NxIElLH0",
+    "video_id":  "t_8NxIElLH0",
+    "inicio":  691.41,
+    "fin":  716.46,
+    "inicio_hms":  "0:11:31",
+    "duracion_seg":  25.1,
+    "gancho":  "Westcol teme por su robot ante Blessd",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  89,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -23.5,
+                  "entrada_tp":  -14.6,
+                  "salida_lufs":  -13.91,
+                  "salida_tp":  -5.1
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-05-westcol-robot-cabeza-blessd/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-05-westcol-robot-cabeza-blessd/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-05-westcol-robot-cabeza-blessd/revision.jpg",
+    "creado":  "2026-11-05T09:53:18.6168630-05:00"
+}

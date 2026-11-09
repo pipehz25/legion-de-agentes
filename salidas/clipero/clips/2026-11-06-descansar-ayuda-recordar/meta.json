@@ -1,0 +1,28 @@
+{
+    "id":  "2026-11-06-descansar-ayuda-recordar",
+    "url_fuente":  "https://www.youtube.com/watch?v=DGnkX2ktBoY",
+    "video_id":  "DGnkX2ktBoY",
+    "inicio":  490.99,
+    "fin":  550.56,
+    "inicio_hms":  "0:08:10",
+    "duracion_seg":  59.6,
+    "gancho":  "Descansaron diez minutos y recordaron más",
+    "subtitulos":  "orig",
+    "palabras_subtituladas":  135,
+    "modo":  "desenfoque",
+    "fuente_ancho":  1280,
+    "fuente_alto":  720,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -14.26,
+                  "entrada_tp":  -1.79,
+                  "salida_lufs":  -13.89,
+                  "salida_tp":  -1.53
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-06-descansar-ayuda-recordar/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-06-descansar-ayuda-recordar/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-06-descansar-ayuda-recordar/revision.jpg",
+    "creado":  "2026-11-06T01:34:32.2020771-05:00"
+}

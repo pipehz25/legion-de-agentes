@@ -20,6 +20,7 @@
 #   cortar   -Url <url> -Inicio <seg> -Fin <seg> -Id <clip-id> [-Gancho "<texto>"] [-Subs orig|es|ninguno|whisper|<sufijo>] [-Modo desenfoque|recorte]
 #            -Subs whisper: transcribe con whisper solo el tramo del clip (fuentes sin subtitulos).
 #            -> salidas/clipero/clips/<Id>/clip.mp4 (1080x1920, subtitulos quemados), portada.jpg y meta.json
+#            -AlturaFuente 720 limita la descarga de origen; la salida sigue siendo 1080x1920 (por defecto: 1080).
 # Uso: powershell -NoProfile -ExecutionPolicy Bypass -File legion/02-clipero/clipero.ps1 <accion> ...
 # Requiere herramientas/bin (yt-dlp, ffmpeg, deno): powershell -NoProfile -ExecutionPolicy Bypass -File herramientas/instalar.ps1
 
@@ -39,6 +40,7 @@ param(
     [string]$Id,
     [string]$Gancho = '',
     [string]$Subs = 'orig',
+    [ValidateSet(360,480,720,1080)][int]$AlturaFuente = 1080,
     [ValidateSet('desenfoque', 'recorte')][string]$Modo = 'desenfoque'
 )
 
@@ -521,10 +523,12 @@ if ($palabras.Count) {
 $durClip = $fin - $ini
 
 try {
-    YtDlp @('--no-playlist', '-f', 'bv*[height<=1080]+ba/b[height<=1080]/b', '--merge-output-format', 'mp4',
+    YtDlp @('--no-playlist', '-f', "bv*[height<=$AlturaFuente]+ba/b[height<=$AlturaFuente]/b", '--merge-output-format', 'mp4',
+        '--downloader-args', 'ffmpeg_i:-rw_timeout 30000000',
         '--download-sections', "*$(Num $ini)-$(Num $fin)", '--force-keyframes-at-cuts', '-o', (Join-Path $trabajo 'seccion.%(ext)s'), $Url)
     $video = Get-ChildItem $trabajo -Filter 'seccion.*' | Select-Object -First 1
     if (-not $video) { throw 'yt-dlp no produjo el video de la seccion' }
+    $sourceVideoInfo = (& $ffprobe -v error -select_streams v:0 -show_entries stream=width,height -of json $video.FullName | Out-String | ConvertFrom-Json).streams | Select-Object -First 1
 
     # -Subs whisper: transcribe solo el tramo del clip (segundos, no horas), para fuentes sin subtitulos.
     # Las palabras se guardan junto a la fuente (palabras-whisper.json) para poder corregirlas con palabras-rev.json y -Subs rev.
@@ -601,6 +605,7 @@ try {
         id = $Id; url_fuente = $Url; video_id = $vid
         inicio = [math]::Round($ini, 2); fin = [math]::Round($fin, 2); inicio_hms = Hms $ini; duracion_seg = [math]::Round($real, 1)
         gancho = $Gancho; subtitulos = $(if ($ws.Count) { $Subs } else { 'ninguno' }); palabras_subtituladas = $ws.Count; modo = $Modo
+        fuente_ancho = $sourceVideoInfo.width; fuente_alto = $sourceVideoInfo.height
         audio = $audio
         archivo = Relativa (Join-Path $salida 'clip.mp4'); portada = Relativa (Join-Path $salida 'portada.jpg')
         revision = Relativa (Join-Path $salida 'revision.jpg')

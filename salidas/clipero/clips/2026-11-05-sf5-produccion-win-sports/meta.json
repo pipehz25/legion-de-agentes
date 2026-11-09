@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-05-sf5-produccion-win-sports",
+    "url_fuente":  "https://www.youtube.com/watch?v=t_8NxIElLH0",
+    "video_id":  "t_8NxIElLH0",
+    "inicio":  720.85,
+    "fin":  758.66,
+    "inicio_hms":  "0:12:00",
+    "duracion_seg":  37.9,
+    "gancho":  "Stream Fighters 5 llega con Win Sports",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  143,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -22.99,
+                  "entrada_tp":  -14.03,
+                  "salida_lufs":  -13.84,
+                  "salida_tp":  -5.07
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-05-sf5-produccion-win-sports/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-05-sf5-produccion-win-sports/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-05-sf5-produccion-win-sports/revision.jpg",
+    "creado":  "2026-11-05T09:59:11.0078127-05:00"
+}

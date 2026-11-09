@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-05-sf5-nuevo-artista",
+    "url_fuente":  "https://www.youtube.com/watch?v=t_8NxIElLH0",
+    "video_id":  "t_8NxIElLH0",
+    "inicio":  548.61,
+    "fin":  567.46,
+    "inicio_hms":  "0:09:08",
+    "duracion_seg":  18.9,
+    "gancho":  "¿Otro artista para Stream Fighters 5?",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  54,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -22.71,
+                  "entrada_tp":  -14.2,
+                  "salida_lufs":  -13.87,
+                  "salida_tp":  -5.49
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-05-sf5-nuevo-artista/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-05-sf5-nuevo-artista/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-05-sf5-nuevo-artista/revision.jpg",
+    "creado":  "2026-11-05T10:08:24.9152274-05:00"
+}

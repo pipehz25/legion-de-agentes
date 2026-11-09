@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-05-westcol-apagon-redes",
+    "url_fuente":  "https://www.youtube.com/watch?v=t_8NxIElLH0",
+    "video_id":  "t_8NxIElLH0",
+    "inicio":  855.93,
+    "fin":  892.14,
+    "inicio_hms":  "0:14:15",
+    "duracion_seg":  36.2,
+    "gancho":  "La teoría de Westcol: el apagón de redes",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  128,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -22.46,
+                  "entrada_tp":  -13.83,
+                  "salida_lufs":  -13.97,
+                  "salida_tp":  -5.67
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-05-westcol-apagon-redes/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-05-westcol-apagon-redes/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-05-westcol-apagon-redes/revision.jpg",
+    "creado":  "2026-11-05T10:24:18.0730461-05:00"
+}

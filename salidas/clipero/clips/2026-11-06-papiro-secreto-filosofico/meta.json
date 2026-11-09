@@ -1,0 +1,28 @@
+{
+    "id":  "2026-11-06-papiro-secreto-filosofico",
+    "url_fuente":  "https://www.youtube.com/watch?v=uq8-x_9vAXs",
+    "video_id":  "uq8-x_9vAXs",
+    "inicio":  673.59,
+    "fin":  717.44,
+    "inicio_hms":  "0:11:13",
+    "duracion_seg":  43.9,
+    "gancho":  "El secreto del papiro carbonizado",
+    "subtitulos":  "orig",
+    "palabras_subtituladas":  100,
+    "modo":  "desenfoque",
+    "fuente_ancho":  1280,
+    "fuente_alto":  720,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -15.31,
+                  "entrada_tp":  -2.81,
+                  "salida_lufs":  -13.94,
+                  "salida_tp":  -1.5
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-06-papiro-secreto-filosofico/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-06-papiro-secreto-filosofico/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-06-papiro-secreto-filosofico/revision.jpg",
+    "creado":  "2026-11-06T01:05:37.4351048-05:00"
+}

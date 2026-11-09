@@ -1,0 +1,28 @@
+{
+    "id":  "2026-11-06-ayuda-deuda-emocional",
+    "url_fuente":  "https://www.youtube.com/watch?v=sT914Tbv2_s",
+    "video_id":  "sT914Tbv2_s",
+    "inicio":  480.31,
+    "fin":  501.96,
+    "inicio_hms":  "0:08:00",
+    "duracion_seg":  21.7,
+    "gancho":  "Cuando ayudar crea una deuda emocional",
+    "subtitulos":  "orig",
+    "palabras_subtituladas":  59,
+    "modo":  "desenfoque",
+    "fuente_ancho":  1280,
+    "fuente_alto":  720,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -15.19,
+                  "entrada_tp":  -2.65,
+                  "salida_lufs":  -13.91,
+                  "salida_tp":  -1.46
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-06-ayuda-deuda-emocional/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-06-ayuda-deuda-emocional/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-06-ayuda-deuda-emocional/revision.jpg",
+    "creado":  "2026-11-06T01:08:40.6056701-05:00"
+}
