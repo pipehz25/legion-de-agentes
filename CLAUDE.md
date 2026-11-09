@@ -19,7 +19,9 @@ Una legión de agentes autónomos, cada uno controlado por un loop. Esta sesión
 | `/turno-cazador` | Santiago | 01 | `/loop 6h /turno-cazador` |
 | `/turno-clips` | Felipe (tiene los videos y las credenciales de las plataformas) | 02 → 03 | `/loop 6h /turno-clips`, arrancado como una hora después del de Santiago |
 
-Mientras rija el reparto, nadie corre `/legion` ni `/cazador-viral` en la PC de los clips: dos Cazadores a la vez se pisan `datos/cazador-viral/`. Los videos no viajan por GitHub (`.gitignore`), así que el Publicador tiene que correr en la misma PC que el Clipero.
+Mientras rija el reparto, nadie corre `/legion` ni `/cazador-viral` en la PC de los clips: dos Cazadores a la vez se pisan `datos/cazador-viral/`.
+
+**Excepción temporal (desde el 2026-11-08, decisión de Felipe):** el Cazador de Santiago no sube nada desde el 3-nov, así que la PC de Felipe corre también `/turno-cazador` antes de cada `/turno-clips`. Antes de cada turno mira GitHub, y en cuanto vea commits del Cazador hechos desde la PC de Santiago en las últimas 8 h, deja de correrlo. **Santiago:** si reactivas tu loop, avísale a Felipe. Los videos no viajan por GitHub (`.gitignore`), así que el Publicador tiene que correr en la misma PC que el Clipero.
 
 ## Convenciones para todo agente
 

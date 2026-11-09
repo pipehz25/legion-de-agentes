@@ -11,6 +11,13 @@
     "lecturas_web": 8
   },
 
+  "kick": {
+    "max_directos_por_ciclo": 2,
+    "max_candidatos_por_directo": 6,
+    "vistazo_cada_seg": 60
+  },
+  "_kick": "Autorizacion permanente del usuario (2026-11-08): VOD de Kick de los perfiles con subtitulos de whisper. Bajar la copia ligera tarda unos 25 min por directo de 5 h y cada candidato unos 5 min.",
+
   "fuente": {
     "duracion_min_seg": 480,
     "max_edad_dias": 7,
