@@ -1,5 +1,12 @@
 # La noche en 3 momentos (lo que no salió en las noticias)
 
+> **Estado (08-nov, ciclo 6): se reactiva para Stream Fighters 5, del 14 al 16-nov.** Versión "La noche de Stream Fighters en 3 momentos":
+> - **Gancho (0-2 s):** "3 momentos de Stream Fighters 5 que no viste en el directo", o el resultado primero: "Ganó el robot de ___".
+> - **Los 3 momentos:** (1) el combate de robots de Westcol contra Blessd (el resultado, solo si está confirmado en el directo o por la prensa); (2) el pique o la sorpresa de la noche (por ejemplo, cómo terminó la pelea por parejas de Willito y Lonche contra The Chanty e Incógnito; si hubo cambios de cartelera, solo los confirmados en el directo o en la prensa); (3) Kris R cantando, sin usar el audio de la canción.
+> - **Material:** recortes del Clipero del VOD de Kick de Westcol (whisper) y de los canales de recortes que lo suban a YouTube. Nada de la transmisión oficial reutilizada sin licencia más allá de lo que el Clipero corte de la fuente.
+> - **Ventana:** del 14-nov por la noche al 16-nov. Después solo sirve el ángulo "lo que dijeron frente a lo que pasó".
+> - **Fuera de esa ventana**, el estado anterior sigue igual:
+>
 > **Estado (03-nov, ciclo 5): no vigente para el Awooween.** La ventana cerró el 03-nov y las réplicas nuevas no rinden (saturación). La estructura sí sigue valiendo para el próximo evento de un perfil: **Stream Fighters 5, el 14-nov** ("La noche de Stream Fighters en 3 momentos", publicada en las 24-48 h siguientes). Ver también `formato-ficha-de-combate-creadores.md` para la previa.
 
 - **Fórmula:** tema del día en música urbana (concierto o evento de un perfil, 24-72 h) + lista corta de 3 momentos (estructural) + arquetipo "el que estuvo ahí" + voz en off con texto en pantalla (estructural) + pregunta de bando al final.
