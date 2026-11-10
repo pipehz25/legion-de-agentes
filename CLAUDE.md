@@ -6,25 +6,28 @@ Una legión de agentes autónomos, cada uno controlado por un loop. Esta sesión
 
 | # | Agente | Qué hace | Entrada | Disparo suelto | Estado |
 |---|--------|----------|---------|----------------|--------|
-| 01 | Cazador Viral | Detecta patrones virales replicables antes de que se quemen y diseña formatos híbridos | Redes y recolector propio | `/cazador-viral` | Listo |
-| 02 | Clipero | Encuentra momentos en contenido largo (podcasts, streams, entrevistas) ligados a las oportunidades del 01 y produce clips verticales con subtítulos; si el Publicador tiene varias cuentas, corta además variantes de los mejores momentos | `salidas/cazador-viral/oportunidades.json` | `/clipero` | Listo; requiere `herramientas/instalar.ps1` |
+| 01 | Cazador Urbano (`cazador-viral`) | Detecta patrones virales replicables antes de que se quemen y diseña formatos híbridos. Línea `urbano`: música urbana, empresarios y streamers | Redes y recolector propio | `/cazador-viral` | Listo |
+| 04 | Cazador de Risas | El mismo trabajo que el 01, para la línea `risas`: comedia, stand-up, humoristas y momentos graciosos de la política colombiana. Reglas propias en `legion/04-cazador-risas/enfoque.md` | Redes (sin recolector) | `/cazador-risas` | Nuevo (2026-11-10) |
+| 02 | Clipero | Encuentra momentos en contenido largo (podcasts, streams, entrevistas) ligados a las oportunidades de los dos cazadores y produce clips verticales con subtítulos, cada uno con su `linea`; si el Publicador tiene varias cuentas, corta además variantes de los mejores momentos | `salidas/cazador-viral/oportunidades.json` y `salidas/cazador-risas/oportunidades.json` | `/clipero` | Listo; requiere `herramientas/instalar.ps1` |
 | 03 | Publicador | Escribe los textos de cada plataforma, reparte los clips entre las cuentas del usuario (una versión distinta por cuenta) y sube a YouTube, TikTok, Instagram y Facebook los que el usuario aprueba. Mantiene el panel `salidas/publicador/panel.html` | `salidas/clipero/clips.json` | `/publicador`, `/publicador aprobar <clip-id>` | En simulación; cada cuenta requiere credenciales (`legion/03-publicador/plataformas.md`) |
 
 **Varias cuentas:** se declaran en el `config.json` del Publicador (`legion/03-publicador/config.json` o, en un espacio, `espacios/<nombre>/legion/03-publicador/config.json`; `plataformas.<p>.cuentas`) y cada una se autoriza con `publicar.ps1 autorizar -Plataforma <p> -Cuenta <alias>` (`plataformas.md` §10). Un video va a una sola cuenta por plataforma; para que un momento salga en varias, el Clipero corta variantes reales (`legion/02-clipero/metodologia.md` §7). No se disfrazan videos para esquivar el control de duplicados de las plataformas ni se automatizan cuentas fuera de sus APIs oficiales.
 
-**Cadena:** `/legion` ejecuta los agentes en orden (01 → 02 → 03) en una sola PC. Cada agente nuevo que dependa de otro se añade como paso en `.claude/skills/legion/SKILL.md` (y en el turno que le toque, abajo).
+**Líneas de contenido** (desde el 2026-11-10): `urbano`, que lleva el Cazador Urbano, y `risas`, que lleva el Cazador de Risas. El Clipero marca cada clip con su línea y el Publicador lo manda a las cuentas de esa línea (`risas` tiene cuenta propia en TikTok e Instagram).
 
-**Reparto entre dos PCs** (vigente): la cadena se parte en dos turnos que se pasan el trabajo por GitHub. Cada turno baja lo último antes de empezar y sube solo las carpetas de sus agentes al terminar.
+**Cadena:** `/legion` ejecuta la cadena completa en la PC de Felipe: baja de GitHub, corre 01 Cazador Urbano, 04 Cazador de Risas, 02 Clipero y 03 Publicador, y sube todo. Es lo que corre el loop. Cada agente nuevo que dependa de otro se añade como paso en `.claude/skills/legion/SKILL.md`.
 
-| Turno | PC | Agentes | Loop |
-|-------|----|---------|------|
-| `/turno-cazador` | Santiago | 01 | `/loop 6h /turno-cazador` |
-| `/turno-clips` | Felipe (tiene los videos y las credenciales de las plataformas) | 02 → 03 | `/loop 6h /turno-clips`, arrancado como una hora después del de Santiago |
-| `/turno-lalo` | Santiago (tiene los videos y las credenciales de las cuentas de Lalo) | 02 → 03, solo en el espacio `lalo` | `/loop 6h /turno-lalo` |
+**Dos PCs, dos espacios** (desde el 2026-11-10):
 
-Mientras rija el reparto, nadie corre `/legion` ni `/cazador-viral` en la PC de los clips: dos Cazadores a la vez se pisan `datos/cazador-viral/`. En la PC de Santiago tampoco se corre `/legion` ni `/turno-clips`: lo suyo es `/turno-lalo`.
+| Loop | PC | Qué corre |
+|------|----|-----------|
+| `/loop 6h /legion` | Felipe (tiene los videos, whisper y las credenciales de las cuentas principales y de risas) | Toda la cadena del espacio principal: 01 Cazador Urbano → 04 Cazador de Risas → 02 Clipero → 03 Publicador |
+| `/loop 6h /turno-lalo` | Santiago (tiene los videos y las credenciales de las cuentas de Lalo) | 02 → 03, solo en el espacio `lalo` |
 
-**Excepción temporal (desde el 2026-11-08, decisión de Felipe):** el Cazador de Santiago no sube nada desde el 3-nov, así que la PC de Felipe corre también `/turno-cazador` antes de cada `/turno-clips`. Antes de cada turno mira GitHub, y en cuanto vea commits del Cazador hechos desde la PC de Santiago en las últimas 8 h, deja de correrlo. **Santiago:** si reactivas tu loop, avísale a Felipe. Los videos no viajan por GitHub (`.gitignore`), así que el Publicador tiene que correr en la misma PC que el Clipero.
+- **Santiago** no corre `/legion`, `/turno-clips`, `/turno-cazador` ni ningún cazador: dos cazadores a la vez se pisan `datos/cazador-*`. Lo suyo es `/turno-lalo` y desarrollar.
+- **Felipe** no corre `/turno-lalo`.
+- Las skills `/turno-cazador` y `/turno-clips` se conservan por si se vuelve al reparto anterior, pero no se usan.
+- Los videos no viajan por GitHub (`.gitignore`): cada Publicador corre en la misma PC que su Clipero.
 
 ## Espacios
 

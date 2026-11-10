@@ -1,0 +1,52 @@
+{
+  "linea": "risas",
+  "_linea": "Cada fuente y cada clip de este cazador llevan linea 'risas'. El Publicador los manda a las cuentas de risas (legion/03-publicador/config.json).",
+
+  "idioma_audiencia": "es",
+  "regiones": ["CO", "MX", "AR", "ES", "PE"],
+  "nichos": [
+    "comedia y stand-up",
+    "humoristas y creadores de humor",
+    "momentos graciosos de la política colombiana"
+  ],
+  "_nichos": "Enfoque fijado por el usuario el 2026-11-10. Lo que no encaje aquí no se trae.",
+
+  "perfiles": {
+    "comedia y stand-up (Colombia)": ["Ricardo Quevedo", "Andrés López", "Lokillo Flórez", "Suso el Paspi", "Frank Martínez", "Iván Marín", "Piter Albeiro"],
+    "comedia y podcasts de humor (México y región)": ["La Cotorrisa", "Franco Escamilla", "Carlos Ballarta", "Hablando Huevadas"],
+    "humor político (Colombia)": ["Juanpis González (Alejandro Riaño)", "Daniel Samper Ospina", "La Pulla"]
+  },
+  "_perfiles": "Semilla propuesta por el orquestador, sin confirmar: el Cazador de Risas resuelve sus cuentas, descarta los que no encajen y añade similares en datos/cazador-risas/perfiles.json. El usuario puede cambiar esta lista.",
+
+  "fuentes_politica": [
+    "sesiones y debates del Congreso (Canal Congreso)",
+    "debates y entrevistas en medios",
+    "alocuciones, ruedas de prensa y transmisiones oficiales",
+    "programas de humor político y sátira"
+  ],
+  "_fuentes_politica": "Momentos graciosos reales de políticos colombianos. Las reglas para tratarlos están en enfoque.md.",
+
+  "max_similares_por_ciclo": 2,
+  "excluir": [
+    "reality shows y concursos de televisión, y todo lo que salga de ellos",
+    "chisme y farándula de televisión",
+    "casos judiciales, detenciones y escándalos legales de famosos, presentadores o políticos",
+    "humor sobre tragedias, víctimas, violencia o enfermedades",
+    "humor que ataque por origen, raza, género, orientación, discapacidad o aspecto físico",
+    "propaganda electoral, desinformación y montajes (deepfakes, voces sintéticas, frases sacadas de contexto)"
+  ],
+
+  "presupuesto_por_ciclo": {
+    "busquedas_web": 15,
+    "lecturas_web": 15,
+    "busquedas_youtube": 12,
+    "revisiones_de_canal": 15,
+    "candidatos_a_descomponer": 8,
+    "formatos_hibridos": 2
+  },
+  "ventana_fuentes_horas": 72,
+  "_ventana_fuentes_horas": "Más larga que la del Cazador Urbano: el stand-up y los podcasts de humor envejecen más despacio que la actualidad. Los momentos políticos de actualidad se tratan como actualidad (24-72 h).",
+  "umbral_oportunidad": 60,
+  "umbral_hibridacion": 70,
+  "cadencia_recomendada": "6h"
+}

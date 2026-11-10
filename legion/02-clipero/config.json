@@ -11,6 +11,13 @@
     "lecturas_web": 8
   },
 
+  "lineas": {
+    "urbano": "salidas/cazador-viral/oportunidades.json",
+    "risas": "salidas/cazador-risas/oportunidades.json",
+    "min_fuentes_por_linea": 2
+  },
+  "_lineas": "Dos lineas de contenido desde el 2026-11-10, cada una con su cazador y sus cuentas en el Publicador. Los clips sin campo linea son 'urbano'.",
+
   "kick": {
     "max_directos_por_ciclo": 2,
     "max_candidatos_por_directo": 6,

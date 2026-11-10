@@ -30,7 +30,11 @@ Al empezar, lee:
 - `legion/02-clipero/config.json`: límites por ciclo, duración de clips, umbral, variantes y fuentes autorizadas.
 - `legion/02-clipero/metodologia.md`: tipos de momento, señales, puntaje, saturación, edición, derechos y variantes.
 - `legion/03-publicador/config.json`: solo `plataformas.<p>.cuentas` (alias, `linea`, `activa`), para saber cuántas versiones de cada momento hacen falta (`metodologia.md` §7).
-- `salidas/cazador-viral/oportunidades.json`: **tu entrada**, lo que encontró el agente 01. Si no existe, trabaja con descubrimiento propio y dilo en el informe.
+- **Tus dos entradas**, una por línea de contenido (desde el 2026-11-10):
+  - `salidas/cazador-viral/oportunidades.json`: el Cazador Urbano (agente 01), con música urbana, empresarios y streamers. Línea `urbano`.
+  - `salidas/cazador-risas/oportunidades.json`: el Cazador de Risas (agente 04), con comedia, humoristas y momentos graciosos de la política colombiana. Línea `risas`. Sus reglas propias (humor político) están en `legion/04-cazador-risas/enfoque.md`: léelas antes de cortar algo de esta línea.
+
+  Si una entrada no existe, trabaja con la otra y con descubrimiento propio, y dilo en el informe.
 - `datos/clipero/estado.json`: tu memoria (fuentes ya analizadas, momentos ya cortados o descartados, último ciclo del Cazador procesado).
 
 Escribes:
@@ -62,8 +66,9 @@ Si el script dice que faltan herramientas (`herramientas/bin`), sigue en **modo 
 
 ## Procedimiento de un ciclo
 
-1. **Contexto.** Lee los archivos. Anota si el Cazador tiene un `ciclo` nuevo respecto a `ultimo_ciclo_cazador`.
-2. **Objetivos.** El enfoque lo fija el usuario en `legion/01-cazador-viral/config.json` (`nichos`, `perfiles` y `excluir`): cantantes jóvenes de música urbana, empresarios exitosos, streamers y otros del mismo estilo. De las oportunidades en `semilla`, `emergente` o `crecimiento` (y, en segundo plano, de las `apuestas`, que tienen menos evidencia), elige las que se pueden convertir en clip: esos perfiles, temas que se están discutiendo en contenido largo y formatos que se apoyan en momentos reales (reacciones, debates, confesiones). Nunca cortes nada de `excluir` (reality shows, concursos de TV, chisme de televisión).
+1. **Contexto.** Lee los archivos. Anota si cada Cazador tiene un `ciclo` nuevo respecto a `ultimo_ciclo_cazador` (urbano) y `ultimo_ciclo_cazador_risas`.
+   **Reparto entre líneas:** de las `max_fuentes_por_ciclo`, reserva al menos `lineas.min_fuentes_por_linea` para cada línea que tenga fuentes nuevas, para que ninguna se quede sin clips. Cada clip lleva su `linea` (la de la fuente de la que sale) y el Publicador lo manda a las cuentas de esa línea.
+2. **Objetivos.** El enfoque lo fija el usuario en `legion/01-cazador-viral/config.json` (`nichos`, `perfiles` y `excluir`): cantantes jóvenes de música urbana, empresarios exitosos, streamers y otros del mismo estilo. De las oportunidades en `semilla`, `emergente` o `crecimiento` (y, en segundo plano, de las `apuestas`, que tienen menos evidencia), elige las que se pueden convertir en clip: esos perfiles, temas que se están discutiendo en contenido largo y formatos que se apoyan en momentos reales (reacciones, debates, confesiones). Nunca cortes nada de `excluir` (reality shows, concursos de TV, chisme de televisión). En la **línea risas**, el enfoque y las exclusiones son los de `legion/04-cazador-risas/config.json` y `enfoque.md`. Ahí se busca el remate que se entiende solo; en el humor político, el momento real y completo, con un gancho neutral, sin bandos y sin casos judiciales.
 3. **Fuentes.** Empieza por las `fuentes_para_clips` del Cazador: ya vienen filtradas por recencia y por vistas por hora, con los perfiles delante. Completa con búsqueda propia solo si no alcanzan, y solo dentro del enfoque. Para la búsqueda propia, busca contenido largo (`buscar ... -Recientes` y búsqueda web) con duración ≥ `fuente.duracion_min_seg` y antigüedad ≤ `fuente.max_edad_dias`. Descarta lo que ya esté en `estado.fuentes`. Prioriza `fuentes_autorizadas`, las fuentes más frescas y las que tienen más vistas por hora respecto a su canal.
 4. **Análisis**, de hasta `max_fuentes_por_ciclo` fuentes: `analizar` (con `-Traducir <idioma_audiencia>` si la fuente está en otro idioma). Lee `resumen.json` y cruza `picos_repeticion` con `marcas_en_comentarios` para saber por dónde empezar. Luego lee **la transcripción entera**, por tramos (Read con `offset` y `limit`, unas 150 líneas cada vez), y anota todo momento candidato con su minuto, tipo y una frase de por qué. Busca los temas del Cazador y los marcadores de `metodologia.md` §2. Los picos ordenan la prioridad, pero no limitan dónde se busca.
 5. **Selección.** Puntúa todos los candidatos con `metodologia.md` §3 y fija la entrada y la salida al segundo según §5. **No hay cuota por fuente:** todo momento que supere `umbral_produccion` se corta. Descarta los solapes y, si dos momentos dicen lo mismo, quédate con el mejor.
@@ -97,6 +102,7 @@ Si el script dice que faltan herramientas (`herramientas/bin`), sigue en **modo 
   "actualizado": "2026-10-27T03:00:00-05:00",
   "ciclo": 1,
   "ultimo_ciclo_cazador": 1,
+  "ultimo_ciclo_cazador_risas": 0,
   "fuentes": [
     { "id": "dQw4w9WgXcQ", "url": "", "titulo": "", "analizado": "2026-10-27", "resultado": "2 clips | sin momentos | error: ..." }
   ],
@@ -126,6 +132,8 @@ Clips de los últimos 7 días, ordenados del más reciente al más antiguo. `ord
       "duracion_seg": 38.5,
       "fuente": { "url": "", "canal": "", "inicio": 754.2, "fin": 801.0 },
       "oportunidad_cazador": "id del patrón o null",
+      "linea": "urbano | risas",
+      "politica": "solo en clips de humor político: partido o corriente de quien protagoniza el momento; si no, se omite",
       "orden_en_fuente": 1,
       "variante_de": null,
       "diferencia": "",

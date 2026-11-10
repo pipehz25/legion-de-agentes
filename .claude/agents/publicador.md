@@ -68,6 +68,7 @@ Si un id no existe, dilo en la respuesta y no apruebes nada parecido por tu cuen
    - Crea la entrada en estado `pendiente_aprobacion`, con `cuenta`, `pieza` (el `variante_de` del clip o, si es un original, su propio id) y `gancho`. Si `config.modo` es `automatico` y los derechos están en `derechos_automatico`, créala ya `aprobado`.
 
    **Reparto entre cuentas** (por plataforma; con una sola cuenta todo va a ella):
+   - **Líneas de contenido.** Cada clip trae `linea` (`urbano` o `risas`; sin el campo, `urbano`). Un clip `risas` solo va a cuentas cuya `linea` lo admita. Las cuentas de risas no reciben clips `urbano`.
    - Una **pieza** es un momento: el clip original y sus variantes. Las **cuentas candidatas** de una pieza son las de `cuentas` con `activa` distinto de `false` cuya `linea` encaja con el tema o la persona del clip (`"todo"` encaja con todo), en el orden de `config.json`.
    - Ordena las versiones de la pieza: primero el original y después las variantes por id. La versión 1 va a la primera cuenta candidata, la 2 a la segunda, y así. Si sobran versiones, no se preparan para esa plataforma; si sobran cuentas, se quedan sin esa pieza.
    - Si una variante llega en un ciclo posterior al de su original, respeta lo ya repartido: va a la primera cuenta candidata que aún no tenga ninguna versión de la pieza.
