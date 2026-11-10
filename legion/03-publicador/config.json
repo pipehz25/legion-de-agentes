@@ -2,6 +2,8 @@
   "modo": "aprobacion",
   "_modo": "aprobacion: solo se publica lo que el usuario aprueba con /publicador aprobar <id>. automatico: se publica sin esperar aprobación, pero solo los clips cuyos derechos estén en derechos_automatico.",
   "derechos_automatico": ["propio", "autorizado"],
+  "aprobacion_automatica_borradores": true,
+  "_aprobacion_automatica_borradores": "Decision del usuario (2026-11-10): en las plataformas con destino borrador (TikTok) cada clip nuevo se envia solo a la bandeja de su cuenta, sin /publicador aprobar. No es publico hasta que el usuario lo publica desde la app. No aplica a Instagram ni a nada que publique al subir. Los clips de subidos-a-mano.json no se envian nunca.",
 
   "simulacion": false,
   "_simulacion": "true: prepara y valida todo con -Simular, pero no sube nada. Pásalo a false cuando haya credenciales y hayas revisado una simulación.",

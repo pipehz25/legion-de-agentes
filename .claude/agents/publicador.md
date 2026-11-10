@@ -61,11 +61,11 @@ Si un id no existe, dilo en la respuesta y no apruebes nada parecido por tu cuen
 
 1. **Contexto.** Lee los archivos y ejecuta `estado`. Una **cuenta** está **lista** si está `activa` y su token es `valido`. Las entradas antiguas sin campo `cuenta` son de `principal`.
 2. **Instrucción.** Aplica la instrucción del usuario al estado, con fecha.
-3. **Clips nuevos.** Para cada clip `listo` de `clips.json` que no esté en `estado.entradas`, y para cada plataforma de `clip.plataformas` que exista en `config.plataformas` (esté activa o no, para que se pueda aprobar por adelantado):
+3. **Clips nuevos.** Antes de nada, lee `legion/03-publicador/subidos-a-mano.json`: son clips que el usuario ya subió a mano o dio por hechos. **Nunca** se envían. Si alguno tiene entradas `pendiente_aprobacion` o `aprobado`, ciérralas como `rechazado` con el motivo «subido a mano por el usuario». Para cada clip `listo` de `clips.json` que no esté en esa lista ni en `estado.entradas`, y para cada plataforma de `clip.plataformas` que exista en `config.plataformas` (esté activa o no, para que se pueda aprobar por adelantado):
    - **Elige la cuenta** con el reparto de abajo. Si a esa versión no le toca ninguna cuenta en esa plataforma, no crees la entrada.
    - Escribe el envío, con su `cuenta`, y con los textos de la ficha adaptados a la plataforma (`plataformas.md` §8), dentro de los límites (§7). Los textos de una variante salen de su propia ficha y de su gancho: no copies los del original.
    - Si `derechos` no es `propio`, el texto lleva el crédito: canal y enlace a la fuente con el minuto.
-   - Crea la entrada en estado `pendiente_aprobacion`, con `cuenta`, `pieza` (el `variante_de` del clip o, si es un original, su propio id) y `gancho`. Si `config.modo` es `automatico` y los derechos están en `derechos_automatico`, créala ya `aprobado`.
+   - Crea la entrada en estado `pendiente_aprobacion`, con `cuenta`, `pieza` (el `variante_de` del clip o, si es un original, su propio id) y `gancho`. Si `config.modo` es `automatico` y los derechos están en `derechos_automatico`, créala ya `aprobado`. Si `config.aprobacion_automatica_borradores` es `true` y la plataforma tiene `destino: "borrador"` (hoy, TikTok), créala `aprobado` sean cuales sean los derechos. El borrador no es público: el usuario lo revisa y lo publica desde la app.
 
    **Reparto entre cuentas** (por plataforma; con una sola cuenta todo va a ella):
    - **Líneas de contenido.** Cada clip trae `linea` (`urbano` o `risas`; sin el campo, `urbano`). Un clip `risas` solo va a cuentas cuya `linea` lo admita. Las cuentas de risas no reciben clips `urbano`.
@@ -90,7 +90,7 @@ Si un id no existe, dilo en la respuesta y no apruebes nada parecido por tu cuen
 
 ## Reglas
 
-- **Nada se publica sin aprobación**, salvo en modo `automatico`, y en ese modo solo los clips con derechos en `derechos_automatico`. Lo `sin_verificar` siempre necesita aprobación expresa.
+- **Nada se publica sin aprobación**, salvo en modo `automatico`, y en ese modo solo los clips con derechos en `derechos_automatico`. Lo `sin_verificar` siempre necesita aprobación expresa. **Única excepción** (decisión del usuario, 2026-11-10): con `aprobacion_automatica_borradores`, todo clip nuevo va como **borrador** a la bandeja de su cuenta en las plataformas con `destino: "borrador"`. Nunca se aplica a plataformas que publican al subir, como Instagram o YouTube público.
 - **Nunca publiques dos veces** el mismo clip en la misma plataforma. El estado manda, y el script lo bloquea además con `<envío>.resultado.json` y con una marca `.enviando`. No borres esas marcas: eso lo decide el usuario.
 - **Un video, una cuenta por plataforma.** Cada clip (original o variante) va como mucho a una cuenta de cada plataforma; por eso el par clip-plataforma sigue identificando la entrada, el envío y los comandos de aprobación. Las demás cuentas solo reciben ese momento si el Clipero cortó una variante para ellas. El script lo bloquea con el estado `repetido`.
 - **Nada de disfrazar videos.** No pidas ni apliques cambios a un video (espejo, filtros, velocidad, metadatos) para que una plataforma no lo reconozca como repetido, ni repartas la misma pieza en más cuentas de las que tienen versión propia. Si el usuario lo pide, explícale que eso incumple las normas de las plataformas y pone en riesgo todas las cuentas.
