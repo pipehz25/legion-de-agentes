@@ -25,6 +25,8 @@
 #               Sirve para que las variantes de un mismo momento se vean distintas (metodologia.md, seccion 7).
 #            -> salidas/clipero/clips/<Id>/clip.mp4 (1080x1920, subtitulos quemados), portada.jpg y meta.json
 #            -AlturaFuente 720 limita la descarga de origen; la salida sigue siendo 1080x1920 (por defecto: 1080).
+# Espacios: si la PC tiene espacio.local.json en la raiz ({ "espacio": "lalo" }), las rutas datos/ y salidas/
+#   de arriba cuelgan de espacios/lalo/. Sin ese archivo, de la raiz.
 # Uso: powershell -NoProfile -ExecutionPolicy Bypass -File legion/02-clipero/clipero.ps1 <accion> ...
 # Requiere herramientas/bin (yt-dlp, ffmpeg, deno): powershell -NoProfile -ExecutionPolicy Bypass -File herramientas/instalar.ps1
 
@@ -77,7 +79,16 @@ function SoltarCandado { if ($script:tengoCandado) { $candado.ReleaseMutex(); $s
 
 $utf8 = New-Object Text.UTF8Encoding $false
 $cultura = [Globalization.CultureInfo]::InvariantCulture
-$fuentes = Join-Path $raiz 'datos\clipero\fuentes'
+# Espacio: una linea de contenido con sus propios datos y salidas en espacios/<nombre>/. Cada PC dice en cual
+# trabaja con espacio.local.json, en la raiz del proyecto (no se sube a GitHub): { "espacio": "lalo" }.
+# Sin ese archivo se trabaja en la raiz, como siempre.
+$espacio = ''
+$rutaEspacio = Join-Path $raiz 'espacio.local.json'
+if (Test-Path -LiteralPath $rutaEspacio) { $espacio = ([string]([IO.File]::ReadAllText($rutaEspacio, $utf8) | ConvertFrom-Json).espacio).Trim() }
+if ($espacio -and $espacio -notmatch '^[a-z0-9][a-z0-9-]{0,30}$') { throw "espacio.local.json: nombre de espacio no valido ('$espacio'). Solo minusculas, numeros y guiones." }
+$raizDatos = if ($espacio) { Join-Path $raiz "espacios\$espacio" } else { $raiz }
+if (-not (Test-Path -LiteralPath $raizDatos)) { throw "No existe la carpeta espacios/$espacio que pide espacio.local.json." }
+$fuentes = Join-Path $raizDatos 'datos\clipero\fuentes'
 
 function Num([double]$x) { $x.ToString('0.###', $cultura) }
 function Relativa([string]$ruta) { $ruta.Substring($raiz.Length + 1) -replace '\\', '/' }
@@ -244,7 +255,7 @@ function Medir([string]$archivo) {
 # ---------------------------------------------------------------- buscar
 if ($Accion -eq 'buscar') {
     if (-not $Consulta) { throw 'Falta -Consulta' }
-    $dir = Join-Path $raiz 'datos\clipero\busquedas'
+    $dir = Join-Path $raizDatos 'datos\clipero\busquedas'
     New-Item -ItemType Directory -Force $dir | Out-Null
     $archivo = Join-Path $dir ((Get-Date -Format 'yyyy-MM-dd_HHmmss') + '.jsonl')
     # yt-dlp no tiene busqueda ordenada por fecha (ytsearchdate no existe) y YouTube quito ese orden;
@@ -270,7 +281,7 @@ if ($Accion -eq 'canal') {
     if (-not $Url) { throw 'Falta -Url' }
     if (-not $PSBoundParameters.ContainsKey('N')) { $N = 6 }
     if ($N -gt 10) { $N = 10 }
-    $dir = Join-Path $raiz 'datos\clipero\busquedas'
+    $dir = Join-Path $raizDatos 'datos\clipero\busquedas'
     New-Item -ItemType Directory -Force $dir | Out-Null
     $archivo = Join-Path $dir ((Get-Date -Format 'yyyy-MM-dd_HHmmss') + '-canal.jsonl')
     $limpia = ($Url -replace '[?#].*$', '').TrimEnd('/')
@@ -506,7 +517,7 @@ if (-not $Url -or -not $Id -or $Inicio -lt 0 -or $Fin -le $Inicio) {
 }
 if ($Fin - $Inicio -gt 180) { throw 'Un clip no puede durar mas de 180 s' }
 $vid = IdVideo $Url
-$salida = Join-Path $raiz "salidas\clipero\clips\$Id"
+$salida = Join-Path $raizDatos "salidas\clipero\clips\$Id"
 $trabajo = Join-Path $salida 'trabajo'
 New-Item -ItemType Directory -Force $trabajo | Out-Null
 

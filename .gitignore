@@ -13,6 +13,17 @@ salidas/clipero/clips/**/*.mp4
 salidas/clipero/clips/**/*.jpg
 salidas/**/trabajo/
 
+# Lo mismo dentro de cada espacio (espacios/<nombre>/ tiene sus propios datos y salidas)
+espacios/*/datos/*/crudo/
+espacios/*/datos/clipero/fuentes/
+espacios/*/salidas/clipero/clips/**/*.mp4
+espacios/*/salidas/clipero/clips/**/*.jpg
+espacios/*/salidas/**/trabajo/
+espacios/*/datos/publicador/envios/*.enviando
+
+# En que espacio trabaja esta PC: cada PC tiene el suyo
+espacio.local.json
+
 # Configuracion personal de Claude Code
 .claude/settings.local.json
 

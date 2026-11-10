@@ -1,0 +1,47 @@
+{
+  "_espacio": "Configuración del Clipero en el espacio lalo (CLAUDE.md, «Espacios»): solo contenido de Lalo Ocampo. La usa la PC que tiene espacio.local.json con { \"espacio\": \"lalo\" }. La del resto del contenido está en legion/02-clipero/config.json.",
+
+  "enfoque_propio": "Solo contenido de Lalo Ocampo, desde sus fuentes autorizadas: videoclips, sesiones en vivo, entrevistas y detrás de cámaras de su canal. No se corta nada de otros artistas ni se eligen fuentes por las oportunidades del Cazador. En una canción el momento es musical: el coro, el verso más citable, la entrada del beat, un tramo donde manda la batería o el bajo, el cierre; se localiza con los picos de repetición, el volumen y las hojas de `vistazo`, y la letra. En entrevistas y detrás de cámaras vale la metodología de siempre. «Relevancia ahora» se puntúa por lo que le pasa al artista (estreno reciente, show próximo, la canción que más crece en su canal), no por el Cazador. Cada clip tiene que encajar con la `linea` de al menos una cuenta activa del Publicador de este espacio; la ficha dice con cuáles.",
+  "_enfoque_propio": "Si existe, sustituye al enfoque del Cazador (agente clipero, «Espacio con enfoque propio»).",
+
+  "idioma_audiencia": "es",
+
+  "max_fuentes_por_ciclo": 4,
+  "max_clips_por_ciclo": 12,
+  "_max_clips_por_ciclo": "Tope de seguridad. Es bajo a propósito: cada cuenta de TikTok admite 5 borradores pendientes por API en 24 horas, y sin auditoría la app solo deja publicar a unos 5 usuarios al día (plataformas.md §4).",
+  "presupuesto_por_ciclo": {
+    "busquedas_youtube": 10,
+    "busquedas_web": 6,
+    "lecturas_web": 4
+  },
+
+  "fuente": {
+    "duracion_min_seg": 60,
+    "max_edad_dias": 0,
+    "tipos": ["videoclips", "sesiones en vivo", "entrevistas", "detrás de cámaras", "directos"]
+  },
+  "_fuente": "max_edad_dias 0 = sin límite de antigüedad: vale todo el catálogo del artista. duracion_min_seg es baja porque una canción dura 2 o 3 minutos.",
+  "clip": {
+    "duracion_min_seg": 15,
+    "duracion_max_seg": 60,
+    "duracion_ideal_seg": [20, 40],
+    "modo": "desenfoque"
+  },
+  "umbral_produccion": 60,
+  "_umbral_produccion": "Punto de partida para contenido propio del artista; se ajusta después de ver los primeros ciclos.",
+
+  "variantes": {
+    "max_por_momento": 3,
+    "puntaje_min": 70
+  },
+  "_variantes": "Versiones distintas de un mismo momento para repartirlas entre las cuentas de Lalo (legion/02-clipero/metodologia.md §7). max_por_momento cuenta también el original. Nunca más versiones que cuentas activas cuya linea encaje: con una sola cuenta activa no se corta ninguna.",
+
+  "fuentes_autorizadas": [
+    {
+      "canal": "Lalo Ocampo",
+      "url": "https://www.youtube.com/channel/UCmCfH4NmlvNvpW4NtrMN3gw",
+      "condiciones": "El usuario confirmó el 2026-11-02 que tiene permiso del artista para recortar sus videos. Sus clips llevan derechos autorizado."
+    }
+  ],
+  "_fuentes_autorizadas": "En este espacio son las únicas fuentes. Formato: { \"canal\": \"...\", \"url\": \"...\", \"condiciones\": \"...\" }. Para añadir otra (por ejemplo, una entrevista en otro canal con permiso), se agrega aquí."
+}

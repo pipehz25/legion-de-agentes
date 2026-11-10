@@ -1,0 +1,89 @@
+{
+  "_espacio": "Configuración del Publicador en el espacio lalo (CLAUDE.md, «Espacios»): solo las cuentas de Lalo Ocampo. La usa la PC que tiene espacio.local.json con { \"espacio\": \"lalo\" }. La del resto del contenido está en legion/03-publicador/config.json. De momento solo TikTok; las demás plataformas están apagadas.",
+
+  "modo": "aprobacion",
+  "_modo": "aprobacion: solo se publica lo que el usuario aprueba con /publicador aprobar <id>. automatico: se publica sin esperar aprobación, pero solo los clips cuyos derechos estén en derechos_automatico.",
+  "derechos_automatico": ["propio", "autorizado"],
+
+  "simulacion": false,
+  "_simulacion": "true: prepara y valida todo con -Simular, pero no sube nada. Pásalo a false cuando haya credenciales y hayas revisado una simulación.",
+
+  "horario": { "desde": "08:00", "hasta": "23:00" },
+  "max_intentos": 2,
+
+  "_cuentas": "Cada plataforma admite varias cuentas propias en su lista \"cuentas\". Formato: { \"alias\": \"urbano\", \"activa\": true, \"linea\": \"música urbana: Blessd, Kris R, Ryan Castro\", \"max_por_dia\": 4, \"usuario\": \"\" }. alias: minúsculas, números y guiones; 'principal' es la cuenta de siempre. linea: de qué va la cuenta, en palabras; el Publicador reparte los clips por ahí ('todo' los recibe todos). activa: false la deja fuera del reparto. max_por_dia y usuario (solo TikTok) son opcionales. El orden de la lista es el orden de reparto: la primera cuenta que encaja recibe el clip original y las siguientes, sus variantes. Cada cuenta nueva se autoriza con: publicar.ps1 autorizar -Plataforma <p> -Cuenta <alias> (plataformas.md §10).",
+  "separacion_piezas_horas": 12,
+  "_separacion_piezas_horas": "Horas mínimas entre dos versiones de un mismo momento en cuentas distintas de la misma plataforma.",
+
+  "plataformas": {
+    "youtube": {
+      "activa": false,
+      "cuentas": [
+        { "alias": "principal", "activa": false, "linea": "todo" }
+      ],
+      "privacidad": "private",
+      "_privacidad": "private | unlisted | public. Mientras el proyecto de Google Cloud no pase la auditoría de la API, YouTube deja privado todo lo subido por API.",
+      "categoria": "24",
+      "idioma": "es",
+      "max_por_dia": 4
+    },
+    "tiktok": {
+      "activa": true,
+      "cuentas": [
+        { "alias": "lalo-music", "activa": true, "usuario": "ocampo.music", "linea": "Lalo Ocampo, cuenta base: estrenos, coros y el momento más fuerte de cada canción" },
+        { "alias": "lalo-lyrics", "activa": false, "usuario": "", "linea": "Lalo Ocampo: fragmentos donde manda la letra (versos y coros que se citan)" },
+        { "alias": "lalo-studio", "activa": false, "usuario": "", "linea": "Lalo Ocampo en el estudio: grabación, producción y detrás de cámaras" },
+        { "alias": "lalo-songs", "activa": false, "usuario": "", "linea": "Lalo Ocampo: las canciones por partes (intro, verso, coro, cierre)" },
+        { "alias": "lalo-arts", "activa": false, "usuario": "", "linea": "Lalo Ocampo, lo visual: videoclips, portadas y estética" },
+        { "alias": "lalo-energy", "activa": false, "usuario": "", "linea": "Lalo Ocampo: los momentos de más energía (en vivo, partes para bailar)" },
+        { "alias": "lalo-love", "activa": false, "usuario": "", "linea": "Lalo Ocampo: canciones románticas, dedicatorias y desamor" },
+        { "alias": "lalo-girls", "activa": false, "usuario": "", "linea": "Lalo Ocampo para sus seguidoras: coqueteo, frases para dedicar y momentos con fans" },
+        { "alias": "lalo-drums", "activa": false, "usuario": "", "linea": "Lalo Ocampo: momentos donde manda la batería, la percusión o el beat" },
+        { "alias": "lalo-bass", "activa": false, "usuario": "", "linea": "Lalo Ocampo: momentos donde manda el bajo" },
+        { "alias": "lalo-pereira", "activa": false, "usuario": "", "linea": "Lalo Ocampo en Pereira: shows, entrevistas y contenido grabado allá o que nombra la ciudad" },
+        { "alias": "lalo-medellin", "activa": false, "usuario": "", "linea": "Lalo Ocampo en Medellín: shows, entrevistas y contenido grabado allá o que nombra la ciudad" },
+        { "alias": "lalo-bogota", "activa": false, "usuario": "", "linea": "Lalo Ocampo en Bogotá: shows, entrevistas y contenido grabado allá o que nombra la ciudad" },
+        { "alias": "lalo-cdmx", "activa": false, "usuario": "", "linea": "Lalo Ocampo en Ciudad de México: shows, entrevistas y contenido grabado allá o que nombra la ciudad" },
+        { "alias": "lalo-laley", "activa": false, "usuario": "", "linea": "Lalo Ocampo: línea por definir con el usuario" }
+      ],
+      "_cuentas_lalo": "Cuentas de Lalo Ocampo pedidas por el usuario el 2026-11-09 (tiene permiso del artista). Cada una está apagada hasta que el usuario la crea en TikTok y la autoriza en esta PC (publicar.ps1 autorizar -Plataforma tiktok -Cuenta <alias>); entonces se pone activa: true y el usuario (sin @). Las líneas son una propuesta a partir de los nombres. Este espacio no tiene cuenta principal.",
+      "leer_metricas": false,
+      "_leer_metricas": "true: el panel lee las vistas de TikTok. Antes hay que añadir el scope video.list a la app de TikTok y volver a autorizar cada cuenta (plataformas.md §11).",
+      "usuario": "",
+      "_usuario": "Tu usuario de TikTok, sin @. Solo sirve para armar los enlaces a las publicaciones.",
+      "destino": "borrador",
+      "_destino": "borrador: el video llega a la bandeja de TikTok y se termina de publicar desde la app. directo: se publica con la privacidad indicada (sin auditoría de TikTok solo se admite SELF_ONLY).",
+      "privacidad": "SELF_ONLY",
+      "redirect_uri": "http://localhost:8765/callback/",
+      "max_por_dia": 4
+    },
+    "instagram": {
+      "activa": false,
+      "cuentas": [
+        { "alias": "principal", "activa": false, "linea": "todo" }
+      ],
+      "api": "instagram",
+      "_api": "instagram: API de Instagram con inicio de sesión de Instagram (no necesita página de Facebook). facebook: API de Instagram con inicio de sesión de Facebook (cuenta vinculada a una página).",
+      "compartir_en_feed": true,
+      "_aviso": "Instagram no admite borradores por API: lo que se sube queda publicado.",
+      "max_por_dia": 4
+    },
+    "facebook": {
+      "activa": false,
+      "cuentas": [
+        { "alias": "principal", "activa": false, "linea": "todo" }
+      ],
+      "estado": "DRAFT",
+      "_estado": "DRAFT: queda como borrador en la página. PUBLISHED: se publica.",
+      "max_por_dia": 4
+    }
+  },
+
+  "panel": { "dias": 30, "max_mediciones": 150 },
+  "_panel": "salidas/publicador/panel.html. dias: cuánto hacia atrás mira. max_mediciones: de cuántas publicaciones lee las vistas en cada pasada, empezando por las más recientes.",
+
+  "graph_version": "v23.0",
+  "credenciales": "%USERPROFILE%\\.legion\\publicador\\credenciales.json",
+  "_credenciales": "Fuera del proyecto a propósito. Solo las lee y escribe publicar.ps1; nunca se suben a GitHub ni se pegan en el chat.",
+  "puerto_oauth": 8765
+}

@@ -8,6 +8,16 @@ Eres el **Publicador**, agente 03 de la Legión. Corres justo después del Clipe
 
 Trabajas por ciclos. Entre un ciclo y otro no recuerdas nada salvo lo que esté en `datos/publicador/`: todo lo que quieras recordar, escríbelo ahí.
 
+## Espacio
+
+La Legión puede llevar varias líneas de contenido separadas, cada una en su **espacio** (`espacios/<nombre>/`), con su propio `config.json`, su memoria y sus salidas. Cada PC trabaja en uno solo.
+
+Antes de nada, mira si existe `espacio.local.json` en la raíz del proyecto:
+- **No existe:** trabajas en la raíz y las rutas de esta definición valen tal cual.
+- **Existe** (por ejemplo `{ "espacio": "lalo" }`): antepón `espacios/lalo/` a **todas** las rutas de esta definición que empiezan por `datos/` o `salidas/`, y a `legion/03-publicador/config.json`. Tu memoria es entonces `espacios/lalo/datos/publicador/estado.json`; tu entrada, `espacios/lalo/salidas/clipero/clips.json`; y tu configuración, `espacios/lalo/legion/03-publicador/config.json`. Las rutas que guardes dentro de los JSON (`archivo`, `envio`) y las que pases a `-Datos` llevan también ese prefijo. `publicar.ps1`, `plataformas.md` y `herramientas/` no cambian de sitio; el script ya lee y escribe en tu espacio, y `estado` te lo confirma en sus campos `espacio` y `base`.
+
+Nunca leas ni escribas `datos/` o `salidas/` de la raíz ni de otro espacio cuando trabajas en uno: son de otra PC. El script rechaza (`invalido`) los envíos y los videos que no sean de tu espacio.
+
 ## Archivos
 
 Al empezar, lee:
@@ -30,7 +40,7 @@ El script escribe además `datos/publicador/metricas.json` (vistas leídas de ca
 
 Tu herramienta es `legion/03-publicador/publicar.ps1`. Llámala siempre así:
 `powershell -NoProfile -ExecutionPolicy Bypass -File legion/03-publicador/publicar.ps1 <accion> ...`
-- `estado`: JSON con una fila por **cuenta** de cada plataforma: `cuenta` (el alias de `config.json`), `activa`, `linea`, `max_por_dia`, `credenciales`, `token` (`valido | error | sin_credenciales`) y `nombre` (cómo se llama la cuenta en la plataforma).
+- `estado`: JSON con `espacio` y `base` (el prefijo de tus rutas; vacío en la raíz) y una fila por **cuenta** de cada plataforma: `cuenta` (el alias de `config.json`), `activa`, `linea`, `max_por_dia`, `credenciales`, `token` (`valido | error | sin_credenciales`) y `nombre` (cómo se llama la cuenta en la plataforma).
 - `subir -Plataforma <p> -Datos <ruta del envío> [-Simular]`: sube a la cuenta que diga el campo `cuenta` del envío. JSON con `ok`, `cuenta`, `estado` (`publicado | procesando | simulado | invalido | duplicado | repetido | descartado | interrumpido | error`), `id_publicacion`, `url`, `privacidad`, `avisos` y `error`. Con `-Simular` solo valida (cuenta, archivo, duración y límites de texto) sin usar la red.
 - `comprobar -Plataforma <p> -IdPublicacion <id> [-Cuenta <alias>]`: estado actual (`publicado | procesando | en_borradores | error`) y `url`. En Instagram, si el contenedor ya terminó de procesarse, lo publica. Pasa siempre el `-Cuenta` de la entrada si no es `principal`.
 - `panel [-SinRed]`: lee las vistas de lo publicado en los últimos `panel.dias` días y regenera `salidas/publicador/panel.html`. Devuelve `piezas`, `publicaciones`, `mediciones`, `vistas` y `avisos`. Con `-SinRed` no consulta las plataformas.

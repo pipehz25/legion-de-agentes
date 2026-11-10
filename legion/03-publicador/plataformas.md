@@ -114,10 +114,10 @@ Cada plataforma admite varias cuentas **propias**. La de siempre se llama `princ
 **Dar de alta una cuenta**
 
 1. Crea la cuenta en la plataforma, a mano. En Instagram tiene que ser profesional (empresa o creador).
-2. Añádela en `config.json` → `plataformas.<p>.cuentas`:
+2. Añádela en `config.json` → `plataformas.<p>.cuentas` (si la cuenta es de un espacio, en `espacios/<nombre>/legion/03-publicador/config.json`; las de Lalo Ocampo están en el espacio `lalo`):
    `{ "alias": "urbano", "activa": true, "linea": "música urbana: Blessd, Kris R, Ryan Castro" }`
    `linea` dice de qué va la cuenta; el Publicador reparte los clips por ahí (`"todo"` los recibe todos). El orden de la lista es el orden de reparto.
-3. Autorízala en una ventana propia de PowerShell, en la PC que publica:
+3. Autorízala en una ventana propia de PowerShell, en la PC que publica (la que trabaja en ese espacio: el script solo conoce las cuentas del espacio de su PC, CLAUDE.md «Espacios»):
    `powershell -NoProfile -ExecutionPolicy Bypass -File legion/03-publicador/publicar.ps1 autorizar -Plataforma <p> -Cuenta urbano`
    En el navegador hay que entrar con **esa** cuenta, no con la principal.
 4. Comprueba con `publicar.ps1 estado`: la fila de la cuenta debe mostrar `"token": "valido"` y su `nombre` correcto.

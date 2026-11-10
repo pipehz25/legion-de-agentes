@@ -16,6 +16,8 @@
 #          abre el navegador si hace falta y guarda las credenciales fuera del proyecto.
 # Plataformas: youtube, tiktok, instagram, facebook. Requisitos de cada una: legion/03-publicador/plataformas.md
 # Cuentas: cada plataforma admite varias, declaradas en config.json -> plataformas.<p>.cuentas. "principal" es la de siempre.
+# Espacios: si la PC tiene espacio.local.json en la raiz ({ "espacio": "lalo" }), todo se lee y se escribe en
+#   espacios/lalo/ (su legion/03-publicador/config.json, sus datos/ y sus salidas/). Sin ese archivo, en la raiz.
 # Uso: powershell -NoProfile -ExecutionPolicy Bypass -File legion/03-publicador/publicar.ps1 <accion> ...
 
 param(
@@ -46,7 +48,23 @@ function Salir($obj, [bool]$ok) {
     if ($ok) { exit 0 } else { exit 1 }
 }
 
-$config = LeerJson (Join-Path $PSScriptRoot 'config.json')
+# --- Espacio: una linea de contenido con su propio config.json, sus datos y sus salidas en espacios/<nombre>/ ---
+# Cada PC dice en cual trabaja con espacio.local.json, en la raiz del proyecto (no se sube a GitHub).
+# Sin ese archivo se trabaja en la raiz, como siempre. $prefijo es lo que se antepone a las rutas relativas.
+$espacio = ''
+$rutaEspacio = Join-Path $raiz 'espacio.local.json'
+if (Test-Path -LiteralPath $rutaEspacio) { $espacio = ([string](Campo (LeerJson $rutaEspacio) 'espacio')).Trim() }
+if ($espacio -and $espacio -notmatch '^[a-z0-9][a-z0-9-]{0,30}$') { throw "espacio.local.json: nombre de espacio no valido ('$espacio'). Solo minusculas, numeros y guiones." }
+$raizDatos = if ($espacio) { Join-Path $raiz "espacios\$espacio" } else { $raiz }
+$prefijo = if ($espacio) { "espacios/$espacio/" } else { '' }
+$dondeTrabaja = if ($espacio) { "el espacio $espacio (espacio.local.json)" } else { 'la raiz del proyecto, sin espacio' }
+$rutaConfig = Join-Path $raizDatos 'legion\03-publicador\config.json'
+if (-not (Test-Path -LiteralPath $rutaConfig)) { throw "Falta $($prefijo)legion/03-publicador/config.json. Esta PC trabaja en $dondeTrabaja." }
+function Dentro([string]$ruta, [string]$carpeta) { $ruta.StartsWith($carpeta.TrimEnd('\') + '\', [StringComparison]::OrdinalIgnoreCase) }
+# Una ruta (un envio o un video) es de esta PC si cae en su espacio; en la raiz, si no cae en ningun espacio
+function EsDeAqui([string]$ruta) { if ($espacio) { Dentro $ruta $raizDatos } else { -not (Dentro $ruta (Join-Path $raiz 'espacios')) } }
+
+$config = LeerJson $rutaConfig
 $rutaCred = [Environment]::ExpandEnvironmentVariables($config.credenciales)
 $graph = $config.graph_version
 $ffprobe = Join-Path $raiz 'herramientas\bin\ffprobe.exe'
@@ -432,7 +450,7 @@ function MetricasFacebook([string]$id) {
 # --- Guardas de subir ---
 # Clips que el usuario descarto expresamente: no van a ninguna plataforma
 function Descartado([string]$clip) {
-    $ruta = Join-Path $raiz 'datos\publicador\descartados.json'
+    $ruta = Join-Path $raizDatos 'datos\publicador\descartados.json'
     if (-not $clip -or -not (Test-Path -LiteralPath $ruta)) { return $false }
     @((LeerJson $ruta).clips) -contains $clip
 }
@@ -775,14 +793,16 @@ switch ($Accion) {
             }
             $o
         } }
-        Salir ([ordered]@{ fecha = (Ahora); modo = $config.modo; simulacion = [bool]$config.simulacion; plataformas = @($lista) }) $true
+        Salir ([ordered]@{ fecha = (Ahora); espacio = $(if ($espacio) { $espacio } else { $null }); base = $prefijo; modo = $config.modo; simulacion = [bool]$config.simulacion; plataformas = @($lista) }) $true
     }
 
     'subir' {
         $res = [ordered]@{ ok = $false; plataforma = $Plataforma; cuenta = $null; clip = $null; simulado = [bool]$Simular; estado = $null; id_publicacion = $null; url = $null; privacidad = $null; duracion_seg = $null; avisos = @(); error = $null; fecha = (Ahora) }
         try {
             if (-not $Plataforma -or -not $Datos) { throw 'Uso: subir -Plataforma <p> -Datos <envio.json> [-Simular]' }
-            $rutaDatos = if ([IO.Path]::IsPathRooted($Datos)) { $Datos } else { Join-Path $raiz $Datos }
+            $rutaDatos = [IO.Path]::GetFullPath($(if ([IO.Path]::IsPathRooted($Datos)) { $Datos } else { Join-Path $raiz $Datos }))
+            # Cada PC solo sube lo de su espacio: asi no publica por error los envios ni los videos de otra
+            if (-not (EsDeAqui $rutaDatos)) { $res.estado = 'invalido'; throw "Ese envio no es de esta PC, que trabaja en $dondeTrabaja. Sus envios estan en $($prefijo)datos/publicador/envios/." }
             $envio = LeerJson $rutaDatos
             $res.clip = $envio.clip
             if ($envio.plataforma -and $envio.plataforma -ne $Plataforma) { throw "El envio es para $($envio.plataforma), no para $Plataforma" }
@@ -791,8 +811,9 @@ switch ($Accion) {
             $res.cuenta = $alias
             if ($Cuenta -and $Cuenta -ne $alias) { throw "El envio es para la cuenta $alias, no para $Cuenta" }
             UsarCuenta $Plataforma $alias
-            if (Descartado ([string]$envio.clip)) { $res.estado = 'descartado'; throw 'El usuario descarto este clip (datos/publicador/descartados.json). No se sube a ninguna plataforma.' }
+            if (Descartado ([string]$envio.clip)) { $res.estado = 'descartado'; throw "El usuario descarto este clip ($($prefijo)datos/publicador/descartados.json). No se sube a ninguna plataforma." }
             $archivo = Join-Path $raiz ([string]$envio.archivo)
+            if (-not (EsDeAqui ([IO.Path]::GetFullPath($archivo)))) { $res.estado = 'invalido'; throw "El video del envio ($($envio.archivo)) no es de esta PC, que trabaja en $dondeTrabaja. Sus clips estan en $($prefijo)salidas/clipero/clips/." }
             $v = Validar $envio $Plataforma $archivo
             $res.avisos = @($v.avisos)
             $res.duracion_seg = $v.duracion
@@ -856,7 +877,7 @@ switch ($Accion) {
     }
 
     'panel' {
-        $res = [ordered]@{ ok = $false; panel = 'salidas/publicador/panel.html'; piezas = 0; publicaciones = 0; mediciones = 0; vistas = $null; avisos = @(); error = $null; fecha = (Ahora) }
+        $res = [ordered]@{ ok = $false; panel = "$($prefijo)salidas/publicador/panel.html"; piezas = 0; publicaciones = 0; mediciones = 0; vistas = $null; avisos = @(); error = $null; fecha = (Ahora) }
         try {
             $cfgPanel = Campo $config 'panel'
             $dias = if (Campo $cfgPanel 'dias') { [int]$cfgPanel.dias } else { 30 }
@@ -864,16 +885,16 @@ switch ($Accion) {
             $avisos = New-Object Collections.Generic.List[string]
             $cred = LeerCred
 
-            $rutaEstado = Join-Path $raiz 'datos\publicador\estado.json'
+            $rutaEstado = Join-Path $raizDatos 'datos\publicador\estado.json'
             $entradas = if (Test-Path -LiteralPath $rutaEstado) { @((LeerJson $rutaEstado).entradas | Where-Object { $_ }) } else { @() }
             $desde = (Get-Date).AddDays(-$dias)
             $recientes = @($entradas | Where-Object { $f = FechaDe $_; -not $f -or $f -ge $desde })
             # clips.json del Clipero: el gancho de cada clip y de que original es variante
             $clips = @{}
-            $rutaClips = Join-Path $raiz 'salidas\clipero\clips.json'
+            $rutaClips = Join-Path $raizDatos 'salidas\clipero\clips.json'
             if (Test-Path -LiteralPath $rutaClips) { foreach ($c in @((LeerJson $rutaClips).clips)) { if ($c.id) { $clips[[string]$c.id] = $c } } }
             # Mediciones anteriores: se conservan si hoy no se puede leer alguna
-            $rutaMet = Join-Path $raiz 'datos\publicador\metricas.json'
+            $rutaMet = Join-Path $raizDatos 'datos\publicador\metricas.json'
             $met = @{}
             $medidoEn = $null
             if (Test-Path -LiteralPath $rutaMet) {
@@ -949,7 +970,7 @@ switch ($Accion) {
                 generado = (Ahora); dias = $dias; medido = $medidoEn; modo = $config.modo; simulacion = [bool]$config.simulacion
                 cuentas = $ctas; filas = $filas; avisos = @($avisos)
             }
-            $dirSalida = Join-Path $raiz 'salidas\publicador'
+            $dirSalida = Join-Path $raizDatos 'salidas\publicador'
             if (-not (Test-Path -LiteralPath $dirSalida)) { New-Item -ItemType Directory -Force $dirSalida | Out-Null }
             $json = ConvertTo-Json -InputObject $datosPanel -Depth 8 -Compress
             [IO.File]::WriteAllText((Join-Path $dirSalida 'panel.html'), $plantillaPanel.Replace('__DATOS__', $json), $utf8)

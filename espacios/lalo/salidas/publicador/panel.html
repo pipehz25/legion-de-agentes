@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Panel del Publicador</title>
+<style>
+:root { --fondo:#f6f5f2; --tarjeta:#ffffff; --texto:#1c1b19; --tenue:#6b6a66; --linea:#e3e1db; --acento:#0f6e56; --acento-suave:#e2f1ec; --alerta:#a4530a; --alerta-suave:#fbefdc; }
+@media (prefers-color-scheme: dark) { :root { --fondo:#141413; --tarjeta:#1e1e1c; --texto:#ecebe7; --tenue:#9c9a94; --linea:#33322f; --acento:#5fc9a8; --acento-suave:#17332b; --alerta:#f0b25e; --alerta-suave:#3a2a12; } }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--fondo); color:var(--texto); font:15px/1.45 system-ui,-apple-system,"Segoe UI",sans-serif; }
+main { max-width:1100px; margin:0 auto; padding:28px 16px 56px; }
+h1 { font-size:24px; margin:0 0 4px; letter-spacing:-0.01em; }
+h2 { font-size:16px; margin:34px 0 10px; }
+.sub { color:var(--tenue); margin:0; font-size:13px; }
+.cifras { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:10px; margin-top:20px; }
+.cifra { background:var(--tarjeta); border:1px solid var(--linea); border-radius:10px; padding:12px 14px; }
+.cifra b { display:block; font-size:26px; font-variant-numeric:tabular-nums; letter-spacing:-0.02em; }
+.cifra span { color:var(--tenue); font-size:13px; }
+.barra { display:flex; gap:12px; align-items:center; flex-wrap:wrap; margin-bottom:10px; }
+input[type=search] { flex:1 1 220px; padding:8px 10px; border:1px solid var(--linea); border-radius:8px; background:var(--tarjeta); color:inherit; font:inherit; }
+label.op { color:var(--tenue); font-size:13px; display:flex; gap:6px; align-items:center; }
+.tabla { background:var(--tarjeta); border:1px solid var(--linea); border-radius:10px; overflow-x:auto; }
+table { width:100%; border-collapse:collapse; }
+th, td { padding:9px 12px; text-align:left; border-bottom:1px solid var(--linea); vertical-align:top; }
+th { font-size:12px; font-weight:600; color:var(--tenue); white-space:nowrap; }
+tbody > tr:last-child > td { border-bottom:0; }
+td.n, th.n { text-align:right; font-variant-numeric:tabular-nums; white-space:nowrap; }
+tr > td:first-child { min-width:210px; }
+tr.pieza { cursor:pointer; }
+tr.pieza:hover { background:var(--acento-suave); }
+tr.pieza td:first-child::before { content:"\25B8"; display:inline-block; width:1.1em; color:var(--tenue); }
+tr.pieza.abierta td:first-child::before { content:"\25BE"; }
+tr.detalle > td { background:var(--fondo); padding:0; }
+tr.detalle th, tr.detalle td { font-size:13px; padding:7px 12px; }
+.id { display:block; color:var(--tenue); font-size:12px; font-family:ui-monospace,Consolas,monospace; overflow-wrap:anywhere; }
+.marca { display:inline-block; padding:1px 8px; border-radius:99px; font-size:12px; background:var(--linea); white-space:nowrap; }
+.marca.ok { background:var(--acento-suave); color:var(--acento); }
+.marca.ojo { background:var(--alerta-suave); color:var(--alerta); }
+a { color:var(--acento); }
+.vacio { padding:18px 14px; color:var(--tenue); }
+ul.avisos { margin:0; padding-left:18px; color:var(--tenue); font-size:13px; }
+</style>
+</head>
+<body>
+<main>
+<h1>Panel del Publicador</h1>
+<p class="sub" id="sub"></p>
+<div class="cifras" id="cifras"></div>
+
+<h2>Piezas</h2>
+<div class="barra">
+  <input type="search" id="buscar" placeholder="Buscar por gancho o id" aria-label="Buscar piezas">
+  <label class="op"><input type="checkbox" id="todas"> Incluir lo que a&uacute;n no ha salido</label>
+</div>
+<div class="tabla"><table>
+  <thead><tr><th>Pieza</th><th class="n">Versiones</th><th class="n">Publicadas</th><th class="n">En la bandeja</th><th class="n">En cola</th><th>D&oacute;nde</th><th class="n">Vistas</th><th class="n">Me gusta</th></tr></thead>
+  <tbody id="piezas"></tbody>
+</table></div>
+
+<h2>Cuentas</h2>
+<div class="tabla"><table>
+  <thead><tr><th>Plataforma</th><th>Cuenta</th><th>L&iacute;nea</th><th>Estado</th><th class="n">Hoy / tope</th><th class="n" id="thDias"></th><th class="n">Vistas</th></tr></thead>
+  <tbody id="cuentas"></tbody>
+</table></div>
+
+<div id="zonaAvisos"></div>
+</main>
+<script id="datos" type="application/json">{"generado":"2026-11-10T14:19:49-05:00","dias":30,"medido":null,"modo":"aprobacion","simulacion":false,"cuentas":[{"plataforma":"youtube","cuenta":"principal","activa":false,"linea":"todo","max_por_dia":4,"credenciales":false},{"plataforma":"tiktok","cuenta":"lalo-music","activa":true,"linea":"Lalo Ocampo, cuenta base: estrenos, coros y el momento más fuerte de cada canción","max_por_dia":4,"credenciales":true},{"plataforma":"tiktok","cuenta":"lalo-lyrics","activa":false,"linea":"Lalo Ocampo: fragmentos donde manda la letra (versos y coros que se citan)","max_por_dia":4,"credenciales":false},{"plataforma":"tiktok","cuenta":"lalo-studio","activa":false,"linea":"Lalo Ocampo en el estudio: grabación, producción y detrás de cámaras","max_por_dia":4,"credenciales":false},{"plataforma":"tiktok","cuenta":"lalo-songs","activa":false,"linea":"Lalo Ocampo: las canciones por partes (intro, verso, coro, cierre)","max_por_dia":4,"credenciales":false},{"plataforma":"tiktok","cuenta":"lalo-arts","activa":false,"linea":"Lalo Ocampo, lo visual: videoclips, portadas y estética","max_por_dia":4,"credenciales":false},{"plataforma":"tiktok","cuenta":"lalo-energy","activa":false,"linea":"Lalo Ocampo: los momentos de más energía (en vivo, partes para bailar)","max_por_dia":4,"credenciales":false},{"plataforma":"tiktok","cuenta":"lalo-love","activa":false,"linea":"Lalo Ocampo: canciones románticas, dedicatorias y desamor","max_por_dia":4,"credenciales":false},{"plataforma":"tiktok","cuenta":"lalo-girls","activa":false,"linea":"Lalo Ocampo para sus seguidoras: coqueteo, frases para dedicar y momentos con fans","max_por_dia":4,"credenciales":false},{"plataforma":"tiktok","cuenta":"lalo-drums","activa":false,"linea":"Lalo Ocampo: momentos donde manda la batería, la percusión o el beat","max_por_dia":4,"credenciales":false},{"plataforma":"tiktok","cuenta":"lalo-bass","activa":false,"linea":"Lalo Ocampo: momentos donde manda el bajo","max_por_dia":4,"credenciales":false},{"plataforma":"tiktok","cuenta":"lalo-pereira","activa":false,"linea":"Lalo Ocampo en Pereira: shows, entrevistas y contenido grabado allá o que nombra la ciudad","max_por_dia":4,"credenciales":false},{"plataforma":"tiktok","cuenta":"lalo-medellin","activa":false,"linea":"Lalo Ocampo en Medellín: shows, entrevistas y contenido grabado allá o que nombra la ciudad","max_por_dia":4,"credenciales":false},{"plataforma":"tiktok","cuenta":"lalo-bogota","activa":false,"linea":"Lalo Ocampo en Bogotá: shows, entrevistas y contenido grabado allá o que nombra la ciudad","max_por_dia":4,"credenciales":false},{"plataforma":"tiktok","cuenta":"lalo-cdmx","activa":false,"linea":"Lalo Ocampo en Ciudad de México: shows, entrevistas y contenido grabado allá o que nombra la ciudad","max_por_dia":4,"credenciales":false},{"plataforma":"tiktok","cuenta":"lalo-laley","activa":false,"linea":"Lalo Ocampo: línea por definir con el usuario","max_por_dia":4,"credenciales":false},{"plataforma":"instagram","cuenta":"principal","activa":false,"linea":"todo","max_por_dia":4,"credenciales":false},{"plataforma":"facebook","cuenta":"principal","activa":false,"linea":"todo","max_por_dia":4,"credenciales":false}],"filas":[],"avisos":[]}</script>
+<script>
+(function () {
+  var D = JSON.parse(document.getElementById('datos').textContent);
+  var filas = D.filas || [], cuentas = D.cuentas || [], avisos = D.avisos || [];
+  var RAYA = '\u2014';
+  var NOMBRES = { publicado: 'Publicado', en_borradores: 'En la bandeja', procesando: 'Procesando', aprobado: 'Aprobado', pendiente_aprobacion: 'Por aprobar', error: 'Error', rechazado: 'Rechazado', vencido: 'Vencido' };
+  var ORDEN = { publicado: 0, en_borradores: 1, procesando: 2, aprobado: 3, pendiente_aprobacion: 4, error: 5, vencido: 6, rechazado: 7 };
+  var FUERA = { publicado: 1, en_borradores: 1, procesando: 1 };
+  var COLA = { aprobado: 1, pendiente_aprobacion: 1 };
+  var PLATAFORMAS = { youtube: 'YouTube', tiktok: 'TikTok', instagram: 'Instagram', facebook: 'Facebook' };
+
+  function h(tag, attrs) {
+    var e = document.createElement(tag), k, i, c;
+    if (attrs) for (k in attrs) {
+      if (k === 'text') e.textContent = attrs[k]; else if (k === 'cls') e.className = attrs[k]; else e.setAttribute(k, attrs[k]);
+    }
+    for (i = 2; i < arguments.length; i++) { c = arguments[i]; if (c != null) e.appendChild(typeof c === 'string' ? document.createTextNode(c) : c); }
+    return e;
+  }
+  function num(x) { return x == null || x === '' ? RAYA : Number(x).toLocaleString('es-CO'); }
+  function suma(lista, campo) {
+    var t = null;
+    lista.forEach(function (f) { if (f[campo] != null && f[campo] !== '') t = (t || 0) + Number(f[campo]); });
+    return t;
+  }
+  function unicos(lista) { var v = {}, r = []; lista.forEach(function (x) { if (!v[x]) { v[x] = 1; r.push(x); } }); return r; }
+  function fecha(s) {
+    if (!s) return RAYA;
+    var d = new Date(s);
+    if (isNaN(d)) return s;
+    return d.toLocaleDateString('es-CO', { day: 'numeric', month: 'short' }) + ', ' + d.toLocaleTimeString('es-CO', { hour: '2-digit', minute: '2-digit', hour12: false });
+  }
+  function mismoDia(s, d) { var x = new Date(s); return !isNaN(x) && x.getFullYear() === d.getFullYear() && x.getMonth() === d.getMonth() && x.getDate() === d.getDate(); }
+  function plataforma(p) { return PLATAFORMAS[p] || p; }
+  function marca(estado) {
+    var cls = 'marca' + (estado === 'publicado' ? ' ok' : (estado === 'error' || estado === 'vencido' ? ' ojo' : ''));
+    return h('span', { cls: cls, text: NOMBRES[estado] || estado });
+  }
+
+  // Una pieza es un momento: el clip original y sus variantes
+  var mapa = {}, piezas = [];
+  filas.forEach(function (f) {
+    var p = mapa[f.pieza];
+    if (!p) { p = mapa[f.pieza] = { id: f.pieza, titulo: null, filas: [] }; piezas.push(p); }
+    p.filas.push(f);
+    if (f.gancho && (f.clip === f.pieza || !p.titulo)) p.titulo = f.gancho;
+  });
+  piezas.forEach(function (p) {
+    var fuera = p.filas.filter(function (f) { return FUERA[f.estado]; });
+    p.versiones = unicos(p.filas.map(function (f) { return f.clip; })).length;
+    p.publicadas = fuera.filter(function (f) { return f.estado === 'publicado'; }).length;
+    p.bandeja = fuera.length - p.publicadas;
+    p.cola = p.filas.filter(function (f) { return COLA[f.estado]; }).length;
+    p.donde = unicos(fuera.map(function (f) { return plataforma(f.plataforma) + (f.cuenta && f.cuenta !== 'principal' ? ' (' + f.cuenta + ')' : ''); }));
+    p.vistas = suma(p.filas, 'vistas');
+    p.megusta = suma(p.filas, 'me_gusta');
+    p.ultima = fuera.map(function (f) { return f.publicado || ''; }).sort().pop() || '';
+    p.texto = ((p.titulo || '') + ' ' + p.id + ' ' + p.filas.map(function (f) { return f.clip; }).join(' ')).toLowerCase();
+    p.filas.sort(function (a, b) { return (ORDEN[a.estado] - ORDEN[b.estado]) || a.clip.localeCompare(b.clip) || a.plataforma.localeCompare(b.plataforma); });
+  });
+  piezas.sort(function (a, b) {
+    return ((b.vistas == null ? -1 : b.vistas) - (a.vistas == null ? -1 : a.vistas)) || (b.publicadas - a.publicadas) || (b.bandeja - a.bandeja) || b.ultima.localeCompare(a.ultima) || a.id.localeCompare(b.id);
+  });
+
+  function detalle(p) {
+    var cuerpo = h('tbody');
+    p.filas.forEach(function (f) {
+      var version = f.clip === p.id ? 'Original' : 'Variante';
+      var celda = h('td', null, version, h('span', { cls: 'id', text: f.clip }));
+      if (f.diferencia) celda.appendChild(h('span', { cls: 'id', text: f.diferencia }));
+      cuerpo.appendChild(h('tr', null, celda,
+        h('td', { text: plataforma(f.plataforma) }), h('td', { text: f.cuenta || 'principal' }), h('td', null, marca(f.estado)),
+        h('td', { text: fecha(f.publicado) }), h('td', { cls: 'n', text: num(f.vistas) }), h('td', { cls: 'n', text: num(f.me_gusta) }),
+        h('td', { cls: 'n', text: num(f.comentarios) }),
+        h('td', null, f.url ? h('a', { href: f.url, target: '_blank', rel: 'noopener', text: 'Abrir' }) : RAYA)));
+    });
+    var cab = h('thead', null, h('tr', null, h('th', { text: 'Versi\u00f3n' }), h('th', { text: 'Plataforma' }), h('th', { text: 'Cuenta' }), h('th', { text: 'Estado' }),
+      h('th', { text: 'Subido' }), h('th', { cls: 'n', text: 'Vistas' }), h('th', { cls: 'n', text: 'Me gusta' }), h('th', { cls: 'n', text: 'Comentarios' }), h('th', { text: 'Enlace' })));
+    return h('tr', { cls: 'detalle' }, h('td', { colspan: '8' }, h('table', null, cab, cuerpo)));
+  }
+
+  var tabla = document.getElementById('piezas'), buscar = document.getElementById('buscar'), todas = document.getElementById('todas');
+  function pintar() {
+    var q = buscar.value.trim().toLowerCase(), n = 0;
+    tabla.textContent = '';
+    piezas.forEach(function (p) {
+      if (!todas.checked && !(p.publicadas + p.bandeja)) return;
+      if (q && p.texto.indexOf(q) < 0) return;
+      n++;
+      var fila = h('tr', { cls: 'pieza', tabindex: '0' },
+        h('td', null, p.titulo || p.id, h('span', { cls: 'id', text: p.id })),
+        h('td', { cls: 'n', text: num(p.versiones) }), h('td', { cls: 'n', text: num(p.publicadas) }), h('td', { cls: 'n', text: num(p.bandeja) }),
+        h('td', { cls: 'n', text: num(p.cola) }), h('td', { text: p.donde.join(', ') || RAYA }),
+        h('td', { cls: 'n', text: num(p.vistas) }), h('td', { cls: 'n', text: num(p.megusta) }));
+      var abierto = null;
+      function alternar() {
+        if (abierto) { abierto.remove(); abierto = null; fila.classList.remove('abierta'); }
+        else { abierto = detalle(p); fila.after(abierto); fila.classList.add('abierta'); }
+      }
+      fila.addEventListener('click', alternar);
+      fila.addEventListener('keydown', function (ev) { if (ev.key === 'Enter' || ev.key === ' ') { ev.preventDefault(); alternar(); } });
+      tabla.appendChild(fila);
+    });
+    if (!n) tabla.appendChild(h('tr', null, h('td', { colspan: '8', cls: 'vacio', text: piezas.length ? 'Nada coincide. Marca la casilla para ver tambi\u00e9n lo que a\u00fan no ha salido.' : 'Todav\u00eda no hay nada en la cola del Publicador.' })));
+  }
+  buscar.addEventListener('input', pintar);
+  todas.addEventListener('change', pintar);
+  pintar();
+
+  // Cuentas
+  var hoy = new Date(), cuerpoCuentas = document.getElementById('cuentas');
+  document.getElementById('thDias').textContent = '\u00daltimos ' + D.dias + ' d\u00edas';
+  cuentas.forEach(function (c) {
+    var suyas = filas.filter(function (f) { return f.plataforma === c.plataforma && (f.cuenta || 'principal') === c.cuenta && FUERA[f.estado]; });
+    var deHoy = suyas.filter(function (f) { return mismoDia(f.publicado, hoy); }).length;
+    var estado = !c.activa ? h('span', { cls: 'marca', text: 'Inactiva' }) : (c.credenciales ? h('span', { cls: 'marca ok', text: 'Lista' }) : h('span', { cls: 'marca ojo', text: 'Sin credenciales en esta PC' }));
+    cuerpoCuentas.appendChild(h('tr', null, h('td', { text: plataforma(c.plataforma) }), h('td', { text: c.cuenta }), h('td', { text: c.linea || RAYA }), h('td', null, estado),
+      h('td', { cls: 'n', text: deHoy + ' / ' + (c.max_por_dia == null ? RAYA : c.max_por_dia) }), h('td', { cls: 'n', text: num(suyas.length) }), h('td', { cls: 'n', text: num(suma(suyas, 'vistas')) })));
+  });
+
+  // Cifras de arriba
+  var fueraTodas = filas.filter(function (f) { return FUERA[f.estado]; });
+  var publicadas = fueraTodas.filter(function (f) { return f.estado === 'publicado'; }).length;
+  var cifras = [
+    [piezas.filter(function (p) { return p.publicadas + p.bandeja; }).length, 'Piezas que ya salieron'],
+    [publicadas, 'Publicaciones'],
+    [fueraTodas.length - publicadas, 'En la bandeja o en proceso'],
+    [filas.filter(function (f) { return COLA[f.estado]; }).length, 'En cola'],
+    [cuentas.filter(function (c) { return c.activa && c.credenciales; }).length, 'Cuentas listas'],
+    [suma(filas, 'vistas'), 'Vistas medidas']
+  ];
+  var zona = document.getElementById('cifras');
+  cifras.forEach(function (c) { zona.appendChild(h('div', { cls: 'cifra' }, h('b', { text: num(c[0]) }), h('span', { text: c[1] }))); });
+
+  document.getElementById('sub').textContent = 'Generado el ' + fecha(D.generado) + ' \u00b7 \u00faltimos ' + D.dias + ' d\u00edas \u00b7 ' +
+    (D.medido ? 'vistas le\u00eddas el ' + fecha(D.medido) : 'vistas sin leer todav\u00eda') + (D.simulacion ? ' \u00b7 en simulaci\u00f3n' : '');
+
+  if (avisos.length) {
+    var lista = h('ul', { cls: 'avisos' });
+    avisos.forEach(function (a) { lista.appendChild(h('li', { text: a })); });
+    var z = document.getElementById('zonaAvisos');
+    z.appendChild(h('h2', { text: 'Avisos' }));
+    z.appendChild(lista);
+  }
+})();
+</script>
+</body>
+</html>

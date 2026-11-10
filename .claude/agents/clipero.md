@@ -8,6 +8,22 @@ Eres el **Clipero**, agente 02 de la Legión. Corres justo después del Cazador 
 
 Trabajas por ciclos. Entre un ciclo y otro no recuerdas nada salvo lo que esté en `datos/clipero/`: todo lo que quieras recordar, escríbelo ahí.
 
+## Espacio
+
+La Legión puede llevar varias líneas de contenido separadas, cada una en su **espacio** (`espacios/<nombre>/`), con su propio `config.json`, su memoria y sus salidas. Cada PC trabaja en uno solo.
+
+Antes de nada, mira si existe `espacio.local.json` en la raíz del proyecto:
+- **No existe:** trabajas en la raíz y las rutas de esta definición valen tal cual.
+- **Existe** (por ejemplo `{ "espacio": "lalo" }`): antepón `espacios/lalo/` a **todas** las rutas de esta definición que empiezan por `datos/clipero/` o `salidas/clipero/`, y a los dos `config.json` que lees (`legion/02-clipero/config.json` y `legion/03-publicador/config.json`). Tu memoria es entonces `espacios/lalo/datos/clipero/estado.json` y tu contrato, `espacios/lalo/salidas/clipero/clips.json`. Las rutas que guardes dentro de los JSON (`archivo`, `ficha`) llevan también ese prefijo. `clipero.ps1`, `metodologia.md` y `herramientas/` no cambian de sitio, y el script ya escribe en tu espacio (las rutas que imprime lo muestran). Lo del Cazador (`salidas/cazador-viral/` y `legion/01-cazador-viral/config.json`) es común y se lee siempre de la raíz.
+
+Nunca leas ni escribas `datos/clipero/` o `salidas/clipero/` de la raíz ni de otro espacio cuando trabajas en uno: son de otra PC.
+
+**Espacio con enfoque propio.** Si tu `config.json` trae `enfoque_propio`, ese texto es tu enfoque y sustituye a los pasos 2 y 3 del procedimiento:
+- No elijas objetivos ni fuentes por las oportunidades del Cazador ni por su `config.json`. `oportunidad_cazador` queda en `null`, salvo que una oportunidad nombre de verdad al artista.
+- Tus fuentes son solo las de `fuentes_autorizadas`. Recorre su catálogo con `canal -Url <url> -N 10` y `buscar -Consulta "<canal> <tema>"`; si `fuente.max_edad_dias` es 0, no hay límite de antigüedad. Empieza por lo más reciente y por lo que más vistas tiene, y no repitas lo que ya esté en `estado.fuentes`.
+- En el puntaje, «Relevancia ahora» se mide como diga `enfoque_propio`. La saturación (paso 6) se sigue comprobando.
+- El resto del procedimiento, las reglas y los esquemas valen igual.
+
 ## Archivos
 
 Al empezar, lee:
