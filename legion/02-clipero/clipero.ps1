@@ -18,7 +18,11 @@
 #               Si la fuente no tiene subtitulos (Kick, Twitch, Instagram...), transcribe el audio en local con whisper.cpp
 #               (herramientas/bin/whisper + herramientas/modelos); el origen queda en resumen.json (transcripcion_origen).
 #   cortar   -Url <url> -Inicio <seg> -Fin <seg> -Id <clip-id> [-Gancho "<texto>"] [-Subs orig|es|ninguno|whisper|<sufijo>] [-Modo desenfoque|recorte]
+#            [-Estilo clasico|amarillo|caja]
 #            -Subs whisper: transcribe con whisper solo el tramo del clip (fuentes sin subtitulos).
+#            -Estilo: aspecto de los subtitulos. clasico = blanco en mayusculas, 3 palabras por bloque (por defecto);
+#               amarillo = amarillo en mayusculas, 2 palabras; caja = blanco sobre caja negra, sin mayusculas, 4 palabras.
+#               Sirve para que las variantes de un mismo momento se vean distintas (metodologia.md, seccion 7).
 #            -> salidas/clipero/clips/<Id>/clip.mp4 (1080x1920, subtitulos quemados), portada.jpg y meta.json
 #            -AlturaFuente 720 limita la descarga de origen; la salida sigue siendo 1080x1920 (por defecto: 1080).
 # Uso: powershell -NoProfile -ExecutionPolicy Bypass -File legion/02-clipero/clipero.ps1 <accion> ...
@@ -41,7 +45,8 @@ param(
     [string]$Gancho = '',
     [string]$Subs = 'orig',
     [ValidateSet(360,480,720,1080)][int]$AlturaFuente = 1080,
-    [ValidateSet('desenfoque', 'recorte')][string]$Modo = 'desenfoque'
+    [ValidateSet('desenfoque', 'recorte')][string]$Modo = 'desenfoque',
+    [ValidateSet('clasico', 'amarillo', 'caja')][string]$Estilo = 'clasico'
 )
 
 $ErrorActionPreference = 'Stop'
@@ -497,7 +502,7 @@ if ($Accion -eq 'analizar') {
 
 # ---------------------------------------------------------------- cortar
 if (-not $Url -or -not $Id -or $Inicio -lt 0 -or $Fin -le $Inicio) {
-    throw 'Uso: cortar -Url <url> -Inicio <seg> -Fin <seg> -Id <clip-id> [-Gancho "<texto>"] [-Subs orig|es|ninguno] [-Modo desenfoque|recorte]'
+    throw 'Uso: cortar -Url <url> -Inicio <seg> -Fin <seg> -Id <clip-id> [-Gancho "<texto>"] [-Subs orig|es|ninguno] [-Modo desenfoque|recorte] [-Estilo clasico|amarillo|caja]'
 }
 if ($Fin - $Inicio -gt 180) { throw 'Un clip no puede durar mas de 180 s' }
 $vid = IdVideo $Url
@@ -545,26 +550,34 @@ try {
         EscribirJson $rutaW @(@($previas) + $palabras | Sort-Object t) -Compacto
     }
 
-    # Subtitulos estilo clip (bloques de hasta 3 palabras, mayusculas) y gancho fijo arriba
+    # Subtitulos estilo clip (bloques cortos de palabras) y gancho fijo arriba. -Estilo cambia el aspecto y el
+    # tamano del bloque; los colores van en &HAABBGGRR. En "caja", BorderStyle 3 pinta una caja del color del borde.
+    $est = switch ($Estilo) {
+        'amarillo' { @{ palabras = 2; mayus = $true; linea = 'Style: Sub,Arial,92,&H0000E6FF,&H000000FF,&H00000000,&H64000000,-1,0,0,0,100,100,0,0,1,8,2,2,60,60,430,1' } }
+        'caja' { @{ palabras = 4; mayus = $false; linea = 'Style: Sub,Arial,66,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,3,14,0,2,70,70,430,1' } }
+        default { @{ palabras = 3; mayus = $true; linea = 'Style: Sub,Arial,84,&H00FFFFFF,&H000000FF,&H00000000,&H64000000,-1,0,0,0,100,100,0,0,1,7,2,2,60,60,430,1' } }
+    }
     $eventos = New-Object Collections.Generic.List[string]
     if ($Gancho) { $eventos.Add("Dialogue: 1,$(TiempoAss 0),$(TiempoAss $durClip),Gancho,,0,0,0,,$(TextoAss $Gancho)") }
     $ws = @($palabras | Where-Object { $_.t -ge $ini -and $_.t -lt $fin -and $_.w -notmatch '^\[.*\]$' })
     $k = 0
     while ($k -lt $ws.Count) {
         $grupo = @($ws[$k]); $k++
-        while ($k -lt $ws.Count -and $grupo.Count -lt 3 -and ($ws[$k].t - $grupo[-1].t) -lt 0.6 -and $grupo[-1].w -notmatch '[.?!,]$') {
+        while ($k -lt $ws.Count -and $grupo.Count -lt $est.palabras -and ($ws[$k].t - $grupo[-1].t) -lt 0.6 -and $grupo[-1].w -notmatch '[.?!,]$') {
             $grupo += $ws[$k]; $k++
         }
         $a = $grupo[0].t - $ini
         $b = if ($k -lt $ws.Count) { [math]::Min($ws[$k].t - $ini, $a + 2.5) } else { [math]::Min($grupo[-1].t - $ini + 0.8, $durClip) }
-        $texto = TextoAss ((($grupo | ForEach-Object { $_.w }) -join ' ').ToUpper())
+        $frase = ($grupo | ForEach-Object { $_.w }) -join ' '
+        if ($est.mayus) { $frase = $frase.ToUpper() }
+        $texto = TextoAss $frase
         $eventos.Add("Dialogue: 0,$(TiempoAss $a),$(TiempoAss $b),Sub,,0,0,0,,$texto")
     }
     $ass = @(
         '[Script Info]', 'ScriptType: v4.00+', 'PlayResX: 1080', 'PlayResY: 1920', 'WrapStyle: 0', 'ScaledBorderAndShadow: yes', '',
         '[V4+ Styles]',
         'Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding',
-        'Style: Sub,Arial,84,&H00FFFFFF,&H000000FF,&H00000000,&H64000000,-1,0,0,0,100,100,0,0,1,7,2,2,60,60,430,1',
+        $est.linea,
         'Style: Gancho,Arial,68,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,3,16,0,8,80,80,230,1', '',
         '[Events]', 'Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text'
     ) + $eventos
@@ -604,7 +617,7 @@ try {
     $meta = [ordered]@{
         id = $Id; url_fuente = $Url; video_id = $vid
         inicio = [math]::Round($ini, 2); fin = [math]::Round($fin, 2); inicio_hms = Hms $ini; duracion_seg = [math]::Round($real, 1)
-        gancho = $Gancho; subtitulos = $(if ($ws.Count) { $Subs } else { 'ninguno' }); palabras_subtituladas = $ws.Count; modo = $Modo
+        gancho = $Gancho; subtitulos = $(if ($ws.Count) { $Subs } else { 'ninguno' }); palabras_subtituladas = $ws.Count; modo = $Modo; estilo = $Estilo
         fuente_ancho = $sourceVideoInfo.width; fuente_alto = $sourceVideoInfo.height
         audio = $audio
         archivo = Relativa (Join-Path $salida 'clip.mp4'); portada = Relativa (Join-Path $salida 'portada.jpg')

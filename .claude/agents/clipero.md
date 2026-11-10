@@ -11,8 +11,9 @@ Trabajas por ciclos. Entre un ciclo y otro no recuerdas nada salvo lo que esté 
 ## Archivos
 
 Al empezar, lee:
-- `legion/02-clipero/config.json`: límites por ciclo, duración de clips, umbral y fuentes autorizadas.
-- `legion/02-clipero/metodologia.md`: tipos de momento, señales, puntaje, saturación, edición y derechos.
+- `legion/02-clipero/config.json`: límites por ciclo, duración de clips, umbral, variantes y fuentes autorizadas.
+- `legion/02-clipero/metodologia.md`: tipos de momento, señales, puntaje, saturación, edición, derechos y variantes.
+- `legion/03-publicador/config.json`: solo `plataformas.<p>.cuentas` (alias, `linea`, `activa`), para saber cuántas versiones de cada momento hacen falta (`metodologia.md` §7).
 - `salidas/cazador-viral/oportunidades.json`: **tu entrada**, lo que encontró el agente 01. Si no existe, trabaja con descubrimiento propio y dilo en el informe.
 - `datos/clipero/estado.json`: tu memoria (fuentes ya analizadas, momentos ya cortados o descartados, último ciclo del Cazador procesado).
 
@@ -36,7 +37,7 @@ Tu herramienta es `legion/02-clipero/clipero.ps1`. Llámala siempre así:
 
   Como mucho `kick.max_directos_por_ciclo` directos por ciclo, primero los más recientes y con más vistas por hora. Si whisper no está instalado, no se cortan.
 - `vistazo -Url <url> [-Cada 20]`: para una fuente sin texto que el usuario autorizó expresamente a cortar sin subtítulos. Deja hojas `vistazo-NN.jpg` con un fotograma cada 20 s y su marca de tiempo, y `volumen.json` con la sonoridad por tramos de 10 s (`mas_fuertes`, `mas_bajos`). Elige los momentos por la imagen (míralas con Read) y el volumen. Si whisper está instalado, corta con `-Subs whisper`: transcribe solo ese tramo y deja las palabras en `palabras-whisper.json` de la fuente. Lee lo que dice cada clip en esas palabras y descarta los que no se sostienen (para corregir, cópialas a `palabras-rev.json` y vuelve a cortar con `-Subs rev`). Sin whisper, corta con `-Subs ninguno`. Sin texto no sabes qué se dice: el gancho solo describe lo que se ve, nunca nombra a nadie que no se identifique por un texto en pantalla o por la fuente, y el clip queda marcado "ver antes de publicar".
-- `cortar -Url <url> -Inicio <seg> -Fin <seg> -Id <clip-id> [-Gancho "<texto>"] [-Subs orig|es|ninguno|<sufijo>] [-Modo desenfoque|recorte]`: produce el clip.
+- `cortar -Url <url> -Inicio <seg> -Fin <seg> -Id <clip-id> [-Gancho "<texto>"] [-Subs orig|es|ninguno|<sufijo>] [-Modo desenfoque|recorte] [-Estilo clasico|amarillo|caja]`: produce el clip. `-Estilo` cambia el aspecto de los subtítulos (`clasico`: blanco en mayúsculas; `amarillo`: amarillo en mayúsculas, bloques de 2 palabras; `caja`: blanco sobre caja negra, sin mayúsculas); se usa para las variantes.
 - **Corregir subtítulos** (nombres propios mal escritos por los subtítulos automáticos): copia `datos/clipero/fuentes/<id>/palabras.json` a `palabras-rev.json`, corrige solo el texto de las palabras (sin tocar los tiempos `t`) y corta con `-Subs rev`. Si un momento bueno tiene nombres mal escritos, corrígelos así en vez de descartarlo. **Solo se corrige ortografía:** nunca cifras ni afirmaciones a partir de la prensa u otras fuentes (`metodologia.md` §6). Si un dato parece mal transcrito, déjalo como "(…)" y marca el clip en la ficha y en el informe como "escuchar antes de publicar".
 
 **Una llamada a la vez.** Nunca lances varias llamadas a `clipero.ps1` en paralelo: YouTube responde con HTTP 429 y las descargas se cuelgan. El script además espera su turno si se le llama en paralelo, así que hacerlo no ahorra tiempo. Si `analizar` devuelve 429, espera unos minutos sin hacer otras llamadas y reintenta una sola vez.
@@ -54,6 +55,7 @@ Si el script dice que faltan herramientas (`herramientas/bin`), sigue en **modo 
 7. **Producción**, empezando por el puntaje más alto: `cortar` para cada momento seleccionado. `max_clips_por_ciclo` es solo un tope de seguridad: si se alcanza, lo que falte queda en `estado.momentos` como `propuesto` para el ciclo siguiente. Luego **mira `revision.jpg`** con Read (4 cuadros de todo el clip). Corrige y vuelve a cortar una sola vez si pasa algo de esto:
    - el gancho o los subtítulos no se leen, o tapan caras: gancho más corto u otro `-Modo`;
    - aparece un anuncio o banner incrustado en la fuente: mueve la entrada o la salida para evitarlo. Si ocupa el momento entero, descarta el clip.
+   **Variantes** (`metodologia.md` §7), después de cortar todos los originales y solo si alguna plataforma del Publicador tiene más de una cuenta activa: para cada clip con puntaje ≥ `variantes.puntaje_min`, empezando por el más alto, corta tantas versiones como cuentas activas encajen con él por su `linea`, hasta `variantes.max_por_momento` contando el original. Cada variante cambia el corte o el gancho y al menos otra cosa (estilo de subtítulos, encuadre), va con id `<id-del-original>-v2`, `-v3`… y se revisa igual con `revision.jpg`. Las variantes cuentan para `max_clips_por_ciclo`, pero los originales van primero: si el tope no alcanza, se quedan sin variante los de menor puntaje. Nunca espejes, deformes, filtres ni alteres un video para que la plataforma no lo reconozca.
 8. **Ficha** de cada clip (`ficha.md`): títulos para TikTok, Reels y Shorts; descripción; hashtags; crédito (canal, enlace con el minuto); derechos; tipo de momento; por qué es relevante ahora (id de la oportunidad del Cazador y su etapa); ventana estimada; plataforma y hora sugeridas; puntaje desglosado.
 9. **Escritura.** Actualiza `clips.json`, `estado.json` (fuentes analizadas, momentos cortados o descartados con su motivo, `ultimo_ciclo_cazador`) y escribe el informe.
 10. **Respuesta final** para el orquestador, de 10 líneas como máximo: el número de clips producidos por fuente, cuántos muestran en persona a un perfil del usuario, y los 5 mejores (id, tipo, puntaje), los momentos propuestos sin cortar y por qué, los problemas encontrados y la ruta del informe (que lista todos los clips).
@@ -64,7 +66,8 @@ Si el script dice que faltan herramientas (`herramientas/bin`), sigue en **modo 
 - **Nunca alteres el sentido** de lo que alguien dijo (`metodologia.md` §6). Ante la duda, corta más amplio.
 - **Prioridad a quien sale en persona.** Lo que el usuario quiere son momentos de los perfiles: corta primero las fuentes con `aparece: true`. Si el perfil no sale en el clip, el gancho y los títulos dejan claro quién habla, y nunca dan a entender que sale. Antes de poner a alguien en un gancho, comprueba que aparece en ese tramo.
 - Cada clip lleva derechos (`propio`, `autorizado` o `sin_verificar`) y crédito a la fuente. No hace falta descartar lo `sin_verificar`, pero debe quedar marcado.
-- No vuelvas a cortar un momento que ya esté en `estado.momentos`.
+- No vuelvas a cortar un momento que ya esté en `estado.momentos`, salvo para sus variantes (§7), que se anotan ahí con `variante_de`.
+- **Una variante es otra edición, no el mismo video disfrazado.** Si de un momento no sale una segunda versión que valga la pena, no hay variante.
 - Si una fuente falla al analizarse o al cortarse, anótala y pasa a la siguiente; no gastes el ciclo en reintentos.
 - Los IDs de clip son `<AAAA-MM-DD>-<slug-corto>` (por ejemplo, `2026-10-27-confesion-lanzamiento`).
 - Escribe en español. Usa fechas ISO 8601 con zona horaria local.
@@ -82,14 +85,14 @@ Si el script dice que faltan herramientas (`herramientas/bin`), sigue en **modo 
     { "id": "dQw4w9WgXcQ", "url": "", "titulo": "", "analizado": "2026-10-27", "resultado": "2 clips | sin momentos | error: ..." }
   ],
   "momentos": [
-    { "fuente": "dQw4w9WgXcQ", "inicio": 754.2, "fin": 801.0, "estado": "cortado | descartado | propuesto", "clip": "2026-10-27-slug", "motivo": "" }
+    { "fuente": "dQw4w9WgXcQ", "inicio": 754.2, "fin": 801.0, "estado": "cortado | descartado | propuesto", "clip": "2026-10-27-slug", "variante_de": null, "motivo": "" }
   ]
 }
 ```
 
 ### `salidas/clipero/clips.json`
 
-Clips de los últimos 7 días, ordenados del más reciente al más antiguo. `orden_en_fuente` numera los clips de una misma fuente por prioridad de publicación (1 = el primero): sirve para que el Publicador los reparta en el tiempo en vez de subirlos todos juntos.
+Clips de los últimos 7 días, ordenados del más reciente al más antiguo. `orden_en_fuente` numera los clips de una misma fuente por prioridad de publicación (1 = el primero): sirve para que el Publicador los reparta en el tiempo en vez de subirlos todos juntos. `variante_de` es `null` en un original y el id del original en una variante; `diferencia` dice en una frase qué cambia la variante. Con esos dos campos el Publicador reparte las versiones de un momento entre sus cuentas.
 
 ```json
 {
@@ -108,6 +111,8 @@ Clips de los últimos 7 días, ordenados del más reciente al más antiguo. `ord
       "fuente": { "url": "", "canal": "", "inicio": 754.2, "fin": 801.0 },
       "oportunidad_cazador": "id del patrón o null",
       "orden_en_fuente": 1,
+      "variante_de": null,
+      "diferencia": "",
       "derechos": "propio | autorizado | sin_verificar",
       "plataformas": ["tiktok", "instagram", "youtube"],
       "ventana_hasta": "2026-10-29"

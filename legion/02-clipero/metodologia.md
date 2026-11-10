@@ -74,3 +74,25 @@ Antes de cortar, comprobar si el momento ya está recortado: `clipero.ps1 buscar
 - **Nunca se altera el sentido.** Está prohibido cortar de forma que alguien parezca decir lo que no dijo: quitar una negación, sacar una ironía de contexto o unir frases separadas.
 - **Los subtítulos dicen lo que se oye, no lo que publicó la prensa.** Al corregir los subtítulos automáticos solo se arregla la ortografía (nombres propios, tildes, palabras mal partidas). Cifras, nombres de personas distintas a las transcritas y afirmaciones no se cambian nunca con información de fuentes externas, aunque parezca que el subtítulo automático se equivocó. Si un dato importante parece mal transcrito y no se puede comprobar escuchando, ese tramo de subtítulo se deja como "(…)" y el clip queda marcado en la ficha para que una persona escuche el audio antes de publicar.
 - No se recortan momentos que expongan a personas privadas o a menores, ni tragedias, ni nada que caiga en las exclusiones del Cazador Viral. Eso incluye las del usuario (`excluir` en su `config.json`): nada de reality shows, concursos de TV ni chisme de televisión.
+
+## 7. Variantes para varias cuentas
+
+Cuando el Publicador tiene más de una cuenta activa en una plataforma (`legion/03-publicador/config.json` → `plataformas.<p>.cuentas`), un mismo momento se puede publicar en varias, pero **cada cuenta recibe una versión distinta**, hecha como la haría otro editor. Nunca el mismo archivo.
+
+**Cuántas.** Tantas versiones como cuentas activas cuya `linea` encaje con el clip, sin pasar de `variantes.max_por_momento` (cuenta el original). Solo para los clips con puntaje ≥ `variantes.puntaje_min`. Con una sola cuenta no se corta ninguna variante.
+
+**Qué hace que una variante sea de verdad otra versión.** Cambia el corte o el gancho, y además al menos otra cosa de esta lista:
+
+| Qué cambia | Cómo |
+|---|---|
+| **Corte** | Versión corta (solo el golpe, 15-25 s) frente a la completa; o entrar en otra frase que también funcione como gancho. La diferencia de duración es de al menos un 20 % |
+| **Gancho** | Otro ángulo verdadero del mismo momento: la frase citada, la pregunta que responde, la consecuencia. No el mismo gancho con sinónimos |
+| **Estilo de subtítulos** | `-Estilo clasico`, `amarillo` o `caja` |
+| **Encuadre** | `-Modo recorte` si hay una sola persona centrada; si no, `desenfoque` |
+| **Títulos y texto** | La ficha de la variante se escribe desde su gancho, no se copia la del original |
+
+**Qué no es una variante y no se hace.** Espejar el video, deformarlo, rotarlo, meterle grano, ruido o filtros de color, cambiarle la velocidad o tocar los metadatos para que la plataforma no lo reconozca como el mismo archivo. Eso es evadir el control de duplicados, incumple las normas de las plataformas y tumba cuentas. Si de un momento no sale una segunda versión que valga la pena ver, no hay variante.
+
+**Reglas que siguen valiendo.** Cada variante cumple §5 y §6 por separado: no altera el sentido, lleva crédito y derechos, y se revisa con `revision.jpg`. La regla de solapes de §3 no se aplica entre un original y sus variantes.
+
+**Cómo se registran.** La variante es un clip más, con id `<id-del-original>-v2`, `-v3`…, `variante_de` con el id del original y `diferencia` con una frase que diga qué cambia ("corta, gancho con la pregunta, subtítulos amarillos"). Hereda `puntaje`, `derechos`, `ventana_hasta` y `oportunidad_cazador` del original.

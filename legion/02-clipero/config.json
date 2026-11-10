@@ -31,6 +31,12 @@
   },
   "umbral_produccion": 65,
 
+  "variantes": {
+    "max_por_momento": 3,
+    "puntaje_min": 70
+  },
+  "_variantes": "Versiones distintas de un mismo momento para repartirlas entre las cuentas del Publicador (metodologia.md §7). max_por_momento cuenta también el original. Solo se cortan variantes de los clips con puntaje >= puntaje_min, y nunca más versiones que cuentas activas tenga una plataforma en legion/03-publicador/config.json: con una sola cuenta no se corta ninguna.",
+
   "fuentes_autorizadas": [
     {
       "canal": "Lalo Ocampo",

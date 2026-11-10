@@ -9,9 +9,16 @@
   "horario": { "desde": "08:00", "hasta": "23:00" },
   "max_intentos": 2,
 
+  "_cuentas": "Cada plataforma admite varias cuentas propias en su lista \"cuentas\". Formato: { \"alias\": \"urbano\", \"activa\": true, \"linea\": \"música urbana: Blessd, Kris R, Ryan Castro\", \"max_por_dia\": 4, \"usuario\": \"\" }. alias: minúsculas, números y guiones; 'principal' es la cuenta de siempre. linea: de qué va la cuenta, en palabras; el Publicador reparte los clips por ahí ('todo' los recibe todos). activa: false la deja fuera del reparto. max_por_dia y usuario (solo TikTok) son opcionales. El orden de la lista es el orden de reparto: la primera cuenta que encaja recibe el clip original y las siguientes, sus variantes. Cada cuenta nueva se autoriza con: publicar.ps1 autorizar -Plataforma <p> -Cuenta <alias> (plataformas.md §10).",
+  "separacion_piezas_horas": 12,
+  "_separacion_piezas_horas": "Horas mínimas entre dos versiones de un mismo momento en cuentas distintas de la misma plataforma.",
+
   "plataformas": {
     "youtube": {
       "activa": false,
+      "cuentas": [
+        { "alias": "principal", "activa": true, "linea": "todo" }
+      ],
       "privacidad": "private",
       "_privacidad": "private | unlisted | public. Mientras el proyecto de Google Cloud no pase la auditoría de la API, YouTube deja privado todo lo subido por API.",
       "categoria": "24",
@@ -20,6 +27,11 @@
     },
     "tiktok": {
       "activa": true,
+      "cuentas": [
+        { "alias": "principal", "activa": true, "linea": "todo" }
+      ],
+      "leer_metricas": false,
+      "_leer_metricas": "true: el panel lee las vistas de TikTok. Antes hay que añadir el scope video.list a la app de TikTok y volver a autorizar cada cuenta (plataformas.md §11).",
       "usuario": "",
       "_usuario": "Tu usuario de TikTok, sin @. Solo sirve para armar los enlaces a las publicaciones.",
       "destino": "borrador",
@@ -30,6 +42,9 @@
     },
     "instagram": {
       "activa": false,
+      "cuentas": [
+        { "alias": "principal", "activa": true, "linea": "todo" }
+      ],
       "api": "instagram",
       "_api": "instagram: API de Instagram con inicio de sesión de Instagram (no necesita página de Facebook). facebook: API de Instagram con inicio de sesión de Facebook (cuenta vinculada a una página).",
       "compartir_en_feed": true,
@@ -38,11 +53,17 @@
     },
     "facebook": {
       "activa": false,
+      "cuentas": [
+        { "alias": "principal", "activa": true, "linea": "todo" }
+      ],
       "estado": "DRAFT",
       "_estado": "DRAFT: queda como borrador en la página. PUBLISHED: se publica.",
       "max_por_dia": 4
     }
   },
+
+  "panel": { "dias": 30, "max_mediciones": 150 },
+  "_panel": "salidas/publicador/panel.html. dias: cuánto hacia atrás mira. max_mediciones: de cuántas publicaciones lee las vistas en cada pasada, empezando por las más recientes.",
 
   "graph_version": "v23.0",
   "credenciales": "%USERPROFILE%\\.legion\\publicador\\credenciales.json",

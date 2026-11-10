@@ -7,8 +7,10 @@ Una legión de agentes autónomos, cada uno controlado por un loop. Esta sesión
 | # | Agente | Qué hace | Entrada | Disparo suelto | Estado |
 |---|--------|----------|---------|----------------|--------|
 | 01 | Cazador Viral | Detecta patrones virales replicables antes de que se quemen y diseña formatos híbridos | Redes y recolector propio | `/cazador-viral` | Listo |
-| 02 | Clipero | Encuentra momentos en contenido largo (podcasts, streams, entrevistas) ligados a las oportunidades del 01 y produce clips verticales con subtítulos | `salidas/cazador-viral/oportunidades.json` | `/clipero` | Listo; requiere `herramientas/instalar.ps1` |
-| 03 | Publicador | Escribe los textos de cada plataforma y sube a YouTube, TikTok, Instagram y Facebook los clips que el usuario aprueba | `salidas/clipero/clips.json` | `/publicador`, `/publicador aprobar <clip-id>` | En simulación; cada plataforma requiere credenciales (`legion/03-publicador/plataformas.md`) |
+| 02 | Clipero | Encuentra momentos en contenido largo (podcasts, streams, entrevistas) ligados a las oportunidades del 01 y produce clips verticales con subtítulos; si el Publicador tiene varias cuentas, corta además variantes de los mejores momentos | `salidas/cazador-viral/oportunidades.json` | `/clipero` | Listo; requiere `herramientas/instalar.ps1` |
+| 03 | Publicador | Escribe los textos de cada plataforma, reparte los clips entre las cuentas del usuario (una versión distinta por cuenta) y sube a YouTube, TikTok, Instagram y Facebook los que el usuario aprueba. Mantiene el panel `salidas/publicador/panel.html` | `salidas/clipero/clips.json` | `/publicador`, `/publicador aprobar <clip-id>` | En simulación; cada cuenta requiere credenciales (`legion/03-publicador/plataformas.md`) |
+
+**Varias cuentas:** se declaran en `legion/03-publicador/config.json` (`plataformas.<p>.cuentas`) y cada una se autoriza con `publicar.ps1 autorizar -Plataforma <p> -Cuenta <alias>` (`plataformas.md` §10). Un video va a una sola cuenta por plataforma; para que un momento salga en varias, el Clipero corta variantes reales (`legion/02-clipero/metodologia.md` §7). No se disfrazan videos para esquivar el control de duplicados de las plataformas ni se automatizan cuentas fuera de sus APIs oficiales.
 
 **Cadena:** `/legion` ejecuta los agentes en orden (01 → 02 → 03) en una sola PC. Cada agente nuevo que dependa de otro se añade como paso en `.claude/skills/legion/SKILL.md` (y en el turno que le toque, abajo).
 

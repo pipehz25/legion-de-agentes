@@ -14,6 +14,8 @@ Requisitos, límites y estilo de texto de cada plataforma. Las condiciones de la
 
 Las credenciales quedan en `%USERPROFILE%\.legion\publicador\credenciales.json`, fuera del proyecto. No se suben a GitHub, no se pegan en el chat y el agente no las lee.
 
+Estos pasos activan la cuenta `principal` de cada plataforma. Para añadir más cuentas, §10.
+
 ## 2. Resumen
 
 | Plataforma | Qué hace falta | Privacidad sin auditoría | Notas |
@@ -104,3 +106,57 @@ En todas: el título y el texto no pueden afirmar nada que el clip no muestre, n
 
 - `propio` y `autorizado`: se pueden publicar en modo automático.
 - `sin_verificar`: contenido de terceros sin permiso confirmado. Solo se publica con aprobación expresa, siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
+
+## 10. Varias cuentas
+
+Cada plataforma admite varias cuentas **propias**. La de siempre se llama `principal`; las demás llevan el alias que elijas (minúsculas, números y guiones).
+
+**Dar de alta una cuenta**
+
+1. Crea la cuenta en la plataforma, a mano. En Instagram tiene que ser profesional (empresa o creador).
+2. Añádela en `config.json` → `plataformas.<p>.cuentas`:
+   `{ "alias": "urbano", "activa": true, "linea": "música urbana: Blessd, Kris R, Ryan Castro" }`
+   `linea` dice de qué va la cuenta; el Publicador reparte los clips por ahí (`"todo"` los recibe todos). El orden de la lista es el orden de reparto.
+3. Autorízala en una ventana propia de PowerShell, en la PC que publica:
+   `powershell -NoProfile -ExecutionPolicy Bypass -File legion/03-publicador/publicar.ps1 autorizar -Plataforma <p> -Cuenta urbano`
+   En el navegador hay que entrar con **esa** cuenta, no con la principal.
+4. Comprueba con `publicar.ps1 estado`: la fila de la cuenta debe mostrar `"token": "valido"` y su `nombre` correcto.
+
+Las credenciales de cada cuenta quedan en el mismo archivo fuera del proyecto, bajo `<plataforma>@<alias>`.
+
+**Qué pide cada plataforma por cuenta**
+
+| Plataforma | Por cada cuenta nueva | Límite que se comparte entre cuentas |
+|---|---|---|
+| YouTube | Otro canal; se autoriza con el mismo cliente OAuth | La cuota diaria es **del proyecto**, no del canal: unas 6 subidas al día entre todos los canales |
+| TikTok | Añadirla en *Target users* del sandbox e iniciar sesión con ella al autorizar | Los 5 borradores pendientes son por cuenta |
+| Instagram | Añadirla a la app de Meta (como evaluador mientras la app esté en desarrollo) y generar su token | Unas 50 publicaciones por API cada 24 h, por cuenta |
+| Facebook | Otra página, con su token de página | — |
+
+**Cómo se reparte**
+
+- Un video va como mucho a **una cuenta por plataforma**. El script rechaza subir el mismo archivo a una segunda cuenta (`repetido`).
+- Para que un mismo momento salga en varias cuentas, el Clipero corta **variantes**: otra edición del momento, con otro corte, otro gancho y otro estilo de subtítulos (`legion/02-clipero/metodologia.md` §7). Corta tantas como cuentas activas encajen con el clip, hasta `variantes.max_por_momento`.
+- Entre dos versiones de un mismo momento en la misma plataforma pasan al menos `separacion_piezas_horas`.
+- Cada cuenta respeta su `max_por_dia` (el suyo o el de la plataforma).
+
+**Lo que no se hace**
+
+- Subir el mismo video a varias cuentas, ni alterarlo (espejo, deformación, grano, filtros, velocidad, metadatos) para que la plataforma no lo reconozca. Eso es evadir sus controles de contenido repetido: incumple sus normas y, cuando lo detectan, cierran juntas todas las cuentas relacionadas.
+- Automatizar cuentas fuera de las APIs oficiales (granjas de teléfonos, emuladores, navegadores automatizados) o usar cuentas compradas o ajenas.
+- Crecer por número de cuentas en vez de por contenido: las cuentas que solo republican material de otros pierden alcance en Instagram y YouTube. Pocas cuentas con línea clara rinden más que muchas iguales.
+
+## 11. Panel y vistas
+
+`publicar.ps1 panel` lee las vistas de lo publicado y escribe `salidas/publicador/panel.html`: por cada pieza (un momento y sus variantes), cuántas versiones tiene, en qué cuentas salió y cuánto trajo cada una; y por cada cuenta, lo subido hoy frente a su tope. El Publicador lo regenera al final de cada ciclo. Se abre con doble clic.
+
+Qué hace falta para leer las vistas:
+
+| Plataforma | Qué lee | Requisito |
+|---|---|---|
+| YouTube | Vistas, me gusta, comentarios | Nada más: el permiso de lectura ya se pide al autorizar |
+| Instagram | Me gusta y comentarios siempre; vistas y compartidos | Para las vistas, el token necesita `instagram_business_manage_insights` (`instagram_manage_insights` con `"api": "facebook"`). Añádelo en la app, genera el token de nuevo y repite `autorizar` |
+| Facebook | Vistas, me gusta, comentarios | `pages_read_engagement` y `read_insights` en el token de página |
+| TikTok | Vistas, me gusta, comentarios, compartidos | Añadir el scope `video.list` a la app, poner `tiktok.leer_metricas: true` y repetir `autorizar` en cada cuenta. Solo da datos de videos públicos |
+
+Si falta un permiso, el panel sigue funcionando: muestra la raya en esa columna y lo dice en *Avisos*. Las llamadas de vistas se escribieron según la documentación de cada API y aún no se han probado con cuentas reales: la primera pasada con credenciales dirá si alguna necesita ajuste.
