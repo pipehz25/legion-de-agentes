@@ -28,7 +28,7 @@
     "tiktok": {
       "activa": true,
       "cuentas": [
-        { "alias": "lalo-music", "activa": false, "usuario": "", "linea": "Lalo Ocampo, cuenta base: estrenos, coros y el momento más fuerte de cada canción" },
+        { "alias": "lalo-music", "activa": false, "usuario": "ocampo.music","linea": "Lalo Ocampo, cuenta base: estrenos, coros y el momento más fuerte de cada canción" },
         { "alias": "lalo-lyrics", "activa": false, "usuario": "", "linea": "Lalo Ocampo: fragmentos donde manda la letra (versos y coros que se citan)" },
         { "alias": "lalo-studio", "activa": false, "usuario": "", "linea": "Lalo Ocampo en el estudio: grabación, producción y detrás de cámaras" },
         { "alias": "lalo-songs", "activa": false, "usuario": "", "linea": "Lalo Ocampo: las canciones por partes (intro, verso, coro, cierre)" },
