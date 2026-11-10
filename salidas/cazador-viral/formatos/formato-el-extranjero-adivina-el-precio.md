@@ -1,5 +1,10 @@
 # El extranjero adivina el precio: de la arepa al reloj de diamantes
 
+> **Estado (09-nov, ciclo 7): vigente, con menos material nuevo.** Samulx no sube nada a su canal desde el 08-nov a las 02:11. El 09-nov pasó a otra cosa con Westcol: un round de boxeo y un co-stream de Cuphead. La ficha sigue sirviendo con las fuentes ya cortadas del 07 y el 08-nov. Para esta semana tiene una variante nueva:
+> - **El Rolls-Royce de Lonche.** Lonche volvió a Kick el 08-nov presentando su Rolls-Royce Cullinan Mansory en Los Mochis ([VOD](https://kick.com/lonche/videos/01a1be93-aad8-70a6-be81-3e7e3a2f658c), 18.008 vistas por hora; [edición en LoncheWey](https://www.youtube.com/watch?v=_BA7OAA-8Ao)).
+> - **Cómo se juega:** "¿Cuánto crees que costó?" con la cifra solo si la dice él en el directo (atribuida: "según Lonche"). No pongas precios de catálogo sin fuente.
+> - **Cautela medida:** el precio solo no basta. El Richard Mille de Westcol ([ybjXHgxGBMo](https://www.youtube.com/watch?v=ybjXHgxGBMo)) va a 724/h, 0,38 veces la mediana de su canal. Lo que engancha es la reacción de alguien de fuera al precio, no el objeto caro.
+
 - **Fórmula:** estructura "primera vez" con un forastero y su guía local (estructural; `formato-primera-vez-en-medellin`, semilla) + gancho de cifra en paradoja (estructural; candidato `formato-matematica-del-lujo`) + juego de "adivina el precio" con revelación al final (estructural, perenne) + contexto de la visita de Samulx a Medellín hasta Stream Fighters 5 (perecedero, semilla).
 - **Patrones base:** `formato-primera-vez-en-medellin` (semilla en youtube-es y youtube-co) y `tema-stream-fighters-5` (emergente en youtube-co). El juego de precios y el choque cultural son genes estables.
 - **Palanca:** cruce de genes (gancho de la "matemática del lujo" de los empresarios + estructura del food tour de los streamers) y trasplante de nicho (el "adivina el precio" de las entrevistas callejeras pasa a streamers y empresarios).
