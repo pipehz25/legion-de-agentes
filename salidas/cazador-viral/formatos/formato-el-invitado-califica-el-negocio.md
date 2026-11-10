@@ -1,0 +1,33 @@
+# El invitado le califica el negocio al anfitrión (en su cara)
+
+> **Creada en el ciclo 8 (10-nov).** Sale de la última pieza de la serie de Samulx en Medellín: no basta con que el forastero pruebe algo por primera vez; rinde más cuando lo que prueba es **del anfitrión** y el veredicto se lo dice en la cara. Es la misma estructura de `formato-primera-vez-en-medellin`, pasada a un juego de notas con un conflicto incorporado, y sirve tal cual para el nicho de empresarios.
+
+- **Fórmula:** estructura "primera vez" del forastero con guía local (estructural; `formato-primera-vez-en-medellin`, semilla) + veredicto con nota por producto, de peor a mejor (estructural; tier list) + el producto es del anfitrión, que escucha la crítica delante de la cámara (estructural: el conflicto viene de serie) + la visita de Samulx a Medellín hasta su pelea del 14-nov (perecedero, semilla). Un solo gen perecedero.
+- **Patrones base:** `formato-primera-vez-en-medellin` (semilla en youtube-es y youtube-co; puntaje 76). La tier list y el "dueño escucha la crítica" son genes estables. No usa `tema-stream-fighters-5`.
+- **Palanca:** trasplante de nicho (de los streamers a los empresarios: el invitado califica la marca, el carro o el producto del empresario) y cruce de genes (primera vez + tier list + conflicto con el dueño).
+- **Por qué debería funcionar** (medido el 10-nov entre las 13:54 y las 14:01):
+  - ['PROBANDO TODAS LAS HAMBURGUESAS DE WESTCOL 🔥¿LAS MEJORES?'](https://www.youtube.com/watch?v=LkY43nX5guU) (Samulx, 188 K suscriptores; 14 min) suma 112.459 vistas en 16 h: 7.029 por hora, **2,75 veces la mediana** de sus 10 subidas anteriores (2.554/h). La miniatura muestra la marca "Fuego Burger" en el set de Westcol, y los títulos la presentan como "las hamburguesas de Westcol" (no se comprobó de quién es la marca).
+  - El recorte del momento del conflicto, ['Westcol se molesta con Sami por no gustarle la Fuego Burguer con Mermelada'](https://www.youtube.com/watch?v=SZiF6kvHUIU) (Live Samulx, 31,9 K; 13,7 min), va a 1.626 vistas por hora a las 18,8 h: **4,1 veces** el recorte del round de boxeo del mismo canal y la misma edad (['Boxeo con Westcol un Round…'](https://www.youtube.com/watch?v=RKnmC_cEz3s), 397/h a las 21,4 h). El título elige el conflicto, no la comida.
+  - La serie ya había probado la "primera vez" con guía: ['PROBANDO COMIDA CALLEJERA DE MEDELLIN POR PRIMERA VEZ CON WESTCOL'](https://www.youtube.com/watch?v=s0BJLb8qHnc) rindió 6,1 veces la mediana de Samulx el 08-nov.
+  - Lo que no funciona: copiar el momento sin las personas. ['A SAMULX NO LE GUSTÓ LA FUEGO BURGER 🤮🤮 *de mermelada*'](https://www.youtube.com/watch?v=baD2ZVdXMY4) (basuquito, 5,7 K) tiene 163 vistas en 17,3 h (9/h). Y el objeto caro solo tampoco: el Richard Mille de Westcol se quedó en 0,38 veces su mediana (ciclo 7).
+- **Plataformas objetivo y duración:** TikTok, Reels y Shorts; vertical de 30-50 s. Una pieza por producto o una sola con los tres de peor a mejor.
+- **Ventana estimada:** hasta el 14-nov para la variante de Samulx y Westcol, porque la visita de Samulx (el gen perecedero, en semilla) termina con su pelea. La estructura sirve después con cualquier invitado y cualquier negocio. Confianza: media (una sola serie, dos medidas del mismo momento y ninguna réplica de terceros que rinda).
+- **Guion esqueleto:**
+  - 0-2 s (gancho, con texto en pantalla): la cara del invitado al primer bocado y el texto "Le dijo en la cara que su hamburguesa NO le gustó".
+  - Desarrollo (3-35 s): tres productos, del que menos le gustó al que más. En cada uno, el bocado, la nota en voz alta (tarjeta "4/10", "9/10") y la reacción del dueño. El conflicto va en el que peor nota saca.
+  - Final (35-50 s, payoff + invitación): la mejor nota y el dueño aliviado, más la pregunta binaria "¿Mermelada en una hamburguesa: sí o no?". Parte 2: el dueño le califica algo al invitado.
+- **Título, descripción y hashtags sugeridos:**
+  - Título: "Le calificó las hamburguesas a Westcol… y la de mermelada no pasó"
+  - Descripción: "Samulx prueba la carta de su anfitrión y le pone nota a cada una. ¿Mermelada en una hamburguesa: sí o no?"
+  - Hashtags: #Samulx #Westcol #Medellín #ProbandoComida #StreamFighters5
+- **Tres variantes por nicho:**
+  - **Streamers:** Samulx con Westcol (Fuego Burger), con los recortes del Clipero de [LkY43nX5guU](https://www.youtube.com/watch?v=LkY43nX5guU) y [SZiF6kvHUIU](https://www.youtube.com/watch?v=SZiF6kvHUIU). Después del 14-nov, cualquier invitado de Westcol, Lonche o The Chanty que pruebe algo del anfitrión.
+  - **Empresarios:** "Le pongo nota a los carros de Diego RR": un invitado califica tres carros del concesionario (precio, comodidad, el que se llevaría) y Diego defiende cada uno. Con Sebastián Suárez, un invitado prueba los productos de su marca de bienestar. Solo con material donde salgan ellos; si no, como contenido propio con un amigo que tenga negocio.
+  - **Música urbana:** el invitado califica el "merch" o la experiencia del concierto de un cantante (la entrada, el escenario, la canción en vivo) delante de alguien de su equipo. Solo con material propio o del Clipero donde salga el artista.
+- **Riesgos:**
+  - Derechos: solo recortes del Clipero o material propio, con el audio de la conversación; nada de música con derechos.
+  - Precisión: la marca se nombra como la nombran los títulos ("las hamburguesas de Westcol"); no se afirma quién es el dueño sin fuente.
+  - Publicidad: si el negocio es del anfitrión y la pieza la publica una cuenta suya o pagada, hay que marcarla como publicidad.
+  - Sensibilidad: el chiste es la nota y la cara del dueño, no los empleados ni el lugar. Nada que se burle de quien cocina o atiende.
+  - Dependencia del gen perecedero: si Samulx se va, cambia el invitado; la estructura sigue.
+- **Cómo saber si funcionó:** a las 24 h, al menos 2 veces la mediana de vistas de la cuenta, y comentarios con un "sí" o un "no" en al menos el 1 % de las vistas (la pregunta binaria funcionó).

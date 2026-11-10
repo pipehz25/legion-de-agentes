@@ -1,6 +1,11 @@
 # Ficha de combate de creadores: ¿quién gana?
 
-> **Estado (09-nov, ciclo 7): vigente, con 5 días por delante, pero como pieza secundaria.** Novedades:
+> **Estado (10-nov, ciclo 8): vigente para el viernes 13 y el sábado 14.** Novedades para la fila "a favor de":
+> - **Willito** entrena con guantes en Los Mochis con Jelty ([VOD de Kick](https://kick.com/willito/videos/01a1c32d-c880-778e-9bb5-d99e3aa3fed8), 9.329/h; [edición](https://www.youtube.com/watch?v=YwhGtvtJ1Uk)). Dato para la ficha: le ganó a Lonche por nocaut técnico en el segundo asalto en Supernova Génesis el 26-abr-2026 ([La Razón](https://www.razon.com.mx/entretenimiento/2026/04/26/willito-le-gana-a-lonche-en-supernova-genesis-2026-por-knockout-tecnico/)); el sábado pelean juntos.
+> - **The Chanty** lleva más de 48 h sin emitir y **Blessd** no publica nada desde el 05-nov: en sus filas solo hay material de octubre (el golpe del robot).
+> - **Sigue sin prensa nueva** desde el 28-oct y sin piezas de terceros sobre el evento en YouTube (0 resultados en 36 h el 10-nov).
+>
+> **Estado anterior (09-nov, ciclo 7): vigente, con 5 días por delante, pero como pieza secundaria.** Novedades:
 > - **La previa sigue sin tirar en YouTube:** la búsqueda 'Stream Fighters 5' (36 h, 09-nov a las 20:53) no devuelve ninguna pieza del evento, y el video de expectativas de Westcol ([S5v1BWnXdaI](https://www.youtube.com/watch?v=S5v1BWnXdaI)) baja a 351 vistas por hora a las 31,8 h. Para esta semana, la pieza principal es la nueva ficha [Faltan N días: en qué anda el peleador](formato-cuenta-atras-del-peleador.md), que usa la vida de los peleadores. Esta ficha queda para el viernes 13 y el sábado 14, cuando la pregunta "¿quién gana?" tiene sentido.
 > - **Material nuevo para la fila "a favor de":** Westcol y Samulx hicieron un round de boxeo en directo ([recorte de juan diego mm](https://www.youtube.com/watch?v=WAfZNmp2n8I), 21 min, 2.567 vistas por hora a las 4,1 h). Es la primera imagen de dos peleadores del evento entrenando juntos. El mismo round desde el lado de Samulx se titula ['Mi estrategia contra Lonche y Wilito'](https://www.youtube.com/watch?v=RKnmC_cEz3s) (Live Samulx, 837/h).
 > - **Lonche volvió a emitir** el 08-nov, junto a Willito, su compañero en la pelea por parejas ([VOD de Kick](https://kick.com/lonche/videos/01a1be93-aad8-70a6-be81-3e7e3a2f658c), 18.008 vistas por hora). La variante de streamers ya tiene a sus peleadores activos.
