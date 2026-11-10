@@ -28,7 +28,7 @@
     "tiktok": {
       "activa": true,
       "cuentas": [
-        { "alias": "risas", "activa": false, "usuario": "", "linea": "risas: clips de la línea risas (comedia, stand-up, humoristas y momentos graciosos de la política colombiana)" },
+        { "alias": "risas", "activa": true, "usuario": "legion.risas", "linea": "risas: clips de la línea risas (comedia, stand-up, humoristas y momentos graciosos de la política colombiana)" },
         { "alias": "principal", "activa": true, "linea": "todo, salvo los clips de la línea risas cuando haya una cuenta de risas activa" }
       ],
       "_cuenta_risas": "Cuenta de humor pedida por el usuario el 2026-11-10. Está apagada hasta que el usuario la cree, la añada a Target users del sandbox y la autorice con publicar.ps1 autorizar -Plataforma tiktok -Cuenta risas; entonces se pone activa: true y su usuario (sin @).",
