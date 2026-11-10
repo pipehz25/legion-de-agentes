@@ -1,0 +1,122 @@
+{
+  "actualizado": "2026-11-10T16:00:00-05:00",
+  "ciclo": 1,
+  "rotacion": {
+    "plataformas": { "youtube": "2026-11-10", "x": "2026-11-10", "tiktok": null, "instagram": null, "facebook": null, "kick": null },
+    "nichos": {
+      "comedia y stand-up": "2026-11-10",
+      "humoristas y creadores de humor": "2026-11-10",
+      "momentos graciosos de la política colombiana": "2026-11-10"
+    }
+  },
+  "presupuesto_usado": {
+    "ciclo": 1,
+    "busquedas_web": 14,
+    "lecturas_web": 4,
+    "busquedas_youtube": "21 (15 búsquedas rápidas para resolver los 14 perfiles de la semilla, que solo se hacen una vez, y 6 con -Detalle). Pasa del presupuesto de 12 por la resolución inicial",
+    "revisiones_de_canal": 14
+  },
+  "contexto_politico": {
+    "revisado": "2026-11-10",
+    "colombia": "Presidente: Abelardo de la Espriella (derecha), desde el 7-ago-2026; ganó la segunda vuelta del 21-jun-2026 a Iván Cepeda (Pacto Histórico, izquierda). Petro es expresidente. Las próximas elecciones son las regionales de octubre de 2027: hoy no aplica la regla de periodo electoral.",
+    "espana": "Elecciones generales el 29-nov-2026 (según la prensa de la entrevista de Abascal en La Revuelta: https://www.eldiario.es/vertele/1_d00e48, https://espinof.com/la-1/santiago-abascal-ira-a-revuelta-lunes-david-broncano-promete-estar-contenido-le-deberia-preguntar-machista-racista). Hasta esa fecha, ningún candidato español.",
+    "fuentes": [
+      "https://www.bloomberglinea.com/latinoamerica/colombia/cuando-se-posesiona-el-nuevo-presidente-de-colombia-abelardo-de-la-espriella-o-ivan-cepeda/",
+      "https://kchcomunicacion.com/?p=449558"
+    ]
+  },
+  "fuentes_politica_vigiladas": [
+    { "nombre": "Voz Populi (Blu Radio)", "url": "https://www.youtube.com/channel/UCUYokk2dJxFZf7NgxTL-ROg", "que_es": "Segmento de imitadores de Blu Radio, sátira política colombiana. Es imitación: el gancho debe decirlo", "visto": "2026-11-10" },
+    { "nombre": "Canal Congreso", "url": null, "que_es": "Sesiones del Congreso. No resuelto en el ciclo 1: resolver con buscar y revisar sus subidas cuando la prensa señale un momento", "visto": null }
+  ],
+  "equilibrio_politico": {
+    "nota": "Momentos de humor político propuestos en fuentes_para_clips, por corriente de quien protagoniza el momento (enfoque.md: sin bandos). Los excluidos no cuentan para el equilibrio; se anotan para no volver a evaluarlos.",
+    "ciclos": [
+      {
+        "ciclo": 1,
+        "fecha": "2026-11-10",
+        "propuestos": { "centro": 1 },
+        "detalle": [
+          { "url": "https://www.youtube.com/watch?v=yBt5vLuwS74", "politica": "centro (Claudia López, imitada por Voz Populi)", "tipo": "sátira con imitador" }
+        ],
+        "excluidos": [
+          { "url": "https://www.youtube.com/watch?v=tZeBj9MS9RQ", "politica": "Vox (derecha radical, España)", "motivo": "Candidato en campaña: elecciones generales en España el 29-N" },
+          { "url": "https://www.youtube.com/watch?v=JBllUoMKHA4", "politica": "gobierno De la Espriella (derecha)", "motivo": "Violencia: una 'bomba' contra un grupo armado (tendencia 'Barba Chivo')" },
+          { "url": "https://www.youtube.com/watch?v=I2WykyJDne0", "politica": "gobierno De la Espriella (derecha)", "motivo": "Canal partidista con insulto en el título; no es un momento gracioso" }
+        ]
+      }
+    ],
+    "acumulado": { "centro": 1, "derecha": 0, "izquierda": 0, "otros": 0 }
+  },
+  "patrones": [
+    {
+      "id": "formato-humorista-entrevista-politico",
+      "nombre": "El humorista entrevista al político (La Revuelta, The Juanpis Live Show)",
+      "tipo": "formato",
+      "descripcion": "Un humorista con programa propio entrevista a un político. Lo cortable es la pregunta incómoda del cómico y la reacción del político o del público, como momento completo.",
+      "plataformas": ["youtube", "x"],
+      "regiones": ["ES", "CO", "MX"],
+      "nichos": ["humoristas y creadores de humor", "momentos graciosos de la política colombiana"],
+      "primera_vez_visto": "2026-11-10",
+      "etapa": "pico",
+      "etapa_por_contexto": { "youtube-es": "pico", "x-co": "pico", "x-mx": "pico", "youtube-co": "sin-verificar", "tiktok-co": "sin-verificar" },
+      "indice_saturacion": 60,
+      "puntaje_oportunidad": 53,
+      "puntaje_desglose": { "fuerza_viral": 22, "momento": 8, "replicabilidad": 8, "encaje": 10, "hibridacion": 5 },
+      "ventana_hasta": "2026-11-12",
+      "confianza": "baja",
+      "genoma": {
+        "gancho": "La pregunta que nadie le hace al político, con su nombre en pantalla",
+        "estructura": "Entrevista con preguntas fijas del programa; el clip es pregunta, reacción y remate",
+        "emocion": "risa, morbo",
+        "payoff": "La reacción del político o del público",
+        "formato_tecnico": "Clip horizontal de plató o podcast, recortado a vertical, con subtítulos",
+        "audio": "Voz del programa y risas del público",
+        "edicion": "Corte limpio, sin manipular el orden de lo dicho (enfoque.md)",
+        "arquetipo": "El cómico que incomoda al poderoso",
+        "participacion": "¿Respondió o esquivó? (pregunta binaria, sin opinar)",
+        "contexto": "Actualidad política: se quema en 24-72 h",
+        "perecederos": ["contexto"]
+      },
+      "evidencia": [
+        { "url": "https://www.youtube.com/watch?v=NYqExeujjb0", "metrica": "'Santiago Abascal en La Revuelta de David Broncano' (elDiario.es, 503 K): 723.996 vistas en 11 h (65.818/h)", "tipo": "medido", "mide": "patron", "contexto": "youtube-es", "fecha": "2026-11-10" },
+        { "url": "https://www.youtube.com/watch?v=tZeBj9MS9RQ", "metrica": "Fragmento oficial (La Revuelta, 624 K): 380.119 vistas en 12,7 h (29.931/h)", "tipo": "medido", "mide": "patron", "contexto": "youtube-es", "fecha": "2026-11-10" },
+        { "url": "https://trends24.in/colombia/", "metrica": "'Broncano' en tendencia de X Colombia (#19 a las 19:15 UTC), 24 h en la lista", "tipo": "medido", "mide": "patron", "contexto": "x-co", "fecha": "2026-11-10" },
+        { "url": "https://trends24.in/mexico/", "metrica": "'Broncano' en tendencia de X México en cuatro cortes (#22-34), 23 h en la lista", "tipo": "medido", "mide": "patron", "contexto": "x-mx", "fecha": "2026-11-10" },
+        { "url": "https://www.youtube.com/watch?v=uDJxesw-doU", "metrica": "Señal tardía: El País, El Mundo, ABC, OKDiario, el canal de VOX y canales de reacción ya lo cubren en menos de 24 h (El País: 32.622/h)", "tipo": "medido", "mide": "senal_relacionada", "contexto": "youtube-es", "fecha": "2026-11-10" }
+      ],
+      "excluido_por_enfoque": "El único ejemplo medido (Abascal, 9-nov) cae en periodo electoral (generales del 29-N en España): no se corta. El patrón se vigila para Colombia (The Juanpis Live Show con políticos) y para España después del 29-N.",
+      "historial": [
+        { "fecha": "2026-11-10", "etapa": "pico", "indice_saturacion": 60, "senal": "Entrevista de Abascal en La Revuelta: 65.818/h, y en menos de 24 h ya la cubren los grandes medios y hay vídeos de reacción. Tendencia de 23-24 h en X Colombia y México. En Colombia no se midió." }
+      ]
+    },
+    {
+      "id": "tema-abascal-en-la-revuelta",
+      "nombre": "Santiago Abascal en La Revuelta (9-nov-2026)",
+      "tipo": "tema",
+      "descripcion": "Entrevista de David Broncano al líder de Vox, a menos de tres semanas de las generales del 29-N. Lo más viral del humor en español del día; tendencia en X Colombia y México.",
+      "plataformas": ["youtube", "x"],
+      "regiones": ["ES", "CO", "MX"],
+      "nichos": ["humoristas y creadores de humor"],
+      "primera_vez_visto": "2026-11-10",
+      "etapa": "pico",
+      "etapa_por_contexto": { "youtube-es": "pico", "x-co": "pico", "x-mx": "pico" },
+      "indice_saturacion": 62,
+      "puntaje_oportunidad": 0,
+      "ventana_hasta": "2026-11-12",
+      "confianza": "media",
+      "excluido_por_enfoque": "Candidato en campaña con elecciones a menos de 30 días (enfoque.md). La parte sobre Israel, además, toca una guerra.",
+      "genoma": {
+        "gancho": "", "estructura": "", "emocion": "", "payoff": "", "formato_tecnico": "",
+        "audio": "", "edicion": "", "arquetipo": "", "participacion": "", "contexto": "Actualidad política española en campaña",
+        "perecederos": ["contexto"]
+      },
+      "evidencia": [
+        { "url": "https://www.youtube.com/watch?v=NYqExeujjb0", "metrica": "723.996 vistas en 11 h (65.818/h)", "tipo": "medido", "mide": "patron", "contexto": "youtube-es", "fecha": "2026-11-10" }
+      ],
+      "historial": [
+        { "fecha": "2026-11-10", "etapa": "pico", "indice_saturacion": 62, "senal": "Cobertura masiva en menos de 24 h; excluido por periodo electoral" }
+      ]
+    }
+  ]
+}

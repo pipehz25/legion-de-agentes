@@ -1,0 +1,247 @@
+{
+  "actualizado": "2026-11-10T16:00:00-05:00",
+  "nota": "Memoria del Cazador de Risas (agente 04). Ciclo 1: la semilla de config.perfiles se resolvió con el channel_url de clipero.ps1 buscar (nunca con @handle). Instagram, TikTok y X sin verificar en este ciclo (presupuesto gastado en resolver YouTube). Ninguno de estos humoristas hace directos en Kick.",
+  "perfiles": [
+    {
+      "nombre": "Ricardo Quevedo",
+      "nicho": "comedia y stand-up",
+      "grupo": "comedia y stand-up (Colombia)",
+      "origen": "usuario",
+      "estado": "sin_resolver",
+      "cuentas": { "youtube": null, "kick": null, "twitch": null, "instagram": null, "tiktok": null, "x": null },
+      "canales_relacionados": [
+        { "url": "https://www.youtube.com/channel/UC6eqGg9YQBVgBtT5XnouSlg", "que_es": "Los De La Culpa: colectivo de humor del que es integrante (programa semanal, lunes 21:00). Se sigue por aquí" },
+        { "url": "https://www.youtube.com/channel/UCzQ7ZEFJ5oh5iaP2kabzXGw", "que_es": "Triste Realidad TV: serie de humor de 2025 que figura en su filmografía; sin confirmar que sea suya" }
+      ],
+      "verificacion": "Dos búsquedas ('Ricardo Quevedo' y 'Ricardo Quevedo stand up comedy completo') no devuelven un canal propio: solo resubidas de terceros (Maigre Diaz, Yeiker Flores), Comedy Central, Netflix, Caracol y Los De La Culpa. La prensa confirma que es integrante de Los De La Culpa (https://www.publimetro.co/entretenimiento/2024/11/29/los-de-la-culpa-reunieron-a-polilla-juanpis-suso-y-mas-humoristas-en-un-solo-escenario/).",
+      "candidatos": [
+        { "url": "https://www.youtube.com/channel/UCzQ7ZEFJ5oh5iaP2kabzXGw", "por_que": "Triste Realidad TV (capítulos de 30+ min); comprobar si es su canal" }
+      ],
+      "ultima_revision": "2026-11-10T15:12:00-05:00",
+      "ultimas_subidas": []
+    },
+    {
+      "nombre": "Andrés López",
+      "nicho": "comedia y stand-up",
+      "grupo": "comedia y stand-up (Colombia)",
+      "origen": "usuario",
+      "estado": "resuelto",
+      "cuentas": { "youtube": "https://www.youtube.com/channel/UCc1KnTL8MtDYcQILgyeH9jg", "kick": null, "twitch": null, "instagram": null, "tiktok": null, "x": null },
+      "canales_relacionados": [],
+      "verificacion": "Canal 'Andres Lopez' (152 K) con sus shows completos ('LA PELOTA DE LETRAS EN 4K', 'ME PIDO LA VENTANA CON FRUTICA PICADA EN 4K') y fragmentos de La Pelota de Letras: es su canal oficial.",
+      "candidatos": [],
+      "ultima_revision": "2026-11-10T15:12:20-05:00",
+      "ultimas_subidas": [
+        { "url": "https://www.youtube.com/watch?v=i1lHCSoUTfE", "titulo": "Andrés López - La Generación X y su obsesión por el éxito | La Pelota de Letras", "publicado": "2026-11-09T18:00:34-05:00", "vistas": 1380 }
+      ]
+    },
+    {
+      "nombre": "Lokillo Flórez",
+      "nicho": "comedia y stand-up",
+      "grupo": "comedia y stand-up (Colombia)",
+      "origen": "usuario",
+      "estado": "resuelto",
+      "cuentas": { "youtube": "https://www.youtube.com/channel/UCXY_7vaKvDsZnq7VrQDNn8g", "kick": null, "twitch": null, "instagram": null, "tiktok": null, "x": null },
+      "canales_relacionados": [],
+      "verificacion": "Canal 'Lokillo Florez' con 'Lokillo vs Jony Beltrán - Battle of Comedians | Lokillo' (803 K) y 'LOKILLO IMPROVISING in ALL GENRES' (1,25 M): comedia e improvisación musical, es él.",
+      "candidatos": [],
+      "ultima_revision": "2026-11-10T15:13:20-05:00",
+      "ultimas_subidas": []
+    },
+    {
+      "nombre": "Suso el Paspi",
+      "nicho": "comedia y stand-up",
+      "grupo": "comedia y stand-up (Colombia)",
+      "origen": "usuario",
+      "estado": "resuelto",
+      "cuentas": { "youtube": "https://www.youtube.com/channel/UCJw5fe-u0xD39cnc--GFieg", "kick": null, "twitch": null, "instagram": null, "tiktok": null, "x": null },
+      "canales_relacionados": [],
+      "verificacion": "Canal 'Suso el Paspi Oficial' con sus monólogos y entrevistas de #TheSusosShow (Caracol Televisión). Ojo: lo que sale de Caracol tiene dueño (sin_verificar).",
+      "candidatos": [],
+      "ultima_revision": "2026-11-10T15:13:50-05:00",
+      "ultimas_subidas": []
+    },
+    {
+      "nombre": "Frank Martínez",
+      "nicho": "comedia y stand-up",
+      "grupo": "comedia y stand-up (Colombia)",
+      "origen": "usuario",
+      "estado": "resuelto",
+      "cuentas": { "youtube": "https://www.youtube.com/channel/UCFw-XIbNyCdx7DMKxIHI3Eg", "kick": null, "twitch": null, "instagram": null, "tiktok": null, "x": null },
+      "canales_relacionados": [],
+      "verificacion": "Canal 'Frank Martinez' ('Frank el Flaco'): 'FRANK MARTÍNEZ - Quién Dijo Miedo (Show Completo) | Especial de Stand Up Comedy' (752 K) y sus rutinas. Es el humorista colombiano.",
+      "candidatos": [],
+      "ultima_revision": "2026-11-10T15:19:00-05:00",
+      "ultimas_subidas": []
+    },
+    {
+      "nombre": "Iván Marín",
+      "nicho": "comedia y stand-up",
+      "grupo": "comedia y stand-up (Colombia)",
+      "origen": "usuario",
+      "estado": "resuelto",
+      "cuentas": { "youtube": "https://www.youtube.com/channel/UC5JQcoBywMUWdOJuY_MSM9Q", "kick": null, "twitch": null, "instagram": null, "tiktok": null, "x": null },
+      "canales_relacionados": [
+        { "url": "https://www.youtube.com/channel/UC6eqGg9YQBVgBtT5XnouSlg", "que_es": "Los De La Culpa: colectivo del que es integrante ('Analizamos el tubo de IVÁN MARÍN | Los De La Culpa')" }
+      ],
+      "verificacion": "Canal '@IvánMarínSoyYo' con rutinas largas ('LET'S TALK ABOUT REGGAETONERS', 202 K). Confianza media: el nombre del canal coincide y el contenido es stand-up; no se cruzó con su Instagram.",
+      "candidatos": [],
+      "ultima_revision": "2026-11-10T15:19:30-05:00",
+      "ultimas_subidas": []
+    },
+    {
+      "nombre": "Piter Albeiro",
+      "nicho": "comedia y stand-up",
+      "grupo": "comedia y stand-up (Colombia)",
+      "origen": "usuario",
+      "estado": "resuelto",
+      "cuentas": { "youtube": "https://www.youtube.com/channel/UC0FGj9LREl_gwz-s9ebBQbw", "kick": null, "twitch": null, "instagram": null, "tiktok": null, "x": null },
+      "canales_relacionados": [],
+      "verificacion": "Canal 'Piter Albeiro' con sus shows completos ('Full Show | FOR THE FIRST TIME', 1,3 M; 'Piter Albeiro FOR THE FIRST TIME | 04', 10,4 M).",
+      "candidatos": [],
+      "ultima_revision": "2026-11-10T15:20:00-05:00",
+      "ultimas_subidas": []
+    },
+    {
+      "nombre": "La Cotorrisa",
+      "nicho": "humoristas y creadores de humor",
+      "grupo": "comedia y podcasts de humor (México y región)",
+      "origen": "usuario",
+      "estado": "resuelto",
+      "cuentas": { "youtube": "https://www.youtube.com/channel/UCsQOkbo_av-VcC-hbrM5R1Q", "kick": null, "twitch": null, "instagram": null, "tiktok": null, "x": null },
+      "canales_relacionados": [
+        { "url": "https://www.youtube.com/channel/UC5yf6da_FAU_mT9bAkn_BHg", "que_es": "Ricardo Pérez (uno de los dos de La Cotorrisa): su podcast 'Anecdotario' con invitados" }
+      ],
+      "verificacion": "La búsqueda 'La Cotorrisa podcast' devuelve los episodios numerados ('Episodio 398 - Beto descubre que se la alcanza', 1,29 M) en el canal de Slobotzky, y el 'Anecdotario' en el de Ricardo Pérez: son los dos integrantes.",
+      "candidatos": [],
+      "ultima_revision": "2026-11-10T15:21:00-05:00",
+      "ultimas_subidas": [
+        { "url": "https://www.youtube.com/watch?v=jUfBJ_aIA3w", "titulo": "Anecdotario 377 - Nuestro primer tacto de próstata FT. @YordiRosado", "publicado": "2026-11-08T20:58:50-05:00", "vistas": 1141945 }
+      ]
+    },
+    {
+      "nombre": "Franco Escamilla",
+      "nicho": "comedia y stand-up",
+      "grupo": "comedia y podcasts de humor (México y región)",
+      "origen": "usuario",
+      "estado": "resuelto",
+      "cuentas": { "youtube": "https://www.youtube.com/channel/UCUjrDJokSX8JavRwy5iUOkA", "kick": null, "twitch": null, "instagram": null, "tiktok": null, "x": null },
+      "canales_relacionados": [
+        { "url": "https://www.youtube.com/channel/UCKH0FmoBAFdoHshinQk3CYg", "que_es": "Franco Escamilla Clips: recortes de sus monólogos" }
+      ],
+      "verificacion": "Canal 'Franco Escamilla' (14,5 M) con sus especiales ('Franco Escamilla RPM Completo', 271 M), su podcast 'La Mesa Reñoña' y la serie 'FranCupido'.",
+      "candidatos": [],
+      "ultima_revision": "2026-11-10T15:21:45-05:00",
+      "ultimas_subidas": [
+        { "url": "https://www.youtube.com/watch?v=oSfzrwpbQZs", "titulo": "La Mesa Reñoña 523.- Funa de Franco/ Comediantes en problemas", "publicado": "2026-11-10T01:29:06-05:00", "vistas": 204312 },
+        { "url": "https://www.youtube.com/watch?v=NiWsTPALopk", "titulo": "FranCupido❤️| GDL 3 | Ep.-6", "publicado": "2026-11-08T12:30:21-05:00", "vistas": 504451 }
+      ]
+    },
+    {
+      "nombre": "Carlos Ballarta",
+      "nicho": "comedia y stand-up",
+      "grupo": "comedia y podcasts de humor (México y región)",
+      "origen": "usuario",
+      "estado": "resuelto",
+      "cuentas": { "youtube": "https://www.youtube.com/channel/UCfPpW6HcB_-tFgZ0DoulGzg", "kick": null, "twitch": null, "instagram": null, "tiktok": null, "x": null },
+      "canales_relacionados": [],
+      "verificacion": "Canal 'Carlos Ballarta' (863 K) con sus especiales ('TLATOANI - Especial Carlos Ballarta', 'REBELDE COMODINO', 13,5 M).",
+      "candidatos": [],
+      "ultima_revision": "2026-11-10T15:22:50-05:00",
+      "ultimas_subidas": [
+        { "url": "https://www.youtube.com/watch?v=3C7wIIMy718", "titulo": "YA QUE ESTAMOS EN CONFIANZA", "publicado": "2026-11-08T19:00:39-05:00", "vistas": 80108 }
+      ]
+    },
+    {
+      "nombre": "Hablando Huevadas",
+      "nicho": "humoristas y creadores de humor",
+      "grupo": "comedia y podcasts de humor (México y región)",
+      "origen": "usuario",
+      "estado": "resuelto",
+      "cuentas": { "youtube": "https://www.youtube.com/channel/UCba1vMvOHWlMddLARS382Zw", "kick": null, "twitch": null, "instagram": null, "tiktok": null, "x": null },
+      "canales_relacionados": [],
+      "verificacion": "Canal 'Hablando Huevadas' (7,62 M) con los episodios de la decimotercera temporada (Ricardo Mendoza y Jorge Luna, Perú).",
+      "advertencia": "Su humor de roast toca a menudo discapacidad, orientación u origen (títulos como 'VIMOS DOS SORDOS PELEANDO' o 'JORGITO Y LA DISCOTECA GAY'). Cada episodio se revisa: si el gancho es reírse de alguien por lo que es, no se trae.",
+      "candidatos": [],
+      "ultima_revision": "2026-11-10T15:23:33-05:00",
+      "ultimas_subidas": [
+        { "url": "https://www.youtube.com/watch?v=8BPxCNm4IiI", "titulo": "HABLANDO HUEVADAS - Décimotercera Temporada [VIMOS DOS SORDOS PELEANDO]", "publicado": "2026-11-08T21:00:10-05:00", "vistas": 2401618, "excluido": "El gancho del episodio es humor sobre una discapacidad (sordera)" }
+      ]
+    },
+    {
+      "nombre": "Juanpis González (Alejandro Riaño)",
+      "nicho": "humoristas y creadores de humor",
+      "grupo": "humor político (Colombia)",
+      "origen": "usuario",
+      "estado": "resuelto",
+      "cuentas": { "youtube": "https://www.youtube.com/channel/UC49w7S0pbX6HMJeiWibcvsg", "kick": null, "twitch": null, "instagram": null, "tiktok": null, "x": null },
+      "canales_relacionados": [],
+      "verificacion": "Canal 'Juanpis González' (2,96 M) con 'The Juanpis Live Show' (entrevistas a Franco Escamilla, Kany García, Verónica Orozco, Daniel Samper Ospina...). El personaje es de Alejandro Riaño. Cuando entrevista a políticos, aplica enfoque.md (campo politica).",
+      "candidatos": [],
+      "ultima_revision": "2026-11-10T15:24:42-05:00",
+      "ultimas_subidas": [
+        { "url": "https://www.youtube.com/watch?v=1L3SuXTXzU0", "titulo": "Me volví la mond* con Hebert Vargas- The Juanpis Live Show", "publicado": "2026-11-08T20:00:11-05:00", "vistas": 89452 }
+      ]
+    },
+    {
+      "nombre": "Daniel Samper Ospina",
+      "nicho": "humoristas y creadores de humor",
+      "grupo": "humor político (Colombia)",
+      "origen": "usuario",
+      "estado": "resuelto",
+      "cuentas": { "youtube": "https://www.youtube.com/channel/UCRTAHXRbRuYlsSCmb_78d_Q", "kick": null, "twitch": null, "instagram": null, "tiktok": null, "x": null },
+      "canales_relacionados": [],
+      "verificacion": "Canal '#HolaSoyDanny', el suyo (la búsqueda por su nombre lo da primero; 'Daniel Samper - La vida es dolor y risa' en colaboración con LA LUPA).",
+      "advertencia": "Hoy el canal es sobre todo comentario político con postura y sobre casos judiciales ('THE WITNESS SPEAKS! WHAT THE EVIDENCE AGAINST PETRO REVEALS', 'ARE MORE PETRO VIDEOS COMING?'). Eso no entra (enfoque.md: sin casos judiciales, sin bandos). Solo sirve su sátira pura, si la hay. Tenía un directo programado para la noche del 10-nov (ogfgkEVDgXI): revisarlo el próximo ciclo con ese filtro.",
+      "candidatos": [],
+      "ultima_revision": "2026-11-10T15:25:41-05:00",
+      "ultimas_subidas": []
+    },
+    {
+      "nombre": "La Pulla",
+      "nicho": "humoristas y creadores de humor",
+      "grupo": "humor político (Colombia)",
+      "origen": "usuario",
+      "estado": "descartado",
+      "motivo_descarte": "Es el programa de periodismo de opinión política de El Espectador (https://en.wikipedia.org/wiki/La_Pulla): toma postura por definición, y su material choca con 'sin bandos' y 'ganchos neutrales' de enfoque.md. No es un humorista ni un creador de humor. Además, Paulina Baena, su cara principal, salió en diciembre de 2022, y no encontré videos de 2026. Si el usuario lo quiere de vuelta, hay que resolver su canal (no se buscó en YouTube).",
+      "cuentas": { "youtube": null, "kick": null, "twitch": null, "instagram": null, "tiktok": null, "x": null },
+      "canales_relacionados": [],
+      "verificacion": "Búsqueda web del 2026-11-10.",
+      "candidatos": [],
+      "ultima_revision": "2026-11-10T15:26:00-05:00",
+      "ultimas_subidas": []
+    },
+    {
+      "nombre": "Los De La Culpa",
+      "nicho": "humoristas y creadores de humor",
+      "grupo": "comedia y stand-up (Colombia)",
+      "origen": "similar",
+      "estado": "resuelto",
+      "cuentas": { "youtube": "https://www.youtube.com/channel/UC6eqGg9YQBVgBtT5XnouSlg", "kick": null, "twitch": null, "instagram": null, "tiktok": null, "x": null },
+      "canales_relacionados": [],
+      "verificacion": "Canal 'Los De La Culpa' (413 K), programa semanal numerado ('Capítulo 268').",
+      "evidencia_similar": "Colectivo de humor de Ricardo Quevedo, Iván Marín, Tavo Bernate, Santiago Rendón, Tato Devia y Henry Delgado, que emite los lunes a las 21:00 (https://www.publimetro.co/entretenimiento/2024/11/29/los-de-la-culpa-reunieron-a-polilla-juanpis-suso-y-mas-humoristas-en-un-solo-escenario/). Es donde salen dos perfiles de la semilla. El capítulo 268 hace 5.028 vistas por hora.",
+      "ultima_revision": "2026-11-10T15:12:01-05:00",
+      "ultimas_subidas": [
+        { "url": "https://www.youtube.com/watch?v=3BAphhKqHUw", "titulo": "Errores Memorables | Los De La Culpa - Capítulo 268", "publicado": "2026-11-09T20:56:11-05:00", "vistas": 92014 }
+      ]
+    },
+    {
+      "nombre": "David Broncano (La Revuelta)",
+      "nicho": "humoristas y creadores de humor",
+      "grupo": "comedia y podcasts de humor (España)",
+      "origen": "similar",
+      "estado": "resuelto",
+      "cuentas": { "youtube": "https://www.youtube.com/channel/UCO5BR4Ex3EM8PSLU7OSqtOw", "kick": null, "twitch": null, "instagram": null, "tiktok": null, "x": null },
+      "canales_relacionados": [],
+      "verificacion": "Canal 'La Revuelta' (624 K), que sube los fragmentos del programa con la marca '#LaRevuelta 09.11.2026'. Es el programa de TVE: lo que se corte tiene dueño (RTVE), sin_verificar.",
+      "evidencia_similar": "Humorista y presentador de un programa de humor con entrevistas. 'Broncano' lleva 23-24 h en tendencia de X en Colombia (#19 a las 19:15 UTC del 10-nov) y en México (#22-34 en cuatro cortes) (https://trends24.in/colombia/, https://trends24.in/mexico/). La causa es la entrevista a Santiago Abascal del 9-nov, que no se corta: hay elecciones generales en España el 29-N y Abascal es candidato. Con invitados no políticos (artistas latinos, por ejemplo) sí entra.",
+      "advertencia": "Hasta el 29-N no se corta ningún candidato español. Después, la política española solo entra con su campo politica y con las mismas reglas que la colombiana.",
+      "ultima_revision": "2026-11-10T15:39:34-05:00",
+      "ultimas_subidas": [
+        { "url": "https://www.youtube.com/watch?v=tZeBj9MS9RQ", "titulo": "Santiago Abascal opina sobre el cambio climático | #LaRevuelta 09.11.2026", "publicado": "2026-11-10T03:00:21-05:00", "vistas": 380119, "excluido": "Candidato en campaña: elecciones generales en España el 29-N" },
+        { "url": "https://www.youtube.com/watch?v=wIKaqVcTZio", "titulo": "Santiago Abascal aclara su relación con Israel | #LaRevuelta 09.11.2026", "publicado": "2026-11-10T03:00:04-05:00", "vistas": 330082, "excluido": "Candidato en campaña, y además toca una guerra" }
+      ]
+    }
+  ]
+}
