@@ -1,0 +1,28 @@
+{
+    "id":  "2026-11-08-sf5-willito-sin-relevo",
+    "url_fuente":  "https://www.youtube.com/watch?v=S5v1BWnXdaI",
+    "video_id":  "S5v1BWnXdaI",
+    "inicio":  376.25,
+    "fin":  411.54,
+    "inicio_hms":  "0:06:16",
+    "duracion_seg":  35.3,
+    "gancho":  "¿Willito no le dará relevo a Lonche?",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  144,
+    "modo":  "desenfoque",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -21.88,
+                  "entrada_tp":  -13.52,
+                  "salida_lufs":  -13.87,
+                  "salida_tp":  -6.13
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-08-sf5-willito-sin-relevo/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-08-sf5-willito-sin-relevo/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-08-sf5-willito-sin-relevo/revision.jpg",
+    "creado":  "2026-11-08T22:43:31.6664674-05:00"
+}

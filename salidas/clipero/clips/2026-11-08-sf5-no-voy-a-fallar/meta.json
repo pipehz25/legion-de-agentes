@@ -1,0 +1,28 @@
+{
+    "id":  "2026-11-08-sf5-no-voy-a-fallar",
+    "url_fuente":  "https://www.youtube.com/watch?v=S5v1BWnXdaI",
+    "video_id":  "S5v1BWnXdaI",
+    "inicio":  9.33,
+    "fin":  53.5,
+    "inicio_hms":  "0:00:09",
+    "duracion_seg":  44.2,
+    "gancho":  "Westcol: no voy a fallar en Stream Fighters",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  156,
+    "modo":  "desenfoque",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -22.11,
+                  "entrada_tp":  -14.03,
+                  "salida_lufs":  -14.02,
+                  "salida_tp":  -6.05
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-08-sf5-no-voy-a-fallar/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-08-sf5-no-voy-a-fallar/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-08-sf5-no-voy-a-fallar/revision.jpg",
+    "creado":  "2026-11-08T22:31:56.7109431-05:00"
+}

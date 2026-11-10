@@ -1,0 +1,28 @@
+{
+    "id":  "2026-11-08-westcol-samulx-calificacion",
+    "url_fuente":  "https://www.youtube.com/watch?v=s0BJLb8qHnc",
+    "video_id":  "s0BJLb8qHnc",
+    "inicio":  929.25,
+    "fin":  969.1,
+    "inicio_hms":  "0:15:29",
+    "duracion_seg":  39.9,
+    "gancho":  "Westcol y Samulx califican comida callejera",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  98,
+    "modo":  "desenfoque",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -9.16,
+                  "entrada_tp":  1.28,
+                  "salida_lufs":  -14.3,
+                  "salida_tp":  -3.57
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-08-westcol-samulx-calificacion/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-08-westcol-samulx-calificacion/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-08-westcol-samulx-calificacion/revision.jpg",
+    "creado":  "2026-11-08T23:40:30.7273204-05:00"
+}

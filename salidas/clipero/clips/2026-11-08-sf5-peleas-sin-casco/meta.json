@@ -1,0 +1,28 @@
+{
+    "id":  "2026-11-08-sf5-peleas-sin-casco",
+    "url_fuente":  "https://www.youtube.com/watch?v=S5v1BWnXdaI",
+    "video_id":  "S5v1BWnXdaI",
+    "inicio":  347.45,
+    "fin":  376.06,
+    "inicio_hms":  "0:05:47",
+    "duracion_seg":  28.6,
+    "gancho":  "Westcol: las peleas con casco son aburridas",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  85,
+    "modo":  "desenfoque",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -22.18,
+                  "entrada_tp":  -14.24,
+                  "salida_lufs":  -13.87,
+                  "salida_tp":  -6.06
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-08-sf5-peleas-sin-casco/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-08-sf5-peleas-sin-casco/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-08-sf5-peleas-sin-casco/revision.jpg",
+    "creado":  "2026-11-08T22:46:32.2939261-05:00"
+}

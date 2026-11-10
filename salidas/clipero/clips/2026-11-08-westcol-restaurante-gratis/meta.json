@@ -1,0 +1,28 @@
+{
+    "id":  "2026-11-08-westcol-restaurante-gratis",
+    "url_fuente":  "https://www.youtube.com/watch?v=O5LzrzMAbXM",
+    "video_id":  "O5LzrzMAbXM",
+    "inicio":  1595.45,
+    "fin":  1649.58,
+    "inicio_hms":  "0:26:35",
+    "duracion_seg":  54.1,
+    "gancho":  "El restaurante gratis que quiere montar Westcol",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  210,
+    "modo":  "desenfoque",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -11.74,
+                  "entrada_tp":  1.2,
+                  "salida_lufs":  -14.04,
+                  "salida_tp":  -1.09
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-08-westcol-restaurante-gratis/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-08-westcol-restaurante-gratis/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-08-westcol-restaurante-gratis/revision.jpg",
+    "creado":  "2026-11-08T23:26:32.6223701-05:00"
+}

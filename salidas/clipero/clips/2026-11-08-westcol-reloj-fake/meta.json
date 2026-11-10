@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-08-westcol-reloj-fake",
+    "url_fuente":  "https://www.youtube.com/watch?v=ybjXHgxGBMo",
+    "video_id":  "ybjXHgxGBMo",
+    "inicio":  768.93,
+    "fin":  814.94,
+    "inicio_hms":  "0:12:48",
+    "duracion_seg":  46,
+    "gancho":  "Westcol: \u0027Yo tuve fake antes\u0027",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  186,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -20.04,
+                  "entrada_tp":  -12.6,
+                  "salida_lufs":  -13.94,
+                  "salida_tp":  -6.56
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-08-westcol-reloj-fake/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-08-westcol-reloj-fake/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-08-westcol-reloj-fake/revision.jpg",
+    "creado":  "2026-11-09T21:21:14.2967039-05:00"
+}

@@ -1,0 +1,28 @@
+{
+    "id":  "2026-11-08-sf5-cadenas-rey",
+    "url_fuente":  "https://www.youtube.com/watch?v=ybjXHgxGBMo",
+    "video_id":  "ybjXHgxGBMo",
+    "inicio":  513.49,
+    "fin":  552.06,
+    "inicio_hms":  "0:08:33",
+    "duracion_seg":  38.6,
+    "gancho":  "Si Rey pierde en Stream Fighters, pierde la cadena",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  131,
+    "modo":  "desenfoque",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -21.04,
+                  "entrada_tp":  -13.12,
+                  "salida_lufs":  -13.73,
+                  "salida_tp":  -6.08
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-08-sf5-cadenas-rey/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-08-sf5-cadenas-rey/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-08-sf5-cadenas-rey/revision.jpg",
+    "creado":  "2026-11-08T23:50:24.2396621-05:00"
+}

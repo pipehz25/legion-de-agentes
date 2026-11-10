@@ -1,0 +1,28 @@
+{
+    "id":  "2026-11-08-sf5-divaza-polemica",
+    "url_fuente":  "https://www.youtube.com/watch?v=S5v1BWnXdaI",
+    "video_id":  "S5v1BWnXdaI",
+    "inicio":  440.61,
+    "fin":  503.22,
+    "inicio_hms":  "0:07:20",
+    "duracion_seg":  62.6,
+    "gancho":  "¿Valdiri vs. La Divaza, la más polémica?",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  223,
+    "modo":  "desenfoque",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -21.76,
+                  "entrada_tp":  -13.95,
+                  "salida_lufs":  -13.96,
+                  "salida_tp":  -6.2
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-08-sf5-divaza-polemica/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-08-sf5-divaza-polemica/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-08-sf5-divaza-polemica/revision.jpg",
+    "creado":  "2026-11-08T22:55:34.0544305-05:00"
+}

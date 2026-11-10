@@ -1,0 +1,28 @@
+{
+    "id":  "2026-11-08-westcol-calatrava-recorrido",
+    "url_fuente":  "https://www.youtube.com/watch?v=O5LzrzMAbXM",
+    "video_id":  "O5LzrzMAbXM",
+    "inicio":  2287.13,
+    "fin":  2332.1,
+    "inicio_hms":  "0:38:07",
+    "duracion_seg":  45,
+    "gancho":  "Westcol vuelve al barrio donde creció",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  140,
+    "modo":  "desenfoque",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -11.65,
+                  "entrada_tp":  0.66,
+                  "salida_lufs":  -14,
+                  "salida_tp":  -1.7
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-08-westcol-calatrava-recorrido/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-08-westcol-calatrava-recorrido/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-08-westcol-calatrava-recorrido/revision.jpg",
+    "creado":  "2026-11-08T23:19:41.4907034-05:00"
+}

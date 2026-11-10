@@ -568,6 +568,8 @@ try {
         }
         $a = $grupo[0].t - $ini
         $b = if ($k -lt $ws.Count) { [math]::Min($ws[$k].t - $ini, $a + 2.5) } else { [math]::Min($grupo[-1].t - $ini + 0.8, $durClip) }
+        # Dos palabras con el mismo tiempo darian un evento de duracion cero, y ffmpeg se queda sin gancho en todo el clip
+        $b = [math]::Max($b, $a + 0.25)
         $frase = ($grupo | ForEach-Object { $_.w }) -join ' '
         if ($est.mayus) { $frase = $frase.ToUpper() }
         $texto = TextoAss $frase

@@ -1,0 +1,28 @@
+{
+    "id":  "2026-11-08-westcol-pony-uribe",
+    "url_fuente":  "https://www.youtube.com/watch?v=O5LzrzMAbXM",
+    "video_id":  "O5LzrzMAbXM",
+    "inicio":  556.69,
+    "fin":  598.7,
+    "inicio_hms":  "0:09:16",
+    "duracion_seg":  42,
+    "gancho":  "Westcol: \u0027Álvaro Uribe me regaló un pony\u0027",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  149,
+    "modo":  "desenfoque",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -14.03,
+                  "entrada_tp":  -1.29,
+                  "salida_lufs":  -14.03,
+                  "salida_tp":  -1.26
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-08-westcol-pony-uribe/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-08-westcol-pony-uribe/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-08-westcol-pony-uribe/revision.jpg",
+    "creado":  "2026-11-08T23:30:37.1903600-05:00"
+}

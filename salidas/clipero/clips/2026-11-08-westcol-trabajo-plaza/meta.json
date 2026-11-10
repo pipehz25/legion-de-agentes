@@ -1,0 +1,28 @@
+{
+    "id":  "2026-11-08-westcol-trabajo-plaza",
+    "url_fuente":  "https://www.youtube.com/watch?v=O5LzrzMAbXM",
+    "video_id":  "O5LzrzMAbXM",
+    "inicio":  4124.61,
+    "fin":  4160.54,
+    "inicio_hms":  "1:08:44",
+    "duracion_seg":  35.9,
+    "gancho":  "Antes de la fama, Westcol alzaba bultos",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  111,
+    "modo":  "desenfoque",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -10.87,
+                  "entrada_tp":  1.33,
+                  "salida_lufs":  -14.09,
+                  "salida_tp":  -1.81
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-08-westcol-trabajo-plaza/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-08-westcol-trabajo-plaza/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-08-westcol-trabajo-plaza/revision.jpg",
+    "creado":  "2026-11-08T23:09:48.8134942-05:00"
+}

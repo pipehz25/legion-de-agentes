@@ -1,0 +1,28 @@
+{
+    "id":  "2026-11-08-westcol-peladitos-joseadores",
+    "url_fuente":  "https://www.youtube.com/watch?v=s0BJLb8qHnc",
+    "video_id":  "s0BJLb8qHnc",
+    "inicio":  1178.75,
+    "fin":  1200.7,
+    "inicio_hms":  "0:19:38",
+    "duracion_seg":  22,
+    "gancho":  "Westcol y Samulx: \u0027cómprenles, apoyen\u0027",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  62,
+    "modo":  "desenfoque",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -9.16,
+                  "entrada_tp":  0.8,
+                  "salida_lufs":  -13.89,
+                  "salida_tp":  -4.05
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-08-westcol-peladitos-joseadores/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-08-westcol-peladitos-joseadores/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-08-westcol-peladitos-joseadores/revision.jpg",
+    "creado":  "2026-11-08T23:35:12.6552030-05:00"
+}

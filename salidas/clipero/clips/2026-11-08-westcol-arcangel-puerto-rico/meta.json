@@ -1,0 +1,28 @@
+{
+    "id":  "2026-11-08-westcol-arcangel-puerto-rico",
+    "url_fuente":  "https://www.youtube.com/watch?v=hUC7ABCHTGw",
+    "video_id":  "hUC7ABCHTGw",
+    "inicio":  379.25,
+    "fin":  435.02,
+    "inicio_hms":  "0:06:19",
+    "duracion_seg":  55.8,
+    "gancho":  "Westcol y la noche que Arcángel los liquidó",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  206,
+    "modo":  "desenfoque",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -13.28,
+                  "entrada_tp":  -0.55,
+                  "salida_lufs":  -13.99,
+                  "salida_tp":  -1.27
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-08-westcol-arcangel-puerto-rico/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-08-westcol-arcangel-puerto-rico/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-08-westcol-arcangel-puerto-rico/revision.jpg",
+    "creado":  "2026-11-08T23:15:27.4061518-05:00"
+}

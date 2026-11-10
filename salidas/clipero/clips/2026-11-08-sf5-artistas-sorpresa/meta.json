@@ -1,0 +1,28 @@
+{
+    "id":  "2026-11-08-sf5-artistas-sorpresa",
+    "url_fuente":  "https://www.youtube.com/watch?v=S5v1BWnXdaI",
+    "video_id":  "S5v1BWnXdaI",
+    "inicio":  305.81,
+    "fin":  341.26,
+    "inicio_hms":  "0:05:05",
+    "duracion_seg":  35.4,
+    "gancho":  "Westcol revela el truco de los artistas sorpresa",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  149,
+    "modo":  "desenfoque",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -22.1,
+                  "entrada_tp":  -14.26,
+                  "salida_lufs":  -13.88,
+                  "salida_tp":  -6.42
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-08-sf5-artistas-sorpresa/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-08-sf5-artistas-sorpresa/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-08-sf5-artistas-sorpresa/revision.jpg",
+    "creado":  "2026-11-08T22:35:56.1690772-05:00"
+}

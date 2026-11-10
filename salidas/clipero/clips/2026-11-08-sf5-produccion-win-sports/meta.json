@@ -1,0 +1,28 @@
+{
+    "id":  "2026-11-08-sf5-produccion-win-sports",
+    "url_fuente":  "https://www.youtube.com/watch?v=S5v1BWnXdaI",
+    "video_id":  "S5v1BWnXdaI",
+    "inicio":  101.77,
+    "fin":  126.62,
+    "inicio_hms":  "0:01:41",
+    "duracion_seg":  24.9,
+    "gancho":  "Stream Fighters 5 con producción de Win Sports",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  68,
+    "modo":  "desenfoque",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -22.27,
+                  "entrada_tp":  -14.17,
+                  "salida_lufs":  -13.92,
+                  "salida_tp":  -6.09
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-08-sf5-produccion-win-sports/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-08-sf5-produccion-win-sports/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-08-sf5-produccion-win-sports/revision.jpg",
+    "creado":  "2026-11-08T22:49:46.1418378-05:00"
+}

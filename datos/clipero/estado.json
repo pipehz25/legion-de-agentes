@@ -1,8 +1,8 @@
 {
-    "actualizado":  "2026-11-06T02:06:35.5566200-05:00",
-    "ciclo":  9,
-    "ultimo_ciclo_cazador":  5,
-    "_nota_ciclos":  "Ciclo 7 (4-nov, 14:44-21:50; parado de 17:31 a 21:37 por el límite de uso): sin ciclo nuevo del Cazador (sigue en el 5, procesado en el ciclo 6), descubrimiento propio dentro del enfoque. Durante la pausa, un encargo aparte sobre el robot de Westcol (Xrwm98iaWY8, 19:50-20:16; informe 2026-11-04-westcol-robot.md) se registró como \u0027ciclo 8\u0027 y cortó 5 clips; se mantiene 8 para que el contador no retroceda. El ciclo 6 (3-nov) se cortó por un fallo de red y se cerró en el ciclo 7.",
+    "actualizado":  "2026-11-09T21:50:00-05:00",
+    "ciclo":  10,
+    "ultimo_ciclo_cazador":  6,
+    "_nota_ciclos":  "Ciclo 7 (4-nov, 14:44-21:50; parado de 17:31 a 21:37 por el límite de uso): sin ciclo nuevo del Cazador (sigue en el 5, procesado en el ciclo 6), descubrimiento propio dentro del enfoque. Durante la pausa, un encargo aparte sobre el robot de Westcol (Xrwm98iaWY8, 19:50-20:16; informe 2026-11-04-westcol-robot.md) se registró como \u0027ciclo 8\u0027 y cortó 5 clips; se mantiene 8 para que el contador no retroceda. El ciclo 6 (3-nov) se cortó por un fallo de red y se cerró en el ciclo 7. Ciclo 10 (8-nov, procesó el ciclo 6 del Cazador): se cortó a las 23:49 por el límite de uso, antes de registrar 7 clips y de escribir el informe. Se cerró el 9-nov entre las 20:50 y las 21:50 sin abrir ciclo nuevo: 4 clips ya hechos se revisaron y se registraron, y 3 se volvieron a cortar desde su ficha (ybjXHgxGBMo). El informe del ciclo 10 sigue sin escribirse. El Cazador publicó su ciclo 7 el 9-nov a las 21:45: le toca al ciclo 11.",
     "fuentes":  [
                     {
                         "id":  "LYEB5ioD_pY",
@@ -311,6 +311,41 @@
                         "titulo":  "La inquietante psicología de quienes nunca salen de casa 🧠",
                         "analizado":  "2026-11-06",
                         "resultado":  "4 clips, 0 pendientes por descarga | transcripcion completa leida (178 lineas) | encargo directo ocho fuentes | sin picos ni comentarios | informe 2026-11-06-ocho-videos.md"
+                    },
+                    {
+                        "id":  "S5v1BWnXdaI",
+                        "url":  "https://www.youtube.com/watch?v=S5v1BWnXdaI",
+                        "titulo":  "Stream Fighters 5 va a ser HISTÓRICO (Mis expectativas) | WESTCOL",
+                        "analizado":  "2026-11-08",
+                        "resultado":  "8 clips (ciclo 10): no-voy-a-fallar 85, artistas-sorpresa 84, robot-motosierra 84, willito-sin-relevo 80, peleas-sin-casco 80, produccion-win-sports 74, divaza-polemica 72, kevin-tobias-puerta 70 + 1 propuesto para revisión humana (JH) | descubrimiento propio (búsqueda \u0027Stream Fighters 5\u0027 -Hoy) y fuente_para_clips n.º 1 del Cazador (ciclo 6), perfil Westcol, oportunidad tema-stream-fighters-5 | canal oficial WestCOL (2,07 M), publicado 8-nov 13:00, 717 s, 6.941 vistas a las 22:05 (763/h) | sin picos ni marcas | transcripción leída entera (91 líneas) | 9:07-9:44 alude a la polémica por Komanche (exclusión) | palabras-rev.json: Benium→venue, Street→Stream, Sport→Sports, Wilito/Helito→Willito, lonche/lonchi→Lonche, Chanti→Chanty, Divasa→Divaza, bendito→Bendito, Gonoral/gonorre→gonorrea, Rot y C→(…), insulto homófobo→***"
+                    },
+                    {
+                        "id":  "O5LzrzMAbXM",
+                        "url":  "https://www.youtube.com/watch?v=O5LzrzMAbXM",
+                        "titulo":  "ENTRAMOS a los barrios más PELIGROSOS de Medellín con SAMULX | WESTCOL",
+                        "analizado":  "2026-11-08",
+                        "resultado":  "6 clips (ciclo 10): trabajo-plaza 82, calatrava-recorrido 78, confia-en-medellin 77, restaurante-gratis 77, pony-uribe 73, nueve-colegios 73 | descubrimiento propio y fuente_para_clips del Cazador (ciclo 6), perfil Westcol con Samulx (similar nuevo, pelea en SF5), oportunidad formato-primera-vez-en-medellin | canal oficial WestCOL (2,07 M), publicado 8-nov 09:00, 5.688 s, 79.610 vistas a las 22:06 (6.077/h), 85.715 a las 23:05 | 2 marcas en comentarios (9:26 la cabra, 56:25) | transcripción leída entera (850 líneas) | edición de 95 min del VOD de Kick 01a1b827… (\u0027Los barrios más peligrosos y oscuros en Medellín\u0027, 5 h 45 min, 7-nov 17:35) | 1:19:03 en adelante = s0BJLb8qHnc (comida) | descartados: violencia del pasado (cola del zorro), drogas, la mujer de los \u0027200 pesos\u0027, personas vulnerables, robo a DBD Cheverry, promoción de Araganeo | audio con picos de entrada por encima de 0 dBTP en el carro (saturado) | palabras-rev.json: Chanti→Chanty, conorrea→gonorrea, Calatraba→Calatrava, aes/Ges→West, contter→Counter; Impres., Alejandro, buenoate, dos (26:53), trabaj, tod como (…)"
+                    },
+                    {
+                        "id":  "hUC7ABCHTGw",
+                        "url":  "https://www.youtube.com/watch?v=hUC7ABCHTGw",
+                        "titulo":  "WESTCOL ME DA UN TOUR EN LOS BARRIOS DONDE CRECIÓ EN MEDELLIN 😯 CALATRAVA | Samulx",
+                        "analizado":  "2026-11-08",
+                        "resultado":  "1 clip (ciclo 10): arcangel-puerto-rico 79 | descubrimiento propio y fuente_para_clips del Cazador (ciclo 6), oportunidad formato-primera-vez-en-medellin | Samulx (188.000), publicado 8-nov 00:51, 1.927 s, 93.442 vistas a las 22:06 (4.387/h) | 1 marca en comentarios (17:01) | transcripción leída entera (264 líneas) | es la versión de Samulx del mismo directo que O5LzrzMAbXM: todo coincide salvo 4:53-7:15 (Navidad en Tu Candela y las anécdotas con Arcángel) | 5:14-6:18 fumando con Arcángel en el mirador (drogas): fuera | palabras-rev.json: Arcanes/arcángel→Arcángel, chores→shorts, Itan→(…); \u0027I go flow\u0027 (nombre de canción) sin confirmar"
+                    },
+                    {
+                        "id":  "s0BJLb8qHnc",
+                        "url":  "https://www.youtube.com/watch?v=s0BJLb8qHnc",
+                        "titulo":  "PROBANDO COMIDA CALLEJERA DE MEDELLIN POR PRIMERA VEZ CON WESTCOL 😯 MUY DELICIOSO | Samulx",
+                        "analizado":  "2026-11-08",
+                        "resultado":  "2 clips (ciclo 10): peladitos-joseadores 69, samulx-calificacion 69 | descubrimiento propio y fuente_para_clips del Cazador (ciclo 6, 6,1 veces la mediana de Samulx), oportunidad formato-primera-vez-en-medellin | Samulx (188.000), publicado 8-nov 02:11, 1.339 s, 307.674 vistas a las 22:06 (15.461/h), 328.281 a las 23:05 | 5 marcas en comentarios (8:52, 10:05, 11:41, 15:30 con 52 likes, 16:37-16:40 con 22 likes) | transcripción leída entera (192 líneas): voces de Westcol y Samulx mezcladas; casi todo es comer | 0:00-~16:20 = O5LzrzMAbXM 1:19:03-1:31:00 | tiempos por palabra repartidos de forma uniforme (subtítulos sin tiempo por palabra) | palabras-rev.json: Cóprenles→Cómprenles"
+                    },
+                    {
+                        "id":  "ybjXHgxGBMo",
+                        "url":  "https://www.youtube.com/watch?v=ybjXHgxGBMo",
+                        "titulo":  "Me GASTÉ $100.000 DÓLARES en un RICHARD MILLE (Valió la pena?) | WESTCOL",
+                        "analizado":  "2026-11-08",
+                        "resultado":  "4 clips (ciclo 10, registrados el 9-nov hacia las 21:30, porque el ciclo se cortó el 8-nov a las 23:49 por el límite de uso): reloj-fake 82, cadenas-rey 81, patek-inversion 76, richard-patek-carro 72; los tres últimos se volvieron a cortar el 9-nov desde su ficha | fuente_para_clips del Cazador (ciclo 6, aparece: true; candidato 'matemática del lujo', sin oportunidad con id), perfil Westcol con Samulx en la escena; cadenas-rey va a tema-stream-fighters-5 | canal oficial WestCOL (2,07 M), publicado 8-nov 20:00, 1.356 s, 7.952 vistas a las 23:40 (2.034/h a las 23:03 según el Cazador) | sin picos ni marcas | joyería en la guarida con el joyero Alto Rango; Samulx elige su primer reloj; misma sesión que 'ELIGIENDO MI PRIMER RELOJ DE DIAMANTES CON WESTCOL' (Samulx, AW_fM1YiGO8) | 9:35-11:32 llamada a Rey de la City por la cadena (después de cadenas-rey) | los subtítulos no separan las voces (Westcol, Samulx, Alto Rango) | los momentos descartados de esta fuente no se anotaron antes del corte del ciclo | palabras-rev.json: Fire→Fighter, Torrango/torrango→Alto Rango, pan→Pan, piqueto→piquete, relo→reloj, hecho→echo, Patec/pate/paté→Patek, Philip→Philippe, de→el (17:46), sabó→(…); el 9-nov, 'yo,'→'yo' (6:20, solo la coma): dos palabras con el mismo tiempo daban un subtítulo de duración cero y ffmpeg dejaba sin gancho todo el clip"
                     }
                 ],
     "momentos":  [
@@ -3302,6 +3337,437 @@
                          "estado":  "cortado",
                          "clip":  "2026-11-06-hipopotamo-domesticar-no-domar",
                          "motivo":  "Seleccion editorial; revision visual aprobada"
+                     },
+                     {
+                         "fuente":  "S5v1BWnXdaI",
+                         "inicio":  9.33,
+                         "fin":  53.5,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-08-sf5-no-voy-a-fallar",
+                         "motivo":  "frase, 85 (ciclo 10): \u0027todo está vendido… yo no voy a fallar con Stream Fighter este año… el mayor error de ustedes: menospreciar a la W\u0027"
+                     },
+                     {
+                         "fuente":  "S5v1BWnXdaI",
+                         "inicio":  305.81,
+                         "fin":  341.26,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-08-sf5-artistas-sorpresa",
+                         "motivo":  "revelacion, 84 (ciclo 10): artistas que no se anuncian porque \u0027si usted lo anuncia tiene que dar $100,000 más… si llega de sorpresa eso ya se quita\u0027"
+                     },
+                     {
+                         "fuente":  "S5v1BWnXdaI",
+                         "inicio":  601.37,
+                         "fin":  630.78,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-08-sf5-robot-motosierra",
+                         "motivo":  "revelacion, 84 (ciclo 10): al robot \u0027ya le quitaron todas las medidas de seguridad… cuatro patadas voladoras seguidas… le puse una motosierra. Vamos a ver el Bendito qué está haciendo\u0027. Parte 2 de westcol-robot-sin-seguridad"
+                     },
+                     {
+                         "fuente":  "S5v1BWnXdaI",
+                         "inicio":  54,
+                         "fin":  90,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "63, \u0027eso no ha sido suerte… se burlaban de la discotequita\u0027. Repite la idea de no-voy-a-fallar y de westcol-me-eligieron"
+                     },
+                     {
+                         "fuente":  "S5v1BWnXdaI",
+                         "inicio":  206,
+                         "fin":  250,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "64, \u0027no es arte de magia… vamos a romper récords… van a mamar todos\u0027. Repite la idea de no-voy-a-fallar; se corta el mejor"
+                     },
+                     {
+                         "fuente":  "S5v1BWnXdaI",
+                         "inicio":  251,
+                         "fin":  290,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "60, \u0027vean los números de Aria Vega\u0027. Sin dato concreto ni remate"
+                     },
+                     {
+                         "fuente":  "S5v1BWnXdaI",
+                         "inicio":  510,
+                         "fin":  547,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "motivo":  "Revisión humana. 70, JH le escribió \u0027no creas que te voy a dañar el evento\u0027 y Westcol: \u0027son medidas de prevención\u0027. JH criticó a Westcol en la polémica por la muerte de Komanche (mismo criterio que en el ciclo 6 con hc_eHyGrndY): no se corta sin que una persona lo decida"
+                     },
+                     {
+                         "fuente":  "S5v1BWnXdaI",
+                         "inicio":  547,
+                         "fin":  584,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "\u0027Había una pelea que se iba a caer… cuando todos me tiraron *** … yo aguanté\u0027. Alude a la polémica por la muerte de Komanche (exclusión del usuario)"
+                     },
+                     {
+                         "fuente":  "S5v1BWnXdaI",
+                         "inicio":  632,
+                         "fin":  680,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "62, \u0027mandé a traer los chinos… voy a entrar con mi robot, pero no sé qué entrada hacer\u0027. Repite robot-sin-seguridad (técnicos chinos) y la entrada no está decidida"
+                     },
+                     {
+                         "fuente":  "S5v1BWnXdaI",
+                         "inicio":  376.25,
+                         "fin":  411.54,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-08-sf5-willito-sin-relevo",
+                         "motivo":  "revelacion, 80 (ciclo 10): \u0027Willito supuestamente le va a ganar a los dos con una mano y no va a darle relevo a Lonche\u0027 y la regla de los relevos. Cubre la idea de sf5-pelea-ganga (propuesto por el banner de Stake)"
+                     },
+                     {
+                         "fuente":  "S5v1BWnXdaI",
+                         "inicio":  347.45,
+                         "fin":  376.06,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-08-sf5-peleas-sin-casco",
+                         "motivo":  "frase, 80 (ciclo 10): \u0027el evento con más peleas sin casco… se ponen su casquito… esas peleas son aburridas. Esta gente tiene hambre de darse duro en la cara\u0027"
+                     },
+                     {
+                         "fuente":  "S5v1BWnXdaI",
+                         "inicio":  101.77,
+                         "fin":  126.62,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-08-sf5-produccion-win-sports",
+                         "motivo":  "revelacion, 74 (ciclo 10): \u0027la producción este año de Stream Fighter es la producción de Win Sports… puede ser un equipo tranquilamente de 500 personas\u0027"
+                     },
+                     {
+                         "fuente":  "S5v1BWnXdaI",
+                         "inicio":  440.61,
+                         "fin":  503.22,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-08-sf5-divaza-polemica",
+                         "motivo":  "prediccion, 72 (ciclo 10): La Divaza \u0027puede estar protagonizando Bad Boys 4\u0027; en el pesaje \u0027van a decir un hombre con una mujer… una de las peleas más polémicas de toda la historia\u0027. Sigue a sf5-valdiri-divaza; revisar antes de publicar (tema de género)"
+                     },
+                     {
+                         "fuente":  "S5v1BWnXdaI",
+                         "inicio":  155.17,
+                         "fin":  192.5,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-08-sf5-kevin-tobias-puerta",
+                         "motivo":  "humor, 70 (ciclo 10): \u0027plan A, plan B, plan C, plan D… Kevin Tobías dijo que no le abrieron la puerta… este año no vamos a tener fallos\u0027. Burla vulgar a otro creador: solo TikTok"
+                     },
+                     {
+                         "fuente":  "O5LzrzMAbXM",
+                         "inicio":  4124.61,
+                         "fin":  4160.54,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-08-westcol-trabajo-plaza",
+                         "motivo":  "historia, 82 (ciclo 10): trabajó en la plaza mayorista \u0027alzando bultos\u0027 y en un puesto de frutas del padrastro; \u0027me iba a las 3 de la mañana… ese era mi trabajo\u0027"
+                     },
+                     {
+                         "fuente":  "hUC7ABCHTGw",
+                         "inicio":  379.25,
+                         "fin":  435.02,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-08-westcol-arcangel-puerto-rico",
+                         "motivo":  "historia, 79 (ciclo 10): la barra más brava de Arcángel y la noche en Puerto Rico (\u0027cinco discotecas y Arcángel era el que quería seguirla… nos liquidó\u0027). Solo en la subida de Samulx; empieza después de la parte de fumar"
+                     },
+                     {
+                         "fuente":  "O5LzrzMAbXM",
+                         "inicio":  2287.13,
+                         "fin":  2332.1,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-08-westcol-calatrava-recorrido",
+                         "motivo":  "historia, 78 (ciclo 10): Calatrava: \u0027Siempre soñamos con esto y estamos aquí… ese era el recorrido mío diario… salía a las 6 a estudiar y llegaba a las 8\u0027"
+                     },
+                     {
+                         "fuente":  "O5LzrzMAbXM",
+                         "inicio":  24.21,
+                         "fin":  62.3,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-08-westcol-confia-en-medellin",
+                         "motivo":  "confrontacion, 77 (ciclo 10): Samulx pide seguridad y Westcol: \u0027¿Usted cómo cree que yo ando en mi ciudad?… Yo quiero que usted le tenga confianza a Medellín\u0027"
+                     },
+                     {
+                         "fuente":  "O5LzrzMAbXM",
+                         "inicio":  184,
+                         "fin":  257,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "\u0027La cola del zorro… aquí encontraban muchos muertos… cadáveres\u0027. Violencia del pasado convertida en atracción (nota del Cazador: nada que convierta la violencia en espectáculo)"
+                     },
+                     {
+                         "fuente":  "O5LzrzMAbXM",
+                         "inicio":  322,
+                         "fin":  351,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "63, \u0027aquí está el primer terreno que yo tuve de mi casa\u0027. Dato menor, sin remate"
+                     },
+                     {
+                         "fuente":  "O5LzrzMAbXM",
+                         "inicio":  399,
+                         "fin":  414,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "\u0027Medellín es una ciudad muy marihuanera… le puede meter unos plones\u0027. Drogas"
+                     },
+                     {
+                         "fuente":  "O5LzrzMAbXM",
+                         "inicio":  776,
+                         "fin":  790,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Chanty y una mujer que \u0027se volvió a Trisporno\u0027. Vida privada y contenido sexual de terceros"
+                     },
+                     {
+                         "fuente":  "O5LzrzMAbXM",
+                         "inicio":  934,
+                         "fin":  969,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "62, \u0027planes vacacionales… ojalá hubiera tenido amigos ricos\u0027. Poco remate"
+                     },
+                     {
+                         "fuente":  "O5LzrzMAbXM",
+                         "inicio":  1000,
+                         "fin":  1044,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "A Samulx: \u0027a mi papá lo robaron, secuestraron… como 20 veces\u0027. Secuestro de un tercero (tragedia familiar) en clave de humor"
+                     },
+                     {
+                         "fuente":  "O5LzrzMAbXM",
+                         "inicio":  1698,
+                         "fin":  1751,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "63, \u0027a mí me encanta Medellín… si tuvieras que mudarte: Pereira, es como Medellín chiquitico\u0027"
+                     },
+                     {
+                         "fuente":  "O5LzrzMAbXM",
+                         "inicio":  1987,
+                         "fin":  2011,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "73, \u0027usted no puede jugar con la necesidad de la gente… no es justificar al ladrón, pero tampoco tentarlo\u0027. Repite la idea de westcol-confia-en-medellin (Medellín es segura para él); se corta el mejor"
+                     },
+                     {
+                         "fuente":  "O5LzrzMAbXM",
+                         "inicio":  2095,
+                         "fin":  2170,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Fans en Calatrava y \u002750 luquitas\u0027 a un desconocido. Personas privadas, caótico"
+                     },
+                     {
+                         "fuente":  "O5LzrzMAbXM",
+                         "inicio":  2403,
+                         "fin":  2505,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "La mujer que \u0027cobra 200 pesos\u0027. Persona privada y contenido sexual"
+                     },
+                     {
+                         "fuente":  "O5LzrzMAbXM",
+                         "inicio":  2603,
+                         "fin":  2635,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "\u0027Trabajé mucho tiempo en la plaza… los viejos se lo comían en ***\u0027. Va pegado a contenido sexual; la versión limpia es westcol-trabajo-plaza"
+                     },
+                     {
+                         "fuente":  "O5LzrzMAbXM",
+                         "inicio":  2681,
+                         "fin":  2695,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "\u0027Nos confundió con Ryan Castro\u0027. 13 s, no llega al mínimo y no se ve quién gritó"
+                     },
+                     {
+                         "fuente":  "O5LzrzMAbXM",
+                         "inicio":  2837,
+                         "fin":  2892,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "65, a un streamer que iba con él (DBD Cheverry) lo robaron en Prado Centro y lo acusaron a él. Robo a un tercero"
+                     },
+                     {
+                         "fuente":  "O5LzrzMAbXM",
+                         "inicio":  3325,
+                         "fin":  3354,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "\u0027Un cucho que dice pura grosería… está loquito\u0027. Burla a una persona vulnerable"
+                     },
+                     {
+                         "fuente":  "O5LzrzMAbXM",
+                         "inicio":  3498,
+                         "fin":  3540,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "El \u0027loquito\u0027 que se exhibió ante Chanty y \u002750 lucas en bareta\u0027. Personas vulnerables y drogas"
+                     },
+                     {
+                         "fuente":  "O5LzrzMAbXM",
+                         "inicio":  4180,
+                         "fin":  4212,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "68, \u0027el primer stream que yo hice con Arcángel fue en la casa de aquí arriba… primer carro, el Mustang\u0027. Repite westcol-capo-mustang y la idea Arcángel de westcol-arcangel-puerto-rico"
+                     },
+                     {
+                         "fuente":  "O5LzrzMAbXM",
+                         "inicio":  4420,
+                         "fin":  4482,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "64, \u0027el título no coincide con el stream… mañana video y si no lo publico estoy muerto\u0027"
+                     },
+                     {
+                         "fuente":  "O5LzrzMAbXM",
+                         "inicio":  5491,
+                         "fin":  5511,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "64, \u0027si estoy en stream prefiero la prioridad de esta gente (el chat)\u0027"
+                     },
+                     {
+                         "fuente":  "O5LzrzMAbXM",
+                         "inicio":  5533,
+                         "fin":  5587,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Promoción de Araganeo (negocio de su hermano) y votación en un concurso. Publicidad"
+                     },
+                     {
+                         "fuente":  "hUC7ABCHTGw",
+                         "inicio":  314,
+                         "fin":  379,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "La noche que fumó con Arcángel en el mirador (\u0027baretico\u0027, \u0027pangola\u0027). Drogas; westcol-arcangel-puerto-rico empieza justo después"
+                     },
+                     {
+                         "fuente":  "hUC7ABCHTGw",
+                         "inicio":  1689,
+                         "fin":  1730,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Dinero a un señor mayor en la calle (\u0027primero coma\u0027). Persona vulnerable"
+                     },
+                     {
+                         "fuente":  "s0BJLb8qHnc",
+                         "inicio":  68,
+                         "fin":  98,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "\u0027Hay unos locos que si usted no le da plata le da rabia\u0027. Personas vulnerables"
+                     },
+                     {
+                         "fuente":  "s0BJLb8qHnc",
+                         "inicio":  519,
+                         "fin":  563,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "64, \u0027me siento un poco acosado… bienvenido a la vida real\u0027. Voces mezcladas, no se sabe quién dice qué; 1 marca en comentarios (8:52)"
+                     },
+                     {
+                         "fuente":  "s0BJLb8qHnc",
+                         "inicio":  662,
+                         "fin":  705,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "62, el domiciliario de \u0027la competencia\u0027 trae salchipapas. Depende de la imagen; trabajadores identificables. 1 marca en comentarios (11:41)"
+                     },
+                     {
+                         "fuente":  "s0BJLb8qHnc",
+                         "inicio":  990,
+                         "fin":  1010,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "2 marcas en comentarios (16:37 \u0027qué hace el Westcol\u0027, 16:40 \u0027jajaja\u0027, 22 likes), pero es un gesto visual sin texto que lo explique; no se puede juzgar sin ver"
+                     },
+                     {
+                         "fuente":  "s0BJLb8qHnc",
+                         "inicio":  720,
+                         "fin":  772,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "64, primeras probadas (\u0027uy, qué rico… me tiene impactado\u0027). Casi sin texto; el veredicto está en westcol-samulx-calificacion"
+                     },
+                     {
+                         "fuente":  "O5LzrzMAbXM",
+                         "inicio":  1595.45,
+                         "fin":  1649.58,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-08-westcol-restaurante-gratis",
+                         "motivo":  "revelacion, 77 (ciclo 10): \u0027montar un restaurante infinito… 20 millones de pesos al mes uno alimenta esa gente\u0027; si alguien se intoxica, demanda. Es una idea, no un proyecto"
+                     },
+                     {
+                         "fuente":  "O5LzrzMAbXM",
+                         "inicio":  556.69,
+                         "fin":  598.7,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-08-westcol-pony-uribe",
+                         "motivo":  "humor, 73 (ciclo 10): las cabras de Majalo \u0027se parecen a Chanty\u0027, una se come la perla del short y \u0027el pony que me regaló Álvaro Uribe\u0027. Comentario en 9:26"
+                     },
+                     {
+                         "fuente":  "O5LzrzMAbXM",
+                         "inicio":  3081.73,
+                         "fin":  3105.94,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-08-westcol-nueve-colegios",
+                         "variante_de":  null,
+                         "motivo":  "revelacion, 73 (ciclo 10; registrado el 9-nov): 'mi mamá mantenía cambiando de trabajo… estudié en ocho colegios… como nueve colegios distintos'"
+                     },
+                     {
+                         "fuente":  "s0BJLb8qHnc",
+                         "inicio":  929.25,
+                         "fin":  969.1,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-08-westcol-samulx-calificacion",
+                         "variante_de":  null,
+                         "motivo":  "humor, 69 (ciclo 10; registrado el 9-nov): veredicto del 1 al 10 de la comida de Envigado (9,5, 8, 7 y 10). Comentario de 52 likes en 15:30"
+                     },
+                     {
+                         "fuente":  "s0BJLb8qHnc",
+                         "inicio":  1178.75,
+                         "fin":  1200.7,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-08-westcol-peladitos-joseadores",
+                         "variante_de":  null,
+                         "motivo":  "emotivo, 69 (ciclo 10; registrado el 9-nov): 'A mí me caen muy bien los peladitos joseadores… no me duele dar publicidad cuando hay producto… cómprenles, apoyen'. Escuchar: confirmar que habla Westcol"
+                     },
+                     {
+                         "fuente":  "ybjXHgxGBMo",
+                         "inicio":  768.93,
+                         "fin":  814.94,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-08-westcol-reloj-fake",
+                         "variante_de":  null,
+                         "motivo":  "revelacion, 82 (ciclo 10; cortado el 9-nov): '¿para qué me voy a poner a comprar algo chiviado?… Yo tuve fake antes… lo estaba proyectando… no tengo necesidad de hacer esa película'. Escuchar: confirmar que habla Westcol (el gancho se lo atribuye)"
+                     },
+                     {
+                         "fuente":  "ybjXHgxGBMo",
+                         "inicio":  513.49,
+                         "fin":  552.06,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-08-sf5-cadenas-rey",
+                         "variante_de":  null,
+                         "motivo":  "revelacion, 81 (ciclo 10; registrado el 9-nov): siete cadenas de Alto Rango para la ganga en el camerino de Stream Fighters 5; 'si Rey no gana… se le quita esa cadena y se le da a Pan'"
+                     },
+                     {
+                         "fuente":  "ybjXHgxGBMo",
+                         "inicio":  362.53,
+                         "fin":  384.58,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-08-westcol-patek-inversion",
+                         "variante_de":  null,
+                         "motivo":  "revelacion, 76 (ciclo 10; cortado el 9-nov): 'eso es inversión… como 25.000 le gané al Patek un mesecito después… yo no lo vendo'. Escuchar: cifras de los subtítulos automáticos"
+                     },
+                     {
+                         "fuente":  "ybjXHgxGBMo",
+                         "inicio":  1045.77,
+                         "fin":  1067.9,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-08-westcol-richard-patek-carro",
+                         "variante_de":  null,
+                         "motivo":  "revelacion, 72 (ciclo 10; cortado el 9-nov): 'cuando Diego no me trajo el carro, yo compré el Richard y el Patek'. No nombrar a RR Autos; escuchar el 'Me dijo…' del medio y la palabra rota (…)"
                      }
                  ],
     "lote_2026_11_06":  "ocho-videos-usuario"

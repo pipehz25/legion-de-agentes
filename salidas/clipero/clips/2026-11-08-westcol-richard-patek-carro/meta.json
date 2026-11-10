@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-08-westcol-richard-patek-carro",
+    "url_fuente":  "https://www.youtube.com/watch?v=ybjXHgxGBMo",
+    "video_id":  "ybjXHgxGBMo",
+    "inicio":  1045.77,
+    "fin":  1067.9,
+    "inicio_hms":  "0:17:25",
+    "duracion_seg":  22.2,
+    "gancho":  "Por qué Westcol compró el Richard y el Patek",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  80,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -20.85,
+                  "entrada_tp":  -12.84,
+                  "salida_lufs":  -14.02,
+                  "salida_tp":  -6
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-08-westcol-richard-patek-carro/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-08-westcol-richard-patek-carro/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-08-westcol-richard-patek-carro/revision.jpg",
+    "creado":  "2026-11-09T21:25:49.0067130-05:00"
+}

@@ -1,0 +1,28 @@
+{
+    "id":  "2026-11-08-sf5-kevin-tobias-puerta",
+    "url_fuente":  "https://www.youtube.com/watch?v=S5v1BWnXdaI",
+    "video_id":  "S5v1BWnXdaI",
+    "inicio":  155.17,
+    "fin":  192.5,
+    "inicio_hms":  "0:02:35",
+    "duracion_seg":  37.4,
+    "gancho":  "Westcol y la excusa de Kevin Tobías",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  145,
+    "modo":  "desenfoque",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -22.03,
+                  "entrada_tp":  -13.76,
+                  "salida_lufs":  -13.89,
+                  "salida_tp":  -5.73
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-08-sf5-kevin-tobias-puerta/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-08-sf5-kevin-tobias-puerta/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-08-sf5-kevin-tobias-puerta/revision.jpg",
+    "creado":  "2026-11-08T22:57:59.3332734-05:00"
+}

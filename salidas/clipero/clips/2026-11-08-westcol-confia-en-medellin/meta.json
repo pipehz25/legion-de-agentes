@@ -1,0 +1,28 @@
+{
+    "id":  "2026-11-08-westcol-confia-en-medellin",
+    "url_fuente":  "https://www.youtube.com/watch?v=O5LzrzMAbXM",
+    "video_id":  "O5LzrzMAbXM",
+    "inicio":  24.21,
+    "fin":  62.3,
+    "inicio_hms":  "0:00:24",
+    "duracion_seg":  38.1,
+    "gancho":  "Samulx pidió seguridad y Westcol explotó",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  162,
+    "modo":  "desenfoque",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -15.48,
+                  "entrada_tp":  -2.51,
+                  "salida_lufs":  -14.09,
+                  "salida_tp":  -1.03
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-08-westcol-confia-en-medellin/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-08-westcol-confia-en-medellin/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-08-westcol-confia-en-medellin/revision.jpg",
+    "creado":  "2026-11-08T23:23:05.1205935-05:00"
+}
