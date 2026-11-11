@@ -1,0 +1,17 @@
+{
+    "ok":  true,
+    "plataforma":  "tiktok",
+    "cuenta":  "principal",
+    "clip":  "2026-11-10-samulx-burger-mermelada",
+    "simulado":  false,
+    "estado":  "procesando",
+    "id_publicacion":  "v_inbox_file~v2.7706949203527763982",
+    "url":  null,
+    "privacidad":  "borrador",
+    "duracion_seg":  46.7,
+    "avisos":  [
+
+               ],
+    "error":  null,
+    "fecha":  "2026-11-11T11:19:30-05:00"
+}

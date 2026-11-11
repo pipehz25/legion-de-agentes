@@ -1,20 +1,23 @@
 # Pendientes del Publicador
 
-Generado: 2026-11-10T20:40:00-05:00 · ciclo 5 · entrada: `salidas/clipero/clips.json` (ciclo 12 del Clipero, cerrado: 19 clips urbanos y 6 de la línea risas).
+Generado: 2026-11-11T11:30:00-05:00 · ciclo 6 · entrada: `salidas/clipero/clips.json` (ciclo 12 del Clipero, cerrado: 19 clips urbanos y 6 de la línea risas; en este ciclo no llegó ningún clip nuevo).
 
 **Cómo leer esta página**
 
-- **TikTok:** desde el 10-nov cada clip nuevo se aprueba solo y va como **borrador** a la bandeja de la cuenta que le toca (no es público hasta que lo publicas desde la app). La API solo manda el video: al publicarlo, **pega el texto de TikTok** de su sección. Hoy hay 4 en la bandeja de **Legión Urbana** (cuenta `principal`, clips 1 a 4) y 4 en la de **@legion.risas** (cuenta `risas`, clips 20 a 23). Los demás salen en los próximos ciclos, 4 al día por cuenta. Para que un clip no llegue a la bandeja: `/publicador rechazar <clip-id>:tiktok <motivo>`.
-- **Instagram y YouTube:** pendientes de aprobación. Las dos plataformas siguen sin activar y sin credenciales: aprobar ahora solo deja el envío listo para cuando se activen. Los clips de risas van en Instagram a la cuenta `principal`, porque la cuenta `risas` de Instagram está apagada.
-- **Límite de TikTok:** 5 borradores pendientes por cuenta en 24 h. Publica o descarta desde la app los 8 de hoy antes del próximo ciclo. Si siguen en la bandeja, mañana solo cabe 1 más por cuenta: en `principal` hasta las 19:42 y en `risas` hasta las 20:36.
-- **Clips subidos a mano** (`legion/03-publicador/subidos-a-mano.json`): no aparecen aquí; sus 206 entradas pendientes quedaron cerradas.
+- **TikTok:** desde el 10-nov cada clip nuevo se aprueba solo y va como **borrador** a la bandeja de la cuenta que le toca (no es público hasta que lo publicas desde la app). La API solo manda el video: al publicarlo, **pega el texto de TikTok** de su sección. En la bandeja de **Legión Urbana** (cuenta `principal`) hay 7 de estos clips: 1 a 4 (desde el 10-nov) y 5 a 7 (desde hoy). En la de **@legion.risas** (cuenta `risas`) hay 6: los clips 20 a 25. Para que un clip no llegue a la bandeja: `/publicador rechazar <clip-id>:tiktok <motivo>`.
+- **Bandeja llena en Legión Urbana:** hoy TikTok aceptó 3 clips y rechazó el cuarto (`samulx-chanty-no-cae`) con `spam_risk_too_many_pending_share`, el límite de borradores pendientes de la cuenta. No entra ninguno más hasta que **publiques o descartes desde la app** los borradores de `principal`, sobre todo los 4 del 10-nov. Quedan 12 en cola, todos con ventana hasta el 14-nov: con la bandeja vacía salen 4 al día, según el plan de la tabla. @legion.risas ya no tiene nada en cola.
+- **Borradores antiguos:** TikTok sigue dando como pendientes en la bandeja de `principal` tres clips de Blessd del 29 al 31-oct (`tregua-pirlo`, `vendedor-controles`, `ryan-castro-los-mismos`). Si siguen ahí, descártalos también; si no los ves, ignóralos.
+- **Instagram y YouTube:** pendientes de aprobación. Las dos plataformas siguen sin activar y sin credenciales: aprobar ahora solo deja el envío listo para cuando se activen. Desde este ciclo, los 6 clips de risas van en Instagram a la cuenta `risas` (apagada hasta que la crees y la autorices), nunca a la cuenta urbana `principal`.
+- **Clips subidos a mano** (`legion/03-publicador/subidos-a-mano.json`): no aparecen aquí.
 - **Derechos:** los 25 clips son `sin_verificar`: contenido de terceros sin permiso confirmado. Solo se publica con aprobación expresa (en TikTok, tu publicación desde la bandeja) y siempre con el crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
 - **Revisar antes de publicar:**
+  - `samulx-pesaje-lonche` (en la bandeja desde hoy) y `westcol-samulx-lonche-excusas` (desde el 10-nov): publícalos en TikTok en días distintos.
+  - `samulx-burger-mermelada` y `samulx-burger-espana` (en la bandeja desde hoy): no digas de quién es la marca de las hamburguesas; en `burger-espana` habla de planes, no de aperturas anunciadas.
   - `ibai-westcol-activacion` y `ibai-westcol-zapatilla`: se ve o se oye una descarga eléctrica de entrenamiento.
   - `willito-manoplas-desmayo`: no consta quién golpea.
-  - `culpa-tato-diesel` (ya en la bandeja de risas): en la imagen no se distingue cuál de los seis humoristas es Tato Devia, así que los textos no lo nombran.
-  - `cotorrisa-yordi-plancha` (ya en la bandeja de risas): el luchador del que se habla ya falleció. Los textos no lo nombran ni hablan de su cuerpo; al publicar, no añadas nada sobre él.
-  - `cotorrisa-vista-cansada`: los subtítulos dicen «letras» donde puede decir «lentes». Los textos no citan esa frase.
+  - `culpa-tato-diesel` (en la bandeja de risas): en la imagen no se distingue cuál de los seis humoristas es Tato Devia, así que los textos no lo nombran.
+  - `cotorrisa-yordi-plancha` (en la bandeja de risas): el luchador del que se habla ya falleció. Los textos no lo nombran ni hablan de su cuerpo; al publicar, no añadas nada sobre él.
+  - `cotorrisa-vista-cansada` (en la bandeja de risas desde hoy): los subtítulos dicen «letras» donde puede decir «lentes». Los textos no citan esa frase.
 
 ## Resumen
 
@@ -24,32 +27,32 @@ Generado: 2026-11-10T20:40:00-05:00 · ciclo 5 · entrada: `salidas/clipero/clip
 | 2 | `2026-11-09-ibai-westcol-ariete-puerta` | 82 | en la bandeja desde 2026-11-10 19:40 (borrador) | pendiente de aprobación | pendiente de aprobación |
 | 3 | `2026-11-09-ibai-westcol-cinta` | 80 | en la bandeja desde 2026-11-10 19:41 (borrador) | pendiente de aprobación | pendiente de aprobación |
 | 4 | `2026-11-10-westcol-samulx-lonche-excusas` | 80 | en la bandeja desde 2026-11-10 19:41 (borrador) | pendiente de aprobación | pendiente de aprobación |
-| 5 | `2026-11-10-samulx-burger-mermelada` | 79 | aprobado automáticamente; en cola (previsto 11-nov) | pendiente de aprobación | pendiente de aprobación |
-| 6 | `2026-11-10-samulx-pesaje-lonche` | 79 | aprobado automáticamente; en cola (previsto 11-nov) | pendiente de aprobación | pendiente de aprobación |
-| 7 | `2026-11-10-samulx-burger-espana` | 78 | aprobado automáticamente; en cola (previsto 11-nov) | pendiente de aprobación | pendiente de aprobación |
-| 8 | `2026-11-10-samulx-chanty-no-cae` | 78 | aprobado automáticamente; en cola (previsto 11-nov) | pendiente de aprobación | pendiente de aprobación |
+| 5 | `2026-11-10-samulx-burger-mermelada` | 79 | en la bandeja desde 2026-11-11 11:19 (borrador) | pendiente de aprobación | pendiente de aprobación |
+| 6 | `2026-11-10-samulx-pesaje-lonche` | 79 | en la bandeja desde 2026-11-11 11:20 (borrador) | pendiente de aprobación | pendiente de aprobación |
+| 7 | `2026-11-10-samulx-burger-espana` | 78 | en la bandeja desde 2026-11-11 11:20 (borrador) | pendiente de aprobación | pendiente de aprobación |
+| 8 | `2026-11-10-samulx-chanty-no-cae` | 78 | TikTok la rechazó hoy (bandeja llena); reintento previsto 12-nov | pendiente de aprobación | pendiente de aprobación |
 | 9 | `2026-11-09-ibai-westcol-activacion` | 78 | aprobado automáticamente; en cola (previsto 12-nov) | pendiente de aprobación | pendiente de aprobación |
 | 10 | `2026-11-10-samulx-pollito-rebanaditas` | 77 | aprobado automáticamente; en cola (previsto 12-nov) | pendiente de aprobación | pendiente de aprobación |
 | 11 | `2026-11-10-samulx-plan-relevos` | 76 | aprobado automáticamente; en cola (previsto 12-nov) | pendiente de aprobación | pendiente de aprobación |
-| 12 | `2026-11-10-jelty-temblando-show` | 73 | aprobado automáticamente; en cola (previsto 12-nov) | pendiente de aprobación | pendiente de aprobación |
+| 12 | `2026-11-10-jelty-temblando-show` | 73 | aprobado automáticamente; en cola (previsto 13-nov) | pendiente de aprobación | pendiente de aprobación |
 | 13 | `2026-11-09-ibai-westcol-zapatilla` | 76 | aprobado automáticamente; en cola (previsto 13-nov) | pendiente de aprobación | pendiente de aprobación |
 | 14 | `2026-11-09-ibai-westcol-burpees` | 72 | aprobado automáticamente; en cola (previsto 13-nov) | pendiente de aprobación | pendiente de aprobación |
 | 15 | `2026-11-10-samulx-pizza-con-pina` | 72 | aprobado automáticamente; en cola (previsto 13-nov) | pendiente de aprobación | pendiente de aprobación |
-| 16 | `2026-11-10-westcol-samulx-medio-pulmon` | 72 | aprobado automáticamente; en cola (previsto 13-nov) | pendiente de aprobación | pendiente de aprobación |
+| 16 | `2026-11-10-westcol-samulx-medio-pulmon` | 72 | aprobado automáticamente; en cola (previsto 14-nov) | pendiente de aprobación | pendiente de aprobación |
 | 17 | `2026-11-10-westcol-samulx-round-cuerpo` | 71 | aprobado automáticamente; en cola (previsto 14-nov) | pendiente de aprobación | pendiente de aprobación |
 | 18 | `2026-11-09-ibai-westcol-policia-colombiana` | 71 | aprobado automáticamente; en cola (previsto 14-nov) | pendiente de aprobación | pendiente de aprobación |
 | 19 | `2026-11-10-willito-manoplas-desmayo` | 69 | aprobado automáticamente; en cola (previsto 14-nov) | pendiente de aprobación | pendiente de aprobación |
 
-Línea **risas** (ventana hasta el 2026-11-17). En TikTok van a la cuenta `risas` (@legion.risas); en Instagram y YouTube, a `principal`.
+Línea **risas** (ventana hasta el 2026-11-17). En TikTok van a la cuenta `risas` (@legion.risas); en Instagram, a la cuenta `risas` (apagada); en YouTube, a `principal`.
 
-| # | Clip | Puntaje | TikTok (risas) | Instagram | YouTube |
+| # | Clip | Puntaje | TikTok (risas) | Instagram (risas) | YouTube |
 |---|---|---|---|---|---|
 | 20 | `2026-11-10-cotorrisa-yordi-tacto` | 82 | en la bandeja desde 2026-11-10 20:35 (borrador) | pendiente de aprobación | pendiente de aprobación |
 | 21 | `2026-11-10-culpa-tato-diesel` | 80 | en la bandeja desde 2026-11-10 20:35 (borrador) | pendiente de aprobación | pendiente de aprobación |
 | 22 | `2026-11-10-cotorrisa-yordi-plancha` | 78 | en la bandeja desde 2026-11-10 20:35 (borrador) | pendiente de aprobación | pendiente de aprobación |
 | 23 | `2026-11-10-culpa-ivan-senorazo` | 78 | en la bandeja desde 2026-11-10 20:36 (borrador) | pendiente de aprobación | pendiente de aprobación |
-| 24 | `2026-11-10-cotorrisa-yordi-cuenta` | 76 | aprobado automáticamente; en cola (previsto 11-nov) | pendiente de aprobación | pendiente de aprobación |
-| 25 | `2026-11-10-cotorrisa-vista-cansada` | 75 | aprobado automáticamente; en cola (previsto 11-nov) | pendiente de aprobación | pendiente de aprobación |
+| 24 | `2026-11-10-cotorrisa-yordi-cuenta` | 76 | en la bandeja desde 2026-11-11 11:21 (borrador) | pendiente de aprobación | pendiente de aprobación |
+| 25 | `2026-11-10-cotorrisa-vista-cansada` | 75 | en la bandeja desde 2026-11-11 11:22 (borrador) | pendiente de aprobación | pendiente de aprobación |
 
 ## 1. `2026-11-09-ibai-westcol-escalera-ranita`
 
@@ -246,7 +249,7 @@ Crédito: directo de Westcol, subido por juan diego mm (“WESTCOL PARCHAND0 CON
 - **Video:** [clip.mp4](../clipero/clips/2026-11-10-samulx-burger-mermelada/clip.mp4) (46,7 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-10-samulx-burger-mermelada/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=LkY43nX5guU
 - **Revisar antes de publicar:** No afirmar de quién es la marca de las hamburguesas.
 
-### TikTok · cuenta `principal` (Legión Urbana) · aprobado automáticamente; en cola (previsto 11-nov)
+### TikTok · cuenta `principal` (Legión Urbana) · en la bandeja desde 2026-11-11 11:19 (borrador)
 
 ```
 Westcol le dio a probar la de mermelada a Samulx… y esta fue su cara
@@ -293,7 +296,7 @@ Crédito: Samulx (youtube.com/@Samulx), “PROBANDO TODAS LAS HAMBURGUESAS DE WE
 - **Video:** [clip.mp4](../clipero/clips/2026-11-10-samulx-pesaje-lonche/clip.mp4) (22,6 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-10-samulx-pesaje-lonche/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=WAfZNmp2n8I
 - **Revisar antes de publicar:** “Hasta la muerte” es una forma de hablar del combate. No publicarlo el mismo día que westcol-samulx-lonche-excusas en la misma plataforma.
 
-### TikTok · cuenta `principal` (Legión Urbana) · aprobado automáticamente; en cola (previsto 11-nov)
+### TikTok · cuenta `principal` (Legión Urbana) · en la bandeja desde 2026-11-11 11:20 (borrador)
 
 ```
 Samulx ya tiene preparado lo que le dirá a Lonche en el pesaje
@@ -340,7 +343,7 @@ Crédito: directo de Westcol, subido por juan diego mm (“WESTCOL PARCHAND0 CON
 - **Video:** [clip.mp4](../clipero/clips/2026-11-10-samulx-burger-espana/clip.mp4) (35,2 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-10-samulx-burger-espana/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=LkY43nX5guU
 - **Revisar antes de publicar:** No afirmar de quién es la marca (citar sus palabras, sin “su restaurante” ni “dueño”). Habla de planes, no de aperturas anunciadas: no presentarlo como noticia de expansión.
 
-### TikTok · cuenta `principal` (Legión Urbana) · aprobado automáticamente; en cola (previsto 11-nov)
+### TikTok · cuenta `principal` (Legión Urbana) · en la bandeja desde 2026-11-11 11:20 (borrador)
 
 ```
 ¿Por qué Fuego Burger no abre fuera de Colombia? Westcol lo explica
@@ -386,7 +389,7 @@ Crédito: Samulx (youtube.com/@Samulx), “PROBANDO TODAS LAS HAMBURGUESAS DE WE
 - **Puntaje:** 78 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-14 · **Línea:** urbano · **Pieza:** original (sin variantes)
 - **Video:** [clip.mp4](../clipero/clips/2026-11-10-samulx-chanty-no-cae/clip.mp4) (52,9 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-10-samulx-chanty-no-cae/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=WAfZNmp2n8I
 
-### TikTok · cuenta `principal` (Legión Urbana) · aprobado automáticamente; en cola (previsto 11-nov)
+### TikTok · cuenta `principal` (Legión Urbana) · TikTok la rechazó el 2026-11-11 (bandeja llena); reintento previsto 12-nov
 
 ```
 “Ninguno de los cuatro va a terminar la pelea”: Samulx y la altura de Bogotá
@@ -573,7 +576,7 @@ Crédito: directo de Westcol, subido por juan diego mm (“WESTCOL PARCHAND0 CON
 - **Video:** [clip.mp4](../clipero/clips/2026-11-10-jelty-temblando-show/clip.mp4) (32,3 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-10-jelty-temblando-show/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=YwhGtvtJ1Uk
 - **Revisar antes de publicar:** Es ironía: no presentarlo como una confesión de que el directo es falso. No consta que Jelty pelee el 14.
 
-### TikTok · cuenta `principal` (Legión Urbana) · aprobado automáticamente; en cola (previsto 12-nov)
+### TikTok · cuenta `principal` (Legión Urbana) · aprobado automáticamente; en cola (previsto 13-nov)
 
 ```
 “Estoy temblando para que parezca que me esforcé”: Jelty después del boxeo
@@ -761,7 +764,7 @@ Crédito: Samulx (youtube.com/@Samulx), “PROBANDO TODAS LAS HAMBURGUESAS DE WE
 - **Video:** [clip.mp4](../clipero/clips/2026-11-10-westcol-samulx-medio-pulmon/clip.mp4) (36,1 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-10-westcol-samulx-medio-pulmon/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=WAfZNmp2n8I
 - **Revisar antes de publicar:** “Medio pulmón” es una forma de hablar, no un dato médico.
 
-### TikTok · cuenta `principal` (Legión Urbana) · aprobado automáticamente; en cola (previsto 13-nov)
+### TikTok · cuenta `principal` (Legión Urbana) · aprobado automáticamente; en cola (previsto 14-nov)
 
 ```
 Westcol a Samulx, sobre la altura de Bogotá: “cuando usted sale de entrada, ya tiene medio pulmón”
@@ -961,7 +964,7 @@ Crédito: La Cotorrisa (canal de Ricardo Pérez en YouTube), “Anecdotario 377 
 #YordiRosado #LaCotorrisa #Humor #Comedia #Podcast
 ```
 
-### Instagram · cuenta `principal` · pendiente de aprobación
+### Instagram · cuenta `risas` · pendiente de aprobación
 
 ```
 Yordi Rosado y lo que nadie te cuenta de tu primer tacto de próstata
@@ -1008,7 +1011,7 @@ Crédito: Los De La Culpa (YouTube), “Errores Memorables | Los De La Culpa - C
 #LosDeLaCulpa #Humor #ComediaColombiana #StandUp #Anecdotas
 ```
 
-### Instagram · cuenta `principal` · pendiente de aprobación
+### Instagram · cuenta `risas` · pendiente de aprobación
 
 ```
 Le prestaron un carro, le echó gasolina… y era diésel
@@ -1055,7 +1058,7 @@ Crédito: La Cotorrisa (canal de Ricardo Pérez en YouTube), “Anecdotario 377 
 #YordiRosado #LaCotorrisa #LuchaLibre #Humor #Anecdotas
 ```
 
-### Instagram · cuenta `principal` · pendiente de aprobación
+### Instagram · cuenta `risas` · pendiente de aprobación
 
 ```
 Yordi Rosado le preguntó a un luchador cómo le fue… y se lo enseñó
@@ -1102,7 +1105,7 @@ Crédito: Los De La Culpa (YouTube), “Errores Memorables | Los De La Culpa - C
 #LosDeLaCulpa #IvanMarin #JessiUribe #Humor #ComediaColombiana
 ```
 
-### Instagram · cuenta `principal` · pendiente de aprobación
+### Instagram · cuenta `risas` · pendiente de aprobación
 
 ```
 Iván Marín se encontró a Jessi Uribe… y lo saludó como a Luis Alfonso
@@ -1137,7 +1140,7 @@ Crédito: Los De La Culpa (YouTube), “Errores Memorables | Los De La Culpa - C
 - **Video:** [clip.mp4](../clipero/clips/2026-11-10-cotorrisa-yordi-cuenta/clip.mp4) (65,5 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-10-cotorrisa-yordi-cuenta/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=jUfBJ_aIA3w
 - **Revisar antes de publicar:** es una autocrítica en broma de Yordi Rosado. Los textos dejan fuera el «cabrón» de la cita de la ficha.
 
-### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola (previsto 11-nov)
+### TikTok · cuenta `risas` (@legion.risas) · en la bandeja desde 2026-11-11 11:21 (borrador)
 
 ```
 Le pagaban la cuenta en todos los restaurantes… hasta que un día no: Yordi Rosado
@@ -1149,7 +1152,7 @@ Crédito: La Cotorrisa (canal de Ricardo Pérez en YouTube), “Anecdotario 377 
 #YordiRosado #LaCotorrisa #OtroRollo #Humor #Anecdotas
 ```
 
-### Instagram · cuenta `principal` · pendiente de aprobación
+### Instagram · cuenta `risas` · pendiente de aprobación
 
 ```
 Yordi Rosado y sus 10 minutos de “subida de humo”
@@ -1184,7 +1187,7 @@ Crédito: La Cotorrisa (canal de Ricardo Pérez en YouTube), “Anecdotario 377 
 - **Video:** [clip.mp4](../clipero/clips/2026-11-10-cotorrisa-vista-cansada/clip.mp4) (62,9 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-10-cotorrisa-vista-cansada/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=jUfBJ_aIA3w
 - **Revisar antes de publicar:** hacia el segundo 33 los subtítulos dicen «letras» y puede ser «lentes» (lo avisa la ficha). Los textos no citan esa frase ni dicen que se niegue a agrandar las letras del celular. El remate del mensaje de mamá lo ponen los anfitriones.
 
-### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola (previsto 11-nov)
+### TikTok · cuenta `risas` (@legion.risas) · en la bandeja desde 2026-11-11 11:22 (borrador)
 
 ```
 “Hoy amanecí y ya no veo bien”: Yordi Rosado y la vista cansada a los 40
@@ -1196,7 +1199,7 @@ Crédito: La Cotorrisa (canal de Ricardo Pérez en YouTube), “Anecdotario 377 
 #YordiRosado #LaCotorrisa #Humor #Los40 #Comedia
 ```
 
-### Instagram · cuenta `principal` · pendiente de aprobación
+### Instagram · cuenta `risas` · pendiente de aprobación
 
 ```
 A los 40, la vista cansada llega así
