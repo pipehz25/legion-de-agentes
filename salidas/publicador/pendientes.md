@@ -1,15 +1,20 @@
 # Pendientes del Publicador
 
-Generado: 2026-11-10T19:45:09-05:00 · ciclo 4 · entrada: `salidas/clipero/clips.json` (ciclo 12 del Clipero, parte urbana).
+Generado: 2026-11-10T20:40:00-05:00 · ciclo 5 · entrada: `salidas/clipero/clips.json` (ciclo 12 del Clipero, cerrado: 19 clips urbanos y 6 de la línea risas).
 
 **Cómo leer esta página**
 
-- **TikTok:** desde el 10-nov cada clip nuevo se aprueba solo y va como **borrador** a la bandeja de la cuenta que le toca (no es público hasta que lo publicas desde la app). La API solo manda el video: al publicarlo, **pega el texto de TikTok** de su sección. Hoy se enviaron 4 a **Legión Urbana** (cuenta `principal`); los otros 15 salen en los próximos ciclos, 4 al día. Para que un clip no llegue a la bandeja: `/publicador rechazar <clip-id>:tiktok <motivo>`.
-- **Instagram y YouTube:** pendientes de aprobación. Las dos plataformas siguen sin activar y sin credenciales: aprobar ahora solo deja el envío listo para cuando se activen.
-- **Límite de TikTok:** 5 borradores pendientes por cuenta en 24 h. Publica o descarta los 4 de hoy desde la app antes del próximo ciclo; si siguen en la bandeja, mañana solo cabe 1 más hasta las 19:42.
+- **TikTok:** desde el 10-nov cada clip nuevo se aprueba solo y va como **borrador** a la bandeja de la cuenta que le toca (no es público hasta que lo publicas desde la app). La API solo manda el video: al publicarlo, **pega el texto de TikTok** de su sección. Hoy hay 4 en la bandeja de **Legión Urbana** (cuenta `principal`, clips 1 a 4) y 4 en la de **@legion.risas** (cuenta `risas`, clips 20 a 23). Los demás salen en los próximos ciclos, 4 al día por cuenta. Para que un clip no llegue a la bandeja: `/publicador rechazar <clip-id>:tiktok <motivo>`.
+- **Instagram y YouTube:** pendientes de aprobación. Las dos plataformas siguen sin activar y sin credenciales: aprobar ahora solo deja el envío listo para cuando se activen. Los clips de risas van en Instagram a la cuenta `principal`, porque la cuenta `risas` de Instagram está apagada.
+- **Límite de TikTok:** 5 borradores pendientes por cuenta en 24 h. Publica o descarta desde la app los 8 de hoy antes del próximo ciclo. Si siguen en la bandeja, mañana solo cabe 1 más por cuenta: en `principal` hasta las 19:42 y en `risas` hasta las 20:36.
 - **Clips subidos a mano** (`legion/03-publicador/subidos-a-mano.json`): no aparecen aquí; sus 206 entradas pendientes quedaron cerradas.
-- **Derechos:** los 19 clips son `sin_verificar`: contenido de terceros sin permiso confirmado. Solo se publica con aprobación expresa (en TikTok, tu publicación desde la bandeja) y siempre con el crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
-- **Revisar antes de publicar:** `ibai-westcol-activacion` y `ibai-westcol-zapatilla` (se ve o se oye una descarga eléctrica de entrenamiento) y `willito-manoplas-desmayo` (no consta quién golpea).
+- **Derechos:** los 25 clips son `sin_verificar`: contenido de terceros sin permiso confirmado. Solo se publica con aprobación expresa (en TikTok, tu publicación desde la bandeja) y siempre con el crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
+- **Revisar antes de publicar:**
+  - `ibai-westcol-activacion` y `ibai-westcol-zapatilla`: se ve o se oye una descarga eléctrica de entrenamiento.
+  - `willito-manoplas-desmayo`: no consta quién golpea.
+  - `culpa-tato-diesel` (ya en la bandeja de risas): en la imagen no se distingue cuál de los seis humoristas es Tato Devia, así que los textos no lo nombran.
+  - `cotorrisa-yordi-plancha` (ya en la bandeja de risas): el luchador del que se habla ya falleció. Los textos no lo nombran ni hablan de su cuerpo; al publicar, no añadas nada sobre él.
+  - `cotorrisa-vista-cansada`: los subtítulos dicen «letras» donde puede decir «lentes». Los textos no citan esa frase.
 
 ## Resumen
 
@@ -34,6 +39,17 @@ Generado: 2026-11-10T19:45:09-05:00 · ciclo 4 · entrada: `salidas/clipero/clip
 | 17 | `2026-11-10-westcol-samulx-round-cuerpo` | 71 | aprobado automáticamente; en cola (previsto 14-nov) | pendiente de aprobación | pendiente de aprobación |
 | 18 | `2026-11-09-ibai-westcol-policia-colombiana` | 71 | aprobado automáticamente; en cola (previsto 14-nov) | pendiente de aprobación | pendiente de aprobación |
 | 19 | `2026-11-10-willito-manoplas-desmayo` | 69 | aprobado automáticamente; en cola (previsto 14-nov) | pendiente de aprobación | pendiente de aprobación |
+
+Línea **risas** (ventana hasta el 2026-11-17). En TikTok van a la cuenta `risas` (@legion.risas); en Instagram y YouTube, a `principal`.
+
+| # | Clip | Puntaje | TikTok (risas) | Instagram | YouTube |
+|---|---|---|---|---|---|
+| 20 | `2026-11-10-cotorrisa-yordi-tacto` | 82 | en la bandeja desde 2026-11-10 20:35 (borrador) | pendiente de aprobación | pendiente de aprobación |
+| 21 | `2026-11-10-culpa-tato-diesel` | 80 | en la bandeja desde 2026-11-10 20:35 (borrador) | pendiente de aprobación | pendiente de aprobación |
+| 22 | `2026-11-10-cotorrisa-yordi-plancha` | 78 | en la bandeja desde 2026-11-10 20:35 (borrador) | pendiente de aprobación | pendiente de aprobación |
+| 23 | `2026-11-10-culpa-ivan-senorazo` | 78 | en la bandeja desde 2026-11-10 20:36 (borrador) | pendiente de aprobación | pendiente de aprobación |
+| 24 | `2026-11-10-cotorrisa-yordi-cuenta` | 76 | aprobado automáticamente; en cola (previsto 11-nov) | pendiente de aprobación | pendiente de aprobación |
+| 25 | `2026-11-10-cotorrisa-vista-cansada` | 75 | aprobado automáticamente; en cola (previsto 11-nov) | pendiente de aprobación | pendiente de aprobación |
 
 ## 1. `2026-11-09-ibai-westcol-escalera-ranita`
 
@@ -925,6 +941,288 @@ Crédito: Willito Live (YouTube), “Willito Y Jelty Boxeando En Mochis”, edic
 ```
 
 **Etiquetas:** Willito, boxeo, manoplas, entrenamiento, streamers, Los Mochis, Kick
+
+## 20. `2026-11-10-cotorrisa-yordi-tacto`
+
+- **Gancho:** Yordi Rosado y su primer tacto de próstata
+- **Puntaje:** 82 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-17 · **Línea:** risas · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-10-cotorrisa-yordi-tacto/clip.mp4) (42,5 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-10-cotorrisa-yordi-tacto/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=jUfBJ_aIA3w
+- **Revisar antes de publicar:** tema de salud. Yordi habla de su chequeo preventivo y el clip no bromea sobre el cáncer ni sobre enfermos. La cita del remate va con un solo «señorita» porque la ficha la da de las dos formas.
+
+### TikTok · cuenta `risas` (@legion.risas) · en la bandeja desde 2026-11-10 20:35 (borrador)
+
+```
+“Señorita, me estoy haciendo”: Yordi Rosado y su primer tacto de próstata
+
+¿Ya te lo hiciste o le tienes miedo?
+
+Crédito: La Cotorrisa (canal de Ricardo Pérez en YouTube), “Anecdotario 377 - Nuestro primer tacto de próstata”, con Yordi Rosado. Video original (minuto 28:16): https://youtu.be/jUfBJ_aIA3w?t=1696
+
+#YordiRosado #LaCotorrisa #Humor #Comedia #Podcast
+```
+
+### Instagram · cuenta `principal` · pendiente de aprobación
+
+```
+Yordi Rosado y lo que nadie te cuenta de tu primer tacto de próstata
+
+Invitado en La Cotorrisa, Yordi Rosado cuenta cómo fue su primer tacto de próstata, en el chequeo de los 40: “la entrada no fue nada del otro mundo… pero ahí sí te da pena”.
+
+¿Ya te lo hiciste o le tienes miedo?
+
+Crédito: La Cotorrisa (canal de Ricardo Pérez en YouTube), “Anecdotario 377 - Nuestro primer tacto de próstata”, con Yordi Rosado. Video original (minuto 28:16): https://youtu.be/jUfBJ_aIA3w?t=1696
+
+#YordiRosado #LaCotorrisa #Humor #Comedia #Podcast
+```
+
+### YouTube · cuenta `principal` · pendiente de aprobación
+
+**Título:** Yordi Rosado y su primer tacto de próstata en La Cotorrisa
+
+```
+Invitado en La Cotorrisa, Yordi Rosado cuenta cómo fue su primer tacto de próstata, en el chequeo de los 40: “la entrada no fue nada del otro mundo… pero ahí sí te da pena”.
+
+Crédito: La Cotorrisa (canal de Ricardo Pérez en YouTube), “Anecdotario 377 - Nuestro primer tacto de próstata”, con Yordi Rosado. Video original (minuto 28:16): https://youtu.be/jUfBJ_aIA3w?t=1696
+
+#YordiRosado #LaCotorrisa #Humor #Comedia #Podcast
+```
+
+**Etiquetas:** Yordi Rosado, La Cotorrisa, Ricardo Pérez, Slobotzky, tacto de próstata, chequeo a los 40, humor, comedia, podcast
+
+## 21. `2026-11-10-culpa-tato-diesel`
+
+- **Gancho:** Le echó gasolina a un carro diésel
+- **Puntaje:** 80 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-17 · **Línea:** risas · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-10-culpa-tato-diesel/clip.mp4) (51 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-10-culpa-tato-diesel/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=3BAphhKqHUw
+- **Revisar antes de publicar:** en el audio el presentador le da la palabra a Tato Devia, pero en la imagen no se distingue cuál de los seis humoristas es. Por eso los textos no lo nombran ni llevan #TatoDevia. Si al ver el clip confirmas que es él, puedes añadir su nombre al publicar. Las réplicas («mi otro carro es Levi's») son del resto del elenco.
+
+### TikTok · cuenta `risas` (@legion.risas) · en la bandeja desde 2026-11-10 20:35 (borrador)
+
+```
+Le echó gasolina a un carro diésel… y el resto de Los De La Culpa no lo deja en paz
+
+¿Tú sabías cuál le tocaba?
+
+Crédito: Los De La Culpa (YouTube), “Errores Memorables | Los De La Culpa - Capítulo 268”. Video original (minuto 8:25): https://youtu.be/3BAphhKqHUw?t=505
+
+#LosDeLaCulpa #Humor #ComediaColombiana #StandUp #Anecdotas
+```
+
+### Instagram · cuenta `principal` · pendiente de aprobación
+
+```
+Le prestaron un carro, le echó gasolina… y era diésel
+
+“Perdonen mi ignorancia”: en el capítulo de errores memorables de Los De La Culpa, uno de los humoristas cuenta que le echó gasolina a un carro diésel. El resto del elenco no lo deja en paz: “mi otro carro es Levi's”.
+
+¿Tú sabías cuál le tocaba?
+
+Crédito: Los De La Culpa (YouTube), “Errores Memorables | Los De La Culpa - Capítulo 268”. Video original (minuto 8:25): https://youtu.be/3BAphhKqHUw?t=505
+
+#LosDeLaCulpa #Humor #ComediaColombiana #StandUp #Anecdotas
+```
+
+### YouTube · cuenta `principal` · pendiente de aprobación
+
+**Título:** Le echó gasolina a un carro diésel: error memorable en Los De La Culpa
+
+```
+“Perdonen mi ignorancia”: en el capítulo de errores memorables de Los De La Culpa, uno de los humoristas cuenta que le prestaron un carro y le echó gasolina… y era diésel. El resto del elenco no lo deja en paz: “mi otro carro es Levi's”.
+
+Crédito: Los De La Culpa (YouTube), “Errores Memorables | Los De La Culpa - Capítulo 268”. Video original (minuto 8:25): https://youtu.be/3BAphhKqHUw?t=505
+
+#LosDeLaCulpa #Humor #ComediaColombiana #StandUp #Anecdotas
+```
+
+**Etiquetas:** Los De La Culpa, Errores Memorables, humor colombiano, comedia colombiana, stand up, carro diésel, anécdotas
+
+## 22. `2026-11-10-cotorrisa-yordi-plancha`
+
+- **Gancho:** Le preguntó a un luchador cómo le fue
+- **Puntaje:** 78 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-17 · **Línea:** risas · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-10-cotorrisa-yordi-plancha/clip.mp4) (74,3 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-10-cotorrisa-yordi-plancha/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=jUfBJ_aIA3w
+- **Revisar antes de publicar:** el luchador del que se habla ya falleció. Los textos no lo nombran ni hablan de su cuerpo, y el clip deja fuera los chistes sobre su peso. Al publicar no añadas su nombre ni comentarios sobre él. El «¿cómo estuvo allá arriba?» de la ficha queda fuera del corte, así que los textos citan «¿cómo la pasaste en la arena?». La broma final de un anfitrión es sobre Yordi y no se repite en los textos.
+
+### TikTok · cuenta `risas` (@legion.risas) · en la bandeja desde 2026-11-10 20:35 (borrador)
+
+```
+“¿Quieres ver cómo estuvo?”: la entrevista de Yordi Rosado en la Arena México que acabó en plancha
+
+¿Tú le habrías preguntado?
+
+Crédito: La Cotorrisa (canal de Ricardo Pérez en YouTube), “Anecdotario 377 - Nuestro primer tacto de próstata”, con Yordi Rosado. Video original (minuto 17:19): https://youtu.be/jUfBJ_aIA3w?t=1039
+
+#YordiRosado #LaCotorrisa #LuchaLibre #Humor #Anecdotas
+```
+
+### Instagram · cuenta `principal` · pendiente de aprobación
+
+```
+Yordi Rosado le preguntó a un luchador cómo le fue… y se lo enseñó
+
+De sus años de reportero en la Arena México: Yordi Rosado entrevista a un luchador recién bajado del ring, “¿cómo la pasaste en la arena?”, y la respuesta es “¿quieres ver cómo estuvo?”. Y una plancha.
+
+¿Tú le habrías preguntado?
+
+Crédito: La Cotorrisa (canal de Ricardo Pérez en YouTube), “Anecdotario 377 - Nuestro primer tacto de próstata”, con Yordi Rosado. Video original (minuto 17:19): https://youtu.be/jUfBJ_aIA3w?t=1039
+
+#YordiRosado #LaCotorrisa #LuchaLibre #Humor #Anecdotas
+```
+
+### YouTube · cuenta `principal` · pendiente de aprobación
+
+**Título:** Yordi Rosado y la plancha que recibió entrevistando en la Arena México
+
+```
+De sus años de reportero en la Arena México: Yordi Rosado entrevista a un luchador recién bajado del ring, “¿cómo la pasaste en la arena?”, y la respuesta es “¿quieres ver cómo estuvo?”. Y una plancha.
+
+Crédito: La Cotorrisa (canal de Ricardo Pérez en YouTube), “Anecdotario 377 - Nuestro primer tacto de próstata”, con Yordi Rosado. Video original (minuto 17:19): https://youtu.be/jUfBJ_aIA3w?t=1039
+
+#YordiRosado #LaCotorrisa #LuchaLibre #Humor #Anecdotas
+```
+
+**Etiquetas:** Yordi Rosado, La Cotorrisa, Ricardo Pérez, lucha libre, Arena México, anécdotas, humor, comedia
+
+## 23. `2026-11-10-culpa-ivan-senorazo`
+
+- **Gancho:** Iván Marín y su saludo a Jessi Uribe
+- **Puntaje:** 78 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-17 · **Línea:** risas · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-10-culpa-ivan-senorazo/clip.mp4) (52,8 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-10-culpa-ivan-senorazo/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=3BAphhKqHUw
+- **Revisar antes de publicar:** la broma es el despiste de Iván Marín, no Jessi Uribe, y los textos no se burlan de Jessi. Su respuesta va como lo que cuenta Iván («según cuenta»).
+
+### TikTok · cuenta `risas` (@legion.risas) · en la bandeja desde 2026-11-10 20:36 (borrador)
+
+```
+“¿Qué se dice, señorazo?”: Iván Marín saludó a Jessi Uribe con la frase de otro cantante
+
+¿A quién saludaste mal alguna vez?
+
+Crédito: Los De La Culpa (YouTube), “Errores Memorables | Los De La Culpa - Capítulo 268”. Video original (minuto 12:31): https://youtu.be/3BAphhKqHUw?t=751
+
+#LosDeLaCulpa #IvanMarin #JessiUribe #Humor #ComediaColombiana
+```
+
+### Instagram · cuenta `principal` · pendiente de aprobación
+
+```
+Iván Marín se encontró a Jessi Uribe… y lo saludó como a Luis Alfonso
+
+En una fiesta, Iván Marín se encuentra con Jessi Uribe y lo saluda con un “¿qué se dice, señorazo?”. Según cuenta en Los De La Culpa, la respuesta fue: “señorazo es Luis Alfonso”. Y quedó la foto del momento.
+
+¿A quién saludaste mal alguna vez?
+
+Crédito: Los De La Culpa (YouTube), “Errores Memorables | Los De La Culpa - Capítulo 268”. Video original (minuto 12:31): https://youtu.be/3BAphhKqHUw?t=751
+
+#LosDeLaCulpa #IvanMarin #JessiUribe #Humor #ComediaColombiana
+```
+
+### YouTube · cuenta `principal` · pendiente de aprobación
+
+**Título:** El saludo equivocado de Iván Marín a Jessi Uribe (Los De La Culpa)
+
+```
+En una fiesta, Iván Marín se encuentra con Jessi Uribe y lo saluda con un “¿qué se dice, señorazo?”. Según cuenta en Los De La Culpa, la respuesta fue: “señorazo es Luis Alfonso”. Y quedó la foto del momento.
+
+Crédito: Los De La Culpa (YouTube), “Errores Memorables | Los De La Culpa - Capítulo 268”. Video original (minuto 12:31): https://youtu.be/3BAphhKqHUw?t=751
+
+#LosDeLaCulpa #IvanMarin #JessiUribe #Humor #ComediaColombiana
+```
+
+**Etiquetas:** Iván Marín, Jessi Uribe, Luis Alfonso, Los De La Culpa, señorazo, humor colombiano, comedia colombiana, anécdotas
+
+## 24. `2026-11-10-cotorrisa-yordi-cuenta`
+
+- **Gancho:** El día que a Yordi Rosado le cobraron
+- **Puntaje:** 76 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-17 · **Línea:** risas · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-10-cotorrisa-yordi-cuenta/clip.mp4) (65,5 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-10-cotorrisa-yordi-cuenta/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=jUfBJ_aIA3w
+- **Revisar antes de publicar:** es una autocrítica en broma de Yordi Rosado. Los textos dejan fuera el «cabrón» de la cita de la ficha.
+
+### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola (previsto 11-nov)
+
+```
+Le pagaban la cuenta en todos los restaurantes… hasta que un día no: Yordi Rosado
+
+¿A ti se te hubiera subido?
+
+Crédito: La Cotorrisa (canal de Ricardo Pérez en YouTube), “Anecdotario 377 - Nuestro primer tacto de próstata”, con Yordi Rosado. Video original (minuto 6:07): https://youtu.be/jUfBJ_aIA3w?t=367
+
+#YordiRosado #LaCotorrisa #OtroRollo #Humor #Anecdotas
+```
+
+### Instagram · cuenta `principal` · pendiente de aprobación
+
+```
+Yordi Rosado y sus 10 minutos de “subida de humo”
+
+En los años de “Otro Rollo” le pagaban la cuenta en todos los restaurantes. Hasta que un día: “joven, la cuenta”. En La Cotorrisa, Yordi Rosado se ríe de su propia ofensa: “es un restaurante, tiene negocio”.
+
+¿A ti se te hubiera subido?
+
+Crédito: La Cotorrisa (canal de Ricardo Pérez en YouTube), “Anecdotario 377 - Nuestro primer tacto de próstata”, con Yordi Rosado. Video original (minuto 6:07): https://youtu.be/jUfBJ_aIA3w?t=367
+
+#YordiRosado #LaCotorrisa #OtroRollo #Humor #Anecdotas
+```
+
+### YouTube · cuenta `principal` · pendiente de aprobación
+
+**Título:** Yordi Rosado y los 10 minutos que se le subió la fama
+
+```
+En los años de “Otro Rollo” le pagaban la cuenta en todos los restaurantes. Hasta que un día: “joven, la cuenta”. En La Cotorrisa, Yordi Rosado se ríe de su propia ofensa: “es un restaurante, tiene negocio”.
+
+Crédito: La Cotorrisa (canal de Ricardo Pérez en YouTube), “Anecdotario 377 - Nuestro primer tacto de próstata”, con Yordi Rosado. Video original (minuto 6:07): https://youtu.be/jUfBJ_aIA3w?t=367
+
+#YordiRosado #LaCotorrisa #OtroRollo #Humor #Anecdotas
+```
+
+**Etiquetas:** Yordi Rosado, La Cotorrisa, Otro Rollo, Ricardo Pérez, Slobotzky, fama, anécdotas, humor
+
+## 25. `2026-11-10-cotorrisa-vista-cansada`
+
+- **Gancho:** A los 40, la vista cansada llega así
+- **Puntaje:** 75 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-17 · **Línea:** risas · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-10-cotorrisa-vista-cansada/clip.mp4) (62,9 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-10-cotorrisa-vista-cansada/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=jUfBJ_aIA3w
+- **Revisar antes de publicar:** hacia el segundo 33 los subtítulos dicen «letras» y puede ser «lentes» (lo avisa la ficha). Los textos no citan esa frase ni dicen que se niegue a agrandar las letras del celular. El remate del mensaje de mamá lo ponen los anfitriones.
+
+### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola (previsto 11-nov)
+
+```
+“Hoy amanecí y ya no veo bien”: Yordi Rosado y la vista cansada a los 40
+
+¿Qué tamaño de letra tiene tu celular?
+
+Crédito: La Cotorrisa (canal de Ricardo Pérez en YouTube), “Anecdotario 377 - Nuestro primer tacto de próstata”, con Yordi Rosado. Video original (minuto 45:07): https://youtu.be/jUfBJ_aIA3w?t=2707
+
+#YordiRosado #LaCotorrisa #Humor #Los40 #Comedia
+```
+
+### Instagram · cuenta `principal` · pendiente de aprobación
+
+```
+A los 40, la vista cansada llega así
+
+“La semana pasada perfecto y hoy amanecí y ya no veo bien”: Yordi Rosado cuenta en La Cotorrisa cómo le llegó la vista cansada. Y el remate en la mesa: el clásico mensaje de mamá, “hola, mijo, ¿cómo estás?”.
+
+¿Qué tamaño de letra tiene tu celular?
+
+Crédito: La Cotorrisa (canal de Ricardo Pérez en YouTube), “Anecdotario 377 - Nuestro primer tacto de próstata”, con Yordi Rosado. Video original (minuto 45:07): https://youtu.be/jUfBJ_aIA3w?t=2707
+
+#YordiRosado #LaCotorrisa #Humor #Los40 #Comedia
+```
+
+### YouTube · cuenta `principal` · pendiente de aprobación
+
+**Título:** Vista cansada a los 40: Yordi Rosado en La Cotorrisa
+
+```
+“La semana pasada perfecto y hoy amanecí y ya no veo bien”: Yordi Rosado cuenta en La Cotorrisa cómo le llegó la vista cansada. Y el remate en la mesa: el clásico mensaje de mamá, “hola, mijo, ¿cómo estás?”.
+
+Crédito: La Cotorrisa (canal de Ricardo Pérez en YouTube), “Anecdotario 377 - Nuestro primer tacto de próstata”, con Yordi Rosado. Video original (minuto 45:07): https://youtu.be/jUfBJ_aIA3w?t=2707
+
+#YordiRosado #LaCotorrisa #Humor #Los40 #Comedia
+```
+
+**Etiquetas:** Yordi Rosado, La Cotorrisa, vista cansada, los 40, Ricardo Pérez, Slobotzky, humor, comedia
 
 ## Comandos
 

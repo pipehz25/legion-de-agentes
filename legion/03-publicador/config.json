@@ -48,9 +48,9 @@
       "activa": false,
       "cuentas": [
         { "alias": "risas", "activa": false, "linea": "risas: clips de la línea risas (comedia, stand-up, humoristas y momentos graciosos de la política colombiana)" },
-        { "alias": "principal", "activa": true, "linea": "todo, salvo los clips de la línea risas cuando haya una cuenta de risas activa" }
+        { "alias": "principal", "activa": true, "linea": "todo menos los clips de la línea risas: esos esperan a la cuenta risas aunque esté apagada" }
       ],
-      "_cuenta_risas": "Cuenta de humor pedida por el usuario el 2026-11-10. Apagada hasta que el usuario la cree como cuenta profesional, la añada como evaluador a la app de Meta y la autorice con publicar.ps1 autorizar -Plataforma instagram -Cuenta risas.",
+      "_cuenta_risas": "Las entradas de clips risas que el ciclo del 2026-11-10 (20:40) dejo para principal en Instagram se pasan a la cuenta risas o se cierran: la linea risas nunca sale por la cuenta urbana. Cuenta de humor pedida por el usuario el 2026-11-10. Apagada hasta que el usuario la cree como cuenta profesional, la añada como evaluador a la app de Meta y la autorice con publicar.ps1 autorizar -Plataforma instagram -Cuenta risas.",
       "api": "instagram",
       "_api": "instagram: API de Instagram con inicio de sesión de Instagram (no necesita página de Facebook). facebook: API de Instagram con inicio de sesión de Facebook (cuenta vinculada a una página).",
       "compartir_en_feed": true,

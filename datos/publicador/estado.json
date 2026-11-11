@@ -1,6 +1,6 @@
 {
-    "actualizado":  "2026-11-10T19:43:57-05:00",
-    "ciclo":  4,
+    "actualizado":  "2026-11-10T20:40:00-05:00",
+    "ciclo":  5,
     "ultimo_ciclo_clipero":  12,
     "notas":  [
                   "Ciclo 1 (instrucción simular): las 63 entradas se crearon pendiente_aprobacion y sus envíos se validaron con subir -Simular. ultima_simulacion.huella es el SHA-256 del archivo de envío: si coincide, no hace falta volver a simular; si el envío cambia, toca simular de nuevo.",
@@ -39,7 +39,8 @@
                   "2026-11-02T20:30:48-05:00 Instruccion del usuario: rechazar 2026-10-31-alvarez-puga-deportacion y 2026-10-31-gomez-mont-amparo-cuentas (El usuario descarta los clips de Ines Gomez Mont: no encajan con el enfoque nuevo de contenido). Solo existian sus entradas de TikTok (en_borradores); quedan rechazado y se anaden a descartados.json, que bloquea su subida en publicar.ps1. Ambos siguen como borradores en la bandeja de TikTok: la API no puede borrarlos y el usuario debe eliminarlos desde la app. En este paso no se subio nada, no se ejecuto comprobar y no se prepararon los 10 clips del Clipero del 2026-11-01 (el usuario aun los revisa): quedan para el proximo ciclo normal.",
                   "2026-11-02T20:57:08-05:00 Ciclo parcial por encargo del orquestador: se prepararon solo los 4 clips de «Tóxico» (Lalo Ocampo; derechos autorizado: el usuario confirmó el 2-nov que tiene permiso del artista): intro-celos-aire, coro-eres-mia, celos-completo y verso-mando-la-ubi, con envíos para tiktok, instagram y youtube (12 entradas pendiente_aprobacion, porque el modo es aprobacion). No se subió ni se simuló nada y no se ejecutó comprobar. Los límites de §7 se comprobaron leyendo los envíos; ultima_simulacion queda en null y hay que simular cuando se aprueben. En verso-mando-la-ubi los textos citan \u0027Mando la ubi y espero la respuesta\u0027 en lugar de la línea dudosa de la ficha (\u0027Más que sea tóxico...\u0027). Calendario que sugiere el Clipero (TikTok y Reels 19:00-21:00, Shorts el mismo día): 3-nov intro, 4-nov coro, 5-nov celos-completo y 6-nov verso. Intro y celos-completo repiten dos líneas: conviene separarlos. Siguen sin preparar los 10 clips del Clipero del 2026-11-01, porque el usuario aún los revisa; por eso ultimo_ciclo_clipero se deja en 2. No se reescribió publicaciones.json (no hubo publicaciones reales) ni se escribió informe.",
                   "2026-11-04T21:54:47-05:00 Ciclo 3 (normal, sin instrucción; Clipero en su ciclo 8): se prepararon los 65 clips listos que faltaban (incluidos los 10 del 2026-11-01 que el usuario revisaba): 193 envíos para tiktok, instagram y youtube (chanty-freestyle-dame-hombro y chanty-blessd-anuel solo tiktok e instagram). Todos quedan pendiente_aprobacion (modo aprobacion; todos sin_verificar). Los textos salen de la ficha adaptados a cada plataforma (§8), con crédito y enlace con minuto. Donde la ficha avisaba de un riesgo de sentido se ajustó el texto (camioneta, lambo-pierde-plata, beneficios-tributarios, rolls-royce, revuelto, robots-blessd, lonche-mala-paga, tarjeta-alcancia, valdiri-divaza, talento-sin-padre, ganga-chanty, 8-anos-sin-irse, motosierra-carton) y el aviso queda en revision_pendiente de cada entrada. Vencimientos: pasan a vencido las entradas pendientes con ventana anterior a hoy (instagram y youtube de los clips de Blessd del 29-oct, y dos clips nuevos que llegaron vencidos: 2026-11-01-awooween-invitados-sorpresa y 2026-11-01-chanty-blessd-anuel). comprobar: vendedor-controles, ryan-castro-los-mismos y tregua-pirlo siguen en_borradores (SEND_TO_USER_INBOX). No se subió ni se simuló nada porque no había entradas aprobadas; ultima_simulacion queda en null en las nuevas. publicaciones.json se regenera solo con entradas publicado, procesando o en_borradores: ya no lista las 4 rechazadas (La Granja y Gómez Mont), aunque sigan en la bandeja de TikTok. Capacidad de TikTok: 4 al día (y 5 borradores pendientes como máximo): no caben todos los clips antes de su ventana; conviene que el usuario elija.",
-                  "2026-11-10T19:45:00-05:00 Ciclo 4 (normal, sin instrucción; Clipero en su ciclo 12, parte urbana). Cambios del usuario del 10-nov aplicados: (1) legion/03-publicador/subidos-a-mano.json: las 206 entradas pendiente_aprobacion eran todas de clips subidos a mano; quedan rechazado con motivo «subido a mano por el usuario». Esos clips no se envían nunca y los clips de la lista que no tenían entradas (2026-11-05 a 2026-11-08) no se preparan. (2) aprobacion_automatica_borradores: cada clip nuevo se crea aprobado en TikTok (destino borrador); Instagram y YouTube siguen pendiente_aprobacion. (3) TikTok tiene dos cuentas listas: risas (@legion.risas, solo línea risas) y principal (Legión Urbana, todo lo demás). Las entradas antiguas reciben cuenta principal y pieza = su clip. Se prepararon los 19 clips urbanos nuevos (7 de Ibai con Westcol del 9-nov y 12 de Samulx, Westcol, Jelty y Willito del 10-nov), todos originales (sin variantes), todos a la cuenta principal: 57 envíos. Subidos hoy a la bandeja de TikTok principal (4 = max_por_dia): ibai-westcol-escalera-ranita (86), ibai-westcol-ariete-puerta (82), ibai-westcol-cinta (80) y westcol-samulx-lonche-excusas (80; empate a 80 resuelto por puntaje igual: entran los dos). Plan de la cola de TikTok principal (todos vencen el 14-nov, 4 al día): 11-nov samulx-burger-mermelada, samulx-pesaje-lonche, samulx-burger-espana, samulx-chanty-no-cae; 12-nov ibai-westcol-activacion, samulx-pollito-rebanaditas, samulx-plan-relevos, jelty-temblando-show; 13-nov ibai-westcol-zapatilla, ibai-westcol-burpees, samulx-pizza-con-pina, westcol-samulx-medio-pulmon; 14-nov westcol-samulx-round-cuerpo, ibai-westcol-policia-colombiana, willito-manoplas-desmayo. Reglas de las fichas: activacion y zapatilla no el mismo día en la misma plataforma; lonche-excusas y pesaje-lonche tampoco. Límite de TikTok: 5 borradores pendientes por cuenta en 24 h. Antes de subir, comprobar los en_borradores de la cuenta y contar los subidos en las últimas 24 h que sigan en_borradores: solo caben 5 menos esos (y nunca más de max_por_dia por día natural). Los 4 de hoy se subieron entre 19:40 y 19:42: si el usuario no los publica o descarta, hasta las 19:42 del 11-nov solo cabe 1 más en principal. subidas_por_dia lleva desde hoy, además del total por plataforma, la clave plataforma@cuenta."
+                  "2026-11-10T19:45:00-05:00 Ciclo 4 (normal, sin instrucción; Clipero en su ciclo 12, parte urbana). Cambios del usuario del 10-nov aplicados: (1) legion/03-publicador/subidos-a-mano.json: las 206 entradas pendiente_aprobacion eran todas de clips subidos a mano; quedan rechazado con motivo «subido a mano por el usuario». Esos clips no se envían nunca y los clips de la lista que no tenían entradas (2026-11-05 a 2026-11-08) no se preparan. (2) aprobacion_automatica_borradores: cada clip nuevo se crea aprobado en TikTok (destino borrador); Instagram y YouTube siguen pendiente_aprobacion. (3) TikTok tiene dos cuentas listas: risas (@legion.risas, solo línea risas) y principal (Legión Urbana, todo lo demás). Las entradas antiguas reciben cuenta principal y pieza = su clip. Se prepararon los 19 clips urbanos nuevos (7 de Ibai con Westcol del 9-nov y 12 de Samulx, Westcol, Jelty y Willito del 10-nov), todos originales (sin variantes), todos a la cuenta principal: 57 envíos. Subidos hoy a la bandeja de TikTok principal (4 = max_por_dia): ibai-westcol-escalera-ranita (86), ibai-westcol-ariete-puerta (82), ibai-westcol-cinta (80) y westcol-samulx-lonche-excusas (80; empate a 80 resuelto por puntaje igual: entran los dos). Plan de la cola de TikTok principal (todos vencen el 14-nov, 4 al día): 11-nov samulx-burger-mermelada, samulx-pesaje-lonche, samulx-burger-espana, samulx-chanty-no-cae; 12-nov ibai-westcol-activacion, samulx-pollito-rebanaditas, samulx-plan-relevos, jelty-temblando-show; 13-nov ibai-westcol-zapatilla, ibai-westcol-burpees, samulx-pizza-con-pina, westcol-samulx-medio-pulmon; 14-nov westcol-samulx-round-cuerpo, ibai-westcol-policia-colombiana, willito-manoplas-desmayo. Reglas de las fichas: activacion y zapatilla no el mismo día en la misma plataforma; lonche-excusas y pesaje-lonche tampoco. Límite de TikTok: 5 borradores pendientes por cuenta en 24 h. Antes de subir, comprobar los en_borradores de la cuenta y contar los subidos en las últimas 24 h que sigan en_borradores: solo caben 5 menos esos (y nunca más de max_por_dia por día natural). Los 4 de hoy se subieron entre 19:40 y 19:42: si el usuario no los publica o descarta, hasta las 19:42 del 11-nov solo cabe 1 más en principal. subidas_por_dia lleva desde hoy, además del total por plataforma, la clave plataforma@cuenta.",
+                  "2026-11-10T20:40:00-05:00 Ciclo 5 (normal, sin instrucción; Clipero en su ciclo 12 ya cerrado). Clips nuevos: los 6 primeros de la línea risas (4 de La Cotorrisa con Yordi Rosado y 2 de Los De La Culpa, cap. 268), todos originales, sin_verificar, ventana hasta el 17-nov; los urbanos del ciclo 12 ya estaban todos preparados desde el ciclo 4. Reparto: TikTok a la cuenta risas (@legion.risas); Instagram a principal, porque la cuenta risas de Instagram está apagada y la línea de principal admite risas mientras no haya cuenta de risas activa (si el usuario activa Instagram risas antes de aprobarlas, conviene cambiar la cuenta de esos 6 envíos a risas); YouTube a principal (línea «todo»). 18 envíos validados con -Simular (todo ok). Subidos hoy a la bandeja de TikTok risas (4 = max_por_dia), por puntaje: cotorrisa-yordi-tacto (82), culpa-tato-diesel (80), cotorrisa-yordi-plancha (78) y culpa-ivan-senorazo (78); los cuatro en_borradores (SEND_TO_USER_INBOX). Quedan en cola en risas: cotorrisa-yordi-cuenta (76) y cotorrisa-vista-cansada (75). TikTok principal no subió nada (ya tenía 4 de 4 hoy); sus 15 aprobados siguen el plan del ciclo 4 (11-nov burger-mermelada, pesaje-lonche, burger-espana, chanty-no-cae; 12-nov activacion, pollito-rebanaditas, plan-relevos, jelty-temblando-show; 13-nov zapatilla, burpees, pizza-con-pina, medio-pulmon; 14-nov round-cuerpo, policia-colombiana, manoplas-desmayo). Límite de 5 borradores pendientes por cuenta en 24 h: si el usuario no publica o descarta los de hoy, en principal solo cabe 1 más hasta las 19:42 del 11-nov y en risas 1 más hasta las 20:36 del 11-nov. Textos de los risas: culpa-tato-diesel no nombra a Tato Devia (no se distingue en la imagen); cotorrisa-yordi-plancha no nombra al luchador fallecido ni habla de su cuerpo; vista-cansada no cita la frase dudosa de «letras/lentes». comprobar: los 7 en_borradores de principal siguen SEND_TO_USER_INBOX."
               ],
     "entradas":  [
                      {
@@ -261,13 +262,15 @@
                                           }
                                       ],
                          "ultima_comprobacion":  {
-                                                     "fecha":  "2026-11-10T19:35:40-05:00",
+                                                     "fecha":  "2026-11-10T20:31:12-05:00",
                                                      "estado":  "en_borradores",
                                                      "detalle":  "SEND_TO_USER_INBOX"
                                                  },
                          "cuenta":  "principal",
                          "pieza":  "2026-10-29-blessd-vendedor-controles",
-                         "gancho":  ""
+                         "gancho":  "",
+                         "comprobado":  "2026-11-10T20:31:12-05:00",
+                         "detalle_plataforma":  "SEND_TO_USER_INBOX"
                      },
                      {
                          "clip":  "2026-10-29-blessd-vendedor-controles",
@@ -956,13 +959,15 @@
                          "motivo":  "Enviado a la bandeja de TikTok por solicitud expresa del usuario.",
                          "creado":  "2026-10-29T20:49:28-05:00",
                          "ultima_comprobacion":  {
-                                                     "fecha":  "2026-11-10T19:35:41-05:00",
+                                                     "fecha":  "2026-11-10T20:31:13-05:00",
                                                      "estado":  "en_borradores",
                                                      "detalle":  "SEND_TO_USER_INBOX"
                                                  },
                          "cuenta":  "principal",
                          "pieza":  "2026-10-29-blessd-ryan-castro-los-mismos",
-                         "gancho":  ""
+                         "gancho":  "",
+                         "comprobado":  "2026-11-10T20:31:13-05:00",
+                         "detalle_plataforma":  "SEND_TO_USER_INBOX"
                      },
                      {
                          "clip":  "2026-10-29-blessd-ryan-castro-los-mismos",
@@ -2009,10 +2014,10 @@
                          "publicado":  "2026-10-29T20:54:46-05:00",
                          "motivo":  "Aprobado por el usuario el 2026-10-29T20:53:40-05:00 (solo TikTok). Subido a la bandeja de TikTok (destino borrador) el 2026-10-29T20:54:46-05:00: falta terminar la publicación desde la app y pegar el texto de pendientes.md.",
                          "creado":  "2026-10-29T20:49:43-05:00",
-                         "comprobado":  "2026-10-29T20:57:07-05:00",
+                         "comprobado":  "2026-11-10T20:31:15-05:00",
                          "detalle_plataforma":  "SEND_TO_USER_INBOX",
                          "ultima_comprobacion":  {
-                                                     "fecha":  "2026-11-10T19:35:43-05:00",
+                                                     "fecha":  "2026-11-10T20:31:15-05:00",
                                                      "estado":  "en_borradores",
                                                      "detalle":  "SEND_TO_USER_INBOX"
                                                  },
@@ -7096,10 +7101,10 @@
                          "motivo":  "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta principal (Legión Urbana) el 2026-11-10T19:40:05-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
                          "creado":  "2026-11-10T19:39:51-05:00",
                          "revision_pendiente":  "Es un entrenamiento militar, no la preparación de su pelea: no presentarlo como entrenamiento para Stream Fighters.",
-                         "comprobado":  "2026-11-10T19:42:42-05:00",
+                         "comprobado":  "2026-11-10T20:31:16-05:00",
                          "detalle_plataforma":  "SEND_TO_USER_INBOX",
                          "ultima_comprobacion":  {
-                                                     "fecha":  "2026-11-10T19:42:42-05:00",
+                                                     "fecha":  "2026-11-10T20:31:16-05:00",
                                                      "estado":  "en_borradores",
                                                      "detalle":  "SEND_TO_USER_INBOX"
                                                  }
@@ -7175,10 +7180,10 @@
                          "motivo":  "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta principal (Legión Urbana) el 2026-11-10T19:40:31-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
                          "creado":  "2026-11-10T19:39:51-05:00",
                          "revision_pendiente":  "Es un entrenamiento militar, no la preparación de su pelea. Las armas son simuladas; el clip termina al entrar.",
-                         "comprobado":  "2026-11-10T19:42:44-05:00",
+                         "comprobado":  "2026-11-10T20:31:18-05:00",
                          "detalle_plataforma":  "SEND_TO_USER_INBOX",
                          "ultima_comprobacion":  {
-                                                     "fecha":  "2026-11-10T19:42:44-05:00",
+                                                     "fecha":  "2026-11-10T20:31:18-05:00",
                                                      "estado":  "en_borradores",
                                                      "detalle":  "SEND_TO_USER_INBOX"
                                                  }
@@ -7254,10 +7259,10 @@
                          "motivo":  "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta principal (Legión Urbana) el 2026-11-10T19:41:21-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
                          "creado":  "2026-11-10T19:39:51-05:00",
                          "revision_pendiente":  "Es un entrenamiento militar, no la preparación de su pelea. Llevan el subfusil simulado colgado; no se dispara en el clip.",
-                         "comprobado":  "2026-11-10T19:42:47-05:00",
+                         "comprobado":  "2026-11-10T20:31:19-05:00",
                          "detalle_plataforma":  "SEND_TO_USER_INBOX",
                          "ultima_comprobacion":  {
-                                                     "fecha":  "2026-11-10T19:42:47-05:00",
+                                                     "fecha":  "2026-11-10T20:31:19-05:00",
                                                      "estado":  "en_borradores",
                                                      "detalle":  "SEND_TO_USER_INBOX"
                                                  }
@@ -7621,10 +7626,10 @@
                          "motivo":  "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta principal (Legión Urbana) el 2026-11-10T19:41:47-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
                          "creado":  "2026-11-10T19:39:51-05:00",
                          "revision_pendiente":  "Hablan los dos y los subtítulos no separan las voces: no atribuir las frases a uno solo. Lo de “cierra una discoteca en 50.000” es una exageración en broma. No publicarlo el mismo día que samulx-pesaje-lonche en la misma plataforma.",
-                         "comprobado":  "2026-11-10T19:43:11-05:00",
+                         "comprobado":  "2026-11-10T20:31:20-05:00",
                          "detalle_plataforma":  "SEND_TO_USER_INBOX",
                          "ultima_comprobacion":  {
-                                                     "fecha":  "2026-11-10T19:43:11-05:00",
+                                                     "fecha":  "2026-11-10T20:31:20-05:00",
                                                      "estado":  "en_borradores",
                                                      "detalle":  "SEND_TO_USER_INBOX"
                                                  }
@@ -8468,6 +8473,610 @@
                          "motivo":  "Pendiente de aprobación. La plataforma aún no está activa ni tiene credenciales: aprobarla ahora solo la deja lista para cuando se active.",
                          "creado":  "2026-11-10T19:39:51-05:00",
                          "revision_pendiente":  "VER ANTES DE PUBLICAR: confirmar quién golpea (parece Jelty, no Willito) antes de poner nombres; los textos no nombran a quien golpea. No presentarlo como el entrenamiento de Willito para su pelea (por eso va sin #StreamFighters5)."
+                     },
+                     {
+                         "clip":  "2026-11-10-cotorrisa-yordi-tacto",
+                         "plataforma":  "tiktok",
+                         "cuenta":  "risas",
+                         "pieza":  "2026-11-10-cotorrisa-yordi-tacto",
+                         "gancho":  "Yordi Rosado y su primer tacto de próstata",
+                         "linea":  "risas",
+                         "oportunidad_cazador":  null,
+                         "estado":  "en_borradores",
+                         "envio":  "datos/publicador/envios/2026-11-10-cotorrisa-yordi-tacto__tiktok.json",
+                         "puntaje":  82,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-17",
+                         "aprobado":  "2026-11-10T20:34:24-05:00",
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-10T20:34:24-05:00",
+                                                   "ok":  true,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "huella":  "34517dfcacfe4f06ce88fd6afa5855cbe09dc66184aad9ae177320f1f401d3fd"
+                                               },
+                         "id_publicacion":  "v_inbox_file~v2.7706721315809511438",
+                         "url":  null,
+                         "privacidad":  "borrador",
+                         "publicado":  "2026-11-10T20:35:09-05:00",
+                         "motivo":  "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta risas (@legion.risas) el 2026-11-10T20:35:09-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
+                         "creado":  "2026-11-10T20:34:24-05:00",
+                         "revision_pendiente":  "Tema de salud: Yordi habla de su chequeo preventivo; el clip no bromea sobre el cáncer ni sobre enfermos. La cita del remate va con un solo «señorita» (la ficha la da de las dos formas).",
+                         "comprobado":  "2026-11-10T20:36:28-05:00",
+                         "detalle_plataforma":  "SEND_TO_USER_INBOX",
+                         "ultima_comprobacion":  {
+                                                     "fecha":  "2026-11-10T20:36:28-05:00",
+                                                     "estado":  "en_borradores",
+                                                     "detalle":  "SEND_TO_USER_INBOX"
+                                                 }
+                     },
+                     {
+                         "clip":  "2026-11-10-cotorrisa-yordi-tacto",
+                         "plataforma":  "instagram",
+                         "cuenta":  "principal",
+                         "pieza":  "2026-11-10-cotorrisa-yordi-tacto",
+                         "gancho":  "Yordi Rosado y su primer tacto de próstata",
+                         "linea":  "risas",
+                         "oportunidad_cazador":  null,
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-11-10-cotorrisa-yordi-tacto__instagram.json",
+                         "puntaje":  82,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-17",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-10T20:34:24-05:00",
+                                                   "ok":  true,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "huella":  "52971c8cd3c1896cba2f12a1cc3dc110be993262b3ee8783e46186e8187ee1fd"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Pendiente de aprobación. Va a la cuenta principal porque la cuenta risas de Instagram está apagada (activa: false) y la línea de principal admite la línea risas mientras no haya cuenta de risas activa. Instagram aún no está activo ni tiene credenciales: aprobarla ahora solo la deja lista para cuando se active.",
+                         "creado":  "2026-11-10T20:34:24-05:00",
+                         "revision_pendiente":  "Tema de salud: Yordi habla de su chequeo preventivo; el clip no bromea sobre el cáncer ni sobre enfermos. La cita del remate va con un solo «señorita» (la ficha la da de las dos formas)."
+                     },
+                     {
+                         "clip":  "2026-11-10-cotorrisa-yordi-tacto",
+                         "plataforma":  "youtube",
+                         "cuenta":  "principal",
+                         "pieza":  "2026-11-10-cotorrisa-yordi-tacto",
+                         "gancho":  "Yordi Rosado y su primer tacto de próstata",
+                         "linea":  "risas",
+                         "oportunidad_cazador":  null,
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-11-10-cotorrisa-yordi-tacto__youtube.json",
+                         "puntaje":  82,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-17",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-10T20:34:24-05:00",
+                                                   "ok":  true,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "huella":  "f4fc8e7f88a32b3a00a4867000bd274540c6629fc6509e09b9a17c154123f893"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Pendiente de aprobación. YouTube solo tiene la cuenta principal (línea «todo»). La plataforma aún no está activa ni tiene credenciales: aprobarla ahora solo la deja lista para cuando se active.",
+                         "creado":  "2026-11-10T20:34:24-05:00",
+                         "revision_pendiente":  "Tema de salud: Yordi habla de su chequeo preventivo; el clip no bromea sobre el cáncer ni sobre enfermos. La cita del remate va con un solo «señorita» (la ficha la da de las dos formas)."
+                     },
+                     {
+                         "clip":  "2026-11-10-culpa-tato-diesel",
+                         "plataforma":  "tiktok",
+                         "cuenta":  "risas",
+                         "pieza":  "2026-11-10-culpa-tato-diesel",
+                         "gancho":  "Le echó gasolina a un carro diésel",
+                         "linea":  "risas",
+                         "oportunidad_cazador":  null,
+                         "estado":  "en_borradores",
+                         "envio":  "datos/publicador/envios/2026-11-10-culpa-tato-diesel__tiktok.json",
+                         "puntaje":  80,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-17",
+                         "aprobado":  "2026-11-10T20:34:24-05:00",
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-10T20:34:24-05:00",
+                                                   "ok":  true,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "huella":  "ab68bace37a20eac41d62a4dd228c5dea8ed771fb488d965bfcc4b0eca9e79ef"
+                                               },
+                         "id_publicacion":  "v_inbox_file~v2.7706721433015584781",
+                         "url":  null,
+                         "privacidad":  "borrador",
+                         "publicado":  "2026-11-10T20:35:29-05:00",
+                         "motivo":  "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta risas (@legion.risas) el 2026-11-10T20:35:29-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
+                         "creado":  "2026-11-10T20:34:24-05:00",
+                         "revision_pendiente":  "VER ANTES DE PUBLICAR: en el audio el presentador le da la palabra a Tato Devia, pero en la imagen no se distingue cuál de los seis humoristas es. Los textos no lo nombran (ni llevan #TatoDevia). Si al verlo confirmas que es él, puedes añadir su nombre al publicar. Las réplicas («mi otro carro es Levi\u0027s») son del elenco, no del que cuenta.",
+                         "comprobado":  "2026-11-10T20:36:30-05:00",
+                         "detalle_plataforma":  "SEND_TO_USER_INBOX",
+                         "ultima_comprobacion":  {
+                                                     "fecha":  "2026-11-10T20:36:30-05:00",
+                                                     "estado":  "en_borradores",
+                                                     "detalle":  "SEND_TO_USER_INBOX"
+                                                 }
+                     },
+                     {
+                         "clip":  "2026-11-10-culpa-tato-diesel",
+                         "plataforma":  "instagram",
+                         "cuenta":  "principal",
+                         "pieza":  "2026-11-10-culpa-tato-diesel",
+                         "gancho":  "Le echó gasolina a un carro diésel",
+                         "linea":  "risas",
+                         "oportunidad_cazador":  null,
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-11-10-culpa-tato-diesel__instagram.json",
+                         "puntaje":  80,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-17",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-10T20:34:24-05:00",
+                                                   "ok":  true,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "huella":  "c6d0525ee98b5f0f7f9376c4eee25c0a3a91611291359650589b9fd458a7277a"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Pendiente de aprobación. Va a la cuenta principal porque la cuenta risas de Instagram está apagada (activa: false) y la línea de principal admite la línea risas mientras no haya cuenta de risas activa. Instagram aún no está activo ni tiene credenciales: aprobarla ahora solo la deja lista para cuando se active.",
+                         "creado":  "2026-11-10T20:34:24-05:00",
+                         "revision_pendiente":  "VER ANTES DE PUBLICAR: en el audio el presentador le da la palabra a Tato Devia, pero en la imagen no se distingue cuál de los seis humoristas es. Los textos no lo nombran (ni llevan #TatoDevia). Si al verlo confirmas que es él, puedes añadir su nombre al publicar. Las réplicas («mi otro carro es Levi\u0027s») son del elenco, no del que cuenta."
+                     },
+                     {
+                         "clip":  "2026-11-10-culpa-tato-diesel",
+                         "plataforma":  "youtube",
+                         "cuenta":  "principal",
+                         "pieza":  "2026-11-10-culpa-tato-diesel",
+                         "gancho":  "Le echó gasolina a un carro diésel",
+                         "linea":  "risas",
+                         "oportunidad_cazador":  null,
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-11-10-culpa-tato-diesel__youtube.json",
+                         "puntaje":  80,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-17",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-10T20:34:24-05:00",
+                                                   "ok":  true,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "huella":  "ac20cf6f2623cbe7cad9f4ae2ca4e4f56b5815824958ffa5198b07648e4f0f94"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Pendiente de aprobación. YouTube solo tiene la cuenta principal (línea «todo»). La plataforma aún no está activa ni tiene credenciales: aprobarla ahora solo la deja lista para cuando se active.",
+                         "creado":  "2026-11-10T20:34:24-05:00",
+                         "revision_pendiente":  "VER ANTES DE PUBLICAR: en el audio el presentador le da la palabra a Tato Devia, pero en la imagen no se distingue cuál de los seis humoristas es. Los textos no lo nombran (ni llevan #TatoDevia). Si al verlo confirmas que es él, puedes añadir su nombre al publicar. Las réplicas («mi otro carro es Levi\u0027s») son del elenco, no del que cuenta."
+                     },
+                     {
+                         "clip":  "2026-11-10-cotorrisa-yordi-plancha",
+                         "plataforma":  "tiktok",
+                         "cuenta":  "risas",
+                         "pieza":  "2026-11-10-cotorrisa-yordi-plancha",
+                         "gancho":  "Le preguntó a un luchador cómo le fue",
+                         "linea":  "risas",
+                         "oportunidad_cazador":  null,
+                         "estado":  "en_borradores",
+                         "envio":  "datos/publicador/envios/2026-11-10-cotorrisa-yordi-plancha__tiktok.json",
+                         "puntaje":  78,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-17",
+                         "aprobado":  "2026-11-10T20:34:24-05:00",
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-10T20:34:24-05:00",
+                                                   "ok":  true,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "huella":  "9b13bfb373642fd526268f38699a73a2dda294c1e0e452cb577c522c1ba7749a"
+                                               },
+                         "id_publicacion":  "v_inbox_file~v2.7706721481254357006",
+                         "url":  null,
+                         "privacidad":  "borrador",
+                         "publicado":  "2026-11-10T20:35:46-05:00",
+                         "motivo":  "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta risas (@legion.risas) el 2026-11-10T20:35:46-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
+                         "creado":  "2026-11-10T20:34:24-05:00",
+                         "revision_pendiente":  "CUIDADO: el luchador (Super Porky) ya falleció. Los textos no lo nombran ni hablan de su cuerpo; el clip deja fuera los chistes sobre su peso. Al publicar no añadas su nombre ni comentarios sobre él. El «¿cómo estuvo allá arriba?» de la ficha queda fuera del corte: los textos citan «¿cómo la pasaste en la arena?». La broma final de un anfitrión («otra dimensión en la que Yordi Rosado murió…») es sobre Yordi y no se repite en los textos.",
+                         "comprobado":  "2026-11-10T20:36:58-05:00",
+                         "detalle_plataforma":  "SEND_TO_USER_INBOX",
+                         "ultima_comprobacion":  {
+                                                     "fecha":  "2026-11-10T20:36:58-05:00",
+                                                     "estado":  "en_borradores",
+                                                     "detalle":  "SEND_TO_USER_INBOX"
+                                                 }
+                     },
+                     {
+                         "clip":  "2026-11-10-cotorrisa-yordi-plancha",
+                         "plataforma":  "instagram",
+                         "cuenta":  "principal",
+                         "pieza":  "2026-11-10-cotorrisa-yordi-plancha",
+                         "gancho":  "Le preguntó a un luchador cómo le fue",
+                         "linea":  "risas",
+                         "oportunidad_cazador":  null,
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-11-10-cotorrisa-yordi-plancha__instagram.json",
+                         "puntaje":  78,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-17",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-10T20:34:24-05:00",
+                                                   "ok":  true,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "huella":  "adbe00bcca847abf3b8b5772245ea3c13a57a8808bb9398dec356b08e451fc26"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Pendiente de aprobación. Va a la cuenta principal porque la cuenta risas de Instagram está apagada (activa: false) y la línea de principal admite la línea risas mientras no haya cuenta de risas activa. Instagram aún no está activo ni tiene credenciales: aprobarla ahora solo la deja lista para cuando se active.",
+                         "creado":  "2026-11-10T20:34:24-05:00",
+                         "revision_pendiente":  "CUIDADO: el luchador (Super Porky) ya falleció. Los textos no lo nombran ni hablan de su cuerpo; el clip deja fuera los chistes sobre su peso. Al publicar no añadas su nombre ni comentarios sobre él. El «¿cómo estuvo allá arriba?» de la ficha queda fuera del corte: los textos citan «¿cómo la pasaste en la arena?». La broma final de un anfitrión («otra dimensión en la que Yordi Rosado murió…») es sobre Yordi y no se repite en los textos."
+                     },
+                     {
+                         "clip":  "2026-11-10-cotorrisa-yordi-plancha",
+                         "plataforma":  "youtube",
+                         "cuenta":  "principal",
+                         "pieza":  "2026-11-10-cotorrisa-yordi-plancha",
+                         "gancho":  "Le preguntó a un luchador cómo le fue",
+                         "linea":  "risas",
+                         "oportunidad_cazador":  null,
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-11-10-cotorrisa-yordi-plancha__youtube.json",
+                         "puntaje":  78,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-17",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-10T20:34:24-05:00",
+                                                   "ok":  true,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "huella":  "7753096194bb6ab2ff6435a9450f48afd87939c9c5d6d2867b0c60e2d4c1ac6a"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Pendiente de aprobación. YouTube solo tiene la cuenta principal (línea «todo»). La plataforma aún no está activa ni tiene credenciales: aprobarla ahora solo la deja lista para cuando se active.",
+                         "creado":  "2026-11-10T20:34:24-05:00",
+                         "revision_pendiente":  "CUIDADO: el luchador (Super Porky) ya falleció. Los textos no lo nombran ni hablan de su cuerpo; el clip deja fuera los chistes sobre su peso. Al publicar no añadas su nombre ni comentarios sobre él. El «¿cómo estuvo allá arriba?» de la ficha queda fuera del corte: los textos citan «¿cómo la pasaste en la arena?». La broma final de un anfitrión («otra dimensión en la que Yordi Rosado murió…») es sobre Yordi y no se repite en los textos."
+                     },
+                     {
+                         "clip":  "2026-11-10-culpa-ivan-senorazo",
+                         "plataforma":  "tiktok",
+                         "cuenta":  "risas",
+                         "pieza":  "2026-11-10-culpa-ivan-senorazo",
+                         "gancho":  "Iván Marín y su saludo a Jessi Uribe",
+                         "linea":  "risas",
+                         "oportunidad_cazador":  null,
+                         "estado":  "en_borradores",
+                         "envio":  "datos/publicador/envios/2026-11-10-culpa-ivan-senorazo__tiktok.json",
+                         "puntaje":  78,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-17",
+                         "aprobado":  "2026-11-10T20:34:24-05:00",
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-10T20:34:24-05:00",
+                                                   "ok":  true,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "huella":  "27832c0d4bc3e57da2cbce080c65d02e7caa4ae06a341385628d7d4fbfacadf6"
+                                               },
+                         "id_publicacion":  "v_inbox_file~v2.7706721626238257165",
+                         "url":  null,
+                         "privacidad":  "borrador",
+                         "publicado":  "2026-11-10T20:36:12-05:00",
+                         "motivo":  "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta risas (@legion.risas) el 2026-11-10T20:36:12-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
+                         "creado":  "2026-11-10T20:34:24-05:00",
+                         "revision_pendiente":  "La broma es el despiste de Iván Marín, no Jessi Uribe: los textos no se burlan de Jessi. La respuesta de Jessi va como «según cuenta» Iván.",
+                         "comprobado":  "2026-11-10T20:36:59-05:00",
+                         "detalle_plataforma":  "SEND_TO_USER_INBOX",
+                         "ultima_comprobacion":  {
+                                                     "fecha":  "2026-11-10T20:36:59-05:00",
+                                                     "estado":  "en_borradores",
+                                                     "detalle":  "SEND_TO_USER_INBOX"
+                                                 }
+                     },
+                     {
+                         "clip":  "2026-11-10-culpa-ivan-senorazo",
+                         "plataforma":  "instagram",
+                         "cuenta":  "principal",
+                         "pieza":  "2026-11-10-culpa-ivan-senorazo",
+                         "gancho":  "Iván Marín y su saludo a Jessi Uribe",
+                         "linea":  "risas",
+                         "oportunidad_cazador":  null,
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-11-10-culpa-ivan-senorazo__instagram.json",
+                         "puntaje":  78,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-17",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-10T20:34:24-05:00",
+                                                   "ok":  true,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "huella":  "88a54ce13b02f3f3de468ee32f398d3d22579d0dae56cc00175b1280bbca9da6"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Pendiente de aprobación. Va a la cuenta principal porque la cuenta risas de Instagram está apagada (activa: false) y la línea de principal admite la línea risas mientras no haya cuenta de risas activa. Instagram aún no está activo ni tiene credenciales: aprobarla ahora solo la deja lista para cuando se active.",
+                         "creado":  "2026-11-10T20:34:24-05:00",
+                         "revision_pendiente":  "La broma es el despiste de Iván Marín, no Jessi Uribe: los textos no se burlan de Jessi. La respuesta de Jessi va como «según cuenta» Iván."
+                     },
+                     {
+                         "clip":  "2026-11-10-culpa-ivan-senorazo",
+                         "plataforma":  "youtube",
+                         "cuenta":  "principal",
+                         "pieza":  "2026-11-10-culpa-ivan-senorazo",
+                         "gancho":  "Iván Marín y su saludo a Jessi Uribe",
+                         "linea":  "risas",
+                         "oportunidad_cazador":  null,
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-11-10-culpa-ivan-senorazo__youtube.json",
+                         "puntaje":  78,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-17",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-10T20:34:24-05:00",
+                                                   "ok":  true,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "huella":  "698adb3901b6bb0d9ad049bd024e2b014390e261fa0b0a8aba992d177806ae77"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Pendiente de aprobación. YouTube solo tiene la cuenta principal (línea «todo»). La plataforma aún no está activa ni tiene credenciales: aprobarla ahora solo la deja lista para cuando se active.",
+                         "creado":  "2026-11-10T20:34:24-05:00",
+                         "revision_pendiente":  "La broma es el despiste de Iván Marín, no Jessi Uribe: los textos no se burlan de Jessi. La respuesta de Jessi va como «según cuenta» Iván."
+                     },
+                     {
+                         "clip":  "2026-11-10-cotorrisa-yordi-cuenta",
+                         "plataforma":  "tiktok",
+                         "cuenta":  "risas",
+                         "pieza":  "2026-11-10-cotorrisa-yordi-cuenta",
+                         "gancho":  "El día que a Yordi Rosado le cobraron",
+                         "linea":  "risas",
+                         "oportunidad_cazador":  null,
+                         "estado":  "aprobado",
+                         "envio":  "datos/publicador/envios/2026-11-10-cotorrisa-yordi-cuenta__tiktok.json",
+                         "puntaje":  76,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-17",
+                         "aprobado":  "2026-11-10T20:34:24-05:00",
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-10T20:34:24-05:00",
+                                                   "ok":  true,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "huella":  "db0332f1bd0d64b4fb59e9b50d58c288f6f9e926d0a2a942abb8ba24b6c8d04e"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10): va como borrador a la bandeja de TikTok de la cuenta risas (@legion.risas) y no es público hasta que el usuario lo publica desde la app. En cola: la cuenta risas llegó hoy a su max_por_dia (4 de 4); previsto para el 11-nov.",
+                         "creado":  "2026-11-10T20:34:24-05:00",
+                         "revision_pendiente":  "Autocrítica en broma de Yordi Rosado. Los textos dejan fuera el «cabrón» de la cita de la ficha."
+                     },
+                     {
+                         "clip":  "2026-11-10-cotorrisa-yordi-cuenta",
+                         "plataforma":  "instagram",
+                         "cuenta":  "principal",
+                         "pieza":  "2026-11-10-cotorrisa-yordi-cuenta",
+                         "gancho":  "El día que a Yordi Rosado le cobraron",
+                         "linea":  "risas",
+                         "oportunidad_cazador":  null,
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-11-10-cotorrisa-yordi-cuenta__instagram.json",
+                         "puntaje":  76,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-17",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-10T20:34:24-05:00",
+                                                   "ok":  true,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "huella":  "656df7be098fcee198a16a59c833c34a5f3a18cf528d3c21d6525659c3fb8917"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Pendiente de aprobación. Va a la cuenta principal porque la cuenta risas de Instagram está apagada (activa: false) y la línea de principal admite la línea risas mientras no haya cuenta de risas activa. Instagram aún no está activo ni tiene credenciales: aprobarla ahora solo la deja lista para cuando se active.",
+                         "creado":  "2026-11-10T20:34:24-05:00",
+                         "revision_pendiente":  "Autocrítica en broma de Yordi Rosado. Los textos dejan fuera el «cabrón» de la cita de la ficha."
+                     },
+                     {
+                         "clip":  "2026-11-10-cotorrisa-yordi-cuenta",
+                         "plataforma":  "youtube",
+                         "cuenta":  "principal",
+                         "pieza":  "2026-11-10-cotorrisa-yordi-cuenta",
+                         "gancho":  "El día que a Yordi Rosado le cobraron",
+                         "linea":  "risas",
+                         "oportunidad_cazador":  null,
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-11-10-cotorrisa-yordi-cuenta__youtube.json",
+                         "puntaje":  76,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-17",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-10T20:34:24-05:00",
+                                                   "ok":  true,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "huella":  "58f4c4f9d08354e564fdc2e19228cbc613e9a2a9049e0a5cfdeb70fda0292a15"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Pendiente de aprobación. YouTube solo tiene la cuenta principal (línea «todo»). La plataforma aún no está activa ni tiene credenciales: aprobarla ahora solo la deja lista para cuando se active.",
+                         "creado":  "2026-11-10T20:34:24-05:00",
+                         "revision_pendiente":  "Autocrítica en broma de Yordi Rosado. Los textos dejan fuera el «cabrón» de la cita de la ficha."
+                     },
+                     {
+                         "clip":  "2026-11-10-cotorrisa-vista-cansada",
+                         "plataforma":  "tiktok",
+                         "cuenta":  "risas",
+                         "pieza":  "2026-11-10-cotorrisa-vista-cansada",
+                         "gancho":  "A los 40, la vista cansada llega así",
+                         "linea":  "risas",
+                         "oportunidad_cazador":  null,
+                         "estado":  "aprobado",
+                         "envio":  "datos/publicador/envios/2026-11-10-cotorrisa-vista-cansada__tiktok.json",
+                         "puntaje":  75,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-17",
+                         "aprobado":  "2026-11-10T20:34:24-05:00",
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-10T20:34:24-05:00",
+                                                   "ok":  true,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "huella":  "4e4f59e1555c087a39385764a3664105ddf16580719e587c3e145f2749c2ed89"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10): va como borrador a la bandeja de TikTok de la cuenta risas (@legion.risas) y no es público hasta que el usuario lo publica desde la app. En cola: la cuenta risas llegó hoy a su max_por_dia (4 de 4); previsto para el 11-nov.",
+                         "creado":  "2026-11-10T20:34:24-05:00",
+                         "revision_pendiente":  "ESCUCHAR: hacia el segundo 33 los subtítulos dicen «letras» y puede ser «lentes» (ficha, notas técnicas). Los textos no citan esa frase ni dicen que se niegue a agrandar las letras del celular. El remate del mensaje de mamá lo ponen los anfitriones."
+                     },
+                     {
+                         "clip":  "2026-11-10-cotorrisa-vista-cansada",
+                         "plataforma":  "instagram",
+                         "cuenta":  "principal",
+                         "pieza":  "2026-11-10-cotorrisa-vista-cansada",
+                         "gancho":  "A los 40, la vista cansada llega así",
+                         "linea":  "risas",
+                         "oportunidad_cazador":  null,
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-11-10-cotorrisa-vista-cansada__instagram.json",
+                         "puntaje":  75,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-17",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-10T20:34:24-05:00",
+                                                   "ok":  true,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "huella":  "76d65fb98fb449f95148948d97e1f85b49211806b59073e6333471e0c161ec94"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Pendiente de aprobación. Va a la cuenta principal porque la cuenta risas de Instagram está apagada (activa: false) y la línea de principal admite la línea risas mientras no haya cuenta de risas activa. Instagram aún no está activo ni tiene credenciales: aprobarla ahora solo la deja lista para cuando se active.",
+                         "creado":  "2026-11-10T20:34:24-05:00",
+                         "revision_pendiente":  "ESCUCHAR: hacia el segundo 33 los subtítulos dicen «letras» y puede ser «lentes» (ficha, notas técnicas). Los textos no citan esa frase ni dicen que se niegue a agrandar las letras del celular. El remate del mensaje de mamá lo ponen los anfitriones."
+                     },
+                     {
+                         "clip":  "2026-11-10-cotorrisa-vista-cansada",
+                         "plataforma":  "youtube",
+                         "cuenta":  "principal",
+                         "pieza":  "2026-11-10-cotorrisa-vista-cansada",
+                         "gancho":  "A los 40, la vista cansada llega así",
+                         "linea":  "risas",
+                         "oportunidad_cazador":  null,
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-11-10-cotorrisa-vista-cansada__youtube.json",
+                         "puntaje":  75,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-17",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-10T20:34:24-05:00",
+                                                   "ok":  true,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "huella":  "046b8a78a5e131fc11059d6e7545fc1d19393480d09b5371ad0663656d6aa28d"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Pendiente de aprobación. YouTube solo tiene la cuenta principal (línea «todo»). La plataforma aún no está activa ni tiene credenciales: aprobarla ahora solo la deja lista para cuando se active.",
+                         "creado":  "2026-11-10T20:34:24-05:00",
+                         "revision_pendiente":  "ESCUCHAR: hacia el segundo 33 los subtítulos dicen «letras» y puede ser «lentes» (ficha, notas técnicas). Los textos no citan esa frase ni dicen que se niegue a agrandar las letras del celular. El remate del mensaje de mamá lo ponen los anfitriones."
                      }
                  ],
     "subidas_por_dia":  {
@@ -8484,8 +9093,9 @@
                                                "tiktok":  5
                                            },
                             "2026-11-10":  {
-                                               "tiktok":  4,
-                                               "tiktok@principal":  4
+                                               "tiktok":  8,
+                                               "tiktok@principal":  4,
+                                               "tiktok@risas":  4
                                            }
                         }
 }
