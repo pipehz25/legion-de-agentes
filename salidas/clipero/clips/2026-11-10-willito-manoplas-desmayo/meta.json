@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-10-willito-manoplas-desmayo",
+    "url_fuente":  "https://www.youtube.com/watch?v=YwhGtvtJ1Uk",
+    "video_id":  "YwhGtvtJ1Uk",
+    "inicio":  849.33,
+    "fin":  890.94,
+    "inicio_hms":  "0:14:09",
+    "duracion_seg":  41.6,
+    "gancho":  "Combinaciones de boxeo hasta casi desmayarse",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  61,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -15.13,
+                  "entrada_tp":  -7.42,
+                  "salida_lufs":  -14,
+                  "salida_tp":  -6.3
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-10-willito-manoplas-desmayo/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-10-willito-manoplas-desmayo/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-10-willito-manoplas-desmayo/revision.jpg",
+    "creado":  "2026-11-10T15:16:25.4625096-05:00"
+}

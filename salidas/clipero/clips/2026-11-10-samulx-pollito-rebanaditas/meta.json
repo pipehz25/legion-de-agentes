@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-10-samulx-pollito-rebanaditas",
+    "url_fuente":  "https://www.youtube.com/watch?v=LkY43nX5guU",
+    "video_id":  "LkY43nX5guU",
+    "inicio":  548.57,
+    "fin":  587.94,
+    "inicio_hms":  "0:09:08",
+    "duracion_seg":  39.4,
+    "gancho":  "Samulx quiere su pollito en rebanaditas",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  131,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -19.63,
+                  "entrada_tp":  -12.53,
+                  "salida_lufs":  -13.95,
+                  "salida_tp":  -7.01
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-10-samulx-pollito-rebanaditas/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-10-samulx-pollito-rebanaditas/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-10-samulx-pollito-rebanaditas/revision.jpg",
+    "creado":  "2026-11-10T14:52:21.1988643-05:00"
+}

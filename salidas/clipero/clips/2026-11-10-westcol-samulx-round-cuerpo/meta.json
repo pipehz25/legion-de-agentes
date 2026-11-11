@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-10-westcol-samulx-round-cuerpo",
+    "url_fuente":  "https://www.youtube.com/watch?v=WAfZNmp2n8I",
+    "video_id":  "WAfZNmp2n8I",
+    "inicio":  277.41,
+    "fin":  334.5,
+    "inicio_hms":  "0:04:37",
+    "duracion_seg":  57.1,
+    "gancho":  "Round en vivo, pero sin mostrar el game plan",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  81,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -23.2,
+                  "entrada_tp":  -11.65,
+                  "salida_lufs":  -13.86,
+                  "salida_tp":  -2.5
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-10-westcol-samulx-round-cuerpo/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-10-westcol-samulx-round-cuerpo/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-10-westcol-samulx-round-cuerpo/revision.jpg",
+    "creado":  "2026-11-10T15:47:11.6675762-05:00"
+}

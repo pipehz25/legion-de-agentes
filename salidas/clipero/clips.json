@@ -1,7 +1,539 @@
 {
-    "generado":  "2026-11-09T21:35:00-05:00",
-    "ciclo":  10,
+    "generado":  "2026-11-10T16:00:00-05:00",
+    "ciclo":  12,
     "clips":  [
+                  {
+                      "id":  "2026-11-10-westcol-samulx-lonche-excusas",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  80,
+                      "gancho":  "Westcol y Samulx: Lonche ya pone excusas",
+                      "archivo":  "salidas/clipero/clips/2026-11-10-westcol-samulx-lonche-excusas/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-10-westcol-samulx-lonche-excusas/ficha.md",
+                      "duracion_seg":  54.1,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=WAfZNmp2n8I",
+                                     "canal":  "juan diego mm",
+                                     "inicio":  174.01,
+                                     "fin":  228.1
+                                 },
+                      "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-14"
+                  },
+                  {
+                      "id":  "2026-11-10-samulx-burger-mermelada",
+                      "estado":  "listo",
+                      "tipo":  "reaccion",
+                      "puntaje":  79,
+                      "gancho":  "A Samulx no le gustó la de mermelada",
+                      "archivo":  "salidas/clipero/clips/2026-11-10-samulx-burger-mermelada/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-10-samulx-burger-mermelada/ficha.md",
+                      "duracion_seg":  46.7,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=LkY43nX5guU",
+                                     "canal":  "Samulx",
+                                     "inicio":  298.37,
+                                     "fin":  345
+                                 },
+                      "oportunidad_cazador":  "formato-primera-vez-en-medellin",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-14"
+                  },
+                  {
+                      "id":  "2026-11-10-samulx-pesaje-lonche",
+                      "estado":  "listo",
+                      "tipo":  "frase",
+                      "puntaje":  79,
+                      "gancho":  "Lo que Samulx le dirá a Lonche en el pesaje",
+                      "archivo":  "salidas/clipero/clips/2026-11-10-samulx-pesaje-lonche/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-10-samulx-pesaje-lonche/ficha.md",
+                      "duracion_seg":  22.6,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=WAfZNmp2n8I",
+                                     "canal":  "juan diego mm",
+                                     "inicio":  629.73,
+                                     "fin":  652.3
+                                 },
+                      "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-14"
+                  },
+                  {
+                      "id":  "2026-11-10-samulx-burger-espana",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  78,
+                      "gancho":  "¿Fuego Burger en España? Westcol responde",
+                      "archivo":  "salidas/clipero/clips/2026-11-10-samulx-burger-espana/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-10-samulx-burger-espana/ficha.md",
+                      "duracion_seg":  35.2,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=LkY43nX5guU",
+                                     "canal":  "Samulx",
+                                     "inicio":  211.37,
+                                     "fin":  246.6
+                                 },
+                      "oportunidad_cazador":  "formato-primera-vez-en-medellin",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-14"
+                  },
+                  {
+                      "id":  "2026-11-10-samulx-chanty-no-cae",
+                      "estado":  "listo",
+                      "tipo":  "prediccion",
+                      "puntaje":  78,
+                      "gancho":  "¿Alguno de los cuatro aguanta la pelea?",
+                      "archivo":  "salidas/clipero/clips/2026-11-10-samulx-chanty-no-cae/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-10-samulx-chanty-no-cae/ficha.md",
+                      "duracion_seg":  52.9,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=WAfZNmp2n8I",
+                                     "canal":  "juan diego mm",
+                                     "inicio":  418.17,
+                                     "fin":  471.06
+                                 },
+                      "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  3,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-14"
+                  },
+                  {
+                      "id":  "2026-11-10-samulx-pollito-rebanaditas",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  77,
+                      "gancho":  "Samulx quiere su pollito en rebanaditas",
+                      "archivo":  "salidas/clipero/clips/2026-11-10-samulx-pollito-rebanaditas/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-10-samulx-pollito-rebanaditas/ficha.md",
+                      "duracion_seg":  39.4,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=LkY43nX5guU",
+                                     "canal":  "Samulx",
+                                     "inicio":  548.57,
+                                     "fin":  587.94
+                                 },
+                      "oportunidad_cazador":  "formato-primera-vez-en-medellin",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  3,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-14"
+                  },
+                  {
+                      "id":  "2026-11-10-samulx-plan-relevos",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  76,
+                      "gancho":  "El plan de Samulx con The Chanty",
+                      "archivo":  "salidas/clipero/clips/2026-11-10-samulx-plan-relevos/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-10-samulx-plan-relevos/ficha.md",
+                      "duracion_seg":  31.5,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=WAfZNmp2n8I",
+                                     "canal":  "juan diego mm",
+                                     "inicio":  561.21,
+                                     "fin":  592.66
+                                 },
+                      "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  4,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-14"
+                  },
+                  {
+                      "id":  "2026-11-10-jelty-temblando-show",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  73,
+                      "gancho":  "Jelty jura que solo finge estar cansado",
+                      "archivo":  "salidas/clipero/clips/2026-11-10-jelty-temblando-show/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-10-jelty-temblando-show/ficha.md",
+                      "duracion_seg":  32.3,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=YwhGtvtJ1Uk",
+                                     "canal":  "Willito Live",
+                                     "inicio":  1779.29,
+                                     "fin":  1811.62
+                                 },
+                      "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-14"
+                  },
+                  {
+                      "id":  "2026-11-10-samulx-pizza-con-pina",
+                      "estado":  "listo",
+                      "tipo":  "confrontacion",
+                      "puntaje":  72,
+                      "gancho":  "¿Pizza con piña? Aquí no hay acuerdo",
+                      "archivo":  "salidas/clipero/clips/2026-11-10-samulx-pizza-con-pina/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-10-samulx-pizza-con-pina/ficha.md",
+                      "duracion_seg":  37.7,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=LkY43nX5guU",
+                                     "canal":  "Samulx",
+                                     "inicio":  382.33,
+                                     "fin":  420.02
+                                 },
+                      "oportunidad_cazador":  "formato-primera-vez-en-medellin",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  4,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-14"
+                  },
+                  {
+                      "id":  "2026-11-10-westcol-samulx-medio-pulmon",
+                      "estado":  "listo",
+                      "tipo":  "consejo",
+                      "puntaje":  72,
+                      "gancho":  "Westcol avisa a Samulx: en Bogotá, medio pulmón",
+                      "archivo":  "salidas/clipero/clips/2026-11-10-westcol-samulx-medio-pulmon/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-10-westcol-samulx-medio-pulmon/ficha.md",
+                      "duracion_seg":  36.1,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=WAfZNmp2n8I",
+                                     "canal":  "juan diego mm",
+                                     "inicio":  524.93,
+                                     "fin":  560.98
+                                 },
+                      "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  5,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-14"
+                  },
+                  {
+                      "id":  "2026-11-10-westcol-samulx-round-cuerpo",
+                      "estado":  "listo",
+                      "tipo":  "reaccion",
+                      "puntaje":  71,
+                      "gancho":  "Round en vivo, pero sin mostrar el game plan",
+                      "archivo":  "salidas/clipero/clips/2026-11-10-westcol-samulx-round-cuerpo/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-10-westcol-samulx-round-cuerpo/ficha.md",
+                      "duracion_seg":  57.1,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=WAfZNmp2n8I",
+                                     "canal":  "juan diego mm",
+                                     "inicio":  277.41,
+                                     "fin":  334.5
+                                 },
+                      "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  6,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-14"
+                  },
+                  {
+                      "id":  "2026-11-10-willito-manoplas-desmayo",
+                      "estado":  "listo",
+                      "tipo":  "reaccion",
+                      "puntaje":  69,
+                      "gancho":  "Combinaciones de boxeo hasta casi desmayarse",
+                      "archivo":  "salidas/clipero/clips/2026-11-10-willito-manoplas-desmayo/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-10-willito-manoplas-desmayo/ficha.md",
+                      "duracion_seg":  41.6,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=YwhGtvtJ1Uk",
+                                     "canal":  "Willito Live",
+                                     "inicio":  849.33,
+                                     "fin":  890.94
+                                 },
+                      "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-14"
+                  },
+                  {
+                      "id":  "2026-11-09-ibai-westcol-escalera-ranita",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  86,
+                      "gancho":  "Solo uno sube: ¿Westcol o Ibai?",
+                      "archivo":  "salidas/clipero/clips/2026-11-09-ibai-westcol-escalera-ranita/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-09-ibai-westcol-escalera-ranita/ficha.md",
+                      "duracion_seg":  30.5,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=627Fvn2fEjU",
+                                     "canal":  "Ibai",
+                                     "inicio":  629.89,
+                                     "fin":  660.3
+                                 },
+                      "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-14"
+                  },
+                  {
+                      "id":  "2026-11-09-ibai-westcol-ariete-puerta",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  82,
+                      "gancho":  "Westcol e Ibai contra una puerta que no abre",
+                      "archivo":  "salidas/clipero/clips/2026-11-09-ibai-westcol-ariete-puerta/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-09-ibai-westcol-ariete-puerta/ficha.md",
+                      "duracion_seg":  40.8,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=627Fvn2fEjU",
+                                     "canal":  "Ibai",
+                                     "inicio":  243.85,
+                                     "fin":  284.58
+                                 },
+                      "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-14"
+                  },
+                  {
+                      "id":  "2026-11-09-ibai-westcol-cinta",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  80,
+                      "gancho":  "La cinta de correr contra Westcol",
+                      "archivo":  "salidas/clipero/clips/2026-11-09-ibai-westcol-cinta/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-09-ibai-westcol-cinta/ficha.md",
+                      "duracion_seg":  34.2,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=627Fvn2fEjU",
+                                     "canal":  "Ibai",
+                                     "inicio":  417.01,
+                                     "fin":  451.18
+                                 },
+                      "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  3,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-14"
+                  },
+                  {
+                      "id":  "2026-11-09-ibai-westcol-activacion",
+                      "estado":  "listo",
+                      "tipo":  "reaccion",
+                      "puntaje":  78,
+                      "gancho":  "Pidieron activación antes de la misión final",
+                      "archivo":  "salidas/clipero/clips/2026-11-09-ibai-westcol-activacion/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-09-ibai-westcol-activacion/ficha.md",
+                      "duracion_seg":  23.5,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=627Fvn2fEjU",
+                                     "canal":  "Ibai",
+                                     "inicio":  894.09,
+                                     "fin":  917.54
+                                 },
+                      "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  4,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-14"
+                  },
+                  {
+                      "id":  "2026-11-09-ibai-westcol-zapatilla",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  76,
+                      "gancho":  "Falla la entrada y Westcol paga las consecuencias",
+                      "archivo":  "salidas/clipero/clips/2026-11-09-ibai-westcol-zapatilla/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-09-ibai-westcol-zapatilla/ficha.md",
+                      "duracion_seg":  29.3,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=627Fvn2fEjU",
+                                     "canal":  "Ibai",
+                                     "inicio":  955.73,
+                                     "fin":  984.94
+                                 },
+                      "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  5,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-14"
+                  },
+                  {
+                      "id":  "2026-11-09-ibai-westcol-burpees",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  72,
+                      "gancho":  "10 burpees con chaleco antes del ariete",
+                      "archivo":  "salidas/clipero/clips/2026-11-09-ibai-westcol-burpees/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-09-ibai-westcol-burpees/ficha.md",
+                      "duracion_seg":  47.4,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=627Fvn2fEjU",
+                                     "canal":  "Ibai",
+                                     "inicio":  185.33,
+                                     "fin":  232.7
+                                 },
+                      "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  6,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-14"
+                  },
+                  {
+                      "id":  "2026-11-09-ibai-westcol-policia-colombiana",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  71,
+                      "gancho":  "Westcol: la policía colombiana lo volvió a hacer",
+                      "archivo":  "salidas/clipero/clips/2026-11-09-ibai-westcol-policia-colombiana/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-09-ibai-westcol-policia-colombiana/ficha.md",
+                      "duracion_seg":  30.4,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=627Fvn2fEjU",
+                                     "canal":  "Ibai",
+                                     "inicio":  1206.65,
+                                     "fin":  1237.34
+                                 },
+                      "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  7,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-14"
+                  },
                   {
                       "id":  "2026-11-08-sf5-no-voy-a-fallar",
                       "estado":  "listo",
@@ -18,7 +550,10 @@
                                      "fin":  53.5
                                  },
                       "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "linea":  "urbano",
                       "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -43,7 +578,10 @@
                                      "fin":  341.26
                                  },
                       "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "linea":  "urbano",
                       "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -68,7 +606,10 @@
                                      "fin":  630.78
                                  },
                       "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "linea":  "urbano",
                       "orden_en_fuente":  3,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -76,6 +617,34 @@
                                           "youtube"
                                       ],
                       "ventana_hasta":  "2026-11-14"
+                  },
+                  {
+                      "id":  "2026-11-08-westcol-reloj-fake",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  82,
+                      "gancho":  "Westcol: \u0027Yo tuve fake antes\u0027",
+                      "archivo":  "salidas/clipero/clips/2026-11-08-westcol-reloj-fake/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-08-westcol-reloj-fake/ficha.md",
+                      "duracion_seg":  46,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=ybjXHgxGBMo",
+                                     "canal":  "WestCOL",
+                                     "inicio":  768.93,
+                                     "fin":  814.94
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "urbano",
+                      "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-12"
                   },
                   {
                       "id":  "2026-11-08-westcol-trabajo-plaza",
@@ -93,282 +662,8 @@
                                      "fin":  4160.54
                                  },
                       "oportunidad_cazador":  "formato-primera-vez-en-medellin",
+                      "linea":  "urbano",
                       "orden_en_fuente":  1,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-12"
-                  },
-                  {
-                      "id":  "2026-11-08-sf5-peleas-sin-casco",
-                      "estado":  "listo",
-                      "tipo":  "frase",
-                      "puntaje":  80,
-                      "gancho":  "Westcol: las peleas con casco son aburridas",
-                      "archivo":  "salidas/clipero/clips/2026-11-08-sf5-peleas-sin-casco/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-11-08-sf5-peleas-sin-casco/ficha.md",
-                      "duracion_seg":  28.6,
-                      "fuente":  {
-                                     "url":  "https://www.youtube.com/watch?v=S5v1BWnXdaI",
-                                     "canal":  "WestCOL",
-                                     "inicio":  347.45,
-                                     "fin":  376.06
-                                 },
-                      "oportunidad_cazador":  "tema-stream-fighters-5",
-                      "orden_en_fuente":  5,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-14"
-                  },
-                  {
-                      "id":  "2026-11-08-sf5-willito-sin-relevo",
-                      "estado":  "listo",
-                      "tipo":  "revelacion",
-                      "puntaje":  80,
-                      "gancho":  "¿Willito no le dará relevo a Lonche?",
-                      "archivo":  "salidas/clipero/clips/2026-11-08-sf5-willito-sin-relevo/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-11-08-sf5-willito-sin-relevo/ficha.md",
-                      "duracion_seg":  35.3,
-                      "fuente":  {
-                                     "url":  "https://www.youtube.com/watch?v=S5v1BWnXdaI",
-                                     "canal":  "WestCOL",
-                                     "inicio":  376.25,
-                                     "fin":  411.54
-                                 },
-                      "oportunidad_cazador":  "tema-stream-fighters-5",
-                      "orden_en_fuente":  4,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-14"
-                  },
-                  {
-                      "id":  "2026-11-08-westcol-arcangel-puerto-rico",
-                      "estado":  "listo",
-                      "tipo":  "historia",
-                      "puntaje":  79,
-                      "gancho":  "Westcol y la noche que Arcángel los liquidó",
-                      "archivo":  "salidas/clipero/clips/2026-11-08-westcol-arcangel-puerto-rico/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-11-08-westcol-arcangel-puerto-rico/ficha.md",
-                      "duracion_seg":  55.8,
-                      "fuente":  {
-                                     "url":  "https://www.youtube.com/watch?v=hUC7ABCHTGw",
-                                     "canal":  "Samulx",
-                                     "inicio":  379.25,
-                                     "fin":  435.02
-                                 },
-                      "oportunidad_cazador":  "formato-primera-vez-en-medellin",
-                      "orden_en_fuente":  1,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-12"
-                  },
-                  {
-                      "id":  "2026-11-08-westcol-calatrava-recorrido",
-                      "estado":  "listo",
-                      "tipo":  "historia",
-                      "puntaje":  78,
-                      "gancho":  "Westcol vuelve al barrio donde creció",
-                      "archivo":  "salidas/clipero/clips/2026-11-08-westcol-calatrava-recorrido/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-11-08-westcol-calatrava-recorrido/ficha.md",
-                      "duracion_seg":  45,
-                      "fuente":  {
-                                     "url":  "https://www.youtube.com/watch?v=O5LzrzMAbXM",
-                                     "canal":  "WestCOL",
-                                     "inicio":  2287.13,
-                                     "fin":  2332.1
-                                 },
-                      "oportunidad_cazador":  "formato-primera-vez-en-medellin",
-                      "orden_en_fuente":  2,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-12"
-                  },
-                  {
-                      "id":  "2026-11-08-westcol-confia-en-medellin",
-                      "estado":  "listo",
-                      "tipo":  "confrontacion",
-                      "puntaje":  77,
-                      "gancho":  "Samulx pidió seguridad y Westcol explotó",
-                      "archivo":  "salidas/clipero/clips/2026-11-08-westcol-confia-en-medellin/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-11-08-westcol-confia-en-medellin/ficha.md",
-                      "duracion_seg":  38.1,
-                      "fuente":  {
-                                     "url":  "https://www.youtube.com/watch?v=O5LzrzMAbXM",
-                                     "canal":  "WestCOL",
-                                     "inicio":  24.21,
-                                     "fin":  62.3
-                                 },
-                      "oportunidad_cazador":  "formato-primera-vez-en-medellin",
-                      "orden_en_fuente":  3,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-12"
-                  },
-                  {
-                      "id":  "2026-11-08-westcol-restaurante-gratis",
-                      "estado":  "listo",
-                      "tipo":  "revelacion",
-                      "puntaje":  77,
-                      "gancho":  "El restaurante gratis que quiere montar Westcol",
-                      "archivo":  "salidas/clipero/clips/2026-11-08-westcol-restaurante-gratis/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-11-08-westcol-restaurante-gratis/ficha.md",
-                      "duracion_seg":  54.1,
-                      "fuente":  {
-                                     "url":  "https://www.youtube.com/watch?v=O5LzrzMAbXM",
-                                     "canal":  "WestCOL",
-                                     "inicio":  1595.45,
-                                     "fin":  1649.58
-                                 },
-                      "oportunidad_cazador":  "formato-primera-vez-en-medellin",
-                      "orden_en_fuente":  4,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-12"
-                  },
-                  {
-                      "id":  "2026-11-08-sf5-produccion-win-sports",
-                      "estado":  "listo",
-                      "tipo":  "revelacion",
-                      "puntaje":  74,
-                      "gancho":  "Stream Fighters 5 con producción de Win Sports",
-                      "archivo":  "salidas/clipero/clips/2026-11-08-sf5-produccion-win-sports/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-11-08-sf5-produccion-win-sports/ficha.md",
-                      "duracion_seg":  24.9,
-                      "fuente":  {
-                                     "url":  "https://www.youtube.com/watch?v=S5v1BWnXdaI",
-                                     "canal":  "WestCOL",
-                                     "inicio":  101.77,
-                                     "fin":  126.62
-                                 },
-                      "oportunidad_cazador":  "tema-stream-fighters-5",
-                      "orden_en_fuente":  6,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-14"
-                  },
-                  {
-                      "id":  "2026-11-08-westcol-pony-uribe",
-                      "estado":  "listo",
-                      "tipo":  "humor",
-                      "puntaje":  73,
-                      "gancho":  "Westcol: \u0027Álvaro Uribe me regaló un pony\u0027",
-                      "archivo":  "salidas/clipero/clips/2026-11-08-westcol-pony-uribe/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-11-08-westcol-pony-uribe/ficha.md",
-                      "duracion_seg":  42,
-                      "fuente":  {
-                                     "url":  "https://www.youtube.com/watch?v=O5LzrzMAbXM",
-                                     "canal":  "WestCOL",
-                                     "inicio":  556.69,
-                                     "fin":  598.7
-                                 },
-                      "oportunidad_cazador":  "formato-primera-vez-en-medellin",
-                      "orden_en_fuente":  5,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-12"
-                  },
-                  {
-                      "id":  "2026-11-08-sf5-divaza-polemica",
-                      "estado":  "listo",
-                      "tipo":  "prediccion",
-                      "puntaje":  72,
-                      "gancho":  "¿Valdiri vs. La Divaza, la más polémica?",
-                      "archivo":  "salidas/clipero/clips/2026-11-08-sf5-divaza-polemica/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-11-08-sf5-divaza-polemica/ficha.md",
-                      "duracion_seg":  62.6,
-                      "fuente":  {
-                                     "url":  "https://www.youtube.com/watch?v=S5v1BWnXdaI",
-                                     "canal":  "WestCOL",
-                                     "inicio":  440.61,
-                                     "fin":  503.22
-                                 },
-                      "oportunidad_cazador":  "tema-stream-fighters-5",
-                      "orden_en_fuente":  7,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-14"
-                  },
-                  {
-                      "id":  "2026-11-08-sf5-kevin-tobias-puerta",
-                      "estado":  "listo",
-                      "tipo":  "humor",
-                      "puntaje":  70,
-                      "gancho":  "Westcol y la excusa de Kevin Tobías",
-                      "archivo":  "salidas/clipero/clips/2026-11-08-sf5-kevin-tobias-puerta/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-11-08-sf5-kevin-tobias-puerta/ficha.md",
-                      "duracion_seg":  37.4,
-                      "fuente":  {
-                                     "url":  "https://www.youtube.com/watch?v=S5v1BWnXdaI",
-                                     "canal":  "WestCOL",
-                                     "inicio":  155.17,
-                                     "fin":  192.5
-                                 },
-                      "oportunidad_cazador":  "tema-stream-fighters-5",
-                      "orden_en_fuente":  8,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-14"
-                  },
-                  {
-                      "id":  "2026-11-08-westcol-reloj-fake",
-                      "estado":  "listo",
-                      "tipo":  "revelacion",
-                      "puntaje":  82,
-                      "gancho":  "Westcol: 'Yo tuve fake antes'",
-                      "archivo":  "salidas/clipero/clips/2026-11-08-westcol-reloj-fake/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-11-08-westcol-reloj-fake/ficha.md",
-                      "duracion_seg":  46,
-                      "fuente":  {
-                                     "url":  "https://www.youtube.com/watch?v=ybjXHgxGBMo",
-                                     "canal":  "WestCOL",
-                                     "inicio":  768.93,
-                                     "fin":  814.94
-                                 },
-                      "oportunidad_cazador":  null,
-                      "orden_en_fuente":  2,
                       "variante_de":  null,
                       "diferencia":  "",
                       "derechos":  "sin_verificar",
@@ -395,6 +690,7 @@
                                      "fin":  552.06
                                  },
                       "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "linea":  "urbano",
                       "orden_en_fuente":  1,
                       "variante_de":  null,
                       "diferencia":  "",
@@ -405,6 +701,174 @@
                                           "youtube"
                                       ],
                       "ventana_hasta":  "2026-11-14"
+                  },
+                  {
+                      "id":  "2026-11-08-sf5-peleas-sin-casco",
+                      "estado":  "listo",
+                      "tipo":  "frase",
+                      "puntaje":  80,
+                      "gancho":  "Westcol: las peleas con casco son aburridas",
+                      "archivo":  "salidas/clipero/clips/2026-11-08-sf5-peleas-sin-casco/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-08-sf5-peleas-sin-casco/ficha.md",
+                      "duracion_seg":  28.6,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=S5v1BWnXdaI",
+                                     "canal":  "WestCOL",
+                                     "inicio":  347.45,
+                                     "fin":  376.06
+                                 },
+                      "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  5,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-14"
+                  },
+                  {
+                      "id":  "2026-11-08-sf5-willito-sin-relevo",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  80,
+                      "gancho":  "¿Willito no le dará relevo a Lonche?",
+                      "archivo":  "salidas/clipero/clips/2026-11-08-sf5-willito-sin-relevo/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-08-sf5-willito-sin-relevo/ficha.md",
+                      "duracion_seg":  35.3,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=S5v1BWnXdaI",
+                                     "canal":  "WestCOL",
+                                     "inicio":  376.25,
+                                     "fin":  411.54
+                                 },
+                      "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  4,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-14"
+                  },
+                  {
+                      "id":  "2026-11-08-westcol-arcangel-puerto-rico",
+                      "estado":  "listo",
+                      "tipo":  "historia",
+                      "puntaje":  79,
+                      "gancho":  "Westcol y la noche que Arcángel los liquidó",
+                      "archivo":  "salidas/clipero/clips/2026-11-08-westcol-arcangel-puerto-rico/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-08-westcol-arcangel-puerto-rico/ficha.md",
+                      "duracion_seg":  55.8,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=hUC7ABCHTGw",
+                                     "canal":  "Samulx",
+                                     "inicio":  379.25,
+                                     "fin":  435.02
+                                 },
+                      "oportunidad_cazador":  "formato-primera-vez-en-medellin",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-12"
+                  },
+                  {
+                      "id":  "2026-11-08-westcol-calatrava-recorrido",
+                      "estado":  "listo",
+                      "tipo":  "historia",
+                      "puntaje":  78,
+                      "gancho":  "Westcol vuelve al barrio donde creció",
+                      "archivo":  "salidas/clipero/clips/2026-11-08-westcol-calatrava-recorrido/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-08-westcol-calatrava-recorrido/ficha.md",
+                      "duracion_seg":  45,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=O5LzrzMAbXM",
+                                     "canal":  "WestCOL",
+                                     "inicio":  2287.13,
+                                     "fin":  2332.1
+                                 },
+                      "oportunidad_cazador":  "formato-primera-vez-en-medellin",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-12"
+                  },
+                  {
+                      "id":  "2026-11-08-westcol-confia-en-medellin",
+                      "estado":  "listo",
+                      "tipo":  "confrontacion",
+                      "puntaje":  77,
+                      "gancho":  "Samulx pidió seguridad y Westcol explotó",
+                      "archivo":  "salidas/clipero/clips/2026-11-08-westcol-confia-en-medellin/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-08-westcol-confia-en-medellin/ficha.md",
+                      "duracion_seg":  38.1,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=O5LzrzMAbXM",
+                                     "canal":  "WestCOL",
+                                     "inicio":  24.21,
+                                     "fin":  62.3
+                                 },
+                      "oportunidad_cazador":  "formato-primera-vez-en-medellin",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  3,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-12"
+                  },
+                  {
+                      "id":  "2026-11-08-westcol-restaurante-gratis",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  77,
+                      "gancho":  "El restaurante gratis que quiere montar Westcol",
+                      "archivo":  "salidas/clipero/clips/2026-11-08-westcol-restaurante-gratis/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-08-westcol-restaurante-gratis/ficha.md",
+                      "duracion_seg":  54.1,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=O5LzrzMAbXM",
+                                     "canal":  "WestCOL",
+                                     "inicio":  1595.45,
+                                     "fin":  1649.58
+                                 },
+                      "oportunidad_cazador":  "formato-primera-vez-en-medellin",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  4,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-12"
                   },
                   {
                       "id":  "2026-11-08-westcol-patek-inversion",
@@ -422,6 +886,7 @@
                                      "fin":  384.58
                                  },
                       "oportunidad_cazador":  null,
+                      "linea":  "urbano",
                       "orden_en_fuente":  3,
                       "variante_de":  null,
                       "diferencia":  "",
@@ -432,6 +897,34 @@
                                           "youtube"
                                       ],
                       "ventana_hasta":  "2026-11-12"
+                  },
+                  {
+                      "id":  "2026-11-08-sf5-produccion-win-sports",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  74,
+                      "gancho":  "Stream Fighters 5 con producción de Win Sports",
+                      "archivo":  "salidas/clipero/clips/2026-11-08-sf5-produccion-win-sports/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-08-sf5-produccion-win-sports/ficha.md",
+                      "duracion_seg":  24.9,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=S5v1BWnXdaI",
+                                     "canal":  "WestCOL",
+                                     "inicio":  101.77,
+                                     "fin":  126.62
+                                 },
+                      "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  6,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-14"
                   },
                   {
                       "id":  "2026-11-08-westcol-nueve-colegios",
@@ -449,6 +942,7 @@
                                      "fin":  3105.94
                                  },
                       "oportunidad_cazador":  "formato-primera-vez-en-medellin",
+                      "linea":  "urbano",
                       "orden_en_fuente":  6,
                       "variante_de":  null,
                       "diferencia":  "",
@@ -459,6 +953,62 @@
                                           "youtube"
                                       ],
                       "ventana_hasta":  "2026-11-12"
+                  },
+                  {
+                      "id":  "2026-11-08-westcol-pony-uribe",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  73,
+                      "gancho":  "Westcol: \u0027Álvaro Uribe me regaló un pony\u0027",
+                      "archivo":  "salidas/clipero/clips/2026-11-08-westcol-pony-uribe/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-08-westcol-pony-uribe/ficha.md",
+                      "duracion_seg":  42,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=O5LzrzMAbXM",
+                                     "canal":  "WestCOL",
+                                     "inicio":  556.69,
+                                     "fin":  598.7
+                                 },
+                      "oportunidad_cazador":  "formato-primera-vez-en-medellin",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  5,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-12"
+                  },
+                  {
+                      "id":  "2026-11-08-sf5-divaza-polemica",
+                      "estado":  "listo",
+                      "tipo":  "prediccion",
+                      "puntaje":  72,
+                      "gancho":  "¿Valdiri vs. La Divaza, la más polémica?",
+                      "archivo":  "salidas/clipero/clips/2026-11-08-sf5-divaza-polemica/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-08-sf5-divaza-polemica/ficha.md",
+                      "duracion_seg":  62.6,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=S5v1BWnXdaI",
+                                     "canal":  "WestCOL",
+                                     "inicio":  440.61,
+                                     "fin":  503.22
+                                 },
+                      "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  7,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-14"
                   },
                   {
                       "id":  "2026-11-08-westcol-richard-patek-carro",
@@ -476,6 +1026,7 @@
                                      "fin":  1067.9
                                  },
                       "oportunidad_cazador":  null,
+                      "linea":  "urbano",
                       "orden_en_fuente":  4,
                       "variante_de":  null,
                       "diferencia":  "",
@@ -486,6 +1037,62 @@
                                           "youtube"
                                       ],
                       "ventana_hasta":  "2026-11-12"
+                  },
+                  {
+                      "id":  "2026-11-08-sf5-kevin-tobias-puerta",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  70,
+                      "gancho":  "Westcol y la excusa de Kevin Tobías",
+                      "archivo":  "salidas/clipero/clips/2026-11-08-sf5-kevin-tobias-puerta/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-08-sf5-kevin-tobias-puerta/ficha.md",
+                      "duracion_seg":  37.4,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=S5v1BWnXdaI",
+                                     "canal":  "WestCOL",
+                                     "inicio":  155.17,
+                                     "fin":  192.5
+                                 },
+                      "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  8,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-14"
+                  },
+                  {
+                      "id":  "2026-11-08-westcol-peladitos-joseadores",
+                      "estado":  "listo",
+                      "tipo":  "emotivo",
+                      "puntaje":  69,
+                      "gancho":  "Westcol y Samulx: \u0027cómprenles, apoyen\u0027",
+                      "archivo":  "salidas/clipero/clips/2026-11-08-westcol-peladitos-joseadores/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-08-westcol-peladitos-joseadores/ficha.md",
+                      "duracion_seg":  22,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=s0BJLb8qHnc",
+                                     "canal":  "Samulx",
+                                     "inicio":  1178.75,
+                                     "fin":  1200.7
+                                 },
+                      "oportunidad_cazador":  "formato-primera-vez-en-medellin",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-11"
                   },
                   {
                       "id":  "2026-11-08-westcol-samulx-calificacion",
@@ -503,6 +1110,7 @@
                                      "fin":  969.1
                                  },
                       "oportunidad_cazador":  "formato-primera-vez-en-medellin",
+                      "linea":  "urbano",
                       "orden_en_fuente":  1,
                       "variante_de":  null,
                       "diferencia":  "",
@@ -513,33 +1121,6 @@
                                           "youtube"
                                       ],
                       "ventana_hasta":  "2026-11-10"
-                  },
-                  {
-                      "id":  "2026-11-08-westcol-peladitos-joseadores",
-                      "estado":  "listo",
-                      "tipo":  "emotivo",
-                      "puntaje":  69,
-                      "gancho":  "Westcol y Samulx: 'cómprenles, apoyen'",
-                      "archivo":  "salidas/clipero/clips/2026-11-08-westcol-peladitos-joseadores/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-11-08-westcol-peladitos-joseadores/ficha.md",
-                      "duracion_seg":  22,
-                      "fuente":  {
-                                     "url":  "https://www.youtube.com/watch?v=s0BJLb8qHnc",
-                                     "canal":  "Samulx",
-                                     "inicio":  1178.75,
-                                     "fin":  1200.7
-                                 },
-                      "oportunidad_cazador":  "formato-primera-vez-en-medellin",
-                      "orden_en_fuente":  2,
-                      "variante_de":  null,
-                      "diferencia":  "",
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-11"
                   },
                   {
                       "id":  "2026-11-06-ed138-foto-diez-anos",
@@ -557,7 +1138,10 @@
                                      "fin":  495.98
                                  },
                       "oportunidad_cazador":  null,
+                      "linea":  "urbano",
                       "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -582,7 +1166,10 @@
                                      "fin":  954.66
                                  },
                       "oportunidad_cazador":  null,
+                      "linea":  "urbano",
                       "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -607,7 +1194,10 @@
                                      "fin":  54.54
                                  },
                       "oportunidad_cazador":  null,
+                      "linea":  "urbano",
                       "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -632,32 +1222,10 @@
                                      "fin":  717.44
                                  },
                       "oportunidad_cazador":  null,
+                      "linea":  "urbano",
                       "orden_en_fuente":  2,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-13"
-                  },
-                  {
-                      "id":  "2026-11-06-pluton-condicion-planeta",
-                      "estado":  "listo",
-                      "tipo":  "revelacion",
-                      "puntaje":  76,
-                      "gancho":  "La condición que Plutón no cumple",
-                      "archivo":  "salidas/clipero/clips/2026-11-06-pluton-condicion-planeta/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-11-06-pluton-condicion-planeta/ficha.md",
-                      "duracion_seg":  39.3,
-                      "fuente":  {
-                                     "url":  "https://www.youtube.com/watch?v=3fq4h4ae0YY",
-                                     "canal":  "CurioSismo",
-                                     "inicio":  672.61,
-                                     "fin":  711.86
-                                 },
-                      "oportunidad_cazador":  null,
-                      "orden_en_fuente":  3,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -682,7 +1250,38 @@
                                      "fin":  501.96
                                  },
                       "oportunidad_cazador":  null,
+                      "linea":  "urbano",
                       "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-12-06"
+                  },
+                  {
+                      "id":  "2026-11-06-madre-importante-indispensable",
+                      "estado":  "listo",
+                      "tipo":  "emotivo",
+                      "puntaje":  76,
+                      "gancho":  "Importante sin tener que ser indispensable",
+                      "archivo":  "salidas/clipero/clips/2026-11-06-madre-importante-indispensable/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-06-madre-importante-indispensable/ficha.md",
+                      "duracion_seg":  45.8,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=sT914Tbv2_s",
+                                     "canal":  "Momentos de la Mente",
+                                     "inicio":  956.15,
+                                     "fin":  1001.96
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "urbano",
+                      "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -707,7 +1306,10 @@
                                      "fin":  498.96
                                  },
                       "oportunidad_cazador":  null,
+                      "linea":  "urbano",
                       "orden_en_fuente":  3,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -717,29 +1319,32 @@
                       "ventana_hasta":  "2026-11-13"
                   },
                   {
-                      "id":  "2026-11-06-madre-importante-indispensable",
+                      "id":  "2026-11-06-pluton-condicion-planeta",
                       "estado":  "listo",
-                      "tipo":  "emotivo",
+                      "tipo":  "revelacion",
                       "puntaje":  76,
-                      "gancho":  "Importante sin tener que ser indispensable",
-                      "archivo":  "salidas/clipero/clips/2026-11-06-madre-importante-indispensable/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-11-06-madre-importante-indispensable/ficha.md",
-                      "duracion_seg":  45.8,
+                      "gancho":  "La condición que Plutón no cumple",
+                      "archivo":  "salidas/clipero/clips/2026-11-06-pluton-condicion-planeta/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-06-pluton-condicion-planeta/ficha.md",
+                      "duracion_seg":  39.3,
                       "fuente":  {
-                                     "url":  "https://www.youtube.com/watch?v=sT914Tbv2_s",
-                                     "canal":  "Momentos de la Mente",
-                                     "inicio":  956.15,
-                                     "fin":  1001.96
+                                     "url":  "https://www.youtube.com/watch?v=3fq4h4ae0YY",
+                                     "canal":  "CurioSismo",
+                                     "inicio":  672.61,
+                                     "fin":  711.86
                                  },
                       "oportunidad_cazador":  null,
-                      "orden_en_fuente":  2,
+                      "linea":  "urbano",
+                      "orden_en_fuente":  3,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
                                           "instagram",
                                           "youtube"
                                       ],
-                      "ventana_hasta":  "2026-12-06"
+                      "ventana_hasta":  "2026-11-13"
                   },
                   {
                       "id":  "2026-11-06-descanso-sin-justificar",
@@ -757,32 +1362,10 @@
                                      "fin":  1570.25
                                  },
                       "oportunidad_cazador":  null,
+                      "linea":  "urbano",
                       "orden_en_fuente":  1,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-12-06"
-                  },
-                  {
-                      "id":  "2026-11-06-soledad-experimento-descargas",
-                      "estado":  "listo",
-                      "tipo":  "revelacion",
-                      "puntaje":  75,
-                      "gancho":  "Eligieron descargas antes que estar sin estímulos",
-                      "archivo":  "salidas/clipero/clips/2026-11-06-soledad-experimento-descargas/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-11-06-soledad-experimento-descargas/ficha.md",
-                      "duracion_seg":  45.5,
-                      "fuente":  {
-                                     "url":  "https://www.youtube.com/watch?v=DGnkX2ktBoY",
-                                     "canal":  "Momentos de la Mente",
-                                     "inicio":  268.06,
-                                     "fin":  313.51
-                                 },
-                      "oportunidad_cazador":  null,
-                      "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -807,7 +1390,38 @@
                                      "fin":  552.6
                                  },
                       "oportunidad_cazador":  null,
+                      "linea":  "urbano",
                       "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-12-06"
+                  },
+                  {
+                      "id":  "2026-11-06-soledad-experimento-descargas",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  75,
+                      "gancho":  "Eligieron descargas antes que estar sin estímulos",
+                      "archivo":  "salidas/clipero/clips/2026-11-06-soledad-experimento-descargas/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-06-soledad-experimento-descargas/ficha.md",
+                      "duracion_seg":  45.5,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=DGnkX2ktBoY",
+                                     "canal":  "Momentos de la Mente",
+                                     "inicio":  268.06,
+                                     "fin":  313.51
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "urbano",
+                      "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -832,32 +1446,10 @@
                                      "fin":  429.68
                                  },
                       "oportunidad_cazador":  null,
+                      "linea":  "urbano",
                       "orden_en_fuente":  3,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-12-06"
-                  },
-                  {
-                      "id":  "2026-11-06-noche-pensamientos-sin-respuesta",
-                      "estado":  "listo",
-                      "tipo":  "emotivo",
-                      "puntaje":  74,
-                      "gancho":  "No debes responder a cada pensamiento",
-                      "archivo":  "salidas/clipero/clips/2026-11-06-noche-pensamientos-sin-respuesta/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-11-06-noche-pensamientos-sin-respuesta/ficha.md",
-                      "duracion_seg":  27.4,
-                      "fuente":  {
-                                     "url":  "https://www.youtube.com/watch?v=6VQixigepm8",
-                                     "canal":  "Momentos de la Mente",
-                                     "inicio":  108.17,
-                                     "fin":  135.5
-                                 },
-                      "oportunidad_cazador":  null,
-                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -882,32 +1474,10 @@
                                      "fin":  585.6
                                  },
                       "oportunidad_cazador":  null,
+                      "linea":  "urbano",
                       "orden_en_fuente":  1,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-12-06"
-                  },
-                  {
-                      "id":  "2026-11-06-perros-olor-estres",
-                      "estado":  "listo",
-                      "tipo":  "revelacion",
-                      "puntaje":  74,
-                      "gancho":  "El estrés tiene un olor",
-                      "archivo":  "salidas/clipero/clips/2026-11-06-perros-olor-estres/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-11-06-perros-olor-estres/ficha.md",
-                      "duracion_seg":  38.6,
-                      "fuente":  {
-                                     "url":  "https://www.youtube.com/watch?v=9PsDzqOsYxY",
-                                     "canal":  "Momentos de la Mente",
-                                     "inicio":  406.23,
-                                     "fin":  444.76
-                                 },
-                      "oportunidad_cazador":  null,
-                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -932,7 +1502,10 @@
                                      "fin":  667.42
                                  },
                       "oportunidad_cazador":  null,
+                      "linea":  "urbano",
                       "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -957,7 +1530,10 @@
                                      "fin":  576.5
                                  },
                       "oportunidad_cazador":  null,
+                      "linea":  "urbano",
                       "orden_en_fuente":  3,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -967,22 +1543,25 @@
                       "ventana_hasta":  "2026-12-06"
                   },
                   {
-                      "id":  "2026-11-06-socializar-necesitar-silencio",
+                      "id":  "2026-11-06-noche-pensamientos-sin-respuesta",
                       "estado":  "listo",
                       "tipo":  "emotivo",
-                      "puntaje":  73,
-                      "gancho":  "Disfrutar la compañía también puede cansarte",
-                      "archivo":  "salidas/clipero/clips/2026-11-06-socializar-necesitar-silencio/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-11-06-socializar-necesitar-silencio/ficha.md",
-                      "duracion_seg":  47.4,
+                      "puntaje":  74,
+                      "gancho":  "No debes responder a cada pensamiento",
+                      "archivo":  "salidas/clipero/clips/2026-11-06-noche-pensamientos-sin-respuesta/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-06-noche-pensamientos-sin-respuesta/ficha.md",
+                      "duracion_seg":  27.4,
                       "fuente":  {
-                                     "url":  "https://www.youtube.com/watch?v=DGnkX2ktBoY",
+                                     "url":  "https://www.youtube.com/watch?v=6VQixigepm8",
                                      "canal":  "Momentos de la Mente",
-                                     "inicio":  1118.27,
-                                     "fin":  1165.68
+                                     "inicio":  108.17,
+                                     "fin":  135.5
                                  },
                       "oportunidad_cazador":  null,
-                      "orden_en_fuente":  3,
+                      "linea":  "urbano",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -992,22 +1571,25 @@
                       "ventana_hasta":  "2026-12-06"
                   },
                   {
-                      "id":  "2026-11-06-hijo-consejo-o-escucha",
+                      "id":  "2026-11-06-perros-olor-estres",
                       "estado":  "listo",
-                      "tipo":  "consejo",
-                      "puntaje":  73,
-                      "gancho":  "Antes de aconsejar a tu hijo",
-                      "archivo":  "salidas/clipero/clips/2026-11-06-hijo-consejo-o-escucha/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-11-06-hijo-consejo-o-escucha/ficha.md",
-                      "duracion_seg":  21.8,
+                      "tipo":  "revelacion",
+                      "puntaje":  74,
+                      "gancho":  "El estrés tiene un olor",
+                      "archivo":  "salidas/clipero/clips/2026-11-06-perros-olor-estres/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-06-perros-olor-estres/ficha.md",
+                      "duracion_seg":  38.6,
                       "fuente":  {
-                                     "url":  "https://www.youtube.com/watch?v=sT914Tbv2_s",
+                                     "url":  "https://www.youtube.com/watch?v=9PsDzqOsYxY",
                                      "canal":  "Momentos de la Mente",
-                                     "inicio":  308.38,
-                                     "fin":  330.11
+                                     "inicio":  406.23,
+                                     "fin":  444.76
                                  },
                       "oportunidad_cazador":  null,
-                      "orden_en_fuente":  4,
+                      "linea":  "urbano",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -1032,7 +1614,10 @@
                                      "fin":  207.71
                                  },
                       "oportunidad_cazador":  null,
+                      "linea":  "urbano",
                       "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -1057,7 +1642,10 @@
                                      "fin":  819.56
                                  },
                       "oportunidad_cazador":  null,
+                      "linea":  "urbano",
                       "orden_en_fuente":  3,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -1067,47 +1655,53 @@
                       "ventana_hasta":  "2026-12-06"
                   },
                   {
-                      "id":  "2026-11-06-descansar-ayuda-recordar",
-                      "estado":  "listo",
-                      "tipo":  "revelacion",
-                      "puntaje":  72,
-                      "gancho":  "Descansaron diez minutos y recordaron más",
-                      "archivo":  "salidas/clipero/clips/2026-11-06-descansar-ayuda-recordar/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-11-06-descansar-ayuda-recordar/ficha.md",
-                      "duracion_seg":  59.6,
-                      "fuente":  {
-                                     "url":  "https://www.youtube.com/watch?v=DGnkX2ktBoY",
-                                     "canal":  "Momentos de la Mente",
-                                     "inicio":  490.99,
-                                     "fin":  550.56
-                                 },
-                      "oportunidad_cazador":  null,
-                      "orden_en_fuente":  4,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-12-06"
-                  },
-                  {
-                      "id":  "2026-11-06-hijo-mensajes-presion",
+                      "id":  "2026-11-06-hijo-consejo-o-escucha",
                       "estado":  "listo",
                       "tipo":  "consejo",
-                      "puntaje":  72,
-                      "gancho":  "Cuando tus mensajes se vuelven presión",
-                      "archivo":  "salidas/clipero/clips/2026-11-06-hijo-mensajes-presion/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-11-06-hijo-mensajes-presion/ficha.md",
-                      "duracion_seg":  68,
+                      "puntaje":  73,
+                      "gancho":  "Antes de aconsejar a tu hijo",
+                      "archivo":  "salidas/clipero/clips/2026-11-06-hijo-consejo-o-escucha/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-06-hijo-consejo-o-escucha/ficha.md",
+                      "duracion_seg":  21.8,
                       "fuente":  {
                                      "url":  "https://www.youtube.com/watch?v=sT914Tbv2_s",
                                      "canal":  "Momentos de la Mente",
-                                     "inicio":  153.5,
-                                     "fin":  221.47
+                                     "inicio":  308.38,
+                                     "fin":  330.11
                                  },
                       "oportunidad_cazador":  null,
-                      "orden_en_fuente":  5,
+                      "linea":  "urbano",
+                      "orden_en_fuente":  4,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-12-06"
+                  },
+                  {
+                      "id":  "2026-11-06-socializar-necesitar-silencio",
+                      "estado":  "listo",
+                      "tipo":  "emotivo",
+                      "puntaje":  73,
+                      "gancho":  "Disfrutar la compañía también puede cansarte",
+                      "archivo":  "salidas/clipero/clips/2026-11-06-socializar-necesitar-silencio/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-06-socializar-necesitar-silencio/ficha.md",
+                      "duracion_seg":  47.4,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=DGnkX2ktBoY",
+                                     "canal":  "Momentos de la Mente",
+                                     "inicio":  1118.27,
+                                     "fin":  1165.68
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "urbano",
+                      "orden_en_fuente":  3,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -1132,7 +1726,10 @@
                                      "fin":  826.48
                                  },
                       "oportunidad_cazador":  null,
+                      "linea":  "urbano",
                       "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -1142,22 +1739,53 @@
                       "ventana_hasta":  "2026-12-06"
                   },
                   {
-                      "id":  "2026-11-06-memoria-repasos-espaciados",
+                      "id":  "2026-11-06-descansar-ayuda-recordar",
                       "estado":  "listo",
-                      "tipo":  "consejo",
-                      "puntaje":  71,
-                      "gancho":  "Estudiar todo de golpe tiene alternativa",
-                      "archivo":  "salidas/clipero/clips/2026-11-06-memoria-repasos-espaciados/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-11-06-memoria-repasos-espaciados/ficha.md",
-                      "duracion_seg":  56.2,
+                      "tipo":  "revelacion",
+                      "puntaje":  72,
+                      "gancho":  "Descansaron diez minutos y recordaron más",
+                      "archivo":  "salidas/clipero/clips/2026-11-06-descansar-ayuda-recordar/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-06-descansar-ayuda-recordar/ficha.md",
+                      "duracion_seg":  59.6,
                       "fuente":  {
-                                     "url":  "https://www.youtube.com/watch?v=lfpQsDO-e0A",
+                                     "url":  "https://www.youtube.com/watch?v=DGnkX2ktBoY",
                                      "canal":  "Momentos de la Mente",
-                                     "inicio":  625.47,
-                                     "fin":  681.64
+                                     "inicio":  490.99,
+                                     "fin":  550.56
                                  },
                       "oportunidad_cazador":  null,
-                      "orden_en_fuente":  3,
+                      "linea":  "urbano",
+                      "orden_en_fuente":  4,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-12-06"
+                  },
+                  {
+                      "id":  "2026-11-06-hijo-mensajes-presion",
+                      "estado":  "listo",
+                      "tipo":  "consejo",
+                      "puntaje":  72,
+                      "gancho":  "Cuando tus mensajes se vuelven presión",
+                      "archivo":  "salidas/clipero/clips/2026-11-06-hijo-mensajes-presion/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-06-hijo-mensajes-presion/ficha.md",
+                      "duracion_seg":  68,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=sT914Tbv2_s",
+                                     "canal":  "Momentos de la Mente",
+                                     "inicio":  153.5,
+                                     "fin":  221.47
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "urbano",
+                      "orden_en_fuente":  5,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -1182,7 +1810,38 @@
                                      "fin":  932.4
                                  },
                       "oportunidad_cazador":  null,
+                      "linea":  "urbano",
                       "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-12-06"
+                  },
+                  {
+                      "id":  "2026-11-06-memoria-repasos-espaciados",
+                      "estado":  "listo",
+                      "tipo":  "consejo",
+                      "puntaje":  71,
+                      "gancho":  "Estudiar todo de golpe tiene alternativa",
+                      "archivo":  "salidas/clipero/clips/2026-11-06-memoria-repasos-espaciados/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-06-memoria-repasos-espaciados/ficha.md",
+                      "duracion_seg":  56.2,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=lfpQsDO-e0A",
+                                     "canal":  "Momentos de la Mente",
+                                     "inicio":  625.47,
+                                     "fin":  681.64
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "urbano",
+                      "orden_en_fuente":  3,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -1207,7 +1866,10 @@
                                      "fin":  243.27
                                  },
                       "oportunidad_cazador":  null,
+                      "linea":  "urbano",
                       "orden_en_fuente":  3,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -1215,31 +1877,6 @@
                                           "youtube"
                                       ],
                       "ventana_hasta":  "2026-12-06"
-                  },
-                  {
-                      "id":  "2026-11-04-westcol-robot-sin-seguridad",
-                      "estado":  "listo",
-                      "tipo":  "revelacion",
-                      "puntaje":  82,
-                      "gancho":  "Westcol le quitará la seguridad a su robot",
-                      "archivo":  "salidas/clipero/clips/2026-11-04-westcol-robot-sin-seguridad/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-11-04-westcol-robot-sin-seguridad/ficha.md",
-                      "duracion_seg":  45.1,
-                      "fuente":  {
-                                     "url":  "https://youtu.be/Xrwm98iaWY8?t=35",
-                                     "canal":  "WestCOL",
-                                     "inicio":  35.73,
-                                     "fin":  80.86
-                                 },
-                      "oportunidad_cazador":  "tema-stream-fighters-5",
-                      "orden_en_fuente":  1,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-14"
                   },
                   {
                       "id":  "2026-11-04-westcol-blessd-camioneta",
@@ -1257,7 +1894,10 @@
                                      "fin":  957.7
                                  },
                       "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "linea":  "urbano",
                       "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -1266,6 +1906,34 @@
                                       ],
                       "ventana_hasta":  "2026-11-14",
                       "nota":  "Escuchar antes de publicar: la cifra final (\u0027$25.000\u0027) y \u0027la Tahoe\u0027"
+                  },
+                  {
+                      "id":  "2026-11-04-westcol-robot-sin-seguridad",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  82,
+                      "gancho":  "Westcol le quitará la seguridad a su robot",
+                      "archivo":  "salidas/clipero/clips/2026-11-04-westcol-robot-sin-seguridad/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-04-westcol-robot-sin-seguridad/ficha.md",
+                      "duracion_seg":  45.1,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/Xrwm98iaWY8?t=35",
+                                     "canal":  "WestCOL",
+                                     "inicio":  35.73,
+                                     "fin":  80.86
+                                 },
+                      "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-14"
                   },
                   {
                       "id":  "2026-11-04-westcol-dinero-parqueado",
@@ -1283,7 +1951,10 @@
                                      "fin":  862.34
                                  },
                       "oportunidad_cazador":  null,
+                      "linea":  "urbano",
                       "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -1308,7 +1979,10 @@
                                      "fin":  992
                                  },
                       "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "linea":  "urbano",
                       "orden_en_fuente":  4,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -1318,31 +1992,6 @@
                       "ventana_hasta":  "2026-11-07",
                       "revision_audio":  "Escucha humana pendiente; ver ficha",
                       "revision_visual":  "4 cuadros revisados"
-                  },
-                  {
-                      "id":  "2026-11-04-westcol-inversion-leyendas",
-                      "estado":  "listo",
-                      "tipo":  "revelacion",
-                      "puntaje":  75,
-                      "gancho":  "Westcol: negocio con dos creadores «leyenda»",
-                      "archivo":  "salidas/clipero/clips/2026-11-04-westcol-inversion-leyendas/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-11-04-westcol-inversion-leyendas/ficha.md",
-                      "duracion_seg":  35.3,
-                      "fuente":  {
-                                     "url":  "https://youtu.be/AiBzbElWaow?t=769",
-                                     "canal":  "WestcolClips",
-                                     "inicio":  768.97,
-                                     "fin":  804.18
-                                 },
-                      "oportunidad_cazador":  null,
-                      "orden_en_fuente":  3,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-11"
                   },
                   {
                       "id":  "2026-11-04-westcol-blessd-kris-union",
@@ -1360,7 +2009,10 @@
                                      "fin":  561.3
                                  },
                       "oportunidad_cazador":  null,
+                      "linea":  "urbano",
                       "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -1368,6 +2020,34 @@
                                           "youtube"
                                       ],
                       "ventana_hasta":  "2026-11-09"
+                  },
+                  {
+                      "id":  "2026-11-04-westcol-inversion-leyendas",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  75,
+                      "gancho":  "Westcol: negocio con dos creadores «leyenda»",
+                      "archivo":  "salidas/clipero/clips/2026-11-04-westcol-inversion-leyendas/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-04-westcol-inversion-leyendas/ficha.md",
+                      "duracion_seg":  35.3,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/AiBzbElWaow?t=769",
+                                     "canal":  "WestcolClips",
+                                     "inicio":  768.97,
+                                     "fin":  804.18
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "urbano",
+                      "orden_en_fuente":  3,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-11"
                   },
                   {
                       "id":  "2026-11-04-westcol-robot-orgullo-padre",
@@ -1385,7 +2065,10 @@
                                      "fin":  2057.2
                                  },
                       "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "linea":  "urbano",
                       "orden_en_fuente":  6,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -1412,7 +2095,10 @@
                                      "fin":  78.62
                                  },
                       "oportunidad_cazador":  null,
+                      "linea":  "urbano",
                       "orden_en_fuente":  4,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -1437,7 +2123,10 @@
                                      "fin":  1215.14
                                  },
                       "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "linea":  "urbano",
                       "orden_en_fuente":  5,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -1464,7 +2153,10 @@
                                      "fin":  669.58
                                  },
                       "oportunidad_cazador":  null,
+                      "linea":  "urbano",
                       "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -1489,7 +2181,10 @@
                                      "fin":  3121.3
                                  },
                       "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "linea":  "urbano",
                       "orden_en_fuente":  7,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -1499,32 +2194,6 @@
                       "ventana_hasta":  "2026-11-07",
                       "revision_audio":  "Escucha humana pendiente; ver ficha",
                       "revision_visual":  "4 cuadros revisados"
-                  },
-                  {
-                      "id":  "2026-11-04-westcol-lambo-pierde-plata",
-                      "estado":  "listo",
-                      "tipo":  "consejo",
-                      "puntaje":  72,
-                      "gancho":  "Westcol: por qué no compra el Lambo",
-                      "archivo":  "salidas/clipero/clips/2026-11-04-westcol-lambo-pierde-plata/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-11-04-westcol-lambo-pierde-plata/ficha.md",
-                      "duracion_seg":  47.3,
-                      "fuente":  {
-                                     "url":  "https://youtu.be/AiBzbElWaow?t=697",
-                                     "canal":  "WestcolClips",
-                                     "inicio":  697.13,
-                                     "fin":  744.38
-                                 },
-                      "oportunidad_cazador":  null,
-                      "orden_en_fuente":  5,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-10",
-                      "nota":  "Escuchar antes de publicar: tres \u0027(…)\u0027 y la cifra \u0027$300.000\u0027 sin moneda clara"
                   },
                   {
                       "id":  "2026-11-04-rr-autos-beneficios-tributarios",
@@ -1542,7 +2211,10 @@
                                      "fin":  340.1
                                  },
                       "oportunidad_cazador":  null,
+                      "linea":  "urbano",
                       "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -1551,6 +2223,35 @@
                                       ],
                       "ventana_hasta":  "2026-11-10",
                       "nota":  "Confirmar que quien explica es Diego Ramírez (RR Autos) antes de nombrarlo; cifras tributarias sin verificar; escuchar \u00271500 millones\u0027"
+                  },
+                  {
+                      "id":  "2026-11-04-westcol-lambo-pierde-plata",
+                      "estado":  "listo",
+                      "tipo":  "consejo",
+                      "puntaje":  72,
+                      "gancho":  "Westcol: por qué no compra el Lambo",
+                      "archivo":  "salidas/clipero/clips/2026-11-04-westcol-lambo-pierde-plata/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-04-westcol-lambo-pierde-plata/ficha.md",
+                      "duracion_seg":  47.3,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/AiBzbElWaow?t=697",
+                                     "canal":  "WestcolClips",
+                                     "inicio":  697.13,
+                                     "fin":  744.38
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "urbano",
+                      "orden_en_fuente":  5,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-10",
+                      "nota":  "Escuchar antes de publicar: tres \u0027(…)\u0027 y la cifra \u0027$300.000\u0027 sin moneda clara"
                   },
                   {
                       "id":  "2026-11-04-westcol-robot-mas-piquete",
@@ -1568,7 +2269,10 @@
                                      "fin":  2670.5
                                  },
                       "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "linea":  "urbano",
                       "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -1593,7 +2297,10 @@
                                      "fin":  2356.98
                                  },
                       "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "linea":  "urbano",
                       "orden_en_fuente":  3,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -1618,7 +2325,10 @@
                                      "fin":  3000
                                  },
                       "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "linea":  "urbano",
                       "orden_en_fuente":  8,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -1645,7 +2355,10 @@
                                      "fin":  232.18
                                  },
                       "oportunidad_cazador":  null,
+                      "linea":  "urbano",
                       "orden_en_fuente":  7,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -1671,7 +2384,10 @@
                                      "fin":  525.58
                                  },
                       "oportunidad_cazador":  null,
+                      "linea":  "urbano",
                       "orden_en_fuente":  6,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -1697,7 +2413,10 @@
                                      "fin":  864.34
                                  },
                       "oportunidad_cazador":  null,
+                      "linea":  "urbano",
                       "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -1706,32 +2425,6 @@
                                       ],
                       "ventana_hasta":  "2026-11-10",
                       "nota":  "Westcol no sale; confirmar que son Rey de la City y Diego Ramírez antes de nombrarlos; escuchar las cifras"
-                  },
-                  {
-                      "id":  "2026-11-04-westcol-casa-en-construccion",
-                      "estado":  "listo",
-                      "tipo":  "historia",
-                      "puntaje":  65,
-                      "gancho":  "Así será la nueva casa de Westcol",
-                      "archivo":  "salidas/clipero/clips/2026-11-04-westcol-casa-en-construccion/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-11-04-westcol-casa-en-construccion/ficha.md",
-                      "duracion_seg":  53.3,
-                      "fuente":  {
-                                     "url":  "https://youtu.be/AiBzbElWaow?t=299",
-                                     "canal":  "WestcolClips",
-                                     "inicio":  299.09,
-                                     "fin":  352.34
-                                 },
-                      "oportunidad_cazador":  null,
-                      "orden_en_fuente":  8,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-10",
-                      "nota":  "Fallo de imagen de ~1 s hacia el segundo 48: ver antes de publicar. No señalar la ubicación de la casa (sale un plano del terreno)"
                   },
                   {
                       "id":  "2026-11-04-rr-autos-carro-cada-ciudad",
@@ -1749,7 +2442,10 @@
                                      "fin":  1016.02
                                  },
                       "oportunidad_cazador":  null,
+                      "linea":  "urbano",
                       "orden_en_fuente":  3,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -1760,29 +2456,62 @@
                       "nota":  "Confirmar identidades (Rey de la City, Diego Ramírez) antes de nombrarlos"
                   },
                   {
-                      "id":  "2026-11-03-sf5-robots-blessd",
+                      "id":  "2026-11-04-westcol-casa-en-construccion",
                       "estado":  "listo",
-                      "tipo":  "revelacion",
-                      "puntaje":  80,
-                      "gancho":  "Westcol: Blessd también quiere boxear",
-                      "archivo":  "salidas/clipero/clips/2026-11-03-sf5-robots-blessd/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-11-03-sf5-robots-blessd/ficha.md",
-                      "duracion_seg":  21.0,
+                      "tipo":  "historia",
+                      "puntaje":  65,
+                      "gancho":  "Así será la nueva casa de Westcol",
+                      "archivo":  "salidas/clipero/clips/2026-11-04-westcol-casa-en-construccion/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-04-westcol-casa-en-construccion/ficha.md",
+                      "duracion_seg":  53.3,
                       "fuente":  {
-                                     "url":  "https://youtu.be/hc_eHyGrndY?t=12",
+                                     "url":  "https://youtu.be/AiBzbElWaow?t=299",
                                      "canal":  "WestcolClips",
-                                     "inicio":  12.37,
-                                     "fin":  33.34
+                                     "inicio":  299.09,
+                                     "fin":  352.34
                                  },
-                      "oportunidad_cazador":  "tema-stream-fighters-5",
-                      "orden_en_fuente":  1,
+                      "oportunidad_cazador":  null,
+                      "linea":  "urbano",
+                      "orden_en_fuente":  8,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
                                           "instagram",
                                           "youtube"
                                       ],
-                      "ventana_hasta":  "2026-11-14"
+                      "ventana_hasta":  "2026-11-10",
+                      "nota":  "Fallo de imagen de ~1 s hacia el segundo 48: ver antes de publicar. No señalar la ubicación de la casa (sale un plano del terreno)"
+                  },
+                  {
+                      "id":  "2026-11-03-sf5-pelea-ganga",
+                      "estado":  "propuesto",
+                      "tipo":  "revelacion",
+                      "puntaje":  81,
+                      "gancho":  "Westcol: ¿quién gana la pelea de la ganga?",
+                      "archivo":  "salidas/clipero/clips/2026-11-03-sf5-pelea-ganga/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-03-sf5-pelea-ganga/ficha.md",
+                      "duracion_seg":  55.5,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/hc_eHyGrndY?t=756",
+                                     "canal":  "WestcolClips",
+                                     "inicio":  756.19,
+                                     "fin":  811.64
+                                 },
+                      "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-14",
+                      "nota":  "Producido. Queda propuesto: el bloque \u0027PATROCINADORES\u0027 de la web del evento (logos de Stake, casa de apuestas, y Kick) sale en 3 de los 4 cuadros y no se puede evitar con la entrada o la salida. Decide el usuario (difuminar o publicar)"
                   },
                   {
                       "id":  "2026-11-03-chanty-lonche-mala-paga",
@@ -1800,7 +2529,38 @@
                                      "fin":  399.02
                                  },
                       "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "linea":  "urbano",
                       "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-14"
+                  },
+                  {
+                      "id":  "2026-11-03-sf5-robots-blessd",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  80,
+                      "gancho":  "Westcol: Blessd también quiere boxear",
+                      "archivo":  "salidas/clipero/clips/2026-11-03-sf5-robots-blessd/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-03-sf5-robots-blessd/ficha.md",
+                      "duracion_seg":  21.0,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/hc_eHyGrndY?t=12",
+                                     "canal":  "WestcolClips",
+                                     "inicio":  12.37,
+                                     "fin":  33.34
+                                 },
+                      "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -1825,7 +2585,10 @@
                                      "fin":  1786.7
                                  },
                       "oportunidad_cazador":  null,
+                      "linea":  "urbano",
                       "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -1850,7 +2613,10 @@
                                      "fin":  92.22
                                  },
                       "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "linea":  "urbano",
                       "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -1875,7 +2641,10 @@
                                      "fin":  1211.34
                                  },
                       "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "linea":  "urbano",
                       "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -1900,7 +2669,10 @@
                                      "fin":  956.06
                                  },
                       "oportunidad_cazador":  null,
+                      "linea":  "urbano",
                       "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -1925,7 +2697,10 @@
                                      "fin":  1653.54
                                  },
                       "oportunidad_cazador":  null,
+                      "linea":  "urbano",
                       "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -1933,31 +2708,6 @@
                                           "youtube"
                                       ],
                       "ventana_hasta":  "2026-11-08"
-                  },
-                  {
-                      "id":  "2026-11-03-sf5-valdiri-divaza",
-                      "estado":  "listo",
-                      "tipo":  "revelacion",
-                      "puntaje":  74,
-                      "gancho":  "Westcol: la Valdiri casi no pelea",
-                      "archivo":  "salidas/clipero/clips/2026-11-03-sf5-valdiri-divaza/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-11-03-sf5-valdiri-divaza/ficha.md",
-                      "duracion_seg":  30.2,
-                      "fuente":  {
-                                     "url":  "https://youtu.be/hc_eHyGrndY?t=52",
-                                     "canal":  "WestcolClips",
-                                     "inicio":  52.09,
-                                     "fin":  82.3
-                                 },
-                      "oportunidad_cazador":  "tema-stream-fighters-5",
-                      "orden_en_fuente":  3,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-14"
                   },
                   {
                       "id":  "2026-11-03-awooween-fuegos-final",
@@ -1975,7 +2725,10 @@
                                      "fin":  2663
                                  },
                       "oportunidad_cazador":  "tema-awooween-ryan-castro-campin",
+                      "linea":  "urbano",
                       "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -2000,7 +2753,10 @@
                                      "fin":  398.6
                                  },
                       "oportunidad_cazador":  null,
+                      "linea":  "urbano",
                       "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -2008,6 +2764,34 @@
                                           "youtube"
                                       ],
                       "ventana_hasta":  "2026-11-09"
+                  },
+                  {
+                      "id":  "2026-11-03-sf5-valdiri-divaza",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  74,
+                      "gancho":  "Westcol: la Valdiri casi no pelea",
+                      "archivo":  "salidas/clipero/clips/2026-11-03-sf5-valdiri-divaza/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-03-sf5-valdiri-divaza/ficha.md",
+                      "duracion_seg":  30.2,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/hc_eHyGrndY?t=52",
+                                     "canal":  "WestcolClips",
+                                     "inicio":  52.09,
+                                     "fin":  82.3
+                                 },
+                      "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  3,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-14"
                   },
                   {
                       "id":  "2026-11-03-westcol-obsesionado-futuro",
@@ -2025,7 +2809,10 @@
                                      "fin":  1731.06
                                  },
                       "oportunidad_cazador":  null,
+                      "linea":  "urbano",
                       "orden_en_fuente":  3,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -2033,31 +2820,6 @@
                                           "youtube"
                                       ],
                       "ventana_hasta":  "2026-11-08"
-                  },
-                  {
-                      "id":  "2026-11-03-sf5-apuesta-100-millones",
-                      "estado":  "listo",
-                      "tipo":  "humor",
-                      "puntaje":  72,
-                      "gancho":  "Westcol: la apuesta de 100 millones",
-                      "archivo":  "salidas/clipero/clips/2026-11-03-sf5-apuesta-100-millones/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-11-03-sf5-apuesta-100-millones/ficha.md",
-                      "duracion_seg":  25.1,
-                      "fuente":  {
-                                     "url":  "https://youtu.be/hc_eHyGrndY?t=601",
-                                     "canal":  "WestcolClips",
-                                     "inicio":  601.99,
-                                     "fin":  627.12
-                                 },
-                      "oportunidad_cazador":  "tema-stream-fighters-5",
-                      "orden_en_fuente":  4,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-14"
                   },
                   {
                       "id":  "2026-11-03-diego-diez-lambos-ni-uno",
@@ -2075,7 +2837,10 @@
                                      "fin":  1213.82
                                  },
                       "oportunidad_cazador":  null,
+                      "linea":  "urbano",
                       "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -2100,7 +2865,10 @@
                                      "fin":  458.24
                                  },
                       "oportunidad_cazador":  null,
+                      "linea":  "urbano",
                       "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -2108,6 +2876,34 @@
                                           "youtube"
                                       ],
                       "ventana_hasta":  "2026-11-09"
+                  },
+                  {
+                      "id":  "2026-11-03-sf5-apuesta-100-millones",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  72,
+                      "gancho":  "Westcol: la apuesta de 100 millones",
+                      "archivo":  "salidas/clipero/clips/2026-11-03-sf5-apuesta-100-millones/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-03-sf5-apuesta-100-millones/ficha.md",
+                      "duracion_seg":  25.1,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/hc_eHyGrndY?t=601",
+                                     "canal":  "WestcolClips",
+                                     "inicio":  601.99,
+                                     "fin":  627.12
+                                 },
+                      "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  4,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-14"
                   },
                   {
                       "id":  "2026-11-03-westcol-ia-proposito",
@@ -2125,7 +2921,10 @@
                                      "fin":  883.5
                                  },
                       "oportunidad_cazador":  null,
+                      "linea":  "urbano",
                       "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -2150,7 +2949,10 @@
                                      "fin":  1450.66
                                  },
                       "oportunidad_cazador":  null,
+                      "linea":  "urbano",
                       "orden_en_fuente":  4,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -2158,56 +2960,6 @@
                                           "youtube"
                                       ],
                       "ventana_hasta":  "2026-11-08"
-                  },
-                  {
-                      "id":  "2026-11-03-sf5-dos-islas",
-                      "estado":  "listo",
-                      "tipo":  "revelacion",
-                      "puntaje":  70,
-                      "gancho":  "Westcol: la pelea que abre Stream Fighters",
-                      "archivo":  "salidas/clipero/clips/2026-11-03-sf5-dos-islas/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-11-03-sf5-dos-islas/ficha.md",
-                      "duracion_seg":  42.6,
-                      "fuente":  {
-                                     "url":  "https://youtu.be/hc_eHyGrndY?t=470",
-                                     "canal":  "WestcolClips",
-                                     "inicio":  470.91,
-                                     "fin":  513.44
-                                 },
-                      "oportunidad_cazador":  "tema-stream-fighters-5",
-                      "orden_en_fuente":  5,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-14"
-                  },
-                  {
-                      "id":  "2026-11-03-westcol-mundo-dinero",
-                      "estado":  "listo",
-                      "tipo":  "frase",
-                      "puntaje":  70,
-                      "gancho":  "Westcol: «todo gira alrededor del dinero»",
-                      "archivo":  "salidas/clipero/clips/2026-11-03-westcol-mundo-dinero/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-11-03-westcol-mundo-dinero/ficha.md",
-                      "duracion_seg":  57.3,
-                      "fuente":  {
-                                     "url":  "https://youtu.be/UUxoaLXE3CE?t=885",
-                                     "canal":  "WestcolClips",
-                                     "inicio":  885.37,
-                                     "fin":  942.66
-                                 },
-                      "oportunidad_cazador":  null,
-                      "orden_en_fuente":  2,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-09"
                   },
                   {
                       "id":  "2026-11-03-awooween-estadio-lleno",
@@ -2225,7 +2977,10 @@
                                      "fin":  948
                                  },
                       "oportunidad_cazador":  "tema-awooween-ryan-castro-campin",
+                      "linea":  "urbano",
                       "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -2233,6 +2988,34 @@
                                           "youtube"
                                       ],
                       "ventana_hasta":  "2026-11-04"
+                  },
+                  {
+                      "id":  "2026-11-03-sf5-dos-islas",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  70,
+                      "gancho":  "Westcol: la pelea que abre Stream Fighters",
+                      "archivo":  "salidas/clipero/clips/2026-11-03-sf5-dos-islas/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-03-sf5-dos-islas/ficha.md",
+                      "duracion_seg":  42.6,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/hc_eHyGrndY?t=470",
+                                     "canal":  "WestcolClips",
+                                     "inicio":  470.91,
+                                     "fin":  513.44
+                                 },
+                      "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  5,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-14"
                   },
                   {
                       "id":  "2026-11-03-westcol-capo-mustang",
@@ -2250,7 +3033,10 @@
                                      "fin":  1313.58
                                  },
                       "oportunidad_cazador":  null,
+                      "linea":  "urbano",
                       "orden_en_fuente":  3,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -2258,6 +3044,34 @@
                                           "youtube"
                                       ],
                       "ventana_hasta":  "2026-11-10"
+                  },
+                  {
+                      "id":  "2026-11-03-westcol-mundo-dinero",
+                      "estado":  "listo",
+                      "tipo":  "frase",
+                      "puntaje":  70,
+                      "gancho":  "Westcol: «todo gira alrededor del dinero»",
+                      "archivo":  "salidas/clipero/clips/2026-11-03-westcol-mundo-dinero/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-03-westcol-mundo-dinero/ficha.md",
+                      "duracion_seg":  57.3,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/UUxoaLXE3CE?t=885",
+                                     "canal":  "WestcolClips",
+                                     "inicio":  885.37,
+                                     "fin":  942.66
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "urbano",
+                      "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-09"
                   },
                   {
                       "id":  "2026-11-03-awooween-a-todo-volumen",
@@ -2275,7 +3089,10 @@
                                      "fin":  1598
                                  },
                       "oportunidad_cazador":  "tema-awooween-ryan-castro-campin",
+                      "linea":  "urbano",
                       "orden_en_fuente":  3,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -2300,7 +3117,10 @@
                                      "fin":  710.4
                                  },
                       "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "linea":  "urbano",
                       "orden_en_fuente":  6,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -2309,32 +3129,6 @@
                                       ],
                       "ventana_hasta":  "2026-11-14",
                       "nota":  "Cortado en el ciclo 6 (23:42 del 3-nov) e incorporado en el ciclo 7: el ciclo 6 se cortó por un fallo de red antes de escribirlo aquí. Revisado de nuevo: sin patrocinadores ni anuncios"
-                  },
-                  {
-                      "id":  "2026-11-03-sf5-pelea-ganga",
-                      "estado":  "propuesto",
-                      "tipo":  "revelacion",
-                      "puntaje":  81,
-                      "gancho":  "Westcol: ¿quién gana la pelea de la ganga?",
-                      "archivo":  "salidas/clipero/clips/2026-11-03-sf5-pelea-ganga/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-11-03-sf5-pelea-ganga/ficha.md",
-                      "duracion_seg":  55.5,
-                      "fuente":  {
-                                     "url":  "https://youtu.be/hc_eHyGrndY?t=756",
-                                     "canal":  "WestcolClips",
-                                     "inicio":  756.19,
-                                     "fin":  811.64
-                                 },
-                      "oportunidad_cazador":  "tema-stream-fighters-5",
-                      "orden_en_fuente":  2,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-14",
-                      "nota":  "Producido. Queda propuesto: el bloque \u0027PATROCINADORES\u0027 de la web del evento (logos de Stake, casa de apuestas, y Kick) sale en 3 de los 4 cuadros y no se puede evitar con la entrada o la salida. Decide el usuario (difuminar o publicar)"
                   },
                   {
                       "id":  "2026-11-03-chanty-pagos-disfraces",
@@ -2352,7 +3146,10 @@
                                      "fin":  216.7
                                  },
                       "oportunidad_cazador":  null,
+                      "linea":  "urbano",
                       "orden_en_fuente":  3,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -2378,7 +3175,10 @@
                                      "fin":  65
                                  },
                       "oportunidad_cazador":  "tema-awooween-ryan-castro-campin",
+                      "linea":  "urbano",
                       "orden_en_fuente":  4,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -2403,7 +3203,10 @@
                                      "fin":  148.1
                                  },
                       "oportunidad_cazador":  null,
+                      "linea":  "urbano",
                       "orden_en_fuente":  3,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "autorizado",
                       "plataformas":  [
                                           "tiktok",
@@ -2428,7 +3231,10 @@
                                      "fin":  105.82
                                  },
                       "oportunidad_cazador":  null,
+                      "linea":  "urbano",
                       "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "autorizado",
                       "plataformas":  [
                                           "tiktok",
@@ -2436,106 +3242,6 @@
                                           "youtube"
                                       ],
                       "ventana_hasta":  "2026-11-14"
-                  },
-                  {
-                      "id":  "2026-11-02-westcol-8-anos-sin-irse",
-                      "estado":  "listo",
-                      "tipo":  "revelacion",
-                      "puntaje":  74,
-                      "gancho":  "Westcol vuelve: «nunca me había ido tanto»",
-                      "archivo":  "salidas/clipero/clips/2026-11-02-westcol-8-anos-sin-irse/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-11-02-westcol-8-anos-sin-irse/ficha.md",
-                      "duracion_seg":  44.1,
-                      "fuente":  {
-                                     "url":  "https://youtu.be/8L8CP3xe3Qo?t=6",
-                                     "canal":  "WestcolClips",
-                                     "inicio":  6.89,
-                                     "fin":  50.94
-                                 },
-                      "oportunidad_cazador":  null,
-                      "orden_en_fuente":  1,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-05"
-                  },
-                  {
-                      "id":  "2026-11-02-westcol-motosierra-carton",
-                      "estado":  "listo",
-                      "tipo":  "revelacion",
-                      "puntaje":  73,
-                      "gancho":  "Westcol: castigado por una motosierra de cartón",
-                      "archivo":  "salidas/clipero/clips/2026-11-02-westcol-motosierra-carton/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-11-02-westcol-motosierra-carton/ficha.md",
-                      "duracion_seg":  62.8,
-                      "fuente":  {
-                                     "url":  "https://youtu.be/OqsKq4thcZA?t=571",
-                                     "canal":  "Clipskick04",
-                                     "inicio":  571.41,
-                                     "fin":  634.2
-                                 },
-                      "oportunidad_cazador":  null,
-                      "orden_en_fuente":  1,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-04"
-                  },
-                  {
-                      "id":  "2026-11-02-westcol-disfraz-presidente",
-                      "estado":  "listo",
-                      "tipo":  "humor",
-                      "puntaje":  72,
-                      "gancho":  "El disfraz que Westcol no usó",
-                      "archivo":  "salidas/clipero/clips/2026-11-02-westcol-disfraz-presidente/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-11-02-westcol-disfraz-presidente/ficha.md",
-                      "duracion_seg":  32.1,
-                      "fuente":  {
-                                     "url":  "https://youtu.be/MBotzCroy1Q?t=1303",
-                                     "canal":  "juan diego mm",
-                                     "inicio":  1303.45,
-                                     "fin":  1335.54
-                                 },
-                      "oportunidad_cazador":  null,
-                      "orden_en_fuente":  1,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-05"
-                  },
-                  {
-                      "id":  "2026-11-02-lonche-seis-cifras",
-                      "estado":  "listo",
-                      "tipo":  "revelacion",
-                      "puntaje":  72,
-                      "gancho":  "Lonche: «seis cifras a la semana»",
-                      "archivo":  "salidas/clipero/clips/2026-11-02-lonche-seis-cifras/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-11-02-lonche-seis-cifras/ficha.md",
-                      "duracion_seg":  52.0,
-                      "fuente":  {
-                                     "url":  "https://youtu.be/XMLQv5JNuK0?t=429",
-                                     "canal":  "Clipskick04",
-                                     "inicio":  429.81,
-                                     "fin":  481.78
-                                 },
-                      "oportunidad_cazador":  null,
-                      "orden_en_fuente":  1,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-06"
                   },
                   {
                       "id":  "2026-11-02-toxico-verso-mando-la-ubi",
@@ -2553,7 +3259,10 @@
                                      "fin":  83.7
                                  },
                       "oportunidad_cazador":  null,
+                      "linea":  "urbano",
                       "orden_en_fuente":  4,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "autorizado",
                       "plataformas":  [
                                           "tiktok",
@@ -2561,156 +3270,6 @@
                                           "youtube"
                                       ],
                       "ventana_hasta":  "2026-11-14"
-                  },
-                  {
-                      "id":  "2026-11-02-lonche-sueno-americano",
-                      "estado":  "listo",
-                      "tipo":  "frase",
-                      "puntaje":  71,
-                      "gancho":  "Lonche y su «sueño americano»",
-                      "archivo":  "salidas/clipero/clips/2026-11-02-lonche-sueno-americano/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-11-02-lonche-sueno-americano/ficha.md",
-                      "duracion_seg":  43.2,
-                      "fuente":  {
-                                     "url":  "https://youtu.be/TGZYr7VNzio?t=2568",
-                                     "canal":  "Lonche PRIME",
-                                     "inicio":  2568.57,
-                                     "fin":  2611.7
-                                 },
-                      "oportunidad_cazador":  null,
-                      "orden_en_fuente":  1,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-06"
-                  },
-                  {
-                      "id":  "2026-11-02-westcol-cuerpo-35-anos",
-                      "estado":  "listo",
-                      "tipo":  "humor",
-                      "puntaje":  71,
-                      "gancho":  "Westcol: «Mi cuerpo tiene 35 años»",
-                      "archivo":  "salidas/clipero/clips/2026-11-02-westcol-cuerpo-35-anos/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-11-02-westcol-cuerpo-35-anos/ficha.md",
-                      "duracion_seg":  44.8,
-                      "fuente":  {
-                                     "url":  "https://youtu.be/MBotzCroy1Q?t=1405",
-                                     "canal":  "juan diego mm",
-                                     "inicio":  1405.09,
-                                     "fin":  1449.86
-                                 },
-                      "oportunidad_cazador":  null,
-                      "orden_en_fuente":  2,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-06"
-                  },
-                  {
-                      "id":  "2026-11-02-westcol-tweet-conejita",
-                      "estado":  "listo",
-                      "tipo":  "humor",
-                      "puntaje":  70,
-                      "gancho":  "Westcol y el tuit de la conejita",
-                      "archivo":  "salidas/clipero/clips/2026-11-02-westcol-tweet-conejita/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-11-02-westcol-tweet-conejita/ficha.md",
-                      "duracion_seg":  55.4,
-                      "fuente":  {
-                                     "url":  "https://youtu.be/MBotzCroy1Q?t=1144",
-                                     "canal":  "juan diego mm",
-                                     "inicio":  1144.97,
-                                     "fin":  1200.3
-                                 },
-                      "oportunidad_cazador":  null,
-                      "orden_en_fuente":  3,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-04"
-                  },
-                  {
-                      "id":  "2026-11-02-westcol-que-sigue-lonche",
-                      "estado":  "listo",
-                      "tipo":  "frase",
-                      "puntaje":  70,
-                      "gancho":  "Westcol: «¿Qué sigue después de Lonche?»",
-                      "archivo":  "salidas/clipero/clips/2026-11-02-westcol-que-sigue-lonche/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-11-02-westcol-que-sigue-lonche/ficha.md",
-                      "duracion_seg":  23.3,
-                      "fuente":  {
-                                     "url":  "https://youtu.be/8L8CP3xe3Qo?t=227",
-                                     "canal":  "WestcolClips",
-                                     "inicio":  227.93,
-                                     "fin":  251.22
-                                 },
-                      "oportunidad_cazador":  null,
-                      "orden_en_fuente":  2,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-05"
-                  },
-                  {
-                      "id":  "2026-11-02-westcol-ganga-chanty",
-                      "estado":  "listo",
-                      "tipo":  "humor",
-                      "puntaje":  68,
-                      "gancho":  "Westcol: la ganga sin su líder",
-                      "archivo":  "salidas/clipero/clips/2026-11-02-westcol-ganga-chanty/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-11-02-westcol-ganga-chanty/ficha.md",
-                      "duracion_seg":  45.9,
-                      "fuente":  {
-                                     "url":  "https://youtu.be/8L8CP3xe3Qo?t=182",
-                                     "canal":  "WestcolClips",
-                                     "inicio":  181.97,
-                                     "fin":  227.82
-                                 },
-                      "oportunidad_cazador":  null,
-                      "orden_en_fuente":  5,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-05"
-                  },
-                  {
-                      "id":  "2026-11-02-westcol-w-sound-700mil",
-                      "estado":  "listo",
-                      "tipo":  "revelacion",
-                      "puntaje":  68,
-                      "gancho":  "Westcol presume los números de la W",
-                      "archivo":  "salidas/clipero/clips/2026-11-02-westcol-w-sound-700mil/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-11-02-westcol-w-sound-700mil/ficha.md",
-                      "duracion_seg":  61.0,
-                      "fuente":  {
-                                     "url":  "https://youtu.be/8L8CP3xe3Qo?t=96",
-                                     "canal":  "WestcolClips",
-                                     "inicio":  96.53,
-                                     "fin":  157.54
-                                 },
-                      "oportunidad_cazador":  null,
-                      "orden_en_fuente":  3,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-06"
                   },
                   {
                       "id":  "2026-11-02-toxico-intro-celos-aire",
@@ -2728,7 +3287,10 @@
                                      "fin":  19.6
                                  },
                       "oportunidad_cazador":  null,
+                      "linea":  "urbano",
                       "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "autorizado",
                       "plataformas":  [
                                           "tiktok",
@@ -2736,131 +3298,6 @@
                                           "youtube"
                                       ],
                       "ventana_hasta":  "2026-11-14"
-                  },
-                  {
-                      "id":  "2026-11-02-westcol-w-sound-espana",
-                      "estado":  "listo",
-                      "tipo":  "humor",
-                      "puntaje":  67,
-                      "gancho":  "Westcol: ¿por qué la W pegó en España?",
-                      "archivo":  "salidas/clipero/clips/2026-11-02-westcol-w-sound-espana/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-11-02-westcol-w-sound-espana/ficha.md",
-                      "duracion_seg":  63.6,
-                      "fuente":  {
-                                     "url":  "https://youtu.be/8L8CP3xe3Qo?t=672",
-                                     "canal":  "WestcolClips",
-                                     "inicio":  672.81,
-                                     "fin":  736.38
-                                 },
-                      "oportunidad_cazador":  null,
-                      "orden_en_fuente":  4,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-06"
-                  },
-                  {
-                      "id":  "2026-11-02-westcol-deje-la-hierba",
-                      "estado":  "listo",
-                      "tipo":  "revelacion",
-                      "puntaje":  67,
-                      "gancho":  "Westcol: «Yo dejé la hierba»",
-                      "archivo":  "salidas/clipero/clips/2026-11-02-westcol-deje-la-hierba/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-11-02-westcol-deje-la-hierba/ficha.md",
-                      "duracion_seg":  50.9,
-                      "fuente":  {
-                                     "url":  "https://youtu.be/OqsKq4thcZA?t=510",
-                                     "canal":  "Clipskick04",
-                                     "inicio":  510.81,
-                                     "fin":  561.7
-                                 },
-                      "oportunidad_cazador":  null,
-                      "orden_en_fuente":  2,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-05"
-                  },
-                  {
-                      "id":  "2026-11-02-lonche-taco-bell",
-                      "estado":  "propuesto",
-                      "tipo":  "frase",
-                      "puntaje":  64,
-                      "gancho":  "Lonche: los mejores tacos son de Taco Bell",
-                      "archivo":  "salidas/clipero/clips/2026-11-02-lonche-taco-bell/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-11-02-lonche-taco-bell/ficha.md",
-                      "duracion_seg":  16.9,
-                      "fuente":  {
-                                     "url":  "https://youtu.be/TGZYr7VNzio?t=1249",
-                                     "canal":  "Lonche PRIME",
-                                     "inicio":  1249.13,
-                                     "fin":  1266.02
-                                 },
-                      "oportunidad_cazador":  null,
-                      "orden_en_fuente":  2,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-06"
-                  },
-                  {
-                      "id":  "2026-11-01-kris-r-critica-trap-bogota",
-                      "estado":  "listo",
-                      "tipo":  "frase",
-                      "puntaje":  73,
-                      "gancho":  "Su crítica al concierto de Kris R",
-                      "archivo":  "salidas/clipero/clips/2026-11-01-kris-r-critica-trap-bogota/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-11-01-kris-r-critica-trap-bogota/ficha.md",
-                      "duracion_seg":  41.8,
-                      "fuente":  {
-                                     "url":  "https://youtu.be/hSV5nuZ5w_I?t=0",
-                                     "canal":  "ElWerik Podcast",
-                                     "inicio":  0,
-                                     "fin":  41.74
-                                 },
-                      "oportunidad_cazador":  null,
-                      "orden_en_fuente":  1,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-08"
-                  },
-                  {
-                      "id":  "2026-11-01-awooween-invitados-sorpresa",
-                      "estado":  "listo",
-                      "tipo":  "revelacion",
-                      "puntaje":  73,
-                      "gancho":  "Los invitados que nadie esperaba en el Awooween",
-                      "archivo":  "salidas/clipero/clips/2026-11-01-awooween-invitados-sorpresa/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-11-01-awooween-invitados-sorpresa/ficha.md",
-                      "duracion_seg":  18.9,
-                      "fuente":  {
-                                     "url":  "https://youtu.be/GBvB5F-zSMc?t=807",
-                                     "canal":  "Danigoals",
-                                     "inicio":  807.53,
-                                     "fin":  826.38
-                                 },
-                      "oportunidad_cazador":  "tema-awooween-ryan-castro-campin",
-                      "orden_en_fuente":  1,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-03"
                   },
                   {
                       "id":  "2026-11-01-kris-r-musica-cada-semana",
@@ -2878,7 +3315,10 @@
                                      "fin":  491.34
                                  },
                       "oportunidad_cazador":  null,
+                      "linea":  "urbano",
                       "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -2886,30 +3326,6 @@
                                           "youtube"
                                       ],
                       "ventana_hasta":  "2026-11-20"
-                  },
-                  {
-                      "id":  "2026-11-01-chanty-freestyle-dame-hombro",
-                      "estado":  "listo",
-                      "tipo":  "humor",
-                      "puntaje":  72,
-                      "gancho":  "Freestyle de \u0027dame hombro\u0027 en El Poblado",
-                      "archivo":  "salidas/clipero/clips/2026-11-01-chanty-freestyle-dame-hombro/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-11-01-chanty-freestyle-dame-hombro/ficha.md",
-                      "duracion_seg":  37.3,
-                      "fuente":  {
-                                     "url":  "https://youtu.be/1TF93cD11g0?t=764",
-                                     "canal":  "The Chanty",
-                                     "inicio":  764.17,
-                                     "fin":  801.42
-                                 },
-                      "oportunidad_cazador":  "audio-dame-hombro",
-                      "orden_en_fuente":  1,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram"
-                                      ],
-                      "ventana_hasta":  "2026-11-08"
                   },
                   {
                       "id":  "2026-11-01-kris-r-primer-estadio",
@@ -2927,7 +3343,10 @@
                                      "fin":  588.3
                                  },
                       "oportunidad_cazador":  null,
+                      "linea":  "urbano",
                       "orden_en_fuente":  3,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -2935,130 +3354,6 @@
                                           "youtube"
                                       ],
                       "ventana_hasta":  "2026-11-20"
-                  },
-                  {
-                      "id":  "2026-11-01-blessd-jet-como-bus",
-                      "estado":  "listo",
-                      "tipo":  "humor",
-                      "puntaje":  67,
-                      "gancho":  "Viaja en jet con Blessd como en bus",
-                      "archivo":  "salidas/clipero/clips/2026-11-01-blessd-jet-como-bus/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-11-01-blessd-jet-como-bus/ficha.md",
-                      "duracion_seg":  37.1,
-                      "fuente":  {
-                                     "url":  "https://youtu.be/tLTcYKphXdw?t=264",
-                                     "canal":  "Yeison guardo",
-                                     "inicio":  264.77,
-                                     "fin":  301.82
-                                 },
-                      "oportunidad_cazador":  null,
-                      "orden_en_fuente":  1,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-05"
-                  },
-                  {
-                      "id":  "2026-11-01-chanty-fotografo-100mil-fotos",
-                      "estado":  "listo",
-                      "tipo":  "emotivo",
-                      "puntaje":  67,
-                      "gancho":  "Quiere entregar 100.000 fotos físicas en su vida",
-                      "archivo":  "salidas/clipero/clips/2026-11-01-chanty-fotografo-100mil-fotos/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-11-01-chanty-fotografo-100mil-fotos/ficha.md",
-                      "duracion_seg":  20.7,
-                      "fuente":  {
-                                     "url":  "https://youtu.be/1TF93cD11g0?t=554",
-                                     "canal":  "The Chanty",
-                                     "inicio":  554.93,
-                                     "fin":  575.6
-                                 },
-                      "oportunidad_cazador":  null,
-                      "orden_en_fuente":  2,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-05"
-                  },
-                  {
-                      "id":  "2026-11-01-kris-r-avion-musica-desechable",
-                      "estado":  "listo",
-                      "tipo":  "historia",
-                      "puntaje":  67,
-                      "gancho":  "Escuchó la canción… y lo bajaron del avión",
-                      "archivo":  "salidas/clipero/clips/2026-11-01-kris-r-avion-musica-desechable/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-11-01-kris-r-avion-musica-desechable/ficha.md",
-                      "duracion_seg":  42.3,
-                      "fuente":  {
-                                     "url":  "https://youtu.be/hSV5nuZ5w_I?t=384",
-                                     "canal":  "ElWerik Podcast",
-                                     "inicio":  384.29,
-                                     "fin":  426.58
-                                 },
-                      "oportunidad_cazador":  null,
-                      "orden_en_fuente":  4,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-08"
-                  },
-                  {
-                      "id":  "2026-11-01-chanty-blessd-anuel",
-                      "estado":  "listo",
-                      "tipo":  "humor",
-                      "puntaje":  66,
-                      "gancho":  "Disfrazado de cantante y le preguntan: ¿Anuel?",
-                      "archivo":  "salidas/clipero/clips/2026-11-01-chanty-blessd-anuel/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-11-01-chanty-blessd-anuel/ficha.md",
-                      "duracion_seg":  21.6,
-                      "fuente":  {
-                                     "url":  "https://youtu.be/zRs0PqfAeWs?t=630",
-                                     "canal":  "The Chanty",
-                                     "inicio":  630.43,
-                                     "fin":  652
-                                 },
-                      "oportunidad_cazador":  null,
-                      "orden_en_fuente":  1,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram"
-                                      ],
-                      "ventana_hasta":  "2026-11-03"
-                  },
-                  {
-                      "id":  "2026-11-01-kris-r-almighty-miedo",
-                      "estado":  "listo",
-                      "tipo":  "humor",
-                      "puntaje":  66,
-                      "gancho":  "Le dio miedo saludar a Almighty",
-                      "archivo":  "salidas/clipero/clips/2026-11-01-kris-r-almighty-miedo/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-11-01-kris-r-almighty-miedo/ficha.md",
-                      "duracion_seg":  17.6,
-                      "fuente":  {
-                                     "url":  "https://youtu.be/hSV5nuZ5w_I?t=253",
-                                     "canal":  "ElWerik Podcast",
-                                     "inicio":  253.41,
-                                     "fin":  271.06
-                                 },
-                      "oportunidad_cazador":  null,
-                      "orden_en_fuente":  5,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-08"
                   },
                   {
                       "id":  "2026-10-31-granja-bebeshita-votos-kevyn",
@@ -3076,7 +3371,10 @@
                                      "fin":  495.38
                                  },
                       "oportunidad_cazador":  "tema-la-granja-vip-mx",
+                      "linea":  "urbano",
                       "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -3103,7 +3401,10 @@
                                      "fin":  8016.22
                                  },
                       "oportunidad_cazador":  "tema-ines-gomez-mont-detencion",
+                      "linea":  "urbano",
                       "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -3129,7 +3430,10 @@
                                      "fin":  7827.98
                                  },
                       "oportunidad_cazador":  "tema-ines-gomez-mont-detencion",
+                      "linea":  "urbano",
                       "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -3155,7 +3459,10 @@
                                      "fin":  182.58
                                  },
                       "oportunidad_cazador":  "tema-la-granja-vip-mx",
+                      "linea":  "urbano",
                       "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -3182,7 +3489,10 @@
                                      "fin":  863.98
                                  },
                       "oportunidad_cazador":  "tema-la-granja-vip-mx",
+                      "linea":  "urbano",
                       "orden_en_fuente":  3,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
@@ -3209,7 +3519,10 @@
                                      "fin":  1066.58
                                  },
                       "oportunidad_cazador":  "tema-la-granja-vip-mx",
+                      "linea":  "urbano",
                       "orden_en_fuente":  4,
+                      "variante_de":  null,
+                      "diferencia":  "",
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",

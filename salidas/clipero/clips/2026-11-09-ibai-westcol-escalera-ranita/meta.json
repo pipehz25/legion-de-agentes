@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-09-ibai-westcol-escalera-ranita",
+    "url_fuente":  "https://www.youtube.com/watch?v=627Fvn2fEjU",
+    "video_id":  "627Fvn2fEjU",
+    "inicio":  629.89,
+    "fin":  660.3,
+    "inicio_hms":  "0:10:29",
+    "duracion_seg":  30.5,
+    "gancho":  "Solo uno sube: ¿Westcol o Ibai?",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  71,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -15.64,
+                  "entrada_tp":  -3.01,
+                  "salida_lufs":  -14.13,
+                  "salida_tp":  -1.37
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-09-ibai-westcol-escalera-ranita/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-09-ibai-westcol-escalera-ranita/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-09-ibai-westcol-escalera-ranita/revision.jpg",
+    "creado":  "2026-11-09T21:36:35.5137742-05:00"
+}

@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-09-ibai-westcol-activacion",
+    "url_fuente":  "https://www.youtube.com/watch?v=627Fvn2fEjU",
+    "video_id":  "627Fvn2fEjU",
+    "inicio":  894.09,
+    "fin":  917.54,
+    "inicio_hms":  "0:14:54",
+    "duracion_seg":  23.5,
+    "gancho":  "Pidieron activación antes de la misión final",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  76,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -15.24,
+                  "entrada_tp":  -2.64,
+                  "salida_lufs":  -13.89,
+                  "salida_tp":  -1.4
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-09-ibai-westcol-activacion/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-09-ibai-westcol-activacion/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-09-ibai-westcol-activacion/revision.jpg",
+    "creado":  "2026-11-10T14:25:08.4803083-05:00"
+}

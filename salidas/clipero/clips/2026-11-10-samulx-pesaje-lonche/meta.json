@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-10-samulx-pesaje-lonche",
+    "url_fuente":  "https://www.youtube.com/watch?v=WAfZNmp2n8I",
+    "video_id":  "WAfZNmp2n8I",
+    "inicio":  629.73,
+    "fin":  652.3,
+    "inicio_hms":  "0:10:29",
+    "duracion_seg":  22.6,
+    "gancho":  "Lo que Samulx le dirá a Lonche en el pesaje",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  88,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -20.15,
+                  "entrada_tp":  -12.88,
+                  "salida_lufs":  -13.92,
+                  "salida_tp":  -6.76
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-10-samulx-pesaje-lonche/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-10-samulx-pesaje-lonche/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-10-samulx-pesaje-lonche/revision.jpg",
+    "creado":  "2026-11-10T15:29:16.4009494-05:00"
+}

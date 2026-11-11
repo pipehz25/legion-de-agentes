@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-10-samulx-plan-relevos",
+    "url_fuente":  "https://www.youtube.com/watch?v=WAfZNmp2n8I",
+    "video_id":  "WAfZNmp2n8I",
+    "inicio":  561.21,
+    "fin":  592.66,
+    "inicio_hms":  "0:09:21",
+    "duracion_seg":  31.5,
+    "gancho":  "El plan de Samulx con The Chanty",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  110,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -20.41,
+                  "entrada_tp":  -12.43,
+                  "salida_lufs":  -14.03,
+                  "salida_tp":  -6.05
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-10-samulx-plan-relevos/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-10-samulx-plan-relevos/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-10-samulx-plan-relevos/revision.jpg",
+    "creado":  "2026-11-10T15:39:34.5603060-05:00"
+}

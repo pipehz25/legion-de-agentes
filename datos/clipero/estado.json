@@ -1,8 +1,9 @@
 {
-    "actualizado":  "2026-11-09T21:50:00-05:00",
-    "ciclo":  10,
-    "ultimo_ciclo_cazador":  6,
-    "_nota_ciclos":  "Ciclo 7 (4-nov, 14:44-21:50; parado de 17:31 a 21:37 por el límite de uso): sin ciclo nuevo del Cazador (sigue en el 5, procesado en el ciclo 6), descubrimiento propio dentro del enfoque. Durante la pausa, un encargo aparte sobre el robot de Westcol (Xrwm98iaWY8, 19:50-20:16; informe 2026-11-04-westcol-robot.md) se registró como \u0027ciclo 8\u0027 y cortó 5 clips; se mantiene 8 para que el contador no retroceda. El ciclo 6 (3-nov) se cortó por un fallo de red y se cerró en el ciclo 7. Ciclo 10 (8-nov, procesó el ciclo 6 del Cazador): se cortó a las 23:49 por el límite de uso, antes de registrar 7 clips y de escribir el informe. Se cerró el 9-nov entre las 20:50 y las 21:50 sin abrir ciclo nuevo: 4 clips ya hechos se revisaron y se registraron, y 3 se volvieron a cortar desde su ficha (ybjXHgxGBMo). El informe del ciclo 10 sigue sin escribirse. El Cazador publicó su ciclo 7 el 9-nov a las 21:45: le toca al ciclo 11.",
+    "actualizado":  "2026-11-10T16:00:00-05:00",
+    "ciclo":  12,
+    "ultimo_ciclo_cazador":  8,
+    "ultimo_ciclo_cazador_risas":  0,
+    "_nota_ciclos":  "Ciclo 7 (4-nov, 14:44-21:50; parado de 17:31 a 21:37 por el límite de uso): sin ciclo nuevo del Cazador (sigue en el 5, procesado en el ciclo 6), descubrimiento propio dentro del enfoque. Durante la pausa, un encargo aparte sobre el robot de Westcol (Xrwm98iaWY8, 19:50-20:16; informe 2026-11-04-westcol-robot.md) se registró como \u0027ciclo 8\u0027 y cortó 5 clips; se mantiene 8 para que el contador no retroceda. El ciclo 6 (3-nov) se cortó por un fallo de red y se cerró en el ciclo 7. Ciclo 10 (8-nov, procesó el ciclo 6 del Cazador): se cortó a las 23:49 por el límite de uso, antes de registrar 7 clips y de escribir el informe. Se cerró el 9-nov entre las 20:50 y las 21:50 sin abrir ciclo nuevo: 4 clips ya hechos se revisaron y se registraron, y 3 se volvieron a cortar desde su ficha (ybjXHgxGBMo). El informe del ciclo 10 sigue sin escribirse. El Cazador publicó su ciclo 7 el 9-nov a las 21:45: le toca al ciclo 11. Ciclo 11 (9-nov, desde las 21:29; procesa el ciclo 7 del Cazador): orden del orquestador: Ibai con Westcol (627Fvn2fEjU), el round de Westcol y Samulx (WAfZNmp2n8I y RKnmC_cEz3s), Lonche (_BA7OAA-8Ao y MLoui0M6ZO0), después The Chanty (8IheSHj1xfA) y Diego RR (-4oSl93f2eU), y por último Kick (VOD de Lonche). Sin variantes: TikTok, YouTube, Instagram y Facebook tienen una sola cuenta activa (principal). Ciclo 12 (10-nov; procesa el ciclo 8 del Cazador Urbano y cierra lo pendiente del 11): una primera ejecución (14:20-15:02) cortó 4 clips de Ibai, 4 de Samulx y 1 de Willito sin registrarlos y se paró; la segunda (desde las 15:09) los revisó, registró y siguió. Sin entrada del Cazador de Risas (salidas/cazador-risas/oportunidades.json no existe a las 15:10): todo el ciclo es línea urbano. Desde este ciclo cada clip lleva \u0027linea\u0027 (los antiguos se marcaron \u0027urbano\u0027). Sin variantes: cada plataforma tiene una sola cuenta activa (principal; la de risas está apagada). clips.json se podó a los últimos 7 días (antes del 3-nov solo quedan los descartados por el usuario). Corrección de la poda: se quitaron de clips.json los clips anteriores al 3-nov con la ventana ya cerrada (21); se quedan los que siguen en ventana (4 de Tóxico y 2 de Kris R) y los descartados por el usuario. Línea urbano del ciclo 12 cerrada hacia las 16:00: 4 fuentes nuevas analizadas (LkY43nX5guU, YwhGtvtJ1Uk, WAfZNmp2n8I, EMfdJlhdVRg) más el cierre de 627Fvn2fEjU. El Cazador de Risas publicó su primer ciclo a media tarde y el orquestador pidió seguir con risas en este mismo ciclo (mínimo 2 fuentes por línea). Quedan de urbano para el ciclo 13, por este orden: Qyzqh4tJp0M (Cuphead de Westcol y Samulx, 88 min), _A8fxARu-5g (boda en broma de Willito y Lonche), tyACjLDov8E y MLoui0M6ZO0 (Lonche en México), nzKzpNx9zF8 (Jelty y SoyPan), -4oSl93f2eU y otkPy_v5Uc4 (Diego RR), n4c0JQp8hTY (empresario, márgenes de la ropa) y el VOD de Kick de Willito (01a1c32d…).",
     "fuentes":  [
                     {
                         "id":  "LYEB5ioD_pY",
@@ -345,7 +346,42 @@
                         "url":  "https://www.youtube.com/watch?v=ybjXHgxGBMo",
                         "titulo":  "Me GASTÉ $100.000 DÓLARES en un RICHARD MILLE (Valió la pena?) | WESTCOL",
                         "analizado":  "2026-11-08",
-                        "resultado":  "4 clips (ciclo 10, registrados el 9-nov hacia las 21:30, porque el ciclo se cortó el 8-nov a las 23:49 por el límite de uso): reloj-fake 82, cadenas-rey 81, patek-inversion 76, richard-patek-carro 72; los tres últimos se volvieron a cortar el 9-nov desde su ficha | fuente_para_clips del Cazador (ciclo 6, aparece: true; candidato 'matemática del lujo', sin oportunidad con id), perfil Westcol con Samulx en la escena; cadenas-rey va a tema-stream-fighters-5 | canal oficial WestCOL (2,07 M), publicado 8-nov 20:00, 1.356 s, 7.952 vistas a las 23:40 (2.034/h a las 23:03 según el Cazador) | sin picos ni marcas | joyería en la guarida con el joyero Alto Rango; Samulx elige su primer reloj; misma sesión que 'ELIGIENDO MI PRIMER RELOJ DE DIAMANTES CON WESTCOL' (Samulx, AW_fM1YiGO8) | 9:35-11:32 llamada a Rey de la City por la cadena (después de cadenas-rey) | los subtítulos no separan las voces (Westcol, Samulx, Alto Rango) | los momentos descartados de esta fuente no se anotaron antes del corte del ciclo | palabras-rev.json: Fire→Fighter, Torrango/torrango→Alto Rango, pan→Pan, piqueto→piquete, relo→reloj, hecho→echo, Patec/pate/paté→Patek, Philip→Philippe, de→el (17:46), sabó→(…); el 9-nov, 'yo,'→'yo' (6:20, solo la coma): dos palabras con el mismo tiempo daban un subtítulo de duración cero y ffmpeg dejaba sin gancho todo el clip"
+                        "resultado":  "4 clips (ciclo 10, registrados el 9-nov hacia las 21:30, porque el ciclo se cortó el 8-nov a las 23:49 por el límite de uso): reloj-fake 82, cadenas-rey 81, patek-inversion 76, richard-patek-carro 72; los tres últimos se volvieron a cortar el 9-nov desde su ficha | fuente_para_clips del Cazador (ciclo 6, aparece: true; candidato \u0027matemática del lujo\u0027, sin oportunidad con id), perfil Westcol con Samulx en la escena; cadenas-rey va a tema-stream-fighters-5 | canal oficial WestCOL (2,07 M), publicado 8-nov 20:00, 1.356 s, 7.952 vistas a las 23:40 (2.034/h a las 23:03 según el Cazador) | sin picos ni marcas | joyería en la guarida con el joyero Alto Rango; Samulx elige su primer reloj; misma sesión que \u0027ELIGIENDO MI PRIMER RELOJ DE DIAMANTES CON WESTCOL\u0027 (Samulx, AW_fM1YiGO8) | 9:35-11:32 llamada a Rey de la City por la cadena (después de cadenas-rey) | los subtítulos no separan las voces (Westcol, Samulx, Alto Rango) | los momentos descartados de esta fuente no se anotaron antes del corte del ciclo | palabras-rev.json: Fire→Fighter, Torrango/torrango→Alto Rango, pan→Pan, piqueto→piquete, relo→reloj, hecho→echo, Patec/pate/paté→Patek, Philip→Philippe, de→el (17:46), sabó→(…); el 9-nov, \u0027yo,\u0027→\u0027yo\u0027 (6:20, solo la coma): dos palabras con el mismo tiempo daban un subtítulo de duración cero y ffmpeg dejaba sin gancho todo el clip"
+                    },
+                    {
+                        "id":  "627Fvn2fEjU",
+                        "url":  "https://www.youtube.com/watch?v=627Fvn2fEjU",
+                        "titulo":  "Sobreviví a un Entrenamiento Militar con Westcol",
+                        "analizado":  "2026-11-09",
+                        "resultado":  "7 clips: escalera-ranita 86 y ariete-puerta 82 (ciclo 11); cinta 80 (cortado el 9-nov a las 21:49, registrado el 10-nov), activacion 78, zapatilla 76, burpees 72 y policia-colombiana 71 (ciclo 12) | fuente_para_clips n.º 1 del Cazador (ciclo 7), perfil Westcol con Ibai, tema-stream-fighters-5 | Ibai (17,4 M), publicado 9-nov 14:01, 1.237 s, 1.082.214 vistas a las 7,5 h (144.295/h) y 2.074.323 a las 24 h | marcas en comentarios: 0:18 y 0:26, 4:30-4:41 (9 menciones, 227 likes), 7:02-7:16 (4, 49 likes), 10:30-10:41 (853 likes), 16:53-17:00 (5, 120 likes), 17:27-19:00 (3, 44 likes), 20:30 (29 likes) | transcripción leída entera (158 líneas) | entrenamiento táctico en España con armas simuladas: tiro, detenciones a punta de arma, \u0027planta medicinal\u0027, \u0027polvito rosado\u0027 y \u0027sangre colombiana\u0027 quedan fuera | Clipeando ya subió varios momentos (cinta, tiro, planta) | palabras-rev.json: WC, V, Amaría ir, Como pes y Hol→(…), fu→uf, Cuatroas→Cuatro | la entrada no se escribió en el ciclo 11 (se cortó antes): añadida en el ciclo 12"
+                    },
+                    {
+                        "id":  "LkY43nX5guU",
+                        "url":  "https://www.youtube.com/watch?v=LkY43nX5guU",
+                        "titulo":  "PROBANDO TODAS LAS HAMBURGUESAS DE WESTCOL 🔥¿LAS MEJORES? | Samulx",
+                        "analizado":  "2026-11-10",
+                        "resultado":  "4 clips (ciclo 12): burger-mermelada 79, burger-espana 78, pollito-rebanaditas 77, pizza-con-pina 72 | fuente_para_clips n.º 1 del Cazador (ciclo 8), perfiles Samulx y Westcol, formato-primera-vez-en-medellin | Samulx (188.000), publicado 9-nov 21:59, 846 s, 112.459 vistas a las 16 h (7.029/h, 2,75 veces la mediana del canal) y 121.132 al analizar (10-nov, 14:36) | sin picos; 4 marcas en comentarios (5:48 mermelada, 8:29 Chanty, 9:40 pollito, 11:07) | transcripción leída entera (132 líneas) | la mermelada ya está recortada (Live Samulx SZiF6kvHUIU, unas 30.000 vistas; basuquito baD2ZVdXMY4, 171) | no afirmar de quién es Fuego Burger | fuera: promoción (0:00-0:50), \u0027como una niña… uno como hombre\u0027 (7:15-7:24), cerveza y \u0027muy gay\u0027 (10:02) | palabras-rev.json: juego→Fuego (4), Verad→Verdad, piño→piña, Chanti→Chanty, m→mí; Melada, sai, requeso y \u0027Gracias por papi\u0027→(…)"
+                    },
+                    {
+                        "id":  "YwhGtvtJ1Uk",
+                        "url":  "https://www.youtube.com/watch?v=YwhGtvtJ1Uk",
+                        "titulo":  "Willito Y Jelty Boxeando En Mochis",
+                        "analizado":  "2026-11-10",
+                        "resultado":  "2 clips (ciclo 12): jelty-temblando-show 73, willito-manoplas-desmayo 69 | fuente_para_clips n.º 2 del Cazador (ciclo 8), perfil Willito con Jelty (similar nuevo), tema-stream-fighters-5 | Willito Live (57.500), publicado 10-nov 12:13, 2.211 s, 291 vistas al analizar (14:57) | sin picos ni marcas | transcripción leída entera (300 líneas): casi todo manoplas y sparring con música | quien golpea las manoplas parece Jelty (camiseta negra, igual que en temblando-show), no Willito | fuera: Willito vomitando por el whisky (29:08), \u0027ando crudo\u0027, susto de salud y apuesta con un asistente (32:37-33:44) | \u0027Quiero Arias, voy por ti\u0027 (28:08) sin identificar | palabras-rev.json: Yelty→Jelty, rinfo→ring, confondo→confundo, est→estás, Chck→chat, do/cu→dos/cuatro (873-880 s); invoqueador, nego, Che, construye y Challenge→(…) | su VOD de Kick (01a1c32d…, 4 h 10 min) queda sin cortar"
+                    },
+                    {
+                        "id":  "WAfZNmp2n8I",
+                        "url":  "https://www.youtube.com/watch?v=WAfZNmp2n8I",
+                        "titulo":  "WESTCOL PARCHAND0 CON SAMULX Y HACEN UN ROUND EN VIVO",
+                        "analizado":  "2026-11-10",
+                        "resultado":  "5 clips (ciclo 12): lonche-excusas 80, pesaje-lonche 79, chanty-no-cae 78, plan-relevos 76, medio-pulmon 72; round-cuerpo en revisión | fuente_para_clips del Cazador (ciclos 7 y 8), perfiles Westcol y Samulx, tema-stream-fighters-5 | juan diego mm (114.000; recortes del directo de Westcol), publicado 9-nov 17:04, 1.260 s, 38.892 vistas a las 21 h (1.852/h) y 39.630 al analizar (10-nov, 15:25) | sin picos ni marcas (5 comentarios) | transcripción leída entera (180 líneas) | combate por equipos con relevos: Samulx y The Chanty contra Lonche y Willito; pesaje el viernes 13-nov | el round (4:21-6:30) va casi sin diálogo | 11:42 \u0027el orden oficial… la primera: Daren y el agropecuario Ruiz\u0027 queda propuesto para escuchar | fuera: \u0027Lonche aterriza borracho\u0027, lesión de Piquiña, \u0027niños ratas\u0027 | búsqueda de saturación (15:26): sin recortes de estos momentos | palabras-rev.json: lonche/lonch→Lonche, Wilito/Helito→Willito, Chanti→Chanty, acero→a cero, broa→bro, 50,000→50.000; Lido, Ust, imag, empez y contrache→(…)"
+                    },
+                    {
+                        "id":  "EMfdJlhdVRg",
+                        "url":  "https://www.youtube.com/watch?v=EMfdJlhdVRg",
+                        "titulo":  "WESTCOL Y SAMULX TIRANDO FREESTYLE 🔥",
+                        "analizado":  "2026-11-10",
+                        "resultado":  "sin clips + 1 propuesto para escuchar (ciclo 12) | fuente_para_clips del Cazador (ciclo 8), perfiles Westcol y Samulx | Aida Victoria Stream (17.000), publicado 9-nov 23:23, 1.958 s, 20.651 vistas a las 14,6 h (1.414/h) y 23.426 al analizar (10-nov, 15:47) | sin picos ni marcas | transcripción leída entera (252 líneas) | casi todo es freestyle sobre beats de YouTube (drill, Detroit, trap; no se sabe si son comerciales): letras sexuales y misóginas, infidelidad, robos, alcohol y armas; tiraderas a Rey de la City con deudas y empeños (afirmaciones sobre un tercero) | lo único del enfoque es la barra sobre Lonche (5:27-5:46), propuesta para escuchar"
                     }
                 ],
     "momentos":  [
@@ -3713,7 +3749,7 @@
                          "estado":  "cortado",
                          "clip":  "2026-11-08-westcol-nueve-colegios",
                          "variante_de":  null,
-                         "motivo":  "revelacion, 73 (ciclo 10; registrado el 9-nov): 'mi mamá mantenía cambiando de trabajo… estudié en ocho colegios… como nueve colegios distintos'"
+                         "motivo":  "revelacion, 73 (ciclo 10; registrado el 9-nov): \u0027mi mamá mantenía cambiando de trabajo… estudié en ocho colegios… como nueve colegios distintos\u0027"
                      },
                      {
                          "fuente":  "s0BJLb8qHnc",
@@ -3731,7 +3767,7 @@
                          "estado":  "cortado",
                          "clip":  "2026-11-08-westcol-peladitos-joseadores",
                          "variante_de":  null,
-                         "motivo":  "emotivo, 69 (ciclo 10; registrado el 9-nov): 'A mí me caen muy bien los peladitos joseadores… no me duele dar publicidad cuando hay producto… cómprenles, apoyen'. Escuchar: confirmar que habla Westcol"
+                         "motivo":  "emotivo, 69 (ciclo 10; registrado el 9-nov): \u0027A mí me caen muy bien los peladitos joseadores… no me duele dar publicidad cuando hay producto… cómprenles, apoyen\u0027. Escuchar: confirmar que habla Westcol"
                      },
                      {
                          "fuente":  "ybjXHgxGBMo",
@@ -3740,7 +3776,7 @@
                          "estado":  "cortado",
                          "clip":  "2026-11-08-westcol-reloj-fake",
                          "variante_de":  null,
-                         "motivo":  "revelacion, 82 (ciclo 10; cortado el 9-nov): '¿para qué me voy a poner a comprar algo chiviado?… Yo tuve fake antes… lo estaba proyectando… no tengo necesidad de hacer esa película'. Escuchar: confirmar que habla Westcol (el gancho se lo atribuye)"
+                         "motivo":  "revelacion, 82 (ciclo 10; cortado el 9-nov): \u0027¿para qué me voy a poner a comprar algo chiviado?… Yo tuve fake antes… lo estaba proyectando… no tengo necesidad de hacer esa película\u0027. Escuchar: confirmar que habla Westcol (el gancho se lo atribuye)"
                      },
                      {
                          "fuente":  "ybjXHgxGBMo",
@@ -3749,7 +3785,7 @@
                          "estado":  "cortado",
                          "clip":  "2026-11-08-sf5-cadenas-rey",
                          "variante_de":  null,
-                         "motivo":  "revelacion, 81 (ciclo 10; registrado el 9-nov): siete cadenas de Alto Rango para la ganga en el camerino de Stream Fighters 5; 'si Rey no gana… se le quita esa cadena y se le da a Pan'"
+                         "motivo":  "revelacion, 81 (ciclo 10; registrado el 9-nov): siete cadenas de Alto Rango para la ganga en el camerino de Stream Fighters 5; \u0027si Rey no gana… se le quita esa cadena y se le da a Pan\u0027"
                      },
                      {
                          "fuente":  "ybjXHgxGBMo",
@@ -3758,7 +3794,7 @@
                          "estado":  "cortado",
                          "clip":  "2026-11-08-westcol-patek-inversion",
                          "variante_de":  null,
-                         "motivo":  "revelacion, 76 (ciclo 10; cortado el 9-nov): 'eso es inversión… como 25.000 le gané al Patek un mesecito después… yo no lo vendo'. Escuchar: cifras de los subtítulos automáticos"
+                         "motivo":  "revelacion, 76 (ciclo 10; cortado el 9-nov): \u0027eso es inversión… como 25.000 le gané al Patek un mesecito después… yo no lo vendo\u0027. Escuchar: cifras de los subtítulos automáticos"
                      },
                      {
                          "fuente":  "ybjXHgxGBMo",
@@ -3767,7 +3803,601 @@
                          "estado":  "cortado",
                          "clip":  "2026-11-08-westcol-richard-patek-carro",
                          "variante_de":  null,
-                         "motivo":  "revelacion, 72 (ciclo 10; cortado el 9-nov): 'cuando Diego no me trajo el carro, yo compré el Richard y el Patek'. No nombrar a RR Autos; escuchar el 'Me dijo…' del medio y la palabra rota (…)"
+                         "motivo":  "revelacion, 72 (ciclo 10; cortado el 9-nov): \u0027cuando Diego no me trajo el carro, yo compré el Richard y el Patek\u0027. No nombrar a RR Autos; escuchar el \u0027Me dijo…\u0027 del medio y la palabra rota (…)"
+                     },
+                     {
+                         "fuente":  "627Fvn2fEjU",
+                         "inicio":  629.89,
+                         "fin":  660.3,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-09-ibai-westcol-escalera-ranita",
+                         "variante_de":  null,
+                         "motivo":  "humor, 86 (ciclo 11): solo uno sube la escalera; sube Westcol \u0027por Colombia\u0027 e Ibai lo anima (\u0027qué bien, ranita\u0027). Marca de comentarios 10:30-10:41 con 853 likes"
+                     },
+                     {
+                         "fuente":  "627Fvn2fEjU",
+                         "inicio":  243.85,
+                         "fin":  284.58,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-09-ibai-westcol-ariete-puerta",
+                         "variante_de":  null,
+                         "motivo":  "humor, 82 (ciclo 11): el ariete de 30 kg contra una puerta que no abre, hasta que entran. Marca de comentarios 4:30-4:41, 9 menciones y 227 likes. Recortado una vez para no terminar con los figurantes encañonados (284,6-300 s)"
+                     },
+                     {
+                         "fuente":  "627Fvn2fEjU",
+                         "inicio":  284.6,
+                         "fin":  300.6,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Figurantes en el suelo encañonados con armas simuladas (\u0027¿Tenéis esposas?\u0027). Armas como espectáculo (nota del Cazador, ciclo 7)"
+                     },
+                     {
+                         "fuente":  "627Fvn2fEjU",
+                         "inicio":  0,
+                         "fin":  35,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "60, presentación del instructor (\u0027os voy a insultar… ¿sois finitos en algo?\u0027). 2 marcas en comentarios (0:18 y 0:26, 21 likes), pero la de 0:26 lo lee como secuela del \u0027hate y las acusaciones\u0027 (caso Komanche, exclusión)"
+                     },
+                     {
+                         "fuente":  "627Fvn2fEjU",
+                         "inicio":  450.5,
+                         "fin":  607,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Recorrido de tiro con subfusil y pistola simulados: \u0027se ha cargado al cámara\u0027 (7:35), \u0027se me encasquilló… nos han matado 30 veces\u0027 (8:30-8:47). Armas como espectáculo; Clipeando ya lo subió"
+                     },
+                     {
+                         "fuente":  "627Fvn2fEjU",
+                         "inicio":  661,
+                         "fin":  745,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Neutralizar al \u0027terrorista\u0027 desde la azotea (\u0027creo que es un colombiano\u0027), \u0027eso pasa todos los días en Colombia\u0027, \u0027sangre colombiana\u0027. Armas y alusión a la violencia en Colombia (nota del Cazador)"
+                     },
+                     {
+                         "fuente":  "627Fvn2fEjU",
+                         "inicio":  757,
+                         "fin":  790,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "\u0027Recuperar una planta… medicinal, sí, medicinal\u0027. Broma de drogas; Clipeando ya la subió"
+                     },
+                     {
+                         "fuente":  "627Fvn2fEjU",
+                         "inicio":  839,
+                         "fin":  856,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "\u0027Siempre los bandidos están más asustados que el policía… se lo digo por experiencia\u0027. Ambiguo: se puede leer como pasado delictivo; no se corta"
+                     },
+                     {
+                         "fuente":  "627Fvn2fEjU",
+                         "inicio":  1010,
+                         "fin":  1035,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "\u0027Un polvito rosado… veo harina, creo que están haciendo pan\u0027 (5 marcas en comentarios, 120 likes). Broma de drogas: no se corta"
+                     },
+                     {
+                         "fuente":  "627Fvn2fEjU",
+                         "inicio":  1045,
+                         "fin":  1140,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Detenciones a punta de arma simulada (\u0027al suelo\u0027, \u0027arriba/abajo\u0027; 3 marcas en comentarios, 44 likes). Armas como espectáculo"
+                     },
+                     {
+                         "fuente":  "627Fvn2fEjU",
+                         "inicio":  1176,
+                         "fin":  1195,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "\u0027En este país salen rápido de la cárcel\u0027 y \u0027es una platica\u0027 (la planta). Justicia y drogas"
+                     },
+                     {
+                         "fuente":  "627Fvn2fEjU",
+                         "inicio":  417.01,
+                         "fin":  451.18,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-09-ibai-westcol-cinta",
+                         "variante_de":  null,
+                         "motivo":  "humor, 80 (cortado el 9-nov a las 21:49; revisado y registrado en el ciclo 12): la cinta curva se le va a Westcol (\u0027me fui, me fui\u0027). 4 marcas en comentarios en 7:02-7:16 (49 likes). Termina antes de \u0027se ha cargado al cámara\u0027"
+                     },
+                     {
+                         "fuente":  "627Fvn2fEjU",
+                         "inicio":  894.09,
+                         "fin":  917.54,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-09-ibai-westcol-activacion",
+                         "variante_de":  null,
+                         "motivo":  "reaccion, 78 (ciclo 12): piden \u0027entrar en situación\u0027 y reciben la \u0027activación\u0027 (descarga de entrenamiento consentida). Ver antes de publicar"
+                     },
+                     {
+                         "fuente":  "627Fvn2fEjU",
+                         "inicio":  955.73,
+                         "fin":  984.94,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-09-ibai-westcol-zapatilla",
+                         "variante_de":  null,
+                         "motivo":  "humor, 76 (cortado el 9-nov a las 21:52 sin registro; recortado el 10-nov para arreglar un subtítulo): a Ibai se le sale la zapatilla y la puerta no abre; Westcol: \u0027me llegan a electrocutar otra vez por su culpa\u0027"
+                     },
+                     {
+                         "fuente":  "627Fvn2fEjU",
+                         "inicio":  185.33,
+                         "fin":  232.7,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-09-ibai-westcol-burpees",
+                         "variante_de":  null,
+                         "motivo":  "humor, 72 (ciclo 12): 10 burpees con chaleco y casco antes del ariete, con el contador de la edición de Ibai"
+                     },
+                     {
+                         "fuente":  "627Fvn2fEjU",
+                         "inicio":  1206.65,
+                         "fin":  1237.34,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-09-ibai-westcol-policia-colombiana",
+                         "variante_de":  null,
+                         "motivo":  "humor, 71 (ciclo 12): \u0027la policía colombiana lo volvió a hacer… nos tocó llegar a nosotros\u0027. Broma dentro de un simulacro; marca 20:30 (29 likes)"
+                     },
+                     {
+                         "fuente":  "627Fvn2fEjU",
+                         "inicio":  35,
+                         "fin":  185,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "Presentación del material (armas simuladas, spray, torniquete) y explicación del ariete (\u0027hay que gritarles en la cara\u0027). Sin remate; armas. Máximo 58"
+                     },
+                     {
+                         "fuente":  "627Fvn2fEjU",
+                         "inicio":  300.6,
+                         "fin":  417,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "Balance del ariete (\u0027donde no abramos esa puerta quedamos como unos imbéciles\u0027, 62; repite la idea de ariete-puerta) y demostración del recorrido de tiro (armas)"
+                     },
+                     {
+                         "fuente":  "627Fvn2fEjU",
+                         "inicio":  790,
+                         "fin":  839,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "Planificación de la entrada (\u0027aquí hay un gato, papi\u0027). Sin remate"
+                     },
+                     {
+                         "fuente":  "627Fvn2fEjU",
+                         "inicio":  856,
+                         "fin":  894,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "\u0027Mi primera misión oficial… o todo sale bien o Westcol me dispara a mí. Yo al cámara y tú de camino\u0027 (63). Chiste de disparos: armas como espectáculo"
+                     },
+                     {
+                         "fuente":  "627Fvn2fEjU",
+                         "inicio":  918,
+                         "fin":  955,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "Cómo esposar y primera entrada. Detenciones y armas"
+                     },
+                     {
+                         "fuente":  "627Fvn2fEjU",
+                         "inicio":  985,
+                         "fin":  1010,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "Segunda entrada (\u0027tira, tira, tira\u0027). Armas"
+                     },
+                     {
+                         "fuente":  "627Fvn2fEjU",
+                         "inicio":  1140,
+                         "fin":  1176,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "Tijeras, \u0027ya llegó la ley colombiana\u0027 y detenidos en el suelo. Armas y detenciones"
+                     },
+                     {
+                         "fuente":  "627Fvn2fEjU",
+                         "inicio":  1195,
+                         "fin":  1206,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "Cierre del ejercicio (\u0027buen ejercicio, señores\u0027). Sin momento"
+                     },
+                     {
+                         "fuente":  "LkY43nX5guU",
+                         "inicio":  298.37,
+                         "fin":  345,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-10-samulx-burger-mermelada",
+                         "variante_de":  null,
+                         "motivo":  "reaccion, 79 (ciclo 12): Samulx prueba la de mermelada y no le gusta (\u0027casi casi me da algo\u0027). Es el momento que señala el Cazador; ya recortado por Live Samulx (SZiF6kvHUIU) y basuquito: frescura media"
+                     },
+                     {
+                         "fuente":  "LkY43nX5guU",
+                         "inicio":  211.37,
+                         "fin":  246.6,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-10-samulx-burger-espana",
+                         "variante_de":  null,
+                         "motivo":  "revelacion, 78 (ciclo 12): \u0027¿de qué sirve abrir Fuego Burger en España y que sepa a hamburguesa española?\u0027. No afirmar de quién es la marca"
+                     },
+                     {
+                         "fuente":  "LkY43nX5guU",
+                         "inicio":  548.57,
+                         "fin":  587.94,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-10-samulx-pollito-rebanaditas",
+                         "variante_de":  null,
+                         "motivo":  "humor, 77 (ciclo 12): \u0027si yo quiero mi pollito en rebanaditas, me lo como en rebanaditas\u0027. Marca 9:40. Termina antes de \u0027muy gay\u0027 (10:02)"
+                     },
+                     {
+                         "fuente":  "LkY43nX5guU",
+                         "inicio":  382.33,
+                         "fin":  420.02,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-10-samulx-pizza-con-pina",
+                         "variante_de":  null,
+                         "motivo":  "confrontacion, 72 (ciclo 12): pizza con piña, \u0027todo en la vida es acostumbrar al paladar\u0027. Termina antes de la cerveza y de \u0027como una niña\u0027"
+                     },
+                     {
+                         "fuente":  "LkY43nX5guU",
+                         "inicio":  0,
+                         "fin":  50,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "Promoción (\u0027ya saben que pueden pedir su Fuego Burger ya mismo… solo en ciudades principales\u0027). Publicidad"
+                     },
+                     {
+                         "fuente":  "LkY43nX5guU",
+                         "inicio":  91,
+                         "fin":  161,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "\u0027Carlos no mandó ni la Bomba ni la W, las mejores\u0027 (60). Habla de la marca como suya (el Cazador pide no afirmarlo) y suena a promoción"
+                     },
+                     {
+                         "fuente":  "LkY43nX5guU",
+                         "inicio":  420,
+                         "fin":  476,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "Cerveza de niño, mariscos y \u0027no puede ser como una niña… uno como hombre tiene que comer de todo\u0027. Alcohol y estereotipo de género"
+                     },
+                     {
+                         "fuente":  "LkY43nX5guU",
+                         "inicio":  499,
+                         "fin":  528,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "Anécdota de Chanty y la hamburguesa con \u0027ripio de perros\u0027 (marca 8:29, 7 likes). Transcripción confusa: no se entiende quién comió qué (63)"
+                     },
+                     {
+                         "fuente":  "LkY43nX5guU",
+                         "inicio":  600,
+                         "fin":  735,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "\u0027Muy gay, bro\u0027 (10:02), queso con piña, el azúcar y la \u0027diarrea\u0027, y el pedido de pizza de Samulx. Exclusión y repite pizza-con-pina"
+                     },
+                     {
+                         "fuente":  "LkY43nX5guU",
+                         "inicio":  797,
+                         "fin":  834,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "Ban permanente a un espectador del chat. Sin interés fuera del directo (55)"
+                     },
+                     {
+                         "fuente":  "YwhGtvtJ1Uk",
+                         "inicio":  1779.29,
+                         "fin":  1811.62,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-10-jelty-temblando-show",
+                         "variante_de":  null,
+                         "motivo":  "humor, 73 (ciclo 12): \u0027obviamente estoy temblando para que parezca que me esforcé… podría hacer esto 3 horas más\u0027 (ironía, recién salido del ring)"
+                     },
+                     {
+                         "fuente":  "YwhGtvtJ1Uk",
+                         "inicio":  849.33,
+                         "fin":  890.94,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-10-willito-manoplas-desmayo",
+                         "variante_de":  null,
+                         "motivo":  "reaccion, 69 (ciclo 12; primer corte a las 15:02 con \u0027Faltan 4 días\u0027 y subtítulos orig, rehecho con -Subs rev y un gancho que no caduca): combinaciones rápidas hasta \u0027casi me desmayo\u0027. Quien golpea parece Jelty"
+                     },
+                     {
+                         "fuente":  "YwhGtvtJ1Uk",
+                         "inicio":  0,
+                         "fin":  159,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "Compra de vendas y calentamiento con música (\u0027el patio con mi abuela era el gimnasio\u0027, fragmento). Sin remate"
+                     },
+                     {
+                         "fuente":  "YwhGtvtJ1Uk",
+                         "inicio":  159,
+                         "fin":  200,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "\u0027Yo creo que tú le puedes ganar al Lonche y al Pan a la misma vez\u0027 (58). Frase suelta sin contexto"
+                     },
+                     {
+                         "fuente":  "YwhGtvtJ1Uk",
+                         "inicio":  1626,
+                         "fin":  1691,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "\u0027Yo siento que el sparring lo gané yo… Quiero Arias, voy por ti\u0027 (61). \u0027Ando crudo\u0027 y un reto a alguien sin identificar"
+                     },
+                     {
+                         "fuente":  "YwhGtvtJ1Uk",
+                         "inicio":  1714,
+                         "fin":  1748,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "\u0027El hijo perdido de Canelo\u0027, charla con un asistente del gimnasio (64). Bajo el umbral; persona privada"
+                     },
+                     {
+                         "fuente":  "YwhGtvtJ1Uk",
+                         "inicio":  1748,
+                         "fin":  1763,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "\u0027Creo que está vomitando… el whisky\u0027. Alcohol"
+                     },
+                     {
+                         "fuente":  "YwhGtvtJ1Uk",
+                         "inicio":  1957,
+                         "fin":  2024,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "\u0027Por poquito me iba… sentí que me iba a desmayar\u0027 y la apuesta de 100 si un asistente le pega en la cara. Susto de salud y persona privada"
+                     },
+                     {
+                         "fuente":  "YwhGtvtJ1Uk",
+                         "inicio":  2119,
+                         "fin":  2211,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "Fotos y saludos con asistentes; \u0027siento que me estoy muriendo\u0027. Sin momento"
+                     },
+                     {
+                         "fuente":  "WAfZNmp2n8I",
+                         "inicio":  629.73,
+                         "fin":  652.3,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-10-samulx-pesaje-lonche",
+                         "variante_de":  null,
+                         "motivo":  "frase, 79 (ciclo 12): Samulx, de pie: en el pesaje del viernes le dirá a Lonche \u0027empieza tú conmigo… hasta que caiga uno\u0027"
+                     },
+                     {
+                         "fuente":  "WAfZNmp2n8I",
+                         "inicio":  174.01,
+                         "fin":  228.1,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-10-westcol-samulx-lonche-excusas",
+                         "variante_de":  null,
+                         "motivo":  "humor, 80 (ciclo 12): \u0027Lonche ya está poniendo excusas… el que más gana y menos trabaja\u0027. Voces mezcladas: no atribuir frases a uno solo"
+                     },
+                     {
+                         "fuente":  "WAfZNmp2n8I",
+                         "inicio":  418.17,
+                         "fin":  471.06,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-10-samulx-chanty-no-cae",
+                         "variante_de":  null,
+                         "motivo":  "prediccion, 78 (ciclo 12): Samulx, por la altura: \u0027ninguno de los cuatro va a terminar la pelea\u0027; Westcol: \u0027Chanty no va a caer\u0027"
+                     },
+                     {
+                         "fuente":  "WAfZNmp2n8I",
+                         "inicio":  561.21,
+                         "fin":  592.66,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-10-samulx-plan-relevos",
+                         "variante_de":  null,
+                         "motivo":  "revelacion, 76 (ciclo 12): el plan de relevos con The Chanty y \u0027voy a empezar contra Lonche\u0027"
+                     },
+                     {
+                         "fuente":  "WAfZNmp2n8I",
+                         "inicio":  524.93,
+                         "fin":  560.98,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-10-westcol-samulx-medio-pulmon",
+                         "variante_de":  null,
+                         "motivo":  "consejo, 72 (ciclo 12): Westcol a Samulx: \u0027cuando usted sale de entrada ya tiene medio pulmón… 100% diferente a un sparring\u0027; Samulx: \u0027yo no voy a perder\u0027"
+                     },
+                     {
+                         "fuente":  "WAfZNmp2n8I",
+                         "inicio":  471,
+                         "fin":  524,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "\u0027Yo ahorita te duro dos rondas de 3 minutos\u0027 / \u0027usted no dura dos rondas\u0027, \u0027ya tengo mi estrategia (…)\u0027 (66). Voces cruzadas y transcripción rota; queda entre chanty-no-cae y medio-pulmon"
+                     },
+                     {
+                         "fuente":  "WAfZNmp2n8I",
+                         "inicio":  593,
+                         "fin":  629,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "\u0027Si Willito no quiere que empiece Lonche, empiezo contra Willito… no me va a noquear\u0027 (65). Repite plan-relevos"
+                     },
+                     {
+                         "fuente":  "WAfZNmp2n8I",
+                         "inicio":  0,
+                         "fin":  104,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "Sin audífonos, configuración del juego y Warzone. Sin momento"
+                     },
+                     {
+                         "fuente":  "WAfZNmp2n8I",
+                         "inicio":  104,
+                         "fin":  172,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "Viajes a Bogotá (\u0027jueves llego, el viernes es pesaje\u0027) y \u0027Lonche aterriza en el pesaje borracho\u0027 (60). Dato sin remate y alcohol"
+                     },
+                     {
+                         "fuente":  "WAfZNmp2n8I",
+                         "inicio":  229,
+                         "fin":  260,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "\u0027Lonche mete unas vacaciones ricas\u0027, \u0027no he entrenado tanto aquí en Medellín… jugamos fútbol\u0027. Repite lonche-excusas"
+                     },
+                     {
+                         "fuente":  "WAfZNmp2n8I",
+                         "inicio":  683,
+                         "fin":  721,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "72, Westcol: \u0027ya tengo el orden oficial… solo voy a decir la primera: Daren y el agropecuario Ruiz\u0027 y \u0027las primeras cuatro (peleadoras) se quieren matar\u0027. Los nombres de la primera pelea salen rotos en los subtítulos automáticos y no se pueden comprobar sin escuchar: revisión humana antes de cortar"
+                     },
+                     {
+                         "fuente":  "WAfZNmp2n8I",
+                         "inicio":  721,
+                         "fin":  760,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "\u0027Yo lo que voy a hacer es puro correr… a muchos peleadores se les explotan las piernas\u0027 (64)"
+                     },
+                     {
+                         "fuente":  "WAfZNmp2n8I",
+                         "inicio":  760,
+                         "fin":  830,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "Partido con futbolistas (Juanfer Quintero) y la entrada de Piquiña que \u0027casi lo mandan al hospital\u0027. Lesión de un tercero"
+                     },
+                     {
+                         "fuente":  "WAfZNmp2n8I",
+                         "inicio":  830,
+                         "fin":  1080,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "Reto de espectadores a la 1 de la mañana (\u0027niños ratas\u0027), suscripciones y la mosca. Sin momento (58)"
+                     },
+                     {
+                         "fuente":  "WAfZNmp2n8I",
+                         "inicio":  1080,
+                         "fin":  1260,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "Consejos a un turista (\u0027la isla\u0027, discotecas), café sin pitillo y matar la mosca (60)"
+                     },
+                     {
+                         "fuente":  "WAfZNmp2n8I",
+                         "inicio":  277.41,
+                         "fin":  334.5,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-10-westcol-samulx-round-cuerpo",
+                         "variante_de":  null,
+                         "motivo":  "reaccion, 71 (ciclo 12): el round suave al cuerpo, \u0027no quiero mostrar mi game plan\u0027. Es la imagen de la miniatura; casi sin diálogo"
+                     },
+                     {
+                         "fuente":  "WAfZNmp2n8I",
+                         "inicio":  335,
+                         "fin":  418,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "Final del round sin diálogo (\u0027creo que perdimos\u0027, risas), suscripciones y \u0027yo también vengo de Miami\u0027. Cubierto por round-cuerpo y chanty-no-cae"
+                     },
+                     {
+                         "fuente":  "EMfdJlhdVRg",
+                         "inicio":  326.8,
+                         "fin":  346,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "74, barra de Samulx sobre su pelea: \u0027cuando yo pelee… a Lonche le voy a partir esa (…)… es un hijo flojo y vago… y a Willito\u0027. No se corta sin revisión: va sobre un beat que puede ser comercial (el Cazador pide cortar solo lo hablado o a capela), dos palabras salen rotas y lo rodean versos sexuales (5:10-5:26 y 5:48-6:00). Escuchar y decidir"
+                     },
+                     {
+                         "fuente":  "EMfdJlhdVRg",
+                         "inicio":  0,
+                         "fin":  326,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "Freestyle con letras sexuales y misóginas, \u0027yo te mato\u0027, robos e infidelidad. Exclusión"
+                     },
+                     {
+                         "fuente":  "EMfdJlhdVRg",
+                         "inicio":  346,
+                         "fin":  1060,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "Freestyle: infidelidad, alcohol (\u0027me gusta beber, me gusta fumar\u0027) y letras sexuales; \u00277 años en esta industria\u0027 sin remate. Exclusión"
+                     },
+                     {
+                         "fuente":  "EMfdJlhdVRg",
+                         "inicio":  1060,
+                         "fin":  1090,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "\u0027Vamos a cuadrar una batalla de plaza, yo pongo el premio: 5 millones de pesos\u0027 (62). Muy corto y sin saber quién lo dice; \u0027ya no quería decir eso\u0027"
+                     },
+                     {
+                         "fuente":  "EMfdJlhdVRg",
+                         "inicio":  1090,
+                         "fin":  1480,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "Freestyle sexual, \u0027muchos panas en la cana\u0027, guerra y armas. Exclusión"
+                     },
+                     {
+                         "fuente":  "EMfdJlhdVRg",
+                         "inicio":  1480,
+                         "fin":  1560,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "Tiradera a Rey de la City: \u0027está endeudado… le tocó empeñar un reloj, su cadena\u0027, apuesta de 5.000. Afirmaciones sobre las finanzas de un tercero"
+                     },
+                     {
+                         "fuente":  "EMfdJlhdVRg",
+                         "inicio":  1560,
+                         "fin":  1958,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "Freestyle de cierre: \u0027Chanty tiene hasta una cama\u0027 (60), versos sexuales (\u0027te metemos entre los dos\u0027) y \u0027sangre mapuche\u0027. Exclusión o sin remate"
                      }
                  ],
     "lote_2026_11_06":  "ocho-videos-usuario"

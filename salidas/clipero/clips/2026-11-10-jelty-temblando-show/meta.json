@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-10-jelty-temblando-show",
+    "url_fuente":  "https://www.youtube.com/watch?v=YwhGtvtJ1Uk",
+    "video_id":  "YwhGtvtJ1Uk",
+    "inicio":  1779.29,
+    "fin":  1811.62,
+    "inicio_hms":  "0:29:39",
+    "duracion_seg":  32.3,
+    "gancho":  "Jelty jura que solo finge estar cansado",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  94,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -14.6,
+                  "entrada_tp":  -7.6,
+                  "salida_lufs":  -13.93,
+                  "salida_tp":  -7
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-10-jelty-temblando-show/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-10-jelty-temblando-show/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-10-jelty-temblando-show/revision.jpg",
+    "creado":  "2026-11-10T15:18:54.0984746-05:00"
+}

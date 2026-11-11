@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-09-ibai-westcol-cinta",
+    "url_fuente":  "https://www.youtube.com/watch?v=627Fvn2fEjU",
+    "video_id":  "627Fvn2fEjU",
+    "inicio":  417.01,
+    "fin":  451.18,
+    "inicio_hms":  "0:06:57",
+    "duracion_seg":  34.2,
+    "gancho":  "La cinta de correr contra Westcol",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  87,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -14.79,
+                  "entrada_tp":  -2.16,
+                  "salida_lufs":  -14.03,
+                  "salida_tp":  -1.37
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-09-ibai-westcol-cinta/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-09-ibai-westcol-cinta/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-09-ibai-westcol-cinta/revision.jpg",
+    "creado":  "2026-11-09T21:49:17.9545701-05:00"
+}

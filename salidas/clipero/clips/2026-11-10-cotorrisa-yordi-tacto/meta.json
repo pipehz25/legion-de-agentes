@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-10-cotorrisa-yordi-tacto",
+    "url_fuente":  "https://www.youtube.com/watch?v=jUfBJ_aIA3w",
+    "video_id":  "jUfBJ_aIA3w",
+    "inicio":  1696.37,
+    "fin":  1738.82,
+    "inicio_hms":  "0:28:16",
+    "duracion_seg":  42.5,
+    "gancho":  "Yordi Rosado y su primer tacto de próstata",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  170,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -14.5,
+                  "entrada_tp":  -1.59,
+                  "salida_lufs":  -13.92,
+                  "salida_tp":  -1.11
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-10-cotorrisa-yordi-tacto/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-10-cotorrisa-yordi-tacto/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-10-cotorrisa-yordi-tacto/revision.jpg",
+    "creado":  "2026-11-10T15:53:55.3535435-05:00"
+}

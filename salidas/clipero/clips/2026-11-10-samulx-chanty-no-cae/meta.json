@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-10-samulx-chanty-no-cae",
+    "url_fuente":  "https://www.youtube.com/watch?v=WAfZNmp2n8I",
+    "video_id":  "WAfZNmp2n8I",
+    "inicio":  418.17,
+    "fin":  471.06,
+    "inicio_hms":  "0:06:58",
+    "duracion_seg":  52.9,
+    "gancho":  "¿Alguno de los cuatro aguanta la pelea?",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  151,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -20.41,
+                  "entrada_tp":  -12.49,
+                  "salida_lufs":  -14.01,
+                  "salida_tp":  -6.3
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-10-samulx-chanty-no-cae/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-10-samulx-chanty-no-cae/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-10-samulx-chanty-no-cae/revision.jpg",
+    "creado":  "2026-11-10T15:36:44.3068306-05:00"
+}

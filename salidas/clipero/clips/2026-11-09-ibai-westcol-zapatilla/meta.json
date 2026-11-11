@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-09-ibai-westcol-zapatilla",
+    "url_fuente":  "https://www.youtube.com/watch?v=627Fvn2fEjU",
+    "video_id":  "627Fvn2fEjU",
+    "inicio":  955.73,
+    "fin":  984.94,
+    "inicio_hms":  "0:15:55",
+    "duracion_seg":  29.3,
+    "gancho":  "Falla la entrada y Westcol paga las consecuencias",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  99,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -16.19,
+                  "entrada_tp":  -3.41,
+                  "salida_lufs":  -14.03,
+                  "salida_tp":  -1.22
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-09-ibai-westcol-zapatilla/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-09-ibai-westcol-zapatilla/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-09-ibai-westcol-zapatilla/revision.jpg",
+    "creado":  "2026-11-10T14:27:17.0343941-05:00"
+}

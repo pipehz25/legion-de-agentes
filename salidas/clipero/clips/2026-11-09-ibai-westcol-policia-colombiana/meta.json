@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-09-ibai-westcol-policia-colombiana",
+    "url_fuente":  "https://www.youtube.com/watch?v=627Fvn2fEjU",
+    "video_id":  "627Fvn2fEjU",
+    "inicio":  1206.65,
+    "fin":  1237.34,
+    "inicio_hms":  "0:20:06",
+    "duracion_seg":  30.4,
+    "gancho":  "Westcol: la policía colombiana lo volvió a hacer",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  107,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -15.96,
+                  "entrada_tp":  -3.2,
+                  "salida_lufs":  -13.8,
+                  "salida_tp":  -1.24
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-09-ibai-westcol-policia-colombiana/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-09-ibai-westcol-policia-colombiana/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-09-ibai-westcol-policia-colombiana/revision.jpg",
+    "creado":  "2026-11-10T14:33:03.5964622-05:00"
+}

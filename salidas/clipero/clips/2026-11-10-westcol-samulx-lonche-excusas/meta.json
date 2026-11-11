@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-10-westcol-samulx-lonche-excusas",
+    "url_fuente":  "https://www.youtube.com/watch?v=WAfZNmp2n8I",
+    "video_id":  "WAfZNmp2n8I",
+    "inicio":  174.01,
+    "fin":  228.1,
+    "inicio_hms":  "0:02:54",
+    "duracion_seg":  54.1,
+    "gancho":  "Westcol y Samulx: Lonche ya pone excusas",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  195,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -20.53,
+                  "entrada_tp":  -10.66,
+                  "salida_lufs":  -14,
+                  "salida_tp":  -4.38
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-10-westcol-samulx-lonche-excusas/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-10-westcol-samulx-lonche-excusas/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-10-westcol-samulx-lonche-excusas/revision.jpg",
+    "creado":  "2026-11-10T15:32:58.9003144-05:00"
+}
