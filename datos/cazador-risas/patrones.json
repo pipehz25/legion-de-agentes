@@ -1,8 +1,9 @@
 {
-  "actualizado": "2026-11-10T16:00:00-05:00",
-  "ciclo": 1,
+  "actualizado": "2026-11-11T11:20:00-05:00",
+  "ciclo": 2,
   "rotacion": {
     "plataformas": { "youtube": "2026-11-10", "x": "2026-11-10", "tiktok": null, "instagram": null, "facebook": null, "kick": null },
+    "_rotacion_nota": "TikTok se intentó en el ciclo 2 con búsquedas site:tiktok.com, que no devuelven páginas de TikTok. Sigue sin explorar a fondo: hace falta otra vía (Creative Center o listas de terceros como señal tardía).",
     "nichos": {
       "comedia y stand-up": "2026-11-10",
       "humoristas y creadores de humor": "2026-11-10",
@@ -10,11 +11,12 @@
     }
   },
   "presupuesto_usado": {
-    "ciclo": 1,
-    "busquedas_web": 14,
-    "lecturas_web": 4,
-    "busquedas_youtube": "21 (15 búsquedas rápidas para resolver los 14 perfiles de la semilla, que solo se hacen una vez, y 6 con -Detalle). Pasa del presupuesto de 12 por la resolución inicial",
-    "revisiones_de_canal": 14
+    "ciclo": 2,
+    "busquedas_web": 15,
+    "lecturas_web": 3,
+    "busquedas_youtube": 12,
+    "revisiones_de_canal": 15,
+    "nota": "Ciclo 2 medido entre las 22:54 y las 23:50 del 10-nov (la PC estuvo suspendida de 23:00 a 23:36). oportunidades.json se escribió a las 00:05 del 11-nov. La memoria y el informe se escribieron a las 11:20 porque el ciclo se cortó por el límite de uso."
   },
   "contexto_politico": {
     "revisado": "2026-11-10",
@@ -23,11 +25,18 @@
     "fuentes": [
       "https://www.bloomberglinea.com/latinoamerica/colombia/cuando-se-posesiona-el-nuevo-presidente-de-colombia-abelardo-de-la-espriella-o-ivan-cepeda/",
       "https://kchcomunicacion.com/?p=449558"
-    ]
+    ],
+    "actualidad_10_nov": "Temas de la semana: (1) el bombardeo contra el Frente 33 ('Barba Chivo', la 'bomba firmada') y el uniforme de camuflaje del presidente en los operativos (tendencia 'Casco' probablemente ligada a eso, sin confirmar). Es violencia: no entra. (2) La Ley de Rescate Fiscal del gobierno De la Espriella, en el Congreso (https://www.semana.com/opinion/articulo/ley-de-rescate-fiscal-la-bomba-que-dejo-petro/202600/). Es un tema válido para sátira. (3) Rumores sobre 'fiestas' de Petro y un 'video íntimo': vida privada, no entra."
   },
   "fuentes_politica_vigiladas": [
-    { "nombre": "Voz Populi (Blu Radio)", "url": "https://www.youtube.com/channel/UCUYokk2dJxFZf7NgxTL-ROg", "que_es": "Segmento de imitadores de Blu Radio, sátira política colombiana. Es imitación: el gancho debe decirlo", "visto": "2026-11-10" },
-    { "nombre": "Canal Congreso", "url": null, "que_es": "Sesiones del Congreso. No resuelto en el ciclo 1: resolver con buscar y revisar sus subidas cuando la prensa señale un momento", "visto": null }
+    { "nombre": "Voz Populi (Blu Radio)", "url": "https://www.youtube.com/channel/UCUYokk2dJxFZf7NgxTL-ROg", "que_es": "Segmento de imitadores de Blu Radio, sátira política colombiana. Es imitación: el gancho debe decirlo. Sube 1-2 sátiras por día (Petro y Claudia López el 9-nov). Buscar con 'Voz Populi Blu Radio' -Recientes", "visto": "2026-11-10" },
+    { "nombre": "Canal Congreso Colombia", "url": "https://www.youtube.com/channel/UCJfKMFp7dtO8mpHT56X0kJQ", "que_es": "Resuelto en el ciclo 2 (96,7 K). Sube las plenarias completas del Senado y de la Cámara (10-nov: 3 h 45 min y 4 h). Solo se usa cuando la prensa o las búsquedas señalan un momento concreto con minuto; nunca a ciegas", "visto": "2026-11-10" }
+  ],
+  "consultas_que_no_sirven": [
+    "'senador' -Hoy: devuelve política de EE. UU. Usar 'senador colombiano' o el nombre del político",
+    "'Sospechosamente Light' -Recientes: solo ruido (dramas doblados, Critical Role)",
+    "'stand up crowd work publico' -Recientes: solo resultados en inglés",
+    "Búsqueda web de hechos de las últimas 72 h: casi nunca trae noticias frescas. Para la actualidad política, mejor clipero buscar con nombres concretos"
   ],
   "equilibrio_politico": {
     "nota": "Momentos de humor político propuestos en fuentes_para_clips, por corriente de quien protagoniza el momento (enfoque.md: sin bandos). Los excluidos no cuentan para el equilibrio; se anotan para no volver a evaluarlos.",
@@ -44,9 +53,28 @@
           { "url": "https://www.youtube.com/watch?v=JBllUoMKHA4", "politica": "gobierno De la Espriella (derecha)", "motivo": "Violencia: una 'bomba' contra un grupo armado (tendencia 'Barba Chivo')" },
           { "url": "https://www.youtube.com/watch?v=I2WykyJDne0", "politica": "gobierno De la Espriella (derecha)", "motivo": "Canal partidista con insulto en el título; no es un momento gracioso" }
         ]
+      },
+      {
+        "ciclo": 2,
+        "fecha": "2026-11-10",
+        "propuestos": { "izquierda": 1 },
+        "detalle": [
+          { "url": "https://www.youtube.com/watch?v=tuykvpJMFmw", "politica": "izquierda (Gustavo Petro, imitado por Voz Populi)", "tipo": "sátira con imitador; solo las pullas a la Ley de Rescate Fiscal" }
+        ],
+        "repetidos_sin_contar": [
+          { "url": "https://www.youtube.com/watch?v=yBt5vLuwS74", "politica": "centro (Claudia López, imitada por Voz Populi)", "nota": "Sigue en la lista desde el ciclo 1, sin cortar. Ya contó en el ciclo 1" }
+        ],
+        "excluidos": [
+          { "url": "https://www.youtube.com/watch?v=ogfgkEVDgXI", "politica": "izquierda (Petro, contado por Daniel Samper)", "motivo": "Vida privada y escándalo ('fiestas de Petro'), con postura" },
+          { "url": "https://www.youtube.com/watch?v=jO638-l22nY", "politica": "izquierda (Petro, imitado por Jhovanoty)", "motivo": "Vida privada: el tema es un 'video íntimo'" },
+          { "url": "https://www.youtube.com/watch?v=wl8pLEaQJK8", "politica": "gobierno De la Espriella (derecha); pullas de Santos (centro)", "motivo": "Uniforme de camuflaje en operativos tras un bombardeo: contexto de violencia. Además es una nota de reacciones, no un momento" },
+          { "url": "https://www.youtube.com/watch?v=8IJ_Gtgx0ZI", "politica": "gobierno De la Espriella (derecha)", "motivo": "Violencia: encara a 'Barba Chivo' tras el bombardeo" },
+          { "url": "https://www.youtube.com/watch?v=rPV4PEGah3U", "politica": "Pacto Histórico (izquierda, Iván Cepeda)", "motivo": "Menos de 8 min y canal partidista (Hernán Opina)" }
+        ]
       }
     ],
-    "acumulado": { "centro": 1, "derecha": 0, "izquierda": 0, "otros": 0 }
+    "acumulado": { "centro": 1, "derecha": 0, "izquierda": 1, "otros": 0 },
+    "alerta": "Derecha en 0 tras dos ciclos. No es una decisión: todo lo de la derecha en la ventana estuvo ligado a violencia o vino de canales partidistas. El ciclo 3 debe buscar a propósito momentos no violentos de la derecha (bancada de gobierno o Centro Democrático en el Congreso, ministros en ruedas de prensa) y sátira sobre De la Espriella sin bombardeo de por medio."
   },
   "patrones": [
     {
@@ -60,9 +88,9 @@
       "primera_vez_visto": "2026-11-10",
       "etapa": "pico",
       "etapa_por_contexto": { "youtube-es": "pico", "x-co": "pico", "x-mx": "pico", "youtube-co": "sin-verificar", "tiktok-co": "sin-verificar" },
-      "indice_saturacion": 60,
-      "puntaje_oportunidad": 53,
-      "puntaje_desglose": { "fuerza_viral": 22, "momento": 8, "replicabilidad": 8, "encaje": 10, "hibridacion": 5 },
+      "indice_saturacion": 63,
+      "puntaje_oportunidad": 51,
+      "puntaje_desglose": { "fuerza_viral": 20, "momento": 8, "replicabilidad": 8, "encaje": 10, "hibridacion": 5 },
       "ventana_hasta": "2026-11-12",
       "confianza": "baja",
       "genoma": {
@@ -83,11 +111,14 @@
         { "url": "https://www.youtube.com/watch?v=tZeBj9MS9RQ", "metrica": "Fragmento oficial (La Revuelta, 624 K): 380.119 vistas en 12,7 h (29.931/h)", "tipo": "medido", "mide": "patron", "contexto": "youtube-es", "fecha": "2026-11-10" },
         { "url": "https://trends24.in/colombia/", "metrica": "'Broncano' en tendencia de X Colombia (#19 a las 19:15 UTC), 24 h en la lista", "tipo": "medido", "mide": "patron", "contexto": "x-co", "fecha": "2026-11-10" },
         { "url": "https://trends24.in/mexico/", "metrica": "'Broncano' en tendencia de X México en cuatro cortes (#22-34), 23 h en la lista", "tipo": "medido", "mide": "patron", "contexto": "x-mx", "fecha": "2026-11-10" },
-        { "url": "https://www.youtube.com/watch?v=uDJxesw-doU", "metrica": "Señal tardía: El País, El Mundo, ABC, OKDiario, el canal de VOX y canales de reacción ya lo cubren en menos de 24 h (El País: 32.622/h)", "tipo": "medido", "mide": "senal_relacionada", "contexto": "youtube-es", "fecha": "2026-11-10" }
+        { "url": "https://www.youtube.com/watch?v=uDJxesw-doU", "metrica": "Señal tardía: El País, El Mundo, ABC, OKDiario, el canal de VOX y canales de reacción ya lo cubren en menos de 24 h (El País: 32.622/h)", "tipo": "medido", "mide": "senal_relacionada", "contexto": "youtube-es", "fecha": "2026-11-10" },
+        { "url": "https://www.youtube.com/watch?v=tZeBj9MS9RQ", "metrica": "Fragmento oficial: 514.102 vistas en 20,7 h (24.836/h), cuando a las 12,7 h iba a 29.931/h. La velocidad baja", "tipo": "medido", "mide": "patron", "contexto": "youtube-es", "fecha": "2026-11-10" },
+        { "url": "https://trends24.in/mexico/", "metrica": "'Broncano', segunda tendencia más larga de X México en 24 h (21 h); en Colombia baja al #44 (03:00 UTC del 11-nov)", "tipo": "medido", "mide": "patron", "contexto": "x-mx", "fecha": "2026-11-10" }
       ],
       "excluido_por_enfoque": "El único ejemplo medido (Abascal, 9-nov) cae en periodo electoral (generales del 29-N en España): no se corta. El patrón se vigila para Colombia (The Juanpis Live Show con políticos) y para España después del 29-N.",
       "historial": [
-        { "fecha": "2026-11-10", "etapa": "pico", "indice_saturacion": 60, "senal": "Entrevista de Abascal en La Revuelta: 65.818/h, y en menos de 24 h ya la cubren los grandes medios y hay vídeos de reacción. Tendencia de 23-24 h en X Colombia y México. En Colombia no se midió." }
+        { "fecha": "2026-11-10", "etapa": "pico", "indice_saturacion": 60, "senal": "Entrevista de Abascal en La Revuelta: 65.818/h, y en menos de 24 h ya la cubren los grandes medios y hay vídeos de reacción. Tendencia de 23-24 h en X Colombia y México. En Colombia no se midió." },
+        { "fecha": "2026-11-10", "etapa": "pico", "indice_saturacion": 63, "senal": "Ciclo 2: el fragmento oficial baja de 29.931/h a 24.836/h y 'Broncano' cae al #44 en X Colombia. Sigue en pico y empieza a frenar. En Colombia no hubo ningún ejemplo nuevo: Juanpis no tuvo invitado político esta semana." }
       ]
     },
     {
@@ -112,10 +143,52 @@
         "perecederos": ["contexto"]
       },
       "evidencia": [
-        { "url": "https://www.youtube.com/watch?v=NYqExeujjb0", "metrica": "723.996 vistas en 11 h (65.818/h)", "tipo": "medido", "mide": "patron", "contexto": "youtube-es", "fecha": "2026-11-10" }
+        { "url": "https://www.youtube.com/watch?v=NYqExeujjb0", "metrica": "723.996 vistas en 11 h (65.818/h)", "tipo": "medido", "mide": "patron", "contexto": "youtube-es", "fecha": "2026-11-10" },
+        { "url": "https://www.youtube.com/watch?v=wIKaqVcTZio", "metrica": "Fragmento oficial sobre Israel: 443.649 vistas en 20,7 h (21.432/h)", "tipo": "medido", "mide": "patron", "contexto": "youtube-es", "fecha": "2026-11-10" }
       ],
       "historial": [
-        { "fecha": "2026-11-10", "etapa": "pico", "indice_saturacion": 62, "senal": "Cobertura masiva en menos de 24 h; excluido por periodo electoral" }
+        { "fecha": "2026-11-10", "etapa": "pico", "indice_saturacion": 62, "senal": "Cobertura masiva en menos de 24 h; excluido por periodo electoral" },
+        { "fecha": "2026-11-10", "etapa": "pico", "indice_saturacion": 68, "senal": "Ciclo 2: la velocidad de los fragmentos oficiales baja (de 29.931/h a 24.836/h) y la tendencia en X Colombia cae del #19 al #44. Pico tardío; pasará a saturación en el próximo ciclo si sigue cayendo. Sigue excluido." }
+      ]
+    },
+    {
+      "id": "formato-imitador-politico",
+      "nombre": "Sátira con imitador de políticos colombianos (Voz Populi, Jhovanoty)",
+      "tipo": "formato",
+      "descripcion": "Un humorista imita a un político real (voz, muletillas, gestos) y comenta la actualidad en su piel. En Colombia es un formato veterano (radio y TV) que hoy vive en YouTube con segmentos de 8-30 min.",
+      "plataformas": ["youtube"],
+      "regiones": ["CO"],
+      "nichos": ["momentos graciosos de la política colombiana", "humoristas y creadores de humor"],
+      "primera_vez_visto": "2026-11-10",
+      "etapa": "crecimiento",
+      "etapa_por_contexto": { "youtube-co": "crecimiento", "tiktok-co": "sin-verificar", "instagram-co": "sin-verificar" },
+      "indice_saturacion": 52,
+      "indice_desglose": { "densidad_replicas": 20, "rendimiento_replicas": 12, "senales_tardias": 12, "fatiga": 3, "edad": 5 },
+      "puntaje_oportunidad": 57,
+      "puntaje_desglose": { "fuerza_viral": 12, "momento": 22, "replicabilidad": 4, "encaje": 15, "hibridacion": 4 },
+      "ventana_hasta": "2026-11-24",
+      "confianza": "baja",
+      "genoma": {
+        "gancho": "La voz reconocible del político diciendo algo que él nunca diría, con su nombre en pantalla",
+        "estructura": "El personaje responde a la noticia del día como si fuera el político",
+        "emocion": "risa, complicidad",
+        "payoff": "El remate exagera un rasgo público del político o de su decisión",
+        "formato_tecnico": "Segmento de radio con cámara (Voz Populi) o show propio con caracterización (Jhovanoty), de 8 a 30 min",
+        "audio": "Voz del imitador",
+        "edicion": "Plano fijo de cabina o de estudio",
+        "arquetipo": "El personaje recurrente (el 'Petro', la 'Claudia', 'Petrosky')",
+        "participacion": "¿Cuál político falta por imitar? (pregunta abierta, sin bandos)",
+        "contexto": "Actualidad política de la semana",
+        "perecederos": ["contexto"]
+      },
+      "evidencia": [
+        { "url": "https://www.youtube.com/watch?v=jO638-l22nY", "metrica": "Jhovanoty ('Petrosky'): 187.719 vistas en 51,8 h (3.624/h) en un canal de 259 K, el 72 % de sus suscriptores en dos días", "tipo": "medido", "mide": "patron", "contexto": "youtube-co", "fecha": "2026-11-10" },
+        { "url": "https://www.youtube.com/watch?v=tuykvpJMFmw", "metrica": "El 'Petro' de Voz Populi: 54.963 vistas en 25 h (2.199/h) en Blu Radio (1,73 M), en la media del canal", "tipo": "medido", "mide": "patron", "contexto": "youtube-co", "fecha": "2026-11-10" },
+        { "url": "https://www.youtube.com/watch?v=yBt5vLuwS74", "metrica": "La 'Claudia' de Voz Populi: 18.221 vistas en 28,8 h (633/h)", "tipo": "medido", "mide": "patron", "contexto": "youtube-co", "fecha": "2026-11-10" }
+      ],
+      "riesgos": "Depende de un imitador con talento, así que se replica mal (replicabilidad 4). Roza la suplantación (metodologia.md §8): un clip solo es aceptable si el texto en pantalla dice que es una imitación. En la ventana, los imitadores se cargan hacia Petro y hacia su vida privada; vigilar el equilibrio.",
+      "historial": [
+        { "fecha": "2026-11-10", "etapa": "crecimiento", "indice_saturacion": 52, "senal": "Ciclo 2: tres piezas en 72 h de dos creadores independientes (Jhovanoty y Voz Populi), una con sobre-rendimiento claro (Jhovanoty). El formato es viejo en TV y radio (señal tardía); no está medido en TikTok ni en Instagram." }
       ]
     }
   ]

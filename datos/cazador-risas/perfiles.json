@@ -1,5 +1,6 @@
 {
-  "actualizado": "2026-11-10T16:00:00-05:00",
+  "actualizado": "2026-11-11T11:20:00-05:00",
+  "nota_ciclo_2": "Ciclo 2: canales revisados entre las 22:54 y las 23:40 del 10-nov con -MaxHoras 72. Se añade un similar (Jhovanoty). Ricardo Quevedo sigue sin_resolver.",
   "nota": "Memoria del Cazador de Risas (agente 04). Ciclo 1: la semilla de config.perfiles se resolvió con el channel_url de clipero.ps1 buscar (nunca con @handle). Instagram, TikTok y X sin verificar en este ciclo (presupuesto gastado en resolver YouTube). Ninguno de estos humoristas hace directos en Kick.",
   "perfiles": [
     {
@@ -15,9 +16,10 @@
       ],
       "verificacion": "Dos búsquedas ('Ricardo Quevedo' y 'Ricardo Quevedo stand up comedy completo') no devuelven un canal propio: solo resubidas de terceros (Maigre Diaz, Yeiker Flores), Comedy Central, Netflix, Caracol y Los De La Culpa. La prensa confirma que es integrante de Los De La Culpa (https://www.publimetro.co/entretenimiento/2024/11/29/los-de-la-culpa-reunieron-a-polilla-juanpis-suso-y-mas-humoristas-en-un-solo-escenario/).",
       "candidatos": [
-        { "url": "https://www.youtube.com/channel/UCzQ7ZEFJ5oh5iaP2kabzXGw", "por_que": "Triste Realidad TV (capítulos de 30+ min); comprobar si es su canal" }
+        { "url": "https://www.youtube.com/channel/UCzQ7ZEFJ5oh5iaP2kabzXGw", "por_que": "Triste Realidad TV (capítulos de 30+ min); comprobar si es su canal. La búsqueda web del ciclo 2 no lo relaciona con él" }
       ],
-      "ultima_revision": "2026-11-10T15:12:00-05:00",
+      "notas_ciclo_2": "'Ricardo Quevedo' -Recientes solo devuelve Los De La Culpa 268 y ruido (coloquios sobre Francisco de Quevedo). Sus especiales están en Netflix ('Los Amargados Somos Más', 2019), que no es fuente. Aparece en el podcast 'Sospechosamente Light' (episodio de diciembre de 2023, https://podcastai.com/shows/dmtd5j-sospechosamente-light), pero en YouTube no salió nada reciente de ese podcast.",
+      "ultima_revision": "2026-11-10T23:45:00-05:00",
       "ultimas_subidas": []
     },
     {
@@ -30,9 +32,10 @@
       "canales_relacionados": [],
       "verificacion": "Canal 'Andres Lopez' (152 K) con sus shows completos ('LA PELOTA DE LETRAS EN 4K', 'ME PIDO LA VENTANA CON FRUTICA PICADA EN 4K') y fragmentos de La Pelota de Letras: es su canal oficial.",
       "candidatos": [],
-      "ultima_revision": "2026-11-10T15:12:20-05:00",
+      "ultima_revision": "2026-11-10T23:38:46-05:00",
       "ultimas_subidas": [
-        { "url": "https://www.youtube.com/watch?v=i1lHCSoUTfE", "titulo": "Andrés López - La Generación X y su obsesión por el éxito | La Pelota de Letras", "publicado": "2026-11-09T18:00:34-05:00", "vistas": 1380 }
+        { "url": "https://www.youtube.com/watch?v=ylttyoZIqR0", "titulo": "Vi El Gato con Sombrero con mi hija Olivia 😍 | Andrés López", "publicado": "2026-11-10T18:00:26-05:00", "vistas": 122, "excluido": "Video familiar de 5 min: no llega a los 8 min" },
+        { "url": "https://www.youtube.com/watch?v=i1lHCSoUTfE", "titulo": "Andrés López - La Generación X y su obsesión por el éxito | La Pelota de Letras", "publicado": "2026-11-09T18:00:34-05:00", "vistas": 1916 }
       ]
     },
     {
@@ -45,7 +48,8 @@
       "canales_relacionados": [],
       "verificacion": "Canal 'Lokillo Florez' con 'Lokillo vs Jony Beltrán - Battle of Comedians | Lokillo' (803 K) y 'LOKILLO IMPROVISING in ALL GENRES' (1,25 M): comedia e improvisación musical, es él.",
       "candidatos": [],
-      "ultima_revision": "2026-11-10T15:13:20-05:00",
+      "notas_ciclo_2": "Nada nuevo en su canal. Un video de La Negra Candela habla de él ('Lokillo se cayó, pero otros lo levantan', https://www.youtube.com/watch?v=eQr3I7u4kOg, 799/h). No sale él y no se sabe a qué 'caída' se refiere: la prensa habla de la salud y la muerte de su abuelo, sin fecha. No se trae.",
+      "ultima_revision": "2026-11-10T23:38:55-05:00",
       "ultimas_subidas": []
     },
     {
@@ -58,7 +62,7 @@
       "canales_relacionados": [],
       "verificacion": "Canal 'Suso el Paspi Oficial' con sus monólogos y entrevistas de #TheSusosShow (Caracol Televisión). Ojo: lo que sale de Caracol tiene dueño (sin_verificar).",
       "candidatos": [],
-      "ultima_revision": "2026-11-10T15:13:50-05:00",
+      "ultima_revision": "2026-11-10T23:39:05-05:00",
       "ultimas_subidas": []
     },
     {
@@ -71,7 +75,7 @@
       "canales_relacionados": [],
       "verificacion": "Canal 'Frank Martinez' ('Frank el Flaco'): 'FRANK MARTÍNEZ - Quién Dijo Miedo (Show Completo) | Especial de Stand Up Comedy' (752 K) y sus rutinas. Es el humorista colombiano.",
       "candidatos": [],
-      "ultima_revision": "2026-11-10T15:19:00-05:00",
+      "ultima_revision": "2026-11-10T23:39:15-05:00",
       "ultimas_subidas": []
     },
     {
@@ -86,8 +90,11 @@
       ],
       "verificacion": "Canal '@IvánMarínSoyYo' con rutinas largas ('LET'S TALK ABOUT REGGAETONERS', 202 K). Confianza media: el nombre del canal coincide y el contenido es stand-up; no se cruzó con su Instagram.",
       "candidatos": [],
-      "ultima_revision": "2026-11-10T15:19:30-05:00",
-      "ultimas_subidas": []
+      "ultima_revision": "2026-11-10T23:39:20-05:00",
+      "ultimas_subidas": [],
+      "apariciones": [
+        { "url": "https://www.youtube.com/watch?v=3BAphhKqHUw", "titulo": "Errores Memorables | Los De La Culpa - Capítulo 268", "publicado": "2026-11-09T20:56:11-05:00", "comprobado": "Sale en el capítulo: el Clipero cortó 'culpa-ivan-senorazo' (salidas/clipero/clips.json)" }
+      ]
     },
     {
       "nombre": "Piter Albeiro",
@@ -99,7 +106,8 @@
       "canales_relacionados": [],
       "verificacion": "Canal 'Piter Albeiro' con sus shows completos ('Full Show | FOR THE FIRST TIME', 1,3 M; 'Piter Albeiro FOR THE FIRST TIME | 04', 10,4 M).",
       "candidatos": [],
-      "ultima_revision": "2026-11-10T15:20:00-05:00",
+      "notas_ciclo_2": "Nada nuevo en su canal. Ojo con el equilibrio político: la prensa recoge que apoyó en público a De la Espriella (https://www.publimetro.co/entretenimiento/2026/03/13/piter-albeiro-salio-en-defensa-de-abelardo-de-la-espriella-y-en-contra-de-ivan-cepeda-votar-por-un-tipo/). Sus fragmentos de stand-up entran; sus opiniones políticas no.",
+      "ultima_revision": "2026-11-10T23:39:30-05:00",
       "ultimas_subidas": []
     },
     {
@@ -114,9 +122,10 @@
       ],
       "verificacion": "La búsqueda 'La Cotorrisa podcast' devuelve los episodios numerados ('Episodio 398 - Beto descubre que se la alcanza', 1,29 M) en el canal de Slobotzky, y el 'Anecdotario' en el de Ricardo Pérez: son los dos integrantes.",
       "candidatos": [],
-      "ultima_revision": "2026-11-10T15:21:00-05:00",
+      "notas_ciclo_2": "El canal de Slobotzky no subió nada en 72 h. Los dos tienen un proceso legal abierto por una denuncia de la influencer Jesica Bustos por comentarios de un episodio (https://www.infobae.com/mexico/2026/01/06/signo-de-frank-el-inesperado-descubrimiento-de-un-fan-de-la-cotorrisa-que-alerta-sobre-la-salud-de-ricardo-perez/). Ese tema no se corta nunca.",
+      "ultima_revision": "2026-11-10T22:58:50-05:00",
       "ultimas_subidas": [
-        { "url": "https://www.youtube.com/watch?v=jUfBJ_aIA3w", "titulo": "Anecdotario 377 - Nuestro primer tacto de próstata FT. @YordiRosado", "publicado": "2026-11-08T20:58:50-05:00", "vistas": 1141945 }
+        { "url": "https://www.youtube.com/watch?v=jUfBJ_aIA3w", "titulo": "Anecdotario 377 - Nuestro primer tacto de próstata FT. @YordiRosado", "publicado": "2026-11-08T20:58:50-05:00", "vistas": 1296277 }
       ]
     },
     {
@@ -131,10 +140,11 @@
       ],
       "verificacion": "Canal 'Franco Escamilla' (14,5 M) con sus especiales ('Franco Escamilla RPM Completo', 271 M), su podcast 'La Mesa Reñoña' y la serie 'FranCupido'.",
       "candidatos": [],
-      "ultima_revision": "2026-11-10T15:21:45-05:00",
+      "notas_ciclo_2": "Nada nuevo desde el ciclo 1. La búsqueda web sobre la 'funa' de La Mesa Reñoña 523 solo trae polémicas viejas sin fecha (acusación de misoginia, caso Platanito y padres de Debanhi). Todo eso queda fuera de los clips.",
+      "ultima_revision": "2026-11-10T22:56:45-05:00",
       "ultimas_subidas": [
-        { "url": "https://www.youtube.com/watch?v=oSfzrwpbQZs", "titulo": "La Mesa Reñoña 523.- Funa de Franco/ Comediantes en problemas", "publicado": "2026-11-10T01:29:06-05:00", "vistas": 204312 },
-        { "url": "https://www.youtube.com/watch?v=NiWsTPALopk", "titulo": "FranCupido❤️| GDL 3 | Ep.-6", "publicado": "2026-11-08T12:30:21-05:00", "vistas": 504451 }
+        { "url": "https://www.youtube.com/watch?v=oSfzrwpbQZs", "titulo": "La Mesa Reñoña 523.- Funa de Franco/ Comediantes en problemas", "publicado": "2026-11-10T01:29:06-05:00", "vistas": 260955 },
+        { "url": "https://www.youtube.com/watch?v=NiWsTPALopk", "titulo": "FranCupido❤️| GDL 3 | Ep.-6", "publicado": "2026-11-08T12:30:21-05:00", "vistas": 534529 }
       ]
     },
     {
@@ -147,9 +157,10 @@
       "canales_relacionados": [],
       "verificacion": "Canal 'Carlos Ballarta' (863 K) con sus especiales ('TLATOANI - Especial Carlos Ballarta', 'REBELDE COMODINO', 13,5 M).",
       "candidatos": [],
-      "ultima_revision": "2026-11-10T15:22:50-05:00",
+      "ultima_revision": "2026-11-10T23:38:04-05:00",
       "ultimas_subidas": [
-        { "url": "https://www.youtube.com/watch?v=3C7wIIMy718", "titulo": "YA QUE ESTAMOS EN CONFIANZA", "publicado": "2026-11-08T19:00:39-05:00", "vistas": 80108 }
+        { "url": "https://www.youtube.com/watch?v=W3kk6XMYfYI", "titulo": "El Cómico Itinerante Ep. 6", "publicado": "2026-11-10T18:00:17-05:00", "vistas": 5118 },
+        { "url": "https://www.youtube.com/watch?v=3C7wIIMy718", "titulo": "YA QUE ESTAMOS EN CONFIANZA", "publicado": "2026-11-08T19:00:39-05:00", "vistas": 94405 }
       ]
     },
     {
@@ -163,9 +174,9 @@
       "verificacion": "Canal 'Hablando Huevadas' (7,62 M) con los episodios de la decimotercera temporada (Ricardo Mendoza y Jorge Luna, Perú).",
       "advertencia": "Su humor de roast toca a menudo discapacidad, orientación u origen (títulos como 'VIMOS DOS SORDOS PELEANDO' o 'JORGITO Y LA DISCOTECA GAY'). Cada episodio se revisa: si el gancho es reírse de alguien por lo que es, no se trae.",
       "candidatos": [],
-      "ultima_revision": "2026-11-10T15:23:33-05:00",
+      "ultima_revision": "2026-11-10T23:36:00-05:00",
       "ultimas_subidas": [
-        { "url": "https://www.youtube.com/watch?v=8BPxCNm4IiI", "titulo": "HABLANDO HUEVADAS - Décimotercera Temporada [VIMOS DOS SORDOS PELEANDO]", "publicado": "2026-11-08T21:00:10-05:00", "vistas": 2401618, "excluido": "El gancho del episodio es humor sobre una discapacidad (sordera)" }
+        { "url": "https://www.youtube.com/watch?v=8BPxCNm4IiI", "titulo": "HABLANDO HUEVADAS - Décimotercera Temporada [VIMOS DOS SORDOS PELEANDO]", "publicado": "2026-11-08T21:00:10-05:00", "vistas": 2735803, "excluido": "El gancho del episodio es humor sobre una discapacidad (sordera)" }
       ]
     },
     {
@@ -178,9 +189,9 @@
       "canales_relacionados": [],
       "verificacion": "Canal 'Juanpis González' (2,96 M) con 'The Juanpis Live Show' (entrevistas a Franco Escamilla, Kany García, Verónica Orozco, Daniel Samper Ospina...). El personaje es de Alejandro Riaño. Cuando entrevista a políticos, aplica enfoque.md (campo politica).",
       "candidatos": [],
-      "ultima_revision": "2026-11-10T15:24:42-05:00",
+      "ultima_revision": "2026-11-10T23:37:12-05:00",
       "ultimas_subidas": [
-        { "url": "https://www.youtube.com/watch?v=1L3SuXTXzU0", "titulo": "Me volví la mond* con Hebert Vargas- The Juanpis Live Show", "publicado": "2026-11-08T20:00:11-05:00", "vistas": 89452 }
+        { "url": "https://www.youtube.com/watch?v=1L3SuXTXzU0", "titulo": "¿Hebert Vargas es hijo de Diomedes Diaz? -The Juanpis Live Show (antes: 'Me volví la mond* con Hebert Vargas')", "publicado": "2026-11-08T20:00:11-05:00", "vistas": 103052 }
       ]
     },
     {
@@ -192,10 +203,12 @@
       "cuentas": { "youtube": "https://www.youtube.com/channel/UCRTAHXRbRuYlsSCmb_78d_Q", "kick": null, "twitch": null, "instagram": null, "tiktok": null, "x": null },
       "canales_relacionados": [],
       "verificacion": "Canal '#HolaSoyDanny', el suyo (la búsqueda por su nombre lo da primero; 'Daniel Samper - La vida es dolor y risa' en colaboración con LA LUPA).",
-      "advertencia": "Hoy el canal es sobre todo comentario político con postura y sobre casos judiciales ('THE WITNESS SPEAKS! WHAT THE EVIDENCE AGAINST PETRO REVEALS', 'ARE MORE PETRO VIDEOS COMING?'). Eso no entra (enfoque.md: sin casos judiciales, sin bandos). Solo sirve su sátira pura, si la hay. Tenía un directo programado para la noche del 10-nov (ogfgkEVDgXI): revisarlo el próximo ciclo con ese filtro.",
+      "advertencia": "Hoy el canal es sobre todo comentario político con postura y sobre casos judiciales ('THE WITNESS SPEAKS! WHAT THE EVIDENCE AGAINST PETRO REVEALS', 'ARE MORE PETRO VIDEOS COMING?'). Eso no entra (enfoque.md: sin casos judiciales, sin bandos). Solo sirve su sátira pura, si la hay. El directo del 10-nov (ogfgkEVDgXI) se revisó en el ciclo 2: es vida privada y escándalo, no entra. Dos ciclos sin nada aprovechable: si en el ciclo 4 sigue igual, proponer al usuario descartarlo.",
       "candidatos": [],
-      "ultima_revision": "2026-11-10T15:25:41-05:00",
-      "ultimas_subidas": []
+      "ultima_revision": "2026-11-10T23:38:17-05:00",
+      "ultimas_subidas": [
+        { "url": "https://www.youtube.com/watch?v=ogfgkEVDgXI", "titulo": "🔴 HERMANA DE BENEDETTI REVELA DETALLES DE LAS FIESTAS DE PETRO: ¡SALPICA A VERÓNICA Y LAURA SARABIA!", "publicado": "2026-11-10T21:44:43-05:00", "vistas": 18203, "excluido": "Vida privada y escándalo de políticos, contado con postura (enfoque.md)" }
+      ]
     },
     {
       "nombre": "La Pulla",
@@ -221,9 +234,10 @@
       "canales_relacionados": [],
       "verificacion": "Canal 'Los De La Culpa' (413 K), programa semanal numerado ('Capítulo 268').",
       "evidencia_similar": "Colectivo de humor de Ricardo Quevedo, Iván Marín, Tavo Bernate, Santiago Rendón, Tato Devia y Henry Delgado, que emite los lunes a las 21:00 (https://www.publimetro.co/entretenimiento/2024/11/29/los-de-la-culpa-reunieron-a-polilla-juanpis-suso-y-mas-humoristas-en-un-solo-escenario/). Es donde salen dos perfiles de la semilla. El capítulo 268 hace 5.028 vistas por hora.",
-      "ultima_revision": "2026-11-10T15:12:01-05:00",
+      "notas_ciclo_2": "En el capítulo 268 salen Tato Devia e Iván Marín (lo dicen los clips del Clipero). 'Tavo Bernate' -Recientes no trae nada suyo fuera del 268. El capítulo 269 se espera el lunes 16-nov a las 21:00.",
+      "ultima_revision": "2026-11-10T23:37:53-05:00",
       "ultimas_subidas": [
-        { "url": "https://www.youtube.com/watch?v=3BAphhKqHUw", "titulo": "Errores Memorables | Los De La Culpa - Capítulo 268", "publicado": "2026-11-09T20:56:11-05:00", "vistas": 92014 }
+        { "url": "https://www.youtube.com/watch?v=3BAphhKqHUw", "titulo": "Errores Memorables | Los De La Culpa - Capítulo 268", "publicado": "2026-11-09T20:56:11-05:00", "vistas": 132458 }
       ]
     },
     {
@@ -237,10 +251,28 @@
       "verificacion": "Canal 'La Revuelta' (624 K), que sube los fragmentos del programa con la marca '#LaRevuelta 09.11.2026'. Es el programa de TVE: lo que se corte tiene dueño (RTVE), sin_verificar.",
       "evidencia_similar": "Humorista y presentador de un programa de humor con entrevistas. 'Broncano' lleva 23-24 h en tendencia de X en Colombia (#19 a las 19:15 UTC del 10-nov) y en México (#22-34 en cuatro cortes) (https://trends24.in/colombia/, https://trends24.in/mexico/). La causa es la entrevista a Santiago Abascal del 9-nov, que no se corta: hay elecciones generales en España el 29-N y Abascal es candidato. Con invitados no políticos (artistas latinos, por ejemplo) sí entra.",
       "advertencia": "Hasta el 29-N no se corta ningún candidato español. Después, la política española solo entra con su campo politica y con las mismas reglas que la colombiana.",
-      "ultima_revision": "2026-11-10T15:39:34-05:00",
+      "ultima_revision": "2026-11-10T23:39:23-05:00",
       "ultimas_subidas": [
-        { "url": "https://www.youtube.com/watch?v=tZeBj9MS9RQ", "titulo": "Santiago Abascal opina sobre el cambio climático | #LaRevuelta 09.11.2026", "publicado": "2026-11-10T03:00:21-05:00", "vistas": 380119, "excluido": "Candidato en campaña: elecciones generales en España el 29-N" },
-        { "url": "https://www.youtube.com/watch?v=wIKaqVcTZio", "titulo": "Santiago Abascal aclara su relación con Israel | #LaRevuelta 09.11.2026", "publicado": "2026-11-10T03:00:04-05:00", "vistas": 330082, "excluido": "Candidato en campaña, y además toca una guerra" }
+        { "url": "https://www.youtube.com/watch?v=tZeBj9MS9RQ", "titulo": "Santiago Abascal opina sobre el cambio climático | #LaRevuelta 09.11.2026", "publicado": "2026-11-10T03:00:21-05:00", "vistas": 514102, "excluido": "Candidato en campaña: elecciones generales en España el 29-N" },
+        { "url": "https://www.youtube.com/watch?v=wIKaqVcTZio", "titulo": "Santiago Abascal aclara su relación con Israel | #LaRevuelta 09.11.2026", "publicado": "2026-11-10T03:00:04-05:00", "vistas": 443649, "excluido": "Candidato en campaña, y además toca una guerra" }
+      ],
+      "notas_ciclo_2": "Los fragmentos del programa del 10-nov salen hacia las 03:00 del día siguiente. Revisar en el ciclo 3 si el invitado no es político."
+    },
+    {
+      "nombre": "Jhovanoty",
+      "nicho": "momentos graciosos de la política colombiana",
+      "grupo": "humor político (Colombia)",
+      "origen": "similar",
+      "estado": "resuelto",
+      "cuentas": { "youtube": "https://www.youtube.com/channel/UCPuPVR-wQA8uRMFTtGy3wyQ", "kick": null, "twitch": null, "instagram": null, "tiktok": null, "x": null },
+      "canales_relacionados": [],
+      "verificacion": "Canal 'Jhovanoty' (259 K) con 'Puro Show de Jhovanoty', donde imita a Petro ('Petrosky'). La prensa lo presenta como humorista imitador de políticos (https://www.publimetro.co/entretenimiento/2024/04/14/jhovanoty-se-sincero-y-conto-que-personajes-de-la-politica-le-ha-costado-imitar/, https://www.eltiempo.com/cultura/gente/las-preocupantes-amenazas-denunciadas-por-el-humorista-jovanothy-844648).",
+      "candidatos": [],
+      "evidencia_similar": "Sátira política colombiana con imitación, el mismo estilo que Voz Populi. Es lo que más rinde del humor político colombiano en la ventana: 'La insólita defensa de Petrosky...' hizo 187.719 vistas en 51,8 h (3.624/h), el 72 % de sus suscriptores en dos días.",
+      "advertencia": "Su personaje principal es Petro: si se trae siempre, el equilibrio se carga hacia un solo lado. Esta semana su tema es un 'video íntimo', es decir, vida privada: excluido. Solo entran pullas sobre decisiones públicas, con 'imitación' en pantalla desde el primer segundo. Tiene un estreno programado (lEDdtE48rBk, 'Premieres in 20 hours' a las 23:46 del 10-nov).",
+      "ultima_revision": "2026-11-10T23:45:53-05:00",
+      "ultimas_subidas": [
+        { "url": "https://www.youtube.com/watch?v=jO638-l22nY", "titulo": "La INSÓLITA defensa de PETROSKY sobre el video \"íntimo\" - Puro Show de Jhovanoty", "publicado": "2026-11-08T20:00:07-05:00", "vistas": 187719, "excluido": "Vida privada (video íntimo)" }
       ]
     }
   ]

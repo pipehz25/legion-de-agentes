@@ -26,6 +26,11 @@
   ],
   "_fuentes_politica": "Momentos graciosos reales de políticos colombianos. Las reglas para tratarlos están en enfoque.md.",
 
+  "fuentes_vetadas": [
+    { "fuente": "La Mesa Reñoña 523 - Funa de Franco / Comediantes en problemas (Franco Escamilla)", "motivo": "Trata de una acusación pública contra el humorista: cae en la exclusión de escándalos. Decisión del orquestador, 2026-11-10." },
+    { "fuente": "Hablando Huevadas - VIMOS DOS SORDOS PELEANDO", "motivo": "El chiste es reírse de una discapacidad." }
+  ],
+  "_fuentes_vetadas": "No van a fuentes_para_clips aunque sean lo más viral. Los perfiles siguen vigentes: solo se vetan esos episodios.",
   "max_similares_por_ciclo": 2,
   "excluir": [
     "reality shows y concursos de televisión, y todo lo que salga de ellos",
