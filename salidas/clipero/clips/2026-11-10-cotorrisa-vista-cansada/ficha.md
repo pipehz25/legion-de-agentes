@@ -52,4 +52,6 @@ Crédito: La Cotorrisa (canal de Ricardo Pérez), "Anecdotario 377 - Nuestro pri
 
 ## Notas técnicas
 
+- Duración 62,9 s (corte real 2.707,2-2.770,1 s). Audio: −13,92 LUFS, pico −1,42 dBTP (lineal, con limitador).
+- Revisión visual: Yordi Rosado, el plano general y Slobotzky (gorra blanca, camiseta de rayas) al final; gancho y subtítulos legibles, no tapan caras; sin anuncios ni banners.
 - "letras" (2.740 s) se deja como se oye en los subtítulos automáticos (probablemente "lentes"; no se corrige por §6).

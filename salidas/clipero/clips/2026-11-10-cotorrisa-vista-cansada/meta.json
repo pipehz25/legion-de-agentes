@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-10-cotorrisa-vista-cansada",
+    "url_fuente":  "https://www.youtube.com/watch?v=jUfBJ_aIA3w",
+    "video_id":  "jUfBJ_aIA3w",
+    "inicio":  2707.17,
+    "fin":  2770.07,
+    "inicio_hms":  "0:45:07",
+    "duracion_seg":  62.9,
+    "gancho":  "A los 40, la vista cansada llega así",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  244,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -15.34,
+                  "entrada_tp":  -2.76,
+                  "salida_lufs":  -13.92,
+                  "salida_tp":  -1.42
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-10-cotorrisa-vista-cansada/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-10-cotorrisa-vista-cansada/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-10-cotorrisa-vista-cansada/revision.jpg",
+    "creado":  "2026-11-10T19:57:41.7891117-05:00"
+}

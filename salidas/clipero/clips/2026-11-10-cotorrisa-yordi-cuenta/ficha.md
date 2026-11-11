@@ -51,4 +51,7 @@ Crédito: La Cotorrisa (canal de Ricardo Pérez), "Anecdotario 377 - Nuestro pri
 
 ## Notas técnicas
 
+- Duración 65,5 s (corte real 366,7-432,1 s). Audio: −13,96 LUFS, pico −1,92 dBTP (lineal).
+- El primer corte (16:00) salió truncado a 56,7 s por una caída de la red (los dos últimos cuadros en negro); se repitió una vez y salió completo.
+- Revisión visual: Yordi Rosado (chaqueta verde) en primer plano y luego los tres en plano general; gancho y subtítulos legibles, no tapan caras; sin anuncios ni banners.
 - `palabras-rev.json` (jUfBJ_aIA3w): Jordi → Yordi.

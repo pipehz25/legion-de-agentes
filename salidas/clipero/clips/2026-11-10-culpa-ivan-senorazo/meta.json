@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-10-culpa-ivan-senorazo",
+    "url_fuente":  "https://www.youtube.com/watch?v=3BAphhKqHUw",
+    "video_id":  "3BAphhKqHUw",
+    "inicio":  751.49,
+    "fin":  804.26,
+    "inicio_hms":  "0:12:31",
+    "duracion_seg":  52.8,
+    "gancho":  "Iván Marín y su saludo a Jessi Uribe",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  146,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -14.56,
+                  "entrada_tp":  -2.07,
+                  "salida_lufs":  -14.07,
+                  "salida_tp":  -1.51
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-10-culpa-ivan-senorazo/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-10-culpa-ivan-senorazo/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-10-culpa-ivan-senorazo/revision.jpg",
+    "creado":  "2026-11-10T20:05:58.7573896-05:00"
+}

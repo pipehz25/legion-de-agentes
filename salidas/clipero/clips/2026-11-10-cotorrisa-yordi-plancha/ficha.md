@@ -3,7 +3,7 @@
 - **Estado:** listo · **Línea:** risas · **Tipo:** `historia` · **Puntaje:** 78/100 · **Orden en la fuente:** 2
 - **Archivo:** `salidas/clipero/clips/2026-11-10-cotorrisa-yordi-plancha/clip.mp4` (1080x1920, modo `desenfoque`, subtítulos `rev`)
 - **Gancho en pantalla:** "Le preguntó a un luchador cómo le fue"
-- **Corte:** 0:17:20 → 0:18:34 (1.039,6 s → 1.113,5 s). Empieza en "¿Cómo estuvo allá arriba? ¿Cómo la pasaste en la arena?" y termina en "hay otra dimensión en la que Yordi Rosado murió en un reportaje de lucha libre".
+- **Corte:** 0:17:20 → 0:18:35 (1.040,3 s → 1.114,5 s). Empieza en "¿Cómo estuvo ya? ¿Cómo la pasaste en la arena?" y termina en "hay otra dimensión en la que Yordi Rosado murió en un reportaje de lucha libre".
 - **Sale en persona:** Yordi Rosado cuenta la anécdota en La Cotorrisa, con Ricardo Pérez y Slobotzky.
 - **Quién habla:** Yordi Rosado cuenta lo que le pasó de reportero en la Arena México; el remate de "la otra dimensión" lo dice uno de los anfitriones.
 - **Cuidado:** el luchador (Super Porky) ya falleció. El clip no lo nombra en el gancho y deja fuera los chistes sobre su peso (16:59-17:10). Dentro queda "ese güey grande y yo chico", que describe la plancha. En títulos y descripción no nombrarlo ni bromear sobre su cuerpo.
@@ -52,5 +52,8 @@ Crédito: La Cotorrisa (canal de Ricardo Pérez), "Anecdotario 377 - Nuestro pri
 
 ## Notas técnicas
 
-- Duración cerca del máximo (74 s): la anécdota necesita la pregunta y el remate.
+- Duración 74,3 s (corte real 1.040,3-1.114,5 s), cerca del máximo: la anécdota necesita la pregunta y el remate. El primer corte (1.039,0-1.114,5 s) daba 75,6 s y se rehízo una vez entrando en "¿Cómo estuvo ya?".
+- Audio: −13,99 LUFS, pico −1,53 dBTP (lineal).
+- Revisión visual: Yordi Rosado (camiseta blanca) en primer plano y los tres en plano general; gancho y subtítulos legibles, no tapan caras. Al final la edición de La Cotorrisa pone una pantalla con fotos (cuadro 4): es del propio programa, no un anuncio.
+- Corte real: empieza en "¿Cómo la pasaste en la arena?" (el "¿cómo estuvo allá arriba?" queda justo antes).
 - `palabras-rev.json` (jUfBJ_aIA3w): Jordi → Yordi, areda → arena, superpky → Super Porky.

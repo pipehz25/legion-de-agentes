@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-10-culpa-tato-diesel",
+    "url_fuente":  "https://www.youtube.com/watch?v=3BAphhKqHUw",
+    "video_id":  "3BAphhKqHUw",
+    "inicio":  504.77,
+    "fin":  555.78,
+    "inicio_hms":  "0:08:24",
+    "duracion_seg":  51,
+    "gancho":  "Le echó gasolina a un carro diésel",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  156,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -14.65,
+                  "entrada_tp":  -2.15,
+                  "salida_lufs":  -13.96,
+                  "salida_tp":  -1.5
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-10-culpa-tato-diesel/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-10-culpa-tato-diesel/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-10-culpa-tato-diesel/revision.jpg",
+    "creado":  "2026-11-10T20:02:52.4956453-05:00"
+}

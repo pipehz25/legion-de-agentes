@@ -5,7 +5,7 @@
     "inicio":  366.65,
     "fin":  432.1,
     "inicio_hms":  "0:06:06",
-    "duracion_seg":  56.7,
+    "duracion_seg":  65.5,
     "gancho":  "El día que a Yordi Rosado le cobraron",
     "subtitulos":  "rev",
     "palabras_subtituladas":  188,
@@ -17,13 +17,13 @@
                   "normalizacion":  "linear",
                   "objetivo_lufs":  -14,
                   "limitador":  false,
-                  "entrada_lufs":  -13.47,
+                  "entrada_lufs":  -13.54,
                   "entrada_tp":  -1.45,
-                  "salida_lufs":  -14.09,
-                  "salida_tp":  -1.99
+                  "salida_lufs":  -13.96,
+                  "salida_tp":  -1.92
               },
     "archivo":  "salidas/clipero/clips/2026-11-10-cotorrisa-yordi-cuenta/clip.mp4",
     "portada":  "salidas/clipero/clips/2026-11-10-cotorrisa-yordi-cuenta/portada.jpg",
     "revision":  "salidas/clipero/clips/2026-11-10-cotorrisa-yordi-cuenta/revision.jpg",
-    "creado":  "2026-11-10T16:02:56.4084043-05:00"
+    "creado":  "2026-11-10T19:41:36.0485711-05:00"
 }

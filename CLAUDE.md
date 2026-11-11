@@ -49,6 +49,7 @@ Un **espacio** es una línea de contenido aparte, con su propia configuración, 
 - **Disparador:** `.claude/skills/<nombre>/SKILL.md`. Solo lanza el subagente y resume su respuesta; el trabajo pesado nunca se hace en el contexto del orquestador.
 - **Conocimiento, configuración y scripts:** `legion/NN-<nombre>/`.
 - **Memoria entre ciclos:** `datos/<nombre>/`. Solo la escribe su propio agente.
+- **Archivos temporales** (scripts auxiliares, pruebas): en el scratchpad de la sesión y con el nombre del agente delante (`clipero-registrar.ps1`, `publicador-...`). Varios agentes comparten ese directorio y se pisan si usan el mismo nombre.
 - **Entregables:** `salidas/<nombre>/`. En un espacio, `datos/` y `salidas/` cuelgan de `espacios/<nombre>/` («Espacios»). Los agentes se comunican **solo** leyendo las salidas de otros (contratos JSON documentados en la definición de cada agente), nunca la carpeta `datos/` ajena.
 - **Scripts:** PowerShell 5.1 (no se cuenta con Python ni Node en las PCs de la Legión). Los `.ps1` solo llevan caracteres ASCII; los JSON se escriben en UTF-8 sin BOM. Se ejecutan con `powershell -NoProfile -ExecutionPolicy Bypass -File ...`.
 - **Herramientas compartidas** (yt-dlp, ffmpeg, deno): `herramientas/bin/`. Se instalan o actualizan con `herramientas/instalar.ps1`, que ejecuta el usuario (el clasificador bloquea que Claude descargue ejecutables). Conviene actualizar yt-dlp cada pocas semanas, porque YouTube cambia a menudo.

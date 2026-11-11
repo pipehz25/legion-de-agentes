@@ -2,13 +2,13 @@
     "id":  "2026-11-10-cotorrisa-yordi-plancha",
     "url_fuente":  "https://www.youtube.com/watch?v=jUfBJ_aIA3w",
     "video_id":  "jUfBJ_aIA3w",
-    "inicio":  1038.97,
+    "inicio":  1040.25,
     "fin":  1114.5,
-    "inicio_hms":  "0:17:18",
-    "duracion_seg":  75.6,
+    "inicio_hms":  "0:17:20",
+    "duracion_seg":  74.3,
     "gancho":  "Le preguntó a un luchador cómo le fue",
     "subtitulos":  "rev",
-    "palabras_subtituladas":  231,
+    "palabras_subtituladas":  226,
     "modo":  "desenfoque",
     "estilo":  "clasico",
     "fuente_ancho":  1920,
@@ -17,13 +17,13 @@
                   "normalizacion":  "linear",
                   "objetivo_lufs":  -14,
                   "limitador":  false,
-                  "entrada_lufs":  -14.01,
-                  "entrada_tp":  -1.55,
-                  "salida_lufs":  -13.98,
-                  "salida_tp":  -1.61
+                  "entrada_lufs":  -13.97,
+                  "entrada_tp":  -1.47,
+                  "salida_lufs":  -13.99,
+                  "salida_tp":  -1.53
               },
     "archivo":  "salidas/clipero/clips/2026-11-10-cotorrisa-yordi-plancha/clip.mp4",
     "portada":  "salidas/clipero/clips/2026-11-10-cotorrisa-yordi-plancha/portada.jpg",
     "revision":  "salidas/clipero/clips/2026-11-10-cotorrisa-yordi-plancha/revision.jpg",
-    "creado":  "2026-11-10T15:57:50.7219379-05:00"
+    "creado":  "2026-11-10T19:49:52.9539693-05:00"
 }

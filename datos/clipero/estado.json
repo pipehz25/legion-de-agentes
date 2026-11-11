@@ -1,9 +1,9 @@
 {
-    "actualizado":  "2026-11-10T16:00:00-05:00",
+    "actualizado":  "2026-11-10T20:30:00-05:00",
     "ciclo":  12,
     "ultimo_ciclo_cazador":  8,
-    "ultimo_ciclo_cazador_risas":  0,
-    "_nota_ciclos":  "Ciclo 7 (4-nov, 14:44-21:50; parado de 17:31 a 21:37 por el límite de uso): sin ciclo nuevo del Cazador (sigue en el 5, procesado en el ciclo 6), descubrimiento propio dentro del enfoque. Durante la pausa, un encargo aparte sobre el robot de Westcol (Xrwm98iaWY8, 19:50-20:16; informe 2026-11-04-westcol-robot.md) se registró como \u0027ciclo 8\u0027 y cortó 5 clips; se mantiene 8 para que el contador no retroceda. El ciclo 6 (3-nov) se cortó por un fallo de red y se cerró en el ciclo 7. Ciclo 10 (8-nov, procesó el ciclo 6 del Cazador): se cortó a las 23:49 por el límite de uso, antes de registrar 7 clips y de escribir el informe. Se cerró el 9-nov entre las 20:50 y las 21:50 sin abrir ciclo nuevo: 4 clips ya hechos se revisaron y se registraron, y 3 se volvieron a cortar desde su ficha (ybjXHgxGBMo). El informe del ciclo 10 sigue sin escribirse. El Cazador publicó su ciclo 7 el 9-nov a las 21:45: le toca al ciclo 11. Ciclo 11 (9-nov, desde las 21:29; procesa el ciclo 7 del Cazador): orden del orquestador: Ibai con Westcol (627Fvn2fEjU), el round de Westcol y Samulx (WAfZNmp2n8I y RKnmC_cEz3s), Lonche (_BA7OAA-8Ao y MLoui0M6ZO0), después The Chanty (8IheSHj1xfA) y Diego RR (-4oSl93f2eU), y por último Kick (VOD de Lonche). Sin variantes: TikTok, YouTube, Instagram y Facebook tienen una sola cuenta activa (principal). Ciclo 12 (10-nov; procesa el ciclo 8 del Cazador Urbano y cierra lo pendiente del 11): una primera ejecución (14:20-15:02) cortó 4 clips de Ibai, 4 de Samulx y 1 de Willito sin registrarlos y se paró; la segunda (desde las 15:09) los revisó, registró y siguió. Sin entrada del Cazador de Risas (salidas/cazador-risas/oportunidades.json no existe a las 15:10): todo el ciclo es línea urbano. Desde este ciclo cada clip lleva \u0027linea\u0027 (los antiguos se marcaron \u0027urbano\u0027). Sin variantes: cada plataforma tiene una sola cuenta activa (principal; la de risas está apagada). clips.json se podó a los últimos 7 días (antes del 3-nov solo quedan los descartados por el usuario). Corrección de la poda: se quitaron de clips.json los clips anteriores al 3-nov con la ventana ya cerrada (21); se quedan los que siguen en ventana (4 de Tóxico y 2 de Kris R) y los descartados por el usuario. Línea urbano del ciclo 12 cerrada hacia las 16:00: 4 fuentes nuevas analizadas (LkY43nX5guU, YwhGtvtJ1Uk, WAfZNmp2n8I, EMfdJlhdVRg) más el cierre de 627Fvn2fEjU. El Cazador de Risas publicó su primer ciclo a media tarde y el orquestador pidió seguir con risas en este mismo ciclo (mínimo 2 fuentes por línea). Quedan de urbano para el ciclo 13, por este orden: Qyzqh4tJp0M (Cuphead de Westcol y Samulx, 88 min), _A8fxARu-5g (boda en broma de Willito y Lonche), tyACjLDov8E y MLoui0M6ZO0 (Lonche en México), nzKzpNx9zF8 (Jelty y SoyPan), -4oSl93f2eU y otkPy_v5Uc4 (Diego RR), n4c0JQp8hTY (empresario, márgenes de la ropa) y el VOD de Kick de Willito (01a1c32d…).",
+    "ultimo_ciclo_cazador_risas":  1,
+    "_nota_ciclos":  "Ciclo 7 (4-nov, 14:44-21:50; parado de 17:31 a 21:37 por el límite de uso): sin ciclo nuevo del Cazador (sigue en el 5, procesado en el ciclo 6), descubrimiento propio dentro del enfoque. Durante la pausa, un encargo aparte sobre el robot de Westcol (Xrwm98iaWY8, 19:50-20:16; informe 2026-11-04-westcol-robot.md) se registró como \u0027ciclo 8\u0027 y cortó 5 clips; se mantiene 8 para que el contador no retroceda. El ciclo 6 (3-nov) se cortó por un fallo de red y se cerró en el ciclo 7. Ciclo 10 (8-nov, procesó el ciclo 6 del Cazador): se cortó a las 23:49 por el límite de uso, antes de registrar 7 clips y de escribir el informe. Se cerró el 9-nov entre las 20:50 y las 21:50 sin abrir ciclo nuevo: 4 clips ya hechos se revisaron y se registraron, y 3 se volvieron a cortar desde su ficha (ybjXHgxGBMo). El informe del ciclo 10 sigue sin escribirse. El Cazador publicó su ciclo 7 el 9-nov a las 21:45: le toca al ciclo 11. Ciclo 11 (9-nov, desde las 21:29; procesa el ciclo 7 del Cazador): orden del orquestador: Ibai con Westcol (627Fvn2fEjU), el round de Westcol y Samulx (WAfZNmp2n8I y RKnmC_cEz3s), Lonche (_BA7OAA-8Ao y MLoui0M6ZO0), después The Chanty (8IheSHj1xfA) y Diego RR (-4oSl93f2eU), y por último Kick (VOD de Lonche). Sin variantes: TikTok, YouTube, Instagram y Facebook tienen una sola cuenta activa (principal). Ciclo 12 (10-nov; procesa el ciclo 8 del Cazador Urbano y cierra lo pendiente del 11): una primera ejecución (14:20-15:02) cortó 4 clips de Ibai, 4 de Samulx y 1 de Willito sin registrarlos y se paró; la segunda (desde las 15:09) los revisó, registró y siguió. Sin entrada del Cazador de Risas (salidas/cazador-risas/oportunidades.json no existe a las 15:10): todo el ciclo es línea urbano. Desde este ciclo cada clip lleva \u0027linea\u0027 (los antiguos se marcaron \u0027urbano\u0027). Sin variantes: cada plataforma tiene una sola cuenta activa (principal; la de risas está apagada). clips.json se podó a los últimos 7 días (antes del 3-nov solo quedan los descartados por el usuario). Corrección de la poda: se quitaron de clips.json los clips anteriores al 3-nov con la ventana ya cerrada (21); se quedan los que siguen en ventana (4 de Tóxico y 2 de Kris R) y los descartados por el usuario. Línea urbano del ciclo 12 cerrada hacia las 16:00: 4 fuentes nuevas analizadas (LkY43nX5guU, YwhGtvtJ1Uk, WAfZNmp2n8I, EMfdJlhdVRg) más el cierre de 627Fvn2fEjU. El Cazador de Risas publicó su primer ciclo a media tarde y el orquestador pidió seguir con risas en este mismo ciclo (mínimo 2 fuentes por línea). Quedan de urbano para el ciclo 13, por este orden: Qyzqh4tJp0M (Cuphead de Westcol y Samulx, 88 min), _A8fxARu-5g (boda en broma de Willito y Lonche), tyACjLDov8E y MLoui0M6ZO0 (Lonche en México), nzKzpNx9zF8 (Jelty y SoyPan), -4oSl93f2eU y otkPy_v5Uc4 (Diego RR), n4c0JQp8hTY (empresario, márgenes de la ropa) y el VOD de Kick de Willito (01a1c32d…). Línea risas (ciclo 12, desde las 15:50): primera fuente del Cazador de Risas, La Cotorrisa (jUfBJ_aIA3w). A las 16:00 se cayó la red: un corte salió truncado y se repitió. Desde ese aviso del orquestador, clips.json se actualiza con inserciones (el Publicador lo lee a la vez) y solo estado.json se reescribe entero. Cierre del ciclo 12 (20:10): 6 fuentes nuevas (4 urbano, 2 risas) más el cierre de 627Fvn2fEjU, y 23 clips registrados en el ciclo (17 urbano, 6 risas). Informe: salidas/clipero/informes/2026-11-10_2015.md. La segunda fuente de risas pasa del tope de 5 fuentes porque la línea llegó a media tarde y la definición reserva 2 por línea. Quedan para el ciclo 13: risas, Juanpis con Hebert Vargas (1L3SuXTXzU0) y FranCupido GDL 3 ep. 6 (NiWsTPALopk), y los propuestos de La Cotorrisa y Los De La Culpa; nunca \u0027La Mesa Reñoña 523 - Funa de Franco\u0027 (oSfzrwpbQZs, exclusión por acusación pública); urbano, la lista de la nota anterior.",
     "fuentes":  [
                     {
                         "id":  "LYEB5ioD_pY",
@@ -382,6 +382,20 @@
                         "titulo":  "WESTCOL Y SAMULX TIRANDO FREESTYLE 🔥",
                         "analizado":  "2026-11-10",
                         "resultado":  "sin clips + 1 propuesto para escuchar (ciclo 12) | fuente_para_clips del Cazador (ciclo 8), perfiles Westcol y Samulx | Aida Victoria Stream (17.000), publicado 9-nov 23:23, 1.958 s, 20.651 vistas a las 14,6 h (1.414/h) y 23.426 al analizar (10-nov, 15:47) | sin picos ni marcas | transcripción leída entera (252 líneas) | casi todo es freestyle sobre beats de YouTube (drill, Detroit, trap; no se sabe si son comerciales): letras sexuales y misóginas, infidelidad, robos, alcohol y armas; tiraderas a Rey de la City con deudas y empeños (afirmaciones sobre un tercero) | lo único del enfoque es la barra sobre Lonche (5:27-5:46), propuesta para escuchar"
+                    },
+                    {
+                        "id":  "jUfBJ_aIA3w",
+                        "url":  "https://www.youtube.com/watch?v=jUfBJ_aIA3w",
+                        "titulo":  "Anecdotario 377 - Nuestro primer tacto de próstata FT. @YordiRosado",
+                        "analizado":  "2026-11-10",
+                        "resultado":  "4 clips (línea risas, ciclo 12): yordi-tacto 82, yordi-plancha 78, yordi-cuenta 76, vista-cansada 75 + 3 propuestos sin cortar (código 22, el doctor de dedito flaco, Harvard) | fuente_para_clips n.º 1 del Cazador de Risas (ciclo 1), La Cotorrisa con Yordi Rosado | canal Ricardo Pérez, publicado 9-nov, 5.128 s, 1.153.404 vistas (26.933/h según el Cazador) | sin picos; 8 marcas en comentarios (12:30 \u0027comando harina\u0027 6 menciones, 1:10:00 Harvard 3, 45:30 vista cansada 2, 10:45, 1:25:28, 1:50, 33:09, 10:00) | transcripción leída entera (672 líneas) | mucho humor sexual explícito (7:48-8:17, 37:48-43:35, 49:01-53:24) y temas de pareja de terceros (Ricardo Pérez y Susana Zabaleta, edad): fuera | 12:30 insinuación de drogas sobre un tercero (\u0027comando harina\u0027): fuera | 1:05:35 chiste de cáncer y seguros: fuera | Super Porky ya falleció: el clip de la plancha no lo nombra ni bromea con su peso | búsqueda de saturación (15:51): solo el episodio | palabras-rev.json: Jordi→Yordi, superpky/superpy→Super Porky, Conor→Cóndor, areda→arena, Eslobo→Slobo; en el tacto aso/tant→(…), haa→hace, [grito ahogado]→(grito ahogado)"
+                    },
+                    {
+                        "id":  "3BAphhKqHUw",
+                        "url":  "https://www.youtube.com/watch?v=3BAphhKqHUw",
+                        "titulo":  "Errores Memorables | Los De La Culpa - Capítulo 268",
+                        "analizado":  "2026-11-10",
+                        "resultado":  "2 clips (línea risas, ciclo 12): tato-diesel 80, ivan-senorazo 78 + 4 propuestos (super-alexis 77, cuya descarga se colgó; Quevedo \u0027digan mentiras\u0027, Iván Marín \u0027si crees que puedes\u0027, luces prendidas en el carro) | fuente_para_clips n.º 2 del Cazador de Risas (ciclo 1), 5.028 vistas/h | Los De La Culpa (413.000), publicado 10-nov, 2.912 s, 112.955 vistas al analizar (20:00) | sin picos ni marcas | transcripción leída entera (385 líneas) | elenco presentado al inicio: Quevedo, Bernate, Devia, Delgado, Marín y Rendón; en la imagen salen seis en taburetes y no se distingue quién es quién: solo se nombra a quien el presentador da la palabra en el propio clip | fuera: humor sexual (masturbación, \u0027machetazo\u0027, Skype, impro de adictos al sexo, Amparo Grisales), \u0027cambió el trago por el basuco\u0027 (drogas), la señora que no estaba embarazada (físico de una persona privada), el habitante de calle \u0027drogadito\u0027 (personas vulnerables) | palabras-rev.json: debia→Devia, diesésel→diésel, livis→Levi\u0027s, Juribe→Jessi Uribe, Jessie/Jess→Jessi, Paridir→parido, letor→(…)"
                     }
                 ],
     "momentos":  [
@@ -4398,6 +4412,285 @@
                          "clip":  null,
                          "variante_de":  null,
                          "motivo":  "Freestyle de cierre: \u0027Chanty tiene hasta una cama\u0027 (60), versos sexuales (\u0027te metemos entre los dos\u0027) y \u0027sangre mapuche\u0027. Exclusión o sin remate"
+                     },
+                     {
+                         "fuente":  "jUfBJ_aIA3w",
+                         "inicio":  1696.37,
+                         "fin":  1738.82,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-10-cotorrisa-yordi-tacto",
+                         "variante_de":  null,
+                         "motivo":  "historia, 82 (línea risas): Yordi Rosado y su primer tacto, \u0027señorita, señorita, me estoy haciendo\u0027. Tema del título"
+                     },
+                     {
+                         "fuente":  "jUfBJ_aIA3w",
+                         "inicio":  1040.25,
+                         "fin":  1114.5,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-10-cotorrisa-yordi-plancha",
+                         "variante_de":  null,
+                         "motivo":  "historia, 78 (línea risas): \u0027¿cómo estuvo allá arriba?\u0027 / \u0027¿quieres ver cómo estuvo?\u0027 y la plancha. No nombra al luchador (fallecido) ni bromea con su peso"
+                     },
+                     {
+                         "fuente":  "jUfBJ_aIA3w",
+                         "inicio":  366.65,
+                         "fin":  432.1,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-10-cotorrisa-yordi-cuenta",
+                         "variante_de":  null,
+                         "motivo":  "historia, 76 (línea risas): tras años sin pagar en restaurantes, un día le cobran y se ofende 10 minutos. Primer corte truncado por la caída de red; repetido"
+                     },
+                     {
+                         "fuente":  "jUfBJ_aIA3w",
+                         "inicio":  2707.17,
+                         "fin":  2770.07,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-10-cotorrisa-vista-cansada",
+                         "variante_de":  null,
+                         "motivo":  "humor, 75 (línea risas): la vista cansada a los 40 y el mensaje de \u0027hola, mijo\u0027 en letra gigante. 2 marcas en 45:37-45:46"
+                     },
+                     {
+                         "fuente":  "jUfBJ_aIA3w",
+                         "inicio":  188,
+                         "fin":  279,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "74, el \u0027código 22\u0027 (le pagaban la cuenta en los restaurantes), \u0027código 11\u0027 y \u0027código Cóndor\u0027. Va antes de yordi-cuenta y cuenta la misma época; 90 s: hay que recortarlo a 75 con los tiempos por palabra. Sin cortar por capacidad del ciclo"
+                     },
+                     {
+                         "fuente":  "jUfBJ_aIA3w",
+                         "inicio":  1537,
+                         "fin":  1560,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "72, \u0027¿pedirle ver las manos al doctor?… estoy buscando un doctor de manita chica, de dedito flaco\u0027. Corto (unos 22 s) y con voces cruzadas. Sin cortar por capacidad del ciclo"
+                     },
+                     {
+                         "fuente":  "jUfBJ_aIA3w",
+                         "inicio":  4187,
+                         "fin":  4252,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "70, Yordi sobre la gente que te baja los sueños (\u0027quiero estudiar en Harvard…\u0027) con 3 marcas en comentarios (1:10:00). Sigue con el ejemplo de Ricardo y Susana (vida privada), que queda fuera. Sin cortar por capacidad del ciclo"
+                     },
+                     {
+                         "fuente":  "jUfBJ_aIA3w",
+                         "inicio":  0,
+                         "fin":  116,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "Previo a la intro: chistes sexuales sobre una entrevista y la intro del programa"
+                     },
+                     {
+                         "fuente":  "jUfBJ_aIA3w",
+                         "inicio":  468,
+                         "fin":  500,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "\u0027Como con el sexo… métela ahí\u0027 (sexual explícito)"
+                     },
+                     {
+                         "fuente":  "jUfBJ_aIA3w",
+                         "inicio":  580,
+                         "fin":  760,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "El grupo de rock monosilábico en la radio (65; no recuerda quién era), \u0027comando harina\u0027 (12:30, insinuación de drogas sobre un tercero) y actores \u0027mamadores\u0027"
+                     },
+                     {
+                         "fuente":  "jUfBJ_aIA3w",
+                         "inicio":  760,
+                         "fin":  1035,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "John Cena y su máscara, luchadores actores, el chiste del peso de Super Porky (fallecido): sin remate o físico"
+                     },
+                     {
+                         "fuente":  "jUfBJ_aIA3w",
+                         "inicio":  1114,
+                         "fin":  1530,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "Consejo del mánager tras la plancha, luchadores fallecidos, \u0027luchadores exóticos\u0027 (orientación) y el libro de Yordi"
+                     },
+                     {
+                         "fuente":  "jUfBJ_aIA3w",
+                         "inicio":  1739,
+                         "fin":  2270,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "Final del tacto con la recomendación médica (cáncer de próstata: fuera del humor), examen de ETS y promoción del libro"
+                     },
+                     {
+                         "fuente":  "jUfBJ_aIA3w",
+                         "inicio":  2270,
+                         "fin":  2700,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "Humor sexual explícito (\u0027de sangre o de carne\u0027) y circuncisión"
+                     },
+                     {
+                         "fuente":  "jUfBJ_aIA3w",
+                         "inicio":  2770,
+                         "fin":  2940,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "Achaques (hernias, rodilla) y colgarse de un tubo un minuto al día (66)"
+                     },
+                     {
+                         "fuente":  "jUfBJ_aIA3w",
+                         "inicio":  2940,
+                         "fin":  3800,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "Chiste racial del ladrillo, medirse el pene, masturbación e infidelidad: sexual o de terceros"
+                     },
+                     {
+                         "fuente":  "jUfBJ_aIA3w",
+                         "inicio":  3800,
+                         "fin":  4187,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "Salud mental y redes (sin remate), la pareja de Ricardo Pérez y Susana Zabaleta (vida privada) y el chiste de cáncer y seguros"
+                     },
+                     {
+                         "fuente":  "jUfBJ_aIA3w",
+                         "inicio":  4252,
+                         "fin":  5128,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "Consejos con mala intención, \u0027resulta que no estaba ciego, era vista cansada\u0027 (callback que necesita contexto), relojes de copia, promoción del libro y chocolates, cierre"
+                     },
+                     {
+                         "fuente":  "3BAphhKqHUw",
+                         "inicio":  504.77,
+                         "fin":  555.78,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-10-culpa-tato-diesel",
+                         "variante_de":  null,
+                         "motivo":  "historia, 80 (línea risas): Tato Devia le echó gasolina a un carro diésel porque creía que \u0027diésel\u0027 era la marca"
+                     },
+                     {
+                         "fuente":  "3BAphhKqHUw",
+                         "inicio":  751.49,
+                         "fin":  804.26,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-10-culpa-ivan-senorazo",
+                         "variante_de":  null,
+                         "motivo":  "historia, 78 (línea risas): Iván Marín saluda a Jessi Uribe con \u0027¿qué se dice, señorazo?\u0027 (frase de Luis Alfonso)"
+                     },
+                     {
+                         "fuente":  "3BAphhKqHUw",
+                         "inicio":  822.6,
+                         "fin":  889.2,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "77, NO CORTADO: la descarga se colgó 20 min (red lenta tras la caída) y se paró a las 20:26; cortar en el ciclo 13 con id 2026-11-10-culpa-super-alexis. Saluda a un músico de Guayacán como \u0027Super Alexis Lozano\u0027 y era Nino Caicedo. Quien lo cuenta no se identifica en el clip: el gancho no lo nombra"
+                     },
+                     {
+                         "fuente":  "3BAphhKqHUw",
+                         "inicio":  2080.5,
+                         "fin":  2111.5,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "72, Ricardo Quevedo: el peor consejo es decir la verdad, \u0027digan mentiras con buena intención\u0027. Sin cortar por capacidad del ciclo"
+                     },
+                     {
+                         "fuente":  "3BAphhKqHUw",
+                         "inicio":  2275,
+                         "fin":  2290,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "70, Iván Marín: \u0027si crees que puedes, puedes\u0027… se tiró a la piscina sin saber nadar. Corto (unos 20 s). Sin cortar por capacidad del ciclo"
+                     },
+                     {
+                         "fuente":  "3BAphhKqHUw",
+                         "inicio":  2152,
+                         "fin":  2195,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "68, dejó las luces prendidas del carro \u0027para que no lo robaran\u0027 y no lo robaron porque no prendió. Quién lo cuenta, por confirmar en la imagen"
+                     },
+                     {
+                         "fuente":  "3BAphhKqHUw",
+                         "inicio":  0,
+                         "fin":  260,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "Avance con show en un \u0027sitio de tolerancia\u0027, intro, patrocinio, saludo a presos (\u0027la extorsión\u0027) y \u0027cambió el trago por el basuco\u0027 (drogas)"
+                     },
+                     {
+                         "fuente":  "3BAphhKqHUw",
+                         "inicio":  260,
+                         "fin":  345,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "Coprofilia y el tatuaje de \u0027saudade\u0027 leído como \u0027sándwich\u0027 (72, pero arranca en una situación sexual y no se puede cortar sin ella)"
+                     },
+                     {
+                         "fuente":  "3BAphhKqHUw",
+                         "inicio":  345,
+                         "fin":  503,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "El moco en el taxi (asco, 64) y la señora que no estaba embarazada (físico de una persona privada)"
+                     },
+                     {
+                         "fuente":  "3BAphhKqHUw",
+                         "inicio":  556,
+                         "fin":  751,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "Resto de la anécdota del diésel (inventa un \u0027loquito\u0027 para culparlo), el barrio Santa Fe y el \u0027sitio de tolerancia\u0027 (sexual)"
+                     },
+                     {
+                         "fuente":  "3BAphhKqHUw",
+                         "inicio":  890,
+                         "fin":  1290,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "Angélica Blandón confundida (61), público: fiesta sorpresa, empeñar la chaqueta y el pollo hecho con IA (65-68; personas privadas del público)"
+                     },
+                     {
+                         "fuente":  "3BAphhKqHUw",
+                         "inicio":  1290,
+                         "fin":  2080,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "Errores memorables con humor sexual (masturbación, \u0027machetazo\u0027, Skype), la traición de una novia y MasterChef (arepas) y la rinomodelación (64-66)"
+                     },
+                     {
+                         "fuente":  "3BAphhKqHUw",
+                         "inicio":  2295,
+                         "fin":  2912,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "Impro \u0027Más o menos\u0027: adictos al sexo, habitante de calle \u0027drogadito\u0027 y Amparo Grisales \u0027con las tetas al aire\u0027. Sexual o burla de personas vulnerables"
                      }
                  ],
     "lote_2026_11_06":  "ocho-videos-usuario"
