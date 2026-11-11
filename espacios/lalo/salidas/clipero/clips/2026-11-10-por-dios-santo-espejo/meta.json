@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-10-por-dios-santo-espejo",
+    "url_fuente":  "https://www.youtube.com/watch?v=jjdIbvEfgBM",
+    "video_id":  "jjdIbvEfgBM",
+    "inicio":  72.45,
+    "fin":  92.78,
+    "inicio_hms":  "0:01:12",
+    "duracion_seg":  20.3,
+    "gancho":  "«Úsame como espejo»",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  60,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -14.25,
+                  "entrada_tp":  -1.79,
+                  "salida_lufs":  -14.3,
+                  "salida_tp":  -1.54
+              },
+    "archivo":  "espacios/lalo/salidas/clipero/clips/2026-11-10-por-dios-santo-espejo/clip.mp4",
+    "portada":  "espacios/lalo/salidas/clipero/clips/2026-11-10-por-dios-santo-espejo/portada.jpg",
+    "revision":  "espacios/lalo/salidas/clipero/clips/2026-11-10-por-dios-santo-espejo/revision.jpg",
+    "creado":  "2026-11-10T18:07:49.3709709-05:00"
+}

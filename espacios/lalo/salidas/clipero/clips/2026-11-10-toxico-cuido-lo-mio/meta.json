@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-10-toxico-cuido-lo-mio",
+    "url_fuente":  "https://www.youtube.com/watch?v=bip8ttg-VeE",
+    "video_id":  "bip8ttg-VeE",
+    "inicio":  52.33,
+    "fin":  68.34,
+    "inicio_hms":  "0:00:52",
+    "duracion_seg":  16,
+    "gancho":  "¿Tóxico? «Yo cuido lo mío»",
+    "subtitulos":  "orig",
+    "palabras_subtituladas":  57,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -10.24,
+                  "entrada_tp":  1.46,
+                  "salida_lufs":  -14.1,
+                  "salida_tp":  -2.55
+              },
+    "archivo":  "espacios/lalo/salidas/clipero/clips/2026-11-10-toxico-cuido-lo-mio/clip.mp4",
+    "portada":  "espacios/lalo/salidas/clipero/clips/2026-11-10-toxico-cuido-lo-mio/portada.jpg",
+    "revision":  "espacios/lalo/salidas/clipero/clips/2026-11-10-toxico-cuido-lo-mio/revision.jpg",
+    "creado":  "2026-11-10T15:28:10.4195388-05:00"
+}

@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-10-toxico-celos-del-aire",
+    "url_fuente":  "https://www.youtube.com/watch?v=bip8ttg-VeE",
+    "video_id":  "bip8ttg-VeE",
+    "inicio":  9.21,
+    "fin":  41.82,
+    "inicio_hms":  "0:00:09",
+    "duracion_seg":  32.7,
+    "gancho":  "TÓXICO: celos hasta del aire",
+    "subtitulos":  "orig",
+    "palabras_subtituladas":  68,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -9.84,
+                  "entrada_tp":  1.39,
+                  "salida_lufs":  -14.06,
+                  "salida_tp":  -3.17
+              },
+    "archivo":  "espacios/lalo/salidas/clipero/clips/2026-11-10-toxico-celos-del-aire/clip.mp4",
+    "portada":  "espacios/lalo/salidas/clipero/clips/2026-11-10-toxico-celos-del-aire/portada.jpg",
+    "revision":  "espacios/lalo/salidas/clipero/clips/2026-11-10-toxico-celos-del-aire/revision.jpg",
+    "creado":  "2026-11-10T15:27:04.6448561-05:00"
+}

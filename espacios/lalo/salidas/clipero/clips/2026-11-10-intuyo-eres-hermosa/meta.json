@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-10-intuyo-eres-hermosa",
+    "url_fuente":  "https://www.youtube.com/watch?v=SjAfcSHbhx0",
+    "video_id":  "SjAfcSHbhx0",
+    "inicio":  87.93,
+    "fin":  110.7,
+    "inicio_hms":  "0:01:27",
+    "duracion_seg":  22.8,
+    "gancho":  "«Tú eres hermosa, y no solo físico»",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  51,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -10.39,
+                  "entrada_tp":  1.39,
+                  "salida_lufs":  -14,
+                  "salida_tp":  -2.47
+              },
+    "archivo":  "espacios/lalo/salidas/clipero/clips/2026-11-10-intuyo-eres-hermosa/clip.mp4",
+    "portada":  "espacios/lalo/salidas/clipero/clips/2026-11-10-intuyo-eres-hermosa/portada.jpg",
+    "revision":  "espacios/lalo/salidas/clipero/clips/2026-11-10-intuyo-eres-hermosa/revision.jpg",
+    "creado":  "2026-11-10T15:23:47.0045330-05:00"
+}

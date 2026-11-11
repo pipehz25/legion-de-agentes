@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-10-confusiones-coro",
+    "url_fuente":  "https://www.youtube.com/watch?v=lPgVFxdpBps",
+    "video_id":  "lPgVFxdpBps",
+    "inicio":  94.09,
+    "fin":  129.18,
+    "inicio_hms":  "0:01:34",
+    "duracion_seg":  35.2,
+    "gancho":  "«En redes te ves feliz…»",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  70,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -25.46,
+                  "entrada_tp":  -13.49,
+                  "salida_lufs":  -14,
+                  "salida_tp":  -2.05
+              },
+    "archivo":  "espacios/lalo/salidas/clipero/clips/2026-11-10-confusiones-coro/clip.mp4",
+    "portada":  "espacios/lalo/salidas/clipero/clips/2026-11-10-confusiones-coro/portada.jpg",
+    "revision":  "espacios/lalo/salidas/clipero/clips/2026-11-10-confusiones-coro/revision.jpg",
+    "creado":  "2026-11-10T18:12:33.6499968-05:00"
+}

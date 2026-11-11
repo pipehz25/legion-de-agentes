@@ -1,0 +1,60 @@
+{
+  "actualizado": "2026-11-11T09:17:19-05:00",
+  "ciclo": 1,
+  "ultimo_ciclo_cazador": 0,
+  "ultimo_ciclo_cazador_risas": 0,
+  "_cazadores": "Espacio con enfoque_propio: no se leen las oportunidades de los cazadores. Los dos contadores quedan en 0.",
+  "fuentes": [
+    { "id": "SjAfcSHbhx0", "url": "https://www.youtube.com/watch?v=SjAfcSHbhx0", "titulo": "Lalo Ocampo - INTUYO (visualizer)", "analizado": "2026-11-10", "resultado": "2 clips | 2 momentos en espera | el visualizer trae la letra oficial en pantalla" },
+    { "id": "bip8ttg-VeE", "url": "https://www.youtube.com/watch?v=bip8ttg-VeE", "titulo": "Lalo Ocampo - Tóxico (video oficial)", "analizado": "2026-11-10", "resultado": "2 clips | 2 tramos descartados por letra sensible, a decisión del usuario" },
+    { "id": "jjdIbvEfgBM", "url": "https://www.youtube.com/watch?v=jjdIbvEfgBM", "titulo": "Lalo Ocampo - Por Dios Santo (Official Video)", "analizado": "2026-11-10", "resultado": "2 clips | 2 momentos en espera | subtítulos automáticos con errores, contrastados con whisper" },
+    { "id": "lPgVFxdpBps", "url": "https://www.youtube.com/watch?v=lPgVFxdpBps", "titulo": "Lalo Ocampo - Confusiones", "analizado": "2026-11-10", "resultado": "1 clip | 1 momento en espera (verso de Nicki Nicole: hace falta la letra) | subtítulos automáticos con errores" }
+  ],
+  "momentos": [
+    { "fuente": "SjAfcSHbhx0", "inicio": 113.05, "fin": 134.9, "estado": "cortado", "clip": "2026-11-10-intuyo-coro", "variante_de": null, "motivo": "" },
+    { "fuente": "SjAfcSHbhx0", "inicio": 87.93, "fin": 110.7, "estado": "cortado", "clip": "2026-11-10-intuyo-eres-hermosa", "variante_de": null, "motivo": "" },
+    { "fuente": "SjAfcSHbhx0", "inicio": 27.7, "fin": 58.3, "estado": "descartado", "clip": null, "variante_de": null, "motivo": "Coro, primera vuelta: misma idea que 2026-11-10-intuyo-coro. Además la letra en pantalla dice «te juro que» y las dos transcripciones oyen «seguro que»." },
+    { "fuente": "SjAfcSHbhx0", "inicio": 9.5, "fin": 24.5, "estado": "propuesto", "clip": null, "variante_de": null, "motivo": "En espera: verso de entrada («Soy consciente de lo que tenemos…»). Solo encaja con cuentas apagadas (lalo-songs, lalo-lyrics). No cortar hasta que alguna esté activa." },
+    { "fuente": "SjAfcSHbhx0", "inicio": 59.5, "fin": 82.7, "estado": "propuesto", "clip": null, "variante_de": null, "motivo": "En espera: tramo «un break… dame un beso que me hace falta». Subtítulos automáticos dudosos; se pueden corregir con la letra en pantalla. Solo encaja con cuentas apagadas (lalo-songs, lalo-love)." },
+
+    { "fuente": "bip8ttg-VeE", "inicio": 9.21, "fin": 41.82, "estado": "cortado", "clip": "2026-11-10-toxico-celos-del-aire", "variante_de": null, "motivo": "" },
+    { "fuente": "bip8ttg-VeE", "inicio": 52.33, "fin": 68.34, "estado": "cortado", "clip": "2026-11-10-toxico-cuido-lo-mio", "variante_de": null, "motivo": "" },
+    { "fuente": "bip8ttg-VeE", "inicio": 84.2, "fin": 105.9, "estado": "descartado", "clip": null, "variante_de": null, "motivo": "Coro repetido: ya va en 2026-11-10-toxico-celos-del-aire." },
+    { "fuente": "bip8ttg-VeE", "inicio": 127.0, "fin": 147.0, "estado": "descartado", "clip": null, "variante_de": null, "motivo": "Cierre: repite el verso de entrada («celos del aire»)." },
+    { "fuente": "bip8ttg-VeE", "inicio": 68.4, "fin": 83.1, "estado": "descartado", "clip": null, "variante_de": null, "motivo": "Resto del verso 1: las dos transcripciones no coinciden en tres líneas y la letra de control («No salgas sola, sabes que eso me molesta») es sensible fuera de la canción. Solo si el usuario lo pide." },
+    { "fuente": "bip8ttg-VeE", "inicio": 106.0, "fin": 122.9, "estado": "descartado", "clip": null, "variante_de": null, "motivo": "Verso 2: letra sensible fuera de contexto («Síndrome de Estocolmo cuando yo a ti te rapto»). Solo si el usuario lo pide." },
+
+    { "fuente": "jjdIbvEfgBM", "inicio": 28.61, "fin": 48.98, "estado": "cortado", "clip": "2026-11-10-por-dios-santo-coro", "variante_de": null, "motivo": "" },
+    { "fuente": "jjdIbvEfgBM", "inicio": 72.45, "fin": 92.78, "estado": "cortado", "clip": "2026-11-10-por-dios-santo-espejo", "variante_de": null, "motivo": "" },
+    { "fuente": "jjdIbvEfgBM", "inicio": 116.7, "fin": 138.5, "estado": "descartado", "clip": null, "variante_de": null, "motivo": "Coro, segunda vuelta: misma idea que 2026-11-10-por-dios-santo-coro." },
+    { "fuente": "jjdIbvEfgBM", "inicio": 49.0, "fin": 72.4, "estado": "descartado", "clip": null, "variante_de": null, "motivo": "Verso 1: letra explícita y transcripción dudosa en varias palabras." },
+    { "fuente": "jjdIbvEfgBM", "inicio": 140.0, "fin": 162.0, "estado": "descartado", "clip": null, "variante_de": null, "motivo": "Cierre hablado («construir un castillo y que usted sea la reina»): YouTube solo trae la mitad y whisper no se entiende. Sin texto fiable no se corta." },
+    { "fuente": "jjdIbvEfgBM", "inicio": 9.2, "fin": 28.5, "estado": "propuesto", "clip": null, "variante_de": null, "motivo": "En espera: verso de entrada hasta «vivir como una reina». Tramo lento con tiempos de subtítulo imprecisos y dos palabras dudosas. Solo encaja con cuentas apagadas (lalo-songs, lalo-lyrics)." },
+    { "fuente": "jjdIbvEfgBM", "inicio": 92.9, "fin": 116.5, "estado": "propuesto", "clip": null, "variante_de": null, "motivo": "En espera: puente «Cuando te tomo la mano te sientes segura». Letra limpia en las dos transcripciones (puntaje estimado 67), pero solo encaja con cuentas apagadas (lalo-love, lalo-lyrics) y YouTube marca tarde la última palabra de cada línea." },
+
+    { "fuente": "lPgVFxdpBps", "inicio": 94.09, "fin": 129.18, "estado": "cortado", "clip": "2026-11-10-confusiones-coro", "variante_de": null, "motivo": "" },
+    { "fuente": "lPgVFxdpBps", "inicio": 10.5, "fin": 57.0, "estado": "descartado", "clip": null, "variante_de": null, "motivo": "Primera vuelta del coro: misma idea que 2026-11-10-confusiones-coro." },
+    { "fuente": "lPgVFxdpBps", "inicio": 81.6, "fin": 93.9, "estado": "descartado", "clip": null, "variante_de": null, "motivo": "Verso 2 («quién lo diría…»): dura 12 s, menos del mínimo, y la transcripción es dudosa." },
+    { "fuente": "lPgVFxdpBps", "inicio": 57.2, "fin": 81.5, "estado": "propuesto", "clip": null, "variante_de": null, "motivo": "En espera: verso «Tú lo vas a dejar como Nicki Nicole…» (puntaje estimado 67). Nombra a personas reales y las dos transcripciones no coinciden en esa línea ni en otras tres. No cortar hasta que el usuario escuche o pase la letra." }
+  ],
+  "catalogo_pendiente": [
+    { "id": "HyTE8nzFyFw", "titulo": "Lalo Ocampo - Te Perdí", "vistas": 12557, "nota": "solo" },
+    { "id": "NJ06Dl-Saqk", "titulo": "Lalo Ocampo - Madrileña", "vistas": 15383, "nota": "solo" },
+    { "id": "yyV7_BRoPog", "titulo": "Lalo Ocampo - Actriz", "vistas": 2882, "nota": "solo" },
+    { "id": "UPQtb6790HA", "titulo": "SIN PROTECCIÓN", "vistas": 2571, "nota": "salió en la búsqueda, no en las 10 últimas subidas del canal; comprobar que es del canal autorizado" },
+    { "id": "0IwwhNicTzE", "titulo": "Lalo Ocampo, Yeid - Entiendo", "vistas": 15520, "nota": "colaboración; 862 comentarios, el video más comentado del canal. Falta que el usuario diga si las colaboraciones se cortan" },
+    { "id": "XsObu7SNMNs", "titulo": "Lalo Ocampo, Colorado - Parcera", "vistas": 16494, "nota": "colaboración; salió en la búsqueda" },
+    { "id": "Lt_xoAUEMDE", "titulo": "Lalo Ocampo , Lombana Dj - Lokito", "vistas": 4869, "nota": "colaboración" },
+    { "id": "J92Poc2e9NM", "titulo": "Lalo Ocampo , Bakzord , Mylo - SABOREARTE (visualizer)", "vistas": 585, "nota": "colaboración de agosto de 2026, la segunda subida más reciente" }
+  ],
+  "_catalogo_pendiente": "Vistas del 2026-11-10. «Marte Remix» está en otro canal (Daddy Monkey Music), que no es fuente autorizada.",
+  "notas": [
+    "Canciones: ninguna de las 4 fuentes trae picos de repetición ni minutos en comentarios. Los momentos se eligen por estructura (coro, verso, entrada del beat), volumen.json, hojas de vistazo y letra.",
+    "INTUYO trae la letra oficial en pantalla. Para leerla: sacar del clip.mp4 ya cortado una tira a 2 cuadros por segundo con ffmpeg (fps=2,crop=760:110:160:1135,tile) y corregir palabras-rev.json con ella. Mirar si otros visualizers también la traen.",
+    "Sin letra en pantalla: un corte largo de trabajo con -Subs whisper -AlturaFuente 360 (id tmp-whisper-<algo>) deja palabras-whisper.json de toda la canción para contrastarla con YouTube; la carpeta tmp se borra después. Donde las dos transcripciones no coinciden y no se puede deducir, va «(…)» y la ficha lo avisa.",
+    "Subtítulos automáticos de los videos de 2024 (Por Dios Santo, Confusiones): la última palabra de algunas líneas viene marcada hasta 1 s tarde. Los tiempos por palabra de whisper van redondeados por segmento (0,5 a 1 s). Sin tocar tiempos, se puede pasar esa última palabra al texto de la anterior y dejar la tardía entre corchetes para que no se subtitule.",
+    "Una palabra entre corchetes en palabras-rev.json no se subtitula (sirve para ecos mal transcritos como «Nando» o «sando»), pero sí cuenta para ajustar el corte.",
+    "Solo hay una cuenta activa (lalo-music): no se cortan variantes. Por canción, el coro y el momento más fuerte fuera del coro; lo demás queda en espera para las cuentas apagadas.",
+    "TikTok admite 5 borradores pendientes por cuenta cada 24 h: los 7 clips del ciclo 1 necesitan al menos dos días."
+  ]
+}

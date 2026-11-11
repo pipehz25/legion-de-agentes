@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-10-por-dios-santo-coro",
+    "url_fuente":  "https://www.youtube.com/watch?v=jjdIbvEfgBM",
+    "video_id":  "jjdIbvEfgBM",
+    "inicio":  28.61,
+    "fin":  48.98,
+    "inicio_hms":  "0:00:28",
+    "duracion_seg":  20.4,
+    "gancho":  "Maquinando cómo conseguir la liga por ella",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  56,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -12.93,
+                  "entrada_tp":  -1.56,
+                  "salida_lufs":  -14.03,
+                  "salida_tp":  -2.63
+              },
+    "archivo":  "espacios/lalo/salidas/clipero/clips/2026-11-10-por-dios-santo-coro/clip.mp4",
+    "portada":  "espacios/lalo/salidas/clipero/clips/2026-11-10-por-dios-santo-coro/portada.jpg",
+    "revision":  "espacios/lalo/salidas/clipero/clips/2026-11-10-por-dios-santo-coro/revision.jpg",
+    "creado":  "2026-11-10T18:07:05.4041881-05:00"
+}

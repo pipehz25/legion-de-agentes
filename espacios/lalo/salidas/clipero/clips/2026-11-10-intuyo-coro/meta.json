@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-10-intuyo-coro",
+    "url_fuente":  "https://www.youtube.com/watch?v=SjAfcSHbhx0",
+    "video_id":  "SjAfcSHbhx0",
+    "inicio":  113.05,
+    "fin":  134.9,
+    "inicio_hms":  "0:01:53",
+    "duracion_seg":  21.8,
+    "gancho":  "INTUYO: «todo lo que tengo es para ti»",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  56,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -9.5,
+                  "entrada_tp":  0.98,
+                  "salida_lufs":  -13.97,
+                  "salida_tp":  -3.56
+              },
+    "archivo":  "espacios/lalo/salidas/clipero/clips/2026-11-10-intuyo-coro/clip.mp4",
+    "portada":  "espacios/lalo/salidas/clipero/clips/2026-11-10-intuyo-coro/portada.jpg",
+    "revision":  "espacios/lalo/salidas/clipero/clips/2026-11-10-intuyo-coro/revision.jpg",
+    "creado":  "2026-11-10T15:22:34.1290498-05:00"
+}
