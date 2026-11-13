@@ -1,0 +1,117 @@
+<!doctype html>
+<!--
+  Piezas fijas de la marca para Instagram. Se abre con ?pieza=<nombre> y se captura con Chrome:
+    perfil            foto de perfil, 1080x1080 (Instagram la recorta en circulo)
+    servicios, como-funciona, negocios, preguntas, contacto
+                      portadas de las historias destacadas, 1080x1920 (se recortan en circulo al centro)
+  Como se capturan: animados/GUIA.md, seccion "Piezas de la marca".
+-->
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=block" rel="stylesheet" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background: #0d2029;
+        font-family: "Nunito", sans-serif;
+      }
+      #lienzo {
+        position: absolute;
+        inset: 0;
+        background:
+          radial-gradient(ellipse 72% 60% at 50% 46%, #1f4a58 0%, rgba(31, 74, 88, 0) 100%),
+          #0d2029;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      #halo {
+        position: absolute;
+        width: 760px;
+        height: 760px;
+        border-radius: 50%;
+        background: radial-gradient(circle, rgba(255, 201, 60, 0.28) 0%, rgba(255, 201, 60, 0) 68%);
+      }
+      #robot {
+        position: relative;
+        width: 560px;
+        height: 672px;
+        color: #ffc93c;
+        margin-top: 30px;
+      }
+      #disco {
+        position: relative;
+        width: 520px;
+        height: 520px;
+        border-radius: 50%;
+        background: #ffc93c;
+        box-shadow:
+          0 0 0 22px rgba(255, 201, 60, 0.22),
+          0 30px 80px rgba(0, 0, 0, 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #0d2029;
+        font-weight: 900;
+        font-size: 330px;
+        line-height: 1;
+      }
+      #disco svg {
+        width: 300px;
+        height: 300px;
+        fill: #0d2029;
+      }
+      svg {
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="lienzo"></div>
+    <script>
+      const ROBOT = `
+        <svg viewBox="0 0 200 240">
+          <ellipse cx="100" cy="229" rx="60" ry="9" fill="#000000" opacity="0.3" />
+          <rect x="96" y="12" width="8" height="30" rx="4" fill="#fbf7ef" />
+          <circle cx="100" cy="13" r="11" fill="currentColor" />
+          <rect x="24" y="158" width="24" height="50" rx="12" fill="currentColor" />
+          <rect x="152" y="158" width="24" height="50" rx="12" fill="currentColor" />
+          <rect x="52" y="148" width="96" height="72" rx="26" fill="currentColor" />
+          <rect x="52" y="148" width="96" height="72" rx="26" fill="#000000" opacity="0.2" />
+          <circle cx="100" cy="184" r="13" fill="#fbf7ef" />
+          <rect x="30" y="38" width="140" height="106" rx="36" fill="currentColor" />
+          <path d="M50 74 Q54 54 78 50" stroke="#ffffff" stroke-width="7" stroke-linecap="round" fill="none" opacity="0.5" />
+          <rect x="48" y="66" width="104" height="52" rx="26" fill="#0d2029" />
+          <circle cx="80" cy="92" r="11" fill="#fbf7ef" />
+          <circle cx="120" cy="92" r="11" fill="#fbf7ef" />
+        </svg>`;
+      const ICONOS = {
+        servicios: `<svg viewBox="0 0 48 48"><rect x="6" y="12" width="36" height="28" rx="10" /><rect x="22" y="3" width="4" height="10" rx="2" /><circle cx="24" cy="4" r="4" /><rect x="12" y="19" width="24" height="12" rx="6" fill="#ffc93c" /><circle cx="18.500" cy="25" r="3" /><circle cx="29.500" cy="25" r="3" /></svg>`,
+        "como-funciona": `<svg viewBox="0 0 48 48"><path d="M8 25l10 10 22-24" fill="none" stroke="#0d2029" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" /></svg>`,
+        negocios: `<svg viewBox="0 0 48 48"><path d="M10 17h28l3 25a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2zm7 0v-4a7 7 0 0 1 14 0v4h-4v-4a3 3 0 0 0-6 0v4z" /></svg>`,
+        contacto: `<svg viewBox="0 0 48 48"><path d="M6 8h36a4 4 0 0 1 4 4v18a4 4 0 0 1-4 4H22l-10 9v-9H6a4 4 0 0 1-4-4V12a4 4 0 0 1 4-4z" /></svg>`,
+      };
+      const pieza = new URLSearchParams(location.search).get("pieza") || "perfil";
+      const lienzo = document.getElementById("lienzo");
+      if (pieza === "perfil") {
+        lienzo.innerHTML = `<div id="halo"></div><div id="robot">${ROBOT}</div>`;
+      } else if (pieza === "preguntas") {
+        lienzo.innerHTML = `<div id="disco">?</div>`;
+      } else {
+        lienzo.innerHTML = `<div id="disco">${ICONOS[pieza] || ""}</div>`;
+      }
+    </script>
+  </body>
+</html>

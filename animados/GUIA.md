@@ -263,6 +263,16 @@ Los genera `subtitulos.mjs` (lo llama `montaje.mjs`): grupos de hasta 3 palabras
 - **Volumen:** el video final queda cerca de −16 LUFS. Se comprueba con `ffmpeg -i <mp4> -af ebur128 -f null -`.
 - **Música y efectos:** todavía no hay. Cuando haya una fuente con licencia clara, la música va a 0,14 de volumen bajo la voz y cada efecto tiene una causa visible en pantalla.
 
+## Piezas de la marca
+
+La foto de perfil y las portadas de las historias destacadas de Instagram salen de [marca/marca.html](marca/marca.html), que se captura con Chrome (`?pieza=perfil`, `servicios`, `como-funciona`, `negocios`, `preguntas` o `contacto`):
+
+```powershell
+& "C:Program FilesGoogleChromeApplicationchrome.exe" --headless=new --hide-scrollbars --window-size=1080,1080 --virtual-time-budget=6000 --screenshot="salidasanimadorinstagramperfil.png" "file:///<ruta del proyecto>/animados/marca/marca.html?pieza=perfil"
+```
+
+Las portadas van a 1080×1920. Todo lo de la cuenta (biografía, orden de publicación, guiones de respuesta) está en [salidas/animador/instagram/KIT.md](../salidas/animador/instagram/KIT.md).
+
 ## Reglas técnicas que más se rompen
 
 - La escena, su anfitrión en `index.html` y la clave de su línea de tiempo llevan el mismo id. Todo el contenido de una escena va dentro de `<template>`, y su raíz se estiliza como `#root`.
