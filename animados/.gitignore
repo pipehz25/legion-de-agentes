@@ -1,0 +1,15 @@
+# Entorno de Python de la voz (se recrea con la GUIA)
+.venv/
+
+# Dependencias y caches
+node_modules/
+.hyperframes/
+.cache/
+
+# Renders, capturas y audio generado: no viajan por GitHub
+videos/*/renders/
+videos/*/snapshots/
+videos/*/assets/voz/
+videos/*/assets/narracion.wav
+*.mp4
+*.webm

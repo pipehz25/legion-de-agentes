@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="es" data-resolution="portrait">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+    <style>
+      :root {
+        --fondo: #0d2029;
+        --tinta: #fbf7ef;
+        --acento: #ffc93c;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 0;
+        width: 1080px;
+        height: 1920px;
+        overflow: hidden;
+        background: var(--fondo);
+      }
+      #root {
+        position: relative;
+        width: 1080px;
+        height: 1920px;
+        overflow: hidden;
+        font-family: "Nunito", sans-serif;
+        color: var(--tinta);
+      }
+      #fondo {
+        position: absolute;
+        inset: 0;
+        background:
+          radial-gradient(ellipse 70% 42% at 50% 40%, #1f4a58 0%, rgba(31, 74, 88, 0) 100%),
+          radial-gradient(ellipse 90% 30% at 50% 100%, #07141a 0%, rgba(7, 20, 26, 0) 100%),
+          #0d2029;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      id="root"
+      data-composition-id="main"
+      data-start="0"
+      data-duration="25.36"
+      data-width="1080"
+      data-height="1920"
+    >
+      <div id="fondo"></div>
+
+      <div
+        id="gancho"
+        data-composition-id="gancho"
+        data-composition-src="compositions/gancho.html"
+        data-start="0"
+        data-duration="2.3"
+        data-track-index="1"
+        data-track-kind="graphics"
+        data-width="1080"
+        data-height="1920"
+        style="z-index: 1"
+      ></div>
+      <div
+        id="corte"
+        data-composition-id="corte"
+        data-composition-src="compositions/corte.html"
+        data-start="2.3"
+        data-duration="6.35"
+        data-track-index="1"
+        data-track-kind="graphics"
+        data-width="1080"
+        data-height="1920"
+        style="z-index: 1"
+      ></div>
+      <div
+        id="viaje"
+        data-composition-id="viaje"
+        data-composition-src="compositions/viaje.html"
+        data-start="8.65"
+        data-duration="10.93"
+        data-track-index="1"
+        data-track-kind="graphics"
+        data-width="1080"
+        data-height="1920"
+        style="z-index: 1"
+      ></div>
+      <div
+        id="truco"
+        data-composition-id="truco"
+        data-composition-src="compositions/truco.html"
+        data-start="19.58"
+        data-duration="5.78"
+        data-track-index="1"
+        data-track-kind="graphics"
+        data-width="1080"
+        data-height="1920"
+        style="z-index: 1"
+      ></div>
+
+      <div
+        id="subtitulos"
+        data-composition-id="subtitulos"
+        data-composition-src="compositions/subtitulos.html"
+        data-start="0"
+        data-duration="25.36"
+        data-track-index="2"
+        data-track-kind="captions"
+        data-width="1080"
+        data-height="1920"
+        style="z-index: 5"
+      ></div>
+
+      <audio
+        id="narracion"
+        class="clip"
+        data-start="0"
+        data-duration="25.36"
+        data-track-index="3"
+        data-volume="1"
+        src="assets/narracion.wav"
+      ></audio>
+    </div>
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true });
+      window.__timelines["main"] = tl;
+      tl.seek(0);
+    </script>
+  </body>
+</html>

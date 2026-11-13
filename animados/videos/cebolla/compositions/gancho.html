@@ -1,0 +1,139 @@
+<template>
+  <style>
+    #root {
+      position: absolute;
+      inset: 0;
+      font-family: "Nunito", sans-serif;
+      color: #fbf7ef;
+    }
+    #ga-titulo {
+      position: absolute;
+      left: 108px;
+      width: 864px;
+      top: 232px;
+      text-align: center;
+      font-weight: 900;
+      font-size: 112px;
+      line-height: 1.12;
+      letter-spacing: -0.02em;
+      text-shadow: 0 8px 30px rgba(0, 0, 0, 0.45);
+    }
+    .ga-linea {
+      display: block;
+    }
+    #ga-llorar {
+      display: inline-block;
+      color: #ffc93c;
+    }
+    #ga-cebolla {
+      position: absolute;
+      left: 340px;
+      top: 690px;
+      width: 400px;
+      height: 475px;
+    }
+    #ga-cebolla svg,
+    .ga-lagrima svg {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+    .ga-lagrima {
+      position: absolute;
+      top: 596px;
+      width: 46px;
+      height: 69px;
+    }
+    #ga-lagrima-1 {
+      left: 520px;
+    }
+    #ga-lagrima-2 {
+      left: 650px;
+    }
+    #ga-lagrima-3 {
+      left: 770px;
+    }
+  </style>
+
+  <div id="root" data-composition-id="gancho" data-width="1080" data-height="1920">
+    <div id="ga-titulo">
+      <span id="ga-linea-1" class="ga-linea">¿Por qué</span>
+      <span id="ga-linea-2" class="ga-linea">la cebolla te</span>
+      <span id="ga-linea-3" class="ga-linea">hace <span id="ga-llorar">llorar?</span></span>
+    </div>
+
+    <div id="ga-lagrima-1" class="ga-lagrima">
+      <svg viewBox="0 0 60 90">
+        <path d="M30 4 C30 4 54 40 54 58 A24 24 0 1 1 6 58 C6 40 30 4 30 4Z" fill="#6fd3ff" />
+        <ellipse cx="21" cy="58" rx="6" ry="10" fill="#ffffff" opacity="0.6" />
+      </svg>
+    </div>
+    <div id="ga-lagrima-2" class="ga-lagrima">
+      <svg viewBox="0 0 60 90">
+        <path d="M30 4 C30 4 54 40 54 58 A24 24 0 1 1 6 58 C6 40 30 4 30 4Z" fill="#6fd3ff" />
+        <ellipse cx="21" cy="58" rx="6" ry="10" fill="#ffffff" opacity="0.6" />
+      </svg>
+    </div>
+    <div id="ga-lagrima-3" class="ga-lagrima">
+      <svg viewBox="0 0 60 90">
+        <path d="M30 4 C30 4 54 40 54 58 A24 24 0 1 1 6 58 C6 40 30 4 30 4Z" fill="#6fd3ff" />
+        <ellipse cx="21" cy="58" rx="6" ry="10" fill="#ffffff" opacity="0.6" />
+      </svg>
+    </div>
+
+    <div id="ga-cebolla">
+      <svg viewBox="0 0 320 380">
+        <ellipse cx="160" cy="358" rx="112" ry="14" fill="#000000" opacity="0.3" />
+        <path d="M160 52 C150 34 162 16 172 6" stroke="#9bd17a" stroke-width="11" fill="none" stroke-linecap="round" />
+        <path d="M160 44 C172 92 286 124 286 232 C286 304 232 350 160 350 C88 350 34 304 34 232 C34 124 148 92 160 44Z" fill="#c9457f" />
+        <path d="M160 44 C172 92 286 124 286 232 C286 304 232 350 160 350 C212 330 236 288 236 232 C236 150 176 110 160 44Z" fill="#a8356a" />
+        <path d="M160 70 C150 120 104 152 104 236 C104 290 126 330 160 348" stroke="#e58bb5" stroke-width="7" fill="none" stroke-linecap="round" opacity="0.55" />
+        <path d="M64 214 C68 178 84 154 106 138" stroke="#f7d3e4" stroke-width="12" stroke-linecap="round" fill="none" opacity="0.85" />
+        <g id="ga-cara">
+          <ellipse cx="128" cy="236" rx="11" ry="15" fill="#2a1020" />
+          <ellipse cx="192" cy="236" rx="11" ry="15" fill="#2a1020" />
+          <circle cx="132" cy="230" r="4" fill="#ffffff" />
+          <circle cx="196" cy="230" r="4" fill="#ffffff" />
+          <path d="M140 268 Q160 286 180 268" stroke="#2a1020" stroke-width="6" fill="none" stroke-linecap="round" />
+        </g>
+      </svg>
+    </div>
+  </div>
+
+  <script>
+    const tl = gsap.timeline({ paused: true });
+
+    // El titulo ya esta en el cuadro 0 (es la portada); solo se asienta.
+    tl.fromTo("#ga-linea-1", { y: 18 }, { y: 0, duration: 0.4, ease: "power3.out" }, 0);
+    tl.fromTo("#ga-linea-2", { y: 26 }, { y: 0, duration: 0.45, ease: "power3.out" }, 0.04);
+    tl.fromTo("#ga-linea-3", { y: 34 }, { y: 0, duration: 0.5, ease: "power3.out" }, 0.08);
+
+    // La cebolla entra con rebote y se balancea cuando la nombran (0.77 s).
+    tl.fromTo(
+      "#ga-cebolla",
+      { scale: 0.84, y: 40, rotation: -4 },
+      { scale: 1, y: 0, rotation: 0, duration: 0.55, ease: "back.out(2.2)" },
+      0,
+    );
+    tl.to("#ga-cebolla", { rotation: 5, duration: 0.16, ease: "sine.inOut" }, 0.77);
+    tl.to("#ga-cebolla", { rotation: -4, duration: 0.2, ease: "sine.inOut" }, 0.93);
+    tl.to("#ga-cebolla", { rotation: 0, duration: 0.18, ease: "sine.inOut" }, 1.13);
+    tl.to("#ga-cebolla", { scale: 1.07, duration: 0.3, ease: "power2.out" }, 1.4);
+    tl.to("#ga-cebolla", { scale: 1, duration: 0.5, ease: "sine.inOut" }, 1.75);
+
+    // "llorar" (1.70 s): la palabra salta y gotea.
+    tl.fromTo("#ga-llorar", { scale: 1 }, { scale: 1.16, duration: 0.14, ease: "power2.out" }, 1.68);
+    tl.to("#ga-llorar", { scale: 1, duration: 0.3, ease: "back.out(2.5)" }, 1.82);
+    [
+      ["#ga-lagrima-1", 1.74],
+      ["#ga-lagrima-2", 1.82],
+      ["#ga-lagrima-3", 1.9],
+    ].forEach(([gota, t]) => {
+      tl.fromTo(gota, { opacity: 0, y: -20, scale: 0.5 }, { opacity: 1, y: 0, scale: 1, duration: 0.12, ease: "power2.out" }, t);
+      tl.to(gota, { y: 70, duration: 0.34, ease: "power2.in" }, t + 0.12);
+      tl.to(gota, { opacity: 0, duration: 0.1 }, t + 0.36);
+    });
+
+    window.__timelines["gancho"] = tl;
+  </script>
+</template>

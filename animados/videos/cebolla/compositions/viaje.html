@@ -1,0 +1,343 @@
+<template>
+  <style>
+    #root {
+      position: absolute;
+      inset: 0;
+      font-family: "Nunito", sans-serif;
+      color: #fbf7ef;
+    }
+    .vj-arte {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+    .vj-capa {
+      position: absolute;
+      inset: 0;
+    }
+    /* Cebolla cortada, abajo. */
+    #vj-mitades {
+      position: absolute;
+      left: 400px;
+      top: 764px;
+      width: 280px;
+      height: 332px;
+    }
+    #vj-mitad-izq {
+      clip-path: inset(0 50% 0 0);
+    }
+    #vj-mitad-der {
+      clip-path: inset(0 0 0 50%);
+    }
+    .vj-nube {
+      position: absolute;
+      left: 440px;
+      top: 700px;
+      width: 200px;
+      height: 140px;
+    }
+    #vj-ojo {
+      position: absolute;
+      left: 360px;
+      top: 280px;
+      width: 360px;
+      height: 240px;
+    }
+    #vj-nervio {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 1080px;
+      height: 1920px;
+    }
+    #vj-cerebro {
+      position: absolute;
+      left: 270px;
+      top: 222px;
+      width: 260px;
+      height: 220px;
+    }
+    #vj-orden {
+      position: absolute;
+      left: 566px;
+      top: 284px;
+      width: 372px;
+      height: 96px;
+      border-radius: 48px;
+      background: #ff6b5e;
+      color: #2a0c08;
+      font-weight: 900;
+      font-size: 60px;
+      line-height: 96px;
+      text-align: center;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45);
+    }
+    .vj-lagrima {
+      position: absolute;
+      top: 880px;
+      width: 60px;
+      height: 90px;
+    }
+    #vj-lagrima-1 {
+      left: 430px;
+    }
+    #vj-lagrima-2 {
+      left: 590px;
+    }
+    #vj-lagrima-3 {
+      left: 500px;
+    }
+    #vj-lagrima-4 {
+      left: 650px;
+    }
+    #vj-cebolla {
+      position: absolute;
+      left: 416px;
+      top: 214px;
+      width: 248px;
+      height: 294px;
+    }
+    #vj-triste {
+      position: absolute;
+      left: 700px;
+      top: 300px;
+      width: 250px;
+      height: 84px;
+      border-radius: 42px;
+      background: #0d2029;
+      box-shadow:
+        0 0 0 5px #fbf7ef inset,
+        0 8px 24px rgba(0, 0, 0, 0.45);
+      font-weight: 900;
+      font-size: 52px;
+      line-height: 84px;
+      text-align: center;
+    }
+    #vj-tachado {
+      position: absolute;
+      left: 692px;
+      top: 336px;
+      width: 266px;
+      height: 12px;
+      border-radius: 6px;
+      background: #ff6b5e;
+    }
+    #vj-escudo {
+      position: absolute;
+      left: 574px;
+      top: 356px;
+      width: 140px;
+      height: 161px;
+    }
+  </style>
+
+  <div id="root" data-composition-id="viaje" data-width="1080" data-height="1920">
+    <svg width="0" height="0" style="position: absolute">
+      <defs>
+        <symbol id="vj-sim-mitad" viewBox="0 0 320 380">
+          <ellipse cx="160" cy="358" rx="112" ry="14" fill="#000000" opacity="0.3" />
+          <path d="M160 44 C172 92 286 124 286 232 C286 304 232 350 160 350 C88 350 34 304 34 232 C34 124 148 92 160 44Z" fill="#c9457f" />
+          <path d="M160 44 C172 92 286 124 286 232 C286 304 232 350 160 350 C212 330 236 288 236 232 C236 150 176 110 160 44Z" fill="#a8356a" />
+          <path d="M64 214 C68 178 84 154 106 138" stroke="#f7d3e4" stroke-width="12" stroke-linecap="round" fill="none" opacity="0.85" />
+          <rect x="146" y="50" width="28" height="298" rx="12" fill="#f7d3e4" />
+        </symbol>
+        <symbol id="vj-sim-nube" viewBox="0 0 200 140">
+          <circle cx="60" cy="84" r="42" fill="#86e8b4" />
+          <circle cx="108" cy="60" r="50" fill="#86e8b4" />
+          <circle cx="150" cy="88" r="36" fill="#86e8b4" />
+          <rect x="60" y="84" width="92" height="42" rx="21" fill="#86e8b4" />
+          <circle cx="96" cy="46" r="18" fill="#c4f7dd" opacity="0.8" />
+        </symbol>
+        <symbol id="vj-sim-lagrima" viewBox="0 0 60 90">
+          <path d="M30 4 C30 4 54 40 54 58 A24 24 0 1 1 6 58 C6 40 30 4 30 4Z" fill="#6fd3ff" />
+          <ellipse cx="21" cy="58" rx="6" ry="10" fill="#ffffff" opacity="0.6" />
+        </symbol>
+      </defs>
+    </svg>
+
+    <div id="vj-mitades">
+      <div id="vj-mitad-izq" class="vj-capa">
+        <svg class="vj-arte" viewBox="0 0 320 380"><use href="#vj-sim-mitad" /></svg>
+      </div>
+      <div id="vj-mitad-der" class="vj-capa">
+        <svg class="vj-arte" viewBox="0 0 320 380"><use href="#vj-sim-mitad" /></svg>
+      </div>
+    </div>
+
+    <div id="vj-cebolla">
+      <svg class="vj-arte" viewBox="0 0 320 380">
+        <ellipse cx="160" cy="358" rx="112" ry="14" fill="#000000" opacity="0.3" />
+        <path d="M160 52 C150 34 162 16 172 6" stroke="#9bd17a" stroke-width="11" fill="none" stroke-linecap="round" />
+        <path d="M160 44 C172 92 286 124 286 232 C286 304 232 350 160 350 C88 350 34 304 34 232 C34 124 148 92 160 44Z" fill="#c9457f" />
+        <path d="M160 44 C172 92 286 124 286 232 C286 304 232 350 160 350 C212 330 236 288 236 232 C236 150 176 110 160 44Z" fill="#a8356a" />
+        <path d="M160 70 C150 120 104 152 104 236 C104 290 126 330 160 348" stroke="#e58bb5" stroke-width="7" fill="none" stroke-linecap="round" opacity="0.55" />
+        <path d="M64 214 C68 178 84 154 106 138" stroke="#f7d3e4" stroke-width="12" stroke-linecap="round" fill="none" opacity="0.85" />
+        <path d="M112 226 L142 238" stroke="#2a1020" stroke-width="8" stroke-linecap="round" />
+        <path d="M208 226 L178 238" stroke="#2a1020" stroke-width="8" stroke-linecap="round" />
+        <ellipse cx="130" cy="246" rx="10" ry="12" fill="#2a1020" />
+        <ellipse cx="190" cy="246" rx="10" ry="12" fill="#2a1020" />
+        <path d="M142 282 Q160 272 178 282" stroke="#2a1020" stroke-width="6" fill="none" stroke-linecap="round" />
+      </svg>
+    </div>
+    <div id="vj-triste">triste</div>
+    <div id="vj-tachado" data-layout-allow-occlusion></div>
+    <div id="vj-escudo">
+      <svg class="vj-arte" viewBox="0 0 200 230">
+        <path d="M100 10 L184 40 V112 C184 164 148 204 100 220 C52 204 16 164 16 112 V40Z" fill="#ffc93c" />
+        <path d="M100 10 L184 40 V112 C184 164 148 204 100 220Z" fill="#f2ae1c" />
+        <path d="M62 116 l28 28 l50 -58" stroke="#3b2a05" stroke-width="16" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+      </svg>
+    </div>
+
+    <svg id="vj-nervio" viewBox="0 0 1080 1920">
+      <path id="vj-nervio-linea" d="M540 606 L506 574 L560 546 L470 520 L500 490 L420 462 L404 440" stroke="#ff6b5e" stroke-width="12" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="420" stroke-dashoffset="420" />
+      <circle id="vj-pulso" cx="404" cy="440" r="17" fill="#ffc93c" />
+    </svg>
+
+    <div id="vj-cerebro">
+      <svg class="vj-arte" viewBox="0 0 260 220">
+        <path d="M70 190 C30 190 14 158 26 132 C6 112 16 74 46 66 C50 34 90 20 114 36 C136 14 180 20 190 48 C224 46 248 78 236 108 C256 130 244 170 212 176 C200 200 160 204 140 190 C120 204 86 204 70 190Z" fill="#f29bb8" />
+        <path d="M130 40 C120 70 140 90 128 120 C118 146 136 166 130 188" stroke="#d76a92" stroke-width="7" fill="none" stroke-linecap="round" />
+        <path d="M58 98 C78 88 96 100 100 120" stroke="#d76a92" stroke-width="7" fill="none" stroke-linecap="round" />
+        <path d="M202 94 C182 86 166 100 164 120" stroke="#d76a92" stroke-width="7" fill="none" stroke-linecap="round" />
+        <path d="M68 152 C84 142 100 150 104 164" stroke="#d76a92" stroke-width="7" fill="none" stroke-linecap="round" />
+        <path d="M196 148 C180 140 166 150 164 164" stroke="#d76a92" stroke-width="7" fill="none" stroke-linecap="round" />
+      </svg>
+    </div>
+    <div id="vj-orden">¡LÁVALO!</div>
+
+    <div id="vj-ojo">
+      <svg class="vj-arte" viewBox="0 0 360 240">
+        <defs>
+          <clipPath id="vj-recorte-ojo">
+            <path d="M14 120 Q180 -30 346 120 Q180 270 14 120Z" />
+          </clipPath>
+        </defs>
+        <path d="M14 120 Q180 -30 346 120 Q180 270 14 120Z" fill="#fbf7ef" />
+        <g clip-path="url(#vj-recorte-ojo)">
+          <rect id="vj-rojo" x="0" y="0" width="360" height="240" fill="#ff8b80" />
+          <g id="vj-venas" stroke="#e04848" stroke-width="5" fill="none" stroke-linecap="round">
+            <path d="M22 120 q34 -16 58 -4" />
+            <path d="M338 122 q-32 14 -56 2" />
+            <path d="M60 80 q26 6 40 26" />
+            <path d="M300 160 q-26 -4 -40 -24" />
+            <path d="M70 168 q22 -2 34 -18" />
+          </g>
+          <g id="vj-iris">
+            <circle cx="180" cy="120" r="64" fill="#3c8f7a" />
+            <circle cx="180" cy="120" r="56" fill="none" stroke="#2c6c5c" stroke-width="8" />
+            <circle cx="180" cy="120" r="30" fill="#10201f" />
+            <circle cx="200" cy="100" r="13" fill="#ffffff" />
+          </g>
+        </g>
+        <path d="M14 120 Q180 -30 346 120" stroke="#10201f" stroke-width="13" fill="none" stroke-linecap="round" />
+        <path d="M14 120 Q180 270 346 120" stroke="#10201f" stroke-width="7" fill="none" stroke-linecap="round" opacity="0.7" />
+      </svg>
+    </div>
+
+    <div id="vj-nube-1" class="vj-nube">
+      <svg class="vj-arte" viewBox="0 0 200 140"><use href="#vj-sim-nube" /></svg>
+    </div>
+    <div id="vj-nube-2" class="vj-nube">
+      <svg class="vj-arte" viewBox="0 0 200 140"><use href="#vj-sim-nube" /></svg>
+    </div>
+    <div id="vj-nube-3" class="vj-nube">
+      <svg class="vj-arte" viewBox="0 0 200 140"><use href="#vj-sim-nube" /></svg>
+    </div>
+
+    <div id="vj-lagrima-1" class="vj-lagrima">
+      <svg class="vj-arte" viewBox="0 0 60 90"><use href="#vj-sim-lagrima" /></svg>
+    </div>
+    <div id="vj-lagrima-2" class="vj-lagrima">
+      <svg class="vj-arte" viewBox="0 0 60 90"><use href="#vj-sim-lagrima" /></svg>
+    </div>
+    <div id="vj-lagrima-3" class="vj-lagrima">
+      <svg class="vj-arte" viewBox="0 0 60 90"><use href="#vj-sim-lagrima" /></svg>
+    </div>
+    <div id="vj-lagrima-4" class="vj-lagrima">
+      <svg class="vj-arte" viewBox="0 0 60 90"><use href="#vj-sim-lagrima" /></svg>
+    </div>
+  </div>
+
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    const NUBES = ["#vj-nube-1", "#vj-nube-2", "#vj-nube-3"];
+
+    // ---------- "Juntas forman un gas que sube directo a tus ojos" (0.07 - 2.82) ----------
+    tl.fromTo("#vj-mitades", { y: 260, opacity: 0 }, { y: 0, opacity: 1, duration: 0.3, ease: "back.out(1.6)" }, 0);
+    tl.fromTo("#vj-mitad-izq", { x: -52, rotation: -9 }, { x: -58, rotation: -11, duration: 1.2, repeat: 1, yoyo: true, ease: "sine.inOut", transformOrigin: "50% 100%" }, 0);
+    tl.fromTo("#vj-mitad-der", { x: 52, rotation: 9 }, { x: 58, rotation: 11, duration: 1.2, repeat: 1, yoyo: true, ease: "sine.inOut", transformOrigin: "50% 100%" }, 0);
+    // 0.49 "forman" ... 1.06 "gas": las nubes nacen en el corte.
+    tl.fromTo("#vj-nube-1", { opacity: 0, scale: 0, x: 0, y: 60 }, { opacity: 1, scale: 0.62, y: 0, duration: 0.4, ease: "back.out(2)" }, 0.47);
+    tl.fromTo("#vj-nube-2", { opacity: 0, scale: 0, x: 0, y: 60 }, { opacity: 1, scale: 0.5, x: -84, y: 30, duration: 0.36, ease: "back.out(2)" }, 0.92);
+    tl.fromTo("#vj-nube-3", { opacity: 0, scale: 0, x: 0, y: 60 }, { opacity: 1, scale: 0.5, x: 84, y: 34, duration: 0.36, ease: "back.out(2)" }, 1.06);
+    // 1.48 "sube": suben hacia el ojo, que aparece cuando lo nombran (1.76 "directo a tus ojos").
+    tl.to("#vj-nube-1", { y: -150, scale: 0.72, duration: 1.05, ease: "sine.inOut" }, 1.45);
+    tl.to("#vj-nube-2", { x: -150, y: -118, scale: 0.56, duration: 1.05, ease: "sine.inOut" }, 1.55);
+    tl.to("#vj-nube-3", { x: 150, y: -110, scale: 0.56, duration: 1.05, ease: "sine.inOut" }, 1.62);
+    tl.fromTo("#vj-ojo", { opacity: 0, scale: 0.3, y: 0 }, { opacity: 1, scale: 1, duration: 0.36, ease: "back.out(2)" }, 1.74);
+    tl.fromTo("#vj-iris", { y: -30 }, { y: 26, duration: 0.3, ease: "power2.out" }, 2.1);
+
+    // ---------- "El gas irrita los nervios del ojo, y tu cerebro da la orden: lavalo" (3.04 - 6.84) ----------
+    tl.to("#vj-mitades", { y: 460, opacity: 0, duration: 0.4, ease: "power2.in" }, 2.9);
+    tl.to("#vj-ojo", { y: 360, scale: 1.3, duration: 0.5, ease: "power3.inOut" }, 2.95);
+    tl.to("#vj-iris", { y: 0, duration: 0.4, ease: "power2.inOut" }, 3.0);
+    tl.to("#vj-nube-1", { x: 176, y: -236, scale: 0.6, duration: 0.5, ease: "power2.inOut" }, 2.95);
+    tl.to("#vj-nube-2", { x: -236, y: -150, scale: 0.5, duration: 0.5, ease: "power2.inOut" }, 2.95);
+    tl.to("#vj-nube-3", { x: 250, y: -96, scale: 0.5, duration: 0.5, ease: "power2.inOut" }, 2.95);
+    // 3.35 "irrita": el ojo se pone rojo, tiembla y se entrecierra.
+    tl.fromTo("#vj-rojo", { opacity: 0 }, { opacity: 0.6, duration: 0.35, ease: "power2.out" }, 3.35);
+    tl.fromTo("#vj-venas", { opacity: 0 }, { opacity: 1, duration: 0.3 }, 3.4);
+    tl.fromTo("#vj-ojo", { x: 0 }, { x: 12, duration: 0.05, repeat: 9, yoyo: true, ease: "sine.inOut" }, 3.36);
+    tl.to("#vj-ojo", { scaleY: 1.02, duration: 0.25, ease: "power2.out" }, 3.5);
+    NUBES.forEach((n, i) => tl.to(n, { opacity: 0.55, duration: 0.3 }, 3.6 + i * 0.05));
+    // 3.90 "nervios": la senal sube por el nervio y llega cuando nombran al cerebro (5.13).
+    tl.to("#vj-nervio-linea", { strokeDashoffset: 0, duration: 1.15, ease: "power1.inOut" }, 3.88);
+    tl.fromTo("#vj-cerebro", { opacity: 0, scale: 0.2 }, { opacity: 1, scale: 1, duration: 0.36, ease: "back.out(2.2)" }, 5.05);
+    tl.to("#vj-ojo", { scaleY: 1.3, duration: 0.3, ease: "power2.out" }, 5.1);
+    // 5.62 "da la orden": la orden baja del cerebro al ojo.
+    tl.fromTo("#vj-cerebro", { rotation: 0 }, { rotation: 6, duration: 0.09, repeat: 3, yoyo: true, ease: "sine.inOut" }, 5.6);
+    tl.fromTo("#vj-pulso", { opacity: 0, x: 0, y: 0 }, { opacity: 1, duration: 0.08 }, 5.74);
+    tl.to("#vj-pulso", { x: 16, y: 22, duration: 0.07, ease: "none" }, 5.78);
+    tl.to("#vj-pulso", { x: 96, y: 50, duration: 0.09, ease: "none" }, 5.85);
+    tl.to("#vj-pulso", { x: 66, y: 80, duration: 0.07, ease: "none" }, 5.94);
+    tl.to("#vj-pulso", { x: 156, y: 106, duration: 0.09, ease: "none" }, 6.01);
+    tl.to("#vj-pulso", { x: 102, y: 134, duration: 0.07, ease: "none" }, 6.1);
+    tl.to("#vj-pulso", { x: 136, y: 166, duration: 0.08, ease: "none" }, 6.17);
+    tl.to("#vj-pulso", { opacity: 0, scale: 2.4, duration: 0.14, transformOrigin: "50% 50%" }, 6.25);
+    // 6.38 "lavalo".
+    tl.fromTo("#vj-orden", { opacity: 0, scale: 0.2, rotation: -8 }, { opacity: 1, scale: 1, rotation: 3, duration: 0.3, ease: "back.out(2.6)" }, 6.34);
+    tl.to("#vj-orden", { scale: 1.08, rotation: -2, duration: 0.14, repeat: 1, yoyo: true, ease: "sine.inOut" }, 6.66);
+
+    // ---------- "Por eso lloras. La cebolla no te pone triste: se esta defendiendo" (7.06 - 10.78) ----------
+    tl.to(["#vj-cerebro", "#vj-orden", "#vj-nervio-linea", ...NUBES], { opacity: 0, duration: 0.25 }, 6.98);
+    tl.to("#vj-rojo", { opacity: 0.32, duration: 0.4 }, 7.0);
+    // 7.27 "lloras": lagrimas, una tras otra, hasta el final de la escena.
+    [
+      ["#vj-lagrima-1", 7.27],
+      ["#vj-lagrima-2", 7.5],
+      ["#vj-lagrima-3", 7.74],
+      ["#vj-lagrima-4", 7.98],
+    ].forEach(([gota, t]) => {
+      tl.fromTo(
+        gota,
+        { opacity: 0, y: -30, scale: 0.4 },
+        { keyframes: [{ opacity: 1, y: 0, scale: 1, duration: 0.18 }, { y: 150, duration: 0.5, ease: "power1.in" }, { y: 210, opacity: 0, duration: 0.2 }], repeat: 2, repeatDelay: 0.08 },
+        t,
+      );
+    });
+    // 8.10 "La cebolla": vuelve a escena, arriba.
+    tl.fromTo("#vj-cebolla", { opacity: 0, scale: 0.2, y: -60 }, { opacity: 1, scale: 1, y: 0, duration: 0.36, ease: "back.out(2)" }, 8.06);
+    // 8.97 "triste": la idea equivocada, tachada.
+    tl.fromTo("#vj-triste", { opacity: 0, scale: 0.3 }, { opacity: 1, scale: 1, duration: 0.26, ease: "back.out(2.2)" }, 8.9);
+    tl.fromTo("#vj-tachado", { opacity: 0, scaleX: 0 }, { opacity: 1, scaleX: 1, duration: 0.2, ease: "power3.out", transformOrigin: "0% 50%" }, 9.26);
+    tl.to("#vj-triste", { opacity: 0.45, duration: 0.2 }, 9.4);
+    // 10.10 "defendiendo": el escudo.
+    tl.to(["#vj-triste", "#vj-tachado"], { opacity: 0, duration: 0.2 }, 9.86);
+    tl.fromTo("#vj-escudo", { opacity: 0, scale: 0, rotation: -25 }, { opacity: 1, scale: 1, rotation: 0, duration: 0.34, ease: "back.out(2.6)" }, 10.04);
+    tl.to("#vj-cebolla", { scale: 1.1, duration: 0.14, repeat: 1, yoyo: true, ease: "sine.inOut" }, 10.1);
+    tl.to("#vj-escudo", { scale: 1.08, duration: 0.2, repeat: 1, yoyo: true, ease: "sine.inOut" }, 10.45);
+
+    window.__timelines["viaje"] = tl;
+  </script>
+</template>

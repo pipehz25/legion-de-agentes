@@ -1,0 +1,289 @@
+<template>
+  <style>
+    #root {
+      position: absolute;
+      inset: 0;
+      font-family: "Nunito", sans-serif;
+      color: #fbf7ef;
+    }
+    .co-arte {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+    #co-cebollas {
+      position: absolute;
+      left: 340px;
+      top: 690px;
+      width: 400px;
+      height: 475px;
+    }
+    .co-capa {
+      position: absolute;
+      inset: 0;
+    }
+    #co-mitad-izq {
+      clip-path: inset(0 50% 0 0);
+      opacity: 0;
+    }
+    #co-mitad-der {
+      clip-path: inset(0 0 0 50%);
+      opacity: 0;
+    }
+    /* Lo que aparece mas tarde arranca oculto. */
+    #co-enzimas,
+    #co-azufres,
+    #co-union,
+    #co-pared {
+      opacity: 0;
+    }
+    #co-cuchillo {
+      position: absolute;
+      left: 480px;
+      top: -130px;
+      width: 120px;
+      height: 520px;
+    }
+    .co-gota {
+      position: absolute;
+      left: 528px;
+      top: 600px;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background: #f7d3e4;
+    }
+    #co-lupa {
+      position: absolute;
+      left: 280px;
+      top: 560px;
+      width: 520px;
+      height: 520px;
+      border-radius: 50%;
+      overflow: hidden;
+      background: #7a2b55;
+      box-shadow:
+        0 0 0 14px #fbf7ef,
+        0 24px 60px rgba(0, 0, 0, 0.5);
+    }
+    .co-etiqueta {
+      position: absolute;
+      top: 618px;
+      width: 220px;
+      height: 64px;
+      border-radius: 32px;
+      background: #0d2029;
+      font-weight: 900;
+      font-size: 40px;
+      line-height: 64px;
+      text-align: center;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+    }
+    #co-etiqueta-enzima {
+      left: 292px;
+      color: #ffc93c;
+    }
+    #co-etiqueta-azufre {
+      left: 568px;
+      color: #6fd3ff;
+    }
+    .co-guia {
+      position: absolute;
+      top: 682px;
+      width: 6px;
+      height: 62px;
+      border-radius: 3px;
+    }
+    #co-guia-enzima {
+      left: 399px;
+      background: #ffc93c;
+    }
+    #co-guia-azufre {
+      left: 675px;
+      background: #6fd3ff;
+    }
+  </style>
+
+  <div id="root" data-composition-id="corte" data-width="1080" data-height="1920">
+    <svg width="0" height="0" style="position: absolute">
+      <defs>
+        <symbol id="co-sim-cebolla" viewBox="0 0 320 380">
+          <ellipse cx="160" cy="358" rx="112" ry="14" fill="#000000" opacity="0.3" />
+          <path d="M160 52 C150 34 162 16 172 6" stroke="#9bd17a" stroke-width="11" fill="none" stroke-linecap="round" />
+          <path d="M160 44 C172 92 286 124 286 232 C286 304 232 350 160 350 C88 350 34 304 34 232 C34 124 148 92 160 44Z" fill="#c9457f" />
+          <path d="M160 44 C172 92 286 124 286 232 C286 304 232 350 160 350 C212 330 236 288 236 232 C236 150 176 110 160 44Z" fill="#a8356a" />
+          <path d="M160 70 C150 120 104 152 104 236 C104 290 126 330 160 348" stroke="#e58bb5" stroke-width="7" fill="none" stroke-linecap="round" opacity="0.55" />
+          <path d="M64 214 C68 178 84 154 106 138" stroke="#f7d3e4" stroke-width="12" stroke-linecap="round" fill="none" opacity="0.85" />
+          <ellipse cx="128" cy="236" rx="12" ry="16" fill="#2a1020" />
+          <ellipse cx="192" cy="236" rx="12" ry="16" fill="#2a1020" />
+          <circle cx="132" cy="230" r="4" fill="#ffffff" />
+          <circle cx="196" cy="230" r="4" fill="#ffffff" />
+          <ellipse cx="160" cy="274" rx="10" ry="12" fill="#2a1020" />
+        </symbol>
+        <symbol id="co-sim-mitad" viewBox="0 0 320 380">
+          <ellipse cx="160" cy="358" rx="112" ry="14" fill="#000000" opacity="0.3" />
+          <path d="M160 44 C172 92 286 124 286 232 C286 304 232 350 160 350 C88 350 34 304 34 232 C34 124 148 92 160 44Z" fill="#c9457f" />
+          <path d="M160 44 C172 92 286 124 286 232 C286 304 232 350 160 350 C212 330 236 288 236 232 C236 150 176 110 160 44Z" fill="#a8356a" />
+          <path d="M64 214 C68 178 84 154 106 138" stroke="#f7d3e4" stroke-width="12" stroke-linecap="round" fill="none" opacity="0.85" />
+          <path d="M160 56 C166 100 250 140 250 232 C250 290 214 334 160 340 C106 334 70 290 70 232 C70 140 154 100 160 56Z" fill="none" stroke="#f7d3e4" stroke-width="6" opacity="0.5" />
+          <rect x="146" y="50" width="28" height="298" rx="12" fill="#f7d3e4" />
+        </symbol>
+      </defs>
+    </svg>
+
+    <div id="co-cebollas">
+      <div id="co-entera" class="co-capa">
+        <svg class="co-arte" viewBox="0 0 320 380"><use href="#co-sim-cebolla" /></svg>
+      </div>
+      <div id="co-mitad-izq" class="co-capa">
+        <svg class="co-arte" viewBox="0 0 320 380"><use href="#co-sim-mitad" /></svg>
+      </div>
+      <div id="co-mitad-der" class="co-capa">
+        <svg class="co-arte" viewBox="0 0 320 380"><use href="#co-sim-mitad" /></svg>
+      </div>
+    </div>
+
+    <div id="co-gota-1" class="co-gota"></div>
+    <div id="co-gota-2" class="co-gota"></div>
+    <div id="co-gota-3" class="co-gota"></div>
+    <div id="co-gota-4" class="co-gota"></div>
+
+    <div id="co-cuchillo" data-layout-allow-overflow>
+      <svg class="co-arte" viewBox="0 0 120 520">
+        <rect x="28" y="0" width="64" height="176" rx="22" fill="#5a3b2a" />
+        <circle cx="60" cy="50" r="8" fill="#d9b48a" />
+        <circle cx="60" cy="120" r="8" fill="#d9b48a" />
+        <path d="M28 170 L92 170 L92 380 C92 440 76 490 60 512 C44 470 28 420 28 360Z" fill="#e3ecef" />
+        <path d="M36 180 L52 180 L52 420 C48 440 44 452 40 460 C36 430 36 400 36 380Z" fill="#ffffff" opacity="0.65" />
+      </svg>
+    </div>
+
+    <div id="co-lupa">
+      <svg class="co-arte" viewBox="-260 -260 520 520">
+        <defs>
+          <pattern id="co-ladrillos" width="128" height="156" patternUnits="userSpaceOnUse" patternTransform="translate(0 -39)">
+            <rect x="4" y="4" width="120" height="70" rx="16" fill="#e9a3c5" />
+            <circle cx="92" cy="30" r="9" fill="#c9457f" opacity="0.7" />
+            <rect x="68" y="82" width="120" height="70" rx="16" fill="#e9a3c5" />
+            <rect x="-60" y="82" width="120" height="70" rx="16" fill="#e9a3c5" />
+            <circle cx="20" cy="124" r="9" fill="#c9457f" opacity="0.7" />
+          </pattern>
+        </defs>
+        <g id="co-celdas">
+          <rect x="-520" y="-520" width="1040" height="1040" fill="url(#co-ladrillos)" />
+          <rect x="-124" y="-35" width="120" height="70" rx="16" fill="#f2bcd6" />
+          <rect x="4" y="-35" width="120" height="70" rx="16" fill="#f2bcd6" />
+          <rect id="co-union" x="-20" y="-35" width="40" height="70" fill="#f2bcd6" />
+          <rect id="co-pared" x="-3" y="-37" width="6" height="74" rx="3" fill="#ffc93c" />
+          <g id="co-enzimas" fill="#ffb11f">
+            <circle id="co-e1" cx="-104" cy="-14" r="6" />
+            <circle id="co-e2" cx="-78" cy="12" r="6" />
+            <circle id="co-e3" cx="-54" cy="-12" r="6" />
+            <circle id="co-e4" cx="-28" cy="14" r="6" />
+            <circle id="co-e5" cx="-98" cy="18" r="6" />
+          </g>
+          <g id="co-azufres" fill="#4cc4ff">
+            <circle id="co-a1" cx="26" cy="-14" r="6" />
+            <circle id="co-a2" cx="50" cy="14" r="6" />
+            <circle id="co-a3" cx="74" cy="-12" r="6" />
+            <circle id="co-a4" cx="100" cy="16" r="6" />
+            <circle id="co-a5" cx="108" cy="-16" r="6" />
+          </g>
+          <g id="co-gases" fill="#86e8b4">
+            <circle id="co-g1" cx="-40" cy="-6" r="12" />
+            <circle id="co-g2" cx="-6" cy="10" r="14" />
+            <circle id="co-g3" cx="30" cy="-8" r="12" />
+            <circle id="co-g4" cx="62" cy="10" r="11" />
+          </g>
+        </g>
+        <path id="co-grieta" d="M6 -250 L-14 -170 L16 -96 L-10 -30 L14 40 L-12 110 L12 180 L-4 250" stroke="#ffffff" stroke-width="10" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="560" stroke-dashoffset="560" />
+      </svg>
+    </div>
+
+    <div id="co-guia-enzima" class="co-guia"></div>
+    <div id="co-guia-azufre" class="co-guia"></div>
+    <div id="co-etiqueta-enzima" class="co-etiqueta">enzima</div>
+    <div id="co-etiqueta-azufre" class="co-etiqueta">azufre</div>
+  </div>
+
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    const aparece = (sel, t, extra = {}) =>
+      tl.fromTo(sel, { opacity: 0, scale: 0.4 }, { opacity: 1, scale: 1, duration: 0.3, ease: "back.out(2)", ...extra }, t);
+
+    // 0.00 "Cuando la cortas": la cebolla sube (viene de la escena anterior) y llega el cuchillo.
+    tl.fromTo("#co-cebollas", { y: 0, scale: 1 }, { y: -300, scale: 0.9, duration: 0.42, ease: "power3.out" }, 0);
+    tl.fromTo("#co-cuchillo", { y: -620, rotation: -10 }, { y: 0, rotation: 0, duration: 0.38, ease: "power3.out" }, 0.3);
+    tl.to("#co-cuchillo", { y: -46, duration: 0.12, ease: "power2.out" }, 0.68);
+    // 0.84 corte.
+    tl.to("#co-cuchillo", { y: 400, duration: 0.1, ease: "power4.in" }, 0.8);
+    tl.set("#co-entera", { opacity: 0 }, 0.86);
+    tl.set(["#co-mitad-izq", "#co-mitad-der"], { opacity: 1 }, 0.86);
+    tl.fromTo("#co-mitad-izq", { x: 0, rotation: 0 }, { x: -74, rotation: -10, duration: 0.4, ease: "back.out(2.4)", transformOrigin: "50% 100%" }, 0.86);
+    tl.fromTo("#co-mitad-der", { x: 0, rotation: 0 }, { x: 74, rotation: 10, duration: 0.4, ease: "back.out(2.4)", transformOrigin: "50% 100%" }, 0.86);
+    [
+      ["#co-gota-1", -150, -160],
+      ["#co-gota-2", 140, -190],
+      ["#co-gota-3", -70, -250],
+      ["#co-gota-4", 90, -120],
+    ].forEach(([gota, x, y], i) => {
+      tl.fromTo(gota, { opacity: 0, x: 0, y: 0, scale: 1 }, { opacity: 1, x: x * 0.5, y: y * 0.6, duration: 0.14, ease: "power2.out" }, 0.86 + i * 0.01);
+      tl.to(gota, { x, y: y + 90, scale: 0.4, opacity: 0, duration: 0.36, ease: "power1.in" }, 1.0 + i * 0.01);
+    });
+    tl.to("#co-cuchillo", { y: -700, rotation: 8, duration: 0.34, ease: "power2.in" }, 1.0);
+
+    // 1.10 "rompes miles de celulas": la lupa sale del corte.
+    tl.to("#co-cebollas", { y: -556, scale: 0.5, duration: 0.45, ease: "power3.inOut" }, 1.08);
+    tl.fromTo("#co-lupa", { scale: 0, opacity: 0, y: -260 }, { scale: 1, opacity: 1, y: 0, duration: 0.48, ease: "back.out(1.5)" }, 1.14);
+    tl.fromTo("#co-celdas", { scale: 1 }, { scale: 1.07, duration: 0.16, ease: "power2.out", svgOrigin: "0 0" }, 1.99);
+    tl.to("#co-celdas", { scale: 1, duration: 0.24, ease: "sine.inOut", svgOrigin: "0 0" }, 2.15);
+    // 2.48 "diminutas": la grieta del cuchillo cruza las celulas.
+    tl.to("#co-grieta", { strokeDashoffset: 0, duration: 0.3, ease: "power2.in" }, 2.44);
+    tl.fromTo("#co-lupa", { x: 0 }, { x: 10, duration: 0.05, repeat: 5, yoyo: true, ease: "sine.inOut" }, 2.72);
+    tl.to("#co-grieta", { opacity: 0, duration: 0.3 }, 3.1);
+
+    // 3.32 "Y dos sustancias": acercamiento a dos celulas vecinas.
+    tl.to("#co-celdas", { scale: 2.6, duration: 0.6, ease: "power3.inOut", svgOrigin: "0 0" }, 3.15);
+    tl.to("#co-enzimas", { opacity: 1, duration: 0.25 }, 3.55);
+    tl.to("#co-azufres", { opacity: 1, duration: 0.25 }, 3.8);
+    aparece("#co-etiqueta-enzima", 3.62);
+    tl.fromTo("#co-guia-enzima", { opacity: 0, scaleY: 0 }, { opacity: 1, scaleY: 1, duration: 0.2, transformOrigin: "50% 0%" }, 3.74);
+    aparece("#co-etiqueta-azufre", 3.9);
+    tl.fromTo("#co-guia-azufre", { opacity: 0, scaleY: 0 }, { opacity: 1, scaleY: 1, duration: 0.2, transformOrigin: "50% 0%" }, 4.02);
+    // Las sustancias se mueven dentro de su celula mientras "vivian separadas".
+    ["#co-e1", "#co-e2", "#co-e3", "#co-e4", "#co-e5"].forEach((p, i) => {
+      tl.fromTo(p, { y: 0 }, { y: i % 2 ? -7 : 7, duration: 0.5, repeat: 3, yoyo: true, ease: "sine.inOut" }, 3.8 + i * 0.05);
+    });
+    ["#co-a1", "#co-a2", "#co-a3", "#co-a4", "#co-a5"].forEach((p, i) => {
+      tl.fromTo(p, { y: 0 }, { y: i % 2 ? 7 : -7, duration: 0.5, repeat: 3, yoyo: true, ease: "sine.inOut" }, 3.85 + i * 0.05);
+    });
+    // 5.08 "separadas": la pared que las separa se enciende.
+    tl.to("#co-pared", { opacity: 1, duration: 0.2 }, 4.95);
+    tl.fromTo("#co-pared", { scaleX: 1 }, { scaleX: 2.2, duration: 0.2, repeat: 3, yoyo: true, ease: "sine.inOut", transformOrigin: "50% 50%" }, 5.05);
+
+    // 5.93 "se mezclan": la pared cae y todo se revuelve.
+    tl.to(["#co-etiqueta-enzima", "#co-etiqueta-azufre", "#co-guia-enzima", "#co-guia-azufre"], { opacity: 0, duration: 0.16 }, 5.72);
+    tl.to("#co-pared", { opacity: 0, scaleY: 0, duration: 0.14, ease: "power2.in", transformOrigin: "50% 50%" }, 5.86);
+    tl.to("#co-union", { opacity: 1, duration: 0.12 }, 5.88);
+    [
+      ["#co-e1", 150, 22],
+      ["#co-e2", 96, -18],
+      ["#co-e3", 110, 26],
+      ["#co-e4", 60, -22],
+      ["#co-e5", 170, -10],
+    ].forEach(([p, x, y], i) => tl.to(p, { x, y, duration: 0.34, ease: "power2.inOut" }, 5.92 + i * 0.02));
+    [
+      ["#co-a1", -58, 20],
+      ["#co-a2", -104, -24],
+      ["#co-a3", -150, 18],
+      ["#co-a4", -120, -8],
+      ["#co-a5", -176, 24],
+    ].forEach(([p, x, y], i) => tl.to(p, { x, y, duration: 0.34, ease: "power2.inOut" }, 5.93 + i * 0.02));
+    ["#co-g1", "#co-g2", "#co-g3", "#co-g4"].forEach((p, i) => {
+      tl.fromTo(p, { opacity: 0, scale: 0 }, { opacity: 1, scale: 1, duration: 0.2, ease: "back.out(2.5)", transformOrigin: "50% 50%" }, 6.08 + i * 0.04);
+    });
+    tl.to(["#co-enzimas", "#co-azufres"], { opacity: 0.25, duration: 0.2 }, 6.1);
+
+    window.__timelines["corte"] = tl;
+  </script>
+</template>

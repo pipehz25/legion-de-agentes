@@ -1,0 +1,501 @@
+{
+  "duracion": 25.359,
+  "audio": "assets/narracion.wav",
+  "frases": [
+    {
+      "id": "f1",
+      "escena": "gancho",
+      "texto": "¿Por qué la cebolla te hace llorar?",
+      "inicio": 0.2,
+      "fin": 2.129,
+      "palabras": [
+        {
+          "id": "w0",
+          "texto": "¿Por",
+          "inicio": 0.2,
+          "fin": 0.414
+        },
+        {
+          "id": "w1",
+          "texto": "qué",
+          "inicio": 0.414,
+          "fin": 0.629
+        },
+        {
+          "id": "w2",
+          "texto": "la",
+          "inicio": 0.629,
+          "fin": 0.771
+        },
+        {
+          "id": "w3",
+          "texto": "cebolla",
+          "inicio": 0.771,
+          "fin": 1.271
+        },
+        {
+          "id": "w4",
+          "texto": "te",
+          "inicio": 1.271,
+          "fin": 1.414
+        },
+        {
+          "id": "w5",
+          "texto": "hace",
+          "inicio": 1.414,
+          "fin": 1.7
+        },
+        {
+          "id": "w6",
+          "texto": "llorar?",
+          "inicio": 1.7,
+          "fin": 2.129
+        }
+      ]
+    },
+    {
+      "id": "f2",
+      "escena": "corte",
+      "texto": "Cuando la cortas, rompes miles de células diminutas.",
+      "inicio": 2.349,
+      "fin": 5.396,
+      "palabras": [
+        {
+          "id": "w7",
+          "texto": "Cuando",
+          "inicio": 2.349,
+          "fin": 2.742
+        },
+        {
+          "id": "w8",
+          "texto": "la",
+          "inicio": 2.742,
+          "fin": 2.873
+        },
+        {
+          "id": "w9",
+          "texto": "cortas,",
+          "inicio": 2.873,
+          "fin": 3.267
+        },
+        {
+          "id": "w10",
+          "texto": "rompes",
+          "inicio": 3.401,
+          "fin": 3.814
+        },
+        {
+          "id": "w11",
+          "texto": "miles",
+          "inicio": 3.814,
+          "fin": 4.158
+        },
+        {
+          "id": "w12",
+          "texto": "de",
+          "inicio": 4.158,
+          "fin": 4.295
+        },
+        {
+          "id": "w13",
+          "texto": "células",
+          "inicio": 4.295,
+          "fin": 4.777
+        },
+        {
+          "id": "w14",
+          "texto": "diminutas.",
+          "inicio": 4.777,
+          "fin": 5.396
+        }
+      ]
+    },
+    {
+      "id": "f3",
+      "escena": "corte",
+      "texto": "Y dos sustancias que vivían separadas, se mezclan.",
+      "inicio": 5.616,
+      "fin": 8.5,
+      "palabras": [
+        {
+          "id": "w15",
+          "texto": "Y",
+          "inicio": 5.616,
+          "fin": 5.693
+        },
+        {
+          "id": "w16",
+          "texto": "dos",
+          "inicio": 5.693,
+          "fin": 5.923
+        },
+        {
+          "id": "w17",
+          "texto": "sustancias",
+          "inicio": 5.923,
+          "fin": 6.689
+        },
+        {
+          "id": "w18",
+          "texto": "que",
+          "inicio": 6.689,
+          "fin": 6.919
+        },
+        {
+          "id": "w19",
+          "texto": "vivían",
+          "inicio": 6.919,
+          "fin": 7.379
+        },
+        {
+          "id": "w20",
+          "texto": "separadas,",
+          "inicio": 7.379,
+          "fin": 8.069
+        },
+        {
+          "id": "w21",
+          "texto": "se",
+          "inicio": 8.233,
+          "fin": 8.293
+        },
+        {
+          "id": "w22",
+          "texto": "mezclan.",
+          "inicio": 8.293,
+          "fin": 8.5
+        }
+      ]
+    },
+    {
+      "id": "f4",
+      "escena": "viaje",
+      "texto": "Juntas forman un gas que sube directo a tus ojos.",
+      "inicio": 8.72,
+      "fin": 11.473,
+      "palabras": [
+        {
+          "id": "w23",
+          "texto": "Juntas",
+          "inicio": 8.72,
+          "fin": 9.144
+        },
+        {
+          "id": "w24",
+          "texto": "forman",
+          "inicio": 9.144,
+          "fin": 9.567
+        },
+        {
+          "id": "w25",
+          "texto": "un",
+          "inicio": 9.567,
+          "fin": 9.708
+        },
+        {
+          "id": "w26",
+          "texto": "gas",
+          "inicio": 9.708,
+          "fin": 9.92
+        },
+        {
+          "id": "w27",
+          "texto": "que",
+          "inicio": 9.92,
+          "fin": 10.132
+        },
+        {
+          "id": "w28",
+          "texto": "sube",
+          "inicio": 10.132,
+          "fin": 10.414
+        },
+        {
+          "id": "w29",
+          "texto": "directo",
+          "inicio": 10.414,
+          "fin": 10.908
+        },
+        {
+          "id": "w30",
+          "texto": "a",
+          "inicio": 10.908,
+          "fin": 10.979
+        },
+        {
+          "id": "w31",
+          "texto": "tus",
+          "inicio": 10.979,
+          "fin": 11.191
+        },
+        {
+          "id": "w32",
+          "texto": "ojos.",
+          "inicio": 11.191,
+          "fin": 11.473
+        }
+      ]
+    },
+    {
+      "id": "f5",
+      "escena": "viaje",
+      "texto": "El gas irrita los nervios del ojo, y tu cerebro da la orden: ¡lávalo!",
+      "inicio": 11.693,
+      "fin": 15.486,
+      "palabras": [
+        {
+          "id": "w33",
+          "texto": "El",
+          "inicio": 11.693,
+          "fin": 11.815
+        },
+        {
+          "id": "w34",
+          "texto": "gas",
+          "inicio": 11.815,
+          "fin": 11.998
+        },
+        {
+          "id": "w35",
+          "texto": "irrita",
+          "inicio": 11.998,
+          "fin": 12.365
+        },
+        {
+          "id": "w36",
+          "texto": "los",
+          "inicio": 12.365,
+          "fin": 12.548
+        },
+        {
+          "id": "w37",
+          "texto": "nervios",
+          "inicio": 12.548,
+          "fin": 12.975
+        },
+        {
+          "id": "w38",
+          "texto": "del",
+          "inicio": 12.975,
+          "fin": 13.158
+        },
+        {
+          "id": "w39",
+          "texto": "ojo,",
+          "inicio": 13.158,
+          "fin": 13.341
+        },
+        {
+          "id": "w40",
+          "texto": "y",
+          "inicio": 13.574,
+          "fin": 13.643
+        },
+        {
+          "id": "w41",
+          "texto": "tu",
+          "inicio": 13.643,
+          "fin": 13.782
+        },
+        {
+          "id": "w42",
+          "texto": "cerebro",
+          "inicio": 13.782,
+          "fin": 14.265
+        },
+        {
+          "id": "w43",
+          "texto": "da",
+          "inicio": 14.265,
+          "fin": 14.404
+        },
+        {
+          "id": "w44",
+          "texto": "la",
+          "inicio": 14.404,
+          "fin": 14.542
+        },
+        {
+          "id": "w45",
+          "texto": "orden:",
+          "inicio": 14.542,
+          "fin": 14.887
+        },
+        {
+          "id": "w46",
+          "texto": "¡lávalo!",
+          "inicio": 15.025,
+          "fin": 15.486
+        }
+      ]
+    },
+    {
+      "id": "f6",
+      "escena": "viaje",
+      "texto": "Por eso lloras. La cebolla no te pone triste: se está defendiendo.",
+      "inicio": 15.706,
+      "fin": 19.425,
+      "palabras": [
+        {
+          "id": "w47",
+          "texto": "Por",
+          "inicio": 15.706,
+          "fin": 15.921
+        },
+        {
+          "id": "w48",
+          "texto": "eso",
+          "inicio": 15.921,
+          "fin": 16.137
+        },
+        {
+          "id": "w49",
+          "texto": "lloras.",
+          "inicio": 16.137,
+          "fin": 16.569
+        },
+        {
+          "id": "w50",
+          "texto": "La",
+          "inicio": 16.749,
+          "fin": 16.882
+        },
+        {
+          "id": "w51",
+          "texto": "cebolla",
+          "inicio": 16.882,
+          "fin": 17.349
+        },
+        {
+          "id": "w52",
+          "texto": "no",
+          "inicio": 17.349,
+          "fin": 17.483
+        },
+        {
+          "id": "w53",
+          "texto": "te",
+          "inicio": 17.483,
+          "fin": 17.616
+        },
+        {
+          "id": "w54",
+          "texto": "pone",
+          "inicio": 17.616,
+          "fin": 17.884
+        },
+        {
+          "id": "w55",
+          "texto": "triste:",
+          "inicio": 17.884,
+          "fin": 18.284
+        },
+        {
+          "id": "w56",
+          "texto": "se",
+          "inicio": 18.388,
+          "fin": 18.51
+        },
+        {
+          "id": "w57",
+          "texto": "está",
+          "inicio": 18.51,
+          "fin": 18.754
+        },
+        {
+          "id": "w58",
+          "texto": "defendiendo.",
+          "inicio": 18.754,
+          "fin": 19.425
+        }
+      ]
+    },
+    {
+      "id": "f7",
+      "escena": "truco",
+      "texto": "¿El truco? Enfríala antes de cortarla, y el gas saldrá mucho más lento.",
+      "inicio": 19.645,
+      "fin": 23.859,
+      "palabras": [
+        {
+          "id": "w59",
+          "texto": "¿El",
+          "inicio": 19.645,
+          "fin": 19.793
+        },
+        {
+          "id": "w60",
+          "texto": "truco?",
+          "inicio": 19.793,
+          "fin": 20.164
+        },
+        {
+          "id": "w61",
+          "texto": "Enfríala",
+          "inicio": 20.285,
+          "fin": 20.804
+        },
+        {
+          "id": "w62",
+          "texto": "antes",
+          "inicio": 20.804,
+          "fin": 21.128
+        },
+        {
+          "id": "w63",
+          "texto": "de",
+          "inicio": 21.128,
+          "fin": 21.257
+        },
+        {
+          "id": "w64",
+          "texto": "cortarla,",
+          "inicio": 21.257,
+          "fin": 21.776
+        },
+        {
+          "id": "w65",
+          "texto": "y",
+          "inicio": 22.022,
+          "fin": 22.096
+        },
+        {
+          "id": "w66",
+          "texto": "el",
+          "inicio": 22.096,
+          "fin": 22.243
+        },
+        {
+          "id": "w67",
+          "texto": "gas",
+          "inicio": 22.243,
+          "fin": 22.463
+        },
+        {
+          "id": "w68",
+          "texto": "saldrá",
+          "inicio": 22.463,
+          "fin": 22.904
+        },
+        {
+          "id": "w69",
+          "texto": "mucho",
+          "inicio": 22.904,
+          "fin": 23.271
+        },
+        {
+          "id": "w70",
+          "texto": "más",
+          "inicio": 23.271,
+          "fin": 23.492
+        },
+        {
+          "id": "w71",
+          "texto": "lento.",
+          "inicio": 23.492,
+          "fin": 23.859
+        }
+      ]
+    }
+  ]
+}

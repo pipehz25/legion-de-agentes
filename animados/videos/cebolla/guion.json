@@ -1,0 +1,52 @@
+{
+  "titulo": "¿Por qué la cebolla te hace llorar?",
+  "voz": "ef_dora",
+  "velocidad": 1.0,
+  "inicio": 0.2,
+  "pausa": 0.22,
+  "cola": 1.5,
+  "frases": [
+    {
+      "id": "f1",
+      "escena": "gancho",
+      "subtitulos": false,
+      "texto": "¿Por qué la cebolla te hace llorar?"
+    },
+    {
+      "id": "f2",
+      "escena": "corte",
+      "texto": "Cuando la cortas, rompes miles de células diminutas.",
+      "clave": ["células"]
+    },
+    {
+      "id": "f3",
+      "escena": "corte",
+      "texto": "Y dos sustancias que vivían separadas, se mezclan.",
+      "clave": ["mezclan"]
+    },
+    {
+      "id": "f4",
+      "escena": "viaje",
+      "texto": "Juntas forman un gas que sube directo a tus ojos.",
+      "clave": ["gas"]
+    },
+    {
+      "id": "f5",
+      "escena": "viaje",
+      "texto": "El gas irrita los nervios del ojo, y tu cerebro da la orden: ¡lávalo!",
+      "clave": ["nervios", "¡lávalo!"]
+    },
+    {
+      "id": "f6",
+      "escena": "viaje",
+      "texto": "Por eso lloras. La cebolla no te pone triste: se está defendiendo.",
+      "clave": ["defendiendo"]
+    },
+    {
+      "id": "f7",
+      "escena": "truco",
+      "texto": "¿El truco? Enfríala antes de cortarla, y el gas saldrá mucho más lento.",
+      "clave": ["Enfríala", "lento"]
+    }
+  ]
+}
