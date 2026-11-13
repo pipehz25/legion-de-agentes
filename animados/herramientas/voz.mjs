@@ -27,8 +27,9 @@ if (!carpeta || !fs.existsSync(path.join(carpeta, "guion.json"))) {
   process.exit(1);
 }
 const guion = JSON.parse(fs.readFileSync(path.join(carpeta, "guion.json"), "utf8"));
-// "kokoro": la voz local y gratis. "externo": la voz viene ya grabada o generada en otro
-// servicio, una frase por archivo, en assets/voz-externa/<id>.wav (o .mp3).
+// "kokoro": la voz local y gratis. "higgsfield": voz de Higgsfield (gasta creditos de la
+// cuenta con la que se inicio sesion en su CLI). "externo": la voz viene ya grabada o
+// generada en otro servicio, una frase por archivo, en assets/voz-externa/<id>.wav (o .mp3).
 const MOTOR = guion.motor || "kokoro";
 if (MOTOR === "kokoro" && !fs.existsSync(PY)) {
   console.error("Falta el entorno de la voz: " + PY + "\nCrealo como dice animados/GUIA.md (seccion Instalacion).");
@@ -53,6 +54,37 @@ function duracion(archivo) {
   return parseFloat(s.trim());
 }
 
+// CLI de Higgsfield (npm i -g @higgsfield/cli; higgsfield auth login). Se llama a su
+// archivo de entrada con node, sin pasar por el shell, para que el texto llegue intacto.
+let entradaHiggsfield = null;
+function higgsfield(args) {
+  if (!entradaHiggsfield) {
+    const raiz = spawnSync("npm root -g", { shell: true, encoding: "utf8" }).stdout.trim();
+    entradaHiggsfield = path.join(raiz, "@higgsfield", "cli", "bin", "higgsfield.js");
+    if (!fs.existsSync(entradaHiggsfield)) {
+      throw new Error("Falta el CLI de Higgsfield. Instalalo con: npm i -g @higgsfield/cli  y despues: higgsfield auth login");
+    }
+  }
+  const r = spawnSync(process.execPath, [entradaHiggsfield, ...args], { encoding: "utf8" });
+  if (r.status !== 0) throw new Error("Higgsfield fallo:\n" + (r.stderr || r.stdout));
+  return r.stdout;
+}
+
+// La voz se puede escribir por nombre ("Bram") o por id; `higgsfield voices list` las muestra.
+let vocesHiggsfield = null;
+function vozDeHiggsfield(pedida) {
+  if (!pedida) throw new Error('Con "motor": "higgsfield" el guion necesita "voz" (un nombre de `higgsfield voices list`).');
+  if (/^[0-9a-f]{8}-[0-9a-f-]{27}$/i.test(pedida)) return { id: pedida, tipo: guion.voz_tipo || "preset" };
+  if (!vocesHiggsfield) {
+    const salida = higgsfield(["voices", "list", "--json"]);
+    const datos = JSON.parse(salida.slice(salida.search(/[[{]/)));
+    vocesHiggsfield = Array.isArray(datos) ? datos : datos.voices || datos.items || datos.data || [];
+  }
+  const voz = vocesHiggsfield.find((v) => String(v.name).toLowerCase() === String(pedida).toLowerCase());
+  if (!voz) throw new Error(`Higgsfield no tiene una voz llamada "${pedida}". Mira los nombres con: higgsfield voices list`);
+  return { id: voz.id, tipo: voz.voice_type || "preset" };
+}
+
 // 1. Una frase por archivo: voz, y recorte del silencio de los extremos.
 function hablar(frase) {
   const txt = path.join(dirVoz, frase.id + ".txt");
@@ -74,6 +106,31 @@ function hablar(frase) {
     const firma = JSON.stringify({ texto: frase.texto, fuente: path.basename(fuente), peso: datos.size, fecha: datos.mtimeMs });
     if (yaEsta(firma)) return wav;
     correr("ffmpeg", ["-v", "error", "-y", "-i", fuente, "-af", recorte, "-ar", "48000", "-ac", "1", wav]);
+    fs.writeFileSync(sello, firma, "utf8");
+    return wav;
+  }
+
+  if (MOTOR === "higgsfield") {
+    const voz = vozDeHiggsfield(frase.voz || guion.voz);
+    const variante = guion.variante || "elevenlabs";
+    // Cada frase cuesta creditos: solo se vuelve a generar si cambio el texto o la voz.
+    const firma = JSON.stringify({ texto: frase.texto, motor: MOTOR, voz: voz.id, variante });
+    if (yaEsta(firma)) return wav;
+    const salida = higgsfield([
+      "generate", "create", "text2speech_v2",
+      "--prompt", frase.texto,
+      "--variant", variante,
+      "--voice_id", voz.id,
+      "--voice_type", voz.tipo,
+      "--wait", "--json",
+    ]);
+    const trabajos = JSON.parse(salida.slice(salida.indexOf("[")));
+    const url = trabajos[0] && trabajos[0].result_url;
+    if (!url) throw new Error("Higgsfield no devolvio audio para " + frase.id + ":\n" + salida.slice(0, 400));
+    const bajado = path.join(dirVoz, frase.id + ".crudo.mp3");
+    correr("curl", ["-sL", "-o", bajado, url]);
+    correr("ffmpeg", ["-v", "error", "-y", "-i", bajado, "-af", recorte, "-ar", "48000", "-ac", "1", wav]);
+    fs.rmSync(bajado, { force: true });
     fs.writeFileSync(sello, firma, "utf8");
     return wav;
   }

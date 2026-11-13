@@ -67,7 +67,7 @@ Para verlo y retocarlo en el navegador: `npx --yes hyperframes@0.9.20 preview` d
 - **Verdad:** cada afirmación se comprueba antes de animarla. Si un dato está en discusión, se dice la versión segura o se quita. Un dibujo bonito y falso es peor que no tenerlo.
 - **`clave`:** una o dos palabras por frase que cargan el sentido; salen en color de acento en los subtítulos.
 - **`escena`:** el archivo de `compositions/` que se ve mientras suena esa frase. Las frases de una misma escena van seguidas.
-- **`motor`:** `"kokoro"` (por defecto) genera la voz local; `"externo"` usa la que ya esté en `assets/voz-externa/` (sección «Sonido»).
+- **`motor`:** de dónde sale la voz: `"higgsfield"`, `"kokoro"` (por defecto) o `"externo"` (sección «Sonido»).
 - **Guiones propios:** el tema puede ser el mismo que el de otro video; el texto, el orden y los dibujos son nuestros.
 
 **Si es un anuncio** (para pautar), cambia tres cosas:
@@ -155,7 +155,8 @@ Los genera `subtitulos.mjs` (lo llama `montaje.mjs`): grupos de hasta 3 palabras
 
 ## Sonido
 
-- **Voz local:** Kokoro (`ef_dora` de mujer, `em_alex` y `em_santa` de hombre). Es gratis y suena sintética; sirve para armar y cronometrar el video, no para publicarlo.
+- **Voz de Higgsfield (la que se publica):** en el guion, `"motor": "higgsfield"`, `"variante": "elevenlabs"` y `"voz": "Bram"` (un nombre de `higgsfield voices list`). Necesita el CLI instalado y con sesión (`npm i -g @higgsfield/cli` y `higgsfield auth login`; los corre la persona, no Claude). Gasta créditos de esa cuenta: un video de 30 segundos cuesta cerca de 2. Solo se vuelven a generar las frases que cambian. Todas las voces traen muestra en inglés, así que una voz nueva se prueba primero con una frase y se revisa con whisper que el español se entienda.
+- **Voz local:** Kokoro (`ef_dora` de mujer, `em_alex` y `em_santa` de hombre), con `"motor": "kokoro"`. Es gratis y suena sintética; sirve para armar y cronometrar el video, no para publicarlo.
 - **Voz de otro servicio:** genera o graba una frase por archivo, con el `id` de la frase como nombre (`f1.wav`, `f2.mp3`…), y déjalas en `assets/voz-externa/`. Pon `"motor": "externo"` en el guion y corre `voz.mjs` y `montaje.mjs`: el video se vuelve a sincronizar solo.
 - **Volumen:** el video final queda cerca de −16 LUFS. Se comprueba con `ffmpeg -i <mp4> -af ebur128 -f null -`.
 - **Música y efectos:** todavía no hay. Cuando haya una fuente con licencia clara, la música va a 0,14 de volumen bajo la voz y cada efecto tiene una causa visible en pantalla.

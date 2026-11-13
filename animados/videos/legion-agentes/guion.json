@@ -1,8 +1,8 @@
 {
   "titulo": "¿Y si tu empresa trabajara mientras duermes?",
-  "motor": "kokoro",
-  "voz": "em_alex",
-  "velocidad": 1.0,
+  "motor": "higgsfield",
+  "variante": "elevenlabs",
+  "voz": "Bram",
   "inicio": 0.2,
   "pausa": 0.24,
   "cola": 2.0,
