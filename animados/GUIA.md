@@ -2,7 +2,7 @@
 
 Esta carpeta hace **videos explicativos animados sin cara**: verticales, de 20 a 45 segundos, dibujados con código, narrados en español y con subtítulos. Se pide un tema («hazme un video de por qué la cebolla te hace llorar») y sale un MP4 listo para subir.
 
-Quien lee esto es Claude: cuando te pidan un video animado, sigue esta guía de principio a fin. El video de referencia, ya terminado, es [videos/cebolla/](videos/cebolla/); cópiale la estructura, no el contenido.
+Quien lee esto es Claude: cuando te pidan un video animado, sigue esta guía de principio a fin. El video de referencia, ya terminado, es [videos/legion-agentes/](videos/legion-agentes/); cópiale la estructura, no el contenido. [videos/cebolla/](videos/cebolla/) fue el primero y es anterior a `montaje.mjs`: su `index.html` y los segundos de sus escenas están escritos a mano, así que no le corras `montaje.mjs`.
 
 El motor es [HyperFrames](https://github.com/heygen-com/hyperframes) (HTML animado con GSAP que se renderiza a MP4, licencia Apache 2.0). Sus reglas mandan sobre esta guía cuando choquen: están en el `CLAUDE.md` de cada carpeta de video y en `npx hyperframes docs <tema>`.
 
@@ -30,9 +30,9 @@ Todo se corre desde la raíz del proyecto salvo que se diga otra cosa. `<video>`
 2. **Guion.** Escribe `animados/videos/<video>/guion.json` (sección «Guion»). Comprueba cada dato antes de animarlo.
 3. **Voz y tiempos.** `node animados/herramientas/voz.mjs animados/videos/<video>`
    Deja `assets/narracion.wav` y `tiempos.json`, con el inicio y el fin de cada frase y de cada palabra. Todo lo demás se sincroniza con ese archivo. Si cambias el guion, vuelve a correrlo: solo regenera las frases que cambiaron.
-4. **Escenas.** Una escena por archivo en `compositions/` y el montaje en `index.html` (secciones «Estilo» y «Reglas técnicas»). Cada cosa aparece cuando la voz la nombra: toma los segundos de `tiempos.json`.
-5. **Subtítulos.** `node animados/herramientas/subtitulos.mjs animados/videos/<video>`
-   Genera `compositions/subtitulos.html`. No se edita a mano.
+4. **Escenas.** Una escena por archivo en `compositions/`, con el mismo nombre que su `escena` en el guion (secciones «Estilo», «Escenas» y «Reglas técnicas»). Cada cosa aparece cuando la voz la nombra.
+5. **Montaje.** `node animados/herramientas/montaje.mjs animados/videos/<video>`
+   Genera `index.html` (una ranura por escena, subtítulos y audio) y `compositions/subtitulos.html`. Ninguno de los dos se edita a mano. Con `--sin-voz` el video sale mudo, con los mismos tiempos.
 6. **Revisión.** Dentro de la carpeta del video: `npx --yes hyperframes@0.9.20 check --json`. Cero errores, y cada aviso arreglado o justificado.
 7. **Mirar.** `npx --yes hyperframes@0.9.20 snapshot --at 0,1.9,3.2,... --no-end --keep -o snapshots` con al menos dos momentos por escena, y **mira las imágenes**. Que `check` pase no dice cómo se ve.
 8. **Render.** `npx --yes hyperframes@0.9.20 render -q delivery -o renders/<video>.mp4`
@@ -66,7 +66,16 @@ Para verlo y retocarlo en el navegador: `npx --yes hyperframes@0.9.20 preview` d
 - **Tono:** de tú, frases cortas, español neutro. Sin «hola», sin presentarse y sin pedir que sigan la cuenta.
 - **Verdad:** cada afirmación se comprueba antes de animarla. Si un dato está en discusión, se dice la versión segura o se quita. Un dibujo bonito y falso es peor que no tenerlo.
 - **`clave`:** una o dos palabras por frase que cargan el sentido; salen en color de acento en los subtítulos.
+- **`escena`:** el archivo de `compositions/` que se ve mientras suena esa frase. Las frases de una misma escena van seguidas.
+- **`motor`:** `"kokoro"` (por defecto) genera la voz local; `"externo"` usa la que ya esté en `assets/voz-externa/` (sección «Sonido»).
 - **Guiones propios:** el tema puede ser el mismo que el de otro video; el texto, el orden y los dibujos son nuestros.
+
+**Si es un anuncio** (para pautar), cambia tres cosas:
+- El gancho nombra el problema o el deseo del cliente, no una curiosidad.
+- El cuerpo muestra cómo funciona el servicio en pasos que se puedan dibujar.
+- El cierre sí pide una acción («Escríbenos»), con un botón en pantalla que dura al menos 2 segundos.
+
+No se inventan cifras, clientes, precios ni resultados: solo se dice lo que el servicio hace.
 
 ## Estilo
 
@@ -110,13 +119,44 @@ En horizontal, el texto va entre 108 y 972.
 - De una escena a la siguiente se conserva el sujeto en el mismo sitio para que el corte no se note.
 - Nunca más de 3 segundos sin que algo se mueva.
 
+## Escenas
+
+Las escenas no llevan segundos escritos a mano: le preguntan al reloj cuándo se dice cada palabra. Así, si cambia la voz, basta con correr `voz.mjs` y `montaje.mjs` otra vez.
+
+```js
+const tl = gsap.timeline({ paused: true });
+const r = window.__reloj("problema"); // el nombre de esta escena
+const fx = window.__fx;
+
+fx.entra(tl, "#pr-reloj", 0, { y: 60 });        // entra con rebote al empezar la escena
+fx.entra(tl, "#pr-chip-2", r.p("f2", 2));       // entra cuando se dice la palabra 2 de la frase f2
+fx.golpe(tl, "#pr-reloj", r.fin("f2"));         // salta cuando termina la frase f2
+fx.flota(tl, "#pr-robot-f", 0.6, r.dur);        // vaivén hasta el final de la escena
+
+window.__timelines["problema"] = tl;
+```
+
+| Función | Qué da o qué hace |
+|---|---|
+| `r.p("f2", 3)` | Segundo en que se dice la palabra 3 de la frase `f2` (la primera es la 0), contado desde que empieza la escena |
+| `r.fin("f2")` | Segundo en que termina la frase `f2` |
+| `r.dur` | Duración de la escena |
+| `fx.entra(tl, sel, t, desde)` | Entra con rebote; `desde` suma un punto de partida, como `{ y: 80 }` |
+| `fx.sale(tl, sel, t, hacia)` | Sale encogiéndose |
+| `fx.golpe(tl, sel, t, escala)` | Salto de énfasis sobre algo que ya está en pantalla |
+| `fx.flota(tl, sel, t, fin)` | Vaivén suave y finito; va en un envoltorio interior que no tenga otro movimiento en `y` |
+| `fx.tiembla(tl, sel, t)` | Temblor corto; va en un elemento que no tenga otro movimiento en `x` |
+
+Para ver en qué palabra cae cada cosa, abre `tiempos.json`: cada frase trae sus palabras en orden.
+
 ## Subtítulos
 
-Los genera `subtitulos.mjs`: grupos de hasta 3 palabras, uno a la vez; cada palabra se enciende cuando la voz la dice. Si hay que cambiar el aspecto, se cambia en el script para que todos los videos queden iguales.
+Los genera `subtitulos.mjs` (lo llama `montaje.mjs`): grupos de hasta 3 palabras, uno a la vez; cada palabra se enciende cuando la voz la dice. Si hay que cambiar el aspecto, se cambia en el script para que todos los videos queden iguales.
 
 ## Sonido
 
-- **Voz:** Kokoro `ef_dora` (español, local y gratis). Es correcta, no excelente; para una voz mejor se cambia la función `hablar` de `voz.mjs` por otro motor que entregue un WAV por frase.
+- **Voz local:** Kokoro (`ef_dora` de mujer, `em_alex` y `em_santa` de hombre). Es gratis y suena sintética; sirve para armar y cronometrar el video, no para publicarlo.
+- **Voz de otro servicio:** genera o graba una frase por archivo, con el `id` de la frase como nombre (`f1.wav`, `f2.mp3`…), y déjalas en `assets/voz-externa/`. Pon `"motor": "externo"` en el guion y corre `voz.mjs` y `montaje.mjs`: el video se vuelve a sincronizar solo.
 - **Volumen:** el video final queda cerca de −16 LUFS. Se comprueba con `ffmpeg -i <mp4> -af ebur128 -f null -`.
 - **Música y efectos:** todavía no hay. Cuando haya una fuente con licencia clara, la música va a 0,14 de volumen bajo la voz y cada efecto tiene una causa visible en pantalla.
 
@@ -129,8 +169,8 @@ Los genera `subtitulos.mjs`: grupos de hasta 3 palabras, uno a la vez; cada pala
 - Nada de `Math.random()`, `Date.now()`, temporizadores ni `repeat: -1`. Las repeticiones son finitas y terminan antes de que acabe la escena.
 - No se pone `transform` en CSS a un elemento que GSAP anima. La posición va con `left` y `top`; el movimiento, con `x`, `y`, `scale` y `rotation`.
 - Cada objeto es un `div` con posición absoluta y su `svg` dentro; se anima el `div`.
-- Todo `<audio>` lleva `id`.
-- La duración del video es el `data-duration` de la raíz y debe coincidir con `duracion` en `tiempos.json`.
+- Los signos que la letra no trae (✓, flechas, corazones) se dibujan en SVG; nada de emojis.
+- `index.html` y `subtitulos.html` los escribe `montaje.mjs`: lo que se cambie a mano se pierde.
 
 ## Antes de entregar
 
@@ -147,11 +187,12 @@ Los genera `subtitulos.mjs`: grupos de hasta 3 palabras, uno a la vez; cada pala
 animados/
   GUIA.md                  esta guía
   herramientas/voz.mjs     narración y tiempos por palabra
+  herramientas/montaje.mjs index.html y subtítulos
   herramientas/subtitulos.mjs
   videos/<video>/
     guion.json             lo que se dice
     tiempos.json           cuándo se dice (generado)
-    index.html             montaje: escenas, subtítulos y audio
+    index.html             montaje: escenas, subtítulos y audio (generado)
     compositions/*.html    una escena por archivo
     renders/               los MP4 (no van a GitHub)
 ```

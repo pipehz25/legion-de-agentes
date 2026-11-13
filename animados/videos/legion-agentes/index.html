@@ -1,0 +1,215 @@
+<!doctype html>
+<!-- Generado por animados/herramientas/montaje.mjs a partir de tiempos.json. No editar a mano. -->
+<html lang="es" data-resolution="portrait">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+    <script>
+      // Tiempos de la voz, en segundos del video.
+      window.__tiempos = {"escenas":{"gancho":{"inicio":0,"fin":3.046},"problema":{"inicio":3.046,"fin":7.682},"solucion":{"inicio":7.682,"fin":12.055},"equipo":{"inicio":12.055,"fin":17.147},"legion":{"inicio":17.147,"fin":20.436},"cierre":{"inicio":20.436,"fin":28.1}},"frases":{"f1":{"inicio":0.2,"fin":2.876,"palabras":[0.2,0.274,0.423,0.572,1.092,1.761,2.355]},"f2":{"inicio":3.116,"fin":7.512,"palabras":[3.116,3.785,4.45,4.912,5.365,6.084,6.492,6.696,6.832,7.172,7.308]},"f3":{"inicio":7.752,"fin":11.885,"palabras":[7.752,8.322,8.821,8.963,9.391,9.533,10.388,11.101,11.386,11.671]},"f4":{"inicio":12.125,"fin":16.977,"palabras":[12.125,12.331,12.812,12.88,13.087,13.903,14.135,14.367,15.005,15.063,15.237,15.724,16.002,16.42,16.629]},"f5":{"inicio":17.217,"fin":20.266,"palabras":[17.217,17.813,18.365,18.602,18.681,19.154,19.228,19.376,19.673]},"f6":{"inicio":20.506,"fin":23.937,"palabras":[20.506,20.714,20.853,21.061,21.477,21.616,22.261,22.596,22.663,22.797,23.2,23.334,23.468]},"f7":{"inicio":24.177,"fin":26.098,"palabras":[24.177,24.978,25.058,25.618,25.778]}}};
+
+      // Reloj de una escena: devuelve segundos contados desde que la escena empieza.
+      //   const r = window.__reloj("corte");
+      //   r.p("f2", 3)  cuando se dice la palabra 3 (la primera es 0) de la frase f2
+      //   r.fin("f2")   cuando termina la frase f2
+      //   r.dur         cuanto dura la escena
+      window.__reloj = (escena) => {
+        const e = window.__tiempos.escenas[escena];
+        if (!e) throw new Error('La escena "' + escena + '" no esta en el guion.');
+        const frase = (id) => {
+          const f = window.__tiempos.frases[id];
+          if (!f) throw new Error('La frase "' + id + '" no esta en el guion.');
+          return f;
+        };
+        return {
+          dur: e.fin - e.inicio,
+          p: (id, i = 0) => {
+            const palabras = frase(id).palabras;
+            return palabras[Math.min(i, palabras.length - 1)] - e.inicio;
+          },
+          fin: (id) => frase(id).fin - e.inicio,
+        };
+      };
+
+      // Movimientos de la casa. Todos reciben la linea de tiempo de la escena.
+      window.__fx = {
+        // Entra con rebote. `desde` suma un punto de partida: { y: 80 }, { x: -300, rotation: -12 }...
+        entra(tl, sel, t, desde = {}, dur = 0.34) {
+          const hasta = { opacity: 1, scale: 1, duration: dur, ease: "back.out(2)" };
+          for (const k of ["x", "y", "rotation"]) if (k in desde) hasta[k] = 0;
+          return tl.fromTo(sel, { opacity: 0, scale: 0.3, ...desde }, hasta, t);
+        },
+        // Sale encogiendose. `hacia` suma un destino: { y: 200 }.
+        sale(tl, sel, t, hacia = {}, dur = 0.22) {
+          return tl.to(sel, { opacity: 0, scale: 0.6, duration: dur, ease: "power2.in", ...hacia }, t);
+        },
+        // Vaiven suave entre t y fin; siempre vuelve al punto de partida. Usa un elemento
+        // que no tenga otro movimiento en y (un envoltorio interior).
+        flota(tl, sel, t, fin, amp = 8, periodo = 1.1) {
+          const idas = 2 * Math.max(1, Math.floor((fin - t) / (2 * periodo)));
+          return tl.fromTo(sel, { y: 0 }, { y: -amp, duration: periodo, ease: "sine.inOut", repeat: idas - 1, yoyo: true }, t);
+        },
+        // Salto de enfasis sobre algo que ya esta en pantalla.
+        golpe(tl, sel, t, escala = 1.14) {
+          tl.to(sel, { scale: escala, duration: 0.1, ease: "power2.out" }, t);
+          return tl.to(sel, { scale: 1, duration: 0.26, ease: "back.out(3)" }, t + 0.1);
+        },
+        // Temblor corto. Usa un elemento que no tenga otro movimiento en x.
+        tiembla(tl, sel, t, veces = 5, amp = 9) {
+          return tl.fromTo(sel, { x: 0 }, { x: amp, duration: 0.05, repeat: veces * 2 - 1, yoyo: true, ease: "sine.inOut" }, t);
+        },
+      };
+    </script>
+    <style>
+      :root {
+        --fondo: #0d2029;
+        --tinta: #fbf7ef;
+        --acento: #ffc93c;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 0;
+        width: 1080px;
+        height: 1920px;
+        overflow: hidden;
+        background: var(--fondo);
+      }
+      #root {
+        position: relative;
+        width: 1080px;
+        height: 1920px;
+        overflow: hidden;
+        font-family: "Nunito", sans-serif;
+        color: var(--tinta);
+      }
+      #fondo {
+        position: absolute;
+        inset: 0;
+        background:
+          radial-gradient(ellipse 70% 42% at 50% 40%, #1f4a58 0%, rgba(31, 74, 88, 0) 100%),
+          radial-gradient(ellipse 90% 30% at 50% 100%, #07141a 0%, rgba(7, 20, 26, 0) 100%),
+          #0d2029;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      id="root"
+      data-composition-id="main"
+      data-start="0"
+      data-duration="28.1"
+      data-width="1080"
+      data-height="1920"
+    >
+      <div id="fondo"></div>
+
+      <div
+        id="gancho"
+        data-composition-id="gancho"
+        data-composition-src="compositions/gancho.html"
+        data-start="0"
+        data-duration="3.05"
+        data-track-index="1"
+        data-track-kind="graphics"
+        data-width="1080"
+        data-height="1920"
+        style="z-index: 1"
+      ></div>
+      <div
+        id="problema"
+        data-composition-id="problema"
+        data-composition-src="compositions/problema.html"
+        data-start="3.046"
+        data-duration="4.64"
+        data-track-index="1"
+        data-track-kind="graphics"
+        data-width="1080"
+        data-height="1920"
+        style="z-index: 1"
+      ></div>
+      <div
+        id="solucion"
+        data-composition-id="solucion"
+        data-composition-src="compositions/solucion.html"
+        data-start="7.682"
+        data-duration="4.37"
+        data-track-index="1"
+        data-track-kind="graphics"
+        data-width="1080"
+        data-height="1920"
+        style="z-index: 1"
+      ></div>
+      <div
+        id="equipo"
+        data-composition-id="equipo"
+        data-composition-src="compositions/equipo.html"
+        data-start="12.055"
+        data-duration="5.09"
+        data-track-index="1"
+        data-track-kind="graphics"
+        data-width="1080"
+        data-height="1920"
+        style="z-index: 1"
+      ></div>
+      <div
+        id="legion"
+        data-composition-id="legion"
+        data-composition-src="compositions/legion.html"
+        data-start="17.147"
+        data-duration="3.29"
+        data-track-index="1"
+        data-track-kind="graphics"
+        data-width="1080"
+        data-height="1920"
+        style="z-index: 1"
+      ></div>
+      <div
+        id="cierre"
+        data-composition-id="cierre"
+        data-composition-src="compositions/cierre.html"
+        data-start="20.436"
+        data-duration="7.66"
+        data-track-index="1"
+        data-track-kind="graphics"
+        data-width="1080"
+        data-height="1920"
+        style="z-index: 1"
+      ></div>
+
+      <div
+        id="subtitulos"
+        data-composition-id="subtitulos"
+        data-composition-src="compositions/subtitulos.html"
+        data-start="0"
+        data-duration="28.1"
+        data-track-index="2"
+        data-track-kind="captions"
+        data-width="1080"
+        data-height="1920"
+        style="z-index: 5"
+      ></div>
+
+      <audio
+        id="narracion"
+        class="clip"
+        data-start="0"
+        data-duration="28.1"
+        data-track-index="3"
+        data-volume="1"
+        src="assets/narracion.wav"
+      ></audio>
+    </div>
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true });
+      window.__timelines["main"] = tl;
+      tl.seek(0);
+    </script>
+  </body>
+</html>

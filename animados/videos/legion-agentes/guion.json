@@ -1,0 +1,53 @@
+{
+  "titulo": "¿Y si tu empresa trabajara mientras duermes?",
+  "motor": "kokoro",
+  "voz": "em_alex",
+  "velocidad": 1.0,
+  "inicio": 0.2,
+  "pausa": 0.24,
+  "cola": 2.0,
+  "frases": [
+    {
+      "id": "f1",
+      "escena": "gancho",
+      "subtitulos": false,
+      "texto": "¿Y si tu empresa trabajara mientras duermes?"
+    },
+    {
+      "id": "f2",
+      "escena": "problema",
+      "texto": "Responder mensajes, cotizar, cobrar, publicar: tareas que se comen tu día.",
+      "clave": ["tareas", "día"]
+    },
+    {
+      "id": "f3",
+      "escena": "solucion",
+      "texto": "Nosotros creamos un agente de inteligencia artificial para cada una.",
+      "clave": ["agente"]
+    },
+    {
+      "id": "f4",
+      "escena": "equipo",
+      "texto": "Uno atiende a tus clientes. Otro hace seguimiento a las ventas. Otro maneja tus redes.",
+      "clave": ["clientes", "ventas", "redes"]
+    },
+    {
+      "id": "f5",
+      "escena": "legion",
+      "texto": "Trabajan juntos, día y noche, y tú solo apruebas.",
+      "clave": ["apruebas"]
+    },
+    {
+      "id": "f6",
+      "escena": "cierre",
+      "texto": "Eso es una legión de agentes, hecha a la medida de tu empresa.",
+      "clave": ["legión", "agentes"]
+    },
+    {
+      "id": "f7",
+      "escena": "cierre",
+      "subtitulos": false,
+      "texto": "Escríbenos y armamos la tuya."
+    }
+  ]
+}

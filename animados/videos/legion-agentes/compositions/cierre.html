@@ -1,0 +1,193 @@
+<template>
+  <style>
+    #root {
+      position: absolute;
+      inset: 0;
+      font-family: "Nunito", sans-serif;
+      color: #fbf7ef;
+    }
+    .ci-arte {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+    #ci-destello {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 80% 50% at 50% 30%, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+    }
+    #ci-marca {
+      position: absolute;
+      left: 60px;
+      width: 960px;
+      top: 204px;
+      text-align: center;
+      font-weight: 900;
+      letter-spacing: -0.02em;
+      text-shadow: 0 10px 36px rgba(0, 0, 0, 0.5);
+    }
+    #ci-legion {
+      display: block;
+      font-size: 200px;
+      line-height: 1;
+      color: #ffc93c;
+    }
+    #ci-agentes {
+      display: block;
+      font-size: 102px;
+      line-height: 1.1;
+    }
+    .ci-ag {
+      position: absolute;
+      top: 628px;
+      width: 170px;
+      height: 204px;
+    }
+    .ci-capa {
+      width: 100%;
+      height: 100%;
+    }
+    #ci-medida {
+      position: absolute;
+      left: 70px;
+      top: 596px;
+      width: 940px;
+      height: 272px;
+      border: 7px dashed #ffc93c;
+      border-radius: 44px;
+    }
+    #ci-empresa {
+      position: absolute;
+      left: 380px;
+      top: 560px;
+      width: 320px;
+      height: 72px;
+      border-radius: 36px;
+      background: #fbf7ef;
+      color: #0d2029;
+      font-weight: 900;
+      font-size: 40px;
+      line-height: 72px;
+      text-align: center;
+      box-shadow: 0 10px 26px rgba(0, 0, 0, 0.45);
+    }
+    #ci-linea {
+      position: absolute;
+      left: 90px;
+      width: 900px;
+      top: 912px;
+      text-align: center;
+      font-weight: 900;
+      font-size: 72px;
+      line-height: 1.1;
+      text-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+    }
+    .ci-pildora {
+      position: absolute;
+      left: 190px;
+      top: 1024px;
+      width: 700px;
+      height: 138px;
+      border-radius: 69px;
+    }
+    #ci-boton {
+      background: #ffc93c;
+      color: #2b1d02;
+      font-weight: 900;
+      font-size: 78px;
+      line-height: 138px;
+      text-align: center;
+      letter-spacing: 0.01em;
+      box-shadow:
+        0 0 0 10px #f2ae1c inset,
+        0 0 70px rgba(255, 201, 60, 0.55),
+        0 16px 40px rgba(0, 0, 0, 0.5);
+    }
+    .ci-onda {
+      box-shadow: 0 0 0 8px #ffc93c inset;
+    }
+  </style>
+
+  <div id="root" data-composition-id="cierre" data-width="1080" data-height="1920">
+    <svg width="0" height="0" style="position: absolute">
+      <defs>
+        <symbol id="ci-sim-agente" viewBox="0 0 200 240">
+          <ellipse cx="100" cy="229" rx="60" ry="9" fill="#000000" opacity="0.3" />
+          <rect x="96" y="12" width="8" height="30" rx="4" fill="#fbf7ef" />
+          <circle cx="100" cy="13" r="11" fill="currentColor" />
+          <rect x="24" y="158" width="24" height="50" rx="12" fill="currentColor" />
+          <rect x="152" y="158" width="24" height="50" rx="12" fill="currentColor" />
+          <rect x="52" y="148" width="96" height="72" rx="26" fill="currentColor" />
+          <rect x="52" y="148" width="96" height="72" rx="26" fill="#000000" opacity="0.2" />
+          <circle cx="100" cy="184" r="13" fill="#fbf7ef" />
+          <rect x="30" y="38" width="140" height="106" rx="36" fill="currentColor" />
+          <path d="M50 74 Q54 54 78 50" stroke="#ffffff" stroke-width="7" stroke-linecap="round" fill="none" opacity="0.5" />
+          <rect x="48" y="66" width="104" height="52" rx="26" fill="#0d2029" />
+          <circle cx="80" cy="92" r="11" fill="#fbf7ef" />
+          <circle cx="120" cy="92" r="11" fill="#fbf7ef" />
+        </symbol>
+      </defs>
+    </svg>
+
+    <div id="ci-destello"></div>
+
+    <div id="ci-marca">
+      <span id="ci-legion">LEGIÓN</span>
+      <span id="ci-agentes">DE AGENTES</span>
+    </div>
+
+    <div id="ci-medida"></div>
+
+    <div id="ci-ag-1" class="ci-ag" style="left: 95px; color: #6fd3ff"><div id="ci-ag-1-f" class="ci-capa"><svg class="ci-arte" viewBox="0 0 200 240"><use href="#ci-sim-agente" /></svg></div></div>
+    <div id="ci-ag-2" class="ci-ag" style="left: 275px; color: #ffc93c"><div id="ci-ag-2-f" class="ci-capa"><svg class="ci-arte" viewBox="0 0 200 240"><use href="#ci-sim-agente" /></svg></div></div>
+    <div id="ci-ag-3" class="ci-ag" style="left: 455px; color: #86e8b4"><div id="ci-ag-3-f" class="ci-capa"><svg class="ci-arte" viewBox="0 0 200 240"><use href="#ci-sim-agente" /></svg></div></div>
+    <div id="ci-ag-4" class="ci-ag" style="left: 635px; color: #ff7eb6"><div id="ci-ag-4-f" class="ci-capa"><svg class="ci-arte" viewBox="0 0 200 240"><use href="#ci-sim-agente" /></svg></div></div>
+    <div id="ci-ag-5" class="ci-ag" style="left: 815px; color: #b79bff"><div id="ci-ag-5-f" class="ci-capa"><svg class="ci-arte" viewBox="0 0 200 240"><use href="#ci-sim-agente" /></svg></div></div>
+
+    <div id="ci-empresa">TU EMPRESA</div>
+
+    <div id="ci-linea">Armamos la tuya</div>
+    <div id="ci-onda-1" class="ci-pildora ci-onda"></div>
+    <div id="ci-onda-2" class="ci-pildora ci-onda"></div>
+    <div id="ci-boton" class="ci-pildora">ESCRÍBENOS</div>
+  </div>
+
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    const r = window.__reloj("cierre");
+    const fx = window.__fx;
+
+    tl.fromTo("#ci-destello", { opacity: 0.3 }, { opacity: 0, duration: 0.28, ease: "power2.out" }, 0);
+
+    // Los agentes forman fila (vienen de la legion).
+    [1, 2, 3, 4, 5].forEach((n, i) => {
+      fx.entra(tl, "#ci-ag-" + n, 0.02 + i * 0.06, { y: 110 }, 0.32);
+      fx.flota(tl, "#ci-ag-" + n + "-f", 0.7 + i * 0.08, r.dur, 10, 0.55);
+    });
+
+    // "legion de agentes": el nombre cae de golpe.
+    const nombre = r.p("f6", 3);
+    tl.fromTo("#ci-legion", { opacity: 0, scale: 2.2 }, { opacity: 1, scale: 1, duration: 0.2, ease: "power3.in" }, nombre - 0.12);
+    fx.tiembla(tl, "#ci-marca", nombre + 0.08, 4, 10);
+    tl.fromTo("#ci-agentes", { opacity: 0, y: 50 }, { opacity: 1, y: 0, duration: 0.28, ease: "back.out(2)" }, r.p("f6", 4));
+
+    // "hecha a la medida de tu empresa": el marco se ajusta justo a la fila.
+    const medida = r.p("f6", 6);
+    tl.fromTo("#ci-medida", { opacity: 0, scaleX: 1.3, scaleY: 1.5 }, { opacity: 1, scaleX: 1, scaleY: 1, duration: Math.max(0.3, r.p("f6", 9) - medida + 0.15), ease: "power3.out" }, medida);
+    fx.entra(tl, "#ci-empresa", r.p("f6", 11), { y: -30 }, 0.3);
+
+    // "Escribenos y armamos la tuya": el boton, y despues la linea.
+    const boton = r.p("f7", 0) + 0.1;
+    fx.entra(tl, "#ci-boton", boton, { y: 90 }, 0.36);
+    fx.entra(tl, "#ci-linea", r.p("f7", 2), { y: 30 }, 0.3);
+    // El boton late hasta el final.
+    const latidos = [];
+    for (let t = boton + 0.45; t < r.dur - 0.75; t += 0.9) latidos.push(t);
+    latidos.forEach((t, i) => {
+      fx.golpe(tl, "#ci-boton", t, 1.06);
+      tl.fromTo(i % 2 ? "#ci-onda-2" : "#ci-onda-1", { opacity: 0, scaleX: 1, scaleY: 1 }, { keyframes: [{ opacity: 0.85, duration: 0.05 }, { opacity: 0, scaleX: 1.22, scaleY: 1.9, duration: 0.6, ease: "power2.out" }] }, t);
+    });
+
+    window.__timelines["cierre"] = tl;
+  </script>
+</template>

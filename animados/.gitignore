@@ -10,6 +10,7 @@ node_modules/
 videos/*/renders/
 videos/*/snapshots/
 videos/*/assets/voz/
+videos/*/assets/voz-externa/
 videos/*/assets/narracion.wav
 *.mp4
 *.webm

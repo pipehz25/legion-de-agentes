@@ -1,0 +1,299 @@
+<template>
+  <style>
+    #root {
+      position: absolute;
+      inset: 0;
+      font-family: "Nunito", sans-serif;
+      color: #fbf7ef;
+    }
+    .eq-arte {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+    #eq-destello {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 80% 50% at 50% 34%, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+    }
+    .eq-vista {
+      position: absolute;
+      inset: 0;
+    }
+    .eq-rotulo {
+      position: absolute;
+      left: 108px;
+      top: 236px;
+      height: 100px;
+      padding: 0 44px;
+      border-radius: 50px;
+      background: var(--c);
+      color: #0d2029;
+      font-weight: 900;
+      font-size: 58px;
+      line-height: 100px;
+      letter-spacing: 0.01em;
+      box-shadow: 0 12px 34px rgba(0, 0, 0, 0.45);
+    }
+    .eq-ag {
+      position: absolute;
+      left: 84px;
+      top: 500px;
+      width: 330px;
+      height: 396px;
+      color: var(--c);
+    }
+    .eq-capa {
+      width: 100%;
+      height: 100%;
+    }
+    /* Vista 1: conversacion */
+    .eq-burbuja {
+      position: absolute;
+      padding: 22px 30px;
+      border-radius: 34px;
+      font-weight: 800;
+      font-size: 40px;
+      line-height: 1.2;
+      box-shadow: 0 10px 28px rgba(0, 0, 0, 0.4);
+    }
+    #eq-b1 {
+      left: 470px;
+      top: 440px;
+      width: 420px;
+      background: #2a5a6b;
+      border-bottom-left-radius: 8px;
+    }
+    #eq-b2 {
+      left: 610px;
+      top: 600px;
+      width: 370px;
+      background: #6fd3ff;
+      color: #0d2029;
+      border-bottom-right-radius: 8px;
+    }
+    #eq-b3 {
+      left: 600px;
+      top: 850px;
+      width: 380px;
+      height: 92px;
+      padding: 0;
+      border-radius: 46px;
+      background: #86e8b4;
+      color: #0d2029;
+      font-weight: 900;
+      font-size: 46px;
+      line-height: 92px;
+      text-align: center;
+    }
+    .eq-visto {
+      flex: none;
+      width: 44px;
+      height: 44px;
+    }
+    #eq-b3,
+    #eq-publicado {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 14px;
+    }
+    /* Vista 2: ventas */
+    #eq-grafica {
+      position: absolute;
+      left: 470px;
+      top: 430px;
+      width: 520px;
+      height: 520px;
+    }
+    #eq-moneda {
+      position: absolute;
+      left: 484px;
+      top: 430px;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      background: #ffc93c;
+      box-shadow:
+        0 0 0 12px #f2ae1c inset,
+        0 12px 30px rgba(0, 0, 0, 0.45);
+      color: #3b2a05;
+      font-weight: 900;
+      font-size: 96px;
+      line-height: 150px;
+      text-align: center;
+    }
+    /* Vista 3: redes */
+    #eq-telefono {
+      position: absolute;
+      left: 560px;
+      top: 410px;
+      width: 330px;
+      height: 580px;
+    }
+    .eq-corazon {
+      position: absolute;
+      width: 84px;
+      height: 78px;
+    }
+    #eq-publicado {
+      position: absolute;
+      left: 500px;
+      top: 1000px;
+      width: 450px;
+      height: 92px;
+      border-radius: 46px;
+      background: #ff7eb6;
+      color: #0d2029;
+      font-weight: 900;
+      font-size: 46px;
+      line-height: 92px;
+      text-align: center;
+      box-shadow: 0 10px 28px rgba(0, 0, 0, 0.4);
+    }
+  </style>
+
+  <div id="root" data-composition-id="equipo" data-width="1080" data-height="1920">
+    <svg width="0" height="0" style="position: absolute">
+      <defs>
+        <symbol id="eq-sim-agente" viewBox="0 0 200 240">
+          <ellipse cx="100" cy="229" rx="60" ry="9" fill="#000000" opacity="0.3" />
+          <rect x="96" y="12" width="8" height="30" rx="4" fill="#fbf7ef" />
+          <circle cx="100" cy="13" r="11" fill="currentColor" />
+          <rect x="24" y="158" width="24" height="50" rx="12" fill="currentColor" />
+          <rect x="152" y="158" width="24" height="50" rx="12" fill="currentColor" />
+          <rect x="52" y="148" width="96" height="72" rx="26" fill="currentColor" />
+          <rect x="52" y="148" width="96" height="72" rx="26" fill="#000000" opacity="0.2" />
+          <circle cx="100" cy="184" r="13" fill="#fbf7ef" />
+          <rect x="30" y="38" width="140" height="106" rx="36" fill="currentColor" />
+          <path d="M50 74 Q54 54 78 50" stroke="#ffffff" stroke-width="7" stroke-linecap="round" fill="none" opacity="0.5" />
+          <rect x="48" y="66" width="104" height="52" rx="26" fill="#0d2029" />
+          <circle cx="80" cy="92" r="11" fill="#fbf7ef" />
+          <circle cx="120" cy="92" r="11" fill="#fbf7ef" />
+        </symbol>
+        <symbol id="eq-sim-corazon" viewBox="0 0 84 78">
+          <path d="M42 74 C10 50 2 34 2 22 C2 10 12 2 22 2 C31 2 38 7 42 14 C46 7 53 2 62 2 C72 2 82 10 82 22 C82 34 74 50 42 74Z" fill="#ff5d8f" />
+          <path d="M16 22 C16 15 20 11 26 10" stroke="#ffffff" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.6" />
+        </symbol>
+      </defs>
+    </svg>
+
+    <div id="eq-destello"></div>
+
+    <!-- 1. Atencion al cliente -->
+    <div id="eq-vista-1" class="eq-vista" style="--c: #6fd3ff">
+      <div id="eq-rotulo-1" class="eq-rotulo">ATENCIÓN</div>
+      <div id="eq-ag-1" class="eq-ag">
+        <div id="eq-ag-1-f" class="eq-capa"><svg class="eq-arte" viewBox="0 0 200 240"><use href="#eq-sim-agente" /></svg></div>
+      </div>
+      <div id="eq-b1" class="eq-burbuja">¿Tienen cupo hoy?</div>
+      <div id="eq-b2" class="eq-burbuja">¡Claro! A las 4.</div>
+      <div id="eq-b3" class="eq-burbuja"><span>Atendido</span><svg class="eq-visto" viewBox="0 0 40 40"><path d="M7 21 l9 9 l17 -19" stroke="#0d2029" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round" /></svg></div>
+    </div>
+
+    <!-- 2. Ventas -->
+    <div id="eq-vista-2" class="eq-vista" style="--c: #ffc93c">
+      <div id="eq-rotulo-2" class="eq-rotulo">VENTAS</div>
+      <div id="eq-ag-2" class="eq-ag">
+        <div id="eq-ag-2-f" class="eq-capa"><svg class="eq-arte" viewBox="0 0 200 240"><use href="#eq-sim-agente" /></svg></div>
+      </div>
+      <div id="eq-grafica">
+        <svg class="eq-arte" viewBox="0 0 520 520">
+          <rect x="20" y="486" width="480" height="12" rx="6" fill="#2a5a6b" />
+          <rect id="eq-barra-1" x="40" y="366" width="92" height="120" rx="16" fill="#8f6a12" />
+          <rect id="eq-barra-2" x="156" y="296" width="92" height="190" rx="16" fill="#c08f18" />
+          <rect id="eq-barra-3" x="272" y="216" width="92" height="270" rx="16" fill="#e5ad22" />
+          <rect id="eq-barra-4" x="388" y="126" width="92" height="360" rx="16" fill="#ffc93c" />
+          <path id="eq-flecha" d="M56 330 L196 250 L312 176 L440 70" stroke="#fbf7ef" stroke-width="12" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="470" stroke-dashoffset="470" />
+          <path id="eq-punta" d="M396 62 L452 56 L436 110" stroke="#fbf7ef" stroke-width="12" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </div>
+      <div id="eq-moneda">$</div>
+    </div>
+
+    <!-- 3. Redes -->
+    <div id="eq-vista-3" class="eq-vista" style="--c: #ff7eb6">
+      <div id="eq-rotulo-3" class="eq-rotulo">REDES</div>
+      <div id="eq-ag-3" class="eq-ag">
+        <div id="eq-ag-3-f" class="eq-capa"><svg class="eq-arte" viewBox="0 0 200 240"><use href="#eq-sim-agente" /></svg></div>
+      </div>
+      <div id="eq-telefono">
+        <svg class="eq-arte" viewBox="0 0 330 580">
+          <rect x="4" y="4" width="322" height="572" rx="48" fill="#fbf7ef" />
+          <rect x="20" y="20" width="290" height="540" rx="34" fill="#0d2029" />
+          <rect x="125" y="34" width="80" height="14" rx="7" fill="#2a5a6b" />
+          <clipPath id="eq-pantalla"><rect x="20" y="20" width="290" height="540" rx="34" /></clipPath>
+          <g clip-path="url(#eq-pantalla)">
+          <g id="eq-post">
+            <rect x="38" y="76" width="254" height="300" rx="22" fill="#ff7eb6" />
+            <circle cx="218" cy="150" r="34" fill="#ffd2e6" />
+            <path d="M38 330 L118 236 L178 300 L222 262 L292 336 V354 a22 22 0 0 1 -22 22 H60 a22 22 0 0 1 -22 -22Z" fill="#c9457f" />
+            <rect x="38" y="396" width="180" height="20" rx="10" fill="#fbf7ef" />
+            <rect x="38" y="430" width="120" height="20" rx="10" fill="#2a5a6b" />
+          </g>
+          </g>
+        </svg>
+      </div>
+      <div id="eq-corazon-1" class="eq-corazon" style="left: 880px; top: 760px"><svg class="eq-arte" viewBox="0 0 84 78"><use href="#eq-sim-corazon" /></svg></div>
+      <div id="eq-corazon-2" class="eq-corazon" style="left: 470px; top: 700px"><svg class="eq-arte" viewBox="0 0 84 78"><use href="#eq-sim-corazon" /></svg></div>
+      <div id="eq-corazon-3" class="eq-corazon" style="left: 900px; top: 560px"><svg class="eq-arte" viewBox="0 0 84 78"><use href="#eq-sim-corazon" /></svg></div>
+      <div id="eq-publicado"><span>Publicado</span><svg class="eq-visto" viewBox="0 0 40 40"><path d="M7 21 l9 9 l17 -19" stroke="#0d2029" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round" /></svg></div>
+    </div>
+  </div>
+
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    const r = window.__reloj("equipo");
+    const fx = window.__fx;
+
+    tl.fromTo("#eq-destello", { opacity: 0.3 }, { opacity: 0, duration: 0.28, ease: "power2.out" }, 0);
+
+    // Tres vistas, una por agente; cada una entra cuando la voz dice "Uno...", "Otro...", "Otro...".
+    const t1 = 0;
+    const t2 = r.p("f4", 5) - 0.08;
+    const t3 = r.p("f4", 11) - 0.08;
+    const pasa = (sale, entra, t) => {
+      tl.to(sale, { x: -1080, duration: 0.22, ease: "power3.in" }, t);
+      tl.to(sale, { opacity: 0, duration: 0.02 }, t + 0.22);
+      tl.fromTo(entra, { x: 1080 }, { x: 0, duration: 0.3, ease: "power3.out" }, t + 0.06);
+    };
+    pasa("#eq-vista-1", "#eq-vista-2", t2);
+    pasa("#eq-vista-2", "#eq-vista-3", t3);
+
+    // --- 1. "Uno atiende a tus clientes" ---
+    fx.entra(tl, "#eq-rotulo-1", t1 + 0.02, { x: -200 }, 0.3);
+    fx.entra(tl, "#eq-ag-1", t1, { y: 120 }, 0.36);
+    fx.flota(tl, "#eq-ag-1-f", t1 + 0.4, t2, 10, 0.6);
+    tl.fromTo("#eq-b1", { opacity: 0, scale: 0.4, x: -60 }, { opacity: 1, scale: 1, x: 0, duration: 0.28, ease: "back.out(2)", transformOrigin: "0% 100%" }, r.p("f4", 0) + 0.12);
+    tl.fromTo("#eq-b2", { opacity: 0, scale: 0.4, x: 60 }, { opacity: 1, scale: 1, x: 0, duration: 0.28, ease: "back.out(2)", transformOrigin: "100% 100%" }, r.p("f4", 1) + 0.02);
+    fx.entra(tl, "#eq-b3", r.p("f4", 4), { y: 40 }, 0.3);
+
+    // --- 2. "Otro hace seguimiento a las ventas" ---
+    fx.entra(tl, "#eq-rotulo-2", t2 + 0.08, { x: -200 }, 0.3);
+    fx.flota(tl, "#eq-ag-2-f", t2 + 0.3, t3, 10, 0.6);
+    ["#eq-barra-1", "#eq-barra-2", "#eq-barra-3", "#eq-barra-4"].forEach((b, i) => {
+      tl.fromTo(b, { scaleY: 0 }, { scaleY: 1, duration: 0.34, ease: "back.out(1.7)", transformOrigin: "50% 100%" }, r.p("f4", 6) + i * 0.13);
+    });
+    const sube = r.p("f4", 7) + 0.25;
+    tl.to("#eq-flecha", { strokeDashoffset: 0, duration: 0.45, ease: "power2.inOut" }, sube);
+    tl.fromTo("#eq-punta", { opacity: 0 }, { opacity: 1, duration: 0.1 }, sube + 0.4);
+    fx.entra(tl, "#eq-moneda", r.p("f4", 10), { y: 80, rotation: -40 }, 0.32);
+
+    // --- 3. "Otro maneja tus redes" ---
+    fx.entra(tl, "#eq-rotulo-3", t3 + 0.08, { x: -200 }, 0.3);
+    fx.flota(tl, "#eq-ag-3-f", t3 + 0.3, r.dur, 10, 0.5);
+    tl.fromTo("#eq-post", { opacity: 0, y: 200 }, { opacity: 1, y: 0, duration: 0.3, ease: "back.out(1.6)" }, r.p("f4", 12));
+    [
+      ["#eq-corazon-1", 0, -150, 18],
+      ["#eq-corazon-2", 0.12, -170, -16],
+      ["#eq-corazon-3", 0.24, -130, 12],
+    ].forEach(([c, d, sube, giro]) => {
+      const t = r.p("f4", 13) + d;
+      tl.fromTo(c, { opacity: 0, scale: 0, y: 0, rotation: 0 }, { opacity: 1, scale: 1, duration: 0.2, ease: "back.out(3)" }, t);
+      tl.to(c, { y: sube, rotation: giro, duration: Math.max(0.3, r.dur - t - 0.25), ease: "power1.out" }, t + 0.15);
+    });
+    fx.entra(tl, "#eq-publicado", r.p("f4", 14), { y: 40 }, 0.3);
+
+    window.__timelines["equipo"] = tl;
+  </script>
+</template>

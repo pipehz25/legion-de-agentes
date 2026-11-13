@@ -26,12 +26,14 @@ if (!carpeta || !fs.existsSync(path.join(carpeta, "guion.json"))) {
   console.error("Uso: node animados/herramientas/voz.mjs <carpeta-del-video>  (debe tener guion.json)");
   process.exit(1);
 }
-if (!fs.existsSync(PY)) {
+const guion = JSON.parse(fs.readFileSync(path.join(carpeta, "guion.json"), "utf8"));
+// "kokoro": la voz local y gratis. "externo": la voz viene ya grabada o generada en otro
+// servicio, una frase por archivo, en assets/voz-externa/<id>.wav (o .mp3).
+const MOTOR = guion.motor || "kokoro";
+if (MOTOR === "kokoro" && !fs.existsSync(PY)) {
   console.error("Falta el entorno de la voz: " + PY + "\nCrealo como dice animados/GUIA.md (seccion Instalacion).");
   process.exit(1);
 }
-
-const guion = JSON.parse(fs.readFileSync(path.join(carpeta, "guion.json"), "utf8"));
 const dirVoz = path.join(carpeta, "assets", "voz");
 fs.mkdirSync(dirVoz, { recursive: true });
 
@@ -56,12 +58,31 @@ function hablar(frase) {
   const txt = path.join(dirVoz, frase.id + ".txt");
   const crudo = path.join(dirVoz, frase.id + ".crudo.wav");
   const wav = path.join(dirVoz, frase.id + ".wav");
+  const sello = path.join(dirVoz, frase.id + ".firma");
+  const recorte =
+    "silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.03," +
+    "areverse,silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.05,areverse";
+  const yaEsta = (firma) => fs.existsSync(wav) && fs.existsSync(sello) && fs.readFileSync(sello, "utf8") === firma;
+
+  if (MOTOR === "externo") {
+    const dirExterna = path.join(carpeta, "assets", "voz-externa");
+    const fuente = ["wav", "mp3", "m4a", "ogg", "flac"]
+      .map((ext) => path.join(dirExterna, `${frase.id}.${ext}`))
+      .find((f) => fs.existsSync(f));
+    if (!fuente) throw new Error(`Falta la voz de ${frase.id}: pon ${frase.id}.wav (o .mp3) en ${dirExterna}`);
+    const datos = fs.statSync(fuente);
+    const firma = JSON.stringify({ texto: frase.texto, fuente: path.basename(fuente), peso: datos.size, fecha: datos.mtimeMs });
+    if (yaEsta(firma)) return wav;
+    correr("ffmpeg", ["-v", "error", "-y", "-i", fuente, "-af", recorte, "-ar", "48000", "-ac", "1", wav]);
+    fs.writeFileSync(sello, firma, "utf8");
+    return wav;
+  }
+
   const voz = frase.voz || guion.voz || "ef_dora";
   const vel = frase.velocidad || guion.velocidad || 1;
   // Si la frase no cambio, se reutiliza su audio (la voz tarda unos segundos por frase).
   const firma = JSON.stringify({ texto: frase.texto, voz, vel });
-  const sello = path.join(dirVoz, frase.id + ".firma");
-  if (fs.existsSync(wav) && fs.existsSync(sello) && fs.readFileSync(sello, "utf8") === firma) return wav;
+  if (yaEsta(firma)) return wav;
   fs.writeFileSync(txt, frase.texto, "utf8");
   // npx es un .cmd en Windows: hay que pasar por el shell.
   const orden = `npx --yes ${HF} tts "${txt}" -v ${voz} -l es -s ${vel} -o "${crudo}" --json`;
@@ -69,9 +90,6 @@ function hablar(frase) {
   if (r.status !== 0 || !fs.existsSync(crudo)) {
     throw new Error("No salio la voz de " + frase.id + ":\n" + (r.stdout || "") + (r.stderr || ""));
   }
-  const recorte =
-    "silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.03," +
-    "areverse,silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.05,areverse";
   correr("ffmpeg", ["-v", "error", "-y", "-i", crudo, "-af", recorte, "-ar", "48000", "-ac", "1", wav]);
   fs.rmSync(crudo, { force: true });
   fs.writeFileSync(sello, firma, "utf8");
@@ -199,6 +217,20 @@ for (let i = 1; i < partes.length; i++) {
 }
 const total = r3(frases[frases.length - 1].fin + (guion.cola ?? 0.9));
 
+// Ventana de cada escena: empieza un instante antes de su primera frase y dura hasta la
+// siguiente. Las frases de una misma escena van seguidas en el guion.
+const escenas = [];
+for (const f of frases) {
+  const ultima = escenas[escenas.length - 1];
+  if (ultima && ultima.id === f.escena) continue;
+  if (escenas.some((e) => e.id === f.escena)) {
+    throw new Error(`La escena "${f.escena}" aparece dos veces separadas en el guion; junta sus frases.`);
+  }
+  const inicio = escenas.length ? r3(f.inicio - 0.07) : 0;
+  if (ultima) ultima.fin = inicio;
+  escenas.push({ id: f.escena, inicio, fin: total });
+}
+
 // 4. Une las frases con sus silencios y nivela la voz (el video final queda cerca de -16 LUFS).
 const entradas = [];
 const filtros = [];
@@ -216,7 +248,7 @@ correr("ffmpeg", ["-v", "error", "-y", ...entradas, "-filter_complex", filtros.j
 
 fs.writeFileSync(
   path.join(carpeta, "tiempos.json"),
-  JSON.stringify({ duracion: total, audio: "assets/narracion.wav", frases }, null, 2) + "\n",
+  JSON.stringify({ duracion: total, audio: "assets/narracion.wav", escenas, frases }, null, 2) + "\n",
   "utf8",
 );
 console.log(`\nListo: ${salida}\n       duracion total ${total} s (audio real ${duracion(salida).toFixed(2)} s) -> tiempos.json`);

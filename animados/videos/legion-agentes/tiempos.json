@@ -1,0 +1,521 @@
+{
+  "duracion": 28.098,
+  "audio": "assets/narracion.wav",
+  "escenas": [
+    {
+      "id": "gancho",
+      "inicio": 0,
+      "fin": 3.046
+    },
+    {
+      "id": "problema",
+      "inicio": 3.046,
+      "fin": 7.682
+    },
+    {
+      "id": "solucion",
+      "inicio": 7.682,
+      "fin": 12.055
+    },
+    {
+      "id": "equipo",
+      "inicio": 12.055,
+      "fin": 17.147
+    },
+    {
+      "id": "legion",
+      "inicio": 17.147,
+      "fin": 20.436
+    },
+    {
+      "id": "cierre",
+      "inicio": 20.436,
+      "fin": 28.098
+    }
+  ],
+  "frases": [
+    {
+      "id": "f1",
+      "escena": "gancho",
+      "texto": "¿Y si tu empresa trabajara mientras duermes?",
+      "inicio": 0.2,
+      "fin": 2.876,
+      "palabras": [
+        {
+          "id": "w0",
+          "texto": "¿Y",
+          "inicio": 0.2,
+          "fin": 0.274
+        },
+        {
+          "id": "w1",
+          "texto": "si",
+          "inicio": 0.274,
+          "fin": 0.423
+        },
+        {
+          "id": "w2",
+          "texto": "tu",
+          "inicio": 0.423,
+          "fin": 0.572
+        },
+        {
+          "id": "w3",
+          "texto": "empresa",
+          "inicio": 0.572,
+          "fin": 1.092
+        },
+        {
+          "id": "w4",
+          "texto": "trabajara",
+          "inicio": 1.092,
+          "fin": 1.761
+        },
+        {
+          "id": "w5",
+          "texto": "mientras",
+          "inicio": 1.761,
+          "fin": 2.355
+        },
+        {
+          "id": "w6",
+          "texto": "duermes?",
+          "inicio": 2.355,
+          "fin": 2.876
+        }
+      ]
+    },
+    {
+      "id": "f2",
+      "escena": "problema",
+      "texto": "Responder mensajes, cotizar, cobrar, publicar: tareas que se comen tu día.",
+      "inicio": 3.116,
+      "fin": 7.512,
+      "palabras": [
+        {
+          "id": "w7",
+          "texto": "Responder",
+          "inicio": 3.116,
+          "fin": 3.785
+        },
+        {
+          "id": "w8",
+          "texto": "mensajes,",
+          "inicio": 3.785,
+          "fin": 4.379
+        },
+        {
+          "id": "w9",
+          "texto": "cotizar,",
+          "inicio": 4.45,
+          "fin": 4.813
+        },
+        {
+          "id": "w10",
+          "texto": "cobrar,",
+          "inicio": 4.912,
+          "fin": 5.262
+        },
+        {
+          "id": "w11",
+          "texto": "publicar:",
+          "inicio": 5.365,
+          "fin": 5.794
+        },
+        {
+          "id": "w12",
+          "texto": "tareas",
+          "inicio": 6.084,
+          "fin": 6.492
+        },
+        {
+          "id": "w13",
+          "texto": "que",
+          "inicio": 6.492,
+          "fin": 6.696
+        },
+        {
+          "id": "w14",
+          "texto": "se",
+          "inicio": 6.696,
+          "fin": 6.832
+        },
+        {
+          "id": "w15",
+          "texto": "comen",
+          "inicio": 6.832,
+          "fin": 7.172
+        },
+        {
+          "id": "w16",
+          "texto": "tu",
+          "inicio": 7.172,
+          "fin": 7.308
+        },
+        {
+          "id": "w17",
+          "texto": "día.",
+          "inicio": 7.308,
+          "fin": 7.512
+        }
+      ]
+    },
+    {
+      "id": "f3",
+      "escena": "solucion",
+      "texto": "Nosotros creamos un agente de inteligencia artificial para cada una.",
+      "inicio": 7.752,
+      "fin": 11.885,
+      "palabras": [
+        {
+          "id": "w18",
+          "texto": "Nosotros",
+          "inicio": 7.752,
+          "fin": 8.322
+        },
+        {
+          "id": "w19",
+          "texto": "creamos",
+          "inicio": 8.322,
+          "fin": 8.821
+        },
+        {
+          "id": "w20",
+          "texto": "un",
+          "inicio": 8.821,
+          "fin": 8.963
+        },
+        {
+          "id": "w21",
+          "texto": "agente",
+          "inicio": 8.963,
+          "fin": 9.391
+        },
+        {
+          "id": "w22",
+          "texto": "de",
+          "inicio": 9.391,
+          "fin": 9.533
+        },
+        {
+          "id": "w23",
+          "texto": "inteligencia",
+          "inicio": 9.533,
+          "fin": 10.388
+        },
+        {
+          "id": "w24",
+          "texto": "artificial",
+          "inicio": 10.388,
+          "fin": 11.101
+        },
+        {
+          "id": "w25",
+          "texto": "para",
+          "inicio": 11.101,
+          "fin": 11.386
+        },
+        {
+          "id": "w26",
+          "texto": "cada",
+          "inicio": 11.386,
+          "fin": 11.671
+        },
+        {
+          "id": "w27",
+          "texto": "una.",
+          "inicio": 11.671,
+          "fin": 11.885
+        }
+      ]
+    },
+    {
+      "id": "f4",
+      "escena": "equipo",
+      "texto": "Uno atiende a tus clientes. Otro hace seguimiento a las ventas. Otro maneja tus redes.",
+      "inicio": 12.125,
+      "fin": 16.977,
+      "palabras": [
+        {
+          "id": "w28",
+          "texto": "Uno",
+          "inicio": 12.125,
+          "fin": 12.331
+        },
+        {
+          "id": "w29",
+          "texto": "atiende",
+          "inicio": 12.331,
+          "fin": 12.812
+        },
+        {
+          "id": "w30",
+          "texto": "a",
+          "inicio": 12.812,
+          "fin": 12.88
+        },
+        {
+          "id": "w31",
+          "texto": "tus",
+          "inicio": 12.88,
+          "fin": 13.087
+        },
+        {
+          "id": "w32",
+          "texto": "clientes.",
+          "inicio": 13.087,
+          "fin": 13.636
+        },
+        {
+          "id": "w33",
+          "texto": "Otro",
+          "inicio": 13.903,
+          "fin": 14.135
+        },
+        {
+          "id": "w34",
+          "texto": "hace",
+          "inicio": 14.135,
+          "fin": 14.367
+        },
+        {
+          "id": "w35",
+          "texto": "seguimiento",
+          "inicio": 14.367,
+          "fin": 15.005
+        },
+        {
+          "id": "w36",
+          "texto": "a",
+          "inicio": 15.005,
+          "fin": 15.063
+        },
+        {
+          "id": "w37",
+          "texto": "las",
+          "inicio": 15.063,
+          "fin": 15.237
+        },
+        {
+          "id": "w38",
+          "texto": "ventas.",
+          "inicio": 15.237,
+          "fin": 15.585
+        },
+        {
+          "id": "w39",
+          "texto": "Otro",
+          "inicio": 15.724,
+          "fin": 16.002
+        },
+        {
+          "id": "w40",
+          "texto": "maneja",
+          "inicio": 16.002,
+          "fin": 16.42
+        },
+        {
+          "id": "w41",
+          "texto": "tus",
+          "inicio": 16.42,
+          "fin": 16.629
+        },
+        {
+          "id": "w42",
+          "texto": "redes.",
+          "inicio": 16.629,
+          "fin": 16.977
+        }
+      ]
+    },
+    {
+      "id": "f5",
+      "escena": "legion",
+      "texto": "Trabajan juntos, día y noche, y tú solo apruebas.",
+      "inicio": 17.217,
+      "fin": 20.266,
+      "palabras": [
+        {
+          "id": "w43",
+          "texto": "Trabajan",
+          "inicio": 17.217,
+          "fin": 17.813
+        },
+        {
+          "id": "w44",
+          "texto": "juntos,",
+          "inicio": 17.813,
+          "fin": 18.259
+        },
+        {
+          "id": "w45",
+          "texto": "día",
+          "inicio": 18.365,
+          "fin": 18.602
+        },
+        {
+          "id": "w46",
+          "texto": "y",
+          "inicio": 18.602,
+          "fin": 18.681
+        },
+        {
+          "id": "w47",
+          "texto": "noche,",
+          "inicio": 18.681,
+          "fin": 19.077
+        },
+        {
+          "id": "w48",
+          "texto": "y",
+          "inicio": 19.154,
+          "fin": 19.228
+        },
+        {
+          "id": "w49",
+          "texto": "tú",
+          "inicio": 19.228,
+          "fin": 19.376
+        },
+        {
+          "id": "w50",
+          "texto": "solo",
+          "inicio": 19.376,
+          "fin": 19.673
+        },
+        {
+          "id": "w51",
+          "texto": "apruebas.",
+          "inicio": 19.673,
+          "fin": 20.266
+        }
+      ]
+    },
+    {
+      "id": "f6",
+      "escena": "cierre",
+      "texto": "Eso es una legión de agentes, hecha a la medida de tu empresa.",
+      "inicio": 20.506,
+      "fin": 23.937,
+      "palabras": [
+        {
+          "id": "w52",
+          "texto": "Eso",
+          "inicio": 20.506,
+          "fin": 20.714
+        },
+        {
+          "id": "w53",
+          "texto": "es",
+          "inicio": 20.714,
+          "fin": 20.853
+        },
+        {
+          "id": "w54",
+          "texto": "una",
+          "inicio": 20.853,
+          "fin": 21.061
+        },
+        {
+          "id": "w55",
+          "texto": "legión",
+          "inicio": 21.061,
+          "fin": 21.477
+        },
+        {
+          "id": "w56",
+          "texto": "de",
+          "inicio": 21.477,
+          "fin": 21.616
+        },
+        {
+          "id": "w57",
+          "texto": "agentes,",
+          "inicio": 21.616,
+          "fin": 22.101
+        },
+        {
+          "id": "w58",
+          "texto": "hecha",
+          "inicio": 22.261,
+          "fin": 22.596
+        },
+        {
+          "id": "w59",
+          "texto": "a",
+          "inicio": 22.596,
+          "fin": 22.663
+        },
+        {
+          "id": "w60",
+          "texto": "la",
+          "inicio": 22.663,
+          "fin": 22.797
+        },
+        {
+          "id": "w61",
+          "texto": "medida",
+          "inicio": 22.797,
+          "fin": 23.2
+        },
+        {
+          "id": "w62",
+          "texto": "de",
+          "inicio": 23.2,
+          "fin": 23.334
+        },
+        {
+          "id": "w63",
+          "texto": "tu",
+          "inicio": 23.334,
+          "fin": 23.468
+        },
+        {
+          "id": "w64",
+          "texto": "empresa.",
+          "inicio": 23.468,
+          "fin": 23.937
+        }
+      ]
+    },
+    {
+      "id": "f7",
+      "escena": "cierre",
+      "texto": "Escríbenos y armamos la tuya.",
+      "inicio": 24.177,
+      "fin": 26.098,
+      "palabras": [
+        {
+          "id": "w65",
+          "texto": "Escríbenos",
+          "inicio": 24.177,
+          "fin": 24.978
+        },
+        {
+          "id": "w66",
+          "texto": "y",
+          "inicio": 24.978,
+          "fin": 25.058
+        },
+        {
+          "id": "w67",
+          "texto": "armamos",
+          "inicio": 25.058,
+          "fin": 25.618
+        },
+        {
+          "id": "w68",
+          "texto": "la",
+          "inicio": 25.618,
+          "fin": 25.778
+        },
+        {
+          "id": "w69",
+          "texto": "tuya.",
+          "inicio": 25.778,
+          "fin": 26.098
+        }
+      ]
+    }
+  ]
+}
