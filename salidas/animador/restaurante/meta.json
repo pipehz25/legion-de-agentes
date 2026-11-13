@@ -1,11 +1,11 @@
 {
   "id": "restaurante",
-  "titulo": "¿Y si tu restaurante tomara reservas mientras duermes?",
-  "duracion_s": 33.6,
-  "volumen": "I: -15.3 LUFS",
+  "titulo": "Así es un día en tu restaurante con una legión de agentes.",
+  "duracion_s": 27.5,
+  "volumen": "I: -15.2 LUFS",
   "voz": "higgsfield / Bram",
   "avisos_revision": 0,
-  "producido": "2026-11-13T03:46:16.085Z",
+  "producido": "2026-11-13T04:33:37.180Z",
   "video": "restaurante.mp4",
   "guion": "animados/videos/restaurante/guion.json"
 }

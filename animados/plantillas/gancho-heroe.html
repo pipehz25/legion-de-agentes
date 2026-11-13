@@ -1,0 +1,135 @@
+<!--
+  Gancho con dibujo propio: titulo en tres lineas y, grande, el objeto que identifica al negocio
+  (un plato, un diente, una casa...), con dos agentes que llegan a su lado. Una frase del guion.
+  Datos: lineas: ["...", "...", "..."], resalta (0, 1 o 2: la linea que va en color; por defecto 2),
+         heroe (nombre en heroes.json: plato, diente, casa, tienda, pesa, tijeras)
+-->
+<template>
+  <style>
+    #root {
+      position: absolute;
+      inset: 0;
+      font-family: "Nunito", sans-serif;
+      color: #fbf7ef;
+    }
+    .{{id}}-arte {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+    #{{id}}-titulo {
+      position: absolute;
+      left: 80px;
+      width: 920px;
+      top: 222px;
+      text-align: center;
+      font-weight: 900;
+      font-size: 94px;
+      line-height: 1.12;
+      letter-spacing: -0.02em;
+      text-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+    }
+    .{{id}}-linea {
+      display: block;
+    }
+    #{{id}}-halo {
+      position: absolute;
+      left: 250px;
+      top: 600px;
+      width: 580px;
+      height: 580px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(255, 201, 60, 0.3) 0%, rgba(255, 201, 60, 0) 68%);
+    }
+    #{{id}}-heroe {
+      position: absolute;
+      left: 310px;
+      top: 650px;
+      width: 460px;
+      height: 460px;
+    }
+    #{{id}}-heroe-f {
+      width: 100%;
+      height: 100%;
+    }
+    .{{id}}-ag {
+      position: absolute;
+      top: 860px;
+      width: 170px;
+      height: 204px;
+    }
+    .{{id}}-chispa {
+      position: absolute;
+      width: 64px;
+      height: 64px;
+    }
+  </style>
+
+  <div id="root" data-composition-id="{{id}}" data-width="1080" data-height="1920">
+    <svg width="0" height="0" style="position: absolute">
+      <defs>
+{{>simbolo-agente}}
+        <symbol id="{{id}}-sim-chispa" viewBox="0 0 56 56">
+          <path d="M28 2 C30 18 38 26 54 28 C38 30 30 38 28 54 C26 38 18 30 2 28 C18 26 26 18 28 2Z" fill="#fff3c4" />
+        </symbol>
+      </defs>
+    </svg>
+
+    <div id="{{id}}-titulo">
+      <span id="{{id}}-linea-1" class="{{id}}-linea">{{d.lineas.0}}</span>
+      <span id="{{id}}-linea-2" class="{{id}}-linea">{{d.lineas.1}}</span>
+      <span id="{{id}}-linea-3" class="{{id}}-linea">{{d.lineas.2}}</span>
+    </div>
+
+    <div id="{{id}}-halo"></div>
+    <div id="{{id}}-heroe">
+      <div id="{{id}}-heroe-f"><svg class="{{id}}-arte" viewBox="0 0 400 400">{{{d.heroe_svg}}}</svg></div>
+    </div>
+
+    <div id="{{id}}-ag-1" class="{{id}}-ag" style="left: 96px; color: #6fd3ff"><svg class="{{id}}-arte" viewBox="0 0 200 240"><use href="#{{id}}-sim-agente" /></svg></div>
+    <div id="{{id}}-ag-2" class="{{id}}-ag" style="left: 814px; color: #ff7eb6"><svg class="{{id}}-arte" viewBox="0 0 200 240"><use href="#{{id}}-sim-agente" /></svg></div>
+
+    <div id="{{id}}-chispa-1" class="{{id}}-chispa" style="left: 250px; top: 640px"><svg class="{{id}}-arte" viewBox="0 0 56 56"><use href="#{{id}}-sim-chispa" /></svg></div>
+    <div id="{{id}}-chispa-2" class="{{id}}-chispa" style="left: 780px; top: 700px"><svg class="{{id}}-arte" viewBox="0 0 56 56"><use href="#{{id}}-sim-chispa" /></svg></div>
+    <div id="{{id}}-chispa-3" class="{{id}}-chispa" style="left: 330px; top: 1080px"><svg class="{{id}}-arte" viewBox="0 0 56 56"><use href="#{{id}}-sim-chispa" /></svg></div>
+  </div>
+
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    const r = window.__reloj("{{id}}");
+    const fx = window.__fx;
+    const D = {{datos}};
+    const el = (nombre) => "#{{id}}-" + nombre;
+
+    // El titulo se ajusta a su linea mas larga; una de las tres lineas va en el color de acento.
+    const largo = Math.max(...D.lineas.map((l) => l.length));
+    document.querySelector(el("titulo")).style.fontSize = Math.min(94, Math.floor(900 / (largo * 0.5))) + "px";
+    const resaltada = el("linea-" + ((D.resalta ?? 2) + 1));
+    document.querySelector(resaltada).style.color = "#ffc93c";
+
+    // Titulo y dibujo ya estan en el cuadro 0 (es la portada); solo se asientan.
+    tl.fromTo(el("linea-1"), { y: 20 }, { y: 0, duration: 0.4, ease: "power3.out" }, 0);
+    tl.fromTo(el("linea-2"), { y: 30 }, { y: 0, duration: 0.45, ease: "power3.out" }, 0.04);
+    tl.fromTo(el("linea-3"), { y: 40 }, { y: 0, duration: 0.5, ease: "power3.out" }, 0.08);
+    tl.fromTo(el("heroe"), { y: 60, scale: 0.84, rotation: -5 }, { y: 0, scale: 1, rotation: 0, duration: 0.55, ease: "back.out(2)" }, 0);
+    tl.fromTo(el("halo"), { opacity: 0.5, scale: 0.8 }, { opacity: 1, scale: 1.08, duration: 0.7, ease: "sine.inOut", repeat: 2 * Math.max(1, Math.floor(r.dur / 1.4)) - 1, yoyo: true }, 0);
+    fx.flota(tl, el("heroe-f"), 0.6, r.dur, 12, 0.6);
+    fx.golpe(tl, el("heroe"), r.en(0, 0.34), 1.07);
+
+    // Los agentes llegan a los lados del dibujo.
+    fx.entra(tl, el("ag-1"), r.en(0, 0.5), { x: -220 }, 0.34);
+    fx.entra(tl, el("ag-2"), Math.min(r.en(0, 0.66), r.dur - 0.7), { x: 220 }, 0.34);
+    [
+      ["chispa-1", 0.44],
+      ["chispa-2", 0.62],
+      ["chispa-3", 0.8],
+    ].forEach(([c, parte]) => {
+      const t = Math.min(r.en(0, parte), r.dur - 0.6);
+      tl.fromTo(el(c), { opacity: 0, scale: 0, rotation: -40 }, { opacity: 1, scale: 1.2, rotation: 20, duration: 0.2, ease: "back.out(3)" }, t);
+      tl.to(el(c), { opacity: 0, scale: 0.3, rotation: 80, duration: 0.3, ease: "power2.in" }, t + 0.3);
+    });
+    fx.golpe(tl, resaltada, Math.min(r.en(0, 0.86), r.dur - 0.5), 1.1);
+
+    window.__timelines["{{id}}"] = tl;
+  </script>
+</template>

@@ -1,0 +1,153 @@
+<!--
+  Gancho del dolor: titulo en tres lineas y una bandeja de mensajes de clientes que se van
+  acumulando sin respuesta, con su contador en rojo. Una frase del guion.
+  Datos: lineas: ["...", "...", "..."], resalta (0, 1 o 2; por defecto 2),
+         mensajes: ["...", "...", "...", "..."] (4, de 3 palabras o menos)
+-->
+<template>
+  <style>
+    #root {
+      position: absolute;
+      inset: 0;
+      font-family: "Nunito", sans-serif;
+      color: #fbf7ef;
+    }
+    .{{id}}-arte {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+    #{{id}}-titulo {
+      position: absolute;
+      left: 80px;
+      width: 920px;
+      top: 222px;
+      text-align: center;
+      font-weight: 900;
+      font-size: 94px;
+      line-height: 1.12;
+      letter-spacing: -0.02em;
+      text-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+    }
+    .{{id}}-linea {
+      display: block;
+    }
+    .{{id}}-msj {
+      position: absolute;
+      left: 150px;
+      width: 780px;
+      height: 118px;
+      border-radius: 32px;
+      background: var(--panel);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      padding: 0 30px;
+      font-weight: 800;
+      font-size: 46px;
+      white-space: nowrap;
+    }
+    .{{id}}-cara {
+      flex: none;
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      background: var(--panel3);
+    }
+    .{{id}}-texto {
+      flex: 1;
+    }
+    .{{id}}-espera {
+      flex: none;
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      background: #ff6b5e;
+    }
+    #{{id}}-contador {
+      position: absolute;
+      left: 840px;
+      top: 572px;
+      width: 124px;
+      height: 124px;
+      border-radius: 50%;
+      background: #ff6b5e;
+      box-shadow: 0 10px 28px rgba(0, 0, 0, 0.5);
+    }
+    .{{id}}-numero {
+      position: absolute;
+      inset: 0;
+      color: #2a0c08;
+      font-weight: 900;
+      font-size: 82px;
+      line-height: 124px;
+      text-align: center;
+    }
+  </style>
+
+  <div id="root" data-composition-id="{{id}}" data-width="1080" data-height="1920">
+    <div id="{{id}}-titulo">
+      <span id="{{id}}-linea-1" class="{{id}}-linea">{{d.lineas.0}}</span>
+      <span id="{{id}}-linea-2" class="{{id}}-linea">{{d.lineas.1}}</span>
+      <span id="{{id}}-linea-3" class="{{id}}-linea">{{d.lineas.2}}</span>
+    </div>
+
+    <div id="{{id}}-msj-1" class="{{id}}-msj" style="top: 640px">
+      <span class="{{id}}-cara"><svg class="{{id}}-arte" viewBox="0 0 70 70"><circle cx="35" cy="27" r="13" fill="#fbf7ef" /><path d="M11 64a24 24 0 0 1 48 0z" fill="#fbf7ef" /></svg></span>
+      <span class="{{id}}-texto">{{d.mensajes.0}}</span><span class="{{id}}-espera"></span>
+    </div>
+    <div id="{{id}}-msj-2" class="{{id}}-msj" style="top: 776px">
+      <span class="{{id}}-cara"><svg class="{{id}}-arte" viewBox="0 0 70 70"><circle cx="35" cy="27" r="13" fill="#fbf7ef" /><path d="M11 64a24 24 0 0 1 48 0z" fill="#fbf7ef" /></svg></span>
+      <span class="{{id}}-texto">{{d.mensajes.1}}</span><span class="{{id}}-espera"></span>
+    </div>
+    <div id="{{id}}-msj-3" class="{{id}}-msj" style="top: 912px">
+      <span class="{{id}}-cara"><svg class="{{id}}-arte" viewBox="0 0 70 70"><circle cx="35" cy="27" r="13" fill="#fbf7ef" /><path d="M11 64a24 24 0 0 1 48 0z" fill="#fbf7ef" /></svg></span>
+      <span class="{{id}}-texto">{{d.mensajes.2}}</span><span class="{{id}}-espera"></span>
+    </div>
+    <div id="{{id}}-msj-4" class="{{id}}-msj" style="top: 1048px">
+      <span class="{{id}}-cara"><svg class="{{id}}-arte" viewBox="0 0 70 70"><circle cx="35" cy="27" r="13" fill="#fbf7ef" /><path d="M11 64a24 24 0 0 1 48 0z" fill="#fbf7ef" /></svg></span>
+      <span class="{{id}}-texto">{{d.mensajes.3}}</span><span class="{{id}}-espera"></span>
+    </div>
+
+    <div id="{{id}}-contador">
+      <div id="{{id}}-n1" class="{{id}}-numero">1</div>
+      <div id="{{id}}-n2" class="{{id}}-numero">2</div>
+      <div id="{{id}}-n3" class="{{id}}-numero">3</div>
+      <div id="{{id}}-n4" class="{{id}}-numero">4</div>
+    </div>
+  </div>
+
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    const r = window.__reloj("{{id}}");
+    const fx = window.__fx;
+    const D = {{datos}};
+    const el = (nombre) => "#{{id}}-" + nombre;
+
+    const largo = Math.max(...D.lineas.map((l) => l.length));
+    document.querySelector(el("titulo")).style.fontSize = Math.min(94, Math.floor(900 / (largo * 0.5))) + "px";
+    const resaltada = el("linea-" + ((D.resalta ?? 2) + 1));
+    document.querySelector(resaltada).style.color = "#ffc93c";
+
+    // Titulo, primer mensaje y contador ya estan en el cuadro 0 (es la portada).
+    tl.fromTo(el("linea-1"), { y: 20 }, { y: 0, duration: 0.4, ease: "power3.out" }, 0);
+    tl.fromTo(el("linea-2"), { y: 30 }, { y: 0, duration: 0.45, ease: "power3.out" }, 0.04);
+    tl.fromTo(el("linea-3"), { y: 40 }, { y: 0, duration: 0.5, ease: "power3.out" }, 0.08);
+    tl.fromTo(el("msj-1"), { x: -40, scale: 0.94 }, { x: 0, scale: 1, duration: 0.4, ease: "back.out(2)" }, 0);
+    tl.fromTo(el("contador"), { scale: 0.7 }, { scale: 1, duration: 0.4, ease: "back.out(3)" }, 0);
+
+    // Llegan mas mensajes y nadie responde: el contador sube con cada uno.
+    [2, 3, 4].forEach((n, i) => {
+      const t = Math.min(r.en(0, 0.22 + i * 0.22), r.dur - 0.9 + i * 0.1);
+      fx.entra(tl, el("msj-" + n), t, { x: i % 2 ? -300 : 300 }, 0.3);
+      tl.fromTo(el("n" + n), { opacity: 0 }, { opacity: 1, duration: 0.06 }, t + 0.16);
+      tl.to(el("n" + (n - 1)), { opacity: 0, duration: 0.06 }, t + 0.16);
+      fx.golpe(tl, el("contador"), t + 0.16, 1.25);
+    });
+    fx.tiembla(tl, el("contador"), Math.min(r.en(0, 0.9), r.dur - 0.4), 5, 8);
+    fx.golpe(tl, resaltada, Math.min(r.en(0, 0.88), r.dur - 0.5), 1.1);
+
+    window.__timelines["{{id}}"] = tl;
+  </script>
+</template>

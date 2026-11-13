@@ -1,11 +1,11 @@
 {
   "id": "inmobiliaria",
-  "titulo": "¿Y si tu inmobiliaria atendiera clientes mientras duermes?",
-  "duracion_s": 35.3,
-  "volumen": "I: -15.4 LUFS",
+  "titulo": "¿Cuántos clientes se van porque nadie les respondió a tiempo?",
+  "duracion_s": 27.2,
+  "volumen": "I: -15.3 LUFS",
   "voz": "higgsfield / Bram",
   "avisos_revision": 0,
-  "producido": "2026-11-13T03:58:22.049Z",
+  "producido": "2026-11-13T04:35:33.046Z",
   "video": "inmobiliaria.mp4",
   "guion": "animados/videos/inmobiliaria/guion.json"
 }

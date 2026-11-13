@@ -69,6 +69,7 @@ const sonido = (s) =>
     .toLowerCase()
     .replace(/[^a-z0-9 ]/g, " ")
     .replace(/h/g, "")
+    .replace(/g([ei])/g, "j$1")
     .replace(/v/g, "b")
     .replace(/z/g, "s")
     .replace(/ll/g, "y")
@@ -91,6 +92,20 @@ function difiere(audio, texto) {
     for (let j = 1; j <= b.length; j++) d[i][j] = Math.min(d[i - 1][j] + 1, d[i][j - 1] + 1, d[i - 1][j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
   }
   return d[a.length][b.length];
+}
+
+// Pronunciacion: como se le escribe cada palabra a la voz de pago (animados/pronunciacion.json).
+const archivoPronunciacion = path.join(ANIMADOS, "pronunciacion.json");
+const reglasDeVoz = fs.existsSync(archivoPronunciacion) ? JSON.parse(fs.readFileSync(archivoPronunciacion, "utf8")).reglas || [] : [];
+function paraLaVoz(texto) {
+  let salida = texto;
+  for (const regla of reglasDeVoz) {
+    salida = salida.replace(new RegExp(regla.busca, "gi"), (hallado) => {
+      const mayuscula = hallado[0] !== hallado[0].toLowerCase();
+      return mayuscula ? regla.pon[0].toUpperCase() + regla.pon.slice(1) : regla.pon;
+    });
+  }
+  return salida;
 }
 
 // CLI de Higgsfield (npm i -g @higgsfield/cli; higgsfield auth login). Se llama a su
@@ -153,7 +168,10 @@ function hablar(frase) {
     const voz = vozDeHiggsfield(frase.voz || guion.voz);
     const variante = guion.variante || "elevenlabs";
     // Cada frase cuesta creditos: solo se vuelve a generar si cambio el texto o la voz.
-    const firma = JSON.stringify({ texto: frase.texto, motor: MOTOR, voz: voz.id, variante });
+    const dicho = paraLaVoz(frase.texto);
+    const sellado = { texto: frase.texto, motor: MOTOR, voz: voz.id, variante };
+    if (dicho !== frase.texto) sellado.dicho = dicho;
+    const firma = JSON.stringify(sellado);
     if (yaEsta(firma)) return wav;
     // Las frases que se repiten entre videos (las de la marca) se generan una sola vez:
     // quedan guardadas en animados/.voz-cache/ por texto y voz.
@@ -167,7 +185,7 @@ function hablar(frase) {
       for (let intento = 1; intento <= 3; intento++) {
         const salida = higgsfield([
           "generate", "create", "text2speech_v2",
-          "--prompt", frase.texto,
+          "--prompt", dicho,
           "--variant", variante,
           "--voice_id", voz.id,
           "--voice_type", voz.tipo,

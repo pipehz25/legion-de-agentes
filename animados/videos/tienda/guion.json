@@ -1,11 +1,16 @@
 {
   "titulo": "¿Y si tu tienda vendiera mientras duermes?",
+  "formato": "mientras duermes",
   "motor": "higgsfield",
   "variante": "elevenlabs",
   "voz": "Bram",
   "inicio": 0.2,
   "pausa": 0.24,
   "cola": 2,
+  "estilo": {
+    "fondo": "#1a0f33",
+    "brillo": "#4a2f8a"
+  },
   "publicacion": {
     "texto": "Tu tienda puede responder dudas, organizar pedidos y hacer seguimiento a las ventas mientras tú descansas. Armamos una legión de agentes de inteligencia artificial a la medida de tu tienda. Escríbenos y te contamos cómo.",
     "hashtags": [
@@ -23,28 +28,28 @@
     "boton": "ESCRÍBENOS",
     "tareas": [
       {
-        "texto": "Responder",
+        "texto": "Mensajes",
         "icono": "mensaje",
         "color": "#6fd3ff",
-        "palabra": "responder"
+        "palabra": "mensajes"
       },
       {
-        "texto": "Despachar",
+        "texto": "Envíos",
         "icono": "caja",
         "color": "#ffc93c",
-        "palabra": "despachar"
+        "palabra": "envíos"
       },
       {
-        "texto": "Cobrar",
+        "texto": "Cobros",
         "icono": "moneda",
         "color": "#86e8b4",
-        "palabra": "cobrar"
+        "palabra": "cobros"
       },
       {
-        "texto": "Publicar",
+        "texto": "Anuncios",
         "icono": "flecha",
         "color": "#ff7eb6",
-        "palabra": "publicar"
+        "palabra": "anuncios"
       }
     ]
   },
@@ -71,8 +76,8 @@
     "agente1": {
       "plantilla": "agente-chat",
       "datos": {
-        "color": "#6fd3ff",
         "rotulo": "ATENCIÓN",
+        "color": "#6fd3ff",
         "estado": "Atendido",
         "mensajes": [
           {
@@ -89,8 +94,8 @@
     "agente2": {
       "plantilla": "agente-pedidos",
       "datos": {
-        "color": "#ffc93c",
         "rotulo": "PEDIDOS",
+        "color": "#ffc93c",
         "estado": "Listo para envío",
         "items": [
           "Pedido 101",
@@ -102,8 +107,8 @@
     "agente3": {
       "plantilla": "agente-ventas",
       "datos": {
-        "color": "#ff7eb6",
         "rotulo": "VENTAS",
+        "color": "#ff7eb6",
         "estado": "Seguimiento al día"
       }
     },
@@ -118,13 +123,13 @@
     {
       "id": "f1",
       "escena": "gancho",
-      "subtitulos": false,
-      "texto": "¿Y si tu tienda vendiera mientras duermes?"
+      "texto": "¿Y si tu tienda vendiera mientras duermes?",
+      "subtitulos": false
     },
     {
       "id": "f2",
       "escena": "problema",
-      "texto": "Responder, despachar, cobrar, publicar: tareas que se comen tu día.",
+      "texto": "Mensajes, envíos, cobros, anuncios: tareas que se comen tu día.",
       "clave": [
         "tareas",
         "día"
@@ -185,8 +190,8 @@
     {
       "id": "f9",
       "escena": "cierre",
-      "subtitulos": false,
-      "texto": "Escríbenos y armamos la tuya."
+      "texto": "Escríbenos y armamos la tuya.",
+      "subtitulos": false
     }
   ]
 }

@@ -1,13 +1,18 @@
 {
-  "titulo": "¿Y si tu consultorio agendara citas mientras duermes?",
+  "titulo": "Tu consultorio, antes y después de tener agentes.",
+  "formato": "antes y despues",
   "motor": "higgsfield",
   "variante": "elevenlabs",
   "voz": "Bram",
   "inicio": 0.2,
   "pausa": 0.24,
   "cola": 2,
+  "estilo": {
+    "fondo": "#0b1830",
+    "brillo": "#1f4a8a"
+  },
   "publicacion": {
-    "texto": "Tu consultorio puede agendar citas, recordarlas y registrar los pagos mientras tú atiendes a tus pacientes. Armamos una legión de agentes de inteligencia artificial a la medida de tu consultorio. Escríbenos y te contamos cómo.",
+    "texto": "Antes: llamadas perdidas, citas olvidadas y cobros atrasados. Después: todo atendido, confirmado y al día. Armamos una legión de agentes de inteligencia artificial a la medida de tu consultorio. Escríbenos y te contamos cómo.",
     "hashtags": [
       "consultorio",
       "odontologia",
@@ -20,67 +25,49 @@
   "datos": {
     "letrero": "TU CONSULTORIO",
     "linea": "Armamos la tuya",
-    "boton": "ESCRÍBENOS",
-    "tareas": [
-      {
-        "texto": "Agendar",
-        "icono": "calendario",
-        "color": "#6fd3ff",
-        "palabra": "agendar"
-      },
-      {
-        "texto": "Confirmar",
-        "icono": "visto",
-        "color": "#ffc93c",
-        "palabra": "confirmar"
-      },
-      {
-        "texto": "Cobrar",
-        "icono": "moneda",
-        "color": "#86e8b4",
-        "palabra": "cobrar"
-      },
-      {
-        "texto": "Recordar",
-        "icono": "campana",
-        "color": "#ff7eb6",
-        "palabra": "recordar"
-      }
-    ]
+    "boton": "ESCRÍBENOS"
   },
   "escenas": {
     "gancho": {
-      "plantilla": "gancho-edificio",
+      "plantilla": "gancho-heroe",
       "datos": {
         "lineas": [
-          "¿Y si tu consultorio",
-          "agendara citas",
-          "mientras duermes?"
+          "Tu consultorio,",
+          "antes y después",
+          "de los agentes"
+        ],
+        "resalta": 1,
+        "heroe": "diente"
+      }
+    },
+    "cambio": {
+      "plantilla": "antes-despues",
+      "datos": {
+        "antes": [
+          "Llamadas perdidas",
+          "Citas olvidadas",
+          "Cobros atrasados"
+        ],
+        "despues": [
+          "Todo atendido",
+          "Citas confirmadas",
+          "Cobros al día"
         ]
       }
-    },
-    "problema": {
-      "plantilla": "tareas-reloj",
-      "datos": {
-        "come": "comen"
-      }
-    },
-    "solucion": {
-      "plantilla": "nacen-agentes"
     },
     "agente1": {
       "plantilla": "agente-agenda",
       "datos": {
-        "color": "#6fd3ff",
         "rotulo": "AGENDA",
+        "color": "#6fd3ff",
         "estado": "Cita agendada"
       }
     },
     "agente2": {
       "plantilla": "agente-chat",
       "datos": {
-        "color": "#ffc93c",
         "rotulo": "RECORDATORIOS",
+        "color": "#ffc93c",
         "estado": "Confirmada",
         "mensajes": [
           {
@@ -97,14 +84,11 @@
     "agente3": {
       "plantilla": "agente-cobros",
       "datos": {
-        "color": "#ff7eb6",
         "rotulo": "COBROS",
+        "color": "#ff7eb6",
         "estado": "Pago registrado",
         "sello": "PAGADO"
       }
-    },
-    "legion": {
-      "plantilla": "legion-aprueba"
     },
     "cierre": {
       "plantilla": "cierre-marca"
@@ -114,30 +98,26 @@
     {
       "id": "f1",
       "escena": "gancho",
-      "subtitulos": false,
-      "texto": "¿Y si tu consultorio agendara citas mientras duermes?"
+      "texto": "Tu consultorio, antes y después de tener agentes.",
+      "subtitulos": false
     },
     {
       "id": "f2",
-      "escena": "problema",
-      "texto": "Agendar, confirmar, cobrar, recordar: tareas que se comen tu día.",
-      "clave": [
-        "tareas",
-        "día"
-      ]
+      "escena": "cambio",
+      "texto": "Antes: llamadas perdidas, citas olvidadas y cobros atrasados.",
+      "subtitulos": false
     },
     {
       "id": "f3",
-      "escena": "solucion",
-      "texto": "Nosotros creamos un agente de inteligencia artificial para cada una.",
-      "clave": [
-        "agente"
-      ]
+      "escena": "cambio",
+      "texto": "Después: todo atendido, confirmado y al día.",
+      "subtitulos": false,
+      "pausa_despues": 0.6
     },
     {
       "id": "f4",
       "escena": "agente1",
-      "texto": "Uno agenda las citas a cualquier hora.",
+      "texto": "Un agente agenda las citas a cualquier hora.",
       "clave": [
         "citas"
       ],
@@ -163,14 +143,6 @@
     },
     {
       "id": "f7",
-      "escena": "legion",
-      "texto": "Trabajan juntos, día y noche, y tú solo apruebas.",
-      "clave": [
-        "apruebas"
-      ]
-    },
-    {
-      "id": "f8",
       "escena": "cierre",
       "texto": "Eso es una legión de agentes, hecha a la medida de tu consultorio.",
       "clave": [
@@ -179,10 +151,10 @@
       ]
     },
     {
-      "id": "f9",
+      "id": "f8",
       "escena": "cierre",
-      "subtitulos": false,
-      "texto": "Escríbenos y armamos la tuya."
+      "texto": "Escríbenos y armamos la tuya.",
+      "subtitulos": false
     }
   ]
 }

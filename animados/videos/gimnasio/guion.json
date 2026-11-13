@@ -1,13 +1,18 @@
 {
-  "titulo": "¿Y si tu gimnasio inscribiera socios mientras duermes?",
+  "titulo": "Tres agentes que todo gimnasio necesita.",
+  "formato": "tres agentes",
   "motor": "higgsfield",
   "variante": "elevenlabs",
   "voz": "Bram",
   "inicio": 0.2,
   "pausa": 0.24,
   "cola": 2,
+  "estilo": {
+    "fondo": "#291407",
+    "brillo": "#8a4514"
+  },
   "publicacion": {
-    "texto": "Tu gimnasio puede inscribir socios, cobrar mensualidades y agendar clases mientras tú entrenas a tu gente. Armamos una legión de agentes de inteligencia artificial a la medida de tu gimnasio. Escríbenos y te contamos cómo.",
+    "texto": "Tres agentes que todo gimnasio necesita: uno inscribe a los nuevos, otro cobra las mensualidades y otro agenda las clases. Armamos una legión de agentes de inteligencia artificial a la medida de tu gimnasio. Escríbenos y te contamos cómo.",
     "hashtags": [
       "gimnasio",
       "fitness",
@@ -20,59 +25,26 @@
   "datos": {
     "letrero": "TU GIMNASIO",
     "linea": "Armamos la tuya",
-    "boton": "ESCRÍBENOS",
-    "tareas": [
-      {
-        "texto": "Inscribir",
-        "icono": "persona",
-        "color": "#6fd3ff",
-        "palabra": "inscribir"
-      },
-      {
-        "texto": "Cobrar",
-        "icono": "moneda",
-        "color": "#ffc93c",
-        "palabra": "cobrar"
-      },
-      {
-        "texto": "Clases",
-        "icono": "calendario",
-        "color": "#86e8b4",
-        "palabra": "clases"
-      },
-      {
-        "texto": "Publicar",
-        "icono": "flecha",
-        "color": "#ff7eb6",
-        "palabra": "publicar"
-      }
-    ]
+    "boton": "ESCRÍBENOS"
   },
   "escenas": {
     "gancho": {
-      "plantilla": "gancho-edificio",
+      "plantilla": "gancho-heroe",
       "datos": {
         "lineas": [
-          "¿Y si tu gimnasio",
-          "inscribiera socios",
-          "mientras duermes?"
-        ]
+          "3 agentes",
+          "que tu gimnasio",
+          "necesita"
+        ],
+        "resalta": 0,
+        "heroe": "pesa"
       }
-    },
-    "problema": {
-      "plantilla": "tareas-reloj",
-      "datos": {
-        "come": "comen"
-      }
-    },
-    "solucion": {
-      "plantilla": "nacen-agentes"
     },
     "agente1": {
       "plantilla": "agente-chat",
       "datos": {
-        "color": "#6fd3ff",
         "rotulo": "INSCRIPCIONES",
+        "color": "#6fd3ff",
         "estado": "Inscrito",
         "mensajes": [
           {
@@ -83,24 +55,27 @@
             "de": "agente",
             "texto": "Te inscribo ya."
           }
-        ]
+        ],
+        "insignia": "1 de 3"
       }
     },
     "agente2": {
       "plantilla": "agente-cobros",
       "datos": {
-        "color": "#ffc93c",
         "rotulo": "COBROS",
+        "color": "#ffc93c",
         "estado": "Mes al día",
-        "sello": "PAGADO"
+        "sello": "PAGADO",
+        "insignia": "2 de 3"
       }
     },
     "agente3": {
       "plantilla": "agente-agenda",
       "datos": {
-        "color": "#ff7eb6",
         "rotulo": "CLASES",
-        "estado": "Clase reservada"
+        "color": "#ff7eb6",
+        "estado": "Clase reservada",
+        "insignia": "3 de 3"
       }
     },
     "legion": {
@@ -114,55 +89,38 @@
     {
       "id": "f1",
       "escena": "gancho",
-      "subtitulos": false,
-      "texto": "¿Y si tu gimnasio inscribiera socios mientras duermes?"
+      "texto": "Tres agentes que todo gimnasio necesita.",
+      "subtitulos": false
     },
     {
       "id": "f2",
-      "escena": "problema",
-      "texto": "Inscribir, cobrar, agendar clases, publicar: tareas que se comen tu día.",
-      "clave": [
-        "tareas",
-        "día"
-      ]
-    },
-    {
-      "id": "f3",
-      "escena": "solucion",
-      "texto": "Nosotros creamos un agente de inteligencia artificial para cada una.",
-      "clave": [
-        "agente"
-      ]
-    },
-    {
-      "id": "f4",
       "escena": "agente1",
-      "texto": "Uno atiende e inscribe a los nuevos.",
+      "texto": "El primero atiende e inscribe a los nuevos.",
       "clave": [
         "inscribe"
       ],
       "pausa_despues": 0.5
     },
     {
-      "id": "f5",
+      "id": "f3",
       "escena": "agente2",
-      "texto": "Otro cobra las mensualidades.",
+      "texto": "El segundo cobra las mensualidades.",
       "clave": [
         "mensualidades"
       ],
       "pausa_despues": 0.5
     },
     {
-      "id": "f6",
+      "id": "f4",
       "escena": "agente3",
-      "texto": "Otro agenda las clases.",
+      "texto": "El tercero agenda las clases.",
       "clave": [
         "clases"
       ],
       "pausa_despues": 0.5
     },
     {
-      "id": "f7",
+      "id": "f5",
       "escena": "legion",
       "texto": "Trabajan juntos, día y noche, y tú solo apruebas.",
       "clave": [
@@ -170,7 +128,7 @@
       ]
     },
     {
-      "id": "f8",
+      "id": "f6",
       "escena": "cierre",
       "texto": "Eso es una legión de agentes, hecha a la medida de tu gimnasio.",
       "clave": [
@@ -179,10 +137,10 @@
       ]
     },
     {
-      "id": "f9",
+      "id": "f7",
       "escena": "cierre",
-      "subtitulos": false,
-      "texto": "Escríbenos y armamos la tuya."
+      "texto": "Escríbenos y armamos la tuya.",
+      "subtitulos": false
     }
   ]
 }

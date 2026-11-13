@@ -55,7 +55,28 @@ const escapa = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").rep
 // ---------- Escenas de plantilla ----------
 const dirEscenas = path.join(carpeta, "compositions");
 fs.mkdirSync(dirEscenas, { recursive: true });
-const iconos = fs.existsSync(path.join(PLANTILLAS, "iconos.json")) ? JSON.parse(fs.readFileSync(path.join(PLANTILLAS, "iconos.json"), "utf8")) : {};
+const leeJson = (nombre) => (fs.existsSync(path.join(PLANTILLAS, nombre)) ? JSON.parse(fs.readFileSync(path.join(PLANTILLAS, nombre), "utf8")) : {});
+const iconos = leeJson("iconos.json");
+const heroes = leeJson("heroes.json"); // dibujos principales por tipo de negocio
+
+// Paleta del video: "estilo": { "fondo": "#0d2029", "brillo": "#1f4a58" } en el guion.
+// De esos dos colores salen los tonos de paneles y tarjetas, para que todo combine.
+const hex = (c) => [1, 3, 5].map((i) => parseInt(String(c).slice(i, i + 2), 16));
+const aHex = (rgb) => "#" + rgb.map((n) => Math.round(Math.max(0, Math.min(255, n))).toString(16).padStart(2, "0")).join("");
+const mezcla = (a, b, parte) => aHex(hex(a).map((n, i) => n + (hex(b)[i] - n) * parte));
+const estilo = { fondo: "#0d2029", brillo: "#1f4a58", ...(guion.estilo || {}) };
+for (const clave of ["fondo", "brillo"]) {
+  if (!/^#[0-9a-fA-F]{6}$/.test(estilo[clave])) throw new Error(`estilo.${clave} debe ser un color como #0d2029 (llego "${estilo[clave]}").`);
+}
+const paleta = {
+  fondo: estilo.fondo,
+  brillo: estilo.brillo,
+  brilloFin: `rgba(${hex(estilo.brillo).join(", ")}, 0)`,
+  panel: mezcla(estilo.fondo, estilo.brillo, 0.4),
+  panelB: mezcla(estilo.fondo, estilo.brillo, 0.9),
+  panel2: mezcla(estilo.brillo, "#ffffff", 0.07),
+  panel3: mezcla(estilo.brillo, "#ffffff", 0.14),
+};
 
 function conIconos(valor) {
   if (Array.isArray(valor)) return valor.map(conIconos);
@@ -64,6 +85,10 @@ function conIconos(valor) {
     if (typeof copia.icono === "string") {
       if (!iconos[copia.icono]) throw new Error(`No existe el icono "${copia.icono}". Los que hay: ${Object.keys(iconos).join(", ")}`);
       copia.icono_svg = iconos[copia.icono];
+    }
+    if (typeof copia.heroe === "string") {
+      if (!heroes[copia.heroe]) throw new Error(`No existe el dibujo "${copia.heroe}". Los que hay: ${Object.keys(heroes).join(", ")}`);
+      copia.heroe_svg = heroes[copia.heroe];
     }
     return copia;
   }
@@ -92,6 +117,8 @@ function expande(nombre, id, datos) {
     return v ?? "";
   };
   texto = texto
+    // {{d.ruta|respaldo}}: dato opcional; si falta, queda el respaldo (puede ser vacio).
+    .replace(/\{\{d\.([\w.]+)\|([^}]*)\}\}/g, (_, ruta, respaldo) => escapa(busca(datos, ruta) ?? respaldo))
     .replace(/\{\{\{d\.([\w.]+)\}\}\}/g, (_, ruta) => String(dato(ruta)))
     .replace(/\{\{d\.([\w.]+)\}\}/g, (_, ruta) => escapa(dato(ruta)))
     .replace(/\{\{datos\}\}/g, () => JSON.stringify(datos).replace(/</g, "\\u003c"))
@@ -242,7 +269,12 @@ const html = `<!doctype html>
     </script>
     <style>
       :root {
-        --fondo: #0d2029;
+        --fondo: ${paleta.fondo};
+        --brillo: ${paleta.brillo};
+        --panel: ${paleta.panel};
+        --panel-b: ${paleta.panelB};
+        --panel2: ${paleta.panel2};
+        --panel3: ${paleta.panel3};
         --tinta: #fbf7ef;
         --acento: #ffc93c;
       }
@@ -271,9 +303,9 @@ const html = `<!doctype html>
         position: absolute;
         inset: 0;
         background:
-          radial-gradient(ellipse 70% 42% at 50% 40%, #1f4a58 0%, rgba(31, 74, 88, 0) 100%),
-          radial-gradient(ellipse 90% 30% at 50% 100%, #07141a 0%, rgba(7, 20, 26, 0) 100%),
-          #0d2029;
+          radial-gradient(ellipse 70% 42% at 50% 40%, ${paleta.brillo} 0%, ${paleta.brilloFin} 100%),
+          radial-gradient(ellipse 90% 30% at 50% 100%, rgba(0, 0, 0, 0.42) 0%, rgba(0, 0, 0, 0) 100%),
+          ${paleta.fondo};
       }
     </style>
   </head>

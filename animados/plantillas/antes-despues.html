@@ -1,0 +1,161 @@
+<!--
+  Antes y despues: tres problemas tachados y, al cambiar de frase, tres cosas resueltas con un
+  agente al lado. Dos frases del guion: la del "antes" y la del "despues".
+  Datos: antes: ["...", "...", "..."], despues: ["...", "...", "..."] (3 palabras o menos cada uno)
+-->
+<template>
+  <style>
+    #root {
+      position: absolute;
+      inset: 0;
+      font-family: "Nunito", sans-serif;
+      color: #fbf7ef;
+    }
+    .{{id}}-arte {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+    #{{id}}-destello {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 80% 50% at 50% 34%, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+    }
+    .{{id}}-lado {
+      position: absolute;
+      inset: 0;
+    }
+    .{{id}}-rotulo {
+      position: absolute;
+      left: 108px;
+      top: 236px;
+      height: 104px;
+      padding: 0 48px;
+      border-radius: 52px;
+      color: #0d2029;
+      font-weight: 900;
+      font-size: 62px;
+      line-height: 104px;
+      letter-spacing: 0.02em;
+      box-shadow: 0 12px 34px rgba(0, 0, 0, 0.45);
+    }
+    #{{id}}-rotulo-antes {
+      background: #ff6b5e;
+    }
+    #{{id}}-rotulo-despues {
+      background: #86e8b4;
+    }
+    .{{id}}-fila {
+      position: absolute;
+      left: 108px;
+      width: 864px;
+      height: 146px;
+      border-radius: 36px;
+      background: var(--panel);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+      display: flex;
+      align-items: center;
+      gap: 28px;
+      padding: 0 34px;
+      font-weight: 900;
+      font-size: 54px;
+      white-space: nowrap;
+    }
+    .{{id}}-marca {
+      flex: none;
+      width: 88px;
+      height: 88px;
+      border-radius: 50%;
+    }
+    .{{id}}-mal {
+      background: #ff6b5e;
+    }
+    .{{id}}-bien {
+      background: #86e8b4;
+    }
+    .{{id}}-apagada {
+      color: #b9c4c8;
+    }
+    #{{id}}-ag {
+      position: absolute;
+      left: 455px;
+      top: 912px;
+      width: 170px;
+      height: 204px;
+      color: #86e8b4;
+    }
+  </style>
+
+  <div id="root" data-composition-id="{{id}}" data-width="1080" data-height="1920">
+    <svg width="0" height="0" style="position: absolute">
+      <defs>
+{{>simbolo-agente}}
+        <symbol id="{{id}}-sim-equis" viewBox="0 0 88 88">
+          <path d="M28 28 L60 60 M60 28 L28 60" stroke="#0d2029" stroke-width="11" fill="none" stroke-linecap="round" />
+        </symbol>
+        <symbol id="{{id}}-sim-visto" viewBox="0 0 88 88">
+          <path d="M24 46 L38 60 L64 30" stroke="#0d2029" stroke-width="11" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+        </symbol>
+      </defs>
+    </svg>
+
+    <div id="{{id}}-destello"></div>
+
+    <div id="{{id}}-antes" class="{{id}}-lado">
+      <div id="{{id}}-rotulo-antes" class="{{id}}-rotulo">ANTES</div>
+      <div id="{{id}}-a1" class="{{id}}-fila {{id}}-apagada" style="top: 410px">
+        <span class="{{id}}-marca {{id}}-mal"><svg class="{{id}}-arte" viewBox="0 0 88 88"><use href="#{{id}}-sim-equis" /></svg></span><span>{{d.antes.0}}</span>
+      </div>
+      <div id="{{id}}-a2" class="{{id}}-fila {{id}}-apagada" style="top: 586px">
+        <span class="{{id}}-marca {{id}}-mal"><svg class="{{id}}-arte" viewBox="0 0 88 88"><use href="#{{id}}-sim-equis" /></svg></span><span>{{d.antes.1}}</span>
+      </div>
+      <div id="{{id}}-a3" class="{{id}}-fila {{id}}-apagada" style="top: 762px">
+        <span class="{{id}}-marca {{id}}-mal"><svg class="{{id}}-arte" viewBox="0 0 88 88"><use href="#{{id}}-sim-equis" /></svg></span><span>{{d.antes.2}}</span>
+      </div>
+    </div>
+
+    <div id="{{id}}-despues" class="{{id}}-lado">
+      <div id="{{id}}-rotulo-despues" class="{{id}}-rotulo">DESPUÉS</div>
+      <div id="{{id}}-d1" class="{{id}}-fila" style="top: 410px">
+        <span class="{{id}}-marca {{id}}-bien"><svg class="{{id}}-arte" viewBox="0 0 88 88"><use href="#{{id}}-sim-visto" /></svg></span><span>{{d.despues.0}}</span>
+      </div>
+      <div id="{{id}}-d2" class="{{id}}-fila" style="top: 586px">
+        <span class="{{id}}-marca {{id}}-bien"><svg class="{{id}}-arte" viewBox="0 0 88 88"><use href="#{{id}}-sim-visto" /></svg></span><span>{{d.despues.1}}</span>
+      </div>
+      <div id="{{id}}-d3" class="{{id}}-fila" style="top: 762px">
+        <span class="{{id}}-marca {{id}}-bien"><svg class="{{id}}-arte" viewBox="0 0 88 88"><use href="#{{id}}-sim-visto" /></svg></span><span>{{d.despues.2}}</span>
+      </div>
+      <div id="{{id}}-ag"><svg class="{{id}}-arte" viewBox="0 0 200 240"><use href="#{{id}}-sim-agente" /></svg></div>
+    </div>
+  </div>
+
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    const r = window.__reloj("{{id}}");
+    const fx = window.__fx;
+    const el = (nombre) => "#{{id}}-" + nombre;
+
+    tl.fromTo(el("destello"), { opacity: 0.3 }, { opacity: 0, duration: 0.28, ease: "power2.out" }, 0);
+
+    // ANTES: los tres problemas caen temprano, para que alcancen a leerse.
+    fx.entra(tl, el("rotulo-antes"), 0.02, { x: -200 }, 0.3);
+    ["a1", "a2", "a3"].forEach((fila, i) => {
+      const t = r.en(0, 0.1 + i * 0.26);
+      fx.entra(tl, el(fila), t, { x: i % 2 ? 260 : -260 }, 0.3);
+      fx.tiembla(tl, el(fila), t + 0.34, 3, 7);
+    });
+
+    // DESPUES: todo el lado cambia cuando empieza la segunda frase.
+    const cambio = r.ini(1) - 0.12;
+    tl.to(el("antes"), { x: -1080, duration: 0.24, ease: "power3.in" }, cambio);
+    tl.to(el("antes"), { opacity: 0, duration: 0.02 }, cambio + 0.24);
+    tl.fromTo(el("despues"), { x: 1080 }, { x: 0, duration: 0.3, ease: "power3.out" }, cambio + 0.06);
+    tl.fromTo(el("rotulo-despues"), { scale: 0.6 }, { scale: 1, duration: 0.3, ease: "back.out(2.4)" }, cambio + 0.2);
+    ["d1", "d2", "d3"].forEach((fila, i) => {
+      fx.entra(tl, el(fila), Math.max(cambio + 0.3, r.en(1, 0.1 + i * 0.26)), { y: 40 }, 0.28);
+    });
+    fx.entra(tl, el("ag"), Math.min(r.en(1, 0.8), r.dur - 0.9), { y: 120 }, 0.34);
+
+    window.__timelines["{{id}}"] = tl;
+  </script>
+</template>

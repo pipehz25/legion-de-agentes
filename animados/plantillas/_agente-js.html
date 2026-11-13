@@ -11,6 +11,7 @@
 
     tl.fromTo(el("destello"), { opacity: 0.3 }, { opacity: 0, duration: 0.28, ease: "power2.out" }, 0);
     fx.entra(tl, el("rotulo"), 0.02, { x: -200 }, 0.3);
+    if (D.insignia) fx.entra(tl, el("insignia"), 0.1, { x: 200 }, 0.3);
     fx.entra(tl, el("ag"), 0, { x: -180 }, 0.34);
     fx.flota(tl, el("ag-f"), 0.4, r.dur, 10, 0.55);
     // El estado entra con el remate, pero nunca tan tarde que no alcance a leerse.

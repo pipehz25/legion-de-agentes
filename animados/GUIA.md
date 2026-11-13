@@ -63,13 +63,16 @@ En el guion, las plantillas van así (el ejemplo completo es [videos/restaurante
 }
 ```
 
-`datos` vale para todas las escenas; los de cada escena se suman encima. Una escena sin plantilla se escribe a mano en `compositions/`, como antes.
+`datos` vale para todas las escenas; los de cada escena se suman encima. Toda escena `agente-…` acepta además una `insignia` opcional arriba a la derecha (una hora o «1 de 3»). Una escena sin plantilla se escribe a mano en `compositions/`, como antes.
 
 **Plantillas** (en [plantillas/](plantillas/); cada archivo dice arriba qué datos pide):
 
 | Plantilla | Qué muestra | Datos |
 |---|---|---|
 | `gancho-edificio` | Título en tres líneas y el negocio de noche con agentes en las ventanas | `lineas` (3), `letrero` |
+| `gancho-heroe` | Título en tres líneas y, grande, el objeto que identifica al negocio, con dos agentes a los lados | `lineas` (3), `resalta`, `heroe` |
+| `gancho-mensajes` | Título y una bandeja de mensajes de clientes que se acumulan sin respuesta | `lineas` (3), `resalta`, `mensajes` (4) |
+| `antes-despues` | Tres problemas tachados y, al cambiar de frase, tres cosas resueltas (dos frases) | `antes` (3), `despues` (3) |
 | `tareas-reloj` | Cuatro tareas que caen alrededor de un reloj que se pone rojo | `tareas` (4), `come` |
 | `nacen-agentes` | De un núcleo de IA nace un agente por cada tarea | `tareas` |
 | `agente-chat` | Un agente conversando | `rotulo`, `color`, `estado`, `mensajes` (2) |
@@ -83,28 +86,47 @@ En el guion, las plantillas van así (el ejemplo completo es [videos/restaurante
 
 Iconos para las tareas ([plantillas/iconos.json](plantillas/iconos.json)): `mensaje`, `documento`, `moneda`, `flecha`, `calendario`, `bolsa`, `estrella`, `campana`, `visto`, `lupa`, `caja`, `persona`, `llave`, `reloj`, `corazon`.
 
-### La serie «mientras duermes»
+### Cada video es distinto
 
-Un video por tipo de negocio, siempre con las mismas nueve frases y ocho escenas:
+Regla de la casa (la pidió Santiago el 2026-11-12): **dos videos no se pueden parecer**. Lo que la marca repite es el robot, la letra, la voz y el cierre; todo lo demás cambia de un video a otro. Antes de escribir un guion, mira en `salidas/animador/videos.json` y en los guiones ya hechos qué se usó, y escoge otra cosa en estas cuatro cosas:
 
-| Frase | Escena | Plantilla | Texto |
-|---|---|---|---|
-| f1 | `gancho` | `gancho-edificio` | «¿Y si tu *negocio* *hiciera algo* mientras duermes?» |
-| f2 | `problema` | `tareas-reloj` | «*A*, *B*, *C*, *D*: tareas que se comen tu día.» |
-| f3 | `solucion` | `nacen-agentes` | «Nosotros creamos un agente de inteligencia artificial para cada una.» (fija) |
-| f4 a f6 | `agente1` a `agente3` | una `agente-…` cada una | «Uno…», «Otro…», «Otro…» |
-| f7 | `legion` | `legion-aprueba` | «Trabajan juntos, día y noche, y tú solo apruebas.» (fija) |
-| f8 | `cierre` | `cierre-marca` | «Eso es una legión de agentes, hecha a la medida de tu *negocio*.» |
-| f9 | `cierre` | | «Escríbenos y armamos la tuya.» (fija) |
+1. **Formato** (la estructura): no repitas el del video anterior.
+2. **Gancho:** otra frase y otra plantilla de gancho; nunca dos «¿Y si tu…?» seguidos.
+3. **Paleta:** un `estilo` propio, de un tono que no se haya usado en los últimos videos.
+4. **Agentes:** otra combinación de plantillas `agente-…`, en otro orden.
 
-Medidas que hacen que quepa y alcance a leerse:
+Formatos que ya existen (el campo `formato` del guion es solo una etiqueta para llevar la cuenta):
 
-- **Gancho:** tres líneas de 21 letras o menos; la tercera es siempre «mientras duermes?». `f1` y `f9` llevan `"subtitulos": false`.
-- **Tareas:** cuatro, de una palabra y 9 letras o menos. La `palabra` de cada una tiene que estar dicha en `f2`: es lo que dispara su caída.
-- **Frases de agente:** de 5 a 8 palabras, con `"pausa_despues": 0.5` para que la escena respire.
-- **Texto en pantalla de cada agente:** `rotulo` de una palabra (13 letras o menos), `estado` de 3 palabras o menos, `mensajes` de 4 palabras o menos, `items` de 2 palabras o menos.
-- **Colores:** las tareas usan en orden `#6fd3ff`, `#ffc93c`, `#86e8b4`, `#ff7eb6`; los agentes, `#6fd3ff`, `#ffc93c` y `#ff7eb6`.
-- **Las frases fijas no se tocan** ni se cambia la voz: así la serie suena igual y esas frases se pagan una sola vez (quedan en `animados/.voz-cache/`).
+| Formato | Escenas, en orden | Ejemplo |
+|---|---|---|
+| `mientras duermes` | `gancho-edificio`, `tareas-reloj`, `nacen-agentes`, tres agentes, `legion-aprueba`, `cierre-marca` | [tienda](videos/tienda/guion.json) |
+| `un dia` | `gancho-heroe`, tres agentes con `insignia` de hora («9:00 a. m.»), `legion-aprueba`, `cierre-marca` | [restaurante](videos/restaurante/guion.json) |
+| `antes y despues` | `gancho-heroe`, `antes-despues`, tres agentes, `cierre-marca` | [consultorio](videos/consultorio/guion.json) |
+| `mensajes sin responder` | `gancho-mensajes`, tres agentes, `legion-aprueba`, `cierre-marca` | [inmobiliaria](videos/inmobiliaria/guion.json) |
+| `tres agentes` | `gancho-heroe`, tres agentes con `insignia` «1 de 3», `legion-aprueba`, `cierre-marca` | [gimnasio](videos/gimnasio/guion.json) |
+| `tu a lo tuyo` | `gancho-heroe`, `tareas-reloj`, `nacen-agentes`, dos agentes, `cierre-marca` | [salon](videos/salon/guion.json) |
+
+Un formato nuevo es bienvenido: es otra manera de ordenar las plantillas, o una plantilla nueva. Lo único fijo es que el video termina en `cierre-marca`.
+
+**Paleta.** `"estilo": { "fondo": "#2a0d12", "brillo": "#7a2330" }`: un fondo muy oscuro y un brillo del mismo tono, más claro. De esos dos colores salen solos los tonos de tarjetas y paneles. Sin `estilo`, el video sale en el verde azulado de siempre. Ya usadas: vino (`#2a0d12`/`#7a2330`), azul (`#0b1830`/`#1f4a8a`), verde (`#0b2417`/`#1c6a45`), morado (`#1a0f33`/`#4a2f8a`), naranja quemado (`#291407`/`#8a4514`) y magenta (`#2a0b26`/`#86246f`).
+
+**Dibujo del negocio.** `gancho-heroe` pone grande el objeto que identifica al negocio. Están en [plantillas/heroes.json](plantillas/heroes.json): `plato`, `diente`, `casa`, `tienda`, `pesa`, `tijeras`. Si el negocio no tiene el suyo, dibújalo y agrégalo ahí: SVG plano en un lienzo de 400×400, con las reglas de «Dibujo» (sin contorno, sombra a un lado, brillo claro y sombra elíptica en el piso).
+
+**Frases que no cambian** (así se pagan una sola vez y la marca suena igual):
+
+- Con `nacen-agentes`: «Nosotros creamos un agente de inteligencia artificial para cada una.»
+- Con `legion-aprueba`: «Trabajan juntos, día y noche, y tú solo apruebas.»
+- Con `cierre-marca`, dos frases: «Eso es una legión de agentes, hecha a la medida de tu *negocio*.» y «Escríbenos y armamos la tuya.»
+
+**Medidas** que hacen que quepa y alcance a leerse:
+
+- **Gancho:** tres líneas de 21 letras o menos. La frase del gancho y la última llevan `"subtitulos": false`, igual que las dos de `antes-despues` (el texto ya está en pantalla).
+- **Tareas** (`tareas-reloj`): cuatro, de una palabra y 9 letras o menos. La `palabra` de cada una tiene que estar dicha en la frase: es lo que dispara su caída.
+- **Frases de agente:** de 5 a 10 palabras, con `"pausa_despues": 0.5` para que la escena respire.
+- **Texto en pantalla de cada agente:** `rotulo` de una palabra (13 letras o menos), `estado` de 3 palabras o menos, `mensajes` de 4 palabras o menos, `items` de 2 palabras o menos, `insignia` de 10 letras o menos.
+- **`antes-despues`:** tres renglones por lado, de 3 palabras o menos.
+- **`gancho-mensajes`:** cuatro mensajes de 3 palabras o menos.
+- **Colores de los datos:** `#6fd3ff`, `#ffc93c`, `#86e8b4` y `#ff7eb6`, sin repetir entre agentes del mismo video.
 - **`publicacion`:** `texto` de una a tres frases y cinco o seis `hashtags`.
 
 ### Una plantilla nueva
@@ -234,6 +256,8 @@ Los genera `subtitulos.mjs` (lo llama `montaje.mjs`): grupos de hasta 3 palabras
 ## Sonido
 
 - **Voz de Higgsfield (la que se publica):** en el guion, `"motor": "higgsfield"`, `"variante": "elevenlabs"` y `"voz": "Bram"` (un nombre de `higgsfield voices list`). Necesita el CLI instalado y con sesión (`npm i -g @higgsfield/cli` y `higgsfield auth login`; los corre la persona, no Claude). Gasta créditos de esa cuenta: un video de 30 segundos cuesta cerca de 2. Solo se vuelven a generar las frases que cambian. Todas las voces traen muestra en inglés, así que una voz nueva se prueba primero con una frase y se revisa con whisper que el español se entienda.
+- **Cómo escribirle a esta voz.** Es de origen inglés y a veces lee con sonido inglés la primera palabra de una frase. Tres cuidados: (1) no empieces una frase con una palabra que también exista en inglés (*agenda*, *general*, *similar*, *responder*); (2) las listas van con sustantivos («Mensajes, llamadas, visitas»), no con verbos en infinitivo, porque les pierde la «r» final; (3) si una palabra sale mal, agrégale una regla en [pronunciacion.json](pronunciacion.json): a la voz se le manda como suena («ajendar») y en pantalla se sigue viendo bien escrita.
+- **Comprobación.** `voz.mjs` transcribe cada frase con whisper y la vuelve a generar hasta tres veces si no coincide con el guion; lo que no logre arreglar lo lista al final como «Para revisar de oído». Eso confirma que se entiende lo que dice el guion, no que el acento guste: alguien tiene que oír el video antes de publicarlo.
 - **Voz local:** Kokoro (`ef_dora` de mujer, `em_alex` y `em_santa` de hombre), con `"motor": "kokoro"`. Es gratis y suena sintética; sirve para armar y cronometrar el video, no para publicarlo.
 - **Voz de otro servicio:** genera o graba una frase por archivo, con el `id` de la frase como nombre (`f1.wav`, `f2.mp3`…), y déjalas en `assets/voz-externa/`. Pon `"motor": "externo"` en el guion y corre `voz.mjs` y `montaje.mjs`: el video se vuelve a sincronizar solo.
 - **Volumen:** el video final queda cerca de −16 LUFS. Se comprueba con `ffmpeg -i <mp4> -af ebur128 -f null -`.

@@ -1,0 +1,10 @@
+{
+  "nota": "Como se le escribe una palabra a la voz de pago para que la diga bien. En pantalla y en los subtitulos se sigue viendo el texto del guion. Cada regla es una expresion regular (sin distinguir mayusculas) y lo que se pone en su lugar. Agregar una regla hace que las frases afectadas se vuelvan a generar.",
+  "reglas": [
+    {
+      "busca": "\\bagend",
+      "pon": "ajend",
+      "por_que": "La voz es de origen ingles y, al empezar una frase, lee 'agendar' como la palabra inglesa 'agenda' (con g de 'gym'). Con j dice la jota espanola."
+    }
+  ]
+}

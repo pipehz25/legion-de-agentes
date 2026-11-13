@@ -1,33 +1,34 @@
 # Animador — informe del ciclo del 2026-11-12
 
-Primera tanda de la serie «mientras duermes»: seis videos, uno por tipo de negocio. Todos son verticales (1080×1920), con la voz «Bram» de Higgsfield y subtítulos.
+Seis videos, uno por tipo de negocio. Se rehicieron el mismo día porque Santiago pidió que **cada video fuera distinto**: ahora cada uno tiene su formato, su gancho, su dibujo y su color de fondo. Todos son verticales (1080×1920), con la voz «Bram» de Higgsfield y subtítulos.
 
-| Video | Título | Duración | Volumen | Avisos de revisión |
-|---|---|---|---|---|
-| `restaurante` | ¿Y si tu restaurante tomara reservas mientras duermes? | 33,6 s | −15,3 LUFS | 0 |
-| `consultorio` | ¿Y si tu consultorio agendara citas mientras duermes? | 36,3 s | −15,5 LUFS | 0 |
-| `inmobiliaria` | ¿Y si tu inmobiliaria atendiera clientes mientras duermes? | 35,3 s | −15,4 LUFS | 0 |
-| `tienda` | ¿Y si tu tienda vendiera mientras duermes? | 32,9 s | −15,4 LUFS | 0 |
-| `gimnasio` | ¿Y si tu gimnasio inscribiera socios mientras duermes? | 35,4 s | −15,2 LUFS | 0 |
-| `salon` | ¿Y si tu salón llenara la agenda mientras duermes? | 34,9 s | −15,4 LUFS | 0 |
+| Video | Formato | Gancho | Color | Duración | Volumen |
+|---|---|---|---|---|---|
+| `restaurante` | un día | Así es un día en tu restaurante con una legión de agentes. | vino | 27,5 s | −15,3 LUFS |
+| `consultorio` | antes y después | Tu consultorio, antes y después de tener agentes. | azul | 30,9 s | −15,4 LUFS |
+| `inmobiliaria` | mensajes sin responder | ¿Cuántos clientes se van porque nadie les respondió a tiempo? | verde | 27,2 s | −15,3 LUFS |
+| `tienda` | mientras duermes | ¿Y si tu tienda vendiera mientras duermes? | morado | 32,8 s | −15,4 LUFS |
+| `gimnasio` | tres agentes | Tres agentes que todo gimnasio necesita. | naranja | 25,4 s | −15,3 LUFS |
+| `salon` | tú a lo tuyo | Tú, a las tijeras. Los agentes, a todo lo demás. | magenta | 27,1 s | −15,8 LUFS |
 
 Cada uno quedó en `salidas/animador/<video>/` con su MP4, `portada.jpg` y `publicacion.txt`.
 
 ## Qué se comprobó
 
 - La revisión de HyperFrames pasó sin errores ni avisos en los seis.
-- Se miraron capturas de todas las escenas de los seis videos.
-- La voz se transcribió con whisper frase por frase y se comparó con el guion. Tres frases se regeneraron; la del problema de la inmobiliaria se reescribió («Mensajes, llamadas, visitas, anuncios») porque a la voz se le perdía la «r» final de «Responder, filtrar».
+- Se miraron capturas o cuadros del video final de todas las escenas de los seis.
+- La voz se transcribió con whisper frase por frase al generarla; ninguna quedó en la lista «para revisar de oído».
+- **«Agendar».** Santiago pidió verificarla. Medida en el audio: cuando era la primera palabra de una frase, la voz la decía con «g» inglesa (ruido corto y agudo, unos 40 ms centrados en 4.900 Hz). Se corrigió con `animados/pronunciacion.json` (a la voz se le escribe «ajend…») y se quitaron las listas que empezaban con ese verbo. En el audio final, las cuatro veces que se dice «agenda» la consonante mide como jota española (de 60 a 150 ms, centrada entre 1.900 y 2.500 Hz).
 
 ## Qué no se pudo comprobar
 
-- **Nadie ha oído los videos.** La comprobación de la voz es por transcripción: confirma que se entiende lo que dice el guion, no que el acento o el tono gusten.
+- **Nadie ha oído los videos.** Las comprobaciones de la voz son por transcripción y por medición del sonido: dicen que se entiende lo que pide el guion y que la jota suena a jota, no que el acento o el tono gusten.
 - Los videos no tienen música ni efectos de sonido.
 
 ## Gasto
 
-La voz de los seis videos, con las pruebas y las frases regeneradas, costó cerca de 11 créditos de Higgsfield. Quedaban 607,7 al terminar.
+Entre las dos versiones de la tanda, las pruebas de voz y las frases regeneradas se gastaron cerca de 17 créditos de Higgsfield. Quedaban 602,0 al terminar.
 
 ## Temas pendientes (10)
 
-veterinaria, taller, hotel, academia, agencia-viajes, ferreteria, optica, panaderia, oficina-contable, spa.
+veterinaria, taller, hotel, academia, agencia-viajes, ferreteria, optica, panaderia, oficina-contable, spa. Para varios hay que dibujar el objeto del negocio en `animados/plantillas/heroes.json`.

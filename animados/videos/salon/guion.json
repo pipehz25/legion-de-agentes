@@ -1,13 +1,18 @@
 {
-  "titulo": "¿Y si tu salón llenara la agenda mientras duermes?",
+  "titulo": "Tú, a las tijeras. Los agentes, a todo lo demás.",
+  "formato": "tu a lo tuyo",
   "motor": "higgsfield",
   "variante": "elevenlabs",
   "voz": "Bram",
   "inicio": 0.2,
   "pausa": 0.24,
   "cola": 2,
+  "estilo": {
+    "fondo": "#2a0b26",
+    "brillo": "#86246f"
+  },
   "publicacion": {
-    "texto": "Tu salón puede agendar citas, confirmarlas y publicar tus trabajos mientras tú atiendes. Armamos una legión de agentes de inteligencia artificial a la medida de tu salón. Escríbenos y te contamos cómo.",
+    "texto": "Tú, a las tijeras. Los agentes, a todo lo demás: citas, avisos, cobros y anuncios. Armamos una legión de agentes de inteligencia artificial a la medida de tu salón. Escríbenos y te contamos cómo.",
     "hashtags": [
       "salondebelleza",
       "barberia",
@@ -23,40 +28,42 @@
     "boton": "ESCRÍBENOS",
     "tareas": [
       {
-        "texto": "Agendar",
+        "texto": "Citas",
         "icono": "calendario",
         "color": "#6fd3ff",
-        "palabra": "agendar"
+        "palabra": "citas"
       },
       {
-        "texto": "Confirmar",
-        "icono": "visto",
+        "texto": "Avisos",
+        "icono": "campana",
         "color": "#ffc93c",
-        "palabra": "confirmar"
+        "palabra": "avisos"
       },
       {
-        "texto": "Cobrar",
+        "texto": "Cobros",
         "icono": "moneda",
         "color": "#86e8b4",
-        "palabra": "cobrar"
+        "palabra": "cobros"
       },
       {
-        "texto": "Publicar",
+        "texto": "Anuncios",
         "icono": "flecha",
         "color": "#ff7eb6",
-        "palabra": "publicar"
+        "palabra": "anuncios"
       }
     ]
   },
   "escenas": {
     "gancho": {
-      "plantilla": "gancho-edificio",
+      "plantilla": "gancho-heroe",
       "datos": {
         "lineas": [
-          "¿Y si tu salón",
-          "llenara la agenda",
-          "mientras duermes?"
-        ]
+          "Tú, a las tijeras.",
+          "Los agentes,",
+          "a todo lo demás."
+        ],
+        "resalta": 2,
+        "heroe": "tijeras"
       }
     },
     "problema": {
@@ -71,8 +78,8 @@
     "agente1": {
       "plantilla": "agente-chat",
       "datos": {
-        "color": "#6fd3ff",
         "rotulo": "CITAS",
+        "color": "#6fd3ff",
         "estado": "Agendado",
         "mensajes": [
           {
@@ -87,23 +94,12 @@
       }
     },
     "agente2": {
-      "plantilla": "agente-agenda",
-      "datos": {
-        "color": "#ffc93c",
-        "rotulo": "AGENDA",
-        "estado": "Cita confirmada"
-      }
-    },
-    "agente3": {
       "plantilla": "agente-redes",
       "datos": {
-        "color": "#ff7eb6",
         "rotulo": "REDES",
+        "color": "#ff7eb6",
         "estado": "Publicado"
       }
-    },
-    "legion": {
-      "plantilla": "legion-aprueba"
     },
     "cierre": {
       "plantilla": "cierre-marca"
@@ -113,13 +109,13 @@
     {
       "id": "f1",
       "escena": "gancho",
-      "subtitulos": false,
-      "texto": "¿Y si tu salón llenara la agenda mientras duermes?"
+      "texto": "Tú, a las tijeras. Los agentes, a todo lo demás.",
+      "subtitulos": false
     },
     {
       "id": "f2",
       "escena": "problema",
-      "texto": "Agendar, confirmar, cobrar, publicar: tareas que se comen tu día.",
+      "texto": "Citas, avisos, cobros, anuncios: tareas que se comen tu día.",
       "clave": [
         "tareas",
         "día"
@@ -145,15 +141,6 @@
     {
       "id": "f5",
       "escena": "agente2",
-      "texto": "Otro confirma y recuerda cada cita.",
-      "clave": [
-        "confirma"
-      ],
-      "pausa_despues": 0.5
-    },
-    {
-      "id": "f6",
-      "escena": "agente3",
       "texto": "Otro publica tus trabajos en redes.",
       "clave": [
         "publica"
@@ -161,15 +148,7 @@
       "pausa_despues": 0.5
     },
     {
-      "id": "f7",
-      "escena": "legion",
-      "texto": "Trabajan juntos, día y noche, y tú solo apruebas.",
-      "clave": [
-        "apruebas"
-      ]
-    },
-    {
-      "id": "f8",
+      "id": "f6",
       "escena": "cierre",
       "texto": "Eso es una legión de agentes, hecha a la medida de tu salón.",
       "clave": [
@@ -178,10 +157,10 @@
       ]
     },
     {
-      "id": "f9",
+      "id": "f7",
       "escena": "cierre",
-      "subtitulos": false,
-      "texto": "Escríbenos y armamos la tuya."
+      "texto": "Escríbenos y armamos la tuya.",
+      "subtitulos": false
     }
   ]
 }

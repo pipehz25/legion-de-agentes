@@ -1,30 +1,45 @@
 {
-  "titulo": "¿Y si tu restaurante tomara reservas mientras duermes?",
+  "titulo": "Así es un día en tu restaurante con una legión de agentes.",
+  "formato": "un dia",
   "motor": "higgsfield",
   "variante": "elevenlabs",
   "voz": "Bram",
   "inicio": 0.2,
   "pausa": 0.24,
-  "cola": 2.0,
+  "cola": 2,
+  "estilo": {
+    "fondo": "#2a0d12",
+    "brillo": "#7a2330"
+  },
   "publicacion": {
-    "texto": "Tu restaurante puede tomar reservas, organizar pedidos y publicar el menú mientras tú descansas. Armamos una legión de agentes de inteligencia artificial a la medida de tu negocio. Escríbenos y te contamos cómo.",
-    "hashtags": ["restaurantes", "inteligenciaartificial", "agentesIA", "automatizacion", "negocios", "emprendimiento"]
+    "texto": "Así se ve un día en un restaurante con agentes de inteligencia artificial: uno toma las reservas, otro organiza los pedidos y otro publica el menú. Armamos una legión a la medida de tu restaurante. Escríbenos y te contamos cómo.",
+    "hashtags": [
+      "restaurantes",
+      "inteligenciaartificial",
+      "agentesIA",
+      "automatizacion",
+      "negocios",
+      "emprendimiento"
+    ]
   },
   "datos": {
     "letrero": "TU RESTAURANTE",
     "linea": "Armamos la tuya",
-    "boton": "ESCRÍBENOS",
-    "tareas": [
-      { "texto": "Reservas", "icono": "calendario", "color": "#6fd3ff", "palabra": "reservas" },
-      { "texto": "Pedidos", "icono": "bolsa", "color": "#ffc93c", "palabra": "pedidos" },
-      { "texto": "Reseñas", "icono": "estrella", "color": "#86e8b4", "palabra": "reseñas" },
-      { "texto": "Redes", "icono": "flecha", "color": "#ff7eb6", "palabra": "redes" }
-    ]
+    "boton": "ESCRÍBENOS"
   },
   "escenas": {
-    "gancho": { "plantilla": "gancho-edificio", "datos": { "lineas": ["¿Y si tu restaurante", "tomara reservas", "mientras duermes?"] } },
-    "problema": { "plantilla": "tareas-reloj", "datos": { "come": "comen" } },
-    "solucion": { "plantilla": "nacen-agentes" },
+    "gancho": {
+      "plantilla": "gancho-heroe",
+      "datos": {
+        "lineas": [
+          "Un día en",
+          "tu restaurante",
+          "con agentes"
+        ],
+        "resalta": 1,
+        "heroe": "plato"
+      }
+    },
     "agente1": {
       "plantilla": "agente-chat",
       "datos": {
@@ -32,25 +47,104 @@
         "color": "#6fd3ff",
         "estado": "Reservado",
         "mensajes": [
-          { "de": "cliente", "texto": "¿Mesa para 4 hoy?" },
-          { "de": "agente", "texto": "¡Lista! A las 8." }
-        ]
+          {
+            "de": "cliente",
+            "texto": "¿Mesa para 4 hoy?"
+          },
+          {
+            "de": "agente",
+            "texto": "¡Lista! A las 8."
+          }
+        ],
+        "insignia": "9:00 a. m."
       }
     },
-    "agente2": { "plantilla": "agente-pedidos", "datos": { "rotulo": "PEDIDOS", "color": "#ffc93c", "estado": "En cocina", "items": ["Mesa 4", "Domicilio", "Para llevar"] } },
-    "agente3": { "plantilla": "agente-redes", "datos": { "rotulo": "REDES", "color": "#ff7eb6", "estado": "Publicado" } },
-    "legion": { "plantilla": "legion-aprueba" },
-    "cierre": { "plantilla": "cierre-marca" }
+    "agente2": {
+      "plantilla": "agente-pedidos",
+      "datos": {
+        "rotulo": "PEDIDOS",
+        "color": "#ffc93c",
+        "estado": "En cocina",
+        "items": [
+          "Mesa 4",
+          "Domicilio",
+          "Para llevar"
+        ],
+        "insignia": "1:00 p. m."
+      }
+    },
+    "agente3": {
+      "plantilla": "agente-redes",
+      "datos": {
+        "rotulo": "REDES",
+        "color": "#ff7eb6",
+        "estado": "Publicado",
+        "insignia": "6:00 p. m."
+      }
+    },
+    "legion": {
+      "plantilla": "legion-aprueba"
+    },
+    "cierre": {
+      "plantilla": "cierre-marca"
+    }
   },
   "frases": [
-    { "id": "f1", "escena": "gancho", "subtitulos": false, "texto": "¿Y si tu restaurante tomara reservas mientras duermes?" },
-    { "id": "f2", "escena": "problema", "texto": "Reservas, pedidos, reseñas, redes: tareas que se comen tu día.", "clave": ["tareas", "día"] },
-    { "id": "f3", "escena": "solucion", "texto": "Nosotros creamos un agente de inteligencia artificial para cada una.", "clave": ["agente"] },
-    { "id": "f4", "escena": "agente1", "texto": "Uno toma las reservas por chat.", "clave": ["reservas"], "pausa_despues": 0.5 },
-    { "id": "f5", "escena": "agente2", "texto": "Otro recibe y organiza los pedidos.", "clave": ["pedidos"], "pausa_despues": 0.5 },
-    { "id": "f6", "escena": "agente3", "texto": "Otro publica tu menú del día.", "clave": ["menú"], "pausa_despues": 0.5 },
-    { "id": "f7", "escena": "legion", "texto": "Trabajan juntos, día y noche, y tú solo apruebas.", "clave": ["apruebas"] },
-    { "id": "f8", "escena": "cierre", "texto": "Eso es una legión de agentes, hecha a la medida de tu restaurante.", "clave": ["legión", "agentes"] },
-    { "id": "f9", "escena": "cierre", "subtitulos": false, "texto": "Escríbenos y armamos la tuya." }
+    {
+      "id": "f1",
+      "escena": "gancho",
+      "texto": "Así es un día en tu restaurante con una legión de agentes.",
+      "subtitulos": false
+    },
+    {
+      "id": "f2",
+      "escena": "agente1",
+      "texto": "En la mañana, uno toma las reservas por chat.",
+      "clave": [
+        "reservas"
+      ],
+      "pausa_despues": 0.5
+    },
+    {
+      "id": "f3",
+      "escena": "agente2",
+      "texto": "Al mediodía, otro recibe y organiza los pedidos.",
+      "clave": [
+        "pedidos"
+      ],
+      "pausa_despues": 0.5
+    },
+    {
+      "id": "f4",
+      "escena": "agente3",
+      "texto": "En la tarde, otro publica el menú de la noche.",
+      "clave": [
+        "menú"
+      ],
+      "pausa_despues": 0.5
+    },
+    {
+      "id": "f5",
+      "escena": "legion",
+      "texto": "Trabajan juntos, día y noche, y tú solo apruebas.",
+      "clave": [
+        "apruebas"
+      ]
+    },
+    {
+      "id": "f6",
+      "escena": "cierre",
+      "texto": "Eso es una legión de agentes, hecha a la medida de tu restaurante.",
+      "clave": [
+        "legión",
+        "agentes"
+      ]
+    },
+    {
+      "id": "f7",
+      "escena": "cierre",
+      "texto": "Escríbenos y armamos la tuya.",
+      "subtitulos": false
+    }
   ]
 }
