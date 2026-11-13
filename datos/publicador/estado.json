@@ -1,7 +1,7 @@
 {
-    "actualizado":  "2026-11-11T11:30:00-05:00",
-    "ciclo":  6,
-    "ultimo_ciclo_clipero":  12,
+    "actualizado":  "2026-11-13T18:12:55-05:00",
+    "ciclo":  7,
+    "ultimo_ciclo_clipero":  13,
     "notas":  [
                   "Ciclo 1 (instrucción simular): las 63 entradas se crearon pendiente_aprobacion y sus envíos se validaron con subir -Simular. ultima_simulacion.huella es el SHA-256 del archivo de envío: si coincide, no hace falta volver a simular; si el envío cambia, toca simular de nuevo.",
                   "TikTok está en destino borrador: la API solo recibe el video (privacidad registrada: borrador) y el texto se pega a mano en la app desde salidas/publicador/pendientes.md. comprobar devuelve en_borradores (SEND_TO_USER_INBOX) hasta que el usuario lo publica desde la app.",
@@ -41,7 +41,8 @@
                   "2026-11-04T21:54:47-05:00 Ciclo 3 (normal, sin instrucción; Clipero en su ciclo 8): se prepararon los 65 clips listos que faltaban (incluidos los 10 del 2026-11-01 que el usuario revisaba): 193 envíos para tiktok, instagram y youtube (chanty-freestyle-dame-hombro y chanty-blessd-anuel solo tiktok e instagram). Todos quedan pendiente_aprobacion (modo aprobacion; todos sin_verificar). Los textos salen de la ficha adaptados a cada plataforma (§8), con crédito y enlace con minuto. Donde la ficha avisaba de un riesgo de sentido se ajustó el texto (camioneta, lambo-pierde-plata, beneficios-tributarios, rolls-royce, revuelto, robots-blessd, lonche-mala-paga, tarjeta-alcancia, valdiri-divaza, talento-sin-padre, ganga-chanty, 8-anos-sin-irse, motosierra-carton) y el aviso queda en revision_pendiente de cada entrada. Vencimientos: pasan a vencido las entradas pendientes con ventana anterior a hoy (instagram y youtube de los clips de Blessd del 29-oct, y dos clips nuevos que llegaron vencidos: 2026-11-01-awooween-invitados-sorpresa y 2026-11-01-chanty-blessd-anuel). comprobar: vendedor-controles, ryan-castro-los-mismos y tregua-pirlo siguen en_borradores (SEND_TO_USER_INBOX). No se subió ni se simuló nada porque no había entradas aprobadas; ultima_simulacion queda en null en las nuevas. publicaciones.json se regenera solo con entradas publicado, procesando o en_borradores: ya no lista las 4 rechazadas (La Granja y Gómez Mont), aunque sigan en la bandeja de TikTok. Capacidad de TikTok: 4 al día (y 5 borradores pendientes como máximo): no caben todos los clips antes de su ventana; conviene que el usuario elija.",
                   "2026-11-10T19:45:00-05:00 Ciclo 4 (normal, sin instrucción; Clipero en su ciclo 12, parte urbana). Cambios del usuario del 10-nov aplicados: (1) legion/03-publicador/subidos-a-mano.json: las 206 entradas pendiente_aprobacion eran todas de clips subidos a mano; quedan rechazado con motivo «subido a mano por el usuario». Esos clips no se envían nunca y los clips de la lista que no tenían entradas (2026-11-05 a 2026-11-08) no se preparan. (2) aprobacion_automatica_borradores: cada clip nuevo se crea aprobado en TikTok (destino borrador); Instagram y YouTube siguen pendiente_aprobacion. (3) TikTok tiene dos cuentas listas: risas (@legion.risas, solo línea risas) y principal (Legión Urbana, todo lo demás). Las entradas antiguas reciben cuenta principal y pieza = su clip. Se prepararon los 19 clips urbanos nuevos (7 de Ibai con Westcol del 9-nov y 12 de Samulx, Westcol, Jelty y Willito del 10-nov), todos originales (sin variantes), todos a la cuenta principal: 57 envíos. Subidos hoy a la bandeja de TikTok principal (4 = max_por_dia): ibai-westcol-escalera-ranita (86), ibai-westcol-ariete-puerta (82), ibai-westcol-cinta (80) y westcol-samulx-lonche-excusas (80; empate a 80 resuelto por puntaje igual: entran los dos). Plan de la cola de TikTok principal (todos vencen el 14-nov, 4 al día): 11-nov samulx-burger-mermelada, samulx-pesaje-lonche, samulx-burger-espana, samulx-chanty-no-cae; 12-nov ibai-westcol-activacion, samulx-pollito-rebanaditas, samulx-plan-relevos, jelty-temblando-show; 13-nov ibai-westcol-zapatilla, ibai-westcol-burpees, samulx-pizza-con-pina, westcol-samulx-medio-pulmon; 14-nov westcol-samulx-round-cuerpo, ibai-westcol-policia-colombiana, willito-manoplas-desmayo. Reglas de las fichas: activacion y zapatilla no el mismo día en la misma plataforma; lonche-excusas y pesaje-lonche tampoco. Límite de TikTok: 5 borradores pendientes por cuenta en 24 h. Antes de subir, comprobar los en_borradores de la cuenta y contar los subidos en las últimas 24 h que sigan en_borradores: solo caben 5 menos esos (y nunca más de max_por_dia por día natural). Los 4 de hoy se subieron entre 19:40 y 19:42: si el usuario no los publica o descarta, hasta las 19:42 del 11-nov solo cabe 1 más en principal. subidas_por_dia lleva desde hoy, además del total por plataforma, la clave plataforma@cuenta.",
                   "2026-11-10T20:40:00-05:00 Ciclo 5 (normal, sin instrucción; Clipero en su ciclo 12 ya cerrado). Clips nuevos: los 6 primeros de la línea risas (4 de La Cotorrisa con Yordi Rosado y 2 de Los De La Culpa, cap. 268), todos originales, sin_verificar, ventana hasta el 17-nov; los urbanos del ciclo 12 ya estaban todos preparados desde el ciclo 4. Reparto: TikTok a la cuenta risas (@legion.risas); Instagram a principal, porque la cuenta risas de Instagram está apagada y la línea de principal admite risas mientras no haya cuenta de risas activa (si el usuario activa Instagram risas antes de aprobarlas, conviene cambiar la cuenta de esos 6 envíos a risas); YouTube a principal (línea «todo»). 18 envíos validados con -Simular (todo ok). Subidos hoy a la bandeja de TikTok risas (4 = max_por_dia), por puntaje: cotorrisa-yordi-tacto (82), culpa-tato-diesel (80), cotorrisa-yordi-plancha (78) y culpa-ivan-senorazo (78); los cuatro en_borradores (SEND_TO_USER_INBOX). Quedan en cola en risas: cotorrisa-yordi-cuenta (76) y cotorrisa-vista-cansada (75). TikTok principal no subió nada (ya tenía 4 de 4 hoy); sus 15 aprobados siguen el plan del ciclo 4 (11-nov burger-mermelada, pesaje-lonche, burger-espana, chanty-no-cae; 12-nov activacion, pollito-rebanaditas, plan-relevos, jelty-temblando-show; 13-nov zapatilla, burpees, pizza-con-pina, medio-pulmon; 14-nov round-cuerpo, policia-colombiana, manoplas-desmayo). Límite de 5 borradores pendientes por cuenta en 24 h: si el usuario no publica o descarta los de hoy, en principal solo cabe 1 más hasta las 19:42 del 11-nov y en risas 1 más hasta las 20:36 del 11-nov. Textos de los risas: culpa-tato-diesel no nombra a Tato Devia (no se distingue en la imagen); cotorrisa-yordi-plancha no nombra al luchador fallecido ni habla de su cuerpo; vista-cansada no cita la frase dudosa de «letras/lentes». comprobar: los 7 en_borradores de principal siguen SEND_TO_USER_INBOX.",
-                  "2026-11-11T11:30:00-05:00 Ciclo 6 (normal, sin instrucción del usuario; Clipero en su ciclo 12, sin clips nuevos: los 25 listos del 9 y 10-nov ya estaban preparados). Orden del orquestador: enviar la cola aprobada de TikTok (nuevo día, cupo 4 por cuenta) y parar una cuenta si TikTok da spam_risk_too_many_pending_share. comprobar (11:18): los 8 borradores del 10-nov (4 en principal, 4 en risas) y los 3 antiguos de Blessd (tregua-pirlo, vendedor-controles, ryan-castro-los-mismos) siguen SEND_TO_USER_INBOX. Subidos a la bandeja: principal 3 (samulx-burger-mermelada, samulx-pesaje-lonche, samulx-burger-espana); el cuarto, samulx-chanty-no-cae, dio spam_risk_too_many_pending_share y se paró la cuenta (error, intentos 1). risas 2 (cotorrisa-yordi-cuenta, cotorrisa-vista-cansada): la cola de risas queda vacía. Los 5 nuevos, en_borradores. Dato del límite: TikTok aceptó 3 en principal y 2 en risas con los 4 de ayer aún en SEND_TO_USER_INBOX, así que el tope real no coincide exactamente con «5 pendientes en 24 h»; la única prueba fiable es la respuesta de TikTok. Instagram: las 6 entradas risas pasan de principal a risas (estado y envío; config.json lo pide: la línea risas nunca sale por la cuenta urbana) y se validan con -Simular (ok). Plan de la cola de TikTok principal (todos vencen el 14-nov, 4 al día por cuenta, si el usuario vacía la bandeja): 12-nov chanty-no-cae (reintento), activacion, pollito-rebanaditas, plan-relevos; 13-nov jelty-temblando-show, zapatilla, burpees, pizza-con-pina; 14-nov medio-pulmon, round-cuerpo, policia-colombiana, manoplas-desmayo. Hoy (11-nov) principal aún tiene 1 de cupo diario, pero no conviene gastar el segundo intento de chanty-no-cae mientras los borradores sigan sin publicar: antes de reintentarla, comprobar los en_borradores; si los de ayer y hoy siguen SEND_TO_USER_INBOX, esperar a que pasen 24 h desde el 10-nov 19:42 o a que el usuario vacíe la bandeja."
+                  "2026-11-11T11:30:00-05:00 Ciclo 6 (normal, sin instrucción del usuario; Clipero en su ciclo 12, sin clips nuevos: los 25 listos del 9 y 10-nov ya estaban preparados). Orden del orquestador: enviar la cola aprobada de TikTok (nuevo día, cupo 4 por cuenta) y parar una cuenta si TikTok da spam_risk_too_many_pending_share. comprobar (11:18): los 8 borradores del 10-nov (4 en principal, 4 en risas) y los 3 antiguos de Blessd (tregua-pirlo, vendedor-controles, ryan-castro-los-mismos) siguen SEND_TO_USER_INBOX. Subidos a la bandeja: principal 3 (samulx-burger-mermelada, samulx-pesaje-lonche, samulx-burger-espana); el cuarto, samulx-chanty-no-cae, dio spam_risk_too_many_pending_share y se paró la cuenta (error, intentos 1). risas 2 (cotorrisa-yordi-cuenta, cotorrisa-vista-cansada): la cola de risas queda vacía. Los 5 nuevos, en_borradores. Dato del límite: TikTok aceptó 3 en principal y 2 en risas con los 4 de ayer aún en SEND_TO_USER_INBOX, así que el tope real no coincide exactamente con «5 pendientes en 24 h»; la única prueba fiable es la respuesta de TikTok. Instagram: las 6 entradas risas pasan de principal a risas (estado y envío; config.json lo pide: la línea risas nunca sale por la cuenta urbana) y se validan con -Simular (ok). Plan de la cola de TikTok principal (todos vencen el 14-nov, 4 al día por cuenta, si el usuario vacía la bandeja): 12-nov chanty-no-cae (reintento), activacion, pollito-rebanaditas, plan-relevos; 13-nov jelty-temblando-show, zapatilla, burpees, pizza-con-pina; 14-nov medio-pulmon, round-cuerpo, policia-colombiana, manoplas-desmayo. Hoy (11-nov) principal aún tiene 1 de cupo diario, pero no conviene gastar el segundo intento de chanty-no-cae mientras los borradores sigan sin publicar: antes de reintentarla, comprobar los en_borradores; si los de ayer y hoy siguen SEND_TO_USER_INBOX, esperar a que pasen 24 h desde el 10-nov 19:42 o a que el usuario vacíe la bandeja.",
+                  "2026-11-13T18:15:00-05:00 Ciclo 7 (normal, sin instrucción del usuario; Clipero en su ciclo 13). Clips nuevos: 11 (8 de la línea risas: francupido-plantada-langosta, culpa-super-alexis, cotorrisa-codigo-22, culpa-quevedo-mentiras, culpa-ivan-piscina, cotorrisa-harvard, cotorrisa-dedito-flaco y ballarta-champana; 3 urbanos de Stream Fighters 5: westcol-samulx-mosquito-ia, westcol-samulx-bicho-gigante y westcol-grefg-unico-golpe), todos originales y sin_verificar: 33 envíos validados con -Simular (todo ok). Reparto: TikTok risas a la cuenta risas y urbanos a principal; Instagram risas a la cuenta risas (apagada; mismo criterio que el ciclo 6, porque config.json dice que la línea risas espera a esa cuenta) y urbanos a principal; YouTube todo a principal. TikTok se crea aprobado (borradores automáticos); Instagram y YouTube, pendiente_aprobacion. comprobar (18:01): los 16 borradores anteriores (10 en principal, 6 en risas) siguen SEND_TO_USER_INBOX. Aun así TikTok aceptó 4 en cada cuenta (no hubo spam_risk_too_many_pending_share): en risas francupido-plantada-langosta, ballarta-champana, culpa-super-alexis y cotorrisa-codigo-22; en principal westcol-samulx-mosquito-ia, westcol-samulx-bicho-gigante, ibai-westcol-activacion y samulx-chanty-no-cae (segundo intento, aceptado). Orden de la cola: ventana más cercana y después puntaje (regla del Publicador); el orquestador pedía poner delante los 3 urbanos nuevos porque vencen el 14-nov, pero toda la cola de principal vence ese día, así que grefg-unico-golpe (74) queda para el 14-nov detrás de pollito-rebanaditas (77), zapatilla (76) y plan-relevos (76); a igualdad de puntaje (78) se dio prioridad a bicho-gigante, como pedía el orquestador. En risas, ballarta-champana (67) entró hoy por ventana (15-nov) antes que culpa-quevedo-mentiras (72, 17-nov). Plan del 14-nov: principal pollito-rebanaditas, zapatilla, plan-relevos y grefg-unico-golpe; risas culpa-quevedo-mentiras, culpa-ivan-piscina, cotorrisa-harvard y cotorrisa-dedito-flaco (la cola de risas queda vacía). En principal no caben antes del 14-nov jelty-temblando-show, burpees, pizza-con-pina, medio-pulmon, round-cuerpo, policia-colombiana ni manoplas-desmayo: vencerán si el usuario no decide otra cosa. Según la API quedan 24 borradores en la bandeja (14 en principal, 3 de ellos de Blessd del 29 al 31-oct; 10 en risas). SEND_TO_USER_INBOX no siempre cambia cuando el usuario publica desde la app (notas del 2-nov), así que la API no confirma cuáles siguen de verdad ahí."
               ],
     "entradas":  [
                      {
@@ -263,14 +264,14 @@
                                           }
                                       ],
                          "ultima_comprobacion":  {
-                                                     "fecha":  "2026-11-11T11:18:33-05:00",
+                                                     "fecha":  "2026-11-13T18:01:59-05:00",
                                                      "estado":  "en_borradores",
                                                      "detalle":  "SEND_TO_USER_INBOX"
                                                  },
                          "cuenta":  "principal",
                          "pieza":  "2026-10-29-blessd-vendedor-controles",
                          "gancho":  "",
-                         "comprobado":  "2026-11-11T11:18:33-05:00",
+                         "comprobado":  "2026-11-13T18:01:59-05:00",
                          "detalle_plataforma":  "SEND_TO_USER_INBOX"
                      },
                      {
@@ -960,14 +961,14 @@
                          "motivo":  "Enviado a la bandeja de TikTok por solicitud expresa del usuario.",
                          "creado":  "2026-10-29T20:49:28-05:00",
                          "ultima_comprobacion":  {
-                                                     "fecha":  "2026-11-11T11:18:35-05:00",
+                                                     "fecha":  "2026-11-13T18:02:01-05:00",
                                                      "estado":  "en_borradores",
                                                      "detalle":  "SEND_TO_USER_INBOX"
                                                  },
                          "cuenta":  "principal",
                          "pieza":  "2026-10-29-blessd-ryan-castro-los-mismos",
                          "gancho":  "",
-                         "comprobado":  "2026-11-11T11:18:35-05:00",
+                         "comprobado":  "2026-11-13T18:02:01-05:00",
                          "detalle_plataforma":  "SEND_TO_USER_INBOX"
                      },
                      {
@@ -2015,10 +2016,10 @@
                          "publicado":  "2026-10-29T20:54:46-05:00",
                          "motivo":  "Aprobado por el usuario el 2026-10-29T20:53:40-05:00 (solo TikTok). Subido a la bandeja de TikTok (destino borrador) el 2026-10-29T20:54:46-05:00: falta terminar la publicación desde la app y pegar el texto de pendientes.md.",
                          "creado":  "2026-10-29T20:49:43-05:00",
-                         "comprobado":  "2026-11-11T11:18:37-05:00",
+                         "comprobado":  "2026-11-13T18:02:03-05:00",
                          "detalle_plataforma":  "SEND_TO_USER_INBOX",
                          "ultima_comprobacion":  {
-                                                     "fecha":  "2026-11-11T11:18:37-05:00",
+                                                     "fecha":  "2026-11-13T18:02:03-05:00",
                                                      "estado":  "en_borradores",
                                                      "detalle":  "SEND_TO_USER_INBOX"
                                                  },
@@ -7102,10 +7103,10 @@
                          "motivo":  "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta principal (Legión Urbana) el 2026-11-10T19:40:05-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
                          "creado":  "2026-11-10T19:39:51-05:00",
                          "revision_pendiente":  "Es un entrenamiento militar, no la preparación de su pelea: no presentarlo como entrenamiento para Stream Fighters.",
-                         "comprobado":  "2026-11-11T11:18:39-05:00",
+                         "comprobado":  "2026-11-13T18:02:04-05:00",
                          "detalle_plataforma":  "SEND_TO_USER_INBOX",
                          "ultima_comprobacion":  {
-                                                     "fecha":  "2026-11-11T11:18:39-05:00",
+                                                     "fecha":  "2026-11-13T18:02:04-05:00",
                                                      "estado":  "en_borradores",
                                                      "detalle":  "SEND_TO_USER_INBOX"
                                                  }
@@ -7181,10 +7182,10 @@
                          "motivo":  "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta principal (Legión Urbana) el 2026-11-10T19:40:31-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
                          "creado":  "2026-11-10T19:39:51-05:00",
                          "revision_pendiente":  "Es un entrenamiento militar, no la preparación de su pelea. Las armas son simuladas; el clip termina al entrar.",
-                         "comprobado":  "2026-11-11T11:18:41-05:00",
+                         "comprobado":  "2026-11-13T18:02:06-05:00",
                          "detalle_plataforma":  "SEND_TO_USER_INBOX",
                          "ultima_comprobacion":  {
-                                                     "fecha":  "2026-11-11T11:18:41-05:00",
+                                                     "fecha":  "2026-11-13T18:02:06-05:00",
                                                      "estado":  "en_borradores",
                                                      "detalle":  "SEND_TO_USER_INBOX"
                                                  }
@@ -7260,10 +7261,10 @@
                          "motivo":  "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta principal (Legión Urbana) el 2026-11-10T19:41:21-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
                          "creado":  "2026-11-10T19:39:51-05:00",
                          "revision_pendiente":  "Es un entrenamiento militar, no la preparación de su pelea. Llevan el subfusil simulado colgado; no se dispara en el clip.",
-                         "comprobado":  "2026-11-11T11:18:43-05:00",
+                         "comprobado":  "2026-11-13T18:02:08-05:00",
                          "detalle_plataforma":  "SEND_TO_USER_INBOX",
                          "ultima_comprobacion":  {
-                                                     "fecha":  "2026-11-11T11:18:43-05:00",
+                                                     "fecha":  "2026-11-13T18:02:08-05:00",
                                                      "estado":  "en_borradores",
                                                      "detalle":  "SEND_TO_USER_INBOX"
                                                  }
@@ -7324,7 +7325,7 @@
                          "gancho":  "Pidieron activación antes de la misión final",
                          "linea":  "urbano",
                          "oportunidad_cazador":  "tema-stream-fighters-5",
-                         "estado":  "aprobado",
+                         "estado":  "en_borradores",
                          "envio":  "datos/publicador/envios/2026-11-09-ibai-westcol-activacion__tiktok.json",
                          "puntaje":  78,
                          "derechos":  "sin_verificar",
@@ -7332,13 +7333,20 @@
                          "aprobado":  "2026-11-10T19:39:51-05:00",
                          "intentos":  0,
                          "ultima_simulacion":  null,
-                         "id_publicacion":  null,
+                         "id_publicacion":  "v_inbox_file~v2.7707797274575259662",
                          "url":  null,
-                         "privacidad":  null,
-                         "publicado":  null,
-                         "motivo":  "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10): va como borrador a la bandeja de TikTok de la cuenta principal (Legión Urbana). Ciclo 6 (2026-11-11): no se intentó, porque la cuenta principal dio spam_risk_too_many_pending_share (límite de borradores pendientes) tras subir 3. Previsto 12-nov.",
+                         "privacidad":  "borrador",
+                         "publicado":  "2026-11-13T18:10:28-05:00",
+                         "motivo":  "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta principal (Legión Urbana) el 2026-11-13T18:10:28-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
                          "creado":  "2026-11-10T19:39:51-05:00",
-                         "revision_pendiente":  "VER ANTES DE PUBLICAR: la “activación” es una descarga eléctrica de entrenamiento (consentida, nadie sale herido); comprobar que la plataforma no lo lea como acto peligroso. No afirmar quién de los dos recibe la descarga. No publicarlo el mismo día que ibai-westcol-zapatilla en la misma plataforma."
+                         "revision_pendiente":  "VER ANTES DE PUBLICAR: la “activación” es una descarga eléctrica de entrenamiento (consentida, nadie sale herido); comprobar que la plataforma no lo lea como acto peligroso. No afirmar quién de los dos recibe la descarga. No publicarlo el mismo día que ibai-westcol-zapatilla en la misma plataforma.",
+                         "comprobado":  "2026-11-13T18:11:12-05:00",
+                         "detalle_plataforma":  "SEND_TO_USER_INBOX",
+                         "ultima_comprobacion":  {
+                                                     "fecha":  "2026-11-13T18:11:12-05:00",
+                                                     "estado":  "en_borradores",
+                                                     "detalle":  "SEND_TO_USER_INBOX"
+                                                 }
                      },
                      {
                          "clip":  "2026-11-09-ibai-westcol-activacion",
@@ -7408,7 +7416,7 @@
                          "url":  null,
                          "privacidad":  null,
                          "publicado":  null,
-                         "motivo":  "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10): va como borrador a la bandeja de TikTok de la cuenta principal (Legión Urbana). Ciclo 6 (2026-11-11): no se intentó, porque la cuenta principal dio spam_risk_too_many_pending_share (límite de borradores pendientes) tras subir 3. Previsto 13-nov.",
+                         "motivo":  "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10): va como borrador a la bandeja de TikTok de la cuenta principal. Ciclo 7 (2026-11-13): no cupo (4 de 4 hoy en principal); además la ficha pide no publicarlo el mismo día que ibai-westcol-activacion, que llegó a la bandeja hoy. Previsto 14-nov.",
                          "creado":  "2026-11-10T19:39:51-05:00",
                          "revision_pendiente":  "VER ANTES DE PUBLICAR: al final se ve la “activación” (descarga eléctrica de entrenamiento, consentida) y llevan pistolas simuladas naranjas, sin apuntar a nadie. La zapatilla es de Ibai. No publicarlo el mismo día que ibai-westcol-activacion en la misma plataforma."
                      },
@@ -7480,7 +7488,7 @@
                          "url":  null,
                          "privacidad":  null,
                          "publicado":  null,
-                         "motivo":  "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10): va como borrador a la bandeja de TikTok de la cuenta principal (Legión Urbana). Ciclo 6 (2026-11-11): no se intentó, porque la cuenta principal dio spam_risk_too_many_pending_share (límite de borradores pendientes) tras subir 3. Previsto 13-nov.",
+                         "motivo":  "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10): va como borrador a la bandeja de TikTok de la cuenta principal. Ciclo 7 (2026-11-13): no cupo (4 de 4 hoy en principal). Con 4 al día no cabe antes de su ventana (14-nov): el 14-nov van antes pollito-rebanaditas, zapatilla, plan-relevos y grefg-unico-golpe. Si no sale, vence el 15-nov.",
                          "creado":  "2026-11-10T19:39:51-05:00",
                          "revision_pendiente":  "El “pequeño tutorial” lo pide Ibai: no atribuírselo a Westcol. Es un entrenamiento militar, no la preparación de su pelea."
                      },
@@ -7552,7 +7560,7 @@
                          "url":  null,
                          "privacidad":  null,
                          "publicado":  null,
-                         "motivo":  "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10): va como borrador a la bandeja de TikTok de la cuenta principal (Legión Urbana). Ciclo 6 (2026-11-11): no se intentó, porque la cuenta principal dio spam_risk_too_many_pending_share (límite de borradores pendientes) tras subir 3. Previsto 14-nov.",
+                         "motivo":  "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10): va como borrador a la bandeja de TikTok de la cuenta principal. Ciclo 7 (2026-11-13): no cupo (4 de 4 hoy en principal). Con 4 al día no cabe antes de su ventana (14-nov): el 14-nov van antes pollito-rebanaditas, zapatilla, plan-relevos y grefg-unico-golpe. Si no sale, vence el 15-nov.",
                          "creado":  "2026-11-10T19:39:51-05:00",
                          "revision_pendiente":  "Es una broma dentro de un simulacro: no presentarlo como algo real ni como crítica a la policía española."
                      },
@@ -7627,10 +7635,10 @@
                          "motivo":  "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta principal (Legión Urbana) el 2026-11-10T19:41:47-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
                          "creado":  "2026-11-10T19:39:51-05:00",
                          "revision_pendiente":  "Hablan los dos y los subtítulos no separan las voces: no atribuir las frases a uno solo. Lo de “cierra una discoteca en 50.000” es una exageración en broma. No publicarlo el mismo día que samulx-pesaje-lonche en la misma plataforma.",
-                         "comprobado":  "2026-11-11T11:18:46-05:00",
+                         "comprobado":  "2026-11-13T18:02:11-05:00",
                          "detalle_plataforma":  "SEND_TO_USER_INBOX",
                          "ultima_comprobacion":  {
-                                                     "fecha":  "2026-11-11T11:18:46-05:00",
+                                                     "fecha":  "2026-11-13T18:02:11-05:00",
                                                      "estado":  "en_borradores",
                                                      "detalle":  "SEND_TO_USER_INBOX"
                                                  }
@@ -7706,10 +7714,10 @@
                          "motivo":  "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta principal (Legión Urbana) el 2026-11-11T11:19:30-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
                          "creado":  "2026-11-10T19:39:51-05:00",
                          "revision_pendiente":  "No afirmar de quién es la marca de las hamburguesas.",
-                         "comprobado":  "2026-11-11T11:23:08-05:00",
+                         "comprobado":  "2026-11-13T18:02:13-05:00",
                          "detalle_plataforma":  "SEND_TO_USER_INBOX",
                          "ultima_comprobacion":  {
-                                                     "fecha":  "2026-11-11T11:23:08-05:00",
+                                                     "fecha":  "2026-11-13T18:02:13-05:00",
                                                      "estado":  "en_borradores",
                                                      "detalle":  "SEND_TO_USER_INBOX"
                                                  }
@@ -7785,10 +7793,10 @@
                          "motivo":  "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta principal (Legión Urbana) el 2026-11-11T11:20:37-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
                          "creado":  "2026-11-10T19:39:51-05:00",
                          "revision_pendiente":  "“Hasta la muerte” es una forma de hablar del combate. No publicarlo el mismo día que westcol-samulx-lonche-excusas en la misma plataforma.",
-                         "comprobado":  "2026-11-11T11:23:10-05:00",
+                         "comprobado":  "2026-11-13T18:02:14-05:00",
                          "detalle_plataforma":  "SEND_TO_USER_INBOX",
                          "ultima_comprobacion":  {
-                                                     "fecha":  "2026-11-11T11:23:10-05:00",
+                                                     "fecha":  "2026-11-13T18:02:14-05:00",
                                                      "estado":  "en_borradores",
                                                      "detalle":  "SEND_TO_USER_INBOX"
                                                  }
@@ -7864,10 +7872,10 @@
                          "motivo":  "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta principal (Legión Urbana) el 2026-11-11T11:20:56-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
                          "creado":  "2026-11-10T19:39:51-05:00",
                          "revision_pendiente":  "No afirmar de quién es la marca (citar sus palabras, sin “su restaurante” ni “dueño”). Habla de planes, no de aperturas anunciadas: no presentarlo como noticia de expansión.",
-                         "comprobado":  "2026-11-11T11:23:12-05:00",
+                         "comprobado":  "2026-11-13T18:02:16-05:00",
                          "detalle_plataforma":  "SEND_TO_USER_INBOX",
                          "ultima_comprobacion":  {
-                                                     "fecha":  "2026-11-11T11:23:12-05:00",
+                                                     "fecha":  "2026-11-13T18:02:16-05:00",
                                                      "estado":  "en_borradores",
                                                      "detalle":  "SEND_TO_USER_INBOX"
                                                  }
@@ -7928,7 +7936,7 @@
                          "gancho":  "¿Alguno de los cuatro aguanta la pelea?",
                          "linea":  "urbano",
                          "oportunidad_cazador":  "tema-stream-fighters-5",
-                         "estado":  "error",
+                         "estado":  "en_borradores",
                          "envio":  "datos/publicador/envios/2026-11-10-samulx-chanty-no-cae__tiktok.json",
                          "puntaje":  78,
                          "derechos":  "sin_verificar",
@@ -7936,17 +7944,24 @@
                          "aprobado":  "2026-11-10T19:39:51-05:00",
                          "intentos":  1,
                          "ultima_simulacion":  null,
-                         "id_publicacion":  null,
+                         "id_publicacion":  "v_inbox_file~v2.7707797326131365901",
                          "url":  null,
-                         "privacidad":  null,
-                         "publicado":  null,
-                         "motivo":  "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). 2026-11-11T11:21:26-05:00: TikTok rechazó la subida con spam_risk_too_many_pending_share, el límite de borradores pendientes de la cuenta principal (los 4 del 10-nov seguían en la bandeja y hoy entraron 3 más). No es un fallo del clip: se reintenta en el próximo ciclo (intento 1 de 2), cuando el usuario publique o descarte los borradores pendientes.",
+                         "privacidad":  "borrador",
+                         "publicado":  "2026-11-13T18:10:45-05:00",
+                         "motivo":  "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). El ciclo 6 (2026-11-11) dio spam_risk_too_many_pending_share (intento 1). Reintento del ciclo 7 aceptado: subido a la bandeja de TikTok de la cuenta principal (Legión Urbana) el 2026-11-13T18:10:45-05:00; falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
                          "creado":  "2026-11-10T19:39:51-05:00",
                          "revision_pendiente":  null,
                          "ultimo_error":  {
                                               "fecha":  "2026-11-11T11:21:26-05:00",
                                               "error":  "HTTP 400. spam_risk_too_many_pending_share (log_id 2026111116212819BBC5B10C1394116D9C)"
-                                          }
+                                          },
+                         "comprobado":  "2026-11-13T18:11:22-05:00",
+                         "detalle_plataforma":  "SEND_TO_USER_INBOX",
+                         "ultima_comprobacion":  {
+                                                     "fecha":  "2026-11-13T18:11:22-05:00",
+                                                     "estado":  "en_borradores",
+                                                     "detalle":  "SEND_TO_USER_INBOX"
+                                                 }
                      },
                      {
                          "clip":  "2026-11-10-samulx-chanty-no-cae",
@@ -8016,7 +8031,7 @@
                          "url":  null,
                          "privacidad":  null,
                          "publicado":  null,
-                         "motivo":  "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10): va como borrador a la bandeja de TikTok de la cuenta principal (Legión Urbana). Ciclo 6 (2026-11-11): no se intentó, porque la cuenta principal dio spam_risk_too_many_pending_share (límite de borradores pendientes) tras subir 3. Previsto 12-nov.",
+                         "motivo":  "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10): va como borrador a la bandeja de TikTok de la cuenta principal. Ciclo 7 (2026-11-13): no cupo (4 de 4 hoy en principal). Previsto 14-nov.",
                          "creado":  "2026-11-10T19:39:51-05:00",
                          "revision_pendiente":  null
                      },
@@ -8088,7 +8103,7 @@
                          "url":  null,
                          "privacidad":  null,
                          "publicado":  null,
-                         "motivo":  "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10): va como borrador a la bandeja de TikTok de la cuenta principal (Legión Urbana). Ciclo 6 (2026-11-11): no se intentó, porque la cuenta principal dio spam_risk_too_many_pending_share (límite de borradores pendientes) tras subir 3. Previsto 12-nov.",
+                         "motivo":  "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10): va como borrador a la bandeja de TikTok de la cuenta principal. Ciclo 7 (2026-11-13): no cupo (4 de 4 hoy en principal). Previsto 14-nov.",
                          "creado":  "2026-11-10T19:39:51-05:00",
                          "revision_pendiente":  "Es el plan de Samulx, no el reglamento del evento."
                      },
@@ -8160,7 +8175,7 @@
                          "url":  null,
                          "privacidad":  null,
                          "publicado":  null,
-                         "motivo":  "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10): va como borrador a la bandeja de TikTok de la cuenta principal (Legión Urbana). Ciclo 6 (2026-11-11): no se intentó, porque la cuenta principal dio spam_risk_too_many_pending_share (límite de borradores pendientes) tras subir 3. Previsto 13-nov.",
+                         "motivo":  "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10): va como borrador a la bandeja de TikTok de la cuenta principal. Ciclo 7 (2026-11-13): no cupo (4 de 4 hoy en principal). Con 4 al día no cabe antes de su ventana (14-nov): el 14-nov van antes pollito-rebanaditas, zapatilla, plan-relevos y grefg-unico-golpe. Si no sale, vence el 15-nov.",
                          "creado":  "2026-11-10T19:39:51-05:00",
                          "revision_pendiente":  "Es ironía: no presentarlo como una confesión de que el directo es falso. No consta que Jelty pelee el 14."
                      },
@@ -8232,7 +8247,7 @@
                          "url":  null,
                          "privacidad":  null,
                          "publicado":  null,
-                         "motivo":  "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10): va como borrador a la bandeja de TikTok de la cuenta principal (Legión Urbana). Ciclo 6 (2026-11-11): no se intentó, porque la cuenta principal dio spam_risk_too_many_pending_share (límite de borradores pendientes) tras subir 3. Previsto 13-nov.",
+                         "motivo":  "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10): va como borrador a la bandeja de TikTok de la cuenta principal. Ciclo 7 (2026-11-13): no cupo (4 de 4 hoy en principal). Con 4 al día no cabe antes de su ventana (14-nov): el 14-nov van antes pollito-rebanaditas, zapatilla, plan-relevos y grefg-unico-golpe. Si no sale, vence el 15-nov.",
                          "creado":  "2026-11-10T19:39:51-05:00",
                          "revision_pendiente":  "No poner en el gancho quién dice cada frase."
                      },
@@ -8304,7 +8319,7 @@
                          "url":  null,
                          "privacidad":  null,
                          "publicado":  null,
-                         "motivo":  "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10): va como borrador a la bandeja de TikTok de la cuenta principal (Legión Urbana). Ciclo 6 (2026-11-11): no se intentó, porque la cuenta principal dio spam_risk_too_many_pending_share (límite de borradores pendientes) tras subir 3. Previsto 14-nov.",
+                         "motivo":  "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10): va como borrador a la bandeja de TikTok de la cuenta principal. Ciclo 7 (2026-11-13): no cupo (4 de 4 hoy en principal). Con 4 al día no cabe antes de su ventana (14-nov): el 14-nov van antes pollito-rebanaditas, zapatilla, plan-relevos y grefg-unico-golpe. Si no sale, vence el 15-nov.",
                          "creado":  "2026-11-10T19:39:51-05:00",
                          "revision_pendiente":  "“Medio pulmón” es una forma de hablar, no un dato médico."
                      },
@@ -8376,7 +8391,7 @@
                          "url":  null,
                          "privacidad":  null,
                          "publicado":  null,
-                         "motivo":  "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10): va como borrador a la bandeja de TikTok de la cuenta principal (Legión Urbana). Ciclo 6 (2026-11-11): no se intentó, porque la cuenta principal dio spam_risk_too_many_pending_share (límite de borradores pendientes) tras subir 3. Previsto 14-nov.",
+                         "motivo":  "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10): va como borrador a la bandeja de TikTok de la cuenta principal. Ciclo 7 (2026-11-13): no cupo (4 de 4 hoy en principal). Con 4 al día no cabe antes de su ventana (14-nov): el 14-nov van antes pollito-rebanaditas, zapatilla, plan-relevos y grefg-unico-golpe. Si no sale, vence el 15-nov.",
                          "creado":  "2026-11-10T19:39:51-05:00",
                          "revision_pendiente":  "Es un calentamiento suave entre amigos, no una pelea ni un adelanto del combate del 14."
                      },
@@ -8448,7 +8463,7 @@
                          "url":  null,
                          "privacidad":  null,
                          "publicado":  null,
-                         "motivo":  "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10): va como borrador a la bandeja de TikTok de la cuenta principal (Legión Urbana). Ciclo 6 (2026-11-11): no se intentó, porque la cuenta principal dio spam_risk_too_many_pending_share (límite de borradores pendientes) tras subir 3. Previsto 14-nov.",
+                         "motivo":  "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10): va como borrador a la bandeja de TikTok de la cuenta principal. Ciclo 7 (2026-11-13): no cupo (4 de 4 hoy en principal). Con 4 al día no cabe antes de su ventana (14-nov): el 14-nov van antes pollito-rebanaditas, zapatilla, plan-relevos y grefg-unico-golpe. Si no sale, vence el 15-nov.",
                          "creado":  "2026-11-10T19:39:51-05:00",
                          "revision_pendiente":  "VER ANTES DE PUBLICAR: confirmar quién golpea (parece Jelty, no Willito) antes de poner nombres; los textos no nombran a quien golpea. No presentarlo como el entrenamiento de Willito para su pelea (por eso va sin #StreamFighters5)."
                      },
@@ -8531,10 +8546,10 @@
                          "motivo":  "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta risas (@legion.risas) el 2026-11-10T20:35:09-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
                          "creado":  "2026-11-10T20:34:24-05:00",
                          "revision_pendiente":  "Tema de salud: Yordi habla de su chequeo preventivo; el clip no bromea sobre el cáncer ni sobre enfermos. La cita del remate va con un solo «señorita» (la ficha la da de las dos formas).",
-                         "comprobado":  "2026-11-11T11:18:48-05:00",
+                         "comprobado":  "2026-11-13T18:01:41-05:00",
                          "detalle_plataforma":  "SEND_TO_USER_INBOX",
                          "ultima_comprobacion":  {
-                                                     "fecha":  "2026-11-11T11:18:48-05:00",
+                                                     "fecha":  "2026-11-13T18:01:41-05:00",
                                                      "estado":  "en_borradores",
                                                      "detalle":  "SEND_TO_USER_INBOX"
                                                  }
@@ -8636,10 +8651,10 @@
                          "motivo":  "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta risas (@legion.risas) el 2026-11-10T20:35:29-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
                          "creado":  "2026-11-10T20:34:24-05:00",
                          "revision_pendiente":  "VER ANTES DE PUBLICAR: en el audio el presentador le da la palabra a Tato Devia, pero en la imagen no se distingue cuál de los seis humoristas es. Los textos no lo nombran (ni llevan #TatoDevia). Si al verlo confirmas que es él, puedes añadir su nombre al publicar. Las réplicas («mi otro carro es Levi\u0027s») son del elenco, no del que cuenta.",
-                         "comprobado":  "2026-11-11T11:18:50-05:00",
+                         "comprobado":  "2026-11-13T18:01:43-05:00",
                          "detalle_plataforma":  "SEND_TO_USER_INBOX",
                          "ultima_comprobacion":  {
-                                                     "fecha":  "2026-11-11T11:18:50-05:00",
+                                                     "fecha":  "2026-11-13T18:01:43-05:00",
                                                      "estado":  "en_borradores",
                                                      "detalle":  "SEND_TO_USER_INBOX"
                                                  }
@@ -8741,10 +8756,10 @@
                          "motivo":  "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta risas (@legion.risas) el 2026-11-10T20:35:46-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
                          "creado":  "2026-11-10T20:34:24-05:00",
                          "revision_pendiente":  "CUIDADO: el luchador (Super Porky) ya falleció. Los textos no lo nombran ni hablan de su cuerpo; el clip deja fuera los chistes sobre su peso. Al publicar no añadas su nombre ni comentarios sobre él. El «¿cómo estuvo allá arriba?» de la ficha queda fuera del corte: los textos citan «¿cómo la pasaste en la arena?». La broma final de un anfitrión («otra dimensión en la que Yordi Rosado murió…») es sobre Yordi y no se repite en los textos.",
-                         "comprobado":  "2026-11-11T11:18:52-05:00",
+                         "comprobado":  "2026-11-13T18:01:45-05:00",
                          "detalle_plataforma":  "SEND_TO_USER_INBOX",
                          "ultima_comprobacion":  {
-                                                     "fecha":  "2026-11-11T11:18:52-05:00",
+                                                     "fecha":  "2026-11-13T18:01:45-05:00",
                                                      "estado":  "en_borradores",
                                                      "detalle":  "SEND_TO_USER_INBOX"
                                                  }
@@ -8846,10 +8861,10 @@
                          "motivo":  "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta risas (@legion.risas) el 2026-11-10T20:36:12-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
                          "creado":  "2026-11-10T20:34:24-05:00",
                          "revision_pendiente":  "La broma es el despiste de Iván Marín, no Jessi Uribe: los textos no se burlan de Jessi. La respuesta de Jessi va como «según cuenta» Iván.",
-                         "comprobado":  "2026-11-11T11:18:54-05:00",
+                         "comprobado":  "2026-11-13T18:01:46-05:00",
                          "detalle_plataforma":  "SEND_TO_USER_INBOX",
                          "ultima_comprobacion":  {
-                                                     "fecha":  "2026-11-11T11:18:54-05:00",
+                                                     "fecha":  "2026-11-13T18:01:46-05:00",
                                                      "estado":  "en_borradores",
                                                      "detalle":  "SEND_TO_USER_INBOX"
                                                  }
@@ -8951,10 +8966,10 @@
                          "motivo":  "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta risas (@legion.risas) el 2026-11-11T11:21:41-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
                          "creado":  "2026-11-10T20:34:24-05:00",
                          "revision_pendiente":  "Autocrítica en broma de Yordi Rosado. Los textos dejan fuera el «cabrón» de la cita de la ficha.",
-                         "comprobado":  "2026-11-11T11:23:14-05:00",
+                         "comprobado":  "2026-11-13T18:01:48-05:00",
                          "detalle_plataforma":  "SEND_TO_USER_INBOX",
                          "ultima_comprobacion":  {
-                                                     "fecha":  "2026-11-11T11:23:14-05:00",
+                                                     "fecha":  "2026-11-13T18:01:48-05:00",
                                                      "estado":  "en_borradores",
                                                      "detalle":  "SEND_TO_USER_INBOX"
                                                  }
@@ -9056,10 +9071,10 @@
                          "motivo":  "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta risas (@legion.risas) el 2026-11-11T11:22:18-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
                          "creado":  "2026-11-10T20:34:24-05:00",
                          "revision_pendiente":  "ESCUCHAR: hacia el segundo 33 los subtítulos dicen «letras» y puede ser «lentes» (ficha, notas técnicas). Los textos no citan esa frase ni dicen que se niegue a agrandar las letras del celular. El remate del mensaje de mamá lo ponen los anfitriones.",
-                         "comprobado":  "2026-11-11T11:24:30-05:00",
+                         "comprobado":  "2026-11-13T18:01:49-05:00",
                          "detalle_plataforma":  "SEND_TO_USER_INBOX",
                          "ultima_comprobacion":  {
-                                                     "fecha":  "2026-11-11T11:24:30-05:00",
+                                                     "fecha":  "2026-11-13T18:01:49-05:00",
                                                      "estado":  "en_borradores",
                                                      "detalle":  "SEND_TO_USER_INBOX"
                                                  }
@@ -9129,6 +9144,1170 @@
                          "motivo":  "Pendiente de aprobación. YouTube solo tiene la cuenta principal (línea «todo»). La plataforma aún no está activa ni tiene credenciales: aprobarla ahora solo la deja lista para cuando se active.",
                          "creado":  "2026-11-10T20:34:24-05:00",
                          "revision_pendiente":  "ESCUCHAR: hacia el segundo 33 los subtítulos dicen «letras» y puede ser «lentes» (ficha, notas técnicas). Los textos no citan esa frase ni dicen que se niegue a agrandar las letras del celular. El remate del mensaje de mamá lo ponen los anfitriones."
+                     },
+                     {
+                         "clip":  "2026-11-11-francupido-plantada-langosta",
+                         "plataforma":  "tiktok",
+                         "cuenta":  "risas",
+                         "pieza":  "2026-11-11-francupido-plantada-langosta",
+                         "gancho":  "La dejaron plantada y cenó langosta",
+                         "linea":  "risas",
+                         "oportunidad_cazador":  null,
+                         "estado":  "en_borradores",
+                         "envio":  "datos/publicador/envios/2026-11-11-francupido-plantada-langosta__tiktok.json",
+                         "puntaje":  79,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-15",
+                         "aprobado":  "2026-11-13T18:08:08-05:00",
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-13T18:06:21-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  42.3,
+                                                   "huella":  "340358fab67a4c65c898f7326181ebc0dcb8f2d54e15db5b7aa0d124555f30f6"
+                                               },
+                         "id_publicacion":  "v_inbox_file~v2.7707796798370334734",
+                         "url":  null,
+                         "privacidad":  "borrador",
+                         "publicado":  "2026-11-13T18:08:27-05:00",
+                         "motivo":  "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta risas (@legion.risas) el 2026-11-13T18:08:27-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
+                         "creado":  "2026-11-13T18:08:08-05:00",
+                         "revision_pendiente":  "Lupita es participante del programa: los textos no se burlan de ella. Que Abel no llegó lo confirma Franco en el episodio (30:13), fuera del clip; el gancho en pantalla ya lo dice.",
+                         "comprobado":  "2026-11-13T18:11:01-05:00",
+                         "detalle_plataforma":  "SEND_TO_USER_INBOX",
+                         "ultima_comprobacion":  {
+                                                     "fecha":  "2026-11-13T18:11:01-05:00",
+                                                     "estado":  "en_borradores",
+                                                     "detalle":  "SEND_TO_USER_INBOX"
+                                                 }
+                     },
+                     {
+                         "clip":  "2026-11-11-francupido-plantada-langosta",
+                         "plataforma":  "instagram",
+                         "cuenta":  "risas",
+                         "pieza":  "2026-11-11-francupido-plantada-langosta",
+                         "gancho":  "La dejaron plantada y cenó langosta",
+                         "linea":  "risas",
+                         "oportunidad_cazador":  null,
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-11-11-francupido-plantada-langosta__instagram.json",
+                         "puntaje":  79,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-15",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-13T18:06:22-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  42.3,
+                                                   "huella":  "3bb93f50d4d35d2906a6ec8fdb7108c71369dbbf21d5e49d57125693e19beb65"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Pendiente de aprobación. Va a la cuenta risas de Instagram: la línea risas nunca sale por la cuenta urbana y espera a la cuenta risas aunque esté apagada (config.json; mismo criterio que el ciclo 6). La cuenta risas de Instagram está apagada y sin credenciales, e Instagram no está activo: aprobarla ahora solo la deja lista para cuando se active.",
+                         "creado":  "2026-11-13T18:08:08-05:00",
+                         "revision_pendiente":  "Lupita es participante del programa: los textos no se burlan de ella. Que Abel no llegó lo confirma Franco en el episodio (30:13), fuera del clip; el gancho en pantalla ya lo dice."
+                     },
+                     {
+                         "clip":  "2026-11-11-francupido-plantada-langosta",
+                         "plataforma":  "youtube",
+                         "cuenta":  "principal",
+                         "pieza":  "2026-11-11-francupido-plantada-langosta",
+                         "gancho":  "La dejaron plantada y cenó langosta",
+                         "linea":  "risas",
+                         "oportunidad_cazador":  null,
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-11-11-francupido-plantada-langosta__youtube.json",
+                         "puntaje":  79,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-15",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-13T18:06:24-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  42.3,
+                                                   "huella":  "6920de6b1138cfc2da41db005babb06530ea86725b2820928ce6597cce2fa108"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Pendiente de aprobación. YouTube solo tiene la cuenta principal (línea «todo»). La plataforma aún no está activa ni tiene credenciales: aprobarla ahora solo la deja lista para cuando se active.",
+                         "creado":  "2026-11-13T18:08:08-05:00",
+                         "revision_pendiente":  "Lupita es participante del programa: los textos no se burlan de ella. Que Abel no llegó lo confirma Franco en el episodio (30:13), fuera del clip; el gancho en pantalla ya lo dice."
+                     },
+                     {
+                         "clip":  "2026-11-10-culpa-super-alexis",
+                         "plataforma":  "tiktok",
+                         "cuenta":  "risas",
+                         "pieza":  "2026-11-10-culpa-super-alexis",
+                         "gancho":  "Lo saludó como Alexis Lozano… y era Nino",
+                         "linea":  "risas",
+                         "oportunidad_cazador":  null,
+                         "estado":  "en_borradores",
+                         "envio":  "datos/publicador/envios/2026-11-10-culpa-super-alexis__tiktok.json",
+                         "puntaje":  77,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-17",
+                         "aprobado":  "2026-11-13T18:08:08-05:00",
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-13T18:06:25-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  66.9,
+                                                   "huella":  "f63e6de4166bf7fdcd06b3ce3b55b7c7ecb9042938ed713a7b2a9ccc3ff2c8be"
+                                               },
+                         "id_publicacion":  "v_inbox_file~v2.7707796967094601742",
+                         "url":  null,
+                         "privacidad":  "borrador",
+                         "publicado":  "2026-11-13T18:09:08-05:00",
+                         "motivo":  "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta risas (@legion.risas) el 2026-11-13T18:09:08-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
+                         "creado":  "2026-11-13T18:08:08-05:00",
+                         "revision_pendiente":  "La ficha pide comprobar quién cuenta la anécdota antes de nombrarlo: los textos no lo nombran («uno de Los De La Culpa»).",
+                         "comprobado":  "2026-11-13T18:11:06-05:00",
+                         "detalle_plataforma":  "SEND_TO_USER_INBOX",
+                         "ultima_comprobacion":  {
+                                                     "fecha":  "2026-11-13T18:11:06-05:00",
+                                                     "estado":  "en_borradores",
+                                                     "detalle":  "SEND_TO_USER_INBOX"
+                                                 }
+                     },
+                     {
+                         "clip":  "2026-11-10-culpa-super-alexis",
+                         "plataforma":  "instagram",
+                         "cuenta":  "risas",
+                         "pieza":  "2026-11-10-culpa-super-alexis",
+                         "gancho":  "Lo saludó como Alexis Lozano… y era Nino",
+                         "linea":  "risas",
+                         "oportunidad_cazador":  null,
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-11-10-culpa-super-alexis__instagram.json",
+                         "puntaje":  77,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-17",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-13T18:06:26-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  66.9,
+                                                   "huella":  "5e8b689dc36ec55d863cdb8df790c965cdbd1d9c1ff5c34490ffbefbff27c349"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Pendiente de aprobación. Va a la cuenta risas de Instagram: la línea risas nunca sale por la cuenta urbana y espera a la cuenta risas aunque esté apagada (config.json; mismo criterio que el ciclo 6). La cuenta risas de Instagram está apagada y sin credenciales, e Instagram no está activo: aprobarla ahora solo la deja lista para cuando se active.",
+                         "creado":  "2026-11-13T18:08:08-05:00",
+                         "revision_pendiente":  "La ficha pide comprobar quién cuenta la anécdota antes de nombrarlo: los textos no lo nombran («uno de Los De La Culpa»)."
+                     },
+                     {
+                         "clip":  "2026-11-10-culpa-super-alexis",
+                         "plataforma":  "youtube",
+                         "cuenta":  "principal",
+                         "pieza":  "2026-11-10-culpa-super-alexis",
+                         "gancho":  "Lo saludó como Alexis Lozano… y era Nino",
+                         "linea":  "risas",
+                         "oportunidad_cazador":  null,
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-11-10-culpa-super-alexis__youtube.json",
+                         "puntaje":  77,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-17",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-13T18:06:28-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  66.9,
+                                                   "huella":  "ee7dc8fd719743d5edcff58f84e67d7072f6ce6741cd0319103b69f173fb2368"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Pendiente de aprobación. YouTube solo tiene la cuenta principal (línea «todo»). La plataforma aún no está activa ni tiene credenciales: aprobarla ahora solo la deja lista para cuando se active.",
+                         "creado":  "2026-11-13T18:08:08-05:00",
+                         "revision_pendiente":  "La ficha pide comprobar quién cuenta la anécdota antes de nombrarlo: los textos no lo nombran («uno de Los De La Culpa»)."
+                     },
+                     {
+                         "clip":  "2026-11-12-cotorrisa-codigo-22",
+                         "plataforma":  "tiktok",
+                         "cuenta":  "risas",
+                         "pieza":  "2026-11-12-cotorrisa-codigo-22",
+                         "gancho":  "El \u0027código 22\u0027 de los restaurantes",
+                         "linea":  "risas",
+                         "oportunidad_cazador":  null,
+                         "estado":  "en_borradores",
+                         "envio":  "datos/publicador/envios/2026-11-12-cotorrisa-codigo-22__tiktok.json",
+                         "puntaje":  74,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-17",
+                         "aprobado":  "2026-11-13T18:08:08-05:00",
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-13T18:06:29-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  71.1,
+                                                   "huella":  "5736020358123760579bfa3cebfb0053b3e0fa9dfb27e5d5b9d0008f4d5acd99"
+                                               },
+                         "id_publicacion":  "v_inbox_file~v2.7707797019456653325",
+                         "url":  null,
+                         "privacidad":  "borrador",
+                         "publicado":  "2026-11-13T18:09:23-05:00",
+                         "motivo":  "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta risas (@legion.risas) el 2026-11-13T18:09:23-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
+                         "creado":  "2026-11-13T18:08:08-05:00",
+                         "revision_pendiente":  "El código 22 se lo aplicaban a Adal Ramones (Yordi lo nombra en el audio). El título de TikTok de la ficha decía que le pagaban la cuenta a Yordi; se cambió por «Yordi Rosado revela qué era el código 22».",
+                         "comprobado":  "2026-11-13T18:11:08-05:00",
+                         "detalle_plataforma":  "SEND_TO_USER_INBOX",
+                         "ultima_comprobacion":  {
+                                                     "fecha":  "2026-11-13T18:11:08-05:00",
+                                                     "estado":  "en_borradores",
+                                                     "detalle":  "SEND_TO_USER_INBOX"
+                                                 }
+                     },
+                     {
+                         "clip":  "2026-11-12-cotorrisa-codigo-22",
+                         "plataforma":  "instagram",
+                         "cuenta":  "risas",
+                         "pieza":  "2026-11-12-cotorrisa-codigo-22",
+                         "gancho":  "El \u0027código 22\u0027 de los restaurantes",
+                         "linea":  "risas",
+                         "oportunidad_cazador":  null,
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-11-12-cotorrisa-codigo-22__instagram.json",
+                         "puntaje":  74,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-17",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-13T18:06:30-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  71.1,
+                                                   "huella":  "92bd0d8b1a4ed01df2cc7ac3a6d41b43fe55ecbb1f9a1543195a9d861fa0a2d7"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Pendiente de aprobación. Va a la cuenta risas de Instagram: la línea risas nunca sale por la cuenta urbana y espera a la cuenta risas aunque esté apagada (config.json; mismo criterio que el ciclo 6). La cuenta risas de Instagram está apagada y sin credenciales, e Instagram no está activo: aprobarla ahora solo la deja lista para cuando se active.",
+                         "creado":  "2026-11-13T18:08:08-05:00",
+                         "revision_pendiente":  "El código 22 se lo aplicaban a Adal Ramones (Yordi lo nombra en el audio). El título de TikTok de la ficha decía que le pagaban la cuenta a Yordi; se cambió por «Yordi Rosado revela qué era el código 22»."
+                     },
+                     {
+                         "clip":  "2026-11-12-cotorrisa-codigo-22",
+                         "plataforma":  "youtube",
+                         "cuenta":  "principal",
+                         "pieza":  "2026-11-12-cotorrisa-codigo-22",
+                         "gancho":  "El \u0027código 22\u0027 de los restaurantes",
+                         "linea":  "risas",
+                         "oportunidad_cazador":  null,
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-11-12-cotorrisa-codigo-22__youtube.json",
+                         "puntaje":  74,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-17",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-13T18:06:31-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  71.1,
+                                                   "huella":  "8baf036ebe6a8e540b9c01221804792c3b8647a278a4dd55833eae685269944c"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Pendiente de aprobación. YouTube solo tiene la cuenta principal (línea «todo»). La plataforma aún no está activa ni tiene credenciales: aprobarla ahora solo la deja lista para cuando se active.",
+                         "creado":  "2026-11-13T18:08:08-05:00",
+                         "revision_pendiente":  "El código 22 se lo aplicaban a Adal Ramones (Yordi lo nombra en el audio). El título de TikTok de la ficha decía que le pagaban la cuenta a Yordi; se cambió por «Yordi Rosado revela qué era el código 22»."
+                     },
+                     {
+                         "clip":  "2026-11-12-culpa-quevedo-mentiras",
+                         "plataforma":  "tiktok",
+                         "cuenta":  "risas",
+                         "pieza":  "2026-11-12-culpa-quevedo-mentiras",
+                         "gancho":  "Ricardo Quevedo: \u0027digan mentiras con buena intención\u0027",
+                         "linea":  "risas",
+                         "oportunidad_cazador":  null,
+                         "estado":  "aprobado",
+                         "envio":  "datos/publicador/envios/2026-11-12-culpa-quevedo-mentiras__tiktok.json",
+                         "puntaje":  72,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-17",
+                         "aprobado":  "2026-11-13T18:08:08-05:00",
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-13T18:06:32-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  31.7,
+                                                   "huella":  "1fafb29f3734e6ef73810288734eecf3c0ef508b6c1812a2d808240a09af3ff7"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10): va como borrador a la bandeja de TikTok de la cuenta risas (@legion.risas). Ciclo 7 (2026-11-13): no cupo (4 de 4 hoy en risas). Previsto 14-nov.",
+                         "creado":  "2026-11-13T18:08:08-05:00",
+                         "revision_pendiente":  "Los textos citan la frase de la descripción revisada de la ficha («Digan mentiras con buena intención»); no usan «No digan la verdad», que solo estaba en el título sugerido."
+                     },
+                     {
+                         "clip":  "2026-11-12-culpa-quevedo-mentiras",
+                         "plataforma":  "instagram",
+                         "cuenta":  "risas",
+                         "pieza":  "2026-11-12-culpa-quevedo-mentiras",
+                         "gancho":  "Ricardo Quevedo: \u0027digan mentiras con buena intención\u0027",
+                         "linea":  "risas",
+                         "oportunidad_cazador":  null,
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-11-12-culpa-quevedo-mentiras__instagram.json",
+                         "puntaje":  72,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-17",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-13T18:06:33-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  31.7,
+                                                   "huella":  "78674b49fe300d849f1ee94525b1041e4da2414a9fac4a27b47a2cb5aa044fdc"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Pendiente de aprobación. Va a la cuenta risas de Instagram: la línea risas nunca sale por la cuenta urbana y espera a la cuenta risas aunque esté apagada (config.json; mismo criterio que el ciclo 6). La cuenta risas de Instagram está apagada y sin credenciales, e Instagram no está activo: aprobarla ahora solo la deja lista para cuando se active.",
+                         "creado":  "2026-11-13T18:08:08-05:00",
+                         "revision_pendiente":  "Los textos citan la frase de la descripción revisada de la ficha («Digan mentiras con buena intención»); no usan «No digan la verdad», que solo estaba en el título sugerido."
+                     },
+                     {
+                         "clip":  "2026-11-12-culpa-quevedo-mentiras",
+                         "plataforma":  "youtube",
+                         "cuenta":  "principal",
+                         "pieza":  "2026-11-12-culpa-quevedo-mentiras",
+                         "gancho":  "Ricardo Quevedo: \u0027digan mentiras con buena intención\u0027",
+                         "linea":  "risas",
+                         "oportunidad_cazador":  null,
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-11-12-culpa-quevedo-mentiras__youtube.json",
+                         "puntaje":  72,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-17",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-13T18:06:34-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  31.7,
+                                                   "huella":  "fc5f8e6fe3f618d4ebe66841874f3c4820f86dd25af8ac24e35cb3f9969898b1"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Pendiente de aprobación. YouTube solo tiene la cuenta principal (línea «todo»). La plataforma aún no está activa ni tiene credenciales: aprobarla ahora solo la deja lista para cuando se active.",
+                         "creado":  "2026-11-13T18:08:08-05:00",
+                         "revision_pendiente":  "Los textos citan la frase de la descripción revisada de la ficha («Digan mentiras con buena intención»); no usan «No digan la verdad», que solo estaba en el título sugerido."
+                     },
+                     {
+                         "clip":  "2026-11-12-culpa-ivan-piscina",
+                         "plataforma":  "tiktok",
+                         "cuenta":  "risas",
+                         "pieza":  "2026-11-12-culpa-ivan-piscina",
+                         "gancho":  "El consejo que casi ahoga a Iván Marín",
+                         "linea":  "risas",
+                         "oportunidad_cazador":  null,
+                         "estado":  "aprobado",
+                         "envio":  "datos/publicador/envios/2026-11-12-culpa-ivan-piscina__tiktok.json",
+                         "puntaje":  70,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-17",
+                         "aprobado":  "2026-11-13T18:08:08-05:00",
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-13T18:06:36-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  21.8,
+                                                   "huella":  "5434def2ed047b9a26a6e2acbd83ea712fe22c32bce889354924dcef598d7fa9"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10): va como borrador a la bandeja de TikTok de la cuenta risas (@legion.risas). Ciclo 7 (2026-11-13): no cupo (4 de 4 hoy en risas). Previsto 14-nov.",
+                         "creado":  "2026-11-13T18:08:08-05:00",
+                         "revision_pendiente":  "Anécdota de infancia del propio Iván Marín. La ficha pide separarlo del otro clip de Iván (culpa-ivan-senorazo, en la bandeja desde el 10-nov)."
+                     },
+                     {
+                         "clip":  "2026-11-12-culpa-ivan-piscina",
+                         "plataforma":  "instagram",
+                         "cuenta":  "risas",
+                         "pieza":  "2026-11-12-culpa-ivan-piscina",
+                         "gancho":  "El consejo que casi ahoga a Iván Marín",
+                         "linea":  "risas",
+                         "oportunidad_cazador":  null,
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-11-12-culpa-ivan-piscina__instagram.json",
+                         "puntaje":  70,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-17",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-13T18:06:36-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  21.8,
+                                                   "huella":  "2406ebe1763d22e55c35990e44a20d1d43d3a4267173e5cddbf5e675d9371fb1"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Pendiente de aprobación. Va a la cuenta risas de Instagram: la línea risas nunca sale por la cuenta urbana y espera a la cuenta risas aunque esté apagada (config.json; mismo criterio que el ciclo 6). La cuenta risas de Instagram está apagada y sin credenciales, e Instagram no está activo: aprobarla ahora solo la deja lista para cuando se active.",
+                         "creado":  "2026-11-13T18:08:08-05:00",
+                         "revision_pendiente":  "Anécdota de infancia del propio Iván Marín. La ficha pide separarlo del otro clip de Iván (culpa-ivan-senorazo, en la bandeja desde el 10-nov)."
+                     },
+                     {
+                         "clip":  "2026-11-12-culpa-ivan-piscina",
+                         "plataforma":  "youtube",
+                         "cuenta":  "principal",
+                         "pieza":  "2026-11-12-culpa-ivan-piscina",
+                         "gancho":  "El consejo que casi ahoga a Iván Marín",
+                         "linea":  "risas",
+                         "oportunidad_cazador":  null,
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-11-12-culpa-ivan-piscina__youtube.json",
+                         "puntaje":  70,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-17",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-13T18:06:37-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  21.8,
+                                                   "huella":  "da5f598998cd227442183c7abaad1663bcb45f3214d9d836846b55a07bf17b9a"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Pendiente de aprobación. YouTube solo tiene la cuenta principal (línea «todo»). La plataforma aún no está activa ni tiene credenciales: aprobarla ahora solo la deja lista para cuando se active.",
+                         "creado":  "2026-11-13T18:08:08-05:00",
+                         "revision_pendiente":  "Anécdota de infancia del propio Iván Marín. La ficha pide separarlo del otro clip de Iván (culpa-ivan-senorazo, en la bandeja desde el 10-nov)."
+                     },
+                     {
+                         "clip":  "2026-11-12-cotorrisa-harvard",
+                         "plataforma":  "tiktok",
+                         "cuenta":  "risas",
+                         "pieza":  "2026-11-12-cotorrisa-harvard",
+                         "gancho":  "Por qué hay gente que te baja los sueños",
+                         "linea":  "risas",
+                         "oportunidad_cazador":  null,
+                         "estado":  "aprobado",
+                         "envio":  "datos/publicador/envios/2026-11-12-cotorrisa-harvard__tiktok.json",
+                         "puntaje":  70,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-17",
+                         "aprobado":  "2026-11-13T18:08:08-05:00",
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-13T18:06:38-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  61.5,
+                                                   "huella":  "79e193f513869200c2f93d55ea26f896a369cf627c1c62c313cdd37c865959e9"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10): va como borrador a la bandeja de TikTok de la cuenta risas (@legion.risas). Ciclo 7 (2026-11-13): no cupo (4 de 4 hoy en risas). Previsto 14-nov.",
+                         "creado":  "2026-11-13T18:08:08-05:00",
+                         "revision_pendiente":  "La frase de «la fila del salón» lleva una palabra censurada en la ficha: los textos no la citan («te baja de la nube»)."
+                     },
+                     {
+                         "clip":  "2026-11-12-cotorrisa-harvard",
+                         "plataforma":  "instagram",
+                         "cuenta":  "risas",
+                         "pieza":  "2026-11-12-cotorrisa-harvard",
+                         "gancho":  "Por qué hay gente que te baja los sueños",
+                         "linea":  "risas",
+                         "oportunidad_cazador":  null,
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-11-12-cotorrisa-harvard__instagram.json",
+                         "puntaje":  70,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-17",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-13T18:06:40-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  61.5,
+                                                   "huella":  "07c5c07a24dece0d1a9b8d9c1845837bbe71e338ce22afbe387a33c66104c8e7"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Pendiente de aprobación. Va a la cuenta risas de Instagram: la línea risas nunca sale por la cuenta urbana y espera a la cuenta risas aunque esté apagada (config.json; mismo criterio que el ciclo 6). La cuenta risas de Instagram está apagada y sin credenciales, e Instagram no está activo: aprobarla ahora solo la deja lista para cuando se active.",
+                         "creado":  "2026-11-13T18:08:08-05:00",
+                         "revision_pendiente":  "La frase de «la fila del salón» lleva una palabra censurada en la ficha: los textos no la citan («te baja de la nube»)."
+                     },
+                     {
+                         "clip":  "2026-11-12-cotorrisa-harvard",
+                         "plataforma":  "youtube",
+                         "cuenta":  "principal",
+                         "pieza":  "2026-11-12-cotorrisa-harvard",
+                         "gancho":  "Por qué hay gente que te baja los sueños",
+                         "linea":  "risas",
+                         "oportunidad_cazador":  null,
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-11-12-cotorrisa-harvard__youtube.json",
+                         "puntaje":  70,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-17",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-13T18:06:41-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  61.5,
+                                                   "huella":  "6b94395dd61df5269a8dfdb2c015f00e66690f0edbe40aefe27598eda6c968c8"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Pendiente de aprobación. YouTube solo tiene la cuenta principal (línea «todo»). La plataforma aún no está activa ni tiene credenciales: aprobarla ahora solo la deja lista para cuando se active.",
+                         "creado":  "2026-11-13T18:08:08-05:00",
+                         "revision_pendiente":  "La frase de «la fila del salón» lleva una palabra censurada en la ficha: los textos no la citan («te baja de la nube»)."
+                     },
+                     {
+                         "clip":  "2026-11-12-cotorrisa-dedito-flaco",
+                         "plataforma":  "tiktok",
+                         "cuenta":  "risas",
+                         "pieza":  "2026-11-12-cotorrisa-dedito-flaco",
+                         "gancho":  "Cómo elegir al doctor del tacto",
+                         "linea":  "risas",
+                         "oportunidad_cazador":  null,
+                         "estado":  "aprobado",
+                         "envio":  "datos/publicador/envios/2026-11-12-cotorrisa-dedito-flaco__tiktok.json",
+                         "puntaje":  70,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-17",
+                         "aprobado":  "2026-11-13T18:08:08-05:00",
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-13T18:06:42-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  23,
+                                                   "huella":  "2497e3439ab400e0534b08e1668112b84f41a108df7bd40067dd3643ea640f5b"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10): va como borrador a la bandeja de TikTok de la cuenta risas (@legion.risas). Ciclo 7 (2026-11-13): no cupo (4 de 4 hoy en risas). Previsto 14-nov.",
+                         "creado":  "2026-11-13T18:08:08-05:00",
+                         "revision_pendiente":  "La ficha pide comprobar quién de los conductores dice el remate: los textos no lo nombran. Bromea con el examen, no con la enfermedad."
+                     },
+                     {
+                         "clip":  "2026-11-12-cotorrisa-dedito-flaco",
+                         "plataforma":  "instagram",
+                         "cuenta":  "risas",
+                         "pieza":  "2026-11-12-cotorrisa-dedito-flaco",
+                         "gancho":  "Cómo elegir al doctor del tacto",
+                         "linea":  "risas",
+                         "oportunidad_cazador":  null,
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-11-12-cotorrisa-dedito-flaco__instagram.json",
+                         "puntaje":  70,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-17",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-13T18:06:44-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  23,
+                                                   "huella":  "f345ac30a18ac024ed49d4336fbcfe364be5ea68dc6514579b819638bfd3a55b"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Pendiente de aprobación. Va a la cuenta risas de Instagram: la línea risas nunca sale por la cuenta urbana y espera a la cuenta risas aunque esté apagada (config.json; mismo criterio que el ciclo 6). La cuenta risas de Instagram está apagada y sin credenciales, e Instagram no está activo: aprobarla ahora solo la deja lista para cuando se active.",
+                         "creado":  "2026-11-13T18:08:08-05:00",
+                         "revision_pendiente":  "La ficha pide comprobar quién de los conductores dice el remate: los textos no lo nombran. Bromea con el examen, no con la enfermedad."
+                     },
+                     {
+                         "clip":  "2026-11-12-cotorrisa-dedito-flaco",
+                         "plataforma":  "youtube",
+                         "cuenta":  "principal",
+                         "pieza":  "2026-11-12-cotorrisa-dedito-flaco",
+                         "gancho":  "Cómo elegir al doctor del tacto",
+                         "linea":  "risas",
+                         "oportunidad_cazador":  null,
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-11-12-cotorrisa-dedito-flaco__youtube.json",
+                         "puntaje":  70,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-17",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-13T18:06:46-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  23,
+                                                   "huella":  "62501f6aa9dc8e377445fe40361a44020e86f31981bfa12701418c1f786235da"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Pendiente de aprobación. YouTube solo tiene la cuenta principal (línea «todo»). La plataforma aún no está activa ni tiene credenciales: aprobarla ahora solo la deja lista para cuando se active.",
+                         "creado":  "2026-11-13T18:08:08-05:00",
+                         "revision_pendiente":  "La ficha pide comprobar quién de los conductores dice el remate: los textos no lo nombran. Bromea con el examen, no con la enfermedad."
+                     },
+                     {
+                         "clip":  "2026-11-12-ballarta-champana",
+                         "plataforma":  "tiktok",
+                         "cuenta":  "risas",
+                         "pieza":  "2026-11-12-ballarta-champana",
+                         "gancho":  "Ballarta y el amigo que no toma nada",
+                         "linea":  "risas",
+                         "oportunidad_cazador":  null,
+                         "estado":  "en_borradores",
+                         "envio":  "datos/publicador/envios/2026-11-12-ballarta-champana__tiktok.json",
+                         "puntaje":  67,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-15",
+                         "aprobado":  "2026-11-13T18:08:08-05:00",
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-13T18:06:47-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  38.5,
+                                                   "huella":  "2349b4db37772848159dc3df8b951735829285dd830bca2b0f84d269f2741162"
+                                               },
+                         "id_publicacion":  "v_inbox_file~v2.7707796828335523854",
+                         "url":  null,
+                         "privacidad":  "borrador",
+                         "publicado":  "2026-11-13T18:08:53-05:00",
+                         "motivo":  "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta risas (@legion.risas) el 2026-11-13T18:08:53-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
+                         "creado":  "2026-11-13T18:08:08-05:00",
+                         "revision_pendiente":  "Ballarta se llama a sí mismo «borrachín» en la anécdota; los textos no lo repiten.",
+                         "comprobado":  "2026-11-13T18:11:04-05:00",
+                         "detalle_plataforma":  "SEND_TO_USER_INBOX",
+                         "ultima_comprobacion":  {
+                                                     "fecha":  "2026-11-13T18:11:04-05:00",
+                                                     "estado":  "en_borradores",
+                                                     "detalle":  "SEND_TO_USER_INBOX"
+                                                 }
+                     },
+                     {
+                         "clip":  "2026-11-12-ballarta-champana",
+                         "plataforma":  "instagram",
+                         "cuenta":  "risas",
+                         "pieza":  "2026-11-12-ballarta-champana",
+                         "gancho":  "Ballarta y el amigo que no toma nada",
+                         "linea":  "risas",
+                         "oportunidad_cazador":  null,
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-11-12-ballarta-champana__instagram.json",
+                         "puntaje":  67,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-15",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-13T18:06:49-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  38.5,
+                                                   "huella":  "1d939582cfa2d8ebc1682b5604cbc2567cd4c245d04b28e7aed60bb38830068d"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Pendiente de aprobación. Va a la cuenta risas de Instagram: la línea risas nunca sale por la cuenta urbana y espera a la cuenta risas aunque esté apagada (config.json; mismo criterio que el ciclo 6). La cuenta risas de Instagram está apagada y sin credenciales, e Instagram no está activo: aprobarla ahora solo la deja lista para cuando se active.",
+                         "creado":  "2026-11-13T18:08:08-05:00",
+                         "revision_pendiente":  "Ballarta se llama a sí mismo «borrachín» en la anécdota; los textos no lo repiten."
+                     },
+                     {
+                         "clip":  "2026-11-12-ballarta-champana",
+                         "plataforma":  "youtube",
+                         "cuenta":  "principal",
+                         "pieza":  "2026-11-12-ballarta-champana",
+                         "gancho":  "Ballarta y el amigo que no toma nada",
+                         "linea":  "risas",
+                         "oportunidad_cazador":  null,
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-11-12-ballarta-champana__youtube.json",
+                         "puntaje":  67,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-15",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-13T18:06:50-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  38.5,
+                                                   "huella":  "ca340e41b65eb5bd75128f16e39e73e2f619831c8168dc0fc3e45ec225ecc404"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Pendiente de aprobación. YouTube solo tiene la cuenta principal (línea «todo»). La plataforma aún no está activa ni tiene credenciales: aprobarla ahora solo la deja lista para cuando se active.",
+                         "creado":  "2026-11-13T18:08:08-05:00",
+                         "revision_pendiente":  "Ballarta se llama a sí mismo «borrachín» en la anécdota; los textos no lo repiten."
+                     },
+                     {
+                         "clip":  "2026-11-11-westcol-samulx-mosquito-ia",
+                         "plataforma":  "tiktok",
+                         "cuenta":  "principal",
+                         "pieza":  "2026-11-11-westcol-samulx-mosquito-ia",
+                         "gancho":  "Le piden a la IA traducir al mosquito",
+                         "linea":  "urbano",
+                         "oportunidad_cazador":  "tema-stream-fighters-5",
+                         "estado":  "en_borradores",
+                         "envio":  "datos/publicador/envios/2026-11-11-westcol-samulx-mosquito-ia__tiktok.json",
+                         "puntaje":  82,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-14",
+                         "aprobado":  "2026-11-13T18:08:08-05:00",
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-13T18:06:52-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  73.9,
+                                                   "huella":  "060cf013c88577bae4f9c5d1355360c1c283af07ea594dcae4f5c61c56a00b30"
+                                               },
+                         "id_publicacion":  "v_inbox_file~v2.7707797096946255886",
+                         "url":  null,
+                         "privacidad":  "borrador",
+                         "publicado":  "2026-11-13T18:09:47-05:00",
+                         "motivo":  "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta principal (Legión Urbana) el 2026-11-13T18:09:47-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
+                         "creado":  "2026-11-13T18:08:08-05:00",
+                         "revision_pendiente":  "Westcol dice en broma que el chikunguña es una «enfermedad sexual» (la IA no lo valida): los textos no lo repiten.",
+                         "comprobado":  "2026-11-13T18:11:09-05:00",
+                         "detalle_plataforma":  "SEND_TO_USER_INBOX",
+                         "ultima_comprobacion":  {
+                                                     "fecha":  "2026-11-13T18:11:09-05:00",
+                                                     "estado":  "en_borradores",
+                                                     "detalle":  "SEND_TO_USER_INBOX"
+                                                 }
+                     },
+                     {
+                         "clip":  "2026-11-11-westcol-samulx-mosquito-ia",
+                         "plataforma":  "instagram",
+                         "cuenta":  "principal",
+                         "pieza":  "2026-11-11-westcol-samulx-mosquito-ia",
+                         "gancho":  "Le piden a la IA traducir al mosquito",
+                         "linea":  "urbano",
+                         "oportunidad_cazador":  "tema-stream-fighters-5",
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-11-11-westcol-samulx-mosquito-ia__instagram.json",
+                         "puntaje":  82,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-14",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-13T18:06:53-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  73.9,
+                                                   "huella":  "2d9f9d98945370ca4c260fa1c36b779b801ac959f0eef0406d9b53ad70e7c2e7"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Pendiente de aprobación. Instagram no está activo ni tiene credenciales: aprobarla ahora solo la deja lista para cuando se active. Instagram no admite borradores: lo aprobado se publica al subir.",
+                         "creado":  "2026-11-13T18:08:08-05:00",
+                         "revision_pendiente":  "Westcol dice en broma que el chikunguña es una «enfermedad sexual» (la IA no lo valida): los textos no lo repiten."
+                     },
+                     {
+                         "clip":  "2026-11-11-westcol-samulx-mosquito-ia",
+                         "plataforma":  "youtube",
+                         "cuenta":  "principal",
+                         "pieza":  "2026-11-11-westcol-samulx-mosquito-ia",
+                         "gancho":  "Le piden a la IA traducir al mosquito",
+                         "linea":  "urbano",
+                         "oportunidad_cazador":  "tema-stream-fighters-5",
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-11-11-westcol-samulx-mosquito-ia__youtube.json",
+                         "puntaje":  82,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-14",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-13T18:06:55-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  73.9,
+                                                   "huella":  "3c9b73093251bc484ddff207e75329fd3f2a9309880ce11619c1760ff5670465"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Pendiente de aprobación. YouTube solo tiene la cuenta principal (línea «todo»). La plataforma aún no está activa ni tiene credenciales: aprobarla ahora solo la deja lista para cuando se active.",
+                         "creado":  "2026-11-13T18:08:08-05:00",
+                         "revision_pendiente":  "Westcol dice en broma que el chikunguña es una «enfermedad sexual» (la IA no lo valida): los textos no lo repiten."
+                     },
+                     {
+                         "clip":  "2026-11-11-westcol-samulx-bicho-gigante",
+                         "plataforma":  "tiktok",
+                         "cuenta":  "principal",
+                         "pieza":  "2026-11-11-westcol-samulx-bicho-gigante",
+                         "gancho":  "Se les metió un bicho gigante al stream",
+                         "linea":  "urbano",
+                         "oportunidad_cazador":  "tema-stream-fighters-5",
+                         "estado":  "en_borradores",
+                         "envio":  "datos/publicador/envios/2026-11-11-westcol-samulx-bicho-gigante__tiktok.json",
+                         "puntaje":  78,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-14",
+                         "aprobado":  "2026-11-13T18:08:08-05:00",
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-13T18:06:56-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  39.7,
+                                                   "huella":  "834beb93d41cacf4e27ebaeaa6df1e117302a0dde28ef614a352da0527752a3d"
+                                               },
+                         "id_publicacion":  "v_inbox_file~v2.7707797276378351629",
+                         "url":  null,
+                         "privacidad":  "borrador",
+                         "publicado":  "2026-11-13T18:10:09-05:00",
+                         "motivo":  "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta principal (Legión Urbana) el 2026-11-13T18:10:09-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
+                         "creado":  "2026-11-13T18:08:08-05:00",
+                         "revision_pendiente":  "Los textos no afirman qué animal era: la ficha sugería «libélula», que el clip no confirma.",
+                         "comprobado":  "2026-11-13T18:11:11-05:00",
+                         "detalle_plataforma":  "SEND_TO_USER_INBOX",
+                         "ultima_comprobacion":  {
+                                                     "fecha":  "2026-11-13T18:11:11-05:00",
+                                                     "estado":  "en_borradores",
+                                                     "detalle":  "SEND_TO_USER_INBOX"
+                                                 }
+                     },
+                     {
+                         "clip":  "2026-11-11-westcol-samulx-bicho-gigante",
+                         "plataforma":  "instagram",
+                         "cuenta":  "principal",
+                         "pieza":  "2026-11-11-westcol-samulx-bicho-gigante",
+                         "gancho":  "Se les metió un bicho gigante al stream",
+                         "linea":  "urbano",
+                         "oportunidad_cazador":  "tema-stream-fighters-5",
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-11-11-westcol-samulx-bicho-gigante__instagram.json",
+                         "puntaje":  78,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-14",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-13T18:06:57-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  39.7,
+                                                   "huella":  "e22ac84155dab165f9c4a4abcb12fbec8dd3e0e7f9e66770b2700e95d4711a50"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Pendiente de aprobación. Instagram no está activo ni tiene credenciales: aprobarla ahora solo la deja lista para cuando se active. Instagram no admite borradores: lo aprobado se publica al subir.",
+                         "creado":  "2026-11-13T18:08:08-05:00",
+                         "revision_pendiente":  "Los textos no afirman qué animal era: la ficha sugería «libélula», que el clip no confirma."
+                     },
+                     {
+                         "clip":  "2026-11-11-westcol-samulx-bicho-gigante",
+                         "plataforma":  "youtube",
+                         "cuenta":  "principal",
+                         "pieza":  "2026-11-11-westcol-samulx-bicho-gigante",
+                         "gancho":  "Se les metió un bicho gigante al stream",
+                         "linea":  "urbano",
+                         "oportunidad_cazador":  "tema-stream-fighters-5",
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-11-11-westcol-samulx-bicho-gigante__youtube.json",
+                         "puntaje":  78,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-14",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-13T18:06:58-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  39.7,
+                                                   "huella":  "c456f4fa506be4b0190e837e7568eb615b1bbf4cc10aea0ace061d831941e511"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Pendiente de aprobación. YouTube solo tiene la cuenta principal (línea «todo»). La plataforma aún no está activa ni tiene credenciales: aprobarla ahora solo la deja lista para cuando se active.",
+                         "creado":  "2026-11-13T18:08:08-05:00",
+                         "revision_pendiente":  "Los textos no afirman qué animal era: la ficha sugería «libélula», que el clip no confirma."
+                     },
+                     {
+                         "clip":  "2026-11-11-westcol-grefg-unico-golpe",
+                         "plataforma":  "tiktok",
+                         "cuenta":  "principal",
+                         "pieza":  "2026-11-11-westcol-grefg-unico-golpe",
+                         "gancho":  "El golpe de Grefg que sí sintió Westcol",
+                         "linea":  "urbano",
+                         "oportunidad_cazador":  "tema-stream-fighters-5",
+                         "estado":  "aprobado",
+                         "envio":  "datos/publicador/envios/2026-11-11-westcol-grefg-unico-golpe__tiktok.json",
+                         "puntaje":  74,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-14",
+                         "aprobado":  "2026-11-13T18:08:08-05:00",
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-13T18:06:59-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  59.4,
+                                                   "huella":  "1874fd42c5581e9e6c5b8e57c0c7396c607b390f4db198cf0acc92b013312af5"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10): va como borrador a la bandeja de TikTok de la cuenta principal. Ciclo 7 (2026-11-13): no cupo (4 de 4 hoy en principal; a igualdad de ventana, 14-nov, van antes los de más puntaje). Previsto 14-nov, en el primer ciclo dentro del horario: es el día de la pelea.",
+                         "creado":  "2026-11-13T18:08:08-05:00",
+                         "revision_pendiente":  "La imagen principal es el mapa de Cuphead; Westcol solo sale en la cámara pequeña. Los textos no dicen contra quién pelea el sábado (el título sugerido de la ficha decía «a días de pelear con Blessd», que el clip no muestra)."
+                     },
+                     {
+                         "clip":  "2026-11-11-westcol-grefg-unico-golpe",
+                         "plataforma":  "instagram",
+                         "cuenta":  "principal",
+                         "pieza":  "2026-11-11-westcol-grefg-unico-golpe",
+                         "gancho":  "El golpe de Grefg que sí sintió Westcol",
+                         "linea":  "urbano",
+                         "oportunidad_cazador":  "tema-stream-fighters-5",
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-11-11-westcol-grefg-unico-golpe__instagram.json",
+                         "puntaje":  74,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-14",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-13T18:07:00-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  59.4,
+                                                   "huella":  "1de730d4a3041b58af48a450536f0999f0d9a49b6d99e6a5250c763bb12fc06b"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Pendiente de aprobación. Instagram no está activo ni tiene credenciales: aprobarla ahora solo la deja lista para cuando se active. Instagram no admite borradores: lo aprobado se publica al subir.",
+                         "creado":  "2026-11-13T18:08:08-05:00",
+                         "revision_pendiente":  "La imagen principal es el mapa de Cuphead; Westcol solo sale en la cámara pequeña. Los textos no dicen contra quién pelea el sábado (el título sugerido de la ficha decía «a días de pelear con Blessd», que el clip no muestra)."
+                     },
+                     {
+                         "clip":  "2026-11-11-westcol-grefg-unico-golpe",
+                         "plataforma":  "youtube",
+                         "cuenta":  "principal",
+                         "pieza":  "2026-11-11-westcol-grefg-unico-golpe",
+                         "gancho":  "El golpe de Grefg que sí sintió Westcol",
+                         "linea":  "urbano",
+                         "oportunidad_cazador":  "tema-stream-fighters-5",
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "datos/publicador/envios/2026-11-11-westcol-grefg-unico-golpe__youtube.json",
+                         "puntaje":  74,
+                         "derechos":  "sin_verificar",
+                         "ventana_hasta":  "2026-11-14",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-13T18:07:02-05:00",
+                                                   "ok":  true,
+                                                   "estado":  "simulado",
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null,
+                                                   "duracion_seg":  59.4,
+                                                   "huella":  "04588acb1d07c6855c9ee91d423ce2813885feacbc10db0b9dbe556d4b696d0a"
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "motivo":  "Pendiente de aprobación. YouTube solo tiene la cuenta principal (línea «todo»). La plataforma aún no está activa ni tiene credenciales: aprobarla ahora solo la deja lista para cuando se active.",
+                         "creado":  "2026-11-13T18:08:08-05:00",
+                         "revision_pendiente":  "La imagen principal es el mapa de Cuphead; Westcol solo sale en la cámara pequeña. Los textos no dicen contra quién pelea el sábado (el título sugerido de la ficha decía «a días de pelear con Blessd», que el clip no muestra)."
                      }
                  ],
     "subidas_por_dia":  {
@@ -9153,6 +10332,11 @@
                                                "tiktok":  5,
                                                "tiktok@principal":  3,
                                                "tiktok@risas":  2
+                                           },
+                            "2026-11-13":  {
+                                               "tiktok":  8,
+                                               "tiktok@principal":  4,
+                                               "tiktok@risas":  4
                                            }
                         }
 }
