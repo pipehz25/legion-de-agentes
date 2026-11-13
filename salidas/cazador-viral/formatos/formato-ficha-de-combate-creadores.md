@@ -1,6 +1,13 @@
 # Ficha de combate de creadores: ¿quién gana?
 
-> **Estado (10-nov, 23:00, ciclo 9): vigente para el viernes 13 y el sábado 14.** Novedades para la fila "a favor de":
+> **Estado (13-nov, 18:40, ciclo 10): es su momento; publicar el viernes 13 por la noche y el sábado 14 antes de las 18:00.** Novedades:
+> - **Las parejas, por los títulos de los peleadores:** Samulx y The Chanty contra Willito y Lonche ([Samulx: 'ASI ES NUESTRO ENTRENAMIENTO PARA STREAM FIGHTERS CON CHANTY… WILITO NOS ENFRENTA'](https://www.youtube.com/watch?v=akjswYcJLsI); [Lonche Chacas: 'GANARE MI PEL3A CONTRA SAMULX y CHANTY'](https://www.youtube.com/watch?v=3l17IeAevGI)). "Incógnito" ya no hace falta. Atribúyelo a sus títulos: la cartelera de [Noticias RCN del 11-nov](https://www.noticiasrcn.com/tendencias/westcol-hablo-sobre-la-pelea-entre-aida-victoria-y-la-divaza-1081038) no trae ese combate.
+> - **Fila "a favor de" con frases suyas:** The Chanty, "vamos a ganar muy fácil" ([SiyNayyLR0E](https://www.youtube.com/watch?v=SiyNayyLR0E), 2,3 veces su mediana); Live Samulx, "Lonche no está preparado contra nosotros" ([n2V3tHQ39vI](https://www.youtube.com/watch?v=n2V3tHQ39vI)); Lonche, su respuesta en "GANARE MI PEL3A…". Dato de fondo: Willito le ganó a Lonche por nocaut técnico en abril y ahora pelean del mismo lado.
+> - **El pesaje (13-nov)** está en el Kick de Westcol y en su canal por combates ([el primero](https://www.youtube.com/watch?v=lfVEeI5drrY)): úsalo como fila 1 ("lo que se sabe"). #STF5 es #3 en X Colombia.
+> - **Westcol contra Blessd (robots):** Blessd sigue sin material en persona; su fila se queda con el golpe del robot de octubre y su canción nueva con Kris R ('COMO ES', canal WestEX, 13-nov). Westcol habló con RCN de la pelea de Andrea Valdiri y La Divaza ("la pelea que a mí me da miedo"), que se mantiene: sirve de variante.
+> - **Hora:** puertas a las 16:00 y peleas a las 18:00 (RCN, 11-nov), por el Kick de Westcol.
+>
+> **Estado anterior (10-nov, 23:00, ciclo 9): vigente para el viernes 13 y el sábado 14.** Novedades para la fila "a favor de":
 > - **The Chanty vuelve a emitir** (10-nov, 'UN DIA SIENDO MARIACHIS', Kick, 8.774/h a las 3,4 h), pero nada de guantes ni de la pelea en el título.
 > - **Lonche aparece boxeando** por primera vez, según el título del VOD de Kick de Jelty ('BOXEANDO CON LONCHE Y WILLITO', 09-nov). Para la ficha: la pareja Lonche y Willito ya entrena junta; la de The Chanty, no se ve.
 > - **Westcol y Samulx** siguen alternando guantes y juegos (round en directo en Aida Victoria Stream, 1.902/h; 'Boxeo o UFC' en Live Samulx). Samulx tiene un estreno programado en su canal para dentro de 2 días, sin título visible.
