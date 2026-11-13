@@ -1,0 +1,192 @@
+{
+  "titulo": "¿Y si tu tienda vendiera mientras duermes?",
+  "motor": "higgsfield",
+  "variante": "elevenlabs",
+  "voz": "Bram",
+  "inicio": 0.2,
+  "pausa": 0.24,
+  "cola": 2,
+  "publicacion": {
+    "texto": "Tu tienda puede responder dudas, organizar pedidos y hacer seguimiento a las ventas mientras tú descansas. Armamos una legión de agentes de inteligencia artificial a la medida de tu tienda. Escríbenos y te contamos cómo.",
+    "hashtags": [
+      "tiendaonline",
+      "ecommerce",
+      "ventas",
+      "inteligenciaartificial",
+      "agentesIA",
+      "automatizacion"
+    ]
+  },
+  "datos": {
+    "letrero": "TU TIENDA",
+    "linea": "Armamos la tuya",
+    "boton": "ESCRÍBENOS",
+    "tareas": [
+      {
+        "texto": "Responder",
+        "icono": "mensaje",
+        "color": "#6fd3ff",
+        "palabra": "responder"
+      },
+      {
+        "texto": "Despachar",
+        "icono": "caja",
+        "color": "#ffc93c",
+        "palabra": "despachar"
+      },
+      {
+        "texto": "Cobrar",
+        "icono": "moneda",
+        "color": "#86e8b4",
+        "palabra": "cobrar"
+      },
+      {
+        "texto": "Publicar",
+        "icono": "flecha",
+        "color": "#ff7eb6",
+        "palabra": "publicar"
+      }
+    ]
+  },
+  "escenas": {
+    "gancho": {
+      "plantilla": "gancho-edificio",
+      "datos": {
+        "lineas": [
+          "¿Y si tu tienda",
+          "vendiera",
+          "mientras duermes?"
+        ]
+      }
+    },
+    "problema": {
+      "plantilla": "tareas-reloj",
+      "datos": {
+        "come": "comen"
+      }
+    },
+    "solucion": {
+      "plantilla": "nacen-agentes"
+    },
+    "agente1": {
+      "plantilla": "agente-chat",
+      "datos": {
+        "color": "#6fd3ff",
+        "rotulo": "ATENCIÓN",
+        "estado": "Atendido",
+        "mensajes": [
+          {
+            "de": "cliente",
+            "texto": "¿Tienen talla M?"
+          },
+          {
+            "de": "agente",
+            "texto": "¡Sí! Te la separo."
+          }
+        ]
+      }
+    },
+    "agente2": {
+      "plantilla": "agente-pedidos",
+      "datos": {
+        "color": "#ffc93c",
+        "rotulo": "PEDIDOS",
+        "estado": "Listo para envío",
+        "items": [
+          "Pedido 101",
+          "Pedido 102",
+          "Pedido 103"
+        ]
+      }
+    },
+    "agente3": {
+      "plantilla": "agente-ventas",
+      "datos": {
+        "color": "#ff7eb6",
+        "rotulo": "VENTAS",
+        "estado": "Seguimiento al día"
+      }
+    },
+    "legion": {
+      "plantilla": "legion-aprueba"
+    },
+    "cierre": {
+      "plantilla": "cierre-marca"
+    }
+  },
+  "frases": [
+    {
+      "id": "f1",
+      "escena": "gancho",
+      "subtitulos": false,
+      "texto": "¿Y si tu tienda vendiera mientras duermes?"
+    },
+    {
+      "id": "f2",
+      "escena": "problema",
+      "texto": "Responder, despachar, cobrar, publicar: tareas que se comen tu día.",
+      "clave": [
+        "tareas",
+        "día"
+      ]
+    },
+    {
+      "id": "f3",
+      "escena": "solucion",
+      "texto": "Nosotros creamos un agente de inteligencia artificial para cada una.",
+      "clave": [
+        "agente"
+      ]
+    },
+    {
+      "id": "f4",
+      "escena": "agente1",
+      "texto": "Uno resuelve las dudas de tus clientes.",
+      "clave": [
+        "dudas"
+      ],
+      "pausa_despues": 0.5
+    },
+    {
+      "id": "f5",
+      "escena": "agente2",
+      "texto": "Otro organiza cada pedido.",
+      "clave": [
+        "pedido"
+      ],
+      "pausa_despues": 0.5
+    },
+    {
+      "id": "f6",
+      "escena": "agente3",
+      "texto": "Otro hace seguimiento a las ventas.",
+      "clave": [
+        "ventas"
+      ],
+      "pausa_despues": 0.5
+    },
+    {
+      "id": "f7",
+      "escena": "legion",
+      "texto": "Trabajan juntos, día y noche, y tú solo apruebas.",
+      "clave": [
+        "apruebas"
+      ]
+    },
+    {
+      "id": "f8",
+      "escena": "cierre",
+      "texto": "Eso es una legión de agentes, hecha a la medida de tu tienda.",
+      "clave": [
+        "legión",
+        "agentes"
+      ]
+    },
+    {
+      "id": "f9",
+      "escena": "cierre",
+      "subtitulos": false,
+      "texto": "Escríbenos y armamos la tuya."
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+<!--
+  Un agente que cobra: una cuenta que recibe su sello. Una frase del guion.
+  Datos: rotulo, color, estado, sello (una palabra corta, como "PAGADO")
+-->
+<template>
+  <style>
+{{>agente-css}}
+    #{{id}}-cuenta {
+      position: absolute;
+      left: 530px;
+      top: 420px;
+      width: 400px;
+      height: 500px;
+    }
+    #{{id}}-cuenta-golpe {
+      width: 100%;
+      height: 100%;
+    }
+    .{{id}}-tinta {
+      fill: var(--c);
+    }
+    #{{id}}-sello {
+      position: absolute;
+      left: 590px;
+      top: 716px;
+      width: 330px;
+      height: 112px;
+      border: 10px solid #1f9d63;
+      border-radius: 20px;
+      background: rgba(251, 247, 239, 0.9);
+      color: #1f9d63;
+      font-weight: 900;
+      font-size: 62px;
+      line-height: 92px;
+      text-align: center;
+      letter-spacing: 0.04em;
+    }
+    #{{id}}-moneda {
+      position: absolute;
+      left: 850px;
+      top: 386px;
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      background: #ffc93c;
+      box-shadow:
+        0 0 0 11px #f2ae1c inset,
+        0 12px 30px rgba(0, 0, 0, 0.45);
+      color: #3b2a05;
+      font-weight: 900;
+      font-size: 84px;
+      line-height: 130px;
+      text-align: center;
+    }
+  </style>
+
+  <div id="root" data-composition-id="{{id}}" data-width="1080" data-height="1920">
+{{>agente-html}}
+    <div id="{{id}}-cuenta">
+      <div id="{{id}}-cuenta-golpe">
+        <svg class="{{id}}-arte" viewBox="0 0 400 500">
+          <rect x="20" y="10" width="360" height="480" rx="26" fill="#fbf7ef" />
+          <rect class="{{id}}-tinta" x="52" y="46" width="160" height="30" rx="15" />
+          <g fill="#cfc7b3">
+            <rect x="52" y="116" width="180" height="18" rx="9" />
+            <rect x="288" y="116" width="60" height="18" rx="9" />
+            <rect x="52" y="162" width="140" height="18" rx="9" />
+            <rect x="288" y="162" width="60" height="18" rx="9" />
+            <rect x="52" y="208" width="200" height="18" rx="9" />
+            <rect x="288" y="208" width="60" height="18" rx="9" />
+          </g>
+          <rect x="52" y="262" width="296" height="6" rx="3" fill="#0d2029" opacity="0.25" />
+          <rect x="52" y="296" width="110" height="26" rx="13" fill="#0d2029" />
+          <rect x="252" y="296" width="96" height="26" rx="13" fill="#0d2029" />
+        </svg>
+      </div>
+    </div>
+    <div id="{{id}}-sello" data-layout-allow-occlusion>{{d.sello}}</div>
+    <div id="{{id}}-moneda">$</div>
+  </div>
+
+  <script>
+{{>agente-js}}
+
+    // La cuenta entra, el sello cae a la mitad de la frase y la moneda con el remate.
+    fx.entra(tl, el("cuenta"), 0.06, { x: 200 }, 0.34);
+    tl.fromTo(el("sello"), { opacity: 0, scale: 2.6, rotation: -32 }, { opacity: 1, scale: 1, rotation: -12, duration: 0.18, ease: "power3.in" }, a2);
+    fx.tiembla(tl, el("cuenta-golpe"), a2 + 0.18, 4, 8);
+    fx.entra(tl, el("moneda"), a3 - 0.12, { y: 90, rotation: 40 }, 0.32);
+
+    window.__timelines["{{id}}"] = tl;
+  </script>
+</template>

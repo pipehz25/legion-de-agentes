@@ -40,6 +40,77 @@ Todo se corre desde la raíz del proyecto salvo que se diga otra cosa. `<video>`
 
 Para verlo y retocarlo en el navegador: `npx --yes hyperframes@0.9.20 preview` dentro de la carpeta del video.
 
+## Serie con plantillas
+
+Para sacar muchos videos del mismo formato no se dibuja cada uno: el guion pide sus escenas por **plantilla** y solo cambia los datos. Un video nuevo es una carpeta con su `guion.json`; un solo comando hace el resto:
+
+```powershell
+node animados/herramientas/producir.mjs animados/videos/<video>              # voz, montaje, revisión, render y entrega
+node animados/herramientas/producir.mjs animados/videos/<video> --sin-render # se queda en la revisión
+node animados/herramientas/producir.mjs --todos                              # los que no tienen MP4 o cambiaron de guion
+node animados/herramientas/capturas.mjs animados/videos/<video>              # hojas de capturas para mirar
+```
+
+La entrega queda en `salidas/animador/<video>/`: el MP4, `portada.jpg`, `publicacion.txt` (texto y hashtags) y `meta.json`. `salidas/animador/videos.json` lista todo lo entregado.
+
+En el guion, las plantillas van así (el ejemplo completo es [videos/restaurante/guion.json](videos/restaurante/guion.json)):
+
+```json
+"datos": { "letrero": "TU RESTAURANTE", "tareas": [{ "texto": "Reservas", "icono": "calendario", "color": "#6fd3ff", "palabra": "reservas" }] },
+"escenas": {
+  "gancho": { "plantilla": "gancho-edificio", "datos": { "lineas": ["¿Y si tu restaurante", "tomara reservas", "mientras duermes?"] } },
+  "agente1": { "plantilla": "agente-chat", "datos": { "rotulo": "RESERVAS", "color": "#6fd3ff", "estado": "Reservado", "mensajes": [{ "de": "cliente", "texto": "¿Mesa para 4 hoy?" }, { "de": "agente", "texto": "¡Lista! A las 8." }] } }
+}
+```
+
+`datos` vale para todas las escenas; los de cada escena se suman encima. Una escena sin plantilla se escribe a mano en `compositions/`, como antes.
+
+**Plantillas** (en [plantillas/](plantillas/); cada archivo dice arriba qué datos pide):
+
+| Plantilla | Qué muestra | Datos |
+|---|---|---|
+| `gancho-edificio` | Título en tres líneas y el negocio de noche con agentes en las ventanas | `lineas` (3), `letrero` |
+| `tareas-reloj` | Cuatro tareas que caen alrededor de un reloj que se pone rojo | `tareas` (4), `come` |
+| `nacen-agentes` | De un núcleo de IA nace un agente por cada tarea | `tareas` |
+| `agente-chat` | Un agente conversando | `rotulo`, `color`, `estado`, `mensajes` (2) |
+| `agente-agenda` | Un calendario al que se le llenan cupos | `rotulo`, `color`, `estado` |
+| `agente-cobros` | Una cuenta que recibe su sello | `rotulo`, `color`, `estado`, `sello` |
+| `agente-pedidos` | Tres tarjetas que se van marcando | `rotulo`, `color`, `estado`, `items` (3) |
+| `agente-ventas` | Barras que crecen, flecha y moneda | `rotulo`, `color`, `estado` |
+| `agente-redes` | Un teléfono con una publicación y corazones | `rotulo`, `color`, `estado` |
+| `legion-aprueba` | La legión completa, día y noche, y el botón «Aprobado» | ninguno |
+| `cierre-marca` | La marca, la fila de agentes «a la medida» y el botón | `letrero`, `linea`, `boton` |
+
+Iconos para las tareas ([plantillas/iconos.json](plantillas/iconos.json)): `mensaje`, `documento`, `moneda`, `flecha`, `calendario`, `bolsa`, `estrella`, `campana`, `visto`, `lupa`, `caja`, `persona`, `llave`, `reloj`, `corazon`.
+
+### La serie «mientras duermes»
+
+Un video por tipo de negocio, siempre con las mismas nueve frases y ocho escenas:
+
+| Frase | Escena | Plantilla | Texto |
+|---|---|---|---|
+| f1 | `gancho` | `gancho-edificio` | «¿Y si tu *negocio* *hiciera algo* mientras duermes?» |
+| f2 | `problema` | `tareas-reloj` | «*A*, *B*, *C*, *D*: tareas que se comen tu día.» |
+| f3 | `solucion` | `nacen-agentes` | «Nosotros creamos un agente de inteligencia artificial para cada una.» (fija) |
+| f4 a f6 | `agente1` a `agente3` | una `agente-…` cada una | «Uno…», «Otro…», «Otro…» |
+| f7 | `legion` | `legion-aprueba` | «Trabajan juntos, día y noche, y tú solo apruebas.» (fija) |
+| f8 | `cierre` | `cierre-marca` | «Eso es una legión de agentes, hecha a la medida de tu *negocio*.» |
+| f9 | `cierre` | | «Escríbenos y armamos la tuya.» (fija) |
+
+Medidas que hacen que quepa y alcance a leerse:
+
+- **Gancho:** tres líneas de 21 letras o menos; la tercera es siempre «mientras duermes?». `f1` y `f9` llevan `"subtitulos": false`.
+- **Tareas:** cuatro, de una palabra y 9 letras o menos. La `palabra` de cada una tiene que estar dicha en `f2`: es lo que dispara su caída.
+- **Frases de agente:** de 5 a 8 palabras, con `"pausa_despues": 0.5` para que la escena respire.
+- **Texto en pantalla de cada agente:** `rotulo` de una palabra (13 letras o menos), `estado` de 3 palabras o menos, `mensajes` de 4 palabras o menos, `items` de 2 palabras o menos.
+- **Colores:** las tareas usan en orden `#6fd3ff`, `#ffc93c`, `#86e8b4`, `#ff7eb6`; los agentes, `#6fd3ff`, `#ffc93c` y `#ff7eb6`.
+- **Las frases fijas no se tocan** ni se cambia la voz: así la serie suena igual y esas frases se pagan una sola vez (quedan en `animados/.voz-cache/`).
+- **`publicacion`:** `texto` de una a tres frases y cinco o seis `hashtags`.
+
+### Una plantilla nueva
+
+Una plantilla es una escena normal con marcas: `{{id}}` (el id de la escena, prefijo de todos sus ids y clases), `{{d.dato}}` (un dato, escapado), `{{{d.dato}}}` (sin escapar, para SVG), `{{datos}}` (todos los datos como JSON, para el script) y `{{>nombre}}` (incluye `plantillas/_nombre.html`). Como no sabe qué texto le va a tocar, no cuenta palabras: se ancla a partes de la frase (`r.en(0, 0.5)`) o a una palabra con respaldo (`r.palabra(0, "comen", 0.78)`). Antes de usarla en serie, pruébala con un video y mira sus capturas.
+
 ## Guion
 
 `guion.json`:
@@ -139,8 +210,15 @@ window.__timelines["problema"] = tl;
 | Función | Qué da o qué hace |
 |---|---|
 | `r.p("f2", 3)` | Segundo en que se dice la palabra 3 de la frase `f2` (la primera es la 0), contado desde que empieza la escena |
-| `r.fin("f2")` | Segundo en que termina la frase `f2` |
+| `r.ini("f2")`, `r.fin("f2")` | Segundo en que empieza y en que termina la frase `f2` |
+| `r.en("f2", 0.5)` | La mitad de la frase `f2` (la parte va de 0 a 1) |
+| `r.palabra("f2", "comen", 0.78)` | Segundo en que se dice esa palabra; si no está en la frase, cae en esa parte |
 | `r.dur` | Duración de la escena |
+
+Una frase se nombra por su id (`"f2"`) o por su puesto dentro de la escena (`0` es la primera); las plantillas usan el puesto.
+
+| Función | Qué hace |
+|---|---|
 | `fx.entra(tl, sel, t, desde)` | Entra con rebote; `desde` suma un punto de partida, como `{ y: 80 }` |
 | `fx.sale(tl, sel, t, hacia)` | Sale encogiéndose |
 | `fx.golpe(tl, sel, t, escala)` | Salto de énfasis sobre algo que ya está en pantalla |
@@ -187,9 +265,12 @@ Los genera `subtitulos.mjs` (lo llama `montaje.mjs`): grupos de hasta 3 palabras
 ```
 animados/
   GUIA.md                  esta guía
-  herramientas/voz.mjs     narración y tiempos por palabra
-  herramientas/montaje.mjs index.html y subtítulos
+  herramientas/producir.mjs  todo de una vez: voz, montaje, revisión, render y entrega
+  herramientas/voz.mjs       narración y tiempos por palabra
+  herramientas/montaje.mjs   index.html, escenas de plantilla y subtítulos
+  herramientas/capturas.mjs  hojas de capturas para revisar
   herramientas/subtitulos.mjs
+  plantillas/                escenas reutilizables e iconos
   videos/<video>/
     guion.json             lo que se dice
     tiempos.json           cuándo se dice (generado)

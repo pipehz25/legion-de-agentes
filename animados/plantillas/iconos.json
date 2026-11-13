@@ -1,0 +1,17 @@
+{
+  "mensaje": "<path d=\"M6 8h36a4 4 0 0 1 4 4v18a4 4 0 0 1-4 4H22l-10 9v-9H6a4 4 0 0 1-4-4V12a4 4 0 0 1 4-4z\" />",
+  "documento": "<path d=\"M12 4h17l11 11v27a2 2 0 0 1-2 2H12a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2zm4 18v4h18v-4zm0 9v4h12v-4z\" fill-rule=\"evenodd\" />",
+  "moneda": "<text x=\"24\" y=\"37\" text-anchor=\"middle\" font-family=\"Nunito, sans-serif\" font-weight=\"900\" font-size=\"38\">$</text>",
+  "flecha": "<path d=\"M24 5 L42 25 H31 V43 H17 V25 H6Z\" />",
+  "calendario": "<path d=\"M10 9h28a4 4 0 0 1 4 4v26a4 4 0 0 1-4 4H10a4 4 0 0 1-4-4V13a4 4 0 0 1 4-4zm0 12v18h28V21z\" fill-rule=\"evenodd\" /><rect x=\"13\" y=\"3\" width=\"6\" height=\"11\" rx=\"3\" /><rect x=\"29\" y=\"3\" width=\"6\" height=\"11\" rx=\"3\" /><rect x=\"15\" y=\"26\" width=\"7\" height=\"7\" rx=\"1.5\" /><rect x=\"26\" y=\"26\" width=\"7\" height=\"7\" rx=\"1.5\" />",
+  "bolsa": "<path d=\"M10 17h28l3 25a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2zm7 0v-4a7 7 0 0 1 14 0v4h-4v-4a3 3 0 0 0-6 0v4z\" />",
+  "estrella": "<path d=\"M24 4l6.2 12.6 13.8 2-10 9.8 2.4 13.8L24 35.6 11.6 42.2 14 28.4 4 18.6l13.8-2z\" />",
+  "campana": "<path d=\"M24 4a4 4 0 0 1 4 4v1.2A12 12 0 0 1 36 20v9l4 6v2H8v-2l4-6v-9a12 12 0 0 1 8-10.8V8a4 4 0 0 1 4-4zm-5 36h10a5 5 0 0 1-10 0z\" />",
+  "visto": "<path d=\"M8 25l10 10 22-24\" fill=\"none\" stroke=\"#0d2029\" stroke-width=\"7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" />",
+  "lupa": "<path d=\"M21 5a16 16 0 1 1 0 32 16 16 0 0 1 0-32zm0 7a9 9 0 1 0 0 18 9 9 0 0 0 0-18z\" fill-rule=\"evenodd\" /><rect x=\"31\" y=\"28\" width=\"8\" height=\"18\" rx=\"4\" transform=\"rotate(-45 35 37)\" />",
+  "caja": "<path d=\"M24 4l18 9v22l-18 9-18-9V13zm0 6.7L13.5 16 24 21.3 34.500 16zM11 21.2v10.7l10 5V26.200zm26 0l-10 5v10.700l10-5z\" fill-rule=\"evenodd\" />",
+  "persona": "<circle cx=\"24\" cy=\"15\" r=\"9\" /><path d=\"M6 44a18 18 0 0 1 36 0z\" />",
+  "llave": "<path d=\"M16 6a12 12 0 0 1 11.300 16H44v8h-5v6h-8v-6h-3.700A12 12 0 1 1 16 6zm0 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8z\" fill-rule=\"evenodd\" />",
+  "reloj": "<path d=\"M24 4a20 20 0 1 1 0 40 20 20 0 0 1 0-40zm-3 9v13.200l9.600 5.800 3.100-5.100-6.700-4V13z\" fill-rule=\"evenodd\" />",
+  "corazon": "<path d=\"M24 43C7 31 3 22 3 14.500 3 8 8 3 14 3c4 0 7.500 2 10 5.500C26.500 5 30 3 34 3c6 0 11 5 11 11.500C45 22 41 31 24 43z\" />"
+}

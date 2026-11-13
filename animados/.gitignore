@@ -14,3 +14,6 @@ videos/*/assets/voz-externa/
 videos/*/assets/narracion.wav
 *.mp4
 *.webm
+
+# Voz ya pagada, guardada por texto y voz (se regenera si falta)
+.voz-cache/

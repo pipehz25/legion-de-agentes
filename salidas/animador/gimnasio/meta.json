@@ -1,0 +1,11 @@
+{
+  "id": "gimnasio",
+  "titulo": "¿Y si tu gimnasio inscribiera socios mientras duermes?",
+  "duracion_s": 35.4,
+  "volumen": "I: -15.2 LUFS",
+  "voz": "higgsfield / Bram",
+  "avisos_revision": 0,
+  "producido": "2026-11-13T03:43:38.591Z",
+  "video": "gimnasio.mp4",
+  "guion": "animados/videos/gimnasio/guion.json"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "salon",
+  "titulo": "¿Y si tu salón llenara la agenda mientras duermes?",
+  "duracion_s": 34.9,
+  "volumen": "I: -15.4 LUFS",
+  "voz": "higgsfield / Bram",
+  "avisos_revision": 0,
+  "producido": "2026-11-13T03:47:49.613Z",
+  "video": "salon.mp4",
+  "guion": "animados/videos/salon/guion.json"
+}

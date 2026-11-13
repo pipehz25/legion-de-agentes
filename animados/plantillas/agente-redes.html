@@ -1,0 +1,73 @@
+<!--
+  Un agente de redes: telefono con una publicacion y corazones. Una frase del guion.
+  Datos: rotulo, color, estado
+-->
+<template>
+  <style>
+{{>agente-css}}
+    #{{id}}-telefono {
+      position: absolute;
+      left: 560px;
+      top: 400px;
+      width: 330px;
+      height: 580px;
+    }
+    .{{id}}-tinta {
+      fill: var(--c);
+    }
+    .{{id}}-corazon {
+      position: absolute;
+      width: 84px;
+      height: 78px;
+    }
+  </style>
+
+  <div id="root" data-composition-id="{{id}}" data-width="1080" data-height="1920">
+{{>agente-html}}
+    <div id="{{id}}-telefono">
+      <svg class="{{id}}-arte" viewBox="0 0 330 580">
+        <rect x="4" y="4" width="322" height="572" rx="48" fill="#fbf7ef" />
+        <rect x="20" y="20" width="290" height="540" rx="34" fill="#0d2029" />
+        <rect x="125" y="34" width="80" height="14" rx="7" fill="#2a5a6b" />
+        <clipPath id="{{id}}-pantalla"><rect x="20" y="20" width="290" height="540" rx="34" /></clipPath>
+        <g clip-path="url(#{{id}}-pantalla)">
+          <g id="{{id}}-post">
+            <rect class="{{id}}-tinta" x="38" y="76" width="254" height="300" rx="22" />
+            <circle cx="218" cy="150" r="34" fill="#ffffff" opacity="0.7" />
+            <path d="M38 330 L118 236 L178 300 L222 262 L292 336 V354 a22 22 0 0 1 -22 22 H60 a22 22 0 0 1 -22 -22Z" fill="#000000" opacity="0.28" />
+            <rect x="38" y="396" width="180" height="20" rx="10" fill="#fbf7ef" />
+            <rect x="38" y="430" width="120" height="20" rx="10" fill="#2a5a6b" />
+          </g>
+        </g>
+      </svg>
+    </div>
+    <div id="{{id}}-corazon-1" class="{{id}}-corazon" style="left: 890px; top: 760px">
+      <svg class="{{id}}-arte" viewBox="0 0 84 78"><path d="M42 74 C10 50 2 34 2 22 C2 10 12 2 22 2 C31 2 38 7 42 14 C46 7 53 2 62 2 C72 2 82 10 82 22 C82 34 74 50 42 74Z" fill="#ff5d8f" /></svg>
+    </div>
+    <div id="{{id}}-corazon-2" class="{{id}}-corazon" style="left: 468px; top: 700px">
+      <svg class="{{id}}-arte" viewBox="0 0 84 78"><path d="M42 74 C10 50 2 34 2 22 C2 10 12 2 22 2 C31 2 38 7 42 14 C46 7 53 2 62 2 C72 2 82 10 82 22 C82 34 74 50 42 74Z" fill="#ff5d8f" /></svg>
+    </div>
+    <div id="{{id}}-corazon-3" class="{{id}}-corazon" style="left: 904px; top: 560px">
+      <svg class="{{id}}-arte" viewBox="0 0 84 78"><path d="M42 74 C10 50 2 34 2 22 C2 10 12 2 22 2 C31 2 38 7 42 14 C46 7 53 2 62 2 C72 2 82 10 82 22 C82 34 74 50 42 74Z" fill="#ff5d8f" /></svg>
+    </div>
+  </div>
+
+  <script>
+{{>agente-js}}
+
+    // La publicacion sube a la pantalla y llegan los corazones.
+    fx.entra(tl, el("telefono"), 0.06, { x: 200 }, 0.34);
+    tl.fromTo(el("post"), { opacity: 0, y: 220 }, { opacity: 1, y: 0, duration: 0.3, ease: "back.out(1.6)" }, a1 + 0.1);
+    [
+      ["corazon-1", 0, -150, 18],
+      ["corazon-2", 0.12, -170, -16],
+      ["corazon-3", 0.24, -130, 12],
+    ].forEach(([c, d, sube, giro]) => {
+      const t = a2 + d;
+      tl.fromTo(el(c), { opacity: 0, scale: 0, y: 0, rotation: 0 }, { opacity: 1, scale: 1, duration: 0.2, ease: "back.out(3)" }, t);
+      tl.to(el(c), { y: sube, rotation: giro, duration: Math.max(0.3, r.dur - t - 0.25), ease: "power1.out" }, t + 0.15);
+    });
+
+    window.__timelines["{{id}}"] = tl;
+  </script>
+</template>

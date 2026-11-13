@@ -1,0 +1,268 @@
+<!--
+  La solucion: las cuatro tareas de la escena anterior se ordenan y de un nucleo de IA nace
+  un agente para cada una. Una frase del guion; pensada para
+  "Nosotros creamos un agente de inteligencia artificial para cada una."
+  Datos: tareas (las mismas cuatro de "tareas-reloj")
+-->
+<template>
+  <style>
+    #root {
+      position: absolute;
+      inset: 0;
+      font-family: "Nunito", sans-serif;
+      color: #fbf7ef;
+    }
+    .{{id}}-arte {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+    #{{id}}-destello {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 80% 50% at 50% 34%, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+    }
+    #{{id}}-reloj {
+      position: absolute;
+      left: 350px;
+      top: 470px;
+      width: 380px;
+      height: 380px;
+    }
+    #{{id}}-lineas {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 1080px;
+      height: 1920px;
+    }
+    .{{id}}-base {
+      position: absolute;
+      width: 240px;
+      height: 44px;
+      border-radius: 50%;
+      background: radial-gradient(ellipse at center, var(--c) 0%, rgba(0, 0, 0, 0) 70%);
+    }
+    .{{id}}-ag {
+      position: absolute;
+      width: 230px;
+      height: 276px;
+    }
+    .{{id}}-capa {
+      width: 100%;
+      height: 100%;
+    }
+    #{{id}}-nucleo {
+      position: absolute;
+      left: 478px;
+      top: 578px;
+      width: 124px;
+      height: 124px;
+      border-radius: 50%;
+      background: #ffc93c;
+      color: #2b1d02;
+      font-weight: 900;
+      font-size: 62px;
+      line-height: 124px;
+      text-align: center;
+      box-shadow:
+        0 0 0 10px rgba(255, 201, 60, 0.28),
+        0 0 60px rgba(255, 201, 60, 0.6);
+    }
+    .{{id}}-onda {
+      position: absolute;
+      left: 478px;
+      top: 578px;
+      width: 124px;
+      height: 124px;
+      border-radius: 50%;
+      box-shadow: 0 0 0 6px #ffc93c inset;
+    }
+    .{{id}}-chispa {
+      position: absolute;
+      width: 56px;
+      height: 56px;
+    }
+    .{{id}}-chip {
+      position: absolute;
+      width: 330px;
+      height: 96px;
+      border-radius: 48px;
+      background: #14313c;
+      box-shadow:
+        0 0 0 5px var(--c) inset,
+        0 14px 34px rgba(0, 0, 0, 0.5);
+      display: flex;
+      align-items: center;
+      gap: 13px;
+      padding-left: 14px;
+      font-weight: 900;
+      font-size: 41px;
+    }
+    .{{id}}-icono {
+      flex: none;
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      background: var(--c);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .{{id}}-icono svg {
+      width: 40px;
+      height: 40px;
+      fill: #0d2029;
+    }
+  </style>
+
+  <div id="root" data-composition-id="{{id}}" data-width="1080" data-height="1920">
+    <svg width="0" height="0" style="position: absolute">
+      <defs>
+        <symbol id="{{id}}-sim-agente" viewBox="0 0 200 240">
+          <ellipse cx="100" cy="229" rx="60" ry="9" fill="#000000" opacity="0.3" />
+          <rect x="96" y="12" width="8" height="30" rx="4" fill="#fbf7ef" />
+          <circle cx="100" cy="13" r="11" fill="currentColor" />
+          <rect x="24" y="158" width="24" height="50" rx="12" fill="currentColor" />
+          <rect x="152" y="158" width="24" height="50" rx="12" fill="currentColor" />
+          <rect x="52" y="148" width="96" height="72" rx="26" fill="currentColor" />
+          <rect x="52" y="148" width="96" height="72" rx="26" fill="#000000" opacity="0.2" />
+          <circle cx="100" cy="184" r="13" fill="#fbf7ef" />
+          <rect x="30" y="38" width="140" height="106" rx="36" fill="currentColor" />
+          <path d="M50 74 Q54 54 78 50" stroke="#ffffff" stroke-width="7" stroke-linecap="round" fill="none" opacity="0.5" />
+          <rect x="48" y="66" width="104" height="52" rx="26" fill="#0d2029" />
+          <circle cx="80" cy="92" r="11" fill="#fbf7ef" />
+          <circle cx="120" cy="92" r="11" fill="#fbf7ef" />
+        </symbol>
+        <symbol id="{{id}}-sim-chispa" viewBox="0 0 56 56">
+          <path d="M28 2 C30 18 38 26 54 28 C38 30 30 38 28 54 C26 38 18 30 2 28 C18 26 26 18 28 2Z" fill="#fff3c4" />
+        </symbol>
+      </defs>
+    </svg>
+
+    <div id="{{id}}-destello"></div>
+
+    <div id="{{id}}-reloj">
+      <svg class="{{id}}-arte" viewBox="0 0 380 380">
+        <circle cx="190" cy="190" r="182" fill="#fbf7ef" />
+        <circle cx="190" cy="190" r="160" fill="#e9e2d0" />
+        <circle cx="190" cy="190" r="80" fill="none" stroke="#ff6b5e" stroke-width="160" stroke-dasharray="502.65" stroke-dashoffset="40" transform="rotate(-90 190 190)" />
+        <circle cx="190" cy="190" r="15" fill="#0d2029" />
+      </svg>
+    </div>
+
+    <svg id="{{id}}-lineas" viewBox="0 0 1080 1920">
+      <g stroke="#ffc93c" stroke-width="8" stroke-linecap="round" fill="none" stroke-dasharray="300" opacity="0.85">
+        <path id="{{id}}-linea-1" d="M540 640 L300 470" stroke-dashoffset="300" />
+        <path id="{{id}}-linea-2" d="M540 640 L780 470" stroke-dashoffset="300" />
+        <path id="{{id}}-linea-3" d="M540 640 L300 820" stroke-dashoffset="300" />
+        <path id="{{id}}-linea-4" d="M540 640 L780 820" stroke-dashoffset="300" />
+      </g>
+    </svg>
+
+    <div id="{{id}}-base-1" class="{{id}}-base" style="left: 180px; top: 566px; --c: {{d.tareas.0.color}}"></div>
+    <div id="{{id}}-base-2" class="{{id}}-base" style="left: 660px; top: 566px; --c: {{d.tareas.1.color}}"></div>
+    <div id="{{id}}-base-3" class="{{id}}-base" style="left: 180px; top: 956px; --c: {{d.tareas.2.color}}"></div>
+    <div id="{{id}}-base-4" class="{{id}}-base" style="left: 660px; top: 956px; --c: {{d.tareas.3.color}}"></div>
+
+    <div id="{{id}}-onda-1" class="{{id}}-onda"></div>
+    <div id="{{id}}-onda-2" class="{{id}}-onda"></div>
+    <div id="{{id}}-nucleo">IA</div>
+
+    <div id="{{id}}-ag-1" class="{{id}}-ag" style="left: 185px; top: 312px; color: {{d.tareas.0.color}}">
+      <div id="{{id}}-ag-1-f" class="{{id}}-capa"><svg class="{{id}}-arte" viewBox="0 0 200 240"><use href="#{{id}}-sim-agente" /></svg></div>
+    </div>
+    <div id="{{id}}-ag-2" class="{{id}}-ag" style="left: 665px; top: 312px; color: {{d.tareas.1.color}}">
+      <div id="{{id}}-ag-2-f" class="{{id}}-capa"><svg class="{{id}}-arte" viewBox="0 0 200 240"><use href="#{{id}}-sim-agente" /></svg></div>
+    </div>
+    <div id="{{id}}-ag-3" class="{{id}}-ag" style="left: 185px; top: 702px; color: {{d.tareas.2.color}}">
+      <div id="{{id}}-ag-3-f" class="{{id}}-capa"><svg class="{{id}}-arte" viewBox="0 0 200 240"><use href="#{{id}}-sim-agente" /></svg></div>
+    </div>
+    <div id="{{id}}-ag-4" class="{{id}}-ag" style="left: 665px; top: 702px; color: {{d.tareas.3.color}}">
+      <div id="{{id}}-ag-4-f" class="{{id}}-capa"><svg class="{{id}}-arte" viewBox="0 0 200 240"><use href="#{{id}}-sim-agente" /></svg></div>
+    </div>
+
+    <div id="{{id}}-chip-1" class="{{id}}-chip" style="left: 135px; top: 600px; --c: {{d.tareas.0.color}}">
+      <span class="{{id}}-icono"><svg viewBox="0 0 48 48">{{{d.tareas.0.icono_svg}}}</svg></span>
+      <span>{{d.tareas.0.texto}}</span>
+    </div>
+    <div id="{{id}}-chip-2" class="{{id}}-chip" style="left: 615px; top: 600px; --c: {{d.tareas.1.color}}">
+      <span class="{{id}}-icono"><svg viewBox="0 0 48 48">{{{d.tareas.1.icono_svg}}}</svg></span>
+      <span>{{d.tareas.1.texto}}</span>
+    </div>
+    <div id="{{id}}-chip-3" class="{{id}}-chip" style="left: 135px; top: 990px; --c: {{d.tareas.2.color}}">
+      <span class="{{id}}-icono"><svg viewBox="0 0 48 48">{{{d.tareas.2.icono_svg}}}</svg></span>
+      <span>{{d.tareas.2.texto}}</span>
+    </div>
+    <div id="{{id}}-chip-4" class="{{id}}-chip" style="left: 615px; top: 990px; --c: {{d.tareas.3.color}}">
+      <span class="{{id}}-icono"><svg viewBox="0 0 48 48">{{{d.tareas.3.icono_svg}}}</svg></span>
+      <span>{{d.tareas.3.texto}}</span>
+    </div>
+
+    <div id="{{id}}-chispa-1" class="{{id}}-chispa" style="left: 396px; top: 520px"><svg class="{{id}}-arte" viewBox="0 0 56 56"><use href="#{{id}}-sim-chispa" /></svg></div>
+    <div id="{{id}}-chispa-2" class="{{id}}-chispa" style="left: 632px; top: 548px"><svg class="{{id}}-arte" viewBox="0 0 56 56"><use href="#{{id}}-sim-chispa" /></svg></div>
+    <div id="{{id}}-chispa-3" class="{{id}}-chispa" style="left: 512px; top: 730px"><svg class="{{id}}-arte" viewBox="0 0 56 56"><use href="#{{id}}-sim-chispa" /></svg></div>
+  </div>
+
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    const r = window.__reloj("{{id}}");
+    const fx = window.__fx;
+    const D = {{datos}};
+    const el = (nombre) => "#{{id}}-" + nombre;
+
+    tl.fromTo(el("destello"), { opacity: 0.3 }, { opacity: 0, duration: 0.28, ease: "power2.out" }, 0);
+
+    // El reloj comido se va y las tareas (vienen de la escena anterior) se ordenan en cuadricula.
+    tl.fromTo(el("reloj"), { scale: 1, rotation: 0, opacity: 1 }, { scale: 0, rotation: 140, opacity: 0, duration: 0.32, ease: "power2.in" }, 0.04);
+    [
+      [-39, -300, -6],
+      [39, -260, 5],
+      [-55, -90, 5],
+      [45, -60, -5],
+    ].forEach(([x, y, giro], i) => {
+      tl.fromTo(el("chip-" + (i + 1)), { x, y, rotation: giro }, { x: 0, y: 0, rotation: 0, duration: 0.5, ease: "power3.inOut" }, 0.1 + i * 0.04);
+    });
+
+    // "creamos": se enciende el nucleo y las cuatro bases donde va a nacer cada agente.
+    const creamos = Math.max(0.5, r.palabra(0, "creamos", 0.14));
+    [1, 2, 3, 4].forEach((n, i) => {
+      tl.fromTo(el("base-" + n), { opacity: 0, scaleX: 0 }, { opacity: 0.7, scaleX: 1, duration: 0.3, ease: "power2.out" }, creamos + i * 0.06);
+    });
+    fx.entra(tl, el("nucleo"), creamos + 0.12, {}, 0.36);
+
+    // Nace un agente por cada tarea: el primero en "agente", los otros en "para cada una".
+    const nacen = [r.palabra(0, "agente", 0.3), r.palabra(0, "para", 0.8), r.palabra(0, "cada", 0.87), r.palabra(0, "una", 0.94)];
+    nacen[0] = Math.max(nacen[0], creamos + 0.4);
+    for (let i = 1; i < nacen.length; i++) nacen[i] = Math.max(nacen[i], nacen[i - 1] + 0.18);
+    nacen.forEach((t, i) => {
+      const n = i + 1;
+      tl.to(el("linea-" + n), { strokeDashoffset: 0, duration: 0.22, ease: "power2.out" }, t - 0.12);
+      fx.entra(tl, el("ag-" + n), t, { y: -90 }, 0.36);
+      fx.golpe(tl, el("chip-" + n), t + 0.22, 1.1);
+      if (r.dur - t > 1.9) fx.flota(tl, el("ag-" + n + "-f"), t + 0.4, r.dur, 9, 0.7);
+    });
+
+    // "inteligencia artificial": el nucleo late y suelta chispas.
+    const ia = r.palabra(0, "inteligencia", 0.45);
+    const ia2 = Math.max(ia + 0.4, r.palabra(0, "artificial", 0.62));
+    fx.golpe(tl, el("nucleo"), ia, 1.22);
+    fx.golpe(tl, el("nucleo"), ia2, 1.22);
+    [
+      ["onda-1", ia],
+      ["onda-2", ia2],
+    ].forEach(([onda, t]) => {
+      tl.fromTo(el(onda), { opacity: 0, scale: 1 }, { keyframes: [{ opacity: 0.9, duration: 0.05 }, { opacity: 0, scale: 3.2, duration: 0.55, ease: "power2.out" }] }, t);
+    });
+    [
+      ["chispa-1", ia + 0.05],
+      ["chispa-2", ia + 0.2],
+      ["chispa-3", ia2 + 0.05],
+    ].forEach(([c, t]) => {
+      tl.fromTo(el(c), { opacity: 0, scale: 0, rotation: -40 }, { opacity: 1, scale: 1.2, rotation: 20, duration: 0.2, ease: "back.out(3)" }, t);
+      tl.to(el(c), { opacity: 0, scale: 0.3, rotation: 80, duration: 0.3, ease: "power2.in" }, t + 0.3);
+    });
+
+    window.__timelines["{{id}}"] = tl;
+  </script>
+</template>

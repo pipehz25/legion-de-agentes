@@ -1,0 +1,114 @@
+{
+  "serie": "mientras-duermes",
+  "nota": "Lista de temas del Animador. Cada tema es un tipo de negocio para un video de la serie. Solo la escribe el Animador (o el usuario, para agregar temas). Estados: pendiente, hecho, descartado.",
+  "temas": [
+    {
+      "id": "legion-agentes",
+      "negocio": "empresa (versión general)",
+      "estado": "hecho",
+      "fecha": "2026-11-12"
+    },
+    {
+      "id": "restaurante",
+      "negocio": "restaurante",
+      "estado": "hecho",
+      "idea": "tomara reservas",
+      "fecha": "2026-11-12"
+    },
+    {
+      "id": "consultorio",
+      "negocio": "consultorio",
+      "estado": "hecho",
+      "idea": "agendara citas",
+      "fecha": "2026-11-12"
+    },
+    {
+      "id": "inmobiliaria",
+      "negocio": "inmobiliaria",
+      "estado": "hecho",
+      "idea": "atendiera clientes",
+      "fecha": "2026-11-12"
+    },
+    {
+      "id": "tienda",
+      "negocio": "tienda",
+      "estado": "hecho",
+      "idea": "vendiera",
+      "fecha": "2026-11-12"
+    },
+    {
+      "id": "gimnasio",
+      "negocio": "gimnasio",
+      "estado": "hecho",
+      "idea": "inscribiera socios",
+      "fecha": "2026-11-12"
+    },
+    {
+      "id": "salon",
+      "negocio": "salón de belleza o barbería",
+      "estado": "hecho",
+      "idea": "llenara la agenda",
+      "fecha": "2026-11-12"
+    },
+    {
+      "id": "veterinaria",
+      "negocio": "veterinaria",
+      "estado": "pendiente",
+      "idea": "agendara vacunas"
+    },
+    {
+      "id": "taller",
+      "negocio": "taller mecánico",
+      "estado": "pendiente",
+      "idea": "agendara revisiones"
+    },
+    {
+      "id": "hotel",
+      "negocio": "hotel u hostal",
+      "estado": "pendiente",
+      "idea": "tomara reservas"
+    },
+    {
+      "id": "academia",
+      "negocio": "academia de cursos",
+      "estado": "pendiente",
+      "idea": "inscribiera alumnos"
+    },
+    {
+      "id": "agencia-viajes",
+      "negocio": "agencia de viajes",
+      "estado": "pendiente",
+      "idea": "cotizara viajes"
+    },
+    {
+      "id": "ferreteria",
+      "negocio": "ferretería",
+      "estado": "pendiente",
+      "idea": "cotizara pedidos"
+    },
+    {
+      "id": "optica",
+      "negocio": "óptica",
+      "estado": "pendiente",
+      "idea": "agendara exámenes"
+    },
+    {
+      "id": "panaderia",
+      "negocio": "panadería o pastelería",
+      "estado": "pendiente",
+      "idea": "tomara encargos"
+    },
+    {
+      "id": "oficina-contable",
+      "negocio": "oficina contable",
+      "estado": "pendiente",
+      "idea": "recordara vencimientos"
+    },
+    {
+      "id": "spa",
+      "negocio": "spa o centro de estética",
+      "estado": "pendiente",
+      "idea": "llenara la agenda"
+    }
+  ]
+}

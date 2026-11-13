@@ -1,0 +1,147 @@
+<!--
+  El problema: cuatro tareas caen alrededor de un reloj y, al final de la frase, el rojo se
+  come el reloj. Una frase del guion, que nombra las cuatro tareas y cierra con "se comen tu dia".
+  Datos: tareas: [{ texto, icono, color, palabra }] x4 (palabra = la que dispara su caida),
+         come (palabra que dispara el rojo; por defecto "comen")
+-->
+<template>
+  <style>
+    #root {
+      position: absolute;
+      inset: 0;
+      font-family: "Nunito", sans-serif;
+      color: #fbf7ef;
+    }
+    .{{id}}-arte {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+    #{{id}}-destello {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 80% 50% at 50% 38%, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+    }
+    #{{id}}-reloj {
+      position: absolute;
+      left: 350px;
+      top: 470px;
+      width: 380px;
+      height: 380px;
+    }
+    #{{id}}-reloj-golpe {
+      width: 100%;
+      height: 100%;
+    }
+    .{{id}}-chip {
+      position: absolute;
+      width: 330px;
+      height: 96px;
+      border-radius: 48px;
+      background: #14313c;
+      box-shadow:
+        0 0 0 5px var(--c) inset,
+        0 14px 34px rgba(0, 0, 0, 0.5);
+      display: flex;
+      align-items: center;
+      gap: 13px;
+      padding-left: 14px;
+      font-weight: 900;
+      font-size: 41px;
+    }
+    .{{id}}-icono {
+      flex: none;
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      background: var(--c);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .{{id}}-icono svg {
+      width: 40px;
+      height: 40px;
+      fill: #0d2029;
+    }
+  </style>
+
+  <div id="root" data-composition-id="{{id}}" data-width="1080" data-height="1920">
+    <div id="{{id}}-destello"></div>
+
+    <div id="{{id}}-reloj">
+      <div id="{{id}}-reloj-golpe">
+        <svg class="{{id}}-arte" viewBox="0 0 380 380">
+          <circle cx="190" cy="190" r="182" fill="#fbf7ef" />
+          <circle cx="190" cy="190" r="160" fill="#e9e2d0" />
+          <circle id="{{id}}-comido" cx="190" cy="190" r="80" fill="none" stroke="#ff6b5e" stroke-width="160" stroke-dasharray="502.65" stroke-dashoffset="502.65" transform="rotate(-90 190 190)" />
+          <g fill="#0d2029">
+            <rect x="184" y="38" width="12" height="30" rx="6" />
+            <rect x="184" y="312" width="12" height="30" rx="6" />
+            <rect x="38" y="184" width="30" height="12" rx="6" />
+            <rect x="312" y="184" width="30" height="12" rx="6" />
+            <rect id="{{id}}-horario" x="181" y="108" width="18" height="90" rx="9" />
+            <rect id="{{id}}-minutero" x="184" y="56" width="12" height="142" rx="6" />
+            <circle cx="190" cy="190" r="15" />
+          </g>
+        </svg>
+      </div>
+    </div>
+
+    <div id="{{id}}-chip-1" class="{{id}}-chip" style="left: 96px; top: 300px; --c: {{d.tareas.0.color}}">
+      <span class="{{id}}-icono"><svg viewBox="0 0 48 48">{{{d.tareas.0.icono_svg}}}</svg></span>
+      <span>{{d.tareas.0.texto}}</span>
+    </div>
+    <div id="{{id}}-chip-2" class="{{id}}-chip" style="left: 654px; top: 340px; --c: {{d.tareas.1.color}}">
+      <span class="{{id}}-icono"><svg viewBox="0 0 48 48">{{{d.tareas.1.icono_svg}}}</svg></span>
+      <span>{{d.tareas.1.texto}}</span>
+    </div>
+    <div id="{{id}}-chip-3" class="{{id}}-chip" style="left: 80px; top: 900px; --c: {{d.tareas.2.color}}">
+      <span class="{{id}}-icono"><svg viewBox="0 0 48 48">{{{d.tareas.2.icono_svg}}}</svg></span>
+      <span>{{d.tareas.2.texto}}</span>
+    </div>
+    <div id="{{id}}-chip-4" class="{{id}}-chip" style="left: 660px; top: 930px; --c: {{d.tareas.3.color}}">
+      <span class="{{id}}-icono"><svg viewBox="0 0 48 48">{{{d.tareas.3.icono_svg}}}</svg></span>
+      <span>{{d.tareas.3.texto}}</span>
+    </div>
+  </div>
+
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    const r = window.__reloj("{{id}}");
+    const fx = window.__fx;
+    const D = {{datos}};
+    const el = (nombre) => "#{{id}}-" + nombre;
+
+    tl.fromTo(el("destello"), { opacity: 0.3 }, { opacity: 0, duration: 0.28, ease: "power2.out" }, 0);
+    fx.entra(tl, el("reloj"), 0, { y: 60 }, 0.36);
+
+    // Cada tarea cae cuando la voz la nombra (su "palabra" en el guion).
+    const caidas = [
+      [-520, -160, -34, -6],
+      [520, -200, 34, 5],
+      [-520, 180, 30, 5],
+      [520, 200, -30, -5],
+    ];
+    D.tareas.slice(0, 4).forEach((tarea, i) => {
+      const [x, y, giro, reposo] = caidas[i];
+      const t = Math.max(0.06, r.palabra(0, tarea.palabra || tarea.texto, 0.04 + i * 0.15));
+      tl.fromTo(el("chip-" + (i + 1)), { opacity: 0, x, y, rotation: giro, scale: 1.5 }, { opacity: 1, x: 0, y: 0, rotation: reposo, scale: 1, duration: 0.26, ease: "back.out(1.5)" }, t);
+      fx.golpe(tl, el("reloj-golpe"), t + 0.2, 1.05);
+    });
+
+    // Las manecillas corren y, cuando la voz dice que se comen tu dia, el rojo se traga el reloj.
+    const come = r.palabra(0, D.come || "comen", 0.78);
+    const acelera = Math.max(0.4, come - 0.7);
+    tl.fromTo(el("minutero"), { rotation: 0 }, { rotation: 720, duration: acelera, ease: "none", svgOrigin: "190 190" }, 0);
+    tl.to(el("minutero"), { rotation: 720 + 2160, duration: r.dur - acelera, ease: "power1.in", svgOrigin: "190 190" }, acelera);
+    tl.fromTo(el("horario"), { rotation: 0 }, { rotation: 300, duration: r.dur, ease: "power1.in", svgOrigin: "190 190" }, 0);
+    tl.to(el("comido"), { strokeDashoffset: 40, duration: Math.max(0.4, r.fin(0) - come + 0.08), ease: "power1.inOut" }, come);
+    [-6, 5, 5, -5].forEach((reposo, i) => {
+      tl.to(el("chip-" + (i + 1)), { rotation: reposo + (i % 2 ? -5 : 5), duration: 0.07, repeat: 7, yoyo: true, ease: "sine.inOut" }, come + 0.3 + i * 0.05);
+    });
+    fx.tiembla(tl, el("reloj-golpe"), r.en(0, 0.95), 6, 10);
+
+    window.__timelines["{{id}}"] = tl;
+  </script>
+</template>

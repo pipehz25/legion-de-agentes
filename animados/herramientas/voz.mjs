@@ -12,6 +12,7 @@
 // propio audio: se detectan sus pausas y cada palabra recibe su parte del tramo.
 
 import { spawnSync } from "node:child_process";
+import crypto from "node:crypto";
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -52,6 +53,44 @@ function correr(cmd, args, opciones = {}) {
 function duracion(archivo) {
   const s = correr("ffprobe", ["-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", archivo]);
   return parseFloat(s.trim());
+}
+
+// --- Comprobacion de la voz de pago: se transcribe con whisper (el de la Legion) y se
+// compara con el guion. Sin whisper instalado, no se comprueba.
+const WHISPER = path.join(ANIMADOS, "..", "herramientas", "bin", "whisper", "whisper-cli.exe");
+const MODELO = path.join(ANIMADOS, "..", "herramientas", "modelos", "ggml-small-q5_1.bin");
+const revisarDeOido = [];
+
+// Como suena un texto, sin lo que el oido no distingue (tildes, h muda, b/v, z/s, ll/y).
+const sonido = (s) =>
+  String(s)
+    .normalize("NFD")
+    .replace(/\p{M}/gu, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9 ]/g, " ")
+    .replace(/h/g, "")
+    .replace(/v/g, "b")
+    .replace(/z/g, "s")
+    .replace(/ll/g, "y")
+    .split(/\s+/)
+    .filter(Boolean);
+
+// Cuantas palabras se oyen distintas al guion (0 = se oye lo que dice). null si no se pudo comprobar.
+function difiere(audio, texto) {
+  if (!fs.existsSync(WHISPER) || !fs.existsSync(MODELO)) return null;
+  const wav16 = audio + ".oir.wav";
+  correr("ffmpeg", ["-v", "error", "-y", "-i", audio, "-af", "adelay=300:all=1,apad=pad_dur=0.6", "-ar", "16000", "-ac", "1", "-c:a", "pcm_s16le", wav16]);
+  const r = spawnSync(WHISPER, ["-m", MODELO, "-l", "es", "-f", wav16, "-np", "-nt"], { encoding: "utf8" });
+  fs.rmSync(wav16, { force: true });
+  if (r.status !== 0) return null;
+  const a = sonido(texto);
+  const b = sonido(String(r.stdout).replace(/\[[^\]]*\]/g, " "));
+  const d = Array.from({ length: a.length + 1 }, (_, i) => [i, ...new Array(b.length).fill(0)]);
+  for (let j = 0; j <= b.length; j++) d[0][j] = j;
+  for (let i = 1; i <= a.length; i++) {
+    for (let j = 1; j <= b.length; j++) d[i][j] = Math.min(d[i - 1][j] + 1, d[i][j - 1] + 1, d[i - 1][j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
+  }
+  return d[a.length][b.length];
 }
 
 // CLI de Higgsfield (npm i -g @higgsfield/cli; higgsfield auth login). Se llama a su
@@ -116,21 +155,44 @@ function hablar(frase) {
     // Cada frase cuesta creditos: solo se vuelve a generar si cambio el texto o la voz.
     const firma = JSON.stringify({ texto: frase.texto, motor: MOTOR, voz: voz.id, variante });
     if (yaEsta(firma)) return wav;
-    const salida = higgsfield([
-      "generate", "create", "text2speech_v2",
-      "--prompt", frase.texto,
-      "--variant", variante,
-      "--voice_id", voz.id,
-      "--voice_type", voz.tipo,
-      "--wait", "--json",
-    ]);
-    const trabajos = JSON.parse(salida.slice(salida.indexOf("[")));
-    const url = trabajos[0] && trabajos[0].result_url;
-    if (!url) throw new Error("Higgsfield no devolvio audio para " + frase.id + ":\n" + salida.slice(0, 400));
-    const bajado = path.join(dirVoz, frase.id + ".crudo.mp3");
-    correr("curl", ["-sL", "-o", bajado, url]);
-    correr("ffmpeg", ["-v", "error", "-y", "-i", bajado, "-af", recorte, "-ar", "48000", "-ac", "1", wav]);
-    fs.rmSync(bajado, { force: true });
+    // Las frases que se repiten entre videos (las de la marca) se generan una sola vez:
+    // quedan guardadas en animados/.voz-cache/ por texto y voz.
+    const cache = path.join(ANIMADOS, ".voz-cache");
+    fs.mkdirSync(cache, { recursive: true });
+    const llave = crypto.createHash("sha1").update(firma).digest("hex");
+    const guardado = path.join(cache, llave + ".mp3");
+    if (!fs.existsSync(guardado)) {
+      // Hasta tres intentos: se queda con el primero que se oiga igual al guion, o con el mejor.
+      let mejor = null;
+      for (let intento = 1; intento <= 3; intento++) {
+        const salida = higgsfield([
+          "generate", "create", "text2speech_v2",
+          "--prompt", frase.texto,
+          "--variant", variante,
+          "--voice_id", voz.id,
+          "--voice_type", voz.tipo,
+          "--wait", "--json",
+        ]);
+        const trabajos = JSON.parse(salida.slice(salida.indexOf("[")));
+        const url = trabajos[0] && trabajos[0].result_url;
+        if (!url) throw new Error("Higgsfield no devolvio audio para " + frase.id + ":\n" + salida.slice(0, 400));
+        const temporal = `${guardado}.${intento}.mp3`;
+        correr("curl", ["-sL", "-o", temporal, url]);
+        const fallos = difiere(temporal, frase.texto);
+        if (!mejor || (fallos !== null && fallos < mejor.fallos)) {
+          if (mejor) fs.rmSync(mejor.archivo, { force: true });
+          mejor = { archivo: temporal, fallos: fallos ?? 0, intentos: intento };
+        } else {
+          fs.rmSync(temporal, { force: true });
+        }
+        mejor.intentos = intento;
+        if (!fallos) break;
+      }
+      fs.renameSync(mejor.archivo, guardado);
+      if (mejor.intentos > 1) process.stdout.write(`(${mejor.intentos} intentos) `);
+      if (mejor.fallos) revisarDeOido.push(`${frase.id} "${frase.texto}": whisper oye ${mejor.fallos} palabra(s) distinta(s) tras ${mejor.intentos} intentos`);
+    }
+    correr("ffmpeg", ["-v", "error", "-y", "-i", guardado, "-af", recorte, "-ar", "48000", "-ac", "1", wav]);
     fs.writeFileSync(sello, firma, "utf8");
     return wav;
   }
@@ -308,4 +370,8 @@ fs.writeFileSync(
   JSON.stringify({ duracion: total, audio: "assets/narracion.wav", escenas, frases }, null, 2) + "\n",
   "utf8",
 );
+if (revisarDeOido.length) {
+  console.log("\nPara revisar de oido (la voz puede haber dicho algo distinto al guion):");
+  revisarDeOido.forEach((r) => console.log("  - " + r));
+}
 console.log(`\nListo: ${salida}\n       duracion total ${total} s (audio real ${duracion(salida).toFixed(2)} s) -> tiempos.json`);

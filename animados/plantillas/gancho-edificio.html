@@ -1,0 +1,187 @@
+<!--
+  Gancho de la serie: titulo en tres lineas (la tercera va resaltada) y el negocio de noche,
+  con agentes encendiendo las ventanas. Una frase del guion.
+  Datos: lineas: ["...", "...", "..."], letrero ("TU RESTAURANTE")
+-->
+<template>
+  <style>
+    #root {
+      position: absolute;
+      inset: 0;
+      font-family: "Nunito", sans-serif;
+      color: #fbf7ef;
+    }
+    .{{id}}-arte {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+    #{{id}}-titulo {
+      position: absolute;
+      left: 80px;
+      width: 920px;
+      top: 222px;
+      text-align: center;
+      font-weight: 900;
+      font-size: 94px;
+      line-height: 1.12;
+      letter-spacing: -0.02em;
+      text-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+    }
+    .{{id}}-linea {
+      display: block;
+    }
+    #{{id}}-duermes {
+      display: inline-block;
+      color: #ffc93c;
+    }
+    #{{id}}-luna {
+      position: absolute;
+      left: 790px;
+      top: 586px;
+      width: 150px;
+      height: 150px;
+    }
+    #{{id}}-edificio {
+      position: absolute;
+      left: 300px;
+      top: 620px;
+      width: 480px;
+      height: 510px;
+    }
+    .{{id}}-estrella {
+      position: absolute;
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background: #fbf7ef;
+    }
+    .{{id}}-z {
+      position: absolute;
+      font-weight: 900;
+      color: #cfe9f2;
+      line-height: 1;
+    }
+    /* Las ventanas encendidas arrancan apagadas, salvo dos que ya trabajan en la portada. */
+    .{{id}}-luz {
+      opacity: 0;
+    }
+    #{{id}}-luz-2,
+    #{{id}}-luz-7 {
+      opacity: 1;
+    }
+  </style>
+
+  <div id="root" data-composition-id="{{id}}" data-width="1080" data-height="1920">
+    <div id="{{id}}-titulo">
+      <span id="{{id}}-linea-1" class="{{id}}-linea">{{d.lineas.0}}</span>
+      <span id="{{id}}-linea-2" class="{{id}}-linea">{{d.lineas.1}}</span>
+      <span id="{{id}}-linea-3" class="{{id}}-linea"><span id="{{id}}-duermes">{{d.lineas.2}}</span></span>
+    </div>
+
+    <div id="{{id}}-estrella-1" class="{{id}}-estrella" style="left: 262px; top: 590px"></div>
+    <div id="{{id}}-estrella-2" class="{{id}}-estrella" style="left: 70px; top: 850px"></div>
+    <div id="{{id}}-estrella-3" class="{{id}}-estrella" style="left: 880px; top: 830px"></div>
+    <div id="{{id}}-estrella-4" class="{{id}}-estrella" style="left: 120px; top: 930px"></div>
+    <div id="{{id}}-estrella-5" class="{{id}}-estrella" style="left: 940px; top: 1010px"></div>
+
+    <div id="{{id}}-luna">
+      <svg class="{{id}}-arte" viewBox="0 0 150 150">
+        <defs>
+          <mask id="{{id}}-mascara-luna">
+            <rect width="150" height="150" fill="#ffffff" />
+            <circle cx="100" cy="58" r="52" fill="#000000" />
+          </mask>
+        </defs>
+        <circle cx="75" cy="75" r="62" fill="#fdf0b8" mask="url(#{{id}}-mascara-luna)" />
+      </svg>
+    </div>
+
+    <div id="{{id}}-z-1" class="{{id}}-z" style="left: 236px; top: 770px; font-size: 54px">z</div>
+    <div id="{{id}}-z-2" class="{{id}}-z" style="left: 184px; top: 694px; font-size: 72px">z</div>
+    <div id="{{id}}-z-3" class="{{id}}-z" style="left: 118px; top: 600px; font-size: 94px">Z</div>
+
+    <div id="{{id}}-edificio">
+      <svg class="{{id}}-arte" viewBox="0 -40 480 510">
+        <ellipse cx="240" cy="456" rx="226" ry="13" fill="#000000" opacity="0.35" />
+        <rect x="70" y="40" width="340" height="412" rx="18" fill="#1d4452" />
+        <rect x="70" y="40" width="46" height="412" rx="18" fill="#2a5a6b" />
+        <rect x="56" y="26" width="368" height="30" rx="12" fill="#2f6577" />
+        <rect x="80" y="-34" width="320" height="52" rx="12" fill="#fbf7ef" />
+        <rect x="180" y="16" width="10" height="14" fill="#fbf7ef" />
+        <rect x="290" y="16" width="10" height="14" fill="#fbf7ef" />
+        <text x="240" y="3" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="900" font-size="29" fill="#0d2029">{{d.letrero}}</text>
+        <rect x="204" y="366" width="72" height="86" rx="10" fill="#0d2029" />
+        <g fill="#0d2029">
+          <rect x="104" y="84" width="80" height="52" rx="10" />
+          <rect x="200" y="84" width="80" height="52" rx="10" />
+          <rect x="296" y="84" width="80" height="52" rx="10" />
+          <rect x="104" y="152" width="80" height="52" rx="10" />
+          <rect x="200" y="152" width="80" height="52" rx="10" />
+          <rect x="296" y="152" width="80" height="52" rx="10" />
+          <rect x="104" y="220" width="80" height="52" rx="10" />
+          <rect x="200" y="220" width="80" height="52" rx="10" />
+          <rect x="296" y="220" width="80" height="52" rx="10" />
+          <rect x="104" y="288" width="80" height="52" rx="10" />
+          <rect x="200" y="288" width="80" height="52" rx="10" />
+          <rect x="296" y="288" width="80" height="52" rx="10" />
+        </g>
+        <g id="{{id}}-luz-1" class="{{id}}-luz"><rect x="104" y="84" width="80" height="52" rx="10" fill="#ffc93c" /><rect x="124" y="100" width="40" height="20" rx="10" fill="#0d2029" /><circle cx="136" cy="110" r="4" fill="#fbf7ef" /><circle cx="152" cy="110" r="4" fill="#fbf7ef" /></g>
+        <g id="{{id}}-luz-2" class="{{id}}-luz"><rect x="200" y="84" width="80" height="52" rx="10" fill="#6fd3ff" /><rect x="220" y="100" width="40" height="20" rx="10" fill="#0d2029" /><circle cx="232" cy="110" r="4" fill="#fbf7ef" /><circle cx="248" cy="110" r="4" fill="#fbf7ef" /></g>
+        <g id="{{id}}-luz-3" class="{{id}}-luz"><rect x="296" y="84" width="80" height="52" rx="10" fill="#ff7eb6" /><rect x="316" y="100" width="40" height="20" rx="10" fill="#0d2029" /><circle cx="328" cy="110" r="4" fill="#fbf7ef" /><circle cx="344" cy="110" r="4" fill="#fbf7ef" /></g>
+        <g id="{{id}}-luz-4" class="{{id}}-luz"><rect x="104" y="152" width="80" height="52" rx="10" fill="#86e8b4" /><rect x="124" y="168" width="40" height="20" rx="10" fill="#0d2029" /><circle cx="136" cy="178" r="4" fill="#fbf7ef" /><circle cx="152" cy="178" r="4" fill="#fbf7ef" /></g>
+        <g id="{{id}}-luz-5" class="{{id}}-luz"><rect x="200" y="152" width="80" height="52" rx="10" fill="#ffc93c" /><rect x="220" y="168" width="40" height="20" rx="10" fill="#0d2029" /><circle cx="232" cy="178" r="4" fill="#fbf7ef" /><circle cx="248" cy="178" r="4" fill="#fbf7ef" /></g>
+        <g id="{{id}}-luz-6" class="{{id}}-luz"><rect x="296" y="152" width="80" height="52" rx="10" fill="#6fd3ff" /><rect x="316" y="168" width="40" height="20" rx="10" fill="#0d2029" /><circle cx="328" cy="178" r="4" fill="#fbf7ef" /><circle cx="344" cy="178" r="4" fill="#fbf7ef" /></g>
+        <g id="{{id}}-luz-7" class="{{id}}-luz"><rect x="104" y="220" width="80" height="52" rx="10" fill="#ff7eb6" /><rect x="124" y="236" width="40" height="20" rx="10" fill="#0d2029" /><circle cx="136" cy="246" r="4" fill="#fbf7ef" /><circle cx="152" cy="246" r="4" fill="#fbf7ef" /></g>
+        <g id="{{id}}-luz-8" class="{{id}}-luz"><rect x="200" y="220" width="80" height="52" rx="10" fill="#86e8b4" /><rect x="220" y="236" width="40" height="20" rx="10" fill="#0d2029" /><circle cx="232" cy="246" r="4" fill="#fbf7ef" /><circle cx="248" cy="246" r="4" fill="#fbf7ef" /></g>
+        <g id="{{id}}-luz-9" class="{{id}}-luz"><rect x="296" y="220" width="80" height="52" rx="10" fill="#ffc93c" /><rect x="316" y="236" width="40" height="20" rx="10" fill="#0d2029" /><circle cx="328" cy="246" r="4" fill="#fbf7ef" /><circle cx="344" cy="246" r="4" fill="#fbf7ef" /></g>
+        <g id="{{id}}-luz-10" class="{{id}}-luz"><rect x="104" y="288" width="80" height="52" rx="10" fill="#6fd3ff" /><rect x="124" y="304" width="40" height="20" rx="10" fill="#0d2029" /><circle cx="136" cy="314" r="4" fill="#fbf7ef" /><circle cx="152" cy="314" r="4" fill="#fbf7ef" /></g>
+        <g id="{{id}}-luz-11" class="{{id}}-luz"><rect x="200" y="288" width="80" height="52" rx="10" fill="#ff7eb6" /><rect x="220" y="304" width="40" height="20" rx="10" fill="#0d2029" /><circle cx="232" cy="314" r="4" fill="#fbf7ef" /><circle cx="248" cy="314" r="4" fill="#fbf7ef" /></g>
+        <g id="{{id}}-luz-12" class="{{id}}-luz"><rect x="296" y="288" width="80" height="52" rx="10" fill="#86e8b4" /><rect x="316" y="304" width="40" height="20" rx="10" fill="#0d2029" /><circle cx="328" cy="314" r="4" fill="#fbf7ef" /><circle cx="344" cy="314" r="4" fill="#fbf7ef" /></g>
+      </svg>
+    </div>
+  </div>
+
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    const r = window.__reloj("{{id}}");
+    const fx = window.__fx;
+    const D = {{datos}};
+    const el = (nombre) => "#{{id}}-" + nombre;
+
+    // El titulo se ajusta a su linea mas larga.
+    const largo = Math.max(...D.lineas.map((l) => l.length));
+    document.querySelector(el("titulo")).style.fontSize = Math.min(94, Math.floor(900 / (largo * 0.5))) + "px";
+
+    // El titulo ya esta en el cuadro 0 (es la portada); solo se asienta.
+    tl.fromTo(el("linea-1"), { y: 20 }, { y: 0, duration: 0.4, ease: "power3.out" }, 0);
+    tl.fromTo(el("linea-2"), { y: 30 }, { y: 0, duration: 0.45, ease: "power3.out" }, 0.04);
+    tl.fromTo(el("linea-3"), { y: 40 }, { y: 0, duration: 0.5, ease: "power3.out" }, 0.08);
+    tl.fromTo(el("edificio"), { y: 50, scale: 0.92 }, { y: 0, scale: 1, duration: 0.5, ease: "back.out(1.8)" }, 0);
+    tl.fromTo(el("luna"), { y: 0 }, { y: -14, duration: 1.2, ease: "sine.inOut", repeat: 1, yoyo: true }, 0);
+
+    // Las ventanas se encienden una por una: adentro ya hay agentes trabajando.
+    const paso = Math.min(0.2, (r.dur - 0.7) / 10);
+    [5, 1, 9, 4, 12, 3, 8, 10, 6, 11].forEach((n, i) => {
+      tl.to(el("luz-" + n), { opacity: 1, duration: 0.1, ease: "power2.out" }, 0.3 + i * paso);
+    });
+    fx.golpe(tl, el("edificio"), r.en(0, 0.42), 1.06);
+
+    // "mientras duermes": las zetas suben.
+    const duerme = r.palabra(0, "mientras", 0.6);
+    ["z-1", "z-2", "z-3"].forEach((z, i) => {
+      const t = duerme + i * 0.18;
+      tl.fromTo(el(z), { opacity: 0, y: 40, x: 20, scale: 0.5 }, { opacity: 0.95, y: 0, x: 0, scale: 1, duration: 0.3, ease: "back.out(2)" }, t);
+      tl.to(el(z), { y: -26, duration: Math.max(0.3, r.dur - t - 0.35), ease: "sine.inOut" }, t + 0.3);
+    });
+    fx.golpe(tl, el("duermes"), r.en(0, 0.86), 1.14);
+
+    // Las estrellas titilan.
+    const titileos = 2 * Math.max(1, Math.floor((r.dur - 0.6) / 0.9)) - 1;
+    ["estrella-1", "estrella-2", "estrella-3", "estrella-4", "estrella-5"].forEach((e, i) => {
+      tl.fromTo(el(e), { opacity: 0.25, scale: 0.7 }, { opacity: 1, scale: 1.2, duration: 0.45, ease: "sine.inOut", repeat: titileos, yoyo: true }, 0.1 + i * 0.07);
+    });
+
+    window.__timelines["{{id}}"] = tl;
+  </script>
+</template>

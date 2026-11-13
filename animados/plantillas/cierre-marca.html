@@ -1,0 +1,201 @@
+<!--
+  Cierre de la serie: la marca cae de golpe, un marco se ajusta a la fila de agentes ("a la
+  medida") y aparece el boton. Dos frases del guion: la de la marca y la del llamado a escribir.
+  Datos: letrero ("TU RESTAURANTE"), linea ("Armamos la tuya"), boton ("ESCRÍBENOS")
+-->
+<template>
+  <style>
+    #root {
+      position: absolute;
+      inset: 0;
+      font-family: "Nunito", sans-serif;
+      color: #fbf7ef;
+    }
+    .{{id}}-arte {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+    #{{id}}-destello {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 80% 50% at 50% 30%, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+    }
+    #{{id}}-marca {
+      position: absolute;
+      left: 60px;
+      width: 960px;
+      top: 204px;
+      text-align: center;
+      font-weight: 900;
+      letter-spacing: -0.02em;
+      text-shadow: 0 10px 36px rgba(0, 0, 0, 0.5);
+    }
+    #{{id}}-legion {
+      display: block;
+      font-size: 200px;
+      line-height: 1;
+      color: #ffc93c;
+    }
+    #{{id}}-agentes {
+      display: block;
+      font-size: 102px;
+      line-height: 1.1;
+    }
+    .{{id}}-ag {
+      position: absolute;
+      top: 628px;
+      width: 170px;
+      height: 204px;
+    }
+    .{{id}}-capa {
+      width: 100%;
+      height: 100%;
+    }
+    #{{id}}-medida {
+      position: absolute;
+      left: 70px;
+      top: 596px;
+      width: 940px;
+      height: 272px;
+      border: 7px dashed #ffc93c;
+      border-radius: 44px;
+    }
+    #{{id}}-empresa {
+      position: absolute;
+      left: 320px;
+      top: 560px;
+      width: 440px;
+      height: 72px;
+      border-radius: 36px;
+      background: #fbf7ef;
+      color: #0d2029;
+      font-weight: 900;
+      font-size: 40px;
+      line-height: 72px;
+      text-align: center;
+      box-shadow: 0 10px 26px rgba(0, 0, 0, 0.45);
+    }
+    #{{id}}-linea {
+      position: absolute;
+      left: 90px;
+      width: 900px;
+      top: 912px;
+      text-align: center;
+      font-weight: 900;
+      font-size: 72px;
+      line-height: 1.1;
+      text-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+    }
+    .{{id}}-pildora {
+      position: absolute;
+      left: 190px;
+      top: 1024px;
+      width: 700px;
+      height: 138px;
+      border-radius: 69px;
+    }
+    #{{id}}-boton {
+      background: #ffc93c;
+      color: #2b1d02;
+      font-weight: 900;
+      font-size: 78px;
+      line-height: 138px;
+      text-align: center;
+      letter-spacing: 0.01em;
+      box-shadow:
+        0 0 0 10px #f2ae1c inset,
+        0 0 70px rgba(255, 201, 60, 0.55),
+        0 16px 40px rgba(0, 0, 0, 0.5);
+    }
+    .{{id}}-onda {
+      box-shadow: 0 0 0 8px #ffc93c inset;
+    }
+  </style>
+
+  <div id="root" data-composition-id="{{id}}" data-width="1080" data-height="1920">
+    <svg width="0" height="0" style="position: absolute">
+      <defs>
+        <symbol id="{{id}}-sim-agente" viewBox="0 0 200 240">
+          <ellipse cx="100" cy="229" rx="60" ry="9" fill="#000000" opacity="0.3" />
+          <rect x="96" y="12" width="8" height="30" rx="4" fill="#fbf7ef" />
+          <circle cx="100" cy="13" r="11" fill="currentColor" />
+          <rect x="24" y="158" width="24" height="50" rx="12" fill="currentColor" />
+          <rect x="152" y="158" width="24" height="50" rx="12" fill="currentColor" />
+          <rect x="52" y="148" width="96" height="72" rx="26" fill="currentColor" />
+          <rect x="52" y="148" width="96" height="72" rx="26" fill="#000000" opacity="0.2" />
+          <circle cx="100" cy="184" r="13" fill="#fbf7ef" />
+          <rect x="30" y="38" width="140" height="106" rx="36" fill="currentColor" />
+          <path d="M50 74 Q54 54 78 50" stroke="#ffffff" stroke-width="7" stroke-linecap="round" fill="none" opacity="0.5" />
+          <rect x="48" y="66" width="104" height="52" rx="26" fill="#0d2029" />
+          <circle cx="80" cy="92" r="11" fill="#fbf7ef" />
+          <circle cx="120" cy="92" r="11" fill="#fbf7ef" />
+        </symbol>
+      </defs>
+    </svg>
+
+    <div id="{{id}}-destello"></div>
+
+    <div id="{{id}}-marca">
+      <span id="{{id}}-legion">LEGIÓN</span>
+      <span id="{{id}}-agentes">DE AGENTES</span>
+    </div>
+
+    <div id="{{id}}-medida"></div>
+
+    <div id="{{id}}-ag-1" class="{{id}}-ag" style="left: 95px; color: #6fd3ff"><div id="{{id}}-ag-1-f" class="{{id}}-capa"><svg class="{{id}}-arte" viewBox="0 0 200 240"><use href="#{{id}}-sim-agente" /></svg></div></div>
+    <div id="{{id}}-ag-2" class="{{id}}-ag" style="left: 275px; color: #ffc93c"><div id="{{id}}-ag-2-f" class="{{id}}-capa"><svg class="{{id}}-arte" viewBox="0 0 200 240"><use href="#{{id}}-sim-agente" /></svg></div></div>
+    <div id="{{id}}-ag-3" class="{{id}}-ag" style="left: 455px; color: #86e8b4"><div id="{{id}}-ag-3-f" class="{{id}}-capa"><svg class="{{id}}-arte" viewBox="0 0 200 240"><use href="#{{id}}-sim-agente" /></svg></div></div>
+    <div id="{{id}}-ag-4" class="{{id}}-ag" style="left: 635px; color: #ff7eb6"><div id="{{id}}-ag-4-f" class="{{id}}-capa"><svg class="{{id}}-arte" viewBox="0 0 200 240"><use href="#{{id}}-sim-agente" /></svg></div></div>
+    <div id="{{id}}-ag-5" class="{{id}}-ag" style="left: 815px; color: #b79bff"><div id="{{id}}-ag-5-f" class="{{id}}-capa"><svg class="{{id}}-arte" viewBox="0 0 200 240"><use href="#{{id}}-sim-agente" /></svg></div></div>
+
+    <div id="{{id}}-empresa">{{d.letrero}}</div>
+
+    <div id="{{id}}-linea">{{d.linea}}</div>
+    <div id="{{id}}-onda-1" class="{{id}}-pildora {{id}}-onda"></div>
+    <div id="{{id}}-onda-2" class="{{id}}-pildora {{id}}-onda"></div>
+    <div id="{{id}}-boton" class="{{id}}-pildora">{{d.boton}}</div>
+  </div>
+
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    const r = window.__reloj("{{id}}");
+    const fx = window.__fx;
+    const D = {{datos}};
+    const el = (nombre) => "#{{id}}-" + nombre;
+
+    tl.fromTo(el("destello"), { opacity: 0.3 }, { opacity: 0, duration: 0.28, ease: "power2.out" }, 0);
+
+    // Los agentes forman fila (vienen de la legion).
+    [1, 2, 3, 4, 5].forEach((n, i) => {
+      fx.entra(tl, el("ag-" + n), 0.02 + i * 0.06, { y: 110 }, 0.32);
+      fx.flota(tl, el("ag-" + n + "-f"), 0.7 + i * 0.08, r.dur, 10, 0.55);
+    });
+
+    // "legion de agentes": el nombre cae de golpe.
+    const nombre = Math.max(0.45, r.palabra(0, "legión", 0.2));
+    tl.fromTo(el("legion"), { opacity: 0, scale: 2.2 }, { opacity: 1, scale: 1, duration: 0.2, ease: "power3.in" }, nombre - 0.12);
+    fx.tiembla(tl, el("marca"), nombre + 0.08, 4, 10);
+    tl.fromTo(el("agentes"), { opacity: 0, y: 50 }, { opacity: 1, y: 0, duration: 0.28, ease: "back.out(2)" }, Math.max(nombre + 0.2, r.palabra(0, "agentes", 0.4) - 0.14));
+
+    // "hecha a la medida de tu negocio": el marco se ajusta justo a la fila.
+    const medida = Math.max(nombre + 0.6, r.palabra(0, "hecha", 0.56));
+    const ajusta = Math.max(medida + 0.3, r.palabra(0, "medida", 0.7));
+    tl.fromTo(el("medida"), { opacity: 0, scaleX: 1.3, scaleY: 1.5 }, { opacity: 1, scaleX: 1, scaleY: 1, duration: ajusta - medida + 0.15, ease: "power3.out" }, medida);
+    fx.entra(tl, el("empresa"), Math.max(ajusta + 0.25, r.en(0, 0.86)), { y: -30 }, 0.3);
+
+    // "Escribenos y armamos la tuya": el boton, y despues la linea.
+    const boton = r.ini(1) + 0.1;
+    fx.entra(tl, el("boton"), boton, { y: 90 }, 0.36);
+    fx.entra(tl, el("linea"), Math.max(boton + 0.35, r.en(1, 0.42)), { y: 30 }, 0.3);
+    // El boton late hasta el final.
+    const latidos = [];
+    for (let t = boton + 0.45; t < r.dur - 0.75; t += 0.9) latidos.push(t);
+    latidos.forEach((t, i) => {
+      fx.golpe(tl, el("boton"), t, 1.06);
+      tl.fromTo(el(i % 2 ? "onda-2" : "onda-1"), { opacity: 0, scaleX: 1, scaleY: 1 }, { keyframes: [{ opacity: 0.85, duration: 0.05 }, { opacity: 0, scaleX: 1.22, scaleY: 1.9, duration: 0.6, ease: "power2.out" }] }, t);
+    });
+
+    window.__timelines["{{id}}"] = tl;
+  </script>
+</template>

@@ -1,0 +1,11 @@
+{
+  "id": "consultorio",
+  "titulo": "¿Y si tu consultorio agendara citas mientras duermes?",
+  "duracion_s": 36.3,
+  "volumen": "I: -15.5 LUFS",
+  "voz": "higgsfield / Bram",
+  "avisos_revision": 0,
+  "producido": "2026-11-13T03:55:07.953Z",
+  "video": "consultorio.mp4",
+  "guion": "animados/videos/consultorio/guion.json"
+}

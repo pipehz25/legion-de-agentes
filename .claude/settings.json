@@ -11,7 +11,14 @@
       "PowerShell(powershell -NoProfile -ExecutionPolicy Bypass -File legion/02-clipero/clipero.ps1 *)",
       "PowerShell(powershell -NoProfile -ExecutionPolicy Bypass -File legion/03-publicador/publicar.ps1 *)",
       "PowerShell(powershell -NoProfile -ExecutionPolicy Bypass -File herramientas/instalar.ps1)",
-      "PowerShell(powershell -NoProfile -ExecutionPolicy Bypass -File herramientas/instalar.ps1 *)"
+      "PowerShell(powershell -NoProfile -ExecutionPolicy Bypass -File herramientas/instalar.ps1 *)",
+      "Edit(animados/videos/**)",
+      "PowerShell(node animados/herramientas/producir.mjs *)",
+      "PowerShell(node animados/herramientas/capturas.mjs *)",
+      "PowerShell(node animados/herramientas/voz.mjs *)",
+      "PowerShell(node animados/herramientas/montaje.mjs *)",
+      "PowerShell(node -v)",
+      "PowerShell(higgsfield account status)"
     ],
     "deny": [
       "Read(~/.legion/**)",

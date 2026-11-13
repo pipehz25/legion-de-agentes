@@ -34,3 +34,7 @@ datos/publicador/envios/*.enviando
 *.env
 cookies*.txt
 credenciales*.json
+
+# Videos y portadas del Animador (solo se versionan meta.json y publicacion.txt)
+salidas/animador/**/*.mp4
+salidas/animador/**/*.jpg

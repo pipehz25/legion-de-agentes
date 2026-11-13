@@ -1,0 +1,65 @@
+{
+  "actualizado": "2026-11-13T03:58:58.421Z",
+  "videos": [
+    {
+      "id": "inmobiliaria",
+      "titulo": "¿Y si tu inmobiliaria atendiera clientes mientras duermes?",
+      "duracion_s": 35.3,
+      "producido": "2026-11-13T03:58:22.049Z",
+      "video": "salidas/animador/inmobiliaria/inmobiliaria.mp4",
+      "portada": "salidas/animador/inmobiliaria/portada.jpg",
+      "video_en_esta_pc": true,
+      "publicacion": "Tu inmobiliaria puede responder mensajes, agendar visitas y publicar propiedades mientras tú cierras negocios. Armamos una legión de agentes de inteligencia artificial a la medida de tu inmobiliaria. Escríbenos y te contamos cómo.\n\n#inmobiliaria #bienesraices #fincaraiz #inteligenciaartificial #agentesIA #automatizacion"
+    },
+    {
+      "id": "consultorio",
+      "titulo": "¿Y si tu consultorio agendara citas mientras duermes?",
+      "duracion_s": 36.3,
+      "producido": "2026-11-13T03:55:07.953Z",
+      "video": "salidas/animador/consultorio/consultorio.mp4",
+      "portada": "salidas/animador/consultorio/portada.jpg",
+      "video_en_esta_pc": true,
+      "publicacion": "Tu consultorio puede agendar citas, recordarlas y registrar los pagos mientras tú atiendes a tus pacientes. Armamos una legión de agentes de inteligencia artificial a la medida de tu consultorio. Escríbenos y te contamos cómo.\n\n#consultorio #odontologia #salud #inteligenciaartificial #agentesIA #automatizacion"
+    },
+    {
+      "id": "tienda",
+      "titulo": "¿Y si tu tienda vendiera mientras duermes?",
+      "duracion_s": 32.9,
+      "producido": "2026-11-13T03:48:52.753Z",
+      "video": "salidas/animador/tienda/tienda.mp4",
+      "portada": "salidas/animador/tienda/portada.jpg",
+      "video_en_esta_pc": true,
+      "publicacion": "Tu tienda puede responder dudas, organizar pedidos y hacer seguimiento a las ventas mientras tú descansas. Armamos una legión de agentes de inteligencia artificial a la medida de tu tienda. Escríbenos y te contamos cómo.\n\n#tiendaonline #ecommerce #ventas #inteligenciaartificial #agentesIA #automatizacion"
+    },
+    {
+      "id": "salon",
+      "titulo": "¿Y si tu salón llenara la agenda mientras duermes?",
+      "duracion_s": 34.9,
+      "producido": "2026-11-13T03:47:49.613Z",
+      "video": "salidas/animador/salon/salon.mp4",
+      "portada": "salidas/animador/salon/portada.jpg",
+      "video_en_esta_pc": true,
+      "publicacion": "Tu salón puede agendar citas, confirmarlas y publicar tus trabajos mientras tú atiendes. Armamos una legión de agentes de inteligencia artificial a la medida de tu salón. Escríbenos y te contamos cómo.\n\n#salondebelleza #barberia #belleza #inteligenciaartificial #agentesIA #automatizacion"
+    },
+    {
+      "id": "restaurante",
+      "titulo": "¿Y si tu restaurante tomara reservas mientras duermes?",
+      "duracion_s": 33.6,
+      "producido": "2026-11-13T03:46:16.085Z",
+      "video": "salidas/animador/restaurante/restaurante.mp4",
+      "portada": "salidas/animador/restaurante/portada.jpg",
+      "video_en_esta_pc": true,
+      "publicacion": "Tu restaurante puede tomar reservas, organizar pedidos y publicar el menú mientras tú descansas. Armamos una legión de agentes de inteligencia artificial a la medida de tu negocio. Escríbenos y te contamos cómo.\n\n#restaurantes #inteligenciaartificial #agentesIA #automatizacion #negocios #emprendimiento"
+    },
+    {
+      "id": "gimnasio",
+      "titulo": "¿Y si tu gimnasio inscribiera socios mientras duermes?",
+      "duracion_s": 35.4,
+      "producido": "2026-11-13T03:43:38.591Z",
+      "video": "salidas/animador/gimnasio/gimnasio.mp4",
+      "portada": "salidas/animador/gimnasio/portada.jpg",
+      "video_en_esta_pc": true,
+      "publicacion": "Tu gimnasio puede inscribir socios, cobrar mensualidades y agendar clases mientras tú entrenas a tu gente. Armamos una legión de agentes de inteligencia artificial a la medida de tu gimnasio. Escríbenos y te contamos cómo.\n\n#gimnasio #fitness #gym #inteligenciaartificial #agentesIA #automatizacion"
+    }
+  ]
+}

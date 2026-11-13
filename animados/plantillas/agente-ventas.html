@@ -1,0 +1,66 @@
+<!--
+  Un agente de ventas: barras que crecen, flecha y moneda. Una frase del guion.
+  Datos: rotulo, color, estado
+-->
+<template>
+  <style>
+{{>agente-css}}
+    #{{id}}-grafica {
+      position: absolute;
+      left: 470px;
+      top: 430px;
+      width: 520px;
+      height: 520px;
+    }
+    .{{id}}-barra {
+      fill: var(--c);
+    }
+    #{{id}}-moneda {
+      position: absolute;
+      left: 484px;
+      top: 430px;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      background: #ffc93c;
+      box-shadow:
+        0 0 0 12px #f2ae1c inset,
+        0 12px 30px rgba(0, 0, 0, 0.45);
+      color: #3b2a05;
+      font-weight: 900;
+      font-size: 96px;
+      line-height: 150px;
+      text-align: center;
+    }
+  </style>
+
+  <div id="root" data-composition-id="{{id}}" data-width="1080" data-height="1920">
+{{>agente-html}}
+    <div id="{{id}}-grafica">
+      <svg class="{{id}}-arte" viewBox="0 0 520 520">
+        <rect x="20" y="486" width="480" height="12" rx="6" fill="#2a5a6b" />
+        <rect id="{{id}}-barra-1" class="{{id}}-barra" x="40" y="366" width="92" height="120" rx="16" opacity="0.45" />
+        <rect id="{{id}}-barra-2" class="{{id}}-barra" x="156" y="296" width="92" height="190" rx="16" opacity="0.62" />
+        <rect id="{{id}}-barra-3" class="{{id}}-barra" x="272" y="216" width="92" height="270" rx="16" opacity="0.8" />
+        <rect id="{{id}}-barra-4" class="{{id}}-barra" x="388" y="126" width="92" height="360" rx="16" />
+        <path id="{{id}}-flecha" d="M56 330 L196 250 L312 176 L440 70" stroke="#fbf7ef" stroke-width="12" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="470" stroke-dashoffset="470" />
+        <path id="{{id}}-punta" d="M396 62 L452 56 L436 110" stroke="#fbf7ef" stroke-width="12" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+      </svg>
+    </div>
+    <div id="{{id}}-moneda">$</div>
+  </div>
+
+  <script>
+{{>agente-js}}
+
+    // Las barras suben, la flecha las recorre y la moneda cae con el remate.
+    [1, 2, 3, 4].forEach((n, i) => {
+      tl.fromTo(el("barra-" + n), { scaleY: 0 }, { scaleY: 1, duration: 0.34, ease: "back.out(1.7)", transformOrigin: "50% 100%" }, a1 + i * 0.12);
+    });
+    tl.to(el("flecha"), { strokeDashoffset: 0, duration: 0.45, ease: "power2.inOut" }, a2);
+    tl.fromTo(el("punta"), { opacity: 0 }, { opacity: 1, duration: 0.1 }, a2 + 0.4);
+    fx.entra(tl, el("moneda"), a3 - 0.12, { y: 80, rotation: -40 }, 0.32);
+
+    window.__timelines["{{id}}"] = tl;
+  </script>
+</template>

@@ -1,0 +1,75 @@
+<!--
+  Un agente que agenda: un calendario al que se le van llenando cupos. Una frase del guion.
+  Datos: rotulo, color, estado
+-->
+<template>
+  <style>
+{{>agente-css}}
+    #{{id}}-calendario {
+      position: absolute;
+      left: 490px;
+      top: 430px;
+      width: 470px;
+      height: 490px;
+    }
+    .{{id}}-tinta {
+      fill: var(--c);
+    }
+  </style>
+
+  <div id="root" data-composition-id="{{id}}" data-width="1080" data-height="1920">
+{{>agente-html}}
+    <div id="{{id}}-calendario">
+      <svg class="{{id}}-arte" viewBox="0 0 480 500">
+        <rect x="10" y="40" width="460" height="440" rx="36" fill="#fbf7ef" />
+        <path class="{{id}}-tinta" d="M46 40 H434 a36 36 0 0 1 36 36 V150 H10 V76 a36 36 0 0 1 36 -36Z" />
+        <rect x="118" y="8" width="28" height="74" rx="14" fill="#0d2029" />
+        <rect x="334" y="8" width="28" height="74" rx="14" fill="#0d2029" />
+        <g fill="#0d2029" opacity="0.5">
+          <circle cx="206" cy="106" r="9" />
+          <circle cx="240" cy="106" r="9" />
+          <circle cx="274" cy="106" r="9" />
+        </g>
+        <g fill="#e2dac6">
+          <rect x="47" y="178" width="80" height="80" rx="16" />
+          <rect x="149" y="178" width="80" height="80" rx="16" />
+          <rect x="251" y="178" width="80" height="80" rx="16" />
+          <rect x="353" y="178" width="80" height="80" rx="16" />
+          <rect x="47" y="276" width="80" height="80" rx="16" />
+          <rect x="149" y="276" width="80" height="80" rx="16" />
+          <rect x="251" y="276" width="80" height="80" rx="16" />
+          <rect x="353" y="276" width="80" height="80" rx="16" />
+          <rect x="47" y="374" width="80" height="80" rx="16" />
+          <rect x="149" y="374" width="80" height="80" rx="16" />
+          <rect x="251" y="374" width="80" height="80" rx="16" />
+          <rect x="353" y="374" width="80" height="80" rx="16" />
+        </g>
+        <g id="{{id}}-cupo-1">
+          <rect class="{{id}}-tinta" x="149" y="178" width="80" height="80" rx="16" />
+          <path d="M168 220 l14 14 l28 -30" stroke="#0d2029" stroke-width="10" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+        </g>
+        <g id="{{id}}-cupo-2">
+          <rect class="{{id}}-tinta" x="251" y="276" width="80" height="80" rx="16" />
+          <path d="M270 318 l14 14 l28 -30" stroke="#0d2029" stroke-width="10" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+        </g>
+        <g id="{{id}}-cupo-3">
+          <rect class="{{id}}-tinta" x="47" y="374" width="80" height="80" rx="16" />
+          <path d="M66 416 l14 14 l28 -30" stroke="#0d2029" stroke-width="10" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+        </g>
+      </svg>
+    </div>
+  </div>
+
+  <script>
+{{>agente-js}}
+
+    // El calendario entra y tres cupos se van llenando.
+    fx.entra(tl, el("calendario"), 0.06, { x: 200 }, 0.34);
+    const paso = Math.max(0.16, (a3 - a1) / 3);
+    ["cupo-1", "cupo-2", "cupo-3"].forEach((c, i) => {
+      tl.fromTo(el(c), { opacity: 0, scale: 0 }, { opacity: 1, scale: 1, duration: 0.24, ease: "back.out(3)", transformOrigin: "50% 50%" }, a1 + 0.12 + i * paso);
+    });
+
+    window.__timelines["{{id}}"] = tl;
+  </script>
+</template>

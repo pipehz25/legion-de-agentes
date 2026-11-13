@@ -1,0 +1,188 @@
+{
+  "titulo": "¿Y si tu consultorio agendara citas mientras duermes?",
+  "motor": "higgsfield",
+  "variante": "elevenlabs",
+  "voz": "Bram",
+  "inicio": 0.2,
+  "pausa": 0.24,
+  "cola": 2,
+  "publicacion": {
+    "texto": "Tu consultorio puede agendar citas, recordarlas y registrar los pagos mientras tú atiendes a tus pacientes. Armamos una legión de agentes de inteligencia artificial a la medida de tu consultorio. Escríbenos y te contamos cómo.",
+    "hashtags": [
+      "consultorio",
+      "odontologia",
+      "salud",
+      "inteligenciaartificial",
+      "agentesIA",
+      "automatizacion"
+    ]
+  },
+  "datos": {
+    "letrero": "TU CONSULTORIO",
+    "linea": "Armamos la tuya",
+    "boton": "ESCRÍBENOS",
+    "tareas": [
+      {
+        "texto": "Agendar",
+        "icono": "calendario",
+        "color": "#6fd3ff",
+        "palabra": "agendar"
+      },
+      {
+        "texto": "Confirmar",
+        "icono": "visto",
+        "color": "#ffc93c",
+        "palabra": "confirmar"
+      },
+      {
+        "texto": "Cobrar",
+        "icono": "moneda",
+        "color": "#86e8b4",
+        "palabra": "cobrar"
+      },
+      {
+        "texto": "Recordar",
+        "icono": "campana",
+        "color": "#ff7eb6",
+        "palabra": "recordar"
+      }
+    ]
+  },
+  "escenas": {
+    "gancho": {
+      "plantilla": "gancho-edificio",
+      "datos": {
+        "lineas": [
+          "¿Y si tu consultorio",
+          "agendara citas",
+          "mientras duermes?"
+        ]
+      }
+    },
+    "problema": {
+      "plantilla": "tareas-reloj",
+      "datos": {
+        "come": "comen"
+      }
+    },
+    "solucion": {
+      "plantilla": "nacen-agentes"
+    },
+    "agente1": {
+      "plantilla": "agente-agenda",
+      "datos": {
+        "color": "#6fd3ff",
+        "rotulo": "AGENDA",
+        "estado": "Cita agendada"
+      }
+    },
+    "agente2": {
+      "plantilla": "agente-chat",
+      "datos": {
+        "color": "#ffc93c",
+        "rotulo": "RECORDATORIOS",
+        "estado": "Confirmada",
+        "mensajes": [
+          {
+            "de": "agente",
+            "texto": "Tu cita es mañana."
+          },
+          {
+            "de": "cliente",
+            "texto": "¡Confirmo!"
+          }
+        ]
+      }
+    },
+    "agente3": {
+      "plantilla": "agente-cobros",
+      "datos": {
+        "color": "#ff7eb6",
+        "rotulo": "COBROS",
+        "estado": "Pago registrado",
+        "sello": "PAGADO"
+      }
+    },
+    "legion": {
+      "plantilla": "legion-aprueba"
+    },
+    "cierre": {
+      "plantilla": "cierre-marca"
+    }
+  },
+  "frases": [
+    {
+      "id": "f1",
+      "escena": "gancho",
+      "subtitulos": false,
+      "texto": "¿Y si tu consultorio agendara citas mientras duermes?"
+    },
+    {
+      "id": "f2",
+      "escena": "problema",
+      "texto": "Agendar, confirmar, cobrar, recordar: tareas que se comen tu día.",
+      "clave": [
+        "tareas",
+        "día"
+      ]
+    },
+    {
+      "id": "f3",
+      "escena": "solucion",
+      "texto": "Nosotros creamos un agente de inteligencia artificial para cada una.",
+      "clave": [
+        "agente"
+      ]
+    },
+    {
+      "id": "f4",
+      "escena": "agente1",
+      "texto": "Uno agenda las citas a cualquier hora.",
+      "clave": [
+        "citas"
+      ],
+      "pausa_despues": 0.5
+    },
+    {
+      "id": "f5",
+      "escena": "agente2",
+      "texto": "Otro le recuerda la cita a cada paciente.",
+      "clave": [
+        "recuerda"
+      ],
+      "pausa_despues": 0.5
+    },
+    {
+      "id": "f6",
+      "escena": "agente3",
+      "texto": "Otro envía la cuenta y registra el pago.",
+      "clave": [
+        "pago"
+      ],
+      "pausa_despues": 0.5
+    },
+    {
+      "id": "f7",
+      "escena": "legion",
+      "texto": "Trabajan juntos, día y noche, y tú solo apruebas.",
+      "clave": [
+        "apruebas"
+      ]
+    },
+    {
+      "id": "f8",
+      "escena": "cierre",
+      "texto": "Eso es una legión de agentes, hecha a la medida de tu consultorio.",
+      "clave": [
+        "legión",
+        "agentes"
+      ]
+    },
+    {
+      "id": "f9",
+      "escena": "cierre",
+      "subtitulos": false,
+      "texto": "Escríbenos y armamos la tuya."
+    }
+  ]
+}

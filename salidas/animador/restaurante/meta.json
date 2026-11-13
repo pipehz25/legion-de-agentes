@@ -1,0 +1,11 @@
+{
+  "id": "restaurante",
+  "titulo": "¿Y si tu restaurante tomara reservas mientras duermes?",
+  "duracion_s": 33.6,
+  "volumen": "I: -15.3 LUFS",
+  "voz": "higgsfield / Bram",
+  "avisos_revision": 0,
+  "producido": "2026-11-13T03:46:16.085Z",
+  "video": "restaurante.mp4",
+  "guion": "animados/videos/restaurante/guion.json"
+}

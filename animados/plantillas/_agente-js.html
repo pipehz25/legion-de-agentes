@@ -1,0 +1,17 @@
+    const tl = gsap.timeline({ paused: true });
+    const r = window.__reloj("{{id}}");
+    const fx = window.__fx;
+    const D = {{datos}};
+    const el = (nombre) => "#{{id}}-" + nombre;
+
+    // Tres momentos de la frase: arranque, mitad y remate.
+    const a1 = r.en(0, 0.1);
+    const a2 = r.en(0, 0.42);
+    const a3 = r.en(0, 0.8);
+
+    tl.fromTo(el("destello"), { opacity: 0.3 }, { opacity: 0, duration: 0.28, ease: "power2.out" }, 0);
+    fx.entra(tl, el("rotulo"), 0.02, { x: -200 }, 0.3);
+    fx.entra(tl, el("ag"), 0, { x: -180 }, 0.34);
+    fx.flota(tl, el("ag-f"), 0.4, r.dur, 10, 0.55);
+    // El estado entra con el remate, pero nunca tan tarde que no alcance a leerse.
+    fx.entra(tl, el("estado"), Math.max(0.5, Math.min(a3, r.dur - 1.35)), { y: 40 }, 0.3);

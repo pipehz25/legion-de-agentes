@@ -1,0 +1,56 @@
+{
+  "titulo": "¿Y si tu restaurante tomara reservas mientras duermes?",
+  "motor": "higgsfield",
+  "variante": "elevenlabs",
+  "voz": "Bram",
+  "inicio": 0.2,
+  "pausa": 0.24,
+  "cola": 2.0,
+  "publicacion": {
+    "texto": "Tu restaurante puede tomar reservas, organizar pedidos y publicar el menú mientras tú descansas. Armamos una legión de agentes de inteligencia artificial a la medida de tu negocio. Escríbenos y te contamos cómo.",
+    "hashtags": ["restaurantes", "inteligenciaartificial", "agentesIA", "automatizacion", "negocios", "emprendimiento"]
+  },
+  "datos": {
+    "letrero": "TU RESTAURANTE",
+    "linea": "Armamos la tuya",
+    "boton": "ESCRÍBENOS",
+    "tareas": [
+      { "texto": "Reservas", "icono": "calendario", "color": "#6fd3ff", "palabra": "reservas" },
+      { "texto": "Pedidos", "icono": "bolsa", "color": "#ffc93c", "palabra": "pedidos" },
+      { "texto": "Reseñas", "icono": "estrella", "color": "#86e8b4", "palabra": "reseñas" },
+      { "texto": "Redes", "icono": "flecha", "color": "#ff7eb6", "palabra": "redes" }
+    ]
+  },
+  "escenas": {
+    "gancho": { "plantilla": "gancho-edificio", "datos": { "lineas": ["¿Y si tu restaurante", "tomara reservas", "mientras duermes?"] } },
+    "problema": { "plantilla": "tareas-reloj", "datos": { "come": "comen" } },
+    "solucion": { "plantilla": "nacen-agentes" },
+    "agente1": {
+      "plantilla": "agente-chat",
+      "datos": {
+        "rotulo": "RESERVAS",
+        "color": "#6fd3ff",
+        "estado": "Reservado",
+        "mensajes": [
+          { "de": "cliente", "texto": "¿Mesa para 4 hoy?" },
+          { "de": "agente", "texto": "¡Lista! A las 8." }
+        ]
+      }
+    },
+    "agente2": { "plantilla": "agente-pedidos", "datos": { "rotulo": "PEDIDOS", "color": "#ffc93c", "estado": "En cocina", "items": ["Mesa 4", "Domicilio", "Para llevar"] } },
+    "agente3": { "plantilla": "agente-redes", "datos": { "rotulo": "REDES", "color": "#ff7eb6", "estado": "Publicado" } },
+    "legion": { "plantilla": "legion-aprueba" },
+    "cierre": { "plantilla": "cierre-marca" }
+  },
+  "frases": [
+    { "id": "f1", "escena": "gancho", "subtitulos": false, "texto": "¿Y si tu restaurante tomara reservas mientras duermes?" },
+    { "id": "f2", "escena": "problema", "texto": "Reservas, pedidos, reseñas, redes: tareas que se comen tu día.", "clave": ["tareas", "día"] },
+    { "id": "f3", "escena": "solucion", "texto": "Nosotros creamos un agente de inteligencia artificial para cada una.", "clave": ["agente"] },
+    { "id": "f4", "escena": "agente1", "texto": "Uno toma las reservas por chat.", "clave": ["reservas"], "pausa_despues": 0.5 },
+    { "id": "f5", "escena": "agente2", "texto": "Otro recibe y organiza los pedidos.", "clave": ["pedidos"], "pausa_despues": 0.5 },
+    { "id": "f6", "escena": "agente3", "texto": "Otro publica tu menú del día.", "clave": ["menú"], "pausa_despues": 0.5 },
+    { "id": "f7", "escena": "legion", "texto": "Trabajan juntos, día y noche, y tú solo apruebas.", "clave": ["apruebas"] },
+    { "id": "f8", "escena": "cierre", "texto": "Eso es una legión de agentes, hecha a la medida de tu restaurante.", "clave": ["legión", "agentes"] },
+    { "id": "f9", "escena": "cierre", "subtitulos": false, "texto": "Escríbenos y armamos la tuya." }
+  ]
+}

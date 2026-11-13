@@ -1,0 +1,232 @@
+<!--
+  La legion completa trabajando de dia y de noche, y el boton que el dueno aprueba.
+  Una frase del guion; pensada para "Trabajan juntos, dia y noche, y tu solo apruebas."
+  Datos: ninguno
+-->
+<template>
+  <style>
+    #root {
+      position: absolute;
+      inset: 0;
+      font-family: "Nunito", sans-serif;
+      color: #fbf7ef;
+    }
+    .{{id}}-arte {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+    #{{id}}-destello {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 80% 50% at 50% 34%, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+    }
+    #{{id}}-cielo {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 1080px;
+      height: 1920px;
+    }
+    #{{id}}-sol {
+      position: absolute;
+      left: 120px;
+      top: 226px;
+      width: 170px;
+      height: 170px;
+    }
+    #{{id}}-luna {
+      position: absolute;
+      left: 800px;
+      top: 236px;
+      width: 150px;
+      height: 150px;
+    }
+    #{{id}}-formacion {
+      position: absolute;
+      inset: 0;
+    }
+    .{{id}}-ag {
+      position: absolute;
+    }
+    .{{id}}-capa {
+      width: 100%;
+      height: 100%;
+    }
+    .{{id}}-atras {
+      width: 150px;
+      height: 180px;
+      top: 430px;
+    }
+    .{{id}}-medio {
+      width: 190px;
+      height: 228px;
+      top: 526px;
+    }
+    .{{id}}-frente {
+      width: 230px;
+      height: 276px;
+      top: 652px;
+    }
+    .{{id}}-boton {
+      position: absolute;
+      left: 280px;
+      top: 962px;
+      width: 520px;
+      height: 116px;
+      border-radius: 58px;
+      font-weight: 900;
+      font-size: 58px;
+      line-height: 116px;
+      text-align: center;
+      letter-spacing: 0.02em;
+    }
+    #{{id}}-pedir {
+      background: #14313c;
+      box-shadow:
+        0 0 0 6px #fbf7ef inset,
+        0 14px 34px rgba(0, 0, 0, 0.5);
+    }
+    #{{id}}-aprobado {
+      background: #86e8b4;
+      color: #0d2029;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      box-shadow: 0 0 60px rgba(134, 232, 180, 0.6);
+    }
+    #{{id}}-aprobado svg {
+      flex: none;
+      width: 54px;
+      height: 54px;
+    }
+    #{{id}}-onda {
+      box-shadow: 0 0 0 8px #86e8b4 inset;
+    }
+    #{{id}}-dedo {
+      position: absolute;
+      left: 700px;
+      top: 1000px;
+      width: 84px;
+      height: 84px;
+      border-radius: 50%;
+      background: #fbf7ef;
+      box-shadow:
+        0 0 0 10px rgba(251, 247, 239, 0.3),
+        0 10px 24px rgba(0, 0, 0, 0.5);
+    }
+  </style>
+
+  <div id="root" data-composition-id="{{id}}" data-width="1080" data-height="1920">
+    <svg width="0" height="0" style="position: absolute">
+      <defs>
+        <symbol id="{{id}}-sim-agente" viewBox="0 0 200 240">
+          <ellipse cx="100" cy="229" rx="60" ry="9" fill="#000000" opacity="0.3" />
+          <rect x="96" y="12" width="8" height="30" rx="4" fill="#fbf7ef" />
+          <circle cx="100" cy="13" r="11" fill="currentColor" />
+          <rect x="24" y="158" width="24" height="50" rx="12" fill="currentColor" />
+          <rect x="152" y="158" width="24" height="50" rx="12" fill="currentColor" />
+          <rect x="52" y="148" width="96" height="72" rx="26" fill="currentColor" />
+          <rect x="52" y="148" width="96" height="72" rx="26" fill="#000000" opacity="0.2" />
+          <circle cx="100" cy="184" r="13" fill="#fbf7ef" />
+          <rect x="30" y="38" width="140" height="106" rx="36" fill="currentColor" />
+          <path d="M50 74 Q54 54 78 50" stroke="#ffffff" stroke-width="7" stroke-linecap="round" fill="none" opacity="0.5" />
+          <rect x="48" y="66" width="104" height="52" rx="26" fill="#0d2029" />
+          <circle cx="80" cy="92" r="11" fill="#fbf7ef" />
+          <circle cx="120" cy="92" r="11" fill="#fbf7ef" />
+        </symbol>
+      </defs>
+    </svg>
+
+    <div id="{{id}}-destello"></div>
+
+    <svg id="{{id}}-cielo" viewBox="0 0 1080 1920">
+      <path id="{{id}}-arco" d="M300 300 Q540 170 790 300" stroke="#fbf7ef" stroke-width="7" fill="none" stroke-linecap="round" stroke-dasharray="560" stroke-dashoffset="560" opacity="0.55" />
+    </svg>
+    <div id="{{id}}-sol">
+      <svg class="{{id}}-arte" viewBox="0 0 170 170">
+        <g stroke="#ffc93c" stroke-width="11" stroke-linecap="round">
+          <path d="M85 6 V26" /><path d="M85 144 V164" /><path d="M6 85 H26" /><path d="M144 85 H164" />
+          <path d="M29 29 L43 43" /><path d="M127 127 L141 141" /><path d="M29 141 L43 127" /><path d="M127 43 L141 29" />
+        </g>
+        <circle cx="85" cy="85" r="44" fill="#ffc93c" />
+        <circle cx="72" cy="72" r="13" fill="#fff3c4" opacity="0.8" />
+      </svg>
+    </div>
+    <div id="{{id}}-luna">
+      <svg class="{{id}}-arte" viewBox="0 0 150 150">
+        <defs>
+          <mask id="{{id}}-mascara-luna">
+            <rect width="150" height="150" fill="#ffffff" />
+            <circle cx="100" cy="58" r="52" fill="#000000" />
+          </mask>
+        </defs>
+        <circle cx="75" cy="75" r="62" fill="#fdf0b8" mask="url(#{{id}}-mascara-luna)" />
+      </svg>
+    </div>
+
+    <div id="{{id}}-formacion">
+      <div id="{{id}}-ag-1" class="{{id}}-ag {{id}}-atras" style="left: 165px; color: #6fd3ff"><div id="{{id}}-ag-1-f" class="{{id}}-capa"><svg class="{{id}}-arte" viewBox="0 0 200 240"><use href="#{{id}}-sim-agente" /></svg></div></div>
+      <div id="{{id}}-ag-2" class="{{id}}-ag {{id}}-atras" style="left: 365px; color: #ffc93c"><div id="{{id}}-ag-2-f" class="{{id}}-capa"><svg class="{{id}}-arte" viewBox="0 0 200 240"><use href="#{{id}}-sim-agente" /></svg></div></div>
+      <div id="{{id}}-ag-3" class="{{id}}-ag {{id}}-atras" style="left: 565px; color: #86e8b4"><div id="{{id}}-ag-3-f" class="{{id}}-capa"><svg class="{{id}}-arte" viewBox="0 0 200 240"><use href="#{{id}}-sim-agente" /></svg></div></div>
+      <div id="{{id}}-ag-4" class="{{id}}-ag {{id}}-atras" style="left: 765px; color: #ff7eb6"><div id="{{id}}-ag-4-f" class="{{id}}-capa"><svg class="{{id}}-arte" viewBox="0 0 200 240"><use href="#{{id}}-sim-agente" /></svg></div></div>
+      <div id="{{id}}-ag-5" class="{{id}}-ag {{id}}-medio" style="left: 245px; color: #b79bff"><div id="{{id}}-ag-5-f" class="{{id}}-capa"><svg class="{{id}}-arte" viewBox="0 0 200 240"><use href="#{{id}}-sim-agente" /></svg></div></div>
+      <div id="{{id}}-ag-6" class="{{id}}-ag {{id}}-medio" style="left: 445px; color: #ff9f5a"><div id="{{id}}-ag-6-f" class="{{id}}-capa"><svg class="{{id}}-arte" viewBox="0 0 200 240"><use href="#{{id}}-sim-agente" /></svg></div></div>
+      <div id="{{id}}-ag-7" class="{{id}}-ag {{id}}-medio" style="left: 645px; color: #6fd3ff"><div id="{{id}}-ag-7-f" class="{{id}}-capa"><svg class="{{id}}-arte" viewBox="0 0 200 240"><use href="#{{id}}-sim-agente" /></svg></div></div>
+      <div id="{{id}}-ag-8" class="{{id}}-ag {{id}}-frente" style="left: 315px; color: #ffc93c"><div id="{{id}}-ag-8-f" class="{{id}}-capa"><svg class="{{id}}-arte" viewBox="0 0 200 240"><use href="#{{id}}-sim-agente" /></svg></div></div>
+      <div id="{{id}}-ag-9" class="{{id}}-ag {{id}}-frente" style="left: 535px; color: #ff7eb6"><div id="{{id}}-ag-9-f" class="{{id}}-capa"><svg class="{{id}}-arte" viewBox="0 0 200 240"><use href="#{{id}}-sim-agente" /></svg></div></div>
+    </div>
+
+    <div id="{{id}}-onda" class="{{id}}-boton"></div>
+    <div id="{{id}}-pedir" class="{{id}}-boton">APROBAR</div>
+    <div id="{{id}}-aprobado" class="{{id}}-boton">
+      <span>APROBADO</span>
+      <svg viewBox="0 0 40 40"><path d="M7 21 l9 9 l17 -19" stroke="#0d2029" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round" /></svg>
+    </div>
+    <div id="{{id}}-dedo"></div>
+  </div>
+
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    const r = window.__reloj("{{id}}");
+    const fx = window.__fx;
+    const D = {{datos}};
+    const el = (nombre) => "#{{id}}-" + nombre;
+
+    tl.fromTo(el("destello"), { opacity: 0.3 }, { opacity: 0, duration: 0.28, ease: "power2.out" }, 0);
+
+    // "Trabajan juntos": la legion entra por filas y salta a la vez.
+    const vaiven = r.dur > 2.2;
+    [0.02, 0.06, 0.1, 0.14, 0.2, 0.24, 0.28, 0.36, 0.42].forEach((t, i) => {
+      const n = i + 1;
+      fx.entra(tl, el("ag-" + n), t, { y: 90 }, 0.3);
+      if (vaiven) fx.flota(tl, el("ag-" + n + "-f"), 0.8, r.dur, 9, 0.3);
+    });
+    const juntos = Math.max(0.6, r.palabra(0, "juntos", 0.2));
+    tl.fromTo(el("formacion"), { y: 0 }, { y: -30, duration: 0.12, ease: "power2.out" }, juntos);
+    tl.to(el("formacion"), { y: 0, duration: 0.22, ease: "bounce.out" }, juntos + 0.12);
+
+    // "dia y noche": sol, arco y luna.
+    const dia = Math.max(juntos + 0.3, r.palabra(0, "día", 0.36));
+    const noche = Math.max(dia + 0.25, r.palabra(0, "noche", 0.5));
+    fx.entra(tl, el("sol"), dia, { rotation: -90 }, 0.32);
+    tl.to(el("arco"), { strokeDashoffset: 0, duration: Math.max(0.2, noche - dia), ease: "power1.inOut" }, dia + 0.1);
+    fx.entra(tl, el("luna"), noche, { rotation: 60 }, 0.32);
+
+    // "y tu solo apruebas": aparece el boton, el dedo lo toca y queda aprobado.
+    const pide = Math.max(noche + 0.3, r.palabra(0, "tú", 0.66));
+    const toque = Math.max(pide + 0.45, r.palabra(0, "apruebas", 0.84));
+    fx.entra(tl, el("pedir"), pide, { y: 70 }, 0.3);
+    tl.fromTo(el("dedo"), { opacity: 0, x: 170, y: 150, scale: 1 }, { opacity: 0.95, x: 0, y: 0, duration: Math.max(0.15, toque - pide - 0.2), ease: "power2.out" }, pide + 0.2);
+    tl.to(el("dedo"), { scale: 0.72, duration: 0.07, ease: "power2.in" }, toque);
+    tl.to(el("dedo"), { scale: 1, opacity: 0, x: 60, y: 60, duration: 0.3, ease: "power2.out" }, toque + 0.1);
+    tl.to(el("pedir"), { opacity: 0, duration: 0.06 }, toque + 0.06);
+    tl.fromTo(el("aprobado"), { opacity: 0, scale: 0.9 }, { opacity: 1, scale: 1, duration: 0.14, ease: "back.out(3)" }, toque + 0.06);
+    tl.fromTo(el("onda"), { opacity: 0, scale: 1 }, { keyframes: [{ opacity: 0.9, duration: 0.04 }, { opacity: 0, scaleX: 1.35, scaleY: 2, duration: 0.5, ease: "power2.out" }] }, toque + 0.06);
+    tl.to(el("formacion"), { y: -34, duration: 0.12, ease: "power2.out" }, toque + 0.14);
+    tl.to(el("formacion"), { y: 0, duration: 0.24, ease: "bounce.out" }, toque + 0.26);
+
+    window.__timelines["{{id}}"] = tl;
+  </script>
+</template>

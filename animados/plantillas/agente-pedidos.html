@@ -1,0 +1,95 @@
+<!--
+  Un agente que organiza pedidos: tres tarjetas que se van marcando. Una frase del guion.
+  Datos: rotulo, color, estado, items: ["Mesa 4", "Domicilio", "Para llevar"] (2 palabras o menos cada uno)
+-->
+<template>
+  <style>
+{{>agente-css}}
+    .{{id}}-tarjeta {
+      position: absolute;
+      left: 470px;
+      width: 520px;
+      height: 132px;
+      border-radius: 28px;
+      background: #14313c;
+      box-shadow:
+        12px 0 0 var(--c) inset,
+        0 12px 30px rgba(0, 0, 0, 0.45);
+      display: flex;
+      align-items: center;
+      gap: 22px;
+      padding: 0 24px 0 36px;
+      font-weight: 900;
+      font-size: 46px;
+      white-space: nowrap;
+    }
+    .{{id}}-icono {
+      flex: none;
+      width: 76px;
+      height: 76px;
+      border-radius: 50%;
+      background: var(--c);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .{{id}}-icono svg {
+      width: 46px;
+      height: 46px;
+      fill: #0d2029;
+    }
+    .{{id}}-texto {
+      flex: 1;
+    }
+    .{{id}}-marca {
+      flex: none;
+      position: relative;
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      background: #2a5a6b;
+    }
+    .{{id}}-hecho {
+      position: absolute;
+      inset: 0;
+      border-radius: 50%;
+      background: #86e8b4;
+    }
+    .{{id}}-hecho svg {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+
+  <div id="root" data-composition-id="{{id}}" data-width="1080" data-height="1920">
+{{>agente-html}}
+    <div id="{{id}}-tarjeta-1" class="{{id}}-tarjeta" style="top: 440px">
+      <span class="{{id}}-icono"><svg viewBox="0 0 48 48"><path d="M10 17h28l3 25a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2zm7 0v-4a7 7 0 0 1 14 0v4h-4v-4a3 3 0 0 0-6 0v4z" /></svg></span>
+      <span class="{{id}}-texto">{{d.items.0}}</span>
+      <span class="{{id}}-marca"><span id="{{id}}-hecho-1" class="{{id}}-hecho"><svg viewBox="0 0 64 64"><path d="M17 33 l11 11 l20 -23" stroke="#0d2029" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round" /></svg></span></span>
+    </div>
+    <div id="{{id}}-tarjeta-2" class="{{id}}-tarjeta" style="top: 610px">
+      <span class="{{id}}-icono"><svg viewBox="0 0 48 48"><path d="M10 17h28l3 25a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2zm7 0v-4a7 7 0 0 1 14 0v4h-4v-4a3 3 0 0 0-6 0v4z" /></svg></span>
+      <span class="{{id}}-texto">{{d.items.1}}</span>
+      <span class="{{id}}-marca"><span id="{{id}}-hecho-2" class="{{id}}-hecho"><svg viewBox="0 0 64 64"><path d="M17 33 l11 11 l20 -23" stroke="#0d2029" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round" /></svg></span></span>
+    </div>
+    <div id="{{id}}-tarjeta-3" class="{{id}}-tarjeta" style="top: 780px">
+      <span class="{{id}}-icono"><svg viewBox="0 0 48 48"><path d="M10 17h28l3 25a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2zm7 0v-4a7 7 0 0 1 14 0v4h-4v-4a3 3 0 0 0-6 0v4z" /></svg></span>
+      <span class="{{id}}-texto">{{d.items.2}}</span>
+      <span class="{{id}}-marca"><span id="{{id}}-hecho-3" class="{{id}}-hecho"><svg viewBox="0 0 64 64"><path d="M17 33 l11 11 l20 -23" stroke="#0d2029" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round" /></svg></span></span>
+    </div>
+  </div>
+
+  <script>
+{{>agente-js}}
+
+    // Las tres tarjetas entran seguidas y se marcan una por una.
+    [1, 2, 3].forEach((n, i) => {
+      fx.entra(tl, el("tarjeta-" + n), a1 + i * 0.1, { x: 260 }, 0.3);
+      tl.fromTo(el("hecho-" + n), { opacity: 0, scale: 0 }, { opacity: 1, scale: 1, duration: 0.22, ease: "back.out(3)" }, a2 + i * 0.16);
+    });
+
+    window.__timelines["{{id}}"] = tl;
+  </script>
+</template>

@@ -1,0 +1,11 @@
+{
+  "id": "tienda",
+  "titulo": "¿Y si tu tienda vendiera mientras duermes?",
+  "duracion_s": 32.9,
+  "volumen": "I: -15.4 LUFS",
+  "voz": "higgsfield / Bram",
+  "avisos_revision": 0,
+  "producido": "2026-11-13T03:48:52.753Z",
+  "video": "tienda.mp4",
+  "guion": "animados/videos/tienda/guion.json"
+}

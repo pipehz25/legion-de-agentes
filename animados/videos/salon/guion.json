@@ -1,0 +1,187 @@
+{
+  "titulo": "¿Y si tu salón llenara la agenda mientras duermes?",
+  "motor": "higgsfield",
+  "variante": "elevenlabs",
+  "voz": "Bram",
+  "inicio": 0.2,
+  "pausa": 0.24,
+  "cola": 2,
+  "publicacion": {
+    "texto": "Tu salón puede agendar citas, confirmarlas y publicar tus trabajos mientras tú atiendes. Armamos una legión de agentes de inteligencia artificial a la medida de tu salón. Escríbenos y te contamos cómo.",
+    "hashtags": [
+      "salondebelleza",
+      "barberia",
+      "belleza",
+      "inteligenciaartificial",
+      "agentesIA",
+      "automatizacion"
+    ]
+  },
+  "datos": {
+    "letrero": "TU SALÓN",
+    "linea": "Armamos la tuya",
+    "boton": "ESCRÍBENOS",
+    "tareas": [
+      {
+        "texto": "Agendar",
+        "icono": "calendario",
+        "color": "#6fd3ff",
+        "palabra": "agendar"
+      },
+      {
+        "texto": "Confirmar",
+        "icono": "visto",
+        "color": "#ffc93c",
+        "palabra": "confirmar"
+      },
+      {
+        "texto": "Cobrar",
+        "icono": "moneda",
+        "color": "#86e8b4",
+        "palabra": "cobrar"
+      },
+      {
+        "texto": "Publicar",
+        "icono": "flecha",
+        "color": "#ff7eb6",
+        "palabra": "publicar"
+      }
+    ]
+  },
+  "escenas": {
+    "gancho": {
+      "plantilla": "gancho-edificio",
+      "datos": {
+        "lineas": [
+          "¿Y si tu salón",
+          "llenara la agenda",
+          "mientras duermes?"
+        ]
+      }
+    },
+    "problema": {
+      "plantilla": "tareas-reloj",
+      "datos": {
+        "come": "comen"
+      }
+    },
+    "solucion": {
+      "plantilla": "nacen-agentes"
+    },
+    "agente1": {
+      "plantilla": "agente-chat",
+      "datos": {
+        "color": "#6fd3ff",
+        "rotulo": "CITAS",
+        "estado": "Agendado",
+        "mensajes": [
+          {
+            "de": "cliente",
+            "texto": "¿Tienes cupo mañana?"
+          },
+          {
+            "de": "agente",
+            "texto": "¡Sí! A las 10."
+          }
+        ]
+      }
+    },
+    "agente2": {
+      "plantilla": "agente-agenda",
+      "datos": {
+        "color": "#ffc93c",
+        "rotulo": "AGENDA",
+        "estado": "Cita confirmada"
+      }
+    },
+    "agente3": {
+      "plantilla": "agente-redes",
+      "datos": {
+        "color": "#ff7eb6",
+        "rotulo": "REDES",
+        "estado": "Publicado"
+      }
+    },
+    "legion": {
+      "plantilla": "legion-aprueba"
+    },
+    "cierre": {
+      "plantilla": "cierre-marca"
+    }
+  },
+  "frases": [
+    {
+      "id": "f1",
+      "escena": "gancho",
+      "subtitulos": false,
+      "texto": "¿Y si tu salón llenara la agenda mientras duermes?"
+    },
+    {
+      "id": "f2",
+      "escena": "problema",
+      "texto": "Agendar, confirmar, cobrar, publicar: tareas que se comen tu día.",
+      "clave": [
+        "tareas",
+        "día"
+      ]
+    },
+    {
+      "id": "f3",
+      "escena": "solucion",
+      "texto": "Nosotros creamos un agente de inteligencia artificial para cada una.",
+      "clave": [
+        "agente"
+      ]
+    },
+    {
+      "id": "f4",
+      "escena": "agente1",
+      "texto": "Uno agenda las citas por chat.",
+      "clave": [
+        "citas"
+      ],
+      "pausa_despues": 0.5
+    },
+    {
+      "id": "f5",
+      "escena": "agente2",
+      "texto": "Otro confirma y recuerda cada cita.",
+      "clave": [
+        "confirma"
+      ],
+      "pausa_despues": 0.5
+    },
+    {
+      "id": "f6",
+      "escena": "agente3",
+      "texto": "Otro publica tus trabajos en redes.",
+      "clave": [
+        "publica"
+      ],
+      "pausa_despues": 0.5
+    },
+    {
+      "id": "f7",
+      "escena": "legion",
+      "texto": "Trabajan juntos, día y noche, y tú solo apruebas.",
+      "clave": [
+        "apruebas"
+      ]
+    },
+    {
+      "id": "f8",
+      "escena": "cierre",
+      "texto": "Eso es una legión de agentes, hecha a la medida de tu salón.",
+      "clave": [
+        "legión",
+        "agentes"
+      ]
+    },
+    {
+      "id": "f9",
+      "escena": "cierre",
+      "subtitulos": false,
+      "texto": "Escríbenos y armamos la tuya."
+    }
+  ]
+}

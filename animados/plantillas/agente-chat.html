@@ -1,0 +1,60 @@
+<!--
+  Un agente conversando. Una frase del guion.
+  Datos: rotulo, color, estado, mensajes: [{ de: "cliente" | "agente", texto }, { de, texto }]
+  Los mensajes van cortos (4 palabras o menos): la escena dura lo que dura la frase.
+-->
+<template>
+  <style>
+{{>agente-css}}
+    .{{id}}-burbuja {
+      position: absolute;
+      max-width: 500px;
+      padding: 22px 30px;
+      border-radius: 34px;
+      font-weight: 800;
+      font-size: 42px;
+      line-height: 1.2;
+      box-shadow: 0 10px 28px rgba(0, 0, 0, 0.4);
+    }
+    .{{id}}-de-cliente {
+      left: 470px;
+      background: #2a5a6b;
+      border-bottom-left-radius: 8px;
+    }
+    .{{id}}-de-agente {
+      right: 90px;
+      background: var(--c);
+      color: #0d2029;
+      border-bottom-right-radius: 8px;
+    }
+    #{{id}}-b1 {
+      top: 450px;
+    }
+    #{{id}}-b2 {
+      top: 660px;
+    }
+  </style>
+
+  <div id="root" data-composition-id="{{id}}" data-width="1080" data-height="1920">
+{{>agente-html}}
+    <div id="{{id}}-b1" class="{{id}}-burbuja {{id}}-de-{{d.mensajes.0.de}}">{{d.mensajes.0.texto}}</div>
+    <div id="{{id}}-b2" class="{{id}}-burbuja {{id}}-de-{{d.mensajes.1.de}}">{{d.mensajes.1.texto}}</div>
+  </div>
+
+  <script>
+{{>agente-js}}
+
+    // Dos mensajes: el primero al arrancar la frase, el segundo a la mitad.
+    D.mensajes.forEach((m, i) => {
+      const delAgente = m.de === "agente";
+      tl.fromTo(
+        el("b" + (i + 1)),
+        { opacity: 0, scale: 0.4, x: delAgente ? 60 : -60 },
+        { opacity: 1, scale: 1, x: 0, duration: 0.28, ease: "back.out(2)", transformOrigin: delAgente ? "100% 100%" : "0% 100%" },
+        i === 0 ? a1 : a2,
+      );
+    });
+
+    window.__timelines["{{id}}"] = tl;
+  </script>
+</template>

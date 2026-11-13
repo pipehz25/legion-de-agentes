@@ -1,0 +1,71 @@
+    /* Base de toda escena "un agente en accion": rotulo arriba, robot a la izquierda,
+       su trabajo a la derecha (x 470-990, y 400-980) y el estado abajo. */
+    #root {
+      position: absolute;
+      inset: 0;
+      font-family: "Nunito", sans-serif;
+      color: #fbf7ef;
+      --c: {{d.color}};
+    }
+    .{{id}}-arte {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+    #{{id}}-destello {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 80% 50% at 50% 34%, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+    }
+    #{{id}}-rotulo {
+      position: absolute;
+      left: 108px;
+      top: 236px;
+      height: 100px;
+      padding: 0 44px;
+      border-radius: 50px;
+      background: var(--c);
+      color: #0d2029;
+      font-weight: 900;
+      font-size: 58px;
+      line-height: 100px;
+      letter-spacing: 0.01em;
+      white-space: nowrap;
+      box-shadow: 0 12px 34px rgba(0, 0, 0, 0.45);
+    }
+    #{{id}}-ag {
+      position: absolute;
+      left: 84px;
+      top: 500px;
+      width: 330px;
+      height: 396px;
+      color: var(--c);
+    }
+    #{{id}}-ag-f {
+      width: 100%;
+      height: 100%;
+    }
+    #{{id}}-estado {
+      position: absolute;
+      left: 470px;
+      top: 1000px;
+      width: 520px;
+      height: 92px;
+      border-radius: 46px;
+      background: #86e8b4;
+      color: #0d2029;
+      font-weight: 900;
+      font-size: 44px;
+      line-height: 92px;
+      white-space: nowrap;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 14px;
+      box-shadow: 0 10px 28px rgba(0, 0, 0, 0.4);
+    }
+    #{{id}}-estado svg {
+      flex: none;
+      width: 44px;
+      height: 44px;
+    }
