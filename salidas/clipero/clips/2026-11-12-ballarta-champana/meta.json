@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-12-ballarta-champana",
+    "url_fuente":  "https://www.youtube.com/watch?v=W3kk6XMYfYI",
+    "video_id":  "W3kk6XMYfYI",
+    "inicio":  87.85,
+    "fin":  126.3,
+    "inicio_hms":  "0:01:27",
+    "duracion_seg":  38.5,
+    "gancho":  "Ballarta y el amigo que no toma nada",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  114,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -19.74,
+                  "entrada_tp":  -7.15,
+                  "salida_lufs":  -13.89,
+                  "salida_tp":  -1.41
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-12-ballarta-champana/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-12-ballarta-champana/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-12-ballarta-champana/revision.jpg",
+    "creado":  "2026-11-12T22:48:39.2006738-05:00"
+}

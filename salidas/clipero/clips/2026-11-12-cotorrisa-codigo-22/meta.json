@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-12-cotorrisa-codigo-22",
+    "url_fuente":  "https://www.youtube.com/watch?v=jUfBJ_aIA3w",
+    "video_id":  "jUfBJ_aIA3w",
+    "inicio":  210.61,
+    "fin":  281.7,
+    "inicio_hms":  "0:03:30",
+    "duracion_seg":  71.1,
+    "gancho":  "El \u0027código 22\u0027 de los restaurantes",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  228,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -13.72,
+                  "entrada_tp":  -1.5,
+                  "salida_lufs":  -14.05,
+                  "salida_tp":  -1.8
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-12-cotorrisa-codigo-22/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-12-cotorrisa-codigo-22/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-12-cotorrisa-codigo-22/revision.jpg",
+    "creado":  "2026-11-12T22:51:27.9739701-05:00"
+}

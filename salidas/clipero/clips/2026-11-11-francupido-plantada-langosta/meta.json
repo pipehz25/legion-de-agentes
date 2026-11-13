@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-11-francupido-plantada-langosta",
+    "url_fuente":  "https://www.youtube.com/watch?v=NiWsTPALopk",
+    "video_id":  "NiWsTPALopk",
+    "inicio":  1757.96,
+    "fin":  1800.2,
+    "inicio_hms":  "0:29:17",
+    "duracion_seg":  42.3,
+    "gancho":  "La dejaron plantada y cenó langosta",
+    "subtitulos":  "orig",
+    "palabras_subtituladas":  129,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1012,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -20.41,
+                  "entrada_tp":  -7.64,
+                  "salida_lufs":  -13.89,
+                  "salida_tp":  -1.26
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-11-francupido-plantada-langosta/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-11-francupido-plantada-langosta/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-11-francupido-plantada-langosta/revision.jpg",
+    "creado":  "2026-11-12T22:46:55.2434485-05:00"
+}

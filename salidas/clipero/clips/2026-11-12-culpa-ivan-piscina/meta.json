@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-12-culpa-ivan-piscina",
+    "url_fuente":  "https://www.youtube.com/watch?v=3BAphhKqHUw",
+    "video_id":  "3BAphhKqHUw",
+    "inicio":  2268.85,
+    "fin":  2290.54,
+    "inicio_hms":  "0:37:48",
+    "duracion_seg":  21.8,
+    "gancho":  "El consejo que casi ahoga a Iván Marín",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  81,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -14.91,
+                  "entrada_tp":  -2.41,
+                  "salida_lufs":  -14.17,
+                  "salida_tp":  -1.5
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-12-culpa-ivan-piscina/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-12-culpa-ivan-piscina/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-12-culpa-ivan-piscina/revision.jpg",
+    "creado":  "2026-11-12T23:02:10.0693680-05:00"
+}

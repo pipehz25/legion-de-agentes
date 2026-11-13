@@ -1,8 +1,9 @@
 {
-    "actualizado":  "2026-11-10T20:30:00-05:00",
-    "ciclo":  12,
-    "ultimo_ciclo_cazador":  8,
-    "ultimo_ciclo_cazador_risas":  1,
+    "actualizado":  "2026-11-12T22:55:00-05:00",
+    "ciclo":  13,
+    "ultimo_ciclo_cazador":  9,
+    "ultimo_ciclo_cazador_risas":  2,
+    "_nota_ciclo_13":  "Ciclo 13 (11-nov desde las 11:16; procesa el ciclo 9 del Cazador Urbano y el 2 del de Risas). Se paró hacia las 12:05 del 11-nov por el límite semanal de uso con 4 clips cortados sin registrar y la descarga de francupido-plantada-langosta caída (ffmpeg, conexión reiniciada). Se reanudó el 12-nov a las 22:45 con orden del orquestador: 1) registrar lo cortado, 2) risas (Ballarta ep. 6, pendientes de La Cotorrisa y Los De La Culpa), 3) solo lo urbano de Stream Fighters 5 publicable el 13-nov. Fuentes analizadas el 11-nov: lFccZHkPkJU, Qyzqh4tJp0M, _A8fxARu-5g (urbano), NiWsTPALopk y W3kk6XMYfYI (risas). Nunca analizar oSfzrwpbQZs (funa de Franco). Sin variantes: cada línea tiene una sola cuenta activa por plataforma (TikTok: principal y risas).",
     "_nota_ciclos":  "Ciclo 7 (4-nov, 14:44-21:50; parado de 17:31 a 21:37 por el límite de uso): sin ciclo nuevo del Cazador (sigue en el 5, procesado en el ciclo 6), descubrimiento propio dentro del enfoque. Durante la pausa, un encargo aparte sobre el robot de Westcol (Xrwm98iaWY8, 19:50-20:16; informe 2026-11-04-westcol-robot.md) se registró como \u0027ciclo 8\u0027 y cortó 5 clips; se mantiene 8 para que el contador no retroceda. El ciclo 6 (3-nov) se cortó por un fallo de red y se cerró en el ciclo 7. Ciclo 10 (8-nov, procesó el ciclo 6 del Cazador): se cortó a las 23:49 por el límite de uso, antes de registrar 7 clips y de escribir el informe. Se cerró el 9-nov entre las 20:50 y las 21:50 sin abrir ciclo nuevo: 4 clips ya hechos se revisaron y se registraron, y 3 se volvieron a cortar desde su ficha (ybjXHgxGBMo). El informe del ciclo 10 sigue sin escribirse. El Cazador publicó su ciclo 7 el 9-nov a las 21:45: le toca al ciclo 11. Ciclo 11 (9-nov, desde las 21:29; procesa el ciclo 7 del Cazador): orden del orquestador: Ibai con Westcol (627Fvn2fEjU), el round de Westcol y Samulx (WAfZNmp2n8I y RKnmC_cEz3s), Lonche (_BA7OAA-8Ao y MLoui0M6ZO0), después The Chanty (8IheSHj1xfA) y Diego RR (-4oSl93f2eU), y por último Kick (VOD de Lonche). Sin variantes: TikTok, YouTube, Instagram y Facebook tienen una sola cuenta activa (principal). Ciclo 12 (10-nov; procesa el ciclo 8 del Cazador Urbano y cierra lo pendiente del 11): una primera ejecución (14:20-15:02) cortó 4 clips de Ibai, 4 de Samulx y 1 de Willito sin registrarlos y se paró; la segunda (desde las 15:09) los revisó, registró y siguió. Sin entrada del Cazador de Risas (salidas/cazador-risas/oportunidades.json no existe a las 15:10): todo el ciclo es línea urbano. Desde este ciclo cada clip lleva \u0027linea\u0027 (los antiguos se marcaron \u0027urbano\u0027). Sin variantes: cada plataforma tiene una sola cuenta activa (principal; la de risas está apagada). clips.json se podó a los últimos 7 días (antes del 3-nov solo quedan los descartados por el usuario). Corrección de la poda: se quitaron de clips.json los clips anteriores al 3-nov con la ventana ya cerrada (21); se quedan los que siguen en ventana (4 de Tóxico y 2 de Kris R) y los descartados por el usuario. Línea urbano del ciclo 12 cerrada hacia las 16:00: 4 fuentes nuevas analizadas (LkY43nX5guU, YwhGtvtJ1Uk, WAfZNmp2n8I, EMfdJlhdVRg) más el cierre de 627Fvn2fEjU. El Cazador de Risas publicó su primer ciclo a media tarde y el orquestador pidió seguir con risas en este mismo ciclo (mínimo 2 fuentes por línea). Quedan de urbano para el ciclo 13, por este orden: Qyzqh4tJp0M (Cuphead de Westcol y Samulx, 88 min), _A8fxARu-5g (boda en broma de Willito y Lonche), tyACjLDov8E y MLoui0M6ZO0 (Lonche en México), nzKzpNx9zF8 (Jelty y SoyPan), -4oSl93f2eU y otkPy_v5Uc4 (Diego RR), n4c0JQp8hTY (empresario, márgenes de la ropa) y el VOD de Kick de Willito (01a1c32d…). Línea risas (ciclo 12, desde las 15:50): primera fuente del Cazador de Risas, La Cotorrisa (jUfBJ_aIA3w). A las 16:00 se cayó la red: un corte salió truncado y se repitió. Desde ese aviso del orquestador, clips.json se actualiza con inserciones (el Publicador lo lee a la vez) y solo estado.json se reescribe entero. Cierre del ciclo 12 (20:10): 6 fuentes nuevas (4 urbano, 2 risas) más el cierre de 627Fvn2fEjU, y 23 clips registrados en el ciclo (17 urbano, 6 risas). Informe: salidas/clipero/informes/2026-11-10_2015.md. La segunda fuente de risas pasa del tope de 5 fuentes porque la línea llegó a media tarde y la definición reserva 2 por línea. Quedan para el ciclo 13: risas, Juanpis con Hebert Vargas (1L3SuXTXzU0) y FranCupido GDL 3 ep. 6 (NiWsTPALopk), y los propuestos de La Cotorrisa y Los De La Culpa; nunca \u0027La Mesa Reñoña 523 - Funa de Franco\u0027 (oSfzrwpbQZs, exclusión por acusación pública); urbano, la lista de la nota anterior.",
     "fuentes":  [
                     {
@@ -396,6 +397,41 @@
                         "titulo":  "Errores Memorables | Los De La Culpa - Capítulo 268",
                         "analizado":  "2026-11-10",
                         "resultado":  "2 clips (línea risas, ciclo 12): tato-diesel 80, ivan-senorazo 78 + 4 propuestos (super-alexis 77, cuya descarga se colgó; Quevedo \u0027digan mentiras\u0027, Iván Marín \u0027si crees que puedes\u0027, luces prendidas en el carro) | fuente_para_clips n.º 2 del Cazador de Risas (ciclo 1), 5.028 vistas/h | Los De La Culpa (413.000), publicado 10-nov, 2.912 s, 112.955 vistas al analizar (20:00) | sin picos ni marcas | transcripción leída entera (385 líneas) | elenco presentado al inicio: Quevedo, Bernate, Devia, Delgado, Marín y Rendón; en la imagen salen seis en taburetes y no se distingue quién es quién: solo se nombra a quien el presentador da la palabra en el propio clip | fuera: humor sexual (masturbación, \u0027machetazo\u0027, Skype, impro de adictos al sexo, Amparo Grisales), \u0027cambió el trago por el basuco\u0027 (drogas), la señora que no estaba embarazada (físico de una persona privada), el habitante de calle \u0027drogadito\u0027 (personas vulnerables) | palabras-rev.json: debia→Devia, diesésel→diésel, livis→Levi\u0027s, Juribe→Jessi Uribe, Jessie/Jess→Jessi, Paridir→parido, letor→(…)"
+                    },
+                    {
+                        "id":  "lFccZHkPkJU",
+                        "url":  "https://www.youtube.com/watch?v=lFccZHkPkJU",
+                        "titulo":  "WESTCOL Y SAMULX SE ASUTAN PORQUE SE LE METE UN ANIMAL A ESTUDIO",
+                        "analizado":  "2026-11-11",
+                        "resultado":  "2 clips (ciclo 13): mosquito-ia 82, bicho-gigante 78 + 3 propuestos (faula 74, empleados-tres-strikes 72, ascensor 72) que no se cortan: el 12-nov el orquestador pidió solo lo urbano de Stream Fighters 5 publicable el 13 | fuente_para_clips n.º 1 del Cazador Urbano (ciclo 9), tema-stream-fighters-5 | juan diego mm (114.000), publicado 10-nov 17:32, 1.295 s, 32.038 vistas al analizar (11-nov 11:18) | sin picos ni marcas | transcripción leída entera (208 líneas) | fuera: los insultos a Wilson, su empleado ('carechimba que tiene un ojo acá y el otro en la China': físico de una persona privada) | palabras-rev.json: Gonora→Gonorrea, votar→botar"
+                    },
+                    {
+                        "id":  "Qyzqh4tJp0M",
+                        "url":  "https://www.youtube.com/watch?v=Qyzqh4tJp0M",
+                        "titulo":  "JUGANDO CUPHEAD CON WESTCOL EN EL MISMO SET UP 😂 NOS VOLVEMOS LOCOS* | Samulx",
+                        "analizado":  "2026-11-11",
+                        "resultado":  "1 clip (ciclo 13): westcol-grefg-unico-golpe 74 (imagen del juego; Westcol solo en la cámara pequeña) + 1 pendiente: los guantes de pelea y el trato de pegarse si pierden (0:09-1:02, 72) | fuente_para_clips n.º 2 del Cazador Urbano (ciclo 9) | Samulx (189.000), publicado 10-nov 12:46, 5.256 s, 45.104 vistas al analizar | sin picos; 1 marca en comentarios (28:50) | transcripción leída entera (839 líneas): casi todo partida de Cuphead que no se entiende sin el juego | fuera: 'Sami es muy gay' (56:34) | palabras-rev.json: Gref→Grefg, Coke→Cuphead | la misma sesión desde la cámara de Westcol (C8L73y-dUcI) no se analizó"
+                    },
+                    {
+                        "id":  "_A8fxARu-5g",
+                        "url":  "https://www.youtube.com/watch?v=_A8fxARu-5g",
+                        "titulo":  "Willito Y Lonche Celebrando Su Boda En Mochis",
+                        "analizado":  "2026-11-11",
+                        "resultado":  "sin clips (ciclo 13) + 2 propuestos que no se cortan por no ser de Stream Fighters 5 (orden del orquestador del 12-nov): Lonche y el vacío emocional de comprar carros (4:22-4:46, 72) y 'de camión a esto: la ex élite de Twitch nos cerraba las puertas' (2:26-3:03, 72) | fuente_para_clips del Cazador Urbano (ciclos 8 y 9) | Willito Live (57.500), publicado 9-nov 20:54, 3.418 s, 10.961 vistas | sin picos ni marcas | transcripción leída entera (500 líneas) | fuera: la 'boda gay' en broma (5:24-7:23: se presenta como hecho y podría circular como noticia falsa; además 'hoy van a perder la virginidad'), casi todo el resto centrado en el alcohol (shots, 'eres culón'), el chisme de Odette y Edwin y la 'sorpresa' de mujeres | palabras-rev.json: Loche→Lonche, Mocho→Mochis, Bansori/Mansori→Mansory"
+                    },
+                    {
+                        "id":  "NiWsTPALopk",
+                        "url":  "https://www.youtube.com/watch?v=NiWsTPALopk",
+                        "titulo":  "FranCupido❤️| GDL 3 | Ep.-6",
+                        "analizado":  "2026-11-11",
+                        "resultado":  "en curso (ciclo 13): plantada-langosta (29:18-30:00, 79) se recorta el 12-nov; la primera descarga falló el 11-nov (ffmpeg, conexión reiniciada) | fuente_para_clips del Cazador de Risas (ciclos 1 y 2) | Franco Escamilla (14,5 M), publicado 8-nov 12:30, 1.867 s, 561.121 vistas | sin picos; 8 marcas en comentarios (15:00 x2, 14:30 x2, 20:00, 21:30, 21:00, 1:30, 17:30, 16:30) | transcripción leída entera (243 líneas) | fuera: los hijos y tatuajes de una participante (menores), '¿no te sirve?' (16:10) y lo que se ría del oficio de Abel (comentario 16:50)"
+                    },
+                    {
+                        "id":  "W3kk6XMYfYI",
+                        "url":  "https://www.youtube.com/watch?v=W3kk6XMYfYI",
+                        "titulo":  "El Cómico Itinerante Ep. 6",
+                        "analizado":  "2026-11-11",
+                        "resultado":  "en curso (ciclo 13) | fuente_para_clips del Cazador de Risas (ciclo 2; el orquestador la autorizó el 11-nov) | Carlos Ballarta (864.000), publicado 10-nov 18:00, 1.053 s, 10.288 vistas | sin picos; 2 marcas sin momento (7:12, 8:23) | transcripción leída entera (138 líneas): vlog de gira (Lima, Quito, Bogotá, La Paz) con mucha música y pocos remates | fuera: Pedro Castillo y la embajada de México en Quito (4:47-5:53: política extranjera, detención) | palabras-rev.json: Nás→Nomás, Jermá→Germán, tienees→tienen"
                     }
                 ],
     "momentos":  [
@@ -4451,30 +4487,30 @@
                      },
                      {
                          "fuente":  "jUfBJ_aIA3w",
-                         "inicio":  188,
-                         "fin":  279,
-                         "estado":  "propuesto",
-                         "clip":  null,
+                         "inicio":  210.61,
+                         "fin":  281.7,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-12-cotorrisa-codigo-22",
                          "variante_de":  null,
-                         "motivo":  "74, el \u0027código 22\u0027 (le pagaban la cuenta en los restaurantes), \u0027código 11\u0027 y \u0027código Cóndor\u0027. Va antes de yordi-cuenta y cuenta la misma época; 90 s: hay que recortarlo a 75 con los tiempos por palabra. Sin cortar por capacidad del ciclo"
+                         "motivo":  "historia, 74: cortado en el ciclo 13 (12-nov), 71,1 s desde 'Me dice, no, está cabrón lo que conseguí' hasta 'el código Cóndor era cabrón'. Propuesto en el ciclo 12: el\u0027código 22\u0027 (le pagaban la cuenta en los restaurantes), \u0027código 11\u0027 y \u0027código Cóndor\u0027. Va antes de yordi-cuenta y cuenta la misma época; 90 s: hay que recortarlo a 75 con los tiempos por palabra. Sin cortar por capacidad del ciclo"
                      },
                      {
                          "fuente":  "jUfBJ_aIA3w",
-                         "inicio":  1537,
-                         "fin":  1560,
-                         "estado":  "propuesto",
-                         "clip":  null,
+                         "inicio":  1540.09,
+                         "fin":  1563.06,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-12-cotorrisa-dedito-flaco",
                          "variante_de":  null,
-                         "motivo":  "72, \u0027¿pedirle ver las manos al doctor?… estoy buscando un doctor de manita chica, de dedito flaco\u0027. Corto (unos 22 s) y con voces cruzadas. Sin cortar por capacidad del ciclo"
+                         "motivo":  "humor, 70: cortado en el ciclo 13 (12-nov), 23 s. Propuesto en el ciclo 12 con 72:\u0027¿pedirle ver las manos al doctor?… estoy buscando un doctor de manita chica, de dedito flaco\u0027. Corto (unos 22 s) y con voces cruzadas. Sin cortar por capacidad del ciclo"
                      },
                      {
                          "fuente":  "jUfBJ_aIA3w",
-                         "inicio":  4187,
-                         "fin":  4252,
-                         "estado":  "propuesto",
-                         "clip":  null,
+                         "inicio":  4191.61,
+                         "fin":  4253.1,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-12-cotorrisa-harvard",
                          "variante_de":  null,
-                         "motivo":  "70, Yordi sobre la gente que te baja los sueños (\u0027quiero estudiar en Harvard…\u0027) con 3 marcas en comentarios (1:10:00). Sigue con el ejemplo de Ricardo y Susana (vida privada), que queda fuera. Sin cortar por capacidad del ciclo"
+                         "motivo":  "consejo, 70: cortado en el ciclo 13 (12-nov), 61,5 s; termina antes del ejemplo de Ricardo y Susana. Propuesto en el ciclo 12:Yordi sobre la gente que te baja los sueños (\u0027quiero estudiar en Harvard…\u0027) con 3 marcas en comentarios (1:10:00). Sigue con el ejemplo de Ricardo y Susana (vida privada), que queda fuera. Sin cortar por capacidad del ciclo"
                      },
                      {
                          "fuente":  "jUfBJ_aIA3w",
@@ -4597,28 +4633,28 @@
                          "fuente":  "3BAphhKqHUw",
                          "inicio":  822.6,
                          "fin":  889.2,
-                         "estado":  "propuesto",
-                         "clip":  null,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-10-culpa-super-alexis",
                          "variante_de":  null,
-                         "motivo":  "77, NO CORTADO: la descarga se colgó 20 min (red lenta tras la caída) y se paró a las 20:26; cortar en el ciclo 13 con id 2026-11-10-culpa-super-alexis. Saluda a un músico de Guayacán como \u0027Super Alexis Lozano\u0027 y era Nino Caicedo. Quien lo cuenta no se identifica en el clip: el gancho no lo nombra"
+                         "motivo":  "historia, 77 (línea risas): cortado en el ciclo 13 (11-nov 12:07, corte 822,57-889,4) y registrado el 12-nov a las 22:55. En el ciclo 12 la descarga se había colgado. Saluda a un músico de Guayacán como \u0027Super Alexis Lozano\u0027 y era Nino Caicedo. Quien lo cuenta no se identifica en el clip: el gancho no lo nombra"
                      },
                      {
                          "fuente":  "3BAphhKqHUw",
-                         "inicio":  2080.5,
-                         "fin":  2111.5,
-                         "estado":  "propuesto",
-                         "clip":  null,
+                         "inicio":  2079.81,
+                         "fin":  2111.46,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-12-culpa-quevedo-mentiras",
                          "variante_de":  null,
-                         "motivo":  "72, Ricardo Quevedo: el peor consejo es decir la verdad, \u0027digan mentiras con buena intención\u0027. Sin cortar por capacidad del ciclo"
+                         "motivo":  "consejo, 72: cortado en el ciclo 13 (12-nov), 31,7 s. Ricardo Quevedo:el peor consejo es decir la verdad, \u0027digan mentiras con buena intención\u0027. Sin cortar por capacidad del ciclo"
                      },
                      {
                          "fuente":  "3BAphhKqHUw",
-                         "inicio":  2275,
-                         "fin":  2290,
-                         "estado":  "propuesto",
-                         "clip":  null,
+                         "inicio":  2268.85,
+                         "fin":  2290.54,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-12-culpa-ivan-piscina",
                          "variante_de":  null,
-                         "motivo":  "70, Iván Marín: \u0027si crees que puedes, puedes\u0027… se tiró a la piscina sin saber nadar. Corto (unos 20 s). Sin cortar por capacidad del ciclo"
+                         "motivo":  "historia, 70: cortado en el ciclo 13 (12-nov), 21,8 s. Iván Marín:\u0027si crees que puedes, puedes\u0027… se tiró a la piscina sin saber nadar. Corto (unos 20 s). Sin cortar por capacidad del ciclo"
                      },
                      {
                          "fuente":  "3BAphhKqHUw",
@@ -4627,7 +4663,7 @@
                          "estado":  "propuesto",
                          "clip":  null,
                          "variante_de":  null,
-                         "motivo":  "68, dejó las luces prendidas del carro \u0027para que no lo robaran\u0027 y no lo robaron porque no prendió. Quién lo cuenta, por confirmar en la imagen"
+                         "motivo":  "Sigue sin cortar en el ciclo 13: no estaba en la lista del orquestador del 12-nov y el capítulo ya pasó sus 72 h (12-nov 20:56). 68,dejó las luces prendidas del carro \u0027para que no lo robaran\u0027 y no lo robaron porque no prendió. Quién lo cuenta, por confirmar en la imagen"
                      },
                      {
                          "fuente":  "3BAphhKqHUw",
@@ -4691,7 +4727,21 @@
                          "clip":  null,
                          "variante_de":  null,
                          "motivo":  "Impro \u0027Más o menos\u0027: adictos al sexo, habitante de calle \u0027drogadito\u0027 y Amparo Grisales \u0027con las tetas al aire\u0027. Sexual o burla de personas vulnerables"
-                     }
+                     },
+                     { "fuente": "W3kk6XMYfYI", "inicio": 87.85, "fin": 126.3, "estado": "cortado", "clip": "2026-11-12-ballarta-champana", "variante_de": null, "motivo": "historia, 67 (ciclo 13): no había pierna y pidió el plato más grande; Germán en Torreón: 'tráigame champaña, porque yo no tomo nada'" },
+                     { "fuente": "W3kk6XMYfYI", "inicio": 780, "fin": 830, "estado": "descartado", "clip": null, "variante_de": null, "motivo": "62: 'vengo disfrazado para que no me pidan cosas' y 'techo de paja, topochico y rodeado de gringos'. Sin remate claro" },
+                     { "fuente": "W3kk6XMYfYI", "inicio": 909, "fin": 955, "estado": "descartado", "clip": null, "variante_de": null, "motivo": "62: la Coca-Cola de La Paz ('como el hermano de la que te gusta… su ex'). Remate flojo" },
+                     { "fuente": "NiWsTPALopk", "inicio": 1757.96, "fin": 1800.2, "estado": "cortado", "clip": "2026-11-11-francupido-plantada-langosta", "variante_de": null, "motivo": "emotivo, 79 (ciclo 13): Lupita tras la cena a la que Abel no llegó ('se perdió un 10', la langosta). Primera descarga fallida el 11-nov; cortado el 12-nov" },
+                     { "fuente": "lFccZHkPkJU", "inicio": 1138.93, "fin": 1212.8, "estado": "cortado", "clip": "2026-11-11-westcol-samulx-mosquito-ia", "variante_de": null, "motivo": "humor, 82 (ciclo 13): le piden a la IA comunicarse con el 'chicunguña'; la IA responde que es un virus y que los mosquitos no hablan" },
+                     { "fuente": "lFccZHkPkJU", "inicio": 573.37, "fin": 613.02, "estado": "cortado", "clip": "2026-11-11-westcol-samulx-bicho-gigante", "variante_de": null, "motivo": "reaccion, 78 (ciclo 13): aparece el insecto ('está en peligro de extinción', 'Sami, yo con eso no juego')" },
+                     { "fuente": "lFccZHkPkJU", "inicio": 634.7, "fin": 657.4, "estado": "propuesto", "clip": null, "variante_de": null, "motivo": "humor, 74: 'faula' en vez de 'fauna'. No se corta en el ciclo 13: el 12-nov el orquestador pidió solo lo urbano de Stream Fighters 5 publicable el 13 (este momento no habla de la pelea)" },
+                     { "fuente": "lFccZHkPkJU", "inicio": 508.5, "fin": 564.8, "estado": "propuesto", "clip": null, "variante_de": null, "motivo": "consejo, 72: Westcol como empleador (prestaciones, 'tres strikes', el camarógrafo que olvida las baterías en un stream patrocinado). Mismo motivo de no corte que 'faula'" },
+                     { "fuente": "lFccZHkPkJU", "inicio": 677.3, "fin": 700.6, "estado": "propuesto", "clip": null, "variante_de": null, "motivo": "humor, 72: '¿se metió por la ventana o subió por el ascensor y presionó el piso?'. Mismo motivo de no corte que 'faula'" },
+                     { "fuente": "lFccZHkPkJU", "inicio": 95, "fin": 156, "estado": "descartado", "clip": null, "variante_de": null, "motivo": "66: 'tienes una energía mala' y 'si fuera una persona cuerda diría que Wilson está haciendo mal su trabajo'. Se burla de un empleado (persona privada) y sigue con un insulto a su físico" },
+                     { "fuente": "Qyzqh4tJp0M", "inicio": 3400.33, "fin": 3459.74, "estado": "cortado", "clip": "2026-11-11-westcol-grefg-unico-golpe", "variante_de": null, "motivo": "revelacion, 74 (ciclo 13): el único golpe de TheGrefg que le dolió en La Velada 5. Se cortó dos veces (gancho sin nombre en la primera)" },
+                     { "fuente": "_A8fxARu-5g", "inicio": 261.9, "fin": 286.4, "estado": "propuesto", "clip": null, "variante_de": null, "motivo": "frase, 72: 'pensaba que un carro nuevo iba a llenar el vacío emocional… en los últimos tres carros cada que compro uno me siento más triste'. Comprobar en la imagen que habla Lonche. No se corta en el ciclo 13 (no es de Stream Fighters 5)" },
+                     { "fuente": "_A8fxARu-5g", "inicio": 145.9, "fin": 183.0, "estado": "propuesto", "clip": null, "variante_de": null, "motivo": "emotivo, 72: Willito, 'nuestro primer viaje juntos fue en camión… la ex élite de Twitch nos quería cerrar las puertas'. No se corta en el ciclo 13 (no es de Stream Fighters 5)" },
+                     { "fuente": "_A8fxARu-5g", "inicio": 324, "fin": 443, "estado": "descartado", "clip": null, "variante_de": null, "motivo": "La 'boda gay' en broma: se presenta como un hecho ('oficialmente estamos casados', 'primer matrimonio gay de Sinaloa') y fuera de contexto pasaría por noticia; además 'hoy van a perder la virginidad'" }
                  ],
     "lote_2026_11_06":  "ocho-videos-usuario"
 }

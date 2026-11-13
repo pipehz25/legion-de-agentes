@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-11-westcol-grefg-unico-golpe",
+    "url_fuente":  "https://www.youtube.com/watch?v=Qyzqh4tJp0M",
+    "video_id":  "Qyzqh4tJp0M",
+    "inicio":  3400.33,
+    "fin":  3459.74,
+    "inicio_hms":  "0:56:40",
+    "duracion_seg":  59.4,
+    "gancho":  "El golpe de Grefg que sí sintió Westcol",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  210,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -17.36,
+                  "entrada_tp":  -7.35,
+                  "salida_lufs":  -13.94,
+                  "salida_tp":  -4
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-11-westcol-grefg-unico-golpe/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-11-westcol-grefg-unico-golpe/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-11-westcol-grefg-unico-golpe/revision.jpg",
+    "creado":  "2026-11-11T17:16:33.2502577-05:00"
+}

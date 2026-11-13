@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-12-culpa-quevedo-mentiras",
+    "url_fuente":  "https://www.youtube.com/watch?v=3BAphhKqHUw",
+    "video_id":  "3BAphhKqHUw",
+    "inicio":  2079.81,
+    "fin":  2111.46,
+    "inicio_hms":  "0:34:39",
+    "duracion_seg":  31.7,
+    "gancho":  "Ricardo Quevedo: \u0027digan mentiras con buena intención\u0027",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  113,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -14.8,
+                  "entrada_tp":  -1.93,
+                  "salida_lufs":  -14.24,
+                  "salida_tp":  -1.36
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-12-culpa-quevedo-mentiras/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-12-culpa-quevedo-mentiras/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-12-culpa-quevedo-mentiras/revision.jpg",
+    "creado":  "2026-11-12T22:59:59.0635577-05:00"
+}

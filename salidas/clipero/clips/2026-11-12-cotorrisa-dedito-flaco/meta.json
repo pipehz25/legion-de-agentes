@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-12-cotorrisa-dedito-flaco",
+    "url_fuente":  "https://www.youtube.com/watch?v=jUfBJ_aIA3w",
+    "video_id":  "jUfBJ_aIA3w",
+    "inicio":  1540.09,
+    "fin":  1563.06,
+    "inicio_hms":  "0:25:40",
+    "duracion_seg":  23,
+    "gancho":  "Cómo elegir al doctor del tacto",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  70,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -13.41,
+                  "entrada_tp":  -1.45,
+                  "salida_lufs":  -13.86,
+                  "salida_tp":  -2.04
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-12-cotorrisa-dedito-flaco/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-12-cotorrisa-dedito-flaco/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-12-cotorrisa-dedito-flaco/revision.jpg",
+    "creado":  "2026-11-12T22:53:26.9552676-05:00"
+}

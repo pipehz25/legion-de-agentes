@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-11-westcol-samulx-mosquito-ia",
+    "url_fuente":  "https://www.youtube.com/watch?v=lFccZHkPkJU",
+    "video_id":  "lFccZHkPkJU",
+    "inicio":  1138.93,
+    "fin":  1212.8,
+    "inicio_hms":  "0:18:58",
+    "duracion_seg":  73.9,
+    "gancho":  "Le piden a la IA traducir al mosquito",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  169,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1280,
+    "fuente_alto":  720,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -22.1,
+                  "entrada_tp":  -13.06,
+                  "salida_lufs":  -14.01,
+                  "salida_tp":  -4.96
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-11-westcol-samulx-mosquito-ia/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-11-westcol-samulx-mosquito-ia/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-11-westcol-samulx-mosquito-ia/revision.jpg",
+    "creado":  "2026-11-11T11:31:20.0556796-05:00"
+}

@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-12-cotorrisa-harvard",
+    "url_fuente":  "https://www.youtube.com/watch?v=jUfBJ_aIA3w",
+    "video_id":  "jUfBJ_aIA3w",
+    "inicio":  4191.61,
+    "fin":  4253.1,
+    "inicio_hms":  "1:09:51",
+    "duracion_seg":  61.5,
+    "gancho":  "Por qué hay gente que te baja los sueños",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  233,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -14.89,
+                  "entrada_tp":  -2.38,
+                  "salida_lufs":  -13.94,
+                  "salida_tp":  -1.49
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-12-cotorrisa-harvard/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-12-cotorrisa-harvard/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-12-cotorrisa-harvard/revision.jpg",
+    "creado":  "2026-11-12T22:57:28.2740381-05:00"
+}

@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-10-culpa-super-alexis",
+    "url_fuente":  "https://www.youtube.com/watch?v=3BAphhKqHUw",
+    "video_id":  "3BAphhKqHUw",
+    "inicio":  822.57,
+    "fin":  889.4,
+    "inicio_hms":  "0:13:42",
+    "duracion_seg":  66.9,
+    "gancho":  "Lo saludó como Alexis Lozano… y era Nino",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  170,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -14.1,
+                  "entrada_tp":  -1.36,
+                  "salida_lufs":  -13.98,
+                  "salida_tp":  -1.26
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-10-culpa-super-alexis/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-10-culpa-super-alexis/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-10-culpa-super-alexis/revision.jpg",
+    "creado":  "2026-11-11T12:07:15.7651393-05:00"
+}
