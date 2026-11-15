@@ -1,6 +1,12 @@
 # La noche en 3 momentos (lo que no salió en las noticias)
 
-> **Estado (13-nov, ciclo 10): lista para usar del 14-nov por la noche al 16-nov.** Ajustes:
+> **Estado (14-nov, 23:00, ciclo 11): es su momento. Publicar del 15-nov por la mañana al 16-nov; el evento sigue en directo a las 23:00.** Lo nuevo:
+> - **Fuente principal:** el canal oficial secundario de Westcol, [WestCOL Exclusive](https://www.youtube.com/channel/UCegOWcfL7xyR5DY_0skPkAQ), sube cada combate de 1 a 3 h después de terminar. ['DAREN RAMIREZ VS AGROPECUARIO'](https://www.youtube.com/watch?v=G7gj3T1-_lk) va a 15.264 vistas por hora a las 3,3 h y ['ENTRADA DE WESTCOL EN STREAM FIGHTERS 5'](https://www.youtube.com/watch?v=pofJeEqiGF0), a 6.913/h. Corta de ahí antes que del VOD de Kick (sin subtítulos) y nunca de las resubidas de terceros (savox67, BABII), que no tienen licencia.
+> - **Los 3 momentos:** (1) Westcol contra Blessd con robots, cuando esté subido; (2) la pelea por parejas, Lonche y Willito contra The Chanty y Samulx (su pesaje juntos va a 5.407/h); (3) el momento de la noche que más suba en X (a las 23:00, 'Herrera' #2, 'Emiro' #3 y 'Valentino' #4 en Colombia). Escribe los resultados solo si se ven en el video o los confirma la prensa. Ojo: el corto 'Daren noquea al agropecuario' (West Clip, 4 vistas) no es confirmación.
+> - **Fuera, por regla:** los combates cuya rivalidad viene de un reality (Beba contra Alexa, Karola y Yaya en el 'Royal Rumble', Emiro Navarro contra Valentino Lázaro, según Noticias RCN), y la salud de Emiro Navarro (Google CO, 'emiro').
+> - **Variante de empresarios:** Daren Ramírez, el que pelea contra El Agropecuario, puede ser el que entrevistó a Diego RR Autos en un Rolls-Royce, pero no está confirmado: no los relaciones en la pieza.
+>
+> **Estado anterior (13-nov, ciclo 10): lista para usar del 14-nov por la noche al 16-nov.** Ajustes:
 > - **Momento 2:** el combate por parejas es Samulx y The Chanty contra Willito y Lonche, según los títulos de los propios peleadores (13-nov). Escribe el resultado solo si sale en el directo o en la prensa.
 > - **Fuentes del día después:** el VOD de Kick de Westcol (whisper) y las subidas de YouTube de los peleadores, que esta semana rinden más que el directo: The Chanty a 2,3-2,8 veces su mediana el 13-nov y Samulx a 1,8 veces. Busca sus ediciones del 15-nov antes que los recortes de terceros.
 > - **Kris R canta:** sin el audio de la canción (derechos); solo lo que diga entre canciones.
