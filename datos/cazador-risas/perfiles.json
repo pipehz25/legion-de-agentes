@@ -1,5 +1,6 @@
 {
-  "actualizado": "2026-11-13T18:45:00-05:00",
+  "actualizado": "2026-11-14T23:40:00-05:00",
+  "nota_ciclo_4": "Ciclo 4: canales revisados entre las 22:45 y las 23:24 del 14-nov con -MaxHoras 72 (15 revisiones). No se revisaron Lokillo, Suso, Frank Martínez ni Piter Albeiro (ciclos alternos: tres ciclos sin subir nada) ni Los De La Culpa (el 269 se espera el 16-nov). Sí se revisó el canal de recortes de Paren la Mano. Se añaden dos similares: Liss Pereira y Nadie Sabe Nada. Novedad en TikTok: yt-dlp lee los perfiles públicos con --flat-playlist (vistas, me gusta y fecha de los últimos videos). @naide.sabe.nada, @lisspereira y @olgaenvivo funcionan; @jhovanoty devuelve 'This account does not have any videos posted', así que ese no es su usuario o está vacío.",
   "nota_ciclo_3": "Ciclo 3: canales revisados entre las 18:00 y las 18:29 del 13-nov con -MaxHoras 72 (15 revisiones: todos menos Iván Marín). Se añaden dos similares (Paren la Mano y el Escorpión Dorado). Ricardo Quevedo sigue sin_resolver (no se buscó). TikTok sigue sin poder leerse: la página de un perfil solo devuelve el título.",
   "nota_ciclo_2": "Ciclo 2: canales revisados entre las 22:54 y las 23:40 del 10-nov con -MaxHoras 72. Se añade un similar (Jhovanoty). Ricardo Quevedo sigue sin_resolver.",
   "nota": "Memoria del Cazador de Risas (agente 04). Ciclo 1: la semilla de config.perfiles se resolvió con el channel_url de clipero.ps1 buscar (nunca con @handle). Instagram, TikTok y X sin verificar en este ciclo (presupuesto gastado en resolver YouTube). Ninguno de estos humoristas hace directos en Kick.",
@@ -20,6 +21,7 @@
         { "url": "https://www.youtube.com/channel/UCzQ7ZEFJ5oh5iaP2kabzXGw", "por_que": "Triste Realidad TV (capítulos de 30+ min); comprobar si es su canal. La búsqueda web del ciclo 2 no lo relaciona con él" }
       ],
       "notas_ciclo_2": "'Ricardo Quevedo' -Recientes solo devuelve Los De La Culpa 268 y ruido (coloquios sobre Francisco de Quevedo). Sus especiales están en Netflix ('Los Amargados Somos Más', 2019), que no es fuente. Aparece en el podcast 'Sospechosamente Light' (episodio de diciembre de 2023, https://podcastai.com/shows/dmtd5j-sospechosamente-light), pero en YouTube no salió nada reciente de ese podcast.",
+      "notas_ciclo_4": "No se buscó en este ciclo, porque el presupuesto se fue en fuentes nuevas. Se sigue por Los De La Culpa (269 el lunes 16-nov).",
       "ultima_revision": "2026-11-10T23:45:00-05:00",
       "ultimas_subidas": []
     },
@@ -34,7 +36,8 @@
       "verificacion": "Canal 'Andres Lopez' (152 K) con sus shows completos ('LA PELOTA DE LETRAS EN 4K', 'ME PIDO LA VENTANA CON FRUTICA PICADA EN 4K') y fragmentos de La Pelota de Letras: es su canal oficial.",
       "candidatos": [],
       "notas_ciclo_3": "Sube un fragmento de sus shows cada día a las 18:00 (Me Pido la Ventana, Rico y Charladito), de 8-9 min y con pocas vistas por hora. Quedan de reserva.",
-      "ultima_revision": "2026-11-13T18:07:35-05:00",
+      "notas_ciclo_4": "Solo dos subidas en 72 h (las del 12 y el 13-nov); el 14-nov no subió nada a las 18:00. Las dos entran al final de fuentes_para_clips (122/h y 18/h) porque es el perfil en persona.",
+      "ultima_revision": "2026-11-14T22:53:31-05:00",
       "ultimas_subidas": [
         { "url": "https://www.youtube.com/watch?v=RR1Yn9Zalbo", "titulo": "Andrés López - Una aventura navideña con mi hija ❤️ | Rico y Charladito", "publicado": "2026-11-13T18:00:11-05:00", "vistas": 4, "nota": "De reserva: recién subido" },
         { "url": "https://www.youtube.com/watch?v=gczsLz1pY_o", "titulo": "Así eran las fiestas de nuestra adolescencia 😂 | Me Pido la Ventana | Andrés López", "publicado": "2026-11-12T18:00:05-05:00", "vistas": 3206, "nota": "De reserva: 133/h" },
@@ -97,7 +100,8 @@
       ],
       "verificacion": "Canal '@IvánMarínSoyYo' con rutinas largas ('LET'S TALK ABOUT REGGAETONERS', 202 K). Confianza media: el nombre del canal coincide y el contenido es stand-up; no se cruzó con su Instagram.",
       "candidatos": [],
-      "ultima_revision": "2026-11-10T23:39:20-05:00",
+      "ultima_revision": "2026-11-14T23:00:30-05:00",
+      "notas_ciclo_4": "Canal sin subidas en 72 h.",
       "ultimas_subidas": [],
       "apariciones": [
         { "url": "https://www.youtube.com/watch?v=3BAphhKqHUw", "titulo": "Errores Memorables | Los De La Culpa - Capítulo 268", "publicado": "2026-11-09T20:56:11-05:00", "comprobado": "Sale en el capítulo: el Clipero cortó 'culpa-ivan-senorazo' (salidas/clipero/clips.json)" }
@@ -132,7 +136,8 @@
       "candidatos": [],
       "notas_ciclo_2": "El canal de Slobotzky no subió nada en 72 h. Los dos tienen un proceso legal abierto por una denuncia de la influencer Jesica Bustos por comentarios de un episodio (https://www.infobae.com/mexico/2026/01/06/signo-de-frank-el-inesperado-descubrimiento-de-un-fan-de-la-cotorrisa-que-alerta-sobre-la-salud-de-ricardo-perez/). Ese tema no se corta nunca.",
       "notas_ciclo_3": "Episodio 399 de La Cotorrisa el 11-nov a las 20:58 (miércoles): 922 K en 45 h, lo más rápido de la línea. El canal de Ricardo Pérez no subió nada en 72 h (el Anecdotario 377 fue el domingo 8-nov; el 378 se espera hacia el domingo 15-nov). 'Slobotzky Ricardo Perez' -Recientes solo devuelve el 399 y un recorte de 7 min de Cotorrisa Clips.",
-      "ultima_revision": "2026-11-13T18:01:31-05:00",
+      "notas_ciclo_4": "Ni Slobotzky ni Ricardo Pérez subieron nada en 72 h. El episodio 399 ya tiene 5 clips y salió de la ventana el 14-nov a las 20:58. Se esperan el Anecdotario 378 (domingo 15-nov hacia las 21:00) y La Cotorrisa 400 (miércoles 18-nov hacia las 21:00).",
+      "ultima_revision": "2026-11-14T22:47:00-05:00",
       "ultimas_subidas": [
         { "url": "https://www.youtube.com/watch?v=XUh-fUA_o30", "titulo": "Epsiodio 399 - El doctor me sacó el jueguito de princesa", "publicado": "2026-11-11T20:58:11-05:00", "vistas": 922211 },
         { "url": "https://www.youtube.com/watch?v=jUfBJ_aIA3w", "titulo": "Anecdotario 377 - Nuestro primer tacto de próstata FT. @YordiRosado", "publicado": "2026-11-08T20:58:50-05:00", "vistas": 1296277 }
@@ -152,8 +157,10 @@
       "candidatos": [],
       "notas_ciclo_2": "Nada nuevo desde el ciclo 1. La búsqueda web sobre la 'funa' de La Mesa Reñoña 523 solo trae polémicas viejas sin fecha (acusación de misoginia, caso Platanito y padres de Debanhi). Todo eso queda fuera de los clips.",
       "notas_ciclo_3": "Su canal publica un programa casi cada día: según su feed (https://podnews.net/podcast/iaunh), martes La Mesa Reñoña, miércoles Los Amos del Universo ('anécdotas, chistes y buena comida'), jueves Toy Aburrido, viernes Psico y Psico, domingo Cabareteando. 'Mestizos Precisos' (T2 ep. 15) no sale en la prensa ni en la descripción: sin confirmar que salga él. Además salió de invitado en 'Mi Pecho No Es Bodega' de Christian Meza (10-nov).",
-      "ultima_revision": "2026-11-13T18:00:14-05:00",
+      "notas_ciclo_4": "Solo dos subidas en 72 h: Tirando Bola T9E21 'Marco Polo' (14-nov, 11.526/h) y Mestizos Precisos ep. 15. Tirando Bola es un programa que conduce Franco con un invitado por episodio (https://podnews.net/podcast/iaung; https://recapio.com/digest/tirando-bola-temp-6-ep-28-hablando-huevadas-by-franco-escamilla), así que va con aparece true. No hubo Toy Aburrido ni Psico y Psico entre las últimas subidas. 'Franco Escamilla' -Recientes solo trae, además de lo suyo, un video de E R O S S sobre una polémica suya (LECZtFr2cEQ, 744/h: no sale él y es escándalo) y una compilación de Cabareteando (64/h).",
+      "ultima_revision": "2026-11-14T23:23:20-05:00",
       "ultimas_subidas": [
+        { "url": "https://www.youtube.com/watch?v=niP1DkpCYvs", "titulo": "Marco Polo | Tirando Bola | T9E21", "publicado": "2026-11-14T12:30:05-05:00", "vistas": 125635 },
         { "url": "https://www.youtube.com/watch?v=YdISeGSMqJo", "titulo": "Mestizos Precisos T2 | Ep 15.- Venganza", "publicado": "2026-11-12T12:30:07-05:00", "vistas": 196115 },
         { "url": "https://www.youtube.com/watch?v=ZUyCWZzBIjo", "titulo": "Los Amos del Universo.- Cosas de lego", "publicado": "2026-11-11T01:12:46-05:00", "vistas": 260128 },
         { "url": "https://www.youtube.com/watch?v=l8ZQqoTQAgI", "titulo": "FRANCO ESCAMILLA REVELA CÓMO SALIR ADELANTE CON TU SUELDO | MI PECHO NO ES BODEGA (canal de Christian Meza)", "publicado": "2026-11-10T19:00:14-05:00", "vistas": 182845, "nota": "Aparición en un podcast ajeno" },
@@ -172,7 +179,8 @@
       "verificacion": "Canal 'Carlos Ballarta' (863 K) con sus especiales ('TLATOANI - Especial Carlos Ballarta', 'REBELDE COMODINO', 13,5 M).",
       "candidatos": [],
       "notas_ciclo_3": "Nada nuevo desde El Cómico Itinerante 6 (10-nov), que ya tiene un clip.",
-      "ultima_revision": "2026-11-13T18:02:36-05:00",
+      "notas_ciclo_4": "Canal sin subidas en 72 h. Si El Cómico Itinerante es semanal, el ep. 7 saldría el martes 17-nov hacia las 18:00.",
+      "ultima_revision": "2026-11-14T22:52:42-05:00",
       "ultimas_subidas": [
         { "url": "https://www.youtube.com/watch?v=W3kk6XMYfYI", "titulo": "El Cómico Itinerante Ep. 6", "publicado": "2026-11-10T18:00:17-05:00", "vistas": 5118 },
         { "url": "https://www.youtube.com/watch?v=3C7wIIMy718", "titulo": "YA QUE ESTAMOS EN CONFIANZA", "publicado": "2026-11-08T19:00:39-05:00", "vistas": 94405 }
@@ -190,7 +198,8 @@
       "advertencia": "Su humor de roast toca a menudo discapacidad, orientación u origen (títulos como 'VIMOS DOS SORDOS PELEANDO' o 'JORGITO Y LA DISCOTECA GAY'). Cada episodio se revisa: si el gancho es reírse de alguien por lo que es, no se trae.",
       "candidatos": [],
       "notas_ciclo_3": "Nada nuevo en 72 h. Sube los domingos por la noche: el próximo episodio se espera el 15-nov.",
-      "ultima_revision": "2026-11-13T18:01:51-05:00",
+      "notas_ciclo_4": "Canal sin subidas en 72 h. El episodio se espera el domingo 15-nov hacia las 21:00; revisar el gancho con el filtro de discapacidad, orientación y origen.",
+      "ultima_revision": "2026-11-14T22:59:40-05:00",
       "ultimas_subidas": [
         { "url": "https://www.youtube.com/watch?v=8BPxCNm4IiI", "titulo": "HABLANDO HUEVADAS - Décimotercera Temporada [VIMOS DOS SORDOS PELEANDO]", "publicado": "2026-11-08T21:00:10-05:00", "vistas": 2735803, "excluido": "El gancho del episodio es humor sobre una discapacidad (sordera)" }
       ]
@@ -206,9 +215,10 @@
       "verificacion": "Canal 'Juanpis González' (2,96 M) con 'The Juanpis Live Show' (entrevistas a Franco Escamilla, Kany García, Verónica Orozco, Daniel Samper Ospina...). El personaje es de Alejandro Riaño. Cuando entrevista a políticos, aplica enfoque.md (campo politica).",
       "candidatos": [],
       "notas_ciclo_3": "Capítulo 7 de su formato con comediantes que beben (ligado a su show en vivo 'Drunk Comedy', https://www.ticketmaster.co/event/drunk-comedy-nov-dic-27). Tiene un estreno programado en 2 días (zsa74yNbstU).",
-      "ultima_revision": "2026-11-13T18:04:00-05:00",
+      "notas_ciclo_4": "Nada nuevo en 72 h aparte del capítulo 7 (107.840 vistas, 2.123/h a las 50,8 h; sin cortar). El estreno zsa74yNbstU sale 'en 21 horas' según yt-dlp a las 22:48 del 14-nov, es decir, el domingo 15-nov hacia las 20:00.",
+      "ultima_revision": "2026-11-14T22:48:10-05:00",
       "ultimas_subidas": [
-        { "url": "https://www.youtube.com/watch?v=I2i3qkbPdXE", "titulo": "Amistades que se pusieron a prueba (Cap. 7)", "publicado": "2026-11-12T20:00:09-05:00", "vistas": 74080 },
+        { "url": "https://www.youtube.com/watch?v=I2i3qkbPdXE", "titulo": "Amistades que se pusieron a prueba (Cap. 7)", "publicado": "2026-11-12T20:00:09-05:00", "vistas": 107840 },
         { "url": "https://www.youtube.com/watch?v=1L3SuXTXzU0", "titulo": "¿Hebert Vargas es hijo de Diomedes Diaz? -The Juanpis Live Show (antes: 'Me volví la mond* con Hebert Vargas')", "publicado": "2026-11-08T20:00:11-05:00", "vistas": 103052 }
       ]
     },
@@ -224,7 +234,9 @@
       "advertencia": "Hoy el canal es sobre todo comentario político con postura y sobre casos judiciales ('THE WITNESS SPEAKS! WHAT THE EVIDENCE AGAINST PETRO REVEALS', 'ARE MORE PETRO VIDEOS COMING?'). Eso no entra (enfoque.md: sin casos judiciales, sin bandos). Solo sirve su sátira pura, si la hay. El directo del 10-nov (ogfgkEVDgXI) se revisó en el ciclo 2: es vida privada y escándalo, no entra. Dos ciclos sin nada aprovechable: si en el ciclo 4 sigue igual, proponer al usuario descartarlo.",
       "candidatos": [],
       "notas_ciclo_3": "Tercer ciclo sin nada aprovechable: 'Se destapa la rosca Milagro de Abelardo' es denuncia con postura sobre nombramientos, alrededor del fondo de reconstrucción del terremoto. Si el ciclo 4 sigue igual, proponer al usuario descartarlo.",
-      "ultima_revision": "2026-11-13T18:08:41-05:00",
+      "notas_ciclo_4": "Cuarto ciclo sin nada aprovechable: la única subida en 72 h es el mismo video del ciclo 3, retitulado '¡Escándalo con el Fondo Milagro de Abelardo! + Andrés Maldonado, el alter ego de Petro' (77.715 vistas, 1.573/h). Se propone al usuario descartarlo (informe del ciclo 4). Hasta que responda, sigue en la lista pero se revisa en ciclos alternos.",
+      "propuesta_descarte": "2026-11-14: cuatro ciclos seguidos sin sátira pura; su canal es comentario político con postura y gira en torno a escándalos y a casos judiciales (enfoque.md: sin bandos, sin casos judiciales). Lo decide el usuario, porque está en la semilla de config.perfiles.",
+      "ultima_revision": "2026-11-14T22:55:07-05:00",
       "ultimas_subidas": [
         { "url": "https://www.youtube.com/watch?v=J6Jh-nx5ezM", "titulo": "¡SE DESTAPA LA ROSCA MILAGRO DE ABELARDO! SUS 7 NOMBRAMIENTOS MÁS DESCARADOS + EL ALTER EGO DE PETRO", "publicado": "2026-11-12T21:30:09-05:00", "vistas": 43774, "excluido": "Denuncia política con postura (sin bandos, ganchos neutrales) ligada al Fondo Milagro del terremoto" },
         { "url": "https://www.youtube.com/watch?v=ogfgkEVDgXI", "titulo": "🔴 HERMANA DE BENEDETTI REVELA DETALLES DE LAS FIESTAS DE PETRO: ¡SALPICA A VERÓNICA Y LAURA SARABIA!", "publicado": "2026-11-10T21:44:43-05:00", "vistas": 18203, "excluido": "Vida privada y escándalo de políticos, contado con postura (enfoque.md)" }
@@ -273,7 +285,8 @@
       "evidencia_similar": "Humorista y presentador de un programa de humor con entrevistas. 'Broncano' lleva 23-24 h en tendencia de X en Colombia (#19 a las 19:15 UTC del 10-nov) y en México (#22-34 en cuatro cortes) (https://trends24.in/colombia/, https://trends24.in/mexico/). La causa es la entrevista a Santiago Abascal del 9-nov, que no se corta: hay elecciones generales en España el 29-N y Abascal es candidato. Con invitados no políticos (artistas latinos, por ejemplo) sí entra.",
       "advertencia": "Hasta el 29-N no se corta ningún candidato español. Después, la política española solo entra con su campo politica y con las mismas reglas que la colombiana.",
       "notas_ciclo_3": "Solo salen en la ventana los fragmentos del programa del 10-nov: Ada Colau (política española, fuera de los nichos y en periodo electoral) y dos piezas sobre la entrevista a Abascal ('Pedimos perdón a nuestro público', 15,5 min, 3.653/h, y el repaso de Jorge Ponce, 5 min). No entra nada. No aparecen fragmentos de los programas del 11 y el 12-nov entre las 10 últimas subidas.",
-      "ultima_revision": "2026-11-13T18:05:07-05:00",
+      "notas_ciclo_4": "Canal sin subidas en 72 h (0 videos desde el 11-nov a las 22:45). Puede ser una semana sin programa o que yt-dlp no vea la pestaña; no se comprobó. Revisar en el ciclo 5.",
+      "ultima_revision": "2026-11-14T22:56:58-05:00",
       "ultimas_subidas": [
         { "url": "https://www.youtube.com/watch?v=x0g7Zs-yHbg", "titulo": "Pedimos perdón a nuestro público | #LaRevuelta 10.11.2026", "publicado": "2026-11-11T12:00:24-05:00", "vistas": 197632, "excluido": "Gira en torno a la entrevista a Abascal, candidato en campaña (generales del 29-N)" },
         { "url": "https://www.youtube.com/watch?v=fLF1gFLcM1U", "titulo": "Ada Colau da su solución para la crisis de la vivienda | #LaRevuelta 10.11.2026", "publicado": "2026-11-11T06:30:11-05:00", "vistas": 199089, "excluido": "Política española: fuera de los nichos y en periodo electoral" },
@@ -295,7 +308,8 @@
       "evidencia_similar": "Sátira política colombiana con imitación, el mismo estilo que Voz Populi. Es lo que más rinde del humor político colombiano en la ventana: 'La insólita defensa de Petrosky...' hizo 187.719 vistas en 51,8 h (3.624/h), el 72 % de sus suscriptores en dos días.",
       "advertencia": "Su personaje principal es Petro: si se trae siempre, el equilibrio se carga hacia un solo lado. Esta semana su tema es un 'video íntimo', es decir, vida privada: excluido. Solo entran pullas sobre decisiones públicas, con 'imitación' en pantalla desde el primer segundo. Tiene un estreno programado (lEDdtE48rBk, 'Premieres in 20 hours' a las 23:46 del 10-nov).",
       "notas_ciclo_3": "El estreno del 11-nov fue 'Me disfracé de Abelardo de La Espriella... ¡Y qué problema!': según la descripción, se disfrazó del presidente en Halloween y le criticaron petristas y abelardistas. Entra como fuente (derecha en el equilibrio, sin tomar partido). Vuelve a rendir muy por encima de su canal: 188.782 vistas en 46 h con 260 K suscriptores.",
-      "ultima_revision": "2026-11-13T18:06:22-05:00",
+      "notas_ciclo_4": "Canal sin subidas en 72 h. El disfraz de De la Espriella ya tiene 2 clips (uno con campo politica: derecha). Sube los domingos o los miércoles hacia las 20:00 (8 y 11-nov): lo próximo se espera el 15-nov. TikTok: @jhovanoty no devuelve videos con yt-dlp; hay que encontrar su usuario real (búsqueda web).",
+      "ultima_revision": "2026-11-14T22:51:01-05:00",
       "ultimas_subidas": [
         { "url": "https://www.youtube.com/watch?v=lEDdtE48rBk", "titulo": "Me disfracé de Abelardo de La Espriella... ¡Y Qué problema! - Puro Show de Jhovanoty", "publicado": "2026-11-11T20:00:07-05:00", "vistas": 188782 },
         { "url": "https://www.youtube.com/watch?v=jO638-l22nY", "titulo": "La INSÓLITA defensa de PETROSKY sobre el video \"íntimo\" - Puro Show de Jhovanoty", "publicado": "2026-11-08T20:00:07-05:00", "vistas": 187719, "excluido": "Vida privada (video íntimo)" }
@@ -315,9 +329,12 @@
       "candidatos": [],
       "evidencia_similar": "Programa de humor en streaming de Argentina. Es lo que más rinde del humor en español en la ventana después de La Cotorrisa: el programa del 12-nov hizo 343.192 vistas en 22,7 h (15.119/h) y el del 11-nov 381.355 en 47,1 h (8.097/h) ('Paren la Mano Vorterix' -Recientes, 13-nov).",
       "advertencia": "Mucho humor depende del contexto argentino (fútbol, política local, jerga). Solo entran anécdotas que se entiendan fuera de Argentina. La política argentina queda fuera de los nichos.",
-      "ultima_revision": "2026-11-13T18:30:26-05:00",
+      "notas_ciclo_4": "Programa del 13/11 con Lit Killah (8.550/h). El del 12/11 sigue sin cortar (410 K, 8.031/h a las 51 h). En el canal de recortes, 'Paren el quilombo: la pelea de Rosemblat y más' (ZVmggKykVgg, 4.386/h) no se trae: por el título es el repaso de una pelea entre terceros, probable chisme. Vorterix tiene además videos solo para miembros (Li5_KgOUnMg, g0gogbEXpxs), que yt-dlp no puede leer, y otros programas (#YQue, #NoSePudo, #SeNotaMucho, #EstoNoSucedió) que rinden mucho menos (1.017-1.910/h) y son sobre todo de fútbol y actualidad argentina.",
+      "ultima_revision": "2026-11-14T23:24:15-05:00",
       "ultimas_subidas": [
-        { "url": "https://www.youtube.com/watch?v=uRZ2xc4sRyA", "titulo": "SUPERJUEVES DE MARIO: NVIDIA, QUILOMBOS Y MÁS | #ParenLaMano Completo - 12/11 | VORTERIX", "publicado": "2026-11-12T19:46:12-05:00", "vistas": 343192 },
+        { "url": "https://www.youtube.com/watch?v=92HshiOuj1k", "titulo": "VINO LIT KILLAH Y PAREN LA MODA HISTÓRICO | #ParenLaMano Completo - 13/11 | VORTERIX", "publicado": "2026-11-13T19:34:49-05:00", "vistas": 233415 },
+        { "url": "https://www.youtube.com/watch?v=ZVmggKykVgg", "titulo": "PAREN EL QUILOMBO: LA PELEA DE ROSEMBLAT Y MÁS | Paren La Mano", "publicado": "2026-11-14T11:00:34-05:00", "vistas": 54389, "excluido": "Probable chisme: repaso de una pelea entre terceros" },
+        { "url": "https://www.youtube.com/watch?v=uRZ2xc4sRyA", "titulo": "SUPERJUEVES DE MARIO: NVIDIA, QUILOMBOS Y MÁS | #ParenLaMano Completo - 12/11 | VORTERIX", "publicado": "2026-11-12T19:46:12-05:00", "vistas": 410382 },
         { "url": "https://www.youtube.com/watch?v=KRSvkgd9t4o", "titulo": "LUQUITAS ESTUVO CON EL PAPA Y ESCÁNDALO DE NVIDIA | #ParenLaMano Completo - 11/11 | VORTERIX", "publicado": "2026-11-11T19:24:46-05:00", "vistas": 381355 },
         { "url": "https://www.youtube.com/watch?v=rjiV9M32Zk4", "titulo": "EL ESCÁNDALO DE NVIDIA Y LA ESPÍA CHINA | Paren La Mano", "publicado": "2026-11-13T11:51:48-05:00", "vistas": 26609, "excluido": "Noticia, no chiste" },
         { "url": "https://www.youtube.com/watch?v=kpsoBXo7uZY", "titulo": "BOCA CAMPEÓN: POLÉMICAS Y DEBATE EN EL TRIBUNERO | Paren La Mano", "publicado": "2026-11-12T10:00:00-05:00", "vistas": 39315, "excluido": "Debate de fútbol argentino: no se entiende fuera" }
@@ -335,9 +352,45 @@
       "candidatos": [],
       "evidencia_similar": "Personaje cómico mexicano de Alex Montiel que coincide a menudo con Franco Escamilla: pelearon en Supernova Strikers en agosto de 2025 (https://www.foxsports.com.mx/2025/08/17/franco-escamilla-vencio-al-escorpion-dorado-en-supernova-strikers-con-lazy-boy-en-su-esquina/), y Franco es uno de los rivales de su serie 'Jalas o te rajas' (https://cinepremiere.com.mx/jalas-o-te-rajas-serie-facundo-escorpion-dorado.html). El episodio de Mariana Treviño hizo 163.168 vistas en 69,5 h (2.348/h).",
       "advertencia": "Los canales que lo comentan (Chismesito Rico y similares) son chisme de farándula: no se traen. Solo su canal.",
-      "ultima_revision": "2026-11-13T18:18:19-05:00",
+      "notas_ciclo_4": "Solo un directo de charla en 72 h ('Tarde de platicar con el escorpión', 274/h). No hubo Al Volante nuevo: el de Mariana Treviño fue el martes 10-nov, así que el siguiente podría salir el martes 17-nov.",
+      "ultima_revision": "2026-11-14T22:51:54-05:00",
       "ultimas_subidas": [
+        { "url": "https://www.youtube.com/watch?v=rMC8ZNvS4A8", "titulo": "Tarde de platicar con el escorpión", "publicado": "2026-11-13T05:23:41-05:00", "vistas": 11377 },
         { "url": "https://www.youtube.com/watch?v=XS1RxdS8uM4", "titulo": "MARIANA TREVIÑO regresa recargada #AlVolante con el Escorpión. De Mentiras a TomHanks y OwenWilson", "publicado": "2026-11-10T20:52:07-05:00", "vistas": 163168 }
+      ]
+    },
+    {
+      "nombre": "Liss Pereira",
+      "nicho": "comedia y stand-up",
+      "grupo": "comedia y stand-up (Colombia)",
+      "origen": "similar",
+      "estado": "resuelto",
+      "cuentas": { "youtube": "https://www.youtube.com/channel/UCcTBlJwh5V-f8JNAieWIbhQ", "kick": null, "twitch": null, "instagram": "https://www.instagram.com/lisspereira", "tiktok": "https://www.tiktok.com/@lisspereira", "x": null },
+      "canales_relacionados": [],
+      "verificacion": "Canal 'Liss Pereira' (61,9 K) con su programa 'PijamHada Real' ('Idea Original: Liss Pereira'; 'Sígueme en todas las redes como @lisspereira', según la descripción del capítulo 9). El TikTok @lisspereira responde con yt-dlp a nombre de 'lisspereira'. Instagram sin comprobar: solo se sabe por la descripción.",
+      "candidatos": [],
+      "evidencia_similar": "Humorista colombiana de stand-up, del mismo estilo que la semilla colombiana. Salió en 'Liss Pereira' -Recientes el 14-nov: 'PijamHada Real - Capítulo 9' (con Lorna Cepeda) hizo 50.270 vistas en 51,3 h con 61,9 K suscriptores, el 81 % de sus suscriptores en dos días (https://www.youtube.com/watch?v=T6Cw9kprkbc). En TikTok sus tres videos más recientes con tracción hicieron 581,9 K, 506,9 K y 673,6 K, unas 12 veces la mediana de sus diez últimos (unos 47 K), medido con yt-dlp el 14-nov.",
+      "advertencia": "Sus especiales de stand-up están en plataformas de pago: no son fuentes. 'PijamHada Real' sale cada jueves; tiene además un estreno programado (OOnDWG-olps, 'Premieres in 18 hours' a las 23:15 del 14-nov). Cuidado con el chisme sobre terceros en las charlas con actrices.",
+      "ultima_revision": "2026-11-14T23:15:16-05:00",
+      "ultimas_subidas": [
+        { "url": "https://www.youtube.com/watch?v=T6Cw9kprkbc", "titulo": "TODO SE SALIÓ DEL LIBRETO (Con Lorna Cepeda) | PijamHada Real - Capítulo 9", "publicado": "2026-11-12T20:00:24-05:00", "vistas": 50270 }
+      ]
+    },
+    {
+      "nombre": "Nadie Sabe Nada (Andreu Buenafuente y Berto Romero)",
+      "nicho": "humoristas y creadores de humor",
+      "grupo": "comedia y podcasts de humor (España)",
+      "origen": "similar",
+      "estado": "resuelto",
+      "cuentas": { "youtube": "https://www.youtube.com/channel/UCWU8fcAN3X8hjMR9k0rbV5g", "kick": null, "twitch": null, "instagram": "https://instagram.com/Naide.Sabe.Nada", "tiktok": "https://www.tiktok.com/@naide.sabe.nada", "x": null },
+      "canales_relacionados": [],
+      "verificacion": "Canal 'Nadie Sabe Nada' (268 K) con el episodio 514 ('NADIE SABE NADA 14x11'). La descripción nombra a Andreu Buenafuente y Berto Romero y enlaza su Instagram y su TikTok (@naide.sabe.nada, con ese usuario en la descripción). El público se reserva en El Terrat (https://publico.elterrat.com/nadie-sabe-nada). Lo que se corte tiene dueño (El Terrat): sin_verificar.",
+      "candidatos": [],
+      "evidencia_similar": "Podcast de improvisación de dos humoristas, del mismo estilo que La Ruina y La Revuelta. Salió en 'La Ruina podcast' -Recientes el 14-nov: el episodio 14x11 hizo 76.741 vistas en 16,2 h (4.737/h) con 268 K suscriptores, el 29 % de sus suscriptores en menos de un día (https://www.youtube.com/watch?v=pSyuyPq7uh0). Su TikTok recorta una pieza al día: 'Taxi coctelera' hizo 124,9 K, unas 7,5 veces la mediana de sus ocho últimos (unos 16,8 K), medido con yt-dlp el 14-nov.",
+      "advertencia": "Humor muy de España. Solo entran piezas que se entiendan fuera de allí. Hasta el 29-N, nada que toque la campaña de las generales.",
+      "ultima_revision": "2026-11-14T23:13:03-05:00",
+      "ultimas_subidas": [
+        { "url": "https://www.youtube.com/watch?v=pSyuyPq7uh0", "titulo": "NADIE SABE NADA 14x11 | Los Claus y los elfos promiscuos", "publicado": "2026-11-14T07:00:10-05:00", "vistas": 76741 }
       ]
     }
   ]

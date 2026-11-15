@@ -1,14 +1,22 @@
 {
-  "actualizado": "2026-11-13T18:55:00-05:00",
-  "ciclo": 3,
+  "actualizado": "2026-11-14T23:45:00-05:00",
+  "ciclo": 4,
   "rotacion": {
-    "plataformas": { "youtube": "2026-11-13", "x": "2026-11-13", "tiktok": null, "instagram": null, "facebook": null, "kick": null },
-    "_rotacion_nota": "TikTok se intentó en el ciclo 2 con búsquedas site:tiktok.com y en el ciclo 3 leyendo un perfil (https://www.tiktok.com/@jhovanoty): las dos vías fallan (la página solo devuelve el título 'TikTok - Make Your Day'). Sigue sin explorar a fondo: hace falta Creative Center, una lista de terceros (señal tardía) o que el usuario mire a mano un par de cuentas.",
+    "plataformas": { "youtube": "2026-11-14", "x": "2026-11-14", "tiktok": null, "instagram": null, "facebook": null, "kick": null },
+    "_rotacion_nota": "TikTok se intentó en el ciclo 2 con búsquedas site:tiktok.com y en el ciclo 3 leyendo un perfil con WebFetch; las dos vías fallan. En el ciclo 4 se encontró una que sí funciona: herramientas/bin/yt-dlp.exe --flat-playlist --playlist-end 10 --print \"%(id)s | %(timestamp)s | %(view_count)s | %(like_count)s | %(uploader)s | %(title)s\" https://www.tiktok.com/@<usuario>. Devuelve vistas, me gusta y fecha de los últimos videos de un perfil público (probado con @naide.sabe.nada, @lisspereira y @olgaenvivo). @jhovanoty responde 'This account does not have any videos posted'. TikTok sigue en null porque solo se probó el método, sin explorar a fondo: es la prioridad del ciclo 5 (medir La Cotorrisa, Juanpis, Franco, Jhovanoty y Paren la Mano con sus usuarios confirmados).",
+    "metodo_tiktok": "yt-dlp --flat-playlist sobre https://www.tiktok.com/@<usuario>, sin descargar nada. El usuario se confirma antes con la descripción de un video suyo de YouTube o con su web: nunca se adivina. La fecha es un timestamp Unix (UTC).",
     "nichos": {
-      "comedia y stand-up": "2026-11-13",
-      "humoristas y creadores de humor": "2026-11-13",
-      "momentos graciosos de la política colombiana": "2026-11-13"
+      "comedia y stand-up": "2026-11-14",
+      "humoristas y creadores de humor": "2026-11-14",
+      "momentos graciosos de la política colombiana": "2026-11-14"
     }
+  },
+  "presupuesto_usado_ciclo_4": {
+    "busquedas_web": 8,
+    "lecturas_web": 6,
+    "busquedas_youtube": 12,
+    "revisiones_de_canal": 15,
+    "nota": "Ciclo 4 medido entre las 22:45 y las 23:25 del 14-nov. Lecturas: trends24 Colombia y México y cuatro perfiles de TikTok con yt-dlp (@jhovanoty falló; @naide.sabe.nada, @olgaenvivo y @lisspereira funcionaron). Las descripciones de 6 videos se leyeron con yt-dlp (solo metadatos), sin contarlas como lecturas. Pedido del orquestador: solo fuentes que no se hayan cortado ya."
   },
   "presupuesto_usado_ciclo_3": {
     "busquedas_web": 5,
@@ -33,11 +41,13 @@
       "https://www.bloomberglinea.com/latinoamerica/colombia/cuando-se-posesiona-el-nuevo-presidente-de-colombia-abelardo-de-la-espriella-o-ivan-cepeda/",
       "https://kchcomunicacion.com/?p=449558"
     ],
+    "actualidad_14_nov": "Tendencias de X Colombia a las 03:21 UTC del 15-nov (22:21 del 14-nov en Colombia): manda Stream Fighters 5 (#StreamFighters5, #STF5 24 h, Westcol, Aria Vega), que es de la línea urbana. 'Fondo Milagro' sigue (23 h en la lista; según Blu Radio, su gerente renunció el 13-nov y el nuevo no cobrará sueldo, https://www.youtube.com/watch?v=UX5t4m4Kgbs): no se hace humor con eso. 'Primo Gay' es el alias de un criminal cuya extradición se pide (https://www.youtube.com/watch?v=wDdH8VnI-Jo): no es humor. 'Luis Felipe Henao' (exministro de Vivienda) lleva 23 h en la lista sin causa encontrada. '#eltoroporloscachos', sin causa encontrada. No hay humoristas en las 50 tendencias. Las búsquedas web no encontraron momentos graciosos del Congreso en noviembre. La Luciérnaga de Caracol Radio, el gran programa de humor político de la radio, va esta semana sobre el Fondo Milagro y la 'escalada terrorista'. México (03:27 UTC): fútbol (Selección, Rafa Márquez), Félix Gallardo y BTS; nada de humor.",
     "actualidad_13_nov": "Tendencias de X Colombia a las 22:06 UTC: 'Fondo Milagro' (#1, de las más largas del día) y 'Jaime Uribe' (#4 y #18) son el fondo de reconstrucción tras el terremoto del 10-ago-2026 y su gerente, que no fue al Congreso a rendir cuentas el 11-nov (https://cambiocolombia.com/poder/articulo/2026/11/gerente-del-fondo-milagro-no-fue-al-congreso-a-rendir-cuentas-reporto-que-solo-ha-comprometido-el-12-de-los-recursos). Toca a damnificados de una tragedia: no se hace humor con eso. '#AbelardoIncompetente' (#31) es un hashtag partidista. 'Timochenko' y 'Rodrigo Londoño' (la misma persona) suben sin causa conocida. 'Viernes 13' es meme de calendario. La búsqueda web no encontró momentos graciosos del Congreso en noviembre; el último registrado es el lapsus 'Gobierno de Gustavo Abelardo' de la senadora Norma Hurtado (https://www.vanguardia.com/colombia/2026/09/03/gobierno-de-gustavo-abelardo-el-error-que-causo-risas-en-medio-de-un-debate-del-senado/), de septiembre: fuera de la ventana.",
     "actualidad_10_nov": "Temas de la semana: (1) el bombardeo contra el Frente 33 ('Barba Chivo', la 'bomba firmada') y el uniforme de camuflaje del presidente en los operativos (tendencia 'Casco' probablemente ligada a eso, sin confirmar). Es violencia: no entra. (2) La Ley de Rescate Fiscal del gobierno De la Espriella, en el Congreso (https://www.semana.com/opinion/articulo/ley-de-rescate-fiscal-la-bomba-que-dejo-petro/202600/). Es un tema válido para sátira. (3) Rumores sobre 'fiestas' de Petro y un 'video íntimo': vida privada, no entra."
   },
   "fuentes_politica_vigiladas": [
-    { "nombre": "Voz Populi (Blu Radio)", "url": "https://www.youtube.com/channel/UCUYokk2dJxFZf7NgxTL-ROg", "que_es": "Segmento de imitadores de Blu Radio, sátira política colombiana. Es imitación: el gancho debe decirlo. Sube 1-2 sátiras por día (Petro y Claudia López el 9-nov; del 10 al 13-nov, cuatro del 'Petro', una de 'El Tino' y una de los Latin Grammy). Buscar con 'Voz Populi Blu Radio' -Recientes. Ojo: la búsqueda también trae la señal en vivo de Blu Radio con la marca 'VOZ POPULI', que no es un segmento", "visto": "2026-11-13" },
+    { "nombre": "Voz Populi (Blu Radio)", "url": "https://www.youtube.com/channel/UCUYokk2dJxFZf7NgxTL-ROg", "que_es": "Segmento de imitadores de Blu Radio, sátira política colombiana. Es imitación: el gancho debe decirlo. Sube 1-2 sátiras por día (Petro y Claudia López el 9-nov; del 10 al 13-nov, cuatro del 'Petro', una de 'El Tino' y una de los Latin Grammy). Buscar con 'Voz Populi Blu Radio' -Recientes. Ojo: la búsqueda también trae la señal en vivo de Blu Radio con la marca 'VOZ POPULI', que no es un segmento. Ciclo 4: las 10 últimas subidas de cada pestaña del canal de Blu Radio son noticias y señales en vivo, así que 'canal' no sirve para Voz Populi; hay que buscarlo. Entre el 12 y el 14-nov solo salieron los 'tips' del 'Petro' (vida privada) y 'Se fueron sin Grammy pero con investigación' (SqKv2bHEVbk, 8,5 min, 112/h)", "visto": "2026-11-14" },
+    { "nombre": "La Luciérnaga (Caracol Radio)", "url": "https://www.youtube.com/channel/UCNAJlRrXYFi8jo889TbxPiw", "que_es": "Programa de humor y actualidad de Caracol Radio con imitadores de políticos. Sube cada tarde el directo completo (2,5-3 h) y notas sueltas. Del 12 al 14-nov fue sobre el Fondo Milagro y la 'escalada terrorista': no entra. Úsalo cuando la agenda no sea una tragedia; busca las imitaciones, no las noticias. El id es el channel_url de Caracol Radio (1,29 M) en la búsqueda 'La Luciernaga Caracol Radio' del 14-nov (datos/clipero/busquedas/2026-11-14_231129.jsonl). Mejor buscarlo que revisar el canal, que mezcla todo", "visto": "2026-11-14" },
     { "nombre": "Canal Congreso Colombia", "url": "https://www.youtube.com/channel/UCJfKMFp7dtO8mpHT56X0kJQ", "que_es": "Resuelto en el ciclo 2 (96,7 K). Sube las plenarias completas del Senado y de la Cámara (10-nov: 3 h 45 min y 4 h). Solo se usa cuando la prensa o las búsquedas señalan un momento concreto con minuto; nunca a ciegas", "visto": "2026-11-10" }
   ],
   "consultas_que_no_sirven": [
@@ -49,7 +59,12 @@
     "'humorista colombiano stand up' -Recientes: tres resultados de canales pequeños (LOS40 Colombia, Acción Impro)",
     "'Sofia Niño de Rivera' -Recientes: solo resubidas de terceros sin vistas. 'Tato Devia' -Recientes: ruido en inglés",
     "'Escorpion Dorado' -Recientes: mezcla su canal con canales de chisme (Chismesito Rico), que no entran",
-    "Perfil de TikTok con WebFetch (https://www.tiktok.com/@jhovanoty): solo devuelve el título"
+    "Perfil de TikTok con WebFetch (https://www.tiktok.com/@jhovanoty): solo devuelve el título. Con yt-dlp --flat-playlist sí funciona (ver rotacion.metodo_tiktok)",
+    "'Mau Nieto podcast' -Recientes: solo ruido en inglés (historia, finanzas, idiomas)",
+    "'Estirando el chicle podcast' -Recientes: un canal sin vistas. 'Mi Pecho No Es Bodega Christian Meza' -Recientes: nada del programa en 72 h, solo ruido",
+    "'plenaria Senado Colombia risas' -Recientes: un directo de un canal de 712 suscriptores. Las búsquedas web de 'risas' o 'video viral' en el Congreso solo traen notas de septiembre o anteriores",
+    "Útil por accidente: 'La Ruina podcast' -Recientes trajo Nadie Sabe Nada. 'Liss Pereira' -Recientes trajo su programa y un estreno",
+    "canal de Blu Radio para Voz Populi: las 10 últimas subidas de cada pestaña son noticias. Buscar 'Voz Populi Blu Radio' -Recientes"
   ],
   "equilibrio_politico": {
     "nota": "Momentos de humor político propuestos en fuentes_para_clips, por corriente de quien protagoniza el momento (enfoque.md: sin bandos). Los excluidos no cuentan para el equilibrio; se anotan para no volver a evaluarlos.",
@@ -102,10 +117,28 @@
           { "url": "https://www.youtube.com/watch?v=x0g7Zs-yHbg", "politica": "Vox (derecha radical, España), de fondo", "motivo": "Gira en torno a la entrevista a Abascal, candidato en campaña" },
           { "url": "https://www.youtube.com/watch?v=fLF1gFLcM1U", "politica": "izquierda (Ada Colau, España)", "motivo": "Política española: fuera de los nichos y en periodo electoral" }
         ]
+      },
+      {
+        "ciclo": 4,
+        "fecha": "2026-11-14",
+        "propuestos": {},
+        "detalle": [],
+        "nota": "No se propuso ningún momento político: en la ventana no hay ninguno que cumpla enfoque.md, ni real ni de sátira. No se fuerza el equilibrio con material flojo. Lo que hizo el Clipero en su ciclo 14 (14-nov): cortó 2 clips del disfraz de De la Espriella de Jhovanoty, uno con campo politica 'derecha' (2026-11-13-jhovanoty-faja-disfraz) y otro sin él (2026-11-13-jhovanoty-radar-eldorado, una anécdota del radar de El Dorado). Es el primer clip político cortado de la línea.",
+        "repetidos_sin_contar": [
+          { "url": "https://www.youtube.com/watch?v=wT42xCMxUp8", "politica": "izquierda (Petro, imitado por Voz Populi)", "nota": "Ya excluido en el ciclo 3 (vida privada)" },
+          { "url": "https://www.youtube.com/watch?v=J6Jh-nx5ezM", "politica": "derecha (gobierno De la Espriella, contado por Daniel Samper)", "nota": "Ya excluido en el ciclo 3; ahora con otro título ('¡Escándalo con el Fondo Milagro de Abelardo!')" },
+          { "url": "https://www.youtube.com/watch?v=CUb1ATG813s", "politica": "derecha (gobierno De la Espriella)", "nota": "Ya excluido en el ciclo 3 (judicial y violencia)" }
+        ],
+        "excluidos": [
+          { "url": "https://www.youtube.com/watch?v=3Siwpn6YqUo", "politica": "sin protagonista político (directo de La Luciérnaga, Caracol Radio)", "motivo": "Abre con la renuncia del gerente del Fondo Milagro: fondo de una tragedia" },
+          { "url": "https://www.youtube.com/watch?v=QXs1rG8vCvk", "politica": "sin protagonista político (directo de La Luciérnaga, Caracol Radio)", "motivo": "'Continúa la escalada terrorista en Colombia' y los salarios del Fondo Milagro: violencia y tragedia" },
+          { "url": "https://www.youtube.com/watch?v=SqKv2bHEVbk", "politica": "sin confirmar (Voz Populi sobre los Latin Grammy)", "motivo": "No es política, rinde poco (112/h) y el título alude a una 'investigación' sin explicar cuál: no se trae sin comprobarlo" }
+        ]
       }
     ],
     "acumulado": { "centro": 1, "derecha": 1, "izquierda": 1, "otros": 0 },
-    "alerta": "Resuelta en el ciclo 3: la derecha entra con el disfraz de De la Espriella de Jhovanoty. Ojo: es una anécdota sobre el disfraz, no un momento del propio presidente. Sigue faltando un momento real (de un político en persona) de cualquier corriente; las imitaciones y los disfraces llenan el equilibrio, pero el nicho pide también momentos reales del Congreso o de entrevistas."
+    "acumulado_cortado_por_clipero": { "derecha": 1, "nota": "Clips con campo politica en salidas/clipero/clips.json a 2026-11-14 (el del disfraz de Jhovanoty). Los momentos de centro (Claudia López) e izquierda (Petro) de Voz Populi se propusieron y no se cortaron." },
+    "alerta": "Lo propuesto está parejo (1-1-1), pero lo cortado no: el único clip político cortado es de derecha, y además es un disfraz, no el político. En el próximo ciclo con material, dar prioridad a un momento de izquierda o de centro que cumpla las reglas, sin forzarlo. Sigue faltando un momento real de un político en persona, de cualquier corriente. El Congreso no ha dado ninguno en noviembre."
   },
   "patrones": [
     {
@@ -117,11 +150,12 @@
       "regiones": ["ES", "CO", "MX"],
       "nichos": ["humoristas y creadores de humor", "momentos graciosos de la política colombiana"],
       "primera_vez_visto": "2026-11-10",
-      "etapa": "pico",
-      "etapa_por_contexto": { "youtube-es": "pico", "x-co": "pico", "x-mx": "pico", "youtube-co": "sin-verificar", "tiktok-co": "sin-verificar" },
-      "indice_saturacion": 67,
-      "puntaje_oportunidad": 45,
-      "puntaje_desglose": { "fuerza_viral": 14, "momento": 8, "replicabilidad": 8, "encaje": 10, "hibridacion": 5 },
+      "etapa": "saturacion",
+      "etapa_por_contexto": { "youtube-es": "saturacion", "x-co": "saturacion", "x-mx": "saturacion", "youtube-co": "sin-verificar", "tiktok-co": "sin-verificar" },
+      "indice_saturacion": 72,
+      "indice_desglose": { "densidad_replicas": 14, "rendimiento_replicas": 26, "senales_tardias": 17, "fatiga": 6, "edad": 9 },
+      "puntaje_oportunidad": 33,
+      "puntaje_desglose": { "fuerza_viral": 12, "momento": 0, "replicabilidad": 8, "encaje": 10, "hibridacion": 3 },
       "ventana_hasta": "2026-11-12",
       "confianza": "baja",
       "genoma": {
@@ -145,13 +179,15 @@
         { "url": "https://www.youtube.com/watch?v=uDJxesw-doU", "metrica": "Señal tardía: El País, El Mundo, ABC, OKDiario, el canal de VOX y canales de reacción ya lo cubren en menos de 24 h (El País: 32.622/h)", "tipo": "medido", "mide": "senal_relacionada", "contexto": "youtube-es", "fecha": "2026-11-10" },
         { "url": "https://www.youtube.com/watch?v=tZeBj9MS9RQ", "metrica": "Fragmento oficial: 514.102 vistas en 20,7 h (24.836/h), cuando a las 12,7 h iba a 29.931/h. La velocidad baja", "tipo": "medido", "mide": "patron", "contexto": "youtube-es", "fecha": "2026-11-10" },
         { "url": "https://trends24.in/mexico/", "metrica": "'Broncano', segunda tendencia más larga de X México en 24 h (21 h); en Colombia baja al #44 (03:00 UTC del 11-nov)", "tipo": "medido", "mide": "patron", "contexto": "x-mx", "fecha": "2026-11-10" },
-        { "url": "https://www.youtube.com/watch?v=fLF1gFLcM1U", "metrica": "Ada Colau en La Revuelta (10-nov): 199.089 vistas en 59,6 h (3.340/h), unas 8 veces menos por hora que Abascal", "tipo": "medido", "mide": "patron", "contexto": "youtube-es", "fecha": "2026-11-13" }
+        { "url": "https://www.youtube.com/watch?v=fLF1gFLcM1U", "metrica": "Ada Colau en La Revuelta (10-nov): 199.089 vistas en 59,6 h (3.340/h), unas 8 veces menos por hora que Abascal", "tipo": "medido", "mide": "patron", "contexto": "youtube-es", "fecha": "2026-11-13" },
+        { "url": "https://www.youtube.com/channel/UCO5BR4Ex3EM8PSLU7OSqtOw", "metrica": "El canal de La Revuelta no subió nada entre el 11-nov a las 22:45 y el 14-nov a las 22:57 (0 videos con canal -MaxHoras 72). En 72 h no hay ninguna entrevista política nueva del formato, ni en España ni en Colombia", "tipo": "medido", "mide": "patron", "contexto": "youtube-es", "fecha": "2026-11-14" }
       ],
       "excluido_por_enfoque": "El único ejemplo medido (Abascal, 9-nov) cae en periodo electoral (generales del 29-N en España): no se corta. El patrón se vigila para Colombia (The Juanpis Live Show con políticos) y para España después del 29-N.",
       "historial": [
         { "fecha": "2026-11-10", "etapa": "pico", "indice_saturacion": 60, "senal": "Entrevista de Abascal en La Revuelta: 65.818/h, y en menos de 24 h ya la cubren los grandes medios y hay vídeos de reacción. Tendencia de 23-24 h en X Colombia y México. En Colombia no se midió." },
         { "fecha": "2026-11-10", "etapa": "pico", "indice_saturacion": 63, "senal": "Ciclo 2: el fragmento oficial baja de 29.931/h a 24.836/h y 'Broncano' cae al #44 en X Colombia. Sigue en pico y empieza a frenar. En Colombia no hubo ningún ejemplo nuevo: Juanpis no tuvo invitado político esta semana." },
-        { "fecha": "2026-11-13", "etapa": "pico", "indice_saturacion": 67, "senal": "Ciclo 3: la réplica siguiente del mismo programa (Ada Colau en La Revuelta, 10-nov) rinde mucho menos: 3.340/h y 1.464/h, frente a los 24.836-29.931/h de Abascal. 'Broncano' ya no está entre las 50 tendencias de X Colombia ni de México (22:06 UTC del 13-nov). En Colombia sigue sin ejemplos: Juanpis grabó con comediantes. Si el ciclo 4 tampoco trae un caso colombiano, pasa a saturación." }
+        { "fecha": "2026-11-13", "etapa": "pico", "indice_saturacion": 67, "senal": "Ciclo 3: la réplica siguiente del mismo programa (Ada Colau en La Revuelta, 10-nov) rinde mucho menos: 3.340/h y 1.464/h, frente a los 24.836-29.931/h de Abascal. 'Broncano' ya no está entre las 50 tendencias de X Colombia ni de México (22:06 UTC del 13-nov). En Colombia sigue sin ejemplos: Juanpis grabó con comediantes. Si el ciclo 4 tampoco trae un caso colombiano, pasa a saturación." },
+        { "fecha": "2026-11-14", "etapa": "saturacion", "indice_saturacion": 72, "senal": "Ciclo 4: tampoco hay caso colombiano (Juanpis no tuvo político; su próximo estreno es del 15-nov) y La Revuelta no subió nada en 72 h. La última réplica (Ada Colau) rindió 8 veces menos que el original. Pasa a saturación como se previó en el ciclo 3. Se reabre si Juanpis u otro humorista colombiano entrevista a un político fuera de campaña y rinde por encima de su media." }
       ]
     },
     {
@@ -163,10 +199,12 @@
       "regiones": ["ES", "CO", "MX"],
       "nichos": ["humoristas y creadores de humor"],
       "primera_vez_visto": "2026-11-10",
-      "etapa": "saturacion",
-      "etapa_por_contexto": { "youtube-es": "saturacion", "x-co": "quemado", "x-mx": "quemado" },
-      "indice_saturacion": 76,
+      "etapa": "quemado",
+      "etapa_por_contexto": { "youtube-es": "quemado", "x-co": "quemado", "x-mx": "quemado" },
+      "indice_saturacion": 88,
       "puntaje_oportunidad": 0,
+      "quemado_desde": "2026-11-14",
+      "archivar_desde": "2026-11-28",
       "ventana_hasta": "2026-11-12",
       "confianza": "media",
       "excluido_por_enfoque": "Candidato en campaña con elecciones a menos de 30 días (enfoque.md). La parte sobre Israel, además, toca una guerra.",
@@ -184,7 +222,8 @@
       "historial": [
         { "fecha": "2026-11-10", "etapa": "pico", "indice_saturacion": 62, "senal": "Cobertura masiva en menos de 24 h; excluido por periodo electoral" },
         { "fecha": "2026-11-10", "etapa": "pico", "indice_saturacion": 68, "senal": "Ciclo 2: la velocidad de los fragmentos oficiales baja (de 29.931/h a 24.836/h) y la tendencia en X Colombia cae del #19 al #44. Pico tardío; pasará a saturación en el próximo ciclo si sigue cayendo. Sigue excluido." },
-        { "fecha": "2026-11-13", "etapa": "saturacion", "indice_saturacion": 76, "senal": "Ciclo 3: el propio programa ya hace piezas meta sobre la entrevista ('Pedimos perdón a nuestro público', 3.653/h; el repaso de Jorge Ponce, 3.833/h), señal de saturación. 'Broncano' salió de las 50 tendencias de X Colombia y México. Sigue excluido; si en 14 días no vuelve, se archiva." }
+        { "fecha": "2026-11-13", "etapa": "saturacion", "indice_saturacion": 76, "senal": "Ciclo 3: el propio programa ya hace piezas meta sobre la entrevista ('Pedimos perdón a nuestro público', 3.653/h; el repaso de Jorge Ponce, 3.833/h), señal de saturación. 'Broncano' salió de las 50 tendencias de X Colombia y México. Sigue excluido; si en 14 días no vuelve, se archiva." },
+        { "fecha": "2026-11-14", "etapa": "quemado", "indice_saturacion": 88, "senal": "Ciclo 4: tema de actualidad con cinco días (su vida útil es de 24-72 h). La Revuelta no subió nada en 72 h y 'Broncano' sigue fuera de las 50 tendencias de X Colombia y México (03:21-03:27 UTC del 15-nov). Pasa a quemado; se mueve a archivo.json el 28-nov si no vuelve." }
       ]
     },
     {
@@ -198,10 +237,10 @@
       "primera_vez_visto": "2026-11-10",
       "etapa": "crecimiento",
       "etapa_por_contexto": { "youtube-co": "crecimiento", "tiktok-co": "sin-verificar", "instagram-co": "sin-verificar" },
-      "indice_saturacion": 53,
-      "indice_desglose": { "densidad_replicas": 20, "rendimiento_replicas": 13, "senales_tardias": 12, "fatiga": 3, "edad": 5 },
-      "puntaje_oportunidad": 58,
-      "puntaje_desglose": { "fuerza_viral": 13, "momento": 22, "replicabilidad": 4, "encaje": 15, "hibridacion": 4 },
+      "indice_saturacion": 55,
+      "indice_desglose": { "densidad_replicas": 20, "rendimiento_replicas": 15, "senales_tardias": 12, "fatiga": 3, "edad": 5 },
+      "puntaje_oportunidad": 57,
+      "puntaje_desglose": { "fuerza_viral": 12, "momento": 22, "replicabilidad": 4, "encaje": 15, "hibridacion": 4 },
       "ventana_hasta": "2026-11-24",
       "confianza": "baja",
       "genoma": {
@@ -222,12 +261,14 @@
         { "url": "https://www.youtube.com/watch?v=tuykvpJMFmw", "metrica": "El 'Petro' de Voz Populi: 54.963 vistas en 25 h (2.199/h) en Blu Radio (1,73 M), en la media del canal", "tipo": "medido", "mide": "patron", "contexto": "youtube-co", "fecha": "2026-11-10" },
         { "url": "https://www.youtube.com/watch?v=yBt5vLuwS74", "metrica": "La 'Claudia' de Voz Populi: 18.221 vistas en 28,8 h (633/h)", "tipo": "medido", "mide": "patron", "contexto": "youtube-co", "fecha": "2026-11-10" },
         { "url": "https://www.youtube.com/watch?v=lEDdtE48rBk", "metrica": "Jhovanoty disfrazado de De la Espriella: 188.782 vistas en 46,1 h (4.095/h) con 260 K suscriptores, el 73 % de sus suscriptores en dos días (segunda pieza seguida con ese rendimiento)", "tipo": "medido", "mide": "patron", "contexto": "youtube-co", "fecha": "2026-11-13" },
-        { "url": "https://www.youtube.com/watch?v=wT42xCMxUp8", "metrica": "Tres sátiras del 'Petro' de Voz Populi entre el 10 y el 12-nov: 1.290/h, 815/h y 589/h, en la media de Blu Radio (1,73 M)", "tipo": "medido", "mide": "patron", "contexto": "youtube-co", "fecha": "2026-11-13" }
+        { "url": "https://www.youtube.com/watch?v=wT42xCMxUp8", "metrica": "Tres sátiras del 'Petro' de Voz Populi entre el 10 y el 12-nov: 1.290/h, 815/h y 589/h, en la media de Blu Radio (1,73 M)", "tipo": "medido", "mide": "patron", "contexto": "youtube-co", "fecha": "2026-11-13" },
+        { "url": "https://www.youtube.com/watch?v=wT42xCMxUp8", "metrica": "Los 'tips' del 'Petro' de Voz Populi: 39.924 vistas en 47,8 h (835/h). El segmento siguiente, sobre los Latin Grammy (SqKv2bHEVbk), hizo 3.280 en 29,2 h (112/h). Jhovanoty no subió nada entre el 11-nov a las 22:45 y el 14-nov a las 22:51", "tipo": "medido", "mide": "patron", "contexto": "youtube-co", "fecha": "2026-11-14" }
       ],
       "riesgos": "Depende de un imitador con talento, así que se replica mal (replicabilidad 4). Roza la suplantación (metodologia.md §8): un clip solo es aceptable si el texto en pantalla dice que es una imitación. En la ventana, los imitadores se cargan hacia Petro y hacia su vida privada; vigilar el equilibrio.",
       "historial": [
         { "fecha": "2026-11-10", "etapa": "crecimiento", "indice_saturacion": 52, "senal": "Ciclo 2: tres piezas en 72 h de dos creadores independientes (Jhovanoty y Voz Populi), una con sobre-rendimiento claro (Jhovanoty). El formato es viejo en TV y radio (señal tardía); no está medido en TikTok ni en Instagram." },
-        { "fecha": "2026-11-13", "etapa": "crecimiento", "indice_saturacion": 53, "senal": "Ciclo 3: Jhovanoty repite el sobre-rendimiento (4.095/h) y pasa de Petro a De la Espriella, así que el formato ya no va de un solo lado. Voz Populi sigue en su media (589-1.290/h). Sin cambio de etapa. TikTok sigue sin medirse (la página de perfil no carga): no llega a 60 ni pasa a apuesta." }
+        { "fecha": "2026-11-13", "etapa": "crecimiento", "indice_saturacion": 53, "senal": "Ciclo 3: Jhovanoty repite el sobre-rendimiento (4.095/h) y pasa de Petro a De la Espriella, así que el formato ya no va de un solo lado. Voz Populi sigue en su media (589-1.290/h). Sin cambio de etapa. TikTok sigue sin medirse (la página de perfil no carga): no llega a 60 ni pasa a apuesta." },
+        { "fecha": "2026-11-14", "etapa": "crecimiento", "indice_saturacion": 55, "senal": "Ciclo 4: semana floja. Jhovanoty no subió nada en 72 h y Voz Populi sacó un solo segmento nuevo, que no es político (Latin Grammy, 112/h). Sin cambio de etapa; el índice sube un poco porque no hay réplicas nuevas que rindan. Ya hay método para TikTok (yt-dlp): falta el usuario real de Jhovanoty, porque @jhovanoty sale vacío. Si en el ciclo 5 sus TikTok rinden por encima de su mediana, el patrón tendrá evidencia en destino." }
       ]
     }
   ]

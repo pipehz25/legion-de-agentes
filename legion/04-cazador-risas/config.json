@@ -14,7 +14,7 @@
   "perfiles": {
     "comedia y stand-up (Colombia)": ["Ricardo Quevedo", "Andrés López", "Lokillo Flórez", "Suso el Paspi", "Frank Martínez", "Iván Marín", "Piter Albeiro"],
     "comedia y podcasts de humor (México y región)": ["La Cotorrisa", "Franco Escamilla", "Carlos Ballarta", "Hablando Huevadas"],
-    "humor político (Colombia)": ["Juanpis González (Alejandro Riaño)", "Daniel Samper Ospina", "La Pulla"]
+    "humor político (Colombia)": ["Juanpis González (Alejandro Riaño)"]
   },
   "_perfiles": "Semilla propuesta por el orquestador, sin confirmar: el Cazador de Risas resuelve sus cuentas, descarta los que no encajen y añade similares en datos/cazador-risas/perfiles.json. El usuario puede cambiar esta lista.",
 
