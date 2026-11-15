@@ -1,75 +1,79 @@
 # Pendientes del Publicador
 
-Generado: 2026-11-13T18:12:55-05:00 · ciclo 7 · entrada: `salidas/clipero/clips.json` (ciclo 13 del Clipero: 8 clips nuevos de la línea risas y 3 urbanos de Westcol y Samulx).
+Generado: 2026-11-14T19:44:13-05:00 · ciclo 8 · entrada: `salidas/clipero/clips.json` (ciclo 14 del Clipero: 9 clips nuevos de la línea risas, de La Cotorrisa ep. 399, Paren la Mano y Jhovanoty).
 
 **Cómo leer esta página**
 
-- **TikTok:** cada clip nuevo se aprueba solo y va como **borrador** a la bandeja de la cuenta que le toca (no es público hasta que lo publicas desde la app). La API solo manda el video: al publicarlo, **pega el texto de TikTok** de su sección. Hoy llegaron 8: 4 a **Legión Urbana** (cuenta `principal`: `westcol-samulx-mosquito-ia`, `westcol-samulx-bicho-gigante`, `ibai-westcol-activacion` y `samulx-chanty-no-cae`) y 4 a **@legion.risas** (cuenta `risas`: `francupido-plantada-langosta`, `ballarta-champana`, `culpa-super-alexis` y `cotorrisa-codigo-22`). Para que un clip no llegue a la bandeja: `/publicador rechazar <clip-id>:tiktok <motivo>`.
-- **Bandejas casi llenas:** según TikTok siguen sin publicar 14 borradores en `principal` y 10 en `risas` (con los de hoy). Hoy TikTok los aceptó todos, pero puede volver a cortar con `spam_risk_too_many_pending_share` en cualquier envío. **Publica o descarta desde la app** los que ya no quieras, sobre todo los del 10 y el 11-nov, antes del próximo ciclo.
-- **Borradores antiguos:** tres clips de Blessd del 29 al 31-oct (`tregua-pirlo`, `vendedor-controles`, `ryan-castro-los-mismos`) siguen como pendientes en la bandeja de `principal`. Si los ves, descártalos; si no, ignóralos.
-- **La cola urbana no cabe entera:** quedan 11 clips urbanos en cola, todos con ventana hasta el 14-nov, y mañana solo caben 4 (`samulx-pollito-rebanaditas`, `ibai-westcol-zapatilla`, `samulx-plan-relevos` y `westcol-grefg-unico-golpe`). Los otros 7 (`jelty-temblando-show`, `ibai-westcol-burpees`, `samulx-pizza-con-pina`, `westcol-samulx-medio-pulmon`, `westcol-samulx-round-cuerpo`, `ibai-westcol-policia-colombiana` y `willito-manoplas-desmayo`) vencerán. Si prefieres alguno de ellos, rechaza otro con `/publicador rechazar <clip-id>:tiktok <motivo>` para dejarle sitio.
+- **TikTok:** cada clip nuevo se aprueba solo y va como **borrador** a la bandeja de la cuenta que le toca (no es público hasta que lo publicas desde la app). La API solo manda el video: al publicarlo, **pega el texto de TikTok** de su sección. Hoy llegaron 8: 4 a **Legión Urbana** (cuenta `principal`: `samulx-pollito-rebanaditas`, `samulx-plan-relevos`, `ibai-westcol-zapatilla` y `westcol-grefg-unico-golpe`) y 4 a **@legion.risas** (cuenta `risas`: `culpa-quevedo-mentiras`, `parenlamano-cardenal-prevost`, `cotorrisa-dedito-flaco` y `cotorrisa-harvard`). Para que un clip no llegue a la bandeja: `/publicador rechazar <clip-id>:tiktok <motivo>`.
+- **Bandejas llenas:** según TikTok siguen sin publicar 18 borradores en `principal` y 14 en `risas` (con los de hoy). Hoy TikTok aceptó los 8 sin cortar, pero puede responder `spam_risk_too_many_pending_share` en cualquier envío. **Publica o descarta desde la app** los que ya no quieras antes del próximo ciclo.
+- **Línea urbana: Stream Fighters 5 es hoy y hoy vence su ventana.** Los 15 clips urbanos que están en la bandeja de `principal` conviene publicarlos hoy o descartarlos. Los 7 que no cupieron (`jelty-temblando-show`, `ibai-westcol-burpees`, `samulx-pizza-con-pina`, `westcol-samulx-medio-pulmon`, `ibai-westcol-policia-colombiana`, `westcol-samulx-round-cuerpo` y `willito-manoplas-desmayo`) quedan **vencidos**, igual que los envíos de Instagram y YouTube de los 22 clips urbanos. La cola de TikTok `principal` queda vacía.
+- **Borradores antiguos:** tres clips de Blessd del 29 al 31-oct (`tregua-pirlo`, `vendedor-controles`, `ryan-castro-los-mismos`) siguen como pendientes en la bandeja de `principal`. Si los ves, descártalos.
+- **Línea risas, plan de TikTok** (4 al día en `risas`): 15-nov `culpa-ivan-piscina`, `parenlamano-papa-a-dormir`, `jhovanoty-faja-disfraz` y `cotorrisa-vinchi-dicaprio`; 16-nov `jhovanoty-radar-eldorado`, `cotorrisa-papa-cadenero`, `cotorrisa-navajas-suizas` y `cotorrisa-pastor-gases`; 17-nov `cotorrisa-dicaprio-sandwich`. Todos caben antes de su ventana.
 - **Instagram y YouTube:** pendientes de aprobación. Las dos plataformas siguen sin activar y sin credenciales: aprobar ahora solo deja el envío listo para cuando se activen. Los clips de risas van en Instagram a la cuenta `risas` (apagada hasta que la crees y la autorices), nunca a la cuenta urbana `principal`.
 - **Clips subidos a mano** (`legion/03-publicador/subidos-a-mano.json`): no aparecen aquí.
-- **Derechos:** los 36 clips son `sin_verificar`: contenido de terceros sin permiso confirmado. Solo se publica con aprobación expresa (en TikTok, tu publicación desde la bandeja) y siempre con el crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
+- **Derechos:** todos los clips de esta página son `sin_verificar`: contenido de terceros sin permiso confirmado. Solo se publica con aprobación expresa (en TikTok, tu publicación desde la bandeja) y siempre con el crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
 - **Revisar antes de publicar** (el detalle de cada clip está en su sección):
-  - `westcol-grefg-unico-golpe` (mañana a la bandeja): la pregunta «¿Llega Westcol listo para el sábado?» sirve hasta la pelea del 14-nov; si lo publicas después, cámbiala. La imagen es el mapa de Cuphead y Westcol solo sale en la cámara pequeña.
-  - `ibai-westcol-activacion` (en la bandeja desde hoy) e `ibai-westcol-zapatilla` (mañana): publícalos en días distintos; en los dos se ve o se oye una descarga eléctrica de entrenamiento.
-  - `samulx-pesaje-lonche` y `westcol-samulx-lonche-excusas`: publícalos en días distintos.
-  - `culpa-super-alexis` (en la bandeja de risas desde hoy) y `cotorrisa-dedito-flaco`: la ficha no confirma quién cuenta la anécdota o dice el remate; los textos no lo nombran y al publicar no conviene añadirlo.
-  - `cotorrisa-codigo-22` (en la bandeja de risas desde hoy): el «código 22» se lo aplicaban a Adal Ramones, no a Yordi Rosado.
-  - `culpa-ivan-piscina`: publícalo separado de `culpa-ivan-senorazo` (otro clip de Iván Marín, en la bandeja desde el 10-nov).
-  - `westcol-samulx-bicho-gigante`: los textos no dicen qué animal era (el clip no lo confirma).
-  - `samulx-burger-mermelada` y `samulx-burger-espana`: no digas de quién es la marca de las hamburguesas; en `burger-espana` habla de planes, no de aperturas anunciadas.
-  - `willito-manoplas-desmayo`: no consta quién golpea.
-  - `culpa-tato-diesel`, `cotorrisa-yordi-plancha` y `cotorrisa-vista-cansada` (en la bandeja de risas): ver sus secciones.
+  - `jhovanoty-faja-disfraz` (humor político): es el humorista contando su disfraz de Abelardo de la Espriella; De la Espriella no sale. El texto lo dice; al publicar no le añadas cargo, consignas ni opinión, y no cites «bienvenido a la patria».
+  - `jhovanoty-radar-eldorado`: no hay disfraz ni imitación; el texto lo presenta como stand-up con personajes inventados.
+  - `parenlamano-cardenal-prevost` (en la bandeja de risas desde hoy): escucha el final (30:40-30:50) antes de publicarlo; los subtítulos de ese tramo estaban desordenados.
+  - `parenlamano-papa-a-dormir`: los conductores le ponen voz a un video del Papa. Si parece que el Papa dice «no me rompan más la pelota», descártalo.
+  - `parenlamano-cardenal-prevost`, `parenlamano-papa-a-dormir` y `cotorrisa-papa-cadenero` son los tres del Papa: publícalos en días distintos. Lo mismo con los dos de DiCaprio (`cotorrisa-vinchi-dicaprio` y `cotorrisa-dicaprio-sandwich`).
+  - `cotorrisa-navajas-suizas` (recuadro de otro segmento al final) y `cotorrisa-pastor-gases` (foto de un fiel): míralos antes; si molestan, descártalos.
+  - `westcol-grefg-unico-golpe` (en la bandeja desde hoy): la pregunta «¿Llega Westcol listo para el sábado?» ya no encaja, porque hoy es sábado. Si lo publicas hoy, usa «¿Llega Westcol listo para hoy?»; después de la pelea, quita la pregunta.
+  - `ibai-westcol-activacion` y `ibai-westcol-zapatilla` (los dos en la bandeja): no los publiques el mismo día; en los dos se ve o se oye una descarga eléctrica de entrenamiento.
+  - `samulx-pesaje-lonche` y `westcol-samulx-lonche-excusas`: en días distintos.
+  - `culpa-super-alexis` y `cotorrisa-dedito-flaco`: la ficha no confirma quién cuenta la anécdota o dice el remate; no lo nombres al publicar.
+  - `culpa-ivan-piscina`: separado de `culpa-ivan-senorazo` (otro clip de Iván Marín).
 
 ## Resumen
 
-Línea **urbano** (ventana hasta el 2026-11-14). En TikTok van a la cuenta `principal` (Legión Urbana); en Instagram y YouTube, a `principal`.
+Línea **urbano** (ventana hasta hoy, 2026-11-14). En TikTok van a la cuenta `principal` (Legión Urbana). Sus envíos de Instagram y YouTube quedaron vencidos hoy.
 
 | # | Clip | Puntaje | TikTok (principal) | Instagram | YouTube |
 |---|---|---|---|---|---|
-| 1 | `2026-11-09-ibai-westcol-escalera-ranita` | 86 | en la bandeja desde 2026-11-10 19:40 (borrador) | pendiente de aprobación | pendiente de aprobación |
-| 2 | `2026-11-09-ibai-westcol-ariete-puerta` | 82 | en la bandeja desde 2026-11-10 19:40 (borrador) | pendiente de aprobación | pendiente de aprobación |
-| 3 | `2026-11-11-westcol-samulx-mosquito-ia` (nuevo) | 82 | en la bandeja desde hoy, 18:09 (borrador) | pendiente de aprobación | pendiente de aprobación |
-| 4 | `2026-11-09-ibai-westcol-cinta` | 80 | en la bandeja desde 2026-11-10 19:41 (borrador) | pendiente de aprobación | pendiente de aprobación |
-| 5 | `2026-11-10-westcol-samulx-lonche-excusas` | 80 | en la bandeja desde 2026-11-10 19:41 (borrador) | pendiente de aprobación | pendiente de aprobación |
-| 6 | `2026-11-10-samulx-burger-mermelada` | 79 | en la bandeja desde 2026-11-11 11:19 (borrador) | pendiente de aprobación | pendiente de aprobación |
-| 7 | `2026-11-10-samulx-pesaje-lonche` | 79 | en la bandeja desde 2026-11-11 11:20 (borrador) | pendiente de aprobación | pendiente de aprobación |
-| 8 | `2026-11-09-ibai-westcol-activacion` | 78 | en la bandeja desde hoy, 18:10 (borrador) | pendiente de aprobación | pendiente de aprobación |
-| 9 | `2026-11-10-samulx-burger-espana` | 78 | en la bandeja desde 2026-11-11 11:20 (borrador) | pendiente de aprobación | pendiente de aprobación |
-| 10 | `2026-11-10-samulx-chanty-no-cae` | 78 | en la bandeja desde hoy, 18:10 (borrador) | pendiente de aprobación | pendiente de aprobación |
-| 11 | `2026-11-11-westcol-samulx-bicho-gigante` (nuevo) | 78 | en la bandeja desde hoy, 18:10 (borrador) | pendiente de aprobación | pendiente de aprobación |
-| 12 | `2026-11-10-samulx-pollito-rebanaditas` | 77 | aprobado automáticamente; en cola (previsto 14-nov) | pendiente de aprobación | pendiente de aprobación |
-| 13 | `2026-11-09-ibai-westcol-zapatilla` | 76 | aprobado automáticamente; en cola (previsto 14-nov) | pendiente de aprobación | pendiente de aprobación |
-| 14 | `2026-11-10-samulx-plan-relevos` | 76 | aprobado automáticamente; en cola (previsto 14-nov) | pendiente de aprobación | pendiente de aprobación |
-| 15 | `2026-11-11-westcol-grefg-unico-golpe` (nuevo) | 74 | aprobado automáticamente; en cola (previsto 14-nov) | pendiente de aprobación | pendiente de aprobación |
-| 16 | `2026-11-10-jelty-temblando-show` | 73 | aprobado automáticamente; en cola (no cabe antes de su ventana: vencerá) | pendiente de aprobación | pendiente de aprobación |
-| 17 | `2026-11-09-ibai-westcol-burpees` | 72 | aprobado automáticamente; en cola (no cabe antes de su ventana: vencerá) | pendiente de aprobación | pendiente de aprobación |
-| 18 | `2026-11-10-samulx-pizza-con-pina` | 72 | aprobado automáticamente; en cola (no cabe antes de su ventana: vencerá) | pendiente de aprobación | pendiente de aprobación |
-| 19 | `2026-11-10-westcol-samulx-medio-pulmon` | 72 | aprobado automáticamente; en cola (no cabe antes de su ventana: vencerá) | pendiente de aprobación | pendiente de aprobación |
-| 20 | `2026-11-09-ibai-westcol-policia-colombiana` | 71 | aprobado automáticamente; en cola (no cabe antes de su ventana: vencerá) | pendiente de aprobación | pendiente de aprobación |
-| 21 | `2026-11-10-westcol-samulx-round-cuerpo` | 71 | aprobado automáticamente; en cola (no cabe antes de su ventana: vencerá) | pendiente de aprobación | pendiente de aprobación |
-| 22 | `2026-11-10-willito-manoplas-desmayo` | 69 | aprobado automáticamente; en cola (no cabe antes de su ventana: vencerá) | pendiente de aprobación | pendiente de aprobación |
+| 1 | `2026-11-09-ibai-westcol-escalera-ranita` | 86 | en la bandeja desde 2026-11-10 19:40 (borrador) | vencido | vencido |
+| 2 | `2026-11-09-ibai-westcol-ariete-puerta` | 82 | en la bandeja desde 2026-11-10 19:40 (borrador) | vencido | vencido |
+| 3 | `2026-11-11-westcol-samulx-mosquito-ia` | 82 | en la bandeja desde 2026-11-13 18:09 (borrador) | vencido | vencido |
+| 4 | `2026-11-09-ibai-westcol-cinta` | 80 | en la bandeja desde 2026-11-10 19:41 (borrador) | vencido | vencido |
+| 5 | `2026-11-10-westcol-samulx-lonche-excusas` | 80 | en la bandeja desde 2026-11-10 19:41 (borrador) | vencido | vencido |
+| 6 | `2026-11-10-samulx-burger-mermelada` | 79 | en la bandeja desde 2026-11-11 11:19 (borrador) | vencido | vencido |
+| 7 | `2026-11-10-samulx-pesaje-lonche` | 79 | en la bandeja desde 2026-11-11 11:20 (borrador) | vencido | vencido |
+| 8 | `2026-11-09-ibai-westcol-activacion` | 78 | en la bandeja desde 2026-11-13 18:10 (borrador) | vencido | vencido |
+| 9 | `2026-11-10-samulx-burger-espana` | 78 | en la bandeja desde 2026-11-11 11:20 (borrador) | vencido | vencido |
+| 10 | `2026-11-10-samulx-chanty-no-cae` | 78 | en la bandeja desde 2026-11-13 18:10 (borrador) | vencido | vencido |
+| 11 | `2026-11-11-westcol-samulx-bicho-gigante` | 78 | en la bandeja desde 2026-11-13 18:10 (borrador) | vencido | vencido |
+| 12 | `2026-11-10-samulx-pollito-rebanaditas` | 77 | en la bandeja desde hoy, 19:33 (borrador) | vencido | vencido |
+| 13 | `2026-11-09-ibai-westcol-zapatilla` | 76 | en la bandeja desde hoy, 19:34 (borrador) | vencido | vencido |
+| 14 | `2026-11-10-samulx-plan-relevos` | 76 | en la bandeja desde hoy, 19:34 (borrador) | vencido | vencido |
+| 15 | `2026-11-11-westcol-grefg-unico-golpe` | 74 | en la bandeja desde hoy, 19:35 (borrador) | vencido | vencido |
 
-Línea **risas** (ventana hasta el 2026-11-15 o el 2026-11-17). En TikTok van a la cuenta `risas` (@legion.risas); en Instagram, a la cuenta `risas` (apagada); en YouTube, a `principal`.
+Línea **risas** (ventana hasta el 2026-11-15, el 17 o el 18). En TikTok van a la cuenta `risas` (@legion.risas); en Instagram, a la cuenta `risas` (apagada); en YouTube, a `principal`.
 
 | # | Clip | Puntaje | Ventana hasta | TikTok (risas) | Instagram (risas) | YouTube |
 |---|---|---|---|---|---|---|
-| 23 | `2026-11-11-francupido-plantada-langosta` (nuevo) | 79 | 2026-11-15 | en la bandeja desde hoy, 18:08 (borrador) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
-| 24 | `2026-11-12-ballarta-champana` (nuevo) | 67 | 2026-11-15 | en la bandeja desde hoy, 18:08 (borrador) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
-| 25 | `2026-11-10-cotorrisa-yordi-tacto` | 82 | 2026-11-17 | en la bandeja desde 2026-11-10 20:35 (borrador) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
-| 26 | `2026-11-10-culpa-tato-diesel` | 80 | 2026-11-17 | en la bandeja desde 2026-11-10 20:35 (borrador) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
-| 27 | `2026-11-10-cotorrisa-yordi-plancha` | 78 | 2026-11-17 | en la bandeja desde 2026-11-10 20:35 (borrador) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
-| 28 | `2026-11-10-culpa-ivan-senorazo` | 78 | 2026-11-17 | en la bandeja desde 2026-11-10 20:36 (borrador) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
-| 29 | `2026-11-10-culpa-super-alexis` (nuevo) | 77 | 2026-11-17 | en la bandeja desde hoy, 18:09 (borrador) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
-| 30 | `2026-11-10-cotorrisa-yordi-cuenta` | 76 | 2026-11-17 | en la bandeja desde 2026-11-11 11:21 (borrador) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
-| 31 | `2026-11-10-cotorrisa-vista-cansada` | 75 | 2026-11-17 | en la bandeja desde 2026-11-11 11:22 (borrador) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
-| 32 | `2026-11-12-cotorrisa-codigo-22` (nuevo) | 74 | 2026-11-17 | en la bandeja desde hoy, 18:09 (borrador) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
-| 33 | `2026-11-12-culpa-quevedo-mentiras` (nuevo) | 72 | 2026-11-17 | aprobado automáticamente; en cola (previsto 14-nov) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
-| 34 | `2026-11-12-cotorrisa-dedito-flaco` (nuevo) | 70 | 2026-11-17 | aprobado automáticamente; en cola (previsto 14-nov) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
-| 35 | `2026-11-12-cotorrisa-harvard` (nuevo) | 70 | 2026-11-17 | aprobado automáticamente; en cola (previsto 14-nov) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
-| 36 | `2026-11-12-culpa-ivan-piscina` (nuevo) | 70 | 2026-11-17 | aprobado automáticamente; en cola (previsto 14-nov) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 16 | `2026-11-11-francupido-plantada-langosta` | 79 | 2026-11-15 | en la bandeja desde 2026-11-13 18:08 (borrador) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 17 | `2026-11-12-ballarta-champana` | 67 | 2026-11-15 | en la bandeja desde 2026-11-13 18:08 (borrador) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 18 | `2026-11-10-cotorrisa-yordi-tacto` | 82 | 2026-11-17 | en la bandeja desde 2026-11-10 20:35 (borrador) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 19 | `2026-11-10-culpa-tato-diesel` | 80 | 2026-11-17 | en la bandeja desde 2026-11-10 20:35 (borrador) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 20 | `2026-11-10-cotorrisa-yordi-plancha` | 78 | 2026-11-17 | en la bandeja desde 2026-11-10 20:35 (borrador) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 21 | `2026-11-10-culpa-ivan-senorazo` | 78 | 2026-11-17 | en la bandeja desde 2026-11-10 20:36 (borrador) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 22 | `2026-11-10-culpa-super-alexis` | 77 | 2026-11-17 | en la bandeja desde 2026-11-13 18:09 (borrador) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 23 | `2026-11-10-cotorrisa-yordi-cuenta` | 76 | 2026-11-17 | en la bandeja desde 2026-11-11 11:21 (borrador) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 24 | `2026-11-10-cotorrisa-vista-cansada` | 75 | 2026-11-17 | en la bandeja desde 2026-11-11 11:22 (borrador) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 25 | `2026-11-12-cotorrisa-codigo-22` | 74 | 2026-11-17 | en la bandeja desde 2026-11-13 18:09 (borrador) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 26 | `2026-11-12-culpa-quevedo-mentiras` | 72 | 2026-11-17 | en la bandeja desde hoy, 19:35 (borrador) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 27 | `2026-11-13-parenlamano-cardenal-prevost` (nuevo) | 72 | 2026-11-17 | en la bandeja desde hoy, 19:36 (borrador) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 28 | `2026-11-12-cotorrisa-dedito-flaco` | 70 | 2026-11-17 | en la bandeja desde hoy, 19:36 (borrador) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 29 | `2026-11-12-cotorrisa-harvard` | 70 | 2026-11-17 | en la bandeja desde hoy, 19:37 (borrador) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 30 | `2026-11-12-culpa-ivan-piscina` | 70 | 2026-11-17 | aprobado automáticamente; en cola (previsto 15-nov) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 31 | `2026-11-13-parenlamano-papa-a-dormir` (nuevo) | 70 | 2026-11-17 | aprobado automáticamente; en cola (previsto 15-nov) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 32 | `2026-11-13-jhovanoty-faja-disfraz` (nuevo) | 73 | 2026-11-18 | aprobado automáticamente; en cola (previsto 15-nov) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 33 | `2026-11-13-cotorrisa-vinchi-dicaprio` (nuevo) | 72 | 2026-11-18 | aprobado automáticamente; en cola (previsto 15-nov) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 34 | `2026-11-13-jhovanoty-radar-eldorado` (nuevo) | 72 | 2026-11-18 | aprobado automáticamente; en cola (previsto 16-nov) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 35 | `2026-11-13-cotorrisa-navajas-suizas` (nuevo) | 71 | 2026-11-18 | aprobado automáticamente; en cola (previsto 16-nov) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 36 | `2026-11-13-cotorrisa-papa-cadenero` (nuevo) | 71 | 2026-11-18 | aprobado automáticamente; en cola (previsto 16-nov) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 37 | `2026-11-13-cotorrisa-pastor-gases` (nuevo) | 70 | 2026-11-18 | aprobado automáticamente; en cola (previsto 16-nov) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 38 | `2026-11-13-cotorrisa-dicaprio-sandwich` (nuevo) | 67 | 2026-11-18 | aprobado automáticamente; en cola (previsto 17-nov) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
 
 ## 1. `2026-11-09-ibai-westcol-escalera-ranita`
 
@@ -90,33 +94,8 @@ Crédito: Ibai (youtube.com/@Ibai), “Sobreviví a un Entrenamiento Militar con
 #Westcol #Ibai #EntrenamientoMilitar #Humor #StreamFighters5
 ```
 
-### Instagram · cuenta `principal` · pendiente de aprobación
-
-```
-Solo uno podía subir la escalera… y subió Westcol “por Colombia”
-
-En el entrenamiento táctico del video de Ibai, solo uno de los dos puede subir la escalera de helicóptero. Sube Westcol (“por Colombia, papi”) e Ibai lo anima desde abajo: “Qué bien, ranita… qué espectáculo”.
-
-¿Quién lo habría hecho mejor, Westcol o Ibai?
-
-Crédito: Ibai (youtube.com/@Ibai), “Sobreviví a un Entrenamiento Militar con Westcol”. Video original (minuto 10:30): https://youtu.be/627Fvn2fEjU?t=630
-
-#Westcol #Ibai #EntrenamientoMilitar #Humor #StreamFighters5
-```
-
-### YouTube · cuenta `principal` · pendiente de aprobación
-
-**Título:** Westcol sube la escalera de helicóptero e Ibai lo anima: “qué bien, ranita”
-
-```
-En el entrenamiento táctico del video de Ibai, solo uno de los dos puede subir la escalera de helicóptero. Sube Westcol (“por Colombia, papi”) e Ibai lo anima desde abajo: “Qué bien, ranita… qué espectáculo”.
-
-Crédito: Ibai (youtube.com/@Ibai), “Sobreviví a un Entrenamiento Militar con Westcol”. Video original (minuto 10:30): https://youtu.be/627Fvn2fEjU?t=630
-
-#Westcol #Ibai #EntrenamientoMilitar #Humor #StreamFighters5
-```
-
-**Etiquetas:** Westcol, Ibai, entrenamiento militar, Ibai Westcol, humor, streamers, Stream Fighters 5
+- **Instagram** (cuenta `principal`): vencido sin enviarse. Para reabrirlo: `/publicador aprobar 2026-11-09-ibai-westcol-escalera-ranita:instagram`.
+- **YouTube** (cuenta `principal`): vencido sin enviarse. Para reabrirlo: `/publicador aprobar 2026-11-09-ibai-westcol-escalera-ranita:youtube`.
 
 ## 2. `2026-11-09-ibai-westcol-ariete-puerta`
 
@@ -137,33 +116,8 @@ Crédito: Ibai (youtube.com/@Ibai), “Sobreviví a un Entrenamiento Militar con
 #Westcol #Ibai #EntrenamientoMilitar #Humor #StreamFighters5
 ```
 
-### Instagram · cuenta `principal` · pendiente de aprobación
-
-```
-30 kilos de ariete contra una puerta que no cede: Westcol e Ibai
-
-Primera prueba del entrenamiento táctico del video de Ibai: abrir una puerta con un ariete doble de 30 kg después de 10 burpees. La puerta no cede, el instructor les pide coordinarse y al final entran.
-
-¿Cuántos golpes le habrías dado tú?
-
-Crédito: Ibai (youtube.com/@Ibai), “Sobreviví a un Entrenamiento Militar con Westcol”. Video original (minuto 4:03): https://youtu.be/627Fvn2fEjU?t=243
-
-#Westcol #Ibai #EntrenamientoMilitar #Humor #StreamFighters5
-```
-
-### YouTube · cuenta `principal` · pendiente de aprobación
-
-**Título:** Westcol e Ibai contra una puerta: ariete de 30 kg en el entrenamiento militar
-
-```
-Primera prueba del entrenamiento táctico del video de Ibai: abrir una puerta con un ariete doble de 30 kg después de 10 burpees. La puerta no cede, el instructor les pide coordinarse y al final entran.
-
-Crédito: Ibai (youtube.com/@Ibai), “Sobreviví a un Entrenamiento Militar con Westcol”. Video original (minuto 4:03): https://youtu.be/627Fvn2fEjU?t=243
-
-#Westcol #Ibai #EntrenamientoMilitar #Humor #StreamFighters5
-```
-
-**Etiquetas:** Westcol, Ibai, entrenamiento militar, ariete, Ibai Westcol, humor, Stream Fighters 5
+- **Instagram** (cuenta `principal`): vencido sin enviarse. Para reabrirlo: `/publicador aprobar 2026-11-09-ibai-westcol-ariete-puerta:instagram`.
+- **YouTube** (cuenta `principal`): vencido sin enviarse. Para reabrirlo: `/publicador aprobar 2026-11-09-ibai-westcol-ariete-puerta:youtube`.
 
 ## 3. `2026-11-11-westcol-samulx-mosquito-ia`
 
@@ -172,7 +126,7 @@ Crédito: Ibai (youtube.com/@Ibai), “Sobreviví a un Entrenamiento Militar con
 - **Video:** [clip.mp4](../clipero/clips/2026-11-11-westcol-samulx-mosquito-ia/clip.mp4) (73,9 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-11-westcol-samulx-mosquito-ia/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=lFccZHkPkJU
 - **Revisar antes de publicar:** Westcol dice en broma que el chikunguña es una «enfermedad sexual» (la IA no lo valida): los textos no lo repiten.
 
-### TikTok · cuenta `principal` (Legión Urbana) · en la bandeja desde hoy, 18:09 (borrador)
+### TikTok · cuenta `principal` (Legión Urbana) · en la bandeja desde 2026-11-13 18:09 (borrador)
 
 ```
 Le preguntaron a la IA cómo hablar con un mosquito 😂 Westcol y Samulx
@@ -184,33 +138,8 @@ Crédito: directo de Westcol y Samulx, subido por juan diego mm (“WESTCOL Y SA
 #Westcol #Samulx #StreamFighters5 #Humor #IA
 ```
 
-### Instagram · cuenta `principal` · pendiente de aprobación
-
-```
-Westcol y Samulx tienen un “chicunguña” en el set… y le piden ayuda a la IA 😂
-
-Se les mete un insecto al set en pleno directo y deciden que es un “chicunguña”. La solución: pedirle a la IA que se comunique con él. La IA les explica que el chikunguña es un virus… y que los mosquitos no se comunican así.
-
-¿Qué le habrías preguntado tú a la IA?
-
-Crédito: directo de Westcol y Samulx, subido por juan diego mm (“WESTCOL Y SAMULX SE ASUTAN PORQUE SE LE METE UN ANIMAL A ESTUDIO”). Video original (minuto 18:58): https://youtu.be/lFccZHkPkJU?t=1138
-
-#Westcol #Samulx #StreamFighters5 #Humor #IA
-```
-
-### YouTube · cuenta `principal` · pendiente de aprobación
-
-**Título:** Westcol y Samulx le piden a la IA traducir a un mosquito
-
-```
-Se les mete un insecto al set en pleno directo y Westcol y Samulx deciden que es un “chicunguña”. La solución: pedirle a la IA que se comunique con él. La IA les explica que el chikunguña es un virus… y que los mosquitos no se comunican así.
-
-Crédito: directo de Westcol y Samulx, subido por juan diego mm (“WESTCOL Y SAMULX SE ASUTAN PORQUE SE LE METE UN ANIMAL A ESTUDIO”). Video original (minuto 18:58): https://youtu.be/lFccZHkPkJU?t=1138
-
-#Westcol #Samulx #StreamFighters5 #Humor #IA
-```
-
-**Etiquetas:** Westcol, Samulx, Stream Fighters 5, inteligencia artificial, IA, mosquito, stream, humor
+- **Instagram** (cuenta `principal`): vencido sin enviarse. Para reabrirlo: `/publicador aprobar 2026-11-11-westcol-samulx-mosquito-ia:instagram`.
+- **YouTube** (cuenta `principal`): vencido sin enviarse. Para reabrirlo: `/publicador aprobar 2026-11-11-westcol-samulx-mosquito-ia:youtube`.
 
 ## 4. `2026-11-09-ibai-westcol-cinta`
 
@@ -231,33 +160,8 @@ Crédito: Ibai (youtube.com/@Ibai), “Sobreviví a un Entrenamiento Militar con
 #Westcol #Ibai #EntrenamientoMilitar #Humor #StreamFighters5
 ```
 
-### Instagram · cuenta `principal` · pendiente de aprobación
-
-```
-Westcol avisó que la cinta se le iba… y se le fue
-
-Antes del recorrido del segundo ejercicio del entrenamiento táctico de Ibai, Westcol avisa al instructor: “se me complica la cinta… es como que sale a correr sola”. Arrancan, y a los pocos segundos: “me fui, me fui”.
-
-¿Tú aguantas en una de esas cintas?
-
-Crédito: Ibai (youtube.com/@Ibai), “Sobreviví a un Entrenamiento Militar con Westcol”. Video original (minuto 6:57): https://youtu.be/627Fvn2fEjU?t=417
-
-#Westcol #Ibai #EntrenamientoMilitar #Humor #StreamFighters5
-```
-
-### YouTube · cuenta `principal` · pendiente de aprobación
-
-**Título:** Westcol contra la cinta curva en el entrenamiento militar de Ibai
-
-```
-Antes del recorrido del segundo ejercicio del entrenamiento táctico de Ibai, Westcol avisa al instructor: “se me complica la cinta… es como que sale a correr sola”. Arrancan, y a los pocos segundos: “me fui, me fui”.
-
-Crédito: Ibai (youtube.com/@Ibai), “Sobreviví a un Entrenamiento Militar con Westcol”. Video original (minuto 6:57): https://youtu.be/627Fvn2fEjU?t=417
-
-#Westcol #Ibai #EntrenamientoMilitar #Humor #StreamFighters5
-```
-
-**Etiquetas:** Westcol, Ibai, entrenamiento militar, cinta de correr, Ibai Westcol, humor, Stream Fighters 5
+- **Instagram** (cuenta `principal`): vencido sin enviarse. Para reabrirlo: `/publicador aprobar 2026-11-09-ibai-westcol-cinta:instagram`.
+- **YouTube** (cuenta `principal`): vencido sin enviarse. Para reabrirlo: `/publicador aprobar 2026-11-09-ibai-westcol-cinta:youtube`.
 
 ## 5. `2026-11-10-westcol-samulx-lonche-excusas`
 
@@ -278,33 +182,8 @@ Crédito: directo de Westcol, subido por juan diego mm (“WESTCOL PARCHAND0 CON
 #Lonche #Westcol #Samulx #StreamFighters5 #Streamers
 ```
 
-### Instagram · cuenta `principal` · pendiente de aprobación
-
-```
-Lonche ya está poniendo excusas para Stream Fighters, según Westcol y Samulx
-
-A días de Stream Fighters 5, en el directo de Westcol: “Yo ayer vi a Lonche ya poniendo excusas desde ahora… ‘no esperen que yo sea Mike Tyson’”. Y de ahí, la burla entre amigos: “el que más gana y menos trabaja”.
-
-¿Lonche entrena o no entrena?
-
-Crédito: directo de Westcol, subido por juan diego mm (“WESTCOL PARCHAND0 CON SAMULX Y HACEN UN ROUND EN VIVO”). Video original (minuto 2:54): https://youtu.be/WAfZNmp2n8I?t=174
-
-#Lonche #Westcol #Samulx #StreamFighters5 #Streamers
-```
-
-### YouTube · cuenta `principal` · pendiente de aprobación
-
-**Título:** Westcol y Samulx se burlan de las excusas de Lonche antes de Stream Fighters 5
-
-```
-A días de Stream Fighters 5, en el directo de Westcol: “Yo ayer vi a Lonche ya poniendo excusas desde ahora… ‘no esperen que yo sea Mike Tyson’”. Y de ahí, la burla entre amigos: “el que más gana y menos trabaja”.
-
-Crédito: directo de Westcol, subido por juan diego mm (“WESTCOL PARCHAND0 CON SAMULX Y HACEN UN ROUND EN VIVO”). Video original (minuto 2:54): https://youtu.be/WAfZNmp2n8I?t=174
-
-#Lonche #Westcol #Samulx #StreamFighters5 #Streamers
-```
-
-**Etiquetas:** Westcol, Samulx, Lonche, Stream Fighters 5, streamers, boxeo, Westcol directo
+- **Instagram** (cuenta `principal`): vencido sin enviarse. Para reabrirlo: `/publicador aprobar 2026-11-10-westcol-samulx-lonche-excusas:instagram`.
+- **YouTube** (cuenta `principal`): vencido sin enviarse. Para reabrirlo: `/publicador aprobar 2026-11-10-westcol-samulx-lonche-excusas:youtube`.
 
 ## 6. `2026-11-10-samulx-burger-mermelada`
 
@@ -325,33 +204,8 @@ Crédito: Samulx (youtube.com/@Samulx), “PROBANDO TODAS LAS HAMBURGUESAS DE WE
 #Samulx #Westcol #Hamburguesa #Medellin #Mermelada
 ```
 
-### Instagram · cuenta `principal` · pendiente de aprobación
-
-```
-“Casi me da algo”: Samulx probó la hamburguesa de mermelada
-
-En el set de Westcol, Samulx prueba las hamburguesas una por una. Westcol insiste con la de mermelada: “pruébela, dele la oportunidad”. La cara lo dice todo: “no me gusta eso… casi casi me da algo”.
-
-¿Mermelada en una hamburguesa: sí o no?
-
-Crédito: Samulx (youtube.com/@Samulx), “PROBANDO TODAS LAS HAMBURGUESAS DE WESTCOL ¿LAS MEJORES?”. Video original (minuto 4:58): https://youtu.be/LkY43nX5guU?t=298
-
-#Samulx #Westcol #Hamburguesa #Medellin #Mermelada
-```
-
-### YouTube · cuenta `principal` · pendiente de aprobación
-
-**Título:** Samulx prueba la hamburguesa de mermelada en el set de Westcol: “casi me da algo”
-
-```
-En el set de Westcol, Samulx prueba las hamburguesas una por una. Westcol insiste con la de mermelada: “pruébela, dele la oportunidad”. La cara lo dice todo: “no me gusta eso… casi casi me da algo”.
-
-Crédito: Samulx (youtube.com/@Samulx), “PROBANDO TODAS LAS HAMBURGUESAS DE WESTCOL ¿LAS MEJORES?”. Video original (minuto 4:58): https://youtu.be/LkY43nX5guU?t=298
-
-#Samulx #Westcol #Hamburguesa #Medellin #Mermelada
-```
-
-**Etiquetas:** Samulx, Westcol, hamburguesa, mermelada, Medellín, probando hamburguesas, Fuego Burger
+- **Instagram** (cuenta `principal`): vencido sin enviarse. Para reabrirlo: `/publicador aprobar 2026-11-10-samulx-burger-mermelada:instagram`.
+- **YouTube** (cuenta `principal`): vencido sin enviarse. Para reabrirlo: `/publicador aprobar 2026-11-10-samulx-burger-mermelada:youtube`.
 
 ## 7. `2026-11-10-samulx-pesaje-lonche`
 
@@ -372,33 +226,8 @@ Crédito: directo de Westcol, subido por juan diego mm (“WESTCOL PARCHAND0 CON
 #Samulx #Lonche #StreamFighters5 #Westcol #Boxeo
 ```
 
-### Instagram · cuenta `principal` · pendiente de aprobación
-
-```
-“Empieza tú conmigo… y que no entre más nadie”: el reto de Samulx a Lonche
-
-En el directo con Westcol, a días de Stream Fighters 5, Samulx avisa lo que hará en el pesaje del viernes: retar a Lonche a empezar el combate entre los dos, “y que no entre más nadie, hasta que caiga uno”.
-
-¿Lonche acepta el reto?
-
-Crédito: directo de Westcol, subido por juan diego mm (“WESTCOL PARCHAND0 CON SAMULX Y HACEN UN ROUND EN VIVO”). Video original (minuto 10:29): https://youtu.be/WAfZNmp2n8I?t=629
-
-#Samulx #Lonche #StreamFighters5 #Westcol #Boxeo
-```
-
-### YouTube · cuenta `principal` · pendiente de aprobación
-
-**Título:** Samulx reta a Lonche a empezar el combate de Stream Fighters 5
-
-```
-En el directo con Westcol, a días de Stream Fighters 5, Samulx avisa lo que hará en el pesaje del viernes: retar a Lonche a empezar el combate entre los dos, “y que no entre más nadie, hasta que caiga uno”.
-
-Crédito: directo de Westcol, subido por juan diego mm (“WESTCOL PARCHAND0 CON SAMULX Y HACEN UN ROUND EN VIVO”). Video original (minuto 10:29): https://youtu.be/WAfZNmp2n8I?t=629
-
-#Samulx #Lonche #StreamFighters5 #Westcol #Boxeo
-```
-
-**Etiquetas:** Samulx, Lonche, Stream Fighters 5, Westcol, boxeo, pesaje, The Chanty
+- **Instagram** (cuenta `principal`): vencido sin enviarse. Para reabrirlo: `/publicador aprobar 2026-11-10-samulx-pesaje-lonche:instagram`.
+- **YouTube** (cuenta `principal`): vencido sin enviarse. Para reabrirlo: `/publicador aprobar 2026-11-10-samulx-pesaje-lonche:youtube`.
 
 ## 8. `2026-11-09-ibai-westcol-activacion`
 
@@ -407,7 +236,7 @@ Crédito: directo de Westcol, subido por juan diego mm (“WESTCOL PARCHAND0 CON
 - **Video:** [clip.mp4](../clipero/clips/2026-11-09-ibai-westcol-activacion/clip.mp4) (23,5 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-09-ibai-westcol-activacion/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=627Fvn2fEjU
 - **Revisar antes de publicar:** VER ANTES DE PUBLICAR: la “activación” es una descarga eléctrica de entrenamiento (consentida, nadie sale herido); comprobar que la plataforma no lo lea como acto peligroso. No afirmar quién de los dos recibe la descarga. No publicarlo el mismo día que ibai-westcol-zapatilla en la misma plataforma.
 
-### TikTok · cuenta `principal` (Legión Urbana) · en la bandeja desde hoy, 18:10 (borrador)
+### TikTok · cuenta `principal` (Legión Urbana) · en la bandeja desde 2026-11-13 18:10 (borrador)
 
 ```
 “¿Queréis activación?”: lo que pasó antes de la misión final de Ibai y Westcol
@@ -419,33 +248,8 @@ Crédito: Ibai (youtube.com/@Ibai), “Sobreviví a un Entrenamiento Militar con
 #Westcol #Ibai #EntrenamientoMilitar #Humor #StreamFighters5
 ```
 
-### Instagram · cuenta `principal` · pendiente de aprobación
-
-```
-Pidieron entrar en situación antes de la misión final… y llegó la activación
-
-Antes de la misión final del entrenamiento táctico de Ibai, los dos dicen que se notan tensos y piden “entrar en situación”. El instructor: “si entras empanado, estás muerto… ¿queréis activación?”. Lo que viene después se oye.
-
-¿Tú habrías pedido la activación?
-
-Crédito: Ibai (youtube.com/@Ibai), “Sobreviví a un Entrenamiento Militar con Westcol”. Video original (minuto 14:54): https://youtu.be/627Fvn2fEjU?t=894
-
-#Westcol #Ibai #EntrenamientoMilitar #Humor #StreamFighters5
-```
-
-### YouTube · cuenta `principal` · pendiente de aprobación
-
-**Título:** Westcol e Ibai: la “activación” antes de la misión final del entrenamiento
-
-```
-Antes de la misión final del entrenamiento táctico de Ibai, los dos dicen que se notan tensos y piden “entrar en situación”. El instructor: “si entras empanado, estás muerto… ¿queréis activación?”. Lo que viene después se oye.
-
-Crédito: Ibai (youtube.com/@Ibai), “Sobreviví a un Entrenamiento Militar con Westcol”. Video original (minuto 14:54): https://youtu.be/627Fvn2fEjU?t=894
-
-#Westcol #Ibai #EntrenamientoMilitar #Humor #StreamFighters5
-```
-
-**Etiquetas:** Westcol, Ibai, entrenamiento militar, activación, Ibai Westcol, humor, Stream Fighters 5
+- **Instagram** (cuenta `principal`): vencido sin enviarse. Para reabrirlo: `/publicador aprobar 2026-11-09-ibai-westcol-activacion:instagram`.
+- **YouTube** (cuenta `principal`): vencido sin enviarse. Para reabrirlo: `/publicador aprobar 2026-11-09-ibai-westcol-activacion:youtube`.
 
 ## 9. `2026-11-10-samulx-burger-espana`
 
@@ -466,33 +270,8 @@ Crédito: Samulx (youtube.com/@Samulx), “PROBANDO TODAS LAS HAMBURGUESAS DE WE
 #Westcol #Samulx #Emprendimiento #Negocios #Medellin
 ```
 
-### Instagram · cuenta `principal` · pendiente de aprobación
-
-```
-“¿De qué sirve abrir Fuego Burger en España y que sepa a hamburguesa española?”
-
-Samulx no había podido probarlas y pregunta lo obvio: ¿local internacional? La respuesta de Westcol: “no podemos abrir en otros países hasta que no tengamos allá la cocina, la receta, los chefs… tiene que saber como si se la estuvieran comiendo aquí en Medellín”.
-
-¿Dónde debería abrir primero fuera de Colombia?
-
-Crédito: Samulx (youtube.com/@Samulx), “PROBANDO TODAS LAS HAMBURGUESAS DE WESTCOL ¿LAS MEJORES?”. Video original (minuto 3:31): https://youtu.be/LkY43nX5guU?t=211
-
-#Westcol #Samulx #Emprendimiento #Negocios #Medellin
-```
-
-### YouTube · cuenta `principal` · pendiente de aprobación
-
-**Título:** Westcol, sobre llevar Fuego Burger a otros países: “el proceso demora”
-
-```
-Samulx no había podido probarlas y pregunta lo obvio: ¿local internacional? La respuesta de Westcol: “no podemos abrir en otros países hasta que no tengamos allá la cocina, la receta, los chefs… tiene que saber como si se la estuvieran comiendo aquí en Medellín”.
-
-Crédito: Samulx (youtube.com/@Samulx), “PROBANDO TODAS LAS HAMBURGUESAS DE WESTCOL ¿LAS MEJORES?”. Video original (minuto 3:31): https://youtu.be/LkY43nX5guU?t=211
-
-#Westcol #Samulx #Emprendimiento #Negocios #Medellin
-```
-
-**Etiquetas:** Westcol, Samulx, Fuego Burger, emprendimiento, negocios, Medellín, hamburguesas
+- **Instagram** (cuenta `principal`): vencido sin enviarse. Para reabrirlo: `/publicador aprobar 2026-11-10-samulx-burger-espana:instagram`.
+- **YouTube** (cuenta `principal`): vencido sin enviarse. Para reabrirlo: `/publicador aprobar 2026-11-10-samulx-burger-espana:youtube`.
 
 ## 10. `2026-11-10-samulx-chanty-no-cae`
 
@@ -500,7 +279,7 @@ Crédito: Samulx (youtube.com/@Samulx), “PROBANDO TODAS LAS HAMBURGUESAS DE WE
 - **Puntaje:** 78 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-14 · **Línea:** urbano · **Pieza:** original (sin variantes)
 - **Video:** [clip.mp4](../clipero/clips/2026-11-10-samulx-chanty-no-cae/clip.mp4) (52,9 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-10-samulx-chanty-no-cae/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=WAfZNmp2n8I
 
-### TikTok · cuenta `principal` (Legión Urbana) · en la bandeja desde hoy, 18:10 (borrador)
+### TikTok · cuenta `principal` (Legión Urbana) · en la bandeja desde 2026-11-13 18:10 (borrador)
 
 ```
 “Ninguno de los cuatro va a terminar la pelea”: Samulx y la altura de Bogotá
@@ -512,33 +291,8 @@ Crédito: directo de Westcol, subido por juan diego mm (“WESTCOL PARCHAND0 CON
 #StreamFighters5 #Samulx #TheChanty #Westcol #Lonche
 ```
 
-### Instagram · cuenta `principal` · pendiente de aprobación
-
-```
-Samulx dice que nadie aguanta la pelea; Westcol apuesta por The Chanty
-
-Samulx llega de Miami, a nivel del mar, y lo tiene claro: en la altura de Bogotá ninguno de los cuatro (Lonche, Willito, The Chanty y él) termina la pelea. Westcol no está de acuerdo: “si caen, caen ustedes, pero Chanty no va a caer”.
-
-¿Quién termina la pelea: Lonche, Willito, Chanty o Samulx?
-
-Crédito: directo de Westcol, subido por juan diego mm (“WESTCOL PARCHAND0 CON SAMULX Y HACEN UN ROUND EN VIVO”). Video original (minuto 6:58): https://youtu.be/WAfZNmp2n8I?t=418
-
-#StreamFighters5 #Samulx #TheChanty #Westcol #Lonche
-```
-
-### YouTube · cuenta `principal` · pendiente de aprobación
-
-**Título:** ¿Quién termina la pelea en Bogotá? Samulx y Westcol no se ponen de acuerdo
-
-```
-Samulx llega de Miami, a nivel del mar, y lo tiene claro: en la altura de Bogotá ninguno de los cuatro (Lonche, Willito, The Chanty y él) termina la pelea. Westcol no está de acuerdo: “si caen, caen ustedes, pero Chanty no va a caer”.
-
-Crédito: directo de Westcol, subido por juan diego mm (“WESTCOL PARCHAND0 CON SAMULX Y HACEN UN ROUND EN VIVO”). Video original (minuto 6:58): https://youtu.be/WAfZNmp2n8I?t=418
-
-#StreamFighters5 #Samulx #TheChanty #Westcol #Lonche
-```
-
-**Etiquetas:** Stream Fighters 5, Samulx, The Chanty, Westcol, Lonche, Willito, Bogotá
+- **Instagram** (cuenta `principal`): vencido sin enviarse. Para reabrirlo: `/publicador aprobar 2026-11-10-samulx-chanty-no-cae:instagram`.
+- **YouTube** (cuenta `principal`): vencido sin enviarse. Para reabrirlo: `/publicador aprobar 2026-11-10-samulx-chanty-no-cae:youtube`.
 
 ## 11. `2026-11-11-westcol-samulx-bicho-gigante`
 
@@ -547,7 +301,7 @@ Crédito: directo de Westcol, subido por juan diego mm (“WESTCOL PARCHAND0 CON
 - **Video:** [clip.mp4](../clipero/clips/2026-11-11-westcol-samulx-bicho-gigante/clip.mp4) (39,7 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-11-westcol-samulx-bicho-gigante/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=lFccZHkPkJU
 - **Revisar antes de publicar:** Los textos no afirman qué animal era: la ficha sugería «libélula», que el clip no confirma.
 
-### TikTok · cuenta `principal` (Legión Urbana) · en la bandeja desde hoy, 18:10 (borrador)
+### TikTok · cuenta `principal` (Legión Urbana) · en la bandeja desde 2026-11-13 18:10 (borrador)
 
 ```
 Se les mete un bicho GIGANTE en pleno directo 😱 Westcol y Samulx
@@ -561,33 +315,8 @@ Crédito: directo de Westcol y Samulx, subido por juan diego mm (“WESTCOL Y SA
 #Westcol #Samulx #StreamFighters5 #Stream #Humor
 ```
 
-### Instagram · cuenta `principal` · pendiente de aprobación
-
-```
-“Sami, yo con eso no juego”: el bicho que paró el stream de Westcol 😱
-
-Westcol está hablando de su equipo cuando algo enorme vuela por el set. “¿Sabes qué es ese animal? Está en peligro de extinción”. Y para él, es un “chicunguña”.
-
-¿Qué crees que era?
-
-Crédito: directo de Westcol y Samulx, subido por juan diego mm (“WESTCOL Y SAMULX SE ASUTAN PORQUE SE LE METE UN ANIMAL A ESTUDIO”). Video original (minuto 9:33): https://youtu.be/lFccZHkPkJU?t=573
-
-#Westcol #Samulx #StreamFighters5 #Stream #Humor
-```
-
-### YouTube · cuenta `principal` · pendiente de aprobación
-
-**Título:** Westcol y Samulx vs. un bicho gigante en el set
-
-```
-Westcol está hablando de su equipo cuando algo enorme vuela por el set. “¿Sabes qué es ese animal? Está en peligro de extinción”. Y para él, es un “chicunguña”.
-
-Crédito: directo de Westcol y Samulx, subido por juan diego mm (“WESTCOL Y SAMULX SE ASUTAN PORQUE SE LE METE UN ANIMAL A ESTUDIO”). Video original (minuto 9:33): https://youtu.be/lFccZHkPkJU?t=573
-
-#Westcol #Samulx #StreamFighters5 #Humor
-```
-
-**Etiquetas:** Westcol, Samulx, Stream Fighters 5, bicho gigante, stream, reacción, humor
+- **Instagram** (cuenta `principal`): vencido sin enviarse. Para reabrirlo: `/publicador aprobar 2026-11-11-westcol-samulx-bicho-gigante:instagram`.
+- **YouTube** (cuenta `principal`): vencido sin enviarse. Para reabrirlo: `/publicador aprobar 2026-11-11-westcol-samulx-bicho-gigante:youtube`.
 
 ## 12. `2026-11-10-samulx-pollito-rebanaditas`
 
@@ -595,7 +324,7 @@ Crédito: directo de Westcol y Samulx, subido por juan diego mm (“WESTCOL Y SA
 - **Puntaje:** 77 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-14 · **Línea:** urbano · **Pieza:** original (sin variantes)
 - **Video:** [clip.mp4](../clipero/clips/2026-11-10-samulx-pollito-rebanaditas/clip.mp4) (39,4 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-10-samulx-pollito-rebanaditas/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=LkY43nX5guU
 
-### TikTok · cuenta `principal` (Legión Urbana) · aprobado automáticamente; en cola (previsto 14-nov)
+### TikTok · cuenta `principal` (Legión Urbana) · en la bandeja desde hoy, 19:33 (borrador)
 
 ```
 “Si quiero mi pollito en rebanaditas, me lo como en rebanaditas”: Samulx contra Westcol
@@ -607,33 +336,8 @@ Crédito: Samulx (youtube.com/@Samulx), “PROBANDO TODAS LAS HAMBURGUESAS DE WE
 #Samulx #Westcol #Humor #Comida #Medellin
 ```
 
-### Instagram · cuenta `principal` · pendiente de aprobación
-
-```
-Westcol se burla de cómo come Samulx y Samulx no se deja
-
-Samulx: “¿por qué me lo dieron así? A mí me lo pican”. Westcol: “al bebé, hay que picar el pollito”. Y Samulx, firme: “si yo quiero mi pollito en rebanaditas, me lo como en rebanaditas… yo tengo mis preferencias”.
-
-¿Equipo pollito picado o equipo muslo entero?
-
-Crédito: Samulx (youtube.com/@Samulx), “PROBANDO TODAS LAS HAMBURGUESAS DE WESTCOL ¿LAS MEJORES?”. Video original (minuto 9:08): https://youtu.be/LkY43nX5guU?t=548
-
-#Samulx #Westcol #Humor #Comida #Medellin
-```
-
-### YouTube · cuenta `principal` · pendiente de aprobación
-
-**Título:** Samulx defiende su pollito picado frente a Westcol
-
-```
-Samulx: “¿por qué me lo dieron así? A mí me lo pican”. Westcol: “al bebé, hay que picar el pollito”. Y Samulx, firme: “si yo quiero mi pollito en rebanaditas, me lo como en rebanaditas… yo tengo mis preferencias”.
-
-Crédito: Samulx (youtube.com/@Samulx), “PROBANDO TODAS LAS HAMBURGUESAS DE WESTCOL ¿LAS MEJORES?”. Video original (minuto 9:08): https://youtu.be/LkY43nX5guU?t=548
-
-#Samulx #Westcol #Humor #Comida #Medellin
-```
-
-**Etiquetas:** Samulx, Westcol, humor, comida, Medellín, pollito, probando hamburguesas
+- **Instagram** (cuenta `principal`): vencido sin enviarse. Para reabrirlo: `/publicador aprobar 2026-11-10-samulx-pollito-rebanaditas:instagram`.
+- **YouTube** (cuenta `principal`): vencido sin enviarse. Para reabrirlo: `/publicador aprobar 2026-11-10-samulx-pollito-rebanaditas:youtube`.
 
 ## 13. `2026-11-09-ibai-westcol-zapatilla`
 
@@ -642,7 +346,7 @@ Crédito: Samulx (youtube.com/@Samulx), “PROBANDO TODAS LAS HAMBURGUESAS DE WE
 - **Video:** [clip.mp4](../clipero/clips/2026-11-09-ibai-westcol-zapatilla/clip.mp4) (29,3 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-09-ibai-westcol-zapatilla/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=627Fvn2fEjU
 - **Revisar antes de publicar:** VER ANTES DE PUBLICAR: al final se ve la “activación” (descarga eléctrica de entrenamiento, consentida) y llevan pistolas simuladas naranjas, sin apuntar a nadie. La zapatilla es de Ibai. No publicarlo el mismo día que ibai-westcol-activacion en la misma plataforma.
 
-### TikTok · cuenta `principal` (Legión Urbana) · aprobado automáticamente; en cola (previsto 14-nov)
+### TikTok · cuenta `principal` (Legión Urbana) · en la bandeja desde hoy, 19:34 (borrador)
 
 ```
 A Ibai se le sale la zapatilla en plena misión… y Westcol paga
@@ -654,33 +358,8 @@ Crédito: Ibai (youtube.com/@Ibai), “Sobreviví a un Entrenamiento Militar con
 #Westcol #Ibai #EntrenamientoMilitar #Humor #StreamFighters5
 ```
 
-### Instagram · cuenta `principal` · pendiente de aprobación
-
-```
-“Se me ha salido la zapatilla”: la entrada que salió mal (y la pagó Westcol)
-
-Misión final del entrenamiento táctico de Ibai: entran al piso y a los pocos segundos Ibai para todo. “Se me ha salido la zapatilla. Eso para empezar. Segundo, la puerta no va.” Perdones en cadena, el instructor manda “otra vez activación” y Westcol: “me llegan a electrocutar otra vez… por su culpa”.
-
-¿Culpa de Ibai o de la puerta?
-
-Crédito: Ibai (youtube.com/@Ibai), “Sobreviví a un Entrenamiento Militar con Westcol”. Video original (minuto 15:55): https://youtu.be/627Fvn2fEjU?t=955
-
-#Westcol #Ibai #EntrenamientoMilitar #Humor #StreamFighters5
-```
-
-### YouTube · cuenta `principal` · pendiente de aprobación
-
-**Título:** Ibai pierde la zapatilla en la misión final y Westcol recibe la activación
-
-```
-Misión final del entrenamiento táctico de Ibai: entran al piso y a los pocos segundos Ibai para todo. “Se me ha salido la zapatilla. Eso para empezar. Segundo, la puerta no va.” Perdones en cadena, el instructor manda “otra vez activación” y Westcol: “me llegan a electrocutar otra vez… por su culpa”.
-
-Crédito: Ibai (youtube.com/@Ibai), “Sobreviví a un Entrenamiento Militar con Westcol”. Video original (minuto 15:55): https://youtu.be/627Fvn2fEjU?t=955
-
-#Westcol #Ibai #EntrenamientoMilitar #Humor #StreamFighters5
-```
-
-**Etiquetas:** Westcol, Ibai, entrenamiento militar, misión final, Ibai Westcol, humor, Stream Fighters 5
+- **Instagram** (cuenta `principal`): vencido sin enviarse. Para reabrirlo: `/publicador aprobar 2026-11-09-ibai-westcol-zapatilla:instagram`.
+- **YouTube** (cuenta `principal`): vencido sin enviarse. Para reabrirlo: `/publicador aprobar 2026-11-09-ibai-westcol-zapatilla:youtube`.
 
 ## 14. `2026-11-10-samulx-plan-relevos`
 
@@ -689,7 +368,7 @@ Crédito: Ibai (youtube.com/@Ibai), “Sobreviví a un Entrenamiento Militar con
 - **Video:** [clip.mp4](../clipero/clips/2026-11-10-samulx-plan-relevos/clip.mp4) (31,5 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-10-samulx-plan-relevos/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=WAfZNmp2n8I
 - **Revisar antes de publicar:** Es el plan de Samulx, no el reglamento del evento.
 
-### TikTok · cuenta `principal` (Legión Urbana) · aprobado automáticamente; en cola (previsto 14-nov)
+### TikTok · cuenta `principal` (Legión Urbana) · en la bandeja desde hoy, 19:34 (borrador)
 
 ```
 Samulx revela su estrategia con The Chanty para Stream Fighters 5
@@ -701,33 +380,8 @@ Crédito: directo de Westcol, subido por juan diego mm (“WESTCOL PARCHAND0 CON
 #StreamFighters5 #Samulx #TheChanty #Lonche #Willito
 ```
 
-### Instagram · cuenta `principal` · pendiente de aprobación
-
-```
-“Chanty, dame un minuto, me recargo”: el plan de Samulx contra Lonche y Willito
-
-Por lo que cuentan, el combate es por equipos con relevos: Samulx y The Chanty contra Lonche y Willito. Samulx explica cómo piensa usar la resistencia de su compañero (“dame un minuto, me recargo, métete ahí”) y contra quién va a empezar.
-
-¿Le funciona el plan a Samulx?
-
-Crédito: directo de Westcol, subido por juan diego mm (“WESTCOL PARCHAND0 CON SAMULX Y HACEN UN ROUND EN VIVO”). Video original (minuto 9:21): https://youtu.be/WAfZNmp2n8I?t=561
-
-#StreamFighters5 #Samulx #TheChanty #Lonche #Willito
-```
-
-### YouTube · cuenta `principal` · pendiente de aprobación
-
-**Título:** Samulx ya decidió contra quién empieza en Stream Fighters 5
-
-```
-Por lo que cuentan, el combate es por equipos con relevos: Samulx y The Chanty contra Lonche y Willito. Samulx explica cómo piensa usar la resistencia de su compañero (“dame un minuto, me recargo, métete ahí”) y contra quién va a empezar.
-
-Crédito: directo de Westcol, subido por juan diego mm (“WESTCOL PARCHAND0 CON SAMULX Y HACEN UN ROUND EN VIVO”). Video original (minuto 9:21): https://youtu.be/WAfZNmp2n8I?t=561
-
-#StreamFighters5 #Samulx #TheChanty #Lonche #Willito
-```
-
-**Etiquetas:** Stream Fighters 5, Samulx, The Chanty, Lonche, Willito, Westcol, boxeo
+- **Instagram** (cuenta `principal`): vencido sin enviarse. Para reabrirlo: `/publicador aprobar 2026-11-10-samulx-plan-relevos:instagram`.
+- **YouTube** (cuenta `principal`): vencido sin enviarse. Para reabrirlo: `/publicador aprobar 2026-11-10-samulx-plan-relevos:youtube`.
 
 ## 15. `2026-11-11-westcol-grefg-unico-golpe`
 
@@ -736,7 +390,7 @@ Crédito: directo de Westcol, subido por juan diego mm (“WESTCOL PARCHAND0 CON
 - **Video:** [clip.mp4](../clipero/clips/2026-11-11-westcol-grefg-unico-golpe/clip.mp4) (59,4 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-11-westcol-grefg-unico-golpe/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=Qyzqh4tJp0M
 - **Revisar antes de publicar:** La imagen principal es el mapa de Cuphead; Westcol solo sale en la cámara pequeña. Los textos no dicen contra quién pelea el sábado (el título sugerido de la ficha decía «a días de pelear con Blessd», que el clip no muestra).
 
-### TikTok · cuenta `principal` (Legión Urbana) · aprobado automáticamente; en cola (previsto 14-nov)
+### TikTok · cuenta `principal` (Legión Urbana) · en la bandeja desde hoy, 19:35 (borrador)
 
 ```
 Westcol revela el único golpe de Grefg que SÍ le dolió 🥊
@@ -750,371 +404,17 @@ Crédito: Samulx, co-stream de Cuphead con Westcol (“JUGANDO CUPHEAD CON WESTC
 #Westcol #Grefg #StreamFighters5 #Boxeo #LaVelada
 ```
 
-### Instagram · cuenta `principal` · pendiente de aprobación
+- **Instagram** (cuenta `principal`): vencido sin enviarse. Para reabrirlo: `/publicador aprobar 2026-11-11-westcol-grefg-unico-golpe:instagram`.
+- **YouTube** (cuenta `principal`): vencido sin enviarse. Para reabrirlo: `/publicador aprobar 2026-11-11-westcol-grefg-unico-golpe:youtube`.
 
-```
-El golpe de Grefg que Westcol todavía recuerda 🥊
-
-Jugando Cuphead con Samulx, Westcol recuerda su pelea contra TheGrefg en La Velada del Año 5: “me prendió a puño y no sentía nada”, salvo un golpe en el abdomen al empezar.
-
-¿Llega Westcol listo para el sábado?
-
-Crédito: Samulx, co-stream de Cuphead con Westcol (“JUGANDO CUPHEAD CON WESTCOL EN EL MISMO SET UP 😂 NOS VOLVEMOS LOCOS* | Samulx”). Video original (minuto 56:40): https://youtu.be/Qyzqh4tJp0M?t=3400
-
-#Westcol #Samulx #StreamFighters5 #Grefg #Boxeo
-```
-
-### YouTube · cuenta `principal` · pendiente de aprobación
-
-**Título:** Westcol: el único golpe que le dolió en su pelea con Grefg
-
-```
-Jugando Cuphead con Samulx, Westcol recuerda su pelea contra TheGrefg en La Velada del Año 5: “me prendió a puño y no sentía nada”, salvo un golpe en el abdomen al empezar.
-
-Crédito: Samulx, co-stream de Cuphead con Westcol (“JUGANDO CUPHEAD CON WESTCOL EN EL MISMO SET UP 😂 NOS VOLVEMOS LOCOS* | Samulx”). Video original (minuto 56:40): https://youtu.be/Qyzqh4tJp0M?t=3400
-
-#Westcol #Grefg #StreamFighters5 #Boxeo
-```
-
-**Etiquetas:** Westcol, TheGrefg, Samulx, Stream Fighters 5, La Velada del Año, boxeo, Cuphead
-
-## 16. `2026-11-10-jelty-temblando-show`
-
-- **Gancho:** Jelty jura que solo finge estar cansado
-- **Puntaje:** 73 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-14 · **Línea:** urbano · **Pieza:** original (sin variantes)
-- **Video:** [clip.mp4](../clipero/clips/2026-11-10-jelty-temblando-show/clip.mp4) (32,3 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-10-jelty-temblando-show/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=YwhGtvtJ1Uk
-- **Revisar antes de publicar:** Es ironía: no presentarlo como una confesión de que el directo es falso. No consta que Jelty pelee el 14.
-
-### TikTok · cuenta `principal` (Legión Urbana) · aprobado automáticamente; en cola (no cabe antes de su ventana: vencerá)
-
-```
-“Estoy temblando para que parezca que me esforcé”: Jelty después del boxeo
-
-¿Le crees a Jelty?
-
-Crédito: Willito Live (YouTube), “Willito Y Jelty Boxeando En Mochis”, edición del directo de Kick. Video original (minuto 29:39): https://youtu.be/YwhGtvtJ1Uk?t=1779
-
-#Jelty #Willito #Boxeo #Humor #Streamers
-```
-
-### Instagram · cuenta `principal` · pendiente de aprobación
-
-```
-Jelty, temblando después del boxeo: “tengo que darle show a esto”
-
-Termina la sesión de boxeo en Los Mochis y el chat lo nota: “está temblando Jelty”. Su respuesta, en broma: “obviamente estoy temblando para que parezca que me esforcé… tengo que darle show a esto… podría hacer esto tres horas más”.
-
-¿Le crees a Jelty?
-
-Crédito: Willito Live (YouTube), “Willito Y Jelty Boxeando En Mochis”, edición del directo de Kick. Video original (minuto 29:39): https://youtu.be/YwhGtvtJ1Uk?t=1779
-
-#Jelty #Willito #Boxeo #Humor #Streamers
-```
-
-### YouTube · cuenta `principal` · pendiente de aprobación
-
-**Título:** Jelty jura que podría boxear tres horas más
-
-```
-Termina la sesión de boxeo en Los Mochis y el chat lo nota: “está temblando Jelty”. Su respuesta, en broma: “obviamente estoy temblando para que parezca que me esforcé… tengo que darle show a esto… podría hacer esto tres horas más”.
-
-Crédito: Willito Live (YouTube), “Willito Y Jelty Boxeando En Mochis”, edición del directo de Kick. Video original (minuto 29:39): https://youtu.be/YwhGtvtJ1Uk?t=1779
-
-#Jelty #Willito #Boxeo #Humor #Streamers
-```
-
-**Etiquetas:** Jelty, Willito, boxeo, humor, streamers, Los Mochis, Kick
-
-## 17. `2026-11-09-ibai-westcol-burpees`
-
-- **Gancho:** 10 burpees con chaleco antes del ariete
-- **Puntaje:** 72 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-14 · **Línea:** urbano · **Pieza:** original (sin variantes)
-- **Video:** [clip.mp4](../clipero/clips/2026-11-09-ibai-westcol-burpees/clip.mp4) (47,4 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-09-ibai-westcol-burpees/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=627Fvn2fEjU
-- **Revisar antes de publicar:** El “pequeño tutorial” lo pide Ibai: no atribuírselo a Westcol. Es un entrenamiento militar, no la preparación de su pelea.
-
-### TikTok · cuenta `principal` (Legión Urbana) · aprobado automáticamente; en cola (no cabe antes de su ventana: vencerá)
-
-```
-10 burpees con chaleco táctico: Ibai y Westcol los cuentan uno a uno
-
-¿Cuántos haces tú con chaleco?
-
-Crédito: Ibai (youtube.com/@Ibai), “Sobreviví a un Entrenamiento Militar con Westcol”. Video original (minuto 3:05): https://youtu.be/627Fvn2fEjU?t=185
-
-#Westcol #Ibai #EntrenamientoMilitar #Burpees #StreamFighters5
-```
-
-### Instagram · cuenta `principal` · pendiente de aprobación
-
-```
-Antes del ariete, 10 burpees con chaleco. Así llegaron
-
-Primer ejercicio del entrenamiento táctico del video de Ibai: antes del ariete, el instructor les sube las pulsaciones con 10 burpees con chaleco y casco. Ibai pide un “pequeño tutorial”, cuentan como pueden y al octavo: “imaginaros lo que tienen que hacer los realmente especialistas”.
-
-¿Cuántos haces tú con chaleco?
-
-Crédito: Ibai (youtube.com/@Ibai), “Sobreviví a un Entrenamiento Militar con Westcol”. Video original (minuto 3:05): https://youtu.be/627Fvn2fEjU?t=185
-
-#Westcol #Ibai #EntrenamientoMilitar #Burpees #StreamFighters5
-```
-
-### YouTube · cuenta `principal` · pendiente de aprobación
-
-**Título:** Ibai y Westcol, 10 burpees con chaleco antes del ariete
-
-```
-Primer ejercicio del entrenamiento táctico del video de Ibai: antes del ariete, el instructor les sube las pulsaciones con 10 burpees con chaleco y casco. Ibai pide un “pequeño tutorial”, cuentan como pueden y al octavo: “imaginaros lo que tienen que hacer los realmente especialistas”.
-
-Crédito: Ibai (youtube.com/@Ibai), “Sobreviví a un Entrenamiento Militar con Westcol”. Video original (minuto 3:05): https://youtu.be/627Fvn2fEjU?t=185
-
-#Westcol #Ibai #EntrenamientoMilitar #Burpees #StreamFighters5
-```
-
-**Etiquetas:** Westcol, Ibai, entrenamiento militar, burpees, chaleco táctico, Ibai Westcol, Stream Fighters 5
-
-## 18. `2026-11-10-samulx-pizza-con-pina`
-
-- **Gancho:** ¿Pizza con piña? Aquí no hay acuerdo
-- **Puntaje:** 72 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-14 · **Línea:** urbano · **Pieza:** original (sin variantes)
-- **Video:** [clip.mp4](../clipero/clips/2026-11-10-samulx-pizza-con-pina/clip.mp4) (37,7 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-10-samulx-pizza-con-pina/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=LkY43nX5guU
-- **Revisar antes de publicar:** No poner en el gancho quién dice cada frase.
-
-### TikTok · cuenta `principal` (Legión Urbana) · aprobado automáticamente; en cola (no cabe antes de su ventana: vencerá)
-
-```
-Pizza con piña: Westcol y Samulx no se ponen de acuerdo
-
-¿Pizza con piña: sí o no?
-
-Crédito: Samulx (youtube.com/@Samulx), “PROBANDO TODAS LAS HAMBURGUESAS DE WESTCOL ¿LAS MEJORES?”. Video original (minuto 6:22): https://youtu.be/LkY43nX5guU?t=382
-
-#Westcol #Samulx #PizzaConPiña #Comida #Debate
-```
-
-### Instagram · cuenta `principal` · pendiente de aprobación
-
-```
-“Todo en la vida es acostumbrar al paladar”: Westcol y Samulx, por la pizza con piña
-
-Después de la hamburguesa de mermelada, la discusión sube de nivel: pizza con piña. “Imposible.” “Todo en la vida es acostumbrar al paladar.”
-
-¿Pizza con piña: sí o no?
-
-Crédito: Samulx (youtube.com/@Samulx), “PROBANDO TODAS LAS HAMBURGUESAS DE WESTCOL ¿LAS MEJORES?”. Video original (minuto 6:22): https://youtu.be/LkY43nX5guU?t=382
-
-#Westcol #Samulx #PizzaConPiña #Comida #Debate
-```
-
-### YouTube · cuenta `principal` · pendiente de aprobación
-
-**Título:** Westcol y Samulx discuten por la pizza con piña
-
-```
-Después de la hamburguesa de mermelada, la discusión sube de nivel: pizza con piña. “Imposible.” “Todo en la vida es acostumbrar al paladar.” ¿De qué lado estás?
-
-Crédito: Samulx (youtube.com/@Samulx), “PROBANDO TODAS LAS HAMBURGUESAS DE WESTCOL ¿LAS MEJORES?”. Video original (minuto 6:22): https://youtu.be/LkY43nX5guU?t=382
-
-#Westcol #Samulx #PizzaConPiña #Comida #Debate
-```
-
-**Etiquetas:** Westcol, Samulx, pizza con piña, comida, debate, Medellín, probando hamburguesas
-
-## 19. `2026-11-10-westcol-samulx-medio-pulmon`
-
-- **Gancho:** Westcol avisa a Samulx: en Bogotá, medio pulmón
-- **Puntaje:** 72 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-14 · **Línea:** urbano · **Pieza:** original (sin variantes)
-- **Video:** [clip.mp4](../clipero/clips/2026-11-10-westcol-samulx-medio-pulmon/clip.mp4) (36,1 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-10-westcol-samulx-medio-pulmon/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=WAfZNmp2n8I
-- **Revisar antes de publicar:** “Medio pulmón” es una forma de hablar, no un dato médico.
-
-### TikTok · cuenta `principal` (Legión Urbana) · aprobado automáticamente; en cola (no cabe antes de su ventana: vencerá)
-
-```
-Westcol a Samulx, sobre la altura de Bogotá: “cuando usted sale de entrada, ya tiene medio pulmón”
-
-¿La altura de Bogotá decide la pelea?
-
-Crédito: directo de Westcol, subido por juan diego mm (“WESTCOL PARCHAND0 CON SAMULX Y HACEN UN ROUND EN VIVO”). Video original (minuto 8:45): https://youtu.be/WAfZNmp2n8I?t=525
-
-#StreamFighters5 #Samulx #Westcol #Bogota #Boxeo
-```
-
-### Instagram · cuenta `principal` · pendiente de aprobación
-
-```
-“La pelea es 100% diferente a un sparring”: el aviso de Westcol a Samulx
-
-Samulx llega de Miami a pelear en la altura de Bogotá y Westcol se lo advierte: “cuando usted sale de entrada, ya tiene medio pulmón… es en un estadio, es la realidad”. La respuesta: “yo no voy a perder”.
-
-¿La altura de Bogotá decide la pelea?
-
-Crédito: directo de Westcol, subido por juan diego mm (“WESTCOL PARCHAND0 CON SAMULX Y HACEN UN ROUND EN VIVO”). Video original (minuto 8:45): https://youtu.be/WAfZNmp2n8I?t=525
-
-#StreamFighters5 #Samulx #Westcol #Bogota #Boxeo
-```
-
-### YouTube · cuenta `principal` · pendiente de aprobación
-
-**Título:** Samulx, a días de Stream Fighters 5: “Yo no voy a perder”
-
-```
-Samulx llega de Miami a pelear en la altura de Bogotá y Westcol se lo advierte: “cuando usted sale de entrada, ya tiene medio pulmón… es en un estadio, es la realidad”. La respuesta: “yo no voy a perder”.
-
-Crédito: directo de Westcol, subido por juan diego mm (“WESTCOL PARCHAND0 CON SAMULX Y HACEN UN ROUND EN VIVO”). Video original (minuto 8:45): https://youtu.be/WAfZNmp2n8I?t=525
-
-#StreamFighters5 #Samulx #Westcol #Bogota #Boxeo
-```
-
-**Etiquetas:** Stream Fighters 5, Samulx, Westcol, Bogotá, boxeo, altura, sparring
-
-## 20. `2026-11-09-ibai-westcol-policia-colombiana`
-
-- **Gancho:** Westcol: la policía colombiana lo volvió a hacer
-- **Puntaje:** 71 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-14 · **Línea:** urbano · **Pieza:** original (sin variantes)
-- **Video:** [clip.mp4](../clipero/clips/2026-11-09-ibai-westcol-policia-colombiana/clip.mp4) (30,4 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-09-ibai-westcol-policia-colombiana/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=627Fvn2fEjU
-- **Revisar antes de publicar:** Es una broma dentro de un simulacro: no presentarlo como algo real ni como crítica a la policía española.
-
-### TikTok · cuenta `principal` (Legión Urbana) · aprobado automáticamente; en cola (no cabe antes de su ventana: vencerá)
-
-```
-“La policía colombiana lo volvió a hacer”: Westcol, en broma, después de la misión con Ibai
-
-¿Westcol policía: sí o no?
-
-Crédito: Ibai (youtube.com/@Ibai), “Sobreviví a un Entrenamiento Militar con Westcol”. Video original (minuto 20:07): https://youtu.be/627Fvn2fEjU?t=1207
-
-#Westcol #Ibai #EntrenamientoMilitar #Colombia #Humor
-```
-
-### Instagram · cuenta `principal` · pendiente de aprobación
-
-```
-Westcol terminó el simulacro en España y ya tiene su versión de los hechos
-
-Termina la misión final del entrenamiento con Ibai (rehén liberado, planta recuperada) y Westcol lo celebra a su manera, en broma: “La policía nacional colombiana haciendo de la suya aquí en España… nos tocó llegar a nosotros porque vi que no estaban haciendo mucho aquí”.
-
-¿Westcol policía: sí o no?
-
-Crédito: Ibai (youtube.com/@Ibai), “Sobreviví a un Entrenamiento Militar con Westcol”. Video original (minuto 20:07): https://youtu.be/627Fvn2fEjU?t=1207
-
-#Westcol #Ibai #EntrenamientoMilitar #Colombia #Humor
-```
-
-### YouTube · cuenta `principal` · pendiente de aprobación
-
-**Título:** Westcol: “Nos tocó llegar a nosotros” (simulacro con Ibai)
-
-```
-Termina la misión final del entrenamiento con Ibai (rehén liberado, planta recuperada) y Westcol lo celebra a su manera, en broma: “La policía nacional colombiana haciendo de la suya aquí en España… nos tocó llegar a nosotros porque vi que no estaban haciendo mucho aquí”.
-
-Crédito: Ibai (youtube.com/@Ibai), “Sobreviví a un Entrenamiento Militar con Westcol”. Video original (minuto 20:07): https://youtu.be/627Fvn2fEjU?t=1207
-
-#Westcol #Ibai #EntrenamientoMilitar #Colombia #Humor
-```
-
-**Etiquetas:** Westcol, Ibai, entrenamiento militar, simulacro, Ibai Westcol, humor, Colombia
-
-## 21. `2026-11-10-westcol-samulx-round-cuerpo`
-
-- **Gancho:** Round en vivo, pero sin mostrar el game plan
-- **Puntaje:** 71 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-14 · **Línea:** urbano · **Pieza:** original (sin variantes)
-- **Video:** [clip.mp4](../clipero/clips/2026-11-10-westcol-samulx-round-cuerpo/clip.mp4) (57,1 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-10-westcol-samulx-round-cuerpo/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=WAfZNmp2n8I
-- **Revisar antes de publicar:** Es un calentamiento suave entre amigos, no una pelea ni un adelanto del combate del 14.
-
-### TikTok · cuenta `principal` (Legión Urbana) · aprobado automáticamente; en cola (no cabe antes de su ventana: vencerá)
-
-```
-Westcol prueba a Samulx con los guantes… pero solo al cuerpo
-
-¿Cómo ves a Samulx para el 14?
-
-Crédito: directo de Westcol, subido por juan diego mm (“WESTCOL PARCHAND0 CON SAMULX Y HACEN UN ROUND EN VIVO”). Video original (minuto 4:37): https://youtu.be/WAfZNmp2n8I?t=277
-
-#Westcol #Samulx #StreamFighters5 #Boxeo #Sparring
-```
-
-### Instagram · cuenta `principal` · pendiente de aprobación
-
-```
-“No quiero mostrar toda mi habilidad”: el round suave de Westcol y Samulx
-
-En el directo, a días de Stream Fighters 5, Westcol se pone los guantes para “probar a Sami un poquitico”. La condición de Samulx: solo al cuerpo y sin enseñar su game plan. Es un calentamiento entre amigos: Westcol no es su rival.
-
-¿Cómo ves a Samulx para el 14?
-
-Crédito: directo de Westcol, subido por juan diego mm (“WESTCOL PARCHAND0 CON SAMULX Y HACEN UN ROUND EN VIVO”). Video original (minuto 4:37): https://youtu.be/WAfZNmp2n8I?t=277
-
-#Westcol #Samulx #StreamFighters5 #Boxeo #Sparring
-```
-
-### YouTube · cuenta `principal` · pendiente de aprobación
-
-**Título:** Westcol y Samulx se ponen los guantes en pleno directo
-
-```
-En el directo, a días de Stream Fighters 5, Westcol se pone los guantes para “probar a Sami un poquitico”. La condición de Samulx: solo al cuerpo y sin enseñar su game plan. Es un calentamiento entre amigos: Westcol no es su rival.
-
-Crédito: directo de Westcol, subido por juan diego mm (“WESTCOL PARCHAND0 CON SAMULX Y HACEN UN ROUND EN VIVO”). Video original (minuto 4:37): https://youtu.be/WAfZNmp2n8I?t=277
-
-#Westcol #Samulx #StreamFighters5 #Boxeo #Sparring
-```
-
-**Etiquetas:** Westcol, Samulx, Stream Fighters 5, boxeo, sparring, Westcol directo, round en vivo
-
-## 22. `2026-11-10-willito-manoplas-desmayo`
-
-- **Gancho:** Combinaciones de boxeo hasta casi desmayarse
-- **Puntaje:** 69 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-14 · **Línea:** urbano · **Pieza:** original (sin variantes)
-- **Video:** [clip.mp4](../clipero/clips/2026-11-10-willito-manoplas-desmayo/clip.mp4) (41,6 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-10-willito-manoplas-desmayo/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=YwhGtvtJ1Uk
-- **Revisar antes de publicar:** VER ANTES DE PUBLICAR: confirmar quién golpea (parece Jelty, no Willito) antes de poner nombres; los textos no nombran a quien golpea. No presentarlo como el entrenamiento de Willito para su pelea (por eso va sin #StreamFighters5).
-
-### TikTok · cuenta `principal` (Legión Urbana) · aprobado automáticamente; en cola (no cabe antes de su ventana: vencerá)
-
-```
-Combinaciones a toda velocidad… hasta el “casi me desmayo”
-
-¿Cuántas rondas así aguantas tú?
-
-Crédito: Willito Live (YouTube), “Willito Y Jelty Boxeando En Mochis”, edición del directo de Kick. Video original (minuto 14:09): https://youtu.be/YwhGtvtJ1Uk?t=849
-
-#Willito #Boxeo #Entrenamiento #Streamers #LosMochis
-```
-
-### Instagram · cuenta `principal` · pendiente de aprobación
-
-```
-“Otra vez todo más rápido”: el final de una ronda de manoplas en Los Mochis
-
-Entrenamiento de boxeo en el directo de Willito en Los Mochis (México): el entrenador canta las combinaciones cada vez más rápido (“abajo, a un lado, al otro, atrás, cinco golpes”) hasta el último conteo. Al terminar: “casi me desmayo”.
-
-¿Cuántas rondas así aguantas tú?
-
-Crédito: Willito Live (YouTube), “Willito Y Jelty Boxeando En Mochis”, edición del directo de Kick. Video original (minuto 14:09): https://youtu.be/YwhGtvtJ1Uk?t=849
-
-#Willito #Boxeo #Entrenamiento #Streamers #LosMochis
-```
-
-### YouTube · cuenta `principal` · pendiente de aprobación
-
-**Título:** Manoplas a toda velocidad en el directo de Willito
-
-```
-Entrenamiento de boxeo en el directo de Willito en Los Mochis (México): el entrenador canta las combinaciones cada vez más rápido (“abajo, a un lado, al otro, atrás, cinco golpes”) hasta el último conteo. Al terminar: “casi me desmayo”.
-
-Crédito: Willito Live (YouTube), “Willito Y Jelty Boxeando En Mochis”, edición del directo de Kick. Video original (minuto 14:09): https://youtu.be/YwhGtvtJ1Uk?t=849
-
-#Willito #Boxeo #Entrenamiento #Streamers #LosMochis
-```
-
-**Etiquetas:** Willito, boxeo, manoplas, entrenamiento, streamers, Los Mochis, Kick
-
-## 23. `2026-11-11-francupido-plantada-langosta`
+## 16. `2026-11-11-francupido-plantada-langosta`
 
 - **Gancho:** La dejaron plantada y cenó langosta
 - **Puntaje:** 79 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-15 · **Línea:** risas · **Pieza:** original (sin variantes)
 - **Video:** [clip.mp4](../clipero/clips/2026-11-11-francupido-plantada-langosta/clip.mp4) (42,3 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-11-francupido-plantada-langosta/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=NiWsTPALopk
 - **Revisar antes de publicar:** Lupita es participante del programa: los textos no se burlan de ella. Que Abel no llegó lo confirma Franco en el episodio (30:13), fuera del clip; el gancho en pantalla ya lo dice.
 
-### TikTok · cuenta `risas` (@legion.risas) · en la bandeja desde hoy, 18:08 (borrador)
+### TikTok · cuenta `risas` (@legion.risas) · en la bandeja desde 2026-11-13 18:08 (borrador)
 
 ```
 La dejaron plantada en la cita de FranCupido… y se comió una langosta 🦞
@@ -1156,14 +456,14 @@ Crédito: FranCupido, de Franco Escamilla (canal Franco Escamilla en YouTube), �
 
 **Etiquetas:** FranCupido, Franco Escamilla, Guadalajara, citas, plantada, langosta, humor, comedia
 
-## 24. `2026-11-12-ballarta-champana`
+## 17. `2026-11-12-ballarta-champana`
 
 - **Gancho:** Ballarta y el amigo que no toma nada
 - **Puntaje:** 67 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-15 · **Línea:** risas · **Pieza:** original (sin variantes)
 - **Video:** [clip.mp4](../clipero/clips/2026-11-12-ballarta-champana/clip.mp4) (38,5 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-12-ballarta-champana/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=W3kk6XMYfYI
 - **Revisar antes de publicar:** Ballarta se llama a sí mismo «borrachín» en la anécdota; los textos no lo repiten.
 
-### TikTok · cuenta `risas` (@legion.risas) · en la bandeja desde hoy, 18:08 (borrador)
+### TikTok · cuenta `risas` (@legion.risas) · en la bandeja desde 2026-11-13 18:08 (borrador)
 
 ```
 “¿No hay cerveza? Entonces tráigame una botella de champaña, porque yo no tomo nada” 😂 Carlos Ballarta y su amigo de Torreón
@@ -1203,7 +503,7 @@ Crédito: Carlos Ballarta (YouTube), “El Cómico Itinerante Ep. 6”. Video or
 
 **Etiquetas:** Carlos Ballarta, El Cómico Itinerante, stand up, comedia mexicana, Torreón, anécdotas, humor
 
-## 25. `2026-11-10-cotorrisa-yordi-tacto`
+## 18. `2026-11-10-cotorrisa-yordi-tacto`
 
 - **Gancho:** Yordi Rosado y su primer tacto de próstata
 - **Puntaje:** 82 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-17 · **Línea:** risas · **Pieza:** original (sin variantes)
@@ -1250,7 +550,7 @@ Crédito: La Cotorrisa (canal de Ricardo Pérez en YouTube), “Anecdotario 377 
 
 **Etiquetas:** Yordi Rosado, La Cotorrisa, Ricardo Pérez, Slobotzky, tacto de próstata, chequeo a los 40, humor, comedia, podcast
 
-## 26. `2026-11-10-culpa-tato-diesel`
+## 19. `2026-11-10-culpa-tato-diesel`
 
 - **Gancho:** Le echó gasolina a un carro diésel
 - **Puntaje:** 80 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-17 · **Línea:** risas · **Pieza:** original (sin variantes)
@@ -1297,7 +597,7 @@ Crédito: Los De La Culpa (YouTube), “Errores Memorables | Los De La Culpa - C
 
 **Etiquetas:** Los De La Culpa, Errores Memorables, humor colombiano, comedia colombiana, stand up, carro diésel, anécdotas
 
-## 27. `2026-11-10-cotorrisa-yordi-plancha`
+## 20. `2026-11-10-cotorrisa-yordi-plancha`
 
 - **Gancho:** Le preguntó a un luchador cómo le fue
 - **Puntaje:** 78 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-17 · **Línea:** risas · **Pieza:** original (sin variantes)
@@ -1344,7 +644,7 @@ Crédito: La Cotorrisa (canal de Ricardo Pérez en YouTube), “Anecdotario 377 
 
 **Etiquetas:** Yordi Rosado, La Cotorrisa, Ricardo Pérez, lucha libre, Arena México, anécdotas, humor, comedia
 
-## 28. `2026-11-10-culpa-ivan-senorazo`
+## 21. `2026-11-10-culpa-ivan-senorazo`
 
 - **Gancho:** Iván Marín y su saludo a Jessi Uribe
 - **Puntaje:** 78 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-17 · **Línea:** risas · **Pieza:** original (sin variantes)
@@ -1391,14 +691,14 @@ Crédito: Los De La Culpa (YouTube), “Errores Memorables | Los De La Culpa - C
 
 **Etiquetas:** Iván Marín, Jessi Uribe, Luis Alfonso, Los De La Culpa, señorazo, humor colombiano, comedia colombiana, anécdotas
 
-## 29. `2026-11-10-culpa-super-alexis`
+## 22. `2026-11-10-culpa-super-alexis`
 
 - **Gancho:** Lo saludó como Alexis Lozano… y era Nino
 - **Puntaje:** 77 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-17 · **Línea:** risas · **Pieza:** original (sin variantes)
 - **Video:** [clip.mp4](../clipero/clips/2026-11-10-culpa-super-alexis/clip.mp4) (66,9 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-10-culpa-super-alexis/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=3BAphhKqHUw
 - **Revisar antes de publicar:** La ficha pide comprobar quién cuenta la anécdota antes de nombrarlo: los textos no lo nombran («uno de Los De La Culpa»).
 
-### TikTok · cuenta `risas` (@legion.risas) · en la bandeja desde hoy, 18:09 (borrador)
+### TikTok · cuenta `risas` (@legion.risas) · en la bandeja desde 2026-11-13 18:09 (borrador)
 
 ```
 Lo saludó como “Super Alexis Lozano”… y era Nino Caicedo 😂
@@ -1440,7 +740,7 @@ Crédito: Los De La Culpa (YouTube), “Errores Memorables | Los De La Culpa - C
 
 **Etiquetas:** Los De La Culpa, Guayacán Orquesta, Alexis Lozano, Nino Caicedo, salsa, comedia colombiana, anécdotas, humor
 
-## 30. `2026-11-10-cotorrisa-yordi-cuenta`
+## 23. `2026-11-10-cotorrisa-yordi-cuenta`
 
 - **Gancho:** El día que a Yordi Rosado le cobraron
 - **Puntaje:** 76 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-17 · **Línea:** risas · **Pieza:** original (sin variantes)
@@ -1487,7 +787,7 @@ Crédito: La Cotorrisa (canal de Ricardo Pérez en YouTube), “Anecdotario 377 
 
 **Etiquetas:** Yordi Rosado, La Cotorrisa, Otro Rollo, Ricardo Pérez, Slobotzky, fama, anécdotas, humor
 
-## 31. `2026-11-10-cotorrisa-vista-cansada`
+## 24. `2026-11-10-cotorrisa-vista-cansada`
 
 - **Gancho:** A los 40, la vista cansada llega así
 - **Puntaje:** 75 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-17 · **Línea:** risas · **Pieza:** original (sin variantes)
@@ -1534,14 +834,14 @@ Crédito: La Cotorrisa (canal de Ricardo Pérez en YouTube), “Anecdotario 377 
 
 **Etiquetas:** Yordi Rosado, La Cotorrisa, vista cansada, los 40, Ricardo Pérez, Slobotzky, humor, comedia
 
-## 32. `2026-11-12-cotorrisa-codigo-22`
+## 25. `2026-11-12-cotorrisa-codigo-22`
 
 - **Gancho:** El 'código 22' de los restaurantes
 - **Puntaje:** 74 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-17 · **Línea:** risas · **Pieza:** original (sin variantes)
 - **Video:** [clip.mp4](../clipero/clips/2026-11-12-cotorrisa-codigo-22/clip.mp4) (71,1 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-12-cotorrisa-codigo-22/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=jUfBJ_aIA3w
 - **Revisar antes de publicar:** El código 22 se lo aplicaban a Adal Ramones (Yordi lo nombra en el audio). El título de TikTok de la ficha decía que le pagaban la cuenta a Yordi; se cambió por «Yordi Rosado revela qué era el código 22».
 
-### TikTok · cuenta `risas` (@legion.risas) · en la bandeja desde hoy, 18:09 (borrador)
+### TikTok · cuenta `risas` (@legion.risas) · en la bandeja desde 2026-11-13 18:09 (borrador)
 
 ```
 Yordi Rosado revela qué era el “código 22” en los restaurantes 😂
@@ -1583,14 +883,14 @@ Crédito: La Cotorrisa (canal de Ricardo Pérez en YouTube), “Anecdotario 377 
 
 **Etiquetas:** Yordi Rosado, La Cotorrisa, Otro Rollo, Adal Ramones, Ricardo Pérez, Slobotzky, anécdotas, humor
 
-## 33. `2026-11-12-culpa-quevedo-mentiras`
+## 26. `2026-11-12-culpa-quevedo-mentiras`
 
 - **Gancho:** Ricardo Quevedo: 'digan mentiras con buena intención'
 - **Puntaje:** 72 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-17 · **Línea:** risas · **Pieza:** original (sin variantes)
 - **Video:** [clip.mp4](../clipero/clips/2026-11-12-culpa-quevedo-mentiras/clip.mp4) (31,7 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-12-culpa-quevedo-mentiras/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=3BAphhKqHUw
 - **Revisar antes de publicar:** Los textos citan la frase de la descripción revisada de la ficha («Digan mentiras con buena intención»); no usan «No digan la verdad», que solo estaba en el título sugerido.
 
-### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola (previsto 14-nov)
+### TikTok · cuenta `risas` (@legion.risas) · en la bandeja desde hoy, 19:35 (borrador)
 
 ```
 Ricardo Quevedo: “Digan mentiras con buena intención” 😂
@@ -1632,14 +932,63 @@ Crédito: Los De La Culpa (YouTube), “Errores Memorables | Los De La Culpa - C
 
 **Etiquetas:** Ricardo Quevedo, Los De La Culpa, comedia colombiana, stand up, mentiras piadosas, consejos, humor
 
-## 34. `2026-11-12-cotorrisa-dedito-flaco`
+## 27. `2026-11-13-parenlamano-cardenal-prevost`
+
+- **Gancho:** Hace dos años nadie conocía al Papa
+- **Puntaje:** 72 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-17 · **Línea:** risas · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-13-parenlamano-cardenal-prevost/clip.mp4) (57,9 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-13-parenlamano-cardenal-prevost/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=K4MCv-DXdmI
+- **Revisar antes de publicar:** Ficha: escuchar antes de publicar el tramo final (30:40-30:50): los subtítulos estaban desordenados y una palabra quedó como «(…)». Los textos no citan esa última frase y dicen que es una escena inventada por los conductores.
+
+### TikTok · cuenta `risas` (@legion.risas) · en la bandeja desde hoy, 19:36 (borrador)
+
+```
+Si el Papa hubiera venido hace dos años, cuando nadie lo conocía: “Corré el auto blanco ese”
+
+En Paren la Mano imaginan cómo habrían tratado al cardenal Prevost, hoy León XIV, antes de ser Papa. Es una escena inventada por los conductores.
+
+¿Le habrías movido el auto?
+
+Crédito: Paren la Mano (Vorterix), “EL DÍA QUE LUQUITAS HABLÓ CON EL PAPA...”. Video original (minuto 29:52): https://youtu.be/K4MCv-DXdmI?t=1792
+
+#ParenLaMano #Vorterix #PapaLeonXIV #Humor #Argentina
+```
+
+### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
+
+```
+“Un señor de 75 años una mañana se levanta y es el hombre más famoso del mundo”
+
+Un día eres un cardenal más y al siguiente, el Papa. En Paren la Mano imaginan qué habría pasado si Robert Prevost, hoy León XIV, hubiera ido a Argentina hace dos años, cuando casi nadie lo conocía: “Corré el auto blanco ese”. Es una escena inventada por los conductores.
+
+¿Le habrías movido el auto?
+
+Crédito: Paren la Mano (Vorterix), “EL DÍA QUE LUQUITAS HABLÓ CON EL PAPA...”. Video original (minuto 29:52): https://youtu.be/K4MCv-DXdmI?t=1792
+
+#ParenLaMano #Vorterix #PapaLeonXIV #Humor #Argentina
+```
+
+### YouTube · cuenta `principal` · pendiente de aprobación
+
+**Título:** Si el Papa León XIV hubiera venido hace dos años | Paren la Mano
+
+```
+Un día eres un cardenal más y al siguiente, el Papa. En Paren la Mano imaginan qué habría pasado si Robert Prevost, hoy León XIV, hubiera ido a Argentina hace dos años, cuando casi nadie lo conocía. Es una escena inventada por los conductores.
+
+Crédito: Paren la Mano (Vorterix), “EL DÍA QUE LUQUITAS HABLÓ CON EL PAPA...”. Video original (minuto 29:52): https://youtu.be/K4MCv-DXdmI?t=1792
+
+#ParenLaMano #Vorterix #PapaLeonXIV #Humor
+```
+
+**Etiquetas:** Paren la Mano, Vorterix, Papa León XIV, Robert Prevost, humor argentino, streaming argentino, Papa, humor
+
+## 28. `2026-11-12-cotorrisa-dedito-flaco`
 
 - **Gancho:** Cómo elegir al doctor del tacto
 - **Puntaje:** 70 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-17 · **Línea:** risas · **Pieza:** original (sin variantes)
 - **Video:** [clip.mp4](../clipero/clips/2026-11-12-cotorrisa-dedito-flaco/clip.mp4) (23 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-12-cotorrisa-dedito-flaco/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=jUfBJ_aIA3w
 - **Revisar antes de publicar:** La ficha pide comprobar quién de los conductores dice el remate: los textos no lo nombran. Bromea con el examen, no con la enfermedad.
 
-### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola (previsto 14-nov)
+### TikTok · cuenta `risas` (@legion.risas) · en la bandeja desde hoy, 19:36 (borrador)
 
 ```
 La pregunta que nadie se atreve a hacer antes del tacto 😂
@@ -1681,14 +1030,14 @@ Crédito: La Cotorrisa (canal de Ricardo Pérez en YouTube), “Anecdotario 377 
 
 **Etiquetas:** La Cotorrisa, Yordi Rosado, Ricardo Pérez, Slobotzky, tacto de próstata, anécdotas, humor, comedia
 
-## 35. `2026-11-12-cotorrisa-harvard`
+## 29. `2026-11-12-cotorrisa-harvard`
 
 - **Gancho:** Por qué hay gente que te baja los sueños
 - **Puntaje:** 70 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-17 · **Línea:** risas · **Pieza:** original (sin variantes)
 - **Video:** [clip.mp4](../clipero/clips/2026-11-12-cotorrisa-harvard/clip.mp4) (61,5 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-12-cotorrisa-harvard/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=jUfBJ_aIA3w
 - **Revisar antes de publicar:** La frase de «la fila del salón» lleva una palabra censurada en la ficha: los textos no la citan («te baja de la nube»).
 
-### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola (previsto 14-nov)
+### TikTok · cuenta `risas` (@legion.risas) · en la bandeja desde hoy, 19:37 (borrador)
 
 ```
 “Quiero estudiar en Harvard”… y la gente que te baja los sueños. Yordi Rosado lo explica
@@ -1728,14 +1077,14 @@ Crédito: La Cotorrisa (canal de Ricardo Pérez en YouTube), “Anecdotario 377 
 
 **Etiquetas:** Yordi Rosado, La Cotorrisa, Ricardo Pérez, Slobotzky, motivación, sueños, consejos, humor
 
-## 36. `2026-11-12-culpa-ivan-piscina`
+## 30. `2026-11-12-culpa-ivan-piscina`
 
 - **Gancho:** El consejo que casi ahoga a Iván Marín
 - **Puntaje:** 70 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-17 · **Línea:** risas · **Pieza:** original (sin variantes)
 - **Video:** [clip.mp4](../clipero/clips/2026-11-12-culpa-ivan-piscina/clip.mp4) (21,8 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-12-culpa-ivan-piscina/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=3BAphhKqHUw
 - **Revisar antes de publicar:** Anécdota de infancia del propio Iván Marín. La ficha pide separarlo del otro clip de Iván (culpa-ivan-senorazo, en la bandeja desde el 10-nov).
 
-### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola (previsto 14-nov)
+### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola (previsto 15-nov)
 
 ```
 “Si crees que puedes, puedes”… Iván Marín se lo creyó en una piscina 😂
@@ -1775,10 +1124,397 @@ Crédito: Los De La Culpa (YouTube), “Errores Memorables | Los De La Culpa - C
 
 **Etiquetas:** Iván Marín, Los De La Culpa, comedia colombiana, stand up, consejos, piscina, humor
 
+## 31. `2026-11-13-parenlamano-papa-a-dormir`
+
+- **Gancho:** Así imaginan al Papa cuando ya quiere dormir
+- **Puntaje:** 70 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-17 · **Línea:** risas · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-13-parenlamano-papa-a-dormir/clip.mp4) (44,5 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-13-parenlamano-papa-a-dormir/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=K4MCv-DXdmI
+- **Revisar antes de publicar:** Ficha: desde el segundo 10 los conductores le ponen voz a un video del Papa. Si parece que el Papa dice «no me rompan más la pelota», descártalo. Los textos dicen que es una imitación con la voz de los conductores.
+
+### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola (previsto 15-nov)
+
+```
+Así imaginan al Papa cuando ya se quiere ir a dormir: “¿Algún temita más?”
+
+Imitación de los conductores de Paren la Mano: la voz es de ellos, no del Papa.
+
+¿Tú también haces el gesto de “me voy a dormir”?
+
+Crédito: Paren la Mano (Vorterix), “EL DÍA QUE LUQUITAS HABLÓ CON EL PAPA...”. Video original (minuto 25:48): https://youtu.be/K4MCv-DXdmI?t=1548
+
+#ParenLaMano #Vorterix #PapaLeonXIV #Humor #Argentina
+```
+
+### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
+
+```
+Así imaginan al Papa a la hora de dormir (imitación)
+
+Cuentan en Paren la Mano que León XIV, después de salir a bendecir a la gente, hizo el gesto de que se iba a dormir, como antes Juan Pablo II y Francisco. Los conductores imaginan, con su propia voz, cómo sería ese final de jornada: “¿Algún temita más?”. Es una imitación: no son palabras del Papa.
+
+¿Tú también haces el gesto de “me voy a dormir”?
+
+Crédito: Paren la Mano (Vorterix), “EL DÍA QUE LUQUITAS HABLÓ CON EL PAPA...”. Video original (minuto 25:48): https://youtu.be/K4MCv-DXdmI?t=1548
+
+#ParenLaMano #Vorterix #PapaLeonXIV #Humor #Argentina
+```
+
+### YouTube · cuenta `principal` · pendiente de aprobación
+
+**Título:** El Papa ya se quiere ir a dormir (imitación) | Paren la Mano
+
+```
+Los conductores de Paren la Mano imaginan, con su propia voz, cómo sería el final de jornada del Papa León XIV cuando hace el gesto de que se va a dormir. Es una imitación: no son palabras del Papa.
+
+Crédito: Paren la Mano (Vorterix), “EL DÍA QUE LUQUITAS HABLÓ CON EL PAPA...”. Video original (minuto 25:48): https://youtu.be/K4MCv-DXdmI?t=1548
+
+#ParenLaMano #Vorterix #PapaLeonXIV #Humor
+```
+
+**Etiquetas:** Paren la Mano, Vorterix, Papa León XIV, imitación, humor argentino, streaming argentino, Papa, humor
+
+## 32. `2026-11-13-jhovanoty-faja-disfraz`
+
+- **Gancho:** Su disfraz de De la Espriella pedía faja
+- **Puntaje:** 73 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-18 · **Línea:** risas · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-13-jhovanoty-faja-disfraz/clip.mp4) (72,4 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-13-jhovanoty-faja-disfraz/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=lEDdtE48rBk
+- **Revisar antes de publicar:** Humor político (legion/04-cazador-risas/enfoque.md): es el humorista contando su disfraz de Halloween de Abelardo de la Espriella (derecha); De la Espriella no sale. Los textos dicen que es un disfraz, no le dan cargo, no citan «bienvenido a la patria» (frase final que puede leerse como consigna) y no se burlan del político: el chiste es la faja del humorista.
+
+### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola (previsto 15-nov)
+
+```
+Jhovanoty se disfrazó de Abelardo de la Espriella para Halloween y, para que el traje cerrara, terminó en body de encaje
+
+Es un disfraz que el humorista cuenta en su show: De la Espriella no sale en el video.
+
+¿Cuál ha sido tu disfraz más incómodo?
+
+Crédito: Jhovanoty, “Me disfracé de Abelardo de La Espriella... ¡Y Qué problema! - Puro Show de Jhovanoty”. Video original (minuto 11:23): https://youtu.be/lEDdtE48rBk?t=683
+
+#Jhovanoty #PuroShow #HumorColombiano #Halloween #StandUp
+```
+
+### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
+
+```
+Jhovanoty y la faja de su disfraz de Abelardo de la Espriella
+
+Para Halloween, el humorista Jhovanoty se disfrazó de Abelardo de la Espriella. Para que el traje cerrara tuvo que fajarse… y como no había faja, fue un body de encaje. Lo difícil vino de noche, con su esposa intentando cerrar los broches. Es un disfraz que el humorista cuenta en su show: De la Espriella no sale en el video.
+
+¿Cuál ha sido tu disfraz más incómodo?
+
+Crédito: Jhovanoty, “Me disfracé de Abelardo de La Espriella... ¡Y Qué problema! - Puro Show de Jhovanoty”. Video original (minuto 11:23): https://youtu.be/lEDdtE48rBk?t=683
+
+#Jhovanoty #PuroShow #HumorColombiano #Halloween #StandUp
+```
+
+### YouTube · cuenta `principal` · pendiente de aprobación
+
+**Título:** El disfraz de Abelardo de la Espriella que necesitó faja | Jhovanoty
+
+```
+Para Halloween, el humorista Jhovanoty se disfrazó de Abelardo de la Espriella y, para que el traje cerrara, tuvo que fajarse… con un body de encaje. Es un disfraz que cuenta en su show Puro Show: De la Espriella no sale en el video.
+
+Crédito: Jhovanoty, “Me disfracé de Abelardo de La Espriella... ¡Y Qué problema! - Puro Show de Jhovanoty”. Video original (minuto 11:23): https://youtu.be/lEDdtE48rBk?t=683
+
+#Jhovanoty #PuroShow #HumorColombiano #StandUp
+```
+
+**Etiquetas:** Jhovanoty, Puro Show, humor colombiano, stand up, disfraz de Halloween, disfraz De la Espriella, comedia, Halloween
+
+## 33. `2026-11-13-cotorrisa-vinchi-dicaprio`
+
+- **Gancho:** Por qué DiCaprio se llama Leonardo
+- **Puntaje:** 72 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-18 · **Línea:** risas · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-13-cotorrisa-vinchi-dicaprio/clip.mp4) (41,4 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-13-cotorrisa-vinchi-dicaprio/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=XUh-fUA_o30
+- **Revisar antes de publicar:** Publicar lejos de cotorrisa-dicaprio-sandwich (los dos son de DiCaprio).
+
+### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola (previsto 15-nov)
+
+```
+Por qué DiCaprio se llama Leonardo… y casi se llama “Vinchi DiCaprio”
+
+Con lapsus incluido: “dentro del vientre de su padre”.
+
+¿Sabías de dónde venía su nombre?
+
+Crédito: La Cotorrisa (Slobotzky y Ricardo Pérez; canal de Slobotzky en YouTube), “Episodio 399 - El doctor me sacó el jueguito de princesa”. Video original (minuto 38:11): https://youtu.be/XUh-fUA_o30?t=2291
+
+#LaCotorrisa #DiCaprio #LeonardoDiCaprio #Humor #DatoCurioso
+```
+
+### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
+
+```
+El dato de por qué DiCaprio se llama Leonardo… y el lapsus que lo arruinó
+
+Su madre, embarazada, miraba un cuadro de Leonardo da Vinci en la Galería Uffizi cuando el bebé dio una patada… “dentro del vientre de su padre”. El lapsus y el remate: casi se llamó Vinchi DiCaprio.
+
+¿Sabías de dónde venía su nombre?
+
+Crédito: La Cotorrisa (Slobotzky y Ricardo Pérez; canal de Slobotzky en YouTube), “Episodio 399 - El doctor me sacó el jueguito de princesa”. Video original (minuto 38:11): https://youtu.be/XUh-fUA_o30?t=2291
+
+#LaCotorrisa #DiCaprio #LeonardoDiCaprio #Humor #DatoCurioso
+```
+
+### YouTube · cuenta `principal` · pendiente de aprobación
+
+**Título:** ¿Por qué Leonardo DiCaprio se llama Leonardo? | La Cotorrisa
+
+```
+Su madre, embarazada, miraba un cuadro de Leonardo da Vinci en la Galería Uffizi cuando el bebé dio una patada. El dato, un lapsus en plena lectura y el remate: casi se llamó Vinchi DiCaprio.
+
+Crédito: La Cotorrisa (Slobotzky y Ricardo Pérez; canal de Slobotzky en YouTube), “Episodio 399 - El doctor me sacó el jueguito de princesa”. Video original (minuto 38:11): https://youtu.be/XUh-fUA_o30?t=2291
+
+#LaCotorrisa #DiCaprio #DatoCurioso #Humor
+```
+
+**Etiquetas:** La Cotorrisa, Slobotzky, Ricardo Pérez, Leonardo DiCaprio, dato curioso, Leonardo da Vinci, podcast de comedia, humor
+
+## 34. `2026-11-13-jhovanoty-radar-eldorado`
+
+- **Gancho:** Cuando se cayó el radar de El Dorado
+- **Puntaje:** 72 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-18 · **Línea:** risas · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-13-jhovanoty-radar-eldorado/clip.mp4) (56,2 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-13-jhovanoty-radar-eldorado/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=lEDdtE48rBk
+- **Revisar antes de publicar:** No hay disfraz ni imitación de políticos: es stand-up de Jhovanoty con su ropa de show. Los textos dicen que el ingeniero y el neurocirujano son parte del chiste. El título del video original (en el crédito) habla del disfraz de De la Espriella.
+
+### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola (previsto 16-nov)
+
+```
+Se cayó el radar de El Dorado, le cancelaron el vuelo y en la fila había un neurocirujano: “No se salte la fila, que yo tengo un show”
+
+Stand-up de Jhovanoty en Puro Show: el ingeniero y el neurocirujano son parte del chiste.
+
+¿A quién dejarías pasar primero?
+
+Crédito: Jhovanoty, “Me disfracé de Abelardo de La Espriella... ¡Y Qué problema! - Puro Show de Jhovanoty”. Video original (minuto 1:52): https://youtu.be/lEDdtE48rBk?t=112
+
+#Jhovanoty #PuroShow #HumorColombiano #ElDorado #StandUp
+```
+
+### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
+
+```
+Jhovanoty imagina a los ingenieros de la torre de control de El Dorado
+
+Jhovanoty cuenta que se dañó un radar en El Dorado y le cancelaron el vuelo a Medellín. Imagina al ingeniero de la torre abriendo el capó “como si supiera” y en la fila se encuentra con un neurocirujano que tiene una operación a corazón abierto… pero él tiene un show. Es stand-up: los personajes son parte del chiste.
+
+¿A quién dejarías pasar primero?
+
+Crédito: Jhovanoty, “Me disfracé de Abelardo de La Espriella... ¡Y Qué problema! - Puro Show de Jhovanoty”. Video original (minuto 1:52): https://youtu.be/lEDdtE48rBk?t=112
+
+#Jhovanoty #PuroShow #HumorColombiano #ElDorado #StandUp
+```
+
+### YouTube · cuenta `principal` · pendiente de aprobación
+
+**Título:** Vuelo cancelado en El Dorado y un neurocirujano en la fila | Jhovanoty
+
+```
+Jhovanoty cuenta que se dañó un radar en El Dorado y le cancelaron el vuelo a Medellín; en la fila se encuentra con un neurocirujano… pero él tiene un show. Es stand-up: los personajes son parte del chiste.
+
+Crédito: Jhovanoty, “Me disfracé de Abelardo de La Espriella... ¡Y Qué problema! - Puro Show de Jhovanoty”. Video original (minuto 1:52): https://youtu.be/lEDdtE48rBk?t=112
+
+#Jhovanoty #PuroShow #HumorColombiano #StandUp
+```
+
+**Etiquetas:** Jhovanoty, Puro Show, humor colombiano, stand up, El Dorado, vuelo cancelado, aeropuerto, comedia
+
+## 35. `2026-11-13-cotorrisa-navajas-suizas`
+
+- **Gancho:** 16 navajas suizas en la pañalera
+- **Puntaje:** 71 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-18 · **Línea:** risas · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-13-cotorrisa-navajas-suizas/clip.mp4) (36,8 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-13-cotorrisa-navajas-suizas/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=XUh-fUA_o30
+- **Revisar antes de publicar:** Ficha: en los últimos 11 s se ve un recuadro pequeño de otro segmento del programa («¿Chino, coreano o japonés?»). Si molesta, descártalo.
+
+### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola (previsto 16-nov)
+
+```
+Cuando tu regalo de viaje te puede costar la cárcel en Suiza: 16 navajas suizas en la pañalera
+
+¿Qué regalo traerías tú de Suiza?
+
+Crédito: La Cotorrisa (Slobotzky y Ricardo Pérez; canal de Slobotzky en YouTube), “Episodio 399 - El doctor me sacó el jueguito de princesa”. Video original (minuto 25:41): https://youtu.be/XUh-fUA_o30?t=1541
+
+#LaCotorrisa #Slobotzky #RicardoPerez #Suiza #Humor
+```
+
+### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
+
+```
+“16 navajas suizas en la pañalera”: el regalo que nadie debería subir al avión
+
+Le trajeron regalos de China y ahora le toca devolver el detalle desde Suiza, donde “un chocolatito no baja de 30”. La idea: navajas suizas personalizadas para todo el equipo… hasta que se imagina pasando el aeropuerto con 16 navajas en la pañalera del bebé.
+
+¿Qué regalo traerías tú de Suiza?
+
+Crédito: La Cotorrisa (Slobotzky y Ricardo Pérez; canal de Slobotzky en YouTube), “Episodio 399 - El doctor me sacó el jueguito de princesa”. Video original (minuto 25:41): https://youtu.be/XUh-fUA_o30?t=1541
+
+#LaCotorrisa #Slobotzky #RicardoPerez #Suiza #Humor
+```
+
+### YouTube · cuenta `principal` · pendiente de aprobación
+
+**Título:** 16 navajas suizas en la pañalera del bebé | La Cotorrisa
+
+```
+Le toca devolver unos regalos desde Suiza y la idea son navajas suizas personalizadas para todo el equipo… hasta que se imagina pasando el aeropuerto con 16 navajas en la pañalera del bebé.
+
+Crédito: La Cotorrisa (Slobotzky y Ricardo Pérez; canal de Slobotzky en YouTube), “Episodio 399 - El doctor me sacó el jueguito de princesa”. Video original (minuto 25:41): https://youtu.be/XUh-fUA_o30?t=1541
+
+#LaCotorrisa #Suiza #Humor #PodcastDeComedia
+```
+
+**Etiquetas:** La Cotorrisa, Slobotzky, Ricardo Pérez, navajas suizas, Suiza, aeropuerto, podcast de comedia, humor
+
+## 36. `2026-11-13-cotorrisa-papa-cadenero`
+
+- **Gancho:** El Papa Francisco fue cadenero de antro
+- **Puntaje:** 71 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-18 · **Línea:** risas · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-13-cotorrisa-papa-cadenero/clip.mp4) (29,6 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-13-cotorrisa-papa-cadenero/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=XUh-fUA_o30
+- **Revisar antes de publicar:** El clip termina en «Tú no pasas» a propósito (lo que sigue queda fuera por drogas, color de piel y menores). Separarlo de los otros clips del Papa (parenlamano-cardenal-prevost y parenlamano-papa-a-dormir).
+
+### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola (previsto 16-nov)
+
+```
+Antes de ser Papa, Bergoglio sacaba borrachos de un club en Buenos Aires
+
+En La Cotorrisa se imaginan a quien pueda presumir que lo sacó el Papa: “Tú no pasas”.
+
+¿Lo sabías?
+
+Crédito: La Cotorrisa (Slobotzky y Ricardo Pérez; canal de Slobotzky en YouTube), “Episodio 399 - El doctor me sacó el jueguito de princesa”. Video original (minuto 1:55:13): https://youtu.be/XUh-fUA_o30?t=6913
+
+#LaCotorrisa #PapaFrancisco #DatoCurioso #Humor #BuenosAires
+```
+
+### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
+
+```
+Imagínate que el Papa te sacó del antro: “Tú no pasas”
+
+En los años 50, antes del seminario, Jorge Mario Bergoglio trabajó como guardia de seguridad sacando borrachos de un club nocturno en Buenos Aires. En La Cotorrisa se imaginan a quien pueda presumir que lo sacó el Papa.
+
+¿Lo sabías?
+
+Crédito: La Cotorrisa (Slobotzky y Ricardo Pérez; canal de Slobotzky en YouTube), “Episodio 399 - El doctor me sacó el jueguito de princesa”. Video original (minuto 1:55:13): https://youtu.be/XUh-fUA_o30?t=6913
+
+#LaCotorrisa #PapaFrancisco #DatoCurioso #Humor #BuenosAires
+```
+
+### YouTube · cuenta `principal` · pendiente de aprobación
+
+**Título:** El Papa Francisco fue cadenero de antro | La Cotorrisa
+
+```
+Antes del seminario, Jorge Mario Bergoglio trabajó como guardia de seguridad sacando borrachos de un club nocturno en Buenos Aires. En La Cotorrisa se imaginan la escena.
+
+Crédito: La Cotorrisa (Slobotzky y Ricardo Pérez; canal de Slobotzky en YouTube), “Episodio 399 - El doctor me sacó el jueguito de princesa”. Video original (minuto 1:55:13): https://youtu.be/XUh-fUA_o30?t=6913
+
+#LaCotorrisa #PapaFrancisco #DatoCurioso #Humor
+```
+
+**Etiquetas:** La Cotorrisa, Slobotzky, Ricardo Pérez, Papa Francisco, Bergoglio, dato curioso, Buenos Aires, humor
+
+## 37. `2026-11-13-cotorrisa-pastor-gases`
+
+- **Gancho:** El pastor que 'cura' con gases
+- **Puntaje:** 70 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-18 · **Línea:** risas · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-13-cotorrisa-pastor-gases/clip.mp4) (72 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-13-cotorrisa-pastor-gases/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=XUh-fUA_o30
+- **Revisar antes de publicar:** Ficha: hacia el segundo 15 sale la foto viral del pastor sentado sobre un fiel (persona privada, cara poco visible); si molesta, descártalo. Los textos no nombran al pastor ni añaden datos.
+
+### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola (previsto 16-nov)
+
+```
+El pastor que dice curar sentándose sobre sus fieles… y soltando gases
+
+En La Cotorrisa no lo pueden creer: “ya por mera dignidad dices que te curó”.
+
+¿Tú le creerías?
+
+Crédito: La Cotorrisa (Slobotzky y Ricardo Pérez; canal de Slobotzky en YouTube), “Episodio 399 - El doctor me sacó el jueguito de princesa”. Video original (minuto 1:58:42): https://youtu.be/XUh-fUA_o30?t=7122
+
+#LaCotorrisa #Humor #Slobotzky #RicardoPerez #NoLoPuedoCreer
+```
+
+### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
+
+```
+“Esto hizo caminar a un mudo”: La Cotorrisa y el pastor de los gases
+
+Un pastor asegura que sana a sus fieles sentándose sobre ellos y soltando gases. En La Cotorrisa no lo pueden creer: “ya por mera dignidad dices que te curó”.
+
+¿Tú le creerías?
+
+Crédito: La Cotorrisa (Slobotzky y Ricardo Pérez; canal de Slobotzky en YouTube), “Episodio 399 - El doctor me sacó el jueguito de princesa”. Video original (minuto 1:58:42): https://youtu.be/XUh-fUA_o30?t=7122
+
+#LaCotorrisa #Humor #Slobotzky #RicardoPerez #NoLoPuedoCreer
+```
+
+### YouTube · cuenta `principal` · pendiente de aprobación
+
+**Título:** El pastor que “sana” con gases | La Cotorrisa
+
+```
+Un pastor asegura que sana a sus fieles sentándose sobre ellos y soltando gases. En La Cotorrisa no lo pueden creer.
+
+Crédito: La Cotorrisa (Slobotzky y Ricardo Pérez; canal de Slobotzky en YouTube), “Episodio 399 - El doctor me sacó el jueguito de princesa”. Video original (minuto 1:58:42): https://youtu.be/XUh-fUA_o30?t=7122
+
+#LaCotorrisa #Humor #NoLoPuedoCreer
+```
+
+**Etiquetas:** La Cotorrisa, Slobotzky, Ricardo Pérez, pastor, noticias raras, podcast de comedia, humor, no lo puedo creer
+
+## 38. `2026-11-13-cotorrisa-dicaprio-sandwich`
+
+- **Gancho:** DiCaprio comió hígado crudo de bisonte
+- **Puntaje:** 67 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-18 · **Línea:** risas · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-13-cotorrisa-dicaprio-sandwich/clip.mp4) (71,9 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-13-cotorrisa-dicaprio-sandwich/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=XUh-fUA_o30
+- **Revisar antes de publicar:** Publicar lejos de cotorrisa-vinchi-dicaprio (ficha).
+
+### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola (previsto 17-nov)
+
+```
+Critica a DiCaprio por exigente con el hígado de bisonte… y lo exhiben con las orillas del sándwich
+
+¿Exigencia de actor o capricho?
+
+Crédito: La Cotorrisa (Slobotzky y Ricardo Pérez; canal de Slobotzky en YouTube), “Episodio 399 - El doctor me sacó el jueguito de princesa”. Video original (minuto 39:29): https://youtu.be/XUh-fUA_o30?t=2369
+
+#LaCotorrisa #DiCaprio #TheRevenant #Humor #Slobotzky
+```
+
+### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
+
+```
+“Él en la película pidió que le quitaran las orillas a su sándwich”
+
+En The Revenant le prepararon a DiCaprio un hígado de bisonte de gelatina y él pidió uno crudo y real. En La Cotorrisa lo critican por exagerado… hasta que sale a la luz quién pidió en su propia película que le quitaran las orillas al sándwich.
+
+¿Exigencia de actor o capricho?
+
+Crédito: La Cotorrisa (Slobotzky y Ricardo Pérez; canal de Slobotzky en YouTube), “Episodio 399 - El doctor me sacó el jueguito de princesa”. Video original (minuto 39:29): https://youtu.be/XUh-fUA_o30?t=2369
+
+#LaCotorrisa #DiCaprio #TheRevenant #Humor #Slobotzky
+```
+
+### YouTube · cuenta `principal` · pendiente de aprobación
+
+**Título:** DiCaprio, el hígado de bisonte y las orillas del sándwich | La Cotorrisa
+
+```
+En The Revenant, DiCaprio pidió un hígado de bisonte crudo y real en lugar del de gelatina. En La Cotorrisa lo critican por exagerado… hasta que sale a la luz quién pidió en su propia película que le quitaran las orillas al sándwich.
+
+Crédito: La Cotorrisa (Slobotzky y Ricardo Pérez; canal de Slobotzky en YouTube), “Episodio 399 - El doctor me sacó el jueguito de princesa”. Video original (minuto 39:29): https://youtu.be/XUh-fUA_o30?t=2369
+
+#LaCotorrisa #DiCaprio #TheRevenant #Humor
+```
+
+**Etiquetas:** La Cotorrisa, Slobotzky, Ricardo Pérez, Leonardo DiCaprio, The Revenant, hígado de bisonte, podcast de comedia, humor
+
 ## Comandos
 
-- Aprobar todas las plataformas de un clip: `/publicador aprobar <clip-id>`
-- Aprobar una sola plataforma: `/publicador aprobar <clip-id>:<plataforma>` (por ejemplo `/publicador aprobar 2026-11-11-francupido-plantada-langosta:youtube`)
-- Aprobar todo lo pendiente: `/publicador aprobar todo`
-- Rechazar: `/publicador rechazar <clip-id> <motivo>` (o `<clip-id>:<plataforma>`; con `:tiktok` el clip deja de ir a la bandeja)
-- Cambiar un texto: dilo en la instrucción, por ejemplo «cambia el título de YouTube de <clip-id> por …».
+- Aprobar un clip en todas sus plataformas: `/publicador aprobar <clip-id>` (por ejemplo, `/publicador aprobar 2026-11-13-jhovanoty-faja-disfraz`).
+- Aprobar una sola plataforma: `/publicador aprobar <clip-id>:<plataforma>` (por ejemplo, `/publicador aprobar 2026-11-13-cotorrisa-vinchi-dicaprio:youtube`).
+- Aprobar todo lo pendiente: `/publicador aprobar todo` (Instagram y YouTube siguen sin activar: solo deja los envíos listos).
+- Rechazar: `/publicador rechazar <clip-id> <motivo>`, o `/publicador rechazar <clip-id>:<plataforma> <motivo>` para una sola plataforma.
