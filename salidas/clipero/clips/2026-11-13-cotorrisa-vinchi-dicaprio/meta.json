@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-13-cotorrisa-vinchi-dicaprio",
+    "url_fuente":  "https://www.youtube.com/watch?v=XUh-fUA_o30",
+    "video_id":  "XUh-fUA_o30",
+    "inicio":  2291.73,
+    "fin":  2333.1,
+    "inicio_hms":  "0:38:11",
+    "duracion_seg":  41.4,
+    "gancho":  "Por qué DiCaprio se llama Leonardo",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  91,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -17.84,
+                  "entrada_tp":  -5.32,
+                  "salida_lufs":  -13.95,
+                  "salida_tp":  -1.48
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-13-cotorrisa-vinchi-dicaprio/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-13-cotorrisa-vinchi-dicaprio/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-13-cotorrisa-vinchi-dicaprio/revision.jpg",
+    "creado":  "2026-11-13T18:58:23.3491776-05:00"
+}

@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-13-cotorrisa-navajas-suizas",
+    "url_fuente":  "https://www.youtube.com/watch?v=XUh-fUA_o30",
+    "video_id":  "XUh-fUA_o30",
+    "inicio":  1541.13,
+    "fin":  1577.94,
+    "inicio_hms":  "0:25:41",
+    "duracion_seg":  36.8,
+    "gancho":  "16 navajas suizas en la pañalera",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  115,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -16.69,
+                  "entrada_tp":  -4.55,
+                  "salida_lufs":  -13.84,
+                  "salida_tp":  -1.86
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-13-cotorrisa-navajas-suizas/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-13-cotorrisa-navajas-suizas/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-13-cotorrisa-navajas-suizas/revision.jpg",
+    "creado":  "2026-11-13T18:51:51.7077594-05:00"
+}

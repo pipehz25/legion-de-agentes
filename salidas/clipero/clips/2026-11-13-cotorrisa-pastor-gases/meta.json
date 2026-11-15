@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-13-cotorrisa-pastor-gases",
+    "url_fuente":  "https://www.youtube.com/watch?v=XUh-fUA_o30",
+    "video_id":  "XUh-fUA_o30",
+    "inicio":  7122.65,
+    "fin":  7194.65,
+    "inicio_hms":  "1:58:42",
+    "duracion_seg":  72,
+    "gancho":  "El pastor que \u0027cura\u0027 con gases",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  202,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -17.96,
+                  "entrada_tp":  -5.43,
+                  "salida_lufs":  -13.95,
+                  "salida_tp":  -1.47
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-13-cotorrisa-pastor-gases/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-13-cotorrisa-pastor-gases/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-13-cotorrisa-pastor-gases/revision.jpg",
+    "creado":  "2026-11-13T19:08:59.2333629-05:00"
+}

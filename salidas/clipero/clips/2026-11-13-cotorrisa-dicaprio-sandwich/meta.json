@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-13-cotorrisa-dicaprio-sandwich",
+    "url_fuente":  "https://www.youtube.com/watch?v=XUh-fUA_o30",
+    "video_id":  "XUh-fUA_o30",
+    "inicio":  2369.25,
+    "fin":  2441.06,
+    "inicio_hms":  "0:39:29",
+    "duracion_seg":  71.9,
+    "gancho":  "DiCaprio comió hígado crudo de bisonte",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  247,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -18.05,
+                  "entrada_tp":  -5.53,
+                  "salida_lufs":  -13.98,
+                  "salida_tp":  -1.48
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-13-cotorrisa-dicaprio-sandwich/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-13-cotorrisa-dicaprio-sandwich/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-13-cotorrisa-dicaprio-sandwich/revision.jpg",
+    "creado":  "2026-11-13T19:12:56.5536861-05:00"
+}

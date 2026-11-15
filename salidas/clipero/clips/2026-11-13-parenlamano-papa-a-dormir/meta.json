@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-13-parenlamano-papa-a-dormir",
+    "url_fuente":  "https://www.youtube.com/watch?v=K4MCv-DXdmI",
+    "video_id":  "K4MCv-DXdmI",
+    "inicio":  1547.96,
+    "fin":  1592.41,
+    "inicio_hms":  "0:25:47",
+    "duracion_seg":  44.5,
+    "gancho":  "Así imaginan al Papa cuando ya quiere dormir",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  149,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -16.23,
+                  "entrada_tp":  -6.49,
+                  "salida_lufs":  -13.86,
+                  "salida_tp":  -4.3
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-13-parenlamano-papa-a-dormir/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-13-parenlamano-papa-a-dormir/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-13-parenlamano-papa-a-dormir/revision.jpg",
+    "creado":  "2026-11-13T19:24:36.4057163-05:00"
+}

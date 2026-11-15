@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-13-jhovanoty-radar-eldorado",
+    "url_fuente":  "https://www.youtube.com/watch?v=lEDdtE48rBk",
+    "video_id":  "lEDdtE48rBk",
+    "inicio":  112.55,
+    "fin":  168.7,
+    "inicio_hms":  "0:01:52",
+    "duracion_seg":  56.2,
+    "gancho":  "Cuando se cayó el radar de El Dorado",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  168,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14.2,
+                  "limitador":  true,
+                  "entrada_lufs":  -20.77,
+                  "entrada_tp":  -7.58,
+                  "salida_lufs":  -13.97,
+                  "salida_tp":  -1.01
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-13-jhovanoty-radar-eldorado/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-13-jhovanoty-radar-eldorado/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-13-jhovanoty-radar-eldorado/revision.jpg",
+    "creado":  "2026-11-13T19:32:05.0376983-05:00"
+}

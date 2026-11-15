@@ -1,0 +1,30 @@
+{
+    "id":  "2026-11-13-cotorrisa-papa-cadenero",
+    "url_fuente":  "https://www.youtube.com/watch?v=XUh-fUA_o30",
+    "video_id":  "XUh-fUA_o30",
+    "inicio":  6913.09,
+    "fin":  6942.69,
+    "inicio_hms":  "1:55:13",
+    "duracion_seg":  29.6,
+    "recorte_final":  "El corte del script terminaba en 6943,06 s e incluía 'Y me quitó' (el chiste siguiente, sobre 'la coca'). Se recortó con ffmpeg a 29,6 s para terminar en 'Tú no pasas' (13-nov, 19:05).",
+    "gancho":  "El Papa Francisco fue cadenero de antro",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  95,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -17.78,
+                  "entrada_tp":  -5.64,
+                  "salida_lufs":  -14.01,
+                  "salida_tp":  -1.87
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-13-cotorrisa-papa-cadenero/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-13-cotorrisa-papa-cadenero/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-13-cotorrisa-papa-cadenero/revision.jpg",
+    "creado":  "2026-11-13T19:03:35.2995487-05:00"
+}

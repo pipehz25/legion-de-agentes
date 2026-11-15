@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-13-samulx-chanty-cruce-willito",
+    "url_fuente":  "https://www.youtube.com/watch?v=Gnhd74tjACk",
+    "video_id":  "Gnhd74tjACk",
+    "inicio":  513.97,
+    "fin":  578.14,
+    "inicio_hms":  "0:08:33",
+    "duracion_seg":  64.2,
+    "gancho":  "A un día de pelear, se cruzan con Willito",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  145,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14.7,
+                  "limitador":  true,
+                  "entrada_lufs":  -19.34,
+                  "entrada_tp":  -5.71,
+                  "salida_lufs":  -15.26,
+                  "salida_tp":  -1.07
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-13-samulx-chanty-cruce-willito/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-13-samulx-chanty-cruce-willito/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-13-samulx-chanty-cruce-willito/revision.jpg",
+    "creado":  "2026-11-13T19:36:18.4981390-05:00"
+}

@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-13-parenlamano-cardenal-prevost",
+    "url_fuente":  "https://www.youtube.com/watch?v=K4MCv-DXdmI",
+    "video_id":  "K4MCv-DXdmI",
+    "inicio":  1792.36,
+    "fin":  1850.26,
+    "inicio_hms":  "0:29:52",
+    "duracion_seg":  57.9,
+    "gancho":  "Hace dos años nadie conocía al Papa",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  167,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -16.5,
+                  "entrada_tp":  -6.53,
+                  "salida_lufs":  -13.99,
+                  "salida_tp":  -4.04
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-13-parenlamano-cardenal-prevost/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-13-parenlamano-cardenal-prevost/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-13-parenlamano-cardenal-prevost/revision.jpg",
+    "creado":  "2026-11-13T19:20:41.9389427-05:00"
+}

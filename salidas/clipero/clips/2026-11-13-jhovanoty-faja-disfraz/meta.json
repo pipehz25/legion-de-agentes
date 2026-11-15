@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-13-jhovanoty-faja-disfraz",
+    "url_fuente":  "https://www.youtube.com/watch?v=lEDdtE48rBk",
+    "video_id":  "lEDdtE48rBk",
+    "inicio":  683.55,
+    "fin":  755.9,
+    "inicio_hms":  "0:11:23",
+    "duracion_seg":  72.4,
+    "gancho":  "Su disfraz de De la Espriella pedía faja",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  205,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14.5,
+                  "limitador":  true,
+                  "entrada_lufs":  -22.34,
+                  "entrada_tp":  -8.85,
+                  "salida_lufs":  -14.34,
+                  "salida_tp":  -1.01
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-13-jhovanoty-faja-disfraz/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-13-jhovanoty-faja-disfraz/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-13-jhovanoty-faja-disfraz/revision.jpg",
+    "creado":  "2026-11-13T19:28:36.8889045-05:00"
+}
