@@ -1,6 +1,28 @@
 # La noche en 3 momentos (lo que no salió en las noticias)
 
-> **Estado (14-nov, 23:00, ciclo 11): es su momento. Publicar del 15-nov por la mañana al 16-nov; el evento sigue en directo a las 23:00.** Lo nuevo:
+> **Estado (15-nov, 23:10, ciclo 12): último día. Publicar hasta el 16-nov por la noche; desde el 17-nov el tema pasa a saturación.** Lo nuevo:
+> - **Los 3 momentos ya están subidos en [WestCOL Exclusive](https://www.youtube.com/channel/UCegOWcfL7xyR5DY_0skPkAQ), con subtítulos de YouTube:**
+>   1. ['WESTCOL VS BLESDD | PELEA DE ROBOTS'](https://www.youtube.com/watch?v=JXz7WBq3d7Y): 15,4 min, 159.958 vistas a las 22 h (7.271/h).
+>   2. ['LONCHE | WILLITO VS CHANTY | SAMULX'](https://www.youtube.com/watch?v=YnH7FMz8iKQ): 19 min, 2.938/h.
+>   3. El combate más comentado en X, JH de la Cruz contra La Piquiña. 'Herrera' lleva 24 h en el top 10 de X Colombia (mejor puesto #2). El propio JH subió el combate a [su canal](https://www.youtube.com/watch?v=2Fa3ZGQMCBg): 787.118 vistas a las 25,6 h (30.747/h), 2,5 veces sus suscriptores. En la miniatura tacha a otro rival, así que todo apunta a que La Piquiña sustituyó a Herrera. Dilo como "según su miniatura" hasta que lo confirme él en el video.
+> - **El gancho que más rinde el día después es la pregunta.** WReals, un canal de 848 suscriptores, sube recaps de 22 a 28 min con títulos en pregunta:
+>   - ['WESTCOL vs BLESSD: la pelea más RARA de Stream Fighters'](https://www.youtube.com/watch?v=aJkeikLGCzc): 23.719/h, 360 veces sus suscriptores.
+>   - ['¿QUIÉN GANÓ? Willito - Lonche vs Chanty - Samulx'](https://www.youtube.com/watch?v=ZJ0F-Wt-_n8): 6.451/h.
+>   - ['LEANDRO vs SEBASTUCHO | ¿La MEJOR pelea de Stream Fighters?'](https://www.youtube.com/watch?v=-f_diTsJsfs): 5.239/h.
+>
+>   Para el gancho de 0-2 s, prueba "¿La pelea más rara de Stream Fighters?" o "¿Quién ganó de verdad?" antes del resultado. No se sabe si WReals es un canal oficial: corta siempre de WestCOL Exclusive.
+> - **Kris R ya tiene material en persona:** su show en el evento ([6Dhaq_SdcZ8](https://www.youtube.com/watch?v=6Dhaq_SdcZ8), sin el audio de las canciones) y su aparición en ['¿CUÁNTO VALE TU OUTFIT? EN STREAM FIGHTERS 5'](https://www.youtube.com/watch?v=_koEcQBXZnw) (Jorge Andrés, 1,32 M de suscriptores; 5.961/h a las 3,3 h; en la miniatura salen Kris R y Hades66 con "+$2.000.000").
+> - **El después de los peleadores:** Samulx emite en Kick 'DESPUES DE LA PELEA PASARON MUCHAS COSAS' (42.368/h a las 2,6 h) y en Live Samulx cuenta 'ME DISLOQUÉ EL HOMBRO'. Es una lesión: cuéntala como la cuenta él, sin repetir el golpe en cámara lenta.
+> - **Resultados:** la búsqueda web no indexa ninguna crónica del 15-nov. Escribe solo los resultados que se vean en el video; los títulos de terceros ('REYDELACITY GANA LA PELEA…', ElReyWithTheClips) no confirman nada.
+> - **Fuera, por regla:** las resubidas sin licencia (kevinerik, BABII, ElReyWithTheClips), los videos 'EN VIVO' engañosos, los combates cuya rivalidad viene de un reality (Emiro Navarro contra Valentino Lázaro; el 'Royal Rumble' de Yaya, Karola, Beba y Alexa) y la tendencia 'Primo Gay' de X Colombia: no se sabe de dónde sale y puede rozar la homofobia.
+> - **Segunda variante del fin de semana, Luzu TV contra 412 (Argentina, 15-nov), vigente hasta el 17-nov** (`tema-luzu-vs-412-revancha`, crecimiento, puntaje 76). La revancha del "Gran Partido del Streaming" es el evento de streamers más visto del día en español: el [directo de Luzu TV](https://www.youtube.com/watch?v=fqTOVcxJv7w) suma 5,67 M de vistas en 7,7 h y '#LuzuVs412' es #1 en X Argentina y en la lista mundial. Los 3 momentos:
+>   1. El resultado, que da el propio canal del perdedor: ['412 6 - 7 LUZU TV'](https://www.youtube.com/watch?v=pRTy0SZIvz4), 86.050/h.
+>   2. La jugada que más se comenta: según el título de CobrismoOOC, un doblete de La Cobra y un penal errado.
+>   3. La reacción del perdedor: Davoo Xeneize prende stream tras la derrota ([30.722/h](https://www.youtube.com/watch?v=g2egYIq0QbY)).
+>
+>   Gancho: "412 volvió a perder" o "¿Por qué 412 no le puede ganar a Luzu?". Final: "¿Habrá tercera?". En X Colombia y México no aparece: es para el público de streamers en general, no para el colombiano en particular.
+>
+> **Estado anterior (14-nov, 23:00, ciclo 11): es su momento. Publicar del 15-nov por la mañana al 16-nov; el evento sigue en directo a las 23:00.** Lo nuevo:
 > - **Fuente principal:** el canal oficial secundario de Westcol, [WestCOL Exclusive](https://www.youtube.com/channel/UCegOWcfL7xyR5DY_0skPkAQ), sube cada combate de 1 a 3 h después de terminar. ['DAREN RAMIREZ VS AGROPECUARIO'](https://www.youtube.com/watch?v=G7gj3T1-_lk) va a 15.264 vistas por hora a las 3,3 h y ['ENTRADA DE WESTCOL EN STREAM FIGHTERS 5'](https://www.youtube.com/watch?v=pofJeEqiGF0), a 6.913/h. Corta de ahí antes que del VOD de Kick (sin subtítulos) y nunca de las resubidas de terceros (savox67, BABII), que no tienen licencia.
 > - **Los 3 momentos:** (1) Westcol contra Blessd con robots, cuando esté subido; (2) la pelea por parejas, Lonche y Willito contra The Chanty y Samulx (su pesaje juntos va a 5.407/h); (3) el momento de la noche que más suba en X (a las 23:00, 'Herrera' #2, 'Emiro' #3 y 'Valentino' #4 en Colombia). Escribe los resultados solo si se ven en el video o los confirma la prensa. Ojo: el corto 'Daren noquea al agropecuario' (West Clip, 4 vistas) no es confirmación.
 > - **Fuera, por regla:** los combates cuya rivalidad viene de un reality (Beba contra Alexa, Karola y Yaya en el 'Royal Rumble', Emiro Navarro contra Valentino Lázaro, según Noticias RCN), y la salud de Emiro Navarro (Google CO, 'emiro').
