@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-15-nsn-santa-regalos",
+    "url_fuente":  "https://www.youtube.com/watch?v=pSyuyPq7uh0",
+    "video_id":  "pSyuyPq7uh0",
+    "inicio":  1035.33,
+    "fin":  1086.7,
+    "inicio_hms":  "0:17:15",
+    "duracion_seg":  51.4,
+    "gancho":  "¿Por qué hay regalos si viene Santa Claus?",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  145,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -16.49,
+                  "entrada_tp":  -3.94,
+                  "salida_lufs":  -14.03,
+                  "salida_tp":  -1.45
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-15-nsn-santa-regalos/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-15-nsn-santa-regalos/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-15-nsn-santa-regalos/revision.jpg",
+    "creado":  "2026-11-15T18:57:32.1251258-05:00"
+}

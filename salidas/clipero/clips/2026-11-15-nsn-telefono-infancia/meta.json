@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-15-nsn-telefono-infancia",
+    "url_fuente":  "https://www.youtube.com/watch?v=pSyuyPq7uh0",
+    "video_id":  "pSyuyPq7uh0",
+    "inicio":  424.8,
+    "fin":  479.38,
+    "inicio_hms":  "0:07:04",
+    "duracion_seg":  54.6,
+    "gancho":  "Llamó al teléfono de su infancia… y contestaron",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  152,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -15.13,
+                  "entrada_tp":  -2.62,
+                  "salida_lufs":  -13.88,
+                  "salida_tp":  -1.49
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-15-nsn-telefono-infancia/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-15-nsn-telefono-infancia/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-15-nsn-telefono-infancia/revision.jpg",
+    "creado":  "2026-11-15T18:55:17.7462675-05:00"
+}

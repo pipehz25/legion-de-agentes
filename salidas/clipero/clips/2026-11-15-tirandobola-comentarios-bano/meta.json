@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-15-tirandobola-comentarios-bano",
+    "url_fuente":  "https://www.youtube.com/watch?v=niP1DkpCYvs",
+    "video_id":  "niP1DkpCYvs",
+    "inicio":  2149.97,
+    "fin":  2181.5,
+    "inicio_hms":  "0:35:49",
+    "duracion_seg":  31.6,
+    "gancho":  "Dónde lee Franco los comentarios negativos",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  100,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1012,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -18.22,
+                  "entrada_tp":  -5.43,
+                  "salida_lufs":  -13.74,
+                  "salida_tp":  -1.21
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-15-tirandobola-comentarios-bano/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-15-tirandobola-comentarios-bano/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-15-tirandobola-comentarios-bano/revision.jpg",
+    "creado":  "2026-11-15T18:36:09.9089260-05:00"
+}

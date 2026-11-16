@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-14-stf5-westcol-patadita",
+    "url_fuente":  "https://www.youtube.com/watch?v=pofJeEqiGF0",
+    "video_id":  "pofJeEqiGF0",
+    "inicio":  285.09,
+    "fin":  350.4,
+    "inicio_hms":  "0:04:45",
+    "duracion_seg":  65.3,
+    "gancho":  "La patadita de la buena suerte para Westcol",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  109,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -20.83,
+                  "entrada_tp":  -8.2,
+                  "salida_lufs":  -14.03,
+                  "salida_tp":  -1.37
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-14-stf5-westcol-patadita/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-14-stf5-westcol-patadita/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-14-stf5-westcol-patadita/revision.jpg",
+    "creado":  "2026-11-15T00:01:05.0274452-05:00"
+}

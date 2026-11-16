@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-15-parenlamano-barrera-2am",
+    "url_fuente":  "https://www.youtube.com/watch?v=92HshiOuj1k",
+    "video_id":  "92HshiOuj1k",
+    "inicio":  2494.25,
+    "fin":  2555.34,
+    "inicio_hms":  "0:41:34",
+    "duracion_seg":  61.1,
+    "gancho":  "La regla de las 2 de la mañana",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  214,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -16.61,
+                  "entrada_tp":  -6.21,
+                  "salida_lufs":  -14.05,
+                  "salida_tp":  -3.62
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-15-parenlamano-barrera-2am/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-15-parenlamano-barrera-2am/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-15-parenlamano-barrera-2am/revision.jpg",
+    "creado":  "2026-11-15T18:47:21.3581433-05:00"
+}

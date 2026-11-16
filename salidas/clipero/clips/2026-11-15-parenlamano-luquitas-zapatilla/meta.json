@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-15-parenlamano-luquitas-zapatilla",
+    "url_fuente":  "https://www.youtube.com/watch?v=uRZ2xc4sRyA",
+    "video_id":  "uRZ2xc4sRyA",
+    "inicio":  149.97,
+    "fin":  213.58,
+    "inicio_hms":  "0:02:29",
+    "duracion_seg":  63.6,
+    "gancho":  "Mientras Luquitas hablaba con el Papa…",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  162,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -17.2,
+                  "entrada_tp":  -6.68,
+                  "salida_lufs":  -13.99,
+                  "salida_tp":  -3.48
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-15-parenlamano-luquitas-zapatilla/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-15-parenlamano-luquitas-zapatilla/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-15-parenlamano-luquitas-zapatilla/revision.jpg",
+    "creado":  "2026-11-15T18:21:04.5695093-05:00"
+}

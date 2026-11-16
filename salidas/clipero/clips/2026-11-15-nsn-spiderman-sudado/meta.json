@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-15-nsn-spiderman-sudado",
+    "url_fuente":  "https://www.youtube.com/watch?v=pSyuyPq7uh0",
+    "video_id":  "pSyuyPq7uh0",
+    "inicio":  1831.53,
+    "fin":  1890.18,
+    "inicio_hms":  "0:30:31",
+    "duracion_seg":  58.7,
+    "gancho":  "El problema que nadie ve de Spider-Man",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  168,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -16.73,
+                  "entrada_tp":  -4.19,
+                  "salida_lufs":  -13.92,
+                  "salida_tp":  -1.46
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-15-nsn-spiderman-sudado/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-15-nsn-spiderman-sudado/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-15-nsn-spiderman-sudado/revision.jpg",
+    "creado":  "2026-11-15T18:59:55.5702474-05:00"
+}

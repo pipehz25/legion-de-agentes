@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-14-stf5-daren-cinco-segundos",
+    "url_fuente":  "https://www.youtube.com/watch?v=G7gj3T1-_lk",
+    "video_id":  "G7gj3T1-_lk",
+    "inicio":  105.69,
+    "fin":  137.2,
+    "inicio_hms":  "0:01:45",
+    "duracion_seg":  31.5,
+    "gancho":  "En 5 segundos tumbó al Agropecuario",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  70,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -16.86,
+                  "entrada_tp":  -4.34,
+                  "salida_lufs":  -13.93,
+                  "salida_tp":  -1.48
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-14-stf5-daren-cinco-segundos/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-14-stf5-daren-cinco-segundos/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-14-stf5-daren-cinco-segundos/revision.jpg",
+    "creado":  "2026-11-14T23:45:05.9453619-05:00"
+}

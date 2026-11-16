@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-15-tirandobola-marco-gana",
+    "url_fuente":  "https://www.youtube.com/watch?v=niP1DkpCYvs",
+    "video_id":  "niP1DkpCYvs",
+    "inicio":  3486.25,
+    "fin":  3517.46,
+    "inicio_hms":  "0:58:06",
+    "duracion_seg":  31.3,
+    "gancho":  "Marco Polo le ganó a Franco al billar",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  114,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1012,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -14.36,
+                  "entrada_tp":  -1.82,
+                  "salida_lufs":  -13.79,
+                  "salida_tp":  -1.46
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-15-tirandobola-marco-gana/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-15-tirandobola-marco-gana/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-15-tirandobola-marco-gana/revision.jpg",
+    "creado":  "2026-11-15T18:37:51.1799413-05:00"
+}

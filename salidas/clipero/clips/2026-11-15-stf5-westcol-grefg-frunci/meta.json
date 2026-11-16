@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-15-stf5-westcol-grefg-frunci",
+    "url_fuente":  "https://www.youtube.com/watch?v=zkf8bOkg9kk",
+    "video_id":  "zkf8bOkg9kk",
+    "inicio":  2759.61,
+    "fin":  2790.1,
+    "inicio_hms":  "0:45:59",
+    "duracion_seg":  30.5,
+    "gancho":  "Lo que sintió Westcol al ver a Grefg",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  137,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -23.47,
+                  "entrada_tp":  -10.78,
+                  "salida_lufs":  -13.87,
+                  "salida_tp":  -1.31
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-15-stf5-westcol-grefg-frunci/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-15-stf5-westcol-grefg-frunci/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-15-stf5-westcol-grefg-frunci/revision.jpg",
+    "creado":  "2026-11-15T00:12:42.3846958-05:00"
+}

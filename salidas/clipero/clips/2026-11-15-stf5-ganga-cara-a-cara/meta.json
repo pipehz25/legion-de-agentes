@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-15-stf5-ganga-cara-a-cara",
+    "url_fuente":  "https://www.youtube.com/watch?v=zkf8bOkg9kk",
+    "video_id":  "zkf8bOkg9kk",
+    "inicio":  8753.77,
+    "fin":  8792.86,
+    "inicio_hms":  "2:25:53",
+    "duracion_seg":  39.1,
+    "gancho":  "El cara a cara de la Ganga se calentó",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  97,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -19.11,
+                  "entrada_tp":  -6.36,
+                  "salida_lufs":  -13.91,
+                  "salida_tp":  -1.25
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-15-stf5-ganga-cara-a-cara/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-15-stf5-ganga-cara-a-cara/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-15-stf5-ganga-cara-a-cara/revision.jpg",
+    "creado":  "2026-11-15T18:26:18.5383122-05:00"
+}

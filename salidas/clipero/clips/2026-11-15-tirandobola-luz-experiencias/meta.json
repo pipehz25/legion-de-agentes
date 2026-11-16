@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-15-tirandobola-luz-experiencias",
+    "url_fuente":  "https://www.youtube.com/watch?v=niP1DkpCYvs",
+    "video_id":  "niP1DkpCYvs",
+    "inicio":  1721.17,
+    "fin":  1783.82,
+    "inicio_hms":  "0:28:41",
+    "duracion_seg":  62.7,
+    "gancho":  "¿Se paga la luz con experiencias?",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  203,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1012,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -16.54,
+                  "entrada_tp":  -3.88,
+                  "salida_lufs":  -13.96,
+                  "salida_tp":  -1.34
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-15-tirandobola-luz-experiencias/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-15-tirandobola-luz-experiencias/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-15-tirandobola-luz-experiencias/revision.jpg",
+    "creado":  "2026-11-15T18:42:01.5953733-05:00"
+}

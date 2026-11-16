@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-15-tirandobola-perra-amigo",
+    "url_fuente":  "https://www.youtube.com/watch?v=niP1DkpCYvs",
+    "video_id":  "niP1DkpCYvs",
+    "inicio":  1543.73,
+    "fin":  1583.02,
+    "inicio_hms":  "0:25:43",
+    "duracion_seg":  39.3,
+    "gancho":  "Cuando Franco no te insulta, preocúpate",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  133,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1012,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -15.07,
+                  "entrada_tp":  -2.5,
+                  "salida_lufs":  -13.87,
+                  "salida_tp":  -1.43
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-15-tirandobola-perra-amigo/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-15-tirandobola-perra-amigo/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-15-tirandobola-perra-amigo/revision.jpg",
+    "creado":  "2026-11-15T18:31:18.3406845-05:00"
+}

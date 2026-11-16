@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-14-stf5-daren-quiero-guerra",
+    "url_fuente":  "https://www.youtube.com/watch?v=G7gj3T1-_lk",
+    "video_id":  "G7gj3T1-_lk",
+    "inicio":  709.73,
+    "fin":  760.06,
+    "inicio_hms":  "0:11:49",
+    "duracion_seg":  50.3,
+    "gancho":  "Daren tras su primera victoria en Stream Fighters",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  119,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14.3,
+                  "limitador":  true,
+                  "entrada_lufs":  -19.5,
+                  "entrada_tp":  -6.23,
+                  "salida_lufs":  -14.34,
+                  "salida_tp":  -1.03
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-14-stf5-daren-quiero-guerra/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-14-stf5-daren-quiero-guerra/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-14-stf5-daren-quiero-guerra/revision.jpg",
+    "creado":  "2026-11-14T23:51:56.9535308-05:00"
+}
