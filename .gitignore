@@ -13,6 +13,10 @@ salidas/clipero/clips/**/*.mp4
 salidas/clipero/clips/**/*.jpg
 salidas/**/trabajo/
 
+# Copias de los clips de un encargo ordenadas en una carpeta por video (solo se versionan los indices)
+salidas/clipero/encargos/**/*.mp4
+salidas/clipero/encargos/**/*.jpg
+
 # Lo mismo dentro de cada espacio (espacios/<nombre>/ tiene sus propios datos y salidas)
 espacios/*/datos/*/crudo/
 espacios/*/datos/clipero/fuentes/
