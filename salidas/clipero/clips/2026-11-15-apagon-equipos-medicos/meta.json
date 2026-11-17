@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-15-apagon-equipos-medicos",
+    "url_fuente":  "https://www.youtube.com/watch?v=W7CMeCj4Tvc",
+    "video_id":  "W7CMeCj4Tvc",
+    "inicio":  439.75,
+    "fin":  478.3,
+    "inicio_hms":  "0:07:19",
+    "duracion_seg":  38.6,
+    "gancho":  "Un apagón puede ser una emergencia médica",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  84,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -14.88,
+                  "entrada_tp":  -2.37,
+                  "salida_lufs":  -13.92,
+                  "salida_tp":  -1.49
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-15-apagon-equipos-medicos/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-15-apagon-equipos-medicos/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-15-apagon-equipos-medicos/revision.jpg",
+    "creado":  "2026-11-16T23:43:12.7820797-05:00"
+}

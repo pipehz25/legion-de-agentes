@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-15-cables-satelites-o-cables",
+    "url_fuente":  "https://www.youtube.com/watch?v=R4DAOhTK2ME",
+    "video_id":  "R4DAOhTK2ME",
+    "inicio":  967.15,
+    "fin":  1015.4,
+    "inicio_hms":  "0:16:07",
+    "duracion_seg":  48.3,
+    "gancho":  "Si hay satélites, ¿por qué usar cables?",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  103,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -15.11,
+                  "entrada_tp":  -2.57,
+                  "salida_lufs":  -13.97,
+                  "salida_tp":  -1.46
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-15-cables-satelites-o-cables/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-15-cables-satelites-o-cables/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-15-cables-satelites-o-cables/revision.jpg",
+    "creado":  "2026-11-16T23:35:32.4195408-05:00"
+}

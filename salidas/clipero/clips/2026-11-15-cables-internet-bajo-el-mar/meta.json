@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-15-cables-internet-bajo-el-mar",
+    "url_fuente":  "https://www.youtube.com/watch?v=R4DAOhTK2ME",
+    "video_id":  "R4DAOhTK2ME",
+    "inicio":  40.15,
+    "fin":  74.3,
+    "inicio_hms":  "0:00:40",
+    "duracion_seg":  34.2,
+    "gancho":  "El internet viaja por el fondo del mar",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  82,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -14.66,
+                  "entrada_tp":  -2.14,
+                  "salida_lufs":  -13.97,
+                  "salida_tp":  -1.48
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-15-cables-internet-bajo-el-mar/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-15-cables-internet-bajo-el-mar/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-15-cables-internet-bajo-el-mar/revision.jpg",
+    "creado":  "2026-11-16T23:08:13.9642578-05:00"
+}

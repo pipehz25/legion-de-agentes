@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-15-apagon-generador-peligro",
+    "url_fuente":  "https://www.youtube.com/watch?v=W7CMeCj4Tvc",
+    "video_id":  "W7CMeCj4Tvc",
+    "inicio":  830.25,
+    "fin":  883,
+    "inicio_hms":  "0:13:50",
+    "duracion_seg":  52.8,
+    "gancho":  "Nunca hagas esto en un apagón",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  121,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -14.45,
+                  "entrada_tp":  -1.92,
+                  "salida_lufs":  -13.98,
+                  "salida_tp":  -1.47
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-15-apagon-generador-peligro/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-15-apagon-generador-peligro/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-15-apagon-generador-peligro/revision.jpg",
+    "creado":  "2026-11-16T23:04:52.0253189-05:00"
+}

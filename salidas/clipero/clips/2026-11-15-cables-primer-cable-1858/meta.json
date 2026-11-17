@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-15-cables-primer-cable-1858",
+    "url_fuente":  "https://www.youtube.com/watch?v=R4DAOhTK2ME",
+    "video_id":  "R4DAOhTK2ME",
+    "inicio":  433.65,
+    "fin":  498.6,
+    "inicio_hms":  "0:07:13",
+    "duracion_seg":  65,
+    "gancho":  "En 1858 cruzaron el Atlántico con un cable",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  127,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -14.85,
+                  "entrada_tp":  -2.29,
+                  "salida_lufs":  -13.97,
+                  "salida_tp":  -1.44
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-15-cables-primer-cable-1858/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-15-cables-primer-cable-1858/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-15-cables-primer-cable-1858/revision.jpg",
+    "creado":  "2026-11-16T23:40:22.6109231-05:00"
+}

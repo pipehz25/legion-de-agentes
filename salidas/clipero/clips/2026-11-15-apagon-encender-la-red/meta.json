@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-15-apagon-encender-la-red",
+    "url_fuente":  "https://www.youtube.com/watch?v=W7CMeCj4Tvc",
+    "video_id":  "W7CMeCj4Tvc",
+    "inicio":  1051.25,
+    "fin":  1082.4,
+    "inicio_hms":  "0:17:31",
+    "duracion_seg":  31.2,
+    "gancho":  "Volver a encender la luz no es fácil",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  64,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -14.23,
+                  "entrada_tp":  -1.71,
+                  "salida_lufs":  -13.88,
+                  "salida_tp":  -1.48
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-15-apagon-encender-la-red/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-15-apagon-encender-la-red/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-15-apagon-encender-la-red/revision.jpg",
+    "creado":  "2026-11-16T23:36:49.9006370-05:00"
+}

@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-15-sistema-solar-dos-anillos",
+    "url_fuente":  "https://www.youtube.com/watch?v=6LYfElVz2lg",
+    "video_id":  "6LYfElVz2lg",
+    "inicio":  37.25,
+    "fin":  89.5,
+    "inicio_hms":  "0:00:37",
+    "duracion_seg":  52.3,
+    "gancho":  "¿Algo sobrevivió a la muerte de su sol?",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  123,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -14.82,
+                  "entrada_tp":  -2.3,
+                  "salida_lufs":  -14.01,
+                  "salida_tp":  -1.48
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-15-sistema-solar-dos-anillos/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-15-sistema-solar-dos-anillos/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-15-sistema-solar-dos-anillos/revision.jpg",
+    "creado":  "2026-11-15T23:28:38.7614664-05:00"
+}

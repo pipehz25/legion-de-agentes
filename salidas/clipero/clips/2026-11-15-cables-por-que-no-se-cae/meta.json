@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-15-cables-por-que-no-se-cae",
+    "url_fuente":  "https://www.youtube.com/watch?v=R4DAOhTK2ME",
+    "video_id":  "R4DAOhTK2ME",
+    "inicio":  862.05,
+    "fin":  906.3,
+    "inicio_hms":  "0:14:22",
+    "duracion_seg":  44.3,
+    "gancho":  "La razón por la que internet no se cae",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  98,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -14.72,
+                  "entrada_tp":  -2.18,
+                  "salida_lufs":  -13.94,
+                  "salida_tp":  -1.46
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-15-cables-por-que-no-se-cae/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-15-cables-por-que-no-se-cae/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-15-cables-por-que-no-se-cae/revision.jpg",
+    "creado":  "2026-11-16T23:29:33.4032724-05:00"
+}

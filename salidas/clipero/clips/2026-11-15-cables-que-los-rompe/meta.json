@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-15-cables-que-los-rompe",
+    "url_fuente":  "https://www.youtube.com/watch?v=R4DAOhTK2ME",
+    "video_id":  "R4DAOhTK2ME",
+    "inicio":  677.05,
+    "fin":  736.6,
+    "inicio_hms":  "0:11:17",
+    "duracion_seg":  59.6,
+    "gancho":  "Lo que más rompe los cables de internet",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  131,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -14.67,
+                  "entrada_tp":  -2.16,
+                  "salida_lufs":  -13.93,
+                  "salida_tp":  -1.49
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-15-cables-que-los-rompe/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-15-cables-que-los-rompe/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-15-cables-que-los-rompe/revision.jpg",
+    "creado":  "2026-11-16T23:06:52.4959936-05:00"
+}

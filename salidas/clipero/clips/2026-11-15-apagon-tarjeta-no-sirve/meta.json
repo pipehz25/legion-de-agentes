@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-15-apagon-tarjeta-no-sirve",
+    "url_fuente":  "https://www.youtube.com/watch?v=W7CMeCj4Tvc",
+    "video_id":  "W7CMeCj4Tvc",
+    "inicio":  295.34,
+    "fin":  342.69,
+    "inicio_hms":  "0:04:55",
+    "duracion_seg":  47.4,
+    "gancho":  "Sin luz, tu tarjeta no sirve",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  108,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -14.68,
+                  "entrada_tp":  -2.14,
+                  "salida_lufs":  -13.86,
+                  "salida_tp":  -1.46
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-15-apagon-tarjeta-no-sirve/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-15-apagon-tarjeta-no-sirve/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-15-apagon-tarjeta-no-sirve/revision.jpg",
+    "creado":  "2026-11-15T23:30:18.1193625-05:00"
+}

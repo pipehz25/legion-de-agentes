@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-15-apagon-mundo-a-oscuras",
+    "url_fuente":  "https://www.youtube.com/watch?v=W7CMeCj4Tvc",
+    "video_id":  "W7CMeCj4Tvc",
+    "inicio":  59.45,
+    "fin":  134.39,
+    "inicio_hms":  "0:00:59",
+    "duracion_seg":  75,
+    "gancho":  "¿Y si se apagara todo el planeta?",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  163,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -14.93,
+                  "entrada_tp":  -2.4,
+                  "salida_lufs":  -13.94,
+                  "salida_tp":  -1.47
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-15-apagon-mundo-a-oscuras/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-15-apagon-mundo-a-oscuras/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-15-apagon-mundo-a-oscuras/revision.jpg",
+    "creado":  "2026-11-16T23:47:40.6649631-05:00"
+}

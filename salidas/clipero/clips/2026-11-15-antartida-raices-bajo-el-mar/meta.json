@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-15-antartida-raices-bajo-el-mar",
+    "url_fuente":  "https://www.youtube.com/watch?v=yhZ7_DOA4mI",
+    "video_id":  "yhZ7_DOA4mI",
+    "inicio":  157.04,
+    "fin":  202.79,
+    "inicio_hms":  "0:02:37",
+    "duracion_seg":  45.8,
+    "gancho":  "Perforaron el fondo marino y hallaron raíces",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  102,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -13.72,
+                  "entrada_tp":  -1.2,
+                  "salida_lufs":  -13.95,
+                  "salida_tp":  -1.48
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-15-antartida-raices-bajo-el-mar/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-15-antartida-raices-bajo-el-mar/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-15-antartida-raices-bajo-el-mar/revision.jpg",
+    "creado":  "2026-11-16T23:14:34.3706396-05:00"
+}

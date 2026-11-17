@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-15-sistema-solar-asi-terminaria",
+    "url_fuente":  "https://www.youtube.com/watch?v=6LYfElVz2lg",
+    "video_id":  "6LYfElVz2lg",
+    "inicio":  1042.05,
+    "fin":  1097.8,
+    "inicio_hms":  "0:17:22",
+    "duracion_seg":  55.8,
+    "gancho":  "Así podría terminar nuestro sistema solar",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  124,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -14.78,
+                  "entrada_tp":  -2.25,
+                  "salida_lufs":  -13.92,
+                  "salida_tp":  -1.47
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-15-sistema-solar-asi-terminaria/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-15-sistema-solar-asi-terminaria/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-15-sistema-solar-asi-terminaria/revision.jpg",
+    "creado":  "2026-11-15T23:32:14.9834754-05:00"
+}

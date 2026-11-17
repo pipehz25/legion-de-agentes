@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-15-sistema-solar-sin-enviar-naves",
+    "url_fuente":  "https://www.youtube.com/watch?v=6LYfElVz2lg",
+    "video_id":  "6LYfElVz2lg",
+    "inicio":  1148.55,
+    "fin":  1196.4,
+    "inicio_hms":  "0:19:08",
+    "duracion_seg":  47.9,
+    "gancho":  "Lo descubrieron sin enviar ninguna nave",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  100,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -15.28,
+                  "entrada_tp":  -2.75,
+                  "salida_lufs":  -13.95,
+                  "salida_tp":  -1.47
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-15-sistema-solar-sin-enviar-naves/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-15-sistema-solar-sin-enviar-naves/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-15-sistema-solar-sin-enviar-naves/revision.jpg",
+    "creado":  "2026-11-16T23:24:14.6765967-05:00"
+}

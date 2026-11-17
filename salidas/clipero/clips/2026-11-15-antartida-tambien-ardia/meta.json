@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-15-antartida-tambien-ardia",
+    "url_fuente":  "https://www.youtube.com/watch?v=yhZ7_DOA4mI",
+    "video_id":  "yhZ7_DOA4mI",
+    "inicio":  727.15,
+    "fin":  777.2,
+    "inicio_hms":  "0:12:07",
+    "duracion_seg":  50.1,
+    "gancho":  "La Antártida también se incendiaba",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  102,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -14.48,
+                  "entrada_tp":  -1.92,
+                  "salida_lufs":  -13.9,
+                  "salida_tp":  -1.44
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-15-antartida-tambien-ardia/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-15-antartida-tambien-ardia/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-15-antartida-tambien-ardia/revision.jpg",
+    "creado":  "2026-11-16T23:44:54.0682701-05:00"
+}

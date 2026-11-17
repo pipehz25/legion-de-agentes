@@ -1,0 +1,878 @@
+{
+    "generado":  "2026-11-16T23:49:09-05:00",
+    "encargo":  "2026-11-15-curiosismo",
+    "ciclo":  null,
+    "nota":  "Entradas del encargo CurioSismo pendientes de registrar en salidas/clipero/clips.json (mismo esquema; copia_encargo es un campo extra).",
+    "clips":  [
+                  {
+                      "id":  "2026-11-15-antartida-fue-un-bosque",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  80,
+                      "gancho":  "La Antártida fue un bosque",
+                      "archivo":  "salidas/clipero/clips/2026-11-15-antartida-fue-un-bosque/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-15-antartida-fue-un-bosque/ficha.md",
+                      "duracion_seg":  35.3,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=yhZ7_DOA4mI",
+                                     "canal":  "CurioSismo",
+                                     "inicio":  36.45,
+                                     "fin":  71.7
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "curiosidades",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "propio",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-12-15",
+                      "copia_encargo":  "curiosismo/01-antartida-selva/01-fue-un-bosque.mp4"
+                  },
+                  {
+                      "id":  "2026-11-15-antartida-tambien-ardia",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  79,
+                      "gancho":  "La Antártida también se incendiaba",
+                      "archivo":  "salidas/clipero/clips/2026-11-15-antartida-tambien-ardia/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-15-antartida-tambien-ardia/ficha.md",
+                      "duracion_seg":  50.1,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=yhZ7_DOA4mI",
+                                     "canal":  "CurioSismo",
+                                     "inicio":  727.15,
+                                     "fin":  777.2
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "curiosidades",
+                      "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "propio",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-12-15",
+                      "copia_encargo":  "curiosismo/01-antartida-selva/02-tambien-ardia.mp4"
+                  },
+                  {
+                      "id":  "2026-11-15-antartida-dinosaurios",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  77,
+                      "gancho":  "Hubo dinosaurios en la Antártida",
+                      "archivo":  "salidas/clipero/clips/2026-11-15-antartida-dinosaurios/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-15-antartida-dinosaurios/ficha.md",
+                      "duracion_seg":  53.2,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=yhZ7_DOA4mI",
+                                     "canal":  "CurioSismo",
+                                     "inicio":  618.55,
+                                     "fin":  671.7
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "curiosidades",
+                      "orden_en_fuente":  3,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "propio",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-12-15",
+                      "copia_encargo":  "curiosismo/01-antartida-selva/03-dinosaurios.mp4"
+                  },
+                  {
+                      "id":  "2026-11-15-antartida-raices-bajo-el-mar",
+                      "estado":  "listo",
+                      "tipo":  "historia",
+                      "puntaje":  76,
+                      "gancho":  "Perforaron el fondo marino y hallaron raíces",
+                      "archivo":  "salidas/clipero/clips/2026-11-15-antartida-raices-bajo-el-mar/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-15-antartida-raices-bajo-el-mar/ficha.md",
+                      "duracion_seg":  45.8,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=yhZ7_DOA4mI",
+                                     "canal":  "CurioSismo",
+                                     "inicio":  157.04,
+                                     "fin":  202.79
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "curiosidades",
+                      "orden_en_fuente":  4,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "propio",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-12-15",
+                      "copia_encargo":  "curiosismo/01-antartida-selva/04-raices-bajo-el-mar.mp4"
+                  },
+                  {
+                      "id":  "2026-11-15-antartida-12-grados",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  74,
+                      "gancho":  "12 °C cerca del Polo Sur",
+                      "archivo":  "salidas/clipero/clips/2026-11-15-antartida-12-grados/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-15-antartida-12-grados/ficha.md",
+                      "duracion_seg":  40.6,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=yhZ7_DOA4mI",
+                                     "canal":  "CurioSismo",
+                                     "inicio":  374.95,
+                                     "fin":  415.5
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "curiosidades",
+                      "orden_en_fuente":  5,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "propio",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-12-15",
+                      "copia_encargo":  "curiosismo/01-antartida-selva/05-12-grados.mp4"
+                  },
+                  {
+                      "id":  "2026-11-15-sistema-solar-dos-anillos",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  84,
+                      "gancho":  "¿Algo sobrevivió a la muerte de su sol?",
+                      "archivo":  "salidas/clipero/clips/2026-11-15-sistema-solar-dos-anillos/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-15-sistema-solar-dos-anillos/ficha.md",
+                      "duracion_seg":  52.3,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=6LYfElVz2lg",
+                                     "canal":  "CurioSismo",
+                                     "inicio":  37.25,
+                                     "fin":  89.5
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "curiosidades",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "propio",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-30",
+                      "copia_encargo":  "curiosismo/02-fin-sistema-solar/01-dos-anillos.mp4"
+                  },
+                  {
+                      "id":  "2026-11-15-sistema-solar-asi-terminaria",
+                      "estado":  "listo",
+                      "tipo":  "prediccion",
+                      "puntaje":  82,
+                      "gancho":  "Así podría terminar nuestro sistema solar",
+                      "archivo":  "salidas/clipero/clips/2026-11-15-sistema-solar-asi-terminaria/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-15-sistema-solar-asi-terminaria/ficha.md",
+                      "duracion_seg":  55.8,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=6LYfElVz2lg",
+                                     "canal":  "CurioSismo",
+                                     "inicio":  1042.05,
+                                     "fin":  1097.8
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "curiosidades",
+                      "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "propio",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-30",
+                      "copia_encargo":  "curiosismo/02-fin-sistema-solar/02-asi-terminaria.mp4"
+                  },
+                  {
+                      "id":  "2026-11-15-sistema-solar-desgarrar-mundos",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  76,
+                      "gancho":  "La fuerza que desgarra mundos enteros",
+                      "archivo":  "salidas/clipero/clips/2026-11-15-sistema-solar-desgarrar-mundos/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-15-sistema-solar-desgarrar-mundos/ficha.md",
+                      "duracion_seg":  46.2,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=6LYfElVz2lg",
+                                     "canal":  "CurioSismo",
+                                     "inicio":  903.95,
+                                     "fin":  950.1
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "curiosidades",
+                      "orden_en_fuente":  3,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "propio",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-30",
+                      "copia_encargo":  "curiosismo/02-fin-sistema-solar/03-desgarrar-mundos.mp4"
+                  },
+                  {
+                      "id":  "2026-11-15-sistema-solar-sin-enviar-naves",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  75,
+                      "gancho":  "Lo descubrieron sin enviar ninguna nave",
+                      "archivo":  "salidas/clipero/clips/2026-11-15-sistema-solar-sin-enviar-naves/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-15-sistema-solar-sin-enviar-naves/ficha.md",
+                      "duracion_seg":  47.9,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=6LYfElVz2lg",
+                                     "canal":  "CurioSismo",
+                                     "inicio":  1148.55,
+                                     "fin":  1196.4
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "curiosidades",
+                      "orden_en_fuente":  4,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "propio",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-30",
+                      "copia_encargo":  "curiosismo/02-fin-sistema-solar/04-sin-enviar-naves.mp4"
+                  },
+                  {
+                      "id":  "2026-11-15-sistema-solar-estrella-como-la-tierra",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  72,
+                      "gancho":  "Una estrella del tamaño de la Tierra",
+                      "archivo":  "salidas/clipero/clips/2026-11-15-sistema-solar-estrella-como-la-tierra/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-15-sistema-solar-estrella-como-la-tierra/ficha.md",
+                      "duracion_seg":  34.5,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=6LYfElVz2lg",
+                                     "canal":  "CurioSismo",
+                                     "inicio":  231.24,
+                                     "fin":  265.69
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "curiosidades",
+                      "orden_en_fuente":  5,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "propio",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-30",
+                      "copia_encargo":  "curiosismo/02-fin-sistema-solar/05-estrella-como-la-tierra.mp4"
+                  },
+                  {
+                      "id":  "2026-11-15-sistema-solar-cuatro-picos",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  70,
+                      "gancho":  "La luz delató dos anillos ocultos",
+                      "archivo":  "salidas/clipero/clips/2026-11-15-sistema-solar-cuatro-picos/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-15-sistema-solar-cuatro-picos/ficha.md",
+                      "duracion_seg":  45.7,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=6LYfElVz2lg",
+                                     "canal":  "CurioSismo",
+                                     "inicio":  560.75,
+                                     "fin":  606.4
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "curiosidades",
+                      "orden_en_fuente":  6,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "propio",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-30",
+                      "copia_encargo":  "curiosismo/02-fin-sistema-solar/06-cuatro-picos.mp4"
+                  },
+                  {
+                      "id":  "2026-11-15-cables-que-los-rompe",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  80,
+                      "gancho":  "Lo que más rompe los cables de internet",
+                      "archivo":  "salidas/clipero/clips/2026-11-15-cables-que-los-rompe/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-15-cables-que-los-rompe/ficha.md",
+                      "duracion_seg":  59.6,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=R4DAOhTK2ME",
+                                     "canal":  "CurioSismo",
+                                     "inicio":  677.05,
+                                     "fin":  736.6
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "curiosidades",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "propio",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-12-15",
+                      "copia_encargo":  "curiosismo/03-cables-internet/01-que-los-rompe.mp4"
+                  },
+                  {
+                      "id":  "2026-11-15-cables-internet-bajo-el-mar",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  79,
+                      "gancho":  "El internet viaja por el fondo del mar",
+                      "archivo":  "salidas/clipero/clips/2026-11-15-cables-internet-bajo-el-mar/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-15-cables-internet-bajo-el-mar/ficha.md",
+                      "duracion_seg":  34.2,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=R4DAOhTK2ME",
+                                     "canal":  "CurioSismo",
+                                     "inicio":  40.15,
+                                     "fin":  74.3
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "curiosidades",
+                      "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "propio",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-12-15",
+                      "copia_encargo":  "curiosismo/03-cables-internet/02-internet-bajo-el-mar.mp4"
+                  },
+                  {
+                      "id":  "2026-11-15-cables-manguera-de-luz",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  77,
+                      "gancho":  "Une continentes y es como una manguera",
+                      "archivo":  "salidas/clipero/clips/2026-11-15-cables-manguera-de-luz/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-15-cables-manguera-de-luz/ficha.md",
+                      "duracion_seg":  46.8,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=R4DAOhTK2ME",
+                                     "canal":  "CurioSismo",
+                                     "inicio":  233.44,
+                                     "fin":  280.19
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "curiosidades",
+                      "orden_en_fuente":  3,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "propio",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-12-15",
+                      "copia_encargo":  "curiosismo/03-cables-internet/03-manguera-de-luz.mp4"
+                  },
+                  {
+                      "id":  "2026-11-15-cables-asi-se-reparan",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  74,
+                      "gancho":  "Así reparan los cables del fondo del mar",
+                      "archivo":  "salidas/clipero/clips/2026-11-15-cables-asi-se-reparan/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-15-cables-asi-se-reparan/ficha.md",
+                      "duracion_seg":  58.1,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=R4DAOhTK2ME",
+                                     "canal":  "CurioSismo",
+                                     "inicio":  779.15,
+                                     "fin":  837.2
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "curiosidades",
+                      "orden_en_fuente":  4,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "propio",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-12-15",
+                      "copia_encargo":  "curiosismo/03-cables-internet/04-asi-se-reparan.mp4"
+                  },
+                  {
+                      "id":  "2026-11-15-cables-por-que-no-se-cae",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  74,
+                      "gancho":  "La razón por la que internet no se cae",
+                      "archivo":  "salidas/clipero/clips/2026-11-15-cables-por-que-no-se-cae/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-15-cables-por-que-no-se-cae/ficha.md",
+                      "duracion_seg":  44.3,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=R4DAOhTK2ME",
+                                     "canal":  "CurioSismo",
+                                     "inicio":  862.05,
+                                     "fin":  906.3
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "curiosidades",
+                      "orden_en_fuente":  5,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "propio",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-12-15",
+                      "copia_encargo":  "curiosismo/03-cables-internet/05-por-que-no-se-cae.mp4"
+                  },
+                  {
+                      "id":  "2026-11-15-cables-colombia-12-cables",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  72,
+                      "gancho":  "Colombia depende de 12 cables submarinos",
+                      "archivo":  "salidas/clipero/clips/2026-11-15-cables-colombia-12-cables/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-15-cables-colombia-12-cables/ficha.md",
+                      "duracion_seg":  37.7,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=R4DAOhTK2ME",
+                                     "canal":  "CurioSismo",
+                                     "inicio":  612.15,
+                                     "fin":  649.8
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "curiosidades",
+                      "orden_en_fuente":  6,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "propio",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-12-15",
+                      "copia_encargo":  "curiosismo/03-cables-internet/06-colombia-12-cables.mp4"
+                  },
+                  {
+                      "id":  "2026-11-15-cables-satelites-o-cables",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  72,
+                      "gancho":  "Si hay satélites, ¿por qué usar cables?",
+                      "archivo":  "salidas/clipero/clips/2026-11-15-cables-satelites-o-cables/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-15-cables-satelites-o-cables/ficha.md",
+                      "duracion_seg":  48.3,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=R4DAOhTK2ME",
+                                     "canal":  "CurioSismo",
+                                     "inicio":  967.15,
+                                     "fin":  1015.4
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "curiosidades",
+                      "orden_en_fuente":  7,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "propio",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-12-15",
+                      "copia_encargo":  "curiosismo/03-cables-internet/07-satelites-o-cables.mp4"
+                  },
+                  {
+                      "id":  "2026-11-15-cables-primer-cable-1858",
+                      "estado":  "listo",
+                      "tipo":  "historia",
+                      "puntaje":  71,
+                      "gancho":  "En 1858 cruzaron el Atlántico con un cable",
+                      "archivo":  "salidas/clipero/clips/2026-11-15-cables-primer-cable-1858/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-15-cables-primer-cable-1858/ficha.md",
+                      "duracion_seg":  65,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=R4DAOhTK2ME",
+                                     "canal":  "CurioSismo",
+                                     "inicio":  433.65,
+                                     "fin":  498.6
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "curiosidades",
+                      "orden_en_fuente":  8,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "propio",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-12-15",
+                      "copia_encargo":  "curiosismo/03-cables-internet/08-primer-cable-1858.mp4"
+                  },
+                  {
+                      "id":  "2026-11-15-apagon-tarjeta-no-sirve",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  85,
+                      "gancho":  "Sin luz, tu tarjeta no sirve",
+                      "archivo":  "salidas/clipero/clips/2026-11-15-apagon-tarjeta-no-sirve/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-15-apagon-tarjeta-no-sirve/ficha.md",
+                      "duracion_seg":  47.4,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=W7CMeCj4Tvc",
+                                     "canal":  "CurioSismo",
+                                     "inicio":  295.34,
+                                     "fin":  342.69
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "curiosidades",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "propio",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-12-15",
+                      "copia_encargo":  "curiosismo/04-apagon-mundial/01-tarjeta-no-sirve.mp4"
+                  },
+                  {
+                      "id":  "2026-11-15-apagon-nevera-sin-luz",
+                      "estado":  "listo",
+                      "tipo":  "consejo",
+                      "puntaje":  84,
+                      "gancho":  "¿Cuánto aguanta tu nevera sin luz?",
+                      "archivo":  "salidas/clipero/clips/2026-11-15-apagon-nevera-sin-luz/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-15-apagon-nevera-sin-luz/ficha.md",
+                      "duracion_seg":  53.6,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=W7CMeCj4Tvc",
+                                     "canal":  "CurioSismo",
+                                     "inicio":  360.34,
+                                     "fin":  413.9
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "curiosidades",
+                      "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "propio",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-12-15",
+                      "copia_encargo":  "curiosismo/04-apagon-mundial/02-nevera-sin-luz.mp4"
+                  },
+                  {
+                      "id":  "2026-11-15-apagon-mundo-a-oscuras",
+                      "estado":  "listo",
+                      "tipo":  "historia",
+                      "puntaje":  84,
+                      "gancho":  "¿Y si se apagara todo el planeta?",
+                      "archivo":  "salidas/clipero/clips/2026-11-15-apagon-mundo-a-oscuras/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-15-apagon-mundo-a-oscuras/ficha.md",
+                      "duracion_seg":  75,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=W7CMeCj4Tvc",
+                                     "canal":  "CurioSismo",
+                                     "inicio":  59.45,
+                                     "fin":  134.39
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "curiosidades",
+                      "orden_en_fuente":  3,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "propio",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-12-15",
+                      "copia_encargo":  "curiosismo/04-apagon-mundial/03-mundo-a-oscuras.mp4"
+                  },
+                  {
+                      "id":  "2026-11-15-apagon-generador-peligro",
+                      "estado":  "listo",
+                      "tipo":  "consejo",
+                      "puntaje":  83,
+                      "gancho":  "Nunca hagas esto en un apagón",
+                      "archivo":  "salidas/clipero/clips/2026-11-15-apagon-generador-peligro/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-15-apagon-generador-peligro/ficha.md",
+                      "duracion_seg":  52.8,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=W7CMeCj4Tvc",
+                                     "canal":  "CurioSismo",
+                                     "inicio":  830.25,
+                                     "fin":  883
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "curiosidades",
+                      "orden_en_fuente":  4,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "propio",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-12-15",
+                      "copia_encargo":  "curiosismo/04-apagon-mundial/04-generador-peligro.mp4"
+                  },
+                  {
+                      "id":  "2026-11-15-apagon-agua-necesita-luz",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  78,
+                      "gancho":  "¿El agua de tu casa necesita luz?",
+                      "archivo":  "salidas/clipero/clips/2026-11-15-apagon-agua-necesita-luz/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-15-apagon-agua-necesita-luz/ficha.md",
+                      "duracion_seg":  58.3,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=W7CMeCj4Tvc",
+                                     "canal":  "CurioSismo",
+                                     "inicio":  483.55,
+                                     "fin":  541.8
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "curiosidades",
+                      "orden_en_fuente":  5,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "propio",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-12-15",
+                      "copia_encargo":  "curiosismo/04-apagon-mundial/05-agua-necesita-luz.mp4"
+                  },
+                  {
+                      "id":  "2026-11-15-apagon-gasolina-sin-luz",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  78,
+                      "gancho":  "Sin luz, llenar el tanque se complica",
+                      "archivo":  "salidas/clipero/clips/2026-11-15-apagon-gasolina-sin-luz/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-15-apagon-gasolina-sin-luz/ficha.md",
+                      "duracion_seg":  44,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=W7CMeCj4Tvc",
+                                     "canal":  "CurioSismo",
+                                     "inicio":  569.75,
+                                     "fin":  613.7
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "curiosidades",
+                      "orden_en_fuente":  6,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "propio",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-12-15",
+                      "copia_encargo":  "curiosismo/04-apagon-mundial/06-gasolina-sin-luz.mp4"
+                  },
+                  {
+                      "id":  "2026-11-15-apagon-agua-por-persona",
+                      "estado":  "listo",
+                      "tipo":  "consejo",
+                      "puntaje":  78,
+                      "gancho":  "¿Cuánta agua guardar para un apagón?",
+                      "archivo":  "salidas/clipero/clips/2026-11-15-apagon-agua-por-persona/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-15-apagon-agua-por-persona/ficha.md",
+                      "duracion_seg":  40.6,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=W7CMeCj4Tvc",
+                                     "canal":  "CurioSismo",
+                                     "inicio":  720.05,
+                                     "fin":  760.6
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "curiosidades",
+                      "orden_en_fuente":  7,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "propio",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-12-15",
+                      "copia_encargo":  "curiosismo/04-apagon-mundial/07-agua-por-persona.mp4"
+                  },
+                  {
+                      "id":  "2026-11-15-apagon-kit-basico",
+                      "estado":  "listo",
+                      "tipo":  "consejo",
+                      "puntaje":  77,
+                      "gancho":  "Lo que deberías tener antes de un apagón",
+                      "archivo":  "salidas/clipero/clips/2026-11-15-apagon-kit-basico/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-15-apagon-kit-basico/ficha.md",
+                      "duracion_seg":  46.4,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=W7CMeCj4Tvc",
+                                     "canal":  "CurioSismo",
+                                     "inicio":  783.55,
+                                     "fin":  829.9
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "curiosidades",
+                      "orden_en_fuente":  8,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "propio",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-12-15",
+                      "copia_encargo":  "curiosismo/04-apagon-mundial/08-kit-basico.mp4"
+                  },
+                  {
+                      "id":  "2026-11-15-apagon-preparacion-empieza-antes",
+                      "estado":  "listo",
+                      "tipo":  "consejo",
+                      "puntaje":  77,
+                      "gancho":  "La preparación empieza mucho antes",
+                      "archivo":  "salidas/clipero/clips/2026-11-15-apagon-preparacion-empieza-antes/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-15-apagon-preparacion-empieza-antes/ficha.md",
+                      "duracion_seg":  39.7,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=W7CMeCj4Tvc",
+                                     "canal":  "CurioSismo",
+                                     "inicio":  1157.25,
+                                     "fin":  1196.9
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "curiosidades",
+                      "orden_en_fuente":  9,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "propio",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-12-15",
+                      "copia_encargo":  "curiosismo/04-apagon-mundial/09-preparacion-empieza-antes.mp4"
+                  },
+                  {
+                      "id":  "2026-11-15-apagon-encender-la-red",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  73,
+                      "gancho":  "Volver a encender la luz no es fácil",
+                      "archivo":  "salidas/clipero/clips/2026-11-15-apagon-encender-la-red/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-15-apagon-encender-la-red/ficha.md",
+                      "duracion_seg":  31.2,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=W7CMeCj4Tvc",
+                                     "canal":  "CurioSismo",
+                                     "inicio":  1051.25,
+                                     "fin":  1082.4
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "curiosidades",
+                      "orden_en_fuente":  10,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "propio",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-12-15",
+                      "copia_encargo":  "curiosismo/04-apagon-mundial/10-encender-la-red.mp4"
+                  },
+                  {
+                      "id":  "2026-11-15-apagon-equipos-medicos",
+                      "estado":  "listo",
+                      "tipo":  "consejo",
+                      "puntaje":  72,
+                      "gancho":  "Un apagón puede ser una emergencia médica",
+                      "archivo":  "salidas/clipero/clips/2026-11-15-apagon-equipos-medicos/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-15-apagon-equipos-medicos/ficha.md",
+                      "duracion_seg":  38.6,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=W7CMeCj4Tvc",
+                                     "canal":  "CurioSismo",
+                                     "inicio":  439.75,
+                                     "fin":  478.3
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "curiosidades",
+                      "orden_en_fuente":  11,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "propio",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-12-15",
+                      "copia_encargo":  "curiosismo/04-apagon-mundial/11-equipos-medicos.mp4"
+                  }
+              ]
+}

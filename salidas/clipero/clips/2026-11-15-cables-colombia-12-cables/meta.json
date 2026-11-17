@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-15-cables-colombia-12-cables",
+    "url_fuente":  "https://www.youtube.com/watch?v=R4DAOhTK2ME",
+    "video_id":  "R4DAOhTK2ME",
+    "inicio":  612.15,
+    "fin":  649.8,
+    "inicio_hms":  "0:10:12",
+    "duracion_seg":  37.7,
+    "gancho":  "Colombia depende de 12 cables submarinos",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  88,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -14.85,
+                  "entrada_tp":  -2.34,
+                  "salida_lufs":  -13.91,
+                  "salida_tp":  -1.49
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-15-cables-colombia-12-cables/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-15-cables-colombia-12-cables/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-15-cables-colombia-12-cables/revision.jpg",
+    "creado":  "2026-11-16T23:33:47.8463649-05:00"
+}

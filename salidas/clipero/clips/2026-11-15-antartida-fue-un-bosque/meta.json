@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-15-antartida-fue-un-bosque",
+    "url_fuente":  "https://www.youtube.com/watch?v=yhZ7_DOA4mI",
+    "video_id":  "yhZ7_DOA4mI",
+    "inicio":  36.45,
+    "fin":  71.7,
+    "inicio_hms":  "0:00:36",
+    "duracion_seg":  35.3,
+    "gancho":  "La Antártida fue un bosque",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  91,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -13.61,
+                  "entrada_tp":  -1.11,
+                  "salida_lufs":  -13.91,
+                  "salida_tp":  -1.5
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-15-antartida-fue-un-bosque/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-15-antartida-fue-un-bosque/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-15-antartida-fue-un-bosque/revision.jpg",
+    "creado":  "2026-11-15T23:38:17.3572645-05:00"
+}

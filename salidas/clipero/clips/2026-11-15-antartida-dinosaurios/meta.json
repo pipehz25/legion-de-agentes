@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-15-antartida-dinosaurios",
+    "url_fuente":  "https://www.youtube.com/watch?v=yhZ7_DOA4mI",
+    "video_id":  "yhZ7_DOA4mI",
+    "inicio":  618.55,
+    "fin":  671.7,
+    "inicio_hms":  "0:10:18",
+    "duracion_seg":  53.2,
+    "gancho":  "Hubo dinosaurios en la Antártida",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  112,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -14.07,
+                  "entrada_tp":  -1.52,
+                  "salida_lufs":  -13.96,
+                  "salida_tp":  -1.45
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-15-antartida-dinosaurios/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-15-antartida-dinosaurios/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-15-antartida-dinosaurios/revision.jpg",
+    "creado":  "2026-11-16T23:12:33.0768706-05:00"
+}
