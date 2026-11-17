@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-17-cotorrisa-paloma-medalla",
+    "url_fuente":  "https://www.youtube.com/watch?v=VzE65NyXqb8",
+    "video_id":  "VzE65NyXqb8",
+    "inicio":  2582.13,
+    "fin":  2630.38,
+    "inicio_hms":  "0:43:02",
+    "duracion_seg":  48.3,
+    "gancho":  "A una paloma le dieron medalla de guerra",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  149,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -19.3,
+                  "entrada_tp":  -6.73,
+                  "salida_lufs":  -13.97,
+                  "salida_tp":  -1.43
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-17-cotorrisa-paloma-medalla/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-17-cotorrisa-paloma-medalla/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-17-cotorrisa-paloma-medalla/revision.jpg",
+    "creado":  "2026-11-17T16:33:26.6776876-05:00"
+}

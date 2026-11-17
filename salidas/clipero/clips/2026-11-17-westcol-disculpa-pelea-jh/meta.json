@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-17-westcol-disculpa-pelea-jh",
+    "url_fuente":  "https://www.youtube.com/watch?v=YQ-vOO3-Ghk",
+    "video_id":  "YQ-vOO3-Ghk",
+    "inicio":  1062.25,
+    "fin":  1123.86,
+    "inicio_hms":  "0:17:42",
+    "duracion_seg":  61.6,
+    "gancho":  "Westcol pide perdón por la pelea de JH",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  240,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -19.5,
+                  "entrada_tp":  -11.85,
+                  "salida_lufs":  -13.97,
+                  "salida_tp":  -6.63
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-17-westcol-disculpa-pelea-jh/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-17-westcol-disculpa-pelea-jh/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-17-westcol-disculpa-pelea-jh/revision.jpg",
+    "creado":  "2026-11-17T13:01:48.9837388-05:00"
+}

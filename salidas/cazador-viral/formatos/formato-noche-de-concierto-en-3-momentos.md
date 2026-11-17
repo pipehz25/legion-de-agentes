@@ -1,6 +1,17 @@
 # La noche en 3 momentos (lo que no salió en las noticias)
 
-> **Estado (15-nov, 23:10, ciclo 12): último día. Publicar hasta el 16-nov por la noche; desde el 17-nov el tema pasa a saturación.** Lo nuevo:
+> **Estado (17-nov, 00:40, ciclo 13): en pausa hasta el concierto de Kris R.** Los dos eventos del fin de semana ya no se recomiendan:
+> - **Stream Fighters 5** pasa a saturación (índice 72). '#StreamFighters5' y 'Herrera' salen de X Colombia, los destaques de Kick se frenan y las recopilaciones de terceros no rinden ('LO MÁS RANDOM de la VELADA DE WESTCOL 2026', 9/h).
+> - **Luzu TV contra 412** pasa a pico (puntaje 58). El directo de Luzu se frena (5,95 M a las 32,6 h) y la conversación de terceros gira al chisme del cruce entre Occhiato y Agusneta.
+> - **Lo que sigue rindiendo** es el día después contado por los protagonistas, con otra ficha: [formato-lo-que-no-se-vio](formato-lo-que-no-se-vio.md) (Westcol sobre Herrera, 5,2 veces su mediana; Samulx desde los camerinos; Davoo, '¿MERECIMOS PERDER?').
+> - **Próximo uso de esta ficha: el concierto de Kris R en el DAVIarena (Sabaneta), el viernes 20-nov.** Publicar del 20-nov por la noche al 22-nov con estos tres momentos:
+>   1. La entrada o el primer tema, sin el audio de la canción.
+>   2. El invitado sorpresa, si lo hay y se ve en el video.
+>   3. Lo que diga él al público entre canciones.
+>
+>   Fuentes: su canal y los canales que suban el concierto con permiso. Al día siguiente, el después va con la otra ficha.
+>
+> **Estado anterior (15-nov, 23:10, ciclo 12): último día. Publicar hasta el 16-nov por la noche; desde el 17-nov el tema pasa a saturación.** Lo nuevo:
 > - **Los 3 momentos ya están subidos en [WestCOL Exclusive](https://www.youtube.com/channel/UCegOWcfL7xyR5DY_0skPkAQ), con subtítulos de YouTube:**
 >   1. ['WESTCOL VS BLESDD | PELEA DE ROBOTS'](https://www.youtube.com/watch?v=JXz7WBq3d7Y): 15,4 min, 159.958 vistas a las 22 h (7.271/h).
 >   2. ['LONCHE | WILLITO VS CHANTY | SAMULX'](https://www.youtube.com/watch?v=YnH7FMz8iKQ): 19 min, 2.938/h.

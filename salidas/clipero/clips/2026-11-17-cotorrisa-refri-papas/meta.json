@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-17-cotorrisa-refri-papas",
+    "url_fuente":  "https://www.youtube.com/watch?v=VzE65NyXqb8",
+    "video_id":  "VzE65NyXqb8",
+    "inicio":  3084.45,
+    "fin":  3142.77,
+    "inicio_hms":  "0:51:24",
+    "duracion_seg":  58.4,
+    "gancho":  "Hoy es el día de limpiar el refri",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  212,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -18.81,
+                  "entrada_tp":  -6.25,
+                  "salida_lufs":  -13.9,
+                  "salida_tp":  -1.44
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-17-cotorrisa-refri-papas/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-17-cotorrisa-refri-papas/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-17-cotorrisa-refri-papas/revision.jpg",
+    "creado":  "2026-11-17T16:43:52.0948083-05:00"
+}

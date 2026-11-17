@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-17-hh-aeropuerto-4am",
+    "url_fuente":  "https://www.youtube.com/watch?v=qDAqPW70T7c",
+    "video_id":  "qDAqPW70T7c",
+    "inicio":  2694.77,
+    "fin":  2752.18,
+    "inicio_hms":  "0:44:54",
+    "duracion_seg":  57.5,
+    "gancho":  "Los citaron a las 4 am en el aeropuerto",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  150,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -12.74,
+                  "entrada_tp":  -0.53,
+                  "salida_lufs":  -14.02,
+                  "salida_tp":  -1.79
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-17-hh-aeropuerto-4am/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-17-hh-aeropuerto-4am/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-17-hh-aeropuerto-4am/revision.jpg",
+    "creado":  "2026-11-17T14:12:05.4836213-05:00"
+}

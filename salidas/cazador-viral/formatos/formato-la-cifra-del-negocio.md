@@ -1,6 +1,13 @@
 # ¿Cuánto te deja? La cifra del negocio, dicha por el dueño
 
-> **Estado (15-nov, ciclo 12): vigente hasta el 24-nov, con puntaje 71 (antes 73).** Lo nuevo:
+> **Estado (17-nov, ciclo 13): vigente hasta el 24-nov, con puntaje 72 (antes 71).** Lo nuevo:
+> - **El precio revelado de los famosos sobre-rinde; el precio solo, no.** Con la mediana de Jorge Andrés medida (207.784 vistas en sus 9 videos anteriores, casi todos con el precio en el título), ['¿CUÁNTO VALE TU OUTFIT? EN STREAM FIGHTERS 5'](https://www.youtube.com/watch?v=_koEcQBXZnw) llega a 327.242 vistas a las 28,4 h, 1,57 veces esa mediana. Lo que cambia frente a sus otros videos es quién lleva la ropa: Kris R y Hades66 en un evento.
+> - **Para la música urbana:**
+>   - La pieza es "¿Cuánto vale lo que lleva puesto Kris R?", con el precio en pantalla cuando lo dice él.
+>   - El concierto del 20-nov en el DAVIarena es la próxima ocasión: el outfit del show, si lo cuenta él o su equipo.
+> - **Empresarios:** la búsqueda 'podcast empresario millonario' (36 h) no trae ninguna pieza nueva de la cifra explicada en español que rinda. Diego RR y Santiago Ospina no publicaron nada nuevo.
+>
+> **Estado anterior (15-nov, ciclo 12): vigente hasta el 24-nov, con puntaje 71 (antes 73).** Lo nuevo:
 > - **El título solo no basta.** Un tercer canal, [Adri Kastel](https://www.youtube.com/watch?v=PUDn85Rbz1w) (103 K), copia la plantilla "Millonario revela…" y se queda en 0,03 veces sus suscriptores a las 29 h. Lo que rinde es la cifra dicha y explicada, no la palabra "millonario" en el título.
 > - **Variante nueva, el precio revelado en un evento de los perfiles:** ['¿CUÁNTO VALE TU OUTFIT? EN STREAM FIGHTERS 5'](https://www.youtube.com/watch?v=_koEcQBXZnw) de Jorge Andrés (1,32 M), con Kris R y Hades66 en la miniatura y "+$2.000.000", va a 6.542/h a las 3,6 h (sin mediana del canal). Un corto de un canal nuevo, ['Cuanto Vale Tu Outfit???'](https://www.youtube.com/watch?v=l47kwgd8L0I) (CierzoClub), rinde unas 85 veces más que sus otros cortos. Para la música urbana, la pieza es: "¿Cuánto vale lo que lleva puesto [cantante]?", con la cifra en pantalla cuando la dice él y la pregunta para adivinar antes. Solo cifras dichas en cámara por quien las lleva.
 > - **Diego RR** solo publicó un directo nuevo, con 4 vistas ('ASÍ ES UNA NOCHE CON LOS EMPRESARIOS MAS GRANDES DE COLOMBIA'): si dice cifras, es la fuente de la variante de empresarios.

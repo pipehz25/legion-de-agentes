@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-17-hh-estafa-reventa",
+    "url_fuente":  "https://www.youtube.com/watch?v=qDAqPW70T7c",
+    "video_id":  "qDAqPW70T7c",
+    "inicio":  363.45,
+    "fin":  409.6,
+    "inicio_hms":  "0:06:03",
+    "duracion_seg":  46.2,
+    "gancho":  "Pagó la mitad por si era estafa",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  126,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -11.15,
+                  "entrada_tp":  -0.64,
+                  "salida_lufs":  -14.04,
+                  "salida_tp":  -3.49
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-17-hh-estafa-reventa/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-17-hh-estafa-reventa/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-17-hh-estafa-reventa/revision.jpg",
+    "creado":  "2026-11-17T14:13:48.1970634-05:00"
+}

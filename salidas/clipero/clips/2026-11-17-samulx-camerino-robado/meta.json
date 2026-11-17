@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-17-samulx-camerino-robado",
+    "url_fuente":  "https://www.youtube.com/watch?v=GkojR4E0tuY",
+    "video_id":  "GkojR4E0tuY",
+    "inicio":  1346.41,
+    "fin":  1385.22,
+    "inicio_hms":  "0:22:26",
+    "duracion_seg":  38.8,
+    "gancho":  "Así le quitaron el camerino a Lonche y Willito",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  147,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -16.53,
+                  "entrada_tp":  -3.68,
+                  "salida_lufs":  -14.12,
+                  "salida_tp":  -1.15
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-17-samulx-camerino-robado/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-17-samulx-camerino-robado/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-17-samulx-camerino-robado/revision.jpg",
+    "creado":  "2026-11-17T13:38:54.1557432-05:00"
+}

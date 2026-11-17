@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-17-ganga-robot-precio",
+    "url_fuente":  "https://www.youtube.com/watch?v=s1betCsTVVE",
+    "video_id":  "s1betCsTVVE",
+    "inicio":  2070.25,
+    "fin":  2125.78,
+    "inicio_hms":  "0:34:30",
+    "duracion_seg":  55.5,
+    "gancho":  "¿Cuánto cuesta un robot de Stream Fighters?",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  196,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -21.22,
+                  "entrada_tp":  -13.89,
+                  "salida_lufs":  -13.96,
+                  "salida_tp":  -6.7
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-17-ganga-robot-precio/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-17-ganga-robot-precio/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-17-ganga-robot-precio/revision.jpg",
+    "creado":  "2026-11-17T16:41:34.8189179-05:00"
+}

@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-17-samulx-dime-que-no-puedes",
+    "url_fuente":  "https://www.youtube.com/watch?v=GkojR4E0tuY",
+    "video_id":  "GkojR4E0tuY",
+    "inicio":  213.93,
+    "fin":  267.98,
+    "inicio_hms":  "0:03:33",
+    "duracion_seg":  54.1,
+    "gancho":  "Se le salió el hombro y su entrenador…",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  211,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -14.08,
+                  "entrada_tp":  -1.45,
+                  "salida_lufs":  -14.04,
+                  "salida_tp":  -1.37
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-17-samulx-dime-que-no-puedes/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-17-samulx-dime-que-no-puedes/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-17-samulx-dime-que-no-puedes/revision.jpg",
+    "creado":  "2026-11-17T13:26:47.4072819-05:00"
+}

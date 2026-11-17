@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-17-westcol-daren-mentiroso",
+    "url_fuente":  "https://www.youtube.com/watch?v=YQ-vOO3-Ghk",
+    "video_id":  "YQ-vOO3-Ghk",
+    "inicio":  589.41,
+    "fin":  616.38,
+    "inicio_hms":  "0:09:49",
+    "duracion_seg":  27,
+    "gancho":  "Lo que Daren le dijo a Westcol después",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  111,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -19.27,
+                  "entrada_tp":  -11.58,
+                  "salida_lufs":  -13.95,
+                  "salida_tp":  -6.79
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-17-westcol-daren-mentiroso/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-17-westcol-daren-mentiroso/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-17-westcol-daren-mentiroso/revision.jpg",
+    "creado":  "2026-11-17T14:07:37.9201837-05:00"
+}

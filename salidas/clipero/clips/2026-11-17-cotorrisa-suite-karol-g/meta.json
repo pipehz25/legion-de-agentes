@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-17-cotorrisa-suite-karol-g",
+    "url_fuente":  "https://www.youtube.com/watch?v=VzE65NyXqb8",
+    "video_id":  "VzE65NyXqb8",
+    "inicio":  241.49,
+    "fin":  281.04,
+    "inicio_hms":  "0:04:01",
+    "duracion_seg":  39.6,
+    "gancho":  "La suite de Karol G, a un volado",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  122,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -18.73,
+                  "entrada_tp":  -6.16,
+                  "salida_lufs":  -14.08,
+                  "salida_tp":  -1.43
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-17-cotorrisa-suite-karol-g/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-17-cotorrisa-suite-karol-g/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-17-cotorrisa-suite-karol-g/revision.jpg",
+    "creado":  "2026-11-17T14:23:30.4558539-05:00"
+}

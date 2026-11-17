@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-17-westcol-show-kris-r",
+    "url_fuente":  "https://www.youtube.com/watch?v=YQ-vOO3-Ghk",
+    "video_id":  "YQ-vOO3-Ghk",
+    "inicio":  196.13,
+    "fin":  230.3,
+    "inicio_hms":  "0:03:16",
+    "duracion_seg":  34.2,
+    "gancho":  "Westcol sobre el show de Kris R",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  114,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -19.32,
+                  "entrada_tp":  -11.26,
+                  "salida_lufs":  -13.95,
+                  "salida_tp":  -5.94
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-17-westcol-show-kris-r/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-17-westcol-show-kris-r/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-17-westcol-show-kris-r/revision.jpg",
+    "creado":  "2026-11-17T14:10:05.9405867-05:00"
+}

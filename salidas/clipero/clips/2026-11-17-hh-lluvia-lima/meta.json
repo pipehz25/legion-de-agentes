@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-17-hh-lluvia-lima",
+    "url_fuente":  "https://www.youtube.com/watch?v=qDAqPW70T7c",
+    "video_id":  "qDAqPW70T7c",
+    "inicio":  40.89,
+    "fin":  87.02,
+    "inicio_hms":  "0:00:40",
+    "duracion_seg":  46.2,
+    "gancho":  "Un peruano descubre la lluvia de verdad",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  140,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -12.49,
+                  "entrada_tp":  -0.66,
+                  "salida_lufs":  -14.06,
+                  "salida_tp":  -2.17
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-17-hh-lluvia-lima/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-17-hh-lluvia-lima/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-17-hh-lluvia-lima/revision.jpg",
+    "creado":  "2026-11-17T14:21:57.3846085-05:00"
+}

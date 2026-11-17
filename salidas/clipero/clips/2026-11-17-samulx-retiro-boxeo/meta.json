@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-17-samulx-retiro-boxeo",
+    "url_fuente":  "https://www.youtube.com/watch?v=GkojR4E0tuY",
+    "video_id":  "GkojR4E0tuY",
+    "inicio":  970.77,
+    "fin":  1000.9,
+    "inicio_hms":  "0:16:10",
+    "duracion_seg":  30.1,
+    "gancho":  "Samulx: «creo que me voy a retirar»",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  141,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -16.89,
+                  "entrada_tp":  -4.12,
+                  "salida_lufs":  -14.04,
+                  "salida_tp":  -1.23
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-17-samulx-retiro-boxeo/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-17-samulx-retiro-boxeo/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-17-samulx-retiro-boxeo/revision.jpg",
+    "creado":  "2026-11-17T13:07:46.7398865-05:00"
+}

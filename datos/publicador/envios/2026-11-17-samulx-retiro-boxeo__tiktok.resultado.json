@@ -1,0 +1,17 @@
+{
+    "ok":  true,
+    "plataforma":  "tiktok",
+    "cuenta":  "principal",
+    "clip":  "2026-11-17-samulx-retiro-boxeo",
+    "simulado":  false,
+    "estado":  "procesando",
+    "id_publicacion":  "v_inbox_file~v2.7709263033935349773",
+    "url":  null,
+    "privacidad":  "borrador",
+    "duracion_seg":  30.1,
+    "avisos":  [
+
+               ],
+    "error":  null,
+    "fecha":  "2026-11-17T16:58:26-05:00"
+}

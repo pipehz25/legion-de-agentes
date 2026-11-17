@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-17-hh-colada-tres-minutos",
+    "url_fuente":  "https://www.youtube.com/watch?v=qDAqPW70T7c",
+    "video_id":  "qDAqPW70T7c",
+    "inicio":  5833.85,
+    "fin":  5895.26,
+    "inicio_hms":  "1:37:13",
+    "duracion_seg":  61.4,
+    "gancho":  "Se coló al show y duró 3 minutos",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  151,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -11.23,
+                  "entrada_tp":  -0.55,
+                  "salida_lufs":  -13.95,
+                  "salida_tp":  -3.4
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-17-hh-colada-tres-minutos/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-17-hh-colada-tres-minutos/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-17-hh-colada-tres-minutos/revision.jpg",
+    "creado":  "2026-11-17T14:18:19.9328241-05:00"
+}

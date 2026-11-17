@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-17-samulx-entrada-sin-musica",
+    "url_fuente":  "https://www.youtube.com/watch?v=GkojR4E0tuY",
+    "video_id":  "GkojR4E0tuY",
+    "inicio":  1036.65,
+    "fin":  1099.98,
+    "inicio_hms":  "0:17:16",
+    "duracion_seg":  63.3,
+    "gancho":  "Iba a salir con Akapellah… y pasó esto",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  234,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -14.39,
+                  "entrada_tp":  -1.74,
+                  "salida_lufs":  -13.92,
+                  "salida_tp":  -1.35
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-17-samulx-entrada-sin-musica/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-17-samulx-entrada-sin-musica/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-17-samulx-entrada-sin-musica/revision.jpg",
+    "creado":  "2026-11-17T13:46:46.6604557-05:00"
+}

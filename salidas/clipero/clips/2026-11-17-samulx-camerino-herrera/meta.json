@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-17-samulx-camerino-herrera",
+    "url_fuente":  "https://www.youtube.com/watch?v=GkojR4E0tuY",
+    "video_id":  "GkojR4E0tuY",
+    "inicio":  1126.69,
+    "fin":  1181.3,
+    "inicio_hms":  "0:18:46",
+    "duracion_seg":  54.6,
+    "gancho":  "Lo que pasó en los camerinos con Herrera",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  221,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -15.7,
+                  "entrada_tp":  -2.76,
+                  "salida_lufs":  -13.83,
+                  "salida_tp":  -1.06
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-17-samulx-camerino-herrera/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-17-samulx-camerino-herrera/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-17-samulx-camerino-herrera/revision.jpg",
+    "creado":  "2026-11-17T13:33:47.5606581-05:00"
+}

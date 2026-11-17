@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-17-samulx-cuarto-round",
+    "url_fuente":  "https://www.youtube.com/watch?v=GkojR4E0tuY",
+    "video_id":  "GkojR4E0tuY",
+    "inicio":  384.69,
+    "fin":  425.74,
+    "inicio_hms":  "0:06:24",
+    "duracion_seg":  41.1,
+    "gancho":  "Le dijeron que eran tres rounds…",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  163,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -14.1,
+                  "entrada_tp":  -1.5,
+                  "salida_lufs":  -14,
+                  "salida_tp":  -1.4
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-17-samulx-cuarto-round/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-17-samulx-cuarto-round/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-17-samulx-cuarto-round/revision.jpg",
+    "creado":  "2026-11-17T13:29:48.7868434-05:00"
+}

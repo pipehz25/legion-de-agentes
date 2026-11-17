@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-17-lonche-cinco-lesiones",
+    "url_fuente":  "https://www.youtube.com/watch?v=s1betCsTVVE",
+    "video_id":  "s1betCsTVVE",
+    "inicio":  81.41,
+    "fin":  119.86,
+    "inicio_hms":  "0:01:21",
+    "duracion_seg":  38.4,
+    "gancho":  "Lonche peleó la primera vez con cinco lesiones",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  123,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -20.18,
+                  "entrada_tp":  -12.18,
+                  "salida_lufs":  -13.89,
+                  "salida_tp":  -6.03
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-17-lonche-cinco-lesiones/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-17-lonche-cinco-lesiones/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-17-lonche-cinco-lesiones/revision.jpg",
+    "creado":  "2026-11-17T13:53:47.3602669-05:00"
+}

@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-17-samulx-clinica-fotico",
+    "url_fuente":  "https://www.youtube.com/watch?v=GkojR4E0tuY",
+    "video_id":  "GkojR4E0tuY",
+    "inicio":  843.05,
+    "fin":  895.46,
+    "inicio_hms":  "0:14:03",
+    "duracion_seg":  52.4,
+    "gancho":  "Se iba de la clínica y el doctor…",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  212,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -15.98,
+                  "entrada_tp":  -3.07,
+                  "salida_lufs":  -13.98,
+                  "salida_tp":  -1.09
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-17-samulx-clinica-fotico/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-17-samulx-clinica-fotico/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-17-samulx-clinica-fotico/revision.jpg",
+    "creado":  "2026-11-17T13:42:35.6408490-05:00"
+}

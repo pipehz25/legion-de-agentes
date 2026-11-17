@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-17-hh-colada-bano",
+    "url_fuente":  "https://www.youtube.com/watch?v=qDAqPW70T7c",
+    "video_id":  "qDAqPW70T7c",
+    "inicio":  5744.97,
+    "fin":  5809.6,
+    "inicio_hms":  "1:35:44",
+    "duracion_seg":  64.6,
+    "gancho":  "Se coló al show escondida en el baño",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  146,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -10.74,
+                  "entrada_tp":  -0.69,
+                  "salida_lufs":  -14.02,
+                  "salida_tp":  -4
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-17-hh-colada-bano/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-17-hh-colada-bano/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-17-hh-colada-bano/revision.jpg",
+    "creado":  "2026-11-17T14:16:06.7080690-05:00"
+}
