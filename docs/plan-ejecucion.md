@@ -24,8 +24,8 @@ Actualizado el 2026-11-18. Cada tarea dice quién la hace, dónde y cuándo est�
 
 ### Santiago
 
-- [ ] **S1. Terminar los 4 borradores de @ocampo.music.** Están en la bandeja de TikTok desde el 2026-11-11 (`espacios/lalo/salidas/publicador/pendientes.md`, parte 1). Si ya los terminaste, el próximo turno lo registra.
-- [ ] **S2. Decidir los 3 clips que esperan.** Escucharlos y aprobarlos (`/publicador aprobar <clip-id>`) o rechazarlos (`/publicador rechazar <clip-id> <motivo>`). Están en la parte 2 del mismo archivo.
+- [x] **S1. Terminar los 4 borradores de @ocampo.music.** Publicados desde la app; lo registró el ciclo 2 del Publicador de Lalo (2026-11-18, 15:45).
+- [ ] **S2. Decidir los 11 clips que esperan** (3 del ciclo anterior y 8 del 2026-11-18). Escucharlos y aprobarlos (`/publicador aprobar <clip-id>`) o rechazarlos (`/publicador rechazar <clip-id> <motivo>`). Están en `espacios/lalo/salidas/publicador/pendientes.md`.
 - [ ] **S3. Volver a prender el turno.** `/loop 6h /turno-lalo` en una sesión que quede abierta. No corre desde el 2026-11-11.
 - [ ] **S4. Conectar las 14 cuentas de TikTok de Lalo que faltan.** Por cada una: entrar a TikTok con esa cuenta en el navegador, añadirla a *Target users* de la app y correr en tu ventana de PowerShell:
   `powershell -NoProfile -ExecutionPolicy Bypass -File legion/03-publicador/publicar.ps1 autorizar -Plataforma tiktok -Cuenta <alias>`
