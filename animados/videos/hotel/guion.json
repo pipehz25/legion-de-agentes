@@ -1,0 +1,147 @@
+{
+  "titulo": "Todos duermen. Tu hotel sigue atendiendo.",
+  "formato": "de noche",
+  "motor": "grabada",
+  "inicio": 0.2,
+  "pausa": 0.24,
+  "cola": 2,
+  "estilo": {
+    "fondo": "#04201e",
+    "brillo": "#127a70"
+  },
+  "publicacion": {
+    "texto": "Todos duermen y tu hotel sigue atendiendo: confirma las llegadas, toma reservas en la madrugada y registra los pagos. Armamos una legión de agentes de inteligencia artificial a la medida de tu hotel. Escríbenos y te contamos cómo.",
+    "hashtags": [
+      "hoteles",
+      "hostales",
+      "turismo",
+      "inteligenciaartificial",
+      "agentesIA",
+      "automatizacion"
+    ]
+  },
+  "datos": {
+    "letrero": "TU HOTEL",
+    "linea": "Armamos la tuya",
+    "boton": "ESCRÍBENOS"
+  },
+  "escenas": {
+    "gancho": {
+      "plantilla": "gancho-edificio",
+      "datos": {
+        "lineas": [
+          "Todos duermen.",
+          "Tu hotel",
+          "sigue atendiendo."
+        ]
+      }
+    },
+    "agente1": {
+      "plantilla": "agente-pedidos",
+      "datos": {
+        "rotulo": "LLEGADAS",
+        "color": "#ff7eb6",
+        "estado": "Todo confirmado",
+        "items": [
+          "Cuarto 101",
+          "Cuarto 204",
+          "Cuarto 305"
+        ],
+        "insignia": "9:00 p. m."
+      }
+    },
+    "agente2": {
+      "plantilla": "agente-chat",
+      "datos": {
+        "rotulo": "RESERVAS",
+        "color": "#6fd3ff",
+        "estado": "Reservado",
+        "mensajes": [
+          {
+            "de": "cliente",
+            "texto": "¿Habitación para hoy?"
+          },
+          {
+            "de": "agente",
+            "texto": "¡Sí! Te la reservo."
+          }
+        ],
+        "insignia": "2:00 a. m."
+      }
+    },
+    "agente3": {
+      "plantilla": "agente-cobros",
+      "datos": {
+        "rotulo": "PAGOS",
+        "color": "#ffc93c",
+        "estado": "Pago recibido",
+        "sello": "PAGADO",
+        "insignia": "6:00 a. m."
+      }
+    },
+    "legion": {
+      "plantilla": "legion-aprueba"
+    },
+    "cierre": {
+      "plantilla": "cierre-marca"
+    }
+  },
+  "frases": [
+    {
+      "id": "f1",
+      "escena": "gancho",
+      "texto": "Todos duermen. Tu hotel sigue atendiendo.",
+      "subtitulos": false
+    },
+    {
+      "id": "f2",
+      "escena": "agente1",
+      "texto": "En la noche, un agente confirma las llegadas de mañana.",
+      "clave": [
+        "llegadas"
+      ],
+      "pausa_despues": 0.5
+    },
+    {
+      "id": "f3",
+      "escena": "agente2",
+      "texto": "En la madrugada, otro responde y toma la reserva.",
+      "clave": [
+        "reserva"
+      ],
+      "pausa_despues": 0.5
+    },
+    {
+      "id": "f4",
+      "escena": "agente3",
+      "texto": "Al amanecer, otro registra el pago de cada reserva.",
+      "clave": [
+        "pago"
+      ],
+      "pausa_despues": 0.5
+    },
+    {
+      "id": "f5",
+      "escena": "legion",
+      "texto": "Trabajan juntos, día y noche, y tú solo apruebas.",
+      "clave": [
+        "apruebas"
+      ]
+    },
+    {
+      "id": "f6",
+      "escena": "cierre",
+      "texto": "Eso es una legión de agentes, hecha a la medida de tu hotel.",
+      "clave": [
+        "legión",
+        "agentes"
+      ]
+    },
+    {
+      "id": "f7",
+      "escena": "cierre",
+      "texto": "Escríbenos y armamos la tuya.",
+      "subtitulos": false
+    }
+  ]
+}

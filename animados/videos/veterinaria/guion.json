@@ -1,0 +1,157 @@
+{
+  "titulo": "¿Quién avisa cuándo toca la vacuna?",
+  "formato": "antes y despues",
+  "motor": "grabada",
+  "inicio": 0.2,
+  "pausa": 0.24,
+  "cola": 2,
+  "estilo": {
+    "fondo": "#191f06",
+    "brillo": "#5f7316"
+  },
+  "publicacion": {
+    "texto": "¿Quién avisa cuándo toca la vacuna? Un agente de inteligencia artificial le avisa a cada dueño y agenda la cita, mientras otros llevan tus redes y atienden tus mensajes. Armamos una legión de agentes a la medida de tu veterinaria: escríbenos y te contamos cómo.",
+    "hashtags": [
+      "veterinaria",
+      "mascotas",
+      "medicinaveterinaria",
+      "inteligenciaartificial",
+      "agentesIA",
+      "automatizacion"
+    ]
+  },
+  "datos": {
+    "letrero": "TU VETERINARIA",
+    "linea": "Armamos la tuya",
+    "boton": "ESCRÍBENOS"
+  },
+  "escenas": {
+    "gancho": {
+      "plantilla": "gancho-heroe",
+      "datos": {
+        "lineas": [
+          "¿Quién avisa",
+          "cuándo toca",
+          "la vacuna?"
+        ],
+        "resalta": 2,
+        "heroe": "huella"
+      }
+    },
+    "cambio": {
+      "plantilla": "antes-despues",
+      "datos": {
+        "antes": [
+          "Vacunas atrasadas",
+          "Mensajes perdidos",
+          "Agenda en papel"
+        ],
+        "despues": [
+          "Dueños avisados",
+          "Mensajes respondidos",
+          "Agenda en orden"
+        ]
+      }
+    },
+    "agente1": {
+      "plantilla": "agente-agenda",
+      "datos": {
+        "rotulo": "VACUNAS",
+        "color": "#ffc93c",
+        "estado": "Vacuna agendada"
+      }
+    },
+    "agente2": {
+      "plantilla": "agente-redes",
+      "datos": {
+        "rotulo": "REDES",
+        "color": "#ff7eb6",
+        "estado": "Publicado"
+      }
+    },
+    "agente3": {
+      "plantilla": "agente-chat",
+      "datos": {
+        "rotulo": "ATENCIÓN",
+        "color": "#6fd3ff",
+        "estado": "Atendido",
+        "mensajes": [
+          {
+            "de": "cliente",
+            "texto": "¿Hacen baño y corte?"
+          },
+          {
+            "de": "agente",
+            "texto": "¡Sí! ¿Te agendo?"
+          }
+        ]
+      }
+    },
+    "cierre": {
+      "plantilla": "cierre-marca"
+    }
+  },
+  "frases": [
+    {
+      "id": "f1",
+      "escena": "gancho",
+      "texto": "¿Quién avisa cuándo toca la vacuna?",
+      "subtitulos": false
+    },
+    {
+      "id": "f2",
+      "escena": "cambio",
+      "texto": "Antes: vacunas atrasadas, mensajes perdidos y la agenda en papel.",
+      "subtitulos": false
+    },
+    {
+      "id": "f3",
+      "escena": "cambio",
+      "texto": "Después: dueños avisados, mensajes respondidos y la agenda en orden.",
+      "subtitulos": false,
+      "pausa_despues": 0.6
+    },
+    {
+      "id": "f4",
+      "escena": "agente1",
+      "texto": "Un agente avisa cuándo toca la vacuna y la agenda.",
+      "clave": [
+        "vacuna"
+      ],
+      "pausa_despues": 0.5
+    },
+    {
+      "id": "f5",
+      "escena": "agente2",
+      "texto": "Otro publica consejos de cuidado en tus redes.",
+      "clave": [
+        "consejos"
+      ],
+      "pausa_despues": 0.5
+    },
+    {
+      "id": "f6",
+      "escena": "agente3",
+      "texto": "Y otro atiende los mensajes de cada dueño.",
+      "clave": [
+        "mensajes"
+      ],
+      "pausa_despues": 0.5
+    },
+    {
+      "id": "f7",
+      "escena": "cierre",
+      "texto": "Eso es una legión de agentes, hecha a la medida de tu veterinaria.",
+      "clave": [
+        "legión",
+        "agentes"
+      ]
+    },
+    {
+      "id": "f8",
+      "escena": "cierre",
+      "texto": "Escríbenos y armamos la tuya.",
+      "subtitulos": false
+    }
+  ]
+}

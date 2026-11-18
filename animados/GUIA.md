@@ -122,12 +122,14 @@ Formatos que ya existen (el campo `formato` del guion es solo una etiqueta para 
 | `mensajes sin responder` | `gancho-mensajes`, tres agentes, `legion-aprueba`, `cierre-marca` | [inmobiliaria](videos/inmobiliaria/guion.json) |
 | `tres agentes` | `gancho-heroe`, tres agentes con `insignia` «1 de 3», `legion-aprueba`, `cierre-marca` | [gimnasio](videos/gimnasio/guion.json) |
 | `tu a lo tuyo` | `gancho-heroe`, `tareas-reloj`, `nacen-agentes`, dos agentes, `cierre-marca` | [salon](videos/salon/guion.json) |
+| `de noche` | `gancho-edificio`, tres agentes con `insignia` de hora nocturna, `legion-aprueba`, `cierre-marca` | [hotel](videos/hotel/guion.json) |
+| `manos ocupadas` | `gancho-mensajes`, `tareas-reloj`, `nacen-agentes`, dos agentes, `legion-aprueba`, `cierre-marca` | [taller](videos/taller/guion.json) |
 
 Un formato nuevo es bienvenido: es otra manera de ordenar las plantillas, o una plantilla nueva. Lo único fijo es que el video termina en `cierre-marca`.
 
-**Paleta.** `"estilo": { "fondo": "#2a0d12", "brillo": "#7a2330" }`: un fondo muy oscuro y un brillo del mismo tono, más claro. De esos dos colores salen solos los tonos de tarjetas y paneles. Sin `estilo`, el video sale en el verde azulado de siempre. Ya usadas: vino (`#2a0d12`/`#7a2330`), azul (`#0b1830`/`#1f4a8a`), verde (`#0b2417`/`#1c6a45`), morado (`#1a0f33`/`#4a2f8a`), naranja quemado (`#291407`/`#8a4514`) y magenta (`#2a0b26`/`#86246f`).
+**Paleta.** `"estilo": { "fondo": "#2a0d12", "brillo": "#7a2330" }`: un fondo muy oscuro y un brillo del mismo tono, más claro. De esos dos colores salen solos los tonos de tarjetas y paneles. Sin `estilo`, el video sale en el verde azulado de siempre. Ya usadas: vino (`#2a0d12`/`#7a2330`), azul (`#0b1830`/`#1f4a8a`), verde (`#0b2417`/`#1c6a45`), morado (`#1a0f33`/`#4a2f8a`), naranja quemado (`#291407`/`#8a4514`), magenta (`#2a0b26`/`#86246f`), turquesa (`#04201e`/`#127a70`), oliva (`#191f06`/`#5f7316`) y grafito (`#14171c`/`#4a5463`).
 
-**Dibujo del negocio.** `gancho-heroe` pone grande el objeto que identifica al negocio. Están en [plantillas/heroes.json](plantillas/heroes.json): `plato`, `diente`, `casa`, `tienda`, `pesa`, `tijeras`. Si el negocio no tiene el suyo, dibújalo y agrégalo ahí: SVG plano en un lienzo de 400×400, con las reglas de «Dibujo» (sin contorno, sombra a un lado, brillo claro y sombra elíptica en el piso).
+**Dibujo del negocio.** `gancho-heroe` pone grande el objeto que identifica al negocio. Están en [plantillas/heroes.json](plantillas/heroes.json): `plato`, `diente`, `casa`, `tienda`, `pesa`, `tijeras`, `huella`. Si el negocio no tiene el suyo, dibújalo y agrégalo ahí: SVG plano en un lienzo de 400×400, con las reglas de «Dibujo» (sin contorno, sombra a un lado, brillo claro y sombra elíptica en el piso).
 
 **Frases que no cambian** (así la marca suena igual en todos los videos):
 

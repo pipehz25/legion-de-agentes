@@ -1,0 +1,181 @@
+{
+  "titulo": "Con las manos en el motor, ¿quién contesta?",
+  "formato": "manos ocupadas",
+  "motor": "grabada",
+  "inicio": 0.2,
+  "pausa": 0.24,
+  "cola": 2,
+  "estilo": {
+    "fondo": "#14171c",
+    "brillo": "#4a5463"
+  },
+  "publicacion": {
+    "texto": "Con las manos en el motor, ¿quién contesta? Una legión de agentes de inteligencia artificial le avisa a cada cliente cuando su carro está listo, prepara las facturas y registra los pagos. La armamos a la medida de tu taller: escríbenos y te contamos cómo.",
+    "hashtags": [
+      "tallermecanico",
+      "mecanica",
+      "carros",
+      "inteligenciaartificial",
+      "agentesIA",
+      "automatizacion"
+    ]
+  },
+  "datos": {
+    "letrero": "TU TALLER",
+    "linea": "Armamos la tuya",
+    "boton": "ESCRÍBENOS",
+    "tareas": [
+      {
+        "texto": "Mensajes",
+        "icono": "mensaje",
+        "color": "#6fd3ff",
+        "palabra": "mensajes"
+      },
+      {
+        "texto": "Citas",
+        "icono": "calendario",
+        "color": "#ffc93c",
+        "palabra": "citas"
+      },
+      {
+        "texto": "Repuestos",
+        "icono": "caja",
+        "color": "#86e8b4",
+        "palabra": "repuestos"
+      },
+      {
+        "texto": "Facturas",
+        "icono": "documento",
+        "color": "#ff7eb6",
+        "palabra": "facturas"
+      }
+    ]
+  },
+  "escenas": {
+    "gancho": {
+      "plantilla": "gancho-mensajes",
+      "datos": {
+        "lineas": [
+          "Con las manos",
+          "en el motor,",
+          "¿quién contesta?"
+        ],
+        "resalta": 2,
+        "mensajes": [
+          "¿Ya está listo?",
+          "¿Cuánto me sale?",
+          "¿Lo revisan hoy?",
+          "¿Hola?"
+        ]
+      }
+    },
+    "problema": {
+      "plantilla": "tareas-reloj",
+      "datos": {
+        "come": "comen"
+      }
+    },
+    "solucion": {
+      "plantilla": "nacen-agentes"
+    },
+    "agente1": {
+      "plantilla": "agente-chat",
+      "datos": {
+        "rotulo": "MENSAJES",
+        "color": "#6fd3ff",
+        "estado": "Cliente avisado",
+        "mensajes": [
+          {
+            "de": "agente",
+            "texto": "¡Tu carro está listo!"
+          },
+          {
+            "de": "cliente",
+            "texto": "¡Voy para allá!"
+          }
+        ]
+      }
+    },
+    "agente2": {
+      "plantilla": "agente-cobros",
+      "datos": {
+        "rotulo": "FACTURAS",
+        "color": "#ff7eb6",
+        "estado": "Pago recibido",
+        "sello": "PAGADO"
+      }
+    },
+    "legion": {
+      "plantilla": "legion-aprueba"
+    },
+    "cierre": {
+      "plantilla": "cierre-marca"
+    }
+  },
+  "frases": [
+    {
+      "id": "f1",
+      "escena": "gancho",
+      "texto": "Con las manos en el motor, ¿quién contesta?",
+      "subtitulos": false
+    },
+    {
+      "id": "f2",
+      "escena": "problema",
+      "texto": "Mensajes, citas, repuestos, facturas: tareas que se comen tu día.",
+      "clave": [
+        "tareas",
+        "día"
+      ]
+    },
+    {
+      "id": "f3",
+      "escena": "solucion",
+      "texto": "Nosotros creamos un agente de inteligencia artificial para cada una.",
+      "clave": [
+        "agente"
+      ]
+    },
+    {
+      "id": "f4",
+      "escena": "agente1",
+      "texto": "Uno avisa a cada cliente cuando su carro está listo.",
+      "clave": [
+        "listo"
+      ],
+      "pausa_despues": 0.5
+    },
+    {
+      "id": "f5",
+      "escena": "agente2",
+      "texto": "Otro prepara cada factura y registra el pago.",
+      "clave": [
+        "factura"
+      ],
+      "pausa_despues": 0.5
+    },
+    {
+      "id": "f6",
+      "escena": "legion",
+      "texto": "Trabajan juntos, día y noche, y tú solo apruebas.",
+      "clave": [
+        "apruebas"
+      ]
+    },
+    {
+      "id": "f7",
+      "escena": "cierre",
+      "texto": "Eso es una legión de agentes, hecha a la medida de tu taller.",
+      "clave": [
+        "legión",
+        "agentes"
+      ]
+    },
+    {
+      "id": "f8",
+      "escena": "cierre",
+      "texto": "Escríbenos y armamos la tuya.",
+      "subtitulos": false
+    }
+  ]
+}

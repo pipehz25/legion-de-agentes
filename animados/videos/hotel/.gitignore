@@ -1,0 +1,4 @@
+# Video hecho con plantillas: solo se versiona el guion; lo demas lo regenera producir.mjs
+*
+!.gitignore
+!guion.json

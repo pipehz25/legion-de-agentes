@@ -48,7 +48,7 @@ const COMO_GRABAR = [
   "Cómo grabar",
   "1. Busca un lugar callado y graba con el celular a un palmo de la boca, sin música de fondo.",
   "2. Lee las frases en orden, con tu voz normal y con energía, como si se lo contaras a alguien.",
-  "3. Entre frase y frase deja un segundo de silencio: ahi es donde el sistema corta.",
+  "3. Entre frase y frase deja un segundo de silencio: ahí es donde el sistema corta.",
   "4. Si te equivocas, haz una pausa y vuelve a decir esa frase completa: se usa la última vez que la dijiste.",
   "5. Guarda el audio en la carpeta del video con el nombre grabacion (grabacion.m4a, grabacion.mp3, grabacion.wav...). Sin tilde.",
 ];

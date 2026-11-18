@@ -53,20 +53,41 @@
     {
       "id": "veterinaria",
       "negocio": "veterinaria",
-      "estado": "pendiente",
-      "idea": "agendara vacunas"
+      "estado": "esperando-grabacion",
+      "idea": "agendara vacunas",
+      "guion": "2026-11-18",
+      "formato": "antes y despues",
+      "gancho": "gancho-heroe (huella, dibujo nuevo)",
+      "paleta": "oliva #191f06/#5f7316",
+      "agentes": "agenda, redes, chat",
+      "orden_publicacion": 2,
+      "nota": "Guion listo y capturas de prueba revisadas (tiempos estimados). Falta la grabación: animados/videos/veterinaria/para-grabar.txt"
     },
     {
       "id": "taller",
       "negocio": "taller mecánico",
-      "estado": "pendiente",
-      "idea": "agendara revisiones"
+      "estado": "esperando-grabacion",
+      "idea": "agendara revisiones",
+      "guion": "2026-11-18",
+      "formato": "manos ocupadas (nuevo: gancho-mensajes, tareas-reloj, nacen-agentes, dos agentes, legion-aprueba, cierre-marca)",
+      "gancho": "gancho-mensajes",
+      "paleta": "grafito #14171c/#4a5463",
+      "agentes": "chat, cobros",
+      "orden_publicacion": 3,
+      "nota": "Guion listo y capturas de prueba revisadas (tiempos estimados). Falta la grabación: animados/videos/taller/para-grabar.txt"
     },
     {
       "id": "hotel",
       "negocio": "hotel u hostal",
-      "estado": "pendiente",
-      "idea": "tomara reservas"
+      "estado": "esperando-grabacion",
+      "idea": "tomara reservas",
+      "guion": "2026-11-18",
+      "formato": "de noche (nuevo: gancho-edificio, tres agentes con insignia de hora nocturna, legion-aprueba, cierre-marca)",
+      "gancho": "gancho-edificio",
+      "paleta": "turquesa #04201e/#127a70",
+      "agentes": "pedidos, chat, cobros",
+      "orden_publicacion": 1,
+      "nota": "Guion listo y capturas de prueba revisadas (tiempos estimados). Falta la grabación: animados/videos/hotel/para-grabar.txt"
     },
     {
       "id": "academia",
