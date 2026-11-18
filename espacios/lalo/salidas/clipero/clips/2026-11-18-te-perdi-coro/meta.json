@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-18-te-perdi-coro",
+    "url_fuente":  "https://www.youtube.com/watch?v=HyTE8nzFyFw",
+    "video_id":  "HyTE8nzFyFw",
+    "inicio":  56.9,
+    "fin":  79.06,
+    "inicio_hms":  "0:00:56",
+    "duracion_seg":  22.2,
+    "gancho":  "«Maldito el día en que yo te perdí»",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  37,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1440,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -9.66,
+                  "entrada_tp":  1.05,
+                  "salida_lufs":  -14.01,
+                  "salida_tp":  -3.66
+              },
+    "archivo":  "espacios/lalo/salidas/clipero/clips/2026-11-18-te-perdi-coro/clip.mp4",
+    "portada":  "espacios/lalo/salidas/clipero/clips/2026-11-18-te-perdi-coro/portada.jpg",
+    "revision":  "espacios/lalo/salidas/clipero/clips/2026-11-18-te-perdi-coro/revision.jpg",
+    "creado":  "2026-11-18T15:04:54.8615135-05:00"
+}

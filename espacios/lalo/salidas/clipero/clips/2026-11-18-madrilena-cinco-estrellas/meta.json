@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-18-madrilena-cinco-estrellas",
+    "url_fuente":  "https://www.youtube.com/watch?v=NJ06Dl-Saqk",
+    "video_id":  "NJ06Dl-Saqk",
+    "inicio":  38.51,
+    "fin":  54.82,
+    "inicio_hms":  "0:00:38",
+    "duracion_seg":  16.3,
+    "gancho":  "«Es cinco estrellas, ella tiene todas las reseñas»",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  44,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -11.11,
+                  "entrada_tp":  0.9,
+                  "salida_lufs":  -14.15,
+                  "salida_tp":  -2.32
+              },
+    "archivo":  "espacios/lalo/salidas/clipero/clips/2026-11-18-madrilena-cinco-estrellas/clip.mp4",
+    "portada":  "espacios/lalo/salidas/clipero/clips/2026-11-18-madrilena-cinco-estrellas/portada.jpg",
+    "revision":  "espacios/lalo/salidas/clipero/clips/2026-11-18-madrilena-cinco-estrellas/revision.jpg",
+    "creado":  "2026-11-18T15:29:46.4473420-05:00"
+}

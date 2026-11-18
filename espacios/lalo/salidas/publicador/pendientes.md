@@ -1,119 +1,40 @@
 # Publicador · espacio lalo · pendientes
 
-Actualizado el 2026-11-11 a las 09:28 (−05:00), ciclo 1. Modo `aprobacion`, publicación real (sin simulación). Única cuenta activa: TikTok `lalo-music` (@ocampo.music).
+Actualizado el 2026-11-18 a las 15:45 (−05:00), ciclo 2. Modo `aprobacion`, publicación real (sin simulación). Única cuenta activa: TikTok `lalo-music` (@ocampo-music).
 
-- **4 clips aprobados ya están en la bandeja de TikTok** de @ocampo.music: falta terminarlos en la app (parte 1).
-- **3 clips esperan aprobación** y no se han subido: el Clipero los marcó «escuchar antes de publicar» (parte 2).
+- **Los 4 clips del ciclo 1 ya están publicados** en TikTok (los terminaste desde la app): `toxico-celos-del-aire`, `toxico-cuido-lo-mio`, `intuyo-coro` e `intuyo-eres-hermosa`. Ya no hay nada esperando en la bandeja.
+- **11 clips esperan aprobación** y no se han subido: 3 del ciclo anterior y 8 nuevos de hoy. Todos van a TikTok, cuenta `lalo-music`, y todos son `autorizado` (canal de Lalo Ocampo, con permiso del artista).
 
----
+## Cómo aprobar
 
-## 1. En la bandeja de TikTok: falta terminar en la app
+1. Escucha cada video (enlace en su sección) fijándote en lo que dice «Qué oír». Si una palabra no coincide con lo que se canta, recházalo con el motivo: el Clipero lo corrige en `palabras-rev.json` y lo vuelve a cortar.
+2. Aprueba los que estén bien (comandos al final). En el siguiente ciclo se suben a la **bandeja** de TikTok de @ocampo-music, como los anteriores.
+3. Desde la app: abre el aviso de la bandeja, pega el texto de abajo, elige portada y quién puede verlo, y publica.
 
-TikTok está en destino `borrador`: la API solo entrega el video. El texto, la portada y el botón de publicar se ponen en la app. Para cada uno:
+**Tope:** `lalo-music` recibe como máximo **4 subidas al día** (TikTok admite 5 borradores pendientes por API cada 24 horas). Si apruebas más de cuatro, el resto sale en los ciclos de los días siguientes, primero los de ventana más corta.
 
-1. Abre TikTok en el teléfono con la cuenta **@ocampo.music**.
-2. Entra a la **Bandeja de entrada**: hay un aviso por cada video subido desde la app *Legion Publicador*. Tócalo y el video se abre en el editor.
-3. **Escúchalo una vez** fijándote en lo que dice «Qué oír» más abajo. Si algo no coincide con lo que se canta, no lo publiques: descártalo en la app y dímelo (`/publicador rechazar <clip-id> <motivo>`) para que el Clipero lo corrija y lo vuelva a cortar.
-4. Pega el **texto** de abajo en la descripción, elige la portada y quién puede verlo, y publica. Si no toca publicarlo todavía, guárdalo en *Borradores* dentro de la app.
+**Orden sugerido** (fichas del Clipero): dos clips de una misma canción, con unos días de por medio; de noche, entre las 19:00 y las 22:00.
 
-Conviene abrir hoy los cuatro avisos: TikTok admite 5 borradores pendientes por API cada 24 horas por cuenta, y los que sigan sin abrir cuentan para el tope de mañana.
+| Canción | Primero | Unos días después |
+|---|---|---|
+| Por Dios Santo | `2026-11-10-por-dios-santo-coro` | `2026-11-10-por-dios-santo-espejo` |
+| Te Perdí | `2026-11-18-te-perdi-coro` | `2026-11-18-te-perdi-movida-artista` |
+| Actriz | `2026-11-18-actriz-coro` | `2026-11-18-actriz-sus-amigas` |
+| Madrileña | `2026-11-18-madrilena-se-formo-el-perreo` | `2026-11-18-madrilena-cinco-estrellas` |
+| YAPER | `2026-11-18-yaper-ya-paso-tu-tiempo` | `2026-11-18-yaper-cuentale` |
+| Confusiones | `2026-11-10-confusiones-coro` | — |
 
-**Orden y hora sugeridos** (fichas del Clipero: entre las 19:00 y las 21:00, y los dos clips de una misma canción con un día de por medio):
-
-| Cuándo | Clip |
-|---|---|
-| Hoy, 2026-11-11, 19:00-21:00 | `2026-11-10-toxico-celos-del-aire` y `2026-11-10-intuyo-coro` |
-| Mañana, 2026-11-12, 19:00-21:00 | `2026-11-10-toxico-cuido-lo-mio` y `2026-11-10-intuyo-eres-hermosa` |
-
-### 2026-11-10-toxico-celos-del-aire
-
-- **Gancho:** TÓXICO: celos hasta del aire · **Puntaje:** 83 · **Derechos:** autorizado · **Ventana:** hasta el 2026-11-17
-- **Estado en TikTok:** `SEND_TO_USER_INBOX` (en la bandeja), subido el 2026-11-11 a las 09:25. Cuenta `lalo-music`.
-- [Video](../clipero/clips/2026-11-10-toxico-celos-del-aire/clip.mp4) · [Ficha](../clipero/clips/2026-11-10-toxico-celos-del-aire/ficha.md)
-- **Qué oír:** el cierre del coro. Los subtítulos dicen «Pobre cabrón, baby, que intente» y «ma, y que no inventen», y las dos transcripciones no coinciden ahí. El subtítulo muestra la palabra «cabrón». La fuente viene masterizada muy fuerte: oír si distorsiona.
-
-Texto para TikTok (`lalo-music`):
-
-```
-«Yo tengo celos del aire porque acaricia tu piel». Así empieza TÓXICO, lo nuevo de Lalo Ocampo.
-
-¿Celos hasta del aire: tóxico o enamorado?
-
-Crédito: Lalo Ocampo (YouTube) · «Lalo Ocampo - Tóxico (video oficial)», minuto 0:09 · https://www.youtube.com/watch?v=bip8ttg-VeE&t=9s
-
-#LaloOcampo #Toxico #Estreno #MusicaNueva #MusicaUrbana
-```
-
-### 2026-11-10-intuyo-coro
-
-- **Gancho:** INTUYO: «todo lo que tengo es para ti» · **Puntaje:** 84 · **Derechos:** autorizado · **Ventana:** hasta el 2026-11-24
-- **Estado en TikTok:** `SEND_TO_USER_INBOX` (en la bandeja), subido el 2026-11-11 a las 09:26. Cuenta `lalo-music`.
-- [Video](../clipero/clips/2026-11-10-intuyo-coro/clip.mp4) · [Ficha](../clipero/clips/2026-11-10-intuyo-coro/ficha.md)
-- **Qué oír:** los subtítulos se ajustaron a la letra que el visualizer muestra en pantalla; solo queda oír si la fuente, masterizada muy fuerte, distorsiona.
-
-Texto para TikTok (`lalo-music`):
-
-```
-«No tengo la mitad de lo que te ofrecen, pero todo lo que tengo es para ti». El coro de INTUYO, de Lalo Ocampo.
-
-¿A quién se lo dedicas?
-
-Crédito: Lalo Ocampo (YouTube) · «Lalo Ocampo - INTUYO (visualizer)», minuto 1:53 · https://www.youtube.com/watch?v=SjAfcSHbhx0&t=113s
-
-#LaloOcampo #Intuyo #ParaDedicar #MusicaUrbana #Letras
-```
-
-### 2026-11-10-toxico-cuido-lo-mio
-
-- **Gancho:** ¿Tóxico? «Yo cuido lo mío» · **Puntaje:** 79 · **Derechos:** autorizado · **Ventana:** hasta el 2026-11-17
-- **Estado en TikTok:** `SEND_TO_USER_INBOX` (en la bandeja), subido el 2026-11-11 a las 09:26. Cuenta `lalo-music`.
-- [Video](../clipero/clips/2026-11-10-toxico-cuido-lo-mio/clip.mp4) · [Ficha](../clipero/clips/2026-11-10-toxico-cuido-lo-mio/ficha.md)
-- **Qué oír:** la línea del título («Más que sea tóxico es que yo cuido lo mío») y «a aguantar líos», donde las transcripciones no coinciden; y que el final («dudo que eso pase») no quede cortado en seco: el clip dura 16 s y el verso sigue. Por esa duda el texto de abajo cita solo «Yo cuido lo mío», igual que el gancho en pantalla.
-
-Texto para TikTok (`lalo-music`):
-
-```
-¿Tóxico? «Yo cuido lo mío». El verso que le da nombre a TÓXICO, lo nuevo de Lalo Ocampo.
-
-¿Es tóxico o solo cuida lo suyo?
-
-Crédito: Lalo Ocampo (YouTube) · «Lalo Ocampo - Tóxico (video oficial)», minuto 0:52 · https://www.youtube.com/watch?v=bip8ttg-VeE&t=52s
-
-#LaloOcampo #Toxico #Estreno #MusicaUrbana #Letras
-```
-
-### 2026-11-10-intuyo-eres-hermosa
-
-- **Gancho:** «Tú eres hermosa, y no solo físico» · **Puntaje:** 81 · **Derechos:** autorizado · **Ventana:** hasta el 2026-11-24
-- **Estado en TikTok:** `SEND_TO_USER_INBOX` (en la bandeja), subido el 2026-11-11 a las 09:26. Cuenta `lalo-music`.
-- [Video](../clipero/clips/2026-11-10-intuyo-eres-hermosa/clip.mp4) · [Ficha](../clipero/clips/2026-11-10-intuyo-eres-hermosa/ficha.md)
-- **Qué oír:** «tu aura». Sale en el subtítulo («y no solo físico, tu aura, tu vibra»), pero el Clipero no la vio en la letra en pantalla. Si no se canta, hay que quitarla y volver a cortar. También si la fuente distorsiona.
-
-Texto para TikTok (`lalo-music`):
-
-```
-«Tú eres hermosa, y no solo físico». El verso de INTUYO, de Lalo Ocampo, para mandárselo a esa persona.
-
-¿A quién se lo mandas?
-
-Crédito: Lalo Ocampo (YouTube) · «Lalo Ocampo - INTUYO (visualizer)», minuto 1:28 · https://www.youtube.com/watch?v=SjAfcSHbhx0&t=88s
-
-#LaloOcampo #Intuyo #ParaDedicar #Letras #FrasesDeCanciones
-```
+Los más fáciles de aprobar son los dos de **Actriz**: solo llevan correcciones de ortografía.
 
 ---
 
-## 2. Pendientes de aprobación
-
-**Ninguno de estos tres está aprobado ni se ha subido.** El Clipero los marcó «escuchar antes de publicar» porque llevan palabras que no pudo comprobar. Escucha cada video (enlace abajo) antes de aprobarlo. Si una palabra no coincide, recházalo con el motivo y el Clipero lo corrige en `palabras-rev.json` y lo vuelve a cortar.
-
-Los tres van a TikTok, cuenta `lalo-music`. Esa cuenta ya recibió hoy sus 4 subidas (`max_por_dia`): lo que apruebes hoy se sube en el primer ciclo de mañana, 2026-11-12.
+## Ventana hasta el 2026-12-10
 
 ### 2026-11-10-por-dios-santo-coro
 
 - **Gancho:** Maquinando cómo conseguir la liga por ella · **Puntaje:** 71 · **Derechos:** autorizado · **Ventana:** hasta el 2026-12-10
 - [Video](../clipero/clips/2026-11-10-por-dios-santo-coro/clip.mp4) · [Ficha](../clipero/clips/2026-11-10-por-dios-santo-coro/ficha.md)
-- **Escuchar antes de publicar:**
+- **Qué oír:**
   - «toda la fucking vida»: YouTube traía «toda la fqu enva» y whisper oyó «fucking vida». El subtítulo muestra la palabra tal cual.
   - «cómo me consigo la liga»: whisper oye una palabra más («cómo putas me consigo la liga») que el subtítulo no lleva. Si se canta, hay que decidir si se añade.
   - «mami, quiero» (YouTube traía «mamero») y los ecos «-nando» y «-sando», que se quitaron del subtítulo.
@@ -134,7 +55,7 @@ Crédito: Lalo Ocampo (YouTube) · «Lalo Ocampo - Por Dios Santo (Official Vide
 
 - **Gancho:** «Úsame como espejo» · **Puntaje:** 70 · **Derechos:** autorizado · **Ventana:** hasta el 2026-12-10
 - [Video](../clipero/clips/2026-11-10-por-dios-santo-espejo/clip.mp4) · [Ficha](../clipero/clips/2026-11-10-por-dios-santo-espejo/ficha.md)
-- **Escuchar antes de publicar** (es el clip con más palabras dudosas):
+- **Qué oír** (es el clip con más palabras dudosas):
   - «de mis **ojos**» (YouTube: «de mis sos»); puede que diga «desde mis ojos».
   - «**vacacionar** un sitio» (YouTube: «ocasionar»; whisper: «acacionar»): deducida, ninguna la trae así. Puede faltar «en».
   - «que **sea** lejos» (las dos: «que se lejos»).
@@ -158,7 +79,7 @@ Crédito: Lalo Ocampo (YouTube) · «Lalo Ocampo - Por Dios Santo (Official Vide
 
 - **Gancho:** «En redes te ves feliz…» · **Puntaje:** 68 · **Derechos:** autorizado · **Ventana:** hasta el 2026-12-10
 - [Video](../clipero/clips/2026-11-10-confusiones-coro/clip.mp4) · [Ficha](../clipero/clips/2026-11-10-confusiones-coro/ficha.md)
-- **Ver y escuchar antes de publicar:**
+- **Qué ver y oír:**
   - El subtítulo lleva un **«(…)»** en el segundo 24: «Dicen que (…) ti el cielo y las estrellas». YouTube traía «que la ti» y whisper «que la tía»; puede ser «que él a ti». Con la palabra correcta se corrige y se vuelve a cortar: tal como está, sale con el hueco.
   - «te ves feliz, te ves muy contenta» y «se las está bajando» se completaron a partir de transcripciones incompletas.
   - Sincronía: mirar que los subtítulos vayan a tiempo (YouTube marca algunas palabras un segundo tarde en este video).
@@ -178,13 +99,200 @@ Crédito: Lalo Ocampo (YouTube) · «Lalo Ocampo - Confusiones», minuto 1:34 ·
 
 ---
 
+## Ventana hasta el 2026-12-18 (nuevos de hoy)
+
+### 2026-11-18-te-perdi-coro
+
+- **Gancho:** «Maldito el día en que yo te perdí» · **Puntaje:** 69 · **Derechos:** autorizado · **Ventana:** hasta el 2026-12-18
+- [Video](../clipero/clips/2026-11-18-te-perdi-coro/clip.mp4) · [Ficha](../clipero/clips/2026-11-18-te-perdi-coro/ficha.md)
+- Primer coro de «Te Perdí», entero. Sale Lalo en los planos nocturnos del video, con la actriz.
+- **Qué oír:**
+  - **«(…) tus besos y tu calor» (segundo 11):** el subtítulo lleva un hueco. YouTube oye «no soporta» y whisper «me sepele»; en otras vueltas del coro, «ya supuesta» y «me hace falta». Con la palabra correcta se corrige y se vuelve a cortar.
+  - **Primera palabra:** YouTube la censura y whisper oye «maldito». Se puso «Maldito» porque es el verso que cierra el coro (segundo 19), donde las dos coinciden.
+  - «Ahora qué hago» (sin «yo») y «sin ti» (YouTube: «si»).
+  - Entre los segundos 12 y 20 hay un plano de Lalo fumando.
+  - Si la fuente, masterizada muy fuerte, distorsiona.
+
+Texto para TikTok (`lalo-music`):
+
+```
+«Maldito el día en que yo te perdí». El coro de Te Perdí, de Lalo Ocampo, para los que extrañan.
+
+¿A quién te recuerda?
+
+Crédito: Lalo Ocampo (YouTube) · «Lalo Ocampo - Te Perdí», minuto 0:57 · https://www.youtube.com/watch?v=HyTE8nzFyFw&t=57s
+
+#LaloOcampo #TePerdi #Desamor #MusicaUrbana #Coro
+```
+
+### 2026-11-18-madrilena-se-formo-el-perreo
+
+- **Gancho:** MADRILEÑA: «se formó el perreo» · **Puntaje:** 68 · **Derechos:** autorizado · **Ventana:** hasta el 2026-12-18
+- [Video](../clipero/clips/2026-11-18-madrilena-se-formo-el-perreo/clip.mp4) · [Ficha](../clipero/clips/2026-11-18-madrilena-se-formo-el-perreo/ficha.md)
+- Entrada de «Madrileña»: verso de arranque, entrada del beat y primer coro. Sale Lalo con gorra en la fiesta, bailando.
+- **Qué ver y oír:**
+  - **«cintura, (…) pierde la cordura» (segundo 3):** el subtítulo lleva un hueco (YouTube: «aceptamos y»; whisper: «acepto monstruo y rapi»).
+  - **«Se formó el» y «Cuando en la disco yo»:** YouTube no los transcribió; salen de whisper y sus tiempos son aproximados. Mirar que esos dos bloques salgan a tiempo.
+  - «despertó el deseo» (YouTube: «desperté fue el deseo»), «esa flacota» y «ninguna a ella la va a superar».
+  - Si la fuente distorsiona.
+- El texto de abajo cita solo «Se formó el perreo», igual que el gancho en pantalla.
+
+Texto para TikTok (`lalo-music`):
+
+```
+«Se formó el perreo». La entrada del beat y el coro de Madrileña, de Lalo Ocampo.
+
+¿Con quién la bailas?
+
+Crédito: Lalo Ocampo (YouTube) · «Lalo Ocampo - Madrileña», minuto 0:09 · https://www.youtube.com/watch?v=NJ06Dl-Saqk&t=9s
+
+#LaloOcampo #Madrileña #Perreo #Reggaeton #MusicaUrbana
+```
+
+### 2026-11-18-actriz-coro
+
+- **Gancho:** «Por fuera ríes, por dentro no eres feliz» · **Puntaje:** 68 · **Derechos:** autorizado · **Ventana:** hasta el 2026-12-18
+- [Video](../clipero/clips/2026-11-18-actriz-coro/clip.mp4) · [Ficha](../clipero/clips/2026-11-18-actriz-coro/ficha.md)
+- Primer coro de «Actriz», las dos vueltas. Sale Lalo cantando al micrófono en un estudio iluminado de morado.
+- **Qué oír** (basta una vez; solo se corrigió ortografía): «ríes», «por dentro» y «Te muestras»; y si la fuente, masterizada muy fuerte, distorsiona.
+
+Texto para TikTok (`lalo-music`):
+
+```
+«Por fuera ríes, por dentro no eres feliz». El coro de Actriz, de Lalo Ocampo, para la que finge que está bien.
+
+¿Conoces a alguien así?
+
+Crédito: Lalo Ocampo (YouTube) · «Lalo Ocampo - Actriz», minuto 0:33 · https://www.youtube.com/watch?v=yyV7_BRoPog&t=33s
+
+#LaloOcampo #Actriz #MusicaUrbana #Indirectas #Letras
+```
+
+### 2026-11-18-actriz-sus-amigas
+
+- **Gancho:** «No me puedes ver ni en fotos» · **Puntaje:** 68 · **Derechos:** autorizado · **Ventana:** hasta el 2026-12-18
+- [Video](../clipero/clips/2026-11-18-actriz-sus-amigas/clip.mp4) · [Ficha](../clipero/clips/2026-11-18-actriz-sus-amigas/ficha.md)
+- Verso de entrada de «Actriz», entero, justo antes del coro. Mismo estudio morado.
+- **Qué oír** (basta una vez; YouTube y whisper coinciden en casi todo): «Sus amigas», «no me puedes ver», «se reviven», «no lo ibas a olvidar». Los planos girados o de lado son el estilo del videoclip.
+- Conviene publicarlo unos días después de `2026-11-18-actriz-coro`.
+
+Texto para TikTok (`lalo-music`):
+
+```
+«No me puedes ver ni en fotos porque se reviven los recuerdos». El verso de Actriz, de Lalo Ocampo.
+
+¿Te ha pasado?
+
+Crédito: Lalo Ocampo (YouTube) · «Lalo Ocampo - Actriz», minuto 0:10 · https://www.youtube.com/watch?v=yyV7_BRoPog&t=10s
+
+#LaloOcampo #Actriz #Indirectas #Desamor #Letras
+```
+
+### 2026-11-18-te-perdi-movida-artista
+
+- **Gancho:** TE PERDÍ: «nadie sabe lo que tiene…» · **Puntaje:** 67 · **Derechos:** autorizado · **Ventana:** hasta el 2026-12-18
+- [Video](../clipero/clips/2026-11-18-te-perdi-movida-artista/clip.mp4) · [Ficha](../clipero/clips/2026-11-18-te-perdi-movida-artista/ficha.md)
+- Verso que sigue al primer coro de «Te Perdí». Sale Lalo con la actriz en la calle, de noche.
+- **Qué oír** (es el de este lote con más dudas):
+  - **«desde que no estás (…) la muerte» (segundo 5)** y **«de la mano de otro (…) ahora me toca verte» (segundo 11):** dos huecos en el subtítulo.
+  - **«no te di lo suficiente, fui egoísta»:** reconstruido (YouTube: «y lo suficiente frigorista»; whisper: «no te hilo suficiente fiegoista»).
+  - «Yo viviendo la movida artista» y «con otro subes fotos en el insta» (puede ser «sube sus fotos»).
+  - Sincronía de los versos tomados de whisper; al final se oye un eco «en el insta» sin subtítulo.
+- El texto de abajo cita solo la primera línea, que no tiene dudas.
+- Conviene publicarlo unos días después de `2026-11-18-te-perdi-coro`.
+
+Texto para TikTok (`lalo-music`):
+
+```
+«Nadie sabe lo que tiene hasta que lo pierde». El verso de Te Perdí, de Lalo Ocampo, que sigue al coro.
+
+¿Te pasó alguna vez?
+
+Crédito: Lalo Ocampo (YouTube) · «Lalo Ocampo - Te Perdí», minuto 1:19 · https://www.youtube.com/watch?v=HyTE8nzFyFw&t=79s
+
+#LaloOcampo #TePerdi #Desamor #MusicaUrbana #Letras
+```
+
+### 2026-11-18-yaper-ya-paso-tu-tiempo
+
+- **Gancho:** «Ya pasó tu tiempo, amigo» · **Puntaje:** 67 · **Derechos:** autorizado · **Ventana:** hasta el 2026-12-18
+- [Video](../clipero/clips/2026-11-18-yaper-ya-paso-tu-tiempo/clip.mp4) · [Ficha](../clipero/clips/2026-11-18-yaper-ya-paso-tu-tiempo/ficha.md)
+- Final del primer verso de «YAPER» y la primera vuelta del coro. Sale Lalo (polo negro) con la modelo, con efecto VHS. La letra nombra a Ozuna como referencia; no es una colaboración.
+- **Qué oír:**
+  - **«(…) mucho más que eso» (segundo 28):** hueco en el subtítulo (YouTube: «con»; whisper: «O»).
+  - «ahora en mi momento» (así lo oyen las dos; podría ser «ahora es mi momento»).
+  - La entrada: puede oírse la cola de una sílaba antes de «Ella».
+  - Si la fuente distorsiona.
+
+Texto para TikTok (`lalo-music`):
+
+```
+«…no llores cuando la veas conmigo, porque ya pasó tu tiempo, amigo». El coro de YAPER, de Lalo Ocampo.
+
+¿Se lo mandas a alguien?
+
+Crédito: Lalo Ocampo (YouTube) · «Lalo Ocampo - YAPER -», minuto 1:04 · https://www.youtube.com/watch?v=sZxg1HGfQm8&t=64s
+
+#LaloOcampo #Yaper #Reggaeton #Indirectas #Letras
+```
+
+### 2026-11-18-madrilena-cinco-estrellas
+
+- **Gancho:** «Es cinco estrellas, ella tiene todas las reseñas» · **Puntaje:** 66 · **Derechos:** autorizado · **Ventana:** hasta el 2026-12-18
+- [Video](../clipero/clips/2026-11-18-madrilena-cinco-estrellas/clip.mp4) · [Ficha](../clipero/clips/2026-11-18-madrilena-cinco-estrellas/ficha.md)
+- Primer verso de «Madrileña», el que lleva el título. Lalo de blanco en una azotea al principio y al final; en medio, la modelo.
+- **Qué ver y oír:**
+  - **Final:** el verso sigue sin pausa; el último medio segundo puede llevar el arranque del verso siguiente sin subtítulo.
+  - **Sincronía:** se usaron los tiempos de YouTube (whisper los pone 0,7 s antes); mirar que los subtítulos no vayan tarde.
+  - «y para ella que soy su leña» y «el verano y se le puso»; un «oh mami» de fondo sin subtítulo.
+- Conviene publicarlo unos días después de `2026-11-18-madrilena-se-formo-el-perreo`.
+
+Texto para TikTok (`lalo-music`):
+
+```
+«Es cinco estrellas, ella tiene todas las reseñas». El verso de Madrileña, de Lalo Ocampo.
+
+¿Cuántas estrellas le das?
+
+Crédito: Lalo Ocampo (YouTube) · «Lalo Ocampo - Madrileña», minuto 0:38 · https://www.youtube.com/watch?v=NJ06Dl-Saqk&t=38s
+
+#LaloOcampo #Madrileña #Reggaeton #MusicaUrbana #Letras
+```
+
+### 2026-11-18-yaper-cuentale
+
+- **Gancho:** «Cuéntale que soy mejor que él» · **Puntaje:** 65 · **Derechos:** autorizado · **Ventana:** hasta el 2026-12-18
+- [Video](../clipero/clips/2026-11-18-yaper-cuentale/clip.mp4) · [Ficha](../clipero/clips/2026-11-18-yaper-cuentale/ficha.md)
+- Gancho de «YAPER» y la escena del primer verso (el ex llama y contesta la amiga). Lalo (polo negro) con la modelo, efecto VHS. Al principio sale un chat de móvil con el nombre «LALO»: es parte del videoclip.
+- **Qué oír:**
+  - **«la empezó a llamar su ex» (segundo 14):** reconstruido; el pronombre («la» o «lo») no está claro.
+  - **«Contesta la amiga: ¿ese número de quién es?» (segundo 16):** reconstruido.
+  - «loquita» y que «Cuéntale que soy mejor que él» salga a tiempo (las transcripciones difieren casi un segundo en la entrada).
+- El texto de abajo cita solo «Cuéntale que soy mejor que él», que no tiene dudas.
+- Conviene publicarlo unos días después de `2026-11-18-yaper-ya-paso-tu-tiempo`.
+
+Texto para TikTok (`lalo-music`):
+
+```
+«Cuéntale que soy mejor que él». El gancho de YAPER, de Lalo Ocampo.
+
+¿A quién se lo dedicas?
+
+Crédito: Lalo Ocampo (YouTube) · «Lalo Ocampo - YAPER -», minuto 0:23 · https://www.youtube.com/watch?v=sZxg1HGfQm8&t=23s
+
+#LaloOcampo #Yaper #Reggaeton #MusicaUrbana #Indirectas
+```
+
+---
+
 ## Comandos
 
 En esta PC actúan sobre el espacio de Lalo.
 
-- Aprobar un clip en todas sus plataformas: `/publicador aprobar 2026-11-10-por-dios-santo-coro`
-- Aprobar solo una plataforma: `/publicador aprobar 2026-11-10-por-dios-santo-coro:tiktok`
-- Aprobar los tres pendientes: `/publicador aprobar todo`
-- Rechazar: `/publicador rechazar 2026-11-10-confusiones-coro falta la palabra del segundo 24`
+- Aprobar un clip en todas sus plataformas: `/publicador aprobar 2026-11-18-actriz-coro`
+- Aprobar solo una plataforma: `/publicador aprobar 2026-11-18-actriz-coro:tiktok`
+- Aprobar varios a la vez: `/publicador aprobar 2026-11-18-actriz-coro 2026-11-18-te-perdi-coro`
+- Aprobar los once pendientes: `/publicador aprobar todo`
+- Rechazar: `/publicador rechazar 2026-11-18-te-perdi-coro falta la palabra del segundo 11`
 
-Ids pendientes: `2026-11-10-por-dios-santo-coro`, `2026-11-10-por-dios-santo-espejo`, `2026-11-10-confusiones-coro`.
+Ids pendientes: `2026-11-10-por-dios-santo-coro`, `2026-11-10-por-dios-santo-espejo`, `2026-11-10-confusiones-coro`, `2026-11-18-te-perdi-coro`, `2026-11-18-madrilena-se-formo-el-perreo`, `2026-11-18-actriz-coro`, `2026-11-18-actriz-sus-amigas`, `2026-11-18-te-perdi-movida-artista`, `2026-11-18-yaper-ya-paso-tu-tiempo`, `2026-11-18-madrilena-cinco-estrellas`, `2026-11-18-yaper-cuentale`.

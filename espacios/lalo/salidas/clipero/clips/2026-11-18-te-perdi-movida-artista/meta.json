@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-18-te-perdi-movida-artista",
+    "url_fuente":  "https://www.youtube.com/watch?v=HyTE8nzFyFw",
+    "video_id":  "HyTE8nzFyFw",
+    "inicio":  79.3,
+    "fin":  105.75,
+    "inicio_hms":  "0:01:19",
+    "duracion_seg":  26.5,
+    "gancho":  "TE PERDÍ: «nadie sabe lo que tiene…»",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  60,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1440,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -9.85,
+                  "entrada_tp":  0.96,
+                  "salida_lufs":  -13.95,
+                  "salida_tp":  -3.5
+              },
+    "archivo":  "espacios/lalo/salidas/clipero/clips/2026-11-18-te-perdi-movida-artista/clip.mp4",
+    "portada":  "espacios/lalo/salidas/clipero/clips/2026-11-18-te-perdi-movida-artista/portada.jpg",
+    "revision":  "espacios/lalo/salidas/clipero/clips/2026-11-18-te-perdi-movida-artista/revision.jpg",
+    "creado":  "2026-11-18T15:26:58.3867347-05:00"
+}

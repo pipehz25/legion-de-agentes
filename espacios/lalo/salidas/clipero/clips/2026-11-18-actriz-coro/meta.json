@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-18-actriz-coro",
+    "url_fuente":  "https://www.youtube.com/watch?v=yyV7_BRoPog",
+    "video_id":  "yyV7_BRoPog",
+    "inicio":  33,
+    "fin":  56.4,
+    "inicio_hms":  "0:00:33",
+    "duracion_seg":  23.4,
+    "gancho":  "«Por fuera ríes, por dentro no eres feliz»",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  42,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -10.11,
+                  "entrada_tp":  1.94,
+                  "salida_lufs":  -13.98,
+                  "salida_tp":  -2.24
+              },
+    "archivo":  "espacios/lalo/salidas/clipero/clips/2026-11-18-actriz-coro/clip.mp4",
+    "portada":  "espacios/lalo/salidas/clipero/clips/2026-11-18-actriz-coro/portada.jpg",
+    "revision":  "espacios/lalo/salidas/clipero/clips/2026-11-18-actriz-coro/revision.jpg",
+    "creado":  "2026-11-18T15:23:34.0738143-05:00"
+}

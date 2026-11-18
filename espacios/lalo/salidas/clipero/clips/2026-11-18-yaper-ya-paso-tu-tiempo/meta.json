@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-18-yaper-ya-paso-tu-tiempo",
+    "url_fuente":  "https://www.youtube.com/watch?v=sZxg1HGfQm8",
+    "video_id":  "sZxg1HGfQm8",
+    "inicio":  64.42,
+    "fin":  95,
+    "inicio_hms":  "0:01:04",
+    "duracion_seg":  30.6,
+    "gancho":  "«Ya pasó tu tiempo, amigo»",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  68,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -11.16,
+                  "entrada_tp":  0.57,
+                  "salida_lufs":  -14.05,
+                  "salida_tp":  -2.39
+              },
+    "archivo":  "espacios/lalo/salidas/clipero/clips/2026-11-18-yaper-ya-paso-tu-tiempo/clip.mp4",
+    "portada":  "espacios/lalo/salidas/clipero/clips/2026-11-18-yaper-ya-paso-tu-tiempo/portada.jpg",
+    "revision":  "espacios/lalo/salidas/clipero/clips/2026-11-18-yaper-ya-paso-tu-tiempo/revision.jpg",
+    "creado":  "2026-11-18T15:28:48.7290406-05:00"
+}

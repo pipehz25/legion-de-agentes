@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-18-actriz-sus-amigas",
+    "url_fuente":  "https://www.youtube.com/watch?v=yyV7_BRoPog",
+    "video_id":  "yyV7_BRoPog",
+    "inicio":  10.85,
+    "fin":  32.9,
+    "inicio_hms":  "0:00:10",
+    "duracion_seg":  22.1,
+    "gancho":  "«No me puedes ver ni en fotos»",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  46,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -11.73,
+                  "entrada_tp":  0.03,
+                  "salida_lufs":  -14.04,
+                  "salida_tp":  -2.28
+              },
+    "archivo":  "espacios/lalo/salidas/clipero/clips/2026-11-18-actriz-sus-amigas/clip.mp4",
+    "portada":  "espacios/lalo/salidas/clipero/clips/2026-11-18-actriz-sus-amigas/portada.jpg",
+    "revision":  "espacios/lalo/salidas/clipero/clips/2026-11-18-actriz-sus-amigas/revision.jpg",
+    "creado":  "2026-11-18T15:25:30.3720417-05:00"
+}
