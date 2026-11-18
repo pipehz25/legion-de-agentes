@@ -19,10 +19,12 @@
     "youtube": {
       "activa": false,
       "cuentas": [
-        { "alias": "principal", "activa": true, "linea": "todo" }
+        { "alias": "risas", "activa": false, "linea": "risas: clips de la línea risas (comedia, stand-up, humoristas y momentos graciosos de la política colombiana)" },
+        { "alias": "principal", "activa": true, "linea": "urbano: todo menos los clips de la línea risas; esos esperan a la cuenta risas aunque esté apagada" }
       ],
-      "privacidad": "private",
-      "_privacidad": "private | unlisted | public. Mientras el proyecto de Google Cloud no pase la auditoría de la API, YouTube deja privado todo lo subido por API.",
+      "_cuentas_youtube": "Decision del usuario (2026-11-17): YouTube lleva dos canales, uno por linea. principal es el canal de la Legion Urbana y risas el de la Legion de Risas. Los dos se autorizan en la PC de Felipe con el cliente OAuth de su proyecto de Google Cloud (plataformas.md §3 y §10). risas sigue apagada hasta que se autorice; entonces se pone activa: true, y la plataforma activa: true cuando principal tenga token valido.",
+      "privacidad": "public",
+      "_privacidad": "private | unlisted | public. Desde el 2026-11-02 Google ya no deja en privado lo que suben los proyectos sin auditar, asi que sale con esta privacidad. Solo sube lo aprobado (modo aprobacion).",
       "categoria": "24",
       "idioma": "es",
       "max_por_dia": 4

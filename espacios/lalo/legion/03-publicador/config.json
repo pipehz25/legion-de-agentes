@@ -22,7 +22,7 @@
         { "alias": "principal", "activa": false, "linea": "todo" }
       ],
       "privacidad": "private",
-      "_privacidad": "private | unlisted | public. Mientras el proyecto de Google Cloud no pase la auditoría de la API, YouTube deja privado todo lo subido por API.",
+      "_privacidad": "private | unlisted | public. Desde el 2026-11-02 Google ya no deja en privado lo que suben los proyectos sin auditar: sale con esta privacidad (plataformas.md §3).",
       "categoria": "24",
       "idioma": "es",
       "max_por_dia": 4

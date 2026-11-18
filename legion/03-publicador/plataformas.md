@@ -20,7 +20,7 @@ Estos pasos activan la cuenta `principal` de cada plataforma. Para añadir más 
 
 | Plataforma | Qué hace falta | Privacidad sin auditoría | Notas |
 |---|---|---|---|
-| YouTube Shorts | Proyecto de Google Cloud con la YouTube Data API v3 y un cliente OAuth de escritorio | Privado | Cuota diaria por defecto: 10 000 unidades; cada subida gasta unas 1600 (unas 6 subidas al día) |
+| YouTube Shorts | Proyecto de Google Cloud con la YouTube Data API v3 y un cliente OAuth de escritorio | Público (desde el 2026-11-02) | Cupo propio de subidas: 100 al día por proyecto (desde el 2026-06-01) |
 | TikTok | App en TikTok for Developers con Login Kit y Content Posting API | Solo `SELF_ONLY` en publicación directa | Por defecto se envía como borrador a la bandeja de la app |
 | Instagram Reels | Cuenta profesional (empresa o creador) y app de Meta | Público (no hay borradores) | Límite de unas 50 publicaciones por API cada 24 h |
 | Facebook Reels | Página de Facebook y token de página | Borrador o publicado | Reels de 3 a 90 s |
@@ -32,7 +32,10 @@ Estos pasos activan la cuenta `principal` de cada plataforma. Para añadir más 
 2. **Pantalla de consentimiento OAuth:** tipo Externo. Añade tu cuenta como usuario de prueba y después pasa la app a **En producción**. En modo de prueba, el refresh token caduca a los 7 días y el loop dejaría de subir. Google mostrará el aviso de "app no verificada" al autorizar; es normal para uso propio.
 3. **Credenciales → Crear ID de cliente OAuth → Aplicación de escritorio.** Copia el client_id y el client_secret.
 4. Ejecuta `autorizar -Plataforma youtube`: pide los dos datos, abre el navegador y vuelve a `http://127.0.0.1:8765` (`puerto_oauth`).
-5. Mientras el proyecto no pase la auditoría de la API (formulario de YouTube API Services), los videos subidos por API quedan **privados**. Se pueden hacer públicos a mano desde YouTube Studio.
+5. **Privacidad:** desde el 2026-11-02 Google ya no deja en privado lo que suben los proyectos sin auditar (antes lo hacía con los creados después del 2020-07-28). Lo subido sale con `youtube.privacidad` de `config.json`.
+6. **Cupo:** desde el 2026-06-01 las subidas (`videos.insert`) tienen su propio cupo de **100 al día por proyecto**, a 1 unidad cada una, aparte de las 10 000 unidades diarias del resto de llamadas (leer vistas, comprobar). Se reinicia a medianoche, hora del Pacífico. Para más, el formulario de ampliación de cupo de YouTube API Services, que exige pasar una auditoría.
+
+Fuentes: https://developers.google.com/youtube/v3/determine_quota_cost y https://developers.google.com/youtube/v3/revision_history (entradas del 2025-12-04, 2026-06-01 y 2026-11-02).
 
 Un video vertical de hasta 3 minutos se trata como Short automáticamente.
 
@@ -128,7 +131,7 @@ Las credenciales de cada cuenta quedan en el mismo archivo fuera del proyecto, b
 
 | Plataforma | Por cada cuenta nueva | Límite que se comparte entre cuentas |
 |---|---|---|
-| YouTube | Otro canal; se autoriza con el mismo cliente OAuth | La cuota diaria es **del proyecto**, no del canal: unas 6 subidas al día entre todos los canales |
+| YouTube | Otro canal; se autoriza con el mismo cliente OAuth. En la pantalla de Google se elige el canal (si una cuenta de Google tiene varios canales, aparecen todos) | El cupo es **del proyecto**, no del canal: 100 subidas al día entre todos los canales que use ese proyecto, aunque estén en PCs distintas |
 | TikTok | Añadirla en *Target users* del sandbox e iniciar sesión con ella al autorizar | Los 5 borradores pendientes son por cuenta |
 | Instagram | Añadirla a la app de Meta (como evaluador mientras la app esté en desarrollo) y generar su token | Unas 50 publicaciones por API cada 24 h, por cuenta |
 | Facebook | Otra página, con su token de página | — |
