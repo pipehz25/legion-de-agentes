@@ -1,41 +1,47 @@
 # Pendientes del Publicador
 
-Generado: 2026-11-17T17:03:13-05:00 · ciclo 10 · entrada: `salidas/clipero/clips.json` (ciclo 16 del Clipero, generado el 2026-11-17 a las 16:44): 39 clips nuevos, 13 del ciclo 15 que aún no estaban preparados y 26 del ciclo 16.
+Generado: 2026-11-17T19:33:37-05:00 · ciclo 11 · entrada: `salidas/clipero/clips.json` (ciclo 17 del Clipero, generado el 2026-11-17 a las 19:24): 4 clips nuevos, todos de la línea risas.
 
 **Cómo leer esta página**
 
-- **TikTok:** cada clip nuevo se aprueba solo y va como **borrador** a la bandeja de su cuenta. No es público hasta que lo publicas desde la app. La API solo manda el video: al publicarlo, **pega el texto de TikTok** de su sección. Hoy llegaron 8:
-  - **Legión Urbana** (cuenta `principal`): `samulx-retiro-boxeo`, `samulx-dime-que-no-puedes`, `samulx-cuarto-round` y `westcol-disculpa-pelea-jh`.
-  - **@legion.risas** (cuenta `risas`): `parenlamano-papa-a-dormir`, `parenlamano-luquitas-turista`, `parenlamano-luquitas-zapatilla` y `tirandobola-perra-amigo`.
+- **TikTok:** cada clip nuevo se aprueba solo y va como **borrador** a la bandeja de su cuenta. No es público hasta que lo publicas desde la app. La API solo manda el video: al publicarlo, **pega el texto de TikTok** de su sección. En este ciclo no se envió nada: las dos cuentas ya llevaban hoy 4 de 4 (ciclo de las 17:03).
   - Para que un clip no llegue a la bandeja: `/publicador rechazar <clip-id>:tiktok <motivo>`.
-- **`westcol-herrera-no-planeado`: no se sabe si llegó.** TikTok respondió HTTP 500 sin identificador, como con `prestamo-primera-cancion` el 31-oct (aquel no llegó). Mira la bandeja de Legión Urbana: si no está, dilo y se reintenta (le queda 1 intento); si está, publícalo desde ahí con el texto de su sección.
-- **Bandeja según la API: 44 borradores sin publicar** (25 en `principal` y 19 en `risas`). Hoy TikTok aceptó los 8, pero el 15-nov cortó las dos cuentas con `spam_risk_too_many_pending_share`. **Publica o descarta** desde la app los que ya no quieras: 23 tienen la ventana cerrada (tabla al final del resumen).
-- **No caben todos los clips.** TikTok admite 4 borradores al día por cuenta y el Clipero entregó 39 de golpe, casi todos con ventana hasta el 18 o el 19-nov. Plan:
+- **Caso Herrera: pasa a lo legal** (Cazador Urbano, 17-nov: «Westcol lo demandará»). Solo salen los clips que cuentan el evento sin acusaciones, demandas ni vida personal. Las fichas de los tres que giran en torno a Herrera pedían no publicarlos en ese caso:
+  - **`westcol-disculpa-pelea-jh` ya está en la bandeja de Legión Urbana: no lo publiques.** Descártalo desde la app (la API no puede borrarlo).
+  - **`westcol-herrera-no-planeado`:** el envío del ciclo 10 dio HTTP 500 y no se sabe si llegó. Ya no se reintenta: si está en la bandeja, descártalo.
+  - **`samulx-camerino-herrera`:** ya no se envía (estaba previsto para el 18-nov).
+  - Sus entradas de Instagram y YouTube quedan rechazadas. Para reabrir alguno: `/publicador aprobar <clip-id>:<plataforma>`.
+  - **Sí pueden salir** los otros tres del video de Westcol, que no tocan a Herrera (solo el título del video original, en el crédito, lo nombra): `westcol-daren-mentiroso`, `westcol-boxeo-aburrido` y `westcol-show-kris-r`.
+- **Bandeja según la API: 44 borradores sin publicar** (25 en `principal` y 19 en `risas`). 23 tienen la ventana cerrada (tabla al final del resumen) y 16 de risas vencen hoy. **Publica o descarta** desde la app los que ya no quieras: el 15-nov TikTok cortó las dos cuentas con `spam_risk_too_many_pending_share`.
+- **No caben todos los clips.** TikTok admite 4 borradores al día por cuenta. Plan:
   - **`principal`:**
-    - **18-nov:** `samulx-camerino-herrera`, `lonche-cinco-lesiones`, `samulx-prueba-antidoping` y `samulx-camerino-robado` (o `westcol-herrera-no-planeado`, si confirmas que no llegó).
+    - **18-nov:** `lonche-cinco-lesiones`, `samulx-prueba-antidoping`, `samulx-camerino-robado` y `westcol-daren-mentiroso` (entra en el sitio de `samulx-camerino-herrera`; en el empate a 70 gana por variedad: es el único de Westcol de la cola).
     - **19-nov:** `westcol-boxeo-aburrido`, `ganga-robot-precio` y `westcol-show-kris-r`.
   - **`risas`:**
     - **18-nov:** `nsn-telefono-infancia`, `jhovanoty-faja-disfraz`, `tirandobola-luz-experiencias` y `cotorrisa-vinchi-dicaprio`.
     - **19-nov:** `hh-aeropuerto-4am`, `hh-estafa-reventa`, `hh-colada-bano` y `cotorrisa-suite-karol-g`.
+    - **20-nov:** los 4 nuevos, `culpa-marin-despide-quevedo`, `culpa-mama-carrazo`, `renona-checo-dinosaurios` y `olga-agua-mostaza`. Sus fichas proponían el 18 y el 19-nov, pero su ventana es más larga y la cola va por ventana. Publica los dos de La Culpa separados.
   - **Se quedan fuera** si no decides otra cosa:
-    - **`principal`, 5** (vencen el 18-nov): `westcol-daren-mentiroso`, `samulx-entrada-sin-musica`, `samulx-clinica-fotico`, `samulx-hable-mucho` y `samulx-cuerda-espalda`.
+    - **`principal`, 4** (vencen el 18-nov): `samulx-entrada-sin-musica`, `samulx-clinica-fotico`, `samulx-hable-mucho` y `samulx-cuerda-espalda`.
     - **`risas`, 16:** 11 vencen el 18-nov y 5 el 19-nov.
     - Si prefieres otros, rechaza para TikTok los del plan que no quieras y entra el siguiente de la cola.
-- **Vencidos al llegar:** `stf5-ganga-cara-a-cara` y `stf5-westcol-grefg-frunci` tenían ventana hasta el 16-nov y no se envían. Para mandarlos igual: `/publicador aprobar <clip-id>:tiktok`.
 - **Instagram y YouTube:** pendientes de aprobación. Las dos plataformas siguen sin activar y sin credenciales: aprobar ahora solo deja el envío listo para cuando se activen.
   - Los urbanos van en Instagram a `principal`; los de risas, a la cuenta `risas` (apagada hasta que la crees y la autorices), nunca a la urbana.
   - Las 32 pendientes con ventana hasta hoy (16 clips de risas) vencen al acabar el día.
 - **Clips subidos a mano** (`legion/03-publicador/subidos-a-mano.json`): no aparecen aquí.
 - **Derechos:** todos los clips de esta página son `sin_verificar`: contenido de terceros sin permiso confirmado. Solo se publica con aprobación expresa (en TikTok, tu publicación desde la bandeja) y siempre con el crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
 - **Revisar antes de publicar** (el detalle de cada clip está en su sección):
-  - **Herrera** (`westcol-herrera-no-planeado`, `westcol-disculpa-pelea-jh` y `samulx-camerino-herrera`): si la polémica pasa a lo judicial, no se publican. Los textos no añaden nada sobre Herrera. Publica `disculpa-pelea-jh` (ya en la bandeja) y `herrera-no-planeado` en días distintos.
+  - **Nuevos:**
+    - `renona-checo-dinosaurios`: velo antes. El remate lo dice Franco imitando a Checo según los comentarios del video, pero el plano general no lo muestra de cerca; si no fuera Franco, no lo publiques con este texto.
+    - `culpa-marin-despide-quevedo`: escucha los dos tramos que los subtítulos dejan como «(…)» y el audio, algo saturado en la fuente.
+    - `olga-agua-mostaza` y `culpa-mama-carrazo`: no nombran a quien cuenta, porque la imagen no lo identifica.
   - `samulx-retiro-boxeo` (en la bandeja): dice «creo que me voy a retirar»; los textos no lo dan por hecho, y en un directo posterior lo matiza.
-  - `ganga-robot-precio`: escúchalo antes. No se sabe quién dice la cifra y los textos no se la atribuyen a nadie (la ficha proponía «La Ganga da la cifra»).
+  - `ganga-robot-precio`: escúchalo antes. No se sabe quién dice la cifra y los textos no se la atribuyen a nadie.
   - `hh-estafa-reventa`: junto a la fan aparece un joven (su hijo, según ella). Si parece menor de edad, no lo publiques.
   - `samulx-cuerda-espalda`: se ven los raspones de la espalda.
-  - **En la bandeja de risas desde hoy, los tres del Papa** (`parenlamano-papa-a-dormir`, `parenlamano-luquitas-turista` y `parenlamano-luquitas-zapatilla`): vencían hoy. Publica `luquitas-turista` antes que `luquitas-zapatilla`, y deja `cotorrisa-papa-cadenero` para otro día.
+  - **En la bandeja de risas, los tres del Papa** (`parenlamano-papa-a-dormir`, `parenlamano-luquitas-turista` y `parenlamano-luquitas-zapatilla`): vencen hoy. Publica `luquitas-turista` antes que `luquitas-zapatilla`, y deja `cotorrisa-papa-cadenero` para otro día.
   - `parenlamano-papa-a-dormir`: los conductores le ponen voz a un video del Papa. Si parece que el Papa dice «no me rompan más la pelota», descártalo.
-  - `parenlamano-barrera-2am`: los textos no atribuyen la regla a nadie (la ficha se la atribuía a Rober Galati por un comentario).
+  - `parenlamano-barrera-2am`: los textos no atribuyen la regla a nadie.
   - `westcol-daren-mentiroso`: los textos no dicen que ganó «en 5 segundos» (la pelea se detuvo después, por la lesión de hombro del Agropecuario).
   - `hh-colada-bano` va antes que `hh-colada-tres-minutos` (el desenlace). En los dos, la fan es una persona privada con la cara cubierta.
   - `jhovanoty-faja-disfraz` (humor político): es el humorista contando su disfraz de Abelardo de la Espriella; De la Espriella no sale. Al publicar no le añadas cargo, consignas ni opinión.
@@ -43,73 +49,74 @@ Generado: 2026-11-17T17:03:13-05:00 · ciclo 10 · entrada: `salidas/clipero/cli
 
 ## Resumen
 
-Línea **urbano**: 17 clips.
+Línea **urbano**: 14 clips.
 
 | # | Clip | Puntaje | Ventana hasta | TikTok (principal) | Instagram (principal) | YouTube |
 |---|---|---|---|---|---|---|
-| 17 | `2026-11-17-samulx-retiro-boxeo` | 78 | 2026-11-18 | en la bandeja desde hoy, 16:58 (borrador) | pendiente de aprobación | pendiente de aprobación |
-| 18 | `2026-11-17-westcol-herrera-no-planeado` | 78 | 2026-11-18 | no se sabe si llegó: TikTok dio HTTP 500 sin identificador (hoy, 16:57; 1 de 2 intentos; mira la bandeja) | pendiente de aprobación | pendiente de aprobación |
-| 19 | `2026-11-17-samulx-dime-que-no-puedes` | 77 | 2026-11-18 | en la bandeja desde hoy, 16:58 (borrador) | pendiente de aprobación | pendiente de aprobación |
-| 20 | `2026-11-17-westcol-disculpa-pelea-jh` | 77 | 2026-11-18 | en la bandeja desde hoy, 16:59 (borrador) | pendiente de aprobación | pendiente de aprobación |
-| 21 | `2026-11-17-samulx-cuarto-round` | 76 | 2026-11-18 | en la bandeja desde hoy, 16:59 (borrador) | pendiente de aprobación | pendiente de aprobación |
-| 22 | `2026-11-17-samulx-camerino-herrera` | 75 | 2026-11-18 | aprobado automáticamente; en cola (previsto 18-nov) | pendiente de aprobación | pendiente de aprobación |
-| 25 | `2026-11-17-lonche-cinco-lesiones` | 74 | 2026-11-18 | aprobado automáticamente; en cola (previsto 18-nov) | pendiente de aprobación | pendiente de aprobación |
-| 27 | `2026-11-17-samulx-prueba-antidoping` | 73 | 2026-11-18 | aprobado automáticamente; en cola (previsto 18-nov) | pendiente de aprobación | pendiente de aprobación |
-| 32 | `2026-11-17-samulx-camerino-robado` | 72 | 2026-11-18 | aprobado automáticamente; en cola (previsto 18-nov; cede su sitio a westcol-herrera-no-planeado si el usuario confirma que ese no llegó a la bandeja) | pendiente de aprobación | pendiente de aprobación |
-| 41 | `2026-11-17-samulx-clinica-fotico` | 70 | 2026-11-18 | aprobado automáticamente; en cola, sin hueco antes de su ventana (2026-11-18) | pendiente de aprobación | pendiente de aprobación |
-| 42 | `2026-11-17-samulx-entrada-sin-musica` | 70 | 2026-11-18 | aprobado automáticamente; en cola, sin hueco antes de su ventana (2026-11-18) | pendiente de aprobación | pendiente de aprobación |
-| 43 | `2026-11-17-westcol-daren-mentiroso` | 70 | 2026-11-18 | aprobado automáticamente; en cola, sin hueco antes de su ventana (2026-11-18) | pendiente de aprobación | pendiente de aprobación |
-| 44 | `2026-11-17-samulx-hable-mucho` | 68 | 2026-11-18 | aprobado automáticamente; en cola, sin hueco antes de su ventana (2026-11-18) | pendiente de aprobación | pendiente de aprobación |
-| 46 | `2026-11-17-samulx-cuerda-espalda` | 66 | 2026-11-18 | aprobado automáticamente; en cola, sin hueco antes de su ventana (2026-11-18) | pendiente de aprobación | pendiente de aprobación |
-| 47 | `2026-11-17-westcol-boxeo-aburrido` | 76 | 2026-11-19 | aprobado automáticamente; en cola (previsto 19-nov) | pendiente de aprobación | pendiente de aprobación |
-| 48 | `2026-11-17-ganga-robot-precio` | 74 | 2026-11-19 | aprobado automáticamente; en cola (previsto 19-nov, después de escucharlo) | pendiente de aprobación | pendiente de aprobación |
-| 58 | `2026-11-17-westcol-show-kris-r` | 68 | 2026-11-20 | aprobado automáticamente; en cola (previsto 19-nov, en la previa del concierto de Kris R del 20-nov) | pendiente de aprobación | pendiente de aprobación |
+| 17 | `2026-11-17-samulx-retiro-boxeo` | 78 | 2026-11-18 | en la bandeja desde 2026-11-17 16:58 (borrador) | pendiente de aprobación | pendiente de aprobación |
+| 18 | `2026-11-17-samulx-dime-que-no-puedes` | 77 | 2026-11-18 | en la bandeja desde 2026-11-17 16:58 (borrador) | pendiente de aprobación | pendiente de aprobación |
+| 19 | `2026-11-17-samulx-cuarto-round` | 76 | 2026-11-18 | en la bandeja desde 2026-11-17 16:59 (borrador) | pendiente de aprobación | pendiente de aprobación |
+| 20 | `2026-11-17-lonche-cinco-lesiones` | 74 | 2026-11-18 | aprobado automáticamente; en cola (previsto 18-nov) | pendiente de aprobación | pendiente de aprobación |
+| 23 | `2026-11-17-samulx-prueba-antidoping` | 73 | 2026-11-18 | aprobado automáticamente; en cola (previsto 18-nov) | pendiente de aprobación | pendiente de aprobación |
+| 25 | `2026-11-17-samulx-camerino-robado` | 72 | 2026-11-18 | aprobado automáticamente; en cola (previsto 18-nov) | pendiente de aprobación | pendiente de aprobación |
+| 32 | `2026-11-17-westcol-daren-mentiroso` | 70 | 2026-11-18 | aprobado automáticamente; en cola (previsto 18-nov) | pendiente de aprobación | pendiente de aprobación |
+| 33 | `2026-11-17-samulx-entrada-sin-musica` | 70 | 2026-11-18 | aprobado automáticamente; en cola, sin hueco antes de su ventana (2026-11-18) | pendiente de aprobación | pendiente de aprobación |
+| 34 | `2026-11-17-samulx-clinica-fotico` | 70 | 2026-11-18 | aprobado automáticamente; en cola, sin hueco antes de su ventana (2026-11-18) | pendiente de aprobación | pendiente de aprobación |
+| 41 | `2026-11-17-samulx-hable-mucho` | 68 | 2026-11-18 | aprobado automáticamente; en cola, sin hueco antes de su ventana (2026-11-18) | pendiente de aprobación | pendiente de aprobación |
+| 43 | `2026-11-17-samulx-cuerda-espalda` | 66 | 2026-11-18 | aprobado automáticamente; en cola, sin hueco antes de su ventana (2026-11-18) | pendiente de aprobación | pendiente de aprobación |
+| 44 | `2026-11-17-westcol-boxeo-aburrido` | 76 | 2026-11-19 | aprobado automáticamente; en cola (previsto 19-nov) | pendiente de aprobación | pendiente de aprobación |
+| 45 | `2026-11-17-ganga-robot-precio` | 74 | 2026-11-19 | aprobado automáticamente; en cola (previsto 19-nov, después de escucharlo) | pendiente de aprobación | pendiente de aprobación |
+| 57 | `2026-11-17-westcol-show-kris-r` | 68 | 2026-11-20 | aprobado automáticamente; en cola (previsto 19-nov, en la previa del concierto de Kris R del 20-nov) | pendiente de aprobación | pendiente de aprobación |
 
-Línea **risas**: 41 clips.
+Línea **risas**: 45 clips.
 
 | # | Clip | Puntaje | Ventana hasta | TikTok (risas) | Instagram (risas) | YouTube |
 |---|---|---|---|---|---|---|
 | 1 | `2026-11-10-cotorrisa-yordi-tacto` | 82 | 2026-11-17 | en la bandeja desde 2026-11-10 20:35 (borrador) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
 | 2 | `2026-11-10-culpa-tato-diesel` | 80 | 2026-11-17 | en la bandeja desde 2026-11-10 20:35 (borrador) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
-| 3 | `2026-11-10-cotorrisa-yordi-plancha` | 78 | 2026-11-17 | en la bandeja desde 2026-11-10 20:35 (borrador) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
-| 4 | `2026-11-10-culpa-ivan-senorazo` | 78 | 2026-11-17 | en la bandeja desde 2026-11-10 20:36 (borrador) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 3 | `2026-11-10-culpa-ivan-senorazo` | 78 | 2026-11-17 | en la bandeja desde 2026-11-10 20:36 (borrador) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 4 | `2026-11-10-cotorrisa-yordi-plancha` | 78 | 2026-11-17 | en la bandeja desde 2026-11-10 20:35 (borrador) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
 | 5 | `2026-11-10-culpa-super-alexis` | 77 | 2026-11-17 | en la bandeja desde 2026-11-13 18:09 (borrador) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
 | 6 | `2026-11-10-cotorrisa-yordi-cuenta` | 76 | 2026-11-17 | en la bandeja desde 2026-11-11 11:21 (borrador) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
 | 7 | `2026-11-10-cotorrisa-vista-cansada` | 75 | 2026-11-17 | en la bandeja desde 2026-11-11 11:22 (borrador) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
 | 8 | `2026-11-12-cotorrisa-codigo-22` | 74 | 2026-11-17 | en la bandeja desde 2026-11-13 18:09 (borrador) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
-| 9 | `2026-11-12-culpa-quevedo-mentiras` | 72 | 2026-11-17 | en la bandeja desde 2026-11-14 19:35 (borrador) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
-| 10 | `2026-11-13-parenlamano-cardenal-prevost` | 72 | 2026-11-17 | en la bandeja desde 2026-11-14 19:36 (borrador) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
-| 11 | `2026-11-12-cotorrisa-dedito-flaco` | 70 | 2026-11-17 | en la bandeja desde 2026-11-14 19:36 (borrador) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
-| 12 | `2026-11-12-cotorrisa-harvard` | 70 | 2026-11-17 | en la bandeja desde 2026-11-14 19:37 (borrador) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 9 | `2026-11-13-parenlamano-cardenal-prevost` | 72 | 2026-11-17 | en la bandeja desde 2026-11-14 19:36 (borrador) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 10 | `2026-11-12-culpa-quevedo-mentiras` | 72 | 2026-11-17 | en la bandeja desde 2026-11-14 19:35 (borrador) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 11 | `2026-11-15-parenlamano-luquitas-turista` | 70 | 2026-11-17 | en la bandeja desde 2026-11-17 16:58 (borrador) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 12 | `2026-11-13-parenlamano-papa-a-dormir` | 70 | 2026-11-17 | en la bandeja desde 2026-11-17 16:58 (borrador) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
 | 13 | `2026-11-12-culpa-ivan-piscina` | 70 | 2026-11-17 | en la bandeja desde 2026-11-15 18:21 (borrador) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
-| 14 | `2026-11-13-parenlamano-papa-a-dormir` | 70 | 2026-11-17 | en la bandeja desde hoy, 16:58 (borrador) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
-| 15 | `2026-11-15-parenlamano-luquitas-turista` | 70 | 2026-11-17 | en la bandeja desde hoy, 16:58 (borrador) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
-| 16 | `2026-11-15-parenlamano-luquitas-zapatilla` | 69 | 2026-11-17 | en la bandeja desde hoy, 16:58 (borrador) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
-| 23 | `2026-11-15-nsn-telefono-infancia` | 74 | 2026-11-18 | aprobado automáticamente; en cola (previsto 18-nov) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
-| 24 | `2026-11-15-tirandobola-perra-amigo` | 74 | 2026-11-18 | en la bandeja desde hoy, 16:59 (borrador) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
-| 26 | `2026-11-13-jhovanoty-faja-disfraz` | 73 | 2026-11-18 | aprobado automáticamente; en cola (previsto 18-nov) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
-| 28 | `2026-11-13-cotorrisa-vinchi-dicaprio` | 72 | 2026-11-18 | aprobado automáticamente; en cola (previsto 18-nov) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
-| 29 | `2026-11-13-jhovanoty-radar-eldorado` | 72 | 2026-11-18 | aprobado automáticamente; en cola, sin hueco antes de su ventana (2026-11-18) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
-| 30 | `2026-11-15-parenlamano-barrera-2am` | 72 | 2026-11-18 | aprobado automáticamente; en cola, sin hueco antes de su ventana (2026-11-18) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
-| 31 | `2026-11-15-tirandobola-luz-experiencias` | 72 | 2026-11-18 | aprobado automáticamente; en cola (previsto 18-nov) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
-| 33 | `2026-11-13-cotorrisa-navajas-suizas` | 71 | 2026-11-18 | aprobado automáticamente; en cola, sin hueco antes de su ventana (2026-11-18) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
-| 34 | `2026-11-13-cotorrisa-papa-cadenero` | 71 | 2026-11-18 | aprobado automáticamente; en cola, sin hueco antes de su ventana (2026-11-18) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
-| 35 | `2026-11-13-cotorrisa-pastor-gases` | 70 | 2026-11-18 | aprobado automáticamente; en cola, sin hueco antes de su ventana (2026-11-18) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 14 | `2026-11-12-cotorrisa-harvard` | 70 | 2026-11-17 | en la bandeja desde 2026-11-14 19:37 (borrador) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 15 | `2026-11-12-cotorrisa-dedito-flaco` | 70 | 2026-11-17 | en la bandeja desde 2026-11-14 19:36 (borrador) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 16 | `2026-11-15-parenlamano-luquitas-zapatilla` | 69 | 2026-11-17 | en la bandeja desde 2026-11-17 16:58 (borrador) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 21 | `2026-11-15-nsn-telefono-infancia` | 74 | 2026-11-18 | aprobado automáticamente; en cola (previsto 18-nov) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 22 | `2026-11-15-tirandobola-perra-amigo` | 74 | 2026-11-18 | en la bandeja desde 2026-11-17 16:59 (borrador) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 24 | `2026-11-13-jhovanoty-faja-disfraz` | 73 | 2026-11-18 | aprobado automáticamente; en cola (previsto 18-nov) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 26 | `2026-11-15-parenlamano-barrera-2am` | 72 | 2026-11-18 | aprobado automáticamente; en cola, sin hueco antes de su ventana (2026-11-18) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 27 | `2026-11-15-tirandobola-luz-experiencias` | 72 | 2026-11-18 | aprobado automáticamente; en cola (previsto 18-nov) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 28 | `2026-11-13-jhovanoty-radar-eldorado` | 72 | 2026-11-18 | aprobado automáticamente; en cola, sin hueco antes de su ventana (2026-11-18) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 29 | `2026-11-13-cotorrisa-vinchi-dicaprio` | 72 | 2026-11-18 | aprobado automáticamente; en cola (previsto 18-nov) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 30 | `2026-11-13-cotorrisa-papa-cadenero` | 71 | 2026-11-18 | aprobado automáticamente; en cola, sin hueco antes de su ventana (2026-11-18) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 31 | `2026-11-13-cotorrisa-navajas-suizas` | 71 | 2026-11-18 | aprobado automáticamente; en cola, sin hueco antes de su ventana (2026-11-18) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 35 | `2026-11-15-nsn-spiderman-sudado` | 70 | 2026-11-18 | aprobado automáticamente; en cola, sin hueco antes de su ventana (2026-11-18) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
 | 36 | `2026-11-15-nsn-santa-regalos` | 70 | 2026-11-18 | aprobado automáticamente; en cola, sin hueco antes de su ventana (2026-11-18) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
-| 37 | `2026-11-15-nsn-spiderman-sudado` | 70 | 2026-11-18 | aprobado automáticamente; en cola, sin hueco antes de su ventana (2026-11-18) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
-| 38 | `2026-11-15-parenlamano-litkillah-kidkeo` | 70 | 2026-11-18 | aprobado automáticamente; en cola, sin hueco antes de su ventana (2026-11-18) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 37 | `2026-11-15-parenlamano-litkillah-kidkeo` | 70 | 2026-11-18 | aprobado automáticamente; en cola, sin hueco antes de su ventana (2026-11-18) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 38 | `2026-11-15-tirandobola-marco-gana` | 70 | 2026-11-18 | aprobado automáticamente; en cola, sin hueco antes de su ventana (2026-11-18) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
 | 39 | `2026-11-15-tirandobola-comentarios-bano` | 70 | 2026-11-18 | aprobado automáticamente; en cola, sin hueco antes de su ventana (2026-11-18) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
-| 40 | `2026-11-15-tirandobola-marco-gana` | 70 | 2026-11-18 | aprobado automáticamente; en cola, sin hueco antes de su ventana (2026-11-18) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
-| 45 | `2026-11-13-cotorrisa-dicaprio-sandwich` | 67 | 2026-11-18 | aprobado automáticamente; en cola, sin hueco antes de su ventana (2026-11-18) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
-| 49 | `2026-11-17-hh-aeropuerto-4am` | 74 | 2026-11-19 | aprobado automáticamente; en cola (previsto 19-nov) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
-| 50 | `2026-11-17-cotorrisa-suite-karol-g` | 72 | 2026-11-19 | aprobado automáticamente; en cola (previsto 19-nov) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
-| 51 | `2026-11-17-hh-colada-bano` | 72 | 2026-11-19 | aprobado automáticamente; en cola (previsto 19-nov) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
-| 52 | `2026-11-17-hh-estafa-reventa` | 72 | 2026-11-19 | aprobado automáticamente; en cola (previsto 19-nov) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
-| 53 | `2026-11-17-hh-colada-tres-minutos` | 71 | 2026-11-19 | aprobado automáticamente; en cola, sin hueco antes de su ventana (2026-11-19) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
-| 54 | `2026-11-17-hh-temblor-hijos` | 69 | 2026-11-19 | aprobado automáticamente; en cola, sin hueco antes de su ventana (2026-11-19) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
-| 55 | `2026-11-17-cotorrisa-paloma-medalla` | 68 | 2026-11-19 | aprobado automáticamente; en cola, sin hueco antes de su ventana (2026-11-19) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
-| 56 | `2026-11-17-cotorrisa-refri-papas` | 67 | 2026-11-19 | aprobado automáticamente; en cola, sin hueco antes de su ventana (2026-11-19) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
-| 57 | `2026-11-17-hh-lluvia-lima` | 66 | 2026-11-19 | aprobado automáticamente; en cola, sin hueco antes de su ventana (2026-11-19) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 40 | `2026-11-13-cotorrisa-pastor-gases` | 70 | 2026-11-18 | aprobado automáticamente; en cola, sin hueco antes de su ventana (2026-11-18) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 42 | `2026-11-13-cotorrisa-dicaprio-sandwich` | 67 | 2026-11-18 | aprobado automáticamente; en cola, sin hueco antes de su ventana (2026-11-18) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 46 | `2026-11-17-hh-aeropuerto-4am` | 74 | 2026-11-19 | aprobado automáticamente; en cola (previsto 19-nov) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 47 | `2026-11-17-hh-estafa-reventa` | 72 | 2026-11-19 | aprobado automáticamente; en cola (previsto 19-nov) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 48 | `2026-11-17-hh-colada-bano` | 72 | 2026-11-19 | aprobado automáticamente; en cola (previsto 19-nov) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 49 | `2026-11-17-cotorrisa-suite-karol-g` | 72 | 2026-11-19 | aprobado automáticamente; en cola (previsto 19-nov) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 50 | `2026-11-17-hh-colada-tres-minutos` | 71 | 2026-11-19 | aprobado automáticamente; en cola, sin hueco antes de su ventana (2026-11-19) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 51 | `2026-11-17-hh-temblor-hijos` | 69 | 2026-11-19 | aprobado automáticamente; en cola, sin hueco antes de su ventana (2026-11-19) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 52 | `2026-11-17-cotorrisa-paloma-medalla` | 68 | 2026-11-19 | aprobado automáticamente; en cola, sin hueco antes de su ventana (2026-11-19) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 53 | `2026-11-17-cotorrisa-refri-papas` | 67 | 2026-11-19 | aprobado automáticamente; en cola, sin hueco antes de su ventana (2026-11-19) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 54 | `2026-11-17-hh-lluvia-lima` | 66 | 2026-11-19 | aprobado automáticamente; en cola, sin hueco antes de su ventana (2026-11-19) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 55 | `2026-11-17-culpa-marin-despide-quevedo` | 76 | 2026-11-20 | aprobado automáticamente; en cola (previsto 20-nov) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 56 | `2026-11-17-culpa-mama-carrazo` | 75 | 2026-11-20 | aprobado automáticamente; en cola (previsto 20-nov) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 58 | `2026-11-17-renona-checo-dinosaurios` | 74 | 2026-11-21 | aprobado automáticamente; en cola (previsto 20-nov) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
+| 59 | `2026-11-17-olga-agua-mostaza` | 73 | 2026-11-21 | aprobado automáticamente; en cola (previsto 20-nov) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación |
 
 **Borradores con la ventana cerrada** (siguen en la bandeja de TikTok según la API; publícalos solo si aún te sirven, si no, descártalos desde la app para liberar sitio). El texto de cada uno está en su archivo de envío.
 
@@ -138,6 +145,13 @@ Línea **risas**: 41 clips.
 | `2026-11-14-stf5-daren-cinco-segundos` | principal | 2026-11-15 18:19 | 2026-11-16 | [envío](../../datos/publicador/envios/2026-11-14-stf5-daren-cinco-segundos__tiktok.json) |
 | `2026-11-14-stf5-westcol-patadita` | principal | 2026-11-15 18:20 | 2026-11-16 | [envío](../../datos/publicador/envios/2026-11-14-stf5-westcol-patadita__tiktok.json) |
 | `2026-11-14-stf5-daren-quiero-guerra` | principal | 2026-11-15 18:20 | 2026-11-16 | [envío](../../datos/publicador/envios/2026-11-14-stf5-daren-quiero-guerra__tiktok.json) |
+
+**Borradores que no conviene publicar** (caso Herrera; descártalos desde la app):
+
+| Clip | Cuenta | En la bandeja desde | Texto |
+|---|---|---|---|
+| `2026-11-17-westcol-disculpa-pelea-jh` | principal | 2026-11-17 16:59 | [envío](../../datos/publicador/envios/2026-11-17-westcol-disculpa-pelea-jh__tiktok.json) |
+| `2026-11-17-westcol-herrera-no-planeado` | principal | no se sabe si llegó (HTTP 500 el 2026-11-17 16:57) | [envío](../../datos/publicador/envios/2026-11-17-westcol-herrera-no-planeado__tiktok.json) |
 
 ## 1. `2026-11-10-cotorrisa-yordi-tacto`
 
@@ -235,55 +249,7 @@ Crédito: Los De La Culpa (YouTube), “Errores Memorables | Los De La Culpa - C
 **Etiquetas:** Los De La Culpa, Errores Memorables, humor colombiano, comedia colombiana, stand up, carro diésel, anécdotas
 
 
-## 3. `2026-11-10-cotorrisa-yordi-plancha`
-
-- **Gancho:** Le preguntó a un luchador cómo le fue
-- **Puntaje:** 78 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-17 · **Línea:** risas · **Pieza:** original (sin variantes)
-- **Video:** [clip.mp4](../clipero/clips/2026-11-10-cotorrisa-yordi-plancha/clip.mp4) (74,3 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-10-cotorrisa-yordi-plancha/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=jUfBJ_aIA3w
-- **Revisar antes de publicar:** CUIDADO: el luchador (Super Porky) ya falleció. Los textos no lo nombran ni hablan de su cuerpo; el clip deja fuera los chistes sobre su peso. Al publicar no añadas su nombre ni comentarios sobre él. El «¿cómo estuvo allá arriba?» de la ficha queda fuera del corte: los textos citan «¿cómo la pasaste en la arena?». La broma final de un anfitrión («otra dimensión en la que Yordi Rosado murió…») es sobre Yordi y no se repite en los textos.
-
-### TikTok · cuenta `risas` (@legion.risas) · en la bandeja desde 2026-11-10 20:35 (borrador)
-
-```
-“¿Quieres ver cómo estuvo?”: la entrevista de Yordi Rosado en la Arena México que acabó en plancha
-
-¿Tú le habrías preguntado?
-
-Crédito: La Cotorrisa (canal de Ricardo Pérez en YouTube), “Anecdotario 377 - Nuestro primer tacto de próstata”, con Yordi Rosado. Video original (minuto 17:19): https://youtu.be/jUfBJ_aIA3w?t=1039
-
-#YordiRosado #LaCotorrisa #LuchaLibre #Humor #Anecdotas
-```
-
-### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
-
-```
-Yordi Rosado le preguntó a un luchador cómo le fue… y se lo enseñó
-
-De sus años de reportero en la Arena México: Yordi Rosado entrevista a un luchador recién bajado del ring, “¿cómo la pasaste en la arena?”, y la respuesta es “¿quieres ver cómo estuvo?”. Y una plancha.
-
-¿Tú le habrías preguntado?
-
-Crédito: La Cotorrisa (canal de Ricardo Pérez en YouTube), “Anecdotario 377 - Nuestro primer tacto de próstata”, con Yordi Rosado. Video original (minuto 17:19): https://youtu.be/jUfBJ_aIA3w?t=1039
-
-#YordiRosado #LaCotorrisa #LuchaLibre #Humor #Anecdotas
-```
-
-### YouTube · cuenta `principal` · pendiente de aprobación
-
-**Título:** Yordi Rosado y la plancha que recibió entrevistando en la Arena México
-
-```
-De sus años de reportero en la Arena México: Yordi Rosado entrevista a un luchador recién bajado del ring, “¿cómo la pasaste en la arena?”, y la respuesta es “¿quieres ver cómo estuvo?”. Y una plancha.
-
-Crédito: La Cotorrisa (canal de Ricardo Pérez en YouTube), “Anecdotario 377 - Nuestro primer tacto de próstata”, con Yordi Rosado. Video original (minuto 17:19): https://youtu.be/jUfBJ_aIA3w?t=1039
-
-#YordiRosado #LaCotorrisa #LuchaLibre #Humor #Anecdotas
-```
-
-**Etiquetas:** Yordi Rosado, La Cotorrisa, Ricardo Pérez, lucha libre, Arena México, anécdotas, humor, comedia
-
-
-## 4. `2026-11-10-culpa-ivan-senorazo`
+## 3. `2026-11-10-culpa-ivan-senorazo`
 
 - **Gancho:** Iván Marín y su saludo a Jessi Uribe
 - **Puntaje:** 78 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-17 · **Línea:** risas · **Pieza:** original (sin variantes)
@@ -329,6 +295,54 @@ Crédito: Los De La Culpa (YouTube), “Errores Memorables | Los De La Culpa - C
 ```
 
 **Etiquetas:** Iván Marín, Jessi Uribe, Luis Alfonso, Los De La Culpa, señorazo, humor colombiano, comedia colombiana, anécdotas
+
+
+## 4. `2026-11-10-cotorrisa-yordi-plancha`
+
+- **Gancho:** Le preguntó a un luchador cómo le fue
+- **Puntaje:** 78 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-17 · **Línea:** risas · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-10-cotorrisa-yordi-plancha/clip.mp4) (74,3 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-10-cotorrisa-yordi-plancha/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=jUfBJ_aIA3w
+- **Revisar antes de publicar:** CUIDADO: el luchador (Super Porky) ya falleció. Los textos no lo nombran ni hablan de su cuerpo; el clip deja fuera los chistes sobre su peso. Al publicar no añadas su nombre ni comentarios sobre él. El «¿cómo estuvo allá arriba?» de la ficha queda fuera del corte: los textos citan «¿cómo la pasaste en la arena?». La broma final de un anfitrión («otra dimensión en la que Yordi Rosado murió…») es sobre Yordi y no se repite en los textos.
+
+### TikTok · cuenta `risas` (@legion.risas) · en la bandeja desde 2026-11-10 20:35 (borrador)
+
+```
+“¿Quieres ver cómo estuvo?”: la entrevista de Yordi Rosado en la Arena México que acabó en plancha
+
+¿Tú le habrías preguntado?
+
+Crédito: La Cotorrisa (canal de Ricardo Pérez en YouTube), “Anecdotario 377 - Nuestro primer tacto de próstata”, con Yordi Rosado. Video original (minuto 17:19): https://youtu.be/jUfBJ_aIA3w?t=1039
+
+#YordiRosado #LaCotorrisa #LuchaLibre #Humor #Anecdotas
+```
+
+### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
+
+```
+Yordi Rosado le preguntó a un luchador cómo le fue… y se lo enseñó
+
+De sus años de reportero en la Arena México: Yordi Rosado entrevista a un luchador recién bajado del ring, “¿cómo la pasaste en la arena?”, y la respuesta es “¿quieres ver cómo estuvo?”. Y una plancha.
+
+¿Tú le habrías preguntado?
+
+Crédito: La Cotorrisa (canal de Ricardo Pérez en YouTube), “Anecdotario 377 - Nuestro primer tacto de próstata”, con Yordi Rosado. Video original (minuto 17:19): https://youtu.be/jUfBJ_aIA3w?t=1039
+
+#YordiRosado #LaCotorrisa #LuchaLibre #Humor #Anecdotas
+```
+
+### YouTube · cuenta `principal` · pendiente de aprobación
+
+**Título:** Yordi Rosado y la plancha que recibió entrevistando en la Arena México
+
+```
+De sus años de reportero en la Arena México: Yordi Rosado entrevista a un luchador recién bajado del ring, “¿cómo la pasaste en la arena?”, y la respuesta es “¿quieres ver cómo estuvo?”. Y una plancha.
+
+Crédito: La Cotorrisa (canal de Ricardo Pérez en YouTube), “Anecdotario 377 - Nuestro primer tacto de próstata”, con Yordi Rosado. Video original (minuto 17:19): https://youtu.be/jUfBJ_aIA3w?t=1039
+
+#YordiRosado #LaCotorrisa #LuchaLibre #Humor #Anecdotas
+```
+
+**Etiquetas:** Yordi Rosado, La Cotorrisa, Ricardo Pérez, lucha libre, Arena México, anécdotas, humor, comedia
 
 
 ## 5. `2026-11-10-culpa-super-alexis`
@@ -527,57 +541,7 @@ Crédito: La Cotorrisa (canal de Ricardo Pérez en YouTube), “Anecdotario 377 
 **Etiquetas:** Yordi Rosado, La Cotorrisa, Otro Rollo, Adal Ramones, Ricardo Pérez, Slobotzky, anécdotas, humor
 
 
-## 9. `2026-11-12-culpa-quevedo-mentiras`
-
-- **Gancho:** Ricardo Quevedo: 'digan mentiras con buena intención'
-- **Puntaje:** 72 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-17 · **Línea:** risas · **Pieza:** original (sin variantes)
-- **Video:** [clip.mp4](../clipero/clips/2026-11-12-culpa-quevedo-mentiras/clip.mp4) (31,7 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-12-culpa-quevedo-mentiras/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=3BAphhKqHUw
-- **Revisar antes de publicar:** Los textos citan la frase de la descripción revisada de la ficha («Digan mentiras con buena intención»); no usan «No digan la verdad», que solo estaba en el título sugerido.
-
-### TikTok · cuenta `risas` (@legion.risas) · en la bandeja desde 2026-11-14 19:35 (borrador)
-
-```
-Ricardo Quevedo: “Digan mentiras con buena intención” 😂
-
-¿El peor consejo que siguió? Ser honesto.
-
-¿Cuál es tu mentira con buena intención favorita?
-
-Crédito: Los De La Culpa (YouTube), “Errores Memorables | Los De La Culpa - Capítulo 268”. Video original (minuto 34:39): https://youtu.be/3BAphhKqHUw?t=2079
-
-#RicardoQuevedo #LosDeLaCulpa #ComediaColombiana #Humor #StandUp
-```
-
-### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
-
-```
-El peor consejo según Ricardo Quevedo: ser honesto 😂
-
-“La gente no acepta la verdad… Digan mentiras con buena intención: mi amor, qué flaca te ves; te quedó delicioso este pollo”.
-
-¿Cuál es tu mentira con buena intención favorita?
-
-Crédito: Los De La Culpa (YouTube), “Errores Memorables | Los De La Culpa - Capítulo 268”. Video original (minuto 34:39): https://youtu.be/3BAphhKqHUw?t=2079
-
-#RicardoQuevedo #LosDeLaCulpa #ComediaColombiana #Humor #StandUp
-```
-
-### YouTube · cuenta `principal` · pendiente de aprobación
-
-**Título:** Ricardo Quevedo y las mentiras con buena intención
-
-```
-¿El peor consejo que siguió Ricardo Quevedo? Ser honesto. “La gente no acepta la verdad… Digan mentiras con buena intención”.
-
-Crédito: Los De La Culpa (YouTube), “Errores Memorables | Los De La Culpa - Capítulo 268”. Video original (minuto 34:39): https://youtu.be/3BAphhKqHUw?t=2079
-
-#RicardoQuevedo #LosDeLaCulpa #ComediaColombiana #Humor
-```
-
-**Etiquetas:** Ricardo Quevedo, Los De La Culpa, comedia colombiana, stand up, mentiras piadosas, consejos, humor
-
-
-## 10. `2026-11-13-parenlamano-cardenal-prevost`
+## 9. `2026-11-13-parenlamano-cardenal-prevost`
 
 - **Gancho:** Hace dos años nadie conocía al Papa
 - **Puntaje:** 72 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-17 · **Línea:** risas · **Pieza:** original (sin variantes)
@@ -627,102 +591,154 @@ Crédito: Paren la Mano (Vorterix), “EL DÍA QUE LUQUITAS HABLÓ CON EL PAPA..
 **Etiquetas:** Paren la Mano, Vorterix, Papa León XIV, Robert Prevost, humor argentino, streaming argentino, Papa, humor
 
 
-## 11. `2026-11-12-cotorrisa-dedito-flaco`
+## 10. `2026-11-12-culpa-quevedo-mentiras`
 
-- **Gancho:** Cómo elegir al doctor del tacto
-- **Puntaje:** 70 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-17 · **Línea:** risas · **Pieza:** original (sin variantes)
-- **Video:** [clip.mp4](../clipero/clips/2026-11-12-cotorrisa-dedito-flaco/clip.mp4) (23 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-12-cotorrisa-dedito-flaco/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=jUfBJ_aIA3w
-- **Revisar antes de publicar:** La ficha pide comprobar quién de los conductores dice el remate: los textos no lo nombran. Bromea con el examen, no con la enfermedad.
+- **Gancho:** Ricardo Quevedo: 'digan mentiras con buena intención'
+- **Puntaje:** 72 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-17 · **Línea:** risas · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-12-culpa-quevedo-mentiras/clip.mp4) (31,7 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-12-culpa-quevedo-mentiras/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=3BAphhKqHUw
+- **Revisar antes de publicar:** Los textos citan la frase de la descripción revisada de la ficha («Digan mentiras con buena intención»); no usan «No digan la verdad», que solo estaba en el título sugerido.
 
-### TikTok · cuenta `risas` (@legion.risas) · en la bandeja desde 2026-11-14 19:36 (borrador)
-
-```
-La pregunta que nadie se atreve a hacer antes del tacto 😂
-
-“Estoy buscando un doctor de manita chica, de dedito flaco”.
-
-¿Tú le pedirías ver las manos?
-
-Crédito: La Cotorrisa (canal de Ricardo Pérez en YouTube), “Anecdotario 377 - Nuestro primer tacto de próstata”, con Yordi Rosado. Video original (minuto 25:40): https://youtu.be/jUfBJ_aIA3w?t=1540
-
-#LaCotorrisa #YordiRosado #Anecdotario #Humor #Prostata
-```
-
-### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
+### TikTok · cuenta `risas` (@legion.risas) · en la bandeja desde 2026-11-14 19:35 (borrador)
 
 ```
-El truco de La Cotorrisa para elegir doctor del tacto 😂
+Ricardo Quevedo: “Digan mentiras con buena intención” 😂
 
-La pregunta que nadie se atreve a hacer antes del examen de próstata: ¿hay que pedirle al doctor que enseñe las manos? “Estoy buscando un doctor de manita chica, de dedito flaco”.
+¿El peor consejo que siguió? Ser honesto.
 
-¿Tú le pedirías ver las manos?
+¿Cuál es tu mentira con buena intención favorita?
 
-Crédito: La Cotorrisa (canal de Ricardo Pérez en YouTube), “Anecdotario 377 - Nuestro primer tacto de próstata”, con Yordi Rosado. Video original (minuto 25:40): https://youtu.be/jUfBJ_aIA3w?t=1540
+Crédito: Los De La Culpa (YouTube), “Errores Memorables | Los De La Culpa - Capítulo 268”. Video original (minuto 34:39): https://youtu.be/3BAphhKqHUw?t=2079
 
-#LaCotorrisa #YordiRosado #Anecdotario #Humor #Prostata
-```
-
-### YouTube · cuenta `principal` · pendiente de aprobación
-
-**Título:** La Cotorrisa y el truco para elegir doctor del tacto
-
-```
-La pregunta que nadie se atreve a hacer antes del examen de próstata: ¿hay que pedirle al doctor que enseñe las manos? “Estoy buscando un doctor de manita chica, de dedito flaco”.
-
-Crédito: La Cotorrisa (canal de Ricardo Pérez en YouTube), “Anecdotario 377 - Nuestro primer tacto de próstata”, con Yordi Rosado. Video original (minuto 25:40): https://youtu.be/jUfBJ_aIA3w?t=1540
-
-#LaCotorrisa #YordiRosado #Humor #Prostata
-```
-
-**Etiquetas:** La Cotorrisa, Yordi Rosado, Ricardo Pérez, Slobotzky, tacto de próstata, anécdotas, humor, comedia
-
-
-## 12. `2026-11-12-cotorrisa-harvard`
-
-- **Gancho:** Por qué hay gente que te baja los sueños
-- **Puntaje:** 70 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-17 · **Línea:** risas · **Pieza:** original (sin variantes)
-- **Video:** [clip.mp4](../clipero/clips/2026-11-12-cotorrisa-harvard/clip.mp4) (61,5 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-12-cotorrisa-harvard/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=jUfBJ_aIA3w
-- **Revisar antes de publicar:** La frase de «la fila del salón» lleva una palabra censurada en la ficha: los textos no la citan («te baja de la nube»).
-
-### TikTok · cuenta `risas` (@legion.risas) · en la bandeja desde 2026-11-14 19:37 (borrador)
-
-```
-“Quiero estudiar en Harvard”… y la gente que te baja los sueños. Yordi Rosado lo explica
-
-¿Alguien te bajó un sueño alguna vez?
-
-Crédito: La Cotorrisa (canal de Ricardo Pérez en YouTube), “Anecdotario 377 - Nuestro primer tacto de próstata”, con Yordi Rosado. Video original (minuto 1:09:51): https://youtu.be/jUfBJ_aIA3w?t=4191
-
-#LaCotorrisa #YordiRosado #Motivacion #Anecdotario #Humor
+#RicardoQuevedo #LosDeLaCulpa #ComediaColombiana #Humor #StandUp
 ```
 
 ### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
 
 ```
-Yordi Rosado: por qué hay gente que te baja los sueños
+El peor consejo según Ricardo Quevedo: ser honesto 😂
 
-Dices “quiero estudiar en Harvard” y alguien te baja de la nube. Yordi Rosado explica por qué lo hacen: para no quedarse solos abajo… y porque saben que sí puedes.
+“La gente no acepta la verdad… Digan mentiras con buena intención: mi amor, qué flaca te ves; te quedó delicioso este pollo”.
 
-¿Alguien te bajó un sueño alguna vez?
+¿Cuál es tu mentira con buena intención favorita?
 
-Crédito: La Cotorrisa (canal de Ricardo Pérez en YouTube), “Anecdotario 377 - Nuestro primer tacto de próstata”, con Yordi Rosado. Video original (minuto 1:09:51): https://youtu.be/jUfBJ_aIA3w?t=4191
+Crédito: Los De La Culpa (YouTube), “Errores Memorables | Los De La Culpa - Capítulo 268”. Video original (minuto 34:39): https://youtu.be/3BAphhKqHUw?t=2079
 
-#LaCotorrisa #YordiRosado #Motivacion #Anecdotario #Humor
+#RicardoQuevedo #LosDeLaCulpa #ComediaColombiana #Humor #StandUp
 ```
 
 ### YouTube · cuenta `principal` · pendiente de aprobación
 
-**Título:** Yordi Rosado: las dos razones por las que alguien te baja los sueños
+**Título:** Ricardo Quevedo y las mentiras con buena intención
 
 ```
-Dices “quiero estudiar en Harvard” y alguien te baja de la nube. Yordi Rosado explica por qué lo hacen: para no quedarse solos abajo… y porque saben que sí puedes.
+¿El peor consejo que siguió Ricardo Quevedo? Ser honesto. “La gente no acepta la verdad… Digan mentiras con buena intención”.
 
-Crédito: La Cotorrisa (canal de Ricardo Pérez en YouTube), “Anecdotario 377 - Nuestro primer tacto de próstata”, con Yordi Rosado. Video original (minuto 1:09:51): https://youtu.be/jUfBJ_aIA3w?t=4191
+Crédito: Los De La Culpa (YouTube), “Errores Memorables | Los De La Culpa - Capítulo 268”. Video original (minuto 34:39): https://youtu.be/3BAphhKqHUw?t=2079
 
-#LaCotorrisa #YordiRosado #Motivacion #Humor
+#RicardoQuevedo #LosDeLaCulpa #ComediaColombiana #Humor
 ```
 
-**Etiquetas:** Yordi Rosado, La Cotorrisa, Ricardo Pérez, Slobotzky, motivación, sueños, consejos, humor
+**Etiquetas:** Ricardo Quevedo, Los De La Culpa, comedia colombiana, stand up, mentiras piadosas, consejos, humor
+
+
+## 11. `2026-11-15-parenlamano-luquitas-turista`
+
+- **Gancho:** Le habló al Papa y viajó en turista
+- **Puntaje:** 70 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-17 · **Línea:** risas · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-15-parenlamano-luquitas-turista/clip.mp4) (61,2 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-15-parenlamano-luquitas-turista/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=uRZ2xc4sRyA
+- **Revisar antes de publicar:** Charla cruzada con acento argentino; subtítulos flojos en algunos tramos. Va antes que parenlamano-luquitas-zapatilla (ficha) y conviene separarlo de los otros clips del Papa (parenlamano-papa-a-dormir y cotorrisa-papa-cadenero).
+
+### TikTok · cuenta `risas` (@legion.risas) · en la bandeja desde 2026-11-17 16:58 (borrador)
+
+```
+Le habló al Papa… y el discurso lo escribió en clase turista 😂
+
+En Paren la Mano ven la foto de Luquitas escribiendo en el avión y no lo perdonan: “No sé qué me parece más pobre, si que está escribiendo o que viaja en turista”.
+
+¿Turista o primera clase para ver al Papa?
+
+Crédito: Paren la Mano (Vorterix), “SUPERJUEVES DE MARIO: NVIDIA, QUILOMBOS Y MÁS | #ParenLaMano Completo - 12/11”. Video original (minuto 7:02): https://youtu.be/uRZ2xc4sRyA?t=422
+
+#ParenLaMano #Vorterix #Luquitas #PapaLeonXIV #Humor
+```
+
+### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
+
+```
+El discurso para el Papa se escribió en clase turista ✈️😂
+
+Luquitas Rodríguez escribió en un cuaderno, en pleno vuelo, el discurso que le dio al papa León XIV. Al día siguiente, en Paren la Mano, el panel ve la foto y se burla: “No sé qué me parece más pobre, si que está escribiendo o que viaja en turista”.
+
+¿Turista o primera clase para ver al Papa?
+
+Crédito: Paren la Mano (Vorterix), “SUPERJUEVES DE MARIO: NVIDIA, QUILOMBOS Y MÁS | #ParenLaMano Completo - 12/11”. Video original (minuto 7:02): https://youtu.be/uRZ2xc4sRyA?t=422
+
+#ParenLaMano #Vorterix #Luquitas #PapaLeonXIV #Humor
+```
+
+### YouTube · cuenta `principal` · pendiente de aprobación
+
+**Título:** Luquitas escribió su discurso para el Papa en clase turista | Paren la Mano
+
+```
+Luquitas Rodríguez escribió en un cuaderno, en pleno vuelo, el discurso que le dio al papa León XIV. Al día siguiente, en Paren la Mano, el panel ve la foto y no lo perdona.
+
+Crédito: Paren la Mano (Vorterix), “SUPERJUEVES DE MARIO: NVIDIA, QUILOMBOS Y MÁS | #ParenLaMano Completo - 12/11”. Video original (minuto 7:02): https://youtu.be/uRZ2xc4sRyA?t=422
+
+#ParenLaMano #Vorterix #PapaLeonXIV #Humor
+```
+
+**Etiquetas:** Paren la Mano, Vorterix, Luquitas Rodríguez, Papa León XIV, humor argentino, streaming argentino, clase turista, humor
+
+
+## 12. `2026-11-13-parenlamano-papa-a-dormir`
+
+- **Gancho:** Así imaginan al Papa cuando ya quiere dormir
+- **Puntaje:** 70 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-17 · **Línea:** risas · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-13-parenlamano-papa-a-dormir/clip.mp4) (44,5 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-13-parenlamano-papa-a-dormir/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=K4MCv-DXdmI
+- **Revisar antes de publicar:** Ficha: desde el segundo 10 los conductores le ponen voz a un video del Papa. Si parece que el Papa dice «no me rompan más la pelota», descártalo. Los textos dicen que es una imitación con la voz de los conductores.
+
+### TikTok · cuenta `risas` (@legion.risas) · en la bandeja desde 2026-11-17 16:58 (borrador)
+
+```
+Así imaginan al Papa cuando ya se quiere ir a dormir: “¿Algún temita más?”
+
+Imitación de los conductores de Paren la Mano: la voz es de ellos, no del Papa.
+
+¿Tú también haces el gesto de “me voy a dormir”?
+
+Crédito: Paren la Mano (Vorterix), “EL DÍA QUE LUQUITAS HABLÓ CON EL PAPA...”. Video original (minuto 25:48): https://youtu.be/K4MCv-DXdmI?t=1548
+
+#ParenLaMano #Vorterix #PapaLeonXIV #Humor #Argentina
+```
+
+### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
+
+```
+Así imaginan al Papa a la hora de dormir (imitación)
+
+Cuentan en Paren la Mano que León XIV, después de salir a bendecir a la gente, hizo el gesto de que se iba a dormir, como antes Juan Pablo II y Francisco. Los conductores imaginan, con su propia voz, cómo sería ese final de jornada: “¿Algún temita más?”. Es una imitación: no son palabras del Papa.
+
+¿Tú también haces el gesto de “me voy a dormir”?
+
+Crédito: Paren la Mano (Vorterix), “EL DÍA QUE LUQUITAS HABLÓ CON EL PAPA...”. Video original (minuto 25:48): https://youtu.be/K4MCv-DXdmI?t=1548
+
+#ParenLaMano #Vorterix #PapaLeonXIV #Humor #Argentina
+```
+
+### YouTube · cuenta `principal` · pendiente de aprobación
+
+**Título:** El Papa ya se quiere ir a dormir (imitación) | Paren la Mano
+
+```
+Los conductores de Paren la Mano imaginan, con su propia voz, cómo sería el final de jornada del Papa León XIV cuando hace el gesto de que se va a dormir. Es una imitación: no son palabras del Papa.
+
+Crédito: Paren la Mano (Vorterix), “EL DÍA QUE LUQUITAS HABLÓ CON EL PAPA...”. Video original (minuto 25:48): https://youtu.be/K4MCv-DXdmI?t=1548
+
+#ParenLaMano #Vorterix #PapaLeonXIV #Humor
+```
+
+**Etiquetas:** Paren la Mano, Vorterix, Papa León XIV, imitación, humor argentino, streaming argentino, Papa, humor
 
 
 ## 13. `2026-11-12-culpa-ivan-piscina`
@@ -773,104 +789,102 @@ Crédito: Los De La Culpa (YouTube), “Errores Memorables | Los De La Culpa - C
 **Etiquetas:** Iván Marín, Los De La Culpa, comedia colombiana, stand up, consejos, piscina, humor
 
 
-## 14. `2026-11-13-parenlamano-papa-a-dormir`
+## 14. `2026-11-12-cotorrisa-harvard`
 
-- **Gancho:** Así imaginan al Papa cuando ya quiere dormir
+- **Gancho:** Por qué hay gente que te baja los sueños
 - **Puntaje:** 70 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-17 · **Línea:** risas · **Pieza:** original (sin variantes)
-- **Video:** [clip.mp4](../clipero/clips/2026-11-13-parenlamano-papa-a-dormir/clip.mp4) (44,5 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-13-parenlamano-papa-a-dormir/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=K4MCv-DXdmI
-- **Revisar antes de publicar:** Ficha: desde el segundo 10 los conductores le ponen voz a un video del Papa. Si parece que el Papa dice «no me rompan más la pelota», descártalo. Los textos dicen que es una imitación con la voz de los conductores.
+- **Video:** [clip.mp4](../clipero/clips/2026-11-12-cotorrisa-harvard/clip.mp4) (61,5 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-12-cotorrisa-harvard/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=jUfBJ_aIA3w
+- **Revisar antes de publicar:** La frase de «la fila del salón» lleva una palabra censurada en la ficha: los textos no la citan («te baja de la nube»).
 
-### TikTok · cuenta `risas` (@legion.risas) · en la bandeja desde hoy, 16:58 (borrador)
+### TikTok · cuenta `risas` (@legion.risas) · en la bandeja desde 2026-11-14 19:37 (borrador)
 
 ```
-Así imaginan al Papa cuando ya se quiere ir a dormir: “¿Algún temita más?”
+“Quiero estudiar en Harvard”… y la gente que te baja los sueños. Yordi Rosado lo explica
 
-Imitación de los conductores de Paren la Mano: la voz es de ellos, no del Papa.
+¿Alguien te bajó un sueño alguna vez?
 
-¿Tú también haces el gesto de “me voy a dormir”?
+Crédito: La Cotorrisa (canal de Ricardo Pérez en YouTube), “Anecdotario 377 - Nuestro primer tacto de próstata”, con Yordi Rosado. Video original (minuto 1:09:51): https://youtu.be/jUfBJ_aIA3w?t=4191
 
-Crédito: Paren la Mano (Vorterix), “EL DÍA QUE LUQUITAS HABLÓ CON EL PAPA...”. Video original (minuto 25:48): https://youtu.be/K4MCv-DXdmI?t=1548
-
-#ParenLaMano #Vorterix #PapaLeonXIV #Humor #Argentina
+#LaCotorrisa #YordiRosado #Motivacion #Anecdotario #Humor
 ```
 
 ### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
 
 ```
-Así imaginan al Papa a la hora de dormir (imitación)
+Yordi Rosado: por qué hay gente que te baja los sueños
 
-Cuentan en Paren la Mano que León XIV, después de salir a bendecir a la gente, hizo el gesto de que se iba a dormir, como antes Juan Pablo II y Francisco. Los conductores imaginan, con su propia voz, cómo sería ese final de jornada: “¿Algún temita más?”. Es una imitación: no son palabras del Papa.
+Dices “quiero estudiar en Harvard” y alguien te baja de la nube. Yordi Rosado explica por qué lo hacen: para no quedarse solos abajo… y porque saben que sí puedes.
 
-¿Tú también haces el gesto de “me voy a dormir”?
+¿Alguien te bajó un sueño alguna vez?
 
-Crédito: Paren la Mano (Vorterix), “EL DÍA QUE LUQUITAS HABLÓ CON EL PAPA...”. Video original (minuto 25:48): https://youtu.be/K4MCv-DXdmI?t=1548
+Crédito: La Cotorrisa (canal de Ricardo Pérez en YouTube), “Anecdotario 377 - Nuestro primer tacto de próstata”, con Yordi Rosado. Video original (minuto 1:09:51): https://youtu.be/jUfBJ_aIA3w?t=4191
 
-#ParenLaMano #Vorterix #PapaLeonXIV #Humor #Argentina
+#LaCotorrisa #YordiRosado #Motivacion #Anecdotario #Humor
 ```
 
 ### YouTube · cuenta `principal` · pendiente de aprobación
 
-**Título:** El Papa ya se quiere ir a dormir (imitación) | Paren la Mano
+**Título:** Yordi Rosado: las dos razones por las que alguien te baja los sueños
 
 ```
-Los conductores de Paren la Mano imaginan, con su propia voz, cómo sería el final de jornada del Papa León XIV cuando hace el gesto de que se va a dormir. Es una imitación: no son palabras del Papa.
+Dices “quiero estudiar en Harvard” y alguien te baja de la nube. Yordi Rosado explica por qué lo hacen: para no quedarse solos abajo… y porque saben que sí puedes.
 
-Crédito: Paren la Mano (Vorterix), “EL DÍA QUE LUQUITAS HABLÓ CON EL PAPA...”. Video original (minuto 25:48): https://youtu.be/K4MCv-DXdmI?t=1548
+Crédito: La Cotorrisa (canal de Ricardo Pérez en YouTube), “Anecdotario 377 - Nuestro primer tacto de próstata”, con Yordi Rosado. Video original (minuto 1:09:51): https://youtu.be/jUfBJ_aIA3w?t=4191
 
-#ParenLaMano #Vorterix #PapaLeonXIV #Humor
+#LaCotorrisa #YordiRosado #Motivacion #Humor
 ```
 
-**Etiquetas:** Paren la Mano, Vorterix, Papa León XIV, imitación, humor argentino, streaming argentino, Papa, humor
+**Etiquetas:** Yordi Rosado, La Cotorrisa, Ricardo Pérez, Slobotzky, motivación, sueños, consejos, humor
 
 
-## 15. `2026-11-15-parenlamano-luquitas-turista`
+## 15. `2026-11-12-cotorrisa-dedito-flaco`
 
-- **Gancho:** Le habló al Papa y viajó en turista
+- **Gancho:** Cómo elegir al doctor del tacto
 - **Puntaje:** 70 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-17 · **Línea:** risas · **Pieza:** original (sin variantes)
-- **Video:** [clip.mp4](../clipero/clips/2026-11-15-parenlamano-luquitas-turista/clip.mp4) (61,2 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-15-parenlamano-luquitas-turista/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=uRZ2xc4sRyA
-- **Revisar antes de publicar:** Charla cruzada con acento argentino; subtítulos flojos en algunos tramos. Va antes que parenlamano-luquitas-zapatilla (ficha) y conviene separarlo de los otros clips del Papa (parenlamano-papa-a-dormir y cotorrisa-papa-cadenero).
+- **Video:** [clip.mp4](../clipero/clips/2026-11-12-cotorrisa-dedito-flaco/clip.mp4) (23 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-12-cotorrisa-dedito-flaco/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=jUfBJ_aIA3w
+- **Revisar antes de publicar:** La ficha pide comprobar quién de los conductores dice el remate: los textos no lo nombran. Bromea con el examen, no con la enfermedad.
 
-### TikTok · cuenta `risas` (@legion.risas) · en la bandeja desde hoy, 16:58 (borrador)
+### TikTok · cuenta `risas` (@legion.risas) · en la bandeja desde 2026-11-14 19:36 (borrador)
 
 ```
-Le habló al Papa… y el discurso lo escribió en clase turista 😂
+La pregunta que nadie se atreve a hacer antes del tacto 😂
 
-En Paren la Mano ven la foto de Luquitas escribiendo en el avión y no lo perdonan: “No sé qué me parece más pobre, si que está escribiendo o que viaja en turista”.
+“Estoy buscando un doctor de manita chica, de dedito flaco”.
 
-¿Turista o primera clase para ver al Papa?
+¿Tú le pedirías ver las manos?
 
-Crédito: Paren la Mano (Vorterix), “SUPERJUEVES DE MARIO: NVIDIA, QUILOMBOS Y MÁS | #ParenLaMano Completo - 12/11”. Video original (minuto 7:02): https://youtu.be/uRZ2xc4sRyA?t=422
+Crédito: La Cotorrisa (canal de Ricardo Pérez en YouTube), “Anecdotario 377 - Nuestro primer tacto de próstata”, con Yordi Rosado. Video original (minuto 25:40): https://youtu.be/jUfBJ_aIA3w?t=1540
 
-#ParenLaMano #Vorterix #Luquitas #PapaLeonXIV #Humor
+#LaCotorrisa #YordiRosado #Anecdotario #Humor #Prostata
 ```
 
 ### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
 
 ```
-El discurso para el Papa se escribió en clase turista ✈️😂
+El truco de La Cotorrisa para elegir doctor del tacto 😂
 
-Luquitas Rodríguez escribió en un cuaderno, en pleno vuelo, el discurso que le dio al papa León XIV. Al día siguiente, en Paren la Mano, el panel ve la foto y se burla: “No sé qué me parece más pobre, si que está escribiendo o que viaja en turista”.
+La pregunta que nadie se atreve a hacer antes del examen de próstata: ¿hay que pedirle al doctor que enseñe las manos? “Estoy buscando un doctor de manita chica, de dedito flaco”.
 
-¿Turista o primera clase para ver al Papa?
+¿Tú le pedirías ver las manos?
 
-Crédito: Paren la Mano (Vorterix), “SUPERJUEVES DE MARIO: NVIDIA, QUILOMBOS Y MÁS | #ParenLaMano Completo - 12/11”. Video original (minuto 7:02): https://youtu.be/uRZ2xc4sRyA?t=422
+Crédito: La Cotorrisa (canal de Ricardo Pérez en YouTube), “Anecdotario 377 - Nuestro primer tacto de próstata”, con Yordi Rosado. Video original (minuto 25:40): https://youtu.be/jUfBJ_aIA3w?t=1540
 
-#ParenLaMano #Vorterix #Luquitas #PapaLeonXIV #Humor
+#LaCotorrisa #YordiRosado #Anecdotario #Humor #Prostata
 ```
 
 ### YouTube · cuenta `principal` · pendiente de aprobación
 
-**Título:** Luquitas escribió su discurso para el Papa en clase turista | Paren la Mano
+**Título:** La Cotorrisa y el truco para elegir doctor del tacto
 
 ```
-Luquitas Rodríguez escribió en un cuaderno, en pleno vuelo, el discurso que le dio al papa León XIV. Al día siguiente, en Paren la Mano, el panel ve la foto y no lo perdona.
+La pregunta que nadie se atreve a hacer antes del examen de próstata: ¿hay que pedirle al doctor que enseñe las manos? “Estoy buscando un doctor de manita chica, de dedito flaco”.
 
-Crédito: Paren la Mano (Vorterix), “SUPERJUEVES DE MARIO: NVIDIA, QUILOMBOS Y MÁS | #ParenLaMano Completo - 12/11”. Video original (minuto 7:02): https://youtu.be/uRZ2xc4sRyA?t=422
+Crédito: La Cotorrisa (canal de Ricardo Pérez en YouTube), “Anecdotario 377 - Nuestro primer tacto de próstata”, con Yordi Rosado. Video original (minuto 25:40): https://youtu.be/jUfBJ_aIA3w?t=1540
 
-#ParenLaMano #Vorterix #PapaLeonXIV #Humor
+#LaCotorrisa #YordiRosado #Humor #Prostata
 ```
 
-**Etiquetas:** Paren la Mano, Vorterix, Luquitas Rodríguez, Papa León XIV, humor argentino, streaming argentino, clase turista, humor
+**Etiquetas:** La Cotorrisa, Yordi Rosado, Ricardo Pérez, Slobotzky, tacto de próstata, anécdotas, humor, comedia
 
 
 ## 16. `2026-11-15-parenlamano-luquitas-zapatilla`
@@ -880,7 +894,7 @@ Crédito: Paren la Mano (Vorterix), “SUPERJUEVES DE MARIO: NVIDIA, QUILOMBOS Y
 - **Video:** [clip.mp4](../clipero/clips/2026-11-15-parenlamano-luquitas-zapatilla/clip.mp4) (63,6 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-15-parenlamano-luquitas-zapatilla/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=uRZ2xc4sRyA
 - **Revisar antes de publicar:** El que habla (gorra blanca) no se nombra en el tramo: no lo nombres al publicar. «Estaban hablando de los pobres» es una broma entre amigos sobre él, no sobre el discurso. Subtítulos flojos; tres palabras como (…). Publícalo después de parenlamano-luquitas-turista (ficha).
 
-### TikTok · cuenta `risas` (@legion.risas) · en la bandeja desde hoy, 16:58 (borrador)
+### TikTok · cuenta `risas` (@legion.risas) · en la bandeja desde 2026-11-17 16:58 (borrador)
 
 ```
 Uno hablando con el Papa y el otro arreglando una zapatilla 😂
@@ -930,7 +944,7 @@ Crédito: Paren la Mano (Vorterix), “SUPERJUEVES DE MARIO: NVIDIA, QUILOMBOS Y
 - **Video:** [clip.mp4](../clipero/clips/2026-11-17-samulx-retiro-boxeo/clip.mp4) (30,1 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-17-samulx-retiro-boxeo/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=GkojR4E0tuY
 - **Revisar antes de publicar:** Dice «creo que»: los textos no dan el retiro por hecho. En un directo posterior matiza la decisión (recorte de La Ganga Clips TV «NO PELEO MÁS NUNCA… salvo por 300 MIL DÓLARES»).
 
-### TikTok · cuenta `principal` (Legión Urbana) · en la bandeja desde hoy, 16:58 (borrador)
+### TikTok · cuenta `principal` (Legión Urbana) · en la bandeja desde 2026-11-17 16:58 (borrador)
 
 ```
 Samulx: “creo que me voy a retirar del boxeo” 🥊💔
@@ -973,64 +987,14 @@ Crédito: Samulx, “ESTO PASÓ EN LOS CAMERINOS CON HERRERA DESPUES DE STREAM F
 **Etiquetas:** Samulx, Stream Fighters 5, retiro, boxeo, lesión de hombro, Westcol, La Ganga, streamers
 
 
-## 18. `2026-11-17-westcol-herrera-no-planeado`
-
-- **Gancho:** ¿Fue planeado lo de Herrera? Westcol responde
-- **Puntaje:** 78 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-18 · **Línea:** urbano · **Pieza:** original (sin variantes)
-- **Video:** [clip.mp4](../clipero/clips/2026-11-17-westcol-herrera-no-planeado/clip.mp4) (51,6 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-17-westcol-herrera-no-planeado/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=YQ-vOO3-Ghk
-- **Revisar antes de publicar:** Si la polémica de Herrera pasa a lo judicial antes de publicar, no se publica (ficha). Este tramo no toca lo legal y los textos no añaden nada sobre Herrera. Publicarlo separado de westcol-disculpa-pelea-jh.
-
-### TikTok · cuenta `principal` (Legión Urbana) · no se sabe si llegó: TikTok dio HTTP 500 sin identificador (hoy, 16:57; 1 de 2 intentos; mira la bandeja)
-
-```
-¿Lo de Herrera fue planeado? Westcol da su palabra 🥊
-
-“Les doy mi palabra al 100 % que esto no está planeado”: la pelea estaba anunciada en la cartelera y “estamos jugando sí o sí con el dinero de la gente”. Y le agradece a La Piquiña por subir al ring.
-
-¿Le crees a Westcol?
-
-Crédito: WestCOL, “¿Que pasara con HERRERA por bajar de la pelea en STREAM FIGHTERS 5?| Westcol”. Video original (minuto 20:00): https://youtu.be/YQ-vOO3-Ghk?t=1200
-
-#Westcol #StreamFighters5 #Herrera #Piquiña #Boxeo
-```
-
-### Instagram · cuenta `principal` · pendiente de aprobación
-
-```
-“Esa pelea se tenía que haber dado”: Westcol responde si lo de Herrera fue planeado 🥊
-
-Tras Stream Fighters 5, Westcol da su palabra de que no estaba planeado: la pelea estaba anunciada en la cartelera y “estamos jugando sí o sí con el dinero de la gente”. Y le agradece a La Piquiña, que subió al ring: “aprovechó el momento y lo aprovechó muy bien”.
-
-¿Le crees a Westcol?
-
-Crédito: WestCOL, “¿Que pasara con HERRERA por bajar de la pelea en STREAM FIGHTERS 5?| Westcol”. Video original (minuto 20:00): https://youtu.be/YQ-vOO3-Ghk?t=1200
-
-#Westcol #StreamFighters5 #Herrera #Piquiña #LaGanga
-```
-
-### YouTube · cuenta `principal` · pendiente de aprobación
-
-**Título:** Westcol responde si lo de Herrera en Stream Fighters 5 fue planeado
-
-```
-Tras Stream Fighters 5, Westcol responde a quienes dicen que lo de Herrera estaba planeado: “les doy mi palabra al 100 % que esto no está planeado”. Y agradece a La Piquiña por subir al ring.
-
-Crédito: WestCOL, “¿Que pasara con HERRERA por bajar de la pelea en STREAM FIGHTERS 5?| Westcol”. Video original (minuto 20:00): https://youtu.be/YQ-vOO3-Ghk?t=1200
-
-#Westcol #StreamFighters5 #Herrera #Piquiña
-```
-
-**Etiquetas:** Westcol, Stream Fighters 5, Herrera, La Piquiña, JH de la Cruz, boxeo, streamers, La Ganga
-
-
-## 19. `2026-11-17-samulx-dime-que-no-puedes`
+## 18. `2026-11-17-samulx-dime-que-no-puedes`
 
 - **Gancho:** Se le salió el hombro y su entrenador…
 - **Puntaje:** 77 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-18 · **Línea:** urbano · **Pieza:** original (sin variantes)
 - **Video:** [clip.mp4](../clipero/clips/2026-11-17-samulx-dime-que-no-puedes/clip.mp4) (54,1 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-17-samulx-dime-que-no-puedes/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=GkojR4E0tuY
 - **Revisar antes de publicar:** La lesión se cuenta con palabras, sin imágenes del golpe. Una palabra como (…).
 
-### TikTok · cuenta `principal` (Legión Urbana) · en la bandeja desde hoy, 16:58 (borrador)
+### TikTok · cuenta `principal` (Legión Urbana) · en la bandeja desde 2026-11-17 16:58 (borrador)
 
 ```
 “Mírame a los ojos y dime que no puedes”: lo que le dijo el entrenador a Samulx 🥊
@@ -1073,64 +1037,14 @@ Crédito: Samulx, “ESTO PASÓ EN LOS CAMERINOS CON HERRERA DESPUES DE STREAM F
 **Etiquetas:** Samulx, Stream Fighters 5, Lonche, The Chanty, Willito, lesión de hombro, boxeo, streamers
 
 
-## 20. `2026-11-17-westcol-disculpa-pelea-jh`
-
-- **Gancho:** Westcol pide perdón por la pelea de JH
-- **Puntaje:** 77 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-18 · **Línea:** urbano · **Pieza:** original (sin variantes)
-- **Video:** [clip.mp4](../clipero/clips/2026-11-17-westcol-disculpa-pelea-jh/clip.mp4) (61,6 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-17-westcol-disculpa-pelea-jh/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=YQ-vOO3-Ghk
-- **Revisar antes de publicar:** Lenguaje fuerte y un pitido de la fuente como ***. Si la polémica de Herrera pasa a lo judicial, no se publica. Publicarlo separado de westcol-herrera-no-planeado (ficha).
-
-### TikTok · cuenta `principal` (Legión Urbana) · en la bandeja desde hoy, 16:59 (borrador)
-
-```
-Westcol pide perdón por la pelea de JH en Stream Fighters 5 🙏🥊
-
-“Yo fui el que organicé la pelea” y “me hago 100 % responsable”. Dice que en JH confiaba y que del rival creyó que iba a aprovechar la oportunidad.
-
-¿Fue culpa de Westcol?
-
-Crédito: WestCOL, “¿Que pasara con HERRERA por bajar de la pelea en STREAM FIGHTERS 5?| Westcol”. Video original (minuto 17:42): https://youtu.be/YQ-vOO3-Ghk?t=1062
-
-#Westcol #StreamFighters5 #JHdelaCruz #Herrera #Boxeo
-```
-
-### Instagram · cuenta `principal` · pendiente de aprobación
-
-```
-“Yo les pido una disculpa”: Westcol sobre la pelea de JH de la Cruz 🥊
-
-Tras Stream Fighters 5, Westcol se hace “100 % responsable”: “yo fui el que organicé la pelea”. De JH dice que “siempre responde y va y hace su trabajo”; del rival, que no sabían cómo iba a reaccionar y creyó que iba a aprovechar la oportunidad.
-
-¿Fue culpa de Westcol?
-
-Crédito: WestCOL, “¿Que pasara con HERRERA por bajar de la pelea en STREAM FIGHTERS 5?| Westcol”. Video original (minuto 17:42): https://youtu.be/YQ-vOO3-Ghk?t=1062
-
-#Westcol #StreamFighters5 #JHdelaCruz #Herrera #LaGanga
-```
-
-### YouTube · cuenta `principal` · pendiente de aprobación
-
-**Título:** Westcol se disculpa por la pelea de JH de la Cruz | Stream Fighters 5
-
-```
-Tras Stream Fighters 5, Westcol pide disculpas por la pelea de JH de la Cruz: “yo fui el que organicé la pelea” y “me hago 100 % responsable”. Cuenta que en JH confiaba y que del rival creyó que iba a aprovechar la oportunidad.
-
-Crédito: WestCOL, “¿Que pasara con HERRERA por bajar de la pelea en STREAM FIGHTERS 5?| Westcol”. Video original (minuto 17:42): https://youtu.be/YQ-vOO3-Ghk?t=1062
-
-#Westcol #StreamFighters5 #JHdelaCruz #Herrera
-```
-
-**Etiquetas:** Westcol, JH de la Cruz, Stream Fighters 5, Herrera, disculpa, boxeo, streamers, La Ganga
-
-
-## 21. `2026-11-17-samulx-cuarto-round`
+## 19. `2026-11-17-samulx-cuarto-round`
 
 - **Gancho:** Le dijeron que eran tres rounds…
 - **Puntaje:** 76 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-18 · **Línea:** urbano · **Pieza:** original (sin variantes)
 - **Video:** [clip.mp4](../clipero/clips/2026-11-17-samulx-cuarto-round/clip.mp4) (41,1 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-17-samulx-cuarto-round/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=GkojR4E0tuY
 - **Revisar antes de publicar:** Nada especial; lenguaje coloquial.
 
-### TikTok · cuenta `principal` (Legión Urbana) · en la bandeja desde hoy, 16:59 (borrador)
+### TikTok · cuenta `principal` (Legión Urbana) · en la bandeja desde 2026-11-17 16:59 (borrador)
 
 ```
 Le dijeron que eran 3 rounds… y llegó el cuarto 😂🥊
@@ -1173,157 +1087,7 @@ Crédito: Samulx, “ESTO PASÓ EN LOS CAMERINOS CON HERRERA DESPUES DE STREAM F
 **Etiquetas:** Samulx, The Chanty, Stream Fighters 5, cuarto round, pelea por parejas, boxeo, streamers, humor
 
 
-## 22. `2026-11-17-samulx-camerino-herrera`
-
-- **Gancho:** Lo que pasó en los camerinos con Herrera
-- **Puntaje:** 75 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-18 · **Línea:** urbano · **Pieza:** original (sin variantes)
-- **Video:** [clip.mp4](../clipero/clips/2026-11-17-samulx-camerino-herrera/clip.mp4) (54,6 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-17-samulx-camerino-herrera/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=GkojR4E0tuY
-- **Revisar antes de publicar:** Herrera no sale; solo lo nombra Samulx («ni siquiera hay que mencionar ese tipo»: desprecio, sin acusación). El corte deja fuera el insulto, la violencia y la acusación de esteroides; al publicar no añadas nada sobre Herrera. Si la polémica pasa a lo judicial, no se publica.
-
-### TikTok · cuenta `principal` (Legión Urbana) · aprobado automáticamente; en cola (previsto 18-nov)
-
-```
-Samulx iba a encarar a Herrera en los camerinos… hasta que lo vio 😂
-
-“Había más acción fuera del ring que adentro”. Y entonces lo vio entrar “con los músculos de Hércules”.
-
-¿Tú qué habrías hecho?
-
-Crédito: Samulx, “ESTO PASÓ EN LOS CAMERINOS CON HERRERA DESPUES DE STREAM FIGTHERS 5 😯 ME JODÍ EL HOMBRO*”. Video original (minuto 18:47): https://youtu.be/GkojR4E0tuY?t=1127
-
-#Samulx #StreamFighters5 #Herrera #LaGanga
-```
-
-### Instagram · cuenta `principal` · pendiente de aprobación
-
-```
-“Había más acción fuera del ring que adentro”: Samulx sobre los camerinos 😂
-
-Samulx cuenta lo que no se vio en Stream Fighters 5: en los camerinos “todo el mundo se quería caer a golpes”. Iba decidido a encarar a Herrera… hasta que lo vio entrar “con los músculos de Hércules”.
-
-¿Tú qué habrías hecho?
-
-Crédito: Samulx, “ESTO PASÓ EN LOS CAMERINOS CON HERRERA DESPUES DE STREAM FIGTHERS 5 😯 ME JODÍ EL HOMBRO*”. Video original (minuto 18:47): https://youtu.be/GkojR4E0tuY?t=1127
-
-#Samulx #StreamFighters5 #Herrera #LaGanga
-```
-
-### YouTube · cuenta `principal` · pendiente de aprobación
-
-**Título:** Lo que pasó en los camerinos de Stream Fighters 5, según Samulx
-
-```
-Samulx cuenta lo que no se vio en los camerinos de Stream Fighters 5: “había más acción fuera del ring que adentro”. Iba decidido a encarar a Herrera… hasta que lo vio entrar.
-
-Crédito: Samulx, “ESTO PASÓ EN LOS CAMERINOS CON HERRERA DESPUES DE STREAM FIGTHERS 5 😯 ME JODÍ EL HOMBRO*”. Video original (minuto 18:47): https://youtu.be/GkojR4E0tuY?t=1127
-
-#Samulx #StreamFighters5 #Herrera
-```
-
-**Etiquetas:** Samulx, Stream Fighters 5, Herrera, camerinos, La Ganga, Westcol, streamers, humor
-
-
-## 23. `2026-11-15-nsn-telefono-infancia`
-
-- **Gancho:** Llamó al teléfono de su infancia… y contestaron
-- **Puntaje:** 74 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-18 · **Línea:** risas · **Pieza:** original (sin variantes)
-- **Video:** [clip.mp4](../clipero/clips/2026-11-15-nsn-telefono-infancia/clip.mp4) (54,6 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-15-nsn-telefono-infancia/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=pSyuyPq7uh0
-- **Revisar antes de publicar:** El número no se dice. La señora no se identifica (solo se oye «Digui»): al publicar no añadas datos sobre ella. Pitidos de la fuente como ***.
-
-### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola (previsto 18-nov)
-
-```
-Llamó en directo al teléfono de la casa de su infancia… y contestaron 😳
-
-Andreu Buenafuente marca el número de su familia en Reus y contesta una señora: “no estaba preparado para esto”.
-
-¿Todavía te sabes el teléfono de tu casa?
-
-Crédito: Nadie Sabe Nada, de Andreu Buenafuente y Berto Romero (El Terrat), “NADIE SABE NADA 14x11 | Los Claus y los elfos promiscuos”. Video original (minuto 7:04): https://youtu.be/pSyuyPq7uh0?t=424
-
-#NadieSabeNada #Buenafuente #BertoRomero #Humor
-```
-
-### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
-
-```
-Llamó al teléfono de su casa de la infancia… y contestó alguien 😳
-
-En Nadie Sabe Nada hablan de cuando nos sabíamos los teléfonos de memoria y Andreu Buenafuente marca en directo el número de la casa de su familia en Reus. Contesta una señora. Berto lo tiene claro: “a lo mejor de ahí nace una amistad, o el amor”.
-
-¿Todavía te sabes el teléfono de tu casa?
-
-Crédito: Nadie Sabe Nada, de Andreu Buenafuente y Berto Romero (El Terrat), “NADIE SABE NADA 14x11 | Los Claus y los elfos promiscuos”. Video original (minuto 7:04): https://youtu.be/pSyuyPq7uh0?t=424
-
-#NadieSabeNada #Buenafuente #BertoRomero #Humor
-```
-
-### YouTube · cuenta `principal` · pendiente de aprobación
-
-**Título:** Buenafuente llama en directo al teléfono de su casa de la infancia
-
-```
-En Nadie Sabe Nada hablan de cuando nos sabíamos los teléfonos de memoria. Andreu Buenafuente marca en directo el número de la casa de su familia en Reus… y contesta una señora.
-
-Crédito: Nadie Sabe Nada, de Andreu Buenafuente y Berto Romero (El Terrat), “NADIE SABE NADA 14x11 | Los Claus y los elfos promiscuos”. Video original (minuto 7:04): https://youtu.be/pSyuyPq7uh0?t=424
-
-#NadieSabeNada #Buenafuente #BertoRomero
-```
-
-**Etiquetas:** Nadie Sabe Nada, Andreu Buenafuente, Berto Romero, El Terrat, teléfono, Reus, humor, podcast
-
-
-## 24. `2026-11-15-tirandobola-perra-amigo`
-
-- **Gancho:** Cuando Franco no te insulta, preocúpate
-- **Puntaje:** 74 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-18 · **Línea:** risas · **Pieza:** original (sin variantes)
-- **Video:** [clip.mp4](../clipero/clips/2026-11-15-tirandobola-perra-amigo/clip.mp4) (39,3 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-15-tirandobola-perra-amigo/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=niP1DkpCYvs
-- **Revisar antes de publicar:** Lenguaje fuerte entre amigos («perra», «zorra») y pitidos de la fuente como ***. «Se quiere despedir» es una broma sobre el mensaje: nadie está enfermo.
-
-### TikTok · cuenta `risas` (@legion.risas) · en la bandeja desde hoy, 16:59 (borrador)
-
-```
-Cuando tu amigo de siempre te escribe “amigo”… algo pasó 😂
-
-Marco Polo cuenta la vez que Franco Escamilla le contestó más rápido un mensaje. La explicación de Franco: “yo pensé que se iba a morir el señor… se quiere despedir”.
-
-Etiqueta al amigo que te preocupa cuando es amable
-
-Crédito: Tirando Bola, de Franco Escamilla (canal de Franco Escamilla en YouTube), “Marco Polo | Tirando Bola | T9E21”. Video original (minuto 25:43): https://youtu.be/niP1DkpCYvs?t=1543
-
-#FrancoEscamilla #TirandoBola #MarcoPolo #Comedia
-```
-
-### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
-
-```
-“¿Y ahora por qué no me dijiste perra?” 😂
-
-En Tirando Bola, Marco Polo cuenta la vez que Franco Escamilla le contestó más rápido un mensaje: cuando le escribió “amigo” en lugar del insulto de siempre. Franco lo explica: si alguien siempre te dice de todo y un día te pone “Oye, amigo”, “yo pensé que se iba a morir el señor”.
-
-Etiqueta al amigo que te preocupa cuando es amable
-
-Crédito: Tirando Bola, de Franco Escamilla (canal de Franco Escamilla en YouTube), “Marco Polo | Tirando Bola | T9E21”. Video original (minuto 25:43): https://youtu.be/niP1DkpCYvs?t=1543
-
-#FrancoEscamilla #TirandoBola #MarcoPolo #Comedia
-```
-
-### YouTube · cuenta `principal` · pendiente de aprobación
-
-**Título:** Franco Escamilla explica por qué se asustó con un “amigo” | Tirando Bola
-
-```
-En Tirando Bola, Marco Polo cuenta la vez que Franco Escamilla le contestó más rápido un mensaje: cuando le escribió “amigo” en lugar del insulto de siempre.
-
-Crédito: Tirando Bola, de Franco Escamilla (canal de Franco Escamilla en YouTube), “Marco Polo | Tirando Bola | T9E21”. Video original (minuto 25:43): https://youtu.be/niP1DkpCYvs?t=1543
-
-#FrancoEscamilla #TirandoBola #Comedia
-```
-
-**Etiquetas:** Franco Escamilla, Tirando Bola, Marco Polo, comedia, comedia mexicana, amistad, billar, humor
-
-
-## 25. `2026-11-17-lonche-cinco-lesiones`
+## 20. `2026-11-17-lonche-cinco-lesiones`
 
 - **Gancho:** Lonche peleó la primera vez con cinco lesiones
 - **Puntaje:** 74 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-18 · **Línea:** urbano · **Pieza:** original (sin variantes)
@@ -1373,57 +1137,107 @@ Crédito: LoncheWey, “HABLANDO de MI PELEA en COLOMBIA con LA GANGA | LONCHE�
 **Etiquetas:** Lonche, LoncheWey, Westcol, Stream Fighters 5, La Ganga, lesiones, boxeo, streamers
 
 
-## 26. `2026-11-13-jhovanoty-faja-disfraz`
+## 21. `2026-11-15-nsn-telefono-infancia`
 
-- **Gancho:** Su disfraz de De la Espriella pedía faja
-- **Puntaje:** 73 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-18 · **Línea:** risas · **Pieza:** original (sin variantes)
-- **Video:** [clip.mp4](../clipero/clips/2026-11-13-jhovanoty-faja-disfraz/clip.mp4) (72,4 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-13-jhovanoty-faja-disfraz/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=lEDdtE48rBk
-- **Revisar antes de publicar:** Humor político (legion/04-cazador-risas/enfoque.md): es el humorista contando su disfraz de Halloween de Abelardo de la Espriella (derecha); De la Espriella no sale. Los textos dicen que es un disfraz, no le dan cargo, no citan «bienvenido a la patria» (frase final que puede leerse como consigna) y no se burlan del político: el chiste es la faja del humorista.
+- **Gancho:** Llamó al teléfono de su infancia… y contestaron
+- **Puntaje:** 74 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-18 · **Línea:** risas · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-15-nsn-telefono-infancia/clip.mp4) (54,6 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-15-nsn-telefono-infancia/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=pSyuyPq7uh0
+- **Revisar antes de publicar:** El número no se dice. La señora no se identifica (solo se oye «Digui»): al publicar no añadas datos sobre ella. Pitidos de la fuente como ***.
 
 ### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola (previsto 18-nov)
 
 ```
-Jhovanoty se disfrazó de Abelardo de la Espriella para Halloween y, para que el traje cerrara, terminó en body de encaje
+Llamó en directo al teléfono de la casa de su infancia… y contestaron 😳
 
-Es un disfraz que el humorista cuenta en su show: De la Espriella no sale en el video.
+Andreu Buenafuente marca el número de su familia en Reus y contesta una señora: “no estaba preparado para esto”.
 
-¿Cuál ha sido tu disfraz más incómodo?
+¿Todavía te sabes el teléfono de tu casa?
 
-Crédito: Jhovanoty, “Me disfracé de Abelardo de La Espriella... ¡Y Qué problema! - Puro Show de Jhovanoty”. Video original (minuto 11:23): https://youtu.be/lEDdtE48rBk?t=683
+Crédito: Nadie Sabe Nada, de Andreu Buenafuente y Berto Romero (El Terrat), “NADIE SABE NADA 14x11 | Los Claus y los elfos promiscuos”. Video original (minuto 7:04): https://youtu.be/pSyuyPq7uh0?t=424
 
-#Jhovanoty #PuroShow #HumorColombiano #Halloween #StandUp
+#NadieSabeNada #Buenafuente #BertoRomero #Humor
 ```
 
 ### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
 
 ```
-Jhovanoty y la faja de su disfraz de Abelardo de la Espriella
+Llamó al teléfono de su casa de la infancia… y contestó alguien 😳
 
-Para Halloween, el humorista Jhovanoty se disfrazó de Abelardo de la Espriella. Para que el traje cerrara tuvo que fajarse… y como no había faja, fue un body de encaje. Lo difícil vino de noche, con su esposa intentando cerrar los broches. Es un disfraz que el humorista cuenta en su show: De la Espriella no sale en el video.
+En Nadie Sabe Nada hablan de cuando nos sabíamos los teléfonos de memoria y Andreu Buenafuente marca en directo el número de la casa de su familia en Reus. Contesta una señora. Berto lo tiene claro: “a lo mejor de ahí nace una amistad, o el amor”.
 
-¿Cuál ha sido tu disfraz más incómodo?
+¿Todavía te sabes el teléfono de tu casa?
 
-Crédito: Jhovanoty, “Me disfracé de Abelardo de La Espriella... ¡Y Qué problema! - Puro Show de Jhovanoty”. Video original (minuto 11:23): https://youtu.be/lEDdtE48rBk?t=683
+Crédito: Nadie Sabe Nada, de Andreu Buenafuente y Berto Romero (El Terrat), “NADIE SABE NADA 14x11 | Los Claus y los elfos promiscuos”. Video original (minuto 7:04): https://youtu.be/pSyuyPq7uh0?t=424
 
-#Jhovanoty #PuroShow #HumorColombiano #Halloween #StandUp
+#NadieSabeNada #Buenafuente #BertoRomero #Humor
 ```
 
 ### YouTube · cuenta `principal` · pendiente de aprobación
 
-**Título:** El disfraz de Abelardo de la Espriella que necesitó faja | Jhovanoty
+**Título:** Buenafuente llama en directo al teléfono de su casa de la infancia
 
 ```
-Para Halloween, el humorista Jhovanoty se disfrazó de Abelardo de la Espriella y, para que el traje cerrara, tuvo que fajarse… con un body de encaje. Es un disfraz que cuenta en su show Puro Show: De la Espriella no sale en el video.
+En Nadie Sabe Nada hablan de cuando nos sabíamos los teléfonos de memoria. Andreu Buenafuente marca en directo el número de la casa de su familia en Reus… y contesta una señora.
 
-Crédito: Jhovanoty, “Me disfracé de Abelardo de La Espriella... ¡Y Qué problema! - Puro Show de Jhovanoty”. Video original (minuto 11:23): https://youtu.be/lEDdtE48rBk?t=683
+Crédito: Nadie Sabe Nada, de Andreu Buenafuente y Berto Romero (El Terrat), “NADIE SABE NADA 14x11 | Los Claus y los elfos promiscuos”. Video original (minuto 7:04): https://youtu.be/pSyuyPq7uh0?t=424
 
-#Jhovanoty #PuroShow #HumorColombiano #StandUp
+#NadieSabeNada #Buenafuente #BertoRomero
 ```
 
-**Etiquetas:** Jhovanoty, Puro Show, humor colombiano, stand up, disfraz de Halloween, disfraz De la Espriella, comedia, Halloween
+**Etiquetas:** Nadie Sabe Nada, Andreu Buenafuente, Berto Romero, El Terrat, teléfono, Reus, humor, podcast
 
 
-## 27. `2026-11-17-samulx-prueba-antidoping`
+## 22. `2026-11-15-tirandobola-perra-amigo`
+
+- **Gancho:** Cuando Franco no te insulta, preocúpate
+- **Puntaje:** 74 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-18 · **Línea:** risas · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-15-tirandobola-perra-amigo/clip.mp4) (39,3 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-15-tirandobola-perra-amigo/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=niP1DkpCYvs
+- **Revisar antes de publicar:** Lenguaje fuerte entre amigos («perra», «zorra») y pitidos de la fuente como ***. «Se quiere despedir» es una broma sobre el mensaje: nadie está enfermo.
+
+### TikTok · cuenta `risas` (@legion.risas) · en la bandeja desde 2026-11-17 16:59 (borrador)
+
+```
+Cuando tu amigo de siempre te escribe “amigo”… algo pasó 😂
+
+Marco Polo cuenta la vez que Franco Escamilla le contestó más rápido un mensaje. La explicación de Franco: “yo pensé que se iba a morir el señor… se quiere despedir”.
+
+Etiqueta al amigo que te preocupa cuando es amable
+
+Crédito: Tirando Bola, de Franco Escamilla (canal de Franco Escamilla en YouTube), “Marco Polo | Tirando Bola | T9E21”. Video original (minuto 25:43): https://youtu.be/niP1DkpCYvs?t=1543
+
+#FrancoEscamilla #TirandoBola #MarcoPolo #Comedia
+```
+
+### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
+
+```
+“¿Y ahora por qué no me dijiste perra?” 😂
+
+En Tirando Bola, Marco Polo cuenta la vez que Franco Escamilla le contestó más rápido un mensaje: cuando le escribió “amigo” en lugar del insulto de siempre. Franco lo explica: si alguien siempre te dice de todo y un día te pone “Oye, amigo”, “yo pensé que se iba a morir el señor”.
+
+Etiqueta al amigo que te preocupa cuando es amable
+
+Crédito: Tirando Bola, de Franco Escamilla (canal de Franco Escamilla en YouTube), “Marco Polo | Tirando Bola | T9E21”. Video original (minuto 25:43): https://youtu.be/niP1DkpCYvs?t=1543
+
+#FrancoEscamilla #TirandoBola #MarcoPolo #Comedia
+```
+
+### YouTube · cuenta `principal` · pendiente de aprobación
+
+**Título:** Franco Escamilla explica por qué se asustó con un “amigo” | Tirando Bola
+
+```
+En Tirando Bola, Marco Polo cuenta la vez que Franco Escamilla le contestó más rápido un mensaje: cuando le escribió “amigo” en lugar del insulto de siempre.
+
+Crédito: Tirando Bola, de Franco Escamilla (canal de Franco Escamilla en YouTube), “Marco Polo | Tirando Bola | T9E21”. Video original (minuto 25:43): https://youtu.be/niP1DkpCYvs?t=1543
+
+#FrancoEscamilla #TirandoBola #Comedia
+```
+
+**Etiquetas:** Franco Escamilla, Tirando Bola, Marco Polo, comedia, comedia mexicana, amistad, billar, humor
+
+
+## 23. `2026-11-17-samulx-prueba-antidoping`
 
 - **Gancho:** La prueba antidoping de Samulx tras perder
 - **Puntaje:** 73 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-18 · **Línea:** urbano · **Pieza:** original (sin variantes)
@@ -1473,107 +1287,107 @@ Crédito: Samulx, “ESTO PASÓ EN LOS CAMERINOS CON HERRERA DESPUES DE STREAM F
 **Etiquetas:** Samulx, Stream Fighters 5, antidoping, camerino, boxeo, La Ganga, streamers, humor
 
 
-## 28. `2026-11-13-cotorrisa-vinchi-dicaprio`
+## 24. `2026-11-13-jhovanoty-faja-disfraz`
 
-- **Gancho:** Por qué DiCaprio se llama Leonardo
-- **Puntaje:** 72 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-18 · **Línea:** risas · **Pieza:** original (sin variantes)
-- **Video:** [clip.mp4](../clipero/clips/2026-11-13-cotorrisa-vinchi-dicaprio/clip.mp4) (41,4 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-13-cotorrisa-vinchi-dicaprio/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=XUh-fUA_o30
-- **Revisar antes de publicar:** Publicar lejos de cotorrisa-dicaprio-sandwich (los dos son de DiCaprio).
+- **Gancho:** Su disfraz de De la Espriella pedía faja
+- **Puntaje:** 73 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-18 · **Línea:** risas · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-13-jhovanoty-faja-disfraz/clip.mp4) (72,4 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-13-jhovanoty-faja-disfraz/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=lEDdtE48rBk
+- **Revisar antes de publicar:** Humor político (legion/04-cazador-risas/enfoque.md): es el humorista contando su disfraz de Halloween de Abelardo de la Espriella (derecha); De la Espriella no sale. Los textos dicen que es un disfraz, no le dan cargo, no citan «bienvenido a la patria» (frase final que puede leerse como consigna) y no se burlan del político: el chiste es la faja del humorista.
 
 ### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola (previsto 18-nov)
 
 ```
-Por qué DiCaprio se llama Leonardo… y casi se llama “Vinchi DiCaprio”
+Jhovanoty se disfrazó de Abelardo de la Espriella para Halloween y, para que el traje cerrara, terminó en body de encaje
 
-Con lapsus incluido: “dentro del vientre de su padre”.
+Es un disfraz que el humorista cuenta en su show: De la Espriella no sale en el video.
 
-¿Sabías de dónde venía su nombre?
+¿Cuál ha sido tu disfraz más incómodo?
 
-Crédito: La Cotorrisa (Slobotzky y Ricardo Pérez; canal de Slobotzky en YouTube), “Episodio 399 - El doctor me sacó el jueguito de princesa”. Video original (minuto 38:11): https://youtu.be/XUh-fUA_o30?t=2291
+Crédito: Jhovanoty, “Me disfracé de Abelardo de La Espriella... ¡Y Qué problema! - Puro Show de Jhovanoty”. Video original (minuto 11:23): https://youtu.be/lEDdtE48rBk?t=683
 
-#LaCotorrisa #DiCaprio #LeonardoDiCaprio #Humor #DatoCurioso
+#Jhovanoty #PuroShow #HumorColombiano #Halloween #StandUp
 ```
 
 ### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
 
 ```
-El dato de por qué DiCaprio se llama Leonardo… y el lapsus que lo arruinó
+Jhovanoty y la faja de su disfraz de Abelardo de la Espriella
 
-Su madre, embarazada, miraba un cuadro de Leonardo da Vinci en la Galería Uffizi cuando el bebé dio una patada… “dentro del vientre de su padre”. El lapsus y el remate: casi se llamó Vinchi DiCaprio.
+Para Halloween, el humorista Jhovanoty se disfrazó de Abelardo de la Espriella. Para que el traje cerrara tuvo que fajarse… y como no había faja, fue un body de encaje. Lo difícil vino de noche, con su esposa intentando cerrar los broches. Es un disfraz que el humorista cuenta en su show: De la Espriella no sale en el video.
 
-¿Sabías de dónde venía su nombre?
+¿Cuál ha sido tu disfraz más incómodo?
 
-Crédito: La Cotorrisa (Slobotzky y Ricardo Pérez; canal de Slobotzky en YouTube), “Episodio 399 - El doctor me sacó el jueguito de princesa”. Video original (minuto 38:11): https://youtu.be/XUh-fUA_o30?t=2291
+Crédito: Jhovanoty, “Me disfracé de Abelardo de La Espriella... ¡Y Qué problema! - Puro Show de Jhovanoty”. Video original (minuto 11:23): https://youtu.be/lEDdtE48rBk?t=683
 
-#LaCotorrisa #DiCaprio #LeonardoDiCaprio #Humor #DatoCurioso
+#Jhovanoty #PuroShow #HumorColombiano #Halloween #StandUp
 ```
 
 ### YouTube · cuenta `principal` · pendiente de aprobación
 
-**Título:** ¿Por qué Leonardo DiCaprio se llama Leonardo? | La Cotorrisa
+**Título:** El disfraz de Abelardo de la Espriella que necesitó faja | Jhovanoty
 
 ```
-Su madre, embarazada, miraba un cuadro de Leonardo da Vinci en la Galería Uffizi cuando el bebé dio una patada. El dato, un lapsus en plena lectura y el remate: casi se llamó Vinchi DiCaprio.
+Para Halloween, el humorista Jhovanoty se disfrazó de Abelardo de la Espriella y, para que el traje cerrara, tuvo que fajarse… con un body de encaje. Es un disfraz que cuenta en su show Puro Show: De la Espriella no sale en el video.
 
-Crédito: La Cotorrisa (Slobotzky y Ricardo Pérez; canal de Slobotzky en YouTube), “Episodio 399 - El doctor me sacó el jueguito de princesa”. Video original (minuto 38:11): https://youtu.be/XUh-fUA_o30?t=2291
-
-#LaCotorrisa #DiCaprio #DatoCurioso #Humor
-```
-
-**Etiquetas:** La Cotorrisa, Slobotzky, Ricardo Pérez, Leonardo DiCaprio, dato curioso, Leonardo da Vinci, podcast de comedia, humor
-
-
-## 29. `2026-11-13-jhovanoty-radar-eldorado`
-
-- **Gancho:** Cuando se cayó el radar de El Dorado
-- **Puntaje:** 72 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-18 · **Línea:** risas · **Pieza:** original (sin variantes)
-- **Video:** [clip.mp4](../clipero/clips/2026-11-13-jhovanoty-radar-eldorado/clip.mp4) (56,2 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-13-jhovanoty-radar-eldorado/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=lEDdtE48rBk
-- **Revisar antes de publicar:** No hay disfraz ni imitación de políticos: es stand-up de Jhovanoty con su ropa de show. Los textos dicen que el ingeniero y el neurocirujano son parte del chiste. El título del video original (en el crédito) habla del disfraz de De la Espriella.
-
-### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola, sin hueco antes de su ventana (2026-11-18)
-
-```
-Se cayó el radar de El Dorado, le cancelaron el vuelo y en la fila había un neurocirujano: “No se salte la fila, que yo tengo un show”
-
-Stand-up de Jhovanoty en Puro Show: el ingeniero y el neurocirujano son parte del chiste.
-
-¿A quién dejarías pasar primero?
-
-Crédito: Jhovanoty, “Me disfracé de Abelardo de La Espriella... ¡Y Qué problema! - Puro Show de Jhovanoty”. Video original (minuto 1:52): https://youtu.be/lEDdtE48rBk?t=112
-
-#Jhovanoty #PuroShow #HumorColombiano #ElDorado #StandUp
-```
-
-### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
-
-```
-Jhovanoty imagina a los ingenieros de la torre de control de El Dorado
-
-Jhovanoty cuenta que se dañó un radar en El Dorado y le cancelaron el vuelo a Medellín. Imagina al ingeniero de la torre abriendo el capó “como si supiera” y en la fila se encuentra con un neurocirujano que tiene una operación a corazón abierto… pero él tiene un show. Es stand-up: los personajes son parte del chiste.
-
-¿A quién dejarías pasar primero?
-
-Crédito: Jhovanoty, “Me disfracé de Abelardo de La Espriella... ¡Y Qué problema! - Puro Show de Jhovanoty”. Video original (minuto 1:52): https://youtu.be/lEDdtE48rBk?t=112
-
-#Jhovanoty #PuroShow #HumorColombiano #ElDorado #StandUp
-```
-
-### YouTube · cuenta `principal` · pendiente de aprobación
-
-**Título:** Vuelo cancelado en El Dorado y un neurocirujano en la fila | Jhovanoty
-
-```
-Jhovanoty cuenta que se dañó un radar en El Dorado y le cancelaron el vuelo a Medellín; en la fila se encuentra con un neurocirujano… pero él tiene un show. Es stand-up: los personajes son parte del chiste.
-
-Crédito: Jhovanoty, “Me disfracé de Abelardo de La Espriella... ¡Y Qué problema! - Puro Show de Jhovanoty”. Video original (minuto 1:52): https://youtu.be/lEDdtE48rBk?t=112
+Crédito: Jhovanoty, “Me disfracé de Abelardo de La Espriella... ¡Y Qué problema! - Puro Show de Jhovanoty”. Video original (minuto 11:23): https://youtu.be/lEDdtE48rBk?t=683
 
 #Jhovanoty #PuroShow #HumorColombiano #StandUp
 ```
 
-**Etiquetas:** Jhovanoty, Puro Show, humor colombiano, stand up, El Dorado, vuelo cancelado, aeropuerto, comedia
+**Etiquetas:** Jhovanoty, Puro Show, humor colombiano, stand up, disfraz de Halloween, disfraz De la Espriella, comedia, Halloween
 
 
-## 30. `2026-11-15-parenlamano-barrera-2am`
+## 25. `2026-11-17-samulx-camerino-robado`
+
+- **Gancho:** Así le quitaron el camerino a Lonche y Willito
+- **Puntaje:** 72 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-18 · **Línea:** urbano · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-17-samulx-camerino-robado/clip.mp4) (38,8 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-17-samulx-camerino-robado/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=GkojR4E0tuY
+- **Revisar antes de publicar:** The Chanty, Lonche y Willito no salen: lo cuenta Samulx. Un pitido de la fuente como ***.
+
+### TikTok · cuenta `principal` (Legión Urbana) · aprobado automáticamente; en cola (previsto 18-nov)
+
+```
+“Estamos jugando de local”: así le quitaron el camerino a Lonche y Willito 😂
+
+Samulx cuenta cómo él y The Chanty se quedaron con el camerino grande… y ellos “ni siquiera se dieron cuenta”.
+
+Etiqueta a tu amigo que haría esto
+
+Crédito: Samulx, “ESTO PASÓ EN LOS CAMERINOS CON HERRERA DESPUES DE STREAM FIGTHERS 5 😯 ME JODÍ EL HOMBRO*”. Video original (minuto 22:26): https://youtu.be/GkojR4E0tuY?t=1346
+
+#Samulx #TheChanty #Lonche #Willito #StreamFighters5
+```
+
+### Instagram · cuenta `principal` · pendiente de aprobación
+
+```
+Samulx y The Chanty se quedaron con el camerino de Lonche y Willito 😂
+
+Les tocó un camerino pequeño y vieron el grande vacío, el de Willito y Lonche, que aún no llegaban. The Chanty lo resolvió: “nosotros estamos jugando de local, este es mi país… ellos son visitantes”. Según Samulx, “ni siquiera se dieron cuenta”.
+
+Etiqueta a tu amigo que haría esto
+
+Crédito: Samulx, “ESTO PASÓ EN LOS CAMERINOS CON HERRERA DESPUES DE STREAM FIGTHERS 5 😯 ME JODÍ EL HOMBRO*”. Video original (minuto 22:26): https://youtu.be/GkojR4E0tuY?t=1346
+
+#Samulx #TheChanty #Lonche #Willito #StreamFighters5
+```
+
+### YouTube · cuenta `principal` · pendiente de aprobación
+
+**Título:** La jugada del camerino en Stream Fighters 5, contada por Samulx
+
+```
+Samulx cuenta cómo él y The Chanty se quedaron con el camerino grande de Lonche y Willito en Stream Fighters 5: “estamos jugando de local… ellos son visitantes”.
+
+Crédito: Samulx, “ESTO PASÓ EN LOS CAMERINOS CON HERRERA DESPUES DE STREAM FIGTHERS 5 😯 ME JODÍ EL HOMBRO*”. Video original (minuto 22:26): https://youtu.be/GkojR4E0tuY?t=1346
+
+#Samulx #TheChanty #StreamFighters5
+```
+
+**Etiquetas:** Samulx, The Chanty, Lonche, Willito, Stream Fighters 5, camerino, streamers, humor
+
+
+## 26. `2026-11-15-parenlamano-barrera-2am`
 
 - **Gancho:** La regla de las 2 de la mañana
 - **Puntaje:** 72 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-18 · **Línea:** risas · **Pieza:** original (sin variantes)
@@ -1623,7 +1437,7 @@ Crédito: Paren la Mano (Vorterix), “VINO LIT KILLAH Y PAREN LA MODA HISTÓRIC
 **Etiquetas:** Paren la Mano, Vorterix, Lit Killah, humor argentino, streaming argentino, dormir, madrugada, humor
 
 
-## 31. `2026-11-15-tirandobola-luz-experiencias`
+## 27. `2026-11-15-tirandobola-luz-experiencias`
 
 - **Gancho:** ¿Se paga la luz con experiencias?
 - **Puntaje:** 72 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-18 · **Línea:** risas · **Pieza:** original (sin variantes)
@@ -1673,105 +1487,107 @@ Crédito: Tirando Bola, de Franco Escamilla (canal de Franco Escamilla en YouTub
 **Etiquetas:** Franco Escamilla, Tirando Bola, Marco Polo, comedia, comedia mexicana, dinero, Londres, humor
 
 
-## 32. `2026-11-17-samulx-camerino-robado`
+## 28. `2026-11-13-jhovanoty-radar-eldorado`
 
-- **Gancho:** Así le quitaron el camerino a Lonche y Willito
-- **Puntaje:** 72 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-18 · **Línea:** urbano · **Pieza:** original (sin variantes)
-- **Video:** [clip.mp4](../clipero/clips/2026-11-17-samulx-camerino-robado/clip.mp4) (38,8 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-17-samulx-camerino-robado/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=GkojR4E0tuY
-- **Revisar antes de publicar:** The Chanty, Lonche y Willito no salen: lo cuenta Samulx. Un pitido de la fuente como ***.
-
-### TikTok · cuenta `principal` (Legión Urbana) · aprobado automáticamente; en cola (previsto 18-nov; cede su sitio a westcol-herrera-no-planeado si el usuario confirma que ese no llegó a la bandeja)
-
-```
-“Estamos jugando de local”: así le quitaron el camerino a Lonche y Willito 😂
-
-Samulx cuenta cómo él y The Chanty se quedaron con el camerino grande… y ellos “ni siquiera se dieron cuenta”.
-
-Etiqueta a tu amigo que haría esto
-
-Crédito: Samulx, “ESTO PASÓ EN LOS CAMERINOS CON HERRERA DESPUES DE STREAM FIGTHERS 5 😯 ME JODÍ EL HOMBRO*”. Video original (minuto 22:26): https://youtu.be/GkojR4E0tuY?t=1346
-
-#Samulx #TheChanty #Lonche #Willito #StreamFighters5
-```
-
-### Instagram · cuenta `principal` · pendiente de aprobación
-
-```
-Samulx y The Chanty se quedaron con el camerino de Lonche y Willito 😂
-
-Les tocó un camerino pequeño y vieron el grande vacío, el de Willito y Lonche, que aún no llegaban. The Chanty lo resolvió: “nosotros estamos jugando de local, este es mi país… ellos son visitantes”. Según Samulx, “ni siquiera se dieron cuenta”.
-
-Etiqueta a tu amigo que haría esto
-
-Crédito: Samulx, “ESTO PASÓ EN LOS CAMERINOS CON HERRERA DESPUES DE STREAM FIGTHERS 5 😯 ME JODÍ EL HOMBRO*”. Video original (minuto 22:26): https://youtu.be/GkojR4E0tuY?t=1346
-
-#Samulx #TheChanty #Lonche #Willito #StreamFighters5
-```
-
-### YouTube · cuenta `principal` · pendiente de aprobación
-
-**Título:** La jugada del camerino en Stream Fighters 5, contada por Samulx
-
-```
-Samulx cuenta cómo él y The Chanty se quedaron con el camerino grande de Lonche y Willito en Stream Fighters 5: “estamos jugando de local… ellos son visitantes”.
-
-Crédito: Samulx, “ESTO PASÓ EN LOS CAMERINOS CON HERRERA DESPUES DE STREAM FIGTHERS 5 😯 ME JODÍ EL HOMBRO*”. Video original (minuto 22:26): https://youtu.be/GkojR4E0tuY?t=1346
-
-#Samulx #TheChanty #StreamFighters5
-```
-
-**Etiquetas:** Samulx, The Chanty, Lonche, Willito, Stream Fighters 5, camerino, streamers, humor
-
-
-## 33. `2026-11-13-cotorrisa-navajas-suizas`
-
-- **Gancho:** 16 navajas suizas en la pañalera
-- **Puntaje:** 71 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-18 · **Línea:** risas · **Pieza:** original (sin variantes)
-- **Video:** [clip.mp4](../clipero/clips/2026-11-13-cotorrisa-navajas-suizas/clip.mp4) (36,8 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-13-cotorrisa-navajas-suizas/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=XUh-fUA_o30
-- **Revisar antes de publicar:** Ficha: en los últimos 11 s se ve un recuadro pequeño de otro segmento del programa («¿Chino, coreano o japonés?»). Si molesta, descártalo.
+- **Gancho:** Cuando se cayó el radar de El Dorado
+- **Puntaje:** 72 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-18 · **Línea:** risas · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-13-jhovanoty-radar-eldorado/clip.mp4) (56,2 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-13-jhovanoty-radar-eldorado/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=lEDdtE48rBk
+- **Revisar antes de publicar:** No hay disfraz ni imitación de políticos: es stand-up de Jhovanoty con su ropa de show. Los textos dicen que el ingeniero y el neurocirujano son parte del chiste. El título del video original (en el crédito) habla del disfraz de De la Espriella.
 
 ### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola, sin hueco antes de su ventana (2026-11-18)
 
 ```
-Cuando tu regalo de viaje te puede costar la cárcel en Suiza: 16 navajas suizas en la pañalera
+Se cayó el radar de El Dorado, le cancelaron el vuelo y en la fila había un neurocirujano: “No se salte la fila, que yo tengo un show”
 
-¿Qué regalo traerías tú de Suiza?
+Stand-up de Jhovanoty en Puro Show: el ingeniero y el neurocirujano son parte del chiste.
 
-Crédito: La Cotorrisa (Slobotzky y Ricardo Pérez; canal de Slobotzky en YouTube), “Episodio 399 - El doctor me sacó el jueguito de princesa”. Video original (minuto 25:41): https://youtu.be/XUh-fUA_o30?t=1541
+¿A quién dejarías pasar primero?
 
-#LaCotorrisa #Slobotzky #RicardoPerez #Suiza #Humor
+Crédito: Jhovanoty, “Me disfracé de Abelardo de La Espriella... ¡Y Qué problema! - Puro Show de Jhovanoty”. Video original (minuto 1:52): https://youtu.be/lEDdtE48rBk?t=112
+
+#Jhovanoty #PuroShow #HumorColombiano #ElDorado #StandUp
 ```
 
 ### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
 
 ```
-“16 navajas suizas en la pañalera”: el regalo que nadie debería subir al avión
+Jhovanoty imagina a los ingenieros de la torre de control de El Dorado
 
-Le trajeron regalos de China y ahora le toca devolver el detalle desde Suiza, donde “un chocolatito no baja de 30”. La idea: navajas suizas personalizadas para todo el equipo… hasta que se imagina pasando el aeropuerto con 16 navajas en la pañalera del bebé.
+Jhovanoty cuenta que se dañó un radar en El Dorado y le cancelaron el vuelo a Medellín. Imagina al ingeniero de la torre abriendo el capó “como si supiera” y en la fila se encuentra con un neurocirujano que tiene una operación a corazón abierto… pero él tiene un show. Es stand-up: los personajes son parte del chiste.
 
-¿Qué regalo traerías tú de Suiza?
+¿A quién dejarías pasar primero?
 
-Crédito: La Cotorrisa (Slobotzky y Ricardo Pérez; canal de Slobotzky en YouTube), “Episodio 399 - El doctor me sacó el jueguito de princesa”. Video original (minuto 25:41): https://youtu.be/XUh-fUA_o30?t=1541
+Crédito: Jhovanoty, “Me disfracé de Abelardo de La Espriella... ¡Y Qué problema! - Puro Show de Jhovanoty”. Video original (minuto 1:52): https://youtu.be/lEDdtE48rBk?t=112
 
-#LaCotorrisa #Slobotzky #RicardoPerez #Suiza #Humor
+#Jhovanoty #PuroShow #HumorColombiano #ElDorado #StandUp
 ```
 
 ### YouTube · cuenta `principal` · pendiente de aprobación
 
-**Título:** 16 navajas suizas en la pañalera del bebé | La Cotorrisa
+**Título:** Vuelo cancelado en El Dorado y un neurocirujano en la fila | Jhovanoty
 
 ```
-Le toca devolver unos regalos desde Suiza y la idea son navajas suizas personalizadas para todo el equipo… hasta que se imagina pasando el aeropuerto con 16 navajas en la pañalera del bebé.
+Jhovanoty cuenta que se dañó un radar en El Dorado y le cancelaron el vuelo a Medellín; en la fila se encuentra con un neurocirujano… pero él tiene un show. Es stand-up: los personajes son parte del chiste.
 
-Crédito: La Cotorrisa (Slobotzky y Ricardo Pérez; canal de Slobotzky en YouTube), “Episodio 399 - El doctor me sacó el jueguito de princesa”. Video original (minuto 25:41): https://youtu.be/XUh-fUA_o30?t=1541
+Crédito: Jhovanoty, “Me disfracé de Abelardo de La Espriella... ¡Y Qué problema! - Puro Show de Jhovanoty”. Video original (minuto 1:52): https://youtu.be/lEDdtE48rBk?t=112
 
-#LaCotorrisa #Suiza #Humor #PodcastDeComedia
+#Jhovanoty #PuroShow #HumorColombiano #StandUp
 ```
 
-**Etiquetas:** La Cotorrisa, Slobotzky, Ricardo Pérez, navajas suizas, Suiza, aeropuerto, podcast de comedia, humor
+**Etiquetas:** Jhovanoty, Puro Show, humor colombiano, stand up, El Dorado, vuelo cancelado, aeropuerto, comedia
 
 
-## 34. `2026-11-13-cotorrisa-papa-cadenero`
+## 29. `2026-11-13-cotorrisa-vinchi-dicaprio`
+
+- **Gancho:** Por qué DiCaprio se llama Leonardo
+- **Puntaje:** 72 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-18 · **Línea:** risas · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-13-cotorrisa-vinchi-dicaprio/clip.mp4) (41,4 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-13-cotorrisa-vinchi-dicaprio/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=XUh-fUA_o30
+- **Revisar antes de publicar:** Publicar lejos de cotorrisa-dicaprio-sandwich (los dos son de DiCaprio).
+
+### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola (previsto 18-nov)
+
+```
+Por qué DiCaprio se llama Leonardo… y casi se llama “Vinchi DiCaprio”
+
+Con lapsus incluido: “dentro del vientre de su padre”.
+
+¿Sabías de dónde venía su nombre?
+
+Crédito: La Cotorrisa (Slobotzky y Ricardo Pérez; canal de Slobotzky en YouTube), “Episodio 399 - El doctor me sacó el jueguito de princesa”. Video original (minuto 38:11): https://youtu.be/XUh-fUA_o30?t=2291
+
+#LaCotorrisa #DiCaprio #LeonardoDiCaprio #Humor #DatoCurioso
+```
+
+### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
+
+```
+El dato de por qué DiCaprio se llama Leonardo… y el lapsus que lo arruinó
+
+Su madre, embarazada, miraba un cuadro de Leonardo da Vinci en la Galería Uffizi cuando el bebé dio una patada… “dentro del vientre de su padre”. El lapsus y el remate: casi se llamó Vinchi DiCaprio.
+
+¿Sabías de dónde venía su nombre?
+
+Crédito: La Cotorrisa (Slobotzky y Ricardo Pérez; canal de Slobotzky en YouTube), “Episodio 399 - El doctor me sacó el jueguito de princesa”. Video original (minuto 38:11): https://youtu.be/XUh-fUA_o30?t=2291
+
+#LaCotorrisa #DiCaprio #LeonardoDiCaprio #Humor #DatoCurioso
+```
+
+### YouTube · cuenta `principal` · pendiente de aprobación
+
+**Título:** ¿Por qué Leonardo DiCaprio se llama Leonardo? | La Cotorrisa
+
+```
+Su madre, embarazada, miraba un cuadro de Leonardo da Vinci en la Galería Uffizi cuando el bebé dio una patada. El dato, un lapsus en plena lectura y el remate: casi se llamó Vinchi DiCaprio.
+
+Crédito: La Cotorrisa (Slobotzky y Ricardo Pérez; canal de Slobotzky en YouTube), “Episodio 399 - El doctor me sacó el jueguito de princesa”. Video original (minuto 38:11): https://youtu.be/XUh-fUA_o30?t=2291
+
+#LaCotorrisa #DiCaprio #DatoCurioso #Humor
+```
+
+**Etiquetas:** La Cotorrisa, Slobotzky, Ricardo Pérez, Leonardo DiCaprio, dato curioso, Leonardo da Vinci, podcast de comedia, humor
+
+
+## 30. `2026-11-13-cotorrisa-papa-cadenero`
 
 - **Gancho:** El Papa Francisco fue cadenero de antro
 - **Puntaje:** 71 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-18 · **Línea:** risas · **Pieza:** original (sin variantes)
@@ -1821,54 +1637,252 @@ Crédito: La Cotorrisa (Slobotzky y Ricardo Pérez; canal de Slobotzky en YouTub
 **Etiquetas:** La Cotorrisa, Slobotzky, Ricardo Pérez, Papa Francisco, Bergoglio, dato curioso, Buenos Aires, humor
 
 
-## 35. `2026-11-13-cotorrisa-pastor-gases`
+## 31. `2026-11-13-cotorrisa-navajas-suizas`
 
-- **Gancho:** El pastor que 'cura' con gases
-- **Puntaje:** 70 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-18 · **Línea:** risas · **Pieza:** original (sin variantes)
-- **Video:** [clip.mp4](../clipero/clips/2026-11-13-cotorrisa-pastor-gases/clip.mp4) (72 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-13-cotorrisa-pastor-gases/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=XUh-fUA_o30
-- **Revisar antes de publicar:** Ficha: hacia el segundo 15 sale la foto viral del pastor sentado sobre un fiel (persona privada, cara poco visible); si molesta, descártalo. Los textos no nombran al pastor ni añaden datos.
+- **Gancho:** 16 navajas suizas en la pañalera
+- **Puntaje:** 71 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-18 · **Línea:** risas · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-13-cotorrisa-navajas-suizas/clip.mp4) (36,8 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-13-cotorrisa-navajas-suizas/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=XUh-fUA_o30
+- **Revisar antes de publicar:** Ficha: en los últimos 11 s se ve un recuadro pequeño de otro segmento del programa («¿Chino, coreano o japonés?»). Si molesta, descártalo.
 
 ### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola, sin hueco antes de su ventana (2026-11-18)
 
 ```
-El pastor que dice curar sentándose sobre sus fieles… y soltando gases
+Cuando tu regalo de viaje te puede costar la cárcel en Suiza: 16 navajas suizas en la pañalera
 
-En La Cotorrisa no lo pueden creer: “ya por mera dignidad dices que te curó”.
+¿Qué regalo traerías tú de Suiza?
 
-¿Tú le creerías?
+Crédito: La Cotorrisa (Slobotzky y Ricardo Pérez; canal de Slobotzky en YouTube), “Episodio 399 - El doctor me sacó el jueguito de princesa”. Video original (minuto 25:41): https://youtu.be/XUh-fUA_o30?t=1541
 
-Crédito: La Cotorrisa (Slobotzky y Ricardo Pérez; canal de Slobotzky en YouTube), “Episodio 399 - El doctor me sacó el jueguito de princesa”. Video original (minuto 1:58:42): https://youtu.be/XUh-fUA_o30?t=7122
-
-#LaCotorrisa #Humor #Slobotzky #RicardoPerez #NoLoPuedoCreer
+#LaCotorrisa #Slobotzky #RicardoPerez #Suiza #Humor
 ```
 
 ### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
 
 ```
-“Esto hizo caminar a un mudo”: La Cotorrisa y el pastor de los gases
+“16 navajas suizas en la pañalera”: el regalo que nadie debería subir al avión
 
-Un pastor asegura que sana a sus fieles sentándose sobre ellos y soltando gases. En La Cotorrisa no lo pueden creer: “ya por mera dignidad dices que te curó”.
+Le trajeron regalos de China y ahora le toca devolver el detalle desde Suiza, donde “un chocolatito no baja de 30”. La idea: navajas suizas personalizadas para todo el equipo… hasta que se imagina pasando el aeropuerto con 16 navajas en la pañalera del bebé.
 
-¿Tú le creerías?
+¿Qué regalo traerías tú de Suiza?
 
-Crédito: La Cotorrisa (Slobotzky y Ricardo Pérez; canal de Slobotzky en YouTube), “Episodio 399 - El doctor me sacó el jueguito de princesa”. Video original (minuto 1:58:42): https://youtu.be/XUh-fUA_o30?t=7122
+Crédito: La Cotorrisa (Slobotzky y Ricardo Pérez; canal de Slobotzky en YouTube), “Episodio 399 - El doctor me sacó el jueguito de princesa”. Video original (minuto 25:41): https://youtu.be/XUh-fUA_o30?t=1541
 
-#LaCotorrisa #Humor #Slobotzky #RicardoPerez #NoLoPuedoCreer
+#LaCotorrisa #Slobotzky #RicardoPerez #Suiza #Humor
 ```
 
 ### YouTube · cuenta `principal` · pendiente de aprobación
 
-**Título:** El pastor que “sana” con gases | La Cotorrisa
+**Título:** 16 navajas suizas en la pañalera del bebé | La Cotorrisa
 
 ```
-Un pastor asegura que sana a sus fieles sentándose sobre ellos y soltando gases. En La Cotorrisa no lo pueden creer.
+Le toca devolver unos regalos desde Suiza y la idea son navajas suizas personalizadas para todo el equipo… hasta que se imagina pasando el aeropuerto con 16 navajas en la pañalera del bebé.
 
-Crédito: La Cotorrisa (Slobotzky y Ricardo Pérez; canal de Slobotzky en YouTube), “Episodio 399 - El doctor me sacó el jueguito de princesa”. Video original (minuto 1:58:42): https://youtu.be/XUh-fUA_o30?t=7122
+Crédito: La Cotorrisa (Slobotzky y Ricardo Pérez; canal de Slobotzky en YouTube), “Episodio 399 - El doctor me sacó el jueguito de princesa”. Video original (minuto 25:41): https://youtu.be/XUh-fUA_o30?t=1541
 
-#LaCotorrisa #Humor #NoLoPuedoCreer
+#LaCotorrisa #Suiza #Humor #PodcastDeComedia
 ```
 
-**Etiquetas:** La Cotorrisa, Slobotzky, Ricardo Pérez, pastor, noticias raras, podcast de comedia, humor, no lo puedo creer
+**Etiquetas:** La Cotorrisa, Slobotzky, Ricardo Pérez, navajas suizas, Suiza, aeropuerto, podcast de comedia, humor
+
+
+## 32. `2026-11-17-westcol-daren-mentiroso`
+
+- **Gancho:** Lo que Daren le dijo a Westcol después
+- **Puntaje:** 70 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-18 · **Línea:** urbano · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-17-westcol-daren-mentiroso/clip.mp4) (27 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-17-westcol-daren-mentiroso/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=YQ-vOO3-Ghk
+- **Revisar antes de publicar:** Daren no sale: Westcol cuenta su chat con él. No hay imágenes del combate. Los textos no dicen que ganó «en 5 segundos» (la ficha lo proponía para Shorts): la pelea se detuvo después, por la lesión de hombro del Agropecuario.
+
+### TikTok · cuenta `principal` (Legión Urbana) · aprobado automáticamente; en cola (previsto 18-nov)
+
+```
+Daren dice que no alcanzó a tirar su golpe duro… y Westcol no le cree 😂🥊
+
+“Estuve dos meses practicando el puño mío letal y no lo pude ni siquiera tirar”. Westcol: “Cuatro puñitos y pum… Daren, deja de ser mentiroso”.
+
+¿Le crees a Daren?
+
+Crédito: WestCOL, “¿Que pasara con HERRERA por bajar de la pelea en STREAM FIGHTERS 5?| Westcol”. Video original (minuto 9:49): https://youtu.be/YQ-vOO3-Ghk?t=589
+
+#Westcol #Daren #StreamFighters5 #Boxeo
+```
+
+### Instagram · cuenta `principal` · pendiente de aprobación
+
+```
+“Dos meses practicando el puño mío letal y no lo pude ni siquiera tirar” 😂
+
+Tras la pelea de Daren con el Agropecuario en Stream Fighters 5, Westcol le escribió para preguntarle por qué le dio tan duro y tan rápido. La respuesta no lo convenció: “Daren, deja de ser mentiroso”.
+
+¿Le crees a Daren?
+
+Crédito: WestCOL, “¿Que pasara con HERRERA por bajar de la pelea en STREAM FIGHTERS 5?| Westcol”. Video original (minuto 9:49): https://youtu.be/YQ-vOO3-Ghk?t=589
+
+#Westcol #Daren #StreamFighters5 #Boxeo
+```
+
+### YouTube · cuenta `principal` · pendiente de aprobación
+
+**Título:** Lo que Daren le escribió a Westcol tras su pelea en Stream Fighters 5
+
+```
+Westcol le escribió a Daren para preguntarle por qué le dio tan duro y tan rápido al Agropecuario en Stream Fighters 5. Daren le dijo que ni siquiera alcanzó a tirar su “puño letal”, y Westcol no le cree.
+
+Crédito: WestCOL, “¿Que pasara con HERRERA por bajar de la pelea en STREAM FIGHTERS 5?| Westcol”. Video original (minuto 9:49): https://youtu.be/YQ-vOO3-Ghk?t=589
+
+#Westcol #Daren #StreamFighters5
+```
+
+**Etiquetas:** Westcol, Daren Ramírez, Daren, Agropecuario, Stream Fighters 5, boxeo, streamers
+
+
+## 33. `2026-11-17-samulx-entrada-sin-musica`
+
+- **Gancho:** Iba a salir con Akapellah… y pasó esto
+- **Puntaje:** 70 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-18 · **Línea:** urbano · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-17-samulx-entrada-sin-musica/clip.mp4) (63,3 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-17-samulx-entrada-sin-musica/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=GkojR4E0tuY
+- **Revisar antes de publicar:** Akapellah no sale; solo lo nombra. No suena ninguna canción en el tramo. Pitidos de la fuente como ***.
+
+### TikTok · cuenta `principal` (Legión Urbana) · aprobado automáticamente; en cola, sin hueco antes de su ventana (2026-11-18)
+
+```
+Iba a salir con Akapellah al ring… y le falló hasta la música 😂🥊
+
+Akapellah no pudo viajar, pidió una de Canserbero y la canción no sonó: “lo único bueno que yo podía tener esa pelea era mi entrada”.
+
+¿Con qué canción habrías salido tú?
+
+Crédito: Samulx, “ESTO PASÓ EN LOS CAMERINOS CON HERRERA DESPUES DE STREAM FIGTHERS 5 😯 ME JODÍ EL HOMBRO*”. Video original (minuto 17:17): https://youtu.be/GkojR4E0tuY?t=1037
+
+#Samulx #Akapellah #Canserbero #StreamFighters5
+```
+
+### Instagram · cuenta `principal` · pendiente de aprobación
+
+```
+“Lo único bueno que yo podía tener esa pelea era mi entrada” 😂
+
+Samulx quería salir al ring de Stream Fighters 5 con Neutro y Akapellah, pero Akapellah no pudo viajar. Pidió una de Canserbero “que le dé rabia”… y la música no sonó. Salió con otra “toda random” y la cara “de lo más malo posible”.
+
+¿Con qué canción habrías salido tú?
+
+Crédito: Samulx, “ESTO PASÓ EN LOS CAMERINOS CON HERRERA DESPUES DE STREAM FIGTHERS 5 😯 ME JODÍ EL HOMBRO*”. Video original (minuto 17:17): https://youtu.be/GkojR4E0tuY?t=1037
+
+#Samulx #Akapellah #Canserbero #StreamFighters5
+```
+
+### YouTube · cuenta `principal` · pendiente de aprobación
+
+**Título:** La entrada de Samulx en Stream Fighters 5 que salió mal
+
+```
+Samulx cuenta cómo se le cayó su entrada en Stream Fighters 5: iba a salir con Akapellah, que no pudo viajar; pidió una de Canserbero y la música no sonó.
+
+Crédito: Samulx, “ESTO PASÓ EN LOS CAMERINOS CON HERRERA DESPUES DE STREAM FIGTHERS 5 😯 ME JODÍ EL HOMBRO*”. Video original (minuto 17:17): https://youtu.be/GkojR4E0tuY?t=1037
+
+#Samulx #Akapellah #StreamFighters5
+```
+
+**Etiquetas:** Samulx, Akapellah, Canserbero, Neutro, Stream Fighters 5, entrada al ring, rap, streamers
+
+
+## 34. `2026-11-17-samulx-clinica-fotico`
+
+- **Gancho:** Se iba de la clínica y el doctor…
+- **Puntaje:** 70 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-18 · **Línea:** urbano · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-17-samulx-clinica-fotico/clip.mp4) (52,4 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-17-samulx-clinica-fotico/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=GkojR4E0tuY
+- **Revisar antes de publicar:** No se nombra la clínica ni se ve a nadie del personal: al publicar, tampoco. Un pitido de la fuente como ***.
+
+### TikTok · cuenta `principal` (Legión Urbana) · aprobado automáticamente; en cola, sin hueco antes de su ventana (2026-11-18)
+
+```
+Se iba de la clínica con el hombro lesionado y el doctor le pidió una foto 😂
+
+Samulx, tras Stream Fighters 5: horas sin radiografía y, al firmar el alta, “¿será que nos podemos tomar una fotico antes que te vayas?”.
+
+¿Le habrías dado la foto?
+
+Crédito: Samulx, “ESTO PASÓ EN LOS CAMERINOS CON HERRERA DESPUES DE STREAM FIGTHERS 5 😯 ME JODÍ EL HOMBRO*”. Video original (minuto 14:03): https://youtu.be/GkojR4E0tuY?t=843
+
+#Samulx #StreamFighters5 #Westcol #Bogota
+```
+
+### Instagram · cuenta `principal` · pendiente de aprobación
+
+```
+“¿Será que nos podemos tomar una fotico antes que te vayas?” 😂
+
+Con el hombro lesionado tras Stream Fighters 5, Samulx pasó horas en una clínica de Bogotá sin que le hicieran la radiografía. Le escribió a Westcol y decidió irse. Cuando por fin le pidió al doctor que firmara el alta… el doctor le pidió una foto.
+
+¿Le habrías dado la foto?
+
+Crédito: Samulx, “ESTO PASÓ EN LOS CAMERINOS CON HERRERA DESPUES DE STREAM FIGTHERS 5 😯 ME JODÍ EL HOMBRO*”. Video original (minuto 14:03): https://youtu.be/GkojR4E0tuY?t=843
+
+#Samulx #StreamFighters5 #Westcol #Bogota
+```
+
+### YouTube · cuenta `principal` · pendiente de aprobación
+
+**Título:** Samulx y el doctor que le pidió una foto en la clínica
+
+```
+Con el hombro lesionado tras Stream Fighters 5, Samulx pasó horas en una clínica de Bogotá sin radiografía. Cuando por fin se iba, el doctor le pidió una foto.
+
+Crédito: Samulx, “ESTO PASÓ EN LOS CAMERINOS CON HERRERA DESPUES DE STREAM FIGTHERS 5 😯 ME JODÍ EL HOMBRO*”. Video original (minuto 14:03): https://youtu.be/GkojR4E0tuY?t=843
+
+#Samulx #StreamFighters5 #Humor
+```
+
+**Etiquetas:** Samulx, Stream Fighters 5, clínica, lesión de hombro, Westcol, Bogotá, streamers, humor
+
+
+## 35. `2026-11-15-nsn-spiderman-sudado`
+
+- **Gancho:** El problema que nadie ve de Spider-Man
+- **Puntaje:** 70 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-18 · **Línea:** risas · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-15-nsn-spiderman-sudado/clip.mp4) (58,7 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-15-nsn-spiderman-sudado/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=pSyuyPq7uh0
+- **Revisar antes de publicar:** Acento de España.
+
+### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola, sin hueco antes de su ventana (2026-11-18)
+
+```
+Nadie habla de lo que debe oler Spider-Man 🕷️😂
+
+Con la licra todo el día debajo de la ropa… y la gente a la que rescata “se tiene que comer el pastel”.
+
+¿Qué superhéroe crees que huele peor?
+
+Crédito: Nadie Sabe Nada, de Andreu Buenafuente y Berto Romero (El Terrat), “NADIE SABE NADA 14x11 | Los Claus y los elfos promiscuos”. Video original (minuto 30:31): https://youtu.be/pSyuyPq7uh0?t=1831
+
+#NadieSabeNada #Buenafuente #BertoRomero #SpiderMan #Humor
+```
+
+### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
+
+```
+El problema que nadie ve de Spider-Man 🕷️
+
+Un oyente de Nadie Sabe Nada se cambió en un baño público para ir a una entrevista y se sintió como Spider-Man. Andreu Buenafuente y Berto Romero piensan en lo que eso significa: la licra siempre debajo de la ropa, “lo que debe gastar en desodorantes”… y los rescatados.
+
+¿Qué superhéroe crees que huele peor?
+
+Crédito: Nadie Sabe Nada, de Andreu Buenafuente y Berto Romero (El Terrat), “NADIE SABE NADA 14x11 | Los Claus y los elfos promiscuos”. Video original (minuto 30:31): https://youtu.be/pSyuyPq7uh0?t=1831
+
+#NadieSabeNada #Buenafuente #BertoRomero #SpiderMan #Humor
+```
+
+### YouTube · cuenta `principal` · pendiente de aprobación
+
+**Título:** Buenafuente y Berto sobre el Spider-Man sudado | Nadie Sabe Nada
+
+```
+Un oyente se cambió en un baño público para una entrevista y se sintió como Spider-Man. En Nadie Sabe Nada piensan en lo que eso significa para los rescatados.
+
+Crédito: Nadie Sabe Nada, de Andreu Buenafuente y Berto Romero (El Terrat), “NADIE SABE NADA 14x11 | Los Claus y los elfos promiscuos”. Video original (minuto 30:31): https://youtu.be/pSyuyPq7uh0?t=1831
+
+#NadieSabeNada #SpiderMan #Humor
+```
+
+**Etiquetas:** Nadie Sabe Nada, Andreu Buenafuente, Berto Romero, Spider-Man, Tobey Maguire, superhéroes, El Terrat, humor
 
 
 ## 36. `2026-11-15-nsn-santa-regalos`
@@ -1921,57 +1935,7 @@ Crédito: Nadie Sabe Nada, de Andreu Buenafuente y Berto Romero (El Terrat), “
 **Etiquetas:** Nadie Sabe Nada, Andreu Buenafuente, Berto Romero, Santa Claus, Navidad, regalos, El Terrat, humor
 
 
-## 37. `2026-11-15-nsn-spiderman-sudado`
-
-- **Gancho:** El problema que nadie ve de Spider-Man
-- **Puntaje:** 70 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-18 · **Línea:** risas · **Pieza:** original (sin variantes)
-- **Video:** [clip.mp4](../clipero/clips/2026-11-15-nsn-spiderman-sudado/clip.mp4) (58,7 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-15-nsn-spiderman-sudado/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=pSyuyPq7uh0
-- **Revisar antes de publicar:** Acento de España.
-
-### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola, sin hueco antes de su ventana (2026-11-18)
-
-```
-Nadie habla de lo que debe oler Spider-Man 🕷️😂
-
-Con la licra todo el día debajo de la ropa… y la gente a la que rescata “se tiene que comer el pastel”.
-
-¿Qué superhéroe crees que huele peor?
-
-Crédito: Nadie Sabe Nada, de Andreu Buenafuente y Berto Romero (El Terrat), “NADIE SABE NADA 14x11 | Los Claus y los elfos promiscuos”. Video original (minuto 30:31): https://youtu.be/pSyuyPq7uh0?t=1831
-
-#NadieSabeNada #Buenafuente #BertoRomero #SpiderMan #Humor
-```
-
-### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
-
-```
-El problema que nadie ve de Spider-Man 🕷️
-
-Un oyente de Nadie Sabe Nada se cambió en un baño público para ir a una entrevista y se sintió como Spider-Man. Andreu Buenafuente y Berto Romero piensan en lo que eso significa: la licra siempre debajo de la ropa, “lo que debe gastar en desodorantes”… y los rescatados.
-
-¿Qué superhéroe crees que huele peor?
-
-Crédito: Nadie Sabe Nada, de Andreu Buenafuente y Berto Romero (El Terrat), “NADIE SABE NADA 14x11 | Los Claus y los elfos promiscuos”. Video original (minuto 30:31): https://youtu.be/pSyuyPq7uh0?t=1831
-
-#NadieSabeNada #Buenafuente #BertoRomero #SpiderMan #Humor
-```
-
-### YouTube · cuenta `principal` · pendiente de aprobación
-
-**Título:** Buenafuente y Berto sobre el Spider-Man sudado | Nadie Sabe Nada
-
-```
-Un oyente se cambió en un baño público para una entrevista y se sintió como Spider-Man. En Nadie Sabe Nada piensan en lo que eso significa para los rescatados.
-
-Crédito: Nadie Sabe Nada, de Andreu Buenafuente y Berto Romero (El Terrat), “NADIE SABE NADA 14x11 | Los Claus y los elfos promiscuos”. Video original (minuto 30:31): https://youtu.be/pSyuyPq7uh0?t=1831
-
-#NadieSabeNada #SpiderMan #Humor
-```
-
-**Etiquetas:** Nadie Sabe Nada, Andreu Buenafuente, Berto Romero, Spider-Man, Tobey Maguire, superhéroes, El Terrat, humor
-
-
-## 38. `2026-11-15-parenlamano-litkillah-kidkeo`
+## 37. `2026-11-15-parenlamano-litkillah-kidkeo`
 
 - **Gancho:** Lit Killah le escribió a Kid Keo y…
 - **Puntaje:** 70 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-18 · **Línea:** risas · **Pieza:** original (sin variantes)
@@ -2019,6 +1983,56 @@ Crédito: Paren la Mano (Vorterix), “VINO LIT KILLAH Y PAREN LA MODA HISTÓRIC
 ```
 
 **Etiquetas:** Lit Killah, Kid Keo, Paren la Mano, Vorterix, La Velada del Año, boxeo, streaming argentino, humor
+
+
+## 38. `2026-11-15-tirandobola-marco-gana`
+
+- **Gancho:** Marco Polo le ganó a Franco al billar
+- **Puntaje:** 70 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-18 · **Línea:** risas · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-15-tirandobola-marco-gana/clip.mp4) (31,3 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-15-tirandobola-marco-gana/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=niP1DkpCYvs
+- **Revisar antes de publicar:** La cifra del donativo a Nariz Roja (la apuesta del programa) no se oye y queda como (…); un pitido como ***. Mira la jugada en la imagen antes de publicar.
+
+### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola, sin hueco antes de su ventana (2026-11-18)
+
+```
+“No la voy a meter en ningún lado”… y le ganó a Franco Escamilla 🎱😂
+
+Final de la partida de billar de Tirando Bola: Marco Polo no canta la bola, la mete y gana. Franco se la da por buena.
+
+¿Se la tenía que valer?
+
+Crédito: Tirando Bola, de Franco Escamilla (canal de Franco Escamilla en YouTube), “Marco Polo | Tirando Bola | T9E21”. Video original (minuto 58:06): https://youtu.be/niP1DkpCYvs?t=3486
+
+#FrancoEscamilla #TirandoBola #MarcoPolo #Billar
+```
+
+### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
+
+```
+El primer logro deportivo de Marco Polo 🎱
+
+Final del billar de Tirando Bola: Marco Polo avisa que no va a cantar la bola porque “no la voy a meter en ningún lado”… y la mete. Franco Escamilla se la da por buena, “porque se me hace bien triste que es tu primer logro deportivo”. “He ganado a Franco Escamilla.”
+
+¿Se la tenía que valer?
+
+Crédito: Tirando Bola, de Franco Escamilla (canal de Franco Escamilla en YouTube), “Marco Polo | Tirando Bola | T9E21”. Video original (minuto 58:06): https://youtu.be/niP1DkpCYvs?t=3486
+
+#FrancoEscamilla #TirandoBola #MarcoPolo #Billar
+```
+
+### YouTube · cuenta `principal` · pendiente de aprobación
+
+**Título:** Marco Polo le gana a Franco Escamilla al billar | Tirando Bola
+
+```
+Final de la partida de billar de Tirando Bola: Marco Polo anuncia que no va a meter la bola, la mete y gana. Franco Escamilla se la da por buena.
+
+Crédito: Tirando Bola, de Franco Escamilla (canal de Franco Escamilla en YouTube), “Marco Polo | Tirando Bola | T9E21”. Video original (minuto 58:06): https://youtu.be/niP1DkpCYvs?t=3486
+
+#FrancoEscamilla #TirandoBola #Billar
+```
+
+**Etiquetas:** Franco Escamilla, Tirando Bola, Marco Polo, billar, comedia, comedia mexicana, Nariz Roja, humor
 
 
 ## 39. `2026-11-15-tirandobola-comentarios-bano`
@@ -2071,207 +2085,57 @@ Crédito: Tirando Bola, de Franco Escamilla (canal de Franco Escamilla en YouTub
 **Etiquetas:** Franco Escamilla, Tirando Bola, Marco Polo, comentarios, haters, comedia, comedia mexicana, humor
 
 
-## 40. `2026-11-15-tirandobola-marco-gana`
+## 40. `2026-11-13-cotorrisa-pastor-gases`
 
-- **Gancho:** Marco Polo le ganó a Franco al billar
+- **Gancho:** El pastor que 'cura' con gases
 - **Puntaje:** 70 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-18 · **Línea:** risas · **Pieza:** original (sin variantes)
-- **Video:** [clip.mp4](../clipero/clips/2026-11-15-tirandobola-marco-gana/clip.mp4) (31,3 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-15-tirandobola-marco-gana/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=niP1DkpCYvs
-- **Revisar antes de publicar:** La cifra del donativo a Nariz Roja (la apuesta del programa) no se oye y queda como (…); un pitido como ***. Mira la jugada en la imagen antes de publicar.
+- **Video:** [clip.mp4](../clipero/clips/2026-11-13-cotorrisa-pastor-gases/clip.mp4) (72 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-13-cotorrisa-pastor-gases/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=XUh-fUA_o30
+- **Revisar antes de publicar:** Ficha: hacia el segundo 15 sale la foto viral del pastor sentado sobre un fiel (persona privada, cara poco visible); si molesta, descártalo. Los textos no nombran al pastor ni añaden datos.
 
 ### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola, sin hueco antes de su ventana (2026-11-18)
 
 ```
-“No la voy a meter en ningún lado”… y le ganó a Franco Escamilla 🎱😂
+El pastor que dice curar sentándose sobre sus fieles… y soltando gases
 
-Final de la partida de billar de Tirando Bola: Marco Polo no canta la bola, la mete y gana. Franco se la da por buena.
+En La Cotorrisa no lo pueden creer: “ya por mera dignidad dices que te curó”.
 
-¿Se la tenía que valer?
+¿Tú le creerías?
 
-Crédito: Tirando Bola, de Franco Escamilla (canal de Franco Escamilla en YouTube), “Marco Polo | Tirando Bola | T9E21”. Video original (minuto 58:06): https://youtu.be/niP1DkpCYvs?t=3486
+Crédito: La Cotorrisa (Slobotzky y Ricardo Pérez; canal de Slobotzky en YouTube), “Episodio 399 - El doctor me sacó el jueguito de princesa”. Video original (minuto 1:58:42): https://youtu.be/XUh-fUA_o30?t=7122
 
-#FrancoEscamilla #TirandoBola #MarcoPolo #Billar
+#LaCotorrisa #Humor #Slobotzky #RicardoPerez #NoLoPuedoCreer
 ```
 
 ### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
 
 ```
-El primer logro deportivo de Marco Polo 🎱
+“Esto hizo caminar a un mudo”: La Cotorrisa y el pastor de los gases
 
-Final del billar de Tirando Bola: Marco Polo avisa que no va a cantar la bola porque “no la voy a meter en ningún lado”… y la mete. Franco Escamilla se la da por buena, “porque se me hace bien triste que es tu primer logro deportivo”. “He ganado a Franco Escamilla.”
+Un pastor asegura que sana a sus fieles sentándose sobre ellos y soltando gases. En La Cotorrisa no lo pueden creer: “ya por mera dignidad dices que te curó”.
 
-¿Se la tenía que valer?
+¿Tú le creerías?
 
-Crédito: Tirando Bola, de Franco Escamilla (canal de Franco Escamilla en YouTube), “Marco Polo | Tirando Bola | T9E21”. Video original (minuto 58:06): https://youtu.be/niP1DkpCYvs?t=3486
+Crédito: La Cotorrisa (Slobotzky y Ricardo Pérez; canal de Slobotzky en YouTube), “Episodio 399 - El doctor me sacó el jueguito de princesa”. Video original (minuto 1:58:42): https://youtu.be/XUh-fUA_o30?t=7122
 
-#FrancoEscamilla #TirandoBola #MarcoPolo #Billar
+#LaCotorrisa #Humor #Slobotzky #RicardoPerez #NoLoPuedoCreer
 ```
 
 ### YouTube · cuenta `principal` · pendiente de aprobación
 
-**Título:** Marco Polo le gana a Franco Escamilla al billar | Tirando Bola
+**Título:** El pastor que “sana” con gases | La Cotorrisa
 
 ```
-Final de la partida de billar de Tirando Bola: Marco Polo anuncia que no va a meter la bola, la mete y gana. Franco Escamilla se la da por buena.
+Un pastor asegura que sana a sus fieles sentándose sobre ellos y soltando gases. En La Cotorrisa no lo pueden creer.
 
-Crédito: Tirando Bola, de Franco Escamilla (canal de Franco Escamilla en YouTube), “Marco Polo | Tirando Bola | T9E21”. Video original (minuto 58:06): https://youtu.be/niP1DkpCYvs?t=3486
+Crédito: La Cotorrisa (Slobotzky y Ricardo Pérez; canal de Slobotzky en YouTube), “Episodio 399 - El doctor me sacó el jueguito de princesa”. Video original (minuto 1:58:42): https://youtu.be/XUh-fUA_o30?t=7122
 
-#FrancoEscamilla #TirandoBola #Billar
+#LaCotorrisa #Humor #NoLoPuedoCreer
 ```
 
-**Etiquetas:** Franco Escamilla, Tirando Bola, Marco Polo, billar, comedia, comedia mexicana, Nariz Roja, humor
+**Etiquetas:** La Cotorrisa, Slobotzky, Ricardo Pérez, pastor, noticias raras, podcast de comedia, humor, no lo puedo creer
 
 
-## 41. `2026-11-17-samulx-clinica-fotico`
-
-- **Gancho:** Se iba de la clínica y el doctor…
-- **Puntaje:** 70 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-18 · **Línea:** urbano · **Pieza:** original (sin variantes)
-- **Video:** [clip.mp4](../clipero/clips/2026-11-17-samulx-clinica-fotico/clip.mp4) (52,4 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-17-samulx-clinica-fotico/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=GkojR4E0tuY
-- **Revisar antes de publicar:** No se nombra la clínica ni se ve a nadie del personal: al publicar, tampoco. Un pitido de la fuente como ***.
-
-### TikTok · cuenta `principal` (Legión Urbana) · aprobado automáticamente; en cola, sin hueco antes de su ventana (2026-11-18)
-
-```
-Se iba de la clínica con el hombro lesionado y el doctor le pidió una foto 😂
-
-Samulx, tras Stream Fighters 5: horas sin radiografía y, al firmar el alta, “¿será que nos podemos tomar una fotico antes que te vayas?”.
-
-¿Le habrías dado la foto?
-
-Crédito: Samulx, “ESTO PASÓ EN LOS CAMERINOS CON HERRERA DESPUES DE STREAM FIGTHERS 5 😯 ME JODÍ EL HOMBRO*”. Video original (minuto 14:03): https://youtu.be/GkojR4E0tuY?t=843
-
-#Samulx #StreamFighters5 #Westcol #Bogota
-```
-
-### Instagram · cuenta `principal` · pendiente de aprobación
-
-```
-“¿Será que nos podemos tomar una fotico antes que te vayas?” 😂
-
-Con el hombro lesionado tras Stream Fighters 5, Samulx pasó horas en una clínica de Bogotá sin que le hicieran la radiografía. Le escribió a Westcol y decidió irse. Cuando por fin le pidió al doctor que firmara el alta… el doctor le pidió una foto.
-
-¿Le habrías dado la foto?
-
-Crédito: Samulx, “ESTO PASÓ EN LOS CAMERINOS CON HERRERA DESPUES DE STREAM FIGTHERS 5 😯 ME JODÍ EL HOMBRO*”. Video original (minuto 14:03): https://youtu.be/GkojR4E0tuY?t=843
-
-#Samulx #StreamFighters5 #Westcol #Bogota
-```
-
-### YouTube · cuenta `principal` · pendiente de aprobación
-
-**Título:** Samulx y el doctor que le pidió una foto en la clínica
-
-```
-Con el hombro lesionado tras Stream Fighters 5, Samulx pasó horas en una clínica de Bogotá sin radiografía. Cuando por fin se iba, el doctor le pidió una foto.
-
-Crédito: Samulx, “ESTO PASÓ EN LOS CAMERINOS CON HERRERA DESPUES DE STREAM FIGTHERS 5 😯 ME JODÍ EL HOMBRO*”. Video original (minuto 14:03): https://youtu.be/GkojR4E0tuY?t=843
-
-#Samulx #StreamFighters5 #Humor
-```
-
-**Etiquetas:** Samulx, Stream Fighters 5, clínica, lesión de hombro, Westcol, Bogotá, streamers, humor
-
-
-## 42. `2026-11-17-samulx-entrada-sin-musica`
-
-- **Gancho:** Iba a salir con Akapellah… y pasó esto
-- **Puntaje:** 70 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-18 · **Línea:** urbano · **Pieza:** original (sin variantes)
-- **Video:** [clip.mp4](../clipero/clips/2026-11-17-samulx-entrada-sin-musica/clip.mp4) (63,3 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-17-samulx-entrada-sin-musica/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=GkojR4E0tuY
-- **Revisar antes de publicar:** Akapellah no sale; solo lo nombra. No suena ninguna canción en el tramo. Pitidos de la fuente como ***.
-
-### TikTok · cuenta `principal` (Legión Urbana) · aprobado automáticamente; en cola, sin hueco antes de su ventana (2026-11-18)
-
-```
-Iba a salir con Akapellah al ring… y le falló hasta la música 😂🥊
-
-Akapellah no pudo viajar, pidió una de Canserbero y la canción no sonó: “lo único bueno que yo podía tener esa pelea era mi entrada”.
-
-¿Con qué canción habrías salido tú?
-
-Crédito: Samulx, “ESTO PASÓ EN LOS CAMERINOS CON HERRERA DESPUES DE STREAM FIGTHERS 5 😯 ME JODÍ EL HOMBRO*”. Video original (minuto 17:17): https://youtu.be/GkojR4E0tuY?t=1037
-
-#Samulx #Akapellah #Canserbero #StreamFighters5
-```
-
-### Instagram · cuenta `principal` · pendiente de aprobación
-
-```
-“Lo único bueno que yo podía tener esa pelea era mi entrada” 😂
-
-Samulx quería salir al ring de Stream Fighters 5 con Neutro y Akapellah, pero Akapellah no pudo viajar. Pidió una de Canserbero “que le dé rabia”… y la música no sonó. Salió con otra “toda random” y la cara “de lo más malo posible”.
-
-¿Con qué canción habrías salido tú?
-
-Crédito: Samulx, “ESTO PASÓ EN LOS CAMERINOS CON HERRERA DESPUES DE STREAM FIGTHERS 5 😯 ME JODÍ EL HOMBRO*”. Video original (minuto 17:17): https://youtu.be/GkojR4E0tuY?t=1037
-
-#Samulx #Akapellah #Canserbero #StreamFighters5
-```
-
-### YouTube · cuenta `principal` · pendiente de aprobación
-
-**Título:** La entrada de Samulx en Stream Fighters 5 que salió mal
-
-```
-Samulx cuenta cómo se le cayó su entrada en Stream Fighters 5: iba a salir con Akapellah, que no pudo viajar; pidió una de Canserbero y la música no sonó.
-
-Crédito: Samulx, “ESTO PASÓ EN LOS CAMERINOS CON HERRERA DESPUES DE STREAM FIGTHERS 5 😯 ME JODÍ EL HOMBRO*”. Video original (minuto 17:17): https://youtu.be/GkojR4E0tuY?t=1037
-
-#Samulx #Akapellah #StreamFighters5
-```
-
-**Etiquetas:** Samulx, Akapellah, Canserbero, Neutro, Stream Fighters 5, entrada al ring, rap, streamers
-
-
-## 43. `2026-11-17-westcol-daren-mentiroso`
-
-- **Gancho:** Lo que Daren le dijo a Westcol después
-- **Puntaje:** 70 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-18 · **Línea:** urbano · **Pieza:** original (sin variantes)
-- **Video:** [clip.mp4](../clipero/clips/2026-11-17-westcol-daren-mentiroso/clip.mp4) (27 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-17-westcol-daren-mentiroso/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=YQ-vOO3-Ghk
-- **Revisar antes de publicar:** Daren no sale: Westcol cuenta su chat con él. No hay imágenes del combate. Los textos no dicen que ganó «en 5 segundos» (la ficha lo proponía para Shorts): la pelea se detuvo después, por la lesión de hombro del Agropecuario.
-
-### TikTok · cuenta `principal` (Legión Urbana) · aprobado automáticamente; en cola, sin hueco antes de su ventana (2026-11-18)
-
-```
-Daren dice que no alcanzó a tirar su golpe duro… y Westcol no le cree 😂🥊
-
-“Estuve dos meses practicando el puño mío letal y no lo pude ni siquiera tirar”. Westcol: “Cuatro puñitos y pum… Daren, deja de ser mentiroso”.
-
-¿Le crees a Daren?
-
-Crédito: WestCOL, “¿Que pasara con HERRERA por bajar de la pelea en STREAM FIGHTERS 5?| Westcol”. Video original (minuto 9:49): https://youtu.be/YQ-vOO3-Ghk?t=589
-
-#Westcol #Daren #StreamFighters5 #Boxeo
-```
-
-### Instagram · cuenta `principal` · pendiente de aprobación
-
-```
-“Dos meses practicando el puño mío letal y no lo pude ni siquiera tirar” 😂
-
-Tras la pelea de Daren con el Agropecuario en Stream Fighters 5, Westcol le escribió para preguntarle por qué le dio tan duro y tan rápido. La respuesta no lo convenció: “Daren, deja de ser mentiroso”.
-
-¿Le crees a Daren?
-
-Crédito: WestCOL, “¿Que pasara con HERRERA por bajar de la pelea en STREAM FIGHTERS 5?| Westcol”. Video original (minuto 9:49): https://youtu.be/YQ-vOO3-Ghk?t=589
-
-#Westcol #Daren #StreamFighters5 #Boxeo
-```
-
-### YouTube · cuenta `principal` · pendiente de aprobación
-
-**Título:** Lo que Daren le escribió a Westcol tras su pelea en Stream Fighters 5
-
-```
-Westcol le escribió a Daren para preguntarle por qué le dio tan duro y tan rápido al Agropecuario en Stream Fighters 5. Daren le dijo que ni siquiera alcanzó a tirar su “puño letal”, y Westcol no le cree.
-
-Crédito: WestCOL, “¿Que pasara con HERRERA por bajar de la pelea en STREAM FIGHTERS 5?| Westcol”. Video original (minuto 9:49): https://youtu.be/YQ-vOO3-Ghk?t=589
-
-#Westcol #Daren #StreamFighters5
-```
-
-**Etiquetas:** Westcol, Daren Ramírez, Daren, Agropecuario, Stream Fighters 5, boxeo, streamers
-
-
-## 44. `2026-11-17-samulx-hable-mucho`
+## 41. `2026-11-17-samulx-hable-mucho`
 
 - **Gancho:** Samulx, a los que dicen que habló mucho
 - **Puntaje:** 68 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-18 · **Línea:** urbano · **Pieza:** original (sin variantes)
@@ -2321,7 +2185,7 @@ Crédito: Samulx, “ESTO PASÓ EN LOS CAMERINOS CON HERRERA DESPUES DE STREAM F
 **Etiquetas:** Samulx, Willito, Stream Fighters 5, pesaje, La Ganga, streamers, boxeo
 
 
-## 45. `2026-11-13-cotorrisa-dicaprio-sandwich`
+## 42. `2026-11-13-cotorrisa-dicaprio-sandwich`
 
 - **Gancho:** DiCaprio comió hígado crudo de bisonte
 - **Puntaje:** 67 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-18 · **Línea:** risas · **Pieza:** original (sin variantes)
@@ -2369,7 +2233,7 @@ Crédito: La Cotorrisa (Slobotzky y Ricardo Pérez; canal de Slobotzky en YouTub
 **Etiquetas:** La Cotorrisa, Slobotzky, Ricardo Pérez, Leonardo DiCaprio, The Revenant, hígado de bisonte, podcast de comedia, humor
 
 
-## 46. `2026-11-17-samulx-cuerda-espalda`
+## 43. `2026-11-17-samulx-cuerda-espalda`
 
 - **Gancho:** Lo que más lo lastimó no fue la pelea
 - **Puntaje:** 66 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-18 · **Línea:** urbano · **Pieza:** original (sin variantes)
@@ -2419,7 +2283,7 @@ Crédito: Samulx, “ESTO PASÓ EN LOS CAMERINOS CON HERRERA DESPUES DE STREAM F
 **Etiquetas:** Samulx, The Chanty, Stream Fighters 5, ring, pelea por parejas, streamers, humor, boxeo
 
 
-## 47. `2026-11-17-westcol-boxeo-aburrido`
+## 44. `2026-11-17-westcol-boxeo-aburrido`
 
 - **Gancho:** Westcol: entre más profesional, más aburrido el boxeo
 - **Puntaje:** 76 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-19 · **Línea:** urbano · **Pieza:** original (sin variantes)
@@ -2469,7 +2333,7 @@ Crédito: WestCOL, “¿Que pasara con HERRERA por bajar de la pelea en STREAM F
 **Etiquetas:** Westcol, boxeo, boxeo profesional, Stream Fighters 5, opinión, streamers, La Ganga, noqueo
 
 
-## 48. `2026-11-17-ganga-robot-precio`
+## 45. `2026-11-17-ganga-robot-precio`
 
 - **Gancho:** ¿Cuánto cuesta un robot de Stream Fighters?
 - **Puntaje:** 74 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-19 · **Línea:** urbano · **Pieza:** original (sin variantes)
@@ -2519,7 +2383,7 @@ Crédito: LoncheWey, “HABLANDO de MI PELEA en COLOMBIA con LA GANGA | LONCHE�
 **Etiquetas:** Stream Fighters 5, robots, Westcol, Lonche, La Ganga, robot boxeador, Steel Fighters, streamers
 
 
-## 49. `2026-11-17-hh-aeropuerto-4am`
+## 46. `2026-11-17-hh-aeropuerto-4am`
 
 - **Gancho:** Los citaron a las 4 am en el aeropuerto
 - **Puntaje:** 74 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-19 · **Línea:** risas · **Pieza:** original (sin variantes)
@@ -2569,107 +2433,7 @@ Crédito: Hablando Huevadas (Ricardo Mendoza y Jorge Luna), “HABLANDO HUEVADAS
 **Etiquetas:** Hablando Huevadas, Jorge Luna, Ricardo Mendoza, comedia peruana, El Salvador, aeropuerto, stand-up, humor
 
 
-## 50. `2026-11-17-cotorrisa-suite-karol-g`
-
-- **Gancho:** La suite de Karol G, a un volado
-- **Puntaje:** 72 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-19 · **Línea:** risas · **Pieza:** original (sin variantes)
-- **Video:** [clip.mp4](../clipero/clips/2026-11-17-cotorrisa-suite-karol-g/clip.mp4) (39,6 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-17-cotorrisa-suite-karol-g/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=VzE65NyXqb8
-- **Revisar antes de publicar:** Karol G no sale: es lo que ellos cuentan del hotel; no añadas nada. Cuenta la anécdota el de sudadera roja (no se nombra). Una palabra como (…).
-
-### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola (previsto 19-nov)
-
-```
-Karol G dejó la suite presidencial… y La Cotorrisa se la jugó a un volado 😂
-
-Según cuentan, en su hotel de Monterrey Karol G pidió algo “más en casita”. Y el que lo cuenta volvió a perder: “llevo como cinco volados perdidos”.
-
-¿Cara o cruz?
-
-Crédito: La Cotorrisa (Ricardo Pérez y Slobotzky; canal de Ricardo Pérez en YouTube), “Episodio 378 - Somos portada de GQ”. Video original (minuto 4:01): https://youtu.be/VzE65NyXqb8?t=241
-
-#LaCotorrisa #KarolG #RicardoPerez #Slobotzky #Comedia
-```
-
-### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
-
-```
-La suite que dejó Karol G, a un volado 🪙😂
-
-En La Cotorrisa cuentan que, en su hotel de Monterrey, Karol G pidió cambiar la habitación presidencial por una suite “más en casita”. Ellos se la jugaron a un volado… y el que lo cuenta volvió a perder: “llevo como cinco volados perdidos”.
-
-¿Cara o cruz?
-
-Crédito: La Cotorrisa (Ricardo Pérez y Slobotzky; canal de Ricardo Pérez en YouTube), “Episodio 378 - Somos portada de GQ”. Video original (minuto 4:01): https://youtu.be/VzE65NyXqb8?t=241
-
-#LaCotorrisa #KarolG #RicardoPerez #Slobotzky #Comedia
-```
-
-### YouTube · cuenta `principal` · pendiente de aprobación
-
-**Título:** La Cotorrisa y la suite que dejó Karol G en Monterrey
-
-```
-Según cuentan en La Cotorrisa, en su hotel de Monterrey Karol G pidió cambiar su habitación presidencial por algo “más en casita”. Ellos se la jugaron a un volado… y uno de los dos volvió a perder.
-
-Crédito: La Cotorrisa (Ricardo Pérez y Slobotzky; canal de Ricardo Pérez en YouTube), “Episodio 378 - Somos portada de GQ”. Video original (minuto 4:01): https://youtu.be/VzE65NyXqb8?t=241
-
-#LaCotorrisa #KarolG #Comedia
-```
-
-**Etiquetas:** La Cotorrisa, Ricardo Pérez, Slobotzky, Karol G, Monterrey, volado, podcast de comedia, humor
-
-
-## 51. `2026-11-17-hh-colada-bano`
-
-- **Gancho:** Se coló al show escondida en el baño
-- **Puntaje:** 72 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-19 · **Línea:** risas · **Pieza:** original (sin variantes)
-- **Video:** [clip.mp4](../clipero/clips/2026-11-17-hh-colada-bano/clip.mp4) (64,6 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-17-hh-colada-bano/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=qDAqPW70T7c
-- **Revisar antes de publicar:** Persona privada que cuenta su historia por voluntad propia y con la cara cubierta: no añadas datos. Broma escatológica suave. El desenlace es hh-colada-tres-minutos: publícalo después (ficha).
-
-### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola (previsto 19-nov)
-
-```
-Se escondió 2 horas en el baño para colarse al show 😂
-
-Sin entrada, llegó a las 4 de la tarde y terminó indicándole a la gente: “el baño de los hombres está allá”.
-
-¿Hasta dónde llegarías por ver a tu comediante favorito?
-
-Crédito: Hablando Huevadas (Ricardo Mendoza y Jorge Luna), “HABLANDO HUEVADAS - Décimotercera Temporada [BAILA YAHAIRA BAILA]”. Video original (minuto 1:35:45): https://youtu.be/qDAqPW70T7c?t=5745
-
-#HablandoHuevadas #ElSalvador #Comedia #JorgeLuna #RicardoMendoza
-```
-
-### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
-
-```
-“El baño de los hombres está allá”: así se coló al show 😂
-
-Sin entrada y sin confiar en la reventa, una fan se escondió dos horas en el baño del teatro y, diez minutos antes del show, se puso en la puerta a guiar al público como si trabajara ahí. Lo contó en el escenario de Hablando Huevadas en El Salvador… y el público lo confirma.
-
-¿Hasta dónde llegarías por ver a tu comediante favorito?
-
-Crédito: Hablando Huevadas (Ricardo Mendoza y Jorge Luna), “HABLANDO HUEVADAS - Décimotercera Temporada [BAILA YAHAIRA BAILA]”. Video original (minuto 1:35:45): https://youtu.be/qDAqPW70T7c?t=5745
-
-#HablandoHuevadas #ElSalvador #Comedia #JorgeLuna #RicardoMendoza
-```
-
-### YouTube · cuenta `principal` · pendiente de aprobación
-
-**Título:** La fan que se coló a Hablando Huevadas escondida en el baño
-
-```
-Sin entrada y sin confiar en la reventa, una fan se escondió dos horas en el baño del teatro y terminó guiando al público como si trabajara ahí. Lo contó en el escenario de Hablando Huevadas en El Salvador.
-
-Crédito: Hablando Huevadas (Ricardo Mendoza y Jorge Luna), “HABLANDO HUEVADAS - Décimotercera Temporada [BAILA YAHAIRA BAILA]”. Video original (minuto 1:35:45): https://youtu.be/qDAqPW70T7c?t=5745
-
-#HablandoHuevadas #ElSalvador #Comedia
-```
-
-**Etiquetas:** Hablando Huevadas, Jorge Luna, Ricardo Mendoza, El Salvador, colarse, stand-up, comedia peruana, humor
-
-
-## 52. `2026-11-17-hh-estafa-reventa`
+## 47. `2026-11-17-hh-estafa-reventa`
 
 - **Gancho:** Pagó la mitad por si era estafa
 - **Puntaje:** 72 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-19 · **Línea:** risas · **Pieza:** original (sin variantes)
@@ -2719,7 +2483,107 @@ Crédito: Hablando Huevadas (Ricardo Mendoza y Jorge Luna), “HABLANDO HUEVADAS
 **Etiquetas:** Hablando Huevadas, Jorge Luna, Ricardo Mendoza, El Salvador, reventa, estafa, comedia peruana, humor
 
 
-## 53. `2026-11-17-hh-colada-tres-minutos`
+## 48. `2026-11-17-hh-colada-bano`
+
+- **Gancho:** Se coló al show escondida en el baño
+- **Puntaje:** 72 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-19 · **Línea:** risas · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-17-hh-colada-bano/clip.mp4) (64,6 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-17-hh-colada-bano/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=qDAqPW70T7c
+- **Revisar antes de publicar:** Persona privada que cuenta su historia por voluntad propia y con la cara cubierta: no añadas datos. Broma escatológica suave. El desenlace es hh-colada-tres-minutos: publícalo después (ficha).
+
+### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola (previsto 19-nov)
+
+```
+Se escondió 2 horas en el baño para colarse al show 😂
+
+Sin entrada, llegó a las 4 de la tarde y terminó indicándole a la gente: “el baño de los hombres está allá”.
+
+¿Hasta dónde llegarías por ver a tu comediante favorito?
+
+Crédito: Hablando Huevadas (Ricardo Mendoza y Jorge Luna), “HABLANDO HUEVADAS - Décimotercera Temporada [BAILA YAHAIRA BAILA]”. Video original (minuto 1:35:45): https://youtu.be/qDAqPW70T7c?t=5745
+
+#HablandoHuevadas #ElSalvador #Comedia #JorgeLuna #RicardoMendoza
+```
+
+### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
+
+```
+“El baño de los hombres está allá”: así se coló al show 😂
+
+Sin entrada y sin confiar en la reventa, una fan se escondió dos horas en el baño del teatro y, diez minutos antes del show, se puso en la puerta a guiar al público como si trabajara ahí. Lo contó en el escenario de Hablando Huevadas en El Salvador… y el público lo confirma.
+
+¿Hasta dónde llegarías por ver a tu comediante favorito?
+
+Crédito: Hablando Huevadas (Ricardo Mendoza y Jorge Luna), “HABLANDO HUEVADAS - Décimotercera Temporada [BAILA YAHAIRA BAILA]”. Video original (minuto 1:35:45): https://youtu.be/qDAqPW70T7c?t=5745
+
+#HablandoHuevadas #ElSalvador #Comedia #JorgeLuna #RicardoMendoza
+```
+
+### YouTube · cuenta `principal` · pendiente de aprobación
+
+**Título:** La fan que se coló a Hablando Huevadas escondida en el baño
+
+```
+Sin entrada y sin confiar en la reventa, una fan se escondió dos horas en el baño del teatro y terminó guiando al público como si trabajara ahí. Lo contó en el escenario de Hablando Huevadas en El Salvador.
+
+Crédito: Hablando Huevadas (Ricardo Mendoza y Jorge Luna), “HABLANDO HUEVADAS - Décimotercera Temporada [BAILA YAHAIRA BAILA]”. Video original (minuto 1:35:45): https://youtu.be/qDAqPW70T7c?t=5745
+
+#HablandoHuevadas #ElSalvador #Comedia
+```
+
+**Etiquetas:** Hablando Huevadas, Jorge Luna, Ricardo Mendoza, El Salvador, colarse, stand-up, comedia peruana, humor
+
+
+## 49. `2026-11-17-cotorrisa-suite-karol-g`
+
+- **Gancho:** La suite de Karol G, a un volado
+- **Puntaje:** 72 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-19 · **Línea:** risas · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-17-cotorrisa-suite-karol-g/clip.mp4) (39,6 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-17-cotorrisa-suite-karol-g/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=VzE65NyXqb8
+- **Revisar antes de publicar:** Karol G no sale: es lo que ellos cuentan del hotel; no añadas nada. Cuenta la anécdota el de sudadera roja (no se nombra). Una palabra como (…).
+
+### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola (previsto 19-nov)
+
+```
+Karol G dejó la suite presidencial… y La Cotorrisa se la jugó a un volado 😂
+
+Según cuentan, en su hotel de Monterrey Karol G pidió algo “más en casita”. Y el que lo cuenta volvió a perder: “llevo como cinco volados perdidos”.
+
+¿Cara o cruz?
+
+Crédito: La Cotorrisa (Ricardo Pérez y Slobotzky; canal de Ricardo Pérez en YouTube), “Episodio 378 - Somos portada de GQ”. Video original (minuto 4:01): https://youtu.be/VzE65NyXqb8?t=241
+
+#LaCotorrisa #KarolG #RicardoPerez #Slobotzky #Comedia
+```
+
+### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
+
+```
+La suite que dejó Karol G, a un volado 🪙😂
+
+En La Cotorrisa cuentan que, en su hotel de Monterrey, Karol G pidió cambiar la habitación presidencial por una suite “más en casita”. Ellos se la jugaron a un volado… y el que lo cuenta volvió a perder: “llevo como cinco volados perdidos”.
+
+¿Cara o cruz?
+
+Crédito: La Cotorrisa (Ricardo Pérez y Slobotzky; canal de Ricardo Pérez en YouTube), “Episodio 378 - Somos portada de GQ”. Video original (minuto 4:01): https://youtu.be/VzE65NyXqb8?t=241
+
+#LaCotorrisa #KarolG #RicardoPerez #Slobotzky #Comedia
+```
+
+### YouTube · cuenta `principal` · pendiente de aprobación
+
+**Título:** La Cotorrisa y la suite que dejó Karol G en Monterrey
+
+```
+Según cuentan en La Cotorrisa, en su hotel de Monterrey Karol G pidió cambiar su habitación presidencial por algo “más en casita”. Ellos se la jugaron a un volado… y uno de los dos volvió a perder.
+
+Crédito: La Cotorrisa (Ricardo Pérez y Slobotzky; canal de Ricardo Pérez en YouTube), “Episodio 378 - Somos portada de GQ”. Video original (minuto 4:01): https://youtu.be/VzE65NyXqb8?t=241
+
+#LaCotorrisa #KarolG #Comedia
+```
+
+**Etiquetas:** La Cotorrisa, Ricardo Pérez, Slobotzky, Karol G, Monterrey, volado, podcast de comedia, humor
+
+
+## 50. `2026-11-17-hh-colada-tres-minutos`
 
 - **Gancho:** Se coló al show y duró 3 minutos
 - **Puntaje:** 71 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-19 · **Línea:** risas · **Pieza:** original (sin variantes)
@@ -2769,7 +2633,7 @@ Crédito: Hablando Huevadas (Ricardo Mendoza y Jorge Luna), “HABLANDO HUEVADAS
 **Etiquetas:** Hablando Huevadas, Jorge Luna, Ricardo Mendoza, El Salvador, colarse, stand-up, comedia peruana, humor
 
 
-## 54. `2026-11-17-hh-temblor-hijos`
+## 51. `2026-11-17-hh-temblor-hijos`
 
 - **Gancho:** Lo que descubrió durante un temblor
 - **Puntaje:** 69 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-19 · **Línea:** risas · **Pieza:** original (sin variantes)
@@ -2819,7 +2683,7 @@ Crédito: Hablando Huevadas (Ricardo Mendoza y Jorge Luna), “HABLANDO HUEVADAS
 **Etiquetas:** Hablando Huevadas, Jorge Luna, Ricardo Mendoza, paternidad, temblor, Lima, comedia peruana, humor
 
 
-## 55. `2026-11-17-cotorrisa-paloma-medalla`
+## 52. `2026-11-17-cotorrisa-paloma-medalla`
 
 - **Gancho:** A una paloma le dieron medalla de guerra
 - **Puntaje:** 68 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-19 · **Línea:** risas · **Pieza:** original (sin variantes)
@@ -2869,7 +2733,7 @@ Crédito: La Cotorrisa (Ricardo Pérez y Slobotzky; canal de Ricardo Pérez en Y
 **Etiquetas:** La Cotorrisa, Ricardo Pérez, Slobotzky, paloma mensajera, Segunda Guerra Mundial, efemérides, podcast de comedia, humor
 
 
-## 56. `2026-11-17-cotorrisa-refri-papas`
+## 53. `2026-11-17-cotorrisa-refri-papas`
 
 - **Gancho:** Hoy es el día de limpiar el refri
 - **Puntaje:** 67 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-19 · **Línea:** risas · **Pieza:** original (sin variantes)
@@ -2919,7 +2783,7 @@ Crédito: La Cotorrisa (Ricardo Pérez y Slobotzky; canal de Ricardo Pérez en Y
 **Etiquetas:** La Cotorrisa, Ricardo Pérez, Slobotzky, refrigerador, papás, podcast de comedia, comedia mexicana, humor
 
 
-## 57. `2026-11-17-hh-lluvia-lima`
+## 54. `2026-11-17-hh-lluvia-lima`
 
 - **Gancho:** Un peruano descubre la lluvia de verdad
 - **Puntaje:** 66 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-19 · **Línea:** risas · **Pieza:** original (sin variantes)
@@ -2969,7 +2833,107 @@ Crédito: Hablando Huevadas (Ricardo Mendoza y Jorge Luna), “HABLANDO HUEVADAS
 **Etiquetas:** Hablando Huevadas, Jorge Luna, Ricardo Mendoza, Lima, El Salvador, lluvia, comedia peruana, humor
 
 
-## 58. `2026-11-17-westcol-show-kris-r`
+## 55. `2026-11-17-culpa-marin-despide-quevedo`
+
+- **Gancho:** Iván Marín tuvo que despedir a Ricardo Quevedo
+- **Puntaje:** 76 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-20 · **Línea:** risas · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-17-culpa-marin-despide-quevedo/clip.mp4) (71 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-17-culpa-marin-despide-quevedo/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=OKqALYkh3LA
+- **Revisar antes de publicar:** Escuchar dos tramos que los subtítulos dejan como «(…)» (38:41 y 39:17). Lenguaje fuerte tapado por YouTube («***»). La fuente viene algo saturada: si se oye mal, no lo publiques. La imagen no deja asegurar quién es quién: los textos nombran a Iván Marín y a Ricardo Quevedo porque el propio programa lo hace, y no atribuyen el remate a nadie. Mismo capítulo que culpa-mama-carrazo: publícalos separados.
+
+### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola (previsto 20-nov)
+
+```
+Iván Marín tuvo que despedir a Ricardo Quevedo 😅
+
+Lo invitó a escribir en un programa, al programa le quitaron presupuesto y le tocó a él darle la noticia. La respuesta de Ricardo es mejor que la historia.
+
+¿Alguna vez te tocó despedir a un amigo?
+
+Crédito: Los De La Culpa (YouTube), “NUNCA LE DIRÍA A MI MAMÁ | Los De La Culpa - Capítulo 269”. Video original (minuto 38:29): https://youtu.be/OKqALYkh3LA?t=2309
+
+#LosDeLaCulpa #IvanMarin #RicardoQuevedo #ComediaColombiana
+```
+
+### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
+
+```
+Lo invitó a almorzar porque no sabía cómo decirle que estaba despedido 😅
+
+En Los De La Culpa (capítulo 269), Iván Marín cuenta que invitó a Ricardo Quevedo al equipo de guionistas de un programa… y cuando le quitaron presupuesto, le tocó a él despedirlo. Ricardo se lo tomó súper bien, y su respuesta es mejor que la historia.
+
+¿Alguna vez te tocó despedir a un amigo?
+
+Crédito: Los De La Culpa (YouTube), “NUNCA LE DIRÍA A MI MAMÁ | Los De La Culpa - Capítulo 269”. Video original (minuto 38:29): https://youtu.be/OKqALYkh3LA?t=2309
+
+#LosDeLaCulpa #IvanMarin #RicardoQuevedo #ComediaColombiana #Humor
+```
+
+### YouTube · cuenta `principal` · pendiente de aprobación
+
+**Título:** Los De La Culpa: el día que Iván Marín despidió a Ricardo Quevedo
+
+```
+En el capítulo 269 de Los De La Culpa, hablando de decisiones que parecían buenas y salieron terribles, Iván Marín cuenta que invitó a Ricardo Quevedo a escribir en un programa… y después le tocó despedirlo. La respuesta de Ricardo es mejor que la historia.
+
+Crédito: Los De La Culpa (YouTube), “NUNCA LE DIRÍA A MI MAMÁ | Los De La Culpa - Capítulo 269”. Video original (minuto 38:29): https://youtu.be/OKqALYkh3LA?t=2309
+
+#LosDeLaCulpa #IvanMarin #RicardoQuevedo #ComediaColombiana
+```
+
+**Etiquetas:** Los De La Culpa, Iván Marín, Ricardo Quevedo, comedia colombiana, stand up, anécdotas, despido, humor
+
+
+## 56. `2026-11-17-culpa-mama-carrazo`
+
+- **Gancho:** La versión de mamá cuando compras carro
+- **Puntaje:** 75 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-20 · **Línea:** risas · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-17-culpa-mama-carrazo/clip.mp4) (49,8 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-17-culpa-mama-carrazo/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=OKqALYkh3LA
+- **Revisar antes de publicar:** Lenguaje fuerte tapado por YouTube («***»). Sale el público del show en plano general, sin nadie señalado. Quien cuenta la anécdota no se identifica en la imagen: los textos no lo nombran. Mismo capítulo que culpa-marin-despide-quevedo: publícalos separados.
+
+### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola (previsto 20-nov)
+
+```
+Tú: “me compré un carro”. Tu mamá: “¡un carrazo… y de contado!” 😂
+
+Y él, mientras tanto, pagando las cuotas. En Los De La Culpa lo tienen claro: entre las señoras hay una guerra por quién tiene el hijo más exitoso.
+
+Etiqueta a la mamá que hace esto
+
+Crédito: Los De La Culpa (YouTube), “NUNCA LE DIRÍA A MI MAMÁ | Los De La Culpa - Capítulo 269”. Video original (minuto 16:23): https://youtu.be/OKqALYkh3LA?t=983
+
+#LosDeLaCulpa #Mamá #ComediaColombiana #Humor
+```
+
+### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
+
+```
+La guerra de las mamás por el hijo más exitoso 😂
+
+En Los De La Culpa (capítulo 269), uno de ellos cuenta que le dijo a su mamá “me compré un carro”… y la versión de ella para el mundo fue “¡Armando se compró un carrazo… y de contado!”. Mientras tanto, él pagando las cuotas.
+
+Etiqueta a la mamá que hace esto
+
+Crédito: Los De La Culpa (YouTube), “NUNCA LE DIRÍA A MI MAMÁ | Los De La Culpa - Capítulo 269”. Video original (minuto 16:23): https://youtu.be/OKqALYkh3LA?t=983
+
+#LosDeLaCulpa #Mamá #ComediaColombiana #Humor
+```
+
+### YouTube · cuenta `principal` · pendiente de aprobación
+
+**Título:** Los De La Culpa: lo que tu mamá cuenta cuando te compras un carro
+
+```
+En Los De La Culpa (capítulo 269, “Nunca le diría a mi mamá”) explican cómo las mamás exageran cada logro de sus hijos: “me compré un carro” se convierte en “un carrazo… y de contado”.
+
+Crédito: Los De La Culpa (YouTube), “NUNCA LE DIRÍA A MI MAMÁ | Los De La Culpa - Capítulo 269”. Video original (minuto 16:23): https://youtu.be/OKqALYkh3LA?t=983
+
+#LosDeLaCulpa #Mamá #ComediaColombiana #Humor
+```
+
+**Etiquetas:** Los De La Culpa, comedia colombiana, mamás, mamá exagerada, carro, stand up, humor
+
+
+## 57. `2026-11-17-westcol-show-kris-r`
 
 - **Gancho:** Westcol sobre el show de Kris R
 - **Puntaje:** 68 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-20 · **Línea:** urbano · **Pieza:** original (sin variantes)
@@ -3017,6 +2981,106 @@ Crédito: WestCOL, “¿Que pasara con HERRERA por bajar de la pelea en STREAM F
 ```
 
 **Etiquetas:** Kris R, Westcol, Stream Fighters 5, música urbana, concierto, DAVIarena, streamers
+
+
+## 58. `2026-11-17-renona-checo-dinosaurios`
+
+- **Gancho:** Franco responde por Checo… y se pasa
+- **Puntaje:** 74 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-21 · **Línea:** risas · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-17-renona-checo-dinosaurios/clip.mp4) (54,4 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-17-renona-checo-dinosaurios/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=DpE-D9sdE9M
+- **Revisar antes de publicar:** Velo antes de publicar: el remate lo dice Franco imitando la voz de Checo según los comentarios del video y la propia mesa, pero el plano general no lo muestra de cerca. Si no fuera Franco, no lo publiques con este texto (el gancho del video también lo dice). Lenguaje fuerte («pendejada»). Los carteles de la gira de Franco en la mesa son del propio canal. Se corta antes de la réplica grosera de Checo.
+
+### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola (previsto 20-nov)
+
+```
+Le preguntan a Checo por sus locuras de joven y Franco contesta por él 🦖😂
+
+“Le picábamos los huevos a los dinosaurios y nos echábamos a correr”. Risa general en La Mesa Reñoña.
+
+¿Cuál fue la locura más grande que hiciste de joven?
+
+Crédito: La Mesa Reñoña, de Franco Escamilla (YouTube), “La Mesa Reñoña 524.- 007 mexicano / Ovnis/ Pterodáctilo”. Video original (minuto 1:37:37): https://youtu.be/DpE-D9sdE9M?t=5857
+
+#FrancoEscamilla #LaMesaReñoña #ChecoMejorado #Comedia
+```
+
+### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
+
+```
+“Le picábamos los huevos a los dinosaurios” 🦖😂
+
+En La Mesa Reñoña 524 hablan de las locuras que hacían de jóvenes. Cuando le toca a Checo Mejorado, Franco Escamilla contesta por él, imitando su voz.
+
+¿Cuál fue la locura más grande que hiciste de joven?
+
+Crédito: La Mesa Reñoña, de Franco Escamilla (YouTube), “La Mesa Reñoña 524.- 007 mexicano / Ovnis/ Pterodáctilo”. Video original (minuto 1:37:37): https://youtu.be/DpE-D9sdE9M?t=5857
+
+#FrancoEscamilla #LaMesaReñoña #ChecoMejorado #Comedia
+```
+
+### YouTube · cuenta `principal` · pendiente de aprobación
+
+**Título:** Franco Escamilla se pasa con Checo Mejorado en La Mesa Reñoña
+
+```
+En La Mesa Reñoña 524 hablan de las locuras que hacían de jóvenes. Cuando le toca a Checo Mejorado, Franco Escamilla contesta por él… y se pasa.
+
+Crédito: La Mesa Reñoña, de Franco Escamilla (YouTube), “La Mesa Reñoña 524.- 007 mexicano / Ovnis/ Pterodáctilo”. Video original (minuto 1:37:37): https://youtu.be/DpE-D9sdE9M?t=5857
+
+#FrancoEscamilla #LaMesaReñoña #ChecoMejorado #Comedia
+```
+
+**Etiquetas:** Franco Escamilla, La Mesa Reñoña, Checo Mejorado, Regalito, comedia mexicana, dinosaurios, podcast, humor
+
+
+## 59. `2026-11-17-olga-agua-mostaza`
+
+- **Gancho:** Su amigo era adicto a algo asqueroso
+- **Puntaje:** 73 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-21 · **Línea:** risas · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-17-olga-agua-mostaza/clip.mp4) (42,2 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-17-olga-agua-mostaza/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=a5BUB-t-bHM
+- **Revisar antes de publicar:** Humor asqueroso, sin nadie atacado (el amigo no se nombra). Quien cuenta no se identifica con seguridad: los textos no lo nombran. El letrero de Coca-Cola es del decorado del estudio, no un rótulo añadido. Lenguaje: «boludo».
+
+### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola (previsto 20-nov)
+
+```
+Su amigo era adicto… a la agüita de la mostaza 🤢😂
+
+Iba a tu casa, abría la heladera, sacudía el pomo y se tomaba el primer chorrito. La mesa de Soñé que Volaba: “me descompongo”.
+
+¿Conoces a alguien que haga esto? Etiquétalo
+
+Crédito: Soñé que Volaba, de OLGA (YouTube), “COMBINAR COMIDAS RARAS y NO MORIR en el INTENTO | #SoñéQueVolaba 17/11”. Video original (minuto 39:55): https://youtu.be/a5BUB-t-bHM?t=2395
+
+#SoñéQueVolaba #OLGA #Comedia #Mostaza
+```
+
+### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
+
+```
+“Era adicto a la agüita que sale antes de la mostaza” 🤢
+
+En Soñé que Volaba (OLGA) hablaban de combinaciones de comida rarísimas, hasta que uno de los conductores contó la adicción más asquerosa de un amigo. La mesa: “me descompongo”.
+
+¿Conoces a alguien que haga esto? Etiquétalo
+
+Crédito: Soñé que Volaba, de OLGA (YouTube), “COMBINAR COMIDAS RARAS y NO MORIR en el INTENTO | #SoñéQueVolaba 17/11”. Video original (minuto 39:55): https://youtu.be/a5BUB-t-bHM?t=2395
+
+#SoñéQueVolaba #OLGA #Comedia #Mostaza
+```
+
+### YouTube · cuenta `principal` · pendiente de aprobación
+
+**Título:** Soñé que Volaba: el amigo adicto al agua de la mostaza
+
+```
+En Soñé que Volaba (OLGA) hablaban de combinaciones de comida rarísimas, hasta que uno de los conductores contó la adicción más asquerosa de un amigo: la agüita que sale antes de la mostaza.
+
+Crédito: Soñé que Volaba, de OLGA (YouTube), “COMBINAR COMIDAS RARAS y NO MORIR en el INTENTO | #SoñéQueVolaba 17/11”. Video original (minuto 39:55): https://youtu.be/a5BUB-t-bHM?t=2395
+
+#SoñéQueVolaba #OLGA #Comedia #Mostaza
+```
+
+**Etiquetas:** Soñé que Volaba, OLGA, Migue Granados, comedia argentina, mostaza, comidas raras, streaming, humor
 
 
 ## Comandos

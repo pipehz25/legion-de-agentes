@@ -1,76 +1,2054 @@
 {
-    "generado":  "2026-11-17T16:44:17-05:00",
-    "ciclo":  16,
+    "generado":  "2026-11-17T19:24:00-05:00",
+    "ciclo":  17,
     "clips":  [
-                  {"id":"2026-11-17-cotorrisa-refri-papas","estado":"listo","tipo":"humor","puntaje":67,"gancho":"Hoy es el día de limpiar el refri","archivo":"salidas/clipero/clips/2026-11-17-cotorrisa-refri-papas/clip.mp4","ficha":"salidas/clipero/clips/2026-11-17-cotorrisa-refri-papas/ficha.md","duracion_seg":58.4,"fuente":{"url":"https://www.youtube.com/watch?v=VzE65NyXqb8","canal":"Ricardo Pérez","inicio":3084.45,"fin":3142.77},"oportunidad_cazador":null,"linea":"risas","orden_en_fuente":3,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-19"},
-                  {"id":"2026-11-17-ganga-robot-precio","estado":"listo","tipo":"revelacion","puntaje":74,"gancho":"¿Cuánto cuesta un robot de Stream Fighters?","archivo":"salidas/clipero/clips/2026-11-17-ganga-robot-precio/clip.mp4","ficha":"salidas/clipero/clips/2026-11-17-ganga-robot-precio/ficha.md","duracion_seg":55.5,"fuente":{"url":"https://www.youtube.com/watch?v=s1betCsTVVE","canal":"LoncheWey","inicio":2070.25,"fin":2125.78},"oportunidad_cazador":"formato-matematica-del-lujo","linea":"urbano","orden_en_fuente":2,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-19"},
-                  {"id":"2026-11-17-cotorrisa-paloma-medalla","estado":"listo","tipo":"humor","puntaje":68,"gancho":"A una paloma le dieron medalla de guerra","archivo":"salidas/clipero/clips/2026-11-17-cotorrisa-paloma-medalla/clip.mp4","ficha":"salidas/clipero/clips/2026-11-17-cotorrisa-paloma-medalla/ficha.md","duracion_seg":48.3,"fuente":{"url":"https://www.youtube.com/watch?v=VzE65NyXqb8","canal":"Ricardo Pérez","inicio":2582.13,"fin":2630.38},"oportunidad_cazador":null,"linea":"risas","orden_en_fuente":2,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-19"},
-                  {"id":"2026-11-17-hh-aeropuerto-4am","estado":"listo","tipo":"historia","puntaje":74,"gancho":"Los citaron a las 4 am en el aeropuerto","archivo":"salidas/clipero/clips/2026-11-17-hh-aeropuerto-4am/clip.mp4","ficha":"salidas/clipero/clips/2026-11-17-hh-aeropuerto-4am/ficha.md","duracion_seg":57.5,"fuente":{"url":"https://www.youtube.com/watch?v=qDAqPW70T7c","canal":"Hablando Huevadas","inicio":2694.77,"fin":2752.18},"oportunidad_cazador":null,"linea":"risas","orden_en_fuente":1,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-19"},
-                  {"id":"2026-11-17-hh-estafa-reventa","estado":"listo","tipo":"humor","puntaje":72,"gancho":"Pagó la mitad por si era estafa","archivo":"salidas/clipero/clips/2026-11-17-hh-estafa-reventa/clip.mp4","ficha":"salidas/clipero/clips/2026-11-17-hh-estafa-reventa/ficha.md","duracion_seg":46.2,"fuente":{"url":"https://www.youtube.com/watch?v=qDAqPW70T7c","canal":"Hablando Huevadas","inicio":363.45,"fin":409.6},"oportunidad_cazador":null,"linea":"risas","orden_en_fuente":2,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-19"},
-                  {"id":"2026-11-17-hh-colada-bano","estado":"listo","tipo":"historia","puntaje":72,"gancho":"Se coló al show escondida en el baño","archivo":"salidas/clipero/clips/2026-11-17-hh-colada-bano/clip.mp4","ficha":"salidas/clipero/clips/2026-11-17-hh-colada-bano/ficha.md","duracion_seg":64.6,"fuente":{"url":"https://www.youtube.com/watch?v=qDAqPW70T7c","canal":"Hablando Huevadas","inicio":5744.97,"fin":5809.6},"oportunidad_cazador":null,"linea":"risas","orden_en_fuente":3,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-19"},
-                  {"id":"2026-11-17-hh-colada-tres-minutos","estado":"listo","tipo":"humor","puntaje":71,"gancho":"Se coló al show y duró 3 minutos","archivo":"salidas/clipero/clips/2026-11-17-hh-colada-tres-minutos/clip.mp4","ficha":"salidas/clipero/clips/2026-11-17-hh-colada-tres-minutos/ficha.md","duracion_seg":61.4,"fuente":{"url":"https://www.youtube.com/watch?v=qDAqPW70T7c","canal":"Hablando Huevadas","inicio":5833.85,"fin":5895.26},"oportunidad_cazador":null,"linea":"risas","orden_en_fuente":4,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-19"},
-                  {"id":"2026-11-17-hh-temblor-hijos","estado":"listo","tipo":"humor","puntaje":69,"gancho":"Lo que descubrió durante un temblor","archivo":"salidas/clipero/clips/2026-11-17-hh-temblor-hijos/clip.mp4","ficha":"salidas/clipero/clips/2026-11-17-hh-temblor-hijos/ficha.md","duracion_seg":55.3,"fuente":{"url":"https://www.youtube.com/watch?v=qDAqPW70T7c","canal":"Hablando Huevadas","inicio":4500.85,"fin":4556.1},"oportunidad_cazador":null,"linea":"risas","orden_en_fuente":5,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-19"},
-                  {"id":"2026-11-17-hh-lluvia-lima","estado":"listo","tipo":"humor","puntaje":66,"gancho":"Un peruano descubre la lluvia de verdad","archivo":"salidas/clipero/clips/2026-11-17-hh-lluvia-lima/clip.mp4","ficha":"salidas/clipero/clips/2026-11-17-hh-lluvia-lima/ficha.md","duracion_seg":46.2,"fuente":{"url":"https://www.youtube.com/watch?v=qDAqPW70T7c","canal":"Hablando Huevadas","inicio":40.89,"fin":87.02},"oportunidad_cazador":null,"linea":"risas","orden_en_fuente":6,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-19"},
-                  {"id":"2026-11-17-cotorrisa-suite-karol-g","estado":"listo","tipo":"historia","puntaje":72,"gancho":"La suite de Karol G, a un volado","archivo":"salidas/clipero/clips/2026-11-17-cotorrisa-suite-karol-g/clip.mp4","ficha":"salidas/clipero/clips/2026-11-17-cotorrisa-suite-karol-g/ficha.md","duracion_seg":39.6,"fuente":{"url":"https://www.youtube.com/watch?v=VzE65NyXqb8","canal":"Ricardo Pérez","inicio":241.49,"fin":281.04},"oportunidad_cazador":null,"linea":"risas","orden_en_fuente":1,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-19"},
-                  {"id":"2026-11-17-westcol-daren-mentiroso","estado":"listo","tipo":"historia","puntaje":70,"gancho":"Lo que Daren le dijo a Westcol después","archivo":"salidas/clipero/clips/2026-11-17-westcol-daren-mentiroso/clip.mp4","ficha":"salidas/clipero/clips/2026-11-17-westcol-daren-mentiroso/ficha.md","duracion_seg":27,"fuente":{"url":"https://www.youtube.com/watch?v=YQ-vOO3-Ghk","canal":"WestCOL","inicio":589.41,"fin":616.38},"oportunidad_cazador":"formato-el-dia-despues-del-protagonista","linea":"urbano","orden_en_fuente":4,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-18"},
-                  {"id":"2026-11-17-westcol-show-kris-r","estado":"listo","tipo":"frase","puntaje":68,"gancho":"Westcol sobre el show de Kris R","archivo":"salidas/clipero/clips/2026-11-17-westcol-show-kris-r/clip.mp4","ficha":"salidas/clipero/clips/2026-11-17-westcol-show-kris-r/ficha.md","duracion_seg":34.2,"fuente":{"url":"https://www.youtube.com/watch?v=YQ-vOO3-Ghk","canal":"WestCOL","inicio":196.13,"fin":230.3},"oportunidad_cazador":"formato-el-dia-despues-del-protagonista","linea":"urbano","orden_en_fuente":5,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-20"},
-                  {"id":"2026-11-17-samulx-entrada-sin-musica","estado":"listo","tipo":"historia","puntaje":70,"gancho":"Iba a salir con Akapellah… y pasó esto","archivo":"salidas/clipero/clips/2026-11-17-samulx-entrada-sin-musica/clip.mp4","ficha":"salidas/clipero/clips/2026-11-17-samulx-entrada-sin-musica/ficha.md","duracion_seg":63.3,"fuente":{"url":"https://www.youtube.com/watch?v=GkojR4E0tuY","canal":"Samulx","inicio":1036.65,"fin":1099.98},"oportunidad_cazador":"formato-el-dia-despues-del-protagonista","linea":"urbano","orden_en_fuente":8,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-18"},
-                  {"id":"2026-11-17-samulx-hable-mucho","estado":"listo","tipo":"frase","puntaje":68,"gancho":"Samulx, a los que dicen que habló mucho","archivo":"salidas/clipero/clips/2026-11-17-samulx-hable-mucho/clip.mp4","ficha":"salidas/clipero/clips/2026-11-17-samulx-hable-mucho/ficha.md","duracion_seg":19.9,"fuente":{"url":"https://www.youtube.com/watch?v=GkojR4E0tuY","canal":"Samulx","inicio":97.05,"fin":116.94},"oportunidad_cazador":"formato-el-dia-despues-del-protagonista","linea":"urbano","orden_en_fuente":9,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-18"},
-                  {"id":"2026-11-17-samulx-cuerda-espalda","estado":"listo","tipo":"humor","puntaje":66,"gancho":"Lo que más lo lastimó no fue la pelea","archivo":"salidas/clipero/clips/2026-11-17-samulx-cuerda-espalda/clip.mp4","ficha":"salidas/clipero/clips/2026-11-17-samulx-cuerda-espalda/ficha.md","duracion_seg":38.9,"fuente":{"url":"https://www.youtube.com/watch?v=GkojR4E0tuY","canal":"Samulx","inicio":908.25,"fin":947.1},"oportunidad_cazador":"formato-el-dia-despues-del-protagonista","linea":"urbano","orden_en_fuente":10,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-18"},
-                  {"id":"2026-11-17-lonche-cinco-lesiones","estado":"listo","tipo":"revelacion","puntaje":74,"gancho":"Lonche peleó la primera vez con cinco lesiones","archivo":"salidas/clipero/clips/2026-11-17-lonche-cinco-lesiones/clip.mp4","ficha":"salidas/clipero/clips/2026-11-17-lonche-cinco-lesiones/ficha.md","duracion_seg":38.4,"fuente":{"url":"https://www.youtube.com/watch?v=s1betCsTVVE","canal":"LoncheWey","inicio":81.41,"fin":119.86},"oportunidad_cazador":"formato-el-dia-despues-del-protagonista","linea":"urbano","orden_en_fuente":1,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-18"},
-                  {"id":"2026-11-17-westcol-herrera-no-planeado","estado":"listo","tipo":"frase","puntaje":78,"gancho":"¿Fue planeado lo de Herrera? Westcol responde","archivo":"salidas/clipero/clips/2026-11-17-westcol-herrera-no-planeado/clip.mp4","ficha":"salidas/clipero/clips/2026-11-17-westcol-herrera-no-planeado/ficha.md","duracion_seg":51.6,"fuente":{"url":"https://www.youtube.com/watch?v=YQ-vOO3-Ghk","canal":"WestCOL","inicio":1199.77,"fin":1251.38},"oportunidad_cazador":"formato-el-dia-despues-del-protagonista","linea":"urbano","orden_en_fuente":1,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-18"},
-                  {"id":"2026-11-17-westcol-disculpa-pelea-jh","estado":"listo","tipo":"frase","puntaje":77,"gancho":"Westcol pide perdón por la pelea de JH","archivo":"salidas/clipero/clips/2026-11-17-westcol-disculpa-pelea-jh/clip.mp4","ficha":"salidas/clipero/clips/2026-11-17-westcol-disculpa-pelea-jh/ficha.md","duracion_seg":61.6,"fuente":{"url":"https://www.youtube.com/watch?v=YQ-vOO3-Ghk","canal":"WestCOL","inicio":1062.25,"fin":1123.86},"oportunidad_cazador":"formato-el-dia-despues-del-protagonista","linea":"urbano","orden_en_fuente":2,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-18"},
-                  {"id":"2026-11-17-westcol-boxeo-aburrido","estado":"listo","tipo":"frase","puntaje":76,"gancho":"Westcol: entre más profesional, más aburrido el boxeo","archivo":"salidas/clipero/clips/2026-11-17-westcol-boxeo-aburrido/clip.mp4","ficha":"salidas/clipero/clips/2026-11-17-westcol-boxeo-aburrido/ficha.md","duracion_seg":45.1,"fuente":{"url":"https://www.youtube.com/watch?v=YQ-vOO3-Ghk","canal":"WestCOL","inicio":952.61,"fin":997.7},"oportunidad_cazador":"formato-el-dia-despues-del-protagonista","linea":"urbano","orden_en_fuente":3,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-19"},
-                  {"id":"2026-11-17-samulx-retiro-boxeo","estado":"listo","tipo":"revelacion","puntaje":78,"gancho":"Samulx: «creo que me voy a retirar»","archivo":"salidas/clipero/clips/2026-11-17-samulx-retiro-boxeo/clip.mp4","ficha":"salidas/clipero/clips/2026-11-17-samulx-retiro-boxeo/ficha.md","duracion_seg":30.1,"fuente":{"url":"https://www.youtube.com/watch?v=GkojR4E0tuY","canal":"Samulx","inicio":970.77,"fin":1000.9},"oportunidad_cazador":"formato-el-dia-despues-del-protagonista","linea":"urbano","orden_en_fuente":1,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-18"},
-                  {"id":"2026-11-17-samulx-dime-que-no-puedes","estado":"listo","tipo":"historia","puntaje":77,"gancho":"Se le salió el hombro y su entrenador…","archivo":"salidas/clipero/clips/2026-11-17-samulx-dime-que-no-puedes/clip.mp4","ficha":"salidas/clipero/clips/2026-11-17-samulx-dime-que-no-puedes/ficha.md","duracion_seg":54.1,"fuente":{"url":"https://www.youtube.com/watch?v=GkojR4E0tuY","canal":"Samulx","inicio":213.93,"fin":267.98},"oportunidad_cazador":"formato-el-dia-despues-del-protagonista","linea":"urbano","orden_en_fuente":2,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-18"},
-                  {"id":"2026-11-17-samulx-cuarto-round","estado":"listo","tipo":"humor","puntaje":76,"gancho":"Le dijeron que eran tres rounds…","archivo":"salidas/clipero/clips/2026-11-17-samulx-cuarto-round/clip.mp4","ficha":"salidas/clipero/clips/2026-11-17-samulx-cuarto-round/ficha.md","duracion_seg":41.1,"fuente":{"url":"https://www.youtube.com/watch?v=GkojR4E0tuY","canal":"Samulx","inicio":384.69,"fin":425.74},"oportunidad_cazador":"formato-el-dia-despues-del-protagonista","linea":"urbano","orden_en_fuente":3,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-18"},
-                  {"id":"2026-11-17-samulx-camerino-herrera","estado":"listo","tipo":"historia","puntaje":75,"gancho":"Lo que pasó en los camerinos con Herrera","archivo":"salidas/clipero/clips/2026-11-17-samulx-camerino-herrera/clip.mp4","ficha":"salidas/clipero/clips/2026-11-17-samulx-camerino-herrera/ficha.md","duracion_seg":54.6,"fuente":{"url":"https://www.youtube.com/watch?v=GkojR4E0tuY","canal":"Samulx","inicio":1126.69,"fin":1181.3},"oportunidad_cazador":"formato-el-dia-despues-del-protagonista","linea":"urbano","orden_en_fuente":4,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-18"},
-                  {"id":"2026-11-17-samulx-prueba-antidoping","estado":"listo","tipo":"humor","puntaje":73,"gancho":"La prueba antidoping de Samulx tras perder","archivo":"salidas/clipero/clips/2026-11-17-samulx-prueba-antidoping/clip.mp4","ficha":"salidas/clipero/clips/2026-11-17-samulx-prueba-antidoping/ficha.md","duracion_seg":27.4,"fuente":{"url":"https://www.youtube.com/watch?v=GkojR4E0tuY","canal":"Samulx","inicio":575.81,"fin":603.14},"oportunidad_cazador":"formato-el-dia-despues-del-protagonista","linea":"urbano","orden_en_fuente":5,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-18"},
-                  {"id":"2026-11-17-samulx-camerino-robado","estado":"listo","tipo":"historia","puntaje":72,"gancho":"Así le quitaron el camerino a Lonche y Willito","archivo":"salidas/clipero/clips/2026-11-17-samulx-camerino-robado/clip.mp4","ficha":"salidas/clipero/clips/2026-11-17-samulx-camerino-robado/ficha.md","duracion_seg":38.8,"fuente":{"url":"https://www.youtube.com/watch?v=GkojR4E0tuY","canal":"Samulx","inicio":1346.41,"fin":1385.22},"oportunidad_cazador":"formato-el-dia-despues-del-protagonista","linea":"urbano","orden_en_fuente":6,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-18"},
-                  {"id":"2026-11-17-samulx-clinica-fotico","estado":"listo","tipo":"humor","puntaje":70,"gancho":"Se iba de la clínica y el doctor…","archivo":"salidas/clipero/clips/2026-11-17-samulx-clinica-fotico/clip.mp4","ficha":"salidas/clipero/clips/2026-11-17-samulx-clinica-fotico/ficha.md","duracion_seg":52.4,"fuente":{"url":"https://www.youtube.com/watch?v=GkojR4E0tuY","canal":"Samulx","inicio":843.05,"fin":895.46},"oportunidad_cazador":"formato-el-dia-despues-del-protagonista","linea":"urbano","orden_en_fuente":7,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-18"},
-                  {"id":"2026-11-15-nsn-spiderman-sudado","estado":"listo","tipo":"humor","puntaje":70,"gancho":"El problema que nadie ve de Spider-Man","archivo":"salidas/clipero/clips/2026-11-15-nsn-spiderman-sudado/clip.mp4","ficha":"salidas/clipero/clips/2026-11-15-nsn-spiderman-sudado/ficha.md","duracion_seg":58.7,"fuente":{"url":"https://www.youtube.com/watch?v=pSyuyPq7uh0","canal":"Nadie Sabe Nada","inicio":1831.53,"fin":1890.18},"oportunidad_cazador":null,"linea":"risas","orden_en_fuente":3,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-18"},
-                  {"id":"2026-11-15-nsn-santa-regalos","estado":"listo","tipo":"humor","puntaje":70,"gancho":"¿Por qué hay regalos si viene Santa Claus?","archivo":"salidas/clipero/clips/2026-11-15-nsn-santa-regalos/clip.mp4","ficha":"salidas/clipero/clips/2026-11-15-nsn-santa-regalos/ficha.md","duracion_seg":51.4,"fuente":{"url":"https://www.youtube.com/watch?v=pSyuyPq7uh0","canal":"Nadie Sabe Nada","inicio":1035.33,"fin":1086.7},"oportunidad_cazador":null,"linea":"risas","orden_en_fuente":2,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-18"},
-                  {"id":"2026-11-15-nsn-telefono-infancia","estado":"listo","tipo":"reaccion","puntaje":74,"gancho":"Llamó al teléfono de su infancia… y contestaron","archivo":"salidas/clipero/clips/2026-11-15-nsn-telefono-infancia/clip.mp4","ficha":"salidas/clipero/clips/2026-11-15-nsn-telefono-infancia/ficha.md","duracion_seg":54.6,"fuente":{"url":"https://www.youtube.com/watch?v=pSyuyPq7uh0","canal":"Nadie Sabe Nada","inicio":424.8,"fin":479.38},"oportunidad_cazador":null,"linea":"risas","orden_en_fuente":1,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-18"},
-                  {"id":"2026-11-15-parenlamano-litkillah-kidkeo","estado":"listo","tipo":"revelacion","puntaje":70,"gancho":"Lit Killah le escribió a Kid Keo y…","archivo":"salidas/clipero/clips/2026-11-15-parenlamano-litkillah-kidkeo/clip.mp4","ficha":"salidas/clipero/clips/2026-11-15-parenlamano-litkillah-kidkeo/ficha.md","duracion_seg":73.8,"fuente":{"url":"https://www.youtube.com/watch?v=92HshiOuj1k","canal":"Vorterix (Paren la Mano)","inicio":1185.89,"fin":1259.62},"oportunidad_cazador":null,"linea":"risas","orden_en_fuente":2,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-18"},
-                  {"id":"2026-11-15-parenlamano-barrera-2am","estado":"listo","tipo":"humor","puntaje":72,"gancho":"La regla de las 2 de la mañana","archivo":"salidas/clipero/clips/2026-11-15-parenlamano-barrera-2am/clip.mp4","ficha":"salidas/clipero/clips/2026-11-15-parenlamano-barrera-2am/ficha.md","duracion_seg":61.1,"fuente":{"url":"https://www.youtube.com/watch?v=92HshiOuj1k","canal":"Vorterix (Paren la Mano)","inicio":2494.25,"fin":2555.34},"oportunidad_cazador":null,"linea":"risas","orden_en_fuente":1,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-18"},
-                  {"id":"2026-11-15-tirandobola-marco-gana","estado":"listo","tipo":"reaccion","puntaje":70,"gancho":"Marco Polo le ganó a Franco al billar","archivo":"salidas/clipero/clips/2026-11-15-tirandobola-marco-gana/clip.mp4","ficha":"salidas/clipero/clips/2026-11-15-tirandobola-marco-gana/ficha.md","duracion_seg":31.3,"fuente":{"url":"https://www.youtube.com/watch?v=niP1DkpCYvs","canal":"Franco Escamilla (Tirando Bola)","inicio":3486.25,"fin":3517.46},"oportunidad_cazador":null,"linea":"risas","orden_en_fuente":4,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-18"},
-                  {"id":"2026-11-15-tirandobola-comentarios-bano","estado":"listo","tipo":"humor","puntaje":70,"gancho":"Dónde lee Franco los comentarios negativos","archivo":"salidas/clipero/clips/2026-11-15-tirandobola-comentarios-bano/clip.mp4","ficha":"salidas/clipero/clips/2026-11-15-tirandobola-comentarios-bano/ficha.md","duracion_seg":31.6,"fuente":{"url":"https://www.youtube.com/watch?v=niP1DkpCYvs","canal":"Franco Escamilla (Tirando Bola)","inicio":2149.97,"fin":2181.5},"oportunidad_cazador":null,"linea":"risas","orden_en_fuente":3,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-18"},
-                  {"id":"2026-11-15-tirandobola-luz-experiencias","estado":"listo","tipo":"frase","puntaje":72,"gancho":"¿Se paga la luz con experiencias?","archivo":"salidas/clipero/clips/2026-11-15-tirandobola-luz-experiencias/clip.mp4","ficha":"salidas/clipero/clips/2026-11-15-tirandobola-luz-experiencias/ficha.md","duracion_seg":62.7,"fuente":{"url":"https://www.youtube.com/watch?v=niP1DkpCYvs","canal":"Franco Escamilla (Tirando Bola)","inicio":1721.17,"fin":1783.82},"oportunidad_cazador":null,"linea":"risas","orden_en_fuente":2,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-18"},
-                  {"id":"2026-11-15-tirandobola-perra-amigo","estado":"listo","tipo":"humor","puntaje":74,"gancho":"Cuando Franco no te insulta, preocúpate","archivo":"salidas/clipero/clips/2026-11-15-tirandobola-perra-amigo/clip.mp4","ficha":"salidas/clipero/clips/2026-11-15-tirandobola-perra-amigo/ficha.md","duracion_seg":39.3,"fuente":{"url":"https://www.youtube.com/watch?v=niP1DkpCYvs","canal":"Franco Escamilla (Tirando Bola)","inicio":1543.73,"fin":1583.02},"oportunidad_cazador":null,"linea":"risas","orden_en_fuente":1,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-18"},
-                  {"id":"2026-11-15-parenlamano-luquitas-zapatilla","estado":"listo","tipo":"humor","puntaje":69,"gancho":"Mientras Luquitas hablaba con el Papa…","archivo":"salidas/clipero/clips/2026-11-15-parenlamano-luquitas-zapatilla/clip.mp4","ficha":"salidas/clipero/clips/2026-11-15-parenlamano-luquitas-zapatilla/ficha.md","duracion_seg":63.6,"fuente":{"url":"https://www.youtube.com/watch?v=uRZ2xc4sRyA","canal":"Vorterix (Paren la Mano)","inicio":149.97,"fin":213.58},"oportunidad_cazador":null,"linea":"risas","orden_en_fuente":2,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-17"},
-                  {"id":"2026-11-15-parenlamano-luquitas-turista","estado":"listo","tipo":"humor","puntaje":70,"gancho":"Le habló al Papa y viajó en turista","archivo":"salidas/clipero/clips/2026-11-15-parenlamano-luquitas-turista/clip.mp4","ficha":"salidas/clipero/clips/2026-11-15-parenlamano-luquitas-turista/ficha.md","duracion_seg":61.2,"fuente":{"url":"https://www.youtube.com/watch?v=uRZ2xc4sRyA","canal":"Vorterix (Paren la Mano)","inicio":421.45,"fin":482.62},"oportunidad_cazador":null,"linea":"risas","orden_en_fuente":1,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-17"},
-                  {"id":"2026-11-15-stf5-ganga-cara-a-cara","estado":"listo","tipo":"confrontacion","puntaje":74,"gancho":"El cara a cara de la Ganga se calentó","archivo":"salidas/clipero/clips/2026-11-15-stf5-ganga-cara-a-cara/clip.mp4","ficha":"salidas/clipero/clips/2026-11-15-stf5-ganga-cara-a-cara/ficha.md","duracion_seg":39.1,"fuente":{"url":"https://www.youtube.com/watch?v=zkf8bOkg9kk","canal":"WestCOL","inicio":8753.77,"fin":8792.86},"oportunidad_cazador":"tema-stream-fighters-5","linea":"urbano","orden_en_fuente":1,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-16"},
-                  {"id":"2026-11-15-stf5-westcol-grefg-frunci","estado":"listo","tipo":"revelacion","puntaje":74,"gancho":"Lo que sintió Westcol al ver a Grefg","archivo":"salidas/clipero/clips/2026-11-15-stf5-westcol-grefg-frunci/clip.mp4","ficha":"salidas/clipero/clips/2026-11-15-stf5-westcol-grefg-frunci/ficha.md","duracion_seg":30.5,"fuente":{"url":"https://www.youtube.com/watch?v=zkf8bOkg9kk","canal":"WestCOL","inicio":2759.61,"fin":2790.1},"oportunidad_cazador":"tema-stream-fighters-5","linea":"urbano","orden_en_fuente":2,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-16"},
-                  {"id":"2026-11-14-stf5-westcol-patadita","estado":"listo","tipo":"humor","puntaje":72,"gancho":"La patadita de la buena suerte para Westcol","archivo":"salidas/clipero/clips/2026-11-14-stf5-westcol-patadita/clip.mp4","ficha":"salidas/clipero/clips/2026-11-14-stf5-westcol-patadita/ficha.md","duracion_seg":65.3,"fuente":{"url":"https://www.youtube.com/watch?v=pofJeEqiGF0","canal":"WestCOL Exclusive","inicio":285.09,"fin":350.4},"oportunidad_cazador":"tema-stream-fighters-5","linea":"urbano","orden_en_fuente":1,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-16"},
-                  {"id":"2026-11-14-stf5-daren-quiero-guerra","estado":"listo","tipo":"frase","puntaje":72,"gancho":"Daren tras su primera victoria en Stream Fighters","archivo":"salidas/clipero/clips/2026-11-14-stf5-daren-quiero-guerra/clip.mp4","ficha":"salidas/clipero/clips/2026-11-14-stf5-daren-quiero-guerra/ficha.md","duracion_seg":50.3,"fuente":{"url":"https://www.youtube.com/watch?v=G7gj3T1-_lk","canal":"WestCOL Exclusive","inicio":709.73,"fin":760.06},"oportunidad_cazador":"tema-stream-fighters-5","linea":"urbano","orden_en_fuente":2,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-16","nota":"Logos de Stake (apuestas) y Kick en las cuerdas del ring: ver antes de publicar"},
-                  {"id":"2026-11-14-stf5-daren-cinco-segundos","estado":"listo","tipo":"reaccion","puntaje":78,"gancho":"En 5 segundos tumbó al Agropecuario","archivo":"salidas/clipero/clips/2026-11-14-stf5-daren-cinco-segundos/clip.mp4","ficha":"salidas/clipero/clips/2026-11-14-stf5-daren-cinco-segundos/ficha.md","duracion_seg":31.5,"fuente":{"url":"https://www.youtube.com/watch?v=G7gj3T1-_lk","canal":"WestCOL Exclusive","inicio":105.69,"fin":137.2},"oportunidad_cazador":"tema-stream-fighters-5","linea":"urbano","orden_en_fuente":1,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-16","nota":"Logos de Stake (apuestas) y Kick en las cuerdas del ring y mosca pequeña de patrocinador en la esquina de la transmisión durante todo el combate: ver antes de publicar"},
-                  {"id":"2026-11-13-samulx-chanty-cruce-willito","estado":"listo","tipo":"reaccion","puntaje":66,"gancho":"A un día de pelear, se cruzan con Willito","archivo":"salidas/clipero/clips/2026-11-13-samulx-chanty-cruce-willito/clip.mp4","ficha":"salidas/clipero/clips/2026-11-13-samulx-chanty-cruce-willito/ficha.md","duracion_seg":64.2,"fuente":{"url":"https://www.youtube.com/watch?v=Gnhd74tjACk","canal":"Live Samulx","inicio":513.97,"fin":578.14},"oportunidad_cazador":"tema-stream-fighters-5","linea":"urbano","orden_en_fuente":1,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-16"},
-                  {"id":"2026-11-13-jhovanoty-radar-eldorado","estado":"listo","tipo":"historia","puntaje":72,"gancho":"Cuando se cayó el radar de El Dorado","archivo":"salidas/clipero/clips/2026-11-13-jhovanoty-radar-eldorado/clip.mp4","ficha":"salidas/clipero/clips/2026-11-13-jhovanoty-radar-eldorado/ficha.md","duracion_seg":56.2,"fuente":{"url":"https://www.youtube.com/watch?v=lEDdtE48rBk","canal":"Jhovanoty","inicio":112.55,"fin":168.7},"oportunidad_cazador":null,"linea":"risas","orden_en_fuente":2,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-18"},
-                  {"id":"2026-11-13-jhovanoty-faja-disfraz","estado":"listo","tipo":"historia","puntaje":73,"gancho":"Su disfraz de De la Espriella pedía faja","archivo":"salidas/clipero/clips/2026-11-13-jhovanoty-faja-disfraz/clip.mp4","ficha":"salidas/clipero/clips/2026-11-13-jhovanoty-faja-disfraz/ficha.md","duracion_seg":72.4,"fuente":{"url":"https://www.youtube.com/watch?v=lEDdtE48rBk","canal":"Jhovanoty","inicio":683.55,"fin":755.9},"oportunidad_cazador":null,"linea":"risas","politica":"derecha (disfraz de Halloween de Abelardo de la Espriella, presidente; habla el humorista Jhovanoty, no el político)","orden_en_fuente":1,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-18"},
-                  {"id":"2026-11-13-parenlamano-papa-a-dormir","estado":"listo","tipo":"humor","puntaje":70,"gancho":"Así imaginan al Papa cuando ya quiere dormir","archivo":"salidas/clipero/clips/2026-11-13-parenlamano-papa-a-dormir/clip.mp4","ficha":"salidas/clipero/clips/2026-11-13-parenlamano-papa-a-dormir/ficha.md","duracion_seg":44.5,"fuente":{"url":"https://www.youtube.com/watch?v=K4MCv-DXdmI","canal":"Paren La Mano (Vorterix)","inicio":1547.96,"fin":1592.41},"oportunidad_cazador":null,"linea":"risas","orden_en_fuente":2,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-17"},
-                  {"id":"2026-11-13-parenlamano-cardenal-prevost","estado":"listo","tipo":"humor","puntaje":72,"gancho":"Hace dos años nadie conocía al Papa","archivo":"salidas/clipero/clips/2026-11-13-parenlamano-cardenal-prevost/clip.mp4","ficha":"salidas/clipero/clips/2026-11-13-parenlamano-cardenal-prevost/ficha.md","duracion_seg":57.9,"fuente":{"url":"https://www.youtube.com/watch?v=K4MCv-DXdmI","canal":"Paren La Mano (Vorterix)","inicio":1792.36,"fin":1850.26},"oportunidad_cazador":null,"linea":"risas","orden_en_fuente":1,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-17"},
-                  {"id":"2026-11-13-cotorrisa-dicaprio-sandwich","estado":"listo","tipo":"humor","puntaje":67,"gancho":"DiCaprio comió hígado crudo de bisonte","archivo":"salidas/clipero/clips/2026-11-13-cotorrisa-dicaprio-sandwich/clip.mp4","ficha":"salidas/clipero/clips/2026-11-13-cotorrisa-dicaprio-sandwich/ficha.md","duracion_seg":71.9,"fuente":{"url":"https://www.youtube.com/watch?v=XUh-fUA_o30","canal":"Slobotzky (La Cotorrisa)","inicio":2369.25,"fin":2441.06},"oportunidad_cazador":null,"linea":"risas","orden_en_fuente":5,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-18"},
-                  {"id":"2026-11-13-cotorrisa-pastor-gases","estado":"listo","tipo":"humor","puntaje":70,"gancho":"El pastor que 'cura' con gases","archivo":"salidas/clipero/clips/2026-11-13-cotorrisa-pastor-gases/clip.mp4","ficha":"salidas/clipero/clips/2026-11-13-cotorrisa-pastor-gases/ficha.md","duracion_seg":72,"fuente":{"url":"https://www.youtube.com/watch?v=XUh-fUA_o30","canal":"Slobotzky (La Cotorrisa)","inicio":7122.65,"fin":7194.65},"oportunidad_cazador":null,"linea":"risas","orden_en_fuente":4,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-18"},
-                  {"id":"2026-11-13-cotorrisa-papa-cadenero","estado":"listo","tipo":"revelacion","puntaje":71,"gancho":"El Papa Francisco fue cadenero de antro","archivo":"salidas/clipero/clips/2026-11-13-cotorrisa-papa-cadenero/clip.mp4","ficha":"salidas/clipero/clips/2026-11-13-cotorrisa-papa-cadenero/ficha.md","duracion_seg":29.6,"fuente":{"url":"https://www.youtube.com/watch?v=XUh-fUA_o30","canal":"Slobotzky (La Cotorrisa)","inicio":6913.09,"fin":6942.69},"oportunidad_cazador":null,"linea":"risas","orden_en_fuente":2,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-18"},
-                  {"id":"2026-11-13-cotorrisa-vinchi-dicaprio","estado":"listo","tipo":"humor","puntaje":72,"gancho":"Por qué DiCaprio se llama Leonardo","archivo":"salidas/clipero/clips/2026-11-13-cotorrisa-vinchi-dicaprio/clip.mp4","ficha":"salidas/clipero/clips/2026-11-13-cotorrisa-vinchi-dicaprio/ficha.md","duracion_seg":41.4,"fuente":{"url":"https://www.youtube.com/watch?v=XUh-fUA_o30","canal":"Slobotzky (La Cotorrisa)","inicio":2291.73,"fin":2333.1},"oportunidad_cazador":null,"linea":"risas","orden_en_fuente":1,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-18"},
-                  {"id":"2026-11-13-cotorrisa-navajas-suizas","estado":"listo","tipo":"humor","puntaje":71,"gancho":"16 navajas suizas en la pañalera","archivo":"salidas/clipero/clips/2026-11-13-cotorrisa-navajas-suizas/clip.mp4","ficha":"salidas/clipero/clips/2026-11-13-cotorrisa-navajas-suizas/ficha.md","duracion_seg":36.8,"fuente":{"url":"https://www.youtube.com/watch?v=XUh-fUA_o30","canal":"Slobotzky (La Cotorrisa)","inicio":1541.13,"fin":1577.94},"oportunidad_cazador":null,"linea":"risas","orden_en_fuente":3,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-18"},
-                  {"id":"2026-11-12-culpa-ivan-piscina","estado":"listo","tipo":"historia","puntaje":70,"gancho":"El consejo que casi ahoga a Iván Marín","archivo":"salidas/clipero/clips/2026-11-12-culpa-ivan-piscina/clip.mp4","ficha":"salidas/clipero/clips/2026-11-12-culpa-ivan-piscina/ficha.md","duracion_seg":21.8,"fuente":{"url":"https://www.youtube.com/watch?v=3BAphhKqHUw","canal":"Los De La Culpa","inicio":2268.85,"fin":2290.54},"oportunidad_cazador":null,"linea":"risas","orden_en_fuente":5,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-17"},
-                  {"id":"2026-11-12-culpa-quevedo-mentiras","estado":"listo","tipo":"consejo","puntaje":72,"gancho":"Ricardo Quevedo: 'digan mentiras con buena intención'","archivo":"salidas/clipero/clips/2026-11-12-culpa-quevedo-mentiras/clip.mp4","ficha":"salidas/clipero/clips/2026-11-12-culpa-quevedo-mentiras/ficha.md","duracion_seg":31.7,"fuente":{"url":"https://www.youtube.com/watch?v=3BAphhKqHUw","canal":"Los De La Culpa","inicio":2079.81,"fin":2111.46},"oportunidad_cazador":null,"linea":"risas","orden_en_fuente":4,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-17"},
-                  {"id":"2026-11-12-cotorrisa-harvard","estado":"listo","tipo":"consejo","puntaje":70,"gancho":"Por qué hay gente que te baja los sueños","archivo":"salidas/clipero/clips/2026-11-12-cotorrisa-harvard/clip.mp4","ficha":"salidas/clipero/clips/2026-11-12-cotorrisa-harvard/ficha.md","duracion_seg":61.5,"fuente":{"url":"https://www.youtube.com/watch?v=jUfBJ_aIA3w","canal":"Ricardo Pérez","inicio":4191.61,"fin":4253.1},"oportunidad_cazador":null,"linea":"risas","orden_en_fuente":7,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-17"},
-                  {"id":"2026-11-12-cotorrisa-dedito-flaco","estado":"listo","tipo":"humor","puntaje":70,"gancho":"Cómo elegir al doctor del tacto","archivo":"salidas/clipero/clips/2026-11-12-cotorrisa-dedito-flaco/clip.mp4","ficha":"salidas/clipero/clips/2026-11-12-cotorrisa-dedito-flaco/ficha.md","duracion_seg":23,"fuente":{"url":"https://www.youtube.com/watch?v=jUfBJ_aIA3w","canal":"Ricardo Pérez","inicio":1540.09,"fin":1563.06},"oportunidad_cazador":null,"linea":"risas","orden_en_fuente":6,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-17"},
-                  {"id":"2026-11-12-cotorrisa-codigo-22","estado":"listo","tipo":"historia","puntaje":74,"gancho":"El 'código 22' de los restaurantes","archivo":"salidas/clipero/clips/2026-11-12-cotorrisa-codigo-22/clip.mp4","ficha":"salidas/clipero/clips/2026-11-12-cotorrisa-codigo-22/ficha.md","duracion_seg":71.1,"fuente":{"url":"https://www.youtube.com/watch?v=jUfBJ_aIA3w","canal":"Ricardo Pérez","inicio":210.61,"fin":281.7},"oportunidad_cazador":null,"linea":"risas","orden_en_fuente":5,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-17"},
-                  {"id":"2026-11-12-ballarta-champana","estado":"listo","tipo":"historia","puntaje":67,"gancho":"Ballarta y el amigo que no toma nada","archivo":"salidas/clipero/clips/2026-11-12-ballarta-champana/clip.mp4","ficha":"salidas/clipero/clips/2026-11-12-ballarta-champana/ficha.md","duracion_seg":38.5,"fuente":{"url":"https://www.youtube.com/watch?v=W3kk6XMYfYI","canal":"Carlos Ballarta","inicio":87.85,"fin":126.3},"oportunidad_cazador":null,"linea":"risas","orden_en_fuente":1,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-15"},
-                  {"id":"2026-11-11-francupido-plantada-langosta","estado":"listo","tipo":"emotivo","puntaje":79,"gancho":"La dejaron plantada y cenó langosta","archivo":"salidas/clipero/clips/2026-11-11-francupido-plantada-langosta/clip.mp4","ficha":"salidas/clipero/clips/2026-11-11-francupido-plantada-langosta/ficha.md","duracion_seg":42.3,"fuente":{"url":"https://www.youtube.com/watch?v=NiWsTPALopk","canal":"Franco Escamilla","inicio":1757.96,"fin":1800.2},"oportunidad_cazador":null,"linea":"risas","orden_en_fuente":1,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-15"},
-                  {"id":"2026-11-10-culpa-super-alexis","estado":"listo","tipo":"historia","puntaje":77,"gancho":"Lo saludó como Alexis Lozano… y era Nino","archivo":"salidas/clipero/clips/2026-11-10-culpa-super-alexis/clip.mp4","ficha":"salidas/clipero/clips/2026-11-10-culpa-super-alexis/ficha.md","duracion_seg":66.9,"fuente":{"url":"https://www.youtube.com/watch?v=3BAphhKqHUw","canal":"Los De La Culpa","inicio":822.57,"fin":889.4},"oportunidad_cazador":null,"linea":"risas","orden_en_fuente":3,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-17"},
-                  {"id":"2026-11-11-westcol-samulx-mosquito-ia","estado":"listo","tipo":"humor","puntaje":82,"gancho":"Le piden a la IA traducir al mosquito","archivo":"salidas/clipero/clips/2026-11-11-westcol-samulx-mosquito-ia/clip.mp4","ficha":"salidas/clipero/clips/2026-11-11-westcol-samulx-mosquito-ia/ficha.md","duracion_seg":73.9,"fuente":{"url":"https://www.youtube.com/watch?v=lFccZHkPkJU","canal":"juan diego mm","inicio":1138.93,"fin":1212.8},"oportunidad_cazador":"tema-stream-fighters-5","linea":"urbano","orden_en_fuente":1,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-14"},
-                  {"id":"2026-11-11-westcol-samulx-bicho-gigante","estado":"listo","tipo":"reaccion","puntaje":78,"gancho":"Se les metió un bicho gigante al stream","archivo":"salidas/clipero/clips/2026-11-11-westcol-samulx-bicho-gigante/clip.mp4","ficha":"salidas/clipero/clips/2026-11-11-westcol-samulx-bicho-gigante/ficha.md","duracion_seg":39.7,"fuente":{"url":"https://www.youtube.com/watch?v=lFccZHkPkJU","canal":"juan diego mm","inicio":573.37,"fin":613.02},"oportunidad_cazador":"tema-stream-fighters-5","linea":"urbano","orden_en_fuente":2,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-14"},
-                  {"id":"2026-11-11-westcol-grefg-unico-golpe","estado":"listo","tipo":"revelacion","puntaje":74,"gancho":"El golpe de Grefg que sí sintió Westcol","archivo":"salidas/clipero/clips/2026-11-11-westcol-grefg-unico-golpe/clip.mp4","ficha":"salidas/clipero/clips/2026-11-11-westcol-grefg-unico-golpe/ficha.md","duracion_seg":59.4,"fuente":{"url":"https://www.youtube.com/watch?v=Qyzqh4tJp0M","canal":"Samulx","inicio":3400.33,"fin":3459.74},"oportunidad_cazador":"tema-stream-fighters-5","linea":"urbano","orden_en_fuente":1,"variante_de":null,"diferencia":"","derechos":"sin_verificar","plataformas":["tiktok","instagram","youtube"],"ventana_hasta":"2026-11-14"},
-                  { "id": "2026-11-10-culpa-tato-diesel", "estado": "listo", "tipo": "historia", "puntaje": 80, "gancho": "Le echó gasolina a un carro diésel", "archivo": "salidas/clipero/clips/2026-11-10-culpa-tato-diesel/clip.mp4", "ficha": "salidas/clipero/clips/2026-11-10-culpa-tato-diesel/ficha.md", "duracion_seg": 51, "fuente": { "url": "https://www.youtube.com/watch?v=3BAphhKqHUw", "canal": "Los De La Culpa", "inicio": 504.77, "fin": 555.78 }, "oportunidad_cazador": null, "linea": "risas", "orden_en_fuente": 1, "variante_de": null, "diferencia": "", "derechos": "sin_verificar", "plataformas": ["tiktok", "instagram", "youtube"], "ventana_hasta": "2026-11-17" },
-                  { "id": "2026-11-10-culpa-ivan-senorazo", "estado": "listo", "tipo": "historia", "puntaje": 78, "gancho": "Iván Marín y su saludo a Jessi Uribe", "archivo": "salidas/clipero/clips/2026-11-10-culpa-ivan-senorazo/clip.mp4", "ficha": "salidas/clipero/clips/2026-11-10-culpa-ivan-senorazo/ficha.md", "duracion_seg": 52.8, "fuente": { "url": "https://www.youtube.com/watch?v=3BAphhKqHUw", "canal": "Los De La Culpa", "inicio": 751.49, "fin": 804.26 }, "oportunidad_cazador": null, "linea": "risas", "orden_en_fuente": 2, "variante_de": null, "diferencia": "", "derechos": "sin_verificar", "plataformas": ["tiktok", "instagram", "youtube"], "ventana_hasta": "2026-11-17" },
-                  { "id": "2026-11-10-cotorrisa-yordi-tacto", "estado": "listo", "tipo": "historia", "puntaje": 82, "gancho": "Yordi Rosado y su primer tacto de próstata", "archivo": "salidas/clipero/clips/2026-11-10-cotorrisa-yordi-tacto/clip.mp4", "ficha": "salidas/clipero/clips/2026-11-10-cotorrisa-yordi-tacto/ficha.md", "duracion_seg": 42.5, "fuente": { "url": "https://www.youtube.com/watch?v=jUfBJ_aIA3w", "canal": "Ricardo Pérez (La Cotorrisa)", "inicio": 1696.37, "fin": 1738.82 }, "oportunidad_cazador": null, "linea": "risas", "orden_en_fuente": 1, "variante_de": null, "diferencia": "", "derechos": "sin_verificar", "plataformas": ["tiktok", "instagram", "youtube"], "ventana_hasta": "2026-11-17" },
-                  { "id": "2026-11-10-cotorrisa-yordi-plancha", "estado": "listo", "tipo": "historia", "puntaje": 78, "gancho": "Le preguntó a un luchador cómo le fue", "archivo": "salidas/clipero/clips/2026-11-10-cotorrisa-yordi-plancha/clip.mp4", "ficha": "salidas/clipero/clips/2026-11-10-cotorrisa-yordi-plancha/ficha.md", "duracion_seg": 74.3, "fuente": { "url": "https://www.youtube.com/watch?v=jUfBJ_aIA3w", "canal": "Ricardo Pérez (La Cotorrisa)", "inicio": 1040.25, "fin": 1114.5 }, "oportunidad_cazador": null, "linea": "risas", "orden_en_fuente": 2, "variante_de": null, "diferencia": "", "derechos": "sin_verificar", "plataformas": ["tiktok", "instagram", "youtube"], "ventana_hasta": "2026-11-17" },
-                  { "id": "2026-11-10-cotorrisa-yordi-cuenta", "estado": "listo", "tipo": "historia", "puntaje": 76, "gancho": "El día que a Yordi Rosado le cobraron", "archivo": "salidas/clipero/clips/2026-11-10-cotorrisa-yordi-cuenta/clip.mp4", "ficha": "salidas/clipero/clips/2026-11-10-cotorrisa-yordi-cuenta/ficha.md", "duracion_seg": 65.5, "fuente": { "url": "https://www.youtube.com/watch?v=jUfBJ_aIA3w", "canal": "Ricardo Pérez (La Cotorrisa)", "inicio": 366.65, "fin": 432.1 }, "oportunidad_cazador": null, "linea": "risas", "orden_en_fuente": 3, "variante_de": null, "diferencia": "", "derechos": "sin_verificar", "plataformas": ["tiktok", "instagram", "youtube"], "ventana_hasta": "2026-11-17" },
-                  { "id": "2026-11-10-cotorrisa-vista-cansada", "estado": "listo", "tipo": "humor", "puntaje": 75, "gancho": "A los 40, la vista cansada llega así", "archivo": "salidas/clipero/clips/2026-11-10-cotorrisa-vista-cansada/clip.mp4", "ficha": "salidas/clipero/clips/2026-11-10-cotorrisa-vista-cansada/ficha.md", "duracion_seg": 62.9, "fuente": { "url": "https://www.youtube.com/watch?v=jUfBJ_aIA3w", "canal": "Ricardo Pérez (La Cotorrisa)", "inicio": 2707.17, "fin": 2770.07 }, "oportunidad_cazador": null, "linea": "risas", "orden_en_fuente": 4, "variante_de": null, "diferencia": "", "derechos": "sin_verificar", "plataformas": ["tiktok", "instagram", "youtube"], "ventana_hasta": "2026-11-17" },
+                  {
+                      "id":  "2026-11-17-culpa-marin-despide-quevedo",
+                      "estado":  "listo",
+                      "tipo":  "historia",
+                      "puntaje":  76,
+                      "gancho":  "Iván Marín tuvo que despedir a Ricardo Quevedo",
+                      "archivo":  "salidas/clipero/clips/2026-11-17-culpa-marin-despide-quevedo/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-17-culpa-marin-despide-quevedo/ficha.md",
+                      "duracion_seg":  71,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=OKqALYkh3LA",
+                                     "canal":  "Los De La Culpa",
+                                     "inicio":  2309.29,
+                                     "fin":  2380.26
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-20"
+                  },
+                  {
+                      "id":  "2026-11-17-culpa-mama-carrazo",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  75,
+                      "gancho":  "La versión de mamá cuando compras carro",
+                      "archivo":  "salidas/clipero/clips/2026-11-17-culpa-mama-carrazo/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-17-culpa-mama-carrazo/ficha.md",
+                      "duracion_seg":  49.8,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=OKqALYkh3LA",
+                                     "canal":  "Los De La Culpa",
+                                     "inicio":  983.13,
+                                     "fin":  1032.94
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-20"
+                  },
+                  {
+                      "id":  "2026-11-17-renona-checo-dinosaurios",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  74,
+                      "gancho":  "Franco responde por Checo… y se pasa",
+                      "archivo":  "salidas/clipero/clips/2026-11-17-renona-checo-dinosaurios/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-17-renona-checo-dinosaurios/ficha.md",
+                      "duracion_seg":  54.4,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=DpE-D9sdE9M",
+                                     "canal":  "Franco Escamilla",
+                                     "inicio":  5856.65,
+                                     "fin":  5910.98
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-21"
+                  },
+                  {
+                      "id":  "2026-11-17-olga-agua-mostaza",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  73,
+                      "gancho":  "Su amigo era adicto a algo asqueroso",
+                      "archivo":  "salidas/clipero/clips/2026-11-17-olga-agua-mostaza/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-17-olga-agua-mostaza/ficha.md",
+                      "duracion_seg":  42.2,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=a5BUB-t-bHM",
+                                     "canal":  "OLGA",
+                                     "inicio":  2395.41,
+                                     "fin":  2437.58
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-21"
+                  },
+                  {
+                      "id":  "2026-11-17-cotorrisa-refri-papas",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  67,
+                      "gancho":  "Hoy es el día de limpiar el refri",
+                      "archivo":  "salidas/clipero/clips/2026-11-17-cotorrisa-refri-papas/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-17-cotorrisa-refri-papas/ficha.md",
+                      "duracion_seg":  58.4,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=VzE65NyXqb8",
+                                     "canal":  "Ricardo Pérez",
+                                     "inicio":  3084.45,
+                                     "fin":  3142.77
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  3,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-19"
+                  },
+                  {
+                      "id":  "2026-11-17-ganga-robot-precio",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  74,
+                      "gancho":  "¿Cuánto cuesta un robot de Stream Fighters?",
+                      "archivo":  "salidas/clipero/clips/2026-11-17-ganga-robot-precio/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-17-ganga-robot-precio/ficha.md",
+                      "duracion_seg":  55.5,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=s1betCsTVVE",
+                                     "canal":  "LoncheWey",
+                                     "inicio":  2070.25,
+                                     "fin":  2125.78
+                                 },
+                      "oportunidad_cazador":  "formato-matematica-del-lujo",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-19"
+                  },
+                  {
+                      "id":  "2026-11-17-cotorrisa-paloma-medalla",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  68,
+                      "gancho":  "A una paloma le dieron medalla de guerra",
+                      "archivo":  "salidas/clipero/clips/2026-11-17-cotorrisa-paloma-medalla/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-17-cotorrisa-paloma-medalla/ficha.md",
+                      "duracion_seg":  48.3,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=VzE65NyXqb8",
+                                     "canal":  "Ricardo Pérez",
+                                     "inicio":  2582.13,
+                                     "fin":  2630.38
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-19"
+                  },
+                  {
+                      "id":  "2026-11-17-hh-aeropuerto-4am",
+                      "estado":  "listo",
+                      "tipo":  "historia",
+                      "puntaje":  74,
+                      "gancho":  "Los citaron a las 4 am en el aeropuerto",
+                      "archivo":  "salidas/clipero/clips/2026-11-17-hh-aeropuerto-4am/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-17-hh-aeropuerto-4am/ficha.md",
+                      "duracion_seg":  57.5,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=qDAqPW70T7c",
+                                     "canal":  "Hablando Huevadas",
+                                     "inicio":  2694.77,
+                                     "fin":  2752.18
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-19"
+                  },
+                  {
+                      "id":  "2026-11-17-hh-estafa-reventa",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  72,
+                      "gancho":  "Pagó la mitad por si era estafa",
+                      "archivo":  "salidas/clipero/clips/2026-11-17-hh-estafa-reventa/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-17-hh-estafa-reventa/ficha.md",
+                      "duracion_seg":  46.2,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=qDAqPW70T7c",
+                                     "canal":  "Hablando Huevadas",
+                                     "inicio":  363.45,
+                                     "fin":  409.6
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-19"
+                  },
+                  {
+                      "id":  "2026-11-17-hh-colada-bano",
+                      "estado":  "listo",
+                      "tipo":  "historia",
+                      "puntaje":  72,
+                      "gancho":  "Se coló al show escondida en el baño",
+                      "archivo":  "salidas/clipero/clips/2026-11-17-hh-colada-bano/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-17-hh-colada-bano/ficha.md",
+                      "duracion_seg":  64.6,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=qDAqPW70T7c",
+                                     "canal":  "Hablando Huevadas",
+                                     "inicio":  5744.97,
+                                     "fin":  5809.6
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  3,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-19"
+                  },
+                  {
+                      "id":  "2026-11-17-hh-colada-tres-minutos",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  71,
+                      "gancho":  "Se coló al show y duró 3 minutos",
+                      "archivo":  "salidas/clipero/clips/2026-11-17-hh-colada-tres-minutos/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-17-hh-colada-tres-minutos/ficha.md",
+                      "duracion_seg":  61.4,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=qDAqPW70T7c",
+                                     "canal":  "Hablando Huevadas",
+                                     "inicio":  5833.85,
+                                     "fin":  5895.26
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  4,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-19"
+                  },
+                  {
+                      "id":  "2026-11-17-hh-temblor-hijos",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  69,
+                      "gancho":  "Lo que descubrió durante un temblor",
+                      "archivo":  "salidas/clipero/clips/2026-11-17-hh-temblor-hijos/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-17-hh-temblor-hijos/ficha.md",
+                      "duracion_seg":  55.3,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=qDAqPW70T7c",
+                                     "canal":  "Hablando Huevadas",
+                                     "inicio":  4500.85,
+                                     "fin":  4556.1
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  5,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-19"
+                  },
+                  {
+                      "id":  "2026-11-17-hh-lluvia-lima",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  66,
+                      "gancho":  "Un peruano descubre la lluvia de verdad",
+                      "archivo":  "salidas/clipero/clips/2026-11-17-hh-lluvia-lima/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-17-hh-lluvia-lima/ficha.md",
+                      "duracion_seg":  46.2,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=qDAqPW70T7c",
+                                     "canal":  "Hablando Huevadas",
+                                     "inicio":  40.89,
+                                     "fin":  87.02
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  6,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-19"
+                  },
+                  {
+                      "id":  "2026-11-17-cotorrisa-suite-karol-g",
+                      "estado":  "listo",
+                      "tipo":  "historia",
+                      "puntaje":  72,
+                      "gancho":  "La suite de Karol G, a un volado",
+                      "archivo":  "salidas/clipero/clips/2026-11-17-cotorrisa-suite-karol-g/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-17-cotorrisa-suite-karol-g/ficha.md",
+                      "duracion_seg":  39.6,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=VzE65NyXqb8",
+                                     "canal":  "Ricardo Pérez",
+                                     "inicio":  241.49,
+                                     "fin":  281.04
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-19"
+                  },
+                  {
+                      "id":  "2026-11-17-westcol-daren-mentiroso",
+                      "estado":  "listo",
+                      "tipo":  "historia",
+                      "puntaje":  70,
+                      "gancho":  "Lo que Daren le dijo a Westcol después",
+                      "archivo":  "salidas/clipero/clips/2026-11-17-westcol-daren-mentiroso/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-17-westcol-daren-mentiroso/ficha.md",
+                      "duracion_seg":  27,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=YQ-vOO3-Ghk",
+                                     "canal":  "WestCOL",
+                                     "inicio":  589.41,
+                                     "fin":  616.38
+                                 },
+                      "oportunidad_cazador":  "formato-el-dia-despues-del-protagonista",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  4,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-18"
+                  },
+                  {
+                      "id":  "2026-11-17-westcol-show-kris-r",
+                      "estado":  "listo",
+                      "tipo":  "frase",
+                      "puntaje":  68,
+                      "gancho":  "Westcol sobre el show de Kris R",
+                      "archivo":  "salidas/clipero/clips/2026-11-17-westcol-show-kris-r/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-17-westcol-show-kris-r/ficha.md",
+                      "duracion_seg":  34.2,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=YQ-vOO3-Ghk",
+                                     "canal":  "WestCOL",
+                                     "inicio":  196.13,
+                                     "fin":  230.3
+                                 },
+                      "oportunidad_cazador":  "formato-el-dia-despues-del-protagonista",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  5,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-20"
+                  },
+                  {
+                      "id":  "2026-11-17-samulx-entrada-sin-musica",
+                      "estado":  "listo",
+                      "tipo":  "historia",
+                      "puntaje":  70,
+                      "gancho":  "Iba a salir con Akapellah… y pasó esto",
+                      "archivo":  "salidas/clipero/clips/2026-11-17-samulx-entrada-sin-musica/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-17-samulx-entrada-sin-musica/ficha.md",
+                      "duracion_seg":  63.3,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=GkojR4E0tuY",
+                                     "canal":  "Samulx",
+                                     "inicio":  1036.65,
+                                     "fin":  1099.98
+                                 },
+                      "oportunidad_cazador":  "formato-el-dia-despues-del-protagonista",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  8,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-18"
+                  },
+                  {
+                      "id":  "2026-11-17-samulx-hable-mucho",
+                      "estado":  "listo",
+                      "tipo":  "frase",
+                      "puntaje":  68,
+                      "gancho":  "Samulx, a los que dicen que habló mucho",
+                      "archivo":  "salidas/clipero/clips/2026-11-17-samulx-hable-mucho/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-17-samulx-hable-mucho/ficha.md",
+                      "duracion_seg":  19.9,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=GkojR4E0tuY",
+                                     "canal":  "Samulx",
+                                     "inicio":  97.05,
+                                     "fin":  116.94
+                                 },
+                      "oportunidad_cazador":  "formato-el-dia-despues-del-protagonista",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  9,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-18"
+                  },
+                  {
+                      "id":  "2026-11-17-samulx-cuerda-espalda",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  66,
+                      "gancho":  "Lo que más lo lastimó no fue la pelea",
+                      "archivo":  "salidas/clipero/clips/2026-11-17-samulx-cuerda-espalda/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-17-samulx-cuerda-espalda/ficha.md",
+                      "duracion_seg":  38.9,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=GkojR4E0tuY",
+                                     "canal":  "Samulx",
+                                     "inicio":  908.25,
+                                     "fin":  947.1
+                                 },
+                      "oportunidad_cazador":  "formato-el-dia-despues-del-protagonista",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  10,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-18"
+                  },
+                  {
+                      "id":  "2026-11-17-lonche-cinco-lesiones",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  74,
+                      "gancho":  "Lonche peleó la primera vez con cinco lesiones",
+                      "archivo":  "salidas/clipero/clips/2026-11-17-lonche-cinco-lesiones/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-17-lonche-cinco-lesiones/ficha.md",
+                      "duracion_seg":  38.4,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=s1betCsTVVE",
+                                     "canal":  "LoncheWey",
+                                     "inicio":  81.41,
+                                     "fin":  119.86
+                                 },
+                      "oportunidad_cazador":  "formato-el-dia-despues-del-protagonista",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-18"
+                  },
+                  {
+                      "id":  "2026-11-17-westcol-herrera-no-planeado",
+                      "estado":  "listo",
+                      "tipo":  "frase",
+                      "puntaje":  78,
+                      "gancho":  "¿Fue planeado lo de Herrera? Westcol responde",
+                      "archivo":  "salidas/clipero/clips/2026-11-17-westcol-herrera-no-planeado/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-17-westcol-herrera-no-planeado/ficha.md",
+                      "duracion_seg":  51.6,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=YQ-vOO3-Ghk",
+                                     "canal":  "WestCOL",
+                                     "inicio":  1199.77,
+                                     "fin":  1251.38
+                                 },
+                      "oportunidad_cazador":  "formato-el-dia-despues-del-protagonista",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-18"
+                  },
+                  {
+                      "id":  "2026-11-17-westcol-disculpa-pelea-jh",
+                      "estado":  "listo",
+                      "tipo":  "frase",
+                      "puntaje":  77,
+                      "gancho":  "Westcol pide perdón por la pelea de JH",
+                      "archivo":  "salidas/clipero/clips/2026-11-17-westcol-disculpa-pelea-jh/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-17-westcol-disculpa-pelea-jh/ficha.md",
+                      "duracion_seg":  61.6,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=YQ-vOO3-Ghk",
+                                     "canal":  "WestCOL",
+                                     "inicio":  1062.25,
+                                     "fin":  1123.86
+                                 },
+                      "oportunidad_cazador":  "formato-el-dia-despues-del-protagonista",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-18"
+                  },
+                  {
+                      "id":  "2026-11-17-westcol-boxeo-aburrido",
+                      "estado":  "listo",
+                      "tipo":  "frase",
+                      "puntaje":  76,
+                      "gancho":  "Westcol: entre más profesional, más aburrido el boxeo",
+                      "archivo":  "salidas/clipero/clips/2026-11-17-westcol-boxeo-aburrido/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-17-westcol-boxeo-aburrido/ficha.md",
+                      "duracion_seg":  45.1,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=YQ-vOO3-Ghk",
+                                     "canal":  "WestCOL",
+                                     "inicio":  952.61,
+                                     "fin":  997.7
+                                 },
+                      "oportunidad_cazador":  "formato-el-dia-despues-del-protagonista",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  3,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-19"
+                  },
+                  {
+                      "id":  "2026-11-17-samulx-retiro-boxeo",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  78,
+                      "gancho":  "Samulx: «creo que me voy a retirar»",
+                      "archivo":  "salidas/clipero/clips/2026-11-17-samulx-retiro-boxeo/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-17-samulx-retiro-boxeo/ficha.md",
+                      "duracion_seg":  30.1,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=GkojR4E0tuY",
+                                     "canal":  "Samulx",
+                                     "inicio":  970.77,
+                                     "fin":  1000.9
+                                 },
+                      "oportunidad_cazador":  "formato-el-dia-despues-del-protagonista",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-18"
+                  },
+                  {
+                      "id":  "2026-11-17-samulx-dime-que-no-puedes",
+                      "estado":  "listo",
+                      "tipo":  "historia",
+                      "puntaje":  77,
+                      "gancho":  "Se le salió el hombro y su entrenador…",
+                      "archivo":  "salidas/clipero/clips/2026-11-17-samulx-dime-que-no-puedes/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-17-samulx-dime-que-no-puedes/ficha.md",
+                      "duracion_seg":  54.1,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=GkojR4E0tuY",
+                                     "canal":  "Samulx",
+                                     "inicio":  213.93,
+                                     "fin":  267.98
+                                 },
+                      "oportunidad_cazador":  "formato-el-dia-despues-del-protagonista",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-18"
+                  },
+                  {
+                      "id":  "2026-11-17-samulx-cuarto-round",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  76,
+                      "gancho":  "Le dijeron que eran tres rounds…",
+                      "archivo":  "salidas/clipero/clips/2026-11-17-samulx-cuarto-round/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-17-samulx-cuarto-round/ficha.md",
+                      "duracion_seg":  41.1,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=GkojR4E0tuY",
+                                     "canal":  "Samulx",
+                                     "inicio":  384.69,
+                                     "fin":  425.74
+                                 },
+                      "oportunidad_cazador":  "formato-el-dia-despues-del-protagonista",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  3,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-18"
+                  },
+                  {
+                      "id":  "2026-11-17-samulx-camerino-herrera",
+                      "estado":  "listo",
+                      "tipo":  "historia",
+                      "puntaje":  75,
+                      "gancho":  "Lo que pasó en los camerinos con Herrera",
+                      "archivo":  "salidas/clipero/clips/2026-11-17-samulx-camerino-herrera/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-17-samulx-camerino-herrera/ficha.md",
+                      "duracion_seg":  54.6,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=GkojR4E0tuY",
+                                     "canal":  "Samulx",
+                                     "inicio":  1126.69,
+                                     "fin":  1181.3
+                                 },
+                      "oportunidad_cazador":  "formato-el-dia-despues-del-protagonista",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  4,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-18"
+                  },
+                  {
+                      "id":  "2026-11-17-samulx-prueba-antidoping",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  73,
+                      "gancho":  "La prueba antidoping de Samulx tras perder",
+                      "archivo":  "salidas/clipero/clips/2026-11-17-samulx-prueba-antidoping/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-17-samulx-prueba-antidoping/ficha.md",
+                      "duracion_seg":  27.4,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=GkojR4E0tuY",
+                                     "canal":  "Samulx",
+                                     "inicio":  575.81,
+                                     "fin":  603.14
+                                 },
+                      "oportunidad_cazador":  "formato-el-dia-despues-del-protagonista",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  5,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-18"
+                  },
+                  {
+                      "id":  "2026-11-17-samulx-camerino-robado",
+                      "estado":  "listo",
+                      "tipo":  "historia",
+                      "puntaje":  72,
+                      "gancho":  "Así le quitaron el camerino a Lonche y Willito",
+                      "archivo":  "salidas/clipero/clips/2026-11-17-samulx-camerino-robado/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-17-samulx-camerino-robado/ficha.md",
+                      "duracion_seg":  38.8,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=GkojR4E0tuY",
+                                     "canal":  "Samulx",
+                                     "inicio":  1346.41,
+                                     "fin":  1385.22
+                                 },
+                      "oportunidad_cazador":  "formato-el-dia-despues-del-protagonista",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  6,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-18"
+                  },
+                  {
+                      "id":  "2026-11-17-samulx-clinica-fotico",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  70,
+                      "gancho":  "Se iba de la clínica y el doctor…",
+                      "archivo":  "salidas/clipero/clips/2026-11-17-samulx-clinica-fotico/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-17-samulx-clinica-fotico/ficha.md",
+                      "duracion_seg":  52.4,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=GkojR4E0tuY",
+                                     "canal":  "Samulx",
+                                     "inicio":  843.05,
+                                     "fin":  895.46
+                                 },
+                      "oportunidad_cazador":  "formato-el-dia-despues-del-protagonista",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  7,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-18"
+                  },
+                  {
+                      "id":  "2026-11-15-nsn-spiderman-sudado",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  70,
+                      "gancho":  "El problema que nadie ve de Spider-Man",
+                      "archivo":  "salidas/clipero/clips/2026-11-15-nsn-spiderman-sudado/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-15-nsn-spiderman-sudado/ficha.md",
+                      "duracion_seg":  58.7,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=pSyuyPq7uh0",
+                                     "canal":  "Nadie Sabe Nada",
+                                     "inicio":  1831.53,
+                                     "fin":  1890.18
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  3,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-18"
+                  },
+                  {
+                      "id":  "2026-11-15-nsn-santa-regalos",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  70,
+                      "gancho":  "¿Por qué hay regalos si viene Santa Claus?",
+                      "archivo":  "salidas/clipero/clips/2026-11-15-nsn-santa-regalos/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-15-nsn-santa-regalos/ficha.md",
+                      "duracion_seg":  51.4,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=pSyuyPq7uh0",
+                                     "canal":  "Nadie Sabe Nada",
+                                     "inicio":  1035.33,
+                                     "fin":  1086.7
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-18"
+                  },
+                  {
+                      "id":  "2026-11-15-nsn-telefono-infancia",
+                      "estado":  "listo",
+                      "tipo":  "reaccion",
+                      "puntaje":  74,
+                      "gancho":  "Llamó al teléfono de su infancia… y contestaron",
+                      "archivo":  "salidas/clipero/clips/2026-11-15-nsn-telefono-infancia/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-15-nsn-telefono-infancia/ficha.md",
+                      "duracion_seg":  54.6,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=pSyuyPq7uh0",
+                                     "canal":  "Nadie Sabe Nada",
+                                     "inicio":  424.8,
+                                     "fin":  479.38
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-18"
+                  },
+                  {
+                      "id":  "2026-11-15-parenlamano-litkillah-kidkeo",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  70,
+                      "gancho":  "Lit Killah le escribió a Kid Keo y…",
+                      "archivo":  "salidas/clipero/clips/2026-11-15-parenlamano-litkillah-kidkeo/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-15-parenlamano-litkillah-kidkeo/ficha.md",
+                      "duracion_seg":  73.8,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=92HshiOuj1k",
+                                     "canal":  "Vorterix (Paren la Mano)",
+                                     "inicio":  1185.89,
+                                     "fin":  1259.62
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-18"
+                  },
+                  {
+                      "id":  "2026-11-15-parenlamano-barrera-2am",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  72,
+                      "gancho":  "La regla de las 2 de la mañana",
+                      "archivo":  "salidas/clipero/clips/2026-11-15-parenlamano-barrera-2am/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-15-parenlamano-barrera-2am/ficha.md",
+                      "duracion_seg":  61.1,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=92HshiOuj1k",
+                                     "canal":  "Vorterix (Paren la Mano)",
+                                     "inicio":  2494.25,
+                                     "fin":  2555.34
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-18"
+                  },
+                  {
+                      "id":  "2026-11-15-tirandobola-marco-gana",
+                      "estado":  "listo",
+                      "tipo":  "reaccion",
+                      "puntaje":  70,
+                      "gancho":  "Marco Polo le ganó a Franco al billar",
+                      "archivo":  "salidas/clipero/clips/2026-11-15-tirandobola-marco-gana/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-15-tirandobola-marco-gana/ficha.md",
+                      "duracion_seg":  31.3,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=niP1DkpCYvs",
+                                     "canal":  "Franco Escamilla (Tirando Bola)",
+                                     "inicio":  3486.25,
+                                     "fin":  3517.46
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  4,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-18"
+                  },
+                  {
+                      "id":  "2026-11-15-tirandobola-comentarios-bano",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  70,
+                      "gancho":  "Dónde lee Franco los comentarios negativos",
+                      "archivo":  "salidas/clipero/clips/2026-11-15-tirandobola-comentarios-bano/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-15-tirandobola-comentarios-bano/ficha.md",
+                      "duracion_seg":  31.6,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=niP1DkpCYvs",
+                                     "canal":  "Franco Escamilla (Tirando Bola)",
+                                     "inicio":  2149.97,
+                                     "fin":  2181.5
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  3,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-18"
+                  },
+                  {
+                      "id":  "2026-11-15-tirandobola-luz-experiencias",
+                      "estado":  "listo",
+                      "tipo":  "frase",
+                      "puntaje":  72,
+                      "gancho":  "¿Se paga la luz con experiencias?",
+                      "archivo":  "salidas/clipero/clips/2026-11-15-tirandobola-luz-experiencias/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-15-tirandobola-luz-experiencias/ficha.md",
+                      "duracion_seg":  62.7,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=niP1DkpCYvs",
+                                     "canal":  "Franco Escamilla (Tirando Bola)",
+                                     "inicio":  1721.17,
+                                     "fin":  1783.82
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-18"
+                  },
+                  {
+                      "id":  "2026-11-15-tirandobola-perra-amigo",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  74,
+                      "gancho":  "Cuando Franco no te insulta, preocúpate",
+                      "archivo":  "salidas/clipero/clips/2026-11-15-tirandobola-perra-amigo/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-15-tirandobola-perra-amigo/ficha.md",
+                      "duracion_seg":  39.3,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=niP1DkpCYvs",
+                                     "canal":  "Franco Escamilla (Tirando Bola)",
+                                     "inicio":  1543.73,
+                                     "fin":  1583.02
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-18"
+                  },
+                  {
+                      "id":  "2026-11-15-parenlamano-luquitas-zapatilla",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  69,
+                      "gancho":  "Mientras Luquitas hablaba con el Papa…",
+                      "archivo":  "salidas/clipero/clips/2026-11-15-parenlamano-luquitas-zapatilla/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-15-parenlamano-luquitas-zapatilla/ficha.md",
+                      "duracion_seg":  63.6,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=uRZ2xc4sRyA",
+                                     "canal":  "Vorterix (Paren la Mano)",
+                                     "inicio":  149.97,
+                                     "fin":  213.58
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-17"
+                  },
+                  {
+                      "id":  "2026-11-15-parenlamano-luquitas-turista",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  70,
+                      "gancho":  "Le habló al Papa y viajó en turista",
+                      "archivo":  "salidas/clipero/clips/2026-11-15-parenlamano-luquitas-turista/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-15-parenlamano-luquitas-turista/ficha.md",
+                      "duracion_seg":  61.2,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=uRZ2xc4sRyA",
+                                     "canal":  "Vorterix (Paren la Mano)",
+                                     "inicio":  421.45,
+                                     "fin":  482.62
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-17"
+                  },
+                  {
+                      "id":  "2026-11-15-stf5-ganga-cara-a-cara",
+                      "estado":  "listo",
+                      "tipo":  "confrontacion",
+                      "puntaje":  74,
+                      "gancho":  "El cara a cara de la Ganga se calentó",
+                      "archivo":  "salidas/clipero/clips/2026-11-15-stf5-ganga-cara-a-cara/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-15-stf5-ganga-cara-a-cara/ficha.md",
+                      "duracion_seg":  39.1,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=zkf8bOkg9kk",
+                                     "canal":  "WestCOL",
+                                     "inicio":  8753.77,
+                                     "fin":  8792.86
+                                 },
+                      "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-16"
+                  },
+                  {
+                      "id":  "2026-11-15-stf5-westcol-grefg-frunci",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  74,
+                      "gancho":  "Lo que sintió Westcol al ver a Grefg",
+                      "archivo":  "salidas/clipero/clips/2026-11-15-stf5-westcol-grefg-frunci/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-15-stf5-westcol-grefg-frunci/ficha.md",
+                      "duracion_seg":  30.5,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=zkf8bOkg9kk",
+                                     "canal":  "WestCOL",
+                                     "inicio":  2759.61,
+                                     "fin":  2790.1
+                                 },
+                      "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-16"
+                  },
+                  {
+                      "id":  "2026-11-14-stf5-westcol-patadita",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  72,
+                      "gancho":  "La patadita de la buena suerte para Westcol",
+                      "archivo":  "salidas/clipero/clips/2026-11-14-stf5-westcol-patadita/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-14-stf5-westcol-patadita/ficha.md",
+                      "duracion_seg":  65.3,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=pofJeEqiGF0",
+                                     "canal":  "WestCOL Exclusive",
+                                     "inicio":  285.09,
+                                     "fin":  350.4
+                                 },
+                      "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-16"
+                  },
+                  {
+                      "id":  "2026-11-14-stf5-daren-quiero-guerra",
+                      "estado":  "listo",
+                      "tipo":  "frase",
+                      "puntaje":  72,
+                      "gancho":  "Daren tras su primera victoria en Stream Fighters",
+                      "archivo":  "salidas/clipero/clips/2026-11-14-stf5-daren-quiero-guerra/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-14-stf5-daren-quiero-guerra/ficha.md",
+                      "duracion_seg":  50.3,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=G7gj3T1-_lk",
+                                     "canal":  "WestCOL Exclusive",
+                                     "inicio":  709.73,
+                                     "fin":  760.06
+                                 },
+                      "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-16",
+                      "nota":  "Logos de Stake (apuestas) y Kick en las cuerdas del ring: ver antes de publicar"
+                  },
+                  {
+                      "id":  "2026-11-14-stf5-daren-cinco-segundos",
+                      "estado":  "listo",
+                      "tipo":  "reaccion",
+                      "puntaje":  78,
+                      "gancho":  "En 5 segundos tumbó al Agropecuario",
+                      "archivo":  "salidas/clipero/clips/2026-11-14-stf5-daren-cinco-segundos/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-14-stf5-daren-cinco-segundos/ficha.md",
+                      "duracion_seg":  31.5,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=G7gj3T1-_lk",
+                                     "canal":  "WestCOL Exclusive",
+                                     "inicio":  105.69,
+                                     "fin":  137.2
+                                 },
+                      "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-16",
+                      "nota":  "Logos de Stake (apuestas) y Kick en las cuerdas del ring y mosca pequeña de patrocinador en la esquina de la transmisión durante todo el combate: ver antes de publicar"
+                  },
+                  {
+                      "id":  "2026-11-13-samulx-chanty-cruce-willito",
+                      "estado":  "listo",
+                      "tipo":  "reaccion",
+                      "puntaje":  66,
+                      "gancho":  "A un día de pelear, se cruzan con Willito",
+                      "archivo":  "salidas/clipero/clips/2026-11-13-samulx-chanty-cruce-willito/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-13-samulx-chanty-cruce-willito/ficha.md",
+                      "duracion_seg":  64.2,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=Gnhd74tjACk",
+                                     "canal":  "Live Samulx",
+                                     "inicio":  513.97,
+                                     "fin":  578.14
+                                 },
+                      "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-16"
+                  },
+                  {
+                      "id":  "2026-11-13-jhovanoty-radar-eldorado",
+                      "estado":  "listo",
+                      "tipo":  "historia",
+                      "puntaje":  72,
+                      "gancho":  "Cuando se cayó el radar de El Dorado",
+                      "archivo":  "salidas/clipero/clips/2026-11-13-jhovanoty-radar-eldorado/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-13-jhovanoty-radar-eldorado/ficha.md",
+                      "duracion_seg":  56.2,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=lEDdtE48rBk",
+                                     "canal":  "Jhovanoty",
+                                     "inicio":  112.55,
+                                     "fin":  168.7
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-18"
+                  },
+                  {
+                      "id":  "2026-11-13-jhovanoty-faja-disfraz",
+                      "estado":  "listo",
+                      "tipo":  "historia",
+                      "puntaje":  73,
+                      "gancho":  "Su disfraz de De la Espriella pedía faja",
+                      "archivo":  "salidas/clipero/clips/2026-11-13-jhovanoty-faja-disfraz/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-13-jhovanoty-faja-disfraz/ficha.md",
+                      "duracion_seg":  72.4,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=lEDdtE48rBk",
+                                     "canal":  "Jhovanoty",
+                                     "inicio":  683.55,
+                                     "fin":  755.9
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "politica":  "derecha (disfraz de Halloween de Abelardo de la Espriella, presidente; habla el humorista Jhovanoty, no el político)",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-18"
+                  },
+                  {
+                      "id":  "2026-11-13-parenlamano-papa-a-dormir",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  70,
+                      "gancho":  "Así imaginan al Papa cuando ya quiere dormir",
+                      "archivo":  "salidas/clipero/clips/2026-11-13-parenlamano-papa-a-dormir/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-13-parenlamano-papa-a-dormir/ficha.md",
+                      "duracion_seg":  44.5,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=K4MCv-DXdmI",
+                                     "canal":  "Paren La Mano (Vorterix)",
+                                     "inicio":  1547.96,
+                                     "fin":  1592.41
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-17"
+                  },
+                  {
+                      "id":  "2026-11-13-parenlamano-cardenal-prevost",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  72,
+                      "gancho":  "Hace dos años nadie conocía al Papa",
+                      "archivo":  "salidas/clipero/clips/2026-11-13-parenlamano-cardenal-prevost/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-13-parenlamano-cardenal-prevost/ficha.md",
+                      "duracion_seg":  57.9,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=K4MCv-DXdmI",
+                                     "canal":  "Paren La Mano (Vorterix)",
+                                     "inicio":  1792.36,
+                                     "fin":  1850.26
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-17"
+                  },
+                  {
+                      "id":  "2026-11-13-cotorrisa-dicaprio-sandwich",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  67,
+                      "gancho":  "DiCaprio comió hígado crudo de bisonte",
+                      "archivo":  "salidas/clipero/clips/2026-11-13-cotorrisa-dicaprio-sandwich/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-13-cotorrisa-dicaprio-sandwich/ficha.md",
+                      "duracion_seg":  71.9,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=XUh-fUA_o30",
+                                     "canal":  "Slobotzky (La Cotorrisa)",
+                                     "inicio":  2369.25,
+                                     "fin":  2441.06
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  5,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-18"
+                  },
+                  {
+                      "id":  "2026-11-13-cotorrisa-pastor-gases",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  70,
+                      "gancho":  "El pastor que \u0027cura\u0027 con gases",
+                      "archivo":  "salidas/clipero/clips/2026-11-13-cotorrisa-pastor-gases/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-13-cotorrisa-pastor-gases/ficha.md",
+                      "duracion_seg":  72,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=XUh-fUA_o30",
+                                     "canal":  "Slobotzky (La Cotorrisa)",
+                                     "inicio":  7122.65,
+                                     "fin":  7194.65
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  4,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-18"
+                  },
+                  {
+                      "id":  "2026-11-13-cotorrisa-papa-cadenero",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  71,
+                      "gancho":  "El Papa Francisco fue cadenero de antro",
+                      "archivo":  "salidas/clipero/clips/2026-11-13-cotorrisa-papa-cadenero/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-13-cotorrisa-papa-cadenero/ficha.md",
+                      "duracion_seg":  29.6,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=XUh-fUA_o30",
+                                     "canal":  "Slobotzky (La Cotorrisa)",
+                                     "inicio":  6913.09,
+                                     "fin":  6942.69
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-18"
+                  },
+                  {
+                      "id":  "2026-11-13-cotorrisa-vinchi-dicaprio",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  72,
+                      "gancho":  "Por qué DiCaprio se llama Leonardo",
+                      "archivo":  "salidas/clipero/clips/2026-11-13-cotorrisa-vinchi-dicaprio/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-13-cotorrisa-vinchi-dicaprio/ficha.md",
+                      "duracion_seg":  41.4,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=XUh-fUA_o30",
+                                     "canal":  "Slobotzky (La Cotorrisa)",
+                                     "inicio":  2291.73,
+                                     "fin":  2333.1
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-18"
+                  },
+                  {
+                      "id":  "2026-11-13-cotorrisa-navajas-suizas",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  71,
+                      "gancho":  "16 navajas suizas en la pañalera",
+                      "archivo":  "salidas/clipero/clips/2026-11-13-cotorrisa-navajas-suizas/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-13-cotorrisa-navajas-suizas/ficha.md",
+                      "duracion_seg":  36.8,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=XUh-fUA_o30",
+                                     "canal":  "Slobotzky (La Cotorrisa)",
+                                     "inicio":  1541.13,
+                                     "fin":  1577.94
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  3,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-18"
+                  },
+                  {
+                      "id":  "2026-11-12-culpa-ivan-piscina",
+                      "estado":  "listo",
+                      "tipo":  "historia",
+                      "puntaje":  70,
+                      "gancho":  "El consejo que casi ahoga a Iván Marín",
+                      "archivo":  "salidas/clipero/clips/2026-11-12-culpa-ivan-piscina/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-12-culpa-ivan-piscina/ficha.md",
+                      "duracion_seg":  21.8,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=3BAphhKqHUw",
+                                     "canal":  "Los De La Culpa",
+                                     "inicio":  2268.85,
+                                     "fin":  2290.54
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  5,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-17"
+                  },
+                  {
+                      "id":  "2026-11-12-culpa-quevedo-mentiras",
+                      "estado":  "listo",
+                      "tipo":  "consejo",
+                      "puntaje":  72,
+                      "gancho":  "Ricardo Quevedo: \u0027digan mentiras con buena intención\u0027",
+                      "archivo":  "salidas/clipero/clips/2026-11-12-culpa-quevedo-mentiras/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-12-culpa-quevedo-mentiras/ficha.md",
+                      "duracion_seg":  31.7,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=3BAphhKqHUw",
+                                     "canal":  "Los De La Culpa",
+                                     "inicio":  2079.81,
+                                     "fin":  2111.46
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  4,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-17"
+                  },
+                  {
+                      "id":  "2026-11-12-cotorrisa-harvard",
+                      "estado":  "listo",
+                      "tipo":  "consejo",
+                      "puntaje":  70,
+                      "gancho":  "Por qué hay gente que te baja los sueños",
+                      "archivo":  "salidas/clipero/clips/2026-11-12-cotorrisa-harvard/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-12-cotorrisa-harvard/ficha.md",
+                      "duracion_seg":  61.5,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=jUfBJ_aIA3w",
+                                     "canal":  "Ricardo Pérez",
+                                     "inicio":  4191.61,
+                                     "fin":  4253.1
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  7,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-17"
+                  },
+                  {
+                      "id":  "2026-11-12-cotorrisa-dedito-flaco",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  70,
+                      "gancho":  "Cómo elegir al doctor del tacto",
+                      "archivo":  "salidas/clipero/clips/2026-11-12-cotorrisa-dedito-flaco/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-12-cotorrisa-dedito-flaco/ficha.md",
+                      "duracion_seg":  23,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=jUfBJ_aIA3w",
+                                     "canal":  "Ricardo Pérez",
+                                     "inicio":  1540.09,
+                                     "fin":  1563.06
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  6,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-17"
+                  },
+                  {
+                      "id":  "2026-11-12-cotorrisa-codigo-22",
+                      "estado":  "listo",
+                      "tipo":  "historia",
+                      "puntaje":  74,
+                      "gancho":  "El \u0027código 22\u0027 de los restaurantes",
+                      "archivo":  "salidas/clipero/clips/2026-11-12-cotorrisa-codigo-22/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-12-cotorrisa-codigo-22/ficha.md",
+                      "duracion_seg":  71.1,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=jUfBJ_aIA3w",
+                                     "canal":  "Ricardo Pérez",
+                                     "inicio":  210.61,
+                                     "fin":  281.7
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  5,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-17"
+                  },
+                  {
+                      "id":  "2026-11-12-ballarta-champana",
+                      "estado":  "listo",
+                      "tipo":  "historia",
+                      "puntaje":  67,
+                      "gancho":  "Ballarta y el amigo que no toma nada",
+                      "archivo":  "salidas/clipero/clips/2026-11-12-ballarta-champana/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-12-ballarta-champana/ficha.md",
+                      "duracion_seg":  38.5,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=W3kk6XMYfYI",
+                                     "canal":  "Carlos Ballarta",
+                                     "inicio":  87.85,
+                                     "fin":  126.3
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-15"
+                  },
+                  {
+                      "id":  "2026-11-11-francupido-plantada-langosta",
+                      "estado":  "listo",
+                      "tipo":  "emotivo",
+                      "puntaje":  79,
+                      "gancho":  "La dejaron plantada y cenó langosta",
+                      "archivo":  "salidas/clipero/clips/2026-11-11-francupido-plantada-langosta/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-11-francupido-plantada-langosta/ficha.md",
+                      "duracion_seg":  42.3,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=NiWsTPALopk",
+                                     "canal":  "Franco Escamilla",
+                                     "inicio":  1757.96,
+                                     "fin":  1800.2
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-15"
+                  },
+                  {
+                      "id":  "2026-11-10-culpa-super-alexis",
+                      "estado":  "listo",
+                      "tipo":  "historia",
+                      "puntaje":  77,
+                      "gancho":  "Lo saludó como Alexis Lozano… y era Nino",
+                      "archivo":  "salidas/clipero/clips/2026-11-10-culpa-super-alexis/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-10-culpa-super-alexis/ficha.md",
+                      "duracion_seg":  66.9,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=3BAphhKqHUw",
+                                     "canal":  "Los De La Culpa",
+                                     "inicio":  822.57,
+                                     "fin":  889.4
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  3,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-17"
+                  },
+                  {
+                      "id":  "2026-11-11-westcol-samulx-mosquito-ia",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  82,
+                      "gancho":  "Le piden a la IA traducir al mosquito",
+                      "archivo":  "salidas/clipero/clips/2026-11-11-westcol-samulx-mosquito-ia/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-11-westcol-samulx-mosquito-ia/ficha.md",
+                      "duracion_seg":  73.9,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=lFccZHkPkJU",
+                                     "canal":  "juan diego mm",
+                                     "inicio":  1138.93,
+                                     "fin":  1212.8
+                                 },
+                      "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-14"
+                  },
+                  {
+                      "id":  "2026-11-11-westcol-samulx-bicho-gigante",
+                      "estado":  "listo",
+                      "tipo":  "reaccion",
+                      "puntaje":  78,
+                      "gancho":  "Se les metió un bicho gigante al stream",
+                      "archivo":  "salidas/clipero/clips/2026-11-11-westcol-samulx-bicho-gigante/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-11-westcol-samulx-bicho-gigante/ficha.md",
+                      "duracion_seg":  39.7,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=lFccZHkPkJU",
+                                     "canal":  "juan diego mm",
+                                     "inicio":  573.37,
+                                     "fin":  613.02
+                                 },
+                      "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-14"
+                  },
+                  {
+                      "id":  "2026-11-11-westcol-grefg-unico-golpe",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  74,
+                      "gancho":  "El golpe de Grefg que sí sintió Westcol",
+                      "archivo":  "salidas/clipero/clips/2026-11-11-westcol-grefg-unico-golpe/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-11-westcol-grefg-unico-golpe/ficha.md",
+                      "duracion_seg":  59.4,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=Qyzqh4tJp0M",
+                                     "canal":  "Samulx",
+                                     "inicio":  3400.33,
+                                     "fin":  3459.74
+                                 },
+                      "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-14"
+                  },
+                  {
+                      "id":  "2026-11-10-culpa-tato-diesel",
+                      "estado":  "listo",
+                      "tipo":  "historia",
+                      "puntaje":  80,
+                      "gancho":  "Le echó gasolina a un carro diésel",
+                      "archivo":  "salidas/clipero/clips/2026-11-10-culpa-tato-diesel/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-10-culpa-tato-diesel/ficha.md",
+                      "duracion_seg":  51,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=3BAphhKqHUw",
+                                     "canal":  "Los De La Culpa",
+                                     "inicio":  504.77,
+                                     "fin":  555.78
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-17"
+                  },
+                  {
+                      "id":  "2026-11-10-culpa-ivan-senorazo",
+                      "estado":  "listo",
+                      "tipo":  "historia",
+                      "puntaje":  78,
+                      "gancho":  "Iván Marín y su saludo a Jessi Uribe",
+                      "archivo":  "salidas/clipero/clips/2026-11-10-culpa-ivan-senorazo/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-10-culpa-ivan-senorazo/ficha.md",
+                      "duracion_seg":  52.8,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=3BAphhKqHUw",
+                                     "canal":  "Los De La Culpa",
+                                     "inicio":  751.49,
+                                     "fin":  804.26
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-17"
+                  },
+                  {
+                      "id":  "2026-11-10-cotorrisa-yordi-tacto",
+                      "estado":  "listo",
+                      "tipo":  "historia",
+                      "puntaje":  82,
+                      "gancho":  "Yordi Rosado y su primer tacto de próstata",
+                      "archivo":  "salidas/clipero/clips/2026-11-10-cotorrisa-yordi-tacto/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-10-cotorrisa-yordi-tacto/ficha.md",
+                      "duracion_seg":  42.5,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=jUfBJ_aIA3w",
+                                     "canal":  "Ricardo Pérez (La Cotorrisa)",
+                                     "inicio":  1696.37,
+                                     "fin":  1738.82
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-17"
+                  },
+                  {
+                      "id":  "2026-11-10-cotorrisa-yordi-plancha",
+                      "estado":  "listo",
+                      "tipo":  "historia",
+                      "puntaje":  78,
+                      "gancho":  "Le preguntó a un luchador cómo le fue",
+                      "archivo":  "salidas/clipero/clips/2026-11-10-cotorrisa-yordi-plancha/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-10-cotorrisa-yordi-plancha/ficha.md",
+                      "duracion_seg":  74.3,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=jUfBJ_aIA3w",
+                                     "canal":  "Ricardo Pérez (La Cotorrisa)",
+                                     "inicio":  1040.25,
+                                     "fin":  1114.5
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-17"
+                  },
+                  {
+                      "id":  "2026-11-10-cotorrisa-yordi-cuenta",
+                      "estado":  "listo",
+                      "tipo":  "historia",
+                      "puntaje":  76,
+                      "gancho":  "El día que a Yordi Rosado le cobraron",
+                      "archivo":  "salidas/clipero/clips/2026-11-10-cotorrisa-yordi-cuenta/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-10-cotorrisa-yordi-cuenta/ficha.md",
+                      "duracion_seg":  65.5,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=jUfBJ_aIA3w",
+                                     "canal":  "Ricardo Pérez (La Cotorrisa)",
+                                     "inicio":  366.65,
+                                     "fin":  432.1
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  3,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-17"
+                  },
+                  {
+                      "id":  "2026-11-10-cotorrisa-vista-cansada",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  75,
+                      "gancho":  "A los 40, la vista cansada llega así",
+                      "archivo":  "salidas/clipero/clips/2026-11-10-cotorrisa-vista-cansada/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-10-cotorrisa-vista-cansada/ficha.md",
+                      "duracion_seg":  62.9,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=jUfBJ_aIA3w",
+                                     "canal":  "Ricardo Pérez (La Cotorrisa)",
+                                     "inicio":  2707.17,
+                                     "fin":  2770.07
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  4,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-17"
+                  },
                   {
                       "id":  "2026-11-10-westcol-samulx-lonche-excusas",
                       "estado":  "listo",

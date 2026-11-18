@@ -1,6 +1,10 @@
 # La noche en 3 momentos (lo que no salió en las noticias)
 
-> **Estado (17-nov, 00:40, ciclo 13): en pausa hasta el concierto de Kris R.** Los dos eventos del fin de semana ya no se recomiendan:
+> **Estado (17-nov, 18:40, ciclo 14): sigue en pausa hasta el concierto de Kris R.** Sin cambios en la ficha. Dos avisos:
+> - **Fecha:** casi todas las fuentes dicen viernes 20-nov a las 20:00 en el DAVIarena de Sabaneta (Minuto30, Rio Times, la boletería), pero Blu Radio lo da el 23-nov como cierre de la gira 'El Trap de Kolombia'. Confírmalo el mismo día en su Instagram o en su canal antes de preparar las piezas.
+> - **Stream Fighters 5 pasa a quemado** y **Luzu TV contra 412 a saturación**: ninguno de los dos vuelve a esta ficha.
+>
+> **Estado anterior (17-nov, 00:40, ciclo 13): en pausa hasta el concierto de Kris R.** Los dos eventos del fin de semana ya no se recomiendan:
 > - **Stream Fighters 5** pasa a saturación (índice 72). '#StreamFighters5' y 'Herrera' salen de X Colombia, los destaques de Kick se frenan y las recopilaciones de terceros no rinden ('LO MÁS RANDOM de la VELADA DE WESTCOL 2026', 9/h).
 > - **Luzu TV contra 412** pasa a pico (puntaje 58). El directo de Luzu se frena (5,95 M a las 32,6 h) y la conversación de terceros gira al chisme del cruce entre Occhiato y Agusneta.
 > - **Lo que sigue rindiendo** es el día después contado por los protagonistas, con otra ficha: [formato-lo-que-no-se-vio](formato-lo-que-no-se-vio.md) (Westcol sobre Herrera, 5,2 veces su mediana; Samulx desde los camerinos; Davoo, '¿MERECIMOS PERDER?').

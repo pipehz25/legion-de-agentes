@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-17-olga-agua-mostaza",
+    "url_fuente":  "https://www.youtube.com/watch?v=a5BUB-t-bHM",
+    "video_id":  "a5BUB-t-bHM",
+    "inicio":  2395.41,
+    "fin":  2437.58,
+    "inicio_hms":  "0:39:55",
+    "duracion_seg":  42.2,
+    "gancho":  "Su amigo era adicto a algo asqueroso",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  129,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -14.48,
+                  "entrada_tp":  -1.93,
+                  "salida_lufs":  -14,
+                  "salida_tp":  -1.45
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-17-olga-agua-mostaza/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-17-olga-agua-mostaza/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-17-olga-agua-mostaza/revision.jpg",
+    "creado":  "2026-11-17T19:19:22.0165343-05:00"
+}

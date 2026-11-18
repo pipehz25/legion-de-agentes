@@ -1,6 +1,11 @@
 # El invitado le califica el negocio al anfitrión (en su cara)
 
-> **Estado (17-nov, ciclo 13): en vigilancia hasta el 19-nov, con puntaje 66 (antes 75).** Samulx lleva 96 h sin piezas de "primera vez": después de la pelea solo cuenta los camerinos y su lesión. Lo nuevo es que cuatro streamers mexicanos (Lonche, Willito, Jelty y SoyPan) se quedan en Medellín con La Ganga.
+> **Estado (17-nov, 18:40, ciclo 14): en vigilancia hasta el 19-nov, con puntaje 69 (antes 66).** Lo nuevo:
+> - **El gancho "por primera vez" rinde en el reencuentro.** ['ESTO SE SALIO DE CONTROL… TODA LA GANGA REUNIDA POR PRIMERA VEZ'](https://www.youtube.com/watch?v=VrZCpUujrTQ) de Samulx va a 6.352/h a las 17,8 h, **2,5 veces su mediana**, y lo repiten juan diego mm y Lonche Chacas. Pero es la reunión del grupo, no el visitante que prueba algo del anfitrión: la plantilla del veredicto en la cara sigue sin pieza nueva.
+> - **Última ocasión antes del 19-nov: las 24 horas con La Ganga.** Desde el 17-nov hacia las 15:40, Westcol, Lonche, Samulx, The Chanty, Willito y SoyPan emiten a la vez por Medellín (Kick, IRL). Hacia las 18:00, Westcol tenía 102.911 espectadores y Lonche 43.750. Si en ese directo un mexicano prueba y califica algo de Westcol (Fuego Burger) o de la ciudad, esa es la pieza: búscala en los VOD que salen el 18-nov por la tarde.
+> - Si no aparece, la ficha sale de las recomendaciones el 19-nov, cuando todos pasan a GTA VI.
+>
+> **Estado anterior (17-nov, ciclo 13): en vigilancia hasta el 19-nov, con puntaje 66 (antes 75).** Samulx lleva 96 h sin piezas de "primera vez": después de la pelea solo cuenta los camerinos y su lesión. Lo nuevo es que cuatro streamers mexicanos (Lonche, Willito, Jelty y SoyPan) se quedan en Medellín con La Ganga.
 > - Su directo juntos del 16-nov es lo más visto del día en Kick: 'COTORREANDO CON LA GANGA EN COLOMBIA' de Lonche, 1,64 M a las 4,2 h.
 > - Si alguno prueba y califica algo de Westcol o de la ciudad (Fuego Burger, un barrio, un precio) antes del 19-nov, esta ficha vuelve a ser la prioritaria, con la misma plantilla de veredicto en la cara.
 > - Si no, sale de las recomendaciones.

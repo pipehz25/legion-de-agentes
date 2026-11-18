@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-17-renona-checo-dinosaurios",
+    "url_fuente":  "https://www.youtube.com/watch?v=DpE-D9sdE9M",
+    "video_id":  "DpE-D9sdE9M",
+    "inicio":  5856.65,
+    "fin":  5910.98,
+    "inicio_hms":  "1:37:36",
+    "duracion_seg":  54.4,
+    "gancho":  "Franco responde por Checo… y se pasa",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  94,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -13.12,
+                  "entrada_tp":  -0.57,
+                  "salida_lufs":  -14,
+                  "salida_tp":  -1.45
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-17-renona-checo-dinosaurios/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-17-renona-checo-dinosaurios/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-17-renona-checo-dinosaurios/revision.jpg",
+    "creado":  "2026-11-17T19:16:50.8410879-05:00"
+}

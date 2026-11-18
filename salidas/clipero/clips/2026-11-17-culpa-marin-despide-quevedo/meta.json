@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-17-culpa-marin-despide-quevedo",
+    "url_fuente":  "https://www.youtube.com/watch?v=OKqALYkh3LA",
+    "video_id":  "OKqALYkh3LA",
+    "inicio":  2309.29,
+    "fin":  2380.26,
+    "inicio_hms":  "0:38:29",
+    "duracion_seg":  71,
+    "gancho":  "Iván Marín tuvo que despedir a Ricardo Quevedo",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  281,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -9.57,
+                  "entrada_tp":  1.1,
+                  "salida_lufs":  -14.04,
+                  "salida_tp":  -3.33
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-17-culpa-marin-despide-quevedo/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-17-culpa-marin-despide-quevedo/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-17-culpa-marin-despide-quevedo/revision.jpg",
+    "creado":  "2026-11-17T19:07:08.0062948-05:00"
+}

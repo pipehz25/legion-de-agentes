@@ -1,6 +1,11 @@
 # ¿Cuánto te deja? La cifra del negocio, dicha por el dueño
 
-> **Estado (17-nov, ciclo 13): vigente hasta el 24-nov, con puntaje 72 (antes 71).** Lo nuevo:
+> **Estado (17-nov, 18:40, ciclo 14): vigente hasta el 24-nov, con puntaje 73 (antes 72).** Lo nuevo:
+> - **El precio de lo que llevan los famosos ya pasa de 2 veces.** ['¿CUÁNTO VALE TU OUTFIT? EN STREAM FIGHTERS 5'](https://www.youtube.com/watch?v=_koEcQBXZnw) de Jorge Andrés, con Kris R y Hades66, llega a 433.379 vistas a las 46,5 h: **2,09 veces la mediana** de su canal (207.784), frente a 1,57 veces a las 28 h. Y el corto ['Cuanto Vale Tu Outfit???'](https://www.youtube.com/watch?v=l47kwgd8L0I) de CierzoClub sube a 4.989 vistas, de 130 a 200 veces sus otros cortos.
+> - **Sin piezas nuevas en 36 h**, ni de outfits ni de empresarios. Diego RR emite en directo 'RR WELLNESS con modelos e influencers de MDE' (Kick, 15 espectadores): si dice cifras del negocio, es la fuente de la variante de empresarios, aunque con esa audiencia no se prioriza.
+> - **Próxima ocasión:** lo que lleve Kris R en su concierto del DAVIarena (viernes 20-nov según casi todas las fuentes; Blu Radio dice 23-nov), con el precio dicho por él o por su equipo en cámara.
+>
+> **Estado anterior (17-nov, ciclo 13): vigente hasta el 24-nov, con puntaje 72 (antes 71).** Lo nuevo:
 > - **El precio revelado de los famosos sobre-rinde; el precio solo, no.** Con la mediana de Jorge Andrés medida (207.784 vistas en sus 9 videos anteriores, casi todos con el precio en el título), ['¿CUÁNTO VALE TU OUTFIT? EN STREAM FIGHTERS 5'](https://www.youtube.com/watch?v=_koEcQBXZnw) llega a 327.242 vistas a las 28,4 h, 1,57 veces esa mediana. Lo que cambia frente a sus otros videos es quién lleva la ropa: Kris R y Hades66 en un evento.
 > - **Para la música urbana:**
 >   - La pieza es "¿Cuánto vale lo que lleva puesto Kris R?", con el precio en pantalla cuando lo dice él.

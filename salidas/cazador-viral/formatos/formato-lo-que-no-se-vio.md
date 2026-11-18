@@ -1,6 +1,15 @@
 # Lo que no se vio (el día después, contado por el protagonista)
 
-> **Estado (17-nov, 00:30, ciclo 13): ficha nueva.**
+> **Estado (17-nov, 18:40, ciclo 14): vigente hasta el 22-nov, con puntaje 84 (antes 82). Lo nuevo:**
+> - **La señal más fuerte hasta ahora:** a las 20 h, '[¿Que pasara con HERRERA…?](https://www.youtube.com/watch?v=YQ-vOO3-Ghk)' de Westcol suma 420.037 vistas (20.794/h), **11 veces la mediana de su canal** (1.896/h). A las 2 h iba a 5,2 veces: acelera en vez de frenarse.
+> - **Sin pregunta ni revelación, el día después no basta.** Lonche cuenta su pelea en '[HABLANDO de MI PELEA en COLOMBIA con LA GANGA](https://www.youtube.com/watch?v=s1betCsTVVE)' (LoncheWey, 383 K suscriptores) y se queda en 6.075 vistas a las 19,5 h (312/h); su versión corta en el canal 'Lonche' va a 166/h. Lo que rinde es el gancho en pregunta con algo que no se sabía, no solo "hablo de mi pelea".
+> - **Herrera, se para aquí.** El 17-nov el caso pasa a lo legal y a lo personal: 'TERRIBLE MOMENTO EN STREAM FIGHTERS ¡HERRERA SE FUE DEL RING Y WESTCOL LO DEMANDARÁ!' (HAGAMOS TENDENCIA) y 'Jara expone a Herrera tras Stream Fighters: el lote prometido, el desplante y los videos' (LOS40 Colombia, 990/h). Según los riesgos de esta ficha y `config.excluir`, no se hacen más piezas sobre Herrera. Los 5 clips ya cortados del video de Westcol se publican solo si cuentan el evento sin acusaciones, demandas ni vida personal.
+> - **Próximas aplicaciones:**
+>   1. **El final de las 24 horas con La Ganga** (18-19 nov). Westcol, Samulx, Lonche, Willito, The Chanty y SoyPan emiten a la vez en Kick desde el 17-nov hacia las 15:40. Hacia las 18:00, Westcol tenía 102.911 espectadores y Lonche 43.750 (API pública de Kick). Cuando termine (18-nov por la tarde), lo que cuente cada uno de lo que pasó fuera de su cámara es esta ficha. El 19-nov sale GTA VI y los directos cambian de tema.
+>   2. **El concierto de Kris R** en el DAVIarena (Sabaneta): publicar del 21 al 22-nov. Casi todas las fuentes dicen viernes 20-nov, pero Blu Radio dice 23-nov: confírmalo el mismo día en su Instagram o su canal.
+>   3. **Variante de empresarios:** Diego RR está en directo en Kick desde el 17-nov a las 17:43 con 'RR WELLNESS con modelos e influencers de MDE' (15 espectadores). Es su primer evento propio en semanas: si cuenta el después, sirve; con esa audiencia, no se prioriza.
+>
+> **Estado anterior (17-nov, 00:30, ciclo 13): ficha nueva.**
 > - **Dónde aplicarla ahora:**
 >   - Stream Fighters 5 está en saturación, así que no se hacen recaps del evento. Lo que sigue rindiendo es lo que cuentan sus protagonistas: Westcol sobre Herrera, Samulx desde los camerinos y la noche de La Ganga con los mexicanos en Colombia.
 >   - Vale hasta el 18-nov. El 19-nov sale GTA VI y los directos cambian de tema.

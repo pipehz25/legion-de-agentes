@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-17-culpa-mama-carrazo",
+    "url_fuente":  "https://www.youtube.com/watch?v=OKqALYkh3LA",
+    "video_id":  "OKqALYkh3LA",
+    "inicio":  983.13,
+    "fin":  1032.94,
+    "inicio_hms":  "0:16:23",
+    "duracion_seg":  49.8,
+    "gancho":  "La versión de mamá cuando compras carro",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  149,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -10.92,
+                  "entrada_tp":  0.97,
+                  "salida_lufs":  -14.02,
+                  "salida_tp":  -2.21
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-17-culpa-mama-carrazo/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-17-culpa-mama-carrazo/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-17-culpa-mama-carrazo/revision.jpg",
+    "creado":  "2026-11-17T19:10:16.5894013-05:00"
+}
