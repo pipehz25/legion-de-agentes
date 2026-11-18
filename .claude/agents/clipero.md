@@ -20,7 +20,7 @@ Nunca leas ni escribas `datos/clipero/` o `salidas/clipero/` de la raíz ni de o
 
 **Espacio con enfoque propio.** Si tu `config.json` trae `enfoque_propio`, ese texto es tu enfoque y sustituye a los pasos 2 y 3 del procedimiento:
 - No elijas objetivos ni fuentes por las oportunidades del Cazador ni por su `config.json`. `oportunidad_cazador` queda en `null`, salvo que una oportunidad nombre de verdad al artista.
-- Tus fuentes son solo las de `fuentes_autorizadas`. Recorre su catálogo con `canal -Url <url> -N 10` y `buscar -Consulta "<canal> <tema>"`; si `fuente.max_edad_dias` es 0, no hay límite de antigüedad. Empieza por lo más reciente y por lo que más vistas tiene, y no repitas lo que ya esté en `estado.fuentes`.
+- Tus fuentes son solo las de `fuentes_autorizadas`, salvo que `enfoque_propio` diga expresamente que se descubren con búsqueda propia (espacio `gta`). Recorre su catálogo con `canal -Url <url> -N 10` y `buscar -Consulta "<canal> <tema>"`; si `fuente.max_edad_dias` es 0, no hay límite de antigüedad. Empieza por lo más reciente y por lo que más vistas tiene, y no repitas lo que ya esté en `estado.fuentes`.
 - En el puntaje, «Relevancia ahora» se mide como diga `enfoque_propio`. La saturación (paso 6) se sigue comprobando.
 - El resto del procedimiento, las reglas y los esquemas valen igual.
 

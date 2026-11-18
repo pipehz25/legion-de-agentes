@@ -1,0 +1,73 @@
+{
+  "_espacio": "Configuración del Publicador en el espacio gta (CLAUDE.md, «Espacios»): cuentas de GTA VI para Estados Unidos, que Santiago está creando. Todas apagadas hasta que cada una se autorice en la PC que lleva este espacio (publicar.ps1 autorizar -Plataforma <p> -Cuenta gta-us).",
+
+  "modo": "aprobacion",
+  "_modo": "aprobacion: solo se publica lo que el usuario aprueba con /publicador aprobar <id>. automatico: se publica sin esperar aprobación, pero solo los clips cuyos derechos estén en derechos_automatico.",
+  "derechos_automatico": ["propio", "autorizado"],
+
+  "simulacion": true,
+  "_simulacion": "true: prepara y valida todo con -Simular, pero no sube nada. Pásalo a false cuando haya cuentas autorizadas y hayas revisado una simulación.",
+
+  "idioma_textos": "en",
+  "_idioma_textos": "Idioma de títulos, textos y hashtags: inglés de Estados Unidos.",
+
+  "horario": { "desde": "08:00", "hasta": "23:00" },
+  "_horario": "Hora de la PC (Colombia), que en noviembre coincide con la del este de EE. UU.",
+  "max_intentos": 2,
+
+  "_cuentas": "Mismo formato que en los otros espacios: { \"alias\": \"...\", \"activa\": true, \"linea\": \"...\", \"max_por_dia\": 4, \"usuario\": \"\" }. Cada cuenta nueva se autoriza con: publicar.ps1 autorizar -Plataforma <p> -Cuenta <alias> (plataformas.md §10); entonces se pone activa: true.",
+  "separacion_piezas_horas": 12,
+
+  "plataformas": {
+    "youtube": {
+      "activa": false,
+      "cuentas": [
+        { "alias": "gta-us", "activa": false, "linea": "todo" }
+      ],
+      "privacidad": "private",
+      "_privacidad": "private | unlisted | public (plataformas.md §3).",
+      "categoria": "20",
+      "_categoria": "20 = Gaming.",
+      "idioma": "en",
+      "max_por_dia": 4
+    },
+    "tiktok": {
+      "activa": false,
+      "cuentas": [
+        { "alias": "gta-us", "activa": false, "usuario": "", "linea": "todo" }
+      ],
+      "leer_metricas": false,
+      "usuario": "",
+      "destino": "borrador",
+      "_destino": "borrador: el video llega a la bandeja de TikTok y se termina de publicar desde la app. directo: sin auditoría de TikTok solo admite SELF_ONLY.",
+      "privacidad": "SELF_ONLY",
+      "redirect_uri": "http://localhost:8765/callback/",
+      "max_por_dia": 4
+    },
+    "instagram": {
+      "activa": false,
+      "cuentas": [
+        { "alias": "gta-us", "activa": false, "linea": "todo" }
+      ],
+      "api": "instagram",
+      "compartir_en_feed": true,
+      "_aviso": "Instagram no admite borradores por API: lo que se sube queda publicado.",
+      "max_por_dia": 4
+    },
+    "facebook": {
+      "activa": false,
+      "cuentas": [
+        { "alias": "gta-us", "activa": false, "linea": "todo" }
+      ],
+      "estado": "DRAFT",
+      "max_por_dia": 4
+    }
+  },
+
+  "panel": { "dias": 30, "max_mediciones": 150 },
+
+  "graph_version": "v23.0",
+  "credenciales": "%USERPROFILE%\\.legion\\publicador\\credenciales.json",
+  "_credenciales": "Fuera del proyecto a propósito. Solo las lee y escribe publicar.ps1; nunca se suben a GitHub ni se pegan en el chat.",
+  "puerto_oauth": 8765
+}

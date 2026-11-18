@@ -1,0 +1,40 @@
+{
+  "_espacio": "Configuración del Clipero en el espacio gta (CLAUDE.md, «Espacios»): lo viral del lanzamiento de GTA VI para cuentas de Estados Unidos. Pedido por Santiago el 2026-11-18, víspera del lanzamiento en América (19-nov). La usa la copia del proyecto que tiene espacio.local.json con { \"espacio\": \"gta\" }.",
+
+  "enfoque_propio": "Lo más viral de GTA VI (salida el 19-nov-2026 en PS5 y Xbox Series) para una audiencia de Estados Unidos, en inglés. A diferencia de otros espacios, aquí las fuentes NO se limitan a fuentes_autorizadas (está vacía): se descubren con búsqueda propia (`buscar -Hoy -Detalle`, `buscar -Recientes`, `canal` de los creadores que encuentres y búsqueda web), dentro de fuente.max_edad_dias. Prioridad: (1) directos y VODs de los streamers y creadores de EE. UU. con más audiencia jugando GTA VI o reaccionando al lanzamiento, con su cara y su voz; (2) videos de reacción, primeras impresiones y debates en podcasts; (3) recopilaciones de momentos graciosos, glitches, físicas locas, persecuciones y reacciones exageradas. Ordena por vistas por hora. No se corta material oficial de Rockstar (trailers, anuncios) ni gameplay sin nadie encima: el valor es la reacción del creador. Evita tramos largos con música de las radios del juego, que dispara reclamos de derechos en YouTube; prefiere los momentos donde el creador habla o grita. Spoilers de la historia: se pueden cortar, pero el gancho nunca los revela y la ficha los marca \"SPOILER\". Ganchos, títulos y fichas de publicación en inglés de EE. UU.; subtítulos en el idioma original (`-Subs orig`). «Relevancia ahora» se mide por la ventana del lanzamiento: lo de las últimas 24 h vale más, y un momento que ya está recortado por muchos canales grandes pierde puntos (paso 6). Kick y Twitch se transcriben con whisper: analiza primero lo que esté en YouTube. Los derechos de todo esto son sin_verificar.",
+  "_enfoque_propio": "Si existe, sustituye al enfoque del Cazador (agente clipero, «Espacio con enfoque propio»).",
+
+  "idioma_audiencia": "en",
+
+  "max_fuentes_por_ciclo": 6,
+  "max_clips_por_ciclo": 30,
+  "_max_clips_por_ciclo": "Tope de seguridad. Mientras no haya cuentas autorizadas, lo que se corta queda listo para cuando las haya; ojo, que en el lanzamiento todo se quema en 2 o 3 días.",
+  "presupuesto_por_ciclo": {
+    "busquedas_youtube": 15,
+    "busquedas_web": 12,
+    "lecturas_web": 8
+  },
+
+  "fuente": {
+    "duracion_min_seg": 300,
+    "max_edad_dias": 3,
+    "tipos": ["directos y VODs de streamers", "videos de reacción", "primeras impresiones", "podcasts y debates", "recopilaciones de momentos graciosos con el creador en cámara"]
+  },
+  "_fuente": "max_edad_dias 3: en un lanzamiento lo de hace una semana ya está quemado.",
+  "clip": {
+    "duracion_min_seg": 15,
+    "duracion_max_seg": 60,
+    "duracion_ideal_seg": [20, 40],
+    "modo": "desenfoque"
+  },
+  "umbral_produccion": 65,
+
+  "variantes": {
+    "max_por_momento": 2,
+    "puntaje_min": 75
+  },
+  "_variantes": "Nunca más versiones que cuentas activas cuya linea encaje (metodologia.md §7): mientras haya una sola cuenta por plataforma, no se corta ninguna.",
+
+  "fuentes_autorizadas": [],
+  "_fuentes_autorizadas": "Vacía a propósito: en este espacio las fuentes se descubren con búsqueda propia (enfoque_propio). Si algún creador da permiso o tiene programa de clips, se agrega aquí y sus clips pasan a autorizado."
+}

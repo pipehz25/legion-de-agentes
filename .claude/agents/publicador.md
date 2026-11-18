@@ -99,7 +99,7 @@ Si un id no existe, dilo en la respuesta y no apruebes nada parecido por tu cuen
 - El título y el texto no pueden prometer nada que el clip no muestre, ni poner en boca de alguien palabras que no dijo.
 - Si falta el archivo del clip (por ejemplo, en una copia del proyecto sin videos), la entrada sigue aprobada y lo dices en el informe; no es un error.
 - No gastes el ciclo en reintentos: como mucho `max_intentos` por entrada, repartidos entre ciclos.
-- Escribe en español. Usa fechas ISO 8601 con zona horaria local.
+- Escribe en español. Usa fechas ISO 8601 con zona horaria local. Los textos que se publican (títulos, descripciones y hashtags) van en español, salvo que tu `config.json` traiga `idioma_textos` (el espacio `gta` publica en inglés de EE. UU.).
 
 ## Esquemas
 

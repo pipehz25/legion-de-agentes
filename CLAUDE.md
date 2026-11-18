@@ -40,6 +40,7 @@ Un **espacio** es una línea de contenido aparte, con su propia configuración, 
 |---------|-----------|----|-------|---------|
 | (raíz) | Clips de los perfiles y oportunidades del Cazador | Felipe | `/turno-clips` | `principal` de cada plataforma |
 | `lalo` | Solo Lalo Ocampo, desde su canal (fuente autorizada); el Clipero no sigue al Cazador (`enfoque_propio`) | Santiago | `/turno-lalo` | 15 cuentas de TikTok `lalo-*`; cada una se enciende al autorizarla |
+| `gta` | Lo viral del lanzamiento de GTA VI (19-nov-2026) para EE. UU., en inglés; el Clipero busca sus propias fuentes (`enfoque_propio`), sin cazadores | Santiago, en una copia aparte del proyecto (`c:\tmp\legion-gta`, con su propio `espacio.local.json`) para no cruzarse con `lalo` | Por ahora a mano, con `/clipero` desde esa copia | `gta-us` en cada plataforma, apagadas hasta que Santiago las cree en EE. UU. y las autorice |
 
 - **Cada PC trabaja en un solo espacio.** Lo dice su `espacio.local.json`, en la raíz del proyecto (`{ "espacio": "lalo" }`), que no se sube a GitHub. Sin ese archivo, la PC trabaja en la raíz. `clipero.ps1` y `publicar.ps1` leen y escriben solos en el espacio de la PC, y `publicar.ps1` rechaza los envíos y los videos de otro. `/clipero`, `/publicador` y `/publicador aprobar ...` actúan sobre el espacio de la PC donde se lanzan.
 - **Cada espacio sube solo su carpeta** (`git add espacios/<nombre>`), y la raíz solo las suyas: así dos PCs no se pisan.
