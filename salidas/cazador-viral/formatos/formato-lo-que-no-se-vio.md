@@ -1,6 +1,12 @@
 # Lo que no se vio (el día después, contado por el protagonista)
 
-> **Estado (17-nov, 18:40, ciclo 14): vigente hasta el 22-nov, con puntaje 84 (antes 82). Lo nuevo:**
+> **Estado (18-nov, 00:30, ciclo 15): vigente hasta el 22-nov, con puntaje 84 (sin cambios).** Lo nuevo:
+> - **No hubo evento nuevo en la ventana.** El video de Westcol sobre Herrera se sostiene: 544.848 vistas a las 26,3 h (20.717/h), 10,9 veces su mediana. Herrera sigue parado: no se corta nada más sobre él.
+> - **Próxima aplicación, el final de las 24 horas con La Ganga.** El directo acaba hacia las 15:40 del 18-nov. Lo que cuente cada uno al terminar (por qué alguien se fue antes, qué no salió en cámara, cómo quedó La Guarida) es esta ficha, con la pregunta en el gancho: "¿Aguantaron las 24 horas?" o "Lo que no se vio de las 24 horas". Publicar el 18 por la noche y el 19; ese día sale GTA VI y los directos cambian de tema.
+> - **El concierto de Kris R queda confirmado: viernes 20-nov a las 20:00 en el DAVIarena** (Minuto30, Rio Times, Concerts50). Publicar del 21 al 22-nov con lo que cuente él.
+> - **Variante de empresarios:** Diego RR se une a las 24 horas con su cámara ('Con la ganga', 16 espectadores en Kick; ['24 HORAS CON TODA LA GANGA EN MEDELLÍN | DIEGO RR'](https://www.youtube.com/watch?v=zQEWKfx2zWY) en su canal de directos). Si cuenta el después, sirve.
+>
+> **Estado anterior (17-nov, 18:40, ciclo 14): vigente hasta el 22-nov, con puntaje 84 (antes 82). Lo nuevo:**
 > - **La señal más fuerte hasta ahora:** a las 20 h, '[¿Que pasara con HERRERA…?](https://www.youtube.com/watch?v=YQ-vOO3-Ghk)' de Westcol suma 420.037 vistas (20.794/h), **11 veces la mediana de su canal** (1.896/h). A las 2 h iba a 5,2 veces: acelera en vez de frenarse.
 > - **Sin pregunta ni revelación, el día después no basta.** Lonche cuenta su pelea en '[HABLANDO de MI PELEA en COLOMBIA con LA GANGA](https://www.youtube.com/watch?v=s1betCsTVVE)' (LoncheWey, 383 K suscriptores) y se queda en 6.075 vistas a las 19,5 h (312/h); su versión corta en el canal 'Lonche' va a 166/h. Lo que rinde es el gancho en pregunta con algo que no se sabía, no solo "hablo de mi pelea".
 > - **Herrera, se para aquí.** El 17-nov el caso pasa a lo legal y a lo personal: 'TERRIBLE MOMENTO EN STREAM FIGHTERS ¡HERRERA SE FUE DEL RING Y WESTCOL LO DEMANDARÁ!' (HAGAMOS TENDENCIA) y 'Jara expone a Herrera tras Stream Fighters: el lote prometido, el desplante y los videos' (LOS40 Colombia, 990/h). Según los riesgos de esta ficha y `config.excluir`, no se hacen más piezas sobre Herrera. Los 5 clips ya cortados del video de Westcol se publican solo si cuentan el evento sin acusaciones, demandas ni vida personal.

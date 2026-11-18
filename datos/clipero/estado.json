@@ -1,8 +1,8 @@
 {
-    "actualizado":  "2026-11-17T19:24:00-05:00",
-    "ciclo":  17,
-    "ultimo_ciclo_cazador":  14,
-    "ultimo_ciclo_cazador_risas":  6,
+    "actualizado":  "2026-11-18T01:50:00-05:00",
+    "ciclo":  18,
+    "ultimo_ciclo_cazador":  15,
+    "ultimo_ciclo_cazador_risas":  7,
     "_nota_ciclo_16":  "Ciclo 16 (17-nov, desde la 01:26; procesa el ciclo 13 del Cazador Urbano y el 5 del de Risas; el ciclo 12 del Cazador Urbano no se procesó y queda cubierto por el 13). Cinco fuentes, como dice config: tres urbanas (Westcol sobre Herrera YQ-vOO3-Ghk, Samulx desde el hotel GkojR4E0tuY, Lonche con La Ganga s1betCsTVVE) y dos de risas (Hablando Huevadas en El Salvador qDAqPW70T7c, Anecdotario 378 de Ricardo Pérez VzE65NyXqb8). No se tocaron los VOD de Kick (whisper) porque las versiones de YouTube cubrían el mismo directo. Sin variantes: cada línea tiene una sola cuenta activa por plataforma (TikTok: principal y risas). Interrupciones: el ciclo se paró por el límite de uso tras el primer corte (se reanudó a las 12:54) y por una caída de red (ENOTFOUND) a media tarde; el corte de refri-papas falló y el de ganga-robot-precio salió con el video truncado a 47 s: se repitieron los dos. clips.json se actualizó por inserciones (el Publicador lo lee a la vez); no se podaron los clips de más de 7 días. Los 30 clips 2026-11-15-{antartida,sistema-solar,cables,apagon}-* (encargo CurioSismo, carpeta curiosismo/) no se registran ni se tocan: esperan la decisión del usuario. Herrera: la polémica empieza a tener ángulo legal (el propio Westcol habla de abogados; terceros titulan con una demanda); los clips evitan ese tramo y llevan \u0027si pasa a lo judicial, no se publica\u0027. Informe: salidas/clipero/informes/2026-11-17_0126.md.",
     "_nota_ciclo_15":  "Ciclo 15 (14-nov desde las 23:50; procesa el ciclo 11 del Cazador Urbano y el 4 del de Risas). Orden del orquestador: 1) urbano, Stream Fighters 5 de esta noche: Daren Ramírez contra El Agropecuario (G7gj3T1-_lk), la entrada de Westcol (pofJeEqiGF0) y lo mejor del pesaje completo (zkf8bOkg9kk), ventana hasta el 16-nov; las peleas grandes (Westcol contra Blessd, las parejas de streamers) no están subidas y quedan para el ciclo 16; 2) risas: primero lo que sale de la ventana el 15-nov (Paren la Mano del 12/11 uRZ2xc4sRyA, Juanpis Cap. 7 I2i3qkbPdXE, Liss Pereira T6Cw9kprkbc, Mestizos Precisos YdISeGSMqJo) y después Tirando Bola T9E21 (niP1DkpCYvs), Paren la Mano del 13/11 (92HshiOuj1k) y Nadie Sabe Nada 14x11 (pSyuyPq7uh0). Se pasa del tope de 5 fuentes por orden expresa del orquestador. Sin variantes: cada línea tiene una sola cuenta activa por plataforma (TikTok: risas y principal). Pendiente del ciclo 14: el clip 2026-11-13-samulx-chanty-cruce-willito (Gnhd74tjACk) se cortó sin registrar; se registra en este ciclo. Se paró hacia las 00:20 del 15-nov por el límite de uso con 2 clips del pesaje cortados sin registrar; se reanudó a las 18:10 con orden del orquestador: registrarlos, cortar los dos pendientes de Paren la Mano del 12/11 y seguir con Tirando Bola, Paren la Mano del 13/11 y Nadie Sabe Nada. Cierre (19:02): 16 clips nuevos (5 urbanos, 11 de risas) más el del ciclo 14; 6 fuentes nuevas. No se analizaron Juanpis Cap. 7 ni Liss Pereira (salen de la ventana el 15-nov a las 20:00) ni Mestizos Precisos (salió a las 12:30). Quedan propuestos con ventana hasta el 16-nov 5 momentos del pesaje (zkf8bOkg9kk), con palabras-rev.json ya corregido. Los clips del evento se revisan con hoja de fotogramas completa: el directo intercala rótulos de apuestas (Stake). Informe: salidas/clipero/informes/2026-11-14_2350.md.",
     "_nota_ciclo_14":  "Ciclo 14 (13-nov desde las 18:43; procesa el ciclo 10 del Cazador Urbano y el 3 del de Risas). Orden del orquestador: 1) risas primero y con volumen: La Cotorrisa 399 (XUh-fUA_o30), Paren la Mano del 12-nov (uRZ2xc4sRyA) y del 11-nov (Luquitas y el Papa; recorte del canal K4MCv-DXdmI), Jhovanoty disfrazado de De la Espriella (lEDdtE48rBk; gancho que diga que es disfraz, reglas de humor político) y Juanpis Cap. 7 (I2i3qkbPdXE); 2) urbano, solo 3-4 momentos de la previa de Stream Fighters 5 con ventana hasta el 15-nov. Se pasa del tope de 5 fuentes por orden expresa del orquestador. Sin variantes: cada línea tiene una sola cuenta activa por plataforma (TikTok: risas y principal).",
@@ -582,6 +582,41 @@
                         "titulo":  "La Mesa Reñoña 524.- 007 mexicano / Ovnis/ Pterodáctilo",
                         "analizado":  "2026-11-17",
                         "resultado":  "1 clip (ciclo 17, línea risas): renona-checo-dinosaurios 74 + 1 propuesto (Pattinson como 007, 68) | fuente_para_clips n.º 2 del Cazador de Risas (ciclo 6), prioridad alta, 17.513 vistas/h | Franco Escamilla (14,5 M), publicado 17-nov 01:22, 9.130 s, 305.169 vistas al analizar (19:00) | sin picos; 8 marcas (1:38:00 los dinosaurios, 3 menciones y 14 likes; 32:19; 4:25; 42:50; 2:24:08 el mismo chiste repetido; 38:08; 42:13; 1:50:23) | transcripción leída entera (1.162 líneas): charla regiomontana muy local, plano general fijo de la mesa | el \u0027007 mexicano\u0027 sí es Pattinson (1:53:52): el tramo limpio no tiene remate y lo que sigue cae fuera (\u0027un 007 negro tiene que pasar desapercibido en Suecia\u0027, raza) o es farándula mexicana | fuera: el compañero que murió \u0027cogiendo\u0027 (muerte, sexual), ovnis, SpaceX y aviones (sin remate), IA y ChatGPT (64), Ken Jeong y la maniobra de Heimlich (66, abre con \u0027el chinito\u0027), \u0027un burro llegue a amarte\u0027 (63), Chis Chas y la lechuga (larga), la pedrada en el circo (violencia, 64), la promo de un programa con feministas (temas de género), el primer comediante de la historia (67), el \u0027cronovisor\u0027 y la crucifixión (religión), carteles de la gira de Franco en la mesa (del propio canal) | búsqueda de saturación (19:02): solo el episodio | palabras-rev.json: checó→Checo, Resposa→(…)"
+                    },
+                    {
+                        "id":  "QauXCZ2fFs8",
+                        "url":  "https://www.youtube.com/watch?v=QauXCZ2fFs8",
+                        "titulo":  "DESPIDIENDO LA GUARIDA CON TODA LA GANGA ANTES DE QUE LA TUMBEN 😔| Samulx",
+                        "analizado":  "2026-11-18",
+                        "resultado":  "1 clip (ciclo 18, urbano): ganga-guarida-toretto 74 | fuente_para_clips n.º 3 del Cazador Urbano (ciclo 15), 2.255 vistas/h, tema-24-horas-con-la-ganga; la misma despedida que WestClips (3kgAxWJQr9I, n.º 1, canal no oficial): se prefiere el canal oficial | Samulx (190.000), publicado 17-nov 21:03, 1.202 s, 9.004 vistas al analizar (18-nov 00:47) | sin picos ni marcas | transcripción leída entera (192 líneas): casi todo es preparar y repetir el brindis de Toretto | fuera: \u0027Lonche tiene un aire a Pablo Escobar\u0027 (físico, narco), \u0027la maldición de la ganga: uno se tiene que morir hoy\u0027 (muerte), el video porno y la cama de líquido (sexual), \u0027yo ahora soy negro\u0027 y \u0027el negro está al lado tuyo\u0027 (raza), la \u0027ganga de inclusión… gay\u0027 (orientación), Leandro llega tarde con la excusa de Mercado Libre (62), \u0027jalarte tu jalapeño\u0027 (sexual) | saturación (01:04): WestClips entera (12 min, 46.245), kinezz oficial (16), LuClips (3), La Ganga Clips TV (4); ningún corto del brindis | palabras-rev.json: guarida/guaría→Guarida"
+                    },
+                    {
+                        "id":  "_R71FcOLQQQ",
+                        "url":  "https://www.youtube.com/watch?v=_R71FcOLQQQ",
+                        "titulo":  "Me desquite de Westcol y de Pan | Se salió de control, Samulx",
+                        "analizado":  "2026-11-18",
+                        "resultado":  "1 clip (ciclo 18, urbano): ganga-bienvenida-piscina 73 | fuente_para_clips n.º 2 del Cazador Urbano (ciclo 15), 2.589 vistas/h, tema-24-horas-con-la-ganga | Live Samulx (32.000), publicado 17-nov 20:24, 957 s, 11.786 vistas al analizar (00:47) | sin picos; 1 marca (11:06) | transcripción leída entera (148 líneas): casi sin diálogo; vistazo cada 20 s (2 hojas) y volumen.json (lo más fuerte: 6:40, 13:30, 7:10) | es una guerra de harina, huevos y salsas por una \u0027sorpresa\u0027 de cumpleaños y luego tirar a todos a la piscina; no se puede comprobar en imagen a quién se \u0027desquita\u0027 Samulx | fuera: \u0027no me violaron\u0027 y \u0027me follaron\u0027 (sexual), la caída de 3:38 (\u0027¿dónde te lastimaste?\u0027), la piscina de 10:30-11:50 sin diálogo, \u0027la barriga de camionero\u0027 de Lonche (físico), el \u0027túnel de la verdad\u0027 (oscuro, sin remate) | saturación (01:05): sin resultados | palabras-rev.json: \u0027Pasan de ver.\u0027→(…)"
+                    },
+                    {
+                        "id":  "eIRYiimMx_E",
+                        "url":  "https://www.youtube.com/watch?v=eIRYiimMx_E",
+                        "titulo":  "24 HORAS en COLOMBIA con WILLITO y WESTCOL *muchos lujos* | LONCHE",
+                        "analizado":  "2026-11-18",
+                        "resultado":  "sin clips (ciclo 18, urbano) + 1 propuesto: The Chanty despedido de mensajero por dejar dos tortas frías fuera de la nevera (28:48-29:18, 66) | fuente_para_clips n.º 4 del Cazador Urbano (ciclo 15), 985 vistas/h | LoncheWey (383.000), publicado 17-nov 20:20, 2.117 s, 4.368 vistas al analizar (00:59) | sin picos ni marcas | transcripción leída entera (325 líneas) | los \u0027muchos lujos\u0027 no traen ninguna cifra en cámara | fuera: Lonche y la \u0027putiza\u0027 a Leandro (\u0027cuerpo de pepino\u0027, \u0027parece un empareado\u0027: burlas del físico), los porcentajes de grasa (físico), los cohetes y la mano quemada (lesión), las chicas de Armenia (\u0027recogen café\u0027, \u0027producto exquisito\u0027: personas privadas), \u0027¿han estado con un hombre la primera vez que lo conocen?\u0027 (sexual, personas privadas), \u0027la piscina llena de semen\u0027, la lluvia y el paraguas (sin remate), el diafragma (sin remate), el brindis de Toretto (ya cortado desde la cámara de Samulx)"
+                    },
+                    {
+                        "id":  "pYtwwPMrdzs",
+                        "url":  "https://www.youtube.com/watch?v=pYtwwPMrdzs",
+                        "titulo":  "EN VIVO La Luciérnaga HOY: Juez cuestiona operativos de De la Espriella - Canasta familiar sin IVA",
+                        "analizado":  "2026-11-18",
+                        "resultado":  "1 clip (ciclo 18, risas): luciernaga-imitadores-iva 76 | fuente_para_clips n.º 1 del Cazador de Risas (ciclo 7), prioridad alta, 2.245 vistas/h, formato-imitador-politico | Caracol Radio (1,29 M), publicado 17-nov 17:34, 5.410 s, 15.740 vistas al analizar (01:00) | sin picos ni marcas (2 comentarios) | transcripción leída entera (621 líneas) | política del clip: imitaciones de Claudia López (centro) y Álvaro Uribe (Centro Democrático, derecha); la de Catherine Juvinao (centroizquierda, 1:24:17-1:24:53) no cabe con las otras dos en 75 s | fuera: Hollman Morris (judicial), las capturas de Primo Gay y Patepalo y su canción (violencia, operativos), el ahorro de luz con \u0027Verónica\u0027, \u0027De la Espriella\u0027, \u0027Mafe Carrascal\u0027 y \u0027Petro\u0027 (9:22-12:41: \u0027mantenerme prendidito\u0027, vida privada; \u0027capitán, proceda\u0027, operativos), \u0027Rigoberto Urán\u0027 traduciendo el discurso en inglés de De la Espriella (55:38-57:20: un solo lado y \u0027Maduro encerrado\u0027), RTVC y Esperanza Gómez (1:18:04-1:20:32: sexual y ligado al caso de su exgerente), el show de \u0027Jaime Bayly\u0027 con Ordóñez, Iván Cepeda y el FOMAG (1:24:53, opinión partidista del presentador), los Alegres de Puerto Triste (teloneros de Karol G, 64), los apodos de compañeros, la \u0027rusa\u0027, el \u0027día del Alzheimer\u0027, el peluquero detenido por drogas | saturación (01:05-01:06): sin recortes | palabras-rev.json: centro democrático→Centro Democrático; \u0027pitadora\u0027 y \u0027Lo supeno\u0027→(…)"
+                    },
+                    {
+                        "id":  "zsa74yNbstU",
+                        "url":  "https://www.youtube.com/watch?v=zsa74yNbstU",
+                        "titulo":  "Le eché agua bendita a La Pestilencia- The Juanpis Live Show",
+                        "analizado":  "2026-11-18",
+                        "resultado":  "1 clip (ciclo 18, risas): juanpis-pestilencia-juicio-tv 74 + 4 propuestos: \u0027todos aprendieron con la Pestilencia y se fueron al reggaetón… y está quebrado\u0027 (14:59-15:39, 70), \u0027el pogo lo rompió todo\u0027 (43:51-44:22, 70, marca en comentarios 44:05), la mamá de Dilson en el pogo (23:51-24:48, 69), la edad equivocada en Wikipedia (11:27-12:48, 68) | fuente_para_clips del Cazador de Risas (ciclo 7), prioridad media, 3.268 vistas/h; salía de su ventana a las 20:00 del 18-nov; primera fuente de Juanpis | Juanpis González (2,96 M), publicado 15-nov 20:00 (ahora titulado \u0027¿Me volví punkero con La Pestilencia?\u0027), 5.126 s, 172.654 vistas y 150 comentarios al analizar (01:05) | sin picos; 1 marca (44:05) | transcripción leída entera (598 líneas) | invitado: Dilson Díaz (La Pestilencia), que se despide con \u0027El último pogo\u0027 el 28-nov | fuera: drogas al inicio (\u0027metámonos un pase\u0027, el \u0027drep\u0027), \u0027no hay algo más hijuta que un enano\u0027 (14:12-14:59), \u0027Masacre… tocan las FARC, el ELN\u0027 (violencia), \u0027yo por la plata hago matar\u0027 (Juanpis), el cuchito que fue al pogo \u0027a suicidarse\u0027 y \u0027mátate, mátate\u0027 (suicidio), los balazos y el portero asesinado antes de Rock al Parque (tragedia), la policía y el planazo (violencia), Laureano Gómez (política y violencia), \u0027el pobre no usa condones\u0027 y los hijos hechos en Rock al Parque (sexual, clasismo), Harry Styles \u0027¿qué es eso tan homosexual?\u0027 (orientación), el monólogo final de Alejandro Riaño (política, sin humor) | saturación (01:06): solo el episodio | palabras-rev.json: viimos→vivimos; \u0027Diego yos\u0027→(…)"
                     }
                 ],
     "momentos":  [
@@ -6551,8 +6586,297 @@
                          "clip":  null,
                          "variante_de":  null,
                          "motivo":  "ChatGPT y las telenovelas que inventó (64)"
+                     },
+                     {
+                         "fuente":  "pYtwwPMrdzs",
+                         "inicio":  4997.01,
+                         "fin":  5059.5,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-18-luciernaga-imitadores-iva",
+                         "variante_de":  null,
+                         "motivo":  "sátira con imitadores del IVA (Claudia López y Uribe), 76"
+                     },
+                     {
+                         "fuente":  "pYtwwPMrdzs",
+                         "inicio":  5060.0,
+                         "fin":  5093.0,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "la imitación de Juvinao: no cabe con las otras dos en 75 s y sola deja la sátira de un solo lado; subtítulos ilegibles (\u0027usted no invit a nada\u0027, \u0027culo persión\u0027)"
+                     },
+                     {
+                         "fuente":  "pYtwwPMrdzs",
+                         "inicio":  5093.0,
+                         "fin":  5165.0,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "Iván Cepeda y el FOMAG: el presentador culpa al gobierno de Petro (opinión partidista)"
+                     },
+                     {
+                         "fuente":  "pYtwwPMrdzs",
+                         "inicio":  562.0,
+                         "fin":  761.0,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "imitaciones sobre el ahorro de luz: \u0027Petro\u0027 que \u0027se mantiene prendidito\u0027 (vida privada) y \u0027De la Espriella\u0027 con \u0027capitán, proceda\u0027 (operativos)"
+                     },
+                     {
+                         "fuente":  "pYtwwPMrdzs",
+                         "inicio":  3338.0,
+                         "fin":  3440.0,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "\u0027Rigoberto Urán\u0027 traduce el discurso en inglés de De la Espriella: burla de un solo lado, frases inventadas sobre el discurso y \u0027Maduro encerrado\u0027"
+                     },
+                     {
+                         "fuente":  "pYtwwPMrdzs",
+                         "inicio":  4684.0,
+                         "fin":  4832.0,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "RTVC y \u0027Petrico\u0027: Esperanza Gómez y \u0027Triple X\u0027 (sexual), ligado al caso de la exgerente de RTVC"
+                     },
+                     {
+                         "fuente":  "pYtwwPMrdzs",
+                         "inicio":  1322.0,
+                         "fin":  1473.0,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "los Alegres de Puerto Triste: \u0027teloneros de Karol G, solo tenemos que correr los telones\u0027 (64)"
+                     },
+                     {
+                         "fuente":  "zsa74yNbstU",
+                         "inicio":  3255.65,
+                         "fin":  3323.62,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-18-juanpis-pestilencia-juicio-tv",
+                         "variante_de":  null,
+                         "motivo":  "La Pestilencia actuó en un programa de juicios de Telemundo y el tío se lo creyó, 74"
+                     },
+                     {
+                         "fuente":  "zsa74yNbstU",
+                         "inicio":  899.0,
+                         "fin":  939.0,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "\u0027todos aprendieron con la Pestilencia y se fueron al reggaetón… usted cree en el arte y está quebrado\u0027 (70): por debajo del listón de risas de este ciclo (73); justo antes va el chiste del enano, que queda fuera"
+                     },
+                     {
+                         "fuente":  "zsa74yNbstU",
+                         "inicio":  2631.0,
+                         "fin":  2662.0,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "\u0027el pogo lo rompió todo\u0027 y \u0027así se nos ha ido la platica toda la vida\u0027 (70, marca en comentarios 44:05); empezar en \u0027Llegamos al concierto\u0027 para dejar fuera la detención"
+                     },
+                     {
+                         "fuente":  "zsa74yNbstU",
+                         "inicio":  1431.0,
+                         "fin":  1488.0,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "la mamá de Dilson en el pogo: \u0027lo más punkero de la Pestilencia es mi mamá\u0027 (69)"
+                     },
+                     {
+                         "fuente":  "zsa74yNbstU",
+                         "inicio":  687.0,
+                         "fin":  768.0,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "Wikipedia le ponía 76 años (68)"
+                     },
+                     {
+                         "fuente":  "zsa74yNbstU",
+                         "inicio":  852.0,
+                         "fin":  899.0,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "\u0027no hay algo más hijuta que un enano\u0027 (discapacidad, aspecto)"
+                     },
+                     {
+                         "fuente":  "zsa74yNbstU",
+                         "inicio":  2181.0,
+                         "fin":  2262.0,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "el cuchito que fue al pogo \u0027a suicidarse\u0027 y \u0027mátate, mátate\u0027 (humor sobre suicidio)"
+                     },
+                     {
+                         "fuente":  "zsa74yNbstU",
+                         "inicio":  2905.0,
+                         "fin":  2990.0,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "los balazos y el portero asesinado antes de Rock al Parque (tragedia, violencia)"
+                     },
+                     {
+                         "fuente":  "zsa74yNbstU",
+                         "inicio":  3031.0,
+                         "fin":  3172.0,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "la policía, el planazo y los caballos (violencia)"
+                     },
+                     {
+                         "fuente":  "zsa74yNbstU",
+                         "inicio":  3780.0,
+                         "fin":  3900.0,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "\u0027el pobre no usa condones\u0027 y los hijos hechos en Rock al Parque (sexual, clasismo)"
+                     },
+                     {
+                         "fuente":  "zsa74yNbstU",
+                         "inicio":  4280.0,
+                         "fin":  4357.0,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "Harry Styles: \u0027¿qué es eso tan homosexual en su vida?\u0027 (orientación)"
+                     },
+                     {
+                         "fuente":  "QauXCZ2fFs8",
+                         "inicio":  939.73,
+                         "fin":  993.06,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-18-ganga-guarida-toretto",
+                         "variante_de":  null,
+                         "motivo":  "el brindis de Toretto para despedir La Guarida, 74"
+                     },
+                     {
+                         "fuente":  "QauXCZ2fFs8",
+                         "inicio":  229.0,
+                         "fin":  259.0,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "\u0027la maldición de la ganga: uno se tiene que morir hoy\u0027 (muerte)"
+                     },
+                     {
+                         "fuente":  "QauXCZ2fFs8",
+                         "inicio":  120.0,
+                         "fin":  135.0,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "\u0027Lonche tiene un aire a Pablo Escobar\u0027 (físico, narco)"
+                     },
+                     {
+                         "fuente":  "QauXCZ2fFs8",
+                         "inicio":  543.0,
+                         "fin":  601.0,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "Leandro llega tarde con la excusa de Mercado Libre (62)"
+                     },
+                     {
+                         "fuente":  "QauXCZ2fFs8",
+                         "inicio":  445.0,
+                         "fin":  632.0,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "las tomas anteriores del brindis: \u0027yo ahora soy negro\u0027, \u0027el negro está al lado tuyo\u0027 (raza) y la \u0027ganga de inclusión… gay\u0027 (orientación)"
+                     },
+                     {
+                         "fuente":  "_R71FcOLQQQ",
+                         "inicio":  800.61,
+                         "fin":  844.4,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-18-ganga-bienvenida-piscina",
+                         "variante_de":  null,
+                         "motivo":  "\u0027bienvenido a La Ganga\u0027: sin teléfono, sin camiseta y a la piscina, 73"
+                     },
+                     {
+                         "fuente":  "_R71FcOLQQQ",
+                         "inicio":  0.0,
+                         "fin":  400.0,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "la guerra de harina por la \u0027sorpresa\u0027 de cumpleaños: casi sin diálogo, una caída (\u0027¿dónde te lastimaste?\u0027) y \u0027no me violaron\u0027"
+                     },
+                     {
+                         "fuente":  "_R71FcOLQQQ",
+                         "inicio":  846.0,
+                         "fin":  852.0,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "\u0027Lonche con esa barriga de camionero\u0027 (físico)"
+                     },
+                     {
+                         "fuente":  "eIRYiimMx_E",
+                         "inicio":  1728.4,
+                         "fin":  1758.5,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "The Chanty despedido de mensajero por las tortas frías (66): por debajo del listón urbano de este ciclo (70); se ven las invitadas (personas privadas)"
+                     },
+                     {
+                         "fuente":  "eIRYiimMx_E",
+                         "inicio":  615.0,
+                         "fin":  680.0,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "Lonche y la \u0027putiza\u0027 a Leandro: \u0027cuerpo de pepino\u0027, \u0027parece un empareado\u0027 (burlas del físico)"
+                     },
+                     {
+                         "fuente":  "eIRYiimMx_E",
+                         "inicio":  711.0,
+                         "fin":  796.0,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "kilos y porcentaje de grasa (físico)"
+                     },
+                     {
+                         "fuente":  "eIRYiimMx_E",
+                         "inicio":  1440.0,
+                         "fin":  1520.0,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "las chicas de Armenia: \u0027recogen café\u0027, \u0027producto exquisito\u0027 (personas privadas)"
+                     },
+                     {
+                         "fuente":  "eIRYiimMx_E",
+                         "inicio":  1792.0,
+                         "fin":  1822.0,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "\u0027¿han estado con un hombre la primera vez que lo conocen?\u0027 (sexual, personas privadas)"
+                     },
+                     {
+                         "fuente":  "eIRYiimMx_E",
+                         "inicio":  128.0,
+                         "fin":  480.0,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "la lluvia, el paraguas y el Uber (sin remate)"
                      }
                  ],
     "lote_2026_11_06":  "ocho-videos-usuario",
-    "_nota_ciclo_17":  "Ciclo 17 (17-nov, 18:45-19:25; procesa el ciclo 14 del Cazador Urbano y el 6 del de Risas). Órdenes del orquestador: calidad antes que cantidad (el Publicador avisa de que TikTok admite 4 borradores al día por cuenta y que 21 clips de la cola vencerán sin subirse), nada más sobre Herrera (pasa a lo legal) y no tocar los clips de curiosismo/. Por eso este ciclo solo corta lo que pasa de 73, aunque el umbral de config sigue en 65: lo bueno que queda por debajo se anota como propuesto. Cinco fuentes, como dice config: dos urbanas (VrZCpUujrTQ, la misma conversación que s1betCsTVVE desde la cámara de Samulx; eUdpqtf7ryw, las \u0027bombas\u0027, casi todo fuera del enfoque) que no dan ningún clip, y las tres de prioridad alta del Cazador de Risas (Los De La Culpa 269, La Mesa Reñoña 524 y Soñé que Volaba 17/11), que dan 4 clips de risas, uno por día de cola de TikTok risas. Tema del día del Cazador de Risas (Pattinson nuevo James Bond, caduca hacia el 19-nov): ni Soñé que Volaba ni La Mesa Reñoña tienen una ocurrencia buena; el tramo limpio de La Mesa Reñoña queda propuesto (68). Sin variantes: cada línea tiene una sola cuenta activa por plataforma (TikTok: principal y risas). No se tocaron los VOD de Kick (whisper): el de Westcol \u0027HABLANDO DEL EVENTO\u0027 es en buena parte Herrera y su versión de YouTube ya está cortada (YQ-vOO3-Ghk). clips.json se reescribió con los 4 nuevos delante; no se podaron los clips de más de 7 días. Informe: salidas/clipero/informes/2026-11-17_1845.md."
+    "_nota_ciclo_17":  "Ciclo 17 (17-nov, 18:45-19:25; procesa el ciclo 14 del Cazador Urbano y el 6 del de Risas). Órdenes del orquestador: calidad antes que cantidad (el Publicador avisa de que TikTok admite 4 borradores al día por cuenta y que 21 clips de la cola vencerán sin subirse), nada más sobre Herrera (pasa a lo legal) y no tocar los clips de curiosismo/. Por eso este ciclo solo corta lo que pasa de 73, aunque el umbral de config sigue en 65: lo bueno que queda por debajo se anota como propuesto. Cinco fuentes, como dice config: dos urbanas (VrZCpUujrTQ, la misma conversación que s1betCsTVVE desde la cámara de Samulx; eUdpqtf7ryw, las \u0027bombas\u0027, casi todo fuera del enfoque) que no dan ningún clip, y las tres de prioridad alta del Cazador de Risas (Los De La Culpa 269, La Mesa Reñoña 524 y Soñé que Volaba 17/11), que dan 4 clips de risas, uno por día de cola de TikTok risas. Tema del día del Cazador de Risas (Pattinson nuevo James Bond, caduca hacia el 19-nov): ni Soñé que Volaba ni La Mesa Reñoña tienen una ocurrencia buena; el tramo limpio de La Mesa Reñoña queda propuesto (68). Sin variantes: cada línea tiene una sola cuenta activa por plataforma (TikTok: principal y risas). No se tocaron los VOD de Kick (whisper): el de Westcol \u0027HABLANDO DEL EVENTO\u0027 es en buena parte Herrera y su versión de YouTube ya está cortada (YQ-vOO3-Ghk). clips.json se reescribió con los 4 nuevos delante; no se podaron los clips de más de 7 días. Informe: salidas/clipero/informes/2026-11-17_1845.md.",
+    "_nota_ciclo_18":  "Ciclo 18 (18-nov, 00:46-01:50; procesa el ciclo 15 del Cazador Urbano y el 7 del de Risas). Órdenes del orquestador: calidad antes que cantidad (TikTok admite 4 borradores al día por cuenta), nada sobre Herrera, no tocar curiosismo/; la línea urbano no tenía clips nuevos desde el ciclo 16. Listón: urbano desde 70 (la cola de principal tiene hueco el 19 y el 20-nov), risas desde 73 (la cola de risas está llena hasta el 20-nov y 16 clips se quedan fuera). Cinco fuentes, como dice config: tres urbanas (QauXCZ2fFs8, la despedida de La Guarida desde el canal oficial de Samulx, preferido a WestClips; _R71FcOLQQQ, \u0027Me desquite de Westcol y de Pan\u0027, casi sin diálogo: se miró con vistazo cada 20 s; eIRYiimMx_E, las 24 horas de Lonche, sin clip) y dos de risas (pYtwwPMrdzs, La Luciérnaga del 17-nov, solo la sátira del IVA; zsa74yNbstU, Juanpis con Dilson Díaz, que salía de la ventana del Cazador a las 20:00 del 18-nov). 4 clips: 2 urbano (ganga-guarida-toretto 74, ganga-bienvenida-piscina 73) y 2 risas (luciernaga-imitadores-iva 76, juanpis-pestilencia-juicio-tv 74). Ningún clip confirma en imagen a un perfil del Cazador Urbano (de noche y en grupo; los títulos no nombran a nadie). Sátira del IVA: Claudia López (centro) y Uribe (derecha); la Juvinao (centroizquierda) no cabe en 75 s; la ficha deja claro que son imitadores. No se analizaron las \u0027bombas\u0027 de Westcol (2KYjaIs-YYE): el Cazador avisa de que no dan clips limpios. Las 24 horas con La Ganga siguen en directo en Kick: sus VOD llegan al ciclo siguiente. La Revuelta del 17-nov con Emilia aún no estaba en YouTube a las 00:46. Sin variantes: cada línea tiene una sola cuenta activa por plataforma (TikTok: principal y risas). clips.json se reescribió con los 4 nuevos delante; no se podaron los clips de más de 7 días. Informe: salidas/clipero/informes/2026-11-18_0046.md."
 }

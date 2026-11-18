@@ -1,6 +1,16 @@
 # La noche en 3 momentos (lo que no salió en las noticias)
 
-> **Estado (17-nov, 18:40, ciclo 14): sigue en pausa hasta el concierto de Kris R.** Sin cambios en la ficha. Dos avisos:
+> **Estado (18-nov, 00:30, ciclo 15): se reactiva para las 24 horas con La Ganga, del 18-nov por la tarde al 19-nov; después, en pausa hasta Kris R (viernes 20-nov, confirmado).** Patrón base nuevo: `tema-24-horas-con-la-ganga` (emergente, puntaje 77).
+> - **Por qué ahora:** hacia las 23:58 del 17-nov, cinco cámaras del reto están en el top 21 mundial de Kick (Westcol #1 con 103.955 espectadores, Lonche #3 con 56.724, Reydelacity, Willito y Samulx). En YouTube rinden los recortes de los protagonistas ([Live Samulx](https://www.youtube.com/watch?v=_R71FcOLQQQ), unas 2 veces sus otros recortes; [LoncheWey](https://www.youtube.com/watch?v=eIRYiimMx_E), 3,2 veces su subida anterior) y no las copias de terceros (3-80/h).
+> - **"Las 24 horas con La Ganga en 3 momentos":**
+>   1. **El arranque:** la despedida de La Guarida, la casa-set de La Ganga que van a tumbar. Está en cuatro cámaras: [WestClips](https://www.youtube.com/watch?v=3kgAxWJQr9I) (6.682/h), [Samulx](https://www.youtube.com/watch?v=QauXCZ2fFs8), [Lonche y Willito](https://www.youtube.com/watch?v=4U_Jnv6y4BM) y [The Chanty](https://www.youtube.com/watch?v=LNYrU3h0OBw). Pon en texto qué es La Guarida: sin contexto no se entiende.
+>   2. **La noche:** el momento más comentado del directo, por ejemplo el desquite de Samulx contra Westcol y SoyPan ('Me desquite de Westcol y de Pan') o 'Rey casi nos lastima'.
+>   3. **El final, la hora 24:** sale en los VOD de Kick hacia las 15:40 del 18-nov. Si alguno no aguantó, ese es el remate.
+>
+>   Gancho: "Hora 1, hora 12, hora 24" o "¿Aguantaron las 24 horas?". Final: "¿Quién aguantaría?". Nada de alcohol, mujeres ni vida de pareja (la fiesta de la noche tiene de todo); nada de la ronda de 'bombas'.
+> - **Kris R:** la fecha queda confirmada, viernes 20-nov a las 20:00 en el DAVIarena. La versión del concierto, abajo, sigue igual.
+>
+> **Estado anterior (17-nov, 18:40, ciclo 14): sigue en pausa hasta el concierto de Kris R.** Sin cambios en la ficha. Dos avisos:
 > - **Fecha:** casi todas las fuentes dicen viernes 20-nov a las 20:00 en el DAVIarena de Sabaneta (Minuto30, Rio Times, la boletería), pero Blu Radio lo da el 23-nov como cierre de la gira 'El Trap de Kolombia'. Confírmalo el mismo día en su Instagram o en su canal antes de preparar las piezas.
 > - **Stream Fighters 5 pasa a quemado** y **Luzu TV contra 412 a saturación**: ninguno de los dos vuelve a esta ficha.
 >

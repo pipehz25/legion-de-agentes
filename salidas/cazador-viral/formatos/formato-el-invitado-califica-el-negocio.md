@@ -1,6 +1,11 @@
 # El invitado le califica el negocio al anfitrión (en su cara)
 
-> **Estado (17-nov, 18:40, ciclo 14): en vigilancia hasta el 19-nov, con puntaje 69 (antes 66).** Lo nuevo:
+> **Estado (18-nov, 00:30, ciclo 15): en vigilancia hasta el 19-nov, con puntaje 68 (antes 69).** Lo nuevo:
+> - **El gancho "por primera vez" ya no rinde en las réplicas nuevas:** 'LA GANGA COMPLETA REUNIDA POR PRIMERA VEZ' de The Chanty va a 176/h y la copia de AltaPeli a 3/h. El gancho del día es "la despedida" (de La Guarida). Solo la pieza de Samulx se sostiene (2,54 veces su mediana a las 24 h).
+> - **Lo más cercano al forastero que califica:** Lonche contando ['ESTO ME PASO EN COLOMBIA CUANDO PEDI un UBER'](https://www.youtube.com/watch?v=mpp-5_6pdiM) (305/h). Es choque cultural, pero sin el negocio del anfitrión.
+> - **Última ocasión, los VOD de las 24 horas (18-nov por la tarde).** Si un mexicano prueba y califica algo de Westcol o de la ciudad delante de él, es la pieza. Si no, la ficha sale de las recomendaciones el 19-nov.
+>
+> **Estado anterior (17-nov, 18:40, ciclo 14): en vigilancia hasta el 19-nov, con puntaje 69 (antes 66).** Lo nuevo:
 > - **El gancho "por primera vez" rinde en el reencuentro.** ['ESTO SE SALIO DE CONTROL… TODA LA GANGA REUNIDA POR PRIMERA VEZ'](https://www.youtube.com/watch?v=VrZCpUujrTQ) de Samulx va a 6.352/h a las 17,8 h, **2,5 veces su mediana**, y lo repiten juan diego mm y Lonche Chacas. Pero es la reunión del grupo, no el visitante que prueba algo del anfitrión: la plantilla del veredicto en la cara sigue sin pieza nueva.
 > - **Última ocasión antes del 19-nov: las 24 horas con La Ganga.** Desde el 17-nov hacia las 15:40, Westcol, Lonche, Samulx, The Chanty, Willito y SoyPan emiten a la vez por Medellín (Kick, IRL). Hacia las 18:00, Westcol tenía 102.911 espectadores y Lonche 43.750. Si en ese directo un mexicano prueba y califica algo de Westcol (Fuego Burger) o de la ciudad, esa es la pieza: búscala en los VOD que salen el 18-nov por la tarde.
 > - Si no aparece, la ficha sale de las recomendaciones el 19-nov, cuando todos pasan a GTA VI.

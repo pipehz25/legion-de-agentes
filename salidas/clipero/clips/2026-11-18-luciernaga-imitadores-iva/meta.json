@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-18-luciernaga-imitadores-iva",
+    "url_fuente":  "https://www.youtube.com/watch?v=pYtwwPMrdzs",
+    "video_id":  "pYtwwPMrdzs",
+    "inicio":  4997.01,
+    "fin":  5059.5,
+    "inicio_hms":  "1:23:17",
+    "duracion_seg":  62.5,
+    "gancho":  "Imitadores: todos quieren el crédito del IVA",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  176,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -20.08,
+                  "entrada_tp":  -7.41,
+                  "salida_lufs":  -13.99,
+                  "salida_tp":  -1.33
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-18-luciernaga-imitadores-iva/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-18-luciernaga-imitadores-iva/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-18-luciernaga-imitadores-iva/revision.jpg",
+    "creado":  "2026-11-18T01:22:18.5609520-05:00"
+}

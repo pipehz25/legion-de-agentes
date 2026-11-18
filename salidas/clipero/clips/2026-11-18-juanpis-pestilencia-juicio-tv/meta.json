@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-18-juanpis-pestilencia-juicio-tv",
+    "url_fuente":  "https://www.youtube.com/watch?v=zsa74yNbstU",
+    "video_id":  "zsa74yNbstU",
+    "inicio":  3255.65,
+    "fin":  3323.62,
+    "inicio_hms":  "0:54:15",
+    "duracion_seg":  68,
+    "gancho":  "La Pestilencia actuó en un juicio de TV",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  203,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -22.28,
+                  "entrada_tp":  -9.45,
+                  "salida_lufs":  -13.94,
+                  "salida_tp":  -1.17
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-18-juanpis-pestilencia-juicio-tv/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-18-juanpis-pestilencia-juicio-tv/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-18-juanpis-pestilencia-juicio-tv/revision.jpg",
+    "creado":  "2026-11-18T01:26:09.4394035-05:00"
+}

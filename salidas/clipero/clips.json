@@ -1,7 +1,120 @@
 {
-    "generado":  "2026-11-17T19:24:00-05:00",
-    "ciclo":  17,
+    "generado":  "2026-11-18T01:50:00-05:00",
+    "ciclo":  18,
     "clips":  [
+                  {
+                      "id":  "2026-11-18-luciernaga-imitadores-iva",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  76,
+                      "gancho":  "Imitadores: todos quieren el crédito del IVA",
+                      "archivo":  "salidas/clipero/clips/2026-11-18-luciernaga-imitadores-iva/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-18-luciernaga-imitadores-iva/ficha.md",
+                      "duracion_seg":  62.5,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=pYtwwPMrdzs",
+                                     "canal":  "Caracol Radio (La Luciérnaga)",
+                                     "inicio":  4997.01,
+                                     "fin":  5059.5
+                                 },
+                      "oportunidad_cazador":  "formato-imitador-politico",
+                      "linea":  "risas",
+                      "politica":  "varias: imitaciones de Claudia López (centro) y Álvaro Uribe (Centro Democrático, derecha); son imitadores de La Luciérnaga, no los políticos",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-20"
+                  },
+                  {
+                      "id":  "2026-11-18-ganga-guarida-toretto",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  74,
+                      "gancho":  "La Ganga despide su casa estilo Toretto",
+                      "archivo":  "salidas/clipero/clips/2026-11-18-ganga-guarida-toretto/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-18-ganga-guarida-toretto/ficha.md",
+                      "duracion_seg":  53.4,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=QauXCZ2fFs8",
+                                     "canal":  "Samulx",
+                                     "inicio":  939.73,
+                                     "fin":  993.06
+                                 },
+                      "oportunidad_cazador":  "tema-24-horas-con-la-ganga",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-20"
+                  },
+                  {
+                      "id":  "2026-11-18-juanpis-pestilencia-juicio-tv",
+                      "estado":  "listo",
+                      "tipo":  "historia",
+                      "puntaje":  74,
+                      "gancho":  "La Pestilencia actuó en un juicio de TV",
+                      "archivo":  "salidas/clipero/clips/2026-11-18-juanpis-pestilencia-juicio-tv/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-18-juanpis-pestilencia-juicio-tv/ficha.md",
+                      "duracion_seg":  68,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=zsa74yNbstU",
+                                     "canal":  "Juanpis González",
+                                     "inicio":  3255.65,
+                                     "fin":  3323.62
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-22"
+                  },
+                  {
+                      "id":  "2026-11-18-ganga-bienvenida-piscina",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  73,
+                      "gancho":  "Bienvenida a La Ganga: directo a la piscina",
+                      "archivo":  "salidas/clipero/clips/2026-11-18-ganga-bienvenida-piscina/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-18-ganga-bienvenida-piscina/ficha.md",
+                      "duracion_seg":  43.8,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=_R71FcOLQQQ",
+                                     "canal":  "Live Samulx",
+                                     "inicio":  800.61,
+                                     "fin":  844.4
+                                 },
+                      "oportunidad_cazador":  "tema-24-horas-con-la-ganga",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-20"
+                  },
                   {
                       "id":  "2026-11-17-culpa-marin-despide-quevedo",
                       "estado":  "listo",
