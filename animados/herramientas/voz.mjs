@@ -8,8 +8,11 @@
 //       <video>/assets/voz/fN.wav      (una frase por archivo)
 //       <video>/tiempos.json           (inicio y fin de cada frase y de cada palabra)
 //
-// La voz sale de `hyperframes tts` (Kokoro, local). Los tiempos por palabra salen del
+// La voz sale de una grabacion de una persona ("motor": "grabada", la de siempre), de
+// Higgsfield, de Kokoro (local) o de archivos sueltos. Los tiempos por palabra salen del
 // propio audio: se detectan sus pausas y cada palabra recibe su parte del tramo.
+//
+// Sale con codigo 3 si el guion pide voz grabada y la grabacion todavia no esta.
 
 import { spawnSync } from "node:child_process";
 import crypto from "node:crypto";
@@ -20,7 +23,8 @@ import { fileURLToPath } from "node:url";
 const AQUI = path.dirname(fileURLToPath(import.meta.url));
 const ANIMADOS = path.resolve(AQUI, "..");
 const HF = "hyperframes@0.9.20";
-const PY = path.join(ANIMADOS, ".venv", "Scripts", "python.exe");
+const WINDOWS = process.platform === "win32";
+const PY = WINDOWS ? path.join(ANIMADOS, ".venv", "Scripts", "python.exe") : path.join(ANIMADOS, ".venv", "bin", "python");
 
 const carpeta = process.argv[2] ? path.resolve(process.argv[2]) : null;
 if (!carpeta || !fs.existsSync(path.join(carpeta, "guion.json"))) {
@@ -28,6 +32,7 @@ if (!carpeta || !fs.existsSync(path.join(carpeta, "guion.json"))) {
   process.exit(1);
 }
 const guion = JSON.parse(fs.readFileSync(path.join(carpeta, "guion.json"), "utf8"));
+// "grabada": una persona lee todo el guion de una vez; se corta en frases (ver mas abajo).
 // "kokoro": la voz local y gratis. "higgsfield": voz de Higgsfield (gasta creditos de la
 // cuenta con la que se inicio sesion en su CLI). "externo": la voz viene ya grabada o
 // generada en otro servicio, una frase por archivo, en assets/voz-externa/<id>.wav (o .mp3).
@@ -57,8 +62,22 @@ function duracion(archivo) {
 
 // --- Comprobacion de la voz de pago: se transcribe con whisper (el de la Legion) y se
 // compara con el guion. Sin whisper instalado, no se comprueba.
-const WHISPER = path.join(ANIMADOS, "..", "herramientas", "bin", "whisper", "whisper-cli.exe");
-const MODELO = path.join(ANIMADOS, "..", "herramientas", "modelos", "ggml-small-q5_1.bin");
+// En Windows esta en herramientas/bin/whisper (lo instala herramientas/instalar.ps1); en Mac,
+// `brew install whisper-cpp` lo deja en el PATH. El modelo va en herramientas/modelos/.
+function buscaWhisper() {
+  const propio = path.join(ANIMADOS, "..", "herramientas", "bin", "whisper", WINDOWS ? "whisper-cli.exe" : "whisper-cli");
+  if (fs.existsSync(propio)) return propio;
+  for (const dir of (process.env.PATH || "").split(path.delimiter)) {
+    for (const nombre of WINDOWS ? ["whisper-cli.exe"] : ["whisper-cli", "whisper-cpp"]) {
+      const ruta = path.join(dir, nombre);
+      if (dir && fs.existsSync(ruta)) return ruta;
+    }
+  }
+  return null;
+}
+const WHISPER = buscaWhisper();
+const MODELO =
+  [process.env.WHISPER_MODELO, path.join(ANIMADOS, "..", "herramientas", "modelos", "ggml-small-q5_1.bin")].find((m) => m && fs.existsSync(m)) || null;
 const revisarDeOido = [];
 
 // Como suena un texto, sin lo que el oido no distingue (tildes, h muda, b/v, z/s, ll/y).
@@ -78,7 +97,7 @@ const sonido = (s) =>
 
 // Cuantas palabras se oyen distintas al guion (0 = se oye lo que dice). null si no se pudo comprobar.
 function difiere(audio, texto) {
-  if (!fs.existsSync(WHISPER) || !fs.existsSync(MODELO)) return null;
+  if (!WHISPER || !MODELO) return null;
   const wav16 = audio + ".oir.wav";
   correr("ffmpeg", ["-v", "error", "-y", "-i", audio, "-af", "adelay=300:all=1,apad=pad_dur=0.6", "-ar", "16000", "-ac", "1", "-c:a", "pcm_s16le", wav16]);
   const r = spawnSync(WHISPER, ["-m", MODELO, "-l", "es", "-f", wav16, "-np", "-nt"], { encoding: "utf8" });
@@ -106,6 +125,256 @@ function paraLaVoz(texto) {
     });
   }
   return salida;
+}
+
+// --- Voz grabada por una persona ("motor": "grabada") ----------------------------------
+// Una sola grabacion de todo el guion, en la carpeta del video, con el nombre "grabacion"
+// (grabacion.m4a, .mp3, .wav, .ogg...: lo que deje el celular). Se transcribe con whisper,
+// se ubica cada frase y se corta en el silencio que la persona deja entre frase y frase.
+// Si alguien se equivoca y vuelve a decir una frase, cuenta la ultima vez que la dijo.
+const NOMBRE_GRABACION = /^grabacion\.(wav|mp3|m4a|aac|ogg|oga|opus|flac|amr|3gp|caf|mp4|mov|webm)$/i;
+
+function buscaGrabacion() {
+  if (guion.grabacion) {
+    const ruta = path.resolve(carpeta, guion.grabacion);
+    return fs.existsSync(ruta) ? ruta : null;
+  }
+  for (const dir of [carpeta, path.join(carpeta, "assets")]) {
+    if (!fs.existsSync(dir)) continue;
+    const hallado = fs.readdirSync(dir).find((n) => NOMBRE_GRABACION.test(n));
+    if (hallado) return path.join(dir, hallado);
+  }
+  return null;
+}
+
+// El audio como muestras de 16 bits a 16 kHz, para medirlo.
+function muestras(archivo) {
+  const r = spawnSync("ffmpeg", ["-v", "error", "-i", archivo, "-f", "s16le", "-ac", "1", "-ar", "16000", "-"], { maxBuffer: 1024 * 1024 * 1024 });
+  if (r.status !== 0) throw new Error("No se pudo leer " + archivo + ":\n" + String(r.stderr));
+  const b = r.stdout;
+  const pcm = new Int16Array(Math.floor(b.length / 2));
+  for (let i = 0; i < pcm.length; i++) pcm[i] = b.readInt16LE(i * 2);
+  return pcm;
+}
+
+// Volumen de cada tramo de 20 ms y el umbral entre voz y silencio de esta grabacion: el
+// ruido de fondo de un celular cambia de un lugar a otro, asi que se mide en cada una.
+function medirVolumen(pcm) {
+  const N = 320;
+  const db = [];
+  let pico = 1;
+  for (let i = 0; i + N <= pcm.length; i += N) {
+    let suma = 0;
+    for (let k = i; k < i + N; k++) {
+      suma += pcm[k] * pcm[k];
+      if (Math.abs(pcm[k]) > pico) pico = Math.abs(pcm[k]);
+    }
+    db.push(10 * Math.log10(suma / N / 1073741824 + 1e-12));
+  }
+  const orden = [...db].sort((a, b) => a - b);
+  const en = (p) => orden[Math.min(orden.length - 1, Math.floor(p * orden.length))];
+  const ruido = en(0.1);
+  const voz = en(0.9);
+  return { db, paso: 0.02, ruido, voz, umbral: ruido + Math.max(6, 0.35 * (voz - ruido)), picoDb: 20 * Math.log10(pico / 32768) };
+}
+
+// Silencios de al menos 0,12 s. Un tramo suelto de 20 ms (un clic) no corta un silencio.
+function silenciosGrabacion(v) {
+  const callado = v.db.map((x) => x < v.umbral);
+  for (let i = 1; i < callado.length - 1; i++) if (!callado[i] && callado[i - 1] && callado[i + 1]) callado[i] = true;
+  const lista = [];
+  let desde = null;
+  for (let i = 0; i <= callado.length; i++) {
+    if (i < callado.length && callado[i]) {
+      if (desde === null) desde = i;
+    } else if (desde !== null) {
+      if ((i - desde) * v.paso >= 0.12) lista.push({ inicio: desde * v.paso, fin: i * v.paso });
+      desde = null;
+    }
+  }
+  return lista;
+}
+
+// Lo que oye whisper, palabra por palabra, con su tiempo.
+function palabrasOidas(wav16, pista) {
+  const base = wav16.replace(/\.wav$/, "");
+  const args = ["-m", MODELO, "-l", "es", "-f", wav16, "-ml", "1", "-sow", "-oj", "-of", base, "-np"];
+  if (pista) args.push("--prompt", pista);
+  const r = spawnSync(WHISPER, args, { encoding: "utf8", maxBuffer: 64 * 1024 * 1024 });
+  if (r.status !== 0 || !fs.existsSync(base + ".json")) throw new Error("whisper no pudo transcribir la grabacion:\n" + (r.stderr || r.stdout));
+  const datos = JSON.parse(fs.readFileSync(base + ".json", "utf8"));
+  fs.rmSync(base + ".json", { force: true });
+  return (datos.transcription || []).map((s) => ({ texto: String(s.text || ""), inicio: s.offsets.from / 1000, fin: s.offsets.to / 1000 }));
+}
+
+const plano = (s) =>
+  String(s)
+    .normalize("NFD")
+    .replace(/\p{M}/gu, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]/g, "");
+
+// Donde dijo la persona cada frase del guion. Las letras del guion se alinean una por una con
+// las que oyo whisper (asi no importa si oye "células" partido en dos), y ante dos maneras
+// igual de buenas se queda con la mas tardia: si una frase se dijo dos veces, la ultima.
+function ubicarFrases(oidas) {
+  const A = [];
+  guion.frases.forEach((f, k) => {
+    for (const c of plano(f.texto)) A.push({ c, k });
+  });
+  const B = [];
+  for (const o of oidas) {
+    const oidasLetras = [...plano(o.texto)];
+    const d = Math.max(0.01, o.fin - o.inicio);
+    oidasLetras.forEach((c, i) => B.push({ c, t: o.inicio + (d * (i + 0.5)) / oidasLetras.length }));
+  }
+  const n = A.length;
+  const m = B.length;
+  const ancho = m + 1;
+  const costo = new Uint32Array((n + 1) * ancho);
+  const paso = new Uint8Array((n + 1) * ancho); // 0 = pareja, 1 = letra del guion sin oir, 2 = letra oida de mas
+  for (let i = 1; i <= n; i++) {
+    costo[i * ancho] = i;
+    paso[i * ancho] = 1;
+  }
+  for (let j = 1; j <= m; j++) {
+    costo[j] = j;
+    paso[j] = 2;
+  }
+  for (let i = 1; i <= n; i++) {
+    for (let j = 1; j <= m; j++) {
+      let mejor = costo[(i - 1) * ancho + j - 1] + (A[i - 1].c === B[j - 1].c ? 0 : 1);
+      let p = 0;
+      const sinOir = costo[(i - 1) * ancho + j] + 1;
+      if (sinOir < mejor) {
+        mejor = sinOir;
+        p = 1;
+      }
+      const deMas = costo[i * ancho + j - 1] + 1;
+      if (deMas < mejor) {
+        mejor = deMas;
+        p = 2;
+      }
+      costo[i * ancho + j] = mejor;
+      paso[i * ancho + j] = p;
+    }
+  }
+  const tiempos = guion.frases.map(() => []);
+  for (let i = n, j = m; i > 0 && j > 0; ) {
+    const p = paso[i * ancho + j];
+    if (p === 0) {
+      tiempos[A[i - 1].k].push(B[j - 1].t);
+      i--;
+      j--;
+    } else if (p === 1) i--;
+    else j--;
+  }
+  // Al alinear, alguna letra suelta de una frase puede caer lejos (en un arranque en falso,
+  // por ejemplo). Las letras se agrupan por cercania y cuenta el grupo mas grande.
+  return tiempos.map((t) => {
+    if (!t.length) return null;
+    t.sort((a, b) => a - b);
+    const grupos = [[t[0]]];
+    for (let i = 1; i < t.length; i++) {
+      if (t[i] - t[i - 1] > 0.7) grupos.push([]);
+      grupos.at(-1).push(t[i]);
+    }
+    const mayor = grupos.reduce((a, b) => (b.length >= a.length ? b : a));
+    return { inicio: mayor[0], fin: mayor.at(-1) };
+  });
+}
+
+// Corta la grabacion en un archivo por frase (assets/voz/fN.wav), igual que los demas motores.
+function prepararGrabacion() {
+  const fuente = buscaGrabacion();
+  if (!WHISPER || !MODELO) {
+    throw new Error(
+      "La voz grabada necesita whisper y su modelo (herramientas/modelos/ggml-small-q5_1.bin). " +
+        "En Windows los instala herramientas/instalar.ps1; en Mac, mira animados/GUIA.md (Instalacion).",
+    );
+  }
+  const datos = fs.statSync(fuente);
+  // `v` sube cada vez que cambia la manera de cortar, para que se vuelva a cortar todo.
+  const firma = JSON.stringify({ v: 2, grabacion: path.basename(fuente), peso: datos.size, fecha: datos.mtimeMs, frases: guion.frases.map((f) => f.texto) });
+  const sello = path.join(dirVoz, "_grabacion.firma");
+  const listas = guion.frases.every((f) => fs.existsSync(path.join(dirVoz, f.id + ".wav")));
+  if (listas && fs.existsSync(sello)) {
+    let guardado = null;
+    try {
+      guardado = JSON.parse(fs.readFileSync(sello, "utf8"));
+    } catch {}
+    if (guardado && guardado.firma === firma) {
+      console.log(`grabacion ${path.basename(fuente)}: ya estaba cortada`);
+      revisarDeOido.push(...(guardado.avisos || [])); // los avisos de entonces siguen valiendo
+      return;
+    }
+  }
+  const avisosAntes = revisarDeOido.length;
+  console.log(`grabacion ${path.basename(fuente)}: ubicando cada frase...`);
+  const base = path.join(dirVoz, "_grabacion.wav");
+  const base16 = path.join(dirVoz, "_grabacion16.wav");
+  correr("ffmpeg", ["-v", "error", "-y", "-i", fuente, "-vn", "-af", "highpass=f=70", "-ar", "48000", "-ac", "1", base]);
+  correr("ffmpeg", ["-v", "error", "-y", "-i", base, "-ar", "16000", "-ac", "1", "-c:a", "pcm_s16le", base16]);
+  const largo = duracion(base);
+  const v = medirVolumen(muestras(base16));
+  const ganancia = Math.max(0, Math.min(30, -1 - v.picoDb));
+  const huecos = silenciosGrabacion(v);
+  const pista = guion.frases.map((f) => f.texto).join(" ").slice(0, 400);
+  const ubicadas = ubicarFrases(palabrasOidas(base16, pista));
+  ubicadas.forEach((u, k) => {
+    if (!u) throw new Error(`No encontre la frase ${guion.frases[k].id} ("${guion.frases[k].texto}") en la grabacion.`);
+  });
+
+  // La pausa entre frases es mas larga que la de una coma: cuenta como pausa entre frases todo
+  // silencio de al menos el 80 % de la (n-1)-esima pausa mas larga de la grabacion.
+  const dentro = huecos
+    .filter((s) => s.inicio > ubicadas[0].inicio && s.fin < ubicadas.at(-1).fin)
+    .map((s) => s.fin - s.inicio)
+    .sort((a, b) => b - a);
+  const referencia = dentro.length ? dentro[Math.min(dentro.length - 1, guion.frases.length - 2)] : 0.6;
+  const minPausa = guion.pausa_grabacion ?? Math.min(0.8, Math.max(0.3, 0.8 * referencia));
+  const largos = huecos.filter((s) => s.fin - s.inicio >= minPausa);
+
+  // Primer y ultimo tramo con voz dentro de [a, b].
+  const hayVoz = (i) => v.db[i] >= v.umbral && (v.db[i + 1] ?? -200) >= v.umbral;
+  const recorta = (a, b) => {
+    let i = Math.max(0, Math.floor(a / v.paso));
+    let j = Math.min(v.db.length - 1, Math.ceil(b / v.paso) - 1);
+    while (i < j && !hayVoz(i)) i++;
+    while (j > i && !hayVoz(j - 1)) j--;
+    return { a: i * v.paso, b: (j + 1) * v.paso };
+  };
+
+  let antes = 0;
+  const lineas = [];
+  ubicadas.forEach((u, k) => {
+    const frase = guion.frases[k];
+    const siguiente = ubicadas[k + 1];
+    const previos = largos.filter((s) => s.fin >= antes && s.fin <= u.inicio + 0.5);
+    const desde = previos.length ? previos.at(-1).fin : Math.max(antes, u.inicio - 0.2);
+    const limite = siguiente ? siguiente.inicio : largo;
+    const posteriores = largos.filter((s) => s.inicio > desde + 0.3 && s.inicio < limite && s.fin > u.fin - 0.2);
+    const hasta = posteriores.length ? posteriores[0].inicio : siguiente ? Math.max(desde + 0.3, (u.fin + siguiente.inicio) / 2) : largo;
+    const { a, b } = recorta(desde, hasta);
+    const corteA = Math.max(antes, a - 0.06);
+    const corteB = Math.min(largo, b + 0.12);
+    antes = b;
+    const wav = path.join(dirVoz, frase.id + ".wav");
+    correr("ffmpeg", [
+      "-v", "error", "-y", "-i", base,
+      "-af", `atrim=start=${corteA.toFixed(3)}:end=${corteB.toFixed(3)},asetpts=PTS-STARTPTS,volume=${ganancia.toFixed(1)}dB`,
+      "-ar", "48000", "-ac", "1", wav,
+    ]);
+    const fallos = difiere(wav, frase.texto);
+    const palabras = sonido(frase.texto).length;
+    if (fallos !== null && fallos > Math.max(1, Math.round(palabras * 0.2))) {
+      revisarDeOido.push(`${frase.id} "${frase.texto}": whisper oye ${fallos} palabra(s) distinta(s); revisa que el corte (${corteA.toFixed(2)}-${corteB.toFixed(2)} s de la grabacion) tenga la frase completa`);
+    }
+    lineas.push(`  ${frase.id}: ${corteA.toFixed(2)} - ${corteB.toFixed(2)} s${fallos ? ` (whisper oye ${fallos} distinta(s))` : ""}`);
+  });
+  lineas.forEach((l) => console.log(l));
+  fs.rmSync(base16, { force: true });
+  fs.writeFileSync(sello, JSON.stringify({ firma, avisos: revisarDeOido.slice(avisosAntes) }), "utf8");
 }
 
 // CLI de Higgsfield (npm i -g @higgsfield/cli; higgsfield auth login). Se llama a su
@@ -149,6 +418,12 @@ function hablar(frase) {
     "silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.03," +
     "areverse,silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.05,areverse";
   const yaEsta = (firma) => fs.existsSync(wav) && fs.existsSync(sello) && fs.readFileSync(sello, "utf8") === firma;
+
+  if (MOTOR === "grabada") {
+    // prepararGrabacion() ya dejo cada frase cortada.
+    if (!fs.existsSync(wav)) throw new Error(`Falta ${wav}: la grabacion no se corto bien.`);
+    return wav;
+  }
 
   if (MOTOR === "externo") {
     const dirExterna = path.join(carpeta, "assets", "voz-externa");
@@ -324,6 +599,17 @@ let cursor = guion.inicio ?? 0.2;
 let numero = 0;
 const frases = [];
 const partes = [];
+
+if (MOTOR === "grabada") {
+  if (!buscaGrabacion()) {
+    console.error(
+      `FALTA LA GRABACION de "${path.basename(carpeta)}": lee las frases de ${path.join(carpeta, "para-grabar.txt")} ` +
+        `y deja el audio en esa carpeta con el nombre grabacion (grabacion.m4a, .mp3, .wav...).`,
+    );
+    process.exit(3);
+  }
+  prepararGrabacion();
+}
 
 for (const frase of guion.frases) {
   process.stdout.write(`voz ${frase.id} ... `);

@@ -8,16 +8,33 @@ El motor es [HyperFrames](https://github.com/heygen-com/hyperframes) (HTML anima
 
 ## Instalación (una vez por PC)
 
-Hace falta Node 22 o superior, ffmpeg y Python 3.10 o superior. Desde la raíz del proyecto:
+Hace falta Node 22 o superior, ffmpeg y whisper con su modelo (para cortar la voz grabada y comprobarla). Python y Kokoro solo hacen falta para la voz local de prueba.
+
+**Windows.** whisper, su modelo y ffmpeg los instala `herramientas/instalar.ps1`. Desde la raíz del proyecto:
 
 ```powershell
-python -m venv animados\.venv
-animados\.venv\Scripts\python.exe -m pip install kokoro-onnx soundfile
 npx --yes hyperframes@0.9.20 telemetry disable
 npx --yes hyperframes@0.9.20 doctor
+# solo para la voz local de prueba:
+python -m venv animados.venv
+animados.venvScriptspython.exe -m pip install kokoro-onnx soundfile
 ```
 
-`doctor` debe mostrar en verde Node, FFmpeg y Chrome. Docker, whisper y MusicGen no se usan. La primera voz descarga el modelo Kokoro (unos 300 MB) y tarda más.
+**Mac** (sin probar todavía en uno). Con [Homebrew](https://brew.sh):
+
+```bash
+brew install node ffmpeg whisper-cpp
+mkdir -p herramientas/modelos
+curl -L -o herramientas/modelos/ggml-small-q5_1.bin https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-small-q5_1.bin
+npx --yes hyperframes@0.9.20 telemetry disable
+npx --yes hyperframes@0.9.20 doctor
+# solo para la voz local de prueba:
+python3 -m venv animados/.venv && animados/.venv/bin/pip install kokoro-onnx soundfile
+```
+
+`voz.mjs` busca whisper primero en `herramientas/bin/whisper/` y después en el PATH (`whisper-cli`), y el modelo en `herramientas/modelos/` o en la variable `WHISPER_MODELO`. Los programas los instala la persona, no Claude.
+
+`doctor` debe mostrar en verde Node, FFmpeg y Chrome. Docker y MusicGen no se usan.
 
 La versión de HyperFrames va fijada (`0.9.20`) en esta guía, en `herramientas/voz.mjs` y en el `package.json` de cada video. Para subirla se cambia en los tres sitios a la vez.
 
@@ -28,7 +45,7 @@ Todo se corre desde la raíz del proyecto salvo que se diga otra cosa. `<video>`
 1. **Carpeta.** Dentro de `animados/videos/`:
    `npx --yes hyperframes@0.9.20 init <video> --example=blank --resolution=portrait --non-interactive --skip-skills`
 2. **Guion.** Escribe `animados/videos/<video>/guion.json` (sección «Guion»). Comprueba cada dato antes de animarlo.
-3. **Voz y tiempos.** `node animados/herramientas/voz.mjs animados/videos/<video>`
+3. **Voz y tiempos.** Con voz grabada (lo normal), alguien lee `para-grabar.txt` y deja el audio en la carpeta del video como `grabacion.m4a` (sección «Sonido»). Después: `node animados/herramientas/voz.mjs animados/videos/<video>`
    Deja `assets/narracion.wav` y `tiempos.json`, con el inicio y el fin de cada frase y de cada palabra. Todo lo demás se sincroniza con ese archivo. Si cambias el guion, vuelve a correrlo: solo regenera las frases que cambiaron.
 4. **Escenas.** Una escena por archivo en `compositions/`, con el mismo nombre que su `escena` en el guion (secciones «Estilo», «Escenas» y «Reglas técnicas»). Cada cosa aparece cuando la voz la nombra.
 5. **Montaje.** `node animados/herramientas/montaje.mjs animados/videos/<video>`
@@ -112,7 +129,7 @@ Un formato nuevo es bienvenido: es otra manera de ordenar las plantillas, o una 
 
 **Dibujo del negocio.** `gancho-heroe` pone grande el objeto que identifica al negocio. Están en [plantillas/heroes.json](plantillas/heroes.json): `plato`, `diente`, `casa`, `tienda`, `pesa`, `tijeras`. Si el negocio no tiene el suyo, dibújalo y agrégalo ahí: SVG plano en un lienzo de 400×400, con las reglas de «Dibujo» (sin contorno, sombra a un lado, brillo claro y sombra elíptica en el piso).
 
-**Frases que no cambian** (así se pagan una sola vez y la marca suena igual):
+**Frases que no cambian** (así la marca suena igual en todos los videos):
 
 - Con `nacen-agentes`: «Nosotros creamos un agente de inteligencia artificial para cada una.»
 - Con `legion-aprueba`: «Trabajan juntos, día y noche, y tú solo apruebas.»
@@ -255,13 +272,19 @@ Los genera `subtitulos.mjs` (lo llama `montaje.mjs`): grupos de hasta 3 palabras
 
 ## Sonido
 
-- **Voz de Higgsfield (la que se publica):** en el guion, `"motor": "higgsfield"`, `"variante": "elevenlabs"` y `"voz": "Bram"` (un nombre de `higgsfield voices list`). Necesita el CLI instalado y con sesión (`npm i -g @higgsfield/cli` y `higgsfield auth login`; los corre la persona, no Claude). Gasta créditos de esa cuenta: un video de 30 segundos cuesta cerca de 2. Solo se vuelven a generar las frases que cambian. Todas las voces traen muestra en inglés, así que una voz nueva se prueba primero con una frase y se revisa con whisper que el español se entienda.
+- **Voz grabada (la que se publica).** En el guion, `"motor": "grabada"`. Una persona lee todo el guion de una vez con el celular y deja el audio en la carpeta del video con el nombre `grabacion` (`grabacion.m4a`, `.mp3`, `.wav`, `.ogg`…). `voz.mjs` lo transcribe con whisper, ubica cada frase, la corta en el silencio que la persona deja antes de la siguiente y sigue igual que con cualquier otra voz.
+  - **Las frases para leer** las escribe `producir.mjs` en `para-grabar.txt`, dentro de la carpeta de cada video, con las instrucciones. `salidas/animador/por-grabar.md` junta todos los videos que esperan grabación.
+  - **Mientras no esté la grabación**, el video queda «esperando grabación»: no es un error y `producir.mjs --todos` lo vuelve a intentar la próxima vez.
+  - **Cómo grabar:** lugar callado, celular a un palmo de la boca, voz normal y con energía, y un segundo de silencio entre frase y frase. Si alguien se equivoca, hace una pausa y repite la frase completa: cuenta la última vez que la dijo.
+  - **Comprobación:** cada frase cortada se vuelve a transcribir y se compara con el guion; lo que no coincida sale al final como «Para revisar de oído», con los segundos de la grabación donde se cortó. Probado con dos grabaciones de ensayo (pausas de un segundo con una frase repetida, y pausas de medio segundo con más ruido): los cortes quedaron a menos de una décima de segundo.
+  - **Una vez grabado, el texto dicho no se cambia.** Si una escena no cabe, se cambia el texto en pantalla (rótulos, estados, mensajes); si hay que cambiar lo que se dice, hay que volver a grabar.
+- **Voz de Higgsfield** (ya no se usa para la serie; queda por si hace falta): en el guion, `"motor": "higgsfield"`, `"variante": "elevenlabs"` y `"voz": "Bram"` (un nombre de `higgsfield voices list`). Necesita el CLI instalado y con sesión (`npm i -g @higgsfield/cli` y `higgsfield auth login`; los corre la persona, no Claude). Gasta créditos de esa cuenta: un video de 30 segundos cuesta cerca de 2. Solo se vuelven a generar las frases que cambian. Todas las voces traen muestra en inglés, así que una voz nueva se prueba primero con una frase y se revisa con whisper que el español se entienda.
 - **Cómo escribirle a esta voz.** Es de origen inglés y a veces lee con sonido inglés la primera palabra de una frase. Tres cuidados: (1) no empieces una frase con una palabra que también exista en inglés (*agenda*, *general*, *similar*, *responder*); (2) las listas van con sustantivos («Mensajes, llamadas, visitas»), no con verbos en infinitivo, porque les pierde la «r» final; (3) si una palabra sale mal, agrégale una regla en [pronunciacion.json](pronunciacion.json): a la voz se le manda como suena («ajendar») y en pantalla se sigue viendo bien escrita.
-- **Comprobación.** `voz.mjs` transcribe cada frase con whisper y la vuelve a generar hasta tres veces si no coincide con el guion; lo que no logre arreglar lo lista al final como «Para revisar de oído». Eso confirma que se entiende lo que dice el guion, no que el acento guste: alguien tiene que oír el video antes de publicarlo.
+- **Comprobación de la voz de Higgsfield.** `voz.mjs` transcribe cada frase con whisper y la vuelve a generar hasta tres veces si no coincide con el guion; lo que no logre arreglar lo lista al final como «Para revisar de oído». Eso confirma que se entiende lo que dice el guion, no que el acento guste: alguien tiene que oír el video antes de publicarlo.
 - **Voz local:** Kokoro (`ef_dora` de mujer, `em_alex` y `em_santa` de hombre), con `"motor": "kokoro"`. Es gratis y suena sintética; sirve para armar y cronometrar el video, no para publicarlo.
 - **Voz de otro servicio:** genera o graba una frase por archivo, con el `id` de la frase como nombre (`f1.wav`, `f2.mp3`…), y déjalas en `assets/voz-externa/`. Pon `"motor": "externo"` en el guion y corre `voz.mjs` y `montaje.mjs`: el video se vuelve a sincronizar solo.
 - **Volumen:** el video final queda cerca de −16 LUFS. Se comprueba con `ffmpeg -i <mp4> -af ebur128 -f null -`.
-- **Música y efectos:** todavía no hay. Cuando haya una fuente con licencia clara, la música va a 0,14 de volumen bajo la voz y cada efecto tiene una causa visible en pantalla.
+- **Música y efectos:** se agregan en CapCut, después del render (el MP4 ya sale con voz y subtítulos). La música va baja, para que la voz se entienda, y en una cuenta de empresa solo con licencia comercial: si no, la plataforma puede silenciar el video o frenar el anuncio.
 
 ## Piezas de la marca
 

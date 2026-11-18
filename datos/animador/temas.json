@@ -1,6 +1,6 @@
 {
   "serie": "mientras-duermes",
-  "nota": "Lista de temas del Animador. Cada tema es un tipo de negocio para un video de la serie. Solo la escribe el Animador (o el usuario, para agregar temas). Estados: pendiente, hecho, descartado.",
+  "nota": "Lista de temas del Animador. Cada tema es un tipo de negocio para un video de la serie. Solo la escribe el Animador (o el usuario, para agregar temas). Estados: pendiente, esperando-grabacion (tiene guion y espera la voz), hecho, descartado.",
   "temas": [
     {
       "id": "legion-agentes",

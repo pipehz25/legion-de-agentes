@@ -1,6 +1,6 @@
 ---
 name: animador
-description: Ejecuta un ciclo del Agente 05 de la Legión (Animador) - produce videos explicativos animados para vender la Legión de Agentes a negocios, a partir de su lista de temas, y los deja listos con su texto de publicación. Acepta un tema o un número, p. ej. `/animador veterinaria` o `/animador 3`. Solo en la PC que tiene Node, ffmpeg y el CLI de Higgsfield con sesión (la de Santiago). No forma parte de /legion.
+description: Ejecuta un ciclo del Agente 05 de la Legión (Animador) - produce videos explicativos animados para vender la Legión de Agentes a negocios, a partir de su lista de temas, y los deja listos con su texto de publicación. Acepta un tema o un número, p. ej. `/animador veterinaria` o `/animador 3`. La voz la graban las personas: el agente deja las frases en salidas/animador/por-grabar.md y produce cuando está la grabación. Solo en una PC con Node, ffmpeg y whisper. No forma parte de /legion.
 ---
 
 # Ciclo del Animador

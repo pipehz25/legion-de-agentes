@@ -11,6 +11,10 @@
 // Entrega en salidas/animador/<video>/:
 //   <video>.mp4, portada.jpg, publicacion.txt (texto y hashtags del guion) y meta.json.
 // Una carpeta de video solo necesita su guion.json; lo demas lo crea este script.
+//
+// Voz grabada ("motor": "grabada"): deja en la carpeta del video para-grabar.txt (las frases
+// que hay que leer) y, mientras no este la grabacion, el video queda "esperando grabacion"
+// (no es un error). salidas/animador/por-grabar.md junta todos los que esperan.
 
 import { spawnSync } from "node:child_process";
 import fs from "node:fs";
@@ -32,6 +36,30 @@ function corre(titulo, orden, cwd, opciones = {}) {
   const r = spawnSync(orden, { shell: true, cwd, env: ENTORNO, encoding: "utf8", stdio: opciones.callado ? ["ignore", "pipe", "pipe"] : ["ignore", "inherit", "inherit"], maxBuffer: 64 * 1024 * 1024 });
   if (r.status !== 0 && !opciones.tolera) throw new Error(`Fallo "${titulo}".\n${r.stderr || ""}${r.stdout || ""}`.slice(0, 3000));
   return r;
+}
+
+const NOMBRE_GRABACION = /^grabacion\.(wav|mp3|m4a|aac|ogg|oga|opus|flac|amr|3gp|caf|mp4|mov|webm)$/i;
+const tieneGrabacion = (carpeta, guion) =>
+  guion.grabacion
+    ? fs.existsSync(path.resolve(carpeta, guion.grabacion))
+    : [carpeta, path.join(carpeta, "assets")].some((d) => fs.existsSync(d) && fs.readdirSync(d).some((n) => NOMBRE_GRABACION.test(n)));
+
+const COMO_GRABAR = [
+  "Cómo grabar",
+  "1. Busca un lugar callado y graba con el celular a un palmo de la boca, sin música de fondo.",
+  "2. Lee las frases en orden, con tu voz normal y con energía, como si se lo contaras a alguien.",
+  "3. Entre frase y frase deja un segundo de silencio: ahi es donde el sistema corta.",
+  "4. Si te equivocas, haz una pausa y vuelve a decir esa frase completa: se usa la última vez que la dijiste.",
+  "5. Guarda el audio en la carpeta del video con el nombre grabacion (grabacion.m4a, grabacion.mp3, grabacion.wav...). Sin tilde.",
+];
+
+function frasesParaLeer(guion) {
+  return guion.frases.map((f, i) => `${i + 1}. ${f.texto}`);
+}
+
+function escribeParaGrabar(carpeta, guion) {
+  const texto = [`GRABAR: ${guion.titulo || path.basename(carpeta)}`, `Carpeta: animados/videos/${path.basename(carpeta)}`, "", ...COMO_GRABAR, "", "Frases", ...frasesParaLeer(guion), ""].join("\n");
+  fs.writeFileSync(path.join(carpeta, "para-grabar.txt"), texto, "utf8");
 }
 
 function entregaDe(carpeta) {
@@ -76,7 +104,10 @@ function produce(carpeta) {
   }
 
   console.log("1/4 voz");
-  corre("voz", `node "${path.join(AQUI, "voz.mjs")}" "${carpeta}"`, RAIZ);
+  if (guion.motor === "grabada") escribeParaGrabar(carpeta, guion);
+  const voz = corre("voz", `node "${path.join(AQUI, "voz.mjs")}" "${carpeta}"`, RAIZ, { tolera: true });
+  if (voz.status === 3) return { nombre, esperando: true };
+  if (voz.status !== 0) throw new Error(`Fallo "voz" en ${nombre} (mira el mensaje de arriba).`);
   console.log("2/4 montaje");
   corre("montaje", `node "${path.join(AQUI, "montaje.mjs")}" "${carpeta}"`, RAIZ, { callado: true });
 
@@ -149,13 +180,15 @@ if (!carpetas.length && !todos) {
 
 const hechos = [];
 const fallidos = [];
+const esperando = [];
 for (const carpeta of carpetas) {
   if (!fs.existsSync(path.join(carpeta, "guion.json"))) {
     fallidos.push({ nombre: path.basename(carpeta), error: "no tiene guion.json" });
     continue;
   }
   try {
-    hechos.push(produce(carpeta));
+    const hecho = produce(carpeta);
+    (hecho.esperando ? esperando : hechos).push(hecho);
   } catch (e) {
     console.error(String(e.message || e));
     fallidos.push({ nombre: path.basename(carpeta), error: String(e.message || e).split("\n")[0] });
@@ -187,9 +220,35 @@ function catalogo() {
 }
 catalogo();
 
-if (carpetas.length > 1 || fallidos.length) {
-  console.log(`\nResumen: ${hechos.length} hecho(s), ${fallidos.length} con error.`);
+// Lo que falta grabar, en un solo archivo para quien pone la voz.
+function porGrabar() {
+  const base = path.join(RAIZ, "salidas", "animador");
+  const dir = path.join(ANIMADOS, "videos");
+  const faltan = fs
+    .readdirSync(dir)
+    .map((n) => path.join(dir, n))
+    .filter((c) => fs.existsSync(path.join(c, "guion.json")))
+    .map((c) => ({ carpeta: c, guion: JSON.parse(fs.readFileSync(path.join(c, "guion.json"), "utf8")) }))
+    .filter(({ carpeta, guion }) => guion.motor === "grabada" && !tieneGrabacion(carpeta, guion));
+  const partes = ["# Videos por grabar", "", "Generado por `animados/herramientas/producir.mjs`. Cada video se graba de una vez, leyendo sus frases en orden.", ""];
+  if (!faltan.length) partes.push("No hay videos esperando grabación.", "");
+  else {
+    partes.push(...COMO_GRABAR.slice(1).map((l) => l.replace(/^\d\. /, "- ")), "");
+    for (const { carpeta, guion } of faltan) {
+      partes.push(`## ${guion.titulo || path.basename(carpeta)}`, "", `Guardar como \`animados/videos/${path.basename(carpeta)}/grabacion.m4a\` (o .mp3, .wav).`, "", ...frasesParaLeer(guion), "");
+    }
+  }
+  fs.mkdirSync(base, { recursive: true });
+  fs.writeFileSync(path.join(base, "por-grabar.md"), partes.join("\n"), "utf8");
+  return faltan.length;
+}
+const faltanGrabar = porGrabar();
+
+if (carpetas.length > 1 || fallidos.length || esperando.length) {
+  console.log(`\nResumen: ${hechos.length} hecho(s), ${esperando.length} esperando grabacion, ${fallidos.length} con error.`);
   hechos.forEach((h) => console.log(`  ok    ${h.nombre}${h.avisos ? `  (${h.avisos} aviso(s) de revision)` : ""}`));
+  esperando.forEach((h) => console.log(`  falta grabar  ${h.nombre}  (frases en animados/videos/${h.nombre}/para-grabar.txt)`));
   fallidos.forEach((f) => console.log(`  ERROR ${f.nombre}: ${f.error}`));
 }
+if (faltanGrabar) console.log(`\n${faltanGrabar} video(s) por grabar: salidas/animador/por-grabar.md`);
 process.exit(fallidos.length ? 1 : 0);
