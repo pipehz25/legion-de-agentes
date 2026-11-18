@@ -8,7 +8,7 @@ Actualizado el 2026-11-18. Cada tarea dice quién la hace, dónde y cuándo est�
 | **Santiago** | La suya | El espacio `lalo` (`/loop 6h /turno-lalo`) y desarrollo |
 | **Claude** | Sesión de Santiago | Lo que hay que programar. Lo sube a GitHub y la otra PC lo baja con `git pull` |
 
-**Cómo se usa:** al terminar una tarea, márcala con `[x]` (o pídele a tu Claude «marca F1 como hecha en docs/plan-ejecucion.md») y haz commit y push. Antes de editar, `git pull`.
+**Cómo se usa:** el estado de cada tarea (pendiente, en curso, hecha) se marca en el **tablero**: https://claude.ai/artifact/A2HQQuZZGdmfGpvsjsnmvi. Lo ve todo el que tenga acceso. Este archivo guarda el detalle; si se añade o cambia una tarea, se cambia aquí y en el tablero.
 
 ## Fase 1 · Esta semana: encender lo que ya está construido
 
@@ -44,7 +44,7 @@ Actualizado el 2026-11-18. Cada tarea dice quién la hace, dónde y cuándo est�
 
 - [ ] **S8. Mac mini.** Cuando llegue, Santiago la instala (Claude Code, git, Node) y Claude adapta los scripts para que funcionen en Mac y en Windows. Decidir qué corre ahí: el Animador y, si se quiere, el turno de Lalo.
 - [ ] **C2. Primer agente para una empresa.** Santiago y Felipe eligen un negocio piloto (hotel, veterinaria o taller, que ya tienen video) y Claude arma su agente para correr en la nube (`/schedule`), sin depender de ningún computador.
-- [ ] **Todos: actualizar yt-dlp** cada pocas semanas en cada PC con `herramientas/instalar.ps1 -Solo yt-dlp` (lo corre la persona). En la PC de Santiago es la del 2026-10-26: toca a comienzos de diciembre.
+- [ ] **T1. Todos: actualizar yt-dlp** cada pocas semanas en cada PC con `herramientas/instalar.ps1 -Solo yt-dlp` (lo corre la persona). En la PC de Santiago es la del 2026-10-26: toca a comienzos de diciembre.
 
 ## Reglas que no cambian
 
