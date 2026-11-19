@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-18-gta6-without-dan-houser",
+    "url_fuente":  "https://www.youtube.com/watch?v=Gxsj9gKL-ZM",
+    "video_id":  "Gxsj9gKL-ZM",
+    "inicio":  564.41,
+    "fin":  586.22,
+    "inicio_hms":  "0:09:24",
+    "duracion_seg":  21.8,
+    "gancho":  "Worried about GTA 6 without Dan Houser?",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  83,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -19.07,
+                  "entrada_tp":  -6.56,
+                  "salida_lufs":  -13.67,
+                  "salida_tp":  -1.49
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-18-gta6-without-dan-houser/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-18-gta6-without-dan-houser/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-18-gta6-without-dan-houser/revision.jpg",
+    "creado":  "2026-11-18T15:46:55.3085564-05:00"
+}

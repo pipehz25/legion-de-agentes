@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-18-gta6-jumbo-jet",
+    "url_fuente":  "https://www.youtube.com/watch?v=Gxsj9gKL-ZM",
+    "video_id":  "Gxsj9gKL-ZM",
+    "inicio":  1906.65,
+    "fin":  1937.98,
+    "inicio_hms":  "0:31:46",
+    "duracion_seg":  31.3,
+    "gancho":  "You CAN fly a jumbo jet in GTA 6",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  99,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -17.66,
+                  "entrada_tp":  -5.11,
+                  "salida_lufs":  -14.18,
+                  "salida_tp":  -1.45
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-18-gta6-jumbo-jet/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-18-gta6-jumbo-jet/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-18-gta6-jumbo-jet/revision.jpg",
+    "creado":  "2026-11-18T15:41:22.6294291-05:00"
+}

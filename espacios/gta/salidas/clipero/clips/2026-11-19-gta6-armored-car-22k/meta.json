@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-19-gta6-armored-car-22k",
+    "url_fuente":  "https://www.youtube.com/watch?v=0omrQP5lMGA",
+    "video_id":  "0omrQP5lMGA",
+    "inicio":  4540.41,
+    "fin":  4569.98,
+    "inicio_hms":  "1:15:40",
+    "duracion_seg":  29.6,
+    "gancho":  "22 grand just fell in his lap",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  105,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -19.84,
+                  "entrada_tp":  -7.29,
+                  "salida_lufs":  -14.03,
+                  "salida_tp":  -1.45
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-19-gta6-armored-car-22k/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-19-gta6-armored-car-22k/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-19-gta6-armored-car-22k/revision.jpg",
+    "creado":  "2026-11-19T08:13:02.8441244-05:00"
+}

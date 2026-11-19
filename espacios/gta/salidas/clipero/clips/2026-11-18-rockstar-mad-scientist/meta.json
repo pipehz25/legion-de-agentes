@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-18-rockstar-mad-scientist",
+    "url_fuente":  "https://www.youtube.com/watch?v=Gxsj9gKL-ZM",
+    "video_id":  "Gxsj9gKL-ZM",
+    "inicio":  1083.77,
+    "fin":  1115.26,
+    "inicio_hms":  "0:18:03",
+    "duracion_seg":  31.5,
+    "gancho":  "Why Rockstar is gaming\u0027s mad scientist",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  126,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -19.8,
+                  "entrada_tp":  -7.25,
+                  "salida_lufs":  -13.7,
+                  "salida_tp":  -1.45
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-18-rockstar-mad-scientist/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-18-rockstar-mad-scientist/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-18-rockstar-mad-scientist/revision.jpg",
+    "creado":  "2026-11-18T15:48:08.0692394-05:00"
+}

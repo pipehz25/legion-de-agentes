@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-19-gta6-trojan-horse-empathy",
+    "url_fuente":  "https://www.youtube.com/watch?v=0omrQP5lMGA",
+    "video_id":  "0omrQP5lMGA",
+    "inicio":  2844.49,
+    "fin":  2891.42,
+    "inicio_hms":  "0:47:24",
+    "duracion_seg":  47,
+    "gancho":  "The \u0027Trojan horse\u0027 hidden in GTA 6",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  174,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -20.67,
+                  "entrada_tp":  -8.07,
+                  "salida_lufs":  -14.11,
+                  "salida_tp":  -1.4
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-19-gta6-trojan-horse-empathy/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-19-gta6-trojan-horse-empathy/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-19-gta6-trojan-horse-empathy/revision.jpg",
+    "creado":  "2026-11-19T07:50:42.5439597-05:00"
+}

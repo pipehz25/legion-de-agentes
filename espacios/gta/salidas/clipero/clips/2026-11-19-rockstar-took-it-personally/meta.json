@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-19-rockstar-took-it-personally",
+    "url_fuente":  "https://www.youtube.com/watch?v=0omrQP5lMGA",
+    "video_id":  "0omrQP5lMGA",
+    "inicio":  4820.49,
+    "fin":  4846.54,
+    "inicio_hms":  "1:20:20",
+    "duracion_seg":  26.1,
+    "gancho":  "Rockstar took those GOTY losses personally",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  105,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -19.82,
+                  "entrada_tp":  -7.25,
+                  "salida_lufs":  -14.09,
+                  "salida_tp":  -1.43
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-19-rockstar-took-it-personally/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-19-rockstar-took-it-personally/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-19-rockstar-took-it-personally/revision.jpg",
+    "creado":  "2026-11-19T08:11:41.0947229-05:00"
+}

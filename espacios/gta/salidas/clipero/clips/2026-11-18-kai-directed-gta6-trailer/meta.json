@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-18-kai-directed-gta6-trailer",
+    "url_fuente":  "https://www.youtube.com/watch?v=wKmIqTs2LoE",
+    "video_id":  "wKmIqTs2LoE",
+    "inicio":  0,
+    "fin":  26.86,
+    "inicio_hms":  "0:00:00",
+    "duracion_seg":  26.9,
+    "gancho":  "Kai Cenat directed his own GTA 6 trailer",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  97,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14.2,
+                  "limitador":  true,
+                  "entrada_lufs":  -16.8,
+                  "entrada_tp":  -3.65,
+                  "salida_lufs":  -14.32,
+                  "salida_tp":  -1.05
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-18-kai-directed-gta6-trailer/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-18-kai-directed-gta6-trailer/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-18-kai-directed-gta6-trailer/revision.jpg",
+    "creado":  "2026-11-18T15:24:34.4189855-05:00"
+}

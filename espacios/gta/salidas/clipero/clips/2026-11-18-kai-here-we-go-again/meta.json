@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-18-kai-here-we-go-again",
+    "url_fuente":  "https://www.youtube.com/watch?v=wKmIqTs2LoE",
+    "video_id":  "wKmIqTs2LoE",
+    "inicio":  606.45,
+    "fin":  660.6,
+    "inicio_hms":  "0:10:06",
+    "duracion_seg":  54.2,
+    "gancho":  "Kai Cenat brought back THE San Andreas line",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  173,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -13.27,
+                  "entrada_tp":  -0.64,
+                  "salida_lufs":  -14.96,
+                  "salida_tp":  -1.37
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-18-kai-here-we-go-again/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-18-kai-here-we-go-again/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-18-kai-here-we-go-again/revision.jpg",
+    "creado":  "2026-11-18T15:18:48.9642199-05:00"
+}

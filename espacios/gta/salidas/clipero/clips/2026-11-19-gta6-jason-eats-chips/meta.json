@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-19-gta6-jason-eats-chips",
+    "url_fuente":  "https://www.youtube.com/watch?v=0omrQP5lMGA",
+    "video_id":  "0omrQP5lMGA",
+    "inicio":  2470.33,
+    "fin":  2520.62,
+    "inicio_hms":  "0:41:10",
+    "duracion_seg":  50.3,
+    "gancho":  "Rockstar thought about how Jason eats chips",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  175,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -20.8,
+                  "entrada_tp":  -8.16,
+                  "salida_lufs":  -14.19,
+                  "salida_tp":  -1.36
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-19-gta6-jason-eats-chips/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-19-gta6-jason-eats-chips/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-19-gta6-jason-eats-chips/revision.jpg",
+    "creado":  "2026-11-19T07:54:06.1111642-05:00"
+}

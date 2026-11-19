@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-18-jason-arthur-morgan-vibe",
+    "url_fuente":  "https://www.youtube.com/watch?v=Gxsj9gKL-ZM",
+    "video_id":  "Gxsj9gKL-ZM",
+    "inicio":  517.45,
+    "fin":  561.02,
+    "inicio_hms":  "0:08:37",
+    "duracion_seg":  43.6,
+    "gancho":  "Jason has an Arthur Morgan vibe?",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  149,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -18.31,
+                  "entrada_tp":  -5.8,
+                  "salida_lufs":  -13.99,
+                  "salida_tp":  -1.49
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-18-jason-arthur-morgan-vibe/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-18-jason-arthur-morgan-vibe/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-18-jason-arthur-morgan-vibe/revision.jpg",
+    "creado":  "2026-11-18T15:52:27.6633745-05:00"
+}

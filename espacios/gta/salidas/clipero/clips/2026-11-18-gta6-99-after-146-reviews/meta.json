@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-18-gta6-99-after-146-reviews",
+    "url_fuente":  "https://www.youtube.com/watch?v=Gxsj9gKL-ZM",
+    "video_id":  "Gxsj9gKL-ZM",
+    "inicio":  22.09,
+    "fin":  68.86,
+    "inicio_hms":  "0:00:22",
+    "duracion_seg":  46.8,
+    "gancho":  "GTA 6 has a 99 after 146 reviews",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  119,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -17.93,
+                  "entrada_tp":  -5.37,
+                  "salida_lufs":  -14.09,
+                  "salida_tp":  -1.44
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-18-gta6-99-after-146-reviews/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-18-gta6-99-after-146-reviews/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-18-gta6-99-after-146-reviews/revision.jpg",
+    "creado":  "2026-11-18T15:31:35.7993137-05:00"
+}

@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-18-gta6-lose-the-cops",
+    "url_fuente":  "https://www.youtube.com/watch?v=Gxsj9gKL-ZM",
+    "video_id":  "Gxsj9gKL-ZM",
+    "inicio":  2290.89,
+    "fin":  2350.38,
+    "inicio_hms":  "0:38:10",
+    "duracion_seg":  59.5,
+    "gancho":  "How to lose the cops in GTA 6",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  220,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -19.01,
+                  "entrada_tp":  -6.48,
+                  "salida_lufs":  -13.97,
+                  "salida_tp":  -1.47
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-18-gta6-lose-the-cops/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-18-gta6-lose-the-cops/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-18-gta6-lose-the-cops/revision.jpg",
+    "creado":  "2026-11-18T15:43:15.8753300-05:00"
+}

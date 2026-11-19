@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-18-gta6-confirms-old-leak",
+    "url_fuente":  "https://www.youtube.com/watch?v=Gxsj9gKL-ZM",
+    "video_id":  "Gxsj9gKL-ZM",
+    "inicio":  2916.49,
+    "fin":  2962.54,
+    "inicio_hms":  "0:48:36",
+    "duracion_seg":  46.1,
+    "gancho":  "GTA 6 just confirmed a 4-year-old leak",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  154,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -18.66,
+                  "entrada_tp":  -6.13,
+                  "salida_lufs":  -13.94,
+                  "salida_tp":  -1.47
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-18-gta6-confirms-old-leak/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-18-gta6-confirms-old-leak/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-18-gta6-confirms-old-leak/revision.jpg",
+    "creado":  "2026-11-18T15:34:06.9832137-05:00"
+}

@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-18-wiz-kai-more-than-streamer",
+    "url_fuente":  "https://www.youtube.com/watch?v=wKmIqTs2LoE",
+    "video_id":  "wKmIqTs2LoE",
+    "inicio":  1010.09,
+    "fin":  1057.2,
+    "inicio_hms":  "0:16:50",
+    "duracion_seg":  47.1,
+    "gancho":  "Wiz Khalifa on who Kai Cenat really is",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  151,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -17.88,
+                  "entrada_tp":  -4.99,
+                  "salida_lufs":  -13.94,
+                  "salida_tp":  -1.11
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-18-wiz-kai-more-than-streamer/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-18-wiz-kai-more-than-streamer/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-18-wiz-kai-more-than-streamer/revision.jpg",
+    "creado":  "2026-11-18T15:19:57.4917251-05:00"
+}

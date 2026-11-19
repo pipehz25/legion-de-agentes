@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-19-gta6-no-retry",
+    "url_fuente":  "https://www.youtube.com/watch?v=0omrQP5lMGA",
+    "video_id":  "0omrQP5lMGA",
+    "inicio":  2936.57,
+    "fin":  2981.98,
+    "inicio_hms":  "0:48:56",
+    "duracion_seg":  45.4,
+    "gancho":  "GTA 6 doesn\u0027t let you retry this",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  194,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -20.75,
+                  "entrada_tp":  -8.09,
+                  "salida_lufs":  -14.09,
+                  "salida_tp":  -1.34
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-19-gta6-no-retry/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-19-gta6-no-retry/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-19-gta6-no-retry/revision.jpg",
+    "creado":  "2026-11-19T08:17:57.0944783-05:00"
+}

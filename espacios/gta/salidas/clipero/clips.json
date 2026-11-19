@@ -1,0 +1,760 @@
+{
+    "generado":  "2026-11-19T08:20:19-05:00",
+    "ciclo":  1,
+    "clips":  [
+                  {
+                      "id":  "2026-11-19-gta6-tighter-roads",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  73,
+                      "gancho":  "GTA 6 roads are way tighter than GTA 5",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-19-gta6-tighter-roads/clip.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-19-gta6-tighter-roads/ficha.md",
+                      "duracion_seg":  23,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=0omrQP5lMGA",
+                                     "canal":  "Kinda Funny Games",
+                                     "inicio":  2239.05,
+                                     "fin":  2262.06
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "orden_en_fuente":  9,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-24"
+                  },
+                  {
+                      "id":  "2026-11-19-gta6-no-retry",
+                      "estado":  "listo",
+                      "tipo":  "historia",
+                      "puntaje":  75,
+                      "gancho":  "GTA 6 doesn\u0027t let you retry this",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-19-gta6-no-retry/clip.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-19-gta6-no-retry/ficha.md",
+                      "duracion_seg":  45.4,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=0omrQP5lMGA",
+                                     "canal":  "Kinda Funny Games",
+                                     "inicio":  2936.57,
+                                     "fin":  2981.98
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "orden_en_fuente":  7,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-23"
+                  },
+                  {
+                      "id":  "2026-11-19-gta6-jason-judged-truck",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  74,
+                      "gancho":  "Even Jason judged his GTA 6 truck",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-19-gta6-jason-judged-truck/clip.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-19-gta6-jason-judged-truck/ficha.md",
+                      "duracion_seg":  39.6,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=0omrQP5lMGA",
+                                     "canal":  "Kinda Funny Games",
+                                     "inicio":  4590.89,
+                                     "fin":  4630.46
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "orden_en_fuente":  8,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-23"
+                  },
+                  {
+                      "id":  "2026-11-19-gta6-once-in-a-lifetime",
+                      "estado":  "listo",
+                      "tipo":  "prediccion",
+                      "puntaje":  80,
+                      "gancho":  "Why GTA 6 is a once-in-a-lifetime game",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-19-gta6-once-in-a-lifetime/clip.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-19-gta6-once-in-a-lifetime/ficha.md",
+                      "duracion_seg":  47.5,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=0omrQP5lMGA",
+                                     "canal":  "Kinda Funny Games",
+                                     "inicio":  1232.57,
+                                     "fin":  1280.06
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "orden_en_fuente":  3,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-23"
+                  },
+                  {
+                      "id":  "2026-11-19-gta6-armored-car-22k",
+                      "estado":  "listo",
+                      "tipo":  "historia",
+                      "puntaje":  76,
+                      "gancho":  "22 grand just fell in his lap",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-19-gta6-armored-car-22k/clip.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-19-gta6-armored-car-22k/ficha.md",
+                      "duracion_seg":  29.6,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=0omrQP5lMGA",
+                                     "canal":  "Kinda Funny Games",
+                                     "inicio":  4540.41,
+                                     "fin":  4569.98
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "orden_en_fuente":  6,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-23"
+                  },
+                  {
+                      "id":  "2026-11-19-rockstar-took-it-personally",
+                      "estado":  "listo",
+                      "tipo":  "frase",
+                      "puntaje":  77,
+                      "gancho":  "Rockstar took those GOTY losses personally",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-19-rockstar-took-it-personally/clip.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-19-rockstar-took-it-personally/ficha.md",
+                      "duracion_seg":  26.1,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=0omrQP5lMGA",
+                                     "canal":  "Kinda Funny Games",
+                                     "inicio":  4820.49,
+                                     "fin":  4846.54
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "orden_en_fuente":  5,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-24"
+                  },
+                  {
+                      "id":  "2026-11-19-gta6-under-five-bugs",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  78,
+                      "gancho":  "Under five bugs in 90 hours of GTA 6",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-19-gta6-under-five-bugs/clip.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-19-gta6-under-five-bugs/ficha.md",
+                      "duracion_seg":  32.3,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=0omrQP5lMGA",
+                                     "canal":  "Kinda Funny Games",
+                                     "inicio":  2323.37,
+                                     "fin":  2355.66
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "orden_en_fuente":  4,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-22"
+                  },
+                  {
+                      "id":  "2026-11-19-gta6-jason-eats-chips",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  83,
+                      "gancho":  "Rockstar thought about how Jason eats chips",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-19-gta6-jason-eats-chips/clip.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-19-gta6-jason-eats-chips/ficha.md",
+                      "duracion_seg":  50.3,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=0omrQP5lMGA",
+                                     "canal":  "Kinda Funny Games",
+                                     "inicio":  2470.33,
+                                     "fin":  2520.62
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-23"
+                  },
+                  {
+                      "id":  "2026-11-19-gta6-trojan-horse-empathy",
+                      "estado":  "listo",
+                      "tipo":  "frase",
+                      "puntaje":  85,
+                      "gancho":  "The \u0027Trojan horse\u0027 hidden in GTA 6",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-19-gta6-trojan-horse-empathy/clip.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-19-gta6-trojan-horse-empathy/ficha.md",
+                      "duracion_seg":  47,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=0omrQP5lMGA",
+                                     "canal":  "Kinda Funny Games",
+                                     "inicio":  2844.49,
+                                     "fin":  2891.42
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-23"
+                  },
+                  {
+                      "id":  "2026-11-18-jason-arthur-morgan-vibe",
+                      "estado":  "listo",
+                      "tipo":  "frase",
+                      "puntaje":  71,
+                      "gancho":  "Jason has an Arthur Morgan vibe?",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-18-jason-arthur-morgan-vibe/clip.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-18-jason-arthur-morgan-vibe/ficha.md",
+                      "duracion_seg":  43.6,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=Gxsj9gKL-ZM",
+                                     "canal":  "Luke Stephens LIVE",
+                                     "inicio":  517.45,
+                                     "fin":  561.02
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "orden_en_fuente":  12,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-23"
+                  },
+                  {
+                      "id":  "2026-11-18-gta6-pro-yapper-speechless",
+                      "estado":  "listo",
+                      "tipo":  "reaccion",
+                      "puntaje":  71,
+                      "gancho":  "GTA 6 left a pro yapper speechless",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-18-gta6-pro-yapper-speechless/clip.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-18-gta6-pro-yapper-speechless/ficha.md",
+                      "duracion_seg":  27.7,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=Gxsj9gKL-ZM",
+                                     "canal":  "Luke Stephens LIVE",
+                                     "inicio":  1359.13,
+                                     "fin":  1386.86
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "orden_en_fuente":  11,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-22"
+                  },
+                  {
+                      "id":  "2026-11-18-rockstar-mad-scientist",
+                      "estado":  "listo",
+                      "tipo":  "frase",
+                      "puntaje":  72,
+                      "gancho":  "Why Rockstar is gaming\u0027s mad scientist",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-18-rockstar-mad-scientist/clip.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-18-rockstar-mad-scientist/ficha.md",
+                      "duracion_seg":  31.5,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=Gxsj9gKL-ZM",
+                                     "canal":  "Luke Stephens LIVE",
+                                     "inicio":  1083.77,
+                                     "fin":  1115.26
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "orden_en_fuente":  10,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-23"
+                  },
+                  {
+                      "id":  "2026-11-18-gta6-without-dan-houser",
+                      "estado":  "listo",
+                      "tipo":  "frase",
+                      "puntaje":  74,
+                      "gancho":  "Worried about GTA 6 without Dan Houser?",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-18-gta6-without-dan-houser/clip.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-18-gta6-without-dan-houser/ficha.md",
+                      "duracion_seg":  21.8,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=Gxsj9gKL-ZM",
+                                     "canal":  "Luke Stephens LIVE",
+                                     "inicio":  564.41,
+                                     "fin":  586.22
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "orden_en_fuente":  9,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-23"
+                  },
+                  {
+                      "id":  "2026-11-18-rockstar-says-yes",
+                      "estado":  "listo",
+                      "tipo":  "frase",
+                      "puntaje":  75,
+                      "gancho":  "Rockstar says yes where other studios say no",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-18-rockstar-says-yes/clip.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-18-rockstar-says-yes/ficha.md",
+                      "duracion_seg":  54.7,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=Gxsj9gKL-ZM",
+                                     "canal":  "Luke Stephens LIVE",
+                                     "inicio":  1175.93,
+                                     "fin":  1230.62
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "orden_en_fuente":  8,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-23"
+                  },
+                  {
+                      "id":  "2026-11-18-gta6-lose-the-cops",
+                      "estado":  "listo",
+                      "tipo":  "consejo",
+                      "puntaje":  77,
+                      "gancho":  "How to lose the cops in GTA 6",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-18-gta6-lose-the-cops/clip.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-18-gta6-lose-the-cops/ficha.md",
+                      "duracion_seg":  59.5,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=Gxsj9gKL-ZM",
+                                     "canal":  "Luke Stephens LIVE",
+                                     "inicio":  2290.89,
+                                     "fin":  2350.38
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "orden_en_fuente":  7,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-26"
+                  },
+                  {
+                      "id":  "2026-11-18-gta6-jumbo-jet",
+                      "estado":  "listo",
+                      "tipo":  "reaccion",
+                      "puntaje":  79,
+                      "gancho":  "You CAN fly a jumbo jet in GTA 6",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-18-gta6-jumbo-jet/clip.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-18-gta6-jumbo-jet/ficha.md",
+                      "duracion_seg":  31.3,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=Gxsj9gKL-ZM",
+                                     "canal":  "Luke Stephens LIVE",
+                                     "inicio":  1906.65,
+                                     "fin":  1937.98
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "orden_en_fuente":  5,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-22"
+                  },
+                  {
+                      "id":  "2026-11-18-gta6-30fps-take",
+                      "estado":  "listo",
+                      "tipo":  "frase",
+                      "puntaje":  78,
+                      "gancho":  "His take on GTA 6 running at 30 FPS",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-18-gta6-30fps-take/clip.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-18-gta6-30fps-take/ficha.md",
+                      "duracion_seg":  51.8,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=Gxsj9gKL-ZM",
+                                     "canal":  "Luke Stephens LIVE",
+                                     "inicio":  790.41,
+                                     "fin":  842.22
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "orden_en_fuente":  6,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-22"
+                  },
+                  {
+                      "id":  "2026-11-18-gta6-dont-raise-brightness",
+                      "estado":  "listo",
+                      "tipo":  "consejo",
+                      "puntaje":  83,
+                      "gancho":  "GTA 6 tip: do NOT raise the brightness",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-18-gta6-dont-raise-brightness/clip.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-18-gta6-dont-raise-brightness/ficha.md",
+                      "duracion_seg":  54.2,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=Gxsj9gKL-ZM",
+                                     "canal":  "Luke Stephens LIVE",
+                                     "inicio":  949.05,
+                                     "fin":  1003.26
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "orden_en_fuente":  4,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-26"
+                  },
+                  {
+                      "id":  "2026-11-18-lucia-greatest-female-character",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  83,
+                      "gancho":  "Is Lucia the GOAT female game character?",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-18-lucia-greatest-female-character/clip.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-18-lucia-greatest-female-character/ficha.md",
+                      "duracion_seg":  28.8,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=Gxsj9gKL-ZM",
+                                     "canal":  "Luke Stephens LIVE",
+                                     "inicio":  605.05,
+                                     "fin":  633.82
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "orden_en_fuente":  3,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-22"
+                  },
+                  {
+                      "id":  "2026-11-18-gta6-confirms-old-leak",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  84,
+                      "gancho":  "GTA 6 just confirmed a 4-year-old leak",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-18-gta6-confirms-old-leak/clip.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-18-gta6-confirms-old-leak/ficha.md",
+                      "duracion_seg":  46.1,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=Gxsj9gKL-ZM",
+                                     "canal":  "Luke Stephens LIVE",
+                                     "inicio":  2916.49,
+                                     "fin":  2962.54
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-22"
+                  },
+                  {
+                      "id":  "2026-11-18-gta6-99-after-146-reviews",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  86,
+                      "gancho":  "GTA 6 has a 99 after 146 reviews",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-18-gta6-99-after-146-reviews/clip.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-18-gta6-99-after-146-reviews/ficha.md",
+                      "duracion_seg":  46.8,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=Gxsj9gKL-ZM",
+                                     "canal":  "Luke Stephens LIVE",
+                                     "inicio":  22.09,
+                                     "fin":  68.86
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-21"
+                  },
+                  {
+                      "id":  "2026-11-18-kai-directed-gta6-trailer",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  72,
+                      "gancho":  "Kai Cenat directed his own GTA 6 trailer",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-18-kai-directed-gta6-trailer/clip.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-18-kai-directed-gta6-trailer/ficha.md",
+                      "duracion_seg":  26.9,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=wKmIqTs2LoE",
+                                     "canal":  "Kai Cenat Live",
+                                     "inicio":  0,
+                                     "fin":  26.86
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "orden_en_fuente":  5,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-21"
+                  },
+                  {
+                      "id":  "2026-11-18-kai-goodbye-gta-5",
+                      "estado":  "listo",
+                      "tipo":  "emotivo",
+                      "puntaje":  79,
+                      "gancho":  "Kai Cenat\u0027s goodbye to GTA 5",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-18-kai-goodbye-gta-5/clip.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-18-kai-goodbye-gta-5/ficha.md",
+                      "duracion_seg":  32.3,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=wKmIqTs2LoE",
+                                     "canal":  "Kai Cenat Live",
+                                     "inicio":  1061.45,
+                                     "fin":  1093.74
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-21"
+                  },
+                  {
+                      "id":  "2026-11-18-kai-window-dive-stunt",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  78,
+                      "gancho":  "Kai Cenat vs. a head-first window dive",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-18-kai-window-dive-stunt/clip.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-18-kai-window-dive-stunt/ficha.md",
+                      "duracion_seg":  58.8,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=wKmIqTs2LoE",
+                                     "canal":  "Kai Cenat Live",
+                                     "inicio":  698.01,
+                                     "fin":  756.78
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "orden_en_fuente":  4,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-21"
+                  },
+                  {
+                      "id":  "2026-11-18-wiz-kai-more-than-streamer",
+                      "estado":  "listo",
+                      "tipo":  "frase",
+                      "puntaje":  79,
+                      "gancho":  "Wiz Khalifa on who Kai Cenat really is",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-18-wiz-kai-more-than-streamer/clip.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-18-wiz-kai-more-than-streamer/ficha.md",
+                      "duracion_seg":  47.1,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=wKmIqTs2LoE",
+                                     "canal":  "Kai Cenat Live",
+                                     "inicio":  1010.09,
+                                     "fin":  1057.2
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "orden_en_fuente":  3,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-22"
+                  },
+                  {
+                      "id":  "2026-11-18-kai-here-we-go-again",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  84,
+                      "gancho":  "Kai Cenat brought back THE San Andreas line",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-18-kai-here-we-go-again/clip.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-18-kai-here-we-go-again/ficha.md",
+                      "duracion_seg":  54.2,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=wKmIqTs2LoE",
+                                     "canal":  "Kai Cenat Live",
+                                     "inicio":  606.45,
+                                     "fin":  660.6
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-21"
+                  }
+              ]
+}

@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-19-gta6-jason-judged-truck",
+    "url_fuente":  "https://www.youtube.com/watch?v=0omrQP5lMGA",
+    "video_id":  "0omrQP5lMGA",
+    "inicio":  4590.89,
+    "fin":  4630.46,
+    "inicio_hms":  "1:16:30",
+    "duracion_seg":  39.6,
+    "gancho":  "Even Jason judged his GTA 6 truck",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  147,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -20.43,
+                  "entrada_tp":  -7.85,
+                  "salida_lufs":  -13.86,
+                  "salida_tp":  -1.42
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-19-gta6-jason-judged-truck/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-19-gta6-jason-judged-truck/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-19-gta6-jason-judged-truck/revision.jpg",
+    "creado":  "2026-11-19T08:16:17.9349285-05:00"
+}

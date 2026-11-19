@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-19-gta6-tighter-roads",
+    "url_fuente":  "https://www.youtube.com/watch?v=0omrQP5lMGA",
+    "video_id":  "0omrQP5lMGA",
+    "inicio":  2239.05,
+    "fin":  2262.06,
+    "inicio_hms":  "0:37:19",
+    "duracion_seg":  23,
+    "gancho":  "GTA 6 roads are way tighter than GTA 5",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  88,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -21.32,
+                  "entrada_tp":  -8.66,
+                  "salida_lufs":  -13.91,
+                  "salida_tp":  -1.34
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-19-gta6-tighter-roads/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-19-gta6-tighter-roads/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-19-gta6-tighter-roads/revision.jpg",
+    "creado":  "2026-11-19T08:18:51.5786591-05:00"
+}

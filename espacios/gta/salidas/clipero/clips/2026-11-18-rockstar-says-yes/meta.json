@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-18-rockstar-says-yes",
+    "url_fuente":  "https://www.youtube.com/watch?v=Gxsj9gKL-ZM",
+    "video_id":  "Gxsj9gKL-ZM",
+    "inicio":  1175.93,
+    "fin":  1230.62,
+    "inicio_hms":  "0:19:35",
+    "duracion_seg":  54.7,
+    "gancho":  "Rockstar says yes where other studios say no",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  176,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -18.9,
+                  "entrada_tp":  -6.39,
+                  "salida_lufs":  -13.99,
+                  "salida_tp":  -1.49
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-18-rockstar-says-yes/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-18-rockstar-says-yes/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-18-rockstar-says-yes/revision.jpg",
+    "creado":  "2026-11-18T15:45:06.8321792-05:00"
+}

@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-19-gta6-under-five-bugs",
+    "url_fuente":  "https://www.youtube.com/watch?v=0omrQP5lMGA",
+    "video_id":  "0omrQP5lMGA",
+    "inicio":  2323.37,
+    "fin":  2355.66,
+    "inicio_hms":  "0:38:43",
+    "duracion_seg":  32.3,
+    "gancho":  "Under five bugs in 90 hours of GTA 6",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  98,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -21.68,
+                  "entrada_tp":  -8.87,
+                  "salida_lufs":  -14.02,
+                  "salida_tp":  -1.19
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-19-gta6-under-five-bugs/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-19-gta6-under-five-bugs/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-19-gta6-under-five-bugs/revision.jpg",
+    "creado":  "2026-11-19T08:10:13.6613664-05:00"
+}

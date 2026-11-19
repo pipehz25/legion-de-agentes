@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-18-kai-window-dive-stunt",
+    "url_fuente":  "https://www.youtube.com/watch?v=wKmIqTs2LoE",
+    "video_id":  "wKmIqTs2LoE",
+    "inicio":  698.01,
+    "fin":  756.78,
+    "inicio_hms":  "0:11:38",
+    "duracion_seg":  58.8,
+    "gancho":  "Kai Cenat vs. a head-first window dive",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  160,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -13.73,
+                  "entrada_tp":  -1.08,
+                  "salida_lufs":  -14.15,
+                  "salida_tp":  -1.35
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-18-kai-window-dive-stunt/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-18-kai-window-dive-stunt/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-18-kai-window-dive-stunt/revision.jpg",
+    "creado":  "2026-11-18T15:21:23.4265759-05:00"
+}

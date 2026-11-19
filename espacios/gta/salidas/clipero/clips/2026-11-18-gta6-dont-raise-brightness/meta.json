@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-18-gta6-dont-raise-brightness",
+    "url_fuente":  "https://www.youtube.com/watch?v=Gxsj9gKL-ZM",
+    "video_id":  "Gxsj9gKL-ZM",
+    "inicio":  949.05,
+    "fin":  1003.26,
+    "inicio_hms":  "0:15:49",
+    "duracion_seg":  54.2,
+    "gancho":  "GTA 6 tip: do NOT raise the brightness",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  190,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -19.15,
+                  "entrada_tp":  -6.61,
+                  "salida_lufs":  -13.94,
+                  "salida_tp":  -1.46
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-18-gta6-dont-raise-brightness/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-18-gta6-dont-raise-brightness/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-18-gta6-dont-raise-brightness/revision.jpg",
+    "creado":  "2026-11-18T15:37:49.7018261-05:00"
+}

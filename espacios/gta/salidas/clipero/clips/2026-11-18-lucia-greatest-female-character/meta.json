@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-18-lucia-greatest-female-character",
+    "url_fuente":  "https://www.youtube.com/watch?v=Gxsj9gKL-ZM",
+    "video_id":  "Gxsj9gKL-ZM",
+    "inicio":  605.05,
+    "fin":  633.82,
+    "inicio_hms":  "0:10:05",
+    "duracion_seg":  28.8,
+    "gancho":  "Is Lucia the GOAT female game character?",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  95,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -20.51,
+                  "entrada_tp":  -7.92,
+                  "salida_lufs":  -13.64,
+                  "salida_tp":  -1.41
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-18-lucia-greatest-female-character/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-18-lucia-greatest-female-character/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-18-lucia-greatest-female-character/revision.jpg",
+    "creado":  "2026-11-18T15:35:58.6766546-05:00"
+}

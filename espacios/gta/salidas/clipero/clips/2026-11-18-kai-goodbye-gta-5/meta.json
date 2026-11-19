@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-18-kai-goodbye-gta-5",
+    "url_fuente":  "https://www.youtube.com/watch?v=wKmIqTs2LoE",
+    "video_id":  "wKmIqTs2LoE",
+    "inicio":  1061.45,
+    "fin":  1093.74,
+    "inicio_hms":  "0:17:41",
+    "duracion_seg":  32.3,
+    "gancho":  "Kai Cenat\u0027s goodbye to GTA 5",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  103,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -15.55,
+                  "entrada_tp":  -2.69,
+                  "salida_lufs":  -13.95,
+                  "salida_tp":  -1.14
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-18-kai-goodbye-gta-5/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-18-kai-goodbye-gta-5/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-18-kai-goodbye-gta-5/revision.jpg",
+    "creado":  "2026-11-18T15:22:57.3321318-05:00"
+}

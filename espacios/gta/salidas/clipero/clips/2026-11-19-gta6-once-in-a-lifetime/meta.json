@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-19-gta6-once-in-a-lifetime",
+    "url_fuente":  "https://www.youtube.com/watch?v=0omrQP5lMGA",
+    "video_id":  "0omrQP5lMGA",
+    "inicio":  1232.57,
+    "fin":  1280.06,
+    "inicio_hms":  "0:20:32",
+    "duracion_seg":  47.5,
+    "gancho":  "Why GTA 6 is a once-in-a-lifetime game",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  149,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -22.78,
+                  "entrada_tp":  -9.84,
+                  "salida_lufs":  -13.96,
+                  "salida_tp":  -1.06
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-19-gta6-once-in-a-lifetime/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-19-gta6-once-in-a-lifetime/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-19-gta6-once-in-a-lifetime/revision.jpg",
+    "creado":  "2026-11-19T08:14:51.1372195-05:00"
+}
