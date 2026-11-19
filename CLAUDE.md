@@ -2,6 +2,14 @@
 
 Una legión de agentes autónomos, cada uno controlado por un loop. Esta sesión de Claude Code es el **orquestador**: crea los agentes, los dispara con loops y resume sus resultados. El usuario define los procesos uno a uno.
 
+## Empresa, estrategia y Mission Control (desde el 2026-11-19)
+
+- **Socios:** Santiago y Felipe Hernández. El brief maestro es `LEGION_DE_AGENTES_MASTER.md`: tres unidades (A Media Network, B Enterprise Agents, C por definir) y una app central, Mission Control.
+- **Estrategia:** `docs/ESTRATEGIA.md`. Hay dos familias de cuentas: clips de famosos (solo escala lo `autorizado`) y cuentas propias con contenido 100 % nuestro. El piloto es de 3 marcas y 2 nichos, y se crece por etapas medibles.
+- **Documentos:** `docs/AS_IS.md` (estado real), `ARCHITECTURE.md`, `ROADMAP.md` (30 días, con tareas S/F/C/T), `COST_MODEL.md`, `DECISIONS.md` y `OPEN_QUESTIONS.md`. Cada decisión nueva se anota en `DECISIONS.md`.
+- **Mission Control v0:** https://claude.ai/artifact/W4ynASHSRtvnspX3pvvrTy (página privada con base de datos; la comparte Santiago). Ahí viven el estado de las tareas, las cuentas, las decisiones y el estado del pipeline por espacio. Cuando una tarea del roadmap avanza, se marca ahí.
+- **Al cerrar una sesión de trabajo:** lo completado, las pruebas, lo pendiente, los bloqueos, el gasto y 3 siguientes acciones para Santiago y Felipe (brief §8.8).
+
 ## La Legión
 
 | # | Agente | Qué hace | Entrada | Disparo suelto | Estado |
@@ -9,7 +17,7 @@ Una legión de agentes autónomos, cada uno controlado por un loop. Esta sesión
 | 01 | Cazador Urbano (`cazador-viral`) | Detecta patrones virales replicables antes de que se quemen y diseña formatos híbridos. Línea `urbano`: música urbana, empresarios y streamers | Redes y recolector propio | `/cazador-viral` | Listo |
 | 04 | Cazador de Risas | El mismo trabajo que el 01, para la línea `risas`: comedia, stand-up, humoristas y momentos graciosos de la política colombiana. Reglas propias en `legion/04-cazador-risas/enfoque.md` | Redes (sin recolector) | `/cazador-risas` | Nuevo (2026-11-10) |
 | 02 | Clipero | Encuentra momentos en contenido largo (podcasts, streams, entrevistas) ligados a las oportunidades de los dos cazadores y produce clips verticales con subtítulos, cada uno con su `linea`; si el Publicador tiene varias cuentas, corta además variantes de los mejores momentos | `salidas/cazador-viral/oportunidades.json` y `salidas/cazador-risas/oportunidades.json` | `/clipero` | Listo; requiere `herramientas/instalar.ps1` |
-| 03 | Publicador | Escribe los textos de cada plataforma, reparte los clips entre las cuentas del usuario (una versión distinta por cuenta) y sube a YouTube, TikTok, Instagram y Facebook los que el usuario aprueba. Mantiene el panel `salidas/publicador/panel.html` | `salidas/clipero/clips.json` | `/publicador`, `/publicador aprobar <clip-id>` | En simulación; cada cuenta requiere credenciales (`legion/03-publicador/plataformas.md`) |
+| 03 | Publicador | Escribe los textos de cada plataforma, reparte los clips entre las cuentas del usuario (una versión distinta por cuenta) y sube a YouTube, TikTok, Instagram y Facebook los que el usuario aprueba. Mantiene el panel `salidas/publicador/panel.html` | `salidas/clipero/clips.json` | `/publicador`, `/publicador aprobar <clip-id>` | Publica en TikTok como borrador (raíz y Lalo); YouTube, Instagram y Facebook programados pero sin credenciales (`legion/03-publicador/plataformas.md`). Ojo: `publicar.ps1` todavía no revisa los derechos en el código (tarea C8) |
 | 05 | Animador | Produce videos explicativos animados (dibujados con código, narrados y con subtítulos) para vender la Legión de Agentes a negocios: un video por tipo de negocio, con plantillas. No publica: deja el MP4 y su texto listos | `datos/animador/temas.json` (su lista de temas) | `/animador`, `/animador <tema>`, `/animador <número>` | Nuevo (2026-11-12); requiere Node, ffmpeg y whisper (`animados/GUIA.md`); la voz la graban las personas (`salidas/animador/por-grabar.md`) |
 
 **Animador:** no forma parte de `/legion` ni de ningún loop. Su método, sus scripts (Node, porque el motor que usa lo exige) y sus plantillas viven en `animados/`, no en `legion/05-…`; su memoria en `datos/animador/` y sus entregables en `salidas/animador/` (los MP4 no viajan por GitHub). La voz la graba una persona con el celular (`"motor": "grabada"`): el agente deja las frases para leer y produce el video cuando llega el audio. Música y retoques se hacen después en CapCut.
@@ -38,7 +46,7 @@ Un **espacio** es una línea de contenido aparte, con su propia configuración, 
 
 | Espacio | Contenido | PC | Turno | Cuentas |
 |---------|-----------|----|-------|---------|
-| (raíz) | Clips de los perfiles y oportunidades del Cazador | Felipe | `/turno-clips` | `principal` de cada plataforma |
+| (raíz) | Clips de los perfiles y oportunidades del Cazador | Felipe | `/legion` | `principal` y `risas` de cada plataforma |
 | `lalo` | Solo Lalo Ocampo, desde su canal (fuente autorizada); el Clipero no sigue al Cazador (`enfoque_propio`) | Santiago | `/turno-lalo` | 15 cuentas de TikTok `lalo-*`; cada una se enciende al autorizarla |
 | `gta` | Lo viral del lanzamiento de GTA VI (19-nov-2026) para EE. UU., en inglés; el Clipero busca sus propias fuentes (`enfoque_propio`), sin cazadores | Santiago, en una copia aparte del proyecto (`c:\tmp\legion-gta`, con su propio `espacio.local.json`) para no cruzarse con `lalo` | Por ahora a mano, con `/clipero` desde esa copia | `gta-us` en cada plataforma, apagadas hasta que Santiago las cree en EE. UU. y las autorice |
 
@@ -55,7 +63,7 @@ Un **espacio** es una línea de contenido aparte, con su propia configuración, 
 - **Memoria entre ciclos:** `datos/<nombre>/`. Solo la escribe su propio agente.
 - **Archivos temporales** (scripts auxiliares, pruebas): en el scratchpad de la sesión y con el nombre del agente delante (`clipero-registrar.ps1`, `publicador-...`). Varios agentes comparten ese directorio y se pisan si usan el mismo nombre.
 - **Entregables:** `salidas/<nombre>/`. En un espacio, `datos/` y `salidas/` cuelgan de `espacios/<nombre>/` («Espacios»). Los agentes se comunican **solo** leyendo las salidas de otros (contratos JSON documentados en la definición de cada agente), nunca la carpeta `datos/` ajena.
-- **Scripts:** PowerShell 5.1 (no se cuenta con Python ni Node en las PCs de la Legión). Los `.ps1` solo llevan caracteres ASCII; los JSON se escriben en UTF-8 sin BOM. Se ejecutan con `powershell -NoProfile -ExecutionPolicy Bypass -File ...`.
+- **Scripts:** PowerShell 5.1 (la cadena no usa Python ni Node; solo el Animador usa Node, en la PC que lo corre). Los `.ps1` solo llevan caracteres ASCII; los JSON se escriben en UTF-8 sin BOM. Se ejecutan con `powershell -NoProfile -ExecutionPolicy Bypass -File ...`.
 - **Herramientas compartidas** (yt-dlp, ffmpeg, deno): `herramientas/bin/`. Se instalan o actualizan con `herramientas/instalar.ps1`, que ejecuta el usuario (el clasificador bloquea que Claude descargue ejecutables). Conviene actualizar yt-dlp cada pocas semanas, porque YouTube cambia a menudo.
 - **Permisos** para que los loops corran sin preguntar: `.claude/settings.json`. Cada agente nuevo con script propio necesita su regla `PowerShell(...)`.
 - **Idioma:** español. Fechas en ISO 8601 con zona horaria local.
