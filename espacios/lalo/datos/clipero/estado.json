@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-11-19T12:45:00-05:00",
-  "ciclo": 3,
+  "actualizado": "2026-11-19T18:40:00-05:00",
+  "ciclo": 4,
   "ultimo_ciclo_cazador": 0,
   "ultimo_ciclo_cazador_risas": 0,
   "_cazadores": "Espacio con enfoque_propio: no se leen las oportunidades de los cazadores. Los dos contadores quedan en 0.",
@@ -98,9 +98,11 @@
     "palabras-rev.json puede llevar solo las palabras de los clips de esa fuente: cortar ajusta el final del clip a la última palabra del archivo que cae antes de -Fin + 0,5 s, así que si se dejan palabras de después, el clip se alarga.",
     "Una palabra entre corchetes en palabras-rev.json no se subtitula (sirve para ecos mal transcritos como «Nando» o «sando»), pero sí cuenta para ajustar el corte.",
     "Solo hay una cuenta activa (lalo-music): no se cortan variantes. Por canción, el coro y el momento más fuerte fuera del coro; lo demás queda en espera para las cuentas apagadas.",
-    "TikTok admite 5 borradores pendientes por cuenta cada 24 h. El 2026-11-18 hay 11 clips sin subir para lalo-music (3 del ciclo 1 y 8 del ciclo 2).",
+    "TikTok admite 5 borradores pendientes por cuenta cada 24 h. El 2026-11-18 había 11 clips sin subir para lalo-music (3 del ciclo 1 y 8 del ciclo 2). El 2026-11-19 el usuario los aprobó todos: 4 en la bandeja ese día y 7 en cola para el 20 y el 21-nov (salidas/publicador/pendientes.md). Desde el 22-nov lalo-music se queda sin clips: lo que frena ya no es la aprobación sino la falta de fuentes.",
     "2026-11-18: YouTube bloqueó las descargas («Sign in to confirm you're not a bot») unos 15 minutos. A la vez, otra copia del Clipero (C:\\tmp\\legion-gta, espacio gta) descargaba de YouTube desde esta PC. Luego hubo una caída de internet. Se esperó y siguió sin cambiar nada.",
     "2026-11-19 (ciclo 3): el canal no tiene subidas nuevas; la última sigue siendo «Tóxico» (2026-10-31). Ni la búsqueda web ni YouTube muestran estreno, concierto ni noticia del artista. Sin decisión del usuario sobre colaboraciones y entrevistas, el ciclo cerró con 0 clips y solo preparó Entiendo y Parcera.",
+    "2026-11-19 (ciclo 4, 18:30): canal -N 10 sin subidas nuevas (las 10 más recientes ya están en fuentes o en catalogo_pendiente; la última sigue siendo «Tóxico»). Una búsqueda web no encontró estreno, concierto ni noticia. Ni indicación del usuario ni cambios en config (una sola fuente autorizada, una sola cuenta activa). Cerró con 0 clips. INTUYO sigue siendo la que más crece en el canal (42 vistas/h, 298.217 vistas; las demás 2 o menos).",
+    "Momentos en espera que saldrían enseguida si el usuario amplía la línea de lalo-music o enciende lalo-love, lalo-lyrics o lalo-energy: Por Dios Santo 92,9-116,5 (67, letra limpia), Madrileña 89,1-109,0 (66, letra limpia) e INTUYO 59,5-82,7 (corregible con la letra en pantalla). Los demás en espera tienen dudas de letra.",
     "Cómo se ve Lalo en sus videos: gorra negra, piel clara, delgado (estudio morado de Actriz). En Entiendo es, probablemente, el de la sudadera blanca «GANG» con gorra negra y el del suéter gris en el cuarto; Yeid lleva la camiseta naranja de los Bulls, gorra roja y gafas. Sin confirmar: comprobarlo antes de poner su nombre en un gancho.",
     "En las colaboraciones, quién canta cada parte no se ve en las hojas de vistazo (los dos salen juntos casi siempre). Para cortar solo las partes de Lalo habría que confirmarlo con el artista o con una hoja de vistazo a 2 s del tramo, mirando quién mueve los labios.",
     "clips.json de este espacio: desde el ciclo 3 solo lleva los clips de los últimos 7 días. Los del 2026-11-10 salieron: 4 ya están publicados y los 3 que esperan aprobación siguen en el estado del Publicador, con su envío escrito (la aprobación no depende de clips.json)."
