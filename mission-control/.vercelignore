@@ -2,6 +2,7 @@ node_modules
 .next
 .data
 seed-data
+seed-data-video
 .env*
 !.env.example
 *.tsbuildinfo
