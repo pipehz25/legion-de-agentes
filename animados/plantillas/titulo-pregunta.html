@@ -1,0 +1,140 @@
+<!--
+  Titulo pregunta (videos propios, Narrador): el gancho. Dos o tres lineas grandes y, debajo, una
+  ilustracion. Todo esta en pantalla desde el cuadro 0, asi que sirve de portada. Una frase del
+  guion (la del gancho, con "subtitulos": false).
+  Necesita "estilo.tema" (archivo, laboratorio o pizarra).
+  Datos: lineas: ["...", "...", "..."] (2 o 3 lineas de 16 letras o menos; caben hasta 20 en letra mas chica)
+         resalta: 0, 1 o 2 (la linea que va en el color de acento; por defecto la ultima)
+         ilustracion: nombre en ilustraciones.json
+         insignia (opcional): rotulo chico arriba, 22 letras o menos ("Misterio historico", "Parte 1 de 3")
+-->
+<template>
+  <style>
+{{>narrador-css}}
+    .{{id}}-columna {
+      position: absolute;
+      left: 90px;
+      width: 900px;
+      top: 200px;
+      height: 900px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    #{{id}}-insignia-fila {
+      flex: none;
+      margin-bottom: 30px;
+    }
+    #{{id}}-titulo {
+      flex: none;
+      width: 900px;
+      text-align: center;
+    }
+    .{{id}}-linea {
+      display: block;
+      white-space: nowrap;
+    }
+    #{{id}}-filete {
+      flex: none;
+      width: 380px;
+      height: 24px;
+      margin: 26px 0 10px;
+    }
+    .{{id}}-trazo {
+      stroke: var(--acento);
+      fill: none;
+      stroke-width: 4;
+      stroke-linecap: round;
+    }
+    .{{id}}-punto {
+      fill: var(--acento);
+    }
+    #{{id}}-escenario {
+      position: relative;
+      flex: 1 1 auto;
+      min-height: 280px;
+      width: 900px;
+      background: radial-gradient(circle closest-side, color-mix(in srgb, var(--acento2) 24%, transparent) 0%, color-mix(in srgb, var(--acento2) 0%, transparent) 100%);
+    }
+    #{{id}}-il {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 900px;
+      height: 100%;
+    }
+    #{{id}}-il-f {
+      width: 100%;
+      height: 100%;
+    }
+    .{{id}}-destello {
+      position: absolute;
+      width: 56px;
+      height: 56px;
+      opacity: 0;
+    }
+    .{{id}}-destello path {
+      fill: var(--acento2);
+    }
+  </style>
+
+  <div id="root" data-composition-id="{{id}}" data-width="1080" data-height="1920">
+    <div class="{{id}}-columna">
+      <div id="{{id}}-insignia-fila"><span id="{{id}}-insignia" class="{{id}}-insignia">{{d.insignia|}}</span></div>
+      <div id="{{id}}-titulo" class="{{id}}-titulo">
+        <span id="{{id}}-linea-1" class="{{id}}-linea">{{d.lineas.0}}</span>
+        <span id="{{id}}-linea-2" class="{{id}}-linea">{{d.lineas.1}}</span>
+        <span id="{{id}}-linea-3" class="{{id}}-linea">{{d.lineas.2|}}</span>
+      </div>
+      <div id="{{id}}-filete">
+        <svg class="{{id}}-arte" viewBox="0 0 380 24">
+          <path class="{{id}}-trazo" d="M8 12 H160 M220 12 H372" />
+          <path class="{{id}}-punto" d="M190 0 L202 12 L190 24 L178 12 Z" />
+        </svg>
+      </div>
+      <div id="{{id}}-escenario">
+        <div id="{{id}}-il" class="{{id}}-il"><div id="{{id}}-il-f"><svg class="{{id}}-arte" viewBox="36 30 328 340">{{{d.ilustracion_svg}}}</svg></div></div>
+        <div id="{{id}}-destello-1" class="{{id}}-destello" style="left: 200px; top: 12%"><svg class="{{id}}-arte" viewBox="0 0 56 56"><path d="M28 2 C30 18 38 26 54 28 C38 30 30 38 28 54 C26 38 18 30 2 28 C18 26 26 18 28 2Z" /></svg></div>
+        <div id="{{id}}-destello-2" class="{{id}}-destello" style="left: 650px; top: 30%"><svg class="{{id}}-arte" viewBox="0 0 56 56"><path d="M28 2 C30 18 38 26 54 28 C38 30 30 38 28 54 C26 38 18 30 2 28 C18 26 26 18 28 2Z" /></svg></div>
+        <div id="{{id}}-destello-3" class="{{id}}-destello" style="left: 250px; top: 72%"><svg class="{{id}}-arte" viewBox="0 0 56 56"><path d="M28 2 C30 18 38 26 54 28 C38 30 30 38 28 54 C26 38 18 30 2 28 C18 26 26 18 28 2Z" /></svg></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+{{>narrador-js}}
+
+    if (!D.insignia) $("insignia-fila").style.display = "none";
+
+    // Titulo: la linea mas larga manda el tamano; una linea va en el color de acento.
+    const lineas = D.lineas.filter((l) => l && String(l).trim());
+    if (lineas.length < 3) $("linea-3").style.display = "none";
+    const largo = Math.max(...lineas.map((l) => String(l).length));
+    $("titulo").style.fontSize = tamPara("x".repeat(largo), 900, 118, 70, T.anchoTitulo) + "px";
+    const resalta = el("linea-" + (Math.min(D.resalta ?? lineas.length - 1, lineas.length - 1) + 1));
+    document.querySelector(resalta).classList.add("{{id}}-acento");
+
+    // Cuadro 0 = portada: todo ya esta en su sitio (sin desplazamientos que encimen) y solo late.
+    if (D.insignia) tl.fromTo(el("insignia"), { scale: 0.94 }, { scale: 1, duration: 0.4, ease: "back.out(2)" }, 0);
+    ["linea-1", "linea-2", "linea-3"].forEach((l, i) => {
+      tl.fromTo(el(l), { scale: 0.97 }, { scale: 1, duration: 0.4, ease: "back.out(2)" }, i * 0.05);
+    });
+    tl.fromTo(el("filete"), { scaleX: 0.7 }, { scaleX: 1, duration: 0.5, ease: "power2.out" }, 0.05);
+    tl.fromTo(el("il"), { scale: 0.94 }, { scale: 1, duration: 0.55, ease: "back.out(1.8)" }, 0);
+    fx.flota(tl, el("il-f"), 0.6, r.dur, 10, 0.9);
+    fx.golpe(tl, resalta, tope(r.en(0, 0.55), 0.5), 1.08);
+
+    // Destellos alrededor del dibujo mientras se dice la pregunta.
+    [
+      ["destello-1", 0.25],
+      ["destello-2", 0.5],
+      ["destello-3", 0.75],
+    ].forEach(([d, p]) => {
+      const t = tope(r.en(0, p), 0.7);
+      tl.fromTo(el(d), { opacity: 0, scale: 0, rotation: -40 }, { opacity: 1, scale: 1.15, rotation: 15, duration: 0.22, ease: "back.out(3)" }, t);
+      tl.to(el(d), { opacity: 0, scale: 0.3, rotation: 70, duration: 0.3, ease: "power2.in" }, t + 0.32);
+    });
+
+    window.__timelines["{{id}}"] = tl;
+  </script>
+</template>

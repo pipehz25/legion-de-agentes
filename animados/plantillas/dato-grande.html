@@ -1,0 +1,154 @@
+<!--
+  Dato grande (videos propios, Narrador): una cifra o un ano enorme con su rotulo debajo
+  ("1928" / "Fleming vuelve de vacaciones"). Una o dos frases del guion.
+  Necesita "estilo.tema" (archivo, laboratorio o pizarra).
+  Datos: cifra: "1928", "1,68 m", "70 %" (7 caracteres o menos para que salga enorme; hasta 10 caben)
+         rotulo: lo que significa la cifra (40 letras o menos, hasta dos renglones)
+         antes (opcional): rotulo chico encima de la cifra, 24 letras o menos ("En el ano", "Medía")
+         ilustracion (opcional): nombre en ilustraciones.json (sale chica, arriba)
+         palabra (opcional): la palabra dicha que hace aparecer la cifra (por defecto, la cifra misma
+           si se dice tal cual; si no, al empezar la escena)
+         palabra_rotulo (opcional): la palabra dicha que hace aparecer el rotulo (por defecto, a la mitad)
+         contar (opcional, true): la cifra cuenta desde 0 hasta su valor
+-->
+<template>
+  <style>
+{{>narrador-css}}
+    .{{id}}-columna {
+      position: absolute;
+      left: 90px;
+      width: 900px;
+      top: 200px;
+      height: 900px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    #{{id}}-il {
+      flex: none;
+      width: 300px;
+      height: 300px;
+      margin-bottom: 18px;
+    }
+    #{{id}}-il-f {
+      width: 100%;
+      height: 100%;
+    }
+    #{{id}}-antes {
+      flex: none;
+      font-size: 46px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      margin-bottom: 26px;
+      white-space: nowrap;
+    }
+    #{{id}}-cifra-caja {
+      flex: none;
+      position: relative;
+      width: 900px;
+      display: flex;
+      justify-content: center;
+    }
+    #{{id}}-aro {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      border-radius: 50%;
+      border: 6px dashed color-mix(in srgb, var(--acento) 40%, transparent);
+      background: color-mix(in srgb, var(--acento) 7%, transparent);
+    }
+    #{{id}}-cifra {
+      position: relative;
+      padding: 0.04em 0.06em 0.08em;
+    }
+    #{{id}}-barra {
+      flex: none;
+      width: 320px;
+      height: 12px;
+      margin: 14px 0 30px;
+      border-radius: 6px;
+      background: var(--acento2);
+      box-shadow: var(--resplandor);
+    }
+    #{{id}}-rotulo {
+      flex: none;
+      width: 880px;
+      text-align: center;
+      line-height: 1.16;
+    }
+  </style>
+
+  <div id="root" data-composition-id="{{id}}" data-width="1080" data-height="1920">
+    <div class="{{id}}-columna">
+      <div id="{{id}}-il" class="{{id}}-il"><div id="{{id}}-il-f"><svg class="{{id}}-arte" viewBox="0 0 400 400">{{{d.ilustracion_svg|}}}</svg></div></div>
+      <div id="{{id}}-antes" class="{{id}}-suave">{{d.antes|}}</div>
+      <div id="{{id}}-cifra-caja">
+        <div id="{{id}}-aro"></div>
+        <div id="{{id}}-cifra" class="{{id}}-cifra">{{d.cifra}}</div>
+      </div>
+      <div id="{{id}}-barra"></div>
+      <div id="{{id}}-rotulo" class="{{id}}-titulo">{{d.rotulo}}</div>
+    </div>
+  </div>
+
+  <script>
+{{>narrador-js}}
+
+    if (!D.ilustracion_svg) $("il").style.display = "none";
+    if (!D.antes) $("antes").style.display = "none";
+
+    // Tamanos segun el largo de cada texto.
+    const tamCifra = tamPara(D.cifra, 880, D.ilustracion_svg ? 250 : 300, 110, T.anchoCifra);
+    $("cifra").style.fontSize = tamCifra + "px";
+    // Detras de la cifra, un ovalo como de sello: un poco mas ancho que ella y apenas mas alto.
+    const anchoAro = Math.min(940, Math.round(String(D.cifra).length * tamCifra * T.anchoCifra * 1.12 + tamCifra * 0.5));
+    const altoAro = Math.round(tamCifra * 1.3);
+    Object.assign($("aro").style, { width: anchoAro + "px", height: altoAro + "px", marginLeft: -anchoAro / 2 + "px", marginTop: -altoAro / 2 + "px" });
+    const largoRotulo = String(D.rotulo).length;
+    $("rotulo").style.fontSize = (largoRotulo <= 18 ? tamPara(D.rotulo, 880, 76, 50, T.anchoTitulo) : tamPara(D.rotulo, 1700, 64, 44, T.anchoTitulo)) + "px";
+
+    // Cuando aparece cada cosa.
+    const tCifra = tope(cuando(D.palabra || D.cifra, 0.08), 1.2);
+    // El rotulo sale con su palabra (aunque se diga antes que la cifra) o, sin ella, despues de la cifra.
+    // Necesita unos 2 s en pantalla para leerse: si su momento cae muy al final, llega antes.
+    const tRotulo = tope(Math.min(D.palabra_rotulo ? cuando(D.palabra_rotulo, 0.5) : Math.max(tCifra + 0.6, parte(0.5)), r.dur - 2.1), 0.8);
+
+    if (D.ilustracion_svg) {
+      fx.entra(tl, el("il"), 0.02, { y: 60 }, 0.4);
+      fx.flota(tl, el("il-f"), 0.5, r.dur, 8, 1);
+    }
+    // El rotulo de encima abre la escena: deja la cifra en suspenso hasta que se dice.
+    if (D.antes) fx.entra(tl, el("antes"), Math.min(0.2, Math.max(0.02, tCifra - 0.3)), { y: 20 }, 0.3);
+    fx.entra(tl, el("cifra"), tCifra, { y: 80 }, 0.42);
+    tl.fromTo(el("aro"), { opacity: 0, scaleX: 0.3, scaleY: 0.6 }, { opacity: 1, scaleX: 1, scaleY: 1, duration: 0.5, ease: "back.out(1.6)" }, tCifra + 0.05);
+    if (r.dur - tCifra > 2) {
+      const vueltas = 2 * Math.max(1, Math.floor((r.dur - tCifra - 1) / 1.6));
+      tl.to(el("aro"), { scale: 1.04, duration: 0.8, ease: "sine.inOut", yoyo: true, repeat: vueltas - 1 }, tCifra + 0.6);
+    }
+    tl.fromTo(el("barra"), { opacity: 0, scaleX: 0 }, { opacity: 1, scaleX: 1, duration: 0.4, ease: "power3.out" }, tCifra + 0.25);
+    fx.entra(tl, el("rotulo"), tRotulo, { y: 40 }, 0.36);
+
+    // Cifra que cuenta desde 0 (con "contar": true): mismos separadores que el dato.
+    const partes = String(D.cifra).match(/^(\D*?)(\d[\d.,]*)(.*)$/);
+    if (D.contar && partes) {
+      const [, pre, num, post] = partes;
+      const decimales = /,\d{1,2}$/.test(num) ? num.split(",")[1].length : 0;
+      const conMiles = (decimales ? num.split(",")[0] : num).includes(".");
+      const valor = parseFloat(num.replace(/\./g, "").replace(",", "."));
+      const formato = (v) => {
+        const [ent, fr] = v.toFixed(decimales).split(".");
+        return pre + (conMiles ? ent.replace(/\B(?=(\d{3})+(?!\d))/g, ".") : ent) + (fr ? "," + fr : "") + post;
+      };
+      $("cifra").style.fontVariantNumeric = "lining-nums tabular-nums";
+      const cuenta = { v: 0 };
+      $("cifra").textContent = formato(0);
+      tl.fromTo(cuenta, { v: 0 }, { v: valor, duration: 1.1, ease: "power2.out", onUpdate: () => ($("cifra").textContent = formato(cuenta.v)) }, tCifra);
+      fx.golpe(tl, el("cifra"), tope(tCifra + 1.15, 0.5), 1.08);
+    } else {
+      fx.golpe(tl, el("cifra"), tope(Math.max(tCifra + 0.8, parte(0.8)), 0.5), 1.07);
+    }
+
+    window.__timelines["{{id}}"] = tl;
+  </script>
+</template>

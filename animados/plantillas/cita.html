@@ -1,0 +1,105 @@
+<!--
+  Cita (videos propios, Narrador): una frase celebre o documentada, con su autor. Las palabras se
+  encienden a medida que la voz avanza por la primera frase de la escena. Solo citas verificadas:
+  si la atribucion esta en duda, no se usa.
+  Necesita "estilo.tema" (archivo, laboratorio o pizarra).
+  Datos: texto: la cita, 90 letras o menos (sin comillas: las pone la plantilla)
+         autor: 26 letras o menos
+         detalle (opcional): debajo del autor, 30 letras o menos ("Carta de 1861", "Medico hungaro")
+-->
+<template>
+  <style>
+{{>narrador-css}}
+    #{{id}}-comillas {
+      position: absolute;
+      left: 108px;
+      top: 214px;
+      width: 150px;
+      height: 120px;
+    }
+    #{{id}}-comillas path {
+      fill: var(--acento);
+    }
+    #{{id}}-texto {
+      position: absolute;
+      left: 108px;
+      width: 864px;
+      top: 350px;
+      line-height: 1.14;
+    }
+    .{{id}}-pal {
+      opacity: 0.18;
+    }
+    #{{id}}-firma {
+      position: absolute;
+      left: 108px;
+      width: 864px;
+      top: 880px;
+      height: 200px;
+      opacity: 0;
+    }
+    #{{id}}-raya {
+      width: 120px;
+      height: 10px;
+      border-radius: 5px;
+      background: var(--acento2);
+      margin-bottom: 26px;
+      box-shadow: var(--resplandor);
+    }
+    #{{id}}-autor {
+      font-size: 58px;
+      white-space: nowrap;
+    }
+    #{{id}}-detalle {
+      margin-top: 8px;
+      font-size: 42px;
+      white-space: nowrap;
+    }
+  </style>
+
+  <div id="root" data-composition-id="{{id}}" data-width="1080" data-height="1920">
+    <div id="{{id}}-comillas"><svg class="{{id}}-arte" viewBox="0 0 150 120"><path d="M10 112 V70 C10 34 26 12 60 4 L66 20 C46 28 38 44 38 62 H64 V112 Z M84 112 V70 C84 34 100 12 134 4 L140 20 C120 28 112 44 112 62 H138 V112 Z" /></svg></div>
+    <div id="{{id}}-texto" class="{{id}}-titulo"></div>
+    <div id="{{id}}-firma">
+      <div id="{{id}}-raya"></div>
+      <div id="{{id}}-autor" class="{{id}}-titulo {{id}}-acento">{{d.autor}}</div>
+      <div id="{{id}}-detalle" class="{{id}}-suave">{{d.detalle|}}</div>
+    </div>
+  </div>
+
+  <script>
+{{>narrador-js}}
+
+    if (!D.detalle) $("detalle").style.display = "none";
+    // Tamano: el mas grande con el que la cita cabe en el espacio (de 350 a 850 px).
+    const texto = String(D.texto).trim();
+    let tam = 92;
+    const renglonesCon = (t) => Math.ceil((texto.length * t * T.anchoTitulo) / 820);
+    while (tam > 48 && renglonesCon(tam) * tam * 1.14 > 480) tam -= 4;
+    const caja = $("texto");
+    caja.style.fontSize = tam + "px";
+    const palabras = texto.split(/\s+/);
+    palabras.forEach((p, i) => {
+      const s = document.createElement("span");
+      s.id = "{{id}}-w" + i;
+      s.className = "{{id}}-pal";
+      s.textContent = p;
+      if (i) caja.appendChild(document.createTextNode(" "));
+      caja.appendChild(s);
+    });
+
+    fx.entra(tl, el("comillas"), 0.02, { y: -40, rotation: -10 }, 0.4);
+    tl.fromTo(el("texto"), { y: 30 }, { y: 0, duration: 0.4, ease: "power3.out" }, 0.05);
+    // Cada palabra se enciende a su paso por la primera frase.
+    palabras.forEach((p, i) => {
+      const t = Math.max(0.1, r.en(0, 0.05 + (i / palabras.length) * 0.9));
+      tl.to(el("w" + i), { opacity: 1, duration: 0.18, ease: "power1.out" }, tope(t, 0.8));
+    });
+    const tFirma = tope(Math.max(r.en(0, 0.8), 0.6), 0.8);
+    tl.fromTo(el("firma"), { opacity: 0, x: -60 }, { opacity: 1, x: 0, duration: 0.4, ease: "power3.out" }, tFirma);
+    tl.fromTo(el("raya"), { scaleX: 0, transformOrigin: "0% 50%" }, { scaleX: 1, duration: 0.4, ease: "power2.out" }, tFirma + 0.1);
+    fx.golpe(tl, el("comillas"), tope(r.fin(0), 0.5), 1.12);
+
+    window.__timelines["{{id}}"] = tl;
+  </script>
+</template>

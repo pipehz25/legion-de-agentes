@@ -1,0 +1,131 @@
+<!--
+  Lista de pasos (videos propios, Narrador): 3 pasos numerados (sirve de 2 a 4) que aparecen uno
+  por uno cuando la voz los nombra. Una o varias frases del guion.
+  Necesita "estilo.tema" (archivo, laboratorio o pizarra).
+  Datos: pasos: ["...", "...", "..."] o [{ "texto": "...", "palabra": "...", "ilustracion": "..." }]
+           texto: 36 letras o menos (dos renglones); con ilustracion, 26
+           palabra (opcional): la palabra dicha que hace aparecer el paso (si no, se reparten en la escena)
+           ilustracion (opcional): nombre en ilustraciones.json, chica a la derecha del paso
+         titulo (opcional): arriba, 24 letras o menos
+-->
+<template>
+  <style>
+{{>narrador-css}}
+    #{{id}}-titulo {
+      position: absolute;
+      left: 100px;
+      width: 880px;
+      top: 206px;
+      height: 100px;
+      line-height: 100px;
+      text-align: center;
+      white-space: nowrap;
+    }
+    #{{id}}-cadena {
+      position: absolute;
+      left: 204px;
+      width: 10px;
+      border-radius: 5px;
+      background: var(--riel);
+    }
+    .{{id}}-paso {
+      position: absolute;
+      left: 108px;
+      width: 864px;
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      padding: 0 30px 0 36px;
+      opacity: 0;
+    }
+    .{{id}}-num {
+      flex: none;
+      width: 128px;
+      height: 128px;
+      border-radius: 50%;
+      background: var(--acento);
+      color: var(--sobre-acento);
+      text-align: center;
+      line-height: 124px;
+      font-size: 78px;
+      box-shadow: var(--resplandor);
+    }
+    .{{id}}-ptexto {
+      flex: 1 1 auto;
+      line-height: 1.14;
+    }
+    .{{id}}-pil {
+      flex: none;
+      width: 150px;
+      height: 150px;
+    }
+  </style>
+
+  <div id="root" data-composition-id="{{id}}" data-width="1080" data-height="1920">
+    <div id="{{id}}-titulo" class="{{id}}-titulo">{{d.titulo|}}</div>
+    <div id="{{id}}-cadena"></div>
+    <div id="{{id}}-pasos"></div>
+  </div>
+
+  <script>
+{{>narrador-js}}
+
+    const pasos = (D.pasos || []).slice(0, 4).map((p) => (typeof p === "string" ? { texto: p } : p));
+    const N = pasos.length;
+    if (!D.titulo) $("titulo").style.display = "none";
+    else $("titulo").style.fontSize = tamPara(D.titulo, 880, 76, 48, T.anchoTitulo) + "px";
+
+    // Medidas: las tarjetas se reparten entre la cabecera y los 1080 px.
+    const arriba = D.titulo ? 340 : 240;
+    const hueco = 34;
+    const alto = Math.min(230, (1080 - arriba - hueco * (N - 1)) / N);
+    const total = alto * N + hueco * (N - 1);
+    const y0 = arriba + (1080 - arriba - total) / 2;
+    const masLargo = Math.max(...pasos.map((p) => String(p.texto).length));
+    const tamTexto = masLargo <= 20 ? 60 : masLargo <= 28 ? 54 : 48;
+
+    const caja = $("pasos");
+    pasos.forEach((p, i) => {
+      const d = document.createElement("div");
+      d.id = "{{id}}-paso-" + i;
+      d.className = "{{id}}-paso {{id}}-tarjeta";
+      Object.assign(d.style, { top: y0 + i * (alto + hueco) + "px", height: alto + "px" });
+      const n = document.createElement("div");
+      n.id = "{{id}}-num-" + i;
+      n.className = "{{id}}-num {{id}}-cifra";
+      n.style.color = "var(--sobre-acento)";
+      n.textContent = String(i + 1);
+      const t = document.createElement("div");
+      t.className = "{{id}}-ptexto {{id}}-titulo";
+      Object.assign(t.style, { fontSize: tamTexto + "px", fontFamily: "var(--fuente-texto)", fontWeight: "var(--peso-texto)" });
+      t.textContent = sinViuda(p.texto);
+      d.append(n, t);
+      if (p.ilustracion_svg) {
+        const il = document.createElement("div");
+        il.className = "{{id}}-pil {{id}}-il";
+        il.innerHTML = dibujo(p.ilustracion_svg);
+        d.appendChild(il);
+      }
+      caja.appendChild(d);
+    });
+    const centro = (i) => y0 + i * (alto + hueco) + alto / 2;
+    Object.assign($("cadena").style, { top: centro(0) + "px", height: centro(N - 1) - centro(0) + "px" });
+
+    if (D.titulo) fx.entra(tl, el("titulo"), 0.02, { y: -30 }, 0.34);
+    tl.fromTo(el("cadena"), { scaleY: 0, transformOrigin: "50% 0%" }, { scaleY: 1, duration: Math.max(0.6, parte(0.9)), ease: "none" }, 0.1);
+
+    // Cada paso entra cuando se dice su palabra; si no, repartidos en lo que se habla.
+    let previo = -1;
+    pasos.forEach((p, i) => {
+      let t = cuando(p.palabra, 0.02 + (i * 0.9) / N);
+      t = tope(Math.max(t, previo + 0.6, i === 0 ? 0.25 : 0), 0.7);
+      previo = t;
+      tl.fromTo(el("paso-" + i), { opacity: 0, x: 300 }, { opacity: 1, x: 0, duration: 0.38, ease: "back.out(1.4)" }, t);
+      tl.fromTo(el("num-" + i), { scale: 0.3, rotation: -90 }, { scale: 1, rotation: 0, duration: 0.42, ease: "back.out(2.4)" }, t + 0.1);
+      if (i > 0) tl.to(el("paso-" + (i - 1)), { opacity: 0.7, duration: 0.3, ease: "power1.out" }, t);
+    });
+    fx.golpe(tl, el("num-" + (N - 1)), tope(Math.max(previo + 0.7, parte(0.92)), 0.45), 1.12);
+
+    window.__timelines["{{id}}"] = tl;
+  </script>
+</template>

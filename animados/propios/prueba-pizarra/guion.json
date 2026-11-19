@@ -1,0 +1,83 @@
+{
+  "titulo": "¿Por qué un billete vale algo, si es solo papel?",
+  "formato": "dato que no sabías",
+  "nicho": "dinero",
+  "nota": "Video de prueba de las plantillas y del tema pizarra. La voz Kokoro es solo para cronometrar: no se publica.",
+  "motor": "kokoro",
+  "voz": "em_alex",
+  "velocidad": 0.92,
+  "inicio": 0.2,
+  "pausa": 0.3,
+  "cola": 2.2,
+  "estilo": {
+    "tema": "pizarra"
+  },
+  "publicacion": {
+    "texto": "Un billete cuesta muy poco de fabricar. Antes se podía cambiar por oro; desde 1971, el dólar ya no. Hoy vale porque la ley obliga a aceptarlo, un banco central controla cuántos hay y todos confiamos en él. Contenido educativo, no es asesoría financiera.",
+    "hashtags": ["dinero", "economia", "billetes", "sabiasque", "educacionfinanciera"]
+  },
+  "fuentes": [
+    { "dato": "El dinero fiduciario es el que un gobierno declara de curso legal, sin respaldo en oro", "fuente": "Federal Reserve Bank of St. Louis, «The Gold Standard»", "url": "https://www.stlouisfed.org/timely-topics/the-gold-standard/videos/part-1-what-is-a-gold-standard" },
+    { "dato": "En Bretton Woods (1944) el dólar quedó fijado al oro; el 15 de agosto de 1971 Nixon cerró la «ventanilla del oro» y los gobiernos extranjeros ya no pudieron cambiar dólares por oro", "fuente": "Federal Reserve History, «Nixon Ends Convertibility of US Dollars to Gold»", "url": "https://www.federalreservehistory.org/essays/gold-convertibility-ends" },
+    { "dato": "«Fiduciario» viene del latín fiduciarius, de fiducia, confianza", "fuente": "Real Academia Española, Diccionario de la lengua española, «fiduciario» y «fiducia»", "url": "https://dle.rae.es/fiduciario" }
+  ],
+  "escenas": {
+    "gancho": {
+      "plantilla": "titulo-pregunta",
+      "datos": { "lineas": ["¿Por qué vale", "un billete", "si es papel?"], "resalta": 1, "ilustracion": "billete", "insignia": "Dato que no sabías" }
+    },
+    "papel": {
+      "plantilla": "lupa",
+      "datos": { "ilustracion": "billete", "foco": [200, 206], "rotulo": "Papel, tinta y seguridad", "palabra": "papel" }
+    },
+    "historia": {
+      "plantilla": "linea-tiempo",
+      "datos": {
+        "titulo": "Del oro al papel",
+        "hitos": [
+          { "anio": "Siglo XIX", "texto": "Billetes que se cambian por oro", "palabra": "antes" },
+          { "anio": "1944", "texto": "El dólar queda atado al oro" },
+          { "anio": "1971", "texto": "Estados Unidos deja de cambiar dólares por oro" }
+        ]
+      }
+    },
+    "respaldo": {
+      "plantilla": "comparacion",
+      "datos": {
+        "marcas": false,
+        "izquierda": { "titulo": "Antes", "renglones": ["Respaldo: oro", "Lo cambiabas en el banco"], "ilustracion": "lingote" },
+        "derecha": { "titulo": "Hoy", "renglones": ["Respaldo: confianza", "Lo decide la ley"], "ilustracion": "billete" }
+      }
+    },
+    "razones": {
+      "plantilla": "lista-pasos",
+      "datos": {
+        "titulo": "Vale por 3 cosas",
+        "pasos": [
+          { "texto": "La ley obliga a aceptarlo", "palabra": "ley" },
+          { "texto": "Un banco central controla cuántos hay", "palabra": "banco" },
+          { "texto": "Todos confiamos en él", "palabra": "confiamos" }
+        ]
+      }
+    },
+    "palabra": {
+      "plantilla": "dato-grande",
+      "datos": { "antes": "En latín", "cifra": "fiducia", "rotulo": "Confianza. De ahí «dinero fiduciario»", "palabra": "fiducia", "palabra_rotulo": "confianza", "ilustracion": "moneda" }
+    },
+    "cierre": {
+      "plantilla": "cierre-respuesta",
+      "datos": { "rotulo": "En resumen", "respuesta": "Vale porque confiamos", "cuenta": "@legion.datos" }
+    }
+  },
+  "frases": [
+    { "id": "f1", "escena": "gancho", "subtitulos": false, "texto": "¿Por qué un billete vale algo, si es solo papel?", "pausa_despues": 0.4 },
+    { "id": "f2", "escena": "papel", "texto": "Fabricar un billete cuesta muy poco: es papel, tinta y algunas marcas de seguridad.", "clave": ["poco"] },
+    { "id": "f3", "escena": "historia", "texto": "Antes, un billete era un recibo: lo podías cambiar por oro en el banco.", "clave": ["oro"] },
+    { "id": "f4", "escena": "historia", "texto": "Desde 1944, el dólar estuvo atado al oro, hasta que en 1971 Estados Unidos cortó ese lazo.", "clave": ["1971"], "pausa_despues": 0.4 },
+    { "id": "f5", "escena": "respaldo", "texto": "Antes lo respaldaba el oro. Hoy, ese respaldo es otro.", "clave": ["respaldo"] },
+    { "id": "f6", "escena": "razones", "texto": "Hoy vale por tres cosas: la ley obliga a aceptarlo como pago,", "clave": ["ley"] },
+    { "id": "f7", "escena": "razones", "texto": "un banco central controla cuántos billetes hay, y todos confiamos en que otros lo aceptarán.", "clave": ["confiamos"] },
+    { "id": "f8", "escena": "palabra", "texto": "Por eso se llama dinero fiduciario, de la palabra latina fiducia, que significa confianza.", "clave": ["confianza"] },
+    { "id": "f9", "escena": "cierre", "texto": "Un billete vale mientras todos sigamos creyendo en él.", "clave": ["creyendo"] }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "prueba-archivo",
+  "titulo": "¿Napoleón era bajito? Te lo contaron al revés.",
+  "duracion_s": 45.8,
+  "volumen": "I: -15.9 LUFS",
+  "voz": "kokoro / em_alex",
+  "avisos_revision": 0,
+  "producido": "2026-11-19T21:28:08.329Z",
+  "video": "prueba-archivo.mp4",
+  "guion": "animados/propios/prueba-archivo/guion.json"
+}

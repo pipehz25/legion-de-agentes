@@ -1,0 +1,11 @@
+{
+  "id": "prueba-laboratorio",
+  "titulo": "Lo creyeron loco por pedir lavarse las manos.",
+  "duracion_s": 53.2,
+  "volumen": "I: -16.1 LUFS",
+  "voz": "kokoro / ef_dora",
+  "avisos_revision": 0,
+  "producido": "2026-11-19T21:24:02.521Z",
+  "video": "prueba-laboratorio.mp4",
+  "guion": "animados/propios/prueba-laboratorio/guion.json"
+}

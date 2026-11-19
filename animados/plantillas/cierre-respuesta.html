@@ -1,0 +1,161 @@
+<!--
+  Cierre con respuesta (videos propios, Narrador): la respuesta o la leccion en 2 a 5 palabras
+  grandes, que no repiten lo que dice la voz, y el nombre de la cuenta. Una frase del guion (o dos);
+  la escena debe durar 2 segundos o mas.
+  Necesita "estilo.tema" (archivo, laboratorio o pizarra).
+  Datos: respuesta: 2 a 5 palabras, 28 letras o menos ("Vale porque confiamos")
+         resalta (opcional): la palabra (su numero, desde 0) que va en el color de acento; por defecto la ultima
+         rotulo (opcional): encima, 22 letras o menos ("La respuesta", "Moraleja")
+         ilustracion (opcional): nombre en ilustraciones.json, chica arriba
+         cuenta (opcional): "@nombredelacuenta" (24 letras o menos)
+         siguiente (opcional): anuncio de la proxima parte de una serie, 34 letras o menos ("Manana: la gripe de 1918")
+-->
+<template>
+  <style>
+{{>narrador-css}}
+    .{{id}}-columna {
+      position: absolute;
+      left: 90px;
+      width: 900px;
+      top: 200px;
+      height: 900px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    #{{id}}-il {
+      flex: none;
+      width: 250px;
+      height: 250px;
+      margin-bottom: 20px;
+    }
+    #{{id}}-il-f {
+      width: 100%;
+      height: 100%;
+    }
+    #{{id}}-rotulo-fila {
+      flex: none;
+      margin-bottom: 26px;
+    }
+    #{{id}}-respuesta {
+      flex: none;
+      width: 900px;
+      line-height: 1.04;
+    }
+    .{{id}}-palabra {
+      display: inline-block;
+      margin: 0 0.04em;
+      opacity: 0;
+    }
+    #{{id}}-subraya {
+      flex: none;
+      width: 420px;
+      height: 14px;
+      margin: 30px 0 36px;
+      border-radius: 7px;
+      background: var(--acento2);
+      box-shadow: var(--resplandor);
+    }
+    #{{id}}-cuenta {
+      flex: none;
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      font-size: 48px;
+      white-space: nowrap;
+      opacity: 0;
+    }
+    #{{id}}-cuenta-punto {
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      background: var(--acento);
+      box-shadow: var(--resplandor);
+    }
+    #{{id}}-cuenta-punto path {
+      fill: var(--sobre-acento);
+    }
+    #{{id}}-siguiente {
+      flex: none;
+      margin-top: 26px;
+      font-size: 42px;
+      white-space: nowrap;
+      opacity: 0;
+    }
+  </style>
+
+  <div id="root" data-composition-id="{{id}}" data-width="1080" data-height="1920">
+    <div class="{{id}}-columna">
+      <div id="{{id}}-il" class="{{id}}-il"><div id="{{id}}-il-f"><svg class="{{id}}-arte" viewBox="0 0 400 400">{{{d.ilustracion_svg|}}}</svg></div></div>
+      <div id="{{id}}-rotulo-fila"><span id="{{id}}-rotulo" class="{{id}}-insignia">{{d.rotulo|}}</span></div>
+      <div id="{{id}}-respuesta" class="{{id}}-titulo"></div>
+      <div id="{{id}}-subraya"></div>
+      <div id="{{id}}-cuenta" class="{{id}}-acento">
+        <div id="{{id}}-cuenta-punto"><svg class="{{id}}-arte" viewBox="0 0 64 64"><path d="M32 14 C34 26 38 30 50 32 C38 34 34 38 32 50 C30 38 26 34 14 32 C26 30 30 26 32 14Z" /></svg></div>
+        <span>{{d.cuenta|}}</span>
+      </div>
+      <div id="{{id}}-siguiente" class="{{id}}-suave">{{d.siguiente|}}</div>
+    </div>
+  </div>
+
+  <script>
+{{>narrador-js}}
+
+    if (!D.ilustracion_svg) $("il").style.display = "none";
+    if (!D.rotulo) $("rotulo-fila").style.display = "none";
+    if (!D.cuenta) $("cuenta").style.display = "none";
+    if (!D.siguiente) $("siguiente").style.display = "none";
+
+    // La respuesta, palabra por palabra. El tamano es el mas grande con el que cabe en 3 renglones.
+    const palabras = String(D.respuesta).trim().split(/\s+/);
+    const ancho = (txt, tam) => txt.length * tam * T.anchoTitulo;
+    const renglones = (tam) => {
+      let n = 1;
+      let actual = 0;
+      for (const p of palabras) {
+        const w = ancho(p, tam);
+        if (w > 880) return 99;
+        if (actual && actual + ancho(" ", tam) + w > 880) {
+          n++;
+          actual = w;
+        } else actual += (actual ? ancho(" ", tam) : 0) + w;
+      }
+      return n;
+    };
+    const maxRenglones = palabras.length <= 2 ? 2 : 3;
+    let tam = D.ilustracion_svg ? 126 : 150;
+    while (tam > 64 && renglones(tam) > maxRenglones) tam -= 4;
+    const caja = $("respuesta");
+    caja.style.fontSize = tam + "px";
+    const resalta = Math.min(D.resalta ?? palabras.length - 1, palabras.length - 1);
+    palabras.forEach((p, i) => {
+      const s = document.createElement("span");
+      s.id = "{{id}}-p" + i;
+      s.className = "{{id}}-palabra" + (i === resalta ? " {{id}}-acento" : "");
+      s.textContent = p;
+      if (i) caja.appendChild(document.createTextNode(" "));
+      caja.appendChild(s);
+    });
+
+    // Movimiento: la respuesta cae palabra por palabra al empezar; la cuenta, despues.
+    if (D.ilustracion_svg) {
+      fx.entra(tl, el("il"), 0.02, { y: 50 }, 0.4);
+      fx.flota(tl, el("il-f"), 0.5, r.dur, 8, 1);
+    }
+    if (D.rotulo) fx.entra(tl, el("rotulo"), 0.04, { y: -20 }, 0.3);
+    palabras.forEach((p, i) => fx.entra(tl, el("p" + i), 0.12 + i * 0.16, { y: 70 }, 0.36));
+    const tFin = 0.12 + palabras.length * 0.16;
+    tl.fromTo(el("subraya"), { opacity: 0, scaleX: 0 }, { opacity: 1, scaleX: 1, duration: 0.45, ease: "power3.out" }, tFin + 0.1);
+    fx.golpe(tl, el("p" + resalta), tFin + 0.35, 1.12);
+    if (D.cuenta) {
+      tl.fromTo(el("cuenta"), { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.38, ease: "back.out(2)" }, tope(Math.max(tFin + 0.5, parte(0.45)), 1.1));
+      tl.fromTo(el("cuenta-punto"), { rotation: -120 }, { rotation: 0, duration: 0.6, ease: "back.out(1.8)" }, tope(Math.max(tFin + 0.5, parte(0.45)), 1.1));
+    }
+    if (D.siguiente) fx.entra(tl, el("siguiente"), tope(Math.max(tFin + 0.8, parte(0.6)), 0.9), { y: 20 }, 0.32);
+    fx.golpe(tl, el("respuesta"), tope(Math.max(tFin + 1.2, r.dur - 1), 0.5), 1.05);
+
+    window.__timelines["{{id}}"] = tl;
+  </script>
+</template>

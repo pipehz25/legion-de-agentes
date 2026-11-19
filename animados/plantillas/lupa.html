@@ -1,0 +1,159 @@
+<!--
+  Lupa (videos propios, Narrador): una ilustracion grande y una lupa que llega y amplia una parte
+  de ella (o muestra dentro otra ilustracion: lo que no se ve a simple vista), con su rotulo.
+  Una o dos frases del guion.
+  Necesita "estilo.tema" (archivo, laboratorio o pizarra).
+  Datos: ilustracion: nombre en ilustraciones.json (el dibujo grande)
+         rotulo: 26 letras o menos (lo que se ve en la lupa)
+         ilustracion_detalle (opcional): otro dibujo que aparece dentro de la lupa
+           (p. ej. ilustracion "placa-petri" e ilustracion_detalle "bacteria")
+         foco (opcional): [x, y] del punto del dibujo que mira la lupa, en el lienzo de 400x400
+           (por defecto [250, 160])
+         titulo (opcional): arriba, 24 letras o menos
+         palabra (opcional): la palabra dicha que trae la lupa (por defecto, a la tercera parte)
+-->
+<template>
+  <style>
+{{>narrador-css}}
+    #{{id}}-titulo {
+      position: absolute;
+      left: 100px;
+      width: 880px;
+      top: 206px;
+      height: 100px;
+      line-height: 100px;
+      text-align: center;
+      white-space: nowrap;
+    }
+    #{{id}}-base {
+      position: absolute;
+      left: 150px;
+      width: 600px;
+      height: 600px;
+    }
+    #{{id}}-base-f {
+      width: 100%;
+      height: 100%;
+    }
+    #{{id}}-lupa {
+      position: absolute;
+      width: 420px;
+      height: 420px;
+      opacity: 0;
+    }
+    #{{id}}-mango {
+      position: absolute;
+      left: 330px;
+      top: 330px;
+      width: 190px;
+      height: 54px;
+      border-radius: 27px;
+      background: var(--lupa-mango);
+      box-shadow: var(--resplandor);
+      transform-origin: 0 50%;
+    }
+    #{{id}}-vidrio {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 420px;
+      height: 420px;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 22px solid var(--lupa-aro);
+      background: radial-gradient(circle at 42% 38%, #ffffff 0%, color-mix(in srgb, var(--papel) 40%, #cfe6f0) 85%);
+      box-shadow: 0 18px 40px rgba(0, 0, 0, 0.28), var(--resplandor);
+    }
+    #{{id}}-dentro {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 376px;
+      height: 376px;
+    }
+    #{{id}}-reflejo {
+      position: absolute;
+      left: 54px;
+      top: 40px;
+      width: 120px;
+      height: 70px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.55);
+    }
+    #{{id}}-rotulo-fila {
+      position: absolute;
+      left: 90px;
+      width: 900px;
+      top: 966px;
+      height: 112px;
+      text-align: center;
+    }
+    #{{id}}-rotulo {
+      display: inline-block;
+      height: 104px;
+      line-height: 98px;
+      padding: 0 40px;
+      white-space: nowrap;
+      opacity: 0;
+    }
+  </style>
+
+  <div id="root" data-composition-id="{{id}}" data-width="1080" data-height="1920">
+    <div id="{{id}}-titulo" class="{{id}}-titulo">{{d.titulo|}}</div>
+    <div id="{{id}}-base" class="{{id}}-il"><div id="{{id}}-base-f"><svg class="{{id}}-arte" viewBox="0 0 400 400">{{{d.ilustracion_svg}}}</svg></div></div>
+    <div id="{{id}}-lupa">
+      <div id="{{id}}-mango"></div>
+      <div id="{{id}}-vidrio">
+        <div id="{{id}}-dentro"></div>
+        <div id="{{id}}-reflejo"></div>
+      </div>
+    </div>
+    <div id="{{id}}-rotulo-fila"><span id="{{id}}-rotulo" class="{{id}}-titulo {{id}}-tarjeta">{{d.rotulo}}</span></div>
+  </div>
+
+  <script>
+{{>narrador-js}}
+
+    if (!D.titulo) $("titulo").style.display = "none";
+    else $("titulo").style.fontSize = tamPara(D.titulo, 880, 72, 46, T.anchoTitulo) + "px";
+    $("rotulo").style.fontSize = tamPara(D.rotulo, 780, 60, 40, T.anchoTitulo) + "px";
+
+    // El dibujo grande: mas arriba si hay titulo.
+    const topBase = D.titulo ? 330 : 270;
+    $("base").style.top = topBase + "px";
+
+    // Donde mira la lupa (en el lienzo de 400) y donde queda en pantalla (escala 1,5).
+    const foco = Array.isArray(D.foco) && D.foco.length === 2 ? D.foco.map(Number) : [250, 160];
+    const cx = Math.max(250, Math.min(800, 150 + foco[0] * 1.5));
+    const cy = Math.max(topBase + (D.titulo ? 226 : 150), Math.min(720, topBase + foco[1] * 1.5));
+    Object.assign($("lupa").style, { left: cx - 210 + "px", top: cy - 210 + "px" });
+    // El mango apunta abajo a la derecha; si no cabe, abajo a la izquierda.
+    const mangoIzq = cx > 700;
+    if (mangoIzq) Object.assign($("mango").style, { left: "-100px", top: "330px", transformOrigin: "100% 50%" });
+    gsap.set(el("mango"), { rotation: mangoIzq ? -45 : 45 });
+
+    // Dentro de la lupa: el otro dibujo o el mismo, ampliado alrededor del foco.
+    const zoom = 70;
+    $("dentro").innerHTML = D.ilustracion_detalle_svg
+      ? '<svg class="{{id}}-arte" viewBox="-30 -30 460 460">' + D.ilustracion_detalle_svg + "</svg>"
+      : '<svg class="{{id}}-arte" viewBox="' + (foco[0] - zoom) + " " + (foco[1] - zoom) + " " + zoom * 2 + " " + zoom * 2 + '">' + D.ilustracion_svg + "</svg>";
+
+    // Movimiento.
+    const tLupa = tope(cuando(D.palabra, 0.3) - 0.25, 1.4);
+    if (D.titulo) fx.entra(tl, el("titulo"), 0.02, { y: -30 }, 0.34);
+    fx.entra(tl, el("base"), 0.05, { y: 80 }, 0.45);
+    fx.flota(tl, el("base-f"), 0.6, r.dur, 6, 1.2);
+    tl.fromTo(el("lupa"), { opacity: 0, x: 420, y: 520, rotation: 18 }, { opacity: 1, x: 0, y: 0, rotation: 0, duration: 0.6, ease: "back.out(1.3)" }, tLupa);
+    tl.to(el("base"), { opacity: 0.45, duration: 0.4, ease: "power1.out" }, tLupa + 0.3);
+    tl.fromTo(el("dentro"), { scale: 0.4, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.45, ease: "back.out(2)" }, tLupa + 0.45);
+    fx.entra(tl, el("rotulo"), tope(tLupa + 0.85, 0.7), { y: 40 }, 0.34);
+    // La lupa se mueve un poco, como en la mano.
+    const quieta = tLupa + 0.65;
+    if (r.dur - quieta > 1.6) {
+      const vueltas = 2 * Math.max(1, Math.floor((r.dur - quieta - 0.4) / 2.4));
+      tl.to(el("lupa"), { x: -14, y: 10, rotation: -2, duration: 1.2, ease: "sine.inOut", yoyo: true, repeat: vueltas - 1 }, quieta);
+    }
+
+    window.__timelines["{{id}}"] = tl;
+  </script>
+</template>

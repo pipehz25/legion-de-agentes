@@ -1,0 +1,145 @@
+<!--
+  Linea de tiempo (videos propios, Narrador): de 3 a 5 hitos con su ano y un texto corto, en una
+  linea vertical que se va encendiendo en orden. Una o varias frases del guion; cada hito
+  aparece cuando la voz dice su ano (o su `palabra`), o repartido a lo largo de la escena.
+  Necesita "estilo.tema" (archivo, laboratorio o pizarra).
+  Datos: hitos: [{ "anio": "1846", "texto": "...", "palabra": "..." (opcional) }]  (3 a 5)
+           anio: 9 caracteres o menos ("1847", "1500 a. C.")
+           texto: con 3 hitos, 50 letras o menos (dos renglones); con 4, 40; con 5, 28 (un renglon)
+         titulo (opcional): arriba, 24 letras o menos
+-->
+<template>
+  <style>
+{{>narrador-css}}
+    #{{id}}-titulo {
+      position: absolute;
+      left: 100px;
+      width: 880px;
+      top: 206px;
+      height: 100px;
+      line-height: 100px;
+      text-align: center;
+      white-space: nowrap;
+    }
+    .{{id}}-riel {
+      position: absolute;
+      left: 184px;
+      width: 12px;
+      border-radius: 6px;
+    }
+    #{{id}}-riel-base {
+      background: var(--riel);
+    }
+    #{{id}}-riel-luz {
+      background: var(--acento);
+      box-shadow: var(--resplandor);
+      transform-origin: 50% 0%;
+    }
+    .{{id}}-hueco,
+    .{{id}}-punto,
+    .{{id}}-onda {
+      position: absolute;
+      left: 162px;
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+    }
+    .{{id}}-hueco {
+      background: var(--papel);
+      border: 6px solid var(--riel);
+    }
+    .{{id}}-punto {
+      background: var(--acento);
+      border: 8px solid var(--papel);
+      box-shadow: 0 0 0 4px var(--acento), var(--resplandor);
+      opacity: 0;
+    }
+    .{{id}}-onda {
+      border: 5px solid var(--acento);
+      opacity: 0;
+    }
+    .{{id}}-anio {
+      position: absolute;
+      left: 252px;
+      opacity: 0;
+    }
+    .{{id}}-texto {
+      position: absolute;
+      left: 254px;
+      width: 720px;
+      line-height: 1.18;
+      opacity: 0;
+    }
+  </style>
+
+  <div id="root" data-composition-id="{{id}}" data-width="1080" data-height="1920">
+    <div id="{{id}}-titulo" class="{{id}}-titulo">{{d.titulo|}}</div>
+    <div id="{{id}}-riel-base" class="{{id}}-riel"></div>
+    <div id="{{id}}-riel-luz" class="{{id}}-riel"></div>
+    <div id="{{id}}-hitos"></div>
+  </div>
+
+  <script>
+{{>narrador-js}}
+
+    const hitos = (D.hitos || []).slice(0, 5);
+    const N = hitos.length;
+    if (!D.titulo) $("titulo").style.display = "none";
+    else $("titulo").style.fontSize = tamPara(D.titulo, 880, 74, 48, T.anchoTitulo) + "px";
+
+    // Medidas segun cuantos hitos hay: todo entre la cabecera y los 1080 px.
+    const arriba = D.titulo ? 350 : 236;
+    const alto = (1080 - arriba) / N;
+    const tamAnio = N >= 5 ? 60 : N === 4 ? 66 : 76;
+    const tamTexto = N >= 5 ? 40 : N === 4 ? 44 : 50;
+    const centroPunto = (i) => arriba + alto * i + tamAnio * 0.52;
+
+    const caja = $("hitos");
+    hitos.forEach((h, i) => {
+      const y = arriba + alto * i;
+      const pieza = (clase, extra) => {
+        const d = document.createElement("div");
+        d.id = "{{id}}-" + clase + "-" + i;
+        d.className = "{{id}}-" + clase + (extra ? " " + extra : "");
+        caja.appendChild(d);
+        return d;
+      };
+      const yPunto = centroPunto(i) - 28;
+      pieza("hueco").style.top = yPunto + "px";
+      pieza("onda").style.top = yPunto + "px";
+      pieza("punto").style.top = yPunto + "px";
+      const anio = pieza("anio", "{{id}}-cifra");
+      anio.textContent = h.anio;
+      Object.assign(anio.style, { top: y + "px", fontSize: tamAnio + "px" });
+      const texto = pieza("texto", "{{id}}-titulo");
+      texto.textContent = sinViuda(h.texto);
+      Object.assign(texto.style, { top: y + tamAnio * 1.08 + "px", fontSize: tamTexto + "px", fontFamily: "var(--fuente-texto)", fontWeight: "var(--peso-texto)" });
+    });
+
+    // Riel: del primer punto al ultimo.
+    const y0 = centroPunto(0);
+    const y1 = centroPunto(N - 1);
+    for (const riel of ["riel-base", "riel-luz"]) Object.assign($(riel).style, { top: y0 + "px", height: y1 - y0 + "px" });
+
+    if (D.titulo) fx.entra(tl, el("titulo"), 0.02, { y: -30 }, 0.34);
+    tl.fromTo(el("riel-base"), { scaleY: 0, transformOrigin: "50% 0%" }, { scaleY: 1, duration: 0.5, ease: "power2.out" }, 0.05);
+    tl.fromTo(el("riel-luz"), { scaleY: 0 }, { scaleY: 0, duration: 0.01 }, 0);
+    hitos.forEach((h, i) => tl.fromTo(el("hueco-" + i), { opacity: 0, scale: 0.4 }, { opacity: 1, scale: 1, duration: 0.25, ease: "back.out(2)" }, 0.1 + i * 0.07));
+
+    // Cada hito se enciende cuando se dice su ano (o su palabra); si no, repartidos en la escena.
+    let previo = -1;
+    hitos.forEach((h, i) => {
+      let t = cuando(h.palabra || h.anio, 0.02 + (i * 0.92) / N);
+      t = tope(Math.max(t, previo + 0.55, i === 0 ? 0.3 : 0), 0.7);
+      previo = t;
+      if (i > 0) tl.to(el("riel-luz"), { scaleY: i / (N - 1), duration: 0.32, ease: "power2.inOut" }, Math.max(0, t - 0.3));
+      tl.fromTo(el("punto-" + i), { opacity: 0, scale: 0.2 }, { opacity: 1, scale: 1, duration: 0.3, ease: "back.out(2.6)" }, t);
+      tl.fromTo(el("onda-" + i), { opacity: 0.9, scale: 1 }, { opacity: 0, scale: 2.1, duration: 0.6, ease: "power2.out" }, t + 0.05);
+      fx.entra(tl, el("anio-" + i), t, { x: -60 }, 0.32);
+      tl.fromTo(el("texto-" + i), { opacity: 0, x: 40 }, { opacity: 1, x: 0, duration: 0.34, ease: "power3.out" }, t + 0.12);
+      if (i > 0) tl.to(el("texto-" + (i - 1)), { opacity: 0.62, duration: 0.3, ease: "power1.out" }, t);
+    });
+
+    window.__timelines["{{id}}"] = tl;
+  </script>
+</template>

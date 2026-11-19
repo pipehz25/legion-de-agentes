@@ -1,0 +1,41 @@
+{
+  "actualizado": "2026-11-19T21:28:08.359Z",
+  "videos": [
+    {
+      "id": "prueba-archivo",
+      "titulo": "¿Napoleón era bajito? Te lo contaron al revés.",
+      "duracion_s": 45.8,
+      "producido": "2026-11-19T21:28:08.329Z",
+      "video": "salidas/narrador/prueba-archivo/prueba-archivo.mp4",
+      "portada": "salidas/narrador/prueba-archivo/portada.jpg",
+      "textos": null,
+      "fuentes": "salidas/narrador/prueba-archivo/fuentes.md",
+      "video_en_esta_pc": true,
+      "publicacion": "Napoleón no era bajito: medía cerca de 1,68 m, más que el francés promedio de su época. El mito nació de un error con las pulgadas, de las caricaturas inglesas y de un apodo cariñoso.\n\n#historia #napoleon #mitos #sabiasque #curiosidades"
+    },
+    {
+      "id": "prueba-pizarra",
+      "titulo": "¿Por qué un billete vale algo, si es solo papel?",
+      "duracion_s": 47.1,
+      "producido": "2026-11-19T21:25:53.780Z",
+      "video": "salidas/narrador/prueba-pizarra/prueba-pizarra.mp4",
+      "portada": "salidas/narrador/prueba-pizarra/portada.jpg",
+      "textos": null,
+      "fuentes": "salidas/narrador/prueba-pizarra/fuentes.md",
+      "video_en_esta_pc": true,
+      "publicacion": "Un billete cuesta muy poco de fabricar. Antes se podía cambiar por oro; desde 1971, el dólar ya no. Hoy vale porque la ley obliga a aceptarlo, un banco central controla cuántos hay y todos confiamos en él. Contenido educativo, no es asesoría financiera.\n\n#dinero #economia #billetes #sabiasque #educacionfinanciera"
+    },
+    {
+      "id": "prueba-laboratorio",
+      "titulo": "Lo creyeron loco por pedir lavarse las manos.",
+      "duracion_s": 53.2,
+      "producido": "2026-11-19T21:24:02.521Z",
+      "video": "salidas/narrador/prueba-laboratorio/prueba-laboratorio.mp4",
+      "portada": "salidas/narrador/prueba-laboratorio/portada.jpg",
+      "textos": null,
+      "fuentes": "salidas/narrador/prueba-laboratorio/fuentes.md",
+      "video_en_esta_pc": true,
+      "publicacion": "En 1847, Ignaz Semmelweis pidió a los médicos de Viena lavarse las manos con cloro antes de atender partos, y las muertes de madres en su sala cayeron de cerca del 18 % a cerca del 1 %. Casi nadie le creyó. Contenido informativo. No reemplaza la consulta médica.\n\n#historiadelamedicina #semmelweis #ciencia #sabiasque #historia"
+    }
+  ]
+}

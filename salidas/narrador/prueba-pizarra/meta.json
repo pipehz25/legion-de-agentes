@@ -1,0 +1,11 @@
+{
+  "id": "prueba-pizarra",
+  "titulo": "¿Por qué un billete vale algo, si es solo papel?",
+  "duracion_s": 47.1,
+  "volumen": "I: -15.9 LUFS",
+  "voz": "kokoro / em_alex",
+  "avisos_revision": 0,
+  "producido": "2026-11-19T21:25:53.780Z",
+  "video": "prueba-pizarra.mp4",
+  "guion": "animados/propios/prueba-pizarra/guion.json"
+}

@@ -1,0 +1,177 @@
+<!--
+  Comparacion (videos propios, Narrador): dos columnas, antes/despues o mito/realidad, de 2 o 3
+  renglones cada una. Con dos frases, la columna izquierda sale con la primera y la derecha con la
+  segunda; con una sola, se reparten en la frase.
+  Necesita "estilo.tema" (archivo, laboratorio o pizarra).
+  Datos: izquierda: { "titulo": "MITO", "renglones": ["...", "..."], "ilustracion": "..." (opcional) }
+         derecha:   { "titulo": "REALIDAD", "renglones": ["...", "...", "..."], "ilustracion": "..." (opcional) }
+           titulo: 10 letras o menos; renglones: 2 o 3, de 24 letras o menos (hasta tres renglones cortos)
+         marcas (opcional, por defecto true): equis en la izquierda y visto en la derecha;
+           con false, puntos de color en las dos (para un antes/despues sin juicio)
+-->
+<template>
+  <style>
+{{>narrador-css}}
+    .{{id}}-col {
+      position: absolute;
+      top: 236px;
+      width: 432px;
+      height: 840px;
+      padding: 28px 22px 24px;
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+    }
+    #{{id}}-izq {
+      left: 96px;
+    }
+    #{{id}}-der {
+      left: 552px;
+    }
+    .{{id}}-cabeza {
+      flex: none;
+      height: 88px;
+      line-height: 84px;
+      border-radius: min(44px, calc(var(--radio) + 4px));
+      text-align: center;
+      font-size: 46px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      white-space: nowrap;
+      color: var(--sobre-acento);
+    }
+    #{{id}}-izq .{{id}}-cabeza {
+      background: var(--alerta);
+    }
+    #{{id}}-der .{{id}}-cabeza {
+      background: var(--bien);
+    }
+    .{{id}}-il {
+      flex: none;
+      height: 200px;
+      margin-top: 22px;
+    }
+    .{{id}}-renglon {
+      flex: none;
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      margin-top: 28px;
+      line-height: 1.16;
+      opacity: 0;
+    }
+    .{{id}}-marca {
+      flex: none;
+      width: 46px;
+      height: 46px;
+      margin-top: 0.12em;
+      border-radius: 50%;
+    }
+    .{{id}}-marca path {
+      fill: none;
+      stroke: var(--sobre-acento);
+      stroke-width: 9;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+    #{{id}}-izq .{{id}}-marca {
+      background: var(--alerta);
+    }
+    #{{id}}-der .{{id}}-marca {
+      background: var(--bien);
+    }
+  </style>
+
+  <div id="root" data-composition-id="{{id}}" data-width="1080" data-height="1920">
+    <div id="{{id}}-izq" class="{{id}}-col {{id}}-tarjeta">
+      <div id="{{id}}-izq-cabeza" class="{{id}}-cabeza {{id}}-titulo">{{d.izquierda.titulo}}</div>
+    </div>
+    <div id="{{id}}-der" class="{{id}}-col {{id}}-tarjeta">
+      <div id="{{id}}-der-cabeza" class="{{id}}-cabeza {{id}}-titulo">{{d.derecha.titulo}}</div>
+    </div>
+  </div>
+
+  <script>
+{{>narrador-js}}
+
+    const conMarcas = D.marcas !== false;
+    const EQUIS = '<svg class="{{id}}-arte" viewBox="0 0 54 54"><path d="M18 18 L36 36 M36 18 L18 36" /></svg>';
+    const VISTO = '<svg class="{{id}}-arte" viewBox="0 0 54 54"><path d="M15 28 L24 37 L40 18" /></svg>';
+    const PUNTO = '<svg class="{{id}}-arte" viewBox="0 0 54 54"></svg>';
+
+    // Arma una columna: ilustracion opcional y sus renglones. Todos con el mismo tamano de letra.
+    const todos = [...(D.izquierda.renglones || []), ...(D.derecha.renglones || [])];
+    // Cuantos renglones ocupa un texto con cierta letra en el ancho util de la columna (unos 320 px).
+    const ANCHO_TXT = 432 - 44 - 46 - 14;
+    const renglonesDe = (texto, tam) => {
+      const letra = tam * T.anchoTexto * 1.04;
+      let n = 1;
+      let actual = 0;
+      for (const p of String(texto).split(/\s+/)) {
+        const w = p.length * letra;
+        if (w > ANCHO_TXT) return 9;
+        if (actual && actual + letra + w > ANCHO_TXT) {
+          n++;
+          actual = w;
+        } else actual += (actual ? letra : 0) + w;
+      }
+      return n;
+    };
+    // La letra mas grande con la que cada renglon cabe en dos lineas (o menos).
+    let tamRenglon = 58;
+    while (tamRenglon > 36 && todos.some((t) => renglonesDe(t, tamRenglon) > 2)) tamRenglon -= 2;
+    // Alto de cada columna segun lo que lleva.
+    const altoColumna = (datos) => {
+      let h = 52 + 88 + (datos.ilustracion_svg ? 222 : 0) + 30;
+      for (const t of (datos.renglones || []).slice(0, 3)) h += 28 + renglonesDe(t, tamRenglon) * tamRenglon * 1.16;
+      return h;
+    };
+    const altoCols = Math.min(840, Math.max(380, altoColumna(D.izquierda), altoColumna(D.derecha)));
+    for (const lado of ["izq", "der"]) Object.assign($(lado).style, { height: altoCols + "px", top: 236 + (840 - altoCols) / 2 + "px" });
+    const columna = (lado, datos, marca) => {
+      const caja = $(lado);
+      if (datos.ilustracion_svg) {
+        const il = document.createElement("div");
+        il.className = "{{id}}-il";
+        il.id = "{{id}}-" + lado + "-il";
+        il.innerHTML = dibujo(datos.ilustracion_svg);
+        caja.appendChild(il);
+      }
+      (datos.renglones || []).slice(0, 3).forEach((texto, i) => {
+        const fila = document.createElement("div");
+        fila.className = "{{id}}-renglon";
+        fila.id = "{{id}}-" + lado + "-r" + i;
+        fila.style.fontSize = tamRenglon + "px";
+        const m = document.createElement("span");
+        m.className = "{{id}}-marca";
+        m.innerHTML = conMarcas ? marca : PUNTO;
+        const t = document.createElement("span");
+        t.textContent = sinViuda(texto);
+        fila.append(m, t);
+        caja.appendChild(fila);
+      });
+    };
+    columna("izq", D.izquierda, EQUIS);
+    columna("der", D.derecha, VISTO);
+
+    // Tiempos: con dos frases, una por columna; con una, la mitad para cada lado.
+    const nI = Math.min(3, (D.izquierda.renglones || []).length);
+    const nD = Math.min(3, (D.derecha.renglones || []).length);
+    // Cada renglon necesita unos 1,8 s en pantalla: si su momento cae tarde, llega antes.
+    const tI = (i) => (NF >= 2 ? r.en(0, 0.12 + (i * 0.7) / nI) : parte(0.04 + (i * 0.36) / nI));
+    const tDer = Math.max(0.6, Math.min(NF >= 2 ? r.ini(1) - 0.15 : parte(0.45), r.dur - 2.4));
+    const tD = (i) => Math.max(tDer + 0.25 + i * 0.22, Math.min(NF >= 2 ? r.en(1, 0.1 + (i * 0.6) / nD) : parte(0.5 + (i * 0.3) / nD), r.dur - 1.9));
+
+    fx.entra(tl, el("izq"), 0.02, { x: -260 }, 0.4);
+    for (let i = 0; i < nI; i++) tl.fromTo(el("izq-r" + i), { opacity: 0, x: -40 }, { opacity: 1, x: 0, duration: 0.32, ease: "power3.out" }, tope(Math.min(tI(i), tDer - 0.3), 1));
+    if (document.querySelector(el("izq-il"))) fx.entra(tl, el("izq-il"), 0.2, { y: 30 }, 0.32);
+
+    fx.entra(tl, el("der"), tDer, { x: 260 }, 0.4);
+    if (document.querySelector(el("der-il"))) fx.entra(tl, el("der-il"), tDer + 0.2, { y: 30 }, 0.32);
+    for (let i = 0; i < nD; i++) tl.fromTo(el("der-r" + i), { opacity: 0, x: 40 }, { opacity: 1, x: 0, duration: 0.32, ease: "power3.out" }, tope(tD(i), 0.6));
+    if (conMarcas) tl.to(el("izq"), { opacity: 0.6, duration: 0.35, ease: "power1.out" }, tDer + 0.2);
+    fx.golpe(tl, el("der-cabeza"), tope(Math.max(tD(nD - 1) + 0.5, parte(0.9)), 0.45), 1.1);
+
+    window.__timelines["{{id}}"] = tl;
+  </script>
+</template>

@@ -1,0 +1,65 @@
+    /* Base comun de las plantillas del Narrador: todo sale de las variables del tema (montaje.mjs). */
+    #root {
+      position: absolute;
+      inset: 0;
+      font-family: var(--fuente-texto);
+      font-weight: var(--peso-texto);
+      color: var(--tinta);
+    }
+    .{{id}}-arte {
+      display: block;
+      width: 100%;
+      height: 100%;
+      overflow: visible;
+    }
+    .{{id}}-il {
+      filter: var(--il-filtro);
+    }
+    .{{id}}-titulo {
+      font-family: var(--fuente-titulo);
+      font-weight: var(--peso-titulo);
+      letter-spacing: var(--espaciado-titulo);
+      line-height: 1.06;
+      color: var(--tinta);
+      text-shadow: var(--resplandor-tinta);
+    }
+    .{{id}}-cifra {
+      font-family: var(--fuente-cifra);
+      font-weight: var(--peso-titulo);
+      font-variant-numeric: lining-nums;
+      letter-spacing: -0.03em;
+      line-height: 1;
+      color: var(--acento);
+      text-shadow: var(--resplandor);
+      white-space: nowrap;
+    }
+    .{{id}}-acento {
+      color: var(--acento);
+      text-shadow: var(--resplandor);
+    }
+    .{{id}}-suave {
+      color: var(--tinta-suave);
+    }
+    .{{id}}-tarjeta {
+      background: var(--tarjeta);
+      border: var(--borde-tarjeta);
+      border-radius: var(--radio);
+      box-shadow: var(--sombra);
+    }
+    .{{id}}-insignia {
+      display: inline-block;
+      height: 66px;
+      padding: 0 30px;
+      line-height: 60px;
+      border-radius: min(33px, calc(var(--radio) + 6px));
+      background: var(--ins-fondo);
+      color: var(--ins-tinta);
+      border: var(--ins-borde);
+      box-shadow: var(--ins-sombra);
+      font-family: var(--fuente-texto);
+      font-weight: 700;
+      font-size: 32px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }

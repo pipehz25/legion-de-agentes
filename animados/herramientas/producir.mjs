@@ -260,8 +260,8 @@ function catalogo(entrega) {
         producido: meta.producido,
         video: `salidas/${entrega}/${n}/${meta.video}`,
         portada: `salidas/${entrega}/${n}/portada.jpg`,
-        textos: fs.existsSync(path.join(base, n, "textos.md")) ? `salidas/${entrega}/${n}/textos.md` : null,
-        fuentes: fs.existsSync(path.join(base, n, "fuentes.md")) ? `salidas/${entrega}/${n}/fuentes.md` : null,
+        ...(fs.existsSync(path.join(base, n, "textos.md")) ? { textos: `salidas/${entrega}/${n}/textos.md` } : {}),
+        ...(fs.existsSync(path.join(base, n, "fuentes.md")) ? { fuentes: `salidas/${entrega}/${n}/fuentes.md` } : {}),
         video_en_esta_pc: fs.existsSync(path.join(base, n, meta.video)),
         publicacion: texto,
       };

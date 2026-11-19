@@ -1,0 +1,90 @@
+{
+  "titulo": "Lo creyeron loco por pedir lavarse las manos.",
+  "formato": "descubrimiento médico",
+  "nicho": "historia-medicina",
+  "nota": "Video de prueba de las plantillas y del tema laboratorio. La voz Kokoro es solo para cronometrar: no se publica.",
+  "motor": "kokoro",
+  "voz": "ef_dora",
+  "velocidad": 1.0,
+  "inicio": 0.2,
+  "pausa": 0.3,
+  "cola": 2.2,
+  "estilo": {
+    "tema": "laboratorio"
+  },
+  "publicacion": {
+    "texto": "En 1847, Ignaz Semmelweis pidió a los médicos de Viena lavarse las manos con cloro antes de atender partos, y las muertes de madres en su sala cayeron de cerca del 18 % a cerca del 1 %. Casi nadie le creyó. Contenido informativo. No reemplaza la consulta médica.",
+    "hashtags": ["historiadelamedicina", "semmelweis", "ciencia", "sabiasque", "historia"]
+  },
+  "fuentes": [
+    { "dato": "Semmelweis trabajó desde 1846 en la Primera Clínica Obstétrica del Hospital General de Viena; en ella morían más madres que en la de las parteras", "fuente": "Encyclopaedia Britannica, «Ignaz Semmelweis»", "url": "https://www.britannica.com/biography/Ignaz-Semmelweis" },
+    { "dato": "Ordenó lavarse las manos con solución de cal clorada en 1847; la mortalidad bajó de 18,27 % a 1,27 %", "fuente": "Encyclopaedia Britannica, «Ignaz Semmelweis»", "url": "https://www.britannica.com/biography/Ignaz-Semmelweis" },
+    { "dato": "Publicó su libro en 1861, fue muy rechazado; murió en 1865 en un asilo; Lister publicó su método antiséptico en 1867", "fuente": "Encyclopaedia Britannica, «Ignaz Semmelweis» y «Joseph Lister»", "url": "https://www.britannica.com/biography/Ignaz-Semmelweis" }
+  ],
+  "escenas": {
+    "gancho": {
+      "plantilla": "titulo-pregunta",
+      "datos": { "lineas": ["Lo creyeron loco", "por pedir", "lavarse las manos"], "resalta": 2, "ilustracion": "jabon", "insignia": "Historia de la medicina" }
+    },
+    "quien": {
+      "plantilla": "personaje",
+      "datos": {
+        "nombre": "Ignaz Semmelweis",
+        "anios": "1818-1865",
+        "rol": "Médico de la maternidad de Viena",
+        "palabra_rol": "maternidad",
+        "ropa": "#2b3440",
+        "detalle": "#c9b98f",
+        "pelo": "#5a3d26",
+        "peinado": "calvo",
+        "barba": "patillas"
+      }
+    },
+    "salas": {
+      "plantilla": "comparacion",
+      "datos": {
+        "marcas": false,
+        "izquierda": { "titulo": "Sala 1", "renglones": ["Médicos y estudiantes", "Muchas muertes"] },
+        "derecha": { "titulo": "Sala 2", "renglones": ["Parteras", "Muchas menos"] }
+      }
+    },
+    "pista": {
+      "plantilla": "lupa",
+      "datos": { "titulo": "La pista", "ilustracion": "placa-petri", "ilustracion_detalle": "bacteria", "foco": [164, 232], "rotulo": "Algo invisible", "palabra": "invisible" }
+    },
+    "orden": {
+      "plantilla": "dato-grande",
+      "datos": { "antes": "En mayo de", "cifra": "1847", "rotulo": "Ordena lavarse las manos con cloro", "palabra": "1847", "palabra_rotulo": "lavarse", "ilustracion": "jabon" }
+    },
+    "resultado": {
+      "plantilla": "dato-grande",
+      "datos": { "antes": "Las muertes bajaron a", "cifra": "1 %", "rotulo": "Antes llegaban casi al 18 %", "palabra": "uno", "palabra_rotulo": "dieciocho" }
+    },
+    "despues": {
+      "plantilla": "linea-tiempo",
+      "datos": {
+        "titulo": "Y aun así…",
+        "hitos": [
+          { "anio": "1861", "texto": "Publica su libro y lo rechazan" },
+          { "anio": "1865", "texto": "Muere en un asilo de Viena" },
+          { "anio": "1867", "texto": "Lister opera con antisépticos", "palabra": "ciencia" }
+        ]
+      }
+    },
+    "cierre": {
+      "plantilla": "cierre-respuesta",
+      "datos": { "rotulo": "Al final", "respuesta": "Tenía razón", "ilustracion": "microscopio", "cuenta": "@legion.ciencia" }
+    }
+  },
+  "frases": [
+    { "id": "f1", "escena": "gancho", "subtitulos": false, "texto": "Lo creyeron loco por pedir lavarse las manos.", "pausa_despues": 0.4 },
+    { "id": "f2", "escena": "quien", "texto": "En 1846, el médico Ignaz Semmelweis llegó a la maternidad del hospital general de Viena.", "clave": ["Semmelweis"] },
+    { "id": "f3", "escena": "salas", "texto": "Tenía dos salas de partos. En la de los médicos morían muchas más madres que en la de las parteras.", "clave": ["médicos"] },
+    { "id": "f4", "escena": "pista", "texto": "Los médicos venían de hacer autopsias y atendían partos sin lavarse. Algo invisible viajaba en sus manos.", "clave": ["invisible"] },
+    { "id": "f5", "escena": "orden", "texto": "En 1847 les ordenó lavarse las manos con una solución de cloro antes de examinar a las madres.", "clave": ["cloro"] },
+    { "id": "f6", "escena": "resultado", "texto": "Las muertes en su sala bajaron de casi un dieciocho a cerca del uno por ciento.", "clave": ["uno"], "pausa_despues": 0.4 },
+    { "id": "f7", "escena": "despues", "texto": "Pero sus colegas no le creyeron. Publicó su libro en 1861 y lo rechazaron.", "clave": ["rechazaron"] },
+    { "id": "f8", "escena": "despues", "texto": "Murió en 1865 en un asilo, y solo años después la ciencia probó que tenía razón.", "clave": ["razón"], "pausa_despues": 0.4 },
+    { "id": "f9", "escena": "cierre", "texto": "Hoy, lavarse las manos es la base de la higiene en todos los hospitales.", "clave": ["higiene"] }
+  ]
+}

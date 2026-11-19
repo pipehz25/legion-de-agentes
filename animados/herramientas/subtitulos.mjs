@@ -9,6 +9,10 @@
 // Reglas (animados/GUIA.md, "Subtitulos"): grupos de 2 a 3 palabras, uno a la vez, en la
 // franja baja de la zona segura; cada palabra se enciende cuando la voz la dice y las
 // palabras clave del guion van en el color de acento.
+//
+// Con "estilo": { "tema": ... } (videos propios) los colores y la letra salen de las variables
+// del tema que pone montaje.mjs en index.html (--sub-tinta, --sub-clave, --sub-fondo...) y cada
+// grupo va sobre una pildora que contrasta con el fondo. Sin tema, todo queda como siempre.
 
 import fs from "node:fs";
 import path from "node:path";
@@ -20,6 +24,7 @@ if (!carpeta || !fs.existsSync(path.join(carpeta, "tiempos.json"))) {
 }
 const guion = JSON.parse(fs.readFileSync(path.join(carpeta, "guion.json"), "utf8"));
 const tiempos = JSON.parse(fs.readFileSync(path.join(carpeta, "tiempos.json"), "utf8"));
+const conTema = Boolean(guion.estilo && guion.estilo.tema);
 
 const MAX_PALABRAS = 3;
 const MAX_LETRAS = 17;
@@ -67,23 +72,63 @@ for (let i = 0; i < ventanas.length - 1; i++) {
 // 3. HTML.
 const bloques = grupos.map((g, i) => {
   const texto = g.map((p) => p.texto).join(" ");
-  const tam = Math.max(TAM_MIN, Math.min(TAM_BASE, Math.floor(ANCHO / (texto.length * 0.56) / 2) * 2));
+  // Con tema la letra es mas ancha (serif o grotesca) y va sobre pildora: se calcula con mas holgura.
+  const tam = Math.max(TAM_MIN, Math.min(TAM_BASE, Math.floor(ANCHO / (texto.length * (conTema ? 0.62 : 0.56)) / 2) * 2));
   const palabras = g
     .map((p) => `<span id="sub-${p.id}" class="sub-palabra${p.clave ? " sub-clave" : ""}">${html(p.texto)}</span>`)
     .join(" ");
   const v = ventanas[i];
-  return `    <div id="sub-g${i}" class="clip sub-grupo" data-start="${v.inicio}" data-duration="${r2(v.fin - v.inicio)}" data-track-index="0">
+  const abre = `<div id="sub-g${i}" class="clip sub-grupo" data-start="${v.inicio}" data-duration="${r2(v.fin - v.inicio)}" data-track-index="0">`;
+  // Con tema (videos propios, de 45 a 60 s) cada grupo va en una linea para que el archivo no crezca de mas.
+  if (conTema) return `    ${abre}<div class="sub-linea" style="font-size: ${tam}px"><span class="sub-pildora">${palabras}</span></div></div>`;
+  return `    ${abre}
       <div class="sub-linea" style="font-size: ${tam}px">${palabras}</div>
     </div>`;
 });
 
-const golpes = grupos
-  .flatMap((g, i) => g.map((p) => `      ["#sub-${p.id}", ${r2(Math.max(p.inicio - 0.03, ventanas[i].inicio))}],`))
-  .join("\n");
-
-const salida = `<!-- Generado por animados/herramientas/subtitulos.mjs a partir de tiempos.json. No editar a mano: cambia el guion y vuelve a generarlo. -->
-<template>
-  <style>
+// Aspecto con tema: misma franja (1150 a 1280 px), colores y letra del tema, sobre una pildora.
+const estiloTema = `
+    #root {
+      position: absolute;
+      inset: 0;
+      font-family: var(--fuente-sub);
+      color: var(--sub-tinta);
+    }
+    .sub-grupo {
+      position: absolute;
+      inset: 0;
+    }
+    .sub-linea {
+      position: absolute;
+      left: 60px;
+      width: 960px;
+      top: 1150px;
+      height: 130px;
+      line-height: 130px;
+      text-align: center;
+      white-space: nowrap;
+      overflow: visible;
+      font-weight: var(--peso-sub);
+      letter-spacing: -0.01em;
+    }
+    .sub-pildora {
+      display: inline-block;
+      vertical-align: middle;
+      line-height: 1.3;
+      padding: 0.04em 0.42em 0.1em;
+      border-radius: 0.36em;
+      background: var(--sub-fondo);
+      border: var(--sub-borde);
+      box-shadow: var(--sub-caja);
+      text-shadow: var(--sub-sombra);
+    }
+    .sub-palabra {
+      display: inline-block;
+    }
+    .sub-clave {
+      color: var(--sub-clave);
+    }`;
+const estiloClasico = `
     #root {
       position: absolute;
       inset: 0;
@@ -115,7 +160,15 @@ const salida = `<!-- Generado por animados/herramientas/subtitulos.mjs a partir 
     }
     .sub-clave {
       color: #ffc93c;
-    }
+    }`;
+
+const golpes = grupos
+  .flatMap((g, i) => g.map((p) => `      ["#sub-${p.id}", ${r2(Math.max(p.inicio - 0.03, ventanas[i].inicio))}],`))
+  .join("\n");
+
+const salida = `<!-- Generado por animados/herramientas/subtitulos.mjs a partir de tiempos.json. No editar a mano: cambia el guion y vuelve a generarlo. -->
+<template>
+  <style>${conTema ? estiloTema : estiloClasico}
   </style>
 
   <div id="root" data-composition-id="subtitulos" data-width="1080" data-height="1920">

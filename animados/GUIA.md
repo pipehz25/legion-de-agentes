@@ -150,7 +150,78 @@ Un formato nuevo es bienvenido: es otra manera de ordenar las plantillas, o una 
 
 ### Una plantilla nueva
 
-Una plantilla es una escena normal con marcas: `{{id}}` (el id de la escena, prefijo de todos sus ids y clases), `{{d.dato}}` (un dato, escapado), `{{{d.dato}}}` (sin escapar, para SVG), `{{datos}}` (todos los datos como JSON, para el script) y `{{>nombre}}` (incluye `plantillas/_nombre.html`). Como no sabe qué texto le va a tocar, no cuenta palabras: se ancla a partes de la frase (`r.en(0, 0.5)`) o a una palabra con respaldo (`r.palabra(0, "comen", 0.78)`). Antes de usarla en serie, pruébala con un video y mira sus capturas.
+Una plantilla es una escena normal con marcas: `{{id}}` (el id de la escena, prefijo de todos sus ids y clases), `{{d.dato}}` (un dato, escapado), `{{{d.dato}}}` (sin escapar, para SVG), `{{d.dato|respaldo}}` y `{{{d.dato|}}}` (dato opcional: si falta, queda el respaldo, que puede ser vacío), `{{datos}}` (todos los datos como JSON, para el script) y `{{>nombre}}` (incluye `plantillas/_nombre.html`). Como no sabe qué texto le va a tocar, no cuenta palabras: se ancla a partes de la frase (`r.en(0, 0.5)`) o a una palabra con respaldo (`r.palabra(0, "comen", 0.78)`). Antes de usarla en serie, pruébala con un video y mira sus capturas.
+
+## Videos propios (Narrador): temas y plantillas
+
+Los videos de contenido propio (historia, historia de la medicina, ciencia, dinero, curiosidades) usan el mismo motor, pero con **plantillas para explicar** y **tres estilos visuales**. Viven en `animados/propios/<video>/` y `producir.mjs` los entrega en `salidas/narrador/<video>/`. El método (guion, fuentes, límites de salud y dinero, calendario) está en [contenido/NARRADOR.md](contenido/NARRADOR.md); aquí va lo técnico.
+
+### Cómo se activa un tema
+
+En el guion:
+
+```json
+"estilo": { "tema": "archivo" }
+"estilo": { "tema": "pizarra", "fondo": "#120a1c", "brillo": "#3a1f55" }
+```
+
+`fondo` y `brillo` son opcionales: varían la paleta del fondo dentro del tema (en los temas claros, usa tonos claros; en `pizarra`, oscuros). Sin `tema`, el video sale exactamente como los del Animador (fondo verde azulado, Nunito, subtítulos blancos): los videos de venta no cambian.
+
+| Tema | Para | Fondo | Tinta / acento / alerta | Letra (título / texto) |
+|---|---|---|---|---|
+| `archivo` | Historia | Papel envejecido crema (`#eadbb8`/`#fbf3df`), motas y fibras fijas, viñeta en los bordes | Marrón `#3b2415` / rojo lacre `#a3302a` / óxido `#b0402a`; oro viejo `#9a7128` | Playfair Display 900 / EB Garamond 700 |
+| `laboratorio` | Medicina y ciencia | Blanco azulado (`#eaf3f7`/`#ffffff`) con cuadrícula de cuaderno y margen coral | Azul petróleo `#0e3a48` / turquesa `#0a9792` / coral `#e9584b` | Inter 900 / Inter 700 |
+| `pizarra` | Dinero, datos, curiosidades | Casi negro (`#090d16`/`#17263f`) con puntos de cuadrícula | Blanco `#eef6ff` / cian neón `#3ff0ff` (con resplandor) / magenta `#ff4fd8`; lima `#b8ff3c` | Space Grotesk 700 / 500 |
+
+**Qué pone el tema** (`montaje.mjs`, objeto `TEMAS`): el fondo de `index.html`, el atributo `data-tema` en `<html>`, `window.__tema` (nombre y ancho medio de letra, para ajustar textos) y estas variables CSS, que son las que usan las plantillas del Narrador: `--papel`, `--tinta`, `--tinta-suave`, `--acento`, `--acento2`, `--alerta`, `--bien`, `--sobre-acento` (texto sobre un fondo de acento), `--tarjeta`, `--borde-tarjeta`, `--sombra`, `--radio`, `--linea`, `--riel`, `--resplandor`, `--il-filtro` (cómo se asientan las ilustraciones: en `archivo` se entintan en sepia; en `pizarra`, brillan), `--marco`, `--lupa-aro`, `--lupa-mango`, `--ins-*` (insignias), `--fuente-titulo`, `--fuente-texto`, `--fuente-cifra`, `--peso-titulo`, `--peso-texto` y `--sub-*` (subtítulos).
+
+**Subtítulos con tema:** la misma franja (1150 a 1280 px), grupos de hasta 3 palabras, pero con la letra y los colores del tema y sobre una **píldora** que contrasta: crema con tinta marrón en `archivo`, blanca con tinta azul petróleo en `laboratorio` y oscura con letra blanca y resplandor en `pizarra`. Las palabras `clave` salen en rojo lacre, turquesa oscuro o lima.
+
+**Letras.** HyperFrames trae incrustadas Nunito, Inter, Playfair Display y EB Garamond (entre otras: `npx hyperframes@0.9.20 docs` las lista), así que esas no necesitan nada. Space Grotesk no viene: `montaje.mjs` pone en `index.html` su enlace de Google Fonts y el compilador la descarga y la incrusta en el render (la primera vez necesita internet; después queda en `~/.cache/hyperframes/fonts`). Una letra nueva para un tema se agrega igual: si no es de las incrustadas, con su enlace de Google Fonts en `google`. Comprueba en las capturas que salió la letra pedida y no una de respaldo.
+
+### Plantillas del Narrador
+
+Todas dicen en su cabecera `Necesita "estilo.tema"`: si el guion no trae tema, `montaje.mjs` se detiene con un aviso. Usan solo las variables del tema, así que funcionan igual en los tres. Todas respetan las zonas (dibujo y textos entre 190 y 1100 px; nada en la franja de subtítulos) y ajustan solas el tamaño de la letra al largo del texto, dentro de las medidas de la tabla.
+
+| Plantilla | Qué muestra | Datos (los opcionales entre paréntesis) | Medidas |
+|---|---|---|---|
+| `titulo-pregunta` | El gancho: 2 o 3 líneas grandes y una ilustración debajo. Todo está desde el cuadro 0: es la portada | `lineas`, `ilustracion`, (`resalta`, `insignia`) | Líneas de 16 letras o menos (caben 20, más chicas); `insignia` de 22 |
+| `dato-grande` | Una cifra, un año o una palabra enorme con su rótulo; un aro gira detrás | `cifra`, `rotulo`, (`antes`, `ilustracion`, `palabra`, `palabra_rotulo`, `contar`) | `cifra` de 7 caracteres o menos (caben 10); `rotulo` de 40 letras (dos renglones); `antes` de 24 |
+| `linea-tiempo` | De 3 a 5 hitos en una línea vertical que se enciende en orden | `hitos` [{`anio`, `texto`, (`palabra`)}], (`titulo`) | `anio` de 9 caracteres; `texto` de 50 letras con 3 hitos, 40 con 4 y 28 con 5; `titulo` de 24 |
+| `personaje` | Retrato de busto dibujado (silueta genérica con cara sencilla, nunca la de una persona real) en un medallón, con nombre, años y rol | `nombre`, `anios`, `rol`, (`piel`, `pelo`, `ropa`, `detalle`, `peinado`, `barba`, `sombrero`, `gafas`, `bata`, `charreteras`, `palabra_anios`, `palabra_rol`) | `nombre` de 20 letras; `anios` de 12; `rol` de 44 (dos renglones) |
+| `lupa` | Una ilustración grande y una lupa que amplía una parte (o muestra otra ilustración dentro), con su rótulo | `ilustracion`, `rotulo`, (`ilustracion_detalle`, `foco` [x, y] en el lienzo de 400, `titulo`, `palabra`) | `rotulo` de 26 letras; `titulo` de 24 |
+| `comparacion` | Dos columnas (mito/realidad, antes/después) | `izquierda` y `derecha`: {`titulo`, `renglones`, (`ilustracion`)}, (`marcas`) | `titulo` de 10 letras; 2 o 3 renglones de 24 letras |
+| `lista-pasos` | 3 pasos numerados (sirve de 2 a 4) que entran uno por uno | `pasos` (textos, o {`texto`, (`palabra`, `ilustracion`)}), (`titulo`) | Pasos de 36 letras (26 con ilustración); `titulo` de 24 |
+| `cierre-respuesta` | La respuesta o la lección en 2 a 5 palabras grandes, y la cuenta | `respuesta`, (`resalta`, `rotulo`, `ilustracion`, `cuenta`, `siguiente`) | `respuesta` de 28 letras; `cuenta` de 24; `siguiente` de 34 ("Mañana: la gripe de 1918") |
+| `cita` | Una frase célebre con su autor; las palabras se encienden al paso de la voz | `texto`, `autor`, (`detalle`) | `texto` de 90 letras (sin comillas); `autor` de 26. Solo citas verificadas |
+
+**Cuándo aparece cada cosa.** Lo que nombra la voz se ancla a la palabra dicha: `palabra` (y `palabra_rotulo`, `palabra_anios`...) es la palabra del guion que lo dispara; si no se dice tal cual, cae en una parte fija de la escena. En `linea-tiempo` cada hito se enciende al decirse su año; en `dato-grande`, la cifra aparece al decirse la cifra (si la voz la dice con letras, pon en `palabra` una palabra que sí se diga, como `"metro"`).
+
+**`resalta`** es el número (desde 0) de la línea o palabra que va en color de acento. **`marcas: false`** en `comparacion` cambia la equis y el visto por puntos de color (para un antes/después sin juicio). **`contar: true`** en `dato-grande` hace que la cifra cuente desde 0 (para porcentajes y cantidades, no para años).
+
+**Escribir una plantilla del Narrador.** Incluye `{{>narrador-css}}` dentro de su `<style>` y `{{>narrador-js}}` al empezar su `<script>`: traen las clases comunes (`-titulo`, `-cifra`, `-acento`, `-suave`, `-tarjeta`, `-insignia`, `-il`) y las ayudas `cuando(palabra, respaldo)` (cuándo se dice una palabra en cualquier frase de la escena), `parte(x)` (un punto de todo lo hablado en la escena), `tope(t)` (que nada caiga al final), `tamPara(texto, ancho, max, min)` y `dibujo(svg)`. Una ilustración opcional va con `{{{d.ilustracion_svg|}}}` (dato sin escapar con respaldo vacío).
+
+### Ilustraciones
+
+[plantillas/ilustraciones.json](plantillas/ilustraciones.json): SVG plano en un lienzo de 400×400 con las reglas de «Dibujo», en sus colores reales; el tema decide cómo se asientan (`--il-filtro`). Se piden por nombre en cualquier dato `ilustracion` o `ilustracion_<algo>` (`montaje.mjs` agrega `ilustracion_svg`).
+
+- **Historia:** `pergamino`, `corona`, `espada`, `barco`, `templo`, `reloj-arena`, `libro`, `mapa`, `bicornio`, `regla`
+- **Medicina y ciencia:** `microscopio`, `placa-petri`, `virus`, `bacteria`, `corazon`, `pildora`, `jeringa`, `cerebro`, `adn`, `jabon`
+- **Dinero y datos:** `moneda`, `grafica`, `alcancia`, `billete`, `lingote`
+
+Si un tema necesita otra, dibújala y agrégala ahí con las mismas reglas; que se vea bien sobre fondo claro y oscuro (sin blancos puros en los bordes ni negros sin sombra).
+
+### Formatos sugeridos
+
+| Formato | Escenas, en orden | Ejemplo |
+|---|---|---|
+| `misterio histórico` | `titulo-pregunta`, `personaje`, `dato-grande` (cuándo), `lupa` (la pista), `linea-tiempo` (qué pasó), `cierre-respuesta` | — |
+| `descubrimiento médico` | `titulo-pregunta`, `personaje`, `comparacion` (el problema), `lupa` (la pista), `dato-grande` (el año o el resultado), `linea-tiempo` (qué vino después), `cierre-respuesta` | [prueba-laboratorio](propios/prueba-laboratorio/guion.json) |
+| `mito o realidad` | `titulo-pregunta`, `personaje` o `dato-grande` (el mito), `lupa` (el detalle), `comparacion` (mito/realidad), `lista-pasos` (de dónde salió), `cierre-respuesta` | [prueba-archivo](propios/prueba-archivo/guion.json) |
+| `dato que no sabías` | `titulo-pregunta`, `lupa`, `linea-tiempo` o `comparacion`, `lista-pasos`, `dato-grande` (el giro), `cierre-respuesta` | [prueba-pizarra](propios/prueba-pizarra/guion.json) |
+| `la historia en 3 pasos` | `titulo-pregunta`, `dato-grande` (el punto de partida), `lista-pasos` (los 3 pasos), `cita` o `personaje`, `cierre-respuesta` | — |
+
+Igual que en la serie de venta, dos videos seguidos de la misma cuenta no repiten formato ni paleta. Los tres videos de [propios/](propios/) que empiezan por `prueba-` sirven de muestra de cada tema; su voz es Kokoro (solo para cronometrar) y no se publican.
 
 ## Guion
 
@@ -270,7 +341,7 @@ Para ver en qué palabra cae cada cosa, abre `tiempos.json`: cada frase trae sus
 
 ## Subtítulos
 
-Los genera `subtitulos.mjs` (lo llama `montaje.mjs`): grupos de hasta 3 palabras, uno a la vez; cada palabra se enciende cuando la voz la dice. Si hay que cambiar el aspecto, se cambia en el script para que todos los videos queden iguales.
+Los genera `subtitulos.mjs` (lo llama `montaje.mjs`): grupos de hasta 3 palabras, uno a la vez; cada palabra se enciende cuando la voz la dice. Si hay que cambiar el aspecto, se cambia en el script para que todos los videos queden iguales. Con `estilo.tema` (videos propios) toman la letra y los colores del tema y van sobre una píldora (sección «Videos propios (Narrador)»).
 
 ## Sonido
 
@@ -330,6 +401,9 @@ animados/
   herramientas/capturas.mjs  hojas de capturas para revisar
   herramientas/subtitulos.mjs
   plantillas/                escenas reutilizables e iconos
+  plantillas/ilustraciones.json  dibujos de los videos propios (Narrador)
+  contenido/NARRADOR.md      método de los videos propios
+  propios/<video>/           videos propios (Narrador); se entregan en salidas/narrador/
   videos/<video>/
     guion.json             lo que se dice
     tiempos.json           cuándo se dice (generado)
