@@ -20,7 +20,7 @@ Lo que falta saber para avanzar. Las marcadas **bloquea** frenan una tarea del r
 |---|---|---|---|
 | Q-08 | ¿Quién es dueño del canal CurioSismo y en qué PC se publica? Sus clips están en la raíz, que es la PC de Felipe | **Sí**: conectar CurioSismo | Santiago y Felipe |
 | Q-09 | ¿CurioSismo tiene cuentas en TikTok o Instagram, o solo YouTube? | **Sí**: dónde publicar sus clips | Dueño del canal |
-| Q-10 | ¿Quién escribe a los creadores para pedir permisos (Westcol, Samulx, Momentos de la Mente, juan diego mm, La Cotorrisa)? ¿Alguno tiene programa de clippers? | **Sí**: plan de permisos | Felipe (lleva urbano y risas) |
+| Q-10 | ¿Alguno de los creadores principales (Westcol, Samulx, Momentos de la Mente, juan diego mm, La Cotorrisa) tiene programa de clippers? Escribirles lo hace Felipe (D-09, tarea F5) | **Sí**: plan de permisos | Felipe |
 | Q-11 | ¿Qué porcentaje del contenido será propio y cuánto de terceros? Recomendación: llegar al 50 % propio en 90 días | No | Santiago y Felipe |
 | Q-12 | ¿El permiso de Lalo está por escrito? Hace falta evidencia para el registro de licencias | No | Santiago |
 | Q-13 | ¿GTA sigue después del lanzamiento? ¿Con qué fuentes de derechos claros? | No | Santiago |

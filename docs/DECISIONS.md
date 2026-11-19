@@ -43,6 +43,7 @@ Sin definir. Espacio reservado en Mission Control.
 
 | # | Fecha | Decisión | Quién | Por qué |
 |---|---|---|---|---|
+| D-09 | 2026-11-19 | Roles. **Santiago:** programación y conexiones (APIs, apps de desarrollador, autorizaciones, Mission Control, hardware) y el espacio de Lalo. **Felipe:** crea y gestiona las cuentas (perfiles, identidad, operación diaria de la raíz, bandeja de TikTok y permisos con los creadores). Si una tarea mezcla las dos cosas, Felipe crea la cuenta y Santiago la conecta | Santiago | Pedido directo |
 | D-01 | 2026-11-19 | Los socios son Santiago y Felipe Hernández | Santiago | La v0.1 del brief nombraba por error a otra persona |
 | D-02 | 2026-11-19 | Hacer lo del brief con dos familias de cuentas: clips de famosos y cuentas propias | Santiago | Pedido directo |
 | D-03 | 2026-11-19 | Mission Control v0 en claude.ai, sin costo, mientras se decide P-04 | Claude (revisable) | Funciona hoy, sin gasto ni servidores |

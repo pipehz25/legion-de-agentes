@@ -4,7 +4,7 @@ Una legión de agentes autónomos, cada uno controlado por un loop. Esta sesión
 
 ## Empresa, estrategia y Mission Control (desde el 2026-11-19)
 
-- **Socios:** Santiago y Felipe Hernández. El brief maestro es `LEGION_DE_AGENTES_MASTER.md`: tres unidades (A Media Network, B Enterprise Agents, C por definir) y una app central, Mission Control.
+- **Socios y roles (D-09):** Santiago es el programador: conexiones, APIs, autorizaciones, Mission Control y hardware, y lleva el espacio de Lalo. Felipe crea y gestiona las cuentas: perfiles, operación diaria de la raíz, bandeja de TikTok y permisos con los creadores. Si una tarea mezcla las dos cosas, Felipe crea la cuenta y Santiago la conecta (en la PC que publica). El brief maestro es `LEGION_DE_AGENTES_MASTER.md`: tres unidades (A Media Network, B Enterprise Agents, C por definir) y una app central, Mission Control.
 - **Estrategia:** `docs/ESTRATEGIA.md`. Hay dos familias de cuentas: clips de famosos (solo escala lo `autorizado`) y cuentas propias con contenido 100 % nuestro. El piloto es de 3 marcas y 2 nichos, y se crece por etapas medibles.
 - **Documentos:** `docs/AS_IS.md` (estado real), `ARCHITECTURE.md`, `ROADMAP.md` (30 días, con tareas S/F/C/T), `COST_MODEL.md`, `DECISIONS.md` y `OPEN_QUESTIONS.md`. Cada decisión nueva se anota en `DECISIONS.md`.
 - **Mission Control v0:** https://claude.ai/artifact/W4ynASHSRtvnspX3pvvrTy (página privada con base de datos; la comparte Santiago). Ahí viven el estado de las tareas, las cuentas, las decisiones y el estado del pipeline por espacio. Cuando una tarea del roadmap avanza, se marca ahí.
