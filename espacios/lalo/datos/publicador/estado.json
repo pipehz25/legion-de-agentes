@@ -1,16 +1,17 @@
 {
-  "actualizado": "2026-11-18T15:45:00-05:00",
-  "ciclo": 2,
-  "ultimo_ciclo_clipero": 2,
+  "actualizado": "2026-11-19T12:41:00-05:00",
+  "ciclo": 3,
+  "ultimo_ciclo_clipero": 3,
   "notas": [
     "Ciclo 1 (2026-11-11): primer ciclo del espacio lalo. Instrucción recibida en el prompt del orquestador: aprobar 2026-11-10-intuyo-coro 2026-11-10-toxico-celos-del-aire 2026-11-10-intuyo-eres-hermosa 2026-11-10-toxico-cuido-lo-mio.",
     "Ciclo 2 (2026-11-18): sin instrucción del usuario. comprobar confirmó que los 4 borradores del ciclo 1 ya están publicados en @ocampo-music (PUBLISH_COMPLETE). 8 clips nuevos del Clipero (ciclo 2), todos autorizado, preparados para TikTok lalo-music en pendiente_aprobacion. Nada aprobado: no se subió nada.",
+    "Ciclo 3 (2026-11-19): sin instrucción del usuario. El Clipero (ciclo 3) no cortó clips nuevos: clips.json solo trae los 8 del 2026-11-18, ya en entradas. Los 3 del 2026-11-10 pendientes salieron de clips.json por la regla de 7 días del Clipero, pero siguen aquí con su envío y se pueden aprobar. Ninguna entrada aprobada, en curso ni vencida: no se subió nada. Fichas y videos sin cambios desde que se escribieron los envíos (fichas 2026-11-18 15:35, envíos 15:41); no hay marcas .enviando.",
     "Reparto: todos los clips son de Lalo Ocampo y la linea \"urbano\" de clips.json no se usa para excluir cuentas en este espacio (el esquema del Clipero no prevé otro valor). La cuenta se elige por la linea descriptiva de config.json y por la ficha. Hoy solo está activa lalo-music.",
     "YouTube e Instagram vienen en clip.plataformas, pero su única cuenta (principal) está con activa: false: no se crearon entradas. Si se encienden, hay que preparar esos envíos para los clips que sigan en ventana.",
     "TikTok está en destino borrador: la API solo recibe el video. El texto se pega en la app desde salidas/publicador/pendientes.md. Las entradas en_borradores pasan a publicado cuando el usuario las publica en la app (comprobar lo detecta). En las publicadas desde la app la privacidad la elige el usuario allí: se guarda como \"elegida en la app\". El campo publicado guarda la hora de subida a la bandeja (la usa el panel para el tope diario).",
     "Este config.json no trae aprobacion_automatica_borradores: todo clip nuevo entra en pendiente_aprobacion.",
     "Orden sugerido cuando se aprueben: dos clips de una misma canción con unos días de por medio (te-perdi-coro antes que te-perdi-movida-artista; actriz-coro antes que actriz-sus-amigas; madrilena-se-formo-el-perreo antes que madrilena-cinco-estrellas; yaper-ya-paso-tu-tiempo antes que yaper-cuentale; por-dios-santo-coro antes que por-dios-santo-espejo). lalo-music admite 4 subidas al día.",
-    "lalo-music: 0 subidas el 2026-11-18 (tope max_por_dia 4)."
+    "lalo-music: 0 subidas el 2026-11-18 y 0 el 2026-11-19 (tope max_por_dia 4)."
   ],
   "entradas": [
     {

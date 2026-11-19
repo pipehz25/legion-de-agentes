@@ -1,9 +1,11 @@
 # Publicador · espacio lalo · pendientes
 
-Actualizado el 2026-11-18 a las 15:45 (−05:00), ciclo 2. Modo `aprobacion`, publicación real (sin simulación). Única cuenta activa: TikTok `lalo-music` (@ocampo-music).
+Actualizado el 2026-11-19 a las 12:41 (−05:00), ciclo 3. Modo `aprobacion`, publicación real (sin simulación). Única cuenta activa: TikTok `lalo-music` (@ocampo-music).
 
-- **Los 4 clips del ciclo 1 ya están publicados** en TikTok (los terminaste desde la app): `toxico-celos-del-aire`, `toxico-cuido-lo-mio`, `intuyo-coro` e `intuyo-eres-hermosa`. Ya no hay nada esperando en la bandeja.
-- **11 clips esperan aprobación** y no se han subido: 3 del ciclo anterior y 8 nuevos de hoy. Todos van a TikTok, cuenta `lalo-music`, y todos son `autorizado` (canal de Lalo Ocampo, con permiso del artista).
+- **Sin cambios desde ayer:** el Clipero no cortó clips nuevos hoy y no ha llegado ninguna aprobación. Los textos y lo que hay que oír son los mismos del 2026-11-18.
+- **Publicados en TikTok:** los 4 del ciclo 1 (`toxico-celos-del-aire`, `toxico-cuido-lo-mio`, `intuyo-coro` e `intuyo-eres-hermosa`). No hay nada en la bandeja.
+- **11 clips esperan aprobación** y no se han subido: 3 del 2026-11-10 y 8 del 2026-11-18. Todos van a TikTok, cuenta `lalo-music`, y todos son `autorizado` (canal de Lalo Ocampo, con permiso del artista). Los tres del 2026-11-10 ya no aparecen en `clips.json` del Clipero (solo guarda 7 días), pero siguen aquí con su envío y se pueden aprobar igual.
+- **`lalo-music` hoy:** 0 de 4 subidas. Lo que apruebes sale en el siguiente ciclo.
 
 ## Cómo aprobar
 
@@ -99,7 +101,7 @@ Crédito: Lalo Ocampo (YouTube) · «Lalo Ocampo - Confusiones», minuto 1:34 ·
 
 ---
 
-## Ventana hasta el 2026-12-18 (nuevos de hoy)
+## Ventana hasta el 2026-12-18
 
 ### 2026-11-18-te-perdi-coro
 

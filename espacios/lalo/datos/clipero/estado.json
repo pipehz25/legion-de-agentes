@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-11-18T15:45:00-05:00",
-  "ciclo": 2,
+  "actualizado": "2026-11-19T12:45:00-05:00",
+  "ciclo": 3,
   "ultimo_ciclo_cazador": 0,
   "ultimo_ciclo_cazador_risas": 0,
   "_cazadores": "Espacio con enfoque_propio: no se leen las oportunidades de los cazadores. Los dos contadores quedan en 0.",
@@ -12,7 +12,9 @@
     { "id": "NJ06Dl-Saqk", "url": "https://www.youtube.com/watch?v=NJ06Dl-Saqk", "titulo": "Lalo Ocampo - Madrileña", "analizado": "2026-11-18", "resultado": "2 clips | 1 momento en espera | YouTube no transcribió parte del coro; completado con whisper" },
     { "id": "HyTE8nzFyFw", "url": "https://www.youtube.com/watch?v=HyTE8nzFyFw", "titulo": "Lalo Ocampo - Te Perdí", "analizado": "2026-11-18", "resultado": "2 clips | 1 momento en espera | subtítulos automáticos con muchos errores; varios versos reconstruidos con whisper" },
     { "id": "yyV7_BRoPog", "url": "https://www.youtube.com/watch?v=yyV7_BRoPog", "titulo": "Lalo Ocampo - Actriz", "analizado": "2026-11-18", "resultado": "2 clips | versos 2 y 3 descartados por letra explícita | YouTube y whisper casi coinciden" },
-    { "id": "sZxg1HGfQm8", "url": "https://www.youtube.com/watch?v=sZxg1HGfQm8", "titulo": "Lalo Ocampo - YAPER -", "analizado": "2026-11-18", "resultado": "2 clips | 1 momento en espera | verso 2 descartado (burla sexual al ex)" }
+    { "id": "sZxg1HGfQm8", "url": "https://www.youtube.com/watch?v=sZxg1HGfQm8", "titulo": "Lalo Ocampo - YAPER -", "analizado": "2026-11-18", "resultado": "2 clips | 1 momento en espera | verso 2 descartado (burla sexual al ex)" },
+    { "id": "0IwwhNicTzE", "url": "https://www.youtube.com/watch?v=0IwwhNicTzE", "titulo": "Lalo Ocampo, Yeid - Entiendo", "analizado": "2026-11-19", "resultado": "0 clips | colaboración: analizada solo para preparar la decisión del usuario | 2 momentos propuestos | subtítulos automáticos muy dudosos; los dos artistas comparten casi todos los planos" },
+    { "id": "XsObu7SNMNs", "url": "https://www.youtube.com/watch?v=XsObu7SNMNs", "titulo": "Lalo Ocampo, Colorado - Parcera", "analizado": "2026-11-19", "resultado": "0 clips | colaboración en espera de decisión | sin texto fiable: YouTube detectó el audio como italiano y la transcripción no sirve; hace falta whisper de toda la canción" }
   ],
   "momentos": [
     { "fuente": "SjAfcSHbhx0", "inicio": 113.05, "fin": 134.9, "estado": "cortado", "clip": "2026-11-10-intuyo-coro", "variante_de": null, "motivo": "" },
@@ -66,23 +68,27 @@
     { "fuente": "sZxg1HGfQm8", "inicio": 47.0, "fin": 64.3, "estado": "descartado", "clip": null, "variante_de": null, "motivo": "Resto del verso 1: insulto al ex («vos sos un pato»), una línea sobre maltrato y transcripción dudosa." },
     { "fuente": "sZxg1HGfQm8", "inicio": 95.0, "fin": 105.9, "estado": "descartado", "clip": null, "variante_de": null, "motivo": "Coro, segunda vuelta: misma idea que 2026-11-18-yaper-ya-paso-tu-tiempo." },
     { "fuente": "sZxg1HGfQm8", "inicio": 105.9, "fin": 150.0, "estado": "descartado", "clip": null, "variante_de": null, "motivo": "Verso 2: repite el verso 1 y añade burla sexual al ex («en la cama eres un novato», «no eres apto»)." },
-    { "fuente": "sZxg1HGfQm8", "inicio": 166.0, "fin": 189.0, "estado": "propuesto", "clip": null, "variante_de": null, "motivo": "En espera: cierre «…ella sabe cómo soy, por eso me prefiere» (puntaje estimado 60). La primera mitad es dudosa en las dos transcripciones. Encaja con lalo-girls, apagada." }
+    { "fuente": "sZxg1HGfQm8", "inicio": 166.0, "fin": 189.0, "estado": "propuesto", "clip": null, "variante_de": null, "motivo": "En espera: cierre «…ella sabe cómo soy, por eso me prefiere» (puntaje estimado 60). La primera mitad es dudosa en las dos transcripciones. Encaja con lalo-girls, apagada." },
+
+    { "fuente": "0IwwhNicTzE", "inicio": 23.0, "fin": 45.0, "estado": "propuesto", "clip": null, "variante_de": null, "motivo": "En espera de la decisión sobre colaboraciones: primer coro de «Entiendo» («Entiendo que no le mete sentimiento… y eso yo lo entiendo»), el tramo más fuerte del volumen (0:30). Puntaje estimado 63. Antes de cortar: whisper de toda la canción (YouTube trae «tremenda bella», «te la vive soltera») y comprobar quién canta el coro." },
+    { "fuente": "0IwwhNicTzE", "inicio": 89.0, "fin": 117.0, "estado": "propuesto", "clip": null, "variante_de": null, "motivo": "En espera de la decisión sobre colaboraciones: verso 2 («salió de cacería y ella me empezó a mirar, yo me puse algo nervioso»), escena con historia. Puntaje estimado 60. Falta saber quién lo canta y transcribirlo con whisper; YouTube lo trae muy mal («comenta que esta noche ya quiere ir a verme…», «miss independent»)." }
   ],
   "catalogo_pendiente": [
-    { "id": "0IwwhNicTzE", "titulo": "Lalo Ocampo, Yeid - Entiendo", "vistas": 15523, "nota": "colaboración; 862 comentarios, el video más comentado del canal. Falta que el usuario diga si las colaboraciones se cortan" },
-    { "id": "XsObu7SNMNs", "titulo": "Lalo Ocampo, Colorado - Parcera", "vistas": 16495, "nota": "colaboración; está en el canal autorizado (comprobado el 2026-11-18)" },
-    { "id": "Lt_xoAUEMDE", "titulo": "Lalo Ocampo , Lombana Dj - Lokito", "vistas": 4875, "nota": "colaboración" },
-    { "id": "J92Poc2e9NM", "titulo": "Lalo Ocampo , Bakzord , Mylo - SABOREARTE (visualizer)", "vistas": 646, "nota": "colaboración de agosto de 2026" },
-    { "id": "sLpVMi6sqeQ", "titulo": "Lalo Ocampo X Teo SR - Mi Canción (Video Oficial)", "vistas": null, "nota": "colaboración; salió en la búsqueda, falta comprobar el canal" },
-    { "id": "rgbB-xyGOSw", "titulo": "Sammer, Lalo Ocampo - SSS y no la de balvin (Video Oficial)", "vistas": null, "nota": "colaboración; salió en la búsqueda, falta comprobar el canal" }
+    { "id": "0IwwhNicTzE", "titulo": "Lalo Ocampo, Yeid - Entiendo", "vistas": 15524, "nota": "colaboración; 862 comentarios, el video más comentado del canal. Analizada el 2026-11-19 (2 momentos propuestos en estado.momentos). Los dos artistas salen juntos en casi todos los planos. Falta que el usuario diga si las colaboraciones se cortan" },
+    { "id": "XsObu7SNMNs", "titulo": "Lalo Ocampo, Colorado - Parcera", "vistas": 16496, "nota": "colaboración; está en el canal autorizado. Analizada el 2026-11-19: los subtítulos automáticos salen en italiano y no sirven; si se decide cortarla, primero whisper de toda la canción (corte de trabajo tmp-whisper) y vistazo" },
+    { "id": "Lt_xoAUEMDE", "titulo": "Lalo Ocampo , Lombana Dj - Lokito", "vistas": 4875, "nota": "colaboración; sin analizar" },
+    { "id": "J92Poc2e9NM", "titulo": "Lalo Ocampo , Bakzord , Mylo - SABOREARTE (visualizer)", "vistas": 646, "nota": "colaboración de agosto de 2026; sin analizar" }
   ],
   "fuera_de_fuentes_autorizadas": [
-    { "id": "XKAB04ILboE", "titulo": "LALO OCAMPO - CANTANTE COLOMBIANO EN MADRID", "duracion_seg": 1757, "nota": "entrevista; canal sin comprobar. Para cortarla, el usuario tiene que añadir ese canal a fuentes_autorizadas" },
-    { "id": "ie7cv4KqClg", "titulo": "LALO OCAMPO - LA PROMESA COLOMBIANA EN ESPAÑA", "duracion_seg": 1034, "nota": "entrevista; canal sin comprobar" },
+    { "id": "XKAB04ILboE", "titulo": "LALO OCAMPO - CANTANTE COLOMBIANO EN MADRID", "duracion_seg": 1757, "canal": "EUROLATINA TV", "canal_url": "https://www.youtube.com/channel/UCI-bnwnHY1Zs7yn947jKCrQ", "publicado": "2022-09-20", "vistas": 403, "nota": "entrevista. Para cortarla, el usuario tiene que añadir ese canal a fuentes_autorizadas (con permiso del canal o del artista)" },
+    { "id": "ie7cv4KqClg", "titulo": "LALO OCAMPO - LA PROMESA COLOMBIANA EN ESPAÑA", "duracion_seg": 1034, "canal": "Qvisaje", "canal_url": "https://www.youtube.com/channel/UCP9LJ3jSrbEb8FX_u3y0v9A", "publicado": "2023-05-24", "vistas": 337, "nota": "entrevista" },
+    { "id": "pkyF--HydjU", "titulo": "CAPITULO 2 - LALO OCAMPO X OJA ESTUDIO", "duracion_seg": 267, "canal": "Oja Estudio", "canal_url": "https://www.youtube.com/channel/UCFbMHYEPzTrveVYfzj3LAuA", "publicado": "2024-10-04", "vistas": 439, "nota": "sesión de estudio; encontrada el 2026-11-19" },
+    { "id": "sLpVMi6sqeQ", "titulo": "Lalo Ocampo X Teo SR - Mi Canción (Video Oficial)", "canal": "Los Elegidos Inc", "canal_url": "https://www.youtube.com/@LosElegidosInc", "nota": "colaboración en otro canal (comprobado el 2026-11-19)" },
+    { "id": "rgbB-xyGOSw", "titulo": "Sammer, Lalo Ocampo - SSS y no la de balvin (Video Oficial)", "canal": "Sammer", "canal_url": "https://www.youtube.com/@sammertc", "nota": "colaboración en el canal del otro artista (comprobado el 2026-11-19)" },
     { "id": "UPQtb6790HA", "titulo": "SIN PROTECCIÓN", "nota": "está en el canal UCQOkm0VbUoTLm9Li2Qaysag (canal automático de YouTube Music, sin pestaña de videos), no en el autorizado" },
     { "id": "T6HrPtFbTkE", "titulo": "Marte Remix - Noggo, Daddy Monkey, Lalo Ocampo", "nota": "canal Daddy Monkey Music, no autorizado" }
   ],
-  "_catalogo_pendiente": "Desde el ciclo 2 ya no quedan canciones solo de Lalo sin cortar en el canal autorizado: lo que queda son colaboraciones. Si no hay subidas nuevas ni decisión sobre colaboraciones o entrevistas, el ciclo siguiente no tiene fuentes nuevas.",
+  "_catalogo_pendiente": "Desde el ciclo 2 ya no quedan canciones solo de Lalo sin cortar en el canal autorizado: lo que queda son colaboraciones. Entiendo y Parcera figuran en fuentes como analizadas, pero NO están descartadas: si el usuario autoriza las colaboraciones, se cortan desde sus momentos propuestos sin volver a analizarlas. Si no hay subidas nuevas ni decisión sobre colaboraciones o entrevistas, el ciclo siguiente no tiene fuentes nuevas: basta con mirar el canal (canal -N 10) y cerrar.",
   "notas": [
     "Canciones: ninguna de las 8 fuentes trae picos de repetición ni minutos en comentarios. Los momentos se eligen por estructura (coro, verso, entrada del beat), volumen.json, hojas de vistazo y letra.",
     "INTUYO trae la letra oficial en pantalla. Para leerla: sacar del clip.mp4 ya cortado una tira a 2 cuadros por segundo con ffmpeg (fps=2,crop=760:110:160:1135,tile) y corregir palabras-rev.json con ella. Ninguno de los otros 7 videos la trae.",
@@ -93,6 +99,10 @@
     "Una palabra entre corchetes en palabras-rev.json no se subtitula (sirve para ecos mal transcritos como «Nando» o «sando»), pero sí cuenta para ajustar el corte.",
     "Solo hay una cuenta activa (lalo-music): no se cortan variantes. Por canción, el coro y el momento más fuerte fuera del coro; lo demás queda en espera para las cuentas apagadas.",
     "TikTok admite 5 borradores pendientes por cuenta cada 24 h. El 2026-11-18 hay 11 clips sin subir para lalo-music (3 del ciclo 1 y 8 del ciclo 2).",
-    "2026-11-18: YouTube bloqueó las descargas («Sign in to confirm you're not a bot») unos 15 minutos. A la vez, otra copia del Clipero (C:\\tmp\\legion-gta, espacio gta) descargaba de YouTube desde esta PC. Luego hubo una caída de internet. Se esperó y siguió sin cambiar nada."
+    "2026-11-18: YouTube bloqueó las descargas («Sign in to confirm you're not a bot») unos 15 minutos. A la vez, otra copia del Clipero (C:\\tmp\\legion-gta, espacio gta) descargaba de YouTube desde esta PC. Luego hubo una caída de internet. Se esperó y siguió sin cambiar nada.",
+    "2026-11-19 (ciclo 3): el canal no tiene subidas nuevas; la última sigue siendo «Tóxico» (2026-10-31). Ni la búsqueda web ni YouTube muestran estreno, concierto ni noticia del artista. Sin decisión del usuario sobre colaboraciones y entrevistas, el ciclo cerró con 0 clips y solo preparó Entiendo y Parcera.",
+    "Cómo se ve Lalo en sus videos: gorra negra, piel clara, delgado (estudio morado de Actriz). En Entiendo es, probablemente, el de la sudadera blanca «GANG» con gorra negra y el del suéter gris en el cuarto; Yeid lleva la camiseta naranja de los Bulls, gorra roja y gafas. Sin confirmar: comprobarlo antes de poner su nombre en un gancho.",
+    "En las colaboraciones, quién canta cada parte no se ve en las hojas de vistazo (los dos salen juntos casi siempre). Para cortar solo las partes de Lalo habría que confirmarlo con el artista o con una hoja de vistazo a 2 s del tramo, mirando quién mueve los labios.",
+    "clips.json de este espacio: desde el ciclo 3 solo lleva los clips de los últimos 7 días. Los del 2026-11-10 salieron: 4 ya están publicados y los 3 que esperan aprobación siguen en el estado del Publicador, con su envío escrito (la aprobación no depende de clips.json)."
   ]
 }
