@@ -24,6 +24,7 @@ Nada de dinero ni de consumo. La única señal es que el 2026-11-18 el ciclo de 
 | Vercel, plan Hobby (Mission Control) | OPEX fijo | 0. Hobby es para uso personal y no comercial | Mes | 2026-11-19 | Sitios de precios de terceros; confirmar en vercel.com/pricing |
 | Vercel, plan Pro (si el uso comercial lo exige) | OPEX fijo | 20 USD por persona al mes, con 20 USD de consumo incluidos (por verificar) | Mes por asiento | 2026-11-19 | Sitios de precios de terceros; confirmar en vercel.com/pricing |
 | Neon Postgres, plan `free_v3` (Mission Control) | OPEX fijo | 0 | Mes | 2026-11-19 | Creado desde Vercel Marketplace |
+| Video largo (12 a 22 min) con CODE ART de Viani Pro | OPEX variable | Unos 4 USD por video, más 1,5 a 2 h de producción y 40 min de subida manual | Video | 2026-11-19 | Felipe, segunda reunión del 2026-11-19 (dato de uso real, no factura) |
 
 ## 3. Fórmulas
 

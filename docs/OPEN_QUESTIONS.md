@@ -18,7 +18,10 @@ Lo que falta saber para avanzar. Las marcadas **bloquea** frenan una tarea del r
 
 | # | Pregunta | Bloquea | A quién |
 |---|---|---|---|
-| Q-08 | ¿Quién es dueño del canal CurioSismo y en qué PC se publica? Sus clips están en la raíz, que es la PC de Felipe | **Sí**: conectar CurioSismo | Santiago y Felipe |
+| Q-08 | ~~¿Quién es dueño del canal CurioSismo?~~ Respondida (D-12): es de Felipe. Falta decidir en qué PC se publica | Sí: conectar CurioSismo | Felipe |
+| Q-18 | ¿Hay una persona o empresa con presencia real en EE. UU. para las cuentas de TikTok (P-09)? | Sí, para monetizar TikTok | Santiago y Felipe |
+| Q-19 | ¿Presupuesto para una voz de IA de pago (P-10)? ¿En qué idiomas arrancan: español, inglés, alemán? | Sí, para videos largos | Santiago y Felipe |
+| Q-20 | ¿Los 4 o 5 canales que ya tiene Felipe (con Juli) entran a la Legión o siguen aparte? | No | Felipe |
 | Q-09 | ¿CurioSismo tiene cuentas en TikTok o Instagram, o solo YouTube? | **Sí**: dónde publicar sus clips | Dueño del canal |
 | Q-10 | ¿Alguno de los creadores principales (Westcol, Samulx, Momentos de la Mente, juan diego mm, La Cotorrisa) tiene programa de clippers? Escribirles lo hace Felipe (D-09, tarea F5) | **Sí**: plan de permisos | Felipe |
 | Q-11 | ¿Qué porcentaje del contenido será propio y cuánto de terceros? Recomendación: llegar al 50 % propio en 90 días | No | Santiago y Felipe |

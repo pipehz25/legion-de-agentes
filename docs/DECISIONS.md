@@ -27,8 +27,25 @@ Registro de decisiones e hipótesis. Cada una dice qué se decidió, quién, cu�
 
 **Recomendación:** A durante el piloto (ya está construida, v0). B cuando haya clientes de la Unidad B que necesiten acceso, o si A se queda corta. B requiere aprobación de gasto.
 
-### P-05 · Compra de la Mac mini
+### P-05 · Compra de la Mac mini (tomada: D-11, M6 de 1 TB)
 La M6 existe (Apple la anunció el 2026-08-25) y también la M5 Pro. **Recomendación:** comprar cuando el costo por ciclo y las cargas reales (C4) muestren que las PCs actuales se quedan cortas, o cuando haga falta una máquina siempre encendida. Comparar tres escenarios en `COST_MODEL.md`: equipo actual, Mac y nube. Precio en Colombia por verificar.
+
+### P-09 · Cuentas de TikTok en EE. UU.
+El programa de recompensas de TikTok no está en Colombia (ESTRATEGIA §9).
+- **A.** Una persona o empresa con presencia real en EE. UU. maneja y cobra esas cuentas.
+- **B.** En TikTok solo se gana con publicidad de marcas y afiliados desde Colombia, y las vistas se monetizan en YouTube.
+
+**Recomendación:** B mientras no haya presencia real. Falsear la ubicación (VPN, datos de otra persona) lleva al bloqueo y lo prohíbe el brief.
+
+### P-10 · Voz de IA de pago para escalar e ir a otros idiomas
+Los videos largos y los canales en inglés o alemán no se pueden grabar a mano.
+
+**Recomendación:** probar una voz de pago con 2 o 3 videos, medir costo por video (`COST_MODEL.md`) y decidir con datos. Salud, siempre sin consejos.
+
+### P-11 · Vender canales monetizados
+Es posible por transferencia de la cuenta de marca, pero la monetización no pasa sola y AdSense no se transfiere.
+
+**Recomendación:** planearlo cuando haya canales monetizados y revisar antes los términos y la parte tributaria.
 
 ### P-06 · Presupuesto mensual
 Sin definir. Se necesita para poner alertas y un stop-loss (`COST_MODEL.md`).
@@ -43,6 +60,9 @@ Sin definir. Espacio reservado en Mission Control.
 
 | # | Fecha | Decisión | Quién | Por qué |
 |---|---|---|---|---|
+| D-11 | 2026-11-19 | Se compra una Mac mini M6 de 1 TB para producir todo el día; la gestiona Felipe. Cierra P-05 | Santiago y Felipe (reunión) | Producir videos sin depender de las PCs de trabajo |
+| D-12 | 2026-11-19 | CurioSismo es un canal de Felipe (hecho con CODE ART de Viani Pro). Responde Q-08 | Felipe (reunión) | — |
+| D-13 | 2026-11-19 | Contenido propio en YouTube primero, con «legiones de cuentas» por nicho (meta: hasta 50 por nicho), creciendo por etapas según retención. Felipe crea las cuentas de YouTube y de TikTok | Santiago y Felipe (reunión) | YouTube monetiza desde Colombia; TikTok no (ESTRATEGIA §9) |
 | D-10 | 2026-11-19 | Mission Control pasa a una app propia en Vercel (Next.js + Postgres de Neon, ambos en plan gratis), con usuario y contraseña: https://legion-mission-control.vercel.app. Cierra P-04. Revisar si el uso comercial exige el plan Pro de Vercel | Santiago | Pedido directo: más sencilla, interactiva y en Vercel |
 | D-09 | 2026-11-19 | Roles. **Santiago:** programación y conexiones (APIs, apps de desarrollador, autorizaciones, Mission Control, hardware) y el espacio de Lalo. **Felipe:** crea y gestiona las cuentas (perfiles, identidad, operación diaria de la raíz, bandeja de TikTok y permisos con los creadores). Si una tarea mezcla las dos cosas, Felipe crea la cuenta y Santiago la conecta | Santiago | Pedido directo |
 | D-01 | 2026-11-19 | Los socios son Santiago y Felipe Hernández | Santiago | La v0.1 del brief nombraba por error a otra persona |

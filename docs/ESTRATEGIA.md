@@ -120,3 +120,61 @@ Hoy solo se puede medir producción (clips, publicaciones, derechos). Vistas y c
 | Políticas de contenido reutilizado | Medio | Variantes reales; crecer con contenido propio |
 | Dependencia de dos PCs encendidas | Medio | Rutinas en la nube para lo que no necesita videos; máquina dedicada cuando se justifique |
 | Sátira política (Risas) | Medio: reputación | Aprobación manual y no escalar |
+
+## 9. Legiones de cuentas (reunión de Santiago y Felipe, 2026-11-19)
+
+### Lo que se planteó
+
+- **Tres modelos de negocio:**
+  1. Agencia de agentes (Unidad B).
+  2. **Negocios propios: «legiones de cuentas»** por nicho, con clips de tendencias y contenido propio, para generar vistas y monetizar (Unidad A).
+  3. Por definir.
+- **Meta de Felipe:** hasta 50 cuentas por nicho. Abrir muchos canales de YouTube, monetizar más o menos 1 de cada 10, quedarse con los mejores y vender el resto. Un canal monetizado se vende por unas 10 a 15 veces lo que gana al mes; la referencia que dio fue un canal de hogar de 16.000 suscriptores que gana unos 700 USD al mes y se ofrecía en 8.000 USD.
+- **Nicho e idioma pagan distinto** (RPM, lo que se gana por cada mil vistas):
+  - finanzas, salud y fitness, mecánica y hogar pagan más; los canales para niños, poco;
+  - inglés (EE. UU.) y alemán pagan más que español.
+  - Felipe ya tiene 4 o 5 canales, uno de ellos en alemán, y CurioSismo es suyo.
+- **Retención en videos largos:** en los canales que funcionan, el primer minuto va animado; después, imágenes y texto con voz en off.
+- **Equipo:** una Mac mini M6 de 1 TB prendida todo el día para producir sin parar; la gestiona Felipe. Además, optimizar cuánto Claude se gasta por ciclo.
+
+### Cómo se monetiza en cada red (datos verificados el 2026-11-19)
+
+| Red | Cómo se gana | Condición |
+|---|---|---|
+| **YouTube** | Anuncios (Programa de socios), afiliados en la descripción, venta de canales monetizados | 1.000 suscriptores **y** 4.000 horas de videos largos en 12 meses, **o** 10 millones de vistas de Shorts en 90 días. Hay un nivel de entrada desde 500 suscriptores. **Colombia está en la lista de países.** La monetización no pasa sola al comprador de un canal y la cuenta de AdSense no se transfiere |
+| **TikTok** | Programa de recompensas (vistas), publicidad de marcas, afiliados, TikTok Shop | El programa de recompensas **no está en Colombia**: pide residencia real en un país elegible, 10.000 seguidores, 100.000 vistas en 30 días y videos de 60 s o más. Una VPN o cambiar el idioma no sirve. TikTok Shop tampoco está en Colombia |
+| **Instagram** | Publicidad de marcas en la red de cuentas, productos digitales propios o de afiliados, tráfico hacia YouTube y TikTok | No paga por vistas |
+
+### Qué cambia en el plan
+
+1. **YouTube primero, con videos largos.** Las 4.000 horas solo cuentan en videos largos; los Shorts van por la vía de 10 millones de vistas, que es mucho más difícil. El Narrador hoy hace Shorts de 45 a 60 s, así que necesita un **modo largo** de 8 a 15 minutos: primer minuto animado y después ilustraciones, texto y voz. Los Shorts quedan como avance de cada video largo (tarea C16).
+2. **La voz es el cuello de botella.** Un video de 10 minutos son 10 minutos de grabación, y los canales en inglés o alemán no los pueden grabar ustedes. Para escalar hace falta **voz de IA de pago** (decisión P-10, con presupuesto). YouTube permite voz de IA, pero desmonetiza los personajes de IA que dan consejos en temas sensibles: en salud, nada de consejos con voz de IA.
+3. **Muchos canales, pero distintos y por etapas.** Desde julio de 2026, YouTube desmonetiza canales enteros por contenido genérico, repetido o de plantilla, y lo evalúa canal por canal. Cada canal necesita su propia línea, su estilo y su valor; no puede ser el mismo video con otro nombre.
+   - **Cupo:** con 100 subidas al día por proyecto, 300 canales con un video largo a la semana son unas 43 subidas al día, así que cabe en el cupo. Lo que limita es producir: voz, render y revisión.
+   - **Etapas:** se crece por etapas (3 → 10 → 25 → 50 por nicho) cuando un formato demuestra retención. Al principio se pueden medir los primeros canales con 2 o 3 videos largos a la semana cada uno.
+4. **TikTok en EE. UU. solo con presencia real.** Las cuentas «creadas en EE. UU.» solo sirven para el programa de recompensas si una persona o empresa que de verdad está allá las maneja y cobra. Falsear la ubicación lleva al bloqueo y a perder lo ganado, y además lo prohíbe el brief (P-09).
+5. **Vender canales es posible, pero se planea aparte.** Se hace por la propiedad de la cuenta de marca (7 días de espera), el comprador tiene que volver a cumplir el Programa de socios y AdSense no se transfiere. Se revisan los términos antes de hacer el primero (P-11).
+### Datos de la segunda reunión (mismo día)
+
+- **El canal que Felipe está replicando:** unos 25.000 suscriptores y videos de 450.000 a 1,8 millones de vistas; su primer video, de hace un mes, tiene unas 833.000. Lo que importa es la relación entre vistas y suscriptores: así se reconocen los formatos que están explotando.
+- **«Red y no anzuelo»:** Felipe propone abrir muchos canales (300 en YouTube y 300 en Instagram) para aumentar la probabilidad de pegar.
+- **Costos y tiempos de hoy, con la herramienta de Felipe (CODE ART de Viani Pro):**
+  - cada video largo (12 a 22 minutos) cuesta unos **4 USD**;
+  - tarda de **1,5 a 2 horas** en producirse y otros **40 minutos en subirse a mano**;
+  - 7 videos en paralelo tardaron más de 12 horas en un Core i7.
+  - Los Shorts de Felipe rinden mejor que sus videos largos (1.200 a 1.800 vistas frente a pocas).
+- **Cuentas de Felipe:** su cálculo es 6 nichos × 2 videos al día = 12 videos al día, unos 50 USD al día y unos 1.500 USD al mes solo en YouTube. Quiere bajar ese costo aprovechando lo que ya pagan (Claude Pro, ChatGPT Pro, la Mac mini y un MacBook) y repartir el trabajo: una cuenta de Claude para YouTube, otra para Instagram y otra para TikTok.
+- **Idioma:** YouTube muestra cada video a quien habla ese idioma, así que un canal hecho desde Colombia puede crecer en Alemania.
+- **Nicho que ya tienen:** curiosidades (ciencia, misterios y datos raros), con CurioSismo. Felipe mide sus canales con VidIQ.
+
+**Lo que hay que corregir en esos números:**
+- **12 videos al día no alcanzan para 300 canales,** salvo que el mismo video se suba en muchos canales, y eso YouTube lo trata como spam y contenido repetido: puede desmonetizar o cerrar todos los canales relacionados. Cada canal necesita sus propios videos.
+- **Las cuentas reales:** 300 canales con 2 o 3 videos a la semana cada uno son de 85 a 130 videos al día. Eso está por encima del cupo de 100 subidas diarias por proyecto y de lo que se puede producir hoy. Por eso se crece por etapas, y el cupo se amplía con la auditoría de YouTube cuando haga falta.
+
+**Cómo bajar el costo y el tiempo con lo que ya tiene la Legión:**
+1. **Render rápido:** el primer minuto animado con HyperFrames y el resto armado con ffmpeg a partir de ilustraciones fijas con movimiento suave y subtítulos. Es mucho más rápido que animar 15 minutos (C16).
+2. **Voz local gratis primero:** probar voces locales en la Mac (sin costo por video) en español, inglés y alemán contra una voz de pago, y quedarse con la de pago solo donde la diferencia lo justifique (P-10).
+3. **Subida automática:** los 40 minutos por video desaparecen, porque el Publicador sube por la API de YouTube.
+4. **Encontrar formatos que explotan:** que el Cazador busque, por nicho, canales con muchas más vistas que suscriptores (como el que replica Felipe) y extraiga el formato, nunca el contenido (C19).
+
+6. **Unidad B: primer prospecto.** Una distribuidora con vendedores en todo el país cuya información de clientes vive en los vendedores. Necesita un CRM conectado a los asesores y agentes que lo mantengan al día, sin saltarse a los vendedores (tarea T6).
