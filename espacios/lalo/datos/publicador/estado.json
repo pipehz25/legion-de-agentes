@@ -1,19 +1,21 @@
 {
-  "actualizado": "2026-11-19T13:02:00-05:00",
-  "ciclo": 4,
+  "actualizado": "2026-11-19T14:08:00-05:00",
+  "ciclo": 5,
   "ultimo_ciclo_clipero": 3,
   "notas": [
     "Ciclo 1 (2026-11-11): primer ciclo del espacio lalo. Instrucción recibida en el prompt del orquestador: aprobar 2026-11-10-intuyo-coro 2026-11-10-toxico-celos-del-aire 2026-11-10-intuyo-eres-hermosa 2026-11-10-toxico-cuido-lo-mio.",
     "Ciclo 2 (2026-11-18): sin instrucción del usuario. comprobar confirmó que los 4 borradores del ciclo 1 ya están publicados en @ocampo-music (PUBLISH_COMPLETE). 8 clips nuevos del Clipero (ciclo 2), todos autorizado, preparados para TikTok lalo-music en pendiente_aprobacion. Nada aprobado: no se subió nada.",
     "Ciclo 3 (2026-11-19 12:41): sin instrucción del usuario. El Clipero (ciclo 3) no cortó clips nuevos: clips.json solo trae los 8 del 2026-11-18, ya en entradas. Los 3 del 2026-11-10 pendientes salieron de clips.json por la regla de 7 días del Clipero, pero siguen aquí con su envío y se pueden aprobar. No se subió nada.",
     "Ciclo 4 (2026-11-19 12:58): instrucción del usuario recibida en el prompt del orquestador: aprobar 2026-11-18-te-perdi-coro 2026-11-18-madrilena-se-formo-el-perreo 2026-11-18-actriz-coro 2026-11-18-actriz-sus-amigas 2026-11-18-te-perdi-movida-artista 2026-11-18-yaper-ya-paso-tu-tiempo 2026-11-18-madrilena-cinco-estrellas 2026-11-18-yaper-cuentale. Los 8 ids existían (solo TikTok lalo-music). Se subieron 4 a la bandeja de @ocampo-music (tope diario): te-perdi-coro, madrilena-se-formo-el-perreo, actriz-coro y yaper-ya-paso-tu-tiempo. Los otros 4 quedan aprobado para el primer ciclo del 2026-11-20. Sin clips nuevos del Clipero (clips.json del ciclo 3, sin cambios en videos, fichas ni envíos).",
+    "Ciclo 5 (2026-11-19 14:05): instrucción del usuario recibida en el prompt del orquestador: aprobar todo. Quedaban 3 pendientes (los del 2026-11-10: por-dios-santo-coro, por-dios-santo-espejo, confusiones-coro); los 3 pasaron a aprobado a las 14:05 con las dudas de letra de sus fichas tal cual (videos sin cambios desde el 2026-11-10). No se subió nada: lalo-music ya tenía 4/4 subidas hoy. comprobar: los 4 borradores del ciclo 4 siguen en la bandeja (SEND_TO_USER_INBOX). Sin clips nuevos (clips.json del ciclo 3 del Clipero). Ya no queda nada pendiente de aprobación.",
+    "Orden propuesto para las subidas desde el ciclo 5 (regla: ventana_hasta más cercana primero, luego puntaje): 2026-11-20: por-dios-santo-coro (ventana 12-10, 71), confusiones-coro (12-10, 68), actriz-sus-amigas (12-18, 68) y te-perdi-movida-artista (12-18, 67). por-dios-santo-espejo (12-10, 70) no va ese día porque su ficha pide al menos un día después de por-dios-santo-coro. 2026-11-21: por-dios-santo-espejo, madrilena-cinco-estrellas (66) y yaper-cuentale (65). En el ciclo 4 se había dicho que los 4 del 2026-11-18 salían todos el 2026-11-20; con los 3 aprobados hoy, madrilena-cinco-estrellas y yaper-cuentale pasan al 2026-11-21.",
     "Orden de subida elegido en el ciclo 4: todos tienen ventana 2026-12-18. Por puntaje tocaba también actriz-sus-amigas (68) en la cuarta plaza, pero su ficha pide publicarlo unos días después de actriz-coro; se subió yaper-ya-paso-tu-tiempo (67) en su lugar para que cada día vaya un solo clip por canción. El 2026-11-20 van los segundos de cada canción: actriz-sus-amigas (68), te-perdi-movida-artista (67), madrilena-cinco-estrellas (66) y yaper-cuentale (65).",
     "Reparto: todos los clips son de Lalo Ocampo y la linea \"urbano\" de clips.json no se usa para excluir cuentas en este espacio (el esquema del Clipero no prevé otro valor). La cuenta se elige por la linea descriptiva de config.json y por la ficha. Hoy solo está activa lalo-music.",
     "YouTube e Instagram vienen en clip.plataformas, pero su única cuenta (principal) está con activa: false: no se crearon entradas. Si se encienden, hay que preparar esos envíos para los clips que sigan en ventana.",
     "TikTok está en destino borrador: la API solo recibe el video. El texto se pega en la app desde salidas/publicador/pendientes.md. Las entradas en_borradores pasan a publicado cuando el usuario las publica en la app (comprobar lo detecta). En las publicadas desde la app la privacidad la elige el usuario allí: se guarda como \"elegida en la app\". El campo publicado guarda la hora de subida a la bandeja (la usa el panel para el tope diario).",
     "Este config.json no trae aprobacion_automatica_borradores: todo clip nuevo entra en pendiente_aprobacion.",
     "Por Dios Santo: por-dios-santo-coro antes que por-dios-santo-espejo, con unos días de por medio, si se aprueban. Confusiones-coro tiene un «(…)» en el segundo 24.",
-    "lalo-music: 0 subidas el 2026-11-18; 4 el 2026-11-19 entre las 12:59 y las 13:00 (tope max_por_dia 4). TikTok admite 5 borradores pendientes por API en 24 horas: conviene que el usuario publique o descarte los 4 de hoy antes de subir los 4 de mañana."
+    "lalo-music: 0 subidas el 2026-11-18; 4 el 2026-11-19 entre las 12:59 y las 13:00 (tope max_por_dia 4; el ciclo 5 de las 14:05 no subió nada). TikTok admite 5 borradores pendientes por API en 24 horas: conviene que el usuario publique o descarte los 4 de hoy antes de subir los de mañana. Si la subida devuelve spam_risk_too_many_pending_share, es límite de la cuenta: sumar un intento y no subir nada más a lalo-music en ese ciclo."
   ],
   "entradas": [
     {
@@ -110,19 +112,19 @@
       "cuenta": "lalo-music",
       "pieza": "2026-11-10-por-dios-santo-coro",
       "gancho": "Maquinando cómo conseguir la liga por ella",
-      "estado": "pendiente_aprobacion",
+      "estado": "aprobado",
       "envio": "espacios/lalo/datos/publicador/envios/2026-11-10-por-dios-santo-coro__tiktok.json",
       "puntaje": 71,
       "derechos": "autorizado",
       "ventana_hasta": "2026-12-10",
-      "aprobado": null,
+      "aprobado": "2026-11-19T14:05:00-05:00",
       "intentos": 0,
       "ultima_simulacion": { "fecha": "2026-11-11T09:25:15-05:00", "ok": true, "avisos": [], "error": null },
       "id_publicacion": null,
       "url": null,
       "privacidad": null,
       "publicado": null,
-      "motivo": "Sin aprobar: el Clipero lo marcó «escuchar antes de publicar»"
+      "motivo": "Aprobado por el usuario (instrucción «aprobar todo» del ciclo 5), con las dudas de letra de la ficha («fucking vida», «cómo me consigo la liga», «mami, quiero»). Espera turno: lalo-music llegó el 2026-11-19 a su tope de 4 subidas. Va primero el 2026-11-20 (ventana 2026-12-10, la más cercana)."
     },
     {
       "clip": "2026-11-10-por-dios-santo-espejo",
@@ -130,19 +132,19 @@
       "cuenta": "lalo-music",
       "pieza": "2026-11-10-por-dios-santo-espejo",
       "gancho": "«Úsame como espejo»",
-      "estado": "pendiente_aprobacion",
+      "estado": "aprobado",
       "envio": "espacios/lalo/datos/publicador/envios/2026-11-10-por-dios-santo-espejo__tiktok.json",
       "puntaje": 70,
       "derechos": "autorizado",
       "ventana_hasta": "2026-12-10",
-      "aprobado": null,
+      "aprobado": "2026-11-19T14:05:00-05:00",
       "intentos": 0,
       "ultima_simulacion": { "fecha": "2026-11-11T09:25:15-05:00", "ok": true, "avisos": [], "error": null },
       "id_publicacion": null,
       "url": null,
       "privacidad": null,
       "publicado": null,
-      "motivo": "Sin aprobar: el Clipero lo marcó «escuchar antes de publicar»"
+      "motivo": "Aprobado por el usuario (instrucción «aprobar todo» del ciclo 5), con las cinco palabras dudosas de la ficha (ojos, vacacionar, sea, Llegaste, teniente). Espera turno: lalo-music llegó el 2026-11-19 a su tope. Su ficha pide subirlo al menos un día después de por-dios-santo-coro: si ese sale el 2026-11-20, este va el 2026-11-21."
     },
     {
       "clip": "2026-11-10-confusiones-coro",
@@ -150,19 +152,19 @@
       "cuenta": "lalo-music",
       "pieza": "2026-11-10-confusiones-coro",
       "gancho": "«En redes te ves feliz…»",
-      "estado": "pendiente_aprobacion",
+      "estado": "aprobado",
       "envio": "espacios/lalo/datos/publicador/envios/2026-11-10-confusiones-coro__tiktok.json",
       "puntaje": 68,
       "derechos": "autorizado",
       "ventana_hasta": "2026-12-10",
-      "aprobado": null,
+      "aprobado": "2026-11-19T14:05:00-05:00",
       "intentos": 0,
       "ultima_simulacion": { "fecha": "2026-11-11T09:25:16-05:00", "ok": true, "avisos": [], "error": null },
       "id_publicacion": null,
       "url": null,
       "privacidad": null,
       "publicado": null,
-      "motivo": "Sin aprobar: el Clipero lo marcó «ver y escuchar antes de publicar»"
+      "motivo": "Aprobado por el usuario (instrucción «aprobar todo» del ciclo 5), con el «(…)» del segundo 24 tal cual y la sincronía sin revisar. Espera turno: lalo-music llegó el 2026-11-19 a su tope. Va el 2026-11-20 (ventana 2026-12-10)."
     },
     {
       "clip": "2026-11-18-te-perdi-coro",
@@ -182,7 +184,7 @@
       "url": null,
       "privacidad": "borrador",
       "publicado": "2026-11-19T12:59:16-05:00",
-      "comprobado": "2026-11-19T13:00:08-05:00",
+      "comprobado": "2026-11-19T14:05:47-05:00",
       "detalle_plataforma": "SEND_TO_USER_INBOX",
       "motivo": "Aprobado por el usuario (instrucción del ciclo 4). En la bandeja de @ocampo-music desde el 2026-11-19: falta publicarlo desde la app con el texto de pendientes.md."
     },
@@ -204,7 +206,7 @@
       "url": null,
       "privacidad": "borrador",
       "publicado": "2026-11-19T12:59:29-05:00",
-      "comprobado": "2026-11-19T13:00:11-05:00",
+      "comprobado": "2026-11-19T14:05:50-05:00",
       "detalle_plataforma": "SEND_TO_USER_INBOX",
       "motivo": "Aprobado por el usuario (instrucción del ciclo 4). En la bandeja de @ocampo-music desde el 2026-11-19: falta publicarlo desde la app con el texto de pendientes.md."
     },
@@ -226,7 +228,7 @@
       "url": null,
       "privacidad": "borrador",
       "publicado": "2026-11-19T12:59:44-05:00",
-      "comprobado": "2026-11-19T13:00:13-05:00",
+      "comprobado": "2026-11-19T14:05:52-05:00",
       "detalle_plataforma": "SEND_TO_USER_INBOX",
       "motivo": "Aprobado por el usuario (instrucción del ciclo 4). En la bandeja de @ocampo-music desde el 2026-11-19: falta publicarlo desde la app con el texto de pendientes.md."
     },
@@ -288,7 +290,7 @@
       "url": null,
       "privacidad": "borrador",
       "publicado": "2026-11-19T12:59:55-05:00",
-      "comprobado": "2026-11-19T13:01:50-05:00",
+      "comprobado": "2026-11-19T14:05:54-05:00",
       "detalle_plataforma": "SEND_TO_USER_INBOX",
       "motivo": "Aprobado por el usuario (instrucción del ciclo 4). En la bandeja de @ocampo-music desde el 2026-11-19 (TikTok tardó unos dos minutos en procesarlo): falta publicarlo desde la app con el texto de pendientes.md."
     },
@@ -310,7 +312,7 @@
       "url": null,
       "privacidad": null,
       "publicado": null,
-      "motivo": "Aprobado por el usuario (instrucción del ciclo 4). Espera turno: lalo-music llegó el 2026-11-19 a su tope de 4 subidas y la ficha pide publicarlo después de madrilena-se-formo-el-perreo (subido hoy). Sale en el primer ciclo del 2026-11-20."
+      "motivo": "Aprobado por el usuario (instrucción del ciclo 4). Espera turno: lalo-music llegó el 2026-11-19 a su tope de 4 subidas y la ficha pide publicarlo después de madrilena-se-formo-el-perreo (subido hoy). Previsto para el 2026-11-21: con los 3 del 2026-11-10 aprobados en el ciclo 5 (ventana más cercana), el 2026-11-20 no le llega hueco."
     },
     {
       "clip": "2026-11-18-yaper-cuentale",
@@ -330,7 +332,7 @@
       "url": null,
       "privacidad": null,
       "publicado": null,
-      "motivo": "Aprobado por el usuario (instrucción del ciclo 4). Espera turno: lalo-music llegó el 2026-11-19 a su tope de 4 subidas y la ficha pide publicarlo después de yaper-ya-paso-tu-tiempo (subido hoy). Sale en el primer ciclo del 2026-11-20."
+      "motivo": "Aprobado por el usuario (instrucción del ciclo 4). Espera turno: lalo-music llegó el 2026-11-19 a su tope de 4 subidas y la ficha pide publicarlo después de yaper-ya-paso-tu-tiempo (subido hoy). Previsto para el 2026-11-21: con los 3 del 2026-11-10 aprobados en el ciclo 5 (ventana más cercana), el 2026-11-20 no le llega hueco."
     }
   ]
 }

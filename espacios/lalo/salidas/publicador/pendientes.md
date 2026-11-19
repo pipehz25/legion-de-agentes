@@ -1,11 +1,11 @@
 # Publicador · espacio lalo · pendientes
 
-Actualizado el 2026-11-19 a las 13:02 (−05:00), ciclo 4. Modo `aprobacion`, publicación real (sin simulación). Única cuenta activa: TikTok `lalo-music` (@ocampo-music).
+Actualizado el 2026-11-19 a las 14:08 (−05:00), ciclo 5. Modo `aprobacion`, publicación real (sin simulación). Única cuenta activa: TikTok `lalo-music` (@ocampo-music).
 
-- **Aprobaste 8 clips del 2026-11-18.** 4 ya están en la **bandeja de TikTok** de @ocampo-music y falta publicarlos desde la app (textos abajo). Los otros 4 salen en el primer ciclo de mañana, 2026-11-20: hoy `lalo-music` ya llegó a su tope de 4 subidas.
-- **Cada día, un clip por canción.** Hoy subió el primero de cada canción y mañana sube el segundo, como pedían las fichas. Por eso hoy fue `yaper-ya-paso-tu-tiempo` (67) y no `actriz-sus-amigas` (68), que es de la misma canción que `actriz-coro`.
-- **Quedan 3 clips por aprobar**, los del 2026-11-10. Van a TikTok, cuenta `lalo-music`, y son `autorizado` (canal de Lalo Ocampo, con permiso del artista). Ya no aparecen en `clips.json` del Clipero (solo guarda 7 días), pero siguen aquí con su envío y se pueden aprobar igual.
-- **Antes de mañana:** publica o descarta desde la app los 4 borradores de hoy. TikTok admite como máximo 5 borradores pendientes por API cada 24 horas; si siguen los 4 en la bandeja, la subida de mañana puede fallar.
+- **No queda nada por aprobar.** Con `aprobar todo` aprobaste los 3 clips del 2026-11-10 que faltaban (`por-dios-santo-coro`, `por-dios-santo-espejo` y `confusiones-coro`), con las dudas de letra que señalaba el Clipero (abajo, «Qué sale tal cual»).
+- **Hoy no subió nada más:** `lalo-music` ya llegó a su tope de 4 subidas con los 4 borradores de las 12:59. Hay **7 aprobados en cola**, que salen el 2026-11-20 y el 2026-11-21 (tabla abajo).
+- **Cambio de orden:** los 3 aprobados hoy tienen la ventana más cercana (2026-12-10), así que pasan por delante. `madrilena-cinco-estrellas` y `yaper-cuentale`, que estaban previstos para mañana, se van al 2026-11-21.
+- **Antes de mañana:** publica o descarta desde la app los 4 borradores de hoy, que siguen en la bandeja (comprobado a las 14:05). TikTok admite como máximo 5 borradores pendientes por API cada 24 horas; si siguen ahí, la subida de mañana puede fallar.
 
 ---
 
@@ -78,18 +78,78 @@ Crédito: Lalo Ocampo (YouTube) · «Lalo Ocampo - YAPER -», minuto 1:04 · htt
 
 ---
 
-## Aprobados: suben mañana (2026-11-20)
+## Aprobados en cola
 
-No hace falta hacer nada: el primer ciclo de mañana los sube a la bandeja. Si quieres cambiar o retirar alguno antes, dilo (`/publicador rechazar <clip-id> <motivo>`).
+No hace falta hacer nada: los ciclos de esos días los suben a la bandeja (4 al día como máximo, dentro del horario de 08:00 a 23:00). Primero va la ventana más cercana y, dentro de cada canción, un clip por día. Todos a TikTok, cuenta `lalo-music`, derechos `autorizado`.
 
-| Clip | Puntaje | Va después de (subido hoy) |
-|---|---|---|
-| `2026-11-18-actriz-sus-amigas` | 68 | `2026-11-18-actriz-coro` |
-| `2026-11-18-te-perdi-movida-artista` | 67 | `2026-11-18-te-perdi-coro` |
-| `2026-11-18-madrilena-cinco-estrellas` | 66 | `2026-11-18-madrilena-se-formo-el-perreo` |
-| `2026-11-18-yaper-cuentale` | 65 | `2026-11-18-yaper-ya-paso-tu-tiempo` |
+| Día previsto | Clip | Puntaje | Ventana | Nota |
+|---|---|---|---|---|
+| 2026-11-20 | `2026-11-10-por-dios-santo-coro` | 71 | 2026-12-10 | Aprobado hoy |
+| 2026-11-20 | `2026-11-10-confusiones-coro` | 68 | 2026-12-10 | Aprobado hoy |
+| 2026-11-20 | `2026-11-18-actriz-sus-amigas` | 68 | 2026-12-18 | Después de `actriz-coro` (hoy) |
+| 2026-11-20 | `2026-11-18-te-perdi-movida-artista` | 67 | 2026-12-18 | Después de `te-perdi-coro` (hoy) |
+| 2026-11-21 | `2026-11-10-por-dios-santo-espejo` | 70 | 2026-12-10 | Al menos un día después de `por-dios-santo-coro` (lo pide su ficha) |
+| 2026-11-21 | `2026-11-18-madrilena-cinco-estrellas` | 66 | 2026-12-18 | Antes previsto para el 2026-11-20 |
+| 2026-11-21 | `2026-11-18-yaper-cuentale` | 65 | 2026-12-18 | Antes previsto para el 2026-11-20 |
 
-Sus textos para la app:
+Si quieres retirar alguno antes de que suba: `/publicador rechazar <clip-id> <motivo>`.
+
+### Aprobados hoy: qué sale tal cual
+
+Los aprobaste con estas dudas sin resolver; el video no ha cambiado desde el 2026-11-10. Si al escucharlo algo no cuadra, recházalo antes de que suba y el Clipero lo vuelve a cortar.
+
+**2026-11-10-por-dios-santo-coro** · «Maquinando cómo conseguir la liga por ella» · [Video](../clipero/clips/2026-11-10-por-dios-santo-coro/clip.mp4) · [Ficha](../clipero/clips/2026-11-10-por-dios-santo-coro/ficha.md)
+
+- «toda la fucking vida»: YouTube traía «toda la fqu enva» y whisper oyó «fucking vida». El subtítulo muestra la palabra tal cual.
+- «cómo me consigo la liga»: whisper oye una palabra más («cómo putas me consigo la liga») que el subtítulo no lleva.
+- «mami, quiero» (YouTube traía «mamero») y los ecos «-nando» y «-sando», que se quitaron del subtítulo.
+
+```
+«Amor con hambre no va a durar tanto». El coro de Por Dios Santo, de Lalo Ocampo.
+
+¿Estás de acuerdo?
+
+Crédito: Lalo Ocampo (YouTube) · «Lalo Ocampo - Por Dios Santo (Official Video)», minuto 0:28 · https://www.youtube.com/watch?v=jjdIbvEfgBM&t=28s
+
+#LaloOcampo #PorDiosSanto #MusicaUrbana #Coro #Letras
+```
+
+**2026-11-10-confusiones-coro** · «En redes te ves feliz…» · [Video](../clipero/clips/2026-11-10-confusiones-coro/clip.mp4) · [Ficha](../clipero/clips/2026-11-10-confusiones-coro/ficha.md)
+
+- El subtítulo lleva un **«(…)»** en el segundo 24: «Dicen que (…) ti el cielo y las estrellas» (puede ser «que él a ti»). Sale con el hueco.
+- «te ves feliz, te ves muy contenta» y «se las está bajando» se completaron a partir de transcripciones incompletas.
+- Sincronía: YouTube marca algunas palabras un segundo tarde en este video; conviene mirar que los subtítulos vayan a tiempo.
+- El clip abre con un plano de calle de un hombre sin gorra que el Clipero no pudo confirmar si es Lalo o un actor del video.
+
+```
+«En redes te ves feliz…». El coro de Confusiones, de Lalo Ocampo: en redes todo se ve perfecto.
+
+¿Conoces a alguien así?
+
+Crédito: Lalo Ocampo (YouTube) · «Lalo Ocampo - Confusiones», minuto 1:34 · https://www.youtube.com/watch?v=lPgVFxdpBps&t=94s
+
+#LaloOcampo #Confusiones #MusicaUrbana #Coro #Indirectas
+```
+
+**2026-11-10-por-dios-santo-espejo** · «Úsame como espejo» · [Video](../clipero/clips/2026-11-10-por-dios-santo-espejo/clip.mp4) · [Ficha](../clipero/clips/2026-11-10-por-dios-santo-espejo/ficha.md)
+
+- «de mis **ojos**» (YouTube: «de mis sos»); puede que diga «desde mis ojos».
+- «**vacacionar** un sitio» (YouTube: «ocasionar»; whisper: «acacionar»): deducida, ninguna la trae así. Puede faltar «en».
+- «que **sea** lejos» (las dos: «que se lejos»).
+- «**Llegaste** tan de repente» (las dos: «llegase»).
+- «mejor **teniente**» (YouTube: «ten»); whisper oye además «mami» después.
+
+```
+«Úsame como espejo para en las madrugadas ver tu reflejo». El verso de Por Dios Santo, de Lalo Ocampo, para quien no se ve como tú la ves.
+
+¿A quién se lo mandas?
+
+Crédito: Lalo Ocampo (YouTube) · «Lalo Ocampo - Por Dios Santo (Official Video)», minuto 1:12 · https://www.youtube.com/watch?v=jjdIbvEfgBM&t=72s
+
+#LaloOcampo #PorDiosSanto #ParaDedicar #Letras #FrasesDeCanciones
+```
+
+### Aprobados en el ciclo 4: textos para la app
 
 **2026-11-18-actriz-sus-amigas** ([video](../clipero/clips/2026-11-18-actriz-sus-amigas/clip.mp4))
 
@@ -141,85 +201,15 @@ Crédito: Lalo Ocampo (YouTube) · «Lalo Ocampo - YAPER -», minuto 0:23 · htt
 
 ---
 
-## Pendientes de aprobación · ventana hasta el 2026-12-10
+## Pendientes de aprobación
 
-**Cómo aprobar:** escucha cada video fijándote en lo que dice «Qué oír». Si una palabra no coincide con lo que se canta, recházalo con el motivo: el Clipero lo corrige y lo vuelve a cortar. Si está bien, apruébalo (comandos al final) y el siguiente ciclo con hueco en el tope lo sube a la bandeja. `por-dios-santo-espejo` conviene que salga unos días después de `por-dios-santo-coro`.
-
-### 2026-11-10-por-dios-santo-coro
-
-- **Gancho:** Maquinando cómo conseguir la liga por ella · **Puntaje:** 71 · **Derechos:** autorizado · **Ventana:** hasta el 2026-12-10
-- [Video](../clipero/clips/2026-11-10-por-dios-santo-coro/clip.mp4) · [Ficha](../clipero/clips/2026-11-10-por-dios-santo-coro/ficha.md)
-- **Qué oír:**
-  - «toda la fucking vida»: YouTube traía «toda la fqu enva» y whisper oyó «fucking vida». El subtítulo muestra la palabra tal cual.
-  - «cómo me consigo la liga»: whisper oye una palabra más («cómo putas me consigo la liga») que el subtítulo no lleva. Si se canta, hay que decidir si se añade.
-  - «mami, quiero» (YouTube traía «mamero») y los ecos «-nando» y «-sando», que se quitaron del subtítulo.
-
-Texto para TikTok (`lalo-music`):
-
-```
-«Amor con hambre no va a durar tanto». El coro de Por Dios Santo, de Lalo Ocampo.
-
-¿Estás de acuerdo?
-
-Crédito: Lalo Ocampo (YouTube) · «Lalo Ocampo - Por Dios Santo (Official Video)», minuto 0:28 · https://www.youtube.com/watch?v=jjdIbvEfgBM&t=28s
-
-#LaloOcampo #PorDiosSanto #MusicaUrbana #Coro #Letras
-```
-
-### 2026-11-10-por-dios-santo-espejo
-
-- **Gancho:** «Úsame como espejo» · **Puntaje:** 70 · **Derechos:** autorizado · **Ventana:** hasta el 2026-12-10
-- [Video](../clipero/clips/2026-11-10-por-dios-santo-espejo/clip.mp4) · [Ficha](../clipero/clips/2026-11-10-por-dios-santo-espejo/ficha.md)
-- **Qué oír** (es el clip con más palabras dudosas):
-  - «de mis **ojos**» (YouTube: «de mis sos»); puede que diga «desde mis ojos».
-  - «**vacacionar** un sitio» (YouTube: «ocasionar»; whisper: «acacionar»): deducida, ninguna la trae así. Puede faltar «en».
-  - «que **sea** lejos» (las dos: «que se lejos»).
-  - «**Llegaste** tan de repente» (las dos: «llegase»).
-  - «mejor **teniente**» (YouTube: «ten»); whisper oye además «mami» después.
-
-Texto para TikTok (`lalo-music`):
-
-```
-«Úsame como espejo para en las madrugadas ver tu reflejo». El verso de Por Dios Santo, de Lalo Ocampo, para quien no se ve como tú la ves.
-
-¿A quién se lo mandas?
-
-Crédito: Lalo Ocampo (YouTube) · «Lalo Ocampo - Por Dios Santo (Official Video)», minuto 1:12 · https://www.youtube.com/watch?v=jjdIbvEfgBM&t=72s
-
-#LaloOcampo #PorDiosSanto #ParaDedicar #Letras #FrasesDeCanciones
-```
-
-### 2026-11-10-confusiones-coro
-
-- **Gancho:** «En redes te ves feliz…» · **Puntaje:** 68 · **Derechos:** autorizado · **Ventana:** hasta el 2026-12-10
-- [Video](../clipero/clips/2026-11-10-confusiones-coro/clip.mp4) · [Ficha](../clipero/clips/2026-11-10-confusiones-coro/ficha.md)
-- **Qué ver y oír:**
-  - El subtítulo lleva un **«(…)»** en el segundo 24: «Dicen que (…) ti el cielo y las estrellas». YouTube traía «que la ti» y whisper «que la tía»; puede ser «que él a ti». Con la palabra correcta se corrige y se vuelve a cortar: tal como está, sale con el hueco.
-  - «te ves feliz, te ves muy contenta» y «se las está bajando» se completaron a partir de transcripciones incompletas.
-  - Sincronía: mirar que los subtítulos vayan a tiempo (YouTube marca algunas palabras un segundo tarde en este video).
-  - El clip abre con un plano de calle de un hombre sin gorra que el Clipero no pudo confirmar si es Lalo o un actor del video.
-
-Texto para TikTok (`lalo-music`):
-
-```
-«En redes te ves feliz…». El coro de Confusiones, de Lalo Ocampo: en redes todo se ve perfecto.
-
-¿Conoces a alguien así?
-
-Crédito: Lalo Ocampo (YouTube) · «Lalo Ocampo - Confusiones», minuto 1:34 · https://www.youtube.com/watch?v=lPgVFxdpBps&t=94s
-
-#LaloOcampo #Confusiones #MusicaUrbana #Coro #Indirectas
-```
-
----
+Ninguno. Cuando el Clipero corte clips nuevos, aparecerán aquí.
 
 ## Comandos
 
 En esta PC actúan sobre el espacio de Lalo.
 
-- Aprobar un clip en todas sus plataformas: `/publicador aprobar 2026-11-10-por-dios-santo-coro`
-- Aprobar solo una plataforma: `/publicador aprobar 2026-11-10-por-dios-santo-coro:tiktok`
-- Aprobar los tres pendientes: `/publicador aprobar todo`
-- Rechazar: `/publicador rechazar 2026-11-10-confusiones-coro falta la palabra del segundo 24`
-
-Ids pendientes de aprobación: `2026-11-10-por-dios-santo-coro`, `2026-11-10-por-dios-santo-espejo`, `2026-11-10-confusiones-coro`.
+- Aprobar un clip en todas sus plataformas: `/publicador aprobar <clip-id>`
+- Aprobar solo una plataforma: `/publicador aprobar <clip-id>:tiktok`
+- Aprobar todo lo pendiente: `/publicador aprobar todo`
+- Retirar o rechazar uno: `/publicador rechazar <clip-id> <motivo>` (por ejemplo, `/publicador rechazar 2026-11-10-confusiones-coro falta la palabra del segundo 24`)
