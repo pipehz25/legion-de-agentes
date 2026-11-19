@@ -30,6 +30,21 @@ Registro de decisiones e hipótesis. Cada una dice qué se decidió, quién, cu�
 ### P-05 · Compra de la Mac mini (tomada: D-11, M6 de 1 TB)
 La M6 existe (Apple la anunció el 2026-08-25) y también la M5 Pro. **Recomendación:** comprar cuando el costo por ciclo y las cargas reales (C4) muestren que las PCs actuales se quedan cortas, o cuando haga falta una máquina siempre encendida. Comparar tres escenarios en `COST_MODEL.md`: equipo actual, Mac y nube. Precio en Colombia por verificar.
 
+### P-12 · Categorías de la ola 1 en YouTube (español)
+1. Historia (estilo archivo).
+2. Historia de la medicina (estilo laboratorio).
+3. Dinero e historia económica (estilo pizarra).
+4. Curiosidades, ciencia y misterios: CurioSismo, que ya existe.
+
+Ola 2, cuando la ola 1 tenga datos: hogar y trucos (paga bien, pero necesita dibujos nuevos), inglés para el canal que mejor rinda, y alemán.
+
+**Recomendación:** aprobar la ola 1 tal cual, con 1 canal por categoría.
+- Son las 4 categorías que el Narrador ya produce con sus 3 estilos.
+- Ninguna da consejos riesgosos.
+- Dinero es la que más paga y CurioSismo ya tiene audiencia.
+
+Se mide 4 semanas y se crece a 3, 10, 25 y 50 canales por categoría según la retención. Las opciones de nombre y los pasos para crear los canales están en Mission Control (pestaña Cuentas y tarea F10).
+
 ### P-09 · Cuentas de TikTok en EE. UU.
 El programa de recompensas de TikTok no está en Colombia (ESTRATEGIA §9).
 - **A.** Una persona o empresa con presencia real en EE. UU. maneja y cobra esas cuentas.
