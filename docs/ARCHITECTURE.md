@@ -29,9 +29,16 @@ flowchart LR
 **Ya cumple con el brief:** solo APIs oficiales, aprobación humana, variantes reales, secretos fuera de Git y un espacio por PC.
 **Le falta:** registro de licencias, métricas, medición de costos y un lugar común donde ver todo (Mission Control).
 
-## 2. Mission Control v0 (construida el 2026-11-19)
+## 2. Mission Control
 
-Una página privada en claude.ai con base de datos compartida. Funciona en el navegador y en el celular, y la abren los dos socios. No tiene costo ni servidores (D-03).
+**Desde el 2026-11-19 la versión en uso es la v1:** https://legion-mission-control.vercel.app (D-10).
+- **Hosting:** app Next.js en Vercel (plan Hobby, gratis).
+- **Datos:** Postgres de Neon (plan gratis), con tablas `mc_docs` y `mc_audit`.
+- **Acceso:** usuario y contraseña para Santiago y Felipe.
+- **Agentes:** escriben por la API `/api/agent/...` con el token `MC_AGENT_TOKEN`, guardado en Vercel y en el `.env.local` de la PC.
+- **Código:** `mission-control/` (ver su README).
+
+Las pestañas, las colecciones y el flujo de abajo siguen igual que en la v0; solo cambia el paso 2 de «Cómo llega el estado del pipeline». La v0 (página en claude.ai, `docs/mission-control/`) quedó como respaldo y ya no se usa.
 
 | Pestaña | Qué muestra | Quién escribe |
 |---|---|---|
@@ -45,10 +52,13 @@ Una página privada en claude.ai con base de datos compartida. Funciona en el na
 
 **Cómo llega el estado del pipeline** (tarea C5):
 1. Al final de `/legion` y de `/turno-lalo`, un script de PowerShell junta los conteos de `clips.json`, `publicaciones.json`, `pendientes.md` y los informes en `salidas/mission-control/<espacio>.json`, que sube a GitHub como cualquier entregable.
-2. El orquestador escribe ese archivo en la colección `pipeline` de Mission Control con la herramienta de datos de Claude.
-3. Para eso, la cuenta de Claude de cada PC necesita acceso de **Editor** a la página: Santiago se lo comparte a Felipe.
+2. El script manda ese archivo a Mission Control: `PUT /api/agent/pipeline/<espacio>`, con el token de la PC.
+3. Cada PC necesita el token en su `.env.local`, fuera del repositorio. Santiago lo copia a la PC de Felipe sin pasarlo por chat.
 
-**Límites de la v0:** solo para los socios (no hay portal de clientes), sin roles finos y sin auditoría de cada cambio más allá de «quién lo marcó». Si se borra la página, se borran sus datos: la tarea C5 deja una copia en GitHub en cada ciclo.
+**Límites:**
+- Solo para los socios: no hay portal de clientes ni roles finos.
+- `mc_audit` guarda quién cambió qué y cuándo.
+- Los datos viven en Neon. Si se borra la base, se pierden; la tarea C5 deja además una copia del pipeline en GitHub en cada ciclo.
 
 ## 3. Entidades del brief y dónde viven hoy
 
@@ -67,7 +77,9 @@ Una página privada en claude.ai con base de datos compartida. Funciona en el na
 | Decision | `docs/DECISIONS.md` | `decisiones` |
 | AuditLog | Historial de Git | «Marcada por… el…» en cada tarea |
 
-## 4. Mission Control v1 (si P-04 = B)
+## 4. Hacia dónde puede crecer Mission Control
+
+La v1 ya está en Vercel con Postgres (§2). Lo que sigue cuando haga falta (portal para clientes de la Unidad B, roles por persona o más volumen):
 
 Cuando haga falta un portal para clientes de la Unidad B, roles por persona o más volumen:
 - **App:** Next.js + TypeScript en Vercel.

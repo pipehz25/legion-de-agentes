@@ -17,7 +17,10 @@ Cuando una tarea mezcla las dos cosas, Felipe crea la cuenta y Santiago la conec
 |---|---|---|---|---|---|
 | C1 Auditoría y documentos del brief | C | G | 4 | — | Los 7 documentos de `docs/` están en GitHub y los dos los leyeron |
 | C2 Mission Control v0 | C | G | 4 | — | Tareas, cuentas, pipeline y decisiones funcionan y los dos pueden marcar |
-| S1 Compartir Mission Control con Felipe como Editor | S | G | 0,1 | C2 | Felipe la abre y marca una tarea |
+| ~~S1 Compartir Mission Control con Felipe como Editor~~ (cancelada: la v1 tiene usuario y contraseña) | S | G | — | — | — |
+| C13 Mission Control v1 en Vercel (hecha el 2026-11-19, en revisión) | C | G | 6 | — | Los dos entran, ven sus tareas y las mueven |
+| S16 Poner las contraseñas de Mission Control (`cd mission-control` y `npm run password`) | S | G | 0,2 | C13 | Los dos entran en https://legion-mission-control.vercel.app |
+| F9 Entrar a Mission Control y cambiar la contraseña | F | G | 0,1 | S16 | Felipe entra con su propia contraseña |
 | T1 Reunión de decisiones: P-01 derechos, P-02 piloto, P-03, presupuesto (Q-03) y CurioSismo (Q-08) | T | G | 1 | C1 | P-01 a P-03 pasan a «tomadas» en `DECISIONS.md` |
 | S2 Decidir los 11 clips de Lalo que esperan | S | A | 1 | — | Ningún clip de Lalo sin decidir en `pendientes.md` |
 | S3 Dejar el turno de Lalo cada 6 h | S | A | 0,2 | — | `/loop 6h /turno-lalo` corriendo en una sesión abierta |
@@ -66,7 +69,6 @@ Cuando una tarea mezcla las dos cosas, Felipe crea la cuenta y Santiago la conec
 | S9 Conectar las 14 cuentas extra de Lalo (etapa 2) | S | A | 3 | T4 | 15 cuentas de Lalo con token válido |
 | S10 Decidir la compra de la Mac mini con datos reales | S | G | 1 | C4 | Decisión P-05 tomada con los tres escenarios de `COST_MODEL.md` |
 | C12 Primer agente para una empresa (piloto en la nube) | C | B | 8 | S7 | Agente corriendo en la nube para el negocio piloto, con aprobación humana |
-| C13 Mission Control v1 (solo si P-04 = B) | C | G | — | T1 | — |
 
 ## Riesgos del plan
 

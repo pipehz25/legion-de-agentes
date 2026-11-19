@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+/* Paleta: neutros fríos, un color por persona y un verde azulado como acción principal. */
+@theme {
+  --font-sans: var(--font-geist), ui-sans-serif, system-ui, "Segoe UI", sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, Consolas, monospace;
+
+  --color-bg: #f4f5f7;
+  --color-surface: #ffffff;
+  --color-sunken: #eceef2;
+  --color-line: #e1e4ea;
+  --color-ink: #111827;
+  --color-muted: #667085;
+  --color-primary: #0f766e;
+  --color-primary-ink: #ffffff;
+  --color-santiago: #d0533a;
+  --color-felipe: #2f62d6;
+  --color-claude: #7a55cf;
+  --color-todos: #5f6b7a;
+  --color-ok: #1f8456;
+  --color-warn: #b06f12;
+  --color-bad: #c23a2b;
+  --color-info: #2b7a9e;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #0b0e13;
+    --color-surface: #141922;
+    --color-sunken: #1a202a;
+    --color-line: #262d39;
+    --color-ink: #e9edf3;
+    --color-muted: #98a2b3;
+    --color-primary: #2dd4bf;
+    --color-primary-ink: #04201d;
+    --color-santiago: #f0836b;
+    --color-felipe: #7ea2f5;
+    --color-claude: #b296f5;
+    --color-todos: #9aa4b2;
+    --color-ok: #5ccb93;
+    --color-warn: #e9b24c;
+    --color-bad: #f2867a;
+    --color-info: #6cc0e2;
+  }
+}
+
+html {
+  color-scheme: light dark;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  background: var(--color-bg);
+  color: var(--color-ink);
+  font-feature-settings: "ss01", "cv11";
+}
+:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+input[type="checkbox"] {
+  accent-color: var(--color-ok);
+}
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  scrollbar-width: none;
+}
+@keyframes mc-pop {
+  0% { transform: scale(0.96); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+@keyframes mc-up {
+  0% { transform: translateY(16px); opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+@keyframes mc-left {
+  0% { transform: translateX(24px); opacity: 0; }
+  100% { transform: translateX(0); opacity: 1; }
+}
+@utility anim-pop {
+  animation: mc-pop 0.18s ease-out;
+}
+@utility anim-up {
+  animation: mc-up 0.22s ease-out;
+}
+@utility anim-left {
+  animation: mc-left 0.22s ease-out;
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}

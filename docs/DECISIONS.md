@@ -21,7 +21,7 @@ Registro de decisiones e hipótesis. Cada una dice qué se decidió, quién, cu�
 - **GTA:** experimento con fecha de vencimiento; solo contenido con derechos claros.
 - **14 cuentas de Lalo:** pasan a la etapa 2 cuando `lalo-music` cumpla los criterios de crecimiento.
 
-### P-04 · Dónde vive Mission Control a partir de la versión 1
+### P-04 · Dónde vive Mission Control a partir de la versión 1 (tomada: D-10, Vercel)
 - **A.** Seguir en claude.ai: página con base de datos compartida. Sin costo y sin servidores; Claude escribe en ella al final de cada ciclo.
 - **B.** App propia (Next.js + Supabase en Vercel), como sugiere el brief. Más control y usuarios propios, pero con cuentas, costos y mantenimiento.
 
@@ -43,6 +43,7 @@ Sin definir. Espacio reservado en Mission Control.
 
 | # | Fecha | Decisión | Quién | Por qué |
 |---|---|---|---|---|
+| D-10 | 2026-11-19 | Mission Control pasa a una app propia en Vercel (Next.js + Postgres de Neon, ambos en plan gratis), con usuario y contraseña: https://legion-mission-control.vercel.app. Cierra P-04. Revisar si el uso comercial exige el plan Pro de Vercel | Santiago | Pedido directo: más sencilla, interactiva y en Vercel |
 | D-09 | 2026-11-19 | Roles. **Santiago:** programación y conexiones (APIs, apps de desarrollador, autorizaciones, Mission Control, hardware) y el espacio de Lalo. **Felipe:** crea y gestiona las cuentas (perfiles, identidad, operación diaria de la raíz, bandeja de TikTok y permisos con los creadores). Si una tarea mezcla las dos cosas, Felipe crea la cuenta y Santiago la conecta | Santiago | Pedido directo |
 | D-01 | 2026-11-19 | Los socios son Santiago y Felipe Hernández | Santiago | La v0.1 del brief nombraba por error a otra persona |
 | D-02 | 2026-11-19 | Hacer lo del brief con dos familias de cuentas: clips de famosos y cuentas propias | Santiago | Pedido directo |

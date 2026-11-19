@@ -1,0 +1,7 @@
+node_modules
+.next
+.data
+seed-data
+.env*
+!.env.example
+*.tsbuildinfo

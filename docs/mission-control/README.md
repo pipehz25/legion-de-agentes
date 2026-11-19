@@ -1,7 +1,5 @@
-# Mission Control (código de la v0)
+# Mission Control v0 (ya no se usa)
 
-Copia del código de la página publicada en https://claude.ai/artifact/W4ynASHSRtvnspX3pvvrTy (dueño: Santiago).
+Código de la primera versión, una página en claude.ai (https://claude.ai/artifact/W4ynASHSRtvnspX3pvvrTy). Desde el 2026-11-19 la versión en uso es la v1 en Vercel: https://legion-mission-control.vercel.app, con el código en `mission-control/` (D-10). Sus datos se pasaron a la v1 ese mismo día.
 
-- Para cambiarla: editar `mission-control.html` y volver a publicarla desde una sesión de Claude Code de alguien con acceso de Editor, pasando esa URL.
-- Datos: viven en la base de la página (colecciones `tareas`, `cuentas`, `decisiones` y `pipeline`), no en este archivo. Si la página se borra, se pierden: la tarea C5 deja una copia del pipeline en GitHub en cada ciclo.
-- Diseño y colecciones: `docs/ARCHITECTURE.md` §2.
+Este archivo queda solo como respaldo.

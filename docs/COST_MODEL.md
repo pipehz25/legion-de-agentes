@@ -21,7 +21,9 @@ Nada de dinero ni de consumo. La única señal es que el 2026-11-18 el ciclo de 
 | Mac mini M6, 32 GB / 1 TB | CAPEX (candidato) | 1.799 USD en la tienda de EE. UU.; en Colombia, por verificar | Equipo | 2026-11-18 | Captura de la tienda de Apple que mandó Santiago |
 | Mac mini M5 Pro, 24 GB / 512 GB | CAPEX (candidato) | 1.699 USD en la tienda de EE. UU.; en Colombia, por verificar | Equipo | 2026-11-18 | Misma captura |
 | Mac mini M6 básica, 16 GB / 256 GB | CAPEX (candidato) | 899 USD en EE. UU. | Equipo | 2026-11-17 | Prensa del lanzamiento (2026-08-25) |
-| Vercel y Supabase (solo si P-04 = B) | OPEX fijo y variable | Por verificar | Mes | — | — |
+| Vercel, plan Hobby (Mission Control) | OPEX fijo | 0. Hobby es para uso personal y no comercial | Mes | 2026-11-19 | Sitios de precios de terceros; confirmar en vercel.com/pricing |
+| Vercel, plan Pro (si el uso comercial lo exige) | OPEX fijo | 20 USD por persona al mes, con 20 USD de consumo incluidos (por verificar) | Mes por asiento | 2026-11-19 | Sitios de precios de terceros; confirmar en vercel.com/pricing |
+| Neon Postgres, plan `free_v3` (Mission Control) | OPEX fijo | 0 | Mes | 2026-11-19 | Creado desde Vercel Marketplace |
 
 ## 3. Fórmulas
 
