@@ -42,3 +42,10 @@ credenciales*.json
 # Videos y portadas del Animador (solo se versionan meta.json y publicacion.txt)
 salidas/animador/**/*.mp4
 salidas/animador/**/*.jpg
+
+# Videos, portadas, carruseles y grabaciones del Narrador (se versionan guion, textos, fuentes y meta)
+salidas/narrador/**/*.mp4
+salidas/narrador/**/*.jpg
+salidas/narrador/**/*.png
+animados/propios/**/grabacion.*
+animados/propios/**/renders/

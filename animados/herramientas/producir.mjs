@@ -8,8 +8,12 @@
 // Pasos: voz -> montaje -> revision de HyperFrames -> render -> entrega.
 // Si la revision encuentra errores, se detiene antes del render y los muestra.
 //
-// Entrega en salidas/animador/<video>/:
-//   <video>.mp4, portada.jpg, publicacion.txt (texto y hashtags del guion) y meta.json.
+// Entrega en salidas/<entrega>/<video>/:
+//   <video>.mp4, portada.jpg, publicacion.txt (texto y hashtags del guion) y meta.json;
+//   ademas textos.md (un texto por red, si el guion trae publicacion.redes) y
+//   fuentes.md (si el guion trae fuentes).
+// <entrega> es "animador" para animados/videos/ (videos de venta) y "narrador" para
+// animados/propios/ (videos de contenido propio); el guion puede fijarlo con "entrega".
 // Una carpeta de video solo necesita su guion.json; lo demas lo crea este script.
 //
 // Voz grabada ("motor": "grabada"): deja en la carpeta del video para-grabar.txt (las frases
@@ -26,6 +30,14 @@ const ANIMADOS = path.resolve(AQUI, "..");
 const RAIZ = path.resolve(ANIMADOS, "..");
 const HF = "hyperframes@0.9.20";
 const ENTORNO = { ...process.env, DO_NOT_TRACK: "1", HYPERFRAMES_NO_TELEMETRY: "1" };
+
+// Donde viven los videos de cada agente y a que carpeta de salidas van.
+const CARPETAS = { animador: path.join(ANIMADOS, "videos"), narrador: path.join(ANIMADOS, "propios") };
+const leeGuion = (carpeta) => JSON.parse(fs.readFileSync(path.join(carpeta, "guion.json"), "utf8"));
+function entregaNombre(carpeta, guion) {
+  if (guion && typeof guion.entrega === "string" && /^[a-z0-9-]+$/.test(guion.entrega)) return guion.entrega;
+  return path.resolve(carpeta).startsWith(CARPETAS.narrador + path.sep) ? "narrador" : "animador";
+}
 
 const args = process.argv.slice(2);
 const sinRender = args.includes("--sin-render");
@@ -58,13 +70,47 @@ function frasesParaLeer(guion) {
 }
 
 function escribeParaGrabar(carpeta, guion) {
-  const texto = [`GRABAR: ${guion.titulo || path.basename(carpeta)}`, `Carpeta: animados/videos/${path.basename(carpeta)}`, "", ...COMO_GRABAR, "", "Frases", ...frasesParaLeer(guion), ""].join("\n");
+  const rel = path.relative(RAIZ, carpeta).replace(/\\/g, "/");
+  const texto = [`GRABAR: ${guion.titulo || path.basename(carpeta)}`, `Carpeta: ${rel}`, "", ...COMO_GRABAR, "", "Frases", ...frasesParaLeer(guion), ""].join("\n");
   fs.writeFileSync(path.join(carpeta, "para-grabar.txt"), texto, "utf8");
 }
 
-function entregaDe(carpeta) {
+function entregaDe(carpeta, guion = leeGuion(carpeta)) {
   const nombre = path.basename(carpeta);
-  return { nombre, dir: path.join(RAIZ, "salidas", "animador", nombre), mp4: path.join(RAIZ, "salidas", "animador", nombre, nombre + ".mp4") };
+  const entrega = entregaNombre(carpeta, guion);
+  const dir = path.join(RAIZ, "salidas", entrega, nombre);
+  return { nombre, entrega, dir, mp4: path.join(dir, nombre + ".mp4") };
+}
+
+const REDES = [
+  ["tiktok", "TikTok"],
+  ["instagram", "Instagram (Reels)"],
+  ["youtube", "YouTube Shorts"],
+  ["facebook", "Facebook (Reels)"],
+];
+const etiquetas = (lista) => (lista || []).map((h) => (String(h).startsWith("#") ? h : "#" + h)).join(" ");
+
+// textos.md: un bloque por red listo para copiar. publicacion.redes.<red> = { titulo?, texto, hashtags }
+function escribeTextos(dir, guion) {
+  const redes = (guion.publicacion && guion.publicacion.redes) || {};
+  const partes = [`# Textos para publicar: ${guion.titulo || ""}`, ""];
+  let alguno = false;
+  for (const [clave, nombre] of REDES) {
+    const r = redes[clave];
+    if (!r || !r.texto) continue;
+    alguno = true;
+    partes.push(`## ${nombre}`, "");
+    if (r.titulo) partes.push(`**Título:** ${r.titulo}`, "");
+    partes.push("```", [r.texto, "", etiquetas(r.hashtags)].join("\n").trim(), "```", "");
+  }
+  if (alguno) fs.writeFileSync(path.join(dir, "textos.md"), partes.join("\n"), "utf8");
+}
+
+// fuentes.md: de donde sale cada dato. guion.fuentes = [{ dato, fuente, url? }]
+function escribeFuentes(dir, guion) {
+  if (!Array.isArray(guion.fuentes) || !guion.fuentes.length) return;
+  const lineas = [`# Fuentes: ${guion.titulo || ""}`, "", ...guion.fuentes.map((f) => `- **${f.dato || ""}** — ${f.fuente || ""}${f.url ? ` (${f.url})` : ""}`), ""];
+  fs.writeFileSync(path.join(dir, "fuentes.md"), lineas.join("\n"), "utf8");
 }
 
 function pendiente(carpeta) {
@@ -74,8 +120,8 @@ function pendiente(carpeta) {
 }
 
 function produce(carpeta) {
-  const { nombre, dir, mp4 } = entregaDe(carpeta);
-  const guion = JSON.parse(fs.readFileSync(path.join(carpeta, "guion.json"), "utf8"));
+  const guion = leeGuion(carpeta);
+  const { nombre, dir, mp4 } = entregaDe(carpeta, guion);
   console.log(`\n=== ${nombre}: ${guion.titulo || ""} ===`);
 
   // Lo minimo que HyperFrames espera encontrar en la carpeta.
@@ -139,13 +185,17 @@ function produce(carpeta) {
   // Entrega.
   fs.mkdirSync(dir, { recursive: true });
   fs.copyFileSync(salidaLocal, mp4);
-  corre("portada", `ffmpeg -v error -y -i "${mp4}" -frames:v 1 -q:v 3 -update 1 "${path.join(dir, "portada.jpg")}"`, RAIZ, { callado: true, tolera: true });
+  // Portada: el cuadro 0, o el segundo que diga el guion ("portada_en": 1.5).
+  const portadaEn = Number(guion.portada_en) > 0 ? `-ss ${Number(guion.portada_en)} ` : "";
+  corre("portada", `ffmpeg -v error -y ${portadaEn}-i "${mp4}" -frames:v 1 -q:v 3 -update 1 "${path.join(dir, "portada.jpg")}"`, RAIZ, { callado: true, tolera: true });
   const sonda = corre("duracion", `ffprobe -v error -show_entries format=duration -of csv=p=0 "${mp4}"`, RAIZ, { callado: true, tolera: true });
   const volumen = corre("volumen", `ffmpeg -hide_banner -nostats -i "${mp4}" -af ebur128 -f null -`, RAIZ, { callado: true, tolera: true });
   const lufs = ((volumen.stderr || "").match(/I:\s+(-?[\d.]+) LUFS/g) || []).pop() || "";
   const pub = guion.publicacion || {};
   const texto = [pub.texto || guion.titulo || "", "", (pub.hashtags || []).map((h) => (h.startsWith("#") ? h : "#" + h)).join(" ")].join("\n").trim() + "\n";
   fs.writeFileSync(path.join(dir, "publicacion.txt"), texto, "utf8");
+  escribeTextos(dir, guion);
+  escribeFuentes(dir, guion);
   const meta = {
     id: nombre,
     titulo: guion.titulo || nombre,
@@ -165,13 +215,12 @@ function produce(carpeta) {
 // ---------- Que producir ----------
 let carpetas = pedidas;
 if (todos) {
-  const dir = path.join(ANIMADOS, "videos");
-  carpetas = fs
-    .readdirSync(dir)
-    .map((n) => path.join(dir, n))
-    .filter((c) => fs.existsSync(path.join(c, "guion.json")) && JSON.parse(fs.readFileSync(path.join(c, "guion.json"), "utf8")).escenas)
+  carpetas = Object.values(CARPETAS)
+    .filter((dir) => fs.existsSync(dir))
+    .flatMap((dir) => fs.readdirSync(dir).map((n) => path.join(dir, n)))
+    .filter((c) => fs.existsSync(path.join(c, "guion.json")) && leeGuion(c).escenas)
     .filter(pendiente);
-  if (!carpetas.length) console.log("No hay videos pendientes: todos tienen su MP4 al dia en salidas/animador/.");
+  if (!carpetas.length) console.log("No hay videos pendientes: todos tienen su MP4 al dia en salidas/.");
 }
 if (!carpetas.length && !todos) {
   console.error("Uso: node animados/herramientas/producir.mjs <carpeta-del-video> | --todos  [--sin-render]");
@@ -195,8 +244,8 @@ for (const carpeta of carpetas) {
   }
 }
 // Catalogo de lo entregado: lo que otro agente (o una persona) necesita para publicar.
-function catalogo() {
-  const base = path.join(RAIZ, "salidas", "animador");
+function catalogo(entrega) {
+  const base = path.join(RAIZ, "salidas", entrega);
   if (!fs.existsSync(base)) return;
   const videos = fs
     .readdirSync(base)
@@ -209,8 +258,10 @@ function catalogo() {
         titulo: meta.titulo,
         duracion_s: meta.duracion_s,
         producido: meta.producido,
-        video: `salidas/animador/${n}/${meta.video}`,
-        portada: `salidas/animador/${n}/portada.jpg`,
+        video: `salidas/${entrega}/${n}/${meta.video}`,
+        portada: `salidas/${entrega}/${n}/portada.jpg`,
+        textos: fs.existsSync(path.join(base, n, "textos.md")) ? `salidas/${entrega}/${n}/textos.md` : null,
+        fuentes: fs.existsSync(path.join(base, n, "fuentes.md")) ? `salidas/${entrega}/${n}/fuentes.md` : null,
         video_en_esta_pc: fs.existsSync(path.join(base, n, meta.video)),
         publicacion: texto,
       };
@@ -218,37 +269,39 @@ function catalogo() {
     .sort((a, b) => String(b.producido).localeCompare(String(a.producido)));
   fs.writeFileSync(path.join(base, "videos.json"), JSON.stringify({ actualizado: new Date().toISOString(), videos }, null, 2) + "\n", "utf8");
 }
-catalogo();
+for (const entrega of Object.keys(CARPETAS)) catalogo(entrega);
 
-// Lo que falta grabar, en un solo archivo para quien pone la voz.
-function porGrabar() {
-  const base = path.join(RAIZ, "salidas", "animador");
-  const dir = path.join(ANIMADOS, "videos");
+// Lo que falta grabar, en un solo archivo por agente para quien pone la voz.
+function porGrabar(entrega) {
+  const base = path.join(RAIZ, "salidas", entrega);
+  const dir = CARPETAS[entrega];
+  if (!fs.existsSync(dir)) return 0;
   const faltan = fs
     .readdirSync(dir)
     .map((n) => path.join(dir, n))
     .filter((c) => fs.existsSync(path.join(c, "guion.json")))
-    .map((c) => ({ carpeta: c, guion: JSON.parse(fs.readFileSync(path.join(c, "guion.json"), "utf8")) }))
+    .map((c) => ({ carpeta: c, guion: leeGuion(c) }))
     .filter(({ carpeta, guion }) => guion.motor === "grabada" && !tieneGrabacion(carpeta, guion));
   const partes = ["# Videos por grabar", "", "Generado por `animados/herramientas/producir.mjs`. Cada video se graba de una vez, leyendo sus frases en orden.", ""];
   if (!faltan.length) partes.push("No hay videos esperando grabación.", "");
   else {
     partes.push(...COMO_GRABAR.slice(1).map((l) => l.replace(/^\d\. /, "- ")), "");
     for (const { carpeta, guion } of faltan) {
-      partes.push(`## ${guion.titulo || path.basename(carpeta)}`, "", `Guardar como \`animados/videos/${path.basename(carpeta)}/grabacion.m4a\` (o .mp3, .wav).`, "", ...frasesParaLeer(guion), "");
+      const rel = path.relative(RAIZ, carpeta).replace(/\\/g, "/");
+      partes.push(`## ${guion.titulo || path.basename(carpeta)}`, "", `Guardar como \`${rel}/grabacion.m4a\` (o .mp3, .wav).`, "", ...frasesParaLeer(guion), "");
     }
   }
   fs.mkdirSync(base, { recursive: true });
   fs.writeFileSync(path.join(base, "por-grabar.md"), partes.join("\n"), "utf8");
   return faltan.length;
 }
-const faltanGrabar = porGrabar();
+const faltanGrabar = Object.keys(CARPETAS).reduce((n, entrega) => n + porGrabar(entrega), 0);
 
 if (carpetas.length > 1 || fallidos.length || esperando.length) {
   console.log(`\nResumen: ${hechos.length} hecho(s), ${esperando.length} esperando grabacion, ${fallidos.length} con error.`);
   hechos.forEach((h) => console.log(`  ok    ${h.nombre}${h.avisos ? `  (${h.avisos} aviso(s) de revision)` : ""}`));
-  esperando.forEach((h) => console.log(`  falta grabar  ${h.nombre}  (frases en animados/videos/${h.nombre}/para-grabar.txt)`));
+  esperando.forEach((h) => console.log(`  falta grabar  ${h.nombre}  (frases en su para-grabar.txt)`));
   fallidos.forEach((f) => console.log(`  ERROR ${f.nombre}: ${f.error}`));
 }
-if (faltanGrabar) console.log(`\n${faltanGrabar} video(s) por grabar: salidas/animador/por-grabar.md`);
+if (faltanGrabar) console.log(`\n${faltanGrabar} video(s) por grabar: salidas/animador/por-grabar.md y salidas/narrador/por-grabar.md`);
 process.exit(fallidos.length ? 1 : 0);

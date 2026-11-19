@@ -1,0 +1,55 @@
+{
+  "_info": "Banco de temas del Narrador. estado: pendiente | esperando-grabacion | revision-medica | hecho | descartado. Son ideas de partida: cada dato se verifica en dos fuentes antes de escribir el guion (animados/contenido/NARRADOR.md §4). Para agregar: /narrador temas <nicho> [n].",
+  "actualizado": "2026-11-19T15:00:00-05:00",
+  "series": [
+    { "id": "pandemias", "titulo": "Pandemias que cambiaron el mundo", "nicho": "historia-medicina", "partes": ["hm-peste-negra", "hm-gripe-1918", "hm-viruela"] },
+    { "id": "independencia", "titulo": "La independencia de Colombia en 3 partes", "nicho": "historia", "partes": ["hi-florero", "hi-boyaca", "hi-gran-colombia"] }
+  ],
+  "temas": [
+    { "id": "hi-napoleon", "nicho": "historia", "pregunta": "¿Napoleón era bajito?", "angulo": "Medía cerca de 1,69 m, normal para su época; el mito sale de la diferencia entre pulgadas francesas e inglesas y de la propaganda británica.", "formato": "mito o realidad", "estado": "pendiente" },
+    { "id": "hi-panama", "nicho": "historia", "pregunta": "¿Cómo perdió Colombia a Panamá?", "angulo": "Noviembre de 1903: la separación, el canal y el papel de Estados Unidos.", "formato": "misterio histórico", "estado": "pendiente" },
+    { "id": "hi-florero", "nicho": "historia", "pregunta": "¿Un florero empezó la independencia?", "angulo": "20 de julio de 1810: el préstamo del florero era una excusa planeada.", "formato": "la historia en 3 pasos", "estado": "pendiente", "serie": { "id": "independencia", "parte": 1, "de": 3 } },
+    { "id": "hi-boyaca", "nicho": "historia", "pregunta": "¿Cómo se ganó la batalla de Boyacá?", "angulo": "7 de agosto de 1819: el cruce de los Andes y una batalla que duró poco y lo cambió todo.", "formato": "la historia en 3 pasos", "estado": "pendiente", "serie": { "id": "independencia", "parte": 2, "de": 3 } },
+    { "id": "hi-gran-colombia", "nicho": "historia", "pregunta": "¿Por qué se acabó la Gran Colombia?", "angulo": "1819-1831: un país enorme que no logró mantenerse unido.", "formato": "misterio histórico", "estado": "pendiente", "serie": { "id": "independencia", "parte": 3, "de": 3 } },
+    { "id": "hi-muralla", "nicho": "historia", "pregunta": "¿La Gran Muralla se ve desde el espacio?", "angulo": "Mito: a simple vista no se distingue desde la órbita; por qué se repite.", "formato": "mito o realidad", "estado": "pendiente" },
+    { "id": "hi-policarpa", "nicho": "historia", "pregunta": "¿Quién fue de verdad la Pola?", "angulo": "Policarpa Salavarrieta: espía de la independencia, fusilada en 1817.", "formato": "misterio histórico", "estado": "pendiente" },
+    { "id": "hi-zanzibar", "nicho": "historia", "pregunta": "¿La guerra más corta duró 38 minutos?", "angulo": "Guerra anglo-zanzibariana, 1896: entre 38 y 45 minutos según las fuentes.", "formato": "dato que no sabías", "estado": "pendiente" },
+    { "id": "hi-cleopatra", "nicho": "historia", "pregunta": "¿Cleopatra está más cerca de nosotros que de las pirámides?", "angulo": "La Gran Pirámide es de hacia 2560 a. C.; Cleopatra murió en el 30 a. C.", "formato": "dato que no sabías", "estado": "pendiente" },
+    { "id": "hi-vikingos", "nicho": "historia", "pregunta": "¿Los vikingos usaban cascos con cuernos?", "angulo": "Mito del siglo XIX (vestuario de ópera); los cascos hallados no los tienen.", "formato": "mito o realidad", "estado": "pendiente" },
+    { "id": "hi-bogotazo", "nicho": "historia", "pregunta": "¿Qué pasó el 9 de abril de 1948?", "angulo": "El asesinato de Gaitán y el Bogotazo, contado en 3 pasos y solo con hechos.", "formato": "la historia en 3 pasos", "estado": "pendiente" },
+    { "id": "hi-pisa", "nicho": "historia", "pregunta": "¿Por qué se inclina la Torre de Pisa?", "angulo": "Suelo blando desde la construcción (1173) y cómo la salvaron sin enderezarla.", "formato": "dato que no sabías", "estado": "pendiente" },
+    { "id": "hi-petrov", "nicho": "historia", "pregunta": "¿Un hombre evitó una guerra nuclear?", "angulo": "Stanislav Petrov, 26 de septiembre de 1983: una falsa alarma que decidió no reportar.", "formato": "misterio histórico", "estado": "pendiente" },
+
+    { "id": "hm-semmelweis", "nicho": "historia-medicina", "pregunta": "¿Lavarse las manos lo volvió loco?", "angulo": "Ignaz Semmelweis, Viena, 1847: bajó las muertes por fiebre puerperal y no le creyeron.", "formato": "descubrimiento médico", "estado": "pendiente" },
+    { "id": "hm-penicilina", "nicho": "historia-medicina", "pregunta": "¿Un descuido salvó millones de vidas?", "angulo": "Fleming, 1928: el moho en la placa y los años hasta que se pudo fabricar.", "formato": "descubrimiento médico", "estado": "pendiente" },
+    { "id": "hm-anestesia", "nicho": "historia-medicina", "pregunta": "¿Cómo se operaba antes de la anestesia?", "angulo": "16 de octubre de 1846, Boston: la primera demostración pública con éter.", "formato": "descubrimiento médico", "estado": "pendiente" },
+    { "id": "hm-peste-negra", "nicho": "historia-medicina", "pregunta": "¿Cómo la peste negra cambió Europa?", "angulo": "1347-1351: se llevó a una parte enorme de la población y cambió el trabajo y las ciudades.", "formato": "la historia en 3 pasos", "estado": "pendiente", "serie": { "id": "pandemias", "parte": 1, "de": 3 } },
+    { "id": "hm-gripe-1918", "nicho": "historia-medicina", "pregunta": "¿La gripe de 1918 llegó a Bogotá?", "angulo": "La pandemia de 1918 y cómo se vivió en Bogotá en octubre y noviembre de ese año.", "formato": "misterio histórico", "estado": "pendiente", "serie": { "id": "pandemias", "parte": 2, "de": 3 } },
+    { "id": "hm-viruela", "nicho": "historia-medicina", "pregunta": "¿Cómo se acabó con la viruela?", "angulo": "De Jenner (1796) a la erradicación declarada por la OMS en 1980.", "formato": "la historia en 3 pasos", "estado": "pendiente", "serie": { "id": "pandemias", "parte": 3, "de": 3 } },
+    { "id": "hm-mascara-pico", "nicho": "historia-medicina", "pregunta": "¿Por qué los médicos de la peste tenían pico?", "angulo": "Siglo XVII: el pico llevaba hierbas por la idea de los «malos aires».", "formato": "mito o realidad", "estado": "pendiente" },
+    { "id": "hm-snow", "nicho": "historia-medicina", "pregunta": "¿Un mapa detuvo una epidemia?", "angulo": "John Snow, Londres, 1854: el cólera y la bomba de agua de Broad Street.", "formato": "descubrimiento médico", "estado": "pendiente" },
+    { "id": "hm-rayos-x", "nicho": "historia-medicina", "pregunta": "¿Los rayos X se descubrieron por accidente?", "angulo": "Röntgen, 1895: la mano de su esposa en la primera radiografía.", "formato": "descubrimiento médico", "estado": "pendiente" },
+    { "id": "hm-nightingale", "nicho": "historia-medicina", "pregunta": "¿Una gráfica salvó a miles de soldados?", "angulo": "Florence Nightingale y sus diagramas sobre las muertes evitables en Crimea.", "formato": "descubrimiento médico", "estado": "pendiente" },
+    { "id": "hm-insulina", "nicho": "historia-medicina", "pregunta": "¿Cómo la diabetes dejó de ser mortal?", "angulo": "Toronto, 1921-1922: el descubrimiento de la insulina.", "formato": "descubrimiento médico", "estado": "pendiente" },
+    { "id": "hm-serpiente", "nicho": "historia-medicina", "pregunta": "¿Por qué hay una serpiente en las farmacias?", "angulo": "La vara de Asclepio y la copa de Higía.", "formato": "dato que no sabías", "estado": "pendiente" },
+
+    { "id": "ci-cielo-azul", "nicho": "ciencia", "pregunta": "¿Por qué el cielo es azul?", "angulo": "La luz azul se dispersa más en el aire (dispersión de Rayleigh); por qué el atardecer es rojo.", "formato": "dato que no sabías", "estado": "pendiente" },
+    { "id": "ci-mar-salado", "nicho": "ciencia", "pregunta": "¿Por qué el mar es salado?", "angulo": "La lluvia lava minerales de las rocas y los ríos los llevan al mar.", "formato": "dato que no sabías", "estado": "pendiente" },
+    { "id": "ci-luz-sol", "nicho": "ciencia", "pregunta": "¿Ves el Sol como era hace 8 minutos?", "angulo": "La luz tarda unos 8 minutos y 20 segundos en llegar.", "formato": "dato que no sabías", "estado": "pendiente" },
+    { "id": "ci-luna-cara", "nicho": "ciencia", "pregunta": "¿Por qué la Luna siempre da la misma cara?", "angulo": "Rotación sincrónica: gira sobre sí misma al mismo ritmo que alrededor de la Tierra.", "formato": "dato que no sabías", "estado": "pendiente" },
+    { "id": "ci-estelas", "nicho": "ciencia", "pregunta": "¿Qué son las rayas blancas de los aviones?", "angulo": "Estelas de condensación: vapor del motor que se congela.", "formato": "mito o realidad", "estado": "pendiente" },
+    { "id": "ci-gatos", "nicho": "ciencia", "pregunta": "¿Por qué los gatos caen de pie?", "angulo": "El reflejo de enderezamiento y la columna flexible.", "formato": "dato que no sabías", "estado": "pendiente" },
+
+    { "id": "di-billete", "nicho": "dinero", "pregunta": "¿Por qué un billete vale algo?", "angulo": "El papel no vale: vale porque todos confiamos en él y un banco central lo respalda.", "formato": "dato que no sabías", "estado": "pendiente" },
+    { "id": "di-inflacion", "nicho": "dinero", "pregunta": "¿Qué es la inflación, explicada con un pan?", "angulo": "El mismo pan cuesta más porque el dinero compra menos.", "formato": "la historia en 3 pasos", "estado": "pendiente" },
+    { "id": "di-primer-billete", "nicho": "dinero", "pregunta": "¿Cuál fue el primer billete de la historia?", "angulo": "China, siglo XI: el jiaozi de la dinastía Song.", "formato": "dato que no sabías", "estado": "pendiente" },
+    { "id": "di-dolar", "nicho": "dinero", "pregunta": "¿Por qué el dólar manda en el mundo?", "angulo": "Bretton Woods, 1944, y por qué siguió después de 1971.", "formato": "la historia en 3 pasos", "estado": "pendiente" },
+    { "id": "di-tulipanes", "nicho": "dinero", "pregunta": "¿Un tulipán costaba lo que una casa?", "angulo": "Holanda, 1637: la burbuja de los tulipanes, con la versión segura (los historiadores discuten cuánto se exagera).", "formato": "mito o realidad", "estado": "pendiente" },
+    { "id": "di-99", "nicho": "dinero", "pregunta": "¿Por qué los precios terminan en 99?", "angulo": "El efecto del dígito de la izquierda.", "formato": "dato que no sabías", "estado": "pendiente" },
+
+    { "id": "cu-flamencos", "nicho": "curiosidades", "pregunta": "¿Por qué los flamencos son rosados?", "angulo": "Los pigmentos (carotenoides) de lo que comen.", "formato": "dato que no sabías", "estado": "pendiente" },
+    { "id": "cu-hielo", "nicho": "curiosidades", "pregunta": "¿Por qué el hielo flota?", "angulo": "El agua se expande al congelarse; por eso los lagos se congelan por arriba.", "formato": "dato que no sabías", "estado": "pendiente" },
+    { "id": "cu-cebras", "nicho": "curiosidades", "pregunta": "¿Para qué sirven las rayas de la cebra?", "angulo": "La idea con más apoyo: espantan a las moscas que pican.", "formato": "mito o realidad", "estado": "pendiente" },
+    { "id": "cu-zancudos", "nicho": "curiosidades", "pregunta": "¿Por qué los zancudos te pican más a ti?", "angulo": "Dióxido de carbono, calor y olor de la piel.", "formato": "dato que no sabías", "estado": "pendiente" }
+  ]
+}

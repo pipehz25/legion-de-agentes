@@ -1,0 +1,78 @@
+{
+  "_info": "Nichos del Narrador (animados/contenido/NARRADOR.md). Cada nicho dice con qué estilo visual se hace, el tono, dónde se buscan los datos, qué formatos le van y qué no se puede decir. Las cuentas se definen con los socios (decisión P-07 en docs/DECISIONS.md).",
+  "nichos": [
+    {
+      "id": "historia",
+      "nombre": "Historia",
+      "estilo": "archivo",
+      "tono": "Misterio y relato: «el día que…», «nadie te contó…». Cercano, con tensión, sin fechas de más.",
+      "enfoque": "Historia universal y, cuando se pueda, de Colombia y Latinoamérica (nos diferencia).",
+      "fuentes": ["Enciclopedia Britannica", "Museos (Museo Nacional de Colombia, British Museum, Smithsonian)", "Banco de la República (Red Cultural, Biblioteca Luis Ángel Arango)", "Biblioteca Nacional de Colombia", "Universidades y revistas académicas", "Archivos nacionales"],
+      "formatos": ["misterio histórico", "la historia en 3 pasos", "mito o realidad", "dato que no sabías"],
+      "ganchos": ["¿Por qué…?", "El día que…", "Lo que nadie te contó de…", "Esto no fue como te lo enseñaron"],
+      "limites": ["No glorificar violencia ni personajes criminales.", "Política reciente: solo hechos documentados, sin tomar partido."],
+      "cuentas": "por definir"
+    },
+    {
+      "id": "historia-medicina",
+      "nombre": "Historia de la medicina",
+      "estilo": "laboratorio",
+      "tono": "Descubrimiento y giro: un error, un accidente o alguien a quien no le creyeron.",
+      "enfoque": "Cómo se descubrieron vacunas, antibióticos, anestesia, epidemias que cambiaron el mundo.",
+      "fuentes": ["National Library of Medicine (NIH)", "Organización Mundial de la Salud (OMS)", "Organización Panamericana de la Salud (OPS)", "Museos de ciencia y de historia de la medicina", "Revistas médicas (The Lancet, BMJ, NEJM) y sus artículos históricos", "Enciclopedia Britannica"],
+      "formatos": ["descubrimiento médico", "la historia en 3 pasos", "mito o realidad"],
+      "ganchos": ["El médico al que tomaron por loco…", "Un descuido que salvó millones", "Antes de esto, operar era…"],
+      "limites": ["Se cuentan hechos, no se dan consejos de salud.", "Nada de diagnósticos, dosis ni tratamientos."],
+      "cuentas": "por definir"
+    },
+    {
+      "id": "ciencia",
+      "nombre": "Ciencia",
+      "estilo": "laboratorio",
+      "tono": "Curiosidad: una pregunta que todos se han hecho y una respuesta que se puede ver.",
+      "enfoque": "Física, astronomía, biología y tecnología cotidiana.",
+      "fuentes": ["NASA", "ESA", "Universidades", "National Geographic", "Revistas científicas (Nature, Science) y sus notas de divulgación", "Enciclopedia Britannica"],
+      "formatos": ["dato que no sabías", "mito o realidad", "la historia en 3 pasos"],
+      "ganchos": ["¿Por qué…?", "¿Qué pasaría si…?", "Lo estás viendo mal"],
+      "limites": ["Si la ciencia no está cerrada (p. ej. por qué bostezamos), decir «se cree» y mostrar las dos ideas principales."],
+      "cuentas": "CurioSismo o la cuenta de curiosidades"
+    },
+    {
+      "id": "salud",
+      "nombre": "Divulgación de salud",
+      "estilo": "laboratorio",
+      "tono": "Explicar cómo funciona el cuerpo, sin alarmar y sin recomendar.",
+      "enfoque": "Cómo funciona el cuerpo y qué es una enfermedad, con fuentes oficiales.",
+      "fuentes": ["OMS", "OPS", "NIH / MedlinePlus", "Ministerio de Salud de Colombia", "Sociedades médicas"],
+      "formatos": ["dato que no sabías", "mito o realidad"],
+      "ganchos": ["¿Por qué…?", "Lo que pasa en tu cuerpo cuando…"],
+      "limites": ["Nunca diagnósticos, dosis, tratamientos, curas ni remedios caseros como tratamiento.", "Todo video queda en estado revision-medica hasta que lo revise una persona con formación en salud.", "Texto con: «Contenido informativo. No reemplaza la consulta médica.»"],
+      "revision_obligatoria": true,
+      "cuentas": "por definir (solo con revisión médica)"
+    },
+    {
+      "id": "dinero",
+      "nombre": "Dinero e historia económica",
+      "estilo": "pizarra",
+      "tono": "Explicar con un objeto cotidiano (un pan, un billete, un grano de arroz).",
+      "enfoque": "Historia del dinero y conceptos básicos (inflación, interés, por qué vale un billete).",
+      "fuentes": ["Banco de la República", "Bancos centrales (Reserva Federal, BCE)", "FMI y Banco Mundial (notas explicativas)", "Museos del dinero (Casa de Moneda)", "Enciclopedia Britannica", "Libros y artículos de historia económica"],
+      "formatos": ["dato que no sabías", "la historia en 3 pasos", "mito o realidad"],
+      "ganchos": ["¿Por qué…?", "Esto explica por qué todo sube", "El primer billete de la historia"],
+      "limites": ["Nunca consejos de inversión, promesas de rentabilidad ni criptomonedas para ganar.", "Texto con: «Contenido educativo, no es asesoría financiera.»"],
+      "cuentas": "por definir"
+    },
+    {
+      "id": "curiosidades",
+      "nombre": "Curiosidades",
+      "estilo": "pizarra",
+      "tono": "Rápido y sorprendente, con un dato que se pueda contar después.",
+      "enfoque": "Naturaleza, animales, objetos cotidianos.",
+      "fuentes": ["National Geographic", "Museos de historia natural", "Universidades", "Enciclopedia Britannica"],
+      "formatos": ["dato que no sabías", "mito o realidad"],
+      "ganchos": ["¿Por qué…?", "Nadie sabe que…", "Esto cambia cómo ves…"],
+      "limites": ["Nada sin fuente; si es leyenda, se dice que es leyenda."],
+      "cuentas": "CurioSismo o la cuenta de curiosidades"
+    }
+  ]
+}
