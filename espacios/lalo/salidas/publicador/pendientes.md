@@ -1,12 +1,12 @@
 # Publicador · espacio lalo · pendientes
 
-Actualizado el 2026-11-19 a las 18:37 (−05:00), ciclo 6. Modo `aprobacion`, publicación real (sin simulación). Única cuenta activa: TikTok `lalo-music` (@ocampo-music).
+Actualizado el 2026-11-20 a las 00:39 (−05:00), ciclo 7. Modo `aprobacion`, publicación real (sin simulación). Única cuenta activa: TikTok `lalo-music` (@ocampo-music).
 
-- **No queda nada por aprobar.** El Clipero no cortó clips nuevos en su ciclo 4.
-- **Ya publicaste 2 de los 4 borradores de hoy:** `actriz-coro` y `yaper-ya-paso-tu-tiempo` (enlaces en el informe). Quedan 2 en la bandeja: `te-perdi-coro` y `madrilena-se-formo-el-perreo` (textos abajo).
-- **Hoy no subió nada más:** `lalo-music` sigue en 4 de 4 subidas. Hay **7 aprobados en cola** para el 2026-11-20 y el 2026-11-21 (tabla abajo).
-- **Antes del ciclo de mañana:** publica o descarta los 2 borradores que quedan. TikTok admite como máximo 5 borradores pendientes por API cada 24 horas: con 2 pendientes y 4 subidas nuevas, la subida de mañana podría fallar.
-- **Desde el 2026-11-22 no hay nada más que subir.** El Clipero avisa de que ya no quedan canciones solo de Lalo por cortar. Decisiones posibles en su informe (`espacios/lalo/salidas/clipero/informes/2026-11-19_1830.md`): ampliar la línea de `lalo-music`, encender otra cuenta (`lalo-love`, `lalo-lyrics` o `lalo-energy`), cortar las colaboraciones o añadir otros canales con permiso.
+- **No queda nada por aprobar.** El Clipero no cortó clips nuevos en su ciclo 5.
+- **Siguen 2 borradores en la bandeja** desde las 12:59 de ayer: `te-perdi-coro` y `madrilena-se-formo-el-perreo` (textos abajo). Los otros 2 de ayer ya los publicaste.
+- **Este ciclo no subió nada** porque cayó fuera del horario (08:00 a 23:00). Hay **7 aprobados en cola**: 4 suben en el primer ciclo de hoy a partir de las 08:00 y 3 mañana, 2026-11-21 (tabla abajo).
+- **Antes de esa subida:** publica o descarta los 2 borradores que quedan. TikTok admite como máximo 5 borradores pendientes por API cada 24 horas: con 2 pendientes y 4 nuevos serían 6, y la cuarta subida podría fallar. A partir de las 13:00 esos 2 ya tendrán más de 24 horas.
+- **Desde el 2026-11-22 no hay nada más que subir.** El Clipero lo repite en su ciclo 5: ya no quedan canciones solo de Lalo por cortar, y ya tiene analizadas las cuatro colaboraciones del canal. Las decisiones posibles están en su informe (`espacios/lalo/salidas/clipero/informes/2026-11-20_0030.md`): ampliar la línea de `lalo-music` o encender otra cuenta (`lalo-love`, `lalo-lyrics` o `lalo-energy`); cortar las colaboraciones solo donde canta Lalo (Lokito daría unos 2 clips enseguida); o añadir otros canales con permiso.
 
 ---
 
@@ -16,7 +16,7 @@ Abre el aviso de la bandeja en la app de @ocampo-music, pega el texto, elige por
 
 ### 2026-11-18-te-perdi-coro
 
-- **Gancho:** «Maldito el día en que yo te perdí» · en la bandeja desde las 12:59 del 2026-11-19 (sigue ahí a las 18:34)
+- **Gancho:** «Maldito el día en que yo te perdí» · en la bandeja desde las 12:59 del 2026-11-19 (sigue ahí a las 00:36 del 2026-11-20)
 - [Video](../clipero/clips/2026-11-18-te-perdi-coro/clip.mp4) · [Ficha](../clipero/clips/2026-11-18-te-perdi-coro/ficha.md)
 - El subtítulo lleva un «(…)» en el segundo 11 («(…) tus besos y tu calor»): sale con el hueco.
 
@@ -32,7 +32,7 @@ Crédito: Lalo Ocampo (YouTube) · «Lalo Ocampo - Te Perdí», minuto 0:57 · h
 
 ### 2026-11-18-madrilena-se-formo-el-perreo
 
-- **Gancho:** MADRILEÑA: «se formó el perreo» · en la bandeja desde las 12:59 del 2026-11-19 (sigue ahí a las 18:34)
+- **Gancho:** MADRILEÑA: «se formó el perreo» · en la bandeja desde las 12:59 del 2026-11-19 (sigue ahí a las 00:36 del 2026-11-20)
 - [Video](../clipero/clips/2026-11-18-madrilena-se-formo-el-perreo/clip.mp4) · [Ficha](../clipero/clips/2026-11-18-madrilena-se-formo-el-perreo/ficha.md)
 - El subtítulo lleva un «(…)» en el segundo 3 («cintura, (…) pierde la cordura»).
 
@@ -50,7 +50,7 @@ Crédito: Lalo Ocampo (YouTube) · «Lalo Ocampo - Madrileña», minuto 0:09 · 
 
 ## Aprobados en cola
 
-No hace falta hacer nada: los ciclos de esos días los suben a la bandeja (4 al día como máximo, dentro del horario de 08:00 a 23:00). Primero va la ventana más cercana y, dentro de cada canción, un clip por día. Todos a TikTok, cuenta `lalo-music`, derechos `autorizado`.
+No hace falta hacer nada: los ciclos de esos días los suben a la bandeja (4 al día como máximo, dentro del horario de 08:00 a 23:00). Los 7 videos están en disco y sus envíos no han cambiado. Primero va la ventana más cercana y, dentro de cada canción, un clip por día. Todos a TikTok, cuenta `lalo-music`, derechos `autorizado`.
 
 | Día previsto | Clip | Puntaje | Ventana | Nota |
 |---|---|---|---|---|
