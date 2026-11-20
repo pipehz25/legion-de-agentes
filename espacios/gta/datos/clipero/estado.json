@@ -1,71 +1,702 @@
 {
-  "actualizado": "2026-11-19T08:22:30-05:00",
-  "ciclo": 1,
-  "ultimo_ciclo_cazador": 14,
-  "ultimo_ciclo_cazador_risas": 6,
-  "_nota_cazadores": "Espacio con enfoque propio (GTA VI): los ciclos de los cazadores solo se anotan; sus oportunidades no se usan.",
-  "pendientes_proximo_ciclo": [
-    { "id": "3QjXNSf6keg", "url": "https://www.youtube.com/watch?v=3QjXNSf6keg", "titulo": "LIVE! - GTA 6 EARLY ACCESS! FREE ROAM GAMEPLAY LIVE (Typical Gamer)", "motivo": "VOD de 9 h recien terminado (6,1 M vistas); sin subtitulos automaticos todavia y demasiado largo para whisper. Reintentar cuando YouTube genere los subtitulos." },
-    { "id": "qSyo5d-dVzA", "url": "https://www.youtube.com/watch?v=qSyo5d-dVzA", "titulo": "PLAYING GTA 6 EARLY ACCESS GAMEPLAY (IShowSpeed)", "motivo": "seguia en directo (45 h, 22,8 M vistas); cortar cuando quede el VOD o buscar sus resumenes oficiales" },
-    { "id": "VZqAPdUvqnQ", "url": "https://www.youtube.com/watch?v=VZqAPdUvqnQ", "titulo": "PLAYING GTA 6 FOR THE FIRST TIME (Kai Cenat Live)", "motivo": "seguia en directo (47 h); cortar cuando quede el VOD" },
-    { "id": "k3esjgmbphQ", "url": "https://www.youtube.com/watch?v=k3esjgmbphQ", "titulo": "PLAYING GTA 6 FOR THE FIRST TIME (Jynxzi)", "motivo": "seguia en directo" },
-    { "id": "E2pZNFdeAjk", "url": "https://www.youtube.com/watch?v=E2pZNFdeAjk", "titulo": "The Vanoss Crew Plays GTA 6!", "motivo": "seguia en directo" },
-    { "id": "MeTmJEJIO-I", "url": "https://www.youtube.com/watch?v=MeTmJEJIO-I", "titulo": "I tried 'GTA 6'... [No Spoilers] (Luke Stephens)", "motivo": "recien subido; candidato" },
-    { "id": "z_lPEY61swg", "url": "https://www.youtube.com/watch?v=z_lPEY61swg", "titulo": "Grand Theft Auto 6 (GTA 6) Review - Reaction! (Tyrone Magnus)", "motivo": "candidato; ojo a ideas repetidas con Luke Stephens" },
-    { "id": "F_Dnb5ljf-4", "url": "https://www.youtube.com/watch?v=F_Dnb5ljf-4", "titulo": "FlightReacts To Kai & Speed GTA 6 Trailers!", "motivo": "candidato (39 h al buscar)" }
-  ],
-  "fuentes": [
-    { "id": "EfjuhiFNJYw", "url": "https://www.youtube.com/watch?v=EfjuhiFNJYw", "titulo": "xQc Plays GTA 6 Early | First Look!", "analizado": "2026-11-18", "resultado": "sin momentos: casi todo cinematicas de la historia (material de Rockstar y spoilers) con comentario escaso de xQc" },
-    { "id": "CKZKZQNq1DU", "url": "https://www.youtube.com/watch?v=CKZKZQNq1DU", "titulo": "DAD DESTROYS GTA 6! (Foltyn Reacts)", "analizado": "2026-11-18", "resultado": "sin momentos: reaccion a un sketch guionizado con menores; no es GTA VI en si (metodologia 6)" },
-    { "id": "wKmIqTs2LoE", "url": "https://www.youtube.com/watch?v=wKmIqTs2LoE", "titulo": "How I Filmed My GTA 6 Trailer (Kai Cenat Live)", "analizado": "2026-11-18", "resultado": "5 clips" },
-    { "id": "Gxsj9gKL-ZM", "url": "https://www.youtube.com/watch?v=Gxsj9gKL-ZM", "titulo": "GTA 6 Review Roundup - Luke Reacts (Luke Stephens LIVE)", "analizado": "2026-11-18", "resultado": "12 clips" },
-    { "id": "iUZEJ4ncReo", "url": "https://www.youtube.com/watch?v=iUZEJ4ncReo", "titulo": "GTA 6 - Streamers React To First Mission (Red Arcade)", "analizado": "2026-11-18", "resultado": "sin momentos sobre el umbral: recopilacion de varios streamers sin identificar, voces encima de las cinematicas; el mejor (chiste del 'hot milk', 0:04:26) queda propuesto con 62" },
-    { "id": "0omrQP5lMGA", "url": "https://www.youtube.com/watch?v=0omrQP5lMGA", "titulo": "GTA 6 Review - Kinda Funny Gamescast", "analizado": "2026-11-18", "resultado": "9 clips. Ojo: el plano general de la mesa lleva el logo del patrocinador 5-hour Energy; solo sirven los tramos con B-roll (0:26-0:54, 1:01-1:03, 1:08-1:24) y algunos primeros planos (0:18-0:21). Hojas vistazo-NN.jpg con el mapa de planos" }
-  ],
-  "momentos": [
-    { "fuente": "wKmIqTs2LoE", "inicio": 606.45, "fin": 660.6, "estado": "cortado", "clip": "2026-11-18-kai-here-we-go-again", "variante_de": null, "motivo": "" },
-    { "fuente": "wKmIqTs2LoE", "inicio": 1010.09, "fin": 1057.2, "estado": "cortado", "clip": "2026-11-18-wiz-kai-more-than-streamer", "variante_de": null, "motivo": "" },
-    { "fuente": "wKmIqTs2LoE", "inicio": 698.01, "fin": 756.78, "estado": "cortado", "clip": "2026-11-18-kai-window-dive-stunt", "variante_de": null, "motivo": "" },
-    { "fuente": "wKmIqTs2LoE", "inicio": 1061.45, "fin": 1093.74, "estado": "cortado", "clip": "2026-11-18-kai-goodbye-gta-5", "variante_de": null, "motivo": "" },
-    { "fuente": "wKmIqTs2LoE", "inicio": 0, "fin": 26.86, "estado": "cortado", "clip": "2026-11-18-kai-directed-gta6-trailer", "variante_de": null, "motivo": "" },
-    { "fuente": "Gxsj9gKL-ZM", "inicio": 22.09, "fin": 68.86, "estado": "cortado", "clip": "2026-11-18-gta6-99-after-146-reviews", "variante_de": null, "motivo": "" },
-    { "fuente": "Gxsj9gKL-ZM", "inicio": 2916.49, "fin": 2962.54, "estado": "cortado", "clip": "2026-11-18-gta6-confirms-old-leak", "variante_de": null, "motivo": "" },
-    { "fuente": "Gxsj9gKL-ZM", "inicio": 605.05, "fin": 633.82, "estado": "cortado", "clip": "2026-11-18-lucia-greatest-female-character", "variante_de": null, "motivo": "" },
-    { "fuente": "Gxsj9gKL-ZM", "inicio": 949.05, "fin": 1003.26, "estado": "cortado", "clip": "2026-11-18-gta6-dont-raise-brightness", "variante_de": null, "motivo": "" },
-    { "fuente": "Gxsj9gKL-ZM", "inicio": 790.41, "fin": 842.22, "estado": "cortado", "clip": "2026-11-18-gta6-30fps-take", "variante_de": null, "motivo": "" },
-    { "fuente": "Gxsj9gKL-ZM", "inicio": 1906.65, "fin": 1937.98, "estado": "cortado", "clip": "2026-11-18-gta6-jumbo-jet", "variante_de": null, "motivo": "" },
-    { "fuente": "Gxsj9gKL-ZM", "inicio": 2290.89, "fin": 2350.38, "estado": "cortado", "clip": "2026-11-18-gta6-lose-the-cops", "variante_de": null, "motivo": "" },
-    { "fuente": "Gxsj9gKL-ZM", "inicio": 1175.93, "fin": 1230.62, "estado": "cortado", "clip": "2026-11-18-rockstar-says-yes", "variante_de": null, "motivo": "" },
-    { "fuente": "Gxsj9gKL-ZM", "inicio": 564.41, "fin": 586.22, "estado": "cortado", "clip": "2026-11-18-gta6-without-dan-houser", "variante_de": null, "motivo": "" },
-    { "fuente": "Gxsj9gKL-ZM", "inicio": 1083.77, "fin": 1115.26, "estado": "cortado", "clip": "2026-11-18-rockstar-mad-scientist", "variante_de": null, "motivo": "" },
-    { "fuente": "Gxsj9gKL-ZM", "inicio": 1359.13, "fin": 1386.86, "estado": "cortado", "clip": "2026-11-18-gta6-pro-yapper-speechless", "variante_de": null, "motivo": "" },
-    { "fuente": "Gxsj9gKL-ZM", "inicio": 517.45, "fin": 561.02, "estado": "cortado", "clip": "2026-11-18-jason-arthur-morgan-vibe", "variante_de": null, "motivo": "" },
-    { "fuente": "Gxsj9gKL-ZM", "inicio": 382, "fin": 442, "estado": "descartado", "clip": null, "variante_de": null, "motivo": "idea repetida: el 99 en Metacritic ya va en 2026-11-18-gta6-99-after-146-reviews (chiste de los criticos contrarios y comparacion con Ocarina of Time)" },
-    { "fuente": "Gxsj9gKL-ZM", "inicio": 2538, "fin": 2560, "estado": "descartado", "clip": null, "variante_de": null, "motivo": "idea repetida: chiste de Starfield sobre el 99" },
-    { "fuente": "Gxsj9gKL-ZM", "inicio": 2679, "fin": 2714, "estado": "descartado", "clip": null, "variante_de": null, "motivo": "idea repetida: aviones que persiguen el jumbo; ya va el clip del jumbo jet" },
-    { "fuente": "0omrQP5lMGA", "inicio": 2844.49, "fin": 2891.42, "estado": "cortado", "clip": "2026-11-19-gta6-trojan-horse-empathy", "variante_de": null, "motivo": "" },
-    { "fuente": "0omrQP5lMGA", "inicio": 2470.33, "fin": 2520.62, "estado": "cortado", "clip": "2026-11-19-gta6-jason-eats-chips", "variante_de": null, "motivo": "" },
-    { "fuente": "0omrQP5lMGA", "inicio": 7105.77, "fin": 7135.1, "estado": "descartado", "clip": null, "variante_de": null, "motivo": "plano general de la mesa con el logo del patrocinador (5-hour Energy) durante todo el momento (metodologia 5). Momento de 85: 'hay varios finales'. Recuperable si el usuario acepta el logo del set" },
-    { "fuente": "0omrQP5lMGA", "inicio": 5406.3, "fin": 5462.9, "estado": "descartado", "clip": null, "variante_de": null, "motivo": "plano general con logo del patrocinador todo el momento. Momento de 82: Andy saca una cana de pescar en pleno tiroteo. Recuperable si se acepta el logo" },
-    { "fuente": "0omrQP5lMGA", "inicio": 319.53, "fin": 351.9, "estado": "descartado", "clip": null, "variante_de": null, "motivo": "plano general con logo del patrocinador todo el momento. Momento de 82: Greg Miller, GTA 6 frente al 'AI slop'. Recuperable si se acepta el logo" },
-    { "fuente": "0omrQP5lMGA", "inicio": 1232.57, "fin": 1280.06, "estado": "cortado", "clip": "2026-11-19-gta6-once-in-a-lifetime", "variante_de": null, "motivo": "" },
-    { "fuente": "0omrQP5lMGA", "inicio": 2323.37, "fin": 2355.66, "estado": "cortado", "clip": "2026-11-19-gta6-under-five-bugs", "variante_de": null, "motivo": "" },
-    { "fuente": "0omrQP5lMGA", "inicio": 4820.49, "fin": 4846.54, "estado": "cortado", "clip": "2026-11-19-rockstar-took-it-personally", "variante_de": null, "motivo": "" },
-    { "fuente": "0omrQP5lMGA", "inicio": 4540.41, "fin": 4569.98, "estado": "cortado", "clip": "2026-11-19-gta6-armored-car-22k", "variante_de": null, "motivo": "" },
-    { "fuente": "0omrQP5lMGA", "inicio": 4590.89, "fin": 4630.46, "estado": "cortado", "clip": "2026-11-19-gta6-jason-judged-truck", "variante_de": null, "motivo": "" },
-    { "fuente": "0omrQP5lMGA", "inicio": 2936.57, "fin": 2981.98, "estado": "cortado", "clip": "2026-11-19-gta6-no-retry", "variante_de": null, "motivo": "" },
-    { "fuente": "0omrQP5lMGA", "inicio": 2239.05, "fin": 2262.06, "estado": "cortado", "clip": "2026-11-19-gta6-tighter-roads", "variante_de": null, "motivo": "" },
-    { "fuente": "0omrQP5lMGA", "inicio": 1290.25, "fin": 1317.74, "estado": "descartado", "clip": null, "variante_de": null, "motivo": "pasa al plano general con el logo del patrocinador en la frase clave. Momento de 77: 'el mejor juego de Fast & Furious'. Recuperable si se acepta el logo" },
-    { "fuente": "0omrQP5lMGA", "inicio": 637.7, "fin": 688.6, "estado": "propuesto", "clip": null, "variante_de": null, "motivo": "77, plano general con logo del patrocinador: Andy Cortez, 'podria haber sido GTA 5.5'" },
-    { "fuente": "0omrQP5lMGA", "inicio": 5939.8, "fin": 5980.0, "estado": "propuesto", "clip": null, "variante_de": null, "motivo": "81, plano general con logo: Greg Miller juega 'el juego de meditacion' delante de su hijo" },
-    { "fuente": "0omrQP5lMGA", "inicio": 5237.8, "fin": 5286.4, "estado": "propuesto", "clip": null, "variante_de": null, "motivo": "78, plano general con logo: consejo de ir con la pareja al vender el botin (le roban en el barrio)" },
-    { "fuente": "0omrQP5lMGA", "inicio": 5780.0, "fin": 5824.5, "estado": "propuesto", "clip": null, "variante_de": null, "motivo": "78, plano general con logo: un caiman le arruina la infiltracion" },
-    { "fuente": "0omrQP5lMGA", "inicio": 8154.5, "fin": 8182.7, "estado": "propuesto", "clip": null, "variante_de": null, "motivo": "78, plano general con logo: Andy, ya no se puede robar cualquier coche" },
-    { "fuente": "0omrQP5lMGA", "inicio": 6676.0, "fin": 6719.0, "estado": "propuesto", "clip": null, "variante_de": null, "motivo": "77, plano general con logo: Andy, el autobus en el carril bus y 'la vida real parece GTA'" },
-    { "fuente": "0omrQP5lMGA", "inicio": 7683.4, "fin": 7736.9, "estado": "propuesto", "clip": null, "variante_de": null, "motivo": "79: Andy dice que el ultimo trailer lleva filtro y no se ve como el juego; pero se habla encima del trailer oficial de Rockstar (enfoque: no se corta material oficial)" },
-    { "fuente": "0omrQP5lMGA", "inicio": 3667.0, "fin": 3700.0, "estado": "propuesto", "clip": null, "variante_de": null, "motivo": "78, plano general con logo y tema delicado: dice que hay insultos en el juego que 'van a dar que hablar'; gancho arriesgado" },
-    { "fuente": "0omrQP5lMGA", "inicio": 7395.0, "fin": 7477.0, "estado": "descartado", "clip": null, "variante_de": null, "motivo": "idea repetida: 30 FPS ya va en 2026-11-18-gta6-30fps-take (Andy: 'Venmo me 50 bucks for 60 frames')" },
-    { "fuente": "iUZEJ4ncReo", "inicio": 266, "fin": 296, "estado": "propuesto", "clip": null, "variante_de": null, "motivo": "62 < 65: un streamer sin identificar bromea con que es un ladron de 'hot milk' en la primera mision; poco autonomo" },
-    { "fuente": "wKmIqTs2LoE", "inicio": 366, "fin": 425, "estado": "descartado", "clip": null, "variante_de": null, "motivo": "tomas repetidas de 'you chose the wrong house' con insultos censurados; poco autonomo y riesgo de palabra ofensiva" }
-  ]
+    "actualizado":  "2026-11-20T09:06:17-05:00",
+    "ciclo":  2,
+    "ultimo_ciclo_cazador":  15,
+    "ultimo_ciclo_cazador_risas":  7,
+    "_nota_cazadores":  "Espacio con enfoque propio (GTA VI): los ciclos de los cazadores solo se anotan; sus oportunidades no se usan.",
+    "_enfoque":  "Desde el ciclo 2 (2026-11-20): clips de gameplays de GTA VI subidos a YouTube; primero los libres de uso (config: fuentes_autorizadas).",
+    "pendientes_proximo_ciclo":  [
+                                     {
+                                         "id":  "rlluMwJXbqg",
+                                         "url":  "https://www.youtube.com/watch?v=rlluMwJXbqg",
+                                         "titulo":  "Gta 6 Free To Use Gameplay No Copyright #1 (Fox - No Copyright Gameplay)",
+                                         "prioridad":  "alta",
+                                         "motivo":  "libre de uso; cortar los 9 momentos propuestos en estado.momentos (vistazo ya hecho, hojas en datos/clipero/fuentes/rlluMwJXbqg) y comprobar el del tigre"
+                                     },
+                                     {
+                                         "id":  "konZi0msk6A",
+                                         "url":  "https://www.youtube.com/watch?v=konZi0msk6A",
+                                         "titulo":  "Gta 6 Daily Activities Vlog #1 (Ftug - No Copyright Gameplay)",
+                                         "prioridad":  "alta",
+                                         "motivo":  "libre de uso; cortar los 2 momentos propuestos (pelea en la playa y kayak); vistazo ya hecho"
+                                     },
+                                     {
+                                         "id":  "T9EEBZ9YUmo",
+                                         "url":  "https://www.youtube.com/watch?v=T9EEBZ9YUmo",
+                                         "titulo":  "Gta 6 Hanging Out With Cal (Ftug - No Copyright Gameplay), 1088 s",
+                                         "prioridad":  "alta",
+                                         "motivo":  "libre de uso; el vistazo se colgo el 2026-11-20: repetirlo"
+                                     },
+                                     {
+                                         "id":  "e5x7k8fBqHM",
+                                         "url":  "https://www.youtube.com/watch?v=e5x7k8fBqHM",
+                                         "titulo":  "Gta 6 Free To Use Gameplay No Copyright #2 (Fox - No Copyright Gameplay), 3807 s",
+                                         "prioridad":  "alta",
+                                         "motivo":  "libre de uso; el vistazo dio HTTP 403: repetirlo"
+                                     },
+                                     {
+                                         "id":  "6DqUioTxqhQ",
+                                         "url":  "https://www.youtube.com/watch?v=6DqUioTxqhQ",
+                                         "titulo":  "Gta 6 Swimming Diving \u0026 Backflips (Ftug - No Copyright Gameplay), 610 s",
+                                         "prioridad":  "alta",
+                                         "motivo":  "libre de uso (CC BY); sin analizar"
+                                     },
+                                     {
+                                         "id":  "TNGvT17c8Qg",
+                                         "url":  "https://www.youtube.com/watch?v=TNGvT17c8Qg",
+                                         "titulo":  "GTA 6 NO COPYRIGHT GAMEPLAY - Free to Use 4k 60FPS (GTA 6 No Copyright Gameplay), 951 s",
+                                         "prioridad":  "alta",
+                                         "motivo":  "libre de uso con condiciones (clips cortos editados); sin analizar"
+                                     },
+                                     {
+                                         "id":  "9Xkv1gkvyak",
+                                         "url":  "https://www.youtube.com/watch?v=9Xkv1gkvyak",
+                                         "titulo":  "No Copyright GTA 6 Gameplay (Royalty Free) (KatanaChops), 1734 s",
+                                         "prioridad":  "alta",
+                                         "motivo":  "permiso solo en el titulo; despues de los otros tres canales"
+                                     },
+                                     {
+                                         "id":  "3QjXNSf6keg",
+                                         "url":  "https://www.youtube.com/watch?v=3QjXNSf6keg",
+                                         "titulo":  "LIVE! - GTA 6 EARLY ACCESS! FREE ROAM GAMEPLAY LIVE (Typical Gamer)",
+                                         "motivo":  "VOD de 9 h recien terminado (6,1 M vistas); sin subtitulos automaticos todavia y demasiado largo para whisper. Reintentar cuando YouTube genere los subtitulos.",
+                                         "prioridad":  "baja (enfoque anterior: reacciones)"
+                                     },
+                                     {
+                                         "id":  "qSyo5d-dVzA",
+                                         "url":  "https://www.youtube.com/watch?v=qSyo5d-dVzA",
+                                         "titulo":  "PLAYING GTA 6 EARLY ACCESS GAMEPLAY (IShowSpeed)",
+                                         "motivo":  "seguia en directo (45 h, 22,8 M vistas); cortar cuando quede el VOD o buscar sus resumenes oficiales",
+                                         "prioridad":  "baja (enfoque anterior: reacciones)"
+                                     },
+                                     {
+                                         "id":  "VZqAPdUvqnQ",
+                                         "url":  "https://www.youtube.com/watch?v=VZqAPdUvqnQ",
+                                         "titulo":  "PLAYING GTA 6 FOR THE FIRST TIME (Kai Cenat Live)",
+                                         "motivo":  "seguia en directo (47 h); cortar cuando quede el VOD",
+                                         "prioridad":  "baja (enfoque anterior: reacciones)"
+                                     },
+                                     {
+                                         "id":  "k3esjgmbphQ",
+                                         "url":  "https://www.youtube.com/watch?v=k3esjgmbphQ",
+                                         "titulo":  "PLAYING GTA 6 FOR THE FIRST TIME (Jynxzi)",
+                                         "motivo":  "seguia en directo",
+                                         "prioridad":  "baja (enfoque anterior: reacciones)"
+                                     },
+                                     {
+                                         "id":  "E2pZNFdeAjk",
+                                         "url":  "https://www.youtube.com/watch?v=E2pZNFdeAjk",
+                                         "titulo":  "The Vanoss Crew Plays GTA 6!",
+                                         "motivo":  "seguia en directo",
+                                         "prioridad":  "baja (enfoque anterior: reacciones)"
+                                     },
+                                     {
+                                         "id":  "MeTmJEJIO-I",
+                                         "url":  "https://www.youtube.com/watch?v=MeTmJEJIO-I",
+                                         "titulo":  "I tried \u0027GTA 6\u0027... [No Spoilers] (Luke Stephens)",
+                                         "motivo":  "recien subido; candidato",
+                                         "prioridad":  "baja (enfoque anterior: reacciones)"
+                                     },
+                                     {
+                                         "id":  "z_lPEY61swg",
+                                         "url":  "https://www.youtube.com/watch?v=z_lPEY61swg",
+                                         "titulo":  "Grand Theft Auto 6 (GTA 6) Review - Reaction! (Tyrone Magnus)",
+                                         "motivo":  "candidato; ojo a ideas repetidas con Luke Stephens",
+                                         "prioridad":  "baja (enfoque anterior: reacciones)"
+                                     },
+                                     {
+                                         "id":  "F_Dnb5ljf-4",
+                                         "url":  "https://www.youtube.com/watch?v=F_Dnb5ljf-4",
+                                         "titulo":  "FlightReacts To Kai \u0026 Speed GTA 6 Trailers!",
+                                         "motivo":  "candidato (39 h al buscar)",
+                                         "prioridad":  "baja (enfoque anterior: reacciones)"
+                                     }
+                                 ],
+    "fuentes":  [
+                    {
+                        "id":  "EfjuhiFNJYw",
+                        "url":  "https://www.youtube.com/watch?v=EfjuhiFNJYw",
+                        "titulo":  "xQc Plays GTA 6 Early | First Look!",
+                        "analizado":  "2026-11-18",
+                        "resultado":  "sin momentos: casi todo cinematicas de la historia (material de Rockstar y spoilers) con comentario escaso de xQc"
+                    },
+                    {
+                        "id":  "CKZKZQNq1DU",
+                        "url":  "https://www.youtube.com/watch?v=CKZKZQNq1DU",
+                        "titulo":  "DAD DESTROYS GTA 6! (Foltyn Reacts)",
+                        "analizado":  "2026-11-18",
+                        "resultado":  "sin momentos: reaccion a un sketch guionizado con menores; no es GTA VI en si (metodologia 6)"
+                    },
+                    {
+                        "id":  "wKmIqTs2LoE",
+                        "url":  "https://www.youtube.com/watch?v=wKmIqTs2LoE",
+                        "titulo":  "How I Filmed My GTA 6 Trailer (Kai Cenat Live)",
+                        "analizado":  "2026-11-18",
+                        "resultado":  "5 clips"
+                    },
+                    {
+                        "id":  "Gxsj9gKL-ZM",
+                        "url":  "https://www.youtube.com/watch?v=Gxsj9gKL-ZM",
+                        "titulo":  "GTA 6 Review Roundup - Luke Reacts (Luke Stephens LIVE)",
+                        "analizado":  "2026-11-18",
+                        "resultado":  "12 clips"
+                    },
+                    {
+                        "id":  "iUZEJ4ncReo",
+                        "url":  "https://www.youtube.com/watch?v=iUZEJ4ncReo",
+                        "titulo":  "GTA 6 - Streamers React To First Mission (Red Arcade)",
+                        "analizado":  "2026-11-18",
+                        "resultado":  "sin momentos sobre el umbral: recopilacion de varios streamers sin identificar, voces encima de las cinematicas; el mejor (chiste del \u0027hot milk\u0027, 0:04:26) queda propuesto con 62"
+                    },
+                    {
+                        "id":  "0omrQP5lMGA",
+                        "url":  "https://www.youtube.com/watch?v=0omrQP5lMGA",
+                        "titulo":  "GTA 6 Review - Kinda Funny Gamescast",
+                        "analizado":  "2026-11-18",
+                        "resultado":  "9 clips. Ojo: el plano general de la mesa lleva el logo del patrocinador 5-hour Energy; solo sirven los tramos con B-roll (0:26-0:54, 1:01-1:03, 1:08-1:24) y algunos primeros planos (0:18-0:21). Hojas vistazo-NN.jpg con el mapa de planos"
+                    },
+                    {
+                        "id":  "rlluMwJXbqg",
+                        "url":  "https://www.youtube.com/watch?v=rlluMwJXbqg",
+                        "titulo":  "Gta 6 Free To Use Gameplay No Copyright FOR TIKTOK \u0026 YOUTUBE No Commentary #1 (Fox - No Copyright Gameplay)",
+                        "analizado":  "2026-11-20",
+                        "resultado":  "0 clips: 10 momentos propuestos con vistazo (cada 15 s) y subtitulos automaticos del dialogo del juego; no se pudo cortar porque el candado del Clipero quedo tomado por un vistazo colgado. Libre de uso (CC BY). Es el inicio de la historia: casi todo son cinematicas; lo jugable esta en 0:11-0:13, 0:18-0:21, 0:23-0:33 y 0:45-0:59"
+                    },
+                    {
+                        "id":  "konZi0msk6A",
+                        "url":  "https://www.youtube.com/watch?v=konZi0msk6A",
+                        "titulo":  "Gta 6 Daily Activities Vlog #1 (Ftug - No Copyright Gameplay)",
+                        "analizado":  "2026-11-20",
+                        "resultado":  "0 clips: 3 momentos propuestos con vistazo (cada 10 s); sin cortar por el candado tomado. Libre de uso (CC BY)"
+                    },
+                    {
+                        "id":  "e5x7k8fBqHM",
+                        "url":  "https://www.youtube.com/watch?v=e5x7k8fBqHM",
+                        "titulo":  "Gta 6 Free To Use Gameplay No Copyright FOR TIKTOK \u0026 YOUTUBE No Commentary #2 (Fox - No Copyright Gameplay)",
+                        "analizado":  "2026-11-20",
+                        "resultado":  "error: vistazo con HTTP 403 de YouTube (analizar si funciono: sin subtitulos). Reintentar"
+                    },
+                    {
+                        "id":  "T9EEBZ9YUmo",
+                        "url":  "https://www.youtube.com/watch?v=T9EEBZ9YUmo",
+                        "titulo":  "Gta 6 Hanging Out With Cal (Ftug - No Copyright Gameplay)",
+                        "analizado":  "2026-11-20",
+                        "resultado":  "error: el vistazo se colgo de 08:37 a ~09:20 (deno sin CPU, yt-dlp esperando) con el candado del Clipero tomado; termino solo con codigo 1. Reintentar"
+                    }
+                ],
+    "momentos":  [
+                     {
+                         "fuente":  "wKmIqTs2LoE",
+                         "inicio":  606.45,
+                         "fin":  660.6,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-18-kai-here-we-go-again",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "wKmIqTs2LoE",
+                         "inicio":  1010.09,
+                         "fin":  1057.2,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-18-wiz-kai-more-than-streamer",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "wKmIqTs2LoE",
+                         "inicio":  698.01,
+                         "fin":  756.78,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-18-kai-window-dive-stunt",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "wKmIqTs2LoE",
+                         "inicio":  1061.45,
+                         "fin":  1093.74,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-18-kai-goodbye-gta-5",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "wKmIqTs2LoE",
+                         "inicio":  0,
+                         "fin":  26.86,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-18-kai-directed-gta6-trailer",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "Gxsj9gKL-ZM",
+                         "inicio":  22.09,
+                         "fin":  68.86,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-18-gta6-99-after-146-reviews",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "Gxsj9gKL-ZM",
+                         "inicio":  2916.49,
+                         "fin":  2962.54,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-18-gta6-confirms-old-leak",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "Gxsj9gKL-ZM",
+                         "inicio":  605.05,
+                         "fin":  633.82,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-18-lucia-greatest-female-character",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "Gxsj9gKL-ZM",
+                         "inicio":  949.05,
+                         "fin":  1003.26,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-18-gta6-dont-raise-brightness",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "Gxsj9gKL-ZM",
+                         "inicio":  790.41,
+                         "fin":  842.22,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-18-gta6-30fps-take",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "Gxsj9gKL-ZM",
+                         "inicio":  1906.65,
+                         "fin":  1937.98,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-18-gta6-jumbo-jet",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "Gxsj9gKL-ZM",
+                         "inicio":  2290.89,
+                         "fin":  2350.38,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-18-gta6-lose-the-cops",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "Gxsj9gKL-ZM",
+                         "inicio":  1175.93,
+                         "fin":  1230.62,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-18-rockstar-says-yes",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "Gxsj9gKL-ZM",
+                         "inicio":  564.41,
+                         "fin":  586.22,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-18-gta6-without-dan-houser",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "Gxsj9gKL-ZM",
+                         "inicio":  1083.77,
+                         "fin":  1115.26,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-18-rockstar-mad-scientist",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "Gxsj9gKL-ZM",
+                         "inicio":  1359.13,
+                         "fin":  1386.86,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-18-gta6-pro-yapper-speechless",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "Gxsj9gKL-ZM",
+                         "inicio":  517.45,
+                         "fin":  561.02,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-18-jason-arthur-morgan-vibe",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "Gxsj9gKL-ZM",
+                         "inicio":  382,
+                         "fin":  442,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "idea repetida: el 99 en Metacritic ya va en 2026-11-18-gta6-99-after-146-reviews (chiste de los criticos contrarios y comparacion con Ocarina of Time)"
+                     },
+                     {
+                         "fuente":  "Gxsj9gKL-ZM",
+                         "inicio":  2538,
+                         "fin":  2560,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "idea repetida: chiste de Starfield sobre el 99"
+                     },
+                     {
+                         "fuente":  "Gxsj9gKL-ZM",
+                         "inicio":  2679,
+                         "fin":  2714,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "idea repetida: aviones que persiguen el jumbo; ya va el clip del jumbo jet"
+                     },
+                     {
+                         "fuente":  "0omrQP5lMGA",
+                         "inicio":  2844.49,
+                         "fin":  2891.42,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-19-gta6-trojan-horse-empathy",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "0omrQP5lMGA",
+                         "inicio":  2470.33,
+                         "fin":  2520.62,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-19-gta6-jason-eats-chips",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "0omrQP5lMGA",
+                         "inicio":  7105.77,
+                         "fin":  7135.1,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "plano general de la mesa con el logo del patrocinador (5-hour Energy) durante todo el momento (metodologia 5). Momento de 85: \u0027hay varios finales\u0027. Recuperable si el usuario acepta el logo del set"
+                     },
+                     {
+                         "fuente":  "0omrQP5lMGA",
+                         "inicio":  5406.3,
+                         "fin":  5462.9,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "plano general con logo del patrocinador todo el momento. Momento de 82: Andy saca una cana de pescar en pleno tiroteo. Recuperable si se acepta el logo"
+                     },
+                     {
+                         "fuente":  "0omrQP5lMGA",
+                         "inicio":  319.53,
+                         "fin":  351.9,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "plano general con logo del patrocinador todo el momento. Momento de 82: Greg Miller, GTA 6 frente al \u0027AI slop\u0027. Recuperable si se acepta el logo"
+                     },
+                     {
+                         "fuente":  "0omrQP5lMGA",
+                         "inicio":  1232.57,
+                         "fin":  1280.06,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-19-gta6-once-in-a-lifetime",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "0omrQP5lMGA",
+                         "inicio":  2323.37,
+                         "fin":  2355.66,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-19-gta6-under-five-bugs",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "0omrQP5lMGA",
+                         "inicio":  4820.49,
+                         "fin":  4846.54,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-19-rockstar-took-it-personally",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "0omrQP5lMGA",
+                         "inicio":  4540.41,
+                         "fin":  4569.98,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-19-gta6-armored-car-22k",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "0omrQP5lMGA",
+                         "inicio":  4590.89,
+                         "fin":  4630.46,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-19-gta6-jason-judged-truck",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "0omrQP5lMGA",
+                         "inicio":  2936.57,
+                         "fin":  2981.98,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-19-gta6-no-retry",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "0omrQP5lMGA",
+                         "inicio":  2239.05,
+                         "fin":  2262.06,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-19-gta6-tighter-roads",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "0omrQP5lMGA",
+                         "inicio":  1290.25,
+                         "fin":  1317.74,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "pasa al plano general con el logo del patrocinador en la frase clave. Momento de 77: \u0027el mejor juego de Fast \u0026 Furious\u0027. Recuperable si se acepta el logo"
+                     },
+                     {
+                         "fuente":  "0omrQP5lMGA",
+                         "inicio":  637.7,
+                         "fin":  688.6,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "77, plano general con logo del patrocinador: Andy Cortez, \u0027podria haber sido GTA 5.5\u0027"
+                     },
+                     {
+                         "fuente":  "0omrQP5lMGA",
+                         "inicio":  5939.8,
+                         "fin":  5980.0,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "81, plano general con logo: Greg Miller juega \u0027el juego de meditacion\u0027 delante de su hijo"
+                     },
+                     {
+                         "fuente":  "0omrQP5lMGA",
+                         "inicio":  5237.8,
+                         "fin":  5286.4,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "78, plano general con logo: consejo de ir con la pareja al vender el botin (le roban en el barrio)"
+                     },
+                     {
+                         "fuente":  "0omrQP5lMGA",
+                         "inicio":  5780.0,
+                         "fin":  5824.5,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "78, plano general con logo: un caiman le arruina la infiltracion"
+                     },
+                     {
+                         "fuente":  "0omrQP5lMGA",
+                         "inicio":  8154.5,
+                         "fin":  8182.7,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "78, plano general con logo: Andy, ya no se puede robar cualquier coche"
+                     },
+                     {
+                         "fuente":  "0omrQP5lMGA",
+                         "inicio":  6676.0,
+                         "fin":  6719.0,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "77, plano general con logo: Andy, el autobus en el carril bus y \u0027la vida real parece GTA\u0027"
+                     },
+                     {
+                         "fuente":  "0omrQP5lMGA",
+                         "inicio":  7683.4,
+                         "fin":  7736.9,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "79: Andy dice que el ultimo trailer lleva filtro y no se ve como el juego; pero se habla encima del trailer oficial de Rockstar (enfoque: no se corta material oficial)"
+                     },
+                     {
+                         "fuente":  "0omrQP5lMGA",
+                         "inicio":  3667.0,
+                         "fin":  3700.0,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "78, plano general con logo y tema delicado: dice que hay insultos en el juego que \u0027van a dar que hablar\u0027; gancho arriesgado"
+                     },
+                     {
+                         "fuente":  "0omrQP5lMGA",
+                         "inicio":  7395.0,
+                         "fin":  7477.0,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "idea repetida: 30 FPS ya va en 2026-11-18-gta6-30fps-take (Andy: \u0027Venmo me 50 bucks for 60 frames\u0027)"
+                     },
+                     {
+                         "fuente":  "iUZEJ4ncReo",
+                         "inicio":  266,
+                         "fin":  296,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "62 \u003c 65: un streamer sin identificar bromea con que es un ladron de \u0027hot milk\u0027 en la primera mision; poco autonomo"
+                     },
+                     {
+                         "fuente":  "wKmIqTs2LoE",
+                         "inicio":  366,
+                         "fin":  425,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "tomas repetidas de \u0027you chose the wrong house\u0027 con insultos censurados; poco autonomo y riesgo de palabra ofensiva"
+                     },
+                     {
+                         "fuente":  "rlluMwJXbqg",
+                         "inicio":  988,
+                         "fin":  1028,
+                         "estado":  "propuesto",
+                         "clip":  "2026-11-20-gta6-buddy-conspiracy-rant",
+                         "variante_de":  null,
+                         "motivo":  "75, humor, SPOILER leve. Gancho: \"Jason\u0027s buddy has a theory about everything\". Cinematica del bote: teorias de conspiracion, \u0027I use a VPN\u0027. Sin cortar: candado tomado"
+                     },
+                     {
+                         "fuente":  "rlluMwJXbqg",
+                         "inicio":  1852,
+                         "fin":  1900,
+                         "estado":  "propuesto",
+                         "clip":  "2026-11-20-gta6-seaplane-escape",
+                         "variante_de":  null,
+                         "motivo":  "74, accion, SPOILER leve. Gancho: \"Escaping a shootout by seaplane in GTA 6\". Tramo mas fuerte del video (volumen). Sin cortar: candado tomado"
+                     },
+                     {
+                         "fuente":  "rlluMwJXbqg",
+                         "inicio":  688,
+                         "fin":  735,
+                         "estado":  "propuesto",
+                         "clip":  "2026-11-20-gta6-lucia-stickup",
+                         "variante_de":  null,
+                         "motivo":  "73, historia, SPOILER (prologo de Lucia). Gancho: \"Lucia does NOT play around in GTA 6\". Sin cortar: candado tomado"
+                     },
+                     {
+                         "fuente":  "rlluMwJXbqg",
+                         "inicio":  3365,
+                         "fin":  3405,
+                         "estado":  "propuesto",
+                         "clip":  "2026-11-20-gta6-repaint-your-house",
+                         "variante_de":  null,
+                         "motivo":  "73, detalle. Gancho: \"You can repaint your own house in GTA 6\". Sin cortar: candado tomado"
+                     },
+                     {
+                         "fuente":  "rlluMwJXbqg",
+                         "inicio":  38,
+                         "fin":  91,
+                         "estado":  "propuesto",
+                         "clip":  "2026-11-20-gta6-jason-lucia-first-meet",
+                         "variante_de":  null,
+                         "motivo":  "72, humor, SPOILER muy leve (primera escena). Gancho: \"How Jason and Lucia first meet\". Lleva los creditos del juego sobreimpresos y la escena sale en todos los walkthroughs (frescura baja). Sin cortar: candado tomado"
+                     },
+                     {
+                         "fuente":  "rlluMwJXbqg",
+                         "inicio":  1960,
+                         "fin":  1994,
+                         "estado":  "propuesto",
+                         "clip":  "2026-11-20-gta6-seaplane-water-landing",
+                         "variante_de":  null,
+                         "motivo":  "71, satisfactorio. Gancho: \"Landing a seaplane in a storm in GTA 6\". Sin cortar: candado tomado"
+                     },
+                     {
+                         "fuente":  "rlluMwJXbqg",
+                         "inicio":  2790,
+                         "fin":  2830,
+                         "estado":  "propuesto",
+                         "clip":  "2026-11-20-gta6-real-workouts",
+                         "variante_de":  null,
+                         "motivo":  "70, detalle. Gancho: \"GTA 6 has real workouts now\". Sin cortar: candado tomado"
+                     },
+                     {
+                         "fuente":  "rlluMwJXbqg",
+                         "inicio":  1705,
+                         "fin":  1745,
+                         "estado":  "propuesto",
+                         "clip":  "2026-11-20-gta6-swamp-gunfight",
+                         "variante_de":  null,
+                         "motivo":  "69, accion, SPOILER leve. Gancho: \"GTA 6 gunfights hit different\". Sin cortar: candado tomado"
+                     },
+                     {
+                         "fuente":  "rlluMwJXbqg",
+                         "inicio":  1113,
+                         "fin":  1152,
+                         "estado":  "propuesto",
+                         "clip":  "2026-11-20-gta6-airdrop-boat-run",
+                         "variante_de":  null,
+                         "motivo":  "68, paisaje y barco, SPOILER leve. Gancho: \"Catching airdrops by boat in GTA 6\". Sin cortar: candado tomado"
+                     },
+                     {
+                         "fuente":  "rlluMwJXbqg",
+                         "inicio":  1512,
+                         "fin":  1552,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "por comprobar: en el dialogo hablan de un \u0027stripy\u0027 (tigre) en la jaula del campamento; si al cortar se ve el tigre, ~70 con gancho \"There are tigers in GTA 6\""
+                     },
+                     {
+                         "fuente":  "konZi0msk6A",
+                         "inicio":  410,
+                         "fin":  455,
+                         "estado":  "propuesto",
+                         "clip":  "2026-11-20-gta6-beach-camp-brawl",
+                         "variante_de":  null,
+                         "motivo":  "72, humor y NPCs. Gancho: \"Never crash a beach camp in GTA 6\". Pelea a punos en un campamento de playa; comprobar con revision.jpg. Sin cortar: candado tomado"
+                     },
+                     {
+                         "fuente":  "konZi0msk6A",
+                         "inicio":  180,
+                         "fin":  220,
+                         "estado":  "propuesto",
+                         "clip":  "2026-11-20-gta6-kayak-the-keys",
+                         "variante_de":  null,
+                         "motivo":  "70, paisaje. Gancho: \"Kayaking the Keys in GTA 6 looks unreal\". Sin cortar: candado tomado"
+                     },
+                     {
+                         "fuente":  "konZi0msk6A",
+                         "inicio":  40,
+                         "fin":  65,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "65 (en el umbral): la serpiente mascota en el terrario de la casa de Jason. Gancho posible: \"Jason has a pet snake in GTA 6\""
+                     }
+                 ]
 }

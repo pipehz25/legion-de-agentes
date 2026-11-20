@@ -35,6 +35,27 @@
   },
   "_variantes": "Versiones reales distintas de un mismo momento para repartir entre las cuentas gta-* (metodologia.md §7). Nunca más versiones que cuentas activas cuya linea encaje: mientras no haya cuentas activas, no se corta ninguna.",
 
-  "fuentes_autorizadas": [],
+  "fuentes_autorizadas": [
+    {
+      "canal": "Fox - No Copyright Gameplay",
+      "url": "https://www.youtube.com/channel/UCJ_Te6vjWguAqB0dncd_cHA",
+      "condiciones": "Comprobado el 2026-11-20 en la descripción de sus gameplays de GTA 6 (#1 rlluMwJXbqg y #2 e5x7k8fBqHM): \"This gameplay footage is under Creative Commons — you're free to repost or use it in your content, even without heavy edits or commentary.\" El crédito es opcional. Pide: \"Don’t use my videos to run a No Copyright gameplay channel\". Licencia de YouTube en rlluMwJXbqg: Creative Commons Attribution. Cuidado: su \"GTA 6 ... #8\" (qQ4Q_90iyVI) se subió el 2026-11-15, antes del lanzamiento: no usarlo sin comprobar que es GTA VI."
+    },
+    {
+      "canal": "Ftug - No Copyright Gameplay",
+      "url": "https://www.youtube.com/channel/UC7eqKk3ydpWsXUn7kC7gHXQ",
+      "condiciones": "Comprobado el 2026-11-20 en la descripción de sus gameplays de GTA 6 (konZi0msk6A, 6DqUioTxqhQ, T9EEBZ9YUmo): \"This gameplay footage is under Creative Commons feel free to repost it or use it in your content, even without big edits or commentary.\" Entre los usos cita \"TikTok edits\" y \"YouTube Shorts\"; el crédito no es obligatorio. Licencia de YouTube: Creative Commons Attribution. Sube muchos videos cortos (< 600 s) de NPCs y actividades."
+    },
+    {
+      "canal": "GTA 6 No Copyright Gameplay",
+      "url": "https://www.youtube.com/channel/UCVvXmKa-gHRZhF6mT34zTpA",
+      "condiciones": "Comprobado el 2026-11-20 en la descripción de TNGvT17c8Qg (Usage Rules): \"You may use short gameplay clips in your own edited videos with meaningful changes, commentary or creative additions.\" Con condiciones: \"Do NOT re-upload our videos or clips without editing\", \"Do NOT upload our content as duplicate or unchanged videos\", \"Do NOT claim our original recordings as your own.\" Solo clips cortos con nuestra edición (vertical y gancho propio) y siempre con crédito."
+    },
+    {
+      "canal": "KatanaChops",
+      "url": "https://www.youtube.com/channel/UC_8Zx2lEkBO_Z6pxp-ZuQqQ",
+      "condiciones": "Permiso solo en el título de 9Xkv1gkvyak: \"No Copyright GTA 6 Gameplay (Royalty Free)\" (comprobado el 2026-11-20); la descripción es genérica y no dice nada de reutilización. Vale según el enfoque (el título lo dice), pero es el permiso más débil: usarlo después de Fox, Ftug y GTA 6 No Copyright Gameplay, y siempre con crédito."
+    }
+  ],
   "_fuentes_autorizadas": "Se llena sola: cada canal de gameplay libre de uso que el Clipero compruebe se añade aquí con la frase exacta del permiso en condiciones. Sus clips llevan derechos autorizado."
 }
