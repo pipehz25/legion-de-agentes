@@ -29,13 +29,14 @@
         { "alias": "gta-story", "activa": false, "linea": "GTA VI: momentos de Jason y Lucía y de la historia (con aviso de spoiler)" },
         { "alias": "gta-us", "activa": false, "linea": "todo" }
       ],
+      "_meta_gta": "Meta del usuario (2026-11-20): 5 videos al dia por canal en los 6 canales de YouTube, 30 al dia en total; cabe en el cupo de 100 subidas diarias del proyecto de Google.",
       "_cuentas_gta": "Canales de GTA VI que Santiago va a crear (pedido del 2026-11-20: varias cuentas y muchos videos al día). Las de nicho van primero para que reciban los originales de su tema; gta-us, la base, recibe el resto. Cada una se enciende al autorizarla en la copia de GTA (publicar.ps1 autorizar -Plataforma youtube -Cuenta <alias>). El cupo de la API es de 100 subidas al día por proyecto de Google, compartido entre todos los canales.",
       "privacidad": "public",
       "_privacidad": "private | unlisted | public (plataformas.md §3). Desde el 2026-11-02 la API deja publicar en público sin auditoría.",
       "categoria": "20",
       "_categoria": "20 = Gaming.",
       "idioma": "en",
-      "max_por_dia": 4
+      "max_por_dia": 5
     },
     "tiktok": {
       "activa": false,
