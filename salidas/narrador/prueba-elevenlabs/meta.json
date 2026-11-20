@@ -1,0 +1,11 @@
+{
+  "id": "prueba-elevenlabs",
+  "titulo": "¿Napoleón era bajito? Te lo contaron al revés.",
+  "duracion_s": 43.3,
+  "volumen": "I: -14.7 LUFS",
+  "voz": "elevenlabs / C12mZePhNoo0RoTXhSFV",
+  "avisos_revision": 0,
+  "producido": "2026-11-20T01:01:35.136Z",
+  "video": "prueba-elevenlabs.mp4",
+  "guion": "animados/propios/prueba-elevenlabs/guion.json"
+}

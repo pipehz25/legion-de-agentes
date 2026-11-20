@@ -4,7 +4,7 @@
   "nicho": "historia",
   "nota": "Primera prueba con voz de ElevenLabs (mismo guion que prueba-archivo, que usa Kokoro, para comparar). Antes de publicar: plan de pago con licencia comercial.",
   "motor": "elevenlabs",
-  "voz": "POR-ELEGIR",
+  "voz": "C12mZePhNoo0RoTXhSFV",
   "modelo_voz": "eleven_multilingual_v2",
   "tope_caracteres": 1500,
   "inicio": 0.2,
