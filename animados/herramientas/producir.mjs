@@ -20,16 +20,21 @@
 // que hay que leer) y, mientras no este la grabacion, el video queda "esperando grabacion"
 // (no es un error). salidas/animador/por-grabar.md junta todos los que esperan.
 //
-// Video largo de YouTube ("tipo": "largo" en el guion): lo hace largo.mjs (horizontal, imagenes
-// de archivo con movimiento, tarjetas de capitulo). Entrega el MP4, <video>.srt, miniatura.jpg,
+// Video largo de YouTube ("tipo": "largo" en el guion): con "orientacion": "horizontal" lo hace
+// largo-escenas.mjs (escenas disenadas, por capitulos: el estilo aprobado); sin ella, largo.mjs
+// (imagenes de archivo con movimiento). Entregan el MP4, <video>.srt, miniatura.jpg,
 // descripcion.txt, creditos-imagenes.md, fuentes.md, publicacion.txt y meta.json; con
 // --sin-render, todo menos el MP4 (y sin meta.json).
+//   ... --capitulos c0,c1   (video largo por escenas) solo esos capitulos: entrega <video>-c0-c1.mp4
+//   ... --capturas          (video largo por escenas) hojas de capturas de cada capitulo montado
+//   ... --con-pendientes    (video largo por escenas) renderiza todo aunque falten escenas (borrador)
 
 import { spawnSync } from "node:child_process";
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { aplanarLargo, esLargo, produceLargo } from "./largo.mjs";
+import { aplanarLargo, esLargo, esLargoEscenas, produceLargo } from "./largo.mjs";
+import { produceLargoEscenas } from "./largo-escenas.mjs";
 
 const AQUI = path.dirname(fileURLToPath(import.meta.url));
 const ANIMADOS = path.resolve(AQUI, "..");
@@ -48,6 +53,20 @@ function entregaNombre(carpeta, guion) {
 const args = process.argv.slice(2);
 const sinRender = args.includes("--sin-render");
 const todos = args.includes("--todos");
+const capturas = args.includes("--capturas");
+const conPendientes = args.includes("--con-pendientes");
+// --capitulos c0,c1 (o --capitulos=c0,c1): en un video largo por escenas, solo esos capitulos.
+let capitulos = null;
+const iCap = args.findIndex((a) => a === "--capitulos" || a.startsWith("--capitulos="));
+if (iCap >= 0) {
+  const valor = args[iCap].includes("=") ? args[iCap].split("=")[1] : args[iCap + 1] || "";
+  capitulos = valor.split(",").map((s) => s.trim()).filter(Boolean);
+  if (!args[iCap].includes("=")) args.splice(iCap + 1, 1);
+  if (!capitulos.length) {
+    console.error("--capitulos necesita una lista: --capitulos c0,c1");
+    process.exit(1);
+  }
+}
 const pedidas = args.filter((a) => !a.startsWith("--")).map((a) => path.resolve(a));
 
 function corre(titulo, orden, cwd, opciones = {}) {
@@ -262,7 +281,10 @@ for (const carpeta of carpetas) {
   try {
     const guion = leeGuion(carpeta);
     let hecho;
-    if (esLargo(guion)) {
+    if (esLargoEscenas(guion)) {
+      if (guion.motor === "grabada") escribeParaGrabar(carpeta, guion);
+      hecho = await produceLargoEscenas(carpeta, { sinRender, capitulos, capturas, conPendientes });
+    } else if (esLargo(guion)) {
       if (guion.motor === "grabada") escribeParaGrabar(carpeta, guion);
       hecho = await produceLargo(carpeta, { sinRender });
     } else {

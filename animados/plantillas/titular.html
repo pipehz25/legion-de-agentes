@@ -11,6 +11,8 @@
                                   palabra|en (cuando aparece; sin dato, desde el cuadro 0),
                                   sello (opcional, texto de un sello redondo: "1903"), palabra_sello,
                                   tachar (opcional: palabra dicha en la que se tacha la hoja) }
+         dibujo (opcional, sin calendario): un medallon con un icono de _escena-h-js.html (barco, mosquito,
+                 moneda, documento, esclusa...) en el lado "lado_dibujo" ("derecha" por defecto); palabra_dibujo
 -->
 <template>
   <style>
@@ -119,6 +121,24 @@
       position: absolute;
       inset: 30px;
     }
+    #{{id}}-dib {
+      position: absolute;
+      top: 220px;
+      width: 470px;
+      height: 470px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 50% 40%, #fbf3df 0%, #efe0bd 75%);
+      border: 12px solid var(--marco);
+      box-shadow: var(--marco-sombra);
+      opacity: 0;
+    }
+    #{{id}}-dib-f {
+      position: absolute;
+      left: 78px;
+      top: 78px;
+      width: 290px;
+      height: 290px;
+    }
   </style>
 
   <div id="root" data-composition-id="{{id}}" data-width="{{ancho}}" data-height="{{alto}}">
@@ -135,6 +155,7 @@
       </div>
       <div id="{{id}}-sello"></div>
     </div>
+    <div id="{{id}}-dib"><div id="{{id}}-dib-f"></div></div>
     <div class="{{id}}-texto" id="{{id}}-texto">
       <div id="{{id}}-insignia-fila"><span id="{{id}}-insignia" class="{{id}}-insignia">{{d.insignia|}}</span></div>
       <div id="{{id}}-titulo" class="{{id}}-titulo"></div>
@@ -149,7 +170,19 @@
     const C = D.calendario;
     const lado = C ? C.lado || "izquierda" : null;
     const caja = $("texto");
-    if (!C) {
+    const conDibujo = !C && Boolean(D.dibujo);
+    if (!conDibujo) $("dib").style.display = "none";
+    if (conDibujo) {
+      $("cal").style.display = "none";
+      $("dib-f").innerHTML = `<svg class="{{id}}-arte" viewBox="0 0 100 100">${icono(D.dibujo, "#3b2415")}</svg>`;
+      if (D.lado_dibujo === "izquierda") {
+        $("dib").style.left = "210px";
+        Object.assign(caja.style, { left: "820px", width: "960px", alignItems: "flex-start" });
+      } else {
+        $("dib").style.left = "1250px";
+        Object.assign(caja.style, { left: "150px", width: "1000px", alignItems: "flex-start" });
+      }
+    } else if (!C) {
       $("cal").style.display = "none";
       Object.assign(caja.style, { left: "200px", width: "1520px", alignItems: "center", textAlign: "center" });
     } else if (lado === "izquierda") {
@@ -170,7 +203,7 @@
       .map((l, i) => `<span class="{{id}}-linea${i === resalta ? " {{id}}-acento" : ""}">` + String(l).trim().split(/\s+/).map((p) => `<span id="{{id}}-p${n++}" class="{{id}}-pal">${esc(p)}</span>`).join("") + "</span>")
       .join("");
     const largo = Math.max(...lineas.map((l) => String(l).length));
-    const ancho = C ? 940 : 1500;
+    const ancho = C || conDibujo ? 940 : 1500;
     $("titulo").style.fontSize = tamPara("x".repeat(largo), ancho, 170, 90, T.anchoTitulo) + "px";
 
     // Cuando entra cada palabra: cuando se dice; si no se dice, repartidas en lo hablado.
@@ -183,9 +216,17 @@
       previo = t;
       tl.fromTo(el("p" + i), { opacity: 0, y: 50, scale: 0.85 }, { opacity: 1, y: 0, scale: 1, duration: 0.32, ease: "back.out(2.2)" }, t);
     });
-    tl.fromTo(el("filete"), { scaleX: 0, transformOrigin: C ? "0 50%" : "50% 50%" }, { scaleX: 1, duration: 0.6, ease: "power2.out" }, Math.max(0.05, previo + 0.2));
+    tl.fromTo(el("filete"), { scaleX: 0, transformOrigin: C || conDibujo ? "0 50%" : "50% 50%" }, { scaleX: 1, duration: 0.6, ease: "power2.out" }, Math.max(0.05, previo + 0.2));
     if (D.insignia) tl.fromTo(el("insignia"), { scale: 0.94 }, { scale: 1, duration: 0.4, ease: "back.out(2)" }, 0);
     fx.golpe(tl, el("titulo"), tope(previo + 0.45, 0.4), 1.04);
+
+    // Medallon con dibujo: entra girando, flota y late al final.
+    if (conDibujo) {
+      const tD = D.palabra_dibujo ? tope(dicho(D.palabra_dibujo, 0.3), 0.8) : 0.05;
+      tl.fromTo(el("dib"), { opacity: 0, scale: 0.4, rotation: -20 }, { opacity: 1, scale: 1, rotation: 0, duration: 0.55, ease: "back.out(1.8)" }, tD);
+      fx.flota(tl, el("dib-f"), tD + 0.6, r.dur, 8, 1.2);
+      fx.golpe(tl, el("dib"), tope(previo + 0.5, 0.4), 1.06);
+    }
 
     // Calendario: cae con un vaiven, late, y si se pide, se tacha o recibe su sello.
     if (C) {

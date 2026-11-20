@@ -46,10 +46,15 @@
 // Fotos: un dato "foto" (o "foto_<algo>") con el nombre de un archivo de Wikimedia Commons que ya
 // este en animados/.imagenes-cache/ (lo baja largo.mjs, con su licencia revisada) se copia a
 // assets/fotos/ y la plantilla recibe "foto_src", "foto_ancho", "foto_alto" y "foto_credito".
+//
+// Ficha de personajes: "personajes": { "<id>": { nombre, rol, ...rasgos de _figura-js.html } } en el
+// guion. En los datos de una escena, un objeto con "personaje": "<id>" recibe la ficha (lo que traiga
+// el objeto manda encima: pose, expresion...), y en una lista "personajes" basta el id (escenas.mjs).
 
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { aplicaCortes, conPersonajes } from "./escenas.mjs";
 import { TEMAS } from "./temas.mjs";
 
 const AQUI = path.dirname(fileURLToPath(import.meta.url));
@@ -88,31 +93,11 @@ const H = HORIZONTAL ? 1080 : 1920;
 
 // ---------- Cortes de escena dentro de una frase ----------
 // Las ventanas de escena salen de tiempos.json (una por grupo de frases). Un corte parte una
-// ventana en la palabra pedida: la escena nueva empieza un instante antes de que se diga.
+// ventana en la palabra pedida: la escena nueva empieza un instante antes de que se diga
+// (escenas.mjs, que tambien usa largo-escenas.mjs).
 let escenasFinales = tiempos.escenas.map((e) => ({ ...e }));
 const conCortes = (guion.frases || []).some((f) => Array.isArray(f.cortes) && f.cortes.length);
-if (conCortes) {
-  for (const delGuion of guion.frases || []) {
-    for (const corte of delGuion.cortes || []) {
-      const f = tiempos.frases.find((x) => x.id === delGuion.id);
-      if (!f) continue;
-      if (!corte.escena || escenasFinales.some((e) => e.id === corte.escena)) throw new Error(`El corte de la frase ${delGuion.id} necesita una "escena" nueva (llego "${corte.escena}").`);
-      let t;
-      if (corte.palabra === "fin") t = f.fin + 0.12;
-      else {
-        let i = typeof corte.palabra === "number" ? corte.palabra : f.palabras.findIndex((p) => norma(p.texto) === norma(corte.palabra));
-        if (i < 0) i = f.palabras.findIndex((p) => norma(corte.palabra).length > 3 && norma(p.texto).startsWith(norma(corte.palabra)));
-        if (i < 0 || i >= f.palabras.length) throw new Error(`El corte de la frase ${delGuion.id} pide la palabra "${corte.palabra}", que no esta en la frase.`);
-        t = f.palabras[i].inicio - 0.1;
-      }
-      t = r3(t);
-      const k = escenasFinales.findIndex((e) => t > e.inicio + 0.3 && t < e.fin - 0.3);
-      if (k < 0) throw new Error(`El corte de la frase ${delGuion.id} cae demasiado cerca del borde de una escena.`);
-      escenasFinales.splice(k + 1, 0, { id: corte.escena, inicio: t, fin: escenasFinales[k].fin });
-      escenasFinales[k].fin = t;
-    }
-  }
-}
+if (conCortes) escenasFinales = aplicaCortes(escenasFinales, guion.frases, tiempos.frases);
 
 // ---------- Fotos de la cache de Commons ----------
 let fichasCache = null;
@@ -273,7 +258,13 @@ for (const e of escenasFinales) {
   const pedida = pedidas[e.id];
   const destino = path.join(dirEscenas, e.id + ".html");
   if (pedida && pedida.plantilla) {
-    const datos = conIconos({ ...(guion.datos || {}), ...(pedida.datos || {}) });
+    let datos;
+    try {
+      // Los personajes de la ficha del guion ("personajes") entran antes que los iconos y las fotos.
+      datos = conIconos(conPersonajes({ ...(guion.datos || {}), ...(pedida.datos || {}) }, guion.personajes));
+    } catch (error) {
+      throw new Error(`Escena "${e.id}": ${error.message}`);
+    }
     fs.writeFileSync(destino, expande(pedida.plantilla, e.id, datos), "utf8");
   } else if (!fs.existsSync(destino)) {
     console.warn(`Aviso: falta compositions/${e.id}.html y el guion no le da plantilla (la escena "${e.id}" saldra vacia).`);
@@ -285,10 +276,16 @@ for (const e of escenasFinales) {
 const ultima = escenasFinales.at(-1).id;
 // Con cortes, una frase puede tocar dos escenas: cada escena lista las frases que suenan en ella.
 // Una escena sin voz (una tarjeta en una pausa) se queda con la frase anterior, para que su reloj funcione.
+// Una tarjeta al empezar (antes de la primera frase, como la de un capitulo de un video largo) se
+// queda con la frase siguiente.
 const frasesDe = (e, fin) => {
-  if (!conCortes) return tiempos.frases.filter((f) => f.escena === e.id);
-  const suenan = tiempos.frases.filter((f) => f.inicio < fin - 0.05 && f.fin > e.inicio + 0.05);
-  return suenan.length ? suenan : tiempos.frases.filter((f) => f.fin <= e.inicio + 0.05).slice(-1);
+  let lista;
+  if (!conCortes) lista = tiempos.frases.filter((f) => f.escena === e.id);
+  else {
+    const suenan = tiempos.frases.filter((f) => f.inicio < fin - 0.05 && f.fin > e.inicio + 0.05);
+    lista = suenan.length ? suenan : tiempos.frases.filter((f) => f.fin <= e.inicio + 0.05).slice(-1);
+  }
+  return lista.length ? lista : tiempos.frases.filter((f) => f.inicio >= e.inicio).slice(0, 1);
 };
 const datosReloj = {
   escenas: Object.fromEntries(

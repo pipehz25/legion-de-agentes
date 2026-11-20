@@ -227,7 +227,7 @@ Igual que en la serie de venta, dos videos seguidos de la misma cuenta no repite
 
 ### Personajes dibujados
 
-`personaje`, `dos-personajes` y `tablero` dibujan a sus personas con la misma función ([plantillas/_figura-js.html](plantillas/_figura-js.html)). Siempre es una figura genérica con rasgos que ayudan a reconocer a quien representa (el bigote, los quevedos, el sombrero), nunca un retrato de su cara. Datos, todos opcionales:
+`personaje`, `dos-personajes`, `tablero` y `cita` dibujan a sus personas con la misma función ([plantillas/_figura-js.html](plantillas/_figura-js.html)). Siempre es una figura genérica con rasgos que ayudan a reconocer a quien representa (el bigote, los quevedos, el sombrero), nunca un retrato de su cara. Datos, todos opcionales:
 
 | Dato | Valores |
 |---|---|
@@ -241,40 +241,93 @@ Igual que en la serie de venta, dos videos seguidos de la misma cuenta no repite
 | `cuello` | `corbata` (por defecto en medio cuerpo), `lazo` o `ninguno` |
 | `bata`, `charreteras` | `true`: bata de médico, uniforme militar |
 
-Ejemplos de la muestra de Panamá: Roosevelt es `barba: "morsa"` con `gafas: "quevedos"`; Bunau-Varilla, `barba: "bigote-encerado"`, `peinado: "raya"` y `sombrero: "bombin"`; un soldado de 1903, `sombrero: "kepis"` con `charreteras`.
+Para que una persona se vea igual en todo un video, sus rasgos van una sola vez en la ficha `personajes` del guion y las escenas la nombran por id (`{ "personaje": "roosevelt", "pose": "senalar" }`; sección «Videos horizontales con escenas»). Ejemplos de la muestra de Panamá: Roosevelt es `barba: "morsa"` con `gafas: "quevedos"`; Bunau-Varilla, `barba: "bigote-encerado"`, `peinado: "raya"` y `sombrero: "bombin"`; un soldado de 1903, `sombrero: "kepis"` con `charreteras`.
 
 ## Videos horizontales con escenas (YouTube)
 
-Es el estilo que se quiere para los videos largos: **escenas diseñadas y animadas con código** (mapas, personajes, documentos, cifras, texto que se mueve), como en los Shorts, pero a 1920×1080. Las fotos de archivo solo entran como un elemento dentro del diseño (un retrato con cinta, un recorte con su pie), nunca a pantalla completa. La muestra es [propios/hi-panama-muestra/guion.json](propios/hi-panama-muestra/guion.json): los primeros 61 s de «¿Cómo perdió Colombia a Panamá?», con 14 escenas.
+Es el estilo que se quiere para los videos largos: **escenas diseñadas y animadas con código** (mapas, personajes, documentos, cifras, texto que se mueve), como en los Shorts, pero a 1920×1080. Las fotos de archivo solo entran como un elemento dentro del diseño (un retrato con cinta, un recorte con su pie), nunca a pantalla completa. La muestra es [propios/hi-panama-muestra/guion.json](propios/hi-panama-muestra/guion.json): los primeros 61 s de «¿Cómo perdió Colombia a Panamá?», con 14 escenas. El video completo se arma por capítulos («Video largo por escenas», más abajo).
 
-Se arma con el camino de los Shorts (`producir.mjs`, plantillas por escena) y estas piezas:
+**Para escribir escenas** (qué hace cada plantilla, sus datos con un ejemplo, cuánto dura, personajes, fotos y cortes): [contenido/escenas-horizontales.md](contenido/escenas-horizontales.md).
+
+Piezas:
 
 - **Lienzo.** `"orientacion": "horizontal"` en el guion. Sin él, todo sale vertical, igual que siempre (`montaje.mjs` da exactamente la misma salida en los videos que ya existían).
-- **Plantillas viejas en horizontal.** Las que no tienen diseño horizontal propio se dibujan como en vertical dentro de un escenario centrado y un poco reducido (su zona de dibujo de 190 a 1100 px queda entre 82 y 920). Funcionan, pero dejan los lados vacíos: para un video largo, mejor las de la tabla de abajo. `personaje` ya trae su diseño horizontal (medallón a la izquierda, textos a la derecha).
-- **Cortes dentro de una frase.** Las frases de un video largo duran de 7 a 11 s y una escena no debería durar más de 4 a 8. `"cortes": [{ "escena": "mapa", "palabra": 9 }]` en una frase hace que la escena `mapa` empiece en la palabra 9 (desde 0) aunque la frase siga; `"palabra"` también puede ser el texto de la palabra, o `"fin"` para una escena que empieza al terminar la frase (una tarjeta de capítulo en una pausa: dale a esa frase un `pausa_despues` de unos 2,5 s). La escena nueva necesita su plantilla en `escenas`. Cambiar cortes o pausas no vuelve a pedir voz: las frases salen de la caché.
-- **Fotos de Commons como elemento.** Un dato `foto` (o `foto_<algo>`) con el nombre de un archivo de Commons (`"File:Panam2.JPG"`) que ya esté en `animados/.imagenes-cache/` (lo baja y le revisa la licencia `largo.mjs`) se copia a `assets/fotos/` y la plantilla recibe `foto_src`, `foto_ancho`, `foto_alto` y `foto_credito`. Si la foto no está en la caché o su licencia no es libre, `montaje.mjs` se detiene.
-- **Subtítulos.** En horizontal salen abajo (952 a 1040 px), más chicos y de hasta 4 palabras, sobre la misma píldora del tema; las plantillas horizontales dejan esa franja libre. `"subtitulos": false` en el guion los quita todos (para YouTube se pueden subir aparte).
+- **Plantillas viejas en horizontal.** Las que no tienen diseño horizontal propio se dibujan como en vertical dentro de un escenario centrado y un poco reducido (su zona de dibujo de 190 a 1100 px queda entre 82 y 920). Funcionan, pero dejan los lados vacíos: para un video largo, mejor las de la tabla de abajo. `personaje`, `linea-tiempo` y `cita` traen su diseño horizontal propio (en vertical siguen exactamente igual).
+- **Cortes dentro de una frase.** Las frases de un video largo duran de 7 a 11 s y una escena no debería durar más de 4 a 8. `"cortes": [{ "escena": "mapa", "palabra": 9 }]` en una frase hace que la escena `mapa` empiece en la palabra 9 (desde 0) aunque la frase siga; `"palabra"` también puede ser el texto de la palabra, o `"fin"` para una escena que empieza al terminar la frase. La escena nueva necesita su plantilla en `escenas`. Cambiar cortes o pausas no vuelve a pedir voz: las frases salen de la caché. La lógica está en [herramientas/escenas.mjs](herramientas/escenas.mjs).
+- **Fotos de Commons como elemento.** Un dato `foto` (o `foto_<algo>`) con el nombre de un archivo de Commons (`"File:Panam2.JPG"`) que ya esté en `animados/.imagenes-cache/` se copia a `assets/fotos/` y la plantilla recibe `foto_src`, `foto_ancho`, `foto_alto` y `foto_credito`. Si la foto no está en la caché o su licencia no es libre, `montaje.mjs` se detiene. En un video largo por escenas, `producir.mjs` baja antes las que falten y les revisa la licencia.
+- **Ficha de personajes.** `"personajes": { "roosevelt": { "nombre": "...", "rol": "...", "barba": "morsa", "gafas": "quevedos" } }` en el guion. En los datos de una escena, `{ "personaje": "roosevelt", "pose": "senalar" }` recibe la ficha (lo que se escribe manda encima) y en la lista del `tablero` basta el id. Así cada persona se ve igual en todo el video. Sirve en cualquier guion (también en los Shorts).
+- **Subtítulos.** En horizontal salen abajo (952 a 1040 px), más chicos y de hasta 4 palabras, sobre la misma píldora del tema; las plantillas horizontales dejan esa franja libre. `"subtitulos": false` en el guion los quita todos (para YouTube se pueden subir aparte: el video largo deja su `.srt`).
 
-**Plantillas horizontales** (todas `Solo horizontal` y con `estilo.tema`; cada archivo explica sus datos en la cabecera). Los momentos se dan con una palabra dicha, con `{ "en": 0.5 }` (una parte de lo hablado en la escena) o en segundos desde que empieza la escena; en una escena que empieza a mitad de frase, solo cuentan las palabras dichas desde que empieza.
+**Plantillas horizontales** (todas con `estilo.tema`; cada archivo explica sus datos en la cabecera). Los momentos se dan con una palabra dicha, con `{ "en": 0.5 }` (una parte de lo hablado en la escena) o en segundos desde que empieza la escena; en una escena que empieza a mitad de frase, solo cuentan las palabras dichas desde que empieza.
 
 | Plantilla | Qué muestra |
 |---|---|
-| `titular` | Texto grande que entra palabra por palabra, con una hoja de calendario al lado que puede llevar un sello o tacharse. Para una fecha clave o una pregunta |
-| `mapa` | Mapa ilustrado de las Américas (de México al cabo de Hornos, con las islas del Caribe) con cámara que viaja entre `vistas`, países que se encienden (`colombia`, `panama`, `venezuela`, `ecuador`), un país que se separa, rutas que se dibujan (línea, discontinua, vía de tren o flecha) con un barco o un tren que las recorre, marcas de ciudades, rótulos de mares y países, banderas clavadas, una cartela arriba y fichas abajo (`3 días`, una cifra, una barra de años). La geografía está en [plantillas/_geo-americas.html](plantillas/_geo-americas.html) |
-| `tratado` | Dos hojas de calendario con una flecha (el tiempo que pasó), un documento que se escribe solo, un mapa chico del istmo con la franja del canal y un sello con su bandera (o una franja de «Rechazado») |
+| `titular` | Texto grande que entra palabra por palabra, con una hoja de calendario (que puede llevar un sello o tacharse) o un medallón con un dibujo. Para una fecha clave, una pregunta o una idea fuerte |
+| `mapa` | Mapa ilustrado de las Américas con cámara que viaja entre `vistas`, países que se encienden (`colombia`, `panama`, `venezuela`, `ecuador`, `nicaragua`), un país que se separa, rutas que se dibujan (línea, discontinua, vía de tren, flecha, cauce de canal o franja resaltada) con un barco o un tren, ríos (Chagres, San Juan), lagos (de Nicaragua siempre; Gatún si se pide), el canal de 1914 con sus esclusas y el corte Culebra, montañas, ciudades, rótulos, banderas, una cartela y fichas. La costa de Panamá tiene detalle junto al canal para acercarse. Geografía: [plantillas/_geo-americas.html](plantillas/_geo-americas.html) |
+| `tratado` | Dos hojas de calendario con una flecha (el tiempo que pasó), un documento que se escribe solo, un mapa chico del istmo con la franja del canal y un sello con su bandera, o una franja de rechazo («Rechazado», «En quiebra») |
 | `dos-personajes` | Dos personas de medio cuerpo frente a frente detrás de una mesa, con sus placas y banderas; una firma el documento. Puede llevar una foto real con cinta |
-| `cadena` | Una cadena de hierro con placas que entran con cada palabra («errores», «cálculos», «intereses») y, al final, la cámara se corre hacia atrás hasta los años de donde viene |
+| `personaje` | Retrato dibujado en un medallón, con nombre, años y rol |
+| `cita` | Una frase entre comillas en una hoja, con el medallón del personaje, su rol, el autor y la fuente; las palabras se encienden al paso de la voz |
+| `cifra` | Un número grande que cuenta desde 0, con moneda, unidad y rótulo, sobre una tarjeta de documento; o 2 o 3 cifras comparadas con sus barras |
+| `linea-tiempo` | De 3 a 7 hitos de izquierda a derecha; el actual se resalta y el riel se enciende hasta él |
+| `recorte` | Un documento o una foto real (caricatura, portada, estampilla) como pieza central, con cinta, pie, acercamiento lento y un círculo de tinta que marca un detalle; al lado, título y nota |
+| `fichas` | De 2 a 4 tarjetas con dibujo y rótulo (causas, peligros, órdenes); la resaltada se mueve (el mosquito zumba). Con foto opcional |
+| `cadena` | Una cadena de hierro con placas que entran con cada palabra y, al final, la cámara se corre hacia atrás hasta los años de donde viene |
 | `tablero` | Tablero de investigación: retratos dibujados de los protagonistas, recortes reales con su pie e hilo rojo entre ellos |
-| `capitulo` | Tarjeta de capítulo con el marco doble de las tarjetas de los videos largos |
-| `vehiculo` | Un tren de vapor entre selva y montañas, o un barco de vapor sobre el mar, que entra a la escena; con sello del año, título, dato y foto opcional |
+| `capitulo` | Tarjeta de capítulo con marco doble (en un video largo es automática) |
+| `vehiculo` | Un tren de vapor, un barco (de vapor o de guerra) o una draga (la pala de vapor de las obras, trabajando o abandonada) que entra a la escena; con sello del año, título, dato y foto opcional |
 
-**Banderas** que dibujan `mapa`, `tratado`, `dos-personajes` y `vehiculo`: `colombia`, `panama`, `eeuu`, `francia`, `espana`. **Dibujos** de las fichas del mapa: `calendario`, `canon`, `ancla`, `tren`, `pluma`.
+**Banderas** que dibujan `mapa`, `tratado`, `dos-personajes` y `vehiculo`: `colombia`, `panama`, `eeuu`, `francia`, `espana`. **Dibujos** (fichas del mapa, `fichas`, `cifra`, `titular`): `calendario`, `canon`, `pluma`, `sello`, `ancla`, `tren`, `mosquito`, `lluvia`, `derrumbe`, `cruz`, `moneda`, `esclusa`, `barco`, `volcan`, `documento`, `draga`, `montana`, `bandera`, `balanza`, `reloj` (en [plantillas/_escena-h-js.html](plantillas/_escena-h-js.html)).
 
-**Rendimiento** (medido el 2026-11-20 en la PC de Santiago, portátil con 16 hilos): la muestra de 61,7 s con 14 escenas tardó **109 s** en total (voz desde la caché 3,6 s, montaje 0,2 s, revisión 18 s, **render 86 s**, o sea 1,4 veces lo que dura el video). Para los 9:15 del video completo eso da unos 13 minutos de render y unos 15 a 17 en total; en una PC con la mitad de hilos, el doble. `producir.mjs` imprime sus «Tiempos» y los deja en `meta.json` (`tiempo_produccion_s` y `tiempos_s`). La idea para el video completo es armarlo por capítulos (un guion de escenas por capítulo, de 1 a 2 minutos) y unirlos al final.
+**Rendimiento de un Short horizontal** (2026-11-20, PC de Santiago, 16 hilos): la muestra de 61,7 s con 14 escenas tardó 109 s en total (render 86 s, 1,4 veces lo que dura el video).
+
+### Video largo por escenas (por capítulos)
+
+Es el video largo de YouTube con el estilo de la muestra. Se reconoce por `"tipo": "largo"` **y** `"orientacion": "horizontal"` en el guion; lo arma [herramientas/largo-escenas.mjs](herramientas/largo-escenas.mjs). El ejemplo es [propios/hi-panama/guion.json](propios/hi-panama/guion.json) (c0 y c1 terminados).
+
+```json
+{
+  "tipo": "largo", "orientacion": "horizontal",
+  "titulo": "...", "motor": "elevenlabs", "voz": "...", "tope_caracteres": 50,
+  "pausa": 0.35, "pausa_capitulo": 3, "cola": 2.5,
+  "estilo": { "tema": "archivo" },
+  "miniatura": { "texto": "PANAMÁ EN 3 DÍAS", "imagen": "<clave de imagenes>" },
+  "publicacion": { "titulo_youtube": "...", "descripcion": "...", "hashtags": ["historia"] },
+  "fuentes": [ { "dato": "...", "fuente": "...", "url": "..." } ],
+  "imagenes": { "<clave>": { "commons": "File:...", "que_muestra": "..." } },
+  "personajes": { "roosevelt": { "nombre": "Theodore Roosevelt", "rol": "Presidente de EE. UU.", "barba": "morsa" } },
+  "capitulos": [
+    { "id": "c0", "titulo": "", "escenas": { "fecha": { "plantilla": "titular", "datos": {} } },
+      "frases": [ { "id": "f1", "escena": "fecha", "texto": "...", "cortes": [{ "escena": "separacion", "palabra": 9 }] } ] },
+    { "id": "c1", "titulo": "El sueño del canal", "escenas": {}, "frases": [] }
+  ]
+}
+```
+
+- **Capítulos.** El primero sin `titulo` es el gancho. Cada capítulo con título lleva su **tarjeta** automática (plantilla `capitulo`: «Capítulo I» y el título), sola en una pausa de voz de `pausa_capitulo` segundos (3 por defecto) antes de su primera frase. `"tarjeta": "<id>"` usa una escena propia del capítulo; `"tarjeta": false` la quita. La última escena de cada capítulo se queda `respiro_capitulo` (0,5 s) después de su última palabra.
+- **Escenas.** Cada capítulo trae las suyas (`{ id: { plantilla, datos } }`, como un Short); los ids no se repiten en todo el video. Una frase sin `escena` sale con un titular «Escena pendiente» (respaldo para armar y mirar el video antes de terminarlo; producir lo avisa).
+- **Imágenes.** `imagenes` sirve para la miniatura y para describir en los créditos las fotos que usan las escenas (por su `commons`). `imagen` en una frase no se usa (era del modo de fotos).
+
+Comandos:
+
+```powershell
+node animados/herramientas/producir.mjs animados/propios/<id>                                 # todo el video
+node animados/herramientas/producir.mjs animados/propios/<id> --capitulos c0,c1               # solo esos (prueba): <id>-c0-c1.mp4
+node animados/herramientas/producir.mjs animados/propios/<id> --capitulos c3 --sin-render --capturas  # armar, revisar y mirar c3
+node animados/herramientas/une-escenas.mjs animados/propios/<id> animados/propios/<id>/escenas/c3.json  # unir escenas escritas aparte
+```
+
+Mientras queden frases sin escena, el video completo no se renderiza (produce los capítulos listos con `--capitulos`, o agrega `--con-pendientes` para un borrador entero).
+
+Cómo se arma: (1) la voz de todo el video con `voz.mjs` (misma caché y mismo tope); (2) las fotos que piden las escenas, con su licencia revisada; (3) dónde empieza cada capítulo, siempre en un cuadro exacto (la tarjeta, o justo antes de su primera frase); (4) `<id>.srt`, `descripcion.txt` (con capítulos, menos de 5000 caracteres; si no cabe, las fuentes van a `comentario-fuentes.txt`), `creditos-imagenes.md` (si hay fotos) y `fuentes.md`; (5) `miniatura.jpg`: como en el modo de fotos (una imagen de `imagenes` y el texto) o, con `"miniatura": { "texto": "...", "escena": "<id>", "en": 4.5 }`, sobre un cuadro de esa escena sin subtítulos (escoge una con el lado del texto despejado; en hi-panama se ve mejor la caricatura); (6) cada capítulo es un proyecto de HyperFrames en `<id>/largo/capitulos/<cap>/` con su guion y sus tiempos (que cuentan desde 0): montaje mudo, revisión y render; si nada de lo que lo dibuja cambió (sus escenas, sus tiempos, las plantillas que usa, las herramientas), se reusa su MP4; (7) los capítulos se pegan sin recodificar y se les pone la voz, cortada con el largo real de cada uno y nivelada a −14 LUFS. La entrega es la del modo de fotos, en `salidas/narrador/<id>/`; con `--capitulos`, el MP4 es `<id>-c0-c1.mp4` y no se escribe `meta.json` (es una prueba).
+
+**Varios agentes a la vez.** Cada uno escribe su capítulo en un archivo aparte, `<id>/escenas/<cap>.json` (`{ "capitulo": "c3", "escenas": {...}, "frases": [{ "id": "f21", "escena": "...", "cortes": [...] }] }`), y lo une con `une-escenas.mjs`: reemplaza solo las escenas de ese capítulo y la escena y los cortes de sus frases, nunca el texto (si el archivo trae un texto distinto, no une nada), y revisa el guion entero antes de guardarlo. Así nadie pisa el capítulo de otro.
+
+**Rendimiento** (medido el 2026-11-20 en la PC de Santiago, 16 hilos), c0 y c1 de `hi-panama` (1:47 de video, 24 escenas): voz desde la caché 18 s (las 65 frases), capítulos 183 s (render 47 s para los 29 s de c0 y 100 s para los 78,5 s de c1, o sea 1,37 s por segundo de video; revisión 13 y 22 s), unión 5 s; **total 206 s**. Para el video completo (9:28, unas 150 escenas) eso da unos 13 min de render, 3 de revisión y medio minuto de unión: **de 16 a 18 minutos la primera vez**; en una PC con la mitad de hilos, el doble. Después, cambiar un capítulo solo vuelve a renderizar ese (de 1 a 3 minutos).
 
 ## Videos largos (YouTube horizontal)
 
-> Este modo (fotos a pantalla completa con movimiento lento) no convenció a los socios: el estilo que se quiere es el de «Videos horizontales con escenas». Se conserva porque arma la voz, los créditos de las imágenes, la miniatura, el `.srt` y la descripción con capítulos, que siguen sirviendo.
+> Este modo (fotos a pantalla completa con movimiento lento) no convenció a los socios: el estilo que se quiere es el de «Video largo por escenas» (arriba), que usa este mismo guion con `"orientacion": "horizontal"` y escenas por capítulo. Este modo se conserva para los guiones sin `orientacion` (como `prueba-largo`); sus créditos, miniatura, `.srt` y descripción los reusa el modo por escenas.
 
 Además de los Shorts, el Narrador hace **documentales largos para YouTube**: horizontales (1920×1080, 30 fps), de 8 a 20 minutos, hechos sobre todo con **imágenes de archivo** de Wikimedia Commons que se mueven despacio (efecto Ken Burns), narrados con voz de IA, con una **tarjeta de apertura** (título del video y capítulo 1) y una **tarjeta por capítulo**. No usan plantillas ni escenas: el guion dice qué imagen se ve con cada frase y `producir.mjs` hace el resto con [herramientas/largo.mjs](herramientas/largo.mjs). La muestra es [propios/prueba-largo/guion.json](propios/prueba-largo/guion.json) (voz Kokoro, no se publica).
 
@@ -569,7 +622,10 @@ animados/
   herramientas/voz.mjs       narración y tiempos por palabra
   herramientas/montaje.mjs   index.html, escenas de plantilla y subtítulos
   herramientas/temas.mjs     temas visuales del Narrador (archivo, laboratorio, pizarra)
-  herramientas/largo.mjs     videos largos de YouTube (imágenes, tramos, tarjetas, miniatura)
+  herramientas/largo.mjs     videos largos de YouTube con fotos (imágenes, tramos, tarjetas, miniatura, textos)
+  herramientas/largo-escenas.mjs  videos largos de YouTube por escenas (capítulos, render por capítulo, unión)
+  herramientas/escenas.mjs   cortes dentro de una frase y ficha de personajes (los usan montaje y largo-escenas)
+  herramientas/une-escenas.mjs  une al guion las escenas de un capítulo escritas aparte
   herramientas/capturas.mjs  hojas de capturas para revisar
   herramientas/subtitulos.mjs
   .imagenes-cache/           imágenes de Wikimedia Commons de los videos largos (no va a GitHub)
@@ -579,6 +635,7 @@ animados/
   plantillas/_geo-americas.html  geografia de la plantilla mapa
   plantillas/_escena-h-js.html   ayudas de las plantillas horizontales (momentos, banderas, dibujos)
   contenido/NARRADOR.md      método de los videos propios
+  contenido/escenas-horizontales.md  catálogo de las plantillas horizontales para escribir escenas
   propios/<video>/           videos propios (Narrador); se entregan en salidas/narrador/
   videos/<video>/
     guion.json             lo que se dice

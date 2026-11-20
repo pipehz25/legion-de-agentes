@@ -19,6 +19,11 @@
 //   7. tramos     un MP4 por tramo con ffmpeg, varios a la vez; los que no cambiaron se reusan
 //   8. union      se pegan los tramos sin recodificar y se les pone la voz a -14 LUFS
 // Todo lo intermedio queda en <video>/largo/ (no va a GitHub). La entrega, en salidas/narrador/<id>/.
+//
+// Con "orientacion": "horizontal" el guion es un video largo POR ESCENAS (el estilo aprobado): cada
+// capitulo trae sus "escenas" y lo produce largo-escenas.mjs. De aqui salen para ese modo la lectura del
+// guion (esLargoEscenas, planEscenas y aplanarLargo, que usa voz.mjs) y los textos de la entrega (srt,
+// descripcion, creditos, fuentes) y la miniatura, que se exportan al final.
 
 import { spawn, spawnSync } from "node:child_process";
 import crypto from "node:crypto";
@@ -200,9 +205,111 @@ export function planLargo(guion) {
   return { frases, tramos, capitulos, errores };
 }
 
+// ---------- Video largo hecho con escenas ("orientacion": "horizontal") ----------
+// Cada capitulo trae sus "escenas" ({ id: { plantilla, datos } }, como un Short) y sus frases con
+// "escena" y "cortes". Lo produce largo-escenas.mjs; aqui solo se lee el guion (voz.mjs lo usa).
+export function esLargoEscenas(guion) {
+  return esLargo(guion) && guion.orientacion === "horizontal";
+}
+
+// Capitulos -> frases en orden (cada una con su escena) y capitulos con sus escenas completas: la
+// tarjeta del capitulo (la que pide "tarjeta", o una "capitulo" automatica si tiene titulo) y una
+// escena de respaldo por cada frase que todavia no tiene escena (un "titular" que dice "pendiente").
+export function planEscenas(guion) {
+  const errores = [];
+  const avisos = [];
+  const caps = Array.isArray(guion.capitulos) ? guion.capitulos : [];
+  if (!caps.length) errores.push('el guion largo necesita "capitulos", cada uno con sus "frases"');
+  const vistas = new Set();
+  const dueno = new Map(); // id de escena -> capitulo
+  const frases = [];
+  const capitulos = [];
+  let n = 0;
+  caps.forEach((c, ci) => {
+    const id = c.id || `c${ci}`;
+    const titulo = String(c.titulo || "").trim();
+    const numero = titulo ? ++n : 0;
+    const escenas = { ...(c.escenas || {}) };
+    const suma = (eid, escena) => {
+      if (dueno.has(eid) && dueno.get(eid) !== id) errores.push(`la escena "${eid}" esta en ${dueno.get(eid)} y en ${id}: los ids de escena no se repiten en todo el video`);
+      dueno.set(eid, id);
+      if (escena) escenas[eid] = escena;
+    };
+    for (const [eid, e] of Object.entries(escenas)) {
+      if (!/^[a-z0-9][a-z0-9-]*$/.test(eid)) errores.push(`la escena "${eid}" (${id}) tiene un id raro: usa minusculas, numeros y guiones`);
+      if (!e || !e.plantilla) errores.push(`la escena "${eid}" (${id}) no tiene "plantilla"`);
+      suma(eid);
+    }
+    let tarjeta = null;
+    if (typeof c.tarjeta === "string") {
+      if (!escenas[c.tarjeta]) errores.push(`el capitulo ${id} pide la tarjeta "${c.tarjeta}", que no esta en sus escenas`);
+      tarjeta = c.tarjeta;
+    } else if (c.tarjeta !== false && titulo) {
+      tarjeta = `tarjeta-${id}`;
+      if (!escenas[tarjeta]) suma(tarjeta, { plantilla: "capitulo", datos: { numero: `Capítulo ${romano(numero)}`, titulo } });
+    }
+    const cap = { id, titulo, numero, etiqueta: c.etiqueta, tarjeta, escenas, frases: [], respaldos: [] };
+    const usadas = new Set(tarjeta ? [tarjeta] : []);
+    for (const f of c.frases || []) {
+      if (!f || !f.id) {
+        errores.push(`una frase del capitulo ${id} no tiene id`);
+        continue;
+      }
+      if (vistas.has(f.id)) errores.push(`el id de frase "${f.id}" esta repetido (tienen que ser unicos en todo el video)`);
+      vistas.add(f.id);
+      if (!String(f.texto || "").trim()) errores.push(`la frase ${f.id} no tiene texto`);
+      let escena = f.escena;
+      if (!escena) {
+        // Respaldo mientras el capitulo no tenga escenas: se ve que falta.
+        escena = `respaldo-${f.id}`;
+        const palabras = (titulo || guion.titulo || "").split(/\s+/).filter(Boolean);
+        suma(escena, { plantilla: "titular", datos: { insignia: `Escena pendiente · ${f.id}`, lineas: equilibra(palabras, Math.min(2, palabras.length || 1)), resalta: 1, todo_al_inicio: true } });
+        cap.respaldos.push(f.id);
+      } else if (!escenas[escena]) errores.push(`la frase ${f.id} pide la escena "${escena}", que no esta en las escenas de ${id}`);
+      if (escena === tarjeta) errores.push(`la frase ${f.id} usa la tarjeta "${tarjeta}" como escena: la tarjeta se ve sola, antes de la primera frase`);
+      usadas.add(escena);
+      for (const corte of f.cortes || []) {
+        if (!corte || !corte.escena || !escenas[corte.escena]) errores.push(`un corte de la frase ${f.id} pide la escena "${corte && corte.escena}", que no esta en las escenas de ${id}`);
+        else usadas.add(corte.escena);
+      }
+      const plana = { ...f, escena };
+      delete plana.imagen; // pista del modo de fotos: aqui no se usa
+      cap.frases.push(plana);
+      frases.push({ ...plana, capitulo: id });
+    }
+    if (!cap.frases.length) errores.push(`el capitulo ${id} no tiene frases`);
+    for (const eid of Object.keys(escenas)) if (!usadas.has(eid)) avisos.push(`la escena "${eid}" de ${id} no la usa ninguna frase ni corte`);
+    capitulos.push(cap);
+  });
+  return { frases, capitulos, errores, avisos };
+}
+
+// El guion por escenas como lo entiende voz.mjs: una lista de frases con su escena, y antes de cada
+// tarjeta de capitulo una pausa de voz ("pausa_capitulo", 3 s por defecto) en la frase anterior.
+function aplanarEscenas(guion) {
+  const plano = planEscenas(guion);
+  if (plano.errores.length) throw new Error("El guion largo tiene problemas:\n  - " + plano.errores.join("\n  - "));
+  const pausaCap = numero(guion.pausa_capitulo, 3);
+  const frases = plano.frases.map((f) => ({ ...f }));
+  let inicio = guion.inicio ?? 0.2;
+  let i = 0;
+  for (const cap of plano.capitulos) {
+    if (cap.tarjeta && cap.frases.length) {
+      if (i === 0) inicio = Math.max(inicio, pausaCap);
+      else {
+        const previa = frases[i - 1];
+        previa.pausa_despues = Math.max(numero(previa.pausa_despues, numero(guion.pausa, 0.22)), pausaCap);
+      }
+    }
+    i += cap.frases.length;
+  }
+  return { ...guion, frases, inicio, cola: numero(guion.cola, 2.5) };
+}
+
 // El guion largo como lo entiende voz.mjs: una lista de frases cuya "escena" es su tramo, con la
 // pausa de voz de cada tarjeta puesta en la frase anterior (voz.mjs avanza con pausa_despues).
 export function aplanarLargo(guion) {
+  if (esLargoEscenas(guion)) return aplanarEscenas(guion);
   const plano = planLargo(guion);
   if (plano.errores.length) throw new Error("El guion largo tiene problemas:\n  - " + plano.errores.join("\n  - "));
   const a = ajustes(guion);
@@ -1321,7 +1428,8 @@ function escribeIgnorar(carpeta, guion) {
   const ruta = path.join(carpeta, ".gitignore");
   const cabecera = "# Video largo: se versionan el guion y las imagenes propias; lo demas lo regenera producir.mjs";
   if (fs.existsSync(ruta) && !fs.readFileSync(ruta, "utf8").startsWith(cabecera)) return;
-  const lineas = [cabecera, "*", "!.gitignore", "!guion.json"];
+  // escenas/*.json: escenas de capitulos escritas aparte (une-escenas.mjs las une al guion).
+  const lineas = [cabecera, "*", "!.gitignore", "!guion.json", "!escenas/", "!escenas/*.json"];
   for (const img of Object.values(guion.imagenes || {})) {
     if (!img || !img.archivo) continue;
     const partes = String(img.archivo).replace(/\\/g, "/").split("/").filter(Boolean);
@@ -1476,3 +1584,28 @@ function mostrarAvisos(avisos) {
   console.log("Avisos:");
   for (const a of [...new Set(avisos)]) console.log("  - " + a);
 }
+
+// Piezas que reusa largo-escenas.mjs (el video largo hecho con escenas).
+export {
+  capitulosYoutube,
+  escribeCreditos,
+  escribeDescripcion,
+  escribeFuentes,
+  escribeIgnorar,
+  escribeJson,
+  escribeProyectoHF,
+  ff,
+  filtroVolumen,
+  hash,
+  hazSrt,
+  hiperframes,
+  miniatura,
+  minutos,
+  mostrarAvisos,
+  preparaImagenes,
+  romano,
+  sonda,
+  tituloCommons,
+  FFMPEG,
+  FPS,
+};

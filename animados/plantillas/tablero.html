@@ -3,7 +3,7 @@
   protagonistas y recortes reales (fotos de la cache de Commons, con su pie) que se clavan con
   cinta, y un hilo rojo que los une. Para presentar a los personajes y las pruebas de una historia.
   Solo horizontal. Necesita "estilo.tema".
-  Datos: personajes: [{ nombre (20 letras), rol (opcional, 24 letras), ...dibujo de _figura-js.html }] (hasta 3:
+  Datos: personajes: [{ nombre (20 letras; si la ficha trae "corto", va ese), rol (opcional, 24 letras), ...dibujo de _figura-js.html }] (hasta 3:
            arriba a la izquierda, abajo a la izquierda y arriba a la derecha)
          papeles: [{ foto: archivo de Commons, pie (40 letras) }] (hasta 2: el grande al centro, el otro abajo a la derecha)
          titulo (opcional): rotulo de abajo al centro (30 letras)
@@ -114,7 +114,7 @@
       pines.push([s.x + 181, s.y + 8]);
       h +=
         `<div id="{{id}}-r${i}" class="{{id}}-retrato" style="left: ${s.x}px; top: ${s.y}px"><div class="{{id}}-retrato-cara"><svg class="{{id}}-arte" viewBox="40 60 320 310">${figura(p, "{{id}}-r" + i, "busto")}</svg></div>` +
-        `<div class="{{id}}-retrato-n {{id}}-titulo">${esc(p.nombre)}</div><div class="{{id}}-retrato-r {{id}}-suave">${esc(p.rol || "")}</div><div class="{{id}}-cinta" style="left: 110px; transform: rotate(-4deg)"></div></div>`;
+        `<div class="{{id}}-retrato-n {{id}}-titulo">${esc(p.corto || p.nombre)}</div><div class="{{id}}-retrato-r {{id}}-suave">${esc(p.rol || "")}</div><div class="{{id}}-cinta" style="left: 110px; transform: rotate(-4deg)"></div></div>`;
     });
     papeles.forEach((p) => {
       const s = SITIO_P[p.i];

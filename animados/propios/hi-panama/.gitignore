@@ -2,3 +2,5 @@
 *
 !.gitignore
 !guion.json
+!escenas/
+!escenas/*.json

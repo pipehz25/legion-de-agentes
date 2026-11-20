@@ -1,9 +1,13 @@
 <!--
-  Vehiculo (videos propios, Narrador): un tren de vapor (sobre la via, entre selva y montanas) o un
-  barco de vapor (sobre el mar) que entra a la escena, con el ano en un sello, un titulo, un dato y,
-  si se quiere, una foto real enmarcada (de la cache de Commons) con su pie.
+  Vehiculo (videos propios, Narrador): un tren de vapor (sobre la via, entre selva y montanas), un
+  barco de vapor (sobre el mar) o una draga, la pala de vapor de las obras del canal (en el fondo de una
+  excavacion con terrazas), que entra a la escena, con el ano en un sello, un titulo, un dato y, si se
+  quiere, una foto real enmarcada (de la cache de Commons) con su pie.
   Solo horizontal. Necesita "estilo.tema".
-  Datos: tipo: "tren" (por defecto) o "barco"
+  Datos: tipo: "tren" (por defecto), "barco" o "draga"
+         guerra (opcional, en el barco): true dibuja un buque de guerra (casco blanco, canones, dos mastiles)
+         quieta (opcional, en la draga): true es una maquina abandonada (oxidada, con maleza; no se mueve);
+           sin ella, la draga cava sin parar
          anio (opcional): "1855" (sello redondo arriba a la izquierda)
          rotulo: "Ferrocarril de Panamá" (24 letras); detalle (opcional): "Una empresa de Nueva York" (32 letras)
          bandera (opcional, en el barco): eeuu|colombia|panama|francia|espana
@@ -115,8 +119,24 @@
     $("rotulo").style.fontSize = tamPara(D.rotulo, D.foto_src ? 980 : 1360, 96, 60, T.anchoTitulo) + "px";
 
     // ---------- Paisaje ----------
+    const draga = D.tipo === "draga";
+    const quieta = draga && D.quieta === true;
     let p = `<svg class="{{id}}-arte" viewBox="0 0 1920 1080" preserveAspectRatio="none">`;
-    if (!barco) {
+    if (draga) {
+      // Paredes del corte en terrazas (luz a la izquierda, sombra a la derecha) y el piso con la via.
+      p += `<path d="M0 330 L300 330 L360 420 L560 420 L640 540 L820 540 L880 640 L0 640 Z" fill="#c9a46c" /><path d="M0 640 L880 640 L930 720 L0 720 Z" fill="#b38d57" />`;
+      p += `<path d="M300 330 L360 420 L380 420 L320 330 Z M560 420 L640 540 L660 540 L580 420 Z M820 540 L880 640 L900 640 L840 540 Z" fill="#8f6c3f" />`;
+      p += `<path d="M1920 300 L1640 300 L1580 400 L1360 400 L1290 520 L1110 520 L1040 640 L1920 640 Z" fill="#a8824e" /><path d="M1920 640 L1040 640 L990 720 L1920 720 Z" fill="#94703f" />`;
+      p += `<path d="M1640 300 L1580 400 L1560 400 L1620 300 Z M1360 400 L1290 520 L1270 520 L1340 400 Z M1110 520 L1040 640 L1020 640 L1090 520 Z" fill="#7a5a32" />`;
+      for (const [x, y] of [[120, 380], [470, 470], [720, 590], [1500, 350], [1220, 460], [1180, 590], [260, 680], [1600, 680]]) p += `<path d="M${x} ${y} q14 -10 28 0 M${x + 40} ${y + 14} q10 -8 20 0" stroke="#7a5a32" stroke-width="4" fill="none" stroke-linecap="round" />`;
+      const palma = (x, y, sc) =>
+        `<g transform="translate(${x} ${y}) scale(${sc})"><path d="M0 0 C6 -60 2 -120 12 -170" stroke="#6b5a3a" stroke-width="12" fill="none" stroke-linecap="round" /><path d="M12 -170 C-30 -190 -70 -170 -96 -140 C-60 -160 -30 -164 12 -170 Z M12 -170 C50 -196 96 -180 120 -150 C84 -168 50 -168 12 -170 Z M12 -170 C-10 -214 -50 -232 -84 -226 C-44 -214 -16 -196 12 -170 Z M12 -170 C34 -216 74 -232 108 -222 C70 -212 42 -196 12 -170 Z" fill="#5f6e45" /></g>`;
+      [[1760, 305, 0.85], [1880, 305, 0.6]].forEach(([x, y, sc]) => (p += palma(x, y, sc)));
+      p += `<rect x="0" y="720" width="1920" height="360" fill="#d1b37c" /><rect x="0" y="720" width="1920" height="10" fill="#b8955e" />`;
+      for (let x = 10; x < 1920; x += 56) p += `<rect x="${x}" y="850" width="34" height="16" rx="3" fill="#7a5532" />`;
+      p += `<rect x="0" y="842" width="1920" height="9" fill="#3b2415" /><rect x="0" y="862" width="1920" height="7" fill="#3b2415" opacity="0.75" />`;
+      if (quieta) for (const [x, y] of [[620, 852], [700, 848], [1180, 850], [1300, 846], [980, 852]]) p += `<path d="M${x} ${y} l-8 -34 M${x} ${y} l4 -40 M${x} ${y} l14 -30" stroke="#5f6e45" stroke-width="6" stroke-linecap="round" />`;
+    } else if (!barco) {
       p += `<path d="M0 640 C220 520 380 560 560 500 C760 430 900 540 1100 480 C1300 420 1500 520 1700 470 C1800 450 1880 470 1920 480 V900 H0 Z" fill="#cfc59a" opacity="0.8" />`;
       p += `<path d="M0 720 C200 650 420 700 640 660 C860 620 1060 700 1300 660 C1520 625 1720 690 1920 650 V900 H0 Z" fill="#a9ad80" />`;
       // Palmas.
@@ -151,7 +171,31 @@
     };
     const ruedas = [];
     let v = `<svg class="{{id}}-arte" viewBox="0 0 1000 300">`;
-    if (!barco) {
+    if (draga) {
+      // Pala de vapor sobre la via: chasis, casa con chimenea, pluma y brazo con el cucharon.
+      const casa = quieta ? "#8a4f2c" : "#3b2415";
+      const casaO = quieta ? "#6e3d22" : "#2c1a10";
+      const metal = quieta ? "#7a4a2e" : "#2c1a10";
+      v += `<rect x="200" y="214" width="470" height="34" rx="6" fill="${metal}" /><rect x="200" y="214" width="470" height="8" fill="${quieta ? "#a0623a" : "#c9a256"}" />`;
+      v += rueda("r1", 250, 262, 22, 6) + rueda("r2", 320, 262, 22, 6) + rueda("r3", 550, 262, 22, 6) + rueda("r4", 620, 262, 22, 6);
+      v += `<rect x="230" y="96" width="330" height="122" rx="8" fill="${casa}" /><path d="M222 100 Q395 58 568 100 L568 112 Q395 74 222 112 Z" fill="${casaO}" />`;
+      v += `<rect x="250" y="126" width="70" height="56" rx="6" fill="#f2e2b6" stroke="${casaO}" stroke-width="5" /><rect x="340" y="126" width="70" height="56" rx="6" fill="#f2e2b6" stroke="${casaO}" stroke-width="5" />`;
+      v += `<rect x="230" y="196" width="330" height="10" fill="${quieta ? "#a0623a" : "#c9a256"}" />`;
+      v += `<rect id="{{id}}-chimenea" x="452" y="20" width="40" height="80" rx="5" fill="${metal}" /><rect x="444" y="14" width="56" height="12" rx="4" fill="${quieta ? "#a0623a" : "#c9a256"}" />`;
+      // Pluma fija (sale del frente de la casa hacia arriba) con su polea.
+      v += `<path d="M560 200 L860 30" stroke="${casa}" stroke-width="26" stroke-linecap="round" /><path d="M560 200 L860 30" stroke="${quieta ? "#a0623a" : "#c9a256"}" stroke-width="6" stroke-linecap="round" opacity="0.7" />`;
+      v += `<circle cx="860" cy="30" r="20" fill="${metal}" /><circle cx="860" cy="30" r="8" fill="${quieta ? "#a0623a" : "#c9a256"}" />`;
+      // Brazo con el cucharon: gira alrededor de su eje sobre la pluma (710, 115).
+      v += `<g id="{{id}}-brazo"><path d="M710 115 L800 250" stroke="${metal}" stroke-width="22" stroke-linecap="round" />`;
+      v += `<path d="M770 232 L850 236 L846 300 L780 296 Z" fill="${casa}" stroke="${metal}" stroke-width="6" stroke-linejoin="round" /><path d="M850 236 L870 246 L866 300 L846 300 Z" fill="${metal}" />`;
+      v += `<path d="M786 300 l8 14 l8 -14 M806 300 l8 14 l8 -14 M826 300 l8 14 l8 -14" fill="${metal}" stroke="${metal}" stroke-width="3" /></g>`;
+      v += `<path id="{{id}}-cable" d="M860 30 L830 236" stroke="${metal}" stroke-width="4" />`;
+      if (quieta) {
+        // Maleza y enredaderas: la maquina lleva anos parada.
+        v += `<path d="M240 214 C250 180 236 150 252 120 M300 214 C312 170 296 140 318 110 M600 186 C640 150 690 140 720 110 M520 214 C530 190 520 170 534 150" stroke="#5f6e45" stroke-width="7" fill="none" stroke-linecap="round" />`;
+        for (const [x, y] of [[252, 150], [312, 132], [660, 140], [700, 120], [528, 170], [244, 186]]) v += `<ellipse cx="${x}" cy="${y}" rx="14" ry="8" fill="#6f7f4f" transform="rotate(-30 ${x} ${y})" />`;
+      }
+    } else if (!barco) {
       // Vagon de pasajeros.
       v += `<path d="M30 110 Q175 78 320 110 L320 230 L30 230 Z" fill="#c9a256" /><path d="M30 110 Q175 78 320 110 L320 124 Q175 94 30 124 Z" fill="#6e4426" /><rect x="30" y="214" width="290" height="16" fill="#8a5a33" />`;
       for (let k = 0; k < 5; k++) v += `<rect x="${48 + k * 54}" y="136" width="38" height="48" rx="6" fill="#f2e2b6" stroke="#6e4426" stroke-width="4" />`;
@@ -175,6 +219,19 @@
       v += rueda("r5", 690, 236, 46, 10) + rueda("r6", 795, 236, 46, 10) + rueda("r7", 878, 256, 22, 6) + rueda("r8", 936, 256, 22, 6);
       ruedas.push(["r5", 690, 236], ["r6", 795, 236], ["r7", 878, 256], ["r8", 936, 256]);
       v += `<rect id="{{id}}-biela" x="690" y="230" width="105" height="12" rx="6" fill="#c9a256" />`;
+    } else if (D.guerra) {
+      // Buque de guerra de 1900: casco blanco, superestructura y chimenea color ante, canones y dos mastiles.
+      v += `<path d="M30 186 L970 178 L910 268 L100 268 Z" fill="#efe9dc" stroke="#3b2415" stroke-width="5" stroke-linejoin="round" /><path d="M96 252 L914 252 L910 268 L100 268 Z" fill="#a3302a" />`;
+      v += `<path d="M30 186 L970 178" stroke="#3b2415" stroke-width="8" />`;
+      for (let k = 0; k < 8; k++) v += `<circle cx="${220 + k * 74}" cy="218" r="7" fill="#3b2415" />`;
+      v += `<rect x="330" y="128" width="330" height="56" rx="5" fill="#d8bf86" stroke="#3b2415" stroke-width="4" /><rect x="400" y="96" width="150" height="36" rx="4" fill="#d8bf86" stroke="#3b2415" stroke-width="4" />`;
+      v += `<rect id="{{id}}-chimenea" x="470" y="22" width="54" height="78" rx="6" fill="#d8bf86" stroke="#3b2415" stroke-width="4" /><rect x="470" y="22" width="54" height="16" fill="#2f2a26" />`;
+      v += `<path d="M250 182 L250 18 M760 180 L760 30" stroke="#3b2415" stroke-width="8" /><path d="M200 60 L300 60 M716 74 L804 74" stroke="#3b2415" stroke-width="5" /><path d="M250 18 L760 30" stroke="#3b2415" stroke-width="2" opacity="0.6" />`;
+      // Canones: en la proa, en la popa y a los lados.
+      v += `<rect x="800" y="150" width="70" height="28" rx="6" fill="#4a4540" /><rect x="862" y="156" width="80" height="12" rx="5" fill="#2f2a26" />`;
+      v += `<rect x="130" y="150" width="70" height="28" rx="6" fill="#4a4540" /><rect x="64" y="156" width="80" height="12" rx="5" fill="#2f2a26" />`;
+      v += `<rect x="300" y="196" width="46" height="18" rx="4" fill="#4a4540" /><rect x="640" y="196" width="46" height="18" rx="4" fill="#4a4540" />`;
+      if (D.bandera) v += `<path d="M60 186 L60 96" stroke="#3b2415" stroke-width="5" /><svg x="62" y="96" width="78" height="52" viewBox="0 0 90 60" preserveAspectRatio="none">${bandera(D.bandera)}</svg>`;
     } else {
       // Barco de vapor con casco oscuro, linea de flotacion roja, superestructura y chimenea.
       v += `<path d="M40 190 L960 190 L900 268 L110 268 Z" fill="#2f2a26" /><path d="M40 190 L960 190 L950 204 L50 204 Z" fill="#a3302a" /><path d="M104 258 L906 258 L900 268 L110 268 Z" fill="#1d1916" />`;
@@ -187,9 +244,9 @@
       if (D.bandera) v += `<path d="M86 190 L86 92" stroke="#3b2415" stroke-width="5" /><svg x="88" y="92" width="78" height="52" viewBox="0 0 90 60" preserveAspectRatio="none">${bandera(D.bandera)}</svg>`;
     }
     // Bocanadas de humo (salen de la chimenea y quedan atras).
-    const humoX = barco ? 498 : 859;
-    const humoY = barco ? 14 : 22;
-    const NH = 12;
+    const humoX = draga ? 472 : barco ? 498 : 859;
+    const humoY = draga ? 10 : barco ? 14 : 22;
+    const NH = quieta ? 0 : 12;
     for (let k = 0; k < NH; k++) v += `<circle id="{{id}}-humo-${k}" cx="${humoX}" cy="${humoY}" r="22" fill="#efe6d2" stroke="#b9a988" stroke-width="3" opacity="0" />`;
     $("veh-f").innerHTML = v + "</svg>";
 
@@ -199,7 +256,12 @@
       $("sello").innerHTML =
         `<svg class="{{id}}-arte" viewBox="0 0 270 270"><circle cx="135" cy="135" r="122" fill="#fbf3df" style="stroke: var(--acento)" stroke-width="10" /><circle cx="135" cy="135" r="104" fill="none" style="stroke: var(--acento)" stroke-width="3" stroke-dasharray="6 7" />` +
         `<text x="135" y="160" text-anchor="middle" font-family="Playfair Display, serif" font-weight="900" font-size="${k.length > 4 ? 64 : 82}" style="fill: var(--acento)">${esc(k)}</text></svg>`;
-    } else $("sello").style.display = "none";
+    } else {
+      $("sello").style.display = "none";
+      // Sin sello, el titulo y el dato ocupan su lugar.
+      $("rotulo").style.left = "120px";
+      $("detalle").style.left = "120px";
+    }
 
     // ---------- Movimiento ----------
     const tAnio = tope(momento(W.anio || D.anio, 0.05), 1);
@@ -212,9 +274,24 @@
       tl.fromTo(el("sello"), { opacity: 0, scale: 2.2, rotation: -40 }, { opacity: 1, scale: 1, rotation: -10, duration: 0.3, ease: "power3.in" }, tAnio);
       fx.golpe(tl, el("sello"), tAnio + 0.32, 1.06);
     }
-    tl.fromTo(el("veh"), { x: barco ? 1500 : -1660 }, { x: 0, duration: viaje, ease: "power2.out" }, tEntra);
+    if (draga) {
+      if (quieta) {
+        tl.fromTo(el("veh"), { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.6, ease: "power2.out" }, Math.min(tEntra, 0.3));
+        tl.fromTo(el("veh-f"), { rotation: 0 }, { rotation: -1.5, duration: r.dur, ease: "sine.inOut", svgOrigin: "500 270" }, 0);
+      } else {
+        tl.fromTo(el("veh"), { x: -1300 }, { x: 0, duration: viaje, ease: "power2.out" }, tEntra);
+        ["r1", "r2", "r3", "r4"].forEach((id, k) => tl.fromTo(el(id), { rotation: 0, svgOrigin: `${[250, 320, 550, 620][k]} 262` }, { rotation: 720, svgOrigin: `${[250, 320, 550, 620][k]} 262`, duration: viaje, ease: "power2.out" }, tEntra));
+        // El brazo baja y sube el cucharon una y otra vez (finito: hasta el final de la escena).
+        const ciclos = Math.max(1, Math.floor((r.dur - tEntra - viaje - 0.3) / 1.4));
+        tl.fromTo(el("brazo"), { rotation: 0, svgOrigin: "710 115" }, { rotation: 0, duration: 0.01 }, 0);
+        tl.to(el("brazo"), { keyframes: Array.from({ length: ciclos }, () => [{ rotation: 18, duration: 0.6, ease: "power1.in" }, { rotation: -14, duration: 0.8, ease: "power2.out" }]).flat(), svgOrigin: "710 115" }, tEntra + viaje);
+        tl.to(el("cable"), { keyframes: Array.from({ length: ciclos }, () => [{ attr: { d: "M860 30 L780 250" }, duration: 0.6, ease: "power1.in" }, { attr: { d: "M860 30 L870 205" }, duration: 0.8, ease: "power2.out" }]).flat() }, tEntra + viaje);
+      }
+    } else tl.fromTo(el("veh"), { x: barco ? 1500 : -1660 }, { x: 0, duration: viaje, ease: "power2.out" }, tEntra);
     // Ruedas que giran mientras avanza (y se frenan con el); vaiven del vehiculo.
-    if (!barco) {
+    if (draga) {
+      // (ya se movio arriba)
+    } else if (!barco) {
       ruedas.forEach(([id, cx, cy]) => tl.fromTo(el(id), { rotation: 0, svgOrigin: `${cx} ${cy}` }, { rotation: 900, svgOrigin: `${cx} ${cy}`, duration: viaje, ease: "power2.out" }, tEntra));
       tl.fromTo(el("biela"), { y: 0 }, { y: -8, duration: 0.12, ease: "sine.inOut", repeat: Math.max(1, Math.floor(viaje / 0.12) - 1), yoyo: true }, tEntra);
       tl.fromTo(el("veh-f"), { y: 0 }, { y: -3, duration: 0.09, ease: "sine.inOut", repeat: Math.max(1, Math.floor(viaje / 0.09) - 1), yoyo: true }, tEntra);

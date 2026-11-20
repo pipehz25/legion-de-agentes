@@ -10,6 +10,7 @@
          sello (opcional): texto del sello ("EE. UU.", 8 letras); bandera (opcional): eeuu|panama|colombia|francia
          palabras (opcionales): { lapso, documento, sello, franja }: palabras dichas que hacen aparecer cada cosa
          rechazado (opcional, true): el documento recibe una franja roja de "Rechazado" en vez del sello
+         texto_rechazo (opcional): otro texto para esa franja ("En quiebra", "Anulado"; 12 letras)
 -->
 <template>
   <style>
@@ -175,7 +176,7 @@
         <div id="{{id}}-renglones"></div>
         <div id="{{id}}-bandera"></div>
         <div id="{{id}}-sello"></div>
-        <div id="{{id}}-rechazo" class="{{id}}-titulo">Rechazado</div>
+        <div id="{{id}}-rechazo" class="{{id}}-titulo">{{d.texto_rechazo|Rechazado}}</div>
       </div>
     </div>
   </div>
@@ -186,7 +187,12 @@
 {{>geo-americas}}
 
     const W = D.palabras || {};
-    if (!D.desde) ["h1", "h2", "flecha", "lapso"].forEach((k) => ($(k).style.display = "none"));
+    if (!D.desde) {
+      ["h1", "h2", "flecha", "lapso"].forEach((k) => ($(k).style.display = "none"));
+      // Sin las hojas del calendario, el mapa del istmo sube para no dejar un hueco arriba.
+      $("istmo").style.top = "250px";
+      $("franja-rot").style.top = "730px";
+    }
     if (!D.sub) $("doc-s").style.display = "none";
 
     // Renglones del documento (no se leen: es el texto "escribiendose").

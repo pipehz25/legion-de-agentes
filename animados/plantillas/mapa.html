@@ -4,25 +4,38 @@
   dibujan (con un barco o un tren que las recorre), marcas de ciudades, rotulos, banderas y fichas.
   Solo horizontal. Necesita "estilo.tema" (pensada para "archivo").
   Lugares: [longitud, latitud] o un nombre de la geografia (colon, panama, bogota, cartagena, caracas,
-  quito, cabo_hornos, darien). Momentos: una palabra dicha, { "en": 0.5 } (parte de lo hablado en la
+  quito, cabo_hornos, darien, gatun, pedro_miguel, miraflores, gamboa, culebra, balboa, cristobal, chagres,
+  managua, granada, san_carlos, san_juan_del_norte, san_juan_del_sur, momotombo, martinica, saint_pierre,
+  bahia_panama, lago_nicaragua, lago_gatun). Momentos: una palabra dicha, { "en": 0.5 } (parte de lo hablado en la
   escena) o segundos desde que empieza la escena.
   Datos:
     vistas: [{ caja: [lonOeste, latNorte, lonEste, latSur] | centro: [lon, lat] + ancho (grados),
                palabra|en (cuando llega; la primera esta desde el cuadro 0), dur (s, por defecto 1.4) }]
-    paises (opcional): [{ id: colombia|panama|venezuela|ecuador, color: "acento"|"acento2"|"#hex",
+    paises (opcional): [{ id: colombia|panama|venezuela|ecuador|nicaragua, color: "acento"|"acento2"|"#hex",
                opacidad (0.6), palabra|en, hasta (cuando se apaga), rotulo, rotulo_lugar, rotulo_tam (px) }]
     separa (opcional): { pais: "panama", palabra|en, hacia: [dx, dy] (grados), color }
-    rutas (opcional): [{ puntos: [[lon, lat], ...] | "ferrocarril", estilo: "linea"|"discontinua"|"tren"|"flecha",
-               color, grosor (px), palabra|en, dur (s), movil: "barco"|"tren", hasta }]
+    rutas (opcional): [{ puntos: [[lon, lat], ...] | "ferrocarril" | "canal" | "culebra" | "ruta_nicaragua",
+               estilo: "linea"|"discontinua"|"tren"|"flecha"|"canal" (cauce de agua con orillas)|"resalte" (franja
+               ancha y translucida, para marcar un tramo como el corte Culebra), color, grosor (px), palabra|en,
+               dur (s), movil: "barco"|"tren", hasta }]
+    rios (opcional): [{ id: chagres|san_juan, palabra|en, dur, hasta, rotulo ("Río Chagres"), rotulo_lugar, rotulo_tam }]
+    lagos (opcional): [{ id: gatun|nicaragua|managua, palabra|en, hasta, rotulo, rotulo_lugar }] (el de Gatun
+               aparece; los de Nicaragua, que siempre estan, se resaltan con un borde de color)
+    esclusas (opcional): [{ id: gatun|pedro_miguel|miraflores (o lugar), texto (por defecto su nombre),
+               lado, tam (px), palabra|en, hasta }]
+    montes (opcional): { puntos: "culebra" | [[lon, lat], ...], tam (px), palabra|en }  montanas dibujadas
     marcas (opcional): [{ texto, lugar, lado: "derecha"|"izquierda"|"arriba"|"abajo", tam (px), palabra|en, hasta }]
-    rotulos (opcional): [{ texto, lugar, estilo: "mar"|"pais"|"titulo", tam (px), giro (grados), palabra|en, hasta }]
+    rotulos (opcional): [{ texto, lugar, estilo: "mar"|"pais"|"titulo"|"rio", tam (px), giro (grados), palabra|en, hasta }]
     banderas (opcional): [{ pais: colombia|panama|eeuu|francia|espana, lugar, tam (px de ancho), palabra|en, hasta }]
     cartela (opcional): { titulo (28 letras), sub (40 letras), palabra|en }  arriba a la izquierda
-    fichas (opcional): [{ titulo ("3", "1821"), texto (16 letras), dibujo: calendario|canon|ancla|tren|pluma,
+    fichas (opcional): [{ titulo ("3", "1821"), texto (16 letras), dibujo (icono de _escena-h-js.html: calendario,
+               canon, ancla, tren, pluma, mosquito, esclusa, barco, volcan, moneda, cruz, documento, draga...),
                tachar: true, marcas: n (n rayitas que se llenan), contar: true, lugar: "abajo-izquierda"|
                "abajo-derecha"|"arriba-derecha", palabra|en, hasta }]
                o { tipo: "anios", de: "1821", a: "1903", texto, palabra|en, lugar }
-  Todo lo que aparece en una vista se va solo cuando la camara se aleja o se acerca mucho.
+  Todo lo que aparece en una vista se va solo cuando la camara se aleja o se acerca mucho. La costa de
+  Panama tiene mas detalle junto al canal (bahia de Limon, Colon, Balboa): sirve acercarse hasta unos 0,5
+  grados de ancho ("caja": [-80.1, 9.45, -79.45, 8.85] muestra todo el canal).
 -->
 <template>
   <style>
@@ -87,6 +100,17 @@
     .{{id}}-txt-titulo {
       font-family: var(--fuente-titulo);
       font-weight: 900;
+    }
+    .{{id}}-txt-rio {
+      font-style: italic;
+      fill: #2f5a68;
+      letter-spacing: 0.06em;
+    }
+    .{{id}}-lago {
+      fill: #cdd2b6;
+      stroke: #3b2415;
+      stroke-width: 1.8px;
+      stroke-linejoin: round;
     }
     #{{id}}-marco {
       position: absolute;
@@ -298,7 +322,9 @@
       venezuela: contorno(GEO.venezuela),
       ecuador: contorno(GEO.ecuador),
       panama: contorno(GEO.panama),
+      nicaragua: contorno(GEO.nicaragua),
     };
+    const lagoForma = (id) => contorno(GEO.lagos[id]);
     const islas = GEO.islas.map((i) => contorno(i)).join(" ");
     const sepa = D.separa && D.separa.pais ? D.separa.pais : null;
     const tierraFija = ["centroamerica", "sudamerica"].map((k) => formas[k]).join(" ") + " " + islas + (sepa === "panama" ? "" : " " + formas.panama);
@@ -312,6 +338,17 @@
     // Fronteras y costas.
     capas += `<path class="{{id}}-costa" vector-effect="non-scaling-stroke" d="${tierraFija}" />`;
     capas += `<path class="{{id}}-costa" vector-effect="non-scaling-stroke" style="stroke-width: 1.6px; stroke-dasharray: 7 5; stroke-opacity: 0.7" d="${[formas.colombia, formas.venezuela, formas.ecuador].join(" ")}" />`;
+    if ((D.paises || []).some((p) => p.id === "nicaragua")) capas += `<path class="{{id}}-costa" vector-effect="non-scaling-stroke" style="stroke-width: 1.6px; stroke-dasharray: 7 5; stroke-opacity: 0.7" d="${formas.nicaragua}" />`;
+    // Lagos: los naturales siempre; los que pide la escena (Gatun aparece; los demas se resaltan).
+    capas += `<path class="{{id}}-lago" vector-effect="non-scaling-stroke" d="${(GEO.naturales || []).map(lagoForma).join(" ")}" />`;
+    const lagos = (D.lagos || []).filter((l) => GEO.lagos[l.id]).map((l, i) => {
+      const t = momento(l.palabra ?? l.en, 0.3);
+      const natural = (GEO.naturales || []).includes(l.id);
+      capas += natural
+        ? `<path id="{{id}}-lago-${i}" d="${lagoForma(l.id)}" fill="none" style="stroke: var(--acento)" stroke-width="${(5 * px(t)).toFixed(4)}" opacity="0" />`
+        : `<path id="{{id}}-lago-${i}" class="{{id}}-lago" vector-effect="non-scaling-stroke" d="${lagoForma(l.id)}" opacity="0" />`;
+      return { ...l, i, t, natural, fin: finDe(t, l.hasta) };
+    });
     // El pais que se separa va en su propio grupo.
     if (sepa) {
       capas += `<g id="{{id}}-sepa">`;
@@ -323,19 +360,37 @@
     }
 
     // Rutas: se dibujan con una mascara que se destapa a lo largo del trazo.
-    const rutas = (D.rutas || []).map((ru, i) => {
-      const pts = ru.puntos === "ferrocarril" ? GEO.ferrocarril : ru.puntos || [];
+    // Los rios se dibujan como rutas (con su rotulo, que se suma a los rotulos).
+    const rotulosExtra = [];
+    const rutasDatos = [...(D.rutas || [])];
+    (D.rios || []).filter((ri) => GEO.rios[ri.id]).forEach((ri) => {
+      rutasDatos.push({ ...ri, puntos: GEO.rios[ri.id], estilo: "rio", dur: ri.dur ?? 1.3 });
+      if (ri.rotulo) {
+        const pts = GEO.rios[ri.id];
+        rotulosExtra.push({ texto: ri.rotulo, lugar: ri.rotulo_lugar || pts[Math.floor(pts.length / 2)], estilo: "rio", tam: ri.rotulo_tam ?? 30, palabra: ri.palabra, en: ri.en, hasta: ri.hasta });
+      }
+    });
+    (D.lagos || []).filter((l) => l.rotulo && GEO.lagos[l.id]).forEach((l) => rotulosExtra.push({ texto: l.rotulo, lugar: l.rotulo_lugar || "lago_" + l.id, estilo: "mar", tam: l.rotulo_tam ?? 38, palabra: l.palabra, en: l.en, hasta: l.hasta }));
+    const puntosDe = (v) => (typeof v === "string" ? GEO[v] || GEO.rios[v] || [] : v || []);
+    const rutas = rutasDatos.map((ru, i) => {
+      const pts = puntosDe(ru.puntos);
       const t = momento(ru.palabra ?? ru.en, 0.3);
       const k = px(t);
-      const g = (ru.grosor ?? (ru.estilo === "tren" ? 9 : 7)) * k;
+      const g = (ru.grosor ?? ({ tren: 9, canal: 12, resalte: 12, rio: 5 }[ru.estilo] || 7)) * k;
       const d = ru.suave === false ? "M" + pts.map((p) => merc(p).map(f3).join(" ")).join(" L") : contorno(pts, false);
       const c = tono(ru.color, ru.estilo === "tren" ? "var(--tinta)" : "var(--acento)");
-      svg += `<mask id="{{id}}-m${i}" maskUnits="userSpaceOnUse" x="-200" y="-120" width="400" height="300"><path id="{{id}}-mr${i}" d="${d}" fill="none" stroke="#fff" stroke-width="${f3(g * 7)}" stroke-linecap="butt" /></mask>`;
+      svg += `<mask id="{{id}}-m${i}" maskUnits="userSpaceOnUse" x="-200" y="-120" width="400" height="300"><path id="{{id}}-mr${i}" d="${d}" fill="none" stroke="#fff" stroke-width="${f3(g * (ru.estilo === "resalte" ? 9 : 7))}" stroke-linecap="butt" /></mask>`;
       // Punta de flecha: un marcador al final del trazo (la mascara la destapa cuando el trazo llega).
       if (ru.estilo === "flecha") svg += `<marker id="{{id}}-mk${i}" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="3.4" markerHeight="3.4" orient="auto"><path d="M0 0 L10 5 L0 10 L2.6 5 Z" style="fill: ${c}" /></marker>`;
       let trazo = "";
       if (ru.estilo === "tren") {
         trazo = `<path d="${d}" fill="none" style="stroke: ${c}" stroke-width="${f3(g)}" stroke-linecap="round" stroke-linejoin="round" /><path d="${d}" fill="none" stroke="#f6ecd0" stroke-width="${f3(g * 0.45)}" stroke-dasharray="${f3(g * 1.6)} ${f3(g * 1.6)}" />`;
+      } else if (ru.estilo === "canal") {
+        trazo = `<path d="${d}" fill="none" style="stroke: var(--tinta)" stroke-width="${f3(g)}" stroke-linecap="round" stroke-linejoin="round" /><path d="${d}" fill="none" stroke="#a3c0c1" stroke-width="${f3(g * 0.58)}" stroke-linecap="round" stroke-linejoin="round" />`;
+      } else if (ru.estilo === "resalte") {
+        trazo = `<path d="${d}" fill="none" style="stroke: ${c}" stroke-width="${f3(g * 2.6)}" stroke-linecap="round" stroke-linejoin="round" opacity="0.38" />`;
+      } else if (ru.estilo === "rio") {
+        trazo = `<path d="${d}" fill="none" stroke="${ru.color ? c : "#5f8a98"}" stroke-width="${f3(g)}" stroke-linecap="round" stroke-linejoin="round" />`;
       } else if (ru.estilo === "discontinua") {
         trazo = `<path d="${d}" fill="none" style="stroke: ${c}" stroke-width="${f3(g)}" stroke-dasharray="${f3(g * 2.2)} ${f3(g * 1.5)}" stroke-linecap="round" />`;
       } else {
@@ -344,6 +399,38 @@
       }
       capas += `<g id="{{id}}-ruta-${i}" mask="url(#{{id}}-m${i})">${trazo}</g>`;
       return { ...ru, i, t, k, g, fin: finDe(t, ru.hasta) };
+    });
+
+    // Montanas dibujadas (la cordillera alrededor del corte Culebra, por ejemplo).
+    const montes = [];
+    if (D.montes) {
+      const M = typeof D.montes === "string" ? { puntos: D.montes } : D.montes;
+      const t = momento(M.palabra ?? M.en, 0.1);
+      const k = px(t);
+      const pts = typeof M.puntos === "string" ? (GEO.montes || {})[M.puntos] || [] : M.puntos || [];
+      pts.forEach((l, j) => {
+        const [x, y] = P(l);
+        const w = (M.tam ?? 80) * k * (0.8 + 0.2 * ((j * 37) % 3));
+        capas += `<g id="{{id}}-monte-${j}" opacity="0"><svg x="${f3(x - w / 2)}" y="${f3(y - w * 0.8)}" width="${f3(w)}" height="${f3(w)}" viewBox="0 0 100 100">${icono("montana", "#6f4e35")}</svg></g>`;
+        montes.push({ j, t: t + j * 0.08 });
+      });
+    }
+    // Esclusas del canal: el dibujo de una esclusa en un medallon y su nombre.
+    const NOMBRES_ESCLUSA = { gatun: "Gatún", pedro_miguel: "Pedro Miguel", miraflores: "Miraflores" };
+    const esclusas = (D.esclusas || []).map((e, i) => {
+      const t = momento(e.palabra ?? e.en, 0.4);
+      const k = px(t);
+      const [x, y] = P(e.id && GEO.esclusas[e.id] ? GEO.esclusas[e.id] : e.lugar);
+      const w = (e.tam ?? 78) * k;
+      const tam = (e.tam_texto ?? 38) * k;
+      const lado = e.lado || "derecha";
+      const dx = lado === "derecha" ? w * 0.66 : lado === "izquierda" ? -w * 0.66 : 0;
+      const dy = lado === "arriba" ? -w * 0.66 : lado === "abajo" ? w * 0.66 + tam * 0.7 : tam * 0.34;
+      const ancla = lado === "derecha" ? "start" : lado === "izquierda" ? "end" : "middle";
+      capas += `<g id="{{id}}-escl-${i}" opacity="0"><circle cx="${f3(x)}" cy="${f3(y)}" r="${f3(w * 0.56)}" fill="#f6ecd0" style="stroke: var(--acento)" stroke-width="${f3(w * 0.06)}" />`;
+      capas += `<svg x="${f3(x - w * 0.4)}" y="${f3(y - w * 0.4)}" width="${f3(w * 0.8)}" height="${f3(w * 0.8)}" viewBox="0 0 100 100">${icono("esclusa", "#3b2415")}</svg>`;
+      capas += `<text class="{{id}}-txt" x="${f3(x + dx)}" y="${f3(y + dy)}" text-anchor="${ancla}" font-size="${f3(tam)}" stroke-width="${f3(tam * 0.22)}">${esc(e.texto ?? NOMBRES_ESCLUSA[e.id] ?? "")}</text></g>`;
+      return { ...e, i, t, x, y, fin: finDe(t, e.hasta) };
     });
 
     // Marcas de ciudades.
@@ -364,7 +451,7 @@
     });
 
     // Rotulos sueltos (mares, paises, titulos sobre el mapa).
-    const rotulos = (D.rotulos || []).map((ro, i) => {
+    const rotulos = [...(D.rotulos || []), ...rotulosExtra].map((ro, i) => {
       const t = momento(ro.palabra ?? ro.en, 0.15);
       const k = px(t);
       const [x, y] = P(ro.lugar);
@@ -485,6 +572,17 @@
       }
     });
 
+    lagos.forEach((l) => {
+      if (l.natural) {
+        aparece(el("lago-" + l.i), l.t, l.fin, 0.4);
+        tl.fromTo(el("lago-" + l.i), { attr: { "stroke-opacity": 1 } }, { attr: { "stroke-opacity": 0.45 }, duration: 0.5, ease: "sine.inOut", repeat: 3, yoyo: true }, l.t + 0.4);
+      } else aparece(el("lago-" + l.i), l.t, l.fin, 0.9);
+    });
+    montes.forEach((m) => tl.fromTo(el("monte-" + m.j), { opacity: 0 }, { opacity: 1, duration: 0.4, ease: "power2.out" }, m.t));
+    esclusas.forEach((e) => {
+      tl.fromTo(el("escl-" + e.i), { opacity: 0, scale: 0.3, svgOrigin: `${f3(e.x)} ${f3(e.y)}` }, { opacity: 1, scale: 1, duration: 0.4, ease: "back.out(2.2)" }, e.t);
+      if (e.fin !== null && e.fin > e.t + 0.5) tl.to(el("escl-" + e.i), { opacity: 0, duration: 0.3 }, e.fin);
+    });
     marcas.forEach((m) => {
       aparece(el("marca-" + m.i), m.t, m.fin, 0.3);
       const onda = el("onda-" + m.i);

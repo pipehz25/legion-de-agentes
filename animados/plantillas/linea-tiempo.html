@@ -7,7 +7,17 @@
            anio: 9 caracteres o menos ("1847", "1500 a. C.")
            texto: con 3 hitos, 50 letras o menos (dos renglones); con 4, 40; con 5, 28 (un renglon)
          titulo (opcional): arriba, 24 letras o menos
+{{?h}}
+  Horizontal: propio. De 3 a 7 hitos de izquierda a derecha sobre un riel, cada uno con su ano arriba y
+  su texto en una tarjeta abajo. "actual" (opcional: el numero del hito, desde 0, o su "anio") es el
+  momento de la historia: queda resaltado (punto grande, ano y tarjeta en color de acento, una flecha
+  encima) y el riel se enciende solo hasta ahi; los hitos que vienen despues quedan mas tenues.
+  Sin "palabra", los hitos entran todos al empezar; el actual se resalta cuando se dice su ano (o
+  palabra_actual). En horizontal: anio de 9
+  caracteres; texto de 60 letras con 3 hitos, 48 con 5 y 36 con 7; titulo de 40 letras.
+{{/h}}
 -->
+{{?v}}
 <template>
   <style>
 {{>narrador-css}}
@@ -143,3 +153,148 @@
     window.__timelines["{{id}}"] = tl;
   </script>
 </template>
+{{/v}}
+{{?h}}
+<template>
+  <style>
+{{>narrador-css}}
+    #{{id}}-titulo {
+      position: absolute;
+      left: 160px;
+      right: 160px;
+      top: 96px;
+      text-align: center;
+      white-space: nowrap;
+      opacity: 0;
+    }
+    #{{id}}-titulo-raya {
+      width: 200px;
+      height: 8px;
+      margin: 16px auto 0;
+      border-radius: 4px;
+      background: var(--acento2);
+    }
+    #{{id}}-riel {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 1920px;
+      height: 1080px;
+    }
+    .{{id}}-anio {
+      position: absolute;
+      text-align: center;
+      white-space: nowrap;
+      opacity: 0;
+    }
+    .{{id}}-punto {
+      position: absolute;
+      opacity: 0;
+    }
+    .{{id}}-tarjeta-h {
+      position: absolute;
+      padding: 16px 20px 18px;
+      text-align: center;
+      line-height: 1.14;
+      opacity: 0;
+    }
+    #{{id}}-flecha {
+      position: absolute;
+      width: 70px;
+      height: 64px;
+      opacity: 0;
+    }
+  </style>
+
+  <div id="root" data-composition-id="{{id}}" data-width="{{ancho}}" data-height="{{alto}}">
+    <div id="{{id}}-titulo" class="{{id}}-titulo">{{d.titulo|}}<div id="{{id}}-titulo-raya"></div></div>
+    <div id="{{id}}-riel"></div>
+    <div id="{{id}}-hitos"></div>
+    <div id="{{id}}-flecha"><svg class="{{id}}-arte" viewBox="0 0 70 64"><path d="M6 6 H64 L35 58 Z" style="fill: var(--acento)" /><path d="M16 12 H54 L35 46 Z" fill="#fbf3df" opacity="0.35" /></svg></div>
+  </div>
+
+  <script>
+{{>narrador-js}}
+{{>escena-h-js}}
+
+    const hitos = (D.hitos || []).slice(0, 7);
+    const N = hitos.length;
+    if (!D.titulo) $("titulo").style.display = "none";
+    else $("titulo").style.fontSize = tamPara(D.titulo, 1500, 70, 46, T.anchoTitulo) + "px";
+    // Cual es el momento de la historia: un numero (desde 0) o el anio de un hito.
+    let actual = typeof D.actual === "number" ? D.actual : hitos.findIndex((h) => D.actual !== undefined && String(h.anio) === String(D.actual));
+    if (actual >= N) actual = N - 1;
+
+    // Medidas: cada hito en su columna; el riel cruza la pantalla a media altura.
+    const Y = D.titulo ? 500 : 450;
+    const ancho = Math.min(400, Math.floor(1700 / N) - 24);
+    const xIni = 110 + ancho / 2;
+    const xFin = 1810 - ancho / 2;
+    const xs = hitos.map((_, i) => (N === 1 ? 960 : xIni + ((xFin - xIni) * i) / (N - 1)));
+    const tamAnio = N >= 6 ? 66 : N >= 5 ? 78 : 96;
+    const tamTexto = N >= 6 ? 34 : N >= 5 ? 40 : N === 4 ? 46 : 50;
+
+    // Riel: base, regla con rayitas y la luz (que llega hasta el hito actual).
+    const largoLuz = xs[N - 1] - 70;
+    let rs = `<svg class="{{id}}-arte" viewBox="0 0 1920 1080">`;
+    rs += `<path id="{{id}}-base" d="M70 ${Y} H1850" stroke="rgba(59, 36, 21, 0.28)" stroke-width="12" stroke-linecap="round" pathLength="1" stroke-dasharray="1 1" stroke-dashoffset="1" />`;
+    for (let x = 90; x <= 1830; x += 29) rs += `<path class="{{id}}-raya" d="M${x} ${Y + 14} V${Y + (Math.round((x - 90) / 29) % 5 === 0 ? 34 : 24)}" stroke="rgba(59, 36, 21, 0.3)" stroke-width="3" />`;
+    rs += `<path id="{{id}}-luz" d="M70 ${Y} H${xs[N - 1].toFixed(1)}" style="stroke: var(--acento)" stroke-width="12" stroke-linecap="round" stroke-dasharray="${largoLuz.toFixed(1)} ${largoLuz.toFixed(1)}" stroke-dashoffset="${largoLuz.toFixed(1)}" />`;
+    rs += `</svg>`;
+    $("riel").innerHTML = rs;
+
+    let h = "";
+    hitos.forEach((hi, i) => {
+      const x = xs[i];
+      const esActual = i === actual;
+      const r0 = esActual ? 30 : 20;
+      h += `<div id="{{id}}-a${i}" class="{{id}}-anio {{id}}-cifra" style="left: ${(x - 200).toFixed(1)}px; width: 400px; top: ${Y - 40 - tamAnio * 1.15}px; font-size: ${tamAnio}px${esActual ? "" : "; color: var(--tinta)"}">${esc(hi.anio)}</div>`;
+      h += `<div id="{{id}}-p${i}" class="{{id}}-punto" style="left: ${(x - 46).toFixed(1)}px; top: ${Y - 46}px; width: 92px; height: 92px"><svg class="{{id}}-arte" viewBox="0 0 92 92">` +
+        `<circle id="{{id}}-onda${i}" cx="46" cy="46" r="${r0 + 6}" fill="none" style="stroke: var(--acento)" stroke-width="5" opacity="0" />` +
+        `<circle cx="46" cy="46" r="${r0}" fill="#fbf3df" stroke="#3b2415" stroke-width="5" /><circle id="{{id}}-pc${i}" cx="46" cy="46" r="${r0 - 9}" style="fill: ${esActual ? "var(--acento)" : "var(--acento2)"}" /></svg></div>`;
+      h += `<div id="{{id}}-t${i}" class="{{id}}-tarjeta-h {{id}}-tarjeta" style="left: ${(x - ancho / 2).toFixed(1)}px; width: ${ancho}px; top: ${Y + 62}px; font-size: ${tamTexto}px${esActual ? "; border-color: var(--acento); border-width: 5px" : ""}">${esc(sinViuda(hi.texto || ""))}</div>`;
+    });
+    $("hitos").innerHTML = h;
+    if (actual >= 0) Object.assign($("flecha").style, { left: (xs[actual] - 35).toFixed(1) + "px", top: Y - 40 - tamAnio * 1.15 - 74 + "px" });
+    else $("flecha").style.display = "none";
+
+    // ---------- Movimiento ----------
+    if (D.titulo) {
+      fx.entra(tl, el("titulo"), 0.02, { y: -30 }, 0.36);
+      tl.fromTo(el("titulo-raya"), { scaleX: 0 }, { scaleX: 1, duration: 0.5, ease: "power2.out" }, 0.3);
+    }
+    tl.to(el("base"), { attr: { "stroke-dashoffset": 0 }, duration: 0.7, ease: "power2.inOut" }, 0.05);
+    tl.fromTo(`#{{id}}-riel .{{id}}-raya`, { opacity: 0 }, { opacity: 1, duration: 0.25, stagger: 0.006 }, 0.15);
+    // La luz del riel arranca apagada y llega hasta cada hito al encenderse (no mas alla del actual).
+    const hasta = (i) => (xs[i] - 70) / largoLuz;
+    let previo = 0;
+    const tiempos = [];
+    hitos.forEach((hi, i) => {
+      // Con "palabra", el hito entra cuando se dice; sin ella, todos entran al empezar, en orden (el
+      // actual se resalta despues, cuando se dice su ano o su palabra).
+      let t = hi.palabra ? tope(dicho(hi.palabra, 0.1 + (0.6 * i) / Math.max(1, N)), 0.8) : 0.25 + i * 0.22;
+      t = Math.max(t, previo + 0.2);
+      previo = t;
+      tiempos.push(t);
+      const futuro = actual >= 0 && i > actual;
+      fx.entra(tl, el("p" + i), t, {}, 0.3);
+      fx.entra(tl, el("a" + i), t + 0.05, { y: 30 }, 0.32);
+      tl.fromTo(el("t" + i), { opacity: 0, y: 30 }, { opacity: futuro ? 0.6 : 1, y: 0, duration: 0.34, ease: "power3.out" }, t + 0.12);
+      if (futuro) tl.to(el("a" + i), { opacity: 0.55, duration: 0.2 }, t + 0.4);
+      if (!futuro) tl.to(el("luz"), { attr: { "stroke-dashoffset": largoLuz * (1 - hasta(i)) }, duration: 0.35, ease: "power2.out" }, Math.max(0, t - 0.3));
+    });
+    if (actual >= 0) {
+      const hA = hitos[actual];
+      let tA = tope(dicho(D.palabra_actual || hA.palabra || hA.anio, 0.35), 0.6);
+      tA = Math.max(tA, tiempos[actual] + 0.2);
+      tl.fromTo(el("flecha"), { opacity: 0, y: -40 }, { opacity: 1, y: 0, duration: 0.35, ease: "back.out(2.4)" }, tA);
+      tl.fromTo(el("flecha"), { y: 0 }, { y: 10, duration: 0.5, ease: "sine.inOut", repeat: Math.max(1, Math.floor((r.dur - tA - 0.6) / 0.5)), yoyo: true }, tA + 0.4);
+      fx.golpe(tl, el("a" + actual), tA + 0.05, 1.18);
+      tl.fromTo(el("onda" + actual), { opacity: 0.9, scale: 1, transformOrigin: "50% 50%" }, { opacity: 0, scale: 1.9, duration: 0.7, ease: "power2.out" }, tA);
+      fx.golpe(tl, el("t" + actual), tA + 0.12, 1.06);
+    }
+
+    window.__timelines["{{id}}"] = tl;
+  </script>
+</template>
+{{/h}}

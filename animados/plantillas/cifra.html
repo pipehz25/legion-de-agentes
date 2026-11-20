@@ -1,0 +1,312 @@
+<!--
+  Cifra (videos propios, Narrador): un numero grande que cuenta desde 0 hasta su valor, con su moneda,
+  su unidad y un rotulo, sobre una tarjeta con marco de documento; o de 2 a 3 cifras comparadas lado a
+  lado, cada una con su barra proporcional.
+  Solo horizontal. Necesita "estilo.tema".
+  Datos (una cifra):
+    valor: 20000 (numero; sale "20.000" y cuenta desde 0) o cifra: "1903" (texto: no cuenta)
+    moneda (opcional): "US$" (va antes, mas chica); unidad (opcional): "millones" (despues, 14 letras)
+    antes (opcional): "unas" (arriba, 24 letras); rotulo: "personas murieron, quizá más" (44 letras)
+    dibujo (opcional): icono a la izquierda (cruz, moneda, mosquito, barco, documento... de _escena-h-js.html)
+    contar (opcional): false para que no cuente; decimales (opcional, 0 por defecto)
+    palabra|en: cuando aparece el numero (sin dato, al empezar); palabra_rotulo (opcional)
+  Datos (comparar 2 o 3 cifras):
+    cifras: [{ valor, moneda, unidad (14 letras), rotulo (30 letras), palabra|en, resalta: true }]
+    titulo (opcional): arriba, 40 letras
+    barras (opcional): barras proporcionales; por defecto, solo si todas tienen la misma unidad
+-->
+<template>
+  <style>
+{{>narrador-css}}
+    #{{id}}-hoja {
+      position: absolute;
+      left: 240px;
+      top: 130px;
+      width: 1440px;
+      height: 720px;
+      opacity: 0;
+    }
+    #{{id}}-hoja-f {
+      position: absolute;
+      inset: 0;
+    }
+    .{{id}}-papel {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, #fbf4e2 0%, #f1e3c0 100%);
+      border-radius: 8px;
+      box-shadow: 0 30px 60px rgba(70, 40, 15, 0.26), inset 0 0 0 2px rgba(59, 36, 21, 0.16), inset 0 0 70px rgba(150, 100, 40, 0.16);
+    }
+    .{{id}}-filete {
+      position: absolute;
+      inset: 22px;
+      border: 3px solid var(--acento2);
+      box-shadow: inset 0 0 0 8px rgba(251, 244, 226, 0.7), inset 0 0 0 10px var(--acento2);
+      border-radius: 4px;
+    }
+    #{{id}}-roseta {
+      position: absolute;
+      width: 640px;
+      height: 640px;
+      top: 40px;
+      opacity: 0.22;
+    }
+    #{{id}}-dibujo {
+      position: absolute;
+      left: 110px;
+      top: 210px;
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 50% 40%, #fbf3df 0%, #efe0bd 75%);
+      border: 8px solid var(--marco);
+      box-shadow: 0 0 0 5px #f6ebd0, 0 0 0 8px #3b2415, 0 14px 30px rgba(80, 50, 20, 0.28);
+      opacity: 0;
+    }
+    #{{id}}-dibujo-f {
+      position: absolute;
+      left: 50px;
+      top: 50px;
+      width: 184px;
+      height: 184px;
+    }
+    #{{id}}-cuerpo {
+      position: absolute;
+      top: 60px;
+      bottom: 60px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    #{{id}}-antes {
+      font-size: 54px;
+      font-style: italic;
+      white-space: nowrap;
+      opacity: 0;
+    }
+    #{{id}}-linea {
+      display: flex;
+      align-items: baseline;
+      justify-content: center;
+      gap: 0.18em;
+      white-space: nowrap;
+      opacity: 0;
+    }
+    #{{id}}-moneda {
+      font-size: 0.42em;
+      color: var(--tinta-suave);
+    }
+    #{{id}}-num {
+      display: inline-block;
+      text-align: center;
+      font-variant-numeric: tabular-nums lining-nums;
+    }
+    #{{id}}-unidad {
+      font-size: 0.36em;
+      color: var(--tinta);
+    }
+    #{{id}}-orn {
+      width: 520px;
+      height: 30px;
+      margin: 18px 0 14px;
+      opacity: 0;
+    }
+    #{{id}}-rotulo {
+      font-size: 60px;
+      line-height: 1.1;
+      max-width: 1180px;
+      opacity: 0;
+    }
+    /* Comparacion */
+    #{{id}}-titulo {
+      position: absolute;
+      left: 160px;
+      right: 160px;
+      top: 104px;
+      text-align: center;
+      font-size: 66px;
+      white-space: nowrap;
+      opacity: 0;
+    }
+    .{{id}}-col {
+      position: absolute;
+      top: 250px;
+      height: 620px;
+      opacity: 0;
+    }
+    .{{id}}-col-f {
+      position: absolute;
+      inset: 0;
+      padding: 54px 44px 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .{{id}}-col-num {
+      white-space: nowrap;
+      line-height: 1;
+      font-variant-numeric: tabular-nums lining-nums;
+    }
+    .{{id}}-col-mon {
+      font-size: 0.4em;
+      color: var(--tinta-suave);
+      margin-right: 0.12em;
+    }
+    .{{id}}-col-uni {
+      margin-top: 10px;
+      font-size: 46px;
+      white-space: nowrap;
+    }
+    .{{id}}-riel {
+      position: relative;
+      width: 100%;
+      height: 26px;
+      margin: 34px 0 30px;
+      border-radius: 13px;
+      background: var(--riel);
+    }
+    .{{id}}-barra {
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 26px;
+      border-radius: 13px;
+      background: var(--acento2);
+      transform-origin: 0 50%;
+    }
+    .{{id}}-col-rot {
+      font-size: 40px;
+      line-height: 1.12;
+    }
+  </style>
+
+  <div id="root" data-composition-id="{{id}}" data-width="{{ancho}}" data-height="{{alto}}">
+    <div id="{{id}}-hoja">
+      <div id="{{id}}-hoja-f">
+        <div class="{{id}}-papel"></div>
+        <div class="{{id}}-filete"></div>
+        <div id="{{id}}-roseta"></div>
+        <div id="{{id}}-dibujo"><div id="{{id}}-dibujo-f"></div></div>
+        <div id="{{id}}-cuerpo">
+          <div id="{{id}}-antes" class="{{id}}-suave">{{d.antes|}}</div>
+          <div id="{{id}}-linea"><span id="{{id}}-moneda" class="{{id}}-titulo">{{d.moneda|}}</span><span id="{{id}}-num" class="{{id}}-cifra"></span><span id="{{id}}-unidad" class="{{id}}-titulo">{{d.unidad|}}</span></div>
+          <div id="{{id}}-orn"><svg class="{{id}}-arte" viewBox="0 0 520 30"><path id="{{id}}-orn-i" d="M236 15 H10" style="stroke: var(--acento2)" stroke-width="4" pathLength="1" stroke-dasharray="1 1" stroke-dashoffset="1" /><path id="{{id}}-orn-d" d="M284 15 H510" style="stroke: var(--acento2)" stroke-width="4" pathLength="1" stroke-dasharray="1 1" stroke-dashoffset="1" /><path d="M260 2 L273 15 L260 28 L247 15 Z" style="fill: var(--acento)" /></svg></div>
+          <div id="{{id}}-rotulo" class="{{id}}-titulo">{{d.rotulo|}}</div>
+        </div>
+      </div>
+    </div>
+    <div id="{{id}}-titulo" class="{{id}}-titulo">{{d.titulo|}}</div>
+    <div id="{{id}}-cols"></div>
+  </div>
+
+  <script>
+{{>narrador-js}}
+{{>escena-h-js}}
+
+    const dec = Number(D.decimales) || 0;
+    const texto = (v) => (typeof v === "number" ? numeroEs(v, dec) : String(v ?? ""));
+    // Momento de cada cosa: su palabra, o una parte de lo hablado; nunca al final.
+    const cuandoEs = (v, respaldo) => tope(momento(v, respaldo), 0.9);
+    // Cuenta de 0 al valor sobre un nodo (escribe "0", "1.250"... con el formato de la cifra).
+    const cuenta = (nodo, valor, t, dur) => {
+      const o = { v: 0 };
+      nodo.textContent = texto(0);
+      tl.fromTo(o, { v: 0 }, { v: valor, duration: dur, ease: "power2.out", onUpdate: () => (nodo.textContent = numeroEs(o.v, dec)) }, t);
+    };
+    const lista = Array.isArray(D.cifras) ? D.cifras.slice(0, 3) : null;
+
+    if (!lista) {
+      // ---------- Una cifra ----------
+      $("titulo").style.display = "none";
+      const final = D.valor !== undefined ? texto(Number(D.valor)) : texto(D.cifra);
+      const numerica = D.valor !== undefined && D.contar !== false;
+      const conDibujo = Boolean(D.dibujo);
+      const cuerpo = $("cuerpo");
+      Object.assign(cuerpo.style, conDibujo ? { left: "430px", width: "950px" } : { left: "100px", width: "1240px" });
+      $("roseta").style.left = (conDibujo ? 590 : 400) + "px";
+      if (!conDibujo) $("dibujo").style.display = "none";
+      else $("dibujo-f").innerHTML = `<svg class="{{id}}-arte" viewBox="0 0 100 100">${icono(D.dibujo, "#3b2415")}</svg>`;
+      if (!D.antes) $("antes").style.display = "none";
+      if (!D.moneda) $("moneda").style.display = "none";
+      if (!D.unidad) $("unidad").style.display = "none";
+      if (!D.rotulo) ["rotulo", "orn"].forEach((k) => ($(k).style.display = "none"));
+      // Tamano: el numero, la moneda (42 %) y la unidad (36 %) caben en el ancho de la tarjeta.
+      const ancho = conDibujo ? 900 : 1200;
+      const ems = final.length * T.anchoCifra + String(D.moneda || "").length * 0.42 * T.anchoTitulo + String(D.unidad || "").length * 0.36 * T.anchoTitulo + 0.4;
+      const tam = Math.max(120, Math.min(300, Math.floor(ancho / ems)));
+      $("linea").style.fontSize = tam + "px";
+      $("num").textContent = final;
+      // Ancho fijo para que no baile mientras cuenta (cifras de igual ancho; los puntos son mas angostos).
+      const digitos = final.replace(/[^0-9]/g, "").length;
+      $("num").style.minWidth = numerica ? `${(digitos + (final.length - digitos) * 0.35).toFixed(2)}ch` : "";
+      $("rotulo").style.fontSize = tamPara(D.rotulo || "", ancho, 62, 42, T.anchoTitulo) + "px";
+      // Roseta de grabado (como en un billete) que gira despacio detras del numero.
+      let ros = "";
+      for (let k = 0; k < 36; k++) ros += `<ellipse cx="320" cy="320" rx="300" ry="110" fill="none" stroke="#9a7128" stroke-width="1.6" transform="rotate(${k * 5} 320 320)" />`;
+      $("roseta").innerHTML = `<svg class="{{id}}-arte" viewBox="0 0 640 640">${ros}<circle cx="320" cy="320" r="300" fill="none" stroke="#9a7128" stroke-width="5" /><circle cx="320" cy="320" r="286" fill="none" stroke="#9a7128" stroke-width="2" stroke-dasharray="4 8" /></svg>`;
+
+      fx.entra(tl, el("hoja"), 0.02, { y: 50 }, 0.45);
+      tl.fromTo(el("roseta"), { rotation: 0 }, { rotation: 40, duration: r.dur, ease: "none" }, 0);
+      fx.flota(tl, el("hoja-f"), 0.6, r.dur, 4, 1.5);
+      if (conDibujo) {
+        fx.entra(tl, el("dibujo"), 0.25, { x: -60, rotation: -12 }, 0.4);
+        fx.flota(tl, el("dibujo-f"), 0.8, r.dur, 6, 1.1);
+      }
+      const tNum = D.palabra || D.en !== undefined ? cuandoEs(D.palabra ?? D.en, 0.2) : 0.3;
+      if (D.antes) fx.entra(tl, el("antes"), Math.max(0.15, tNum - 0.35), { y: -20 }, 0.3);
+      fx.entra(tl, el("linea"), tNum, { y: 40 }, 0.35);
+      const durCuenta = Math.min(1.4, Math.max(0.6, r.dur - tNum - 1.2));
+      if (numerica) cuenta($("num"), Number(D.valor), tNum + 0.05, durCuenta);
+      fx.golpe(tl, el("num"), tope(tNum + (numerica ? durCuenta + 0.05 : 0.4), 0.4), 1.08);
+      if (D.rotulo) {
+        const tRot = Math.max(tNum + 0.6, D.palabra_rotulo ? cuandoEs(D.palabra_rotulo, 0.6) : 0);
+        tl.to([el("orn-i"), el("orn-d")], { attr: { "stroke-dashoffset": 0 }, duration: 0.5, ease: "power2.out" }, tope(tRot - 0.1, 0.6));
+        tl.fromTo(el("orn"), { opacity: 0 }, { opacity: 1, duration: 0.2 }, tope(tRot - 0.1, 0.6));
+        fx.entra(tl, el("rotulo"), tope(tRot, 0.5), { y: 30 }, 0.34);
+      }
+    } else {
+      // ---------- 2 o 3 cifras comparadas ----------
+      $("hoja").style.display = "none";
+      if (!D.titulo) $("titulo").style.display = "none";
+      else $("titulo").style.fontSize = tamPara(D.titulo, 1600, 70, 46, T.anchoTitulo) + "px";
+      const N = lista.length;
+      const ancho = N === 2 ? 680 : 500;
+      const hueco = N === 2 ? 90 : 60;
+      const x0 = (1920 - (N * ancho + (N - 1) * hueco)) / 2;
+      const unidades = new Set(lista.map((c) => c.unidad || ""));
+      const barras = D.barras ?? unidades.size === 1;
+      const maximo = Math.max(...lista.map((c) => Number(c.valor) || 0)) || 1;
+      const finales = lista.map((c) => (c.valor !== undefined ? texto(Number(c.valor)) : texto(c.cifra)));
+      const largo = Math.max(...finales.map((f, i) => f.length + String(lista[i].moneda || "").length * 0.4));
+      const tamNum = Math.max(90, Math.min(190, Math.floor((ancho - 90) / (largo * T.anchoCifra))));
+      let h = "";
+      lista.forEach((c, i) => {
+        const res = c.resalta ? " {{id}}-acento" : "";
+        h +=
+          `<div id="{{id}}-c${i}" class="{{id}}-col" style="left: ${x0 + i * (ancho + hueco)}px; width: ${ancho}px"><div id="{{id}}-c${i}-f" class="{{id}}-col-f {{id}}-tarjeta"${c.resalta ? ' style="border-color: var(--acento); border-width: 5px"' : ""}>` +
+          `<div class="{{id}}-col-num {{id}}-cifra" style="font-size: ${tamNum}px${c.resalta ? "" : "; color: var(--tinta)"}">${c.moneda ? `<span class="{{id}}-col-mon">${esc(c.moneda)}</span>` : ""}<span id="{{id}}-n${i}">${esc(finales[i])}</span></div>` +
+          `<div class="{{id}}-col-uni {{id}}-titulo${res}">${esc(c.unidad || "")}</div>` +
+          (barras ? `<div class="{{id}}-riel"><div id="{{id}}-b${i}" class="{{id}}-barra" style="width: ${(((Number(c.valor) || 0) / maximo) * 100).toFixed(1)}%${c.resalta ? "; background: var(--acento)" : ""}"></div></div>` : `<div style="height: 40px"></div>`) +
+          `<div class="{{id}}-col-rot {{id}}-suave">${esc(c.rotulo || "")}</div></div></div>`;
+      });
+      $("cols").innerHTML = h;
+      if (D.titulo) fx.entra(tl, el("titulo"), 0.02, { y: -30 }, 0.36);
+      let previo = 0;
+      lista.forEach((c, i) => {
+        let t = cuandoEs(c.palabra ?? c.en, 0.12 + (0.6 * i) / Math.max(1, N - 1));
+        t = Math.max(t, previo + 0.35, 0.15);
+        previo = t;
+        fx.entra(tl, el("c" + i), t, { y: 60 }, 0.4);
+        const dur = Math.min(1.1, Math.max(0.5, r.dur - t - 0.8));
+        if (c.valor !== undefined && c.contar !== false) cuenta($("n" + i), Number(c.valor), t + 0.1, dur);
+        if (barras) tl.fromTo(el("b" + i), { scaleX: 0 }, { scaleX: 1, duration: dur, ease: "power2.out" }, t + 0.1);
+        if (c.resalta) fx.golpe(tl, el("c" + i + "-f"), tope(t + dur + 0.15, 0.4), 1.05);
+      });
+    }
+
+    window.__timelines["{{id}}"] = tl;
+  </script>
+</template>

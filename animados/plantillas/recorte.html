@@ -1,0 +1,195 @@
+<!--
+  Recorte (videos propios, Narrador): un documento o una foto real de Commons (caricatura, portada,
+  estampilla, acta) como pieza central, clavado con cinta, con su pie; la camara se acerca despacio y
+  un circulo de tinta roja puede marcar un detalle. Al lado, un titulo y una nota que entran al paso de
+  la voz.
+  Solo horizontal. Necesita "estilo.tema".
+  Datos: foto: archivo de Commons ("File:Panam2.JPG"; tiene que estar en animados/.imagenes-cache)
+         pie (opcional): debajo de la foto, 50 letras
+         insignia (opcional): rotulo chico sobre el titulo ("Puck, 1903", 24 letras)
+         titulo (opcional): 34 letras (hasta 3 renglones); texto (opcional): nota de 90 letras
+         lado (opcional): "izquierda" (por defecto, la foto a la izquierda) o "derecha"
+         marca (opcional): { x, y (de 0 a 1 sobre la foto), r (radio, de 0 a 1 del ancho), palabra|en }
+         palabras (opcionales): { foto, titulo, texto }
+  Sin titulo ni texto, la foto va sola y mas grande, en el centro.
+-->
+<template>
+  <style>
+{{>narrador-css}}
+    #{{id}}-foto {
+      position: absolute;
+      opacity: 0;
+    }
+    #{{id}}-foto-f {
+      position: absolute;
+      inset: 0;
+    }
+    #{{id}}-marco {
+      position: absolute;
+      inset: 0;
+      background: #fbf3df;
+      box-shadow: 0 26px 50px rgba(70, 40, 15, 0.3), 0 0 0 2px rgba(59, 36, 21, 0.2);
+    }
+    #{{id}}-ventana {
+      position: absolute;
+      left: 18px;
+      top: 18px;
+      overflow: hidden;
+      background: #e8dcc0;
+    }
+    #{{id}}-img {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      filter: sepia(0.28) contrast(1.05);
+    }
+    #{{id}}-marca {
+      position: absolute;
+      inset: 0;
+    }
+    #{{id}}-pie {
+      position: absolute;
+      left: 18px;
+      right: 18px;
+      bottom: 10px;
+      height: 44px;
+      line-height: 44px;
+      text-align: center;
+      font-size: 29px;
+      font-style: italic;
+      white-space: nowrap;
+      overflow: hidden;
+    }
+    .{{id}}-cinta {
+      position: absolute;
+      top: -18px;
+      width: 130px;
+      height: 38px;
+      background: rgba(225, 205, 150, 0.82);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12);
+    }
+    #{{id}}-lado {
+      position: absolute;
+      top: 140px;
+      height: 760px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+    }
+    #{{id}}-insignia {
+      margin-bottom: 30px;
+      opacity: 0;
+    }
+    #{{id}}-titulo {
+      line-height: 1.04;
+      opacity: 0;
+    }
+    #{{id}}-raya {
+      width: 170px;
+      height: 9px;
+      margin: 30px 0 26px;
+      border-radius: 5px;
+      background: var(--acento2);
+    }
+    #{{id}}-texto {
+      font-size: 46px;
+      line-height: 1.2;
+      opacity: 0;
+    }
+  </style>
+
+  <div id="root" data-composition-id="{{id}}" data-width="{{ancho}}" data-height="{{alto}}">
+    <div id="{{id}}-foto">
+      <div id="{{id}}-foto-f">
+        <div id="{{id}}-marco"></div>
+        <div id="{{id}}-ventana"><img id="{{id}}-img" src="{{d.foto_src}}" alt="" /><div id="{{id}}-marca"></div></div>
+        <div id="{{id}}-pie" class="{{id}}-suave">{{d.pie|}}</div>
+        <div class="{{id}}-cinta" style="left: -30px; transform: rotate(-30deg)"></div>
+        <div class="{{id}}-cinta" style="right: -30px; transform: rotate(30deg)"></div>
+      </div>
+    </div>
+    <div id="{{id}}-lado">
+      <span id="{{id}}-insignia" class="{{id}}-insignia">{{d.insignia|}}</span>
+      <div id="{{id}}-titulo" class="{{id}}-titulo">{{d.titulo|}}</div>
+      <div id="{{id}}-raya"></div>
+      <div id="{{id}}-texto" class="{{id}}-suave">{{d.texto|}}</div>
+    </div>
+  </div>
+
+  <script>
+{{>narrador-js}}
+{{>escena-h-js}}
+
+    const W = D.palabras || {};
+    const conLado = Boolean(D.titulo || D.texto);
+    const derecha = D.lado === "derecha";
+    if (!D.insignia) $("insignia").style.display = "none";
+    if (!D.titulo) $("titulo").style.display = "none";
+    if (!D.texto) $("texto").style.display = "none";
+    if (!D.titulo || !D.texto) $("raya").style.display = "none";
+    if (!conLado) $("lado").style.display = "none";
+
+    // La foto entera (sin recortar) en su caja, con el marco y el pie.
+    const prop = (Number(D.foto_ancho) || 4) / (Number(D.foto_alto) || 3);
+    const pie = D.pie ? 56 : 18;
+    const cajaW = conLado ? 900 : 1360;
+    const cajaH = 770;
+    let w = cajaW - 36;
+    let h = w / prop;
+    if (h > cajaH - 18 - pie) {
+      h = cajaH - 18 - pie;
+      w = h * prop;
+    }
+    const fw = w + 36;
+    const fh = h + 18 + pie;
+    const centroX = conLado ? (derecha ? 1350 : 570) : 960;
+    const centroY = 500;
+    Object.assign($("foto").style, { left: (centroX - fw / 2).toFixed(1) + "px", top: (centroY - fh / 2).toFixed(1) + "px", width: fw.toFixed(1) + "px", height: fh.toFixed(1) + "px" });
+    Object.assign($("ventana").style, { width: w.toFixed(1) + "px", height: h.toFixed(1) + "px" });
+    if (D.pie) $("pie").style.fontSize = tamPara(D.pie, w - 10, 29, 20, T.anchoTexto) + "px";
+    if (conLado) {
+      const izq = derecha ? 110 : centroX + fw / 2 + 80;
+      const der = derecha ? centroX - fw / 2 - 80 : 1810;
+      Object.assign($("lado").style, { left: izq + "px", width: Math.max(420, der - izq) + "px" });
+      const anchoLado = Math.max(420, der - izq);
+      if (D.titulo) {
+        const largo = Math.max(...String(D.titulo).split(/\s+/).map((p) => p.length), Math.ceil(String(D.titulo).length / 3));
+        $("titulo").style.fontSize = Math.max(56, Math.min(104, Math.floor(anchoLado / (largo * T.anchoTitulo * 1.25)))) + "px";
+      }
+      if (D.texto) $("texto").style.fontSize = (String(D.texto).length > 60 ? 42 : 48) + "px";
+    }
+    // Circulo de tinta alrededor de un detalle.
+    const M = D.marca;
+    if (M && typeof M.x === "number") {
+      const rx = (M.r ?? 0.12) * w;
+      const cx = M.x * w;
+      const cy = (M.y ?? 0.5) * h;
+      const d = `M${(cx + rx).toFixed(1)} ${cy.toFixed(1)} C${(cx + rx).toFixed(1)} ${(cy + rx * 0.95).toFixed(1)} ${(cx - rx * 1.05).toFixed(1)} ${(cy + rx * 0.9).toFixed(1)} ${(cx - rx).toFixed(1)} ${(cy + rx * 0.05).toFixed(1)} C${(cx - rx * 0.95).toFixed(1)} ${(cy - rx * 0.95).toFixed(1)} ${(cx + rx * 1.1).toFixed(1)} ${(cy - rx).toFixed(1)} ${(cx + rx * 1.08).toFixed(1)} ${(cy + rx * 0.12).toFixed(1)}`;
+      $("marca").innerHTML = `<svg class="{{id}}-arte" viewBox="0 0 ${w.toFixed(1)} ${h.toFixed(1)}"><path id="{{id}}-marca-p" d="${d}" fill="none" style="stroke: var(--acento)" stroke-width="${Math.max(6, w / 120).toFixed(1)}" stroke-linecap="round" pathLength="1" stroke-dasharray="1 1" stroke-dashoffset="1" /></svg>`;
+    }
+
+    // ---------- Movimiento ----------
+    const tFoto = W.foto ? tope(momento(W.foto, 0.05), 1.2) : 0.02;
+    const giro = derecha ? 2 : -2;
+    tl.fromTo(el("foto"), { opacity: 0, y: -90, rotation: giro * 4 }, { opacity: 1, y: 0, rotation: giro, duration: 0.55, ease: "back.out(1.4)" }, tFoto);
+    // La camara se acerca despacio a la foto (o al detalle marcado).
+    const origen = M && typeof M.x === "number" ? `${(M.x * 100).toFixed(0)}% ${((M.y ?? 0.5) * 100).toFixed(0)}%` : "50% 45%";
+    tl.fromTo(el("img"), { scale: 1, transformOrigin: origen }, { scale: 1.07, duration: Math.max(1, r.dur - tFoto), ease: "sine.inOut" }, tFoto);
+    tl.fromTo(el("marca"), { scale: 1, transformOrigin: origen }, { scale: 1.07, duration: Math.max(1, r.dur - tFoto), ease: "sine.inOut" }, tFoto);
+    fx.flota(tl, el("foto-f"), tFoto + 0.7, r.dur, 4, 1.4);
+    if (M && typeof M.x === "number") tl.to(el("marca-p"), { attr: { "stroke-dashoffset": 0 }, duration: 0.6, ease: "power1.inOut" }, tope(momento(M.palabra ?? M.en, 0.55), 0.8));
+    if (conLado) {
+      const tTit = tope(momento(W.titulo, 0.15), 0.9);
+      if (D.insignia) fx.entra(tl, el("insignia"), Math.max(0.1, tTit - 0.25), { y: -20 }, 0.3);
+      if (D.titulo) fx.entra(tl, el("titulo"), tTit, { x: derecha ? -50 : 50 }, 0.38);
+      if (D.titulo && D.texto) tl.fromTo(el("raya"), { scaleX: 0, transformOrigin: "0 50%" }, { scaleX: 1, duration: 0.45, ease: "power2.out" }, tTit + 0.3);
+      if (D.texto) fx.entra(tl, el("texto"), Math.max(tTit + 0.45, tope(momento(W.texto, 0.5), 0.8)), { y: 30 }, 0.34);
+    }
+
+    window.__timelines["{{id}}"] = tl;
+  </script>
+</template>

@@ -1,0 +1,173 @@
+<!--
+  Fichas (videos propios, Narrador): de 2 a 4 tarjetas con un dibujo y un rotulo que entran al paso de
+  la voz (causas, peligros, condiciones, consecuencias). La que va "resalta" queda en color de acento y
+  su dibujo se mueve (el mosquito zumba). Puede llevar una foto real de Commons a un lado.
+  Solo horizontal. Necesita "estilo.tema".
+  Datos: fichas: [{ texto (26 letras; con foto, 22), dibujo (icono de _escena-h-js.html: mosquito, lluvia,
+           derrumbe, cruz, moneda, esclusa, barco, volcan, documento, draga, montana, bandera, balanza,
+           reloj, calendario, canon, pluma, ancla, tren), palabra|en, resalta: true }]  (2 a 4)
+         titulo (opcional): arriba, 40 letras
+         foto (opcional): archivo de Commons a la izquierda; foto_pie (40 letras)
+-->
+<template>
+  <style>
+{{>narrador-css}}
+    #{{id}}-titulo {
+      position: absolute;
+      left: 140px;
+      right: 140px;
+      top: 92px;
+      text-align: center;
+      white-space: nowrap;
+      opacity: 0;
+    }
+    #{{id}}-foto {
+      position: absolute;
+      left: 110px;
+      width: 760px;
+      opacity: 0;
+    }
+    #{{id}}-foto-f {
+      position: relative;
+      background: #fbf3df;
+      padding: 16px 16px 8px;
+      box-shadow: 0 22px 44px rgba(70, 40, 15, 0.3), 0 0 0 2px rgba(59, 36, 21, 0.2);
+    }
+    #{{id}}-foto-img {
+      display: block;
+      width: 728px;
+      object-fit: cover;
+      filter: sepia(0.32) contrast(1.05);
+    }
+    #{{id}}-foto-pie {
+      margin-top: 6px;
+      font-size: 28px;
+      line-height: 1.15;
+      text-align: center;
+      font-style: italic;
+    }
+    .{{id}}-cinta {
+      position: absolute;
+      top: -16px;
+      width: 120px;
+      height: 36px;
+      background: rgba(225, 205, 150, 0.82);
+    }
+    .{{id}}-ficha {
+      position: absolute;
+      opacity: 0;
+    }
+    .{{id}}-ficha-f {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+    }
+    .{{id}}-ilu {
+      position: relative;
+      flex: none;
+      border-radius: 50%;
+      background: radial-gradient(circle at 50% 40%, #fbf3df 0%, #efe0bd 78%);
+      border: 5px solid rgba(59, 36, 21, 0.3);
+    }
+    .{{id}}-ilu-f {
+      position: absolute;
+      inset: 16%;
+    }
+    .{{id}}-txt {
+      line-height: 1.1;
+    }
+  </style>
+
+  <div id="root" data-composition-id="{{id}}" data-width="{{ancho}}" data-height="{{alto}}">
+    <div id="{{id}}-titulo" class="{{id}}-titulo">{{d.titulo|}}</div>
+    <div id="{{id}}-foto">
+      <div id="{{id}}-foto-f">
+        <img id="{{id}}-foto-img" src="{{d.foto_src|}}" alt="" />
+        <div id="{{id}}-foto-pie" class="{{id}}-suave">{{d.foto_pie|}}</div>
+        <div class="{{id}}-cinta" style="left: -26px; transform: rotate(-32deg)"></div>
+        <div class="{{id}}-cinta" style="right: -26px; transform: rotate(32deg)"></div>
+      </div>
+    </div>
+    <div id="{{id}}-fichas"></div>
+  </div>
+
+  <script>
+{{>narrador-js}}
+{{>escena-h-js}}
+
+    const fichas = (D.fichas || []).slice(0, 4);
+    const N = fichas.length;
+    const conFoto = Boolean(D.foto_src);
+    const arriba = D.titulo ? 230 : 130;
+    const abajo = 900;
+    if (!D.titulo) $("titulo").style.display = "none";
+    else $("titulo").style.fontSize = tamPara(D.titulo, 1600, 72, 46, T.anchoTitulo) + "px";
+    if (!conFoto) $("foto").style.display = "none";
+    else {
+      const prop = (Number(D.foto_ancho) || 4) / (Number(D.foto_alto) || 3);
+      const alto = Math.min(abajo - arriba - 90, 728 / prop);
+      $("foto-img").style.height = alto.toFixed(0) + "px";
+      $("foto").style.top = (arriba + (abajo - arriba - alto - 70) / 2).toFixed(0) + "px";
+    }
+
+    // Con foto: una columna a la derecha. Sin foto: una fila de tarjetas grandes.
+    let h = "";
+    const caja = [];
+    fichas.forEach((f, i) => {
+      let x, y, w, hh;
+      if (conFoto) {
+        const hueco = 28;
+        hh = Math.min(190, (abajo - arriba - hueco * (N - 1)) / N);
+        w = 880;
+        x = 950;
+        y = arriba + (abajo - arriba - (hh * N + hueco * (N - 1))) / 2 + i * (hh + hueco);
+      } else {
+        const hueco = 44;
+        w = Math.min(N <= 2 ? 560 : 480, (1700 - hueco * (N - 1)) / N);
+        hh = Math.min(560, abajo - arriba);
+        x = (1920 - (w * N + hueco * (N - 1))) / 2 + i * (w + hueco);
+        y = arriba + (abajo - arriba - hh) / 2;
+      }
+      caja.push({ x, y, w, hh });
+      const color = f.resalta ? "#a3302a" : "#3b2415";
+      const il = conFoto ? hh - 40 : Math.min(270, w - 120);
+      // Sin foto, el rotulo puede ir en dos renglones: se calcula con casi el doble de ancho.
+      const tam = conFoto ? tamPara(f.texto || "", (w - il - 90) * (String(f.texto || "").length > 18 ? 1.8 : 1), 52, 34, T.anchoTitulo) : tamPara(f.texto || "", (w - 60) * 1.8, 58, 36, T.anchoTitulo);
+      h +=
+        `<div id="{{id}}-f${i}" class="{{id}}-ficha" style="left: ${x.toFixed(0)}px; top: ${y.toFixed(0)}px; width: ${w.toFixed(0)}px; height: ${hh.toFixed(0)}px">` +
+        `<div id="{{id}}-f${i}-f" class="{{id}}-ficha-f {{id}}-tarjeta" style="${conFoto ? "padding: 0 30px 0 22px; gap: 28px" : "flex-direction: column; justify-content: center; gap: 30px; padding: 30px 24px; text-align: center"}${f.resalta ? "; border-color: var(--acento); border-width: 5px" : ""}">` +
+        `<div class="{{id}}-ilu" style="width: ${il}px; height: ${il}px${f.resalta ? "; border-color: var(--acento)" : ""}"><div id="{{id}}-d${i}" class="{{id}}-ilu-f"><svg class="{{id}}-arte" viewBox="0 0 100 100">${icono(f.dibujo, color)}</svg></div></div>` +
+        `<div class="{{id}}-txt {{id}}-titulo${f.resalta ? " {{id}}-acento" : ""}" style="font-size: ${tam}px">${esc(sinViuda(f.texto || ""))}</div></div></div>`;
+    });
+    $("fichas").innerHTML = h;
+
+    // ---------- Movimiento ----------
+    if (D.titulo) fx.entra(tl, el("titulo"), 0.02, { y: -30 }, 0.36);
+    if (conFoto) {
+      tl.fromTo(el("foto"), { opacity: 0, y: -80, rotation: -9 }, { opacity: 1, y: 0, rotation: -2, duration: 0.55, ease: "back.out(1.4)" }, 0.08);
+      tl.fromTo(el("foto-img"), { scale: 1 }, { scale: 1.06, duration: r.dur, ease: "sine.inOut" }, 0);
+    }
+    let previo = 0;
+    fichas.forEach((f, i) => {
+      let t = tope(momento(f.palabra ?? f.en, 0.1 + (0.7 * i) / Math.max(1, N - 1)), 0.9);
+      t = Math.max(t, previo + 0.3, 0.2);
+      previo = t;
+      fx.entra(tl, el("f" + i), t, conFoto ? { x: 80 } : { y: 70 }, 0.38);
+      tl.fromTo(el("d" + i), { scale: 0.3, rotation: -25 }, { scale: 1, rotation: 0, duration: 0.45, ease: "back.out(2.4)" }, t + 0.12);
+      if (f.resalta) {
+        fx.golpe(tl, el("f" + i + "-f"), tope(t + 0.55, 0.4), 1.05);
+        // El dibujo resaltado se mueve hasta el final (un mosquito zumba; los demas laten).
+        const fin = r.dur - 0.2;
+        if (f.dibujo === "mosquito") {
+          const vueltas = Math.max(2, Math.floor((fin - t - 0.7) / 0.5));
+          tl.to(el("d" + i), { keyframes: Array.from({ length: vueltas }, (_, k) => ({ x: [10, -8, 6, -10][k % 4], y: [-8, 6, -10, 4][k % 4], rotation: [6, -5, 4, -6][k % 4], duration: 0.5, ease: "sine.inOut" })) }, t + 0.6);
+        } else {
+          tl.fromTo(el("d" + i), { scale: 1 }, { scale: 1.08, duration: 0.6, ease: "sine.inOut", repeat: Math.max(1, Math.floor((fin - t - 0.7) / 0.6)), yoyo: true }, t + 0.6);
+        }
+      }
+    });
+
+    window.__timelines["{{id}}"] = tl;
+  </script>
+</template>

@@ -11,6 +11,7 @@
 import { spawnSync } from "node:child_process";
 import fs from "node:fs";
 import path from "node:path";
+import { aplicaCortes } from "./escenas.mjs";
 
 const carpeta = process.argv[2] ? path.resolve(process.argv[2]) : null;
 if (!carpeta || !fs.existsSync(path.join(carpeta, "tiempos.json"))) {
@@ -19,9 +20,13 @@ if (!carpeta || !fs.existsSync(path.join(carpeta, "tiempos.json"))) {
 }
 const tiempos = JSON.parse(fs.readFileSync(path.join(carpeta, "tiempos.json"), "utf8"));
 const r2 = (n) => Math.round(n * 100) / 100;
+// Con "cortes" en el guion, una frase puede tener varias escenas: se miran todas.
+let escenas = tiempos.escenas;
+const guion = fs.existsSync(path.join(carpeta, "guion.json")) ? JSON.parse(fs.readFileSync(path.join(carpeta, "guion.json"), "utf8")) : {};
+if ((guion.frases || []).some((f) => Array.isArray(f.cortes) && f.cortes.length)) escenas = aplicaCortes(escenas, guion.frases, tiempos.frases);
 
 const momentos = [0];
-for (const e of tiempos.escenas) {
+for (const e of escenas) {
   const dur = e.fin - e.inicio;
   momentos.push(r2(e.inicio + dur * 0.5), r2(e.inicio + dur * 0.93));
 }
