@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-20-gta6-beach-camp-brawl",
+    "url_fuente":  "https://www.youtube.com/watch?v=konZi0msk6A",
+    "video_id":  "konZi0msk6A",
+    "inicio":  410,
+    "fin":  455,
+    "inicio_hms":  "0:06:50",
+    "duracion_seg":  45,
+    "gancho":  "Never crash a beach camp in GTA 6",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "recorte",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14.6,
+                  "limitador":  true,
+                  "entrada_lufs":  -28.75,
+                  "entrada_tp":  -15.19,
+                  "salida_lufs":  -14.34,
+                  "salida_tp":  -1.04
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-beach-camp-brawl/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-beach-camp-brawl/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-beach-camp-brawl/revision.jpg",
+    "creado":  "2026-11-20T12:10:05.8035198-05:00"
+}

@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-20-gta6-swamp-gunfight",
+    "url_fuente":  "https://www.youtube.com/watch?v=rlluMwJXbqg",
+    "video_id":  "rlluMwJXbqg",
+    "inicio":  1705,
+    "fin":  1745,
+    "inicio_hms":  "0:28:25",
+    "duracion_seg":  40,
+    "gancho":  "GTA 6 gunfights hit different",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  41,
+    "modo":  "recorte",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -19.34,
+                  "entrada_tp":  -6.71,
+                  "salida_lufs":  -13.95,
+                  "salida_tp":  -1.37
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-swamp-gunfight/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-swamp-gunfight/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-swamp-gunfight/revision.jpg",
+    "creado":  "2026-11-20T12:14:15.3829626-05:00"
+}

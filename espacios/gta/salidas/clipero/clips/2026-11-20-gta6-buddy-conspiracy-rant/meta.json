@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-20-gta6-buddy-conspiracy-rant",
+    "url_fuente":  "https://www.youtube.com/watch?v=rlluMwJXbqg",
+    "video_id":  "rlluMwJXbqg",
+    "inicio":  990.01,
+    "fin":  1028.06,
+    "inicio_hms":  "0:16:30",
+    "duracion_seg":  38,
+    "gancho":  "Jason\u0027s buddy has a theory about everything",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  108,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -25.17,
+                  "entrada_tp":  -12.65,
+                  "salida_lufs":  -14.01,
+                  "salida_tp":  -1.48
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-buddy-conspiracy-rant/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-buddy-conspiracy-rant/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-buddy-conspiracy-rant/revision.jpg",
+    "creado":  "2026-11-20T10:25:23.3581634-05:00"
+}

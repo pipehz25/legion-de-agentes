@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-20-gta6-repaint-your-house",
+    "url_fuente":  "https://www.youtube.com/watch?v=rlluMwJXbqg",
+    "video_id":  "rlluMwJXbqg",
+    "inicio":  3395,
+    "fin":  3445,
+    "inicio_hms":  "0:56:35",
+    "duracion_seg":  50,
+    "gancho":  "You can repaint your own house in GTA 6",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14.8,
+                  "limitador":  true,
+                  "entrada_lufs":  -37.78,
+                  "entrada_tp":  -24.01,
+                  "salida_lufs":  -14.63,
+                  "salida_tp":  -1.03
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-repaint-your-house/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-repaint-your-house/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-repaint-your-house/revision.jpg",
+    "creado":  "2026-11-20T10:30:35.0834390-05:00"
+}

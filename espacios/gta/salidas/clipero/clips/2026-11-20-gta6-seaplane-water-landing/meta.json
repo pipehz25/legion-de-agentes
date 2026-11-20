@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-20-gta6-seaplane-water-landing",
+    "url_fuente":  "https://www.youtube.com/watch?v=rlluMwJXbqg",
+    "video_id":  "rlluMwJXbqg",
+    "inicio":  1959.45,
+    "fin":  1995.18,
+    "inicio_hms":  "0:32:39",
+    "duracion_seg":  35.7,
+    "gancho":  "Landing a seaplane in a storm in GTA 6",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  52,
+    "modo":  "recorte",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -27.47,
+                  "entrada_tp":  -14.85,
+                  "salida_lufs":  -13.89,
+                  "salida_tp":  -1.38
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-seaplane-water-landing/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-seaplane-water-landing/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-seaplane-water-landing/revision.jpg",
+    "creado":  "2026-11-20T12:12:38.7349750-05:00"
+}

@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-20-gta6-real-workouts",
+    "url_fuente":  "https://www.youtube.com/watch?v=rlluMwJXbqg",
+    "video_id":  "rlluMwJXbqg",
+    "inicio":  2793,
+    "fin":  2833,
+    "inicio_hms":  "0:46:33",
+    "duracion_seg":  40,
+    "gancho":  "GTA 6 has real workouts now",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "recorte",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -15.6,
+                  "limitador":  true,
+                  "entrada_lufs":  -38.55,
+                  "entrada_tp":  -24.01,
+                  "salida_lufs":  -15.39,
+                  "salida_tp":  -1.06
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-real-workouts/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-real-workouts/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-real-workouts/revision.jpg",
+    "creado":  "2026-11-20T12:17:09.3729300-05:00"
+}

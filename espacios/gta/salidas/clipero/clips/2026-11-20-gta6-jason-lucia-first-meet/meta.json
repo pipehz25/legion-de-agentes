@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-20-gta6-jason-lucia-first-meet",
+    "url_fuente":  "https://www.youtube.com/watch?v=rlluMwJXbqg",
+    "video_id":  "rlluMwJXbqg",
+    "inicio":  38,
+    "fin":  91.42,
+    "inicio_hms":  "0:00:38",
+    "duracion_seg":  53.4,
+    "gancho":  "How Jason and Lucia first meet",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  151,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -26.75,
+                  "entrada_tp":  -14.02,
+                  "salida_lufs":  -13.93,
+                  "salida_tp":  -1.27
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-jason-lucia-first-meet/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-jason-lucia-first-meet/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-jason-lucia-first-meet/revision.jpg",
+    "creado":  "2026-11-20T10:32:15.2072232-05:00"
+}

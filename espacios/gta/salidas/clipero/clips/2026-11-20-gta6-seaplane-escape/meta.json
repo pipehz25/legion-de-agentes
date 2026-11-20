@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-20-gta6-seaplane-escape",
+    "url_fuente":  "https://www.youtube.com/watch?v=rlluMwJXbqg",
+    "video_id":  "rlluMwJXbqg",
+    "inicio":  1852,
+    "fin":  1900.94,
+    "inicio_hms":  "0:30:52",
+    "duracion_seg":  49,
+    "gancho":  "Escaping a shootout by seaplane in GTA 6",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  34,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -20.85,
+                  "entrada_tp":  -8.16,
+                  "salida_lufs":  -13.89,
+                  "salida_tp":  -1.31
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-seaplane-escape/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-seaplane-escape/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-seaplane-escape/revision.jpg",
+    "creado":  "2026-11-20T10:27:17.9636898-05:00"
+}

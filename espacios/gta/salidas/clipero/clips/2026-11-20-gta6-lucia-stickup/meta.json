@@ -1,0 +1,29 @@
+{
+    "id":  "2026-11-20-gta6-lucia-stickup",
+    "url_fuente":  "https://www.youtube.com/watch?v=rlluMwJXbqg",
+    "video_id":  "rlluMwJXbqg",
+    "inicio":  687.93,
+    "fin":  735.42,
+    "inicio_hms":  "0:11:27",
+    "duracion_seg":  47.5,
+    "gancho":  "Lucia does NOT play around in GTA 6",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  78,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -22.56,
+                  "entrada_tp":  -9.74,
+                  "salida_lufs":  -14.05,
+                  "salida_tp":  -1.18
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-lucia-stickup/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-lucia-stickup/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-lucia-stickup/revision.jpg",
+    "creado":  "2026-11-20T10:29:07.6817394-05:00"
+}
