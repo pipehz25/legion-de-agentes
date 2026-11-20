@@ -1,25 +1,25 @@
 # Publicador · espacio lalo · pendientes
 
-Actualizado el 2026-11-20 a las 06:44 (−05:00), ciclo 8. Modo `aprobacion`, publicación real (sin simulación). Única cuenta activa: TikTok `lalo-music` (@ocampo-music).
+Actualizado el 2026-11-20 a las 12:38 (−05:00), ciclo 9. Modo `aprobacion`, publicación real (sin simulación). Única cuenta activa: TikTok `lalo-music` (@ocampo-music).
 
-- **No queda nada por aprobar.** El Clipero tampoco cortó clips nuevos en su ciclo 6.
-- **Siguen 2 borradores en la bandeja** desde las 12:59 de ayer: `te-perdi-coro` y `madrilena-se-formo-el-perreo` (los textos están abajo). Los otros 2 de ayer ya los publicaste.
-- **Este ciclo no subió nada** porque cayó fuera del horario (08:00 a 23:00). Hay **7 aprobados en cola**: hoy suben 4 a partir de las 08:00 y mañana, 2026-11-21, otros 3 (tabla abajo).
-- **Publica o descarta esos 2 borradores antes de la próxima subida.** TikTok admite como máximo 5 borradores pendientes por API cada 24 horas. Si el próximo turno empieza antes de las 13:00 y los 2 siguen en la bandeja, subirá solo 3 y dejará `te-perdi-movida-artista` para el turno de la tarde. Así ninguna subida se pierde por el límite. Si ya los publicaste o descartaste, o el turno empieza después de las 13:00, subirá los 4.
-- **Desde el 2026-11-22 no hay nada más que subir.** El Clipero ya tiene preparadas las cuatro colaboraciones del canal, Parcera y Entiendo incluidas. Solo espera que decidas una de estas opciones (detalle en `espacios/lalo/salidas/clipero/informes/2026-11-20_0630.md`):
+- **No queda nada por aprobar.** El Clipero tampoco cortó clips nuevos en su ciclo 7.
+- **Hay 5 borradores en la bandeja de @ocampo-music.** Hoy, entre las 12:33 y las 12:34, subieron `por-dios-santo-coro`, `confusiones-coro` y `actriz-sus-amigas`. Siguen ahí los 2 de ayer, `te-perdi-coro` y `madrilena-se-formo-el-perreo`. Los textos para pegar están abajo.
+- **Hoy se subieron 3 y no 4** porque los 2 de ayer seguían en la bandeja. TikTok admite como máximo 5 borradores pendientes por API cada 24 horas, así que una cuarta subida habría sido la sexta y TikTok la habría rechazado. `te-perdi-movida-artista` sube en el turno de la tarde (hacia las 18:40).
+- **Conviene que publiques o descartes los borradores antes de mañana.** Si mañana el primer turno empieza antes de las 12:35 y los de hoy siguen en la bandeja, solo cabrá 1 de las 3 subidas previstas.
+- **Desde el 2026-11-22 no hay nada más que subir.** El canal de Lalo no ha subido nada desde «Tóxico». El Clipero tiene preparadas las cuatro colaboraciones y espera que elijas una de estas opciones (detalle en `espacios/lalo/salidas/clipero/informes/2026-11-20_1230.md`):
   - ampliar la línea de `lalo-music` a «todo Lalo», o encender `lalo-love`, `lalo-lyrics` o `lalo-energy`. Saldrían enseguida 3 momentos ya localizados;
-  - cortar las colaboraciones solo donde canta Lalo: unos 2 clips de Lokito y 2 o 3 de Parcera. Los de Entiendo dependen de quién canta y de si aceptas «bellaquera» en el coro;
+  - cortar las colaboraciones solo donde canta Lalo: unos 2 clips de Lokito y 2 o 3 de Parcera. Los de Entiendo dependen de quién canta y de si aceptas «tremenda bellaquera» en el coro;
   - añadir a `fuentes_autorizadas` otros canales con permiso.
 
 ---
 
 ## En la bandeja de TikTok: textos para pegar
 
-Abre el aviso de la bandeja en la app de @ocampo-music, pega el texto, elige portada y quién puede verlo, y publica. Las fichas recomiendan publicar de noche, entre las 19:00 y las 22:00, y dejar unas horas entre uno y otro.
+Abre el aviso de la bandeja en la app de @ocampo-music, pega el texto, elige portada y quién puede verlo, y publica. Las fichas recomiendan publicar de noche, entre las 19:00 y las 22:00, y dejar unas horas entre uno y otro. Si lo prefieres, publica antes los de ayer.
 
-### 2026-11-18-te-perdi-coro
+### 2026-11-18-te-perdi-coro (desde ayer)
 
-- **Gancho:** «Maldito el día en que yo te perdí» · en la bandeja desde las 12:59 del 2026-11-19 (seguía ahí a las 06:42 del 2026-11-20)
+- **Gancho:** «Maldito el día en que yo te perdí» · en la bandeja desde las 12:59 del 2026-11-19 (seguía ahí a las 12:33 del 2026-11-20)
 - [Video](../clipero/clips/2026-11-18-te-perdi-coro/clip.mp4) · [Ficha](../clipero/clips/2026-11-18-te-perdi-coro/ficha.md)
 - El subtítulo lleva un «(…)» en el segundo 11 («(…) tus besos y tu calor»): sale con el hueco.
 
@@ -33,9 +33,9 @@ Crédito: Lalo Ocampo (YouTube) · «Lalo Ocampo - Te Perdí», minuto 0:57 · h
 #LaloOcampo #TePerdi #Desamor #MusicaUrbana #Coro
 ```
 
-### 2026-11-18-madrilena-se-formo-el-perreo
+### 2026-11-18-madrilena-se-formo-el-perreo (desde ayer)
 
-- **Gancho:** MADRILEÑA: «se formó el perreo» · en la bandeja desde las 12:59 del 2026-11-19 (seguía ahí a las 06:42 del 2026-11-20)
+- **Gancho:** MADRILEÑA: «se formó el perreo» · en la bandeja desde las 12:59 del 2026-11-19 (seguía ahí a las 12:33 del 2026-11-20)
 - [Video](../clipero/clips/2026-11-18-madrilena-se-formo-el-perreo/clip.mp4) · [Ficha](../clipero/clips/2026-11-18-madrilena-se-formo-el-perreo/ficha.md)
 - El subtítulo lleva un «(…)» en el segundo 3 («cintura, (…) pierde la cordura»).
 
@@ -49,35 +49,14 @@ Crédito: Lalo Ocampo (YouTube) · «Lalo Ocampo - Madrileña», minuto 0:09 · 
 #LaloOcampo #Madrileña #Perreo #Reggaeton #MusicaUrbana
 ```
 
----
+### 2026-11-10-por-dios-santo-coro (subido hoy)
 
-## Aprobados en cola
-
-No hace falta hacer nada: los turnos de esos días los suben a la bandeja (4 al día como máximo, dentro del horario de 08:00 a 23:00). Los 7 videos están en disco y sus envíos no han cambiado. Primero va la ventana más cercana y, dentro de cada canción, un clip por día. Todos van a TikTok, cuenta `lalo-music`, con derechos `autorizado`.
-
-| Día previsto | Clip | Puntaje | Ventana | Nota |
-|---|---|---|---|---|
-| 2026-11-20 | `2026-11-10-por-dios-santo-coro` | 71 | 2026-12-10 | Aprobado en el ciclo 5 |
-| 2026-11-20 | `2026-11-10-confusiones-coro` | 68 | 2026-12-10 | Aprobado en el ciclo 5 |
-| 2026-11-20 | `2026-11-18-actriz-sus-amigas` | 68 | 2026-12-18 | `actriz-coro` ya está publicado (2026-11-19) |
-| 2026-11-20 | `2026-11-18-te-perdi-movida-artista` | 67 | 2026-12-18 | `te-perdi-coro` sigue en la bandeja. Si a la hora del próximo turno siguen 2 borradores pendientes, sube en el turno de la tarde |
-| 2026-11-21 | `2026-11-10-por-dios-santo-espejo` | 70 | 2026-12-10 | Al menos un día después de `por-dios-santo-coro` (lo pide su ficha) |
-| 2026-11-21 | `2026-11-18-madrilena-cinco-estrellas` | 66 | 2026-12-18 | `madrilena-se-formo-el-perreo` sigue en la bandeja |
-| 2026-11-21 | `2026-11-18-yaper-cuentale` | 65 | 2026-12-18 | `yaper-ya-paso-tu-tiempo` ya está publicado (2026-11-19) |
-
-Las fichas de los cuatro clips del 2026-11-18 piden publicarlos **unos días después** del primero de su canción. Llegan a la bandeja según la tabla, pero tú decides en la app cuándo publicarlos: por ejemplo, `actriz-sus-amigas` y `yaper-cuentale` el 2026-11-21 o el 2026-11-22.
-
-Si quieres retirar alguno antes de que suba: `/publicador rechazar <clip-id> <motivo>`.
-
-### Aprobados en el ciclo 5: qué sale tal cual
-
-Los aprobaste con estas dudas sin resolver, y el video no ha cambiado desde el 2026-11-10. Si al escucharlo algo no cuadra, recházalo antes de que suba y el Clipero lo vuelve a cortar.
-
-**2026-11-10-por-dios-santo-coro** · «Maquinando cómo conseguir la liga por ella» · [Video](../clipero/clips/2026-11-10-por-dios-santo-coro/clip.mp4) · [Ficha](../clipero/clips/2026-11-10-por-dios-santo-coro/ficha.md)
-
-- «toda la fucking vida»: YouTube traía «toda la fqu enva» y whisper oyó «fucking vida». El subtítulo muestra la palabra tal cual.
-- «cómo me consigo la liga»: whisper oye una palabra más («cómo putas me consigo la liga») que el subtítulo no lleva.
-- «mami, quiero» (YouTube traía «mamero») y los ecos «-nando» y «-sando», que se quitaron del subtítulo.
+- **Gancho:** Maquinando cómo conseguir la liga por ella · puntaje 71 · en la bandeja desde las 12:33 del 2026-11-20
+- [Video](../clipero/clips/2026-11-10-por-dios-santo-coro/clip.mp4) · [Ficha](../clipero/clips/2026-11-10-por-dios-santo-coro/ficha.md)
+- Lo aprobaste con estas dudas de letra, y el video no ha cambiado desde el 2026-11-10. Escúchalo antes de publicar; si algo no cuadra, descártalo en la app:
+  - «toda la fucking vida»: YouTube traía «toda la fqu enva» y whisper oyó «fucking vida». El subtítulo muestra la palabra tal cual.
+  - «cómo me consigo la liga»: whisper oye una palabra más («cómo putas me consigo la liga») que el subtítulo no lleva.
+  - «mami, quiero» (YouTube traía «mamero») y los ecos «-nando» y «-sando», que se quitaron del subtítulo.
 
 ```
 «Amor con hambre no va a durar tanto». El coro de Por Dios Santo, de Lalo Ocampo.
@@ -89,12 +68,15 @@ Crédito: Lalo Ocampo (YouTube) · «Lalo Ocampo - Por Dios Santo (Official Vide
 #LaloOcampo #PorDiosSanto #MusicaUrbana #Coro #Letras
 ```
 
-**2026-11-10-confusiones-coro** · «En redes te ves feliz…» · [Video](../clipero/clips/2026-11-10-confusiones-coro/clip.mp4) · [Ficha](../clipero/clips/2026-11-10-confusiones-coro/ficha.md)
+### 2026-11-10-confusiones-coro (subido hoy)
 
-- El subtítulo lleva un **«(…)»** en el segundo 24: «Dicen que (…) ti el cielo y las estrellas» (puede ser «que él a ti»). Sale con el hueco.
-- «te ves feliz, te ves muy contenta» y «se las está bajando» se completaron a partir de transcripciones incompletas.
-- Sincronía: YouTube marca algunas palabras un segundo tarde en este video; conviene mirar que los subtítulos vayan a tiempo.
-- El clip abre con un plano de calle de un hombre sin gorra que el Clipero no pudo confirmar si es Lalo o un actor del video.
+- **Gancho:** «En redes te ves feliz…» · puntaje 68 · en la bandeja desde las 12:34 del 2026-11-20
+- [Video](../clipero/clips/2026-11-10-confusiones-coro/clip.mp4) · [Ficha](../clipero/clips/2026-11-10-confusiones-coro/ficha.md)
+- Lo aprobaste con estas dudas, y el video no ha cambiado desde el 2026-11-10:
+  - El subtítulo lleva un **«(…)»** en el segundo 24: «Dicen que (…) ti el cielo y las estrellas» (puede ser «que él a ti»). Sale con el hueco.
+  - «te ves feliz, te ves muy contenta» y «se las está bajando» se completaron a partir de transcripciones incompletas.
+  - Sincronía: YouTube marca algunas palabras un segundo tarde en este video. Conviene mirar que los subtítulos vayan a tiempo.
+  - El clip abre con un plano de calle de un hombre sin gorra. El Clipero no pudo confirmar si es Lalo o un actor del video.
 
 ```
 «En redes te ves feliz…». El coro de Confusiones, de Lalo Ocampo: en redes todo se ve perfecto.
@@ -106,7 +88,56 @@ Crédito: Lalo Ocampo (YouTube) · «Lalo Ocampo - Confusiones», minuto 1:34 ·
 #LaloOcampo #Confusiones #MusicaUrbana #Coro #Indirectas
 ```
 
+### 2026-11-18-actriz-sus-amigas (subido hoy)
+
+- **Gancho:** «No me puedes ver ni en fotos» · puntaje 68 · en la bandeja desde las 12:34 del 2026-11-20
+- [Video](../clipero/clips/2026-11-18-actriz-sus-amigas/clip.mp4) · [Ficha](../clipero/clips/2026-11-18-actriz-sus-amigas/ficha.md)
+- Su ficha pide publicarlo unos días después de `actriz-coro`, que publicaste el 2026-11-19. Por ejemplo, el 2026-11-21 o el 2026-11-22.
+
+```
+«No me puedes ver ni en fotos porque se reviven los recuerdos». El verso de Actriz, de Lalo Ocampo.
+
+¿Te ha pasado?
+
+Crédito: Lalo Ocampo (YouTube) · «Lalo Ocampo - Actriz», minuto 0:10 · https://www.youtube.com/watch?v=yyV7_BRoPog&t=10s
+
+#LaloOcampo #Actriz #Indirectas #Desamor #Letras
+```
+
+---
+
+## Aprobados en cola
+
+No hace falta hacer nada: los turnos de esos días los suben a la bandeja (4 al día como máximo, dentro del horario de 08:00 a 23:00, y sin pasar de 5 borradores pendientes en 24 horas). Los 4 videos están en disco y sus envíos no han cambiado. Todos van a TikTok, cuenta `lalo-music`, con derechos `autorizado`.
+
+| Día previsto | Clip | Puntaje | Ventana | Nota |
+|---|---|---|---|---|
+| 2026-11-20 (tarde) | `2026-11-18-te-perdi-movida-artista` | 67 | 2026-12-18 | Cuarta subida de hoy. `te-perdi-coro` sigue en la bandeja |
+| 2026-11-21 | `2026-11-10-por-dios-santo-espejo` | 70 | 2026-12-10 | Al menos un día después de `por-dios-santo-coro` (lo pide su ficha) |
+| 2026-11-21 | `2026-11-18-madrilena-cinco-estrellas` | 66 | 2026-12-18 | `madrilena-se-formo-el-perreo` sigue en la bandeja |
+| 2026-11-21 | `2026-11-18-yaper-cuentale` | 65 | 2026-12-18 | `yaper-ya-paso-tu-tiempo` ya está publicado (2026-11-19) |
+
+Las fichas de los clips del 2026-11-18 piden publicarlos **unos días después** del primero de su canción. Llegan a la bandeja según la tabla, pero tú decides en la app cuándo publicarlos.
+
+Si quieres retirar alguno antes de que suba: `/publicador rechazar <clip-id> <motivo>`.
+
+### Textos para la app
+
+**2026-11-18-te-perdi-movida-artista** · TE PERDÍ: «nadie sabe lo que tiene…» · [Video](../clipero/clips/2026-11-18-te-perdi-movida-artista/clip.mp4) · [Ficha](../clipero/clips/2026-11-18-te-perdi-movida-artista/ficha.md) · lleva dos «(…)» en el subtítulo (segundos 5 y 11)
+
+```
+«Nadie sabe lo que tiene hasta que lo pierde». El verso de Te Perdí, de Lalo Ocampo, que sigue al coro.
+
+¿Te pasó alguna vez?
+
+Crédito: Lalo Ocampo (YouTube) · «Lalo Ocampo - Te Perdí», minuto 1:19 · https://www.youtube.com/watch?v=HyTE8nzFyFw&t=79s
+
+#LaloOcampo #TePerdi #Desamor #MusicaUrbana #Letras
+```
+
 **2026-11-10-por-dios-santo-espejo** · «Úsame como espejo» · [Video](../clipero/clips/2026-11-10-por-dios-santo-espejo/clip.mp4) · [Ficha](../clipero/clips/2026-11-10-por-dios-santo-espejo/ficha.md)
+
+Lo aprobaste en el ciclo 5 con cinco palabras dudosas, y el video no ha cambiado desde el 2026-11-10. Si al escucharlo algo no cuadra, recházalo antes de que suba y el Clipero lo vuelve a cortar:
 
 - «de mis **ojos**» (YouTube: «de mis sos»); puede que diga «desde mis ojos».
 - «**vacacionar** un sitio» (YouTube: «ocasionar»; whisper: «acacionar»): deducida, ninguna la trae así. Puede faltar «en».
@@ -124,33 +155,7 @@ Crédito: Lalo Ocampo (YouTube) · «Lalo Ocampo - Por Dios Santo (Official Vide
 #LaloOcampo #PorDiosSanto #ParaDedicar #Letras #FrasesDeCanciones
 ```
 
-### Aprobados en el ciclo 4: textos para la app
-
-**2026-11-18-actriz-sus-amigas** ([video](../clipero/clips/2026-11-18-actriz-sus-amigas/clip.mp4))
-
-```
-«No me puedes ver ni en fotos porque se reviven los recuerdos». El verso de Actriz, de Lalo Ocampo.
-
-¿Te ha pasado?
-
-Crédito: Lalo Ocampo (YouTube) · «Lalo Ocampo - Actriz», minuto 0:10 · https://www.youtube.com/watch?v=yyV7_BRoPog&t=10s
-
-#LaloOcampo #Actriz #Indirectas #Desamor #Letras
-```
-
-**2026-11-18-te-perdi-movida-artista** ([video](../clipero/clips/2026-11-18-te-perdi-movida-artista/clip.mp4)) · lleva dos «(…)» en el subtítulo (segundos 5 y 11)
-
-```
-«Nadie sabe lo que tiene hasta que lo pierde». El verso de Te Perdí, de Lalo Ocampo, que sigue al coro.
-
-¿Te pasó alguna vez?
-
-Crédito: Lalo Ocampo (YouTube) · «Lalo Ocampo - Te Perdí», minuto 1:19 · https://www.youtube.com/watch?v=HyTE8nzFyFw&t=79s
-
-#LaloOcampo #TePerdi #Desamor #MusicaUrbana #Letras
-```
-
-**2026-11-18-madrilena-cinco-estrellas** ([video](../clipero/clips/2026-11-18-madrilena-cinco-estrellas/clip.mp4))
+**2026-11-18-madrilena-cinco-estrellas** · «Es cinco estrellas, ella tiene todas las reseñas» · [Video](../clipero/clips/2026-11-18-madrilena-cinco-estrellas/clip.mp4) · [Ficha](../clipero/clips/2026-11-18-madrilena-cinco-estrellas/ficha.md)
 
 ```
 «Es cinco estrellas, ella tiene todas las reseñas». El verso de Madrileña, de Lalo Ocampo.
@@ -162,7 +167,7 @@ Crédito: Lalo Ocampo (YouTube) · «Lalo Ocampo - Madrileña», minuto 0:38 · 
 #LaloOcampo #Madrileña #Reggaeton #MusicaUrbana #Letras
 ```
 
-**2026-11-18-yaper-cuentale** ([video](../clipero/clips/2026-11-18-yaper-cuentale/clip.mp4))
+**2026-11-18-yaper-cuentale** · «Cuéntale que soy mejor que él» · [Video](../clipero/clips/2026-11-18-yaper-cuentale/clip.mp4) · [Ficha](../clipero/clips/2026-11-18-yaper-cuentale/ficha.md)
 
 ```
 «Cuéntale que soy mejor que él». El gancho de YAPER, de Lalo Ocampo.
@@ -187,4 +192,4 @@ En esta PC actúan sobre el espacio de Lalo.
 - Aprobar un clip en todas sus plataformas: `/publicador aprobar <clip-id>`
 - Aprobar solo una plataforma: `/publicador aprobar <clip-id>:tiktok`
 - Aprobar todo lo pendiente: `/publicador aprobar todo`
-- Retirar o rechazar uno: `/publicador rechazar <clip-id> <motivo>` (por ejemplo, `/publicador rechazar 2026-11-10-confusiones-coro falta la palabra del segundo 24`)
+- Retirar o rechazar uno: `/publicador rechazar <clip-id> <motivo>` (por ejemplo, `/publicador rechazar 2026-11-10-por-dios-santo-espejo falta revisar la letra`)
