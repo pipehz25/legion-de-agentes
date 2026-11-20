@@ -1,22 +1,25 @@
 # Publicador · espacio lalo · pendientes
 
-Actualizado el 2026-11-20 a las 00:39 (−05:00), ciclo 7. Modo `aprobacion`, publicación real (sin simulación). Única cuenta activa: TikTok `lalo-music` (@ocampo-music).
+Actualizado el 2026-11-20 a las 06:44 (−05:00), ciclo 8. Modo `aprobacion`, publicación real (sin simulación). Única cuenta activa: TikTok `lalo-music` (@ocampo-music).
 
-- **No queda nada por aprobar.** El Clipero no cortó clips nuevos en su ciclo 5.
-- **Siguen 2 borradores en la bandeja** desde las 12:59 de ayer: `te-perdi-coro` y `madrilena-se-formo-el-perreo` (textos abajo). Los otros 2 de ayer ya los publicaste.
-- **Este ciclo no subió nada** porque cayó fuera del horario (08:00 a 23:00). Hay **7 aprobados en cola**: 4 suben en el primer ciclo de hoy a partir de las 08:00 y 3 mañana, 2026-11-21 (tabla abajo).
-- **Antes de esa subida:** publica o descarta los 2 borradores que quedan. TikTok admite como máximo 5 borradores pendientes por API cada 24 horas: con 2 pendientes y 4 nuevos serían 6, y la cuarta subida podría fallar. A partir de las 13:00 esos 2 ya tendrán más de 24 horas.
-- **Desde el 2026-11-22 no hay nada más que subir.** El Clipero lo repite en su ciclo 5: ya no quedan canciones solo de Lalo por cortar, y ya tiene analizadas las cuatro colaboraciones del canal. Las decisiones posibles están en su informe (`espacios/lalo/salidas/clipero/informes/2026-11-20_0030.md`): ampliar la línea de `lalo-music` o encender otra cuenta (`lalo-love`, `lalo-lyrics` o `lalo-energy`); cortar las colaboraciones solo donde canta Lalo (Lokito daría unos 2 clips enseguida); o añadir otros canales con permiso.
+- **No queda nada por aprobar.** El Clipero tampoco cortó clips nuevos en su ciclo 6.
+- **Siguen 2 borradores en la bandeja** desde las 12:59 de ayer: `te-perdi-coro` y `madrilena-se-formo-el-perreo` (los textos están abajo). Los otros 2 de ayer ya los publicaste.
+- **Este ciclo no subió nada** porque cayó fuera del horario (08:00 a 23:00). Hay **7 aprobados en cola**: hoy suben 4 a partir de las 08:00 y mañana, 2026-11-21, otros 3 (tabla abajo).
+- **Publica o descarta esos 2 borradores antes de la próxima subida.** TikTok admite como máximo 5 borradores pendientes por API cada 24 horas. Si el próximo turno empieza antes de las 13:00 y los 2 siguen en la bandeja, subirá solo 3 y dejará `te-perdi-movida-artista` para el turno de la tarde. Así ninguna subida se pierde por el límite. Si ya los publicaste o descartaste, o el turno empieza después de las 13:00, subirá los 4.
+- **Desde el 2026-11-22 no hay nada más que subir.** El Clipero ya tiene preparadas las cuatro colaboraciones del canal, Parcera y Entiendo incluidas. Solo espera que decidas una de estas opciones (detalle en `espacios/lalo/salidas/clipero/informes/2026-11-20_0630.md`):
+  - ampliar la línea de `lalo-music` a «todo Lalo», o encender `lalo-love`, `lalo-lyrics` o `lalo-energy`. Saldrían enseguida 3 momentos ya localizados;
+  - cortar las colaboraciones solo donde canta Lalo: unos 2 clips de Lokito y 2 o 3 de Parcera. Los de Entiendo dependen de quién canta y de si aceptas «bellaquera» en el coro;
+  - añadir a `fuentes_autorizadas` otros canales con permiso.
 
 ---
 
 ## En la bandeja de TikTok: textos para pegar
 
-Abre el aviso de la bandeja en la app de @ocampo-music, pega el texto, elige portada y quién puede verlo, y publica. Las fichas recomiendan publicar de noche, entre las 19:00 y las 22:00, y espaciarlos unas horas entre sí.
+Abre el aviso de la bandeja en la app de @ocampo-music, pega el texto, elige portada y quién puede verlo, y publica. Las fichas recomiendan publicar de noche, entre las 19:00 y las 22:00, y dejar unas horas entre uno y otro.
 
 ### 2026-11-18-te-perdi-coro
 
-- **Gancho:** «Maldito el día en que yo te perdí» · en la bandeja desde las 12:59 del 2026-11-19 (sigue ahí a las 00:36 del 2026-11-20)
+- **Gancho:** «Maldito el día en que yo te perdí» · en la bandeja desde las 12:59 del 2026-11-19 (seguía ahí a las 06:42 del 2026-11-20)
 - [Video](../clipero/clips/2026-11-18-te-perdi-coro/clip.mp4) · [Ficha](../clipero/clips/2026-11-18-te-perdi-coro/ficha.md)
 - El subtítulo lleva un «(…)» en el segundo 11 («(…) tus besos y tu calor»): sale con el hueco.
 
@@ -32,7 +35,7 @@ Crédito: Lalo Ocampo (YouTube) · «Lalo Ocampo - Te Perdí», minuto 0:57 · h
 
 ### 2026-11-18-madrilena-se-formo-el-perreo
 
-- **Gancho:** MADRILEÑA: «se formó el perreo» · en la bandeja desde las 12:59 del 2026-11-19 (sigue ahí a las 00:36 del 2026-11-20)
+- **Gancho:** MADRILEÑA: «se formó el perreo» · en la bandeja desde las 12:59 del 2026-11-19 (seguía ahí a las 06:42 del 2026-11-20)
 - [Video](../clipero/clips/2026-11-18-madrilena-se-formo-el-perreo/clip.mp4) · [Ficha](../clipero/clips/2026-11-18-madrilena-se-formo-el-perreo/ficha.md)
 - El subtítulo lleva un «(…)» en el segundo 3 («cintura, (…) pierde la cordura»).
 
@@ -50,25 +53,25 @@ Crédito: Lalo Ocampo (YouTube) · «Lalo Ocampo - Madrileña», minuto 0:09 · 
 
 ## Aprobados en cola
 
-No hace falta hacer nada: los ciclos de esos días los suben a la bandeja (4 al día como máximo, dentro del horario de 08:00 a 23:00). Los 7 videos están en disco y sus envíos no han cambiado. Primero va la ventana más cercana y, dentro de cada canción, un clip por día. Todos a TikTok, cuenta `lalo-music`, derechos `autorizado`.
+No hace falta hacer nada: los turnos de esos días los suben a la bandeja (4 al día como máximo, dentro del horario de 08:00 a 23:00). Los 7 videos están en disco y sus envíos no han cambiado. Primero va la ventana más cercana y, dentro de cada canción, un clip por día. Todos van a TikTok, cuenta `lalo-music`, con derechos `autorizado`.
 
 | Día previsto | Clip | Puntaje | Ventana | Nota |
 |---|---|---|---|---|
 | 2026-11-20 | `2026-11-10-por-dios-santo-coro` | 71 | 2026-12-10 | Aprobado en el ciclo 5 |
 | 2026-11-20 | `2026-11-10-confusiones-coro` | 68 | 2026-12-10 | Aprobado en el ciclo 5 |
 | 2026-11-20 | `2026-11-18-actriz-sus-amigas` | 68 | 2026-12-18 | `actriz-coro` ya está publicado (2026-11-19) |
-| 2026-11-20 | `2026-11-18-te-perdi-movida-artista` | 67 | 2026-12-18 | `te-perdi-coro` sigue en la bandeja |
+| 2026-11-20 | `2026-11-18-te-perdi-movida-artista` | 67 | 2026-12-18 | `te-perdi-coro` sigue en la bandeja. Si a la hora del próximo turno siguen 2 borradores pendientes, sube en el turno de la tarde |
 | 2026-11-21 | `2026-11-10-por-dios-santo-espejo` | 70 | 2026-12-10 | Al menos un día después de `por-dios-santo-coro` (lo pide su ficha) |
 | 2026-11-21 | `2026-11-18-madrilena-cinco-estrellas` | 66 | 2026-12-18 | `madrilena-se-formo-el-perreo` sigue en la bandeja |
 | 2026-11-21 | `2026-11-18-yaper-cuentale` | 65 | 2026-12-18 | `yaper-ya-paso-tu-tiempo` ya está publicado (2026-11-19) |
 
-Las fichas de los cuatro clips del 2026-11-18 piden publicarlos **unos días después** del primero de su canción. Llegan a la bandeja según la tabla, pero tú decides en la app cuándo publicarlos: por ejemplo, `actriz-sus-amigas` y `yaper-cuentale` desde el 2026-11-21 o el 2026-11-22.
+Las fichas de los cuatro clips del 2026-11-18 piden publicarlos **unos días después** del primero de su canción. Llegan a la bandeja según la tabla, pero tú decides en la app cuándo publicarlos: por ejemplo, `actriz-sus-amigas` y `yaper-cuentale` el 2026-11-21 o el 2026-11-22.
 
 Si quieres retirar alguno antes de que suba: `/publicador rechazar <clip-id> <motivo>`.
 
 ### Aprobados en el ciclo 5: qué sale tal cual
 
-Los aprobaste con estas dudas sin resolver; el video no ha cambiado desde el 2026-11-10. Si al escucharlo algo no cuadra, recházalo antes de que suba y el Clipero lo vuelve a cortar.
+Los aprobaste con estas dudas sin resolver, y el video no ha cambiado desde el 2026-11-10. Si al escucharlo algo no cuadra, recházalo antes de que suba y el Clipero lo vuelve a cortar.
 
 **2026-11-10-por-dios-santo-coro** · «Maquinando cómo conseguir la liga por ella» · [Video](../clipero/clips/2026-11-10-por-dios-santo-coro/clip.mp4) · [Ficha](../clipero/clips/2026-11-10-por-dios-santo-coro/ficha.md)
 
