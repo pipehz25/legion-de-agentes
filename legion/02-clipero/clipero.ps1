@@ -17,7 +17,7 @@
 #               capitulos), transcripcion.txt y palabras*.json (palabras con tiempo, para subtitular)
 #               Si la fuente no tiene subtitulos (Kick, Twitch, Instagram...), transcribe el audio en local con whisper.cpp
 #               (herramientas/bin/whisper + herramientas/modelos); el origen queda en resumen.json (transcripcion_origen).
-#   cortar   -Url <url> -Inicio <seg> -Fin <seg> -Id <clip-id> [-Gancho "<texto>"] [-Subs orig|es|ninguno|whisper|<sufijo>] [-Modo desenfoque|recorte|marco]
+#   cortar   -Url <url> -Inicio <seg> -Fin <seg> -Id <clip-id> [-Gancho "<texto>"] [-Subs orig|es|ninguno|whisper|<sufijo>] [-Modo desenfoque|recorte|marco] [-Color morado|atardecer|vice|negro]
 #            [-Estilo clasico|amarillo|caja]
 #            -Subs whisper: transcribe con whisper solo el tramo del clip (fuentes sin subtitulos).
 #            -Estilo: aspecto de los subtitulos. clasico = blanco en mayusculas, 3 palabras por bloque (por defecto);
@@ -48,7 +48,9 @@ param(
     [string]$Subs = 'orig',
     [ValidateSet(360,480,720,1080)][int]$AlturaFuente = 1080,
     [ValidateSet('desenfoque', 'recorte', 'marco')][string]$Modo = 'desenfoque',
-    [ValidateSet('clasico', 'amarillo', 'caja')][string]$Estilo = 'clasico'
+    [ValidateSet('clasico', 'amarillo', 'caja')][string]$Estilo = 'clasico',
+    # Color de las franjas en -Modo marco: morado liso, atardecer (naranja a rosado), vice (rosado a turquesa) o negro
+    [ValidateSet('morado', 'atardecer', 'vice', 'negro')][string]$Color = 'morado'
 )
 
 $ErrorActionPreference = 'Stop'
@@ -516,7 +518,7 @@ if ($Accion -eq 'analizar') {
 
 # ---------------------------------------------------------------- cortar
 if (-not $Url -or -not $Id -or $Inicio -lt 0 -or $Fin -le $Inicio) {
-    throw 'Uso: cortar -Url <url> -Inicio <seg> -Fin <seg> -Id <clip-id> [-Gancho "<texto>"] [-Subs orig|es|ninguno] [-Modo desenfoque|recorte|marco] [-Estilo clasico|amarillo|caja]'
+    throw 'Uso: cortar -Url <url> -Inicio <seg> -Fin <seg> -Id <clip-id> [-Gancho "<texto>"] [-Subs orig|es|ninguno] [-Modo desenfoque|recorte|marco] [-Color morado|atardecer|vice|negro] [-Estilo clasico|amarillo|caja]'
 }
 if ($Fin - $Inicio -gt 180) { throw 'Un clip no puede durar mas de 180 s' }
 $vid = IdVideo $Url
@@ -607,8 +609,14 @@ try {
     $filtro = if ($Modo -eq 'recorte') {
         '[0:v]scale=-2:1920,crop=1080:1920,setsar=1,subtitles=subs.ass:fontsdir=.[v]'
     } elseif ($Modo -eq 'marco') {
-        # Menos zoom que recorte y sin difuminado: el video a 1350 px de alto en el centro, franjas lisas color #12062e
-        '[0:v]scale=-2:1350,crop=1080:1350,pad=1080:1920:0:285:color=0x12062e,setsar=1,subtitles=subs.ass:fontsdir=.[v]'
+        # Menos zoom que recorte y sin difuminado: el video a 1350 px de alto en el centro, sobre franjas de -Color
+        $fondoMarco = switch ($Color) {
+            'atardecer' { 'gradients=s=1080x1920:c0=0xff9a1f:c1=0xff2e7e:x0=0:y0=0:x1=0:y1=1920:n=2:speed=0:r=30' }
+            'vice' { 'gradients=s=1080x1920:c0=0xff2e9a:c1=0x13c8c8:x0=0:y0=0:x1=1080:y1=1920:n=2:speed=0:r=30' }
+            'negro' { 'color=c=black:s=1080x1920:r=30' }
+            default { 'color=c=0x12062e:s=1080x1920:r=30' }
+        }
+        "$fondoMarco[fondo];[0:v]scale=-2:1350,crop=1080:1350,setsar=1[frente];[fondo][frente]overlay=0:285:shortest=1,setsar=1,subtitles=subs.ass:fontsdir=.[v]"
     } else {
         '[0:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=20:2,eq=brightness=-0.08[fondo];' +
         '[0:v]scale=1080:-2[frente];[fondo][frente]overlay=(W-w)/2:(H-h)/2,setsar=1,subtitles=subs.ass:fontsdir=.[v]'
@@ -639,7 +647,7 @@ try {
     $meta = [ordered]@{
         id = $Id; url_fuente = $Url; video_id = $vid
         inicio = [math]::Round($ini, 2); fin = [math]::Round($fin, 2); inicio_hms = Hms $ini; duracion_seg = [math]::Round($real, 1)
-        gancho = $Gancho; subtitulos = $(if ($ws.Count) { $Subs } else { 'ninguno' }); palabras_subtituladas = $ws.Count; modo = $Modo; estilo = $Estilo
+        gancho = $Gancho; subtitulos = $(if ($ws.Count) { $Subs } else { 'ninguno' }); palabras_subtituladas = $ws.Count; modo = $Modo; estilo = $Estilo; color = $(if ($Modo -eq 'marco') { $Color } else { '' })
         fuente_ancho = $sourceVideoInfo.width; fuente_alto = $sourceVideoInfo.height
         audio = $audio
         archivo = Relativa (Join-Path $salida 'clip.mp4'); portada = Relativa (Join-Path $salida 'portada.jpg')
