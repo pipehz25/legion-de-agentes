@@ -25,9 +25,9 @@
     "duracion_min_seg": 15,
     "duracion_max_seg": 60,
     "duracion_ideal_seg": [20, 40],
-    "modo": "recorte"
+    "modo": "marco"
   },
-  "_clip_modo": "Desde el 2026-11-20 el usuario quiere los clips a pantalla completa (recorte), sin el fondo difuminado: corta siempre con -Modo recorte. El recorte toma el centro del video; si lo importante (la acción, una cara) queda fuera del centro, elige otro momento. Los 31 clips anteriores se quedan como están.",
+  "_clip_modo": "Desde el 2026-11-20 el usuario quiere los clips con menos zoom y sin fondo difuminado: corta siempre con -Modo marco (video a 1350 px de alto en el centro, franjas lisas moradas, gancho arriba y subtitulos abajo). Eligio esta opcion frente a recorte (demasiado cerca) y desenfoque. Los clips anteriores se quedan como estan.",
   "umbral_produccion": 65,
 
   "variantes": {
