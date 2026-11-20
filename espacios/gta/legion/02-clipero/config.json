@@ -25,8 +25,9 @@
     "duracion_min_seg": 15,
     "duracion_max_seg": 60,
     "duracion_ideal_seg": [20, 40],
-    "modo": "desenfoque"
+    "modo": "recorte"
   },
+  "_clip_modo": "Desde el 2026-11-20 el usuario quiere los clips a pantalla completa (recorte), sin el fondo difuminado: corta siempre con -Modo recorte. El recorte toma el centro del video; si lo importante (la acción, una cara) queda fuera del centro, elige otro momento. Los 31 clips anteriores se quedan como están.",
   "umbral_produccion": 65,
 
   "variantes": {
