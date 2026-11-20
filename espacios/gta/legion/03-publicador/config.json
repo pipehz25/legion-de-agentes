@@ -1,5 +1,5 @@
 {
-  "_espacio": "Configuración del Publicador en el espacio gta (CLAUDE.md, «Espacios»): cuentas de GTA VI para Estados Unidos, que Santiago está creando. Todas apagadas hasta que cada una se autorice en la PC que lleva este espacio (publicar.ps1 autorizar -Plataforma <p> -Cuenta gta-us).",
+  "_espacio": "Configuración del Publicador en el espacio gta (CLAUDE.md, «Espacios»): cuentas de GTA VI para Estados Unidos, que Santiago está creando (6 por red: 5 de nicho y la base gta-us). Todas apagadas hasta que cada una se autorice en la copia de GTA (publicar.ps1 autorizar -Plataforma <p> -Cuenta <alias>).",
 
   "modo": "aprobacion",
   "_modo": "aprobacion: solo se publica lo que el usuario aprueba con /publicador aprobar <id>. automatico: se publica sin esperar aprobación, pero solo los clips cuyos derechos estén en derechos_automatico.",
@@ -22,10 +22,16 @@
     "youtube": {
       "activa": false,
       "cuentas": [
+        { "alias": "gta-chases", "activa": false, "linea": "GTA VI: persecuciones, escapes de la policía y estrellas de búsqueda" },
+        { "alias": "gta-funny", "activa": false, "linea": "GTA VI: choques, físicas locas, fails y NPCs graciosos" },
+        { "alias": "gta-rides", "activa": false, "linea": "GTA VI: carros, motos, aviones y acrobacias" },
+        { "alias": "gta-world", "activa": false, "linea": "GTA VI: el mapa, paisajes, detalles y easter eggs" },
+        { "alias": "gta-story", "activa": false, "linea": "GTA VI: momentos de Jason y Lucía y de la historia (con aviso de spoiler)" },
         { "alias": "gta-us", "activa": false, "linea": "todo" }
       ],
-      "privacidad": "private",
-      "_privacidad": "private | unlisted | public (plataformas.md §3).",
+      "_cuentas_gta": "Canales de GTA VI que Santiago va a crear (pedido del 2026-11-20: varias cuentas y muchos videos al día). Las de nicho van primero para que reciban los originales de su tema; gta-us, la base, recibe el resto. Cada una se enciende al autorizarla en la copia de GTA (publicar.ps1 autorizar -Plataforma youtube -Cuenta <alias>). El cupo de la API es de 100 subidas al día por proyecto de Google, compartido entre todos los canales.",
+      "privacidad": "public",
+      "_privacidad": "private | unlisted | public (plataformas.md §3). Desde el 2026-11-02 la API deja publicar en público sin auditoría.",
       "categoria": "20",
       "_categoria": "20 = Gaming.",
       "idioma": "en",
@@ -34,8 +40,14 @@
     "tiktok": {
       "activa": false,
       "cuentas": [
+        { "alias": "gta-chases", "activa": false, "usuario": "", "linea": "GTA VI: persecuciones, escapes de la policía y estrellas de búsqueda" },
+        { "alias": "gta-funny", "activa": false, "usuario": "", "linea": "GTA VI: choques, físicas locas, fails y NPCs graciosos" },
+        { "alias": "gta-rides", "activa": false, "usuario": "", "linea": "GTA VI: carros, motos, aviones y acrobacias" },
+        { "alias": "gta-world", "activa": false, "usuario": "", "linea": "GTA VI: el mapa, paisajes, detalles y easter eggs" },
+        { "alias": "gta-story", "activa": false, "usuario": "", "linea": "GTA VI: momentos de Jason y Lucía y de la historia (con aviso de spoiler)" },
         { "alias": "gta-us", "activa": false, "usuario": "", "linea": "todo" }
       ],
+      "_cuentas_gta": "Cuentas de TikTok de EE. UU. que Santiago va a crear. Cada una se añade en Target users de la app de TikTok y se autoriza en la copia de GTA. Sin auditoría de la app llegan como borrador (5 pendientes por cuenta al día).",
       "leer_metricas": false,
       "usuario": "",
       "destino": "borrador",
@@ -47,6 +59,11 @@
     "instagram": {
       "activa": false,
       "cuentas": [
+        { "alias": "gta-chases", "activa": false, "linea": "GTA VI: persecuciones, escapes de la policía y estrellas de búsqueda" },
+        { "alias": "gta-funny", "activa": false, "linea": "GTA VI: choques, físicas locas, fails y NPCs graciosos" },
+        { "alias": "gta-rides", "activa": false, "linea": "GTA VI: carros, motos, aviones y acrobacias" },
+        { "alias": "gta-world", "activa": false, "linea": "GTA VI: el mapa, paisajes, detalles y easter eggs" },
+        { "alias": "gta-story", "activa": false, "linea": "GTA VI: momentos de Jason y Lucía y de la historia (con aviso de spoiler)" },
         { "alias": "gta-us", "activa": false, "linea": "todo" }
       ],
       "api": "instagram",

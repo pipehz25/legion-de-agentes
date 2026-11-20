@@ -1,7 +1,7 @@
 {
   "_espacio": "Configuración del Clipero en el espacio gta (CLAUDE.md, «Espacios»): lo viral del lanzamiento de GTA VI para cuentas de Estados Unidos. Pedido por Santiago el 2026-11-18, víspera del lanzamiento en América (19-nov). La usa la copia del proyecto que tiene espacio.local.json con { \"espacio\": \"gta\" }.",
 
-  "enfoque_propio": "Lo más viral de GTA VI (salida el 19-nov-2026 en PS5 y Xbox Series) para una audiencia de Estados Unidos, en inglés. A diferencia de otros espacios, aquí las fuentes NO se limitan a fuentes_autorizadas (está vacía): se descubren con búsqueda propia (`buscar -Hoy -Detalle`, `buscar -Recientes`, `canal` de los creadores que encuentres y búsqueda web), dentro de fuente.max_edad_dias. Prioridad: (1) directos y VODs de los streamers y creadores de EE. UU. con más audiencia jugando GTA VI o reaccionando al lanzamiento, con su cara y su voz; (2) videos de reacción, primeras impresiones y debates en podcasts; (3) recopilaciones de momentos graciosos, glitches, físicas locas, persecuciones y reacciones exageradas. Ordena por vistas por hora. No se corta material oficial de Rockstar (trailers, anuncios) ni gameplay sin nadie encima: el valor es la reacción del creador. Evita tramos largos con música de las radios del juego, que dispara reclamos de derechos en YouTube; prefiere los momentos donde el creador habla o grita. Spoilers de la historia: se pueden cortar, pero el gancho nunca los revela y la ficha los marca \"SPOILER\". Ganchos, títulos y fichas de publicación en inglés de EE. UU.; subtítulos en el idioma original (`-Subs orig`). «Relevancia ahora» se mide por la ventana del lanzamiento: lo de las últimas 24 h vale más, y un momento que ya está recortado por muchos canales grandes pierde puntos (paso 6). Kick y Twitch se transcriben con whisper: analiza primero lo que esté en YouTube. Los derechos de todo esto son sin_verificar.",
+  "enfoque_propio": "Desde el 2026-11-20: clips sacados de gameplays de GTA VI ya grabados y subidos a YouTube (partidas largas, con o sin comentario), para cuentas de EE. UU. en inglés y en volumen alto. A diferencia de otros espacios, las fuentes NO se limitan a fuentes_autorizadas: se descubren con búsqueda propia (`buscar`, `canal` y búsqueda web), dentro de fuente.max_edad_dias. ORDEN DE FUENTES, decidido por el usuario: (1) primero, gameplays que su creador ofrece libres de uso: el título o la descripción dicen \"free to use\", \"no copyright\", \"copyright free\", \"for edits\", \"royalty free\" o similar, o el canal tiene un programa que permite o paga a quienes recortan. Copia en la ficha la frase exacta del permiso y la URL; sus clips llevan derechos `autorizado` y el canal se añade a fuentes_autorizadas con esa frase en `condiciones`. Sin frase de permiso comprobada, no es autorizado. (2) Solo si (1) no llena el ciclo, otros gameplays de YouTube, con crédito al creador y derechos `sin_verificar`; nunca más clips de un mismo creador sin permiso que de fuentes libres en el mismo ciclo. Nunca se corta material oficial de Rockstar (trailers, anuncios). MOMENTOS: persecuciones y escapes de la policía, choques y físicas locas, NPCs graciosos, acrobacias con carros, motos y aviones, paisajes y detalles del mapa, easter eggs, momentos de Jason y Lucía, lo satisfactorio. En gameplay sin comentario no hay texto: el usuario autoriza expresamente cortar sin subtítulos en este espacio; usa `vistazo` (fotogramas y volumen) para encontrar los momentos y corta con `-Subs ninguno`. Cada clip lleva nuestra capa: un gancho en pantalla en inglés de EE. UU. que describe lo que se ve (`-Gancho`), sin nombrar a nadie que no se identifique en pantalla. Si el gameplay tiene comentario, subtítulos en el idioma original (`-Subs orig`). Evita tramos con música de las radios del juego, que dispara reclamos en YouTube. Spoilers de la historia: se pueden cortar, pero el gancho nunca los revela y la ficha los marca \"SPOILER\". «Relevancia ahora»: lo que más se busca del juego esta semana (mapa, carros, policía, Jason y Lucía, secretos); un momento que ya está recortado por muchos canales pierde puntos (paso 6). Cada clip debe encajar con la `linea` de al menos una cuenta del Publicador de este espacio (aunque esté apagada); la ficha dice con cuáles.",
   "_enfoque_propio": "Si existe, sustituye al enfoque del Cazador (agente clipero, «Espacio con enfoque propio»).",
 
   "idioma_audiencia": "en",
@@ -16,11 +16,11 @@
   },
 
   "fuente": {
-    "duracion_min_seg": 300,
-    "max_edad_dias": 3,
-    "tipos": ["directos y VODs de streamers", "videos de reacción", "primeras impresiones", "podcasts y debates", "recopilaciones de momentos graciosos con el creador en cámara"]
+    "duracion_min_seg": 600,
+    "max_edad_dias": 10,
+    "tipos": ["gameplays largos libres de uso", "gameplays sin comentario", "gameplays con comentario", "partidas completas o por misiones"]
   },
-  "_fuente": "max_edad_dias 3: en un lanzamiento lo de hace una semana ya está quemado.",
+  "_fuente": "Gameplays de 10 minutos o más publicados en los últimos 10 días (el juego salió el 19-nov).",
   "clip": {
     "duracion_min_seg": 15,
     "duracion_max_seg": 60,
@@ -30,11 +30,11 @@
   "umbral_produccion": 65,
 
   "variantes": {
-    "max_por_momento": 2,
-    "puntaje_min": 75
+    "max_por_momento": 3,
+    "puntaje_min": 72
   },
-  "_variantes": "Nunca más versiones que cuentas activas cuya linea encaje (metodologia.md §7): mientras haya una sola cuenta por plataforma, no se corta ninguna.",
+  "_variantes": "Versiones reales distintas de un mismo momento para repartir entre las cuentas gta-* (metodologia.md §7). Nunca más versiones que cuentas activas cuya linea encaje: mientras no haya cuentas activas, no se corta ninguna.",
 
   "fuentes_autorizadas": [],
-  "_fuentes_autorizadas": "Vacía a propósito: en este espacio las fuentes se descubren con búsqueda propia (enfoque_propio). Si algún creador da permiso o tiene programa de clips, se agrega aquí y sus clips pasan a autorizado."
+  "_fuentes_autorizadas": "Se llena sola: cada canal de gameplay libre de uso que el Clipero compruebe se añade aquí con la frase exacta del permiso en condiciones. Sus clips llevan derechos autorizado."
 }
