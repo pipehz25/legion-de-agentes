@@ -1,0 +1,87 @@
+param([string]$Datos, [string]$Raiz = 'c:\tmp\legion-gta', [switch]$SoloFichas)
+# Genera ficha.md de cada clip (desde un JSON de datos) y reescribe clips.json del espacio gta.
+$ErrorActionPreference = 'Stop'
+$utf8 = New-Object Text.UTF8Encoding $false
+$inv = [Globalization.CultureInfo]::InvariantCulture
+$esp = Join-Path $Raiz 'espacios\gta'
+$d = [IO.File]::ReadAllText($Datos, $utf8) | ConvertFrom-Json
+function Hms([double]$s) { $t = [TimeSpan]::FromSeconds([math]::Floor($s)); if ($t.Hours) { '{0}:{1:00}:{2:00}' -f $t.Hours, $t.Minutes, $t.Seconds } else { '{0}:{1:00}' -f $t.Minutes, $t.Seconds } }
+$nuevos = @()
+foreach ($c in $d.clips) {
+    $dir = Join-Path $esp "salidas\clipero\clips\$($c.id)"
+    $metaRuta = Join-Path $dir 'meta.json'
+    if (-not (Test-Path $metaRuta)) { Write-Warning "sin meta.json: $($c.id)"; continue }
+    $m = [IO.File]::ReadAllText($metaRuta, $utf8) | ConvertFrom-Json
+    $f = $d.fuentes.($c.fuente)
+    $ini = [double]$m.inicio; $fin = [double]$m.fin; $dur = [double]$m.duracion_seg
+    $tSeg = [int][math]::Floor($ini)
+    $enlace = "$($f.url)&t=$($tSeg)s"
+    $p = $c.puntos
+    $total = [int]($p[0] + $p[1] + $p[2] + $p[3] + $p[4])
+    if ($total -ne [int]$c.puntaje) { Write-Warning "$($c.id): puntaje $($c.puntaje) != suma $total" }
+    $derechosTxt = if ($f.derechos -eq 'autorizado') {
+        "**autorizado**: the creator offers this footage free to use. Exact permission ($($f.permiso_donde)): `"$($f.permiso)`"$(if ($f.condiciones_extra) { " $($f.condiciones_extra)" }) Source: $($f.url)"
+    } else { '**sin_verificar** (unverified): third-party content with no clip permission on file. Check before posting and always keep the credit.' }
+    $audio = $m.audio
+    $audioTxt = if ($audio -and $audio.salida_lufs) { "Audio normalized to $(([double]$audio.salida_lufs).ToString('0.##', $inv)) LUFS (true peak $(([double]$audio.salida_tp).ToString('0.##', $inv)) dBTP)." } else { 'Audio: see meta.json.' }
+    $subsTxt = if ($m.subtitulos -eq 'ninguno') { 'No captions (gameplay without commentary; cut without subtitles as the user authorized for this space).' } else { "Captions: in-game dialogue from YouTube auto-captions, cleaned (>> markers removed, a few misheard words fixed; profanity stays bleeped as ***). $($m.palabras_subtituladas) words." }
+    $lineas = @(
+        "# $($c.gancho)", '',
+        "- **Clip ID:** $($c.id)",
+        "- **Status:** ready to review (rights: $($f.derechos))",
+        "- **Duration:** $($dur.ToString('0.#', $inv)) s",
+        "- **Review before posting:** $($c.revisar)", '',
+        '## Titles',
+        "- **TikTok:** $($c.titulos[0])",
+        "- **Instagram Reels:** $($c.titulos[1])",
+        "- **YouTube Shorts:** $($c.titulos[2])", '',
+        '## Description',
+        $c.descripcion, '',
+        "Credit: $($f.canal) - $enlace", '',
+        '## Hashtags', $c.hashtags, '',
+        '## On-screen hook', $c.gancho, '',
+        '## Credit',
+        "- **Channel:** $($f.canal)",
+        "- **Source video:** `"$($f.titulo)`" - $enlace",
+        "- **Cut:** $(Hms $ini) - $(Hms $fin) of the source ($($dur.ToString('0.#', $inv)) s)", '',
+        '## Rights', $derechosTxt, '',
+        '## Moment type', $c.tipo, '',
+        '## Fits these accounts', $c.cuentas, '',
+        '## Who appears', $c.quien, '',
+        "## Why it's relevant now", $c.relevancia, '',
+        'Hunter opportunity: none (this space has its own focus: GTA VI gameplay for a US audience, launched Nov 19, 2026).', '',
+        '## Window', "Until $($c.ventana).", '',
+        '## Suggested platform and time', $c.hora, '',
+        "## Score: $($c.puntaje)/100",
+        '| Component | Points |', '|---|---|',
+        "| Moment strength | $($p[0])/25 |", "| Standalone | $($p[1])/20 |", "| Hook | $($p[2])/15 |", "| Relevance now | $($p[3])/25 |", "| Clip freshness | $($p[4])/15 |", '',
+        '## Spoilers', $c.spoiler, '',
+        '## Notes'
+    )
+    foreach ($n in @($c.notas)) { if ($n) { $lineas += "- $n" } }
+    $lineas += "- $subsTxt"
+    $lineas += "- $audioTxt"
+    $lineas += '- Avoid adding in-game radio music when posting (copyright claims on YouTube).'
+    [IO.File]::WriteAllLines((Join-Path $dir 'ficha.md'), [string[]]$lineas, $utf8)
+    $nuevos += [pscustomobject][ordered]@{
+        id = $c.id; estado = 'listo'; tipo = $c.tipo; puntaje = [int]$c.puntaje; gancho = $c.gancho
+        archivo = "espacios/gta/salidas/clipero/clips/$($c.id)/clip.mp4"
+        ficha = "espacios/gta/salidas/clipero/clips/$($c.id)/ficha.md"
+        duracion_seg = $dur
+        fuente = [ordered]@{ url = $f.url; canal = $f.canal; inicio = [math]::Round($ini, 2); fin = [math]::Round($fin, 2) }
+        oportunidad_cazador = $null; linea = 'gta'; orden_en_fuente = [int]$c.orden
+        variante_de = $null; diferencia = ''; derechos = $f.derechos
+        plataformas = @('tiktok', 'instagram', 'youtube', 'facebook'); ventana_hasta = $c.ventana
+    }
+    "ficha: $($c.id) ($total)"
+}
+if ($SoloFichas) { exit 0 }
+$rutaClips = Join-Path $esp 'salidas\clipero\clips.json'
+$viejo = [IO.File]::ReadAllText($rutaClips, $utf8) | ConvertFrom-Json
+$ids = @($nuevos | ForEach-Object { $_.id })
+$limite = (Get-Date).AddDays(-7).ToString('yyyy-MM-dd')
+$resto = @($viejo.clips | Where-Object { $ids -notcontains $_.id -and $_.id.Substring(0, 10) -ge $limite })
+$todos = @($nuevos | Sort-Object @{ e = { $_.id.Substring(0, 10) }; Descending = $true }, @{ e = { $_.puntaje }; Descending = $true }) + $resto
+$salida = [ordered]@{ generado = (Get-Date).ToString('yyyy-MM-ddTHH:mm:sszzz'); ciclo = [int]$d.ciclo; clips = $todos }
+[IO.File]::WriteAllText($rutaClips, (ConvertTo-Json -InputObject $salida -Depth 6), $utf8)
+"clips.json: $($todos.Count) clips ($($nuevos.Count) nuevos)"

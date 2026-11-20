@@ -1,6 +1,8 @@
 {
-    "actualizado":  "2026-11-20T09:06:17-05:00",
-    "ciclo":  2,
+    "actualizado":  "2026-11-20T09:50:00-05:00",
+    "ciclo":  3,
+    "_aviso_deno":  "IMPORTANTE (ciclo 3, 2026-11-20): toda llamada a YouTube se cuelga porque deno se bloquea al abrir su cache por defecto (%LOCALAPPDATA%\\deno\\dep_analysis_cache_v2, WAL de 4 MB sin cambios desde las 08:36:55; deno -L debug se para en 'Created parent directory for cache db'). Con un DENO_DIR limpio deno funciona. Hasta que el usuario cierre los procesos colgados y borre esa cache, en CADA llamada: $env:DENO_DIR = 'c:\\tmp\\deno-cache-gta' (crear la carpeta) antes de clipero.ps1. Si el candado sigue tomado por un corte colgado (powershell clipero cortar / yt-dlp / deno), no hay nada que hacer: avisar.",
+    "_preparado":  "datos/clipero/preparado-fichas.json: textos de ficha (ingles) de 11 de los 13 momentos propuestos, listos; preparado-fichas.ps1.txt genera ficha.md y clips.json desde ese JSON y los meta.json (copiarlo a .ps1 en el scratchpad). palabras-rev.json de rlluMwJXbqg ya esta hecho (sin '>>', correcciones: men in suits, brick numero dos, abuela, (...)).",
     "ultimo_ciclo_cazador":  15,
     "ultimo_ciclo_cazador_risas":  7,
     "_nota_cazadores":  "Espacio con enfoque propio (GTA VI): los ciclos de los cazadores solo se anotan; sus oportunidades no se usan.",
@@ -11,49 +13,49 @@
                                          "url":  "https://www.youtube.com/watch?v=rlluMwJXbqg",
                                          "titulo":  "Gta 6 Free To Use Gameplay No Copyright #1 (Fox - No Copyright Gameplay)",
                                          "prioridad":  "alta",
-                                         "motivo":  "libre de uso; cortar los 9 momentos propuestos en estado.momentos (vistazo ya hecho, hojas en datos/clipero/fuentes/rlluMwJXbqg) y comprobar el del tigre"
+                                         "motivo":  "libre de uso; cortar los 9 momentos propuestos en estado.momentos (vistazo ya hecho, hojas en datos/clipero/fuentes/rlluMwJXbqg) y comprobar el del tigre. Ciclo 3: no se pudo (deno colgado con el candado tomado, ver _aviso_deno); entradas, salidas, -Subs y ganchos ya fijados en momentos"
                                      },
                                      {
                                          "id":  "konZi0msk6A",
                                          "url":  "https://www.youtube.com/watch?v=konZi0msk6A",
                                          "titulo":  "Gta 6 Daily Activities Vlog #1 (Ftug - No Copyright Gameplay)",
                                          "prioridad":  "alta",
-                                         "motivo":  "libre de uso; cortar los 2 momentos propuestos (pelea en la playa y kayak); vistazo ya hecho"
+                                         "motivo":  "libre de uso; cortar los 3 momentos propuestos (pelea en la playa, kayak y serpiente); vistazo ya hecho. Ciclo 3: sin cortar (deno colgado)"
                                      },
                                      {
                                          "id":  "T9EEBZ9YUmo",
                                          "url":  "https://www.youtube.com/watch?v=T9EEBZ9YUmo",
                                          "titulo":  "Gta 6 Hanging Out With Cal (Ftug - No Copyright Gameplay), 1088 s",
                                          "prioridad":  "alta",
-                                         "motivo":  "libre de uso; el vistazo se colgo el 2026-11-20: repetirlo"
+                                         "motivo":  "libre de uso; el vistazo se colgo el 2026-11-20 (misma causa: cache de deno, ver _aviso_deno). Ciclo 3: no se reintento porque el candado seguia tomado por el corte colgado"
                                      },
                                      {
                                          "id":  "e5x7k8fBqHM",
                                          "url":  "https://www.youtube.com/watch?v=e5x7k8fBqHM",
                                          "titulo":  "Gta 6 Free To Use Gameplay No Copyright #2 (Fox - No Copyright Gameplay), 3807 s",
                                          "prioridad":  "alta",
-                                         "motivo":  "libre de uso; el vistazo dio HTTP 403: repetirlo"
+                                         "motivo":  "libre de uso; el vistazo dio HTTP 403: repetirlo (sin subtitulos, 63 min: vistazo -Cada 20 y cortar -Subs ninguno). Ciclo 3: no se reintento (candado tomado)"
                                      },
                                      {
                                          "id":  "6DqUioTxqhQ",
                                          "url":  "https://www.youtube.com/watch?v=6DqUioTxqhQ",
                                          "titulo":  "Gta 6 Swimming Diving \u0026 Backflips (Ftug - No Copyright Gameplay), 610 s",
                                          "prioridad":  "alta",
-                                         "motivo":  "libre de uso (CC BY); sin analizar"
+                                         "motivo":  "libre de uso (CC BY); sin analizar (ciclo 3: candado tomado por el corte colgado)"
                                      },
                                      {
                                          "id":  "TNGvT17c8Qg",
                                          "url":  "https://www.youtube.com/watch?v=TNGvT17c8Qg",
                                          "titulo":  "GTA 6 NO COPYRIGHT GAMEPLAY - Free to Use 4k 60FPS (GTA 6 No Copyright Gameplay), 951 s",
                                          "prioridad":  "alta",
-                                         "motivo":  "libre de uso con condiciones (clips cortos editados); sin analizar"
+                                         "motivo":  "libre de uso con condiciones (clips cortos editados); sin analizar (ciclo 3: candado tomado por el corte colgado)"
                                      },
                                      {
                                          "id":  "9Xkv1gkvyak",
                                          "url":  "https://www.youtube.com/watch?v=9Xkv1gkvyak",
                                          "titulo":  "No Copyright GTA 6 Gameplay (Royalty Free) (KatanaChops), 1734 s",
                                          "prioridad":  "alta",
-                                         "motivo":  "permiso solo en el titulo; despues de los otros tres canales"
+                                         "motivo":  "permiso solo en el titulo; despues de los otros tres canales (ciclo 3: sin analizar, candado tomado)"
                                      },
                                      {
                                          "id":  "3QjXNSf6keg",
@@ -160,14 +162,14 @@
                         "url":  "https://www.youtube.com/watch?v=rlluMwJXbqg",
                         "titulo":  "Gta 6 Free To Use Gameplay No Copyright FOR TIKTOK \u0026 YOUTUBE No Commentary #1 (Fox - No Copyright Gameplay)",
                         "analizado":  "2026-11-20",
-                        "resultado":  "0 clips: 10 momentos propuestos con vistazo (cada 15 s) y subtitulos automaticos del dialogo del juego; no se pudo cortar porque el candado del Clipero quedo tomado por un vistazo colgado. Libre de uso (CC BY). Es el inicio de la historia: casi todo son cinematicas; lo jugable esta en 0:11-0:13, 0:18-0:21, 0:23-0:33 y 0:45-0:59"
+                        "resultado":  "0 clips: 10 momentos propuestos con vistazo (cada 15 s) y subtitulos automaticos del dialogo del juego; no se pudo cortar porque el candado del Clipero quedo tomado por un vistazo colgado. Libre de uso (CC BY). Es el inicio de la historia: casi todo son cinematicas; lo jugable esta en 0:11-0:13, 0:18-0:21, 0:23-0:33 y 0:45-0:59. Ciclo 3 (2026-11-20 09:27): el primer corte (buddy-conspiracy-rant) se colgo en deno (cache bloqueada) con el candado tomado: 0 clips"
                     },
                     {
                         "id":  "konZi0msk6A",
                         "url":  "https://www.youtube.com/watch?v=konZi0msk6A",
                         "titulo":  "Gta 6 Daily Activities Vlog #1 (Ftug - No Copyright Gameplay)",
                         "analizado":  "2026-11-20",
-                        "resultado":  "0 clips: 3 momentos propuestos con vistazo (cada 10 s); sin cortar por el candado tomado. Libre de uso (CC BY)"
+                        "resultado":  "0 clips: 3 momentos propuestos con vistazo (cada 10 s); sin cortar por el candado tomado. Libre de uso (CC BY). Ciclo 3: tampoco (candado tomado por el corte colgado de rlluMwJXbqg)"
                     },
                     {
                         "id":  "e5x7k8fBqHM",
@@ -583,12 +585,12 @@
                      },
                      {
                          "fuente":  "rlluMwJXbqg",
-                         "inicio":  988,
+                         "inicio":  990,
                          "fin":  1028,
                          "estado":  "propuesto",
                          "clip":  "2026-11-20-gta6-buddy-conspiracy-rant",
                          "variante_de":  null,
-                         "motivo":  "75, humor, SPOILER leve. Gancho: \"Jason\u0027s buddy has a theory about everything\". Cinematica del bote: teorias de conspiracion, \u0027I use a VPN\u0027. Sin cortar: candado tomado"
+                         "motivo":  "75, humor, SPOILER leve. Gancho: \"Jason\u0027s buddy has a theory about everything\". Cinematica del bote: teorias de conspiracion, \u0027I use a VPN\u0027. -Subs rev; entrada movida a 990 (empieza en The psychopaths are in charge); habla Cal, el de la camisa hawaiana. La broma del VPN salio en una filtracion de agosto (frescura 10). Ciclo 3: corte colgado (deno), sin clip"
                      },
                      {
                          "fuente":  "rlluMwJXbqg",
@@ -597,7 +599,7 @@
                          "estado":  "propuesto",
                          "clip":  "2026-11-20-gta6-seaplane-escape",
                          "variante_de":  null,
-                         "motivo":  "74, accion, SPOILER leve. Gancho: \"Escaping a shootout by seaplane in GTA 6\". Tramo mas fuerte del video (volumen). Sin cortar: candado tomado"
+                         "motivo":  "74, accion, SPOILER leve. -Subs rev. Gancho: \"Escaping a shootout by seaplane in GTA 6\". Tramo mas fuerte del video (volumen); hoja 5: 30:52 entra al agua, 31:22 despega. Ciclo 3: sin cortar (deno colgado)"
                      },
                      {
                          "fuente":  "rlluMwJXbqg",
@@ -606,16 +608,16 @@
                          "estado":  "propuesto",
                          "clip":  "2026-11-20-gta6-lucia-stickup",
                          "variante_de":  null,
-                         "motivo":  "73, historia, SPOILER (prologo de Lucia). Gancho: \"Lucia does NOT play around in GTA 6\". Sin cortar: candado tomado"
+                         "motivo":  "73, historia, SPOILER (prologo de Lucia). -Subs rev. Gancho: \"Lucia does NOT play around in GTA 6\". Ciclo 3: sin cortar (deno colgado)"
                      },
                      {
                          "fuente":  "rlluMwJXbqg",
-                         "inicio":  3365,
-                         "fin":  3405,
+                         "inicio":  3395,
+                         "fin":  3445,
                          "estado":  "propuesto",
                          "clip":  "2026-11-20-gta6-repaint-your-house",
                          "variante_de":  null,
-                         "motivo":  "73, detalle. Gancho: \"You can repaint your own house in GTA 6\". Sin cortar: candado tomado"
+                         "motivo":  "73, detalle. -Subs ninguno. Gancho: \"You can repaint your own house in GTA 6\". Movido a 3395-3445 (hoja 8: rodillo en la bandeja 56:37, pared verde, cuarto terminado 57:22 = payoff). Ciclo 3: sin cortar (deno colgado)"
                      },
                      {
                          "fuente":  "rlluMwJXbqg",
@@ -624,7 +626,7 @@
                          "estado":  "propuesto",
                          "clip":  "2026-11-20-gta6-jason-lucia-first-meet",
                          "variante_de":  null,
-                         "motivo":  "72, humor, SPOILER muy leve (primera escena). Gancho: \"How Jason and Lucia first meet\". Lleva los creditos del juego sobreimpresos y la escena sale en todos los walkthroughs (frescura baja). Sin cortar: candado tomado"
+                         "motivo":  "72, humor, SPOILER muy leve (primera escena). -Subs rev. Gancho: \"How Jason and Lucia first meet\". Lleva los creditos del juego sobreimpresos y la escena sale en todos los walkthroughs (frescura baja). Ciclo 3: sin cortar (deno colgado)"
                      },
                      {
                          "fuente":  "rlluMwJXbqg",
@@ -633,16 +635,16 @@
                          "estado":  "propuesto",
                          "clip":  "2026-11-20-gta6-seaplane-water-landing",
                          "variante_de":  null,
-                         "motivo":  "71, satisfactorio. Gancho: \"Landing a seaplane in a storm in GTA 6\". Sin cortar: candado tomado"
+                         "motivo":  "71, satisfactorio. -Subs rev. Gancho: \"Landing a seaplane in a storm in GTA 6\" (tormenta comprobada en la hoja 5, 32:37-33:22). Ciclo 3: sin cortar (deno colgado)"
                      },
                      {
                          "fuente":  "rlluMwJXbqg",
-                         "inicio":  2790,
-                         "fin":  2830,
+                         "inicio":  2793,
+                         "fin":  2833,
                          "estado":  "propuesto",
                          "clip":  "2026-11-20-gta6-real-workouts",
                          "variante_de":  null,
-                         "motivo":  "70, detalle. Gancho: \"GTA 6 has real workouts now\". Sin cortar: candado tomado"
+                         "motivo":  "70, detalle. -Subs ninguno. Gancho: \"GTA 6 has real workouts now\". Hoja 7: pesa rusa en la terraza 46:37-47:07; el mapa entra hacia 47:15, no pasar de 2833. Ciclo 3: sin cortar (deno colgado)"
                      },
                      {
                          "fuente":  "rlluMwJXbqg",
@@ -651,16 +653,16 @@
                          "estado":  "propuesto",
                          "clip":  "2026-11-20-gta6-swamp-gunfight",
                          "variante_de":  null,
-                         "motivo":  "69, accion, SPOILER leve. Gancho: \"GTA 6 gunfights hit different\". Sin cortar: candado tomado"
+                         "motivo":  "69, accion, SPOILER leve. -Subs rev. Gancho: \"GTA 6 gunfights hit different\". Ciclo 3: sin cortar (deno colgado)"
                      },
                      {
                          "fuente":  "rlluMwJXbqg",
                          "inicio":  1113,
-                         "fin":  1152,
+                         "fin":  1155,
                          "estado":  "propuesto",
                          "clip":  "2026-11-20-gta6-airdrop-boat-run",
                          "variante_de":  null,
-                         "motivo":  "68, paisaje y barco, SPOILER leve. Gancho: \"Catching airdrops by boat in GTA 6\". Sin cortar: candado tomado"
+                         "motivo":  "68, paisaje y barco, SPOILER leve. -Subs rev. Gancho: \"Catching airdrops by boat in GTA 6\". Salida a 1155 para cerrar la frase ('...as soon as we get off this boat'). Ciclo 3: sin cortar (deno colgado)"
                      },
                      {
                          "fuente":  "rlluMwJXbqg",
@@ -669,7 +671,7 @@
                          "estado":  "propuesto",
                          "clip":  null,
                          "variante_de":  null,
-                         "motivo":  "por comprobar: en el dialogo hablan de un \u0027stripy\u0027 (tigre) en la jaula del campamento; si al cortar se ve el tigre, ~70 con gancho \"There are tigers in GTA 6\""
+                         "motivo":  "por comprobar: en el dialogo hablan de un \u0027stripy\u0027 (tigre) en la jaula del campamento; si al cortar se ve el tigre, ~70 con gancho \"There are tigers in GTA 6\". Ciclo 3: en la hoja 4 (cada 15 s) no se ve el tigre en 25:07-25:52; cortarlo con -Subs rev (id 2026-11-20-gta6-tigers-in-gta6) y mirar el clip con mas cuadros antes de decidir"
                      },
                      {
                          "fuente":  "konZi0msk6A",
@@ -678,7 +680,7 @@
                          "estado":  "propuesto",
                          "clip":  "2026-11-20-gta6-beach-camp-brawl",
                          "variante_de":  null,
-                         "motivo":  "72, humor y NPCs. Gancho: \"Never crash a beach camp in GTA 6\". Pelea a punos en un campamento de playa; comprobar con revision.jpg. Sin cortar: candado tomado"
+                         "motivo":  "72, humor y NPCs. -Subs ninguno. Gancho: \"Never crash a beach camp in GTA 6\". Pelea a punos en un campamento de playa (hoja 2: 6:54 llega, 7:04-7:14 pelea, 7:24-7:34 NPC en el suelo). Ciclo 3: sin cortar (deno colgado)"
                      },
                      {
                          "fuente":  "konZi0msk6A",
@@ -687,16 +689,16 @@
                          "estado":  "propuesto",
                          "clip":  "2026-11-20-gta6-kayak-the-keys",
                          "variante_de":  null,
-                         "motivo":  "70, paisaje. Gancho: \"Kayaking the Keys in GTA 6 looks unreal\". Sin cortar: candado tomado"
+                         "motivo":  "70, paisaje. -Subs ninguno. Gancho: \"Kayaking the Keys in GTA 6 looks unreal\" (hoja 1: 2:54-3:54 en kayak). Ciclo 3: sin cortar (deno colgado)"
                      },
                      {
                          "fuente":  "konZi0msk6A",
                          "inicio":  40,
-                         "fin":  65,
+                         "fin":  63,
                          "estado":  "propuesto",
-                         "clip":  null,
+                         "clip":  "2026-11-20-gta6-jason-pet-snake",
                          "variante_de":  null,
-                         "motivo":  "65 (en el umbral): la serpiente mascota en el terrario de la casa de Jason. Gancho posible: \"Jason has a pet snake in GTA 6\""
+                         "motivo":  "65 (en el umbral, se corta): la serpiente en el terrario de la casa (hoja 1: 0:44-0:54). -Subs ninguno. Gancho: \"Jason has a pet snake in GTA 6\". Ciclo 3: sin cortar (deno colgado)"
                      }
                  ]
 }
