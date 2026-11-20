@@ -13,6 +13,7 @@
 // propio audio: se detectan sus pausas y cada palabra recibe su parte del tramo.
 //
 // Sale con codigo 3 si el guion pide voz grabada y la grabacion todavia no esta.
+// Un guion de video largo ("tipo": "largo", con "capitulos") se aplana con largo.mjs.
 
 import { spawnSync } from "node:child_process";
 import crypto from "node:crypto";
@@ -20,6 +21,7 @@ import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { aplanarLargo, esLargo } from "./largo.mjs";
 
 const AQUI = path.dirname(fileURLToPath(import.meta.url));
 const ANIMADOS = path.resolve(AQUI, "..");
@@ -104,7 +106,11 @@ if (!carpeta || !fs.existsSync(path.join(carpeta, "guion.json"))) {
   console.error("Uso: node animados/herramientas/voz.mjs <carpeta-del-video>  (debe tener guion.json)");
   process.exit(1);
 }
-const guion = JSON.parse(fs.readFileSync(path.join(carpeta, "guion.json"), "utf8"));
+const guionLeido = JSON.parse(fs.readFileSync(path.join(carpeta, "guion.json"), "utf8"));
+// Video largo de YouTube ("tipo": "largo", ver largo.mjs): sus capitulos se leen como una sola
+// lista de frases; la "escena" de cada frase es su tramo de imagen y cada tarjeta de capitulo
+// pone una pausa en la frase anterior. Cache y tope de ElevenLabs funcionan igual.
+const guion = esLargo(guionLeido) ? aplanarLargo(guionLeido) : guionLeido;
 // "grabada": una persona lee todo el guion de una vez; se corta en frases (ver mas abajo).
 // "kokoro": la voz local y gratis. "higgsfield": voz de Higgsfield (gasta creditos de la
 // cuenta con la que se inicio sesion en su CLI). "externo": la voz viene ya grabada o

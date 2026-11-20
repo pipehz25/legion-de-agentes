@@ -223,6 +223,120 @@ Si un tema necesita otra, dibújala y agrégala ahí con las mismas reglas; que 
 
 Igual que en la serie de venta, dos videos seguidos de la misma cuenta no repiten formato ni paleta. Los tres videos de [propios/](propios/) que empiezan por `prueba-` sirven de muestra de cada tema; su voz es Kokoro (solo para cronometrar) y no se publican.
 
+## Videos largos (YouTube horizontal)
+
+Además de los Shorts, el Narrador hace **documentales largos para YouTube**: horizontales (1920×1080, 30 fps), de 8 a 20 minutos, hechos sobre todo con **imágenes de archivo** de Wikimedia Commons que se mueven despacio (efecto Ken Burns), narrados con voz de IA, con una **tarjeta de apertura** (título del video y capítulo 1) y una **tarjeta por capítulo**. No usan plantillas ni escenas: el guion dice qué imagen se ve con cada frase y `producir.mjs` hace el resto con [herramientas/largo.mjs](herramientas/largo.mjs). La muestra es [propios/prueba-largo/guion.json](propios/prueba-largo/guion.json) (voz Kokoro, no se publica).
+
+### Comandos
+
+```powershell
+node animados/herramientas/producir.mjs animados/propios/<id>               # voz, imágenes, textos, miniatura, tarjetas, tramos y MP4
+node animados/herramientas/producir.mjs animados/propios/<id> --sin-render  # todo menos el MP4: sirve para revisar voz, licencias, capítulos y miniatura
+node animados/herramientas/producir.mjs --todos                             # también incluye los largos sin MP4 o con el guion cambiado
+```
+
+Se reconoce por `"tipo": "largo"` en el guion. La entrega queda en `salidas/narrador/<id>/`:
+
+| Archivo | Qué es |
+|---|---|
+| `<id>.mp4` | El video, con la voz a −14 LUFS (lo que usa YouTube) |
+| `<id>.srt` | Subtítulos para subir aparte: hasta 2 líneas de 42 caracteres y 6 s por subtítulo, sacados de los tiempos de cada palabra |
+| `miniatura.jpg` | 1280×720: la imagen elegida y el texto grande, en negrita y con contorno, legible en chico |
+| `descripcion.txt` | Título de YouTube, descripción, capítulos con su minuto, fuentes, créditos de las imágenes y hashtags. Se pega tal cual |
+| `creditos-imagenes.md` | Autor, licencia, enlace y minutos en que aparece cada imagen |
+| `fuentes.md`, `publicacion.txt`, `meta.json` | Como en los Shorts; `meta.json` lleva `"tipo": "largo"`, los capítulos y cuánto tardó la producción |
+
+### Guion
+
+Vive en `animados/propios/<id>/guion.json`. Los campos marcados como opcionales tienen un valor por defecto razonable.
+
+```json
+{
+  "tipo": "largo",
+  "titulo": "¿Cómo perdió Colombia a Panamá?",
+  "nicho": "historia",
+  "motor": "elevenlabs", "voz": "C12mZePhNoo0RoTXhSFV", "modelo_voz": "eleven_multilingual_v2", "tope_caracteres": 9000,
+  "pausa": 0.35,
+  "estilo": { "tema": "archivo" },
+  "miniatura": { "texto": "ASÍ PERDIMOS PANAMÁ", "imagen": "<clave de imagenes>" },
+  "publicacion": { "titulo_youtube": "...", "descripcion": "...", "hashtags": ["historia"] },
+  "fuentes": [ { "dato": "...", "fuente": "...", "url": "..." } ],
+  "imagenes": {
+    "<clave>": { "commons": "File:Nombre exacto.jpg", "que_muestra": "...", "encuadre": "arriba", "movimiento": "acercar" },
+    "<otra>": { "archivo": "assets/mapa.png", "que_muestra": "...", "credito": "Mapa propio" }
+  },
+  "capitulos": [
+    { "id": "c0", "titulo": "", "frases": [ { "id": "f1", "texto": "...", "imagen": "<clave>" } ] },
+    { "id": "c1", "titulo": "El sueño del canal", "frases": [ { "id": "f5", "texto": "...", "imagen": "<clave>" }, { "id": "f6", "texto": "..." } ] }
+  ]
+}
+```
+
+- **Capítulos.** El primero, sin `titulo`, es el **gancho** (sin tarjeta). El primer capítulo con título abre con la **tarjeta de apertura**: el título del video y, debajo, «Capítulo I · su título». Cada capítulo siguiente abre con su tarjeta («Capítulo II» y el título). Los títulos de capítulo, de 2 a 5 palabras.
+- **Frases.** Los `id` no se repiten en todo el video. Una frase sin `imagen` sigue con la imagen anterior: las frases seguidas con la misma imagen forman un **tramo**. Una imagen se puede repetir en lugares distintos. Una frase con `"subtitulos": false` no sale en el `.srt`.
+- **Imágenes.** `commons` es el nombre exacto del archivo en Commons (el que sale en la página del archivo, con `File:` y la extensión; también vale sin `File:`). `archivo` es una imagen propia dentro de la carpeta del video; su `credito` (opcional) sale en los créditos. `que_muestra` va en los créditos y en la descripción.
+- **`encuadre`** (opcional): `centro` (por defecto), `arriba`, `abajo`, `izquierda` o `derecha`. Dice dónde está lo importante: si la imagen se recorta, se conserva esa parte, y el acercamiento va hacia ahí (en un retrato, `arriba` es la cara).
+- **`movimiento`** (opcional): `acercar`, `alejar`, `izquierda` o `derecha` (la cámara se desliza en esa dirección). Sin él, los tramos alternan los cuatro. Siempre es lento: el acercamiento llega a un 5-14 % según lo que dure el tramo, y el deslizamiento va a unos 38 px por segundo.
+- **`ajuste`** (opcional): `cubrir` o `contener`. Por defecto, una imagen con proporción entre 1,5 y 2,1 (casi 16:9) **cubre** el cuadro recortando un poco; las demás (retratos, cuadradas, panorámicas) van **enteras sobre una copia desenfocada y oscurecida de sí mismas**, con una sombra suave: nunca barras negras ni imágenes estiradas.
+
+Campos opcionales del guion largo:
+
+| Campo | Por defecto | Qué hace |
+|---|---|---|
+| `pausa_capitulo` | 1,2 | Segundos de silencio de la voz antes de un capítulo (la tarjeta se ve encima) |
+| `pausa_titulo` | 2,0 | Segundos de silencio entre el gancho y el capítulo 1 |
+| `duracion_tarjeta` | 3,0 | Cuánto se ve la tarjeta de un capítulo (la voz del capítulo empieza mientras se ve) |
+| `duracion_titulo` | 4,5 | Cuánto se ve la tarjeta de apertura |
+| `fundido` | 0,5 | Segundos del fundido entre imágenes y tarjetas |
+| `fundido_final` | 1,2 | Fundido a negro al final |
+| `cola` | 2,5 | Segundos de imagen después de la última frase |
+| `subtitulos_quemados` | `false` | `true` quema los subtítulos en el video (recodifica todo: tarda más) |
+| `miniatura.lado` | `izquierda` | De qué lado va el texto de la miniatura; la imagen queda del otro |
+| `miniatura.resalta` | la última línea | Número de línea (desde 0) del texto que va en dorado |
+| `miniatura.encuadre` | el de la imagen | Qué parte de la imagen se ve en la miniatura |
+| `capitulos[].etiqueta` | su título (en el gancho, «Introducción») | Cómo se llama ese capítulo en la lista de la descripción |
+| `entrega` | `narrador` | Carpeta de `salidas/` donde se entrega |
+
+En `miniatura.texto` una barra (`|`) parte las líneas a mano: `"ASÍ PERDIMOS | PANAMÁ"`. Sin barra, se reparte solo en 1 a 3 líneas.
+
+### Cómo se arma
+
+1. **Voz.** `voz.mjs` lee los capítulos como una sola lista de frases (cada tramo es una «escena») y deja `assets/narracion.wav` y `tiempos.json`, igual que en los Shorts: misma caché, mismo tope y misma comprobación con whisper. Antes de cada tarjeta, la frase anterior lleva la pausa del capítulo.
+2. **Imágenes.** Se consultan en Commons de una vez (40 por pedido) y se revisa la licencia de todas **antes de bajar nada**. Se bajan de a una, con pausas, a `animados/.imagenes-cache/` (no va a GitHub); la siguiente vez no se vuelve a pedir nada.
+3. **Tramos.** Cada imagen se compone una vez en un lienzo de 2304×1296 (1,2 veces el cuadro). El movimiento recorta dentro del lienzo con el filtro `perspective` de ffmpeg, que trabaja con precisión de subpíxel: sale **sin temblor** (`zoompan` redondea a píxeles enteros y tiembla). Cada tramo es un MP4 aparte con su fundido hacia el siguiente; se hacen varios a la vez y los que no cambiaron se reusan (`<id>/largo/tramos/`).
+4. **Tarjetas y miniatura.** Con HyperFrames, en el aspecto del tema del guion (`archivo`: papel envejecido, marco doble en oro viejo, «Capítulo II» en rojo lacre con EB Garamond y el título en Playfair Display 900). Todas las tarjetas salen de un solo render; la miniatura, de una captura.
+5. **Unión.** Los tramos se pegan sin recodificar y se les pone la voz, nivelada a −14 LUFS con dos pasadas de `loudnorm`.
+
+Todo lo intermedio queda en `animados/propios/<id>/largo/` (no va a GitHub; la carpeta del video solo versiona `guion.json` y las imágenes propias que pida el guion).
+
+### Licencias de las imágenes
+
+- **Solo se aceptan** dominio público, CC0, CC BY y CC BY-SA (cualquier versión). Con cualquier otra (CC BY-NC, CC BY-ND, GFDL sola, «sin restricciones conocidas», uso legítimo…), `producir.mjs` **se detiene** y lista las imágenes problemáticas con su licencia y su página. La licencia se lee de los metadatos de Commons al producir.
+- **CC BY y CC BY-SA obligan a citar** autor y licencia: `descripcion.txt` los trae completos (autor, licencia con su enlace y página del archivo). Las de dominio público y CC0 se citan por cortesía; si la descripción pasaría de los 5.000 caracteres que admite YouTube, esas se acortan solas (primero sin enlace, después en una sola línea). `creditos-imagenes.md` siempre trae todo.
+- Si Commons marca **restricciones** en un archivo (derechos de imagen de una persona, marca registrada), sale un aviso: revisa su página antes de publicar.
+- Que una pintura de 1805 esté en dominio público no vuelve libre una foto actual de un museo que la reproduzca con otra licencia: usa el archivo que Commons declara en dominio público.
+- **Cómo buscar:** en [commons.wikimedia.org](https://commons.wikimedia.org) busca el tema, abre el archivo y copia su nombre (`File:...`). Mira la licencia en la página y prefiere archivos grandes (2000 px o más): uno chico se agranda y se ve borroso (sale un aviso si se agranda más de 1,6 veces).
+- **Pedidos a Wikimedia:** van con un User-Agent genérico (`LegionNarrador/1.0 (videos educativos)`), sin datos de nadie. Wikimedia limita mucho a los clientes que no dejan un contacto: probado el 2026-11-19, **los originales** (`upload.wikimedia.org`) contestaban «demasiados pedidos» con una espera de 120 s, y **las miniaturas de tamaño estándar** (`thumb.wikimedia.org`) bajaban sin problema. Por eso se baja la mayor miniatura estándar más chica que el original: 3840 px si el original es más grande, y si no 1920, 1280, 960 o 500 px (para un cuadro de 1920×1080 sobra). Si aun así Wikimedia contesta «demasiados pedidos», el script espera lo que pida (hasta 3 intentos) y, si sigue, se detiene sin perder lo ya bajado. Si se vuelve un problema, la persona puede poner su propio User-Agent, con un contacto, en la variable `LEGION_COMMONS_UA`.
+
+### Costo de la voz
+
+ElevenLabs cobra por carácter: **10 minutos de narración son unos 8.000 a 9.000 caracteres** (de 1.300 a 1.500 palabras). Pon `tope_caracteres` un poco por encima de lo que mida el guion (`voz.mjs` cuenta antes de generar y no sigue si se pasa) y revisa el guion con Kokoro (`"motor": "kokoro"`, gratis) antes de gastar. Cada frase se paga una sola vez (`animados/.voz-cache/`): cambiar una frase solo cobra esa frase, y cambiar imágenes, capítulos o tarjetas no cobra nada.
+
+### Rendimiento
+
+El render se reparte en tramos que corren en paralelo (un tramo por cada 3 hilos del procesador; `LEGION_TRAMOS_A_LA_VEZ` lo cambia). Medido el 2026-11-19 en la PC de Santiago (portátil con Windows, 16 hilos, 5 tramos a la vez):
+
+| Video | Primera vez | Qué se lleva el tiempo |
+|---|---|---|
+| 10:55 sintético (123 frases, 8 capítulos, 66 tramos de imagen) | **5 min 21 s** | tramos 3 min 37 s, tarjetas 40 s, voz 34 s, unión 23 s |
+| `prueba-largo` (1:30, 3 capítulos, 10 imágenes) | 81 s | tarjetas 38 s, tramos 36 s |
+
+Más o menos la mitad del largo del video; en una PC con la mitad de hilos, cuenta el doble. Poner 8 tramos a la vez casi no ayuda (el trabajo ya ocupa el procesador). Cada producción imprime sus «Tiempos» y deja `tiempo_produccion_s` en `meta.json`. Volver a producir reusa lo que no cambió: cambiar una frase rehace la voz de esa frase y los tramos que se movieron; cambiar una tarjeta rehace las tarjetas y los tramos que las tocan (en la muestra, 42 s en total).
+
+### Mac
+
+No usa nada exclusivo de Windows: ffmpeg y ffprobe se buscan primero en `herramientas/bin/` y después en el PATH (`brew install ffmpeg`), whisper como dice «Instalación», y HyperFrames por `npx`. Sin probar todavía en un Mac.
+
 ## Guion
 
 `guion.json`:
@@ -403,8 +517,11 @@ animados/
   herramientas/producir.mjs  todo de una vez: voz, montaje, revisión, render y entrega
   herramientas/voz.mjs       narración y tiempos por palabra
   herramientas/montaje.mjs   index.html, escenas de plantilla y subtítulos
+  herramientas/temas.mjs     temas visuales del Narrador (archivo, laboratorio, pizarra)
+  herramientas/largo.mjs     videos largos de YouTube (imágenes, tramos, tarjetas, miniatura)
   herramientas/capturas.mjs  hojas de capturas para revisar
   herramientas/subtitulos.mjs
+  .imagenes-cache/           imágenes de Wikimedia Commons de los videos largos (no va a GitHub)
   plantillas/                escenas reutilizables e iconos
   plantillas/ilustraciones.json  dibujos de los videos propios (Narrador)
   contenido/NARRADOR.md      método de los videos propios

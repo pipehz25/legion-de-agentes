@@ -18,6 +18,12 @@ videos/*/assets/narracion.wav
 # Voz ya pagada, guardada por texto y voz (se regenera si falta)
 .voz-cache/
 
+# Videos largos de YouTube (largo.mjs): imagenes bajadas de Wikimedia Commons (con su ficha de
+# licencia) y el trabajo de cada video (lienzos, tramos renderizados, tarjetas, miniatura).
+# Cada carpeta de video largo trae ademas su propio .gitignore (solo guion e imagenes propias).
+.imagenes-cache/
+propios/*/largo/
+
 # Voz grabada: el audio de cada persona y las frases para leer se quedan en la PC
 videos/*/grabacion.*
 videos/*/para-grabar.txt

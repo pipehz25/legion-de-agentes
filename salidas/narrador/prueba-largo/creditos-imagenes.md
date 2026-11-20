@@ -1,0 +1,16 @@
+# Créditos de las imágenes: Napoleón: de Córcega a Santa Elena
+
+Imágenes de Wikimedia Commons con licencia libre (dominio público, CC0, CC BY o CC BY-SA), comprobada al producir el video. Las CC BY y CC BY-SA exigen citar al autor y la licencia: van en la descripción de YouTube.
+
+| Imagen | Qué muestra | Autor | Licencia | Fuente | Aparece en |
+|---|---|---|---|---|---|
+| coronacion | La coronación de Napoleón, de Jacques-Louis David | Jacques-Louis David / Georges Rouget | Dominio público | [File:Jacques-Louis David - The Coronation of Napoleon (1805-1807).jpg](https://commons.wikimedia.org/wiki/File:Jacques-Louis_David_-_The_Coronation_of_Napoleon_(1805-1807).jpg) | 00:00, 00:45 |
+| ajaccio | La casa natal de Napoleón en Ajaccio | febs | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) | [File:Ajaccio Maison de naissance de Napoléon.jpg](https://commons.wikimedia.org/wiki/File:Ajaccio_Maison_de_naissance_de_Napol%C3%A9on.jpg) | 00:15 |
+| arcole | Bonaparte en el puente de Arcole, de Antoine-Jean Gros | Antoine-Jean Gros | Dominio público | [File:1801 Antoine-Jean Gros - Bonaparte on the Bridge at Arcole.jpg](https://commons.wikimedia.org/wiki/File:1801_Antoine-Jean_Gros_-_Bonaparte_on_the_Bridge_at_Arcole.jpg) | 00:28 |
+| alpes | Napoleón cruzando los Alpes, de Jacques-Louis David | Jacques-Louis David | Dominio público | [File:David - Napoleon crossing the Alps - Malmaison2.jpg](https://commons.wikimedia.org/wiki/File:David_-_Napoleon_crossing_the_Alps_-_Malmaison2.jpg) | 00:41 |
+| austerlitz | La batalla de Austerlitz, de François Gérard | François Gérard | Dominio público | [File:La bataille d'Austerlitz. 2 decembre 1805 (François Gérard).jpg](https://commons.wikimedia.org/wiki/File:La_bataille_d%27Austerlitz._2_decembre_1805_(Fran%C3%A7ois_G%C3%A9rard).jpg) | 00:51 |
+| estudio | Napoleón en su estudio de las Tullerías, de Jacques-Louis David | Jacques-Louis David | Dominio público | [File:Jacques-Louis David - The Emperor Napoleon in His Study at the Tuileries - Google Art Project.jpg](https://commons.wikimedia.org/wiki/File:Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg) | 00:56 |
+| moscu | La retirada de Moscú, de Adolph Northen | Adolph Northen | Dominio público | [File:Napoleons retreat from Moscow by Adolph Northen.jpg](https://commons.wikimedia.org/wiki/File:Napoleons_retreat_from_Moscow_by_Adolph_Northen.jpg) | 01:03 |
+| fontainebleau | Napoleón en Fontainebleau, de Paul Delaroche | Paul Delaroche | Dominio público | [File:Napoleon at Fontainebleau, 31 March 1814 (by Hippolyte Paul Delaroche).jpg](https://commons.wikimedia.org/wiki/File:Napoleon_at_Fontainebleau,_31_March_1814_(by_Hippolyte_Paul_Delaroche).jpg) | 01:11 |
+| waterloo | La batalla de Waterloo, de William Sadler | William Sadler | Dominio público | [File:Battle of Waterloo 1815.PNG](https://commons.wikimedia.org/wiki/File:Battle_of_Waterloo_1815.PNG) | 01:16 |
+| santa-elena | Longwood House, la casa de Santa Elena donde murió | Michel Dancoisne-Martineau | [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en) | [File:Longwood House le 12 janvier 2008.jpg](https://commons.wikimedia.org/wiki/File:Longwood_House_le_12_janvier_2008.jpg) | 01:22 |

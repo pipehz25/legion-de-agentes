@@ -19,11 +19,17 @@
 // Voz grabada ("motor": "grabada"): deja en la carpeta del video para-grabar.txt (las frases
 // que hay que leer) y, mientras no este la grabacion, el video queda "esperando grabacion"
 // (no es un error). salidas/animador/por-grabar.md junta todos los que esperan.
+//
+// Video largo de YouTube ("tipo": "largo" en el guion): lo hace largo.mjs (horizontal, imagenes
+// de archivo con movimiento, tarjetas de capitulo). Entrega el MP4, <video>.srt, miniatura.jpg,
+// descripcion.txt, creditos-imagenes.md, fuentes.md, publicacion.txt y meta.json; con
+// --sin-render, todo menos el MP4 (y sin meta.json).
 
 import { spawnSync } from "node:child_process";
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { aplanarLargo, esLargo, produceLargo } from "./largo.mjs";
 
 const AQUI = path.dirname(fileURLToPath(import.meta.url));
 const ANIMADOS = path.resolve(AQUI, "..");
@@ -66,7 +72,8 @@ const COMO_GRABAR = [
 ];
 
 function frasesParaLeer(guion) {
-  return guion.frases.map((f, i) => `${i + 1}. ${f.texto}`);
+  const frases = esLargo(guion) ? aplanarLargo(guion).frases : guion.frases;
+  return frases.map((f, i) => `${i + 1}. ${f.texto}`);
 }
 
 function escribeParaGrabar(carpeta, guion) {
@@ -218,7 +225,7 @@ if (todos) {
   carpetas = Object.values(CARPETAS)
     .filter((dir) => fs.existsSync(dir))
     .flatMap((dir) => fs.readdirSync(dir).map((n) => path.join(dir, n)))
-    .filter((c) => fs.existsSync(path.join(c, "guion.json")) && leeGuion(c).escenas)
+    .filter((c) => fs.existsSync(path.join(c, "guion.json")) && (leeGuion(c).escenas || esLargo(leeGuion(c))))
     .filter(pendiente);
   if (!carpetas.length) console.log("No hay videos pendientes: todos tienen su MP4 al dia en salidas/.");
 }
@@ -236,7 +243,14 @@ for (const carpeta of carpetas) {
     continue;
   }
   try {
-    const hecho = produce(carpeta);
+    const guion = leeGuion(carpeta);
+    let hecho;
+    if (esLargo(guion)) {
+      if (guion.motor === "grabada") escribeParaGrabar(carpeta, guion);
+      hecho = await produceLargo(carpeta, { sinRender });
+    } else {
+      hecho = produce(carpeta);
+    }
     (hecho.esperando ? esperando : hechos).push(hecho);
   } catch (e) {
     console.error(String(e.message || e));
@@ -255,13 +269,16 @@ function catalogo(entrega) {
       const texto = fs.existsSync(path.join(base, n, "publicacion.txt")) ? fs.readFileSync(path.join(base, n, "publicacion.txt"), "utf8").trim() : "";
       return {
         id: meta.id,
+        ...(meta.tipo ? { tipo: meta.tipo } : {}),
         titulo: meta.titulo,
         duracion_s: meta.duracion_s,
         producido: meta.producido,
         video: `salidas/${entrega}/${n}/${meta.video}`,
-        portada: `salidas/${entrega}/${n}/portada.jpg`,
+        portada: `salidas/${entrega}/${n}/${meta.portada || "portada.jpg"}`,
         ...(fs.existsSync(path.join(base, n, "textos.md")) ? { textos: `salidas/${entrega}/${n}/textos.md` } : {}),
         ...(fs.existsSync(path.join(base, n, "fuentes.md")) ? { fuentes: `salidas/${entrega}/${n}/fuentes.md` } : {}),
+        ...(meta.descripcion ? { descripcion: `salidas/${entrega}/${n}/${meta.descripcion}` } : {}),
+        ...(meta.subtitulos ? { subtitulos: `salidas/${entrega}/${n}/${meta.subtitulos}` } : {}),
         video_en_esta_pc: fs.existsSync(path.join(base, n, meta.video)),
         publicacion: texto,
       };

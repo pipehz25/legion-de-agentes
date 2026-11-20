@@ -1,0 +1,52 @@
+{
+  "id": "hi-panama",
+  "tipo": "largo",
+  "titulo": "¿Cómo perdió Colombia a Panamá? Un canal, un francés y tres días",
+  "duracion_s": 555.8,
+  "volumen": "I: -14.0 LUFS",
+  "voz": "elevenlabs / C12mZePhNoo0RoTXhSFV",
+  "capitulos": [
+    {
+      "inicio": "00:00",
+      "titulo": "Introducción"
+    },
+    {
+      "inicio": "00:28",
+      "titulo": "El sueño del canal"
+    },
+    {
+      "inicio": "01:46",
+      "titulo": "Un país en guerra"
+    },
+    {
+      "inicio": "02:42",
+      "titulo": "Nicaragua o Panamá"
+    },
+    {
+      "inicio": "03:54",
+      "titulo": "El tratado que Bogotá rechazó"
+    },
+    {
+      "inicio": "05:03",
+      "titulo": "Tres días de noviembre"
+    },
+    {
+      "inicio": "06:43",
+      "titulo": "Un tratado firmado por un francés"
+    },
+    {
+      "inicio": "07:32",
+      "titulo": "Las cuentas pendientes"
+    }
+  ],
+  "imagenes": 38,
+  "subtitulos_quemados": false,
+  "avisos": 10,
+  "tiempo_produccion_s": 299,
+  "producido": "2026-11-20T02:58:31.048Z",
+  "video": "hi-panama.mp4",
+  "portada": "miniatura.jpg",
+  "subtitulos": "hi-panama.srt",
+  "descripcion": "descripcion.txt",
+  "guion": "animados/propios/hi-panama/guion.json"
+}

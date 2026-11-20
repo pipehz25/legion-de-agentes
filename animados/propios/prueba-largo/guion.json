@@ -1,0 +1,72 @@
+{
+  "tipo": "largo",
+  "titulo": "Napoleón: de Córcega a Santa Elena",
+  "nicho": "historia",
+  "nota": "Muestra del modo de video largo para YouTube (3 capítulos, unos 90 s). La voz Kokoro es solo para probar y cronometrar: no se publica.",
+  "motor": "kokoro",
+  "voz": "em_alex",
+  "velocidad": 1,
+  "pausa": 0.35,
+  "estilo": {"tema": "archivo"},
+  "miniatura": {"texto": "De Córcega | a emperador", "imagen": "alpes", "lado": "izquierda"},
+  "publicacion": {
+    "titulo_youtube": "Napoleón: de una isla en Córcega a emperador de Europa (y su caída)",
+    "descripcion": "Cómo un joven nacido en Córcega llegó a coronarse emperador de los franceses, y cómo lo perdió todo entre Rusia, Elba y Waterloo. Video de prueba del formato largo.",
+    "hashtags": ["historia", "napoleon", "documental"]
+  },
+  "fuentes": [
+    {"dato": "Nació en Ajaccio (Córcega) el 15 de agosto de 1769; Génova había cedido la isla a Francia en 1768; salió de la Escuela Militar como subteniente de artillería en 1785, con 16 años", "fuente": "Encyclopaedia Britannica, «Napoleon I»", "url": "https://www.britannica.com/biography/Napoleon-I"},
+    {"dato": "Mando del ejército de Italia en marzo de 1796; golpe del 18 de brumario y consulado en 1799; coronación en Notre Dame el 2 de diciembre de 1804; Austerlitz el 2 de diciembre de 1805", "fuente": "Encyclopaedia Britannica, «Napoleon I»", "url": "https://www.britannica.com/biography/Napoleon-I"},
+    {"dato": "Invasión de Rusia y retirada de 1812; abdicación y exilio en Elba en 1814; regreso y derrota de Waterloo en 1815; muerte en Santa Elena el 5 de mayo de 1821", "fuente": "Encyclopaedia Britannica, «Napoleon I»", "url": "https://www.britannica.com/biography/Napoleon-I"}
+  ],
+  "imagenes": {
+    "coronacion": {"commons": "File:Jacques-Louis David - The Coronation of Napoleon (1805-1807).jpg", "que_muestra": "La coronación de Napoleón, de Jacques-Louis David"},
+    "ajaccio": {"commons": "File:Ajaccio Maison de naissance de Napoléon.jpg", "que_muestra": "La casa natal de Napoleón en Ajaccio"},
+    "arcole": {"commons": "File:1801 Antoine-Jean Gros - Bonaparte on the Bridge at Arcole.jpg", "que_muestra": "Bonaparte en el puente de Arcole, de Antoine-Jean Gros", "encuadre": "arriba"},
+    "alpes": {"commons": "File:David - Napoleon crossing the Alps - Malmaison2.jpg", "que_muestra": "Napoleón cruzando los Alpes, de Jacques-Louis David", "encuadre": "arriba", "movimiento": "acercar"},
+    "austerlitz": {"commons": "File:La bataille d'Austerlitz. 2 decembre 1805 (François Gérard).jpg", "que_muestra": "La batalla de Austerlitz, de François Gérard", "movimiento": "derecha"},
+    "estudio": {"commons": "File:Jacques-Louis David - The Emperor Napoleon in His Study at the Tuileries - Google Art Project.jpg", "que_muestra": "Napoleón en su estudio de las Tullerías, de Jacques-Louis David", "encuadre": "arriba", "movimiento": "acercar"},
+    "moscu": {"commons": "File:Napoleons retreat from Moscow by Adolph Northen.jpg", "que_muestra": "La retirada de Moscú, de Adolph Northen"},
+    "fontainebleau": {"commons": "File:Napoleon at Fontainebleau, 31 March 1814 (by Hippolyte Paul Delaroche).jpg", "que_muestra": "Napoleón en Fontainebleau, de Paul Delaroche", "encuadre": "arriba"},
+    "waterloo": {"commons": "File:Battle of Waterloo 1815.PNG", "que_muestra": "La batalla de Waterloo, de William Sadler"},
+    "santa-elena": {"commons": "File:Longwood House le 12 janvier 2008.jpg", "que_muestra": "Longwood House, la casa de Santa Elena donde murió"}
+  },
+  "capitulos": [
+    {
+      "id": "c0", "titulo": "",
+      "frases": [
+        {"id": "f1", "texto": "Nació en una isla que acababa de pasar a manos de Francia, y terminó coronándose emperador de los franceses.", "imagen": "coronacion"},
+        {"id": "f2", "texto": "Esta es la historia de cómo Napoleón Bonaparte lo ganó casi todo, y de cómo lo perdió."}
+      ]
+    },
+    {
+      "id": "c1", "titulo": "El joven de Córcega",
+      "frases": [
+        {"id": "f3", "texto": "Napoleón nació en Ajaccio, en la isla de Córcega, en agosto de 1769.", "imagen": "ajaccio"},
+        {"id": "f4", "texto": "Apenas un año antes, la isla había pasado de Génova a Francia."},
+        {"id": "f5", "texto": "Estudió en escuelas militares francesas y salió oficial de artillería con dieciséis años."},
+        {"id": "f6", "texto": "En 1796, con veintiséis años, recibió el mando del ejército de Italia.", "imagen": "arcole"},
+        {"id": "f7", "texto": "Sus victorias allí lo volvieron famoso en toda Francia."}
+      ]
+    },
+    {
+      "id": "c2", "titulo": "El emperador",
+      "frases": [
+        {"id": "f8", "texto": "En 1799 tomó el poder con un golpe de Estado y se convirtió en primer cónsul.", "imagen": "alpes"},
+        {"id": "f9", "texto": "Cinco años después, en diciembre de 1804, se coronó emperador en Notre Dame de París.", "imagen": "coronacion"},
+        {"id": "f10", "texto": "Al año siguiente derrotó a Austria y a Rusia en Austerlitz, su victoria más célebre.", "imagen": "austerlitz"},
+        {"id": "f11", "texto": "Llegó a dominar buena parte de Europa, directa o indirectamente.", "imagen": "estudio"}
+      ]
+    },
+    {
+      "id": "c3", "titulo": "La caída",
+      "frases": [
+        {"id": "f12", "texto": "En 1812 invadió Rusia con uno de los ejércitos más grandes que se habían visto.", "imagen": "moscu"},
+        {"id": "f13", "texto": "El invierno, el hambre y las enfermedades lo destrozaron durante la retirada."},
+        {"id": "f14", "texto": "En 1814 tuvo que abdicar y fue enviado a la isla de Elba.", "imagen": "fontainebleau"},
+        {"id": "f15", "texto": "Al año siguiente volvió al poder, pero cayó para siempre en Waterloo, en 1815.", "imagen": "waterloo"},
+        {"id": "f16", "texto": "Murió en 1821, desterrado en Santa Elena, una isla perdida en medio del Atlántico.", "imagen": "santa-elena"}
+      ]
+    }
+  ]
+}

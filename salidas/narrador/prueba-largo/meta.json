@@ -1,0 +1,36 @@
+{
+  "id": "prueba-largo",
+  "tipo": "largo",
+  "titulo": "Napoleón: de una isla en Córcega a emperador de Europa (y su caída)",
+  "duracion_s": 90.5,
+  "volumen": "I: -14.0 LUFS",
+  "voz": "kokoro / em_alex",
+  "capitulos": [
+    {
+      "inicio": "00:00",
+      "titulo": "Introducción"
+    },
+    {
+      "inicio": "00:11",
+      "titulo": "El joven de Córcega"
+    },
+    {
+      "inicio": "00:38",
+      "titulo": "El emperador"
+    },
+    {
+      "inicio": "01:00",
+      "titulo": "La caída"
+    }
+  ],
+  "imagenes": 10,
+  "subtitulos_quemados": false,
+  "avisos": 0,
+  "tiempo_produccion_s": 42.5,
+  "producido": "2026-11-20T02:23:32.800Z",
+  "video": "prueba-largo.mp4",
+  "portada": "miniatura.jpg",
+  "subtitulos": "prueba-largo.srt",
+  "descripcion": "descripcion.txt",
+  "guion": "animados/propios/prueba-largo/guion.json"
+}

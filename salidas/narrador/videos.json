@@ -1,6 +1,34 @@
 {
-  "actualizado": "2026-11-20T01:01:35.158Z",
+  "actualizado": "2026-11-20T03:00:13.354Z",
   "videos": [
+    {
+      "id": "hi-panama",
+      "tipo": "largo",
+      "titulo": "¿Cómo perdió Colombia a Panamá? Un canal, un francés y tres días",
+      "duracion_s": 555.8,
+      "producido": "2026-11-20T02:58:31.048Z",
+      "video": "salidas/narrador/hi-panama/hi-panama.mp4",
+      "portada": "salidas/narrador/hi-panama/miniatura.jpg",
+      "fuentes": "salidas/narrador/hi-panama/fuentes.md",
+      "descripcion": "salidas/narrador/hi-panama/descripcion.txt",
+      "subtitulos": "salidas/narrador/hi-panama/hi-panama.srt",
+      "video_en_esta_pc": true,
+      "publicacion": "¿Cómo perdió Colombia a Panamá? Un canal, un francés y tres días\n\n#historia #colombia #panama"
+    },
+    {
+      "id": "prueba-largo",
+      "tipo": "largo",
+      "titulo": "Napoleón: de una isla en Córcega a emperador de Europa (y su caída)",
+      "duracion_s": 90.5,
+      "producido": "2026-11-20T02:23:32.800Z",
+      "video": "salidas/narrador/prueba-largo/prueba-largo.mp4",
+      "portada": "salidas/narrador/prueba-largo/miniatura.jpg",
+      "fuentes": "salidas/narrador/prueba-largo/fuentes.md",
+      "descripcion": "salidas/narrador/prueba-largo/descripcion.txt",
+      "subtitulos": "salidas/narrador/prueba-largo/prueba-largo.srt",
+      "video_en_esta_pc": true,
+      "publicacion": "Napoleón: de una isla en Córcega a emperador de Europa (y su caída)\n\n#historia #napoleon #documental"
+    },
     {
       "id": "prueba-elevenlabs",
       "titulo": "¿Napoleón era bajito? Te lo contaron al revés.",
