@@ -77,7 +77,11 @@ try {
 
     # 2. Tiempos de cada palabra, desde el propio audio
     & $ffmpeg -v error -y -i 'voz.wav' -ar 16000 -ac 1 'voz16.wav'
-    & $whisper -m $modelo.FullName -f 'voz16.wav' -l ($Idioma -split '-')[0] -ml 1 -sow -oj -of 'palabras' -np 2>$null | Out-Null
+    # whisper escribe su progreso en stderr: en PowerShell 5.1 eso no debe contar como error
+    $ErrorActionPreference = 'Continue'
+    & $whisper -m $modelo.FullName -f 'voz16.wav' -l ($Idioma -split '-')[0] -ml 1 -sow -oj -of 'palabras' -np 2>&1 | Out-Null
+    $ErrorActionPreference = 'Stop'
+    if (-not (Test-Path 'palabras.json')) { throw 'whisper no produjo los tiempos de las palabras' }
     $palabras = @(([IO.File]::ReadAllText((Join-Path $trabajo 'palabras.json'), $utf8) | ConvertFrom-Json).transcription |
         Where-Object { $_.text.Trim() -and $_.text.Trim() -notmatch '^\[.*\]$' } |
         ForEach-Object { [pscustomobject]@{ a = $_.offsets.from / 1000.0 + $inicio; b = $_.offsets.to / 1000.0 + $inicio; w = $_.text.Trim() } })
