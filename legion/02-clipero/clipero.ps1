@@ -17,7 +17,7 @@
 #               capitulos), transcripcion.txt y palabras*.json (palabras con tiempo, para subtitular)
 #               Si la fuente no tiene subtitulos (Kick, Twitch, Instagram...), transcribe el audio en local con whisper.cpp
 #               (herramientas/bin/whisper + herramientas/modelos); el origen queda en resumen.json (transcripcion_origen).
-#   cortar   -Url <url> -Inicio <seg> -Fin <seg> -Id <clip-id> [-Gancho "<texto>"] [-Subs orig|es|ninguno|whisper|<sufijo>] [-Modo desenfoque|recorte]
+#   cortar   -Url <url> -Inicio <seg> -Fin <seg> -Id <clip-id> [-Gancho "<texto>"] [-Subs orig|es|ninguno|whisper|<sufijo>] [-Modo desenfoque|recorte|marco]
 #            [-Estilo clasico|amarillo|caja]
 #            -Subs whisper: transcribe con whisper solo el tramo del clip (fuentes sin subtitulos).
 #            -Estilo: aspecto de los subtitulos. clasico = blanco en mayusculas, 3 palabras por bloque (por defecto);
@@ -47,7 +47,7 @@ param(
     [string]$Gancho = '',
     [string]$Subs = 'orig',
     [ValidateSet(360,480,720,1080)][int]$AlturaFuente = 1080,
-    [ValidateSet('desenfoque', 'recorte')][string]$Modo = 'desenfoque',
+    [ValidateSet('desenfoque', 'recorte', 'marco')][string]$Modo = 'desenfoque',
     [ValidateSet('clasico', 'amarillo', 'caja')][string]$Estilo = 'clasico'
 )
 
@@ -516,7 +516,7 @@ if ($Accion -eq 'analizar') {
 
 # ---------------------------------------------------------------- cortar
 if (-not $Url -or -not $Id -or $Inicio -lt 0 -or $Fin -le $Inicio) {
-    throw 'Uso: cortar -Url <url> -Inicio <seg> -Fin <seg> -Id <clip-id> [-Gancho "<texto>"] [-Subs orig|es|ninguno] [-Modo desenfoque|recorte] [-Estilo clasico|amarillo|caja]'
+    throw 'Uso: cortar -Url <url> -Inicio <seg> -Fin <seg> -Id <clip-id> [-Gancho "<texto>"] [-Subs orig|es|ninguno] [-Modo desenfoque|recorte|marco] [-Estilo clasico|amarillo|caja]'
 }
 if ($Fin - $Inicio -gt 180) { throw 'Un clip no puede durar mas de 180 s' }
 $vid = IdVideo $Url
@@ -571,6 +571,9 @@ try {
         'caja' { @{ palabras = 4; mayus = $false; linea = 'Style: Sub,Arial,66,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,3,14,0,2,70,70,430,1' } }
         default { @{ palabras = 3; mayus = $true; linea = 'Style: Sub,Arial,84,&H00FFFFFF,&H000000FF,&H00000000,&H64000000,-1,0,0,0,100,100,0,0,1,7,2,2,60,60,430,1' } }
     }
+    # En modo marco el video ocupa la franja central (1350 px) y el gancho y los subtitulos van en las franjas lisas
+    $margenGancho = 230
+    if ($Modo -eq 'marco') { $est.linea = $est.linea -replace ',430,1$', ',100,1'; $margenGancho = 95 }
     $eventos = New-Object Collections.Generic.List[string]
     if ($Gancho) { $eventos.Add("Dialogue: 1,$(TiempoAss 0),$(TiempoAss $durClip),Gancho,,0,0,0,,$(TextoAss $Gancho)") }
     $ws = @($palabras | Where-Object { $_.t -ge $ini -and $_.t -lt $fin -and $_.w -notmatch '^\[.*\]$' })
@@ -594,7 +597,7 @@ try {
         '[V4+ Styles]',
         'Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding',
         $est.linea,
-        'Style: Gancho,Arial,68,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,3,16,0,8,80,80,230,1', '',
+        "Style: Gancho,Arial,68,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,3,16,0,8,80,80,$margenGancho,1", '',
         '[Events]', 'Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text'
     ) + $eventos
     [IO.File]::WriteAllLines((Join-Path $trabajo 'subs.ass'), [string[]]$ass, $utf8)
@@ -603,6 +606,9 @@ try {
 
     $filtro = if ($Modo -eq 'recorte') {
         '[0:v]scale=-2:1920,crop=1080:1920,setsar=1,subtitles=subs.ass:fontsdir=.[v]'
+    } elseif ($Modo -eq 'marco') {
+        # Menos zoom que recorte y sin difuminado: el video a 1350 px de alto en el centro, franjas lisas color #12062e
+        '[0:v]scale=-2:1350,crop=1080:1350,pad=1080:1920:0:285:color=0x12062e,setsar=1,subtitles=subs.ass:fontsdir=.[v]'
     } else {
         '[0:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=20:2,eq=brightness=-0.08[fondo];' +
         '[0:v]scale=1080:-2[frente];[fondo][frente]overlay=(W-w)/2:(H-h)/2,setsar=1,subtitles=subs.ass:fontsdir=.[v]'
