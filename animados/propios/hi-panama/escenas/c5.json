@@ -1,0 +1,828 @@
+{
+  "capitulo": "c5",
+  "escenas": {
+    "c5-amador": {
+      "plantilla": "personaje",
+      "datos": {
+        "personaje": "amador",
+        "anios": "Médico",
+        "rol": "Viajó a Nueva York a buscar apoyo",
+        "palabra_anios": "médico",
+        "palabra_rol": "viajó"
+      }
+    },
+    "c5-reunion": {
+      "plantilla": "dos-personajes",
+      "datos": {
+        "izquierda": {
+          "personaje": "amador",
+          "bandera": "",
+          "expresion": "pensativo"
+        },
+        "derecha": {
+          "personaje": "bunau",
+          "pose": "senalar",
+          "expresion": "astuto",
+          "palabra_bandera": "francés"
+        },
+        "palabra_firma": "estadounidense",
+        "foto": "File:Amador Guerrero, Manuel.jpg",
+        "foto_pie": "Manuel Amador Guerrero",
+        "palabra_foto": "reunió"
+      }
+    },
+    "c5-kit": {
+      "plantilla": "fichas",
+      "datos": {
+        "titulo": "Lo que le dio Bunau-Varilla",
+        "foto": "File:Portrait of Philippe-Jean Bunau-Varilla.jpg",
+        "foto_pie": "Bunau-Varilla (foto anterior a 1904)",
+        "fichas": [
+          {
+            "texto": "Declaración (borrador)",
+            "dibujo": "documento",
+            "palabra": "declaración"
+          },
+          {
+            "texto": "Una constitución",
+            "dibujo": "pluma",
+            "palabra": "constitución"
+          },
+          {
+            "texto": "Hasta una bandera",
+            "dibujo": "bandera",
+            "palabra": "bandera",
+            "resalta": true
+          }
+        ]
+      }
+    },
+    "c5-precio": {
+      "plantilla": "recorte",
+      "datos": {
+        "foto": "File:Panama canal cartoon 1903.jpg",
+        "lado": "derecha",
+        "pie": "Junto al huevo, sus credenciales de ministro",
+        "insignia": "Caricatura de 1903",
+        "titulo": "Lo que pidió a cambio",
+        "texto": "Ser el representante de la nueva república en Washington",
+        "marca": {
+          "x": 0.665,
+          "y": 0.49,
+          "r": 0.1,
+          "palabra": "representante"
+        },
+        "palabras": {
+          "foto": "cambio",
+          "titulo": "pidió",
+          "texto": "ser"
+        }
+      }
+    },
+    "c5-nashville": {
+      "plantilla": "vehiculo",
+      "datos": {
+        "tipo": "barco",
+        "guerra": true,
+        "bandera": "eeuu",
+        "anio": "1903",
+        "rotulo": "USS Nashville",
+        "detalle": "Llega a Colón el 2 de noviembre",
+        "foto": "File:Uss Nashville PG-7.jpg",
+        "foto_pie": "El Nashville (foto de época)",
+        "palabras": {
+          "anio": "1903",
+          "entra": "llegó",
+          "foto": "Colón",
+          "rotulo": "cañonero",
+          "detalle": "estadounidense"
+        }
+      }
+    },
+    "c5-ordenes": {
+      "plantilla": "fichas",
+      "datos": {
+        "titulo": "Las órdenes del Nashville",
+        "fichas": [
+          {
+            "texto": "Mantener libre el paso",
+            "dibujo": "tren",
+            "palabra": "mantener"
+          },
+          {
+            "texto": "Impedir desembarco armado",
+            "dibujo": "canon",
+            "palabra": "impedir",
+            "resalta": true
+          }
+        ]
+      }
+    },
+    "c5-batallon": {
+      "plantilla": "mapa",
+      "datos": {
+        "vistas": [
+          {
+            "caja": [
+              -81,
+              10.15,
+              -78.7,
+              8.85
+            ]
+          },
+          {
+            "centro": [
+              -77.4,
+              7.2
+            ],
+            "ancho": 22,
+            "palabra": "Bogotá",
+            "dur": 1.5
+          }
+        ],
+        "paises": [
+          {
+            "id": "panama",
+            "color": "acento2",
+            "opacidad": 0.3,
+            "en": 0
+          },
+          {
+            "id": "colombia",
+            "color": "acento2",
+            "opacidad": 0.45,
+            "palabra": "Bogotá"
+          }
+        ],
+        "rutas": [
+          {
+            "puntos": [
+              [
+                -78.8,
+                10.1
+              ],
+              [
+                -79.6,
+                9.72
+              ],
+              [
+                -79.88,
+                9.43
+              ]
+            ],
+            "estilo": "discontinua",
+            "color": "acento",
+            "grosor": 6,
+            "movil": "barco",
+            "palabra": "desembarcó",
+            "dur": 1.3,
+            "hasta": "Bogotá"
+          }
+        ],
+        "marcas": [
+          {
+            "texto": "Colón",
+            "lugar": "colon",
+            "lado": "izquierda",
+            "tam": 46,
+            "en": 0.02,
+            "hasta": "Bogotá"
+          },
+          {
+            "texto": "Bogotá",
+            "lugar": "bogota",
+            "lado": "derecha",
+            "tam": 40,
+            "palabra": "Bogotá"
+          }
+        ],
+        "banderas": [
+          {
+            "pais": "colombia",
+            "lugar": [
+              -79.72,
+              9.24
+            ],
+            "tam": 90,
+            "palabra": "batallón",
+            "hasta": "Bogotá"
+          }
+        ],
+        "rotulos": [
+          {
+            "texto": "Mar Caribe",
+            "lugar": [
+              -80.3,
+              9.72
+            ],
+            "estilo": "mar",
+            "tam": 40,
+            "en": 0,
+            "hasta": "Bogotá"
+          },
+          {
+            "texto": "¿Conspiración?",
+            "lugar": [
+              -77,
+              10.4
+            ],
+            "estilo": "titulo",
+            "tam": 56,
+            "palabra": "sospechaba"
+          }
+        ],
+        "cartela": {
+          "titulo": "3 de noviembre de 1903",
+          "sub": "Un batallón colombiano llega a Colón"
+        }
+      }
+    },
+    "c5-tren": {
+      "plantilla": "vehiculo",
+      "datos": {
+        "tipo": "tren",
+        "anio": "1903",
+        "rotulo": "Solo los generales",
+        "detalle": "Manejado por estadounidenses",
+        "palabras": {
+          "anio": "Pero",
+          "entra": "ferrocarril",
+          "detalle": "manejado",
+          "rotulo": "llevó"
+        }
+      }
+    },
+    "c5-tropa": {
+      "plantilla": "mapa",
+      "datos": {
+        "vistas": [
+          {
+            "caja": [
+              -80.55,
+              9.7,
+              -78.85,
+              8.6
+            ]
+          }
+        ],
+        "paises": [
+          {
+            "id": "panama",
+            "color": "acento2",
+            "opacidad": 0.3,
+            "en": 0
+          }
+        ],
+        "rutas": [
+          {
+            "puntos": "ferrocarril",
+            "estilo": "tren",
+            "grosor": 12,
+            "movil": "tren",
+            "tam_icono": 80,
+            "palabra": "Los",
+            "dur": 1.6
+          }
+        ],
+        "marcas": [
+          {
+            "texto": "Colón",
+            "lugar": "colon",
+            "lado": "izquierda",
+            "tam": 46,
+            "en": 0.02
+          },
+          {
+            "texto": "Ciudad de Panamá",
+            "lugar": "panama",
+            "lado": "derecha",
+            "tam": 46,
+            "en": 0.04
+          }
+        ],
+        "banderas": [
+          {
+            "pais": "colombia",
+            "lugar": [
+              -79.75,
+              9.26
+            ],
+            "tam": 80,
+            "palabra": "soldados"
+          }
+        ],
+        "rotulos": [
+          {
+            "texto": "Batallón Tiradores",
+            "lugar": [
+              -79.6,
+              9.2
+            ],
+            "estilo": "titulo",
+            "tam": 36,
+            "palabra": "soldados"
+          },
+          {
+            "texto": "La guarnición",
+            "lugar": [
+              -79.32,
+              9.12
+            ],
+            "estilo": "titulo",
+            "tam": 40,
+            "palabra": "guarnición"
+          }
+        ],
+        "cartela": {
+          "titulo": "La tropa, en Colón",
+          "sub": "Los generales, ya en la capital"
+        }
+      }
+    },
+    "c5-huertas": {
+      "plantilla": "personaje",
+      "datos": {
+        "personaje": "huertas",
+        "anios": "1876-1943",
+        "rol": "Jefe de la guarnición; apoyó la separación",
+        "palabra_anios": "Huertas",
+        "palabra_rol": "separatistas",
+        "pose": "senalar",
+        "expresion": "serio"
+      }
+    },
+    "c5-acta": {
+      "plantilla": "recorte",
+      "datos": {
+        "foto": "File:Acta de independencia de Panamá 1903.jpg",
+        "pie": "Acta de independencia (facsímil)",
+        "insignia": "3 de noviembre de 1903",
+        "titulo": "Se proclama la separación",
+        "texto": "Después de 82 años, Panamá deja de ser parte de Colombia",
+        "palabras": {
+          "titulo": "proclamó",
+          "texto": "Después"
+        }
+      }
+    },
+    "c5-bahia": {
+      "plantilla": "mapa",
+      "datos": {
+        "vistas": [
+          {
+            "caja": [
+              -80.7,
+              9.5,
+              -78.3,
+              8.15
+            ]
+          }
+        ],
+        "paises": [
+          {
+            "id": "panama",
+            "color": "acento2",
+            "opacidad": 0.3,
+            "en": 0
+          }
+        ],
+        "rutas": [
+          {
+            "puntos": [
+              [
+                -78.95,
+                8.5
+              ],
+              [
+                -79.2,
+                8.72
+              ],
+              [
+                -79.38,
+                8.84
+              ]
+            ],
+            "estilo": "discontinua",
+            "color": "tinta",
+            "grosor": 5,
+            "movil": "barco",
+            "palabra": "bahía",
+            "dur": 1.4
+          },
+          {
+            "puntos": [
+              [
+                -79.43,
+                8.875
+              ],
+              [
+                -79.5,
+                8.94
+              ]
+            ],
+            "estilo": "flecha",
+            "color": "acento",
+            "grosor": 9,
+            "palabra": "disparó",
+            "dur": 0.4
+          }
+        ],
+        "marcas": [
+          {
+            "texto": "Ciudad de Panamá",
+            "lugar": "panama",
+            "lado": "izquierda",
+            "tam": 44,
+            "en": 0.02
+          }
+        ],
+        "banderas": [
+          {
+            "pais": "colombia",
+            "lugar": [
+              -79.18,
+              8.86
+            ],
+            "tam": 80,
+            "palabra": "colombiano"
+          }
+        ],
+        "rotulos": [
+          {
+            "texto": "Bahía de Panamá",
+            "lugar": [
+              -78.95,
+              8.38
+            ],
+            "estilo": "mar",
+            "tam": 40,
+            "en": 0
+          }
+        ],
+        "cartela": {
+          "titulo": "El cañonero Bogotá",
+          "sub": "Disparó contra la ciudad",
+          "palabra": "Bogotá"
+        }
+      }
+    },
+    "c5-victima": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "El Chorrillo, Ciudad de Panamá",
+        "lineas": [
+          "Murió un",
+          "comerciante chino"
+        ],
+        "resalta": 1,
+        "dibujo": "cruz",
+        "palabra_dibujo": "Murió"
+      }
+    },
+    "c5-orden": {
+      "plantilla": "tratado",
+      "datos": {
+        "titulo": "Orden",
+        "sub": "Comandante del Nashville, 4 de noviembre",
+        "franja": "Ferrocarril: sin tropas",
+        "rechazado": true,
+        "texto_rechazo": "Prohibido",
+        "palabras": {
+          "documento": "comandante",
+          "sello": "prohibió",
+          "franja": "tren"
+        }
+      }
+    },
+    "c5-torres": {
+      "plantilla": "dos-personajes",
+      "datos": {
+        "izquierda": {
+          "personaje": "soldado",
+          "nombre": "Eliseo Torres",
+          "rol": "Coronel colombiano en Colón",
+          "charreteras": true,
+          "pose": "jarras",
+          "expresion": "enojado",
+          "palabra_bandera": "coronel"
+        },
+        "derecha": {
+          "personaje": "marinero",
+          "nombre": "John Hubbard",
+          "rol": "Comandante del Nashville",
+          "sombrero": "ninguno",
+          "charreteras": true,
+          "pose": "brazos-cruzados",
+          "expresion": "serio",
+          "palabra_bandera": "Torres"
+        },
+        "firma": "derecha",
+        "palabra_firma": "pelear"
+      }
+    },
+    "c5-darien": {
+      "plantilla": "mapa",
+      "datos": {
+        "vistas": [
+          {
+            "centro": [
+              -78,
+              7.9
+            ],
+            "ancho": 9
+          }
+        ],
+        "paises": [
+          {
+            "id": "panama",
+            "color": "acento2",
+            "opacidad": 0.35,
+            "en": 0
+          },
+          {
+            "id": "colombia",
+            "color": "acento2",
+            "opacidad": 0.35,
+            "en": 0
+          }
+        ],
+        "rutas": [
+          {
+            "puntos": [
+              [
+                -78.25,
+                8.75
+              ],
+              [
+                -77.75,
+                8.15
+              ],
+              [
+                -77.3,
+                7.45
+              ]
+            ],
+            "estilo": "resalte",
+            "color": "#5d7a45",
+            "grosor": 150,
+            "palabra": "selva",
+            "dur": 0.8
+          },
+          {
+            "puntos": [
+              [
+                -75.4,
+                6.3
+              ],
+              [
+                -76.3,
+                7
+              ],
+              [
+                -77,
+                7.55
+              ]
+            ],
+            "estilo": "discontinua",
+            "color": "alerta",
+            "grosor": 8,
+            "palabra": "tierra",
+            "dur": 1
+          }
+        ],
+        "montes": {
+          "puntos": [
+            [
+              -78.05,
+              8.45
+            ],
+            [
+              -77.75,
+              8.1
+            ],
+            [
+              -77.45,
+              7.75
+            ],
+            [
+              -77.9,
+              7.8
+            ],
+            [
+              -77.55,
+              8.35
+            ]
+          ],
+          "tam": 80,
+          "palabra": "selva"
+        },
+        "rotulos": [
+          {
+            "texto": "Colombia",
+            "lugar": [
+              -75.3,
+              7.4
+            ],
+            "estilo": "pais",
+            "tam": 50,
+            "en": 0
+          },
+          {
+            "texto": "Panamá",
+            "lugar": [
+              -80.2,
+              8.45
+            ],
+            "estilo": "pais",
+            "tam": 44,
+            "en": 0
+          },
+          {
+            "texto": "Mar Caribe",
+            "lugar": [
+              -78.6,
+              9.85
+            ],
+            "estilo": "mar",
+            "tam": 38,
+            "en": 0
+          },
+          {
+            "texto": "Selva del Darién",
+            "lugar": [
+              -77,
+              8.95
+            ],
+            "estilo": "titulo",
+            "tam": 46,
+            "palabra": "Darién"
+          }
+        ],
+        "cartela": {
+          "titulo": "Por tierra, imposible",
+          "sub": "Ni hoy hay carretera por el Darién",
+          "palabra": "ruta"
+        },
+        "fichas": [
+          {
+            "texto": "sin carretera",
+            "dibujo": "montana",
+            "tachar": true,
+            "palabra": "todavía",
+            "lugar": "abajo-derecha"
+          }
+        ]
+      }
+    },
+    "c5-tres-dias": {
+      "plantilla": "linea-tiempo",
+      "datos": {
+        "titulo": "Noviembre de 1903",
+        "actual": 2,
+        "palabra_actual": "embarcaron",
+        "hitos": [
+          {
+            "anio": "2 nov",
+            "texto": "El Nashville llega a Colón"
+          },
+          {
+            "anio": "3 nov",
+            "texto": "Se proclama la separación"
+          },
+          {
+            "anio": "5 nov",
+            "texto": "La tropa colombiana se va"
+          },
+          {
+            "anio": "6 nov",
+            "texto": "EE. UU. reconoce a Panamá"
+          }
+        ]
+      }
+    },
+    "c5-reconoce": {
+      "plantilla": "recorte",
+      "datos": {
+        "foto": "File:A revelation in revolutions - Kep. LCCN2010652322.jpg",
+        "pie": "El Tío Sam, con los planos del canal",
+        "insignia": "Puck, noviembre de 1903",
+        "titulo": "EE. UU. reconoce a Panamá",
+        "texto": "6 de noviembre de 1903: reconoce al nuevo gobierno",
+        "marca": {
+          "x": 0.64,
+          "y": 0.42,
+          "r": 0.14,
+          "palabra": "reconoció"
+        },
+        "palabras": {
+          "titulo": "Estados",
+          "texto": "Unidos"
+        }
+      }
+    }
+  },
+  "frases": [
+    {
+      "id": "f37",
+      "escena": "c5-amador",
+      "cortes": [
+        {
+          "escena": "c5-reunion",
+          "palabra": 16
+        }
+      ]
+    },
+    {
+      "id": "f38",
+      "escena": "c5-amador",
+      "cortes": [
+        {
+          "escena": "c5-kit",
+          "palabra": 8
+        }
+      ]
+    },
+    {
+      "id": "f39",
+      "escena": "c5-amador",
+      "cortes": [
+        {
+          "escena": "c5-precio",
+          "palabra": 2
+        }
+      ]
+    },
+    {
+      "id": "f40",
+      "escena": "c5-nashville",
+      "cortes": [
+        {
+          "escena": "c5-ordenes",
+          "palabra": 13
+        }
+      ]
+    },
+    {
+      "id": "f41",
+      "escena": "c5-batallon"
+    },
+    {
+      "id": "f42",
+      "escena": "c5-tren",
+      "cortes": [
+        {
+          "escena": "c5-tropa",
+          "palabra": 15
+        }
+      ]
+    },
+    {
+      "id": "f43",
+      "escena": "c5-tren",
+      "cortes": [
+        {
+          "escena": "c5-huertas",
+          "palabra": 10
+        }
+      ]
+    },
+    {
+      "id": "f44",
+      "escena": "c5-acta"
+    },
+    {
+      "id": "f45",
+      "escena": "c5-bahia",
+      "cortes": [
+        {
+          "escena": "c5-victima",
+          "palabra": 11
+        }
+      ]
+    },
+    {
+      "id": "f46",
+      "escena": "c5-orden",
+      "cortes": [
+        {
+          "escena": "c5-torres",
+          "palabra": 12
+        }
+      ]
+    },
+    {
+      "id": "f47",
+      "escena": "c5-darien"
+    },
+    {
+      "id": "f48",
+      "escena": "c5-tres-dias",
+      "cortes": [
+        {
+          "escena": "c5-reconoce",
+          "palabra": 11
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,384 @@
+{
+  "capitulo": "c6",
+  "escenas": {
+    "c6-firma": {
+      "plantilla": "dos-personajes",
+      "datos": {
+        "izquierda": {
+          "personaje": "bunau",
+          "bandera": "panama",
+          "palabra_bandera": "nombramiento",
+          "expresion": "astuto"
+        },
+        "derecha": {
+          "personaje": "hay",
+          "expresion": "sonrisa",
+          "palabra_bandera": "Hay"
+        },
+        "firma": "izquierda",
+        "palabra_firma": "firmó",
+        "foto": "File:John Hay, half-length portrait, seated LCCN2005685611.jpg",
+        "foto_pie": "John Hay, secretario de Estado (1902)",
+        "palabra_foto": "John"
+      }
+    },
+    "c6-camino": {
+      "plantilla": "mapa",
+      "datos": {
+        "vistas": [
+          {
+            "centro": [
+              -78,
+              14
+            ],
+            "ancho": 40
+          }
+        ],
+        "paises": [
+          {
+            "id": "panama",
+            "color": "acento2",
+            "opacidad": 0.5,
+            "en": 0
+          }
+        ],
+        "rutas": [
+          {
+            "puntos": [
+              [
+                -79.9,
+                9.5
+              ],
+              [
+                -77.5,
+                14
+              ],
+              [
+                -74.3,
+                19.8
+              ],
+              [
+                -73.6,
+                23
+              ],
+              [
+                -74,
+                27.5
+              ]
+            ],
+            "estilo": "discontinua",
+            "color": "acento",
+            "grosor": 6,
+            "movil": "barco",
+            "palabra": "venían",
+            "dur": 2.2
+          }
+        ],
+        "banderas": [
+          {
+            "pais": "panama",
+            "lugar": [
+              -81.2,
+              8.2
+            ],
+            "tam": 80,
+            "en": 0.05
+          }
+        ],
+        "rotulos": [
+          {
+            "texto": "Mar Caribe",
+            "lugar": [
+              -80.5,
+              15.5
+            ],
+            "estilo": "mar",
+            "tam": 36,
+            "en": 0
+          },
+          {
+            "texto": "Hacia Washington",
+            "lugar": [
+              -68.5,
+              22.6
+            ],
+            "estilo": "titulo",
+            "tam": 44,
+            "palabra": "Washington"
+          }
+        ],
+        "cartela": {
+          "titulo": "Rumbo a Washington",
+          "sub": "Dos delegados panameños en camino"
+        },
+        "fichas": [
+          {
+            "texto": "Amador y Boyd",
+            "dibujo": "barco",
+            "palabra": "Amador",
+            "lugar": "abajo-izquierda"
+          },
+          {
+            "titulo": "18",
+            "texto": "nov.: firmado",
+            "dibujo": "documento",
+            "palabra": "tratado",
+            "lugar": "abajo-derecha"
+          }
+        ]
+      }
+    },
+    "c6-duras": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "Tratado Hay-Bunau-Varilla",
+        "lineas": [
+          "Más duras",
+          "que las",
+          "rechazadas"
+        ],
+        "resalta": 0,
+        "dibujo": "balanza",
+        "palabra_dibujo": "condiciones"
+      }
+    },
+    "c6-ancho": {
+      "plantilla": "cifra",
+      "datos": {
+        "titulo": "Ancho de la franja del canal",
+        "cifras": [
+          {
+            "valor": 10,
+            "unidad": "km",
+            "rotulo": "Hay-Herrán, rechazado",
+            "palabra": "diez"
+          },
+          {
+            "valor": 16,
+            "unidad": "km",
+            "rotulo": "Hay-Bunau-Varilla",
+            "palabra": "dieciséis",
+            "resalta": true
+          }
+        ]
+      }
+    },
+    "c6-zona": {
+      "plantilla": "mapa",
+      "datos": {
+        "vistas": [
+          {
+            "caja": [
+              -80.25,
+              9.62,
+              -79.25,
+              8.78
+            ]
+          },
+          {
+            "caja": [
+              -80.18,
+              9.56,
+              -79.32,
+              8.84
+            ],
+            "palabra": "Dentro",
+            "dur": 2
+          }
+        ],
+        "paises": [
+          {
+            "id": "panama",
+            "color": "acento2",
+            "opacidad": 0.3,
+            "en": 0
+          }
+        ],
+        "rutas": [
+          {
+            "puntos": "ferrocarril",
+            "estilo": "tren",
+            "grosor": 8,
+            "en": 0
+          },
+          {
+            "puntos": "canal",
+            "estilo": "resalte",
+            "color": "acento",
+            "grosor": 108,
+            "palabra": "siglo",
+            "dur": 1.2
+          }
+        ],
+        "marcas": [
+          {
+            "texto": "Colón",
+            "lugar": "colon",
+            "lado": "izquierda",
+            "tam": 40,
+            "en": 0.02
+          },
+          {
+            "texto": "Panamá",
+            "lugar": "panama",
+            "lado": "derecha",
+            "tam": 40,
+            "en": 0.04
+          }
+        ],
+        "banderas": [
+          {
+            "pais": "eeuu",
+            "lugar": [
+              -79.72,
+              9.17
+            ],
+            "tam": 110,
+            "palabra": "Estados"
+          }
+        ],
+        "rotulos": [
+          {
+            "texto": "Zona del Canal",
+            "lugar": [
+              -79.42,
+              9.32
+            ],
+            "estilo": "titulo",
+            "tam": 42,
+            "palabra": "perpetuidad"
+          }
+        ],
+        "cartela": {
+          "titulo": "La Zona del Canal",
+          "sub": "Unos 16 km de ancho, a perpetuidad",
+          "palabra": "perpetuidad"
+        },
+        "fichas": [
+          {
+            "texto": "como soberano",
+            "dibujo": "bandera",
+            "palabra": "actuaría",
+            "lugar": "abajo-izquierda"
+          }
+        ]
+      }
+    },
+    "c6-pago": {
+      "plantilla": "fichas",
+      "datos": {
+        "titulo": "Lo que recibió Panamá",
+        "fichas": [
+          {
+            "texto": "10 millones de dólares",
+            "dibujo": "moneda",
+            "palabra": "10"
+          },
+          {
+            "texto": "250.000 dólares al año",
+            "dibujo": "calendario",
+            "palabra": "renta"
+          },
+          {
+            "texto": "Lo mismo que a Colombia",
+            "dibujo": "balanza",
+            "palabra": "antes",
+            "resalta": true
+          }
+        ]
+      }
+    },
+    "c6-millones": {
+      "plantilla": "cifra",
+      "datos": {
+        "titulo": "Los millones del canal",
+        "cifras": [
+          {
+            "valor": 40,
+            "moneda": "US$",
+            "unidad": "millones",
+            "rotulo": "Compañía francesa",
+            "palabra": "40",
+            "resalta": true
+          },
+          {
+            "valor": 10,
+            "moneda": "US$",
+            "unidad": "millones",
+            "rotulo": "Panamá",
+            "palabra": "francesa"
+          },
+          {
+            "valor": 0,
+            "moneda": "US$",
+            "unidad": "millones",
+            "rotulo": "Colombia",
+            "palabra": "Colombia"
+          }
+        ]
+      }
+    },
+    "c6-noticia": {
+      "plantilla": "recorte",
+      "datos": {
+        "foto": "File:Panam2.JPG",
+        "pie": "«The News Reaches Bogotá» (1903)",
+        "insignia": "Diciembre de 1903",
+        "titulo": "La noticia llega a Bogotá",
+        "texto": "Colombia protestó y envió a Washington al general Rafael Reyes, sin lograr nada",
+        "marca": {
+          "x": 0.115,
+          "y": 0.6,
+          "r": 0.085,
+          "palabra": "golpe"
+        },
+        "palabras": {
+          "titulo": "noticia",
+          "texto": "protestó"
+        }
+      }
+    }
+  },
+  "frases": [
+    {
+      "id": "f49",
+      "escena": "c6-firma"
+    },
+    {
+      "id": "f50",
+      "escena": "c6-camino"
+    },
+    {
+      "id": "f51",
+      "escena": "c6-duras",
+      "cortes": [
+        {
+          "escena": "c6-ancho",
+          "palabra": 10
+        },
+        {
+          "escena": "c6-zona",
+          "palabra": 22
+        }
+      ]
+    },
+    {
+      "id": "f52",
+      "escena": "c6-duras",
+      "cortes": [
+        {
+          "escena": "c6-pago",
+          "palabra": 11
+        }
+      ]
+    },
+    {
+      "id": "f53",
+      "escena": "c6-millones"
+    },
+    {
+      "id": "f54",
+      "escena": "c6-noticia"
+    }
+  ]
+}

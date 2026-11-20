@@ -1,0 +1,490 @@
+{
+  "capitulo": "c4",
+  "escenas": {
+    "c4-enero": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "Un acuerdo en Washington",
+        "lineas": [
+          "Enero",
+          "de 1903"
+        ],
+        "resalta": 1,
+        "calendario": {
+          "arriba": "Enero",
+          "numero": "22",
+          "abajo": "1903",
+          "lado": "derecha",
+          "palabra": "enero",
+          "sello": "Firma",
+          "palabra_sello": "Estado"
+        }
+      }
+    },
+    "c4-firma": {
+      "plantilla": "dos-personajes",
+      "datos": {
+        "izquierda": {
+          "personaje": "herran",
+          "rol": "Encargado de negocios de Colombia",
+          "palabra_bandera": "Colombia"
+        },
+        "derecha": {
+          "personaje": "hay",
+          "expresion": "sonrisa"
+        },
+        "firma": "izquierda",
+        "palabra_firma": "firmaron",
+        "foto": "File:Hay–Herrán Treaty.jpg",
+        "foto_pie": "Herrán y Hay (retratos de juventud)",
+        "palabra_foto": "Tomás"
+      }
+    },
+    "c4-pago": {
+      "plantilla": "cifra",
+      "datos": {
+        "titulo": "Lo que recibiría Colombia",
+        "cifras": [
+          {
+            "valor": 10,
+            "moneda": "US$",
+            "unidad": "millones",
+            "rotulo": "Pago inicial",
+            "palabra": "recibiría"
+          },
+          {
+            "valor": 250000,
+            "moneda": "US$",
+            "unidad": "al año",
+            "rotulo": "Renta anual",
+            "palabra": "doscientos",
+            "resalta": true
+          }
+        ]
+      }
+    },
+    "c4-franja": {
+      "plantilla": "mapa",
+      "datos": {
+        "vistas": [
+          {
+            "caja": [
+              -83.4,
+              10.5,
+              -76.6,
+              6.2
+            ]
+          },
+          {
+            "caja": [
+              -80.35,
+              9.55,
+              -79.15,
+              8.65
+            ],
+            "palabra": "franja",
+            "dur": 1.4
+          }
+        ],
+        "paises": [
+          {
+            "id": "panama",
+            "color": "acento2",
+            "opacidad": 0.35,
+            "en": 0
+          }
+        ],
+        "rutas": [
+          {
+            "puntos": "canal",
+            "estilo": "resalte",
+            "color": "acento",
+            "grosor": 40,
+            "palabra": "franja",
+            "dur": 1
+          }
+        ],
+        "banderas": [
+          {
+            "pais": "eeuu",
+            "lugar": [
+              -79.6,
+              9.22
+            ],
+            "tam": 80,
+            "palabra": "kilómetros"
+          }
+        ],
+        "marcas": [
+          {
+            "texto": "Colón",
+            "lugar": "colon",
+            "lado": "derecha",
+            "tam": 38,
+            "palabra": "franja"
+          },
+          {
+            "texto": "Panamá",
+            "lugar": "panama",
+            "lado": "izquierda",
+            "tam": 38,
+            "palabra": "franja"
+          }
+        ],
+        "rotulos": [
+          {
+            "texto": "Panamá (Colombia)",
+            "lugar": [
+              -80.6,
+              8.5
+            ],
+            "estilo": "pais",
+            "tam": 40,
+            "en": 0,
+            "hasta": "franja"
+          },
+          {
+            "texto": "Océano Pacífico",
+            "lugar": [
+              -79.25,
+              8.86
+            ],
+            "estilo": "mar",
+            "tam": 38,
+            "palabra": "franja"
+          }
+        ],
+        "cartela": {
+          "titulo": "Tratado Herrán-Hay",
+          "sub": "Una franja para el canal",
+          "palabra": "franja"
+        },
+        "fichas": [
+          {
+            "titulo": "10 km",
+            "texto": "de ancho, aprox.",
+            "palabra": "diez",
+            "hasta": "Faltaba",
+            "lugar": "abajo-izquierda"
+          },
+          {
+            "titulo": "100",
+            "texto": "años",
+            "dibujo": "reloj",
+            "palabra": "siglo",
+            "lugar": "arriba-derecha"
+          },
+          {
+            "titulo": "Falta",
+            "texto": "el Congreso",
+            "dibujo": "balanza",
+            "palabra": "Faltaba",
+            "lugar": "abajo-izquierda"
+          }
+        ]
+      }
+    },
+    "c4-congreso": {
+      "plantilla": "tablero",
+      "datos": {
+        "personajes": [
+          {
+            "personaje": "marroquin",
+            "expresion": "pensativo"
+          },
+          "herran",
+          "hay"
+        ],
+        "papeles": [
+          {
+            "foto": "File:Postal El Capitolio - Bogotá.jpg",
+            "pie": "El Capitolio de Bogotá (postal de la época)"
+          },
+          {
+            "foto": "File:His neighborly suggestion - J.S. Pughe. LCCN2010652238.jpg",
+            "pie": "Puck, 25 de marzo de 1903"
+          }
+        ],
+        "titulo": "Según varios historiadores",
+        "palabras": {
+          "papeles": "Según",
+          "titulo": "historiadores",
+          "personajes": "gobierno",
+          "hilos": "defendió"
+        }
+      }
+    },
+    "c4-cayo-mal": {
+      "plantilla": "fichas",
+      "datos": {
+        "titulo": "En Bogotá cayó mal",
+        "fichas": [
+          {
+            "texto": "Pago insuficiente",
+            "dibujo": "moneda",
+            "palabra": "sintieron"
+          },
+          {
+            "texto": "Soberanía en juego",
+            "dibujo": "bandera",
+            "palabra": "cedía",
+            "resalta": true
+          }
+        ]
+      }
+    },
+    "c4-calculos": {
+      "plantilla": "recorte",
+      "datos": {
+        "foto": "File:Canal Interoceanique de Panama 1880.jpg",
+        "pie": "Acción de la compañía francesa del canal, 1880",
+        "lado": "derecha",
+        "insignia": "Según la prensa, 1903",
+        "titulo": "Los cálculos de Bogotá",
+        "texto": "Si caía la concesión francesa, el pago a la compañía podía quedar para Colombia",
+        "marca": {
+          "x": 0.5,
+          "y": 0.1,
+          "r": 0.34,
+          "palabra": "compañía"
+        },
+        "palabras": {
+          "titulo": "cálculos",
+          "texto": "caía"
+        }
+      }
+    },
+    "c4-rechazo": {
+      "plantilla": "tratado",
+      "datos": {
+        "titulo": "Tratado",
+        "sub": "Herrán-Hay, enero de 1903",
+        "desde": {
+          "arriba": "Ene",
+          "numero": "22"
+        },
+        "hasta": {
+          "arriba": "Ago",
+          "numero": "12"
+        },
+        "lapso": "casi siete meses",
+        "franja": "Zona de unos 10 km",
+        "rechazado": true,
+        "palabras": {
+          "documento": "No",
+          "franja": "acuerdo",
+          "lapso": "agosto",
+          "sello": "rechazó"
+        }
+      }
+    },
+    "c4-dignidad": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "Para muchos colombianos",
+        "lineas": [
+          "Un acto",
+          "de dignidad"
+        ],
+        "resalta": 1,
+        "dibujo": "balanza",
+        "palabra_dibujo": "colombianos"
+      }
+    },
+    "c4-furia": {
+      "plantilla": "personaje",
+      "datos": {
+        "personaje": "roosevelt",
+        "pose": "senalar",
+        "expresion": "enojado",
+        "rol": "No le molestaría una revuelta en Panamá",
+        "palabra_rol": "molestaría",
+        "anios": "1903"
+      }
+    },
+    "c4-conspira": {
+      "plantilla": "mapa",
+      "datos": {
+        "vistas": [
+          {
+            "caja": [
+              -83.4,
+              10.5,
+              -76.6,
+              6.2
+            ]
+          },
+          {
+            "centro": [
+              -77.6,
+              6.8
+            ],
+            "ancho": 19,
+            "palabra": "Bogotá",
+            "dur": 1.5
+          }
+        ],
+        "paises": [
+          {
+            "id": "panama",
+            "color": "acento",
+            "opacidad": 0.6,
+            "en": 0
+          },
+          {
+            "id": "colombia",
+            "color": "acento2",
+            "opacidad": 0.4,
+            "palabra": "Bogotá"
+          }
+        ],
+        "rutas": [
+          {
+            "puntos": [
+              [
+                -79.95,
+                9.75
+              ],
+              [
+                -79.75,
+                9.2
+              ],
+              [
+                -79.45,
+                8.6
+              ]
+            ],
+            "estilo": "flecha",
+            "grosor": 9,
+            "color": "acento",
+            "palabra": "canal",
+            "dur": 0.8
+          }
+        ],
+        "marcas": [
+          {
+            "texto": "Ciudad de Panamá",
+            "lugar": "panama",
+            "lado": "abajo",
+            "tam": 38,
+            "en": 0.03
+          },
+          {
+            "texto": "Bogotá",
+            "lugar": "bogota",
+            "lado": "derecha",
+            "tam": 40,
+            "palabra": "Bogotá"
+          }
+        ],
+        "rotulos": [
+          {
+            "texto": "Mar Caribe",
+            "lugar": [
+              -79.4,
+              10.15
+            ],
+            "estilo": "mar",
+            "tam": 40,
+            "en": 0
+          },
+          {
+            "texto": "El canal, su futuro",
+            "lugar": [
+              -78.2,
+              9.75
+            ],
+            "estilo": "titulo",
+            "tam": 40,
+            "palabra": "futuro",
+            "hasta": "Bogotá"
+          }
+        ],
+        "cartela": {
+          "titulo": "El istmo, 1903",
+          "sub": "Un grupo de panameños conspira",
+          "palabra": "grupo"
+        },
+        "fichas": [
+          {
+            "texto": "conspiración",
+            "dibujo": "pluma",
+            "palabra": "conspiraba",
+            "lugar": "abajo-izquierda"
+          },
+          {
+            "texto": "puerta cerrada",
+            "dibujo": "documento",
+            "tachar": true,
+            "palabra": "Bogotá",
+            "lugar": "abajo-derecha"
+          }
+        ]
+      }
+    }
+  },
+  "frases": [
+    {
+      "id": "f29",
+      "escena": "c4-enero",
+      "cortes": [
+        {
+          "escena": "c4-firma",
+          "palabra": 12
+        }
+      ]
+    },
+    {
+      "id": "f30",
+      "escena": "c4-pago",
+      "cortes": [
+        {
+          "escena": "c4-franja",
+          "palabra": 15
+        }
+      ]
+    },
+    {
+      "id": "f31",
+      "escena": "c4-pago",
+      "cortes": [
+        {
+          "escena": "c4-congreso",
+          "palabra": 4
+        }
+      ]
+    },
+    {
+      "id": "f32",
+      "escena": "c4-cayo-mal"
+    },
+    {
+      "id": "f33",
+      "escena": "c4-calculos"
+    },
+    {
+      "id": "f34",
+      "escena": "c4-rechazo"
+    },
+    {
+      "id": "f35",
+      "escena": "c4-dignidad",
+      "cortes": [
+        {
+          "escena": "c4-furia",
+          "palabra": 11
+        }
+      ]
+    },
+    {
+      "id": "f36",
+      "escena": "c4-dignidad",
+      "cortes": [
+        {
+          "escena": "c4-conspira",
+          "palabra": 3
+        }
+      ]
+    }
+  ]
+}

@@ -2127,39 +2127,483 @@
       "frases": [
         {
           "id": "f14",
+          "escena": "c2-art201",
           "texto": "Mientras tanto, Colombia cambiaba. La Constitución de 1886 centralizó el poder y dejó a Panamá bajo la autoridad directa del gobierno de Bogotá.",
-          "imagen": "capitolio"
+          "cortes": [
+            {
+              "escena": "c2-bogota",
+              "palabra": 14
+            }
+          ]
         },
         {
           "id": "f15",
+          "escena": "c2-art201",
           "texto": "En el istmo, muchos sentían lejana a la capital. Y no era nuevo: en el siglo diecinueve hubo varios intentos de separarse.",
-          "imagen": "panama_1863"
+          "cortes": [
+            {
+              "escena": "c2-intentos",
+              "palabra": 9
+            }
+          ]
         },
         {
           "id": "f16",
-          "texto": "Y en 1899 estalló la Guerra de los Mil Días, entre liberales y conservadores. Duró hasta 1902.",
-          "imagen": "canon_mil_dias"
+          "escena": "c2-guerra",
+          "texto": "Y en 1899 estalló la Guerra de los Mil Días, entre liberales y conservadores. Duró hasta 1902."
         },
         {
           "id": "f17",
+          "escena": "c2-muertos",
           "texto": "Nadie sabe cuántos murieron. Las cifras van desde unos once mil hasta más de cien mil, en un país de menos de cuatro millones de habitantes.",
-          "imagen": "mil_dias_ninos"
+          "cortes": [
+            {
+              "escena": "c2-frente",
+              "palabra": 18
+            }
+          ]
         },
         {
           "id": "f18",
+          "escena": "c2-muertos",
           "texto": "Panamá fue uno de los frentes más duros: hubo combates a las puertas de su capital."
         },
         {
           "id": "f19",
+          "escena": "c2-paz",
           "texto": "La paz se firmó el 21 de noviembre de 1902 en la bahía de Panamá, tras negociarla a bordo de un acorazado estadounidense: el Wisconsin.",
-          "imagen": "wisconsin"
+          "cortes": [
+            {
+              "escena": "c2-wisconsin",
+              "palabra": 15
+            }
+          ]
         },
         {
           "id": "f20",
-          "texto": "Colombia salía de la guerra agotada y dividida, y justo entonces le tocaba negociar el canal con Estados Unidos.",
-          "imagen": "firmantes_wisconsin"
+          "escena": "c2-agotada",
+          "texto": "Colombia salía de la guerra agotada y dividida, y justo entonces le tocaba negociar el canal con Estados Unidos."
         }
-      ]
+      ],
+      "escenas": {
+        "c2-art201": {
+          "plantilla": "cita",
+          "datos": {
+            "texto": "El Departamento de Panamá está sometido a la autoridad directa del Gobierno",
+            "autor": "Constitución de 1886",
+            "fuente": "Artículo 201"
+          }
+        },
+        "c2-bogota": {
+          "plantilla": "mapa",
+          "datos": {
+            "vistas": [
+              {
+                "centro": [
+                  -77,
+                  6.4
+                ],
+                "ancho": 21
+              },
+              {
+                "centro": [
+                  -77.4,
+                  6.7
+                ],
+                "ancho": 18,
+                "palabra": "istmo",
+                "dur": 2.2
+              }
+            ],
+            "paises": [
+              {
+                "id": "colombia",
+                "color": "acento2",
+                "opacidad": 0.4,
+                "en": 0
+              },
+              {
+                "id": "panama",
+                "color": "acento",
+                "opacidad": 0.6,
+                "palabra": "Panamá"
+              }
+            ],
+            "rutas": [
+              {
+                "puntos": [
+                  [
+                    -74.2,
+                    4.95
+                  ],
+                  [
+                    -76.9,
+                    7.4
+                  ],
+                  [
+                    -79.3,
+                    8.85
+                  ]
+                ],
+                "estilo": "flecha",
+                "color": "acento",
+                "grosor": 8,
+                "palabra": "autoridad",
+                "dur": 0.9
+              }
+            ],
+            "marcas": [
+              {
+                "texto": "Bogotá",
+                "lugar": "bogota",
+                "lado": "derecha",
+                "tam": 40,
+                "en": 0.05
+              },
+              {
+                "texto": "Panamá",
+                "lugar": "panama",
+                "lado": "izquierda",
+                "tam": 40,
+                "palabra": "Panamá"
+              }
+            ],
+            "rotulos": [
+              {
+                "texto": "Mar Caribe",
+                "lugar": [
+                  -76.6,
+                  11
+                ],
+                "estilo": "mar",
+                "tam": 34,
+                "en": 0
+              },
+              {
+                "texto": "Océano Pacífico",
+                "lugar": [
+                  -82.6,
+                  5.2
+                ],
+                "estilo": "mar",
+                "tam": 34,
+                "en": 0
+              },
+              {
+                "texto": "Colombia",
+                "lugar": [
+                  -72.4,
+                  7.4
+                ],
+                "estilo": "pais",
+                "tam": 50,
+                "en": 0
+              }
+            ],
+            "cartela": {
+              "titulo": "Constitución de 1886",
+              "sub": "Panamá, bajo la autoridad de Bogotá",
+              "en": 0
+            },
+            "fichas": [
+              {
+                "titulo": "1886",
+                "texto": "poder central",
+                "dibujo": "documento",
+                "palabra": "autoridad",
+                "lugar": "abajo-izquierda"
+              },
+              {
+                "texto": "capital lejana",
+                "dibujo": "montana",
+                "palabra": "lejana",
+                "lugar": "abajo-derecha"
+              }
+            ]
+          }
+        },
+        "c2-intentos": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "Intentos de separarse en el siglo XIX",
+            "fichas": [
+              {
+                "texto": "Intento de 1830",
+                "dibujo": "bandera",
+                "palabra": "nuevo"
+              },
+              {
+                "texto": "Intento de 1831",
+                "dibujo": "bandera",
+                "palabra": "siglo"
+              },
+              {
+                "texto": "Intento de 1840",
+                "dibujo": "bandera",
+                "palabra": "hubo",
+                "resalta": true
+              }
+            ]
+          }
+        },
+        "c2-guerra": {
+          "plantilla": "linea-tiempo",
+          "datos": {
+            "titulo": "La Guerra de los Mil Días",
+            "actual": 1,
+            "palabra_actual": "estalló",
+            "hitos": [
+              {
+                "anio": "1886",
+                "texto": "Una Constitución centraliza el poder"
+              },
+              {
+                "anio": "1899",
+                "texto": "Estalla la guerra entre liberales y conservadores"
+              },
+              {
+                "anio": "1902",
+                "texto": "Paz firmada en la bahía de Panamá"
+              },
+              {
+                "anio": "1903",
+                "texto": "Panamá se separa de Colombia"
+              }
+            ]
+          }
+        },
+        "c2-muertos": {
+          "plantilla": "cifra",
+          "datos": {
+            "titulo": "Muertos de la guerra: nadie sabe cuántos",
+            "barras": true,
+            "cifras": [
+              {
+                "valor": 11000,
+                "rotulo": "Estimación más baja",
+                "palabra": "murieron"
+              },
+              {
+                "valor": 100000,
+                "unidad": "o más",
+                "rotulo": "Estimación más alta",
+                "palabra": "hasta",
+                "resalta": true
+              }
+            ]
+          }
+        },
+        "c2-frente": {
+          "plantilla": "mapa",
+          "datos": {
+            "vistas": [
+              {
+                "centro": [
+                  -77.5,
+                  5.6
+                ],
+                "ancho": 30
+              },
+              {
+                "caja": [
+                  -83.4,
+                  10.5,
+                  -76.6,
+                  6.2
+                ],
+                "palabra": "Panamá",
+                "dur": 1.5
+              }
+            ],
+            "paises": [
+              {
+                "id": "colombia",
+                "color": "acento2",
+                "opacidad": 0.45,
+                "en": 0
+              },
+              {
+                "id": "panama",
+                "color": "acento2",
+                "opacidad": 0.45,
+                "en": 0,
+                "hasta": "Panamá"
+              },
+              {
+                "id": "panama",
+                "color": "acento",
+                "opacidad": 0.6,
+                "palabra": "Panamá"
+              }
+            ],
+            "rotulos": [
+              {
+                "texto": "Colombia",
+                "lugar": [
+                  -73,
+                  7.4
+                ],
+                "estilo": "pais",
+                "tam": 52,
+                "en": 0,
+                "hasta": "Panamá"
+              },
+              {
+                "texto": "Menos de 4 millones de habitantes",
+                "lugar": [
+                  -72.6,
+                  2.9
+                ],
+                "estilo": "titulo",
+                "tam": 40,
+                "palabra": "menos",
+                "hasta": "Panamá"
+              },
+              {
+                "texto": "Mar Caribe",
+                "lugar": [
+                  -79.6,
+                  10.05
+                ],
+                "estilo": "mar",
+                "tam": 40,
+                "palabra": "frentes"
+              },
+              {
+                "texto": "Océano Pacífico",
+                "lugar": [
+                  -80.6,
+                  7
+                ],
+                "estilo": "mar",
+                "tam": 40,
+                "palabra": "frentes"
+              }
+            ],
+            "marcas": [
+              {
+                "texto": "Ciudad de Panamá",
+                "lugar": "panama",
+                "lado": "abajo",
+                "tam": 40,
+                "palabra": "frentes"
+              }
+            ],
+            "rutas": [
+              {
+                "puntos": [
+                  [
+                    -80.1,
+                    9.17
+                  ],
+                  [
+                    -79.66,
+                    9.02
+                  ]
+                ],
+                "estilo": "flecha",
+                "color": "acento",
+                "grosor": 8,
+                "palabra": "combates",
+                "dur": 0.6
+              },
+              {
+                "puntos": [
+                  [
+                    -78.8,
+                    9.27
+                  ],
+                  [
+                    -79.38,
+                    9.03
+                  ]
+                ],
+                "estilo": "flecha",
+                "color": "acento",
+                "grosor": 8,
+                "palabra": "puertas",
+                "dur": 0.6
+              }
+            ],
+            "cartela": {
+              "titulo": "1899-1902",
+              "sub": "Panamá, uno de los frentes más duros",
+              "palabra": "frentes"
+            },
+            "fichas": [
+              {
+                "texto": "combates",
+                "dibujo": "canon",
+                "palabra": "combates",
+                "lugar": "abajo-izquierda"
+              }
+            ]
+          }
+        },
+        "c2-paz": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "La paz",
+              "en la bahía",
+              "de Panamá"
+            ],
+            "resalta": 0,
+            "calendario": {
+              "arriba": "Noviembre",
+              "numero": "21",
+              "abajo": "1902",
+              "lado": "derecha",
+              "palabra": "21",
+              "sello": "Paz",
+              "palabra_sello": "Panamá"
+            }
+          }
+        },
+        "c2-wisconsin": {
+          "plantilla": "vehiculo",
+          "datos": {
+            "tipo": "barco",
+            "guerra": true,
+            "bandera": "eeuu",
+            "anio": "1902",
+            "rotulo": "USS Wisconsin",
+            "detalle": "Allí se negoció la paz",
+            "palabras": {
+              "entra": "tras",
+              "detalle": "negociarla",
+              "rotulo": "acorazado",
+              "foto": "estadounidense"
+            },
+            "foto": "File:Tratado de Paz del Wisconsin.jpg",
+            "foto_pie": "Firmantes de la paz del Wisconsin, 1902"
+          }
+        },
+        "c2-agotada": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "Colombia sale de la guerra",
+            "fichas": [
+              {
+                "texto": "Agotada",
+                "dibujo": "cruz",
+                "palabra": "agotada"
+              },
+              {
+                "texto": "Dividida",
+                "dibujo": "balanza",
+                "palabra": "dividida"
+              },
+              {
+                "texto": "Toca negociar el canal",
+                "dibujo": "documento",
+                "palabra": "negociar",
+                "resalta": true
+              }
+            ]
+          }
+        }
+      }
     },
     {
       "id": "c3",
@@ -2167,43 +2611,704 @@
       "frases": [
         {
           "id": "f21",
+          "escena": "c3-roosevelt",
           "texto": "En Washington, el presidente Theodore Roosevelt quería un canal controlado por Estados Unidos. La pregunta era dónde: en Nicaragua o en Panamá.",
-          "imagen": "roosevelt"
+          "cortes": [
+            {
+              "escena": "c3-donde",
+              "palabra": 13
+            }
+          ]
         },
         {
           "id": "f22",
+          "escena": "c3-roosevelt",
           "texto": "En 1901, una comisión estadounidense recomendó Nicaragua: los franceses pedían 109 millones de dólares por lo que tenían en Panamá.",
-          "imagen": "mapa_panama_1904"
+          "cortes": [
+            {
+              "escena": "c3-precio",
+              "palabra": 7
+            }
+          ]
         },
         {
           "id": "f23",
-          "texto": "Entonces los franceses bajaron el precio a 40 millones, y la comisión cambió de opinión."
+          "escena": "c3-roosevelt",
+          "texto": "Entonces los franceses bajaron el precio a 40 millones, y la comisión cambió de opinión.",
+          "cortes": [
+            {
+              "escena": "c3-cambio",
+              "palabra": 9
+            }
+          ]
         },
         {
           "id": "f24",
+          "escena": "c3-roosevelt",
           "texto": "Uno de los que más presionaban por Panamá era Philippe Bunau-Varilla, un ingeniero francés que había trabajado en el canal de Lesseps y defendía los intereses de la nueva compañía.",
-          "imagen": "bunau_varilla"
+          "cortes": [
+            {
+              "escena": "c3-bunau",
+              "palabra": 9
+            },
+            {
+              "escena": "c3-jugada",
+              "palabra": 22
+            }
+          ]
         },
         {
           "id": "f25",
+          "escena": "c3-roosevelt",
           "texto": "Su jugada más recordada fue una estampilla. En 1902 les envió a los senadores una estampilla de Nicaragua con un volcán echando humo: el Momotombo.",
-          "imagen": "sello_momotombo"
+          "cortes": [
+            {
+              "escena": "c3-estampilla",
+              "palabra": 7
+            }
+          ]
         },
         {
           "id": "f26",
+          "escena": "c3-martinica",
           "texto": "Ese mayo, una erupción había arrasado una ciudad entera en la isla de Martinica. El mensaje era claro: Nicaragua tenía volcanes; Panamá, no.",
-          "imagen": "saint_pierre"
+          "cortes": [
+            {
+              "escena": "c3-mensaje",
+              "palabra": 14
+            }
+          ]
         },
         {
           "id": "f27",
+          "escena": "c3-martinica",
           "texto": "Cuánto pesó la estampilla, todavía se discute. Pero en junio de 1902, el Senado de Estados Unidos votó por la ruta de Panamá.",
-          "imagen": "puck_vecino"
+          "cortes": [
+            {
+              "escena": "c3-senado",
+              "palabra": 7
+            }
+          ]
         },
         {
           "id": "f28",
-          "texto": "Eso sí, con una condición: un acuerdo con Colombia en un tiempo razonable. Si no, el canal iría por Nicaragua."
+          "escena": "c3-martinica",
+          "texto": "Eso sí, con una condición: un acuerdo con Colombia en un tiempo razonable. Si no, el canal iría por Nicaragua.",
+          "cortes": [
+            {
+              "escena": "c3-condicion",
+              "palabra": 2
+            }
+          ]
         }
-      ]
+      ],
+      "escenas": {
+        "c3-roosevelt": {
+          "plantilla": "personaje",
+          "datos": {
+            "personaje": "roosevelt",
+            "pose": "discurso",
+            "expresion": "sonrisa",
+            "rol": "Presidente de Estados Unidos",
+            "palabra_rol": "quería",
+            "anios": "Washington",
+            "palabra_anios": "Washington"
+          }
+        },
+        "c3-donde": {
+          "plantilla": "mapa",
+          "datos": {
+            "vistas": [
+              {
+                "centro": [
+                  -81.6,
+                  10
+                ],
+                "ancho": 19
+              },
+              {
+                "centro": [
+                  -82.3,
+                  10.4
+                ],
+                "ancho": 16,
+                "palabra": "pregunta",
+                "dur": 1.6
+              }
+            ],
+            "paises": [
+              {
+                "id": "nicaragua",
+                "color": "acento2",
+                "opacidad": 0.55,
+                "palabra": "Nicaragua",
+                "hasta": "recomendó"
+              },
+              {
+                "id": "nicaragua",
+                "color": "acento",
+                "opacidad": 0.65,
+                "palabra": "recomendó"
+              },
+              {
+                "id": "panama",
+                "color": "acento2",
+                "opacidad": 0.55,
+                "palabra": "Panamá"
+              }
+            ],
+            "rutas": [
+              {
+                "puntos": "ruta_nicaragua",
+                "estilo": "discontinua",
+                "color": "tinta",
+                "grosor": 6,
+                "palabra": "Nicaragua",
+                "dur": 1
+              },
+              {
+                "puntos": "canal",
+                "estilo": "discontinua",
+                "color": "tinta",
+                "grosor": 6,
+                "palabra": "Panamá",
+                "dur": 0.6
+              }
+            ],
+            "rotulos": [
+              {
+                "texto": "Mar Caribe",
+                "lugar": [
+                  -79.6,
+                  12.6
+                ],
+                "estilo": "mar",
+                "tam": 36,
+                "en": 0
+              },
+              {
+                "texto": "Océano Pacífico",
+                "lugar": [
+                  -86.4,
+                  8.6
+                ],
+                "estilo": "mar",
+                "tam": 36,
+                "en": 0
+              },
+              {
+                "texto": "Nicaragua",
+                "lugar": [
+                  -84.7,
+                  13.2
+                ],
+                "estilo": "pais",
+                "tam": 40,
+                "palabra": "Nicaragua"
+              },
+              {
+                "texto": "Panamá",
+                "lugar": [
+                  -80.9,
+                  8.55
+                ],
+                "estilo": "pais",
+                "tam": 40,
+                "palabra": "Panamá"
+              },
+              {
+                "texto": "?",
+                "lugar": [
+                  -81.9,
+                  11.6
+                ],
+                "estilo": "titulo",
+                "tam": 120,
+                "palabra": "dónde",
+                "hasta": "recomendó"
+              }
+            ],
+            "fichas": [
+              {
+                "titulo": "1901",
+                "texto": "la comisión",
+                "dibujo": "documento",
+                "palabra": "comisión",
+                "lugar": "abajo-izquierda"
+              },
+              {
+                "texto": "recomienda",
+                "dibujo": "pluma",
+                "palabra": "recomendó",
+                "lugar": "abajo-derecha"
+              }
+            ]
+          }
+        },
+        "c3-precio": {
+          "plantilla": "cifra",
+          "datos": {
+            "titulo": "Lo que pedían los franceses por Panamá",
+            "cifras": [
+              {
+                "valor": 109,
+                "moneda": "US$",
+                "unidad": "millones",
+                "rotulo": "Primer precio",
+                "palabra": "pedían"
+              },
+              {
+                "valor": 40,
+                "moneda": "US$",
+                "unidad": "millones",
+                "rotulo": "Nuevo precio",
+                "palabra": "bajaron",
+                "resalta": true
+              }
+            ]
+          }
+        },
+        "c3-cambio": {
+          "plantilla": "mapa",
+          "datos": {
+            "vistas": [
+              {
+                "centro": [
+                  -82.3,
+                  10.4
+                ],
+                "ancho": 16
+              },
+              {
+                "caja": [
+                  -83.4,
+                  10.5,
+                  -76.6,
+                  6.2
+                ],
+                "palabra": "presionaban",
+                "dur": 1.5
+              }
+            ],
+            "paises": [
+              {
+                "id": "nicaragua",
+                "color": "acento",
+                "opacidad": 0.65,
+                "en": 0,
+                "hasta": "cambió"
+              },
+              {
+                "id": "panama",
+                "color": "acento2",
+                "opacidad": 0.55,
+                "en": 0,
+                "hasta": "cambió"
+              },
+              {
+                "id": "panama",
+                "color": "acento",
+                "opacidad": 0.65,
+                "palabra": "cambió"
+              }
+            ],
+            "rutas": [
+              {
+                "puntos": "ruta_nicaragua",
+                "estilo": "discontinua",
+                "color": "tinta",
+                "grosor": 6,
+                "en": 0,
+                "dur": 0.1,
+                "hasta": "cambió"
+              },
+              {
+                "puntos": "canal",
+                "estilo": "canal",
+                "palabra": "cambió",
+                "dur": 1
+              },
+              {
+                "puntos": "canal",
+                "estilo": "canal",
+                "palabra": "presionaban",
+                "dur": 1
+              }
+            ],
+            "rotulos": [
+              {
+                "texto": "Nicaragua",
+                "lugar": [
+                  -84.7,
+                  13.2
+                ],
+                "estilo": "pais",
+                "tam": 40,
+                "en": 0,
+                "hasta": "presionaban"
+              },
+              {
+                "texto": "Panamá",
+                "lugar": [
+                  -80.9,
+                  8.55
+                ],
+                "estilo": "pais",
+                "tam": 44,
+                "en": 0
+              },
+              {
+                "texto": "Mar Caribe",
+                "lugar": [
+                  -79.4,
+                  10.15
+                ],
+                "estilo": "mar",
+                "tam": 40,
+                "palabra": "presionaban"
+              },
+              {
+                "texto": "Panamá",
+                "lugar": [
+                  -80.6,
+                  8.62
+                ],
+                "estilo": "pais",
+                "tam": 46,
+                "palabra": "presionaban"
+              }
+            ],
+            "fichas": [
+              {
+                "texto": "ahora, Panamá",
+                "dibujo": "documento",
+                "palabra": "cambió",
+                "lugar": "abajo-izquierda"
+              }
+            ]
+          }
+        },
+        "c3-bunau": {
+          "plantilla": "personaje",
+          "datos": {
+            "personaje": "bunau",
+            "pose": "brazos-cruzados",
+            "expresion": "astuto",
+            "rol": "Ingeniero francés del canal de Lesseps",
+            "palabra_rol": "ingeniero",
+            "anios": ""
+          }
+        },
+        "c3-jugada": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "Bunau-Varilla defendía",
+            "lineas": [
+              "Los intereses",
+              "de la nueva",
+              "compañía"
+            ],
+            "resalta": 2,
+            "dibujo": "volcan",
+            "palabra_dibujo": "estampilla"
+          }
+        },
+        "c3-estampilla": {
+          "plantilla": "recorte",
+          "datos": {
+            "foto": "File:Momotombo 1900 Edition Stamp.jpg",
+            "pie": "Estampilla de Nicaragua (1900)",
+            "insignia": "Nicaragua, 1900",
+            "titulo": "La estampilla del Momotombo",
+            "texto": "Enviada a los senadores de EE. UU. en 1902",
+            "marca": {
+              "x": 0.5,
+              "y": 0.45,
+              "r": 0.28,
+              "palabra": "volcán"
+            },
+            "palabras": {
+              "titulo": "1902",
+              "texto": "senadores"
+            }
+          }
+        },
+        "c3-martinica": {
+          "plantilla": "mapa",
+          "datos": {
+            "vistas": [
+              {
+                "centro": [
+                  -82.3,
+                  10.9
+                ],
+                "ancho": 18
+              },
+              {
+                "centro": [
+                  -73.5,
+                  14.2
+                ],
+                "ancho": 34,
+                "palabra": "erupción",
+                "dur": 1.8
+              }
+            ],
+            "paises": [
+              {
+                "id": "nicaragua",
+                "color": "acento2",
+                "opacidad": 0.5,
+                "en": 0
+              }
+            ],
+            "montes": {
+              "puntos": [
+                [
+                  -86.54,
+                  12.42
+                ],
+                [
+                  -61.17,
+                  14.81
+                ]
+              ],
+              "tam": 54,
+              "en": 0.02
+            },
+            "marcas": [
+              {
+                "texto": "Momotombo",
+                "lugar": "momotombo",
+                "lado": "izquierda",
+                "tam": 34,
+                "en": 0.03
+              },
+              {
+                "texto": "Saint-Pierre",
+                "lugar": "saint_pierre",
+                "lado": "izquierda",
+                "tam": 36,
+                "palabra": "ciudad"
+              }
+            ],
+            "rotulos": [
+              {
+                "texto": "Nicaragua",
+                "lugar": [
+                  -84.7,
+                  13.4
+                ],
+                "estilo": "pais",
+                "tam": 30,
+                "en": 0
+              },
+              {
+                "texto": "Mar Caribe",
+                "lugar": [
+                  -73,
+                  15.6
+                ],
+                "estilo": "mar",
+                "tam": 44,
+                "palabra": "erupción"
+              },
+              {
+                "texto": "Martinica",
+                "lugar": [
+                  -61,
+                  13.4
+                ],
+                "estilo": "pais",
+                "tam": 32,
+                "palabra": "isla"
+              }
+            ],
+            "cartela": {
+              "titulo": "Mayo de 1902",
+              "sub": "Erupción en la isla de Martinica",
+              "palabra": "erupción"
+            },
+            "fichas": [
+              {
+                "titulo": "1902",
+                "texto": "erupción",
+                "dibujo": "volcan",
+                "palabra": "erupción",
+                "lugar": "abajo-derecha"
+              },
+              {
+                "texto": "ciudad arrasada",
+                "dibujo": "derrumbe",
+                "palabra": "arrasado",
+                "lugar": "abajo-izquierda"
+              }
+            ]
+          }
+        },
+        "c3-mensaje": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "El mensaje de la estampilla",
+            "foto": "File:PSM V61 D359 St pierre view after the eruption of may 8 1902.png",
+            "foto_pie": "Saint-Pierre tras la erupción, 1902",
+            "fichas": [
+              {
+                "texto": "Nicaragua: volcanes",
+                "dibujo": "volcan",
+                "palabra": "Nicaragua",
+                "resalta": true
+              },
+              {
+                "texto": "Panamá: sin volcanes",
+                "dibujo": "montana",
+                "palabra": "Panamá"
+              },
+              {
+                "texto": "Su efecto, se discute",
+                "dibujo": "balanza",
+                "palabra": "Cuánto"
+              }
+            ]
+          }
+        },
+        "c3-senado": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "El Senado",
+              "votó por",
+              "Panamá"
+            ],
+            "resalta": 2,
+            "calendario": {
+              "arriba": "Junio",
+              "numero": "19",
+              "abajo": "1902",
+              "lado": "izquierda",
+              "palabra": "junio",
+              "sello": "EE. UU.",
+              "palabra_sello": "Senado"
+            }
+          }
+        },
+        "c3-condicion": {
+          "plantilla": "mapa",
+          "datos": {
+            "vistas": [
+              {
+                "centro": [
+                  -82.3,
+                  10.4
+                ],
+                "ancho": 16
+              },
+              {
+                "centro": [
+                  -82.5,
+                  10.6
+                ],
+                "ancho": 17,
+                "palabra": "Si",
+                "dur": 1.4
+              }
+            ],
+            "paises": [
+              {
+                "id": "panama",
+                "color": "acento",
+                "opacidad": 0.6,
+                "en": 0
+              },
+              {
+                "id": "colombia",
+                "color": "acento2",
+                "opacidad": 0.45,
+                "palabra": "Colombia"
+              },
+              {
+                "id": "nicaragua",
+                "color": "acento2",
+                "opacidad": 0.5,
+                "palabra": "Si"
+              }
+            ],
+            "rutas": [
+              {
+                "puntos": "canal",
+                "estilo": "canal",
+                "en": 0.02,
+                "dur": 1
+              },
+              {
+                "puntos": "ruta_nicaragua",
+                "estilo": "discontinua",
+                "color": "tinta",
+                "grosor": 6,
+                "palabra": "Si",
+                "dur": 1
+              }
+            ],
+            "banderas": [
+              {
+                "pais": "colombia",
+                "lugar": [
+                  -76.4,
+                  8.9
+                ],
+                "tam": 80,
+                "palabra": "Colombia"
+              }
+            ],
+            "rotulos": [
+              {
+                "texto": "Panamá",
+                "lugar": [
+                  -80.9,
+                  8.55
+                ],
+                "estilo": "pais",
+                "tam": 44,
+                "en": 0
+              },
+              {
+                "texto": "Mar Caribe",
+                "lugar": [
+                  -79.6,
+                  12.6
+                ],
+                "estilo": "mar",
+                "tam": 36,
+                "en": 0
+              },
+              {
+                "texto": "Si no, Nicaragua",
+                "lugar": [
+                  -84.9,
+                  13.1
+                ],
+                "estilo": "titulo",
+                "tam": 44,
+                "palabra": "Si"
+              }
+            ],
+            "fichas": [
+              {
+                "texto": "con Colombia",
+                "dibujo": "documento",
+                "palabra": "acuerdo",
+                "lugar": "abajo-izquierda"
+              },
+              {
+                "texto": "tiempo razonable",
+                "dibujo": "reloj",
+                "palabra": "tiempo",
+                "lugar": "abajo-derecha"
+              }
+            ]
+          }
+        }
+      }
     },
     {
       "id": "c4",
@@ -2211,44 +3316,498 @@
       "frases": [
         {
           "id": "f29",
+          "escena": "c4-enero",
           "texto": "En enero de 1903, el secretario de Estado John Hay y el encargado de negocios de Colombia, Tomás Herrán, firmaron ese acuerdo en Washington.",
-          "imagen": "hay_herran"
+          "cortes": [
+            {
+              "escena": "c4-firma",
+              "palabra": 12
+            }
+          ]
         },
         {
           "id": "f30",
+          "escena": "c4-pago",
           "texto": "Colombia recibiría 10 millones de dólares y una renta de doscientos cincuenta mil al año. A cambio, Estados Unidos controlaría una franja de unos diez kilómetros de ancho durante un siglo.",
-          "imagen": "john_hay"
+          "cortes": [
+            {
+              "escena": "c4-franja",
+              "palabra": 15
+            }
+          ]
         },
         {
           "id": "f31",
+          "escena": "c4-pago",
           "texto": "Faltaba el Congreso colombiano. Según varios historiadores, el gobierno de José Manuel Marroquín no defendió el tratado con fuerza.",
-          "imagen": "capitolio"
+          "cortes": [
+            {
+              "escena": "c4-congreso",
+              "palabra": 4
+            }
+          ]
         },
         {
           "id": "f32",
+          "escena": "c4-cayo-mal",
           "texto": "En Bogotá cayó mal. Muchos congresistas sintieron que el pago era poco y que se cedía parte de la soberanía del país."
         },
         {
           "id": "f33",
-          "texto": "Y había cálculos: en la prensa de Bogotá se decía que, si caía la concesión francesa, el pago a la compañía podía quedar para Colombia.",
-          "imagen": "accion_canal"
+          "escena": "c4-calculos",
+          "texto": "Y había cálculos: en la prensa de Bogotá se decía que, si caía la concesión francesa, el pago a la compañía podía quedar para Colombia."
         },
         {
           "id": "f34",
-          "texto": "No hubo acuerdo para cambiarlo, y el 12 de agosto de 1903, el Senado de Colombia rechazó el tratado.",
-          "imagen": "capitolio"
+          "escena": "c4-rechazo",
+          "texto": "No hubo acuerdo para cambiarlo, y el 12 de agosto de 1903, el Senado de Colombia rechazó el tratado."
         },
         {
           "id": "f35",
+          "escena": "c4-dignidad",
           "texto": "Para muchos colombianos fue un acto de dignidad. Roosevelt, en cambio, se enfureció, y dejó saber que no le molestaría una revuelta en Panamá.",
-          "imagen": "roosevelt"
+          "cortes": [
+            {
+              "escena": "c4-furia",
+              "palabra": 11
+            }
+          ]
         },
         {
           "id": "f36",
+          "escena": "c4-dignidad",
           "texto": "En el istmo, un grupo de panameños ya conspiraba. Para ellos, el canal era el futuro, y Bogotá acababa de cerrarles la puerta.",
-          "imagen": "panama_1863"
+          "cortes": [
+            {
+              "escena": "c4-conspira",
+              "palabra": 3
+            }
+          ]
         }
-      ]
+      ],
+      "escenas": {
+        "c4-enero": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "Un acuerdo en Washington",
+            "lineas": [
+              "Enero",
+              "de 1903"
+            ],
+            "resalta": 1,
+            "calendario": {
+              "arriba": "Enero",
+              "numero": "22",
+              "abajo": "1903",
+              "lado": "derecha",
+              "palabra": "enero",
+              "sello": "Firma",
+              "palabra_sello": "Estado"
+            }
+          }
+        },
+        "c4-firma": {
+          "plantilla": "dos-personajes",
+          "datos": {
+            "izquierda": {
+              "personaje": "herran",
+              "rol": "Encargado de negocios de Colombia",
+              "palabra_bandera": "Colombia"
+            },
+            "derecha": {
+              "personaje": "hay",
+              "expresion": "sonrisa"
+            },
+            "firma": "izquierda",
+            "palabra_firma": "firmaron",
+            "foto": "File:Hay–Herrán Treaty.jpg",
+            "foto_pie": "Herrán y Hay (retratos de juventud)",
+            "palabra_foto": "Tomás"
+          }
+        },
+        "c4-pago": {
+          "plantilla": "cifra",
+          "datos": {
+            "titulo": "Lo que recibiría Colombia",
+            "cifras": [
+              {
+                "valor": 10,
+                "moneda": "US$",
+                "unidad": "millones",
+                "rotulo": "Pago inicial",
+                "palabra": "recibiría"
+              },
+              {
+                "valor": 250000,
+                "moneda": "US$",
+                "unidad": "al año",
+                "rotulo": "Renta anual",
+                "palabra": "doscientos",
+                "resalta": true
+              }
+            ]
+          }
+        },
+        "c4-franja": {
+          "plantilla": "mapa",
+          "datos": {
+            "vistas": [
+              {
+                "caja": [
+                  -83.4,
+                  10.5,
+                  -76.6,
+                  6.2
+                ]
+              },
+              {
+                "caja": [
+                  -80.35,
+                  9.55,
+                  -79.15,
+                  8.65
+                ],
+                "palabra": "franja",
+                "dur": 1.4
+              }
+            ],
+            "paises": [
+              {
+                "id": "panama",
+                "color": "acento2",
+                "opacidad": 0.35,
+                "en": 0
+              }
+            ],
+            "rutas": [
+              {
+                "puntos": "canal",
+                "estilo": "resalte",
+                "color": "acento",
+                "grosor": 40,
+                "palabra": "franja",
+                "dur": 1
+              }
+            ],
+            "banderas": [
+              {
+                "pais": "eeuu",
+                "lugar": [
+                  -79.6,
+                  9.22
+                ],
+                "tam": 80,
+                "palabra": "kilómetros"
+              }
+            ],
+            "marcas": [
+              {
+                "texto": "Colón",
+                "lugar": "colon",
+                "lado": "derecha",
+                "tam": 38,
+                "palabra": "franja"
+              },
+              {
+                "texto": "Panamá",
+                "lugar": "panama",
+                "lado": "izquierda",
+                "tam": 38,
+                "palabra": "franja"
+              }
+            ],
+            "rotulos": [
+              {
+                "texto": "Panamá (Colombia)",
+                "lugar": [
+                  -80.6,
+                  8.5
+                ],
+                "estilo": "pais",
+                "tam": 40,
+                "en": 0,
+                "hasta": "franja"
+              },
+              {
+                "texto": "Océano Pacífico",
+                "lugar": [
+                  -79.25,
+                  8.86
+                ],
+                "estilo": "mar",
+                "tam": 38,
+                "palabra": "franja"
+              }
+            ],
+            "cartela": {
+              "titulo": "Tratado Herrán-Hay",
+              "sub": "Una franja para el canal",
+              "palabra": "franja"
+            },
+            "fichas": [
+              {
+                "titulo": "10 km",
+                "texto": "de ancho, aprox.",
+                "palabra": "diez",
+                "hasta": "Faltaba",
+                "lugar": "abajo-izquierda"
+              },
+              {
+                "titulo": "100",
+                "texto": "años",
+                "dibujo": "reloj",
+                "palabra": "siglo",
+                "lugar": "arriba-derecha"
+              },
+              {
+                "titulo": "Falta",
+                "texto": "el Congreso",
+                "dibujo": "balanza",
+                "palabra": "Faltaba",
+                "lugar": "abajo-izquierda"
+              }
+            ]
+          }
+        },
+        "c4-congreso": {
+          "plantilla": "tablero",
+          "datos": {
+            "personajes": [
+              {
+                "personaje": "marroquin",
+                "expresion": "pensativo"
+              },
+              "herran",
+              "hay"
+            ],
+            "papeles": [
+              {
+                "foto": "File:Postal El Capitolio - Bogotá.jpg",
+                "pie": "El Capitolio de Bogotá (postal de la época)"
+              },
+              {
+                "foto": "File:His neighborly suggestion - J.S. Pughe. LCCN2010652238.jpg",
+                "pie": "Puck, 25 de marzo de 1903"
+              }
+            ],
+            "titulo": "Según varios historiadores",
+            "palabras": {
+              "papeles": "Según",
+              "titulo": "historiadores",
+              "personajes": "gobierno",
+              "hilos": "defendió"
+            }
+          }
+        },
+        "c4-cayo-mal": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "En Bogotá cayó mal",
+            "fichas": [
+              {
+                "texto": "Pago insuficiente",
+                "dibujo": "moneda",
+                "palabra": "sintieron"
+              },
+              {
+                "texto": "Soberanía en juego",
+                "dibujo": "bandera",
+                "palabra": "cedía",
+                "resalta": true
+              }
+            ]
+          }
+        },
+        "c4-calculos": {
+          "plantilla": "recorte",
+          "datos": {
+            "foto": "File:Canal Interoceanique de Panama 1880.jpg",
+            "pie": "Acción de la compañía francesa del canal, 1880",
+            "lado": "derecha",
+            "insignia": "Según la prensa, 1903",
+            "titulo": "Los cálculos de Bogotá",
+            "texto": "Si caía la concesión francesa, el pago a la compañía podía quedar para Colombia",
+            "marca": {
+              "x": 0.5,
+              "y": 0.1,
+              "r": 0.34,
+              "palabra": "compañía"
+            },
+            "palabras": {
+              "titulo": "cálculos",
+              "texto": "caía"
+            }
+          }
+        },
+        "c4-rechazo": {
+          "plantilla": "tratado",
+          "datos": {
+            "titulo": "Tratado",
+            "sub": "Herrán-Hay, enero de 1903",
+            "desde": {
+              "arriba": "Ene",
+              "numero": "22"
+            },
+            "hasta": {
+              "arriba": "Ago",
+              "numero": "12"
+            },
+            "lapso": "casi siete meses",
+            "franja": "Zona de unos 10 km",
+            "rechazado": true,
+            "palabras": {
+              "documento": "No",
+              "franja": "acuerdo",
+              "lapso": "agosto",
+              "sello": "rechazó"
+            }
+          }
+        },
+        "c4-dignidad": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "Para muchos colombianos",
+            "lineas": [
+              "Un acto",
+              "de dignidad"
+            ],
+            "resalta": 1,
+            "dibujo": "balanza",
+            "palabra_dibujo": "colombianos"
+          }
+        },
+        "c4-furia": {
+          "plantilla": "personaje",
+          "datos": {
+            "personaje": "roosevelt",
+            "pose": "senalar",
+            "expresion": "enojado",
+            "rol": "No le molestaría una revuelta en Panamá",
+            "palabra_rol": "molestaría",
+            "anios": "1903"
+          }
+        },
+        "c4-conspira": {
+          "plantilla": "mapa",
+          "datos": {
+            "vistas": [
+              {
+                "caja": [
+                  -83.4,
+                  10.5,
+                  -76.6,
+                  6.2
+                ]
+              },
+              {
+                "centro": [
+                  -77.6,
+                  6.8
+                ],
+                "ancho": 19,
+                "palabra": "Bogotá",
+                "dur": 1.5
+              }
+            ],
+            "paises": [
+              {
+                "id": "panama",
+                "color": "acento",
+                "opacidad": 0.6,
+                "en": 0
+              },
+              {
+                "id": "colombia",
+                "color": "acento2",
+                "opacidad": 0.4,
+                "palabra": "Bogotá"
+              }
+            ],
+            "rutas": [
+              {
+                "puntos": [
+                  [
+                    -79.95,
+                    9.75
+                  ],
+                  [
+                    -79.75,
+                    9.2
+                  ],
+                  [
+                    -79.45,
+                    8.6
+                  ]
+                ],
+                "estilo": "flecha",
+                "grosor": 9,
+                "color": "acento",
+                "palabra": "canal",
+                "dur": 0.8
+              }
+            ],
+            "marcas": [
+              {
+                "texto": "Ciudad de Panamá",
+                "lugar": "panama",
+                "lado": "abajo",
+                "tam": 38,
+                "en": 0.03
+              },
+              {
+                "texto": "Bogotá",
+                "lugar": "bogota",
+                "lado": "derecha",
+                "tam": 40,
+                "palabra": "Bogotá"
+              }
+            ],
+            "rotulos": [
+              {
+                "texto": "Mar Caribe",
+                "lugar": [
+                  -79.4,
+                  10.15
+                ],
+                "estilo": "mar",
+                "tam": 40,
+                "en": 0
+              },
+              {
+                "texto": "El canal, su futuro",
+                "lugar": [
+                  -78.2,
+                  9.75
+                ],
+                "estilo": "titulo",
+                "tam": 40,
+                "palabra": "futuro",
+                "hasta": "Bogotá"
+              }
+            ],
+            "cartela": {
+              "titulo": "El istmo, 1903",
+              "sub": "Un grupo de panameños conspira",
+              "palabra": "grupo"
+            },
+            "fichas": [
+              {
+                "texto": "conspiración",
+                "dibujo": "pluma",
+                "palabra": "conspiraba",
+                "lugar": "abajo-izquierda"
+              },
+              {
+                "texto": "puerta cerrada",
+                "dibujo": "documento",
+                "tachar": true,
+                "palabra": "Bogotá",
+                "lugar": "abajo-derecha"
+              }
+            ]
+          }
+        }
+      }
     },
     {
       "id": "c5",
@@ -2256,64 +3815,840 @@
       "frases": [
         {
           "id": "f37",
+          "escena": "c5-amador",
           "texto": "Uno de sus líderes, el médico Manuel Amador Guerrero, viajó a Nueva York a buscar apoyo. Allí se reunió con Bunau-Varilla.",
-          "imagen": "amador"
+          "cortes": [
+            {
+              "escena": "c5-reunion",
+              "palabra": 16
+            }
+          ]
         },
         {
           "id": "f38",
+          "escena": "c5-amador",
           "texto": "El francés le prometió dinero y respaldo estadounidense, y le dio un borrador de declaración de independencia, una constitución y hasta una bandera.",
-          "imagen": "bunau_varilla"
+          "cortes": [
+            {
+              "escena": "c5-kit",
+              "palabra": 8
+            }
+          ]
         },
         {
           "id": "f39",
-          "texto": "A cambio, pidió algo para él: ser el representante de la nueva república en Washington."
+          "escena": "c5-amador",
+          "texto": "A cambio, pidió algo para él: ser el representante de la nueva república en Washington.",
+          "cortes": [
+            {
+              "escena": "c5-precio",
+              "palabra": 2
+            }
+          ]
         },
         {
           "id": "f40",
+          "escena": "c5-nashville",
           "texto": "El 2 de noviembre de 1903 llegó a Colón el cañonero estadounidense Nashville. Sus órdenes: mantener libre el paso por el istmo e impedir desembarcos armados hostiles.",
-          "imagen": "nashville"
+          "cortes": [
+            {
+              "escena": "c5-ordenes",
+              "palabra": 13
+            }
+          ]
         },
         {
           "id": "f41",
-          "texto": "Al día siguiente, el 3 de noviembre, desembarcó en Colón un batallón colombiano. En Bogotá ya se sospechaba de una conspiración.",
-          "imagen": "colon_calle"
+          "escena": "c5-batallon",
+          "texto": "Al día siguiente, el 3 de noviembre, desembarcó en Colón un batallón colombiano. En Bogotá ya se sospechaba de una conspiración."
         },
         {
           "id": "f42",
+          "escena": "c5-tren",
           "texto": "Pero el ferrocarril, manejado por estadounidenses, solo llevó a Ciudad de Panamá a los generales. Los soldados se quedaron en Colón.",
-          "imagen": "ferrocarril_1855"
+          "cortes": [
+            {
+              "escena": "c5-tropa",
+              "palabra": 15
+            }
+          ]
         },
         {
           "id": "f43",
+          "escena": "c5-tren",
           "texto": "En la capital del istmo, el jefe de la guarnición, Esteban Huertas, se puso del lado de los separatistas y mandó arrestar a los generales.",
-          "imagen": "cuartel_panama"
+          "cortes": [
+            {
+              "escena": "c5-huertas",
+              "palabra": 10
+            }
+          ]
         },
         {
           "id": "f44",
-          "texto": "Esa misma tarde se proclamó la separación. Después de ochenta y dos años, Panamá dejaba de ser parte de Colombia.",
-          "imagen": "acta_independencia"
+          "escena": "c5-acta",
+          "texto": "Esa misma tarde se proclamó la separación. Después de ochenta y dos años, Panamá dejaba de ser parte de Colombia."
         },
         {
           "id": "f45",
+          "escena": "c5-bahia",
           "texto": "Desde la bahía, el barco colombiano Bogotá disparó contra la ciudad. Murió un comerciante chino, una de las poquísimas víctimas de esos días.",
-          "imagen": "panama_1863"
+          "cortes": [
+            {
+              "escena": "c5-victima",
+              "palabra": 11
+            }
+          ]
         },
         {
           "id": "f46",
+          "escena": "c5-orden",
           "texto": "En Colón, el comandante del Nashville prohibió que el tren moviera tropas. El coronel colombiano Eliseo Torres amenazó con pelear, pero no tenía cómo avanzar.",
-          "imagen": "nashville"
+          "cortes": [
+            {
+              "escena": "c5-torres",
+              "palabra": 12
+            }
+          ]
         },
         {
           "id": "f47",
-          "texto": "Por tierra no había otra ruta: en medio estaba la selva del Darién, que todavía hoy no tiene carretera.",
-          "imagen": "mapa_estado_panama_1865"
+          "escena": "c5-darien",
+          "texto": "Por tierra no había otra ruta: en medio estaba la selva del Darién, que todavía hoy no tiene carretera."
         },
         {
           "id": "f48",
+          "escena": "c5-tres-dias",
           "texto": "El 5 de noviembre, los soldados colombianos se embarcaron de regreso. Al día siguiente, Estados Unidos reconoció al nuevo gobierno panameño.",
-          "imagen": "bandera_bautizo"
+          "cortes": [
+            {
+              "escena": "c5-reconoce",
+              "palabra": 11
+            }
+          ]
         }
-      ]
+      ],
+      "escenas": {
+        "c5-amador": {
+          "plantilla": "personaje",
+          "datos": {
+            "personaje": "amador",
+            "anios": "Médico",
+            "rol": "Viajó a Nueva York a buscar apoyo",
+            "palabra_anios": "médico",
+            "palabra_rol": "viajó"
+          }
+        },
+        "c5-reunion": {
+          "plantilla": "dos-personajes",
+          "datos": {
+            "izquierda": {
+              "personaje": "amador",
+              "bandera": "",
+              "expresion": "pensativo"
+            },
+            "derecha": {
+              "personaje": "bunau",
+              "pose": "senalar",
+              "expresion": "astuto",
+              "palabra_bandera": "francés"
+            },
+            "palabra_firma": "estadounidense",
+            "foto": "File:Amador Guerrero, Manuel.jpg",
+            "foto_pie": "Manuel Amador Guerrero",
+            "palabra_foto": "reunió"
+          }
+        },
+        "c5-kit": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "Lo que le dio Bunau-Varilla",
+            "foto": "File:Portrait of Philippe-Jean Bunau-Varilla.jpg",
+            "foto_pie": "Bunau-Varilla (foto anterior a 1904)",
+            "fichas": [
+              {
+                "texto": "Declaración (borrador)",
+                "dibujo": "documento",
+                "palabra": "declaración"
+              },
+              {
+                "texto": "Una constitución",
+                "dibujo": "pluma",
+                "palabra": "constitución"
+              },
+              {
+                "texto": "Hasta una bandera",
+                "dibujo": "bandera",
+                "palabra": "bandera",
+                "resalta": true
+              }
+            ]
+          }
+        },
+        "c5-precio": {
+          "plantilla": "recorte",
+          "datos": {
+            "foto": "File:Panama canal cartoon 1903.jpg",
+            "lado": "derecha",
+            "pie": "Junto al huevo, sus credenciales de ministro",
+            "insignia": "Caricatura de 1903",
+            "titulo": "Lo que pidió a cambio",
+            "texto": "Ser el representante de la nueva república en Washington",
+            "marca": {
+              "x": 0.665,
+              "y": 0.49,
+              "r": 0.1,
+              "palabra": "representante"
+            },
+            "palabras": {
+              "foto": "cambio",
+              "titulo": "pidió",
+              "texto": "ser"
+            }
+          }
+        },
+        "c5-nashville": {
+          "plantilla": "vehiculo",
+          "datos": {
+            "tipo": "barco",
+            "guerra": true,
+            "bandera": "eeuu",
+            "anio": "1903",
+            "rotulo": "USS Nashville",
+            "detalle": "Llega a Colón el 2 de noviembre",
+            "foto": "File:Uss Nashville PG-7.jpg",
+            "foto_pie": "El Nashville (foto de época)",
+            "palabras": {
+              "anio": "1903",
+              "entra": "llegó",
+              "foto": "Colón",
+              "rotulo": "cañonero",
+              "detalle": "estadounidense"
+            }
+          }
+        },
+        "c5-ordenes": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "Las órdenes del Nashville",
+            "fichas": [
+              {
+                "texto": "Mantener libre el paso",
+                "dibujo": "tren",
+                "palabra": "mantener"
+              },
+              {
+                "texto": "Impedir desembarco armado",
+                "dibujo": "canon",
+                "palabra": "impedir",
+                "resalta": true
+              }
+            ]
+          }
+        },
+        "c5-batallon": {
+          "plantilla": "mapa",
+          "datos": {
+            "vistas": [
+              {
+                "caja": [
+                  -81,
+                  10.15,
+                  -78.7,
+                  8.85
+                ]
+              },
+              {
+                "centro": [
+                  -77.4,
+                  7.2
+                ],
+                "ancho": 22,
+                "palabra": "Bogotá",
+                "dur": 1.5
+              }
+            ],
+            "paises": [
+              {
+                "id": "panama",
+                "color": "acento2",
+                "opacidad": 0.3,
+                "en": 0
+              },
+              {
+                "id": "colombia",
+                "color": "acento2",
+                "opacidad": 0.45,
+                "palabra": "Bogotá"
+              }
+            ],
+            "rutas": [
+              {
+                "puntos": [
+                  [
+                    -78.8,
+                    10.1
+                  ],
+                  [
+                    -79.6,
+                    9.72
+                  ],
+                  [
+                    -79.88,
+                    9.43
+                  ]
+                ],
+                "estilo": "discontinua",
+                "color": "acento",
+                "grosor": 6,
+                "movil": "barco",
+                "palabra": "desembarcó",
+                "dur": 1.3,
+                "hasta": "Bogotá"
+              }
+            ],
+            "marcas": [
+              {
+                "texto": "Colón",
+                "lugar": "colon",
+                "lado": "izquierda",
+                "tam": 46,
+                "en": 0.02,
+                "hasta": "Bogotá"
+              },
+              {
+                "texto": "Bogotá",
+                "lugar": "bogota",
+                "lado": "derecha",
+                "tam": 40,
+                "palabra": "Bogotá"
+              }
+            ],
+            "banderas": [
+              {
+                "pais": "colombia",
+                "lugar": [
+                  -79.72,
+                  9.24
+                ],
+                "tam": 90,
+                "palabra": "batallón",
+                "hasta": "Bogotá"
+              }
+            ],
+            "rotulos": [
+              {
+                "texto": "Mar Caribe",
+                "lugar": [
+                  -80.3,
+                  9.72
+                ],
+                "estilo": "mar",
+                "tam": 40,
+                "en": 0,
+                "hasta": "Bogotá"
+              },
+              {
+                "texto": "¿Conspiración?",
+                "lugar": [
+                  -77,
+                  10.4
+                ],
+                "estilo": "titulo",
+                "tam": 56,
+                "palabra": "sospechaba"
+              }
+            ],
+            "cartela": {
+              "titulo": "3 de noviembre de 1903",
+              "sub": "Un batallón colombiano llega a Colón"
+            }
+          }
+        },
+        "c5-tren": {
+          "plantilla": "vehiculo",
+          "datos": {
+            "tipo": "tren",
+            "anio": "1903",
+            "rotulo": "Solo los generales",
+            "detalle": "Manejado por estadounidenses",
+            "palabras": {
+              "anio": "Pero",
+              "entra": "ferrocarril",
+              "detalle": "manejado",
+              "rotulo": "llevó"
+            }
+          }
+        },
+        "c5-tropa": {
+          "plantilla": "mapa",
+          "datos": {
+            "vistas": [
+              {
+                "caja": [
+                  -80.55,
+                  9.7,
+                  -78.85,
+                  8.6
+                ]
+              }
+            ],
+            "paises": [
+              {
+                "id": "panama",
+                "color": "acento2",
+                "opacidad": 0.3,
+                "en": 0
+              }
+            ],
+            "rutas": [
+              {
+                "puntos": "ferrocarril",
+                "estilo": "tren",
+                "grosor": 12,
+                "movil": "tren",
+                "tam_icono": 80,
+                "palabra": "Los",
+                "dur": 1.6
+              }
+            ],
+            "marcas": [
+              {
+                "texto": "Colón",
+                "lugar": "colon",
+                "lado": "izquierda",
+                "tam": 46,
+                "en": 0.02
+              },
+              {
+                "texto": "Ciudad de Panamá",
+                "lugar": "panama",
+                "lado": "derecha",
+                "tam": 46,
+                "en": 0.04
+              }
+            ],
+            "banderas": [
+              {
+                "pais": "colombia",
+                "lugar": [
+                  -79.75,
+                  9.26
+                ],
+                "tam": 80,
+                "palabra": "soldados"
+              }
+            ],
+            "rotulos": [
+              {
+                "texto": "Batallón Tiradores",
+                "lugar": [
+                  -79.6,
+                  9.2
+                ],
+                "estilo": "titulo",
+                "tam": 36,
+                "palabra": "soldados"
+              },
+              {
+                "texto": "La guarnición",
+                "lugar": [
+                  -79.32,
+                  9.12
+                ],
+                "estilo": "titulo",
+                "tam": 40,
+                "palabra": "guarnición"
+              }
+            ],
+            "cartela": {
+              "titulo": "La tropa, en Colón",
+              "sub": "Los generales, ya en la capital"
+            }
+          }
+        },
+        "c5-huertas": {
+          "plantilla": "personaje",
+          "datos": {
+            "personaje": "huertas",
+            "anios": "1876-1943",
+            "rol": "Jefe de la guarnición; apoyó la separación",
+            "palabra_anios": "Huertas",
+            "palabra_rol": "separatistas",
+            "pose": "senalar",
+            "expresion": "serio"
+          }
+        },
+        "c5-acta": {
+          "plantilla": "recorte",
+          "datos": {
+            "foto": "File:Acta de independencia de Panamá 1903.jpg",
+            "pie": "Acta de independencia (facsímil)",
+            "insignia": "3 de noviembre de 1903",
+            "titulo": "Se proclama la separación",
+            "texto": "Después de 82 años, Panamá deja de ser parte de Colombia",
+            "palabras": {
+              "titulo": "proclamó",
+              "texto": "Después"
+            }
+          }
+        },
+        "c5-bahia": {
+          "plantilla": "mapa",
+          "datos": {
+            "vistas": [
+              {
+                "caja": [
+                  -80.7,
+                  9.5,
+                  -78.3,
+                  8.15
+                ]
+              }
+            ],
+            "paises": [
+              {
+                "id": "panama",
+                "color": "acento2",
+                "opacidad": 0.3,
+                "en": 0
+              }
+            ],
+            "rutas": [
+              {
+                "puntos": [
+                  [
+                    -78.95,
+                    8.5
+                  ],
+                  [
+                    -79.2,
+                    8.72
+                  ],
+                  [
+                    -79.38,
+                    8.84
+                  ]
+                ],
+                "estilo": "discontinua",
+                "color": "tinta",
+                "grosor": 5,
+                "movil": "barco",
+                "palabra": "bahía",
+                "dur": 1.4
+              },
+              {
+                "puntos": [
+                  [
+                    -79.43,
+                    8.875
+                  ],
+                  [
+                    -79.5,
+                    8.94
+                  ]
+                ],
+                "estilo": "flecha",
+                "color": "acento",
+                "grosor": 9,
+                "palabra": "disparó",
+                "dur": 0.4
+              }
+            ],
+            "marcas": [
+              {
+                "texto": "Ciudad de Panamá",
+                "lugar": "panama",
+                "lado": "izquierda",
+                "tam": 44,
+                "en": 0.02
+              }
+            ],
+            "banderas": [
+              {
+                "pais": "colombia",
+                "lugar": [
+                  -79.18,
+                  8.86
+                ],
+                "tam": 80,
+                "palabra": "colombiano"
+              }
+            ],
+            "rotulos": [
+              {
+                "texto": "Bahía de Panamá",
+                "lugar": [
+                  -78.95,
+                  8.38
+                ],
+                "estilo": "mar",
+                "tam": 40,
+                "en": 0
+              }
+            ],
+            "cartela": {
+              "titulo": "El cañonero Bogotá",
+              "sub": "Disparó contra la ciudad",
+              "palabra": "Bogotá"
+            }
+          }
+        },
+        "c5-victima": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "El Chorrillo, Ciudad de Panamá",
+            "lineas": [
+              "Murió un",
+              "comerciante chino"
+            ],
+            "resalta": 1,
+            "dibujo": "cruz",
+            "palabra_dibujo": "Murió"
+          }
+        },
+        "c5-orden": {
+          "plantilla": "tratado",
+          "datos": {
+            "titulo": "Orden",
+            "sub": "Comandante del Nashville, 4 de noviembre",
+            "franja": "Ferrocarril: sin tropas",
+            "rechazado": true,
+            "texto_rechazo": "Prohibido",
+            "palabras": {
+              "documento": "comandante",
+              "sello": "prohibió",
+              "franja": "tren"
+            }
+          }
+        },
+        "c5-torres": {
+          "plantilla": "dos-personajes",
+          "datos": {
+            "izquierda": {
+              "personaje": "soldado",
+              "nombre": "Eliseo Torres",
+              "rol": "Coronel colombiano en Colón",
+              "charreteras": true,
+              "pose": "jarras",
+              "expresion": "enojado",
+              "palabra_bandera": "coronel"
+            },
+            "derecha": {
+              "personaje": "marinero",
+              "nombre": "John Hubbard",
+              "rol": "Comandante del Nashville",
+              "sombrero": "ninguno",
+              "charreteras": true,
+              "pose": "brazos-cruzados",
+              "expresion": "serio",
+              "palabra_bandera": "Torres"
+            },
+            "firma": "derecha",
+            "palabra_firma": "pelear"
+          }
+        },
+        "c5-darien": {
+          "plantilla": "mapa",
+          "datos": {
+            "vistas": [
+              {
+                "centro": [
+                  -78,
+                  7.9
+                ],
+                "ancho": 9
+              }
+            ],
+            "paises": [
+              {
+                "id": "panama",
+                "color": "acento2",
+                "opacidad": 0.35,
+                "en": 0
+              },
+              {
+                "id": "colombia",
+                "color": "acento2",
+                "opacidad": 0.35,
+                "en": 0
+              }
+            ],
+            "rutas": [
+              {
+                "puntos": [
+                  [
+                    -78.25,
+                    8.75
+                  ],
+                  [
+                    -77.75,
+                    8.15
+                  ],
+                  [
+                    -77.3,
+                    7.45
+                  ]
+                ],
+                "estilo": "resalte",
+                "color": "#5d7a45",
+                "grosor": 150,
+                "palabra": "selva",
+                "dur": 0.8
+              },
+              {
+                "puntos": [
+                  [
+                    -75.4,
+                    6.3
+                  ],
+                  [
+                    -76.3,
+                    7
+                  ],
+                  [
+                    -77,
+                    7.55
+                  ]
+                ],
+                "estilo": "discontinua",
+                "color": "alerta",
+                "grosor": 8,
+                "palabra": "tierra",
+                "dur": 1
+              }
+            ],
+            "montes": {
+              "puntos": [
+                [
+                  -78.05,
+                  8.45
+                ],
+                [
+                  -77.75,
+                  8.1
+                ],
+                [
+                  -77.45,
+                  7.75
+                ],
+                [
+                  -77.9,
+                  7.8
+                ],
+                [
+                  -77.55,
+                  8.35
+                ]
+              ],
+              "tam": 80,
+              "palabra": "selva"
+            },
+            "rotulos": [
+              {
+                "texto": "Colombia",
+                "lugar": [
+                  -75.3,
+                  7.4
+                ],
+                "estilo": "pais",
+                "tam": 50,
+                "en": 0
+              },
+              {
+                "texto": "Panamá",
+                "lugar": [
+                  -80.2,
+                  8.45
+                ],
+                "estilo": "pais",
+                "tam": 44,
+                "en": 0
+              },
+              {
+                "texto": "Mar Caribe",
+                "lugar": [
+                  -78.6,
+                  9.85
+                ],
+                "estilo": "mar",
+                "tam": 38,
+                "en": 0
+              },
+              {
+                "texto": "Selva del Darién",
+                "lugar": [
+                  -77,
+                  8.95
+                ],
+                "estilo": "titulo",
+                "tam": 46,
+                "palabra": "Darién"
+              }
+            ],
+            "cartela": {
+              "titulo": "Por tierra, imposible",
+              "sub": "Ni hoy hay carretera por el Darién",
+              "palabra": "ruta"
+            },
+            "fichas": [
+              {
+                "texto": "sin carretera",
+                "dibujo": "montana",
+                "tachar": true,
+                "palabra": "todavía",
+                "lugar": "abajo-derecha"
+              }
+            ]
+          }
+        },
+        "c5-tres-dias": {
+          "plantilla": "linea-tiempo",
+          "datos": {
+            "titulo": "Noviembre de 1903",
+            "actual": 2,
+            "palabra_actual": "embarcaron",
+            "hitos": [
+              {
+                "anio": "2 nov",
+                "texto": "El Nashville llega a Colón"
+              },
+              {
+                "anio": "3 nov",
+                "texto": "Se proclama la separación"
+              },
+              {
+                "anio": "5 nov",
+                "texto": "La tropa colombiana se va"
+              },
+              {
+                "anio": "6 nov",
+                "texto": "EE. UU. reconoce a Panamá"
+              }
+            ]
+          }
+        },
+        "c5-reconoce": {
+          "plantilla": "recorte",
+          "datos": {
+            "foto": "File:A revelation in revolutions - Kep. LCCN2010652322.jpg",
+            "pie": "El Tío Sam, con los planos del canal",
+            "insignia": "Puck, noviembre de 1903",
+            "titulo": "EE. UU. reconoce a Panamá",
+            "texto": "6 de noviembre de 1903: reconoce al nuevo gobierno",
+            "marca": {
+              "x": 0.64,
+              "y": 0.42,
+              "r": 0.14,
+              "palabra": "reconoció"
+            },
+            "palabras": {
+              "titulo": "Estados",
+              "texto": "Unidos"
+            }
+          }
+        }
+      }
     },
     {
       "id": "c6",
@@ -2321,33 +4656,390 @@
       "frases": [
         {
           "id": "f49",
-          "texto": "Bunau-Varilla ya tenía su nombramiento. El 18 de noviembre de 1903 firmó con John Hay el tratado del canal.",
-          "imagen": "caricatura_revelacion"
+          "escena": "c6-firma",
+          "texto": "Bunau-Varilla ya tenía su nombramiento. El 18 de noviembre de 1903 firmó con John Hay el tratado del canal."
         },
         {
           "id": "f50",
+          "escena": "c6-camino",
           "texto": "Amador Guerrero y otro delegado panameño venían en camino a Washington. Cuando llegaron, el tratado ya estaba firmado."
         },
         {
           "id": "f51",
+          "escena": "c6-duras",
           "texto": "Las condiciones eran más duras que las rechazadas por Colombia: la franja pasó de unos diez a unos dieciséis kilómetros de ancho, y ya no por un siglo, sino a perpetuidad.",
-          "imagen": "caricatura_huevo"
+          "cortes": [
+            {
+              "escena": "c6-ancho",
+              "palabra": 10
+            },
+            {
+              "escena": "c6-zona",
+              "palabra": 22
+            }
+          ]
         },
         {
           "id": "f52",
+          "escena": "c6-duras",
           "texto": "Dentro de ella, Estados Unidos actuaría como si fuera el soberano. Panamá recibió los mismos 10 millones y la misma renta anual que antes le ofrecían a Colombia.",
-          "imagen": "john_hay"
+          "cortes": [
+            {
+              "escena": "c6-pago",
+              "palabra": 11
+            }
+          ]
         },
         {
           "id": "f53",
-          "texto": "Los 40 millones fueron para la compañía francesa. Colombia, en ese momento, no recibió nada.",
-          "imagen": "noticia_bogota"
+          "escena": "c6-millones",
+          "texto": "Los 40 millones fueron para la compañía francesa. Colombia, en ese momento, no recibió nada."
         },
         {
           "id": "f54",
+          "escena": "c6-noticia",
           "texto": "En Bogotá, la noticia cayó como un golpe. Colombia protestó y mandó un enviado a Washington, sin lograr nada."
         }
-      ]
+      ],
+      "escenas": {
+        "c6-firma": {
+          "plantilla": "dos-personajes",
+          "datos": {
+            "izquierda": {
+              "personaje": "bunau",
+              "bandera": "panama",
+              "palabra_bandera": "nombramiento",
+              "expresion": "astuto"
+            },
+            "derecha": {
+              "personaje": "hay",
+              "expresion": "sonrisa",
+              "palabra_bandera": "Hay"
+            },
+            "firma": "izquierda",
+            "palabra_firma": "firmó",
+            "foto": "File:John Hay, half-length portrait, seated LCCN2005685611.jpg",
+            "foto_pie": "John Hay, secretario de Estado (1902)",
+            "palabra_foto": "John"
+          }
+        },
+        "c6-camino": {
+          "plantilla": "mapa",
+          "datos": {
+            "vistas": [
+              {
+                "centro": [
+                  -78,
+                  14
+                ],
+                "ancho": 40
+              }
+            ],
+            "paises": [
+              {
+                "id": "panama",
+                "color": "acento2",
+                "opacidad": 0.5,
+                "en": 0
+              }
+            ],
+            "rutas": [
+              {
+                "puntos": [
+                  [
+                    -79.9,
+                    9.5
+                  ],
+                  [
+                    -77.5,
+                    14
+                  ],
+                  [
+                    -74.3,
+                    19.8
+                  ],
+                  [
+                    -73.6,
+                    23
+                  ],
+                  [
+                    -74,
+                    27.5
+                  ]
+                ],
+                "estilo": "discontinua",
+                "color": "acento",
+                "grosor": 6,
+                "movil": "barco",
+                "palabra": "venían",
+                "dur": 2.2
+              }
+            ],
+            "banderas": [
+              {
+                "pais": "panama",
+                "lugar": [
+                  -81.2,
+                  8.2
+                ],
+                "tam": 80,
+                "en": 0.05
+              }
+            ],
+            "rotulos": [
+              {
+                "texto": "Mar Caribe",
+                "lugar": [
+                  -80.5,
+                  15.5
+                ],
+                "estilo": "mar",
+                "tam": 36,
+                "en": 0
+              },
+              {
+                "texto": "Hacia Washington",
+                "lugar": [
+                  -68.5,
+                  22.6
+                ],
+                "estilo": "titulo",
+                "tam": 44,
+                "palabra": "Washington"
+              }
+            ],
+            "cartela": {
+              "titulo": "Rumbo a Washington",
+              "sub": "Dos delegados panameños en camino"
+            },
+            "fichas": [
+              {
+                "texto": "Amador y Boyd",
+                "dibujo": "barco",
+                "palabra": "Amador",
+                "lugar": "abajo-izquierda"
+              },
+              {
+                "titulo": "18",
+                "texto": "nov.: firmado",
+                "dibujo": "documento",
+                "palabra": "tratado",
+                "lugar": "abajo-derecha"
+              }
+            ]
+          }
+        },
+        "c6-duras": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "Tratado Hay-Bunau-Varilla",
+            "lineas": [
+              "Más duras",
+              "que las",
+              "rechazadas"
+            ],
+            "resalta": 0,
+            "dibujo": "balanza",
+            "palabra_dibujo": "condiciones"
+          }
+        },
+        "c6-ancho": {
+          "plantilla": "cifra",
+          "datos": {
+            "titulo": "Ancho de la franja del canal",
+            "cifras": [
+              {
+                "valor": 10,
+                "unidad": "km",
+                "rotulo": "Hay-Herrán, rechazado",
+                "palabra": "diez"
+              },
+              {
+                "valor": 16,
+                "unidad": "km",
+                "rotulo": "Hay-Bunau-Varilla",
+                "palabra": "dieciséis",
+                "resalta": true
+              }
+            ]
+          }
+        },
+        "c6-zona": {
+          "plantilla": "mapa",
+          "datos": {
+            "vistas": [
+              {
+                "caja": [
+                  -80.25,
+                  9.62,
+                  -79.25,
+                  8.78
+                ]
+              },
+              {
+                "caja": [
+                  -80.18,
+                  9.56,
+                  -79.32,
+                  8.84
+                ],
+                "palabra": "Dentro",
+                "dur": 2
+              }
+            ],
+            "paises": [
+              {
+                "id": "panama",
+                "color": "acento2",
+                "opacidad": 0.3,
+                "en": 0
+              }
+            ],
+            "rutas": [
+              {
+                "puntos": "ferrocarril",
+                "estilo": "tren",
+                "grosor": 8,
+                "en": 0
+              },
+              {
+                "puntos": "canal",
+                "estilo": "resalte",
+                "color": "acento",
+                "grosor": 108,
+                "palabra": "siglo",
+                "dur": 1.2
+              }
+            ],
+            "marcas": [
+              {
+                "texto": "Colón",
+                "lugar": "colon",
+                "lado": "izquierda",
+                "tam": 40,
+                "en": 0.02
+              },
+              {
+                "texto": "Panamá",
+                "lugar": "panama",
+                "lado": "derecha",
+                "tam": 40,
+                "en": 0.04
+              }
+            ],
+            "banderas": [
+              {
+                "pais": "eeuu",
+                "lugar": [
+                  -79.72,
+                  9.17
+                ],
+                "tam": 110,
+                "palabra": "Estados"
+              }
+            ],
+            "rotulos": [
+              {
+                "texto": "Zona del Canal",
+                "lugar": [
+                  -79.42,
+                  9.32
+                ],
+                "estilo": "titulo",
+                "tam": 42,
+                "palabra": "perpetuidad"
+              }
+            ],
+            "cartela": {
+              "titulo": "La Zona del Canal",
+              "sub": "Unos 16 km de ancho, a perpetuidad",
+              "palabra": "perpetuidad"
+            },
+            "fichas": [
+              {
+                "texto": "como soberano",
+                "dibujo": "bandera",
+                "palabra": "actuaría",
+                "lugar": "abajo-izquierda"
+              }
+            ]
+          }
+        },
+        "c6-pago": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "Lo que recibió Panamá",
+            "fichas": [
+              {
+                "texto": "10 millones de dólares",
+                "dibujo": "moneda",
+                "palabra": "10"
+              },
+              {
+                "texto": "250.000 dólares al año",
+                "dibujo": "calendario",
+                "palabra": "renta"
+              },
+              {
+                "texto": "Lo mismo que a Colombia",
+                "dibujo": "balanza",
+                "palabra": "antes",
+                "resalta": true
+              }
+            ]
+          }
+        },
+        "c6-millones": {
+          "plantilla": "cifra",
+          "datos": {
+            "titulo": "Los millones del canal",
+            "cifras": [
+              {
+                "valor": 40,
+                "moneda": "US$",
+                "unidad": "millones",
+                "rotulo": "Compañía francesa",
+                "palabra": "40",
+                "resalta": true
+              },
+              {
+                "valor": 10,
+                "moneda": "US$",
+                "unidad": "millones",
+                "rotulo": "Panamá",
+                "palabra": "francesa"
+              },
+              {
+                "valor": 0,
+                "moneda": "US$",
+                "unidad": "millones",
+                "rotulo": "Colombia",
+                "palabra": "Colombia"
+              }
+            ]
+          }
+        },
+        "c6-noticia": {
+          "plantilla": "recorte",
+          "datos": {
+            "foto": "File:Panam2.JPG",
+            "pie": "«The News Reaches Bogotá» (1903)",
+            "insignia": "Diciembre de 1903",
+            "titulo": "La noticia llega a Bogotá",
+            "texto": "Colombia protestó y envió a Washington al general Rafael Reyes, sin lograr nada",
+            "marca": {
+              "x": 0.115,
+              "y": 0.6,
+              "r": 0.085,
+              "palabra": "golpe"
+            },
+            "palabras": {
+              "titulo": "noticia",
+              "texto": "protestó"
+            }
+          }
+        }
+      }
     },
     {
       "id": "c7",
@@ -2355,59 +5047,583 @@
       "frases": [
         {
           "id": "f55",
+          "escena": "c7-obras",
           "texto": "Estados Unidos empezó en 1904, esta vez con esclusas y con una campaña contra los mosquitos que transmitían la fiebre amarilla y la malaria.",
-          "imagen": "roosevelt_pala"
+          "cortes": [
+            {
+              "escena": "c7-mosquitos",
+              "palabra": 13
+            }
+          ]
         },
         {
           "id": "f56",
-          "texto": "Hubo que abrir el Corte Culebra en plena cordillera y levantar las esclusas de Gatún, Pedro Miguel y Miraflores.",
-          "imagen": "gatun_obras"
+          "escena": "c7-canal",
+          "texto": "Hubo que abrir el Corte Culebra en plena cordillera y levantar las esclusas de Gatún, Pedro Miguel y Miraflores."
         },
         {
           "id": "f57",
+          "escena": "c7-roosevelt",
           "texto": "En 1911, con las obras en marcha, Roosevelt presumió de su papel en un discurso en California: dijo que había tomado el istmo y dejado al Congreso debatiendo.",
-          "imagen": "rough_diggers"
+          "cortes": [
+            {
+              "escena": "c7-discurso",
+              "palabra": 15
+            }
+          ]
         },
         {
           "id": "f58",
-          "texto": "El 15 de agosto de 1914, el vapor Ancón hizo el primer cruce completo del canal, del Atlántico al Pacífico.",
-          "imagen": "ancon"
+          "escena": "c7-ancon",
+          "texto": "El 15 de agosto de 1914, el vapor Ancón hizo el primer cruce completo del canal, del Atlántico al Pacífico."
         },
         {
           "id": "f59",
+          "escena": "c7-urrutia",
           "texto": "En 1914, Colombia y Estados Unidos firmaron en Bogotá el tratado Urrutia-Thomson. El texto original expresaba el sincero pesar de Estados Unidos por lo ocurrido.",
-          "imagen": "capitolio"
+          "cortes": [
+            {
+              "escena": "c7-pesar",
+              "palabra": 12
+            }
+          ]
         },
         {
           "id": "f60",
+          "escena": "c7-senado",
           "texto": "El Senado estadounidense lo frenó durante años. Se aprobó en 1921, sin esa frase: Colombia recibió 25 millones de dólares y reconoció a Panamá como nación independiente.",
-          "imagen": "mapa_panama_1904"
+          "cortes": [
+            {
+              "escena": "c7-25",
+              "palabra": 14
+            }
+          ]
         },
         {
           "id": "f61",
+          "escena": "c7-torrijos",
           "texto": "Panamá, por su parte, negoció en 1977 los tratados Torrijos-Carter, y el 31 de diciembre de 1999 el canal pasó por completo a sus manos.",
-          "imagen": "torrijos_carter"
+          "cortes": [
+            {
+              "escena": "c7-1999",
+              "palabra": 10
+            }
+          ]
         },
         {
           "id": "f62",
+          "escena": "c7-pregunta",
           "texto": "Entonces, ¿cómo perdió Colombia a Panamá? No hay una sola respuesta."
         },
         {
           "id": "f63",
+          "escena": "c7-cadena",
           "texto": "Pesaron un istmo que se sentía lejos de Bogotá, una guerra que dejó al país sin fuerzas, un tratado rechazado, una potencia decidida a tener su canal y un francés que supo mover las fichas.",
-          "imagen": "caricatura_huevo"
+          "cortes": [
+            {
+              "escena": "c7-potencia",
+              "palabra": 20
+            }
+          ]
         },
         {
           "id": "f64",
-          "texto": "Quizás la lección sea esta: los países no se pierden en un solo día. Se van perdiendo en decisiones de muchos años.",
-          "imagen": "mapa_colombia_1883"
+          "escena": "c7-leccion",
+          "texto": "Quizás la lección sea esta: los países no se pierden en un solo día. Se van perdiendo en decisiones de muchos años."
         },
         {
           "id": "f65",
+          "escena": "c7-documentos",
           "texto": "Si te gustan las historias contadas así, con documentos y sin consignas, suscríbete para no perderte la próxima.",
-          "imagen": "miraflores_hoy"
+          "cortes": [
+            {
+              "escena": "c7-final",
+              "palabra": 12
+            }
+          ]
         }
-      ]
+      ],
+      "escenas": {
+        "c7-obras": {
+          "plantilla": "vehiculo",
+          "datos": {
+            "tipo": "draga",
+            "anio": "1904",
+            "rotulo": "Empiezan las obras",
+            "detalle": "Esta vez, con esclusas",
+            "foto": "File:President Roosevelt running an American steam-shovel at Culebra Cut, Panama Canal 1s02355v.jpg",
+            "foto_pie": "Roosevelt en una pala de vapor (1906)",
+            "palabras": {
+              "entra": "Estados",
+              "rotulo": "Unidos",
+              "foto": "empezó",
+              "anio": "1904",
+              "detalle": "esclusas"
+            }
+          }
+        },
+        "c7-mosquitos": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "La campaña de William Gorgas",
+            "lineas": [
+              "Contra los",
+              "mosquitos"
+            ],
+            "resalta": 1,
+            "dibujo": "mosquito",
+            "palabra_dibujo": "mosquitos"
+          }
+        },
+        "c7-canal": {
+          "plantilla": "mapa",
+          "datos": {
+            "vistas": [
+              {
+                "caja": [
+                  -80.15,
+                  9.45,
+                  -79.45,
+                  8.88
+                ]
+              }
+            ],
+            "paises": [
+              {
+                "id": "panama",
+                "color": "acento2",
+                "opacidad": 0.25,
+                "en": 0
+              }
+            ],
+            "lagos": [
+              {
+                "id": "gatun",
+                "en": 0.02,
+                "rotulo": "Lago Gatún"
+              }
+            ],
+            "montes": {
+              "puntos": "culebra",
+              "palabra": "cordillera"
+            },
+            "rutas": [
+              {
+                "puntos": "canal",
+                "estilo": "canal",
+                "en": 0.03,
+                "dur": 1.4
+              },
+              {
+                "puntos": "culebra",
+                "estilo": "resalte",
+                "palabra": "Culebra"
+              }
+            ],
+            "esclusas": [
+              {
+                "id": "gatun",
+                "palabra": "Gatún",
+                "lado": "izquierda"
+              },
+              {
+                "id": "pedro_miguel",
+                "palabra": "Pedro"
+              },
+              {
+                "id": "miraflores",
+                "palabra": "Miraflores",
+                "lado": "izquierda"
+              }
+            ],
+            "rotulos": [
+              {
+                "texto": "Corte Culebra",
+                "lugar": [
+                  -79.6,
+                  9.1
+                ],
+                "estilo": "titulo",
+                "tam": 34,
+                "palabra": "Culebra"
+              }
+            ],
+            "cartela": {
+              "titulo": "El canal de 1914",
+              "sub": "Esclusas, un lago y un corte en la montaña"
+            }
+          }
+        },
+        "c7-roosevelt": {
+          "plantilla": "personaje",
+          "datos": {
+            "personaje": "roosevelt",
+            "anios": "1911",
+            "rol": "Discurso en la Universidad de California",
+            "palabra_anios": "1911",
+            "palabra_rol": "presumió",
+            "pose": "discurso",
+            "expresion": "sonrisa"
+          }
+        },
+        "c7-discurso": {
+          "plantilla": "recorte",
+          "datos": {
+            "foto": "File:\"Roosevelt's rough diggers\" LCCN2011645956.jpg",
+            "pie": "Caricatura de Puck sobre Roosevelt (1906)",
+            "insignia": "Berkeley, marzo de 1911",
+            "titulo": "Dijo que había tomado el istmo",
+            "texto": "Y que había dejado al Congreso debatiendo",
+            "marca": {
+              "x": 0.47,
+              "y": 0.42,
+              "r": 0.12,
+              "palabra": "tomado"
+            },
+            "palabras": {
+              "titulo": "dijo",
+              "texto": "dejado"
+            }
+          }
+        },
+        "c7-ancon": {
+          "plantilla": "vehiculo",
+          "datos": {
+            "tipo": "barco",
+            "anio": "1914",
+            "rotulo": "El vapor Ancón",
+            "detalle": "Primer cruce completo del canal",
+            "foto": "File:SS Ancon (1902 ship) NARA 185-G-0882.jpg",
+            "foto_pie": "El Ancón, 15 de agosto de 1914",
+            "palabras": {
+              "anio": "1914",
+              "entra": "vapor",
+              "rotulo": "Ancón",
+              "detalle": "primer",
+              "foto": "canal"
+            }
+          }
+        },
+        "c7-urrutia": {
+          "plantilla": "dos-personajes",
+          "datos": {
+            "izquierda": {
+              "personaje": "urrutia",
+              "palabra_bandera": "Colombia"
+            },
+            "derecha": {
+              "personaje": "thomson",
+              "palabra_bandera": "Estados"
+            },
+            "firma": "izquierda",
+            "palabra_firma": "firmaron",
+            "foto": "File:Postal El Capitolio - Bogotá.jpg",
+            "foto_pie": "Bogotá, comienzos del siglo XX",
+            "palabra_foto": "Bogotá"
+          }
+        },
+        "c7-pesar": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "Artículo I del texto original, 1914",
+            "lineas": [
+              "«Sincere regret»",
+              "sincero pesar"
+            ],
+            "resalta": 0,
+            "dibujo": "documento",
+            "palabra_dibujo": "texto"
+          }
+        },
+        "c7-senado": {
+          "plantilla": "linea-tiempo",
+          "datos": {
+            "titulo": "El tratado Urrutia-Thomson",
+            "actual": 2,
+            "palabra_actual": "1921",
+            "hitos": [
+              {
+                "anio": "1914",
+                "texto": "Se firma en Bogotá, con disculpas",
+                "palabra": "Senado"
+              },
+              {
+                "anio": "1918",
+                "texto": "Se propone quitar las disculpas",
+                "palabra": "años"
+              },
+              {
+                "anio": "1921",
+                "texto": "Se aprueba sin esa frase",
+                "palabra": "aprobó"
+              }
+            ]
+          }
+        },
+        "c7-25": {
+          "plantilla": "cifra",
+          "datos": {
+            "valor": 25,
+            "moneda": "US$",
+            "unidad": "millones",
+            "rotulo": "para Colombia, que reconoció a Panamá",
+            "dibujo": "moneda",
+            "palabra": "25",
+            "palabra_rotulo": "reconoció"
+          }
+        },
+        "c7-torrijos": {
+          "plantilla": "dos-personajes",
+          "datos": {
+            "izquierda": {
+              "personaje": "torrijos",
+              "palabra_bandera": "Panamá"
+            },
+            "derecha": {
+              "personaje": "carter",
+              "palabra_bandera": "tratados"
+            },
+            "firma": "izquierda",
+            "palabra_firma": "negoció",
+            "foto": "File:Jimmy Carter and General Omar Torrijos signing the Panama Canal Treaty.jpg",
+            "foto_pie": "Carter y Torrijos, 1977",
+            "palabra_foto": "Torrijos"
+          }
+        },
+        "c7-1999": {
+          "plantilla": "mapa",
+          "datos": {
+            "vistas": [
+              {
+                "caja": [
+                  -80.25,
+                  9.62,
+                  -79.25,
+                  8.78
+                ]
+              }
+            ],
+            "paises": [
+              {
+                "id": "panama",
+                "color": "acento2",
+                "opacidad": 0.3,
+                "en": 0
+              },
+              {
+                "id": "panama",
+                "color": "acento2",
+                "opacidad": 0.6,
+                "palabra": "pasó"
+              }
+            ],
+            "rutas": [
+              {
+                "puntos": "canal",
+                "estilo": "canal",
+                "en": 0,
+                "dur": 0.8
+              },
+              {
+                "puntos": "canal",
+                "estilo": "resalte",
+                "color": "acento",
+                "grosor": 108,
+                "en": 0,
+                "dur": 0.6,
+                "hasta": "pasó"
+              }
+            ],
+            "marcas": [
+              {
+                "texto": "Colón",
+                "lugar": "colon",
+                "lado": "izquierda",
+                "tam": 40,
+                "en": 0.02
+              },
+              {
+                "texto": "Panamá",
+                "lugar": "panama",
+                "lado": "derecha",
+                "tam": 40,
+                "en": 0.04
+              }
+            ],
+            "banderas": [
+              {
+                "pais": "eeuu",
+                "lugar": [
+                  -79.72,
+                  9.17
+                ],
+                "tam": 110,
+                "en": 0.05,
+                "hasta": "pasó"
+              },
+              {
+                "pais": "panama",
+                "lugar": [
+                  -79.72,
+                  9.17
+                ],
+                "tam": 110,
+                "palabra": "pasó"
+              }
+            ],
+            "cartela": {
+              "titulo": "31 de diciembre de 1999",
+              "sub": "El canal pasa a manos de Panamá",
+              "palabra": "31"
+            },
+            "fichas": [
+              {
+                "titulo": "1999",
+                "texto": "canal panameño",
+                "dibujo": "barco",
+                "palabra": "completo",
+                "lugar": "abajo-derecha"
+              }
+            ]
+          }
+        },
+        "c7-pregunta": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "¿Cómo perdió",
+              "Colombia",
+              "a Panamá?"
+            ],
+            "resalta": 2,
+            "calendario": {
+              "arriba": "Noviembre",
+              "numero": "3",
+              "abajo": "1903",
+              "lado": "izquierda",
+              "tachar": "sola"
+            }
+          }
+        },
+        "c7-cadena": {
+          "plantilla": "cadena",
+          "datos": {
+            "eslabones": [
+              {
+                "texto": "Lejanía",
+                "palabra": "lejos"
+              },
+              {
+                "texto": "Guerra",
+                "palabra": "guerra"
+              },
+              {
+                "texto": "Rechazo",
+                "palabra": "tratado"
+              }
+            ]
+          }
+        },
+        "c7-potencia": {
+          "plantilla": "tablero",
+          "datos": {
+            "personajes": [
+              "roosevelt",
+              {
+                "personaje": "hay",
+                "rol": "Secretario de Estado"
+              },
+              {
+                "personaje": "bunau",
+                "sombrero": "bombin"
+              }
+            ],
+            "papeles": [
+              {
+                "foto": "File:Panama canal cartoon 1903.jpg",
+                "pie": "Caricatura estadounidense de 1903"
+              },
+              {
+                "foto": "File:\"Roosevelt's rough diggers\" LCCN2011645956.jpg",
+                "pie": "Puck, 1906"
+              }
+            ],
+            "titulo": "Una potencia y un francés",
+            "palabras": {
+              "personajes": "potencia",
+              "papeles": "decidida",
+              "hilos": "canal",
+              "titulo": "francés"
+            }
+          }
+        },
+        "c7-leccion": {
+          "plantilla": "linea-tiempo",
+          "datos": {
+            "titulo": "Decisiones de muchos años",
+            "hitos": [
+              {
+                "anio": "1821",
+                "texto": "Panamá se une a la Gran Colombia",
+                "palabra": "lección"
+              },
+              {
+                "anio": "1886",
+                "texto": "Queda bajo la autoridad directa de Bogotá",
+                "palabra": "países"
+              },
+              {
+                "anio": "1899",
+                "texto": "Estalla la Guerra de los Mil Días",
+                "palabra": "pierden"
+              },
+              {
+                "anio": "1903",
+                "texto": "Tratado rechazado y separación",
+                "palabra": "día"
+              },
+              {
+                "anio": "1921",
+                "texto": "Colombia reconoce a Panamá",
+                "palabra": "decisiones"
+              }
+            ]
+          }
+        },
+        "c7-documentos": {
+          "plantilla": "recorte",
+          "datos": {
+            "foto": "File:Mapa de los Estados Unidos de Colombia (1883).jpg",
+            "pie": "Estados Unidos de Colombia, con el istmo (1883)",
+            "insignia": "Mapa de 1883",
+            "titulo": "Historias contadas así",
+            "texto": "Con documentos y sin consignas",
+            "marca": {
+              "x": 0.31,
+              "y": 0.21,
+              "r": 0.13,
+              "palabra": "así"
+            },
+            "palabras": {
+              "titulo": "historias",
+              "texto": "con"
+            }
+          }
+        },
+        "c7-final": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "¿Cómo perdió Colombia a Panamá?",
+            "lineas": [
+              "Suscríbete",
+              "para la próxima"
+            ],
+            "resalta": 0,
+            "dibujo": "pluma",
+            "palabra_dibujo": "Suscríbete"
+          }
+        }
+      }
     }
   ]
 }

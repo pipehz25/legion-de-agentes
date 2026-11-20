@@ -1,49 +1,90 @@
 {
   "id": "hi-panama",
   "tipo": "largo",
+  "modo": "escenas",
   "titulo": "¿Cómo perdió Colombia a Panamá? Un canal, un francés y tres días",
-  "duracion_s": 555.8,
+  "duracion_s": 567.7,
   "volumen": "I: -14.0 LUFS",
   "voz": "elevenlabs / C12mZePhNoo0RoTXhSFV",
+  "formato": "1920x1080",
   "capitulos": [
     {
       "inicio": "00:00",
       "titulo": "Introducción"
     },
     {
-      "inicio": "00:28",
+      "inicio": "00:29",
       "titulo": "El sueño del canal"
     },
     {
-      "inicio": "01:46",
+      "inicio": "01:47",
       "titulo": "Un país en guerra"
     },
     {
-      "inicio": "02:42",
+      "inicio": "02:46",
       "titulo": "Nicaragua o Panamá"
     },
     {
-      "inicio": "03:54",
+      "inicio": "03:59",
       "titulo": "El tratado que Bogotá rechazó"
     },
     {
-      "inicio": "05:03",
+      "inicio": "05:10",
       "titulo": "Tres días de noviembre"
     },
     {
-      "inicio": "06:43",
+      "inicio": "06:51",
       "titulo": "Un tratado firmado por un francés"
     },
     {
-      "inicio": "07:32",
+      "inicio": "07:42",
       "titulo": "Las cuentas pendientes"
     }
   ],
-  "imagenes": 38,
-  "subtitulos_quemados": false,
-  "avisos": 10,
-  "tiempo_produccion_s": 299,
-  "producido": "2026-11-20T02:58:31.048Z",
+  "escenas": 105,
+  "imagenes": 24,
+  "avisos": 44,
+  "tiempo_produccion_s": 752.3,
+  "tiempos_s": {
+    "voz": 18.7,
+    "fotos": 1,
+    "miniatura": 0,
+    "capitulos": 686.1,
+    "union": 45.7
+  },
+  "render_capitulos": {
+    "c2": {
+      "duracion_s": 58.4,
+      "render_s": 76,
+      "revision_s": 17
+    },
+    "c3": {
+      "duracion_s": 73.267,
+      "render_s": 95,
+      "revision_s": 20
+    },
+    "c4": {
+      "duracion_s": 70.8,
+      "render_s": 92,
+      "revision_s": 21
+    },
+    "c5": {
+      "duracion_s": 101.7,
+      "render_s": 116,
+      "revision_s": 22
+    },
+    "c6": {
+      "duracion_s": 50.767,
+      "render_s": 66,
+      "revision_s": 16
+    },
+    "c7": {
+      "duracion_s": 105,
+      "render_s": 122,
+      "revision_s": 23
+    }
+  },
+  "producido": "2026-11-20T18:23:09.256Z",
   "video": "hi-panama.mp4",
   "portada": "miniatura.jpg",
   "subtitulos": "hi-panama.srt",

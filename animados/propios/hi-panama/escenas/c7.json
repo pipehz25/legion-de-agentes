@@ -1,0 +1,572 @@
+{
+  "capitulo": "c7",
+  "escenas": {
+    "c7-obras": {
+      "plantilla": "vehiculo",
+      "datos": {
+        "tipo": "draga",
+        "anio": "1904",
+        "rotulo": "Empiezan las obras",
+        "detalle": "Esta vez, con esclusas",
+        "foto": "File:President Roosevelt running an American steam-shovel at Culebra Cut, Panama Canal 1s02355v.jpg",
+        "foto_pie": "Roosevelt en una pala de vapor (1906)",
+        "palabras": {
+          "entra": "Estados",
+          "rotulo": "Unidos",
+          "foto": "empezó",
+          "anio": "1904",
+          "detalle": "esclusas"
+        }
+      }
+    },
+    "c7-mosquitos": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "La campaña de William Gorgas",
+        "lineas": [
+          "Contra los",
+          "mosquitos"
+        ],
+        "resalta": 1,
+        "dibujo": "mosquito",
+        "palabra_dibujo": "mosquitos"
+      }
+    },
+    "c7-canal": {
+      "plantilla": "mapa",
+      "datos": {
+        "vistas": [
+          {
+            "caja": [
+              -80.15,
+              9.45,
+              -79.45,
+              8.88
+            ]
+          }
+        ],
+        "paises": [
+          {
+            "id": "panama",
+            "color": "acento2",
+            "opacidad": 0.25,
+            "en": 0
+          }
+        ],
+        "lagos": [
+          {
+            "id": "gatun",
+            "en": 0.02,
+            "rotulo": "Lago Gatún"
+          }
+        ],
+        "montes": {
+          "puntos": "culebra",
+          "palabra": "cordillera"
+        },
+        "rutas": [
+          {
+            "puntos": "canal",
+            "estilo": "canal",
+            "en": 0.03,
+            "dur": 1.4
+          },
+          {
+            "puntos": "culebra",
+            "estilo": "resalte",
+            "palabra": "Culebra"
+          }
+        ],
+        "esclusas": [
+          {
+            "id": "gatun",
+            "palabra": "Gatún",
+            "lado": "izquierda"
+          },
+          {
+            "id": "pedro_miguel",
+            "palabra": "Pedro"
+          },
+          {
+            "id": "miraflores",
+            "palabra": "Miraflores",
+            "lado": "izquierda"
+          }
+        ],
+        "rotulos": [
+          {
+            "texto": "Corte Culebra",
+            "lugar": [
+              -79.6,
+              9.1
+            ],
+            "estilo": "titulo",
+            "tam": 34,
+            "palabra": "Culebra"
+          }
+        ],
+        "cartela": {
+          "titulo": "El canal de 1914",
+          "sub": "Esclusas, un lago y un corte en la montaña"
+        }
+      }
+    },
+    "c7-roosevelt": {
+      "plantilla": "personaje",
+      "datos": {
+        "personaje": "roosevelt",
+        "anios": "1911",
+        "rol": "Discurso en la Universidad de California",
+        "palabra_anios": "1911",
+        "palabra_rol": "presumió",
+        "pose": "discurso",
+        "expresion": "sonrisa"
+      }
+    },
+    "c7-discurso": {
+      "plantilla": "recorte",
+      "datos": {
+        "foto": "File:\"Roosevelt's rough diggers\" LCCN2011645956.jpg",
+        "pie": "Caricatura de Puck sobre Roosevelt (1906)",
+        "insignia": "Berkeley, marzo de 1911",
+        "titulo": "Dijo que había tomado el istmo",
+        "texto": "Y que había dejado al Congreso debatiendo",
+        "marca": {
+          "x": 0.47,
+          "y": 0.42,
+          "r": 0.12,
+          "palabra": "tomado"
+        },
+        "palabras": {
+          "titulo": "dijo",
+          "texto": "dejado"
+        }
+      }
+    },
+    "c7-ancon": {
+      "plantilla": "vehiculo",
+      "datos": {
+        "tipo": "barco",
+        "anio": "1914",
+        "rotulo": "El vapor Ancón",
+        "detalle": "Primer cruce completo del canal",
+        "foto": "File:SS Ancon (1902 ship) NARA 185-G-0882.jpg",
+        "foto_pie": "El Ancón, 15 de agosto de 1914",
+        "palabras": {
+          "anio": "1914",
+          "entra": "vapor",
+          "rotulo": "Ancón",
+          "detalle": "primer",
+          "foto": "canal"
+        }
+      }
+    },
+    "c7-urrutia": {
+      "plantilla": "dos-personajes",
+      "datos": {
+        "izquierda": {
+          "personaje": "urrutia",
+          "palabra_bandera": "Colombia"
+        },
+        "derecha": {
+          "personaje": "thomson",
+          "palabra_bandera": "Estados"
+        },
+        "firma": "izquierda",
+        "palabra_firma": "firmaron",
+        "foto": "File:Postal El Capitolio - Bogotá.jpg",
+        "foto_pie": "Bogotá, comienzos del siglo XX",
+        "palabra_foto": "Bogotá"
+      }
+    },
+    "c7-pesar": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "Artículo I del texto original, 1914",
+        "lineas": [
+          "«Sincere regret»",
+          "sincero pesar"
+        ],
+        "resalta": 0,
+        "dibujo": "documento",
+        "palabra_dibujo": "texto"
+      }
+    },
+    "c7-senado": {
+      "plantilla": "linea-tiempo",
+      "datos": {
+        "titulo": "El tratado Urrutia-Thomson",
+        "actual": 2,
+        "palabra_actual": "1921",
+        "hitos": [
+          {
+            "anio": "1914",
+            "texto": "Se firma en Bogotá, con disculpas",
+            "palabra": "Senado"
+          },
+          {
+            "anio": "1918",
+            "texto": "Se propone quitar las disculpas",
+            "palabra": "años"
+          },
+          {
+            "anio": "1921",
+            "texto": "Se aprueba sin esa frase",
+            "palabra": "aprobó"
+          }
+        ]
+      }
+    },
+    "c7-25": {
+      "plantilla": "cifra",
+      "datos": {
+        "valor": 25,
+        "moneda": "US$",
+        "unidad": "millones",
+        "rotulo": "para Colombia, que reconoció a Panamá",
+        "dibujo": "moneda",
+        "palabra": "25",
+        "palabra_rotulo": "reconoció"
+      }
+    },
+    "c7-torrijos": {
+      "plantilla": "dos-personajes",
+      "datos": {
+        "izquierda": {
+          "personaje": "torrijos",
+          "palabra_bandera": "Panamá"
+        },
+        "derecha": {
+          "personaje": "carter",
+          "palabra_bandera": "tratados"
+        },
+        "firma": "izquierda",
+        "palabra_firma": "negoció",
+        "foto": "File:Jimmy Carter and General Omar Torrijos signing the Panama Canal Treaty.jpg",
+        "foto_pie": "Carter y Torrijos, 1977",
+        "palabra_foto": "Torrijos"
+      }
+    },
+    "c7-1999": {
+      "plantilla": "mapa",
+      "datos": {
+        "vistas": [
+          {
+            "caja": [
+              -80.25,
+              9.62,
+              -79.25,
+              8.78
+            ]
+          }
+        ],
+        "paises": [
+          {
+            "id": "panama",
+            "color": "acento2",
+            "opacidad": 0.3,
+            "en": 0
+          },
+          {
+            "id": "panama",
+            "color": "acento2",
+            "opacidad": 0.6,
+            "palabra": "pasó"
+          }
+        ],
+        "rutas": [
+          {
+            "puntos": "canal",
+            "estilo": "canal",
+            "en": 0,
+            "dur": 0.8
+          },
+          {
+            "puntos": "canal",
+            "estilo": "resalte",
+            "color": "acento",
+            "grosor": 108,
+            "en": 0,
+            "dur": 0.6,
+            "hasta": "pasó"
+          }
+        ],
+        "marcas": [
+          {
+            "texto": "Colón",
+            "lugar": "colon",
+            "lado": "izquierda",
+            "tam": 40,
+            "en": 0.02
+          },
+          {
+            "texto": "Panamá",
+            "lugar": "panama",
+            "lado": "derecha",
+            "tam": 40,
+            "en": 0.04
+          }
+        ],
+        "banderas": [
+          {
+            "pais": "eeuu",
+            "lugar": [
+              -79.72,
+              9.17
+            ],
+            "tam": 110,
+            "en": 0.05,
+            "hasta": "pasó"
+          },
+          {
+            "pais": "panama",
+            "lugar": [
+              -79.72,
+              9.17
+            ],
+            "tam": 110,
+            "palabra": "pasó"
+          }
+        ],
+        "cartela": {
+          "titulo": "31 de diciembre de 1999",
+          "sub": "El canal pasa a manos de Panamá",
+          "palabra": "31"
+        },
+        "fichas": [
+          {
+            "titulo": "1999",
+            "texto": "canal panameño",
+            "dibujo": "barco",
+            "palabra": "completo",
+            "lugar": "abajo-derecha"
+          }
+        ]
+      }
+    },
+    "c7-pregunta": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": [
+          "¿Cómo perdió",
+          "Colombia",
+          "a Panamá?"
+        ],
+        "resalta": 2,
+        "calendario": {
+          "arriba": "Noviembre",
+          "numero": "3",
+          "abajo": "1903",
+          "lado": "izquierda",
+          "tachar": "sola"
+        }
+      }
+    },
+    "c7-cadena": {
+      "plantilla": "cadena",
+      "datos": {
+        "eslabones": [
+          {
+            "texto": "Lejanía",
+            "palabra": "lejos"
+          },
+          {
+            "texto": "Guerra",
+            "palabra": "guerra"
+          },
+          {
+            "texto": "Rechazo",
+            "palabra": "tratado"
+          }
+        ]
+      }
+    },
+    "c7-potencia": {
+      "plantilla": "tablero",
+      "datos": {
+        "personajes": [
+          "roosevelt",
+          {
+            "personaje": "hay",
+            "rol": "Secretario de Estado"
+          },
+          {
+            "personaje": "bunau",
+            "sombrero": "bombin"
+          }
+        ],
+        "papeles": [
+          {
+            "foto": "File:Panama canal cartoon 1903.jpg",
+            "pie": "Caricatura estadounidense de 1903"
+          },
+          {
+            "foto": "File:\"Roosevelt's rough diggers\" LCCN2011645956.jpg",
+            "pie": "Puck, 1906"
+          }
+        ],
+        "titulo": "Una potencia y un francés",
+        "palabras": {
+          "personajes": "potencia",
+          "papeles": "decidida",
+          "hilos": "canal",
+          "titulo": "francés"
+        }
+      }
+    },
+    "c7-leccion": {
+      "plantilla": "linea-tiempo",
+      "datos": {
+        "titulo": "Decisiones de muchos años",
+        "hitos": [
+          {
+            "anio": "1821",
+            "texto": "Panamá se une a la Gran Colombia",
+            "palabra": "lección"
+          },
+          {
+            "anio": "1886",
+            "texto": "Queda bajo la autoridad directa de Bogotá",
+            "palabra": "países"
+          },
+          {
+            "anio": "1899",
+            "texto": "Estalla la Guerra de los Mil Días",
+            "palabra": "pierden"
+          },
+          {
+            "anio": "1903",
+            "texto": "Tratado rechazado y separación",
+            "palabra": "día"
+          },
+          {
+            "anio": "1921",
+            "texto": "Colombia reconoce a Panamá",
+            "palabra": "decisiones"
+          }
+        ]
+      }
+    },
+    "c7-documentos": {
+      "plantilla": "recorte",
+      "datos": {
+        "foto": "File:Mapa de los Estados Unidos de Colombia (1883).jpg",
+        "pie": "Estados Unidos de Colombia, con el istmo (1883)",
+        "insignia": "Mapa de 1883",
+        "titulo": "Historias contadas así",
+        "texto": "Con documentos y sin consignas",
+        "marca": {
+          "x": 0.31,
+          "y": 0.21,
+          "r": 0.13,
+          "palabra": "así"
+        },
+        "palabras": {
+          "titulo": "historias",
+          "texto": "con"
+        }
+      }
+    },
+    "c7-final": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "¿Cómo perdió Colombia a Panamá?",
+        "lineas": [
+          "Suscríbete",
+          "para la próxima"
+        ],
+        "resalta": 0,
+        "dibujo": "pluma",
+        "palabra_dibujo": "Suscríbete"
+      }
+    }
+  },
+  "frases": [
+    {
+      "id": "f55",
+      "escena": "c7-obras",
+      "cortes": [
+        {
+          "escena": "c7-mosquitos",
+          "palabra": 13
+        }
+      ]
+    },
+    {
+      "id": "f56",
+      "escena": "c7-canal"
+    },
+    {
+      "id": "f57",
+      "escena": "c7-roosevelt",
+      "cortes": [
+        {
+          "escena": "c7-discurso",
+          "palabra": 15
+        }
+      ]
+    },
+    {
+      "id": "f58",
+      "escena": "c7-ancon"
+    },
+    {
+      "id": "f59",
+      "escena": "c7-urrutia",
+      "cortes": [
+        {
+          "escena": "c7-pesar",
+          "palabra": 12
+        }
+      ]
+    },
+    {
+      "id": "f60",
+      "escena": "c7-senado",
+      "cortes": [
+        {
+          "escena": "c7-25",
+          "palabra": 14
+        }
+      ]
+    },
+    {
+      "id": "f61",
+      "escena": "c7-torrijos",
+      "cortes": [
+        {
+          "escena": "c7-1999",
+          "palabra": 10
+        }
+      ]
+    },
+    {
+      "id": "f62",
+      "escena": "c7-pregunta"
+    },
+    {
+      "id": "f63",
+      "escena": "c7-cadena",
+      "cortes": [
+        {
+          "escena": "c7-potencia",
+          "palabra": 20
+        }
+      ]
+    },
+    {
+      "id": "f64",
+      "escena": "c7-leccion"
+    },
+    {
+      "id": "f65",
+      "escena": "c7-documentos",
+      "cortes": [
+        {
+          "escena": "c7-final",
+          "palabra": 12
+        }
+      ]
+    }
+  ]
+}

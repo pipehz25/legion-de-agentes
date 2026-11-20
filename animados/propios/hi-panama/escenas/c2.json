@@ -1,0 +1,476 @@
+{
+  "capitulo": "c2",
+  "escenas": {
+    "c2-art201": {
+      "plantilla": "cita",
+      "datos": {
+        "texto": "El Departamento de Panamá está sometido a la autoridad directa del Gobierno",
+        "autor": "Constitución de 1886",
+        "fuente": "Artículo 201"
+      }
+    },
+    "c2-bogota": {
+      "plantilla": "mapa",
+      "datos": {
+        "vistas": [
+          {
+            "centro": [
+              -77,
+              6.4
+            ],
+            "ancho": 21
+          },
+          {
+            "centro": [
+              -77.4,
+              6.7
+            ],
+            "ancho": 18,
+            "palabra": "istmo",
+            "dur": 2.2
+          }
+        ],
+        "paises": [
+          {
+            "id": "colombia",
+            "color": "acento2",
+            "opacidad": 0.4,
+            "en": 0
+          },
+          {
+            "id": "panama",
+            "color": "acento",
+            "opacidad": 0.6,
+            "palabra": "Panamá"
+          }
+        ],
+        "rutas": [
+          {
+            "puntos": [
+              [
+                -74.2,
+                4.95
+              ],
+              [
+                -76.9,
+                7.4
+              ],
+              [
+                -79.3,
+                8.85
+              ]
+            ],
+            "estilo": "flecha",
+            "color": "acento",
+            "grosor": 8,
+            "palabra": "autoridad",
+            "dur": 0.9
+          }
+        ],
+        "marcas": [
+          {
+            "texto": "Bogotá",
+            "lugar": "bogota",
+            "lado": "derecha",
+            "tam": 40,
+            "en": 0.05
+          },
+          {
+            "texto": "Panamá",
+            "lugar": "panama",
+            "lado": "izquierda",
+            "tam": 40,
+            "palabra": "Panamá"
+          }
+        ],
+        "rotulos": [
+          {
+            "texto": "Mar Caribe",
+            "lugar": [
+              -76.6,
+              11
+            ],
+            "estilo": "mar",
+            "tam": 34,
+            "en": 0
+          },
+          {
+            "texto": "Océano Pacífico",
+            "lugar": [
+              -82.6,
+              5.2
+            ],
+            "estilo": "mar",
+            "tam": 34,
+            "en": 0
+          },
+          {
+            "texto": "Colombia",
+            "lugar": [
+              -72.4,
+              7.4
+            ],
+            "estilo": "pais",
+            "tam": 50,
+            "en": 0
+          }
+        ],
+        "cartela": {
+          "titulo": "Constitución de 1886",
+          "sub": "Panamá, bajo la autoridad de Bogotá",
+          "en": 0
+        },
+        "fichas": [
+          {
+            "titulo": "1886",
+            "texto": "poder central",
+            "dibujo": "documento",
+            "palabra": "autoridad",
+            "lugar": "abajo-izquierda"
+          },
+          {
+            "texto": "capital lejana",
+            "dibujo": "montana",
+            "palabra": "lejana",
+            "lugar": "abajo-derecha"
+          }
+        ]
+      }
+    },
+    "c2-intentos": {
+      "plantilla": "fichas",
+      "datos": {
+        "titulo": "Intentos de separarse en el siglo XIX",
+        "fichas": [
+          {
+            "texto": "Intento de 1830",
+            "dibujo": "bandera",
+            "palabra": "nuevo"
+          },
+          {
+            "texto": "Intento de 1831",
+            "dibujo": "bandera",
+            "palabra": "siglo"
+          },
+          {
+            "texto": "Intento de 1840",
+            "dibujo": "bandera",
+            "palabra": "hubo",
+            "resalta": true
+          }
+        ]
+      }
+    },
+    "c2-guerra": {
+      "plantilla": "linea-tiempo",
+      "datos": {
+        "titulo": "La Guerra de los Mil Días",
+        "actual": 1,
+        "palabra_actual": "estalló",
+        "hitos": [
+          {
+            "anio": "1886",
+            "texto": "Una Constitución centraliza el poder"
+          },
+          {
+            "anio": "1899",
+            "texto": "Estalla la guerra entre liberales y conservadores"
+          },
+          {
+            "anio": "1902",
+            "texto": "Paz firmada en la bahía de Panamá"
+          },
+          {
+            "anio": "1903",
+            "texto": "Panamá se separa de Colombia"
+          }
+        ]
+      }
+    },
+    "c2-muertos": {
+      "plantilla": "cifra",
+      "datos": {
+        "titulo": "Muertos de la guerra: nadie sabe cuántos",
+        "barras": true,
+        "cifras": [
+          {
+            "valor": 11000,
+            "rotulo": "Estimación más baja",
+            "palabra": "murieron"
+          },
+          {
+            "valor": 100000,
+            "unidad": "o más",
+            "rotulo": "Estimación más alta",
+            "palabra": "hasta",
+            "resalta": true
+          }
+        ]
+      }
+    },
+    "c2-frente": {
+      "plantilla": "mapa",
+      "datos": {
+        "vistas": [
+          {
+            "centro": [
+              -77.5,
+              5.6
+            ],
+            "ancho": 30
+          },
+          {
+            "caja": [
+              -83.4,
+              10.5,
+              -76.6,
+              6.2
+            ],
+            "palabra": "Panamá",
+            "dur": 1.5
+          }
+        ],
+        "paises": [
+          {
+            "id": "colombia",
+            "color": "acento2",
+            "opacidad": 0.45,
+            "en": 0
+          },
+          {
+            "id": "panama",
+            "color": "acento2",
+            "opacidad": 0.45,
+            "en": 0,
+            "hasta": "Panamá"
+          },
+          {
+            "id": "panama",
+            "color": "acento",
+            "opacidad": 0.6,
+            "palabra": "Panamá"
+          }
+        ],
+        "rotulos": [
+          {
+            "texto": "Colombia",
+            "lugar": [
+              -73,
+              7.4
+            ],
+            "estilo": "pais",
+            "tam": 52,
+            "en": 0,
+            "hasta": "Panamá"
+          },
+          {
+            "texto": "Menos de 4 millones de habitantes",
+            "lugar": [
+              -72.6,
+              2.9
+            ],
+            "estilo": "titulo",
+            "tam": 40,
+            "palabra": "menos",
+            "hasta": "Panamá"
+          },
+          {
+            "texto": "Mar Caribe",
+            "lugar": [
+              -79.6,
+              10.05
+            ],
+            "estilo": "mar",
+            "tam": 40,
+            "palabra": "frentes"
+          },
+          {
+            "texto": "Océano Pacífico",
+            "lugar": [
+              -80.6,
+              7
+            ],
+            "estilo": "mar",
+            "tam": 40,
+            "palabra": "frentes"
+          }
+        ],
+        "marcas": [
+          {
+            "texto": "Ciudad de Panamá",
+            "lugar": "panama",
+            "lado": "abajo",
+            "tam": 40,
+            "palabra": "frentes"
+          }
+        ],
+        "rutas": [
+          {
+            "puntos": [
+              [
+                -80.1,
+                9.17
+              ],
+              [
+                -79.66,
+                9.02
+              ]
+            ],
+            "estilo": "flecha",
+            "color": "acento",
+            "grosor": 8,
+            "palabra": "combates",
+            "dur": 0.6
+          },
+          {
+            "puntos": [
+              [
+                -78.8,
+                9.27
+              ],
+              [
+                -79.38,
+                9.03
+              ]
+            ],
+            "estilo": "flecha",
+            "color": "acento",
+            "grosor": 8,
+            "palabra": "puertas",
+            "dur": 0.6
+          }
+        ],
+        "cartela": {
+          "titulo": "1899-1902",
+          "sub": "Panamá, uno de los frentes más duros",
+          "palabra": "frentes"
+        },
+        "fichas": [
+          {
+            "texto": "combates",
+            "dibujo": "canon",
+            "palabra": "combates",
+            "lugar": "abajo-izquierda"
+          }
+        ]
+      }
+    },
+    "c2-paz": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": [
+          "La paz",
+          "en la bahía",
+          "de Panamá"
+        ],
+        "resalta": 0,
+        "calendario": {
+          "arriba": "Noviembre",
+          "numero": "21",
+          "abajo": "1902",
+          "lado": "derecha",
+          "palabra": "21",
+          "sello": "Paz",
+          "palabra_sello": "Panamá"
+        }
+      }
+    },
+    "c2-wisconsin": {
+      "plantilla": "vehiculo",
+      "datos": {
+        "tipo": "barco",
+        "guerra": true,
+        "bandera": "eeuu",
+        "anio": "1902",
+        "rotulo": "USS Wisconsin",
+        "detalle": "Allí se negoció la paz",
+        "palabras": {
+          "entra": "tras",
+          "detalle": "negociarla",
+          "rotulo": "acorazado",
+          "foto": "estadounidense"
+        },
+        "foto": "File:Tratado de Paz del Wisconsin.jpg",
+        "foto_pie": "Firmantes de la paz del Wisconsin, 1902"
+      }
+    },
+    "c2-agotada": {
+      "plantilla": "fichas",
+      "datos": {
+        "titulo": "Colombia sale de la guerra",
+        "fichas": [
+          {
+            "texto": "Agotada",
+            "dibujo": "cruz",
+            "palabra": "agotada"
+          },
+          {
+            "texto": "Dividida",
+            "dibujo": "balanza",
+            "palabra": "dividida"
+          },
+          {
+            "texto": "Toca negociar el canal",
+            "dibujo": "documento",
+            "palabra": "negociar",
+            "resalta": true
+          }
+        ]
+      }
+    }
+  },
+  "frases": [
+    {
+      "id": "f14",
+      "escena": "c2-art201",
+      "cortes": [
+        {
+          "escena": "c2-bogota",
+          "palabra": 14
+        }
+      ]
+    },
+    {
+      "id": "f15",
+      "escena": "c2-art201",
+      "cortes": [
+        {
+          "escena": "c2-intentos",
+          "palabra": 9
+        }
+      ]
+    },
+    {
+      "id": "f16",
+      "escena": "c2-guerra"
+    },
+    {
+      "id": "f17",
+      "escena": "c2-muertos",
+      "cortes": [
+        {
+          "escena": "c2-frente",
+          "palabra": 18
+        }
+      ]
+    },
+    {
+      "id": "f18",
+      "escena": "c2-muertos"
+    },
+    {
+      "id": "f19",
+      "escena": "c2-paz",
+      "cortes": [
+        {
+          "escena": "c2-wisconsin",
+          "palabra": 15
+        }
+      ]
+    },
+    {
+      "id": "f20",
+      "escena": "c2-agotada"
+    }
+  ]
+}

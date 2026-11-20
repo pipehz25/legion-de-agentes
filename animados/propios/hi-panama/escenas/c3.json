@@ -1,0 +1,696 @@
+{
+  "capitulo": "c3",
+  "escenas": {
+    "c3-roosevelt": {
+      "plantilla": "personaje",
+      "datos": {
+        "personaje": "roosevelt",
+        "pose": "discurso",
+        "expresion": "sonrisa",
+        "rol": "Presidente de Estados Unidos",
+        "palabra_rol": "quería",
+        "anios": "Washington",
+        "palabra_anios": "Washington"
+      }
+    },
+    "c3-donde": {
+      "plantilla": "mapa",
+      "datos": {
+        "vistas": [
+          {
+            "centro": [
+              -81.6,
+              10
+            ],
+            "ancho": 19
+          },
+          {
+            "centro": [
+              -82.3,
+              10.4
+            ],
+            "ancho": 16,
+            "palabra": "pregunta",
+            "dur": 1.6
+          }
+        ],
+        "paises": [
+          {
+            "id": "nicaragua",
+            "color": "acento2",
+            "opacidad": 0.55,
+            "palabra": "Nicaragua",
+            "hasta": "recomendó"
+          },
+          {
+            "id": "nicaragua",
+            "color": "acento",
+            "opacidad": 0.65,
+            "palabra": "recomendó"
+          },
+          {
+            "id": "panama",
+            "color": "acento2",
+            "opacidad": 0.55,
+            "palabra": "Panamá"
+          }
+        ],
+        "rutas": [
+          {
+            "puntos": "ruta_nicaragua",
+            "estilo": "discontinua",
+            "color": "tinta",
+            "grosor": 6,
+            "palabra": "Nicaragua",
+            "dur": 1
+          },
+          {
+            "puntos": "canal",
+            "estilo": "discontinua",
+            "color": "tinta",
+            "grosor": 6,
+            "palabra": "Panamá",
+            "dur": 0.6
+          }
+        ],
+        "rotulos": [
+          {
+            "texto": "Mar Caribe",
+            "lugar": [
+              -79.6,
+              12.6
+            ],
+            "estilo": "mar",
+            "tam": 36,
+            "en": 0
+          },
+          {
+            "texto": "Océano Pacífico",
+            "lugar": [
+              -86.4,
+              8.6
+            ],
+            "estilo": "mar",
+            "tam": 36,
+            "en": 0
+          },
+          {
+            "texto": "Nicaragua",
+            "lugar": [
+              -84.7,
+              13.2
+            ],
+            "estilo": "pais",
+            "tam": 40,
+            "palabra": "Nicaragua"
+          },
+          {
+            "texto": "Panamá",
+            "lugar": [
+              -80.9,
+              8.55
+            ],
+            "estilo": "pais",
+            "tam": 40,
+            "palabra": "Panamá"
+          },
+          {
+            "texto": "?",
+            "lugar": [
+              -81.9,
+              11.6
+            ],
+            "estilo": "titulo",
+            "tam": 120,
+            "palabra": "dónde",
+            "hasta": "recomendó"
+          }
+        ],
+        "fichas": [
+          {
+            "titulo": "1901",
+            "texto": "la comisión",
+            "dibujo": "documento",
+            "palabra": "comisión",
+            "lugar": "abajo-izquierda"
+          },
+          {
+            "texto": "recomienda",
+            "dibujo": "pluma",
+            "palabra": "recomendó",
+            "lugar": "abajo-derecha"
+          }
+        ]
+      }
+    },
+    "c3-precio": {
+      "plantilla": "cifra",
+      "datos": {
+        "titulo": "Lo que pedían los franceses por Panamá",
+        "cifras": [
+          {
+            "valor": 109,
+            "moneda": "US$",
+            "unidad": "millones",
+            "rotulo": "Primer precio",
+            "palabra": "pedían"
+          },
+          {
+            "valor": 40,
+            "moneda": "US$",
+            "unidad": "millones",
+            "rotulo": "Nuevo precio",
+            "palabra": "bajaron",
+            "resalta": true
+          }
+        ]
+      }
+    },
+    "c3-cambio": {
+      "plantilla": "mapa",
+      "datos": {
+        "vistas": [
+          {
+            "centro": [
+              -82.3,
+              10.4
+            ],
+            "ancho": 16
+          },
+          {
+            "caja": [
+              -83.4,
+              10.5,
+              -76.6,
+              6.2
+            ],
+            "palabra": "presionaban",
+            "dur": 1.5
+          }
+        ],
+        "paises": [
+          {
+            "id": "nicaragua",
+            "color": "acento",
+            "opacidad": 0.65,
+            "en": 0,
+            "hasta": "cambió"
+          },
+          {
+            "id": "panama",
+            "color": "acento2",
+            "opacidad": 0.55,
+            "en": 0,
+            "hasta": "cambió"
+          },
+          {
+            "id": "panama",
+            "color": "acento",
+            "opacidad": 0.65,
+            "palabra": "cambió"
+          }
+        ],
+        "rutas": [
+          {
+            "puntos": "ruta_nicaragua",
+            "estilo": "discontinua",
+            "color": "tinta",
+            "grosor": 6,
+            "en": 0,
+            "dur": 0.1,
+            "hasta": "cambió"
+          },
+          {
+            "puntos": "canal",
+            "estilo": "canal",
+            "palabra": "cambió",
+            "dur": 1
+          },
+          {
+            "puntos": "canal",
+            "estilo": "canal",
+            "palabra": "presionaban",
+            "dur": 1
+          }
+        ],
+        "rotulos": [
+          {
+            "texto": "Nicaragua",
+            "lugar": [
+              -84.7,
+              13.2
+            ],
+            "estilo": "pais",
+            "tam": 40,
+            "en": 0,
+            "hasta": "presionaban"
+          },
+          {
+            "texto": "Panamá",
+            "lugar": [
+              -80.9,
+              8.55
+            ],
+            "estilo": "pais",
+            "tam": 44,
+            "en": 0
+          },
+          {
+            "texto": "Mar Caribe",
+            "lugar": [
+              -79.4,
+              10.15
+            ],
+            "estilo": "mar",
+            "tam": 40,
+            "palabra": "presionaban"
+          },
+          {
+            "texto": "Panamá",
+            "lugar": [
+              -80.6,
+              8.62
+            ],
+            "estilo": "pais",
+            "tam": 46,
+            "palabra": "presionaban"
+          }
+        ],
+        "fichas": [
+          {
+            "texto": "ahora, Panamá",
+            "dibujo": "documento",
+            "palabra": "cambió",
+            "lugar": "abajo-izquierda"
+          }
+        ]
+      }
+    },
+    "c3-bunau": {
+      "plantilla": "personaje",
+      "datos": {
+        "personaje": "bunau",
+        "pose": "brazos-cruzados",
+        "expresion": "astuto",
+        "rol": "Ingeniero francés del canal de Lesseps",
+        "palabra_rol": "ingeniero",
+        "anios": ""
+      }
+    },
+    "c3-jugada": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "Bunau-Varilla defendía",
+        "lineas": [
+          "Los intereses",
+          "de la nueva",
+          "compañía"
+        ],
+        "resalta": 2,
+        "dibujo": "volcan",
+        "palabra_dibujo": "estampilla"
+      }
+    },
+    "c3-estampilla": {
+      "plantilla": "recorte",
+      "datos": {
+        "foto": "File:Momotombo 1900 Edition Stamp.jpg",
+        "pie": "Estampilla de Nicaragua (1900)",
+        "insignia": "Nicaragua, 1900",
+        "titulo": "La estampilla del Momotombo",
+        "texto": "Enviada a los senadores de EE. UU. en 1902",
+        "marca": {
+          "x": 0.5,
+          "y": 0.45,
+          "r": 0.28,
+          "palabra": "volcán"
+        },
+        "palabras": {
+          "titulo": "1902",
+          "texto": "senadores"
+        }
+      }
+    },
+    "c3-martinica": {
+      "plantilla": "mapa",
+      "datos": {
+        "vistas": [
+          {
+            "centro": [
+              -82.3,
+              10.9
+            ],
+            "ancho": 18
+          },
+          {
+            "centro": [
+              -73.5,
+              14.2
+            ],
+            "ancho": 34,
+            "palabra": "erupción",
+            "dur": 1.8
+          }
+        ],
+        "paises": [
+          {
+            "id": "nicaragua",
+            "color": "acento2",
+            "opacidad": 0.5,
+            "en": 0
+          }
+        ],
+        "montes": {
+          "puntos": [
+            [
+              -86.54,
+              12.42
+            ],
+            [
+              -61.17,
+              14.81
+            ]
+          ],
+          "tam": 54,
+          "en": 0.02
+        },
+        "marcas": [
+          {
+            "texto": "Momotombo",
+            "lugar": "momotombo",
+            "lado": "izquierda",
+            "tam": 34,
+            "en": 0.03
+          },
+          {
+            "texto": "Saint-Pierre",
+            "lugar": "saint_pierre",
+            "lado": "izquierda",
+            "tam": 36,
+            "palabra": "ciudad"
+          }
+        ],
+        "rotulos": [
+          {
+            "texto": "Nicaragua",
+            "lugar": [
+              -84.7,
+              13.4
+            ],
+            "estilo": "pais",
+            "tam": 30,
+            "en": 0
+          },
+          {
+            "texto": "Mar Caribe",
+            "lugar": [
+              -73,
+              15.6
+            ],
+            "estilo": "mar",
+            "tam": 44,
+            "palabra": "erupción"
+          },
+          {
+            "texto": "Martinica",
+            "lugar": [
+              -61,
+              13.4
+            ],
+            "estilo": "pais",
+            "tam": 32,
+            "palabra": "isla"
+          }
+        ],
+        "cartela": {
+          "titulo": "Mayo de 1902",
+          "sub": "Erupción en la isla de Martinica",
+          "palabra": "erupción"
+        },
+        "fichas": [
+          {
+            "titulo": "1902",
+            "texto": "erupción",
+            "dibujo": "volcan",
+            "palabra": "erupción",
+            "lugar": "abajo-derecha"
+          },
+          {
+            "texto": "ciudad arrasada",
+            "dibujo": "derrumbe",
+            "palabra": "arrasado",
+            "lugar": "abajo-izquierda"
+          }
+        ]
+      }
+    },
+    "c3-mensaje": {
+      "plantilla": "fichas",
+      "datos": {
+        "titulo": "El mensaje de la estampilla",
+        "foto": "File:PSM V61 D359 St pierre view after the eruption of may 8 1902.png",
+        "foto_pie": "Saint-Pierre tras la erupción, 1902",
+        "fichas": [
+          {
+            "texto": "Nicaragua: volcanes",
+            "dibujo": "volcan",
+            "palabra": "Nicaragua",
+            "resalta": true
+          },
+          {
+            "texto": "Panamá: sin volcanes",
+            "dibujo": "montana",
+            "palabra": "Panamá"
+          },
+          {
+            "texto": "Su efecto, se discute",
+            "dibujo": "balanza",
+            "palabra": "Cuánto"
+          }
+        ]
+      }
+    },
+    "c3-senado": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": [
+          "El Senado",
+          "votó por",
+          "Panamá"
+        ],
+        "resalta": 2,
+        "calendario": {
+          "arriba": "Junio",
+          "numero": "19",
+          "abajo": "1902",
+          "lado": "izquierda",
+          "palabra": "junio",
+          "sello": "EE. UU.",
+          "palabra_sello": "Senado"
+        }
+      }
+    },
+    "c3-condicion": {
+      "plantilla": "mapa",
+      "datos": {
+        "vistas": [
+          {
+            "centro": [
+              -82.3,
+              10.4
+            ],
+            "ancho": 16
+          },
+          {
+            "centro": [
+              -82.5,
+              10.6
+            ],
+            "ancho": 17,
+            "palabra": "Si",
+            "dur": 1.4
+          }
+        ],
+        "paises": [
+          {
+            "id": "panama",
+            "color": "acento",
+            "opacidad": 0.6,
+            "en": 0
+          },
+          {
+            "id": "colombia",
+            "color": "acento2",
+            "opacidad": 0.45,
+            "palabra": "Colombia"
+          },
+          {
+            "id": "nicaragua",
+            "color": "acento2",
+            "opacidad": 0.5,
+            "palabra": "Si"
+          }
+        ],
+        "rutas": [
+          {
+            "puntos": "canal",
+            "estilo": "canal",
+            "en": 0.02,
+            "dur": 1
+          },
+          {
+            "puntos": "ruta_nicaragua",
+            "estilo": "discontinua",
+            "color": "tinta",
+            "grosor": 6,
+            "palabra": "Si",
+            "dur": 1
+          }
+        ],
+        "banderas": [
+          {
+            "pais": "colombia",
+            "lugar": [
+              -76.4,
+              8.9
+            ],
+            "tam": 80,
+            "palabra": "Colombia"
+          }
+        ],
+        "rotulos": [
+          {
+            "texto": "Panamá",
+            "lugar": [
+              -80.9,
+              8.55
+            ],
+            "estilo": "pais",
+            "tam": 44,
+            "en": 0
+          },
+          {
+            "texto": "Mar Caribe",
+            "lugar": [
+              -79.6,
+              12.6
+            ],
+            "estilo": "mar",
+            "tam": 36,
+            "en": 0
+          },
+          {
+            "texto": "Si no, Nicaragua",
+            "lugar": [
+              -84.9,
+              13.1
+            ],
+            "estilo": "titulo",
+            "tam": 44,
+            "palabra": "Si"
+          }
+        ],
+        "fichas": [
+          {
+            "texto": "con Colombia",
+            "dibujo": "documento",
+            "palabra": "acuerdo",
+            "lugar": "abajo-izquierda"
+          },
+          {
+            "texto": "tiempo razonable",
+            "dibujo": "reloj",
+            "palabra": "tiempo",
+            "lugar": "abajo-derecha"
+          }
+        ]
+      }
+    }
+  },
+  "frases": [
+    {
+      "id": "f21",
+      "escena": "c3-roosevelt",
+      "cortes": [
+        {
+          "escena": "c3-donde",
+          "palabra": 13
+        }
+      ]
+    },
+    {
+      "id": "f22",
+      "escena": "c3-roosevelt",
+      "cortes": [
+        {
+          "escena": "c3-precio",
+          "palabra": 7
+        }
+      ]
+    },
+    {
+      "id": "f23",
+      "escena": "c3-roosevelt",
+      "cortes": [
+        {
+          "escena": "c3-cambio",
+          "palabra": 9
+        }
+      ]
+    },
+    {
+      "id": "f24",
+      "escena": "c3-roosevelt",
+      "cortes": [
+        {
+          "escena": "c3-bunau",
+          "palabra": 9
+        },
+        {
+          "escena": "c3-jugada",
+          "palabra": 22
+        }
+      ]
+    },
+    {
+      "id": "f25",
+      "escena": "c3-roosevelt",
+      "cortes": [
+        {
+          "escena": "c3-estampilla",
+          "palabra": 7
+        }
+      ]
+    },
+    {
+      "id": "f26",
+      "escena": "c3-martinica",
+      "cortes": [
+        {
+          "escena": "c3-mensaje",
+          "palabra": 14
+        }
+      ]
+    },
+    {
+      "id": "f27",
+      "escena": "c3-martinica",
+      "cortes": [
+        {
+          "escena": "c3-senado",
+          "palabra": 7
+        }
+      ]
+    },
+    {
+      "id": "f28",
+      "escena": "c3-martinica",
+      "cortes": [
+        {
+          "escena": "c3-condicion",
+          "palabra": 2
+        }
+      ]
+    }
+  ]
+}

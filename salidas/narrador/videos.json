@@ -1,23 +1,12 @@
 {
-  "actualizado": "2026-11-20T13:46:28.454Z",
+  "actualizado": "2026-11-20T18:23:09.278Z",
   "videos": [
-    {
-      "id": "hi-panama-muestra",
-      "titulo": "¿Cómo perdió Colombia a Panamá? (muestra de estilo)",
-      "duracion_s": 61.7,
-      "producido": "2026-11-20T13:45:39.605Z",
-      "video": "salidas/narrador/hi-panama-muestra/hi-panama-muestra.mp4",
-      "portada": "salidas/narrador/hi-panama-muestra/portada.jpg",
-      "fuentes": "salidas/narrador/hi-panama-muestra/fuentes.md",
-      "video_en_esta_pc": true,
-      "publicacion": "Muestra de estilo: ¿Cómo perdió Colombia a Panamá? (no se publica)\n\n#historia #colombia #panama"
-    },
     {
       "id": "hi-panama",
       "tipo": "largo",
       "titulo": "¿Cómo perdió Colombia a Panamá? Un canal, un francés y tres días",
-      "duracion_s": 555.8,
-      "producido": "2026-11-20T02:58:31.048Z",
+      "duracion_s": 567.7,
+      "producido": "2026-11-20T18:23:09.256Z",
       "video": "salidas/narrador/hi-panama/hi-panama.mp4",
       "portada": "salidas/narrador/hi-panama/miniatura.jpg",
       "fuentes": "salidas/narrador/hi-panama/fuentes.md",
@@ -31,7 +20,7 @@
       "tipo": "largo",
       "titulo": "Napoleón: de una isla en Córcega a emperador de Europa (y su caída)",
       "duracion_s": 90.5,
-      "producido": "2026-11-20T02:23:32.800Z",
+      "producido": "2026-11-20T17:09:55.878Z",
       "video": "salidas/narrador/prueba-largo/prueba-largo.mp4",
       "portada": "salidas/narrador/prueba-largo/miniatura.jpg",
       "fuentes": "salidas/narrador/prueba-largo/fuentes.md",
@@ -39,6 +28,17 @@
       "subtitulos": "salidas/narrador/prueba-largo/prueba-largo.srt",
       "video_en_esta_pc": true,
       "publicacion": "Napoleón: de una isla en Córcega a emperador de Europa (y su caída)\n\n#historia #napoleon #documental"
+    },
+    {
+      "id": "hi-panama-muestra",
+      "titulo": "¿Cómo perdió Colombia a Panamá? (muestra de estilo)",
+      "duracion_s": 61.7,
+      "producido": "2026-11-20T13:45:39.605Z",
+      "video": "salidas/narrador/hi-panama-muestra/hi-panama-muestra.mp4",
+      "portada": "salidas/narrador/hi-panama-muestra/portada.jpg",
+      "fuentes": "salidas/narrador/hi-panama-muestra/fuentes.md",
+      "video_en_esta_pc": true,
+      "publicacion": "Muestra de estilo: ¿Cómo perdió Colombia a Panamá? (no se publica)\n\n#historia #colombia #panama"
     },
     {
       "id": "prueba-elevenlabs",
