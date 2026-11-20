@@ -1,0 +1,213 @@
+{
+  "titulo": "¿Napoleón era bajito? Te lo contaron al revés.",
+  "formato": "mito o realidad",
+  "nicho": "historia",
+  "nota": "Primera prueba con voz de ElevenLabs (mismo guion que prueba-archivo, que usa Kokoro, para comparar). Antes de publicar: plan de pago con licencia comercial.",
+  "motor": "elevenlabs",
+  "voz": "POR-ELEGIR",
+  "modelo_voz": "eleven_multilingual_v2",
+  "tope_caracteres": 1500,
+  "inicio": 0.2,
+  "pausa": 0.4,
+  "cola": 2.2,
+  "estilo": {
+    "tema": "archivo"
+  },
+  "publicacion": {
+    "texto": "Napoleón no era bajito: medía cerca de 1,68 m, más que el francés promedio de su época. El mito nació de un error con las pulgadas, de las caricaturas inglesas y de un apodo cariñoso.",
+    "hashtags": [
+      "historia",
+      "napoleon",
+      "mitos",
+      "sabiasque",
+      "curiosidades"
+    ]
+  },
+  "fuentes": [
+    {
+      "dato": "Medía cerca de 1,68 m al morir en 1821; el francés promedio de 1820 medía unos 1,65 m",
+      "fuente": "Encyclopaedia Britannica, «Was Napoleon short?»",
+      "url": "https://www.britannica.com/question/Was-Napoleon-short"
+    },
+    {
+      "dato": "Los 5 pies y 2 pulgadas eran medidas francesas; la pulgada francesa era más larga que la inglesa (cerca de 1,68-1,70 m)",
+      "fuente": "Encyclopaedia Britannica, «Napoleon as Pop Culture Icon»",
+      "url": "https://britannica.com/topic/Napoleon-as-Pop-Culture-Icon"
+    },
+    {
+      "dato": "Las caricaturas británicas (James Gillray, «Little Boney», hacia 1803) lo dibujaban diminuto; «le petit caporal» era un apodo de afecto de sus soldados, no una burla a su estatura",
+      "fuente": "Encyclopaedia Britannica, «Was Napoleon Short?»",
+      "url": "https://www.britannica.com/story/was-napoleon-short"
+    }
+  ],
+  "escenas": {
+    "gancho": {
+      "plantilla": "titulo-pregunta",
+      "datos": {
+        "lineas": [
+          "¿Napoleón",
+          "era",
+          "bajito?"
+        ],
+        "resalta": 2,
+        "ilustracion": "bicornio",
+        "insignia": "Mito o realidad"
+      }
+    },
+    "quien": {
+      "plantilla": "personaje",
+      "datos": {
+        "nombre": "Napoleón Bonaparte",
+        "anios": "1769-1821",
+        "rol": "Emperador de los franceses",
+        "palabra_rol": "emperador",
+        "ropa": "#2c4a7c",
+        "detalle": "#d9a032",
+        "pelo": "#3b2a1e",
+        "sombrero": "bicornio",
+        "charreteras": true
+      }
+    },
+    "autopsia": {
+      "plantilla": "dato-grande",
+      "datos": {
+        "antes": "Lo que se entendió",
+        "cifra": "1,57 m",
+        "rotulo": "«Cinco pies y dos pulgadas», según su autopsia",
+        "palabra": "medidas",
+        "palabra_rotulo": "cinco",
+        "ilustracion": "pergamino"
+      }
+    },
+    "truco": {
+      "plantilla": "lupa",
+      "datos": {
+        "titulo": "El truco",
+        "ilustracion": "regla",
+        "foco": [
+          190,
+          110
+        ],
+        "rotulo": "Pulgada francesa: 2,71 cm",
+        "palabra": "pulgadas"
+      }
+    },
+    "cuenta": {
+      "plantilla": "comparacion",
+      "datos": {
+        "izquierda": {
+          "titulo": "Mito",
+          "renglones": [
+            "Medía 1,57 m",
+            "Más bajo que todos"
+          ]
+        },
+        "derecha": {
+          "titulo": "Realidad",
+          "renglones": [
+            "Medía 1,68 m",
+            "Promedio: 1,65 m",
+            "Un poco más alto"
+          ]
+        }
+      }
+    },
+    "origen": {
+      "plantilla": "lista-pasos",
+      "datos": {
+        "titulo": "¿De dónde salió?",
+        "pasos": [
+          {
+            "texto": "Un error con las pulgadas",
+            "palabra": "error"
+          },
+          {
+            "texto": "Caricaturas inglesas",
+            "palabra": "caricaturas"
+          },
+          {
+            "texto": "Su apodo: «el pequeño cabo»",
+            "palabra": "apodo"
+          }
+        ]
+      }
+    },
+    "cierre": {
+      "plantilla": "cierre-respuesta",
+      "datos": {
+        "rotulo": "Veredicto",
+        "respuesta": "Ni bajito ni gigante",
+        "resalta": 1,
+        "cuenta": "@legion.historia"
+      }
+    }
+  },
+  "frases": [
+    {
+      "id": "f1",
+      "escena": "gancho",
+      "subtitulos": false,
+      "texto": "¿Napoleón era bajito? Te lo contaron al revés.",
+      "pausa_despues": 0.4
+    },
+    {
+      "id": "f2",
+      "escena": "quien",
+      "texto": "Napoleón Bonaparte, emperador de los franceses, quedó en la memoria como un hombre diminuto.",
+      "clave": [
+        "diminuto"
+      ]
+    },
+    {
+      "id": "f3",
+      "escena": "autopsia",
+      "texto": "Su autopsia de 1821 dice cinco pies y dos pulgadas: en medidas inglesas, un metro cincuenta y siete.",
+      "clave": [
+        "autopsia"
+      ]
+    },
+    {
+      "id": "f4",
+      "escena": "truco",
+      "texto": "Pero eran pulgadas francesas, y cada una medía casi dos milímetros más que la inglesa.",
+      "clave": [
+        "francesas"
+      ]
+    },
+    {
+      "id": "f5",
+      "escena": "cuenta",
+      "texto": "Bien hecha la cuenta, medía un metro con sesenta y ocho, más que el francés promedio.",
+      "clave": [
+        "sesenta",
+        "ocho"
+      ],
+      "pausa_despues": 0.4
+    },
+    {
+      "id": "f6",
+      "escena": "origen",
+      "texto": "¿Y de dónde salió el mito? De ese error con las pulgadas,",
+      "clave": [
+        "mito"
+      ]
+    },
+    {
+      "id": "f7",
+      "escena": "origen",
+      "texto": "de las caricaturas inglesas que lo pintaban enano, y de su apodo cariñoso: el pequeño cabo.",
+      "clave": [
+        "caricaturas"
+      ],
+      "pausa_despues": 0.4
+    },
+    {
+      "id": "f8",
+      "escena": "cierre",
+      "texto": "Napoleón era de estatura normal, y hasta un poco alto para su época.",
+      "clave": [
+        "normal"
+      ]
+    }
+  ]
+}

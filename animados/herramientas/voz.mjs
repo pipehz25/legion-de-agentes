@@ -8,7 +8,7 @@
 //       <video>/assets/voz/fN.wav      (una frase por archivo)
 //       <video>/tiempos.json           (inicio y fin de cada frase y de cada palabra)
 //
-// La voz sale de una grabacion de una persona ("motor": "grabada", la de siempre), de
+// La voz sale de una grabacion de una persona ("motor": "grabada"), de ElevenLabs, de
 // Higgsfield, de Kokoro (local) o de archivos sueltos. Los tiempos por palabra salen del
 // propio audio: se detectan sus pausas y cada palabra recibe su parte del tramo.
 //
@@ -17,6 +17,7 @@
 import { spawnSync } from "node:child_process";
 import crypto from "node:crypto";
 import fs from "node:fs";
+import os from "node:os";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -25,6 +26,78 @@ const ANIMADOS = path.resolve(AQUI, "..");
 const HF = "hyperframes@0.9.20";
 const WINDOWS = process.platform === "win32";
 const PY = WINDOWS ? path.join(ANIMADOS, ".venv", "Scripts", "python.exe") : path.join(ANIMADOS, ".venv", "bin", "python");
+
+// --- ElevenLabs ("motor": "elevenlabs") ----------------------------------------------
+// Voz de pago, se cobra por caracter. La clave va FUERA del proyecto: en la variable
+// ELEVENLABS_API_KEY o en ~/.legion/elevenlabs/clave.txt (en Windows,
+// %USERPROFILE%\.legion\elevenlabs\clave.txt), una sola linea. La guarda una persona con
+// animados/herramientas/guardar-clave-elevenlabs.ps1; este script la usa y nunca la imprime.
+// "voz" en el guion es el id (o el nombre) de una voz de la cuenta. Para elegirla:
+//   node animados/herramientas/voz.mjs --voces-elevenlabs            (las de la cuenta)
+//   node animados/herramientas/voz.mjs --buscar-voces-elevenlabs [acento]   (biblioteca, en espanol)
+//   node animados/herramientas/voz.mjs --agregar-voz-elevenlabs <dueno> <voice_id> <nombre>
+const EL_API = "https://api.elevenlabs.io/v1";
+const EL_ARCHIVO_CLAVE = path.join(os.homedir(), ".legion", "elevenlabs", "clave.txt");
+function claveElevenlabs() {
+  const clave = (process.env.ELEVENLABS_API_KEY || (fs.existsSync(EL_ARCHIVO_CLAVE) ? fs.readFileSync(EL_ARCHIVO_CLAVE, "utf8") : "")).trim();
+  if (!clave) {
+    throw new Error(
+      `Falta la clave de ElevenLabs. Guardala con: powershell -NoProfile -ExecutionPolicy Bypass -File animados\\herramientas\\guardar-clave-elevenlabs.ps1  (no la pegues en el chat).`,
+    );
+  }
+  return clave;
+}
+async function elevenlabs(ruta, opciones = {}) {
+  const r = await fetch(EL_API + ruta, { ...opciones, headers: { "xi-api-key": claveElevenlabs(), ...(opciones.headers || {}) } });
+  if (!r.ok) {
+    let detalle = "";
+    try {
+      detalle = JSON.stringify((await r.json()).detail || "");
+    } catch {}
+    const error = new Error(`ElevenLabs respondio ${r.status} en ${ruta.split("?")[0]}: ${detalle.slice(0, 400)}`);
+    error.status = r.status;
+    throw error;
+  }
+  return r;
+}
+async function vocesElevenlabs() {
+  return (await (await elevenlabs("/voices")).json()).voices || [];
+}
+
+const modo = process.argv[2];
+if (modo === "--voces-elevenlabs") {
+  for (const v of await vocesElevenlabs()) {
+    const l = v.labels || {};
+    console.log(`${v.voice_id}  ${v.name}  [${v.category || ""}] ${[l.language, l.accent, l.gender, l.age, l.use_case].filter(Boolean).join(", ")}`);
+  }
+  process.exit(0);
+}
+if (modo === "--buscar-voces-elevenlabs") {
+  const q = new URLSearchParams({ page_size: "40", language: "es" });
+  if (process.argv[3]) q.set("accent", process.argv[3]);
+  const datos = await (await elevenlabs("/shared-voices?" + q)).json();
+  for (const v of datos.voices || []) {
+    console.log(
+      `${v.public_owner_id} ${v.voice_id}  ${v.name}  ${[v.accent, v.gender, v.age, v.use_case, v.descriptive].filter(Boolean).join(", ")}` +
+        `${v.free_users_allowed === false ? "  (no para plan gratis)" : ""}\n    muestra: ${v.preview_url || "-"}`,
+    );
+  }
+  process.exit(0);
+}
+if (modo === "--agregar-voz-elevenlabs") {
+  const [dueno, id, ...nombre] = process.argv.slice(3);
+  if (!dueno || !id || !nombre.length) {
+    console.error("Uso: node animados/herramientas/voz.mjs --agregar-voz-elevenlabs <dueno> <voice_id> <nombre>");
+    process.exit(1);
+  }
+  const r = await elevenlabs(`/voices/add/${dueno}/${id}`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ new_name: nombre.join(" ") }),
+  });
+  console.log("Agregada. Id para el guion: " + (await r.json()).voice_id);
+  process.exit(0);
+}
 
 const carpeta = process.argv[2] ? path.resolve(process.argv[2]) : null;
 if (!carpeta || !fs.existsSync(path.join(carpeta, "guion.json"))) {
@@ -408,8 +481,28 @@ function vozDeHiggsfield(pedida) {
   return { id: voz.id, tipo: voz.voice_type || "preset" };
 }
 
+// ElevenLabs: modelo, ajustes y firma de cada frase (si cambia algo, se vuelve a generar).
+const EL_MODELO = guion.modelo_voz || "eleven_multilingual_v2";
+const EL_AJUSTES = { stability: 0.5, similarity_boost: 0.75, style: 0, use_speaker_boost: true, ...(guion.ajustes_voz || {}) };
+let vocesEL = null;
+async function vozElevenlabs(pedida) {
+  if (!pedida) throw new Error('Con "motor": "elevenlabs" el guion necesita "voz" (id o nombre; mira: node animados/herramientas/voz.mjs --voces-elevenlabs).');
+  if (/^[A-Za-z0-9]{20}$/.test(pedida)) return pedida;
+  vocesEL ??= await vocesElevenlabs();
+  const v = vocesEL.find((x) => String(x.name).toLowerCase() === String(pedida).toLowerCase());
+  if (!v) throw new Error(`La cuenta de ElevenLabs no tiene una voz llamada "${pedida}". Mira: node animados/herramientas/voz.mjs --voces-elevenlabs`);
+  return v.voice_id;
+}
+function firmaElevenlabs(frase, vozId) {
+  const dicho = paraLaVoz(frase.texto);
+  const sellado = { texto: frase.texto, motor: "elevenlabs", voz: vozId, modelo: EL_MODELO, ajustes: EL_AJUSTES };
+  if (dicho !== frase.texto) sellado.dicho = dicho;
+  const firma = JSON.stringify(sellado);
+  return { firma, dicho, guardado: path.join(ANIMADOS, ".voz-cache", crypto.createHash("sha1").update(firma).digest("hex") + ".mp3") };
+}
+
 // 1. Una frase por archivo: voz, y recorte del silencio de los extremos.
-function hablar(frase) {
+async function hablar(frase) {
   const txt = path.join(dirVoz, frase.id + ".txt");
   const crudo = path.join(dirVoz, frase.id + ".crudo.wav");
   const wav = path.join(dirVoz, frase.id + ".wav");
@@ -435,6 +528,31 @@ function hablar(frase) {
     const firma = JSON.stringify({ texto: frase.texto, fuente: path.basename(fuente), peso: datos.size, fecha: datos.mtimeMs });
     if (yaEsta(firma)) return wav;
     correr("ffmpeg", ["-v", "error", "-y", "-i", fuente, "-af", recorte, "-ar", "48000", "-ac", "1", wav]);
+    fs.writeFileSync(sello, firma, "utf8");
+    return wav;
+  }
+
+  if (MOTOR === "elevenlabs") {
+    const vozId = await vozElevenlabs(frase.voz || guion.voz);
+    const { firma, dicho, guardado } = firmaElevenlabs(frase, vozId);
+    if (yaEsta(firma)) return wav;
+    // Cada frase se paga una sola vez: queda en animados/.voz-cache/ por texto, voz y ajustes.
+    if (!fs.existsSync(guardado)) {
+      const r = await elevenlabs(`/text-to-speech/${vozId}?output_format=mp3_44100_128`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Accept: "audio/mpeg" },
+        body: JSON.stringify({ text: dicho, model_id: EL_MODELO, voice_settings: EL_AJUSTES }),
+      });
+      fs.mkdirSync(path.dirname(guardado), { recursive: true });
+      fs.writeFileSync(guardado + ".tmp", Buffer.from(await r.arrayBuffer()));
+      fs.renameSync(guardado + ".tmp", guardado);
+      // No se reintenta solo (cada intento cuesta): si whisper oye algo distinto, se avisa.
+      const fallos = difiere(guardado, frase.texto);
+      if (fallos !== null && fallos > Math.max(1, Math.round(sonido(frase.texto).length * 0.2))) {
+        revisarDeOido.push(`${frase.id} "${frase.texto}": whisper oye ${fallos} palabra(s) distinta(s)`);
+      }
+    }
+    correr("ffmpeg", ["-v", "error", "-y", "-i", guardado, "-af", recorte, "-ar", "48000", "-ac", "1", wav]);
     fs.writeFileSync(sello, firma, "utf8");
     return wav;
   }
@@ -611,9 +729,31 @@ if (MOTOR === "grabada") {
   prepararGrabacion();
 }
 
+// Antes de gastar: cuantos caracteres se van a pagar (lo ya generado no cuenta) y tope.
+if (MOTOR === "elevenlabs") {
+  let porPagar = 0;
+  for (const frase of guion.frases) {
+    const { firma, dicho, guardado } = firmaElevenlabs(frase, await vozElevenlabs(frase.voz || guion.voz));
+    const sello = path.join(dirVoz, frase.id + ".firma");
+    const yaHecha = fs.existsSync(path.join(dirVoz, frase.id + ".wav")) && fs.existsSync(sello) && fs.readFileSync(sello, "utf8") === firma;
+    if (!yaHecha && !fs.existsSync(guardado)) porPagar += dicho.length;
+  }
+  let cuenta = "";
+  try {
+    const s = await (await elevenlabs("/user/subscription")).json();
+    cuenta = ` (la cuenta lleva ${s.character_count} de ${s.character_limit} caracteres este mes, plan ${s.tier})`;
+  } catch {}
+  console.log(`ElevenLabs, modelo ${EL_MODELO}: ${porPagar} caracteres por generar${cuenta}`);
+  const tope = guion.tope_caracteres ?? 3000;
+  if (porPagar > tope) {
+    console.error(`No sigo: ${porPagar} caracteres pasan el tope de ${tope}. Si es a proposito, sube "tope_caracteres" en el guion.`);
+    process.exit(1);
+  }
+}
+
 for (const frase of guion.frases) {
   process.stdout.write(`voz ${frase.id} ... `);
-  const wav = hablar(frase);
+  const wav = await hablar(frase);
   const dur = duracion(wav);
   const palabras = frase.texto.split(/\s+/).filter(Boolean);
   const { tiempos, pausas, esperadas } = alinear(palabras, wav, dur);
