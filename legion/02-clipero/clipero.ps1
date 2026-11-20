@@ -64,6 +64,9 @@ foreach ($exe in $ytdlp, $ffmpeg, $ffprobe, (Join-Path $bin 'deno.exe')) {
 }
 # yt-dlp busca deno y ffmpeg en el PATH
 $env:PATH = "$bin;$env:PATH"
+# deno guarda una cache en %LOCALAPPDATA%\deno que compartian todas las copias del proyecto. El 2026-11-20 se atasco
+# (dep_analysis_cache_v2) y colgo cada descarga de YouTube. Cada copia usa ahora la suya, fuera de Git.
+$env:DENO_DIR = Join-Path $raiz 'herramientas\cache-deno'
 
 # Una sola ejecucion a la vez contra YouTube: varias descargas en paralelo desde la misma IP provocan HTTP 429 y cuelgues.
 # Si el agente lanza varias llamadas juntas, esperan su turno. El candado se libera al terminar el proceso.
