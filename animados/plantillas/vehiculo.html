@@ -1,0 +1,241 @@
+<!--
+  Vehiculo (videos propios, Narrador): un tren de vapor (sobre la via, entre selva y montanas) o un
+  barco de vapor (sobre el mar) que entra a la escena, con el ano en un sello, un titulo, un dato y,
+  si se quiere, una foto real enmarcada (de la cache de Commons) con su pie.
+  Solo horizontal. Necesita "estilo.tema".
+  Datos: tipo: "tren" (por defecto) o "barco"
+         anio (opcional): "1855" (sello redondo arriba a la izquierda)
+         rotulo: "Ferrocarril de Panamá" (24 letras); detalle (opcional): "Una empresa de Nueva York" (32 letras)
+         bandera (opcional, en el barco): eeuu|colombia|panama|francia|espana
+         foto (opcional): archivo de Commons; foto_pie (40 letras)
+         palabras (opcionales): { anio, entra, rotulo, detalle, foto }: palabras dichas que disparan cada cosa
+-->
+<template>
+  <style>
+{{>narrador-css}}
+    #{{id}}-paisaje {
+      position: absolute;
+      inset: 0;
+    }
+    #{{id}}-veh {
+      position: absolute;
+      left: 560px;
+      top: 556px;
+      width: 1000px;
+      height: 300px;
+    }
+    #{{id}}-veh-f {
+      position: absolute;
+      inset: 0;
+    }
+    #{{id}}-sello {
+      position: absolute;
+      left: 100px;
+      top: 80px;
+      width: 270px;
+      height: 270px;
+      opacity: 0;
+    }
+    #{{id}}-rotulo {
+      position: absolute;
+      left: 420px;
+      top: 96px;
+      width: 980px;
+      font-size: 92px;
+      white-space: nowrap;
+      opacity: 0;
+    }
+    #{{id}}-detalle {
+      position: absolute;
+      left: 420px;
+      top: 226px;
+      padding: 12px 30px 14px;
+      font-size: 40px;
+      white-space: nowrap;
+      opacity: 0;
+    }
+    #{{id}}-foto {
+      position: absolute;
+      left: 1440px;
+      top: 70px;
+      width: 400px;
+      opacity: 0;
+    }
+    #{{id}}-foto-marco {
+      background: #fbf3df;
+      padding: 14px 14px 8px;
+      box-shadow: 0 20px 40px rgba(70, 40, 15, 0.3), 0 0 0 2px rgba(59, 36, 21, 0.2);
+    }
+    #{{id}}-foto-img {
+      display: block;
+      width: 372px;
+      height: 290px;
+      object-fit: cover;
+      filter: sepia(0.35) contrast(1.05);
+    }
+    #{{id}}-foto-pie {
+      margin-top: 6px;
+      font-size: 28px;
+      line-height: 1.15;
+      text-align: center;
+      font-style: italic;
+    }
+    .{{id}}-cinta {
+      position: absolute;
+      top: -16px;
+      width: 110px;
+      height: 34px;
+      background: rgba(225, 205, 150, 0.82);
+    }
+  </style>
+
+  <div id="root" data-composition-id="{{id}}" data-width="{{ancho}}" data-height="{{alto}}">
+    <div id="{{id}}-paisaje"></div>
+    <div id="{{id}}-veh"><div id="{{id}}-veh-f"></div></div>
+    <div id="{{id}}-sello"></div>
+    <div id="{{id}}-rotulo" class="{{id}}-titulo">{{d.rotulo}}</div>
+    <div id="{{id}}-detalle" class="{{id}}-tarjeta {{id}}-titulo">{{d.detalle|}}</div>
+    <div id="{{id}}-foto">
+      <div id="{{id}}-foto-f">
+        <div id="{{id}}-foto-marco"><img id="{{id}}-foto-img" src="{{d.foto_src|}}" alt="" /><div id="{{id}}-foto-pie" class="{{id}}-suave">{{d.foto_pie|}}</div></div>
+        <div class="{{id}}-cinta" style="left: -24px; transform: rotate(-32deg)"></div>
+        <div class="{{id}}-cinta" style="right: -24px; transform: rotate(32deg)"></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+{{>narrador-js}}
+{{>escena-h-js}}
+
+    const W = D.palabras || {};
+    const barco = D.tipo === "barco";
+    if (!D.detalle) $("detalle").style.display = "none";
+    if (!D.foto_src) $("foto").style.display = "none";
+    $("rotulo").style.fontSize = tamPara(D.rotulo, D.foto_src ? 980 : 1360, 96, 60, T.anchoTitulo) + "px";
+
+    // ---------- Paisaje ----------
+    let p = `<svg class="{{id}}-arte" viewBox="0 0 1920 1080" preserveAspectRatio="none">`;
+    if (!barco) {
+      p += `<path d="M0 640 C220 520 380 560 560 500 C760 430 900 540 1100 480 C1300 420 1500 520 1700 470 C1800 450 1880 470 1920 480 V900 H0 Z" fill="#cfc59a" opacity="0.8" />`;
+      p += `<path d="M0 720 C200 650 420 700 640 660 C860 620 1060 700 1300 660 C1520 625 1720 690 1920 650 V900 H0 Z" fill="#a9ad80" />`;
+      // Palmas.
+      const palma = (x, y, s) =>
+        `<g transform="translate(${x} ${y}) scale(${s})"><path d="M0 0 C6 -60 2 -120 12 -170" stroke="#6b5a3a" stroke-width="12" fill="none" stroke-linecap="round" />` +
+        `<path d="M12 -170 C-30 -190 -70 -170 -96 -140 C-60 -160 -30 -164 12 -170 Z M12 -170 C50 -196 96 -180 120 -150 C84 -168 50 -168 12 -170 Z M12 -170 C-10 -214 -50 -232 -84 -226 C-44 -214 -16 -196 12 -170 Z M12 -170 C34 -216 74 -232 108 -222 C70 -212 42 -196 12 -170 Z" fill="#5f6e45" /></g>`;
+      [[120, 760, 1.1], [300, 770, 0.8], [1640, 760, 1.2], [1800, 775, 0.85], [1500, 780, 0.7]].forEach(([x, y, s]) => (p += palma(x, y, s)));
+      p += `<rect x="0" y="770" width="1920" height="310" fill="#d8c08a" /><rect x="0" y="770" width="1920" height="10" fill="#c2a46c" />`;
+      for (let x = 10; x < 1920; x += 56) p += `<rect x="${x}" y="850" width="34" height="16" rx="3" fill="#7a5532" />`;
+      p += `<rect x="0" y="842" width="1920" height="9" fill="#3b2415" /><rect x="0" y="862" width="1920" height="7" fill="#3b2415" opacity="0.75" />`;
+    } else {
+      p += `<path d="M0 700 C260 660 520 690 820 670 C1120 650 1420 690 1920 660 V760 H0 Z" fill="#b9b994" opacity="0.6" />`;
+      p += `<rect x="0" y="760" width="1920" height="320" fill="#a9b39a" />`;
+      p += `<g id="{{id}}-olas">`;
+      for (let fila = 0; fila < 5; fila++) {
+        let d = "";
+        for (let x = -400; x < 2400; x += 80) d += `M${x} ${800 + fila * 56} q20 -12 40 0 t40 0 `;
+        p += `<path d="${d}" stroke="#7d8f78" stroke-width="4" fill="none" opacity="${0.7 - fila * 0.1}" />`;
+      }
+      p += `</g>`;
+    }
+    $("paisaje").innerHTML = p + "</svg>";
+
+    // ---------- Vehiculo (mira a la derecha) ----------
+    const rueda = (id, cx, cy, r, rayos) => {
+      let s = `<g id="{{id}}-${id}"><circle cx="${cx}" cy="${cy}" r="${r}" fill="#a3302a" stroke="#2c1a10" stroke-width="${r * 0.22}" />`;
+      for (let k = 0; k < rayos; k++) {
+        const a = (k * Math.PI * 2) / rayos;
+        s += `<path d="M${cx} ${cy} L${(cx + Math.cos(a) * r * 0.85).toFixed(1)} ${(cy + Math.sin(a) * r * 0.85).toFixed(1)}" stroke="#2c1a10" stroke-width="${Math.max(3, r * 0.1).toFixed(1)}" />`;
+      }
+      return s + `<circle cx="${cx}" cy="${cy}" r="${r * 0.22}" fill="#c9a256" /></g>`;
+    };
+    const ruedas = [];
+    let v = `<svg class="{{id}}-arte" viewBox="0 0 1000 300">`;
+    if (!barco) {
+      // Vagon de pasajeros.
+      v += `<path d="M30 110 Q175 78 320 110 L320 230 L30 230 Z" fill="#c9a256" /><path d="M30 110 Q175 78 320 110 L320 124 Q175 94 30 124 Z" fill="#6e4426" /><rect x="30" y="214" width="290" height="16" fill="#8a5a33" />`;
+      for (let k = 0; k < 5; k++) v += `<rect x="${48 + k * 54}" y="136" width="38" height="48" rx="6" fill="#f2e2b6" stroke="#6e4426" stroke-width="4" />`;
+      v += rueda("r1", 80, 248, 26, 6) + rueda("r2", 270, 248, 26, 6);
+      ruedas.push(["r1", 80, 248], ["r2", 270, 248]);
+      v += `<rect x="318" y="206" width="40" height="10" fill="#2c1a10" />`;
+      // Tender con lena.
+      v += `<rect x="352" y="140" width="165" height="92" rx="6" fill="#3b2415" /><rect x="352" y="140" width="165" height="12" fill="#c9a256" />`;
+      for (let k = 0; k < 6; k++) v += `<rect x="${362 + k * 25}" y="${118 + (k % 2) * 6}" width="22" height="24" rx="8" fill="#8a5a33" stroke="#5a361d" stroke-width="3" />`;
+      v += rueda("r3", 395, 248, 26, 6) + rueda("r4", 478, 248, 26, 6);
+      ruedas.push(["r3", 395, 248], ["r4", 478, 248]);
+      // Locomotora: cabina, caldera, domo, chimenea, faro y quitapiedras.
+      v += `<rect x="530" y="96" width="112" height="136" fill="#a3302a" /><rect x="518" y="78" width="136" height="22" rx="6" fill="#3b2415" /><rect x="548" y="114" width="44" height="46" rx="5" fill="#f2e2b6" stroke="#6e4426" stroke-width="4" />`;
+      v += `<rect x="636" y="122" width="270" height="86" rx="40" fill="#3b2415" />`;
+      for (const x of [690, 770, 850]) v += `<rect x="${x}" y="122" width="10" height="86" fill="#c9a256" />`;
+      v += `<path d="M748 124 C748 98 790 98 790 124 Z" fill="#c9a256" /><rect x="744" y="118" width="50" height="8" rx="3" fill="#8a5a33" />`;
+      v += `<path id="{{id}}-chimenea" d="M846 124 L838 70 L812 34 L906 34 L880 70 L872 124 Z" fill="#2c1a10" /><rect x="806" y="26" width="106" height="14" rx="5" fill="#c9a256" />`;
+      v += `<rect x="900" y="92" width="44" height="40" rx="6" fill="#c9a256" /><circle cx="944" cy="112" r="14" fill="#f6e7b0" stroke="#8a5a33" stroke-width="4" />`;
+      v += `<rect x="900" y="128" width="22" height="80" fill="#2c1a10" /><path d="M900 206 L990 252 L900 252 Z" fill="#6e4426" /><path d="M910 210 L980 248 M930 220 L930 250 M950 230 L950 250 M970 240 L970 250" stroke="#3b2415" stroke-width="4" />`;
+      v += `<rect x="830" y="200" width="70" height="26" rx="8" fill="#2c1a10" />`;
+      v += rueda("r5", 690, 236, 46, 10) + rueda("r6", 795, 236, 46, 10) + rueda("r7", 878, 256, 22, 6) + rueda("r8", 936, 256, 22, 6);
+      ruedas.push(["r5", 690, 236], ["r6", 795, 236], ["r7", 878, 256], ["r8", 936, 256]);
+      v += `<rect id="{{id}}-biela" x="690" y="230" width="105" height="12" rx="6" fill="#c9a256" />`;
+    } else {
+      // Barco de vapor con casco oscuro, linea de flotacion roja, superestructura y chimenea.
+      v += `<path d="M40 190 L960 190 L900 268 L110 268 Z" fill="#2f2a26" /><path d="M40 190 L960 190 L950 204 L50 204 Z" fill="#a3302a" /><path d="M104 258 L906 258 L900 268 L110 268 Z" fill="#1d1916" />`;
+      for (let k = 0; k < 12; k++) v += `<circle cx="${190 + k * 56}" cy="226" r="7" fill="#f2e2b6" />`;
+      v += `<rect x="300" y="132" width="360" height="60" rx="6" fill="#efe6cf" stroke="#3b2415" stroke-width="4" /><rect x="380" y="96" width="180" height="40" rx="5" fill="#efe6cf" stroke="#3b2415" stroke-width="4" />`;
+      for (let k = 0; k < 6; k++) v += `<rect x="${320 + k * 56}" y="150" width="28" height="20" rx="3" fill="#6e7d86" />`;
+      v += `<rect id="{{id}}-chimenea" x="470" y="20" width="56" height="80" rx="6" fill="#c9a256" /><rect x="470" y="20" width="56" height="16" fill="#2f2a26" />`;
+      v += `<path d="M230 190 L230 30 M760 190 L760 50" stroke="#3b2415" stroke-width="8" /><path d="M150 70 L310 70 M690 90 L830 90" stroke="#3b2415" stroke-width="5" />`;
+      v += `<rect x="700" y="140" width="110" height="26" rx="8" fill="#3b2415" /><rect x="800" y="146" width="70" height="12" rx="5" fill="#3b2415" />`;
+      if (D.bandera) v += `<path d="M86 190 L86 92" stroke="#3b2415" stroke-width="5" /><svg x="88" y="92" width="78" height="52" viewBox="0 0 90 60" preserveAspectRatio="none">${bandera(D.bandera)}</svg>`;
+    }
+    // Bocanadas de humo (salen de la chimenea y quedan atras).
+    const humoX = barco ? 498 : 859;
+    const humoY = barco ? 14 : 22;
+    const NH = 12;
+    for (let k = 0; k < NH; k++) v += `<circle id="{{id}}-humo-${k}" cx="${humoX}" cy="${humoY}" r="22" fill="#efe6d2" stroke="#b9a988" stroke-width="3" opacity="0" />`;
+    $("veh-f").innerHTML = v + "</svg>";
+
+    // ---------- Sello del ano ----------
+    if (D.anio) {
+      const k = String(D.anio);
+      $("sello").innerHTML =
+        `<svg class="{{id}}-arte" viewBox="0 0 270 270"><circle cx="135" cy="135" r="122" fill="#fbf3df" style="stroke: var(--acento)" stroke-width="10" /><circle cx="135" cy="135" r="104" fill="none" style="stroke: var(--acento)" stroke-width="3" stroke-dasharray="6 7" />` +
+        `<text x="135" y="160" text-anchor="middle" font-family="Playfair Display, serif" font-weight="900" font-size="${k.length > 4 ? 64 : 82}" style="fill: var(--acento)">${esc(k)}</text></svg>`;
+    } else $("sello").style.display = "none";
+
+    // ---------- Movimiento ----------
+    const tAnio = tope(momento(W.anio || D.anio, 0.05), 1);
+    const tEntra = tope(momento(W.entra, 0.15), 2.2);
+    const tRot = tope(momento(W.rotulo || D.rotulo, 0.35), 1);
+    const tDet = tope(momento(W.detalle, 0.7), 0.8);
+    const tFoto = tope(momento(W.foto, 0.5), 1);
+    const viaje = Math.min(2.6, Math.max(1.6, r.dur * 0.38));
+    if (D.anio) {
+      tl.fromTo(el("sello"), { opacity: 0, scale: 2.2, rotation: -40 }, { opacity: 1, scale: 1, rotation: -10, duration: 0.3, ease: "power3.in" }, tAnio);
+      fx.golpe(tl, el("sello"), tAnio + 0.32, 1.06);
+    }
+    tl.fromTo(el("veh"), { x: barco ? 1500 : -1660 }, { x: 0, duration: viaje, ease: "power2.out" }, tEntra);
+    // Ruedas que giran mientras avanza (y se frenan con el); vaiven del vehiculo.
+    if (!barco) {
+      ruedas.forEach(([id, cx, cy]) => tl.fromTo(el(id), { rotation: 0, svgOrigin: `${cx} ${cy}` }, { rotation: 900, svgOrigin: `${cx} ${cy}`, duration: viaje, ease: "power2.out" }, tEntra));
+      tl.fromTo(el("biela"), { y: 0 }, { y: -8, duration: 0.12, ease: "sine.inOut", repeat: Math.max(1, Math.floor(viaje / 0.12) - 1), yoyo: true }, tEntra);
+      tl.fromTo(el("veh-f"), { y: 0 }, { y: -3, duration: 0.09, ease: "sine.inOut", repeat: Math.max(1, Math.floor(viaje / 0.09) - 1), yoyo: true }, tEntra);
+    } else {
+      fx.flota(tl, el("veh-f"), tEntra, r.dur, 6, 1.4);
+      tl.fromTo(el("olas"), { x: 0 }, { x: -160, duration: r.dur, ease: "none" }, 0);
+    }
+    // Humo: una bocanada cada tanto, mas seguidas mientras se mueve.
+    for (let k = 0; k < NH; k++) {
+      const t = tEntra + (k < 7 ? k * 0.3 : 7 * 0.3 + (k - 7) * 0.6);
+      if (t > r.dur - 0.6) break;
+      const atras = barco ? 90 : -160;
+      tl.fromTo(el("humo-" + k), { opacity: 0.95, scale: 0.4, x: 0, y: 0, transformOrigin: "50% 50%" }, { opacity: 0, scale: 2.6, x: atras - k * 6, y: -150, duration: 1.4, ease: "power1.out" }, t);
+    }
+    fx.entra(tl, el("rotulo"), tRot, { y: 40 }, 0.38);
+    if (D.detalle) fx.entra(tl, el("detalle"), tDet, { x: -40 }, 0.34);
+    if (D.foto_src) {
+      tl.fromTo(el("foto"), { opacity: 0, y: -80, rotation: 10 }, { opacity: 1, y: 0, rotation: 3, duration: 0.5, ease: "back.out(1.5)" }, tFoto);
+      fx.flota(tl, el("foto-f"), tFoto + 0.6, r.dur, 4, 1.3);
+    }
+
+    window.__timelines["{{id}}"] = tl;
+  </script>
+</template>

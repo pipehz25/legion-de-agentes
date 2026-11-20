@@ -1,6 +1,17 @@
 {
-  "actualizado": "2026-11-20T03:00:13.354Z",
+  "actualizado": "2026-11-20T13:46:28.454Z",
   "videos": [
+    {
+      "id": "hi-panama-muestra",
+      "titulo": "¿Cómo perdió Colombia a Panamá? (muestra de estilo)",
+      "duracion_s": 61.7,
+      "producido": "2026-11-20T13:45:39.605Z",
+      "video": "salidas/narrador/hi-panama-muestra/hi-panama-muestra.mp4",
+      "portada": "salidas/narrador/hi-panama-muestra/portada.jpg",
+      "fuentes": "salidas/narrador/hi-panama-muestra/fuentes.md",
+      "video_en_esta_pc": true,
+      "publicacion": "Muestra de estilo: ¿Cómo perdió Colombia a Panamá? (no se publica)\n\n#historia #colombia #panama"
+    },
     {
       "id": "hi-panama",
       "tipo": "largo",

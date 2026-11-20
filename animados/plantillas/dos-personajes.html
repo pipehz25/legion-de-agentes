@@ -1,0 +1,185 @@
+<!--
+  Dos personajes (videos propios, Narrador): dos personas de medio cuerpo, frente a frente detras de
+  una mesa, con su nombre y su bandera; sobre la mesa, un documento que uno de los dos firma. Sirve
+  para una negociacion, una firma o un enfrentamiento. Puede llevar una foto real enmarcada (de la
+  cache de Commons) como prueba, con su pie.
+  Solo horizontal. Necesita "estilo.tema".
+  Datos: izquierda, derecha: { nombre (22 letras), rol (34 letras), bandera (opcional: eeuu|panama|colombia|
+           francia|espana), palabra_bandera (opcional), ...dibujo (los de _figura-js.html: piel, pelo, ropa,
+           detalle, corbata, peinado, barba, sombrero, gafas, expresion, pose) }
+         firma (opcional): "izquierda" o "derecha" (quien firma; su pose pasa a "firmar"), palabra_firma
+         foto (opcional): nombre del archivo de Commons; foto_pie (40 letras); palabra_foto
+-->
+<template>
+  <style>
+{{>narrador-css}}
+    .{{id}}-fig {
+      position: absolute;
+      top: 150px;
+      width: 470px;
+      height: 611px;
+    }
+    .{{id}}-fig-f {
+      position: absolute;
+      inset: 0;
+    }
+    #{{id}}-mesa {
+      position: absolute;
+      left: 0;
+      top: 700px;
+      width: 1920px;
+      height: 380px;
+    }
+    .{{id}}-placa {
+      position: absolute;
+      top: 800px;
+      width: 560px;
+      padding: 16px 26px 18px;
+      text-align: center;
+      opacity: 0;
+    }
+    .{{id}}-placa-n {
+      font-size: 42px;
+      line-height: 1.1;
+      white-space: nowrap;
+    }
+    .{{id}}-placa-r {
+      margin-top: 4px;
+      font-size: 29px;
+      white-space: nowrap;
+    }
+    .{{id}}-asta {
+      position: absolute;
+      top: 520px;
+      width: 120px;
+      height: 200px;
+      opacity: 0;
+    }
+    #{{id}}-papel {
+      position: absolute;
+      left: 760px;
+      top: 668px;
+      width: 400px;
+      height: 70px;
+    }
+    #{{id}}-foto {
+      position: absolute;
+      left: 760px;
+      top: 70px;
+      width: 400px;
+      opacity: 0;
+    }
+    #{{id}}-foto-marco {
+      background: #fbf3df;
+      padding: 16px 16px 10px;
+      box-shadow: 0 20px 40px rgba(70, 40, 15, 0.3), 0 0 0 2px rgba(59, 36, 21, 0.2);
+    }
+    #{{id}}-foto-img {
+      display: block;
+      width: 368px;
+      height: 250px;
+      object-fit: cover;
+      filter: sepia(0.35) contrast(1.05);
+    }
+    #{{id}}-foto-pie {
+      margin-top: 8px;
+      font-size: 28px;
+      line-height: 1.15;
+      text-align: center;
+    }
+    .{{id}}-cinta {
+      position: absolute;
+      top: -16px;
+      width: 120px;
+      height: 36px;
+      background: rgba(225, 205, 150, 0.82);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12);
+    }
+  </style>
+
+  <div id="root" data-composition-id="{{id}}" data-width="{{ancho}}" data-height="{{alto}}">
+    <div id="{{id}}-foto">
+      <div id="{{id}}-foto-f">
+        <div id="{{id}}-foto-marco">
+          <img id="{{id}}-foto-img" src="{{d.foto_src|}}" alt="" />
+          <div id="{{id}}-foto-pie" class="{{id}}-suave">{{d.foto_pie|}}</div>
+        </div>
+        <div class="{{id}}-cinta" style="left: -26px; transform: rotate(-32deg)"></div>
+        <div class="{{id}}-cinta" style="right: -26px; transform: rotate(32deg)"></div>
+      </div>
+    </div>
+    <div id="{{id}}-fig-a" class="{{id}}-fig" style="left: 190px"><div id="{{id}}-fig-a-f" class="{{id}}-fig-f"></div></div>
+    <div id="{{id}}-fig-b" class="{{id}}-fig" style="left: 1260px"><div id="{{id}}-fig-b-f" class="{{id}}-fig-f"></div></div>
+    <div id="{{id}}-asta-a" class="{{id}}-asta" style="left: 50px"></div>
+    <div id="{{id}}-asta-b" class="{{id}}-asta" style="left: 1750px"></div>
+    <div id="{{id}}-mesa"></div>
+    <div id="{{id}}-papel"></div>
+    <div id="{{id}}-placa-a" class="{{id}}-placa {{id}}-tarjeta" style="left: 145px"><div class="{{id}}-placa-n {{id}}-titulo">{{d.izquierda.nombre}}</div><div class="{{id}}-placa-r {{id}}-suave">{{d.izquierda.rol|}}</div></div>
+    <div id="{{id}}-placa-b" class="{{id}}-placa {{id}}-tarjeta" style="left: 1215px"><div class="{{id}}-placa-n {{id}}-titulo">{{d.derecha.nombre}}</div><div class="{{id}}-placa-r {{id}}-suave">{{d.derecha.rol|}}</div></div>
+  </div>
+
+  <script>
+{{>narrador-js}}
+{{>escena-h-js}}
+{{>figura-js}}
+
+    const A = { ...D.izquierda };
+    const B = { ...D.derecha };
+    if (D.firma === "izquierda") A.pose = "firmar";
+    if (D.firma === "derecha") B.pose = "firmar";
+    // El de la izquierda mira a la derecha (como se dibuja); el de la derecha se voltea.
+    $("fig-a-f").innerHTML = `<svg class="{{id}}-arte" viewBox="0 0 400 520">${figura(A, "{{id}}-a", "medio")}</svg>`;
+    $("fig-b-f").innerHTML = `<svg class="{{id}}-arte" viewBox="0 0 400 520"><g transform="translate(400 0) scale(-1 1)">${figura(B, "{{id}}-b", "medio")}</g></svg>`;
+    const asta = (pais, haciaDer) =>
+      `<svg class="{{id}}-arte" viewBox="0 0 120 200"><rect x="${haciaDer ? 18 : 96}" y="20" width="6" height="170" rx="3" fill="#6f5a43" /><circle cx="${haciaDer ? 21 : 99}" cy="18" r="7" fill="#c9a256" />` +
+      `<svg x="${haciaDer ? 24 : 6}" y="26" width="90" height="60" viewBox="0 0 90 60" preserveAspectRatio="none">${bandera(pais)}</svg><ellipse cx="${haciaDer ? 21 : 99}" cy="190" rx="22" ry="7" fill="#3b2415" /></svg>`;
+    if (A.bandera) $("asta-a").innerHTML = asta(A.bandera, true);
+    if (B.bandera) $("asta-b").innerHTML = asta(B.bandera, false);
+    // Mesa de madera con su canto, y el documento encima.
+    $("mesa").innerHTML =
+      `<svg class="{{id}}-arte" viewBox="0 0 1920 380" preserveAspectRatio="none"><path d="M60 0 H1860 L1920 46 H0 Z" fill="#8a5a33" /><path d="M60 0 H1860 L1872 10 H48 Z" fill="#a8734a" />` +
+      `<rect x="0" y="46" width="1920" height="334" fill="#6e4426" /><rect x="0" y="46" width="1920" height="14" fill="#5a361d" />` +
+      `<path d="M0 120 H1920 M0 230 H1920" stroke="#5a361d" stroke-width="3" opacity="0.5" /></svg>`;
+    const firmaDer = D.firma !== "izquierda";
+    // El documento queda bajo la mano de quien firma.
+    $("papel").style.left = (firmaDer ? 1100 : 420) + "px";
+    $("papel").innerHTML =
+      `<svg class="{{id}}-arte" viewBox="0 0 400 70"><path d="M40 6 H372 L392 64 H8 Z" fill="#fbf4e2" stroke="#3b2415" stroke-opacity="0.3" stroke-width="2" />` +
+      `<path d="M70 20 H250 M60 32 H300 M52 44 H200" stroke="#3b2415" stroke-opacity="0.25" stroke-width="4" stroke-linecap="round" />` +
+      `<path id="{{id}}-firma" d="M${firmaDer ? 250 : 60} 52 C${firmaDer ? "262 30 270 64 284 42 C294 28 298 60 312 46 C322 36 330 54 352 40" : "72 30 80 64 94 42 C104 28 108 60 122 46 C132 36 140 54 162 40"}" fill="none" stroke="#1f2a5a" stroke-width="3.5" stroke-linecap="butt" pathLength="1" stroke-dasharray="1 1" stroke-dashoffset="1" /></svg>`;
+    if (!D.foto_src) $("foto").style.display = "none";
+    ["placa-a", "placa-b"].forEach((p) => {
+      const n = $(p).querySelector(".{{id}}-placa-n");
+      n.style.fontSize = tamPara(n.textContent, 500, 42, 30, T.anchoTitulo) + "px";
+    });
+
+    // ---------- Movimiento ----------
+    fx.entra(tl, el("fig-a"), 0.02, { x: -120 }, 0.45);
+    fx.entra(tl, el("fig-b"), 0.12, { x: 120 }, 0.45);
+    fx.flota(tl, el("fig-a-f"), 0.6, r.dur, 5, 1.2);
+    fx.entra(tl, el("placa-a"), 0.3, { y: 30 }, 0.32);
+    fx.entra(tl, el("placa-b"), 0.42, { y: 30 }, 0.32);
+    const tFirma = tope(momento(D.palabra_firma, 0.15), 0.9);
+    tl.to(el("firma"), { attr: { "stroke-dashoffset": 0 }, duration: 0.8, ease: "power1.inOut" }, tFirma);
+    // Quien firma se inclina un poco y mueve la mano al ritmo de la firma.
+    const firmante = firmaDer ? el("fig-b-f") : el("fig-a-f");
+    tl.fromTo(firmante, { rotation: 0 }, { rotation: firmaDer ? -2.2 : 2.2, duration: 0.2, ease: "sine.inOut", repeat: 3, yoyo: true, transformOrigin: "50% 90%" }, tFirma);
+    if (!firmaDer) fx.flota(tl, el("fig-b-f"), 0.6, r.dur, 5, 1.2);
+    // Banderas en la mesa: cada una con su palabra (o al empezar).
+    if (A.bandera) fx.entra(tl, el("asta-a"), tope(momento(A.palabra_bandera, 0.05), 0.6), { y: 40 }, 0.35);
+    if (B.bandera) fx.entra(tl, el("asta-b"), tope(momento(B.palabra_bandera, 0.1), 0.6), { y: 40 }, 0.35);
+    // Parpadeos.
+    [["a", 0.8], ["a", 2.4], ["b", 1.3], ["b", 2.9]].forEach(([q, t]) => {
+      if (t > r.dur - 0.3) return;
+      tl.to(`#{{id}}-${q}-ojos`, { scaleY: 0.12, transformOrigin: "50% 50%", duration: 0.07 }, t);
+      tl.to(`#{{id}}-${q}-ojos`, { scaleY: 1, duration: 0.1 }, t + 0.07);
+    });
+    if (D.foto_src) {
+      const tF = tope(momento(D.palabra_foto, 0.6), 0.9);
+      tl.fromTo(el("foto"), { opacity: 0, y: -80, rotation: -10 }, { opacity: 1, y: 0, rotation: -3, duration: 0.5, ease: "back.out(1.5)" }, tF);
+      fx.flota(tl, el("foto-f"), tF + 0.6, r.dur, 4, 1.3);
+    }
+
+    window.__timelines["{{id}}"] = tl;
+  </script>
+</template>

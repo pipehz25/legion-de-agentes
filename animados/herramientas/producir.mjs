@@ -130,6 +130,15 @@ function produce(carpeta) {
   const guion = leeGuion(carpeta);
   const { nombre, dir, mp4 } = entregaDe(carpeta, guion);
   console.log(`\n=== ${nombre}: ${guion.titulo || ""} ===`);
+  // Cuanto tarda cada paso (sirve para estimar videos mas largos).
+  const t0 = Date.now();
+  const tiempos = {};
+  let marca = t0;
+  const mide = (paso) => {
+    const ahora = Date.now();
+    tiempos[paso] = Math.round((ahora - marca) / 100) / 10;
+    marca = ahora;
+  };
 
   // Lo minimo que HyperFrames espera encontrar en la carpeta.
   const base = {
@@ -161,8 +170,10 @@ function produce(carpeta) {
   const voz = corre("voz", `node "${path.join(AQUI, "voz.mjs")}" "${carpeta}"`, RAIZ, { tolera: true });
   if (voz.status === 3) return { nombre, esperando: true };
   if (voz.status !== 0) throw new Error(`Fallo "voz" en ${nombre} (mira el mensaje de arriba).`);
+  mide("voz");
   console.log("2/4 montaje");
   corre("montaje", `node "${path.join(AQUI, "montaje.mjs")}" "${carpeta}"`, RAIZ, { callado: true });
+  mide("montaje");
 
   console.log("3/4 revision");
   const rev = corre("revision", `npx --yes ${HF} check --json`, carpeta, { callado: true, tolera: true });
@@ -182,12 +193,14 @@ function produce(carpeta) {
   }
   hallazgos.forEach((h) => console.log(h));
   if (!informe.ok) throw new Error(`La revision de "${nombre}" tiene errores: no se renderiza hasta corregirlos.`);
+  mide("revision");
   if (sinRender) return { nombre, avisos: hallazgos.length, mp4: null };
 
   console.log("4/4 render");
   fs.mkdirSync(path.join(carpeta, "renders"), { recursive: true });
   const salidaLocal = path.join(carpeta, "renders", nombre + ".mp4");
   corre("render", `npx --yes ${HF} render -q delivery -o "${salidaLocal}"`, carpeta, { callado: true });
+  mide("render");
 
   // Entrega.
   fs.mkdirSync(dir, { recursive: true });
@@ -210,12 +223,16 @@ function produce(carpeta) {
     volumen: lufs.replace(/\s+/g, " ").trim(),
     voz: `${guion.motor || "kokoro"}${guion.voz ? " / " + guion.voz : ""}`,
     avisos_revision: hallazgos.length,
+    ...(guion.orientacion === "horizontal" ? { formato: "1920x1080" } : {}),
+    tiempo_produccion_s: Math.round((Date.now() - t0) / 1000),
+    tiempos_s: tiempos,
     producido: new Date().toISOString(),
     video: `${nombre}.mp4`,
     guion: path.relative(RAIZ, path.join(carpeta, "guion.json")).replace(/\\/g, "/"),
   };
   fs.writeFileSync(path.join(dir, "meta.json"), JSON.stringify(meta, null, 2) + "\n", "utf8");
   console.log(`Listo: ${mp4}  (${meta.duracion_s} s, ${meta.volumen})`);
+  console.log(`Tiempos: ${Object.entries(tiempos).map(([k, v]) => `${k} ${v} s`).join(", ")}; total ${meta.tiempo_produccion_s} s`);
   return { nombre, avisos: hallazgos.length, mp4 };
 }
 

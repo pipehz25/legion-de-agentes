@@ -1,0 +1,553 @@
+<!--
+  Mapa (videos propios, Narrador): un mapa ilustrado de las Americas (de Mexico al cabo de Hornos)
+  con camara que se mueve entre vistas, paises que se encienden, un pais que se separa, rutas que se
+  dibujan (con un barco o un tren que las recorre), marcas de ciudades, rotulos, banderas y fichas.
+  Solo horizontal. Necesita "estilo.tema" (pensada para "archivo").
+  Lugares: [longitud, latitud] o un nombre de la geografia (colon, panama, bogota, cartagena, caracas,
+  quito, cabo_hornos, darien). Momentos: una palabra dicha, { "en": 0.5 } (parte de lo hablado en la
+  escena) o segundos desde que empieza la escena.
+  Datos:
+    vistas: [{ caja: [lonOeste, latNorte, lonEste, latSur] | centro: [lon, lat] + ancho (grados),
+               palabra|en (cuando llega; la primera esta desde el cuadro 0), dur (s, por defecto 1.4) }]
+    paises (opcional): [{ id: colombia|panama|venezuela|ecuador, color: "acento"|"acento2"|"#hex",
+               opacidad (0.6), palabra|en, hasta (cuando se apaga), rotulo, rotulo_lugar, rotulo_tam (px) }]
+    separa (opcional): { pais: "panama", palabra|en, hacia: [dx, dy] (grados), color }
+    rutas (opcional): [{ puntos: [[lon, lat], ...] | "ferrocarril", estilo: "linea"|"discontinua"|"tren"|"flecha",
+               color, grosor (px), palabra|en, dur (s), movil: "barco"|"tren", hasta }]
+    marcas (opcional): [{ texto, lugar, lado: "derecha"|"izquierda"|"arriba"|"abajo", tam (px), palabra|en, hasta }]
+    rotulos (opcional): [{ texto, lugar, estilo: "mar"|"pais"|"titulo", tam (px), giro (grados), palabra|en, hasta }]
+    banderas (opcional): [{ pais: colombia|panama|eeuu|francia|espana, lugar, tam (px de ancho), palabra|en, hasta }]
+    cartela (opcional): { titulo (28 letras), sub (40 letras), palabra|en }  arriba a la izquierda
+    fichas (opcional): [{ titulo ("3", "1821"), texto (16 letras), dibujo: calendario|canon|ancla|tren|pluma,
+               tachar: true, marcas: n (n rayitas que se llenan), contar: true, lugar: "abajo-izquierda"|
+               "abajo-derecha"|"arriba-derecha", palabra|en, hasta }]
+               o { tipo: "anios", de: "1821", a: "1903", texto, palabra|en, lugar }
+  Todo lo que aparece en una vista se va solo cuando la camara se aleja o se acerca mucho.
+-->
+<template>
+  <style>
+{{>narrador-css}}
+    #{{id}}-mar {
+      position: absolute;
+      inset: 0;
+      background:
+        repeating-linear-gradient(0deg, rgba(58, 74, 60, 0.07) 0, rgba(58, 74, 60, 0.07) 2px, rgba(58, 74, 60, 0) 2px, rgba(58, 74, 60, 0) 11px),
+        radial-gradient(ellipse 80% 70% at 50% 45%, #d9d9c0 0%, #c9ccb0 100%);
+    }
+    #{{id}}-mapa {
+      position: absolute;
+      inset: 0;
+    }
+    #{{id}}-mapa svg {
+      display: block;
+      width: 1920px;
+      height: 1080px;
+    }
+    .{{id}}-tierra {
+      fill: #f4e7c5;
+    }
+    .{{id}}-costa {
+      fill: none;
+      stroke: #3b2415;
+      stroke-width: 2.2px;
+      stroke-linejoin: round;
+    }
+    .{{id}}-halo {
+      fill: none;
+      stroke: #e6e5cf;
+      stroke-width: 22px;
+      stroke-linejoin: round;
+    }
+    .{{id}}-reja {
+      fill: none;
+      stroke: #6f4e35;
+      stroke-opacity: 0.16;
+      stroke-width: 1.2px;
+    }
+    .{{id}}-txt {
+      font-family: var(--fuente-texto);
+      font-weight: 700;
+      fill: var(--tinta);
+      paint-order: stroke;
+      stroke: #f6ecd0;
+      stroke-linejoin: round;
+    }
+    .{{id}}-txt-mar {
+      font-style: italic;
+      fill: #3a5244;
+      stroke: none;
+      letter-spacing: 0.12em;
+    }
+    .{{id}}-txt-pais {
+      font-family: var(--fuente-titulo);
+      font-weight: 900;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+    .{{id}}-txt-titulo {
+      font-family: var(--fuente-titulo);
+      font-weight: 900;
+    }
+    #{{id}}-marco {
+      position: absolute;
+      inset: 22px;
+      border: 3px solid var(--acento2);
+      box-shadow: inset 0 0 0 7px rgba(246, 236, 208, 0.55), inset 0 0 0 9px rgba(59, 36, 21, 0.55);
+      border-radius: 4px;
+    }
+    #{{id}}-rosa {
+      position: absolute;
+      pointer-events: none;
+      right: 70px;
+      top: 64px;
+      width: 150px;
+      height: 150px;
+      opacity: 0.85;
+    }
+    #{{id}}-cartela {
+      position: absolute;
+      left: 74px;
+      top: 64px;
+      max-width: 900px;
+      padding: 20px 34px 22px;
+      opacity: 0;
+    }
+    #{{id}}-cartela-t {
+      font-size: 54px;
+      line-height: 1.05;
+      white-space: nowrap;
+    }
+    #{{id}}-cartela-s {
+      margin-top: 8px;
+      font-size: 32px;
+      white-space: nowrap;
+    }
+    #{{id}}-cartela-raya {
+      width: 140px;
+      height: 6px;
+      margin-top: 14px;
+      border-radius: 3px;
+      background: var(--acento);
+    }
+    .{{id}}-ficha {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      gap: 22px;
+      padding: 18px 30px 18px 22px;
+      opacity: 0;
+    }
+    .{{id}}-ficha-il {
+      position: relative;
+      flex: none;
+      width: 96px;
+      height: 96px;
+      color: var(--tinta);
+    }
+    .{{id}}-ficha-tacha {
+      position: absolute;
+      inset: -6px;
+    }
+    .{{id}}-ficha-num {
+      font-size: 84px;
+      line-height: 1;
+      color: var(--acento);
+    }
+    .{{id}}-ficha-txt {
+      font-size: 36px;
+      line-height: 1.1;
+      white-space: nowrap;
+    }
+    .{{id}}-ficha-marcas {
+      display: flex;
+      gap: 10px;
+      margin-top: 10px;
+    }
+    .{{id}}-rayita {
+      width: 34px;
+      height: 12px;
+      border-radius: 6px;
+      background: var(--riel);
+    }
+    .{{id}}-rayita-luz {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 34px;
+      height: 12px;
+      border-radius: 6px;
+      background: var(--acento);
+      transform-origin: 0 50%;
+    }
+    .{{id}}-anios {
+      position: absolute;
+      width: 760px;
+      padding: 20px 34px 24px;
+      opacity: 0;
+    }
+    .{{id}}-anios-fila {
+      display: flex;
+      justify-content: space-between;
+      font-size: 46px;
+    }
+    .{{id}}-anios-riel {
+      position: relative;
+      height: 14px;
+      margin: 12px 4px 10px;
+      border-radius: 7px;
+      background: var(--riel);
+    }
+    .{{id}}-anios-luz {
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 14px;
+      width: 100%;
+      border-radius: 7px;
+      background: var(--acento);
+      transform-origin: 0 50%;
+    }
+    .{{id}}-anios-txt {
+      font-size: 30px;
+      text-align: center;
+      white-space: nowrap;
+    }
+  </style>
+
+  <div id="root" data-composition-id="{{id}}" data-width="{{ancho}}" data-height="{{alto}}">
+    <div id="{{id}}-mar"></div>
+    <div id="{{id}}-mapa"></div>
+    <div id="{{id}}-rosa" data-layout-ignore></div>
+    <div id="{{id}}-cartela" class="{{id}}-tarjeta">
+      <div id="{{id}}-cartela-t" class="{{id}}-titulo">{{d.cartela.titulo|}}</div>
+      <div id="{{id}}-cartela-s" class="{{id}}-suave">{{d.cartela.sub|}}</div>
+      <div id="{{id}}-cartela-raya"></div>
+    </div>
+    <div id="{{id}}-fichas"></div>
+    <div id="{{id}}-marco"></div>
+  </div>
+
+  <script>
+{{>narrador-js}}
+{{>escena-h-js}}
+{{>geo-americas}}
+
+    const RATIO = 1080 / 1920;
+    const lugar = (l) => (typeof l === "string" ? GEO.lugares[l] : l);
+    const P = (l) => merc(lugar(l));
+
+    // ---------- Vistas de la camara ----------
+    const vistaDe = (v) => {
+      let cx, cy, w;
+      if (v.caja) {
+        const a = merc([v.caja[0], v.caja[1]]);
+        const b = merc([v.caja[2], v.caja[3]]);
+        w = Math.max(Math.abs(b[0] - a[0]), Math.abs(b[1] - a[1]) / RATIO) * (v.margen ?? 1.06);
+        cx = (a[0] + b[0]) / 2;
+        cy = (a[1] + b[1]) / 2;
+      } else {
+        [cx, cy] = merc(v.centro);
+        w = v.ancho;
+      }
+      return { cx, cy, w, h: w * RATIO };
+    };
+    const vistas = (D.vistas && D.vistas.length ? D.vistas : [{ caja: [-84, 13.5, -66, -4.5] }]).map((v, i) => ({
+      ...vistaDe(v),
+      t: i === 0 ? 0 : tope(momento(v.palabra ?? v.en, 0.4), 0.9),
+      dur: v.dur ?? 1.4,
+    }));
+    const caja = (v, f = 1) => {
+      const w = v.w * f;
+      const h = v.h * f;
+      return `${(v.cx - w / 2).toFixed(4)} ${(v.cy - h / 2).toFixed(4)} ${w.toFixed(4)} ${h.toFixed(4)}`;
+    };
+    // Vista que se ve en el momento t, y cuantas unidades del mapa mide un pixel en ella.
+    const vistaEn = (t) => {
+      let k = 0;
+      vistas.forEach((v, i) => {
+        if (v.t <= t + 0.01) k = i;
+      });
+      return k;
+    };
+    const px = (t) => vistas[vistaEn(t)].w / 1920;
+    // Hasta cuando se ve algo que aparece en t: hasta su "hasta" o hasta que la camara cambie mucho de escala.
+    const finDe = (t, hasta) => {
+      if (hasta) return tope(momento(hasta, 0.9), 0.3);
+      const k = vistaEn(t);
+      for (let i = k + 1; i < vistas.length; i++) {
+        const razon = vistas[i].w / vistas[k].w;
+        if (razon > 1.7 || razon < 1 / 1.7) return vistas[i].t;
+      }
+      return null;
+    };
+
+    // ---------- El mapa ----------
+    const f3 = (n) => n.toFixed(3);
+    const contorno = (pts, cerrado = true) => suave(pts.map(merc), cerrado);
+    let svg = `<svg id="{{id}}-svg" viewBox="${caja(vistas[0])}" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg"><defs>`;
+    let capas = "";
+    // Reja de meridianos y paralelos cada 5 grados.
+    let reja = "";
+    for (let lon = -130; lon <= 0; lon += 5) reja += `M${lon} ${f3(merc([0, 40])[1])} V${f3(merc([0, -65])[1])} `;
+    for (let lat = -65; lat <= 40; lat += 5) reja += `M-130 ${f3(merc([0, lat])[1])} H0 `;
+    capas += `<path class="{{id}}-reja" vector-effect="non-scaling-stroke" d="${reja}" />`;
+    const formas = {
+      centroamerica: contorno(GEO.centroamerica),
+      sudamerica: contorno(GEO.sudamerica),
+      colombia: contorno(GEO.colombia),
+      venezuela: contorno(GEO.venezuela),
+      ecuador: contorno(GEO.ecuador),
+      panama: contorno(GEO.panama),
+    };
+    const islas = GEO.islas.map((i) => contorno(i)).join(" ");
+    const sepa = D.separa && D.separa.pais ? D.separa.pais : null;
+    const tierraFija = ["centroamerica", "sudamerica"].map((k) => formas[k]).join(" ") + " " + islas + (sepa === "panama" ? "" : " " + formas.panama);
+    capas += `<path class="{{id}}-halo" vector-effect="non-scaling-stroke" d="${tierraFija}" />`;
+    capas += `<path class="{{id}}-tierra" d="${tierraFija}" />`;
+    // Paises encendidos (los de Panama van en su grupo, por si se separa).
+    const encendidos = (D.paises || []).map((p, i) => ({ ...p, i, t: momento(p.palabra ?? p.en, 0.1) }));
+    for (const p of encendidos.filter((p) => !(sepa && p.id === sepa))) {
+      capas += `<path id="{{id}}-pais-${p.i}" d="${formas[p.id]}" style="fill: ${tono(p.color)}" opacity="0" />`;
+    }
+    // Fronteras y costas.
+    capas += `<path class="{{id}}-costa" vector-effect="non-scaling-stroke" d="${tierraFija}" />`;
+    capas += `<path class="{{id}}-costa" vector-effect="non-scaling-stroke" style="stroke-width: 1.6px; stroke-dasharray: 7 5; stroke-opacity: 0.7" d="${[formas.colombia, formas.venezuela, formas.ecuador].join(" ")}" />`;
+    // El pais que se separa va en su propio grupo.
+    if (sepa) {
+      capas += `<g id="{{id}}-sepa">`;
+      capas += `<path class="{{id}}-halo" vector-effect="non-scaling-stroke" d="${formas[sepa]}" /><path class="{{id}}-tierra" d="${formas[sepa]}" />`;
+      for (const p of encendidos.filter((p) => p.id === sepa)) capas += `<path id="{{id}}-pais-${p.i}" d="${formas[p.id]}" style="fill: ${tono(p.color)}" opacity="0" />`;
+      capas += `<path id="{{id}}-sepa-color" d="${formas[sepa]}" style="fill: ${tono(D.separa.color, "var(--acento)")}" opacity="0" />`;
+      capas += `<path class="{{id}}-costa" vector-effect="non-scaling-stroke" d="${formas[sepa]}" /></g>`;
+      capas += `<path id="{{id}}-grieta" d="${contorno([[-77.89, 7.22], [-77.75, 7.65], [-77.35, 7.95], [-77.2, 8.3], [-77.36, 8.67]], false)}" fill="none" style="stroke: var(--acento)" stroke-linecap="round" />`;
+    }
+
+    // Rutas: se dibujan con una mascara que se destapa a lo largo del trazo.
+    const rutas = (D.rutas || []).map((ru, i) => {
+      const pts = ru.puntos === "ferrocarril" ? GEO.ferrocarril : ru.puntos || [];
+      const t = momento(ru.palabra ?? ru.en, 0.3);
+      const k = px(t);
+      const g = (ru.grosor ?? (ru.estilo === "tren" ? 9 : 7)) * k;
+      const d = ru.suave === false ? "M" + pts.map((p) => merc(p).map(f3).join(" ")).join(" L") : contorno(pts, false);
+      const c = tono(ru.color, ru.estilo === "tren" ? "var(--tinta)" : "var(--acento)");
+      svg += `<mask id="{{id}}-m${i}" maskUnits="userSpaceOnUse" x="-200" y="-120" width="400" height="300"><path id="{{id}}-mr${i}" d="${d}" fill="none" stroke="#fff" stroke-width="${f3(g * 7)}" stroke-linecap="butt" /></mask>`;
+      // Punta de flecha: un marcador al final del trazo (la mascara la destapa cuando el trazo llega).
+      if (ru.estilo === "flecha") svg += `<marker id="{{id}}-mk${i}" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="3.4" markerHeight="3.4" orient="auto"><path d="M0 0 L10 5 L0 10 L2.6 5 Z" style="fill: ${c}" /></marker>`;
+      let trazo = "";
+      if (ru.estilo === "tren") {
+        trazo = `<path d="${d}" fill="none" style="stroke: ${c}" stroke-width="${f3(g)}" stroke-linecap="round" stroke-linejoin="round" /><path d="${d}" fill="none" stroke="#f6ecd0" stroke-width="${f3(g * 0.45)}" stroke-dasharray="${f3(g * 1.6)} ${f3(g * 1.6)}" />`;
+      } else if (ru.estilo === "discontinua") {
+        trazo = `<path d="${d}" fill="none" style="stroke: ${c}" stroke-width="${f3(g)}" stroke-dasharray="${f3(g * 2.2)} ${f3(g * 1.5)}" stroke-linecap="round" />`;
+      } else {
+        const punta = ru.estilo === "flecha" ? ` marker-end="url(#{{id}}-mk${i})"` : "";
+        trazo = `<path d="${d}" fill="none" style="stroke: ${c}" stroke-width="${f3(g)}" stroke-linecap="round" stroke-linejoin="round"${punta} />`;
+      }
+      capas += `<g id="{{id}}-ruta-${i}" mask="url(#{{id}}-m${i})">${trazo}</g>`;
+      return { ...ru, i, t, k, g, fin: finDe(t, ru.hasta) };
+    });
+
+    // Marcas de ciudades.
+    const marcas = (D.marcas || []).map((m, i) => {
+      const t = momento(m.palabra ?? m.en, 0.2);
+      const k = px(t);
+      const [x, y] = P(m.lugar);
+      const tam = (m.tam ?? 34) * k;
+      const r = 10 * k;
+      const lado = m.lado || "derecha";
+      const dx = lado === "derecha" ? r * 2.2 : lado === "izquierda" ? -r * 2.2 : 0;
+      const dy = lado === "arriba" ? -r * 2.4 : lado === "abajo" ? r * 2.4 + tam * 0.7 : tam * 0.34;
+      const ancla = lado === "derecha" ? "start" : lado === "izquierda" ? "end" : "middle";
+      capas += `<g id="{{id}}-marca-${i}" opacity="0"><circle cx="${f3(x)}" cy="${f3(y)}" r="${f3(r * 2.6)}" id="{{id}}-onda-${i}" fill="none" style="stroke: var(--acento)" stroke-width="${f3(r * 0.35)}" opacity="0" />`;
+      capas += `<circle cx="${f3(x)}" cy="${f3(y)}" r="${f3(r)}" fill="#f6ecd0" style="stroke: var(--tinta)" stroke-width="${f3(r * 0.42)}" /><circle cx="${f3(x)}" cy="${f3(y)}" r="${f3(r * 0.45)}" style="fill: var(--acento)" />`;
+      capas += `<text class="{{id}}-txt" x="${f3(x + dx)}" y="${f3(y + dy)}" text-anchor="${ancla}" font-size="${f3(tam)}" stroke-width="${f3(tam * 0.22)}">${esc(m.texto)}</text></g>`;
+      return { ...m, i, t, fin: finDe(t, m.hasta) };
+    });
+
+    // Rotulos sueltos (mares, paises, titulos sobre el mapa).
+    const rotulos = (D.rotulos || []).map((ro, i) => {
+      const t = momento(ro.palabra ?? ro.en, 0.15);
+      const k = px(t);
+      const [x, y] = P(ro.lugar);
+      const estilo = ro.estilo || "mar";
+      const tam = (ro.tam ?? (estilo === "titulo" ? 64 : estilo === "pais" ? 44 : 34)) * k;
+      const giro = ro.giro ? ` transform="rotate(${ro.giro} ${f3(x)} ${f3(y)})"` : "";
+      capas += `<g id="{{id}}-rot-${i}" opacity="0"><text class="{{id}}-txt {{id}}-txt-${estilo}" x="${f3(x)}" y="${f3(y)}" text-anchor="middle" font-size="${f3(tam)}" stroke-width="${f3(tam * 0.2)}"${giro}>${esc(ro.texto)}</text></g>`;
+      return { ...ro, i, t, fin: finDe(t, ro.hasta) };
+    });
+
+    // Banderas clavadas en el mapa.
+    const banderas = (D.banderas || []).map((b, i) => {
+      const t = momento(b.palabra ?? b.en, 0.6);
+      const k = px(t);
+      const [x, y] = P(b.lugar);
+      const w = (b.tam ?? 120) * k;
+      const h = (w * 60) / 90;
+      const asta = h * 2.1;
+      capas += `<g id="{{id}}-band-${i}" opacity="0"><ellipse cx="${f3(x)}" cy="${f3(y)}" rx="${f3(w * 0.16)}" ry="${f3(w * 0.06)}" fill="#3b2415" opacity="0.35" />`;
+      capas += `<rect x="${f3(x - w * 0.025)}" y="${f3(y - asta)}" width="${f3(w * 0.05)}" height="${f3(asta)}" fill="#3b2415" />`;
+      capas += `<svg x="${f3(x)}" y="${f3(y - asta)}" width="${f3(w)}" height="${f3(h)}" viewBox="0 0 90 60" preserveAspectRatio="none">${bandera(b.pais)}</svg></g>`;
+      return { ...b, i, t, fin: finDe(t, b.hasta), x, y };
+    });
+
+    // Iconos que recorren las rutas (encima de todo).
+    const dibujoIcono = (tipo) =>
+      tipo === "tren"
+        ? `<rect x="-46" y="-20" width="58" height="30" rx="5" fill="#3b2415" /><rect x="4" y="-36" width="30" height="46" rx="4" fill="#3b2415" /><rect x="10" y="-30" width="18" height="14" rx="2" fill="#f2d48a" /><rect x="-38" y="-46" width="12" height="28" rx="3" fill="#3b2415" /><path d="M-46 -48 C-52 -60 -40 -68 -30 -62 C-24 -74 -6 -70 -8 -58" fill="#efe6cf" stroke="#3b2415" stroke-width="2.5" /><circle cx="-30" cy="16" r="10" fill="#a3302a" /><circle cx="-6" cy="16" r="10" fill="#a3302a" /><circle cx="22" cy="16" r="10" fill="#a3302a" /><path d="M34 6 L50 14 L34 14 Z" fill="#3b2415" />`
+        : `<path d="M-60 0 L60 0 L46 22 L-50 22 Z" fill="#3b2415" /><path d="M-60 0 L60 0 L56 7 L-57 7 Z" fill="#a3302a" /><rect x="-34" y="-16" width="62" height="16" rx="3" fill="#efe6cf" stroke="#3b2415" stroke-width="2.5" /><rect x="-8" y="-44" width="14" height="30" rx="2" fill="#3b2415" /><rect x="-8" y="-38" width="14" height="6" fill="#a3302a" /><path d="M-42 -16 L-42 -64 M26 -16 L26 -58" stroke="#3b2415" stroke-width="4" /><path d="M-42 -60 L-20 -40 L-42 -40 Z M26 -54 L44 -36 L26 -36 Z" fill="#f6ecd0" stroke="#3b2415" stroke-width="2" /><circle cx="-1" cy="-56" r="9" fill="#e9e1cb" opacity="0.9" /><circle cx="-12" cy="-66" r="7" fill="#e9e1cb" opacity="0.7" />`;
+    rutas.forEach((ru) => {
+      if (!ru.movil) return;
+      const s = ((ru.tam_icono ?? 74) * ru.k) / 120;
+      capas += `<g id="{{id}}-ico-${ru.i}" opacity="0"><g id="{{id}}-ico-gira-${ru.i}"><g transform="scale(${f3(s)})">${dibujoIcono(ru.movil)}</g></g></g>`;
+    });
+
+    svg += `</defs>${capas}</svg>`;
+    $("mapa").innerHTML = svg;
+
+    // Rosa de los vientos (adorno fijo).
+    $("rosa").innerHTML =
+      '<svg class="{{id}}-arte" viewBox="0 0 150 150"><circle cx="75" cy="75" r="52" fill="none" stroke="#6f4e35" stroke-width="2" stroke-opacity="0.6" /><circle cx="75" cy="75" r="44" fill="none" stroke="#6f4e35" stroke-width="1" stroke-opacity="0.5" />' +
+      '<path d="M75 8 L86 75 L75 142 L64 75 Z" fill="#3b2415" /><path d="M75 8 L86 75 L75 75 Z" fill="#9a7128" /><path d="M8 75 L75 64 L142 75 L75 86 Z" fill="#6f4e35" /><path d="M8 75 L75 64 L75 75 Z" fill="#9a7128" />' +
+      '<text x="75" y="6" text-anchor="middle" font-family="Playfair Display, serif" font-weight="900" font-size="20" fill="#3b2415" dy="0">N</text></svg>';
+
+    // ---------- Movimiento ----------
+    const svgEl = el("svg");
+    // Camara: cada vista llega en su momento; entre una y otra, una deriva lenta (siempre algo se mueve).
+    vistas.forEach((v, i) => {
+      const llega = i === 0 ? 0 : v.t + v.dur;
+      if (i > 0) {
+        const previa = vistas[i - 1];
+        const desde = Math.max(previa.t + (i - 1 === 0 ? 0 : previa.dur), 0);
+        const deriva0 = Math.min(0.97, 1 - 0.03 * Math.min(1, (v.t - desde) / 4));
+        tl.fromTo(svgEl, { attr: { viewBox: caja(previa, deriva0) } }, { attr: { viewBox: caja(v, 1) }, duration: v.dur, ease: "power2.inOut" }, v.t);
+      }
+      const sigue = i + 1 < vistas.length ? vistas[i + 1].t : r.dur;
+      if (sigue - llega > 0.3) {
+        const f = Math.min(0.97, 1 - 0.03 * Math.min(1, (sigue - llega) / 4));
+        tl.fromTo(svgEl, { attr: { viewBox: caja(v, 1) } }, { attr: { viewBox: caja(v, f) }, duration: sigue - llega, ease: "sine.inOut" }, llega);
+      }
+    });
+    tl.fromTo(el("rosa"), { opacity: 0, rotation: -60, scale: 0.6 }, { opacity: 0.85, rotation: 0, scale: 1, duration: 0.8, ease: "back.out(1.6)" }, 0.05);
+    tl.fromTo(el("marco"), { opacity: 0 }, { opacity: 1, duration: 0.4 }, 0);
+
+    const aparece = (sel, t, fin, dur = 0.4) => {
+      tl.fromTo(sel, { opacity: 0 }, { opacity: 1, duration: dur, ease: "power1.out" }, t);
+      if (fin !== null && fin !== undefined && fin > t + dur) tl.to(sel, { opacity: 0, duration: 0.3, ease: "power1.in" }, Math.max(t + dur, fin - 0.05));
+    };
+
+    encendidos.forEach((p) => {
+      const fin = p.hasta ? tope(momento(p.hasta, 0.9), 0.3) : null;
+      tl.fromTo(el("pais-" + p.i), { opacity: 0 }, { opacity: p.opacidad ?? 0.6, duration: 0.5, ease: "power1.out" }, p.t);
+      if (fin !== null && fin > p.t + 0.5) tl.to(el("pais-" + p.i), { opacity: 0, duration: 0.5 }, fin);
+    });
+
+    if (sepa) {
+      const t = tope(momento(D.separa.palabra ?? D.separa.en, 0.6), 1.4);
+      const g = el("grieta");
+      const largo = document.querySelector(g).getTotalLength();
+      const k = px(t);
+      document.querySelector(g).setAttribute("stroke-width", f3(8 * k));
+      document.querySelector(g).setAttribute("stroke-dasharray", `${f3(largo)} ${f3(largo)}`);
+      tl.fromTo(g, { attr: { "stroke-dashoffset": largo } }, { attr: { "stroke-dashoffset": 0 }, duration: 0.35, ease: "power1.inOut" }, t);
+      const [dx, dy] = D.separa.hacia || [-1.4, 0.8];
+      tl.fromTo(el("sepa"), { x: 0, y: 0 }, { x: dx * 0.08, y: -dy * 0.08, duration: 0.07, ease: "sine.inOut", repeat: 3, yoyo: true }, t + 0.35);
+      tl.to(el("sepa"), { x: dx, y: -dy, duration: 0.75, ease: "power3.out" }, t + 0.65);
+      tl.fromTo(el("sepa-color"), { opacity: 0 }, { opacity: 0.8, duration: 0.45 }, t + 0.65);
+      tl.to(g, { opacity: 0, duration: 0.35 }, t + 1.0);
+    }
+
+    rutas.forEach((ru) => {
+      const mp = document.querySelector(el("mr" + ru.i));
+      const largo = mp.getTotalLength();
+      mp.setAttribute("stroke-dasharray", `${f3(largo)} ${f3(largo)}`);
+      mp.setAttribute("stroke-dashoffset", f3(largo));
+      const dur = ru.dur ?? 1.6;
+      const t = tope(ru.t, dur * 0.5 + 0.2);
+      tl.fromTo(mp, { attr: { "stroke-dashoffset": largo } }, { attr: { "stroke-dashoffset": 0 }, duration: dur, ease: ru.movil ? "none" : "power1.inOut" }, t);
+      // La ruta no existe antes de su momento (ni un punto).
+      tl.fromTo(el("ruta-" + ru.i), { opacity: 0 }, { opacity: 1, duration: 0.05 }, t);
+      if (ru.fin !== null && ru.fin > t + dur) tl.to(el("ruta-" + ru.i), { opacity: 0, duration: 0.3 }, ru.fin);
+      // Icono que recorre la ruta al paso del trazo.
+      if (ru.movil) {
+        const N = 48;
+        const pts = Array.from({ length: N + 1 }, (_, j) => mp.getPointAtLength((largo * j) / N));
+        const ico = el("ico-" + ru.i);
+        tl.fromTo(ico, { x: pts[0].x, y: pts[0].y }, { x: pts[0].x, y: pts[0].y, duration: 0.01 }, t - 0.02);
+        aparece(ico, t - 0.02, ru.fin, 0.25);
+        tl.to(ico, { keyframes: pts.slice(1).map((p) => ({ x: p.x, y: p.y, duration: dur / N })), ease: "none" }, t);
+        // Mira hacia donde va: el tren gira con la via; el barco solo se voltea.
+        const giros = pts.slice(1).map((p, j) => {
+          const q = pts[j];
+          const ang = (Math.atan2(p.y - q.y, p.x - q.x) * 180) / Math.PI;
+          return ru.movil === "tren" ? { rotation: ang, scaleX: 1 } : { rotation: 0, scaleX: p.x < q.x - 1e-6 ? -1 : 1 };
+        });
+        tl.fromTo(el("ico-gira-" + ru.i), { rotation: giros[0].rotation, scaleX: giros[0].scaleX, transformOrigin: "50% 50%" }, { rotation: giros[0].rotation, scaleX: giros[0].scaleX, duration: 0.01 }, t - 0.02);
+        tl.to(el("ico-gira-" + ru.i), { keyframes: giros.map((g) => ({ ...g, duration: dur / N })), ease: "none" }, t);
+      }
+    });
+
+    marcas.forEach((m) => {
+      aparece(el("marca-" + m.i), m.t, m.fin, 0.3);
+      const onda = el("onda-" + m.i);
+      tl.fromTo(onda, { opacity: 0.9, scale: 0.3, transformOrigin: "50% 50%" }, { opacity: 0, scale: 1.4, duration: 0.9, ease: "power1.out" }, m.t + 0.05);
+    });
+    rotulos.forEach((ro) => aparece(el("rot-" + ro.i), ro.t, ro.fin, 0.5));
+    banderas.forEach((b) => {
+      tl.fromTo(el("band-" + b.i), { opacity: 0, scale: 0.2, svgOrigin: `${f3(b.x)} ${f3(b.y)}` }, { opacity: 1, scale: 1, duration: 0.45, ease: "back.out(2.2)" }, b.t);
+      if (b.fin !== null && b.fin > b.t + 0.5) tl.to(el("band-" + b.i), { opacity: 0, duration: 0.3 }, b.fin);
+    });
+
+    // ---------- Cartela y fichas (encima del mapa, en pixeles de pantalla) ----------
+    if (D.cartela && D.cartela.titulo) {
+      if (!D.cartela.sub) $("cartela-s").style.display = "none";
+      $("cartela-t").style.fontSize = tamPara(D.cartela.titulo, 860, 58, 40, T.anchoTitulo) + "px";
+      const t = D.cartela.palabra || D.cartela.en ? momento(D.cartela.palabra ?? D.cartela.en, 0.05) : 0.05;
+      fx.entra(tl, el("cartela"), t, { x: -60 }, 0.4);
+      tl.fromTo(el("cartela-raya"), { scaleX: 0, transformOrigin: "0 50%" }, { scaleX: 1, duration: 0.5, ease: "power2.out" }, t + 0.25);
+    } else $("cartela").style.display = "none";
+
+    const sitios = {
+      "abajo-izquierda": "left: 74px; bottom: 140px;",
+      "abajo-derecha": "right: 74px; bottom: 140px;",
+      "arriba-derecha": "right: 74px; top: 230px;",
+      "arriba-izquierda": "left: 74px; top: 230px;",
+      "abajo-centro": "left: 580px; bottom: 140px;",
+    };
+    let hFichas = "";
+    (D.fichas || []).forEach((f, i) => {
+      const sitio = sitios[f.lugar] || sitios["abajo-izquierda"];
+      if (f.tipo === "anios") {
+        hFichas += `<div id="{{id}}-ficha-${i}" class="{{id}}-anios {{id}}-tarjeta" style="${sitio}"><div class="{{id}}-anios-fila {{id}}-titulo"><span>${esc(f.de)}</span><span class="{{id}}-acento">${esc(f.a)}</span></div><div class="{{id}}-anios-riel"><div id="{{id}}-ficha-luz-${i}" class="{{id}}-anios-luz"></div></div><div class="{{id}}-anios-txt {{id}}-suave">${esc(f.texto || "")}</div></div>`;
+        return;
+      }
+      let rayas = "";
+      for (let k = 0; k < (f.marcas || 0); k++) rayas += `<div style="position: relative"><div class="{{id}}-rayita"></div><div id="{{id}}-raya-${i}-${k}" class="{{id}}-rayita-luz"></div></div>`;
+      hFichas +=
+        `<div id="{{id}}-ficha-${i}" class="{{id}}-ficha {{id}}-tarjeta" style="${sitio}">` +
+        (f.dibujo ? `<div class="{{id}}-ficha-il"><svg class="{{id}}-arte" viewBox="0 0 100 100">${icono(f.dibujo, "#3b2415")}</svg>${f.tachar ? `<svg class="{{id}}-ficha-tacha" viewBox="0 0 100 100"><path id="{{id}}-tacha-${i}" d="M14 14 L86 86 M86 14 L14 86" stroke="#a3302a" stroke-width="11" stroke-linecap="butt" fill="none" pathLength="1" stroke-dasharray="1 1" stroke-dashoffset="1" /></svg>` : ""}</div>` : "") +
+        `<div>${f.titulo ? `<div id="{{id}}-ficha-num-${i}" class="{{id}}-ficha-num {{id}}-cifra">${esc(f.titulo)}</div>` : ""}<div class="{{id}}-ficha-txt {{id}}-titulo">${esc(f.texto || "")}</div>${rayas ? `<div class="{{id}}-ficha-marcas">${rayas}</div>` : ""}</div></div>`;
+    });
+    $("fichas").innerHTML = hFichas;
+    (D.fichas || []).forEach((f, i) => {
+      const t = tope(momento(f.palabra ?? f.en, 0.3), 0.8);
+      const fin = f.hasta ? tope(momento(f.hasta, 0.9), 0.3) : null;
+      fx.entra(tl, el("ficha-" + i), t, { y: 40 }, 0.36);
+      if (fin !== null && fin > t + 0.6) fx.sale(tl, el("ficha-" + i), fin);
+      if (f.tipo === "anios") {
+        tl.fromTo(el("ficha-luz-" + i), { scaleX: 0 }, { scaleX: 1, duration: Math.max(0.8, Math.min(2.2, r.dur - t - 0.8)), ease: "power1.inOut" }, t + 0.3);
+        return;
+      }
+      if (f.tachar) tl.to(el("tacha-" + i), { attr: { "stroke-dashoffset": 0 }, duration: 0.35, ease: "power2.out" }, t + 0.45);
+      for (let k = 0; k < (f.marcas || 0); k++) tl.fromTo(el(`raya-${i}-${k}`), { scaleX: 0 }, { scaleX: 1, duration: 0.25, ease: "power2.out" }, t + 0.3 + k * 0.32);
+      const num = f.titulo && String(f.titulo).match(/^\d+$/);
+      if (f.contar && num) {
+        const nodo = $("ficha-num-" + i);
+        const cuenta = { v: 0 };
+        const meta = parseInt(f.titulo, 10);
+        nodo.textContent = "0";
+        tl.fromTo(cuenta, { v: 0 }, { v: meta, duration: Math.min(1.2, 0.3 * meta), ease: "none", onUpdate: () => (nodo.textContent = String(Math.round(cuenta.v))) }, t + 0.2);
+      }
+    });
+
+    window.__timelines["{{id}}"] = tl;
+  </script>
+</template>

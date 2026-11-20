@@ -1,0 +1,1153 @@
+{
+  "titulo": "¿Cómo perdió Colombia a Panamá? (muestra de estilo)",
+  "formato": "documental por escenas",
+  "nicho": "historia",
+  "nota": "Muestra horizontal de unos 60 s para aprobar el estilo de escenas diseñadas antes de convertir el video largo hi-panama. Las frases son las del gancho y el comienzo del capítulo 1, copiadas sin cambios para que la voz salga de la caché. No se publica.",
+  "orientacion": "horizontal",
+  "motor": "elevenlabs",
+  "voz": "C12mZePhNoo0RoTXhSFV",
+  "modelo_voz": "eleven_multilingual_v2",
+  "tope_caracteres": 50,
+  "inicio": 0.2,
+  "pausa": 0.35,
+  "cola": 2,
+  "estilo": {
+    "tema": "archivo"
+  },
+  "publicacion": {
+    "texto": "Muestra de estilo: ¿Cómo perdió Colombia a Panamá? (no se publica)",
+    "hashtags": [
+      "historia",
+      "colombia",
+      "panama"
+    ]
+  },
+  "fuentes": [
+    {
+      "dato": "Panamá se independizó de España el 28 de noviembre de 1821 y se unió a la Gran Colombia",
+      "fuente": "Library of Congress, Country Study: Panama, «Independence from Spain»",
+      "url": "https://countrystudies.us/panama/4.htm"
+    },
+    {
+      "dato": "Panamá se independizó de España el 28 de noviembre de 1821 y se unió a la Gran Colombia",
+      "fuente": "La Estrella de Panamá, «La independencia de Panamá de España en el contexto regional»",
+      "url": "https://www.laestrella.com.pa/nacional/211126/independencia-panama-espana-contexto-regional"
+    },
+    {
+      "dato": "El ferrocarril de Panamá, de una empresa formada en Nueva York, hizo su primer viaje de océano a océano en enero de 1855",
+      "fuente": "Library of Congress, Country Study: Panama, «The California Gold Rush and the Panama Railroad»",
+      "url": "https://countrystudies.us/panama/5.htm"
+    },
+    {
+      "dato": "El ferrocarril de Panamá se terminó en enero de 1855",
+      "fuente": "Linda Hall Library, «The Land Divided, the World United»: Panama Railroad",
+      "url": "https://www.lindahall.org/experience/digital-exhibitions/the-land-divided-the-world-united/05-panama-railroad"
+    },
+    {
+      "dato": "Los franceses empezaron en 1880; tras unos 9 años y cerca de 20.000 muertes, el proyecto quebró; el Senado de EE. UU. votó por Panamá el 19 de junio de 1902; Roosevelt envió buques; la separación fue el 3 de noviembre de 1903",
+      "fuente": "U.S. Department of State, Office of the Historian, «Building the Panama Canal, 1903-1914»",
+      "url": "https://history.state.gov/milestones/1899-1913/panama-canal"
+    },
+    {
+      "dato": "Bunau-Varilla, ingeniero francés que había trabajado en el canal, recibió a Amador en Nueva York; le prometió dinero y respaldo estadounidense, le dio bandera, declaración y constitución, y exigió ser ministro en Washington; el 3 de noviembre llegó el batallón Tiradores a Colón; el general Tobar fue llevado a Ciudad de Panamá por el ferrocarril y arrestado; el Bogotá disparó y mató a un residente chino; el 5 de noviembre las tropas se fueron; el 6 hubo reconocimiento; el 18 Hay y Bunau-Varilla firmaron antes de que llegaran Amador y Boyd; zona de diez millas a perpetuidad, mismos 10 millones y 250.000 al año",
+      "fuente": "American Heritage, «The Strange Affair of Taking the Panama Canal Zone»",
+      "url": "https://www.americanheritage.com/strange-affair-taking-panama-canal-zone"
+    },
+    {
+      "dato": "El Nashville llegó a Colón el 2 de noviembre de 1903 para impedir el avance de las tropas colombianas por el ferrocarril",
+      "fuente": "Hampton Roads Naval Museum (U.S. Navy), «USS Nashville (PG-7) and the building of the Panama Canal»",
+      "url": "https://hamptonroadsnavalmuseum.blogspot.com/2015/09/uss-nashville-pg-7-and-building-of.html"
+    },
+    {
+      "dato": "El 4 de noviembre de 1903, el comandante Hubbard del Nashville informó al coronel Torres que había ordenado al ferrocarril dejar de transportar tropas",
+      "fuente": "Theodore Roosevelt Center, carta de John Hubbard a Eliseo Torres, 4 de noviembre de 1903",
+      "url": "https://www.theodorerooseveltcenter.org/digital-library/o42639"
+    },
+    {
+      "dato": "Esteban Huertas, jefe militar en Panamá, hizo arrestar al general Tobar y a sus oficiales el 3 de noviembre; con la noticia, los revolucionarios proclamaron la independencia",
+      "fuente": "Juan Manuel Pérez, «Huertas, Esteban (1876-1943)», Encyclopedia of Latin American History and Culture (Encyclopedia.com)",
+      "url": "https://encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/huertas-esteban-1876-1943"
+    },
+    {
+      "dato": "El ferrocarril, manejado por estadounidenses, se negó a llevar a las tropas colombianas; en pocos días volvieron; EE. UU. reconoció a Panamá el 6 de noviembre; en 1911, en Berkeley, Roosevelt dijo que había «tomado» el istmo y dejado al Congreso debatiendo",
+      "fuente": "Theodore Roosevelt Presidential Library, «The Panama Canal»",
+      "url": "https://www.trlibrary.com/tr/presidency/panama-canal"
+    },
+    {
+      "dato": "El Hay-Bunau-Varilla se firmó el 18 de noviembre de 1903, dos semanas después de la revolución, por John Hay y Bunau-Varilla; EE. UU. actuaría «como si fuera soberano»; 10 millones y 250.000 al año",
+      "fuente": "Lester D. Langley, «Hay-Bunau-Varilla Treaty (1903)», Encyclopedia of Latin American History and Culture (Encyclopedia.com)",
+      "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/hay-bunau-varilla-treaty-1903"
+    },
+    {
+      "dato": "El tratado se firmó la tarde del 18 de noviembre de 1903 y Amador y Boyd llegaron a Washington después de la firma",
+      "fuente": "Panamá América, «Firma y ratificación del Tratado Hay-Bunau Varilla»",
+      "url": "https://panamaamerica.com.pa/opinion/firma-y-ratificacion-del-tratado-hay-bunau-varilla-132129"
+    }
+  ],
+  "escenas": {
+    "fecha": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "¿Cómo perdió Colombia a Panamá?",
+        "lineas": [
+          "Colombia",
+          "perdió",
+          "Panamá"
+        ],
+        "resalta": 2,
+        "calendario": {
+          "arriba": "Noviembre",
+          "numero": "3",
+          "abajo": "1903",
+          "lado": "izquierda",
+          "sello": "1903",
+          "palabra_sello": "1903"
+        }
+      }
+    },
+    "separacion": {
+      "plantilla": "mapa",
+      "datos": {
+        "vistas": [
+          {
+            "centro": [
+              -80,
+              4.5
+            ],
+            "ancho": 34
+          }
+        ],
+        "paises": [
+          {
+            "id": "colombia",
+            "color": "acento2",
+            "opacidad": 0.4,
+            "en": 0
+          },
+          {
+            "id": "panama",
+            "color": "acento2",
+            "opacidad": 0.4,
+            "en": 0
+          }
+        ],
+        "separa": {
+          "pais": "panama",
+          "palabra": "pedazo",
+          "hacia": [
+            -1.5,
+            1
+          ],
+          "color": "acento"
+        },
+        "rotulos": [
+          {
+            "texto": "Colombia",
+            "lugar": [
+              -73.2,
+              3.6
+            ],
+            "estilo": "pais",
+            "tam": 56,
+            "en": 0
+          },
+          {
+            "texto": "Mar Caribe",
+            "lugar": [
+              -76.5,
+              12.4
+            ],
+            "estilo": "mar",
+            "tam": 36,
+            "en": 0
+          },
+          {
+            "texto": "Océano Pacífico",
+            "lugar": [
+              -84.2,
+              3.8
+            ],
+            "estilo": "mar",
+            "tam": 36,
+            "en": 0
+          },
+          {
+            "texto": "República de Panamá",
+            "lugar": [
+              -82.2,
+              6.5
+            ],
+            "estilo": "pais",
+            "tam": 34,
+            "palabra": "convirtió"
+          }
+        ],
+        "banderas": [
+          {
+            "pais": "panama",
+            "lugar": [
+              -80.6,
+              9.9
+            ],
+            "en": 3.95,
+            "tam": 100
+          }
+        ],
+        "cartela": {
+          "titulo": "Noviembre de 1903",
+          "sub": "El istmo se separa de Colombia"
+        },
+        "fichas": [
+          {
+            "titulo": "3",
+            "texto": "días",
+            "dibujo": "calendario",
+            "marcas": 3,
+            "palabra": "tres",
+            "lugar": "abajo-derecha"
+          },
+          {
+            "texto": "casi sin disparos",
+            "dibujo": "canon",
+            "tachar": true,
+            "palabra": "disparos",
+            "lugar": "abajo-izquierda"
+          }
+        ]
+      }
+    },
+    "tratado": {
+      "plantilla": "tratado",
+      "datos": {
+        "titulo": "Tratado",
+        "sub": "Washington, 18 de noviembre de 1903",
+        "desde": {
+          "arriba": "Nov",
+          "numero": "3"
+        },
+        "hasta": {
+          "arriba": "Nov",
+          "numero": "18"
+        },
+        "lapso": "dos semanas",
+        "franja": "Zona del canal: 16 km de ancho",
+        "sello": "EE. UU.",
+        "bandera": "eeuu",
+        "palabras": {
+          "lapso": "semanas",
+          "documento": "tratado",
+          "sello": "Estados",
+          "franja": "entregó"
+        }
+      }
+    },
+    "firma": {
+      "plantilla": "dos-personajes",
+      "datos": {
+        "izquierda": {
+          "nombre": "John Hay",
+          "rol": "Secretario de Estado de EE. UU.",
+          "bandera": "eeuu",
+          "piel": "#e8b993",
+          "pelo": "#6b5444",
+          "barba": "recortada",
+          "peinado": "calvo",
+          "ropa": "#2b2b33",
+          "detalle": "#c9a256",
+          "corbata": "#3b2415",
+          "expresion": "sonrisa"
+        },
+        "derecha": {
+          "nombre": "Philippe Bunau-Varilla",
+          "rol": "Ingeniero francés",
+          "bandera": "panama",
+          "palabra_bandera": "Panamá",
+          "piel": "#e9bc98",
+          "pelo": "#2a1d16",
+          "barba": "bigote-encerado",
+          "peinado": "raya",
+          "ropa": "#1f2430",
+          "detalle": "#c9a256",
+          "corbata": "#a3302a",
+          "expresion": "astuto"
+        },
+        "firma": "derecha",
+        "palabra_firma": "firmó",
+        "foto": "File:Portrait of Philippe-Jean Bunau-Varilla.jpg",
+        "foto_pie": "Bunau-Varilla (foto anterior a 1904)",
+        "palabra_foto": "nombre"
+      }
+    },
+    "pregunta": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": [
+          "¿Cómo pudo",
+          "pasar?"
+        ],
+        "resalta": 1,
+        "calendario": {
+          "arriba": "Cosa de",
+          "numero": "1",
+          "abajo": "día",
+          "lado": "derecha",
+          "palabra": "No",
+          "tachar": "cosa"
+        }
+      }
+    },
+    "cadena": {
+      "plantilla": "cadena",
+      "datos": {
+        "eslabones": [
+          {
+            "texto": "errores"
+          },
+          {
+            "texto": "cálculos"
+          },
+          {
+            "texto": "intereses"
+          }
+        ],
+        "anios": [
+          "1821",
+          "1855",
+          "1880"
+        ],
+        "palabra_atras": "que",
+        "rotulo_atras": "Viene de muy atrás"
+      }
+    },
+    "documentos": {
+      "plantilla": "tablero",
+      "datos": {
+        "personajes": [
+          {
+            "nombre": "Theodore Roosevelt",
+            "rol": "Presidente de EE. UU.",
+            "piel": "#efc39e",
+            "pelo": "#7a5a3e",
+            "barba": "morsa",
+            "gafas": "quevedos",
+            "ropa": "#22252d",
+            "detalle": "#c9a256",
+            "expresion": "sonrisa"
+          },
+          {
+            "nombre": "J. M. Marroquín",
+            "rol": "Gobierno de Colombia",
+            "piel": "#e5b893",
+            "pelo": "#e9e4d8",
+            "barba": "completa",
+            "peinado": "calvo",
+            "ropa": "#1c1c22",
+            "detalle": "#9a7128",
+            "expresion": "serio"
+          },
+          {
+            "nombre": "P. Bunau-Varilla",
+            "rol": "Ingeniero francés",
+            "piel": "#e9bc98",
+            "pelo": "#2a1d16",
+            "barba": "bigote-encerado",
+            "peinado": "raya",
+            "sombrero": "bombin",
+            "ropa": "#1f2430",
+            "detalle": "#c9a256",
+            "expresion": "astuto"
+          }
+        ],
+        "papeles": [
+          {
+            "foto": "File:Panama canal cartoon 1903.jpg",
+            "pie": "Caricatura estadounidense de 1903"
+          },
+          {
+            "foto": "File:Panam2.JPG",
+            "pie": "«The News Reaches Bogotá», 1903"
+          }
+        ],
+        "titulo": "Lo que dicen los documentos",
+        "palabras": {
+          "personajes": "Esta",
+          "papeles": "contada",
+          "hilos": "documentos",
+          "titulo": "contada"
+        }
+      }
+    },
+    "capitulo": {
+      "plantilla": "capitulo",
+      "datos": {
+        "numero": "Capítulo I",
+        "titulo": "El sueño del canal"
+      }
+    },
+    "mapa-1821": {
+      "plantilla": "mapa",
+      "datos": {
+        "vistas": [
+          {
+            "centro": [
+              -80,
+              4.5
+            ],
+            "ancho": 34
+          },
+          {
+            "centro": [
+              -79.6,
+              8.4
+            ],
+            "ancho": 13,
+            "palabra": "Panamá",
+            "dur": 1.3
+          }
+        ],
+        "paises": [
+          {
+            "id": "panama",
+            "color": "acento",
+            "opacidad": 0.7,
+            "palabra": "Panamá"
+          }
+        ],
+        "rotulos": [
+          {
+            "texto": "Mar Caribe",
+            "lugar": [
+              -76.5,
+              12.4
+            ],
+            "estilo": "mar",
+            "tam": 36,
+            "en": 0
+          },
+          {
+            "texto": "Océano Pacífico",
+            "lugar": [
+              -84.2,
+              3.8
+            ],
+            "estilo": "mar",
+            "tam": 36,
+            "en": 0
+          },
+          {
+            "texto": "Mar Caribe",
+            "lugar": [
+              -79.2,
+              10.9
+            ],
+            "estilo": "mar",
+            "tam": 40,
+            "palabra": "independizó"
+          },
+          {
+            "texto": "Océano Pacífico",
+            "lugar": [
+              -79.2,
+              6
+            ],
+            "estilo": "mar",
+            "tam": 40,
+            "palabra": "independizó"
+          },
+          {
+            "texto": "Colombia",
+            "lugar": [
+              -73.2,
+              3.6
+            ],
+            "estilo": "pais",
+            "tam": 56,
+            "en": 0
+          },
+          {
+            "texto": "Panamá",
+            "lugar": [
+              -80.6,
+              8.62
+            ],
+            "estilo": "pais",
+            "tam": 46,
+            "palabra": "independizó"
+          }
+        ],
+        "banderas": [
+          {
+            "pais": "espana",
+            "lugar": [
+              -78.6,
+              8.75
+            ],
+            "palabra": "España",
+            "hasta": "1821",
+            "tam": 110
+          }
+        ],
+        "cartela": {
+          "titulo": "El istmo de Panamá"
+        },
+        "fichas": [
+          {
+            "titulo": "1821",
+            "texto": "Independencia de España",
+            "dibujo": "pluma",
+            "palabra": "independizó",
+            "lugar": "abajo-izquierda"
+          }
+        ]
+      }
+    },
+    "gran-colombia": {
+      "plantilla": "mapa",
+      "datos": {
+        "vistas": [
+          {
+            "centro": [
+              -79.6,
+              8.4
+            ],
+            "ancho": 13
+          },
+          {
+            "centro": [
+              -71.5,
+              3
+            ],
+            "ancho": 40,
+            "palabra": "unió",
+            "dur": 1.6
+          }
+        ],
+        "paises": [
+          {
+            "id": "panama",
+            "color": "acento",
+            "opacidad": 0.7,
+            "en": 0,
+            "hasta": "Gran"
+          },
+          {
+            "id": "panama",
+            "color": "acento2",
+            "opacidad": 0.5,
+            "palabra": "Gran"
+          },
+          {
+            "id": "colombia",
+            "color": "acento2",
+            "opacidad": 0.5,
+            "palabra": "Gran"
+          },
+          {
+            "id": "venezuela",
+            "color": "acento2",
+            "opacidad": 0.5,
+            "palabra": "Gran",
+            "hasta": "Desde"
+          },
+          {
+            "id": "ecuador",
+            "color": "acento2",
+            "opacidad": 0.5,
+            "palabra": "Gran",
+            "hasta": "Desde"
+          }
+        ],
+        "rotulos": [
+          {
+            "texto": "Gran Colombia",
+            "lugar": [
+              -71.5,
+              6.3
+            ],
+            "estilo": "titulo",
+            "tam": 72,
+            "palabra": "Gran",
+            "hasta": "Desde"
+          },
+          {
+            "texto": "Venezuela",
+            "lugar": [
+              -63.5,
+              4.6
+            ],
+            "estilo": "pais",
+            "tam": 30,
+            "palabra": "Gran",
+            "hasta": "Desde"
+          },
+          {
+            "texto": "Ecuador",
+            "lugar": [
+              -78.6,
+              -1.6
+            ],
+            "estilo": "pais",
+            "tam": 30,
+            "palabra": "Gran",
+            "hasta": "Desde"
+          },
+          {
+            "texto": "Colombia",
+            "lugar": [
+              -73.2,
+              3.2
+            ],
+            "estilo": "pais",
+            "tam": 54,
+            "palabra": "Desde"
+          },
+          {
+            "texto": "Panamá",
+            "lugar": [
+              -81.6,
+              7
+            ],
+            "estilo": "pais",
+            "tam": 30,
+            "palabra": "Desde"
+          }
+        ],
+        "cartela": {
+          "titulo": "1821",
+          "sub": "Panamá se une por voluntad propia",
+          "palabra": "unió"
+        },
+        "fichas": [
+          {
+            "tipo": "anios",
+            "de": "1821",
+            "a": "1903",
+            "texto": "Panamá, parte de Colombia",
+            "palabra": "Desde",
+            "lugar": "abajo-derecha"
+          }
+        ]
+      }
+    },
+    "istmo": {
+      "plantilla": "mapa",
+      "datos": {
+        "vistas": [
+          {
+            "centro": [
+              -71.5,
+              3
+            ],
+            "ancho": 40
+          },
+          {
+            "caja": [
+              -83.4,
+              10.5,
+              -76.6,
+              6.2
+            ],
+            "palabra": "franjas",
+            "dur": 1.4
+          }
+        ],
+        "paises": [
+          {
+            "id": "panama",
+            "color": "acento2",
+            "opacidad": 0.5,
+            "en": 0
+          }
+        ],
+        "rotulos": [
+          {
+            "texto": "Mar Caribe (océano Atlántico)",
+            "lugar": [
+              -79.4,
+              10.15
+            ],
+            "estilo": "mar",
+            "tam": 40,
+            "palabra": "Atlántico"
+          },
+          {
+            "texto": "Océano Pacífico",
+            "lugar": [
+              -80,
+              6.9
+            ],
+            "estilo": "mar",
+            "tam": 40,
+            "palabra": "Pacífico"
+          }
+        ],
+        "rutas": [
+          {
+            "puntos": [
+              [
+                -79.95,
+                9.85
+              ],
+              [
+                -79.75,
+                9.2
+              ],
+              [
+                -79.5,
+                8.6
+              ]
+            ],
+            "estilo": "flecha",
+            "grosor": 9,
+            "palabra": "angostas",
+            "dur": 0.8,
+            "color": "acento"
+          }
+        ],
+        "cartela": {
+          "titulo": "El istmo",
+          "sub": "Una franja entre dos océanos",
+          "palabra": "franjas"
+        }
+      }
+    },
+    "vuelta": {
+      "plantilla": "mapa",
+      "datos": {
+        "vistas": [
+          {
+            "caja": [
+              -83.4,
+              10.5,
+              -76.6,
+              6.2
+            ]
+          },
+          {
+            "centro": [
+              -102,
+              -27
+            ],
+            "ancho": 165,
+            "palabra": "ahorraba",
+            "dur": 1.25
+          }
+        ],
+        "paises": [
+          {
+            "id": "panama",
+            "color": "acento2",
+            "opacidad": 0.5,
+            "en": 0
+          }
+        ],
+        "rutas": [
+          {
+            "puntos": [
+              [
+                -79.95,
+                9.85
+              ],
+              [
+                -79.75,
+                9.2
+              ],
+              [
+                -79.5,
+                8.6
+              ]
+            ],
+            "estilo": "flecha",
+            "grosor": 9,
+            "palabra": "Cruzarla",
+            "dur": 0.4,
+            "color": "acento"
+          },
+          {
+            "puntos": [
+              [
+                -79.9,
+                9.5
+              ],
+              [
+                -78.5,
+                11.2
+              ],
+              [
+                -74,
+                12.6
+              ],
+              [
+                -68,
+                12.8
+              ],
+              [
+                -62.5,
+                12
+              ],
+              [
+                -58.5,
+                9.5
+              ],
+              [
+                -52,
+                5.5
+              ],
+              [
+                -46,
+                1.5
+              ],
+              [
+                -38,
+                -2.5
+              ],
+              [
+                -33.8,
+                -6.5
+              ],
+              [
+                -35.5,
+                -12
+              ],
+              [
+                -38,
+                -17.5
+              ],
+              [
+                -40,
+                -23.5
+              ],
+              [
+                -46,
+                -27.5
+              ],
+              [
+                -51.5,
+                -34.5
+              ],
+              [
+                -56.5,
+                -38.5
+              ],
+              [
+                -62,
+                -43.5
+              ],
+              [
+                -64,
+                -49
+              ],
+              [
+                -63.6,
+                -54.6
+              ],
+              [
+                -64.8,
+                -56.6
+              ],
+              [
+                -67.5,
+                -57.3
+              ],
+              [
+                -71,
+                -56.5
+              ],
+              [
+                -75.5,
+                -53.5
+              ],
+              [
+                -77,
+                -48
+              ],
+              [
+                -76.5,
+                -42
+              ],
+              [
+                -74.5,
+                -36
+              ],
+              [
+                -72.5,
+                -30
+              ],
+              [
+                -71.8,
+                -24
+              ],
+              [
+                -72.5,
+                -19
+              ],
+              [
+                -76.5,
+                -15.5
+              ],
+              [
+                -79.5,
+                -11
+              ],
+              [
+                -81.5,
+                -7
+              ],
+              [
+                -82.3,
+                -3
+              ],
+              [
+                -81.5,
+                1
+              ],
+              [
+                -80,
+                5
+              ],
+              [
+                -79.6,
+                7.8
+              ],
+              [
+                -79.5,
+                8.8
+              ]
+            ],
+            "estilo": "discontinua",
+            "color": "tinta",
+            "grosor": 5,
+            "palabra": "vuelta",
+            "dur": 1.7,
+            "movil": "barco",
+            "tam_icono": 70
+          }
+        ],
+        "marcas": [
+          {
+            "texto": "Panamá",
+            "lugar": [
+              -79.6,
+              9
+            ],
+            "lado": "izquierda",
+            "tam": 30,
+            "palabra": "larguísima"
+          }
+        ],
+        "rotulos": [
+          {
+            "texto": "Atlántico",
+            "lugar": [
+              -32,
+              -28
+            ],
+            "estilo": "mar",
+            "tam": 34,
+            "palabra": "larguísima"
+          },
+          {
+            "texto": "Pacífico",
+            "lugar": [
+              -100,
+              -18
+            ],
+            "estilo": "mar",
+            "tam": 34,
+            "palabra": "larguísima"
+          },
+          {
+            "texto": "Cabo de Hornos",
+            "lugar": [
+              -89,
+              -50.5
+            ],
+            "estilo": "mar",
+            "tam": 28,
+            "palabra": "sur"
+          }
+        ],
+        "cartela": {
+          "titulo": "La vuelta por el sur",
+          "sub": "Rodeando el cabo de Hornos",
+          "palabra": "vuelta"
+        }
+      }
+    },
+    "tren": {
+      "plantilla": "vehiculo",
+      "datos": {
+        "tipo": "tren",
+        "anio": "1855",
+        "rotulo": "Ferrocarril de Panamá",
+        "detalle": "Una empresa de Nueva York",
+        "foto": "File:Panama Railway - the Culebra or Summit Station LCCN2002697819.jpg",
+        "foto_pie": "The Illustrated London News, 1855",
+        "palabras": {
+          "anio": "1855",
+          "entra": "empezó",
+          "rotulo": "ferrocarril",
+          "detalle": "empresa",
+          "foto": "Panamá"
+        }
+      }
+    },
+    "ruta-tren": {
+      "plantilla": "mapa",
+      "datos": {
+        "vistas": [
+          {
+            "caja": [
+              -80.55,
+              9.7,
+              -78.85,
+              8.6
+            ]
+          }
+        ],
+        "paises": [
+          {
+            "id": "panama",
+            "color": "acento2",
+            "opacidad": 0.3,
+            "en": 0
+          }
+        ],
+        "marcas": [
+          {
+            "texto": "Colón",
+            "lugar": "colon",
+            "lado": "izquierda",
+            "tam": 44,
+            "en": 0.02
+          },
+          {
+            "texto": "Ciudad de Panamá",
+            "lugar": "panama",
+            "lado": "derecha",
+            "tam": 44,
+            "en": 0.08
+          }
+        ],
+        "rutas": [
+          {
+            "puntos": "ferrocarril",
+            "estilo": "tren",
+            "grosor": 12,
+            "palabra": "cruzaba",
+            "dur": 1.7,
+            "movil": "tren",
+            "tam_icono": 90
+          }
+        ],
+        "rotulos": [
+          {
+            "texto": "Océano Atlántico",
+            "lugar": [
+              -79.5,
+              9.63
+            ],
+            "estilo": "mar",
+            "tam": 44,
+            "palabra": "océano"
+          },
+          {
+            "texto": "Océano Pacífico",
+            "lugar": [
+              -79.3,
+              8.8
+            ],
+            "estilo": "mar",
+            "tam": 44,
+            "en": 0.72
+          }
+        ],
+        "cartela": {
+          "titulo": "De océano a océano",
+          "sub": "De Colón a Ciudad de Panamá",
+          "palabra": "fin"
+        }
+      }
+    }
+  },
+  "frases": [
+    {
+      "id": "f1",
+      "escena": "fecha",
+      "texto": "El 3 de noviembre de 1903, Colombia perdió Panamá. En tres días, y casi sin disparos, un pedazo del país se convirtió en otra república.",
+      "cortes": [
+        {
+          "escena": "separacion",
+          "palabra": 9
+        }
+      ]
+    },
+    {
+      "id": "f2",
+      "escena": "tratado",
+      "texto": "Dos semanas después, el tratado que le entregó a Estados Unidos la franja del canal lo firmó, en nombre de Panamá, un ingeniero francés.",
+      "cortes": [
+        {
+          "escena": "firma",
+          "palabra": 15
+        }
+      ]
+    },
+    {
+      "id": "f3",
+      "escena": "pregunta",
+      "texto": "¿Cómo pudo pasar? No fue cosa de un día: fue una cadena de errores, cálculos e intereses que venía de muy atrás.",
+      "cortes": [
+        {
+          "escena": "cadena",
+          "palabra": 9
+        }
+      ]
+    },
+    {
+      "id": "f4",
+      "escena": "documentos",
+      "texto": "Esta es esa historia, contada con lo que dicen los documentos.",
+      "pausa_despues": 2.6,
+      "cortes": [
+        {
+          "escena": "capitulo",
+          "palabra": "fin"
+        }
+      ]
+    },
+    {
+      "id": "f5",
+      "escena": "mapa-1821",
+      "texto": "Empecemos por el mapa. Panamá se independizó de España en 1821 y se unió por voluntad propia a la Gran Colombia. Desde entonces fue parte de Colombia.",
+      "cortes": [
+        {
+          "escena": "gran-colombia",
+          "palabra": 11
+        }
+      ]
+    },
+    {
+      "id": "f6",
+      "escena": "istmo",
+      "texto": "Era una de las franjas de tierra más angostas entre el Atlántico y el Pacífico. Cruzarla ahorraba la larguísima vuelta por el sur del continente.",
+      "cortes": [
+        {
+          "escena": "vuelta",
+          "palabra": "Cruzarla"
+        }
+      ]
+    },
+    {
+      "id": "f7",
+      "escena": "tren",
+      "texto": "En 1855 empezó a funcionar el ferrocarril de Panamá, de una empresa de Nueva York: por fin se cruzaba de océano a océano en tren.",
+      "cortes": [
+        {
+          "escena": "ruta-tren",
+          "palabra": 15
+        }
+      ]
+    }
+  ]
+}

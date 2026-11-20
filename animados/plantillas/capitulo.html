@@ -1,0 +1,74 @@
+<!--
+  Capitulo (videos propios, Narrador): tarjeta de capitulo en el aspecto del tema (en "archivo",
+  papel con marco doble en oro viejo, como las tarjetas de los videos largos). Va en la pausa de voz
+  antes de un capitulo (una frase con "cortes": [{ "escena": "<id>", "palabra": "fin" }] y "pausa_despues").
+  Solo horizontal. Necesita "estilo.tema".
+  Datos: numero: "Capítulo I" (20 letras); titulo: "El sueño del canal" (26 letras)
+-->
+<template>
+  <style>
+{{>narrador-css}}
+    #{{id}}-marco {
+      position: absolute;
+      left: 150px;
+      top: 110px;
+      width: 1620px;
+      height: 760px;
+      border: 4px solid var(--acento2);
+      box-shadow: inset 0 0 0 12px rgba(246, 236, 208, 0.6), inset 0 0 0 15px var(--acento2);
+      opacity: 0;
+    }
+    .{{id}}-col {
+      position: absolute;
+      left: 200px;
+      width: 1520px;
+      top: 150px;
+      height: 680px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    #{{id}}-num {
+      font-size: 52px;
+      letter-spacing: 0.32em;
+      text-transform: uppercase;
+      color: var(--acento);
+      white-space: nowrap;
+      opacity: 0;
+    }
+    #{{id}}-adorno {
+      width: 520px;
+      height: 40px;
+      margin: 26px 0 30px;
+    }
+    #{{id}}-titulo {
+      white-space: nowrap;
+      opacity: 0;
+    }
+  </style>
+
+  <div id="root" data-composition-id="{{id}}" data-width="{{ancho}}" data-height="{{alto}}">
+    <div id="{{id}}-marco"></div>
+    <div class="{{id}}-col">
+      <div id="{{id}}-num">{{d.numero}}</div>
+      <div id="{{id}}-adorno"><svg class="{{id}}-arte" viewBox="0 0 520 40"><path id="{{id}}-raya-i" d="M240 20 H20" style="stroke: var(--acento2)" stroke-width="4" stroke-linecap="butt" pathLength="1" stroke-dasharray="1 1" stroke-dashoffset="1" /><path id="{{id}}-raya-d" d="M280 20 H500" style="stroke: var(--acento2)" stroke-width="4" stroke-linecap="butt" pathLength="1" stroke-dasharray="1 1" stroke-dashoffset="1" /><path id="{{id}}-rombo" d="M260 4 L276 20 L260 36 L244 20 Z" style="fill: var(--acento)" /></svg></div>
+      <div id="{{id}}-titulo" class="{{id}}-titulo">{{d.titulo}}</div>
+    </div>
+  </div>
+
+  <script>
+{{>narrador-js}}
+
+    $("titulo").style.fontSize = tamPara(D.titulo, 1400, 132, 80, T.anchoTitulo) + "px";
+    tl.fromTo(el("marco"), { opacity: 0, scale: 1.04 }, { opacity: 1, scale: 1, duration: 0.5, ease: "power2.out" }, 0.02);
+    tl.fromTo(el("num"), { opacity: 0, y: -20, scale: 1.12 }, { opacity: 1, y: 0, scale: 1, duration: 0.5, ease: "power2.out" }, 0.05);
+    tl.fromTo(el("rombo"), { scale: 0, rotation: -90, transformOrigin: "50% 50%" }, { scale: 1, rotation: 0, duration: 0.4, ease: "back.out(2)" }, 0.25);
+    tl.to([el("raya-i"), el("raya-d")], { attr: { "stroke-dashoffset": 0 }, duration: 0.6, ease: "power2.out" }, 0.35);
+    tl.fromTo(el("titulo"), { opacity: 0, y: 40, scale: 0.94 }, { opacity: 1, y: 0, scale: 1, duration: 0.5, ease: "back.out(1.6)" }, 0.15);
+    tl.fromTo(el("titulo"), { scale: 1 }, { scale: 1.03, duration: Math.max(0.6, r.dur - 0.8), ease: "sine.inOut" }, 0.65);
+
+    window.__timelines["{{id}}"] = tl;
+  </script>
+</template>

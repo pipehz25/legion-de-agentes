@@ -25,12 +25,17 @@ if (!carpeta || !fs.existsSync(path.join(carpeta, "tiempos.json"))) {
 const guion = JSON.parse(fs.readFileSync(path.join(carpeta, "guion.json"), "utf8"));
 const tiempos = JSON.parse(fs.readFileSync(path.join(carpeta, "tiempos.json"), "utf8"));
 const conTema = Boolean(guion.estilo && guion.estilo.tema);
+// Horizontal ("orientacion": "horizontal"): grupos de hasta 4 palabras, mas chicos y abajo, para no
+// tapar el diseno. "subtitulos": false en el guion los quita todos.
+const HORIZONTAL = guion.orientacion === "horizontal";
+const W = HORIZONTAL ? 1920 : 1080;
+const H = HORIZONTAL ? 1080 : 1920;
 
-const MAX_PALABRAS = 3;
-const MAX_LETRAS = 17;
-const ANCHO = 860; // dentro del 80 % seguro para texto de un cuadro de 1080
-const TAM_BASE = 84;
-const TAM_MIN = 58;
+const MAX_PALABRAS = HORIZONTAL ? 4 : 3;
+const MAX_LETRAS = HORIZONTAL ? 28 : 17;
+const ANCHO = HORIZONTAL ? 1400 : 860; // dentro del 80 % seguro para texto del cuadro
+const TAM_BASE = HORIZONTAL ? 50 : 84;
+const TAM_MIN = HORIZONTAL ? 40 : 58;
 const r2 = (n) => Math.round(n * 100) / 100;
 const html = (s) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 const limpia = (s) => s.toLowerCase().replace(/[.,;:]/g, "");
@@ -39,7 +44,7 @@ const limpia = (s) => s.toLowerCase().replace(/[.,;:]/g, "");
 const grupos = [];
 for (const frase of tiempos.frases) {
   const delGuion = guion.frases.find((f) => f.id === frase.id) || {};
-  if (delGuion.subtitulos === false) continue;
+  if (delGuion.subtitulos === false || guion.subtitulos === false) continue;
   const claves = new Set((delGuion.clave || []).map(limpia));
   let actual = [];
   const cerrar = () => {
@@ -100,11 +105,11 @@ const estiloTema = `
     }
     .sub-linea {
       position: absolute;
-      left: 60px;
-      width: 960px;
-      top: 1150px;
-      height: 130px;
-      line-height: 130px;
+      left: ${HORIZONTAL ? 160 : 60}px;
+      width: ${HORIZONTAL ? 1600 : 960}px;
+      top: ${HORIZONTAL ? 952 : 1150}px;
+      height: ${HORIZONTAL ? 88 : 130}px;
+      line-height: ${HORIZONTAL ? 88 : 130}px;
       text-align: center;
       white-space: nowrap;
       overflow: visible;
@@ -141,11 +146,11 @@ const estiloClasico = `
     }
     .sub-linea {
       position: absolute;
-      left: 90px;
-      width: 900px;
-      top: 1150px;
-      height: 130px;
-      line-height: 130px;
+      left: ${HORIZONTAL ? 160 : 90}px;
+      width: ${HORIZONTAL ? 1600 : 900}px;
+      top: ${HORIZONTAL ? 952 : 1150}px;
+      height: ${HORIZONTAL ? 88 : 130}px;
+      line-height: ${HORIZONTAL ? 88 : 130}px;
       text-align: center;
       white-space: nowrap;
       overflow: visible;
@@ -171,7 +176,7 @@ const salida = `<!-- Generado por animados/herramientas/subtitulos.mjs a partir 
   <style>${conTema ? estiloTema : estiloClasico}
   </style>
 
-  <div id="root" data-composition-id="subtitulos" data-width="1080" data-height="1920">
+  <div id="root" data-composition-id="subtitulos" data-width="${W}" data-height="${H}">
 ${bloques.join("\n")}
   </div>
 

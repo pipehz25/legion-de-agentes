@@ -29,6 +29,23 @@
 // Sin "tema", el video sale exactamente como siempre (los del Animador).
 //
 // --sin-voz deja el video mudo (mismos tiempos, sin el audio).
+//
+// Horizontal (videos de YouTube hechos con escenas): "orientacion": "horizontal" en el guion pone
+// el lienzo en 1920x1080. En una plantilla:
+//   {{?h}}...{{/h}}   solo en horizontal;  {{?v}}...{{/v}}  solo en vertical
+//   {{ancho}}, {{alto}}  el tamano del lienzo
+// Una plantilla que dice en su cabecera "Horizontal: propio" trae su propio diseno horizontal; las
+// demas, en horizontal, se dibujan igual que en vertical dentro de un escenario centrado (su zona
+// de dibujo de 190 a 1100 px, un poco reducida). "Solo horizontal" no se deja usar en vertical.
+//
+// Cortes dentro de una frase: "cortes": [{ "escena": "<id>", "palabra": 9 | "texto" | "fin" }] en una
+// frase hace que la escena <id> empiece en esa palabra (o al terminar la frase, con "fin"), aunque
+// la frase siga. Sirve para que las frases largas no se queden en una sola escena. La escena nueva
+// necesita su plantilla en "escenas" como cualquier otra.
+//
+// Fotos: un dato "foto" (o "foto_<algo>") con el nombre de un archivo de Wikimedia Commons que ya
+// este en animados/.imagenes-cache/ (lo baja largo.mjs, con su licencia revisada) se copia a
+// assets/fotos/ y la plantilla recibe "foto_src", "foto_ancho", "foto_alto" y "foto_credito".
 
 import fs from "node:fs";
 import path from "node:path";
@@ -37,6 +54,7 @@ import { TEMAS } from "./temas.mjs";
 
 const AQUI = path.dirname(fileURLToPath(import.meta.url));
 const PLANTILLAS = path.resolve(AQUI, "..", "plantillas");
+const CACHE_IMAGENES = path.resolve(AQUI, "..", ".imagenes-cache");
 
 const carpeta = process.argv[2] ? path.resolve(process.argv[2]) : null;
 const sinVoz = process.argv.includes("--sin-voz");
@@ -52,6 +70,7 @@ if (!tiempos.escenas) {
 }
 
 const r2 = (n) => Math.round(n * 100) / 100;
+const r3 = (n) => Math.round(n * 1000) / 1000;
 const total = Math.ceil(tiempos.duracion * 100) / 100;
 const norma = (s) =>
   String(s)
@@ -59,6 +78,66 @@ const norma = (s) =>
     .replace(/[^a-zA-Z0-9]/g, "")
     .toLowerCase();
 const escapa = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+
+// ---------- Lienzo ----------
+const orientacion = guion.orientacion || "vertical";
+if (!["vertical", "horizontal"].includes(orientacion)) throw new Error(`"orientacion" es "vertical" (por defecto) u "horizontal" (llego "${orientacion}").`);
+const HORIZONTAL = orientacion === "horizontal";
+const W = HORIZONTAL ? 1920 : 1080;
+const H = HORIZONTAL ? 1080 : 1920;
+
+// ---------- Cortes de escena dentro de una frase ----------
+// Las ventanas de escena salen de tiempos.json (una por grupo de frases). Un corte parte una
+// ventana en la palabra pedida: la escena nueva empieza un instante antes de que se diga.
+let escenasFinales = tiempos.escenas.map((e) => ({ ...e }));
+const conCortes = (guion.frases || []).some((f) => Array.isArray(f.cortes) && f.cortes.length);
+if (conCortes) {
+  for (const delGuion of guion.frases || []) {
+    for (const corte of delGuion.cortes || []) {
+      const f = tiempos.frases.find((x) => x.id === delGuion.id);
+      if (!f) continue;
+      if (!corte.escena || escenasFinales.some((e) => e.id === corte.escena)) throw new Error(`El corte de la frase ${delGuion.id} necesita una "escena" nueva (llego "${corte.escena}").`);
+      let t;
+      if (corte.palabra === "fin") t = f.fin + 0.12;
+      else {
+        let i = typeof corte.palabra === "number" ? corte.palabra : f.palabras.findIndex((p) => norma(p.texto) === norma(corte.palabra));
+        if (i < 0) i = f.palabras.findIndex((p) => norma(corte.palabra).length > 3 && norma(p.texto).startsWith(norma(corte.palabra)));
+        if (i < 0 || i >= f.palabras.length) throw new Error(`El corte de la frase ${delGuion.id} pide la palabra "${corte.palabra}", que no esta en la frase.`);
+        t = f.palabras[i].inicio - 0.1;
+      }
+      t = r3(t);
+      const k = escenasFinales.findIndex((e) => t > e.inicio + 0.3 && t < e.fin - 0.3);
+      if (k < 0) throw new Error(`El corte de la frase ${delGuion.id} cae demasiado cerca del borde de una escena.`);
+      escenasFinales.splice(k + 1, 0, { id: corte.escena, inicio: t, fin: escenasFinales[k].fin });
+      escenasFinales[k].fin = t;
+    }
+  }
+}
+
+// ---------- Fotos de la cache de Commons ----------
+let fichasCache = null;
+function buscaFoto(nombre) {
+  if (!fichasCache) {
+    fichasCache = fs.existsSync(CACHE_IMAGENES)
+      ? fs
+          .readdirSync(CACHE_IMAGENES)
+          .filter((n) => n.endsWith(".json"))
+          .map((n) => JSON.parse(fs.readFileSync(path.join(CACHE_IMAGENES, n), "utf8")))
+      : [];
+  }
+  const limpio = (s) => String(s).replace(/^(File|Archivo):/i, "").replace(/_/g, " ").trim().toLowerCase();
+  const ficha = fichasCache.find((f) => limpio(f.titulo) === limpio(nombre));
+  if (!ficha || !ficha.archivo || !fs.existsSync(path.join(CACHE_IMAGENES, ficha.archivo))) {
+    throw new Error(`La foto "${nombre}" no esta en animados/.imagenes-cache/ (se baja con el video largo, que revisa su licencia).`);
+  }
+  if (ficha.no_libre) throw new Error(`La foto "${nombre}" no tiene una licencia libre (${ficha.licencia}).`);
+  const destino = path.join(carpeta, "assets", "fotos", ficha.archivo);
+  fs.mkdirSync(path.dirname(destino), { recursive: true });
+  if (!fs.existsSync(destino) || fs.statSync(destino).size !== fs.statSync(path.join(CACHE_IMAGENES, ficha.archivo)).size) {
+    fs.copyFileSync(path.join(CACHE_IMAGENES, ficha.archivo), destino);
+  }
+  return { src: "assets/fotos/" + ficha.archivo, ancho: ficha.ancho, alto: ficha.alto, credito: [ficha.autor, ficha.licencia].filter(Boolean).join(" · ") };
+}
 
 // ---------- Escenas de plantilla ----------
 const dirEscenas = path.join(carpeta, "compositions");
@@ -116,6 +195,12 @@ function conIconos(valor) {
       if (!ilustraciones[v]) throw new Error(`No existe la ilustracion "${v}". Las que hay: ${Object.keys(ilustraciones).join(", ")}`);
       copia[clave + "_svg"] = ilustraciones[v];
     }
+    for (const [clave, v] of Object.entries(copia)) {
+      // Solo los valores que son un archivo de imagen (asi "foto_pie" o "foto_credito" siguen siendo texto).
+      if (!/^foto(_[a-z0-9]+)?$/.test(clave) || typeof v !== "string" || !/\.(jpe?g|png|gif|tiff?|webp)$/i.test(v)) continue;
+      const f = buscaFoto(v);
+      Object.assign(copia, { [clave + "_src"]: f.src, [clave + "_ancho"]: f.ancho, [clave + "_alto"]: f.alto, [clave + "_credito"]: f.credito });
+    }
     return copia;
   }
   return valor;
@@ -133,12 +218,36 @@ function expande(nombre, id, datos) {
   if (!tema && /Necesita "estilo\.tema"/.test(texto)) {
     throw new Error(`La plantilla "${nombre}" es de los videos propios: el guion necesita "estilo": { "tema": "archivo" | "laboratorio" | "pizarra" }.`);
   }
+  if (!HORIZONTAL && /Solo horizontal/.test(texto)) {
+    throw new Error(`La plantilla "${nombre}" es solo para videos horizontales: el guion necesita "orientacion": "horizontal".`);
+  }
+  const disenoHorizontal = /Horizontal: propio|Solo horizontal/.test(texto);
   for (let vuelta = 0; vuelta < 3; vuelta++) {
     texto = texto.replace(/\{\{>([a-z0-9-]+)\}\}/g, (_, parcial) => {
       const ruta = path.join(PLANTILLAS, "_" + parcial + ".html");
       if (!fs.existsSync(ruta)) throw new Error(`La plantilla "${nombre}" incluye "${parcial}", que no existe.`);
       return fs.readFileSync(ruta, "utf8").replace(/\s+$/, "");
     });
+  }
+  // Bloques de una sola orientacion: {{?h}}...{{/h}} y {{?v}}...{{/v}}. Si ocupan renglones enteros,
+  // se van con sus saltos de linea (asi la otra orientacion queda exactamente igual que sin ellos).
+  const deja = (o) => (o === "h") === HORIZONTAL;
+  texto = texto
+    .replace(/^[ \t]*\{\{\?(h|v)\}\}[ \t]*\r?\n([\s\S]*?)^[ \t]*\{\{\/\1\}\}[ \t]*\r?\n/gm, (_, o, dentro) => (deja(o) ? dentro : ""))
+    .replace(/\{\{\?(h|v)\}\}([\s\S]*?)\{\{\/\1\}\}/g, (_, o, dentro) => (deja(o) ? dentro : ""))
+    .replace(/\{\{ancho\}\}/g, String(W))
+    .replace(/\{\{alto\}\}/g, String(H));
+  // En horizontal, una plantilla sin diseno propio se dibuja como en vertical dentro de un escenario
+  // de 1080 de ancho, reducido y centrado: su zona de dibujo (190 a 1100 px) queda entre 82 y 920.
+  if (HORIZONTAL && !disenoHorizontal) {
+    const abre = texto.match(/<div id="root"[^>]*>/);
+    const guion0 = abre ? texto.indexOf("<script>", abre.index) : -1;
+    const cierra = guion0 > 0 ? texto.lastIndexOf("</div>", guion0) : -1;
+    if (!abre || cierra < 0) throw new Error(`No pude acomodar la plantilla "${nombre}" en horizontal (no encuentro su #root).`);
+    const fin = abre.index + abre[0].length;
+    const s = 0.92;
+    const escenario = `\n    <div class="${id}-escenario-v" data-layout-allow-overflow style="position: absolute; left: ${Math.round(960 - 540 * s)}px; top: ${Math.round(500 - 645 * s)}px; width: 1080px; height: 1100px; transform-origin: 0 0; transform: scale(${s})">`;
+    texto = texto.slice(0, fin) + escenario + texto.slice(fin, cierra) + "  </div>\n  " + texto.slice(cierra);
   }
   const faltan = new Set();
   const dato = (ruta) => {
@@ -160,7 +269,7 @@ function expande(nombre, id, datos) {
 }
 
 const pedidas = guion.escenas || {};
-for (const e of tiempos.escenas) {
+for (const e of escenasFinales) {
   const pedida = pedidas[e.id];
   const destino = path.join(dirEscenas, e.id + ".html");
   if (pedida && pedida.plantilla) {
@@ -173,20 +282,27 @@ for (const e of tiempos.escenas) {
 
 // ---------- index.html ----------
 // Lo minimo que las escenas necesitan saber de la voz.
-const ultima = tiempos.escenas.at(-1).id;
+const ultima = escenasFinales.at(-1).id;
+// Con cortes, una frase puede tocar dos escenas: cada escena lista las frases que suenan en ella.
+// Una escena sin voz (una tarjeta en una pausa) se queda con la frase anterior, para que su reloj funcione.
+const frasesDe = (e, fin) => {
+  if (!conCortes) return tiempos.frases.filter((f) => f.escena === e.id);
+  const suenan = tiempos.frases.filter((f) => f.inicio < fin - 0.05 && f.fin > e.inicio + 0.05);
+  return suenan.length ? suenan : tiempos.frases.filter((f) => f.fin <= e.inicio + 0.05).slice(-1);
+};
 const datosReloj = {
   escenas: Object.fromEntries(
-    tiempos.escenas.map((e) => [
-      e.id,
-      { inicio: e.inicio, fin: e.id === ultima ? total : e.fin, frases: tiempos.frases.filter((f) => f.escena === e.id).map((f) => f.id) },
-    ]),
+    escenasFinales.map((e) => {
+      const fin = e.id === ultima ? total : e.fin;
+      return [e.id, { inicio: e.inicio, fin, frases: frasesDe(e, fin).map((f) => f.id) }];
+    }),
   ),
   frases: Object.fromEntries(
     tiempos.frases.map((f) => [f.id, { inicio: f.inicio, fin: f.fin, palabras: f.palabras.map((p) => p.inicio), textos: f.palabras.map((p) => norma(p.texto)) }]),
   ),
 };
 
-const ranuras = tiempos.escenas
+const ranuras = escenasFinales
   .map((e) => {
     const fin = datosReloj.escenas[e.id].fin;
     return `      <div
@@ -197,8 +313,8 @@ const ranuras = tiempos.escenas
         data-duration="${r2(fin - e.inicio)}"
         data-track-index="1"
         data-track-kind="graphics"
-        data-width="1080"
-        data-height="1920"
+        data-width="${W}"
+        data-height="${H}"
         style="z-index: 1"
       ></div>`;
   })
@@ -221,9 +337,33 @@ const audio = sinVoz
 // identico al de antes.
 const attrTema = tema ? ` data-tema="${temaPedido}"` : "";
 const enlaceFuentes = tema && tema.google ? `\n    <link rel="stylesheet" href="${tema.google}" />` : "";
-const jsTema = tema
-  ? `\n\n      // Tema visual (videos propios): nombre y ancho medio de una letra (en em) para ajustar textos.\n      window.__tema = ${JSON.stringify({ nombre: temaPedido, ...tema.anchos })};`
-  : "";
+const jsTema =
+  (tema
+    ? `\n\n      // Tema visual (videos propios): nombre y ancho medio de una letra (en em) para ajustar textos.\n      window.__tema = ${JSON.stringify({ nombre: temaPedido, ...tema.anchos })};`
+    : "") + (HORIZONTAL ? `\n\n      // Lienzo horizontal (1920x1080).\n      window.__lienzo = ${JSON.stringify({ ancho: W, alto: H, horizontal: true })};` : "");
+// Con cortes, el principio y el fin de una frase se cuentan dentro de la escena (una frase puede
+// empezar antes que la escena o terminar despues).
+const iniFin = conCortes
+  ? `ini: (ref = 0) => Math.max(0, frase(ref).inicio - e.inicio),
+          fin: (ref = 0) => Math.max(0, Math.min(e.fin - e.inicio, frase(ref).fin - e.inicio)),`
+  : `ini: (ref = 0) => frase(ref).inicio - e.inicio,
+          fin: (ref = 0) => frase(ref).fin - e.inicio,`;
+const ranuraSubtitulos =
+  guion.subtitulos === false
+    ? ""
+    : `
+      <div
+        id="subtitulos"
+        data-composition-id="subtitulos"
+        data-composition-src="compositions/subtitulos.html"
+        data-start="0"
+        data-duration="${total}"
+        data-track-index="2"
+        data-track-kind="captions"
+        data-width="${W}"
+        data-height="${H}"
+        style="z-index: 5"
+      ></div>`;
 const varsTema = tema
   ? "\n" + Object.entries({ "--papel": paleta.fondo, ...tema.vars }).map(([k, v]) => `        ${k}: ${v};`).join("\n")
   : "";
@@ -253,10 +393,10 @@ const reglasTema = tema
 
 const html = `<!doctype html>
 <!-- Generado por animados/herramientas/montaje.mjs a partir de tiempos.json. No editar a mano. -->
-<html lang="es" data-resolution="portrait"${attrTema}>
+<html lang="es" data-resolution="${HORIZONTAL ? "landscape" : "portrait"}"${attrTema}>
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=1080, height=1920" />
+    <meta name="viewport" content="width=${W}, height=${H}" />
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>${enlaceFuentes}
     <script>
       // Tiempos de la voz, en segundos del video.
@@ -291,8 +431,7 @@ const html = `<!doctype html>
             const palabras = frase(ref).palabras;
             return palabras[Math.min(i, palabras.length - 1)] - e.inicio;
           },
-          ini: (ref = 0) => frase(ref).inicio - e.inicio,
-          fin: (ref = 0) => frase(ref).fin - e.inicio,
+          ${iniFin}
           en,
           // Si la palabra no esta en la frase, cae en \`respaldo\` (una parte de la frase, de 0 a 1).
           palabra: (ref, texto, respaldo = 0.5) => {
@@ -352,15 +491,15 @@ const html = `<!doctype html>
       html,
       body {
         margin: 0;
-        width: 1080px;
-        height: 1920px;
+        width: ${W}px;
+        height: ${H}px;
         overflow: hidden;
         background: var(--fondo);
       }
       #root {
         position: relative;
-        width: 1080px;
-        height: 1920px;
+        width: ${W}px;
+        height: ${H}px;
         overflow: hidden;
         font-family: ${fuenteRaiz};
         color: var(--tinta);
@@ -378,25 +517,13 @@ const html = `<!doctype html>
       data-composition-id="main"
       data-start="0"
       data-duration="${total}"
-      data-width="1080"
-      data-height="1920"
+      data-width="${W}"
+      data-height="${H}"
     >
       <div id="fondo"></div>
 
 ${ranuras}
-
-      <div
-        id="subtitulos"
-        data-composition-id="subtitulos"
-        data-composition-src="compositions/subtitulos.html"
-        data-start="0"
-        data-duration="${total}"
-        data-track-index="2"
-        data-track-kind="captions"
-        data-width="1080"
-        data-height="1920"
-        style="z-index: 5"
-      ></div>
+${ranuraSubtitulos}
 ${audio}
     </div>
     <script>
@@ -410,9 +537,9 @@ ${audio}
 `;
 
 fs.writeFileSync(path.join(carpeta, "index.html"), html, "utf8");
-const dePlantilla = tiempos.escenas.filter((e) => pedidas[e.id] && pedidas[e.id].plantilla).length;
-console.log(`Listo: index.html (${tiempos.escenas.length} escenas, ${dePlantilla} de plantilla, ${total} s${sinVoz ? ", sin voz" : ""}${tema ? ", tema " + temaPedido : ""})`);
-tiempos.escenas.forEach((e) =>
+const dePlantilla = escenasFinales.filter((e) => pedidas[e.id] && pedidas[e.id].plantilla).length;
+console.log(`Listo: index.html (${escenasFinales.length} escenas, ${dePlantilla} de plantilla, ${total} s${sinVoz ? ", sin voz" : ""}${tema ? ", tema " + temaPedido : ""}${HORIZONTAL ? ", horizontal" : ""})`);
+escenasFinales.forEach((e) =>
   console.log(`  ${String(e.inicio).padStart(6)} - ${String(datosReloj.escenas[e.id].fin).padEnd(6)} ${e.id}${pedidas[e.id]?.plantilla ? "  <- " + pedidas[e.id].plantilla : ""}`),
 );
 

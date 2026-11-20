@@ -1,0 +1,170 @@
+<!--
+  Tablero (videos propios, Narrador): un tablero de investigacion. Retratos dibujados de los
+  protagonistas y recortes reales (fotos de la cache de Commons, con su pie) que se clavan con
+  cinta, y un hilo rojo que los une. Para presentar a los personajes y las pruebas de una historia.
+  Solo horizontal. Necesita "estilo.tema".
+  Datos: personajes: [{ nombre (20 letras), rol (opcional, 24 letras), ...dibujo de _figura-js.html }] (hasta 3:
+           arriba a la izquierda, abajo a la izquierda y arriba a la derecha)
+         papeles: [{ foto: archivo de Commons, pie (40 letras) }] (hasta 2: el grande al centro, el otro abajo a la derecha)
+         titulo (opcional): rotulo de abajo al centro (30 letras)
+         palabras (opcionales): { personajes, papeles, hilos, titulo }
+-->
+<template>
+  <style>
+{{>narrador-css}}
+    .{{id}}-retrato {
+      position: absolute;
+      width: 330px;
+      height: 372px;
+      padding: 16px 16px 12px;
+      background: #fbf3df;
+      box-shadow: 0 18px 36px rgba(70, 40, 15, 0.26), 0 0 0 2px rgba(59, 36, 21, 0.2);
+      opacity: 0;
+    }
+    .{{id}}-retrato-cara {
+      width: 298px;
+      height: 250px;
+      overflow: hidden;
+      border-radius: 4px;
+      background: radial-gradient(circle at 50% 40%, color-mix(in srgb, var(--acento2) 30%, #f6ebd0) 0%, #efe0bd 75%);
+    }
+    .{{id}}-retrato-n {
+      margin-top: 10px;
+      text-align: center;
+      font-size: 32px;
+      line-height: 1.05;
+      white-space: nowrap;
+    }
+    .{{id}}-retrato-r {
+      text-align: center;
+      font-size: 28px;
+      white-space: nowrap;
+    }
+    .{{id}}-recorte {
+      position: absolute;
+      padding: 14px 14px 10px;
+      background: #f7efda;
+      box-shadow: 0 22px 44px rgba(70, 40, 15, 0.3), 0 0 0 2px rgba(59, 36, 21, 0.18);
+      opacity: 0;
+    }
+    .{{id}}-recorte img {
+      display: block;
+      width: 100%;
+      filter: sepia(0.3) contrast(1.04);
+    }
+    .{{id}}-recorte-pie {
+      margin-top: 8px;
+      font-size: 28px;
+      line-height: 1.15;
+      text-align: center;
+      font-style: italic;
+    }
+    .{{id}}-cinta {
+      position: absolute;
+      top: -16px;
+      width: 110px;
+      height: 34px;
+      background: rgba(225, 205, 150, 0.82);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12);
+    }
+    #{{id}}-hilos {
+      position: absolute;
+      inset: 0;
+    }
+    #{{id}}-titulo {
+      position: absolute;
+      left: 560px;
+      top: 800px;
+      width: 800px;
+      text-align: center;
+      font-size: 64px;
+      white-space: nowrap;
+      opacity: 0;
+    }
+  </style>
+
+  <div id="root" data-composition-id="{{id}}" data-width="{{ancho}}" data-height="{{alto}}">
+    <div id="{{id}}-cosas"></div>
+    <div id="{{id}}-hilos"></div>
+    <div id="{{id}}-titulo" class="{{id}}-titulo">{{d.titulo|}}</div>
+  </div>
+
+  <script>
+{{>narrador-js}}
+{{>escena-h-js}}
+{{>figura-js}}
+
+    const W = D.palabras || {};
+    const SITIO_R = [
+      { x: 110, y: 90, giro: -4 },
+      { x: 130, y: 540, giro: 3 },
+      { x: 1490, y: 90, giro: 4 },
+    ];
+    const SITIO_P = [
+      { x: 520, y: 120, w: 820, giro: -1.5 },
+      { x: 1440, y: 520, w: 390, giro: 3 },
+    ];
+    const personas = (D.personajes || []).slice(0, 3);
+    const papeles = (D.papeles || []).slice(0, 2).map((p, i) => ({ ...p, i, src: p.foto_src }));
+    let h = "";
+    // Hilos y alfileres: un punto arriba al centro de cada cosa.
+    const pines = [];
+    personas.forEach((p, i) => {
+      const s = SITIO_R[i];
+      pines.push([s.x + 181, s.y + 8]);
+      h +=
+        `<div id="{{id}}-r${i}" class="{{id}}-retrato" style="left: ${s.x}px; top: ${s.y}px"><div class="{{id}}-retrato-cara"><svg class="{{id}}-arte" viewBox="40 60 320 310">${figura(p, "{{id}}-r" + i, "busto")}</svg></div>` +
+        `<div class="{{id}}-retrato-n {{id}}-titulo">${esc(p.nombre)}</div><div class="{{id}}-retrato-r {{id}}-suave">${esc(p.rol || "")}</div><div class="{{id}}-cinta" style="left: 110px; transform: rotate(-4deg)"></div></div>`;
+    });
+    papeles.forEach((p) => {
+      const s = SITIO_P[p.i];
+      if (!p.src) return;
+      pines.push([s.x + s.w / 2, s.y + 8]);
+      h += `<div id="{{id}}-p${p.i}" class="{{id}}-recorte" style="left: ${s.x}px; top: ${s.y}px; width: ${s.w}px"><img src="${p.src}" alt="" /><div class="{{id}}-recorte-pie {{id}}-suave">${esc(p.pie || "")}</div><div class="{{id}}-cinta" style="left: 24px; transform: rotate(-30deg)"></div><div class="{{id}}-cinta" style="right: 24px; transform: rotate(30deg)"></div></div>`;
+    });
+    $("cosas").innerHTML = h;
+    if (!D.titulo) $("titulo").style.display = "none";
+    // Hilo rojo: de cada retrato al recorte grande (y del grande al chico), con una curva que cuelga.
+    const centro = personas.length < pines.length ? pines[personas.length] : null;
+    let hilos = "";
+    const tramos = [];
+    if (centro) {
+      for (let i = 0; i < personas.length; i++) tramos.push([pines[i], centro]);
+      if (pines.length > personas.length + 1) tramos.push([centro, pines[personas.length + 1]]);
+    }
+    tramos.forEach(([a, b], i) => {
+      const mx = (a[0] + b[0]) / 2;
+      const my = Math.max(a[1], b[1]) + 60;
+      hilos += `<path id="{{id}}-hilo-${i}" d="M${a[0]} ${a[1]} Q${mx} ${my} ${b[0]} ${b[1]}" fill="none" stroke="#b0302a" stroke-width="4" stroke-linecap="butt" pathLength="1" stroke-dasharray="1 1" stroke-dashoffset="1" />`;
+    });
+    hilos += pines.map(([x, y], i) => `<g id="{{id}}-pin-${i}" opacity="0"><circle cx="${x}" cy="${y}" r="12" fill="#a3302a" /><circle cx="${x - 4}" cy="${y - 4}" r="4" fill="#f2b6a8" /></g>`).join("");
+    $("hilos").innerHTML = `<svg class="{{id}}-arte" viewBox="0 0 1920 1080">${hilos}</svg>`;
+
+    // ---------- Movimiento ----------
+    const tP = tope(momento(W.personajes, 0.02), 1.2);
+    const tD = tope(momento(W.papeles, 0.35), 1.0);
+    const tH = tope(momento(W.hilos, 0.75), 0.7);
+    personas.forEach((_, i) => {
+      const s = SITIO_R[i];
+      tl.fromTo(el("r" + i), { opacity: 0, scale: 1.25, rotation: s.giro - 10, y: -40 }, { opacity: 1, scale: 1, rotation: s.giro, y: 0, duration: 0.42, ease: "back.out(1.7)" }, tP + i * 0.14);
+    });
+    papeles.forEach((p, k) => {
+      if (!p.src) return;
+      const s = SITIO_P[p.i];
+      tl.fromTo(el("p" + p.i), { opacity: 0, scale: 1.2, rotation: s.giro + 8, y: -60 }, { opacity: 1, scale: 1, rotation: s.giro, y: 0, duration: 0.45, ease: "back.out(1.5)" }, tD + k * 0.18);
+    });
+    pines.forEach((_, i) => tl.fromTo(el("pin-" + i), { opacity: 0, scale: 2, transformOrigin: "50% 50%" }, { opacity: 1, scale: 1, duration: 0.2, ease: "power2.in" }, tH - 0.2 + i * 0.04));
+    tramos.forEach((_, i) => tl.to(el("hilo-" + i), { attr: { "stroke-dashoffset": 0 }, duration: 0.5, ease: "power1.inOut" }, tH + i * 0.1));
+    if (D.titulo) fx.entra(tl, el("titulo"), tope(momento(W.titulo, 0.8), 0.6), { y: 30 }, 0.35);
+    // Parpadeos de los retratos.
+    personas.forEach((_, i) => {
+      const t = 0.9 + i * 0.6;
+      if (t < r.dur - 0.3) {
+        tl.to(`#{{id}}-r${i}-ojos`, { scaleY: 0.12, transformOrigin: "50% 50%", duration: 0.07 }, t);
+        tl.to(`#{{id}}-r${i}-ojos`, { scaleY: 1, duration: 0.1 }, t + 0.07);
+      }
+    });
+
+    window.__timelines["{{id}}"] = tl;
+  </script>
+</template>

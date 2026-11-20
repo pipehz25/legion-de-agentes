@@ -1,0 +1,160 @@
+<!--
+  Cadena (videos propios, Narrador): una cadena de hierro cruza la pantalla; de ella cuelgan placas
+  con palabras que entran al paso de la voz ("errores", "calculos", "intereses"). Al final la camara
+  se corre hacia atras por la cadena y aparecen los anos de donde viene.
+  Solo horizontal. Necesita "estilo.tema".
+  Datos: eslabones: [{ texto (12 letras), palabra (opcional) }] (2 o 3)
+         anios (opcional): ["1821", "1855", "1880"] (hasta 4; quedan a la izquierda, "atras")
+         palabra_atras (opcional): palabra dicha en la que la camara se corre hacia atras
+         rotulo_atras (opcional): texto que aparece arriba al correrse ("Viene de muy atras", 24 letras)
+-->
+<template>
+  <style>
+{{>narrador-css}}
+    #{{id}}-tira {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 1920px;
+      height: 1080px;
+    }
+    #{{id}}-hierro {
+      position: absolute;
+      left: -1500px;
+      top: 330px;
+      width: 3800px;
+      height: 120px;
+    }
+    .{{id}}-placa {
+      position: absolute;
+      top: 420px;
+      width: 400px;
+      height: 330px;
+      transform-origin: 50% 0;
+      opacity: 0;
+    }
+    .{{id}}-placa-c {
+      position: absolute;
+      left: 30px;
+      top: 120px;
+      width: 340px;
+      height: 170px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 72px;
+      white-space: nowrap;
+    }
+    .{{id}}-etiqueta {
+      position: absolute;
+      top: 420px;
+      width: 240px;
+      height: 260px;
+      transform-origin: 50% 0;
+      opacity: 0;
+    }
+    .{{id}}-etiqueta-c {
+      position: absolute;
+      left: 20px;
+      top: 104px;
+      width: 200px;
+      height: 120px;
+      line-height: 120px;
+      text-align: center;
+      font-size: 64px;
+      background: #fbf3df;
+      border-radius: 10px 10px 10px 10px;
+      box-shadow: 0 14px 26px rgba(70, 40, 15, 0.24), 0 0 0 3px rgba(59, 36, 21, 0.22);
+    }
+    #{{id}}-atras {
+      position: absolute;
+      left: 110px;
+      top: 150px;
+      display: flex;
+      align-items: center;
+      gap: 26px;
+      font-size: 64px;
+      white-space: nowrap;
+      opacity: 0;
+    }
+    #{{id}}-atras-f {
+      width: 150px;
+      height: 70px;
+    }
+  </style>
+
+  <div id="root" data-composition-id="{{id}}" data-width="{{ancho}}" data-height="{{alto}}">
+    <div id="{{id}}-tira">
+      <div id="{{id}}-hierro"></div>
+      <div id="{{id}}-colgantes"></div>
+    </div>
+    <div id="{{id}}-atras" class="{{id}}-titulo">
+      <div id="{{id}}-atras-f"><svg class="{{id}}-arte" viewBox="0 0 150 70"><path d="M140 35 H18 M46 8 L14 35 L46 62" style="stroke: var(--acento)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" /></svg></div>
+      <span>{{d.rotulo_atras|}}</span>
+    </div>
+  </div>
+
+  <script>
+{{>narrador-js}}
+{{>escena-h-js}}
+
+    // ---------- La cadena: eslabones de frente y de canto, alternados ----------
+    const PASO = 64;
+    const N = Math.floor(3800 / PASO);
+    let h = `<svg class="{{id}}-arte" viewBox="0 0 3800 120"><defs><linearGradient id="{{id}}-acero" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8b7863" /><stop offset="0.45" stop-color="#4a3a2c" /><stop offset="1" stop-color="#2c2219" /></linearGradient></defs>`;
+    for (let k = 0; k < N; k++) {
+      const x = k * PASO + 40;
+      h +=
+        k % 2
+          ? `<rect id="{{id}}-e${k}" x="${x - 40}" y="52" width="80" height="18" rx="9" fill="url(#{{id}}-acero)" />`
+          : `<g id="{{id}}-e${k}"><ellipse cx="${x}" cy="61" rx="46" ry="27" fill="none" stroke="url(#{{id}}-acero)" stroke-width="15" /><ellipse cx="${x - 6}" cy="52" rx="28" ry="10" fill="none" stroke="#b6a184" stroke-width="3" opacity="0.5" /></g>`;
+    }
+    $("hierro").innerHTML = h + "</svg>";
+
+    // ---------- Placas con palabras y etiquetas de anos ----------
+    const esl = (D.eslabones || []).slice(0, 3);
+    const xs = esl.length === 3 ? [280, 760, 1240] : [440, 1080];
+    const gancho = (ancho) => `<svg class="{{id}}-arte" viewBox="0 0 ${ancho} 130" style="position: absolute; left: 0; top: 0; width: ${ancho}px; height: 130px"><path d="M${ancho / 2} 6 V124" stroke="#4a3a2c" stroke-width="8" stroke-dasharray="14 8" /><circle cx="${ancho / 2}" cy="10" r="14" fill="none" stroke="#4a3a2c" stroke-width="7" /></svg>`;
+    let colg = "";
+    esl.forEach((e, i) => {
+      colg += `<div id="{{id}}-placa-${i}" class="{{id}}-placa" style="left: ${xs[i]}px">${gancho(400)}<div class="{{id}}-placa-c {{id}}-tarjeta {{id}}-titulo"><span class="${i === esl.length - 1 ? "{{id}}-acento" : ""}">${esc(e.texto)}</span></div></div>`;
+    });
+    const anios = (D.anios || []).slice(0, 4);
+    anios.forEach((a, i) => {
+      const x = -1180 + i * 330;
+      colg += `<div id="{{id}}-anio-${i}" class="{{id}}-etiqueta" style="left: ${x}px">${gancho(240)}<div class="{{id}}-etiqueta-c {{id}}-cifra" style="color: var(--tinta)">${esc(a)}</div></div>`;
+    });
+    $("colgantes").innerHTML = colg;
+    esl.forEach((e, i) => {
+      const c = document.querySelector("#{{id}}-placa-" + i + " .{{id}}-placa-c");
+      c.style.fontSize = tamPara(e.texto, 300, 76, 46, T.anchoTitulo) + "px";
+    });
+    if (!D.rotulo_atras) $("atras").style.display = "none";
+
+    // ---------- Movimiento ----------
+    // La cadena se arma de izquierda a derecha y despues se mece (siempre algo se mueve).
+    const tCadena = tope(dicho("cadena", 0.05) - 0.25, 1);
+    for (let k = 0; k < N; k++) {
+      const visible = k * PASO - 1500 > -200 && k * PASO - 1500 < 2100;
+      const t = Math.max(0.02, tCadena + (visible ? (k * PASO - 1300) / 3200 : 0) * 0.7);
+      tl.fromTo(el("e" + k), { opacity: 0, y: -30 }, { opacity: 1, y: 0, duration: 0.25, ease: "back.out(2)" }, t);
+    }
+    tl.fromTo(el("hierro"), { y: 0 }, { y: 8, duration: 0.9, ease: "sine.inOut", repeat: 3, yoyo: true }, tCadena + 0.8);
+    let previo = 0;
+    esl.forEach((e, i) => {
+      let t = tope(dicho(e.palabra || e.texto, 0.2 + i * 0.25), 0.8);
+      t = Math.max(t, previo + 0.25);
+      previo = t;
+      tl.fromTo(el("placa-" + i), { opacity: 0, rotation: -32, y: -60 }, { opacity: 1, rotation: 0, y: 0, duration: 0.7, ease: "elastic.out(1, 0.45)" }, t);
+    });
+    // Hacia atras: la tira se corre a la derecha y aparecen los anos.
+    if (anios.length) {
+      const tA = tope(D.palabra_atras ? dicho(D.palabra_atras, 0.72) : parte(0.72), 1.2);
+      tl.to(el("tira"), { x: 1240, duration: 1.3, ease: "power2.inOut" }, tA);
+      anios.forEach((_, i) => tl.fromTo(el("anio-" + i), { opacity: 0, rotation: 24 }, { opacity: 1, rotation: 0, duration: 0.6, ease: "elastic.out(1, 0.5)" }, tA + 0.25 + (anios.length - 1 - i) * 0.12));
+      if (D.rotulo_atras) fx.entra(tl, el("atras"), tA + 0.1, { x: 60 }, 0.35);
+    }
+
+    window.__timelines["{{id}}"] = tl;
+  </script>
+</template>

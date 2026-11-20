@@ -1,0 +1,19 @@
+{
+  "id": "hi-panama-muestra",
+  "titulo": "¿Cómo perdió Colombia a Panamá? (muestra de estilo)",
+  "duracion_s": 61.7,
+  "volumen": "I: -15.2 LUFS",
+  "voz": "elevenlabs / C12mZePhNoo0RoTXhSFV",
+  "avisos_revision": 9,
+  "formato": "1920x1080",
+  "tiempo_produccion_s": 109,
+  "tiempos_s": {
+    "voz": 3.6,
+    "montaje": 0.2,
+    "revision": 18.3,
+    "render": 85.6
+  },
+  "producido": "2026-11-20T13:45:39.605Z",
+  "video": "hi-panama-muestra.mp4",
+  "guion": "animados/propios/hi-panama-muestra/guion.json"
+}

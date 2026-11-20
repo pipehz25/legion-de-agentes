@@ -1,0 +1,225 @@
+    // ---------- Personaje dibujado (figura generica con una cara sencilla; nunca la cara real de nadie) ----------
+    // figura(D, prefijo, modo) devuelve el SVG (sin la etiqueta <svg>) de un personaje.
+    //   modo "busto" (por defecto): retrato de busto en un lienzo de 400x400 (el de siempre).
+    //   modo "medio": medio cuerpo con brazos en un lienzo de 400x520 (cabeza arriba, cintura abajo);
+    //     D.pose dice que hacen los brazos.
+    // Datos (todos opcionales; colores como "#2f4f7a"):
+    //   piel, pelo, ropa, detalle (botones y adornos), corbata (color de la corbata o el lazo)
+    //   peinado: "corto" (por defecto), "largo", "calvo", "recogido", "peluca" o "raya" (de lado, engominado)
+    //   barba: "ninguna" (por defecto), "bigote", "completa", "patillas", "bigote-encerado" (puntas
+    //     torcidas hacia arriba), "morsa" (bigote grueso que tapa la boca), "candado" o "recortada"
+    //   sombrero: "ninguno" (por defecto), "bicornio", "copa", "corona", "bombin", "ala", "kepis",
+    //     "marinero" o "canotier"
+    //   gafas: true (redondas) o "quevedos" (sin patas, con cordon)
+    //   expresion: "neutral" (por defecto), "sonrisa", "serio", "sorprendido", "enojado", "pensativo" o "astuto"
+    //   cuello: "corbata" (por defecto en medio cuerpo), "lazo" o "ninguno"
+    //   bata: true (bata blanca de medico); charreteras: true (uniforme militar)
+    //   pose (solo en "medio"): "neutral", "senalar", "brazos-cruzados", "firmar", "saludar", "pensar",
+    //     "jarras" (manos en la cintura) o "discurso" (mano alzada al frente). El brazo que actua es el de
+    //     la derecha del dibujo: para que mire a la izquierda, se voltea el dibujo entero.
+    function figura(D, pre, modo) {
+      const color = (c, respaldo) => (/^#[0-9a-fA-F]{6}$/.test(c || "") ? c : respaldo);
+      const mezcla = (c, otro, k) => {
+        const a = [1, 3, 5].map((i) => parseInt(c.slice(i, i + 2), 16));
+        const b = [1, 3, 5].map((i) => parseInt(otro.slice(i, i + 2), 16));
+        return "#" + a.map((n, i) => Math.round(n + (b[i] - n) * k).toString(16).padStart(2, "0")).join("");
+      };
+      const piel = color(D.piel, "#e6b48e");
+      const pelo = color(D.pelo, "#4a3222");
+      const ropa = color(D.ropa, "#2f4f7a");
+      const detalle = color(D.detalle, "#d9a032");
+      const pielO = mezcla(piel, "#5a2a14", 0.28);
+      const peloO = mezcla(pelo, "#000000", 0.35);
+      const ropaO = mezcla(ropa, "#000000", 0.3);
+      const ropaC = mezcla(ropa, "#ffffff", 0.14);
+      const peinado = D.peinado || "corto";
+      const barba = D.barba || "ninguna";
+      const sombrero = D.sombrero || "ninguno";
+      const expresion = D.expresion || "neutral";
+      const medio = modo === "medio";
+      let s = "";
+
+      // ----- Medio cuerpo (lienzo 400x520): saco, cabeza encima (un poco reducida), cuello de la camisa,
+      // corbata y solapas encima del cuello del personaje, y los brazos encima de todo. -----
+      const brazos = [];
+      let cuelloMedio = "";
+      if (medio) {
+        const corbata = color(D.corbata, mezcla(detalle, "#5a1010", 0.45));
+        const cuello = D.cuello || "corbata";
+        const saco = D.bata ? "#eef1f3" : ropa;
+        const sacoO = D.bata ? "#d3dade" : ropaO;
+        const sacoC = D.bata ? "#ffffff" : ropaC;
+        s += `<path d="M60 540 L68 330 C72 290 100 266 150 254 L250 254 C300 266 328 290 332 330 L340 540 Z" fill="${saco}" />`;
+        s += `<path d="M250 254 C300 266 328 290 332 330 L340 540 L288 540 C296 430 292 318 250 254 Z" fill="${sacoO}" />`;
+        // Lo que va encima del cuello del personaje.
+        let c = `<path d="M164 246 L200 336 L236 246 Z" fill="#f3eee3" />`;
+        c += `<path d="M164 246 L182 272 L198 250 Z" fill="#ffffff" /><path d="M236 246 L218 272 L202 250 Z" fill="#e9e3d6" />`;
+        if (cuello === "corbata") c += `<path d="M192 262 L208 262 L213 330 L200 350 L187 330 Z" fill="${corbata}" /><path d="M190 251 L210 251 L208 266 L192 266 Z" fill="${mezcla(corbata, "#000000", 0.2)}" />`;
+        if (cuello === "lazo") c += `<path d="M200 262 L176 250 L176 276 Z M200 262 L224 250 L224 276 Z" fill="${corbata}" /><circle cx="200" cy="263" r="7" fill="${mezcla(corbata, "#000000", 0.2)}" />`;
+        c += `<path d="M164 246 L200 336 L184 392 L140 300 C146 274 154 258 164 246 Z" fill="${sacoC}" /><path d="M236 246 L200 336 L216 392 L260 300 C254 274 246 258 236 246 Z" fill="${sacoO}" />`;
+        if (!D.bata) for (const y of [420, 470]) c += `<circle cx="200" cy="${y}" r="7.5" fill="${detalle}" />`;
+        if (D.charreteras) {
+          for (const x of [100, 300]) {
+            c += `<ellipse cx="${x}" cy="278" rx="42" ry="13" fill="${detalle}" />`;
+            for (let k = -3; k <= 3; k++) c += `<rect x="${x + k * 10 - 3}" y="284" width="6" height="20" rx="3" fill="${detalle}" />`;
+          }
+        }
+        cuelloMedio = c;
+        // Brazos: hombro -> codo -> mano. El de la derecha del dibujo es el que hace el gesto.
+        const H1 = [108, 300];
+        const H2 = [292, 300];
+        const poses = {
+          neutral: [[[94, 410], [104, 510]], [[306, 410], [296, 510]]],
+          senalar: [[[94, 410], [104, 510]], [[352, 318], [404, 286]]],
+          "brazos-cruzados": [[[102, 412], [252, 392]], [[298, 412], [148, 380]]],
+          firmar: [[[94, 420], [174, 470]], [[328, 404], [262, 452]]],
+          saludar: [[[94, 410], [104, 510]], [[342, 236], [350, 150]]],
+          pensar: [[[94, 410], [104, 510]], [[318, 414], [228, 248]]],
+          jarras: [[[50, 392], [126, 458]], [[350, 392], [274, 458]]],
+          discurso: [[[94, 410], [104, 510]], [[350, 292], [374, 214]]],
+        };
+        const pose = poses[D.pose] ? D.pose : "neutral";
+        const [b1, b2] = poses[pose];
+        // En brazos cruzados, el de la izquierda del dibujo pasa por encima.
+        const orden = pose === "brazos-cruzados" ? [[H2, b2, 1], [H1, b1, 0]] : [[H1, b1, 0], [H2, b2, 1]];
+        for (const [h, [cd, m], lado] of orden) {
+          const tono = lado === 1 && pose !== "brazos-cruzados" ? sacoO : saco;
+          let b = `<path d="M${h[0]} ${h[1]} L${cd[0]} ${cd[1]} L${m[0]} ${m[1]}" stroke="${tono}" stroke-width="46" stroke-linecap="round" stroke-linejoin="round" fill="none" />`;
+          // Puno de la camisa y mano.
+          const dx = m[0] - cd[0];
+          const dy = m[1] - cd[1];
+          const L = Math.hypot(dx, dy) || 1;
+          const px = m[0] - (dx / L) * 18;
+          const py = m[1] - (dy / L) * 18;
+          b += `<circle cx="${px.toFixed(1)}" cy="${py.toFixed(1)}" r="19" fill="#f3eee3" />`;
+          b += `<circle cx="${m[0]}" cy="${m[1]}" r="20" fill="${piel}" /><circle cx="${(m[0] + 5).toFixed(1)}" cy="${(m[1] + 4).toFixed(1)}" r="13" fill="${pielO}" opacity="0.35" />`;
+          if (lado === 1 && pose === "senalar") b += `<path d="M${m[0] + 8} ${m[1] - 4} L${m[0] + 40} ${m[1] - 16}" stroke="${piel}" stroke-width="11" stroke-linecap="round" />`;
+          if (lado === 1 && pose === "firmar") b += `<path d="M${m[0] + 12} ${m[1] - 16} L${m[0] - 20} ${m[1] + 26}" stroke="#2a1d16" stroke-width="7" stroke-linecap="round" /><path d="M${m[0] - 20} ${m[1] + 26} L${m[0] - 28} ${m[1] + 38} L${m[0] - 14} ${m[1] + 30} Z" fill="#c9a256" />`;
+          brazos.push(b);
+        }
+        s += `<g transform="translate(20 4) scale(0.9)">`;
+      }
+
+      // ----- Busto (el de siempre) -----
+      // Torso: ropa, o bata blanca con la ropa como corbata.
+      if (!medio) {
+        if (D.bata) {
+          s += `<path d="M44 400 C48 330 104 298 164 290 L236 290 C296 298 352 330 356 400 Z" fill="${ropa}" />`;
+          s += `<path d="M44 400 C48 330 104 298 164 290 L200 372 L180 400 Z" fill="#f2f5f7" /><path d="M356 400 C352 330 296 298 236 290 L200 372 L220 400 Z" fill="#dde3e8" />`;
+          s += `<path d="M178 292 L200 330 L222 292 Z" fill="#f3eee3" /><path d="M193 300 L207 300 L211 352 L200 368 L189 352 Z" fill="${ropaO}" />`;
+          s += `<path d="M150 296 L186 372" stroke="#c9d2d9" stroke-width="5" stroke-linecap="round" /><path d="M250 296 L214 372" stroke="#c3ccd3" stroke-width="5" stroke-linecap="round" />`;
+        } else {
+          s += `<path d="M44 400 C48 330 104 298 164 290 L236 290 C296 298 352 330 356 400 Z" fill="${ropa}" />`;
+          s += `<path d="M236 290 C296 298 352 330 356 400 L272 400 C278 350 264 314 236 290 Z" fill="${ropaO}" />`;
+          s += `<path d="M164 290 L200 348 L186 400 L124 400 C132 352 146 312 164 290 Z" fill="${ropaC}" /><path d="M236 290 L200 348 L214 400 L276 400 C268 352 254 312 236 290 Z" fill="${ropaO}" />`;
+          s += `<path d="M168 288 L200 342 L232 288 L220 284 L200 318 L180 284 Z" fill="#f3eee3" />`;
+          s += `<circle cx="200" cy="366" r="7" fill="${detalle}" /><circle cx="200" cy="392" r="7" fill="${detalle}" />`;
+        }
+        if (D.charreteras) {
+          for (const x of [92, 308]) {
+            s += `<ellipse cx="${x}" cy="318" rx="44" ry="15" fill="${detalle}" />`;
+            for (let k = -3; k <= 3; k++) s += `<rect x="${x + k * 11 - 3}" y="324" width="6" height="22" rx="3" fill="${detalle}" />`;
+          }
+        }
+      }
+      // Cuello y cabeza.
+      s += `<path d="M174 234 L226 234 L230 298 L170 298 Z" fill="${pielO}" />`;
+      if (peinado === "largo" || peinado === "peluca") {
+        const c = peinado === "peluca" ? "#e9e5dc" : pelo;
+        s += `<path d="M134 168 C120 222 126 272 152 298 L178 292 C156 262 150 220 154 176 Z" fill="${c}" /><path d="M266 168 C280 222 274 272 248 298 L222 292 C244 262 250 220 246 176 Z" fill="${mezcla(c, "#000000", 0.18)}" />`;
+      }
+      s += `<ellipse cx="136" cy="186" rx="11" ry="18" fill="${piel}" /><ellipse cx="264" cy="186" rx="11" ry="18" fill="${pielO}" />`;
+      s += `<ellipse cx="200" cy="178" rx="64" ry="76" fill="${piel}" />`;
+      s += `<path d="M212 104 C246 112 264 144 264 178 C264 220 238 252 200 254 C230 236 244 210 244 178 C244 146 232 118 212 104 Z" fill="${pielO}" opacity="0.55" />`;
+      s += `<circle cx="160" cy="212" r="11" fill="#e0705a" opacity="0.22" /><circle cx="240" cy="212" r="11" fill="#e0705a" opacity="0.22" />`;
+      // Pelo.
+      if (peinado === "corto" || peinado === "recogido" || peinado === "largo") {
+        s += `<path d="M136 182 C128 120 164 94 202 94 C242 94 272 124 264 182 C258 152 240 134 214 130 C188 140 158 146 140 178 Z" fill="${pelo}" />`;
+        s += `<path d="M214 130 C240 134 258 152 264 182 C270 130 246 98 214 96 C232 108 236 120 214 130 Z" fill="${peloO}" />`;
+        if (peinado === "recogido") s += `<circle cx="200" cy="90" r="27" fill="${pelo}" /><circle cx="210" cy="84" r="9" fill="${peloO}" />`;
+      } else if (peinado === "calvo") {
+        s += `<path d="M136 200 C126 170 132 148 148 138 C142 162 146 182 154 204 Z" fill="${pelo}" /><path d="M264 200 C274 170 268 148 252 138 C258 162 254 182 246 204 Z" fill="${peloO}" />`;
+        s += `<path d="M166 120 C178 110 196 106 212 108" stroke="#ffffff" stroke-width="7" fill="none" stroke-linecap="round" opacity="0.35" />`;
+      } else if (peinado === "peluca") {
+        s += `<path d="M134 186 C126 118 162 92 202 92 C244 92 274 120 266 186 C258 150 236 132 200 132 C166 132 142 150 134 186 Z" fill="#efebe3" />`;
+        for (const [x, y] of [[136, 200], [134, 232], [264, 200], [266, 232]]) s += `<circle cx="${x}" cy="${y}" r="17" fill="${x < 200 ? "#efebe3" : "#d9d3c7"}" />`;
+      } else if (peinado === "raya") {
+        s += `<path d="M136 184 C126 122 160 94 204 94 C246 94 272 124 264 184 C260 150 244 128 214 124 L176 122 C156 130 144 150 140 180 Z" fill="${pelo}" />`;
+        s += `<path d="M214 124 C244 128 260 150 264 184 C272 130 248 98 212 96 C230 104 232 116 214 124 Z" fill="${peloO}" />`;
+        s += `<path d="M176 98 C172 108 172 116 176 122" stroke="${peloO}" stroke-width="5" fill="none" stroke-linecap="round" />`;
+        s += `<path d="M186 104 C204 100 226 104 244 116" stroke="#ffffff" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.25" />`;
+      }
+      // Cara: cejas, ojos, nariz, barba y boca.
+      const cejas = {
+        sorprendido: ["M163 157 Q177 145 191 153", "M209 153 Q223 145 237 157"],
+        enojado: ["M163 160 Q178 162 192 171", "M208 171 Q222 162 237 160"],
+        serio: ["M163 166 Q177 163 191 166", "M209 166 Q223 163 237 166"],
+        pensativo: ["M163 167 Q177 162 191 167", "M209 159 Q223 149 237 160"],
+        astuto: ["M163 168 Q177 164 191 166", "M209 160 Q223 152 237 162"],
+      }[expresion];
+      if (cejas) s += `<path d="${cejas[0]}" stroke="${peloO}" stroke-width="6" fill="none" stroke-linecap="round" /><path d="${cejas[1]}" stroke="${peloO}" stroke-width="6" fill="none" stroke-linecap="round" />`;
+      else s += `<path d="M163 167 Q177 159 191 165" stroke="${peloO}" stroke-width="6" fill="none" stroke-linecap="round" /><path d="M209 165 Q223 159 237 167" stroke="${peloO}" stroke-width="6" fill="none" stroke-linecap="round" />`;
+      s += `<g id="${pre}-ojos"><ellipse cx="177" cy="186" rx="7" ry="8.5" fill="#2a1a12" /><ellipse cx="223" cy="186" rx="7" ry="8.5" fill="#2a1a12" /><circle cx="179.5" cy="183" r="2.4" fill="#ffffff" /><circle cx="225.5" cy="183" r="2.4" fill="#ffffff" /></g>`;
+      s += `<path d="M201 192 Q208 208 198 215" stroke="${pielO}" stroke-width="5" fill="none" stroke-linecap="round" />`;
+      if (barba === "completa") s += `<path d="M136 188 C138 248 168 272 200 272 C232 272 262 248 264 188 C258 214 242 232 226 234 Q200 246 174 234 C158 232 142 214 136 188 Z" fill="${pelo}" />`;
+      if (barba === "recortada") s += `<path d="M140 194 C144 240 170 262 200 262 C230 262 256 240 260 194 C254 218 240 232 224 235 Q200 245 176 235 C160 232 146 218 140 194 Z" fill="${pelo}" />`;
+      if (barba === "candado") s += `<path d="M184 240 C186 258 193 268 200 268 C207 268 214 258 216 240 C209 248 191 248 184 240 Z" fill="${pelo}" />`;
+      if (barba === "patillas") s += `<path d="M137 176 L151 176 L156 236 C146 230 139 214 137 176 Z" fill="${pelo}" /><path d="M263 176 L249 176 L244 236 C254 230 261 214 263 176 Z" fill="${peloO}" />`;
+      const bocas = {
+        sonrisa: `<path d="M181 227 Q200 250 219 227 Q200 236 181 227 Z" fill="#7d3f30" />`,
+        serio: `<path d="M187 232 L213 232" stroke="#7d3f30" stroke-width="5" fill="none" stroke-linecap="round" />`,
+        sorprendido: `<ellipse cx="200" cy="234" rx="9" ry="12" fill="#7d3f30" />`,
+        enojado: `<path d="M185 237 Q200 226 215 237" stroke="#7d3f30" stroke-width="5" fill="none" stroke-linecap="round" />`,
+        pensativo: `<path d="M189 233 Q203 236 214 228" stroke="#7d3f30" stroke-width="5" fill="none" stroke-linecap="round" />`,
+        astuto: `<path d="M185 231 Q203 239 217 226" stroke="#7d3f30" stroke-width="5" fill="none" stroke-linecap="round" />`,
+      };
+      s += bocas[expresion] || `<path d="M185 229 Q200 238 215 229" stroke="#7d3f30" stroke-width="5" fill="none" stroke-linecap="round" />`;
+      if (barba === "bigote" || barba === "completa" || barba === "patillas") s += `<path d="M176 222 Q200 206 224 222 Q212 228 200 224 Q188 228 176 222 Z" fill="${barba === "patillas" ? pelo : peloO}" />`;
+      if (barba === "recortada" || barba === "candado") s += `<path d="M176 222 Q200 208 224 222 Q212 227 200 223 Q188 227 176 222 Z" fill="${peloO}" />`;
+      if (barba === "bigote-encerado") {
+        s += `<path d="M178 223 Q200 211 222 223 Q211 227 200 223 Q189 227 178 223 Z" fill="${peloO}" />`;
+        s += `<path d="M179 223 Q164 223 163 210" stroke="${peloO}" stroke-width="4.5" fill="none" stroke-linecap="round" /><path d="M221 223 Q236 223 237 210" stroke="${peloO}" stroke-width="4.5" fill="none" stroke-linecap="round" />`;
+      }
+      if (barba === "morsa") {
+        s += `<path d="M168 232 C168 214 186 206 200 213 C214 206 232 214 232 232 C224 242 212 238 200 233 C188 238 176 242 168 232 Z" fill="${pelo}" />`;
+        s += `<path d="M200 213 C214 206 232 214 232 232 C226 238 218 238 212 236 C222 228 218 216 200 213 Z" fill="${peloO}" />`;
+      }
+      if (D.gafas === "quevedos") {
+        s += `<g stroke="#2a1d16" stroke-width="3.2" fill="#ffffff" fill-opacity="0.16"><ellipse cx="177" cy="188" rx="16" ry="12.5" /><ellipse cx="223" cy="188" rx="16" ry="12.5" /></g>`;
+        s += `<path d="M193 186 Q200 180 207 186" stroke="#2a1d16" stroke-width="3.2" fill="none" /><path d="M161 192 C150 222 156 252 170 282" stroke="#2a1d16" stroke-width="1.8" fill="none" />`;
+      } else if (D.gafas) s += `<g stroke="#3b2a20" stroke-width="5" fill="#ffffff" fill-opacity="0.12"><circle cx="177" cy="186" r="19" /><circle cx="223" cy="186" r="19" /></g><path d="M196 184 Q200 180 204 184" stroke="#3b2a20" stroke-width="5" fill="none" />`;
+      // Sombrero.
+      if (sombrero === "bicornio") {
+        s += `<path d="M62 132 C108 108 140 50 200 46 C260 50 292 108 338 132 C292 122 248 120 200 126 C152 120 108 122 62 132 Z" fill="#26231f" />`;
+        s += `<path d="M200 46 C260 50 292 108 338 132 C304 126 270 122 238 123 C252 96 238 64 200 46 Z" fill="#1b1916" />`;
+        s += `<path d="M62 132 C110 122 152 120 200 126 C248 120 290 122 338 132 C292 146 246 152 200 152 C154 152 108 146 62 132 Z" fill="#161412" />`;
+        s += `<path d="M68 131 C112 122 154 121 200 127 C246 121 288 122 332 131" stroke="${detalle}" stroke-width="5" fill="none" stroke-linecap="round" />`;
+        s += `<circle cx="250" cy="92" r="17" fill="#2f4f9e" /><circle cx="250" cy="92" r="11" fill="#f4efe4" /><circle cx="250" cy="92" r="5" fill="#c8342c" />`;
+      } else if (sombrero === "copa") {
+        s += `<rect x="146" y="30" width="108" height="86" rx="6" fill="#26231f" /><rect x="214" y="30" width="40" height="86" fill="#1b1916" /><rect x="146" y="92" width="108" height="14" fill="${detalle}" />`;
+        s += `<ellipse cx="200" cy="118" rx="88" ry="13" fill="#161412" />`;
+      } else if (sombrero === "corona") {
+        s += `<path d="M138 120 L130 64 L166 92 L200 50 L234 92 L270 64 L262 120 Z" fill="#f2b735" /><path d="M234 92 L270 64 L262 120 L238 120 Z" fill="#d6971d" />`;
+        s += `<rect x="134" y="110" width="132" height="22" rx="8" fill="#e3a52a" /><circle cx="200" cy="121" r="7" fill="#c8342c" /><circle cx="168" cy="121" r="5" fill="#2f6fc8" /><circle cx="232" cy="121" r="5" fill="#2f8f5b" />`;
+      } else if (sombrero === "bombin") {
+        s += `<path d="M138 122 C136 70 164 46 200 46 C236 46 264 70 262 122 Z" fill="#26231f" /><path d="M200 46 C236 46 264 70 262 122 L226 122 C236 92 228 60 200 46 Z" fill="#1b1916" />`;
+        s += `<rect x="139" y="104" width="122" height="13" fill="#141210" /><ellipse cx="200" cy="123" rx="86" ry="13" fill="#161412" />`;
+        s += `<path d="M160 70 C170 58 184 52 196 52" stroke="#ffffff" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.18" />`;
+      } else if (sombrero === "ala") {
+        s += `<ellipse cx="200" cy="124" rx="124" ry="20" fill="#5a4630" /><path d="M146 122 C146 80 166 60 200 58 C234 60 254 80 254 122 Z" fill="#6e573c" />`;
+        s += `<path d="M200 58 C234 60 254 80 254 122 L228 122 C234 96 226 72 200 58 Z" fill="#5a4630" /><path d="M186 62 Q200 76 214 62" stroke="#4a3826" stroke-width="5" fill="none" />`;
+        s += `<rect x="147" y="104" width="106" height="14" fill="${detalle}" /><path d="M78 128 Q200 154 322 128" stroke="#4a3826" stroke-width="4" fill="none" />`;
+      } else if (sombrero === "kepis") {
+        s += `<path d="M148 132 L154 66 C178 58 222 58 246 66 L252 132 Z" fill="${ropa}" /><path d="M222 60 C234 62 242 64 246 66 L252 132 L230 132 Z" fill="${ropaO}" />`;
+        s += `<ellipse cx="200" cy="66" rx="46" ry="9" fill="${ropaC}" /><rect x="149" y="112" width="102" height="12" fill="${detalle}" /><circle cx="200" cy="96" r="8" fill="${detalle}" />`;
+        s += `<path d="M142 130 Q200 150 262 130 L264 140 Q200 164 140 140 Z" fill="#1b1916" />`;
+      } else if (sombrero === "marinero") {
+        s += `<path d="M146 122 C146 86 170 72 200 72 C230 72 254 86 254 122 Z" fill="#f4f1ea" /><path d="M200 72 C230 72 254 86 254 122 L230 122 C234 98 222 80 200 72 Z" fill="#dcd6ca" />`;
+        s += `<rect x="134" y="108" width="132" height="22" rx="11" fill="#e8e3d8" /><path d="M140 119 H260" stroke="#c9c2b4" stroke-width="3" />`;
+      } else if (sombrero === "canotier") {
+        s += `<ellipse cx="200" cy="120" rx="94" ry="13" fill="#c9a256" /><rect x="150" y="80" width="100" height="40" fill="#dcb767" /><ellipse cx="200" cy="80" rx="50" ry="8" fill="#e6c57a" />`;
+        s += `<rect x="150" y="100" width="100" height="12" fill="#3a2a1a" /><rect x="222" y="80" width="28" height="40" fill="#c9a256" opacity="0.6" />`;
+      }
+      if (medio) s += `</g>` + cuelloMedio + brazos.join("");
+      return s;
+    }

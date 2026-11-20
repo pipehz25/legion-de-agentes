@@ -1,0 +1,212 @@
+<!--
+  Titular (videos propios, Narrador): texto grande que entra palabra por palabra al paso de la voz,
+  con una hoja de calendario al lado (opcional) que se puede tachar. Sirve para una fecha clave
+  ("3 de noviembre de 1903 / Colombia perdio Panama") o una pregunta ("Como pudo pasar?").
+  Solo horizontal. Necesita "estilo.tema".
+  Datos: lineas: ["Colombia", "perdió", "Panamá"] (2 o 3 lineas de 14 letras o menos; caben 18)
+         resalta (opcional): numero de la linea en color de acento (por defecto la ultima)
+         insignia (opcional): rotulo chico arriba del titular (40 letras)
+         todo_al_inicio (opcional, true): el titular esta completo desde el cuadro 0 (portada)
+         calendario (opcional): { arriba: "Noviembre", numero: "3", abajo: "1903", lado: "izquierda"|"derecha",
+                                  palabra|en (cuando aparece; sin dato, desde el cuadro 0),
+                                  sello (opcional, texto de un sello redondo: "1903"), palabra_sello,
+                                  tachar (opcional: palabra dicha en la que se tacha la hoja) }
+-->
+<template>
+  <style>
+{{>narrador-css}}
+    .{{id}}-texto {
+      position: absolute;
+      top: 120px;
+      height: 800px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    #{{id}}-insignia-fila {
+      flex: none;
+      margin-bottom: 34px;
+    }
+    #{{id}}-titulo {
+      flex: none;
+      line-height: 1.02;
+    }
+    .{{id}}-linea {
+      display: block;
+      white-space: nowrap;
+    }
+    .{{id}}-pal {
+      display: inline-block;
+      margin-right: 0.22em;
+    }
+    #{{id}}-filete {
+      flex: none;
+      width: 360px;
+      height: 10px;
+      margin-top: 40px;
+      border-radius: 5px;
+      background: var(--acento2);
+    }
+    #{{id}}-cal {
+      position: absolute;
+      top: 190px;
+      width: 470px;
+      height: 600px;
+    }
+    #{{id}}-hoja {
+      position: absolute;
+      inset: 0;
+      background: #fbf3df;
+      border-radius: 14px;
+      box-shadow: 0 26px 50px rgba(70, 40, 15, 0.28), 0 0 0 3px rgba(59, 36, 21, 0.25);
+      overflow: hidden;
+    }
+    #{{id}}-banda {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 136px;
+      background: var(--acento);
+      color: #fbf3df;
+      text-align: center;
+      line-height: 150px;
+      font-size: 50px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+    #{{id}}-num {
+      position: absolute;
+      left: 0;
+      top: 150px;
+      width: 100%;
+      text-align: center;
+      font-size: 310px;
+      line-height: 330px;
+      color: var(--tinta);
+    }
+    #{{id}}-abajo {
+      position: absolute;
+      left: 40px;
+      right: 40px;
+      bottom: 34px;
+      padding-top: 16px;
+      border-top: 3px solid rgba(59, 36, 21, 0.3);
+      text-align: center;
+      font-size: 62px;
+      letter-spacing: 0.08em;
+      white-space: nowrap;
+    }
+    .{{id}}-aro {
+      position: absolute;
+      top: -26px;
+      width: 30px;
+      height: 70px;
+      border-radius: 15px;
+      background: linear-gradient(90deg, #6f5a43, #d8c7a4 45%, #6f5a43);
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    }
+    #{{id}}-sello {
+      position: absolute;
+      right: -110px;
+      bottom: 24px;
+      width: 230px;
+      height: 230px;
+      opacity: 0;
+    }
+    #{{id}}-tacha {
+      position: absolute;
+      inset: 30px;
+    }
+  </style>
+
+  <div id="root" data-composition-id="{{id}}" data-width="{{ancho}}" data-height="{{alto}}">
+    <div id="{{id}}-cal">
+      <div id="{{id}}-cal-f" style="position: absolute; inset: 0">
+        <div id="{{id}}-hoja">
+          <div id="{{id}}-banda" class="{{id}}-titulo">{{d.calendario.arriba|}}</div>
+          <div id="{{id}}-num" class="{{id}}-cifra" style="color: var(--tinta)">{{d.calendario.numero|}}</div>
+          <div id="{{id}}-abajo" class="{{id}}-titulo">{{d.calendario.abajo|}}</div>
+        </div>
+        <div class="{{id}}-aro" style="left: 110px"></div>
+        <div class="{{id}}-aro" style="right: 110px"></div>
+        <svg id="{{id}}-tacha" class="{{id}}-arte" viewBox="0 0 100 100" preserveAspectRatio="none"><path id="{{id}}-tacha-p" d="M8 8 L92 92 M92 8 L8 92" style="stroke: var(--acento)" stroke-width="7" stroke-linecap="butt" fill="none" pathLength="1" stroke-dasharray="1 1" stroke-dashoffset="1" /></svg>
+      </div>
+      <div id="{{id}}-sello"></div>
+    </div>
+    <div class="{{id}}-texto" id="{{id}}-texto">
+      <div id="{{id}}-insignia-fila"><span id="{{id}}-insignia" class="{{id}}-insignia">{{d.insignia|}}</span></div>
+      <div id="{{id}}-titulo" class="{{id}}-titulo"></div>
+      <div id="{{id}}-filete"></div>
+    </div>
+  </div>
+
+  <script>
+{{>narrador-js}}
+{{>escena-h-js}}
+
+    const C = D.calendario;
+    const lado = C ? C.lado || "izquierda" : null;
+    const caja = $("texto");
+    if (!C) {
+      $("cal").style.display = "none";
+      Object.assign(caja.style, { left: "200px", width: "1520px", alignItems: "center", textAlign: "center" });
+    } else if (lado === "izquierda") {
+      $("cal").style.left = "200px";
+      Object.assign(caja.style, { left: "820px", width: "960px", alignItems: "flex-start" });
+    } else {
+      $("cal").style.left = "1250px";
+      Object.assign(caja.style, { left: "150px", width: "1000px", alignItems: "flex-start" });
+    }
+    if (!D.insignia) $("insignia-fila").style.display = "none";
+    if (C && !C.sello) $("sello").style.display = "none";
+
+    // Titular: cada palabra es un span; la linea mas larga manda el tamano.
+    const lineas = (D.lineas || []).filter((l) => l && String(l).trim());
+    const resalta = Math.min(D.resalta ?? lineas.length - 1, lineas.length - 1);
+    let n = 0;
+    $("titulo").innerHTML = lineas
+      .map((l, i) => `<span class="{{id}}-linea${i === resalta ? " {{id}}-acento" : ""}">` + String(l).trim().split(/\s+/).map((p) => `<span id="{{id}}-p${n++}" class="{{id}}-pal">${esc(p)}</span>`).join("") + "</span>")
+      .join("");
+    const largo = Math.max(...lineas.map((l) => String(l).length));
+    const ancho = C ? 940 : 1500;
+    $("titulo").style.fontSize = tamPara("x".repeat(largo), ancho, 170, 90, T.anchoTitulo) + "px";
+
+    // Cuando entra cada palabra: cuando se dice; si no se dice, repartidas en lo hablado.
+    const palabras = lineas.flatMap((l) => String(l).trim().split(/\s+/));
+    let previo = 0;
+    palabras.forEach((p, i) => {
+      const respaldo = 0.1 + (0.8 * i) / Math.max(1, palabras.length - 1);
+      let t = D.todo_al_inicio ? 0.02 + i * 0.04 : tope(dicho(p, respaldo), 0.5);
+      t = Math.max(t, previo + 0.06);
+      previo = t;
+      tl.fromTo(el("p" + i), { opacity: 0, y: 50, scale: 0.85 }, { opacity: 1, y: 0, scale: 1, duration: 0.32, ease: "back.out(2.2)" }, t);
+    });
+    tl.fromTo(el("filete"), { scaleX: 0, transformOrigin: C ? "0 50%" : "50% 50%" }, { scaleX: 1, duration: 0.6, ease: "power2.out" }, Math.max(0.05, previo + 0.2));
+    if (D.insignia) tl.fromTo(el("insignia"), { scale: 0.94 }, { scale: 1, duration: 0.4, ease: "back.out(2)" }, 0);
+    fx.golpe(tl, el("titulo"), tope(previo + 0.45, 0.4), 1.04);
+
+    // Calendario: cae con un vaiven, late, y si se pide, se tacha o recibe su sello.
+    if (C) {
+      const giro = lado === "izquierda" ? -4 : 4;
+      const tCal = C.palabra || C.en ? tope(momento(C.palabra ?? C.en, 0.1), 0.8) : 0;
+      // Sin palabra, la hoja ya esta en el cuadro 0 (portada) y solo se asienta.
+      if (tCal > 0) tl.fromTo(el("cal"), { opacity: 0, y: -120, rotation: -14 }, { opacity: 1, y: 0, rotation: giro, duration: 0.6, ease: "back.out(1.6)" }, tCal);
+      else tl.fromTo(el("cal"), { opacity: 1, y: -10, rotation: giro - 2 }, { opacity: 1, y: 0, rotation: giro, duration: 0.6, ease: "back.out(1.6)" }, 0);
+      fx.flota(tl, el("cal-f"), tCal + 0.7, r.dur, 7, 1.3);
+      if (C.tachar) tl.to(el("tacha-p"), { attr: { "stroke-dashoffset": 0 }, duration: 0.45, ease: "power2.out" }, tope(dicho(C.tachar, 0.6) + 0.1, 0.5));
+      if (C.sello) {
+        const k = String(C.sello);
+        $("sello").innerHTML =
+          `<svg class="{{id}}-arte" viewBox="0 0 230 230"><circle cx="115" cy="115" r="100" fill="none" style="stroke: var(--acento)" stroke-width="10" /><circle cx="115" cy="115" r="84" fill="none" style="stroke: var(--acento)" stroke-width="3" />` +
+          `<text x="115" y="140" text-anchor="middle" font-family="Playfair Display, serif" font-weight="900" font-size="${k.length > 4 ? 52 : 70}" style="fill: var(--acento)">${esc(k)}</text></svg>`;
+        const tS = tope(dicho(C.palabra_sello || C.sello, 0.4), 0.6);
+        tl.fromTo(el("sello"), { opacity: 0, scale: 2.4, rotation: -30 }, { opacity: 0.92, scale: 1, rotation: -12, duration: 0.28, ease: "power3.in" }, tS);
+        fx.tiembla(tl, el("cal-f"), tS + 0.28, 3, 6);
+      }
+    }
+
+    window.__timelines["{{id}}"] = tl;
+  </script>
+</template>

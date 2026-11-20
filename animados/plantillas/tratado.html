@@ -1,0 +1,252 @@
+<!--
+  Tratado (videos propios, Narrador): el paso del tiempo entre dos fechas (dos hojas de calendario y
+  una flecha), un documento que entra y se escribe solo, un mapa chico del istmo con una franja
+  resaltada y un sello con su bandera. Sirve para cualquier tratado o documento clave.
+  Solo horizontal. Necesita "estilo.tema".
+  Datos: titulo: "Tratado" (16 letras); sub (opcional): "Washington, 18 de noviembre de 1903" (40 letras)
+         desde, hasta (opcionales): { arriba: "Nov", numero: "3" } las dos hojas del calendario
+         lapso (opcional): "dos semanas" (texto sobre la flecha, 18 letras)
+         franja (opcional): rotulo de la franja del mapa ("Zona del canal: 16 km de ancho", 34 letras)
+         sello (opcional): texto del sello ("EE. UU.", 8 letras); bandera (opcional): eeuu|panama|colombia|francia
+         palabras (opcionales): { lapso, documento, sello, franja }: palabras dichas que hacen aparecer cada cosa
+         rechazado (opcional, true): el documento recibe una franja roja de "Rechazado" en vez del sello
+-->
+<template>
+  <style>
+{{>narrador-css}}
+    .{{id}}-hojita {
+      position: absolute;
+      top: 120px;
+      width: 190px;
+      height: 220px;
+      background: #fbf3df;
+      border-radius: 12px;
+      box-shadow: 0 16px 30px rgba(70, 40, 15, 0.24), 0 0 0 3px rgba(59, 36, 21, 0.22);
+      overflow: hidden;
+      text-align: center;
+      opacity: 0;
+    }
+    .{{id}}-hojita-banda {
+      height: 56px;
+      line-height: 62px;
+      background: var(--acento);
+      color: #fbf3df;
+      font-size: 30px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+    }
+    .{{id}}-hojita-num {
+      font-size: 128px;
+      line-height: 156px;
+      color: var(--tinta);
+    }
+    #{{id}}-flecha {
+      position: absolute;
+      left: 350px;
+      top: 200px;
+      width: 330px;
+      height: 60px;
+    }
+    #{{id}}-lapso {
+      position: absolute;
+      left: 330px;
+      top: 128px;
+      width: 370px;
+      text-align: center;
+      font-size: 40px;
+      white-space: nowrap;
+      opacity: 0;
+    }
+    #{{id}}-istmo {
+      position: absolute;
+      left: 110px;
+      top: 410px;
+      width: 760px;
+      height: 470px;
+      overflow: hidden;
+      opacity: 0;
+    }
+    #{{id}}-franja-rot {
+      position: absolute;
+      left: 110px;
+      top: 880px;
+      width: 760px;
+      text-align: center;
+      font-size: 38px;
+      white-space: nowrap;
+      opacity: 0;
+    }
+    #{{id}}-doc {
+      position: absolute;
+      left: 1010px;
+      top: 96px;
+      width: 700px;
+      height: 830px;
+      opacity: 0;
+    }
+    #{{id}}-papel {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, #fbf4e2 0%, #f3e6c4 100%);
+      border-radius: 6px;
+      box-shadow: 0 30px 60px rgba(70, 40, 15, 0.3), inset 0 0 0 2px rgba(59, 36, 21, 0.18), inset 0 0 60px rgba(150, 100, 40, 0.18);
+    }
+    #{{id}}-doc-t {
+      position: absolute;
+      left: 60px;
+      right: 60px;
+      top: 70px;
+      text-align: center;
+      font-size: 84px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+    #{{id}}-doc-s {
+      position: absolute;
+      left: 60px;
+      right: 60px;
+      top: 182px;
+      text-align: center;
+      font-size: 32px;
+      font-style: italic;
+    }
+    #{{id}}-adorno {
+      position: absolute;
+      left: 230px;
+      top: 240px;
+      width: 240px;
+      height: 20px;
+    }
+    .{{id}}-renglon {
+      position: absolute;
+      left: 80px;
+      height: 12px;
+      border-radius: 6px;
+      background: rgba(59, 36, 21, 0.28);
+      transform-origin: 0 50%;
+    }
+    #{{id}}-sello {
+      position: absolute;
+      left: 400px;
+      top: 560px;
+      width: 230px;
+      height: 230px;
+      opacity: 0;
+    }
+    #{{id}}-bandera {
+      position: absolute;
+      left: 70px;
+      top: 620px;
+      width: 180px;
+      height: 120px;
+      opacity: 0;
+      box-shadow: 0 10px 20px rgba(70, 40, 15, 0.25);
+    }
+    #{{id}}-rechazo {
+      position: absolute;
+      left: -40px;
+      top: 470px;
+      width: 780px;
+      height: 110px;
+      line-height: 112px;
+      text-align: center;
+      background: var(--acento);
+      color: #fbf3df;
+      font-size: 64px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      opacity: 0;
+    }
+  </style>
+
+  <div id="root" data-composition-id="{{id}}" data-width="{{ancho}}" data-height="{{alto}}">
+    <div id="{{id}}-h1" class="{{id}}-hojita" style="left: 130px"><div class="{{id}}-hojita-banda {{id}}-titulo">{{d.desde.arriba|}}</div><div class="{{id}}-hojita-num {{id}}-cifra" style="color: var(--tinta)">{{d.desde.numero|}}</div></div>
+    <div id="{{id}}-h2" class="{{id}}-hojita" style="left: 690px"><div class="{{id}}-hojita-banda {{id}}-titulo">{{d.hasta.arriba|}}</div><div class="{{id}}-hojita-num {{id}}-cifra">{{d.hasta.numero|}}</div></div>
+    <div id="{{id}}-flecha"><svg class="{{id}}-arte" viewBox="0 0 330 60"><path id="{{id}}-flecha-l" d="M10 30 H300" style="stroke: var(--acento)" stroke-width="8" stroke-linecap="butt" fill="none" pathLength="1" stroke-dasharray="1 1" stroke-dashoffset="1" /><path id="{{id}}-flecha-p" d="M296 8 L324 30 L296 52" style="stroke: var(--acento)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0" /></svg></div>
+    <div id="{{id}}-lapso" class="{{id}}-titulo">{{d.lapso|}}</div>
+    <div id="{{id}}-istmo" class="{{id}}-tarjeta"></div>
+    <div id="{{id}}-franja-rot" class="{{id}}-titulo {{id}}-acento">{{d.franja|}}</div>
+    <div id="{{id}}-doc">
+      <div id="{{id}}-doc-f" style="position: absolute; inset: 0">
+        <div id="{{id}}-papel"></div>
+        <div id="{{id}}-doc-t" class="{{id}}-titulo">{{d.titulo}}</div>
+        <div id="{{id}}-doc-s" class="{{id}}-suave">{{d.sub|}}</div>
+        <div id="{{id}}-adorno"><svg class="{{id}}-arte" viewBox="0 0 240 20"><path d="M6 10 H96 M144 10 H234" style="stroke: var(--acento2)" stroke-width="4" stroke-linecap="round" /><path d="M120 0 L130 10 L120 20 L110 10 Z" style="fill: var(--acento2)" /></svg></div>
+        <div id="{{id}}-renglones"></div>
+        <div id="{{id}}-bandera"></div>
+        <div id="{{id}}-sello"></div>
+        <div id="{{id}}-rechazo" class="{{id}}-titulo">Rechazado</div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+{{>narrador-js}}
+{{>escena-h-js}}
+{{>geo-americas}}
+
+    const W = D.palabras || {};
+    if (!D.desde) ["h1", "h2", "flecha", "lapso"].forEach((k) => ($(k).style.display = "none"));
+    if (!D.sub) $("doc-s").style.display = "none";
+
+    // Renglones del documento (no se leen: es el texto "escribiendose").
+    const anchos = [540, 500, 530, 460, 520, 380, 510, 440];
+    $("renglones").innerHTML = anchos.map((w, i) => `<div id="{{id}}-ren-${i}" class="{{id}}-renglon" style="top: ${300 + i * 34}px; width: ${w}px"></div>`).join("");
+    if (D.bandera) $("bandera").innerHTML = `<svg class="{{id}}-arte" viewBox="0 0 90 60" preserveAspectRatio="none">${bandera(D.bandera)}</svg>`;
+    if (D.sello) {
+      const k = String(D.sello);
+      $("sello").innerHTML =
+        `<svg class="{{id}}-arte" viewBox="0 0 230 230"><circle cx="115" cy="115" r="100" fill="none" style="stroke: var(--acento)" stroke-width="10" /><circle cx="115" cy="115" r="84" fill="none" style="stroke: var(--acento)" stroke-width="3" />` +
+        `<text x="115" y="136" text-anchor="middle" font-family="Playfair Display, serif" font-weight="900" font-size="${k.length > 6 ? 48 : 60}" style="fill: var(--acento)">${esc(k)}</text></svg>`;
+    }
+
+    // Mapa chico del istmo con la franja.
+    const vista = { x: -83.3, y: merc([0, 10.0])[1], w: 6.6 };
+    vista.h = (vista.w * 470) / 760;
+    const cont = (pts) => suave(pts.map(merc));
+    const franjaPts = GEO.ferrocarril.map(merc);
+    let franja = "";
+    if (franjaPts.length) franja = suave(franjaPts, false);
+    $("istmo").innerHTML =
+      `<svg class="{{id}}-arte" viewBox="${vista.x} ${vista.y} ${vista.w} ${vista.h.toFixed(3)}" preserveAspectRatio="xMidYMid slice" style="overflow: hidden; border-radius: var(--radio)">` +
+      `<rect x="-90" y="-20" width="30" height="30" fill="#cfd2b8" />` +
+      `<path d="${cont(GEO.panama)} ${cont(GEO.colombia)} ${cont(GEO.centroamerica)}" fill="#f4e7c5" stroke="#3b2415" stroke-width="0.03" stroke-linejoin="round" />` +
+      `<path id="{{id}}-franja" d="${franja}" fill="none" style="stroke: var(--acento)" stroke-opacity="0.55" stroke-width="0.2" stroke-linecap="butt" pathLength="1" stroke-dasharray="1 1" stroke-dashoffset="1" />` +
+      `<path d="${franja}" fill="none" stroke="#3b2415" stroke-width="0.025" stroke-dasharray="0.08 0.05" />` +
+      `<text x="-81.6" y="${merc([0, 9.62])[1].toFixed(3)}" font-family="EB Garamond, serif" font-style="italic" font-weight="700" font-size="0.3" fill="#4f6a5c" text-anchor="middle">Mar Caribe</text>` +
+      `<text x="-80.4" y="${merc([0, 7.0])[1].toFixed(3)}" font-family="EB Garamond, serif" font-style="italic" font-weight="700" font-size="0.3" fill="#4f6a5c" text-anchor="middle">Océano Pacífico</text>` +
+      `</svg>`;
+
+    // ---------- Movimiento ----------
+    const tLapso = tope(momento(W.lapso, 0.08), 1.2);
+    const tDoc = tope(momento(W.documento, 0.3), 1.0);
+    const tSello = tope(momento(W.sello, 0.6), 0.8);
+    const tFranja = tope(momento(W.franja, 0.8), 0.6);
+    if (D.desde) {
+      fx.entra(tl, el("h1"), 0.02, { y: -60, rotation: -8 }, 0.4);
+      tl.to(el("flecha-l"), { attr: { "stroke-dashoffset": 0 }, duration: 0.7, ease: "power2.inOut" }, tLapso);
+      tl.fromTo(el("flecha-p"), { opacity: 0 }, { opacity: 1, duration: 0.15 }, tLapso + 0.6);
+      fx.entra(tl, el("lapso"), tLapso + 0.1, { y: 20 }, 0.3);
+      fx.entra(tl, el("h2"), tLapso + 0.7, { y: -60, rotation: 8 }, 0.4);
+    }
+    // El mapa del istmo entra con el documento; la franja se pinta cuando se nombra.
+    fx.entra(tl, el("istmo"), Math.min(0.35, tDoc), { y: 60 }, 0.45);
+    tl.to(el("franja"), { attr: { "stroke-dashoffset": 0 }, duration: 0.6, ease: "power2.out" }, tFranja);
+    if (D.franja) fx.entra(tl, el("franja-rot"), tFranja + 0.3, { y: 20 }, 0.3);
+    tl.fromTo(el("doc"), { opacity: 0, y: 260, rotation: 6 }, { opacity: 1, y: 0, rotation: 2, duration: 0.6, ease: "back.out(1.3)" }, tDoc);
+    fx.flota(tl, el("doc-f"), tDoc + 0.7, r.dur, 5, 1.4);
+    anchos.forEach((_, i) => tl.fromTo(el("ren-" + i), { scaleX: 0 }, { scaleX: 1, duration: 0.22, ease: "power1.out" }, tDoc + 0.35 + i * 0.12));
+    if (D.rechazado) {
+      tl.fromTo(el("rechazo"), { opacity: 0, scale: 1.8, rotation: -14 }, { opacity: 0.95, scale: 1, rotation: -8, duration: 0.25, ease: "power3.in" }, tSello);
+      fx.tiembla(tl, el("doc-f"), tSello + 0.25, 3, 7);
+    } else {
+      if (D.bandera) fx.entra(tl, el("bandera"), tSello, { x: -40, rotation: -10 }, 0.35);
+      if (D.sello) {
+        tl.fromTo(el("sello"), { opacity: 0, scale: 2.4, rotation: -30 }, { opacity: 0.92, scale: 1, rotation: -12, duration: 0.26, ease: "power3.in" }, tSello + 0.15);
+        fx.tiembla(tl, el("doc-f"), tSello + 0.41, 3, 6);
+      }
+    }
+
+    window.__timelines["{{id}}"] = tl;
+  </script>
+</template>

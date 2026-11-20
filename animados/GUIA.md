@@ -80,7 +80,7 @@ En el guion, las plantillas van así (el ejemplo completo es [videos/restaurante
 }
 ```
 
-`datos` vale para todas las escenas; los de cada escena se suman encima. Toda escena `agente-…` acepta además una `insignia` opcional arriba a la derecha (una hora o «1 de 3»). Una escena sin plantilla se escribe a mano en `compositions/`, como antes.
+`datos` vale para todas las escenas; los de cada escena se suman encima. Toda escena `agente-…` acepta además una `insignia` opcional arriba a la derecha (una hora o «1 de 3»). Una escena sin plantilla se escribe a mano en `compositions/`, como antes. Los nombres `icono` y `heroe` están reservados para esos dibujos: en los datos de otras plantillas no se usan para otra cosa.
 
 **Plantillas** (en [plantillas/](plantillas/); cada archivo dice arriba qué datos pide):
 
@@ -150,7 +150,9 @@ Un formato nuevo es bienvenido: es otra manera de ordenar las plantillas, o una 
 
 ### Una plantilla nueva
 
-Una plantilla es una escena normal con marcas: `{{id}}` (el id de la escena, prefijo de todos sus ids y clases), `{{d.dato}}` (un dato, escapado), `{{{d.dato}}}` (sin escapar, para SVG), `{{d.dato|respaldo}}` y `{{{d.dato|}}}` (dato opcional: si falta, queda el respaldo, que puede ser vacío), `{{datos}}` (todos los datos como JSON, para el script) y `{{>nombre}}` (incluye `plantillas/_nombre.html`). Como no sabe qué texto le va a tocar, no cuenta palabras: se ancla a partes de la frase (`r.en(0, 0.5)`) o a una palabra con respaldo (`r.palabra(0, "comen", 0.78)`). Antes de usarla en serie, pruébala con un video y mira sus capturas.
+Una plantilla es una escena normal con marcas: `{{id}}` (el id de la escena, prefijo de todos sus ids y clases), `{{d.dato}}` (un dato, escapado), `{{{d.dato}}}` (sin escapar, para SVG), `{{d.dato|respaldo}}` y `{{{d.dato|}}}` (dato opcional: si falta, queda el respaldo, que puede ser vacío), `{{datos}}` (todos los datos como JSON, para el script) y `{{>nombre}}` (incluye `plantillas/_nombre.html`; ojo: también se expande dentro de un comentario). Como no sabe qué texto le va a tocar, no cuenta palabras: se ancla a partes de la frase (`r.en(0, 0.5)`) o a una palabra con respaldo (`r.palabra(0, "comen", 0.78)`). Antes de usarla en serie, pruébala con un video y mira sus capturas.
+
+Para el formato horizontal (sección «Videos horizontales con escenas»): `{{ancho}}` y `{{alto}}` dan el tamaño del lienzo (úsalos en el `data-width` y `data-height` de la raíz), `{{?h}}…{{/h}}` deja un trozo solo en horizontal y `{{?v}}…{{/v}}` solo en vertical (si ocupan renglones enteros, en la otra orientación desaparecen sin dejar rastro). La cabecera dice `Horizontal: propio` si la plantilla trae su diseño horizontal, o `Solo horizontal` si no sirve en vertical.
 
 ## Videos propios (Narrador): temas y plantillas
 
@@ -188,7 +190,7 @@ Todas dicen en su cabecera `Necesita "estilo.tema"`: si el guion no trae tema, `
 | `titulo-pregunta` | El gancho: 2 o 3 líneas grandes y una ilustración debajo. Todo está desde el cuadro 0: es la portada | `lineas`, `ilustracion`, (`resalta`, `insignia`) | Líneas de 16 letras o menos (caben 20, más chicas); `insignia` de 22 |
 | `dato-grande` | Una cifra, un año o una palabra enorme con su rótulo; un aro gira detrás | `cifra`, `rotulo`, (`antes`, `ilustracion`, `palabra`, `palabra_rotulo`, `contar`) | `cifra` de 7 caracteres o menos (caben 10); `rotulo` de 40 letras (dos renglones); `antes` de 24 |
 | `linea-tiempo` | De 3 a 5 hitos en una línea vertical que se enciende en orden | `hitos` [{`anio`, `texto`, (`palabra`)}], (`titulo`) | `anio` de 9 caracteres; `texto` de 50 letras con 3 hitos, 40 con 4 y 28 con 5; `titulo` de 24 |
-| `personaje` | Retrato de busto dibujado (silueta genérica con cara sencilla, nunca la de una persona real) en un medallón, con nombre, años y rol | `nombre`, `anios`, `rol`, (`piel`, `pelo`, `ropa`, `detalle`, `peinado`, `barba`, `sombrero`, `gafas`, `bata`, `charreteras`, `palabra_anios`, `palabra_rol`) | `nombre` de 20 letras; `anios` de 12; `rol` de 44 (dos renglones) |
+| `personaje` | Retrato de busto dibujado (silueta genérica con cara sencilla, nunca la de una persona real) en un medallón, con nombre, años y rol; con `pose`, medio cuerpo con brazos | `nombre`, `anios`, `rol`, (los rasgos de «Personajes dibujados», `palabra_anios`, `palabra_rol`) | `nombre` de 20 letras; `anios` de 12; `rol` de 44 (dos renglones) |
 | `lupa` | Una ilustración grande y una lupa que amplía una parte (o muestra otra ilustración dentro), con su rótulo | `ilustracion`, `rotulo`, (`ilustracion_detalle`, `foco` [x, y] en el lienzo de 400, `titulo`, `palabra`) | `rotulo` de 26 letras; `titulo` de 24 |
 | `comparacion` | Dos columnas (mito/realidad, antes/después) | `izquierda` y `derecha`: {`titulo`, `renglones`, (`ilustracion`)}, (`marcas`) | `titulo` de 10 letras; 2 o 3 renglones de 24 letras |
 | `lista-pasos` | 3 pasos numerados (sirve de 2 a 4) que entran uno por uno | `pasos` (textos, o {`texto`, (`palabra`, `ilustracion`)}), (`titulo`) | Pasos de 36 letras (26 con ilustración); `titulo` de 24 |
@@ -223,7 +225,56 @@ Si un tema necesita otra, dibújala y agrégala ahí con las mismas reglas; que 
 
 Igual que en la serie de venta, dos videos seguidos de la misma cuenta no repiten formato ni paleta. Los tres videos de [propios/](propios/) que empiezan por `prueba-` sirven de muestra de cada tema; su voz es Kokoro (solo para cronometrar) y no se publican.
 
+### Personajes dibujados
+
+`personaje`, `dos-personajes` y `tablero` dibujan a sus personas con la misma función ([plantillas/_figura-js.html](plantillas/_figura-js.html)). Siempre es una figura genérica con rasgos que ayudan a reconocer a quien representa (el bigote, los quevedos, el sombrero), nunca un retrato de su cara. Datos, todos opcionales:
+
+| Dato | Valores |
+|---|---|
+| `piel`, `pelo`, `ropa`, `detalle`, `corbata` | Colores (`"#2f4f7a"`); `detalle` son los botones y adornos |
+| `peinado` | `corto` (por defecto), `largo`, `calvo`, `recogido`, `peluca`, `raya` (de lado, engominado) |
+| `barba` | `ninguna`, `bigote`, `completa`, `patillas`, `bigote-encerado` (puntas hacia arriba), `morsa` (grueso, tapa la boca), `candado`, `recortada` |
+| `sombrero` | `ninguno`, `bicornio`, `copa`, `corona`, `bombin`, `ala`, `kepis` (militar), `marinero`, `canotier` (de paja) |
+| `gafas` | `true` (redondas) o `"quevedos"` (sin patas, con cordón) |
+| `expresion` | `neutral`, `sonrisa`, `serio`, `sorprendido`, `enojado`, `pensativo`, `astuto` |
+| `pose` | Medio cuerpo con brazos: `neutral`, `senalar`, `brazos-cruzados`, `firmar`, `saludar`, `pensar`, `jarras` (manos en la cintura), `discurso` |
+| `cuello` | `corbata` (por defecto en medio cuerpo), `lazo` o `ninguno` |
+| `bata`, `charreteras` | `true`: bata de médico, uniforme militar |
+
+Ejemplos de la muestra de Panamá: Roosevelt es `barba: "morsa"` con `gafas: "quevedos"`; Bunau-Varilla, `barba: "bigote-encerado"`, `peinado: "raya"` y `sombrero: "bombin"`; un soldado de 1903, `sombrero: "kepis"` con `charreteras`.
+
+## Videos horizontales con escenas (YouTube)
+
+Es el estilo que se quiere para los videos largos: **escenas diseñadas y animadas con código** (mapas, personajes, documentos, cifras, texto que se mueve), como en los Shorts, pero a 1920×1080. Las fotos de archivo solo entran como un elemento dentro del diseño (un retrato con cinta, un recorte con su pie), nunca a pantalla completa. La muestra es [propios/hi-panama-muestra/guion.json](propios/hi-panama-muestra/guion.json): los primeros 61 s de «¿Cómo perdió Colombia a Panamá?», con 14 escenas.
+
+Se arma con el camino de los Shorts (`producir.mjs`, plantillas por escena) y estas piezas:
+
+- **Lienzo.** `"orientacion": "horizontal"` en el guion. Sin él, todo sale vertical, igual que siempre (`montaje.mjs` da exactamente la misma salida en los videos que ya existían).
+- **Plantillas viejas en horizontal.** Las que no tienen diseño horizontal propio se dibujan como en vertical dentro de un escenario centrado y un poco reducido (su zona de dibujo de 190 a 1100 px queda entre 82 y 920). Funcionan, pero dejan los lados vacíos: para un video largo, mejor las de la tabla de abajo. `personaje` ya trae su diseño horizontal (medallón a la izquierda, textos a la derecha).
+- **Cortes dentro de una frase.** Las frases de un video largo duran de 7 a 11 s y una escena no debería durar más de 4 a 8. `"cortes": [{ "escena": "mapa", "palabra": 9 }]` en una frase hace que la escena `mapa` empiece en la palabra 9 (desde 0) aunque la frase siga; `"palabra"` también puede ser el texto de la palabra, o `"fin"` para una escena que empieza al terminar la frase (una tarjeta de capítulo en una pausa: dale a esa frase un `pausa_despues` de unos 2,5 s). La escena nueva necesita su plantilla en `escenas`. Cambiar cortes o pausas no vuelve a pedir voz: las frases salen de la caché.
+- **Fotos de Commons como elemento.** Un dato `foto` (o `foto_<algo>`) con el nombre de un archivo de Commons (`"File:Panam2.JPG"`) que ya esté en `animados/.imagenes-cache/` (lo baja y le revisa la licencia `largo.mjs`) se copia a `assets/fotos/` y la plantilla recibe `foto_src`, `foto_ancho`, `foto_alto` y `foto_credito`. Si la foto no está en la caché o su licencia no es libre, `montaje.mjs` se detiene.
+- **Subtítulos.** En horizontal salen abajo (952 a 1040 px), más chicos y de hasta 4 palabras, sobre la misma píldora del tema; las plantillas horizontales dejan esa franja libre. `"subtitulos": false` en el guion los quita todos (para YouTube se pueden subir aparte).
+
+**Plantillas horizontales** (todas `Solo horizontal` y con `estilo.tema`; cada archivo explica sus datos en la cabecera). Los momentos se dan con una palabra dicha, con `{ "en": 0.5 }` (una parte de lo hablado en la escena) o en segundos desde que empieza la escena; en una escena que empieza a mitad de frase, solo cuentan las palabras dichas desde que empieza.
+
+| Plantilla | Qué muestra |
+|---|---|
+| `titular` | Texto grande que entra palabra por palabra, con una hoja de calendario al lado que puede llevar un sello o tacharse. Para una fecha clave o una pregunta |
+| `mapa` | Mapa ilustrado de las Américas (de México al cabo de Hornos, con las islas del Caribe) con cámara que viaja entre `vistas`, países que se encienden (`colombia`, `panama`, `venezuela`, `ecuador`), un país que se separa, rutas que se dibujan (línea, discontinua, vía de tren o flecha) con un barco o un tren que las recorre, marcas de ciudades, rótulos de mares y países, banderas clavadas, una cartela arriba y fichas abajo (`3 días`, una cifra, una barra de años). La geografía está en [plantillas/_geo-americas.html](plantillas/_geo-americas.html) |
+| `tratado` | Dos hojas de calendario con una flecha (el tiempo que pasó), un documento que se escribe solo, un mapa chico del istmo con la franja del canal y un sello con su bandera (o una franja de «Rechazado») |
+| `dos-personajes` | Dos personas de medio cuerpo frente a frente detrás de una mesa, con sus placas y banderas; una firma el documento. Puede llevar una foto real con cinta |
+| `cadena` | Una cadena de hierro con placas que entran con cada palabra («errores», «cálculos», «intereses») y, al final, la cámara se corre hacia atrás hasta los años de donde viene |
+| `tablero` | Tablero de investigación: retratos dibujados de los protagonistas, recortes reales con su pie e hilo rojo entre ellos |
+| `capitulo` | Tarjeta de capítulo con el marco doble de las tarjetas de los videos largos |
+| `vehiculo` | Un tren de vapor entre selva y montañas, o un barco de vapor sobre el mar, que entra a la escena; con sello del año, título, dato y foto opcional |
+
+**Banderas** que dibujan `mapa`, `tratado`, `dos-personajes` y `vehiculo`: `colombia`, `panama`, `eeuu`, `francia`, `espana`. **Dibujos** de las fichas del mapa: `calendario`, `canon`, `ancla`, `tren`, `pluma`.
+
+**Rendimiento** (medido el 2026-11-20 en la PC de Santiago, portátil con 16 hilos): la muestra de 61,7 s con 14 escenas tardó **109 s** en total (voz desde la caché 3,6 s, montaje 0,2 s, revisión 18 s, **render 86 s**, o sea 1,4 veces lo que dura el video). Para los 9:15 del video completo eso da unos 13 minutos de render y unos 15 a 17 en total; en una PC con la mitad de hilos, el doble. `producir.mjs` imprime sus «Tiempos» y los deja en `meta.json` (`tiempo_produccion_s` y `tiempos_s`). La idea para el video completo es armarlo por capítulos (un guion de escenas por capítulo, de 1 a 2 minutos) y unirlos al final.
+
 ## Videos largos (YouTube horizontal)
+
+> Este modo (fotos a pantalla completa con movimiento lento) no convenció a los socios: el estilo que se quiere es el de «Videos horizontales con escenas». Se conserva porque arma la voz, los créditos de las imágenes, la miniatura, el `.srt` y la descripción con capítulos, que siguen sirviendo.
 
 Además de los Shorts, el Narrador hace **documentales largos para YouTube**: horizontales (1920×1080, 30 fps), de 8 a 20 minutos, hechos sobre todo con **imágenes de archivo** de Wikimedia Commons que se mueven despacio (efecto Ken Burns), narrados con voz de IA, con una **tarjeta de apertura** (título del video y capítulo 1) y una **tarjeta por capítulo**. No usan plantillas ni escenas: el guion dice qué imagen se ve con cada frase y `producir.mjs` hace el resto con [herramientas/largo.mjs](herramientas/largo.mjs). La muestra es [propios/prueba-largo/guion.json](propios/prueba-largo/guion.json) (voz Kokoro, no se publica).
 
@@ -376,7 +427,7 @@ No se inventan cifras, clientes, precios ni resultados: solo se dice lo que el s
 
 ## Estilo
 
-**Formato:** 1080×1920, 30 cuadros por segundo.
+**Formato:** 1080×1920, 30 cuadros por segundo (1920×1080 con `"orientacion": "horizontal"`; sección «Videos horizontales con escenas»).
 
 **Zonas del cuadro** (la app tapa los bordes):
 
@@ -524,6 +575,9 @@ animados/
   .imagenes-cache/           imágenes de Wikimedia Commons de los videos largos (no va a GitHub)
   plantillas/                escenas reutilizables e iconos
   plantillas/ilustraciones.json  dibujos de los videos propios (Narrador)
+  plantillas/_figura-js.html     personajes dibujados (busto y medio cuerpo con poses)
+  plantillas/_geo-americas.html  geografia de la plantilla mapa
+  plantillas/_escena-h-js.html   ayudas de las plantillas horizontales (momentos, banderas, dibujos)
   contenido/NARRADOR.md      método de los videos propios
   propios/<video>/           videos propios (Narrador); se entregan en salidas/narrador/
   videos/<video>/
