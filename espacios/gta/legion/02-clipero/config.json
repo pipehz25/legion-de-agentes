@@ -30,6 +30,26 @@
   "_clip_modo": "Desde el 2026-11-20 el usuario quiere los clips con menos zoom y sin fondo difuminado: corta siempre con -Modo marco (video a 1350 px de alto en el centro, franjas lisas moradas, gancho arriba y subtitulos abajo). Eligio esta opcion frente a recorte (demasiado cerca) y desenfoque. Los clips anteriores se quedan como estan.",
   "umbral_produccion": 65,
 
+  "narracion": {
+    "activa": true,
+    "_que_es": "Desde el 2026-11-20 todo clip de este espacio se publica NARRADO (decision del usuario, que delego el formato segun las politicas de YouTube, TikTok e Instagram): el gameplay es solo el fondo y lo propio es el guion, la voz y la edicion. Es lo que evita el rechazo por contenido reutilizado de YouTube y la etiqueta de contenido no original de TikTok e Instagram.",
+    "pasos": "1) cortar con -Modo marco -Subs ninguno, el gancho con la serie de la cuenta (ej. \"Secret #4: ...\") y un tramo 2-4 s mas largo que la voz; 2) escribir el guion; 3) narrar.ps1 -Id <clip> -Guion \"...\" -Voz <voz de la cuenta> -Cierre <cierre> -Logo <logo>; 4) mirar revision-narrado.jpg; 5) en clips.json, archivo = la ruta de narrado.mp4 (el Publicador sube ese) y la ficha lleva el guion completo.",
+    "logo": "espacios/gta/salidas/marca/lora/lora-1.png",
+    "cierre": "Getaway Kings out.",
+    "idioma_voz": "en-us",
+    "cuentas": {
+      "gta-us":      { "voz": "am_michael", "serie": "Leonida Daily #N", "tono": "curiosidades y datos del juego, cercano" },
+      "gta-chases":  { "voz": "am_fenrir",  "serie": "Getaway Files #N", "tono": "explica como se escapo o por que fallo la huida, con tension" },
+      "gta-funny":   { "voz": "am_puck",    "serie": "Leonida Fails #N", "tono": "comico, remata con un chiste propio" },
+      "gta-rides":   { "voz": "bm_george",  "serie": "Ride Review #N",   "tono": "resena el vehiculo y le pone nota de 1 a 10, con opinion propia" },
+      "gta-world":   { "voz": "af_heart",   "serie": "GTA 6 Secret #N",  "tono": "secretos, detalles y lugar real de Florida en que se basa" },
+      "gta-story":   { "voz": "af_bella",   "serie": "Jason & Lucia #N", "tono": "un dia en la vida de Jason o Lucia, como un vlog contado" }
+    },
+    "_cuentas": "Cada cuenta tiene su voz, su serie numerada y su tono: asi los 6 canales se sienten creadores distintos y nunca publican el mismo video. N sigue la numeracion de cada serie (guardala en estado.json). Un clip va a una sola cuenta.",
+    "guion": "Ingles de EE. UU., 35 a 75 palabras (15 a 30 s de voz). La primera frase es el gancho, sin saludo. Cada guion aporta algo que el video solo no da: un dato comprobado (con su fuente en la ficha: Rockstar, prensa de videojuegos o algo que se ve en el propio clip), una opinion o nota propia, una comparacion con la vida real o con GTA 5, o una pequena historia. Nunca solo describir lo que se ve. Nada inventado: si un dato no esta comprobado, no va. Cierra con una pregunta para los comentarios y despues el cierre. Varia la estructura entre clips para que no salgan en serie con la misma plantilla. Sin spoilers en la primera frase.",
+    "politicas": "YouTube: la narracion y la edicion propias son el aporte que pide su politica de contenido reutilizado; la voz de IA no necesita la etiqueta de contenido alterado mientras no imite a una persona real ni muestre hechos reales falsos. TikTok: al publicar se activa la etiqueta de contenido generado por IA (la voz es de IA); nunca subir un archivo con marca de agua de otra red. Instagram: archivo limpio, sin marcas de agua de TikTok o YouTube. En las tres: nada sexual ni desnudos, nada de escenas sueltas de la historia, credito al canal del gameplay en la descripcion."
+  },
+
   "variantes": {
     "max_por_momento": 3,
     "puntaje_min": 72
