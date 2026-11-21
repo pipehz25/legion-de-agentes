@@ -5,6 +5,11 @@
 #       -> valida el envio y sube el clip a la cuenta que diga el envio ("cuenta"; sin ella, principal).
 #          Con -Simular solo valida (no usa la red). Guarda <envio>.resultado.json junto al envio y nunca sube dos
 #          veces el mismo envio, ni el mismo video a dos cuentas de la misma plataforma.
+#          YouTube: si el envio trae "programado" (fecha ISO 8601 futura), sube el video privado y YouTube lo hace
+#          publico solo a esa hora (status.publishAt).
+#   videos -Plataforma youtube [-Cuenta <alias>]
+#       -> JSON con los videos del canal (tambien los privados y los programados): titulo, privacidad y hora programada.
+#          Sirve para no volver a subir lo que el usuario ya subio a mano.
 #   comprobar -Plataforma <p> -IdPublicacion <id> [-Cuenta <alias>]
 #       -> estado del procesamiento en la plataforma (en Instagram publica el contenedor cuando ya esta listo)
 #   panel [-SinRed]
@@ -21,7 +26,7 @@
 # Uso: powershell -NoProfile -ExecutionPolicy Bypass -File legion/03-publicador/publicar.ps1 <accion> ...
 
 param(
-    [Parameter(Mandatory = $true, Position = 0)][ValidateSet('estado', 'subir', 'comprobar', 'panel', 'autorizar')][string]$Accion,
+    [Parameter(Mandatory = $true, Position = 0)][ValidateSet('estado', 'subir', 'videos', 'comprobar', 'panel', 'autorizar')][string]$Accion,
     [ValidateSet('youtube', 'tiktok', 'instagram', 'facebook')][string]$Plataforma,
     [string]$Datos,
     [string]$IdPublicacion,
@@ -226,7 +231,11 @@ function SubirYoutube($envio, [string]$archivo) {
     $snippet = [ordered]@{ title = $envio.titulo; description = $envio.texto; categoryId = [string]$cfg.categoria; defaultLanguage = $cfg.idioma; defaultAudioLanguage = $cfg.idioma }
     $etiquetas = @($envio.etiquetas | Where-Object { $_ })
     if ($etiquetas.Count) { $snippet.tags = $etiquetas }
-    $meta = [ordered]@{ snippet = $snippet; status = [ordered]@{ privacyStatus = $priv; selfDeclaredMadeForKids = $false } }
+    $status = [ordered]@{ privacyStatus = $priv; selfDeclaredMadeForKids = $false }
+    # Programado: YouTube exige que el video suba privado; a la hora de publishAt lo hace publico solo
+    $cuando = FechaProgramada $envio
+    if ($cuando) { $status.privacyStatus = 'private'; $status.publishAt = $cuando.UtcDateTime.ToString("yyyy-MM-dd'T'HH:mm:ss'Z'", $cultura) }
+    $meta = [ordered]@{ snippet = $snippet; status = $status }
     $tam = (Get-Item -LiteralPath $archivo).Length
     try {
         $r = Invoke-WebRequest -UseBasicParsing -Method Post -TimeoutSec 120 `
@@ -238,7 +247,15 @@ function SubirYoutube($envio, [string]$archivo) {
     if (-not $destino) { throw 'YouTube no devolvio la direccion de subida' }
     try { $v = Invoke-RestMethod -Method Put -Uri $destino -InFile $archivo -ContentType 'video/mp4' -Headers @{ Authorization = "Bearer $tok" } -TimeoutSec 1800 }
     catch { throw (ErrorHttp $_) }
-    [ordered]@{ id_publicacion = $v.id; url = "https://www.youtube.com/shorts/$($v.id)"; estado = 'publicado'; privacidad = $v.status.privacyStatus }
+    $r = [ordered]@{ id_publicacion = $v.id; url = "https://www.youtube.com/shorts/$($v.id)"; estado = 'publicado'; privacidad = $v.status.privacyStatus }
+    if ($cuando) { $r.programado = $cuando.ToString("yyyy-MM-dd'T'HH:mm:sszzz", $cultura) }
+    $r
+}
+# Hora de publicacion programada del envio ("programado", ISO 8601 con zona), o $null si no trae
+function FechaProgramada($envio) {
+    $p = [string](Campo $envio 'programado')
+    if (-not $p.Trim()) { return $null }
+    [DateTimeOffset]::Parse($p, $cultura)
 }
 function MetricasYoutube([string]$id) {
     $r = Api Get "https://www.googleapis.com/youtube/v3/videos?part=statistics&id=$([Uri]::EscapeDataString($id))" $null @{ Authorization = "Bearer $(TokenYoutube)" }
@@ -502,6 +519,10 @@ function Validar($envio, [string]$p, [string]$archivo) {
             if ($utf8.GetByteCount($texto) -gt 5000) { $err.Add('Descripcion de mas de 5000 bytes') }
             if ((@($envio.etiquetas | Where-Object { $_ }) -join ',').Length -gt 500) { $err.Add('Las etiquetas pasan de 500 caracteres') }
             if ($envio.privacidad -and @('private', 'unlisted', 'public') -notcontains $envio.privacidad) { $err.Add("Privacidad no valida para YouTube: $($envio.privacidad)") }
+            try {
+                $cuando = FechaProgramada $envio
+                if ($cuando -and $cuando -lt [DateTimeOffset]::Now.AddMinutes(10)) { $err.Add("La hora programada ($($envio.programado)) ya paso o falta menos de 10 minutos") }
+            } catch { $err.Add("Hora programada no valida: $($envio.programado). Usa ISO 8601 con zona, p. ej. 2026-11-22T17:00:00-05:00") }
             if ($dur -gt 180) { $avi.Add('Dura mas de 3 minutos: YouTube no lo tratara como Short') }
         }
         'tiktok' {
@@ -854,6 +875,42 @@ switch ($Accion) {
         } catch {
             $res.error = "$_"
             if (-not $res.estado) { $res.estado = 'error' }
+            Salir $res $false
+        }
+    }
+
+    'videos' {
+        $res = [ordered]@{ ok = $false; plataforma = $Plataforma; cuenta = $(if ($Cuenta) { $Cuenta } else { 'principal' }); canal = $null; videos = @(); error = $null; fecha = (Ahora) }
+        try {
+            if ($Plataforma -ne 'youtube') { throw 'Uso: videos -Plataforma youtube [-Cuenta <alias>] (por ahora solo YouTube)' }
+            UsarCuenta $Plataforma $Cuenta
+            $h = @{ Authorization = "Bearer $(TokenYoutube)" }
+            $canal = @((Api Get 'https://www.googleapis.com/youtube/v3/channels?part=snippet,contentDetails&mine=true' $null $h).items)[0]
+            if (-not $canal) { throw 'La cuenta autorizada no tiene canal de YouTube' }
+            $res.canal = $canal.snippet.title
+            # La lista de subidas del canal; con el token del dueno incluye los privados y los programados
+            $lista = [Uri]::EscapeDataString([string]$canal.contentDetails.relatedPlaylists.uploads)
+            $ids = New-Object Collections.Generic.List[string]
+            $pag = ''
+            do {
+                $url = "https://www.googleapis.com/youtube/v3/playlistItems?part=contentDetails&maxResults=50&playlistId=$lista"
+                if ($pag) { $url += "&pageToken=$pag" }
+                $r = Api Get $url $null $h
+                foreach ($it in @($r.items)) { $ids.Add([string]$it.contentDetails.videoId) }
+                $pag = Campo $r 'nextPageToken'
+            } while ($pag -and $ids.Count -lt 500)
+            $todos = $ids.ToArray()
+            $videos = for ($i = 0; $i -lt $todos.Count; $i += 50) {
+                $lote = ($todos[$i..([Math]::Min($i + 49, $todos.Count - 1))]) -join ','
+                foreach ($v in @((Api Get "https://www.googleapis.com/youtube/v3/videos?part=snippet,status&id=$lote" $null $h).items)) {
+                    [ordered]@{ id = $v.id; titulo = $v.snippet.title; subido = $v.snippet.publishedAt; privacidad = $v.status.privacyStatus; programado = (Campo $v.status 'publishAt'); estado = $v.status.uploadStatus; url = "https://www.youtube.com/shorts/$($v.id)" }
+                }
+            }
+            $res.videos = @($videos)
+            $res.ok = $true
+            Salir $res $true
+        } catch {
+            $res.error = "$_"
             Salir $res $false
         }
     }

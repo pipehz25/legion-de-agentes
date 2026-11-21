@@ -42,6 +42,7 @@ Tu herramienta es `legion/03-publicador/publicar.ps1`. Llámala siempre así:
 `powershell -NoProfile -ExecutionPolicy Bypass -File legion/03-publicador/publicar.ps1 <accion> ...`
 - `estado`: JSON con `espacio` y `base` (el prefijo de tus rutas; vacío en la raíz) y una fila por **cuenta** de cada plataforma: `cuenta` (el alias de `config.json`), `activa`, `linea`, `max_por_dia`, `credenciales`, `token` (`valido | error | sin_credenciales`) y `nombre` (cómo se llama la cuenta en la plataforma).
 - `subir -Plataforma <p> -Datos <ruta del envío> [-Simular]`: sube a la cuenta que diga el campo `cuenta` del envío. JSON con `ok`, `cuenta`, `estado` (`publicado | procesando | simulado | invalido | duplicado | repetido | descartado | interrumpido | error`), `id_publicacion`, `url`, `privacidad`, `avisos` y `error`. Con `-Simular` solo valida (cuenta, archivo, duración y límites de texto) sin usar la red.
+- `videos -Plataforma youtube [-Cuenta <alias>]`: los videos del canal, también los privados y los programados (`id`, `titulo`, `privacidad`, `programado`, `url`). Sirve para comprobar lo programado y para no subir lo que el usuario ya subió a mano.
 - `comprobar -Plataforma <p> -IdPublicacion <id> [-Cuenta <alias>]`: estado actual (`publicado | procesando | en_borradores | error`) y `url`. En Instagram, si el contenedor ya terminó de procesarse, lo publica. Pasa siempre el `-Cuenta` de la entrada si no es `principal`.
 - `panel [-SinRed]`: lee las vistas de lo publicado en los últimos `panel.dias` días y regenera `salidas/publicador/panel.html`. Devuelve `piezas`, `publicaciones`, `mediciones`, `vistas` y `avisos`. Con `-SinRed` no consulta las plataformas.
 - `autorizar`: **solo la ejecuta el usuario** en su propia ventana. Tú nunca.
@@ -114,11 +115,12 @@ Si un id no existe, dilo en la respuesta y no apruebes nada parecido por tu cuen
   "titulo": "Solo YouTube: título del Short",
   "texto": "Descripción en YouTube; texto de la publicación en TikTok, Instagram y Facebook, con hashtags y crédito",
   "etiquetas": ["solo", "youtube", "sin almohadilla"],
-  "privacidad": null
+  "privacidad": null,
+  "programado": null
 }
 ```
 
-`cuenta` es el alias de `config.json`; si falta, es `principal`. `privacidad: null` usa la de `config.json`. Valores: YouTube `private | unlisted | public`; TikTok (destino `directo`) `SELF_ONLY | MUTUAL_FOLLOW_FRIENDS | FOLLOWER_OF_CREATOR | PUBLIC_TO_EVERYONE`; Facebook `DRAFT | PUBLISHED`. Instagram no tiene.
+`cuenta` es el alias de `config.json`; si falta, es `principal`. `privacidad: null` usa la de `config.json`. `programado` (solo YouTube, opcional): fecha ISO 8601 con zona en que el video se hace público; el script lo sube privado con esa hora (`status.publishAt`) y rechaza (`invalido`) una hora que ya pasó o a la que faltan menos de 10 minutos. Si el usuario pide programar, el tope `max_por_dia` cuenta por día de publicación, no por día de subida. Valores: YouTube `private | unlisted | public`; TikTok (destino `directo`) `SELF_ONLY | MUTUAL_FOLLOW_FRIENDS | FOLLOWER_OF_CREATOR | PUBLIC_TO_EVERYONE`; Facebook `DRAFT | PUBLISHED`. Instagram no tiene.
 
 ### `datos/publicador/estado.json`
 
