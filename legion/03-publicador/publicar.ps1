@@ -997,8 +997,10 @@ switch ($Accion) {
         Write-Host 'Pasos previos en legion/03-publicador/plataformas.md'
         switch ($Plataforma) {
             'youtube' {
-                $id = (Read-Host 'client_id del cliente OAuth (tipo Aplicacion de escritorio)').Trim()
-                $secreto = (LeerSecreto 'client_secret').Trim()
+                # Sin preguntas (por ejemplo desde Claude): client_id en LEGION_CLIENT_KEY y client_secret en LEGION_CLIENT_SECRET
+                $id = Dato 'client_id del cliente OAuth (tipo Aplicacion de escritorio)' 'LEGION_CLIENT_KEY'
+                $secreto = Dato 'client_secret' 'LEGION_CLIENT_SECRET' -Secreto
+                if (-not $id -or -not $secreto) { throw 'Falta el client_id o el client_secret (se pego vacio). Vuelve a ejecutar el comando.' }
                 $redir = "http://127.0.0.1:$($config.puerto_oauth)"
                 $verif = Aleatorio 64
                 $estadoOauth = Aleatorio 24
