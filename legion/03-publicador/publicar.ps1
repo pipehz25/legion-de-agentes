@@ -8,7 +8,8 @@
 #          YouTube: si el envio trae "programado" (fecha ISO 8601 futura), sube el video privado y YouTube lo hace
 #          publico solo a esa hora (status.publishAt).
 #   videos -Plataforma youtube [-Cuenta <alias>]
-#       -> JSON con los videos del canal (tambien los privados y los programados): titulo, privacidad y hora programada.
+#       -> JSON con los videos del canal (tambien los privados y los programados): titulo, privacidad, hora programada,
+#          vistas, me gusta y comentarios.
 #          Sirve para no volver a subir lo que el usuario ya subio a mano.
 #   comprobar -Plataforma <p> -IdPublicacion <id> [-Cuenta <alias>]
 #       -> estado del procesamiento en la plataforma (en Instagram publica el contenedor cuando ya esta listo)
@@ -902,8 +903,9 @@ switch ($Accion) {
             $todos = $ids.ToArray()
             $videos = for ($i = 0; $i -lt $todos.Count; $i += 50) {
                 $lote = ($todos[$i..([Math]::Min($i + 49, $todos.Count - 1))]) -join ','
-                foreach ($v in @((Api Get "https://www.googleapis.com/youtube/v3/videos?part=snippet,status&id=$lote" $null $h).items)) {
-                    [ordered]@{ id = $v.id; titulo = $v.snippet.title; subido = $v.snippet.publishedAt; privacidad = $v.status.privacyStatus; programado = (Campo $v.status 'publishAt'); estado = $v.status.uploadStatus; url = "https://www.youtube.com/shorts/$($v.id)" }
+                foreach ($v in @((Api Get "https://www.googleapis.com/youtube/v3/videos?part=snippet,status,statistics&id=$lote" $null $h).items)) {
+                    [ordered]@{ id = $v.id; titulo = $v.snippet.title; subido = $v.snippet.publishedAt; privacidad = $v.status.privacyStatus; programado = (Campo $v.status 'publishAt'); estado = $v.status.uploadStatus
+                        vistas = (Entero (Campo $v.statistics 'viewCount')); me_gusta = (Entero (Campo $v.statistics 'likeCount')); comentarios = (Entero (Campo $v.statistics 'commentCount')); url = "https://www.youtube.com/shorts/$($v.id)" }
                 }
             }
             $res.videos = @($videos)
