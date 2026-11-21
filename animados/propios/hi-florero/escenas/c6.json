@@ -1,0 +1,46 @@
+{
+  "capitulo": "c6",
+  "escenas": {
+    "c6-no-unido": { "plantilla": "titular", "datos": { "lineas": ["No era", "un país unido"], "resalta": 1, "dibujo": "balanza", "palabra_dibujo": "unido" } },
+    "c6-provincias": { "plantilla": "cifra", "datos": { "valor": 2, "unidad": "bandos", "rotulo": "Sin acuerdo sobre cómo gobernarse", "dibujo": "balanza", "palabra": "pusieron" } },
+    "c6-narino": { "plantilla": "personaje", "datos": { "personaje": "narino", "anios": "1765-1823", "rol": "Líder de Cundinamarca, preso en Cartagena en 1810", "palabra_anios": "Nariño" } },
+    "c6-viaje-narino": { "plantilla": "mapa", "datos": {
+      "vistas": [ { "centro": [-74.6, 7.0], "ancho": 20 } ],
+      "paises": [ { "id": "colombia", "color": "acento2", "opacidad": 0.22, "en": 0 } ],
+      "marcas": [ { "texto": "Cartagena", "lugar": "cartagena", "lado": "derecha", "tam": 32, "en": 0.05 }, { "texto": "Santafé", "lugar": "bogota", "lado": "derecha", "tam": 32, "palabra": "volvió" } ],
+      "rutas": [ { "puntos": [[-75.5, 10.4], [-74.9, 8.0], [-74.5, 6.0], [-74.08, 4.65]], "estilo": "flecha", "color": "acento", "grosor": 7, "palabra": "volvió", "dur": 1.6 } ],
+      "cartela": { "titulo": "Nariño, 1810", "sub": "De la cárcel en Cartagena a Santafé" } } },
+    "c6-cundinamarca": { "plantilla": "fichas", "datos": { "titulo": "Nariño, desde 1811", "fichas": [ { "texto": "Gobierna Cundinamarca", "dibujo": "bandera", "palabra": "gobernó" }, { "texto": "Santafé y alrededores", "dibujo": "montana", "palabra": "estado" }, { "texto": "Gobierno central fuerte", "dibujo": "balanza", "palabra": "defendía", "resalta": true } ] } },
+    "c6-federacion": { "plantilla": "titular", "datos": { "lineas": ["Provincias Unidas:", "una federación"], "resalta": 1, "dibujo": "documento", "palabra_dibujo": "federación" } },
+    "c6-torres": { "plantilla": "personaje", "datos": { "personaje": "torres", "anios": "Fusilado en 1816", "rol": "Presidía el Congreso de las Provincias Unidas" } },
+    "c6-bandos": { "plantilla": "dos-personajes", "datos": { "izquierda": { "personaje": "narino", "pose": "brazos-cruzados", "expresion": "enojado", "rol": "Cundinamarca, centralista" }, "derecha": { "personaje": "torres", "pose": "brazos-cruzados", "expresion": "serio", "rol": "Provincias Unidas, federales" } } },
+    "c6-patria-boba": { "plantilla": "titular", "datos": { "lineas": ["Años después:", "«la Patria Boba»"], "resalta": 1, "insignia": "Nariño, Los toros de Fucha, 1823", "dibujo": "pluma", "palabra_dibujo": "burlón" } },
+    "c6-hitos": { "plantilla": "linea-tiempo", "datos": { "titulo": "Del rey cautivo al ejército", "actual": 1, "palabra_actual": "volvió", "hitos": [ { "anio": "1808", "texto": "Napoleón invade España" }, { "anio": "1814", "texto": "Fernando VII vuelve al trono" }, { "anio": "1815", "texto": "Un ejército sale hacia América" } ] } },
+    "c6-ejercito": { "plantilla": "vehiculo", "datos": { "tipo": "barco", "guerra": true, "anio": "1815", "rotulo": "Ejército a América", "detalle": "A recuperar sus territorios", "palabras": { "anio": "año", "entra": "mandó", "rotulo": "ejército", "detalle": "recuperar" } } },
+    "c6-morillo": { "plantilla": "personaje", "datos": { "personaje": "morillo", "anios": "Llegó en 1815", "rol": "General español, jefe de la reconquista" } },
+    "c6-reconquista": { "plantilla": "mapa", "datos": {
+      "vistas": [ { "centro": [-74.6, 7.0], "ancho": 20 } ],
+      "paises": [ { "id": "colombia", "color": "acento2", "opacidad": 0.22, "en": 0 } ],
+      "marcas": [ { "texto": "Cartagena", "lugar": "cartagena", "lado": "derecha", "tam": 32, "en": 0.02 }, { "texto": "Santafé", "lugar": "bogota", "lado": "derecha", "tam": 32, "palabra": "Santafé" } ],
+      "rutas": [ { "puntos": [[-75.5, 10.4], [-74.9, 8.0], [-74.5, 6.0], [-74.08, 4.65]], "estilo": "flecha", "color": "alerta", "grosor": 7, "palabra": "1816", "dur": 1.6 } ],
+      "cartela": { "titulo": "La reconquista", "sub": "De Cartagena a Santafé" },
+      "fichas": [ { "titulo": "Dic. 1815", "texto": "Cae Cartagena", "dibujo": "cruz", "palabra": "diciembre", "lugar": "abajo-izquierda" }, { "titulo": "1816", "texto": "Entran en Santafé", "dibujo": "canon", "palabra": "entraron", "lugar": "abajo-derecha" } ] } },
+    "c6-represion": { "plantilla": "titular", "datos": { "lineas": ["Vino la", "represión"], "resalta": 1, "dibujo": "cruz", "palabra_dibujo": "represión" } },
+    "c6-fusilados": { "plantilla": "tablero", "datos": { "personajes": ["villavicencio", "torres"], "titulo": "Fusilados en 1816" } },
+    "c6-caldas": { "plantilla": "recorte", "datos": { "foto": "File:Caldas marcha al suplicio - Alberto Urdaneta Urdaneta.jpg", "pie": "«Caldas marcha al suplicio», Urdaneta", "insignia": "Octubre de 1816", "titulo": "Caldas, fusilado", "texto": "El científico del observatorio", "lado": "izquierda" } },
+    "c6-acevedo": { "plantilla": "personaje", "datos": { "personaje": "acevedo", "anios": "Murió en 1817", "rol": "El tribuno del pueblo, escondido en la selva" } },
+    "c6-boyaca": { "plantilla": "titular", "datos": { "lineas": ["La batalla", "de Boyacá"], "resalta": 1, "calendario": { "arriba": "Ago", "numero": "7", "abajo": "1819", "lado": "derecha", "palabra": "1819," } } }
+  },
+  "frases": [
+    { "id": "f43", "escena": "c6-no-unido", "cortes": [ { "escena": "c6-provincias", "palabra": 10 } ] },
+    { "id": "f44", "escena": "c6-narino", "cortes": [ { "escena": "c6-viaje-narino", "palabra": 13 } ] },
+    { "id": "f45", "escena": "c6-cundinamarca" },
+    { "id": "f46", "escena": "c6-federacion", "cortes": [ { "escena": "c6-torres", "palabra": 14 } ] },
+    { "id": "f47", "escena": "c6-bandos", "cortes": [ { "escena": "c6-patria-boba", "palabra": 12 } ] },
+    { "id": "f48", "escena": "c6-hitos", "cortes": [ { "escena": "c6-ejercito", "palabra": 18 } ] },
+    { "id": "f49", "escena": "c6-morillo", "cortes": [ { "escena": "c6-reconquista", "palabra": 10 } ] },
+    { "id": "f50", "escena": "c6-represion", "cortes": [ { "escena": "c6-fusilados", "palabra": 10 } ] },
+    { "id": "f51", "escena": "c6-caldas", "cortes": [ { "escena": "c6-acevedo", "palabra": 13 } ] },
+    { "id": "f52", "escena": "c6-boyaca" }
+  ]
+}

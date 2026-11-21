@@ -1,0 +1,391 @@
+{
+  "capitulo": "c2",
+  "escenas": {
+    "c2-napoleon": {
+      "plantilla": "personaje",
+      "datos": {
+        "personaje": "napoleon",
+        "bandera": false,
+        "rol": "Sus tropas ya estaban dentro de España",
+        "palabra_rol": "tropas",
+        "anios": "En 1808"
+      }
+    },
+    "c2-bayona": {
+      "plantilla": "recorte",
+      "datos": {
+        "foto": "File:Abdications of Bayonne (F. Peréz, c. 1846).jpg",
+        "pie": "Las abdicaciones de Bayona (grabado, hacia 1846)",
+        "insignia": "Bayona, mayo de 1808",
+        "titulo": "Las abdicaciones de Bayona",
+        "texto": "Carlos IV y Fernando VII ceden la corona",
+        "lado": "izquierda",
+        "palabras": {
+          "foto": "Bayona"
+        }
+      }
+    },
+    "c2-cesion": {
+      "plantilla": "dos-personajes",
+      "datos": {
+        "izquierda": {
+          "personaje": "fernando7",
+          "bandera": false,
+          "expresion": "serio",
+          "pose": "neutral"
+        },
+        "derecha": {
+          "personaje": "napoleon",
+          "bandera": false,
+          "expresion": "astuto",
+          "pose": "brazos-cruzados"
+        },
+        "firma": "izquierda",
+        "palabra_firma": "cedieran"
+      }
+    },
+    "c2-jose": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": [
+          "En el trono,",
+          "su hermano",
+          "José Bonaparte"
+        ],
+        "resalta": 2,
+        "calendario": {
+          "arriba": "Jun",
+          "numero": "6",
+          "abajo": "1808",
+          "lado": "izquierda",
+          "palabra": "puso"
+        }
+      }
+    },
+    "c2-cautivo": {
+      "plantilla": "recorte",
+      "datos": {
+        "foto": "File:Boney at Bayonne blowing a Spanish bubble LCCN2006681466.jpg",
+        "pie": "Caricatura británica de 1808",
+        "insignia": "Bayona, 1808",
+        "titulo": "Fernando, en Francia",
+        "texto": "En manos de Napoleón",
+        "lado": "derecha",
+        "palabras": {
+          "foto": "legítimo",
+          "titulo": "Francia",
+          "texto": "manos"
+        }
+      }
+    },
+    "c2-terremoto": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": [
+          "Un terremoto",
+          "político:",
+          "¿quién mandaba?"
+        ],
+        "resalta": 2,
+        "dibujo": "derrumbe",
+        "palabra_dibujo": "terremoto"
+      }
+    },
+    "c2-fernando": {
+      "plantilla": "fichas",
+      "datos": {
+        "titulo": "En España",
+        "fichas": [
+          {
+            "texto": "Las juntas",
+            "dibujo": "sello",
+            "palabra": "juntas"
+          },
+          {
+            "texto": "En nombre del rey",
+            "dibujo": "pluma",
+            "palabra": "gobiernos",
+            "resalta": true
+          }
+        ]
+      }
+    },
+    "c2-juntas": {
+      "plantilla": "linea-tiempo",
+      "datos": {
+        "titulo": "Quién mandaba en España",
+        "hitos": [
+          {
+            "anio": "Mayo 1808",
+            "texto": "Bayona: el rey cede la corona"
+          },
+          {
+            "anio": "1808",
+            "texto": "Se forma la Junta Central",
+            "palabra": "Junta"
+          },
+          {
+            "anio": "Ene 1810",
+            "texto": "La reemplaza el Consejo de Regencia",
+            "palabra": "reemplazó"
+          }
+        ],
+        "actual": 2,
+        "palabra_actual": "reemplazó"
+      }
+    },
+    "c2-criollo": {
+      "plantilla": "personaje",
+      "datos": {
+        "personaje": "criollo",
+        "rol": "Descendiente de españoles nacido en América",
+        "palabra_rol": "descendientes",
+        "anios": "Hacia 1810"
+      }
+    },
+    "c2-porque-no": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": [
+          "Si en España",
+          "hay juntas,",
+          "¿por qué aquí no?"
+        ],
+        "resalta": 2,
+        "dibujo": "balanza",
+        "palabra_dibujo": "juntas"
+      }
+    },
+    "c2-torres": {
+      "plantilla": "recorte",
+      "datos": {
+        "foto": "File:Camilo Torres y Tenorio.jpg",
+        "pie": "Camilo Torres, según Espinosa",
+        "insignia": "Santafé, 1809",
+        "titulo": "El abogado Camilo Torres",
+        "texto": "Redactó el texto para el cabildo",
+        "lado": "izquierda",
+        "palabras": {
+          "foto": "abogado",
+          "titulo": "Camilo",
+          "texto": "redactó"
+        }
+      }
+    },
+    "c2-memorial": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": [
+          "Memorial",
+          "de agravios"
+        ],
+        "resalta": 1,
+        "calendario": {
+          "arriba": "Nov",
+          "numero": "20",
+          "abajo": "1809",
+          "lado": "derecha",
+          "palabra": "Memorial"
+        }
+      }
+    },
+    "c2-reclamos": {
+      "plantilla": "fichas",
+      "datos": {
+        "titulo": "El Memorial de agravios",
+        "fichas": [
+          {
+            "texto": "Pedía igualdad",
+            "dibujo": "balanza",
+            "palabra": "igualdad"
+          },
+          {
+            "texto": "Nunca llegó a su destino",
+            "dibujo": "cruz",
+            "palabra": "nunca",
+            "resalta": true
+          }
+        ]
+      }
+    },
+    "c2-julio": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": [
+          "Julio de 1810:",
+          "el movimiento",
+          "ya había empezado"
+        ],
+        "resalta": 2,
+        "dibujo": "calendario",
+        "palabra_dibujo": "julio"
+      }
+    },
+    "c2-provincias": {
+      "plantilla": "mapa",
+      "datos": {
+        "vistas": [
+          {
+            "centro": [
+              -74.5,
+              5.5
+            ],
+            "ancho": 15
+          }
+        ],
+        "paises": [
+          {
+            "id": "colombia",
+            "color": "acento2",
+            "opacidad": 0.35,
+            "en": 0
+          }
+        ],
+        "rotulos": [
+          {
+            "texto": "Océano Pacífico",
+            "lugar": [
+              -79.8,
+              4.6
+            ],
+            "estilo": "mar",
+            "tam": 34,
+            "en": 0
+          }
+        ],
+        "marcas": [
+          {
+            "texto": "Cali",
+            "lugar": [
+              -76.53,
+              3.45
+            ],
+            "lado": "izquierda",
+            "tam": 40,
+            "palabra": "Cali,"
+          },
+          {
+            "texto": "Pamplona",
+            "lugar": [
+              -72.65,
+              7.37
+            ],
+            "lado": "derecha",
+            "tam": 40,
+            "palabra": "Pamplona"
+          },
+          {
+            "texto": "Socorro",
+            "lugar": [
+              -73.26,
+              6.47
+            ],
+            "lado": "izquierda",
+            "tam": 40,
+            "palabra": "Socorro"
+          },
+          {
+            "texto": "Santafé",
+            "lugar": "bogota",
+            "lado": "derecha",
+            "tam": 40,
+            "palabra": "capital"
+          }
+        ],
+        "cartela": {
+          "titulo": "Julio de 1810",
+          "sub": "Tres ciudades se adelantaron a Santafé"
+        }
+      }
+    },
+    "c2-amar": {
+      "plantilla": "personaje",
+      "datos": {
+        "personaje": "amar",
+        "bandera": false,
+        "anios": "1742-1826",
+        "rol": "Virrey de la Nueva Granada, de 1803 a 1810",
+        "palabra_anios": "virrey",
+        "palabra_rol": "gobernaba"
+      }
+    }
+  },
+  "frases": [
+    {
+      "id": "f10",
+      "escena": "c2-napoleon",
+      "cortes": [
+        {
+          "escena": "c2-bayona",
+          "palabra": 12
+        },
+        {
+          "escena": "c2-cesion",
+          "palabra": 28
+        }
+      ]
+    },
+    {
+      "id": "f11",
+      "escena": "c2-jose",
+      "cortes": [
+        {
+          "escena": "c2-cautivo",
+          "palabra": 11
+        }
+      ]
+    },
+    {
+      "id": "f12",
+      "escena": "c2-terremoto"
+    },
+    {
+      "id": "f13",
+      "escena": "c2-fernando",
+      "cortes": [
+        {
+          "escena": "c2-juntas",
+          "palabra": 15
+        }
+      ]
+    },
+    {
+      "id": "f14",
+      "escena": "c2-criollo",
+      "cortes": [
+        {
+          "escena": "c2-porque-no",
+          "palabra": 14
+        }
+      ]
+    },
+    {
+      "id": "f15",
+      "escena": "c2-torres",
+      "cortes": [
+        {
+          "escena": "c2-memorial",
+          "palabra": 12
+        },
+        {
+          "escena": "c2-reclamos",
+          "palabra": 22
+        }
+      ]
+    },
+    {
+      "id": "f16",
+      "escena": "c2-julio",
+      "cortes": [
+        {
+          "escena": "c2-provincias",
+          "palabra": 15
+        }
+      ]
+    },
+    {
+      "id": "f17",
+      "escena": "c2-amar"
+    }
+  ]
+}

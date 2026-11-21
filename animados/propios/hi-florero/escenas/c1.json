@@ -1,0 +1,172 @@
+{
+  "capitulo": "c1",
+  "escenas": {
+    "c1-version": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": [
+          "La versión",
+          "más conocida",
+          "cabe en un párrafo"
+        ],
+        "resalta": 2,
+        "dibujo": "pluma",
+        "palabra_dibujo": "conocida"
+      }
+    },
+    "c1-llorente": {
+      "plantilla": "personaje",
+      "datos": {
+        "personaje": "llorente",
+        "bandera": false,
+        "rol": "Comerciante español, con tienda en la plaza",
+        "palabra_rol": "comerciante",
+        "anios": "Santafé, 1810"
+      }
+    },
+    "c1-pasos": {
+      "plantilla": "linea-tiempo",
+      "datos": {
+        "titulo": "La versión del colegio",
+        "hitos": [
+          {
+            "anio": "Primero",
+            "texto": "Llorente se niega",
+            "palabra": "niega"
+          },
+          {
+            "anio": "Luego",
+            "texto": "Insulta a los americanos",
+            "palabra": "insulta"
+          },
+          {
+            "anio": "Después",
+            "texto": "Gritos y golpes",
+            "palabra": "americanos."
+          }
+        ],
+        "actual": 2,
+        "palabra_actual": "americanos."
+      }
+    },
+    "c1-gobierno": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": [
+          "Esa misma noche,",
+          "nace un",
+          "nuevo gobierno"
+        ],
+        "resalta": 2,
+        "dibujo": "sello",
+        "palabra_dibujo": "nace"
+      }
+    },
+    "c1-casualidad": {
+      "plantilla": "recorte",
+      "datos": {
+        "foto": "File:Florero de Llorente.jpg",
+        "pie": "La parte que se conserva del florero (foto de 2012)",
+        "insignia": "Un objeto",
+        "titulo": "¿Pura casualidad?",
+        "texto": "Así suena la versión escolar",
+        "lado": "derecha"
+      }
+    },
+    "c1-faltan": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": [
+          "A esa versión",
+          "le faltan piezas"
+        ],
+        "resalta": 1,
+        "dibujo": "balanza",
+        "palabra_dibujo": "piezas"
+      }
+    },
+    "c1-preguntas": {
+      "plantilla": "fichas",
+      "datos": {
+        "titulo": "Dos preguntas sin respuesta",
+        "fichas": [
+          {
+            "texto": "¿Gente lista ese día?",
+            "dibujo": "calendario",
+            "palabra": "protestar"
+          },
+          {
+            "texto": "¿Por qué ese comerciante?",
+            "dibujo": "moneda",
+            "palabra": "pedido",
+            "resalta": true
+          }
+        ]
+      }
+    },
+    "c1-atras": {
+      "plantilla": "linea-tiempo",
+      "datos": {
+        "titulo": "Retroceder dos años",
+        "hitos": [
+          {
+            "anio": "1808",
+            "texto": "España sin su rey",
+            "palabra": "años"
+          },
+          {
+            "anio": "1809",
+            "texto": "El Memorial de agravios",
+            "palabra": "retroceder"
+          },
+          {
+            "anio": "1810",
+            "texto": "El 20 de julio en Santafé"
+          }
+        ],
+        "actual": 0,
+        "palabra_actual": "años"
+      }
+    }
+  },
+  "frases": [
+    {
+      "id": "f5",
+      "escena": "c1-version",
+      "cortes": [
+        {
+          "escena": "c1-llorente",
+          "palabra": 16
+        }
+      ]
+    },
+    {
+      "id": "f6",
+      "escena": "c1-pasos",
+      "cortes": [
+        {
+          "escena": "c1-gobierno",
+          "palabra": 16
+        }
+      ]
+    },
+    {
+      "id": "f7",
+      "escena": "c1-casualidad"
+    },
+    {
+      "id": "f8",
+      "escena": "c1-faltan",
+      "cortes": [
+        {
+          "escena": "c1-preguntas",
+          "palabra": 12
+        }
+      ]
+    },
+    {
+      "id": "f9",
+      "escena": "c1-atras"
+    }
+  ]
+}

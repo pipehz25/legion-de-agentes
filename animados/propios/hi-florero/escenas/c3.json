@@ -1,0 +1,282 @@
+{
+  "capitulo": "c3",
+  "escenas": {
+    "c3-secreto": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": [
+          "Criollos que se",
+          "reúnen en secreto",
+          "primero, en casas"
+        ],
+        "resalta": 1,
+        "dibujo": "reloj",
+        "palabra_dibujo": "secreto",
+        "todo_al_inicio": true
+      }
+    },
+    "c3-observatorio": {
+      "plantilla": "recorte",
+      "datos": {
+        "foto": "File:Observatorio Astronómico Nacional - Bogota.jpg",
+        "pie": "Observatorio Astronómico, 1886",
+        "insignia": "Según varios relatos",
+        "titulo": "El Observatorio de Caldas",
+        "texto": "Dirigido por el científico F. J. de Caldas",
+        "lado": "derecha",
+        "palabras": {
+          "foto": "observatorio",
+          "titulo": "observatorio",
+          "texto": "científico"
+        }
+      }
+    },
+    "c3-tablero": {
+      "plantilla": "tablero",
+      "datos": {
+        "personajes": [
+          "acevedo",
+          "torres",
+          "morales"
+        ],
+        "titulo": "Los criollos del plan",
+        "palabras": {
+          "personajes": "regidor",
+          "papeles": "Camilo",
+          "titulo": "Camacho,"
+        },
+        "papeles": [
+          {
+            "foto": "File:Casa del Florero.jpg",
+            "pie": "La Casa del Florero, hoy museo"
+          }
+        ]
+      }
+    },
+    "c3-junta": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": [
+          "Querían una",
+          "junta propia",
+          "para Santafé"
+        ],
+        "resalta": 2,
+        "todo_al_inicio": true,
+        "dibujo": "pluma"
+      }
+    },
+    "c3-como": {
+      "plantilla": "cifra",
+      "datos": {
+        "cifra": "¿Cómo?",
+        "rotulo": "lograrlo sin una guerra",
+        "dibujo": "canon",
+        "palabra": "cómo",
+        "palabra_rotulo": "lograrlo"
+      }
+    },
+    "c3-idea": {
+      "plantilla": "fichas",
+      "datos": {
+        "titulo": "La idea",
+        "fichas": [
+          {
+            "texto": "Un desorden en la calle",
+            "dibujo": "derrumbe",
+            "palabra": "desorden"
+          },
+          {
+            "texto": "Corto y limitado",
+            "dibujo": "reloj",
+            "palabra": "corto"
+          },
+          {
+            "texto": "Una junta ese mismo día",
+            "dibujo": "sello",
+            "palabra": "aceptar",
+            "resalta": true
+          }
+        ]
+      }
+    },
+    "c3-excusa": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": [
+          "La excusa",
+          "llegó con",
+          "una visita"
+        ],
+        "resalta": 2,
+        "dibujo": "documento",
+        "palabra_dibujo": "visita"
+      }
+    },
+    "c3-villavicencio": {
+      "plantilla": "personaje",
+      "datos": {
+        "personaje": "villavicencio",
+        "rol": "Comisionado quiteño de la Regencia",
+        "palabra_rol": "quiteño",
+        "anios": "En 1810"
+      }
+    },
+    "c3-plan": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": [
+          "El plan era",
+          "sencillo:",
+          "una comida"
+        ],
+        "resalta": 2,
+        "dibujo": "moneda",
+        "palabra_dibujo": "comida"
+      }
+    },
+    "c3-pedido": {
+      "plantilla": "dos-personajes",
+      "datos": {
+        "izquierda": {
+          "personaje": "criollo",
+          "expresion": "sonrisa",
+          "pose": "senalar"
+        },
+        "derecha": {
+          "personaje": "llorente",
+          "bandera": false,
+          "expresion": "serio",
+          "pose": "brazos-cruzados"
+        },
+        "foto": "File:Florero de Llorente.jpg",
+        "foto_pie": "El florero, hoy en la Casa del Florero",
+        "palabra_foto": "florero,"
+      }
+    },
+    "c3-esquina": {
+      "plantilla": "recorte",
+      "datos": {
+        "foto": "File:Casa del Florero.jpg",
+        "pie": "Casa del Florero, carrera 7 con calle 11 (2010)",
+        "insignia": "La esquina de la plaza",
+        "titulo": "Si se negaba, habría pelea",
+        "texto": "La tienda de Llorente estaba en esa esquina",
+        "lado": "izquierda"
+      }
+    },
+    "c3-caldas": {
+      "plantilla": "personaje",
+      "datos": {
+        "personaje": "caldas",
+        "rol": "Científico, director del Observatorio",
+        "palabra_rol": "pasaría",
+        "anios": "Hacia 1810"
+      }
+    },
+    "c3-saludo": {
+      "plantilla": "dos-personajes",
+      "datos": {
+        "izquierda": {
+          "personaje": "caldas",
+          "expresion": "sonrisa",
+          "pose": "saludar"
+        },
+        "derecha": {
+          "personaje": "llorente",
+          "bandera": false,
+          "expresion": "neutral",
+          "pose": "neutral"
+        }
+      }
+    },
+    "c3-viernes": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": [
+          "El viernes",
+          "20 de julio:",
+          "día de mercado"
+        ],
+        "resalta": 2,
+        "calendario": {
+          "arriba": "Viernes",
+          "numero": "20",
+          "abajo": "Julio 1810",
+          "lado": "izquierda",
+          "palabra": "viernes"
+        }
+      }
+    }
+  },
+  "frases": [
+    {
+      "id": "f18",
+      "escena": "c3-secreto",
+      "cortes": [
+        {
+          "escena": "c3-observatorio",
+          "palabra": 15
+        }
+      ]
+    },
+    {
+      "id": "f19",
+      "escena": "c3-tablero",
+      "cortes": [
+        {
+          "escena": "c3-junta",
+          "palabra": 19
+        }
+      ]
+    },
+    {
+      "id": "f20",
+      "escena": "c3-como",
+      "cortes": [
+        {
+          "escena": "c3-idea",
+          "palabra": 12
+        }
+      ]
+    },
+    {
+      "id": "f21",
+      "escena": "c3-excusa",
+      "cortes": [
+        {
+          "escena": "c3-villavicencio",
+          "palabra": 11
+        }
+      ]
+    },
+    {
+      "id": "f22",
+      "escena": "c3-plan",
+      "cortes": [
+        {
+          "escena": "c3-pedido",
+          "palabra": 12
+        }
+      ]
+    },
+    {
+      "id": "f23",
+      "escena": "c3-esquina"
+    },
+    {
+      "id": "f24",
+      "escena": "c3-caldas",
+      "cortes": [
+        {
+          "escena": "c3-saludo",
+          "palabra": 14
+        }
+      ]
+    },
+    {
+      "id": "f25",
+      "escena": "c3-viernes"
+    }
+  ]
+}

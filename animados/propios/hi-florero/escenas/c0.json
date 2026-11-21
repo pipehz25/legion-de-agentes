@@ -1,0 +1,58 @@
+{
+  "capitulo": "c0",
+  "escenas": {
+    "c0-viernes": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": ["Santafé de Bogotá", "un comerciante", "se niega a prestar"],
+        "resalta": 1,
+        "calendario": { "arriba": "Viernes", "numero": "20", "abajo": "Julio 1810", "lado": "derecha", "palabra": "20" }
+      }
+    },
+    "c0-florero": {
+      "plantilla": "recorte",
+      "datos": {
+        "foto": "File:El Florero de Llorente.JPG",
+        "pie": "El «florero de Llorente», Casa del Florero",
+        "insignia": "Versión escolar",
+        "titulo": "Un florero, una pelea",
+        "texto": "Así lo aprendimos en el colegio",
+        "lado": "izquierda",
+        "palabras": { "foto": "florero", "titulo": "pelea", "texto": "colegio" }
+      }
+    },
+    "c0-excusa": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": ["No fue un", "accidente:", "estaba planeada"],
+        "resalta": 2,
+        "dibujo": "documento",
+        "palabra_dibujo": "planeada"
+      }
+    },
+    "c0-acta": {
+      "plantilla": "fichas",
+      "datos": {
+        "titulo": "El acta de esa noche",
+        "fichas": [
+          { "texto": "No rompió con el rey", "dibujo": "sello", "palabra": "rompió" },
+          { "texto": "Fidelidad, con condición", "dibujo": "balanza", "palabra": "juraba", "resalta": true }
+        ]
+      }
+    },
+    "c0-preguntas": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": ["¿Quién la planeó?", "¿Para qué?", "¿Y el florero?"],
+        "resalta": 2,
+        "insignia": "Contada con documentos"
+      }
+    }
+  },
+  "frases": [
+    { "id": "f1", "escena": "c0-viernes", "cortes": [{ "escena": "c0-florero", "palabra": 16 }] },
+    { "id": "f2", "escena": "c0-excusa" },
+    { "id": "f3", "escena": "c0-acta" },
+    { "id": "f4", "escena": "c0-preguntas" }
+  ]
+}

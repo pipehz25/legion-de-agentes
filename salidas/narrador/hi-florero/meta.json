@@ -1,0 +1,103 @@
+{
+  "id": "hi-florero",
+  "tipo": "largo",
+  "modo": "escenas",
+  "titulo": "¿Un florero empezó la independencia? El plan detrás del 20 de julio",
+  "duracion_s": 554.6,
+  "volumen": "I: -14.0 LUFS",
+  "voz": "elevenlabs / C12mZePhNoo0RoTXhSFV",
+  "formato": "1920x1080",
+  "capitulos": [
+    {
+      "inicio": "00:00",
+      "titulo": "Introducción"
+    },
+    {
+      "inicio": "00:32",
+      "titulo": "El mito del florero"
+    },
+    {
+      "inicio": "01:12",
+      "titulo": "Un rey cautivo"
+    },
+    {
+      "inicio": "02:41",
+      "titulo": "El plan"
+    },
+    {
+      "inicio": "04:00",
+      "titulo": "El día del florero"
+    },
+    {
+      "inicio": "05:07",
+      "titulo": "Una noche, un acta"
+    },
+    {
+      "inicio": "06:22",
+      "titulo": "La Patria Boba"
+    },
+    {
+      "inicio": "08:03",
+      "titulo": "¿Y el florero?"
+    }
+  ],
+  "escenas": 104,
+  "imagenes": 11,
+  "avisos": 50,
+  "tiempo_produccion_s": 849.5,
+  "tiempos_s": {
+    "voz": 18.4,
+    "fotos": 0.5,
+    "miniatura": 0,
+    "capitulos": 809.8,
+    "union": 20
+  },
+  "render_capitulos": {
+    "c0": {
+      "duracion_s": 32.1,
+      "render_s": 48,
+      "revision_s": 13
+    },
+    "c1": {
+      "duracion_s": 40.867,
+      "render_s": 58,
+      "revision_s": 14
+    },
+    "c2": {
+      "duracion_s": 88.333,
+      "render_s": 101,
+      "revision_s": 20
+    },
+    "c3": {
+      "duracion_s": 78.8,
+      "render_s": 95,
+      "revision_s": 21
+    },
+    "c4": {
+      "duracion_s": 66.967,
+      "render_s": 75,
+      "revision_s": 17
+    },
+    "c5": {
+      "duracion_s": 75.067,
+      "render_s": 88,
+      "revision_s": 20
+    },
+    "c6": {
+      "duracion_s": 101.467,
+      "render_s": 109,
+      "revision_s": 20
+    },
+    "c7": {
+      "duracion_s": 70.767,
+      "render_s": 87,
+      "revision_s": 20
+    }
+  },
+  "producido": "2026-11-21T18:59:58.535Z",
+  "video": "hi-florero.mp4",
+  "portada": "miniatura.jpg",
+  "subtitulos": "hi-florero.srt",
+  "descripcion": "descripcion.txt",
+  "guion": "animados/propios/hi-florero/guion.json"
+}

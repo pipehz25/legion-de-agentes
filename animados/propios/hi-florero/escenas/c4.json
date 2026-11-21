@@ -1,0 +1,244 @@
+{
+  "capitulo": "c4",
+  "escenas": {
+    "c4-pedido": {
+      "plantilla": "dos-personajes",
+      "datos": {
+        "izquierda": {
+          "personaje": "criollo",
+          "expresion": "neutral",
+          "pose": "senalar"
+        },
+        "derecha": {
+          "personaje": "llorente",
+          "bandera": false,
+          "expresion": "serio",
+          "pose": "jarras"
+        }
+      }
+    },
+    "c4-criollos": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": [
+          "Para los criollos,",
+          "Llorente se negó",
+          "con desprecio"
+        ],
+        "resalta": 2,
+        "dibujo": "cruz",
+        "palabra_dibujo": "negó"
+      }
+    },
+    "c4-llorente": {
+      "plantilla": "fichas",
+      "datos": {
+        "titulo": "Según Llorente",
+        "fichas": [
+          {
+            "texto": "No ofendió a nadie",
+            "dibujo": "balanza",
+            "palabra": "ofendió"
+          },
+          {
+            "texto": "Se negó a prestarla",
+            "dibujo": "cruz",
+            "palabra": "negó"
+          },
+          {
+            "texto": "Temía que la dañaran",
+            "dibujo": "derrumbe",
+            "palabra": "miedo",
+            "resalta": true
+          }
+        ]
+      }
+    },
+    "c4-claro": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": [
+          "Lo que sí",
+          "está claro:",
+          "insultos y golpes"
+        ],
+        "resalta": 2,
+        "todo_al_inicio": true
+      }
+    },
+    "c4-empujones": {
+      "plantilla": "dos-personajes",
+      "datos": {
+        "izquierda": {
+          "personaje": "morales",
+          "expresion": "enojado",
+          "pose": "senalar"
+        },
+        "derecha": {
+          "personaje": "llorente",
+          "bandera": false,
+          "expresion": "sorprendido",
+          "pose": "neutral"
+        }
+      }
+    },
+    "c4-rumor": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": [
+          "Con la plaza",
+          "llena, el rumor",
+          "corrió rápido"
+        ],
+        "resalta": 2
+      }
+    },
+    "c4-multitud": {
+      "plantilla": "fichas",
+      "datos": {
+        "titulo": "La plaza llena",
+        "fichas": [
+          {
+            "texto": "En pocas horas",
+            "dibujo": "reloj",
+            "palabra": "pocas"
+          },
+          {
+            "texto": "Piden cabildo abierto",
+            "dibujo": "documento",
+            "palabra": "cabildo",
+            "resalta": true
+          }
+        ]
+      }
+    },
+    "c4-plan": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": [
+          "Los criollos",
+          "sabían qué hacer",
+          "con ese ruido"
+        ],
+        "resalta": 2,
+        "dibujo": "sello",
+        "palabra_dibujo": "ruido:"
+      }
+    },
+    "c4-exigen": {
+      "plantilla": "dos-personajes",
+      "datos": {
+        "izquierda": {
+          "personaje": "criollo",
+          "expresion": "serio",
+          "pose": "discurso"
+        },
+        "derecha": {
+          "personaje": "amar",
+          "bandera": false,
+          "expresion": "serio",
+          "pose": "brazos-cruzados"
+        }
+      }
+    },
+    "c4-sesion": {
+      "plantilla": "fichas",
+      "datos": {
+        "titulo": "Amar y Borbón acepta",
+        "fichas": [
+          {
+            "texto": "Cabildo extraordinario",
+            "dibujo": "documento",
+            "palabra": "sesión"
+          },
+          {
+            "texto": "Oidor Juan Jurado preside",
+            "dibujo": "balanza",
+            "palabra": "oidor",
+            "resalta": true
+          }
+        ]
+      }
+    },
+    "c4-vocero": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": [
+          "La gente",
+          "escoge a",
+          "su vocero"
+        ],
+        "resalta": 2,
+        "dibujo": "pluma",
+        "palabra_dibujo": "vocero:"
+      }
+    },
+    "c4-acevedo": {
+      "plantilla": "personaje",
+      "datos": {
+        "personaje": "acevedo",
+        "rol": "Regidor, «tribuno del pueblo»",
+        "palabra_rol": "tribuno",
+        "anios": "En 1810"
+      }
+    }
+  },
+  "frases": [
+    {
+      "id": "f26",
+      "escena": "c4-pedido"
+    },
+    {
+      "id": "f27",
+      "escena": "c4-criollos"
+    },
+    {
+      "id": "f28",
+      "escena": "c4-llorente"
+    },
+    {
+      "id": "f29",
+      "escena": "c4-claro",
+      "cortes": [
+        {
+          "escena": "c4-empujones",
+          "palabra": 11
+        }
+      ]
+    },
+    {
+      "id": "f30",
+      "escena": "c4-rumor",
+      "cortes": [
+        {
+          "escena": "c4-multitud",
+          "palabra": 15
+        }
+      ]
+    },
+    {
+      "id": "f31",
+      "escena": "c4-plan",
+      "cortes": [
+        {
+          "escena": "c4-exigen",
+          "palabra": 12
+        }
+      ]
+    },
+    {
+      "id": "f32",
+      "escena": "c4-sesion"
+    },
+    {
+      "id": "f33",
+      "escena": "c4-vocero",
+      "cortes": [
+        {
+          "escena": "c4-acevedo",
+          "palabra": 11
+        }
+      ]
+    }
+  ]
+}

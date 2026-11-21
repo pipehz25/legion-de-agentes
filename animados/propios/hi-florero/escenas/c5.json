@@ -1,0 +1,34 @@
+{
+  "capitulo": "c5",
+  "escenas": {
+    "c5-seis": { "plantilla": "cifra", "datos": { "cifra": "6:00", "unidad": "p. m.", "rotulo": "Empieza la sesión del cabildo", "dibujo": "reloj", "palabra": "seis" } },
+    "c5-junta": { "plantilla": "titular", "datos": { "lineas": ["Junta Suprema", "de Gobierno"], "resalta": 1, "dibujo": "sello", "palabra_dibujo": "Junta" } },
+    "c5-amar": { "plantilla": "recorte", "datos": { "foto": "File:Antonio Jose Amar y Borb n.JPG", "pie": "Amar y Borbón, retrato atribuido", "insignia": "Virrey de la Nueva Granada", "titulo": "Presidente de la junta", "texto": "El mismo virrey a quien querían reemplazar", "lado": "izquierda" } },
+    "c5-pey": { "plantilla": "personaje", "datos": { "nombre": "José Miguel Pey", "anios": "Santafé, 1810", "rol": "Vicepresidente de la junta y alcalde de Santafé", "pelo": "#2a1d16", "peinado": "corto", "barba": "patillas", "piel": "#e2b48c", "ropa": "#2a2f3a", "detalle": "#9a7128", "corbata": "#f1ece0", "cuello": "lazo", "expresion": "serio" } },
+    "c5-firmantes": { "plantilla": "tablero", "datos": { "personajes": ["torres", "morales", "acevedo"], "titulo": "Algunos firmantes del acta" } },
+    "c5-tres-media": { "plantilla": "cifra", "datos": { "cifra": "3:30", "unidad": "a. m.", "rotulo": "«Las tres y media de la mañana» del 21 de julio", "dibujo": "reloj", "palabra": "tres" } },
+    "c5-no-declaro": { "plantilla": "titular", "datos": { "lineas": ["El acta no declaró", "la independencia"], "resalta": 1, "dibujo": "documento", "palabra_dibujo": "acta" } },
+    "c5-rey": { "plantilla": "recorte", "datos": { "foto": "File:Francisco Goya - Portrait of Ferdinand VII of Spain in his robes of state (1815) - Prado.jpg", "pie": "Fernando VII, por Goya", "insignia": "El rey cautivo", "titulo": "Reconocido como rey", "texto": "Y la junta, sujeta a la Regencia", "lado": "derecha" } },
+    "c5-condicion": { "plantilla": "cita", "datos": { "personaje": "fernando7", "texto": "Siempre que venga a reinar entre nosotros", "fuente": "Acta del 20 de julio de 1810", "rol": "Rey de España" } },
+    "c5-lo-nuevo": { "plantilla": "fichas", "datos": { "titulo": "Lo nuevo del acta", "fichas": [ { "texto": "Gobierno en la junta", "dibujo": "sello", "palabra": "gobierno" }, { "texto": "Solo de forma interina", "dibujo": "reloj", "palabra": "interina" }, { "texto": "Escribir constitución", "dibujo": "documento", "palabra": "escribía", "resalta": true } ] } },
+    "c5-cinco-dias": { "plantilla": "cifra", "datos": { "valor": 5, "unidad": "días", "rotulo": "y el virrey salió de la junta", "dibujo": "calendario", "palabra": "pocos" } },
+    "c5-destierro": { "plantilla": "vehiculo", "datos": { "tipo": "barco", "anio": "1810", "rotulo": "Rumbo a España", "detalle": "Amar y su esposa, desterrados", "palabras": { "anio": "agosto", "entra": "salió", "rotulo": "camino", "detalle": "esposa" } } },
+    "c5-cartagena": { "plantilla": "mapa", "datos": {
+      "vistas": [ { "centro": [-74.6, 7.0], "ancho": 20 } ],
+      "paises": [ { "id": "colombia", "color": "acento2", "opacidad": 0.22, "en": 0 } ],
+      "marcas": [ { "texto": "Santafé", "lugar": "bogota", "lado": "derecha", "tam": 30, "palabra": "capital" }, { "texto": "Cartagena", "lugar": "cartagena", "lado": "derecha", "tam": 34, "palabra": "Cartagena" } ],
+      "cartela": { "titulo": "Independencia absoluta", "sub": "Cartagena se adelantó a la capital" },
+      "fichas": [ { "titulo": "1811", "texto": "11 de noviembre", "dibujo": "pluma", "palabra": "noviembre", "lugar": "abajo-izquierda" } ] } }
+  },
+  "frases": [
+    { "id": "f34", "escena": "c5-seis" },
+    { "id": "f35", "escena": "c5-junta", "cortes": [ { "escena": "c5-amar", "palabra": 14 } ] },
+    { "id": "f36", "escena": "c5-pey", "cortes": [ { "escena": "c5-firmantes", "palabra": 10 } ] },
+    { "id": "f37", "escena": "c5-tres-media" },
+    { "id": "f38", "escena": "c5-no-declaro" },
+    { "id": "f39", "escena": "c5-rey", "cortes": [ { "escena": "c5-condicion", "palabra": 11 } ] },
+    { "id": "f40", "escena": "c5-lo-nuevo" },
+    { "id": "f41", "escena": "c5-cinco-dias", "cortes": [ { "escena": "c5-destierro", "palabra": 12 } ] },
+    { "id": "f42", "escena": "c5-cartagena" }
+  ]
+}

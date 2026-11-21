@@ -1,0 +1,2734 @@
+{
+  "tipo": "largo",
+  "orientacion": "horizontal",
+  "titulo": "¿Un florero empezó la independencia?",
+  "nicho": "historia",
+  "serie": {
+    "id": "independencia",
+    "parte": 1,
+    "de": 3
+  },
+  "nota": "Video largo por escenas (largo-escenas.mjs). Guion escrito el 2026-11-21 sin escenas: cada capitulo trae 'escenas': {} para que otros agentes las disenen con animados/contenido/escenas-horizontales.md (cada uno en escenas/<cap>.json y une-escenas.mjs). La voz de ElevenLabs todavia NO esta generada: revisar el texto antes de generarla; despues de pagada, el texto de las frases no se cambia. 'imagen' en las frases es solo una pista (se usa con 'foto' y el nombre de Commons de 'imagenes'). Personajes sin retrato comprobado: morales, llorente, villavicencio, criollo y soldado (rasgos aproximados de la epoca). No hay bandera de 1810 para los criollos: sus fichas van sin 'bandera'.",
+  "motor": "elevenlabs",
+  "voz": "C12mZePhNoo0RoTXhSFV",
+  "modelo_voz": "eleven_multilingual_v2",
+  "tope_caracteres": 50,
+  "inicio": 0.2,
+  "pausa": 0.35,
+  "pausa_capitulo": 3,
+  "respiro_capitulo": 0.5,
+  "cola": 2.5,
+  "estilo": {
+    "tema": "archivo"
+  },
+  "miniatura": {
+    "texto": "EL FLORERO | ERA EXCUSA",
+    "imagen": "florero"
+  },
+  "publicacion": {
+    "titulo_youtube": "¿Un florero empezó la independencia? El plan detrás del 20 de julio",
+    "descripcion": "El 20 de julio de 1810, en Santafé de Bogotá, un comerciante español se negó a prestar un florero y se armó una pelea. Así lo aprendimos en el colegio. Pero la pelea estaba planeada, y el acta que se firmó esa noche no rompió con el rey de España: le juraba fidelidad, con una condición.\n\nEn este video seguimos la historia con documentos: la crisis de España en 1808 con Napoleón y el rey Fernando VII, las juntas, el Memorial de agravios de Camilo Torres, el plan de los criollos con la visita del comisionado Antonio Villavicencio como excusa, la pelea con José González Llorente en día de mercado, el cabildo de esa noche, el Acta con el virrey Amar y Borbón como presidente, la Patria Boba, la reconquista de Pablo Morillo y lo que se sabe de verdad del florero que hoy está en la Casa del Florero.\n\nCada dato está comprobado en al menos dos fuentes; la lista completa está en el primer comentario. Cuando las fuentes no coinciden, contamos la versión segura.",
+    "hashtags": [
+      "historia",
+      "colombia",
+      "independencia"
+    ]
+  },
+  "fuentes": [
+    {
+      "dato": "En 1808 las tropas francesas entraron en España; en Bayona, Fernando VII renunció el 5 de mayo y Carlos IV cedió la corona a Napoleón el 6 de mayo; el 6 de junio Napoleón nombró rey a José I; la Junta Central asumió el poder en septiembre de 1808 (en Aranjuez desde el 25); en enero de 1810 se transformó en el Consejo de Regencia; Fernando VII restauró el Antiguo Régimen en mayo de 1814",
+      "fuente": "Biblioteca Virtual Miguel de Cervantes, portal «Constitución de 1812»: cronología",
+      "url": "https://cervantesvirtual.com/portales/constitucion_1812/cronologia/"
+    },
+    {
+      "dato": "En Bayona, Napoleón obligó a Carlos IV y a Fernando VII a renunciar al trono y nombró rey a su hermano José Bonaparte; Fernando VII volvió a España y al trono en marzo de 1814",
+      "fuente": "Encyclopaedia Britannica, «Spain: The French invasion and the War of Independence, 1808-14»",
+      "url": "https://www.britannica.com/place/Spain/The-French-invasion-and-the-War-of-Independence-1808-14"
+    },
+    {
+      "dato": "El Memorial de agravios es obra de Camilo Torres y cuestiona la crisis de gobierno de la Corona española",
+      "fuente": "Semana, «Bicentenario: Francisco José de Caldas, Camilo Torres y Jorge Tadeo Lozano»",
+      "url": "https://www.semana.com/cultura/articulo/bicentenario-francisco-jose-de-caldas-camilo-torres-y-jorge-tadeo-lozano/482045"
+    },
+    {
+      "dato": "El Memorial de agravios (Representación del Cabildo de Santafé a la Suprema Junta Central), escrito por Camilo Torres y aprobado el 20 de noviembre de 1809, reclamaba igualdad de representación para los americanos y nunca llegó a su destinatario",
+      "fuente": "Universidad Nacional de Colombia, edición del Memorial de agravios (Biblioteca Virtual de la Facultad de Ciencias Humanas)",
+      "url": "https://www.humanas.unal.edu.co/bvc/files/original/e684ca8d316b038dfff85fe5e7b4c404.pdf"
+    },
+    {
+      "dato": "Cali firmó su acta el 3 de julio de 1810, 17 días antes que Santafé",
+      "fuente": "Alcaldía de Santiago de Cali, «Cali: precursora de la independencia frente a la colonización española»",
+      "url": "https://www.cali.gov.co/publicaciones/169949/cali-precursora-de-la-independencia-frente-a-la-colonizacion-espanola"
+    },
+    {
+      "dato": "Antes del 20 de julio de 1810 se formaron juntas en Pamplona (4 de julio) y el Socorro (10 de julio), además de Cali (3 de julio)",
+      "fuente": "Anuario de Historia Regional y de las Fronteras, Universidad Industrial de Santander",
+      "url": "https://revistas.uis.edu.co/index.php/anuariohistoria/article/download/330/572/1116"
+    },
+    {
+      "dato": "Amar y Borbón fue virrey de la Nueva Granada de 1803 a 1810; la junta del 20 de julio de 1810 lo incluyó como figura decorativa, lo destituyó cinco días después y fue expulsado a España",
+      "fuente": "David Bushnell, «Amar y Borbón, Antonio (1742-1826)», Encyclopedia of Latin American History and Culture (Encyclopedia.com)",
+      "url": "https://encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/amar-y-borbon-antonio-1742-1826"
+    },
+    {
+      "dato": "El 15 de agosto de 1810, Antonio Amar y Borbón y su esposa, Francisca de Villanova, salieron desterrados",
+      "fuente": "Boletín Cultural y Bibliográfico, Banco de la República",
+      "url": "https://publicaciones.banrepcultural.org/index.php/boletin_cultural/article/download/5763/5995/11726"
+    },
+    {
+      "dato": "Muerto Mutis en 1808, Caldas quedó al frente del Observatorio Astronómico, que acogió a los criollos conspiradores; después pasó de apoyar a Nariño, centralista, a las filas federalistas de su primo Camilo Torres; fue fusilado en octubre de 1816 (el 29, según el texto) en la plazuela de San Francisco",
+      "fuente": "Universidad del Rosario, Archivo Histórico, «¡Oh larga y negra partida!»",
+      "url": "https://urosario.edu.co/blog-archivo-historico/cronica-rosarista/oh-larga-y-negra-partida"
+    },
+    {
+      "dato": "El Observatorio Astronómico (construido entre 1802 y 1803; Caldas fue su primer director) sirvió de sede de reuniones secretas de quienes difundían las ideas libertadoras",
+      "fuente": "Alcaldía de Bogotá, «Observatorio Astronómico, una obra para el pensamiento y la ciencia»",
+      "url": "https://bogota.gov.co/historico-alcaldia/observatorio-astronomico-una-obra-para-el-pensamiento-y-la-ciencia"
+    },
+    {
+      "dato": "El plan: los notables criollos (entre ellos José Miguel Pey, Camilo Torres, Acevedo Gómez, Joaquín Camacho, Jorge Tadeo Lozano y Antonio Morales) se reunían en casas y en el observatorio que dirigía Caldas; querían provocar una perturbación limitada y transitoria del orden para que el virrey creara ese día una junta; pedirían a Llorente un florero o cualquier adorno para un banquete en honor del criollo Antonio Villavicencio; si Llorente aceptaba o se negaba con cortesía, Caldas pasaría por la tienda y lo saludaría para dar pie a Morales; fue un viernes, día de mercado",
+      "fuente": "Alcaldía de Bogotá, «El grito de la Independencia»",
+      "url": "https://bogota.gov.co/el-grito-de-la-independencia"
+    },
+    {
+      "dato": "El pedido fue un pretexto planeado por los criollos; estaba previsto que Caldas pasara y saludara a Llorente para dar a Morales un motivo; los documentos hablan de «adornos para la mesa»; según otra versión, Llorente se negó por temor a que maltrataran la pieza; en enero de 1882 Epifanio Garay donó al Museo Nacional la pieza de porcelana con las armas de España; en 1960 pasó al Museo del 20 de Julio (Casa del Florero); «todo es misterio en torno del florero» (Arturo Abella)",
+      "fuente": "Daniel Castro Benítez (director de la Casa del Florero), «El florero de Llorente», Semana",
+      "url": "https://www.semana.com/el-florero-llorente/79590-3/"
+    },
+    {
+      "dato": "Los criollos pidieron prestado el florero para decorar la mesa de Villavicencio sabiendo que Llorente se negaría; aprovecharon el día de mercado; la pieza es de porcelana, del siglo XVIII, atribuida a la Real Fábrica del Buen Retiro, con corona real; solo se conserva la base (ramillete); Epifanio Garay la donó al Museo Nacional el 23 de enero de 1882 y su palabra es la única garantía de autenticidad",
+      "fuente": "Radio Nacional de Colombia (RTVC), «20 de julio: historia del florero de Llorente»",
+      "url": "https://radionacional.co/cultura/historia-colombiana/20-de-julio-historia-del-florero-de-llorente-independencia"
+    },
+    {
+      "dato": "La tienda de José González Llorente estaba en la Calle Real, esquina con la calle de la Catedral (hoy calle 11 con carrera 7); era viernes de mercado; tras los insultos, Antonio Morales sacó a empujones a Llorente hacia la Calle Real; el museo abrió el 20 de julio de 1960; Garay donó la pieza en 1882; la firma de Llorente que se le atribuía no se ha encontrado",
+      "fuente": "Radio Nacional de Colombia (RTVC), «Datos sobre la casa y el florero del 20 de julio»",
+      "url": "https://radionacional.co/cultura/historia-colombiana/datos-casa-y-el-florero-del-20-de-julio"
+    },
+    {
+      "dato": "Viernes 20 de julio de 1810, día de mercado en la plaza mayor de Santafé: Llorente se negó a prestar un florero para la bienvenida del comisionado Antonio Villavicencio y Antonio Morales lo golpeó frente a su tienda en la Calle Real; los criollos aprovecharon el escándalo para pedir un cabildo abierto",
+      "fuente": "Museo de la Independencia Casa del Florero, «July 20, 1810, Riot» (Google Arts & Culture)",
+      "url": "https://artsandculture.google.com/story/2wUhSwcAucCnPg"
+    },
+    {
+      "dato": "La pieza es de porcelana, atribuida a la Real Fábrica del Buen Retiro (Madrid), de hacia 1780, con el escudo real; no hay consenso entre los historiadores sobre si era un ramillete o la base de un florero",
+      "fuente": "Museo de la Independencia Casa del Florero, «Base of the vase of July 20, 1810» (Google Arts & Culture)",
+      "url": "https://artsandculture.google.com/story/BwXx5Wvzx4ftrQ"
+    },
+    {
+      "dato": "Sobre Llorente hay dos relatos: el del tendero europeo odioso y el del español víctima de provocaciones de la élite criolla",
+      "fuente": "El Espectador, «20 de julio de 1810, la fecha que marcó un antes y un después en Bogotá» (historiador Felipe Arias Escobar, Señal Memoria)",
+      "url": "https://www.elespectador.com/bogota/20-de-julio-de-1810-la-fecha-que-marco-un-antes-y-un-despues-en-bogota-article/"
+    },
+    {
+      "dato": "Acta del cabildo extraordinario del 20 de julio de 1810: empezó a las seis de la tarde; el pueblo reunido en la plaza proclamó como su diputado al regidor José Acevedo y Gómez; el oidor Juan Jurado presidió comisionado por el virrey; Antonio Amar fue proclamado presidente y José Miguel Pey (alcalde ordinario de primer voto) vicepresidente; la junta quedaba sujeta a la Regencia y reservaba la soberanía a Fernando VII «siempre que venga a reinar entre nosotros»; el gobierno supremo se depositaba en la junta «interinamente», mientras formaba la constitución; menciona «las tres y media de la mañana»; firman, entre otros, Camilo Torres, Acevedo y Gómez, Antonio Morales y Joaquín Camacho",
+      "fuente": "Acta del 20 de julio de 1810, texto en el Régimen Legal de Bogotá (Secretaría Jurídica Distrital)",
+      "url": "https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=13647"
+    },
+    {
+      "dato": "Acta del cabildo extraordinario del 20 de julio de 1810 (mismo texto): seis de la tarde, Juan Jurado, Amar presidente, Pey vicepresidente, «siempre que venga a reinar entre nosotros», «interinamente, mientras la misma Junta forma la Constitución», «las tres y media de la mañana»",
+      "fuente": "Wikisource, «Acta del Cabildo Extraordinario de Santa Fe de 1810» (transcripción)",
+      "url": "https://es.wikisource.org/wiki/Acta_del_Cabildo_Extraordinario_de_Santa_Fe_de_1810"
+    },
+    {
+      "dato": "El levantamiento de Bogotá del 20 de julio de 1810 se conmemora como día de la independencia, aunque los nuevos gobiernos juraron lealtad a Fernando VII y solo empezaron a declarar la independencia en 1811",
+      "fuente": "Encyclopaedia Britannica, «Colombia: Revolution and independence»",
+      "url": "https://www.britannica.com/place/Colombia/Revolution-and-independence"
+    },
+    {
+      "dato": "José Acevedo y Gómez, el «Tribuno del Pueblo»; al amanecer del 21 de julio de 1810 quedó constituida la junta; murió en mayo de 1817 en la selva de los Andaquíes",
+      "fuente": "Boletín Cultural y Bibliográfico, Banco de la República",
+      "url": "https://publicaciones.banrepcultural.org/index.php/boletin_cultural/article/download/5793/7710/15052"
+    },
+    {
+      "dato": "Acevedo y Gómez murió por las enfermedades de la selva del Caquetá, donde se mantuvo escondido; Camilo Torres fue fusilado en la Plaza de los Mártires",
+      "fuente": "Colombia.com, «El 20 de julio y el trágico final de algunos protagonistas de la revuelta independentista»",
+      "url": "https://www.colombia.com/actualidad/nacionales/el-20-de-julio-y-el-tragico-final-de-algunos-protagonistas-de-la-revuelta-independentista-361065"
+    },
+    {
+      "dato": "Con la reconquista de Morillo, Acevedo y Gómez se refugió en las selvas del Andaquí, donde murió en 1817",
+      "fuente": "Biografías y Vidas, «José Acevedo y Gómez»",
+      "url": "https://www.biografiasyvidas.com/biografia/a/acevedo_y_gomez.htm"
+    },
+    {
+      "dato": "Cartagena declaró su independencia absoluta de España el 11 de noviembre de 1811, la primera del actual territorio colombiano",
+      "fuente": "Colombia Aprende (Ministerio de Educación Nacional), «¿Qué se celebra el 11 de noviembre en Colombia?»",
+      "url": "https://www.colombiaaprende.edu.co/agenda/actualidad/que-se-celebra-el-11-de-noviembre-en-colombia-independencia-de-cartagena"
+    },
+    {
+      "dato": "El 11 de noviembre de 1811, Cartagena se declaró Estado libre, soberano e independiente",
+      "fuente": "Radio Nacional de Colombia (RTVC), «Independencia de Cartagena, 11 de noviembre»",
+      "url": "https://www.radionacional.co/cultura/historia-colombiana/independencia-cartagena-11-noviembre"
+    },
+    {
+      "dato": "Nariño estaba en el calabozo de la Inquisición de Cartagena cuando empezó el movimiento de 1810; volvió a Santafé a finales de 1810; desde septiembre de 1811 presidió Cundinamarca y defendió un gobierno central fuerte; su conflicto con las Provincias Unidas, federalistas, terminó en guerra civil",
+      "fuente": "David Bushnell, «Nariño, Antonio (1765-1823)», Encyclopedia of Latin American History and Culture (Encyclopedia.com)",
+      "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/narino-antonio-1765-1823"
+    },
+    {
+      "dato": "Nariño salió de los calabozos de la Inquisición y escribió en Cartagena contra los revolucionarios de Santafé; desde Santafé insistía en imponer el centralismo; Camilo Torres presidía el Congreso de las Provincias Unidas; Acevedo y Gómez era llamado el Tribuno del Pueblo; Cartagena fue de las primeras ciudades neogranadinas en declarar la independencia absoluta; el virrey Amar terminó yendo a España",
+      "fuente": "Biblioteca Nacional de Colombia, Historia de Colombia, capítulo 5: «La desgraciada Patria Boba»",
+      "url": "https://www.bibliotecanacional.gov.co/es-co/proyectos-digitales/historia-de-colombia/libro/capitulo5.html"
+    },
+    {
+      "dato": "Surgieron dos repúblicas a la vez: Cundinamarca, centralista, presidida por Antonio Nariño, y las Provincias Unidas, federales; una guerra civil las enfrentó desde los primeros meses de 1812 hasta la toma de Santafé por las tropas de las Provincias Unidas en diciembre de 1814; Nariño acuñó en 1823 el calificativo de «Patria Boba» (en Los toros de Fucha)",
+      "fuente": "Germán Rodrigo Mejía Pavony (Pontificia Universidad Javeriana), «La Patria Boba», Semana",
+      "url": "https://www.semana.com/especiales/articulo/la-patria-boba/105278-3"
+    },
+    {
+      "dato": "Antonio Nariño introdujo con ironía el nombre «Patria Boba» en Los toros de Fucha (Bogotá, 1823); el periodo va de julio de 1810 al comienzo de la reconquista de Morillo en 1815; hubo un conflicto interno entre diciembre de 1812 y enero de 1813 (Ventaquemada, San Victorino)",
+      "fuente": "Enciclopedia Banrepcultural (Banco de la República), «Patria Boba»",
+      "url": "https://enciclopedia.banrepcultural.org/Patria_Boba"
+    },
+    {
+      "dato": "La pelea con Llorente fue parte de un plan preconcebido; entre los conspiradores y firmantes del acta estaban José Acevedo y Gómez, José María Carbonell, Camilo Torres y Joaquín Camacho; Antonio Morales provocó el incidente con Llorente; el acta original se perdió en un incendio en 1900",
+      "fuente": "Semana, «Cartografía de la independencia en Bogotá»",
+      "url": "https://www.semana.com/nacion/articulo/cartografia-de-la-independencia-en-bogota/202119/"
+    },
+    {
+      "dato": "Unos querían federación y otros centralizar el poder; las guerras civiles facilitaron la reconquista española de las Provincias Unidas de la Nueva Granada entre 1814 y 1816",
+      "fuente": "Encyclopaedia Britannica, «History of Colombia»",
+      "url": "https://www.britannica.com/topic/history-of-Colombia"
+    },
+    {
+      "dato": "Pablo Morillo llegó en 1815 e inició su campaña en Cartagena; después tomó ruta a Bogotá; Villavicencio y José María Carbonell fueron fusilados en junio de 1816; Camilo Torres y Caldas, en octubre de 1816",
+      "fuente": "Semana, «Pablo Morillo, el español que fusiló a decenas de héroes de la independencia»",
+      "url": "https://www.semana.com/gente/articulo/pablo-morillo-el-espanol-que-fusilo--a-decenas-de-heroes-de-la-independencia/502520"
+    },
+    {
+      "dato": "Las tropas españolas entraron en Cartagena el 6 de diciembre de 1815, al terminar el sitio",
+      "fuente": "El Heraldo, «Cartagena, más heroica que fantástica»",
+      "url": "https://www.elheraldo.co/bolivar/cartagena-mas-heroica-que-fantastica-211362"
+    },
+    {
+      "dato": "Camilo Torres fue fusilado en Bogotá el 5 de octubre de 1816; Caldas fue fusilado en octubre de 1816 (el 28, según el texto)",
+      "fuente": "Semana, «Bicentenario: Francisco José de Caldas, Camilo Torres y Jorge Tadeo Lozano»",
+      "url": "https://www.semana.com/cultura/articulo/bicentenario-francisco-jose-de-caldas-camilo-torres-y-jorge-tadeo-lozano/482045"
+    },
+    {
+      "dato": "Camilo Torres fue ejecutado el 5 de octubre de 1816 en Santafé",
+      "fuente": "Universidad del Rosario, «Quién es quién en 1816»",
+      "url": "https://www.urosario.edu.co/sites/default/files/2024-05/quien-es-quien-en-1816.pdf"
+    },
+    {
+      "dato": "Antonio Villavicencio, nacido en Quito, fue nombrado comisionado regio para la Nueva Granada por el Consejo de Regencia y fue fusilado en Santafé el 6 de junio de 1816",
+      "fuente": "Encyclopaedia Britannica, «Antonio Villavicencio»",
+      "url": "https://www.britannica.com/biography/Antonio-Villavicencio"
+    },
+    {
+      "dato": "Antonio Villavicencio, quiteño, comisionado regio en 1810, fusilado en 1816",
+      "fuente": "Universidad del Rosario, Museo: colección, «Antonio Villavicencio»",
+      "url": "https://urosario.edu.co/museo/coleccion/antonio-villavicencio"
+    },
+    {
+      "dato": "La batalla de Boyacá, el 7 de agosto de 1819, liberó a la Nueva Granada del control español",
+      "fuente": "Encyclopaedia Britannica, «Battle of Boyacá»",
+      "url": "https://www.britannica.com/event/Battle-of-Boyaca"
+    },
+    {
+      "dato": "El 7 de agosto de 1819, cerca de Tunja, la batalla de Boyacá selló la Campaña Libertadora",
+      "fuente": "Radio Nacional de Colombia (RTVC), «Batalla de Boyacá: qué sucedió el 7 de agosto de 1819»",
+      "url": "https://radionacional.co/cultura/historia-colombiana/batalla-de-boyaca-que-sucedio-el-7-de-agosto-de-1819"
+    }
+  ],
+  "imagenes": {
+    "florero": {
+      "commons": "File:El Florero de Llorente.JPG",
+      "que_muestra": "La pieza de porcelana conocida como el florero de Llorente, en el Museo de la Independencia Casa del Florero (foto de 2012)",
+      "encuadre": "centro",
+      "movimiento": "acercar"
+    },
+    "florero_arriba": {
+      "commons": "File:Florero de Llorente (view from above).JPG",
+      "que_muestra": "El florero de Llorente visto desde arriba, en su vitrina del museo (foto de 2012)",
+      "encuadre": "centro",
+      "movimiento": "alejar"
+    },
+    "florero_vitrina": {
+      "commons": "File:Florero de Llorente.jpg",
+      "que_muestra": "La parte que se conserva del llamado florero del 20 de julio (foto de 2012)",
+      "encuadre": "centro",
+      "movimiento": "acercar"
+    },
+    "casa_florero": {
+      "commons": "File:Casa del Florero.jpg",
+      "que_muestra": "La Casa del Florero, hoy Museo de la Independencia, en la carrera 7 con calle 11 de Bogotá (foto de 2010)",
+      "encuadre": "centro",
+      "movimiento": "derecha"
+    },
+    "acevedo": {
+      "commons": "File:José Acevedo y Gómez (ppi,1881).png",
+      "que_muestra": "José Acevedo y Gómez, grabado del Papel Periódico Ilustrado (1881)",
+      "encuadre": "arriba",
+      "movimiento": "acercar"
+    },
+    "amar": {
+      "commons": "File:Antonio Jose Amar y Borb n.JPG",
+      "que_muestra": "El virrey Antonio Amar y Borbón, retrato atribuido a Joaquín Gutiérrez",
+      "encuadre": "arriba",
+      "movimiento": "acercar"
+    },
+    "torres": {
+      "commons": "File:Camilo Torres y Tenorio.jpg",
+      "que_muestra": "Camilo Torres, grabado basado en un retrato de José María Espinosa",
+      "encuadre": "arriba",
+      "movimiento": "acercar"
+    },
+    "caldas": {
+      "commons": "File:Francisco José de Caldas cph.3a03392.jpg",
+      "que_muestra": "Francisco José de Caldas, grabado publicado en Magazine of American History (1884)",
+      "encuadre": "arriba",
+      "movimiento": "acercar"
+    },
+    "caldas_suplicio": {
+      "commons": "File:Caldas marcha al suplicio - Alberto Urdaneta Urdaneta.jpg",
+      "que_muestra": "«Caldas marcha al suplicio», óleo de Alberto Urdaneta (hacia 1880)",
+      "encuadre": "centro",
+      "movimiento": "acercar"
+    },
+    "narino": {
+      "commons": "File:Antonio Nariño por José María Espinosa.jpg",
+      "que_muestra": "Antonio Nariño, retrato de José María Espinosa (hacia 1840)",
+      "encuadre": "arriba",
+      "movimiento": "acercar"
+    },
+    "morillo": {
+      "commons": "File:Pablo Morillo, 1815.png",
+      "que_muestra": "El general Pablo Morillo, retrato de Pedro José Figueroa (hacia 1815)",
+      "encuadre": "arriba",
+      "movimiento": "acercar"
+    },
+    "fernando7": {
+      "commons": "File:Francisco Goya - Portrait of Ferdinand VII of Spain in his robes of state (1815) - Prado.jpg",
+      "que_muestra": "Fernando VII con manto real, retrato de Francisco de Goya (1814-1815), Museo del Prado",
+      "encuadre": "arriba",
+      "movimiento": "acercar"
+    },
+    "bayona_caricatura": {
+      "commons": "File:Boney at Bayonne blowing a Spanish bubble LCCN2006681466.jpg",
+      "que_muestra": "Caricatura británica de 1808: Napoleón en Bayona encierra a la familia real española en una burbuja mientras dispara contra Madrid",
+      "encuadre": "centro",
+      "movimiento": "acercar"
+    },
+    "abdicaciones_bayona": {
+      "commons": "File:Abdications of Bayonne (F. Peréz, c. 1846).jpg",
+      "que_muestra": "Las abdicaciones de Bayona, grabado de Francisco Pérez (hacia 1846)",
+      "encuadre": "centro",
+      "movimiento": "derecha"
+    },
+    "observatorio": {
+      "commons": "File:Observatorio Astronómico Nacional - Bogota.jpg",
+      "que_muestra": "El Observatorio Astronómico de Bogotá, que dirigió Caldas, en una foto de Julio Racines (1886)",
+      "encuadre": "centro",
+      "movimiento": "acercar"
+    },
+    "mapa_1810": {
+      "commons": "File:Colombia (1810).svg",
+      "que_muestra": "Mapa histórico del Nuevo Reino de Granada en 1810, con sus provincias (mapa moderno, CC BY-SA)",
+      "encuadre": "centro",
+      "movimiento": "acercar"
+    }
+  },
+  "personajes": {
+    "acevedo": {
+      "nombre": "José Acevedo y Gómez",
+      "corto": "J. Acevedo y Gómez",
+      "rol": "Tribuno del pueblo",
+      "piel": "#e6b48e",
+      "pelo": "#2a1d16",
+      "peinado": "corto",
+      "barba": "patillas",
+      "ropa": "#23262e",
+      "detalle": "#9a7128",
+      "corbata": "#f1ece0",
+      "cuello": "lazo",
+      "expresion": "serio"
+    },
+    "morales": {
+      "nombre": "Antonio Morales",
+      "rol": "Criollo de Santafé",
+      "piel": "#ddaa82",
+      "pelo": "#2a1d16",
+      "peinado": "corto",
+      "barba": "patillas",
+      "ropa": "#3a2f28",
+      "detalle": "#9a7128",
+      "corbata": "#f1ece0",
+      "cuello": "lazo",
+      "expresion": "enojado"
+    },
+    "llorente": {
+      "nombre": "José González Llorente",
+      "corto": "J. G. Llorente",
+      "rol": "Comerciante español",
+      "bandera": "espana",
+      "piel": "#efc6a4",
+      "pelo": "#6b5a4a",
+      "peinado": "raya",
+      "barba": "patillas",
+      "ropa": "#5a4632",
+      "detalle": "#c9a256",
+      "corbata": "#f1ece0",
+      "cuello": "lazo",
+      "expresion": "serio"
+    },
+    "amar": {
+      "nombre": "Antonio Amar y Borbón",
+      "corto": "A. Amar y Borbón",
+      "rol": "Virrey de Nueva Granada",
+      "bandera": "espana",
+      "piel": "#efc6a4",
+      "pelo": "#e9e5dc",
+      "peinado": "peluca",
+      "barba": "ninguna",
+      "ropa": "#2b3a5e",
+      "detalle": "#c9a256",
+      "corbata": "#f4f1ea",
+      "cuello": "lazo",
+      "charreteras": true,
+      "expresion": "serio"
+    },
+    "torres": {
+      "nombre": "Camilo Torres",
+      "rol": "Abogado criollo",
+      "piel": "#e2b48c",
+      "pelo": "#2a1d16",
+      "peinado": "corto",
+      "barba": "patillas",
+      "ropa": "#1f2228",
+      "detalle": "#9a7128",
+      "corbata": "#f1ece0",
+      "cuello": "lazo",
+      "expresion": "pensativo"
+    },
+    "caldas": {
+      "nombre": "Francisco José de Caldas",
+      "corto": "F. J. de Caldas",
+      "rol": "Científico, observatorio",
+      "piel": "#e2b48c",
+      "pelo": "#2a1d16",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": "#262230",
+      "detalle": "#9a7128",
+      "corbata": "#f1ece0",
+      "cuello": "lazo",
+      "expresion": "pensativo"
+    },
+    "narino": {
+      "nombre": "Antonio Nariño",
+      "rol": "Líder de Cundinamarca",
+      "piel": "#e8b993",
+      "pelo": "#8a8077",
+      "peinado": "corto",
+      "barba": "patillas",
+      "ropa": "#22305a",
+      "detalle": "#c9a256",
+      "corbata": "#f1ece0",
+      "cuello": "lazo",
+      "expresion": "serio"
+    },
+    "villavicencio": {
+      "nombre": "Antonio Villavicencio",
+      "corto": "A. Villavicencio",
+      "rol": "Comisionado regio",
+      "piel": "#e2b48c",
+      "pelo": "#3a2a1e",
+      "peinado": "corto",
+      "barba": "patillas",
+      "ropa": "#24304e",
+      "detalle": "#c9a256",
+      "corbata": "#f1ece0",
+      "cuello": "lazo",
+      "expresion": "neutral"
+    },
+    "morillo": {
+      "nombre": "Pablo Morillo",
+      "rol": "General español",
+      "bandera": "espana",
+      "piel": "#e6b48e",
+      "pelo": "#2a1d16",
+      "peinado": "corto",
+      "barba": "patillas",
+      "ropa": "#1f2a4a",
+      "detalle": "#c9a256",
+      "corbata": "#f4f1ea",
+      "cuello": "lazo",
+      "charreteras": true,
+      "expresion": "enojado"
+    },
+    "fernando7": {
+      "nombre": "Fernando VII",
+      "rol": "Rey de España",
+      "bandera": "espana",
+      "piel": "#efc39e",
+      "pelo": "#2a1d16",
+      "peinado": "corto",
+      "barba": "patillas",
+      "ropa": "#8a1f1f",
+      "detalle": "#c9a256",
+      "corbata": "#f4f1ea",
+      "cuello": "lazo",
+      "expresion": "neutral"
+    },
+    "napoleon": {
+      "nombre": "Napoleón Bonaparte",
+      "corto": "Napoleón",
+      "rol": "Emperador de Francia",
+      "bandera": "francia",
+      "piel": "#efc6a4",
+      "pelo": "#4a3222",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "sombrero": "bicornio",
+      "ropa": "#23315a",
+      "detalle": "#c9a256",
+      "corbata": "#f4f1ea",
+      "cuello": "lazo",
+      "charreteras": true,
+      "expresion": "astuto"
+    },
+    "criollo": {
+      "nombre": "Criollo santafereño",
+      "rol": "Vecino de Santafé",
+      "piel": "#d2a07a",
+      "pelo": "#2a1d16",
+      "peinado": "corto",
+      "barba": "patillas",
+      "sombrero": "copa",
+      "ropa": "#4a3a2e",
+      "detalle": "#9a7128",
+      "corbata": "#f1ece0",
+      "cuello": "lazo",
+      "expresion": "neutral"
+    },
+    "soldado": {
+      "nombre": "Soldado del virreinato",
+      "rol": "Tropa del virrey",
+      "bandera": "espana",
+      "piel": "#d2a07a",
+      "pelo": "#2a1d16",
+      "peinado": "corto",
+      "barba": "bigote",
+      "sombrero": "bicornio",
+      "cuello": "ninguno",
+      "ropa": "#2f3e66",
+      "detalle": "#a3302a",
+      "expresion": "serio"
+    }
+  },
+  "capitulos": [
+    {
+      "id": "c0",
+      "titulo": "",
+      "escenas": {
+        "c0-viernes": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "Santafé de Bogotá",
+              "un comerciante",
+              "se niega a prestar"
+            ],
+            "resalta": 1,
+            "calendario": {
+              "arriba": "Viernes",
+              "numero": "20",
+              "abajo": "Julio 1810",
+              "lado": "derecha",
+              "palabra": "20"
+            }
+          }
+        },
+        "c0-florero": {
+          "plantilla": "recorte",
+          "datos": {
+            "foto": "File:El Florero de Llorente.JPG",
+            "pie": "El «florero de Llorente», Casa del Florero",
+            "insignia": "Versión escolar",
+            "titulo": "Un florero, una pelea",
+            "texto": "Así lo aprendimos en el colegio",
+            "lado": "izquierda",
+            "palabras": {
+              "foto": "florero",
+              "titulo": "pelea",
+              "texto": "colegio"
+            }
+          }
+        },
+        "c0-excusa": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "No fue un",
+              "accidente:",
+              "estaba planeada"
+            ],
+            "resalta": 2,
+            "dibujo": "documento",
+            "palabra_dibujo": "planeada"
+          }
+        },
+        "c0-acta": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "El acta de esa noche",
+            "fichas": [
+              {
+                "texto": "No rompió con el rey",
+                "dibujo": "sello",
+                "palabra": "rompió"
+              },
+              {
+                "texto": "Fidelidad, con condición",
+                "dibujo": "balanza",
+                "palabra": "juraba",
+                "resalta": true
+              }
+            ]
+          }
+        },
+        "c0-preguntas": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "¿Quién la planeó?",
+              "¿Para qué?",
+              "¿Y el florero?"
+            ],
+            "resalta": 2,
+            "insignia": "Contada con documentos"
+          }
+        }
+      },
+      "frases": [
+        {
+          "id": "f1",
+          "escena": "c0-viernes",
+          "texto": "Viernes 20 de julio de 1810, Santafé de Bogotá. Un comerciante español se niega a prestar un florero, se arma una pelea y, según lo que muchos aprendimos en el colegio, ahí empieza la independencia.",
+          "cortes": [
+            {
+              "escena": "c0-florero",
+              "palabra": 16
+            }
+          ]
+        },
+        {
+          "id": "f2",
+          "escena": "c0-excusa",
+          "texto": "Pero esa pelea no fue un accidente: estaba planeada, y el florero era solo la excusa."
+        },
+        {
+          "id": "f3",
+          "escena": "c0-acta",
+          "texto": "Y el acta que se firmó esa noche no rompió con el rey de España. Le juraba fidelidad, con una condición."
+        },
+        {
+          "id": "f4",
+          "escena": "c0-preguntas",
+          "texto": "¿Quién planeó la pelea, para qué, y qué pasó con el florero? Esta es la historia, contada con documentos."
+        }
+      ]
+    },
+    {
+      "id": "c1",
+      "titulo": "El mito del florero",
+      "escenas": {
+        "c1-version": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "La versión",
+              "más conocida",
+              "cabe en un párrafo"
+            ],
+            "resalta": 2,
+            "dibujo": "pluma",
+            "palabra_dibujo": "conocida"
+          }
+        },
+        "c1-llorente": {
+          "plantilla": "personaje",
+          "datos": {
+            "personaje": "llorente",
+            "bandera": false,
+            "rol": "Comerciante español, con tienda en la plaza",
+            "palabra_rol": "comerciante",
+            "anios": "Santafé, 1810"
+          }
+        },
+        "c1-pasos": {
+          "plantilla": "linea-tiempo",
+          "datos": {
+            "titulo": "La versión del colegio",
+            "hitos": [
+              {
+                "anio": "Primero",
+                "texto": "Llorente se niega",
+                "palabra": "niega"
+              },
+              {
+                "anio": "Luego",
+                "texto": "Insulta a los americanos",
+                "palabra": "insulta"
+              },
+              {
+                "anio": "Después",
+                "texto": "Gritos y golpes",
+                "palabra": "americanos."
+              }
+            ],
+            "actual": 2,
+            "palabra_actual": "americanos."
+          }
+        },
+        "c1-gobierno": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "Esa misma noche,",
+              "nace un",
+              "nuevo gobierno"
+            ],
+            "resalta": 2,
+            "dibujo": "sello",
+            "palabra_dibujo": "nace"
+          }
+        },
+        "c1-casualidad": {
+          "plantilla": "recorte",
+          "datos": {
+            "foto": "File:Florero de Llorente.jpg",
+            "pie": "La parte que se conserva del florero (foto de 2012)",
+            "insignia": "Un objeto",
+            "titulo": "¿Pura casualidad?",
+            "texto": "Así suena la versión escolar",
+            "lado": "derecha"
+          }
+        },
+        "c1-faltan": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "A esa versión",
+              "le faltan piezas"
+            ],
+            "resalta": 1,
+            "dibujo": "balanza",
+            "palabra_dibujo": "piezas"
+          }
+        },
+        "c1-preguntas": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "Dos preguntas sin respuesta",
+            "fichas": [
+              {
+                "texto": "¿Gente lista ese día?",
+                "dibujo": "calendario",
+                "palabra": "protestar"
+              },
+              {
+                "texto": "¿Por qué ese comerciante?",
+                "dibujo": "moneda",
+                "palabra": "pedido",
+                "resalta": true
+              }
+            ]
+          }
+        },
+        "c1-atras": {
+          "plantilla": "linea-tiempo",
+          "datos": {
+            "titulo": "Retroceder dos años",
+            "hitos": [
+              {
+                "anio": "1808",
+                "texto": "España sin su rey",
+                "palabra": "años"
+              },
+              {
+                "anio": "1809",
+                "texto": "El Memorial de agravios",
+                "palabra": "retroceder"
+              },
+              {
+                "anio": "1810",
+                "texto": "El 20 de julio en Santafé"
+              }
+            ],
+            "actual": 0,
+            "palabra_actual": "años"
+          }
+        }
+      },
+      "frases": [
+        {
+          "id": "f5",
+          "escena": "c1-version",
+          "texto": "La versión más conocida cabe en un párrafo. Unos criollos le piden prestado un florero a José González Llorente, comerciante español con tienda en la plaza mayor de Santafé.",
+          "cortes": [
+            {
+              "escena": "c1-llorente",
+              "palabra": 16
+            }
+          ]
+        },
+        {
+          "id": "f6",
+          "escena": "c1-pasos",
+          "texto": "Llorente se niega y, según esa versión, insulta a los americanos. Hay gritos y golpes, la gente se amontona y, esa misma noche, nace un nuevo gobierno.",
+          "cortes": [
+            {
+              "escena": "c1-gobierno",
+              "palabra": 16
+            }
+          ]
+        },
+        {
+          "id": "f7",
+          "escena": "c1-casualidad",
+          "texto": "Contada así, parece que un objeto cambió la historia de un país por pura casualidad."
+        },
+        {
+          "id": "f8",
+          "escena": "c1-faltan",
+          "texto": "Pero a esa versión le faltan piezas. ¿Por qué tanta gente estaba lista para protestar justo ese día? ¿Y por qué el pedido fue a ese comerciante?",
+          "cortes": [
+            {
+              "escena": "c1-preguntas",
+              "palabra": 12
+            }
+          ]
+        },
+        {
+          "id": "f9",
+          "escena": "c1-atras",
+          "texto": "Para entenderlo hay que cruzar el océano y retroceder dos años, hasta España."
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "titulo": "Un rey cautivo",
+      "escenas": {
+        "c2-napoleon": {
+          "plantilla": "personaje",
+          "datos": {
+            "personaje": "napoleon",
+            "bandera": false,
+            "rol": "Sus tropas ya estaban dentro de España",
+            "palabra_rol": "tropas",
+            "anios": "En 1808"
+          }
+        },
+        "c2-bayona": {
+          "plantilla": "recorte",
+          "datos": {
+            "foto": "File:Abdications of Bayonne (F. Peréz, c. 1846).jpg",
+            "pie": "Las abdicaciones de Bayona (grabado, hacia 1846)",
+            "insignia": "Bayona, mayo de 1808",
+            "titulo": "Las abdicaciones de Bayona",
+            "texto": "Carlos IV y Fernando VII ceden la corona",
+            "lado": "izquierda",
+            "palabras": {
+              "foto": "Bayona"
+            }
+          }
+        },
+        "c2-cesion": {
+          "plantilla": "dos-personajes",
+          "datos": {
+            "izquierda": {
+              "personaje": "fernando7",
+              "bandera": false,
+              "expresion": "serio",
+              "pose": "neutral"
+            },
+            "derecha": {
+              "personaje": "napoleon",
+              "bandera": false,
+              "expresion": "astuto",
+              "pose": "brazos-cruzados"
+            },
+            "firma": "izquierda",
+            "palabra_firma": "cedieran"
+          }
+        },
+        "c2-jose": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "En el trono,",
+              "su hermano",
+              "José Bonaparte"
+            ],
+            "resalta": 2,
+            "calendario": {
+              "arriba": "Jun",
+              "numero": "6",
+              "abajo": "1808",
+              "lado": "izquierda",
+              "palabra": "puso"
+            }
+          }
+        },
+        "c2-cautivo": {
+          "plantilla": "recorte",
+          "datos": {
+            "foto": "File:Boney at Bayonne blowing a Spanish bubble LCCN2006681466.jpg",
+            "pie": "Caricatura británica de 1808",
+            "insignia": "Bayona, 1808",
+            "titulo": "Fernando, en Francia",
+            "texto": "En manos de Napoleón",
+            "lado": "derecha",
+            "palabras": {
+              "foto": "legítimo",
+              "titulo": "Francia",
+              "texto": "manos"
+            }
+          }
+        },
+        "c2-terremoto": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "Un terremoto",
+              "político:",
+              "¿quién mandaba?"
+            ],
+            "resalta": 2,
+            "dibujo": "derrumbe",
+            "palabra_dibujo": "terremoto"
+          }
+        },
+        "c2-fernando": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "En España",
+            "fichas": [
+              {
+                "texto": "Las juntas",
+                "dibujo": "sello",
+                "palabra": "juntas"
+              },
+              {
+                "texto": "En nombre del rey",
+                "dibujo": "pluma",
+                "palabra": "gobiernos",
+                "resalta": true
+              }
+            ]
+          }
+        },
+        "c2-juntas": {
+          "plantilla": "linea-tiempo",
+          "datos": {
+            "titulo": "Quién mandaba en España",
+            "hitos": [
+              {
+                "anio": "Mayo 1808",
+                "texto": "Bayona: el rey cede la corona"
+              },
+              {
+                "anio": "1808",
+                "texto": "Se forma la Junta Central",
+                "palabra": "Junta"
+              },
+              {
+                "anio": "Ene 1810",
+                "texto": "La reemplaza el Consejo de Regencia",
+                "palabra": "reemplazó"
+              }
+            ],
+            "actual": 2,
+            "palabra_actual": "reemplazó"
+          }
+        },
+        "c2-criollo": {
+          "plantilla": "personaje",
+          "datos": {
+            "personaje": "criollo",
+            "rol": "Descendiente de españoles nacido en América",
+            "palabra_rol": "descendientes",
+            "anios": "Hacia 1810"
+          }
+        },
+        "c2-porque-no": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "Si en España",
+              "hay juntas,",
+              "¿por qué aquí no?"
+            ],
+            "resalta": 2,
+            "dibujo": "balanza",
+            "palabra_dibujo": "juntas"
+          }
+        },
+        "c2-torres": {
+          "plantilla": "recorte",
+          "datos": {
+            "foto": "File:Camilo Torres y Tenorio.jpg",
+            "pie": "Camilo Torres, según Espinosa",
+            "insignia": "Santafé, 1809",
+            "titulo": "El abogado Camilo Torres",
+            "texto": "Redactó el texto para el cabildo",
+            "lado": "izquierda",
+            "palabras": {
+              "foto": "abogado",
+              "titulo": "Camilo",
+              "texto": "redactó"
+            }
+          }
+        },
+        "c2-memorial": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "Memorial",
+              "de agravios"
+            ],
+            "resalta": 1,
+            "calendario": {
+              "arriba": "Nov",
+              "numero": "20",
+              "abajo": "1809",
+              "lado": "derecha",
+              "palabra": "Memorial"
+            }
+          }
+        },
+        "c2-reclamos": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "El Memorial de agravios",
+            "fichas": [
+              {
+                "texto": "Pedía igualdad",
+                "dibujo": "balanza",
+                "palabra": "igualdad"
+              },
+              {
+                "texto": "Nunca llegó a su destino",
+                "dibujo": "cruz",
+                "palabra": "nunca",
+                "resalta": true
+              }
+            ]
+          }
+        },
+        "c2-julio": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "Julio de 1810:",
+              "el movimiento",
+              "ya había empezado"
+            ],
+            "resalta": 2,
+            "dibujo": "calendario",
+            "palabra_dibujo": "julio"
+          }
+        },
+        "c2-provincias": {
+          "plantilla": "mapa",
+          "datos": {
+            "vistas": [
+              {
+                "centro": [
+                  -74.5,
+                  5.5
+                ],
+                "ancho": 15
+              }
+            ],
+            "paises": [
+              {
+                "id": "colombia",
+                "color": "acento2",
+                "opacidad": 0.35,
+                "en": 0
+              }
+            ],
+            "rotulos": [
+              {
+                "texto": "Océano Pacífico",
+                "lugar": [
+                  -79.8,
+                  4.6
+                ],
+                "estilo": "mar",
+                "tam": 34,
+                "en": 0
+              }
+            ],
+            "marcas": [
+              {
+                "texto": "Cali",
+                "lugar": [
+                  -76.53,
+                  3.45
+                ],
+                "lado": "izquierda",
+                "tam": 40,
+                "palabra": "Cali,"
+              },
+              {
+                "texto": "Pamplona",
+                "lugar": [
+                  -72.65,
+                  7.37
+                ],
+                "lado": "derecha",
+                "tam": 40,
+                "palabra": "Pamplona"
+              },
+              {
+                "texto": "Socorro",
+                "lugar": [
+                  -73.26,
+                  6.47
+                ],
+                "lado": "izquierda",
+                "tam": 40,
+                "palabra": "Socorro"
+              },
+              {
+                "texto": "Santafé",
+                "lugar": "bogota",
+                "lado": "derecha",
+                "tam": 40,
+                "palabra": "capital"
+              }
+            ],
+            "cartela": {
+              "titulo": "Julio de 1810",
+              "sub": "Tres ciudades se adelantaron a Santafé"
+            }
+          }
+        },
+        "c2-amar": {
+          "plantilla": "personaje",
+          "datos": {
+            "personaje": "amar",
+            "bandera": false,
+            "anios": "1742-1826",
+            "rol": "Virrey de la Nueva Granada, de 1803 a 1810",
+            "palabra_anios": "virrey",
+            "palabra_rol": "gobernaba"
+          }
+        }
+      },
+      "frases": [
+        {
+          "id": "f10",
+          "escena": "c2-napoleon",
+          "texto": "En 1808, las tropas de Napoleón Bonaparte ya estaban dentro de España. En mayo, en la ciudad francesa de Bayona, Napoleón logró que el rey Carlos cuarto y su hijo, Fernando séptimo, le cedieran la corona.",
+          "cortes": [
+            {
+              "escena": "c2-bayona",
+              "palabra": 12
+            },
+            {
+              "escena": "c2-cesion",
+              "palabra": 28
+            }
+          ]
+        },
+        {
+          "id": "f11",
+          "escena": "c2-jose",
+          "texto": "Semanas después puso en el trono a su hermano, José Bonaparte. Fernando, a quien muchos seguían viendo como el rey legítimo, quedó en Francia, en manos de Napoleón.",
+          "cortes": [
+            {
+              "escena": "c2-cautivo",
+              "palabra": 11
+            }
+          ]
+        },
+        {
+          "id": "f12",
+          "escena": "c2-terremoto",
+          "texto": "Para España y para sus territorios en América fue un terremoto político. Si el rey no estaba, ¿quién mandaba?"
+        },
+        {
+          "id": "f13",
+          "escena": "c2-fernando",
+          "texto": "En España, la respuesta fueron las juntas, gobiernos que decían mandar en nombre de Fernando. En 1808 se formó una Junta Central y, en enero de 1810, la reemplazó un Consejo de Regencia.",
+          "cortes": [
+            {
+              "escena": "c2-juntas",
+              "palabra": 15
+            }
+          ]
+        },
+        {
+          "id": "f14",
+          "escena": "c2-criollo",
+          "texto": "En América, muchos criollos, los descendientes de españoles nacidos de este lado del mar, se hicieron la misma pregunta: si en España se arman juntas, ¿por qué aquí no?",
+          "cortes": [
+            {
+              "escena": "c2-porque-no",
+              "palabra": 14
+            }
+          ]
+        },
+        {
+          "id": "f15",
+          "escena": "c2-torres",
+          "texto": "En 1809, el abogado Camilo Torres redactó para el cabildo de Santafé un texto que hoy se conoce como Memorial de agravios. Reclamaba igualdad entre americanos y españoles, y nunca llegó a su destino.",
+          "cortes": [
+            {
+              "escena": "c2-memorial",
+              "palabra": 12
+            },
+            {
+              "escena": "c2-reclamos",
+              "palabra": 22
+            }
+          ]
+        },
+        {
+          "id": "f16",
+          "escena": "c2-julio",
+          "texto": "En julio de 1810, el movimiento ya había empezado en las provincias de la Nueva Granada: Cali, Pamplona y el Socorro se adelantaron a la capital.",
+          "cortes": [
+            {
+              "escena": "c2-provincias",
+              "palabra": 15
+            }
+          ]
+        },
+        {
+          "id": "f17",
+          "escena": "c2-amar",
+          "texto": "Santafé, la capital, donde gobernaba el virrey Antonio Amar y Borbón, seguía quieta. Pero no por mucho tiempo."
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "titulo": "El plan",
+      "escenas": {
+        "c3-secreto": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "Criollos que se",
+              "reúnen en secreto",
+              "primero, en casas"
+            ],
+            "resalta": 1,
+            "dibujo": "reloj",
+            "palabra_dibujo": "secreto",
+            "todo_al_inicio": true
+          }
+        },
+        "c3-observatorio": {
+          "plantilla": "recorte",
+          "datos": {
+            "foto": "File:Observatorio Astronómico Nacional - Bogota.jpg",
+            "pie": "Observatorio Astronómico, 1886",
+            "insignia": "Según varios relatos",
+            "titulo": "El Observatorio de Caldas",
+            "texto": "Dirigido por el científico F. J. de Caldas",
+            "lado": "derecha",
+            "palabras": {
+              "foto": "observatorio",
+              "titulo": "observatorio",
+              "texto": "científico"
+            }
+          }
+        },
+        "c3-tablero": {
+          "plantilla": "tablero",
+          "datos": {
+            "personajes": [
+              "acevedo",
+              "torres",
+              "morales"
+            ],
+            "titulo": "Los criollos del plan",
+            "palabras": {
+              "personajes": "regidor",
+              "papeles": "Camilo",
+              "titulo": "Camacho,"
+            },
+            "papeles": [
+              {
+                "foto": "File:Casa del Florero.jpg",
+                "pie": "La Casa del Florero, hoy museo"
+              }
+            ]
+          }
+        },
+        "c3-junta": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "Querían una",
+              "junta propia",
+              "para Santafé"
+            ],
+            "resalta": 2,
+            "todo_al_inicio": true,
+            "dibujo": "pluma"
+          }
+        },
+        "c3-como": {
+          "plantilla": "cifra",
+          "datos": {
+            "cifra": "¿Cómo?",
+            "rotulo": "lograrlo sin una guerra",
+            "dibujo": "canon",
+            "palabra": "cómo",
+            "palabra_rotulo": "lograrlo"
+          }
+        },
+        "c3-idea": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "La idea",
+            "fichas": [
+              {
+                "texto": "Un desorden en la calle",
+                "dibujo": "derrumbe",
+                "palabra": "desorden"
+              },
+              {
+                "texto": "Corto y limitado",
+                "dibujo": "reloj",
+                "palabra": "corto"
+              },
+              {
+                "texto": "Una junta ese mismo día",
+                "dibujo": "sello",
+                "palabra": "aceptar",
+                "resalta": true
+              }
+            ]
+          }
+        },
+        "c3-excusa": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "La excusa",
+              "llegó con",
+              "una visita"
+            ],
+            "resalta": 2,
+            "dibujo": "documento",
+            "palabra_dibujo": "visita"
+          }
+        },
+        "c3-villavicencio": {
+          "plantilla": "personaje",
+          "datos": {
+            "personaje": "villavicencio",
+            "rol": "Comisionado quiteño de la Regencia",
+            "palabra_rol": "quiteño",
+            "anios": "En 1810"
+          }
+        },
+        "c3-plan": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "El plan era",
+              "sencillo:",
+              "una comida"
+            ],
+            "resalta": 2,
+            "dibujo": "moneda",
+            "palabra_dibujo": "comida"
+          }
+        },
+        "c3-pedido": {
+          "plantilla": "dos-personajes",
+          "datos": {
+            "izquierda": {
+              "personaje": "criollo",
+              "expresion": "sonrisa",
+              "pose": "senalar"
+            },
+            "derecha": {
+              "personaje": "llorente",
+              "bandera": false,
+              "expresion": "serio",
+              "pose": "brazos-cruzados"
+            },
+            "foto": "File:Florero de Llorente.jpg",
+            "foto_pie": "El florero, hoy en la Casa del Florero",
+            "palabra_foto": "florero,"
+          }
+        },
+        "c3-esquina": {
+          "plantilla": "recorte",
+          "datos": {
+            "foto": "File:Casa del Florero.jpg",
+            "pie": "Casa del Florero, carrera 7 con calle 11 (2010)",
+            "insignia": "La esquina de la plaza",
+            "titulo": "Si se negaba, habría pelea",
+            "texto": "La tienda de Llorente estaba en esa esquina",
+            "lado": "izquierda"
+          }
+        },
+        "c3-caldas": {
+          "plantilla": "personaje",
+          "datos": {
+            "personaje": "caldas",
+            "rol": "Científico, director del Observatorio",
+            "palabra_rol": "pasaría",
+            "anios": "Hacia 1810"
+          }
+        },
+        "c3-saludo": {
+          "plantilla": "dos-personajes",
+          "datos": {
+            "izquierda": {
+              "personaje": "caldas",
+              "expresion": "sonrisa",
+              "pose": "saludar"
+            },
+            "derecha": {
+              "personaje": "llorente",
+              "bandera": false,
+              "expresion": "neutral",
+              "pose": "neutral"
+            }
+          }
+        },
+        "c3-viernes": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "El viernes",
+              "20 de julio:",
+              "día de mercado"
+            ],
+            "resalta": 2,
+            "calendario": {
+              "arriba": "Viernes",
+              "numero": "20",
+              "abajo": "Julio 1810",
+              "lado": "izquierda",
+              "palabra": "viernes"
+            }
+          }
+        }
+      },
+      "frases": [
+        {
+          "id": "f18",
+          "escena": "c3-secreto",
+          "texto": "En Santafé, un grupo de criollos se reunía en secreto. Primero en casas particulares y después, según varios relatos, en el observatorio astronómico que dirigía el científico Francisco José de Caldas.",
+          "cortes": [
+            {
+              "escena": "c3-observatorio",
+              "palabra": 15
+            }
+          ]
+        },
+        {
+          "id": "f19",
+          "escena": "c3-tablero",
+          "texto": "Entre ellos estaban el regidor José Acevedo y Gómez, Camilo Torres, Joaquín Camacho, José Miguel Pey y Antonio Morales. Querían que Santafé tuviera su propia junta de gobierno.",
+          "cortes": [
+            {
+              "escena": "c3-junta",
+              "palabra": 19
+            }
+          ]
+        },
+        {
+          "id": "f20",
+          "escena": "c3-como",
+          "texto": "La pregunta era cómo lograrlo sin una guerra. La idea: provocar un desorden en la calle, corto y limitado, que obligara al virrey a aceptar una junta ese mismo día.",
+          "cortes": [
+            {
+              "escena": "c3-idea",
+              "palabra": 12
+            }
+          ]
+        },
+        {
+          "id": "f21",
+          "escena": "c3-excusa",
+          "texto": "La excusa llegó con una visita. Se esperaba en Santafé a Antonio Villavicencio, un quiteño enviado como comisionado por el Consejo de Regencia.",
+          "cortes": [
+            {
+              "escena": "c3-villavicencio",
+              "palabra": 11
+            }
+          ]
+        },
+        {
+          "id": "f22",
+          "escena": "c3-plan",
+          "texto": "El plan era sencillo: ofrecerle una comida de bienvenida y pedirle prestado un florero, o cualquier adorno de mesa, a José González Llorente.",
+          "cortes": [
+            {
+              "escena": "c3-pedido",
+              "palabra": 12
+            }
+          ]
+        },
+        {
+          "id": "f23",
+          "escena": "c3-esquina",
+          "texto": "Llorente tenía su tienda en la esquina de la plaza, y los criollos contaban con que se negara. Si lo hacía, habría pelea."
+        },
+        {
+          "id": "f24",
+          "escena": "c3-caldas",
+          "texto": "¿Y si aceptaba? También estaba previsto. Caldas pasaría frente a la tienda y saludaría a Llorente, y eso le daría a Morales la excusa para armar la discusión.",
+          "cortes": [
+            {
+              "escena": "c3-saludo",
+              "palabra": 14
+            }
+          ]
+        },
+        {
+          "id": "f25",
+          "escena": "c3-viernes",
+          "texto": "Faltaba escoger el día, y escogieron uno con la plaza llena: el viernes 20 de julio, día de mercado."
+        }
+      ]
+    },
+    {
+      "id": "c4",
+      "titulo": "El día del florero",
+      "escenas": {
+        "c4-pedido": {
+          "plantilla": "dos-personajes",
+          "datos": {
+            "izquierda": {
+              "personaje": "criollo",
+              "expresion": "neutral",
+              "pose": "senalar"
+            },
+            "derecha": {
+              "personaje": "llorente",
+              "bandera": false,
+              "expresion": "serio",
+              "pose": "jarras"
+            }
+          }
+        },
+        "c4-criollos": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "Para los criollos,",
+              "Llorente se negó",
+              "con desprecio"
+            ],
+            "resalta": 2,
+            "dibujo": "cruz",
+            "palabra_dibujo": "negó"
+          }
+        },
+        "c4-llorente": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "Según Llorente",
+            "fichas": [
+              {
+                "texto": "No ofendió a nadie",
+                "dibujo": "balanza",
+                "palabra": "ofendió"
+              },
+              {
+                "texto": "Se negó a prestarla",
+                "dibujo": "cruz",
+                "palabra": "negó"
+              },
+              {
+                "texto": "Temía que la dañaran",
+                "dibujo": "derrumbe",
+                "palabra": "miedo",
+                "resalta": true
+              }
+            ]
+          }
+        },
+        "c4-claro": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "Lo que sí",
+              "está claro:",
+              "insultos y golpes"
+            ],
+            "resalta": 2,
+            "todo_al_inicio": true
+          }
+        },
+        "c4-empujones": {
+          "plantilla": "dos-personajes",
+          "datos": {
+            "izquierda": {
+              "personaje": "morales",
+              "expresion": "enojado",
+              "pose": "senalar"
+            },
+            "derecha": {
+              "personaje": "llorente",
+              "bandera": false,
+              "expresion": "sorprendido",
+              "pose": "neutral"
+            }
+          }
+        },
+        "c4-rumor": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "Con la plaza",
+              "llena, el rumor",
+              "corrió rápido"
+            ],
+            "resalta": 2
+          }
+        },
+        "c4-multitud": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "La plaza llena",
+            "fichas": [
+              {
+                "texto": "En pocas horas",
+                "dibujo": "reloj",
+                "palabra": "pocas"
+              },
+              {
+                "texto": "Piden cabildo abierto",
+                "dibujo": "documento",
+                "palabra": "cabildo",
+                "resalta": true
+              }
+            ]
+          }
+        },
+        "c4-plan": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "Los criollos",
+              "sabían qué hacer",
+              "con ese ruido"
+            ],
+            "resalta": 2,
+            "dibujo": "sello",
+            "palabra_dibujo": "ruido:"
+          }
+        },
+        "c4-exigen": {
+          "plantilla": "dos-personajes",
+          "datos": {
+            "izquierda": {
+              "personaje": "criollo",
+              "expresion": "serio",
+              "pose": "discurso"
+            },
+            "derecha": {
+              "personaje": "amar",
+              "bandera": false,
+              "expresion": "serio",
+              "pose": "brazos-cruzados"
+            }
+          }
+        },
+        "c4-sesion": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "Amar y Borbón acepta",
+            "fichas": [
+              {
+                "texto": "Cabildo extraordinario",
+                "dibujo": "documento",
+                "palabra": "sesión"
+              },
+              {
+                "texto": "Oidor Juan Jurado preside",
+                "dibujo": "balanza",
+                "palabra": "oidor",
+                "resalta": true
+              }
+            ]
+          }
+        },
+        "c4-vocero": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "La gente",
+              "escoge a",
+              "su vocero"
+            ],
+            "resalta": 2,
+            "dibujo": "pluma",
+            "palabra_dibujo": "vocero:"
+          }
+        },
+        "c4-acevedo": {
+          "plantilla": "personaje",
+          "datos": {
+            "personaje": "acevedo",
+            "rol": "Regidor, «tribuno del pueblo»",
+            "palabra_rol": "tribuno",
+            "anios": "En 1810"
+          }
+        }
+      },
+      "frases": [
+        {
+          "id": "f26",
+          "escena": "c4-pedido",
+          "texto": "Ese viernes, los criollos llegaron a la tienda de Llorente y le hicieron el pedido. Lo que pasó adentro tiene versiones distintas."
+        },
+        {
+          "id": "f27",
+          "escena": "c4-criollos",
+          "texto": "Según los criollos, Llorente se negó con desprecio y habló mal de Villavicencio y de los americanos."
+        },
+        {
+          "id": "f28",
+          "escena": "c4-llorente",
+          "texto": "Según Llorente, él no ofendió a nadie: solo se negó a prestar una pieza fina, por miedo a que se la dañaran."
+        },
+        {
+          "id": "f29",
+          "escena": "c4-claro",
+          "texto": "Lo que sí está claro es que hubo insultos y golpes, y que Antonio Morales sacó a Llorente a empujones hasta la Calle Real, donde siguió la pelea.",
+          "cortes": [
+            {
+              "escena": "c4-empujones",
+              "palabra": 11
+            }
+          ]
+        },
+        {
+          "id": "f30",
+          "escena": "c4-rumor",
+          "texto": "Con la plaza llena, el rumor corrió rápido: un español había insultado a los americanos. En pocas horas, la multitud pedía un cabildo abierto.",
+          "cortes": [
+            {
+              "escena": "c4-multitud",
+              "palabra": 15
+            }
+          ]
+        },
+        {
+          "id": "f31",
+          "escena": "c4-plan",
+          "texto": "Los criollos del plan sabían qué hacer con ese ruido: exigirle al virrey que reuniera al cabildo, el concejo de la ciudad, para formar una junta.",
+          "cortes": [
+            {
+              "escena": "c4-exigen",
+              "palabra": 12
+            }
+          ]
+        },
+        {
+          "id": "f32",
+          "escena": "c4-sesion",
+          "texto": "Esa tarde, Amar y Borbón aceptó una sesión extraordinaria del cabildo y mandó al oidor Juan Jurado a presidirla en su nombre."
+        },
+        {
+          "id": "f33",
+          "escena": "c4-vocero",
+          "texto": "En la plaza, la gente escogió a su vocero: el regidor José Acevedo y Gómez. Desde entonces se le conoce como el tribuno del pueblo.",
+          "cortes": [
+            {
+              "escena": "c4-acevedo",
+              "palabra": 11
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "titulo": "Una noche, un acta",
+      "escenas": {
+        "c5-seis": {
+          "plantilla": "cifra",
+          "datos": {
+            "cifra": "6:00",
+            "unidad": "p. m.",
+            "rotulo": "Empieza la sesión del cabildo",
+            "dibujo": "reloj",
+            "palabra": "seis"
+          }
+        },
+        "c5-junta": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "Junta Suprema",
+              "de Gobierno"
+            ],
+            "resalta": 1,
+            "dibujo": "sello",
+            "palabra_dibujo": "Junta"
+          }
+        },
+        "c5-amar": {
+          "plantilla": "recorte",
+          "datos": {
+            "foto": "File:Antonio Jose Amar y Borb n.JPG",
+            "pie": "Amar y Borbón, retrato atribuido",
+            "insignia": "Virrey de la Nueva Granada",
+            "titulo": "Presidente de la junta",
+            "texto": "El mismo virrey a quien querían reemplazar",
+            "lado": "izquierda"
+          }
+        },
+        "c5-pey": {
+          "plantilla": "personaje",
+          "datos": {
+            "nombre": "José Miguel Pey",
+            "anios": "Santafé, 1810",
+            "rol": "Vicepresidente de la junta y alcalde de Santafé",
+            "pelo": "#2a1d16",
+            "peinado": "corto",
+            "barba": "patillas",
+            "piel": "#e2b48c",
+            "ropa": "#2a2f3a",
+            "detalle": "#9a7128",
+            "corbata": "#f1ece0",
+            "cuello": "lazo",
+            "expresion": "serio"
+          }
+        },
+        "c5-firmantes": {
+          "plantilla": "tablero",
+          "datos": {
+            "personajes": [
+              "torres",
+              "morales",
+              "acevedo"
+            ],
+            "titulo": "Algunos firmantes del acta"
+          }
+        },
+        "c5-tres-media": {
+          "plantilla": "cifra",
+          "datos": {
+            "cifra": "3:30",
+            "unidad": "a. m.",
+            "rotulo": "«Las tres y media de la mañana» del 21 de julio",
+            "dibujo": "reloj",
+            "palabra": "tres"
+          }
+        },
+        "c5-no-declaro": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "El acta no declaró",
+              "la independencia"
+            ],
+            "resalta": 1,
+            "dibujo": "documento",
+            "palabra_dibujo": "acta"
+          }
+        },
+        "c5-rey": {
+          "plantilla": "recorte",
+          "datos": {
+            "foto": "File:Francisco Goya - Portrait of Ferdinand VII of Spain in his robes of state (1815) - Prado.jpg",
+            "pie": "Fernando VII, por Goya",
+            "insignia": "El rey cautivo",
+            "titulo": "Reconocido como rey",
+            "texto": "Y la junta, sujeta a la Regencia",
+            "lado": "derecha"
+          }
+        },
+        "c5-condicion": {
+          "plantilla": "cita",
+          "datos": {
+            "personaje": "fernando7",
+            "texto": "Siempre que venga a reinar entre nosotros",
+            "fuente": "Acta del 20 de julio de 1810",
+            "rol": "Rey de España"
+          }
+        },
+        "c5-lo-nuevo": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "Lo nuevo del acta",
+            "fichas": [
+              {
+                "texto": "Gobierno en la junta",
+                "dibujo": "sello",
+                "palabra": "gobierno"
+              },
+              {
+                "texto": "Solo de forma interina",
+                "dibujo": "reloj",
+                "palabra": "interina"
+              },
+              {
+                "texto": "Escribir constitución",
+                "dibujo": "documento",
+                "palabra": "escribía",
+                "resalta": true
+              }
+            ]
+          }
+        },
+        "c5-cinco-dias": {
+          "plantilla": "cifra",
+          "datos": {
+            "valor": 5,
+            "unidad": "días",
+            "rotulo": "y el virrey salió de la junta",
+            "dibujo": "calendario",
+            "palabra": "pocos"
+          }
+        },
+        "c5-destierro": {
+          "plantilla": "vehiculo",
+          "datos": {
+            "tipo": "barco",
+            "anio": "1810",
+            "rotulo": "Rumbo a España",
+            "detalle": "Amar y su esposa, desterrados",
+            "palabras": {
+              "anio": "agosto",
+              "entra": "salió",
+              "rotulo": "camino",
+              "detalle": "esposa"
+            }
+          }
+        },
+        "c5-cartagena": {
+          "plantilla": "mapa",
+          "datos": {
+            "vistas": [
+              {
+                "centro": [
+                  -74.6,
+                  7
+                ],
+                "ancho": 20
+              }
+            ],
+            "paises": [
+              {
+                "id": "colombia",
+                "color": "acento2",
+                "opacidad": 0.22,
+                "en": 0
+              }
+            ],
+            "marcas": [
+              {
+                "texto": "Santafé",
+                "lugar": "bogota",
+                "lado": "derecha",
+                "tam": 30,
+                "palabra": "capital"
+              },
+              {
+                "texto": "Cartagena",
+                "lugar": "cartagena",
+                "lado": "derecha",
+                "tam": 34,
+                "palabra": "Cartagena"
+              }
+            ],
+            "cartela": {
+              "titulo": "Independencia absoluta",
+              "sub": "Cartagena se adelantó a la capital"
+            },
+            "fichas": [
+              {
+                "titulo": "1811",
+                "texto": "11 de noviembre",
+                "dibujo": "pluma",
+                "palabra": "noviembre",
+                "lugar": "abajo-izquierda"
+              }
+            ]
+          }
+        }
+      },
+      "frases": [
+        {
+          "id": "f34",
+          "escena": "c5-seis",
+          "texto": "A las seis de la tarde empezó la sesión, con el pueblo todavía reunido en la plaza."
+        },
+        {
+          "id": "f35",
+          "escena": "c5-junta",
+          "texto": "Esa noche se eligió una Junta Suprema de Gobierno. Y aquí viene la primera sorpresa: su presidente fue el mismo virrey, Antonio Amar y Borbón.",
+          "cortes": [
+            {
+              "escena": "c5-amar",
+              "palabra": 14
+            }
+          ]
+        },
+        {
+          "id": "f36",
+          "escena": "c5-pey",
+          "texto": "El vicepresidente fue José Miguel Pey, alcalde de la ciudad. Entre los firmantes estaban Camilo Torres, Joaquín Camacho, Antonio Morales y el propio Acevedo y Gómez.",
+          "cortes": [
+            {
+              "escena": "c5-firmantes",
+              "palabra": 10
+            }
+          ]
+        },
+        {
+          "id": "f37",
+          "escena": "c5-tres-media",
+          "texto": "La sesión siguió hasta la madrugada. El acta anota que ya eran las tres y media de la mañana del 21 de julio."
+        },
+        {
+          "id": "f38",
+          "escena": "c5-no-declaro",
+          "texto": "Y aquí está la segunda sorpresa: el acta no declaró la independencia de España."
+        },
+        {
+          "id": "f39",
+          "escena": "c5-rey",
+          "texto": "La junta quedaba sujeta al Consejo de Regencia y reconocía como rey a Fernando séptimo, con una condición: «siempre que venga a reinar entre nosotros».",
+          "cortes": [
+            {
+              "escena": "c5-condicion",
+              "palabra": 11
+            }
+          ]
+        },
+        {
+          "id": "f40",
+          "escena": "c5-lo-nuevo",
+          "texto": "Lo nuevo era otra cosa. El gobierno supremo quedaba en manos de la junta, de forma interina, mientras ella misma escribía una constitución."
+        },
+        {
+          "id": "f41",
+          "escena": "c5-cinco-dias",
+          "texto": "El virrey duró poco en su nuevo puesto. A los pocos días lo sacaron de la junta y, en agosto, salió de Santafé con su esposa, camino de España.",
+          "cortes": [
+            {
+              "escena": "c5-destierro",
+              "palabra": 12
+            }
+          ]
+        },
+        {
+          "id": "f42",
+          "escena": "c5-cartagena",
+          "texto": "La independencia absoluta llegaría después, y la capital no fue la primera: Cartagena la declaró el 11 de noviembre de 1811."
+        }
+      ]
+    },
+    {
+      "id": "c6",
+      "titulo": "La Patria Boba",
+      "escenas": {
+        "c6-no-unido": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "No era",
+              "un país unido"
+            ],
+            "resalta": 1,
+            "dibujo": "balanza",
+            "palabra_dibujo": "unido"
+          }
+        },
+        "c6-provincias": {
+          "plantilla": "cifra",
+          "datos": {
+            "valor": 2,
+            "unidad": "bandos",
+            "rotulo": "Sin acuerdo sobre cómo gobernarse",
+            "dibujo": "balanza",
+            "palabra": "pusieron"
+          }
+        },
+        "c6-narino": {
+          "plantilla": "personaje",
+          "datos": {
+            "personaje": "narino",
+            "anios": "1765-1823",
+            "rol": "Líder de Cundinamarca, preso en Cartagena en 1810",
+            "palabra_anios": "Nariño"
+          }
+        },
+        "c6-viaje-narino": {
+          "plantilla": "mapa",
+          "datos": {
+            "vistas": [
+              {
+                "centro": [
+                  -74.6,
+                  7
+                ],
+                "ancho": 20
+              }
+            ],
+            "paises": [
+              {
+                "id": "colombia",
+                "color": "acento2",
+                "opacidad": 0.22,
+                "en": 0
+              }
+            ],
+            "marcas": [
+              {
+                "texto": "Cartagena",
+                "lugar": "cartagena",
+                "lado": "derecha",
+                "tam": 32,
+                "en": 0.05
+              },
+              {
+                "texto": "Santafé",
+                "lugar": "bogota",
+                "lado": "derecha",
+                "tam": 32,
+                "palabra": "volvió"
+              }
+            ],
+            "rutas": [
+              {
+                "puntos": [
+                  [
+                    -75.5,
+                    10.4
+                  ],
+                  [
+                    -74.9,
+                    8
+                  ],
+                  [
+                    -74.5,
+                    6
+                  ],
+                  [
+                    -74.08,
+                    4.65
+                  ]
+                ],
+                "estilo": "flecha",
+                "color": "acento",
+                "grosor": 7,
+                "palabra": "volvió",
+                "dur": 1.6
+              }
+            ],
+            "cartela": {
+              "titulo": "Nariño, 1810",
+              "sub": "De la cárcel en Cartagena a Santafé"
+            }
+          }
+        },
+        "c6-cundinamarca": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "Nariño, desde 1811",
+            "fichas": [
+              {
+                "texto": "Gobierna Cundinamarca",
+                "dibujo": "bandera",
+                "palabra": "gobernó"
+              },
+              {
+                "texto": "Santafé y alrededores",
+                "dibujo": "montana",
+                "palabra": "estado"
+              },
+              {
+                "texto": "Gobierno central fuerte",
+                "dibujo": "balanza",
+                "palabra": "defendía",
+                "resalta": true
+              }
+            ]
+          }
+        },
+        "c6-federacion": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "Provincias Unidas:",
+              "una federación"
+            ],
+            "resalta": 1,
+            "dibujo": "documento",
+            "palabra_dibujo": "federación"
+          }
+        },
+        "c6-torres": {
+          "plantilla": "personaje",
+          "datos": {
+            "personaje": "torres",
+            "anios": "Fusilado en 1816",
+            "rol": "Presidía el Congreso de las Provincias Unidas"
+          }
+        },
+        "c6-bandos": {
+          "plantilla": "dos-personajes",
+          "datos": {
+            "izquierda": {
+              "personaje": "narino",
+              "pose": "brazos-cruzados",
+              "expresion": "enojado",
+              "rol": "Cundinamarca, centralista"
+            },
+            "derecha": {
+              "personaje": "torres",
+              "pose": "brazos-cruzados",
+              "expresion": "serio",
+              "rol": "Provincias Unidas, federales"
+            }
+          }
+        },
+        "c6-patria-boba": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "Años después:",
+              "«la Patria Boba»"
+            ],
+            "resalta": 1,
+            "insignia": "Nariño, Los toros de Fucha, 1823",
+            "dibujo": "pluma",
+            "palabra_dibujo": "burlón"
+          }
+        },
+        "c6-hitos": {
+          "plantilla": "linea-tiempo",
+          "datos": {
+            "titulo": "Del rey cautivo al ejército",
+            "actual": 1,
+            "palabra_actual": "volvió",
+            "hitos": [
+              {
+                "anio": "1808",
+                "texto": "Napoleón invade España"
+              },
+              {
+                "anio": "1814",
+                "texto": "Fernando VII vuelve al trono"
+              },
+              {
+                "anio": "1815",
+                "texto": "Un ejército sale hacia América"
+              }
+            ]
+          }
+        },
+        "c6-ejercito": {
+          "plantilla": "vehiculo",
+          "datos": {
+            "tipo": "barco",
+            "guerra": true,
+            "anio": "1815",
+            "rotulo": "Ejército a América",
+            "detalle": "A recuperar sus territorios",
+            "palabras": {
+              "anio": "año",
+              "entra": "mandó",
+              "rotulo": "ejército",
+              "detalle": "recuperar"
+            }
+          }
+        },
+        "c6-morillo": {
+          "plantilla": "personaje",
+          "datos": {
+            "personaje": "morillo",
+            "anios": "Llegó en 1815",
+            "rol": "General español, jefe de la reconquista"
+          }
+        },
+        "c6-reconquista": {
+          "plantilla": "mapa",
+          "datos": {
+            "vistas": [
+              {
+                "centro": [
+                  -74.6,
+                  7
+                ],
+                "ancho": 20
+              }
+            ],
+            "paises": [
+              {
+                "id": "colombia",
+                "color": "acento2",
+                "opacidad": 0.22,
+                "en": 0
+              }
+            ],
+            "marcas": [
+              {
+                "texto": "Cartagena",
+                "lugar": "cartagena",
+                "lado": "derecha",
+                "tam": 32,
+                "en": 0.02
+              },
+              {
+                "texto": "Santafé",
+                "lugar": "bogota",
+                "lado": "derecha",
+                "tam": 32,
+                "palabra": "Santafé"
+              }
+            ],
+            "rutas": [
+              {
+                "puntos": [
+                  [
+                    -75.5,
+                    10.4
+                  ],
+                  [
+                    -74.9,
+                    8
+                  ],
+                  [
+                    -74.5,
+                    6
+                  ],
+                  [
+                    -74.08,
+                    4.65
+                  ]
+                ],
+                "estilo": "flecha",
+                "color": "alerta",
+                "grosor": 7,
+                "palabra": "1816",
+                "dur": 1.6
+              }
+            ],
+            "cartela": {
+              "titulo": "La reconquista",
+              "sub": "De Cartagena a Santafé"
+            },
+            "fichas": [
+              {
+                "titulo": "Dic. 1815",
+                "texto": "Cae Cartagena",
+                "dibujo": "cruz",
+                "palabra": "diciembre",
+                "lugar": "abajo-izquierda"
+              },
+              {
+                "titulo": "1816",
+                "texto": "Entran en Santafé",
+                "dibujo": "canon",
+                "palabra": "entraron",
+                "lugar": "abajo-derecha"
+              }
+            ]
+          }
+        },
+        "c6-represion": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "Vino la",
+              "represión"
+            ],
+            "resalta": 1,
+            "dibujo": "cruz",
+            "palabra_dibujo": "represión"
+          }
+        },
+        "c6-fusilados": {
+          "plantilla": "tablero",
+          "datos": {
+            "personajes": [
+              "villavicencio",
+              "torres"
+            ],
+            "titulo": "Fusilados en 1816"
+          }
+        },
+        "c6-caldas": {
+          "plantilla": "recorte",
+          "datos": {
+            "foto": "File:Caldas marcha al suplicio - Alberto Urdaneta Urdaneta.jpg",
+            "pie": "«Caldas marcha al suplicio», Urdaneta",
+            "insignia": "Octubre de 1816",
+            "titulo": "Caldas, fusilado",
+            "texto": "El científico del observatorio",
+            "lado": "izquierda"
+          }
+        },
+        "c6-acevedo": {
+          "plantilla": "personaje",
+          "datos": {
+            "personaje": "acevedo",
+            "anios": "Murió en 1817",
+            "rol": "El tribuno del pueblo, escondido en la selva"
+          }
+        },
+        "c6-boyaca": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "La batalla",
+              "de Boyacá"
+            ],
+            "resalta": 1,
+            "calendario": {
+              "arriba": "Ago",
+              "numero": "7",
+              "abajo": "1819",
+              "lado": "derecha",
+              "palabra": "1819,"
+            }
+          }
+        }
+      },
+      "frases": [
+        {
+          "id": "f43",
+          "escena": "c6-no-unido",
+          "texto": "Lo que siguió no fue un país unido. Las provincias no se pusieron de acuerdo sobre cómo gobernarse, y pronto aparecieron dos bandos.",
+          "cortes": [
+            {
+              "escena": "c6-provincias",
+              "palabra": 10
+            }
+          ]
+        },
+        {
+          "id": "f44",
+          "escena": "c6-narino",
+          "texto": "De un lado, Antonio Nariño. No estuvo en Santafé el 20 de julio: en 1810 había estado preso en Cartagena, y volvió a finales de ese año.",
+          "cortes": [
+            {
+              "escena": "c6-viaje-narino",
+              "palabra": 13
+            }
+          ]
+        },
+        {
+          "id": "f45",
+          "escena": "c6-cundinamarca",
+          "texto": "Desde 1811, Nariño gobernó Cundinamarca, el estado de Santafé y sus alrededores, y defendía un gobierno central fuerte."
+        },
+        {
+          "id": "f46",
+          "escena": "c6-federacion",
+          "texto": "Del otro lado, las Provincias Unidas de la Nueva Granada, que querían una federación. Uno de sus líderes era Camilo Torres, el del Memorial de agravios.",
+          "cortes": [
+            {
+              "escena": "c6-torres",
+              "palabra": 14
+            }
+          ]
+        },
+        {
+          "id": "f47",
+          "escena": "c6-bandos",
+          "texto": "Entre 1812 y 1814, los dos bandos se enfrentaron con las armas. Años después, el propio Nariño bautizó esa época con un nombre burlón: la Patria Boba.",
+          "cortes": [
+            {
+              "escena": "c6-patria-boba",
+              "palabra": 12
+            }
+          ]
+        },
+        {
+          "id": "f48",
+          "escena": "c6-hitos",
+          "texto": "Mientras tanto, Napoleón perdía terreno en Europa. En 1814, Fernando séptimo volvió al trono, y al año siguiente mandó un ejército a recuperar sus territorios en América.",
+          "cortes": [
+            {
+              "escena": "c6-ejercito",
+              "palabra": 18
+            }
+          ]
+        },
+        {
+          "id": "f49",
+          "escena": "c6-morillo",
+          "texto": "Al frente iba el general Pablo Morillo. Sitió Cartagena hasta que la ciudad cayó, en diciembre de 1815, y en 1816 sus tropas entraron en Santafé.",
+          "cortes": [
+            {
+              "escena": "c6-reconquista",
+              "palabra": 10
+            }
+          ]
+        },
+        {
+          "id": "f50",
+          "escena": "c6-represion",
+          "texto": "Vino la represión. Villavicencio, el comisionado que sirvió de excusa, fue fusilado en junio de 1816. Camilo Torres, el 5 de octubre.",
+          "cortes": [
+            {
+              "escena": "c6-fusilados",
+              "palabra": 10
+            }
+          ]
+        },
+        {
+          "id": "f51",
+          "escena": "c6-caldas",
+          "texto": "Caldas, el científico del observatorio, fue fusilado a finales de ese mismo mes. Y Acevedo y Gómez, el tribuno del pueblo, murió en 1817, escondido en la selva.",
+          "cortes": [
+            {
+              "escena": "c6-acevedo",
+              "palabra": 13
+            }
+          ]
+        },
+        {
+          "id": "f52",
+          "escena": "c6-boyaca",
+          "texto": "La independencia definitiva tendría que esperar hasta 1819, y una batalla: la de Boyacá."
+        }
+      ]
+    },
+    {
+      "id": "c7",
+      "titulo": "¿Y el florero?",
+      "escenas": {
+        "c7-casa": {
+          "plantilla": "recorte",
+          "datos": {
+            "foto": "File:Casa del Florero.jpg",
+            "pie": "La Casa del Florero, en la carrera 7 con calle 11 (2010)",
+            "insignia": "Bogotá, hoy",
+            "titulo": "Casa del Florero",
+            "texto": "En la esquina de la tienda de Llorente",
+            "lado": "derecha"
+          }
+        },
+        "c7-museo-1960": {
+          "plantilla": "cifra",
+          "datos": {
+            "cifra": "1960",
+            "rotulo": "El museo abrió el 20 de julio",
+            "dibujo": "calendario",
+            "palabra": "conocido"
+          }
+        },
+        "c7-pieza": {
+          "plantilla": "recorte",
+          "datos": {
+            "foto": "File:El Florero de Llorente.JPG",
+            "pie": "La pieza de porcelana, en el museo (2012)",
+            "insignia": "La pieza",
+            "titulo": "Porcelana con escudo real",
+            "texto": "Del rey de España",
+            "lado": "izquierda"
+          }
+        },
+        "c7-1780": {
+          "plantilla": "cifra",
+          "datos": {
+            "cifra": "h. 1780",
+            "rotulo": "Real Fábrica del Buen Retiro, Madrid",
+            "dibujo": "sello",
+            "palabra": "fechada"
+          }
+        },
+        "c7-donacion": {
+          "plantilla": "linea-tiempo",
+          "datos": {
+            "titulo": "El camino de la pieza",
+            "actual": 1,
+            "palabra_actual": "1882,",
+            "hitos": [
+              {
+                "anio": "1810",
+                "texto": "La pelea en la tienda de Llorente"
+              },
+              {
+                "anio": "1882",
+                "texto": "Epifanio Garay la dona al Museo Nacional"
+              },
+              {
+                "anio": "1960",
+                "texto": "Pasa a la Casa del Florero"
+              }
+            ]
+          }
+        },
+        "c7-autenticidad": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "Su autenticidad",
+              "depende del testimonio"
+            ],
+            "resalta": 1,
+            "dibujo": "balanza",
+            "palabra_dibujo": "autenticidad"
+          }
+        },
+        "c7-que-era": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "¿Qué era?",
+            "foto": "File:Florero de Llorente (view from above).JPG",
+            "foto_pie": "La pieza vista desde arriba (2012)",
+            "fichas": [
+              {
+                "texto": "Un florero",
+                "dibujo": "documento",
+                "palabra": "florero;"
+              },
+              {
+                "texto": "La base de un ramillete",
+                "dibujo": "sello",
+                "palabra": "ramillete,"
+              },
+              {
+                "texto": "Solo se conserva una parte",
+                "dibujo": "cruz",
+                "palabra": "conserva",
+                "resalta": true
+              }
+            ]
+          }
+        },
+        "c7-chispa": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "El florero no causó",
+              "la independencia"
+            ],
+            "resalta": 1,
+            "dibujo": "pluma",
+            "todo_al_inicio": true
+          }
+        },
+        "c7-cadena": {
+          "plantilla": "cadena",
+          "datos": {
+            "eslabones": [
+              {
+                "texto": "Rey cautivo",
+                "palabra": "cautivo,"
+              },
+              {
+                "texto": "Juntas",
+                "palabra": "juntas"
+              },
+              {
+                "texto": "Criollos",
+                "palabra": "criollos"
+              }
+            ],
+            "anios": [
+              "1808",
+              "1809",
+              "1810"
+            ],
+            "palabra_atras": "esperando",
+            "rotulo_atras": "Viene de años atrás"
+          }
+        },
+        "c7-objeto": {
+          "plantilla": "recorte",
+          "datos": {
+            "foto": "File:Florero de Llorente.jpg",
+            "pie": "La parte que se conserva del florero (2012)",
+            "insignia": "Un objeto, un plan",
+            "titulo": "Un accidente famoso",
+            "texto": "Con gente esperándolo",
+            "lado": "derecha"
+          }
+        },
+        "c7-cierre": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "Suscríbete",
+              "Hay más historias"
+            ],
+            "resalta": 0,
+            "insignia": "Historias contadas con documentos",
+            "dibujo": "documento",
+            "todo_al_inicio": true
+          }
+        }
+      },
+      "frases": [
+        {
+          "id": "f53",
+          "escena": "c7-casa",
+          "texto": "¿Y el florero? Hoy, en la esquina donde estaba la tienda de Llorente, funciona el Museo de la Independencia, conocido como la Casa del Florero.",
+          "cortes": [
+            {
+              "escena": "c7-museo-1960",
+              "palabra": 13
+            }
+          ]
+        },
+        {
+          "id": "f54",
+          "escena": "c7-pieza",
+          "texto": "Allí se exhibe una pieza de porcelana con el escudo del rey de España, atribuida a la Real Fábrica del Buen Retiro, en Madrid, y fechada hacia 1780.",
+          "cortes": [
+            {
+              "escena": "c7-1780",
+              "palabra": 14
+            }
+          ]
+        },
+        {
+          "id": "f55",
+          "escena": "c7-donacion",
+          "texto": "Llegó al Museo Nacional en 1882, donada por el pintor Epifanio Garay. Su autenticidad descansa, sobre todo, en el testimonio de quienes la entregaron.",
+          "cortes": [
+            {
+              "escena": "c7-autenticidad",
+              "palabra": 12
+            }
+          ]
+        },
+        {
+          "id": "f56",
+          "escena": "c7-que-era",
+          "texto": "Y ni siquiera hay acuerdo sobre qué era: unos hablan de un florero; otros, de la base de un ramillete, un adorno de mesa. Lo que se conserva es solo una parte."
+        },
+        {
+          "id": "f57",
+          "escena": "c7-chispa",
+          "texto": "Lo que sí sabemos es que el florero no causó la independencia. Fue la chispa planeada de algo que venía de años atrás: un rey cautivo, juntas en España y en América, y unos criollos esperando su momento.",
+          "cortes": [
+            {
+              "escena": "c7-cadena",
+              "palabra": 12
+            }
+          ]
+        },
+        {
+          "id": "f58",
+          "escena": "c7-objeto",
+          "texto": "A veces la historia cabe mejor en un objeto que en una explicación. Pero detrás de este accidente famoso había gente esperándolo."
+        },
+        {
+          "id": "f59",
+          "escena": "c7-cierre",
+          "texto": "Si te gustan las historias contadas con documentos, suscríbete. Hay muchas más por contar."
+        }
+      ]
+    }
+  ]
+}

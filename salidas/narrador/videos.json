@@ -1,6 +1,20 @@
 {
-  "actualizado": "2026-11-20T18:23:09.278Z",
+  "actualizado": "2026-11-21T18:59:58.556Z",
   "videos": [
+    {
+      "id": "hi-florero",
+      "tipo": "largo",
+      "titulo": "¿Un florero empezó la independencia? El plan detrás del 20 de julio",
+      "duracion_s": 554.6,
+      "producido": "2026-11-21T18:59:58.535Z",
+      "video": "salidas/narrador/hi-florero/hi-florero.mp4",
+      "portada": "salidas/narrador/hi-florero/miniatura.jpg",
+      "fuentes": "salidas/narrador/hi-florero/fuentes.md",
+      "descripcion": "salidas/narrador/hi-florero/descripcion.txt",
+      "subtitulos": "salidas/narrador/hi-florero/hi-florero.srt",
+      "video_en_esta_pc": true,
+      "publicacion": "¿Un florero empezó la independencia? El plan detrás del 20 de julio\n\n#historia #colombia #independencia"
+    },
     {
       "id": "hi-panama",
       "tipo": "largo",
