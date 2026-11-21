@@ -29,13 +29,22 @@ La instrucción dice qué hacer. Si viene vacía, haz **«producir»** con los d
 - **textos <id>:** reescribe `publicacion.redes` del guion y vuelve a correr `producir.mjs` para regenerar `textos.md`, sin volver a renderizar si el video ya existe.
 - **reaprovechar <id>:** carrusel, corte de 15 segundos y post (NARRADOR.md §9) en `salidas/narrador/<id>/`.
 - **guion <id>:** muestra el guion y sus fuentes sin producir nada.
+- **largo <id | texto>** (video largo horizontal para YouTube, 8 a 10 min): escribe `animados/propios/<id>/guion.json` con el formato de `animados/propios/hi-panama/guion.json` (`"tipo": "largo"`, `"orientacion": "horizontal"`, `personajes`, `miniatura`, `publicacion`, `fuentes`, `imagenes` de Commons verificadas por su API con licencia dominio público, CC0, CC BY o CC BY-SA, y `capitulos` con `frases` y `escenas: {}`). Copia el `.gitignore` de hi-panama. Voz `"motor": "elevenlabs"`, `"voz": "C12mZePhNoo0RoTXhSFV"`, `"modelo_voz": "eleven_multilingual_v2"`, `"tope_caracteres": 50` (el orquestador lo sube solo para generar la voz). De 1.250 a 1.450 palabras y como máximo 8.500 caracteres de `texto` en total (cuéntalos con un comando); frases de 1 a 3 oraciones; `c0` es el gancho de unos 30 s y luego de 5 a 7 capítulos. Todo dato que vaya a verse en pantalla debe estar en `fuentes`. No generas voz ni produces. Marca el tema `guion` en `temas.json`.
+- **escenas <id> <capítulos>** (p. ej. `escenas hi-florero c0,c1,c2,c3`): diseña las escenas animadas de esos capítulos siguiendo `animados/contenido/escenas-horizontales.md`, con las escenas de `animados/propios/hi-panama/guion.json` como referencia de estilo. Reglas:
+  - No cambies ni una letra de ningún `texto`.
+  - No generes voz: `voz.mjs` debe decir «0 caracteres por generar»; si no, detente e infórmalo.
+  - Una escena distinta cada 4 a 8 s, siempre con algo en movimiento y sin repetir plantilla dos escenas seguidas. Los personajes van por su id de la ficha. Las fotos de Commons solo van como elemento, nunca a pantalla completa.
+  - Escribe cada capítulo en `animados/propios/<id>/escenas/<cap>.json` (ids de escena con prefijo del capítulo).
+  - Prueba en una copia tuya `animados/propios/<id>-tmp-<letra>/` (solo con `guion.json`): únelo con `node animados/herramientas/une-escenas.mjs <copia> <archivo>`, revisa con `node animados/herramientas/producir.mjs <copia> --capitulos <cap> --sin-render --capturas`, mira las capturas, corrige y renderiza cada capítulo en la copia para mirar al menos 6 cuadros.
+  - No toques el `guion.json` original: lo une el orquestador. Al terminar, borra tu copia.
 
 ## Reglas
 
 - **Verdad ante todo.** Cada dato, en dos fuentes confiables; si hay discusión, la versión segura; los mitos se dicen como mitos. Nada sin `fuentes`.
 - **Salud y dinero** con sus límites (NARRADOR.md §5). Lo de salud no se da por terminado sin revisión de una persona con formación en salud.
-- **Voz de una persona.** Sin grabación, el video espera. La voz local solo sirve para pruebas que no se entregan. No uses servicios de voz de pago sin aprobación expresa de Santiago y Felipe.
-- **Contenido 100 % nuestro.** Nada de material de terceros (fotos, videos, música, logos). Dibujos con código y textos propios.
+- **Voz.** Los Shorts verticales siguen con voz grabada por una persona (sin grabación, el video espera; la voz local solo sirve para pruebas). Los videos largos usan ElevenLabs (aprobado por Santiago el 2026-11-20), pero la voz la genera el orquestador una sola vez: tú nunca subes `tope_caracteres` ni generas voz de pago.
+- **Contenido largo.** Diseño, gráficos y personajes animados con código; las fotos de archivo (Commons, con licencia revisada) solo como elemento dentro del diseño, nunca como base del video.
+- **Contenido 100 % nuestro.** Nada de material de terceros (videos, música, logos). Dibujos con código y textos propios; la única excepción son las imágenes de Commons de dominio público o con licencia libre, con su crédito.
 - **Cada video es distinto.** No repitas formato ni paleta del video anterior de la misma cuenta.
 - **Lo tuyo.** Escribes en `animados/propios/`, `datos/narrador/` y `salidas/narrador/`. No tocas `animados/videos/` (es del Animador), ni las plantillas salvo para corregir un defecto, ni carpetas de otros agentes.
 - **No publicas ni haces git.**

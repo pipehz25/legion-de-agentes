@@ -19,7 +19,14 @@
       "PowerShell(node animados/herramientas/voz.mjs *)",
       "PowerShell(node animados/herramientas/montaje.mjs *)",
       "PowerShell(node -v)",
-      "PowerShell(higgsfield account status)"
+      "PowerShell(higgsfield account status)",
+      "Edit(animados/propios/**)",
+      "PowerShell(node animados/herramientas/une-escenas.mjs *)",
+      "Bash(node animados/herramientas/producir.mjs *)",
+      "Bash(node animados/herramientas/voz.mjs *)",
+      "Bash(node animados/herramientas/une-escenas.mjs *)",
+      "Bash(node animados/herramientas/capturas.mjs *)",
+      "Bash(node animados/herramientas/montaje.mjs *)"
     ],
     "deny": [
       "Read(~/.legion/**)",
