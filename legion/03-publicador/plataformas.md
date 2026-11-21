@@ -34,6 +34,7 @@ Estos pasos activan la cuenta `principal` de cada plataforma. Para añadir más 
 4. Ejecuta `autorizar -Plataforma youtube`: pide los dos datos, abre el navegador y vuelve a `http://127.0.0.1:8765` (`puerto_oauth`). Para lanzarlo sin preguntas, por ejemplo desde Claude, pasa el client_id en `LEGION_CLIENT_KEY` y el client_secret en `LEGION_CLIENT_SECRET`.
 5. **Privacidad:** desde el 2026-11-02 Google ya no deja en privado lo que suben los proyectos sin auditar (antes lo hacía con los creados después del 2020-07-28). Lo subido sale con `youtube.privacidad` de `config.json`.
 6. **Cupo:** desde el 2026-06-01 las subidas (`videos.insert`) tienen su propio cupo de **100 al día por proyecto**, a 1 unidad cada una, aparte de las 10 000 unidades diarias del resto de llamadas (leer vistas, comprobar). Se reinicia a medianoche, hora del Pacífico. Para más, el formulario de ampliación de cupo de YouTube API Services, que exige pasar una auditoría.
+7. **Límite del canal:** aparte del cupo del proyecto, cada canal tiene un tope propio de subidas al día. El 2026-11-21, el canal nuevo Getaway Kings Chases devolvió `HTTP 400 uploadLimitExceeded` en la subida 11 de ese día. Así que no conviene subir de golpe varios días de videos programados: lo seguro es unas 10 subidas al día por canal. Verificar el canal con teléfono (youtube.com/verify) puede subir ese tope.
 
 Fuentes: https://developers.google.com/youtube/v3/determine_quota_cost y https://developers.google.com/youtube/v3/revision_history (entradas del 2025-12-04, 2026-06-01 y 2026-11-02).
 
