@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-11-19T23:02:57-05:00",
-  "ciclo": 12,
+  "actualizado": "2026-11-20T21:24:00-05:00",
+  "ciclo": 13,
   "ultimo_ciclo_clipero": 18,
   "notas": [
     "Ciclo 1 (instrucción simular): las 63 entradas se crearon pendiente_aprobacion y sus envíos se validaron con subir -Simular. ultima_simulacion.huella es el SHA-256 del archivo de envío: si coincide, no hace falta volver a simular; si el envío cambia, toca simular de nuevo.",
@@ -47,7 +47,8 @@
     "2026-11-15T18:30:00-05:00 Ciclo 9 (normal, sin instrucción del usuario; Clipero en su ciclo 15, clips.json generado el 14-nov 23:58). Clips nuevos: 4 urbanos de Stream Fighters 5, todos originales, sin_verificar y con ventana hasta el 16-nov: stf5-daren-cinco-segundos (78), stf5-westcol-patadita (72), stf5-daren-quiero-guerra (72) y samulx-chanty-cruce-willito (66). stf5-ganga-cara-a-cara y stf5-westcol-grefg-frunci, que el orquestador mencionaba, no estaban registrados en clips.json al leerlo: quedan para el próximo ciclo. 12 envíos validados con -Simular (todo ok). Reparto: TikTok, Instagram y YouTube a principal. TikTok se crea aprobado (borradores automáticos); Instagram y YouTube, pendiente_aprobacion. comprobar (18:17-18:19): los 32 borradores anteriores siguen SEND_TO_USER_INBOX. Subidas: principal aceptó 3 (daren-cinco-segundos, westcol-patadita y daren-quiero-guerra) y la cuarta, samulx-chanty-cruce-willito, dio spam_risk_too_many_pending_share (18:21): se paró la cuenta. risas aceptó culpa-ivan-piscina y la segunda, parenlamano-papa-a-dormir, dio spam_risk_too_many_pending_share (18:22): se paró la cuenta. Las dos rechazadas quedan error con intentos 1. Los 4 aceptados, en_borradores. Dato del límite: los 8 borradores del 14-nov se subieron entre 19:33 y 19:37 y siguen sin publicar; TikTok cortó principal después de aceptar 3 hoy (7 en 24 h) y risas después de aceptar 1 (5 en 24 h), así que el tope no es un número fijo y la única prueba fiable es la respuesta de TikTok. Los del 14-nov salen de la ventana de 24 h a partir de las 19:37 del 15-nov. Según la API quedan 36 borradores en la bandeja (21 en principal, 3 de ellos de Blessd del 29 al 31-oct; 15 en risas). Cola de risas (8, vencen el 17 y 18-nov): papa-a-dormir (reintento), faja-disfraz, vinchi-dicaprio y navajas-suizas el 16-nov; radar-eldorado, papa-cadenero, pastor-gases y dicaprio-sandwich el 17-nov (así quedan en días distintos los dos de Jhovanoty, los dos de DiCaprio y los del Papa), si TikTok vuelve a aceptar borradores. Cola de principal: samulx-chanty-cruce-willito (reintento, vence el 16-nov).",
     "2026-11-17T17:03:13-05:00 Ciclo 10 (normal, sin instrucción del usuario; Clipero en su ciclo 16, clips.json generado el 17-nov 16:44). No hubo ciclo del Publicador el 16-nov. Clips nuevos: 39, todos originales (sin variantes) y sin_verificar: 13 del ciclo 15 del Clipero que no estaban en clips.json al leerlo el 15-nov (2 urbanos de Stream Fighters 5 y 11 de risas: Paren la Mano, Nadie Sabe Nada y Tirando Bola) y 26 del ciclo 16 (17 urbanos: Westcol sobre Herrera, Samulx en el hotel y Lonche con La Ganga; 9 de risas: Hablando Huevadas en El Salvador y La Cotorrisa ep. 378). 117 envíos validados con -Simular (todo ok). Reparto: TikTok risas a la cuenta risas y urbanos a principal; Instagram risas a la cuenta risas (apagada; config.json) y urbanos a principal; YouTube todo a principal. stf5-ganga-cara-a-cara y stf5-westcol-grefg-frunci llegaron con la ventana cerrada (16-nov): sus 6 entradas se crean vencido. Ajustes de texto frente a las fichas: ganga-robot-precio no atribuye la cifra a La Ganga (la ficha dice que no se sabe quién habla); parenlamano-barrera-2am no atribuye la regla a Rober Galati (la ficha lo saca de un comentario); westcol-daren-mentiroso no dice «en 5 segundos»; stf5-ganga-cara-a-cara no dice que Samulx le toca la cara a Willito (el segundo corte ya no lo muestra); samulx-hable-mucho no cita la frase vulgar; hh-temblor-hijos y las anécdotas de La Cotorrisa no nombran a quien cuenta. Vencimientos: 10 pendientes de Instagram y YouTube con ventana hasta el 15 o 16-nov (francupido-plantada-langosta, ballarta-champana y los 3 urbanos de Stream Fighters 5 del ciclo 9) y samulx-chanty-cruce-willito en las tres plataformas (la de TikTok estaba en error con 1 de 2 intentos; ventana 16-nov). Criterio nuevo: una entrada aprobada solo por la aprobación automática de borradores (no expresa) cuya ventana ya pasó se marca vencido en lugar de subirse. comprobar (16:49): los 36 borradores anteriores siguen SEND_TO_USER_INBOX. Subidas (16:57-16:59): TikTok aceptó 4 en cada cuenta sin spam_risk_too_many_pending_share (las últimas subidas eran del 15-nov 18:21). principal: samulx-retiro-boxeo, samulx-dime-que-no-puedes, samulx-cuarto-round y westcol-disculpa-pelea-jh; risas: parenlamano-papa-a-dormir (segundo intento), parenlamano-luquitas-turista, parenlamano-luquitas-zapatilla y tirandobola-perra-amigo. Todos en_borradores (comprobados 17:00-17:01). westcol-herrera-no-planeado (78, primero de la cola de principal) dio HTTP 500 sin publish_id a las 16:57: queda error con 1 de 2 intentos y resultado incierto; no se reintenta hasta que el usuario confirme que no está en la bandeja (mismo criterio que prestamo-primera-cancion el 31-oct). Su hueco lo ocupó westcol-disculpa-pelea-jh (77), que la ficha pide separar de herrera-no-planeado: así quedan en días distintos. luquitas-turista y luquitas-zapatilla vencían hoy, así que fueron juntos aunque la ficha pedía un día de separación: el usuario los publica en ese orden. Según la API quedan 44 borradores en la bandeja (25 en principal y 19 en risas). Plan de la cola (4 al día por cuenta, ventana más cercana y después puntaje): principal 18-nov samulx-camerino-herrera, lonche-cinco-lesiones, samulx-prueba-antidoping y samulx-camerino-robado (o herrera-no-planeado si el usuario confirma que no llegó); 19-nov westcol-boxeo-aburrido, ganga-robot-precio y westcol-show-kris-r. risas 18-nov nsn-telefono-infancia, jhovanoty-faja-disfraz, tirandobola-luz-experiencias y cotorrisa-vinchi-dicaprio (empate a 72: fuera jhovanoty-radar-eldorado para separar los dos de Jhovanoty; entre los demás, vinchi-dicaprio llevaba más tiempo en cola y luz-experiencias tenía la hora de ficha más temprana); 19-nov hh-aeropuerto-4am, hh-estafa-reventa, hh-colada-bano y cotorrisa-suite-karol-g. No caben antes de su ventana y vencerán si el usuario no decide otra cosa: principal 5 (westcol-daren-mentiroso, samulx-entrada-sin-musica, samulx-clinica-fotico, samulx-hable-mucho y samulx-cuerda-espalda, 18-nov); risas 16 (11 con ventana 18-nov y 5 con 19-nov). El Clipero entrega más clips de los que TikTok admite (4 borradores al día por cuenta): conviene que corte menos o que el usuario elija.",
     "2026-11-17T19:33:37-05:00 Ciclo 11 (normal, sin instrucción del usuario; Clipero en su ciclo 17). Clips nuevos: 4 de la línea risas, todos originales y sin_verificar: culpa-marin-despide-quevedo (76) y culpa-mama-carrazo (75), de Los De La Culpa cap. 269 (ventana 20-nov); renona-checo-dinosaurios (74), de La Mesa Reñoña 524 de Franco Escamilla, y olga-agua-mostaza (73), de Soñé que Volaba (OLGA) (ventana 21-nov). 12 envíos validados con -Simular (todo ok). Reparto: TikTok e Instagram a la cuenta risas; YouTube a principal. TikTok se crea aprobado (borradores automáticos); Instagram y YouTube, pendiente_aprobacion. Textos: ni los de La Culpa ni el de OLGA nombran a quien cuenta salvo Marín y Ricardo, a los que nombra el programa; el de La Mesa Reñoña atribuye el remate a Franco como el gancho del video, con revisión pendiente (el plano general no lo confirma). Caso Herrera (Cazador Urbano, ciclo 14: pasa a lo legal, «Westcol lo demandará»): se cierran como rechazado las 3 entradas de westcol-herrera-no-planeado (TikTok estaba en error sin reintento; si llegó a la bandeja, no publicarlo), las 3 de samulx-camerino-herrera (TikTok estaba aprobado para el 18-nov) y las de Instagram y YouTube de westcol-disculpa-pelea-jh; su borrador de TikTok ya está en la bandeja de principal y queda con aviso de no publicarlo. Las tres fichas pedían no publicarlos si la polémica pasaba a lo judicial. Pueden salir los otros tres del video de Westcol, que no tocan a Herrera: westcol-daren-mentiroso, westcol-boxeo-aburrido y westcol-show-kris-r. comprobar (19:27-19:29): los 44 borradores siguen SEND_TO_USER_INBOX (25 en principal, 19 en risas). Subidas: ninguna; las dos cuentas de TikTok ya llevaban 4 de 4 hoy (ciclo 10). Vencimientos: ninguno (no hay pendientes ni aprobadas con ventana anterior al 17-nov). Plan de TikTok (4 al día por cuenta, ventana más cercana y después puntaje): principal 18-nov lonche-cinco-lesiones, samulx-prueba-antidoping, samulx-camerino-robado y westcol-daren-mentiroso (empate a 70 con entrada-sin-musica y clinica-fotico: entra por variedad, único de Westcol); 19-nov westcol-boxeo-aburrido, ganga-robot-precio y westcol-show-kris-r. risas 18-nov nsn-telefono-infancia, jhovanoty-faja-disfraz, tirandobola-luz-experiencias y cotorrisa-vinchi-dicaprio; 19-nov hh-aeropuerto-4am, hh-estafa-reventa, hh-colada-bano y cotorrisa-suite-karol-g; 20-nov los 4 nuevos (las fichas proponían el 18 y 19-nov, pero su ventana es más larga; los dos de La Culpa, separados por el usuario al publicar). No caben y vencerán: principal 4 (samulx-entrada-sin-musica, samulx-clinica-fotico, samulx-hable-mucho y samulx-cuerda-espalda, 18-nov); risas 16 (11 el 18-nov y 5 el 19-nov).",
-    "2026-11-19T23:02:57-05:00 Ciclo 12 (normal, sin instrucción del usuario; Clipero en su ciclo 18, clips.json del 18-nov 01:50). El ciclo empezó el 18-nov a las 01:45, fuera del horario (08:00-23:00): no subió nada, preparó y simuló los envíos y se quedó colgado antes de escribir el estado; el orquestador lo retomó a las 11:55 del 18-nov, lo cortó el límite de uso y se retomó a las 22:57 del 19-nov. Por eso el 18-nov no se envió nada y la cola de ese día venció. Clips nuevos: 4, originales y sin_verificar: luciernaga-imitadores-iva (76, risas, sátira con imitadores de Claudia López y Álvaro Uribe de La Luciérnaga; no sale ningún político real; ventana 20-nov), juanpis-pestilencia-juicio-tv (74, risas; Dilson Díaz en The Juanpis Live Show; ventana 22-nov), ganga-guarida-toretto (74, urbano) y ganga-bienvenida-piscina (73, urbano; hay que verlo entero antes de publicarlo), los dos de las 24 horas con La Ganga, ventana 20-nov. 12 envíos validados con -Simular (todo ok). Reparto: TikTok risas a risas y urbanos a principal; Instagram risas a risas (apagada) y urbanos a principal; YouTube, por primera vez con un canal por línea (config.json de Santiago del 17-nov): risas a la cuenta risas (apagada, sin credenciales) y urbanos a principal. Las 47 entradas de YouTube de clips risas que estaban en principal (ninguna enviada) pasan a risas, también en su envío (cuenta_anterior: principal); las que siguen abiertas se validan con -Simular (ok). YouTube sale ahora public al subir (antes private): aprobar en YouTube es publicar. Textos: el del IVA dice siempre imitadores, sin partidos ni opiniones, y su crédito no copia el título del video (habla de un juez y de De la Espriella); el de la piscina no nombra a nadie ni copia el título del video («Me desquite de Westcol y de Pan»); el de La Guarida dice «no salió a la primera» y no «a la quinta toma». Subidas (22:58-22:59 del 19-nov, dentro del horario; las 6 vencían hoy): principal westcol-boxeo-aburrido y ganga-robot-precio; risas hh-aeropuerto-4am, hh-colada-bano, hh-estafa-reventa y cotorrisa-suite-karol-g. TikTok aceptó las 6 sin spam_risk_too_many_pending_share (las últimas subidas eran del 17-nov 16:59). principal no subió más: después de las 23:00 solo se sube lo que vence antes del siguiente ciclo dentro del horario, y sus otros 3 (ventana 20-nov) caben mañana. comprobar (22:59-23:01): los 50 borradores siguen SEND_TO_USER_INBOX (27 en principal, 23 en risas). Vencimientos: 23 de TikTok con ventana 18-nov (8 del plan del 18-nov, que no se enviaron porque no hubo ciclo dentro del horario: lonche-cinco-lesiones, samulx-prueba-antidoping, samulx-camerino-robado, westcol-daren-mentiroso, nsn-telefono-infancia, jhovanoty-faja-disfraz, tirandobola-luz-experiencias y cotorrisa-vinchi-dicaprio; y 15 que no cabían), y 43 de Instagram y 43 de YouTube con ventana 17 o 18-nov. Herrera: nada reabierto; westcol-herrera-no-planeado no se reintenta. Plan de TikTok: principal 20-nov ganga-guarida-toretto, ganga-bienvenida-piscina (después de verlo entero, a otra hora que La Guarida) y westcol-show-kris-r (día del concierto); risas 20-nov culpa-marin-despide-quevedo, luciernaga-imitadores-iva, culpa-mama-carrazo y renona-checo-dinosaurios; 21-nov olga-agua-mostaza y juanpis-pestilencia-juicio-tv. Todo cabe antes de su ventana. No caben y vencerán: risas 5 con ventana hoy (hh-colada-tres-minutos, hh-temblor-hijos, cotorrisa-paloma-medalla, cotorrisa-refri-papas y hh-lluvia-lima)."
+    "2026-11-19T23:02:57-05:00 Ciclo 12 (normal, sin instrucción del usuario; Clipero en su ciclo 18, clips.json del 18-nov 01:50). El ciclo empezó el 18-nov a las 01:45, fuera del horario (08:00-23:00): no subió nada, preparó y simuló los envíos y se quedó colgado antes de escribir el estado; el orquestador lo retomó a las 11:55 del 18-nov, lo cortó el límite de uso y se retomó a las 22:57 del 19-nov. Por eso el 18-nov no se envió nada y la cola de ese día venció. Clips nuevos: 4, originales y sin_verificar: luciernaga-imitadores-iva (76, risas, sátira con imitadores de Claudia López y Álvaro Uribe de La Luciérnaga; no sale ningún político real; ventana 20-nov), juanpis-pestilencia-juicio-tv (74, risas; Dilson Díaz en The Juanpis Live Show; ventana 22-nov), ganga-guarida-toretto (74, urbano) y ganga-bienvenida-piscina (73, urbano; hay que verlo entero antes de publicarlo), los dos de las 24 horas con La Ganga, ventana 20-nov. 12 envíos validados con -Simular (todo ok). Reparto: TikTok risas a risas y urbanos a principal; Instagram risas a risas (apagada) y urbanos a principal; YouTube, por primera vez con un canal por línea (config.json de Santiago del 17-nov): risas a la cuenta risas (apagada, sin credenciales) y urbanos a principal. Las 47 entradas de YouTube de clips risas que estaban en principal (ninguna enviada) pasan a risas, también en su envío (cuenta_anterior: principal); las que siguen abiertas se validan con -Simular (ok). YouTube sale ahora public al subir (antes private): aprobar en YouTube es publicar. Textos: el del IVA dice siempre imitadores, sin partidos ni opiniones, y su crédito no copia el título del video (habla de un juez y de De la Espriella); el de la piscina no nombra a nadie ni copia el título del video («Me desquite de Westcol y de Pan»); el de La Guarida dice «no salió a la primera» y no «a la quinta toma». Subidas (22:58-22:59 del 19-nov, dentro del horario; las 6 vencían hoy): principal westcol-boxeo-aburrido y ganga-robot-precio; risas hh-aeropuerto-4am, hh-colada-bano, hh-estafa-reventa y cotorrisa-suite-karol-g. TikTok aceptó las 6 sin spam_risk_too_many_pending_share (las últimas subidas eran del 17-nov 16:59). principal no subió más: después de las 23:00 solo se sube lo que vence antes del siguiente ciclo dentro del horario, y sus otros 3 (ventana 20-nov) caben mañana. comprobar (22:59-23:01): los 50 borradores siguen SEND_TO_USER_INBOX (27 en principal, 23 en risas). Vencimientos: 23 de TikTok con ventana 18-nov (8 del plan del 18-nov, que no se enviaron porque no hubo ciclo dentro del horario: lonche-cinco-lesiones, samulx-prueba-antidoping, samulx-camerino-robado, westcol-daren-mentiroso, nsn-telefono-infancia, jhovanoty-faja-disfraz, tirandobola-luz-experiencias y cotorrisa-vinchi-dicaprio; y 15 que no cabían), y 43 de Instagram y 43 de YouTube con ventana 17 o 18-nov. Herrera: nada reabierto; westcol-herrera-no-planeado no se reintenta. Plan de TikTok: principal 20-nov ganga-guarida-toretto, ganga-bienvenida-piscina (después de verlo entero, a otra hora que La Guarida) y westcol-show-kris-r (día del concierto); risas 20-nov culpa-marin-despide-quevedo, luciernaga-imitadores-iva, culpa-mama-carrazo y renona-checo-dinosaurios; 21-nov olga-agua-mostaza y juanpis-pestilencia-juicio-tv. Todo cabe antes de su ventana. No caben y vencerán: risas 5 con ventana hoy (hh-colada-tres-minutos, hh-temblor-hijos, cotorrisa-paloma-medalla, cotorrisa-refri-papas y hh-lluvia-lima).",
+    "2026-11-20T21:24:00-05:00 Ciclo 13 (normal, sin instrucción del usuario; Clipero sin ciclo nuevo: clips.json sigue en su ciclo 18, del 18-nov 01:50, así que no hay clips nuevos). Empezó a las 21:14 del 20-nov, dentro del horario (08:00-23:00). Subidas primero (21:15-21:17): TikTok principal aceptó sus 3 en cola (ganga-guarida-toretto, ganga-bienvenida-piscina y westcol-show-kris-r; queda 1 hueco de 4 sin nada en cola); TikTok risas aceptó culpa-marin-despide-quevedo y luciernaga-imitadores-iva y a la tercera, culpa-mama-carrazo, respondió spam_risk_too_many_pending_share (21:17): queda error con 1 de 2 intentos y la cuenta se paró en este ciclo. renona-checo-dinosaurios no se intentó y pasa al 21-nov. Dato del límite: risas llevaba 4 borradores del 19-nov (22:58-22:59) y 2 de hoy, 6 en 24 h, y principal pasó con 5 en 24 h (2 del 19-nov y 3 de hoy); el tope sigue sin ser un número fijo. comprobar (21:18-21:19): los 55 borradores siguen SEND_TO_USER_INBOX (30 en principal y 25 en risas). Vencimientos: 5 de TikTok risas con ventana 19-nov que no cupieron (cotorrisa-refri-papas, cotorrisa-paloma-medalla, hh-colada-tres-minutos, hh-temblor-hijos, hh-lluvia-lima), 11 de Instagram y 11 de YouTube con ventana 19-nov. Herrera: nada reabierto; westcol-herrera-no-planeado no se reintenta. Plan de TikTok risas 21-nov: renona-checo-dinosaurios, juanpis-pestilencia-juicio-tv y olga-agua-mostaza, más culpa-mama-carrazo si el usuario lo aprueba expresamente (su ventana acaba hoy; sin aprobación expresa vence en el próximo ciclo). Conviene que el ciclo del 21-nov sea después de las 21:17, cuando los borradores de hoy salen de la ventana de 24 h. TikTok principal: sin nada en cola."
   ],
   "entradas": [
     {
@@ -253,14 +254,14 @@
         }
       ],
       "ultima_comprobacion": {
-        "fecha": "2026-11-19T23:00:07-05:00",
+        "fecha": "2026-11-20T21:18:08-05:00",
         "estado": "en_borradores",
         "detalle": "SEND_TO_USER_INBOX"
       },
       "cuenta": "principal",
       "pieza": "2026-10-29-blessd-vendedor-controles",
       "gancho": "",
-      "comprobado": "2026-11-19T23:00:07-05:00",
+      "comprobado": "2026-11-20T21:18:08-05:00",
       "detalle_plataforma": "SEND_TO_USER_INBOX"
     },
     {
@@ -906,14 +907,14 @@
       "motivo": "Enviado a la bandeja de TikTok por solicitud expresa del usuario.",
       "creado": "2026-10-29T20:49:28-05:00",
       "ultima_comprobacion": {
-        "fecha": "2026-11-19T23:00:09-05:00",
+        "fecha": "2026-11-20T21:18:10-05:00",
         "estado": "en_borradores",
         "detalle": "SEND_TO_USER_INBOX"
       },
       "cuenta": "principal",
       "pieza": "2026-10-29-blessd-ryan-castro-los-mismos",
       "gancho": "",
-      "comprobado": "2026-11-19T23:00:09-05:00",
+      "comprobado": "2026-11-20T21:18:10-05:00",
       "detalle_plataforma": "SEND_TO_USER_INBOX"
     },
     {
@@ -1895,10 +1896,10 @@
       "publicado": "2026-10-29T20:54:46-05:00",
       "motivo": "Aprobado por el usuario el 2026-10-29T20:53:40-05:00 (solo TikTok). Subido a la bandeja de TikTok (destino borrador) el 2026-10-29T20:54:46-05:00: falta terminar la publicación desde la app y pegar el texto de pendientes.md.",
       "creado": "2026-10-29T20:49:43-05:00",
-      "comprobado": "2026-11-19T23:00:10-05:00",
+      "comprobado": "2026-11-20T21:18:12-05:00",
       "detalle_plataforma": "SEND_TO_USER_INBOX",
       "ultima_comprobacion": {
-        "fecha": "2026-11-19T23:00:10-05:00",
+        "fecha": "2026-11-20T21:18:12-05:00",
         "estado": "en_borradores",
         "detalle": "SEND_TO_USER_INBOX"
       },
@@ -6960,10 +6961,10 @@
       "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta principal (Legión Urbana) el 2026-11-10T19:40:05-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
       "creado": "2026-11-10T19:39:51-05:00",
       "revision_pendiente": "Es un entrenamiento militar, no la preparación de su pelea: no presentarlo como entrenamiento para Stream Fighters.",
-      "comprobado": "2026-11-19T23:00:12-05:00",
+      "comprobado": "2026-11-20T21:18:14-05:00",
       "detalle_plataforma": "SEND_TO_USER_INBOX",
       "ultima_comprobacion": {
-        "fecha": "2026-11-19T23:00:12-05:00",
+        "fecha": "2026-11-20T21:18:14-05:00",
         "estado": "en_borradores",
         "detalle": "SEND_TO_USER_INBOX"
       }
@@ -7041,10 +7042,10 @@
       "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta principal (Legión Urbana) el 2026-11-10T19:40:31-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
       "creado": "2026-11-10T19:39:51-05:00",
       "revision_pendiente": "Es un entrenamiento militar, no la preparación de su pelea. Las armas son simuladas; el clip termina al entrar.",
-      "comprobado": "2026-11-19T23:00:13-05:00",
+      "comprobado": "2026-11-20T21:18:16-05:00",
       "detalle_plataforma": "SEND_TO_USER_INBOX",
       "ultima_comprobacion": {
-        "fecha": "2026-11-19T23:00:13-05:00",
+        "fecha": "2026-11-20T21:18:16-05:00",
         "estado": "en_borradores",
         "detalle": "SEND_TO_USER_INBOX"
       }
@@ -7122,10 +7123,10 @@
       "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta principal (Legión Urbana) el 2026-11-10T19:41:21-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
       "creado": "2026-11-10T19:39:51-05:00",
       "revision_pendiente": "Es un entrenamiento militar, no la preparación de su pelea. Llevan el subfusil simulado colgado; no se dispara en el clip.",
-      "comprobado": "2026-11-19T23:00:14-05:00",
+      "comprobado": "2026-11-20T21:18:18-05:00",
       "detalle_plataforma": "SEND_TO_USER_INBOX",
       "ultima_comprobacion": {
-        "fecha": "2026-11-19T23:00:14-05:00",
+        "fecha": "2026-11-20T21:18:18-05:00",
         "estado": "en_borradores",
         "detalle": "SEND_TO_USER_INBOX"
       }
@@ -7203,10 +7204,10 @@
       "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta principal (Legión Urbana) el 2026-11-13T18:10:28-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
       "creado": "2026-11-10T19:39:51-05:00",
       "revision_pendiente": "VER ANTES DE PUBLICAR: la “activación” es una descarga eléctrica de entrenamiento (consentida, nadie sale herido); comprobar que la plataforma no lo lea como acto peligroso. No afirmar quién de los dos recibe la descarga. No publicarlo el mismo día que ibai-westcol-zapatilla en la misma plataforma.",
-      "comprobado": "2026-11-19T23:00:16-05:00",
+      "comprobado": "2026-11-20T21:18:20-05:00",
       "detalle_plataforma": "SEND_TO_USER_INBOX",
       "ultima_comprobacion": {
-        "fecha": "2026-11-19T23:00:16-05:00",
+        "fecha": "2026-11-20T21:18:20-05:00",
         "estado": "en_borradores",
         "detalle": "SEND_TO_USER_INBOX"
       }
@@ -7284,10 +7285,10 @@
       "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta principal (Legión Urbana) el 2026-11-14T19:34:46-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
       "creado": "2026-11-10T19:39:51-05:00",
       "revision_pendiente": "VER ANTES DE PUBLICAR: al final se ve la “activación” (descarga eléctrica de entrenamiento, consentida) y llevan pistolas simuladas naranjas, sin apuntar a nadie. La zapatilla es de Ibai. No publicarlo el mismo día que ibai-westcol-activacion en la misma plataforma.",
-      "comprobado": "2026-11-19T23:00:17-05:00",
+      "comprobado": "2026-11-20T21:18:21-05:00",
       "detalle_plataforma": "SEND_TO_USER_INBOX",
       "ultima_comprobacion": {
-        "fecha": "2026-11-19T23:00:17-05:00",
+        "fecha": "2026-11-20T21:18:21-05:00",
         "estado": "en_borradores",
         "detalle": "SEND_TO_USER_INBOX"
       }
@@ -7515,10 +7516,10 @@
       "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta principal (Legión Urbana) el 2026-11-10T19:41:47-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
       "creado": "2026-11-10T19:39:51-05:00",
       "revision_pendiente": "Hablan los dos y los subtítulos no separan las voces: no atribuir las frases a uno solo. Lo de “cierra una discoteca en 50.000” es una exageración en broma. No publicarlo el mismo día que samulx-pesaje-lonche en la misma plataforma.",
-      "comprobado": "2026-11-19T23:00:18-05:00",
+      "comprobado": "2026-11-20T21:18:23-05:00",
       "detalle_plataforma": "SEND_TO_USER_INBOX",
       "ultima_comprobacion": {
-        "fecha": "2026-11-19T23:00:18-05:00",
+        "fecha": "2026-11-20T21:18:23-05:00",
         "estado": "en_borradores",
         "detalle": "SEND_TO_USER_INBOX"
       }
@@ -7596,10 +7597,10 @@
       "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta principal (Legión Urbana) el 2026-11-11T11:19:30-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
       "creado": "2026-11-10T19:39:51-05:00",
       "revision_pendiente": "No afirmar de quién es la marca de las hamburguesas.",
-      "comprobado": "2026-11-19T23:00:20-05:00",
+      "comprobado": "2026-11-20T21:18:25-05:00",
       "detalle_plataforma": "SEND_TO_USER_INBOX",
       "ultima_comprobacion": {
-        "fecha": "2026-11-19T23:00:20-05:00",
+        "fecha": "2026-11-20T21:18:25-05:00",
         "estado": "en_borradores",
         "detalle": "SEND_TO_USER_INBOX"
       }
@@ -7677,10 +7678,10 @@
       "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta principal (Legión Urbana) el 2026-11-11T11:20:37-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
       "creado": "2026-11-10T19:39:51-05:00",
       "revision_pendiente": "“Hasta la muerte” es una forma de hablar del combate. No publicarlo el mismo día que westcol-samulx-lonche-excusas en la misma plataforma.",
-      "comprobado": "2026-11-19T23:00:21-05:00",
+      "comprobado": "2026-11-20T21:18:26-05:00",
       "detalle_plataforma": "SEND_TO_USER_INBOX",
       "ultima_comprobacion": {
-        "fecha": "2026-11-19T23:00:21-05:00",
+        "fecha": "2026-11-20T21:18:26-05:00",
         "estado": "en_borradores",
         "detalle": "SEND_TO_USER_INBOX"
       }
@@ -7758,10 +7759,10 @@
       "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta principal (Legión Urbana) el 2026-11-11T11:20:56-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
       "creado": "2026-11-10T19:39:51-05:00",
       "revision_pendiente": "No afirmar de quién es la marca (citar sus palabras, sin “su restaurante” ni “dueño”). Habla de planes, no de aperturas anunciadas: no presentarlo como noticia de expansión.",
-      "comprobado": "2026-11-19T23:00:22-05:00",
+      "comprobado": "2026-11-20T21:18:27-05:00",
       "detalle_plataforma": "SEND_TO_USER_INBOX",
       "ultima_comprobacion": {
-        "fecha": "2026-11-19T23:00:22-05:00",
+        "fecha": "2026-11-20T21:18:27-05:00",
         "estado": "en_borradores",
         "detalle": "SEND_TO_USER_INBOX"
       }
@@ -7843,10 +7844,10 @@
         "fecha": "2026-11-11T11:21:26-05:00",
         "error": "HTTP 400. spam_risk_too_many_pending_share (log_id 2026111116212819BBC5B10C1394116D9C)"
       },
-      "comprobado": "2026-11-19T23:00:24-05:00",
+      "comprobado": "2026-11-20T21:18:29-05:00",
       "detalle_plataforma": "SEND_TO_USER_INBOX",
       "ultima_comprobacion": {
-        "fecha": "2026-11-19T23:00:24-05:00",
+        "fecha": "2026-11-20T21:18:29-05:00",
         "estado": "en_borradores",
         "detalle": "SEND_TO_USER_INBOX"
       }
@@ -7924,10 +7925,10 @@
       "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta principal (Legión Urbana) el 2026-11-14T19:33:56-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
       "creado": "2026-11-10T19:39:51-05:00",
       "revision_pendiente": null,
-      "comprobado": "2026-11-19T23:00:25-05:00",
+      "comprobado": "2026-11-20T21:18:31-05:00",
       "detalle_plataforma": "SEND_TO_USER_INBOX",
       "ultima_comprobacion": {
-        "fecha": "2026-11-19T23:00:25-05:00",
+        "fecha": "2026-11-20T21:18:31-05:00",
         "estado": "en_borradores",
         "detalle": "SEND_TO_USER_INBOX"
       }
@@ -8005,10 +8006,10 @@
       "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta principal (Legión Urbana) el 2026-11-14T19:34:29-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
       "creado": "2026-11-10T19:39:51-05:00",
       "revision_pendiente": "Es el plan de Samulx, no el reglamento del evento.",
-      "comprobado": "2026-11-19T23:00:26-05:00",
+      "comprobado": "2026-11-20T21:18:32-05:00",
       "detalle_plataforma": "SEND_TO_USER_INBOX",
       "ultima_comprobacion": {
-        "fecha": "2026-11-19T23:00:26-05:00",
+        "fecha": "2026-11-20T21:18:32-05:00",
         "estado": "en_borradores",
         "detalle": "SEND_TO_USER_INBOX"
       }
@@ -8467,10 +8468,10 @@
       "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta risas (@legion.risas) el 2026-11-10T20:35:09-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
       "creado": "2026-11-10T20:34:24-05:00",
       "revision_pendiente": "Tema de salud: Yordi habla de su chequeo preventivo; el clip no bromea sobre el cáncer ni sobre enfermos. La cita del remate va con un solo «señorita» (la ficha la da de las dos formas).",
-      "comprobado": "2026-11-19T23:00:28-05:00",
+      "comprobado": "2026-11-20T21:18:34-05:00",
       "detalle_plataforma": "SEND_TO_USER_INBOX",
       "ultima_comprobacion": {
-        "fecha": "2026-11-19T23:00:28-05:00",
+        "fecha": "2026-11-20T21:18:34-05:00",
         "estado": "en_borradores",
         "detalle": "SEND_TO_USER_INBOX"
       }
@@ -8569,10 +8570,10 @@
       "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta risas (@legion.risas) el 2026-11-10T20:35:29-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
       "creado": "2026-11-10T20:34:24-05:00",
       "revision_pendiente": "VER ANTES DE PUBLICAR: en el audio el presentador le da la palabra a Tato Devia, pero en la imagen no se distingue cuál de los seis humoristas es. Los textos no lo nombran (ni llevan #TatoDevia). Si al verlo confirmas que es él, puedes añadir su nombre al publicar. Las réplicas («mi otro carro es Levi's») son del elenco, no del que cuenta.",
-      "comprobado": "2026-11-19T23:00:29-05:00",
+      "comprobado": "2026-11-20T21:18:41-05:00",
       "detalle_plataforma": "SEND_TO_USER_INBOX",
       "ultima_comprobacion": {
-        "fecha": "2026-11-19T23:00:29-05:00",
+        "fecha": "2026-11-20T21:18:41-05:00",
         "estado": "en_borradores",
         "detalle": "SEND_TO_USER_INBOX"
       }
@@ -8671,10 +8672,10 @@
       "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta risas (@legion.risas) el 2026-11-10T20:35:46-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
       "creado": "2026-11-10T20:34:24-05:00",
       "revision_pendiente": "CUIDADO: el luchador (Super Porky) ya falleció. Los textos no lo nombran ni hablan de su cuerpo; el clip deja fuera los chistes sobre su peso. Al publicar no añadas su nombre ni comentarios sobre él. El «¿cómo estuvo allá arriba?» de la ficha queda fuera del corte: los textos citan «¿cómo la pasaste en la arena?». La broma final de un anfitrión («otra dimensión en la que Yordi Rosado murió…») es sobre Yordi y no se repite en los textos.",
-      "comprobado": "2026-11-19T23:00:31-05:00",
+      "comprobado": "2026-11-20T21:18:42-05:00",
       "detalle_plataforma": "SEND_TO_USER_INBOX",
       "ultima_comprobacion": {
-        "fecha": "2026-11-19T23:00:31-05:00",
+        "fecha": "2026-11-20T21:18:42-05:00",
         "estado": "en_borradores",
         "detalle": "SEND_TO_USER_INBOX"
       }
@@ -8773,10 +8774,10 @@
       "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta risas (@legion.risas) el 2026-11-10T20:36:12-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
       "creado": "2026-11-10T20:34:24-05:00",
       "revision_pendiente": "La broma es el despiste de Iván Marín, no Jessi Uribe: los textos no se burlan de Jessi. La respuesta de Jessi va como «según cuenta» Iván.",
-      "comprobado": "2026-11-19T23:00:32-05:00",
+      "comprobado": "2026-11-20T21:18:44-05:00",
       "detalle_plataforma": "SEND_TO_USER_INBOX",
       "ultima_comprobacion": {
-        "fecha": "2026-11-19T23:00:32-05:00",
+        "fecha": "2026-11-20T21:18:44-05:00",
         "estado": "en_borradores",
         "detalle": "SEND_TO_USER_INBOX"
       }
@@ -8875,10 +8876,10 @@
       "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta risas (@legion.risas) el 2026-11-11T11:21:41-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
       "creado": "2026-11-10T20:34:24-05:00",
       "revision_pendiente": "Autocrítica en broma de Yordi Rosado. Los textos dejan fuera el «cabrón» de la cita de la ficha.",
-      "comprobado": "2026-11-19T23:00:34-05:00",
+      "comprobado": "2026-11-20T21:18:46-05:00",
       "detalle_plataforma": "SEND_TO_USER_INBOX",
       "ultima_comprobacion": {
-        "fecha": "2026-11-19T23:00:34-05:00",
+        "fecha": "2026-11-20T21:18:46-05:00",
         "estado": "en_borradores",
         "detalle": "SEND_TO_USER_INBOX"
       }
@@ -8977,10 +8978,10 @@
       "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta risas (@legion.risas) el 2026-11-11T11:22:18-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
       "creado": "2026-11-10T20:34:24-05:00",
       "revision_pendiente": "ESCUCHAR: hacia el segundo 33 los subtítulos dicen «letras» y puede ser «lentes» (ficha, notas técnicas). Los textos no citan esa frase ni dicen que se niegue a agrandar las letras del celular. El remate del mensaje de mamá lo ponen los anfitriones.",
-      "comprobado": "2026-11-19T23:00:35-05:00",
+      "comprobado": "2026-11-20T21:18:47-05:00",
       "detalle_plataforma": "SEND_TO_USER_INBOX",
       "ultima_comprobacion": {
-        "fecha": "2026-11-19T23:00:35-05:00",
+        "fecha": "2026-11-20T21:18:47-05:00",
         "estado": "en_borradores",
         "detalle": "SEND_TO_USER_INBOX"
       }
@@ -9081,10 +9082,10 @@
       "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta risas (@legion.risas) el 2026-11-13T18:08:27-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
       "creado": "2026-11-13T18:08:08-05:00",
       "revision_pendiente": "Lupita es participante del programa: los textos no se burlan de ella. Que Abel no llegó lo confirma Franco en el episodio (30:13), fuera del clip; el gancho en pantalla ya lo dice.",
-      "comprobado": "2026-11-19T23:00:37-05:00",
+      "comprobado": "2026-11-20T21:18:49-05:00",
       "detalle_plataforma": "SEND_TO_USER_INBOX",
       "ultima_comprobacion": {
-        "fecha": "2026-11-19T23:00:37-05:00",
+        "fecha": "2026-11-20T21:18:49-05:00",
         "estado": "en_borradores",
         "detalle": "SEND_TO_USER_INBOX"
       }
@@ -9187,10 +9188,10 @@
       "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta risas (@legion.risas) el 2026-11-13T18:09:08-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
       "creado": "2026-11-13T18:08:08-05:00",
       "revision_pendiente": "La ficha pide comprobar quién cuenta la anécdota antes de nombrarlo: los textos no lo nombran («uno de Los De La Culpa»).",
-      "comprobado": "2026-11-19T23:00:38-05:00",
+      "comprobado": "2026-11-20T21:18:51-05:00",
       "detalle_plataforma": "SEND_TO_USER_INBOX",
       "ultima_comprobacion": {
-        "fecha": "2026-11-19T23:00:38-05:00",
+        "fecha": "2026-11-20T21:18:51-05:00",
         "estado": "en_borradores",
         "detalle": "SEND_TO_USER_INBOX"
       }
@@ -9293,10 +9294,10 @@
       "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta risas (@legion.risas) el 2026-11-13T18:09:23-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
       "creado": "2026-11-13T18:08:08-05:00",
       "revision_pendiente": "El código 22 se lo aplicaban a Adal Ramones (Yordi lo nombra en el audio). El título de TikTok de la ficha decía que le pagaban la cuenta a Yordi; se cambió por «Yordi Rosado revela qué era el código 22».",
-      "comprobado": "2026-11-19T23:00:40-05:00",
+      "comprobado": "2026-11-20T21:18:53-05:00",
       "detalle_plataforma": "SEND_TO_USER_INBOX",
       "ultima_comprobacion": {
-        "fecha": "2026-11-19T23:00:40-05:00",
+        "fecha": "2026-11-20T21:18:53-05:00",
         "estado": "en_borradores",
         "detalle": "SEND_TO_USER_INBOX"
       }
@@ -9399,10 +9400,10 @@
       "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta risas (@legion.risas) el 2026-11-14T19:35:51-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
       "creado": "2026-11-13T18:08:08-05:00",
       "revision_pendiente": "Los textos citan la frase de la descripción revisada de la ficha («Digan mentiras con buena intención»); no usan «No digan la verdad», que solo estaba en el título sugerido.",
-      "comprobado": "2026-11-19T23:00:41-05:00",
+      "comprobado": "2026-11-20T21:18:55-05:00",
       "detalle_plataforma": "SEND_TO_USER_INBOX",
       "ultima_comprobacion": {
-        "fecha": "2026-11-19T23:00:41-05:00",
+        "fecha": "2026-11-20T21:18:55-05:00",
         "estado": "en_borradores",
         "detalle": "SEND_TO_USER_INBOX"
       }
@@ -9505,10 +9506,10 @@
       "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta risas (@legion.risas) el 2026-11-15T18:21:18-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
       "creado": "2026-11-13T18:08:08-05:00",
       "revision_pendiente": "Anécdota de infancia del propio Iván Marín. La ficha pide separarlo del otro clip de Iván (culpa-ivan-senorazo, en la bandeja desde el 10-nov).",
-      "comprobado": "2026-11-19T23:00:43-05:00",
+      "comprobado": "2026-11-20T21:18:58-05:00",
       "detalle_plataforma": "SEND_TO_USER_INBOX",
       "ultima_comprobacion": {
-        "fecha": "2026-11-19T23:00:43-05:00",
+        "fecha": "2026-11-20T21:18:58-05:00",
         "estado": "en_borradores",
         "detalle": "SEND_TO_USER_INBOX"
       }
@@ -9611,10 +9612,10 @@
       "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta risas (@legion.risas) el 2026-11-14T19:37:00-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
       "creado": "2026-11-13T18:08:08-05:00",
       "revision_pendiente": "La frase de «la fila del salón» lleva una palabra censurada en la ficha: los textos no la citan («te baja de la nube»).",
-      "comprobado": "2026-11-19T23:00:44-05:00",
+      "comprobado": "2026-11-20T21:18:59-05:00",
       "detalle_plataforma": "SEND_TO_USER_INBOX",
       "ultima_comprobacion": {
-        "fecha": "2026-11-19T23:00:44-05:00",
+        "fecha": "2026-11-20T21:18:59-05:00",
         "estado": "en_borradores",
         "detalle": "SEND_TO_USER_INBOX"
       }
@@ -9717,10 +9718,10 @@
       "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta risas (@legion.risas) el 2026-11-14T19:36:45-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
       "creado": "2026-11-13T18:08:08-05:00",
       "revision_pendiente": "La ficha pide comprobar quién de los conductores dice el remate: los textos no lo nombran. Bromea con el examen, no con la enfermedad.",
-      "comprobado": "2026-11-19T23:00:46-05:00",
+      "comprobado": "2026-11-20T21:19:01-05:00",
       "detalle_plataforma": "SEND_TO_USER_INBOX",
       "ultima_comprobacion": {
-        "fecha": "2026-11-19T23:00:46-05:00",
+        "fecha": "2026-11-20T21:19:01-05:00",
         "estado": "en_borradores",
         "detalle": "SEND_TO_USER_INBOX"
       }
@@ -9823,10 +9824,10 @@
       "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta risas (@legion.risas) el 2026-11-13T18:08:53-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
       "creado": "2026-11-13T18:08:08-05:00",
       "revision_pendiente": "Ballarta se llama a sí mismo «borrachín» en la anécdota; los textos no lo repiten.",
-      "comprobado": "2026-11-19T23:00:47-05:00",
+      "comprobado": "2026-11-20T21:19:02-05:00",
       "detalle_plataforma": "SEND_TO_USER_INBOX",
       "ultima_comprobacion": {
-        "fecha": "2026-11-19T23:00:47-05:00",
+        "fecha": "2026-11-20T21:19:02-05:00",
         "estado": "en_borradores",
         "detalle": "SEND_TO_USER_INBOX"
       }
@@ -9929,10 +9930,10 @@
       "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta principal (Legión Urbana) el 2026-11-13T18:09:47-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
       "creado": "2026-11-13T18:08:08-05:00",
       "revision_pendiente": "Westcol dice en broma que el chikunguña es una «enfermedad sexual» (la IA no lo valida): los textos no lo repiten.",
-      "comprobado": "2026-11-19T23:00:48-05:00",
+      "comprobado": "2026-11-20T21:19:04-05:00",
       "detalle_plataforma": "SEND_TO_USER_INBOX",
       "ultima_comprobacion": {
-        "fecha": "2026-11-19T23:00:48-05:00",
+        "fecha": "2026-11-20T21:19:04-05:00",
         "estado": "en_borradores",
         "detalle": "SEND_TO_USER_INBOX"
       }
@@ -10034,10 +10035,10 @@
       "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta principal (Legión Urbana) el 2026-11-13T18:10:09-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
       "creado": "2026-11-13T18:08:08-05:00",
       "revision_pendiente": "Los textos no afirman qué animal era: la ficha sugería «libélula», que el clip no confirma.",
-      "comprobado": "2026-11-19T23:00:50-05:00",
+      "comprobado": "2026-11-20T21:19:05-05:00",
       "detalle_plataforma": "SEND_TO_USER_INBOX",
       "ultima_comprobacion": {
-        "fecha": "2026-11-19T23:00:50-05:00",
+        "fecha": "2026-11-20T21:19:05-05:00",
         "estado": "en_borradores",
         "detalle": "SEND_TO_USER_INBOX"
       }
@@ -10139,10 +10140,10 @@
       "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta principal (Legión Urbana) el 2026-11-14T19:35:18-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
       "creado": "2026-11-13T18:08:08-05:00",
       "revision_pendiente": "La imagen principal es el mapa de Cuphead; Westcol solo sale en la cámara pequeña. Los textos no dicen contra quién pelea el sábado (el título sugerido de la ficha decía «a días de pelear con Blessd», que el clip no muestra).",
-      "comprobado": "2026-11-19T23:00:51-05:00",
+      "comprobado": "2026-11-20T21:19:07-05:00",
       "detalle_plataforma": "SEND_TO_USER_INBOX",
       "ultima_comprobacion": {
-        "fecha": "2026-11-19T23:00:51-05:00",
+        "fecha": "2026-11-20T21:19:07-05:00",
         "estado": "en_borradores",
         "detalle": "SEND_TO_USER_INBOX"
       }
@@ -10977,10 +10978,10 @@
       "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta risas (@legion.risas) el 2026-11-14T19:36:15-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
       "creado": "2026-11-14T19:33:33-05:00",
       "revision_pendiente": "Ficha: escuchar antes de publicar el tramo final (30:40-30:50): los subtítulos estaban desordenados y una palabra quedó como «(…)». Los textos no citan esa última frase y dicen que es una escena inventada por los conductores.",
-      "comprobado": "2026-11-19T23:00:52-05:00",
+      "comprobado": "2026-11-20T21:19:09-05:00",
       "detalle_plataforma": "SEND_TO_USER_INBOX",
       "ultima_comprobacion": {
-        "fecha": "2026-11-19T23:00:52-05:00",
+        "fecha": "2026-11-20T21:19:09-05:00",
         "estado": "en_borradores",
         "detalle": "SEND_TO_USER_INBOX"
       }
@@ -11087,10 +11088,10 @@
         "fecha": "2026-11-15T18:22:08-05:00",
         "error": "HTTP 400 spam_risk_too_many_pending_share (log_id 202611152322157C06CECD502D37F93C46)"
       },
-      "comprobado": "2026-11-19T23:00:54-05:00",
+      "comprobado": "2026-11-20T21:19:10-05:00",
       "detalle_plataforma": "SEND_TO_USER_INBOX",
       "ultima_comprobacion": {
-        "fecha": "2026-11-19T23:00:54-05:00",
+        "fecha": "2026-11-20T21:19:10-05:00",
         "estado": "en_borradores",
         "detalle": "SEND_TO_USER_INBOX"
       }
@@ -11160,10 +11161,10 @@
       "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta principal (Legión Urbana) el 2026-11-15T18:19:38-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
       "creado": "2026-11-15T18:25:32-05:00",
       "revision_pendiente": "Logos de Stake (casa de apuestas) y Kick en las cuerdas del ring y una mosca pequeña de patrocinador (Stake / Pragmatic Play) en la esquina durante todo el combate: no se pueden evitar con el corte y la decisión de publicarlo es tuya. El resultado (knockout técnico por la lesión de hombro del Agropecuario) va en el texto: se ve en la fuente (9:47-10:54), no en el clip.",
-      "comprobado": "2026-11-19T23:00:55-05:00",
+      "comprobado": "2026-11-20T21:19:12-05:00",
       "detalle_plataforma": "SEND_TO_USER_INBOX",
       "ultima_comprobacion": {
-        "fecha": "2026-11-19T23:00:55-05:00",
+        "fecha": "2026-11-20T21:19:12-05:00",
         "estado": "en_borradores",
         "detalle": "SEND_TO_USER_INBOX"
       }
@@ -11265,10 +11266,10 @@
       "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta principal (Legión Urbana) el 2026-11-15T18:20:03-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
       "creado": "2026-11-15T18:25:32-05:00",
       "revision_pendiente": "Los textos no nombran al presentador (el video no dice quién es) ni hablan del resultado de Westcol: la pregunta de la ficha («¿Le funcionó la patadita contra Blessd?») queda en «¿Le funcionó la patadita?», porque el clip no muestra esa pelea. Si al publicar ya sabes el resultado, puedes completarla.",
-      "comprobado": "2026-11-19T23:00:56-05:00",
+      "comprobado": "2026-11-20T21:19:14-05:00",
       "detalle_plataforma": "SEND_TO_USER_INBOX",
       "ultima_comprobacion": {
-        "fecha": "2026-11-19T23:00:56-05:00",
+        "fecha": "2026-11-20T21:19:14-05:00",
         "estado": "en_borradores",
         "detalle": "SEND_TO_USER_INBOX"
       }
@@ -11370,10 +11371,10 @@
       "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta principal (Legión Urbana) el 2026-11-15T18:20:35-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
       "creado": "2026-11-15T18:25:32-05:00",
       "revision_pendiente": "Logos de Stake (casa de apuestas) y Kick en las cuerdas del ring y mosca de patrocinador en la esquina: la decisión de publicarlo es tuya. Un pitido de la fuente sale como *** en los subtítulos. Los textos no dicen que ganó «en 5 segundos» (la pelea se detuvo después, por la lesión de hombro) ni hablan de sus tres derrotas anteriores (no se oye en el clip). Conviene publicarlo unas horas después de stf5-daren-cinco-segundos.",
-      "comprobado": "2026-11-19T23:00:58-05:00",
+      "comprobado": "2026-11-20T21:19:15-05:00",
       "detalle_plataforma": "SEND_TO_USER_INBOX",
       "ultima_comprobacion": {
-        "fecha": "2026-11-19T23:00:58-05:00",
+        "fecha": "2026-11-20T21:19:15-05:00",
         "estado": "en_borradores",
         "detalle": "SEND_TO_USER_INBOX"
       }
@@ -11555,7 +11556,7 @@
       "gancho": "Hoy es el día de limpiar el refri",
       "linea": "risas",
       "oportunidad_cazador": null,
-      "estado": "aprobado",
+      "estado": "vencido",
       "envio": "datos/publicador/envios/2026-11-17-cotorrisa-refri-papas__tiktok.json",
       "puntaje": 67,
       "derechos": "sin_verificar",
@@ -11575,9 +11576,10 @@
       "url": null,
       "privacidad": null,
       "publicado": null,
-      "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Va como borrador a la bandeja de TikTok de la cuenta risas (@legion.risas). Ciclo 12: no cabe antes de su ventana (2026-11-19): la cuenta ya subió hoy 4 de 4; vencerá en el próximo ciclo si nadie decide otra cosa.",
+      "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Va como borrador a la bandeja de TikTok de la cuenta risas (@legion.risas). Ciclo 13: vencido sin enviarse: la ventana acabó el 2026-11-19 sin hueco en la cola (la cuenta risas subió 4 de 4 el 19-nov). Una aprobación expresa (/publicador aprobar 2026-11-17-cotorrisa-refri-papas:tiktok) lo vuelve a dejar aprobado.",
       "creado": "2026-11-17T16:57:02-05:00",
-      "revision_pendiente": "Habla sobre todo el de sudadera roja (no se nombra). Tres palabras como (…)."
+      "revision_pendiente": "Habla sobre todo el de sudadera roja (no se nombra). Tres palabras como (…).",
+      "vencido": "2026-11-20T21:24:00-05:00"
     },
     {
       "clip": "2026-11-17-cotorrisa-refri-papas",
@@ -11587,7 +11589,7 @@
       "gancho": "Hoy es el día de limpiar el refri",
       "linea": "risas",
       "oportunidad_cazador": null,
-      "estado": "pendiente_aprobacion",
+      "estado": "vencido",
       "envio": "datos/publicador/envios/2026-11-17-cotorrisa-refri-papas__instagram.json",
       "puntaje": 67,
       "derechos": "sin_verificar",
@@ -11607,9 +11609,10 @@
       "url": null,
       "privacidad": null,
       "publicado": null,
-      "motivo": "Pendiente de aprobación. Va a la cuenta risas de Instagram (línea risas; config.json: esos clips esperan a esa cuenta aunque esté apagada). La cuenta y la plataforma no están activas ni tienen credenciales: aprobarla ahora solo la deja lista.",
+      "motivo": "Vencido sin enviarse: la ventana acabó el 2026-11-19 y Instagram no está activo ni tiene credenciales (ciclo 13). Una aprobación expresa (/publicador aprobar 2026-11-17-cotorrisa-refri-papas:instagram) lo vuelve a dejar aprobado.",
       "creado": "2026-11-17T16:57:02-05:00",
-      "revision_pendiente": "Habla sobre todo el de sudadera roja (no se nombra). Tres palabras como (…)."
+      "revision_pendiente": "Habla sobre todo el de sudadera roja (no se nombra). Tres palabras como (…).",
+      "vencido": "2026-11-20T21:24:00-05:00"
     },
     {
       "clip": "2026-11-17-cotorrisa-refri-papas",
@@ -11619,7 +11622,7 @@
       "gancho": "Hoy es el día de limpiar el refri",
       "linea": "risas",
       "oportunidad_cazador": null,
-      "estado": "pendiente_aprobacion",
+      "estado": "vencido",
       "envio": "datos/publicador/envios/2026-11-17-cotorrisa-refri-papas__youtube.json",
       "puntaje": 67,
       "derechos": "sin_verificar",
@@ -11639,10 +11642,11 @@
       "url": null,
       "privacidad": null,
       "publicado": null,
-      "motivo": "Pendiente de aprobación. Va a la cuenta risas de YouTube (canal de la Legión de Risas). Se había preparado para principal cuando YouTube tenía una sola cuenta con línea «todo»; desde el 2026-11-17 (config.json, decisión del usuario) hay un canal por línea y los clips de risas esperan al suyo aunque esté apagado, así que el ciclo 12 la pasa a risas, también en su envío, y la valida con -Simular. La cuenta y la plataforma no están activas ni tienen credenciales: aprobarla ahora solo la deja lista. Al subir sale pública (youtube.privacidad: public).",
+      "motivo": "Vencido sin enviarse: la ventana acabó el 2026-11-19 y YouTube no está activo ni tiene credenciales (ciclo 13). Una aprobación expresa (/publicador aprobar 2026-11-17-cotorrisa-refri-papas:youtube) lo vuelve a dejar aprobado.",
       "creado": "2026-11-17T16:57:02-05:00",
       "revision_pendiente": "Habla sobre todo el de sudadera roja (no se nombra). Tres palabras como (…).",
-      "cuenta_anterior": "principal"
+      "cuenta_anterior": "principal",
+      "vencido": "2026-11-20T21:24:00-05:00"
     },
     {
       "clip": "2026-11-17-ganga-robot-precio",
@@ -11675,10 +11679,10 @@
       "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta principal (Legión Urbana) el 2026-11-19T22:58:47-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
       "creado": "2026-11-17T16:57:02-05:00",
       "revision_pendiente": "Escúchalo antes: hablan varios y la imagen no deja asegurar quién dice cada frase. Los textos no le atribuyen la cifra a nadie (la ficha proponía «La Ganga da la cifra»). Las cifras van sin moneda, como se oyen; un tramo como (…).",
-      "comprobado": "2026-11-19T23:00:02-05:00",
+      "comprobado": "2026-11-20T21:19:18-05:00",
       "detalle_plataforma": "SEND_TO_USER_INBOX",
       "ultima_comprobacion": {
-        "fecha": "2026-11-19T23:00:02-05:00",
+        "fecha": "2026-11-20T21:19:18-05:00",
         "estado": "en_borradores",
         "detalle": "SEND_TO_USER_INBOX"
       }
@@ -11691,7 +11695,7 @@
       "gancho": "¿Cuánto cuesta un robot de Stream Fighters?",
       "linea": "urbano",
       "oportunidad_cazador": "formato-matematica-del-lujo",
-      "estado": "pendiente_aprobacion",
+      "estado": "vencido",
       "envio": "datos/publicador/envios/2026-11-17-ganga-robot-precio__instagram.json",
       "puntaje": 74,
       "derechos": "sin_verificar",
@@ -11711,9 +11715,10 @@
       "url": null,
       "privacidad": null,
       "publicado": null,
-      "motivo": "Pendiente de aprobación. Va a la cuenta principal de Instagram (línea urbana). Instagram no está activo ni tiene credenciales: aprobarla ahora solo la deja lista para cuando se active.",
+      "motivo": "Vencido sin enviarse: la ventana acabó el 2026-11-19 y Instagram no está activo ni tiene credenciales (ciclo 13). Una aprobación expresa (/publicador aprobar 2026-11-17-ganga-robot-precio:instagram) lo vuelve a dejar aprobado.",
       "creado": "2026-11-17T16:57:02-05:00",
-      "revision_pendiente": "Escúchalo antes: hablan varios y la imagen no deja asegurar quién dice cada frase. Los textos no le atribuyen la cifra a nadie (la ficha proponía «La Ganga da la cifra»). Las cifras van sin moneda, como se oyen; un tramo como (…)."
+      "revision_pendiente": "Escúchalo antes: hablan varios y la imagen no deja asegurar quién dice cada frase. Los textos no le atribuyen la cifra a nadie (la ficha proponía «La Ganga da la cifra»). Las cifras van sin moneda, como se oyen; un tramo como (…).",
+      "vencido": "2026-11-20T21:24:00-05:00"
     },
     {
       "clip": "2026-11-17-ganga-robot-precio",
@@ -11723,7 +11728,7 @@
       "gancho": "¿Cuánto cuesta un robot de Stream Fighters?",
       "linea": "urbano",
       "oportunidad_cazador": "formato-matematica-del-lujo",
-      "estado": "pendiente_aprobacion",
+      "estado": "vencido",
       "envio": "datos/publicador/envios/2026-11-17-ganga-robot-precio__youtube.json",
       "puntaje": 74,
       "derechos": "sin_verificar",
@@ -11743,9 +11748,10 @@
       "url": null,
       "privacidad": null,
       "publicado": null,
-      "motivo": "Pendiente de aprobación. Va a la cuenta principal de YouTube (canal de la Legión Urbana; desde el 2026-11-17 YouTube lleva un canal por línea). La plataforma aún no está activa ni tiene credenciales: aprobarla ahora solo la deja lista. Al subir sale pública (youtube.privacidad: public).",
+      "motivo": "Vencido sin enviarse: la ventana acabó el 2026-11-19 y YouTube no está activo ni tiene credenciales (ciclo 13). Una aprobación expresa (/publicador aprobar 2026-11-17-ganga-robot-precio:youtube) lo vuelve a dejar aprobado.",
       "creado": "2026-11-17T16:57:02-05:00",
-      "revision_pendiente": "Escúchalo antes: hablan varios y la imagen no deja asegurar quién dice cada frase. Los textos no le atribuyen la cifra a nadie (la ficha proponía «La Ganga da la cifra»). Las cifras van sin moneda, como se oyen; un tramo como (…)."
+      "revision_pendiente": "Escúchalo antes: hablan varios y la imagen no deja asegurar quién dice cada frase. Los textos no le atribuyen la cifra a nadie (la ficha proponía «La Ganga da la cifra»). Las cifras van sin moneda, como se oyen; un tramo como (…).",
+      "vencido": "2026-11-20T21:24:00-05:00"
     },
     {
       "clip": "2026-11-17-cotorrisa-paloma-medalla",
@@ -11755,7 +11761,7 @@
       "gancho": "A una paloma le dieron medalla de guerra",
       "linea": "risas",
       "oportunidad_cazador": null,
-      "estado": "aprobado",
+      "estado": "vencido",
       "envio": "datos/publicador/envios/2026-11-17-cotorrisa-paloma-medalla__tiktok.json",
       "puntaje": 68,
       "derechos": "sin_verificar",
@@ -11775,9 +11781,10 @@
       "url": null,
       "privacidad": null,
       "publicado": null,
-      "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Va como borrador a la bandeja de TikTok de la cuenta risas (@legion.risas). Ciclo 12: no cabe antes de su ventana (2026-11-19): la cuenta ya subió hoy 4 de 4; vencerá en el próximo ciclo si nadie decide otra cosa.",
+      "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Va como borrador a la bandeja de TikTok de la cuenta risas (@legion.risas). Ciclo 13: vencido sin enviarse: la ventana acabó el 2026-11-19 sin hueco en la cola (la cuenta risas subió 4 de 4 el 19-nov). Una aprobación expresa (/publicador aprobar 2026-11-17-cotorrisa-paloma-medalla:tiktok) lo vuelve a dejar aprobado.",
       "creado": "2026-11-17T16:57:02-05:00",
-      "revision_pendiente": "Pitidos de la fuente como ***. Sale la foto de archivo de la paloma condecorada."
+      "revision_pendiente": "Pitidos de la fuente como ***. Sale la foto de archivo de la paloma condecorada.",
+      "vencido": "2026-11-20T21:24:00-05:00"
     },
     {
       "clip": "2026-11-17-cotorrisa-paloma-medalla",
@@ -11787,7 +11794,7 @@
       "gancho": "A una paloma le dieron medalla de guerra",
       "linea": "risas",
       "oportunidad_cazador": null,
-      "estado": "pendiente_aprobacion",
+      "estado": "vencido",
       "envio": "datos/publicador/envios/2026-11-17-cotorrisa-paloma-medalla__instagram.json",
       "puntaje": 68,
       "derechos": "sin_verificar",
@@ -11807,9 +11814,10 @@
       "url": null,
       "privacidad": null,
       "publicado": null,
-      "motivo": "Pendiente de aprobación. Va a la cuenta risas de Instagram (línea risas; config.json: esos clips esperan a esa cuenta aunque esté apagada). La cuenta y la plataforma no están activas ni tienen credenciales: aprobarla ahora solo la deja lista.",
+      "motivo": "Vencido sin enviarse: la ventana acabó el 2026-11-19 y Instagram no está activo ni tiene credenciales (ciclo 13). Una aprobación expresa (/publicador aprobar 2026-11-17-cotorrisa-paloma-medalla:instagram) lo vuelve a dejar aprobado.",
       "creado": "2026-11-17T16:57:02-05:00",
-      "revision_pendiente": "Pitidos de la fuente como ***. Sale la foto de archivo de la paloma condecorada."
+      "revision_pendiente": "Pitidos de la fuente como ***. Sale la foto de archivo de la paloma condecorada.",
+      "vencido": "2026-11-20T21:24:00-05:00"
     },
     {
       "clip": "2026-11-17-cotorrisa-paloma-medalla",
@@ -11819,7 +11827,7 @@
       "gancho": "A una paloma le dieron medalla de guerra",
       "linea": "risas",
       "oportunidad_cazador": null,
-      "estado": "pendiente_aprobacion",
+      "estado": "vencido",
       "envio": "datos/publicador/envios/2026-11-17-cotorrisa-paloma-medalla__youtube.json",
       "puntaje": 68,
       "derechos": "sin_verificar",
@@ -11839,10 +11847,11 @@
       "url": null,
       "privacidad": null,
       "publicado": null,
-      "motivo": "Pendiente de aprobación. Va a la cuenta risas de YouTube (canal de la Legión de Risas). Se había preparado para principal cuando YouTube tenía una sola cuenta con línea «todo»; desde el 2026-11-17 (config.json, decisión del usuario) hay un canal por línea y los clips de risas esperan al suyo aunque esté apagado, así que el ciclo 12 la pasa a risas, también en su envío, y la valida con -Simular. La cuenta y la plataforma no están activas ni tienen credenciales: aprobarla ahora solo la deja lista. Al subir sale pública (youtube.privacidad: public).",
+      "motivo": "Vencido sin enviarse: la ventana acabó el 2026-11-19 y YouTube no está activo ni tiene credenciales (ciclo 13). Una aprobación expresa (/publicador aprobar 2026-11-17-cotorrisa-paloma-medalla:youtube) lo vuelve a dejar aprobado.",
       "creado": "2026-11-17T16:57:02-05:00",
       "revision_pendiente": "Pitidos de la fuente como ***. Sale la foto de archivo de la paloma condecorada.",
-      "cuenta_anterior": "principal"
+      "cuenta_anterior": "principal",
+      "vencido": "2026-11-20T21:24:00-05:00"
     },
     {
       "clip": "2026-11-17-hh-aeropuerto-4am",
@@ -11875,10 +11884,10 @@
       "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta risas (@legion.risas) el 2026-11-19T22:58:38-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
       "creado": "2026-11-17T16:57:02-05:00",
       "revision_pendiente": "Lenguaje fuerte («reconcha de su madre»). El productor no se ve ni se nombra: al publicar, tampoco.",
-      "comprobado": "2026-11-19T23:00:00-05:00",
+      "comprobado": "2026-11-20T21:19:19-05:00",
       "detalle_plataforma": "SEND_TO_USER_INBOX",
       "ultima_comprobacion": {
-        "fecha": "2026-11-19T23:00:00-05:00",
+        "fecha": "2026-11-20T21:19:19-05:00",
         "estado": "en_borradores",
         "detalle": "SEND_TO_USER_INBOX"
       }
@@ -11891,7 +11900,7 @@
       "gancho": "Los citaron a las 4 am en el aeropuerto",
       "linea": "risas",
       "oportunidad_cazador": null,
-      "estado": "pendiente_aprobacion",
+      "estado": "vencido",
       "envio": "datos/publicador/envios/2026-11-17-hh-aeropuerto-4am__instagram.json",
       "puntaje": 74,
       "derechos": "sin_verificar",
@@ -11911,9 +11920,10 @@
       "url": null,
       "privacidad": null,
       "publicado": null,
-      "motivo": "Pendiente de aprobación. Va a la cuenta risas de Instagram (línea risas; config.json: esos clips esperan a esa cuenta aunque esté apagada). La cuenta y la plataforma no están activas ni tienen credenciales: aprobarla ahora solo la deja lista.",
+      "motivo": "Vencido sin enviarse: la ventana acabó el 2026-11-19 y Instagram no está activo ni tiene credenciales (ciclo 13). Una aprobación expresa (/publicador aprobar 2026-11-17-hh-aeropuerto-4am:instagram) lo vuelve a dejar aprobado.",
       "creado": "2026-11-17T16:57:02-05:00",
-      "revision_pendiente": "Lenguaje fuerte («reconcha de su madre»). El productor no se ve ni se nombra: al publicar, tampoco."
+      "revision_pendiente": "Lenguaje fuerte («reconcha de su madre»). El productor no se ve ni se nombra: al publicar, tampoco.",
+      "vencido": "2026-11-20T21:24:00-05:00"
     },
     {
       "clip": "2026-11-17-hh-aeropuerto-4am",
@@ -11923,7 +11933,7 @@
       "gancho": "Los citaron a las 4 am en el aeropuerto",
       "linea": "risas",
       "oportunidad_cazador": null,
-      "estado": "pendiente_aprobacion",
+      "estado": "vencido",
       "envio": "datos/publicador/envios/2026-11-17-hh-aeropuerto-4am__youtube.json",
       "puntaje": 74,
       "derechos": "sin_verificar",
@@ -11943,10 +11953,11 @@
       "url": null,
       "privacidad": null,
       "publicado": null,
-      "motivo": "Pendiente de aprobación. Va a la cuenta risas de YouTube (canal de la Legión de Risas). Se había preparado para principal cuando YouTube tenía una sola cuenta con línea «todo»; desde el 2026-11-17 (config.json, decisión del usuario) hay un canal por línea y los clips de risas esperan al suyo aunque esté apagado, así que el ciclo 12 la pasa a risas, también en su envío, y la valida con -Simular. La cuenta y la plataforma no están activas ni tienen credenciales: aprobarla ahora solo la deja lista. Al subir sale pública (youtube.privacidad: public).",
+      "motivo": "Vencido sin enviarse: la ventana acabó el 2026-11-19 y YouTube no está activo ni tiene credenciales (ciclo 13). Una aprobación expresa (/publicador aprobar 2026-11-17-hh-aeropuerto-4am:youtube) lo vuelve a dejar aprobado.",
       "creado": "2026-11-17T16:57:02-05:00",
       "revision_pendiente": "Lenguaje fuerte («reconcha de su madre»). El productor no se ve ni se nombra: al publicar, tampoco.",
-      "cuenta_anterior": "principal"
+      "cuenta_anterior": "principal",
+      "vencido": "2026-11-20T21:24:00-05:00"
     },
     {
       "clip": "2026-11-17-hh-estafa-reventa",
@@ -11979,10 +11990,10 @@
       "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta risas (@legion.risas) el 2026-11-19T22:59:14-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
       "creado": "2026-11-17T16:57:02-05:00",
       "revision_pendiente": "Míralo antes: junto a la fan aparece un joven (su hijo, según ella). Si parece menor de edad, no lo publiques (o pide al Clipero recortar la entrada a partir del segundo 4). La fan es una persona privada que participa en el show por voluntad propia: no añadas su nombre ni datos.",
-      "comprobado": "2026-11-19T23:00:05-05:00",
+      "comprobado": "2026-11-20T21:19:21-05:00",
       "detalle_plataforma": "SEND_TO_USER_INBOX",
       "ultima_comprobacion": {
-        "fecha": "2026-11-19T23:00:05-05:00",
+        "fecha": "2026-11-20T21:19:21-05:00",
         "estado": "en_borradores",
         "detalle": "SEND_TO_USER_INBOX"
       }
@@ -11995,7 +12006,7 @@
       "gancho": "Pagó la mitad por si era estafa",
       "linea": "risas",
       "oportunidad_cazador": null,
-      "estado": "pendiente_aprobacion",
+      "estado": "vencido",
       "envio": "datos/publicador/envios/2026-11-17-hh-estafa-reventa__instagram.json",
       "puntaje": 72,
       "derechos": "sin_verificar",
@@ -12015,9 +12026,10 @@
       "url": null,
       "privacidad": null,
       "publicado": null,
-      "motivo": "Pendiente de aprobación. Va a la cuenta risas de Instagram (línea risas; config.json: esos clips esperan a esa cuenta aunque esté apagada). La cuenta y la plataforma no están activas ni tienen credenciales: aprobarla ahora solo la deja lista.",
+      "motivo": "Vencido sin enviarse: la ventana acabó el 2026-11-19 y Instagram no está activo ni tiene credenciales (ciclo 13). Una aprobación expresa (/publicador aprobar 2026-11-17-hh-estafa-reventa:instagram) lo vuelve a dejar aprobado.",
       "creado": "2026-11-17T16:57:02-05:00",
-      "revision_pendiente": "Míralo antes: junto a la fan aparece un joven (su hijo, según ella). Si parece menor de edad, no lo publiques (o pide al Clipero recortar la entrada a partir del segundo 4). La fan es una persona privada que participa en el show por voluntad propia: no añadas su nombre ni datos."
+      "revision_pendiente": "Míralo antes: junto a la fan aparece un joven (su hijo, según ella). Si parece menor de edad, no lo publiques (o pide al Clipero recortar la entrada a partir del segundo 4). La fan es una persona privada que participa en el show por voluntad propia: no añadas su nombre ni datos.",
+      "vencido": "2026-11-20T21:24:00-05:00"
     },
     {
       "clip": "2026-11-17-hh-estafa-reventa",
@@ -12027,7 +12039,7 @@
       "gancho": "Pagó la mitad por si era estafa",
       "linea": "risas",
       "oportunidad_cazador": null,
-      "estado": "pendiente_aprobacion",
+      "estado": "vencido",
       "envio": "datos/publicador/envios/2026-11-17-hh-estafa-reventa__youtube.json",
       "puntaje": 72,
       "derechos": "sin_verificar",
@@ -12047,10 +12059,11 @@
       "url": null,
       "privacidad": null,
       "publicado": null,
-      "motivo": "Pendiente de aprobación. Va a la cuenta risas de YouTube (canal de la Legión de Risas). Se había preparado para principal cuando YouTube tenía una sola cuenta con línea «todo»; desde el 2026-11-17 (config.json, decisión del usuario) hay un canal por línea y los clips de risas esperan al suyo aunque esté apagado, así que el ciclo 12 la pasa a risas, también en su envío, y la valida con -Simular. La cuenta y la plataforma no están activas ni tienen credenciales: aprobarla ahora solo la deja lista. Al subir sale pública (youtube.privacidad: public).",
+      "motivo": "Vencido sin enviarse: la ventana acabó el 2026-11-19 y YouTube no está activo ni tiene credenciales (ciclo 13). Una aprobación expresa (/publicador aprobar 2026-11-17-hh-estafa-reventa:youtube) lo vuelve a dejar aprobado.",
       "creado": "2026-11-17T16:57:02-05:00",
       "revision_pendiente": "Míralo antes: junto a la fan aparece un joven (su hijo, según ella). Si parece menor de edad, no lo publiques (o pide al Clipero recortar la entrada a partir del segundo 4). La fan es una persona privada que participa en el show por voluntad propia: no añadas su nombre ni datos.",
-      "cuenta_anterior": "principal"
+      "cuenta_anterior": "principal",
+      "vencido": "2026-11-20T21:24:00-05:00"
     },
     {
       "clip": "2026-11-17-hh-colada-bano",
@@ -12083,10 +12096,10 @@
       "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta risas (@legion.risas) el 2026-11-19T22:59:02-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
       "creado": "2026-11-17T16:57:02-05:00",
       "revision_pendiente": "Persona privada que cuenta su historia por voluntad propia y con la cara cubierta: no añadas datos. Broma escatológica suave. El desenlace es hh-colada-tres-minutos: publícalo después (ficha).",
-      "comprobado": "2026-11-19T23:00:03-05:00",
+      "comprobado": "2026-11-20T21:19:22-05:00",
       "detalle_plataforma": "SEND_TO_USER_INBOX",
       "ultima_comprobacion": {
-        "fecha": "2026-11-19T23:00:03-05:00",
+        "fecha": "2026-11-20T21:19:22-05:00",
         "estado": "en_borradores",
         "detalle": "SEND_TO_USER_INBOX"
       }
@@ -12099,7 +12112,7 @@
       "gancho": "Se coló al show escondida en el baño",
       "linea": "risas",
       "oportunidad_cazador": null,
-      "estado": "pendiente_aprobacion",
+      "estado": "vencido",
       "envio": "datos/publicador/envios/2026-11-17-hh-colada-bano__instagram.json",
       "puntaje": 72,
       "derechos": "sin_verificar",
@@ -12119,9 +12132,10 @@
       "url": null,
       "privacidad": null,
       "publicado": null,
-      "motivo": "Pendiente de aprobación. Va a la cuenta risas de Instagram (línea risas; config.json: esos clips esperan a esa cuenta aunque esté apagada). La cuenta y la plataforma no están activas ni tienen credenciales: aprobarla ahora solo la deja lista.",
+      "motivo": "Vencido sin enviarse: la ventana acabó el 2026-11-19 y Instagram no está activo ni tiene credenciales (ciclo 13). Una aprobación expresa (/publicador aprobar 2026-11-17-hh-colada-bano:instagram) lo vuelve a dejar aprobado.",
       "creado": "2026-11-17T16:57:02-05:00",
-      "revision_pendiente": "Persona privada que cuenta su historia por voluntad propia y con la cara cubierta: no añadas datos. Broma escatológica suave. El desenlace es hh-colada-tres-minutos: publícalo después (ficha)."
+      "revision_pendiente": "Persona privada que cuenta su historia por voluntad propia y con la cara cubierta: no añadas datos. Broma escatológica suave. El desenlace es hh-colada-tres-minutos: publícalo después (ficha).",
+      "vencido": "2026-11-20T21:24:00-05:00"
     },
     {
       "clip": "2026-11-17-hh-colada-bano",
@@ -12131,7 +12145,7 @@
       "gancho": "Se coló al show escondida en el baño",
       "linea": "risas",
       "oportunidad_cazador": null,
-      "estado": "pendiente_aprobacion",
+      "estado": "vencido",
       "envio": "datos/publicador/envios/2026-11-17-hh-colada-bano__youtube.json",
       "puntaje": 72,
       "derechos": "sin_verificar",
@@ -12151,10 +12165,11 @@
       "url": null,
       "privacidad": null,
       "publicado": null,
-      "motivo": "Pendiente de aprobación. Va a la cuenta risas de YouTube (canal de la Legión de Risas). Se había preparado para principal cuando YouTube tenía una sola cuenta con línea «todo»; desde el 2026-11-17 (config.json, decisión del usuario) hay un canal por línea y los clips de risas esperan al suyo aunque esté apagado, así que el ciclo 12 la pasa a risas, también en su envío, y la valida con -Simular. La cuenta y la plataforma no están activas ni tienen credenciales: aprobarla ahora solo la deja lista. Al subir sale pública (youtube.privacidad: public).",
+      "motivo": "Vencido sin enviarse: la ventana acabó el 2026-11-19 y YouTube no está activo ni tiene credenciales (ciclo 13). Una aprobación expresa (/publicador aprobar 2026-11-17-hh-colada-bano:youtube) lo vuelve a dejar aprobado.",
       "creado": "2026-11-17T16:57:02-05:00",
       "revision_pendiente": "Persona privada que cuenta su historia por voluntad propia y con la cara cubierta: no añadas datos. Broma escatológica suave. El desenlace es hh-colada-tres-minutos: publícalo después (ficha).",
-      "cuenta_anterior": "principal"
+      "cuenta_anterior": "principal",
+      "vencido": "2026-11-20T21:24:00-05:00"
     },
     {
       "clip": "2026-11-17-hh-colada-tres-minutos",
@@ -12164,7 +12179,7 @@
       "gancho": "Se coló al show y duró 3 minutos",
       "linea": "risas",
       "oportunidad_cazador": null,
-      "estado": "aprobado",
+      "estado": "vencido",
       "envio": "datos/publicador/envios/2026-11-17-hh-colada-tres-minutos__tiktok.json",
       "puntaje": 71,
       "derechos": "sin_verificar",
@@ -12184,9 +12199,10 @@
       "url": null,
       "privacidad": null,
       "publicado": null,
-      "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Va como borrador a la bandeja de TikTok de la cuenta risas (@legion.risas). Ciclo 12: no cabe antes de su ventana (2026-11-19): la cuenta ya subió hoy 4 de 4; vencerá en el próximo ciclo si nadie decide otra cosa.",
+      "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Va como borrador a la bandeja de TikTok de la cuenta risas (@legion.risas). Ciclo 13: vencido sin enviarse: la ventana acabó el 2026-11-19 sin hueco en la cola (la cuenta risas subió 4 de 4 el 19-nov). Una aprobación expresa (/publicador aprobar 2026-11-17-hh-colada-tres-minutos:tiktok) lo vuelve a dejar aprobado.",
       "creado": "2026-11-17T16:57:02-05:00",
-      "revision_pendiente": "Persona privada, con la cara cubierta: no añadas datos. Es el desenlace de hh-colada-bano: va después."
+      "revision_pendiente": "Persona privada, con la cara cubierta: no añadas datos. Es el desenlace de hh-colada-bano: va después.",
+      "vencido": "2026-11-20T21:24:00-05:00"
     },
     {
       "clip": "2026-11-17-hh-colada-tres-minutos",
@@ -12196,7 +12212,7 @@
       "gancho": "Se coló al show y duró 3 minutos",
       "linea": "risas",
       "oportunidad_cazador": null,
-      "estado": "pendiente_aprobacion",
+      "estado": "vencido",
       "envio": "datos/publicador/envios/2026-11-17-hh-colada-tres-minutos__instagram.json",
       "puntaje": 71,
       "derechos": "sin_verificar",
@@ -12216,9 +12232,10 @@
       "url": null,
       "privacidad": null,
       "publicado": null,
-      "motivo": "Pendiente de aprobación. Va a la cuenta risas de Instagram (línea risas; config.json: esos clips esperan a esa cuenta aunque esté apagada). La cuenta y la plataforma no están activas ni tienen credenciales: aprobarla ahora solo la deja lista.",
+      "motivo": "Vencido sin enviarse: la ventana acabó el 2026-11-19 y Instagram no está activo ni tiene credenciales (ciclo 13). Una aprobación expresa (/publicador aprobar 2026-11-17-hh-colada-tres-minutos:instagram) lo vuelve a dejar aprobado.",
       "creado": "2026-11-17T16:57:02-05:00",
-      "revision_pendiente": "Persona privada, con la cara cubierta: no añadas datos. Es el desenlace de hh-colada-bano: va después."
+      "revision_pendiente": "Persona privada, con la cara cubierta: no añadas datos. Es el desenlace de hh-colada-bano: va después.",
+      "vencido": "2026-11-20T21:24:00-05:00"
     },
     {
       "clip": "2026-11-17-hh-colada-tres-minutos",
@@ -12228,7 +12245,7 @@
       "gancho": "Se coló al show y duró 3 minutos",
       "linea": "risas",
       "oportunidad_cazador": null,
-      "estado": "pendiente_aprobacion",
+      "estado": "vencido",
       "envio": "datos/publicador/envios/2026-11-17-hh-colada-tres-minutos__youtube.json",
       "puntaje": 71,
       "derechos": "sin_verificar",
@@ -12248,10 +12265,11 @@
       "url": null,
       "privacidad": null,
       "publicado": null,
-      "motivo": "Pendiente de aprobación. Va a la cuenta risas de YouTube (canal de la Legión de Risas). Se había preparado para principal cuando YouTube tenía una sola cuenta con línea «todo»; desde el 2026-11-17 (config.json, decisión del usuario) hay un canal por línea y los clips de risas esperan al suyo aunque esté apagado, así que el ciclo 12 la pasa a risas, también en su envío, y la valida con -Simular. La cuenta y la plataforma no están activas ni tienen credenciales: aprobarla ahora solo la deja lista. Al subir sale pública (youtube.privacidad: public).",
+      "motivo": "Vencido sin enviarse: la ventana acabó el 2026-11-19 y YouTube no está activo ni tiene credenciales (ciclo 13). Una aprobación expresa (/publicador aprobar 2026-11-17-hh-colada-tres-minutos:youtube) lo vuelve a dejar aprobado.",
       "creado": "2026-11-17T16:57:02-05:00",
       "revision_pendiente": "Persona privada, con la cara cubierta: no añadas datos. Es el desenlace de hh-colada-bano: va después.",
-      "cuenta_anterior": "principal"
+      "cuenta_anterior": "principal",
+      "vencido": "2026-11-20T21:24:00-05:00"
     },
     {
       "clip": "2026-11-17-hh-temblor-hijos",
@@ -12261,7 +12279,7 @@
       "gancho": "Lo que descubrió durante un temblor",
       "linea": "risas",
       "oportunidad_cazador": null,
-      "estado": "aprobado",
+      "estado": "vencido",
       "envio": "datos/publicador/envios/2026-11-17-hh-temblor-hijos__tiktok.json",
       "puntaje": 69,
       "derechos": "sin_verificar",
@@ -12281,9 +12299,10 @@
       "url": null,
       "privacidad": null,
       "publicado": null,
-      "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Va como borrador a la bandeja de TikTok de la cuenta risas (@legion.risas). Ciclo 12: no cabe antes de su ventana (2026-11-19): la cuenta ya subió hoy 4 de 4; vencerá en el próximo ciclo si nadie decide otra cosa.",
+      "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Va como borrador a la bandeja de TikTok de la cuenta risas (@legion.risas). Ciclo 13: vencido sin enviarse: la ventana acabó el 2026-11-19 sin hueco en la cola (la cuenta risas subió 4 de 4 el 19-nov). Una aprobación expresa (/publicador aprobar 2026-11-17-hh-temblor-hijos:tiktok) lo vuelve a dejar aprobado.",
       "creado": "2026-11-17T16:57:02-05:00",
-      "revision_pendiente": "Cuenta la anécdota el de camiseta negra y la ficha no dice cuál de los dos es: no lo nombres al publicar. El temblor no causó víctimas; la broma es sobre su egoísmo. Nombra a sus hijos sin mostrarlos."
+      "revision_pendiente": "Cuenta la anécdota el de camiseta negra y la ficha no dice cuál de los dos es: no lo nombres al publicar. El temblor no causó víctimas; la broma es sobre su egoísmo. Nombra a sus hijos sin mostrarlos.",
+      "vencido": "2026-11-20T21:24:00-05:00"
     },
     {
       "clip": "2026-11-17-hh-temblor-hijos",
@@ -12293,7 +12312,7 @@
       "gancho": "Lo que descubrió durante un temblor",
       "linea": "risas",
       "oportunidad_cazador": null,
-      "estado": "pendiente_aprobacion",
+      "estado": "vencido",
       "envio": "datos/publicador/envios/2026-11-17-hh-temblor-hijos__instagram.json",
       "puntaje": 69,
       "derechos": "sin_verificar",
@@ -12313,9 +12332,10 @@
       "url": null,
       "privacidad": null,
       "publicado": null,
-      "motivo": "Pendiente de aprobación. Va a la cuenta risas de Instagram (línea risas; config.json: esos clips esperan a esa cuenta aunque esté apagada). La cuenta y la plataforma no están activas ni tienen credenciales: aprobarla ahora solo la deja lista.",
+      "motivo": "Vencido sin enviarse: la ventana acabó el 2026-11-19 y Instagram no está activo ni tiene credenciales (ciclo 13). Una aprobación expresa (/publicador aprobar 2026-11-17-hh-temblor-hijos:instagram) lo vuelve a dejar aprobado.",
       "creado": "2026-11-17T16:57:02-05:00",
-      "revision_pendiente": "Cuenta la anécdota el de camiseta negra y la ficha no dice cuál de los dos es: no lo nombres al publicar. El temblor no causó víctimas; la broma es sobre su egoísmo. Nombra a sus hijos sin mostrarlos."
+      "revision_pendiente": "Cuenta la anécdota el de camiseta negra y la ficha no dice cuál de los dos es: no lo nombres al publicar. El temblor no causó víctimas; la broma es sobre su egoísmo. Nombra a sus hijos sin mostrarlos.",
+      "vencido": "2026-11-20T21:24:00-05:00"
     },
     {
       "clip": "2026-11-17-hh-temblor-hijos",
@@ -12325,7 +12345,7 @@
       "gancho": "Lo que descubrió durante un temblor",
       "linea": "risas",
       "oportunidad_cazador": null,
-      "estado": "pendiente_aprobacion",
+      "estado": "vencido",
       "envio": "datos/publicador/envios/2026-11-17-hh-temblor-hijos__youtube.json",
       "puntaje": 69,
       "derechos": "sin_verificar",
@@ -12345,10 +12365,11 @@
       "url": null,
       "privacidad": null,
       "publicado": null,
-      "motivo": "Pendiente de aprobación. Va a la cuenta risas de YouTube (canal de la Legión de Risas). Se había preparado para principal cuando YouTube tenía una sola cuenta con línea «todo»; desde el 2026-11-17 (config.json, decisión del usuario) hay un canal por línea y los clips de risas esperan al suyo aunque esté apagado, así que el ciclo 12 la pasa a risas, también en su envío, y la valida con -Simular. La cuenta y la plataforma no están activas ni tienen credenciales: aprobarla ahora solo la deja lista. Al subir sale pública (youtube.privacidad: public).",
+      "motivo": "Vencido sin enviarse: la ventana acabó el 2026-11-19 y YouTube no está activo ni tiene credenciales (ciclo 13). Una aprobación expresa (/publicador aprobar 2026-11-17-hh-temblor-hijos:youtube) lo vuelve a dejar aprobado.",
       "creado": "2026-11-17T16:57:02-05:00",
       "revision_pendiente": "Cuenta la anécdota el de camiseta negra y la ficha no dice cuál de los dos es: no lo nombres al publicar. El temblor no causó víctimas; la broma es sobre su egoísmo. Nombra a sus hijos sin mostrarlos.",
-      "cuenta_anterior": "principal"
+      "cuenta_anterior": "principal",
+      "vencido": "2026-11-20T21:24:00-05:00"
     },
     {
       "clip": "2026-11-17-hh-lluvia-lima",
@@ -12358,7 +12379,7 @@
       "gancho": "Un peruano descubre la lluvia de verdad",
       "linea": "risas",
       "oportunidad_cazador": null,
-      "estado": "aprobado",
+      "estado": "vencido",
       "envio": "datos/publicador/envios/2026-11-17-hh-lluvia-lima__tiktok.json",
       "puntaje": 66,
       "derechos": "sin_verificar",
@@ -12378,9 +12399,10 @@
       "url": null,
       "privacidad": null,
       "publicado": null,
-      "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Va como borrador a la bandeja de TikTok de la cuenta risas (@legion.risas). Ciclo 12: no cabe antes de su ventana (2026-11-19): la cuenta ya subió hoy 4 de 4; vencerá en el próximo ciclo si nadie decide otra cosa.",
+      "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Va como borrador a la bandeja de TikTok de la cuenta risas (@legion.risas). Ciclo 13: vencido sin enviarse: la ventana acabó el 2026-11-19 sin hueco en la cola (la cuenta risas subió 4 de 4 el 19-nov). Una aprobación expresa (/publicador aprobar 2026-11-17-hh-lluvia-lima:tiktok) lo vuelve a dejar aprobado.",
       "creado": "2026-11-17T16:57:02-05:00",
-      "revision_pendiente": "Se corta antes de la mención a Bukele (política de El Salvador)."
+      "revision_pendiente": "Se corta antes de la mención a Bukele (política de El Salvador).",
+      "vencido": "2026-11-20T21:24:00-05:00"
     },
     {
       "clip": "2026-11-17-hh-lluvia-lima",
@@ -12390,7 +12412,7 @@
       "gancho": "Un peruano descubre la lluvia de verdad",
       "linea": "risas",
       "oportunidad_cazador": null,
-      "estado": "pendiente_aprobacion",
+      "estado": "vencido",
       "envio": "datos/publicador/envios/2026-11-17-hh-lluvia-lima__instagram.json",
       "puntaje": 66,
       "derechos": "sin_verificar",
@@ -12410,9 +12432,10 @@
       "url": null,
       "privacidad": null,
       "publicado": null,
-      "motivo": "Pendiente de aprobación. Va a la cuenta risas de Instagram (línea risas; config.json: esos clips esperan a esa cuenta aunque esté apagada). La cuenta y la plataforma no están activas ni tienen credenciales: aprobarla ahora solo la deja lista.",
+      "motivo": "Vencido sin enviarse: la ventana acabó el 2026-11-19 y Instagram no está activo ni tiene credenciales (ciclo 13). Una aprobación expresa (/publicador aprobar 2026-11-17-hh-lluvia-lima:instagram) lo vuelve a dejar aprobado.",
       "creado": "2026-11-17T16:57:02-05:00",
-      "revision_pendiente": "Se corta antes de la mención a Bukele (política de El Salvador)."
+      "revision_pendiente": "Se corta antes de la mención a Bukele (política de El Salvador).",
+      "vencido": "2026-11-20T21:24:00-05:00"
     },
     {
       "clip": "2026-11-17-hh-lluvia-lima",
@@ -12422,7 +12445,7 @@
       "gancho": "Un peruano descubre la lluvia de verdad",
       "linea": "risas",
       "oportunidad_cazador": null,
-      "estado": "pendiente_aprobacion",
+      "estado": "vencido",
       "envio": "datos/publicador/envios/2026-11-17-hh-lluvia-lima__youtube.json",
       "puntaje": 66,
       "derechos": "sin_verificar",
@@ -12442,10 +12465,11 @@
       "url": null,
       "privacidad": null,
       "publicado": null,
-      "motivo": "Pendiente de aprobación. Va a la cuenta risas de YouTube (canal de la Legión de Risas). Se había preparado para principal cuando YouTube tenía una sola cuenta con línea «todo»; desde el 2026-11-17 (config.json, decisión del usuario) hay un canal por línea y los clips de risas esperan al suyo aunque esté apagado, así que el ciclo 12 la pasa a risas, también en su envío, y la valida con -Simular. La cuenta y la plataforma no están activas ni tienen credenciales: aprobarla ahora solo la deja lista. Al subir sale pública (youtube.privacidad: public).",
+      "motivo": "Vencido sin enviarse: la ventana acabó el 2026-11-19 y YouTube no está activo ni tiene credenciales (ciclo 13). Una aprobación expresa (/publicador aprobar 2026-11-17-hh-lluvia-lima:youtube) lo vuelve a dejar aprobado.",
       "creado": "2026-11-17T16:57:02-05:00",
       "revision_pendiente": "Se corta antes de la mención a Bukele (política de El Salvador).",
-      "cuenta_anterior": "principal"
+      "cuenta_anterior": "principal",
+      "vencido": "2026-11-20T21:24:00-05:00"
     },
     {
       "clip": "2026-11-17-cotorrisa-suite-karol-g",
@@ -12478,10 +12502,10 @@
       "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta risas (@legion.risas) el 2026-11-19T22:59:24-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
       "creado": "2026-11-17T16:57:02-05:00",
       "revision_pendiente": "Karol G no sale: es lo que ellos cuentan del hotel; no añadas nada. Cuenta la anécdota el de sudadera roja (no se nombra). Una palabra como (…).",
-      "comprobado": "2026-11-19T23:00:06-05:00",
+      "comprobado": "2026-11-20T21:19:24-05:00",
       "detalle_plataforma": "SEND_TO_USER_INBOX",
       "ultima_comprobacion": {
-        "fecha": "2026-11-19T23:00:06-05:00",
+        "fecha": "2026-11-20T21:19:24-05:00",
         "estado": "en_borradores",
         "detalle": "SEND_TO_USER_INBOX"
       }
@@ -12494,7 +12518,7 @@
       "gancho": "La suite de Karol G, a un volado",
       "linea": "risas",
       "oportunidad_cazador": null,
-      "estado": "pendiente_aprobacion",
+      "estado": "vencido",
       "envio": "datos/publicador/envios/2026-11-17-cotorrisa-suite-karol-g__instagram.json",
       "puntaje": 72,
       "derechos": "sin_verificar",
@@ -12514,9 +12538,10 @@
       "url": null,
       "privacidad": null,
       "publicado": null,
-      "motivo": "Pendiente de aprobación. Va a la cuenta risas de Instagram (línea risas; config.json: esos clips esperan a esa cuenta aunque esté apagada). La cuenta y la plataforma no están activas ni tienen credenciales: aprobarla ahora solo la deja lista.",
+      "motivo": "Vencido sin enviarse: la ventana acabó el 2026-11-19 y Instagram no está activo ni tiene credenciales (ciclo 13). Una aprobación expresa (/publicador aprobar 2026-11-17-cotorrisa-suite-karol-g:instagram) lo vuelve a dejar aprobado.",
       "creado": "2026-11-17T16:57:02-05:00",
-      "revision_pendiente": "Karol G no sale: es lo que ellos cuentan del hotel; no añadas nada. Cuenta la anécdota el de sudadera roja (no se nombra). Una palabra como (…)."
+      "revision_pendiente": "Karol G no sale: es lo que ellos cuentan del hotel; no añadas nada. Cuenta la anécdota el de sudadera roja (no se nombra). Una palabra como (…).",
+      "vencido": "2026-11-20T21:24:00-05:00"
     },
     {
       "clip": "2026-11-17-cotorrisa-suite-karol-g",
@@ -12526,7 +12551,7 @@
       "gancho": "La suite de Karol G, a un volado",
       "linea": "risas",
       "oportunidad_cazador": null,
-      "estado": "pendiente_aprobacion",
+      "estado": "vencido",
       "envio": "datos/publicador/envios/2026-11-17-cotorrisa-suite-karol-g__youtube.json",
       "puntaje": 72,
       "derechos": "sin_verificar",
@@ -12546,10 +12571,11 @@
       "url": null,
       "privacidad": null,
       "publicado": null,
-      "motivo": "Pendiente de aprobación. Va a la cuenta risas de YouTube (canal de la Legión de Risas). Se había preparado para principal cuando YouTube tenía una sola cuenta con línea «todo»; desde el 2026-11-17 (config.json, decisión del usuario) hay un canal por línea y los clips de risas esperan al suyo aunque esté apagado, así que el ciclo 12 la pasa a risas, también en su envío, y la valida con -Simular. La cuenta y la plataforma no están activas ni tienen credenciales: aprobarla ahora solo la deja lista. Al subir sale pública (youtube.privacidad: public).",
+      "motivo": "Vencido sin enviarse: la ventana acabó el 2026-11-19 y YouTube no está activo ni tiene credenciales (ciclo 13). Una aprobación expresa (/publicador aprobar 2026-11-17-cotorrisa-suite-karol-g:youtube) lo vuelve a dejar aprobado.",
       "creado": "2026-11-17T16:57:02-05:00",
       "revision_pendiente": "Karol G no sale: es lo que ellos cuentan del hotel; no añadas nada. Cuenta la anécdota el de sudadera roja (no se nombra). Una palabra como (…).",
-      "cuenta_anterior": "principal"
+      "cuenta_anterior": "principal",
+      "vencido": "2026-11-20T21:24:00-05:00"
     },
     {
       "clip": "2026-11-17-westcol-daren-mentiroso",
@@ -12658,7 +12684,7 @@
       "gancho": "Westcol sobre el show de Kris R",
       "linea": "urbano",
       "oportunidad_cazador": "formato-el-dia-despues-del-protagonista",
-      "estado": "aprobado",
+      "estado": "en_borradores",
       "envio": "datos/publicador/envios/2026-11-17-westcol-show-kris-r__tiktok.json",
       "puntaje": 68,
       "derechos": "sin_verificar",
@@ -12674,13 +12700,20 @@
         "duracion_seg": 34.2,
         "huella": "6d24918f903bfea2fbb013b27c8257f6b35186ff9800d32fb71959b060f2132c"
       },
-      "id_publicacion": null,
+      "id_publicacion": "v_inbox_file~v2.7710442951650166798",
       "url": null,
-      "privacidad": null,
-      "publicado": null,
-      "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Va como borrador a la bandeja de TikTok de la cuenta principal (Legión Urbana). Ciclo 12: previsto 20-nov, día del concierto de Kris R (la ficha proponía la previa, el 19-nov; ese día la cuenta subió solo los dos que vencían).",
+      "privacidad": "borrador",
+      "publicado": "2026-11-20T21:16:44-05:00",
+      "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta principal (Legión Urbana) el 2026-11-20T21:16:44-05:00 (ciclo 13): falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
       "creado": "2026-11-17T16:57:02-05:00",
-      "revision_pendiente": "Kris R no sale: habla Westcol. No suena música de Kris R. Dos palabras como (…)."
+      "revision_pendiente": "Kris R no sale: habla Westcol. No suena música de Kris R. Dos palabras como (…).",
+      "comprobado": "2026-11-20T21:19:26-05:00",
+      "detalle_plataforma": "SEND_TO_USER_INBOX",
+      "ultima_comprobacion": {
+        "fecha": "2026-11-20T21:19:26-05:00",
+        "estado": "en_borradores",
+        "detalle": "SEND_TO_USER_INBOX"
+      }
     },
     {
       "clip": "2026-11-17-westcol-show-kris-r",
@@ -13276,10 +13309,10 @@
       "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta principal (Legión Urbana) el 2026-11-17T16:59:44-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
       "creado": "2026-11-17T16:57:02-05:00",
       "revision_pendiente": "Lenguaje fuerte y un pitido de la fuente como ***. Si la polémica de Herrera pasa a lo judicial, no se publica. Publicarlo separado de westcol-herrera-no-planeado (ficha).",
-      "comprobado": "2026-11-19T23:00:59-05:00",
+      "comprobado": "2026-11-20T21:19:27-05:00",
       "detalle_plataforma": "SEND_TO_USER_INBOX",
       "ultima_comprobacion": {
-        "fecha": "2026-11-19T23:00:59-05:00",
+        "fecha": "2026-11-20T21:19:27-05:00",
         "estado": "en_borradores",
         "detalle": "SEND_TO_USER_INBOX"
       },
@@ -13382,10 +13415,10 @@
       "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta principal (Legión Urbana) el 2026-11-19T22:58:19-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
       "creado": "2026-11-17T16:57:02-05:00",
       "revision_pendiente": "Opinión que puede molestar a la afición del boxeo (es justo lo que da debate). Dos pitidos de la fuente como ***.",
-      "comprobado": "2026-11-19T22:59:58-05:00",
+      "comprobado": "2026-11-20T21:19:29-05:00",
       "detalle_plataforma": "SEND_TO_USER_INBOX",
       "ultima_comprobacion": {
-        "fecha": "2026-11-19T22:59:58-05:00",
+        "fecha": "2026-11-20T21:19:29-05:00",
         "estado": "en_borradores",
         "detalle": "SEND_TO_USER_INBOX"
       }
@@ -13398,7 +13431,7 @@
       "gancho": "Westcol: entre más profesional, más aburrido el boxeo",
       "linea": "urbano",
       "oportunidad_cazador": "formato-el-dia-despues-del-protagonista",
-      "estado": "pendiente_aprobacion",
+      "estado": "vencido",
       "envio": "datos/publicador/envios/2026-11-17-westcol-boxeo-aburrido__instagram.json",
       "puntaje": 76,
       "derechos": "sin_verificar",
@@ -13418,9 +13451,10 @@
       "url": null,
       "privacidad": null,
       "publicado": null,
-      "motivo": "Pendiente de aprobación. Va a la cuenta principal de Instagram (línea urbana). Instagram no está activo ni tiene credenciales: aprobarla ahora solo la deja lista para cuando se active.",
+      "motivo": "Vencido sin enviarse: la ventana acabó el 2026-11-19 y Instagram no está activo ni tiene credenciales (ciclo 13). Una aprobación expresa (/publicador aprobar 2026-11-17-westcol-boxeo-aburrido:instagram) lo vuelve a dejar aprobado.",
       "creado": "2026-11-17T16:57:02-05:00",
-      "revision_pendiente": "Opinión que puede molestar a la afición del boxeo (es justo lo que da debate). Dos pitidos de la fuente como ***."
+      "revision_pendiente": "Opinión que puede molestar a la afición del boxeo (es justo lo que da debate). Dos pitidos de la fuente como ***.",
+      "vencido": "2026-11-20T21:24:00-05:00"
     },
     {
       "clip": "2026-11-17-westcol-boxeo-aburrido",
@@ -13430,7 +13464,7 @@
       "gancho": "Westcol: entre más profesional, más aburrido el boxeo",
       "linea": "urbano",
       "oportunidad_cazador": "formato-el-dia-despues-del-protagonista",
-      "estado": "pendiente_aprobacion",
+      "estado": "vencido",
       "envio": "datos/publicador/envios/2026-11-17-westcol-boxeo-aburrido__youtube.json",
       "puntaje": 76,
       "derechos": "sin_verificar",
@@ -13450,9 +13484,10 @@
       "url": null,
       "privacidad": null,
       "publicado": null,
-      "motivo": "Pendiente de aprobación. Va a la cuenta principal de YouTube (canal de la Legión Urbana; desde el 2026-11-17 YouTube lleva un canal por línea). La plataforma aún no está activa ni tiene credenciales: aprobarla ahora solo la deja lista. Al subir sale pública (youtube.privacidad: public).",
+      "motivo": "Vencido sin enviarse: la ventana acabó el 2026-11-19 y YouTube no está activo ni tiene credenciales (ciclo 13). Una aprobación expresa (/publicador aprobar 2026-11-17-westcol-boxeo-aburrido:youtube) lo vuelve a dejar aprobado.",
       "creado": "2026-11-17T16:57:02-05:00",
-      "revision_pendiente": "Opinión que puede molestar a la afición del boxeo (es justo lo que da debate). Dos pitidos de la fuente como ***."
+      "revision_pendiente": "Opinión que puede molestar a la afición del boxeo (es justo lo que da debate). Dos pitidos de la fuente como ***.",
+      "vencido": "2026-11-20T21:24:00-05:00"
     },
     {
       "clip": "2026-11-17-samulx-retiro-boxeo",
@@ -13485,10 +13520,10 @@
       "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta principal (Legión Urbana) el 2026-11-17T16:58:26-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
       "creado": "2026-11-17T16:57:02-05:00",
       "revision_pendiente": "Dice «creo que»: los textos no dan el retiro por hecho. En un directo posterior matiza la decisión (recorte de La Ganga Clips TV «NO PELEO MÁS NUNCA… salvo por 300 MIL DÓLARES»).",
-      "comprobado": "2026-11-19T23:01:00-05:00",
+      "comprobado": "2026-11-20T21:19:30-05:00",
       "detalle_plataforma": "SEND_TO_USER_INBOX",
       "ultima_comprobacion": {
-        "fecha": "2026-11-19T23:01:00-05:00",
+        "fecha": "2026-11-20T21:19:30-05:00",
         "estado": "en_borradores",
         "detalle": "SEND_TO_USER_INBOX"
       }
@@ -13590,10 +13625,10 @@
       "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta principal (Legión Urbana) el 2026-11-17T16:58:42-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
       "creado": "2026-11-17T16:57:02-05:00",
       "revision_pendiente": "La lesión se cuenta con palabras, sin imágenes del golpe. Una palabra como (…).",
-      "comprobado": "2026-11-19T23:01:02-05:00",
+      "comprobado": "2026-11-20T21:19:32-05:00",
       "detalle_plataforma": "SEND_TO_USER_INBOX",
       "ultima_comprobacion": {
-        "fecha": "2026-11-19T23:01:02-05:00",
+        "fecha": "2026-11-20T21:19:32-05:00",
         "estado": "en_borradores",
         "detalle": "SEND_TO_USER_INBOX"
       }
@@ -13695,10 +13730,10 @@
       "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta principal (Legión Urbana) el 2026-11-17T16:59:05-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
       "creado": "2026-11-17T16:57:02-05:00",
       "revision_pendiente": "Nada especial; lenguaje coloquial.",
-      "comprobado": "2026-11-19T23:01:03-05:00",
+      "comprobado": "2026-11-20T21:19:34-05:00",
       "detalle_plataforma": "SEND_TO_USER_INBOX",
       "ultima_comprobacion": {
-        "fecha": "2026-11-19T23:01:03-05:00",
+        "fecha": "2026-11-20T21:19:34-05:00",
         "estado": "en_borradores",
         "detalle": "SEND_TO_USER_INBOX"
       }
@@ -14996,10 +15031,10 @@
       "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta risas (@legion.risas) el 2026-11-17T16:59:13-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
       "creado": "2026-11-17T16:57:02-05:00",
       "revision_pendiente": "Lenguaje fuerte entre amigos («perra», «zorra») y pitidos de la fuente como ***. «Se quiere despedir» es una broma sobre el mensaje: nadie está enfermo.",
-      "comprobado": "2026-11-19T23:01:05-05:00",
+      "comprobado": "2026-11-20T21:19:36-05:00",
       "detalle_plataforma": "SEND_TO_USER_INBOX",
       "ultima_comprobacion": {
-        "fecha": "2026-11-19T23:01:05-05:00",
+        "fecha": "2026-11-20T21:19:36-05:00",
         "estado": "en_borradores",
         "detalle": "SEND_TO_USER_INBOX"
       }
@@ -15102,10 +15137,10 @@
       "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta risas (@legion.risas) el 2026-11-17T16:58:55-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
       "creado": "2026-11-17T16:57:02-05:00",
       "revision_pendiente": "El que habla (gorra blanca) no se nombra en el tramo: no lo nombres al publicar. «Estaban hablando de los pobres» es una broma entre amigos sobre él, no sobre el discurso. Subtítulos flojos; tres palabras como (…). Publícalo después de parenlamano-luquitas-turista (ficha).",
-      "comprobado": "2026-11-19T23:01:06-05:00",
+      "comprobado": "2026-11-20T21:19:38-05:00",
       "detalle_plataforma": "SEND_TO_USER_INBOX",
       "ultima_comprobacion": {
-        "fecha": "2026-11-19T23:01:06-05:00",
+        "fecha": "2026-11-20T21:19:38-05:00",
         "estado": "en_borradores",
         "detalle": "SEND_TO_USER_INBOX"
       }
@@ -15208,10 +15243,10 @@
       "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta risas (@legion.risas) el 2026-11-17T16:58:34-05:00: falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
       "creado": "2026-11-17T16:57:02-05:00",
       "revision_pendiente": "Charla cruzada con acento argentino; subtítulos flojos en algunos tramos. Va antes que parenlamano-luquitas-zapatilla (ficha) y conviene separarlo de los otros clips del Papa (parenlamano-papa-a-dormir y cotorrisa-papa-cadenero).",
-      "comprobado": "2026-11-19T23:01:07-05:00",
+      "comprobado": "2026-11-20T21:19:40-05:00",
       "detalle_plataforma": "SEND_TO_USER_INBOX",
       "ultima_comprobacion": {
-        "fecha": "2026-11-19T23:01:07-05:00",
+        "fecha": "2026-11-20T21:19:40-05:00",
         "estado": "en_borradores",
         "detalle": "SEND_TO_USER_INBOX"
       }
@@ -15489,7 +15524,7 @@
       "gancho": "Iván Marín tuvo que despedir a Ricardo Quevedo",
       "linea": "risas",
       "oportunidad_cazador": null,
-      "estado": "aprobado",
+      "estado": "en_borradores",
       "envio": "datos/publicador/envios/2026-11-17-culpa-marin-despide-quevedo__tiktok.json",
       "puntaje": 76,
       "derechos": "sin_verificar",
@@ -15505,13 +15540,20 @@
         "duracion_seg": 71,
         "huella": "cfebd648ce97df4c75a77272277ff1b203ee058e6c875c46a85d7328a75c1571"
       },
-      "id_publicacion": null,
+      "id_publicacion": "v_inbox_file~v2.7710442711404726303",
       "url": null,
-      "privacidad": null,
-      "publicado": null,
-      "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Va como borrador a la bandeja de TikTok de la cuenta risas (@legion.risas). Ciclo 12: previsto 20-nov.",
+      "privacidad": "borrador",
+      "publicado": "2026-11-20T21:15:50-05:00",
+      "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta risas (@legion.risas) el 2026-11-20T21:15:50-05:00 (ciclo 13): falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
       "creado": "2026-11-17T19:33:37-05:00",
-      "revision_pendiente": "Escuchar dos tramos que los subtítulos dejan como «(…)» (38:41 y 39:17). Lenguaje fuerte tapado por YouTube («***»). La fuente viene algo saturada: si se oye mal, no lo publiques. La imagen no deja asegurar quién es quién: los textos nombran a Iván Marín y a Ricardo Quevedo porque el propio programa lo hace, y no atribuyen el remate a nadie. Mismo capítulo que culpa-mama-carrazo: publícalos separados."
+      "revision_pendiente": "Escuchar dos tramos que los subtítulos dejan como «(…)» (38:41 y 39:17). Lenguaje fuerte tapado por YouTube («***»). La fuente viene algo saturada: si se oye mal, no lo publiques. La imagen no deja asegurar quién es quién: los textos nombran a Iván Marín y a Ricardo Quevedo porque el propio programa lo hace, y no atribuyen el remate a nadie. Mismo capítulo que culpa-mama-carrazo: publícalos separados.",
+      "comprobado": "2026-11-20T21:19:42-05:00",
+      "detalle_plataforma": "SEND_TO_USER_INBOX",
+      "ultima_comprobacion": {
+        "fecha": "2026-11-20T21:19:42-05:00",
+        "estado": "en_borradores",
+        "detalle": "SEND_TO_USER_INBOX"
+      }
     },
     {
       "clip": "2026-11-17-culpa-marin-despide-quevedo",
@@ -15586,13 +15628,13 @@
       "gancho": "La versión de mamá cuando compras carro",
       "linea": "risas",
       "oportunidad_cazador": null,
-      "estado": "aprobado",
+      "estado": "error",
       "envio": "datos/publicador/envios/2026-11-17-culpa-mama-carrazo__tiktok.json",
       "puntaje": 75,
       "derechos": "sin_verificar",
       "ventana_hasta": "2026-11-20",
       "aprobado": "2026-11-17T19:33:37-05:00",
-      "intentos": 0,
+      "intentos": 1,
       "ultima_simulacion": {
         "fecha": "2026-11-17T19:32:02-05:00",
         "ok": true,
@@ -15606,9 +15648,13 @@
       "url": null,
       "privacidad": null,
       "publicado": null,
-      "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Va como borrador a la bandeja de TikTok de la cuenta risas (@legion.risas). Ciclo 12: previsto 20-nov (mismo capítulo que culpa-marin-despide-quevedo: publícalos separados).",
+      "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Ciclo 13 (2026-11-20T21:17:00-05:00): TikTok respondió spam_risk_too_many_pending_share en la cuenta risas después de aceptar hoy culpa-marin-despide-quevedo y luciernaga-imitadores-iva (6 borradores en 24 h, con los 4 del 19-nov a las 22:58-22:59). Intento 1 de 2; la cuenta risas se paró en este ciclo. Su ventana acaba hoy (2026-11-20): en el próximo ciclo vencerá sin enviarse, salvo aprobación expresa (/publicador aprobar 2026-11-17-culpa-mama-carrazo:tiktok), que la deja para el 21-nov.",
       "creado": "2026-11-17T19:33:37-05:00",
-      "revision_pendiente": "Lenguaje fuerte tapado por YouTube («***»). Sale el público del show en plano general, sin nadie señalado. Quien cuenta la anécdota no se identifica en la imagen: los textos no lo nombran. Mismo capítulo que culpa-marin-despide-quevedo: publícalos separados."
+      "revision_pendiente": "Lenguaje fuerte tapado por YouTube («***»). Sale el público del show en plano general, sin nadie señalado. Quien cuenta la anécdota no se identifica en la imagen: los textos no lo nombran. Mismo capítulo que culpa-marin-despide-quevedo: publícalos separados.",
+      "ultimo_error": {
+        "fecha": "2026-11-20T21:17:00-05:00",
+        "error": "HTTP 400 spam_risk_too_many_pending_share (log_id 202611210217030D9D53F32113A3473325)"
+      }
     },
     {
       "clip": "2026-11-17-culpa-mama-carrazo",
@@ -15703,7 +15749,7 @@
       "url": null,
       "privacidad": null,
       "publicado": null,
-      "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Va como borrador a la bandeja de TikTok de la cuenta risas (@legion.risas). Ciclo 12: previsto 20-nov.",
+      "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Va como borrador a la bandeja de TikTok de la cuenta risas (@legion.risas). Ciclo 13: estaba previsto para el 20-nov, pero TikTok cortó la cuenta risas (spam_risk_too_many_pending_share) antes de llegar a él; previsto 21-nov (ventana hasta el 21-nov).",
       "creado": "2026-11-17T19:33:37-05:00",
       "revision_pendiente": "Velo antes de publicar: el remate lo dice Franco imitando la voz de Checo según los comentarios del video y la propia mesa, pero el plano general no lo muestra de cerca. Si no fuera Franco, no lo publiques con este texto (el gancho del video también lo dice). Lenguaje fuerte («pendejada»). Los carteles de la gira de Franco en la mesa son del propio canal. Se corta antes de la réplica grosera de Checo."
     },
@@ -15800,7 +15846,7 @@
       "url": null,
       "privacidad": null,
       "publicado": null,
-      "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Va como borrador a la bandeja de TikTok de la cuenta risas (@legion.risas). Ciclo 12: previsto 21-nov.",
+      "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Va como borrador a la bandeja de TikTok de la cuenta risas (@legion.risas). Ciclo 13: previsto 21-nov.",
       "creado": "2026-11-17T19:33:37-05:00",
       "revision_pendiente": "Humor asqueroso, sin nadie atacado (el amigo no se nombra). Quien cuenta no se identifica con seguridad: los textos no lo nombran. El letrero de Coca-Cola es del decorado del estudio, no un rótulo añadido. Lenguaje: «boludo»."
     },
@@ -15877,7 +15923,7 @@
       "gancho": "Imitadores: todos quieren el crédito del IVA",
       "linea": "risas",
       "oportunidad_cazador": "formato-imitador-politico",
-      "estado": "aprobado",
+      "estado": "en_borradores",
       "envio": "datos/publicador/envios/2026-11-18-luciernaga-imitadores-iva__tiktok.json",
       "puntaje": 76,
       "derechos": "sin_verificar",
@@ -15893,13 +15939,20 @@
         "duracion_seg": 62.5,
         "huella": "b0a6eb86e6a0ca3817ff1ab43e43fe0bcff0633394cb6cd6dc0639cf488d781b"
       },
-      "id_publicacion": null,
+      "id_publicacion": "v_inbox_file~v2.7710442890593323039",
       "url": null,
-      "privacidad": null,
-      "publicado": null,
-      "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Va como borrador a la bandeja de TikTok de la cuenta risas (@legion.risas). Ciclo 12: previsto 20-nov (la ficha pedía el 18 o el 19-nov por ir atado a la noticia del 17-nov; el 19-nov la cuenta subió los que vencían ese día).",
+      "privacidad": "borrador",
+      "publicado": "2026-11-20T21:16:26-05:00",
+      "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta risas (@legion.risas) el 2026-11-20T21:16:26-05:00 (ciclo 13): falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
       "creado": "2026-11-19T23:02:57-05:00",
-      "revision_pendiente": "Humor político (legion/04-cazador-risas/enfoque.md): sátira con imitadores de La Luciérnaga (Caracol Radio). Los rótulos del propio programa dicen «Claudia López de La Luciérnaga» y «Álvaro Uribe de La Luciérnaga»; no sale ningún político real. Corrientes: centro y derecha. Los textos dicen siempre que son imitadores y no llevan opiniones, consignas ni etiquetas de partido: al publicar no se las añadas. El crédito no copia el título del video, que habla de un juez y de operativos de De la Espriella (fuera del clip). Escuchar dos palabras que los subtítulos dejan como «(…)» (1:23:41 y 1:23:50). Ficha: es el único de risas atado a una noticia (17-nov); mejor publicarlo pronto."
+      "revision_pendiente": "Humor político (legion/04-cazador-risas/enfoque.md): sátira con imitadores de La Luciérnaga (Caracol Radio). Los rótulos del propio programa dicen «Claudia López de La Luciérnaga» y «Álvaro Uribe de La Luciérnaga»; no sale ningún político real. Corrientes: centro y derecha. Los textos dicen siempre que son imitadores y no llevan opiniones, consignas ni etiquetas de partido: al publicar no se las añadas. El crédito no copia el título del video, que habla de un juez y de operativos de De la Espriella (fuera del clip). Escuchar dos palabras que los subtítulos dejan como «(…)» (1:23:41 y 1:23:50). Ficha: es el único de risas atado a una noticia (17-nov); mejor publicarlo pronto.",
+      "comprobado": "2026-11-20T21:19:44-05:00",
+      "detalle_plataforma": "SEND_TO_USER_INBOX",
+      "ultima_comprobacion": {
+        "fecha": "2026-11-20T21:19:44-05:00",
+        "estado": "en_borradores",
+        "detalle": "SEND_TO_USER_INBOX"
+      }
     },
     {
       "clip": "2026-11-18-luciernaga-imitadores-iva",
@@ -15973,7 +16026,7 @@
       "gancho": "La Ganga despide su casa estilo Toretto",
       "linea": "urbano",
       "oportunidad_cazador": "tema-24-horas-con-la-ganga",
-      "estado": "aprobado",
+      "estado": "en_borradores",
       "envio": "datos/publicador/envios/2026-11-18-ganga-guarida-toretto__tiktok.json",
       "puntaje": 74,
       "derechos": "sin_verificar",
@@ -15989,13 +16042,20 @@
         "duracion_seg": 53.4,
         "huella": "262060330bcbfb270030579dd0231ec0a93f4290b04e46342ef028e0204351e4"
       },
-      "id_publicacion": null,
+      "id_publicacion": "v_inbox_file~v2.7710442593980581902",
       "url": null,
-      "privacidad": null,
-      "publicado": null,
-      "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Va como borrador a la bandeja de TikTok de la cuenta principal (Legión Urbana). Ciclo 12: previsto 20-nov (la ficha proponía el 19-nov a las 19:00).",
+      "privacidad": "borrador",
+      "publicado": "2026-11-20T21:15:14-05:00",
+      "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta principal (Legión Urbana) el 2026-11-20T21:15:14-05:00 (ciclo 13): falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
       "creado": "2026-11-19T23:02:57-05:00",
-      "revision_pendiente": "La imagen no deja asegurar quién dice el brindis ni quién sale de cara: los textos solo nombran a La Ganga (sin #Westcol). El clip termina con media palabra del plano siguiente («E la…», 0,5 s) y la imagen es nocturna y oscura. Los textos dicen «no salió a la primera» y no «a la quinta toma», porque el clip solo muestra una toma fallida. Publícalo a otra hora que ganga-bienvenida-piscina."
+      "revision_pendiente": "La imagen no deja asegurar quién dice el brindis ni quién sale de cara: los textos solo nombran a La Ganga (sin #Westcol). El clip termina con media palabra del plano siguiente («E la…», 0,5 s) y la imagen es nocturna y oscura. Los textos dicen «no salió a la primera» y no «a la quinta toma», porque el clip solo muestra una toma fallida. Publícalo a otra hora que ganga-bienvenida-piscina.",
+      "comprobado": "2026-11-20T21:19:46-05:00",
+      "detalle_plataforma": "SEND_TO_USER_INBOX",
+      "ultima_comprobacion": {
+        "fecha": "2026-11-20T21:19:46-05:00",
+        "estado": "en_borradores",
+        "detalle": "SEND_TO_USER_INBOX"
+      }
     },
     {
       "clip": "2026-11-18-ganga-guarida-toretto",
@@ -16089,7 +16149,7 @@
       "url": null,
       "privacidad": null,
       "publicado": null,
-      "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Va como borrador a la bandeja de TikTok de la cuenta risas (@legion.risas). Ciclo 12: previsto 21-nov (la ficha propone las 20:00).",
+      "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Va como borrador a la bandeja de TikTok de la cuenta risas (@legion.risas). Ciclo 13: previsto 21-nov (la ficha propone las 20:00).",
       "creado": "2026-11-19T23:02:57-05:00",
       "revision_pendiente": "Escuchar la primera palabra después de «Entonces», que los subtítulos dejan como «(…)». Lenguaje fuerte tapado por YouTube («***»). Habla Dilson Díaz, el invitado; a Juanpis solo se le oye, y los textos no le atribuyen la historia. El «juicio» es un programa de televisión actuado, no un caso judicial real."
     },
@@ -16165,7 +16225,7 @@
       "gancho": "Bienvenida a La Ganga: directo a la piscina",
       "linea": "urbano",
       "oportunidad_cazador": "tema-24-horas-con-la-ganga",
-      "estado": "aprobado",
+      "estado": "en_borradores",
       "envio": "datos/publicador/envios/2026-11-18-ganga-bienvenida-piscina__tiktok.json",
       "puntaje": 73,
       "derechos": "sin_verificar",
@@ -16181,13 +16241,20 @@
         "duracion_seg": 43.8,
         "huella": "2597a006d385ca7f57755a0761e6aa85d145843efe9173bbefa6c3286a150674"
       },
-      "id_publicacion": null,
+      "id_publicacion": "v_inbox_file~v2.7710442783827462158",
       "url": null,
-      "privacidad": null,
-      "publicado": null,
-      "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Va como borrador a la bandeja de TikTok de la cuenta principal (Legión Urbana). Ciclo 12: previsto 20-nov; publicarlo solo después de verlo entero y a otra hora que ganga-guarida-toretto.",
+      "privacidad": "borrador",
+      "publicado": "2026-11-20T21:16:07-05:00",
+      "motivo": "Aprobación automática de borradores (config.aprobacion_automatica_borradores, decisión del usuario del 2026-11-10). Subido a la bandeja de TikTok de la cuenta principal (Legión Urbana) el 2026-11-20T21:16:07-05:00 (ciclo 13): falta terminar la publicación desde la app y pegar el texto de salidas/publicador/pendientes.md.",
       "creado": "2026-11-19T23:02:57-05:00",
-      "revision_pendiente": "Velo entero antes de publicar: es una broma física entre amigos y él dice «no, no, no» mientras lo cargan; si no parece que se lo toma a risa, no lo publiques. No se puede confirmar quién es cada uno: los textos no nombran a nadie y el crédito no copia el título del video («Me desquite de Westcol y de Pan»), porque el tramo no muestra a quién tiran. Una frase queda como «(…)» (0:13:57). Publícalo a otra hora que ganga-guarida-toretto (la ficha lo pone el 20-nov a las 12:30)."
+      "revision_pendiente": "Velo entero antes de publicar: es una broma física entre amigos y él dice «no, no, no» mientras lo cargan; si no parece que se lo toma a risa, no lo publiques. No se puede confirmar quién es cada uno: los textos no nombran a nadie y el crédito no copia el título del video («Me desquite de Westcol y de Pan»), porque el tramo no muestra a quién tiran. Una frase queda como «(…)» (0:13:57). Publícalo a otra hora que ganga-guarida-toretto (la ficha lo pone el 20-nov a las 12:30).",
+      "comprobado": "2026-11-20T21:19:48-05:00",
+      "detalle_plataforma": "SEND_TO_USER_INBOX",
+      "ultima_comprobacion": {
+        "fecha": "2026-11-20T21:19:48-05:00",
+        "estado": "en_borradores",
+        "detalle": "SEND_TO_USER_INBOX"
+      }
     },
     {
       "clip": "2026-11-18-ganga-bienvenida-piscina",
@@ -16301,6 +16368,11 @@
       "tiktok": 6,
       "tiktok@principal": 2,
       "tiktok@risas": 4
+    },
+    "2026-11-20": {
+      "tiktok": 5,
+      "tiktok@principal": 3,
+      "tiktok@risas": 2
     }
   }
 }
