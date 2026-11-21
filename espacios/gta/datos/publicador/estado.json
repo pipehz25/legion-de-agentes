@@ -1,0 +1,732 @@
+{
+    "actualizado":  "2026-11-21T18:39:35-05:00",
+    "ciclo":  1,
+    "ultimo_ciclo_clipero":  4,
+    "entradas":  [
+                     {
+                         "clip":  "2026-11-20-gta6-switch-car",
+                         "plataforma":  "youtube",
+                         "cuenta":  "gta-chases",
+                         "pieza":  "2026-11-20-gta6-switch-car",
+                         "gancho":  "Getaway Files #1: the switch car",
+                         "estado":  "publicado",
+                         "envio":  "espacios/gta/datos/publicador/envios/2026-11-20-gta6-switch-car__youtube.json",
+                         "puntaje":  null,
+                         "derechos":  "autorizado",
+                         "ventana_hasta":  "2026-11-27",
+                         "creado":  "2026-11-21T18:35:41-05:00",
+                         "aprobado":  "2026-11-21T18:31:56-05:00",
+                         "intentos":  1,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-21T18:34:57-05:00",
+                                                   "ok":  true,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null
+                                               },
+                         "id_publicacion":  "xgOiPEVAOjA",
+                         "url":  "https://www.youtube.com/shorts/xgOiPEVAOjA",
+                         "privacidad":  "private",
+                         "publicado":  "2026-11-21T18:36:29-05:00",
+                         "programado":  "2026-11-21T22:00:00-05:00",
+                         "motivo":  "Aprobado por el usuario en el chat (lote 1, 2026-11-21): subir ya, programado; tope de 5 al dia por canal contado por dia de publicacion."
+                     },
+                     {
+                         "clip":  "2026-11-20-gta6-jason-morning-snake",
+                         "plataforma":  "youtube",
+                         "cuenta":  "gta-us",
+                         "pieza":  "2026-11-20-gta6-jason-morning-snake",
+                         "gancho":  "Leonida Daily #1: Jason\u0027s morning in the Keys",
+                         "estado":  "publicado",
+                         "envio":  "espacios/gta/datos/publicador/envios/2026-11-20-gta6-jason-morning-snake__youtube.json",
+                         "puntaje":  null,
+                         "derechos":  "autorizado",
+                         "ventana_hasta":  "2026-11-27",
+                         "creado":  "2026-11-21T18:35:41-05:00",
+                         "aprobado":  "2026-11-21T18:31:56-05:00",
+                         "intentos":  1,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-21T18:34:51-05:00",
+                                                   "ok":  true,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null
+                                               },
+                         "id_publicacion":  "6i9CVoijPNE",
+                         "url":  "https://www.youtube.com/shorts/6i9CVoijPNE",
+                         "privacidad":  "private",
+                         "publicado":  "2026-11-21T18:36:42-05:00",
+                         "programado":  "2026-11-22T09:00:00-05:00",
+                         "motivo":  "Aprobado por el usuario en el chat (lote 1, 2026-11-21): subir ya, programado; tope de 5 al dia por canal contado por dia de publicacion."
+                     },
+                     {
+                         "clip":  "2026-11-20-gta6-lifted-truck-crash",
+                         "plataforma":  "youtube",
+                         "cuenta":  "gta-chases",
+                         "pieza":  "2026-11-20-gta6-lifted-truck-crash",
+                         "gancho":  "POV: a lifted truck ruins your getaway",
+                         "estado":  "publicado",
+                         "envio":  "espacios/gta/datos/publicador/envios/2026-11-20-gta6-lifted-truck-crash__youtube.json",
+                         "puntaje":  null,
+                         "derechos":  "autorizado",
+                         "ventana_hasta":  "2026-11-27",
+                         "creado":  "2026-11-21T18:35:41-05:00",
+                         "aprobado":  "2026-11-21T18:31:56-05:00",
+                         "intentos":  1,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-21T18:34:53-05:00",
+                                                   "ok":  true,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null
+                                               },
+                         "id_publicacion":  "WEULI-Nh5X0",
+                         "url":  "https://www.youtube.com/shorts/WEULI-Nh5X0",
+                         "privacidad":  "private",
+                         "publicado":  "2026-11-21T18:36:47-05:00",
+                         "programado":  "2026-11-22T10:00:00-05:00",
+                         "motivo":  "Aprobado por el usuario en el chat (lote 1, 2026-11-21): subir ya, programado; tope de 5 al dia por canal contado por dia de publicacion."
+                     },
+                     {
+                         "clip":  "2026-11-20-gta6-keys-commute-pov",
+                         "plataforma":  "youtube",
+                         "cuenta":  "gta-us",
+                         "pieza":  "2026-11-20-gta6-keys-commute-pov",
+                         "gancho":  "POV: your morning commute in the Keys",
+                         "estado":  "publicado",
+                         "envio":  "espacios/gta/datos/publicador/envios/2026-11-20-gta6-keys-commute-pov__youtube.json",
+                         "puntaje":  null,
+                         "derechos":  "autorizado",
+                         "ventana_hasta":  "2026-11-27",
+                         "creado":  "2026-11-21T18:35:41-05:00",
+                         "aprobado":  "2026-11-21T18:31:56-05:00",
+                         "intentos":  1,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-21T18:34:52-05:00",
+                                                   "ok":  true,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null
+                                               },
+                         "id_publicacion":  "eWh4DQR3xAw",
+                         "url":  "https://www.youtube.com/shorts/eWh4DQR3xAw",
+                         "privacidad":  "private",
+                         "publicado":  "2026-11-21T18:36:53-05:00",
+                         "programado":  "2026-11-22T12:00:00-05:00",
+                         "motivo":  "Aprobado por el usuario en el chat (lote 1, 2026-11-21): subir ya, programado; tope de 5 al dia por canal contado por dia de publicacion."
+                     },
+                     {
+                         "clip":  "2026-11-20-gta6-tank-yard-getaway",
+                         "plataforma":  "youtube",
+                         "cuenta":  "gta-chases",
+                         "pieza":  "2026-11-20-gta6-tank-yard-getaway",
+                         "gancho":  "POV: your getaway car is a tank",
+                         "estado":  "publicado",
+                         "envio":  "espacios/gta/datos/publicador/envios/2026-11-20-gta6-tank-yard-getaway__youtube.json",
+                         "puntaje":  null,
+                         "derechos":  "autorizado",
+                         "ventana_hasta":  "2026-11-27",
+                         "creado":  "2026-11-21T18:35:41-05:00",
+                         "aprobado":  "2026-11-21T18:31:56-05:00",
+                         "intentos":  1,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-21T18:34:58-05:00",
+                                                   "ok":  true,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null
+                                               },
+                         "id_publicacion":  "pV1Wlussom8",
+                         "url":  "https://www.youtube.com/shorts/pV1Wlussom8",
+                         "privacidad":  "private",
+                         "publicado":  "2026-11-21T18:37:00-05:00",
+                         "programado":  "2026-11-22T13:00:00-05:00",
+                         "motivo":  "Aprobado por el usuario en el chat (lote 1, 2026-11-21): subir ya, programado; tope de 5 al dia por canal contado por dia de publicacion."
+                     },
+                     {
+                         "clip":  "2026-11-20-gta6-record-parrotfish",
+                         "plataforma":  "youtube",
+                         "cuenta":  "gta-us",
+                         "pieza":  "2026-11-20-gta6-record-parrotfish",
+                         "gancho":  "Leonida Daily #2: a record catch in the Keys",
+                         "estado":  "publicado",
+                         "envio":  "espacios/gta/datos/publicador/envios/2026-11-20-gta6-record-parrotfish__youtube.json",
+                         "puntaje":  null,
+                         "derechos":  "autorizado",
+                         "ventana_hasta":  "2026-11-27",
+                         "creado":  "2026-11-21T18:35:41-05:00",
+                         "aprobado":  "2026-11-21T18:31:56-05:00",
+                         "intentos":  1,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-21T18:34:55-05:00",
+                                                   "ok":  true,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null
+                                               },
+                         "id_publicacion":  "V1Ak737alsc",
+                         "url":  "https://www.youtube.com/shorts/V1Ak737alsc",
+                         "privacidad":  "private",
+                         "publicado":  "2026-11-21T18:37:07-05:00",
+                         "programado":  "2026-11-22T15:00:00-05:00",
+                         "motivo":  "Aprobado por el usuario en el chat (lote 1, 2026-11-21): subir ya, programado; tope de 5 al dia por canal contado por dia de publicacion."
+                     },
+                     {
+                         "clip":  "2026-11-20-gta6-six-star-tank",
+                         "plataforma":  "youtube",
+                         "cuenta":  "gta-chases",
+                         "pieza":  "2026-11-20-gta6-six-star-tank",
+                         "gancho":  "Getaway Files #2: the 6-star wanted level",
+                         "estado":  "publicado",
+                         "envio":  "espacios/gta/datos/publicador/envios/2026-11-20-gta6-six-star-tank__youtube.json",
+                         "puntaje":  null,
+                         "derechos":  "autorizado",
+                         "ventana_hasta":  "2026-11-27",
+                         "creado":  "2026-11-21T18:35:41-05:00",
+                         "aprobado":  "2026-11-21T18:31:56-05:00",
+                         "intentos":  1,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-21T18:34:56-05:00",
+                                                   "ok":  true,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null
+                                               },
+                         "id_publicacion":  "TuWZNyL6VYw",
+                         "url":  "https://www.youtube.com/shorts/TuWZNyL6VYw",
+                         "privacidad":  "private",
+                         "publicado":  "2026-11-21T18:37:14-05:00",
+                         "programado":  "2026-11-22T16:00:00-05:00",
+                         "motivo":  "Aprobado por el usuario en el chat (lote 1, 2026-11-21): subir ya, programado; tope de 5 al dia por canal contado por dia de publicacion."
+                     },
+                     {
+                         "clip":  "2026-11-20-gta6-bike-helmet-pov",
+                         "plataforma":  "youtube",
+                         "cuenta":  "gta-us",
+                         "pieza":  "2026-11-20-gta6-bike-helmet-pov",
+                         "gancho":  "POV: safety first in Leonida",
+                         "estado":  "publicado",
+                         "envio":  "espacios/gta/datos/publicador/envios/2026-11-20-gta6-bike-helmet-pov__youtube.json",
+                         "puntaje":  null,
+                         "derechos":  "autorizado",
+                         "ventana_hasta":  "2026-11-27",
+                         "creado":  "2026-11-21T18:35:41-05:00",
+                         "aprobado":  "2026-11-21T18:31:56-05:00",
+                         "intentos":  1,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-21T18:34:49-05:00",
+                                                   "ok":  true,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null
+                                               },
+                         "id_publicacion":  "I-w5BG1vGa0",
+                         "url":  "https://www.youtube.com/shorts/I-w5BG1vGa0",
+                         "privacidad":  "private",
+                         "publicado":  "2026-11-21T18:37:21-05:00",
+                         "programado":  "2026-11-22T18:00:00-05:00",
+                         "motivo":  "Aprobado por el usuario en el chat (lote 1, 2026-11-21): subir ya, programado; tope de 5 al dia por canal contado por dia de publicacion."
+                     },
+                     {
+                         "clip":  "2026-11-20-gta6-psycho-wasted",
+                         "plataforma":  "youtube",
+                         "cuenta":  "gta-chases",
+                         "pieza":  "2026-11-20-gta6-psycho-wasted",
+                         "gancho":  "POV: GTA 6 calls you a psycho",
+                         "estado":  "publicado",
+                         "envio":  "espacios/gta/datos/publicador/envios/2026-11-20-gta6-psycho-wasted__youtube.json",
+                         "puntaje":  null,
+                         "derechos":  "autorizado",
+                         "ventana_hasta":  "2026-11-27",
+                         "creado":  "2026-11-21T18:35:41-05:00",
+                         "aprobado":  "2026-11-21T18:31:56-05:00",
+                         "intentos":  1,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-21T18:34:54-05:00",
+                                                   "ok":  true,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null
+                                               },
+                         "id_publicacion":  "-OBcgKQXiLs",
+                         "url":  "https://www.youtube.com/shorts/-OBcgKQXiLs",
+                         "privacidad":  "private",
+                         "publicado":  "2026-11-21T18:37:27-05:00",
+                         "programado":  "2026-11-22T19:00:00-05:00",
+                         "motivo":  "Aprobado por el usuario en el chat (lote 1, 2026-11-21): subir ya, programado; tope de 5 al dia por canal contado por dia de publicacion."
+                     },
+                     {
+                         "clip":  "2026-11-20-gta6-smoothie-buffs",
+                         "plataforma":  "youtube",
+                         "cuenta":  "gta-us",
+                         "pieza":  "2026-11-20-gta6-smoothie-buffs",
+                         "gancho":  "Leonida Daily #3: is the smoothie worth it?",
+                         "estado":  "publicado",
+                         "envio":  "espacios/gta/datos/publicador/envios/2026-11-20-gta6-smoothie-buffs__youtube.json",
+                         "puntaje":  null,
+                         "derechos":  "autorizado",
+                         "ventana_hasta":  "2026-11-27",
+                         "creado":  "2026-11-21T18:35:41-05:00",
+                         "aprobado":  "2026-11-21T18:31:56-05:00",
+                         "intentos":  1,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-21T18:34:56-05:00",
+                                                   "ok":  true,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null
+                                               },
+                         "id_publicacion":  "1lJtySg9Ulg",
+                         "url":  "https://www.youtube.com/shorts/1lJtySg9Ulg",
+                         "privacidad":  "private",
+                         "publicado":  "2026-11-21T18:37:34-05:00",
+                         "programado":  "2026-11-22T21:00:00-05:00",
+                         "motivo":  "Aprobado por el usuario en el chat (lote 1, 2026-11-21): subir ya, programado; tope de 5 al dia por canal contado por dia de publicacion."
+                     },
+                     {
+                         "clip":  "2026-11-20-gta6-prison-wasted",
+                         "plataforma":  "youtube",
+                         "cuenta":  "gta-chases",
+                         "pieza":  "2026-11-20-gta6-prison-wasted",
+                         "gancho":  "Getaway Files #3: why this escape failed",
+                         "estado":  "publicado",
+                         "envio":  "espacios/gta/datos/publicador/envios/2026-11-20-gta6-prison-wasted__youtube.json",
+                         "puntaje":  null,
+                         "derechos":  "autorizado",
+                         "ventana_hasta":  "2026-11-27",
+                         "creado":  "2026-11-21T18:35:41-05:00",
+                         "aprobado":  "2026-11-21T18:31:56-05:00",
+                         "intentos":  1,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-21T18:34:53-05:00",
+                                                   "ok":  true,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null
+                                               },
+                         "id_publicacion":  "lg_ahBuze5Y",
+                         "url":  "https://www.youtube.com/shorts/lg_ahBuze5Y",
+                         "privacidad":  "private",
+                         "publicado":  "2026-11-21T18:37:42-05:00",
+                         "programado":  "2026-11-22T22:00:00-05:00",
+                         "motivo":  "Aprobado por el usuario en el chat (lote 1, 2026-11-21): subir ya, programado; tope de 5 al dia por canal contado por dia de publicacion."
+                     },
+                     {
+                         "clip":  "2026-11-20-gta6-dock-selfie-pov",
+                         "plataforma":  "youtube",
+                         "cuenta":  "gta-us",
+                         "pieza":  "2026-11-20-gta6-dock-selfie-pov",
+                         "gancho":  "POV: Jason\u0027s dock selfie",
+                         "estado":  "publicado",
+                         "envio":  "espacios/gta/datos/publicador/envios/2026-11-20-gta6-dock-selfie-pov__youtube.json",
+                         "puntaje":  null,
+                         "derechos":  "autorizado",
+                         "ventana_hasta":  "2026-11-27",
+                         "creado":  "2026-11-21T18:35:41-05:00",
+                         "aprobado":  "2026-11-21T18:31:56-05:00",
+                         "intentos":  1,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-21T18:34:50-05:00",
+                                                   "ok":  true,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null
+                                               },
+                         "id_publicacion":  "WZhklqfbeZA",
+                         "url":  "https://www.youtube.com/shorts/WZhklqfbeZA",
+                         "privacidad":  "private",
+                         "publicado":  "2026-11-21T18:37:49-05:00",
+                         "programado":  "2026-11-23T09:00:00-05:00",
+                         "motivo":  "Aprobado por el usuario en el chat (lote 1, 2026-11-21): subir ya, programado; tope de 5 al dia por canal contado por dia de publicacion."
+                     },
+                     {
+                         "clip":  "2026-11-21-gta6-impound-breakout",
+                         "plataforma":  "youtube",
+                         "cuenta":  "gta-chases",
+                         "pieza":  "2026-11-21-gta6-impound-breakout",
+                         "gancho":  "Getaway Files #4: the impound job",
+                         "estado":  "publicado",
+                         "envio":  "espacios/gta/datos/publicador/envios/2026-11-21-gta6-impound-breakout__youtube.json",
+                         "puntaje":  80,
+                         "derechos":  "autorizado",
+                         "ventana_hasta":  "2026-11-28",
+                         "creado":  "2026-11-21T18:35:41-05:00",
+                         "aprobado":  "2026-11-21T18:31:56-05:00",
+                         "intentos":  1,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-21T18:35:02-05:00",
+                                                   "ok":  true,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null
+                                               },
+                         "id_publicacion":  "GXcfHGk3zgA",
+                         "url":  "https://www.youtube.com/shorts/GXcfHGk3zgA",
+                         "privacidad":  "private",
+                         "publicado":  "2026-11-21T18:37:54-05:00",
+                         "programado":  "2026-11-23T10:00:00-05:00",
+                         "motivo":  "Aprobado por el usuario en el chat (lote 1, 2026-11-21): subir ya, programado; tope de 5 al dia por canal contado por dia de publicacion."
+                     },
+                     {
+                         "clip":  "2026-11-21-gta6-deck-leg-day",
+                         "plataforma":  "youtube",
+                         "cuenta":  "gta-us",
+                         "pieza":  "2026-11-21-gta6-deck-leg-day",
+                         "gancho":  "Leonida Daily #4: leg day on the deck",
+                         "estado":  "publicado",
+                         "envio":  "espacios/gta/datos/publicador/envios/2026-11-21-gta6-deck-leg-day__youtube.json",
+                         "puntaje":  75,
+                         "derechos":  "autorizado",
+                         "ventana_hasta":  "2026-11-28",
+                         "creado":  "2026-11-21T18:35:41-05:00",
+                         "aprobado":  "2026-11-21T18:31:56-05:00",
+                         "intentos":  1,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-21T18:35:00-05:00",
+                                                   "ok":  true,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null
+                                               },
+                         "id_publicacion":  "Ah4dElPZDM4",
+                         "url":  "https://www.youtube.com/shorts/Ah4dElPZDM4",
+                         "privacidad":  "private",
+                         "publicado":  "2026-11-21T18:38:00-05:00",
+                         "programado":  "2026-11-23T12:00:00-05:00",
+                         "motivo":  "Aprobado por el usuario en el chat (lote 1, 2026-11-21): subir ya, programado; tope de 5 al dia por canal contado por dia de publicacion."
+                     },
+                     {
+                         "clip":  "2026-11-21-gta6-swamp-shortcut",
+                         "plataforma":  "youtube",
+                         "cuenta":  "gta-chases",
+                         "pieza":  "2026-11-21-gta6-swamp-shortcut",
+                         "gancho":  "POV: the road ends, the plan doesn\u0027t",
+                         "estado":  "publicado",
+                         "envio":  "espacios/gta/datos/publicador/envios/2026-11-21-gta6-swamp-shortcut__youtube.json",
+                         "puntaje":  75,
+                         "derechos":  "autorizado",
+                         "ventana_hasta":  "2026-11-28",
+                         "creado":  "2026-11-21T18:35:41-05:00",
+                         "aprobado":  "2026-11-21T18:31:56-05:00",
+                         "intentos":  1,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-21T18:35:06-05:00",
+                                                   "ok":  true,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null
+                                               },
+                         "id_publicacion":  "NVlRlOvrLag",
+                         "url":  "https://www.youtube.com/shorts/NVlRlOvrLag",
+                         "privacidad":  "private",
+                         "publicado":  "2026-11-21T18:38:05-05:00",
+                         "programado":  "2026-11-23T13:00:00-05:00",
+                         "motivo":  "Aprobado por el usuario en el chat (lote 1, 2026-11-21): subir ya, programado; tope de 5 al dia por canal contado por dia de publicacion."
+                     },
+                     {
+                         "clip":  "2026-11-21-gta6-jason-calls-a-ryde",
+                         "plataforma":  "youtube",
+                         "cuenta":  "gta-us",
+                         "pieza":  "2026-11-21-gta6-jason-calls-a-ryde",
+                         "gancho":  "POV: you\u0027re too tired to drive in Leonida",
+                         "estado":  "publicado",
+                         "envio":  "espacios/gta/datos/publicador/envios/2026-11-21-gta6-jason-calls-a-ryde__youtube.json",
+                         "puntaje":  79,
+                         "derechos":  "autorizado",
+                         "ventana_hasta":  "2026-11-28",
+                         "creado":  "2026-11-21T18:35:41-05:00",
+                         "aprobado":  "2026-11-21T18:31:56-05:00",
+                         "intentos":  1,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-21T18:35:03-05:00",
+                                                   "ok":  true,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null
+                                               },
+                         "id_publicacion":  "ogGcx2nucfk",
+                         "url":  "https://www.youtube.com/shorts/ogGcx2nucfk",
+                         "privacidad":  "private",
+                         "publicado":  "2026-11-21T18:38:11-05:00",
+                         "programado":  "2026-11-23T15:00:00-05:00",
+                         "motivo":  "Aprobado por el usuario en el chat (lote 1, 2026-11-21): subir ya, programado; tope de 5 al dia por canal contado por dia de publicacion."
+                     },
+                     {
+                         "clip":  "2026-11-21-gta6-storm-crash",
+                         "plataforma":  "youtube",
+                         "cuenta":  "gta-chases",
+                         "pieza":  "2026-11-21-gta6-storm-crash",
+                         "gancho":  "POV: you told everyone you can drift",
+                         "estado":  "publicado",
+                         "envio":  "espacios/gta/datos/publicador/envios/2026-11-21-gta6-storm-crash__youtube.json",
+                         "puntaje":  76,
+                         "derechos":  "autorizado",
+                         "ventana_hasta":  "2026-11-28",
+                         "creado":  "2026-11-21T18:35:41-05:00",
+                         "aprobado":  "2026-11-21T18:31:56-05:00",
+                         "intentos":  1,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-21T18:35:04-05:00",
+                                                   "ok":  true,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null
+                                               },
+                         "id_publicacion":  "6huoF6vrpyo",
+                         "url":  "https://www.youtube.com/shorts/6huoF6vrpyo",
+                         "privacidad":  "private",
+                         "publicado":  "2026-11-21T18:38:17-05:00",
+                         "programado":  "2026-11-23T16:00:00-05:00",
+                         "motivo":  "Aprobado por el usuario en el chat (lote 1, 2026-11-21): subir ya, programado; tope de 5 al dia por canal contado por dia de publicacion."
+                     },
+                     {
+                         "clip":  "2026-11-21-gta6-jason-beard-check",
+                         "plataforma":  "youtube",
+                         "cuenta":  "gta-us",
+                         "pieza":  "2026-11-21-gta6-jason-beard-check",
+                         "gancho":  "Leonida Daily #5: Jason\u0027s mirror routine",
+                         "estado":  "publicado",
+                         "envio":  "espacios/gta/datos/publicador/envios/2026-11-21-gta6-jason-beard-check__youtube.json",
+                         "puntaje":  78,
+                         "derechos":  "autorizado",
+                         "ventana_hasta":  "2026-11-28",
+                         "creado":  "2026-11-21T18:35:41-05:00",
+                         "aprobado":  "2026-11-21T18:31:56-05:00",
+                         "intentos":  1,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-21T18:35:02-05:00",
+                                                   "ok":  true,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null
+                                               },
+                         "id_publicacion":  "6zKJ44U9zyo",
+                         "url":  "https://www.youtube.com/shorts/6zKJ44U9zyo",
+                         "privacidad":  "private",
+                         "publicado":  "2026-11-21T18:38:23-05:00",
+                         "programado":  "2026-11-23T18:00:00-05:00",
+                         "motivo":  "Aprobado por el usuario en el chat (lote 1, 2026-11-21): subir ya, programado; tope de 5 al dia por canal contado por dia de publicacion."
+                     },
+                     {
+                         "clip":  "2026-11-21-gta6-humvee-heist",
+                         "plataforma":  "youtube",
+                         "cuenta":  "gta-chases",
+                         "pieza":  "2026-11-21-gta6-humvee-heist",
+                         "gancho":  "Getaway Files #6: stealing from the army",
+                         "estado":  "publicado",
+                         "envio":  "espacios/gta/datos/publicador/envios/2026-11-21-gta6-humvee-heist__youtube.json",
+                         "puntaje":  79,
+                         "derechos":  "autorizado",
+                         "ventana_hasta":  "2026-11-28",
+                         "creado":  "2026-11-21T18:35:41-05:00",
+                         "aprobado":  "2026-11-21T18:31:56-05:00",
+                         "intentos":  1,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-21T18:35:01-05:00",
+                                                   "ok":  true,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null
+                                               },
+                         "id_publicacion":  "odOtGXMPibk",
+                         "url":  "https://www.youtube.com/shorts/odOtGXMPibk",
+                         "privacidad":  "private",
+                         "publicado":  "2026-11-21T18:38:27-05:00",
+                         "programado":  "2026-11-23T19:00:00-05:00",
+                         "motivo":  "Aprobado por el usuario en el chat (lote 1, 2026-11-21): subir ya, programado; tope de 5 al dia por canal contado por dia de publicacion."
+                     },
+                     {
+                         "clip":  "2026-11-21-gta6-sunset-canal-dive",
+                         "plataforma":  "youtube",
+                         "cuenta":  "gta-us",
+                         "pieza":  "2026-11-21-gta6-sunset-canal-dive",
+                         "gancho":  "POV: sunset in Vice City, so you jump in",
+                         "estado":  "publicado",
+                         "envio":  "espacios/gta/datos/publicador/envios/2026-11-21-gta6-sunset-canal-dive__youtube.json",
+                         "puntaje":  78,
+                         "derechos":  "autorizado",
+                         "ventana_hasta":  "2026-11-28",
+                         "creado":  "2026-11-21T18:35:41-05:00",
+                         "aprobado":  "2026-11-21T18:31:56-05:00",
+                         "intentos":  1,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-21T18:35:05-05:00",
+                                                   "ok":  true,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null
+                                               },
+                         "id_publicacion":  "E5Sc9JoRuAE",
+                         "url":  "https://www.youtube.com/shorts/E5Sc9JoRuAE",
+                         "privacidad":  "private",
+                         "publicado":  "2026-11-21T18:38:34-05:00",
+                         "programado":  "2026-11-23T21:00:00-05:00",
+                         "motivo":  "Aprobado por el usuario en el chat (lote 1, 2026-11-21): subir ya, programado; tope de 5 al dia por canal contado por dia de publicacion."
+                     },
+                     {
+                         "clip":  "2026-11-21-gta6-house-flip",
+                         "plataforma":  "youtube",
+                         "cuenta":  "gta-chases",
+                         "pieza":  "2026-11-21-gta6-house-flip",
+                         "gancho":  "POV: you took the turn at full speed",
+                         "estado":  "error",
+                         "envio":  "espacios/gta/datos/publicador/envios/2026-11-21-gta6-house-flip__youtube.json",
+                         "puntaje":  78,
+                         "derechos":  "autorizado",
+                         "ventana_hasta":  "2026-11-28",
+                         "creado":  "2026-11-21T18:35:41-05:00",
+                         "aprobado":  "2026-11-21T18:31:56-05:00",
+                         "intentos":  1,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-21T18:35:00-05:00",
+                                                   "ok":  true,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "programado":  "2026-11-23T22:00:00-05:00",
+                         "motivo":  "Aprobado por el usuario en el chat (lote 1, 2026-11-21): subir ya, programado; tope de 5 al dia por canal contado por dia de publicacion. Intento del 2026-11-21T18:38:40-05:00: error - HTTP 400. Error en el servidor remoto: (400) Solicitud incorrecta. { \"error\": { \"code\": 400, \"message\": \"The user has exceeded the number of videos they may upload.\", \"errors\": [ { \"message\": \"The user has exceeded the number of videos they may upload.\", \"domain\": \"youtube.video\", \"reason\": \"uploadLimitExceeded\" } ] } }"
+                     },
+                     {
+                         "clip":  "2026-11-21-gta6-jason-hoops",
+                         "plataforma":  "youtube",
+                         "cuenta":  "gta-us",
+                         "pieza":  "2026-11-21-gta6-jason-hoops",
+                         "gancho":  "Leonida Daily #6: shooting hoops at home",
+                         "estado":  "aprobado",
+                         "envio":  "espacios/gta/datos/publicador/envios/2026-11-21-gta6-jason-hoops__youtube.json",
+                         "puntaje":  76,
+                         "derechos":  "autorizado",
+                         "ventana_hasta":  "2026-11-28",
+                         "creado":  "2026-11-21T18:35:41-05:00",
+                         "aprobado":  "2026-11-21T18:31:56-05:00",
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-21T18:35:04-05:00",
+                                                   "ok":  true,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "programado":  "2026-11-24T09:00:00-05:00",
+                         "motivo":  "Aprobado por el usuario en el chat (lote 1, 2026-11-21): subir ya, programado; tope de 5 al dia por canal contado por dia de publicacion. No se subio: en el ciclo 1 (2026-11-21 18:38): las subidas se detuvieron tras el error uploadLimitExceeded de YouTube en gta-chases, como pidio el usuario para errores de cuota o limite. Sigue aprobado; su hora programada sigue en el futuro."
+                     },
+                     {
+                         "clip":  "2026-11-21-gta6-clone-or-smash",
+                         "plataforma":  "youtube",
+                         "cuenta":  "gta-chases",
+                         "pieza":  "2026-11-21-gta6-clone-or-smash",
+                         "gancho":  "Getaway Files #7: clone or smash?",
+                         "estado":  "aprobado",
+                         "envio":  "espacios/gta/datos/publicador/envios/2026-11-21-gta6-clone-or-smash__youtube.json",
+                         "puntaje":  82,
+                         "derechos":  "autorizado",
+                         "ventana_hasta":  "2026-11-28",
+                         "creado":  "2026-11-21T18:35:41-05:00",
+                         "aprobado":  "2026-11-21T18:31:56-05:00",
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-21T18:34:59-05:00",
+                                                   "ok":  true,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "programado":  "2026-11-24T10:00:00-05:00",
+                         "motivo":  "Aprobado por el usuario en el chat (lote 1, 2026-11-21): subir ya, programado; tope de 5 al dia por canal contado por dia de publicacion. No se subio: en el ciclo 1 (2026-11-21 18:38): las subidas se detuvieron tras el error uploadLimitExceeded de YouTube en gta-chases, como pidio el usuario para errores de cuota o limite. Sigue aprobado; su hora programada sigue en el futuro."
+                     },
+                     {
+                         "clip":  "2026-11-21-gta6-bmx-rooftop-jump",
+                         "plataforma":  "youtube",
+                         "cuenta":  "gta-us",
+                         "pieza":  "2026-11-21-gta6-bmx-rooftop-jump",
+                         "gancho":  "POV: you found a ramp on your BMX",
+                         "estado":  "aprobado",
+                         "envio":  "espacios/gta/datos/publicador/envios/2026-11-21-gta6-bmx-rooftop-jump__youtube.json",
+                         "puntaje":  77,
+                         "derechos":  "autorizado",
+                         "ventana_hasta":  "2026-11-28",
+                         "creado":  "2026-11-21T18:35:41-05:00",
+                         "aprobado":  "2026-11-21T18:31:56-05:00",
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-21T18:34:58-05:00",
+                                                   "ok":  true,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "programado":  "2026-11-24T12:00:00-05:00",
+                         "motivo":  "Aprobado por el usuario en el chat (lote 1, 2026-11-21): subir ya, programado; tope de 5 al dia por canal contado por dia de publicacion. No se subio: en el ciclo 1 (2026-11-21 18:38): las subidas se detuvieron tras el error uploadLimitExceeded de YouTube en gta-chases, como pidio el usuario para errores de cuota o limite. Sigue aprobado; su hora programada sigue en el futuro."
+                     },
+                     {
+                         "clip":  "2026-11-21-gta6-underwater-hideout",
+                         "plataforma":  "youtube",
+                         "cuenta":  "gta-chases",
+                         "pieza":  "2026-11-21-gta6-underwater-hideout",
+                         "gancho":  "Getaway Files #5: the underwater hideout",
+                         "estado":  "pendiente_aprobacion",
+                         "envio":  "espacios/gta/datos/publicador/envios/2026-11-21-gta6-underwater-hideout__youtube.json",
+                         "puntaje":  79,
+                         "derechos":  "autorizado",
+                         "ventana_hasta":  "2026-11-28",
+                         "creado":  "2026-11-21T18:35:41-05:00",
+                         "aprobado":  null,
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-21T18:35:06-05:00",
+                                                   "ok":  true,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "programado":  null,
+                         "motivo":  "No aprobado en el lote 1: la narracion dice que lo persigue la policia, pero en la imagen no se ven estrellas."
+                     }
+                 ]
+}

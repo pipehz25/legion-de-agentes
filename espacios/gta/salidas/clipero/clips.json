@@ -4,7 +4,7 @@
     "clips":  [
                   {
                       "id":  "2026-11-21-gta6-clone-or-smash",
-                      "estado":  "subido_a_mano",
+                      "estado":  "listo",
                       "tipo":  "accion",
                       "puntaje":  82,
                       "gancho":  "Getaway Files #7: clone or smash?",
@@ -35,18 +35,11 @@
                                       ],
                       "ventana_hasta":  "2026-11-28",
                       "titulo_youtube":  "Getaway Files #7: GTA 6 lets you clone a car key or smash the window #shorts",
-                      "descripcion_youtube":  "The game gives you a quiet option and a loud one, and he picks the loud one. Team clone or team smash?",
-                      "subido_a_mano":  {
-                                            "plataforma":  "youtube",
-                                            "cuenta":  "gta-chases",
-                                            "programado":  "2026-11-23T22:00:00-05:00",
-                                            "carpeta":  "c:\\tmp\\getaway-kings-subir\\canal-2-chases"
-                                        },
-                      "nota":  "subido a mano (carpetas c:\\tmp\\getaway-kings-subir)"
+                      "descripcion_youtube":  "The game gives you a quiet option and a loud one, and he picks the loud one. Team clone or team smash?"
                   },
                   {
                       "id":  "2026-11-21-gta6-bmx-rooftop-jump",
-                      "estado":  "subido_a_mano",
+                      "estado":  "listo",
                       "tipo":  "acrobacia",
                       "puntaje":  77,
                       "gancho":  "POV: you found a ramp on your BMX",
@@ -77,18 +70,11 @@
                                       ],
                       "ventana_hasta":  "2026-11-28",
                       "titulo_youtube":  "POV: you found a BMX ramp in GTA 6 and the game goes cinematic #shorts",
-                      "descripcion_youtube":  "Mid-air the camera flies over the rooftops, then the landing happens right by somebody\u0027s front door. What score are you giving it?",
-                      "subido_a_mano":  {
-                                            "plataforma":  "youtube",
-                                            "cuenta":  "gta-us",
-                                            "programado":  "2026-11-24T09:00:00-05:00",
-                                            "carpeta":  "c:\\tmp\\getaway-kings-subir\\canal-1-getaway-kings"
-                                        },
-                      "nota":  "subido a mano (carpetas c:\\tmp\\getaway-kings-subir)"
+                      "descripcion_youtube":  "Mid-air the camera flies over the rooftops, then the landing happens right by somebody\u0027s front door. What score are you giving it?"
                   },
                   {
                       "id":  "2026-11-21-gta6-jason-hoops",
-                      "estado":  "subido_a_mano",
+                      "estado":  "listo",
                       "tipo":  "vida_diaria",
                       "puntaje":  76,
                       "gancho":  "Leonida Daily #6: shooting hoops at home",
@@ -119,18 +105,11 @@
                                       ],
                       "ventana_hasta":  "2026-11-28",
                       "titulo_youtube":  "Leonida Daily #6: Jason shoots hoops under his stilt house in GTA 6 #shorts",
-                      "descripcion_youtube":  "A backboard under the house, the bay behind it, and an aiming circle on the rim. Did he make it?",
-                      "subido_a_mano":  {
-                                            "plataforma":  "youtube",
-                                            "cuenta":  "gta-us",
-                                            "programado":  "2026-11-23T21:00:00-05:00",
-                                            "carpeta":  "c:\\tmp\\getaway-kings-subir\\canal-1-getaway-kings"
-                                        },
-                      "nota":  "subido a mano (carpetas c:\\tmp\\getaway-kings-subir)"
+                      "descripcion_youtube":  "A backboard under the house, the bay behind it, and an aiming circle on the rim. Did he make it?"
                   },
                   {
                       "id":  "2026-11-21-gta6-sunset-canal-dive",
-                      "estado":  "subido_a_mano",
+                      "estado":  "listo",
                       "tipo":  "vida_diaria",
                       "puntaje":  78,
                       "gancho":  "POV: sunset in Vice City, so you jump in",
@@ -161,18 +140,11 @@
                                       ],
                       "ventana_hasta":  "2026-11-28",
                       "titulo_youtube":  "POV: it\u0027s sunset in Vice City so you just jump in the canal in GTA 6 #shorts",
-                      "descripcion_youtube":  "Café table, railing, splash: a fully clothed sunset swim with the skyline in the background. Would you jump?",
-                      "subido_a_mano":  {
-                                            "plataforma":  "youtube",
-                                            "cuenta":  "gta-us",
-                                            "programado":  "2026-11-23T18:00:00-05:00",
-                                            "carpeta":  "c:\\tmp\\getaway-kings-subir\\canal-1-getaway-kings"
-                                        },
-                      "nota":  "subido a mano (carpetas c:\\tmp\\getaway-kings-subir)"
+                      "descripcion_youtube":  "Café table, railing, splash: a fully clothed sunset swim with the skyline in the background. Would you jump?"
                   },
                   {
                       "id":  "2026-11-21-gta6-jason-beard-check",
-                      "estado":  "subido_a_mano",
+                      "estado":  "listo",
                       "tipo":  "vida_diaria",
                       "puntaje":  78,
                       "gancho":  "Leonida Daily #5: Jason\u0027s mirror routine",
@@ -203,18 +175,11 @@
                                       ],
                       "ventana_hasta":  "2026-11-28",
                       "titulo_youtube":  "Leonida Daily #5: Jason changes his beard at the bathroom mirror in GTA 6 #shorts",
-                      "descripcion_youtube":  "Full beard, longer hair, then stubble, all live in the mirror before he heads out. Which look should Jason keep?",
-                      "subido_a_mano":  {
-                                            "plataforma":  "youtube",
-                                            "cuenta":  "gta-us",
-                                            "programado":  "2026-11-23T15:00:00-05:00",
-                                            "carpeta":  "c:\\tmp\\getaway-kings-subir\\canal-1-getaway-kings"
-                                        },
-                      "nota":  "subido a mano (carpetas c:\\tmp\\getaway-kings-subir)"
+                      "descripcion_youtube":  "Full beard, longer hair, then stubble, all live in the mirror before he heads out. Which look should Jason keep?"
                   },
                   {
                       "id":  "2026-11-21-gta6-jason-calls-a-ryde",
-                      "estado":  "subido_a_mano",
+                      "estado":  "listo",
                       "tipo":  "vida_diaria",
                       "puntaje":  79,
                       "gancho":  "POV: you\u0027re too tired to drive in Leonida",
@@ -245,18 +210,11 @@
                                       ],
                       "ventana_hasta":  "2026-11-28",
                       "titulo_youtube":  "POV: a ride in GTA 6 costs $78 or $101 and he picks Premium #shorts",
-                      "descripcion_youtube":  "Too tired to drive, so it\u0027s RydeMe to Grassrivers, Premium tier. Would you pay the extra $23?",
-                      "subido_a_mano":  {
-                                            "plataforma":  "youtube",
-                                            "cuenta":  "gta-us",
-                                            "programado":  "2026-11-23T12:00:00-05:00",
-                                            "carpeta":  "c:\\tmp\\getaway-kings-subir\\canal-1-getaway-kings"
-                                        },
-                      "nota":  "subido a mano (carpetas c:\\tmp\\getaway-kings-subir)"
+                      "descripcion_youtube":  "Too tired to drive, so it\u0027s RydeMe to Grassrivers, Premium tier. Would you pay the extra $23?"
                   },
                   {
                       "id":  "2026-11-21-gta6-deck-leg-day",
-                      "estado":  "subido_a_mano",
+                      "estado":  "listo",
                       "tipo":  "vida_diaria",
                       "puntaje":  75,
                       "gancho":  "Leonida Daily #4: leg day on the deck",
@@ -287,18 +245,11 @@
                                       ],
                       "ventana_hasta":  "2026-11-28",
                       "titulo_youtube":  "Leonida Daily #4: Jason\u0027s squat rack on his back deck in GTA 6 #shorts",
-                      "descripcion_youtube":  "No gym membership needed in the Keys: Jason trains on his back deck with real plates and a rep counter. How much are you squatting?",
-                      "subido_a_mano":  {
-                                            "plataforma":  "youtube",
-                                            "cuenta":  "gta-us",
-                                            "programado":  "2026-11-23T09:00:00-05:00",
-                                            "carpeta":  "c:\\tmp\\getaway-kings-subir\\canal-1-getaway-kings"
-                                        },
-                      "nota":  "subido a mano (carpetas c:\\tmp\\getaway-kings-subir)"
+                      "descripcion_youtube":  "No gym membership needed in the Keys: Jason trains on his back deck with real plates and a rep counter. How much are you squatting?"
                   },
                   {
                       "id":  "2026-11-21-gta6-house-flip",
-                      "estado":  "subido_a_mano",
+                      "estado":  "listo",
                       "tipo":  "fail",
                       "puntaje":  78,
                       "gancho":  "POV: you took the turn at full speed",
@@ -329,18 +280,11 @@
                                       ],
                       "ventana_hasta":  "2026-11-28",
                       "titulo_youtube":  "POV: you took a 30 mph turn at full speed in GTA 6 #shorts",
-                      "descripcion_youtube":  "Speed limit 30, parked cars everywhere, and he still sends it. The landing is something else.",
-                      "subido_a_mano":  {
-                                            "plataforma":  "youtube",
-                                            "cuenta":  "gta-chases",
-                                            "programado":  "2026-11-23T19:00:00-05:00",
-                                            "carpeta":  "c:\\tmp\\getaway-kings-subir\\canal-2-chases"
-                                        },
-                      "nota":  "subido a mano (carpetas c:\\tmp\\getaway-kings-subir)"
+                      "descripcion_youtube":  "Speed limit 30, parked cars everywhere, and he still sends it. The landing is something else."
                   },
                   {
                       "id":  "2026-11-21-gta6-humvee-heist",
-                      "estado":  "subido_a_mano",
+                      "estado":  "listo",
                       "tipo":  "persecucion",
                       "puntaje":  79,
                       "gancho":  "Getaway Files #6: stealing from the army",
@@ -371,18 +315,11 @@
                                       ],
                       "ventana_hasta":  "2026-11-28",
                       "titulo_youtube":  "Getaway Files #6: sneaking a military truck out of a base in GTA 6 #shorts",
-                      "descripcion_youtube":  "Crouched the whole way around the truck, then straight out of the lot before the stars hit. Would you risk a base for a ride like this?",
-                      "subido_a_mano":  {
-                                            "plataforma":  "youtube",
-                                            "cuenta":  "gta-chases",
-                                            "programado":  "2026-11-23T16:00:00-05:00",
-                                            "carpeta":  "c:\\tmp\\getaway-kings-subir\\canal-2-chases"
-                                        },
-                      "nota":  "subido a mano (carpetas c:\\tmp\\getaway-kings-subir)"
+                      "descripcion_youtube":  "Crouched the whole way around the truck, then straight out of the lot before the stars hit. Would you risk a base for a ride like this?"
                   },
                   {
                       "id":  "2026-11-21-gta6-storm-crash",
-                      "estado":  "subido_a_mano",
+                      "estado":  "listo",
                       "tipo":  "fail",
                       "puntaje":  76,
                       "gancho":  "POV: you told everyone you can drift",
@@ -413,18 +350,11 @@
                                       ],
                       "ventana_hasta":  "2026-11-28",
                       "titulo_youtube":  "POV: you told everyone you can drift in GTA 6 #shorts",
-                      "descripcion_youtube":  "A slide, a hit and a spin later, the front end tells the whole story. Be honest: what score does this drift get?",
-                      "subido_a_mano":  {
-                                            "plataforma":  "youtube",
-                                            "cuenta":  "gta-chases",
-                                            "programado":  "2026-11-23T13:00:00-05:00",
-                                            "carpeta":  "c:\\tmp\\getaway-kings-subir\\canal-2-chases"
-                                        },
-                      "nota":  "subido a mano (carpetas c:\\tmp\\getaway-kings-subir)"
+                      "descripcion_youtube":  "A slide, a hit and a spin later, the front end tells the whole story. Be honest: what score does this drift get?"
                   },
                   {
                       "id":  "2026-11-21-gta6-underwater-hideout",
-                      "estado":  "subido_a_mano",
+                      "estado":  "listo",
                       "tipo":  "persecucion",
                       "puntaje":  79,
                       "gancho":  "Getaway Files #5: the underwater hideout",
@@ -455,18 +385,11 @@
                                       ],
                       "ventana_hasta":  "2026-11-28",
                       "titulo_youtube":  "Getaway Files #5: hiding from the cops under a dock in GTA 6 #shorts",
-                      "descripcion_youtube":  "The game says hide or leave the search area, so he dives into a Key Lento canal and waits under the dock. Next to a sunken bike, of course.",
-                      "subido_a_mano":  {
-                                            "plataforma":  "youtube",
-                                            "cuenta":  "gta-chases",
-                                            "programado":  "2026-11-23T10:00:00-05:00",
-                                            "carpeta":  "c:\\tmp\\getaway-kings-subir\\canal-2-chases"
-                                        },
-                      "nota":  "subido a mano (carpetas c:\\tmp\\getaway-kings-subir)"
+                      "descripcion_youtube":  "The game says hide or leave the search area, so he dives into a Key Lento canal and waits under the dock. Next to a sunken bike, of course."
                   },
                   {
                       "id":  "2026-11-21-gta6-swamp-shortcut",
-                      "estado":  "subido_a_mano",
+                      "estado":  "listo",
                       "tipo":  "fail",
                       "puntaje":  75,
                       "gancho":  "POV: the road ends, the plan doesn\u0027t",
@@ -497,18 +420,11 @@
                                       ],
                       "ventana_hasta":  "2026-11-28",
                       "titulo_youtube":  "POV: the road ends but the plan doesn\u0027t in GTA 6 #shorts",
-                      "descripcion_youtube":  "No bridge, no boat, no problem: he leaves the truck in the reeds and wades into a Leonida swamp. Gators are real in this game.",
-                      "subido_a_mano":  {
-                                            "plataforma":  "youtube",
-                                            "cuenta":  "gta-chases",
-                                            "programado":  "2026-11-22T22:00:00-05:00",
-                                            "carpeta":  "c:\\tmp\\getaway-kings-subir\\canal-2-chases"
-                                        },
-                      "nota":  "subido a mano (carpetas c:\\tmp\\getaway-kings-subir)"
+                      "descripcion_youtube":  "No bridge, no boat, no problem: he leaves the truck in the reeds and wades into a Leonida swamp. Gators are real in this game."
                   },
                   {
                       "id":  "2026-11-21-gta6-impound-breakout",
-                      "estado":  "subido_a_mano",
+                      "estado":  "listo",
                       "tipo":  "persecucion",
                       "puntaje":  80,
                       "gancho":  "Getaway Files #4: the impound job",
@@ -539,14 +455,7 @@
                                       ],
                       "ventana_hasta":  "2026-11-28",
                       "titulo_youtube":  "Getaway Files #4: he broke his own truck out of the police impound in GTA 6 #shorts",
-                      "descripcion_youtube":  "The cops impounded his ride, so he went to the lot and left straight through the fence. Would you have done it the legal way?",
-                      "subido_a_mano":  {
-                                            "plataforma":  "youtube",
-                                            "cuenta":  "gta-chases",
-                                            "programado":  "2026-11-22T17:00:00-05:00",
-                                            "carpeta":  "c:\\tmp\\getaway-kings-subir\\canal-2-chases"
-                                        },
-                      "nota":  "subido a mano (carpetas c:\\tmp\\getaway-kings-subir)"
+                      "descripcion_youtube":  "The cops impounded his ride, so he went to the lot and left straight through the fence. Would you have done it the legal way?"
                   },
                   {
                       "id":  "2026-11-20-gta6-buddy-conspiracy-rant",
@@ -643,7 +552,7 @@
                   },
                   {
                       "id":  "2026-11-20-gta6-jason-morning-snake",
-                      "estado":  "subido_a_mano",
+                      "estado":  "listo",
                       "tipo":  "vida_diaria",
                       "puntaje":  null,
                       "gancho":  "Leonida Daily #1: Jason\u0027s morning in the Keys",
@@ -672,18 +581,11 @@
                                           "instagram",
                                           "facebook"
                                       ],
-                      "ventana_hasta":  "2026-11-27",
-                      "subido_a_mano":  {
-                                            "plataforma":  "youtube",
-                                            "cuenta":  "gta-us",
-                                            "programado":  "2026-11-21T15:00:00-05:00",
-                                            "carpeta":  "c:\\tmp\\getaway-kings-subir\\canal-1-getaway-kings"
-                                        },
-                      "nota":  "subido a mano (carpetas c:\\tmp\\getaway-kings-subir)"
+                      "ventana_hasta":  "2026-11-27"
                   },
                   {
                       "id":  "2026-11-20-gta6-keys-commute-pov",
-                      "estado":  "subido_a_mano",
+                      "estado":  "listo",
                       "tipo":  "vida_diaria",
                       "puntaje":  null,
                       "gancho":  "POV: your morning commute in the Keys",
@@ -712,18 +614,11 @@
                                           "instagram",
                                           "facebook"
                                       ],
-                      "ventana_hasta":  "2026-11-27",
-                      "subido_a_mano":  {
-                                            "plataforma":  "youtube",
-                                            "cuenta":  "gta-us",
-                                            "programado":  "2026-11-22T09:00:00-05:00",
-                                            "carpeta":  "c:\\tmp\\getaway-kings-subir\\canal-1-getaway-kings"
-                                        },
-                      "nota":  "subido a mano (carpetas c:\\tmp\\getaway-kings-subir)"
+                      "ventana_hasta":  "2026-11-27"
                   },
                   {
                       "id":  "2026-11-20-gta6-record-parrotfish",
-                      "estado":  "subido_a_mano",
+                      "estado":  "listo",
                       "tipo":  "vida_diaria",
                       "puntaje":  null,
                       "gancho":  "Leonida Daily #2: a record catch in the Keys",
@@ -752,18 +647,11 @@
                                           "instagram",
                                           "facebook"
                                       ],
-                      "ventana_hasta":  "2026-11-27",
-                      "subido_a_mano":  {
-                                            "plataforma":  "youtube",
-                                            "cuenta":  "gta-us",
-                                            "programado":  "2026-11-22T12:00:00-05:00",
-                                            "carpeta":  "c:\\tmp\\getaway-kings-subir\\canal-1-getaway-kings"
-                                        },
-                      "nota":  "subido a mano (carpetas c:\\tmp\\getaway-kings-subir)"
+                      "ventana_hasta":  "2026-11-27"
                   },
                   {
                       "id":  "2026-11-20-gta6-bike-helmet-pov",
-                      "estado":  "subido_a_mano",
+                      "estado":  "listo",
                       "tipo":  "vida_diaria",
                       "puntaje":  null,
                       "gancho":  "POV: safety first in Leonida",
@@ -792,18 +680,11 @@
                                           "instagram",
                                           "facebook"
                                       ],
-                      "ventana_hasta":  "2026-11-27",
-                      "subido_a_mano":  {
-                                            "plataforma":  "youtube",
-                                            "cuenta":  "gta-us",
-                                            "programado":  "2026-11-22T15:00:00-05:00",
-                                            "carpeta":  "c:\\tmp\\getaway-kings-subir\\canal-1-getaway-kings"
-                                        },
-                      "nota":  "subido a mano (carpetas c:\\tmp\\getaway-kings-subir)"
+                      "ventana_hasta":  "2026-11-27"
                   },
                   {
                       "id":  "2026-11-20-gta6-smoothie-buffs",
-                      "estado":  "subido_a_mano",
+                      "estado":  "listo",
                       "tipo":  "vida_diaria",
                       "puntaje":  null,
                       "gancho":  "Leonida Daily #3: is the smoothie worth it?",
@@ -832,18 +713,11 @@
                                           "instagram",
                                           "facebook"
                                       ],
-                      "ventana_hasta":  "2026-11-27",
-                      "subido_a_mano":  {
-                                            "plataforma":  "youtube",
-                                            "cuenta":  "gta-us",
-                                            "programado":  "2026-11-22T18:00:00-05:00",
-                                            "carpeta":  "c:\\tmp\\getaway-kings-subir\\canal-1-getaway-kings"
-                                        },
-                      "nota":  "subido a mano (carpetas c:\\tmp\\getaway-kings-subir)"
+                      "ventana_hasta":  "2026-11-27"
                   },
                   {
                       "id":  "2026-11-20-gta6-dock-selfie-pov",
-                      "estado":  "subido_a_mano",
+                      "estado":  "listo",
                       "tipo":  "vida_diaria",
                       "puntaje":  null,
                       "gancho":  "POV: Jason\u0027s dock selfie",
@@ -872,18 +746,11 @@
                                           "instagram",
                                           "facebook"
                                       ],
-                      "ventana_hasta":  "2026-11-27",
-                      "subido_a_mano":  {
-                                            "plataforma":  "youtube",
-                                            "cuenta":  "gta-us",
-                                            "programado":  "2026-11-22T21:00:00-05:00",
-                                            "carpeta":  "c:\\tmp\\getaway-kings-subir\\canal-1-getaway-kings"
-                                        },
-                      "nota":  "subido a mano (carpetas c:\\tmp\\getaway-kings-subir)"
+                      "ventana_hasta":  "2026-11-27"
                   },
                   {
                       "id":  "2026-11-20-gta6-switch-car",
-                      "estado":  "subido_a_mano",
+                      "estado":  "listo",
                       "tipo":  "persecucion",
                       "puntaje":  null,
                       "gancho":  "Getaway Files #1: the switch car",
@@ -912,18 +779,11 @@
                                           "instagram",
                                           "facebook"
                                       ],
-                      "ventana_hasta":  "2026-11-27",
-                      "subido_a_mano":  {
-                                            "plataforma":  "youtube",
-                                            "cuenta":  "gta-chases",
-                                            "programado":  "2026-11-21T10:00:00-05:00",
-                                            "carpeta":  "c:\\tmp\\getaway-kings-subir\\canal-2-chases"
-                                        },
-                      "nota":  "subido a mano (carpetas c:\\tmp\\getaway-kings-subir)"
+                      "ventana_hasta":  "2026-11-27"
                   },
                   {
                       "id":  "2026-11-20-gta6-lifted-truck-crash",
-                      "estado":  "subido_a_mano",
+                      "estado":  "listo",
                       "tipo":  "fail",
                       "puntaje":  null,
                       "gancho":  "POV: a lifted truck ruins your getaway",
@@ -952,18 +812,11 @@
                                           "instagram",
                                           "facebook"
                                       ],
-                      "ventana_hasta":  "2026-11-27",
-                      "subido_a_mano":  {
-                                            "plataforma":  "youtube",
-                                            "cuenta":  "gta-chases",
-                                            "programado":  "2026-11-21T15:00:00-05:00",
-                                            "carpeta":  "c:\\tmp\\getaway-kings-subir\\canal-2-chases"
-                                        },
-                      "nota":  "subido a mano (carpetas c:\\tmp\\getaway-kings-subir)"
+                      "ventana_hasta":  "2026-11-27"
                   },
                   {
                       "id":  "2026-11-20-gta6-tank-yard-getaway",
-                      "estado":  "subido_a_mano",
+                      "estado":  "listo",
                       "tipo":  "persecucion",
                       "puntaje":  null,
                       "gancho":  "POV: your getaway car is a tank",
@@ -992,18 +845,11 @@
                                           "instagram",
                                           "facebook"
                                       ],
-                      "ventana_hasta":  "2026-11-27",
-                      "subido_a_mano":  {
-                                            "plataforma":  "youtube",
-                                            "cuenta":  "gta-chases",
-                                            "programado":  "2026-11-21T22:00:00-05:00",
-                                            "carpeta":  "c:\\tmp\\getaway-kings-subir\\canal-2-chases"
-                                        },
-                      "nota":  "subido a mano (carpetas c:\\tmp\\getaway-kings-subir)"
+                      "ventana_hasta":  "2026-11-27"
                   },
                   {
                       "id":  "2026-11-20-gta6-six-star-tank",
-                      "estado":  "subido_a_mano",
+                      "estado":  "listo",
                       "tipo":  "persecucion",
                       "puntaje":  null,
                       "gancho":  "Getaway Files #2: the 6-star wanted level",
@@ -1032,18 +878,11 @@
                                           "instagram",
                                           "facebook"
                                       ],
-                      "ventana_hasta":  "2026-11-27",
-                      "subido_a_mano":  {
-                                            "plataforma":  "youtube",
-                                            "cuenta":  "gta-chases",
-                                            "programado":  "2026-11-22T10:00:00-05:00",
-                                            "carpeta":  "c:\\tmp\\getaway-kings-subir\\canal-2-chases"
-                                        },
-                      "nota":  "subido a mano (carpetas c:\\tmp\\getaway-kings-subir)"
+                      "ventana_hasta":  "2026-11-27"
                   },
                   {
                       "id":  "2026-11-20-gta6-psycho-wasted",
-                      "estado":  "subido_a_mano",
+                      "estado":  "listo",
                       "tipo":  "fail",
                       "puntaje":  null,
                       "gancho":  "POV: GTA 6 calls you a psycho",
@@ -1072,18 +911,11 @@
                                           "instagram",
                                           "facebook"
                                       ],
-                      "ventana_hasta":  "2026-11-27",
-                      "subido_a_mano":  {
-                                            "plataforma":  "youtube",
-                                            "cuenta":  "gta-chases",
-                                            "programado":  "2026-11-22T14:00:00-05:00",
-                                            "carpeta":  "c:\\tmp\\getaway-kings-subir\\canal-2-chases"
-                                        },
-                      "nota":  "subido a mano (carpetas c:\\tmp\\getaway-kings-subir)"
+                      "ventana_hasta":  "2026-11-27"
                   },
                   {
                       "id":  "2026-11-20-gta6-prison-wasted",
-                      "estado":  "subido_a_mano",
+                      "estado":  "listo",
                       "tipo":  "fail",
                       "puntaje":  null,
                       "gancho":  "Getaway Files #3: why this escape failed",
@@ -1112,14 +944,7 @@
                                           "instagram",
                                           "facebook"
                                       ],
-                      "ventana_hasta":  "2026-11-27",
-                      "subido_a_mano":  {
-                                            "plataforma":  "youtube",
-                                            "cuenta":  "gta-chases",
-                                            "programado":  "2026-11-22T19:00:00-05:00",
-                                            "carpeta":  "c:\\tmp\\getaway-kings-subir\\canal-2-chases"
-                                        },
-                      "nota":  "subido a mano (carpetas c:\\tmp\\getaway-kings-subir)"
+                      "ventana_hasta":  "2026-11-27"
                   },
                   {
                       "id":  "2026-11-20-gta6-repaint-your-house",
