@@ -1,0 +1,30 @@
+{
+    "id":  "2026-11-21-gta6-sunset-canal-dive",
+    "url_fuente":  "https://www.youtube.com/watch?v=aHvn9IrnxKs",
+    "video_id":  "aHvn9IrnxKs",
+    "inicio":  573,
+    "fin":  594,
+    "inicio_hms":  "0:09:33",
+    "duracion_seg":  21,
+    "gancho":  "POV: sunset in Vice City, so you jump in",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "atardecer",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14.5,
+                  "limitador":  true,
+                  "entrada_lufs":  -27.13,
+                  "entrada_tp":  -13.68,
+                  "salida_lufs":  -14.06,
+                  "salida_tp":  -1.05
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-sunset-canal-dive/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-sunset-canal-dive/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-sunset-canal-dive/revision.jpg",
+    "creado":  "2026-11-21T13:15:49.2805924-05:00"
+}

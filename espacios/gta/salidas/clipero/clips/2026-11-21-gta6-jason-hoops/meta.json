@@ -1,0 +1,30 @@
+{
+    "id":  "2026-11-21-gta6-jason-hoops",
+    "url_fuente":  "https://www.youtube.com/watch?v=aHvn9IrnxKs",
+    "video_id":  "aHvn9IrnxKs",
+    "inicio":  814,
+    "fin":  836,
+    "inicio_hms":  "0:13:34",
+    "duracion_seg":  22,
+    "gancho":  "Leonida Daily #6: shooting hoops at home",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "vice",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -15.7,
+                  "limitador":  true,
+                  "entrada_lufs":  -38.64,
+                  "entrada_tp":  -24.01,
+                  "salida_lufs":  -15.53,
+                  "salida_tp":  -1.07
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-jason-hoops/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-jason-hoops/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-jason-hoops/revision.jpg",
+    "creado":  "2026-11-21T13:19:49.2293640-05:00"
+}

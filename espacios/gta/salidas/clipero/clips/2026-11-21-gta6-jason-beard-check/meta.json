@@ -1,0 +1,30 @@
+{
+    "id":  "2026-11-21-gta6-jason-beard-check",
+    "url_fuente":  "https://www.youtube.com/watch?v=e5x7k8fBqHM",
+    "video_id":  "e5x7k8fBqHM",
+    "inicio":  640,
+    "fin":  662,
+    "inicio_hms":  "0:10:40",
+    "duracion_seg":  22,
+    "gancho":  "Leonida Daily #5: Jason\u0027s mirror routine",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "negro",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -20.1,
+                  "limitador":  true,
+                  "entrada_lufs":  -43.03,
+                  "entrada_tp":  -24.01,
+                  "salida_lufs":  -20.35,
+                  "salida_tp":  -1.08
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-jason-beard-check/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-jason-beard-check/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-jason-beard-check/revision.jpg",
+    "creado":  "2026-11-21T13:12:36.3296899-05:00"
+}

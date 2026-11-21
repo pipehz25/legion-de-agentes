@@ -1,0 +1,30 @@
+{
+    "id":  "2026-11-21-gta6-bmx-rooftop-jump",
+    "url_fuente":  "https://www.youtube.com/watch?v=KEZGlWgSRwI",
+    "video_id":  "KEZGlWgSRwI",
+    "inicio":  105,
+    "fin":  126,
+    "inicio_hms":  "0:01:45",
+    "duracion_seg":  21,
+    "gancho":  "POV: you found a ramp on your BMX",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "negro",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14.6,
+                  "limitador":  true,
+                  "entrada_lufs":  -28.12,
+                  "entrada_tp":  -14.61,
+                  "salida_lufs":  -14.34,
+                  "salida_tp":  -1.09
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-bmx-rooftop-jump/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-bmx-rooftop-jump/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-bmx-rooftop-jump/revision.jpg",
+    "creado":  "2026-11-21T13:21:58.6965624-05:00"
+}

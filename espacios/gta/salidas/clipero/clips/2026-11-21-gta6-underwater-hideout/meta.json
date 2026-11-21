@@ -1,0 +1,30 @@
+{
+    "id":  "2026-11-21-gta6-underwater-hideout",
+    "url_fuente":  "https://www.youtube.com/watch?v=e5x7k8fBqHM",
+    "video_id":  "e5x7k8fBqHM",
+    "inicio":  2598,
+    "fin":  2620,
+    "inicio_hms":  "0:43:18",
+    "duracion_seg":  22,
+    "gancho":  "Getaway Files #5: the underwater hideout",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "negro",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14.8,
+                  "limitador":  true,
+                  "entrada_lufs":  -32.43,
+                  "entrada_tp":  -18.71,
+                  "salida_lufs":  -14.52,
+                  "salida_tp":  -1.08
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-underwater-hideout/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-underwater-hideout/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-underwater-hideout/revision.jpg",
+    "creado":  "2026-11-21T12:53:56.4115470-05:00"
+}

@@ -1,0 +1,30 @@
+{
+    "id":  "2026-11-20-gta6-smoothie-buffs",
+    "url_fuente":  "https://www.youtube.com/watch?v=konZi0msk6A",
+    "video_id":  "konZi0msk6A",
+    "inicio":  700,
+    "fin":  724,
+    "inicio_hms":  "0:11:40",
+    "duracion_seg":  24,
+    "gancho":  "Leonida Daily #3: is the smoothie worth it?",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "vice",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -33.72,
+                  "entrada_tp":  -20.72,
+                  "salida_lufs":  -14.43,
+                  "salida_tp":  -1
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-smoothie-buffs/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-smoothie-buffs/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-smoothie-buffs/revision.jpg",
+    "creado":  "2026-11-20T16:34:06.1643788-05:00"
+}

@@ -1,0 +1,30 @@
+{
+    "id":  "2026-11-20-gta6-jason-morning-snake",
+    "url_fuente":  "https://www.youtube.com/watch?v=konZi0msk6A",
+    "video_id":  "konZi0msk6A",
+    "inicio":  57,
+    "fin":  80,
+    "inicio_hms":  "0:00:57",
+    "duracion_seg":  23,
+    "gancho":  "Leonida Daily #1: Jason\u0027s morning in the Keys",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "atardecer",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -17.1,
+                  "limitador":  true,
+                  "entrada_lufs":  -36.98,
+                  "entrada_tp":  -20.92,
+                  "salida_lufs":  -16.62,
+                  "salida_tp":  -1.04
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-jason-morning-snake/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-jason-morning-snake/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-jason-morning-snake/revision.jpg",
+    "creado":  "2026-11-20T16:15:02.4186278-05:00"
+}

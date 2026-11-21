@@ -1,0 +1,30 @@
+{
+    "id":  "2026-11-20-gta6-record-parrotfish",
+    "url_fuente":  "https://www.youtube.com/watch?v=e5x7k8fBqHM",
+    "video_id":  "e5x7k8fBqHM",
+    "inicio":  3601,
+    "fin":  3624,
+    "inicio_hms":  "1:00:01",
+    "duracion_seg":  23,
+    "gancho":  "Leonida Daily #2: a record catch in the Keys",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "negro",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14.3,
+                  "limitador":  true,
+                  "entrada_lufs":  -36.62,
+                  "entrada_tp":  -23.35,
+                  "salida_lufs":  -14.41,
+                  "salida_tp":  -1.03
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-record-parrotfish/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-record-parrotfish/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-record-parrotfish/revision.jpg",
+    "creado":  "2026-11-20T16:20:07.2187777-05:00"
+}

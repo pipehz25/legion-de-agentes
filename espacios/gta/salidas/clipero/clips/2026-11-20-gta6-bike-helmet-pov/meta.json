@@ -1,0 +1,30 @@
+{
+    "id":  "2026-11-20-gta6-bike-helmet-pov",
+    "url_fuente":  "https://www.youtube.com/watch?v=e5x7k8fBqHM",
+    "video_id":  "e5x7k8fBqHM",
+    "inicio":  2146,
+    "fin":  2165,
+    "inicio_hms":  "0:35:46",
+    "duracion_seg":  19,
+    "gancho":  "POV: safety first in Leonida",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "atardecer",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14.2,
+                  "limitador":  true,
+                  "entrada_lufs":  -37.18,
+                  "entrada_tp":  -24.01,
+                  "salida_lufs":  -13.63,
+                  "salida_tp":  -1.03
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-bike-helmet-pov/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-bike-helmet-pov/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-bike-helmet-pov/revision.jpg",
+    "creado":  "2026-11-20T16:28:57.6755593-05:00"
+}

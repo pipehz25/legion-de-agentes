@@ -1,0 +1,30 @@
+{
+    "id":  "2026-11-20-gta6-tank-yard-getaway",
+    "url_fuente":  "https://www.youtube.com/watch?v=Rg-AzVZzfOs",
+    "video_id":  "Rg-AzVZzfOs",
+    "inicio":  126,
+    "fin":  143,
+    "inicio_hms":  "0:02:06",
+    "duracion_seg":  17,
+    "gancho":  "POV: your getaway car is a tank",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "atardecer",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -16.73,
+                  "entrada_tp":  -4.1,
+                  "salida_lufs":  -13.92,
+                  "salida_tp":  -1.37
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-tank-yard-getaway/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-tank-yard-getaway/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-tank-yard-getaway/revision.jpg",
+    "creado":  "2026-11-20T16:09:01.6598321-05:00"
+}

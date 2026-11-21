@@ -1,0 +1,30 @@
+{
+    "id":  "2026-11-21-gta6-clone-or-smash",
+    "url_fuente":  "https://www.youtube.com/watch?v=OJ8CIqN9kAk",
+    "video_id":  "OJ8CIqN9kAk",
+    "inicio":  110,
+    "fin":  132,
+    "inicio_hms":  "0:01:50",
+    "duracion_seg":  22,
+    "gancho":  "Getaway Files #7: clone or smash?",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "atardecer",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14.4,
+                  "limitador":  true,
+                  "entrada_lufs":  -30.84,
+                  "entrada_tp":  -17.52,
+                  "salida_lufs":  -14.57,
+                  "salida_tp":  -1.08
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-clone-or-smash/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-clone-or-smash/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-clone-or-smash/revision.jpg",
+    "creado":  "2026-11-21T13:05:31.8086517-05:00"
+}

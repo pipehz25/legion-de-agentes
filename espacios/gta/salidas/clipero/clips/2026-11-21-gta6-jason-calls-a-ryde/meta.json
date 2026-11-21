@@ -1,0 +1,30 @@
+{
+    "id":  "2026-11-21-gta6-jason-calls-a-ryde",
+    "url_fuente":  "https://www.youtube.com/watch?v=RPdHovDAWzg",
+    "video_id":  "RPdHovDAWzg",
+    "inicio":  10,
+    "fin":  31,
+    "inicio_hms":  "0:00:10",
+    "duracion_seg":  21,
+    "gancho":  "POV: you\u0027re too tired to drive in Leonida",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "vice",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14.2,
+                  "limitador":  true,
+                  "entrada_lufs":  -33.32,
+                  "entrada_tp":  -20.18,
+                  "salida_lufs":  -14.45,
+                  "salida_tp":  -1.06
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-jason-calls-a-ryde/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-jason-calls-a-ryde/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-jason-calls-a-ryde/revision.jpg",
+    "creado":  "2026-11-21T13:10:38.7424157-05:00"
+}

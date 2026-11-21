@@ -1,0 +1,30 @@
+{
+    "id":  "2026-11-20-gta6-keys-commute-pov",
+    "url_fuente":  "https://www.youtube.com/watch?v=konZi0msk6A",
+    "video_id":  "konZi0msk6A",
+    "inicio":  124,
+    "fin":  145,
+    "inicio_hms":  "0:02:04",
+    "duracion_seg":  21,
+    "gancho":  "POV: your morning commute in the Keys",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "vice",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -25.73,
+                  "entrada_tp":  -13.07,
+                  "salida_lufs":  -14.8,
+                  "salida_tp":  -1.34
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-keys-commute-pov/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-keys-commute-pov/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-keys-commute-pov/revision.jpg",
+    "creado":  "2026-11-20T16:17:19.2904204-05:00"
+}

@@ -1,0 +1,30 @@
+{
+    "id":  "2026-11-21-gta6-humvee-heist",
+    "url_fuente":  "https://www.youtube.com/watch?v=NvAjQqKLNsc",
+    "video_id":  "NvAjQqKLNsc",
+    "inicio":  405,
+    "fin":  425,
+    "inicio_hms":  "0:06:45",
+    "duracion_seg":  20,
+    "gancho":  "Getaway Files #6: stealing from the army",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "vice",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14.3,
+                  "limitador":  true,
+                  "entrada_lufs":  -20.95,
+                  "entrada_tp":  -7.66,
+                  "salida_lufs":  -13.84,
+                  "salida_tp":  -1.01
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-humvee-heist/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-humvee-heist/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-humvee-heist/revision.jpg",
+    "creado":  "2026-11-21T13:00:06.3713607-05:00"
+}

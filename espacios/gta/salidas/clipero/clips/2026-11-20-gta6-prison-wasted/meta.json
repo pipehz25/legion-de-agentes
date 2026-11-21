@@ -1,0 +1,30 @@
+{
+    "id":  "2026-11-20-gta6-prison-wasted",
+    "url_fuente":  "https://www.youtube.com/watch?v=fIyXySnqDi8",
+    "video_id":  "fIyXySnqDi8",
+    "inicio":  394,
+    "fin":  418,
+    "inicio_hms":  "0:06:34",
+    "duracion_seg":  24,
+    "gancho":  "Getaway Files #3: why this escape failed",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "vice",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -19.53,
+                  "entrada_tp":  -6.86,
+                  "salida_lufs":  -13.86,
+                  "salida_tp":  -1.33
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-prison-wasted/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-prison-wasted/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-prison-wasted/revision.jpg",
+    "creado":  "2026-11-20T16:11:29.5747826-05:00"
+}

@@ -1,0 +1,30 @@
+{
+    "id":  "2026-11-20-gta6-psycho-wasted",
+    "url_fuente":  "https://www.youtube.com/watch?v=Rg-AzVZzfOs",
+    "video_id":  "Rg-AzVZzfOs",
+    "inicio":  253,
+    "fin":  271,
+    "inicio_hms":  "0:04:13",
+    "duracion_seg":  18,
+    "gancho":  "POV: GTA 6 calls you a psycho",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "negro",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -17.25,
+                  "entrada_tp":  -4.35,
+                  "salida_lufs":  -13.92,
+                  "salida_tp":  -1.1
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-psycho-wasted/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-psycho-wasted/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-psycho-wasted/revision.jpg",
+    "creado":  "2026-11-20T16:35:31.4128558-05:00"
+}

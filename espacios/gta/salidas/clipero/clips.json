@@ -1,10 +1,1449 @@
 {
-    "generado":  "2026-11-20T09:43:04-05:00",
-    "ciclo":  3,
+    "generado":  "2026-11-21T13:23:19-05:00",
+    "ciclo":  4,
     "clips":  [
                   {
+                      "id":  "2026-11-21-gta6-clone-or-smash",
+                      "estado":  "subido_a_mano",
+                      "tipo":  "accion",
+                      "puntaje":  82,
+                      "gancho":  "Getaway Files #7: clone or smash?",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-clone-or-smash/narrado.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-clone-or-smash/ficha.md",
+                      "duracion_seg":  19,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=OJ8CIqN9kAk",
+                                     "canal":  "GTA 6 No Copyright Gameplay",
+                                     "inicio":  110,
+                                     "fin":  132
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "cuenta":  "gta-chases",
+                      "formato":  "voz",
+                      "color":  "atardecer",
+                      "serie":  "Getaway Files #7",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "autorizado",
+                      "plataformas":  [
+                                          "youtube",
+                                          "tiktok",
+                                          "instagram",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-28",
+                      "titulo_youtube":  "Getaway Files #7: GTA 6 lets you clone a car key or smash the window #shorts",
+                      "descripcion_youtube":  "The game gives you a quiet option and a loud one, and he picks the loud one. Team clone or team smash?",
+                      "subido_a_mano":  {
+                                            "plataforma":  "youtube",
+                                            "cuenta":  "gta-chases",
+                                            "programado":  "2026-11-23T22:00:00-05:00",
+                                            "carpeta":  "c:\\tmp\\getaway-kings-subir\\canal-2-chases"
+                                        },
+                      "nota":  "subido a mano (carpetas c:\\tmp\\getaway-kings-subir)"
+                  },
+                  {
+                      "id":  "2026-11-21-gta6-bmx-rooftop-jump",
+                      "estado":  "subido_a_mano",
+                      "tipo":  "acrobacia",
+                      "puntaje":  77,
+                      "gancho":  "POV: you found a ramp on your BMX",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-bmx-rooftop-jump/narrado.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-bmx-rooftop-jump/ficha.md",
+                      "duracion_seg":  20.7,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=KEZGlWgSRwI",
+                                     "canal":  "Ftug - No Copyright Gameplay",
+                                     "inicio":  105,
+                                     "fin":  126
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "cuenta":  "gta-us",
+                      "formato":  "texto",
+                      "color":  "negro",
+                      "serie":  null,
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "autorizado",
+                      "plataformas":  [
+                                          "youtube",
+                                          "tiktok",
+                                          "instagram",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-28",
+                      "titulo_youtube":  "POV: you found a BMX ramp in GTA 6 and the game goes cinematic #shorts",
+                      "descripcion_youtube":  "Mid-air the camera flies over the rooftops, then the landing happens right by somebody\u0027s front door. What score are you giving it?",
+                      "subido_a_mano":  {
+                                            "plataforma":  "youtube",
+                                            "cuenta":  "gta-us",
+                                            "programado":  "2026-11-24T09:00:00-05:00",
+                                            "carpeta":  "c:\\tmp\\getaway-kings-subir\\canal-1-getaway-kings"
+                                        },
+                      "nota":  "subido a mano (carpetas c:\\tmp\\getaway-kings-subir)"
+                  },
+                  {
+                      "id":  "2026-11-21-gta6-jason-hoops",
+                      "estado":  "subido_a_mano",
+                      "tipo":  "vida_diaria",
+                      "puntaje":  76,
+                      "gancho":  "Leonida Daily #6: shooting hoops at home",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-jason-hoops/narrado.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-jason-hoops/ficha.md",
+                      "duracion_seg":  17.9,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=aHvn9IrnxKs",
+                                     "canal":  "GTA 6 No Copyright Gameplay",
+                                     "inicio":  814,
+                                     "fin":  836
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "cuenta":  "gta-us",
+                      "formato":  "voz",
+                      "color":  "vice",
+                      "serie":  "Leonida Daily #6",
+                      "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "autorizado",
+                      "plataformas":  [
+                                          "youtube",
+                                          "tiktok",
+                                          "instagram",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-28",
+                      "titulo_youtube":  "Leonida Daily #6: Jason shoots hoops under his stilt house in GTA 6 #shorts",
+                      "descripcion_youtube":  "A backboard under the house, the bay behind it, and an aiming circle on the rim. Did he make it?",
+                      "subido_a_mano":  {
+                                            "plataforma":  "youtube",
+                                            "cuenta":  "gta-us",
+                                            "programado":  "2026-11-23T21:00:00-05:00",
+                                            "carpeta":  "c:\\tmp\\getaway-kings-subir\\canal-1-getaway-kings"
+                                        },
+                      "nota":  "subido a mano (carpetas c:\\tmp\\getaway-kings-subir)"
+                  },
+                  {
+                      "id":  "2026-11-21-gta6-sunset-canal-dive",
+                      "estado":  "subido_a_mano",
+                      "tipo":  "vida_diaria",
+                      "puntaje":  78,
+                      "gancho":  "POV: sunset in Vice City, so you jump in",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-sunset-canal-dive/narrado.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-sunset-canal-dive/ficha.md",
+                      "duracion_seg":  19.7,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=aHvn9IrnxKs",
+                                     "canal":  "GTA 6 No Copyright Gameplay",
+                                     "inicio":  573,
+                                     "fin":  594
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "cuenta":  "gta-us",
+                      "formato":  "texto",
+                      "color":  "atardecer",
+                      "serie":  null,
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "autorizado",
+                      "plataformas":  [
+                                          "youtube",
+                                          "tiktok",
+                                          "instagram",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-28",
+                      "titulo_youtube":  "POV: it\u0027s sunset in Vice City so you just jump in the canal in GTA 6 #shorts",
+                      "descripcion_youtube":  "Café table, railing, splash: a fully clothed sunset swim with the skyline in the background. Would you jump?",
+                      "subido_a_mano":  {
+                                            "plataforma":  "youtube",
+                                            "cuenta":  "gta-us",
+                                            "programado":  "2026-11-23T18:00:00-05:00",
+                                            "carpeta":  "c:\\tmp\\getaway-kings-subir\\canal-1-getaway-kings"
+                                        },
+                      "nota":  "subido a mano (carpetas c:\\tmp\\getaway-kings-subir)"
+                  },
+                  {
+                      "id":  "2026-11-21-gta6-jason-beard-check",
+                      "estado":  "subido_a_mano",
+                      "tipo":  "vida_diaria",
+                      "puntaje":  78,
+                      "gancho":  "Leonida Daily #5: Jason\u0027s mirror routine",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-jason-beard-check/narrado.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-jason-beard-check/ficha.md",
+                      "duracion_seg":  19.6,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=e5x7k8fBqHM",
+                                     "canal":  "Fox - No Copyright Gameplay",
+                                     "inicio":  640,
+                                     "fin":  662
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "cuenta":  "gta-us",
+                      "formato":  "voz",
+                      "color":  "negro",
+                      "serie":  "Leonida Daily #5",
+                      "orden_en_fuente":  3,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "autorizado",
+                      "plataformas":  [
+                                          "youtube",
+                                          "tiktok",
+                                          "instagram",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-28",
+                      "titulo_youtube":  "Leonida Daily #5: Jason changes his beard at the bathroom mirror in GTA 6 #shorts",
+                      "descripcion_youtube":  "Full beard, longer hair, then stubble, all live in the mirror before he heads out. Which look should Jason keep?",
+                      "subido_a_mano":  {
+                                            "plataforma":  "youtube",
+                                            "cuenta":  "gta-us",
+                                            "programado":  "2026-11-23T15:00:00-05:00",
+                                            "carpeta":  "c:\\tmp\\getaway-kings-subir\\canal-1-getaway-kings"
+                                        },
+                      "nota":  "subido a mano (carpetas c:\\tmp\\getaway-kings-subir)"
+                  },
+                  {
+                      "id":  "2026-11-21-gta6-jason-calls-a-ryde",
+                      "estado":  "subido_a_mano",
+                      "tipo":  "vida_diaria",
+                      "puntaje":  79,
+                      "gancho":  "POV: you\u0027re too tired to drive in Leonida",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-jason-calls-a-ryde/narrado.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-jason-calls-a-ryde/ficha.md",
+                      "duracion_seg":  18.4,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=RPdHovDAWzg",
+                                     "canal":  "Ftug - No Copyright Gameplay",
+                                     "inicio":  10,
+                                     "fin":  31
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "cuenta":  "gta-us",
+                      "formato":  "texto",
+                      "color":  "vice",
+                      "serie":  null,
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "autorizado",
+                      "plataformas":  [
+                                          "youtube",
+                                          "tiktok",
+                                          "instagram",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-28",
+                      "titulo_youtube":  "POV: a ride in GTA 6 costs $78 or $101 and he picks Premium #shorts",
+                      "descripcion_youtube":  "Too tired to drive, so it\u0027s RydeMe to Grassrivers, Premium tier. Would you pay the extra $23?",
+                      "subido_a_mano":  {
+                                            "plataforma":  "youtube",
+                                            "cuenta":  "gta-us",
+                                            "programado":  "2026-11-23T12:00:00-05:00",
+                                            "carpeta":  "c:\\tmp\\getaway-kings-subir\\canal-1-getaway-kings"
+                                        },
+                      "nota":  "subido a mano (carpetas c:\\tmp\\getaway-kings-subir)"
+                  },
+                  {
+                      "id":  "2026-11-21-gta6-deck-leg-day",
+                      "estado":  "subido_a_mano",
+                      "tipo":  "vida_diaria",
+                      "puntaje":  75,
+                      "gancho":  "Leonida Daily #4: leg day on the deck",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-deck-leg-day/narrado.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-deck-leg-day/ficha.md",
+                      "duracion_seg":  19.3,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=e5x7k8fBqHM",
+                                     "canal":  "Fox - No Copyright Gameplay",
+                                     "inicio":  40,
+                                     "fin":  62
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "cuenta":  "gta-us",
+                      "formato":  "voz",
+                      "color":  "atardecer",
+                      "serie":  "Leonida Daily #4",
+                      "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "autorizado",
+                      "plataformas":  [
+                                          "youtube",
+                                          "tiktok",
+                                          "instagram",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-28",
+                      "titulo_youtube":  "Leonida Daily #4: Jason\u0027s squat rack on his back deck in GTA 6 #shorts",
+                      "descripcion_youtube":  "No gym membership needed in the Keys: Jason trains on his back deck with real plates and a rep counter. How much are you squatting?",
+                      "subido_a_mano":  {
+                                            "plataforma":  "youtube",
+                                            "cuenta":  "gta-us",
+                                            "programado":  "2026-11-23T09:00:00-05:00",
+                                            "carpeta":  "c:\\tmp\\getaway-kings-subir\\canal-1-getaway-kings"
+                                        },
+                      "nota":  "subido a mano (carpetas c:\\tmp\\getaway-kings-subir)"
+                  },
+                  {
+                      "id":  "2026-11-21-gta6-house-flip",
+                      "estado":  "subido_a_mano",
+                      "tipo":  "fail",
+                      "puntaje":  78,
+                      "gancho":  "POV: you took the turn at full speed",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-house-flip/narrado.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-house-flip/ficha.md",
+                      "duracion_seg":  21.2,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=kOeloBZgU5k",
+                                     "canal":  "GTA 6 No Copyright Gameplay",
+                                     "inicio":  229,
+                                     "fin":  251
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "cuenta":  "gta-chases",
+                      "formato":  "texto",
+                      "color":  "negro",
+                      "serie":  null,
+                      "orden_en_fuente":  3,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "autorizado",
+                      "plataformas":  [
+                                          "youtube",
+                                          "tiktok",
+                                          "instagram",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-28",
+                      "titulo_youtube":  "POV: you took a 30 mph turn at full speed in GTA 6 #shorts",
+                      "descripcion_youtube":  "Speed limit 30, parked cars everywhere, and he still sends it. The landing is something else.",
+                      "subido_a_mano":  {
+                                            "plataforma":  "youtube",
+                                            "cuenta":  "gta-chases",
+                                            "programado":  "2026-11-23T19:00:00-05:00",
+                                            "carpeta":  "c:\\tmp\\getaway-kings-subir\\canal-2-chases"
+                                        },
+                      "nota":  "subido a mano (carpetas c:\\tmp\\getaway-kings-subir)"
+                  },
+                  {
+                      "id":  "2026-11-21-gta6-humvee-heist",
+                      "estado":  "subido_a_mano",
+                      "tipo":  "persecucion",
+                      "puntaje":  79,
+                      "gancho":  "Getaway Files #6: stealing from the army",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-humvee-heist/narrado.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-humvee-heist/ficha.md",
+                      "duracion_seg":  18.3,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=NvAjQqKLNsc",
+                                     "canal":  "GTA 6 No Copyright Gameplay",
+                                     "inicio":  405,
+                                     "fin":  425
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "cuenta":  "gta-chases",
+                      "formato":  "voz",
+                      "color":  "vice",
+                      "serie":  "Getaway Files #6",
+                      "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "autorizado",
+                      "plataformas":  [
+                                          "youtube",
+                                          "tiktok",
+                                          "instagram",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-28",
+                      "titulo_youtube":  "Getaway Files #6: sneaking a military truck out of a base in GTA 6 #shorts",
+                      "descripcion_youtube":  "Crouched the whole way around the truck, then straight out of the lot before the stars hit. Would you risk a base for a ride like this?",
+                      "subido_a_mano":  {
+                                            "plataforma":  "youtube",
+                                            "cuenta":  "gta-chases",
+                                            "programado":  "2026-11-23T16:00:00-05:00",
+                                            "carpeta":  "c:\\tmp\\getaway-kings-subir\\canal-2-chases"
+                                        },
+                      "nota":  "subido a mano (carpetas c:\\tmp\\getaway-kings-subir)"
+                  },
+                  {
+                      "id":  "2026-11-21-gta6-storm-crash",
+                      "estado":  "subido_a_mano",
+                      "tipo":  "fail",
+                      "puntaje":  76,
+                      "gancho":  "POV: you told everyone you can drift",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-storm-crash/narrado.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-storm-crash/ficha.md",
+                      "duracion_seg":  18.9,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=kOeloBZgU5k",
+                                     "canal":  "GTA 6 No Copyright Gameplay",
+                                     "inicio":  158,
+                                     "fin":  179
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "cuenta":  "gta-chases",
+                      "formato":  "texto",
+                      "color":  "atardecer",
+                      "serie":  null,
+                      "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "autorizado",
+                      "plataformas":  [
+                                          "youtube",
+                                          "tiktok",
+                                          "instagram",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-28",
+                      "titulo_youtube":  "POV: you told everyone you can drift in GTA 6 #shorts",
+                      "descripcion_youtube":  "A slide, a hit and a spin later, the front end tells the whole story. Be honest: what score does this drift get?",
+                      "subido_a_mano":  {
+                                            "plataforma":  "youtube",
+                                            "cuenta":  "gta-chases",
+                                            "programado":  "2026-11-23T13:00:00-05:00",
+                                            "carpeta":  "c:\\tmp\\getaway-kings-subir\\canal-2-chases"
+                                        },
+                      "nota":  "subido a mano (carpetas c:\\tmp\\getaway-kings-subir)"
+                  },
+                  {
+                      "id":  "2026-11-21-gta6-underwater-hideout",
+                      "estado":  "subido_a_mano",
+                      "tipo":  "persecucion",
+                      "puntaje":  79,
+                      "gancho":  "Getaway Files #5: the underwater hideout",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-underwater-hideout/narrado.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-underwater-hideout/ficha.md",
+                      "duracion_seg":  18.5,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=e5x7k8fBqHM",
+                                     "canal":  "Fox - No Copyright Gameplay",
+                                     "inicio":  2598,
+                                     "fin":  2620
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "cuenta":  "gta-chases",
+                      "formato":  "voz",
+                      "color":  "negro",
+                      "serie":  "Getaway Files #5",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "autorizado",
+                      "plataformas":  [
+                                          "youtube",
+                                          "tiktok",
+                                          "instagram",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-28",
+                      "titulo_youtube":  "Getaway Files #5: hiding from the cops under a dock in GTA 6 #shorts",
+                      "descripcion_youtube":  "The game says hide or leave the search area, so he dives into a Key Lento canal and waits under the dock. Next to a sunken bike, of course.",
+                      "subido_a_mano":  {
+                                            "plataforma":  "youtube",
+                                            "cuenta":  "gta-chases",
+                                            "programado":  "2026-11-23T10:00:00-05:00",
+                                            "carpeta":  "c:\\tmp\\getaway-kings-subir\\canal-2-chases"
+                                        },
+                      "nota":  "subido a mano (carpetas c:\\tmp\\getaway-kings-subir)"
+                  },
+                  {
+                      "id":  "2026-11-21-gta6-swamp-shortcut",
+                      "estado":  "subido_a_mano",
+                      "tipo":  "fail",
+                      "puntaje":  75,
+                      "gancho":  "POV: the road ends, the plan doesn\u0027t",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-swamp-shortcut/narrado.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-swamp-shortcut/ficha.md",
+                      "duracion_seg":  16.5,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=NvAjQqKLNsc",
+                                     "canal":  "GTA 6 No Copyright Gameplay",
+                                     "inicio":  176,
+                                     "fin":  197
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "cuenta":  "gta-chases",
+                      "formato":  "texto",
+                      "color":  "vice",
+                      "serie":  null,
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "autorizado",
+                      "plataformas":  [
+                                          "youtube",
+                                          "tiktok",
+                                          "instagram",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-28",
+                      "titulo_youtube":  "POV: the road ends but the plan doesn\u0027t in GTA 6 #shorts",
+                      "descripcion_youtube":  "No bridge, no boat, no problem: he leaves the truck in the reeds and wades into a Leonida swamp. Gators are real in this game.",
+                      "subido_a_mano":  {
+                                            "plataforma":  "youtube",
+                                            "cuenta":  "gta-chases",
+                                            "programado":  "2026-11-22T22:00:00-05:00",
+                                            "carpeta":  "c:\\tmp\\getaway-kings-subir\\canal-2-chases"
+                                        },
+                      "nota":  "subido a mano (carpetas c:\\tmp\\getaway-kings-subir)"
+                  },
+                  {
+                      "id":  "2026-11-21-gta6-impound-breakout",
+                      "estado":  "subido_a_mano",
+                      "tipo":  "persecucion",
+                      "puntaje":  80,
+                      "gancho":  "Getaway Files #4: the impound job",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-impound-breakout/narrado.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-impound-breakout/ficha.md",
+                      "duracion_seg":  17.8,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=kOeloBZgU5k",
+                                     "canal":  "GTA 6 No Copyright Gameplay",
+                                     "inicio":  279,
+                                     "fin":  299
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "cuenta":  "gta-chases",
+                      "formato":  "voz",
+                      "color":  "atardecer",
+                      "serie":  "Getaway Files #4",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "autorizado",
+                      "plataformas":  [
+                                          "youtube",
+                                          "tiktok",
+                                          "instagram",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-28",
+                      "titulo_youtube":  "Getaway Files #4: he broke his own truck out of the police impound in GTA 6 #shorts",
+                      "descripcion_youtube":  "The cops impounded his ride, so he went to the lot and left straight through the fence. Would you have done it the legal way?",
+                      "subido_a_mano":  {
+                                            "plataforma":  "youtube",
+                                            "cuenta":  "gta-chases",
+                                            "programado":  "2026-11-22T17:00:00-05:00",
+                                            "carpeta":  "c:\\tmp\\getaway-kings-subir\\canal-2-chases"
+                                        },
+                      "nota":  "subido a mano (carpetas c:\\tmp\\getaway-kings-subir)"
+                  },
+                  {
+                      "id":  "2026-11-20-gta6-buddy-conspiracy-rant",
+                      "estado":  "descartado",
+                      "tipo":  "humor",
+                      "puntaje":  75,
+                      "gancho":  "Jason\u0027s buddy has a theory about everything",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-buddy-conspiracy-rant/clip.mp4",
+                      "ficha":  null,
+                      "duracion_seg":  38,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=rlluMwJXbqg",
+                                     "canal":  "Fox - No Copyright Gameplay",
+                                     "inicio":  990.01,
+                                     "fin":  1028.06
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "orden_en_fuente":  null,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "autorizado",
+                      "plataformas":  [
+                                          "youtube",
+                                          "tiktok",
+                                          "instagram",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-21",
+                      "motivo_descarte":  "politica de Rockstar: cinemática de la historia aislada (charla en el bote); además lleva una referencia sexual y groserías en el diálogo",
+                      "descartado_el":  "2026-11-21"
+                  },
+                  {
+                      "id":  "2026-11-20-gta6-jason-lucia-first-meet",
+                      "estado":  "descartado",
+                      "tipo":  "humor",
+                      "puntaje":  72,
+                      "gancho":  "How Jason and Lucia first meet",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-jason-lucia-first-meet/clip.mp4",
+                      "ficha":  null,
+                      "duracion_seg":  53.4,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=rlluMwJXbqg",
+                                     "canal":  "Fox - No Copyright Gameplay",
+                                     "inicio":  38,
+                                     "fin":  91.42
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "orden_en_fuente":  null,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "autorizado",
+                      "plataformas":  [
+                                          "youtube",
+                                          "tiktok",
+                                          "instagram",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-21",
+                      "motivo_descarte":  "politica de Rockstar: cinemática de la historia aislada (primera escena del juego, con los créditos sobreimpresos)",
+                      "descartado_el":  "2026-11-21"
+                  },
+                  {
+                      "id":  "2026-11-20-gta6-lucia-stickup",
+                      "estado":  "descartado",
+                      "tipo":  "historia",
+                      "puntaje":  73,
+                      "gancho":  "Lucia does NOT play around in GTA 6",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-lucia-stickup/clip.mp4",
+                      "ficha":  null,
+                      "duracion_seg":  47.5,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=rlluMwJXbqg",
+                                     "canal":  "Fox - No Copyright Gameplay",
+                                     "inicio":  687.93,
+                                     "fin":  735.42
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "orden_en_fuente":  null,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "autorizado",
+                      "plataformas":  [
+                                          "youtube",
+                                          "tiktok",
+                                          "instagram",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-21",
+                      "motivo_descarte":  "politica de Rockstar: escena de la historia aislada (prólogo de Lucía, spoiler) y groserías en el diálogo",
+                      "descartado_el":  "2026-11-21"
+                  },
+                  {
+                      "id":  "2026-11-20-gta6-jason-morning-snake",
+                      "estado":  "subido_a_mano",
+                      "tipo":  "vida_diaria",
+                      "puntaje":  null,
+                      "gancho":  "Leonida Daily #1: Jason\u0027s morning in the Keys",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-jason-morning-snake/narrado.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-jason-morning-snake/ficha.md",
+                      "duracion_seg":  20.4,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=konZi0msk6A",
+                                     "canal":  "Ftug - No Copyright Gameplay",
+                                     "inicio":  57,
+                                     "fin":  80
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "cuenta":  "gta-us",
+                      "formato":  "voz",
+                      "color":  "atardecer",
+                      "serie":  "Leonida Daily #1",
+                      "orden_en_fuente":  3,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "autorizado",
+                      "plataformas":  [
+                                          "youtube",
+                                          "tiktok",
+                                          "instagram",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-27",
+                      "subido_a_mano":  {
+                                            "plataforma":  "youtube",
+                                            "cuenta":  "gta-us",
+                                            "programado":  "2026-11-21T15:00:00-05:00",
+                                            "carpeta":  "c:\\tmp\\getaway-kings-subir\\canal-1-getaway-kings"
+                                        },
+                      "nota":  "subido a mano (carpetas c:\\tmp\\getaway-kings-subir)"
+                  },
+                  {
+                      "id":  "2026-11-20-gta6-keys-commute-pov",
+                      "estado":  "subido_a_mano",
+                      "tipo":  "vida_diaria",
+                      "puntaje":  null,
+                      "gancho":  "POV: your morning commute in the Keys",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-keys-commute-pov/narrado.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-keys-commute-pov/ficha.md",
+                      "duracion_seg":  18.8,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=konZi0msk6A",
+                                     "canal":  "Ftug - No Copyright Gameplay",
+                                     "inicio":  124,
+                                     "fin":  145
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "cuenta":  "gta-us",
+                      "formato":  "texto",
+                      "color":  "vice",
+                      "serie":  null,
+                      "orden_en_fuente":  4,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "autorizado",
+                      "plataformas":  [
+                                          "youtube",
+                                          "tiktok",
+                                          "instagram",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-27",
+                      "subido_a_mano":  {
+                                            "plataforma":  "youtube",
+                                            "cuenta":  "gta-us",
+                                            "programado":  "2026-11-22T09:00:00-05:00",
+                                            "carpeta":  "c:\\tmp\\getaway-kings-subir\\canal-1-getaway-kings"
+                                        },
+                      "nota":  "subido a mano (carpetas c:\\tmp\\getaway-kings-subir)"
+                  },
+                  {
+                      "id":  "2026-11-20-gta6-record-parrotfish",
+                      "estado":  "subido_a_mano",
+                      "tipo":  "vida_diaria",
+                      "puntaje":  null,
+                      "gancho":  "Leonida Daily #2: a record catch in the Keys",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-record-parrotfish/narrado.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-record-parrotfish/ficha.md",
+                      "duracion_seg":  22.5,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=e5x7k8fBqHM",
+                                     "canal":  "Fox - No Copyright Gameplay",
+                                     "inicio":  3601,
+                                     "fin":  3624
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "cuenta":  "gta-us",
+                      "formato":  "voz",
+                      "color":  "negro",
+                      "serie":  "Leonida Daily #2",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "autorizado",
+                      "plataformas":  [
+                                          "youtube",
+                                          "tiktok",
+                                          "instagram",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-27",
+                      "subido_a_mano":  {
+                                            "plataforma":  "youtube",
+                                            "cuenta":  "gta-us",
+                                            "programado":  "2026-11-22T12:00:00-05:00",
+                                            "carpeta":  "c:\\tmp\\getaway-kings-subir\\canal-1-getaway-kings"
+                                        },
+                      "nota":  "subido a mano (carpetas c:\\tmp\\getaway-kings-subir)"
+                  },
+                  {
+                      "id":  "2026-11-20-gta6-bike-helmet-pov",
+                      "estado":  "subido_a_mano",
+                      "tipo":  "vida_diaria",
+                      "puntaje":  null,
+                      "gancho":  "POV: safety first in Leonida",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-bike-helmet-pov/narrado.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-bike-helmet-pov/ficha.md",
+                      "duracion_seg":  17.6,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=e5x7k8fBqHM",
+                                     "canal":  "Fox - No Copyright Gameplay",
+                                     "inicio":  2146,
+                                     "fin":  2165
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "cuenta":  "gta-us",
+                      "formato":  "texto",
+                      "color":  "atardecer",
+                      "serie":  null,
+                      "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "autorizado",
+                      "plataformas":  [
+                                          "youtube",
+                                          "tiktok",
+                                          "instagram",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-27",
+                      "subido_a_mano":  {
+                                            "plataforma":  "youtube",
+                                            "cuenta":  "gta-us",
+                                            "programado":  "2026-11-22T15:00:00-05:00",
+                                            "carpeta":  "c:\\tmp\\getaway-kings-subir\\canal-1-getaway-kings"
+                                        },
+                      "nota":  "subido a mano (carpetas c:\\tmp\\getaway-kings-subir)"
+                  },
+                  {
+                      "id":  "2026-11-20-gta6-smoothie-buffs",
+                      "estado":  "subido_a_mano",
+                      "tipo":  "vida_diaria",
+                      "puntaje":  null,
+                      "gancho":  "Leonida Daily #3: is the smoothie worth it?",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-smoothie-buffs/narrado.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-smoothie-buffs/ficha.md",
+                      "duracion_seg":  21,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=konZi0msk6A",
+                                     "canal":  "Ftug - No Copyright Gameplay",
+                                     "inicio":  700,
+                                     "fin":  724
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "cuenta":  "gta-us",
+                      "formato":  "voz",
+                      "color":  "vice",
+                      "serie":  "Leonida Daily #3",
+                      "orden_en_fuente":  5,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "autorizado",
+                      "plataformas":  [
+                                          "youtube",
+                                          "tiktok",
+                                          "instagram",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-27",
+                      "subido_a_mano":  {
+                                            "plataforma":  "youtube",
+                                            "cuenta":  "gta-us",
+                                            "programado":  "2026-11-22T18:00:00-05:00",
+                                            "carpeta":  "c:\\tmp\\getaway-kings-subir\\canal-1-getaway-kings"
+                                        },
+                      "nota":  "subido a mano (carpetas c:\\tmp\\getaway-kings-subir)"
+                  },
+                  {
+                      "id":  "2026-11-20-gta6-dock-selfie-pov",
+                      "estado":  "subido_a_mano",
+                      "tipo":  "vida_diaria",
+                      "puntaje":  null,
+                      "gancho":  "POV: Jason\u0027s dock selfie",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-dock-selfie-pov/narrado.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-dock-selfie-pov/ficha.md",
+                      "duracion_seg":  18.8,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=e5x7k8fBqHM",
+                                     "canal":  "Fox - No Copyright Gameplay",
+                                     "inicio":  3218,
+                                     "fin":  3243
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "cuenta":  "gta-us",
+                      "formato":  "texto",
+                      "color":  "negro",
+                      "serie":  null,
+                      "orden_en_fuente":  3,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "autorizado",
+                      "plataformas":  [
+                                          "youtube",
+                                          "tiktok",
+                                          "instagram",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-27",
+                      "subido_a_mano":  {
+                                            "plataforma":  "youtube",
+                                            "cuenta":  "gta-us",
+                                            "programado":  "2026-11-22T21:00:00-05:00",
+                                            "carpeta":  "c:\\tmp\\getaway-kings-subir\\canal-1-getaway-kings"
+                                        },
+                      "nota":  "subido a mano (carpetas c:\\tmp\\getaway-kings-subir)"
+                  },
+                  {
+                      "id":  "2026-11-20-gta6-switch-car",
+                      "estado":  "subido_a_mano",
+                      "tipo":  "persecucion",
+                      "puntaje":  null,
+                      "gancho":  "Getaway Files #1: the switch car",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-switch-car/narrado.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-switch-car/ficha.md",
+                      "duracion_seg":  20,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=fIyXySnqDi8",
+                                     "canal":  "GTA 6 No Copyright Gameplay",
+                                     "inicio":  96,
+                                     "fin":  119
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "cuenta":  "gta-chases",
+                      "formato":  "voz",
+                      "color":  "atardecer",
+                      "serie":  "Getaway Files #1",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "autorizado",
+                      "plataformas":  [
+                                          "youtube",
+                                          "tiktok",
+                                          "instagram",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-27",
+                      "subido_a_mano":  {
+                                            "plataforma":  "youtube",
+                                            "cuenta":  "gta-chases",
+                                            "programado":  "2026-11-21T10:00:00-05:00",
+                                            "carpeta":  "c:\\tmp\\getaway-kings-subir\\canal-2-chases"
+                                        },
+                      "nota":  "subido a mano (carpetas c:\\tmp\\getaway-kings-subir)"
+                  },
+                  {
+                      "id":  "2026-11-20-gta6-lifted-truck-crash",
+                      "estado":  "subido_a_mano",
+                      "tipo":  "fail",
+                      "puntaje":  null,
+                      "gancho":  "POV: a lifted truck ruins your getaway",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-lifted-truck-crash/narrado.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-lifted-truck-crash/ficha.md",
+                      "duracion_seg":  15.2,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=fIyXySnqDi8",
+                                     "canal":  "GTA 6 No Copyright Gameplay",
+                                     "inicio":  20,
+                                     "fin":  37
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "cuenta":  "gta-chases",
+                      "formato":  "texto",
+                      "color":  "vice",
+                      "serie":  null,
+                      "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "autorizado",
+                      "plataformas":  [
+                                          "youtube",
+                                          "tiktok",
+                                          "instagram",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-27",
+                      "subido_a_mano":  {
+                                            "plataforma":  "youtube",
+                                            "cuenta":  "gta-chases",
+                                            "programado":  "2026-11-21T15:00:00-05:00",
+                                            "carpeta":  "c:\\tmp\\getaway-kings-subir\\canal-2-chases"
+                                        },
+                      "nota":  "subido a mano (carpetas c:\\tmp\\getaway-kings-subir)"
+                  },
+                  {
+                      "id":  "2026-11-20-gta6-tank-yard-getaway",
+                      "estado":  "subido_a_mano",
+                      "tipo":  "persecucion",
+                      "puntaje":  null,
+                      "gancho":  "POV: your getaway car is a tank",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-tank-yard-getaway/narrado.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-tank-yard-getaway/ficha.md",
+                      "duracion_seg":  15.4,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=Rg-AzVZzfOs",
+                                     "canal":  "GTA 6 No Copyright Gameplay",
+                                     "inicio":  126,
+                                     "fin":  143
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "cuenta":  "gta-chases",
+                      "formato":  "texto",
+                      "color":  "atardecer",
+                      "serie":  null,
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "autorizado",
+                      "plataformas":  [
+                                          "youtube",
+                                          "tiktok",
+                                          "instagram",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-27",
+                      "subido_a_mano":  {
+                                            "plataforma":  "youtube",
+                                            "cuenta":  "gta-chases",
+                                            "programado":  "2026-11-21T22:00:00-05:00",
+                                            "carpeta":  "c:\\tmp\\getaway-kings-subir\\canal-2-chases"
+                                        },
+                      "nota":  "subido a mano (carpetas c:\\tmp\\getaway-kings-subir)"
+                  },
+                  {
+                      "id":  "2026-11-20-gta6-six-star-tank",
+                      "estado":  "subido_a_mano",
+                      "tipo":  "persecucion",
+                      "puntaje":  null,
+                      "gancho":  "Getaway Files #2: the 6-star wanted level",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-six-star-tank/narrado.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-six-star-tank/ficha.md",
+                      "duracion_seg":  19,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=Rg-AzVZzfOs",
+                                     "canal":  "GTA 6 No Copyright Gameplay",
+                                     "inicio":  180,
+                                     "fin":  203
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "cuenta":  "gta-chases",
+                      "formato":  "voz",
+                      "color":  "negro",
+                      "serie":  "Getaway Files #2",
+                      "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "autorizado",
+                      "plataformas":  [
+                                          "youtube",
+                                          "tiktok",
+                                          "instagram",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-27",
+                      "subido_a_mano":  {
+                                            "plataforma":  "youtube",
+                                            "cuenta":  "gta-chases",
+                                            "programado":  "2026-11-22T10:00:00-05:00",
+                                            "carpeta":  "c:\\tmp\\getaway-kings-subir\\canal-2-chases"
+                                        },
+                      "nota":  "subido a mano (carpetas c:\\tmp\\getaway-kings-subir)"
+                  },
+                  {
+                      "id":  "2026-11-20-gta6-psycho-wasted",
+                      "estado":  "subido_a_mano",
+                      "tipo":  "fail",
+                      "puntaje":  null,
+                      "gancho":  "POV: GTA 6 calls you a psycho",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-psycho-wasted/narrado.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-psycho-wasted/ficha.md",
+                      "duracion_seg":  15.7,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=Rg-AzVZzfOs",
+                                     "canal":  "GTA 6 No Copyright Gameplay",
+                                     "inicio":  253,
+                                     "fin":  271
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "cuenta":  "gta-chases",
+                      "formato":  "texto",
+                      "color":  "negro",
+                      "serie":  null,
+                      "orden_en_fuente":  3,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "autorizado",
+                      "plataformas":  [
+                                          "youtube",
+                                          "tiktok",
+                                          "instagram",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-27",
+                      "subido_a_mano":  {
+                                            "plataforma":  "youtube",
+                                            "cuenta":  "gta-chases",
+                                            "programado":  "2026-11-22T14:00:00-05:00",
+                                            "carpeta":  "c:\\tmp\\getaway-kings-subir\\canal-2-chases"
+                                        },
+                      "nota":  "subido a mano (carpetas c:\\tmp\\getaway-kings-subir)"
+                  },
+                  {
+                      "id":  "2026-11-20-gta6-prison-wasted",
+                      "estado":  "subido_a_mano",
+                      "tipo":  "fail",
+                      "puntaje":  null,
+                      "gancho":  "Getaway Files #3: why this escape failed",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-prison-wasted/narrado.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-prison-wasted/ficha.md",
+                      "duracion_seg":  20.9,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=fIyXySnqDi8",
+                                     "canal":  "GTA 6 No Copyright Gameplay",
+                                     "inicio":  394,
+                                     "fin":  418
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "cuenta":  "gta-chases",
+                      "formato":  "voz",
+                      "color":  "vice",
+                      "serie":  "Getaway Files #3",
+                      "orden_en_fuente":  3,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "autorizado",
+                      "plataformas":  [
+                                          "youtube",
+                                          "tiktok",
+                                          "instagram",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-27",
+                      "subido_a_mano":  {
+                                            "plataforma":  "youtube",
+                                            "cuenta":  "gta-chases",
+                                            "programado":  "2026-11-22T19:00:00-05:00",
+                                            "carpeta":  "c:\\tmp\\getaway-kings-subir\\canal-2-chases"
+                                        },
+                      "nota":  "subido a mano (carpetas c:\\tmp\\getaway-kings-subir)"
+                  },
+                  {
+                      "id":  "2026-11-20-gta6-repaint-your-house",
+                      "estado":  "subido_a_mano",
+                      "tipo":  "detalle",
+                      "puntaje":  73,
+                      "gancho":  "You can repaint your own house in GTA 6",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-repaint-your-house/clip.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-repaint-your-house/ficha.md",
+                      "duracion_seg":  50,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=rlluMwJXbqg",
+                                     "canal":  "Fox - No Copyright Gameplay",
+                                     "inicio":  3395,
+                                     "fin":  3445
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "cuenta":  "gta-us",
+                      "formato":  "sin_narrar",
+                      "color":  null,
+                      "serie":  null,
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "autorizado",
+                      "plataformas":  [
+                                          "youtube",
+                                          "tiktok",
+                                          "instagram",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-27",
+                      "subido_a_mano":  {
+                                            "plataforma":  "youtube",
+                                            "cuenta":  "gta-us",
+                                            "programado":  "2026-11-20T17:00:00-05:00",
+                                            "carpeta":  null
+                                        },
+                      "nota":  "subido a mano (carpetas c:\\tmp\\getaway-kings-subir)"
+                  },
+                  {
+                      "id":  "2026-11-20-gta6-beach-camp-brawl",
+                      "estado":  "subido_a_mano",
+                      "tipo":  "humor",
+                      "puntaje":  72,
+                      "gancho":  "Never crash a beach camp in GTA 6",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-beach-camp-brawl/clip.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-beach-camp-brawl/ficha.md",
+                      "duracion_seg":  45,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=konZi0msk6A",
+                                     "canal":  "Ftug - No Copyright Gameplay",
+                                     "inicio":  410,
+                                     "fin":  455
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "cuenta":  "gta-us",
+                      "formato":  "sin_narrar",
+                      "color":  null,
+                      "serie":  null,
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "autorizado",
+                      "plataformas":  [
+                                          "youtube",
+                                          "tiktok",
+                                          "instagram",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-27",
+                      "subido_a_mano":  {
+                                            "plataforma":  "youtube",
+                                            "cuenta":  "gta-us",
+                                            "programado":  "2026-11-21T09:00:00-05:00",
+                                            "carpeta":  null
+                                        },
+                      "nota":  "subido a mano (carpetas c:\\tmp\\getaway-kings-subir)"
+                  },
+                  {
+                      "id":  "2026-11-20-gta6-kayak-the-keys",
+                      "estado":  "subido_a_mano",
+                      "tipo":  "vida_diaria",
+                      "puntaje":  70,
+                      "gancho":  "Kayaking the Keys in GTA 6 looks unreal",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-kayak-the-keys/clip.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-kayak-the-keys/ficha.md",
+                      "duracion_seg":  40,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=konZi0msk6A",
+                                     "canal":  "Ftug - No Copyright Gameplay",
+                                     "inicio":  180,
+                                     "fin":  220
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "cuenta":  "gta-us",
+                      "formato":  "sin_narrar",
+                      "color":  null,
+                      "serie":  null,
+                      "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "autorizado",
+                      "plataformas":  [
+                                          "youtube",
+                                          "tiktok",
+                                          "instagram",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-27",
+                      "subido_a_mano":  {
+                                            "plataforma":  "youtube",
+                                            "cuenta":  "gta-us",
+                                            "programado":  "2026-11-21T13:00:00-05:00",
+                                            "carpeta":  null
+                                        },
+                      "nota":  "subido a mano (carpetas c:\\tmp\\getaway-kings-subir)"
+                  },
+                  {
+                      "id":  "2026-11-20-gta6-real-workouts",
+                      "estado":  "subido_a_mano",
+                      "tipo":  "vida_diaria",
+                      "puntaje":  70,
+                      "gancho":  "GTA 6 has real workouts now",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-real-workouts/clip.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-real-workouts/ficha.md",
+                      "duracion_seg":  40,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=rlluMwJXbqg",
+                                     "canal":  "Fox - No Copyright Gameplay",
+                                     "inicio":  2793,
+                                     "fin":  2833
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "cuenta":  "gta-us",
+                      "formato":  "sin_narrar",
+                      "color":  null,
+                      "serie":  null,
+                      "orden_en_fuente":  4,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "autorizado",
+                      "plataformas":  [
+                                          "youtube",
+                                          "tiktok",
+                                          "instagram",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-27",
+                      "subido_a_mano":  {
+                                            "plataforma":  "youtube",
+                                            "cuenta":  "gta-us",
+                                            "programado":  "2026-11-21T17:00:00-05:00",
+                                            "carpeta":  null
+                                        },
+                      "nota":  "subido a mano (carpetas c:\\tmp\\getaway-kings-subir)"
+                  },
+                  {
+                      "id":  "2026-11-20-gta6-seaplane-water-landing",
+                      "estado":  "subido_a_mano",
+                      "tipo":  "satisfactorio",
+                      "puntaje":  71,
+                      "gancho":  "Landing a seaplane in a storm in GTA 6",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-seaplane-water-landing/clip.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-seaplane-water-landing/ficha.md",
+                      "duracion_seg":  35.7,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=rlluMwJXbqg",
+                                     "canal":  "Fox - No Copyright Gameplay",
+                                     "inicio":  1959.45,
+                                     "fin":  1995.18
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "cuenta":  "gta-us",
+                      "formato":  "sin_narrar",
+                      "color":  null,
+                      "serie":  null,
+                      "orden_en_fuente":  6,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "autorizado",
+                      "plataformas":  [
+                                          "youtube",
+                                          "tiktok",
+                                          "instagram",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-27",
+                      "subido_a_mano":  {
+                                            "plataforma":  "youtube",
+                                            "cuenta":  "gta-us",
+                                            "programado":  "2026-11-21T21:00:00-05:00",
+                                            "carpeta":  null
+                                        },
+                      "nota":  "subido a mano (carpetas c:\\tmp\\getaway-kings-subir)"
+                  },
+                  {
+                      "id":  "2026-11-20-gta6-seaplane-escape",
+                      "estado":  "subido_a_mano",
+                      "tipo":  "persecucion",
+                      "puntaje":  74,
+                      "gancho":  "Escaping a shootout by seaplane in GTA 6",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-seaplane-escape/clip.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-seaplane-escape/ficha.md",
+                      "duracion_seg":  49,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=rlluMwJXbqg",
+                                     "canal":  "Fox - No Copyright Gameplay",
+                                     "inicio":  1852,
+                                     "fin":  1900.94
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "cuenta":  "gta-chases",
+                      "formato":  "sin_narrar",
+                      "color":  null,
+                      "serie":  null,
+                      "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "autorizado",
+                      "plataformas":  [
+                                          "youtube",
+                                          "tiktok",
+                                          "instagram",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-27",
+                      "subido_a_mano":  {
+                                            "plataforma":  "youtube",
+                                            "cuenta":  "gta-chases",
+                                            "programado":  "2026-11-20T19:00:00-05:00",
+                                            "carpeta":  null
+                                        },
+                      "nota":  "subido a mano (carpetas c:\\tmp\\getaway-kings-subir)"
+                  },
+                  {
+                      "id":  "2026-11-20-gta6-swamp-gunfight",
+                      "estado":  "subido_a_mano",
+                      "tipo":  "accion",
+                      "puntaje":  69,
+                      "gancho":  "GTA 6 gunfights hit different",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-swamp-gunfight/clip.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-swamp-gunfight/ficha.md",
+                      "duracion_seg":  40,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=rlluMwJXbqg",
+                                     "canal":  "Fox - No Copyright Gameplay",
+                                     "inicio":  1705,
+                                     "fin":  1745
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "cuenta":  "gta-chases",
+                      "formato":  "sin_narrar",
+                      "color":  null,
+                      "serie":  null,
+                      "orden_en_fuente":  3,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "autorizado",
+                      "plataformas":  [
+                                          "youtube",
+                                          "tiktok",
+                                          "instagram",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-27",
+                      "subido_a_mano":  {
+                                            "plataforma":  "youtube",
+                                            "cuenta":  "gta-chases",
+                                            "programado":  "2026-11-21T12:00:00-05:00",
+                                            "carpeta":  null
+                                        },
+                      "nota":  "subido a mano (carpetas c:\\tmp\\getaway-kings-subir)"
+                  },
+                  {
+                      "id":  "2026-11-20-gta6-airdrop-boat-run",
+                      "estado":  "subido_a_mano",
+                      "tipo":  "paisaje",
+                      "puntaje":  68,
+                      "gancho":  "Catching airdrops by boat in GTA 6",
+                      "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-airdrop-boat-run/clip.mp4",
+                      "ficha":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-airdrop-boat-run/ficha.md",
+                      "duracion_seg":  42.1,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=rlluMwJXbqg",
+                                     "canal":  "Fox - No Copyright Gameplay",
+                                     "inicio":  1113,
+                                     "fin":  1155.1
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "gta",
+                      "cuenta":  "gta-chases",
+                      "formato":  "sin_narrar",
+                      "color":  null,
+                      "serie":  null,
+                      "orden_en_fuente":  5,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "autorizado",
+                      "plataformas":  [
+                                          "youtube",
+                                          "tiktok",
+                                          "instagram",
+                                          "facebook"
+                                      ],
+                      "ventana_hasta":  "2026-11-27",
+                      "subido_a_mano":  {
+                                            "plataforma":  "youtube",
+                                            "cuenta":  "gta-chases",
+                                            "programado":  "2026-11-21T19:00:00-05:00",
+                                            "carpeta":  null
+                                        },
+                      "nota":  "subido a mano (carpetas c:\\tmp\\getaway-kings-subir)"
+                  },
+                  {
                       "id":  "2026-11-19-gta6-tighter-roads",
-                      "estado":  "listo",
+                      "estado":  "descartado",
                       "tipo":  "revelacion",
                       "puntaje":  73,
                       "gancho":  "GTA 6 roads are way tighter than GTA 5",
@@ -29,11 +1468,13 @@
                                           "youtube",
                                           "facebook"
                                       ],
-                      "ventana_hasta":  "2026-11-24"
+                      "ventana_hasta":  "2026-11-24",
+                      "motivo_descarte":  "solo gameplay, no podcasts (Kinda Funny Gamescast)",
+                      "descartado_el":  "2026-11-21"
                   },
                   {
                       "id":  "2026-11-19-gta6-no-retry",
-                      "estado":  "listo",
+                      "estado":  "descartado",
                       "tipo":  "historia",
                       "puntaje":  75,
                       "gancho":  "GTA 6 doesn\u0027t let you retry this",
@@ -58,11 +1499,13 @@
                                           "youtube",
                                           "facebook"
                                       ],
-                      "ventana_hasta":  "2026-11-23"
+                      "ventana_hasta":  "2026-11-23",
+                      "motivo_descarte":  "solo gameplay, no podcasts (Kinda Funny Gamescast)",
+                      "descartado_el":  "2026-11-21"
                   },
                   {
                       "id":  "2026-11-19-gta6-jason-judged-truck",
-                      "estado":  "listo",
+                      "estado":  "descartado",
                       "tipo":  "humor",
                       "puntaje":  74,
                       "gancho":  "Even Jason judged his GTA 6 truck",
@@ -87,11 +1530,13 @@
                                           "youtube",
                                           "facebook"
                                       ],
-                      "ventana_hasta":  "2026-11-23"
+                      "ventana_hasta":  "2026-11-23",
+                      "motivo_descarte":  "solo gameplay, no podcasts (Kinda Funny Gamescast)",
+                      "descartado_el":  "2026-11-21"
                   },
                   {
                       "id":  "2026-11-19-gta6-once-in-a-lifetime",
-                      "estado":  "listo",
+                      "estado":  "descartado",
                       "tipo":  "prediccion",
                       "puntaje":  80,
                       "gancho":  "Why GTA 6 is a once-in-a-lifetime game",
@@ -116,11 +1561,13 @@
                                           "youtube",
                                           "facebook"
                                       ],
-                      "ventana_hasta":  "2026-11-23"
+                      "ventana_hasta":  "2026-11-23",
+                      "motivo_descarte":  "solo gameplay, no podcasts (Kinda Funny Gamescast)",
+                      "descartado_el":  "2026-11-21"
                   },
                   {
                       "id":  "2026-11-19-gta6-armored-car-22k",
-                      "estado":  "listo",
+                      "estado":  "descartado",
                       "tipo":  "historia",
                       "puntaje":  76,
                       "gancho":  "22 grand just fell in his lap",
@@ -145,11 +1592,13 @@
                                           "youtube",
                                           "facebook"
                                       ],
-                      "ventana_hasta":  "2026-11-23"
+                      "ventana_hasta":  "2026-11-23",
+                      "motivo_descarte":  "solo gameplay, no podcasts (Kinda Funny Gamescast)",
+                      "descartado_el":  "2026-11-21"
                   },
                   {
                       "id":  "2026-11-19-rockstar-took-it-personally",
-                      "estado":  "listo",
+                      "estado":  "descartado",
                       "tipo":  "frase",
                       "puntaje":  77,
                       "gancho":  "Rockstar took those GOTY losses personally",
@@ -174,11 +1623,13 @@
                                           "youtube",
                                           "facebook"
                                       ],
-                      "ventana_hasta":  "2026-11-24"
+                      "ventana_hasta":  "2026-11-24",
+                      "motivo_descarte":  "solo gameplay, no podcasts (Kinda Funny Gamescast)",
+                      "descartado_el":  "2026-11-21"
                   },
                   {
                       "id":  "2026-11-19-gta6-under-five-bugs",
-                      "estado":  "listo",
+                      "estado":  "descartado",
                       "tipo":  "revelacion",
                       "puntaje":  78,
                       "gancho":  "Under five bugs in 90 hours of GTA 6",
@@ -203,11 +1654,13 @@
                                           "youtube",
                                           "facebook"
                                       ],
-                      "ventana_hasta":  "2026-11-22"
+                      "ventana_hasta":  "2026-11-22",
+                      "motivo_descarte":  "solo gameplay, no podcasts (Kinda Funny Gamescast)",
+                      "descartado_el":  "2026-11-21"
                   },
                   {
                       "id":  "2026-11-19-gta6-jason-eats-chips",
-                      "estado":  "listo",
+                      "estado":  "descartado",
                       "tipo":  "humor",
                       "puntaje":  83,
                       "gancho":  "Rockstar thought about how Jason eats chips",
@@ -232,11 +1685,13 @@
                                           "youtube",
                                           "facebook"
                                       ],
-                      "ventana_hasta":  "2026-11-23"
+                      "ventana_hasta":  "2026-11-23",
+                      "motivo_descarte":  "solo gameplay, no podcasts (Kinda Funny Gamescast)",
+                      "descartado_el":  "2026-11-21"
                   },
                   {
                       "id":  "2026-11-19-gta6-trojan-horse-empathy",
-                      "estado":  "listo",
+                      "estado":  "descartado",
                       "tipo":  "frase",
                       "puntaje":  85,
                       "gancho":  "The \u0027Trojan horse\u0027 hidden in GTA 6",
@@ -261,11 +1716,13 @@
                                           "youtube",
                                           "facebook"
                                       ],
-                      "ventana_hasta":  "2026-11-23"
+                      "ventana_hasta":  "2026-11-23",
+                      "motivo_descarte":  "solo gameplay, no podcasts (Kinda Funny Gamescast)",
+                      "descartado_el":  "2026-11-21"
                   },
                   {
                       "id":  "2026-11-18-jason-arthur-morgan-vibe",
-                      "estado":  "listo",
+                      "estado":  "descartado",
                       "tipo":  "frase",
                       "puntaje":  71,
                       "gancho":  "Jason has an Arthur Morgan vibe?",
@@ -290,11 +1747,13 @@
                                           "youtube",
                                           "facebook"
                                       ],
-                      "ventana_hasta":  "2026-11-23"
+                      "ventana_hasta":  "2026-11-23",
+                      "motivo_descarte":  "solo gameplay, no streamers (reacción en directo de Luke Stephens)",
+                      "descartado_el":  "2026-11-21"
                   },
                   {
                       "id":  "2026-11-18-gta6-pro-yapper-speechless",
-                      "estado":  "listo",
+                      "estado":  "descartado",
                       "tipo":  "reaccion",
                       "puntaje":  71,
                       "gancho":  "GTA 6 left a pro yapper speechless",
@@ -319,11 +1778,13 @@
                                           "youtube",
                                           "facebook"
                                       ],
-                      "ventana_hasta":  "2026-11-22"
+                      "ventana_hasta":  "2026-11-22",
+                      "motivo_descarte":  "solo gameplay, no streamers (reacción en directo de Luke Stephens)",
+                      "descartado_el":  "2026-11-21"
                   },
                   {
                       "id":  "2026-11-18-rockstar-mad-scientist",
-                      "estado":  "listo",
+                      "estado":  "descartado",
                       "tipo":  "frase",
                       "puntaje":  72,
                       "gancho":  "Why Rockstar is gaming\u0027s mad scientist",
@@ -348,11 +1809,13 @@
                                           "youtube",
                                           "facebook"
                                       ],
-                      "ventana_hasta":  "2026-11-23"
+                      "ventana_hasta":  "2026-11-23",
+                      "motivo_descarte":  "solo gameplay, no streamers (reacción en directo de Luke Stephens)",
+                      "descartado_el":  "2026-11-21"
                   },
                   {
                       "id":  "2026-11-18-gta6-without-dan-houser",
-                      "estado":  "listo",
+                      "estado":  "descartado",
                       "tipo":  "frase",
                       "puntaje":  74,
                       "gancho":  "Worried about GTA 6 without Dan Houser?",
@@ -377,11 +1840,13 @@
                                           "youtube",
                                           "facebook"
                                       ],
-                      "ventana_hasta":  "2026-11-23"
+                      "ventana_hasta":  "2026-11-23",
+                      "motivo_descarte":  "solo gameplay, no streamers (reacción en directo de Luke Stephens)",
+                      "descartado_el":  "2026-11-21"
                   },
                   {
                       "id":  "2026-11-18-rockstar-says-yes",
-                      "estado":  "listo",
+                      "estado":  "descartado",
                       "tipo":  "frase",
                       "puntaje":  75,
                       "gancho":  "Rockstar says yes where other studios say no",
@@ -406,11 +1871,13 @@
                                           "youtube",
                                           "facebook"
                                       ],
-                      "ventana_hasta":  "2026-11-23"
+                      "ventana_hasta":  "2026-11-23",
+                      "motivo_descarte":  "solo gameplay, no streamers (reacción en directo de Luke Stephens)",
+                      "descartado_el":  "2026-11-21"
                   },
                   {
                       "id":  "2026-11-18-gta6-lose-the-cops",
-                      "estado":  "listo",
+                      "estado":  "descartado",
                       "tipo":  "consejo",
                       "puntaje":  77,
                       "gancho":  "How to lose the cops in GTA 6",
@@ -435,11 +1902,13 @@
                                           "youtube",
                                           "facebook"
                                       ],
-                      "ventana_hasta":  "2026-11-26"
+                      "ventana_hasta":  "2026-11-26",
+                      "motivo_descarte":  "solo gameplay, no streamers (reacción en directo de Luke Stephens)",
+                      "descartado_el":  "2026-11-21"
                   },
                   {
                       "id":  "2026-11-18-gta6-jumbo-jet",
-                      "estado":  "listo",
+                      "estado":  "descartado",
                       "tipo":  "reaccion",
                       "puntaje":  79,
                       "gancho":  "You CAN fly a jumbo jet in GTA 6",
@@ -464,11 +1933,13 @@
                                           "youtube",
                                           "facebook"
                                       ],
-                      "ventana_hasta":  "2026-11-22"
+                      "ventana_hasta":  "2026-11-22",
+                      "motivo_descarte":  "solo gameplay, no streamers (reacción en directo de Luke Stephens)",
+                      "descartado_el":  "2026-11-21"
                   },
                   {
                       "id":  "2026-11-18-gta6-30fps-take",
-                      "estado":  "listo",
+                      "estado":  "descartado",
                       "tipo":  "frase",
                       "puntaje":  78,
                       "gancho":  "His take on GTA 6 running at 30 FPS",
@@ -493,11 +1964,13 @@
                                           "youtube",
                                           "facebook"
                                       ],
-                      "ventana_hasta":  "2026-11-22"
+                      "ventana_hasta":  "2026-11-22",
+                      "motivo_descarte":  "solo gameplay, no streamers (reacción en directo de Luke Stephens)",
+                      "descartado_el":  "2026-11-21"
                   },
                   {
                       "id":  "2026-11-18-gta6-dont-raise-brightness",
-                      "estado":  "listo",
+                      "estado":  "descartado",
                       "tipo":  "consejo",
                       "puntaje":  83,
                       "gancho":  "GTA 6 tip: do NOT raise the brightness",
@@ -522,11 +1995,13 @@
                                           "youtube",
                                           "facebook"
                                       ],
-                      "ventana_hasta":  "2026-11-26"
+                      "ventana_hasta":  "2026-11-26",
+                      "motivo_descarte":  "solo gameplay, no streamers (reacción en directo de Luke Stephens)",
+                      "descartado_el":  "2026-11-21"
                   },
                   {
                       "id":  "2026-11-18-lucia-greatest-female-character",
-                      "estado":  "listo",
+                      "estado":  "descartado",
                       "tipo":  "humor",
                       "puntaje":  83,
                       "gancho":  "Is Lucia the GOAT female game character?",
@@ -551,11 +2026,13 @@
                                           "youtube",
                                           "facebook"
                                       ],
-                      "ventana_hasta":  "2026-11-22"
+                      "ventana_hasta":  "2026-11-22",
+                      "motivo_descarte":  "solo gameplay, no streamers (reacción en directo de Luke Stephens)",
+                      "descartado_el":  "2026-11-21"
                   },
                   {
                       "id":  "2026-11-18-gta6-confirms-old-leak",
-                      "estado":  "listo",
+                      "estado":  "descartado",
                       "tipo":  "revelacion",
                       "puntaje":  84,
                       "gancho":  "GTA 6 just confirmed a 4-year-old leak",
@@ -580,11 +2057,13 @@
                                           "youtube",
                                           "facebook"
                                       ],
-                      "ventana_hasta":  "2026-11-22"
+                      "ventana_hasta":  "2026-11-22",
+                      "motivo_descarte":  "solo gameplay, no streamers (reacción en directo de Luke Stephens)",
+                      "descartado_el":  "2026-11-21"
                   },
                   {
                       "id":  "2026-11-18-gta6-99-after-146-reviews",
-                      "estado":  "listo",
+                      "estado":  "descartado",
                       "tipo":  "revelacion",
                       "puntaje":  86,
                       "gancho":  "GTA 6 has a 99 after 146 reviews",
@@ -609,11 +2088,13 @@
                                           "youtube",
                                           "facebook"
                                       ],
-                      "ventana_hasta":  "2026-11-21"
+                      "ventana_hasta":  "2026-11-21",
+                      "motivo_descarte":  "solo gameplay, no streamers (reacción en directo de Luke Stephens)",
+                      "descartado_el":  "2026-11-21"
                   },
                   {
                       "id":  "2026-11-18-kai-directed-gta6-trailer",
-                      "estado":  "listo",
+                      "estado":  "descartado",
                       "tipo":  "revelacion",
                       "puntaje":  72,
                       "gancho":  "Kai Cenat directed his own GTA 6 trailer",
@@ -638,11 +2119,13 @@
                                           "youtube",
                                           "facebook"
                                       ],
-                      "ventana_hasta":  "2026-11-21"
+                      "ventana_hasta":  "2026-11-21",
+                      "motivo_descarte":  "solo gameplay, no streamers",
+                      "descartado_el":  "2026-11-21"
                   },
                   {
                       "id":  "2026-11-18-kai-goodbye-gta-5",
-                      "estado":  "listo",
+                      "estado":  "descartado",
                       "tipo":  "emotivo",
                       "puntaje":  79,
                       "gancho":  "Kai Cenat\u0027s goodbye to GTA 5",
@@ -667,11 +2150,13 @@
                                           "youtube",
                                           "facebook"
                                       ],
-                      "ventana_hasta":  "2026-11-21"
+                      "ventana_hasta":  "2026-11-21",
+                      "motivo_descarte":  "solo gameplay, no streamers",
+                      "descartado_el":  "2026-11-21"
                   },
                   {
                       "id":  "2026-11-18-kai-window-dive-stunt",
-                      "estado":  "listo",
+                      "estado":  "descartado",
                       "tipo":  "humor",
                       "puntaje":  78,
                       "gancho":  "Kai Cenat vs. a head-first window dive",
@@ -696,11 +2181,13 @@
                                           "youtube",
                                           "facebook"
                                       ],
-                      "ventana_hasta":  "2026-11-21"
+                      "ventana_hasta":  "2026-11-21",
+                      "motivo_descarte":  "solo gameplay, no streamers",
+                      "descartado_el":  "2026-11-21"
                   },
                   {
                       "id":  "2026-11-18-wiz-kai-more-than-streamer",
-                      "estado":  "listo",
+                      "estado":  "descartado",
                       "tipo":  "frase",
                       "puntaje":  79,
                       "gancho":  "Wiz Khalifa on who Kai Cenat really is",
@@ -725,11 +2212,13 @@
                                           "youtube",
                                           "facebook"
                                       ],
-                      "ventana_hasta":  "2026-11-22"
+                      "ventana_hasta":  "2026-11-22",
+                      "motivo_descarte":  "solo gameplay, no streamers",
+                      "descartado_el":  "2026-11-21"
                   },
                   {
                       "id":  "2026-11-18-kai-here-we-go-again",
-                      "estado":  "listo",
+                      "estado":  "descartado",
                       "tipo":  "humor",
                       "puntaje":  84,
                       "gancho":  "Kai Cenat brought back THE San Andreas line",
@@ -754,7 +2243,9 @@
                                           "youtube",
                                           "facebook"
                                       ],
-                      "ventana_hasta":  "2026-11-21"
+                      "ventana_hasta":  "2026-11-21",
+                      "motivo_descarte":  "solo gameplay, no streamers",
+                      "descartado_el":  "2026-11-21"
                   }
               ]
 }

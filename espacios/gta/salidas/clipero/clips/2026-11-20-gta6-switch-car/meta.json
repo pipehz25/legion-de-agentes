@@ -1,0 +1,30 @@
+{
+    "id":  "2026-11-20-gta6-switch-car",
+    "url_fuente":  "https://www.youtube.com/watch?v=fIyXySnqDi8",
+    "video_id":  "fIyXySnqDi8",
+    "inicio":  96,
+    "fin":  119,
+    "inicio_hms":  "0:01:36",
+    "duracion_seg":  23,
+    "gancho":  "Getaway Files #1: the switch car",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "atardecer",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -24.4,
+                  "entrada_tp":  -11.67,
+                  "salida_lufs":  -14.15,
+                  "salida_tp":  -1.27
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-switch-car/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-switch-car/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-20-gta6-switch-car/revision.jpg",
+    "creado":  "2026-11-20T16:05:15.3101236-05:00"
+}

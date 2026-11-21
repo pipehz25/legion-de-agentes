@@ -1,0 +1,30 @@
+{
+    "id":  "2026-11-21-gta6-storm-crash",
+    "url_fuente":  "https://www.youtube.com/watch?v=kOeloBZgU5k",
+    "video_id":  "kOeloBZgU5k",
+    "inicio":  158,
+    "fin":  179,
+    "inicio_hms":  "0:02:38",
+    "duracion_seg":  21,
+    "gancho":  "POV: you told everyone you can drift",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "atardecer",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -20.26,
+                  "entrada_tp":  -7.45,
+                  "salida_lufs":  -14.06,
+                  "salida_tp":  -1.19
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-storm-crash/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-storm-crash/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-storm-crash/revision.jpg",
+    "creado":  "2026-11-21T12:56:58.4758516-05:00"
+}

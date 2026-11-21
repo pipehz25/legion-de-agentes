@@ -1,0 +1,30 @@
+{
+    "id":  "2026-11-21-gta6-impound-breakout",
+    "url_fuente":  "https://www.youtube.com/watch?v=kOeloBZgU5k",
+    "video_id":  "kOeloBZgU5k",
+    "inicio":  279,
+    "fin":  299,
+    "inicio_hms":  "0:04:39",
+    "duracion_seg":  20,
+    "gancho":  "Getaway Files #4: the impound job",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "atardecer",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -21.86,
+                  "entrada_tp":  -9.17,
+                  "salida_lufs":  -14.27,
+                  "salida_tp":  -1.31
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-impound-breakout/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-impound-breakout/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-impound-breakout/revision.jpg",
+    "creado":  "2026-11-21T12:46:24.0121841-05:00"
+}
