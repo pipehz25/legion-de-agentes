@@ -172,7 +172,7 @@ function PedirCodigo([string]$url, [string]$redir, [string]$estado) {
     Write-Host 'Se abre el navegador para autorizar la cuenta. Si no se abre, copia esta direccion:'
     Write-Host $url
     Start-Process $url
-    $limite = (Get-Date).AddMinutes(5)
+    $limite = (Get-Date).AddMinutes(10)
     try {
         while ((Get-Date) -lt $limite) {
             foreach ($l in $escuchas) {
@@ -189,22 +189,24 @@ function PedirCodigo([string]$url, [string]$redir, [string]$estado) {
                             if ($kv.Count -eq 2) { $q[[Uri]::UnescapeDataString($kv[0])] = [Uri]::UnescapeDataString($kv[1].Replace('+', ' ')) }
                         }
                     }
-                    $html = if ($q.ContainsKey('code') -or $q.ContainsKey('error')) { 'Listo. Ya puedes cerrar esta ventana y volver a PowerShell.' } else { '' }
+                    # Una pestana de un intento anterior trae otro state: se le avisa y se sigue esperando la buena
+                    $respuesta = $q.ContainsKey('code') -or $q.ContainsKey('error')
+                    $valido = $respuesta -and ($q['state'] -eq $estado)
+                    $html = if (-not $respuesta) { '' } elseif ($valido) { 'Listo. Ya puedes cerrar esta ventana y volver a PowerShell.' } else { 'Esta pestana es de un intento anterior. Cierrala y usa la pestana nueva.' }
                     $cuerpo = [Text.Encoding]::ASCII.GetBytes($html)
                     $cab = [Text.Encoding]::ASCII.GetBytes("HTTP/1.1 200 OK`r`nContent-Type: text/plain; charset=utf-8`r`nContent-Length: $($cuerpo.Length)`r`nConnection: close`r`n`r`n")
                     $flujo.Write($cab, 0, $cab.Length)
                     $flujo.Write($cuerpo, 0, $cuerpo.Length)
                     $flujo.Flush()
                 } finally { $cliente.Close() }
+                if (-not $respuesta) { continue }
+                if (-not $valido) { Write-Host 'Llego la respuesta de una pestana vieja (state distinto); se ignora y se sigue esperando.'; continue }
                 if ($q.ContainsKey('error')) { throw "La plataforma rechazo la autorizacion: $($q['error']) $($q['error_description'])" }
-                if ($q.ContainsKey('code')) {
-                    if ($q['state'] -ne $estado) { throw 'El parametro state no coincide; se cancela por seguridad.' }
-                    return $q['code']
-                }
+                return $q['code']
             }
             Start-Sleep -Milliseconds 200
         }
-        throw 'No llego la autorizacion en 5 minutos.'
+        throw 'No llego la autorizacion en 10 minutos.'
     } finally { foreach ($l in $escuchas) { $l.Stop() } }
 }
 
