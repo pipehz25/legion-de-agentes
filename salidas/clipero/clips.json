@@ -1,7 +1,148 @@
 {
-    "generado":  "2026-11-18T01:50:00-05:00",
-    "ciclo":  18,
+    "generado":  "2026-11-21T11:45:00-05:00",
+    "ciclo":  19,
     "clips":  [
+                  {
+                      "id":  "2026-11-21-cotorrisa-firma-tianguis",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  76,
+                      "gancho":  "Su firma, en un tianguis a 50 pesos",
+                      "archivo":  "salidas/clipero/clips/2026-11-21-cotorrisa-firma-tianguis/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-21-cotorrisa-firma-tianguis/ficha.md",
+                      "duracion_seg":  74.9,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=9QTq4B02vaA",
+                                     "canal":  "Slobotzky (La Cotorrisa)",
+                                     "inicio":  3950.25,
+                                     "fin":  4025.06
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-24"
+                  },
+                  {
+                      "id":  "2026-11-21-ganga-hit-cuatro-horas",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  75,
+                      "gancho":  "La Ganga pide un hit mundial en 4 horas",
+                      "archivo":  "salidas/clipero/clips/2026-11-21-ganga-hit-cuatro-horas/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-21-ganga-hit-cuatro-horas/ficha.md",
+                      "duracion_seg":  44.2,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=AYFdSyu_Lfo",
+                                     "canal":  "Samulx",
+                                     "inicio":  403.25,
+                                     "fin":  447.46
+                                 },
+                      "oportunidad_cazador":  "formato-el-dia-despues-del-protagonista",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-23"
+                  },
+                  {
+                      "id":  "2026-11-21-roy-barreras-neruda",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  74,
+                      "gancho":  "Roy Barreras le cambia la letra a Neruda",
+                      "archivo":  "salidas/clipero/clips/2026-11-21-roy-barreras-neruda/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-21-roy-barreras-neruda/ficha.md",
+                      "duracion_seg":  50.4,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=qo3BPfZ6vZI",
+                                     "canal":  "Caracol Radio (La Luciérnaga)",
+                                     "inicio":  9467.69,
+                                     "fin":  9518.1
+                                 },
+                      "oportunidad_cazador":  "formato-humorista-entrevista-politico",
+                      "linea":  "risas",
+                      "politica":  "centroizquierda: Roy Barreras en persona (progresismo, exaliado de Petro; en el programa se define liberal socialdemócrata, de centro); autoburla sobre la presidencia que no consiguió, no es un imitador",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-23"
+                  },
+                  {
+                      "id":  "2026-11-21-lonche-hormigas-culonas",
+                      "estado":  "listo",
+                      "tipo":  "reaccion",
+                      "puntaje":  74,
+                      "gancho":  "Mexicanos prueban hormigas culonas en Provenza",
+                      "archivo":  "salidas/clipero/clips/2026-11-21-lonche-hormigas-culonas/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-21-lonche-hormigas-culonas/ficha.md",
+                      "duracion_seg":  50.6,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=CGICIcJ8lCY",
+                                     "canal":  "Lonche Chacas",
+                                     "inicio":  693.89,
+                                     "fin":  744.5
+                                 },
+                      "oportunidad_cazador":  "formato-primera-vez-en-medellin",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-23"
+                  },
+                  {
+                      "id":  "2026-11-21-drunk-casting-tigo",
+                      "estado":  "listo",
+                      "tipo":  "historia",
+                      "puntaje":  73,
+                      "gancho":  "El casting de Tigo: \u0027a alguien van a echar\u0027",
+                      "archivo":  "salidas/clipero/clips/2026-11-21-drunk-casting-tigo/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-21-drunk-casting-tigo/ficha.md",
+                      "duracion_seg":  66.3,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=a_A7VV9qO-U",
+                                     "canal":  "Juanpis González (Drunk Comedy)",
+                                     "inicio":  1882.86,
+                                     "fin":  1949.11
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-24"
+                  },
                   {
                       "id":  "2026-11-18-luciernaga-imitadores-iva",
                       "estado":  "listo",

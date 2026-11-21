@@ -1,6 +1,12 @@
 # Lo que no se vio (el día después, contado por el protagonista)
 
-> **Estado (18-nov, 00:30, ciclo 15): vigente hasta el 22-nov, con puntaje 84 (sin cambios).** Lo nuevo:
+> **Estado (21-nov, 10:55, ciclo 17): vigente hasta el 23-nov, con puntaje 80 (82 en el ciclo 16 y 84 en el 15).** Lo nuevo:
+> - **El día después de un directo emitido entero rinde en su línea, no más.** Samulx titula con pregunta ['HABLANDO DEL PROYECTO DE LA GANGA ¿QUE PASO ANTIER? 😂'](https://www.youtube.com/watch?v=AYFdSyu_Lfo) y va a 0,93 veces su mediana (2.365/h a las 13,3 h); en el ciclo 16, '¿QUÉ PASÓ AYER?' iba a 1,21. Las copias de terceros ('¿SE ACABA LA GANGA? ¿QUÉ PASÓ ANTIER?', 45/h) no rinden. La pregunta en el título funciona si hay algo que no se vio, y en las 72 horas de La Ganga casi todo se ve.
+> - **Kris R no ha contado nada de su concierto del 20-nov:** 14 h después, nada en su canal ni en la búsqueda. Si sube algo o da una entrevista el 21 o el 22, es la aplicación principal ("¿Qué pasó en el DAVIarena?", con lo que cuente él). Lo único del concierto es la cámara de Lonche (re-subida por [LONCHI](https://www.youtube.com/watch?v=X2TYu7d_UtA)): sirve para la ficha de la noche en 3 momentos, no para esta.
+> - **La final de la Sudamericana es esta noche en Barranquilla,** y Davoo y La Cobra viajaron para verla (ciclo 16). Si uno de ellos cuenta el día después en primera persona (el viaje, la ciudad, la hinchada), publicar el 22-nov. El análisis del partido queda fuera.
+> - Nada sobre Herrera.
+>
+> **Estado anterior (18-nov, 00:30, ciclo 15): vigente hasta el 22-nov, con puntaje 84 (sin cambios).** Lo nuevo:
 > - **No hubo evento nuevo en la ventana.** El video de Westcol sobre Herrera se sostiene: 544.848 vistas a las 26,3 h (20.717/h), 10,9 veces su mediana. Herrera sigue parado: no se corta nada más sobre él.
 > - **Próxima aplicación, el final de las 24 horas con La Ganga.** El directo acaba hacia las 15:40 del 18-nov. Lo que cuente cada uno al terminar (por qué alguien se fue antes, qué no salió en cámara, cómo quedó La Guarida) es esta ficha, con la pregunta en el gancho: "¿Aguantaron las 24 horas?" o "Lo que no se vio de las 24 horas". Publicar el 18 por la noche y el 19; ese día sale GTA VI y los directos cambian de tema.
 > - **El concierto de Kris R queda confirmado: viernes 20-nov a las 20:00 en el DAVIarena** (Minuto30, Rio Times, Concerts50). Publicar del 21 al 22-nov con lo que cuente él.

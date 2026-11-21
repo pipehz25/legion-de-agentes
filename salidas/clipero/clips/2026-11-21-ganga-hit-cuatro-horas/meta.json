@@ -1,0 +1,30 @@
+{
+    "id":  "2026-11-21-ganga-hit-cuatro-horas",
+    "url_fuente":  "https://www.youtube.com/watch?v=AYFdSyu_Lfo",
+    "video_id":  "AYFdSyu_Lfo",
+    "inicio":  403.25,
+    "fin":  447.46,
+    "inicio_hms":  "0:06:43",
+    "duracion_seg":  44.2,
+    "gancho":  "La Ganga pide un hit mundial en 4 horas",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  143,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "color":  "",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -21.48,
+                  "entrada_tp":  -13.62,
+                  "salida_lufs":  -13.94,
+                  "salida_tp":  -6.14
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-21-ganga-hit-cuatro-horas/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-21-ganga-hit-cuatro-horas/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-21-ganga-hit-cuatro-horas/revision.jpg",
+    "creado":  "2026-11-21T11:28:35.5555638-05:00"
+}

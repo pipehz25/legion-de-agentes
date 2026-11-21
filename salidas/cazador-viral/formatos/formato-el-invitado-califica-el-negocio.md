@@ -1,6 +1,12 @@
 # El invitado le califica el negocio al anfitrión (en su cara)
 
-> **Estado (18-nov, 00:30, ciclo 15): en vigilancia hasta el 19-nov, con puntaje 68 (antes 69).** Lo nuevo:
+> **Estado (21-nov, 10:55, ciclo 17): vuelve a estar vigente hasta el 23-nov, con puntaje 78.** Su patrón base, `formato-primera-vez-en-medellin`, pasó a emergente en el ciclo 16 (80) con la bandeja paisa de Lonche Chacas. Lo nuevo:
+> - **Los mexicanos siguen en Medellín con las 72 horas de La Ganga** (desde la noche del 20-nov) y Westcol hace de guía: ['WESTCOL NOS LLEVA DE TOUR POR PROVENZA, MEDELLÍN'](https://www.youtube.com/watch?v=Rf51CjEu-1M) (Lonche y Willito, 455/h, en su línea) y el contraplano desde su cámara ([juan diego mm](https://www.youtube.com/watch?v=B7q4ptqEvZU), 403/h).
+> - **Rinde el lugar nuevo; repetir el plato, no.** ['ASI ES PROVENZA DE NOCHE'](https://www.youtube.com/watch?v=CGICIcJ8lCY) va a 2,35 veces lo del canal (Lonche Chacas, 950/h) y ['TUVE UNA CENA DE LUJO'](https://www.youtube.com/watch?v=BhzALvos8YI) a 1,3. ['PROBANDO LA MEJOR NATILLA'](https://www.youtube.com/watch?v=F4g5avXO5mU), con la misma plantilla que la bandeja paisa (12 veces el 18-nov), se queda en 0,67. Para el gancho: el sitio o el momento concreto ("Provenza de noche, por primera vez"), no otra vez "la mejor X".
+> - **El clip sigue siendo el veredicto en la cara del anfitrión:** el mexicano califica el plato, el sitio o el precio delante de Westcol. Pregunta final: "¿Le dio la nota justa?".
+> - Nada de alcohol, fiesta con mujeres ni drogas. En la charla '¿México es más peligroso que Colombia?', nada de narcotráfico, armas ni víctimas concretas.
+>
+> **Estado anterior (18-nov, 00:30, ciclo 15): en vigilancia hasta el 19-nov, con puntaje 68 (antes 69).** Lo nuevo:
 > - **El gancho "por primera vez" ya no rinde en las réplicas nuevas:** 'LA GANGA COMPLETA REUNIDA POR PRIMERA VEZ' de The Chanty va a 176/h y la copia de AltaPeli a 3/h. El gancho del día es "la despedida" (de La Guarida). Solo la pieza de Samulx se sostiene (2,54 veces su mediana a las 24 h).
 > - **Lo más cercano al forastero que califica:** Lonche contando ['ESTO ME PASO EN COLOMBIA CUANDO PEDI un UBER'](https://www.youtube.com/watch?v=mpp-5_6pdiM) (305/h). Es choque cultural, pero sin el negocio del anfitrión.
 > - **Última ocasión, los VOD de las 24 horas (18-nov por la tarde).** Si un mexicano prueba y califica algo de Westcol o de la ciudad delante de él, es la pieza. Si no, la ficha sale de las recomendaciones el 19-nov.

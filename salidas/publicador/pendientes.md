@@ -1,70 +1,60 @@
 # Pendientes del Publicador
 
-Generado: 2026-11-20T21:24:00-05:00 · ciclo 13 · entrada: `salidas/clipero/clips.json` (ciclo 18 del Clipero, generado el 2026-11-18 a las 01:50): sin clips nuevos desde el ciclo 12.
+Generado: 2026-11-21T11:49:36-05:00 · ciclo 14 · entrada: `salidas/clipero/clips.json` (ciclo 19 del Clipero, generado el 2026-11-21 a las 11:45): 5 clips nuevos.
 
 **Cómo leer esta página**
 
-- **TikTok, hoy (21:15-21:16):** 5 borradores nuevos. Están en la bandeja de su cuenta y no son públicos hasta que los publicas desde la app. La API solo manda el video: al publicarlo, **pega el texto de TikTok** de su sección.
-  - `ganga-guarida-toretto` → `principal`
-  - `culpa-marin-despide-quevedo` → `risas`
-  - `ganga-bienvenida-piscina` → `principal`
-  - `luciernaga-imitadores-iva` → `risas`
-  - `westcol-show-kris-r` → `principal`
-  - Publica los dos de La Ganga a horas distintas, y `ganga-bienvenida-piscina` solo después de verlo entero. `westcol-show-kris-r` va el día del concierto de Kris R.
-  - Los dos de La Culpa son del mismo capítulo: `culpa-mama-carrazo` no entró hoy (abajo), así que no coinciden.
-- **TikTok cortó la cuenta `risas` a las 21:17** con `spam_risk_too_many_pending_share` (borradores pendientes: llevaba 6 en 24 h, los 4 del 19-nov por la noche y los 2 de hoy). Se paró esa cuenta en este ciclo:
-  - **`culpa-mama-carrazo` no entró** (intento 1 de 2) y su ventana acaba hoy. Sin más, vence en el próximo ciclo. Si lo quieres mañana: `/publicador aprobar 2026-11-17-culpa-mama-carrazo:tiktok`.
-  - **`renona-checo-dinosaurios`** no se intentó: pasa al 21-nov, el día que vence.
-  - Publicar o descartar borradores desde la app libera sitio: `risas` tiene 25 sin publicar según la API.
+- **TikTok, hoy (11:47):** 1 borrador nuevo, en la bandeja de `principal` (Legión Urbana): `ganga-hit-cuatro-horas`. No es público hasta que lo publicas desde la app. La API solo manda el video: al publicarlo, **pega el texto de TikTok** de su sección. La ficha sugiere publicarlo hoy o mañana a las 19:00.
+- **TikTok `risas`: hoy no se subió nada todavía.** Se espera a que pasen 24 h desde que TikTok cortó la cuenta (`spam_risk_too_many_pending_share`, 20-nov a las 21:17). **Hace falta un ciclo esta noche, entre las 21:17 y las 23:00:**
+  - **`risas`, esta noche:** `renona-checo-dinosaurios` y `olga-agua-mostaza` (**vencen hoy**), `juanpis-pestilencia-juicio-tv` (vence el 22-nov) y `roy-barreras-neruda` (vence el 23-nov, el que antes caduca de los nuevos).
+  - **`principal`, esta noche:** `lonche-hormigas-culonas`, para publicarlo el 22-nov a las 19:00, un día después de `ganga-hit-cuatro-horas` (ficha).
+  - **22-nov, `risas`:** `cotorrisa-firma-tianguis` y `drunk-casting-tigo` (vencen el 24-nov).
+  - Si TikTok vuelve a responder `spam_risk_too_many_pending_share`, se para esa cuenta y lo demás pasa al día siguiente.
+- **`culpa-mama-carrazo` venció en TikTok** (ventana hasta el 20-nov, sin aprobación expresa). Si lo quieres igualmente: `/publicador aprobar 2026-11-17-culpa-mama-carrazo:tiktok`.
 - **Caso Herrera** (pasa a lo legal; Cazador Urbano, 17-nov). Nada se reabre:
   - **`westcol-disculpa-pelea-jh` está en la bandeja de Legión Urbana: no lo publiques.** Descártalo desde la app (la API no puede borrarlo).
   - **`westcol-herrera-no-planeado`:** el envío del 17-nov dio HTTP 500 y no se sabe si llegó. No se reintenta: si está en la bandeja, descártalo.
-- **Bandeja según la API: 55 borradores sin publicar** (30 en `principal` y 25 en `risas`). 49 tienen la ventana cerrada (tabla al final del resumen) y 5 vencen hoy, los de esta noche. **Publica o descarta** desde la app los que ya no quieras.
-- **Plan de TikTok** (4 borradores al día por cuenta, primero la ventana más cercana y después el puntaje):
-  - **`risas`, 21-nov:** `renona-checo-dinosaurios`, `juanpis-pestilencia-juicio-tv` y `olga-agua-mostaza`, más `culpa-mama-carrazo` si lo apruebas. Mejor después de las 21:17, cuando los borradores de hoy salen de la ventana de 24 h.
-  - **`principal`:** no queda nada en cola.
-  - **Vencieron hoy sin enviarse** (ventana hasta el 19-nov; ese día `risas` ya llevaba 4 de 4): `cotorrisa-paloma-medalla`, `cotorrisa-refri-papas`, `hh-colada-tres-minutos`, `hh-lluvia-lima`, `hh-temblor-hijos`. Si quieres alguno igualmente: `/publicador aprobar <clip-id>:tiktok`.
+- **Bandeja según la API: 56 borradores sin publicar** (31 en `principal` y 25 en `risas`). Los 55 anteriores a hoy tienen la ventana cerrada (tabla al final del resumen). **Publica o descarta** desde la app los que ya no quieras: así TikTok acepta mejor los de esta noche.
 - **Instagram y YouTube:** pendientes de aprobación. Siguen sin activar y sin credenciales: aprobar ahora solo deja el envío listo.
   - **YouTube lleva un canal por línea:** los urbanos van a `principal` (Legión Urbana) y los de risas a `risas` (Legión de Risas, apagado hasta que lo autorices).
   - **En YouTube lo aprobado sale público** al subirse (`youtube.privacidad: public`; Google ya no deja privado lo que suben los proyectos sin auditar).
   - En Instagram, los urbanos van a `principal` y los de risas a la cuenta `risas` (apagada), nunca a la urbana.
-  - Las 12 pendientes con ventana hasta hoy (6 clips) vencen al acabar el día.
+  - Hoy vencieron las 12 pendientes con ventana hasta el 20-nov (6 clips). Las 4 de `renona-checo-dinosaurios` y `olga-agua-mostaza` vencen al acabar el día.
 - **Clips subidos a mano** (`legion/03-publicador/subidos-a-mano.json`): no aparecen aquí.
 - **Derechos:** todos los clips de esta página son `sin_verificar`: contenido de terceros sin permiso confirmado. Solo se publica con aprobación expresa (en TikTok, tu publicación desde la bandeja) y siempre con el crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
 - **Revisar antes de publicar** (el detalle de cada clip está en su sección):
   - **En la bandeja desde hoy:**
-    - `ganga-bienvenida-piscina`: **velo entero.** Es una broma física y él dice «no, no, no» mientras lo cargan: si no parece que se lo toma a risa, no lo publiques. Los textos no nombran a nadie.
-    - `luciernaga-imitadores-iva` (humor político): **son imitadores** de La Luciérnaga, no Claudia López ni Álvaro Uribe. Los textos lo dicen siempre; al publicar no añadas opiniones, consignas ni etiquetas de partido. Escucha dos palabras que quedan como «(…)». Va atado a la noticia del 17-nov: mejor publicarlo pronto.
-    - `ganga-guarida-toretto`: no se ve quién dice el brindis; los textos solo nombran a La Ganga. Termina con media palabra del plano siguiente.
-    - `westcol-show-kris-r`: habla Westcol; Kris R no sale y no suena su música. Dos palabras quedan como «(…)».
-    - `culpa-marin-despide-quevedo`: escucha los dos tramos que los subtítulos dejan como «(…)» y el audio, algo saturado en la fuente: si se oye mal, no lo publiques.
+    - `ganga-hit-cuatro-horas`: los textos no nombran a nadie de La Ganga (la imagen no deja asegurar quién es quién). El «200.000» es broma: no lo pongas como cifra real.
   - **En cola:**
+    - `roy-barreras-neruda` (humor político): **es Roy Barreras en persona**, riéndose de su propia derrota; no es un imitador. Escucha la palabra con la que arranca el poema (los subtítulos dicen «Eco»). Al publicar no añadas opiniones, consignas, etiquetas de partido ni la promoción de su libro.
+    - `lonche-hormigas-culonas`: ruido de calle y varias voces; no se nombra a quien da el veredicto ni al vendedor.
+    - `drunk-casting-tigo`: no se dice quién soltó «a alguien van a echar»; los textos aclaran que a Iván Marín no lo echaron. Audio algo más bajo que el resto.
+    - `cotorrisa-firma-tianguis`: nada especial (insultos censurados en la fuente).
     - `renona-checo-dinosaurios`: velo antes. El remate lo dice Franco imitando a Checo según los comentarios, pero el plano general no lo muestra de cerca; si no fuera Franco, no lo publiques con este texto.
     - `juanpis-pestilencia-juicio-tv`: cuenta la historia Dilson Díaz (el invitado), no Juanpis. El «juicio» es un programa de televisión actuado.
-    - `olga-agua-mostaza` y `culpa-mama-carrazo`: no nombran a quien cuenta, porque la imagen no lo identifica.
+    - `olga-agua-mostaza`: no nombra a quien cuenta, porque la imagen no lo identifica.
 
 ## Resumen
 
-Línea **urbano**: 3 clips.
+Línea **urbano**: 2 clips.
 
 | # | Clip | Puntaje | Ventana hasta | TikTok (principal) | Instagram (principal) | YouTube (principal) |
 |---|---|---|---|---|---|---|
-| 4 | `2026-11-18-ganga-guarida-toretto` | 74 | 2026-11-20 | en la bandeja desde 2026-11-20 21:15 (borrador), **enviado hoy** | pendiente de aprobación | pendiente de aprobación |
-| 5 | `2026-11-18-ganga-bienvenida-piscina` | 73 | 2026-11-20 | en la bandeja desde 2026-11-20 21:16 (borrador), **enviado hoy** | pendiente de aprobación | pendiente de aprobación |
-| 6 | `2026-11-17-westcol-show-kris-r` | 68 | 2026-11-20 | en la bandeja desde 2026-11-20 21:16 (borrador), **enviado hoy** | pendiente de aprobación | pendiente de aprobación |
+| 4 | `2026-11-21-ganga-hit-cuatro-horas` | 75 | 2026-11-23 | en la bandeja desde 2026-11-21 11:47 (borrador), **enviado hoy** | pendiente de aprobación | pendiente de aprobación |
+| 6 | `2026-11-21-lonche-hormigas-culonas` | 74 | 2026-11-23 | aprobado automáticamente; en cola (previsto esta noche o el 22-nov: la ficha lo pone un día después de `ganga-hit-cuatro-horas`) | pendiente de aprobación | pendiente de aprobación |
 
 Línea **risas**: 6 clips.
 
 | # | Clip | Puntaje | Ventana hasta | TikTok (risas) | Instagram (risas) | YouTube (risas) |
 |---|---|---|---|---|---|---|
-| 1 | `2026-11-18-luciernaga-imitadores-iva` | 76 | 2026-11-20 | en la bandeja desde 2026-11-20 21:16 (borrador), **enviado hoy** | pendiente de aprobación (cuenta apagada) | pendiente de aprobación (cuenta apagada) |
-| 2 | `2026-11-17-culpa-marin-despide-quevedo` | 76 | 2026-11-20 | en la bandeja desde 2026-11-20 21:15 (borrador), **enviado hoy** | pendiente de aprobación (cuenta apagada) | pendiente de aprobación (cuenta apagada) |
-| 3 | `2026-11-17-culpa-mama-carrazo` | 75 | 2026-11-20 | **no entró hoy**: TikTok cortó la cuenta (spam_risk_too_many_pending_share), intento 1 de 2; vence hoy salvo `/publicador aprobar 2026-11-17-culpa-mama-carrazo:tiktok` | pendiente de aprobación (cuenta apagada) | pendiente de aprobación (cuenta apagada) |
-| 7 | `2026-11-17-renona-checo-dinosaurios` | 74 | 2026-11-21 | aprobado automáticamente; en cola (previsto 21-nov; hoy TikTok cortó la cuenta) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación (cuenta apagada) |
-| 8 | `2026-11-17-olga-agua-mostaza` | 73 | 2026-11-21 | aprobado automáticamente; en cola (previsto 21-nov) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación (cuenta apagada) |
-| 9 | `2026-11-18-juanpis-pestilencia-juicio-tv` | 74 | 2026-11-22 | aprobado automáticamente; en cola (previsto 21-nov) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación (cuenta apagada) |
+| 1 | `2026-11-17-renona-checo-dinosaurios` | 74 | 2026-11-21 | aprobado automáticamente; en cola (previsto esta noche, después de las 21:17; **vence hoy**) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación (cuenta apagada) |
+| 2 | `2026-11-17-olga-agua-mostaza` | 73 | 2026-11-21 | aprobado automáticamente; en cola (previsto esta noche, después de las 21:17; **vence hoy**) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación (cuenta apagada) |
+| 3 | `2026-11-18-juanpis-pestilencia-juicio-tv` | 74 | 2026-11-22 | aprobado automáticamente; en cola (previsto esta noche, después de las 21:17; vence el 22-nov) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación (cuenta apagada) |
+| 5 | `2026-11-21-roy-barreras-neruda` | 74 | 2026-11-23 | aprobado automáticamente; en cola (previsto esta noche, después de las 21:17) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación (cuenta apagada) |
+| 7 | `2026-11-21-cotorrisa-firma-tianguis` | 76 | 2026-11-24 | aprobado automáticamente; en cola (previsto 22-nov) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación (cuenta apagada) |
+| 8 | `2026-11-21-drunk-casting-tigo` | 73 | 2026-11-24 | aprobado automáticamente; en cola (previsto 22-nov) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación (cuenta apagada) |
 
-**Borradores con la ventana cerrada** (siguen en la bandeja de TikTok según la API; publícalos solo si aún te sirven, si no, descártalos desde la app para liberar sitio). El texto de cada uno está en su archivo de envío.
+**Borradores con la ventana cerrada** (54; siguen en la bandeja de TikTok según la API; publícalos solo si aún te sirven, si no, descártalos desde la app para liberar sitio). El texto de cada uno está en su archivo de envío.
 
 | Clip | Cuenta | En la bandeja desde | Ventana hasta | Texto |
 |---|---|---|---|---|
@@ -117,6 +107,11 @@ Línea **risas**: 6 clips.
 | `2026-11-17-hh-colada-bano` | risas | 2026-11-19 22:59 | 2026-11-19 | [envío](../../datos/publicador/envios/2026-11-17-hh-colada-bano__tiktok.json) |
 | `2026-11-17-hh-estafa-reventa` | risas | 2026-11-19 22:59 | 2026-11-19 | [envío](../../datos/publicador/envios/2026-11-17-hh-estafa-reventa__tiktok.json) |
 | `2026-11-17-cotorrisa-suite-karol-g` | risas | 2026-11-19 22:59 | 2026-11-19 | [envío](../../datos/publicador/envios/2026-11-17-cotorrisa-suite-karol-g__tiktok.json) |
+| `2026-11-18-ganga-guarida-toretto` | principal | 2026-11-20 21:15 | 2026-11-20 | [envío](../../datos/publicador/envios/2026-11-18-ganga-guarida-toretto__tiktok.json) |
+| `2026-11-17-culpa-marin-despide-quevedo` | risas | 2026-11-20 21:15 | 2026-11-20 | [envío](../../datos/publicador/envios/2026-11-17-culpa-marin-despide-quevedo__tiktok.json) |
+| `2026-11-18-ganga-bienvenida-piscina` | principal | 2026-11-20 21:16 | 2026-11-20 | [envío](../../datos/publicador/envios/2026-11-18-ganga-bienvenida-piscina__tiktok.json) |
+| `2026-11-18-luciernaga-imitadores-iva` | risas | 2026-11-20 21:16 | 2026-11-20 | [envío](../../datos/publicador/envios/2026-11-18-luciernaga-imitadores-iva__tiktok.json) |
+| `2026-11-17-westcol-show-kris-r` | principal | 2026-11-20 21:16 | 2026-11-20 | [envío](../../datos/publicador/envios/2026-11-17-westcol-show-kris-r__tiktok.json) |
 
 **Borradores que no conviene publicar** (caso Herrera; descártalos desde la app):
 
@@ -125,314 +120,14 @@ Línea **risas**: 6 clips.
 | `2026-11-17-westcol-disculpa-pelea-jh` | principal | 2026-11-17 16:59 | [envío](../../datos/publicador/envios/2026-11-17-westcol-disculpa-pelea-jh__tiktok.json) |
 | `2026-11-17-westcol-herrera-no-planeado` | principal | no se sabe si llegó (HTTP 500 el 2026-11-17 16:57) | [envío](../../datos/publicador/envios/2026-11-17-westcol-herrera-no-planeado__tiktok.json) |
 
-## 1. `2026-11-18-luciernaga-imitadores-iva`
-
-- **Gancho:** Imitadores: todos quieren el crédito del IVA
-- **Puntaje:** 76 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-20 · **Línea:** risas · **Pieza:** original (sin variantes)
-- **Video:** [clip.mp4](../clipero/clips/2026-11-18-luciernaga-imitadores-iva/clip.mp4) (62,5 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-18-luciernaga-imitadores-iva/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=pYtwwPMrdzs
-- **Revisar antes de publicar:** Humor político (legion/04-cazador-risas/enfoque.md): sátira con imitadores de La Luciérnaga (Caracol Radio). Los rótulos del propio programa dicen «Claudia López de La Luciérnaga» y «Álvaro Uribe de La Luciérnaga»; no sale ningún político real. Corrientes: centro y derecha. Los textos dicen siempre que son imitadores y no llevan opiniones, consignas ni etiquetas de partido: al publicar no se las añadas. El crédito no copia el título del video, que habla de un juez y de operativos de De la Espriella (fuera del clip). Escuchar dos palabras que los subtítulos dejan como «(…)» (1:23:41 y 1:23:50). Ficha: es el único de risas atado a una noticia (17-nov); mejor publicarlo pronto.
-
-### TikTok · cuenta `risas` (@legion.risas) · en la bandeja desde 2026-11-20 21:16 (borrador), **enviado hoy**
-
-```
-Imitadores de La Luciérnaga: todos se pelean el crédito del IVA 😂
-
-El Gobierno retiró el IVA a la canasta familiar de su reforma tributaria y en La Luciérnaga cada personaje quiere el mérito. Son los imitadores de Claudia López y de Álvaro Uribe del programa, no los políticos.
-
-¿Qué otro imitador quieres ver?
-
-Crédito: La Luciérnaga, Caracol Radio (YouTube), emisión del 17 de noviembre. Video original (minuto 1:23:17): https://youtu.be/pYtwwPMrdzs?t=4997
-
-#LaLuciérnaga #CaracolRadio #Imitadores #HumorColombiano #Sátira
-```
-
-### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
-
-```
-“Yo solita lo tumbé”: la sátira del IVA de los imitadores de La Luciérnaga 😂
-
-Después de que el Gobierno retirara el IVA a la canasta familiar de su reforma tributaria, la imitación de Claudia López y la de Álvaro Uribe de La Luciérnaga (Caracol Radio) se pelean el mérito. Son imitaciones de humor, no declaraciones de los políticos.
-
-¿Qué otro imitador quieres ver?
-
-Crédito: La Luciérnaga, Caracol Radio (YouTube), emisión del 17 de noviembre. Video original (minuto 1:23:17): https://youtu.be/pYtwwPMrdzs?t=4997
-
-#LaLuciérnaga #CaracolRadio #Imitadores #HumorColombiano #Sátira
-```
-
-### YouTube · cuenta `risas` (canal de la Legión de Risas) · pendiente de aprobación (cuenta apagada)
-
-**Título:** Imitación: ¿quién tumbó el IVA a la canasta familiar? | La Luciérnaga
-
-```
-Sátira de La Luciérnaga (Caracol Radio) del 17 de noviembre: después de que el Gobierno retirara el IVA a la canasta familiar de su reforma tributaria, los imitadores del programa se pelean el mérito. Son imitaciones de humor, no declaraciones de los políticos.
-
-Crédito: La Luciérnaga, Caracol Radio (YouTube), emisión del 17 de noviembre. Video original (minuto 1:23:17): https://youtu.be/pYtwwPMrdzs?t=4997
-
-#LaLuciérnaga #CaracolRadio #Imitadores #HumorColombiano
-```
-
-**Etiquetas:** La Luciérnaga, Caracol Radio, imitadores, imitación, sátira, humor colombiano, IVA canasta familiar, reforma tributaria
-
-
-## 2. `2026-11-17-culpa-marin-despide-quevedo`
-
-- **Gancho:** Iván Marín tuvo que despedir a Ricardo Quevedo
-- **Puntaje:** 76 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-20 · **Línea:** risas · **Pieza:** original (sin variantes)
-- **Video:** [clip.mp4](../clipero/clips/2026-11-17-culpa-marin-despide-quevedo/clip.mp4) (71 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-17-culpa-marin-despide-quevedo/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=OKqALYkh3LA
-- **Revisar antes de publicar:** Escuchar dos tramos que los subtítulos dejan como «(…)» (38:41 y 39:17). Lenguaje fuerte tapado por YouTube («***»). La fuente viene algo saturada: si se oye mal, no lo publiques. La imagen no deja asegurar quién es quién: los textos nombran a Iván Marín y a Ricardo Quevedo porque el propio programa lo hace, y no atribuyen el remate a nadie. Mismo capítulo que culpa-mama-carrazo: publícalos separados.
-
-### TikTok · cuenta `risas` (@legion.risas) · en la bandeja desde 2026-11-20 21:15 (borrador), **enviado hoy**
-
-```
-Iván Marín tuvo que despedir a Ricardo Quevedo 😅
-
-Lo invitó a escribir en un programa, al programa le quitaron presupuesto y le tocó a él darle la noticia. La respuesta de Ricardo es mejor que la historia.
-
-¿Alguna vez te tocó despedir a un amigo?
-
-Crédito: Los De La Culpa (YouTube), “NUNCA LE DIRÍA A MI MAMÁ | Los De La Culpa - Capítulo 269”. Video original (minuto 38:29): https://youtu.be/OKqALYkh3LA?t=2309
-
-#LosDeLaCulpa #IvanMarin #RicardoQuevedo #ComediaColombiana
-```
-
-### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
-
-```
-Lo invitó a almorzar porque no sabía cómo decirle que estaba despedido 😅
-
-En Los De La Culpa (capítulo 269), Iván Marín cuenta que invitó a Ricardo Quevedo al equipo de guionistas de un programa… y cuando le quitaron presupuesto, le tocó a él despedirlo. Ricardo se lo tomó súper bien, y su respuesta es mejor que la historia.
-
-¿Alguna vez te tocó despedir a un amigo?
-
-Crédito: Los De La Culpa (YouTube), “NUNCA LE DIRÍA A MI MAMÁ | Los De La Culpa - Capítulo 269”. Video original (minuto 38:29): https://youtu.be/OKqALYkh3LA?t=2309
-
-#LosDeLaCulpa #IvanMarin #RicardoQuevedo #ComediaColombiana #Humor
-```
-
-### YouTube · cuenta `risas` (canal de la Legión de Risas) · pendiente de aprobación (cuenta apagada)
-
-**Título:** Los De La Culpa: el día que Iván Marín despidió a Ricardo Quevedo
-
-```
-En el capítulo 269 de Los De La Culpa, hablando de decisiones que parecían buenas y salieron terribles, Iván Marín cuenta que invitó a Ricardo Quevedo a escribir en un programa… y después le tocó despedirlo. La respuesta de Ricardo es mejor que la historia.
-
-Crédito: Los De La Culpa (YouTube), “NUNCA LE DIRÍA A MI MAMÁ | Los De La Culpa - Capítulo 269”. Video original (minuto 38:29): https://youtu.be/OKqALYkh3LA?t=2309
-
-#LosDeLaCulpa #IvanMarin #RicardoQuevedo #ComediaColombiana
-```
-
-**Etiquetas:** Los De La Culpa, Iván Marín, Ricardo Quevedo, comedia colombiana, stand up, anécdotas, despido, humor
-
-
-## 3. `2026-11-17-culpa-mama-carrazo`
-
-- **Gancho:** La versión de mamá cuando compras carro
-- **Puntaje:** 75 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-20 · **Línea:** risas · **Pieza:** original (sin variantes)
-- **Video:** [clip.mp4](../clipero/clips/2026-11-17-culpa-mama-carrazo/clip.mp4) (49,8 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-17-culpa-mama-carrazo/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=OKqALYkh3LA
-- **Revisar antes de publicar:** Lenguaje fuerte tapado por YouTube («***»). Sale el público del show en plano general, sin nadie señalado. Quien cuenta la anécdota no se identifica en la imagen: los textos no lo nombran. Mismo capítulo que culpa-marin-despide-quevedo: publícalos separados.
-
-### TikTok · cuenta `risas` (@legion.risas) · **no entró hoy**: TikTok cortó la cuenta (spam_risk_too_many_pending_share), intento 1 de 2; vence hoy salvo `/publicador aprobar 2026-11-17-culpa-mama-carrazo:tiktok`
-
-```
-Tú: “me compré un carro”. Tu mamá: “¡un carrazo… y de contado!” 😂
-
-Y él, mientras tanto, pagando las cuotas. En Los De La Culpa lo tienen claro: entre las señoras hay una guerra por quién tiene el hijo más exitoso.
-
-Etiqueta a la mamá que hace esto
-
-Crédito: Los De La Culpa (YouTube), “NUNCA LE DIRÍA A MI MAMÁ | Los De La Culpa - Capítulo 269”. Video original (minuto 16:23): https://youtu.be/OKqALYkh3LA?t=983
-
-#LosDeLaCulpa #Mamá #ComediaColombiana #Humor
-```
-
-### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
-
-```
-La guerra de las mamás por el hijo más exitoso 😂
-
-En Los De La Culpa (capítulo 269), uno de ellos cuenta que le dijo a su mamá “me compré un carro”… y la versión de ella para el mundo fue “¡Armando se compró un carrazo… y de contado!”. Mientras tanto, él pagando las cuotas.
-
-Etiqueta a la mamá que hace esto
-
-Crédito: Los De La Culpa (YouTube), “NUNCA LE DIRÍA A MI MAMÁ | Los De La Culpa - Capítulo 269”. Video original (minuto 16:23): https://youtu.be/OKqALYkh3LA?t=983
-
-#LosDeLaCulpa #Mamá #ComediaColombiana #Humor
-```
-
-### YouTube · cuenta `risas` (canal de la Legión de Risas) · pendiente de aprobación (cuenta apagada)
-
-**Título:** Los De La Culpa: lo que tu mamá cuenta cuando te compras un carro
-
-```
-En Los De La Culpa (capítulo 269, “Nunca le diría a mi mamá”) explican cómo las mamás exageran cada logro de sus hijos: “me compré un carro” se convierte en “un carrazo… y de contado”.
-
-Crédito: Los De La Culpa (YouTube), “NUNCA LE DIRÍA A MI MAMÁ | Los De La Culpa - Capítulo 269”. Video original (minuto 16:23): https://youtu.be/OKqALYkh3LA?t=983
-
-#LosDeLaCulpa #Mamá #ComediaColombiana #Humor
-```
-
-**Etiquetas:** Los De La Culpa, comedia colombiana, mamás, mamá exagerada, carro, stand up, humor
-
-
-## 4. `2026-11-18-ganga-guarida-toretto`
-
-- **Gancho:** La Ganga despide su casa estilo Toretto
-- **Puntaje:** 74 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-20 · **Línea:** urbano · **Pieza:** original (sin variantes)
-- **Video:** [clip.mp4](../clipero/clips/2026-11-18-ganga-guarida-toretto/clip.mp4) (53,4 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-18-ganga-guarida-toretto/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=QauXCZ2fFs8
-- **Revisar antes de publicar:** La imagen no deja asegurar quién dice el brindis ni quién sale de cara: los textos solo nombran a La Ganga (sin #Westcol). El clip termina con media palabra del plano siguiente («E la…», 0,5 s) y la imagen es nocturna y oscura. Los textos dicen «no salió a la primera» y no «a la quinta toma», porque el clip solo muestra una toma fallida. Publícalo a otra hora que ganga-bienvenida-piscina.
-
-### TikTok · cuenta `principal` (Legión Urbana) · en la bandeja desde 2026-11-20 21:15 (borrador), **enviado hoy**
-
-```
-La Ganga despidió La Guarida con el brindis de Toretto 🥂 (no salió a la primera)
-
-La casa donde La Ganga hacía sus directos en Medellín se va a tumbar, y antes de las 24 horas de stream la despidieron así: “El dinero va y viene… mi familia, salud”.
-
-¿Quién es tu familia de verdad? 🥂
-
-Crédito: Samulx (YouTube), “DESPIDIENDO LA GUARIDA CON TODA LA GANGA ANTES DE QUE LA TUMBEN”. Video original (minuto 15:39): https://youtu.be/QauXCZ2fFs8?t=939
-
-#LaGanga #LaGuarida #Samulx #Toretto #Medellín
-```
-
-### Instagram · cuenta `principal` · pendiente de aprobación
-
-```
-“Lo más importante son las personas”: el adiós de La Ganga a La Guarida 🥂
-
-La Guarida, la casa donde La Ganga hacía sus directos en Medellín, se va a tumbar. Antes de las 24 horas de stream la despidieron recreando el brindis de Toretto en Rápidos y furiosos. No salió a la primera.
-
-¿Quién es tu familia de verdad? 🥂
-
-Crédito: Samulx (YouTube), “DESPIDIENDO LA GUARIDA CON TODA LA GANGA ANTES DE QUE LA TUMBEN”. Video original (minuto 15:39): https://youtu.be/QauXCZ2fFs8?t=939
-
-#LaGanga #LaGuarida #Samulx #Toretto #Medellín
-```
-
-### YouTube · cuenta `principal` (canal de la Legión Urbana) · pendiente de aprobación
-
-**Título:** La Ganga y el brindis de Toretto: el adiós a La Guarida
-
-```
-La Guarida, la casa donde La Ganga hacía sus directos en Medellín, se va a tumbar. Antes de las 24 horas de stream, la despidieron recreando el brindis de Toretto en Rápidos y furiosos: “El dinero va y viene… mi familia, salud”. No salió a la primera.
-
-Crédito: Samulx (YouTube), “DESPIDIENDO LA GUARIDA CON TODA LA GANGA ANTES DE QUE LA TUMBEN”. Video original (minuto 15:39): https://youtu.be/QauXCZ2fFs8?t=939
-
-#LaGanga #LaGuarida #Samulx #Toretto
-```
-
-**Etiquetas:** La Ganga, La Guarida, Samulx, Toretto, Rápidos y furiosos, brindis, Medellín, streamers, 24 horas
-
-
-## 5. `2026-11-18-ganga-bienvenida-piscina`
-
-- **Gancho:** Bienvenida a La Ganga: directo a la piscina
-- **Puntaje:** 73 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-20 · **Línea:** urbano · **Pieza:** original (sin variantes)
-- **Video:** [clip.mp4](../clipero/clips/2026-11-18-ganga-bienvenida-piscina/clip.mp4) (43,8 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-18-ganga-bienvenida-piscina/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=_R71FcOLQQQ
-- **Revisar antes de publicar:** Velo entero antes de publicar: es una broma física entre amigos y él dice «no, no, no» mientras lo cargan; si no parece que se lo toma a risa, no lo publiques. No se puede confirmar quién es cada uno: los textos no nombran a nadie y el crédito no copia el título del video («Me desquite de Westcol y de Pan»), porque el tramo no muestra a quién tiran. Una frase queda como «(…)» (0:13:57). Publícalo a otra hora que ganga-guarida-toretto (la ficha lo pone el 20-nov a las 12:30).
-
-### TikTok · cuenta `principal` (Legión Urbana) · en la bandeja desde 2026-11-20 21:16 (borrador), **enviado hoy**
-
-```
-Así te dan la bienvenida en La Ganga 😂🏊
-
-En las 24 horas con La Ganga en Medellín, al recién llegado le quitan el teléfono, las tarjetas, la camiseta y los tenis… y directo a la piscina.
-
-¿Te dejarías dar esta bienvenida?
-
-Crédito: Live Samulx (YouTube, canal de directos de Samulx), video del 17 de noviembre. Video original (minuto 13:20): https://youtu.be/_R71FcOLQQQ?t=800
-
-#LaGanga #Samulx #24Horas #Medellín #Streamers
-```
-
-### Instagram · cuenta `principal` · pendiente de aprobación
-
-```
-“Bienvenido a La Ganga”: sin teléfono, sin camiseta y a la piscina 🏊
-
-En las 24 horas con La Ganga en Medellín, al recién llegado le dan la bienvenida a su manera: le quitan el teléfono, las tarjetas, la camiseta y los tenis… y directo a la piscina.
-
-¿Te dejarías dar esta bienvenida?
-
-Crédito: Live Samulx (YouTube, canal de directos de Samulx), video del 17 de noviembre. Video original (minuto 13:20): https://youtu.be/_R71FcOLQQQ?t=800
-
-#LaGanga #Samulx #24Horas #Medellín #Streamers
-```
-
-### YouTube · cuenta `principal` (canal de la Legión Urbana) · pendiente de aprobación
-
-**Título:** La bienvenida de La Ganga en las 24 horas de Medellín
-
-```
-En las 24 horas con La Ganga en Medellín, al recién llegado le dan la bienvenida a su manera: le quitan el teléfono, las tarjetas, la camiseta y los tenis… y directo a la piscina.
-
-Crédito: Live Samulx (YouTube, canal de directos de Samulx), video del 17 de noviembre. Video original (minuto 13:20): https://youtu.be/_R71FcOLQQQ?t=800
-
-#LaGanga #Samulx #24Horas #Medellín
-```
-
-**Etiquetas:** La Ganga, Samulx, Live Samulx, 24 horas, Medellín, streamers, bienvenida, piscina
-
-
-## 6. `2026-11-17-westcol-show-kris-r`
-
-- **Gancho:** Westcol sobre el show de Kris R
-- **Puntaje:** 68 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-20 · **Línea:** urbano · **Pieza:** original (sin variantes)
-- **Video:** [clip.mp4](../clipero/clips/2026-11-17-westcol-show-kris-r/clip.mp4) (34,2 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-17-westcol-show-kris-r/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=YQ-vOO3-Ghk
-- **Revisar antes de publicar:** Kris R no sale: habla Westcol. No suena música de Kris R. Dos palabras como (…).
-
-### TikTok · cuenta `principal` (Legión Urbana) · en la bandeja desde 2026-11-20 21:16 (borrador), **enviado hoy**
-
-```
-Westcol: “Kris R para muchos fue el mejor show de la noche” 🎤🔥
-
-Le agradece por ir a Stream Fighters 5 y cuenta que pasó de peleador a artista oficial del evento.
-
-¿Fue el mejor show de la noche?
-
-Crédito: WestCOL, “¿Que pasara con HERRERA por bajar de la pelea en STREAM FIGHTERS 5?| Westcol”. Video original (minuto 3:16): https://youtu.be/YQ-vOO3-Ghk?t=196
-
-#KrisR #Westcol #StreamFighters5 #MusicaUrbana
-```
-
-### Instagram · cuenta `principal` · pendiente de aprobación
-
-```
-De peleador a artista oficial: Westcol sobre Kris R 🎤
-
-Tras Stream Fighters 5, Westcol le agradece a Kris R “de verdad de corazón”: “para muchos fue el mejor show de la noche” y “pasó de ser peleador a ser artista oficial de Stream Fighters”. Kris R toca el viernes 20-nov en el DAVIarena.
-
-¿Fue el mejor show de la noche?
-
-Crédito: WestCOL, “¿Que pasara con HERRERA por bajar de la pelea en STREAM FIGHTERS 5?| Westcol”. Video original (minuto 3:16): https://youtu.be/YQ-vOO3-Ghk?t=196
-
-#KrisR #Westcol #StreamFighters5 #MusicaUrbana
-```
-
-### YouTube · cuenta `principal` (canal de la Legión Urbana) · pendiente de aprobación
-
-**Título:** Westcol habla del show de Kris R en Stream Fighters 5
-
-```
-Tras Stream Fighters 5, Westcol agradece a Kris R: “para muchos fue el mejor show de la noche” y “pasó de ser peleador a ser artista oficial de Stream Fighters”. Kris R toca el viernes 20-nov en el DAVIarena.
-
-Crédito: WestCOL, “¿Que pasara con HERRERA por bajar de la pelea en STREAM FIGHTERS 5?| Westcol”. Video original (minuto 3:16): https://youtu.be/YQ-vOO3-Ghk?t=196
-
-#KrisR #Westcol #StreamFighters5
-```
-
-**Etiquetas:** Kris R, Westcol, Stream Fighters 5, música urbana, concierto, DAVIarena, streamers
-
-
-## 7. `2026-11-17-renona-checo-dinosaurios`
+## 1. `2026-11-17-renona-checo-dinosaurios`
 
 - **Gancho:** Franco responde por Checo… y se pasa
 - **Puntaje:** 74 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-21 · **Línea:** risas · **Pieza:** original (sin variantes)
 - **Video:** [clip.mp4](../clipero/clips/2026-11-17-renona-checo-dinosaurios/clip.mp4) (54,4 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-17-renona-checo-dinosaurios/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=DpE-D9sdE9M
 - **Revisar antes de publicar:** Velo antes de publicar: el remate lo dice Franco imitando la voz de Checo según los comentarios del video y la propia mesa, pero el plano general no lo muestra de cerca. Si no fuera Franco, no lo publiques con este texto (el gancho del video también lo dice). Lenguaje fuerte («pendejada»). Los carteles de la gira de Franco en la mesa son del propio canal. Se corta antes de la réplica grosera de Checo.
 
-### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola (previsto 21-nov; hoy TikTok cortó la cuenta)
+### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola (previsto esta noche, después de las 21:17; **vence hoy**)
 
 ```
 Le preguntan a Checo por sus locuras de joven y Franco contesta por él 🦖😂
@@ -475,14 +170,14 @@ Crédito: La Mesa Reñoña, de Franco Escamilla (YouTube), “La Mesa Reñoña 5
 **Etiquetas:** Franco Escamilla, La Mesa Reñoña, Checo Mejorado, Regalito, comedia mexicana, dinosaurios, podcast, humor
 
 
-## 8. `2026-11-17-olga-agua-mostaza`
+## 2. `2026-11-17-olga-agua-mostaza`
 
 - **Gancho:** Su amigo era adicto a algo asqueroso
 - **Puntaje:** 73 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-21 · **Línea:** risas · **Pieza:** original (sin variantes)
 - **Video:** [clip.mp4](../clipero/clips/2026-11-17-olga-agua-mostaza/clip.mp4) (42,2 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-17-olga-agua-mostaza/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=a5BUB-t-bHM
 - **Revisar antes de publicar:** Humor asqueroso, sin nadie atacado (el amigo no se nombra). Quien cuenta no se identifica con seguridad: los textos no lo nombran. El letrero de Coca-Cola es del decorado del estudio, no un rótulo añadido. Lenguaje: «boludo».
 
-### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola (previsto 21-nov)
+### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola (previsto esta noche, después de las 21:17; **vence hoy**)
 
 ```
 Su amigo era adicto… a la agüita de la mostaza 🤢😂
@@ -525,14 +220,14 @@ Crédito: Soñé que Volaba, de OLGA (YouTube), “COMBINAR COMIDAS RARAS y NO M
 **Etiquetas:** Soñé que Volaba, OLGA, Migue Granados, comedia argentina, mostaza, comidas raras, streaming, humor
 
 
-## 9. `2026-11-18-juanpis-pestilencia-juicio-tv`
+## 3. `2026-11-18-juanpis-pestilencia-juicio-tv`
 
 - **Gancho:** La Pestilencia actuó en un juicio de TV
 - **Puntaje:** 74 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-22 · **Línea:** risas · **Pieza:** original (sin variantes)
 - **Video:** [clip.mp4](../clipero/clips/2026-11-18-juanpis-pestilencia-juicio-tv/clip.mp4) (68 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-18-juanpis-pestilencia-juicio-tv/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=zsa74yNbstU
 - **Revisar antes de publicar:** Escuchar la primera palabra después de «Entonces», que los subtítulos dejan como «(…)». Lenguaje fuerte tapado por YouTube («***»). Habla Dilson Díaz, el invitado; a Juanpis solo se le oye, y los textos no le atribuyen la historia. El «juicio» es un programa de televisión actuado, no un caso judicial real.
 
-### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola (previsto 21-nov)
+### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola (previsto esta noche, después de las 21:17; vence el 22-nov)
 
 ```
 La Pestilencia actuó en un “juicio” de la tele por 500 dólares cada uno… y su tío se lo creyó 😂
@@ -575,9 +270,259 @@ Crédito: The Juanpis Live Show, canal Juanpis González (YouTube), “¿Me volv
 **Etiquetas:** La Pestilencia, Dilson Díaz, Juanpis González, The Juanpis Live Show, Alejandro Riaño, humor colombiano, anécdotas, rock colombiano
 
 
+## 4. `2026-11-21-ganga-hit-cuatro-horas`
+
+- **Gancho:** La Ganga pide un hit mundial en 4 horas
+- **Puntaje:** 75 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-23 · **Línea:** urbano · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-21-ganga-hit-cuatro-horas/clip.mp4) (44,2 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-21-ganga-hit-cuatro-horas/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=AYFdSyu_Lfo
+- **Revisar antes de publicar:** Los textos no nombran a nadie: en la imagen no se puede asegurar quién es quién de La Ganga. Se quitaron #Westcol y #Lonche de los hashtags de la ficha porque no se confirma que salgan. No se cita el «200.000» (es broma y no dice de qué moneda).
+
+### TikTok · cuenta `principal` (Legión Urbana) · en la bandeja desde 2026-11-21 11:47 (borrador), **enviado hoy**
+
+```
+La Ganga le pide al productor un hit mundial… para dentro de 4 horas 😂
+
+Arrancan las 72 horas de directo y deciden sacar la canción oficial de La Ganga. La nota de voz al productor: «que no tengamos que escribir nada y que sea un hit mundial completo».
+
+¿Quién de La Ganga canta mejor?
+
+Crédito: Samulx (YouTube), «HABLANDO DEL PROYECTO DE LA GANGA ¿QUE PASO ANTIER?». Video original (minuto 6:43): https://youtu.be/AYFdSyu_Lfo?t=403
+
+#LaGanga #Samulx #72Horas #Streamers #Medellín
+```
+
+### Instagram · cuenta `principal` · pendiente de aprobación
+
+```
+«Que no tengamos que escribir nada y que sea un hit mundial»: el encargo de La Ganga 😂
+
+En el arranque de sus 72 horas de directo, La Ganga decide sacar su canción oficial y le manda una nota de voz al productor: ya hecha, sin escribir nada, hit mundial y lista en 4 horas.
+
+¿Quién de La Ganga canta mejor?
+
+Crédito: Samulx (YouTube), «HABLANDO DEL PROYECTO DE LA GANGA ¿QUE PASO ANTIER?». Video original (minuto 6:43): https://youtu.be/AYFdSyu_Lfo?t=403
+
+#LaGanga #Samulx #72Horas #Streamers #Medellín
+```
+
+### YouTube · cuenta `principal` (canal de la Legión Urbana) · pendiente de aprobación
+
+**Título:** La Ganga encarga su canción oficial (para dentro de 4 horas)
+
+```
+Arrancan las 72 horas de directo de La Ganga y deciden sacar su canción oficial. La nota de voz al productor: ya hecha, sin escribir nada, hit mundial y lista en 4 horas.
+
+Crédito: Samulx (YouTube), «HABLANDO DEL PROYECTO DE LA GANGA ¿QUE PASO ANTIER?». Video original (minuto 6:43): https://youtu.be/AYFdSyu_Lfo?t=403
+
+#LaGanga #Samulx #72Horas #Streamers
+```
+
+**Etiquetas:** La Ganga, Samulx, 72 horas, streamers, canción oficial, nota de voz, Medellín, directo
+
+
+## 5. `2026-11-21-roy-barreras-neruda`
+
+- **Gancho:** Roy Barreras le cambia la letra a Neruda
+- **Puntaje:** 74 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-23 · **Línea:** risas · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-21-roy-barreras-neruda/clip.mp4) (50,4 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-21-roy-barreras-neruda/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=qo3BPfZ6vZI
+- **Revisar antes de publicar:** Humor político (legion/04-cazador-risas/enfoque.md): centroizquierda: Roy Barreras en persona (progresismo, exaliado de Petro; en el programa se define liberal socialdemócrata, de centro); autoburla sobre la presidencia que no consiguió, no es un imitador. Escúchalo antes de publicar: la palabra con la que arranca el poema sale como «Eco» en los subtítulos. Música de piano del propio programa. Es Roy Barreras en persona (autoburla), no un imitador. Al publicar: sin opiniones, consignas, etiquetas de partido ni la promoción de su libro. Los textos no citan «al progresismo le faltó muy poquito» ni copian el título del programa (habla de un caso judicial).
+
+### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola (previsto esta noche, después de las 21:17)
+
+```
+Roy Barreras le cambia la letra al Poema 20 de Neruda 😂
+
+En La Luciérnaga (Caracol Radio), Roy Barreras se ríe de su propia campaña con una parodia del poema: «Puedo escribir los versos más tristes esta noche… Yo quise la presidencia». Es él mismo, no un imitador.
+
+¿A qué otro poema le cambiarías la letra?
+
+Crédito: La Luciérnaga, Caracol Radio (YouTube), sección «Sin anestesia» del 19 de noviembre. Video original (minuto 2:37:48): https://youtu.be/qo3BPfZ6vZI?t=9468
+
+#LaLuciérnaga #CaracolRadio #RoyBarreras #Neruda #HumorColombiano
+```
+
+### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
+
+```
+«Yo quise la presidencia…»: la parodia de Neruda de Roy Barreras 😂
+
+En La Luciérnaga (Caracol Radio), Roy Barreras se ríe de su propia campaña presidencial con una parodia del Poema 20 de Pablo Neruda. Es él mismo, en el estudio, no un imitador.
+
+¿A qué otro poema le cambiarías la letra?
+
+Crédito: La Luciérnaga, Caracol Radio (YouTube), sección «Sin anestesia» del 19 de noviembre. Video original (minuto 2:37:48): https://youtu.be/qo3BPfZ6vZI?t=9468
+
+#LaLuciérnaga #CaracolRadio #RoyBarreras #Neruda #HumorColombiano
+```
+
+### YouTube · cuenta `risas` (canal de la Legión de Risas) · pendiente de aprobación (cuenta apagada)
+
+**Título:** Roy Barreras parodia a Neruda en La Luciérnaga
+
+```
+En la sección «Sin anestesia» de La Luciérnaga (Caracol Radio), Roy Barreras se ríe de su propia campaña presidencial con una parodia del Poema 20 de Pablo Neruda: «Puedo escribir los versos más tristes esta noche… Yo quise la presidencia». Es él mismo, no un imitador.
+
+Crédito: La Luciérnaga, Caracol Radio (YouTube), emisión del 19 de noviembre. Video original (minuto 2:37:48): https://youtu.be/qo3BPfZ6vZI?t=9468
+
+#LaLuciérnaga #CaracolRadio #RoyBarreras #Neruda
+```
+
+**Etiquetas:** Roy Barreras, La Luciérnaga, Caracol Radio, Sin anestesia, Pablo Neruda, Poema 20, parodia, humor colombiano
+
+
+## 6. `2026-11-21-lonche-hormigas-culonas`
+
+- **Gancho:** Mexicanos prueban hormigas culonas en Provenza
+- **Puntaje:** 74 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-23 · **Línea:** urbano · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-21-lonche-hormigas-culonas/clip.mp4) (50,6 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-21-lonche-hormigas-culonas/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=CGICIcJ8lCY
+- **Revisar antes de publicar:** Ruido de calle y varias voces a la vez; una palabra queda como «(…)». No se nombra a quien da el veredicto (no se puede asegurar en imagen). El vendedor sale en plano: no se le nombra. Se ven vasos de granizado; en el tramo no se habla de alcohol. Publícalo un día después de ganga-hit-cuatro-horas (ficha: 22-nov a las 19:00).
+
+### TikTok · cuenta `principal` (Legión Urbana) · aprobado automáticamente; en cola (previsto esta noche o el 22-nov: la ficha lo pone un día después de `ganga-hit-cuatro-horas`)
+
+```
+Mexicanos prueban hormigas culonas en Provenza con La Ganga 🐜😂
+
+De noche en Medellín, les insisten en que prueben las hormigas de un puesto de la calle. Uno no se atreve; otro les pone limón y da el veredicto: «como carne seca en México… pero con limoncito y salsa Valentina».
+
+¿Qué más tienen que probar en Colombia?
+
+Crédito: Lonche Chacas (YouTube), «ASI ES PROVENZA DE NOCHE con LA GANGA en COLOMBIA». Video original (minuto 11:34): https://youtu.be/CGICIcJ8lCY?t=694
+
+#Lonche #LaGanga #HormigasCulonas #Medellín #Provenza
+```
+
+### Instagram · cuenta `principal` · pendiente de aprobación
+
+```
+«Sabe a chicharrón»: mexicanos prueban hormigas culonas en Provenza 🐜😂
+
+De noche en Medellín, La Ganga pone a los mexicanos de las 72 horas a probar hormigas culonas. Veredicto: «como carne seca en México… pero con limoncito y salsa Valentina». ¿Les creemos?
+
+¿Qué más tienen que probar en Colombia?
+
+Crédito: Lonche Chacas (YouTube), «ASI ES PROVENZA DE NOCHE con LA GANGA en COLOMBIA». Video original (minuto 11:34): https://youtu.be/CGICIcJ8lCY?t=694
+
+#Lonche #LaGanga #HormigasCulonas #Medellín #Provenza
+```
+
+### YouTube · cuenta `principal` (canal de la Legión Urbana) · pendiente de aprobación
+
+**Título:** Mexicanos prueban hormigas culonas en Medellín | La Ganga
+
+```
+De noche en Provenza (Medellín), La Ganga pone a los mexicanos de las 72 horas a probar hormigas culonas de un puesto de la calle. Veredicto: «como carne seca en México… pero con limoncito y salsa Valentina».
+
+Crédito: Lonche Chacas (YouTube), «ASI ES PROVENZA DE NOCHE con LA GANGA en COLOMBIA». Video original (minuto 11:34): https://youtu.be/CGICIcJ8lCY?t=694
+
+#Lonche #LaGanga #HormigasCulonas #Medellín
+```
+
+**Etiquetas:** hormigas culonas, La Ganga, Lonche, Provenza, Medellín, mexicanos en Colombia, comida colombiana, streamers, 72 horas
+
+
+## 7. `2026-11-21-cotorrisa-firma-tianguis`
+
+- **Gancho:** Su firma, en un tianguis a 50 pesos
+- **Puntaje:** 76 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-24 · **Línea:** risas · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-21-cotorrisa-firma-tianguis/clip.mp4) (74,9 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-21-cotorrisa-firma-tianguis/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=9QTq4B02vaA
+- **Revisar antes de publicar:** Nada especial según la ficha: los insultos van censurados («***»). Dura casi 75 s. El crédito no copia el título del episodio (escatológico); va como «episodio 400».
+
+### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola (previsto 22-nov)
+
+```
+Encontró un vaso firmado por La Cotorrisa en un tianguis… a 50 pesos 😂
+
+Un cotorro les manda la foto del vaso de su gira, con las dos firmas. En La Cotorrisa confirman que son reales y hacen la cuenta: sin firma valía 10… así que su firma vale 40. «Tampoco está tan mal».
+
+¿Cuánto pagarías tú por ese vaso?
+
+Crédito: La Cotorrisa (Slobotzky y Ricardo Pérez), canal Slobotzky (YouTube), episodio 400. Video original (minuto 1:05:50): https://youtu.be/9QTq4B02vaA?t=3950
+
+#LaCotorrisa #Slobotzky #RicardoPerez #Comedia #Tianguis
+```
+
+### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
+
+```
+«Vale 40 nuestra firma»: La Cotorrisa y el vaso firmado que apareció en un tianguis 😂
+
+Un cotorro se encontró en un tianguis un vaso de la gira de La Cotorrisa, firmado por los dos, por 50 pesos. Ellos hicieron la cuenta: sin firma valía 10… así que su firma vale 40.
+
+¿Cuánto pagarías tú por ese vaso?
+
+Crédito: La Cotorrisa (Slobotzky y Ricardo Pérez), canal Slobotzky (YouTube), episodio 400. Video original (minuto 1:05:50): https://youtu.be/9QTq4B02vaA?t=3950
+
+#LaCotorrisa #Slobotzky #RicardoPerez #Comedia #Tianguis
+```
+
+### YouTube · cuenta `risas` (canal de la Legión de Risas) · pendiente de aprobación (cuenta apagada)
+
+**Título:** La Cotorrisa descubre cuánto vale su firma en un tianguis
+
+```
+En el episodio 400 de La Cotorrisa, un seguidor les cuenta que encontró en un tianguis un vaso de su gira, firmado por los dos, por 50 pesos. Ellos hacen la cuenta: sin firma valía 10… así que su firma vale 40.
+
+Crédito: La Cotorrisa (Slobotzky y Ricardo Pérez), canal Slobotzky (YouTube), episodio 400. Video original (minuto 1:05:50): https://youtu.be/9QTq4B02vaA?t=3950
+
+#LaCotorrisa #Slobotzky #RicardoPerez #Comedia
+```
+
+**Etiquetas:** La Cotorrisa, Slobotzky, Ricardo Pérez, comedia, podcast de comedia, tianguis, humor mexicano, anécdotas
+
+
+## 8. `2026-11-21-drunk-casting-tigo`
+
+- **Gancho:** El casting de Tigo: 'a alguien van a echar'
+- **Puntaje:** 73 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-24 · **Línea:** risas · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-21-drunk-casting-tigo/clip.mp4) (66,3 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-21-drunk-casting-tigo/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=a_A7VV9qO-U
+- **Revisar antes de publicar:** No se atribuye «a alguien van a echar» a nadie (en el clip no queda claro quién lo dijo). Los textos aclaran que a Iván Marín no lo echaron, como dice la mesa al final. Varios hablan a la vez; audio algo más bajo que el resto (-15,7 LUFS). Hay vasos y botellas en la mesa: los textos no hablan de alcohol ni copian el título del capítulo.
+
+### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola (previsto 22-nov)
+
+```
+El casting de Tigo que cuenta Alejandro Riaño: «a alguien van a echar» 😂
+
+En Drunk Comedy, Riaño cuenta cómo lo llamaron a una segunda prueba del comercial cuando el grupo, Iván Marín incluido, ya llevaba días ensayando. Y no, a Iván no lo echaron.
+
+¿Te ha tocado reemplazar a alguien así?
+
+Crédito: Drunk Comedy (cap. 8), canal Juanpis González (YouTube). Video original (minuto 31:23): https://youtu.be/a_A7VV9qO-U?t=1883
+
+#DrunkComedy #AlejandroRiaño #IvánMarín #RicardoQuevedo #ComediaColombiana
+```
+
+### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
+
+```
+«A alguien van a echar»: el casting de Tigo de Alejandro Riaño e Iván Marín 😂
+
+En Drunk Comedy, Riaño cuenta cómo llegó a la segunda prueba del comercial de Tigo cuando los demás, Iván Marín entre ellos, ya llevaban días ensayando. Y no, a Iván no lo echaron.
+
+¿Te ha tocado reemplazar a alguien así?
+
+Crédito: Drunk Comedy (cap. 8), canal Juanpis González (YouTube). Video original (minuto 31:23): https://youtu.be/a_A7VV9qO-U?t=1883
+
+#DrunkComedy #AlejandroRiaño #IvánMarín #RicardoQuevedo #ComediaColombiana
+```
+
+### YouTube · cuenta `risas` (canal de la Legión de Risas) · pendiente de aprobación (cuenta apagada)
+
+**Título:** Alejandro Riaño, Iván Marín y el casting de Tigo | Drunk Comedy
+
+```
+Alejandro Riaño cuenta en Drunk Comedy cómo llegó a la segunda prueba del comercial de Tigo cuando los demás, Iván Marín entre ellos, ya llevaban días ensayando… y la frase del día fue «a alguien van a echar». Al final, la mesa lo aclara: a Iván no lo echaron.
+
+Crédito: Drunk Comedy (cap. 8), canal Juanpis González (YouTube). Video original (minuto 31:23): https://youtu.be/a_A7VV9qO-U?t=1883
+
+#DrunkComedy #AlejandroRiaño #IvánMarín #ComediaColombiana
+```
+
+**Etiquetas:** Drunk Comedy, Alejandro Riaño, Iván Marín, Ricardo Quevedo, Antonio Sanint, Juanpis González, comedia colombiana, anécdotas, casting
+
+
 ## Comandos
 
-- Aprobar un clip en todas sus plataformas: `/publicador aprobar <clip-id>` (por ejemplo, `/publicador aprobar 2026-11-18-luciernaga-imitadores-iva`).
-- Aprobar una sola plataforma: `/publicador aprobar <clip-id>:<plataforma>` (por ejemplo, `/publicador aprobar 2026-11-18-luciernaga-imitadores-iva:youtube`).
+- Aprobar un clip en todas sus plataformas: `/publicador aprobar <clip-id>` (por ejemplo, `/publicador aprobar 2026-11-21-roy-barreras-neruda`).
+- Aprobar una sola plataforma: `/publicador aprobar <clip-id>:<plataforma>` (por ejemplo, `/publicador aprobar 2026-11-21-roy-barreras-neruda:youtube`).
 - Aprobar todo lo pendiente: `/publicador aprobar todo` (Instagram y YouTube siguen sin activar: solo deja los envíos listos; en YouTube, lo aprobado saldrá público).
 - Rechazar: `/publicador rechazar <clip-id> <motivo>`, o `/publicador rechazar <clip-id>:<plataforma> <motivo>` para una sola plataforma (con `:tiktok`, el clip deja de ir a la bandeja).

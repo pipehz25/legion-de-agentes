@@ -1,6 +1,12 @@
 # ¿Cuánto te deja? La cifra del negocio, dicha por el dueño
 
-> **Estado (18-nov, 00:30, ciclo 15): vigente hasta el 24-nov, con puntaje 73 (sin cambios).** Lo nuevo:
+> **Estado (21-nov, 10:55, ciclo 17): vigente hasta el 24-nov, con puntaje 71 (72 en el ciclo 16 y 73 en el 15).** Lo nuevo:
+> - **Tercer ciclo sin una cifra dicha en cámara.** El concierto de Kris R no dejó precio (su canal no sube nada y Jorge Andrés tampoco). La presentación de Blessd en el Pereira tampoco: solo está en el [directo de Tato Sanint](https://www.youtube.com/watch?v=Hyzmu4FG7YM), sin comprobar que hable él.
+> - **Ocasión abierta:** ['TUVE UNA CENA DE LUJO con LA GANGA y ESTO PASO'](https://www.youtube.com/watch?v=BhzALvos8YI) (Lonche Chacas, 524/h, 1,3 veces). Si alguien dice cuánto costó la cena o un plato, ese es el clip: la cifra en pantalla en el segundo 0 y "¿Cuánto crees que pagaron?".
+> - **En inglés,** TikTok estrena 'He wanna pay full price' (virlo.ai, 541 creadores en 7 días): el precio como gancho funciona, pero el audio es de SNL. Es solo una señal; el audio no se usa.
+> - Si el 24-nov sigue sin una pieza con la cifra, la ficha sale de las recomendaciones.
+>
+> **Estado anterior (18-nov, 00:30, ciclo 15): vigente hasta el 24-nov, con puntaje 73 (sin cambios).** Lo nuevo:
 > - **Sin piezas nuevas con la cifra dicha en cámara.** Lonche titula dos videos de las 24 horas con "*muchos lujos*" ([LoncheWey](https://www.youtube.com/watch?v=eIRYiimMx_E), 985/h; [Lonche Chacas](https://www.youtube.com/watch?v=510b8o8-JM8), 373/h), pero sin precio: si en el video alguien dice cuánto cuesta algo, ese es el clip; si no, no sirve para esta ficha.
 > - **Diego RR sale en persona con La Ganga** en las 24 horas (Kick, 'Con la ganga'; [en YouTube](https://www.youtube.com/watch?v=zQEWKfx2zWY)). Es la ocasión de la variante de empresarios: "¿cuánto te deja un carro?" dicho por él delante de los streamers.
 > - **Kris R, confirmado:** viernes 20-nov a las 20:00 en el DAVIarena. Sigue siendo la próxima ocasión para "¿cuánto vale lo que lleva puesto?".

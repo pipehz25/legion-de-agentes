@@ -1,0 +1,30 @@
+{
+    "id":  "2026-11-21-drunk-casting-tigo",
+    "url_fuente":  "https://www.youtube.com/watch?v=a_A7VV9qO-U",
+    "video_id":  "a_A7VV9qO-U",
+    "inicio":  1882.86,
+    "fin":  1949.11,
+    "inicio_hms":  "0:31:22",
+    "duracion_seg":  66.3,
+    "gancho":  "El casting de Tigo: \u0027a alguien van a echar\u0027",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  159,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "color":  "",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14.7,
+                  "limitador":  true,
+                  "entrada_lufs":  -18.77,
+                  "entrada_tp":  -5.08,
+                  "salida_lufs":  -15.74,
+                  "salida_tp":  -1.01
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-21-drunk-casting-tigo/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-21-drunk-casting-tigo/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-21-drunk-casting-tigo/revision.jpg",
+    "creado":  "2026-11-21T11:12:03.5033318-05:00"
+}

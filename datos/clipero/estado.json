@@ -1,8 +1,8 @@
 {
-    "actualizado":  "2026-11-18T01:50:00-05:00",
-    "ciclo":  18,
-    "ultimo_ciclo_cazador":  15,
-    "ultimo_ciclo_cazador_risas":  7,
+    "actualizado":  "2026-11-21T11:45:00-05:00",
+    "ciclo":  19,
+    "ultimo_ciclo_cazador":  17,
+    "ultimo_ciclo_cazador_risas":  8,
     "_nota_ciclo_16":  "Ciclo 16 (17-nov, desde la 01:26; procesa el ciclo 13 del Cazador Urbano y el 5 del de Risas; el ciclo 12 del Cazador Urbano no se procesó y queda cubierto por el 13). Cinco fuentes, como dice config: tres urbanas (Westcol sobre Herrera YQ-vOO3-Ghk, Samulx desde el hotel GkojR4E0tuY, Lonche con La Ganga s1betCsTVVE) y dos de risas (Hablando Huevadas en El Salvador qDAqPW70T7c, Anecdotario 378 de Ricardo Pérez VzE65NyXqb8). No se tocaron los VOD de Kick (whisper) porque las versiones de YouTube cubrían el mismo directo. Sin variantes: cada línea tiene una sola cuenta activa por plataforma (TikTok: principal y risas). Interrupciones: el ciclo se paró por el límite de uso tras el primer corte (se reanudó a las 12:54) y por una caída de red (ENOTFOUND) a media tarde; el corte de refri-papas falló y el de ganga-robot-precio salió con el video truncado a 47 s: se repitieron los dos. clips.json se actualizó por inserciones (el Publicador lo lee a la vez); no se podaron los clips de más de 7 días. Los 30 clips 2026-11-15-{antartida,sistema-solar,cables,apagon}-* (encargo CurioSismo, carpeta curiosismo/) no se registran ni se tocan: esperan la decisión del usuario. Herrera: la polémica empieza a tener ángulo legal (el propio Westcol habla de abogados; terceros titulan con una demanda); los clips evitan ese tramo y llevan \u0027si pasa a lo judicial, no se publica\u0027. Informe: salidas/clipero/informes/2026-11-17_0126.md.",
     "_nota_ciclo_15":  "Ciclo 15 (14-nov desde las 23:50; procesa el ciclo 11 del Cazador Urbano y el 4 del de Risas). Orden del orquestador: 1) urbano, Stream Fighters 5 de esta noche: Daren Ramírez contra El Agropecuario (G7gj3T1-_lk), la entrada de Westcol (pofJeEqiGF0) y lo mejor del pesaje completo (zkf8bOkg9kk), ventana hasta el 16-nov; las peleas grandes (Westcol contra Blessd, las parejas de streamers) no están subidas y quedan para el ciclo 16; 2) risas: primero lo que sale de la ventana el 15-nov (Paren la Mano del 12/11 uRZ2xc4sRyA, Juanpis Cap. 7 I2i3qkbPdXE, Liss Pereira T6Cw9kprkbc, Mestizos Precisos YdISeGSMqJo) y después Tirando Bola T9E21 (niP1DkpCYvs), Paren la Mano del 13/11 (92HshiOuj1k) y Nadie Sabe Nada 14x11 (pSyuyPq7uh0). Se pasa del tope de 5 fuentes por orden expresa del orquestador. Sin variantes: cada línea tiene una sola cuenta activa por plataforma (TikTok: risas y principal). Pendiente del ciclo 14: el clip 2026-11-13-samulx-chanty-cruce-willito (Gnhd74tjACk) se cortó sin registrar; se registra en este ciclo. Se paró hacia las 00:20 del 15-nov por el límite de uso con 2 clips del pesaje cortados sin registrar; se reanudó a las 18:10 con orden del orquestador: registrarlos, cortar los dos pendientes de Paren la Mano del 12/11 y seguir con Tirando Bola, Paren la Mano del 13/11 y Nadie Sabe Nada. Cierre (19:02): 16 clips nuevos (5 urbanos, 11 de risas) más el del ciclo 14; 6 fuentes nuevas. No se analizaron Juanpis Cap. 7 ni Liss Pereira (salen de la ventana el 15-nov a las 20:00) ni Mestizos Precisos (salió a las 12:30). Quedan propuestos con ventana hasta el 16-nov 5 momentos del pesaje (zkf8bOkg9kk), con palabras-rev.json ya corregido. Los clips del evento se revisan con hoja de fotogramas completa: el directo intercala rótulos de apuestas (Stake). Informe: salidas/clipero/informes/2026-11-14_2350.md.",
     "_nota_ciclo_14":  "Ciclo 14 (13-nov desde las 18:43; procesa el ciclo 10 del Cazador Urbano y el 3 del de Risas). Orden del orquestador: 1) risas primero y con volumen: La Cotorrisa 399 (XUh-fUA_o30), Paren la Mano del 12-nov (uRZ2xc4sRyA) y del 11-nov (Luquitas y el Papa; recorte del canal K4MCv-DXdmI), Jhovanoty disfrazado de De la Espriella (lEDdtE48rBk; gancho que diga que es disfraz, reglas de humor político) y Juanpis Cap. 7 (I2i3qkbPdXE); 2) urbano, solo 3-4 momentos de la previa de Stream Fighters 5 con ventana hasta el 15-nov. Se pasa del tope de 5 fuentes por orden expresa del orquestador. Sin variantes: cada línea tiene una sola cuenta activa por plataforma (TikTok: risas y principal).",
@@ -617,6 +617,41 @@
                         "titulo":  "Le eché agua bendita a La Pestilencia- The Juanpis Live Show",
                         "analizado":  "2026-11-18",
                         "resultado":  "1 clip (ciclo 18, risas): juanpis-pestilencia-juicio-tv 74 + 4 propuestos: \u0027todos aprendieron con la Pestilencia y se fueron al reggaetón… y está quebrado\u0027 (14:59-15:39, 70), \u0027el pogo lo rompió todo\u0027 (43:51-44:22, 70, marca en comentarios 44:05), la mamá de Dilson en el pogo (23:51-24:48, 69), la edad equivocada en Wikipedia (11:27-12:48, 68) | fuente_para_clips del Cazador de Risas (ciclo 7), prioridad media, 3.268 vistas/h; salía de su ventana a las 20:00 del 18-nov; primera fuente de Juanpis | Juanpis González (2,96 M), publicado 15-nov 20:00 (ahora titulado \u0027¿Me volví punkero con La Pestilencia?\u0027), 5.126 s, 172.654 vistas y 150 comentarios al analizar (01:05) | sin picos; 1 marca (44:05) | transcripción leída entera (598 líneas) | invitado: Dilson Díaz (La Pestilencia), que se despide con \u0027El último pogo\u0027 el 28-nov | fuera: drogas al inicio (\u0027metámonos un pase\u0027, el \u0027drep\u0027), \u0027no hay algo más hijuta que un enano\u0027 (14:12-14:59), \u0027Masacre… tocan las FARC, el ELN\u0027 (violencia), \u0027yo por la plata hago matar\u0027 (Juanpis), el cuchito que fue al pogo \u0027a suicidarse\u0027 y \u0027mátate, mátate\u0027 (suicidio), los balazos y el portero asesinado antes de Rock al Parque (tragedia), la policía y el planazo (violencia), Laureano Gómez (política y violencia), \u0027el pobre no usa condones\u0027 y los hijos hechos en Rock al Parque (sexual, clasismo), Harry Styles \u0027¿qué es eso tan homosexual?\u0027 (orientación), el monólogo final de Alejandro Riaño (política, sin humor) | saturación (01:06): solo el episodio | palabras-rev.json: viimos→vivimos; \u0027Diego yos\u0027→(…)"
+                    },
+                    {
+                        "id":  "9QTq4B02vaA",
+                        "url":  "https://www.youtube.com/watch?v=9QTq4B02vaA",
+                        "titulo":  "Episodio 400 - Me curaron con humo por el recto",
+                        "analizado":  "2026-11-21",
+                        "resultado":  "1 clip (ciclo 19, línea risas): cotorrisa-firma-tianguis 76 + 3 propuestos (\u0027fuiste un buen empleado\u0027, 70; la lluvia de carne de Kentucky, 69, no cabe en 75 s; la mamá que regaña a los cotorros en la firma, 68) | fuente_para_clips n.º 1 del Cazador de Risas (ciclo 8), prioridad alta, 15.146 vistas/h; salía de su ventana a las 21:15 del 21-nov; un solo clip por orden del orquestador (cola de TikTok risas llena) | Slobotzky (3,23 M), publicado 18-nov 21:15, 6.019 s, 933.005 vistas al analizar (10:59) | sin picos; 8 marcas (41:30 la imitación de Brian 38 likes, 32:00 caricaturas, 9:30, 2:30, 28:00, 4:00, 52:00, 57:00), ninguna con remate que se entienda solo | transcripción leída entera (788 líneas) | fuera: el cuento animado con IA de Mateo y \u0027el piso es lava\u0027 (0:00-9:01, el hijo pequeño), los pies (sexual), la imitación de Brian (chiste interno), la IA que no descifra el telégrafo (largo), la tuberculosis de la mamá de un seguidor, el plug (sexual), el humo por el recto (escatológico, marihuana), el sastre de la Torre Eiffel (muerte) | saturación (11:01-11:03): solo el episodio | palabras-rev.json: tiang→tianguis, mir.→mía., gey.→güey."
+                    },
+                    {
+                        "id":  "a_A7VV9qO-U",
+                        "url":  "https://www.youtube.com/watch?v=a_A7VV9qO-U",
+                        "titulo":  "Los traumas hacen a un borracho más fuerte - Drunk Comedy (Cap.8)",
+                        "analizado":  "2026-11-21",
+                        "resultado":  "1 clip (ciclo 19, línea risas): drunk-casting-tigo 73 + 1 propuesto (la \u0027traición\u0027 por la plata de la segunda campaña de Tigo, 38:12-39:17, 68, muy cruzado) | fuente_para_clips n.º 2 del Cazador de Risas (ciclo 8), prioridad alta, 2.683 vistas/h; Iván Marín, Ricardo Quevedo y Alejandro Riaño en persona, con Antonio Sanint | Juanpis González (2,96 M), publicado 19-nov 20:00, 2.534 s, 104.311 vistas al analizar (11:05) | sin picos; 7 marcas (27:30 Quevedo 9 likes: el chiste de los sordos; 25:00 la abuela de Iván 9 likes; 37:00; 38:30; 17:00 y 17:30 el abandono; 34:00) | transcripción leída entera (322 líneas): mucho cruce de voces | fuera: \u0027me drogaron, me querían violar\u0027, los besos \u0027en el pipí\u0027, Macallan y Póker (marcas de alcohol), Perro amor (sexual), Antonio y el ramen (físico), \u0027la cocaína, mentira\u0027, el abandono de los padres de Iván y su abuela (dolor real), los sordos y la abuela sordomuda, la versión de Iván del casting (\u0027sacarlo por gordo\u0027), \u0027prepago… con ese culo\u0027 | quién dijo \u0027a alguien van a echar\u0027 no queda claro: los textos no se lo atribuyen a nadie | saturación (11:06-11:07): solo el capítulo | palabras-rev.json: \u0027buena\u0027 (1.893,4 s)→(…)"
+                    },
+                    {
+                        "id":  "qo3BPfZ6vZI",
+                        "url":  "https://www.youtube.com/watch?v=qo3BPfZ6vZI",
+                        "titulo":  "EN VIVO La Luciérnaga: Paro nacional- Los diplomas de Verónica Estrada - Roy Barreras Sin Anestesia",
+                        "analizado":  "2026-11-21",
+                        "resultado":  "1 clip (ciclo 19, línea risas): roy-barreras-neruda 74 | fuente_para_clips del Cazador de Risas (ciclo 8), prioridad alta, acotada por el Cazador a 2:37:05-2:38:36; formato-humorista-entrevista-politico | Caracol Radio (1,29 M), publicado 19-nov 15:58, 10.730 s, 34.503 vistas y 4 comentarios al analizar (11:22) | sin picos ni marcas | se leyó la sección de Roy Barreras (\u0027Sin anestesia\u0027, 2:15:43-2:57:25); el resto del programa lo excluye el Cazador | es Roy Barreras en persona (el programa lo presenta y el rótulo dice \u0027SIN ANESTESIA CON ROY BARRERAS\u0027); autoburla, parodia del Poema 20 de Neruda; política: centroizquierda | se entra en \u0027Mire, mejor dice así\u0027 (2:37:48) porque con la explicación previa pasaría de 75 s | fuera: la respuesta en verso del imitador del \u0027tigre\u0027 (2:38:45-2:41:00, se burla de la derrota de Cepeda: un solo lado), los títulos de Verónica Estrada (caso judicial), la promoción del libro | saturación (11:24-11:25): sin recortes | palabras-rev.json: Donroy→Don Roy, Eneruda→Neruda"
+                    },
+                    {
+                        "id":  "AYFdSyu_Lfo",
+                        "url":  "https://www.youtube.com/watch?v=AYFdSyu_Lfo",
+                        "titulo":  "HABLANDO DEL PROYECTO DE LA GANGA ¿QUE PASO ANTIER? 😂 | Samulx",
+                        "analizado":  "2026-11-21",
+                        "resultado":  "1 clip (ciclo 19, urbano): ganga-hit-cuatro-horas 75 | fuente_para_clips n.º 1 del Cazador Urbano (ciclo 17), 2.365 vistas/h, formato-el-dia-despues-del-protagonista | Samulx (190.000), publicado 20-nov 20:51, 1.109 s, 33.554 vistas y 2 comentarios al analizar (11:21) | sin picos ni marcas | transcripción leída entera (146 líneas): es la planificación de las 72 horas, no lo que pasó \u0027antier\u0027 | fuera: las reglas de La Ganga y el funeral \u0027en stream\u0027 (muerte), el plan de las 72 horas (alcohol, after, dañar la casa de Andrés Aguirre), el villancico \u0027las perras de mi…\u0027 y la abuela, beber sin decir que no, \u0027me estoy inyectando… parezco Daren\u0027 y el examen de sustancias, Leandro y la marihuana a los 17, \u0027los que mandan fierro\u0027 | saturación (11:24): sin recortes | palabras-rev.json: Escuch→Escuche, 200,000→200.000, ganga→Ganga"
+                    },
+                    {
+                        "id":  "CGICIcJ8lCY",
+                        "url":  "https://www.youtube.com/watch?v=CGICIcJ8lCY",
+                        "titulo":  "ASI ES PROVENZA DE NOCHE con LA GANGA en COLOMBIA | Lonche",
+                        "analizado":  "2026-11-21",
+                        "resultado":  "1 clip (ciclo 19, urbano): lonche-hormigas-culonas 74 | fuente_para_clips n.º 4 del Cazador Urbano (ciclo 17), 950 vistas/h (2,35 veces el canal), formato-primera-vez-en-medellin | Lonche Chacas, publicado 20-nov 23:45, 2.538 s, 10.943 vistas y 2 comentarios al analizar (11:30) | sin picos ni marcas | transcripción leída entera (403 líneas): calle de noche, mucho ruido | el primer cortar falló en ffmpeg (código 3436169992); se repitió fuera del sandbox | fuera: pedir y beber alcohol (whisky, shots de tequila, las meseras), \u0027Lonche pegado al teléfono… es la novia\u0027, el freestyle con \u0027tu hermana se salió follada\u0027, \u0027Los caminos de la vida\u0027 con músicos callejeros (música con derechos), el parque Lleras \u0027lleno de culo\u0027, \u0027usted está muy gordo\u0027 | saturación (11:31): sin recortes | palabras-rev.json: Wilito→Willito, ¿quiende→¿Quién de, gey→güey, agorrar→(…)"
                     }
                 ],
     "momentos":  [
@@ -6874,9 +6909,289 @@
                          "clip":  null,
                          "variante_de":  null,
                          "motivo":  "la lluvia, el paraguas y el Uber (sin remate)"
+                     },
+                     {
+                         "fuente":  "9QTq4B02vaA",
+                         "inicio":  3950.25,
+                         "fin":  4025.06,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-21-cotorrisa-firma-tianguis",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "9QTq4B02vaA",
+                         "inicio":  4240.0,
+                         "fin":  4323.6,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "\u0027Fuiste un buen empleado\u0027: el jefe de la ferretería lo cita por reírse solo con La Cotorrisa y al despedirse acaba de fan (70). Un solo clip por fuente (cola de TikTok risas llena); el jefe pregunta si tenía \u0027retraso o enfermedad\u0027: revisar el tono; empezar en \u0027Y trabajaba en una ferretería\u0027 (4.250,1)"
+                     },
+                     {
+                         "fuente":  "9QTq4B02vaA",
+                         "inicio":  5341.0,
+                         "fin":  5746.0,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "La lluvia de carne de Kentucky de 1876 y los zopilotes que vomitan (69): no cabe en un tramo de 75 s"
+                     },
+                     {
+                         "fuente":  "9QTq4B02vaA",
+                         "inicio":  4132.0,
+                         "fin":  4192.0,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "La mamá de un seguidor regaña a los cotorros en la firma y la saca el staff (68)"
+                     },
+                     {
+                         "fuente":  "9QTq4B02vaA",
+                         "inicio":  0.0,
+                         "fin":  541.0,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "el cuento animado con IA de Mateo y \u0027el piso es lava\u0027 (sale el hijo pequeño de uno de ellos: menor)"
+                     },
+                     {
+                         "fuente":  "9QTq4B02vaA",
+                         "inicio":  965.0,
+                         "fin":  1386.0,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "los pies y los fetiches (sexual)"
+                     },
+                     {
+                         "fuente":  "9QTq4B02vaA",
+                         "inicio":  2487.0,
+                         "fin":  2566.0,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "la imitación de Brian con la voz de Don Cangrejo (marca 41:30, 38 likes): chiste interno que no se entiende solo"
+                     },
+                     {
+                         "fuente":  "9QTq4B02vaA",
+                         "inicio":  2790.0,
+                         "fin":  2998.0,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "la IA que no descifra el telégrafo: largo y sin remate claro"
+                     },
+                     {
+                         "fuente":  "9QTq4B02vaA",
+                         "inicio":  3822.0,
+                         "fin":  3925.0,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "la tuberculosis de la mamá de un seguidor (enfermedad)"
+                     },
+                     {
+                         "fuente":  "9QTq4B02vaA",
+                         "inicio":  4461.0,
+                         "fin":  4604.0,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "el plug (sexual)"
+                     },
+                     {
+                         "fuente":  "9QTq4B02vaA",
+                         "inicio":  5003.0,
+                         "fin":  5103.0,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "el sastre que murió saltando de la Torre Eiffel (muerte)"
+                     },
+                     {
+                         "fuente":  "9QTq4B02vaA",
+                         "inicio":  5255.0,
+                         "fin":  5329.0,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "el humo de tabaco por el recto del título (escatológico, con la \u0027cucaracha\u0027 de marihuana)"
+                     },
+                     {
+                         "fuente":  "a_A7VV9qO-U",
+                         "inicio":  1882.86,
+                         "fin":  1949.11,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-21-drunk-casting-tigo",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "a_A7VV9qO-U",
+                         "inicio":  2292.0,
+                         "fin":  2357.0,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "La \u0027traición\u0027 por la plata de la segunda campaña de Tigo y \u0027a mí me dicen le damos un sándwich y entro\u0027 (68): muy cruzado y un solo clip por fuente"
+                     },
+                     {
+                         "fuente":  "a_A7VV9qO-U",
+                         "inicio":  130.0,
+                         "fin":  230.0,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "\u0027me drogaron, me querían violar\u0027 y los besos \u0027en el pipí\u0027 (sexual, drogas)"
+                     },
+                     {
+                         "fuente":  "a_A7VV9qO-U",
+                         "inicio":  976.0,
+                         "fin":  1464.0,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "el abandono de los padres de Iván Marín y su abuela (dolor real), aunque tiene la marca de 25:19"
+                     },
+                     {
+                         "fuente":  "a_A7VV9qO-U",
+                         "inicio":  1640.0,
+                         "fin":  1690.0,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "\u0027¿con qué música culean los sordos?\u0027 (marca 27:46: sexual y discapacidad) y la abuela sordomuda"
+                     },
+                     {
+                         "fuente":  "a_A7VV9qO-U",
+                         "inicio":  2002.0,
+                         "fin":  2133.0,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "la versión de Iván del casting de Tigo: \u0027sacarlo por gordo\u0027 (físico)"
+                     },
+                     {
+                         "fuente":  "a_A7VV9qO-U",
+                         "inicio":  2251.0,
+                         "fin":  2292.0,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "\u0027prepago… con ese culo\u0027 (sexual)"
+                     },
+                     {
+                         "fuente":  "qo3BPfZ6vZI",
+                         "inicio":  9467.69,
+                         "fin":  9518.1,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-21-roy-barreras-neruda",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "qo3BPfZ6vZI",
+                         "inicio":  9525.0,
+                         "fin":  9670.0,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "la respuesta en verso del imitador del \u0027tigre\u0027, que se burla de la derrota de Cepeda (un solo lado)"
+                     },
+                     {
+                         "fuente":  "AYFdSyu_Lfo",
+                         "inicio":  403.25,
+                         "fin":  447.46,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-21-ganga-hit-cuatro-horas",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "AYFdSyu_Lfo",
+                         "inicio":  83.0,
+                         "fin":  149.0,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "las reglas de La Ganga y el funeral \u0027en stream\u0027 (muerte)"
+                     },
+                     {
+                         "fuente":  "AYFdSyu_Lfo",
+                         "inicio":  149.0,
+                         "fin":  342.0,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "el plan de las 72 horas: alcohol, after y dañar la casa de Andrés Aguirre"
+                     },
+                     {
+                         "fuente":  "AYFdSyu_Lfo",
+                         "inicio":  467.0,
+                         "fin":  585.0,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "el villancico \u0027las perras de mi…\u0027 y \u0027a mi abuela le quedan dos, tres añitos\u0027"
+                     },
+                     {
+                         "fuente":  "AYFdSyu_Lfo",
+                         "inicio":  788.0,
+                         "fin":  887.0,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "\u0027me estoy inyectando… parezco Daren\u0027, el examen de sustancias y la marihuana de Leandro a los 17 (drogas)"
+                     },
+                     {
+                         "fuente":  "CGICIcJ8lCY",
+                         "inicio":  693.89,
+                         "fin":  744.5,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-21-lonche-hormigas-culonas",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "CGICIcJ8lCY",
+                         "inicio":  1081.0,
+                         "fin":  1540.0,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "pedir y beber alcohol: whisky, shots de tequila, las meseras"
+                     },
+                     {
+                         "fuente":  "CGICIcJ8lCY",
+                         "inicio":  1521.0,
+                         "fin":  1591.0,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "\u0027Lonche pegado al teléfono… es la novia\u0027 (vida privada)"
+                     },
+                     {
+                         "fuente":  "CGICIcJ8lCY",
+                         "inicio":  1748.0,
+                         "fin":  1890.0,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "el freestyle con \u0027tu hermana se salió follada\u0027 (sexual)"
+                     },
+                     {
+                         "fuente":  "CGICIcJ8lCY",
+                         "inicio":  2040.0,
+                         "fin":  2200.0,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "\u0027Los caminos de la vida\u0027 con músicos callejeros (música con derechos)"
                      }
                  ],
     "lote_2026_11_06":  "ocho-videos-usuario",
     "_nota_ciclo_17":  "Ciclo 17 (17-nov, 18:45-19:25; procesa el ciclo 14 del Cazador Urbano y el 6 del de Risas). Órdenes del orquestador: calidad antes que cantidad (el Publicador avisa de que TikTok admite 4 borradores al día por cuenta y que 21 clips de la cola vencerán sin subirse), nada más sobre Herrera (pasa a lo legal) y no tocar los clips de curiosismo/. Por eso este ciclo solo corta lo que pasa de 73, aunque el umbral de config sigue en 65: lo bueno que queda por debajo se anota como propuesto. Cinco fuentes, como dice config: dos urbanas (VrZCpUujrTQ, la misma conversación que s1betCsTVVE desde la cámara de Samulx; eUdpqtf7ryw, las \u0027bombas\u0027, casi todo fuera del enfoque) que no dan ningún clip, y las tres de prioridad alta del Cazador de Risas (Los De La Culpa 269, La Mesa Reñoña 524 y Soñé que Volaba 17/11), que dan 4 clips de risas, uno por día de cola de TikTok risas. Tema del día del Cazador de Risas (Pattinson nuevo James Bond, caduca hacia el 19-nov): ni Soñé que Volaba ni La Mesa Reñoña tienen una ocurrencia buena; el tramo limpio de La Mesa Reñoña queda propuesto (68). Sin variantes: cada línea tiene una sola cuenta activa por plataforma (TikTok: principal y risas). No se tocaron los VOD de Kick (whisper): el de Westcol \u0027HABLANDO DEL EVENTO\u0027 es en buena parte Herrera y su versión de YouTube ya está cortada (YQ-vOO3-Ghk). clips.json se reescribió con los 4 nuevos delante; no se podaron los clips de más de 7 días. Informe: salidas/clipero/informes/2026-11-17_1845.md.",
-    "_nota_ciclo_18":  "Ciclo 18 (18-nov, 00:46-01:50; procesa el ciclo 15 del Cazador Urbano y el 7 del de Risas). Órdenes del orquestador: calidad antes que cantidad (TikTok admite 4 borradores al día por cuenta), nada sobre Herrera, no tocar curiosismo/; la línea urbano no tenía clips nuevos desde el ciclo 16. Listón: urbano desde 70 (la cola de principal tiene hueco el 19 y el 20-nov), risas desde 73 (la cola de risas está llena hasta el 20-nov y 16 clips se quedan fuera). Cinco fuentes, como dice config: tres urbanas (QauXCZ2fFs8, la despedida de La Guarida desde el canal oficial de Samulx, preferido a WestClips; _R71FcOLQQQ, \u0027Me desquite de Westcol y de Pan\u0027, casi sin diálogo: se miró con vistazo cada 20 s; eIRYiimMx_E, las 24 horas de Lonche, sin clip) y dos de risas (pYtwwPMrdzs, La Luciérnaga del 17-nov, solo la sátira del IVA; zsa74yNbstU, Juanpis con Dilson Díaz, que salía de la ventana del Cazador a las 20:00 del 18-nov). 4 clips: 2 urbano (ganga-guarida-toretto 74, ganga-bienvenida-piscina 73) y 2 risas (luciernaga-imitadores-iva 76, juanpis-pestilencia-juicio-tv 74). Ningún clip confirma en imagen a un perfil del Cazador Urbano (de noche y en grupo; los títulos no nombran a nadie). Sátira del IVA: Claudia López (centro) y Uribe (derecha); la Juvinao (centroizquierda) no cabe en 75 s; la ficha deja claro que son imitadores. No se analizaron las \u0027bombas\u0027 de Westcol (2KYjaIs-YYE): el Cazador avisa de que no dan clips limpios. Las 24 horas con La Ganga siguen en directo en Kick: sus VOD llegan al ciclo siguiente. La Revuelta del 17-nov con Emilia aún no estaba en YouTube a las 00:46. Sin variantes: cada línea tiene una sola cuenta activa por plataforma (TikTok: principal y risas). clips.json se reescribió con los 4 nuevos delante; no se podaron los clips de más de 7 días. Informe: salidas/clipero/informes/2026-11-18_0046.md."
+    "_nota_ciclo_18":  "Ciclo 18 (18-nov, 00:46-01:50; procesa el ciclo 15 del Cazador Urbano y el 7 del de Risas). Órdenes del orquestador: calidad antes que cantidad (TikTok admite 4 borradores al día por cuenta), nada sobre Herrera, no tocar curiosismo/; la línea urbano no tenía clips nuevos desde el ciclo 16. Listón: urbano desde 70 (la cola de principal tiene hueco el 19 y el 20-nov), risas desde 73 (la cola de risas está llena hasta el 20-nov y 16 clips se quedan fuera). Cinco fuentes, como dice config: tres urbanas (QauXCZ2fFs8, la despedida de La Guarida desde el canal oficial de Samulx, preferido a WestClips; _R71FcOLQQQ, \u0027Me desquite de Westcol y de Pan\u0027, casi sin diálogo: se miró con vistazo cada 20 s; eIRYiimMx_E, las 24 horas de Lonche, sin clip) y dos de risas (pYtwwPMrdzs, La Luciérnaga del 17-nov, solo la sátira del IVA; zsa74yNbstU, Juanpis con Dilson Díaz, que salía de la ventana del Cazador a las 20:00 del 18-nov). 4 clips: 2 urbano (ganga-guarida-toretto 74, ganga-bienvenida-piscina 73) y 2 risas (luciernaga-imitadores-iva 76, juanpis-pestilencia-juicio-tv 74). Ningún clip confirma en imagen a un perfil del Cazador Urbano (de noche y en grupo; los títulos no nombran a nadie). Sátira del IVA: Claudia López (centro) y Uribe (derecha); la Juvinao (centroizquierda) no cabe en 75 s; la ficha deja claro que son imitadores. No se analizaron las \u0027bombas\u0027 de Westcol (2KYjaIs-YYE): el Cazador avisa de que no dan clips limpios. Las 24 horas con La Ganga siguen en directo en Kick: sus VOD llegan al ciclo siguiente. La Revuelta del 17-nov con Emilia aún no estaba en YouTube a las 00:46. Sin variantes: cada línea tiene una sola cuenta activa por plataforma (TikTok: principal y risas). clips.json se reescribió con los 4 nuevos delante; no se podaron los clips de más de 7 días. Informe: salidas/clipero/informes/2026-11-18_0046.md.",
+    "_nota_ciclo_19":  "Ciclo 19 (21-nov, 10:58-11:50; procesa el ciclo 17 del Cazador Urbano y el 8 del de Risas, después de casi tres días de Legión parada: el ciclo 18 acabó el 18-nov a las 01:50). Órdenes del orquestador: calidad antes que cantidad (la cola de TikTok risas está llena, con 3 para hoy, y TikTok frenó esa cuenta por borradores pendientes); en risas, un clip por fuente y solo las tres altas (La Cotorrisa 400 primero, porque salía de la ventana a las 21:15; Drunk Comedy cap. 8; el poema de Roy Barreras en La Luciérnaga del 19-nov, solo 2:37:05-2:38:36); en urbano, la mejor fuente es \u0027¿QUE PASO ANTIER?\u0027 de Samulx; del concierto de Kris R solo hay re-subidas de terceros (no se tocan); nada sobre Herrera; no tocar curiosismo/. Cinco fuentes, como dice config: tres de risas y dos urbanas (Samulx y \u0027Provenza de noche\u0027 de Lonche Chacas, que lleva formato-primera-vez-en-medellin). 5 clips, uno por fuente: risas, cotorrisa-firma-tianguis 76, roy-barreras-neruda 74 (Roy Barreras en persona: autoburla sobre su derrota, centroizquierda; no es un imitador) y drunk-casting-tigo 73; urbano, ganga-hit-cuatro-horas 75 y lonche-hormigas-culonas 74. Ningún clip confirma en imagen quién es cada perfil urbano (grupos; los textos no nombran a nadie salvo lo que se oye). El corte de Lonche falló una vez en ffmpeg y salió fuera del sandbox. Sin variantes: cada línea tiene una sola cuenta activa por plataforma. Quedan sin analizar, para el ciclo siguiente si siguen en ventana: risas, La Luciérnaga del 20-nov con la carta del \u0027presidente\u0027 en vallenato (1umsdaFlemE, 1:58:09-2:00:10, imitador de De la Espriella, derecha; ventana hasta el 23-nov), Nadie Sabe Nada 14x12 (2D50tEbbKfw, hasta el 24-nov) y La Revuelta con Candela Peña (SQpP_Hjbim8, 1:15-3:35, hasta el 22-nov 05:00); urbano, Westcol GTA VI (ttjJZFSUQEU), Westcol reúne a La Ganga (vu3pomih_Os, juan diego mm), Samulx convence a Rey (w5v-vJeRNOU), la cena de lujo (BhzALvos8YI), el tour por Provenza con Westcol (Rf51CjEu-1M) y el resto de la lista del Cazador. clips.json se reescribió con los 5 nuevos delante; no se podaron los clips de más de 7 días. Informe: salidas/clipero/informes/2026-11-21_1058.md."
 }

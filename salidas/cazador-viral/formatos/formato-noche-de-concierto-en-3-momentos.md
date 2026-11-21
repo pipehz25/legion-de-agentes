@@ -1,6 +1,16 @@
 # La noche en 3 momentos (lo que no salió en las noticias)
 
-> **Estado (18-nov, 00:30, ciclo 15): se reactiva para las 24 horas con La Ganga, del 18-nov por la tarde al 19-nov; después, en pausa hasta Kris R (viernes 20-nov, confirmado).** Patrón base nuevo: `tema-24-horas-con-la-ganga` (emergente, puntaje 77).
+> **Estado (21-nov, 10:55, ciclo 17): el concierto de Kris R ya pasó (20-nov, DAVIarena) y casi no dejó material.** Kris R no sube nada en las 14 h siguientes, la prensa todavía no tiene crónica y en YouTube no hay videos de fans de hoy. Lo único es la cámara de Lonche, que fue con La Ganga dentro de sus 72 horas de directo, re-subida por terceros: ['Lonche Y La G4NG4 En Concierto De Kris R Colombia'](https://www.youtube.com/watch?v=X2TYu7d_UtA) (LONCHI, 46 min) y ['72 HORAS CON LA GANGA FUIMOS AL CONCIERTO DE KRIS R'](https://www.youtube.com/watch?v=-7BrxWvt4JI) (Lonche Foco, 143 min).
+> - **"La noche de Kris R en 3 momentos, desde la cámara de Lonche":**
+>   1. La llegada de La Ganga al DAVIarena.
+>   2. La reacción del grupo durante el show, sin la canción de fondo (derechos).
+>   3. El después: si saludan a Kris R o hablan de él.
+>
+>   Gancho: "Fuimos al concierto de Kris R con La Ganga". Final: "¿Quién lo vio en vivo?".
+> - Si Kris R o su equipo suben el después el 21 o el 22-nov, pasa a `formato-lo-que-no-se-vio`.
+> - Después, en pausa hasta el próximo evento de un perfil. Las 72 horas de La Ganga (20-23 nov) siguen en saturación: no se reactiva la versión del reto.
+>
+> **Estado anterior (18-nov, 00:30, ciclo 15): se reactiva para las 24 horas con La Ganga, del 18-nov por la tarde al 19-nov; después, en pausa hasta Kris R (viernes 20-nov, confirmado).** Patrón base nuevo: `tema-24-horas-con-la-ganga` (emergente, puntaje 77).
 > - **Por qué ahora:** hacia las 23:58 del 17-nov, cinco cámaras del reto están en el top 21 mundial de Kick (Westcol #1 con 103.955 espectadores, Lonche #3 con 56.724, Reydelacity, Willito y Samulx). En YouTube rinden los recortes de los protagonistas ([Live Samulx](https://www.youtube.com/watch?v=_R71FcOLQQQ), unas 2 veces sus otros recortes; [LoncheWey](https://www.youtube.com/watch?v=eIRYiimMx_E), 3,2 veces su subida anterior) y no las copias de terceros (3-80/h).
 > - **"Las 24 horas con La Ganga en 3 momentos":**
 >   1. **El arranque:** la despedida de La Guarida, la casa-set de La Ganga que van a tumbar. Está en cuatro cámaras: [WestClips](https://www.youtube.com/watch?v=3kgAxWJQr9I) (6.682/h), [Samulx](https://www.youtube.com/watch?v=QauXCZ2fFs8), [Lonche y Willito](https://www.youtube.com/watch?v=4U_Jnv6y4BM) y [The Chanty](https://www.youtube.com/watch?v=LNYrU3h0OBw). Pon en texto qué es La Guarida: sin contexto no se entiende.

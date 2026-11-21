@@ -1,0 +1,30 @@
+{
+    "id":  "2026-11-21-roy-barreras-neruda",
+    "url_fuente":  "https://www.youtube.com/watch?v=qo3BPfZ6vZI",
+    "video_id":  "qo3BPfZ6vZI",
+    "inicio":  9467.69,
+    "fin":  9518.1,
+    "inicio_hms":  "2:37:47",
+    "duracion_seg":  50.4,
+    "gancho":  "Roy Barreras le cambia la letra a Neruda",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  137,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "color":  "",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -17.78,
+                  "entrada_tp":  -4.85,
+                  "salida_lufs":  -13.94,
+                  "salida_tp":  -1.07
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-21-roy-barreras-neruda/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-21-roy-barreras-neruda/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-21-roy-barreras-neruda/revision.jpg",
+    "creado":  "2026-11-21T11:19:02.6902418-05:00"
+}
