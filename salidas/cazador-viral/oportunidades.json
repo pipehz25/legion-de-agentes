@@ -1,164 +1,67 @@
 {
-  "generado": "2026-11-21T10:31:51-05:00",
-  "ciclo": 17,
+  "generado": "2026-11-21T20:50:00-05:00",
+  "ciclo": 18,
   "enfoque": "Música urbana de cantantes jóvenes, empresarios exitosos y streamers (config.perfiles y similares de datos/cazador-viral/perfiles.json). Excluidos: reality shows, concursos de TV, chisme de televisión y casos judiciales de famosos.",
   "notas": [
-    "Ventana de 36 h calculada a las 10:30 del 21-nov: entra lo publicado desde el 2026-11-19T22:30-05:00. Métricas medidas de 10:03 a 10:23 (campo medido_a).",
-    "Kick se saltó en este ciclo por orden del orquestador (la API se colgó dos veces en el ciclo 16). Los directos de Westcol, Lonche y compañía se midieron por YouTube: sus canales oficiales y los de recortes. Desde la noche del 20-nov La Ganga hace 72 horas de directo en Medellín con los mexicanos, con ida al concierto de Kris R; en YouTube sus piezas van en su línea, salvo el tour nocturno por Provenza (2,35 veces).",
-    "El concierto de Kris R (20-nov, DAVIarena) no dejó nada propio en YouTube en 14 h: ni su canal, ni la prensa, ni fans. Lo único es la cámara de Lonche, re-subida por terceros (fuente n.º 5).",
-    "Blessd no aparece en persona: la presentación del Pereira solo está en el directo de Tato Sanint (fuente n.º 14; sin comprobar que hable él). tema-blessd-dueno-del-pereira pasa a pico (47) y sale de las listas.",
-    "Excluidos a propósito: lo de Herrera; el proceso judicial de Blessd; 'Westcol es un mal ejemplo para su audiencia' (mexito!) y 'los mini westcol que odian la escuela' (ernzstito), que hablan de él sin él, en tono de crítica y con menores; la novia de Reydelacity (The Chanty); las retransmisiones de terceros de las 72 horas (AltaPeli, OVDR; de 24 a 66/h); los videos musicales (acústicos de Maluma, 'Ma préférée' de JuL con J Balvin, Ryan Castro en LOS40 Music Awards); los programas de fútbol de la final en Barranquilla (AZZ, fútbol NEWS) y la Copa Potrero de Blessd.",
-    "Nada de esta lista está cortado (el último ciclo del Clipero es el 18, del 18-nov). Las fuentes del ciclo 16 que siguen sin cortar ya pasan de 36 h."
+    "Ventana de 36 h calculada a las 20:50 del 21-nov: entra lo publicado desde el 2026-11-20T08:50-05:00. Lo nuevo es lo publicado desde el final del ciclo 17 (21-nov, 10:55). Métricas medidas de 17:56 a 19:29 (campo medido_a). La PC entró en suspensión dos veces durante el ciclo (de 18:07 a 19:24 y de 19:27 a 20:41).",
+    "Kick se saltó por orden del orquestador (ni API ni páginas, tampoco 'canal' de clipero.ps1 con URL de Kick). Las 72 horas de La Ganga (desde la noche del 20-nov) se midieron por YouTube: canales oficiales y de recortes.",
+    "Lo que rinde hoy es el lugar nuevo: Guatapé (Lonche Chacas, 3.657/h, unas 9 veces su mediana por hora), el restaurante giratorio (The Chanty, 3,2 veces) y la chiva (Live Samulx, 2,6 veces). Fuera de La Ganga, Coco Maggio (argentino) descubre Barranquilla antes de la final: 4.543/h, ya 1,5 veces la mediana de vistas totales de sus 5 videos anteriores.",
+    "Kris R sigue sin contar nada de su concierto del 20-nov (24 h). Lo único es la cámara de La Ganga: 'SHOW DE LA GANGA CON KRIS R' (The Chanty, 560/h, en su línea). Puede llevar canciones de fondo: cortar solo lo hablado.",
+    "Las dos fiestas (The Chanty en la casa de Andrés Aguirre, sin identificar; LoncheWey con Katy Cardona) entran por ser de los perfiles y rendir. Del clip quedan fuera el alcohol, las mujeres de fondo y las drogas: solo la casa, la llegada y las reacciones.",
+    "Excluidos a propósito: lo de Herrera; el proceso judicial de Blessd; 'WILLITO me cuenta qué pasó con ODETTE' (chisme de pareja); 'REY DE LA CITY DEBE TERMINAR CON SU NOVIA' (The Chanty); 'los mini westcol que odian la escuela' (ernzstito, 4.435/h: habla de él sin él, con menores); los rumores de J Balvin y Ryan Castro como dueños del DIM (Los chismes de ANR); las re-subidas sin licencia (LagangaWSLCWLR, LONCHI, Lonche Foco, AltaPeli, Clips de Willito); los karaokes y los videos musicales (Leandro, Maluma, Ryan Castro en LOS40); la final de la Sudamericana como partido y los banderazos de Boca.",
+    "Siguen dentro de la ventana, sin repetir aquí, cuatro fuentes del ciclo 17: 'ASI ES PROVENZA DE NOCHE' (Lonche Chacas, CGICIcJ8lCY, 1.089/h a las 18,2 h), las dos de juan diego mm (vu3pomih_Os, 986/h; B7q4ptqEvZU, 884/h) y la natilla (F4g5avXO5mU, 418/h)."
   ],
   "oportunidades": [
+    {
+      "id": "formato-primera-vez-en-medellin",
+      "nombre": "El extranjero que descubre la ciudad por primera vez (Medellín, Guatapé, Bogotá y ahora Barranquilla) con un local famoso de guía (Samulx, Lonche y Westcol)",
+      "tipo": "formato",
+      "etapa": "emergente",
+      "puntaje_oportunidad": 82,
+      "ventana_hasta": "2026-11-25",
+      "confianza": "media",
+      "plataformas_objetivo": ["tiktok", "instagram", "youtube"],
+      "nichos": ["streamers y creadores"],
+      "resumen": "Sigue emergente y sube de 78 a 82. Rinde el lugar nuevo: Guatapé (Lonche Chacas, 3.657/h, unas 9 veces la mediana por hora del canal), el restaurante giratorio (The Chanty, 3,2 veces) y la chiva (Live Samulx, 2,6 veces). Primera réplica fuera de La Ganga: Coco Maggio descubre Barranquilla antes de la final (4.543/h). Para clips: el sitio o la experiencia nueva en el gancho y la reacción del mexicano en el primer segundo. Ventana hasta el 25-nov.",
+      "genes_clave": {
+        "gancho": "El sitio o la experiencia nueva en pantalla ('Guatapé por primera vez', 'un restaurante que gira', 'una chiva'), con la reacción del visitante en el primer segundo",
+        "estructura": "Visitante extranjero + guía local famoso + lugar o experiencia nueva + veredicto en la cara",
+        "participacion": "'¿A dónde lo llevan mañana?' o '¿Vale la pena ir?'"
+      },
+      "evidencia": [
+        { "url": "https://www.youtube.com/watch?v=1jfaTc0PEsw", "metrica": "'FUI A GUATAPE con WESTCOL, WILLITO, LEANDRO y CHANTY *no he dormido*' (Lonche Chacas; 54 min; 21-nov 12:33): 25.230 vistas a las 6,9 h (3.657/h), unas 9,2 veces la mediana por hora de sus subidas de las últimas 36 h (396/h, 8 piezas)", "tipo": "medido", "mide": "patron", "contexto": "youtube-co", "fecha": "2026-11-21" },
+        { "url": "https://www.youtube.com/watch?v=l8CYUf2cBeM", "metrica": "'IRL EN UN RESTAURANTE GIRATORIO CON LA GANGA' (The Chanty, 240 K; 32,5 min): 14.057 vistas a las 7,9 h (1.779/h), 3,2 veces la mediana por hora de sus otras 7 subidas desde el 20-nov (560/h)", "tipo": "medido", "mide": "patron", "contexto": "youtube-co", "fecha": "2026-11-21" },
+        { "url": "https://www.youtube.com/watch?v=wm6O6UB6K0k", "metrica": "'Nos mojaron con Leandro | En una chiva con Westcol y la ganga' (Live Samulx, 32,1 K; 9,9 min): 9.634 vistas a las 7,6 h (1.268/h), 2,6 veces la mediana por hora de sus otras subidas en 36 h (486/h)", "tipo": "medido", "mide": "patron", "contexto": "youtube-co", "fecha": "2026-11-21" },
+        { "url": "https://www.youtube.com/watch?v=8gFGSwSiak4", "metrica": "Réplica fuera de La Ganga: '¿Vale la pena venir a BARRANQUILLA? Así es la ciudad sede de la final de la Copa Sudamericana' (Coco Maggio, argentino, 263 K; 17,6 min): 47.245 vistas a las 10,4 h (4.543/h), ya 1,48 veces la mediana de vistas totales de sus 5 videos anteriores (31.838), que tienen semanas", "tipo": "medido", "mide": "patron", "contexto": "youtube-co", "fecha": "2026-11-21" },
+        { "url": "https://www.youtube.com/watch?v=TvMb0YlEoMM", "metrica": "'TODA LA GANGA POR LAS CALLES NOCTURNAS DE MEDELLIN' (Samulx, 190 K; 20 min): 25.687 vistas a las 7 h (3.670/h), unas 1,4 veces su mediana por hora (2.556/h)", "tipo": "medido", "mide": "patron", "contexto": "youtube-co", "fecha": "2026-11-21" },
+        { "url": "https://www.youtube.com/watch?v=F4g5avXO5mU", "metrica": "En contra, repetir la plantilla: 'PROBANDO LA MEJOR NATILLA' (Lonche Chacas) sigue en 418/h a las 16,6 h (1,06 veces), cuando la bandeja paisa fue a 12 veces el 18-nov", "tipo": "medido", "mide": "patron", "contexto": "youtube-co", "fecha": "2026-11-21" }
+      ],
+      "formato_hibrido": "salidas/cazador-viral/formatos/formato-el-invitado-califica-el-negocio.md"
+    },
     {
       "id": "formato-el-dia-despues-del-protagonista",
       "nombre": "Lo que no se vio: el día después contado por el protagonista, con una pregunta en el título",
       "tipo": "formato",
       "etapa": "emergente",
-      "puntaje_oportunidad": 80,
+      "puntaje_oportunidad": 77,
       "ventana_hasta": "2026-11-23",
       "confianza": "media",
-      "plataformas_objetivo": [
-        "tiktok",
-        "instagram",
-        "youtube"
-      ],
-      "nichos": [
-        "streamers y creadores",
-        "música urbana: cantantes jóvenes"
-      ],
-      "resumen": "Sigue emergente, baja de 82 a 80. Segundo ciclo con el día después en su línea: Samulx, con '¿QUÉ PASÓ ANTIER?' en el título, va a 0,93 veces su mediana, y las copias de terceros no rinden (45/h). Kris R no ha contado nada de su concierto del 20-nov. Próximas aplicaciones: lo que cuente Kris R (21-22 nov) y la final de la Sudamericana en Barranquilla de esta noche, con Davoo y La Cobra (publicar el 22). Nada sobre Herrera.",
+      "plataformas_objetivo": ["tiktok", "instagram", "youtube"],
+      "nichos": ["streamers y creadores", "música urbana: cantantes jóvenes"],
+      "resumen": "Sigue emergente y baja de 80 a 77: tercer ciclo en su línea. '¿QUÉ PASÓ ANTIER?' de Samulx se queda en 0,92 veces su mediana a las 21 h, y el concierto de Kris R, contado desde la cámara de La Ganga, en 1,0 veces (The Chanty). Kris R no cuenta nada en 24 h. Última aplicación de la ventana: lo que cuenten Davoo o La Cobra el 22-nov tras la final de esta noche. Nada sobre Herrera.",
       "genes_clave": {
-        "gancho": "La pregunta sobre el evento en pantalla, con la cara del protagonista ('¿Qué pasará con Herrera?', '¿Merecimos perder?')",
+        "gancho": "La pregunta sobre el evento en pantalla, con la cara del protagonista ('¿Merecimos perder?', '¿Qué pasó antier?')",
         "estructura": "Testimonio en primera persona del día después: lo que pasó fuera de cámara, contado por él, y su frase más fuerte como remate",
         "participacion": "'¿Tiene razón?' o '¿Le das la revancha?'"
       },
       "evidencia": [
-        {
-          "url": "https://www.youtube.com/watch?v=AYFdSyu_Lfo",
-          "metrica": "'HABLANDO DEL PROYECTO DE LA GANGA ¿QUE PASO ANTIER? 😂' (Samulx, 190 K; 18,5 min), con pregunta en el título, el día que arrancan las 72 horas: 31.450 vistas a las 13,3 h (2.365/h), 0,93 veces su mediana por hora (2.556/h)",
-          "tipo": "medido",
-          "mide": "patron",
-          "contexto": "youtube-co",
-          "fecha": "2026-11-21"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=XSOmlub2gpY",
-          "metrica": "En contra: la copia de un tercero 'WESTCOL: ¿SE ACABA LA GANGA? 😳 ¿QUÉ PASÓ ANTIER? PARTE 5' (LagangaWSLCWLR, 65 suscriptores; 8,4 min) se queda en 45/h a las 8,6 h",
-          "tipo": "medido",
-          "mide": "patron",
-          "contexto": "youtube-co",
-          "fecha": "2026-11-21"
-        },
-        {
-          "url": "https://www.youtube.com/channel/UCRfKDfw9XjSLHTBd8hokHig",
-          "metrica": "En contra, sin pieza: Kris R no sube nada en las 14 h siguientes a su concierto del DAVIarena (canal revisado a las 10:04 del 21-nov) y 'Kris R', 'Kris R concierto' y 'Kris R DAVIarena' (-Hoy) no traen nada suyo del después",
-          "tipo": "medido",
-          "mide": "patron",
-          "contexto": "youtube-co",
-          "fecha": "2026-11-21"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=rHhzqw3kIC8",
-          "metrica": "'¿QUE PASÓ AYER? 😭 CASI PERDEMOS EL HOGAR EN UNA SOLA NOCHE' (Samulx, 190 K; 26 min), el día después de las 24 horas: 90.253 vistas a las 29,2 h (3.091/h), 1,21 veces su mediana por hora (2.556/h)",
-          "tipo": "medido",
-          "mide": "patron",
-          "contexto": "youtube-co",
-          "fecha": "2026-11-19"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=rGCPRNnx9_I",
-          "metrica": "En contra: 'ESTAS FUERON LAS CONSECUENCIAS DEL 24 HORAS CON LA GANGA' (The Chanty, 240 K; 21 min) se queda en 353/h a las 27,9 h, y Westcol no sube su día después (pasa a GTA VI)",
-          "tipo": "medido",
-          "mide": "patron",
-          "contexto": "youtube-co",
-          "fecha": "2026-11-19"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=YQ-vOO3-Ghk",
-          "metrica": "'¿Que pasara con HERRERA por bajar de la pelea en STREAM FIGHTERS 5?' (Westcol, 2,09 M; 24,8 min): 544.848 vistas a las 26,3 h (20.717/h), 10,9 veces la mediana de su canal (1.896/h): se sostiene. Herrera sigue parado por lo legal",
-          "tipo": "medido",
-          "mide": "patron",
-          "contexto": "youtube-co",
-          "fecha": "2026-11-18"
-        }
+        { "url": "https://www.youtube.com/watch?v=AYFdSyu_Lfo", "metrica": "'HABLANDO DEL PROYECTO DE LA GANGA ¿QUE PASO ANTIER?' (Samulx, 190 K; 18,5 min): 49.630 vistas a las 21,1 h (2.352/h), 0,92 veces su mediana por hora (2.556/h)", "tipo": "medido", "mide": "patron", "contexto": "youtube-co", "fecha": "2026-11-21" },
+        { "url": "https://www.youtube.com/watch?v=n4nNVZqGshc", "metrica": "El concierto de Kris R (20-nov) desde la cámara de un invitado: 'SHOW DE LA GANGA CON KRIS R' (The Chanty, 240 K; 18 min): 3.805 vistas a las 6,8 h (560/h), 1,0 veces la mediana por hora de sus subidas desde el 20-nov", "tipo": "medido", "mide": "patron", "contexto": "youtube-co", "fecha": "2026-11-21" },
+        { "url": "https://www.youtube.com/channel/UCRfKDfw9XjSLHTBd8hokHig", "metrica": "En contra, sin pieza: Kris R no sube nada en las 24 h siguientes a su concierto (canal revisado a las 17:56 del 21-nov) y 'Kris R' (-Hoy) solo trae la nota de 80 s de Telemedellín (8/h), type beats y mixes", "tipo": "medido", "mide": "patron", "contexto": "youtube-co", "fecha": "2026-11-21" },
+        { "url": "https://www.youtube.com/watch?v=kRiCbngCeoo", "metrica": "Las copias de terceros despiertan: '¿QUÉ PASÓ ANTIER? PARTE 8 (\"eso no es un yate\")' (LagangaWSLCWLR, 82 suscriptores; re-subida sin licencia): 5.571 vistas a las 8,2 h (679/h), 15 veces la parte 5 del ciclo 17 (45/h). Mide la serie por partes con la cita del momento, no al protagonista", "tipo": "medido", "mide": "patron", "contexto": "youtube-co", "fecha": "2026-11-21" },
+        { "url": "https://www.youtube.com/watch?v=YQ-vOO3-Ghk", "metrica": "'¿Que pasara con HERRERA por bajar de la pelea en STREAM FIGHTERS 5?' (Westcol, 2,09 M; 24,8 min): 544.848 vistas a las 26,3 h (20.717/h), 10,9 veces la mediana de su canal (1.896/h). Herrera sigue fuera: no se corta nada sobre él", "tipo": "medido", "mide": "patron", "contexto": "youtube-co", "fecha": "2026-11-18" }
       ],
       "formato_hibrido": "salidas/cazador-viral/formatos/formato-lo-que-no-se-vio.md"
-    },
-    {
-      "id": "formato-primera-vez-en-medellin",
-      "nombre": "El extranjero que descubre la ciudad por primera vez (Medellín, Bogotá y el campo antioqueño) con un local famoso de guía (Samulx, Lonche y Westcol)",
-      "tipo": "formato",
-      "etapa": "emergente",
-      "puntaje_oportunidad": 78,
-      "ventana_hasta": "2026-11-23",
-      "confianza": "media",
-      "plataformas_objetivo": [
-        "tiktok",
-        "instagram",
-        "youtube"
-      ],
-      "nichos": [
-        "streamers y creadores"
-      ],
-      "resumen": "Sigue emergente, baja de 80 a 78. Los mexicanos siguen en Medellín con las 72 horas de La Ganga. Rinde el lugar nuevo: Provenza de noche va a 2,35 veces lo del canal (Lonche Chacas) y la cena de lujo a 1,3. Repetir el plato cansa: 'PROBANDO LA MEJOR NATILLA' se queda en 0,67 veces, cuando la bandeja paisa fue a 12. Para clips: el lugar o el momento concreto en el gancho, no otra vez 'la mejor X'. Ventana hasta el 23-nov, mientras duren las 72 horas.",
-      "genes_clave": {
-        "gancho": "El plato o el sitio concreto en el título y en pantalla ('PROBANDO LA MEJOR BANDEJA PAISA'), con el primer bocado o la reacción en el primer segundo",
-        "estructura": "Visitante extranjero + guía local famoso + prueba + veredicto en la cara",
-        "participacion": "'¿Qué más tiene que probar?' o '¿Le dio la nota justa?'"
-      },
-      "evidencia": [
-        {
-          "url": "https://www.youtube.com/watch?v=CGICIcJ8lCY",
-          "metrica": "'ASI ES PROVENZA DE NOCHE con LA GANGA en COLOMBIA' (Lonche Chacas, recortes de los directos de Lonche; 42 min; 20-nov 23:45): 9.975 vistas a las 10,5 h (950/h), 2,35 veces la mediana por hora de sus recortes (404/h)",
-          "tipo": "medido",
-          "mide": "patron",
-          "contexto": "youtube-co",
-          "fecha": "2026-11-21"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=BhzALvos8YI",
-          "metrica": "'TUVE UNA CENA DE LUJO con LA GANGA y ESTO PASO' (Lonche Chacas; 51 min): 7.024 vistas a las 13,4 h (524/h), 1,3 veces",
-          "tipo": "medido",
-          "mide": "patron",
-          "contexto": "youtube-co",
-          "fecha": "2026-11-21"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=Rf51CjEu-1M",
-          "metrica": "'WESTCOL NOS LLEVA DE TOUR POR PROVENZA, MEDELLÍN' (Lonche y Willito, 117 K; 56 min): 4.366 vistas a las 9,6 h (455/h), en la línea de sus subidas del 18-nov (417-1.003/h)",
-          "tipo": "medido",
-          "mide": "patron",
-          "contexto": "youtube-co",
-          "fecha": "2026-11-21"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=F4g5avXO5mU",
-          "metrica": "En contra: 'PROBANDO LA MEJOR NATILLA con WESTCOL y WILLITO' (Lonche Chacas; 31,5 min), la misma plantilla de la bandeja paisa, se queda en 270/h a las 7,4 h (0,67 veces); la bandeja iba a 4.902/h. Y la charla '¿MEXICO es MAS PELIGROSO QUE COLOMBIA?' (3u6P1gc-F_4) en 370/h (0,92 veces)",
-          "tipo": "medido",
-          "mide": "patron",
-          "contexto": "youtube-co",
-          "fecha": "2026-11-21"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=eT95WmeJDAc",
-          "metrica": "'PROBANDO LA MEJOR BANDEJA PAISA con WILLITO y WESTCOL' (Lonche Chacas, recortes de los directos de Lonche; 66 min; 18-nov 10:22): 180.379 vistas a las 36,8 h (4.902/h), unas 12 veces la mediana por hora de sus recortes medidos desde el 07-nov (404/h, 13 piezas de distintas edades)",
-          "tipo": "medido",
-          "mide": "patron",
-          "contexto": "youtube-co",
-          "fecha": "2026-11-19"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=W7zgpCfefRw",
-          "metrica": "'ASI ES UN DIA con WESTCOL Y WILLITO en UN RANCHO EN COLOMBIA *locura total*' (Lonche Chacas; 62 min): 51.529 vistas a las 35,7 h (1.443/h), unas 3,6 veces",
-          "tipo": "medido",
-          "mide": "patron",
-          "contexto": "youtube-co",
-          "fecha": "2026-11-19"
-        }
-      ],
-      "formato_hibrido": "salidas/cazador-viral/formatos/formato-el-invitado-califica-el-negocio.md"
     },
     {
       "id": "formato-matematica-del-lujo",
@@ -168,71 +71,20 @@
       "puntaje_oportunidad": 71,
       "ventana_hasta": "2026-11-24",
       "confianza": "baja",
-      "plataformas_objetivo": [
-        "tiktok",
-        "instagram",
-        "youtube"
-      ],
-      "nichos": [
-        "empresarios exitosos y emprendimiento",
-        "streamers y creadores",
-        "música urbana: cantantes jóvenes"
-      ],
-      "resumen": "Sigue en semilla y baja de 72 a 71: tercer ciclo sin una cifra dicha en cámara. Ni el concierto de Kris R ni la presentación de Blessd en el Pereira dejaron un precio. Ocasión abierta: la cena de lujo de Lonche con La Ganga (1,3 veces), si alguien dice en cámara cuánto costó. En TikTok en inglés entra 'He wanna pay full price' (541 creadores; audio de SNL, solo señal). Si el 24-nov sigue sin pieza, sale.",
+      "plataformas_objetivo": ["tiktok", "instagram", "youtube"],
+      "nichos": ["empresarios exitosos y emprendimiento", "streamers y creadores", "música urbana: cantantes jóvenes"],
+      "resumen": "Sigue en semilla con 71: cuarto ciclo sin una cifra dicha en cámara. Lo de lujo rinde, pero sin precio: la fiesta en la casa de Andrés Aguirre (The Chanty, 5 veces) y el avión privado de La Ganga (Leandro La Sapa, 1,6 veces). Si alguien dice en cámara cuánto cuesta la casa, el vuelo o la cena, ese es el clip. Si el 24-nov sigue sin pieza, sale.",
       "genes_clave": {
         "gancho": "La cifra en pantalla en el segundo 0, en paradoja o comparación ('Un Lamborghini en vez de 15 Sequoias', '+$2.000.000' en un outfit)",
         "estructura": "Cifra, explicación corta del porqué (de dónde sale el margen, el costo o el precio) y la lección que se lleva el público",
         "participacion": "Pregunta para adivinar antes de revelar ('¿Cuánto crees que vale?') o '¿Lo sabías?'"
       },
       "evidencia": [
-        {
-          "url": "https://www.youtube.com/watch?v=BhzALvos8YI",
-          "metrica": "Ocasión sin cifra en el título: 'TUVE UNA CENA DE LUJO con LA GANGA y ESTO PASO' (Lonche Chacas; 51 min): 524/h a las 13,4 h, 1,3 veces lo del canal. Sin comprobar si alguien dice el precio en cámara",
-          "tipo": "medido",
-          "mide": "patron",
-          "contexto": "youtube-co",
-          "fecha": "2026-11-21"
-        },
-        {
-          "url": "https://virlo.ai/trends",
-          "metrica": "'He wanna pay full price SNL' entra fresco en TikTok en inglés: 541 creadores en 7 días (#2; lip-sync de alguien feliz de pagar mucho o forzado a pagar más). Usa audio de SNL, con derechos: el precio como gancho, solo como señal",
-          "tipo": "medido",
-          "mide": "senal_relacionada",
-          "contexto": "tiktok-en",
-          "fecha": "2026-11-21"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=sKlwENG-zKo",
-          "metrica": "Réplica nueva del gancho 'de X a millones': 'De Pintar Casa a Ganar Millones Tatuando Celebridades como NICKY JAM y YANDEL - Matias Noble Tattoo' (Actitud Millonaria, 506 K; 84 min): 399 vistas a las 2,5 h (160/h), recién subido y sin mediana",
-          "tipo": "medido",
-          "mide": "patron",
-          "contexto": "youtube-es",
-          "fecha": "2026-11-19"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=_koEcQBXZnw",
-          "metrica": "'¿CUÁNTO VALE TU OUTFIT? EN STREAM FIGHTERS 5' (Jorge Andrés, 1,32 M; con Kris R y Hades66): 433.379 vistas a las 46,5 h, 2,09 veces la mediana de vistas totales de sus 9 videos anteriores (207.784). A las 28,4 h iba a 1,57 veces",
-          "tipo": "medido",
-          "mide": "patron",
-          "contexto": "youtube-co",
-          "fecha": "2026-11-17"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=l47kwgd8L0I",
-          "metrica": "'Cuanto Vale Tu Outfit???' (CierzoClub, 3 suscriptores; corto de 18 s): 4.989 vistas el 17-nov (2.109 a las 19 h), de 130 a 200 veces sus otros dos cortos (28 y 38 vistas)",
-          "tipo": "medido",
-          "mide": "patron",
-          "contexto": "youtube-es",
-          "fecha": "2026-11-17"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=_koEcQBXZnw",
-          "metrica": "'¿CUÁNTO VALE TU OUTFIT? EN STREAM FIGHTERS 5' (Jorge Andrés, 1,32 M; con Kris R y Hades66): 327.242 vistas a las 28,4 h (11.523/h), 1,57 veces la mediana de vistas totales de sus 9 videos anteriores (207.784) en poco más de un día. Todos sus videos llevan el precio en el título: lo que lo hace sobre-rendir es el precio de lo que llevan los famosos en el evento",
-          "tipo": "medido",
-          "mide": "patron",
-          "contexto": "youtube-co",
-          "fecha": "2026-11-17"
-        }
+        { "url": "https://www.youtube.com/watch?v=vEEzgQ4EyQU", "metrica": "Ocasión sin cifra en el título: 'FIESTA PRIVADA EN LA CASA DE ANDRES AGUIRRE CON LA GANGA' (The Chanty, 240 K; 20 min): 15.878 vistas a las 5,7 h (2.786/h), 5,0 veces la mediana por hora de sus otras subidas desde el 20-nov (560/h). Sin comprobar si alguien dice un precio", "tipo": "medido", "mide": "patron", "contexto": "youtube-co", "fecha": "2026-11-21" },
+        { "url": "https://www.youtube.com/watch?v=UP3I3JW8MAg", "metrica": "Ocasión sin cifra: '¿Toda la GANGA en AVIÓN PRIVADO en STREAM?' (Leandro La Sapa, 532 K; 28 min): 1.634 vistas a las 5,8 h (282/h), 1,6 veces la mediana por hora de sus 7 subidas en 5 días (179/h)", "tipo": "medido", "mide": "patron", "contexto": "youtube-co", "fecha": "2026-11-21" },
+        { "url": "https://virlo.ai/trends", "metrica": "'He wanna pay full price SNL' sigue fresco en TikTok en inglés: 507 creadores en 7 días (541 en el ciclo 17; #2). Audio de SNL, con derechos: solo señal", "tipo": "medido", "mide": "senal_relacionada", "contexto": "tiktok-en", "fecha": "2026-11-21" },
+        { "url": "https://www.youtube.com/watch?v=_koEcQBXZnw", "metrica": "'¿CUÁNTO VALE TU OUTFIT? EN STREAM FIGHTERS 5' (Jorge Andrés, 1,32 M; con Kris R y Hades66): 433.379 vistas a las 46,5 h, 2,09 veces la mediana de vistas totales de sus 9 videos anteriores (207.784)", "tipo": "medido", "mide": "patron", "contexto": "youtube-co", "fecha": "2026-11-17" },
+        { "url": "https://www.youtube.com/watch?v=l47kwgd8L0I", "metrica": "'Cuanto Vale Tu Outfit???' (CierzoClub, 3 suscriptores; corto de 18 s): 4.989 vistas el 17-nov, de 130 a 200 veces sus otros dos cortos", "tipo": "medido", "mide": "patron", "contexto": "youtube-es", "fecha": "2026-11-17" }
       ],
       "formato_hibrido": "salidas/cazador-viral/formatos/formato-la-cifra-del-negocio.md"
     }
@@ -240,18 +92,51 @@
   "apuestas": [],
   "fuentes_para_clips": [
     {
+      "url": "https://www.youtube.com/watch?v=1jfaTc0PEsw",
+      "titulo": "FUI A GUATAPE con WESTCOL, WILLITO, LEANDRO y CHANTY *no he dormido* 💀​| Lonche",
+      "canal": "Lonche Chacas",
+      "publicado": "2026-11-21T12:33:26-05:00",
+      "horas_desde": 6.9, "vistas": 25230, "vistas_por_hora": 3657, "duracion_seg": 3267,
+      "medido_a": "2026-11-21T19:27:26-05:00",
+      "perfil": "Lonche, con Westcol, Willito, Leandro La Sapa y The Chanty",
+      "aparece": true,
+      "por_que": "Nueva y lo más rápido de los perfiles: el día de Guatapé de las 72 horas, unas 9 veces la mediana por hora del canal. Momentos probables: la llegada a la piedra y al embalse, la primera reacción de Lonche y lo que dice Westcol de guía. Nada de alcohol ni de bromas pesadas.",
+      "oportunidad": "formato-primera-vez-en-medellin"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=TvMb0YlEoMM",
+      "titulo": "TODA LA GANGA POR LAS CALLES NOCTURNAS DE MEDELLIN 🔥🔥",
+      "canal": "Samulx",
+      "publicado": "2026-11-21T11:01:32-05:00",
+      "horas_desde": 7.0, "vistas": 25687, "vistas_por_hora": 3670, "duracion_seg": 1206,
+      "medido_a": "2026-11-21T18:01:32-05:00",
+      "perfil": "Samulx (similar), con La Ganga",
+      "aparece": true,
+      "por_que": "Nueva: la noche de Medellín desde el canal oficial de Samulx, unas 1,4 veces su mediana por hora. Momentos probables: reacciones de los mexicanos a la calle y a la gente que los reconoce. Nada de bombas ni burlas personales.",
+      "oportunidad": "formato-primera-vez-en-medellin"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=vEEzgQ4EyQU",
+      "titulo": "FIESTA PRIVADA EN LA CASA DE ANDRES AGUIRRE CON LA GANGA",
+      "canal": "The Chanty",
+      "publicado": "2026-11-21T12:20:49-05:00",
+      "horas_desde": 5.7, "vistas": 15878, "vistas_por_hora": 2786, "duracion_seg": 1185,
+      "medido_a": "2026-11-21T18:02:49-05:00",
+      "perfil": "The Chanty (similar), con La Ganga",
+      "aparece": true,
+      "por_que": "Nueva: 5 veces la mediana por hora de The Chanty. Lo cortable es la casa de lujo, la llegada y las reacciones; si alguien dice lo que cuesta algo, es la ficha de la cifra. Fuera del clip: alcohol, mujeres de fondo y drogas. Andrés Aguirre, sin identificar.",
+      "oportunidad": "formato-matematica-del-lujo"
+    },
+    {
       "url": "https://www.youtube.com/watch?v=AYFdSyu_Lfo",
       "titulo": "HABLANDO DEL PROYECTO DE LA GANGA ¿QUE PASO ANTIER? 😂 | Samulx",
       "canal": "Samulx",
       "publicado": "2026-11-20T20:51:31-05:00",
-      "horas_desde": 13.3,
-      "vistas": 31450,
-      "vistas_por_hora": 2365,
-      "duracion_seg": 1109,
-      "medido_a": "2026-11-21T10:10:17-05:00",
+      "horas_desde": 21.1, "vistas": 49630, "vistas_por_hora": 2352, "duracion_seg": 1109,
+      "medido_a": "2026-11-21T17:57:31-05:00",
       "perfil": "Samulx (similar), con La Ganga",
       "aparece": true,
-      "por_que": "Lo más rápido de los perfiles en la ventana: el día después del arranque de las 72 horas, contado por Samulx con pregunta en el título ('¿QUÉ PASÓ ANTIER?'), a 2.365/h a las 13,3 h (0,93 veces su mediana). Momentos probables: lo que pasó fuera de cámara y el plan del 'proyecto de La Ganga'. Nada de bombas, parejas ni burlas personales.",
+      "por_que": "Ya estaba en el ciclo 17: el día después del arranque de las 72 horas, contado por Samulx con pregunta en el título (0,92 veces su mediana). Momentos probables: lo que pasó fuera de cámara y el plan del 'proyecto de La Ganga'. Nada de bombas, parejas ni burlas personales.",
       "oportunidad": "formato-el-dia-despues-del-protagonista"
     },
     {
@@ -259,195 +144,132 @@
       "titulo": "¡SAQUÉ a LUCÍA de la CÁRCEL! | GTA VI | Westcol",
       "canal": "WestCOL",
       "publicado": "2026-11-20T20:05:00-05:00",
-      "horas_desde": 14,
-      "vistas": 30812,
-      "vistas_por_hora": 2201,
-      "duracion_seg": 9258,
-      "medido_a": "2026-11-21T10:07:38-05:00",
+      "horas_desde": 21.9, "vistas": 49347, "vistas_por_hora": 2253, "duracion_seg": 9258,
+      "medido_a": "2026-11-21T17:59:00-05:00",
       "perfil": "Westcol",
       "aparece": true,
-      "por_que": "La única subida de Westcol a su canal en 36 h: GTA VI (154 min), a 2.201/h a las 14 h, 1,16 veces su mediana (1.896/h). GTA VI no entra como tema, solo porque es el directo de un perfil. Corta solo cuando habla él y se le ve o se le oye claro (reacciones, chistes con el chat); nada de la radio del juego (canciones con derechos) ni de violencia del juego sin su comentario.",
+      "por_que": "Ya estaba en el ciclo 17: directo de GTA VI en su canal oficial (1,2 veces su mediana). Momentos probables: sus reacciones y frases a cámara, no el juego en sí. GTA VI entra solo por ser su directo.",
       "oportunidad": null
     },
     {
-      "url": "https://www.youtube.com/watch?v=vu3pomih_Os",
-      "titulo": "WESTCOL SE REÚNE CON TODA LA GANGA Y HABLAN DE TODO LO QUE VAN HACER",
-      "canal": "juan diego mm",
-      "publicado": "2026-11-20T18:54:26-05:00",
-      "horas_desde": 15.2,
-      "vistas": 21192,
-      "vistas_por_hora": 1394,
-      "duracion_seg": 1293,
-      "medido_a": "2026-11-21T10:07:38-05:00",
-      "perfil": "Westcol, con La Ganga",
+      "url": "https://www.youtube.com/watch?v=l8CYUf2cBeM",
+      "titulo": "IRL EN UN RESTAURANTE GIRATORIO CON LA GANGA",
+      "canal": "The Chanty",
+      "publicado": "2026-11-21T10:11:53-05:00",
+      "horas_desde": 7.9, "vistas": 14057, "vistas_por_hora": 1779, "duracion_seg": 1950,
+      "medido_a": "2026-11-21T18:05:53-05:00",
+      "perfil": "The Chanty (similar), con La Ganga",
       "aparece": true,
-      "por_que": "Westcol reúne a La Ganga y cuentan lo que van a hacer en las 72 horas (recorte de juan diego mm, canal de clips de sus directos, 114 K): 1.394/h a las 15,2 h. Es la versión en YouTube de su directo de Kick, que no se miró. Momentos probables: el plan del reto, las apuestas sobre quién aguanta y las bromas entre ellos. Nada de alcohol ni mujeres.",
-      "oportunidad": null
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=CGICIcJ8lCY",
-      "titulo": "ASI ES PROVENZA DE NOCHE con LA GANGA en COLOMBIA | Lonche",
-      "canal": "Lonche Chacas",
-      "publicado": "2026-11-20T23:45:48-05:00",
-      "horas_desde": 10.5,
-      "vistas": 9975,
-      "vistas_por_hora": 950,
-      "duracion_seg": 2538,
-      "medido_a": "2026-11-21T10:15:30-05:00",
-      "perfil": "Lonche, con La Ganga",
-      "aparece": true,
-      "por_que": "Lo que más sobre-rinde del patrón 'primera vez' en la ventana: los mexicanos descubren Provenza de noche, a 950/h a las 10,5 h, 2,35 veces lo que rinde el canal (404/h). Momentos probables: reacciones a la calle, precios y comparaciones con México. Nada de alcohol, fiesta con mujeres ni drogas.",
+      "por_que": "Nueva: la experiencia nueva (un restaurante que gira) a 3,2 veces la mediana de The Chanty. Momentos probables: la primera reacción al giro, la vista y el veredicto de los mexicanos; si dicen la cuenta, también sirve para la cifra.",
       "oportunidad": "formato-primera-vez-en-medellin"
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=X2TYu7d_UtA",
-      "titulo": "Lonche Y La G4NG4 En Concierto De Kris R Colombia #lonche #willito #westcol #samulx #chanty #fyp",
-      "canal": "LONCHI",
-      "publicado": "2026-11-20T22:12:14-05:00",
-      "horas_desde": 11.9,
-      "vistas": 84,
-      "vistas_por_hora": 7,
-      "duracion_seg": 2753,
-      "medido_a": "2026-11-21T10:05:31-05:00",
-      "perfil": "Lonche y La Ganga en el concierto de Kris R (20-nov)",
-      "aparece": true,
-      "por_que": "La única grabación del concierto de Kris R en el DAVIarena con perfiles dentro: la cámara de Lonche en las 72 horas, re-subida por un canal de terceros (175 suscriptores; 46 min; 84 vistas). Kris R no sube nada y la prensa aún no tiene crónica. Hay otra re-subida más larga: '72 HORAS CON LA GANGA FUIMOS AL CONCIERTO DE KRIS R' (Lonche Foco, https://www.youtube.com/watch?v=-7BrxWvt4JI, 143 min). Corta solo lo que hablan ellos (la llegada, las reacciones, si saludan a Kris R); nada de las canciones (derechos). Sin comprobar si sale Westcol. Kick no se miró, así que no hay versión oficial.",
-      "oportunidad": null
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=w5v-vJeRNOU",
-      "titulo": "Convenciendo a Rey de regresar con Westcol 😂 | Samulx",
-      "canal": "Live Samulx",
-      "publicado": "2026-11-20T17:55:31-05:00",
-      "horas_desde": 16.3,
-      "vistas": 14681,
-      "vistas_por_hora": 901,
-      "duracion_seg": 718,
-      "medido_a": "2026-11-21T10:10:57-05:00",
-      "perfil": "Samulx (similar), con Reydelacity y Westcol",
-      "aparece": true,
-      "por_que": "Samulx convence a Reydelacity de volver con Westcol: 901/h a las 16,3 h (12 min). Pique entre amigos de La Ganga con remate de humor. Corta la conversación entre ellos; nada de la vida de pareja de Rey ni insultos.",
-      "oportunidad": null
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=BhzALvos8YI",
-      "titulo": "TUVE UNA CENA DE LUJO con LA GANGA y ESTO PASO | Lonche",
-      "canal": "Lonche Chacas",
-      "publicado": "2026-11-20T20:40:52-05:00",
-      "horas_desde": 13.4,
-      "vistas": 7024,
-      "vistas_por_hora": 524,
-      "duracion_seg": 3042,
-      "medido_a": "2026-11-21T10:06:14-05:00",
-      "perfil": "Lonche, con La Ganga",
-      "aparece": true,
-      "por_que": "La cena de lujo de los mexicanos con La Ganga: 524/h a las 13,4 h (1,3 veces el canal). Si alguien dice en cámara cuánto costó la cena o un plato, ese es el clip de la ficha de la cifra; si no, la reacción a la comida. Nada de alcohol.",
-      "oportunidad": "formato-matematica-del-lujo"
     },
     {
       "url": "https://www.youtube.com/watch?v=Rf51CjEu-1M",
       "titulo": "WESTCOL NOS LLEVA DE TOUR POR PROVENZA, MEDELLÍN | LONCHE Y WILLITO",
       "canal": "Lonche y Willito",
       "publicado": "2026-11-21T00:42:30-05:00",
-      "horas_desde": 9.6,
-      "vistas": 4366,
-      "vistas_por_hora": 455,
-      "duracion_seg": 3369,
-      "medido_a": "2026-11-21T10:15:30-05:00",
+      "horas_desde": 18.7, "vistas": 23962, "vistas_por_hora": 1281, "duracion_seg": 3369,
+      "medido_a": "2026-11-21T19:24:30-05:00",
       "perfil": "Lonche y Willito, con Westcol de guía",
       "aparece": true,
-      "por_que": "Westcol hace de anfitrión por Provenza (56 min): 455/h a las 9,6 h, en la línea del canal. Es el gen 'el local presume su ciudad' de la ficha del invitado. Momentos probables: Westcol explicando Medellín y los veredictos de los mexicanos. Nada de alcohol ni fiesta.",
+      "por_que": "Ya estaba en el ciclo 17 y aceleró: de 455/h a las 9,6 h a 1.281/h a las 18,7 h. Westcol de guía local de los mexicanos. Momentos probables: lo que les enseña de Provenza y sus reacciones.",
       "oportunidad": "formato-primera-vez-en-medellin"
     },
     {
-      "url": "https://www.youtube.com/watch?v=B7q4ptqEvZU",
-      "titulo": "WESTCOL  POR LAS CALLES DE MEDELLIN CON TODA LA GANGA CONOCIENDO",
-      "canal": "juan diego mm",
-      "publicado": "2026-11-21T00:04:43-05:00",
-      "horas_desde": 10,
-      "vistas": 4029,
-      "vistas_por_hora": 403,
-      "duracion_seg": 1215,
-      "medido_a": "2026-11-21T10:07:38-05:00",
-      "perfil": "Westcol, con La Ganga",
-      "aparece": true,
-      "por_que": "El recorrido por Medellín desde la cámara de Westcol (recorte de juan diego mm; 20 min): 403/h a las 10 h. Sirve de contraplano del tour de Lonche y Willito: el anfitrión y los visitantes en el mismo momento.",
-      "oportunidad": "formato-primera-vez-en-medellin"
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=3u6P1gc-F_4",
-      "titulo": "MEXICO es MAS PELIGROSO QUE COLOMBIA 💀​​? | CHARLA con WESTCOL y WILLITO | Lonche",
-      "canal": "Lonche Chacas",
-      "publicado": "2026-11-20T22:11:38-05:00",
-      "horas_desde": 11.9,
-      "vistas": 4403,
-      "vistas_por_hora": 370,
-      "duracion_seg": 1690,
-      "medido_a": "2026-11-21T10:06:14-05:00",
-      "perfil": "Lonche, con Westcol y Willito",
-      "aparece": true,
-      "por_que": "'¿México es más peligroso que Colombia?', charla con Westcol y Willito (28 min): 370/h a las 11,9 h, 0,92 veces el canal. Choque cultural con pregunta binaria para comentarios. Cuidado: habla de inseguridad; nada de narcotráfico, armas ni víctimas concretas.",
-      "oportunidad": "formato-primera-vez-en-medellin"
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=F4g5avXO5mU",
-      "titulo": "PROBANDO LA MEJOR NATILLA con WESTCOL y WILLITO | Lonche",
-      "canal": "Lonche Chacas",
-      "publicado": "2026-11-21T02:48:43-05:00",
-      "horas_desde": 7.4,
-      "vistas": 2000,
-      "vistas_por_hora": 270,
-      "duracion_seg": 1890,
-      "medido_a": "2026-11-21T10:15:30-05:00",
-      "perfil": "Lonche, con Westcol y Willito",
-      "aparece": true,
-      "por_que": "La plantilla de la bandeja paisa (12 veces) con la natilla y Westcol de guía: 270/h a las 7,4 h (0,67 veces; aún joven). Momento probable: la cara al probar y el veredicto. Si se corta, el gancho no debe repetir 'la mejor X'.",
-      "oportunidad": "formato-primera-vez-en-medellin"
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=koQz7Ujq33M",
-      "titulo": "Que harías si te roban, preguntas cacorras con Westcol y Lonche | Samulx",
+      "url": "https://www.youtube.com/watch?v=wm6O6UB6K0k",
+      "titulo": "Nos mojaron con Leandro | En una chiva con Westcol y la ganga, Samulx",
       "canal": "Live Samulx",
-      "publicado": "2026-11-20T21:36:59-05:00",
-      "horas_desde": 12.6,
-      "vistas": 6132,
-      "vistas_por_hora": 487,
-      "duracion_seg": 891,
-      "medido_a": "2026-11-21T10:10:57-05:00",
-      "perfil": "Samulx (similar), con Westcol y Lonche",
+      "publicado": "2026-11-21T10:21:42-05:00",
+      "horas_desde": 7.6, "vistas": 9634, "vistas_por_hora": 1268, "duracion_seg": 595,
+      "medido_a": "2026-11-21T17:57:42-05:00",
+      "perfil": "Samulx (similar), con Westcol, Leandro La Sapa y La Ganga",
       "aparece": true,
-      "por_que": "Preguntas entre Samulx, Westcol y Lonche (14,8 min): 487/h a las 12,6 h. Cuidado: el título usa un insulto homófobo ('cacorras'). Corta solo la pregunta del robo y lo que responde cada uno (choque México-Colombia); nada de burlas por orientación ni de preguntas sexuales.",
+      "por_que": "Nueva: la chiva, experiencia típica colombiana, a 2,6 veces lo del canal. Momentos probables: los mexicanos en su primera chiva y el momento en que los mojan. Nada de alcohol en primer plano.",
+      "oportunidad": "formato-primera-vez-en-medellin"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=8WZzGev9mkg",
+      "titulo": "Me ENCONTRE a PIE GRANDE en GTA VI | Westcol",
+      "canal": "WestCOL",
+      "publicado": "2026-11-21T15:32:32-05:00",
+      "horas_desde": 2.5, "vistas": 3042, "vistas_por_hora": 1217, "duracion_seg": 9011,
+      "medido_a": "2026-11-21T18:02:32-05:00",
+      "perfil": "Westcol",
+      "aparece": true,
+      "por_que": "Nueva y la única subida propia de Westcol desde el ciclo 17: directo de GTA VI de 150 min, recién subido (0,64 veces su mediana a las 2,5 h). Momentos probables: su reacción al encontrar a Pie Grande.",
       "oportunidad": null
     },
     {
-      "url": "https://www.youtube.com/watch?v=lZrbPaiPhrI",
-      "titulo": "LA GANGA HARA 72 HORAS de STREAM SIN DORMIR *locura total* | Lonche",
+      "url": "https://www.youtube.com/watch?v=CCxY0XGw3hU",
+      "titulo": "FIESTA con KATY CARDONA, WILLITO y WESTCOL en MEDELLIN | LONCHE",
+      "canal": "LoncheWey",
+      "publicado": "2026-11-21T13:04:46-05:00",
+      "horas_desde": 6.4, "vistas": 6086, "vistas_por_hora": 951, "duracion_seg": 2616,
+      "medido_a": "2026-11-21T19:28:46-05:00",
+      "perfil": "Lonche, con Willito y Westcol",
+      "aparece": true,
+      "por_que": "Nueva en su canal oficial (en el ciclo 17 no había subido nada). Fiesta: lo cortable son las charlas y las reacciones, no la fiesta. Fuera del clip: alcohol, mujeres de fondo y drogas. Katy Cardona, sin identificar.",
+      "oportunidad": null
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=wtTwAbLQn-E",
+      "titulo": "IRL DESAYUNANDO EN GUATAPÉ CON TODA LA GANGA",
+      "canal": "The Chanty",
+      "publicado": "2026-11-21T13:55:51-05:00",
+      "horas_desde": 4.1, "vistas": 3106, "vistas_por_hora": 758, "duracion_seg": 629,
+      "medido_a": "2026-11-21T18:01:51-05:00",
+      "perfil": "The Chanty (similar), con La Ganga",
+      "aparece": true,
+      "por_que": "Nueva: el desayuno en Guatapé, 1,35 veces la mediana de The Chanty. Momentos probables: el primer plato típico de los mexicanos y su veredicto (no otra 'la mejor X': el sitio en el gancho).",
+      "oportunidad": "formato-primera-vez-en-medellin"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Io7Tkpi9wi0",
+      "titulo": "MONTANDO EN JET SKI con LA GANGA por GUATAPE | Lonche",
       "canal": "Lonche Chacas",
-      "publicado": "2026-11-20T18:43:43-05:00",
-      "horas_desde": 15.6,
-      "vistas": 3477,
-      "vistas_por_hora": 223,
-      "duracion_seg": 1920,
-      "medido_a": "2026-11-21T10:19:29-05:00",
+      "publicado": "2026-11-21T16:34:21-05:00",
+      "horas_desde": 1.4, "vistas": 1052, "vistas_por_hora": 751, "duracion_seg": 1990,
+      "medido_a": "2026-11-21T17:58:21-05:00",
       "perfil": "Lonche, con La Ganga",
       "aparece": true,
-      "por_que": "El anuncio de las 72 horas sin dormir (32 min): 223/h a las 15,6 h. Momentos probables: cómo explican el reto y las apuestas sobre quién aguanta.",
-      "oportunidad": null
+      "por_que": "Nueva y muy reciente: el jet ski en el embalse de Guatapé, ya 1,9 veces la mediana por hora del canal a la 1,4 h. Momentos probables: la primera vez en la moto de agua y las caídas.",
+      "oportunidad": "formato-primera-vez-en-medellin"
     },
     {
-      "url": "https://www.youtube.com/watch?v=Hyzmu4FG7YM",
-      "titulo": "🔴PRESENTACION DIMELOJARA Y BLESSD NUEVOS DUEÑOS DEL PEREIRA (20/11/2026)",
-      "canal": "Tato Sanint",
-      "publicado": "2026-11-20T19:30:30-05:00",
-      "horas_desde": 14.6,
-      "vistas": 5322,
-      "vistas_por_hora": 365,
-      "duracion_seg": 8702,
-      "medido_a": "2026-11-21T10:09:25-05:00",
-      "perfil": "Blessd (sin comprobar que hable)",
+      "url": "https://www.youtube.com/watch?v=n4nNVZqGshc",
+      "titulo": "SHOW DE LA GANGA CON KRIS R",
+      "canal": "The Chanty",
+      "publicado": "2026-11-21T11:17:43-05:00",
+      "horas_desde": 6.8, "vistas": 3805, "vistas_por_hora": 560, "duracion_seg": 1077,
+      "medido_a": "2026-11-21T18:05:43-05:00",
+      "perfil": "Kris R (su concierto del 20-nov en el DAVIarena), con La Ganga desde la cámara de The Chanty",
+      "aparece": true,
+      "por_que": "Nueva: lo único del concierto de Kris R con una cámara de los perfiles (1,0 veces la mediana de The Chanty). Sirve para la noche en 3 momentos (la llegada, la reacción y el después). Sin comprobar que Kris R hable a cámara. Cortar solo lo hablado: sus canciones tienen derechos.",
+      "oportunidad": "formato-el-dia-despues-del-protagonista"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=UP3I3JW8MAg",
+      "titulo": "¿Toda la GANGA en AVIÓN PRIVADO en STREAM? ✈️",
+      "canal": "Leandro La Sapa",
+      "publicado": "2026-11-21T12:15:55-05:00",
+      "horas_desde": 5.8, "vistas": 1634, "vistas_por_hora": 282, "duracion_seg": 1702,
+      "medido_a": "2026-11-21T18:03:55-05:00",
+      "perfil": "Leandro La Sapa (similar), con La Ganga",
+      "aparece": true,
+      "por_que": "Nueva: el avión privado, 1,6 veces la mediana por hora de Leandro. Si alguien dice en cámara lo que cuesta el vuelo, es la ficha de la cifra. Nada de alcohol ni de fiesta.",
+      "oportunidad": "formato-matematica-del-lujo"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=8gFGSwSiak4",
+      "titulo": "¿Vale la pena venir a BARRANQUILLA? 🇨🇴 Así es la ciudad sede de la final de la Copa Sudamericana",
+      "canal": "Coco Maggio",
+      "publicado": "2026-11-21T09:00:09-05:00",
+      "horas_desde": 10.4, "vistas": 47245, "vistas_por_hora": 4543, "duracion_seg": 1058,
+      "medido_a": "2026-11-21T19:24:09-05:00",
+      "perfil": null,
       "aparece": false,
-      "por_que": "La presentación de Dímelo Jara y Blessd como dueños del Pereira (20-nov), en el directo de un periodista deportivo de Pereira (27,5 K; 145 min): 365/h a las 14,6 h, 0,19 veces sus suscriptores. Es la única grabación larga del acto. Si Blessd habla (por qué compra el club, fichajes, la cifra), ese es el clip y pasa a aparece: true; si solo habla Jara, nada de Herrera. Nada del proceso judicial de Blessd.",
-      "oportunidad": null
+      "por_que": "Creador de viajes argentino (263 K) que descubre Barranquilla el día de la final: 4.543/h, ya 1,48 veces la mediana de vistas de sus 5 videos anteriores. Es la primera vez en la ciudad sin La Ganga. Momentos probables: su veredicto sobre la ciudad, los precios y la gente. Fuera: el partido y los banderazos.",
+      "oportunidad": "formato-primera-vez-en-medellin"
     }
   ]
 }

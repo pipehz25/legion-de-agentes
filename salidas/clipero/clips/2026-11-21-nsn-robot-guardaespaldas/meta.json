@@ -1,0 +1,30 @@
+{
+    "id":  "2026-11-21-nsn-robot-guardaespaldas",
+    "url_fuente":  "https://www.youtube.com/watch?v=2D50tEbbKfw",
+    "video_id":  "2D50tEbbKfw",
+    "inicio":  749.69,
+    "fin":  804.58,
+    "inicio_hms":  "0:12:29",
+    "duracion_seg":  55,
+    "gancho":  "El robot guardaespaldas que asusta a Andreu Buenafuente",
+    "subtitulos":  "orig",
+    "palabras_subtituladas":  172,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "color":  "",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -14.8,
+                  "entrada_tp":  -2.28,
+                  "salida_lufs":  -14.03,
+                  "salida_tp":  -1.48
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-21-nsn-robot-guardaespaldas/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-21-nsn-robot-guardaespaldas/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-21-nsn-robot-guardaespaldas/revision.jpg",
+    "creado":  "2026-11-21T21:26:14.2052127-05:00"
+}

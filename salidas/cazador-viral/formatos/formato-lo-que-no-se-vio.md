@@ -1,6 +1,13 @@
 # Lo que no se vio (el día después, contado por el protagonista)
 
-> **Estado (21-nov, 10:55, ciclo 17): vigente hasta el 23-nov, con puntaje 80 (82 en el ciclo 16 y 84 en el 15).** Lo nuevo:
+> **Estado (21-nov, 21:00, ciclo 18): vigente hasta el 23-nov, con puntaje 77 (80 en el ciclo 17).** Lo nuevo:
+> - **Tercer ciclo en su línea.** '¿QUE PASO ANTIER?' de Samulx se queda en 0,92 veces su mediana a las 21 h. El concierto de Kris R contado desde la cámara de un invitado, ['SHOW DE LA GANGA CON KRIS R'](https://www.youtube.com/watch?v=n4nNVZqGshc) (The Chanty), va a 1,0 veces: sirve para la noche en 3 momentos, no para esta ficha.
+> - **Kris R sigue sin contar nada** 24 h después de su concierto (ni en su canal ni en la búsqueda; la prensa aún no tiene crónica).
+> - **Última aplicación de la ventana: la final de la Sudamericana,** que se juega esta noche en Barranquilla. Si Davoo o La Cobra cuentan el día después en primera persona (el viaje, la ciudad, la hinchada), publicar el 22-nov. El partido queda fuera.
+> - **La serie de copias '¿QUÉ PASÓ ANTIER? PARTE N'** ([parte 8](https://www.youtube.com/watch?v=kRiCbngCeoo), LagangaWSLCWLR, 82 suscriptores) despierta: 679/h, 15 veces la parte 5. Es una re-subida sin licencia y no se usa, pero confirma que la cita del momento entre paréntesis en el título funciona ("eso no es un yate").
+> - Si el 23-nov sigue sin una pieza que sobre-rinda, el patrón baja a crecimiento. Nada sobre Herrera.
+>
+> **Estado anterior (21-nov, 10:55, ciclo 17): vigente hasta el 23-nov, con puntaje 80 (82 en el ciclo 16 y 84 en el 15).** Lo nuevo:
 > - **El día después de un directo emitido entero rinde en su línea, no más.** Samulx titula con pregunta ['HABLANDO DEL PROYECTO DE LA GANGA ¿QUE PASO ANTIER? 😂'](https://www.youtube.com/watch?v=AYFdSyu_Lfo) y va a 0,93 veces su mediana (2.365/h a las 13,3 h); en el ciclo 16, '¿QUÉ PASÓ AYER?' iba a 1,21. Las copias de terceros ('¿SE ACABA LA GANGA? ¿QUÉ PASÓ ANTIER?', 45/h) no rinden. La pregunta en el título funciona si hay algo que no se vio, y en las 72 horas de La Ganga casi todo se ve.
 > - **Kris R no ha contado nada de su concierto del 20-nov:** 14 h después, nada en su canal ni en la búsqueda. Si sube algo o da una entrevista el 21 o el 22, es la aplicación principal ("¿Qué pasó en el DAVIarena?", con lo que cuente él). Lo único del concierto es la cámara de Lonche (re-subida por [LONCHI](https://www.youtube.com/watch?v=X2TYu7d_UtA)): sirve para la ficha de la noche en 3 momentos, no para esta.
 > - **La final de la Sudamericana es esta noche en Barranquilla,** y Davoo y La Cobra viajaron para verla (ciclo 16). Si uno de ellos cuenta el día después en primera persona (el viaje, la ciudad, la hinchada), publicar el 22-nov. El análisis del partido queda fuera.

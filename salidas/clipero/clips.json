@@ -1,7 +1,63 @@
 {
-    "generado":  "2026-11-21T11:45:00-05:00",
-    "ciclo":  19,
+    "generado":  "2026-11-21T21:45:00-05:00",
+    "ciclo":  20,
     "clips":  [
+                  {
+                      "id":  "2026-11-21-nsn-robot-guardaespaldas",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  80,
+                      "gancho":  "El robot guardaespaldas que asusta a Andreu Buenafuente",
+                      "archivo":  "salidas/clipero/clips/2026-11-21-nsn-robot-guardaespaldas/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-21-nsn-robot-guardaespaldas/ficha.md",
+                      "duracion_seg":  55,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=2D50tEbbKfw",
+                                     "canal":  "Nadie Sabe Nada (SER Podcast)",
+                                     "inicio":  749.69,
+                                     "fin":  804.58
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-24"
+                  },
+                  {
+                      "id":  "2026-11-21-quevedo-policia-foto",
+                      "estado":  "listo",
+                      "tipo":  "historia",
+                      "puntaje":  77,
+                      "gancho":  "Ricardo Quevedo y el policía que pedía fotos",
+                      "archivo":  "salidas/clipero/clips/2026-11-21-quevedo-policia-foto/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-21-quevedo-policia-foto/ficha.md",
+                      "duracion_seg":  46.9,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=xoTfI839Phw",
+                                     "canal":  "Franco Escamilla (Mestizos Precisos)",
+                                     "inicio":  2006.85,
+                                     "fin":  2053.7
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-24"
+                  },
                   {
                       "id":  "2026-11-21-cotorrisa-firma-tianguis",
                       "estado":  "listo",

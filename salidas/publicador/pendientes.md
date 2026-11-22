@@ -1,38 +1,42 @@
 # Pendientes del Publicador
 
-Generado: 2026-11-21T11:49:36-05:00 · ciclo 14 · entrada: `salidas/clipero/clips.json` (ciclo 19 del Clipero, generado el 2026-11-21 a las 11:45): 5 clips nuevos.
+Generado: 2026-11-21T22:03:27-05:00 · ciclo 16 · entrada: `salidas/clipero/clips.json` (ciclo 20 del Clipero, generado el 2026-11-21 a las 21:45): 2 clips nuevos de risas.
 
 **Cómo leer esta página**
 
-- **TikTok, hoy (11:47):** 1 borrador nuevo, en la bandeja de `principal` (Legión Urbana): `ganga-hit-cuatro-horas`. No es público hasta que lo publicas desde la app. La API solo manda el video: al publicarlo, **pega el texto de TikTok** de su sección. La ficha sugiere publicarlo hoy o mañana a las 19:00.
-- **TikTok `risas`: hoy no se subió nada todavía.** Se espera a que pasen 24 h desde que TikTok cortó la cuenta (`spam_risk_too_many_pending_share`, 20-nov a las 21:17). **Hace falta un ciclo esta noche, entre las 21:17 y las 23:00:**
-  - **`risas`, esta noche:** `renona-checo-dinosaurios` y `olga-agua-mostaza` (**vencen hoy**), `juanpis-pestilencia-juicio-tv` (vence el 22-nov) y `roy-barreras-neruda` (vence el 23-nov, el que antes caduca de los nuevos).
-  - **`principal`, esta noche:** `lonche-hormigas-culonas`, para publicarlo el 22-nov a las 19:00, un día después de `ganga-hit-cuatro-horas` (ficha).
-  - **22-nov, `risas`:** `cotorrisa-firma-tianguis` y `drunk-casting-tigo` (vencen el 24-nov).
-  - Si TikTok vuelve a responder `spam_risk_too_many_pending_share`, se para esa cuenta y lo demás pasa al día siguiente.
+- **TikTok, hoy:** 4 borradores nuevos en la bandeja. No son públicos hasta que los publicas desde la app. La API solo manda el video: al publicar cada uno, **pega el texto de TikTok** de su sección.
+  - **`principal` (Legión Urbana), 11:47:** `ganga-hit-cuatro-horas`. La ficha sugiere publicarlo hoy o mañana a las 19:00.
+  - **`risas` (@legion.risas), 21:24-21:25:** `renona-checo-dinosaurios` y `olga-agua-mostaza` (su ventana acaba hoy: publícalos esta noche si te sirven) y `juanpis-pestilencia-juicio-tv` (hasta el 22-nov). TikTok los aceptó sin `spam_risk_too_many_pending_share`.
+- **No llegaron a la bandeja.** La subida se cortó por la red; no es un bloqueo de TikTok. Desde las 21:25, la conexión no pasa de unos 30-45 KB/s de subida, aunque el Clipero ya no esté descargando.
+  - **`risas`: `roy-barreras-neruda` falló dos veces** (21:30 y 21:58). Ya no le quedan intentos. Si lo quieres en la bandeja, vuelve a aprobarlo antes del 23-nov: `/publicador aprobar 2026-11-21-roy-barreras-neruda:tiktok`.
+  - **`principal`: `lonche-hormigas-culonas` falló una vez** (21:41). No se volvió a intentar esta noche porque a esta velocidad habría gastado su último intento. Va el 22-nov (vence el 23-nov). La ficha lo pone el 22-nov a las 19:00, un día después de `ganga-hit-cuatro-horas`.
+- **22-nov, `risas`:** `nsn-robot-guardaespaldas` y `quevedo-policia-foto` (nuevos), `cotorrisa-firma-tianguis` y `drunk-casting-tigo`. Todos vencen el 24-nov. Si vuelves a aprobar `roy-barreras-neruda`, entra primero y `drunk-casting-tigo` pasa al 23-nov.
+- Si TikTok responde `spam_risk_too_many_pending_share`, se para esa cuenta y lo demás pasa al día siguiente.
 - **`culpa-mama-carrazo` venció en TikTok** (ventana hasta el 20-nov, sin aprobación expresa). Si lo quieres igualmente: `/publicador aprobar 2026-11-17-culpa-mama-carrazo:tiktok`.
 - **Caso Herrera** (pasa a lo legal; Cazador Urbano, 17-nov). Nada se reabre:
   - **`westcol-disculpa-pelea-jh` está en la bandeja de Legión Urbana: no lo publiques.** Descártalo desde la app (la API no puede borrarlo).
   - **`westcol-herrera-no-planeado`:** el envío del 17-nov dio HTTP 500 y no se sabe si llegó. No se reintenta: si está en la bandeja, descártalo.
-- **Bandeja según la API: 56 borradores sin publicar** (31 en `principal` y 25 en `risas`). Los 55 anteriores a hoy tienen la ventana cerrada (tabla al final del resumen). **Publica o descarta** desde la app los que ya no quieras: así TikTok acepta mejor los de esta noche.
+- **Bandeja según la API: 59 borradores sin publicar** (31 en `principal` y 28 en `risas`). Los 55 anteriores a hoy tienen la ventana cerrada (tabla al final del resumen). **Publica o descarta** desde la app los que ya no quieras: así TikTok acepta mejor los siguientes.
 - **Instagram y YouTube:** pendientes de aprobación. Siguen sin activar y sin credenciales: aprobar ahora solo deja el envío listo.
   - **YouTube lleva un canal por línea:** los urbanos van a `principal` (Legión Urbana) y los de risas a `risas` (Legión de Risas, apagado hasta que lo autorices).
   - **En YouTube lo aprobado sale público** al subirse (`youtube.privacidad: public`; Google ya no deja privado lo que suben los proyectos sin auditar).
   - En Instagram, los urbanos van a `principal` y los de risas a la cuenta `risas` (apagada), nunca a la urbana.
-  - Hoy vencieron las 12 pendientes con ventana hasta el 20-nov (6 clips). Las 4 de `renona-checo-dinosaurios` y `olga-agua-mostaza` vencen al acabar el día.
+  - Las 4 de `renona-checo-dinosaurios` y `olga-agua-mostaza` vencen al acabar el día.
 - **Clips subidos a mano** (`legion/03-publicador/subidos-a-mano.json`): no aparecen aquí.
 - **Derechos:** todos los clips de esta página son `sin_verificar`: contenido de terceros sin permiso confirmado. Solo se publica con aprobación expresa (en TikTok, tu publicación desde la bandeja) y siempre con el crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
 - **Revisar antes de publicar** (el detalle de cada clip está en su sección):
   - **En la bandeja desde hoy:**
     - `ganga-hit-cuatro-horas`: los textos no nombran a nadie de La Ganga (la imagen no deja asegurar quién es quién). El «200.000» es broma: no lo pongas como cifra real.
+    - `renona-checo-dinosaurios`: velo antes. El remate lo dice Franco imitando a Checo según los comentarios, pero el plano general no lo muestra de cerca; si no fuera Franco, no lo publiques con este texto.
+    - `juanpis-pestilencia-juicio-tv`: cuenta la historia Dilson Díaz (el invitado), no Juanpis. El «juicio» es un programa de televisión actuado.
+    - `olga-agua-mostaza`: no nombra a quien cuenta, porque la imagen no lo identifica.
   - **En cola:**
     - `roy-barreras-neruda` (humor político): **es Roy Barreras en persona**, riéndose de su propia derrota; no es un imitador. Escucha la palabra con la que arranca el poema (los subtítulos dicen «Eco»). Al publicar no añadas opiniones, consignas, etiquetas de partido ni la promoción de su libro.
     - `lonche-hormigas-culonas`: ruido de calle y varias voces; no se nombra a quien da el veredicto ni al vendedor.
     - `drunk-casting-tigo`: no se dice quién soltó «a alguien van a echar»; los textos aclaran que a Iván Marín no lo echaron. Audio algo más bajo que el resto.
     - `cotorrisa-firma-tianguis`: nada especial (insultos censurados en la fuente).
-    - `renona-checo-dinosaurios`: velo antes. El remate lo dice Franco imitando a Checo según los comentarios, pero el plano general no lo muestra de cerca; si no fuera Franco, no lo publiques con este texto.
-    - `juanpis-pestilencia-juicio-tv`: cuenta la historia Dilson Díaz (el invitado), no Juanpis. El «juicio» es un programa de televisión actuado.
-    - `olga-agua-mostaza`: no nombra a quien cuenta, porque la imagen no lo identifica.
+    - `nsn-robot-guardaespaldas` (nuevo): nada especial (insulto censurado en la fuente).
+    - `quevedo-policia-foto` (nuevo): **escúchalo antes**. Hay una palabra como «(…)» en 0:10-0:12, y en el último segundo entra el arranque de otra frase («Si que lo migajero…»).
 
 ## Resumen
 
@@ -41,18 +45,20 @@ Línea **urbano**: 2 clips.
 | # | Clip | Puntaje | Ventana hasta | TikTok (principal) | Instagram (principal) | YouTube (principal) |
 |---|---|---|---|---|---|---|
 | 4 | `2026-11-21-ganga-hit-cuatro-horas` | 75 | 2026-11-23 | en la bandeja desde 2026-11-21 11:47 (borrador), **enviado hoy** | pendiente de aprobación | pendiente de aprobación |
-| 6 | `2026-11-21-lonche-hormigas-culonas` | 74 | 2026-11-23 | aprobado automáticamente; en cola (previsto esta noche o el 22-nov: la ficha lo pone un día después de `ganga-hit-cuatro-horas`) | pendiente de aprobación | pendiente de aprobación |
+| 6 | `2026-11-21-lonche-hormigas-culonas` | 74 | 2026-11-23 | **no llegó** (21-nov 21:30-21:41: la subida se cortó por la red); en cola para el 22-nov (intento 2 de 2) | pendiente de aprobación | pendiente de aprobación |
 
-Línea **risas**: 6 clips.
+Línea **risas**: 8 clips.
 
 | # | Clip | Puntaje | Ventana hasta | TikTok (risas) | Instagram (risas) | YouTube (risas) |
 |---|---|---|---|---|---|---|
-| 1 | `2026-11-17-renona-checo-dinosaurios` | 74 | 2026-11-21 | aprobado automáticamente; en cola (previsto esta noche, después de las 21:17; **vence hoy**) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación (cuenta apagada) |
-| 2 | `2026-11-17-olga-agua-mostaza` | 73 | 2026-11-21 | aprobado automáticamente; en cola (previsto esta noche, después de las 21:17; **vence hoy**) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación (cuenta apagada) |
-| 3 | `2026-11-18-juanpis-pestilencia-juicio-tv` | 74 | 2026-11-22 | aprobado automáticamente; en cola (previsto esta noche, después de las 21:17; vence el 22-nov) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación (cuenta apagada) |
-| 5 | `2026-11-21-roy-barreras-neruda` | 74 | 2026-11-23 | aprobado automáticamente; en cola (previsto esta noche, después de las 21:17) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación (cuenta apagada) |
+| 1 | `2026-11-17-renona-checo-dinosaurios` | 74 | 2026-11-21 | en la bandeja desde 2026-11-21 21:24 (borrador), **enviado hoy** | pendiente de aprobación (cuenta apagada) | pendiente de aprobación (cuenta apagada) |
+| 2 | `2026-11-17-olga-agua-mostaza` | 73 | 2026-11-21 | en la bandeja desde 2026-11-21 21:24 (borrador), **enviado hoy** | pendiente de aprobación (cuenta apagada) | pendiente de aprobación (cuenta apagada) |
+| 3 | `2026-11-18-juanpis-pestilencia-juicio-tv` | 74 | 2026-11-22 | en la bandeja desde 2026-11-21 21:25 (borrador), **enviado hoy** | pendiente de aprobación (cuenta apagada) | pendiente de aprobación (cuenta apagada) |
+| 5 | `2026-11-21-roy-barreras-neruda` | 74 | 2026-11-23 | **no llegó**: dos subidas cortadas por la red (21-nov 21:30 y 21:58); sin intentos. Para reenviarlo: `/publicador aprobar 2026-11-21-roy-barreras-neruda:tiktok` | pendiente de aprobación (cuenta apagada) | pendiente de aprobación (cuenta apagada) |
 | 7 | `2026-11-21-cotorrisa-firma-tianguis` | 76 | 2026-11-24 | aprobado automáticamente; en cola (previsto 22-nov) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación (cuenta apagada) |
 | 8 | `2026-11-21-drunk-casting-tigo` | 73 | 2026-11-24 | aprobado automáticamente; en cola (previsto 22-nov) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación (cuenta apagada) |
+| 9 | `2026-11-21-nsn-robot-guardaespaldas` | 80 | 2026-11-24 | aprobado automáticamente; en cola (previsto 22-nov), **nuevo** | pendiente de aprobación (cuenta apagada) | pendiente de aprobación (cuenta apagada) |
+| 10 | `2026-11-21-quevedo-policia-foto` | 77 | 2026-11-24 | aprobado automáticamente; en cola (previsto 22-nov), **nuevo**; escucharlo antes | pendiente de aprobación (cuenta apagada) | pendiente de aprobación (cuenta apagada) |
 
 **Borradores con la ventana cerrada** (54; siguen en la bandeja de TikTok según la API; publícalos solo si aún te sirven, si no, descártalos desde la app para liberar sitio). El texto de cada uno está en su archivo de envío.
 
@@ -127,7 +133,7 @@ Línea **risas**: 6 clips.
 - **Video:** [clip.mp4](../clipero/clips/2026-11-17-renona-checo-dinosaurios/clip.mp4) (54,4 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-17-renona-checo-dinosaurios/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=DpE-D9sdE9M
 - **Revisar antes de publicar:** Velo antes de publicar: el remate lo dice Franco imitando la voz de Checo según los comentarios del video y la propia mesa, pero el plano general no lo muestra de cerca. Si no fuera Franco, no lo publiques con este texto (el gancho del video también lo dice). Lenguaje fuerte («pendejada»). Los carteles de la gira de Franco en la mesa son del propio canal. Se corta antes de la réplica grosera de Checo.
 
-### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola (previsto esta noche, después de las 21:17; **vence hoy**)
+### TikTok · cuenta `risas` (@legion.risas) · en la bandeja desde 2026-11-21 21:24 (borrador): pega este texto al publicarlo
 
 ```
 Le preguntan a Checo por sus locuras de joven y Franco contesta por él 🦖😂
@@ -177,7 +183,7 @@ Crédito: La Mesa Reñoña, de Franco Escamilla (YouTube), “La Mesa Reñoña 5
 - **Video:** [clip.mp4](../clipero/clips/2026-11-17-olga-agua-mostaza/clip.mp4) (42,2 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-17-olga-agua-mostaza/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=a5BUB-t-bHM
 - **Revisar antes de publicar:** Humor asqueroso, sin nadie atacado (el amigo no se nombra). Quien cuenta no se identifica con seguridad: los textos no lo nombran. El letrero de Coca-Cola es del decorado del estudio, no un rótulo añadido. Lenguaje: «boludo».
 
-### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola (previsto esta noche, después de las 21:17; **vence hoy**)
+### TikTok · cuenta `risas` (@legion.risas) · en la bandeja desde 2026-11-21 21:24 (borrador): pega este texto al publicarlo
 
 ```
 Su amigo era adicto… a la agüita de la mostaza 🤢😂
@@ -227,7 +233,7 @@ Crédito: Soñé que Volaba, de OLGA (YouTube), “COMBINAR COMIDAS RARAS y NO M
 - **Video:** [clip.mp4](../clipero/clips/2026-11-18-juanpis-pestilencia-juicio-tv/clip.mp4) (68 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-18-juanpis-pestilencia-juicio-tv/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=zsa74yNbstU
 - **Revisar antes de publicar:** Escuchar la primera palabra después de «Entonces», que los subtítulos dejan como «(…)». Lenguaje fuerte tapado por YouTube («***»). Habla Dilson Díaz, el invitado; a Juanpis solo se le oye, y los textos no le atribuyen la historia. El «juicio» es un programa de televisión actuado, no un caso judicial real.
 
-### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola (previsto esta noche, después de las 21:17; vence el 22-nov)
+### TikTok · cuenta `risas` (@legion.risas) · en la bandeja desde 2026-11-21 21:25 (borrador): pega este texto al publicarlo
 
 ```
 La Pestilencia actuó en un “juicio” de la tele por 500 dólares cada uno… y su tío se lo creyó 😂
@@ -327,7 +333,7 @@ Crédito: Samulx (YouTube), «HABLANDO DEL PROYECTO DE LA GANGA ¿QUE PASO ANTIE
 - **Video:** [clip.mp4](../clipero/clips/2026-11-21-roy-barreras-neruda/clip.mp4) (50,4 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-21-roy-barreras-neruda/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=qo3BPfZ6vZI
 - **Revisar antes de publicar:** Humor político (legion/04-cazador-risas/enfoque.md): centroizquierda: Roy Barreras en persona (progresismo, exaliado de Petro; en el programa se define liberal socialdemócrata, de centro); autoburla sobre la presidencia que no consiguió, no es un imitador. Escúchalo antes de publicar: la palabra con la que arranca el poema sale como «Eco» en los subtítulos. Música de piano del propio programa. Es Roy Barreras en persona (autoburla), no un imitador. Al publicar: sin opiniones, consignas, etiquetas de partido ni la promoción de su libro. Los textos no citan «al progresismo le faltó muy poquito» ni copian el título del programa (habla de un caso judicial).
 
-### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola (previsto esta noche, después de las 21:17)
+### TikTok · cuenta `risas` (@legion.risas) · no llegó a la bandeja (21-nov 21:30 y 21:58, subidas cortadas por la red); sin intentos: `/publicador aprobar 2026-11-21-roy-barreras-neruda:tiktok` para reenviarlo
 
 ```
 Roy Barreras le cambia la letra al Poema 20 de Neruda 😂
@@ -377,7 +383,7 @@ Crédito: La Luciérnaga, Caracol Radio (YouTube), emisión del 19 de noviembre.
 - **Video:** [clip.mp4](../clipero/clips/2026-11-21-lonche-hormigas-culonas/clip.mp4) (50,6 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-21-lonche-hormigas-culonas/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=CGICIcJ8lCY
 - **Revisar antes de publicar:** Ruido de calle y varias voces a la vez; una palabra queda como «(…)». No se nombra a quien da el veredicto (no se puede asegurar en imagen). El vendedor sale en plano: no se le nombra. Se ven vasos de granizado; en el tramo no se habla de alcohol. Publícalo un día después de ganga-hit-cuatro-horas (ficha: 22-nov a las 19:00).
 
-### TikTok · cuenta `principal` (Legión Urbana) · aprobado automáticamente; en cola (previsto esta noche o el 22-nov: la ficha lo pone un día después de `ganga-hit-cuatro-horas`)
+### TikTok · cuenta `principal` (Legión Urbana) · no llegó a la bandeja (21-nov 21:41, subida cortada por la red); se reintenta el 22-nov (intento 2 de 2). La ficha lo pone el 22-nov a las 19:00
 
 ```
 Mexicanos prueban hormigas culonas en Provenza con La Ganga 🐜😂
@@ -518,6 +524,106 @@ Crédito: Drunk Comedy (cap. 8), canal Juanpis González (YouTube). Video origin
 ```
 
 **Etiquetas:** Drunk Comedy, Alejandro Riaño, Iván Marín, Ricardo Quevedo, Antonio Sanint, Juanpis González, comedia colombiana, anécdotas, casting
+
+
+## 9. `2026-11-21-nsn-robot-guardaespaldas`
+
+- **Gancho:** El robot guardaespaldas que asusta a Andreu Buenafuente
+- **Puntaje:** 80 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-24 · **Línea:** risas · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-21-nsn-robot-guardaespaldas/clip.mp4) (55 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-21-nsn-robot-guardaespaldas/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=2D50tEbbKfw
+- **Revisar antes de publicar:** Nada especial según la ficha: el insulto va censurado («***») en la fuente y en los subtítulos, y los textos lo citan así. Habla Andreu Buenafuente (lo confirma la réplica de Berto justo después del corte). El clip empieza en «Un robot guardaespaldas» y no en «yo no vivo tranquilo» (pasaría de 75 s).
+
+### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola (previsto 22-nov, el primero de risas; ficha: a las 20:00)
+
+```
+Andreu Buenafuente y el robot guardaespaldas: ¿y si le das la orden contraria? 🤖😂
+
+En Nadie Sabe Nada, Andreu cuenta el video de un robot guardaespaldas que, para defender a su dueño, revienta un coche a codazos y rodillazos. A él no le hace ninguna gracia: si en vez de que te defienda le das la instrucción de que te ataque… «es el *** Terminator».
+
+¿Tú te comprarías un robot guardaespaldas?
+
+Crédito: Nadie Sabe Nada (SER Podcast), de Andreu Buenafuente y Berto Romero, 14x12 «Goles de comedia» (YouTube). Video original (minuto 12:29): https://youtu.be/2D50tEbbKfw?t=749
+
+#NadieSabeNada #AndreuBuenafuente #BertoRomero #Comedia #Robots
+```
+
+### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
+
+```
+El robot guardaespaldas que tiene preocupado a Andreu Buenafuente 🤖😂
+
+En Nadie Sabe Nada, Andreu cuenta el video de un robot que, para defender a su dueño, revienta un coche a codazos. Su duda: ¿y si alguien le da la instrucción contraria? «Es el *** Terminator».
+
+¿Tú te comprarías un robot guardaespaldas?
+
+Crédito: Nadie Sabe Nada (SER Podcast), de Andreu Buenafuente y Berto Romero, 14x12 «Goles de comedia» (YouTube). Video original (minuto 12:29): https://youtu.be/2D50tEbbKfw?t=749
+
+#NadieSabeNada #AndreuBuenafuente #BertoRomero #Comedia #Robots
+```
+
+### YouTube · cuenta `risas` (canal de la Legión de Risas) · pendiente de aprobación (cuenta apagada)
+
+**Título:** El robot guardaespaldas que preocupa a Andreu Buenafuente
+
+```
+En Nadie Sabe Nada, Andreu Buenafuente cuenta el video de un robot guardaespaldas que revienta un coche a codazos para defender a su dueño. Y se pregunta qué pasa si alguien le da la instrucción contraria.
+
+Crédito: Nadie Sabe Nada (SER Podcast), de Andreu Buenafuente y Berto Romero, 14x12 «Goles de comedia» (YouTube). Video original (minuto 12:29): https://youtu.be/2D50tEbbKfw?t=749
+
+#NadieSabeNada #AndreuBuenafuente #BertoRomero #Comedia
+```
+
+**Etiquetas:** Nadie Sabe Nada, Andreu Buenafuente, Berto Romero, robot guardaespaldas, robots, Terminator, comedia española, humor, podcast
+
+
+## 10. `2026-11-21-quevedo-policia-foto`
+
+- **Gancho:** Ricardo Quevedo y el policía que pedía fotos
+- **Puntaje:** 77 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-24 · **Línea:** risas · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-21-quevedo-policia-foto/clip.mp4) (46,9 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-21-quevedo-policia-foto/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=xoTfI839Phw
+- **Revisar antes de publicar:** **Escúchalo antes.** En 0:10-0:12 hay una palabra ilegible de los subtítulos automáticos («brui»), que va como «(…)». En el último segundo entra el arranque de la frase siguiente («Si que lo migajero…»): el Clipero no lo volvió a cortar porque YouTube fallaba en las descargas. «Entradas… huevadas. Entradas» (0:37-0:39) va tal como lo transcribió la fuente. Que cuenta Ricardo Quevedo se apoya en la propia historia («Ricardo, una foto») y en los comentarios; el canal no rotula a los invitados. Los textos no dicen que el policía lo dejara ir a cambio de la foto (el clip no lo cuenta) y no llevan #FrancoEscamilla (no se confirma que esté en la mesa; el canal va en el crédito).
+
+### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola (previsto 22-nov, después de `nsn-robot-guardaespaldas`; ficha: a las 20:00)
+
+```
+Ricardo Quevedo no quería fotos con policías… hasta que se pasó un semáforo 🚦😂
+
+Le pareció de mal gusto que un policía le cerrara el carro para pedirle una foto: «estamos trabajando, respeto un poco». Tiempo después se pasa una luz roja, lo para otro policía y le dice: «Ricardo, una foto, video para tus hijos».
+
+¿Tú qué habrías hecho?
+
+Crédito: Mestizos Precisos T2, Ep. 16 «Migajeros», canal Franco Escamilla (YouTube). Video original (minuto 33:26): https://youtu.be/xoTfI839Phw?t=2006
+
+#RicardoQuevedo #MestizosPrecisos #HumorColombiano #Comedia #StandUp
+```
+
+### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
+
+```
+«Ricardo, una foto, video para tus hijos» 🚦😂
+
+A Ricardo Quevedo le pareció de mal gusto que un policía le cerrara el carro para pedirle una foto. Hasta el día en que se pasó una luz roja y lo paró otro policía… y acabó invitándolo a comer.
+
+¿Tú qué habrías hecho?
+
+Crédito: Mestizos Precisos T2, Ep. 16 «Migajeros», canal Franco Escamilla (YouTube). Video original (minuto 33:26): https://youtu.be/xoTfI839Phw?t=2006
+
+#RicardoQuevedo #MestizosPrecisos #HumorColombiano #Comedia #StandUp
+```
+
+### YouTube · cuenta `risas` (canal de la Legión de Risas) · pendiente de aprobación (cuenta apagada)
+
+**Título:** Ricardo Quevedo y el policía que le pedía fotos
+
+```
+En Mestizos Precisos, Ricardo Quevedo cuenta que le pareció de mal gusto que un policía le cerrara el carro para pedirle una foto. Hasta el día en que se pasó una luz roja.
+
+Crédito: Mestizos Precisos T2, Ep. 16 «Migajeros», canal Franco Escamilla (YouTube). Video original (minuto 33:26): https://youtu.be/xoTfI839Phw?t=2006
+
+#RicardoQuevedo #MestizosPrecisos #HumorColombiano #StandUp
+```
+
+**Etiquetas:** Ricardo Quevedo, Mestizos Precisos, comedia colombiana, stand up, policía, anécdotas, humor, Franco Escamilla
 
 
 ## Comandos

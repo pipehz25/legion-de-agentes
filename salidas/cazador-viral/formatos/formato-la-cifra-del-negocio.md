@@ -1,6 +1,12 @@
 # ¿Cuánto te deja? La cifra del negocio, dicha por el dueño
 
-> **Estado (21-nov, 10:55, ciclo 17): vigente hasta el 24-nov, con puntaje 71 (72 en el ciclo 16 y 73 en el 15).** Lo nuevo:
+> **Estado (21-nov, 21:00, ciclo 18): vigente hasta el 24-nov, con puntaje 71 (sin cambios).** Lo nuevo:
+> - **Cuarto ciclo sin una cifra dicha en cámara, pero el lujo rinde.** ['FIESTA PRIVADA EN LA CASA DE ANDRES AGUIRRE CON LA GANGA'](https://www.youtube.com/watch?v=vEEzgQ4EyQU) va a 5,0 veces la mediana por hora de The Chanty y ['¿Toda la GANGA en AVIÓN PRIVADO en STREAM?'](https://www.youtube.com/watch?v=UP3I3JW8MAg) a 1,6 veces la de Leandro La Sapa. El '*mucho lujos*' en el título, sin más, no basta: la fiesta de Lonche Chacas se queda en 0,94.
+> - **Ocasiones abiertas:** si alguien dice en cámara cuánto vale la casa, el vuelo privado o la cuenta del restaurante giratorio, ese es el clip: la cifra en pantalla en el segundo 0 y "¿Cuánto crees que cuesta?". De la fiesta, solo la casa y el precio: nada de alcohol, mujeres de fondo ni drogas.
+> - **En TikTok en inglés,** 'He wanna pay full price' se mantiene (507 creadores en 7 días). El audio es de SNL: no se usa.
+> - Si el 24-nov sigue sin una pieza con la cifra, la ficha sale de las recomendaciones.
+>
+> **Estado anterior (21-nov, 10:55, ciclo 17): vigente hasta el 24-nov, con puntaje 71 (72 en el ciclo 16 y 73 en el 15).** Lo nuevo:
 > - **Tercer ciclo sin una cifra dicha en cámara.** El concierto de Kris R no dejó precio (su canal no sube nada y Jorge Andrés tampoco). La presentación de Blessd en el Pereira tampoco: solo está en el [directo de Tato Sanint](https://www.youtube.com/watch?v=Hyzmu4FG7YM), sin comprobar que hable él.
 > - **Ocasión abierta:** ['TUVE UNA CENA DE LUJO con LA GANGA y ESTO PASO'](https://www.youtube.com/watch?v=BhzALvos8YI) (Lonche Chacas, 524/h, 1,3 veces). Si alguien dice cuánto costó la cena o un plato, ese es el clip: la cifra en pantalla en el segundo 0 y "¿Cuánto crees que pagaron?".
 > - **En inglés,** TikTok estrena 'He wanna pay full price' (virlo.ai, 541 creadores en 7 días): el precio como gancho funciona, pero el audio es de SNL. Es solo una señal; el audio no se usa.
