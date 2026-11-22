@@ -1,0 +1,30 @@
+{
+    "id":  "2026-11-22-ganga-piedra-penol",
+    "url_fuente":  "https://www.youtube.com/watch?v=1jfaTc0PEsw",
+    "video_id":  "1jfaTc0PEsw",
+    "inicio":  998.61,
+    "fin":  1019.22,
+    "inicio_hms":  "0:16:38",
+    "duracion_seg":  20.6,
+    "gancho":  "¿Quién se sube a la Piedra del Peñol?",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  60,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "color":  "",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -20.52,
+                  "entrada_tp":  -7.85,
+                  "salida_lufs":  -14.24,
+                  "salida_tp":  -1.33
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-22-ganga-piedra-penol/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-22-ganga-piedra-penol/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-22-ganga-piedra-penol/revision.jpg",
+    "creado":  "2026-11-22T13:17:16.7113040-05:00"
+}

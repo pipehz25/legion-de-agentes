@@ -1,7 +1,203 @@
 {
-    "generado":  "2026-11-21T21:45:00-05:00",
-    "ciclo":  20,
+    "generado":  "2026-11-22T13:30:00-05:00",
+    "ciclo":  21,
     "clips":  [
+                  {
+                      "id":  "2026-11-22-francupido-bombera-carga",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  79,
+                      "gancho":  "¿Podrá la bombera cargar a Franco Escamilla?",
+                      "archivo":  "salidas/clipero/clips/2026-11-22-francupido-bombera-carga/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-22-francupido-bombera-carga/ficha.md",
+                      "duracion_seg":  73.9,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=dMnCmCEZt4g",
+                                     "canal":  "Franco Escamilla (FranCupido)",
+                                     "inicio":  182.37,
+                                     "fin":  256.2
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-25"
+                  },
+                  {
+                      "id":  "2026-11-22-cobra-prediccion-final",
+                      "estado":  "listo",
+                      "tipo":  "prediccion",
+                      "puntaje":  78,
+                      "gancho":  "La predicción de La Cobra antes de la final",
+                      "archivo":  "salidas/clipero/clips/2026-11-22-cobra-prediccion-final/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-22-cobra-prediccion-final/ficha.md",
+                      "duracion_seg":  46.0,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=5St0GQXddug",
+                                     "canal":  "LA COBRA",
+                                     "inicio":  294.17,
+                                     "fin":  340.1
+                                 },
+                      "oportunidad_cazador":  "formato-el-dia-despues-del-protagonista",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-24"
+                  },
+                  {
+                      "id":  "2026-11-22-uribe-davoo-microfono",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  73,
+                      "gancho":  "Lo que Davoo le pidió a Roberto Uribe",
+                      "archivo":  "salidas/clipero/clips/2026-11-22-uribe-davoo-microfono/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-22-uribe-davoo-microfono/ficha.md",
+                      "duracion_seg":  37.4,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=40gAwbuwZac",
+                                     "canal":  "Soy Roberto Uribe",
+                                     "inicio":  1045.21,
+                                     "fin":  1082.62
+                                 },
+                      "oportunidad_cazador":  "formato-el-dia-despues-del-protagonista",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-24"
+                  },
+                  {
+                      "id":  "2026-11-22-cobra-gracias-colombia",
+                      "estado":  "listo",
+                      "tipo":  "emotivo",
+                      "puntaje":  72,
+                      "gancho":  "El mensaje de La Cobra a Colombia",
+                      "archivo":  "salidas/clipero/clips/2026-11-22-cobra-gracias-colombia/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-22-cobra-gracias-colombia/ficha.md",
+                      "duracion_seg":  29.7,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=5St0GQXddug",
+                                     "canal":  "LA COBRA",
+                                     "inicio":  1283.25,
+                                     "fin":  1312.98
+                                 },
+                      "oportunidad_cazador":  "formato-el-dia-despues-del-protagonista",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-24"
+                  },
+                  {
+                      "id":  "2026-11-22-davoo-otros-29-equipos",
+                      "estado":  "listo",
+                      "tipo":  "frase",
+                      "puntaje":  71,
+                      "gancho":  "Davoo, a los que critican a Boca",
+                      "archivo":  "salidas/clipero/clips/2026-11-22-davoo-otros-29-equipos/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-22-davoo-otros-29-equipos/ficha.md",
+                      "duracion_seg":  49.3,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=IGjKe0aNlbs",
+                                     "canal":  "Davoo Xeneize",
+                                     "inicio":  1390.21,
+                                     "fin":  1439.5
+                                 },
+                      "oportunidad_cazador":  "formato-el-dia-despues-del-protagonista",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-24"
+                  },
+                  {
+                      "id":  "2026-11-22-cobra-medalla-merentiel",
+                      "estado":  "listo",
+                      "tipo":  "historia",
+                      "puntaje":  71,
+                      "gancho":  "Lo que le prestó Merentiel a La Cobra",
+                      "archivo":  "salidas/clipero/clips/2026-11-22-cobra-medalla-merentiel/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-22-cobra-medalla-merentiel/ficha.md",
+                      "duracion_seg":  18.6,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=5St0GQXddug",
+                                     "canal":  "LA COBRA",
+                                     "inicio":  1157.65,
+                                     "fin":  1176.26
+                                 },
+                      "oportunidad_cazador":  "formato-el-dia-despues-del-protagonista",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  3,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-24"
+                  },
+                  {
+                      "id":  "2026-11-22-ganga-piedra-penol",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  70,
+                      "gancho":  "¿Quién se sube a la Piedra del Peñol?",
+                      "archivo":  "salidas/clipero/clips/2026-11-22-ganga-piedra-penol/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-22-ganga-piedra-penol/ficha.md",
+                      "duracion_seg":  20.6,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=1jfaTc0PEsw",
+                                     "canal":  "Lonche Chacas",
+                                     "inicio":  998.61,
+                                     "fin":  1019.22
+                                 },
+                      "oportunidad_cazador":  "formato-primera-vez-en-medellin",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-24"
+                  },
                   {
                       "id":  "2026-11-21-nsn-robot-guardaespaldas",
                       "estado":  "listo",

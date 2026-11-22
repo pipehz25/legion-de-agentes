@@ -1,0 +1,30 @@
+{
+    "id":  "2026-11-22-francupido-bombera-carga",
+    "url_fuente":  "https://www.youtube.com/watch?v=dMnCmCEZt4g",
+    "video_id":  "dMnCmCEZt4g",
+    "inicio":  182.37,
+    "fin":  256.2,
+    "inicio_hms":  "0:03:02",
+    "duracion_seg":  73.9,
+    "gancho":  "¿Podrá la bombera cargar a Franco Escamilla?",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  75,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "color":  "",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1012,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -11.88,
+                  "entrada_tp":  0,
+                  "salida_lufs":  -13.9,
+                  "salida_tp":  -2.12
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-22-francupido-bombera-carga/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-22-francupido-bombera-carga/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-22-francupido-bombera-carga/revision.jpg",
+    "creado":  "2026-11-22T13:14:50.3053700-05:00"
+}

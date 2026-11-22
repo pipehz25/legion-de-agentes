@@ -1,6 +1,13 @@
 # ¿Cuánto te deja? La cifra del negocio, dicha por el dueño
 
-> **Estado (21-nov, 21:00, ciclo 18): vigente hasta el 24-nov, con puntaje 71 (sin cambios).** Lo nuevo:
+> **Estado (22-nov, 12:35, ciclo 19): vigente hasta el 24-nov, con puntaje 69 (71 en el ciclo 18); baja del umbral de hibridación (70).** Lo nuevo:
+> - **Por fin una cifra dicha en cámara.** En ['CUANTO ES LO MAXIMO QUE HEMOS GANADO EN 1 MES'](https://www.youtube.com/watch?v=olXao5WK9qY) (Westcol, 15 min), del minuto 13:20 al 14:10, La Ganga habla de "un cheque de 1 millón", "2 millones de dólares" y "500.000 dólares en 1 mes" (subtítulos automáticos).
+> - **Pero en largo no rinde:** el video va a 0,57 veces la mediana de Westcol (1.088/h a las 15,7 h), aunque el título promete la cifra. La cifra llega al final y el título es una pregunta sin número.
+> - **La prueba que falta es el corto.** Del 13:20 al 14:10: "2 millones de dólares en un mes" en pantalla en el segundo 0, la frase de Westcol y la reacción de los demás. Pregunta final: "¿Cuánto crees que gana un streamer al mes?". Si el 24-nov ese corto no rinde, la ficha sale de las recomendaciones.
+> - **El lujo sin precio sigue rindiendo:** [la fiesta en casa de Andrés Aguirre desde el canal de Samulx](https://www.youtube.com/watch?v=MpO-v92soNE) va a 1,9 veces su mediana (99.164 vistas). La casa sigue sin precio.
+> - **Riesgo:** son cifras que dice él, sin comprobar. Presentarlas como "dice que…", nunca como un dato.
+>
+> **Estado anterior (21-nov, 21:00, ciclo 18): vigente hasta el 24-nov, con puntaje 71 (sin cambios).** Lo nuevo:
 > - **Cuarto ciclo sin una cifra dicha en cámara, pero el lujo rinde.** ['FIESTA PRIVADA EN LA CASA DE ANDRES AGUIRRE CON LA GANGA'](https://www.youtube.com/watch?v=vEEzgQ4EyQU) va a 5,0 veces la mediana por hora de The Chanty y ['¿Toda la GANGA en AVIÓN PRIVADO en STREAM?'](https://www.youtube.com/watch?v=UP3I3JW8MAg) a 1,6 veces la de Leandro La Sapa. El '*mucho lujos*' en el título, sin más, no basta: la fiesta de Lonche Chacas se queda en 0,94.
 > - **Ocasiones abiertas:** si alguien dice en cámara cuánto vale la casa, el vuelo privado o la cuenta del restaurante giratorio, ese es el clip: la cifra en pantalla en el segundo 0 y "¿Cuánto crees que cuesta?". De la fiesta, solo la casa y el precio: nada de alcohol, mujeres de fondo ni drogas.
 > - **En TikTok en inglés,** 'He wanna pay full price' se mantiene (507 creadores en 7 días). El audio es de SNL: no se usa.

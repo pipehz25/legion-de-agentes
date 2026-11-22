@@ -1,6 +1,16 @@
 # Lo que no se vio (el día después, contado por el protagonista)
 
-> **Estado (21-nov, 21:00, ciclo 18): vigente hasta el 23-nov, con puntaje 77 (80 en el ciclo 17).** Lo nuevo:
+> **Estado (22-nov, 12:35, ciclo 19): vigente hasta el 24-nov, con puntaje 79 (77 en el ciclo 18).** Lo nuevo:
+> - **La final de la Sudamericana trae el día después que faltaba,** en un contexto nuevo: el evento ajeno contado por los creadores que viajaron a verlo (Boca 2-0 Atlético Mineiro, 21-nov en Barranquilla).
+>   - [La Cobra, 'VI A BOCA CAMPEÓN… VLOG EN COLOMBIA Y CELEBRACIÓN CON JUGADORES!'](https://www.youtube.com/watch?v=5St0GQXddug): 16.106/h a las 2,1 h. Es lo que no salió en la tele: hotel (01:20), comida (07:23), previa (10:53), post partido (14:45) y festejo con los jugadores.
+>   - [Davoo, 'DAVOO XENEIZE OPINA DE BOCA 2 ATLETICO MINEIRO 0'](https://www.youtube.com/watch?v=IGjKe0aNlbs): 44.349/h; en 12,8 h ya pasa la mediana de vistas totales de sus 3 videos anteriores (567.665 frente a 523.482).
+>   - [Soy Roberto Uribe, 'Así se VIVIÓ la FINAL…'](https://www.youtube.com/watch?v=40gAwbuwZac): 15.452/h a las 7,8 h. Su descripción promete "momentos que pocas veces se ven en televisión" y conocer a Davoo y La Cobra.
+> - **Clip tipo:** el creador en la tribuna o en el campo en el segundo 0, con el texto "Lo que no salió en la tele"; su frase más fuerte del festejo; pregunta final "¿Tú habrías viajado?". **Nada de imágenes de la transmisión** (derechos de CONMEBOL y de la tele), ni análisis táctico, ni la barra.
+> - **En música urbana no se da:** Kris R no contó nada de su concierto en 48 h. El contexto `musica-urbana-co` pasa a sin-adaptar.
+> - **Próxima aplicación:** el cierre de las 72 horas de La Ganga (23-nov). Lo que cuente cada uno el 23-24 nov de lo que no salió en su cámara ("¿Aguantaron las 72 horas?"). Si el 24-nov no hay pieza que sobre-rinda, el patrón baja a crecimiento.
+> - Nada sobre Herrera.
+>
+> **Estado anterior (21-nov, 21:00, ciclo 18): vigente hasta el 23-nov, con puntaje 77 (80 en el ciclo 17).** Lo nuevo:
 > - **Tercer ciclo en su línea.** '¿QUE PASO ANTIER?' de Samulx se queda en 0,92 veces su mediana a las 21 h. El concierto de Kris R contado desde la cámara de un invitado, ['SHOW DE LA GANGA CON KRIS R'](https://www.youtube.com/watch?v=n4nNVZqGshc) (The Chanty), va a 1,0 veces: sirve para la noche en 3 momentos, no para esta ficha.
 > - **Kris R sigue sin contar nada** 24 h después de su concierto (ni en su canal ni en la búsqueda; la prensa aún no tiene crónica).
 > - **Última aplicación de la ventana: la final de la Sudamericana,** que se juega esta noche en Barranquilla. Si Davoo o La Cobra cuentan el día después en primera persona (el viaje, la ciudad, la hinchada), publicar el 22-nov. El partido queda fuera.

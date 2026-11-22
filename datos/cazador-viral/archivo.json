@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-15T23:45:00-05:00",
+  "actualizado": "2026-11-22T12:35:00-05:00",
   "notas": [
     "Patrones retirados de patrones.json. La regla general es archivar tras más de 14 días en 'quemado'; en el ciclo 2 se archivaron antes, por instrucción del orquestador, los temas de actualidad cuya ventana de 24-72 h ya había vencido y que salieron de todas las listas del recolector.",
     "Si alguno vuelve a aparecer (aniversario, nostalgia o noticia nueva), se reabre con el mismo id y se copia aquí su historial.",
@@ -453,6 +453,39 @@
       ],
       "archivado": "2026-11-15",
       "motivo_archivo": "Más de 14 días en quemado (desde el 01-nov) sin revivir como audio de TikTok: su uso era estacional (Halloween) y no vuelve al top 10 de tokchart MX. La canción sigue #1 en Spotify CO (14-nov, 358.202 reproducciones), pero eso es una señal relacionada. Køddy G queda como candidato a similar ('HÁGALO REMIX' con Ryan Castro, 15-nov)."
+    },
+    {
+      "id": "tema-awooween-ryan-castro-campin",
+      "nombre": "Awooween de Ryan Castro en El Campín (31-oct)",
+      "tipo": "tema",
+      "descripcion": "Concierto-fiesta de Halloween de Ryan Castro en El Campín (Bogotá, 31-oct-2026), agotado, con más de 53.000 personas y nueve invitados (Farruko, Hamilton, Ñejo, Reik, Maisak, Tito el Bambino, Aria Vega disfrazada de Feid, Jorge Celedón y Jhonny Rivera).",
+      "plataformas": ["youtube", "tiktok", "instagram"],
+      "regiones": ["CO"],
+      "nichos": ["música urbana: cantantes jóvenes"],
+      "primera_vez_visto": "2026-11-01",
+      "etapa": "quemado",
+      "etapa_por_contexto": { "youtube-co": "quemado", "spotify-co": "saturacion", "tiktok-co": "sin-verificar" },
+      "indice_saturacion": 88,
+      "puntaje_oportunidad": 0,
+      "puntaje_desglose": "quemado = descartado",
+      "ventana_hasta": "2026-11-03",
+      "confianza": "media",
+      "genoma": { "gancho": "Resultado primero: '9 invitados en El Campín' o 'Salió vestida de Feid… y no era Feid' (Aria Vega)", "estructura": "Recorte de momentos, lista de 3 o vlog de 'cómo lo viví'", "emocion": "Euforia, orgullo identitario (Medellín y Bogotá) y FOMO", "payoff": "El momento cumbre: un invitado confirmado, el discurso o el estadio lleno", "formato_tecnico": "Vertical de 30-45 s con voz en off y tomas propias, o recorte horizontal largo", "audio": "La música en vivo tiene derechos: solo de fondo bajo, o reemplazada por música de la biblioteca", "edicion": "Cortes en los picos del público", "arquetipo": "El que estuvo ahí", "participacion": "¿Cuál fue el mejor invitado? Si estuviste, escríbelo", "contexto": "Actualidad, 24-72 h", "perecederos": ["contexto"] },
+      "evidencia": [
+        { "url": "https://www.youtube.com/watch?v=Z1VUghXaEIM", "metrica": "Recorte de fans de 46 min (La Vuelta Reacciones): 12.427 vistas en 12 h, unas 92 veces sus suscriptores (01-nov); se frena a unas 430/h el 02-nov", "tipo": "medido", "mide": "patron", "contexto": "youtube-co", "fecha": "2026-11-02" },
+        { "url": "https://www.youtube.com/watch?v=1LB6fn7sY8E", "metrica": "Vlog nuevo 'Halloween con Ryan Castro (AWOOWEEN)' (PaulitaS, 1.920 suscriptores): 34 vistas en 17,7 h", "tipo": "medido", "mide": "patron", "contexto": "youtube-co", "fecha": "2026-11-03" },
+        { "url": "https://www.youtube.com/watch?v=q3luuLaDxCY", "metrica": "'¿Por qué falló la moto de Ryan Castro en El Campín? Revelamos el chisme de su palco' (Vibra): 4 vistas en 2 h", "tipo": "medido", "mide": "patron", "contexto": "youtube-co", "fecha": "2026-11-03" },
+        { "url": "https://kworb.net/spotify/country/co_daily.html", "metrica": "Spotify CO, sábado 07-nov: 'BRINCAITO' #39, 'LA VILLA' #58 y 'SANKA' #102 (el 01-nov: #54, #24 y #44). El empujón del concierto se acabó", "tipo": "medido", "mide": "senal_relacionada", "contexto": "spotify-co", "fecha": "2026-11-08" },
+        { "url": "https://www.publimetro.co/entretenimiento/2026/11/01/ryan-castro-sorprendio-en-el-campin-con-nueve-invitados-de-lujo-estos-fueron-los-artistas-que-aparecieron-en-awooween/", "metrica": "Crónica del 31-oct en El Campín: nueve invitados. Feid, J Balvin y Maluma solo estaban entre los rumores", "tipo": "medido", "mide": "senal_relacionada", "contexto": "prensa-co", "fecha": "2026-11-02" }
+      ],
+      "historial": [
+        { "fecha": "2026-11-01", "etapa": "emergente", "indice_saturacion": 22, "senal": "Un recorte de fans que sobre-rinde en YouTube y subidas de sus canciones en Spotify CO, más la crónica de prensa." },
+        { "fecha": "2026-11-02", "etapa": "semilla", "indice_saturacion": 15, "senal": "Corrección: se retira la crónica de El Heraldo (concierto de 2024). Solo una réplica que rinde, y se frena." },
+        { "fecha": "2026-11-03", "etapa": "saturacion", "indice_saturacion": 60, "senal": "Más de 72 h y las réplicas nuevas no rinden (34 y 4 vistas); CityTv ya cubre el desmonte. Deja de recomendarse." },
+        { "fecha": "2026-11-08", "etapa": "quemado", "indice_saturacion": 88, "senal": "Ocho días después: las canciones del concierto vuelven a su nivel en Spotify CO ('LA VILLA' del #24 al #58, 'SANKA' del #44 al #102) y Ryan Castro no tiene nada nuevo en 36 h. Se archiva a partir del 22-nov si no revive." }
+      ],
+      "archivado": "2026-11-22",
+      "motivo_archivo": "Más de 14 días en quemado (desde el 08-nov) y sin señales nuevas: Ryan Castro no sube nada sobre el concierto y sus canciones volvieron a su nivel en Spotify Colombia. Se archiva en el ciclo 19, como se anunció en el ciclo 18."
     }
   ]
 }

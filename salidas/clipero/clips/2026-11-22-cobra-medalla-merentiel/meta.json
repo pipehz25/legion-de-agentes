@@ -1,0 +1,30 @@
+{
+    "id":  "2026-11-22-cobra-medalla-merentiel",
+    "url_fuente":  "https://www.youtube.com/watch?v=5St0GQXddug",
+    "video_id":  "5St0GQXddug",
+    "inicio":  1157.65,
+    "fin":  1176.26,
+    "inicio_hms":  "0:19:17",
+    "duracion_seg":  18.6,
+    "gancho":  "Lo que le prestó Merentiel a La Cobra",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  85,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "color":  "",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -17.94,
+                  "entrada_tp":  -5.07,
+                  "salida_lufs":  -14.03,
+                  "salida_tp":  -1.13
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-22-cobra-medalla-merentiel/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-22-cobra-medalla-merentiel/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-22-cobra-medalla-merentiel/revision.jpg",
+    "creado":  "2026-11-22T13:10:45.4906472-05:00"
+}

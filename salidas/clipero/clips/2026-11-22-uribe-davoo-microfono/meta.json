@@ -1,0 +1,30 @@
+{
+    "id":  "2026-11-22-uribe-davoo-microfono",
+    "url_fuente":  "https://www.youtube.com/watch?v=40gAwbuwZac",
+    "video_id":  "40gAwbuwZac",
+    "inicio":  1045.21,
+    "fin":  1082.62,
+    "inicio_hms":  "0:17:25",
+    "duracion_seg":  37.4,
+    "gancho":  "Lo que Davoo le pidió a Roberto Uribe",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  159,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "color":  "",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -17.42,
+                  "entrada_tp":  -5.3,
+                  "salida_lufs":  -13.96,
+                  "salida_tp":  -1.91
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-22-uribe-davoo-microfono/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-22-uribe-davoo-microfono/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-22-uribe-davoo-microfono/revision.jpg",
+    "creado":  "2026-11-22T13:00:32.2956209-05:00"
+}

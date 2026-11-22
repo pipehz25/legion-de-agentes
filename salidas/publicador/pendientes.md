@@ -1,66 +1,74 @@
 # Pendientes del Publicador
 
-Generado: 2026-11-21T22:03:27-05:00 · ciclo 16 · entrada: `salidas/clipero/clips.json` (ciclo 20 del Clipero, generado el 2026-11-21 a las 21:45): 2 clips nuevos de risas.
+Generado: 2026-11-22T13:39:07-05:00 · ciclo 17 · entrada: `salidas/clipero/clips.json` (ciclo 21 del Clipero, generado el 2026-11-22 a las 13:30): 7 clips nuevos (6 urbanos y 1 de risas).
 
 **Cómo leer esta página**
 
-- **TikTok, hoy:** 4 borradores nuevos en la bandeja. No son públicos hasta que los publicas desde la app. La API solo manda el video: al publicar cada uno, **pega el texto de TikTok** de su sección.
-  - **`principal` (Legión Urbana), 11:47:** `ganga-hit-cuatro-horas`. La ficha sugiere publicarlo hoy o mañana a las 19:00.
-  - **`risas` (@legion.risas), 21:24-21:25:** `renona-checo-dinosaurios` y `olga-agua-mostaza` (su ventana acaba hoy: publícalos esta noche si te sirven) y `juanpis-pestilencia-juicio-tv` (hasta el 22-nov). TikTok los aceptó sin `spam_risk_too_many_pending_share`.
-- **No llegaron a la bandeja.** La subida se cortó por la red; no es un bloqueo de TikTok. Desde las 21:25, la conexión no pasa de unos 30-45 KB/s de subida, aunque el Clipero ya no esté descargando.
-  - **`risas`: `roy-barreras-neruda` falló dos veces** (21:30 y 21:58). Ya no le quedan intentos. Si lo quieres en la bandeja, vuelve a aprobarlo antes del 23-nov: `/publicador aprobar 2026-11-21-roy-barreras-neruda:tiktok`.
-  - **`principal`: `lonche-hormigas-culonas` falló una vez** (21:41). No se volvió a intentar esta noche porque a esta velocidad habría gastado su último intento. Va el 22-nov (vence el 23-nov). La ficha lo pone el 22-nov a las 19:00, un día después de `ganga-hit-cuatro-horas`.
-- **22-nov, `risas`:** `nsn-robot-guardaespaldas` y `quevedo-policia-foto` (nuevos), `cotorrisa-firma-tianguis` y `drunk-casting-tigo`. Todos vencen el 24-nov. Si vuelves a aprobar `roy-barreras-neruda`, entra primero y `drunk-casting-tigo` pasa al 23-nov.
-- Si TikTok responde `spam_risk_too_many_pending_share`, se para esa cuenta y lo demás pasa al día siguiente.
-- **`culpa-mama-carrazo` venció en TikTok** (ventana hasta el 20-nov, sin aprobación expresa). Si lo quieres igualmente: `/publicador aprobar 2026-11-17-culpa-mama-carrazo:tiktok`.
+- **TikTok, hoy (13:34-13:37): 6 borradores nuevos en la bandeja.** No son públicos hasta que los publicas desde la app. La API solo manda el video: al publicar cada uno, **pega el texto de TikTok** de su sección.
+  - **`principal` (Legión Urbana), 4 de 4:** `lonche-hormigas-culonas` (llegó al segundo intento; la ficha lo pone hoy a las 19:00) y tres de la final de la Sudamericana: `cobra-prediccion-final` (ficha: hoy hacia las 19:00), `uribe-davoo-microfono` (23-nov hacia las 12:00) y `cobra-gracias-colombia` (24-nov hacia las 12:00). Ninguno muestra imágenes del partido.
+  - **`risas` (@legion.risas), 2:** `quevedo-policia-foto` y `nsn-robot-guardaespaldas`. Con los 3 de anoche, la cuenta ya tiene 5 borradores en 24 h, el tope de TikTok.
+- **La red ya va bien.** La prueba con el clip más pequeño de la cola (6 MB) subió en 9 s, y `lonche-hormigas-culonas` (27,5 MB) en 23 s. Anoche la subida no pasaba de 30-45 KB/s.
+- **En cola en TikTok:**
+  - **`risas`, esta noche después de las 21:26 (o el 23-nov):** `cotorrisa-firma-tianguis` y `drunk-casting-tigo` (vencen el 24-nov). El 23-nov, `francupido-bombera-carga` (nuevo; vence el 25-nov).
+  - **`principal`, 23-nov después de las 13:37:** `davoo-otros-29-equipos`, `cobra-medalla-merentiel` y `ganga-piedra-penol` (nuevos; vencen el 24-nov). Antes de esa hora solo cabe uno, porque los 4 de hoy siguen dentro de la ventana de 24 h.
+  - Si TikTok responde `spam_risk_too_many_pending_share`, se para esa cuenta y lo demás pasa al día siguiente.
+- **`roy-barreras-neruda` no está en la bandeja:** anoche se cortaron por la red sus dos subidas y ya no le quedan intentos. Si lo quieres, vuelve a aprobarlo antes de que acabe el 23-nov: `/publicador aprobar 2026-11-21-roy-barreras-neruda:tiktok`.
 - **Caso Herrera** (pasa a lo legal; Cazador Urbano, 17-nov). Nada se reabre:
   - **`westcol-disculpa-pelea-jh` está en la bandeja de Legión Urbana: no lo publiques.** Descártalo desde la app (la API no puede borrarlo).
   - **`westcol-herrera-no-planeado`:** el envío del 17-nov dio HTTP 500 y no se sabe si llegó. No se reintenta: si está en la bandeja, descártalo.
-- **Bandeja según la API: 59 borradores sin publicar** (31 en `principal` y 28 en `risas`). Los 55 anteriores a hoy tienen la ventana cerrada (tabla al final del resumen). **Publica o descarta** desde la app los que ya no quieras: así TikTok acepta mejor los siguientes.
+- **Bandeja según la API: 65 borradores sin publicar** (35 en `principal` y 30 en `risas`). 56 tienen la ventana cerrada (tabla al final del resumen). **Publica o descarta** desde la app los que ya no quieras: así TikTok acepta mejor los siguientes.
 - **Instagram y YouTube:** pendientes de aprobación. Siguen sin activar y sin credenciales: aprobar ahora solo deja el envío listo.
   - **YouTube lleva un canal por línea:** los urbanos van a `principal` (Legión Urbana) y los de risas a `risas` (Legión de Risas, apagado hasta que lo autorices).
   - **En YouTube lo aprobado sale público** al subirse (`youtube.privacidad: public`; Google ya no deja privado lo que suben los proyectos sin auditar).
   - En Instagram, los urbanos van a `principal` y los de risas a la cuenta `risas` (apagada), nunca a la urbana.
-  - Las 4 de `renona-checo-dinosaurios` y `olga-agua-mostaza` vencen al acabar el día.
+  - Vencieron las 4 de `renona-checo-dinosaurios` y `olga-agua-mostaza` (ventana hasta el 21-nov). Las 2 de `juanpis-pestilencia-juicio-tv` vencen al acabar el día.
 - **Clips subidos a mano** (`legion/03-publicador/subidos-a-mano.json`): no aparecen aquí.
 - **Derechos:** todos los clips de esta página son `sin_verificar`: contenido de terceros sin permiso confirmado. Solo se publica con aprobación expresa (en TikTok, tu publicación desde la bandeja) y siempre con el crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
 - **Revisar antes de publicar** (el detalle de cada clip está en su sección):
   - **En la bandeja desde hoy:**
-    - `ganga-hit-cuatro-horas`: los textos no nombran a nadie de La Ganga (la imagen no deja asegurar quién es quién). El «200.000» es broma: no lo pongas como cifra real.
-    - `renona-checo-dinosaurios`: velo antes. El remate lo dice Franco imitando a Checo según los comentarios, pero el plano general no lo muestra de cerca; si no fuera Franco, no lo publiques con este texto.
-    - `juanpis-pestilencia-juicio-tv`: cuenta la historia Dilson Díaz (el invitado), no Juanpis. El «juicio» es un programa de televisión actuado.
-    - `olga-agua-mostaza`: no nombra a quien cuenta, porque la imagen no lo identifica.
-  - **En cola:**
-    - `roy-barreras-neruda` (humor político): **es Roy Barreras en persona**, riéndose de su propia derrota; no es un imitador. Escucha la palabra con la que arranca el poema (los subtítulos dicen «Eco»). Al publicar no añadas opiniones, consignas, etiquetas de partido ni la promoción de su libro.
     - `lonche-hormigas-culonas`: ruido de calle y varias voces; no se nombra a quien da el veredicto ni al vendedor.
-    - `drunk-casting-tigo`: no se dice quién soltó «a alguien van a echar»; los textos aclaran que a Iván Marín no lo echaron. Audio algo más bajo que el resto.
+    - `cobra-prediccion-final`: nada especial. Que Boca ganó lo dice el texto, no el clip.
+    - `uribe-davoo-microfono`: «se lo prestar el vale» sale tal como lo transcribió YouTube. Ruido de estadio.
+    - `cobra-gracias-colombia`: en tres cuadros el propio video pone una foto fija del plantel con la copa (no son imágenes de la transmisión). Si prefieres al creador solo, pide al Clipero el corte con `-Modo recorte`.
+    - `quevedo-policia-foto`: **escúchalo antes**. Hay una palabra como «(…)» en 0:10-0:12, y en el último segundo entra el arranque de otra frase («Si que lo migajero…»).
+    - `nsn-robot-guardaespaldas`: nada especial (insulto censurado en la fuente).
+  - **En cola:**
+    - `francupido-bombera-carga` (nuevo): el momento es visual y en plano general; unos 40 s sin palabras. Los textos no nombran a la soltera (sube del público) ni se burlan de ella.
+    - `davoo-otros-29-equipos` (nuevo): escucha 23:52-23:55 de la fuente (dos palabras van como «(…)»).
+    - `cobra-medalla-merentiel` (nuevo): nada especial; es el relato de La Cobra (Merentiel solo sale en una foto pequeña).
+    - `ganga-piedra-penol` (nuevo): varias voces y ruido, dos tramos como «(…)» e insultos censurados; no se nombra a quien habla. Sepáralo de los clips de la final.
     - `cotorrisa-firma-tianguis`: nada especial (insultos censurados en la fuente).
-    - `nsn-robot-guardaespaldas` (nuevo): nada especial (insulto censurado en la fuente).
-    - `quevedo-policia-foto` (nuevo): **escúchalo antes**. Hay una palabra como «(…)» en 0:10-0:12, y en el último segundo entra el arranque de otra frase («Si que lo migajero…»).
+    - `drunk-casting-tigo`: no se dice quién soltó «a alguien van a echar»; los textos aclaran que a Iván Marín no lo echaron. Audio algo más bajo que el resto.
+    - `roy-barreras-neruda` (humor político, sin intentos): **es Roy Barreras en persona**, riéndose de su propia derrota; no es un imitador. Escucha la palabra con la que arranca el poema (los subtítulos dicen «Eco»). Al publicar no añadas opiniones, consignas, etiquetas de partido ni la promoción de su libro.
 
 ## Resumen
 
-Línea **urbano**: 2 clips.
+Línea **urbano**: 8 clips.
 
 | # | Clip | Puntaje | Ventana hasta | TikTok (principal) | Instagram (principal) | YouTube (principal) |
 |---|---|---|---|---|---|---|
-| 4 | `2026-11-21-ganga-hit-cuatro-horas` | 75 | 2026-11-23 | en la bandeja desde 2026-11-21 11:47 (borrador), **enviado hoy** | pendiente de aprobación | pendiente de aprobación |
-| 6 | `2026-11-21-lonche-hormigas-culonas` | 74 | 2026-11-23 | **no llegó** (21-nov 21:30-21:41: la subida se cortó por la red); en cola para el 22-nov (intento 2 de 2) | pendiente de aprobación | pendiente de aprobación |
+| 2 | `2026-11-21-ganga-hit-cuatro-horas` | 75 | 2026-11-23 | en la bandeja desde 2026-11-21 11:47 (borrador) | pendiente de aprobación | pendiente de aprobación |
+| 3 | `2026-11-21-lonche-hormigas-culonas` | 74 | 2026-11-23 | en la bandeja desde 2026-11-22 13:35 (borrador), **enviado hoy** | pendiente de aprobación | pendiente de aprobación |
+| 6 | `2026-11-22-cobra-prediccion-final` | 78 | 2026-11-24 | en la bandeja desde 2026-11-22 13:36 (borrador), **enviado hoy** | pendiente de aprobación | pendiente de aprobación |
+| 10 | `2026-11-22-uribe-davoo-microfono` | 73 | 2026-11-24 | en la bandeja desde 2026-11-22 13:36 (borrador), **enviado hoy** | pendiente de aprobación | pendiente de aprobación |
+| 11 | `2026-11-22-cobra-gracias-colombia` | 72 | 2026-11-24 | en la bandeja desde 2026-11-22 13:36 (borrador), **enviado hoy** | pendiente de aprobación | pendiente de aprobación |
+| 12 | `2026-11-22-cobra-medalla-merentiel` | 71 | 2026-11-24 | aprobado automáticamente; en cola (previsto 23-nov, después de las 13:37), **nuevo** | pendiente de aprobación | pendiente de aprobación |
+| 13 | `2026-11-22-davoo-otros-29-equipos` | 71 | 2026-11-24 | aprobado automáticamente; en cola (previsto 23-nov, después de las 13:37), **nuevo** | pendiente de aprobación | pendiente de aprobación |
+| 14 | `2026-11-22-ganga-piedra-penol` | 70 | 2026-11-24 | aprobado automáticamente; en cola (previsto 23-nov, después de las 13:37), **nuevo** | pendiente de aprobación | pendiente de aprobación |
 
-Línea **risas**: 8 clips.
+Línea **risas**: 7 clips.
 
 | # | Clip | Puntaje | Ventana hasta | TikTok (risas) | Instagram (risas) | YouTube (risas) |
 |---|---|---|---|---|---|---|
-| 1 | `2026-11-17-renona-checo-dinosaurios` | 74 | 2026-11-21 | en la bandeja desde 2026-11-21 21:24 (borrador), **enviado hoy** | pendiente de aprobación (cuenta apagada) | pendiente de aprobación (cuenta apagada) |
-| 2 | `2026-11-17-olga-agua-mostaza` | 73 | 2026-11-21 | en la bandeja desde 2026-11-21 21:24 (borrador), **enviado hoy** | pendiente de aprobación (cuenta apagada) | pendiente de aprobación (cuenta apagada) |
-| 3 | `2026-11-18-juanpis-pestilencia-juicio-tv` | 74 | 2026-11-22 | en la bandeja desde 2026-11-21 21:25 (borrador), **enviado hoy** | pendiente de aprobación (cuenta apagada) | pendiente de aprobación (cuenta apagada) |
-| 5 | `2026-11-21-roy-barreras-neruda` | 74 | 2026-11-23 | **no llegó**: dos subidas cortadas por la red (21-nov 21:30 y 21:58); sin intentos. Para reenviarlo: `/publicador aprobar 2026-11-21-roy-barreras-neruda:tiktok` | pendiente de aprobación (cuenta apagada) | pendiente de aprobación (cuenta apagada) |
-| 7 | `2026-11-21-cotorrisa-firma-tianguis` | 76 | 2026-11-24 | aprobado automáticamente; en cola (previsto 22-nov) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación (cuenta apagada) |
-| 8 | `2026-11-21-drunk-casting-tigo` | 73 | 2026-11-24 | aprobado automáticamente; en cola (previsto 22-nov) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación (cuenta apagada) |
-| 9 | `2026-11-21-nsn-robot-guardaespaldas` | 80 | 2026-11-24 | aprobado automáticamente; en cola (previsto 22-nov), **nuevo** | pendiente de aprobación (cuenta apagada) | pendiente de aprobación (cuenta apagada) |
-| 10 | `2026-11-21-quevedo-policia-foto` | 77 | 2026-11-24 | aprobado automáticamente; en cola (previsto 22-nov), **nuevo**; escucharlo antes | pendiente de aprobación (cuenta apagada) | pendiente de aprobación (cuenta apagada) |
+| 1 | `2026-11-18-juanpis-pestilencia-juicio-tv` | 74 | 2026-11-22 | en la bandeja desde 2026-11-21 21:25 (borrador) | pendiente de aprobación (cuenta apagada); vence al acabar el día | pendiente de aprobación (cuenta apagada); vence al acabar el día |
+| 4 | `2026-11-21-roy-barreras-neruda` | 74 | 2026-11-23 | **no llegó**: dos subidas cortadas por la red (21-nov 21:30 y 21:58); sin intentos. Para reenviarlo: `/publicador aprobar 2026-11-21-roy-barreras-neruda:tiktok` | pendiente de aprobación (cuenta apagada) | pendiente de aprobación (cuenta apagada) |
+| 5 | `2026-11-21-nsn-robot-guardaespaldas` | 80 | 2026-11-24 | en la bandeja desde 2026-11-22 13:35 (borrador), **enviado hoy** | pendiente de aprobación (cuenta apagada) | pendiente de aprobación (cuenta apagada) |
+| 7 | `2026-11-21-quevedo-policia-foto` | 77 | 2026-11-24 | en la bandeja desde 2026-11-22 13:34 (borrador), **enviado hoy** | pendiente de aprobación (cuenta apagada) | pendiente de aprobación (cuenta apagada) |
+| 8 | `2026-11-21-cotorrisa-firma-tianguis` | 76 | 2026-11-24 | aprobado automáticamente; en cola (previsto esta noche después de las 21:26 o el 23-nov) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación (cuenta apagada) |
+| 9 | `2026-11-21-drunk-casting-tigo` | 73 | 2026-11-24 | aprobado automáticamente; en cola (previsto esta noche después de las 21:26 o el 23-nov) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación (cuenta apagada) |
+| 15 | `2026-11-22-francupido-bombera-carga` | 79 | 2026-11-25 | aprobado automáticamente; en cola (previsto 23-nov), **nuevo** | pendiente de aprobación (cuenta apagada) | pendiente de aprobación (cuenta apagada) |
 
-**Borradores con la ventana cerrada** (54; siguen en la bandeja de TikTok según la API; publícalos solo si aún te sirven, si no, descártalos desde la app para liberar sitio). El texto de cada uno está en su archivo de envío.
+**Borradores con la ventana cerrada** (56; siguen en la bandeja de TikTok según la API; publícalos solo si aún te sirven, si no, descártalos desde la app para liberar sitio). El texto de cada uno está en su archivo de envío.
 
 | Clip | Cuenta | En la bandeja desde | Ventana hasta | Texto |
 |---|---|---|---|---|
@@ -118,6 +126,8 @@ Línea **risas**: 8 clips.
 | `2026-11-18-ganga-bienvenida-piscina` | principal | 2026-11-20 21:16 | 2026-11-20 | [envío](../../datos/publicador/envios/2026-11-18-ganga-bienvenida-piscina__tiktok.json) |
 | `2026-11-18-luciernaga-imitadores-iva` | risas | 2026-11-20 21:16 | 2026-11-20 | [envío](../../datos/publicador/envios/2026-11-18-luciernaga-imitadores-iva__tiktok.json) |
 | `2026-11-17-westcol-show-kris-r` | principal | 2026-11-20 21:16 | 2026-11-20 | [envío](../../datos/publicador/envios/2026-11-17-westcol-show-kris-r__tiktok.json) |
+| `2026-11-17-renona-checo-dinosaurios` | risas | 2026-11-21 21:24 | 2026-11-21 | [envío](../../datos/publicador/envios/2026-11-17-renona-checo-dinosaurios__tiktok.json) |
+| `2026-11-17-olga-agua-mostaza` | risas | 2026-11-21 21:24 | 2026-11-21 | [envío](../../datos/publicador/envios/2026-11-17-olga-agua-mostaza__tiktok.json) |
 
 **Borradores que no conviene publicar** (caso Herrera; descártalos desde la app):
 
@@ -126,107 +136,8 @@ Línea **risas**: 8 clips.
 | `2026-11-17-westcol-disculpa-pelea-jh` | principal | 2026-11-17 16:59 | [envío](../../datos/publicador/envios/2026-11-17-westcol-disculpa-pelea-jh__tiktok.json) |
 | `2026-11-17-westcol-herrera-no-planeado` | principal | no se sabe si llegó (HTTP 500 el 2026-11-17 16:57) | [envío](../../datos/publicador/envios/2026-11-17-westcol-herrera-no-planeado__tiktok.json) |
 
-## 1. `2026-11-17-renona-checo-dinosaurios`
 
-- **Gancho:** Franco responde por Checo… y se pasa
-- **Puntaje:** 74 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-21 · **Línea:** risas · **Pieza:** original (sin variantes)
-- **Video:** [clip.mp4](../clipero/clips/2026-11-17-renona-checo-dinosaurios/clip.mp4) (54,4 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-17-renona-checo-dinosaurios/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=DpE-D9sdE9M
-- **Revisar antes de publicar:** Velo antes de publicar: el remate lo dice Franco imitando la voz de Checo según los comentarios del video y la propia mesa, pero el plano general no lo muestra de cerca. Si no fuera Franco, no lo publiques con este texto (el gancho del video también lo dice). Lenguaje fuerte («pendejada»). Los carteles de la gira de Franco en la mesa son del propio canal. Se corta antes de la réplica grosera de Checo.
-
-### TikTok · cuenta `risas` (@legion.risas) · en la bandeja desde 2026-11-21 21:24 (borrador): pega este texto al publicarlo
-
-```
-Le preguntan a Checo por sus locuras de joven y Franco contesta por él 🦖😂
-
-“Le picábamos los huevos a los dinosaurios y nos echábamos a correr”. Risa general en La Mesa Reñoña.
-
-¿Cuál fue la locura más grande que hiciste de joven?
-
-Crédito: La Mesa Reñoña, de Franco Escamilla (YouTube), “La Mesa Reñoña 524.- 007 mexicano / Ovnis/ Pterodáctilo”. Video original (minuto 1:37:37): https://youtu.be/DpE-D9sdE9M?t=5857
-
-#FrancoEscamilla #LaMesaReñoña #ChecoMejorado #Comedia
-```
-
-### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
-
-```
-“Le picábamos los huevos a los dinosaurios” 🦖😂
-
-En La Mesa Reñoña 524 hablan de las locuras que hacían de jóvenes. Cuando le toca a Checo Mejorado, Franco Escamilla contesta por él, imitando su voz.
-
-¿Cuál fue la locura más grande que hiciste de joven?
-
-Crédito: La Mesa Reñoña, de Franco Escamilla (YouTube), “La Mesa Reñoña 524.- 007 mexicano / Ovnis/ Pterodáctilo”. Video original (minuto 1:37:37): https://youtu.be/DpE-D9sdE9M?t=5857
-
-#FrancoEscamilla #LaMesaReñoña #ChecoMejorado #Comedia
-```
-
-### YouTube · cuenta `risas` (canal de la Legión de Risas) · pendiente de aprobación (cuenta apagada)
-
-**Título:** Franco Escamilla se pasa con Checo Mejorado en La Mesa Reñoña
-
-```
-En La Mesa Reñoña 524 hablan de las locuras que hacían de jóvenes. Cuando le toca a Checo Mejorado, Franco Escamilla contesta por él… y se pasa.
-
-Crédito: La Mesa Reñoña, de Franco Escamilla (YouTube), “La Mesa Reñoña 524.- 007 mexicano / Ovnis/ Pterodáctilo”. Video original (minuto 1:37:37): https://youtu.be/DpE-D9sdE9M?t=5857
-
-#FrancoEscamilla #LaMesaReñoña #ChecoMejorado #Comedia
-```
-
-**Etiquetas:** Franco Escamilla, La Mesa Reñoña, Checo Mejorado, Regalito, comedia mexicana, dinosaurios, podcast, humor
-
-
-## 2. `2026-11-17-olga-agua-mostaza`
-
-- **Gancho:** Su amigo era adicto a algo asqueroso
-- **Puntaje:** 73 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-21 · **Línea:** risas · **Pieza:** original (sin variantes)
-- **Video:** [clip.mp4](../clipero/clips/2026-11-17-olga-agua-mostaza/clip.mp4) (42,2 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-17-olga-agua-mostaza/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=a5BUB-t-bHM
-- **Revisar antes de publicar:** Humor asqueroso, sin nadie atacado (el amigo no se nombra). Quien cuenta no se identifica con seguridad: los textos no lo nombran. El letrero de Coca-Cola es del decorado del estudio, no un rótulo añadido. Lenguaje: «boludo».
-
-### TikTok · cuenta `risas` (@legion.risas) · en la bandeja desde 2026-11-21 21:24 (borrador): pega este texto al publicarlo
-
-```
-Su amigo era adicto… a la agüita de la mostaza 🤢😂
-
-Iba a tu casa, abría la heladera, sacudía el pomo y se tomaba el primer chorrito. La mesa de Soñé que Volaba: “me descompongo”.
-
-¿Conoces a alguien que haga esto? Etiquétalo
-
-Crédito: Soñé que Volaba, de OLGA (YouTube), “COMBINAR COMIDAS RARAS y NO MORIR en el INTENTO | #SoñéQueVolaba 17/11”. Video original (minuto 39:55): https://youtu.be/a5BUB-t-bHM?t=2395
-
-#SoñéQueVolaba #OLGA #Comedia #Mostaza
-```
-
-### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
-
-```
-“Era adicto a la agüita que sale antes de la mostaza” 🤢
-
-En Soñé que Volaba (OLGA) hablaban de combinaciones de comida rarísimas, hasta que uno de los conductores contó la adicción más asquerosa de un amigo. La mesa: “me descompongo”.
-
-¿Conoces a alguien que haga esto? Etiquétalo
-
-Crédito: Soñé que Volaba, de OLGA (YouTube), “COMBINAR COMIDAS RARAS y NO MORIR en el INTENTO | #SoñéQueVolaba 17/11”. Video original (minuto 39:55): https://youtu.be/a5BUB-t-bHM?t=2395
-
-#SoñéQueVolaba #OLGA #Comedia #Mostaza
-```
-
-### YouTube · cuenta `risas` (canal de la Legión de Risas) · pendiente de aprobación (cuenta apagada)
-
-**Título:** Soñé que Volaba: el amigo adicto al agua de la mostaza
-
-```
-En Soñé que Volaba (OLGA) hablaban de combinaciones de comida rarísimas, hasta que uno de los conductores contó la adicción más asquerosa de un amigo: la agüita que sale antes de la mostaza.
-
-Crédito: Soñé que Volaba, de OLGA (YouTube), “COMBINAR COMIDAS RARAS y NO MORIR en el INTENTO | #SoñéQueVolaba 17/11”. Video original (minuto 39:55): https://youtu.be/a5BUB-t-bHM?t=2395
-
-#SoñéQueVolaba #OLGA #Comedia #Mostaza
-```
-
-**Etiquetas:** Soñé que Volaba, OLGA, Migue Granados, comedia argentina, mostaza, comidas raras, streaming, humor
-
-
-## 3. `2026-11-18-juanpis-pestilencia-juicio-tv`
+## 1. `2026-11-18-juanpis-pestilencia-juicio-tv`
 
 - **Gancho:** La Pestilencia actuó en un juicio de TV
 - **Puntaje:** 74 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-22 · **Línea:** risas · **Pieza:** original (sin variantes)
@@ -247,7 +158,7 @@ Crédito: The Juanpis Live Show, canal Juanpis González (YouTube), “¿Me volv
 #JuanpisGonzalez #LaPestilencia #DilsonDiaz #HumorColombiano #Rock
 ```
 
-### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
+### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada); vence al acabar el día
 
 ```
 “¿Por qué está con un juez?”: la llamada que recibió Dilson Díaz de La Pestilencia 😂
@@ -261,7 +172,7 @@ Crédito: The Juanpis Live Show, canal Juanpis González (YouTube), “¿Me volv
 #JuanpisGonzalez #LaPestilencia #DilsonDiaz #HumorColombiano #Rock
 ```
 
-### YouTube · cuenta `risas` (canal de la Legión de Risas) · pendiente de aprobación (cuenta apagada)
+### YouTube · cuenta `risas` (canal de la Legión de Risas) · pendiente de aprobación (cuenta apagada); vence al acabar el día
 
 **Título:** La Pestilencia y el juicio de TV que les pagó 4 meses de arriendo
 
@@ -276,14 +187,14 @@ Crédito: The Juanpis Live Show, canal Juanpis González (YouTube), “¿Me volv
 **Etiquetas:** La Pestilencia, Dilson Díaz, Juanpis González, The Juanpis Live Show, Alejandro Riaño, humor colombiano, anécdotas, rock colombiano
 
 
-## 4. `2026-11-21-ganga-hit-cuatro-horas`
+## 2. `2026-11-21-ganga-hit-cuatro-horas`
 
 - **Gancho:** La Ganga pide un hit mundial en 4 horas
 - **Puntaje:** 75 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-23 · **Línea:** urbano · **Pieza:** original (sin variantes)
 - **Video:** [clip.mp4](../clipero/clips/2026-11-21-ganga-hit-cuatro-horas/clip.mp4) (44,2 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-21-ganga-hit-cuatro-horas/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=AYFdSyu_Lfo
 - **Revisar antes de publicar:** Los textos no nombran a nadie: en la imagen no se puede asegurar quién es quién de La Ganga. Se quitaron #Westcol y #Lonche de los hashtags de la ficha porque no se confirma que salgan. No se cita el «200.000» (es broma y no dice de qué moneda).
 
-### TikTok · cuenta `principal` (Legión Urbana) · en la bandeja desde 2026-11-21 11:47 (borrador), **enviado hoy**
+### TikTok · cuenta `principal` (Legión Urbana) · en la bandeja desde 2026-11-21 11:47 (borrador): pega este texto al publicarlo
 
 ```
 La Ganga le pide al productor un hit mundial… para dentro de 4 horas 😂
@@ -326,64 +237,14 @@ Crédito: Samulx (YouTube), «HABLANDO DEL PROYECTO DE LA GANGA ¿QUE PASO ANTIE
 **Etiquetas:** La Ganga, Samulx, 72 horas, streamers, canción oficial, nota de voz, Medellín, directo
 
 
-## 5. `2026-11-21-roy-barreras-neruda`
-
-- **Gancho:** Roy Barreras le cambia la letra a Neruda
-- **Puntaje:** 74 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-23 · **Línea:** risas · **Pieza:** original (sin variantes)
-- **Video:** [clip.mp4](../clipero/clips/2026-11-21-roy-barreras-neruda/clip.mp4) (50,4 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-21-roy-barreras-neruda/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=qo3BPfZ6vZI
-- **Revisar antes de publicar:** Humor político (legion/04-cazador-risas/enfoque.md): centroizquierda: Roy Barreras en persona (progresismo, exaliado de Petro; en el programa se define liberal socialdemócrata, de centro); autoburla sobre la presidencia que no consiguió, no es un imitador. Escúchalo antes de publicar: la palabra con la que arranca el poema sale como «Eco» en los subtítulos. Música de piano del propio programa. Es Roy Barreras en persona (autoburla), no un imitador. Al publicar: sin opiniones, consignas, etiquetas de partido ni la promoción de su libro. Los textos no citan «al progresismo le faltó muy poquito» ni copian el título del programa (habla de un caso judicial).
-
-### TikTok · cuenta `risas` (@legion.risas) · no llegó a la bandeja (21-nov 21:30 y 21:58, subidas cortadas por la red); sin intentos: `/publicador aprobar 2026-11-21-roy-barreras-neruda:tiktok` para reenviarlo
-
-```
-Roy Barreras le cambia la letra al Poema 20 de Neruda 😂
-
-En La Luciérnaga (Caracol Radio), Roy Barreras se ríe de su propia campaña con una parodia del poema: «Puedo escribir los versos más tristes esta noche… Yo quise la presidencia». Es él mismo, no un imitador.
-
-¿A qué otro poema le cambiarías la letra?
-
-Crédito: La Luciérnaga, Caracol Radio (YouTube), sección «Sin anestesia» del 19 de noviembre. Video original (minuto 2:37:48): https://youtu.be/qo3BPfZ6vZI?t=9468
-
-#LaLuciérnaga #CaracolRadio #RoyBarreras #Neruda #HumorColombiano
-```
-
-### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
-
-```
-«Yo quise la presidencia…»: la parodia de Neruda de Roy Barreras 😂
-
-En La Luciérnaga (Caracol Radio), Roy Barreras se ríe de su propia campaña presidencial con una parodia del Poema 20 de Pablo Neruda. Es él mismo, en el estudio, no un imitador.
-
-¿A qué otro poema le cambiarías la letra?
-
-Crédito: La Luciérnaga, Caracol Radio (YouTube), sección «Sin anestesia» del 19 de noviembre. Video original (minuto 2:37:48): https://youtu.be/qo3BPfZ6vZI?t=9468
-
-#LaLuciérnaga #CaracolRadio #RoyBarreras #Neruda #HumorColombiano
-```
-
-### YouTube · cuenta `risas` (canal de la Legión de Risas) · pendiente de aprobación (cuenta apagada)
-
-**Título:** Roy Barreras parodia a Neruda en La Luciérnaga
-
-```
-En la sección «Sin anestesia» de La Luciérnaga (Caracol Radio), Roy Barreras se ríe de su propia campaña presidencial con una parodia del Poema 20 de Pablo Neruda: «Puedo escribir los versos más tristes esta noche… Yo quise la presidencia». Es él mismo, no un imitador.
-
-Crédito: La Luciérnaga, Caracol Radio (YouTube), emisión del 19 de noviembre. Video original (minuto 2:37:48): https://youtu.be/qo3BPfZ6vZI?t=9468
-
-#LaLuciérnaga #CaracolRadio #RoyBarreras #Neruda
-```
-
-**Etiquetas:** Roy Barreras, La Luciérnaga, Caracol Radio, Sin anestesia, Pablo Neruda, Poema 20, parodia, humor colombiano
-
-
-## 6. `2026-11-21-lonche-hormigas-culonas`
+## 3. `2026-11-21-lonche-hormigas-culonas`
 
 - **Gancho:** Mexicanos prueban hormigas culonas en Provenza
 - **Puntaje:** 74 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-23 · **Línea:** urbano · **Pieza:** original (sin variantes)
 - **Video:** [clip.mp4](../clipero/clips/2026-11-21-lonche-hormigas-culonas/clip.mp4) (50,6 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-21-lonche-hormigas-culonas/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=CGICIcJ8lCY
 - **Revisar antes de publicar:** Ruido de calle y varias voces a la vez; una palabra queda como «(…)». No se nombra a quien da el veredicto (no se puede asegurar en imagen). El vendedor sale en plano: no se le nombra. Se ven vasos de granizado; en el tramo no se habla de alcohol. Publícalo un día después de ganga-hit-cuatro-horas (ficha: 22-nov a las 19:00).
 
-### TikTok · cuenta `principal` (Legión Urbana) · no llegó a la bandeja (21-nov 21:41, subida cortada por la red); se reintenta el 22-nov (intento 2 de 2). La ficha lo pone el 22-nov a las 19:00
+### TikTok · cuenta `principal` (Legión Urbana) · en la bandeja desde 2026-11-22 13:35 (borrador): pega este texto al publicarlo
 
 ```
 Mexicanos prueban hormigas culonas en Provenza con La Ganga 🐜😂
@@ -426,114 +287,64 @@ Crédito: Lonche Chacas (YouTube), «ASI ES PROVENZA DE NOCHE con LA GANGA en CO
 **Etiquetas:** hormigas culonas, La Ganga, Lonche, Provenza, Medellín, mexicanos en Colombia, comida colombiana, streamers, 72 horas
 
 
-## 7. `2026-11-21-cotorrisa-firma-tianguis`
+## 4. `2026-11-21-roy-barreras-neruda`
 
-- **Gancho:** Su firma, en un tianguis a 50 pesos
-- **Puntaje:** 76 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-24 · **Línea:** risas · **Pieza:** original (sin variantes)
-- **Video:** [clip.mp4](../clipero/clips/2026-11-21-cotorrisa-firma-tianguis/clip.mp4) (74,9 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-21-cotorrisa-firma-tianguis/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=9QTq4B02vaA
-- **Revisar antes de publicar:** Nada especial según la ficha: los insultos van censurados («***»). Dura casi 75 s. El crédito no copia el título del episodio (escatológico); va como «episodio 400».
+- **Gancho:** Roy Barreras le cambia la letra a Neruda
+- **Puntaje:** 74 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-23 · **Línea:** risas · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-21-roy-barreras-neruda/clip.mp4) (50,4 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-21-roy-barreras-neruda/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=qo3BPfZ6vZI
+- **Revisar antes de publicar:** Escúchalo antes de publicar: la palabra con la que arranca el poema sale como «Eco» en los subtítulos. Música de piano del propio programa. Es Roy Barreras en persona (autoburla), no un imitador. Al publicar: sin opiniones, consignas, etiquetas de partido ni la promoción de su libro. Los textos no citan «al progresismo le faltó muy poquito» ni copian el título del programa (habla de un caso judicial).
 
-### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola (previsto 22-nov)
-
-```
-Encontró un vaso firmado por La Cotorrisa en un tianguis… a 50 pesos 😂
-
-Un cotorro les manda la foto del vaso de su gira, con las dos firmas. En La Cotorrisa confirman que son reales y hacen la cuenta: sin firma valía 10… así que su firma vale 40. «Tampoco está tan mal».
-
-¿Cuánto pagarías tú por ese vaso?
-
-Crédito: La Cotorrisa (Slobotzky y Ricardo Pérez), canal Slobotzky (YouTube), episodio 400. Video original (minuto 1:05:50): https://youtu.be/9QTq4B02vaA?t=3950
-
-#LaCotorrisa #Slobotzky #RicardoPerez #Comedia #Tianguis
-```
-
-### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
+### TikTok · cuenta `risas` (@legion.risas) · **no llegó**: dos subidas cortadas por la red (21-nov 21:30 y 21:58); sin intentos. Para reenviarlo: `/publicador aprobar 2026-11-21-roy-barreras-neruda:tiktok`
 
 ```
-«Vale 40 nuestra firma»: La Cotorrisa y el vaso firmado que apareció en un tianguis 😂
+Roy Barreras le cambia la letra al Poema 20 de Neruda 😂
 
-Un cotorro se encontró en un tianguis un vaso de la gira de La Cotorrisa, firmado por los dos, por 50 pesos. Ellos hicieron la cuenta: sin firma valía 10… así que su firma vale 40.
+En La Luciérnaga (Caracol Radio), Roy Barreras se ríe de su propia campaña con una parodia del poema: «Puedo escribir los versos más tristes esta noche… Yo quise la presidencia». Es él mismo, no un imitador.
 
-¿Cuánto pagarías tú por ese vaso?
+¿A qué otro poema le cambiarías la letra?
 
-Crédito: La Cotorrisa (Slobotzky y Ricardo Pérez), canal Slobotzky (YouTube), episodio 400. Video original (minuto 1:05:50): https://youtu.be/9QTq4B02vaA?t=3950
+Crédito: La Luciérnaga, Caracol Radio (YouTube), sección «Sin anestesia» del 19 de noviembre. Video original (minuto 2:37:48): https://youtu.be/qo3BPfZ6vZI?t=9468
 
-#LaCotorrisa #Slobotzky #RicardoPerez #Comedia #Tianguis
-```
-
-### YouTube · cuenta `risas` (canal de la Legión de Risas) · pendiente de aprobación (cuenta apagada)
-
-**Título:** La Cotorrisa descubre cuánto vale su firma en un tianguis
-
-```
-En el episodio 400 de La Cotorrisa, un seguidor les cuenta que encontró en un tianguis un vaso de su gira, firmado por los dos, por 50 pesos. Ellos hacen la cuenta: sin firma valía 10… así que su firma vale 40.
-
-Crédito: La Cotorrisa (Slobotzky y Ricardo Pérez), canal Slobotzky (YouTube), episodio 400. Video original (minuto 1:05:50): https://youtu.be/9QTq4B02vaA?t=3950
-
-#LaCotorrisa #Slobotzky #RicardoPerez #Comedia
-```
-
-**Etiquetas:** La Cotorrisa, Slobotzky, Ricardo Pérez, comedia, podcast de comedia, tianguis, humor mexicano, anécdotas
-
-
-## 8. `2026-11-21-drunk-casting-tigo`
-
-- **Gancho:** El casting de Tigo: 'a alguien van a echar'
-- **Puntaje:** 73 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-24 · **Línea:** risas · **Pieza:** original (sin variantes)
-- **Video:** [clip.mp4](../clipero/clips/2026-11-21-drunk-casting-tigo/clip.mp4) (66,3 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-21-drunk-casting-tigo/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=a_A7VV9qO-U
-- **Revisar antes de publicar:** No se atribuye «a alguien van a echar» a nadie (en el clip no queda claro quién lo dijo). Los textos aclaran que a Iván Marín no lo echaron, como dice la mesa al final. Varios hablan a la vez; audio algo más bajo que el resto (-15,7 LUFS). Hay vasos y botellas en la mesa: los textos no hablan de alcohol ni copian el título del capítulo.
-
-### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola (previsto 22-nov)
-
-```
-El casting de Tigo que cuenta Alejandro Riaño: «a alguien van a echar» 😂
-
-En Drunk Comedy, Riaño cuenta cómo lo llamaron a una segunda prueba del comercial cuando el grupo, Iván Marín incluido, ya llevaba días ensayando. Y no, a Iván no lo echaron.
-
-¿Te ha tocado reemplazar a alguien así?
-
-Crédito: Drunk Comedy (cap. 8), canal Juanpis González (YouTube). Video original (minuto 31:23): https://youtu.be/a_A7VV9qO-U?t=1883
-
-#DrunkComedy #AlejandroRiaño #IvánMarín #RicardoQuevedo #ComediaColombiana
+#LaLuciérnaga #CaracolRadio #RoyBarreras #Neruda #HumorColombiano
 ```
 
 ### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
 
 ```
-«A alguien van a echar»: el casting de Tigo de Alejandro Riaño e Iván Marín 😂
+«Yo quise la presidencia…»: la parodia de Neruda de Roy Barreras 😂
 
-En Drunk Comedy, Riaño cuenta cómo llegó a la segunda prueba del comercial de Tigo cuando los demás, Iván Marín entre ellos, ya llevaban días ensayando. Y no, a Iván no lo echaron.
+En La Luciérnaga (Caracol Radio), Roy Barreras se ríe de su propia campaña presidencial con una parodia del Poema 20 de Pablo Neruda. Es él mismo, en el estudio, no un imitador.
 
-¿Te ha tocado reemplazar a alguien así?
+¿A qué otro poema le cambiarías la letra?
 
-Crédito: Drunk Comedy (cap. 8), canal Juanpis González (YouTube). Video original (minuto 31:23): https://youtu.be/a_A7VV9qO-U?t=1883
+Crédito: La Luciérnaga, Caracol Radio (YouTube), sección «Sin anestesia» del 19 de noviembre. Video original (minuto 2:37:48): https://youtu.be/qo3BPfZ6vZI?t=9468
 
-#DrunkComedy #AlejandroRiaño #IvánMarín #RicardoQuevedo #ComediaColombiana
+#LaLuciérnaga #CaracolRadio #RoyBarreras #Neruda #HumorColombiano
 ```
 
 ### YouTube · cuenta `risas` (canal de la Legión de Risas) · pendiente de aprobación (cuenta apagada)
 
-**Título:** Alejandro Riaño, Iván Marín y el casting de Tigo | Drunk Comedy
+**Título:** Roy Barreras parodia a Neruda en La Luciérnaga
 
 ```
-Alejandro Riaño cuenta en Drunk Comedy cómo llegó a la segunda prueba del comercial de Tigo cuando los demás, Iván Marín entre ellos, ya llevaban días ensayando… y la frase del día fue «a alguien van a echar». Al final, la mesa lo aclara: a Iván no lo echaron.
+En la sección «Sin anestesia» de La Luciérnaga (Caracol Radio), Roy Barreras se ríe de su propia campaña presidencial con una parodia del Poema 20 de Pablo Neruda: «Puedo escribir los versos más tristes esta noche… Yo quise la presidencia». Es él mismo, no un imitador.
 
-Crédito: Drunk Comedy (cap. 8), canal Juanpis González (YouTube). Video original (minuto 31:23): https://youtu.be/a_A7VV9qO-U?t=1883
+Crédito: La Luciérnaga, Caracol Radio (YouTube), emisión del 19 de noviembre. Video original (minuto 2:37:48): https://youtu.be/qo3BPfZ6vZI?t=9468
 
-#DrunkComedy #AlejandroRiaño #IvánMarín #ComediaColombiana
+#LaLuciérnaga #CaracolRadio #RoyBarreras #Neruda
 ```
 
-**Etiquetas:** Drunk Comedy, Alejandro Riaño, Iván Marín, Ricardo Quevedo, Antonio Sanint, Juanpis González, comedia colombiana, anécdotas, casting
+**Etiquetas:** Roy Barreras, La Luciérnaga, Caracol Radio, Sin anestesia, Pablo Neruda, Poema 20, parodia, humor colombiano
 
 
-## 9. `2026-11-21-nsn-robot-guardaespaldas`
+## 5. `2026-11-21-nsn-robot-guardaespaldas`
 
 - **Gancho:** El robot guardaespaldas que asusta a Andreu Buenafuente
 - **Puntaje:** 80 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-24 · **Línea:** risas · **Pieza:** original (sin variantes)
 - **Video:** [clip.mp4](../clipero/clips/2026-11-21-nsn-robot-guardaespaldas/clip.mp4) (55 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-21-nsn-robot-guardaespaldas/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=2D50tEbbKfw
 - **Revisar antes de publicar:** Nada especial según la ficha: el insulto va censurado («***») en la fuente y en los subtítulos, y los textos lo citan así. Habla Andreu Buenafuente (lo confirma la réplica de Berto justo después del corte). El clip empieza en «Un robot guardaespaldas» y no en «yo no vivo tranquilo» (pasaría de 75 s).
 
-### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola (previsto 22-nov, el primero de risas; ficha: a las 20:00)
+### TikTok · cuenta `risas` (@legion.risas) · en la bandeja desde 2026-11-22 13:35 (borrador): pega este texto al publicarlo
 
 ```
 Andreu Buenafuente y el robot guardaespaldas: ¿y si le das la orden contraria? 🤖😂
@@ -576,14 +387,64 @@ Crédito: Nadie Sabe Nada (SER Podcast), de Andreu Buenafuente y Berto Romero, 1
 **Etiquetas:** Nadie Sabe Nada, Andreu Buenafuente, Berto Romero, robot guardaespaldas, robots, Terminator, comedia española, humor, podcast
 
 
-## 10. `2026-11-21-quevedo-policia-foto`
+## 6. `2026-11-22-cobra-prediccion-final`
+
+- **Gancho:** La predicción de La Cobra antes de la final
+- **Puntaje:** 78 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-24 · **Línea:** urbano · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-22-cobra-prediccion-final/clip.mp4) (46,0 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-22-cobra-prediccion-final/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=5St0GQXddug
+- **Revisar antes de publicar:** Nada especial según la ficha. Nada del partido en imagen: todo pasa en la habitación del hotel (el tramo en blanco y negro es montaje del propio video). Que Boca ganó lo dicen los textos, no el clip.
+
+### TikTok · cuenta `principal` (Legión Urbana) · en la bandeja desde 2026-11-22 13:36 (borrador): pega este texto al publicarlo
+
+```
+La Cobra lo dijo la noche antes de la final… y Boca fue campeón 🔮
+
+En «la zona de meditar» de su hotel en Barranquilla, La Cobra se la juega: Boca venía de perder tres finales seguidas, pero «esta vez no». «Háganme caso, muchachos. Va a ganar Boquita».
+
+¿Tú también lo veías venir?
+
+Crédito: LA COBRA (YouTube), «VI A BOCA CAMPEÓN DE LA COPA SUDAMERICANA. VLOG EN COLOMBIA Y CELEBRACIÓN CON JUGADORES!». Video original (minuto 4:54): https://youtu.be/5St0GQXddug?t=294
+
+#LaCobra #Boca #CopaSudamericana #Barranquilla #Streamer
+```
+
+### Instagram · cuenta `principal` · pendiente de aprobación
+
+```
+«Esta vez no»: la predicción de La Cobra la noche antes de la final 🔮
+
+Desde el sillón de su hotel en Barranquilla, La Cobra repasa las tres últimas finales que perdió Boca (2012, 2018 y 2023) y se la juega: «va a ganar Boquita». Al día siguiente, Boca fue campeón de la Copa Sudamericana.
+
+¿Tú también lo veías venir?
+
+Crédito: LA COBRA (YouTube), «VI A BOCA CAMPEÓN DE LA COPA SUDAMERICANA. VLOG EN COLOMBIA Y CELEBRACIÓN CON JUGADORES!». Video original (minuto 4:54): https://youtu.be/5St0GQXddug?t=294
+
+#LaCobra #Boca #CopaSudamericana #Barranquilla #Streamer
+```
+
+### YouTube · cuenta `principal` (canal de la Legión Urbana) · pendiente de aprobación
+
+**Título:** La Cobra predijo la final de la Sudamericana desde el hotel
+
+```
+La noche antes de la final de la Copa Sudamericana en Barranquilla, La Cobra se sienta en el sillón de su hotel y se la juega: Boca venía de perder tres finales seguidas, pero «esta vez no».
+
+Crédito: LA COBRA (YouTube), «VI A BOCA CAMPEÓN DE LA COPA SUDAMERICANA. VLOG EN COLOMBIA Y CELEBRACIÓN CON JUGADORES!». Video original (minuto 4:54): https://youtu.be/5St0GQXddug?t=294
+
+#LaCobra #Boca #CopaSudamericana #Streamer
+```
+
+**Etiquetas:** La Cobra, Boca Juniors, Copa Sudamericana, final, Barranquilla, predicción, streamer, Boquita
+
+
+## 7. `2026-11-21-quevedo-policia-foto`
 
 - **Gancho:** Ricardo Quevedo y el policía que pedía fotos
 - **Puntaje:** 77 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-24 · **Línea:** risas · **Pieza:** original (sin variantes)
 - **Video:** [clip.mp4](../clipero/clips/2026-11-21-quevedo-policia-foto/clip.mp4) (46,9 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-21-quevedo-policia-foto/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=xoTfI839Phw
-- **Revisar antes de publicar:** **Escúchalo antes.** En 0:10-0:12 hay una palabra ilegible de los subtítulos automáticos («brui»), que va como «(…)». En el último segundo entra el arranque de la frase siguiente («Si que lo migajero…»): el Clipero no lo volvió a cortar porque YouTube fallaba en las descargas. «Entradas… huevadas. Entradas» (0:37-0:39) va tal como lo transcribió la fuente. Que cuenta Ricardo Quevedo se apoya en la propia historia («Ricardo, una foto») y en los comentarios; el canal no rotula a los invitados. Los textos no dicen que el policía lo dejara ir a cambio de la foto (el clip no lo cuenta) y no llevan #FrancoEscamilla (no se confirma que esté en la mesa; el canal va en el crédito).
+- **Revisar antes de publicar:** Escúchalo antes de publicar: en 0:10-0:12 hay una palabra ilegible de los subtítulos automáticos («brui»), que va como «(…)»; y en el último segundo entra el arranque de la frase siguiente («Si que lo migajero…»): el Clipero no lo volvió a cortar porque YouTube fallaba en las descargas. «Entradas… huevadas. Entradas» (0:37-0:39) va tal como lo transcribió la fuente. Que cuenta Ricardo Quevedo se apoya en la propia historia («Ricardo, una foto») y en los comentarios; el canal no rotula a los invitados. Los textos no dicen que el policía lo dejara ir a cambio de la foto (el clip no lo cuenta) y no llevan #FrancoEscamilla (no se confirma que esté en la mesa; el canal va en el crédito).
 
-### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola (previsto 22-nov, después de `nsn-robot-guardaespaldas`; ficha: a las 20:00)
+### TikTok · cuenta `risas` (@legion.risas) · en la bandeja desde 2026-11-22 13:34 (borrador): pega este texto al publicarlo
 
 ```
 Ricardo Quevedo no quería fotos con policías… hasta que se pasó un semáforo 🚦😂
@@ -626,9 +487,409 @@ Crédito: Mestizos Precisos T2, Ep. 16 «Migajeros», canal Franco Escamilla (Yo
 **Etiquetas:** Ricardo Quevedo, Mestizos Precisos, comedia colombiana, stand up, policía, anécdotas, humor, Franco Escamilla
 
 
+## 8. `2026-11-21-cotorrisa-firma-tianguis`
+
+- **Gancho:** Su firma, en un tianguis a 50 pesos
+- **Puntaje:** 76 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-24 · **Línea:** risas · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-21-cotorrisa-firma-tianguis/clip.mp4) (74,9 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-21-cotorrisa-firma-tianguis/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=9QTq4B02vaA
+- **Revisar antes de publicar:** Nada especial según la ficha: los insultos van censurados («***»). Dura casi 75 s. El crédito no copia el título del episodio (escatológico); va como «episodio 400».
+
+### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola (previsto esta noche después de las 21:26 o el 23-nov)
+
+```
+Encontró un vaso firmado por La Cotorrisa en un tianguis… a 50 pesos 😂
+
+Un cotorro les manda la foto del vaso de su gira, con las dos firmas. En La Cotorrisa confirman que son reales y hacen la cuenta: sin firma valía 10… así que su firma vale 40. «Tampoco está tan mal».
+
+¿Cuánto pagarías tú por ese vaso?
+
+Crédito: La Cotorrisa (Slobotzky y Ricardo Pérez), canal Slobotzky (YouTube), episodio 400. Video original (minuto 1:05:50): https://youtu.be/9QTq4B02vaA?t=3950
+
+#LaCotorrisa #Slobotzky #RicardoPerez #Comedia #Tianguis
+```
+
+### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
+
+```
+«Vale 40 nuestra firma»: La Cotorrisa y el vaso firmado que apareció en un tianguis 😂
+
+Un cotorro se encontró en un tianguis un vaso de la gira de La Cotorrisa, firmado por los dos, por 50 pesos. Ellos hicieron la cuenta: sin firma valía 10… así que su firma vale 40.
+
+¿Cuánto pagarías tú por ese vaso?
+
+Crédito: La Cotorrisa (Slobotzky y Ricardo Pérez), canal Slobotzky (YouTube), episodio 400. Video original (minuto 1:05:50): https://youtu.be/9QTq4B02vaA?t=3950
+
+#LaCotorrisa #Slobotzky #RicardoPerez #Comedia #Tianguis
+```
+
+### YouTube · cuenta `risas` (canal de la Legión de Risas) · pendiente de aprobación (cuenta apagada)
+
+**Título:** La Cotorrisa descubre cuánto vale su firma en un tianguis
+
+```
+En el episodio 400 de La Cotorrisa, un seguidor les cuenta que encontró en un tianguis un vaso de su gira, firmado por los dos, por 50 pesos. Ellos hacen la cuenta: sin firma valía 10… así que su firma vale 40.
+
+Crédito: La Cotorrisa (Slobotzky y Ricardo Pérez), canal Slobotzky (YouTube), episodio 400. Video original (minuto 1:05:50): https://youtu.be/9QTq4B02vaA?t=3950
+
+#LaCotorrisa #Slobotzky #RicardoPerez #Comedia
+```
+
+**Etiquetas:** La Cotorrisa, Slobotzky, Ricardo Pérez, comedia, podcast de comedia, tianguis, humor mexicano, anécdotas
+
+
+## 9. `2026-11-21-drunk-casting-tigo`
+
+- **Gancho:** El casting de Tigo: 'a alguien van a echar'
+- **Puntaje:** 73 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-24 · **Línea:** risas · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-21-drunk-casting-tigo/clip.mp4) (66,3 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-21-drunk-casting-tigo/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=a_A7VV9qO-U
+- **Revisar antes de publicar:** No se atribuye «a alguien van a echar» a nadie (en el clip no queda claro quién lo dijo). Los textos aclaran que a Iván Marín no lo echaron, como dice la mesa al final. Varios hablan a la vez; audio algo más bajo que el resto (-15,7 LUFS). Hay vasos y botellas en la mesa: los textos no hablan de alcohol ni copian el título del capítulo.
+
+### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola (previsto esta noche después de las 21:26 o el 23-nov)
+
+```
+El casting de Tigo que cuenta Alejandro Riaño: «a alguien van a echar» 😂
+
+En Drunk Comedy, Riaño cuenta cómo lo llamaron a una segunda prueba del comercial cuando el grupo, Iván Marín incluido, ya llevaba días ensayando. Y no, a Iván no lo echaron.
+
+¿Te ha tocado reemplazar a alguien así?
+
+Crédito: Drunk Comedy (cap. 8), canal Juanpis González (YouTube). Video original (minuto 31:23): https://youtu.be/a_A7VV9qO-U?t=1883
+
+#DrunkComedy #AlejandroRiaño #IvánMarín #RicardoQuevedo #ComediaColombiana
+```
+
+### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
+
+```
+«A alguien van a echar»: el casting de Tigo de Alejandro Riaño e Iván Marín 😂
+
+En Drunk Comedy, Riaño cuenta cómo llegó a la segunda prueba del comercial de Tigo cuando los demás, Iván Marín entre ellos, ya llevaban días ensayando. Y no, a Iván no lo echaron.
+
+¿Te ha tocado reemplazar a alguien así?
+
+Crédito: Drunk Comedy (cap. 8), canal Juanpis González (YouTube). Video original (minuto 31:23): https://youtu.be/a_A7VV9qO-U?t=1883
+
+#DrunkComedy #AlejandroRiaño #IvánMarín #RicardoQuevedo #ComediaColombiana
+```
+
+### YouTube · cuenta `risas` (canal de la Legión de Risas) · pendiente de aprobación (cuenta apagada)
+
+**Título:** Alejandro Riaño, Iván Marín y el casting de Tigo | Drunk Comedy
+
+```
+Alejandro Riaño cuenta en Drunk Comedy cómo llegó a la segunda prueba del comercial de Tigo cuando los demás, Iván Marín entre ellos, ya llevaban días ensayando… y la frase del día fue «a alguien van a echar». Al final, la mesa lo aclara: a Iván no lo echaron.
+
+Crédito: Drunk Comedy (cap. 8), canal Juanpis González (YouTube). Video original (minuto 31:23): https://youtu.be/a_A7VV9qO-U?t=1883
+
+#DrunkComedy #AlejandroRiaño #IvánMarín #ComediaColombiana
+```
+
+**Etiquetas:** Drunk Comedy, Alejandro Riaño, Iván Marín, Ricardo Quevedo, Antonio Sanint, Juanpis González, comedia colombiana, anécdotas, casting
+
+
+## 10. `2026-11-22-uribe-davoo-microfono`
+
+- **Gancho:** Lo que Davoo le pidió a Roberto Uribe
+- **Puntaje:** 73 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-24 · **Línea:** urbano · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-22-uribe-davoo-microfono/clip.mp4) (37,4 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-22-uribe-davoo-microfono/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=40gAwbuwZac
+- **Revisar antes de publicar:** La frase «se lo prestar el vale» sale tal como la transcribió YouTube (se entiende «se lo presté al vale»). Ruido de estadio de fondo. Al fondo, la cartelería del estadio, sin imágenes de la transmisión. Los textos no dicen para qué quería Davoo el micrófono (no sale en el clip).
+
+### TikTok · cuenta `principal` (Legión Urbana) · en la bandeja desde 2026-11-22 13:36 (borrador): pega este texto al publicarlo
+
+```
+Davoo le iba a decir algo a Roberto Uribe… y era otra cosa 🎤😂
+
+En el campo, después de la final de la Sudamericana en Barranquilla, Roberto Uribe pensó que Davoo Xeneize le iba a decir algo personal. Lo que quería era que le prestara el micrófono. Al final, Roberto se lo regaló: «es un detalle que le di yo de corazón».
+
+¿Tú se lo habrías regalado?
+
+Crédito: Soy Roberto Uribe (YouTube), «Así se VIVIÓ la FINAL de BOCA JUNIORS vs ATLÉTICO MINEIRO». Video original (minuto 17:25): https://youtu.be/40gAwbuwZac?t=1045
+
+#RobertoUribe #Davoo #Boca #CopaSudamericana #Barranquilla
+```
+
+### Instagram · cuenta `principal` · pendiente de aprobación
+
+```
+Roberto Uribe pensó que Davoo le iba a decir algo personal… y lo que quería era su micrófono 🎤😂
+
+Después de la final de la Sudamericana, en pleno campo en Barranquilla, Davoo Xeneize le pidió prestado el micrófono a Roberto Uribe. Roberto terminó regalándoselo: «es un detalle que le di yo de corazón».
+
+¿Tú se lo habrías regalado?
+
+Crédito: Soy Roberto Uribe (YouTube), «Así se VIVIÓ la FINAL de BOCA JUNIORS vs ATLÉTICO MINEIRO». Video original (minuto 17:25): https://youtu.be/40gAwbuwZac?t=1045
+
+#RobertoUribe #Davoo #Boca #CopaSudamericana #Barranquilla
+```
+
+### YouTube · cuenta `principal` (canal de la Legión Urbana) · pendiente de aprobación
+
+**Título:** Davoo le pidió el micrófono a Roberto Uribe en la final
+
+```
+En el campo, después de la final de la Copa Sudamericana en Barranquilla, Davoo Xeneize le tenía algo que decir a Roberto Uribe. No era lo que él esperaba: era el micrófono. Y Roberto terminó regalándoselo.
+
+Crédito: Soy Roberto Uribe (YouTube), «Así se VIVIÓ la FINAL de BOCA JUNIORS vs ATLÉTICO MINEIRO». Video original (minuto 17:25): https://youtu.be/40gAwbuwZac?t=1045
+
+#RobertoUribe #Davoo #Boca #CopaSudamericana
+```
+
+**Etiquetas:** Roberto Uribe, Davoo Xeneize, Boca Juniors, Copa Sudamericana, final, Barranquilla, micrófono, streamers
+
+
+## 11. `2026-11-22-cobra-gracias-colombia`
+
+- **Gancho:** El mensaje de La Cobra a Colombia
+- **Puntaje:** 72 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-24 · **Línea:** urbano · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-22-cobra-gracias-colombia/clip.mp4) (29,7 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-22-cobra-gracias-colombia/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=5St0GQXddug
+- **Revisar antes de publicar:** En tres cuadros el propio video pone en una esquina una foto fija del plantel con la copa («CAMPEÓN 2026»): no son imágenes de la transmisión. Si se prefiere al creador solo, el Clipero puede cortarlo con -Modo recorte. «Do/Dao» de los subtítulos se corrigió a «Davo».
+
+### TikTok · cuenta `principal` (Legión Urbana) · en la bandeja desde 2026-11-22 13:36 (borrador): pega este texto al publicarlo
+
+```
+La Cobra, después de ver a Boca campeón en Barranquilla: «Gracias a todo Colombia» 🇨🇴
+
+Vino a la final de la Copa Sudamericana con Davoo y su familia, y antes de irse le deja un mensaje a Colombia: «un clima perfecto, un país hermoso». Eso sí, con el vuelo perdido y la vuelta por Cartagena, Bogotá y Santiago de Chile.
+
+¿A dónde lo llevarías la próxima vez que venga?
+
+Crédito: LA COBRA (YouTube), «VI A BOCA CAMPEÓN DE LA COPA SUDAMERICANA. VLOG EN COLOMBIA Y CELEBRACIÓN CON JUGADORES!». Video original (minuto 21:23): https://youtu.be/5St0GQXddug?t=1283
+
+#LaCobra #Colombia #Barranquilla #CopaSudamericana #Streamer
+```
+
+### Instagram · cuenta `principal` · pendiente de aprobación
+
+```
+«Un país hermoso»: el mensaje de La Cobra a Colombia después de la final 🇨🇴
+
+Vino a ver a Boca a Barranquilla con sus amigos y con Davoo, y se va con el vuelo perdido y un regreso por Cartagena, Bogotá y Santiago de Chile. Antes, un mensaje: «gracias a la gente que me recibió tanto en Bogotá como en Barranquilla».
+
+¿A dónde lo llevarías la próxima vez que venga?
+
+Crédito: LA COBRA (YouTube), «VI A BOCA CAMPEÓN DE LA COPA SUDAMERICANA. VLOG EN COLOMBIA Y CELEBRACIÓN CON JUGADORES!». Video original (minuto 21:23): https://youtu.be/5St0GQXddug?t=1283
+
+#LaCobra #Colombia #Barranquilla #CopaSudamericana #Streamer
+```
+
+### YouTube · cuenta `principal` (canal de la Legión Urbana) · pendiente de aprobación
+
+**Título:** La Cobra le da las gracias a Colombia tras la final
+
+```
+Vino a la final de la Copa Sudamericana en Barranquilla con Davoo y se va con el vuelo perdido y un regreso por Cartagena, Bogotá y Santiago de Chile. Antes de irse, La Cobra le deja un mensaje a Colombia.
+
+Crédito: LA COBRA (YouTube), «VI A BOCA CAMPEÓN DE LA COPA SUDAMERICANA. VLOG EN COLOMBIA Y CELEBRACIÓN CON JUGADORES!». Video original (minuto 21:23): https://youtu.be/5St0GQXddug?t=1283
+
+#LaCobra #Colombia #Barranquilla #CopaSudamericana
+```
+
+**Etiquetas:** La Cobra, Colombia, Barranquilla, Boca Juniors, Copa Sudamericana, final, streamer, Davoo
+
+
+## 12. `2026-11-22-cobra-medalla-merentiel`
+
+- **Gancho:** Lo que le prestó Merentiel a La Cobra
+- **Puntaje:** 71 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-24 · **Línea:** urbano · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-22-cobra-medalla-merentiel/clip.mp4) (18,6 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-22-cobra-medalla-merentiel/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=5St0GQXddug
+- **Revisar antes de publicar:** Nada especial según la ficha. Es corto (18,6 s). El propio video pone una foto pequeña de Merentiel en la esquina; Merentiel no sale en video: es el relato de La Cobra, y los textos lo cuentan así.
+
+### TikTok · cuenta `principal` (Legión Urbana) · aprobado automáticamente; en cola (previsto 23-nov, después de las 13:37)
+
+```
+Merentiel le prestó la medalla de campeón a La Cobra 🏅
+
+La Cobra cuenta que, después de la final de la Sudamericana en Barranquilla, fue a saludar a Merentiel: lo abrazó, le dijo «gracias, loco, por siempre bancarme»… y le prestó su medalla. «¿Qué más le puedo pedir a la vida, muchachos?».
+
+¿Qué le pedirías tú a tu jugador favorito?
+
+Crédito: LA COBRA (YouTube), «VI A BOCA CAMPEÓN DE LA COPA SUDAMERICANA. VLOG EN COLOMBIA Y CELEBRACIÓN CON JUGADORES!». Video original (minuto 19:17): https://youtu.be/5St0GQXddug?t=1157
+
+#LaCobra #Merentiel #Boca #CopaSudamericana #Streamer
+```
+
+### Instagram · cuenta `principal` · pendiente de aprobación
+
+```
+«Toma, Cobrix, para que tengas la medalla»: lo que le prestó Merentiel a La Cobra 🏅
+
+Después de la final de la Sudamericana en Barranquilla, La Cobra fue a saludar a Merentiel y cuenta lo que pasó: un abrazo, un «gracias, loco, por siempre bancarme»… y la medalla de campeón prestada.
+
+¿Qué le pedirías tú a tu jugador favorito?
+
+Crédito: LA COBRA (YouTube), «VI A BOCA CAMPEÓN DE LA COPA SUDAMERICANA. VLOG EN COLOMBIA Y CELEBRACIÓN CON JUGADORES!». Video original (minuto 19:17): https://youtu.be/5St0GQXddug?t=1157
+
+#LaCobra #Merentiel #Boca #CopaSudamericana #Streamer
+```
+
+### YouTube · cuenta `principal` (canal de la Legión Urbana) · pendiente de aprobación
+
+**Título:** La Cobra y la medalla de campeón que le prestó Merentiel
+
+```
+Después de la final de la Copa Sudamericana en Barranquilla, La Cobra fue a saludar a Merentiel, que le dio las gracias por bancarlo siempre… y le prestó su medalla de campeón.
+
+Crédito: LA COBRA (YouTube), «VI A BOCA CAMPEÓN DE LA COPA SUDAMERICANA. VLOG EN COLOMBIA Y CELEBRACIÓN CON JUGADORES!». Video original (minuto 19:17): https://youtu.be/5St0GQXddug?t=1157
+
+#LaCobra #Merentiel #Boca #CopaSudamericana
+```
+
+**Etiquetas:** La Cobra, Merentiel, Miguel Merentiel, Boca Juniors, Copa Sudamericana, medalla, final, streamer
+
+
+## 13. `2026-11-22-davoo-otros-29-equipos`
+
+- **Gancho:** Davoo, a los que critican a Boca
+- **Puntaje:** 71 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-24 · **Línea:** urbano · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-22-davoo-otros-29-equipos/clip.mp4) (49,3 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-22-davoo-otros-29-equipos/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=IGjKe0aNlbs
+- **Revisar antes de publicar:** Dos palabras no entendidas van como «(…)» (23:52-23:55 de la fuente): escuchar ese segundo. «Peor de Boca», «menos malo que lo demás» y «chao muchacha» salen como los transcribió YouTube. Ni imágenes del partido ni análisis táctico. Tema futbolero argentino para una audiencia más colombiana.
+
+### TikTok · cuenta `principal` (Legión Urbana) · aprobado automáticamente; en cola (previsto 23-nov, después de las 13:37)
+
+```
+Davoo, a los que critican cómo juega Boca: ¿y los otros 29 equipos? ⚽
+
+Con Boca recién campeón de la Sudamericana, Davoo Xeneize cierra su opinión de la final: «hoy no hay que sobrepensar nada». Y a los que no les gusta cómo juega Boca les pregunta cómo juegan los otros 29 equipos del fútbol argentino.
+
+¿Tiene razón Davoo?
+
+Crédito: Davoo Xeneize (YouTube), «DAVOO XENEIZE OPINA DE BOCA 2 ATLETICO MINEIRO 0 (2026) - COPA SUDAMERICANA (FINAL)». Video original (minuto 23:10): https://youtu.be/IGjKe0aNlbs?t=1390
+
+#Davoo #DavooXeneize #Boca #CopaSudamericana #Streamer
+```
+
+### Instagram · cuenta `principal` · pendiente de aprobación
+
+```
+Davoo Xeneize después del título: «hoy no hay que sobrepensar nada» ⚽
+
+Con Boca recién campeón de la Copa Sudamericana, Davoo cierra su opinión de la final con un mensaje para los que dicen que Boca juega mal: ¿cómo juegan los otros 29 equipos del fútbol argentino?
+
+¿Tiene razón Davoo?
+
+Crédito: Davoo Xeneize (YouTube), «DAVOO XENEIZE OPINA DE BOCA 2 ATLETICO MINEIRO 0 (2026) - COPA SUDAMERICANA (FINAL)». Video original (minuto 23:10): https://youtu.be/IGjKe0aNlbs?t=1390
+
+#Davoo #DavooXeneize #Boca #CopaSudamericana #Streamer
+```
+
+### YouTube · cuenta `principal` (canal de la Legión Urbana) · pendiente de aprobación
+
+**Título:** Davoo Xeneize a los que critican cómo juega Boca
+
+```
+Con Boca recién campeón de la Copa Sudamericana, Davoo Xeneize cierra su opinión de la final con un mensaje para los que dicen que Boca juega mal: ¿cómo juegan los otros 29 equipos del fútbol argentino?
+
+Crédito: Davoo Xeneize (YouTube), «DAVOO XENEIZE OPINA DE BOCA 2 ATLETICO MINEIRO 0 (2026) - COPA SUDAMERICANA (FINAL)». Video original (minuto 23:10): https://youtu.be/IGjKe0aNlbs?t=1390
+
+#Davoo #DavooXeneize #Boca #CopaSudamericana
+```
+
+**Etiquetas:** Davoo Xeneize, Davoo, Boca Juniors, Copa Sudamericana, final, fútbol argentino, streamer, Atlético Mineiro
+
+
+## 14. `2026-11-22-ganga-piedra-penol`
+
+- **Gancho:** ¿Quién se sube a la Piedra del Peñol?
+- **Puntaje:** 70 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-24 · **Línea:** urbano · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-22-ganga-piedra-penol/clip.mp4) (20,6 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-22-ganga-piedra-penol/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=1jfaTc0PEsw
+- **Revisar antes de publicar:** Hablan varios a la vez y con ruido; dos tramos van como «(…)» (0:10-0:11 y 0:15-0:16 del clip). Dos insultos censurados («***»). Contador del directo abajo a la izquierda (gráfico propio). No se nombra a quien habla (no se puede asegurar en imagen). Ficha: separarlo de los clips de la final de Boca.
+
+### TikTok · cuenta `principal` (Legión Urbana) · aprobado automáticamente; en cola (previsto 23-nov, después de las 13:37)
+
+```
+¿Quién de La Ganga se sube a la Piedra del Peñol? 😂🪨
+
+En las 72 horas de La Ganga, de paseo por Guatapé, alguien propone subir la piedra… y el que ya la subió no piensa repetir: «yo subí una vez y juré nunca más volver a subir».
+
+¿Tú la subirías o te quedas abajo?
+
+Crédito: Lonche Chacas (YouTube), «FUI A GUATAPE con WESTCOL, WILLITO, LEANDRO y CHANTY *no he dormido* | Lonche». Video original (minuto 16:38): https://youtu.be/1jfaTc0PEsw?t=998
+
+#LaGanga #Lonche #Guatapé #PiedraDelPeñol #Colombia
+```
+
+### Instagram · cuenta `principal` · pendiente de aprobación
+
+```
+«Yo subí una vez y juré nunca más volver a subir»: La Ganga frente a la Piedra del Peñol 😂🪨
+
+De paseo por Guatapé en sus 72 horas, toca decidir si suben la piedra. Y bajar es caminando: no hay elevador.
+
+¿Tú la subirías o te quedas abajo?
+
+Crédito: Lonche Chacas (YouTube), «FUI A GUATAPE con WESTCOL, WILLITO, LEANDRO y CHANTY *no he dormido* | Lonche». Video original (minuto 16:38): https://youtu.be/1jfaTc0PEsw?t=998
+
+#LaGanga #Lonche #Guatapé #PiedraDelPeñol #Colombia
+```
+
+### YouTube · cuenta `principal` (canal de la Legión Urbana) · pendiente de aprobación
+
+**Título:** La Ganga frente a la Piedra del Peñol: ¿quién sube?
+
+```
+De paseo por Guatapé en sus 72 horas, La Ganga tiene que decidir si sube la Piedra del Peñol… y el que ya subió una vez no piensa repetir.
+
+Crédito: Lonche Chacas (YouTube), «FUI A GUATAPE con WESTCOL, WILLITO, LEANDRO y CHANTY *no he dormido* | Lonche». Video original (minuto 16:38): https://youtu.be/1jfaTc0PEsw?t=998
+
+#LaGanga #Lonche #Guatapé #PiedraDelPeñol
+```
+
+**Etiquetas:** La Ganga, Lonche, Piedra del Peñol, Guatapé, 72 horas, streamers, Colombia, Antioquia
+
+
+## 15. `2026-11-22-francupido-bombera-carga`
+
+- **Gancho:** ¿Podrá la bombera cargar a Franco Escamilla?
+- **Puntaje:** 79 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-25 · **Línea:** risas · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-22-francupido-bombera-carga/clip.mp4) (73,9 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-22-francupido-bombera-carga/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=dMnCmCEZt4g
+- **Revisar antes de publicar:** El momento fuerte es visual y va en plano general del escenario (en vertical se ve pequeño); unos 40 s sin palabras (gritos, aplausos, el micrófono apagado de Franco). Escuchar 0:03:58-0:04:01 de la fuente: un nombre que los subtítulos no entendieron va como «(…)». Dura 73,9 s. Los textos no nombran a la soltera (sube del público) ni se burlan de ella.
+
+### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola (previsto 23-nov)
+
+```
+Franco Escamilla le pidió a la bombera que lo cargara… y lo hizo 😂🚒
+
+En el FranCupido de Cancún, una de las solteras se presenta como voluntaria de paramédico, bombero y enfermera. Franco le hace la pregunta obvia: «¿me puedes cargar?». Y el remate: «desde que tenía 3 años que no me cargaban».
+
+¿A quién te gustaría ver cargando a Franco?
+
+Crédito: Franco Escamilla (YouTube), «FranCupido❤️| Cancún 1 | Ep.-8». Video original (minuto 3:02): https://youtu.be/dMnCmCEZt4g?t=182
+
+#FranCupido #FrancoEscamilla #Cancún #Comedia #Humor
+```
+
+### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
+
+```
+«Desde que tenía 3 años que no me cargaban»: Franco Escamilla y la bombera de FranCupido 😂🚒
+
+En el FranCupido de Cancún, una de las solteras se presenta como voluntaria de paramédico, bombero y enfermera. Franco le pregunta si lo puede cargar… y ella lo levanta en brazos ante la ovación del público.
+
+¿A quién te gustaría ver cargando a Franco?
+
+Crédito: Franco Escamilla (YouTube), «FranCupido❤️| Cancún 1 | Ep.-8». Video original (minuto 3:02): https://youtu.be/dMnCmCEZt4g?t=182
+
+#FranCupido #FrancoEscamilla #Cancún #Comedia #Humor
+```
+
+### YouTube · cuenta `risas` (canal de la Legión de Risas) · pendiente de aprobación (cuenta apagada)
+
+**Título:** La bombera que cargó a Franco Escamilla en FranCupido
+
+```
+En el FranCupido de Cancún, una de las solteras se presenta como voluntaria de paramédico, bombero y enfermera, y Franco Escamilla le hace la pregunta obvia: «¿me puedes cargar?».
+
+Crédito: Franco Escamilla (YouTube), «FranCupido❤️| Cancún 1 | Ep.-8». Video original (minuto 3:02): https://youtu.be/dMnCmCEZt4g?t=182
+
+#FranCupido #FrancoEscamilla #Comedia #Humor
+```
+
+**Etiquetas:** FranCupido, Franco Escamilla, Cancún, bombera, comedia, humor, comedia mexicana, stand-up
+
+
 ## Comandos
 
-- Aprobar un clip en todas sus plataformas: `/publicador aprobar <clip-id>` (por ejemplo, `/publicador aprobar 2026-11-21-roy-barreras-neruda`).
-- Aprobar una sola plataforma: `/publicador aprobar <clip-id>:<plataforma>` (por ejemplo, `/publicador aprobar 2026-11-21-roy-barreras-neruda:youtube`).
+- Aprobar un clip en todas sus plataformas: `/publicador aprobar <clip-id>` (por ejemplo, `/publicador aprobar 2026-11-22-cobra-prediccion-final`).
+- Aprobar una sola plataforma: `/publicador aprobar <clip-id>:<plataforma>` (por ejemplo, `/publicador aprobar 2026-11-21-roy-barreras-neruda:tiktok`).
 - Aprobar todo lo pendiente: `/publicador aprobar todo` (Instagram y YouTube siguen sin activar: solo deja los envíos listos; en YouTube, lo aprobado saldrá público).
 - Rechazar: `/publicador rechazar <clip-id> <motivo>`, o `/publicador rechazar <clip-id>:<plataforma> <motivo>` para una sola plataforma (con `:tiktok`, el clip deja de ir a la bandeja).

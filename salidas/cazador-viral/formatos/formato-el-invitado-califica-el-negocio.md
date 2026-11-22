@@ -1,6 +1,12 @@
 # El invitado le califica el negocio al anfitrión (en su cara)
 
-> **Estado (21-nov, 21:00, ciclo 18): vigente hasta el 25-nov, con puntaje 82 (78 en el ciclo 17).** Lo nuevo:
+> **Estado (22-nov, 12:35, ciclo 19): vigente hasta el 25-nov, con puntaje 83 (82 en el ciclo 18).** Lo nuevo:
+> - **La versión sin guía famoso se confirma.** [Coco Maggio en Barranquilla](https://www.youtube.com/watch?v=8gFGSwSiak4) llega a 106.557 vistas a las 27,3 h, 3,35 veces la mediana de sus videos anteriores. [La Cobra sube su vlog en Colombia](https://www.youtube.com/watch?v=5St0GQXddug) (16.106/h a las 2,1 h). El contexto `creador-de-viajes-sin-guia-co` pasa a emergente: el gancho "¿Vale la pena venir?" funciona sin anfitrión.
+> - **Tercer día de La Ganga en Guatapé:** el [jet ski de The Chanty](https://www.youtube.com/watch?v=ZGb1HxyHgPs) va a 2,5 veces su mediana por hora y ['DESCONTROLANDO GUATAPE'](https://www.youtube.com/watch?v=pzhADojtbcI) (Lonche Chacas) a 1,8 veces en su primera hora.
+> - **El sitio nuevo se gasta en un día.** El restaurante giratorio baja de 3,2 a 1,2 veces en 26 h, y Guatapé (1jfaTc0PEsw) pasa de 3.657/h a 644/h tras las primeras 7 h. Cortar y publicar cada sitio en las primeras 12 h; al día siguiente, el sitio siguiente.
+> - **Clip tipo, sin cambios:** la reacción del visitante al llegar en el primer segundo, el guía en una frase y el veredicto en la cara. Pregunta final: "¿A dónde lo llevan mañana?" o "¿Vale la pena ir?". Las fiestas siguen fuera de esta ficha.
+>
+> **Estado anterior (21-nov, 21:00, ciclo 18): vigente hasta el 25-nov, con puntaje 82 (78 en el ciclo 17).** Lo nuevo:
 > - **El segundo día de las 72 horas cambia de sitio y vuelve a sobre-rendir.** ['FUI A GUATAPE con WESTCOL, WILLITO, LEANDRO y CHANTY'](https://www.youtube.com/watch?v=1jfaTc0PEsw) va a 3.657/h, unas 9,2 veces la mediana por hora de Lonche Chacas. ['IRL EN UN RESTAURANTE GIRATORIO'](https://www.youtube.com/watch?v=l8CYUf2cBeM) va a 3,2 veces la de The Chanty y [la chiva de Live Samulx](https://www.youtube.com/watch?v=wm6O6UB6K0k) a 2,6 veces. El jet ski en Guatapé va a 1,9 veces a la 1,4 h.
 > - **Primera réplica fuera de La Ganga:** [Coco Maggio, argentino, descubre Barranquilla](https://www.youtube.com/watch?v=8gFGSwSiak4) el día de la final de la Sudamericana (4.543/h; ya 1,48 veces la mediana de vistas de sus 5 videos anteriores). No tiene guía famoso: el gancho es la pregunta "¿Vale la pena venir?".
 > - **Para el gancho, el sitio o la experiencia, no la comida:** "Guatapé por primera vez", "un restaurante que gira", "su primera chiva". La plantilla repetida sigue floja (la natilla, 1,06 veces).
