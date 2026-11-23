@@ -1,0 +1,14 @@
+{
+    "id":  "2026-11-23-gta6-van-hiding-spot",
+    "formato":  "voz",
+    "guion":  "Why this escape failed. The lifeguard truck is wrecked, so he grabs a white van and tucks it under a tree to wait it out. Smart idea on paper. The cops roll up, spot the van, and open fire. Wasted. My rule: when you hide, leave the car, because the cops are looking for the car. Where would you have hidden?",
+    "cierre":  "Getaway Kings out.",
+    "voz":  "am_fenrir",
+    "velocidad":  0.95,
+    "idioma":  "en-us",
+    "duracion_seg":  19,
+    "palabras":  64,
+    "logo":  true,
+    "motor":  "kokoro (local)",
+    "creado":  "2026-11-23T10:29:38.0243838-05:00"
+}

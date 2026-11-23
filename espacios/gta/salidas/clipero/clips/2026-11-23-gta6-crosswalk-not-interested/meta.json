@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-23-gta6-crosswalk-not-interested",
+    "url_fuente":  "https://www.youtube.com/watch?v=aHvn9IrnxKs",
+    "video_id":  "aHvn9IrnxKs",
+    "inicio":  238,
+    "fin":  266,
+    "inicio_hms":  "0:03:58",
+    "duracion_seg":  28,
+    "gancho":  "Leonida Fails #4: they said not interested",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "negro",
+    "resolucion":  "1440x2560",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -15.9,
+                  "limitador":  true,
+                  "entrada_lufs":  -29.06,
+                  "entrada_tp":  -14.24,
+                  "salida_lufs":  -15.51,
+                  "salida_tp":  -1.08
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-23-gta6-crosswalk-not-interested/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-23-gta6-crosswalk-not-interested/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-23-gta6-crosswalk-not-interested/revision.jpg",
+    "creado":  "2026-11-23T09:25:29.1788622-05:00"
+}

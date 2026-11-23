@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-21-gta6-crypto-fence-fight",
+    "url_fuente":  "https://www.youtube.com/watch?v=9d6Sx0tWbnc",
+    "video_id":  "9d6Sx0tWbnc",
+    "inicio":  91,
+    "fin":  110,
+    "inicio_hms":  "0:01:31",
+    "duracion_seg":  19,
+    "gancho":  "POV: they think you\u0027re selling crypto",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "negro",
+    "resolucion":  "1440x2560",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14.2,
+                  "limitador":  true,
+                  "entrada_lufs":  -27.31,
+                  "entrada_tp":  -14.2,
+                  "salida_lufs":  -13.87,
+                  "salida_tp":  -1.09
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-crypto-fence-fight/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-crypto-fence-fight/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-crypto-fence-fight/revision.jpg",
+    "creado":  "2026-11-23T09:29:19.6381621-05:00"
+}

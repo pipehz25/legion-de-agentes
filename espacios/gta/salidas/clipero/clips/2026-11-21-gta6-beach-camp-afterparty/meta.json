@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-21-gta6-beach-camp-afterparty",
+    "url_fuente":  "https://www.youtube.com/watch?v=konZi0msk6A",
+    "video_id":  "konZi0msk6A",
+    "inicio":  459,
+    "fin":  486,
+    "inicio_hms":  "0:07:39",
+    "duracion_seg":  27,
+    "gancho":  "Leonida Fails #2: he stayed for their beer",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "vice",
+    "resolucion":  "1440x2560",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -15,
+                  "limitador":  true,
+                  "entrada_lufs":  -36.54,
+                  "entrada_tp":  -22.62,
+                  "salida_lufs":  -14.56,
+                  "salida_tp":  -1.08
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-beach-camp-afterparty/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-beach-camp-afterparty/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-beach-camp-afterparty/revision.jpg",
+    "creado":  "2026-11-23T09:21:18.3799554-05:00"
+}

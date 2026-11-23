@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-23-gta6-two-on-one",
+    "url_fuente":  "https://www.youtube.com/watch?v=WDu2N9L53r0",
+    "video_id":  "WDu2N9L53r0",
+    "inicio":  165,
+    "fin":  193,
+    "inicio_hms":  "0:02:45",
+    "duracion_seg":  28,
+    "gancho":  "Leonida Fails #6: round three, two on one",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "atardecer",
+    "resolucion":  "1440x2560",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -15.3,
+                  "limitador":  true,
+                  "entrada_lufs":  -28.18,
+                  "entrada_tp":  -13.94,
+                  "salida_lufs":  -15.54,
+                  "salida_tp":  -1.06
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-23-gta6-two-on-one/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-23-gta6-two-on-one/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-23-gta6-two-on-one/revision.jpg",
+    "creado":  "2026-11-23T10:33:08.5374250-05:00"
+}

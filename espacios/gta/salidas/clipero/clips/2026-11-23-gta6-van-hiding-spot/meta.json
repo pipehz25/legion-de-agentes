@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-23-gta6-van-hiding-spot",
+    "url_fuente":  "https://www.youtube.com/watch?v=aHvn9IrnxKs",
+    "video_id":  "aHvn9IrnxKs",
+    "inicio":  182,
+    "fin":  205,
+    "inicio_hms":  "0:03:02",
+    "duracion_seg":  23,
+    "gancho":  "Getaway Files #10: the hiding spot",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "atardecer",
+    "resolucion":  "1440x2560",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -18.33,
+                  "entrada_tp":  -5.5,
+                  "salida_lufs":  -13.75,
+                  "salida_tp":  -1.17
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-23-gta6-van-hiding-spot/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-23-gta6-van-hiding-spot/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-23-gta6-van-hiding-spot/revision.jpg",
+    "creado":  "2026-11-23T10:28:57.5272196-05:00"
+}

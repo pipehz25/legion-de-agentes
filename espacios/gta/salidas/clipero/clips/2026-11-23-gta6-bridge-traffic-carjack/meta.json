@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-23-gta6-bridge-traffic-carjack",
+    "url_fuente":  "https://www.youtube.com/watch?v=wDT5edohTfY",
+    "video_id":  "wDT5edohTfY",
+    "inicio":  852,
+    "fin":  872,
+    "inicio_hms":  "0:14:12",
+    "duracion_seg":  20,
+    "gancho":  "POV: bridge traffic and zero patience",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "negro",
+    "resolucion":  "1440x2560",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -22.48,
+                  "entrada_tp":  -9.79,
+                  "salida_lufs":  -14.07,
+                  "salida_tp":  -1.31
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-23-gta6-bridge-traffic-carjack/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-23-gta6-bridge-traffic-carjack/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-23-gta6-bridge-traffic-carjack/revision.jpg",
+    "creado":  "2026-11-23T09:58:01.4568271-05:00"
+}

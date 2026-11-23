@@ -1,0 +1,18 @@
+{
+    "ok":  true,
+    "plataforma":  "youtube",
+    "cuenta":  "gta-chases",
+    "clip":  "2026-11-21-gta6-clone-or-smash",
+    "simulado":  false,
+    "estado":  "procesando",
+    "id_publicacion":  "v_dUK0qkUzQ",
+    "url":  "https://www.youtube.com/shorts/v_dUK0qkUzQ",
+    "privacidad":  "private",
+    "duracion_seg":  19,
+    "avisos":  [
+                   "Escrito por el Publicador, no por publicar.ps1: la subida del 2026-11-23T08:46:29-05:00 devolvio HTTP 0 (Se ha terminado la conexion: Error inesperado de envio), pero el video si llego a YouTube. La accion videos lo mostro en gta-chases (v_dUK0qkUzQ, private, publishAt 2026-11-24T15:00:00Z). Este archivo evita que se vuelva a subir."
+               ],
+    "error":  null,
+    "fecha":  "2026-11-23T08:46:29-05:00",
+    "programado":  "2026-11-24T10:00:00-05:00"
+}

@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-21-gta6-lifeguard-truck-rampage",
+    "url_fuente":  "https://www.youtube.com/watch?v=aHvn9IrnxKs",
+    "video_id":  "aHvn9IrnxKs",
+    "inicio":  46,
+    "fin":  72,
+    "inicio_hms":  "0:00:46",
+    "duracion_seg":  26,
+    "gancho":  "Leonida Fails #1: never steal the lifeguard truck",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "atardecer",
+    "resolucion":  "1440x2560",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -18.03,
+                  "entrada_tp":  -5.43,
+                  "salida_lufs":  -14.03,
+                  "salida_tp":  -1.4
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-lifeguard-truck-rampage/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-lifeguard-truck-rampage/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-lifeguard-truck-rampage/revision.jpg",
+    "creado":  "2026-11-23T09:13:32.9743539-05:00"
+}

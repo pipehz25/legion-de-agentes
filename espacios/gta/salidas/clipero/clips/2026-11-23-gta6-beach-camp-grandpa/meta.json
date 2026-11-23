@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-23-gta6-beach-camp-grandpa",
+    "url_fuente":  "https://www.youtube.com/watch?v=konZi0msk6A",
+    "video_id":  "konZi0msk6A",
+    "inicio":  347.5,
+    "fin":  368,
+    "inicio_hms":  "0:05:47",
+    "duracion_seg":  20.5,
+    "gancho":  "POV: the old man at camp roasts you",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "atardecer",
+    "resolucion":  "1440x2560",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -28.7,
+                  "entrada_tp":  -16.08,
+                  "salida_lufs":  -13.75,
+                  "salida_tp":  -1.38
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-23-gta6-beach-camp-grandpa/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-23-gta6-beach-camp-grandpa/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-23-gta6-beach-camp-grandpa/revision.jpg",
+    "creado":  "2026-11-23T09:31:54.8782302-05:00"
+}

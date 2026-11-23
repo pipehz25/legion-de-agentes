@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-23-gta6-lifeguard-truck-pit",
+    "url_fuente":  "https://www.youtube.com/watch?v=aHvn9IrnxKs",
+    "video_id":  "aHvn9IrnxKs",
+    "inicio":  123,
+    "fin":  151,
+    "inicio_hms":  "0:02:03",
+    "duracion_seg":  28,
+    "gancho":  "Getaway Files #8: cops vs the lifeguard truck",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "negro",
+    "resolucion":  "1440x2560",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -19.13,
+                  "entrada_tp":  -6.52,
+                  "salida_lufs":  -13.83,
+                  "salida_tp":  -1.39
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-23-gta6-lifeguard-truck-pit/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-23-gta6-lifeguard-truck-pit/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-23-gta6-lifeguard-truck-pit/revision.jpg",
+    "creado":  "2026-11-23T10:13:12.9462211-05:00"
+}

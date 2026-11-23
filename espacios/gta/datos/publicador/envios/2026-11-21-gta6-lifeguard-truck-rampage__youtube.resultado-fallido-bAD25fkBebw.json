@@ -1,0 +1,18 @@
+{
+    "ok":  true,
+    "plataforma":  "youtube",
+    "cuenta":  "gta-us",
+    "clip":  "2026-11-21-gta6-lifeguard-truck-rampage",
+    "simulado":  false,
+    "estado":  "procesando",
+    "id_publicacion":  "bAD25fkBebw",
+    "url":  "https://www.youtube.com/shorts/bAD25fkBebw",
+    "privacidad":  "private",
+    "duracion_seg":  24.5,
+    "avisos":  [
+                   "Escrito a mano por el Publicador: publicar.ps1 devolvio HTTP 0 en el PUT, pero videos muestra el video en gta-us (uploaded, publishAt 2026-11-23T18:30:00Z). No se reintenta para no duplicarlo."
+               ],
+    "error":  null,
+    "fecha":  "2026-11-23T09:26:44-05:00",
+    "programado":  "2026-11-23T13:30:00-05:00"
+}

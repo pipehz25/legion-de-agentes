@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-23-gta6-sunset-sign-shortcut",
+    "url_fuente":  "https://www.youtube.com/watch?v=JP1hFy04VGk",
+    "video_id":  "JP1hFy04VGk",
+    "inicio":  1474,
+    "fin":  1492,
+    "inicio_hms":  "0:24:34",
+    "duracion_seg":  18,
+    "gancho":  "POV: the cops are right behind you",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "atardecer",
+    "resolucion":  "1440x2560",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -24.5,
+                  "entrada_tp":  -11.73,
+                  "salida_lufs":  -13.66,
+                  "salida_tp":  -1.23
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-23-gta6-sunset-sign-shortcut/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-23-gta6-sunset-sign-shortcut/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-23-gta6-sunset-sign-shortcut/revision.jpg",
+    "creado":  "2026-11-23T10:24:20.6838586-05:00"
+}

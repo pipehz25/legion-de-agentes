@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-23-gta6-lucia-vs-six",
+    "url_fuente":  "https://www.youtube.com/watch?v=tmzTui40KY4",
+    "video_id":  "tmzTui40KY4",
+    "inicio":  40,
+    "fin":  66,
+    "inicio_hms":  "0:00:40",
+    "duracion_seg":  26,
+    "gancho":  "Leonida Fails #3: six guys heckled Lucia",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "atardecer",
+    "resolucion":  "1440x2560",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14.5,
+                  "limitador":  true,
+                  "entrada_lufs":  -24.69,
+                  "entrada_tp":  -11.21,
+                  "salida_lufs":  -14.35,
+                  "salida_tp":  -1.02
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-23-gta6-lucia-vs-six/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-23-gta6-lucia-vs-six/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-23-gta6-lucia-vs-six/revision.jpg",
+    "creado":  "2026-11-23T09:23:32.4515665-05:00"
+}

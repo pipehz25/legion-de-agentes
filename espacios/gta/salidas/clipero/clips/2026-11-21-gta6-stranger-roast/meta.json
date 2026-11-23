@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-21-gta6-stranger-roast",
+    "url_fuente":  "https://www.youtube.com/watch?v=WDu2N9L53r0",
+    "video_id":  "WDu2N9L53r0",
+    "inicio":  19.8,
+    "fin":  40,
+    "inicio_hms":  "0:00:19",
+    "duracion_seg":  20.2,
+    "gancho":  "POV: a stranger roasts you",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "vice",
+    "resolucion":  "1440x2560",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -24.98,
+                  "entrada_tp":  -12.36,
+                  "salida_lufs":  -14.05,
+                  "salida_tp":  -1.38
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-stranger-roast/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-stranger-roast/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-stranger-roast/revision.jpg",
+    "creado":  "2026-11-23T09:15:14.6953116-05:00"
+}

@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-23-gta6-bmx-wrong-stranger",
+    "url_fuente":  "https://www.youtube.com/watch?v=WDu2N9L53r0",
+    "video_id":  "WDu2N9L53r0",
+    "inicio":  4,
+    "fin":  19.8,
+    "inicio_hms":  "0:00:04",
+    "duracion_seg":  15.8,
+    "gancho":  "POV: you crash near the wrong stranger",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "vice",
+    "resolucion":  "1440x2560",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14.4,
+                  "limitador":  true,
+                  "entrada_lufs":  -25.19,
+                  "entrada_tp":  -11.87,
+                  "salida_lufs":  -14.26,
+                  "salida_tp":  -1.08
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-23-gta6-bmx-wrong-stranger/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-23-gta6-bmx-wrong-stranger/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-23-gta6-bmx-wrong-stranger/revision.jpg",
+    "creado":  "2026-11-23T10:36:46.2453628-05:00"
+}

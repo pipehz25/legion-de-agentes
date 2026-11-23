@@ -1,6 +1,6 @@
 {
-    "actualizado":  "2026-11-21T13:23:58-05:00",
-    "ciclo":  4,
+    "actualizado":  "2026-11-23T10:40:36-05:00",
+    "ciclo":  5,
     "ultimo_ciclo_cazador":  15,
     "ultimo_ciclo_cazador_risas":  7,
     "_nota_cazadores":  "Espacio con enfoque propio (GTA VI): los ciclos de los cazadores solo se anotan; sus oportunidades no se usan.",
@@ -8,80 +8,87 @@
     "series":  {
                    "gta-us":  {
                                   "serie":  "Leonida Daily",
-                                  "ultimo_numero":  6,
-                                  "rotacion_hechos":  12,
-                                  "_rotacion":  "voz+atardecer, texto+vice, voz+negro, texto+atardecer, voz+vice, texto+negro; rotacion_hechos cuenta los clips narrados de la cuenta (el siguiente es el índice rotacion_hechos mod 6)"
+                                  "ultimo_numero":  7,
+                                  "rotacion_hechos":  26,
+                                  "_rotacion":  "voz+atardecer, texto+vice, voz+negro, texto+atardecer, voz+vice, texto+negro; rotacion_hechos cuenta los clips narrados de la cuenta (el siguiente es el índice rotacion_hechos mod 6). Cuenta también los de Leonida Fails y los de formato texto. Ciclo 5: índices 12 a 25 (14 clips).",
+                                  "_siguiente":  "voz+negro (índice 26: 26 mod 6 = 2)"
                               },
                    "gta-chases":  {
                                       "serie":  "Getaway Files",
-                                      "ultimo_numero":  7,
-                                      "rotacion_hechos":  13
-                                  }
+                                      "ultimo_numero":  10,
+                                      "rotacion_hechos":  19,
+                                      "_siguiente":  "texto+vice (índice 19: 19 mod 6 = 1)"
+                                  },
+                   "gta-funny":  {
+                                     "serie":  "Leonida Fails",
+                                     "ultimo_numero":  6,
+                                     "_nota":  "Mientras gta-funny está apagada, la serie (y su tono cómico) la usa gta-us con la voz de gta-us, am_michael (enfoque del 2026-11-21). La rotación de formato y color es la de gta-us."
+                                 }
                },
     "_subidos_a_mano":  "Los 20 clips del 2026-11-20 (12 narrados y 8 sin narrar) los subió Santiago a mano a YouTube (carpetas c:\\tmp\\getaway-kings-subir y espacios/gta/subidos-a-mano.md). En clips.json van con estado subido_a_mano para que el Publicador no los tome.",
     "pendientes_proximo_ciclo":  [
                                      {
-                                         "id":  "JP1hFy04VGk",
-                                         "url":  "https://www.youtube.com/watch?v=JP1hFy04VGk",
-                                         "titulo":  "Gta 6 Free To Use Gameplay No Copyright #6 (Fox), 3623 s",
-                                         "prioridad":  "alta",
-                                         "motivo":  "subido el 21-nov; vistazo -Cada 20; ojo a cinemáticas"
-                                     },
-                                     {
                                          "id":  "aCMMDlwYRog",
                                          "url":  "https://www.youtube.com/watch?v=aCMMDlwYRog",
-                                         "titulo":  "Gta 6 Free To Use Gameplay No Copyright #5 (Fox), 3696 s",
+                                         "titulo":  "Fox #5, 3696 s",
                                          "prioridad":  "alta",
-                                         "motivo":  "sin analizar"
+                                         "motivo":  "sin analizar; vistazo -Cada 20 buscando peleas, NPC y policía"
                                      },
                                      {
                                          "id":  "tEEu1JvmSj4",
                                          "url":  "https://www.youtube.com/watch?v=tEEu1JvmSj4",
-                                         "titulo":  "Gta 6 Free To Use Gameplay No Copyright #4 (Fox), 3863 s",
+                                         "titulo":  "Fox #4, 3863 s",
                                          "prioridad":  "alta",
                                          "motivo":  "sin analizar"
                                      },
                                      {
-                                         "id":  "qhNfi1p13xw",
-                                         "url":  "https://www.youtube.com/watch?v=qhNfi1p13xw",
-                                         "titulo":  "Gta 6 Down To Earth (Ftug), 1331 s",
+                                         "id":  "8EB9rKECeLg",
+                                         "url":  "https://www.youtube.com/watch?v=8EB9rKECeLg",
+                                         "titulo":  "Gta 6 Kingfishers Roadblock (Ftug), 125 s",
                                          "prioridad":  "alta",
-                                         "motivo":  "sin analizar; Ftug sube vida diaria (licencia CC BY)"
+                                         "motivo":  "Ftug, 22-nov: posible caos con una banda; mirar antes"
                                      },
                                      {
-                                         "id":  "aHvn9IrnxKs",
-                                         "url":  "https://www.youtube.com/watch?v=aHvn9IrnxKs",
-                                         "titulo":  "Exploring the Beaches of Vice City (GTA 6 No Copyright Gameplay), 945 s",
-                                         "prioridad":  "alta",
-                                         "motivo":  "vistazo hecho; para gta-chases: camioneta de salvavidas por la arena entre sombrillas 0:22-1:40 y policía 2:22, wasted 3:22"
-                                     },
-                                     {
-                                         "id":  "e5x7k8fBqHM",
-                                         "url":  "https://www.youtube.com/watch?v=e5x7k8fBqHM",
-                                         "titulo":  "Fox #2, 3807 s",
+                                         "id":  "wA-CB1S_vi4",
+                                         "url":  "https://www.youtube.com/watch?v=wA-CB1S_vi4",
+                                         "titulo":  "Gta 6 Truck Bed With Gasoline (Ftug), 156 s",
                                          "prioridad":  "media",
-                                         "motivo":  "vistazo hecho; quedan: café 28:40, nado en el muelle 45:00-52:30, sube a la lancha 51:20, caída en bici 54:45"
+                                         "motivo":  "Ftug, 22-nov: posible caos (gasolina)"
                                      },
                                      {
-                                         "id":  "TNGvT17c8Qg",
-                                         "url":  "https://www.youtube.com/watch?v=TNGvT17c8Qg",
-                                         "titulo":  "GTA 6 NO COPYRIGHT GAMEPLAY 4k 60FPS (GTA 6 No Copyright Gameplay), 951 s",
+                                         "id":  "-FB_1F5J2aM",
+                                         "url":  "https://www.youtube.com/watch?v=-FB_1F5J2aM",
+                                         "titulo":  "Gta 6 Street M7 Gang (Ftug), 155 s",
                                          "prioridad":  "media",
-                                         "motivo":  "sin analizar; mismo canal: también qJBh49SytJw (552 s), YUUqKqzF1_8 (711 s) y 4IVyqMT4_30 (246 s)"
+                                         "motivo":  "Ftug, 23-nov"
                                      },
                                      {
-                                         "id":  "iprJvxJm5Lo",
-                                         "url":  "https://www.youtube.com/watch?v=iprJvxJm5Lo",
-                                         "titulo":  "Gta 6 Relaxing Uber Drive #2 (Ftug), 295 s",
-                                         "prioridad":  "baja",
-                                         "motivo":  "parecido al de RydeMe ya cortado; solo si trae algo nuevo"
+                                         "id":  "fIyXySnqDi8",
+                                         "url":  "https://www.youtube.com/watch?v=fIyXySnqDi8",
+                                         "titulo":  "Police Chase Gone Wild (GTA 6 No Copyright Gameplay)",
+                                         "prioridad":  "media",
+                                         "motivo":  "para gta-chases: tiroteo con la patrulla junto a la cárcel (4:14-4:44)"
+                                     },
+                                     {
+                                         "id":  "JP1hFy04VGk",
+                                         "url":  "https://www.youtube.com/watch?v=JP1hFy04VGk",
+                                         "titulo":  "Fox #6",
+                                         "prioridad":  "media",
+                                         "motivo":  "para gta-chases: final de la persecución al atardecer, por el campo hasta estrellarse (1495-1513)"
+                                     },
+                                     {
+                                         "id":  "NQOJJy8Jp4U",
+                                         "url":  "https://www.youtube.com/watch?v=NQOJJy8Jp4U",
+                                         "titulo":  "Gta 6 Crazy DMT TRIP (Ftug), 291 s",
+                                         "prioridad":  "no",
+                                         "motivo":  "drogas en el título; no se miró"
                                      },
                                      {
                                          "id":  "ez-k5ZhOpx4",
                                          "url":  "https://www.youtube.com/watch?v=ez-k5ZhOpx4",
                                          "titulo":  "Fox #3 (restringido por edad)",
                                          "prioridad":  "no",
-                                         "motivo":  "YouTube lo restringe por edad (pide iniciar sesión): probablemente contenido para adultos; no usar"
+                                         "motivo":  "YouTube lo restringe por edad: no usar"
                                      },
                                      {
                                          "id":  "iv3weU3gUA8",
@@ -144,16 +151,16 @@
                     {
                         "id":  "konZi0msk6A",
                         "url":  "https://www.youtube.com/watch?v=konZi0msk6A",
-                        "titulo":  "Gta 6 Daily Activities Vlog #1 (Ftug - No Copyright Gameplay)",
+                        "titulo":  "Gta 6 Daily Activities Vlog #1 (Ftug - No Copyright Gameplay), 782 s",
                         "analizado":  "2026-11-20",
-                        "resultado":  "2026-11-20: 5 clips (jason-morning-snake, keys-commute-pov y smoothie-buffs narrados; beach-camp-brawl y kayak-the-keys sin narrar), todos subidos a mano. Libre de uso (CC BY)."
+                        "resultado":  "5 clips del 20-nov (beach-camp-brawl 410-455, el que mejor ha funcionado) y en el ciclo 5 beach-camp-grandpa (347.5-368) y beach-camp-afterparty (459-486). No cortar 339-347 (doble sentido sexual del NPC). Sin usar: el campista que se despierta y se va (487-500)"
                     },
                     {
                         "id":  "e5x7k8fBqHM",
                         "url":  "https://www.youtube.com/watch?v=e5x7k8fBqHM",
-                        "titulo":  "Gta 6 Free To Use Gameplay No Copyright FOR TIKTOK \u0026 YOUTUBE No Commentary #2 (Fox - No Copyright Gameplay)",
+                        "titulo":  "Fox #2, 3807 s",
                         "analizado":  "2026-11-20",
-                        "resultado":  "Clips: bike-helmet-pov, dock-selfie-pov, record-parrotfish (20-nov, subidos a mano); underwater-hideout (2598-2620, 21-nov). Sin usar: pesas en la terraza 0:30-3:30, barba en el espejo 10:30-11:20, café 28:40, aros de baloncesto 29:40-31:10, nado en el muelle 45:00-52:30, caída en bici 54:45, mapa con \u0027Fix your car\u0027 62:49"
+                        "resultado":  "vistazo hecho; clips: bike-helmet-pov, dock-selfie-pov, record-parrotfish, underwater-hideout, deck-leg-day, jason-beard-check y, en el ciclo 5, bike-faceplant (3283-3303). Quedan: café 28:40, nado en el muelle 45:00-52:30"
                     },
                     {
                         "id":  "T9EEBZ9YUmo",
@@ -167,14 +174,14 @@
                         "url":  "https://www.youtube.com/watch?v=fIyXySnqDi8",
                         "titulo":  "GTA 6 Police Chase Gone Wild – Free to Use Gameplay (GTA 6 No Copyright Gameplay), 632 s",
                         "analizado":  "2026-11-20",
-                        "resultado":  "2026-11-20: 3 clips narrados subidos a mano (lifted-truck-crash 0:20, switch-car 1:36, prison-wasted 6:34). Libre de uso con condiciones (clips cortos editados)."
+                        "resultado":  "clips: lifted-truck-crash, switch-car, prison-wasted (20-nov) y getaway-car-pole (204.5-224, ciclo 5). Sin usar: tiroteo con una patrulla junto a la cárcel (4:14-4:44), sedán rojo derrapando en el puente (0:44-1:34)"
                     },
                     {
                         "id":  "Rg-AzVZzfOs",
                         "url":  "https://www.youtube.com/watch?v=Rg-AzVZzfOs",
                         "titulo":  "GTA 6 Max Wanted Level 6 Star Police Chase 4k 60 (GTA 6 No Copyright Gameplay), 273 s",
                         "analizado":  "2026-11-20",
-                        "resultado":  "2026-11-20: 3 clips narrados subidos a mano (tank-yard-getaway 2:06, six-star-tank 3:00, psycho-wasted 4:13). Video corto: casi agotado."
+                        "resultado":  "clips: tank-yard-getaway (126-143), six-star-tank (180-203), psycho-wasted (253-271) y air-base-gate (92-112, ciclo 5). Casi agotado: queda la conducción del principio (0-90)"
                     },
                     {
                         "id":  "YLiWA88e8kI",
@@ -195,7 +202,7 @@
                         "url":  "https://www.youtube.com/watch?v=NvAjQqKLNsc",
                         "titulo":  "Things Get Crazy in GTA 6! (GTA 6 No Copyright Gameplay), 510 s",
                         "analizado":  "2026-11-21",
-                        "resultado":  "vistazo cada 10 s; clips: swamp-shortcut (176-197) y humvee-heist (405-425). Sin usar: nado en el pantano 3:14-3:44, huida campo a través con wasted 7:05-8:15"
+                        "resultado":  "clips: swamp-shortcut (176-197), humvee-heist (405-425) y humvee-army-chase (424-450, ciclo 5). Sin usar: a pie en el manglar, disparos y WASTED (460-492)"
                     },
                     {
                         "id":  "OJ8CIqN9kAk",
@@ -216,7 +223,7 @@
                         "url":  "https://www.youtube.com/watch?v=aHvn9IrnxKs",
                         "titulo":  "Exploring the Beaches of Vice City in GTA 6! (GTA 6 No Copyright Gameplay), 945 s",
                         "analizado":  "2026-11-21",
-                        "resultado":  "vistazo cada 15 s (los dos primeros intentos dieron HTTP 403). Clips: sunset-canal-dive (573-594). Sin usar: camioneta de salvavidas por la arena entre sombrillas 0:22-1:40 (bueno para gta-chases), cocina 12:00-12:20, libro 12:30-12:50, baloncesto junto a la casa 13:35-14:00; aviso del depósito arriba a la izquierda en 12:22"
+                        "resultado":  "vistazo cada 15 s. Clips: sunset-canal-dive (573-594) y jason-hoops (814-836) del ciclo 4; lifeguard-truck-rampage (46-72), lifeguard-truck-pit (123-151), van-hiding-spot (182-205) y crosswalk-not-interested (238-266) del ciclo 5. La huida de la camioneta de salvavidas queda entera en tres clips. Sin usar: cocina 12:00-12:20"
                     },
                     {
                         "id":  "KEZGlWgSRwI",
@@ -224,6 +231,69 @@
                         "titulo":  "Gta 6 Bmx Stunt Jump (Ftug - No Copyright Gameplay), 313 s",
                         "analizado":  "2026-11-21",
                         "resultado":  "vistazo cada 10 s; clips: bmx-rooftop-jump (105-126). Sin usar: otros saltos con cámara aérea hacia 3:00 y 4:10, rampa de la obra 4:30"
+                    },
+                    {
+                        "id":  "9d6Sx0tWbnc",
+                        "url":  "https://www.youtube.com/watch?v=9d6Sx0tWbnc",
+                        "titulo":  "Gta 6 Bro Pulled a Knife Out (Ftug - No Copyright Gameplay), 126 s",
+                        "analizado":  "2026-11-21",
+                        "resultado":  "vistazo cada 5 s y whisper; clips: crypto-fence-fight (91-110). Sin usar: la charla de la crypto (63-91), que va de contexto en el texto; la motel con chicas al principio (0:19-0:40), no cortar"
+                    },
+                    {
+                        "id":  "WDu2N9L53r0",
+                        "url":  "https://www.youtube.com/watch?v=WDu2N9L53r0",
+                        "titulo":  "Gta 6 Crazy Psycho Woman \u0026 simps (Ftug - No Copyright Gameplay), 212 s",
+                        "analizado":  "2026-11-21",
+                        "resultado":  "vistazo cada 5 s y whisper; 4 clips en saga: bmx-wrong-stranger (4-19.8), stranger-roast (19.8-40), three-guys-brawl (121-143) y two-on-one (165-193). Agotado"
+                    },
+                    {
+                        "id":  "wDT5edohTfY",
+                        "url":  "https://www.youtube.com/watch?v=wDT5edohTfY",
+                        "titulo":  "This Car Jump in GTA 6 Is INSANE! (GTA 6 No Copyright Gameplay), 1032 s",
+                        "analizado":  "2026-11-21",
+                        "resultado":  "vistazo cada 10 s; clips: broken-bridge-jump (35-59), pole-after-jump (81.5-97) y bridge-traffic-carjack (852-872). Descartado: la pelea del peaje (301-312), porque acaba pisoteando a una mujer en el suelo. Sin usar: salto del puente al agua (10:04-10:30), el descapotable después del robo (872-900). Licencia estándar de YouTube; permiso en el título y en las Usage Rules (piden suscribirse)"
+                    },
+                    {
+                        "id":  "JP1hFy04VGk",
+                        "url":  "https://www.youtube.com/watch?v=JP1hFy04VGk",
+                        "titulo":  "Gta 6 Free To Use Gameplay No Copyright #6 (Fox - No Copyright Gameplay), 3623 s",
+                        "analizado":  "2026-11-21",
+                        "resultado":  "vistazo cada 20 s: casi todo robos en casas y misiones. Clip: sunset-sign-shortcut (1474-1492). Sin usar: la misma persecución por el campo hasta estrellar el descapotable (1495-1513). Mujer en ropa de deporte en un callejón (18:49-19:09): no cortar"
+                    },
+                    {
+                        "id":  "qhNfi1p13xw",
+                        "url":  "https://www.youtube.com/watch?v=qhNfi1p13xw",
+                        "titulo":  "Gta 6 Down To Earth (Ftug - No Copyright Gameplay), 1331 s",
+                        "analizado":  "2026-11-21",
+                        "resultado":  "sin clips: es una misión de la historia (Brian, avioneta, entregas) con cinemáticas"
+                    },
+                    {
+                        "id":  "qJBh49SytJw",
+                        "url":  "https://www.youtube.com/watch?v=qJBh49SytJw",
+                        "titulo":  "GTA 6 NO COPYRIGHT GAMEPLAY – Free to Use 4k 60 FPS Open World Gameplay (GTA 6 No Copyright Gameplay), 552 s",
+                        "analizado":  "2026-11-21",
+                        "resultado":  "vistazo cada 10 s: casi todo conducción tranquila. Sin usar: choque en la autopista y robo de la camioneta de una empresa (3:00-3:40)"
+                    },
+                    {
+                        "id":  "tmzTui40KY4",
+                        "url":  "https://www.youtube.com/watch?v=tmzTui40KY4",
+                        "titulo":  "Gta 6 Lucia Fighting 6 Guys (Ftug - No Copyright Gameplay), 289 s",
+                        "analizado":  "2026-11-23",
+                        "resultado":  "vistazo cada 5 s y whisper; clips: lucia-vs-six (40-66). Descartado: la segunda parte (112-140), porque se ve el letrero «SHOW BAR» (parece un club) y un cartel en la pared. Los piropos con doble sentido del principio (0:07-0:13) no se cortan. Sin usar: Lucía en la tienda (3:00-4:50), tranquilo"
+                    },
+                    {
+                        "id":  "sWMpMe58psk",
+                        "url":  "https://www.youtube.com/watch?v=sWMpMe58psk",
+                        "titulo":  "Gta 6 Jealous Karen \u0026 Simp (Ftug - No Copyright Gameplay), 171 s",
+                        "analizado":  "2026-11-23",
+                        "resultado":  "sin clips: los NPC hablan con contenido sexual explícito (0:05-0:16 y 0:59) y en la pelea final (2:02-2:27) Jason golpea a una mujer. No cortar"
+                    },
+                    {
+                        "id":  "9pcbkb3Ez-A",
+                        "url":  "https://www.youtube.com/watch?v=9pcbkb3Ez-A",
+                        "titulo":  "Gta 6 Petting People\u0027s Dog (Ftug - No Copyright Gameplay), 176 s",
+                        "analizado":  "2026-11-23",
+                        "resultado":  "sin clips: casi todo tranquilo (acariciar perros en la playa); la discusión del final (2:12-2:40) no tiene acción. Frase graciosa sin usar: «That\u0027s a lot of dog. — Thank you, he was very expensive» (0:10-0:15)"
                     }
                 ],
     "momentos":  [
@@ -991,6 +1061,249 @@
                          "clip":  null,
                          "variante_de":  null,
                          "motivo":  "historia: salida de Lucía de la cárcel y escenas en el bar (cinemáticas) y una app de citas con texto sexual (19:29-19:49). No cortar"
+                     },
+                     {
+                         "fuente":  "aHvn9IrnxKs",
+                         "inicio":  46,
+                         "fin":  72,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-21-gta6-lifeguard-truck-rampage",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "WDu2N9L53r0",
+                         "inicio":  19.8,
+                         "fin":  40,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-21-gta6-stranger-roast",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "WDu2N9L53r0",
+                         "inicio":  121,
+                         "fin":  143,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-21-gta6-three-guys-brawl",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "9d6Sx0tWbnc",
+                         "inicio":  91,
+                         "fin":  110,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-21-gta6-crypto-fence-fight",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "wDT5edohTfY",
+                         "inicio":  81.5,
+                         "fin":  97,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-21-gta6-pole-after-jump",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "wDT5edohTfY",
+                         "inicio":  35,
+                         "fin":  59,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-21-gta6-broken-bridge-jump",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "konZi0msk6A",
+                         "inicio":  459,
+                         "fin":  486,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-21-gta6-beach-camp-afterparty",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "wDT5edohTfY",
+                         "inicio":  301,
+                         "fin":  312,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "pelea en el peaje: una mujer lo ataca con un bate y él la pisotea en el suelo; violencia gratuita contra una mujer, mala imagen para un canal de humor"
+                     },
+                     {
+                         "fuente":  "aHvn9IrnxKs",
+                         "inicio":  227,
+                         "fin":  265,
+                         "estado":  "cortado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "se cortó como 2026-11-23-gta6-crosswalk-not-interested (238-266)"
+                     },
+                     {
+                         "fuente":  "konZi0msk6A",
+                         "inicio":  336,
+                         "fin":  362,
+                         "estado":  "cortado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "se cortó como 2026-11-23-gta6-beach-camp-grandpa (347.5-368), sin el doble sentido de 343-346"
+                     },
+                     {
+                         "fuente":  "tmzTui40KY4",
+                         "inicio":  40,
+                         "fin":  66,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-23-gta6-lucia-vs-six",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "aHvn9IrnxKs",
+                         "inicio":  238,
+                         "fin":  266,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-23-gta6-crosswalk-not-interested",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "konZi0msk6A",
+                         "inicio":  347.5,
+                         "fin":  368,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-23-gta6-beach-camp-grandpa",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "e5x7k8fBqHM",
+                         "inicio":  3283,
+                         "fin":  3303,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-23-gta6-bike-faceplant",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "wDT5edohTfY",
+                         "inicio":  852,
+                         "fin":  872,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-23-gta6-bridge-traffic-carjack",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "WDu2N9L53r0",
+                         "inicio":  165,
+                         "fin":  193,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-23-gta6-two-on-one",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "WDu2N9L53r0",
+                         "inicio":  4,
+                         "fin":  19.8,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-23-gta6-bmx-wrong-stranger",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "fIyXySnqDi8",
+                         "inicio":  204.5,
+                         "fin":  224,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-23-gta6-getaway-car-pole",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "aHvn9IrnxKs",
+                         "inicio":  123,
+                         "fin":  151,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-23-gta6-lifeguard-truck-pit",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "JP1hFy04VGk",
+                         "inicio":  1474,
+                         "fin":  1492,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-23-gta6-sunset-sign-shortcut",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "NvAjQqKLNsc",
+                         "inicio":  424,
+                         "fin":  450,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-23-gta6-humvee-army-chase",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "Rg-AzVZzfOs",
+                         "inicio":  92,
+                         "fin":  112,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-23-gta6-air-base-gate",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "aHvn9IrnxKs",
+                         "inicio":  182,
+                         "fin":  205,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-23-gta6-van-hiding-spot",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "tmzTui40KY4",
+                         "inicio":  112,
+                         "fin":  140,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "cortado y narrado como lucia-vs-six-part-two y borrado: a los 13-15 s se lee el letrero «SHOW BAR» (parece un club de striptease) y hay un cartel en la pared; el enfoque no admite nada de clubes"
+                     },
+                     {
+                         "fuente":  "sWMpMe58psk",
+                         "inicio":  0,
+                         "fin":  171,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "diálogo sexual explícito de los NPC y, en la pelea, Jason golpea a una mujer"
+                     },
+                     {
+                         "fuente":  "9pcbkb3Ez-A",
+                         "inicio":  0,
+                         "fin":  176,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "tranquilo (acariciar perros); sin la acción que pide el enfoque"
+                     },
+                     {
+                         "fuente":  "JP1hFy04VGk",
+                         "inicio":  1474.1,
+                         "fin":  1492,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "primer corte (cops-say-give-up) borrado: el texto citaba un megáfono («give it up») que whisper repetía en bucle y que no está en el tramo; se volvió a cortar como sunset-sign-shortcut con texto comprobado"
                      }
                  ],
     "clips_ciclo4":  [
@@ -1007,5 +1320,29 @@
                          "2026-11-21-gta6-sunset-canal-dive",
                          "2026-11-21-gta6-jason-hoops",
                          "2026-11-21-gta6-bmx-rooftop-jump"
-                     ]
+                     ],
+    "clips_ciclo5":  [
+                         "2026-11-21-gta6-lifeguard-truck-rampage",
+                         "2026-11-21-gta6-stranger-roast",
+                         "2026-11-21-gta6-three-guys-brawl",
+                         "2026-11-21-gta6-crypto-fence-fight",
+                         "2026-11-21-gta6-pole-after-jump",
+                         "2026-11-21-gta6-broken-bridge-jump",
+                         "2026-11-21-gta6-beach-camp-afterparty",
+                         "2026-11-23-gta6-lucia-vs-six",
+                         "2026-11-23-gta6-crosswalk-not-interested",
+                         "2026-11-23-gta6-beach-camp-grandpa",
+                         "2026-11-23-gta6-bike-faceplant",
+                         "2026-11-23-gta6-bridge-traffic-carjack",
+                         "2026-11-23-gta6-two-on-one",
+                         "2026-11-23-gta6-bmx-wrong-stranger",
+                         "2026-11-23-gta6-getaway-car-pole",
+                         "2026-11-23-gta6-lifeguard-truck-pit",
+                         "2026-11-23-gta6-sunset-sign-shortcut",
+                         "2026-11-23-gta6-humvee-army-chase",
+                         "2026-11-23-gta6-air-base-gate",
+                         "2026-11-23-gta6-van-hiding-spot"
+                     ],
+    "_ciclo5":  "Empezó el 2026-11-21 (20:38), se cortó con 7 clips sin ficha y se retomó el 2026-11-23: se terminaron, se rehicieron en 1440x2560 (pedido del usuario del 23-nov) y se añadieron 13 más. Se analizaron 9 fuentes nuevas (3 más que max_fuentes_por_ciclo, por el pedido de más clips del 23-nov).",
+    "_resolucion":  "Desde el 2026-11-23 todo se corta con -Resolucion 1440 y se narra con -Logo (vale la ruta relativa). narrar.ps1 tenía un fallo en las narraciones con voz en 1440 (el logo salía fuera del cuadro porque la escala se llamaba $k, igual que el índice de los subtítulos); se arregló llamándola $escala."
 }

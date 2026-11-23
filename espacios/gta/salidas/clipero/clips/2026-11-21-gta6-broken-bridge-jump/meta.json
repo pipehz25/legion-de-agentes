@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-21-gta6-broken-bridge-jump",
+    "url_fuente":  "https://www.youtube.com/watch?v=wDT5edohTfY",
+    "video_id":  "wDT5edohTfY",
+    "inicio":  35,
+    "fin":  59,
+    "inicio_hms":  "0:00:35",
+    "duracion_seg":  24,
+    "gancho":  "Leonida Daily #7: the broken bridge jump",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "negro",
+    "resolucion":  "1440x2560",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14.1,
+                  "limitador":  true,
+                  "entrada_lufs":  -21.5,
+                  "entrada_tp":  -8.45,
+                  "salida_lufs":  -14.04,
+                  "salida_tp":  -1.05
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-broken-bridge-jump/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-broken-bridge-jump/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-broken-bridge-jump/revision.jpg",
+    "creado":  "2026-11-23T09:19:10.2690553-05:00"
+}

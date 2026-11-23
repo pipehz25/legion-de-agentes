@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-23-gta6-getaway-car-pole",
+    "url_fuente":  "https://www.youtube.com/watch?v=fIyXySnqDi8",
+    "video_id":  "fIyXySnqDi8",
+    "inicio":  204.5,
+    "fin":  224,
+    "inicio_hms":  "0:03:24",
+    "duracion_seg":  19.5,
+    "gancho":  "POV: your getaway car meets a pole",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "vice",
+    "resolucion":  "1440x2560",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14.1,
+                  "limitador":  true,
+                  "entrada_lufs":  -27.16,
+                  "entrada_tp":  -14.11,
+                  "salida_lufs":  -14.04,
+                  "salida_tp":  -1.05
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-23-gta6-getaway-car-pole/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-23-gta6-getaway-car-pole/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-23-gta6-getaway-car-pole/revision.jpg",
+    "creado":  "2026-11-23T10:02:58.9583390-05:00"
+}

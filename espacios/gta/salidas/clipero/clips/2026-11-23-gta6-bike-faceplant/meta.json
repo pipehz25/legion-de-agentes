@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-23-gta6-bike-faceplant",
+    "url_fuente":  "https://www.youtube.com/watch?v=e5x7k8fBqHM",
+    "video_id":  "e5x7k8fBqHM",
+    "inicio":  3283,
+    "fin":  3303,
+    "inicio_hms":  "0:54:43",
+    "duracion_seg":  20,
+    "gancho":  "Leonida Fails #5: the bike won",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "vice",
+    "resolucion":  "1440x2560",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14.1,
+                  "limitador":  true,
+                  "entrada_lufs":  -28.95,
+                  "entrada_tp":  -15.92,
+                  "salida_lufs":  -14.19,
+                  "salida_tp":  -1.07
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-23-gta6-bike-faceplant/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-23-gta6-bike-faceplant/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-23-gta6-bike-faceplant/revision.jpg",
+    "creado":  "2026-11-23T09:52:38.5285811-05:00"
+}

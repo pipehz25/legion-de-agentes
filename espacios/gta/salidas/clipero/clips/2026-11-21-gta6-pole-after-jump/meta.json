@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-21-gta6-pole-after-jump",
+    "url_fuente":  "https://www.youtube.com/watch?v=wDT5edohTfY",
+    "video_id":  "wDT5edohTfY",
+    "inicio":  81.5,
+    "fin":  97,
+    "inicio_hms":  "0:01:21",
+    "duracion_seg":  15.5,
+    "gancho":  "POV: you survived the bridge jumps",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "vice",
+    "resolucion":  "1440x2560",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14.7,
+                  "limitador":  true,
+                  "entrada_lufs":  -22.3,
+                  "entrada_tp":  -8.61,
+                  "salida_lufs":  -14.41,
+                  "salida_tp":  -1.01
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-pole-after-jump/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-pole-after-jump/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-21-gta6-pole-after-jump/revision.jpg",
+    "creado":  "2026-11-23T09:17:54.7642418-05:00"
+}
