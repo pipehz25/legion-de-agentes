@@ -246,11 +246,73 @@ function SubirYoutube($envio, [string]$archivo) {
     } catch { throw (ErrorHttp $_) }
     $destino = Cabecera $r 'Location'
     if (-not $destino) { throw 'YouTube no devolvio la direccion de subida' }
-    try { $v = Invoke-RestMethod -Method Put -Uri $destino -InFile $archivo -ContentType 'video/mp4' -Headers @{ Authorization = "Bearer $tok" } -TimeoutSec 1800 }
-    catch { throw (ErrorHttp $_) }
+    $v = SubirPartesYoutube $destino $archivo $tok
     $r = [ordered]@{ id_publicacion = $v.id; url = "https://www.youtube.com/shorts/$($v.id)"; estado = 'publicado'; privacidad = $v.status.privacyStatus }
     if ($cuando) { $r.programado = $cuando.ToString("yyyy-MM-dd'T'HH:mm:sszzz", $cultura) }
     $r
+}
+# Un PUT a la direccion de subida reanudable: con $n bytes de $buf desde el byte $desde, o con $n = 0 solo pregunta
+# cuanto ha recibido YouTube (Content-Range: bytes */total). Devuelve el codigo HTTP, la cabecera Range y el cuerpo.
+function PutParteYoutube([string]$destino, [byte[]]$buf, [int]$n, [long]$desde, [long]$tam, [string]$tok) {
+    $req = [Net.HttpWebRequest]::Create($destino)
+    $req.Method = 'PUT'
+    $req.AllowAutoRedirect = $false
+    $req.Timeout = 300000
+    $req.ReadWriteTimeout = 300000
+    $req.AllowWriteStreamBuffering = $false
+    $req.ServicePoint.Expect100Continue = $false
+    $req.ContentType = 'video/mp4'
+    $req.ContentLength = $n
+    $req.Headers.Add('Authorization', "Bearer $tok")
+    $rango = if ($n -gt 0) { "bytes $desde-$($desde + $n - 1)/$tam" } else { "bytes */$tam" }
+    $req.Headers.Add('Content-Range', $rango)
+    if ($n -gt 0) { $s = $req.GetRequestStream(); try { $s.Write($buf, 0, $n) } finally { $s.Close() } }
+    try { $resp = $req.GetResponse() }
+    catch [Net.WebException] { $resp = $_.Exception.Response; if (-not $resp) { throw } }
+    try {
+        $cuerpo = (New-Object IO.StreamReader($resp.GetResponseStream())).ReadToEnd()
+        [pscustomobject]@{ codigo = [int]$resp.StatusCode; rango = [string]$resp.Headers['Range']; cuerpo = $cuerpo }
+    } finally { $resp.Close() }
+}
+# Sube el archivo por partes de 8 MB (multiplo de 256 KB, como pide YouTube). Si una parte se corta (HTTP 0) o
+# YouTube responde 5xx, pregunta cuantos bytes llegaron y sigue desde ahi; se rinde tras 6 fallos seguidos.
+# Antes iba en un solo PUT: con un corte, el video quedaba creado pero incompleto ("uploaded" para siempre).
+function SubirPartesYoutube([string]$destino, [string]$archivo, [string]$tok) {
+    $tam = (Get-Item -LiteralPath $archivo).Length
+    $parte = 8MB
+    $buf = New-Object byte[] $parte
+    $fs = [IO.File]::OpenRead($archivo)
+    try {
+        $desde = [long]0
+        $fallos = 0
+        while ($true) {
+            $r = $null
+            try {
+                $fs.Position = $desde
+                $n = 0
+                while ($n -lt $parte) { $leidos = $fs.Read($buf, $n, $parte - $n); if ($leidos -le 0) { break }; $n += $leidos }
+                $r = PutParteYoutube $destino $buf $n $desde $tam $tok
+            } catch { $r = $null; $motivo = $_.Exception.Message }
+            if ($r -and $r.codigo -in 200, 201) { return ($r.cuerpo | ConvertFrom-Json) }
+            if ($r -and $r.codigo -eq 308) {
+                # Range: bytes=0-N -> lo siguiente es N+1; sin Range no llego nada
+                $desde = if ($r.rango -match '-(\d+)$') { [long]$Matches[1] + 1 } else { [long]0 }
+                $fallos = 0
+                continue
+            }
+            if ($r -and $r.codigo -lt 500) { throw "YouTube rechazo la subida: HTTP $($r.codigo) $($r.cuerpo -replace '\s+', ' ')" }
+            if ($r) { $motivo = "HTTP $($r.codigo)" }
+            $fallos++
+            if ($fallos -ge 6) { throw "La subida se corto 6 veces seguidas en el byte $desde de $($tam): $motivo" }
+            Write-Host "Se corto la subida en el byte $desde de $tam ($motivo). Se pregunta a YouTube cuanto llego y se sigue."
+            Start-Sleep -Seconds ([math]::Min(30, 3 * $fallos))
+            try {
+                $q = PutParteYoutube $destino $buf 0 0 $tam $tok
+                if ($q.codigo -in 200, 201) { return ($q.cuerpo | ConvertFrom-Json) }
+                if ($q.codigo -eq 308) { $desde = if ($q.rango -match '-(\d+)$') { [long]$Matches[1] + 1 } else { [long]0 } }
+            } catch { }
+        }
+    } finally { $fs.Close() }
 }
 # Hora de publicacion programada del envio ("programado", ISO 8601 con zona), o $null si no trae
 function FechaProgramada($envio) {
