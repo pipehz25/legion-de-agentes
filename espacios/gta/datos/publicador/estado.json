@@ -1,7 +1,7 @@
 {
-    "actualizado":  "2026-11-23T09:36:29-05:00",
-    "ciclo":  3,
-    "ultimo_ciclo_clipero":  4,
+    "actualizado":  "2026-11-23T11:03:40-05:00",
+    "ciclo":  4,
+    "ultimo_ciclo_clipero":  5,
     "entradas":  [
                      {
                          "clip":  "2026-11-20-gta6-switch-car",
@@ -375,7 +375,7 @@
                                                },
                          "id_publicacion":  "GXcfHGk3zgA",
                          "url":  "https://www.youtube.com/shorts/GXcfHGk3zgA",
-                         "privacidad":  "private",
+                         "privacidad":  "public",
                          "publicado":  "2026-11-21T18:37:54-05:00",
                          "programado":  "2026-11-23T10:00:00-05:00",
                          "motivo":  "Aprobado por el usuario en el chat (lote 1, 2026-11-21): subir ya, programado; tope de 5 al dia por canal contado por dia de publicacion."
@@ -875,6 +875,447 @@
                          "publicado":  "2026-11-23T09:28:58-05:00",
                          "programado":  "2026-11-24T09:00:00-05:00",
                          "motivo":  "Aprobado por el usuario en el chat el 2026-11-23 a las 09:22, transmitido por el orquestador: \"sube las que estan de mejor calidad por favor en este momento\" (los 5 clips de gta-us en la calidad nueva, 1440x2560 a 60 fps). Ciclo 3 (2026-11-23T09:28:58-05:00): subido al primer intento, privado con publishAt 2026-11-24T14:00:00Z (= 09:00-05:00); processed a las 09:30. El Clipero volvio a renderizar su narrado.mp4 a las 09:27:42 (mismo guion); se subio esa version, ya terminada."
+                     },
+                     {
+                         "clip":  "2026-11-21-gta6-crypto-fence-fight",
+                         "plataforma":  "youtube",
+                         "cuenta":  "gta-us",
+                         "pieza":  "2026-11-21-gta6-crypto-fence-fight",
+                         "gancho":  "POV: they think you\u0027re selling crypto",
+                         "estado":  "publicado",
+                         "envio":  "espacios/gta/datos/publicador/envios/2026-11-21-gta6-crypto-fence-fight__youtube.json",
+                         "puntaje":  84,
+                         "derechos":  "autorizado",
+                         "ventana_hasta":  "2026-11-30",
+                         "creado":  "2026-11-23T10:56:00-05:00",
+                         "aprobado":  "2026-11-23T10:53:00-05:00",
+                         "intentos":  1,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-23T10:58:00-05:00",
+                                                   "ok":  true,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null
+                                               },
+                         "id_publicacion":  "IYRnUm-8R9Q",
+                         "url":  "https://www.youtube.com/shorts/IYRnUm-8R9Q",
+                         "privacidad":  "private",
+                         "publicado":  "2026-11-23T10:59:28-05:00",
+                         "programado":  "2026-11-24T15:00:00-05:00",
+                         "motivo":  "Aprobado por el usuario en el chat el 2026-11-23, transmitido por el orquestador: Santiago vio la lista de los 15 clips con sus fechas y escribio \"empieza a subirlos por favor ya\". Aprobado para YouTube con la cuenta y la hora programada que dio el usuario; se le aviso de las groserias de NPC y de que las frases citadas salen de whisper, y aprobo igual. Tope de 5 al dia por canal contado por dia de publicacion. Ciclo 4 (2026-11-23T10:59:28-05:00): subido al intento 1, private con publishAt en 2026-11-24T15:00:00-05:00. Comprobado a las 11:03: processed, privado con publishAt 2026-11-24T20:00:00Z."
+                     },
+                     {
+                         "clip":  "2026-11-23-gta6-bike-faceplant",
+                         "plataforma":  "youtube",
+                         "cuenta":  "gta-us",
+                         "pieza":  "2026-11-23-gta6-bike-faceplant",
+                         "gancho":  "Leonida Fails #5: the bike won",
+                         "estado":  "publicado",
+                         "envio":  "espacios/gta/datos/publicador/envios/2026-11-23-gta6-bike-faceplant__youtube.json",
+                         "puntaje":  76,
+                         "derechos":  "autorizado",
+                         "ventana_hasta":  "2026-11-30",
+                         "creado":  "2026-11-23T10:56:00-05:00",
+                         "aprobado":  "2026-11-23T10:53:00-05:00",
+                         "intentos":  1,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-23T10:58:00-05:00",
+                                                   "ok":  true,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null
+                                               },
+                         "id_publicacion":  "8uefK6RVP3Y",
+                         "url":  "https://www.youtube.com/shorts/8uefK6RVP3Y",
+                         "privacidad":  "private",
+                         "publicado":  "2026-11-23T11:02:05-05:00",
+                         "programado":  "2026-11-24T18:00:00-05:00",
+                         "motivo":  "Aprobado por el usuario en el chat el 2026-11-23, transmitido por el orquestador: Santiago vio la lista de los 15 clips con sus fechas y escribio \"empieza a subirlos por favor ya\". Aprobado para YouTube con la cuenta y la hora programada que dio el usuario; se le aviso de las groserias de NPC y de que las frases citadas salen de whisper, y aprobo igual. Tope de 5 al dia por canal contado por dia de publicacion. Ciclo 4 (2026-11-23T11:02:05-05:00): subido al intento 1, private con publishAt en 2026-11-24T18:00:00-05:00. Comprobado a las 11:03: processed, privado con publishAt 2026-11-24T23:00:00Z."
+                     },
+                     {
+                         "clip":  "2026-11-23-gta6-beach-camp-grandpa",
+                         "plataforma":  "youtube",
+                         "cuenta":  "gta-us",
+                         "pieza":  "2026-11-23-gta6-beach-camp-grandpa",
+                         "gancho":  "POV: the old man at camp roasts you",
+                         "estado":  "publicado",
+                         "envio":  "espacios/gta/datos/publicador/envios/2026-11-23-gta6-beach-camp-grandpa__youtube.json",
+                         "puntaje":  78,
+                         "derechos":  "autorizado",
+                         "ventana_hasta":  "2026-11-30",
+                         "creado":  "2026-11-23T10:56:00-05:00",
+                         "aprobado":  "2026-11-23T10:53:00-05:00",
+                         "intentos":  1,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-23T10:58:00-05:00",
+                                                   "ok":  true,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null
+                                               },
+                         "id_publicacion":  "_hNFVPzqTmA",
+                         "url":  "https://www.youtube.com/shorts/_hNFVPzqTmA",
+                         "privacidad":  "private",
+                         "publicado":  "2026-11-23T11:01:44-05:00",
+                         "programado":  "2026-11-24T21:00:00-05:00",
+                         "motivo":  "Aprobado por el usuario en el chat el 2026-11-23, transmitido por el orquestador: Santiago vio la lista de los 15 clips con sus fechas y escribio \"empieza a subirlos por favor ya\". Aprobado para YouTube con la cuenta y la hora programada que dio el usuario; se le aviso de las groserias de NPC y de que las frases citadas salen de whisper, y aprobo igual. Tope de 5 al dia por canal contado por dia de publicacion. Ciclo 4 (2026-11-23T11:01:44-05:00): subido al intento 1, private con publishAt en 2026-11-24T21:00:00-05:00. Comprobado a las 11:03: processed, privado con publishAt 2026-11-25T02:00:00Z."
+                     },
+                     {
+                         "clip":  "2026-11-23-gta6-getaway-car-pole",
+                         "plataforma":  "youtube",
+                         "cuenta":  "gta-chases",
+                         "pieza":  "2026-11-23-gta6-getaway-car-pole",
+                         "gancho":  "POV: your getaway car meets a pole",
+                         "estado":  "publicado",
+                         "envio":  "espacios/gta/datos/publicador/envios/2026-11-23-gta6-getaway-car-pole__youtube.json",
+                         "puntaje":  78,
+                         "derechos":  "autorizado",
+                         "ventana_hasta":  "2026-11-30",
+                         "creado":  "2026-11-23T10:56:00-05:00",
+                         "aprobado":  "2026-11-23T10:53:00-05:00",
+                         "intentos":  1,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-23T10:58:00-05:00",
+                                                   "ok":  true,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null
+                                               },
+                         "id_publicacion":  "eHP4HDfcTiQ",
+                         "url":  "https://www.youtube.com/shorts/eHP4HDfcTiQ",
+                         "privacidad":  "private",
+                         "publicado":  "2026-11-23T11:01:22-05:00",
+                         "programado":  "2026-11-24T13:00:00-05:00",
+                         "motivo":  "Aprobado por el usuario en el chat el 2026-11-23, transmitido por el orquestador: Santiago vio la lista de los 15 clips con sus fechas y escribio \"empieza a subirlos por favor ya\". Aprobado para YouTube con la cuenta y la hora programada que dio el usuario; se le aviso de las groserias de NPC y de que las frases citadas salen de whisper, y aprobo igual. Tope de 5 al dia por canal contado por dia de publicacion. Ciclo 4 (2026-11-23T11:01:22-05:00): subido al intento 1, private con publishAt en 2026-11-24T13:00:00-05:00. Comprobado a las 11:03: processed, privado con publishAt 2026-11-24T18:00:00Z."
+                     },
+                     {
+                         "clip":  "2026-11-23-gta6-lifeguard-truck-pit",
+                         "plataforma":  "youtube",
+                         "cuenta":  "gta-chases",
+                         "pieza":  "2026-11-23-gta6-lifeguard-truck-pit",
+                         "gancho":  "Getaway Files #8: cops vs the lifeguard truck",
+                         "estado":  "publicado",
+                         "envio":  "espacios/gta/datos/publicador/envios/2026-11-23-gta6-lifeguard-truck-pit__youtube.json",
+                         "puntaje":  84,
+                         "derechos":  "autorizado",
+                         "ventana_hasta":  "2026-11-30",
+                         "creado":  "2026-11-23T10:56:00-05:00",
+                         "aprobado":  "2026-11-23T10:53:00-05:00",
+                         "intentos":  1,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-23T10:58:00-05:00",
+                                                   "ok":  true,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null
+                                               },
+                         "id_publicacion":  "Bh20yAlkOaA",
+                         "url":  "https://www.youtube.com/shorts/Bh20yAlkOaA",
+                         "privacidad":  "private",
+                         "publicado":  "2026-11-23T10:58:54-05:00",
+                         "programado":  "2026-11-24T16:00:00-05:00",
+                         "motivo":  "Aprobado por el usuario en el chat el 2026-11-23, transmitido por el orquestador: Santiago vio la lista de los 15 clips con sus fechas y escribio \"empieza a subirlos por favor ya\". Aprobado para YouTube con la cuenta y la hora programada que dio el usuario; se le aviso de las groserias de NPC y de que las frases citadas salen de whisper, y aprobo igual. Tope de 5 al dia por canal contado por dia de publicacion. Ciclo 4 (2026-11-23T10:58:54-05:00): subido al intento 1, private con publishAt en 2026-11-24T16:00:00-05:00. Comprobado a las 11:03: processed, privado con publishAt 2026-11-24T21:00:00Z."
+                     },
+                     {
+                         "clip":  "2026-11-23-gta6-sunset-sign-shortcut",
+                         "plataforma":  "youtube",
+                         "cuenta":  "gta-chases",
+                         "pieza":  "2026-11-23-gta6-sunset-sign-shortcut",
+                         "gancho":  "POV: the cops are right behind you",
+                         "estado":  "publicado",
+                         "envio":  "espacios/gta/datos/publicador/envios/2026-11-23-gta6-sunset-sign-shortcut__youtube.json",
+                         "puntaje":  79,
+                         "derechos":  "autorizado",
+                         "ventana_hasta":  "2026-11-30",
+                         "creado":  "2026-11-23T10:56:00-05:00",
+                         "aprobado":  "2026-11-23T10:53:00-05:00",
+                         "intentos":  1,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-23T10:58:00-05:00",
+                                                   "ok":  true,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null
+                                               },
+                         "id_publicacion":  "lkAi5l1Rk-k",
+                         "url":  "https://www.youtube.com/shorts/lkAi5l1Rk-k",
+                         "privacidad":  "private",
+                         "publicado":  "2026-11-23T11:01:01-05:00",
+                         "programado":  "2026-11-24T19:00:00-05:00",
+                         "motivo":  "Aprobado por el usuario en el chat el 2026-11-23, transmitido por el orquestador: Santiago vio la lista de los 15 clips con sus fechas y escribio \"empieza a subirlos por favor ya\". Aprobado para YouTube con la cuenta y la hora programada que dio el usuario; se le aviso de las groserias de NPC y de que las frases citadas salen de whisper, y aprobo igual. Tope de 5 al dia por canal contado por dia de publicacion. Ciclo 4 (2026-11-23T11:01:01-05:00): subido al intento 1, private con publishAt en 2026-11-24T19:00:00-05:00. Comprobado a las 11:03: processed, privado con publishAt 2026-11-25T00:00:00Z."
+                     },
+                     {
+                         "clip":  "2026-11-23-gta6-humvee-army-chase",
+                         "plataforma":  "youtube",
+                         "cuenta":  "gta-chases",
+                         "pieza":  "2026-11-23-gta6-humvee-army-chase",
+                         "gancho":  "Getaway Files #9: the army wants it back",
+                         "estado":  "publicado",
+                         "envio":  "espacios/gta/datos/publicador/envios/2026-11-23-gta6-humvee-army-chase__youtube.json",
+                         "puntaje":  80,
+                         "derechos":  "autorizado",
+                         "ventana_hasta":  "2026-11-30",
+                         "creado":  "2026-11-23T10:56:00-05:00",
+                         "aprobado":  "2026-11-23T10:53:00-05:00",
+                         "intentos":  1,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-23T10:58:00-05:00",
+                                                   "ok":  true,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null
+                                               },
+                         "id_publicacion":  "j8qFUUPIhy4",
+                         "url":  "https://www.youtube.com/shorts/j8qFUUPIhy4",
+                         "privacidad":  "private",
+                         "publicado":  "2026-11-23T11:00:33-05:00",
+                         "programado":  "2026-11-24T22:00:00-05:00",
+                         "motivo":  "Aprobado por el usuario en el chat el 2026-11-23, transmitido por el orquestador: Santiago vio la lista de los 15 clips con sus fechas y escribio \"empieza a subirlos por favor ya\". Aprobado para YouTube con la cuenta y la hora programada que dio el usuario; se le aviso de las groserias de NPC y de que las frases citadas salen de whisper, y aprobo igual. Tope de 5 al dia por canal contado por dia de publicacion. Ciclo 4 (2026-11-23T11:00:33-05:00): subido al intento 1, private con publishAt en 2026-11-24T22:00:00-05:00. Comprobado a las 11:03: processed, privado con publishAt 2026-11-25T03:00:00Z."
+                     },
+                     {
+                         "clip":  "2026-11-23-gta6-air-base-gate",
+                         "plataforma":  "youtube",
+                         "cuenta":  "gta-chases",
+                         "pieza":  "2026-11-23-gta6-air-base-gate",
+                         "gancho":  "POV: your escape route is an air base",
+                         "estado":  "publicado",
+                         "envio":  "espacios/gta/datos/publicador/envios/2026-11-23-gta6-air-base-gate__youtube.json",
+                         "puntaje":  83,
+                         "derechos":  "autorizado",
+                         "ventana_hasta":  "2026-11-30",
+                         "creado":  "2026-11-23T10:56:00-05:00",
+                         "aprobado":  "2026-11-23T10:53:00-05:00",
+                         "intentos":  1,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-23T10:58:00-05:00",
+                                                   "ok":  true,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null
+                                               },
+                         "id_publicacion":  "lxsWvwnMuGM",
+                         "url":  "https://www.youtube.com/shorts/lxsWvwnMuGM",
+                         "privacidad":  "private",
+                         "publicado":  "2026-11-23T10:59:48-05:00",
+                         "programado":  "2026-11-25T13:00:00-05:00",
+                         "motivo":  "Aprobado por el usuario en el chat el 2026-11-23, transmitido por el orquestador: Santiago vio la lista de los 15 clips con sus fechas y escribio \"empieza a subirlos por favor ya\". Aprobado para YouTube con la cuenta y la hora programada que dio el usuario; se le aviso de las groserias de NPC y de que las frases citadas salen de whisper, y aprobo igual. Tope de 5 al dia por canal contado por dia de publicacion. Ciclo 4 (2026-11-23T10:59:48-05:00): subido al intento 1, private con publishAt en 2026-11-25T13:00:00-05:00. Comprobado a las 11:03: processed, privado con publishAt 2026-11-25T18:00:00Z."
+                     },
+                     {
+                         "clip":  "2026-11-23-gta6-van-hiding-spot",
+                         "plataforma":  "youtube",
+                         "cuenta":  "gta-chases",
+                         "pieza":  "2026-11-23-gta6-van-hiding-spot",
+                         "gancho":  "Getaway Files #10: the hiding spot",
+                         "estado":  "publicado",
+                         "envio":  "espacios/gta/datos/publicador/envios/2026-11-23-gta6-van-hiding-spot__youtube.json",
+                         "puntaje":  81,
+                         "derechos":  "autorizado",
+                         "ventana_hasta":  "2026-11-30",
+                         "creado":  "2026-11-23T10:56:00-05:00",
+                         "aprobado":  "2026-11-23T10:53:00-05:00",
+                         "intentos":  1,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-23T10:58:00-05:00",
+                                                   "ok":  true,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null
+                                               },
+                         "id_publicacion":  "olAoHppl2hk",
+                         "url":  "https://www.youtube.com/shorts/olAoHppl2hk",
+                         "privacidad":  "private",
+                         "publicado":  "2026-11-23T11:00:11-05:00",
+                         "programado":  "2026-11-25T19:00:00-05:00",
+                         "motivo":  "Aprobado por el usuario en el chat el 2026-11-23, transmitido por el orquestador: Santiago vio la lista de los 15 clips con sus fechas y escribio \"empieza a subirlos por favor ya\". Aprobado para YouTube con la cuenta y la hora programada que dio el usuario; se le aviso de las groserias de NPC y de que las frases citadas salen de whisper, y aprobo igual. Tope de 5 al dia por canal contado por dia de publicacion. Ciclo 4 (2026-11-23T11:00:11-05:00): subido al intento 1, private con publishAt en 2026-11-25T19:00:00-05:00. Comprobado a las 11:03: processed, privado con publishAt 2026-11-26T00:00:00Z."
+                     },
+                     {
+                         "clip":  "2026-11-23-gta6-lucia-vs-six",
+                         "plataforma":  "youtube",
+                         "cuenta":  "gta-us",
+                         "pieza":  "2026-11-23-gta6-lucia-vs-six",
+                         "gancho":  "Leonida Fails #3: six guys heckled Lucia",
+                         "estado":  "aprobado",
+                         "envio":  "espacios/gta/datos/publicador/envios/2026-11-23-gta6-lucia-vs-six__youtube.json",
+                         "puntaje":  86,
+                         "derechos":  "autorizado",
+                         "ventana_hasta":  "2026-11-30",
+                         "creado":  "2026-11-23T10:56:00-05:00",
+                         "aprobado":  "2026-11-23T10:53:00-05:00",
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-23T10:58:00-05:00",
+                                                   "ok":  true,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "programado":  "2026-11-25T09:00:00-05:00",
+                         "motivo":  "Aprobado por el usuario en el chat el 2026-11-23, transmitido por el orquestador: Santiago vio la lista de los 15 clips con sus fechas y escribio \"empieza a subirlos por favor ya\". Aprobado para YouTube con la cuenta y la hora programada que dio el usuario; se le aviso de las groserias de NPC y de que las frases citadas salen de whisper, y aprobo igual. Tope de 5 al dia por canal contado por dia de publicacion. Por decision del usuario se sube manana 2026-11-24 por la manana, no hoy: gta-us ya llevaba unas 7 subidas hoy y el canal admite unas 10 al dia.",
+                         "subir_desde":  "2026-11-24T06:00:00-05:00"
+                     },
+                     {
+                         "clip":  "2026-11-23-gta6-bridge-traffic-carjack",
+                         "plataforma":  "youtube",
+                         "cuenta":  "gta-us",
+                         "pieza":  "2026-11-23-gta6-bridge-traffic-carjack",
+                         "gancho":  "POV: bridge traffic and zero patience",
+                         "estado":  "aprobado",
+                         "envio":  "espacios/gta/datos/publicador/envios/2026-11-23-gta6-bridge-traffic-carjack__youtube.json",
+                         "puntaje":  82,
+                         "derechos":  "autorizado",
+                         "ventana_hasta":  "2026-11-30",
+                         "creado":  "2026-11-23T10:56:00-05:00",
+                         "aprobado":  "2026-11-23T10:53:00-05:00",
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-23T10:58:00-05:00",
+                                                   "ok":  true,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "programado":  "2026-11-25T12:00:00-05:00",
+                         "motivo":  "Aprobado por el usuario en el chat el 2026-11-23, transmitido por el orquestador: Santiago vio la lista de los 15 clips con sus fechas y escribio \"empieza a subirlos por favor ya\". Aprobado para YouTube con la cuenta y la hora programada que dio el usuario; se le aviso de las groserias de NPC y de que las frases citadas salen de whisper, y aprobo igual. Tope de 5 al dia por canal contado por dia de publicacion. Por decision del usuario se sube manana 2026-11-24 por la manana, no hoy: gta-us ya llevaba unas 7 subidas hoy y el canal admite unas 10 al dia.",
+                         "subir_desde":  "2026-11-24T06:00:00-05:00"
+                     },
+                     {
+                         "clip":  "2026-11-23-gta6-crosswalk-not-interested",
+                         "plataforma":  "youtube",
+                         "cuenta":  "gta-us",
+                         "pieza":  "2026-11-23-gta6-crosswalk-not-interested",
+                         "gancho":  "Leonida Fails #4: they said not interested",
+                         "estado":  "aprobado",
+                         "envio":  "espacios/gta/datos/publicador/envios/2026-11-23-gta6-crosswalk-not-interested__youtube.json",
+                         "puntaje":  80,
+                         "derechos":  "autorizado",
+                         "ventana_hasta":  "2026-11-30",
+                         "creado":  "2026-11-23T10:56:00-05:00",
+                         "aprobado":  "2026-11-23T10:53:00-05:00",
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-23T10:58:00-05:00",
+                                                   "ok":  true,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "programado":  "2026-11-25T15:00:00-05:00",
+                         "motivo":  "Aprobado por el usuario en el chat el 2026-11-23, transmitido por el orquestador: Santiago vio la lista de los 15 clips con sus fechas y escribio \"empieza a subirlos por favor ya\". Aprobado para YouTube con la cuenta y la hora programada que dio el usuario; se le aviso de las groserias de NPC y de que las frases citadas salen de whisper, y aprobo igual. Tope de 5 al dia por canal contado por dia de publicacion. Por decision del usuario se sube manana 2026-11-24 por la manana, no hoy: gta-us ya llevaba unas 7 subidas hoy y el canal admite unas 10 al dia.",
+                         "subir_desde":  "2026-11-24T06:00:00-05:00"
+                     },
+                     {
+                         "clip":  "2026-11-23-gta6-bmx-wrong-stranger",
+                         "plataforma":  "youtube",
+                         "cuenta":  "gta-us",
+                         "pieza":  "2026-11-23-gta6-bmx-wrong-stranger",
+                         "gancho":  "POV: you crash near the wrong stranger",
+                         "estado":  "aprobado",
+                         "envio":  "espacios/gta/datos/publicador/envios/2026-11-23-gta6-bmx-wrong-stranger__youtube.json",
+                         "puntaje":  82,
+                         "derechos":  "autorizado",
+                         "ventana_hasta":  "2026-11-30",
+                         "creado":  "2026-11-23T10:56:00-05:00",
+                         "aprobado":  "2026-11-23T10:53:00-05:00",
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-23T10:58:00-05:00",
+                                                   "ok":  true,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "programado":  "2026-11-25T18:00:00-05:00",
+                         "motivo":  "Aprobado por el usuario en el chat el 2026-11-23, transmitido por el orquestador: Santiago vio la lista de los 15 clips con sus fechas y escribio \"empieza a subirlos por favor ya\". Aprobado para YouTube con la cuenta y la hora programada que dio el usuario; se le aviso de las groserias de NPC y de que las frases citadas salen de whisper, y aprobo igual. Tope de 5 al dia por canal contado por dia de publicacion. Por decision del usuario se sube manana 2026-11-24 por la manana, no hoy: gta-us ya llevaba unas 7 subidas hoy y el canal admite unas 10 al dia.",
+                         "subir_desde":  "2026-11-24T06:00:00-05:00"
+                     },
+                     {
+                         "clip":  "2026-11-21-gta6-beach-camp-afterparty",
+                         "plataforma":  "youtube",
+                         "cuenta":  "gta-us",
+                         "pieza":  "2026-11-21-gta6-beach-camp-afterparty",
+                         "gancho":  "Leonida Fails #2: he stayed for their beer",
+                         "estado":  "aprobado",
+                         "envio":  "espacios/gta/datos/publicador/envios/2026-11-21-gta6-beach-camp-afterparty__youtube.json",
+                         "puntaje":  77,
+                         "derechos":  "autorizado",
+                         "ventana_hasta":  "2026-11-30",
+                         "creado":  "2026-11-23T10:56:00-05:00",
+                         "aprobado":  "2026-11-23T10:53:00-05:00",
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-23T10:58:00-05:00",
+                                                   "ok":  true,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "programado":  "2026-11-25T21:00:00-05:00",
+                         "motivo":  "Aprobado por el usuario en el chat el 2026-11-23, transmitido por el orquestador: Santiago vio la lista de los 15 clips con sus fechas y escribio \"empieza a subirlos por favor ya\". Aprobado para YouTube con la cuenta y la hora programada que dio el usuario; se le aviso de las groserias de NPC y de que las frases citadas salen de whisper, y aprobo igual. Tope de 5 al dia por canal contado por dia de publicacion. Por decision del usuario se sube manana 2026-11-24 por la manana, no hoy: gta-us ya llevaba unas 7 subidas hoy y el canal admite unas 10 al dia.",
+                         "subir_desde":  "2026-11-24T06:00:00-05:00"
+                     },
+                     {
+                         "clip":  "2026-11-23-gta6-two-on-one",
+                         "plataforma":  "youtube",
+                         "cuenta":  "gta-us",
+                         "pieza":  "2026-11-23-gta6-two-on-one",
+                         "gancho":  "Leonida Fails #6: round three, two on one",
+                         "estado":  "aprobado",
+                         "envio":  "espacios/gta/datos/publicador/envios/2026-11-23-gta6-two-on-one__youtube.json",
+                         "puntaje":  78,
+                         "derechos":  "autorizado",
+                         "ventana_hasta":  "2026-11-30",
+                         "creado":  "2026-11-23T10:56:00-05:00",
+                         "aprobado":  "2026-11-23T10:53:00-05:00",
+                         "intentos":  0,
+                         "ultima_simulacion":  {
+                                                   "fecha":  "2026-11-23T10:58:00-05:00",
+                                                   "ok":  true,
+                                                   "avisos":  [
+
+                                                              ],
+                                                   "error":  null
+                                               },
+                         "id_publicacion":  null,
+                         "url":  null,
+                         "privacidad":  null,
+                         "publicado":  null,
+                         "programado":  "2026-11-26T09:00:00-05:00",
+                         "motivo":  "Aprobado por el usuario en el chat el 2026-11-23, transmitido por el orquestador: Santiago vio la lista de los 15 clips con sus fechas y escribio \"empieza a subirlos por favor ya\". Aprobado para YouTube con la cuenta y la hora programada que dio el usuario; se le aviso de las groserias de NPC y de que las frases citadas salen de whisper, y aprobo igual. Tope de 5 al dia por canal contado por dia de publicacion. Por decision del usuario se sube manana 2026-11-24 por la manana, no hoy: gta-us ya llevaba unas 7 subidas hoy y el canal admite unas 10 al dia.",
+                         "subir_desde":  "2026-11-24T06:00:00-05:00"
                      }
                  ]
 }
