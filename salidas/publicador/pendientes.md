@@ -1,60 +1,80 @@
 # Pendientes del Publicador
 
-Generado: 2026-11-22T13:39:07-05:00 · ciclo 17 · entrada: `salidas/clipero/clips.json` (ciclo 21 del Clipero, generado el 2026-11-22 a las 13:30): 7 clips nuevos (6 urbanos y 1 de risas).
+Generado: 2026-11-22T21:36:00-05:00 · ciclo 18 · entrada: `salidas/clipero/clips.json` (ciclo 22 del Clipero, generado el 2026-11-22 a las 20:35): 3 clips nuevos, los tres urbanos.
 
 **Cómo leer esta página**
 
-- **TikTok, hoy (13:34-13:37): 6 borradores nuevos en la bandeja.** No son públicos hasta que los publicas desde la app. La API solo manda el video: al publicar cada uno, **pega el texto de TikTok** de su sección.
-  - **`principal` (Legión Urbana), 4 de 4:** `lonche-hormigas-culonas` (llegó al segundo intento; la ficha lo pone hoy a las 19:00) y tres de la final de la Sudamericana: `cobra-prediccion-final` (ficha: hoy hacia las 19:00), `uribe-davoo-microfono` (23-nov hacia las 12:00) y `cobra-gracias-colombia` (24-nov hacia las 12:00). Ninguno muestra imágenes del partido.
-  - **`risas` (@legion.risas), 2:** `quevedo-policia-foto` y `nsn-robot-guardaespaldas`. Con los 3 de anoche, la cuenta ya tiene 5 borradores en 24 h, el tope de TikTok.
-- **La red ya va bien.** La prueba con el clip más pequeño de la cola (6 MB) subió en 9 s, y `lonche-hormigas-culonas` (27,5 MB) en 23 s. Anoche la subida no pasaba de 30-45 KB/s.
+- **TikTok, esta noche (21:29): 2 borradores nuevos en la bandeja de `risas` (@legion.risas):** `cotorrisa-firma-tianguis` y `drunk-casting-tigo`. No son públicos hasta que los publicas desde la app. La API solo manda el video: al publicar cada uno, **pega el texto de TikTok** de su sección.
+  - **Hoy, `risas` llegó a 4 de 4** con estos dos y los de las 13:34-13:35 (`quevedo-policia-foto` y `nsn-robot-guardaespaldas`).
+  - **`principal` (Legión Urbana) también va 4 de 4** desde las 13:36: `lonche-hormigas-culonas`, `cobra-prediccion-final`, `uribe-davoo-microfono` y `cobra-gracias-colombia`.
+- **Nuevos del Clipero (ciclo 22): 3 urbanos**, con ventana hasta el 24-nov:
+  - `westcol-mejor-mes` (76): la ronda de «¿cuánto es lo máximo que se han hecho en un mes?», en el directo de Westcol durante las 72 horas.
+  - `ganga-primera-piedra` (72): no se saben el refrán, en el directo de Samulx en Guatapé.
+  - `ganga-cartagena-privado` (68): «estaríamos aterrizando en privado», en el mismo directo.
+  - En TikTok van en cola para `principal`, aprobados automáticamente. En Instagram y YouTube quedan pendientes de aprobación.
+- **Escucha estos dos antes de publicarlos** (avisos del Clipero):
+  - **`westcol-mejor-mes`:** no se puede asegurar que la voz que da la cifra sea la de Westcol. Hablan varios a la vez y la imagen no deja ver quién habla.
+    - Si no es su voz, el gancho del video («¿Cuánto gana Westcol en su mejor mes?») no vale: no lo publiques y pide al Clipero otro corte.
+    - Si ya llegó a la bandeja, descártalo desde la app. Si quieres que no se envíe mañana: `/publicador rechazar 2026-11-22-westcol-mejor-mes:tiktok voz sin confirmar`.
+  - **`ganga-cartagena-privado`:** dice «cuando estamos en el éxtasis siempre hacemos cosas locas», en el sentido de euforia. Pero sale en subtítulo grande y se puede leer como la droga.
+    - Si temes a la moderación de TikTok, es el clip que se puede dejar sin publicar.
+    - Para que no se envíe: `/publicador rechazar 2026-11-22-ganga-cartagena-privado éxtasis`.
 - **En cola en TikTok:**
-  - **`risas`, esta noche después de las 21:26 (o el 23-nov):** `cotorrisa-firma-tianguis` y `drunk-casting-tigo` (vencen el 24-nov). El 23-nov, `francupido-bombera-carga` (nuevo; vence el 25-nov).
-  - **`principal`, 23-nov después de las 13:37:** `davoo-otros-29-equipos`, `cobra-medalla-merentiel` y `ganga-piedra-penol` (nuevos; vencen el 24-nov). Antes de esa hora solo cabe uno, porque los 4 de hoy siguen dentro de la ventana de 24 h.
+  - **`risas`, 23-nov después de las 13:36:** `francupido-bombera-carga` (vence el 25-nov).
+  - **`principal`, 23-nov después de las 13:37:** caben 4 de los 6 en cola. Por puntaje: `westcol-mejor-mes`, `ganga-primera-piedra`, `davoo-otros-29-equipos` y `cobra-medalla-merentiel`.
+  - **`principal`, 24-nov:** `ganga-piedra-penol` y `ganga-cartagena-privado`, cuando las subidas del 23-nov salgan de la ventana de 24 h. Todos vencen el 24-nov.
+  - La ficha de `ganga-cartagena-privado` pide que salga antes de que acaben las 72 horas (23-nov hacia las 19:00). Si lo prefieres así, dilo y entra mañana en lugar de otro.
   - Si TikTok responde `spam_risk_too_many_pending_share`, se para esa cuenta y lo demás pasa al día siguiente.
-- **`roy-barreras-neruda` no está en la bandeja:** anoche se cortaron por la red sus dos subidas y ya no le quedan intentos. Si lo quieres, vuelve a aprobarlo antes de que acabe el 23-nov: `/publicador aprobar 2026-11-21-roy-barreras-neruda:tiktok`.
+- **`roy-barreras-neruda` no está en la bandeja:** el 21-nov se cortaron por la red sus dos subidas y ya no le quedan intentos. Si lo quieres, vuelve a aprobarlo antes de que acabe el 23-nov: `/publicador aprobar 2026-11-21-roy-barreras-neruda:tiktok`.
 - **Caso Herrera** (pasa a lo legal; Cazador Urbano, 17-nov). Nada se reabre:
   - **`westcol-disculpa-pelea-jh` está en la bandeja de Legión Urbana: no lo publiques.** Descártalo desde la app (la API no puede borrarlo).
   - **`westcol-herrera-no-planeado`:** el envío del 17-nov dio HTTP 500 y no se sabe si llegó. No se reintenta: si está en la bandeja, descártalo.
-- **Bandeja según la API: 65 borradores sin publicar** (35 en `principal` y 30 en `risas`). 56 tienen la ventana cerrada (tabla al final del resumen). **Publica o descarta** desde la app los que ya no quieras: así TikTok acepta mejor los siguientes.
+- **Bandeja según la API: 67 borradores sin publicar** (35 en `principal` y 32 en `risas`). 56 tienen la ventana cerrada (tabla al final del resumen). **Publica o descarta** desde la app los que ya no quieras: así TikTok acepta mejor los siguientes.
 - **Instagram y YouTube:** pendientes de aprobación. Siguen sin activar y sin credenciales: aprobar ahora solo deja el envío listo.
   - **YouTube lleva un canal por línea:** los urbanos van a `principal` (Legión Urbana) y los de risas a `risas` (Legión de Risas, apagado hasta que lo autorices).
   - **En YouTube lo aprobado sale público** al subirse (`youtube.privacidad: public`; Google ya no deja privado lo que suben los proyectos sin auditar).
   - En Instagram, los urbanos van a `principal` y los de risas a la cuenta `risas` (apagada), nunca a la urbana.
-  - Vencieron las 4 de `renona-checo-dinosaurios` y `olga-agua-mostaza` (ventana hasta el 21-nov). Las 2 de `juanpis-pestilencia-juicio-tv` vencen al acabar el día.
+  - Las 2 de `juanpis-pestilencia-juicio-tv` vencen al acabar hoy. Las de `ganga-hit-cuatro-horas`, `lonche-hormigas-culonas` y `roy-barreras-neruda` vencen al acabar el 23-nov.
 - **Clips subidos a mano** (`legion/03-publicador/subidos-a-mano.json`): no aparecen aquí.
 - **Derechos:** todos los clips de esta página son `sin_verificar`: contenido de terceros sin permiso confirmado. Solo se publica con aprobación expresa (en TikTok, tu publicación desde la bandeja) y siempre con el crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
 - **Revisar antes de publicar** (el detalle de cada clip está en su sección):
-  - **En la bandeja desde hoy:**
+  - **En la bandeja desde esta noche:**
+    - `cotorrisa-firma-tianguis`: nada especial (insultos censurados en la fuente). Dura casi 75 s.
+    - `drunk-casting-tigo`: no se dice quién soltó «a alguien van a echar»; los textos aclaran que a Iván Marín no lo echaron. Audio algo más bajo que el resto.
+  - **En la bandeja desde las 13:34-13:36:**
     - `lonche-hormigas-culonas`: ruido de calle y varias voces; no se nombra a quien da el veredicto ni al vendedor.
     - `cobra-prediccion-final`: nada especial. Que Boca ganó lo dice el texto, no el clip.
     - `uribe-davoo-microfono`: «se lo prestar el vale» sale tal como lo transcribió YouTube. Ruido de estadio.
-    - `cobra-gracias-colombia`: en tres cuadros el propio video pone una foto fija del plantel con la copa (no son imágenes de la transmisión). Si prefieres al creador solo, pide al Clipero el corte con `-Modo recorte`.
+    - `cobra-gracias-colombia`: en tres cuadros el propio video pone una foto fija del plantel con la copa (no son imágenes de la transmisión).
     - `quevedo-policia-foto`: **escúchalo antes**. Hay una palabra como «(…)» en 0:10-0:12, y en el último segundo entra el arranque de otra frase («Si que lo migajero…»).
     - `nsn-robot-guardaespaldas`: nada especial (insulto censurado en la fuente).
   - **En cola:**
-    - `francupido-bombera-carga` (nuevo): el momento es visual y en plano general; unos 40 s sin palabras. Los textos no nombran a la soltera (sube del público) ni se burlan de ella.
-    - `davoo-otros-29-equipos` (nuevo): escucha 23:52-23:55 de la fuente (dos palabras van como «(…)»).
-    - `cobra-medalla-merentiel` (nuevo): nada especial; es el relato de La Cobra (Merentiel solo sale en una foto pequeña).
-    - `ganga-piedra-penol` (nuevo): varias voces y ruido, dos tramos como «(…)» e insultos censurados; no se nombra a quien habla. Sepáralo de los clips de la final.
-    - `cotorrisa-firma-tianguis`: nada especial (insultos censurados en la fuente).
-    - `drunk-casting-tigo`: no se dice quién soltó «a alguien van a echar»; los textos aclaran que a Iván Marín no lo echaron. Audio algo más bajo que el resto.
+    - `westcol-mejor-mes` (nuevo): **escúchalo antes** (voz de la cifra, arriba). Dos tramos de subtítulos mezclan voces. Los textos no citan la cifra ni atribuyen las frases a nadie.
+    - `ganga-primera-piedra` (nuevo): nada especial. No se nombra a nadie ni se toca la funa de la que hablan justo antes (queda fuera del clip).
+    - `ganga-cartagena-privado` (nuevo): **escúchalo antes** («éxtasis», arriba). Hay vasos rojos de plástico en la mesa; no se bebe en el clip. Los textos no usan «éxtasis» ni hablan de alcohol.
+    - `francupido-bombera-carga`: el momento es visual y en plano general; unos 40 s sin palabras. Los textos no nombran a la soltera (sube del público) ni se burlan de ella.
+    - `davoo-otros-29-equipos`: escucha 23:52-23:55 de la fuente (dos palabras van como «(…)»).
+    - `cobra-medalla-merentiel`: nada especial; es el relato de La Cobra (Merentiel solo sale en una foto pequeña).
+    - `ganga-piedra-penol`: varias voces y ruido, dos tramos como «(…)» e insultos censurados; no se nombra a quien habla. Sepáralo de los clips de la final.
     - `roy-barreras-neruda` (humor político, sin intentos): **es Roy Barreras en persona**, riéndose de su propia derrota; no es un imitador. Escucha la palabra con la que arranca el poema (los subtítulos dicen «Eco»). Al publicar no añadas opiniones, consignas, etiquetas de partido ni la promoción de su libro.
 
 ## Resumen
 
-Línea **urbano**: 8 clips.
+Línea **urbano**: 11 clips.
 
 | # | Clip | Puntaje | Ventana hasta | TikTok (principal) | Instagram (principal) | YouTube (principal) |
 |---|---|---|---|---|---|---|
 | 2 | `2026-11-21-ganga-hit-cuatro-horas` | 75 | 2026-11-23 | en la bandeja desde 2026-11-21 11:47 (borrador) | pendiente de aprobación | pendiente de aprobación |
 | 3 | `2026-11-21-lonche-hormigas-culonas` | 74 | 2026-11-23 | en la bandeja desde 2026-11-22 13:35 (borrador), **enviado hoy** | pendiente de aprobación | pendiente de aprobación |
 | 6 | `2026-11-22-cobra-prediccion-final` | 78 | 2026-11-24 | en la bandeja desde 2026-11-22 13:36 (borrador), **enviado hoy** | pendiente de aprobación | pendiente de aprobación |
-| 10 | `2026-11-22-uribe-davoo-microfono` | 73 | 2026-11-24 | en la bandeja desde 2026-11-22 13:36 (borrador), **enviado hoy** | pendiente de aprobación | pendiente de aprobación |
-| 11 | `2026-11-22-cobra-gracias-colombia` | 72 | 2026-11-24 | en la bandeja desde 2026-11-22 13:36 (borrador), **enviado hoy** | pendiente de aprobación | pendiente de aprobación |
-| 12 | `2026-11-22-cobra-medalla-merentiel` | 71 | 2026-11-24 | aprobado automáticamente; en cola (previsto 23-nov, después de las 13:37), **nuevo** | pendiente de aprobación | pendiente de aprobación |
-| 13 | `2026-11-22-davoo-otros-29-equipos` | 71 | 2026-11-24 | aprobado automáticamente; en cola (previsto 23-nov, después de las 13:37), **nuevo** | pendiente de aprobación | pendiente de aprobación |
-| 14 | `2026-11-22-ganga-piedra-penol` | 70 | 2026-11-24 | aprobado automáticamente; en cola (previsto 23-nov, después de las 13:37), **nuevo** | pendiente de aprobación | pendiente de aprobación |
+| 9 | `2026-11-22-westcol-mejor-mes` | 76 | 2026-11-24 | aprobado automáticamente; en cola (previsto 23-nov, después de las 13:37), **nuevo** | pendiente de aprobación | pendiente de aprobación |
+| 11 | `2026-11-22-uribe-davoo-microfono` | 73 | 2026-11-24 | en la bandeja desde 2026-11-22 13:36 (borrador), **enviado hoy** | pendiente de aprobación | pendiente de aprobación |
+| 12 | `2026-11-22-cobra-gracias-colombia` | 72 | 2026-11-24 | en la bandeja desde 2026-11-22 13:36 (borrador), **enviado hoy** | pendiente de aprobación | pendiente de aprobación |
+| 13 | `2026-11-22-ganga-primera-piedra` | 72 | 2026-11-24 | aprobado automáticamente; en cola (previsto 23-nov, después de las 13:37), **nuevo** | pendiente de aprobación | pendiente de aprobación |
+| 14 | `2026-11-22-cobra-medalla-merentiel` | 71 | 2026-11-24 | aprobado automáticamente; en cola (previsto 23-nov, después de las 13:37) | pendiente de aprobación | pendiente de aprobación |
+| 15 | `2026-11-22-davoo-otros-29-equipos` | 71 | 2026-11-24 | aprobado automáticamente; en cola (previsto 23-nov, después de las 13:37) | pendiente de aprobación | pendiente de aprobación |
+| 16 | `2026-11-22-ganga-piedra-penol` | 70 | 2026-11-24 | aprobado automáticamente; en cola (previsto 24-nov, salvo que quepa el 23-nov) | pendiente de aprobación | pendiente de aprobación |
+| 17 | `2026-11-22-ganga-cartagena-privado` | 68 | 2026-11-24 | aprobado automáticamente; en cola (previsto 24-nov, salvo que quepa el 23-nov), **nuevo** | pendiente de aprobación | pendiente de aprobación |
 
 Línea **risas**: 7 clips.
 
@@ -64,9 +84,9 @@ Línea **risas**: 7 clips.
 | 4 | `2026-11-21-roy-barreras-neruda` | 74 | 2026-11-23 | **no llegó**: dos subidas cortadas por la red (21-nov 21:30 y 21:58); sin intentos. Para reenviarlo: `/publicador aprobar 2026-11-21-roy-barreras-neruda:tiktok` | pendiente de aprobación (cuenta apagada) | pendiente de aprobación (cuenta apagada) |
 | 5 | `2026-11-21-nsn-robot-guardaespaldas` | 80 | 2026-11-24 | en la bandeja desde 2026-11-22 13:35 (borrador), **enviado hoy** | pendiente de aprobación (cuenta apagada) | pendiente de aprobación (cuenta apagada) |
 | 7 | `2026-11-21-quevedo-policia-foto` | 77 | 2026-11-24 | en la bandeja desde 2026-11-22 13:34 (borrador), **enviado hoy** | pendiente de aprobación (cuenta apagada) | pendiente de aprobación (cuenta apagada) |
-| 8 | `2026-11-21-cotorrisa-firma-tianguis` | 76 | 2026-11-24 | aprobado automáticamente; en cola (previsto esta noche después de las 21:26 o el 23-nov) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación (cuenta apagada) |
-| 9 | `2026-11-21-drunk-casting-tigo` | 73 | 2026-11-24 | aprobado automáticamente; en cola (previsto esta noche después de las 21:26 o el 23-nov) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación (cuenta apagada) |
-| 15 | `2026-11-22-francupido-bombera-carga` | 79 | 2026-11-25 | aprobado automáticamente; en cola (previsto 23-nov), **nuevo** | pendiente de aprobación (cuenta apagada) | pendiente de aprobación (cuenta apagada) |
+| 8 | `2026-11-21-cotorrisa-firma-tianguis` | 76 | 2026-11-24 | en la bandeja desde 2026-11-22 21:29 (borrador), **enviado esta noche** | pendiente de aprobación (cuenta apagada) | pendiente de aprobación (cuenta apagada) |
+| 10 | `2026-11-21-drunk-casting-tigo` | 73 | 2026-11-24 | en la bandeja desde 2026-11-22 21:29 (borrador), **enviado esta noche** | pendiente de aprobación (cuenta apagada) | pendiente de aprobación (cuenta apagada) |
+| 18 | `2026-11-22-francupido-bombera-carga` | 79 | 2026-11-25 | aprobado automáticamente; en cola (previsto 23-nov, después de las 13:36) | pendiente de aprobación (cuenta apagada) | pendiente de aprobación (cuenta apagada) |
 
 **Borradores con la ventana cerrada** (56; siguen en la bandeja de TikTok según la API; publícalos solo si aún te sirven, si no, descártalos desde la app para liberar sitio). El texto de cada uno está en su archivo de envío.
 
@@ -494,7 +514,7 @@ Crédito: Mestizos Precisos T2, Ep. 16 «Migajeros», canal Franco Escamilla (Yo
 - **Video:** [clip.mp4](../clipero/clips/2026-11-21-cotorrisa-firma-tianguis/clip.mp4) (74,9 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-21-cotorrisa-firma-tianguis/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=9QTq4B02vaA
 - **Revisar antes de publicar:** Nada especial según la ficha: los insultos van censurados («***»). Dura casi 75 s. El crédito no copia el título del episodio (escatológico); va como «episodio 400».
 
-### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola (previsto esta noche después de las 21:26 o el 23-nov)
+### TikTok · cuenta `risas` (@legion.risas) · en la bandeja desde 2026-11-22 21:29 (borrador): pega este texto al publicarlo
 
 ```
 Encontró un vaso firmado por La Cotorrisa en un tianguis… a 50 pesos 😂
@@ -537,14 +557,64 @@ Crédito: La Cotorrisa (Slobotzky y Ricardo Pérez), canal Slobotzky (YouTube), 
 **Etiquetas:** La Cotorrisa, Slobotzky, Ricardo Pérez, comedia, podcast de comedia, tianguis, humor mexicano, anécdotas
 
 
-## 9. `2026-11-21-drunk-casting-tigo`
+## 9. `2026-11-22-westcol-mejor-mes`
+
+- **Gancho:** ¿Cuánto gana Westcol en su mejor mes?
+- **Puntaje:** 76 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-24 · **Línea:** urbano · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-22-westcol-mejor-mes/clip.mp4) (38,4 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-22-westcol-mejor-mes/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=olXao5WK9qY
+- **Revisar antes de publicar:** Escúchalo antes de publicar: no se puede asegurar que la voz que da la cifra («un cheque de 1 millón», «2 millones de dólares») sea la de Westcol. Hablan varios a la vez y la imagen no deja ver quién habla (la cámara se vuelve hacia él en «un cheque de 1 millón»). Si no es su voz, el gancho del video («¿Cuánto gana Westcol en su mejor mes?») no vale: no lo publiques, descártalo en la app y pide al Clipero otro corte (por ejemplo, «¿Cuánto gana La Ganga en su mejor mes?»). Dos tramos de subtítulos mezclan voces («Una próxima 2 millones» y «2 millones de Yo dólares. Qué reca. creo.»). Los textos no citan la cifra ni atribuyen las frases a nadie. La cuenta atrás de abajo a la izquierda es del propio directo, no un anuncio.
+
+### TikTok · cuenta `principal` (Legión Urbana) · aprobado automáticamente; en cola (previsto 23-nov, después de las 13:37)
+
+```
+¿Cuánto gana Westcol en su mejor mes? 💸
+
+En la cena de las 72 horas de La Ganga, la ronda es «¿cuánto es lo máximo que se han hecho en un mes?». En la mesa: «a mí no me gusta hablar de precios», «suelta, suelta»… y al final sale la cifra.
+
+¿Cuánto crees que gana un streamer en su mejor mes?
+
+Crédito: WestCOL (YouTube), «CUANTO ES LO MAXIMO QUE HEMOS GANADO EN 1 MES | Westcol». Video original (minuto 12:58): https://youtu.be/olXao5WK9qY?t=778
+
+#Westcol #LaGanga #Streamer #Medellin #72Horas
+```
+
+### Instagram · cuenta `principal` · pendiente de aprobación
+
+```
+«A mí no me gusta hablar de precios»… y al final sale la cifra 💸
+
+En plena cena de las 72 horas de La Ganga, en el directo de Westcol, la ronda es «¿cuánto es lo máximo que se han hecho en un mes?».
+
+¿Cuánto crees que gana un streamer en su mejor mes?
+
+Crédito: WestCOL (YouTube), «CUANTO ES LO MAXIMO QUE HEMOS GANADO EN 1 MES | Westcol». Video original (minuto 12:58): https://youtu.be/olXao5WK9qY?t=778
+
+#Westcol #LaGanga #Streamer #Medellin #72Horas
+```
+
+### YouTube · cuenta `principal` (canal de la Legión Urbana) · pendiente de aprobación
+
+**Título:** ¿Cuánto gana Westcol en su mejor mes? La ronda de La Ganga
+
+```
+En la cena de las 72 horas de La Ganga, en el directo de Westcol, la ronda es «¿cuánto es lo máximo que se han hecho en un mes?»… y al final sale la cifra.
+
+Crédito: WestCOL (YouTube), «CUANTO ES LO MAXIMO QUE HEMOS GANADO EN 1 MES | Westcol». Video original (minuto 12:58): https://youtu.be/olXao5WK9qY?t=778
+
+#Westcol #LaGanga #Streamer #72Horas
+```
+
+**Etiquetas:** Westcol, La Ganga, 72 horas, cuánto gana Westcol, streamer, streamers, Medellín, Colombia
+
+
+## 10. `2026-11-21-drunk-casting-tigo`
 
 - **Gancho:** El casting de Tigo: 'a alguien van a echar'
 - **Puntaje:** 73 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-24 · **Línea:** risas · **Pieza:** original (sin variantes)
 - **Video:** [clip.mp4](../clipero/clips/2026-11-21-drunk-casting-tigo/clip.mp4) (66,3 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-21-drunk-casting-tigo/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=a_A7VV9qO-U
 - **Revisar antes de publicar:** No se atribuye «a alguien van a echar» a nadie (en el clip no queda claro quién lo dijo). Los textos aclaran que a Iván Marín no lo echaron, como dice la mesa al final. Varios hablan a la vez; audio algo más bajo que el resto (-15,7 LUFS). Hay vasos y botellas en la mesa: los textos no hablan de alcohol ni copian el título del capítulo.
 
-### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola (previsto esta noche después de las 21:26 o el 23-nov)
+### TikTok · cuenta `risas` (@legion.risas) · en la bandeja desde 2026-11-22 21:29 (borrador): pega este texto al publicarlo
 
 ```
 El casting de Tigo que cuenta Alejandro Riaño: «a alguien van a echar» 😂
@@ -587,7 +657,7 @@ Crédito: Drunk Comedy (cap. 8), canal Juanpis González (YouTube). Video origin
 **Etiquetas:** Drunk Comedy, Alejandro Riaño, Iván Marín, Ricardo Quevedo, Antonio Sanint, Juanpis González, comedia colombiana, anécdotas, casting
 
 
-## 10. `2026-11-22-uribe-davoo-microfono`
+## 11. `2026-11-22-uribe-davoo-microfono`
 
 - **Gancho:** Lo que Davoo le pidió a Roberto Uribe
 - **Puntaje:** 73 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-24 · **Línea:** urbano · **Pieza:** original (sin variantes)
@@ -637,7 +707,7 @@ Crédito: Soy Roberto Uribe (YouTube), «Así se VIVIÓ la FINAL de BOCA JUNIORS
 **Etiquetas:** Roberto Uribe, Davoo Xeneize, Boca Juniors, Copa Sudamericana, final, Barranquilla, micrófono, streamers
 
 
-## 11. `2026-11-22-cobra-gracias-colombia`
+## 12. `2026-11-22-cobra-gracias-colombia`
 
 - **Gancho:** El mensaje de La Cobra a Colombia
 - **Puntaje:** 72 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-24 · **Línea:** urbano · **Pieza:** original (sin variantes)
@@ -687,7 +757,57 @@ Crédito: LA COBRA (YouTube), «VI A BOCA CAMPEÓN DE LA COPA SUDAMERICANA. VLOG
 **Etiquetas:** La Cobra, Colombia, Barranquilla, Boca Juniors, Copa Sudamericana, final, streamer, Davoo
 
 
-## 12. `2026-11-22-cobra-medalla-merentiel`
+## 13. `2026-11-22-ganga-primera-piedra`
+
+- **Gancho:** Nadie en La Ganga se sabe el refrán
+- **Puntaje:** 72 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-24 · **Línea:** urbano · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-22-ganga-primera-piedra/clip.mp4) (19,2 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-22-ganga-primera-piedra/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=wcFZHzo1Y-A
+- **Revisar antes de publicar:** Nada especial según la ficha. No se nombra a nadie ni se toca la funa de la que hablan justo antes (queda fuera del clip). El título del video de Samulx es de pareja: el crédito solo usa «NO SABEMOS QUE PASO AYER». Las redes de Samulx y la cuenta atrás van incrustadas por el propio directo.
+
+### TikTok · cuenta `principal` (Legión Urbana) · aprobado automáticamente; en cola (previsto 23-nov, después de las 13:37)
+
+```
+La Ganga intentando decir un refrán 😂 «que lance la mano la primera»
+
+El día después de la noche de Guatapé, en las 72 horas, intentan decir «que tire la primera piedra el que esté libre de pecado»… y cada versión sale peor.
+
+¿Cómo es el refrán de verdad? 👇
+
+Crédito: Samulx (YouTube), «NO SABEMOS QUE PASO AYER». Video original (minuto 16:58): https://youtu.be/wcFZHzo1Y-A?t=1018
+
+#LaGanga #Samulx #Guatape #72Horas #Streamer
+```
+
+### Instagram · cuenta `principal` · pendiente de aprobación
+
+```
+Cinco intentos y nadie se sabe el refrán 😂
+
+El día después de la noche de Guatapé, La Ganga intenta decir «que tire la primera piedra el que esté libre de pecado»… y le sale «que lance el pecado y cometió la primera piedra».
+
+¿Cuál es tu versión favorita? 👇
+
+Crédito: Samulx (YouTube), «NO SABEMOS QUE PASO AYER». Video original (minuto 16:58): https://youtu.be/wcFZHzo1Y-A?t=1018
+
+#LaGanga #Samulx #Guatape #72Horas #Streamer
+```
+
+### YouTube · cuenta `principal` (canal de la Legión Urbana) · pendiente de aprobación
+
+**Título:** «Que lance el pecado y cometió la primera piedra» | La Ganga en Guatapé
+
+```
+El día después de la noche de Guatapé, en sus 72 horas, La Ganga intenta decir «que tire la primera piedra el que esté libre de pecado»… y no hay manera.
+
+Crédito: Samulx (YouTube), «NO SABEMOS QUE PASO AYER». Video original (minuto 16:58): https://youtu.be/wcFZHzo1Y-A?t=1018
+
+#LaGanga #Samulx #Guatape #72Horas
+```
+
+**Etiquetas:** La Ganga, Samulx, Guatapé, 72 horas, refrán, streamers, Colombia, humor
+
+
+## 14. `2026-11-22-cobra-medalla-merentiel`
 
 - **Gancho:** Lo que le prestó Merentiel a La Cobra
 - **Puntaje:** 71 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-24 · **Línea:** urbano · **Pieza:** original (sin variantes)
@@ -737,7 +857,7 @@ Crédito: LA COBRA (YouTube), «VI A BOCA CAMPEÓN DE LA COPA SUDAMERICANA. VLOG
 **Etiquetas:** La Cobra, Merentiel, Miguel Merentiel, Boca Juniors, Copa Sudamericana, medalla, final, streamer
 
 
-## 13. `2026-11-22-davoo-otros-29-equipos`
+## 15. `2026-11-22-davoo-otros-29-equipos`
 
 - **Gancho:** Davoo, a los que critican a Boca
 - **Puntaje:** 71 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-24 · **Línea:** urbano · **Pieza:** original (sin variantes)
@@ -787,14 +907,14 @@ Crédito: Davoo Xeneize (YouTube), «DAVOO XENEIZE OPINA DE BOCA 2 ATLETICO MINE
 **Etiquetas:** Davoo Xeneize, Davoo, Boca Juniors, Copa Sudamericana, final, fútbol argentino, streamer, Atlético Mineiro
 
 
-## 14. `2026-11-22-ganga-piedra-penol`
+## 16. `2026-11-22-ganga-piedra-penol`
 
 - **Gancho:** ¿Quién se sube a la Piedra del Peñol?
 - **Puntaje:** 70 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-24 · **Línea:** urbano · **Pieza:** original (sin variantes)
 - **Video:** [clip.mp4](../clipero/clips/2026-11-22-ganga-piedra-penol/clip.mp4) (20,6 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-22-ganga-piedra-penol/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=1jfaTc0PEsw
 - **Revisar antes de publicar:** Hablan varios a la vez y con ruido; dos tramos van como «(…)» (0:10-0:11 y 0:15-0:16 del clip). Dos insultos censurados («***»). Contador del directo abajo a la izquierda (gráfico propio). No se nombra a quien habla (no se puede asegurar en imagen). Ficha: separarlo de los clips de la final de Boca.
 
-### TikTok · cuenta `principal` (Legión Urbana) · aprobado automáticamente; en cola (previsto 23-nov, después de las 13:37)
+### TikTok · cuenta `principal` (Legión Urbana) · aprobado automáticamente; en cola (previsto 24-nov, salvo que quepa el 23-nov)
 
 ```
 ¿Quién de La Ganga se sube a la Piedra del Peñol? 😂🪨
@@ -837,14 +957,64 @@ Crédito: Lonche Chacas (YouTube), «FUI A GUATAPE con WESTCOL, WILLITO, LEANDRO
 **Etiquetas:** La Ganga, Lonche, Piedra del Peñol, Guatapé, 72 horas, streamers, Colombia, Antioquia
 
 
-## 15. `2026-11-22-francupido-bombera-carga`
+## 17. `2026-11-22-ganga-cartagena-privado`
+
+- **Gancho:** Ayer casi se van a Cartagena en privado
+- **Puntaje:** 68 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-24 · **Línea:** urbano · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-22-ganga-cartagena-privado/clip.mp4) (17,8 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-22-ganga-cartagena-privado/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=wcFZHzo1Y-A
+- **Revisar antes de publicar:** Escúchalo antes de publicar: dice «cuando estamos en el éxtasis siempre hacemos cosas locas» en el sentido de euforia, pero sale en subtítulo grande y, en un grupo que bebió la noche anterior, se puede leer como la droga. Si temes a la moderación de TikTok, es el clip que se puede dejar sin publicar (descártalo en la app). En la mesa hay vasos rojos de plástico (no se ve qué tienen ni se bebe en el clip). Los textos no usan «éxtasis» ni hablan de alcohol; el título de TikTok de la ficha decía «Ahorita estaríamos…» y se cambió por la frase literal «En este momento estaríamos aterrizando en privado».
+
+### TikTok · cuenta `principal` (Legión Urbana) · aprobado automáticamente; en cola (previsto 24-nov, salvo que quepa el 23-nov)
+
+```
+«En este momento estaríamos aterrizando en privado» ✈️ el día después de La Ganga
+
+«Yo amanecí sin contexto. No entiendo nada». En Guatapé, con las 72 horas en curso («falta un día y 5 horas»), se acuerdan de que anoche se iban para Cartagena.
+
+¿Guatapé o Cartagena? 👇
+
+Crédito: Samulx (YouTube), «NO SABEMOS QUE PASO AYER». Video original (minuto 18:06): https://youtu.be/wcFZHzo1Y-A?t=1086
+
+#LaGanga #Samulx #Guatape #Cartagena #72Horas
+```
+
+### Instagram · cuenta `principal` · pendiente de aprobación
+
+```
+«Yo amanecí sin contexto»… y casi se van a Cartagena en privado ✈️
+
+«Falta un día y 5 horas»: La Ganga sigue en Guatapé en sus 72 horas, y se acuerdan de que anoche se iban para Cartagena. «En este momento estaríamos aterrizando en privado».
+
+¿Tú te habrías subido? 👇
+
+Crédito: Samulx (YouTube), «NO SABEMOS QUE PASO AYER». Video original (minuto 18:06): https://youtu.be/wcFZHzo1Y-A?t=1086
+
+#LaGanga #Samulx #Guatape #Cartagena #72Horas
+```
+
+### YouTube · cuenta `principal` (canal de la Legión Urbana) · pendiente de aprobación
+
+**Título:** La Ganga casi se va a Cartagena en avión privado | 72 horas
+
+```
+«Yo amanecí sin contexto»: el día después de la noche de Guatapé, en las 72 horas de La Ganga, se acuerdan de que anoche se iban para Cartagena. «En este momento estaríamos aterrizando en privado».
+
+Crédito: Samulx (YouTube), «NO SABEMOS QUE PASO AYER». Video original (minuto 18:06): https://youtu.be/wcFZHzo1Y-A?t=1086
+
+#LaGanga #Samulx #Guatape #Cartagena #72Horas
+```
+
+**Etiquetas:** La Ganga, Samulx, Guatapé, Cartagena, 72 horas, avión privado, streamers, Colombia
+
+
+## 18. `2026-11-22-francupido-bombera-carga`
 
 - **Gancho:** ¿Podrá la bombera cargar a Franco Escamilla?
 - **Puntaje:** 79 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-25 · **Línea:** risas · **Pieza:** original (sin variantes)
 - **Video:** [clip.mp4](../clipero/clips/2026-11-22-francupido-bombera-carga/clip.mp4) (73,9 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-22-francupido-bombera-carga/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=dMnCmCEZt4g
 - **Revisar antes de publicar:** El momento fuerte es visual y va en plano general del escenario (en vertical se ve pequeño); unos 40 s sin palabras (gritos, aplausos, el micrófono apagado de Franco). Escuchar 0:03:58-0:04:01 de la fuente: un nombre que los subtítulos no entendieron va como «(…)». Dura 73,9 s. Los textos no nombran a la soltera (sube del público) ni se burlan de ella.
 
-### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola (previsto 23-nov)
+### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola (previsto 23-nov, después de las 13:36)
 
 ```
 Franco Escamilla le pidió a la bombera que lo cargara… y lo hizo 😂🚒
