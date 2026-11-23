@@ -1,0 +1,30 @@
+{
+    "id":  "2026-11-22-westcol-mejor-mes",
+    "url_fuente":  "https://www.youtube.com/watch?v=olXao5WK9qY",
+    "video_id":  "olXao5WK9qY",
+    "inicio":  778.85,
+    "fin":  817.2,
+    "inicio_hms":  "0:12:58",
+    "duracion_seg":  38.4,
+    "gancho":  "¿Cuánto gana Westcol en su mejor mes?",
+    "subtitulos":  "orig",
+    "palabras_subtituladas":  91,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "color":  "",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -14.62,
+                  "entrada_tp":  -1.83,
+                  "salida_lufs":  -14.88,
+                  "salida_tp":  -1.21
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-22-westcol-mejor-mes/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-22-westcol-mejor-mes/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-22-westcol-mejor-mes/revision.jpg",
+    "creado":  "2026-11-22T20:19:14.3540826-05:00"
+}

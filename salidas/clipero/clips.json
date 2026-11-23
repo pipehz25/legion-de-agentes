@@ -1,7 +1,91 @@
 {
-    "generado":  "2026-11-22T13:30:00-05:00",
-    "ciclo":  21,
+    "generado":  "2026-11-22T20:35:00-05:00",
+    "ciclo":  22,
     "clips":  [
+                  {
+                      "id":  "2026-11-22-westcol-mejor-mes",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  76,
+                      "gancho":  "¿Cuánto gana Westcol en su mejor mes?",
+                      "archivo":  "salidas/clipero/clips/2026-11-22-westcol-mejor-mes/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-22-westcol-mejor-mes/ficha.md",
+                      "duracion_seg":  38.4,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=olXao5WK9qY",
+                                     "canal":  "WestCOL",
+                                     "inicio":  778.85,
+                                     "fin":  817.2
+                                 },
+                      "oportunidad_cazador":  "formato-matematica-del-lujo",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-24"
+                  },
+                  {
+                      "id":  "2026-11-22-ganga-primera-piedra",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  72,
+                      "gancho":  "Nadie en La Ganga se sabe el refrán",
+                      "archivo":  "salidas/clipero/clips/2026-11-22-ganga-primera-piedra/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-22-ganga-primera-piedra/ficha.md",
+                      "duracion_seg":  19.2,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=wcFZHzo1Y-A",
+                                     "canal":  "Samulx",
+                                     "inicio":  1018.49,
+                                     "fin":  1037.7
+                                 },
+                      "oportunidad_cazador":  "formato-el-dia-despues-del-protagonista",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-24"
+                  },
+                  {
+                      "id":  "2026-11-22-ganga-cartagena-privado",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  68,
+                      "gancho":  "Ayer casi se van a Cartagena en privado",
+                      "archivo":  "salidas/clipero/clips/2026-11-22-ganga-cartagena-privado/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-22-ganga-cartagena-privado/ficha.md",
+                      "duracion_seg":  17.8,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=wcFZHzo1Y-A",
+                                     "canal":  "Samulx",
+                                     "inicio":  1086.57,
+                                     "fin":  1104.38
+                                 },
+                      "oportunidad_cazador":  "formato-el-dia-despues-del-protagonista",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-24"
+                  },
                   {
                       "id":  "2026-11-22-francupido-bombera-carga",
                       "estado":  "listo",

@@ -1,6 +1,14 @@
 # Lo que no se vio (el día después, contado por el protagonista)
 
-> **Estado (22-nov, 12:35, ciclo 19): vigente hasta el 24-nov, con puntaje 79 (77 en el ciclo 18).** Lo nuevo:
+> **Estado (22-nov, 19:40, ciclo 20): vigente hasta el 24-nov, con puntaje 80 (79 en el ciclo 19).** Lo nuevo:
+> - **El día después de la noche en Guatapé, con pregunta, es lo más rápido de La Ganga.** ['NO SABEMOS QUE PASO AYER 😬 ¿LEANDRO CORONÓ CON KATTY?'](https://www.youtube.com/watch?v=wcFZHzo1Y-A) (Samulx) va a 8.350/h a las 5,5 h, 3,3 veces su mediana por hora.
+> - **Pero la pregunta que vende es de pareja y queda fuera.** El clip usa los tramos limpios (subtítulos automáticos): del 16:00 al 19:30, "amanecí sin contexto", "falta un día y 5 horas", el avión privado a Cartagena que casi toman y las 24 horas en Argentina en diciembre; del 20:00 al 23:00, el sancocho y la ruta en motos. Gancho: "No sabemos qué pasó ayer", sin nombres de pareja.
+> - **La final sigue creciendo:** [Davoo](https://www.youtube.com/watch?v=IGjKe0aNlbs) pasa del millón (1,93 veces su mediana) y [Soy Roberto Uribe](https://www.youtube.com/watch?v=40gAwbuwZac) acelera de 15.452/h a 20.822/h. El Clipero ya cortó 5 clips de las tres fuentes: queda poco.
+> - **Lo que no se vio de la noche:** [The Chanty, 'DE RUMBA EN GUATAPÉ HASTA QUE NOS SACÓ LA POLICÍA'](https://www.youtube.com/watch?v=ShuQKCtA1Js), en su línea (1,0 veces). Solo la llegada de la policía y la reacción, sin alcohol ni mujeres de fondo.
+> - **Próxima aplicación:** las 72 horas acaban hacia las 19:00 del 23-nov (según Samulx). Lo que cuente cada uno el 23 y el 24 ("¿Aguantaron las 72 horas?"). Si el 24-nov no hay pieza que sobre-rinda con un gancho usable, el patrón baja a crecimiento.
+> - Nada sobre Herrera.
+>
+> **Estado anterior (22-nov, 12:35, ciclo 19): vigente hasta el 24-nov, con puntaje 79 (77 en el ciclo 18).** Lo nuevo:
 > - **La final de la Sudamericana trae el día después que faltaba,** en un contexto nuevo: el evento ajeno contado por los creadores que viajaron a verlo (Boca 2-0 Atlético Mineiro, 21-nov en Barranquilla).
 >   - [La Cobra, 'VI A BOCA CAMPEÓN… VLOG EN COLOMBIA Y CELEBRACIÓN CON JUGADORES!'](https://www.youtube.com/watch?v=5St0GQXddug): 16.106/h a las 2,1 h. Es lo que no salió en la tele: hotel (01:20), comida (07:23), previa (10:53), post partido (14:45) y festejo con los jugadores.
 >   - [Davoo, 'DAVOO XENEIZE OPINA DE BOCA 2 ATLETICO MINEIRO 0'](https://www.youtube.com/watch?v=IGjKe0aNlbs): 44.349/h; en 12,8 h ya pasa la mediana de vistas totales de sus 3 videos anteriores (567.665 frente a 523.482).

@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-11-22T12:45:00-05:00",
-  "ciclo": 10,
+  "actualizado": "2026-11-22T20:20:00-05:00",
+  "ciclo": 11,
   "rotacion": {
     "plataformas": { "youtube": "2026-11-22", "x": "2026-11-22", "tiktok": "2026-11-22", "instagram": null, "facebook": null, "kick": null },
     "_rotacion_nota_ciclo_10": "Ciclo 10 (domingo 22-nov, 12:31-12:40): TikTok solo con @naide.sabe.nada (yt-dlp), para saber si el 14x12 ya está publicado: no. Dos transcripciones con metodo_transcripcion: FranCupido Cancún 1 Ep. 8 (ya tenía subtítulos automáticos a los 5 min de publicarse) y el Voz Populi del 22-nov. Las llamadas a yt-dlp se hicieron con un script que mata el proceso a los 20-40 s, para no pasar de 60 s por comando ni dejar procesos abiertos. Instagram, Facebook y Kick siguen sin explorar.",
@@ -15,7 +15,8 @@
       "comedia y stand-up": "2026-11-22",
       "humoristas y creadores de humor": "2026-11-22",
       "momentos graciosos de la política colombiana": "2026-11-22"
-    }
+    },
+    "_rotacion_nota_ciclo_11": "Ciclo 11 (domingo 22-nov, 19:58-20:10): TikTok solo con @naide.sabe.nada (yt-dlp), para saber si el 14x12 ya está publicado: no. Una transcripción con metodo_transcripcion: 'ESPAÑOLES VS LATINOAMERICANOS' de Ballarta (excluido). La del estreno de Juanpis no se pudo bajar mientras dura el estreno. Todas las llamadas a yt-dlp y a clipero.ps1 llevan un tope de 40-58 s y piden a Windows que no se suspenda mientras duran. Instagram, Facebook y Kick siguen sin explorar (Kick, por orden del orquestador)."
   },
   "presupuesto_usado_ciclo_10": {
     "busquedas_web": 2,
@@ -95,7 +96,7 @@
     "actualidad_18_nov": "Tendencias de X Colombia a las 04:36 UTC del 18-nov (23:36 del 17-nov en Colombia). Manda el fútbol: Once Caldas, América, Copa, Manizales y decenas de jugadores. 'Lapsus' (#12) y 'Carrascal' (#22) parecen de ese partido: la búsqueda web solo trae al futbolista Jorge Carrascal y 'lapsus Colombia' -Hoy no da nada político. Siguen 'Hollman Morris' (#44, caso judicial) y 'Don Omar'. Entre las más largas (19 h): 'Robert Pattinson', 'James Bond', 'Buenaventura', 'Duvalier' y 'Don Omar'. Ningún humorista. México (04:40 UTC): fútbol de la Selección, '#LaGranjaDuelo' (reality, no entra), la Suprema Corte y Clara Brugada; nada de humor. Política colombiana: según La Luciérnaga del 17-nov, el Gobierno retiró el IVA del 19 % a la canasta familiar de su reforma tributaria. Es una decisión pública, válida para sátira, y el programa la satiriza con imitadores de tres corrientes. La legislatura acaba el 16-dic. La protesta del 19-nov (#ParoNacional19N) sigue convocada. Catherine Juvinao salió de Alianza Verde en 2026 y fue reelegida a la Cámara por Bogotá (https://www.elespectador.com/politica/alianza-verde-aprueba-salida-la-representante-catherine-juvinao/, https://www.semana.com/politica/articulo/catherine-juvinao-de-ser-una-critica-de-petro-a-apoyar-a-ivan-cepeda/202658/). En el equilibrio cuenta como centroizquierda.",
     "actualidad_17_nov_tarde": "Tendencias de X Colombia a las 22:33 UTC del 17-nov (17:33 en Colombia). Llevan 24 h: 'Robert Pattinson', 'James Bond' (Pattinson es el nuevo Bond), 'Buenaventura', 'Abelardo' y 'Duvalier'. Política: 'Hollman Morris' (#4) es la imputación de la Fiscalía por presunto acto sexual violento contra una periodista, un caso judicial. 'Duvalier' son escándalos, 'bodegas' y un intento de homicidio contado por el senador: no entra. '#ParoNacional19N' es una protesta convocada para el 19-nov. 'Miguel Uribe' y 'María Claudia Tarazona' (su viuda) remiten a un asesinato: no entra. El reinado (#Concursonacionaldebelleza, #ReinadoColombia) sigue, y es un concurso de TV. No hay humoristas entre las 50. La Luciérnaga del 17-nov (pYtwwPMrdzs, 90 min, 6.748/h en su primera hora) abre con 'Juez cuestiona operativos de De la Espriella' (judicial y violencia) y la 'canasta familiar sin IVA' (política pública, válida para sátira), pero todavía no tiene subtítulos para comprobar si hay imitaciones de eso. México (22:39 UTC): The Game Awards y GTA VI, '#MinistraBurra' y '#NarcoGobiernoMorena' (partidistas), Clara Brugada; nada de humor. La búsqueda web tampoco encuentra momentos graciosos del Congreso en noviembre: lo último sigue siendo el lapsus de Norma Hurtado (septiembre) y el de Mafe Carrascal (20-jul).",
     "actualidad_17_nov": "Tendencias de X Colombia a las 05:21 UTC del 17-nov (00:21 en Colombia): mandan el Concurso Nacional de Belleza de Cartagena (#Concursonacionaldebelleza, #ReinadoColombia, #SeñoritaColombia), que es un concurso de TV: no entra. 'Primo Gay' (alias criminal), 'Juez' y 'Armada' llevan 24 h. 'Abelardo' (#12) va por sus 100 días de gobierno ('más de 100 milagros') y por su advertencia 'los voy a dar de baja' a Chiquito Malo e Iván Mordisco (NTN24, JHYQ-sGLowc): violencia, no entra. 'Duvalier' (#22): el único video es 'NUEVO ESCÁNDALO de Duvalier Sánchez con preguntas sin resolver' (Vincent RM, TadDcNSC-kY, 2 min), un escándalo, no un momento gracioso. 'Francia Márquez' (#36) y 'Yate' (#47) salen en shorts partidistas (cierre de embajadas en África; la hija del presidente en un yate del Estado). Ningún humorista entre las 50. México (05:24 UTC): '#MeCaigoDeRisa' (#11) es el programa de concurso de Televisa (El 5 sube recortes de 5-6 min); además, Bond, fútbol americano y política. Las búsquedas web siguen sin encontrar momentos graciosos del Congreso en noviembre.",
-    "actualidad_14_nov":"Tendencias de X Colombia a las 03:21 UTC del 15-nov (22:21 del 14-nov en Colombia): manda Stream Fighters 5 (#StreamFighters5, #STF5 24 h, Westcol, Aria Vega), que es de la línea urbana. 'Fondo Milagro' sigue (23 h en la lista; según Blu Radio, su gerente renunció el 13-nov y el nuevo no cobrará sueldo, https://www.youtube.com/watch?v=UX5t4m4Kgbs): no se hace humor con eso. 'Primo Gay' es el alias de un criminal cuya extradición se pide (https://www.youtube.com/watch?v=wDdH8VnI-Jo): no es humor. 'Luis Felipe Henao' (exministro de Vivienda) lleva 23 h en la lista sin causa encontrada. '#eltoroporloscachos', sin causa encontrada. No hay humoristas en las 50 tendencias. Las búsquedas web no encontraron momentos graciosos del Congreso en noviembre. La Luciérnaga de Caracol Radio, el gran programa de humor político de la radio, va esta semana sobre el Fondo Milagro y la 'escalada terrorista'. México (03:27 UTC): fútbol (Selección, Rafa Márquez), Félix Gallardo y BTS; nada de humor.",
+    "actualidad_14_nov": "Tendencias de X Colombia a las 03:21 UTC del 15-nov (22:21 del 14-nov en Colombia): manda Stream Fighters 5 (#StreamFighters5, #STF5 24 h, Westcol, Aria Vega), que es de la línea urbana. 'Fondo Milagro' sigue (23 h en la lista; según Blu Radio, su gerente renunció el 13-nov y el nuevo no cobrará sueldo, https://www.youtube.com/watch?v=UX5t4m4Kgbs): no se hace humor con eso. 'Primo Gay' es el alias de un criminal cuya extradición se pide (https://www.youtube.com/watch?v=wDdH8VnI-Jo): no es humor. 'Luis Felipe Henao' (exministro de Vivienda) lleva 23 h en la lista sin causa encontrada. '#eltoroporloscachos', sin causa encontrada. No hay humoristas en las 50 tendencias. Las búsquedas web no encontraron momentos graciosos del Congreso en noviembre. La Luciérnaga de Caracol Radio, el gran programa de humor político de la radio, va esta semana sobre el Fondo Milagro y la 'escalada terrorista'. México (03:27 UTC): fútbol (Selección, Rafa Márquez), Félix Gallardo y BTS; nada de humor.",
     "actualidad_13_nov": "Tendencias de X Colombia a las 22:06 UTC: 'Fondo Milagro' (#1, de las más largas del día) y 'Jaime Uribe' (#4 y #18) son el fondo de reconstrucción tras el terremoto del 10-ago-2026 y su gerente, que no fue al Congreso a rendir cuentas el 11-nov (https://cambiocolombia.com/poder/articulo/2026/11/gerente-del-fondo-milagro-no-fue-al-congreso-a-rendir-cuentas-reporto-que-solo-ha-comprometido-el-12-de-los-recursos). Toca a damnificados de una tragedia: no se hace humor con eso. '#AbelardoIncompetente' (#31) es un hashtag partidista. 'Timochenko' y 'Rodrigo Londoño' (la misma persona) suben sin causa conocida. 'Viernes 13' es meme de calendario. La búsqueda web no encontró momentos graciosos del Congreso en noviembre; el último registrado es el lapsus 'Gobierno de Gustavo Abelardo' de la senadora Norma Hurtado (https://www.vanguardia.com/colombia/2026/09/03/gobierno-de-gustavo-abelardo-el-error-que-causo-risas-en-medio-de-un-debate-del-senado/), de septiembre: fuera de la ventana.",
     "actualidad_10_nov": "Temas de la semana: (1) el bombardeo contra el Frente 33 ('Barba Chivo', la 'bomba firmada') y el uniforme de camuflaje del presidente en los operativos (tendencia 'Casco' probablemente ligada a eso, sin confirmar). Es violencia: no entra. (2) La Ley de Rescate Fiscal del gobierno De la Espriella, en el Congreso (https://www.semana.com/opinion/articulo/ley-de-rescate-fiscal-la-bomba-que-dejo-petro/202600/). Es un tema válido para sátira. (3) Rumores sobre 'fiestas' de Petro y un 'video íntimo': vida privada, no entra."
   },
@@ -140,7 +141,10 @@
     "Ciclo 9: el Anecdotario de Ricardo Pérez sale antes para los miembros del canal ('Adelantado'): yt-dlp no puede leerlo. Se espera a la versión pública del domingo",
     "Ciclo 10: búsqueda web de momentos graciosos de políticos colombianos con fecha del día: solo trae casos viejos (Norma Hurtado de septiembre; 'disminujo' de Mafe Carrascal, del 20-oct, ligado a una investigación disciplinaria). Una búsqueda web de 'aguacero Medellín' con fecha tampoco encuentra el día. Confirma la regla: para la actualidad, clipero buscar con nombres concretos",
     "Útil en el ciclo 10: 'Petro humor imitación' -Hoy -Detalle -MaxHoras 48 trajo el Voz Populi del día, que 'Voz Populi Blu Radio' -Recientes todavía no indexaba. Si la búsqueda por el nombre del segmento no trae nada, probar con un político y 'humor imitación'",
-    "Ciclo 10: los subtítulos automáticos de un video nuevo pueden estar listos a los 5 min de publicarse (FranCupido Ep. 8): se puede leer una fuente recién subida sin esperar"
+    "Ciclo 10: los subtítulos automáticos de un video nuevo pueden estar listos a los 5 min de publicarse (FranCupido Ep. 8): se puede leer una fuente recién subida sin esperar",
+    "Ciclo 11: un estreno de YouTube no deja bajar los subtítulos mientras dura ('Did not get any data blocks'), aunque yt-dlp los liste. Hay que esperar a que acabe (inicio más duración)",
+    "Ciclo 11: 'Petro humor imitación' -Hoy el domingo por la noche solo repite el Voz Populi de la mañana. Los domingos por la noche no hay sátira política nueva: no gastar búsquedas",
+    "Ciclo 11: búsqueda web de 'MinTIC censura' por las tendencias 'Censura' y 'Dictadura' de X Colombia: nada del día. Una tendencia política sin humor no merece una búsqueda"
   ],
   "equilibrio_politico": {
     "nota": "Momentos de humor político propuestos en fuentes_para_clips, por corriente de quien protagoniza el momento (enfoque.md: sin bandos). Los excluidos no cuentan para el equilibrio; se anotan para no volver a evaluarlos.",
@@ -315,11 +319,41 @@
           { "url": "https://www.youtube.com/watch?v=nXUsJBNNdu8", "politica": "varias (cuentico del 'impuestico mentiroso' en Voz Populi), de 0:12 a 0:14", "motivo": "Llama 'bebedor y vago' a un expresidente: vida privada" },
           { "url": "https://www.pulzo.com/nacion/lapsus-maria-fernanda-carrascal-investigacion-procuraduria-PP5335003", "politica": "Pacto Histórico, izquierda (María Fernanda Carrascal)", "motivo": "El lapsus 'disminujo' es del 20-oct (archivo), lo dijo defendiendo al gobierno de Petro sobre la represión de las protestas y la nota va con una investigación disciplinaria de la Procuraduría" }
         ]
+      },
+      {
+        "ciclo": 11,
+        "fecha": "2026-11-22",
+        "propuestos": {},
+        "detalle": [],
+        "nota": "Ningún momento político propuesto: domingo por la noche, sin Congreso, La Luciérnaga ni Voz Populi. 'Petro humor imitación' -Hoy solo devuelve el Voz Populi de la mañana, ya descartado entero en el ciclo 10. Las tendencias políticas de X Colombia ('#AbelardoRenuncieYa', 'Dictadura', 'Censura') son consignas sin humor; 'Miguel Uribe' remite a un asesinato. El Clipero (ciclo 21) no cortó ningún clip político: lo cortado sigue en derecha 1, centroizquierda 1 y varias 1.",
+        "repetidos_sin_contar": [
+          { "url": "https://www.youtube.com/watch?v=1umsdaFlemE", "tramo": "1:58:09-2:00:10", "politica": "derecha (imitación del presidente Abelardo de la Espriella en La Luciérnaga)", "nota": "Ya contó en el ciclo 8. Sigue en la reserva y sale de la ventana el 23-nov a las 15:58" }
+        ],
+        "excluidos": [
+          { "url": "https://www.youtube.com/watch?v=MPF2-Bkw3I4", "politica": "ninguna (stand-up de Carlos Ballarta sobre España y Latinoamérica)", "motivo": "No es político, pero se anota aquí porque se ríe de nacionalidades y rasgos raciales. No cuenta para el equilibrio" }
+        ]
       }
     ],
-    "acumulado": { "centro": 1, "centroizquierda": 1, "derecha": 2, "izquierda": 1, "varias": 1, "otros": 0, "nota_varias": "Desde el ciclo 7, 'varias' cuenta los momentos que se ríen por igual de varias corrientes, como la sátira del IVA de La Luciérnaga (centro, derecha y centroizquierda). No suma a ningún lado.", "nota_centroizquierda": "Desde el ciclo 8 se separa 'centroizquierda' (Roy Barreras). Por lados: izquierda y centroizquierda 2, derecha 2, centro 1 y varias 1." },
-    "acumulado_cortado_por_clipero": { "derecha": 1, "varias": 1, "centroizquierda": 1, "nota_ciclo_10": "Clipero, ciclo 20 (21:12-21:45 del 21-nov): dos clips de risas, ninguno político (2026-11-21-nsn-robot-guardaespaldas y 2026-11-21-quevedo-policia-foto). La carta a los ministros no se cortó, por el equilibrio. Sin cambios.", "nota_ciclo_9": "salidas/clipero/clips.json, ciclo 19 del Clipero (11:45 del 21-nov): se suma el poema de Roy Barreras (2026-11-21-roy-barreras-neruda, centroizquierda, en persona; autoburla). La carta a los ministros (derecha) no se cortó.", "nota": "Clips con campo politica en salidas/clipero/clips.json (generado a las 01:50 del 18-nov, ciclo 18 del Clipero): el disfraz de De la Espriella de Jhovanoty (2026-11-13-jhovanoty-faja-disfraz, derecha; salió en TikTok risas el 18-nov) y la sátira del IVA de La Luciérnaga (2026-11-18-luciernaga-imitadores-iva, varias: imitaciones de Claudia López y de Uribe; mandada como borrador a TikTok risas el 20-nov). Los momentos de centro (Claudia López) e izquierda (Petro) de Voz Populi de los ciclos 1 y 2 se propusieron y no se cortaron." },
-    "alerta": "Ciclo 10: lo propuesto y lo cortado no cambian (propuesto: izquierda y centroizquierda 2, derecha 2, centro 1, varias 1; cortado: derecha 1, centroizquierda 1, varias 1). La carta a los ministros pasa a la reserva y sale de la ventana el 23-nov. Tercer segmento seguido de Voz Populi sin ninguna pieza válida: lo que sacan del lado de la izquierda va al cuerpo, a la vida privada, a los títulos de Verónica Estrada (caso judicial) o se ríe de un bando entero. El Congreso sigue sin un momento gracioso nuevo en noviembre. Siguen pendientes del usuario las opciones (a) sátira de archivo con fecha comprobada y (b) pausa de la política. Lo que sigue es del ciclo 9: Lo propuesto no cambia (izquierda y centroizquierda 2, derecha 2, centro 1, varias 1). Lo cortado queda parejo por lados tras el poema de Roy Barreras: derecha 1, centroizquierda 1, varias 1. Si se corta la carta a los ministros, la derecha pasa a 2; para compensar haría falta un momento válido de la izquierda o del centro, y en la ventana no hay ninguno (el único de la izquierda, 'Empacado al vacío', se ríe del cuerpo del imitado). Lo que sigue es del ciclo 8: Lo propuesto sigue parejo por lados: izquierda y centroizquierda 2, derecha 2, centro 1, varias 1. Lo cortado ya no va de un solo lado (derecha 1, varias 1), pero todavía no se ha cortado nada de la izquierda ni del centro. Si el Clipero corta el poema de Roy Barreras (centroizquierda), queda equilibrado. El Congreso sigue sin ningún momento gracioso nuevo en noviembre: lo único que circula es el lapsus de Norma Hurtado de septiembre, que La Luciérnaga repitió el 20-nov. Sigue pendiente la decisión del usuario del ciclo 6: (a) aceptar sátira de archivo con fecha comprobada, o (b) dejar la política en pausa hasta que haya un momento real. Los dos momentos del ciclo 8 son de la ventana, así que entran con las reglas de siempre y no presuponen ninguna de las dos. Si el usuario elige (a), el lapsus de Norma Hurtado (Partido de la U, centro-derecha) sería el primer candidato."
+    "acumulado": {
+      "centro": 1,
+      "centroizquierda": 1,
+      "derecha": 2,
+      "izquierda": 1,
+      "varias": 1,
+      "otros": 0,
+      "nota_varias": "Desde el ciclo 7, 'varias' cuenta los momentos que se ríen por igual de varias corrientes, como la sátira del IVA de La Luciérnaga (centro, derecha y centroizquierda). No suma a ningún lado.",
+      "nota_centroizquierda": "Desde el ciclo 8 se separa 'centroizquierda' (Roy Barreras). Por lados: izquierda y centroizquierda 2, derecha 2, centro 1 y varias 1."
+    },
+    "acumulado_cortado_por_clipero": {
+      "derecha": 1,
+      "varias": 1,
+      "centroizquierda": 1,
+      "nota_ciclo_11": "Clipero, ciclo 21 (12:45-13:25 del 22-nov): un clip de risas, no político (2026-11-22-francupido-bombera-carga). Sin cambios.",
+      "nota_ciclo_10": "Clipero, ciclo 20 (21:12-21:45 del 21-nov): dos clips de risas, ninguno político (2026-11-21-nsn-robot-guardaespaldas y 2026-11-21-quevedo-policia-foto). La carta a los ministros no se cortó, por el equilibrio. Sin cambios.",
+      "nota_ciclo_9": "salidas/clipero/clips.json, ciclo 19 del Clipero (11:45 del 21-nov): se suma el poema de Roy Barreras (2026-11-21-roy-barreras-neruda, centroizquierda, en persona; autoburla). La carta a los ministros (derecha) no se cortó.",
+      "nota": "Clips con campo politica en salidas/clipero/clips.json (generado a las 01:50 del 18-nov, ciclo 18 del Clipero): el disfraz de De la Espriella de Jhovanoty (2026-11-13-jhovanoty-faja-disfraz, derecha; salió en TikTok risas el 18-nov) y la sátira del IVA de La Luciérnaga (2026-11-18-luciernaga-imitadores-iva, varias: imitaciones de Claudia López y de Uribe; mandada como borrador a TikTok risas el 20-nov). Los momentos de centro (Claudia López) e izquierda (Petro) de Voz Populi de los ciclos 1 y 2 se propusieron y no se cortaron."
+    },
+    "alerta": "Ciclo 11: lo propuesto y lo cortado no cambian (propuesto: izquierda y centroizquierda 2, derecha 2, centro 1, varias 1; cortado: derecha 1, centroizquierda 1, varias 1). Es domingo por la noche y no hay ninguna fuente política nueva. La carta a los ministros sale de la ventana el 23-nov a las 15:58. Lo próximo de política es el lunes 23-nov: La Luciérnaga, Voz Populi y el Congreso. Siguen pendientes del usuario las opciones (a) sátira de archivo con fecha comprobada y (b) pausa de la política. Lo que sigue es del ciclo 10: Ciclo 10: lo propuesto y lo cortado no cambian (propuesto: izquierda y centroizquierda 2, derecha 2, centro 1, varias 1; cortado: derecha 1, centroizquierda 1, varias 1). La carta a los ministros pasa a la reserva y sale de la ventana el 23-nov. Tercer segmento seguido de Voz Populi sin ninguna pieza válida: lo que sacan del lado de la izquierda va al cuerpo, a la vida privada, a los títulos de Verónica Estrada (caso judicial) o se ríe de un bando entero. El Congreso sigue sin un momento gracioso nuevo en noviembre. Siguen pendientes del usuario las opciones (a) sátira de archivo con fecha comprobada y (b) pausa de la política."
   },
   "patrones": [
     {
@@ -398,8 +432,16 @@
       "confianza": "media",
       "excluido_por_enfoque": "Candidato en campaña con elecciones a menos de 30 días (enfoque.md). La parte sobre Israel, además, toca una guerra.",
       "genoma": {
-        "gancho": "", "estructura": "", "emocion": "", "payoff": "", "formato_tecnico": "",
-        "audio": "", "edicion": "", "arquetipo": "", "participacion": "", "contexto": "Actualidad política española en campaña",
+        "gancho": "",
+        "estructura": "",
+        "emocion": "",
+        "payoff": "",
+        "formato_tecnico": "",
+        "audio": "",
+        "edicion": "",
+        "arquetipo": "",
+        "participacion": "",
+        "contexto": "Actualidad política española en campaña",
         "perecederos": ["contexto"]
       },
       "evidencia": [
@@ -522,5 +564,12 @@
         { "fecha": "2026-11-21", "etapa": "quemado", "indice_saturacion": 85, "senal": "Ciclo 8: pasa a quemado, como se previó. No hubo clip antes del 19-nov (el Clipero no corrió después del 18-nov) y 'Robert Pattinson' y 'James Bond' ya no están entre las 50 tendencias de X Colombia ni de México (15:20 y 15:24 UTC del 21-nov), ni en las cinco más largas del día. Se archiva el 5-dic." }
       ]
     }
-  ]
+  ],
+  "presupuesto_usado_ciclo_11": {
+    "busquedas_web": 1,
+    "lecturas_web": 4,
+    "busquedas_youtube": 1,
+    "revisiones_de_canal": 12,
+    "nota": "Ciclo 11, domingo 22-nov, de 19:58 a 20:20, 7,3 h después del 10. Pedido del orquestador: calidad antes que cantidad, un máximo de 60 s por comando, sin procesos en segundo plano y sin Kick. Lecturas: trends24 Colombia y México, el TikTok de @naide.sabe.nada y la transcripción de Ballarta. Búsqueda web: 'MinTIC censura' (tendencias 'Censura' y 'Dictadura' de X Colombia), sin nada del día ni de humor. YouTube: 'Petro humor imitación' -Hoy, sin -Detalle (solo repite el Voz Populi de la mañana). Revisiones de canal: 12 perfiles. No se gastó el resto: los estrenos del domingo salen después de las 20:00 y no se pueden leer mientras duran."
+  }
 }

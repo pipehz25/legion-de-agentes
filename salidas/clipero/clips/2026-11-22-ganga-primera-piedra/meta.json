@@ -1,0 +1,30 @@
+{
+    "id":  "2026-11-22-ganga-primera-piedra",
+    "url_fuente":  "https://www.youtube.com/watch?v=wcFZHzo1Y-A",
+    "video_id":  "wcFZHzo1Y-A",
+    "inicio":  1018.49,
+    "fin":  1037.7,
+    "inicio_hms":  "0:16:58",
+    "duracion_seg":  19.2,
+    "gancho":  "Nadie en La Ganga se sabe el refrán",
+    "subtitulos":  "orig",
+    "palabras_subtituladas":  84,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "color":  "",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -16.16,
+                  "entrada_tp":  -3.54,
+                  "salida_lufs":  -13.8,
+                  "salida_tp":  -1.38
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-22-ganga-primera-piedra/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-22-ganga-primera-piedra/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-22-ganga-primera-piedra/revision.jpg",
+    "creado":  "2026-11-22T20:24:38.0879061-05:00"
+}

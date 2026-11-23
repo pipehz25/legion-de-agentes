@@ -1,8 +1,8 @@
 {
-    "actualizado":  "2026-11-22T13:30:00-05:00",
-    "ciclo":  21,
-    "ultimo_ciclo_cazador":  19,
-    "ultimo_ciclo_cazador_risas":  10,
+    "actualizado":  "2026-11-22T20:35:00-05:00",
+    "ciclo":  22,
+    "ultimo_ciclo_cazador":  20,
+    "ultimo_ciclo_cazador_risas":  11,
     "_nota_ciclo_16":  "Ciclo 16 (17-nov, desde la 01:26; procesa el ciclo 13 del Cazador Urbano y el 5 del de Risas; el ciclo 12 del Cazador Urbano no se procesó y queda cubierto por el 13). Cinco fuentes, como dice config: tres urbanas (Westcol sobre Herrera YQ-vOO3-Ghk, Samulx desde el hotel GkojR4E0tuY, Lonche con La Ganga s1betCsTVVE) y dos de risas (Hablando Huevadas en El Salvador qDAqPW70T7c, Anecdotario 378 de Ricardo Pérez VzE65NyXqb8). No se tocaron los VOD de Kick (whisper) porque las versiones de YouTube cubrían el mismo directo. Sin variantes: cada línea tiene una sola cuenta activa por plataforma (TikTok: principal y risas). Interrupciones: el ciclo se paró por el límite de uso tras el primer corte (se reanudó a las 12:54) y por una caída de red (ENOTFOUND) a media tarde; el corte de refri-papas falló y el de ganga-robot-precio salió con el video truncado a 47 s: se repitieron los dos. clips.json se actualizó por inserciones (el Publicador lo lee a la vez); no se podaron los clips de más de 7 días. Los 30 clips 2026-11-15-{antartida,sistema-solar,cables,apagon}-* (encargo CurioSismo, carpeta curiosismo/) no se registran ni se tocan: esperan la decisión del usuario. Herrera: la polémica empieza a tener ángulo legal (el propio Westcol habla de abogados; terceros titulan con una demanda); los clips evitan ese tramo y llevan \u0027si pasa a lo judicial, no se publica\u0027. Informe: salidas/clipero/informes/2026-11-17_0126.md.",
     "_nota_ciclo_15":  "Ciclo 15 (14-nov desde las 23:50; procesa el ciclo 11 del Cazador Urbano y el 4 del de Risas). Orden del orquestador: 1) urbano, Stream Fighters 5 de esta noche: Daren Ramírez contra El Agropecuario (G7gj3T1-_lk), la entrada de Westcol (pofJeEqiGF0) y lo mejor del pesaje completo (zkf8bOkg9kk), ventana hasta el 16-nov; las peleas grandes (Westcol contra Blessd, las parejas de streamers) no están subidas y quedan para el ciclo 16; 2) risas: primero lo que sale de la ventana el 15-nov (Paren la Mano del 12/11 uRZ2xc4sRyA, Juanpis Cap. 7 I2i3qkbPdXE, Liss Pereira T6Cw9kprkbc, Mestizos Precisos YdISeGSMqJo) y después Tirando Bola T9E21 (niP1DkpCYvs), Paren la Mano del 13/11 (92HshiOuj1k) y Nadie Sabe Nada 14x11 (pSyuyPq7uh0). Se pasa del tope de 5 fuentes por orden expresa del orquestador. Sin variantes: cada línea tiene una sola cuenta activa por plataforma (TikTok: risas y principal). Pendiente del ciclo 14: el clip 2026-11-13-samulx-chanty-cruce-willito (Gnhd74tjACk) se cortó sin registrar; se registra en este ciclo. Se paró hacia las 00:20 del 15-nov por el límite de uso con 2 clips del pesaje cortados sin registrar; se reanudó a las 18:10 con orden del orquestador: registrarlos, cortar los dos pendientes de Paren la Mano del 12/11 y seguir con Tirando Bola, Paren la Mano del 13/11 y Nadie Sabe Nada. Cierre (19:02): 16 clips nuevos (5 urbanos, 11 de risas) más el del ciclo 14; 6 fuentes nuevas. No se analizaron Juanpis Cap. 7 ni Liss Pereira (salen de la ventana el 15-nov a las 20:00) ni Mestizos Precisos (salió a las 12:30). Quedan propuestos con ventana hasta el 16-nov 5 momentos del pesaje (zkf8bOkg9kk), con palabras-rev.json ya corregido. Los clips del evento se revisan con hoja de fotogramas completa: el directo intercala rótulos de apuestas (Stake). Informe: salidas/clipero/informes/2026-11-14_2350.md.",
     "_nota_ciclo_14":  "Ciclo 14 (13-nov desde las 18:43; procesa el ciclo 10 del Cazador Urbano y el 3 del de Risas). Orden del orquestador: 1) risas primero y con volumen: La Cotorrisa 399 (XUh-fUA_o30), Paren la Mano del 12-nov (uRZ2xc4sRyA) y del 11-nov (Luquitas y el Papa; recorte del canal K4MCv-DXdmI), Jhovanoty disfrazado de De la Espriella (lEDdtE48rBk; gancho que diga que es disfraz, reglas de humor político) y Juanpis Cap. 7 (I2i3qkbPdXE); 2) urbano, solo 3-4 momentos de la previa de Stream Fighters 5 con ventana hasta el 15-nov. Se pasa del tope de 5 fuentes por orden expresa del orquestador. Sin variantes: cada línea tiene una sola cuenta activa por plataforma (TikTok: risas y principal).",
@@ -722,6 +722,34 @@
                         "titulo":  "FranCupido❤️| Cancún 1 | Ep.-8",
                         "analizado":  "2026-11-22",
                         "resultado":  "1 clip (ciclo 21, línea risas): francupido-bombera-carga 79 + 2 propuestos (el soltero vive con su ex 70; el nieto y la abuela 66) | fuente_para_clips n.º 1 del Cazador de Risas (ciclo 10), prioridad alta, tramo 0:03:00-0:04:18 | Franco Escamilla (14,5 M), publicado 22-nov 12:30, 1.996 s, 4.358 vistas, 367 me gusta y 51 comentarios a los 19 min (12:49; unas 13.700/h) | sin picos; 1 marca (3:00, 3 menciones: \u0027Franco se la rifó Made, momento épico\u0027) | transcripción leída entera (312 líneas) | un clip por fuente (cola de risas llena) | fuera: \u002712 corazones pero porno\u0027, table dance e infidelidad (sexual), examen de salud, \u0027material de importación\u0027, el rechazo final (vida privada) | palabras-rev.json: \u0027Óscar Levado\u0027 → (…)"
+                    },
+                    {
+                        "id":  "olXao5WK9qY",
+                        "url":  "https://www.youtube.com/watch?v=olXao5WK9qY",
+                        "titulo":  "CUANTO ES LO MAXIMO QUE HEMOS GANADO EN 1 MES | Westcol",
+                        "analizado":  "2026-11-22",
+                        "resultado":  "1 clip (ciclo 22, urbano): westcol-mejor-mes 76 (Westcol en persona; confirmar escuchando que la cifra es suya) | fuente_para_clips n.º 11 del Cazador Urbano (ciclo 20), pendiente del ciclo 21, formato-matematica-del-lujo | WestCOL (2,1 M), publicado 21-nov 20:30, 898 s, 24.919 vistas, 217 me gusta y 36 comentarios al analizar (20:13) | sin picos; 1 marca (0:58, fuera del tramo) | transcripción leída entera (133 líneas) | fuera: 0:00-12:22 (bromas sexuales, Wilson, mujeres, alcohol), la ronda de The Chanty (35.000) y el 150.000 con un insulto pitado, y el cierre de Wilito y Lonche (15.000, 50.000 \u0027pesos colombianos… bolívares\u0027, 62) | no se crea palabras-rev.json"
+                    },
+                    {
+                        "id":  "wcFZHzo1Y-A",
+                        "url":  "https://www.youtube.com/watch?v=wcFZHzo1Y-A",
+                        "titulo":  "NO SABEMOS QUE PASO AYER 😬 ¿LEANDRO CORONÓ CON KATTY?",
+                        "analizado":  "2026-11-22",
+                        "resultado":  "2 clips (ciclo 22, urbano): ganga-primera-piedra 72, ganga-cartagena-privado 68 | fuente_para_clips n.º 1 del Cazador Urbano (ciclo 20), 8.350 vistas/h a las 5,5 h, formato-el-dia-despues-del-protagonista, tramos limpios 16:00-19:30 y 20:00-23:00 | Samulx (190.000), publicado 22-nov 13:46, 1.573 s, 58.924 vistas, 521 me gusta y 6 comentarios al analizar (20:21) | sin picos ni marcas | transcripción leída entera (216 líneas) | fuera: 0:00-12:50 (pareja, \u0027las mujeres y la plata\u0027, borrachera), el techo y las puertas rotas de la casa, \u0027Masa… funado\u0027 (una persona y su funa), el alcohol de 19:11-21:16, el \u0027chipeo\u0027 y \u0027abuelito\u0027 (pareja e insultos), Carlos y el Patek con \u0027un niño de 13 años\u0027 (63) | no se crea palabras-rev.json"
+                    },
+                    {
+                        "id":  "pzhADojtbcI",
+                        "url":  "https://www.youtube.com/watch?v=pzhADojtbcI",
+                        "titulo":  "DESCONTROLANDO GUATAPE con WESTCOL, SAMULX, WILLITO y LEANDRO 🔥| Lonche",
+                        "analizado":  "2026-11-22",
+                        "resultado":  "sin clips (ciclo 22, urbano) | fuente_para_clips n.º 3 del Cazador Urbano (ciclo 20), 2.477 vistas/h, formato-primera-vez-en-medellin | Lonche Chacas (3.180 suscriptores según yt-dlp), publicado 22-nov 11:05, 2.359 s, 19.113 vistas, 85 me gusta y 2 comentarios al analizar (20:27) | sin picos ni marcas | transcripción leída entera (319 líneas) | casi todo es alcohol (tequila, cubetas de cerveza, shots), mujeres y música de fondo; las motos sin casco y \u0027la policía… arránquelo\u0027; preguntas de edad a dos chicas que dicen tener 17 y 13 años (37:56-38:49, menores: fuera); la panadería (buñuelo, pan crema) apenas tiene palabras (58)"
+                    },
+                    {
+                        "id":  "ncTfqAy3mVM",
+                        "url":  "https://www.youtube.com/watch?v=ncTfqAy3mVM",
+                        "titulo":  "VIAJE a COLOMBIA con EL DENGUE 🇨🇴 CONOCÍ a WESTCOL, COMPRAS y STREAM FIGHTERS 5 - VLOG",
+                        "analizado":  "2026-11-22",
+                        "resultado":  "sin clips (ciclo 22, urbano) | fuente_para_clips n.º 8 del Cazador Urbano (ciclo 20), estreno a las 19:00, formato-primera-vez-en-medellin | Okyyy (589.000), 3.239 s, 306 vistas, 38 me gusta y 3 comentarios al analizar (20:28) | sin picos ni marcas | transcripción leída entera (428 líneas) | es el viaje a la Stream Fighters 5 de la semana pasada, no de esta: Westcol solo sale en una foto (34:12-34:31), sin momento | fuera: las peleas, Herrera (39:29-41:43), el patrocinio de un casino (48:28-48:52), \u0027las colombianas…\u0027 (sexual); lo de El Dengue (los 20.000 del contrato en ropa, su outfit de 3.500) no es de un perfil (58-60)"
                     }
                 ],
     "momentos":  [
@@ -7771,6 +7799,132 @@
                          "clip":  null,
                          "variante_de":  null,
                          "motivo":  "el rechazo final de Itzayana (vida privada de los participantes)"
+                     },
+                     {
+                         "fuente":  "olXao5WK9qY",
+                         "inicio":  778.85,
+                         "fin":  817.2,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-22-westcol-mejor-mes",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "olXao5WK9qY",
+                         "inicio":  0.0,
+                         "fin":  742.0,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "bromas sexuales (Wilson, \u0027papiloma humano\u0027, las mujeres), alcohol y vida privada de Leandro"
+                     },
+                     {
+                         "fuente":  "olXao5WK9qY",
+                         "inicio":  745.2,
+                         "fin":  776.9,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "la ronda de The Chanty (35.000) y el 150.000, con un insulto pitado (\u0027*** pobre de ***\u0027); el clip arranca después"
+                     },
+                     {
+                         "fuente":  "olXao5WK9qY",
+                         "inicio":  818.1,
+                         "fin":  851.3,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "Wilito 15.000 y Lonche 50.000 \u0027pesos colombianos… bolívares\u0027 (62): remate flojo y \u0027500.000 dólares\u0027 dicho por otro, sin confirmar"
+                     },
+                     {
+                         "fuente":  "wcFZHzo1Y-A",
+                         "inicio":  1018.49,
+                         "fin":  1037.7,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-22-ganga-primera-piedra",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "wcFZHzo1Y-A",
+                         "inicio":  1086.57,
+                         "fin":  1104.38,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-22-ganga-cartagena-privado",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "wcFZHzo1Y-A",
+                         "inicio":  0.0,
+                         "fin":  770.0,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "pareja (\u0027¿Leandro coronó con Katty?\u0027), \u0027las mujeres y la plata\u0027, borrachera (fuera por orden del Cazador)"
+                     },
+                     {
+                         "fuente":  "wcFZHzo1Y-A",
+                         "inicio":  770.0,
+                         "fin":  843.0,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "el techo y las puertas rotas de la casa alquilada estando borrachos; quién paga los daños"
+                     },
+                     {
+                         "fuente":  "wcFZHzo1Y-A",
+                         "inicio":  874.0,
+                         "fin":  1017.0,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "gracias al público y las 24 horas en Argentina en diciembre (60, sin remate); \u0027Masa en Argentina está más funado…\u0027 (una persona y su funa)"
+                     },
+                     {
+                         "fuente":  "wcFZHzo1Y-A",
+                         "inicio":  1151.0,
+                         "fin":  1276.0,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "alcohol: shotgun, \u0027me vomito de una\u0027, \u002799 % alcohol\u0027, \u0027me tomé una Buchanan\u0027s entera\u0027"
+                     },
+                     {
+                         "fuente":  "wcFZHzo1Y-A",
+                         "inicio":  1295.0,
+                         "fin":  1433.0,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "el perro que bebe agua de la piscina (58) y la ruta en motos manuales (60): sin remate"
+                     },
+                     {
+                         "fuente":  "wcFZHzo1Y-A",
+                         "inicio":  1540.8,
+                         "fin":  1572.2,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "Carlos, el mánager de Westcol, enseña el Patek a \u0027un niño de 13 años\u0027 que lo insulta (63): burla a un menor y \u0027niños rata\u0027"
+                     },
+                     {
+                         "fuente":  "pzhADojtbcI",
+                         "inicio":  0.0,
+                         "fin":  2359.0,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "sin momentos limpios: motos sin casco y \u0027la policía… arránquelo\u0027, alcohol, mujeres, preguntas de edad a menores (37:56-38:49); la panadería (4:07-7:22) casi sin palabras (58)"
+                     },
+                     {
+                         "fuente":  "ncTfqAy3mVM",
+                         "inicio":  0.0,
+                         "fin":  3239.0,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "Westcol solo en una foto (34:12-34:31); el resto es El Dengue y el viaje de la semana pasada, las peleas, Herrera y un casino"
                      }
                  ],
     "lote_2026_11_06":  "ocho-videos-usuario",
@@ -7778,5 +7932,6 @@
     "_nota_ciclo_18":  "Ciclo 18 (18-nov, 00:46-01:50; procesa el ciclo 15 del Cazador Urbano y el 7 del de Risas). Órdenes del orquestador: calidad antes que cantidad (TikTok admite 4 borradores al día por cuenta), nada sobre Herrera, no tocar curiosismo/; la línea urbano no tenía clips nuevos desde el ciclo 16. Listón: urbano desde 70 (la cola de principal tiene hueco el 19 y el 20-nov), risas desde 73 (la cola de risas está llena hasta el 20-nov y 16 clips se quedan fuera). Cinco fuentes, como dice config: tres urbanas (QauXCZ2fFs8, la despedida de La Guarida desde el canal oficial de Samulx, preferido a WestClips; _R71FcOLQQQ, \u0027Me desquite de Westcol y de Pan\u0027, casi sin diálogo: se miró con vistazo cada 20 s; eIRYiimMx_E, las 24 horas de Lonche, sin clip) y dos de risas (pYtwwPMrdzs, La Luciérnaga del 17-nov, solo la sátira del IVA; zsa74yNbstU, Juanpis con Dilson Díaz, que salía de la ventana del Cazador a las 20:00 del 18-nov). 4 clips: 2 urbano (ganga-guarida-toretto 74, ganga-bienvenida-piscina 73) y 2 risas (luciernaga-imitadores-iva 76, juanpis-pestilencia-juicio-tv 74). Ningún clip confirma en imagen a un perfil del Cazador Urbano (de noche y en grupo; los títulos no nombran a nadie). Sátira del IVA: Claudia López (centro) y Uribe (derecha); la Juvinao (centroizquierda) no cabe en 75 s; la ficha deja claro que son imitadores. No se analizaron las \u0027bombas\u0027 de Westcol (2KYjaIs-YYE): el Cazador avisa de que no dan clips limpios. Las 24 horas con La Ganga siguen en directo en Kick: sus VOD llegan al ciclo siguiente. La Revuelta del 17-nov con Emilia aún no estaba en YouTube a las 00:46. Sin variantes: cada línea tiene una sola cuenta activa por plataforma (TikTok: principal y risas). clips.json se reescribió con los 4 nuevos delante; no se podaron los clips de más de 7 días. Informe: salidas/clipero/informes/2026-11-18_0046.md.",
     "_nota_ciclo_19":  "Ciclo 19 (21-nov, 10:58-11:50; procesa el ciclo 17 del Cazador Urbano y el 8 del de Risas, después de casi tres días de Legión parada: el ciclo 18 acabó el 18-nov a las 01:50). Órdenes del orquestador: calidad antes que cantidad (la cola de TikTok risas está llena, con 3 para hoy, y TikTok frenó esa cuenta por borradores pendientes); en risas, un clip por fuente y solo las tres altas (La Cotorrisa 400 primero, porque salía de la ventana a las 21:15; Drunk Comedy cap. 8; el poema de Roy Barreras en La Luciérnaga del 19-nov, solo 2:37:05-2:38:36); en urbano, la mejor fuente es \u0027¿QUE PASO ANTIER?\u0027 de Samulx; del concierto de Kris R solo hay re-subidas de terceros (no se tocan); nada sobre Herrera; no tocar curiosismo/. Cinco fuentes, como dice config: tres de risas y dos urbanas (Samulx y \u0027Provenza de noche\u0027 de Lonche Chacas, que lleva formato-primera-vez-en-medellin). 5 clips, uno por fuente: risas, cotorrisa-firma-tianguis 76, roy-barreras-neruda 74 (Roy Barreras en persona: autoburla sobre su derrota, centroizquierda; no es un imitador) y drunk-casting-tigo 73; urbano, ganga-hit-cuatro-horas 75 y lonche-hormigas-culonas 74. Ningún clip confirma en imagen quién es cada perfil urbano (grupos; los textos no nombran a nadie salvo lo que se oye). El corte de Lonche falló una vez en ffmpeg y salió fuera del sandbox. Sin variantes: cada línea tiene una sola cuenta activa por plataforma. Quedan sin analizar, para el ciclo siguiente si siguen en ventana: risas, La Luciérnaga del 20-nov con la carta del \u0027presidente\u0027 en vallenato (1umsdaFlemE, 1:58:09-2:00:10, imitador de De la Espriella, derecha; ventana hasta el 23-nov), Nadie Sabe Nada 14x12 (2D50tEbbKfw, hasta el 24-nov) y La Revuelta con Candela Peña (SQpP_Hjbim8, 1:15-3:35, hasta el 22-nov 05:00); urbano, Westcol GTA VI (ttjJZFSUQEU), Westcol reúne a La Ganga (vu3pomih_Os, juan diego mm), Samulx convence a Rey (w5v-vJeRNOU), la cena de lujo (BhzALvos8YI), el tour por Provenza con Westcol (Rf51CjEu-1M) y el resto de la lista del Cazador. clips.json se reescribió con los 5 nuevos delante; no se podaron los clips de más de 7 días. Informe: salidas/clipero/informes/2026-11-21_1058.md.",
     "_nota_ciclo_20":  "Ciclo 20 (21-nov, 21:12-21:45; procesa el ciclo 18 del Cazador Urbano y el 9 del de Risas, los dos nuevos respecto al ciclo 19 de las 11:50). Órdenes del orquestador: calidad antes que cantidad (la cola de TikTok risas sigue llena), un clip por fuente en risas; en urbano, las mejores fuentes son el segundo día de las 72 horas de La Ganga (Lonche en Guatapé, Samulx de noche y la fiesta de The Chanty, con alcohol y mujeres de fondo); nada sobre Herrera; no tocar curiosismo/; el Publicador corre a la vez desde las 21:23 y lee clips.json, que se escribe de una vez (archivo temporal y renombrado). Cinco fuentes, como dice config: tres urbanas y dos de risas. Risas: Nadie Sabe Nada 14x12 (2D50tEbbKfw, la única alta: el robot guardaespaldas, 80) y Mestizos Precisos 16 (xoTfI839Phw: se prefirió la anécdota del policía de Ricardo Quevedo, perfil en persona, 77, al tramo de la \u0027migajera\u0027 que marcaba el Cazador, que queda propuesto). Urbano: sin clips. Guatapé de Lonche (1jfaTc0PEsw) dio un solo momento en el umbral (\u0027¿Quién va a subir esa piedra?\u0027, 16:37-17:00, 70), pero el corte se colgó en la descarga y el reintento fuera del sandbox falló con \u0027ERROR: [youtube] The page needs to be reloaded\u0027 (21:41): queda propuesto. La noche de Samulx (TvMb0YlEoMM) es la misma de Provenza que CGICIcJ8lCY, con las hormigas ya cortadas; la fiesta de The Chanty (vEEzgQ4EyQU) es alcohol, drogas y vida privada, sin ninguna cifra. Por el mismo fallo de YouTube no se repitió el corte de Quevedo para quitar el último segundo (\u0027Si que lo migajero…\u0027). La Revuelta con Candela Peña (SQpP_Hjbim8) no se analizó: tope de fuentes y sale de la ventana a las 05:00 del 22-nov (además, el chiste es con una persona del público). La carta de La Luciérnaga del 20-nov (1umsdaFlemE, imitador de De la Espriella, derecha) no se cortó: el Cazador avisa de que desequilibra la balanza (derecha 2, centroizquierda 1); ningún clip político en este ciclo. Sin variantes: cada línea tiene una sola cuenta activa por plataforma. clips.json se reescribió con los nuevos delante; no se podaron los clips de más de 7 días. Informe: salidas/clipero/informes/2026-11-21_2112.md.",
-    "_nota_ciclo_21":  "Ciclo 21 (22-nov, 12:45-13:30; procesa el ciclo 19 del Cazador Urbano y el 10 del de Risas, los dos nuevos). Órdenes del orquestador: lo fuerte es el día después de la final de Boca (La Cobra, Davoo, Soy Roberto Uribe), cortando solo a los creadores, sin imágenes del partido; también Samulx (fiesta en casa de Andrés Aguirre) y The Chanty (jet ski); nada sobre Herrera; Guatapé de Lonche (1jfaTc0PEsw) una sola vez y saltarlo si vuelve \u0027The page needs to be reloaded\u0027; risas: FranCupido Ep. 8 (0:03:00-0:04:18) alta y Nadie Sabe Nada 14x12 (32:35-33:35) solo si hay hueco; calidad antes que cantidad, priorizar urbano si hay momentos fuertes y limpios; no tocar curiosismo/; sin descargas abiertas al acabar (viene el Publicador). Cinco fuentes nuevas, como dice config: cuatro urbanas (La Cobra 5St0GQXddug, Davoo IGjKe0aNlbs, Roberto Uribe 40gAwbuwZac, The Chanty ZGb1HxyHgPs) y una de risas (FranCupido dMnCmCEZt4g; el Cazador de Risas solo traía una fuente nueva). 7 clips: 6 urbanos (cobra-prediccion-final 78, uribe-davoo-microfono 73, cobra-gracias-colombia 72, davoo-otros-29-equipos 71, cobra-medalla-merentiel 71 y ganga-piedra-penol 70, el momento propuesto del ciclo 20, que esta vez se descargó al primer intento) y 1 de risas (francupido-bombera-carga 79). Nadie Sabe Nada 14x12 (la IA que se lo inventó, 74) no se cortó: la cola de TikTok risas tiene 4 clips para el 22-nov y FranCupido entra el 23-nov; sigue propuesto hasta el 24-nov. The Chanty no dio nada (jet ski sin diálogo; el resto, alcohol y bromas sexuales). Se eligió The Chanty y no la fiesta de Samulx (MpO-v92soNE) para la cuarta plaza urbana porque la fiesta de The Chanty del ciclo 20, en la misma casa, fue todo alcohol y drogas: la de Samulx queda para el ciclo siguiente, con \u0027CUANTO ES LO MAXIMO QUE HEMOS GANADO EN 1 MES\u0027 de Westcol (olXao5WK9qY, la cifra en 13:20-14:10, perfil del usuario). cobra-prediccion-final se cortó dos veces: el primero acababa con el arranque de la frase siguiente en los subtítulos. Sin variantes: cada línea tiene una sola cuenta activa por plataforma. clips.json se reescribió de una vez con los nuevos delante; no se podaron los clips de más de 7 días. Ningún clip político. Informe: salidas/clipero/informes/2026-11-22_1245.md."
+    "_nota_ciclo_21":  "Ciclo 21 (22-nov, 12:45-13:30; procesa el ciclo 19 del Cazador Urbano y el 10 del de Risas, los dos nuevos). Órdenes del orquestador: lo fuerte es el día después de la final de Boca (La Cobra, Davoo, Soy Roberto Uribe), cortando solo a los creadores, sin imágenes del partido; también Samulx (fiesta en casa de Andrés Aguirre) y The Chanty (jet ski); nada sobre Herrera; Guatapé de Lonche (1jfaTc0PEsw) una sola vez y saltarlo si vuelve \u0027The page needs to be reloaded\u0027; risas: FranCupido Ep. 8 (0:03:00-0:04:18) alta y Nadie Sabe Nada 14x12 (32:35-33:35) solo si hay hueco; calidad antes que cantidad, priorizar urbano si hay momentos fuertes y limpios; no tocar curiosismo/; sin descargas abiertas al acabar (viene el Publicador). Cinco fuentes nuevas, como dice config: cuatro urbanas (La Cobra 5St0GQXddug, Davoo IGjKe0aNlbs, Roberto Uribe 40gAwbuwZac, The Chanty ZGb1HxyHgPs) y una de risas (FranCupido dMnCmCEZt4g; el Cazador de Risas solo traía una fuente nueva). 7 clips: 6 urbanos (cobra-prediccion-final 78, uribe-davoo-microfono 73, cobra-gracias-colombia 72, davoo-otros-29-equipos 71, cobra-medalla-merentiel 71 y ganga-piedra-penol 70, el momento propuesto del ciclo 20, que esta vez se descargó al primer intento) y 1 de risas (francupido-bombera-carga 79). Nadie Sabe Nada 14x12 (la IA que se lo inventó, 74) no se cortó: la cola de TikTok risas tiene 4 clips para el 22-nov y FranCupido entra el 23-nov; sigue propuesto hasta el 24-nov. The Chanty no dio nada (jet ski sin diálogo; el resto, alcohol y bromas sexuales). Se eligió The Chanty y no la fiesta de Samulx (MpO-v92soNE) para la cuarta plaza urbana porque la fiesta de The Chanty del ciclo 20, en la misma casa, fue todo alcohol y drogas: la de Samulx queda para el ciclo siguiente, con \u0027CUANTO ES LO MAXIMO QUE HEMOS GANADO EN 1 MES\u0027 de Westcol (olXao5WK9qY, la cifra en 13:20-14:10, perfil del usuario). cobra-prediccion-final se cortó dos veces: el primero acababa con el arranque de la frase siguiente en los subtítulos. Sin variantes: cada línea tiene una sola cuenta activa por plataforma. clips.json se reescribió de una vez con los nuevos delante; no se podaron los clips de más de 7 días. Ningún clip político. Informe: salidas/clipero/informes/2026-11-22_1245.md.",
+    "_nota_ciclo_22":  "Ciclo 22 (22-nov, 20:13-20:35; procesa el ciclo 20 del Cazador Urbano y el 11 del de Risas, los dos nuevos). Órdenes del orquestador: sin Kick, nada sobre Herrera; pendientes la cifra de Westcol (olXao5WK9qY) y los tramos limpios de Samulx (16:00-19:30 y 20:00-23:00, que son de wcFZHzo1Y-A, \u0027NO SABEMOS QUE PASO AYER\u0027; la fiesta en casa de Andrés Aguirre, MpO-v92soNE, sigue sin analizar); DESCONTROLANDO GUATAPE de Lonche; risas: Juanpis con Brenda Asnicar (MoxauCN43ks) al final, solo si sus subtítulos se pueden bajar; calidad antes que cantidad (cola de risas llena); no tocar curiosismo/. Cuatro fuentes urbanas analizadas (Westcol, Samulx, Lonche, Okyyy). 3 clips urbanos: westcol-mejor-mes 76 (Westcol en persona; confirmar escuchando que la cifra la dice él), ganga-primera-piedra 72 y ganga-cartagena-privado 68 (\u0027éxtasis\u0027 en el subtítulo: ver antes de publicar). Lonche (pzhADojtbcI) y Okyyy (ncTfqAy3mVM) sin clips. Risas: ninguno. Juanpis no se analizó: el ciclo se cerró a las 20:35, antes de que acabara el estreno (hacia las 21:10), así que pasa al ciclo siguiente sin gastar plaza; FranCupido 21:50-22:48 (70) y NSN 14x12 32:35-33:35 (74, sale de la ventana el 24-nov a las 07:00) siguen propuestos por la cola llena. Sin variantes (una cuenta activa por línea y plataforma). Informe: salidas/clipero/informes/2026-11-22_2013.md."
 }

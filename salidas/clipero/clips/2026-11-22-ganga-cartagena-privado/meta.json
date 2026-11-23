@@ -1,0 +1,30 @@
+{
+    "id":  "2026-11-22-ganga-cartagena-privado",
+    "url_fuente":  "https://www.youtube.com/watch?v=wcFZHzo1Y-A",
+    "video_id":  "wcFZHzo1Y-A",
+    "inicio":  1086.57,
+    "fin":  1104.38,
+    "inicio_hms":  "0:18:06",
+    "duracion_seg":  17.8,
+    "gancho":  "Ayer casi se van a Cartagena en privado",
+    "subtitulos":  "orig",
+    "palabras_subtituladas":  48,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "color":  "",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -16.03,
+                  "entrada_tp":  -3.26,
+                  "salida_lufs":  -13.79,
+                  "salida_tp":  -1.23
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-22-ganga-cartagena-privado/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-22-ganga-cartagena-privado/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-22-ganga-cartagena-privado/revision.jpg",
+    "creado":  "2026-11-22T20:26:58.1007860-05:00"
+}

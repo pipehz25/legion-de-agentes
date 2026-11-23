@@ -1,6 +1,12 @@
 # ¿Cuánto te deja? La cifra del negocio, dicha por el dueño
 
-> **Estado (22-nov, 12:35, ciclo 19): vigente hasta el 24-nov, con puntaje 69 (71 en el ciclo 18); baja del umbral de hibridación (70).** Lo nuevo:
+> **Estado (22-nov, 19:40, ciclo 20): vigente hasta el 24-nov, con puntaje 69 (sin cambios); sigue bajo el umbral de hibridación (70).** Lo nuevo:
+> - **El lujo en el título rinde dentro de un mismo viaje.** En LoncheWey, ['24 HORAS en COLOMBIA… *muchos lujos*'](https://www.youtube.com/watch?v=eIRYiimMx_E) tiene unas 61.000 vistas, de 4 a 5 veces sus otras subidas del viaje, de la misma edad.
+> - **La cifra en el título también rinde, pero en piezas que no se pueden usar:** ['Apostamos con Ovy y Westcol 2000 Dólares'](https://www.youtube.com/watch?v=ya718nQycmU) (Live Samulx, 1.212/h; apuestas con dados por dinero) y una copia sin licencia con "el bote de 350 mil dólares" (997/h con 130 suscriptores; la cifra no está comprobada en cámara).
+> - **'GASTANDO TODO mi DINERO en COLOMBIA'** (LoncheWey, 844/h a las 4 h) no dice ninguna cifra. Su momento limpio son las reglas del bote (2:40-4:30), sin precio.
+> - **La prueba que falta sigue siendo el corto de Westcol** (13:20-14:10, "2 millones de dólares en un mes" en pantalla en el segundo 0). El Clipero no lo ha cortado. Si el 24-nov no hay corto medido, la ficha sale de las recomendaciones.
+>
+> **Estado anterior (22-nov, 12:35, ciclo 19): vigente hasta el 24-nov, con puntaje 69 (71 en el ciclo 18); baja del umbral de hibridación (70).** Lo nuevo:
 > - **Por fin una cifra dicha en cámara.** En ['CUANTO ES LO MAXIMO QUE HEMOS GANADO EN 1 MES'](https://www.youtube.com/watch?v=olXao5WK9qY) (Westcol, 15 min), del minuto 13:20 al 14:10, La Ganga habla de "un cheque de 1 millón", "2 millones de dólares" y "500.000 dólares en 1 mes" (subtítulos automáticos).
 > - **Pero en largo no rinde:** el video va a 0,57 veces la mediana de Westcol (1.088/h a las 15,7 h), aunque el título promete la cifra. La cifra llega al final y el título es una pregunta sin número.
 > - **La prueba que falta es el corto.** Del 13:20 al 14:10: "2 millones de dólares en un mes" en pantalla en el segundo 0, la frase de Westcol y la reacción de los demás. Pregunta final: "¿Cuánto crees que gana un streamer al mes?". Si el 24-nov ese corto no rinde, la ficha sale de las recomendaciones.

@@ -1,6 +1,14 @@
 # El invitado le califica el negocio al anfitrión (en su cara)
 
-> **Estado (22-nov, 12:35, ciclo 19): vigente hasta el 25-nov, con puntaje 83 (82 en el ciclo 18).** Lo nuevo:
+> **Estado (22-nov, 19:40, ciclo 20): vigente hasta el 25-nov, con puntaje 84 (83 en el ciclo 19).** Lo nuevo:
+> - **El sitio nuevo acelera después de la primera hora.** ['DESCONTROLANDO GUATAPE'](https://www.youtube.com/watch?v=pzhADojtbcI) (Lonche Chacas) pasa de 1,8 veces en su primera hora a 6,3 veces la mediana por hora del canal a las 7,3 h (18.079 vistas, 2.477/h). El [jet ski de The Chanty](https://www.youtube.com/watch?v=ZGb1HxyHgPs) sube a 2,8 veces.
+> - **La versión sin guía famoso sigue subiendo:** [Coco Maggio en Barranquilla](https://www.youtube.com/watch?v=8gFGSwSiak4) llega a 5,3 veces la mediana de sus videos anteriores (167.436 vistas a las 34,5 h).
+> - **Réplica nueva desde Argentina, con guía famoso:** [Okyyy, 'VIAJE a COLOMBIA con EL DENGUE… CONOCÍ a WESTCOL…'](https://www.youtube.com/watch?v=ncTfqAy3mVM) (589 K; estreno a las 19:00 del 22-nov; "mi primera vez en Colombia… conocí a Westcol"). El contexto `youtube-ar` pasa a emergente con Coco Maggio, La Cobra y Okyyy.
+> - **Sitio nuevo de hoy:** ['PASAMOS 24 HORAS CON WESTCOL EN UNA MANSIÓN MILLONARIA'](https://www.youtube.com/watch?v=ULUKb4dlZd8) (Lonche y Willito, 833/h a las 1,9 h). Gancho del clip: "Una mansión millonaria por primera vez", la llegada y Westcol de guía en una frase.
+> - **En contra:** el tercer sitio del día rinde en su línea ([The Chanty con la policía](https://www.youtube.com/watch?v=ShuQKCtA1Js), 1,0 veces). Sigue la regla: cortar cada sitio en las primeras 12 h y solo uno por día.
+> - **Próxima ocasión, la visita de vuelta:** según Samulx, La Ganga hará otras 24 horas en Argentina en diciembre (sin confirmar). Ahí el formato se invierte: los colombianos descubren Buenos Aires con Davoo o La Cobra de guía.
+>
+> **Estado anterior (22-nov, 12:35, ciclo 19): vigente hasta el 25-nov, con puntaje 83 (82 en el ciclo 18).** Lo nuevo:
 > - **La versión sin guía famoso se confirma.** [Coco Maggio en Barranquilla](https://www.youtube.com/watch?v=8gFGSwSiak4) llega a 106.557 vistas a las 27,3 h, 3,35 veces la mediana de sus videos anteriores. [La Cobra sube su vlog en Colombia](https://www.youtube.com/watch?v=5St0GQXddug) (16.106/h a las 2,1 h). El contexto `creador-de-viajes-sin-guia-co` pasa a emergente: el gancho "¿Vale la pena venir?" funciona sin anfitrión.
 > - **Tercer día de La Ganga en Guatapé:** el [jet ski de The Chanty](https://www.youtube.com/watch?v=ZGb1HxyHgPs) va a 2,5 veces su mediana por hora y ['DESCONTROLANDO GUATAPE'](https://www.youtube.com/watch?v=pzhADojtbcI) (Lonche Chacas) a 1,8 veces en su primera hora.
 > - **El sitio nuevo se gasta en un día.** El restaurante giratorio baja de 3,2 a 1,2 veces en 26 h, y Guatapé (1jfaTc0PEsw) pasa de 3.657/h a 644/h tras las primeras 7 h. Cortar y publicar cada sitio en las primeras 12 h; al día siguiente, el sitio siguiente.
