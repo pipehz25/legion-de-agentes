@@ -70,9 +70,10 @@ Push-Location $trabajo
 try {
     function TiempoAss($s) { $t = [TimeSpan]::FromSeconds([math]::Max(0, $s)); '{0}:{1:D2}:{2:D2}.{3:D2}' -f $t.Hours, $t.Minutes, $t.Seconds, [int][math]::Floor($t.Milliseconds / 10) }
     $dc = [double]::Parse((& $ffprobe -v error -show_entries format=duration -of csv=p=0 $clip), $cultura)
-    # Ancho del clip: 1080 o 1440 (clipero.ps1 -Resolucion 1440). El .ass se escala solo; el logo se escala con $k.
+    # Ancho del clip: 1080 o 1440 (clipero.ps1 -Resolucion 1440). El .ass se escala solo; el logo se escala con $escala.
+    # (No llamarla $k: el bloque de subtitulos de la voz usa $k como indice y la machacaba; el logo salia fuera del cuadro.)
     $anchoClip = [int](& $ffprobe -v error -select_streams v:0 -show_entries stream=width -of csv=p=0 $clip)
-    $k = $anchoClip / 1080.0
+    $escala = $anchoClip / 1080.0
     $margen = if ($modo -eq 'marco') { 100 } else { 430 }
     $eventos = New-Object Collections.Generic.List[string]
     $palabras = @()
@@ -150,9 +151,9 @@ try {
         Copy-Item $Logo 'logo.png' -Force
         $iLogo = if ($SinVoz) { 1 } else { 2 }
         $entradas += @('-i', 'logo.png')
-        $yLogo = [int][math]::Round($(if ($modo -eq 'marco') { 310 } else { 120 }) * $k)
-        $lado = [int][math]::Round(150 * $k); $centro = $lado / 2; $radio = $centro - [math]::Round(2 * $k)
-        $borde = [int][math]::Round(28 * $k)
+        $yLogo = [int][math]::Round($(if ($modo -eq 'marco') { 310 } else { 120 }) * $escala)
+        $lado = [int][math]::Round(150 * $escala); $centro = $lado / 2; $radio = $centro - [math]::Round(2 * $escala)
+        $borde = [int][math]::Round(28 * $escala)
         $video += ";[$($iLogo):v]scale=$($lado):$($lado):flags=lanczos,format=rgba,geq=r='r(X,Y)':g='g(X,Y)':b='b(X,Y)':a='if(lte(hypot(X-$centro,Y-$centro),$radio),255,0)'[logo];[sv][logo]overlay=x=W-w-$($borde):y=$yLogo[v]"
     } else { $video = $video -replace '\[sv\]$', '[v]' }
     $audio = if ($SinVoz) { '[0:a]anull[a]' } else {
