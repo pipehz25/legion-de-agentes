@@ -1,0 +1,103 @@
+{
+  "id": "hi-boyaca",
+  "tipo": "largo",
+  "modo": "escenas",
+  "titulo": "¿Cómo se ganó la batalla de Boyacá? La campaña de 1819",
+  "duracion_s": 484.1,
+  "volumen": "I: -14.0 LUFS",
+  "voz": "elevenlabs / C12mZePhNoo0RoTXhSFV",
+  "formato": "1920x1080",
+  "capitulos": [
+    {
+      "inicio": "00:00",
+      "titulo": "Introducción"
+    },
+    {
+      "inicio": "00:41",
+      "titulo": "Nueve años después"
+    },
+    {
+      "inicio": "02:04",
+      "titulo": "El plan"
+    },
+    {
+      "inicio": "02:51",
+      "titulo": "El páramo"
+    },
+    {
+      "inicio": "04:01",
+      "titulo": "Dos batallas, ninguna decisiva"
+    },
+    {
+      "inicio": "04:52",
+      "titulo": "La carrera al puente"
+    },
+    {
+      "inicio": "05:39",
+      "titulo": "Dos horas"
+    },
+    {
+      "inicio": "06:47",
+      "titulo": "Lo que pasó después"
+    }
+  ],
+  "escenas": 105,
+  "imagenes": 6,
+  "avisos": 44,
+  "tiempo_produccion_s": 1018.3,
+  "tiempos_s": {
+    "voz": 19.8,
+    "fotos": 0.3,
+    "miniatura": 29,
+    "capitulos": 950.4,
+    "union": 18.2
+  },
+  "render_capitulos": {
+    "c0": {
+      "duracion_s": 41.767,
+      "render_s": 80,
+      "revision_s": 30
+    },
+    "c1": {
+      "duracion_s": 83.133,
+      "render_s": 141,
+      "revision_s": 36
+    },
+    "c2": {
+      "duracion_s": 46.533,
+      "render_s": 61,
+      "revision_s": 17
+    },
+    "c3": {
+      "duracion_s": 70.167,
+      "render_s": 159,
+      "revision_s": 20
+    },
+    "c4": {
+      "duracion_s": 51.2,
+      "render_s": 71,
+      "revision_s": 26
+    },
+    "c5": {
+      "duracion_s": 46.533,
+      "render_s": 64,
+      "revision_s": 17
+    },
+    "c6": {
+      "duracion_s": 67.733,
+      "render_s": 92,
+      "revision_s": 21
+    },
+    "c7": {
+      "duracion_s": 76.833,
+      "render_s": 92,
+      "revision_s": 21
+    }
+  },
+  "producido": "2026-11-23T15:48:58.210Z",
+  "video": "hi-boyaca.mp4",
+  "portada": "miniatura.jpg",
+  "subtitulos": "hi-boyaca.srt",
+  "descripcion": "descripcion.txt",
+  "guion": "animados/propios/hi-boyaca/guion.json"
+}

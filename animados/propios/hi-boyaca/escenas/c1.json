@@ -1,0 +1,211 @@
+{
+  "capitulo": "c1",
+  "escenas": {
+    "c1-1810": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "Nueve años antes",
+        "lineas": ["Volvamos a", "un 20 de julio"],
+        "todo_al_inicio": true,
+        "resalta": 1,
+        "calendario": { "arriba": "Julio", "numero": "20", "abajo": "1810", "lado": "derecha", "palabra": "20" }
+      }
+    },
+    "c1-junta": {
+      "plantilla": "mapa",
+      "datos": {
+        "vistas": [{ "centro": [-74.1, 5.4], "ancho": 12 }],
+        "paises": [{ "id": "colombia", "color": "acento2", "opacidad": 0.3, "en": 0 }],
+        "marcas": [{ "texto": "Santafé", "lugar": "bogota", "lado": "derecha", "tam": 34, "en": 0.2 }],
+        "cartela": { "titulo": "Santafé, 20 de julio de 1810", "sub": "Los criollos forman su junta", "en": 0.1 },
+        "fichas": [{ "titulo": "1810", "texto": "Primera junta", "dibujo": "documento", "lugar": "abajo-derecha", "palabra": "junta" }]
+      }
+    },
+    "c1-florero": {
+      "plantilla": "cifra",
+      "datos": {
+        "cifra": "1 de 3",
+        "rotulo": "Primera parte: la historia del florero",
+        "dibujo": "calendario",
+        "en": 0.05,
+        "palabra_rotulo": "florero"
+      }
+    },
+    "c1-bandos": {
+      "plantilla": "dos-personajes",
+      "datos": {
+        "izquierda": { "personaje": "soldado", "nombre": "Patriotas", "rol": "Defienden la independencia" },
+        "derecha": { "personaje": "soldado_espanol", "nombre": "Realistas", "rol": "Defienden al rey", "bandera": "espana", "palabra_bandera": "rey" }
+      }
+    },
+    "c1-palabras": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "Dos palabras",
+        "lineas": ["Patriotas", "y realistas"],
+        "resalta": 1,
+        "todo_al_inicio": true,
+        "dibujo": "bandera"
+      }
+    },
+    "c1-guerra": {
+      "plantilla": "cifra",
+      "datos": {
+        "cifra": "1812-1814",
+        "rotulo": "guerra civil entre patriotas",
+        "dibujo": "canon",
+        "en": 0.05,
+        "palabra_rotulo": "guerra"
+      }
+    },
+    "c1-ideas": {
+      "plantilla": "fichas",
+      "datos": {
+        "titulo": "Dos ideas de país",
+        "fichas": [
+          { "texto": "Un país federal", "dibujo": "bandera", "palabra": "federal" },
+          { "texto": "Gobierno central fuerte", "dibujo": "balanza", "palabra": "otros" }
+        ]
+      }
+    },
+    "c1-tiempo": {
+      "plantilla": "linea-tiempo",
+      "datos": {
+        "titulo": "De la junta a la reconquista",
+        "actual": 2,
+        "palabra_actual": "reconquista",
+        "hitos": [
+          { "anio": "1810", "texto": "Primera junta en Santafé" },
+          { "anio": "1812", "texto": "Guerra civil entre patriotas" },
+          { "anio": "1814-16", "texto": "Reconquista española" }
+        ]
+      }
+    },
+    "c1-patria-boba": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "Esa etapa",
+        "lineas": ["La Patria", "Boba"],
+        "resalta": 1,
+        "dibujo": "bandera",
+        "palabra_dibujo": "Patria"
+      }
+    },
+    "c1-narino": {
+      "plantilla": "personaje",
+      "datos": {
+        "nombre": "Antonio Nariño",
+        "piel": "#e0b08a",
+        "pelo": "#5a4a3c",
+        "peinado": "raya",
+        "barba": "patillas",
+        "ropa": "#3a2f2a",
+        "detalle": "#c9a256",
+        "corbata": "#f1ece0",
+        "cuello": "lazo",
+        "expresion": "pensativo",
+        "anios": "1823",
+        "rol": "Usó con ironía el nombre «Patria Boba»",
+        "palabra_anios": "Anton",
+        "palabra_rol": "nombre"
+      }
+    },
+    "c1-toros": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "Antonio Nariño, 1823",
+        "lineas": ["Los toros", "de Fucha"],
+        "resalta": 1,
+        "dibujo": "documento",
+        "palabra_dibujo": "escrito"
+      }
+    },
+    "c1-morillo": {
+      "plantilla": "personaje",
+      "datos": {
+        "personaje": "morillo",
+        "nombre": "General Morillo",
+        "anios": "1815",
+        "rol": "Reconquista española",
+        "palabra_anios": "reconq",
+        "palabra_rol": "general"
+      }
+    },
+    "c1-fusilados": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "Octubre de 1816",
+        "lineas": ["Fusilados", "en Santafé"],
+        "resalta": 0,
+        "dibujo": "cruz",
+        "palabra_dibujo": "fusilados"
+      }
+    },
+    "c1-protagonistas": {
+      "plantilla": "tablero",
+      "datos": {
+        "personajes": [
+          { "nombre": "Camilo Torres", "corto": "Camilo Torres", "rol": "Abogado", "piel": "#e0b08a", "pelo": "#3a2a1e", "peinado": "raya", "barba": "patillas", "ropa": "#2a2a2e", "detalle": "#c9a256", "corbata": "#f1ece0", "cuello": "lazo", "expresion": "serio" },
+          { "nombre": "Francisco José de Caldas", "corto": "F. J. de Caldas", "rol": "Científico", "piel": "#e6b894", "pelo": "#3a2a1e", "peinado": "corto", "barba": "ninguna", "ropa": "#2e3a4a", "detalle": "#c9a256", "corbata": "#f1ece0", "cuello": "lazo", "expresion": "pensativo" }
+        ],
+        "titulo": "Protagonistas del 20 de julio",
+        "palabras": { "personajes": "Torres", "hilos": "protagonistas", "titulo": "protagonistas" }
+      }
+    },
+    "c1-angostura": {
+      "plantilla": "mapa",
+      "datos": {
+        "vistas": [
+          { "centro": [-69, 6.5], "ancho": 24 },
+          { "centro": [-65, 7.6], "ancho": 12, "palabra": "febrero", "dur": 1.6 }
+        ],
+        "paises": [{ "id": "venezuela", "color": "acento2", "opacidad": 0.35, "palabra": "Venezuela" }],
+        "rotulos": [{ "texto": "Venezuela", "lugar": [-66.5, 6.2], "estilo": "pais", "tam": 44, "palabra": "Venezuela" }],
+        "marcas": [{ "texto": "Angostura", "lugar": [-63.55, 8.12], "lado": "derecha", "tam": 34, "palabra": "febrero" }],
+        "cartela": { "titulo": "Angostura, febrero de 1819", "sub": "Se instala el congreso", "palabra": "febrero" }
+      }
+    },
+    "c1-discurso": {
+      "plantilla": "personaje",
+      "datos": {
+        "personaje": "bolivar",
+        "pose": "discurso",
+        "anios": "1819",
+        "rol": "Discurso con el que se instaló el congreso",
+        "palabra_anios": "pronun",
+        "palabra_rol": "discurso"
+      }
+    },
+    "c1-granada": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "Pero",
+        "lineas": ["La Nueva Granada", "seguía bajo", "control español"],
+        "todo_al_inicio": true,
+        "resalta": 2,
+        "dibujo": "bandera"
+      }
+    },
+    "c1-andes": {
+      "plantilla": "mapa",
+      "datos": {
+        "vistas": [{ "centro": [-70.5, 6.2], "ancho": 16 }],
+        "paises": [{ "id": "colombia", "color": "acento2", "opacidad": 0.25, "en": 0 }],
+        "montes": { "puntos": [[-72.9, 7.2], [-73.2, 6.2], [-73.6, 5.3], [-74.0, 4.3]], "en": 0.1 },
+        "rutas": [{ "puntos": [[-69.5, 7.5], [-71.7, 6.4], [-72.7, 5.9], [-73.4, 5.5], [-74.07, 4.65]], "estilo": "flecha", "color": "acento", "grosor": 8, "palabra": "llevar", "dur": 2.4 }],
+        "marcas": [{ "texto": "Santafé", "lugar": "bogota", "lado": "izquierda", "tam": 34, "en": 0.2 }],
+        "rotulos": [{ "texto": "Los Andes", "lugar": [-72.6, 4.6], "estilo": "titulo", "tam": 34, "palabra": "ejército" }],
+        "cartela": { "titulo": "Bolívar propone", "sub": "Cruzar los Andes hacia la Nueva Granada", "palabra": "audaz" }
+      }
+    }
+  },
+  "frases": [
+    { "id": "f5", "escena": "c1-1810", "cortes": [{ "escena": "c1-junta", "palabra": 12 }, { "escena": "c1-florero", "palabra": 23 }] },
+    { "id": "f6", "escena": "c1-bandos", "cortes": [{ "escena": "c1-palabras", "palabra": 16 }] },
+    { "id": "f7", "escena": "c1-guerra", "cortes": [{ "escena": "c1-ideas", "palabra": 11 }, { "escena": "c1-tiempo", "palabra": 22 }] },
+    { "id": "f8", "escena": "c1-patria-boba", "cortes": [{ "escena": "c1-narino", "palabra": 10 }, { "escena": "c1-toros", "palabra": 20 }] },
+    { "id": "f9", "escena": "c1-morillo", "cortes": [{ "escena": "c1-fusilados", "palabra": 8 }, { "escena": "c1-protagonistas", "palabra": 18 }] },
+    { "id": "f10", "escena": "c1-angostura", "cortes": [{ "escena": "c1-discurso", "palabra": 13 }] },
+    { "id": "f11", "escena": "c1-granada", "cortes": [{ "escena": "c1-andes", "palabra": 8 }] }
+  ]
+}

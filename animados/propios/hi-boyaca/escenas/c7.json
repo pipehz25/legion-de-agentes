@@ -1,0 +1,380 @@
+{
+  "capitulo": "c7",
+  "escenas": {
+    "c7-boletin": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "Quién capturó a Barreiro",
+        "lineas": [
+          "Según el",
+          "boletín"
+        ],
+        "resalta": 1,
+        "dibujo": "documento",
+        "palabra_dibujo": "bolet"
+      }
+    },
+    "c7-prisionero": {
+      "plantilla": "dos-personajes",
+      "datos": {
+        "izquierda": {
+          "personaje": "soldado",
+          "nombre": "Soldado Pedro Martínez",
+          "rol": "Según el boletín de la batalla",
+          "expresion": "serio"
+        },
+        "derecha": {
+          "personaje": "barreiro",
+          "nombre": "José María Barreiro",
+          "rol": "Jefe del ejército español",
+          "pose": "neutral",
+          "expresion": "serio"
+        }
+      }
+    },
+    "c7-noticia": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "Santafé, agosto de 1819",
+        "lineas": [
+          "Llega la noticia",
+          "de la derrota"
+        ],
+        "resalta": 1,
+        "calendario": {
+          "arriba": "Agosto",
+          "numero": "8",
+          "abajo": "1819",
+          "lado": "derecha",
+          "palabra": "8"
+        }
+      }
+    },
+    "c7-samano": {
+      "plantilla": "personaje",
+      "datos": {
+        "personaje": "samano",
+        "nombre": "Juan de Sámano",
+        "pose": "neutral",
+        "anios": "9 ago. 1819",
+        "rol": "Huyó disfrazado; dejó dinero en la tesorería",
+        "palabra_rol": "disfrazado"
+      }
+    },
+    "c7-entrada": {
+      "plantilla": "recorte",
+      "datos": {
+        "foto": "File:Simón Bolívar, 1825.jpg",
+        "pie": "Bolívar, por José Gil de Castro (1825)",
+        "lado": "izquierda",
+        "insignia": "10 de agosto de 1819",
+        "titulo": "Bolívar entra a Santafé",
+        "texto": "Entre multitudes que celebraban",
+        "palabras": {
+          "titulo": "Bol",
+          "texto": "multitudes"
+        }
+      }
+    },
+    "c7-santander": {
+      "plantilla": "personaje",
+      "datos": {
+        "personaje": "santander",
+        "nombre": "F. de P. Santander",
+        "pose": "neutral",
+        "anios": "1819",
+        "rol": "Al frente del gobierno de la Nueva Granada"
+      }
+    },
+    "c7-octubre": {
+      "plantilla": "tablero",
+      "datos": {
+        "personajes": [
+          {
+            "personaje": "santander",
+            "nombre": "Francisco de Paula Santander",
+            "corto": "F. de P. Santander",
+            "rol": "Ordena fusilar"
+          },
+          {
+            "personaje": "barreiro",
+            "nombre": "José María Barreiro",
+            "rol": "Fusilado el 11 de octubre"
+          }
+        ],
+        "titulo": "11 de octubre de 1819",
+        "palabras": {
+          "personajes": "octubre",
+          "hilos": "orden",
+          "titulo": "octubre"
+        }
+      }
+    },
+    "c7-diciembre": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "Angostura, 1819",
+        "lineas": [
+          "Congreso de",
+          "Angostura"
+        ],
+        "resalta": 1,
+        "calendario": {
+          "arriba": "Diciembre",
+          "numero": "17",
+          "abajo": "1819",
+          "lado": "derecha",
+          "palabra": "17"
+        }
+      }
+    },
+    "c7-union": {
+      "plantilla": "mapa",
+      "datos": {
+        "vistas": [
+          {
+            "centro": [
+              -69,
+              6
+            ],
+            "ancho": 30
+          }
+        ],
+        "paises": [
+          {
+            "id": "venezuela",
+            "color": "acento2",
+            "opacidad": 0.5,
+            "palabra": "Venezuela"
+          },
+          {
+            "id": "colombia",
+            "color": "acento",
+            "opacidad": 0.45,
+            "palabra": "Nueva"
+          }
+        ],
+        "marcas": [
+          {
+            "texto": "Angostura",
+            "lugar": [
+              -63.55,
+              8.15
+            ],
+            "lado": "derecha",
+            "tam": 38,
+            "en": 0.05
+          },
+          {
+            "texto": "Caracas",
+            "lugar": "caracas",
+            "lado": "arriba",
+            "tam": 34,
+            "palabra": "Venezuela"
+          },
+          {
+            "texto": "Santafé",
+            "lugar": "bogota",
+            "lado": "izquierda",
+            "tam": 34,
+            "palabra": "Nueva"
+          }
+        ],
+        "cartela": {
+          "titulo": "Una sola república",
+          "sub": "Venezuela y la Nueva Granada"
+        }
+      }
+    },
+    "c7-colombia": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "Hoy: la Gran Colombia",
+        "lineas": [
+          "República",
+          "de Colombia"
+        ],
+        "resalta": 1,
+        "dibujo": "bandera",
+        "palabra_dibujo": "Gran"
+      }
+    },
+    "c7-nueve": {
+      "plantilla": "linea-tiempo",
+      "datos": {
+        "titulo": "Nueve años",
+        "actual": 2,
+        "palabra_actual": "pasado",
+        "hitos": [
+          {
+            "anio": "1810",
+            "texto": "20 de julio: la junta de Santafé",
+            "palabra": "julio"
+          },
+          {
+            "anio": "1816",
+            "texto": "Fusilan a Torres y Caldas",
+            "palabra": "fusilamientos"
+          },
+          {
+            "anio": "1819",
+            "texto": "Boyacá y la República de Colombia",
+            "palabra": "Hab"
+          }
+        ]
+      }
+    },
+    "c7-horas": {
+      "plantilla": "cifra",
+      "datos": {
+        "antes": "unas",
+        "valor": 2,
+        "unidad": "horas",
+        "rotulo": "duró la batalla",
+        "dibujo": "reloj",
+        "palabra": "dos"
+      }
+    },
+    "c7-marcha": {
+      "plantilla": "fichas",
+      "datos": {
+        "titulo": "La campaña, más de dos meses de",
+        "fichas": [
+          {
+            "texto": "Marcha",
+            "dibujo": "montana",
+            "palabra": "marcha"
+          },
+          {
+            "texto": "Frío",
+            "dibujo": "lluvia",
+            "palabra": "fr"
+          },
+          {
+            "texto": "Decisiones arriesgadas",
+            "dibujo": "balanza",
+            "palabra": "decisiones",
+            "resalta": true
+          }
+        ]
+      }
+    },
+    "c7-pais": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "Pero",
+        "lineas": [
+          "Crear un país",
+          "fue más fácil",
+          "que mantenerlo"
+        ],
+        "resalta": 2
+      }
+    },
+    "c7-partes": {
+      "plantilla": "linea-tiempo",
+      "datos": {
+        "titulo": "La independencia, en tres partes",
+        "actual": 2,
+        "palabra_actual": "tercera",
+        "hitos": [
+          {
+            "anio": "Parte 1",
+            "texto": "El 20 de julio de 1810: el florero"
+          },
+          {
+            "anio": "Parte 2",
+            "texto": "Boyacá, 1819: este video"
+          },
+          {
+            "anio": "Parte 3",
+            "texto": "¿Por qué se acabó la Gran Colombia?",
+            "palabra": "tercera"
+          }
+        ]
+      }
+    },
+    "c7-tarjeta": {
+      "plantilla": "capitulo",
+      "datos": {
+        "numero": "Capítulo VII",
+        "titulo": "Lo que pasó después"
+      }
+    }
+  },
+  "frases": [
+    {
+      "id": "f42",
+      "escena": "c7-boletin",
+      "cortes": [
+        {
+          "escena": "c7-prisionero",
+          "palabra": 10
+        }
+      ]
+    },
+    {
+      "id": "f43",
+      "escena": "c7-noticia",
+      "cortes": [
+        {
+          "escena": "c7-samano",
+          "palabra": 14
+        }
+      ]
+    },
+    {
+      "id": "f44",
+      "escena": "c7-entrada",
+      "cortes": [
+        {
+          "escena": "c7-santander",
+          "palabra": 18
+        }
+      ]
+    },
+    {
+      "id": "f45",
+      "escena": "c7-octubre"
+    },
+    {
+      "id": "f46",
+      "escena": "c7-diciembre",
+      "cortes": [
+        {
+          "escena": "c7-union",
+          "palabra": 11
+        },
+        {
+          "escena": "c7-colombia",
+          "palabra": 23
+        }
+      ]
+    },
+    {
+      "id": "f47",
+      "escena": "c7-nueve"
+    },
+    {
+      "id": "f48",
+      "escena": "c7-horas",
+      "cortes": [
+        {
+          "escena": "c7-marcha",
+          "palabra": 12
+        }
+      ]
+    },
+    {
+      "id": "f49",
+      "escena": "c7-pais",
+      "cortes": [
+        {
+          "escena": "c7-partes",
+          "palabra": 12
+        }
+      ]
+    }
+  ],
+  "tarjeta": "c7-tarjeta"
+}

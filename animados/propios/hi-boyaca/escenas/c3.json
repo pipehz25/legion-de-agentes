@@ -1,0 +1,171 @@
+{
+  "capitulo": "c3",
+  "escenas": {
+    "c3-fechas": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "Julio de 1819",
+        "lineas": ["El páramo de Pisba", "1 al 7 de julio"],
+        "todo_al_inicio": true,
+        "resalta": 1,
+        "dibujo": "montana",
+        "palabra_dibujo": "atraves"
+      }
+    },
+    "c3-altura": {
+      "plantilla": "cifra",
+      "datos": {
+        "cifra": "4.000",
+        "antes": "casi",
+        "unidad": "metros",
+        "rotulo": "sobre el nivel del mar",
+        "dibujo": "montana",
+        "palabra": "casi",
+        "palabra_rotulo": "metros"
+      }
+    },
+    "c3-soldado": {
+      "plantilla": "personaje",
+      "datos": {
+        "personaje": "soldado",
+        "anios": "Casanare",
+        "rol": "Camiseta, pantalón y sandalias",
+        "palabra_anios": "Casanare",
+        "palabra_rol": "camiseta"
+      }
+    },
+    "c3-clima": {
+      "plantilla": "fichas",
+      "datos": {
+        "titulo": "Lo que encontraron",
+        "fichas": [
+          { "texto": "Niebla y vientos helados", "dibujo": "montana", "palabra": "niebla" },
+          { "texto": "Granizo", "dibujo": "lluvia", "palabra": "granizo", "resalta": true }
+        ]
+      }
+    },
+    "c3-contraste": {
+      "plantilla": "dos-personajes",
+      "datos": {
+        "izquierda": { "personaje": "llanero", "nombre": "Criados en los llanos", "rol": "Tierra caliente" },
+        "derecha": { "personaje": "soldado", "nombre": "Subiendo a Pisba", "rol": "Casi 4.000 metros" }
+      }
+    },
+    "c3-ropa": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "Subiendo",
+        "lineas": ["Con ropa de", "tierra baja"],
+        "resalta": 1,
+        "dibujo": "montana",
+        "palabra_dibujo": "cuatro"
+      }
+    },
+    "c3-rios": {
+      "plantilla": "fichas",
+      "datos": {
+        "titulo": "El camino",
+        "fichas": [
+          { "texto": "Ríos crecidos", "dibujo": "lluvia", "palabra": "crecidos" },
+          { "texto": "Terreno pantanoso", "dibujo": "derrumbe", "palabra": "pantano" }
+        ]
+      }
+    },
+    "c3-santander": {
+      "plantilla": "personaje",
+      "datos": {
+        "personaje": "santander",
+        "anios": "Julio, 1819",
+        "rol": "La caballería y el ganado murieron",
+        "palabra_anios": "Seg",
+        "palabra_rol": "caballer"
+      }
+    },
+    "c3-desertores": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "Antes de la subida",
+        "lineas": ["Algunos", "desertaron"],
+        "resalta": 1,
+        "dibujo": "bandera"
+      }
+    },
+    "c3-liviano": {
+      "plantilla": "fichas",
+      "datos": {
+        "titulo": "Para ir más rápido",
+        "fichas": [
+          { "texto": "Avanzar más rápido", "dibujo": "reloj", "palabra": "avanzar" },
+          { "texto": "Sin fusiles ni municiones", "dibujo": "canon", "tachar": true, "palabra": "fusiles", "resalta": true }
+        ]
+      }
+    },
+    "c3-socha": {
+      "plantilla": "mapa",
+      "datos": {
+        "vistas": [{ "centro": [-72.5, 5.9], "ancho": 5 }],
+        "paises": [{ "id": "colombia", "color": "acento2", "opacidad": 0.25, "en": 0 }],
+        "rutas": [{ "puntos": [[-72.49, 5.72], [-72.69, 5.99]], "estilo": "flecha", "color": "acento", "grosor": 8, "palabra": "bajar", "dur": 1.3 }],
+        "marcas": [{ "texto": "Socha", "lugar": [-72.69, 5.99], "lado": "derecha", "tam": 36, "palabra": "Socha" }],
+        "cartela": { "titulo": "Socha, julio de 1819", "sub": "Al bajar del páramo", "en": 0.1 }
+      }
+    },
+    "c3-socorro": {
+      "plantilla": "fichas",
+      "datos": {
+        "titulo": "En Socha",
+        "fichas": [
+          { "texto": "Una armería improvisada", "dibujo": "canon", "palabra": "armer" },
+          { "texto": "Un hospital de campaña", "dibujo": "cruz", "palabra": "hospital" }
+        ]
+      }
+    },
+    "c3-agotados": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "Al llegar",
+        "lineas": ["Agotados y", "sin casi caballos"],
+        "todo_al_inicio": true,
+        "resalta": 1,
+        "dibujo": "reloj"
+      }
+    },
+    "c3-proeza": {
+      "plantilla": "recorte",
+      "datos": {
+        "foto": "File:Los Picachos.jpg",
+        "pie": "Laguna en el Parque Pisba (foto de 2008)",
+        "insignia": "Campaña Libertadora",
+        "titulo": "Una gran proeza",
+        "texto": "La travesía de Pisba, 1819",
+        "lado": "derecha",
+        "palabras": { "titulo": "Hoy", "texto": "recuerda" }
+      }
+    },
+    "c3-esperaba": {
+      "plantilla": "mapa",
+      "datos": {
+        "vistas": [
+          { "centro": [-72.6, 5.8], "ancho": 5 },
+          { "centro": [-73.2, 5.6], "ancho": 5, "palabra": "Pero", "dur": 1.5 }
+        ],
+        "paises": [{ "id": "colombia", "color": "acento2", "opacidad": 0.25, "en": 0 }],
+        "rutas": [{ "puntos": [[-72.49, 5.72], [-72.69, 5.99], [-73.1, 5.8]], "estilo": "flecha", "color": "acento", "grosor": 8, "palabra": "cruz", "dur": 1.6 }],
+        "marcas": [{ "texto": "Tunja", "lugar": [-73.37, 5.53], "lado": "abajo", "tam": 34, "palabra": "Pero" }],
+        "banderas": [{ "pais": "espana", "lugar": [-73.4, 5.75], "tam": 90, "palabra": "esperaba" }],
+        "rotulos": [{ "texto": "Ejército español", "lugar": [-73.7, 5.2], "estilo": "titulo", "tam": 32, "palabra": "esperaba" }],
+        "cartela": { "titulo": "Del otro lado", "sub": "Un ejército listo para pelear", "palabra": "Pero" }
+      }
+    }
+  },
+  "frases": [
+    { "id": "f16", "escena": "c3-fechas", "cortes": [{ "escena": "c3-altura", "palabra": 17 }] },
+    { "id": "f17", "escena": "c3-soldado", "cortes": [{ "escena": "c3-clima", "palabra": 18 }] },
+    { "id": "f18", "escena": "c3-contraste", "cortes": [{ "escena": "c3-ropa", "palabra": 14 }] },
+    { "id": "f19", "escena": "c3-rios", "cortes": [{ "escena": "c3-santander", "palabra": 10 }] },
+    { "id": "f20", "escena": "c3-desertores", "cortes": [{ "escena": "c3-liviano", "palabra": 8 }] },
+    { "id": "f21", "escena": "c3-socha", "cortes": [{ "escena": "c3-socorro", "palabra": 9 }, { "escena": "c3-agotados", "palabra": 18 }] },
+    { "id": "f22", "escena": "c3-proeza" },
+    { "id": "f23", "escena": "c3-esperaba" }
+  ]
+}

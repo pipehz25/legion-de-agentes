@@ -1,0 +1,3219 @@
+{
+  "tipo": "largo",
+  "orientacion": "horizontal",
+  "titulo": "¿Cómo se ganó la batalla de Boyacá?",
+  "nicho": "historia",
+  "serie": {
+    "id": "independencia",
+    "parte": 2,
+    "de": 3
+  },
+  "nota": "Video largo por escenas (largo-escenas.mjs). Guion escrito el 2026-11-23 sin escenas: cada capitulo trae 'escenas': {} para que otros agentes las disenen con animados/contenido/escenas-horizontales.md (cada uno en escenas/<cap>.json y une-escenas.mjs). La voz de ElevenLabs todavia NO esta generada: revisar el texto antes de generarla; despues de pagada, el texto de las frases no se cambia. 'imagen' en las frases es solo una pista (se usa con 'foto' y el nombre de Commons de 'imagenes'). Personajes sin retrato comprobado: llanero, soldado, soldado_espanol y samano (rasgos aproximados de la epoca); barreiro tambien va sin retrato. Cifras en discusion que el guion evita o redondea: duracion de la batalla (2 a 2,5 horas segun la fuente: se dice 'unas dos horas'), numero de muertos del Pantano de Vargas, fecha de llegada a Tunja (4 o 5 de agosto: se dice 5), numero de fusilados con Barreiro (37, 38 o 39: no se dice), dinero que dejo Samano (medio millon o 900.000 pesos: no se dice la cifra), quien capturo a Barreiro (el boletin dice el soldado Pedro Martinez; hay relatos contradictorios: se dice 'segun el boletin'). No usar en pantalla las cifras de dias de campana (65, 77 o 78 segun la fuente).",
+  "motor": "elevenlabs",
+  "voz": "C12mZePhNoo0RoTXhSFV",
+  "modelo_voz": "eleven_multilingual_v2",
+  "tope_caracteres": 50,
+  "inicio": 0.2,
+  "pausa": 0.35,
+  "pausa_capitulo": 3,
+  "respiro_capitulo": 0.5,
+  "cola": 2.5,
+  "estilo": {
+    "tema": "archivo"
+  },
+  "miniatura": {
+    "texto": "BOYACÁ | EN 2 HORAS",
+    "imagen": "batalla_tovar"
+  },
+  "publicacion": {
+    "titulo_youtube": "¿Cómo se ganó la batalla de Boyacá? La campaña de 1819",
+    "descripcion": "El 7 de agosto de 1819, cerca de Tunja, una batalla de unas dos horas liberó a la Nueva Granada del control español. Pero se empezó a ganar semanas antes, en un páramo helado a casi cuatro mil metros de altura que un ejército de soldados de tierra caliente cruzó casi sin abrigo.\n\nEn este video, segunda parte de la serie sobre la independencia, seguimos la campaña con documentos: la reconquista de Morillo, el plan que Bolívar expuso en Los Setenta el 23 de mayo de 1819, la reunión con Santander en Tame, el cruce del páramo de Pisba, Gámeza y el Pantano de Vargas con la carga de Rondón, la ocupación de Tunja, la batalla del puente de Boyacá, la captura de Barreiro, la huida del virrey Sámano, la entrada de Bolívar a Santafé y la creación de la República de Colombia en Angostura.\n\nCada dato está comprobado en al menos dos fuentes; la lista completa está en el primer comentario. Cuando las fuentes no coinciden, contamos la versión segura. En la tercera parte: ¿por qué se acabó la Gran Colombia?",
+    "hashtags": [
+      "historia",
+      "colombia",
+      "independencia",
+      "boyaca"
+    ]
+  },
+  "fuentes": [
+    {
+      "dato": "La batalla de Boyacá, el 7 de agosto de 1819, liberó a la Nueva Granada del control español",
+      "fuente": "Encyclopaedia Britannica, «Battle of Boyacá»",
+      "url": "https://www.britannica.com/event/Battle-of-Boyaca"
+    },
+    {
+      "dato": "El 7 de agosto de 1819, cerca de Tunja, la batalla de Boyacá selló la Campaña Libertadora; se libró sobre el río Teatinos; hubo un ataque sorpresa a un contingente realista que se había detenido a almorzar; unos 1.600 realistas fueron capturados, murieron cerca de 100 realistas y 13 patriotas; el Pantano de Vargas fue el 25 de julio y los patriotas se reabastecieron con ayuda de la población",
+      "fuente": "Radio Nacional de Colombia (RTVC), «Batalla de Boyacá: qué sucedió el 7 de agosto de 1819»",
+      "url": "https://radionacional.co/cultura/historia-colombiana/batalla-de-boyaca-que-sucedio-el-7-de-agosto-de-1819"
+    },
+    {
+      "dato": "Batalla de Boyacá (7 de agosto de 1819): patriotas 2.850 hombres (Bolívar, con Santander en la vanguardia y Anzoátegui en la retaguardia); realistas 2.670 (Barreiro); bajas patriotas 13 muertos y 53 heridos, realistas unos 100 muertos, 150 heridos y 1.600 prisioneros; combate de unas dos horas (de poco antes de las 14:00 a poco después de las 16:30); Bolívar observó desde el alto de San Lázaro; Bolívar entró a Bogotá el 10 de agosto; Barreiro y otros oficiales fueron fusilados el 11 de octubre de 1819 por orden de Santander; el virrey Sámano huyó disfrazado",
+      "fuente": "Wikipedia en español e inglés, «Batalla de Boyacá» / «Battle of Boyacá» (con sus citas)",
+      "url": "https://es.wikipedia.org/wiki/Batalla_de_Boyac%C3%A1"
+    },
+    {
+      "dato": "Línea de tiempo del 7 de agosto: los realistas salen de Motavita hacia Santafé por el camino del puente de Boyacá; a las 10:00 Bolívar ordena desde San Lázaro impedir el paso por el puente; a las 14:00 la descubierta patriota sorprende a la vanguardia realista, que almorzaba; Santander inicia el combate; a las 15:00 hay dos combates simultáneos; Santander envía a los guías de Casanare a cruzar el río por la retaguardia realista; Rondón rompe el centro con sus lanceros; a las 16:00 termina la batalla; el ejército libertador ocupa Tunja el 5 de agosto; cifras: 2.850 patriotas, 2.670 realistas, 13 muertos y 53 heridos patriotas, más de 100 muertos y unos 150 heridos realistas, 1.600 prisioneros",
+      "fuente": "Semana, «Batalla de Boyacá: línea del tiempo de la batalla del 7 de agosto»",
+      "url": "https://www.semana.com/educacion/articulo/batalla-de-boyaca-linea-del-tiempo-de-la-batalla-del-7-de-agosto/692774"
+    },
+    {
+      "dato": "La campaña empezó el 23 de mayo de 1819, cuando Bolívar expuso el plan en la aldea de Los Setenta ante los jefes patriotas; el combate de Boyacá fue de 14:00 a 16:00; el ejército ocupó Tunja el 5 de agosto; Bolívar vio los movimientos realistas desde San Lázaro; Rondón atacó el centro con sus lanceros de Llano Arriba; el boletín nº 4 lo expidió Soublette en Ventaquemada",
+      "fuente": "Semana, «Batalla de Boyacá, bicentenario de la independencia de Colombia»",
+      "url": "https://www.semana.com/nacion/articulo/batalla-de-boyaca-bicentenario-de-la-independencia-de-colombia/626261"
+    },
+    {
+      "dato": "Bolívar salió de Mantecal el 25 de mayo tras aprobar el plan los oficiales el 23; en Tame los ejércitos se juntaron (11 o 12 de junio, según el pasaje) en un ejército conjunto de venezolanos y neogranadinos; Santander propuso la ruta de Pisba y Bolívar aceptó; el paso de Pisba llega a unos 3.960 m; la vanguardia llegó a Socha el 4 de julio; Gámeza fue el 11 de julio; Pantano de Vargas, el 25 de julio, con la carga de 14 lanceros de Rondón; el ejército tomó Tunja el 5 de agosto; Bolívar entró a Bogotá el 10 de agosto; el 17 de diciembre el Congreso de Angostura proclamó la República de Colombia",
+      "fuente": "Wikipedia, «Bolívar's campaign to liberate New Granada»",
+      "url": "https://en.wikipedia.org/wiki/Bol%C3%ADvar%27s_campaign_to_liberate_New_Granada"
+    },
+    {
+      "dato": "El paso de las tropas por el páramo de Pisba fue entre el 1 y el 7 de julio de 1819; llegaron a Socha entre el 4 y el 7; en la cima, casi a 4.000 m; julio es el mes de invierno más fuerte, con ríos crecidos, niebla, vientos helados y granizo; las tropas venían de las tierras cálidas del Casanare, mal abrigadas, a veces solo con camiseta, pantalón y sandalias; según Santander, la caballería y el ganado de la vanguardia murieron; se abandonaron fusiles y municiones en el camino; algunos hombres desertaron",
+      "fuente": "Radio Nacional de Colombia (RTVC), «Bicentenario del páramo de Pisba: el ejército de la independencia»",
+      "url": "https://www.radionacional.co/noticia/cultura/bicentenario-paramo-pisba-ejercito-independencia"
+    },
+    {
+      "dato": "El ejército llegó a Socha entre el 4 y el 7 de julio en condiciones muy precarias; gran parte de la caballería murió en la travesía y muchas armas y equipos se abandonaron; los habitantes de Socha ayudaron con ropa; se instalaron una armería improvisada y un hospital de campaña en Tasco; el combate de Gámeza (11 de julio) dejó importantes bajas en ambos ejércitos; el Pantano de Vargas fue el 25 de julio, tras un mes de movimientos de tropas, un «juego al gato y al ratón»",
+      "fuente": "Radio Nacional de Colombia (RTVC), «Historia de la batalla del Pantano de Vargas»",
+      "url": "https://www.radionacional.co/noticias/actualidad/historia-batalla-pantano-bargas"
+    },
+    {
+      "dato": "El ejército de Bolívar cruzó el páramo de Pisba en junio y julio de 1819; el páramo va de 1.861 a 3.965 m de altitud; lluvia, frío y aislamiento",
+      "fuente": "Infobae, «Así es el páramo de Pisba, el desafío heroico que conquistó la Campaña Libertadora»",
+      "url": "https://www.infobae.com/colombia/2025/08/07/asi-es-el-paramo-de-pisba-el-desafio-heroico-que-conquisto-la-campana-libertadora-de-simon-bolivar-esta-a-ocho-horas-de-bogota/"
+    },
+    {
+      "dato": "Pantano de Vargas (25 de julio de 1819): hacia las 17:00, con los patriotas casi rotos, el coronel Juan José Rondón cargó cuesta arriba con sus lanceros llaneros; solo 14 lanceros oyeron la primera orden; victoria patriota ajustada, no decisiva, porque no se destruyó al ejército realista; los historiadores discuten las bajas",
+      "fuente": "Wikipedia, «Battle of Vargas Swamp»",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Vargas_Swamp"
+    },
+    {
+      "dato": "Pantano de Vargas, 25 de julio de 1819: el coronel venezolano Rondón lideró la caballería llanera, que recuperó una batalla que parecía perdida; la página menciona catorce jinetes que lo siguieron; los patriotas estaban mal vestidos, eran menos y venían maltrechos del viaje; victoria patriota",
+      "fuente": "Colombia.com, «Pantano de Vargas»",
+      "url": "https://www.colombia.com/especiales/7-de-agosto/pantano-de-vargas/"
+    },
+    {
+      "dato": "A las 14:00 «la primera división enemiga llegaba al puente»; los españoles buscaban cruzarlo para comunicarse con la capital; Santander cruzó el puente y completó la victoria; más de 1.600 soldados prisioneros, entre ellos el general Barreiro; según el boletín de batalla, Barreiro fue tomado prisionero por el soldado Pedro Martínez",
+      "fuente": "El Tiempo, «Así se libró la batalla de Boyacá»",
+      "url": "https://www.eltiempo.com/cultura/asi-se-libro-la-batalla-de-boyaca-351110"
+    },
+    {
+      "dato": "Batalla del 7 de agosto: el combate empezó hacia las 14:00, la fase más intensa a las 15:00 y la victoria se consolidó hacia las 16:30; Rondón entró con Bolívar a Tunja el 5 de agosto; Santander ordenó cruzar el río por El Bebedero con los Guías y el escuadrón de Rondón; Bolívar entró a Santafé el 10 de agosto hacia las 16:00; sobre quién capturó a Barreiro el relato es contradictorio",
+      "fuente": "El Espectador, «La batalla que aseguró la Independencia de Colombia»",
+      "url": "https://www.elespectador.com/el-magazin-cultural/la-batalla-que-aseguro-la-independencia-de-colombia-article-874695/"
+    },
+    {
+      "dato": "Tras Boyacá, la noticia llegó a Santafé el 8 de agosto; Sámano huyó disfrazado, escoltado por una guardia de élite, en la madrugada del 9; dejó dinero en la tesorería; Bolívar llegó el 10 de agosto entre multitudes; en octubre de 1819 Santander ordenó fusilar a Barreiro y otros oficiales",
+      "fuente": "Radio Nacional de Colombia (RTVC), «¿Y qué pasó después de la batalla del Puente de Boyacá?»",
+      "url": "https://www.radionacional.co/cultura/y-que-paso-despues-de-la-batalla-del-puente-de-boyaca"
+    },
+    {
+      "dato": "Unos querían federación y otros centralizar el poder; las guerras civiles facilitaron la reconquista española de las Provincias Unidas de la Nueva Granada entre 1814 y 1816",
+      "fuente": "Encyclopaedia Britannica, «History of Colombia»",
+      "url": "https://www.britannica.com/topic/history-of-Colombia"
+    },
+    {
+      "dato": "Surgieron dos repúblicas a la vez, Cundinamarca (centralista) y las Provincias Unidas (federales); una guerra civil las enfrentó desde 1812 hasta la toma de Santafé en diciembre de 1814",
+      "fuente": "Germán Rodrigo Mejía Pavony (Pontificia Universidad Javeriana), «La Patria Boba», Semana",
+      "url": "https://www.semana.com/especiales/articulo/la-patria-boba/105278-3"
+    },
+    {
+      "dato": "Pablo Morillo llegó en 1815; Villavicencio y Carbonell fueron fusilados en junio de 1816; Camilo Torres y Caldas, en octubre de 1816",
+      "fuente": "Semana, «Pablo Morillo, el español que fusiló a decenas de héroes de la independencia»",
+      "url": "https://www.semana.com/gente/articulo/pablo-morillo-el-espanol-que-fusilo--a-decenas-de-heroes-de-la-independencia/502520"
+    },
+    {
+      "dato": "Camilo Torres fue ejecutado el 5 de octubre de 1816 en Santafé; Caldas fue fusilado en octubre de 1816 en la plazuela de San Francisco",
+      "fuente": "Universidad del Rosario, «Quién es quién en 1816» y Archivo Histórico, «¡Oh larga y negra partida!»",
+      "url": "https://www.urosario.edu.co/sites/default/files/2024-05/quien-es-quien-en-1816.pdf"
+    },
+    {
+      "dato": "El Congreso de Angostura se instaló el 15 de febrero de 1819 con el discurso de Bolívar; el 17 de diciembre de 1819 aprobó la Ley Fundamental que unió Venezuela y la Nueva Granada en la República de Colombia",
+      "fuente": "Wikipedia, «Congress of Angostura»",
+      "url": "https://en.wikipedia.org/wiki/Congress_of_Angostura"
+    },
+    {
+      "dato": "Ley Fundamental de la República de Colombia, 17 de diciembre de 1819: las repúblicas de Venezuela y la Nueva Granada quedan «desde este día reunidas en una sola», con el nombre de República de Colombia; una nueva ciudad con el nombre del Libertador será la capital",
+      "fuente": "Alcaldía de Bogotá, Régimen Legal, «Ley Fundamental de la República de Colombia» (1819)",
+      "url": "https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=13688"
+    },
+    {
+      "dato": "El 20 de julio de 1810 los criollos de Santafé formaron su junta; el acta no rompió con Fernando VII (primera parte de la serie)",
+      "fuente": "Encyclopaedia Britannica, «Colombia: Revolution and independence» (véanse las fuentes de hi-florero)",
+      "url": "https://www.britannica.com/place/Colombia/Revolution-and-independence"
+    },
+    {
+      "dato": "Antonio Nariño usó la expresión «Patria Boba» en 1823, en su periódico Los toros de Fucha (el sentido irónico no está confirmado en la fuente)",
+      "fuente": "Semana, «La Patria Boba» (Germán Mejía Pavony); Wikipedia, «Los Toros de Fucha»",
+      "url": "https://www.semana.com/especiales/articulo/la-patria-boba/105278-3"
+    }
+  ],
+  "imagenes": {
+    "batalla_tovar": {
+      "commons": "File:Batalla de Boyaca de Martin Tovar y Tovar.jpg",
+      "que_muestra": "«Batalla de Boyacá», óleo de Martín Tovar y Tovar (1890), Palacio Federal, Caracas",
+      "encuadre": "centro",
+      "movimiento": "acercar"
+    },
+    "batalla_darmet": {
+      "commons": "File:Batalla de Boyacá - Grabado de J.M. Darmet (1824).jpg",
+      "que_muestra": "Grabado de la batalla de Boyacá por J. M. Darmet (1824), Museo Nacional de Colombia",
+      "encuadre": "centro",
+      "movimiento": "derecha"
+    },
+    "bolivar_santander": {
+      "commons": "File:Bolívar y Santander en la Batalla de Boyaca (1824) - Jose Maria Espinosa.jpg",
+      "que_muestra": "Dibujo de Bolívar y Santander en la batalla de Boyacá, de José María Espinosa (hacia 1824)",
+      "encuadre": "centro",
+      "movimiento": "acercar"
+    },
+    "plano_boyaca": {
+      "commons": "File:Plano topográfico del campo en que tuvo lugar la Batalla de Boyacá -7 de agosto de 1819-.jpg",
+      "que_muestra": "Plano topográfico del campo de la batalla de Boyacá (siglo XIX), Biblioteca Luis Ángel Arango",
+      "encuadre": "centro",
+      "movimiento": "acercar"
+    },
+    "bolivar": {
+      "commons": "File:Simón Bolívar, 1825.jpg",
+      "que_muestra": "Simón Bolívar, retrato de José Gil de Castro (1825)",
+      "encuadre": "arriba",
+      "movimiento": "acercar"
+    },
+    "santander": {
+      "commons": "File:Francisco de Paula Santander (painting by José María Espinosa).jpg",
+      "que_muestra": "Francisco de Paula Santander, retrato de José María Espinosa (1853)",
+      "encuadre": "arriba",
+      "movimiento": "acercar"
+    },
+    "anzoategui": {
+      "commons": "File:José Antonio Anzoátegui por Pedro José Figueroa.jpg",
+      "que_muestra": "José Antonio Anzoátegui, retrato póstumo de Pedro José Figueroa (1822)",
+      "encuadre": "arriba",
+      "movimiento": "acercar"
+    },
+    "morillo": {
+      "commons": "File:Pablo Morillo, 1815.png",
+      "que_muestra": "El general Pablo Morillo, retrato de Pedro José Figueroa (hacia 1815)",
+      "encuadre": "arriba",
+      "movimiento": "acercar"
+    },
+    "torres": {
+      "commons": "File:Camilo Torres y Tenorio.jpg",
+      "que_muestra": "Camilo Torres, grabado basado en un retrato de José María Espinosa",
+      "encuadre": "arriba",
+      "movimiento": "acercar"
+    },
+    "caldas": {
+      "commons": "File:Francisco José de Caldas cph.3a03392.jpg",
+      "que_muestra": "Francisco José de Caldas, grabado publicado en Magazine of American History (1884)",
+      "encuadre": "arriba",
+      "movimiento": "acercar"
+    },
+    "pisba": {
+      "commons": "File:Paso del Libertador por el páramo de Pisba.JPG",
+      "que_muestra": "Pintura del paso del Libertador por Pisba (foto de 2012, CC BY-SA)",
+      "encuadre": "centro",
+      "movimiento": "derecha"
+    },
+    "pisba_laguna": {
+      "commons": "File:Los Picachos.jpg",
+      "que_muestra": "Laguna en el Parque Nacional Natural Pisba, Boyacá (foto de 2008, CC BY 2.5)",
+      "encuadre": "centro",
+      "movimiento": "acercar"
+    },
+    "mapa_vargas": {
+      "commons": "File:Batalla del Pantano de Vargas - Área de Operaciones.svg",
+      "que_muestra": "Mapa de las rutas de los ejércitos patriota y realista en el Pantano de Vargas (CC0)",
+      "encuadre": "centro",
+      "movimiento": "acercar"
+    }
+  },
+  "personajes": {
+    "bolivar": {
+      "nombre": "Simón Bolívar",
+      "rol": "El Libertador",
+      "piel": "#d9a77e",
+      "pelo": "#2a1d16",
+      "peinado": "corto",
+      "barba": "patillas",
+      "ropa": "#23305a",
+      "detalle": "#c9a256",
+      "corbata": "#f4f1ea",
+      "cuello": "lazo",
+      "charreteras": true,
+      "expresion": "serio"
+    },
+    "santander": {
+      "nombre": "Francisco de Paula Santander",
+      "corto": "F. de P. Santander",
+      "rol": "Jefe de la vanguardia",
+      "piel": "#e2b48c",
+      "pelo": "#3a2a1e",
+      "peinado": "corto",
+      "barba": "patillas",
+      "ropa": "#24304e",
+      "detalle": "#c9a256",
+      "corbata": "#f1ece0",
+      "cuello": "lazo",
+      "charreteras": true,
+      "expresion": "serio"
+    },
+    "anzoategui": {
+      "nombre": "José Antonio Anzoátegui",
+      "corto": "J. A. Anzoátegui",
+      "rol": "Jefe de la retaguardia",
+      "piel": "#e2b48c",
+      "pelo": "#2a1d16",
+      "peinado": "corto",
+      "barba": "patillas",
+      "ropa": "#2a3550",
+      "detalle": "#c9a256",
+      "corbata": "#f1ece0",
+      "cuello": "lazo",
+      "charreteras": true,
+      "expresion": "serio"
+    },
+    "rondon": {
+      "nombre": "Juan José Rondón",
+      "rol": "Coronel, lancero llanero",
+      "piel": "#c99572",
+      "pelo": "#1e1612",
+      "peinado": "corto",
+      "barba": "bigote",
+      "sombrero": "copa",
+      "ropa": "#5a4632",
+      "detalle": "#a3302a",
+      "cuello": "ninguno",
+      "expresion": "enojado"
+    },
+    "barreiro": {
+      "nombre": "José María Barreiro",
+      "corto": "J. M. Barreiro",
+      "rol": "Jefe del ejército español",
+      "bandera": "espana",
+      "piel": "#efc6a4",
+      "pelo": "#4a3222",
+      "peinado": "raya",
+      "barba": "patillas",
+      "ropa": "#2b3a5e",
+      "detalle": "#c9a256",
+      "corbata": "#f4f1ea",
+      "cuello": "lazo",
+      "charreteras": true,
+      "expresion": "serio"
+    },
+    "samano": {
+      "nombre": "Juan de Sámano",
+      "rol": "Virrey de la Nueva Granada",
+      "bandera": "espana",
+      "piel": "#efc6a4",
+      "pelo": "#8a8077",
+      "peinado": "raya",
+      "barba": "ninguna",
+      "ropa": "#2b3a5e",
+      "detalle": "#c9a256",
+      "corbata": "#f4f1ea",
+      "cuello": "lazo",
+      "charreteras": true,
+      "expresion": "sorprendido"
+    },
+    "morillo": {
+      "nombre": "Pablo Morillo",
+      "rol": "General español",
+      "bandera": "espana",
+      "piel": "#e6b48e",
+      "pelo": "#2a1d16",
+      "peinado": "corto",
+      "barba": "patillas",
+      "ropa": "#1f2a4a",
+      "detalle": "#c9a256",
+      "corbata": "#f4f1ea",
+      "cuello": "lazo",
+      "charreteras": true,
+      "expresion": "enojado"
+    },
+    "llanero": {
+      "nombre": "Soldado llanero",
+      "rol": "Lancero de los llanos",
+      "piel": "#c99572",
+      "pelo": "#1e1612",
+      "peinado": "corto",
+      "barba": "bigote",
+      "sombrero": "copa",
+      "ropa": "#7a6248",
+      "detalle": "#a3302a",
+      "cuello": "ninguno",
+      "expresion": "serio"
+    },
+    "soldado": {
+      "nombre": "Soldado patriota",
+      "rol": "Tropa del ejército libertador",
+      "piel": "#d2a07a",
+      "pelo": "#2a1d16",
+      "peinado": "corto",
+      "barba": "bigote",
+      "ropa": "#7a6248",
+      "detalle": "#a3302a",
+      "cuello": "ninguno",
+      "expresion": "serio"
+    },
+    "soldado_espanol": {
+      "nombre": "Soldado realista",
+      "rol": "Tropa del ejército español",
+      "bandera": "espana",
+      "piel": "#d2a07a",
+      "pelo": "#2a1d16",
+      "peinado": "corto",
+      "barba": "bigote",
+      "sombrero": "bicornio",
+      "cuello": "ninguno",
+      "ropa": "#2f3e66",
+      "detalle": "#a3302a",
+      "expresion": "serio"
+    }
+  },
+  "capitulos": [
+    {
+      "id": "c0",
+      "titulo": "",
+      "escenas": {
+        "c0-fecha": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "Boyacá, 1819",
+            "lineas": [
+              "Una batalla",
+              "de dos horas"
+            ],
+            "resalta": 1,
+            "calendario": {
+              "arriba": "Agosto",
+              "numero": "7",
+              "abajo": "1819",
+              "lado": "derecha",
+              "palabra": "agosto"
+            }
+          }
+        },
+        "c0-mapa": {
+          "plantilla": "mapa",
+          "datos": {
+            "vistas": [
+              {
+                "centro": [
+                  -74.2,
+                  6.2
+                ],
+                "ancho": 16
+              }
+            ],
+            "paises": [
+              {
+                "id": "colombia",
+                "color": "acento2",
+                "opacidad": 0.3,
+                "en": 0
+              }
+            ],
+            "montes": {
+              "puntos": [
+                [
+                  -72.9,
+                  7.2
+                ],
+                [
+                  -73.2,
+                  6.2
+                ],
+                [
+                  -73.6,
+                  5.3
+                ],
+                [
+                  -74,
+                  4.3
+                ]
+              ],
+              "en": 0.1
+            },
+            "rotulos": [
+              {
+                "texto": "Cordillera Oriental",
+                "lugar": [
+                  -73.2,
+                  3.9
+                ],
+                "estilo": "titulo",
+                "tam": 28,
+                "en": 0.4
+              }
+            ],
+            "marcas": [
+              {
+                "texto": "Tunja",
+                "lugar": [
+                  -73.37,
+                  5.53
+                ],
+                "lado": "derecha",
+                "en": 0.1
+              },
+              {
+                "texto": "Santafé",
+                "lugar": "bogota",
+                "lado": "izquierda",
+                "en": 0.3
+              }
+            ],
+            "banderas": [
+              {
+                "pais": "espana",
+                "lugar": [
+                  -72.2,
+                  6.7
+                ],
+                "tam": 90,
+                "palabra": "espa"
+              }
+            ],
+            "cartela": {
+              "titulo": "Nueva Granada",
+              "sub": "Cerca de Tunja, 1819",
+              "en": 0
+            }
+          }
+        },
+        "c0-horas": {
+          "plantilla": "cifra",
+          "datos": {
+            "valor": 2,
+            "unidad": "horas",
+            "rotulo": "en un puente sobre el río Teatinos",
+            "dibujo": "reloj",
+            "en": 0.02,
+            "palabra_rotulo": "horas"
+          }
+        },
+        "c0-ejercitos": {
+          "plantilla": "dos-personajes",
+          "datos": {
+            "izquierda": {
+              "personaje": "bolivar",
+              "rol": "Ejército patriota"
+            },
+            "derecha": {
+              "personaje": "barreiro",
+              "rol": "Ejército realista",
+              "bandera": "espana"
+            }
+          }
+        },
+        "c0-no-puente": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "Pero",
+            "lineas": [
+              "No se ganó",
+              "en el puente"
+            ],
+            "resalta": 1,
+            "dibujo": "balanza"
+          }
+        },
+        "c0-pisba-foto": {
+          "plantilla": "recorte",
+          "datos": {
+            "foto": "File:Los Picachos.jpg",
+            "pie": "Laguna en el Parque Pisba (foto de 2008)",
+            "insignia": "Semanas antes",
+            "titulo": "Un páramo helado",
+            "texto": "Casi 4.000 m de altura",
+            "lado": "izquierda",
+            "palabras": {
+              "titulo": "helado",
+              "texto": "casi"
+            }
+          }
+        },
+        "c0-soldado": {
+          "plantilla": "personaje",
+          "datos": {
+            "personaje": "soldado",
+            "anios": "Tierra caliente",
+            "rol": "Cruzó casi sin abrigo",
+            "palabra_anios": "ej",
+            "palabra_rol": "soldados"
+          }
+        },
+        "c0-pregunta": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "Segunda parte",
+            "lineas": [
+              "¿Cómo se gana",
+              "una batalla",
+              "tan rápida?"
+            ],
+            "resalta": 2,
+            "dibujo": "reloj",
+            "palabra_dibujo": "rapida"
+          }
+        },
+        "c0-serie": {
+          "plantilla": "linea-tiempo",
+          "datos": {
+            "titulo": "La independencia, en tres partes",
+            "actual": 1,
+            "palabra_actual": "segunda",
+            "hitos": [
+              {
+                "anio": "Parte 1",
+                "texto": "El florero y el 20 de julio de 1810"
+              },
+              {
+                "anio": "Parte 2",
+                "texto": "Boyacá: la campaña de 1819"
+              },
+              {
+                "anio": "Parte 3",
+                "texto": "¿Por qué se acabó la Gran Colombia?"
+              }
+            ]
+          }
+        },
+        "c0-fuentes": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "Cómo vamos a contarlo",
+            "fichas": [
+              {
+                "texto": "Cada dato, con su fuente",
+                "dibujo": "documento",
+                "palabra": "dato"
+              },
+              {
+                "texto": "Si hay duda, te la decimos",
+                "dibujo": "balanza",
+                "palabra": "historiadores",
+                "resalta": true
+              }
+            ]
+          }
+        }
+      },
+      "frases": [
+        {
+          "id": "f1",
+          "escena": "c0-fecha",
+          "texto": "El 7 de agosto de 1819, cerca de Tunja, una batalla que duró unas dos horas liberó a la Nueva Granada del control español. Dos horas, en un puente sobre el río Teatinos, contra un ejército casi del mismo tamaño.",
+          "cortes": [
+            {
+              "escena": "c0-mapa",
+              "palabra": 16
+            },
+            {
+              "escena": "c0-horas",
+              "palabra": 24
+            },
+            {
+              "escena": "c0-ejercitos",
+              "palabra": 33
+            }
+          ]
+        },
+        {
+          "id": "f2",
+          "escena": "c0-no-puente",
+          "texto": "Pero esa batalla no se ganó en el puente. Se empezó a ganar semanas antes, en un páramo helado, a casi cuatro mil metros de altura, que un ejército de soldados de tierra caliente cruzó casi sin abrigo.",
+          "cortes": [
+            {
+              "escena": "c0-pisba-foto",
+              "palabra": 15
+            },
+            {
+              "escena": "c0-soldado",
+              "palabra": 26
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "escena": "c0-pregunta",
+          "texto": "¿Cómo se gana una batalla tan rápida? Esta es la segunda parte de nuestra serie sobre la independencia, contada con documentos.",
+          "cortes": [
+            {
+              "escena": "c0-serie",
+              "palabra": 10
+            }
+          ]
+        },
+        {
+          "id": "f4",
+          "escena": "c0-fuentes",
+          "texto": "Cada dato de este video está comprobado en fuentes. Y donde los historiadores no coinciden, te lo vamos a decir."
+        }
+      ]
+    },
+    {
+      "id": "c1",
+      "titulo": "Nueve años después",
+      "escenas": {
+        "c1-1810": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "Nueve años antes",
+            "lineas": [
+              "Volvamos a",
+              "un 20 de julio"
+            ],
+            "todo_al_inicio": true,
+            "resalta": 1,
+            "calendario": {
+              "arriba": "Julio",
+              "numero": "20",
+              "abajo": "1810",
+              "lado": "derecha",
+              "palabra": "20"
+            }
+          }
+        },
+        "c1-junta": {
+          "plantilla": "mapa",
+          "datos": {
+            "vistas": [
+              {
+                "centro": [
+                  -74.1,
+                  5.4
+                ],
+                "ancho": 12
+              }
+            ],
+            "paises": [
+              {
+                "id": "colombia",
+                "color": "acento2",
+                "opacidad": 0.3,
+                "en": 0
+              }
+            ],
+            "marcas": [
+              {
+                "texto": "Santafé",
+                "lugar": "bogota",
+                "lado": "derecha",
+                "tam": 34,
+                "en": 0.2
+              }
+            ],
+            "cartela": {
+              "titulo": "Santafé, 20 de julio de 1810",
+              "sub": "Los criollos forman su junta",
+              "en": 0.1
+            },
+            "fichas": [
+              {
+                "titulo": "1810",
+                "texto": "Primera junta",
+                "dibujo": "documento",
+                "lugar": "abajo-derecha",
+                "palabra": "junta"
+              }
+            ]
+          }
+        },
+        "c1-florero": {
+          "plantilla": "cifra",
+          "datos": {
+            "cifra": "1 de 3",
+            "rotulo": "Primera parte: la historia del florero",
+            "dibujo": "calendario",
+            "en": 0.05,
+            "palabra_rotulo": "florero"
+          }
+        },
+        "c1-bandos": {
+          "plantilla": "dos-personajes",
+          "datos": {
+            "izquierda": {
+              "personaje": "soldado",
+              "nombre": "Patriotas",
+              "rol": "Defienden la independencia"
+            },
+            "derecha": {
+              "personaje": "soldado_espanol",
+              "nombre": "Realistas",
+              "rol": "Defienden al rey",
+              "bandera": "espana",
+              "palabra_bandera": "rey"
+            }
+          }
+        },
+        "c1-palabras": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "Dos palabras",
+            "lineas": [
+              "Patriotas",
+              "y realistas"
+            ],
+            "resalta": 1,
+            "todo_al_inicio": true,
+            "dibujo": "bandera"
+          }
+        },
+        "c1-guerra": {
+          "plantilla": "cifra",
+          "datos": {
+            "cifra": "1812-1814",
+            "rotulo": "guerra civil entre patriotas",
+            "dibujo": "canon",
+            "en": 0.05,
+            "palabra_rotulo": "guerra"
+          }
+        },
+        "c1-ideas": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "Dos ideas de país",
+            "fichas": [
+              {
+                "texto": "Un país federal",
+                "dibujo": "bandera",
+                "palabra": "federal"
+              },
+              {
+                "texto": "Gobierno central fuerte",
+                "dibujo": "balanza",
+                "palabra": "otros"
+              }
+            ]
+          }
+        },
+        "c1-tiempo": {
+          "plantilla": "linea-tiempo",
+          "datos": {
+            "titulo": "De la junta a la reconquista",
+            "actual": 2,
+            "palabra_actual": "reconquista",
+            "hitos": [
+              {
+                "anio": "1810",
+                "texto": "Primera junta en Santafé"
+              },
+              {
+                "anio": "1812",
+                "texto": "Guerra civil entre patriotas"
+              },
+              {
+                "anio": "1814-16",
+                "texto": "Reconquista española"
+              }
+            ]
+          }
+        },
+        "c1-patria-boba": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "Esa etapa",
+            "lineas": [
+              "La Patria",
+              "Boba"
+            ],
+            "resalta": 1,
+            "dibujo": "bandera",
+            "palabra_dibujo": "Patria"
+          }
+        },
+        "c1-narino": {
+          "plantilla": "personaje",
+          "datos": {
+            "nombre": "Antonio Nariño",
+            "piel": "#e0b08a",
+            "pelo": "#5a4a3c",
+            "peinado": "raya",
+            "barba": "patillas",
+            "ropa": "#3a2f2a",
+            "detalle": "#c9a256",
+            "corbata": "#f1ece0",
+            "cuello": "lazo",
+            "expresion": "pensativo",
+            "anios": "1823",
+            "rol": "Usó con ironía el nombre «Patria Boba»",
+            "palabra_anios": "Anton",
+            "palabra_rol": "nombre"
+          }
+        },
+        "c1-toros": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "Antonio Nariño, 1823",
+            "lineas": [
+              "Los toros",
+              "de Fucha"
+            ],
+            "resalta": 1,
+            "dibujo": "documento",
+            "palabra_dibujo": "escrito"
+          }
+        },
+        "c1-morillo": {
+          "plantilla": "personaje",
+          "datos": {
+            "personaje": "morillo",
+            "nombre": "General Morillo",
+            "anios": "1815",
+            "rol": "Reconquista española",
+            "palabra_anios": "reconq",
+            "palabra_rol": "general"
+          }
+        },
+        "c1-fusilados": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "Octubre de 1816",
+            "lineas": [
+              "Fusilados",
+              "en Santafé"
+            ],
+            "resalta": 0,
+            "dibujo": "cruz",
+            "palabra_dibujo": "fusilados"
+          }
+        },
+        "c1-protagonistas": {
+          "plantilla": "tablero",
+          "datos": {
+            "personajes": [
+              {
+                "nombre": "Camilo Torres",
+                "corto": "Camilo Torres",
+                "rol": "Abogado",
+                "piel": "#e0b08a",
+                "pelo": "#3a2a1e",
+                "peinado": "raya",
+                "barba": "patillas",
+                "ropa": "#2a2a2e",
+                "detalle": "#c9a256",
+                "corbata": "#f1ece0",
+                "cuello": "lazo",
+                "expresion": "serio"
+              },
+              {
+                "nombre": "Francisco José de Caldas",
+                "corto": "F. J. de Caldas",
+                "rol": "Científico",
+                "piel": "#e6b894",
+                "pelo": "#3a2a1e",
+                "peinado": "corto",
+                "barba": "ninguna",
+                "ropa": "#2e3a4a",
+                "detalle": "#c9a256",
+                "corbata": "#f1ece0",
+                "cuello": "lazo",
+                "expresion": "pensativo"
+              }
+            ],
+            "titulo": "Protagonistas del 20 de julio",
+            "palabras": {
+              "personajes": "Torres",
+              "hilos": "protagonistas",
+              "titulo": "protagonistas"
+            }
+          }
+        },
+        "c1-angostura": {
+          "plantilla": "mapa",
+          "datos": {
+            "vistas": [
+              {
+                "centro": [
+                  -69,
+                  6.5
+                ],
+                "ancho": 24
+              },
+              {
+                "centro": [
+                  -65,
+                  7.6
+                ],
+                "ancho": 12,
+                "palabra": "febrero",
+                "dur": 1.6
+              }
+            ],
+            "paises": [
+              {
+                "id": "venezuela",
+                "color": "acento2",
+                "opacidad": 0.35,
+                "palabra": "Venezuela"
+              }
+            ],
+            "rotulos": [
+              {
+                "texto": "Venezuela",
+                "lugar": [
+                  -66.5,
+                  6.2
+                ],
+                "estilo": "pais",
+                "tam": 44,
+                "palabra": "Venezuela"
+              }
+            ],
+            "marcas": [
+              {
+                "texto": "Angostura",
+                "lugar": [
+                  -63.55,
+                  8.12
+                ],
+                "lado": "derecha",
+                "tam": 34,
+                "palabra": "febrero"
+              }
+            ],
+            "cartela": {
+              "titulo": "Angostura, febrero de 1819",
+              "sub": "Se instala el congreso",
+              "palabra": "febrero"
+            }
+          }
+        },
+        "c1-discurso": {
+          "plantilla": "personaje",
+          "datos": {
+            "personaje": "bolivar",
+            "pose": "discurso",
+            "anios": "1819",
+            "rol": "Discurso con el que se instaló el congreso",
+            "palabra_anios": "pronun",
+            "palabra_rol": "discurso"
+          }
+        },
+        "c1-granada": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "Pero",
+            "lineas": [
+              "La Nueva Granada",
+              "seguía bajo",
+              "control español"
+            ],
+            "todo_al_inicio": true,
+            "resalta": 2,
+            "dibujo": "bandera"
+          }
+        },
+        "c1-andes": {
+          "plantilla": "mapa",
+          "datos": {
+            "vistas": [
+              {
+                "centro": [
+                  -70.5,
+                  6.2
+                ],
+                "ancho": 16
+              }
+            ],
+            "paises": [
+              {
+                "id": "colombia",
+                "color": "acento2",
+                "opacidad": 0.25,
+                "en": 0
+              }
+            ],
+            "montes": {
+              "puntos": [
+                [
+                  -72.9,
+                  7.2
+                ],
+                [
+                  -73.2,
+                  6.2
+                ],
+                [
+                  -73.6,
+                  5.3
+                ],
+                [
+                  -74,
+                  4.3
+                ]
+              ],
+              "en": 0.1
+            },
+            "rutas": [
+              {
+                "puntos": [
+                  [
+                    -69.5,
+                    7.5
+                  ],
+                  [
+                    -71.7,
+                    6.4
+                  ],
+                  [
+                    -72.7,
+                    5.9
+                  ],
+                  [
+                    -73.4,
+                    5.5
+                  ],
+                  [
+                    -74.07,
+                    4.65
+                  ]
+                ],
+                "estilo": "flecha",
+                "color": "acento",
+                "grosor": 8,
+                "palabra": "llevar",
+                "dur": 2.4
+              }
+            ],
+            "marcas": [
+              {
+                "texto": "Santafé",
+                "lugar": "bogota",
+                "lado": "izquierda",
+                "tam": 34,
+                "en": 0.2
+              }
+            ],
+            "rotulos": [
+              {
+                "texto": "Los Andes",
+                "lugar": [
+                  -72.6,
+                  4.6
+                ],
+                "estilo": "titulo",
+                "tam": 34,
+                "palabra": "ejército"
+              }
+            ],
+            "cartela": {
+              "titulo": "Bolívar propone",
+              "sub": "Cruzar los Andes hacia la Nueva Granada",
+              "palabra": "audaz"
+            }
+          }
+        }
+      },
+      "frases": [
+        {
+          "id": "f5",
+          "escena": "c1-1810",
+          "texto": "Para entender Boyacá hay que volver al 20 de julio de 1810, cuando los criollos de Santafé formaron su primera junta de gobierno. Esa historia, la del florero, es la primera parte de esta serie.",
+          "cortes": [
+            {
+              "escena": "c1-junta",
+              "palabra": 12
+            },
+            {
+              "escena": "c1-florero",
+              "palabra": 23
+            }
+          ]
+        },
+        {
+          "id": "f6",
+          "escena": "c1-bandos",
+          "texto": "Para ubicarnos: a quienes defendían la independencia los llamamos patriotas, y a quienes defendían al rey, realistas. Usaremos esas dos palabras en todo el video.",
+          "cortes": [
+            {
+              "escena": "c1-palabras",
+              "palabra": 16
+            }
+          ]
+        },
+        {
+          "id": "f7",
+          "escena": "c1-guerra",
+          "texto": "Lo que vino después fue una guerra entre los propios patriotas. Unos querían un país federal y otros, un gobierno central fuerte, y esas peleas facilitaron la reconquista española entre 1814 y 1816.",
+          "cortes": [
+            {
+              "escena": "c1-ideas",
+              "palabra": 11
+            },
+            {
+              "escena": "c1-tiempo",
+              "palabra": 22
+            }
+          ]
+        },
+        {
+          "id": "f8",
+          "escena": "c1-patria-boba",
+          "texto": "A esa etapa se le conoce como la Patria Boba, un nombre que Antonio Nariño usó con ironía en 1823, en su escrito Los toros de Fucha.",
+          "cortes": [
+            {
+              "escena": "c1-narino",
+              "palabra": 10
+            },
+            {
+              "escena": "c1-toros",
+              "palabra": 20
+            }
+          ]
+        },
+        {
+          "id": "f9",
+          "escena": "c1-morillo",
+          "texto": "Con la reconquista llegó el general Pablo Morillo. En octubre de 1816, en Santafé, fueron fusilados el abogado Camilo Torres y el científico Francisco José de Caldas, dos de los protagonistas del 20 de julio.",
+          "cortes": [
+            {
+              "escena": "c1-fusilados",
+              "palabra": 8
+            },
+            {
+              "escena": "c1-protagonistas",
+              "palabra": 18
+            }
+          ]
+        },
+        {
+          "id": "f10",
+          "escena": "c1-angostura",
+          "texto": "Mientras tanto, Simón Bolívar luchaba desde Venezuela. En febrero de 1819, en Angostura, pronunció el discurso con el que se instaló el congreso que debía organizar la república.",
+          "cortes": [
+            {
+              "escena": "c1-discurso",
+              "palabra": 13
+            }
+          ]
+        },
+        {
+          "id": "f11",
+          "escena": "c1-granada",
+          "texto": "Pero la Nueva Granada seguía en manos españolas. Y Bolívar propuso algo audaz: llevar su ejército hasta allá, cruzando los Andes.",
+          "cortes": [
+            {
+              "escena": "c1-andes",
+              "palabra": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "titulo": "El plan",
+      "escenas": {
+        "c2-setenta": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "Campaña Libertadora",
+            "lineas": [
+              "La aldea de",
+              "Los Setenta"
+            ],
+            "resalta": 1,
+            "calendario": {
+              "arriba": "Mayo",
+              "numero": "23",
+              "abajo": "1819",
+              "lado": "derecha",
+              "palabra": "23"
+            }
+          }
+        },
+        "c2-plan": {
+          "plantilla": "personaje",
+          "datos": {
+            "personaje": "bolivar",
+            "pose": "senalar",
+            "anios": "Los Setenta",
+            "rol": "Expone el plan de la campaña",
+            "palabra_anios": "plan",
+            "palabra_rol": "campa"
+          }
+        },
+        "c2-sencillo": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "El plan",
+            "lineas": [
+              "Arriesgado",
+              "y sencillo"
+            ],
+            "resalta": 1,
+            "dibujo": "montana",
+            "palabra_dibujo": "arriesgado"
+          }
+        },
+        "c2-ruta": {
+          "plantilla": "mapa",
+          "datos": {
+            "vistas": [
+              {
+                "centro": [
+                  -72.6,
+                  5.6
+                ],
+                "ancho": 10
+              }
+            ],
+            "paises": [
+              {
+                "id": "colombia",
+                "color": "acento2",
+                "opacidad": 0.25,
+                "en": 0
+              }
+            ],
+            "montes": {
+              "puntos": [
+                [
+                  -72.9,
+                  7.2
+                ],
+                [
+                  -73.2,
+                  6.2
+                ],
+                [
+                  -73.6,
+                  5.3
+                ],
+                [
+                  -74,
+                  4.3
+                ]
+              ],
+              "en": 0.1
+            },
+            "rutas": [
+              {
+                "puntos": [
+                  [
+                    -71.2,
+                    6.3
+                  ],
+                  [
+                    -72.3,
+                    5.8
+                  ],
+                  [
+                    -73.37,
+                    5.53
+                  ]
+                ],
+                "estilo": "flecha",
+                "color": "acento",
+                "grosor": 8,
+                "palabra": "cruzar",
+                "dur": 2
+              }
+            ],
+            "marcas": [
+              {
+                "texto": "Tunja",
+                "lugar": [
+                  -73.37,
+                  5.53
+                ],
+                "lado": "arriba",
+                "tam": 32,
+                "en": 0.2
+              },
+              {
+                "texto": "Santafé",
+                "lugar": "bogota",
+                "lado": "izquierda",
+                "tam": 32,
+                "en": 0.2
+              }
+            ],
+            "rotulos": [
+              {
+                "texto": "Cordillera Oriental",
+                "lugar": [
+                  -72.8,
+                  4.3
+                ],
+                "estilo": "titulo",
+                "tam": 30,
+                "palabra": "cordillera"
+              }
+            ],
+            "banderas": [
+              {
+                "pais": "espana",
+                "lugar": [
+                  -74.2,
+                  6.5
+                ],
+                "tam": 80,
+                "palabra": "espa"
+              }
+            ],
+            "cartela": {
+              "titulo": "El plan",
+              "sub": "Cruzar la cordillera y sorprender",
+              "palabra": "cruzar"
+            }
+          }
+        },
+        "c2-santander": {
+          "plantilla": "recorte",
+          "datos": {
+            "foto": "File:Francisco de Paula Santander (painting by José María Espinosa).jpg",
+            "pie": "Retrato de Santander (1853)",
+            "insignia": "Casanare, 1819",
+            "titulo": "Santander reúne tropas",
+            "texto": "Llaneros y boyacenses",
+            "lado": "derecha",
+            "palabras": {
+              "titulo": "Santander",
+              "texto": "llaneros"
+            }
+          }
+        },
+        "c2-tame": {
+          "plantilla": "mapa",
+          "datos": {
+            "vistas": [
+              {
+                "centro": [
+                  -70.9,
+                  6.2
+                ],
+                "ancho": 10
+              }
+            ],
+            "paises": [
+              {
+                "id": "colombia",
+                "color": "acento2",
+                "opacidad": 0.25,
+                "en": 0
+              },
+              {
+                "id": "venezuela",
+                "color": "acento2",
+                "opacidad": 0.25,
+                "en": 0
+              }
+            ],
+            "rutas": [
+              {
+                "puntos": [
+                  [
+                    -68.8,
+                    7.4
+                  ],
+                  [
+                    -71.73,
+                    6.46
+                  ]
+                ],
+                "estilo": "flecha",
+                "color": "acento",
+                "grosor": 8,
+                "palabra": "dos",
+                "dur": 1.4
+              },
+              {
+                "puntos": [
+                  [
+                    -72.1,
+                    5.3
+                  ],
+                  [
+                    -71.73,
+                    6.46
+                  ]
+                ],
+                "estilo": "flecha",
+                "color": "tinta",
+                "grosor": 8,
+                "palabra": "ej",
+                "dur": 1.4
+              }
+            ],
+            "marcas": [
+              {
+                "texto": "Tame",
+                "lugar": [
+                  -71.73,
+                  6.46
+                ],
+                "lado": "derecha",
+                "tam": 36,
+                "palabra": "Tame"
+              }
+            ],
+            "cartela": {
+              "titulo": "Tame, mediados de junio",
+              "sub": "Dos ejércitos se juntan",
+              "palabra": "Tame"
+            }
+          }
+        },
+        "c2-unidos": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "Un solo ejército",
+            "fichas": [
+              {
+                "texto": "Soldados venezolanos",
+                "dibujo": "bandera",
+                "palabra": "soldados"
+              },
+              {
+                "texto": "Soldados neogranadinos",
+                "dibujo": "bandera",
+                "palabra": "venezolanos"
+              }
+            ]
+          }
+        },
+        "c2-pisba-ruta": {
+          "plantilla": "mapa",
+          "datos": {
+            "vistas": [
+              {
+                "centro": [
+                  -72.2,
+                  6
+                ],
+                "ancho": 6
+              }
+            ],
+            "paises": [
+              {
+                "id": "colombia",
+                "color": "acento2",
+                "opacidad": 0.25,
+                "en": 0
+              }
+            ],
+            "montes": {
+              "puntos": [
+                [
+                  -72.35,
+                  5.95
+                ],
+                [
+                  -72.5,
+                  5.8
+                ],
+                [
+                  -72.6,
+                  5.62
+                ]
+              ],
+              "en": 0.1
+            },
+            "rutas": [
+              {
+                "puntos": [
+                  [
+                    -71.73,
+                    6.46
+                  ],
+                  [
+                    -72.16,
+                    5.83
+                  ],
+                  [
+                    -72.49,
+                    5.72
+                  ],
+                  [
+                    -72.69,
+                    5.99
+                  ]
+                ],
+                "estilo": "flecha",
+                "color": "acento",
+                "grosor": 8,
+                "palabra": "subir",
+                "dur": 2.4
+              }
+            ],
+            "marcas": [
+              {
+                "texto": "Tame",
+                "lugar": [
+                  -71.73,
+                  6.46
+                ],
+                "lado": "derecha",
+                "tam": 34,
+                "en": 0.1
+              }
+            ],
+            "rotulos": [
+              {
+                "texto": "Páramo de Pisba",
+                "lugar": [
+                  -72.8,
+                  5.45
+                ],
+                "estilo": "titulo",
+                "tam": 32,
+                "palabra": "decid"
+              }
+            ],
+            "cartela": {
+              "titulo": "La ruta de Pisba",
+              "sub": "De Tame al corazón de la Nueva Granada",
+              "en": 0.1
+            }
+          }
+        },
+        "c2-paso": {
+          "plantilla": "recorte",
+          "datos": {
+            "foto": "File:Paso del Libertador por el páramo de Pisba.JPG",
+            "pie": "Pintura del paso por Pisba (foto de 2012)",
+            "insignia": "Paso de alta montaña",
+            "titulo": "Alta montaña",
+            "texto": "Niebla, viento y frío",
+            "lado": "izquierda",
+            "palabras": {
+              "titulo": "alta",
+              "texto": "monta"
+            }
+          }
+        },
+        "c2-julio": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "La travesía",
+            "lineas": [
+              "Julio:",
+              "el mes con",
+              "más invierno"
+            ],
+            "resalta": 2,
+            "dibujo": "lluvia",
+            "palabra_dibujo": "invierno"
+          }
+        }
+      },
+      "frases": [
+        {
+          "id": "f12",
+          "escena": "c2-setenta",
+          "texto": "El 23 de mayo de 1819, en la aldea de Los Setenta, Bolívar expuso el plan de la campaña ante los jefes del ejército patriota. Era un plan tan arriesgado como sencillo.",
+          "cortes": [
+            {
+              "escena": "c2-plan",
+              "palabra": 14
+            },
+            {
+              "escena": "c2-sencillo",
+              "palabra": 25
+            }
+          ]
+        },
+        {
+          "id": "f13",
+          "escena": "c2-ruta",
+          "texto": "El plan era cruzar la cordillera y sorprender a los españoles en el centro de la Nueva Granada. Para lograrlo contaba con Francisco de Paula Santander, que había reunido en Casanare tropas de llaneros y boyacenses.",
+          "cortes": [
+            {
+              "escena": "c2-santander",
+              "palabra": 18
+            }
+          ]
+        },
+        {
+          "id": "f14",
+          "escena": "c2-tame",
+          "texto": "A mediados de junio, en Tame, los dos ejércitos se juntaron y formaron uno solo, con soldados venezolanos y neogranadinos.",
+          "cortes": [
+            {
+              "escena": "c2-unidos",
+              "palabra": 13
+            }
+          ]
+        },
+        {
+          "id": "f15",
+          "escena": "c2-pisba-ruta",
+          "texto": "En Tame se decidió por dónde subir a la cordillera: por el páramo de Pisba. Era un paso de alta montaña, y la travesía caería justo en julio, el mes de más invierno en esa región.",
+          "cortes": [
+            {
+              "escena": "c2-paso",
+              "palabra": 15
+            },
+            {
+              "escena": "c2-julio",
+              "palabra": 25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "titulo": "El páramo",
+      "escenas": {
+        "c3-fechas": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "Julio de 1819",
+            "lineas": [
+              "El páramo de Pisba",
+              "1 al 7 de julio"
+            ],
+            "todo_al_inicio": true,
+            "resalta": 1,
+            "dibujo": "montana",
+            "palabra_dibujo": "atraves"
+          }
+        },
+        "c3-altura": {
+          "plantilla": "cifra",
+          "datos": {
+            "cifra": "4.000",
+            "antes": "casi",
+            "unidad": "metros",
+            "rotulo": "sobre el nivel del mar",
+            "dibujo": "montana",
+            "palabra": "casi",
+            "palabra_rotulo": "metros"
+          }
+        },
+        "c3-soldado": {
+          "plantilla": "personaje",
+          "datos": {
+            "personaje": "soldado",
+            "anios": "Casanare",
+            "rol": "Camiseta, pantalón y sandalias",
+            "palabra_anios": "Casanare",
+            "palabra_rol": "camiseta"
+          }
+        },
+        "c3-clima": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "Lo que encontraron",
+            "fichas": [
+              {
+                "texto": "Niebla y vientos helados",
+                "dibujo": "montana",
+                "palabra": "niebla"
+              },
+              {
+                "texto": "Granizo",
+                "dibujo": "lluvia",
+                "palabra": "granizo",
+                "resalta": true
+              }
+            ]
+          }
+        },
+        "c3-contraste": {
+          "plantilla": "dos-personajes",
+          "datos": {
+            "izquierda": {
+              "personaje": "llanero",
+              "nombre": "Criados en los llanos",
+              "rol": "Tierra caliente"
+            },
+            "derecha": {
+              "personaje": "soldado",
+              "nombre": "Subiendo a Pisba",
+              "rol": "Casi 4.000 metros"
+            }
+          }
+        },
+        "c3-ropa": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "Subiendo",
+            "lineas": [
+              "Con ropa de",
+              "tierra baja"
+            ],
+            "resalta": 1,
+            "dibujo": "montana",
+            "palabra_dibujo": "cuatro"
+          }
+        },
+        "c3-rios": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "El camino",
+            "fichas": [
+              {
+                "texto": "Ríos crecidos",
+                "dibujo": "lluvia",
+                "palabra": "crecidos"
+              },
+              {
+                "texto": "Terreno pantanoso",
+                "dibujo": "derrumbe",
+                "palabra": "pantano"
+              }
+            ]
+          }
+        },
+        "c3-santander": {
+          "plantilla": "personaje",
+          "datos": {
+            "personaje": "santander",
+            "anios": "Julio, 1819",
+            "rol": "La caballería y el ganado murieron",
+            "palabra_anios": "Seg",
+            "palabra_rol": "caballer"
+          }
+        },
+        "c3-desertores": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "Antes de la subida",
+            "lineas": [
+              "Algunos",
+              "desertaron"
+            ],
+            "resalta": 1,
+            "dibujo": "bandera"
+          }
+        },
+        "c3-liviano": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "Para ir más rápido",
+            "fichas": [
+              {
+                "texto": "Avanzar más rápido",
+                "dibujo": "reloj",
+                "palabra": "avanzar"
+              },
+              {
+                "texto": "Sin fusiles ni municiones",
+                "dibujo": "canon",
+                "tachar": true,
+                "palabra": "fusiles",
+                "resalta": true
+              }
+            ]
+          }
+        },
+        "c3-socha": {
+          "plantilla": "mapa",
+          "datos": {
+            "vistas": [
+              {
+                "centro": [
+                  -72.5,
+                  5.9
+                ],
+                "ancho": 5
+              }
+            ],
+            "paises": [
+              {
+                "id": "colombia",
+                "color": "acento2",
+                "opacidad": 0.25,
+                "en": 0
+              }
+            ],
+            "rutas": [
+              {
+                "puntos": [
+                  [
+                    -72.49,
+                    5.72
+                  ],
+                  [
+                    -72.69,
+                    5.99
+                  ]
+                ],
+                "estilo": "flecha",
+                "color": "acento",
+                "grosor": 8,
+                "palabra": "bajar",
+                "dur": 1.3
+              }
+            ],
+            "marcas": [
+              {
+                "texto": "Socha",
+                "lugar": [
+                  -72.69,
+                  5.99
+                ],
+                "lado": "derecha",
+                "tam": 36,
+                "palabra": "Socha"
+              }
+            ],
+            "cartela": {
+              "titulo": "Socha, julio de 1819",
+              "sub": "Al bajar del páramo",
+              "en": 0.1
+            }
+          }
+        },
+        "c3-socorro": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "En Socha",
+            "fichas": [
+              {
+                "texto": "Una armería improvisada",
+                "dibujo": "canon",
+                "palabra": "armer"
+              },
+              {
+                "texto": "Un hospital de campaña",
+                "dibujo": "cruz",
+                "palabra": "hospital"
+              }
+            ]
+          }
+        },
+        "c3-agotados": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "Al llegar",
+            "lineas": [
+              "Agotados y",
+              "sin casi caballos"
+            ],
+            "todo_al_inicio": true,
+            "resalta": 1,
+            "dibujo": "reloj"
+          }
+        },
+        "c3-proeza": {
+          "plantilla": "recorte",
+          "datos": {
+            "foto": "File:Los Picachos.jpg",
+            "pie": "Laguna en el Parque Pisba (foto de 2008)",
+            "insignia": "Campaña Libertadora",
+            "titulo": "Una gran proeza",
+            "texto": "La travesía de Pisba, 1819",
+            "lado": "derecha",
+            "palabras": {
+              "titulo": "Hoy",
+              "texto": "recuerda"
+            }
+          }
+        },
+        "c3-esperaba": {
+          "plantilla": "mapa",
+          "datos": {
+            "vistas": [
+              {
+                "centro": [
+                  -72.6,
+                  5.8
+                ],
+                "ancho": 5
+              },
+              {
+                "centro": [
+                  -73.2,
+                  5.6
+                ],
+                "ancho": 5,
+                "palabra": "Pero",
+                "dur": 1.5
+              }
+            ],
+            "paises": [
+              {
+                "id": "colombia",
+                "color": "acento2",
+                "opacidad": 0.25,
+                "en": 0
+              }
+            ],
+            "rutas": [
+              {
+                "puntos": [
+                  [
+                    -72.49,
+                    5.72
+                  ],
+                  [
+                    -72.69,
+                    5.99
+                  ],
+                  [
+                    -73.1,
+                    5.8
+                  ]
+                ],
+                "estilo": "flecha",
+                "color": "acento",
+                "grosor": 8,
+                "palabra": "cruz",
+                "dur": 1.6
+              }
+            ],
+            "marcas": [
+              {
+                "texto": "Tunja",
+                "lugar": [
+                  -73.37,
+                  5.53
+                ],
+                "lado": "abajo",
+                "tam": 34,
+                "palabra": "Pero"
+              }
+            ],
+            "banderas": [
+              {
+                "pais": "espana",
+                "lugar": [
+                  -73.4,
+                  5.75
+                ],
+                "tam": 90,
+                "palabra": "esperaba"
+              }
+            ],
+            "rotulos": [
+              {
+                "texto": "Ejército español",
+                "lugar": [
+                  -73.7,
+                  5.2
+                ],
+                "estilo": "titulo",
+                "tam": 32,
+                "palabra": "esperaba"
+              }
+            ],
+            "cartela": {
+              "titulo": "Del otro lado",
+              "sub": "Un ejército listo para pelear",
+              "palabra": "Pero"
+            }
+          }
+        }
+      },
+      "frases": [
+        {
+          "id": "f16",
+          "escena": "c3-fechas",
+          "texto": "Entre el 1 y el 7 de julio de 1819, el ejército atravesó el páramo de Pisba, que en su parte más alta llega a casi cuatro mil metros sobre el nivel del mar.",
+          "cortes": [
+            {
+              "escena": "c3-altura",
+              "palabra": 17
+            }
+          ]
+        },
+        {
+          "id": "f17",
+          "escena": "c3-soldado",
+          "texto": "Los soldados venían de las tierras calientes de Casanare. Muchos subieron con una camiseta, un pantalón y sandalias, entre niebla, vientos helados y granizo.",
+          "cortes": [
+            {
+              "escena": "c3-clima",
+              "palabra": 18
+            }
+          ]
+        },
+        {
+          "id": "f18",
+          "escena": "c3-contraste",
+          "texto": "Piensa en lo que eso significa: soldados criados en el calor de los llanos, subiendo hacia casi cuatro mil metros con la ropa de la tierra baja.",
+          "cortes": [
+            {
+              "escena": "c3-ropa",
+              "palabra": 14
+            }
+          ]
+        },
+        {
+          "id": "f19",
+          "escena": "c3-rios",
+          "texto": "Los ríos estaban crecidos y el terreno era un pantano. Según el propio Santander, la caballería y el ganado de la vanguardia murieron en el camino.",
+          "cortes": [
+            {
+              "escena": "c3-santander",
+              "palabra": 10
+            }
+          ]
+        },
+        {
+          "id": "f20",
+          "escena": "c3-desertores",
+          "texto": "Algunos hombres desertaron antes de empezar la subida. Y para avanzar más rápido, el ejército dejó atrás fusiles y municiones.",
+          "cortes": [
+            {
+              "escena": "c3-liviano",
+              "palabra": 8
+            }
+          ]
+        },
+        {
+          "id": "f21",
+          "escena": "c3-socha",
+          "texto": "Al bajar, en Socha, los habitantes les dieron ropa. Se improvisó una armería y un hospital de campaña, porque el ejército llegó agotado y sin casi caballos.",
+          "cortes": [
+            {
+              "escena": "c3-socorro",
+              "palabra": 9
+            },
+            {
+              "escena": "c3-agotados",
+              "palabra": 18
+            }
+          ]
+        },
+        {
+          "id": "f22",
+          "escena": "c3-proeza",
+          "texto": "Hoy esa travesía se recuerda como una de las grandes proezas de la Campaña Libertadora."
+        },
+        {
+          "id": "f23",
+          "escena": "c3-esperaba",
+          "texto": "Habían cruzado la cordillera. Pero del otro lado los esperaba un ejército español, listo para pelear."
+        }
+      ]
+    },
+    {
+      "id": "c4",
+      "titulo": "Dos batallas, ninguna decisiva",
+      "escenas": {
+        "c4-gameza": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "Primer choque",
+            "lineas": [
+              "Gámeza,",
+              "11 de julio"
+            ],
+            "resalta": 1,
+            "calendario": {
+              "arriba": "Julio",
+              "numero": "11",
+              "abajo": "1819",
+              "lado": "derecha",
+              "palabra": "11"
+            }
+          }
+        },
+        "c4-tiempo": {
+          "plantilla": "linea-tiempo",
+          "datos": {
+            "titulo": "Julio de 1819",
+            "actual": 2,
+            "palabra_actual": "Pantano",
+            "hitos": [
+              {
+                "anio": "1-7 jul",
+                "texto": "Cruzan el páramo de Pisba"
+              },
+              {
+                "anio": "11 jul",
+                "texto": "Gámeza: importantes bajas en los dos ejércitos"
+              },
+              {
+                "anio": "25 jul",
+                "texto": "Pantano de Vargas",
+                "palabra": "25"
+              }
+            ]
+          }
+        },
+        "c4-dias": {
+          "plantilla": "cifra",
+          "datos": {
+            "valor": 18,
+            "unidad": "días",
+            "rotulo": "después de bajar del páramo",
+            "dibujo": "calendario",
+            "palabra": "dieciocho",
+            "palabra_rotulo": "despu"
+          }
+        },
+        "c4-agotados": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "Patriotas al límite",
+            "fichas": [
+              {
+                "texto": "Agotados",
+                "dibujo": "montana",
+                "palabra": "agotados"
+              },
+              {
+                "texto": "Mal vestidos",
+                "dibujo": "lluvia",
+                "palabra": "mal"
+              },
+              {
+                "texto": "Menos numerosos",
+                "dibujo": "balanza",
+                "palabra": "menos",
+                "resalta": true
+              }
+            ]
+          }
+        },
+        "c4-cinco": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "La batalla parecía perdida",
+            "lineas": [
+              "Las cinco",
+              "de la tarde"
+            ],
+            "resalta": 1,
+            "dibujo": "reloj",
+            "palabra_dibujo": "cinco"
+          }
+        },
+        "c4-rondon": {
+          "plantilla": "personaje",
+          "datos": {
+            "personaje": "rondon",
+            "pose": "senalar",
+            "anios": "Vargas, 1819",
+            "rol": "Coronel venezolano, jefe de lanceros",
+            "palabra_rol": "venezolano",
+            "nombre": "Juan José Rondón"
+          }
+        },
+        "c4-carga": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "Pantano de Vargas",
+            "lineas": [
+              "Una carga",
+              "cuesta arriba"
+            ],
+            "resalta": 1,
+            "dibujo": "montana",
+            "palabra_dibujo": "cuesta"
+          }
+        },
+        "c4-catorce": {
+          "plantilla": "cifra",
+          "datos": {
+            "valor": 14,
+            "unidad": "jinetes",
+            "rotulo": "oyeron la primera orden",
+            "palabra": "catorce",
+            "palabra_rotulo": "oyeron"
+          }
+        },
+        "c4-ajustada": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "Se suele considerar",
+            "lineas": [
+              "Victoria patriota,",
+              "pero ajustada"
+            ],
+            "resalta": 1,
+            "dibujo": "balanza",
+            "palabra_dibujo": "ajustada"
+          }
+        },
+        "c4-faltaba": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "Lo que faltó",
+            "fichas": [
+              {
+                "texto": "Realistas sin destruir",
+                "dibujo": "canon",
+                "palabra": "destruy"
+              },
+              {
+                "texto": "La guerra seguía abierta",
+                "dibujo": "bandera",
+                "palabra": "guerra",
+                "resalta": true
+              }
+            ]
+          }
+        }
+      },
+      "frases": [
+        {
+          "id": "f24",
+          "escena": "c4-gameza",
+          "texto": "El 11 de julio hubo un primer choque en Gámeza, que dejó importantes bajas en los dos ejércitos. Y el 25 de julio llegó el Pantano de Vargas.",
+          "cortes": [
+            {
+              "escena": "c4-tiempo",
+              "palabra": 13
+            }
+          ]
+        },
+        {
+          "id": "f25",
+          "escena": "c4-dias",
+          "texto": "Apenas dieciocho días después de bajar del páramo, esos mismos soldados tenían que pelear una batalla."
+        },
+        {
+          "id": "f26",
+          "escena": "c4-agotados",
+          "texto": "Allí los patriotas, agotados, mal vestidos y menos numerosos, estuvieron cerca de perderlo todo. Hacia las cinco de la tarde, la batalla parecía perdida.",
+          "cortes": [
+            {
+              "escena": "c4-cinco",
+              "palabra": 14
+            }
+          ]
+        },
+        {
+          "id": "f27",
+          "escena": "c4-agotados",
+          "texto": "Entonces el coronel venezolano Juan José Rondón lanzó a sus lanceros llaneros en una carga cuesta arriba. Se cuenta que, al principio, solo catorce jinetes oyeron la orden.",
+          "cortes": [
+            {
+              "escena": "c4-rondon",
+              "palabra": 2
+            },
+            {
+              "escena": "c4-carga",
+              "palabra": 12
+            },
+            {
+              "escena": "c4-catorce",
+              "palabra": 22
+            }
+          ]
+        },
+        {
+          "id": "f28",
+          "escena": "c4-agotados",
+          "texto": "La carga rompió la línea española. Se suele considerar una victoria patriota, pero ajustada: no destruyó al ejército realista, y la guerra por Santafé seguía abierta.",
+          "cortes": [
+            {
+              "escena": "c4-ajustada",
+              "palabra": 6
+            },
+            {
+              "escena": "c4-faltaba",
+              "palabra": 14
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "titulo": "La carrera al puente",
+      "escenas": {
+        "c5-maniobras": {
+          "plantilla": "mapa",
+          "datos": {
+            "vistas": [
+              {
+                "centro": [
+                  -73.6,
+                  5.1
+                ],
+                "ancho": 2.8
+              }
+            ],
+            "paises": [
+              {
+                "id": "colombia",
+                "color": "acento2",
+                "opacidad": 0.22,
+                "en": 0
+              }
+            ],
+            "rutas": [
+              {
+                "puntos": [
+                  [
+                    -73.11,
+                    5.78
+                  ],
+                  [
+                    -73.36,
+                    5.53
+                  ],
+                  [
+                    -73.44,
+                    5.45
+                  ],
+                  [
+                    -73.52,
+                    5.37
+                  ],
+                  [
+                    -74.08,
+                    4.71
+                  ]
+                ],
+                "estilo": "discontinua",
+                "color": "acento",
+                "grosor": 7,
+                "palabra": "maniobras",
+                "dur": 2.4
+              }
+            ],
+            "marcas": [
+              {
+                "texto": "Pantano de Vargas",
+                "lugar": [
+                  -73.11,
+                  5.78
+                ],
+                "lado": "derecha",
+                "tam": 34,
+                "en": 0.05
+              },
+              {
+                "texto": "Tunja",
+                "lugar": [
+                  -73.36,
+                  5.53
+                ],
+                "lado": "derecha",
+                "tam": 38,
+                "en": 0.05
+              },
+              {
+                "texto": "Santafé",
+                "lugar": "bogota",
+                "lado": "derecha",
+                "tam": 38,
+                "en": 0.05
+              }
+            ],
+            "cartela": {
+              "titulo": "Boyacá, 1819",
+              "sub": "Dos ejércitos, un camino",
+              "palabra": "maniobras"
+            }
+          }
+        },
+        "c5-agosto": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "En el camino hacia Santafé",
+            "lineas": [
+              "Bolívar ocupa",
+              "Tunja"
+            ],
+            "resalta": 1,
+            "calendario": {
+              "arriba": "Agosto",
+              "numero": "5",
+              "abajo": "1819",
+              "lado": "derecha",
+              "palabra": "5"
+            }
+          }
+        },
+        "c5-barreiro": {
+          "plantilla": "personaje",
+          "datos": {
+            "personaje": "barreiro",
+            "pose": "neutral",
+            "anios": "Boyacá, 1819",
+            "rol": "Jefe del ejército español",
+            "palabra_rol": "mando",
+            "nombre": "José María Barreiro"
+          }
+        },
+        "c5-puente": {
+          "plantilla": "recorte",
+          "datos": {
+            "foto": "File:Plano topográfico del campo en que tuvo lugar la Batalla de Boyacá -7 de agosto de 1819-.jpg",
+            "pie": "Plano del campo de batalla (siglo XIX)",
+            "lado": "derecha",
+            "insignia": "7 de agosto de 1819",
+            "titulo": "Rumbo al puente de Boyacá",
+            "texto": "El camino a Santafé cruza el río Teatinos",
+            "palabras": {
+              "titulo": "ma",
+              "texto": "salieron"
+            }
+          }
+        },
+        "c5-opciones": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "Todo dependía del puente",
+            "fichas": [
+              {
+                "texto": "Cruzan: Santafé libre",
+                "dibujo": "bandera",
+                "palabra": "cruzaban"
+              },
+              {
+                "texto": "No cruzan: cortados",
+                "dibujo": "cruz",
+                "palabra": "no",
+                "resalta": true
+              }
+            ]
+          }
+        },
+        "c5-bolivar": {
+          "plantilla": "personaje",
+          "datos": {
+            "personaje": "bolivar",
+            "pose": "senalar",
+            "anios": "7 ago. 1819",
+            "rol": "Los vio desde el alto de San Lázaro",
+            "palabra_rol": "desde",
+            "nombre": "Simón Bolívar"
+          }
+        },
+        "c5-iguales": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "Según las cifras más citadas",
+            "lineas": [
+              "Casi del",
+              "mismo tamaño"
+            ],
+            "resalta": 1,
+            "dibujo": "balanza",
+            "palabra_dibujo": "casi"
+          }
+        },
+        "c5-cifras": {
+          "plantilla": "cifra",
+          "datos": {
+            "titulo": "Los dos ejércitos, 7 de agosto",
+            "cifras": [
+              {
+                "valor": 2850,
+                "unidad": "hombres",
+                "rotulo": "Patriotas",
+                "palabra": "2.850"
+              },
+              {
+                "valor": 2670,
+                "unidad": "hombres",
+                "rotulo": "Realistas",
+                "palabra": "2.670"
+              }
+            ]
+          }
+        }
+      },
+      "frases": [
+        {
+          "id": "f29",
+          "escena": "c5-maniobras",
+          "texto": "Siguieron días de maniobras por Boyacá, con los dos ejércitos buscando cortarse el camino. El 5 de agosto, Bolívar ocupó Tunja, que quedaba en el camino hacia Santafé.",
+          "cortes": [
+            {
+              "escena": "c5-agosto",
+              "palabra": 14
+            }
+          ]
+        },
+        {
+          "id": "f30",
+          "escena": "c5-barreiro",
+          "texto": "Los españoles, al mando de José María Barreiro, querían llegar a la capital antes que él. En la mañana del 7 de agosto salieron por el camino que cruza el puente de Boyacá.",
+          "cortes": [
+            {
+              "escena": "c5-puente",
+              "palabra": 16
+            }
+          ]
+        },
+        {
+          "id": "f31",
+          "escena": "c5-opciones",
+          "texto": "Si los españoles cruzaban el puente, tenían el camino a Santafé libre. Si no, quedaban cortados de la capital."
+        },
+        {
+          "id": "f32",
+          "escena": "c5-bolivar",
+          "texto": "Bolívar los vio desde el alto de San Lázaro y dio la orden: impedirles el paso por el puente."
+        },
+        {
+          "id": "f33",
+          "escena": "c5-iguales",
+          "texto": "Según las cifras más citadas, los dos ejércitos eran casi del mismo tamaño: unos 2.850 patriotas contra unos 2.670 realistas.",
+          "cortes": [
+            {
+              "escena": "c5-cifras",
+              "palabra": 13
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c6",
+      "titulo": "Dos horas",
+      "escenas": {
+        "c6-dos": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "7 de agosto de 1819",
+            "lineas": [
+              "Las dos",
+              "de la tarde"
+            ],
+            "resalta": 1,
+            "calendario": {
+              "arriba": "Agosto",
+              "numero": "7",
+              "abajo": "1819",
+              "lado": "derecha",
+              "palabra": "dos"
+            }
+          }
+        },
+        "c6-vanguardia": {
+          "plantilla": "dos-personajes",
+          "datos": {
+            "izquierda": {
+              "personaje": "santander",
+              "rol": "Vanguardia patriota",
+              "pose": "senalar",
+              "expresion": "serio"
+            },
+            "derecha": {
+              "personaje": "soldado_espanol",
+              "rol": "Vanguardia realista, almorzando",
+              "expresion": "sorprendido"
+            }
+          }
+        },
+        "c6-santander": {
+          "plantilla": "personaje",
+          "datos": {
+            "personaje": "santander",
+            "nombre": "F. de P. Santander",
+            "pose": "senalar",
+            "anios": "7 ago. 1819",
+            "rol": "Inicia el combate y empuja hasta el puente",
+            "palabra_rol": "combate"
+          }
+        },
+        "c6-retaguardia": {
+          "plantilla": "tablero",
+          "datos": {
+            "personajes": [
+              {
+                "personaje": "barreiro",
+                "nombre": "José María Barreiro",
+                "rol": "Jefe del ejército español"
+              },
+              {
+                "personaje": "anzoategui",
+                "nombre": "José Antonio Anzoátegui",
+                "corto": "J. A. Anzoátegui",
+                "rol": "Jefe de la retaguardia"
+              }
+            ],
+            "titulo": "El choque en la planicie",
+            "palabras": {
+              "personajes": "choc",
+              "hilos": "Anzo",
+              "titulo": "retaguardia"
+            }
+          }
+        },
+        "c6-tres": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "Hacia las tres de la tarde",
+            "lineas": [
+              "Las tres:",
+              "dos combates"
+            ],
+            "resalta": 1,
+            "dibujo": "reloj",
+            "palabra_dibujo": "tres"
+          }
+        },
+        "c6-guias": {
+          "plantilla": "personaje",
+          "datos": {
+            "personaje": "llanero",
+            "nombre": "Guías de Casanare",
+            "pose": "senalar",
+            "anios": "7 ago. 1819",
+            "rol": "Cruzan el río y atacan por la espalda",
+            "palabra_rol": "cruzar"
+          }
+        },
+        "c6-puente": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "Rondón, otra vez",
+            "lineas": [
+              "Toman el puente",
+              "y rompen el centro"
+            ],
+            "resalta": 1,
+            "dibujo": "bandera",
+            "palabra_dibujo": "tomaron"
+          }
+        },
+        "c6-rinden": {
+          "plantilla": "recorte",
+          "datos": {
+            "foto": "File:Batalla de Boyaca de Martin Tovar y Tovar.jpg",
+            "pie": "«Batalla de Boyacá», óleo de Tovar y Tovar (1890)",
+            "lado": "izquierda",
+            "insignia": "Las cuatro de la tarde",
+            "titulo": "Los españoles se rinden",
+            "texto": "Cerca de 1.600 prisioneros",
+            "palabras": {
+              "titulo": "espa",
+              "texto": "Cerca"
+            }
+          }
+        },
+        "c6-variacion": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "Según la fuente",
+            "lineas": [
+              "Las cifras varían,",
+              "la proporción no"
+            ],
+            "resalta": 1,
+            "dibujo": "balanza",
+            "palabra_dibujo": "proporci"
+          }
+        },
+        "c6-muertos": {
+          "plantilla": "cifra",
+          "datos": {
+            "titulo": "Muertos en la batalla, sin heridos",
+            "cifras": [
+              {
+                "valor": 13,
+                "unidad": "muertos",
+                "rotulo": "Patriotas",
+                "palabra": "trece"
+              },
+              {
+                "valor": 100,
+                "unidad": "muertos",
+                "rotulo": "Realistas (más de)",
+                "palabra": "cien",
+                "resalta": true
+              }
+            ]
+          }
+        },
+        "c6-encajo": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "En dos horas, todo encajó",
+            "fichas": [
+              {
+                "texto": "Vanguardia: sorprende",
+                "dibujo": "bandera",
+                "palabra": "vanguardia"
+              },
+              {
+                "texto": "Retaguardia: resiste",
+                "dibujo": "montana",
+                "palabra": "retaguardia"
+              },
+              {
+                "texto": "Guías: cruzan el río",
+                "dibujo": "barco",
+                "palabra": "cruzan"
+              },
+              {
+                "texto": "Lanceros: rompen el centro",
+                "dibujo": "canon",
+                "palabra": "lanceros",
+                "resalta": true
+              }
+            ]
+          }
+        },
+        "c6-final": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "Boyacá, 7 de agosto",
+            "lineas": [
+              "En dos horas,",
+              "todo encajó"
+            ],
+            "resalta": 1,
+            "todo_al_inicio": true
+          }
+        }
+      },
+      "frases": [
+        {
+          "id": "f34",
+          "escena": "c6-dos",
+          "texto": "Hacia las dos de la tarde, la descubierta patriota llegó a la casa de Teja y sorprendió a la vanguardia española, que estaba almorzando. Santander inició el combate y la empujó hasta el puente.",
+          "cortes": [
+            {
+              "escena": "c6-vanguardia",
+              "palabra": 16
+            },
+            {
+              "escena": "c6-santander",
+              "palabra": 26
+            }
+          ]
+        },
+        {
+          "id": "f35",
+          "escena": "c6-dos",
+          "texto": "Mientras tanto, el grueso del ejército de Barreiro llegó por otro camino y chocó con la retaguardia patriota, que mandaba José Antonio Anzoátegui.",
+          "cortes": [
+            {
+              "escena": "c6-retaguardia",
+              "palabra": 8
+            }
+          ]
+        },
+        {
+          "id": "f36",
+          "escena": "c6-tres",
+          "texto": "Hacia las tres había dos combates a la vez: uno junto al puente y otro en la planicie."
+        },
+        {
+          "id": "f37",
+          "escena": "c6-guias",
+          "texto": "Entonces Santander mandó a los guías de Casanare a cruzar el río por otro punto y atacar a los españoles por la espalda."
+        },
+        {
+          "id": "f38",
+          "escena": "c6-puente",
+          "texto": "Al mismo tiempo, los patriotas tomaron el puente y Rondón, otra vez, rompió el centro enemigo con sus lanceros."
+        },
+        {
+          "id": "f39",
+          "escena": "c6-rinden",
+          "texto": "Hacia las cuatro de la tarde, los españoles se rindieron. Cerca de mil seiscientos soldados quedaron prisioneros."
+        },
+        {
+          "id": "f40",
+          "escena": "c6-variacion",
+          "texto": "Las cifras varían según la fuente, pero la proporción es clara: trece patriotas muertos contra más de cien españoles, sin contar los heridos.",
+          "cortes": [
+            {
+              "escena": "c6-muertos",
+              "palabra": 11
+            }
+          ]
+        },
+        {
+          "id": "f41",
+          "escena": "c6-encajo",
+          "texto": "Una vanguardia que sorprende, una retaguardia que resiste, unos guías que cruzan el río y unos lanceros que rompen el centro: en dos horas, todo encajó.",
+          "cortes": [
+            {
+              "escena": "c6-final",
+              "palabra": 21
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c7",
+      "titulo": "Lo que pasó después",
+      "escenas": {
+        "c7-boletin": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "Quién capturó a Barreiro",
+            "lineas": [
+              "Según el",
+              "boletín"
+            ],
+            "resalta": 1,
+            "dibujo": "documento",
+            "palabra_dibujo": "bolet"
+          }
+        },
+        "c7-prisionero": {
+          "plantilla": "dos-personajes",
+          "datos": {
+            "izquierda": {
+              "personaje": "soldado",
+              "nombre": "Soldado Pedro Martínez",
+              "rol": "Según el boletín de la batalla",
+              "expresion": "serio"
+            },
+            "derecha": {
+              "personaje": "barreiro",
+              "nombre": "José María Barreiro",
+              "rol": "Jefe del ejército español",
+              "pose": "neutral",
+              "expresion": "serio"
+            }
+          }
+        },
+        "c7-noticia": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "Santafé, agosto de 1819",
+            "lineas": [
+              "Llega la noticia",
+              "de la derrota"
+            ],
+            "resalta": 1,
+            "calendario": {
+              "arriba": "Agosto",
+              "numero": "8",
+              "abajo": "1819",
+              "lado": "derecha",
+              "palabra": "8"
+            }
+          }
+        },
+        "c7-samano": {
+          "plantilla": "personaje",
+          "datos": {
+            "personaje": "samano",
+            "nombre": "Juan de Sámano",
+            "pose": "neutral",
+            "anios": "9 ago. 1819",
+            "rol": "Huyó disfrazado; dejó dinero en la tesorería",
+            "palabra_rol": "disfrazado"
+          }
+        },
+        "c7-entrada": {
+          "plantilla": "recorte",
+          "datos": {
+            "foto": "File:Simón Bolívar, 1825.jpg",
+            "pie": "Bolívar, por José Gil de Castro (1825)",
+            "lado": "izquierda",
+            "insignia": "10 de agosto de 1819",
+            "titulo": "Bolívar entra a Santafé",
+            "texto": "Entre multitudes que celebraban",
+            "palabras": {
+              "titulo": "Bol",
+              "texto": "multitudes"
+            }
+          }
+        },
+        "c7-santander": {
+          "plantilla": "personaje",
+          "datos": {
+            "personaje": "santander",
+            "nombre": "F. de P. Santander",
+            "pose": "neutral",
+            "anios": "1819",
+            "rol": "Al frente del gobierno de la Nueva Granada"
+          }
+        },
+        "c7-octubre": {
+          "plantilla": "tablero",
+          "datos": {
+            "personajes": [
+              {
+                "personaje": "santander",
+                "nombre": "Francisco de Paula Santander",
+                "corto": "F. de P. Santander",
+                "rol": "Ordena fusilar"
+              },
+              {
+                "personaje": "barreiro",
+                "nombre": "José María Barreiro",
+                "rol": "Fusilado el 11 de octubre"
+              }
+            ],
+            "titulo": "11 de octubre de 1819",
+            "palabras": {
+              "personajes": "octubre",
+              "hilos": "orden",
+              "titulo": "octubre"
+            }
+          }
+        },
+        "c7-diciembre": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "Angostura, 1819",
+            "lineas": [
+              "Congreso de",
+              "Angostura"
+            ],
+            "resalta": 1,
+            "calendario": {
+              "arriba": "Diciembre",
+              "numero": "17",
+              "abajo": "1819",
+              "lado": "derecha",
+              "palabra": "17"
+            }
+          }
+        },
+        "c7-union": {
+          "plantilla": "mapa",
+          "datos": {
+            "vistas": [
+              {
+                "centro": [
+                  -69,
+                  6
+                ],
+                "ancho": 30
+              }
+            ],
+            "paises": [
+              {
+                "id": "venezuela",
+                "color": "acento2",
+                "opacidad": 0.5,
+                "palabra": "Venezuela"
+              },
+              {
+                "id": "colombia",
+                "color": "acento",
+                "opacidad": 0.45,
+                "palabra": "Nueva"
+              }
+            ],
+            "marcas": [
+              {
+                "texto": "Angostura",
+                "lugar": [
+                  -63.55,
+                  8.15
+                ],
+                "lado": "derecha",
+                "tam": 38,
+                "en": 0.05
+              },
+              {
+                "texto": "Caracas",
+                "lugar": "caracas",
+                "lado": "arriba",
+                "tam": 34,
+                "palabra": "Venezuela"
+              },
+              {
+                "texto": "Santafé",
+                "lugar": "bogota",
+                "lado": "izquierda",
+                "tam": 34,
+                "palabra": "Nueva"
+              }
+            ],
+            "cartela": {
+              "titulo": "Una sola república",
+              "sub": "Venezuela y la Nueva Granada"
+            }
+          }
+        },
+        "c7-colombia": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "Hoy: la Gran Colombia",
+            "lineas": [
+              "República",
+              "de Colombia"
+            ],
+            "resalta": 1,
+            "dibujo": "bandera",
+            "palabra_dibujo": "Gran"
+          }
+        },
+        "c7-nueve": {
+          "plantilla": "linea-tiempo",
+          "datos": {
+            "titulo": "Nueve años",
+            "actual": 2,
+            "palabra_actual": "pasado",
+            "hitos": [
+              {
+                "anio": "1810",
+                "texto": "20 de julio: la junta de Santafé",
+                "palabra": "julio"
+              },
+              {
+                "anio": "1816",
+                "texto": "Fusilan a Torres y Caldas",
+                "palabra": "fusilamientos"
+              },
+              {
+                "anio": "1819",
+                "texto": "Boyacá y la República de Colombia",
+                "palabra": "Hab"
+              }
+            ]
+          }
+        },
+        "c7-horas": {
+          "plantilla": "cifra",
+          "datos": {
+            "antes": "unas",
+            "valor": 2,
+            "unidad": "horas",
+            "rotulo": "duró la batalla",
+            "dibujo": "reloj",
+            "palabra": "dos"
+          }
+        },
+        "c7-marcha": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "La campaña, más de dos meses de",
+            "fichas": [
+              {
+                "texto": "Marcha",
+                "dibujo": "montana",
+                "palabra": "marcha"
+              },
+              {
+                "texto": "Frío",
+                "dibujo": "lluvia",
+                "palabra": "fr"
+              },
+              {
+                "texto": "Decisiones arriesgadas",
+                "dibujo": "balanza",
+                "palabra": "decisiones",
+                "resalta": true
+              }
+            ]
+          }
+        },
+        "c7-pais": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "Pero",
+            "lineas": [
+              "Crear un país",
+              "fue más fácil",
+              "que mantenerlo"
+            ],
+            "resalta": 2
+          }
+        },
+        "c7-partes": {
+          "plantilla": "linea-tiempo",
+          "datos": {
+            "titulo": "La independencia, en tres partes",
+            "actual": 2,
+            "palabra_actual": "tercera",
+            "hitos": [
+              {
+                "anio": "Parte 1",
+                "texto": "El 20 de julio de 1810: el florero"
+              },
+              {
+                "anio": "Parte 2",
+                "texto": "Boyacá, 1819: este video"
+              },
+              {
+                "anio": "Parte 3",
+                "texto": "¿Por qué se acabó la Gran Colombia?",
+                "palabra": "tercera"
+              }
+            ]
+          }
+        },
+        "c7-tarjeta": {
+          "plantilla": "capitulo",
+          "datos": {
+            "numero": "Capítulo VII",
+            "titulo": "Lo que pasó después"
+          }
+        }
+      },
+      "frases": [
+        {
+          "id": "f42",
+          "escena": "c7-boletin",
+          "texto": "Según el boletín de la batalla, el soldado Pedro Martínez tomó prisionero al jefe español, José María Barreiro, y esa noche lo entregaron a Bolívar.",
+          "cortes": [
+            {
+              "escena": "c7-prisionero",
+              "palabra": 10
+            }
+          ]
+        },
+        {
+          "id": "f43",
+          "escena": "c7-noticia",
+          "texto": "La noticia de la derrota llegó a Santafé la noche del 8 de agosto. El virrey Juan de Sámano huyó disfrazado el día 9 y dejó atrás dinero de la tesorería.",
+          "cortes": [
+            {
+              "escena": "c7-samano",
+              "palabra": 14
+            }
+          ]
+        },
+        {
+          "id": "f44",
+          "escena": "c7-entrada",
+          "texto": "El 10 de agosto, Bolívar entró a Santafé entre multitudes que celebraban, sin que nadie se lo impidiera. Santander quedó al frente del gobierno de la Nueva Granada.",
+          "cortes": [
+            {
+              "escena": "c7-santander",
+              "palabra": 18
+            }
+          ]
+        },
+        {
+          "id": "f45",
+          "escena": "c7-octubre",
+          "texto": "El 11 de octubre, por orden de Santander, Barreiro y otros oficiales españoles fueron fusilados."
+        },
+        {
+          "id": "f46",
+          "escena": "c7-diciembre",
+          "texto": "Y el 17 de diciembre de 1819, en Angostura, el congreso unió a Venezuela y a la Nueva Granada en una sola república, la República de Colombia, que hoy llamamos la Gran Colombia.",
+          "cortes": [
+            {
+              "escena": "c7-union",
+              "palabra": 11
+            },
+            {
+              "escena": "c7-colombia",
+              "palabra": 23
+            }
+          ]
+        },
+        {
+          "id": "f47",
+          "escena": "c7-nueve",
+          "texto": "Habían pasado nueve años desde el 20 de julio de 1810, y apenas tres desde los fusilamientos de 1816."
+        },
+        {
+          "id": "f48",
+          "escena": "c7-horas",
+          "texto": "La batalla duró unas dos horas. La campaña que la hizo posible, más de dos meses de marcha, de frío y de decisiones arriesgadas.",
+          "cortes": [
+            {
+              "escena": "c7-marcha",
+              "palabra": 12
+            }
+          ]
+        },
+        {
+          "id": "f49",
+          "escena": "c7-pais",
+          "texto": "Pero crear un país tan grande fue más fácil que mantenerlo unido. En la tercera parte: ¿por qué se acabó la Gran Colombia?",
+          "cortes": [
+            {
+              "escena": "c7-partes",
+              "palabra": 12
+            }
+          ]
+        }
+      ],
+      "tarjeta": "c7-tarjeta"
+    }
+  ]
+}

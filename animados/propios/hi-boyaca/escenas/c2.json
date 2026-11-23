@@ -1,0 +1,126 @@
+{
+  "capitulo": "c2",
+  "escenas": {
+    "c2-setenta": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "Campaña Libertadora",
+        "lineas": ["La aldea de", "Los Setenta"],
+        "resalta": 1,
+        "calendario": { "arriba": "Mayo", "numero": "23", "abajo": "1819", "lado": "derecha", "palabra": "23" }
+      }
+    },
+    "c2-plan": {
+      "plantilla": "personaje",
+      "datos": {
+        "personaje": "bolivar",
+        "pose": "senalar",
+        "anios": "Los Setenta",
+        "rol": "Expone el plan de la campaña",
+        "palabra_anios": "plan",
+        "palabra_rol": "campa"
+      }
+    },
+    "c2-sencillo": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "El plan",
+        "lineas": ["Arriesgado", "y sencillo"],
+        "resalta": 1,
+        "dibujo": "montana",
+        "palabra_dibujo": "arriesgado"
+      }
+    },
+    "c2-ruta": {
+      "plantilla": "mapa",
+      "datos": {
+        "vistas": [{ "centro": [-72.6, 5.6], "ancho": 10 }],
+        "paises": [{ "id": "colombia", "color": "acento2", "opacidad": 0.25, "en": 0 }],
+        "montes": { "puntos": [[-72.9, 7.2], [-73.2, 6.2], [-73.6, 5.3], [-74.0, 4.3]], "en": 0.1 },
+        "rutas": [{ "puntos": [[-71.2, 6.3], [-72.3, 5.8], [-73.37, 5.53]], "estilo": "flecha", "color": "acento", "grosor": 8, "palabra": "cruzar", "dur": 2 }],
+        "marcas": [
+          { "texto": "Tunja", "lugar": [-73.37, 5.53], "lado": "arriba", "tam": 32, "en": 0.2 },
+          { "texto": "Santafé", "lugar": "bogota", "lado": "izquierda", "tam": 32, "en": 0.2 }
+        ],
+        "rotulos": [{ "texto": "Cordillera Oriental", "lugar": [-72.8, 4.3], "estilo": "titulo", "tam": 30, "palabra": "cordillera" }],
+        "banderas": [{ "pais": "espana", "lugar": [-74.2, 6.5], "tam": 80, "palabra": "espa" }],
+        "cartela": { "titulo": "El plan", "sub": "Cruzar la cordillera y sorprender", "palabra": "cruzar" }
+      }
+    },
+    "c2-santander": {
+      "plantilla": "recorte",
+      "datos": {
+        "foto": "File:Francisco de Paula Santander (painting by José María Espinosa).jpg",
+        "pie": "Retrato de Santander (1853)",
+        "insignia": "Casanare, 1819",
+        "titulo": "Santander reúne tropas",
+        "texto": "Llaneros y boyacenses",
+        "lado": "derecha",
+        "palabras": { "titulo": "Santander", "texto": "llaneros" }
+      }
+    },
+    "c2-tame": {
+      "plantilla": "mapa",
+      "datos": {
+        "vistas": [{ "centro": [-70.9, 6.2], "ancho": 10 }],
+        "paises": [{ "id": "colombia", "color": "acento2", "opacidad": 0.25, "en": 0 }, { "id": "venezuela", "color": "acento2", "opacidad": 0.25, "en": 0 }],
+        "rutas": [
+          { "puntos": [[-68.8, 7.4], [-71.73, 6.46]], "estilo": "flecha", "color": "acento", "grosor": 8, "palabra": "dos", "dur": 1.4 },
+          { "puntos": [[-72.1, 5.3], [-71.73, 6.46]], "estilo": "flecha", "color": "tinta", "grosor": 8, "palabra": "ej", "dur": 1.4 }
+        ],
+        "marcas": [{ "texto": "Tame", "lugar": [-71.73, 6.46], "lado": "derecha", "tam": 36, "palabra": "Tame" }],
+        "cartela": { "titulo": "Tame, mediados de junio", "sub": "Dos ejércitos se juntan", "palabra": "Tame" }
+      }
+    },
+    "c2-unidos": {
+      "plantilla": "fichas",
+      "datos": {
+        "titulo": "Un solo ejército",
+        "fichas": [
+          { "texto": "Soldados venezolanos", "dibujo": "bandera", "palabra": "soldados" },
+          { "texto": "Soldados neogranadinos", "dibujo": "bandera", "palabra": "venezolanos" }
+        ]
+      }
+    },
+    "c2-pisba-ruta": {
+      "plantilla": "mapa",
+      "datos": {
+        "vistas": [{ "centro": [-72.2, 6.0], "ancho": 6 }],
+        "paises": [{ "id": "colombia", "color": "acento2", "opacidad": 0.25, "en": 0 }],
+        "montes": { "puntos": [[-72.35, 5.95], [-72.5, 5.8], [-72.6, 5.62]], "en": 0.1 },
+        "rutas": [{ "puntos": [[-71.73, 6.46], [-72.16, 5.83], [-72.49, 5.72], [-72.69, 5.99]], "estilo": "flecha", "color": "acento", "grosor": 8, "palabra": "subir", "dur": 2.4 }],
+        "marcas": [{ "texto": "Tame", "lugar": [-71.73, 6.46], "lado": "derecha", "tam": 34, "en": 0.1 }],
+        "rotulos": [{ "texto": "Páramo de Pisba", "lugar": [-72.8, 5.45], "estilo": "titulo", "tam": 32, "palabra": "decid" }],
+        "cartela": { "titulo": "La ruta de Pisba", "sub": "De Tame al corazón de la Nueva Granada", "en": 0.1 }
+      }
+    },
+    "c2-paso": {
+      "plantilla": "recorte",
+      "datos": {
+        "foto": "File:Paso del Libertador por el páramo de Pisba.JPG",
+        "pie": "Pintura del paso por Pisba (foto de 2012)",
+        "insignia": "Paso de alta montaña",
+        "titulo": "Alta montaña",
+        "texto": "Niebla, viento y frío",
+        "lado": "izquierda",
+        "palabras": { "titulo": "alta", "texto": "monta" }
+      }
+    },
+    "c2-julio": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "La travesía",
+        "lineas": ["Julio:", "el mes con", "más invierno"],
+        "resalta": 2,
+        "dibujo": "lluvia",
+        "palabra_dibujo": "invierno"
+      }
+    }
+  },
+  "frases": [
+    { "id": "f12", "escena": "c2-setenta", "cortes": [{ "escena": "c2-plan", "palabra": 14 }, { "escena": "c2-sencillo", "palabra": 25 }] },
+    { "id": "f13", "escena": "c2-ruta", "cortes": [{ "escena": "c2-santander", "palabra": 18 }] },
+    { "id": "f14", "escena": "c2-tame", "cortes": [{ "escena": "c2-unidos", "palabra": 13 }] },
+    { "id": "f15", "escena": "c2-pisba-ruta", "cortes": [{ "escena": "c2-paso", "palabra": 15 }, { "escena": "c2-julio", "palabra": 25 }] }
+  ]
+}

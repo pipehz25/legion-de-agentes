@@ -1,0 +1,263 @@
+{
+  "capitulo": "c6",
+  "escenas": {
+    "c6-dos": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "7 de agosto de 1819",
+        "lineas": [
+          "Las dos",
+          "de la tarde"
+        ],
+        "resalta": 1,
+        "calendario": {
+          "arriba": "Agosto",
+          "numero": "7",
+          "abajo": "1819",
+          "lado": "derecha",
+          "palabra": "dos"
+        }
+      }
+    },
+    "c6-vanguardia": {
+      "plantilla": "dos-personajes",
+      "datos": {
+        "izquierda": {
+          "personaje": "santander",
+          "rol": "Vanguardia patriota",
+          "pose": "senalar",
+          "expresion": "serio"
+        },
+        "derecha": {
+          "personaje": "soldado_espanol",
+          "rol": "Vanguardia realista, almorzando",
+          "expresion": "sorprendido"
+        }
+      }
+    },
+    "c6-santander": {
+      "plantilla": "personaje",
+      "datos": {
+        "personaje": "santander",
+        "nombre": "F. de P. Santander",
+        "pose": "senalar",
+        "anios": "7 ago. 1819",
+        "rol": "Inicia el combate y empuja hasta el puente",
+        "palabra_rol": "combate"
+      }
+    },
+    "c6-retaguardia": {
+      "plantilla": "tablero",
+      "datos": {
+        "personajes": [
+          {
+            "personaje": "barreiro",
+            "nombre": "José María Barreiro",
+            "rol": "Jefe del ejército español"
+          },
+          {
+            "personaje": "anzoategui",
+            "nombre": "José Antonio Anzoátegui",
+            "corto": "J. A. Anzoátegui",
+            "rol": "Jefe de la retaguardia"
+          }
+        ],
+        "titulo": "El choque en la planicie",
+        "palabras": {
+          "personajes": "choc",
+          "hilos": "Anzo",
+          "titulo": "retaguardia"
+        }
+      }
+    },
+    "c6-tres": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "Hacia las tres de la tarde",
+        "lineas": [
+          "Las tres:",
+          "dos combates"
+        ],
+        "resalta": 1,
+        "dibujo": "reloj",
+        "palabra_dibujo": "tres"
+      }
+    },
+    "c6-guias": {
+      "plantilla": "personaje",
+      "datos": {
+        "personaje": "llanero",
+        "nombre": "Guías de Casanare",
+        "pose": "senalar",
+        "anios": "7 ago. 1819",
+        "rol": "Cruzan el río y atacan por la espalda",
+        "palabra_rol": "cruzar"
+      }
+    },
+    "c6-puente": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "Rondón, otra vez",
+        "lineas": [
+          "Toman el puente",
+          "y rompen el centro"
+        ],
+        "resalta": 1,
+        "dibujo": "bandera",
+        "palabra_dibujo": "tomaron"
+      }
+    },
+    "c6-rinden": {
+      "plantilla": "recorte",
+      "datos": {
+        "foto": "File:Batalla de Boyaca de Martin Tovar y Tovar.jpg",
+        "pie": "«Batalla de Boyacá», óleo de Tovar y Tovar (1890)",
+        "lado": "izquierda",
+        "insignia": "Las cuatro de la tarde",
+        "titulo": "Los españoles se rinden",
+        "texto": "Cerca de 1.600 prisioneros",
+        "palabras": {
+          "titulo": "espa",
+          "texto": "Cerca"
+        }
+      }
+    },
+    "c6-variacion": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "Según la fuente",
+        "lineas": [
+          "Las cifras varían,",
+          "la proporción no"
+        ],
+        "resalta": 1,
+        "dibujo": "balanza",
+        "palabra_dibujo": "proporci"
+      }
+    },
+    "c6-muertos": {
+      "plantilla": "cifra",
+      "datos": {
+        "titulo": "Muertos en la batalla, sin heridos",
+        "cifras": [
+          {
+            "valor": 13,
+            "unidad": "muertos",
+            "rotulo": "Patriotas",
+            "palabra": "trece"
+          },
+          {
+            "valor": 100,
+            "unidad": "muertos",
+            "rotulo": "Realistas (más de)",
+            "palabra": "cien",
+            "resalta": true
+          }
+        ]
+      }
+    },
+    "c6-encajo": {
+      "plantilla": "fichas",
+      "datos": {
+        "titulo": "En dos horas, todo encajó",
+        "fichas": [
+          {
+            "texto": "Vanguardia: sorprende",
+            "dibujo": "bandera",
+            "palabra": "vanguardia"
+          },
+          {
+            "texto": "Retaguardia: resiste",
+            "dibujo": "montana",
+            "palabra": "retaguardia"
+          },
+          {
+            "texto": "Guías: cruzan el río",
+            "dibujo": "barco",
+            "palabra": "cruzan"
+          },
+          {
+            "texto": "Lanceros: rompen el centro",
+            "dibujo": "canon",
+            "palabra": "lanceros",
+            "resalta": true
+          }
+        ]
+      }
+    },
+    "c6-final": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "Boyacá, 7 de agosto",
+        "lineas": [
+          "En dos horas,",
+          "todo encajó"
+        ],
+        "resalta": 1,
+        "todo_al_inicio": true
+      }
+    }
+  },
+  "frases": [
+    {
+      "id": "f34",
+      "escena": "c6-dos",
+      "cortes": [
+        {
+          "escena": "c6-vanguardia",
+          "palabra": 16
+        },
+        {
+          "escena": "c6-santander",
+          "palabra": 26
+        }
+      ]
+    },
+    {
+      "id": "f35",
+      "escena": "c6-dos",
+      "cortes": [
+        {
+          "escena": "c6-retaguardia",
+          "palabra": 8
+        }
+      ]
+    },
+    {
+      "id": "f36",
+      "escena": "c6-tres"
+    },
+    {
+      "id": "f37",
+      "escena": "c6-guias"
+    },
+    {
+      "id": "f38",
+      "escena": "c6-puente"
+    },
+    {
+      "id": "f39",
+      "escena": "c6-rinden"
+    },
+    {
+      "id": "f40",
+      "escena": "c6-variacion",
+      "cortes": [
+        {
+          "escena": "c6-muertos",
+          "palabra": 11
+        }
+      ]
+    },
+    {
+      "id": "f41",
+      "escena": "c6-encajo",
+      "cortes": [
+        {
+          "escena": "c6-final",
+          "palabra": 21
+        }
+      ]
+    }
+  ]
+}

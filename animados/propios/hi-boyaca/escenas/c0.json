@@ -1,0 +1,119 @@
+{
+  "capitulo": "c0",
+  "escenas": {
+    "c0-fecha": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "Boyacá, 1819",
+        "lineas": ["Una batalla", "de dos horas"],
+        "resalta": 1,
+        "calendario": { "arriba": "Agosto", "numero": "7", "abajo": "1819", "lado": "derecha", "palabra": "agosto" }
+      }
+    },
+    "c0-mapa": {
+      "plantilla": "mapa",
+      "datos": {
+        "vistas": [{ "centro": [-74.2, 6.2], "ancho": 16 }],
+        "paises": [{ "id": "colombia", "color": "acento2", "opacidad": 0.3, "en": 0 }],
+        "montes": { "puntos": [[-72.9, 7.2], [-73.2, 6.2], [-73.6, 5.3], [-74.0, 4.3]], "en": 0.1 },
+        "rotulos": [
+          { "texto": "Cordillera Oriental", "lugar": [-73.2, 3.9], "estilo": "titulo", "tam": 28, "en": 0.4 }
+        ],
+        "marcas": [
+          { "texto": "Tunja", "lugar": [-73.37, 5.53], "lado": "derecha", "en": 0.1 },
+          { "texto": "Santafé", "lugar": "bogota", "lado": "izquierda", "en": 0.3 }
+        ],
+        "banderas": [{ "pais": "espana", "lugar": [-72.2, 6.7], "tam": 90, "palabra": "espa" }],
+        "cartela": { "titulo": "Nueva Granada", "sub": "Cerca de Tunja, 1819", "en": 0 }
+      }
+    },
+    "c0-horas": {
+      "plantilla": "cifra",
+      "datos": {
+        "valor": 2,
+        "unidad": "horas",
+        "rotulo": "en un puente sobre el río Teatinos",
+        "dibujo": "reloj",
+        "en": 0.02,
+        "palabra_rotulo": "horas"
+      }
+    },
+    "c0-ejercitos": {
+      "plantilla": "dos-personajes",
+      "datos": {
+        "izquierda": { "personaje": "bolivar", "rol": "Ejército patriota" },
+        "derecha": { "personaje": "barreiro", "rol": "Ejército realista", "bandera": "espana" }
+      }
+    },
+    "c0-no-puente": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "Pero",
+        "lineas": ["No se ganó", "en el puente"],
+        "resalta": 1,
+        "dibujo": "balanza"
+      }
+    },
+    "c0-pisba-foto": {
+      "plantilla": "recorte",
+      "datos": {
+        "foto": "File:Los Picachos.jpg",
+        "pie": "Laguna en el Parque Pisba (foto de 2008)",
+        "insignia": "Semanas antes",
+        "titulo": "Un páramo helado",
+        "texto": "Casi 4.000 m de altura",
+        "lado": "izquierda",
+        "palabras": { "titulo": "helado", "texto": "casi" }
+      }
+    },
+    "c0-soldado": {
+      "plantilla": "personaje",
+      "datos": {
+        "personaje": "soldado",
+        "anios": "Tierra caliente",
+        "rol": "Cruzó casi sin abrigo",
+        "palabra_anios": "ej",
+        "palabra_rol": "soldados"
+      }
+    },
+    "c0-pregunta": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "Segunda parte",
+        "lineas": ["¿Cómo se gana", "una batalla", "tan rápida?"],
+        "resalta": 2,
+        "dibujo": "reloj",
+        "palabra_dibujo": "rapida"
+      }
+    },
+    "c0-serie": {
+      "plantilla": "linea-tiempo",
+      "datos": {
+        "titulo": "La independencia, en tres partes",
+        "actual": 1,
+        "palabra_actual": "segunda",
+        "hitos": [
+          { "anio": "Parte 1", "texto": "El florero y el 20 de julio de 1810" },
+          { "anio": "Parte 2", "texto": "Boyacá: la campaña de 1819" },
+          { "anio": "Parte 3", "texto": "¿Por qué se acabó la Gran Colombia?" }
+        ]
+      }
+    },
+    "c0-fuentes": {
+      "plantilla": "fichas",
+      "datos": {
+        "titulo": "Cómo vamos a contarlo",
+        "fichas": [
+          { "texto": "Cada dato, con su fuente", "dibujo": "documento", "palabra": "dato" },
+          { "texto": "Si hay duda, te la decimos", "dibujo": "balanza", "palabra": "historiadores", "resalta": true }
+        ]
+      }
+    }
+  },
+  "frases": [
+    { "id": "f1", "escena": "c0-fecha", "cortes": [{ "escena": "c0-mapa", "palabra": 16 }, { "escena": "c0-horas", "palabra": 24 }, { "escena": "c0-ejercitos", "palabra": 33 }] },
+    { "id": "f2", "escena": "c0-no-puente", "cortes": [{ "escena": "c0-pisba-foto", "palabra": 15 }, { "escena": "c0-soldado", "palabra": 26 }] },
+    { "id": "f3", "escena": "c0-pregunta", "cortes": [{ "escena": "c0-serie", "palabra": 10 }] },
+    { "id": "f4", "escena": "c0-fuentes" }
+  ]
+}

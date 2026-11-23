@@ -1,0 +1,239 @@
+{
+  "capitulo": "c5",
+  "escenas": {
+    "c5-maniobras": {
+      "plantilla": "mapa",
+      "datos": {
+        "vistas": [
+          {
+            "centro": [
+              -73.6,
+              5.1
+            ],
+            "ancho": 2.8
+          }
+        ],
+        "paises": [
+          {
+            "id": "colombia",
+            "color": "acento2",
+            "opacidad": 0.22,
+            "en": 0
+          }
+        ],
+        "rutas": [
+          {
+            "puntos": [
+              [
+                -73.11,
+                5.78
+              ],
+              [
+                -73.36,
+                5.53
+              ],
+              [
+                -73.44,
+                5.45
+              ],
+              [
+                -73.52,
+                5.37
+              ],
+              [
+                -74.08,
+                4.71
+              ]
+            ],
+            "estilo": "discontinua",
+            "color": "acento",
+            "grosor": 7,
+            "palabra": "maniobras",
+            "dur": 2.4
+          }
+        ],
+        "marcas": [
+          {
+            "texto": "Pantano de Vargas",
+            "lugar": [
+              -73.11,
+              5.78
+            ],
+            "lado": "derecha",
+            "tam": 34,
+            "en": 0.05
+          },
+          {
+            "texto": "Tunja",
+            "lugar": [
+              -73.36,
+              5.53
+            ],
+            "lado": "derecha",
+            "tam": 38,
+            "en": 0.05
+          },
+          {
+            "texto": "Santafé",
+            "lugar": "bogota",
+            "lado": "derecha",
+            "tam": 38,
+            "en": 0.05
+          }
+        ],
+        "cartela": {
+          "titulo": "Boyacá, 1819",
+          "sub": "Dos ejércitos, un camino",
+          "palabra": "maniobras"
+        }
+      }
+    },
+    "c5-agosto": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "En el camino hacia Santafé",
+        "lineas": [
+          "Bolívar ocupa",
+          "Tunja"
+        ],
+        "resalta": 1,
+        "calendario": {
+          "arriba": "Agosto",
+          "numero": "5",
+          "abajo": "1819",
+          "lado": "derecha",
+          "palabra": "5"
+        }
+      }
+    },
+    "c5-barreiro": {
+      "plantilla": "personaje",
+      "datos": {
+        "personaje": "barreiro",
+        "pose": "neutral",
+        "anios": "Boyacá, 1819",
+        "rol": "Jefe del ejército español",
+        "palabra_rol": "mando",
+        "nombre": "José María Barreiro"
+      }
+    },
+    "c5-puente": {
+      "plantilla": "recorte",
+      "datos": {
+        "foto": "File:Plano topográfico del campo en que tuvo lugar la Batalla de Boyacá -7 de agosto de 1819-.jpg",
+        "pie": "Plano del campo de batalla (siglo XIX)",
+        "lado": "derecha",
+        "insignia": "7 de agosto de 1819",
+        "titulo": "Rumbo al puente de Boyacá",
+        "texto": "El camino a Santafé cruza el río Teatinos",
+        "palabras": {
+          "titulo": "ma",
+          "texto": "salieron"
+        }
+      }
+    },
+    "c5-opciones": {
+      "plantilla": "fichas",
+      "datos": {
+        "titulo": "Todo dependía del puente",
+        "fichas": [
+          {
+            "texto": "Cruzan: Santafé libre",
+            "dibujo": "bandera",
+            "palabra": "cruzaban"
+          },
+          {
+            "texto": "No cruzan: cortados",
+            "dibujo": "cruz",
+            "palabra": "no",
+            "resalta": true
+          }
+        ]
+      }
+    },
+    "c5-bolivar": {
+      "plantilla": "personaje",
+      "datos": {
+        "personaje": "bolivar",
+        "pose": "senalar",
+        "anios": "7 ago. 1819",
+        "rol": "Los vio desde el alto de San Lázaro",
+        "palabra_rol": "desde",
+        "nombre": "Simón Bolívar"
+      }
+    },
+    "c5-iguales": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "Según las cifras más citadas",
+        "lineas": [
+          "Casi del",
+          "mismo tamaño"
+        ],
+        "resalta": 1,
+        "dibujo": "balanza",
+        "palabra_dibujo": "casi"
+      }
+    },
+    "c5-cifras": {
+      "plantilla": "cifra",
+      "datos": {
+        "titulo": "Los dos ejércitos, 7 de agosto",
+        "cifras": [
+          {
+            "valor": 2850,
+            "unidad": "hombres",
+            "rotulo": "Patriotas",
+            "palabra": "2.850"
+          },
+          {
+            "valor": 2670,
+            "unidad": "hombres",
+            "rotulo": "Realistas",
+            "palabra": "2.670"
+          }
+        ]
+      }
+    }
+  },
+  "frases": [
+    {
+      "id": "f29",
+      "escena": "c5-maniobras",
+      "cortes": [
+        {
+          "escena": "c5-agosto",
+          "palabra": 14
+        }
+      ]
+    },
+    {
+      "id": "f30",
+      "escena": "c5-barreiro",
+      "cortes": [
+        {
+          "escena": "c5-puente",
+          "palabra": 16
+        }
+      ]
+    },
+    {
+      "id": "f31",
+      "escena": "c5-opciones"
+    },
+    {
+      "id": "f32",
+      "escena": "c5-bolivar"
+    },
+    {
+      "id": "f33",
+      "escena": "c5-iguales",
+      "cortes": [
+        {
+          "escena": "c5-cifras",
+          "palabra": 13
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "capitulo": "c4",
+  "escenas": {
+    "c4-gameza": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "Primer choque",
+        "lineas": [
+          "Gámeza,",
+          "11 de julio"
+        ],
+        "resalta": 1,
+        "calendario": {
+          "arriba": "Julio",
+          "numero": "11",
+          "abajo": "1819",
+          "lado": "derecha",
+          "palabra": "11"
+        }
+      }
+    },
+    "c4-tiempo": {
+      "plantilla": "linea-tiempo",
+      "datos": {
+        "titulo": "Julio de 1819",
+        "actual": 2,
+        "palabra_actual": "Pantano",
+        "hitos": [
+          {
+            "anio": "1-7 jul",
+            "texto": "Cruzan el páramo de Pisba"
+          },
+          {
+            "anio": "11 jul",
+            "texto": "Gámeza: importantes bajas en los dos ejércitos"
+          },
+          {
+            "anio": "25 jul",
+            "texto": "Pantano de Vargas",
+            "palabra": "25"
+          }
+        ]
+      }
+    },
+    "c4-dias": {
+      "plantilla": "cifra",
+      "datos": {
+        "valor": 18,
+        "unidad": "días",
+        "rotulo": "después de bajar del páramo",
+        "dibujo": "calendario",
+        "palabra": "dieciocho",
+        "palabra_rotulo": "despu"
+      }
+    },
+    "c4-agotados": {
+      "plantilla": "fichas",
+      "datos": {
+        "titulo": "Patriotas al límite",
+        "fichas": [
+          {
+            "texto": "Agotados",
+            "dibujo": "montana",
+            "palabra": "agotados"
+          },
+          {
+            "texto": "Mal vestidos",
+            "dibujo": "lluvia",
+            "palabra": "mal"
+          },
+          {
+            "texto": "Menos numerosos",
+            "dibujo": "balanza",
+            "palabra": "menos",
+            "resalta": true
+          }
+        ]
+      }
+    },
+    "c4-cinco": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "La batalla parecía perdida",
+        "lineas": [
+          "Las cinco",
+          "de la tarde"
+        ],
+        "resalta": 1,
+        "dibujo": "reloj",
+        "palabra_dibujo": "cinco"
+      }
+    },
+    "c4-rondon": {
+      "plantilla": "personaje",
+      "datos": {
+        "personaje": "rondon",
+        "pose": "senalar",
+        "anios": "Vargas, 1819",
+        "rol": "Coronel venezolano, jefe de lanceros",
+        "palabra_rol": "venezolano",
+        "nombre": "Juan José Rondón"
+      }
+    },
+    "c4-carga": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "Pantano de Vargas",
+        "lineas": [
+          "Una carga",
+          "cuesta arriba"
+        ],
+        "resalta": 1,
+        "dibujo": "montana",
+        "palabra_dibujo": "cuesta"
+      }
+    },
+    "c4-catorce": {
+      "plantilla": "cifra",
+      "datos": {
+        "valor": 14,
+        "unidad": "jinetes",
+        "rotulo": "oyeron la primera orden",
+        "palabra": "catorce",
+        "palabra_rotulo": "oyeron"
+      }
+    },
+    "c4-ajustada": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "Se suele considerar",
+        "lineas": [
+          "Victoria patriota,",
+          "pero ajustada"
+        ],
+        "resalta": 1,
+        "dibujo": "balanza",
+        "palabra_dibujo": "ajustada"
+      }
+    },
+    "c4-faltaba": {
+      "plantilla": "fichas",
+      "datos": {
+        "titulo": "Lo que faltó",
+        "fichas": [
+          {
+            "texto": "Realistas sin destruir",
+            "dibujo": "canon",
+            "palabra": "destruy"
+          },
+          {
+            "texto": "La guerra seguía abierta",
+            "dibujo": "bandera",
+            "palabra": "guerra",
+            "resalta": true
+          }
+        ]
+      }
+    }
+  },
+  "frases": [
+    {
+      "id": "f24",
+      "escena": "c4-gameza",
+      "cortes": [
+        {
+          "escena": "c4-tiempo",
+          "palabra": 13
+        }
+      ]
+    },
+    {
+      "id": "f25",
+      "escena": "c4-dias"
+    },
+    {
+      "id": "f26",
+      "escena": "c4-agotados",
+      "cortes": [
+        {
+          "escena": "c4-cinco",
+          "palabra": 14
+        }
+      ]
+    },
+    {
+      "id": "f27",
+      "escena": "c4-agotados",
+      "cortes": [
+        {
+          "escena": "c4-rondon",
+          "palabra": 2
+        },
+        {
+          "escena": "c4-carga",
+          "palabra": 12
+        },
+        {
+          "escena": "c4-catorce",
+          "palabra": 22
+        }
+      ]
+    },
+    {
+      "id": "f28",
+      "escena": "c4-agotados",
+      "cortes": [
+        {
+          "escena": "c4-ajustada",
+          "palabra": 6
+        },
+        {
+          "escena": "c4-faltaba",
+          "palabra": 14
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,20 @@
 {
-  "actualizado": "2026-11-21T18:59:58.556Z",
+  "actualizado": "2026-11-23T15:48:58.236Z",
   "videos": [
+    {
+      "id": "hi-boyaca",
+      "tipo": "largo",
+      "titulo": "¿Cómo se ganó la batalla de Boyacá? La campaña de 1819",
+      "duracion_s": 484.1,
+      "producido": "2026-11-23T15:48:58.210Z",
+      "video": "salidas/narrador/hi-boyaca/hi-boyaca.mp4",
+      "portada": "salidas/narrador/hi-boyaca/miniatura.jpg",
+      "fuentes": "salidas/narrador/hi-boyaca/fuentes.md",
+      "descripcion": "salidas/narrador/hi-boyaca/descripcion.txt",
+      "subtitulos": "salidas/narrador/hi-boyaca/hi-boyaca.srt",
+      "video_en_esta_pc": true,
+      "publicacion": "¿Cómo se ganó la batalla de Boyacá? La campaña de 1819\n\n#historia #colombia #independencia #boyaca"
+    },
     {
       "id": "hi-florero",
       "tipo": "largo",
