@@ -1,0 +1,55 @@
+{
+  "capitulo": "c5",
+  "escenas": {
+    "c5-tu-numero": { "plantilla": "titular", "datos": { "lineas": ["¿Ya tienes", "tu número?"], "resalta": 1, "insignia": "La pregunta del principio", "dibujo": "reloj", "palabra_dibujo": "respuesta" } },
+    "c5-diez": { "plantilla": "cifra", "datos": { "valor": 10, "unidad": "toneladas", "rotulo": "de oro en 2024, según la empresa", "dibujo": "moneda", "palabra": "Diez", "palabra_rotulo": "oro" } },
+    "c5-mayor": { "plantilla": "titular", "datos": { "lineas": ["La mayor", "productora de oro", "de Colombia"], "resalta": 0, "insignia": "Según la empresa", "dibujo": "montana", "palabra_dibujo": "mayor" } },
+    "c5-zijin": { "plantilla": "fichas", "datos": { "titulo": "La empresa cambió de dueño", "fichas": [
+      { "texto": "Zijin Mining, China", "dibujo": "bandera", "palabra": "china" },
+      { "texto": "Venta: diciembre de 2019", "dibujo": "calendario", "palabra": "anunciada" } ] } },
+    "c5-inauguracion": { "plantilla": "titular", "datos": { "lineas": ["La mina se", "inauguró"], "resalta": 1, "calendario": { "arriba": "Oct", "numero": "23", "abajo": "2020", "lado": "derecha", "palabra": "23" } } },
+    "c5-primera": { "plantilla": "cifra", "datos": { "cifra": "La primera", "rotulo": "mina de oro subterránea moderna del país", "dibujo": "montana", "palabra": "primera", "palabra_rotulo": "mina" } },
+    "c5-llegan-mineros": { "plantilla": "mapa", "datos": {
+      "vistas": [{ "centro": [-75.7, 6.5], "ancho": 8 }],
+      "paises": [{ "id": "colombia", "color": "acento2", "opacidad": 0.3, "en": 0 }],
+      "marcas": [{ "texto": "Buriticá", "lugar": [-75.91, 6.72], "lado": "derecha", "en": 0.1 }],
+      "rotulos": [{ "texto": "Antioquia", "lugar": [-74.6, 7.4], "estilo": "pais", "tam": 44, "en": 0.3 }],"rutas": [
+        { "puntos": [[-77.0, 7.4], [-76.05, 6.8]], "estilo": "flecha", "color": "acento", "palabra": "miles" },
+        { "puntos": [[-74.7, 7.3], [-75.75, 6.8]], "estilo": "flecha", "color": "acento", "palabra": "mineros," },
+        { "puntos": [[-74.7, 6.75], [-75.75, 6.72]], "estilo": "flecha", "color": "acento", "palabra": "muchos" } ],
+      "cartela": { "titulo": "Buriticá, última década", "sub": "Miles de mineros, muchos sin permisos", "en": 0.05 } } },
+    "c5-formalizados": { "plantilla": "titular", "datos": { "lineas": ["Algunos terminaron", "formalizados"], "resalta": 1, "insignia": "Pequeños mineros" } },
+    "c5-balance": { "plantilla": "fichas", "datos": { "titulo": "Lo que trajo", "fichas": [
+      { "texto": "Empleo formal", "dibujo": "moneda", "palabra": "empleo" },
+      { "texto": "Impuestos", "dibujo": "documento", "palabra": "impuestos" },
+      { "texto": "Daños en el agua", "dibujo": "lluvia", "palabra": "daños", "resalta": true } ] } },
+    "c5-ataques": { "plantilla": "linea-tiempo", "datos": { "titulo": "Seguridad: un reto", "actual": 2, "palabra_actual": "2025", "hitos": [
+      { "anio": "2020", "texto": "Se inaugura la mina" },
+      { "anio": "2023", "texto": "Explosivos en un túnel (17 de mayo)" },
+      { "anio": "2025", "texto": "Explosivos en una subestación (enero)" } ] } },
+    "c5-cacique-hoy": { "plantilla": "personaje", "datos": { "personaje": "cacique", "anios": "1538", "rol": "El cacique que no habló", "palabra_anios": "cacique", "palabra_rol": "habló" } },
+    "c5-manos": { "plantilla": "titular", "datos": { "lineas": ["El oro cambió", "de manos"], "resalta": 1, "dibujo": "moneda", "palabra_dibujo": "manos" } },
+    "c5-repaso-final": { "plantilla": "linea-tiempo", "datos": { "titulo": "Repaso final", "actual": 2, "palabra_actual": "2024,", "hitos": [
+      { "anio": "1538", "texto": "El cacique", "palabra": "1538," },
+      { "anio": "2007", "texto": "Minería moderna", "palabra": "2007," },
+      { "anio": "2024", "texto": "Diez toneladas", "palabra": "2024," } ] } },
+    "c5-esencial": { "plantilla": "titular", "datos": { "lineas": ["Ya conoces", "lo esencial"], "resalta": 1, "insignia": "Buriticá", "dibujo": "sello", "palabra_dibujo": "esencial" } },
+    "c5-para-quien": { "plantilla": "fichas", "datos": { "titulo": "¿Para quién es el oro de una montaña?", "fichas": [
+      { "texto": "La empresa", "dibujo": "documento", "palabra": "empresa," },
+      { "texto": "Los mineros del pueblo", "dibujo": "montana", "palabra": "mineros" },
+      { "texto": "Todo el país", "dibujo": "bandera", "palabra": "todo" } ] } },
+    "c5-comenta": { "plantilla": "titular", "datos": { "lineas": ["Cuéntanos tu", "respuesta en", "los comentarios"], "resalta": 2, "todo_al_inicio": true, "insignia": "Ahora te toca a ti" } }
+  },
+  "frases": [
+    { "id": "f24", "escena": "c5-tu-numero", "pausa_despues": 2.5 },
+    { "id": "f25", "escena": "c5-diez", "cortes": [{ "escena": "c5-mayor", "palabra": 16 }] },
+    { "id": "f26", "escena": "c5-zijin", "cortes": [{ "escena": "c5-inauguracion", "palabra": 19 }] },
+    { "id": "f26b", "escena": "c5-primera" },
+    { "id": "f27", "escena": "c5-llegan-mineros", "cortes": [{ "escena": "c5-formalizados", "palabra": 20 }] },
+    { "id": "f28", "escena": "c5-balance", "cortes": [{ "escena": "c5-ataques", "palabra": 20 }] },
+    { "id": "f29", "escena": "c5-cacique-hoy", "cortes": [{ "escena": "c5-manos", "palabra": 13 }] },
+    { "id": "f29b", "escena": "c5-repaso-final", "cortes": [{ "escena": "c5-esencial", "palabra": 14 }] },
+    { "id": "f30", "escena": "c5-para-quien", "cortes": [{ "escena": "c5-comenta", "palabra": 31 }] }
+  ]
+}
+

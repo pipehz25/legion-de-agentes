@@ -1,6 +1,6 @@
 {
   "_info": "Banco de temas del Narrador. estado: pendiente | guion (guion escrito, sin producir) | esperando-grabacion | revision-medica | hecho | descartado. Son ideas de partida: cada dato se verifica en dos fuentes antes de escribir el guion (animados/contenido/NARRADOR.md §4). Para agregar: /narrador temas <nicho> [n].",
-  "actualizado": "2026-11-23T12:00:00-05:00",
+  "actualizado": "2026-11-23T18:00:00-05:00",
   "series": [
     {
       "id": "pandemias",
@@ -390,6 +390,17 @@
       "angulo": "Dióxido de carbono, calor y olor de la piel.",
       "formato": "dato que no sabías",
       "estado": "pendiente"
+    },
+    {
+      "id": "hi-buritica",
+      "nicho": "historia",
+      "pregunta": "La historia del oro en Buriticá, Antioquia",
+      "angulo": "Del cacique de Buriticá (1538) y Jorge Robledo a la minería colonial, los siglos de silencio y la mina de hoy; versión corta e interactiva.",
+      "formato": "la historia en 3 pasos",
+      "tipo": "largo",
+      "estado": "guion",
+      "guion": "animados/propios/hi-buritica/guion.json",
+      "nota": "2026-11-23: guion de video largo corto e interactivo (horizontal, 6 a 7 min, c0 + 5 capitulos, 38 frases, voz eleven_flash_v2_5, tema archivo con fondo dorado, 4 imagenes de Commons verificadas por la API, 16 fuentes). Cada momento de participacion lleva el campo interaccion. Sin escenas y sin voz generada. Siglos XIX y XX en Buriticá: fuentes escasas y contradictorias, el guion lo dice."
     }
   ]
 }

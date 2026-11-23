@@ -1,0 +1,89 @@
+{
+  "capitulo": "c0",
+  "escenas": {
+    "c0-pregunta": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": ["¿Cuánto oro sale", "hoy de un pueblo", "de Antioquia?"],
+        "resalta": 2,
+        "todo_al_inicio": true,
+        "dibujo": "moneda"
+      }
+    },
+    "c0-numero": {
+      "plantilla": "cifra",
+      "datos": {
+        "cifra": "¿?",
+        "unidad": "tu número",
+        "rotulo": "Guárdalo: la respuesta llega más adelante",
+        "dibujo": "reloj",
+        "palabra": "Piénsalo",
+        "palabra_rotulo": "guarda"
+      }
+    },
+    "c0-pueblo": {
+      "plantilla": "mapa",
+      "datos": {
+        "vistas": [
+          { "centro": [-74, 4.5], "ancho": 16 },
+          { "centro": [-75.9, 6.7], "ancho": 6, "palabra": "Buriticá", "dur": 1.6 }
+        ],
+        "paises": [{ "id": "colombia", "color": "acento", "opacidad": 0.18, "en": 0 }],
+        "rotulos": [
+          { "texto": "Colombia", "lugar": [-73.2, 3.4], "estilo": "pais", "tam": 48, "en": 0, "hasta": "Buriticá" },
+          { "texto": "Antioquia", "lugar": [-75.0, 7.6], "estilo": "pais", "tam": 34, "palabra": "Buriticá" }
+        ],
+        "marcas": [{ "texto": "Buriticá", "lugar": [-75.91, 6.72], "lado": "derecha", "tam": 40, "palabra": "Buriticá" }, { "texto": "Medellín", "lugar": [-75.57, 6.25], "lado": "derecha", "tam": 34, "palabra": "Buriticá" }],
+        "cartela": { "titulo": "Buriticá, Antioquia", "sub": "Occidente de Colombia", "en": 0.3 },
+        "fichas": [{ "titulo": "casi 500", "texto": "años atrás", "dibujo": "calendario", "palabra": "quinientos", "lugar": "abajo-derecha" }]
+      }
+    },
+    "c0-regla": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": ["Cada pregunta,", "respóndela", "en voz alta"],
+        "resalta": 2,
+        "insignia": "La regla del video",
+        "dibujo": "sello",
+        "palabra_dibujo": "regla"
+      }
+    },
+    "c0-promesas": {
+      "plantilla": "fichas",
+      "datos": {
+        "titulo": "En este video",
+        "fichas": [
+          { "texto": "Adivinar", "dibujo": "reloj", "palabra": "adivinar" },
+          { "texto": "Mito o realidad", "dibujo": "balanza", "palabra": "mito" },
+          { "texto": "De los catíos a la mina", "dibujo": "montana", "palabra": "montaña", "resalta": true }
+        ]
+      }
+    },
+    "c0-respuestas": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": ["Tú pones", "las respuestas"],
+        "resalta": 1,
+        "dibujo": "pluma"
+      }
+    },
+    "c0-poporo": {
+      "plantilla": "recorte",
+      "datos": {
+        "foto": "File:Poporoquimbaya.JPG",
+        "pie": "Poporo quimbaya de oro (no es catío)",
+        "insignia": "Antes de 1538",
+        "titulo": "Mucho antes del español",
+        "texto": "Oro precolombino de Colombia",
+        "palabras": { "foto": "Empecemos", "titulo": "antes", "texto": "montañas" }
+      }
+    }
+  },
+  "frases": [
+    { "id": "f1", "escena": "c0-pregunta", "cortes": [{ "escena": "c0-numero", "palabra": 12 }] },
+    { "id": "f2", "escena": "c0-pueblo" },
+    { "id": "f2b", "escena": "c0-regla" },
+    { "id": "f3", "escena": "c0-promesas", "cortes": [{ "escena": "c0-respuestas", "palabra": 25 }] },
+    { "id": "f4", "escena": "c0-poporo" }
+  ]
+}

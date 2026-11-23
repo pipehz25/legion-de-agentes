@@ -1,0 +1,139 @@
+{
+  "capitulo": "c2",
+  "escenas": {
+    "c2-robledo": {
+      "plantilla": "personaje",
+      "datos": {
+        "personaje": "robledo",
+        "anios": "Siglo XVI",
+        "rol": "Conquistador, fundador de ciudades",
+        "palabra_anios": "Jorge",
+        "palabra_rol": "Robledo"
+      }
+    },
+    "c2-anserma-cartago": {
+      "plantilla": "mapa",
+      "datos": {
+        "vistas": [{ "centro": [-75.85, 5.5], "ancho": 4 }],
+        "paises": [{ "id": "colombia", "color": "acento", "opacidad": 0.18, "en": 0 }],
+        "marcas": [
+          { "texto": "Anserma", "lugar": [-75.79, 5.23], "lado": "derecha", "tam": 38, "palabra": "Anserma" },
+          { "texto": "Cartago", "lugar": [-75.91, 4.75], "lado": "derecha", "tam": 38, "palabra": "Cartago" }
+        ],
+        "cartela": { "titulo": "Antes de Antioquia", "sub": "Robledo funda otras ciudades", "en": 0.3 },
+        "fichas": [
+          { "titulo": "1539", "texto": "Anserma", "dibujo": "calendario", "palabra": "1539", "lugar": "abajo-izquierda" },
+          { "titulo": "1540", "texto": "Cartago", "dibujo": "calendario", "palabra": "1540", "lugar": "abajo-derecha" }
+        ]
+      }
+    },
+    "c2-antioquia-1541": {
+      "plantilla": "cifra",
+      "datos": {
+        "cifra": "1541",
+        "rotulo": "Ciudad de Antioquia, cerca de Peque",
+        "dibujo": "calendario",
+        "palabra": "1541",
+        "palabra_rotulo": "ciudad"
+      }
+    },
+    "c2-santa-fe": {
+      "plantilla": "recorte",
+      "datos": {
+        "foto": "File:Santa Fe de Antioquia 2.JPG",
+        "pie": "Santa Fe de Antioquia, hoy",
+        "insignia": "1546",
+        "titulo": "La villa de Santa Fe",
+        "texto": "A orillas del río Cauca",
+        "palabras": { "foto": "villa", "titulo": "villa", "texto": "orillas" }
+      }
+    },
+    "c2-ojo": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": ["¡Ojo!", "Antioquia, 1541", "no es Santa Fe"],
+        "resalta": 2,
+        "dibujo": "montana"
+      }
+    },
+    "c2-dos-ciudades": {
+      "plantilla": "fichas",
+      "datos": {
+        "titulo": "Dos ciudades distintas",
+        "fichas": [
+          { "texto": "Santa Fe, 1546: río Cauca", "dibujo": "ancla", "en": 0.02 },
+          { "texto": "Antioquia, 1541: Peque", "dibujo": "montana", "palabra": "cerca", "resalta": true }
+        ]
+      }
+    },
+    "c2-pregunta": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": ["¿Le fue bien", "a Robledo?"],
+        "resalta": 1,
+        "insignia": "Piénsalo",
+        "dibujo": "balanza",
+        "palabra_dibujo": "Robledo"
+      }
+    },
+    "c2-robledo-fin": {
+      "plantilla": "personaje",
+      "datos": {
+        "personaje": "robledo",
+        "expresion": "pensativo",
+        "anios": "Ejecutado 1546",
+        "rol": "Por rivalidades entre conquistadores",
+        "palabra_anios": "No"
+      }
+    },
+    "c2-mudanza": {
+      "plantilla": "mapa",
+      "datos": {
+        "vistas": [{ "centro": [-75.9, 6.8], "ancho": 3 }],
+        "paises": [{ "id": "colombia", "color": "acento", "opacidad": 0.18, "en": 0 }],
+        "marcas": [
+          { "texto": "Primera Antioquia (Peque)", "lugar": [-75.91, 7.02], "lado": "derecha", "tam": 34, "palabra": "primera" },
+          { "texto": "Santa Fe", "lugar": [-75.83, 6.56], "lado": "derecha", "tam": 36, "palabra": "pasando" }
+        ],
+        "rutas": [{ "puntos": [[-75.91, 7.02], [-75.83, 6.56]], "estilo": "flecha", "color": "acento", "palabra": "fueron", "dur": 1.8 }],
+        "cartela": { "titulo": "La mudanza", "sub": "Poco a poco, hacia Santa Fe", "en": 0.3 }
+      }
+    },
+    "c2-santa-fe-hoy": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": ["Santa Fe", "de Antioquia"],
+        "resalta": 1,
+        "dibujo": "bandera"
+      }
+    },
+    "c2-mito-opciones": {
+      "plantilla": "fichas",
+      "datos": {
+        "titulo": "Nació donde la primera Antioquia",
+        "fichas": [
+          { "texto": "Mito", "dibujo": "derrumbe", "palabra": "Mito" },
+          { "texto": "Realidad", "dibujo": "bandera", "palabra": "realidad" }
+        ]
+      }
+    },
+    "c2-mito-veredicto": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": ["Mito:", "dos fundaciones", "distintas"],
+        "resalta": 0,
+        "dibujo": "derrumbe",
+        "palabra_dibujo": "Mito"
+      }
+    }
+  },
+  "frases": [
+    { "id": "f10", "escena": "c2-robledo", "cortes": [{ "escena": "c2-anserma-cartago", "palabra": 11 }] },
+    { "id": "f11", "escena": "c2-antioquia-1541", "cortes": [{ "escena": "c2-santa-fe", "palabra": 13 }] },
+    { "id": "f11b", "escena": "c2-ojo", "cortes": [{ "escena": "c2-dos-ciudades", "palabra": 14 }] },
+    { "id": "f12", "escena": "c2-pregunta", "pausa_despues": 3 },
+    { "id": "f13", "escena": "c2-robledo-fin" },
+    { "id": "f14", "escena": "c2-mudanza", "cortes": [{ "escena": "c2-santa-fe-hoy", "palabra": 19 }] },
+    { "id": "f14b", "escena": "c2-mito-opciones", "cortes": [{ "escena": "c2-mito-veredicto", "palabra": 15 }] }
+  ]
+}

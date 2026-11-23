@@ -1,0 +1,149 @@
+{
+  "capitulo": "c1",
+  "escenas": {
+    "c1-mapa-catios": {
+      "plantilla": "mapa",
+      "datos": {
+        "vistas": [{ "centro": [-76, 6.9], "ancho": 7 }],
+        "paises": [{ "id": "colombia", "color": "acento", "opacidad": 0.18, "en": 0 }],
+        "rotulos": [{ "texto": "Territorio de los catíos", "lugar": [-76.6, 7.3], "estilo": "titulo", "tam": 38, "palabra": "territorio" }],
+        "marcas": [{ "texto": "Buriticá", "lugar": [-75.91, 6.72], "lado": "derecha", "tam": 38, "palabra": "catíos" }],
+        "cartela": { "titulo": "Según los cronistas", "sub": "Montañas del occidente de Antioquia", "en": 0.3 }
+      }
+    },
+    "c1-oficios": {
+      "plantilla": "fichas",
+      "datos": {
+        "titulo": "Los catíos",
+        "fichas": [
+          { "texto": "Sacaban el oro", "dibujo": "moneda", "palabra": "sacaban" },
+          { "texto": "Sabían fundirlo", "dibujo": "volcan", "palabra": "sabían" }
+        ]
+      }
+    },
+    "c1-cacique": {
+      "plantilla": "personaje",
+      "datos": {
+        "personaje": "cacique",
+        "anios": "Siglo XVI",
+        "rol": "Jefe de los catíos; da su nombre al pueblo",
+        "palabra_anios": "jefe",
+        "palabra_rol": "jefe"
+      }
+    },
+    "c1-ruta-vadillo": {
+      "plantilla": "mapa",
+      "datos": {
+        "vistas": [{ "centro": [-76.1, 7.4], "ancho": 5.5 }],
+        "paises": [{ "id": "colombia", "color": "acento", "opacidad": 0.18, "en": 0 }],
+        "rutas": [{ "puntos": [[-76.75, 8.1], [-75.91, 6.72]], "estilo": "flecha", "color": "acento", "palabra": "venía", "dur": 1.6 }],
+        "marcas": [
+          { "texto": "Urabá", "lugar": [-76.75, 8.1], "lado": "izquierda", "tam": 38, "palabra": "Urabá" },
+          { "texto": "Buriticá", "lugar": [-75.91, 6.72], "lado": "derecha", "tam": 38, "palabra": "Vadillo" }
+        ],
+        "banderas": [{ "pais": "espana", "lugar": [-76.2, 7.7], "tam": 90, "palabra": "español" }],
+        "cartela": { "titulo": "1538", "sub": "Llega Juan Vadillo", "en": 0.3 }
+      }
+    },
+    "c1-agotado": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": ["Calor, sed y", "ataques nativos", "Buscaba oro"],
+        "resalta": 2,
+        "dibujo": "moneda",
+        "palabra_dibujo": "Buscaba"
+      }
+    },
+    "c1-captura": {
+      "plantilla": "dos-personajes",
+      "datos": {
+        "izquierda": { "personaje": "vadillo", "pose": "senalar" },
+        "derecha": { "personaje": "cacique", "pose": "brazos-cruzados" }
+      }
+    },
+    "c1-adivina": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": ["¿Qué hizo", "el cacique?"],
+        "resalta": 1,
+        "insignia": "Adivina",
+        "dibujo": "reloj",
+        "palabra_dibujo": "cacique"
+      }
+    },
+    "c1-barranco": {
+      "plantilla": "fichas",
+      "datos": {
+        "titulo": "Según los relatos",
+        "fichas": [
+          { "texto": "Se lanzó por un barranco", "dibujo": "derrumbe", "palabra": "lanzó" },
+          { "texto": "Sobrevivió a la caída", "dibujo": "montana", "palabra": "Sobrevivió" },
+          { "texto": "Vadillo ordenó quemarlo", "dibujo": "sello", "palabra": "Vadillo", "resalta": true }
+        ]
+      }
+    },
+    "c1-detalles": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": ["Los detalles", "cambian según", "quién cuente"],
+        "resalta": 2,
+        "dibujo": "documento"
+      }
+    },
+    "c1-nombres": {
+      "plantilla": "fichas",
+      "datos": {
+        "titulo": "El apellido, de dos formas",
+        "fichas": [
+          { "texto": "Vadillo", "dibujo": "pluma", "palabra": "Vadillo" },
+          { "texto": "Badillo", "dibujo": "pluma", "palabra": "Badillo" }
+        ]
+      }
+    },
+    "c1-nohablo": {
+      "plantilla": "personaje",
+      "datos": {
+        "personaje": "cacique",
+        "pose": "brazos-cruzados",
+        "anios": "1538",
+        "rol": "Casi todos coinciden: no habló",
+        "palabra_anios": "Pero",
+        "palabra_rol": "Pero"
+      }
+    },
+    "c1-repaso-pregunta": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": ["Primer repaso:", "¿en qué", "año fue?"],
+        "resalta": 2,
+        "insignia": "Repaso",
+        "dibujo": "calendario"
+      }
+    },
+    "c1-repaso-1538": {
+      "plantilla": "cifra",
+      "datos": {
+        "cifra": "1538",
+        "rotulo": "Vadillo llega y el cacique no habla",
+        "dibujo": "calendario",
+        "palabra": "mil",
+        "palabra_rotulo": "treinta"
+      }
+    }
+  },
+  "frases": [
+    {
+      "id": "f5", "escena": "c1-mapa-catios",
+      "cortes": [{ "escena": "c1-oficios", "palabra": 10 }, { "escena": "c1-cacique", "palabra": 20 }]
+    },
+    { "id": "f6", "escena": "c1-ruta-vadillo", "cortes": [{ "escena": "c1-agotado", "palabra": 11 }] },
+    { "id": "f7", "escena": "c1-captura", "cortes": [{ "escena": "c1-adivina", "palabra": 12 }], "pausa_despues": 3 },
+    { "id": "f8", "escena": "c1-barranco" },
+    {
+      "id": "f9", "escena": "c1-detalles",
+      "cortes": [{ "escena": "c1-nombres", "palabra": 8 }, { "escena": "c1-nohablo", "palabra": 21 }],
+      "pausa_despues": 2
+    },
+    { "id": "f9b", "escena": "c1-repaso-pregunta", "cortes": [{ "escena": "c1-repaso-1538", "palabra": 6 }] }
+  ]
+}

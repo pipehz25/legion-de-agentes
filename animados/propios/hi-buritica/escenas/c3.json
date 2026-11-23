@@ -1,0 +1,100 @@
+{
+  "capitulo": "c3",
+  "escenas": {
+    "c3-minas": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": ["Minas con dueños", "y trabajadores", "esclavizados"],
+        "resalta": 2,
+        "dibujo": "montana"
+      }
+    },
+    "c3-centeno": {
+      "plantilla": "personaje",
+      "datos": {
+        "personaje": "centeno",
+        "anios": "Siglo XVII",
+        "rol": "Dueña de minas en Buriticá",
+        "palabra_anios": "Una",
+        "palabra_rol": "Una"
+      }
+    },
+    "c3-archivos": {
+      "plantilla": "cifra",
+      "datos": {
+        "cifra": "1642-1645",
+        "rotulo": "Bautizos de hijos de mujeres esclavizadas",
+        "dibujo": "documento",
+        "palabra": "archivos",
+        "palabra_rotulo": "bautizos"
+      }
+    },
+    "c3-personas": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": ["Detrás de cada", "onza de oro,", "personas"],
+        "resalta": 2,
+        "dibujo": "moneda",
+        "palabra_dibujo": "onza"
+      }
+    },
+    "c3-votar": {
+      "plantilla": "fichas",
+      "datos": {
+        "titulo": "«El oro se acabó en la Colonia»",
+        "fichas": [
+          { "texto": "Mito", "dibujo": "derrumbe", "palabra": "Mito" },
+          { "texto": "Realidad", "dibujo": "bandera", "palabra": "realidad" }
+        ]
+      }
+    },
+    "c3-veredicto": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": ["Mito:", "la explotación", "decayó"],
+        "resalta": 0,
+        "dibujo": "derrumbe",
+        "palabra_dibujo": "Mito"
+      }
+    },
+    "c3-doscientos": {
+      "plantilla": "cifra",
+      "datos": {
+        "valor": 200,
+        "unidad": "años",
+        "antes": "unos",
+        "rotulo": "de agricultura dominando la región",
+        "dibujo": "reloj",
+        "palabra": "doscientos",
+        "palabra_rotulo": "región"
+      }
+    },
+    "c3-espera": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": ["Doscientos años", "sin gran minería"],
+        "resalta": 1,
+        "dibujo": "montana"
+      }
+    },
+    "c3-parque": {
+      "plantilla": "recorte",
+      "datos": {
+        "foto": "File:Buriticá parque.jpg",
+        "pie": "Parque de Buriticá, hoy",
+        "insignia": "Buriticá",
+        "titulo": "El oro esperó",
+        "texto": "Y nadie lo olvidó",
+        "palabras": { "foto": "El", "titulo": "esperó", "texto": "nadie" }
+      }
+    }
+  },
+  "frases": [
+    { "id": "f15", "escena": "c3-minas", "cortes": [{ "escena": "c3-centeno", "palabra": 12 }] },
+    { "id": "f16", "escena": "c3-archivos", "cortes": [{ "escena": "c3-personas", "palabra": 16 }], "pausa_despues": 1.2 },
+    { "id": "f17", "escena": "c3-votar", "pausa_despues": 3 },
+    { "id": "f18", "escena": "c3-veredicto", "cortes": [{ "escena": "c3-doscientos", "palabra": 9 }] },
+    { "id": "f18b", "escena": "c3-espera", "cortes": [{ "escena": "c3-parque", "palabra": 7 }] }
+  ]
+}
+

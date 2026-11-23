@@ -1,0 +1,53 @@
+{
+  "capitulo": "c4",
+  "escenas": {
+    "c4-mandaba": { "plantilla": "titular", "datos": { "lineas": ["El oro seguía", "mandando"], "resalta": 1, "insignia": "Colombia, siglos XVI al XIX", "dibujo": "moneda", "palabra_dibujo": "oro" } },
+    "c4-hacia-antioquia": { "plantilla": "mapa", "datos": {
+      "vistas": [
+        { "centro": [-75, 4.8], "ancho": 22 },
+        { "centro": [-75.9, 6.7], "ancho": 9, "palabra": "centro", "dur": 1.2 }
+      ],
+      "paises": [{ "id": "colombia", "color": "acento2", "opacidad": 0.3, "en": 0 }],
+      "rotulos": [{ "texto": "Pacífico", "lugar": [-80.3, 6.0], "estilo": "mar", "en": 0.05 }],
+      "rutas": [{ "puntos": [[-77.6, 7.4], [-76.2, 6.85]], "estilo": "flecha", "color": "acento", "palabra": "moviendo", "dur": 0.9 }],
+      "marcas": [{ "texto": "Buriticá", "lugar": [-75.91, 6.72], "lado": "derecha", "tam": 30, "palabra": "hacia" }],
+      "cartela": { "titulo": "El oro, hacia Antioquia", "sub": "Su centro dejó de ser el Pacífico", "en": 0.05 } } },
+    "c4-concesiones": { "plantilla": "fichas", "datos": { "titulo": "Primeras décadas de la República", "fichas": [
+      { "texto": "Concesiones mineras", "dibujo": "documento", "palabra": "concesiones" },
+      { "texto": "Compañías británicas", "dibujo": "bandera", "palabra": "británicas" },
+      { "texto": "Casi todas fracasaron", "dibujo": "derrumbe", "palabra": "que", "resalta": true } ] } },
+    "c4-pregunta-siglos": { "plantilla": "titular", "datos": { "lineas": ["¿Y en Buriticá,", "qué pasó?"], "resalta": 1, "insignia": "Siglos XIX y XX", "dibujo": "reloj", "palabra_dibujo": "siglos" } },
+    "c4-registros": { "plantilla": "recorte", "datos": { "foto": "File:Buriticá parque.jpg", "pie": "Parque de Buriticá, hoy", "insignia": "Siglos XIX y XX", "titulo": "Registros escasos", "texto": "Las fuentes no coinciden", "lado": "izquierda", "palabras": { "foto": "Aquí", "titulo": "registros", "texto": "fuentes" } } },
+    "c4-dos-versiones": { "plantilla": "fichas", "datos": { "titulo": "Dos versiones", "fichas": [
+      { "texto": "Pequeños mineros", "dibujo": "montana", "palabra": "pequeños" },
+      { "texto": "La fiebre llegó después", "dibujo": "reloj", "palabra": "fiebre", "resalta": true } ] } },
+    "c4-adivina-anio": { "plantilla": "titular", "datos": { "lineas": ["¿En qué año llegó", "la minería", "moderna?"], "resalta": 2, "insignia": "Adivina", "dibujo": "reloj", "palabra_dibujo": "año" } },
+    "c4-pista": { "plantilla": "cifra", "datos": { "cifra": "20??", "rotulo": "Pista: es de este siglo", "dibujo": "calendario", "palabra": "pista", "palabra_rotulo": "este" } },
+    "c4-2007": { "plantilla": "titular", "datos": { "lineas": ["2007:", "Continental Gold"], "resalta": 1, "insignia": "Empresa canadiense", "dibujo": "moneda", "palabra_dibujo": "empresa" } },
+    "c4-mineria-moderna": { "plantilla": "mapa", "datos": {
+      "vistas": [{ "centro": [-75.7, 6.5], "ancho": 8 }],
+      "paises": [{ "id": "colombia", "color": "acento2", "opacidad": 0.3, "en": 0 }],
+      "marcas": [{ "texto": "Buriticá", "lugar": [-75.91, 6.72], "lado": "derecha", "tam": 32, "en": 0.1 }],"rotulos": [{ "texto": "Antioquia", "lugar": [-74.6, 7.4], "estilo": "pais", "tam": 44, "en": 0.3 }],
+      "cartela": { "titulo": "2007: minería moderna", "sub": "Primer proyecto de la región", "palabra": "primer" } } },
+    "c4-cinco-siglos": { "plantilla": "cifra", "datos": { "valor": 469, "unidad": "años", "rotulo": "del cacique de 1538 a 2007", "dibujo": "calendario", "palabra": "cacique", "palabra_rotulo": "esa" } },
+    "c4-repaso-titulo": { "plantilla": "titular", "datos": { "lineas": ["La cadena", "completa"], "resalta": 1, "insignia": "Repaso", "dibujo": "ancla", "palabra_dibujo": "cadena" } },
+    "c4-cadena": { "plantilla": "cadena", "datos": { "eslabones": [
+      { "texto": "1538 cacique", "palabra": "1538," },
+      { "texto": "1541 ciudad", "palabra": "1541," },
+      { "texto": "1546 villa", "palabra": "1546," } ] } },
+    "c4-repaso-linea": { "plantilla": "linea-tiempo", "datos": { "titulo": "Del cacique a la minería moderna", "actual": 3, "palabra_actual": "2007,", "hitos": [
+      { "anio": "1538", "texto": "El cacique no habló" },
+      { "anio": "1541", "texto": "Ciudad de Antioquia" },
+      { "anio": "1546", "texto": "Villa de Santa Fe" },
+      { "anio": "2007", "texto": "Minería moderna" } ] } }
+  },
+  "frases": [
+    { "id": "f19", "escena": "c4-mandaba", "cortes": [{ "escena": "c4-hacia-antioquia", "palabra": 22 }] },
+    { "id": "f20", "escena": "c4-concesiones" },
+    { "id": "f21", "escena": "c4-pregunta-siglos", "cortes": [{ "escena": "c4-registros", "palabra": 14 }, { "escena": "c4-dos-versiones", "palabra": 26 }] },
+    { "id": "f22", "escena": "c4-adivina-anio", "cortes": [{ "escena": "c4-pista", "palabra": 13 }], "pausa_despues": 2.5 },
+    { "id": "f23", "escena": "c4-2007", "cortes": [{ "escena": "c4-mineria-moderna", "palabra": 8 }, { "escena": "c4-cinco-siglos", "palabra": 21 }] },
+    { "id": "f23b", "escena": "c4-repaso-titulo", "cortes": [{ "escena": "c4-cadena", "palabra": 4 }, { "escena": "c4-repaso-linea", "palabra": 17 }] }
+  ]
+}
+

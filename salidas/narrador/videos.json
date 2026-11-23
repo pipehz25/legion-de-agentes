@@ -1,6 +1,20 @@
 {
-  "actualizado": "2026-11-23T15:48:58.236Z",
+  "actualizado": "2026-11-23T16:59:58.177Z",
   "videos": [
+    {
+      "id": "hi-buritica",
+      "tipo": "largo",
+      "titulo": "La historia del oro en Buriticá: del cacique a la mina más grande de Colombia",
+      "duracion_s": 395.2,
+      "producido": "2026-11-23T16:59:58.147Z",
+      "video": "salidas/narrador/hi-buritica/hi-buritica.mp4",
+      "portada": "salidas/narrador/hi-buritica/miniatura.jpg",
+      "fuentes": "salidas/narrador/hi-buritica/fuentes.md",
+      "descripcion": "salidas/narrador/hi-buritica/descripcion.txt",
+      "subtitulos": "salidas/narrador/hi-buritica/hi-buritica.srt",
+      "video_en_esta_pc": true,
+      "publicacion": "La historia del oro en Buriticá: del cacique a la mina más grande de Colombia\n\n#historia #colombia #antioquia #oro"
+    },
     {
       "id": "hi-boyaca",
       "tipo": "largo",

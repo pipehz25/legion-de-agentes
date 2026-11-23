@@ -1,0 +1,85 @@
+{
+  "id": "hi-buritica",
+  "tipo": "largo",
+  "modo": "escenas",
+  "titulo": "La historia del oro en Buriticá: del cacique a la mina más grande de Colombia",
+  "duracion_s": 395.2,
+  "volumen": "I: -14.0 LUFS",
+  "voz": "elevenlabs / C12mZePhNoo0RoTXhSFV",
+  "formato": "1920x1080",
+  "capitulos": [
+    {
+      "inicio": "00:00",
+      "titulo": "Introducción"
+    },
+    {
+      "inicio": "00:41",
+      "titulo": "El cacique que no habló"
+    },
+    {
+      "inicio": "01:45",
+      "titulo": "Las ciudades de Robledo"
+    },
+    {
+      "inicio": "02:54",
+      "titulo": "El oro de la Colonia"
+    },
+    {
+      "inicio": "03:44",
+      "titulo": "Dos siglos de silencio"
+    },
+    {
+      "inicio": "05:01",
+      "titulo": "El oro de hoy"
+    }
+  ],
+  "escenas": 76,
+  "imagenes": 3,
+  "avisos": 21,
+  "tiempo_produccion_s": 756,
+  "tiempos_s": {
+    "voz": 12.6,
+    "fotos": 0.1,
+    "miniatura": 6.8,
+    "capitulos": 720.4,
+    "union": 15.4
+  },
+  "render_capitulos": {
+    "c0": {
+      "duracion_s": 41.3,
+      "render_s": 58,
+      "revision_s": 16
+    },
+    "c1": {
+      "duracion_s": 63.733,
+      "render_s": 78,
+      "revision_s": 19
+    },
+    "c2": {
+      "duracion_s": 68.967,
+      "render_s": 111,
+      "revision_s": 20
+    },
+    "c3": {
+      "duracion_s": 50.833,
+      "render_s": 67,
+      "revision_s": 17
+    },
+    "c4": {
+      "duracion_s": 76.667,
+      "render_s": 96,
+      "revision_s": 21
+    },
+    "c5": {
+      "duracion_s": 93.6,
+      "render_s": 192,
+      "revision_s": 24
+    }
+  },
+  "producido": "2026-11-23T16:59:58.147Z",
+  "video": "hi-buritica.mp4",
+  "portada": "miniatura.jpg",
+  "subtitulos": "hi-buritica.srt",
+  "descripcion": "descripcion.txt",
+  "guion": "animados/propios/hi-buritica/guion.json"
+}
