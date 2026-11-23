@@ -61,6 +61,8 @@ $texto = if ($Cierre) { "$Guion $($Cierre.Trim())" } else { $Guion }
 $meta = $null
 if (Test-Path (Join-Path $dir 'meta.json')) { $meta = [IO.File]::ReadAllText((Join-Path $dir 'meta.json'), $utf8) | ConvertFrom-Json }
 $modo = if ($meta -and $meta.modo) { [string]$meta.modo } else { 'marco' }
+# El logo se resuelve antes de entrar en trabajo-narrado: con una ruta relativa, Test-Path fallaba ahi dentro y el video salia sin logo
+if ($Logo) { if (Test-Path $Logo) { $Logo = (Resolve-Path $Logo).Path } else { Write-Warning "No encuentro el logo $Logo; el video sale sin logo." } }
 
 $trabajo = Join-Path $dir 'trabajo-narrado'
 New-Item -ItemType Directory -Force $trabajo | Out-Null
@@ -68,6 +70,9 @@ Push-Location $trabajo
 try {
     function TiempoAss($s) { $t = [TimeSpan]::FromSeconds([math]::Max(0, $s)); '{0}:{1:D2}:{2:D2}.{3:D2}' -f $t.Hours, $t.Minutes, $t.Seconds, [int][math]::Floor($t.Milliseconds / 10) }
     $dc = [double]::Parse((& $ffprobe -v error -show_entries format=duration -of csv=p=0 $clip), $cultura)
+    # Ancho del clip: 1080 o 1440 (clipero.ps1 -Resolucion 1440). El .ass se escala solo; el logo se escala con $k.
+    $anchoClip = [int](& $ffprobe -v error -select_streams v:0 -show_entries stream=width -of csv=p=0 $clip)
+    $k = $anchoClip / 1080.0
     $margen = if ($modo -eq 'marco') { 100 } else { 430 }
     $eventos = New-Object Collections.Generic.List[string]
     $palabras = @()
@@ -145,14 +150,17 @@ try {
         Copy-Item $Logo 'logo.png' -Force
         $iLogo = if ($SinVoz) { 1 } else { 2 }
         $entradas += @('-i', 'logo.png')
-        $yLogo = if ($modo -eq 'marco') { 310 } else { 120 }
-        $video += ";[$($iLogo):v]scale=150:150,format=rgba,geq=r='r(X,Y)':g='g(X,Y)':b='b(X,Y)':a='if(lte(hypot(X-75,Y-75),73),255,0)'[logo];[sv][logo]overlay=x=W-w-28:y=$yLogo[v]"
+        $yLogo = [int][math]::Round($(if ($modo -eq 'marco') { 310 } else { 120 }) * $k)
+        $lado = [int][math]::Round(150 * $k); $centro = $lado / 2; $radio = $centro - [math]::Round(2 * $k)
+        $borde = [int][math]::Round(28 * $k)
+        $video += ";[$($iLogo):v]scale=$($lado):$($lado):flags=lanczos,format=rgba,geq=r='r(X,Y)':g='g(X,Y)':b='b(X,Y)':a='if(lte(hypot(X-$centro,Y-$centro),$radio),255,0)'[logo];[sv][logo]overlay=x=W-w-$($borde):y=$yLogo[v]"
     } else { $video = $video -replace '\[sv\]$', '[v]' }
     $audio = if ($SinVoz) { '[0:a]anull[a]' } else {
         "[0:a]volume=$($VolumenJuego.ToString($cultura))[g];[1:a]adelay=$([int]($inicio * 1000)):all=1[vz];[g][vz]amix=inputs=2:duration=first:normalize=0[a]"
     }
     $args1 = $entradas + @('-filter_complex', "$video;$audio", '-map', '[v]', '-map', '[a]', '-t', $final.ToString('0.00', $cultura),
-        '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '21', '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '160k', '-movflags', '+faststart', '..\narrado.mp4')
+        '-c:v', 'libx264') + $(if ($anchoClip -gt 1080) { @('-preset', 'medium', '-crf', '17') } else { @('-preset', 'veryfast', '-crf', '21') }) + @(
+        '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '160k', '-movflags', '+faststart', '..\narrado.mp4')
     & $ffmpeg -v error @args1
     if ($LASTEXITCODE -ne 0 -or -not (Test-Path '..\narrado.mp4')) { throw 'ffmpeg no produjo narrado.mp4' }
     & $ffmpeg -v error -y -i '..\narrado.mp4' -vf "fps=4/$($final.ToString('0.00', $cultura)),scale=270:-2,tile=4x1" -frames:v 1 '..\revision-narrado.jpg'

@@ -25,6 +25,9 @@
 #               Sirve para que las variantes de un mismo momento se vean distintas (metodologia.md, seccion 7).
 #            -> salidas/clipero/clips/<Id>/clip.mp4 (1080x1920, subtitulos quemados), portada.jpg y meta.json
 #            -AlturaFuente 720 limita la descarga de origen; la salida sigue siendo 1080x1920 (por defecto: 1080).
+#            -Resolucion 1440: salida en 1440x2560 con escalado lanczos, enfoque suave y codificacion de alta calidad.
+#               YouTube codifica en VP9 los videos de 1440 o mas (los de 1080 los deja en AVC, mas comprimido), y en el
+#               celular se ven bastante mas nitidos. El gancho y los subtitulos se escalan solos (el .ass sigue en 1080x1920).
 # Espacios: si la PC tiene espacio.local.json en la raiz ({ "espacio": "lalo" }), las rutas datos/ y salidas/
 #   de arriba cuelgan de espacios/lalo/. Sin ese archivo, de la raiz.
 # Uso: powershell -NoProfile -ExecutionPolicy Bypass -File legion/02-clipero/clipero.ps1 <accion> ...
@@ -47,6 +50,7 @@ param(
     [string]$Gancho = '',
     [string]$Subs = 'orig',
     [ValidateSet(360,480,720,1080)][int]$AlturaFuente = 1080,
+    [ValidateSet(1080,1440)][int]$Resolucion = 1080,
     [ValidateSet('desenfoque', 'recorte', 'marco')][string]$Modo = 'desenfoque',
     [ValidateSet('clasico', 'amarillo', 'caja')][string]$Estilo = 'clasico',
     # Color de las franjas en -Modo marco: morado liso, atardecer (naranja a rosado), vice (rosado a turquesa) o negro
@@ -546,10 +550,12 @@ $durClip = $fin - $ini
 try {
     YtDlp @('--no-playlist', '-f', "bv*[height<=$AlturaFuente]+ba/b[height<=$AlturaFuente]/b", '--merge-output-format', 'mp4',
         '--downloader-args', 'ffmpeg_i:-rw_timeout 30000000',
+        # --force-keyframes-at-cuts recodifica el tramo; sin esto ffmpeg usa CRF 23 y el clip pierde una generacion de calidad
+        '--downloader-args', 'ffmpeg_o:-crf 14 -preset veryfast',
         '--download-sections', "*$(Num $ini)-$(Num $fin)", '--force-keyframes-at-cuts', '-o', (Join-Path $trabajo 'seccion.%(ext)s'), $Url)
     $video = Get-ChildItem $trabajo -Filter 'seccion.*' | Select-Object -First 1
     if (-not $video) { throw 'yt-dlp no produjo el video de la seccion' }
-    $sourceVideoInfo = (& $ffprobe -v error -select_streams v:0 -show_entries stream=width,height -of json $video.FullName | Out-String | ConvertFrom-Json).streams | Select-Object -First 1
+    $sourceVideoInfo = (& $ffprobe -v error -select_streams v:0 -show_entries stream=width,height,r_frame_rate -of json $video.FullName | Out-String | ConvertFrom-Json).streams | Select-Object -First 1
 
     # -Subs whisper: transcribe solo el tramo del clip (segundos, no horas), para fuentes sin subtitulos.
     # Las palabras se guardan junto a la fuente (palabras-whisper.json) para poder corregirlas con palabras-rev.json y -Subs rev.
@@ -606,21 +612,31 @@ try {
     # La fuente va junto al .ass para no depender de la configuracion de fuentes de ffmpeg en Windows
     Copy-Item (Join-Path $env:WINDIR 'Fonts\arialbd.ttf') $trabajo -ErrorAction SilentlyContinue
 
+    # Tamano de salida: 1080x1920 o, con -Resolucion 1440, 1440x2560; las medidas del marco se escalan con $k.
+    # El .ass sigue en 1080x1920: libass lo escala solo al tamano del cuadro, con el texto nitido.
+    $W = $Resolucion; $H = [int]($Resolucion * 16 / 9); $k = $Resolucion / 1080.0
+    $alta = $Resolucion -gt 1080
+    $nitidez = if ($alta) { ',unsharp=5:5:0.5:5:5:0' } else { '' }
+    # El fondo del marco va a los cuadros por segundo de la fuente: con r=30 fijo, un gameplay a 60 salia a 30
+    $fps = if ([string]$sourceVideoInfo.r_frame_rate -match '^[1-9]\d*(/[1-9]\d*)?$') { [string]$sourceVideoInfo.r_frame_rate } else { '30' }
+    $altoMarco = [int]([math]::Round(1350 * $k / 2) * 2)
+    $yMarco = [int][math]::Round(285 * $k)
     $filtro = if ($Modo -eq 'recorte') {
-        '[0:v]scale=-2:1920,crop=1080:1920,setsar=1,subtitles=subs.ass:fontsdir=.[v]'
+        "[0:v]scale=-2:${H}:flags=lanczos,crop=${W}:${H}${nitidez},setsar=1,subtitles=subs.ass:fontsdir=.[v]"
     } elseif ($Modo -eq 'marco') {
-        # Menos zoom que recorte y sin difuminado: el video a 1350 px de alto en el centro, sobre franjas de -Color
+        # Menos zoom que recorte y sin difuminado: el video a 1350 px de alto (1800 en 1440) en el centro, sobre franjas de -Color
         $fondoMarco = switch ($Color) {
-            'atardecer' { 'gradients=s=1080x1920:c0=0xff9a1f:c1=0xff2e7e:x0=0:y0=0:x1=0:y1=1920:n=2:speed=0:r=30' }
-            'vice' { 'gradients=s=1080x1920:c0=0xff2e9a:c1=0x13c8c8:x0=0:y0=0:x1=1080:y1=1920:n=2:speed=0:r=30' }
-            'negro' { 'color=c=black:s=1080x1920:r=30' }
-            default { 'color=c=0x12062e:s=1080x1920:r=30' }
+            'atardecer' { "gradients=s=${W}x${H}:c0=0xff9a1f:c1=0xff2e7e:x0=0:y0=0:x1=0:y1=${H}:n=2:speed=0:r=${fps}" }
+            'vice' { "gradients=s=${W}x${H}:c0=0xff2e9a:c1=0x13c8c8:x0=0:y0=0:x1=${W}:y1=${H}:n=2:speed=0:r=${fps}" }
+            'negro' { "color=c=black:s=${W}x${H}:r=${fps}" }
+            default { "color=c=0x12062e:s=${W}x${H}:r=${fps}" }
         }
-        "$fondoMarco[fondo];[0:v]scale=-2:1350,crop=1080:1350,setsar=1[frente];[fondo][frente]overlay=0:285:shortest=1,setsar=1,subtitles=subs.ass:fontsdir=.[v]"
+        "$fondoMarco[fondo];[0:v]scale=-2:${altoMarco}:flags=lanczos,crop=${W}:${altoMarco}${nitidez},setsar=1[frente];[fondo][frente]overlay=0:${yMarco}:shortest=1,setsar=1,subtitles=subs.ass:fontsdir=.[v]"
     } else {
-        '[0:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=20:2,eq=brightness=-0.08[fondo];' +
-        '[0:v]scale=1080:-2[frente];[fondo][frente]overlay=(W-w)/2:(H-h)/2,setsar=1,subtitles=subs.ass:fontsdir=.[v]'
+        "[0:v]scale=${W}:${H}:force_original_aspect_ratio=increase,crop=${W}:${H},boxblur=20:2,eq=brightness=-0.08[fondo];" +
+        "[0:v]scale=${W}:-2:flags=lanczos${nitidez}[frente];[fondo][frente]overlay=(W-w)/2:(H-h)/2,setsar=1,subtitles=subs.ass:fontsdir=.[v]"
     }
+    $calidad = if ($alta) { @('-preset', 'medium', '-crf', '17') } else { @('-preset', 'veryfast', '-crf', '21') }
     # Rutas relativas dentro de trabajo/: evita problemas de ffmpeg con acentos y espacios en la ruta del proyecto
     Push-Location $trabajo
     try {
@@ -629,7 +645,7 @@ try {
         $audio = Normalizar $video.Name
         $af = if ($audio.cadena) { @('-af', $audio.cadena, '-ar', '48000') } else { @() }
         $log = FfmpegLog (@('-y', '-i', $video.Name, '-filter_complex', $filtro, '-map', '[v]', '-map', '0:a?') + $af + @(
-            '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '21', '-pix_fmt', 'yuv420p',
+            '-c:v', 'libx264') + $calidad + @('-pix_fmt', 'yuv420p',
             '-c:a', 'aac', '-b:a', '160k', '-movflags', '+faststart', '..\clip.mp4')) 'render.txt'
         if ($audio.cadena) {
             $final = JsonFinal $log
@@ -647,7 +663,7 @@ try {
     $meta = [ordered]@{
         id = $Id; url_fuente = $Url; video_id = $vid
         inicio = [math]::Round($ini, 2); fin = [math]::Round($fin, 2); inicio_hms = Hms $ini; duracion_seg = [math]::Round($real, 1)
-        gancho = $Gancho; subtitulos = $(if ($ws.Count) { $Subs } else { 'ninguno' }); palabras_subtituladas = $ws.Count; modo = $Modo; estilo = $Estilo; color = $(if ($Modo -eq 'marco') { $Color } else { '' })
+        gancho = $Gancho; subtitulos = $(if ($ws.Count) { $Subs } else { 'ninguno' }); palabras_subtituladas = $ws.Count; modo = $Modo; estilo = $Estilo; color = $(if ($Modo -eq 'marco') { $Color } else { '' }); resolucion = "${W}x${H}"
         fuente_ancho = $sourceVideoInfo.width; fuente_alto = $sourceVideoInfo.height
         audio = $audio
         archivo = Relativa (Join-Path $salida 'clip.mp4'); portada = Relativa (Join-Path $salida 'portada.jpg')
