@@ -33,8 +33,8 @@ Crédito: Samulx, "HABLANDO DEL PROYECTO DE LA GANGA ¿QUE PASO ANTIER? 😂".
 
 ## Por qué es relevante ahora
 
-- **Cazador Urbano (ciclo 17):** fuente n.º 1 de `fuentes_para_clips`, la más rápida de los perfiles en la ventana (2.365 vistas/h a las 13,3 h), y evidencia de `formato-el-dia-despues-del-protagonista` (emergente, 80). El tema de fondo son las 72 horas de directo de La Ganga en Medellín, que siguen en curso.
-- **Ventana estimada:** hasta el 2026-11-23 (mientras duran las 72 horas).
+- **Cazador Urbano (ciclo 17):** fuente n.º 1 de `fuentes_para_clips`, la más rápida de los perfiles en la ventana (2.365 vistas/h a las 13,3 h), y evidencia de `formato-el-dia-despues-del-protagonista` (emergente, 80). El tema de fondo son las 72 horas de directo de La Ganga, que acabaron la noche del 22-nov (corrección del Cazador Urbano, ciclo 21).
+- **Ventana estimada:** hasta el 2026-11-23: las 72 horas acabaron la noche del 22-nov y el 23-nov es el día después (Westcol subió ese día el arranque, txl7BeF58KA). Ya está en la bandeja de TikTok desde el 21-nov.
 
 ## Publicación sugerida (estimación, no medida)
 

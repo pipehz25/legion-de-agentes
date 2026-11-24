@@ -35,12 +35,12 @@ Crédito: Samulx, "NO SABEMOS QUE PASO AYER".
 ## Por qué es relevante ahora
 
 - **Cazador Urbano (ciclo 20):** fuente n.º 1 de `fuentes_para_clips` (8.350 vistas/h a las 5,5 h, 3,3 veces la mediana por hora del canal), con `aparece: true` y los tramos limpios 16:00-19:30 y 20:00-23:00. Este momento cae en el primero. Oportunidad `formato-el-dia-despues-del-protagonista` (emergente, 80).
-- Las 72 horas de La Ganga siguen hasta el 23-nov hacia las 19:00.
+- Las 72 horas de La Ganga acabaron la noche del 22-nov (corrección del Cazador Urbano, ciclo 21; antes se dijo 23-nov hacia las 19:00). El clip no habla de cuándo acaban: no cambia nada en el video.
 - **Ventana estimada:** hasta el 2026-11-24 (ventana de la oportunidad).
 
 ## Publicación sugerida (estimación, no medida)
 
-- TikTok (principal): 23-nov por la tarde, mientras siguen las 72 horas, separado de `westcol-mejor-mes`.
+- TikTok (principal): 23-nov por la tarde (el día después de las 72 horas), separado de `westcol-mejor-mes`.
 
 ## Puntaje desglosado (72)
 

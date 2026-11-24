@@ -1,0 +1,17 @@
+{
+    "ok":  true,
+    "plataforma":  "tiktok",
+    "cuenta":  "principal",
+    "clip":  "2026-11-22-westcol-mejor-mes",
+    "simulado":  false,
+    "estado":  "procesando",
+    "id_publicacion":  "v_inbox_file~v2.7711532879125383182",
+    "url":  null,
+    "privacidad":  "borrador",
+    "duracion_seg":  38.4,
+    "avisos":  [
+
+               ],
+    "error":  null,
+    "fecha":  "2026-11-23T19:46:24-05:00"
+}

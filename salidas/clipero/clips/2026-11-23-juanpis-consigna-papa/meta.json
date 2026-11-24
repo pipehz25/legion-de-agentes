@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-23-juanpis-consigna-papa",
+    "url_fuente":  "https://www.youtube.com/watch?v=MoxauCN43ks",
+    "video_id":  "MoxauCN43ks",
+    "inicio":  3037.93,
+    "fin":  3084.66,
+    "inicio_hms":  "0:50:37",
+    "duracion_seg":  46.8,
+    "gancho":  "La felicidad de Juanpis: cuando papá consigna",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  135,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "color":  "",
+    "resolucion":  "1080x1920",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14.2,
+                  "limitador":  true,
+                  "entrada_lufs":  -23.12,
+                  "entrada_tp":  -9.98,
+                  "salida_lufs":  -14.1,
+                  "salida_tp":  -1.06
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-23-juanpis-consigna-papa/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-23-juanpis-consigna-papa/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-23-juanpis-consigna-papa/revision.jpg",
+    "creado":  "2026-11-23T19:22:21.6306097-05:00"
+}

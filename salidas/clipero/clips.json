@@ -1,7 +1,119 @@
 {
-    "generado":  "2026-11-22T20:35:00-05:00",
-    "ciclo":  22,
+    "generado":  "2026-11-23T19:45:00-05:00",
+    "ciclo":  23,
     "clips":  [
+                  {
+                      "id":  "2026-11-23-hh-cuna-inteligente",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  82,
+                      "gancho":  "La cuna con IA que cría sola al bebé",
+                      "archivo":  "salidas/clipero/clips/2026-11-23-hh-cuna-inteligente/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-23-hh-cuna-inteligente/ficha.md",
+                      "duracion_seg":  68.7,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=tHtfHCdcAgk",
+                                     "canal":  "Hablando Huevadas",
+                                     "inicio":  2562.05,
+                                     "fin":  2630.74
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-25"
+                  },
+                  {
+                      "id":  "2026-11-23-juanpis-consigna-papa",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  78,
+                      "gancho":  "La felicidad de Juanpis: cuando papá consigna",
+                      "archivo":  "salidas/clipero/clips/2026-11-23-juanpis-consigna-papa/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-23-juanpis-consigna-papa/ficha.md",
+                      "duracion_seg":  46.8,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=MoxauCN43ks",
+                                     "canal":  "Juanpis González",
+                                     "inicio":  3037.93,
+                                     "fin":  3084.66
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-25"
+                  },
+                  {
+                      "id":  "2026-11-23-ganga-leandro-wakesurf",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  72,
+                      "gancho":  "Le enseñan wakesurf a Leandro en Guatapé",
+                      "archivo":  "salidas/clipero/clips/2026-11-23-ganga-leandro-wakesurf/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-23-ganga-leandro-wakesurf/ficha.md",
+                      "duracion_seg":  39.8,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=9Pmh6QW_evQ",
+                                     "canal":  "Samulx",
+                                     "inicio":  983.53,
+                                     "fin":  1023.34
+                                 },
+                      "oportunidad_cazador":  "formato-primera-vez-en-medellin",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-25"
+                  },
+                  {
+                      "id":  "2026-11-23-ganga-bote-ferrari",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  70,
+                      "gancho":  "¿Un Ferrari o este bote de 350.000?",
+                      "archivo":  "salidas/clipero/clips/2026-11-23-ganga-bote-ferrari/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-23-ganga-bote-ferrari/ficha.md",
+                      "duracion_seg":  25.1,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=9Pmh6QW_evQ",
+                                     "canal":  "Samulx",
+                                     "inicio":  174.61,
+                                     "fin":  199.7
+                                 },
+                      "oportunidad_cazador":  "formato-matematica-del-lujo",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-25"
+                  },
                   {
                       "id":  "2026-11-22-westcol-mejor-mes",
                       "estado":  "listo",
@@ -63,7 +175,7 @@
                       "estado":  "listo",
                       "tipo":  "revelacion",
                       "puntaje":  68,
-                      "gancho":  "Ayer casi se van a Cartagena en privado",
+                      "gancho":  "Casi se van a Cartagena en avión privado",
                       "archivo":  "salidas/clipero/clips/2026-11-22-ganga-cartagena-privado/clip.mp4",
                       "ficha":  "salidas/clipero/clips/2026-11-22-ganga-cartagena-privado/ficha.md",
                       "duracion_seg":  17.8,

@@ -34,7 +34,7 @@ Crédito: Lonche Chacas, "ASI ES PROVENZA DE NOCHE con LA GANGA en COLOMBIA | Lo
 ## Por qué es relevante ahora
 
 - **Cazador Urbano (ciclo 17):** fuente n.º 4 de `fuentes_para_clips`, la que más sobre-rinde del patrón "primera vez" en la ventana (950 vistas/h a las 10,5 h, 2,35 veces lo que rinde el canal). Oportunidad `formato-primera-vez-en-medellin` (emergente, 78): visitante extranjero + guía local + prueba + veredicto, y el Cazador pide "el lugar o el momento concreto en el gancho, no otra vez 'la mejor X'". Lonche es perfil del usuario.
-- **Ventana estimada:** hasta el 2026-11-23 (mientras duran las 72 horas, según la oportunidad).
+- **Ventana estimada:** hasta el 2026-11-23: las 72 horas acabaron la noche del 22-nov (corrección del Cazador Urbano, ciclo 21), pero `formato-primera-vez-en-medellin` sigue hasta el 25-nov porque los mexicanos siguen de ruta. Ya está en la bandeja de TikTok.
 
 ## Publicación sugerida (estimación, no medida)
 

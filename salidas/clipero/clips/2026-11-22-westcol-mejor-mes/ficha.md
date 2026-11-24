@@ -37,7 +37,7 @@ Crédito: WestCOL, "CUANTO ES LO MAXIMO QUE HEMOS GANADO EN 1 MES".
 ## Por qué es relevante ahora
 
 - **Cazador Urbano (ciclo 20):** fuente n.º 11 de `fuentes_para_clips`, con `aparece: true` y la nota de que este corto con la cifra "es lo que decide si el formato sigue el 24-nov". Oportunidad `formato-matematica-del-lujo` (semilla, 69): la cifra del lujo dicha en cámara por el propio perfil. Westcol es perfil de la lista del usuario.
-- Las 72 horas de La Ganga siguen en curso hasta el 23-nov hacia las 19:00 (según Samulx en wcFZHzo1Y-A).
+- Las 72 horas de La Ganga acabaron la noche del 22-nov (corrección del Cazador Urbano, ciclo 21; antes se dijo 23-nov hacia las 19:00). Los textos hablan de "las 72 horas" en pasado o sin tiempo: no cambia nada en el video.
 - **Ventana estimada:** hasta el 2026-11-24 (ventana de la oportunidad).
 
 ## Publicación sugerida (estimación, no medida)
@@ -51,7 +51,7 @@ Crédito: WestCOL, "CUANTO ES LO MAXIMO QUE HEMOS GANADO EN 1 MES".
 | Fuerza del momento | 17/25 | Cifra citable ("2 millones de dólares", "un cheque de 1 millón") con el "a mí no me gusta hablar de precios" delante. Sin picos de repetición; la única marca en comentarios (0:58) es de otro tramo. |
 | Autonomía | 13/20 | Con el gancho se entiende solo, pero hablan varios a la vez y dos tramos de subtítulos mezclan voces. |
 | Gancho | 12/15 | Pregunta con el nombre del perfil desde el segundo 0; la cifra llega a los 14 s ("más de 1 millón"). |
-| Relevancia ahora | 21/25 | Perfil del usuario en su propio canal; fuente pedida por el Cazador para `formato-matematica-del-lujo` (semilla, 69); 72 horas de La Ganga en curso. |
+| Relevancia ahora | 21/25 | Perfil del usuario en su propio canal; fuente pedida por el Cazador para `formato-matematica-del-lujo` (semilla, 69); las 72 horas de La Ganga acababan de terminar (noche del 22-nov). |
 | Frescura del clip | 13/15 | Sin recortes del momento: búsqueda de YouTube del 22-nov a las 20:14 ("westcol cuanto gana en un mes millones de dolares ganga", esta semana: 1 resultado, de otro momento) y búsqueda web (solo notas de 2023 y 2025 sobre otras cifras suyas). |
 
 ## Notas técnicas

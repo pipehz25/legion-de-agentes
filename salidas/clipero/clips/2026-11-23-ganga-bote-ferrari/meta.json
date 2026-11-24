@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-23-ganga-bote-ferrari",
+    "url_fuente":  "https://www.youtube.com/watch?v=9Pmh6QW_evQ",
+    "video_id":  "9Pmh6QW_evQ",
+    "inicio":  174.61,
+    "fin":  199.7,
+    "inicio_hms":  "0:02:54",
+    "duracion_seg":  25.1,
+    "gancho":  "¿Un Ferrari o este bote de 350.000?",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  85,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "color":  "",
+    "resolucion":  "1080x1920",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -13.4,
+                  "entrada_tp":  -0.71,
+                  "salida_lufs":  -14.07,
+                  "salida_tp":  -1.31
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-23-ganga-bote-ferrari/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-23-ganga-bote-ferrari/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-23-ganga-bote-ferrari/revision.jpg",
+    "creado":  "2026-11-23T19:31:55.1850907-05:00"
+}

@@ -1,8 +1,8 @@
 {
-  "actualizado": "2026-11-22T20:20:00-05:00",
-  "ciclo": 11,
+  "actualizado": "2026-11-23T00:45:00-05:00",
+  "ciclo": 12,
   "rotacion": {
-    "plataformas": { "youtube": "2026-11-22", "x": "2026-11-22", "tiktok": "2026-11-22", "instagram": null, "facebook": null, "kick": null },
+    "plataformas": { "youtube": "2026-11-23", "x": "2026-11-23", "tiktok": "2026-11-23", "instagram": null, "facebook": null, "kick": null },
     "_rotacion_nota_ciclo_10": "Ciclo 10 (domingo 22-nov, 12:31-12:40): TikTok solo con @naide.sabe.nada (yt-dlp), para saber si el 14x12 ya está publicado: no. Dos transcripciones con metodo_transcripcion: FranCupido Cancún 1 Ep. 8 (ya tenía subtítulos automáticos a los 5 min de publicarse) y el Voz Populi del 22-nov. Las llamadas a yt-dlp se hicieron con un script que mata el proceso a los 20-40 s, para no pasar de 60 s por comando ni dejar procesos abiertos. Instagram, Facebook y Kick siguen sin explorar.",
     "_rotacion_nota_ciclo_9": "Ciclo 9 (sábado 21-nov, 20:56-21:05): TikTok con yt-dlp en @naide.sabe.nada (para saber si el 14x12 ya está publicado: no) y @lisspereira. Cuatro transcripciones nuevas con metodo_transcripcion: Plática de Compas Ep. 10 de Franco (solo el arranque), Mestizos Precisos 16, el segmento del 'Abelardo' de Voz Populi y Nadie Sabe Nada 14x12; para dar minutos exactos se buscan frases en el VTT. Las revisiones de canal siguen en dos pasos para no pasar de 60 s por comando. Instagram, Facebook y Kick siguen sin explorar.",
     "_rotacion_nota_ciclo_8": "Ciclo 8: TikTok solo con @larevuelta_tve (yt-dlp), para medir lo que pasó con el programa de Emilia y el del 18-nov. Cinco transcripciones de YouTube leídas con el método de metodo_transcripcion: La Luciérnaga del 19 y del 20-nov, La Revuelta (Candela Peña), La Cotorrisa 400 (solo una búsqueda de palabras), Drunk Comedy cap. 8 y el Boletín del Gomelo con Esmeralda Hernández. Para no pasar de 60 s por comando (orden del orquestador), las revisiones de canal se hicieron en dos pasos: lista rápida con yt-dlp --flat-playlist y la fecha aproximada (extractor-args youtubetab:approximate_date), y después los metadatos completos solo de las candidatas, de 2 a 5 videos por llamada. Instagram, Facebook y Kick siguen sin explorar, por las mismas razones.",
@@ -12,11 +12,12 @@
     "_rotacion_nota": "TikTok se intentó en el ciclo 2 con búsquedas site:tiktok.com y en el ciclo 3 leyendo un perfil con WebFetch; las dos vías fallan. En el ciclo 4 se encontró una que sí funciona: herramientas/bin/yt-dlp.exe --flat-playlist --playlist-end 10 --print \"%(id)s | %(timestamp)s | %(view_count)s | %(like_count)s | %(uploader)s | %(title)s\" https://www.tiktok.com/@<usuario>. En el ciclo 5 se exploró a fondo por primera vez: @juanpisgonzalez (confirmado en la descripción de YouTube), @vorterixcom (confirmado en la descripción del canal de recortes de Paren la Mano), @lisspereira y @naide.sabe.nada. La Cotorrisa, Franco y Jhovanoty no enlazan ningún TikTok en sus descripciones ni en su web, así que no se miden (nunca se adivina el usuario). Instagram, Facebook y Kick siguen sin explorar: Instagram no deja listar sin sesión y ningún perfil hace directos en Kick.",
     "metodo_tiktok": "yt-dlp --flat-playlist sobre https://www.tiktok.com/@<usuario>, sin descargar nada. El usuario se confirma antes con la descripción de un video suyo de YouTube o con su web: nunca se adivina. La fecha es un timestamp Unix (UTC).",
     "nichos": {
-      "comedia y stand-up": "2026-11-22",
-      "humoristas y creadores de humor": "2026-11-22",
-      "momentos graciosos de la política colombiana": "2026-11-22"
+      "comedia y stand-up": "2026-11-23",
+      "humoristas y creadores de humor": "2026-11-23",
+      "momentos graciosos de la política colombiana": "2026-11-23"
     },
-    "_rotacion_nota_ciclo_11": "Ciclo 11 (domingo 22-nov, 19:58-20:10): TikTok solo con @naide.sabe.nada (yt-dlp), para saber si el 14x12 ya está publicado: no. Una transcripción con metodo_transcripcion: 'ESPAÑOLES VS LATINOAMERICANOS' de Ballarta (excluido). La del estreno de Juanpis no se pudo bajar mientras dura el estreno. Todas las llamadas a yt-dlp y a clipero.ps1 llevan un tope de 40-58 s y piden a Windows que no se suspenda mientras duran. Instagram, Facebook y Kick siguen sin explorar (Kick, por orden del orquestador)."
+    "_rotacion_nota_ciclo_11": "Ciclo 11 (domingo 22-nov, 19:58-20:10): TikTok solo con @naide.sabe.nada (yt-dlp), para saber si el 14x12 ya está publicado: no. Una transcripción con metodo_transcripcion: 'ESPAÑOLES VS LATINOAMERICANOS' de Ballarta (excluido). La del estreno de Juanpis no se pudo bajar mientras dura el estreno. Todas las llamadas a yt-dlp y a clipero.ps1 llevan un tope de 40-58 s y piden a Windows que no se suspenda mientras duran. Instagram, Facebook y Kick siguen sin explorar (Kick, por orden del orquestador).",
+    "_rotacion_nota_ciclo_12": "Ciclo 12 (lunes 23-nov, 00:24-00:45): TikTok solo con @juanpisgonzalez (yt-dlp), para saber si ya publicó algo del episodio con Brenda Asnicar: no. Tres transcripciones enteras con metodo_transcripcion: Juanpis con Brenda Asnicar, Hablando Huevadas [VICKY LA ROBOT] y el Anecdotario 379; los minutos exactos salen de agrupar el VTT en cubos de 5 s alrededor de cada momento. Las búsquedas de YouTube se hicieron con yt-dlp directo sobre la página de resultados con el filtro de hoy (sp=EgIIAg%3D%3D), sin -Detalle, para no pasar de 60 s. Todas las llamadas llevan un tope de 45-55 s que mata el proceso. Instagram, Facebook y Kick siguen sin explorar (Kick, por orden del orquestador)."
   },
   "presupuesto_usado_ciclo_10": {
     "busquedas_web": 2,
@@ -332,6 +333,20 @@
         "excluidos": [
           { "url": "https://www.youtube.com/watch?v=MPF2-Bkw3I4", "politica": "ninguna (stand-up de Carlos Ballarta sobre España y Latinoamérica)", "motivo": "No es político, pero se anota aquí porque se ríe de nacionalidades y rasgos raciales. No cuenta para el equilibrio" }
         ]
+      },
+      {
+        "ciclo": 12,
+        "fecha": "2026-11-23",
+        "propuestos": {},
+        "detalle": [],
+        "nota": "Ningún momento político propuesto: lunes de madrugada, sin Congreso, La Luciérnaga ni Voz Populi desde el viernes. 'debate Congreso Colombia senador' y 'humor politico Colombia' con el filtro de hoy solo traen cortos de opinión partidista y el resumen semanal de Voz Populi (nXUsJBNNdu8, ya leído en el ciclo 10). En X Colombia (05:15 UTC) siguen '#AbelardoRenuncieYa', 'Dictadura' y 'MinTIC', consignas sin humor. Las tres fuentes nuevas del ciclo no son políticas. El Clipero (ciclo 22) no cortó nada de risas: lo cortado sigue en derecha 1, centroizquierda 1 y varias 1.",
+        "repetidos_sin_contar": [
+          { "url": "https://www.youtube.com/watch?v=1umsdaFlemE", "tramo": "1:58:09-2:00:10", "politica": "derecha (imitación del presidente Abelardo de la Espriella en La Luciérnaga)", "nota": "Ya contó en el ciclo 8. Sigue en la reserva y sale de la ventana hoy a las 15:58" }
+        ],
+        "excluidos": [
+          { "url": "https://www.youtube.com/watch?v=MoxauCN43ks", "tramo": "0:05:00-0:05:20", "politica": "centro (Claudia López, Alianza Verde), en boca del personaje de Juanpis", "motivo": "'Claudia López terminó siendo así por el guaro... una mujer que vende arepas', justo después de 'una aguardientera lesbianas': insinúa su orientación. No cuenta para el equilibrio" },
+          { "url": "https://www.youtube.com/watch?v=5tZ_GGz7q8s", "tramo": "0:46:52-0:48:40", "politica": "ninguna corriente colombiana (un dictador de Nicaragua, sin nombrar)", "motivo": "Farid Dieck cuenta que una página usa su voz clonada para promocionar a ese dictador. Política extranjera y deepfake: el clip de la voz clonada corta antes, en 0:46:51" }
+        ]
       }
     ],
     "acumulado": {
@@ -348,12 +363,13 @@
       "derecha": 1,
       "varias": 1,
       "centroizquierda": 1,
+      "nota_ciclo_12": "Clipero, ciclo 22 (20:13-20:35 del 22-nov): tres clips urbanos y ninguno de risas; no llegó a leer el estreno de Juanpis. Sin cambios.",
       "nota_ciclo_11": "Clipero, ciclo 21 (12:45-13:25 del 22-nov): un clip de risas, no político (2026-11-22-francupido-bombera-carga). Sin cambios.",
       "nota_ciclo_10": "Clipero, ciclo 20 (21:12-21:45 del 21-nov): dos clips de risas, ninguno político (2026-11-21-nsn-robot-guardaespaldas y 2026-11-21-quevedo-policia-foto). La carta a los ministros no se cortó, por el equilibrio. Sin cambios.",
       "nota_ciclo_9": "salidas/clipero/clips.json, ciclo 19 del Clipero (11:45 del 21-nov): se suma el poema de Roy Barreras (2026-11-21-roy-barreras-neruda, centroizquierda, en persona; autoburla). La carta a los ministros (derecha) no se cortó.",
       "nota": "Clips con campo politica en salidas/clipero/clips.json (generado a las 01:50 del 18-nov, ciclo 18 del Clipero): el disfraz de De la Espriella de Jhovanoty (2026-11-13-jhovanoty-faja-disfraz, derecha; salió en TikTok risas el 18-nov) y la sátira del IVA de La Luciérnaga (2026-11-18-luciernaga-imitadores-iva, varias: imitaciones de Claudia López y de Uribe; mandada como borrador a TikTok risas el 20-nov). Los momentos de centro (Claudia López) e izquierda (Petro) de Voz Populi de los ciclos 1 y 2 se propusieron y no se cortaron."
     },
-    "alerta": "Ciclo 11: lo propuesto y lo cortado no cambian (propuesto: izquierda y centroizquierda 2, derecha 2, centro 1, varias 1; cortado: derecha 1, centroizquierda 1, varias 1). Es domingo por la noche y no hay ninguna fuente política nueva. La carta a los ministros sale de la ventana el 23-nov a las 15:58. Lo próximo de política es el lunes 23-nov: La Luciérnaga, Voz Populi y el Congreso. Siguen pendientes del usuario las opciones (a) sátira de archivo con fecha comprobada y (b) pausa de la política. Lo que sigue es del ciclo 10: Ciclo 10: lo propuesto y lo cortado no cambian (propuesto: izquierda y centroizquierda 2, derecha 2, centro 1, varias 1; cortado: derecha 1, centroizquierda 1, varias 1). La carta a los ministros pasa a la reserva y sale de la ventana el 23-nov. Tercer segmento seguido de Voz Populi sin ninguna pieza válida: lo que sacan del lado de la izquierda va al cuerpo, a la vida privada, a los títulos de Verónica Estrada (caso judicial) o se ríe de un bando entero. El Congreso sigue sin un momento gracioso nuevo en noviembre. Siguen pendientes del usuario las opciones (a) sátira de archivo con fecha comprobada y (b) pausa de la política."
+    "alerta": "Ciclo 12: lo propuesto y lo cortado siguen igual (propuesto: izquierda y centroizquierda 2, derecha 2, centro 1, varias 1; cortado: derecha 1, centroizquierda 1, varias 1). No hay ninguna fuente política nueva desde el viernes. La carta a los ministros sale de la ventana hoy a las 15:58. Lo próximo de política es hoy lunes 23-nov: La Luciérnaga, Voz Populi y el Congreso. Siguen pendientes del usuario las opciones (a) sátira de archivo con fecha comprobada y (b) pausa de la política. Lo que sigue es del ciclo 11: Ciclo 11: lo propuesto y lo cortado no cambian (propuesto: izquierda y centroizquierda 2, derecha 2, centro 1, varias 1; cortado: derecha 1, centroizquierda 1, varias 1). Es domingo por la noche y no hay ninguna fuente política nueva. La carta a los ministros sale de la ventana el 23-nov a las 15:58. Lo próximo de política es el lunes 23-nov: La Luciérnaga, Voz Populi y el Congreso. Siguen pendientes del usuario las opciones (a) sátira de archivo con fecha comprobada y (b) pausa de la política. Lo que sigue es del ciclo 10: Ciclo 10: lo propuesto y lo cortado no cambian (propuesto: izquierda y centroizquierda 2, derecha 2, centro 1, varias 1; cortado: derecha 1, centroizquierda 1, varias 1). La carta a los ministros pasa a la reserva y sale de la ventana el 23-nov. Tercer segmento seguido de Voz Populi sin ninguna pieza válida: lo que sacan del lado de la izquierda va al cuerpo, a la vida privada, a los títulos de Verónica Estrada (caso judicial) o se ríe de un bando entero. El Congreso sigue sin un momento gracioso nuevo en noviembre. Siguen pendientes del usuario las opciones (a) sátira de archivo con fecha comprobada y (b) pausa de la política."
   },
   "patrones": [
     {
@@ -571,5 +587,12 @@
     "busquedas_youtube": 1,
     "revisiones_de_canal": 12,
     "nota": "Ciclo 11, domingo 22-nov, de 19:58 a 20:20, 7,3 h después del 10. Pedido del orquestador: calidad antes que cantidad, un máximo de 60 s por comando, sin procesos en segundo plano y sin Kick. Lecturas: trends24 Colombia y México, el TikTok de @naide.sabe.nada y la transcripción de Ballarta. Búsqueda web: 'MinTIC censura' (tendencias 'Censura' y 'Dictadura' de X Colombia), sin nada del día ni de humor. YouTube: 'Petro humor imitación' -Hoy, sin -Detalle (solo repite el Voz Populi de la mañana). Revisiones de canal: 12 perfiles. No se gastó el resto: los estrenos del domingo salen después de las 20:00 y no se pueden leer mientras duran."
+  },
+  "presupuesto_usado_ciclo_12": {
+    "busquedas_web": 1,
+    "lecturas_web": 2,
+    "busquedas_youtube": 4,
+    "revisiones_de_canal": 13,
+    "nota": "Ciclo 12, lunes 23-nov, de 00:24 a 00:45, 4,4 h después del 11. Pedido del orquestador: calidad antes que cantidad, centrarse en lo salido desde las 20:20, un máximo de 60 s por comando, sin procesos en segundo plano y sin Kick. Lecturas: trends24 Colombia y México. Búsqueda web: 'Paloma Valencia Petro 22 noviembre 2026' (tendencia 'Paloma' de X Colombia), sin nada del día. YouTube, con yt-dlp directo y el filtro de hoy: 'stand up comedia', 'podcast comedia episodio', 'debate Congreso Colombia senador' y 'humor politico Colombia': nada en español que sobre-rinda ni ningún momento político. Revisiones de canal: 12 perfiles y el TikTok de @juanpisgonzalez. Tres transcripciones leídas enteras (Juanpis, Hablando Huevadas y el Anecdotario 379), con los minutos afinados en cubos de 5 s."
   }
 }

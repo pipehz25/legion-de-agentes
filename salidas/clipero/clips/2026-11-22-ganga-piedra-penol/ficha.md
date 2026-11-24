@@ -34,7 +34,7 @@ Crédito: Lonche Chacas, "FUI A GUATAPE con WESTCOL, WILLITO, LEANDRO y CHANTY *
 ## Por qué es relevante ahora
 
 - **Cazador Urbano (ciclos 18 y 19):** fuente de `fuentes_para_clips` (n.º 1 en el ciclo 18, n.º 8 en el 19: 3,85 veces la mediana del canal, aunque frena). Oportunidad `formato-primera-vez-en-medellin` (emergente, 83): el sitio nuevo en el gancho y la reacción del grupo. Lonche y Westcol son perfiles del usuario; no se puede asegurar en imagen que estén en el plano.
-- **Ventana estimada:** hasta el 2026-11-24 (las 72 horas acaban el 23-24 nov).
+- **Ventana estimada:** hasta el 2026-11-24 (ventana de la oportunidad; las 72 horas acabaron la noche del 22-nov, según la corrección del Cazador Urbano, ciclo 21). La descripción dice "Tercer día de las 72 horas": sigue siendo verdad, porque el momento es del 21-nov.
 
 ## Publicación sugerida (estimación, no medida)
 

@@ -1,6 +1,11 @@
 # ¿Cuánto te deja? La cifra del negocio, dicha por el dueño
 
-> **Estado (22-nov, 19:40, ciclo 20): vigente hasta el 24-nov, con puntaje 69 (sin cambios); sigue bajo el umbral de hibridación (70).** Lo nuevo:
+> **Estado (23-nov, 00:30, ciclo 21): vigente hasta el 24-nov, con puntaje 69 (sin cambios); sigue bajo el umbral de hibridación (70).** Lo nuevo:
+> - **El corto que decide ya está cortado:** '¿Cuánto gana Westcol en su mejor mes?' (2026-11-22-westcol-mejor-mes, 12:59-13:37 de [olXao5WK9qY](https://www.youtube.com/watch?v=olXao5WK9qY)), aprobado para la bandeja de TikTok y aún sin publicar ni medir. Si el 24-nov no hay corto medido, la ficha sale de las recomendaciones.
+> - **El lujo en el título sigue rindiendo sin cifra:** la mansión millonaria de Lonche y Willito va a unas 6,6 veces su tour por Provenza (señal relacionada: nadie dice el precio en los tramos revisados).
+> - En la clase de surf se habla de 'un Ferrari, un Lambo' y de la lancha nueva ('como un mini yate'), entre bromas y sin una cifra clara: no sirve para esta ficha.
+>
+> **Estado anterior (22-nov, 19:40, ciclo 20): vigente hasta el 24-nov, con puntaje 69 (sin cambios); sigue bajo el umbral de hibridación (70).** Lo nuevo:
 > - **El lujo en el título rinde dentro de un mismo viaje.** En LoncheWey, ['24 HORAS en COLOMBIA… *muchos lujos*'](https://www.youtube.com/watch?v=eIRYiimMx_E) tiene unas 61.000 vistas, de 4 a 5 veces sus otras subidas del viaje, de la misma edad.
 > - **La cifra en el título también rinde, pero en piezas que no se pueden usar:** ['Apostamos con Ovy y Westcol 2000 Dólares'](https://www.youtube.com/watch?v=ya718nQycmU) (Live Samulx, 1.212/h; apuestas con dados por dinero) y una copia sin licencia con "el bote de 350 mil dólares" (997/h con 130 suscriptores; la cifra no está comprobada en cámara).
 > - **'GASTANDO TODO mi DINERO en COLOMBIA'** (LoncheWey, 844/h a las 4 h) no dice ninguna cifra. Su momento limpio son las reglas del bote (2:40-4:30), sin precio.

@@ -1,6 +1,13 @@
 # El invitado le califica el negocio al anfitrión (en su cara)
 
-> **Estado (22-nov, 19:40, ciclo 20): vigente hasta el 25-nov, con puntaje 84 (83 en el ciclo 19).** Lo nuevo:
+> **Estado (23-nov, 00:30, ciclo 21): vigente hasta el 25-nov, con puntaje 84 (sin cambios).** Lo nuevo:
+> - **La primera vez con maestro famoso es lo más rápido de lo nuevo.** ['OVY NOS ENSEÑA A SURFEAR A TODA LA GANGA EN GUATAPE'](https://www.youtube.com/watch?v=9Pmh6QW_evQ) (Samulx) va a 5.957/h a las 4,3 h, 2,3 veces su mediana por hora. Ovy On The Drums, el productor de W Sound con Westcol, hace de maestro y califica a cada uno ('La verdad, Leandro no está apto para eso. Siguiente'). Es esta misma ficha con el veredicto al revés: el anfitrión famoso califica al visitante.
+> - **El título decide.** La misma clase desde la cámara de The Chanty, sin el maestro en el título ([SURFEANDO POR PRIMERA VEZ…](https://www.youtube.com/watch?v=hoGec5hIHpo)), va a 0,75 veces. Si hay varias cámaras, se corta la que nombra al famoso.
+> - **La mansión acelera:** ['PASAMOS 24 HORAS CON WESTCOL EN UNA MANSIÓN MILLONARIA'](https://www.youtube.com/watch?v=ULUKb4dlZd8) (Lonche y Willito) pasa de 833/h a 3.018/h a las 6,4 h, unas 6,6 veces su tour por Provenza. Clip: la llegada y la vista ('Este es puro paraíso de millonario', 2:00-3:00).
+> - **'DESCONTROLANDO GUATAPE' frena** de 6,3 a 3,9 veces a las 13 h. Se confirma la regla: cada sitio, en sus primeras 12 h.
+> - **Las 72 horas terminaron la noche del 22-nov**, pero Lonche y Willito siguen de ruta por Colombia. Clip tipo para la variante del maestro: el famoso explica en una frase, el visitante lo intenta y se cae, y el veredicto del maestro en la cara. Pregunta final: "¿Quién lo hizo mejor?".
+>
+> **Estado anterior (22-nov, 19:40, ciclo 20): vigente hasta el 25-nov, con puntaje 84 (83 en el ciclo 19).** Lo nuevo:
 > - **El sitio nuevo acelera después de la primera hora.** ['DESCONTROLANDO GUATAPE'](https://www.youtube.com/watch?v=pzhADojtbcI) (Lonche Chacas) pasa de 1,8 veces en su primera hora a 6,3 veces la mediana por hora del canal a las 7,3 h (18.079 vistas, 2.477/h). El [jet ski de The Chanty](https://www.youtube.com/watch?v=ZGb1HxyHgPs) sube a 2,8 veces.
 > - **La versión sin guía famoso sigue subiendo:** [Coco Maggio en Barranquilla](https://www.youtube.com/watch?v=8gFGSwSiak4) llega a 5,3 veces la mediana de sus videos anteriores (167.436 vistas a las 34,5 h).
 > - **Réplica nueva desde Argentina, con guía famoso:** [Okyyy, 'VIAJE a COLOMBIA con EL DENGUE… CONOCÍ a WESTCOL…'](https://www.youtube.com/watch?v=ncTfqAy3mVM) (589 K; estreno a las 19:00 del 22-nov; "mi primera vez en Colombia… conocí a Westcol"). El contexto `youtube-ar` pasa a emergente con Coco Maggio, La Cobra y Okyyy.

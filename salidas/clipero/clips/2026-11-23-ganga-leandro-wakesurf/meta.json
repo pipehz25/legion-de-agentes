@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-23-ganga-leandro-wakesurf",
+    "url_fuente":  "https://www.youtube.com/watch?v=9Pmh6QW_evQ",
+    "video_id":  "9Pmh6QW_evQ",
+    "inicio":  983.53,
+    "fin":  1023.34,
+    "inicio_hms":  "0:16:23",
+    "duracion_seg":  39.8,
+    "gancho":  "Le enseñan wakesurf a Leandro en Guatapé",
+    "subtitulos":  "orig",
+    "palabras_subtituladas":  73,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "color":  "",
+    "resolucion":  "1080x1920",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -6.49,
+                  "entrada_tp":  2.03,
+                  "salida_lufs":  -13.9,
+                  "salida_tp":  -5.5
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-23-ganga-leandro-wakesurf/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-23-ganga-leandro-wakesurf/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-23-ganga-leandro-wakesurf/revision.jpg",
+    "creado":  "2026-11-23T19:28:15.0484555-05:00"
+}

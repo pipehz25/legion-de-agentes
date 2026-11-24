@@ -1,0 +1,17 @@
+{
+    "ok":  true,
+    "plataforma":  "tiktok",
+    "cuenta":  "principal",
+    "clip":  "2026-11-22-ganga-primera-piedra",
+    "simulado":  false,
+    "estado":  "procesando",
+    "id_publicacion":  "v_inbox_file~v2.7711532962839529486",
+    "url":  null,
+    "privacidad":  "borrador",
+    "duracion_seg":  19.2,
+    "avisos":  [
+
+               ],
+    "error":  null,
+    "fecha":  "2026-11-23T19:46:43-05:00"
+}

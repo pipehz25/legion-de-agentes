@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-23-hh-cuna-inteligente",
+    "url_fuente":  "https://www.youtube.com/watch?v=tHtfHCdcAgk",
+    "video_id":  "tHtfHCdcAgk",
+    "inicio":  2562.05,
+    "fin":  2630.74,
+    "inicio_hms":  "0:42:42",
+    "duracion_seg":  68.7,
+    "gancho":  "La cuna con IA que cría sola al bebé",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  214,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "color":  "",
+    "resolucion":  "1080x1920",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -13.07,
+                  "entrada_tp":  -0.68,
+                  "salida_lufs":  -13.92,
+                  "salida_tp":  -1.65
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-23-hh-cuna-inteligente/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-23-hh-cuna-inteligente/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-23-hh-cuna-inteligente/revision.jpg",
+    "creado":  "2026-11-23T19:20:15.9874170-05:00"
+}
