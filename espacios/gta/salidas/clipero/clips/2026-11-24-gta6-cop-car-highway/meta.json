@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-24-gta6-cop-car-highway",
+    "url_fuente":  "https://www.youtube.com/watch?v=lmBAWfcp0tc",
+    "video_id":  "lmBAWfcp0tc",
+    "inicio":  229,
+    "fin":  249,
+    "inicio_hms":  "0:03:49",
+    "duracion_seg":  20,
+    "gancho":  "POV: the highway in a stolen cop car",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "negro",
+    "resolucion":  "1440x2560",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -19.3,
+                  "entrada_tp":  -6.61,
+                  "salida_lufs":  -13.8,
+                  "salida_tp":  -1.31
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-24-gta6-cop-car-highway/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-24-gta6-cop-car-highway/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-24-gta6-cop-car-highway/revision.jpg",
+    "creado":  "2026-11-24T11:02:46.9088978-05:00"
+}

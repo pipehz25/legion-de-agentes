@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-24-gta6-bridge-roadblock",
+    "url_fuente":  "https://www.youtube.com/watch?v=HQNTysKwzpk",
+    "video_id":  "HQNTysKwzpk",
+    "inicio":  248,
+    "fin":  267,
+    "inicio_hms":  "0:04:08",
+    "duracion_seg":  19,
+    "gancho":  "POV: the cops blocked the bridge",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "vice",
+    "resolucion":  "1440x2560",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -20.63,
+                  "entrada_tp":  -7.98,
+                  "salida_lufs":  -14,
+                  "salida_tp":  -1.35
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-24-gta6-bridge-roadblock/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-24-gta6-bridge-roadblock/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-24-gta6-bridge-roadblock/revision.jpg",
+    "creado":  "2026-11-24T10:56:41.6539984-05:00"
+}

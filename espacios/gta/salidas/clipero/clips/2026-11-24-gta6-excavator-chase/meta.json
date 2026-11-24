@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-24-gta6-excavator-chase",
+    "url_fuente":  "https://www.youtube.com/watch?v=mIBnqfaamao",
+    "video_id":  "mIBnqfaamao",
+    "inicio":  190,
+    "fin":  214,
+    "inicio_hms":  "0:03:10",
+    "duracion_seg":  24,
+    "gancho":  "Getaway Files #12: the excavator getaway",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "vice",
+    "resolucion":  "1440x2560",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -19.31,
+                  "entrada_tp":  -6.78,
+                  "salida_lufs":  -14.1,
+                  "salida_tp":  -1.47
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-24-gta6-excavator-chase/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-24-gta6-excavator-chase/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-24-gta6-excavator-chase/revision.jpg",
+    "creado":  "2026-11-24T10:51:56.5213583-05:00"
+}

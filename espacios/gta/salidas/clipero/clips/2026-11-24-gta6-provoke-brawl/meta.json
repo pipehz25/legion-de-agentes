@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-24-gta6-provoke-brawl",
+    "url_fuente":  "https://www.youtube.com/watch?v=-FB_1F5J2aM",
+    "video_id":  "-FB_1F5J2aM",
+    "inicio":  110,
+    "fin":  130,
+    "inicio_hms":  "0:01:50",
+    "duracion_seg":  20,
+    "gancho":  "POV: GTA 6 lets you pick Provoke",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "negro",
+    "resolucion":  "1440x2560",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14.4,
+                  "limitador":  true,
+                  "entrada_lufs":  -24.14,
+                  "entrada_tp":  -10.75,
+                  "salida_lufs":  -14.25,
+                  "salida_tp":  -1.01
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-24-gta6-provoke-brawl/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-24-gta6-provoke-brawl/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-24-gta6-provoke-brawl/revision.jpg",
+    "creado":  "2026-11-24T11:15:11.8772836-05:00"
+}

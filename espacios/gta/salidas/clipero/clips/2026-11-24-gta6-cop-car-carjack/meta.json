@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-24-gta6-cop-car-carjack",
+    "url_fuente":  "https://www.youtube.com/watch?v=lmBAWfcp0tc",
+    "video_id":  "lmBAWfcp0tc",
+    "inicio":  117,
+    "fin":  137,
+    "inicio_hms":  "0:01:57",
+    "duracion_seg":  20,
+    "gancho":  "POV: you need a ride. Cop car it is.",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "atardecer",
+    "resolucion":  "1440x2560",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -18.43,
+                  "entrada_tp":  -5.65,
+                  "salida_lufs":  -13.99,
+                  "salida_tp":  -1.22
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-24-gta6-cop-car-carjack/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-24-gta6-cop-car-carjack/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-24-gta6-cop-car-carjack/revision.jpg",
+    "creado":  "2026-11-24T10:58:24.9761169-05:00"
+}

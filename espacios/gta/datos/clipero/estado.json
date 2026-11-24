@@ -1,27 +1,28 @@
 {
-    "actualizado":  "2026-11-23T10:40:36-05:00",
-    "ciclo":  5,
-    "ultimo_ciclo_cazador":  15,
-    "ultimo_ciclo_cazador_risas":  7,
+    "actualizado":  "2026-11-24T12:30:00-05:00",
+    "ciclo":  6,
+    "ultimo_ciclo_cazador":  20,
+    "ultimo_ciclo_cazador_risas":  11,
     "_nota_cazadores":  "Espacio con enfoque propio (GTA VI): los ciclos de los cazadores solo se anotan; sus oportunidades no se usan.",
     "_enfoque":  "Desde el 2026-11-20: solo gameplay de GTA VI ya grabado en YouTube (sin streamers, podcasts ni reacciones; sin cinemáticas de la historia aisladas; nada sexual). Todo se publica narrado (formato voz o texto) con -Modo marco y la rotación de prueba_ab por cuenta.",
     "series":  {
                    "gta-us":  {
                                   "serie":  "Leonida Daily",
                                   "ultimo_numero":  7,
-                                  "rotacion_hechos":  26,
-                                  "_rotacion":  "voz+atardecer, texto+vice, voz+negro, texto+atardecer, voz+vice, texto+negro; rotacion_hechos cuenta los clips narrados de la cuenta (el siguiente es el índice rotacion_hechos mod 6). Cuenta también los de Leonida Fails y los de formato texto. Ciclo 5: índices 12 a 25 (14 clips).",
-                                  "_siguiente":  "voz+negro (índice 26: 26 mod 6 = 2)"
+                                  "rotacion_hechos":  30,
+                                  "_rotacion":  "voz+atardecer, texto+vice, voz+negro, texto+atardecer, voz+vice, texto+negro; rotacion_hechos cuenta los clips narrados de la cuenta (el siguiente es el indice rotacion_hechos mod 6). Cuenta tambien los de Leonida Fails y los de formato texto. Ciclo 5: indices 12 a 25 (14 clips). Ciclo 6: indices 26 a 29 (barrier-faceplant voz+negro, gasoline-truck-bed texto+atardecer, excavator-heist voz+vice, provoke-brawl texto+negro).",
+                                  "_siguiente":  "voz+atardecer (indice 30: 30 mod 6 = 0)"
                               },
                    "gta-chases":  {
                                       "serie":  "Getaway Files",
-                                      "ultimo_numero":  10,
-                                      "rotacion_hechos":  19,
-                                      "_siguiente":  "texto+vice (índice 19: 19 mod 6 = 1)"
+                                      "ultimo_numero":  13,
+                                      "rotacion_hechos":  25,
+                                      "_siguiente":  "texto+vice (indice 25: 25 mod 6 = 1)",
+                                      "_ciclo6":  "Indices 19 a 24: bridge-roadblock texto+vice, private-jet-fail voz+negro (#11), cop-car-carjack texto+atardecer, excavator-chase voz+vice (#12), cop-car-highway texto+negro, sheriff-suv voz+atardecer (#13)."
                                   },
                    "gta-funny":  {
                                      "serie":  "Leonida Fails",
-                                     "ultimo_numero":  6,
+                                     "ultimo_numero":  8,
                                      "_nota":  "Mientras gta-funny está apagada, la serie (y su tono cómico) la usa gta-us con la voz de gta-us, am_michael (enfoque del 2026-11-21). La rotación de formato y color es la de gta-us."
                                  }
                },
@@ -31,57 +32,64 @@
                                          "id":  "aCMMDlwYRog",
                                          "url":  "https://www.youtube.com/watch?v=aCMMDlwYRog",
                                          "titulo":  "Fox #5, 3696 s",
-                                         "prioridad":  "alta",
-                                         "motivo":  "sin analizar; vistazo -Cada 20 buscando peleas, NPC y policía"
+                                         "prioridad":  "media",
+                                         "motivo":  "sin analizar; Fox #6 fue casi todo misiones: vistazo -Cada 20 antes"
                                      },
                                      {
                                          "id":  "tEEu1JvmSj4",
                                          "url":  "https://www.youtube.com/watch?v=tEEu1JvmSj4",
                                          "titulo":  "Fox #4, 3863 s",
-                                         "prioridad":  "alta",
+                                         "prioridad":  "media",
                                          "motivo":  "sin analizar"
                                      },
                                      {
-                                         "id":  "8EB9rKECeLg",
-                                         "url":  "https://www.youtube.com/watch?v=8EB9rKECeLg",
-                                         "titulo":  "Gta 6 Kingfishers Roadblock (Ftug), 125 s",
+                                         "id":  "PgYe8fT9sf8",
+                                         "url":  "https://www.youtube.com/watch?v=PgYe8fT9sf8",
+                                         "titulo":  "Fox #7, 4571 s",
+                                         "prioridad":  "media",
+                                         "motivo":  "nuevo, sin analizar (Fox #8-#11: rJjYeWwRRSA, xz6dZp9L_rY, 1XiL7OwavlQ, qbLqWFblSM0)"
+                                     },
+                                     {
+                                         "id":  "FAYq-wgPO4g",
+                                         "url":  "https://www.youtube.com/watch?v=FAYq-wgPO4g",
+                                         "titulo":  "GTA 6 NO COPYRIGHT GAMEPLAY - Free to Use Open World (GTA 6 No Copyright Gameplay), 582 s, 23-nov",
                                          "prioridad":  "alta",
-                                         "motivo":  "Ftug, 22-nov: posible caos con una banda; mirar antes"
+                                         "motivo":  "nuevo, sin analizar; el canal es el que mas persecuciones da"
                                      },
                                      {
-                                         "id":  "wA-CB1S_vi4",
-                                         "url":  "https://www.youtube.com/watch?v=wA-CB1S_vi4",
-                                         "titulo":  "Gta 6 Truck Bed With Gasoline (Ftug), 156 s",
+                                         "id":  "Kt7Wv5W5N48",
+                                         "url":  "https://www.youtube.com/watch?v=Kt7Wv5W5N48",
+                                         "titulo":  "Trapped Between Two Sheriff Cars",
                                          "prioridad":  "media",
-                                         "motivo":  "Ftug, 22-nov: posible caos (gasolina)"
+                                         "motivo":  "para gta-chases: Humvee militar y huida en hidroavion (10:34-13:10), si no se repite la idea"
                                      },
                                      {
-                                         "id":  "-FB_1F5J2aM",
-                                         "url":  "https://www.youtube.com/watch?v=-FB_1F5J2aM",
-                                         "titulo":  "Gta 6 Street M7 Gang (Ftug), 155 s",
+                                         "id":  "mIBnqfaamao",
+                                         "url":  "https://www.youtube.com/watch?v=mIBnqfaamao",
+                                         "titulo":  "Heavy Machinery",
                                          "prioridad":  "media",
-                                         "motivo":  "Ftug, 23-nov"
+                                         "motivo":  "final de la excavadora contra las palmeras y WASTED (4:05-4:40), saga de excavator-heist y excavator-chase"
                                      },
                                      {
                                          "id":  "fIyXySnqDi8",
                                          "url":  "https://www.youtube.com/watch?v=fIyXySnqDi8",
                                          "titulo":  "Police Chase Gone Wild (GTA 6 No Copyright Gameplay)",
                                          "prioridad":  "media",
-                                         "motivo":  "para gta-chases: tiroteo con la patrulla junto a la cárcel (4:14-4:44)"
+                                         "motivo":  "para gta-chases: tiroteo con la patrulla junto a la carcel (4:14-4:44)"
                                      },
                                      {
                                          "id":  "JP1hFy04VGk",
                                          "url":  "https://www.youtube.com/watch?v=JP1hFy04VGk",
                                          "titulo":  "Fox #6",
                                          "prioridad":  "media",
-                                         "motivo":  "para gta-chases: final de la persecución al atardecer, por el campo hasta estrellarse (1495-1513)"
+                                         "motivo":  "para gta-chases: final de la persecucion al atardecer por el campo hasta estrellarse (1495-1513)"
                                      },
                                      {
                                          "id":  "NQOJJy8Jp4U",
                                          "url":  "https://www.youtube.com/watch?v=NQOJJy8Jp4U",
                                          "titulo":  "Gta 6 Crazy DMT TRIP (Ftug), 291 s",
                                          "prioridad":  "no",
-                                         "motivo":  "drogas en el título; no se miró"
+                                         "motivo":  "drogas en el titulo; no se miro"
                                      },
                                      {
                                          "id":  "ez-k5ZhOpx4",
@@ -95,7 +103,14 @@
                                          "url":  "https://www.youtube.com/watch?v=iv3weU3gUA8",
                                          "titulo":  "Gta 6 Honey I\u0027m Home Lucia \u0026 Chill (Ftug), 941 s",
                                          "prioridad":  "revisar",
-                                         "motivo":  "el título puede ser de contenido íntimo: mirar el vistazo antes de cortar nada"
+                                         "motivo":  "el titulo puede ser de contenido intimo: mirar el vistazo antes de cortar nada"
+                                     },
+                                     {
+                                         "id":  "ftug-nuevos",
+                                         "url":  "https://www.youtube.com/channel/UC7eqKk3ydpWsXUn7kC7gHXQ",
+                                         "titulo":  "Ftug del 23-nov: Finding Treasure #2 (g0inPdFQYiI), Lost Packages #3 (dvo8C8qOx4E), Late Night Uber Drive #2 (xGMmIF8Ge0c)",
+                                         "prioridad":  "baja",
+                                         "motivo":  "por el titulo parecen tranquilos; Chilling With Lucia, Clear Skies, Cal Fishing y Relaxing Uber #3 lo son"
                                      }
                                  ],
     "fuentes":  [
@@ -153,7 +168,7 @@
                         "url":  "https://www.youtube.com/watch?v=konZi0msk6A",
                         "titulo":  "Gta 6 Daily Activities Vlog #1 (Ftug - No Copyright Gameplay), 782 s",
                         "analizado":  "2026-11-20",
-                        "resultado":  "5 clips del 20-nov (beach-camp-brawl 410-455, el que mejor ha funcionado) y en el ciclo 5 beach-camp-grandpa (347.5-368) y beach-camp-afterparty (459-486). No cortar 339-347 (doble sentido sexual del NPC). Sin usar: el campista que se despierta y se va (487-500)"
+                        "resultado":  "5 clips del 20-nov: beach-camp-brawl (410-455, el que mejor ha funcionado) y kayak-the-keys (180-220), los dos subidos a mano sin narrar; jason-morning-snake (57-80), keys-commute-pov (124-145) y smoothie-buffs (700-724), narrados. En el ciclo 5: beach-camp-grandpa (347.5-368) y beach-camp-afterparty (459-486). No cortar 339-347 (doble sentido sexual del NPC). Sin usar: el campista que se despierta y se va (487-500)"
                     },
                     {
                         "id":  "e5x7k8fBqHM",
@@ -294,6 +309,69 @@
                         "titulo":  "Gta 6 Petting People\u0027s Dog (Ftug - No Copyright Gameplay), 176 s",
                         "analizado":  "2026-11-23",
                         "resultado":  "sin clips: casi todo tranquilo (acariciar perros en la playa); la discusión del final (2:12-2:40) no tiene acción. Frase graciosa sin usar: «That\u0027s a lot of dog. — Thank you, he was very expensive» (0:10-0:15)"
+                    },
+                    {
+                        "id":  "lmBAWfcp0tc",
+                        "url":  "https://www.youtube.com/watch?v=lmBAWfcp0tc",
+                        "titulo":  "Attacking a Police Cruiser in GTA 6 Goes Wrong! (GTA 6 No Copyright Gameplay), 720 s",
+                        "analizado":  "2026-11-24",
+                        "resultado":  "vistazo cada 10 s e inspeccion a 1-2 s; 4 clips en saga: cop-car-carjack (117-137), cop-car-highway (229-249, acaba antes del insulto en espanol de 246), barrier-faceplant (315-339.5) y private-jet-fail (691-713). Sin usar: robo en la casa de empenos del principio (0:20-1:30), primer intento en el aeropuerto con WASTED (6:34-7:05), el coche contra un patrullero en la pista (10:33-10:44). Permiso en las Usage Rules; licencia CC BY"
+                    },
+                    {
+                        "id":  "HQNTysKwzpk",
+                        "url":  "https://www.youtube.com/watch?v=HQNTysKwzpk",
+                        "titulo":  "I Tried Escaping the Police in GTA 6! | Free to Use (GTA 6 No Copyright Gameplay), 347 s",
+                        "analizado":  "2026-11-24",
+                        "resultado":  "vistazo cada 5 s; clip: bridge-roadblock (248-267). Sin usar: el sheriff lo embiste (3:41-3:47), salida de la carretera contra la valla (2:27-2:42) y huida a pie saltando vallas (5:15-5:30); hay pantallas de mapa en 0:37-0:52, 3:35-3:39 y 5:32-5:45. Permiso en el titulo y en las Usage Rules; licencia CC BY"
+                    },
+                    {
+                        "id":  "Kt7Wv5W5N48",
+                        "url":  "https://www.youtube.com/watch?v=Kt7Wv5W5N48",
+                        "titulo":  "I Got Trapped Between Two Sheriff Cars in GTA 6! (GTA 6 No Copyright Gameplay), 994 s",
+                        "analizado":  "2026-11-24",
+                        "resultado":  "vistazo cada 10 s; clip: sheriff-suv (40-63). No cortar: 0:31-0:34 (dispara a un ayudante del sheriff a quemarropa, queda fuera) ni la playa de 7:14-8:50 (mujeres en bikini tumbadas y una pelea en la que caen NPC al suelo). Sin usar: robo del Humvee militar, persecucion y huida en hidroavion (10:34-13:10; ojo, ya hay humvee-heist, humvee-army-chase y seaplane-escape). Permiso en las Usage Rules; licencia CC BY"
+                    },
+                    {
+                        "id":  "InhvEcyWW0A",
+                        "url":  "https://www.youtube.com/watch?v=InhvEcyWW0A",
+                        "titulo":  "This Vice City Encounter Got Out of Control! | Free to Use (GTA 6 No Copyright Gameplay), 444 s",
+                        "analizado":  "2026-11-24",
+                        "resultado":  "sin clips: el encuentro del titulo (1:44-1:56) acaba con una mujer golpeada en el suelo (regla del usuario); el resto es conduccion tranquila, un vuelco suelto (3:35-3:40) y un salto de rampa (6:37-6:45)"
+                    },
+                    {
+                        "id":  "8EB9rKECeLg",
+                        "url":  "https://www.youtube.com/watch?v=8EB9rKECeLg",
+                        "titulo":  "Gta 6 Kingfishers Roadblock (Ftug), 125 s",
+                        "analizado":  "2026-11-24",
+                        "resultado":  "sin clips: es una mision (tiroteo en un control de una banda en un puente), no caos libre"
+                    },
+                    {
+                        "id":  "wA-CB1S_vi4",
+                        "url":  "https://www.youtube.com/watch?v=wA-CB1S_vi4",
+                        "titulo":  "Gta 6 Truck Bed With Gasoline (Ftug), 156 s",
+                        "analizado":  "2026-11-24",
+                        "resultado":  "vistazo cada 5 s e inspeccion a 0.5 s; clip: gasoline-truck-bed (42.6-61). El corte empieza despues de Â«Who the fuck are you, trying to regulate me?Â» (40-42.5). Ftug, CC BY"
+                    },
+                    {
+                        "id":  "-FB_1F5J2aM",
+                        "url":  "https://www.youtube.com/watch?v=-FB_1F5J2aM",
+                        "titulo":  "Gta 6 Street M7 Gang (Ftug), 155 s",
+                        "analizado":  "2026-11-24",
+                        "resultado":  "vistazo cada 5 s; clip: provoke-brawl (110-130). No cortar: 2:20-2:24 (pelea con una mujer). Sin usar: atraco nocturno a un hombre en la calle (0:47-1:02). Ftug, CC BY"
+                    },
+                    {
+                        "id":  "87eSJSzSFrk",
+                        "url":  "https://www.youtube.com/watch?v=87eSJSzSFrk",
+                        "titulo":  "Gta 6 Kingfishers Hideout Stash (Ftug), 527 s",
+                        "analizado":  "2026-11-24",
+                        "resultado":  "sin clips: de noche y oscuro; sigilo, tiroteo y saqueo en el escondite de una banda, sin humor ni persecucion"
+                    },
+                    {
+                        "id":  "mIBnqfaamao",
+                        "url":  "https://www.youtube.com/watch?v=mIBnqfaamao",
+                        "titulo":  "This Is What Heavy Machinery Looks Like in GTA 6! (GTA 6 No Copyright Gameplay), 615 s",
+                        "analizado":  "2026-11-24",
+                        "resultado":  "vistazo cada 10 s; 2 clips: excavator-heist (155-181) y excavator-chase (190-214). Sin usar: la excavadora contra las palmeras y WASTED (4:05-4:40), el jeep volcado contra un coche rosa (0:55-1:05), el atraco en el restaurante (1:20-1:55). No cortar: 7:40-7:55 (apunta con la pistola a gente en la playa). Permiso en las Usage Rules; licencia CC BY"
                     }
                 ],
     "momentos":  [
@@ -705,7 +783,7 @@
                      {
                          "fuente":  "rlluMwJXbqg",
                          "inicio":  1852,
-                         "fin":  1900,
+                         "fin":  1900.94,
                          "estado":  "cortado",
                          "clip":  "2026-11-20-gta6-seaplane-escape",
                          "variante_de":  null,
@@ -740,12 +818,13 @@
                      },
                      {
                          "fuente":  "rlluMwJXbqg",
-                         "inicio":  1960,
-                         "fin":  1994,
+                         "inicio":  1959.45,
+                         "fin":  1995.18,
                          "estado":  "cortado",
                          "clip":  "2026-11-20-gta6-seaplane-water-landing",
                          "variante_de":  null,
-                         "motivo":  "subido a mano a gta-us (sin narrar)"
+                         "motivo":  "subido a mano a YouTube (sin narrar) el 2026-11-20; tramo exacto de clips.json. Momento ya usado: no volver a cortarlo ni solaparlo.",
+                         "usado":  "subido_a_mano"
                      },
                      {
                          "fuente":  "rlluMwJXbqg",
@@ -754,7 +833,8 @@
                          "estado":  "cortado",
                          "clip":  "2026-11-20-gta6-real-workouts",
                          "variante_de":  null,
-                         "motivo":  "subido a mano a gta-us (sin narrar)"
+                         "motivo":  "subido a mano a YouTube (sin narrar) el 2026-11-20; tramo exacto de clips.json. Momento ya usado: no volver a cortarlo ni solaparlo.",
+                         "usado":  "subido_a_mano"
                      },
                      {
                          "fuente":  "rlluMwJXbqg",
@@ -763,16 +843,18 @@
                          "estado":  "cortado",
                          "clip":  "2026-11-20-gta6-swamp-gunfight",
                          "variante_de":  null,
-                         "motivo":  "subido a mano a gta-chases (sin narrar)"
+                         "motivo":  "subido a mano a YouTube (sin narrar) el 2026-11-20; tramo exacto de clips.json. Momento ya usado: no volver a cortarlo ni solaparlo.",
+                         "usado":  "subido_a_mano"
                      },
                      {
                          "fuente":  "rlluMwJXbqg",
                          "inicio":  1113,
-                         "fin":  1155,
+                         "fin":  1155.1,
                          "estado":  "cortado",
                          "clip":  "2026-11-20-gta6-airdrop-boat-run",
                          "variante_de":  null,
-                         "motivo":  "subido a mano a gta-chases (sin narrar)"
+                         "motivo":  "subido a mano a YouTube (sin narrar) el 2026-11-20; tramo exacto de clips.json. Momento ya usado: no volver a cortarlo ni solaparlo.",
+                         "usado":  "subido_a_mano"
                      },
                      {
                          "fuente":  "rlluMwJXbqg",
@@ -790,7 +872,8 @@
                          "estado":  "cortado",
                          "clip":  "2026-11-20-gta6-beach-camp-brawl",
                          "variante_de":  null,
-                         "motivo":  "subido a mano a gta-us (sin narrar)"
+                         "motivo":  "subido a mano a YouTube (sin narrar) el 2026-11-20; tramo exacto de clips.json. Momento ya usado: no volver a cortarlo ni solaparlo.",
+                         "usado":  "subido_a_mano"
                      },
                      {
                          "fuente":  "konZi0msk6A",
@@ -799,7 +882,8 @@
                          "estado":  "cortado",
                          "clip":  "2026-11-20-gta6-kayak-the-keys",
                          "variante_de":  null,
-                         "motivo":  "subido a mano a gta-us (sin narrar)"
+                         "motivo":  "subido a mano a YouTube (sin narrar) el 2026-11-20; tramo exacto de clips.json. Momento ya usado: no volver a cortarlo ni solaparlo.",
+                         "usado":  "subido_a_mano"
                      },
                      {
                          "fuente":  "konZi0msk6A",
@@ -1304,6 +1388,186 @@
                          "clip":  null,
                          "variante_de":  null,
                          "motivo":  "primer corte (cops-say-give-up) borrado: el texto citaba un megáfono («give it up») que whisper repetía en bucle y que no está en el tramo; se volvió a cortar como sunset-sign-shortcut con texto comprobado"
+                     },
+                     {
+                         "fuente":  "lmBAWfcp0tc",
+                         "inicio":  117,
+                         "fin":  137,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-24-gta6-cop-car-carjack",
+                         "variante_de":  null,
+                         "motivo":  "texto+atardecer para gta-chases; puntaje 78"
+                     },
+                     {
+                         "fuente":  "lmBAWfcp0tc",
+                         "inicio":  229,
+                         "fin":  249,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-24-gta6-cop-car-highway",
+                         "variante_de":  null,
+                         "motivo":  "texto+negro para gta-chases; puntaje 79. Primer corte 230-250 rehecho para acabar antes de Â«In Spanish: Choke on my balls!Â» (246)"
+                     },
+                     {
+                         "fuente":  "lmBAWfcp0tc",
+                         "inicio":  315,
+                         "fin":  339.5,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-24-gta6-barrier-faceplant",
+                         "variante_de":  null,
+                         "motivo":  "voz+negro para gta-us (Leonida Fails #7); puntaje 81. Primer corte 310.5-338 rehecho para que la voz cuente el salto cuando pasa"
+                     },
+                     {
+                         "fuente":  "lmBAWfcp0tc",
+                         "inicio":  691,
+                         "fin":  713,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-24-gta6-private-jet-fail",
+                         "variante_de":  null,
+                         "motivo":  "voz+negro para gta-chases (Getaway Files #11); puntaje 84. Primer corte 684-713 rehecho (la voz acababa antes del WASTED)"
+                     },
+                     {
+                         "fuente":  "HQNTysKwzpk",
+                         "inicio":  248,
+                         "fin":  267,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-24-gta6-bridge-roadblock",
+                         "variante_de":  null,
+                         "motivo":  "texto+vice para gta-chases; puntaje 82"
+                     },
+                     {
+                         "fuente":  "Kt7Wv5W5N48",
+                         "inicio":  40,
+                         "fin":  63,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-24-gta6-sheriff-suv",
+                         "variante_de":  null,
+                         "motivo":  "voz+atardecer para gta-chases (Getaway Files #13); puntaje 79"
+                     },
+                     {
+                         "fuente":  "wA-CB1S_vi4",
+                         "inicio":  42.6,
+                         "fin":  61,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-24-gta6-gasoline-truck-bed",
+                         "variante_de":  null,
+                         "motivo":  "texto+atardecer para gta-us; puntaje 77. Primer corte 40-60 rehecho para no abrir con Â«Who the fuck are youÂ»"
+                     },
+                     {
+                         "fuente":  "-FB_1F5J2aM",
+                         "inicio":  110,
+                         "fin":  130,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-24-gta6-provoke-brawl",
+                         "variante_de":  null,
+                         "motivo":  "texto+negro para gta-us; puntaje 85"
+                     },
+                     {
+                         "fuente":  "mIBnqfaamao",
+                         "inicio":  155,
+                         "fin":  181,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-24-gta6-excavator-heist",
+                         "variante_de":  null,
+                         "motivo":  "voz+vice para gta-us (Leonida Fails #8); puntaje 82"
+                     },
+                     {
+                         "fuente":  "mIBnqfaamao",
+                         "inicio":  190,
+                         "fin":  214,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-24-gta6-excavator-chase",
+                         "variante_de":  null,
+                         "motivo":  "voz+vice para gta-chases (Getaway Files #12); puntaje 80"
+                     },
+                     {
+                         "fuente":  "InhvEcyWW0A",
+                         "inicio":  100,
+                         "fin":  120,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "la pelea en la tienda acaba con una mujer golpeada en el suelo (regla del usuario)"
+                     },
+                     {
+                         "fuente":  "8EB9rKECeLg",
+                         "inicio":  0,
+                         "fin":  125,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "mision (tiroteo en el control de una banda), no caos libre"
+                     },
+                     {
+                         "fuente":  "87eSJSzSFrk",
+                         "inicio":  0,
+                         "fin":  527,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "de noche y oscuro; sigilo y saqueo sin humor ni persecucion"
+                     },
+                     {
+                         "fuente":  "Kt7Wv5W5N48",
+                         "inicio":  434,
+                         "fin":  530,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "playa con mujeres en bikini tumbadas y pelea con NPC caidos; no cortar"
+                     },
+                     {
+                         "fuente":  "-FB_1F5J2aM",
+                         "inicio":  138,
+                         "fin":  146,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "pelea con una mujer: no cortar"
+                     },
+                     {
+                         "fuente":  "mIBnqfaamao",
+                         "inicio":  460,
+                         "fin":  475,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "apunta con la pistola a gente en la playa: no cortar"
+                     },
+                     {
+                         "fuente":  "mIBnqfaamao",
+                         "inicio":  245,
+                         "fin":  282,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "76: la excavadora contra las palmeras y WASTED; la camara queda tapada por las hojas"
+                     },
+                     {
+                         "fuente":  "Kt7Wv5W5N48",
+                         "inicio":  634,
+                         "fin":  790,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "74: robo del Humvee militar, persecucion y huida en hidroavion; idea parecida a humvee-heist, humvee-army-chase y seaplane-escape"
+                     },
+                     {
+                         "fuente":  "HQNTysKwzpk",
+                         "inicio":  218,
+                         "fin":  232,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "72: el sheriff lo embiste y le dana el motor (3:41-3:47); justo antes del control del puente"
+                     },
+                     {
+                         "fuente":  "lmBAWfcp0tc",
+                         "inicio":  394,
+                         "fin":  425,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "72: primer intento en el aeropuerto, rodeado por policias y WASTED (6:34-7:05)"
                      }
                  ],
     "clips_ciclo4":  [
@@ -1344,5 +1608,18 @@
                          "2026-11-23-gta6-van-hiding-spot"
                      ],
     "_ciclo5":  "Empezó el 2026-11-21 (20:38), se cortó con 7 clips sin ficha y se retomó el 2026-11-23: se terminaron, se rehicieron en 1440x2560 (pedido del usuario del 23-nov) y se añadieron 13 más. Se analizaron 9 fuentes nuevas (3 más que max_fuentes_por_ciclo, por el pedido de más clips del 23-nov).",
-    "_resolucion":  "Desde el 2026-11-23 todo se corta con -Resolucion 1440 y se narra con -Logo (vale la ruta relativa). narrar.ps1 tenía un fallo en las narraciones con voz en 1440 (el logo salía fuera del cuadro porque la escala se llamaba $k, igual que el índice de los subtítulos); se arregló llamándola $escala."
+    "_resolucion":  "Desde el 2026-11-23 todo se corta con -Resolucion 1440 y se narra con -Logo (vale la ruta relativa). narrar.ps1 tenía un fallo en las narraciones con voz en 1440 (el logo salía fuera del cuadro porque la escala se llamaba $k, igual que el índice de los subtítulos); se arregló llamándola $escala.",
+    "clips_ciclo6":  [
+                         "2026-11-24-gta6-provoke-brawl",
+                         "2026-11-24-gta6-excavator-heist",
+                         "2026-11-24-gta6-gasoline-truck-bed",
+                         "2026-11-24-gta6-barrier-faceplant",
+                         "2026-11-24-gta6-sheriff-suv",
+                         "2026-11-24-gta6-cop-car-highway",
+                         "2026-11-24-gta6-excavator-chase",
+                         "2026-11-24-gta6-cop-car-carjack",
+                         "2026-11-24-gta6-private-jet-fail",
+                         "2026-11-24-gta6-bridge-roadblock"
+                     ],
+    "_ciclo6":  "2026-11-24 (turno de la manana): 10 clips narrados en 1440x2560 a 60 fps con logo, 6 para gta-chases y 4 para gta-us, todos autorizado. 9 fuentes nuevas (lmBAWfcp0tc, HQNTysKwzpk, Kt7Wv5W5N48, InhvEcyWW0A, 8EB9rKECeLg, wA-CB1S_vi4, -FB_1F5J2aM, 87eSJSzSFrk, mIBnqfaamao), 6 con clips. narrar.ps1 cambiado: los subtitulos de la voz salen del guion (whisper solo da los tiempos)."
 }

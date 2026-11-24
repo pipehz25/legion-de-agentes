@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-24-gta6-gasoline-truck-bed",
+    "url_fuente":  "https://www.youtube.com/watch?v=wA-CB1S_vi4",
+    "video_id":  "wA-CB1S_vi4",
+    "inicio":  42.6,
+    "fin":  61,
+    "inicio_hms":  "0:00:42",
+    "duracion_seg":  18.4,
+    "gancho":  "POV: he fills his truck bed with gasoline",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "atardecer",
+    "resolucion":  "1440x2560",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14.6,
+                  "limitador":  true,
+                  "entrada_lufs":  -25.48,
+                  "entrada_tp":  -11.9,
+                  "salida_lufs":  -14.08,
+                  "salida_tp":  -1.02
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-24-gta6-gasoline-truck-bed/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-24-gta6-gasoline-truck-bed/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-24-gta6-gasoline-truck-bed/revision.jpg",
+    "creado":  "2026-11-24T11:12:51.7669353-05:00"
+}

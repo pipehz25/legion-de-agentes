@@ -1,0 +1,14 @@
+{
+    "id":  "2026-11-24-gta6-sheriff-suv",
+    "formato":  "voz",
+    "guion":  "He just stole a Mariana County sheriff\u0027s SUV, and the getaway lasts a few seconds before it ends in a bush. Backup rolls in, and now he\u0027s trapped between two sheriff cars in a tiny parking lot. No exit, no cover, nowhere to drive, and the deputies are already on foot. Here\u0027s why it failed: a big SUV in a tight lot is a trap. What would you have stolen instead?",
+    "cierre":  "Getaway Kings out.",
+    "voz":  "am_fenrir",
+    "velocidad":  0.95,
+    "idioma":  "en-us",
+    "duracion_seg":  20.3,
+    "palabras":  74,
+    "logo":  true,
+    "motor":  "kokoro (local)",
+    "creado":  "2026-11-24T10:55:22.1954980-05:00"
+}

@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-24-gta6-excavator-heist",
+    "url_fuente":  "https://www.youtube.com/watch?v=mIBnqfaamao",
+    "video_id":  "mIBnqfaamao",
+    "inicio":  155,
+    "fin":  181,
+    "inicio_hms":  "0:02:35",
+    "duracion_seg":  26,
+    "gancho":  "Leonida Fails #8: he stole the excavator",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "vice",
+    "resolucion":  "1440x2560",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14.2,
+                  "limitador":  true,
+                  "entrada_lufs":  -23.31,
+                  "entrada_tp":  -10.14,
+                  "salida_lufs":  -14.7,
+                  "salida_tp":  -1.03
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-24-gta6-excavator-heist/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-24-gta6-excavator-heist/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-24-gta6-excavator-heist/revision.jpg",
+    "creado":  "2026-11-24T11:09:16.7130352-05:00"
+}

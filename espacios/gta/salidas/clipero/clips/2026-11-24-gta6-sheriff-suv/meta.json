@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-24-gta6-sheriff-suv",
+    "url_fuente":  "https://www.youtube.com/watch?v=Kt7Wv5W5N48",
+    "video_id":  "Kt7Wv5W5N48",
+    "inicio":  40,
+    "fin":  63,
+    "inicio_hms":  "0:00:40",
+    "duracion_seg":  23,
+    "gancho":  "Getaway Files #13: the sheriff\u0027s SUV",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "atardecer",
+    "resolucion":  "1440x2560",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -17.58,
+                  "entrada_tp":  -4.97,
+                  "salida_lufs":  -13.73,
+                  "salida_tp":  -1.39
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-24-gta6-sheriff-suv/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-24-gta6-sheriff-suv/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-24-gta6-sheriff-suv/revision.jpg",
+    "creado":  "2026-11-24T10:54:40.9268529-05:00"
+}

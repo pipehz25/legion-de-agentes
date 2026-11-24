@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-24-gta6-private-jet-fail",
+    "url_fuente":  "https://www.youtube.com/watch?v=lmBAWfcp0tc",
+    "video_id":  "lmBAWfcp0tc",
+    "inicio":  691,
+    "fin":  713,
+    "inicio_hms":  "0:11:31",
+    "duracion_seg":  22,
+    "gancho":  "Getaway Files #11: the private jet plan",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "negro",
+    "resolucion":  "1440x2560",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -18.67,
+                  "entrada_tp":  -5.99,
+                  "salida_lufs":  -13.68,
+                  "salida_tp":  -1.32
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-24-gta6-private-jet-fail/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-24-gta6-private-jet-fail/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-24-gta6-private-jet-fail/revision.jpg",
+    "creado":  "2026-11-24T10:47:32.2230124-05:00"
+}
