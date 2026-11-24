@@ -1,5 +1,5 @@
 {
-    "actualizado":  "2026-11-23T11:04:00-05:00",
+    "actualizado":  "2026-11-24T11:32:27-05:00",
     "publicaciones":  [
                           {
                               "clip":  "2026-11-20-gta6-bike-helmet-pov",
@@ -9,18 +9,18 @@
                               "me_gusta":  0,
                               "comentarios":  0,
                               "compartidos":  null,
-                              "medido":  "2026-11-23T11:03:58-05:00",
+                              "medido":  "2026-11-24T11:32:26-05:00",
                               "detalle":  ""
                           },
                           {
                               "clip":  "2026-11-20-gta6-dock-selfie-pov",
                               "plataforma":  "youtube",
                               "cuenta":  "gta-us",
-                              "vistas":  0,
+                              "vistas":  15,
                               "me_gusta":  0,
                               "comentarios":  0,
                               "compartidos":  null,
-                              "medido":  "2026-11-23T11:03:58-05:00",
+                              "medido":  "2026-11-24T11:32:25-05:00",
                               "detalle":  ""
                           },
                           {
@@ -31,29 +31,29 @@
                               "me_gusta":  0,
                               "comentarios":  0,
                               "compartidos":  null,
-                              "medido":  "2026-11-23T11:03:59-05:00",
+                              "medido":  "2026-11-24T11:32:27-05:00",
                               "detalle":  ""
                           },
                           {
                               "clip":  "2026-11-20-gta6-keys-commute-pov",
                               "plataforma":  "youtube",
                               "cuenta":  "gta-us",
-                              "vistas":  3,
+                              "vistas":  2,
                               "me_gusta":  0,
                               "comentarios":  0,
                               "compartidos":  null,
-                              "medido":  "2026-11-23T11:03:59-05:00",
+                              "medido":  "2026-11-24T11:32:26-05:00",
                               "detalle":  ""
                           },
                           {
                               "clip":  "2026-11-20-gta6-lifted-truck-crash",
                               "plataforma":  "youtube",
                               "cuenta":  "gta-chases",
-                              "vistas":  205,
+                              "vistas":  214,
                               "me_gusta":  0,
                               "comentarios":  0,
                               "compartidos":  null,
-                              "medido":  "2026-11-23T11:03:59-05:00",
+                              "medido":  "2026-11-24T11:32:27-05:00",
                               "detalle":  ""
                           },
                           {
@@ -64,29 +64,29 @@
                               "me_gusta":  0,
                               "comentarios":  0,
                               "compartidos":  null,
-                              "medido":  "2026-11-23T11:03:58-05:00",
+                              "medido":  "2026-11-24T11:32:25-05:00",
                               "detalle":  ""
                           },
                           {
                               "clip":  "2026-11-20-gta6-psycho-wasted",
                               "plataforma":  "youtube",
                               "cuenta":  "gta-chases",
-                              "vistas":  91,
+                              "vistas":  88,
                               "me_gusta":  0,
                               "comentarios":  0,
                               "compartidos":  null,
-                              "medido":  "2026-11-23T11:03:58-05:00",
+                              "medido":  "2026-11-24T11:32:26-05:00",
                               "detalle":  ""
                           },
                           {
                               "clip":  "2026-11-20-gta6-record-parrotfish",
                               "plataforma":  "youtube",
                               "cuenta":  "gta-us",
-                              "vistas":  0,
+                              "vistas":  6,
                               "me_gusta":  0,
                               "comentarios":  0,
                               "compartidos":  null,
-                              "medido":  "2026-11-23T11:03:59-05:00",
+                              "medido":  "2026-11-24T11:32:26-05:00",
                               "detalle":  ""
                           },
                           {
@@ -97,40 +97,51 @@
                               "me_gusta":  0,
                               "comentarios":  0,
                               "compartidos":  null,
-                              "medido":  "2026-11-23T11:03:59-05:00",
+                              "medido":  "2026-11-24T11:32:26-05:00",
                               "detalle":  ""
                           },
                           {
                               "clip":  "2026-11-20-gta6-smoothie-buffs",
                               "plataforma":  "youtube",
                               "cuenta":  "gta-us",
-                              "vistas":  0,
+                              "vistas":  1,
                               "me_gusta":  0,
                               "comentarios":  0,
                               "compartidos":  null,
-                              "medido":  "2026-11-23T11:03:58-05:00",
+                              "medido":  "2026-11-24T11:32:25-05:00",
                               "detalle":  ""
                           },
                           {
                               "clip":  "2026-11-20-gta6-switch-car",
                               "plataforma":  "youtube",
                               "cuenta":  "gta-chases",
-                              "vistas":  49,
+                              "vistas":  50,
                               "me_gusta":  1,
                               "comentarios":  0,
                               "compartidos":  null,
-                              "medido":  "2026-11-23T11:04:00-05:00",
+                              "medido":  "2026-11-24T11:32:27-05:00",
                               "detalle":  ""
                           },
                           {
                               "clip":  "2026-11-20-gta6-tank-yard-getaway",
                               "plataforma":  "youtube",
                               "cuenta":  "gta-chases",
-                              "vistas":  126,
+                              "vistas":  142,
                               "me_gusta":  1,
                               "comentarios":  0,
                               "compartidos":  null,
-                              "medido":  "2026-11-23T11:03:59-05:00",
+                              "medido":  "2026-11-24T11:32:26-05:00",
+                              "detalle":  ""
+                          },
+                          {
+                              "clip":  "2026-11-21-gta6-beach-camp-afterparty",
+                              "plataforma":  "youtube",
+                              "cuenta":  "gta-us",
+                              "vistas":  0,
+                              "me_gusta":  0,
+                              "comentarios":  0,
+                              "compartidos":  null,
+                              "medido":  "2026-11-24T11:32:19-05:00",
                               "detalle":  ""
                           },
                           {
@@ -141,7 +152,7 @@
                               "me_gusta":  0,
                               "comentarios":  0,
                               "compartidos":  null,
-                              "medido":  "2026-11-23T11:03:57-05:00",
+                              "medido":  "2026-11-24T11:32:24-05:00",
                               "detalle":  ""
                           },
                           {
@@ -152,7 +163,7 @@
                               "me_gusta":  0,
                               "comentarios":  0,
                               "compartidos":  null,
-                              "medido":  "2026-11-23T11:03:52-05:00",
+                              "medido":  "2026-11-24T11:32:23-05:00",
                               "detalle":  ""
                           },
                           {
@@ -163,7 +174,7 @@
                               "me_gusta":  0,
                               "comentarios":  0,
                               "compartidos":  null,
-                              "medido":  "2026-11-23T11:03:56-05:00",
+                              "medido":  "2026-11-24T11:32:23-05:00",
                               "detalle":  ""
                           },
                           {
@@ -174,18 +185,18 @@
                               "me_gusta":  0,
                               "comentarios":  0,
                               "compartidos":  null,
-                              "medido":  "2026-11-23T11:03:51-05:00",
+                              "medido":  "2026-11-24T11:32:22-05:00",
                               "detalle":  ""
                           },
                           {
                               "clip":  "2026-11-21-gta6-deck-leg-day",
                               "plataforma":  "youtube",
                               "cuenta":  "gta-us",
-                              "vistas":  0,
+                              "vistas":  1,
                               "me_gusta":  0,
                               "comentarios":  0,
                               "compartidos":  null,
-                              "medido":  "2026-11-23T11:03:58-05:00",
+                              "medido":  "2026-11-24T11:32:25-05:00",
                               "detalle":  ""
                           },
                           {
@@ -196,29 +207,29 @@
                               "me_gusta":  0,
                               "comentarios":  0,
                               "compartidos":  null,
-                              "medido":  "2026-11-23T11:03:56-05:00",
+                              "medido":  "2026-11-24T11:32:23-05:00",
                               "detalle":  ""
                           },
                           {
                               "clip":  "2026-11-21-gta6-humvee-heist",
                               "plataforma":  "youtube",
                               "cuenta":  "gta-chases",
-                              "vistas":  0,
+                              "vistas":  3,
                               "me_gusta":  0,
                               "comentarios":  0,
                               "compartidos":  null,
-                              "medido":  "2026-11-23T11:03:57-05:00",
+                              "medido":  "2026-11-24T11:32:24-05:00",
                               "detalle":  ""
                           },
                           {
                               "clip":  "2026-11-21-gta6-impound-breakout",
                               "plataforma":  "youtube",
                               "cuenta":  "gta-chases",
-                              "vistas":  1,
+                              "vistas":  2,
                               "me_gusta":  0,
                               "comentarios":  0,
                               "compartidos":  null,
-                              "medido":  "2026-11-23T11:03:58-05:00",
+                              "medido":  "2026-11-24T11:32:25-05:00",
                               "detalle":  ""
                           },
                           {
@@ -229,7 +240,7 @@
                               "me_gusta":  0,
                               "comentarios":  0,
                               "compartidos":  null,
-                              "medido":  "2026-11-23T11:03:57-05:00",
+                              "medido":  "2026-11-24T11:32:24-05:00",
                               "detalle":  ""
                           },
                           {
@@ -240,18 +251,18 @@
                               "me_gusta":  0,
                               "comentarios":  0,
                               "compartidos":  null,
-                              "medido":  "2026-11-23T11:03:57-05:00",
+                              "medido":  "2026-11-24T11:32:24-05:00",
                               "detalle":  ""
                           },
                           {
                               "clip":  "2026-11-21-gta6-lifeguard-truck-rampage",
                               "plataforma":  "youtube",
                               "cuenta":  "gta-us",
-                              "vistas":  0,
+                              "vistas":  2,
                               "me_gusta":  0,
                               "comentarios":  0,
                               "compartidos":  null,
-                              "medido":  "2026-11-23T11:03:51-05:00",
+                              "medido":  "2026-11-24T11:32:22-05:00",
                               "detalle":  ""
                           },
                           {
@@ -262,7 +273,7 @@
                               "me_gusta":  0,
                               "comentarios":  0,
                               "compartidos":  null,
-                              "medido":  "2026-11-23T11:03:56-05:00",
+                              "medido":  "2026-11-24T11:32:23-05:00",
                               "detalle":  ""
                           },
                           {
@@ -273,18 +284,18 @@
                               "me_gusta":  0,
                               "comentarios":  0,
                               "compartidos":  null,
-                              "medido":  "2026-11-23T11:03:57-05:00",
+                              "medido":  "2026-11-24T11:32:24-05:00",
                               "detalle":  ""
                           },
                           {
                               "clip":  "2026-11-21-gta6-stranger-roast",
                               "plataforma":  "youtube",
                               "cuenta":  "gta-us",
-                              "vistas":  0,
+                              "vistas":  1,
                               "me_gusta":  0,
                               "comentarios":  0,
                               "compartidos":  null,
-                              "medido":  "2026-11-23T11:03:56-05:00",
+                              "medido":  "2026-11-24T11:32:23-05:00",
                               "detalle":  ""
                           },
                           {
@@ -295,7 +306,7 @@
                               "me_gusta":  0,
                               "comentarios":  0,
                               "compartidos":  null,
-                              "medido":  "2026-11-23T11:03:57-05:00",
+                              "medido":  "2026-11-24T11:32:24-05:00",
                               "detalle":  ""
                           },
                           {
@@ -306,7 +317,7 @@
                               "me_gusta":  0,
                               "comentarios":  0,
                               "compartidos":  null,
-                              "medido":  "2026-11-23T11:03:58-05:00",
+                              "medido":  "2026-11-24T11:32:25-05:00",
                               "detalle":  ""
                           },
                           {
@@ -317,7 +328,7 @@
                               "me_gusta":  0,
                               "comentarios":  0,
                               "compartidos":  null,
-                              "medido":  "2026-11-23T11:03:56-05:00",
+                              "medido":  "2026-11-24T11:32:23-05:00",
                               "detalle":  ""
                           },
                           {
@@ -328,7 +339,7 @@
                               "me_gusta":  0,
                               "comentarios":  0,
                               "compartidos":  null,
-                              "medido":  "2026-11-23T11:03:51-05:00",
+                              "medido":  "2026-11-24T11:32:22-05:00",
                               "detalle":  ""
                           },
                           {
@@ -339,7 +350,7 @@
                               "me_gusta":  0,
                               "comentarios":  0,
                               "compartidos":  null,
-                              "medido":  "2026-11-23T11:03:50-05:00",
+                              "medido":  "2026-11-24T11:32:21-05:00",
                               "detalle":  ""
                           },
                           {
@@ -350,7 +361,40 @@
                               "me_gusta":  0,
                               "comentarios":  0,
                               "compartidos":  null,
-                              "medido":  "2026-11-23T11:03:49-05:00",
+                              "medido":  "2026-11-24T11:32:20-05:00",
+                              "detalle":  ""
+                          },
+                          {
+                              "clip":  "2026-11-23-gta6-bmx-wrong-stranger",
+                              "plataforma":  "youtube",
+                              "cuenta":  "gta-us",
+                              "vistas":  0,
+                              "me_gusta":  0,
+                              "comentarios":  0,
+                              "compartidos":  null,
+                              "medido":  "2026-11-24T11:32:20-05:00",
+                              "detalle":  ""
+                          },
+                          {
+                              "clip":  "2026-11-23-gta6-bridge-traffic-carjack",
+                              "plataforma":  "youtube",
+                              "cuenta":  "gta-us",
+                              "vistas":  0,
+                              "me_gusta":  0,
+                              "comentarios":  0,
+                              "compartidos":  null,
+                              "medido":  "2026-11-24T11:32:20-05:00",
+                              "detalle":  ""
+                          },
+                          {
+                              "clip":  "2026-11-23-gta6-crosswalk-not-interested",
+                              "plataforma":  "youtube",
+                              "cuenta":  "gta-us",
+                              "vistas":  0,
+                              "me_gusta":  0,
+                              "comentarios":  0,
+                              "compartidos":  null,
+                              "medido":  "2026-11-24T11:32:20-05:00",
                               "detalle":  ""
                           },
                           {
@@ -361,7 +405,7 @@
                               "me_gusta":  0,
                               "comentarios":  0,
                               "compartidos":  null,
-                              "medido":  "2026-11-23T11:03:50-05:00",
+                              "medido":  "2026-11-24T11:32:21-05:00",
                               "detalle":  ""
                           },
                           {
@@ -372,7 +416,7 @@
                               "me_gusta":  0,
                               "comentarios":  0,
                               "compartidos":  null,
-                              "medido":  "2026-11-23T11:03:50-05:00",
+                              "medido":  "2026-11-24T11:32:21-05:00",
                               "detalle":  ""
                           },
                           {
@@ -383,7 +427,18 @@
                               "me_gusta":  0,
                               "comentarios":  0,
                               "compartidos":  null,
-                              "medido":  "2026-11-23T11:03:51-05:00",
+                              "medido":  "2026-11-24T11:32:22-05:00",
+                              "detalle":  ""
+                          },
+                          {
+                              "clip":  "2026-11-23-gta6-lucia-vs-six",
+                              "plataforma":  "youtube",
+                              "cuenta":  "gta-us",
+                              "vistas":  0,
+                              "me_gusta":  0,
+                              "comentarios":  0,
+                              "compartidos":  null,
+                              "medido":  "2026-11-24T11:32:20-05:00",
                               "detalle":  ""
                           },
                           {
@@ -394,7 +449,18 @@
                               "me_gusta":  0,
                               "comentarios":  0,
                               "compartidos":  null,
-                              "medido":  "2026-11-23T11:03:50-05:00",
+                              "medido":  "2026-11-24T11:32:21-05:00",
+                              "detalle":  ""
+                          },
+                          {
+                              "clip":  "2026-11-23-gta6-two-on-one",
+                              "plataforma":  "youtube",
+                              "cuenta":  "gta-us",
+                              "vistas":  0,
+                              "me_gusta":  0,
+                              "comentarios":  0,
+                              "compartidos":  null,
+                              "medido":  "2026-11-24T11:32:19-05:00",
                               "detalle":  ""
                           },
                           {
@@ -405,7 +471,7 @@
                               "me_gusta":  0,
                               "comentarios":  0,
                               "compartidos":  null,
-                              "medido":  "2026-11-23T11:03:51-05:00",
+                              "medido":  "2026-11-24T11:32:22-05:00",
                               "detalle":  ""
                           }
                       ]
