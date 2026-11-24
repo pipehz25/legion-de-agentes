@@ -93,12 +93,19 @@ try {
         # 2. Tiempos de cada palabra, desde el propio audio (whisper escribe su progreso en stderr)
         & $ffmpeg -v error -y -i 'voz.wav' -ar 16000 -ac 1 'voz16.wav'
         $ErrorActionPreference = 'Continue'
-        & $whisper -m $modelo.FullName -f 'voz16.wav' -l ($Idioma -split '-')[0] -ml 1 -sow -oj -of 'palabras' -np 2>&1 | Out-Null
+        # --prompt con el propio guion: whisper escribe bien los nombres (el 2026-11-24 salia "GARWAY KINGS OUT" y "SHAMMEL")
+        $prompt = ($texto -replace '"', '')
+        & $whisper -m $modelo.FullName -f 'voz16.wav' -l ($Idioma -split '-')[0] -ml 1 -sow -oj -of 'palabras' -np --prompt $prompt 2>&1 | Out-Null
         $ErrorActionPreference = 'Stop'
         if (-not (Test-Path 'palabras.json')) { throw 'whisper no produjo los tiempos de las palabras' }
         $palabras = @(([IO.File]::ReadAllText((Join-Path $trabajo 'palabras.json'), $utf8) | ConvertFrom-Json).transcription |
             Where-Object { $_.text.Trim() -and $_.text.Trim() -notmatch '^\[.*\]$' } |
             ForEach-Object { [pscustomobject]@{ a = $_.offsets.from / 1000.0 + $inicio; b = $_.offsets.to / 1000.0 + $inicio; w = $_.text.Trim() } })
+        # La voz lee el guion tal cual: si whisper devuelve tantas palabras como tiene el guion, el texto de cada
+        # subtitulo sale del guion (ortografia exacta) y de whisper solo los tiempos
+        $fichas = @($texto -split '\s+' | Where-Object { $_ })
+        if ($fichas.Count -eq $palabras.Count) { for ($i = 0; $i -lt $fichas.Count; $i++) { $palabras[$i].w = $fichas[$i] } }
+        else { Write-Warning "whisper dio $($palabras.Count) palabras y el guion tiene $($fichas.Count): los subtitulos salen de whisper; revisalos." }
 
         # 3. Subtitulos: bloques de hasta 3 palabras, en la franja de abajo si el clip es marco
         $tamano = 84
