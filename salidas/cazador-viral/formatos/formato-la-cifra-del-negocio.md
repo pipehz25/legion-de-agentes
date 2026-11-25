@@ -1,6 +1,15 @@
 # ¿Cuánto te deja? La cifra del negocio, dicha por el dueño
 
-> **Estado (23-nov, 00:30, ciclo 21): vigente hasta el 24-nov, con puntaje 69 (sin cambios); sigue bajo el umbral de hibridación (70).** Lo nuevo:
+> **Estado (25-nov, 00:30, ciclo 22): pasa a apuesta, con puntaje 65 (69 en el ciclo 21); sigue bajo el umbral de hibridación (70).** Lo nuevo:
+> - **El 24-nov no hubo corto medido.** '¿Cuánto gana Westcol en su mejor mes?' (2026-11-22-westcol-mejor-mes) sigue en borradores de TikTok desde el 23-nov 19:46. Como se fijó, la ficha sale de las oportunidades. Queda como apuesta hasta el 28-nov: si para entonces no hay un corto con la cifra medido a las 24 h, sale también de apuestas.
+> - **Material nuevo para la variante de empresarios, sin audiencia todavía.** Santiago Ospina sube dos reuniones reales de su constructora con su padre:
+>   - ['Le dije a mi papá que su tiempo pasó'](https://www.youtube.com/watch?v=U7SI-4IYrZM) (7:35; 6 vistas): "2 millones de pesos por metro cuadrado… ese mismo millón en China me puedo traer el doble" (1:30-2:40).
+>   - ['Así se toman las decisiones en mi constructora'](https://www.youtube.com/watch?v=1Pn6TOoIZlM) (16 min; 5 vistas): el padre, "No vale la pena correr un riesgo por 30 millones de pesos" (1:00-1:40).
+>   - Gancho propuesto: "Un riesgo de 30 millones no vale la pena" en pantalla en el segundo 0, la discusión padre-hijo y "¿Tú qué harías?".
+> - **Sin cifra no sirve:** Ibai titula 'el vídeo más caro de mi canal' (1,95 M a las 35 h), pero no dice cuánto.
+> - **TikTok en inglés:** 'He wanna pay full price' sigue fresco (423 creadores en 7 días). Audio con derechos: solo señal.
+>
+> **Estado anterior (23-nov, 00:30, ciclo 21): vigente hasta el 24-nov, con puntaje 69 (sin cambios); sigue bajo el umbral de hibridación (70).** Lo nuevo:
 > - **El corto que decide ya está cortado:** '¿Cuánto gana Westcol en su mejor mes?' (2026-11-22-westcol-mejor-mes, 12:59-13:37 de [olXao5WK9qY](https://www.youtube.com/watch?v=olXao5WK9qY)), aprobado para la bandeja de TikTok y aún sin publicar ni medir. Si el 24-nov no hay corto medido, la ficha sale de las recomendaciones.
 > - **El lujo en el título sigue rindiendo sin cifra:** la mansión millonaria de Lonche y Willito va a unas 6,6 veces su tour por Provenza (señal relacionada: nadie dice el precio en los tramos revisados).
 > - En la clase de surf se habla de 'un Ferrari, un Lambo' y de la lancha nueva ('como un mini yate'), entre bromas y sin una cifra clara: no sirve para esta ficha.

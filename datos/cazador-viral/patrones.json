@@ -1,25 +1,31 @@
 {
-  "actualizado": "2026-11-23T00:30:00-05:00",
-  "ciclo": 21,
+  "actualizado": "2026-11-25T00:30:00-05:00",
+  "ciclo": 22,
   "rotacion": {
     "plataformas": {
-      "tiktok": "2026-11-23",
-      "youtube": "2026-11-23",
+      "tiktok": "2026-11-25",
+      "youtube": "2026-11-25",
       "instagram": "2026-11-14",
       "facebook": "2026-11-10",
-      "x": "2026-11-23",
+      "x": "2026-11-25",
       "twitch": "2026-11-17",
       "kick": "2026-11-19",
       "reddit": "2026-11-15"
     },
     "nichos": {
-      "música urbana: cantantes jóvenes": "2026-11-23",
-      "empresarios exitosos y emprendimiento": "2026-11-23",
-      "streamers y creadores": "2026-11-23"
+      "música urbana: cantantes jóvenes": "2026-11-25",
+      "empresarios exitosos y emprendimiento": "2026-11-25",
+      "streamers y creadores": "2026-11-25"
     },
-    "_nota_rotacion": "Ciclo 21 (23-nov, de 23:55 del 22-nov a 00:30). TikTok: virlo.ai (actualizado a las 19:07 del 22-nov): 'My moon my man couple montage' sigue #1 (Rising, 614 creadores en 7 días), 'He wanna pay full price SNL' (Fresh, 522), 'In this town everybody goes out partying except me' (Fresh, 424) y 'While they're out partying btw' pasa a Fading (205; 275 en el ciclo 19). Entran 'POV: you're the villain but…', 'Not just anyone's babies' y 'Don't let a fanatic see this'. Nada de los perfiles. Kick: saltado por orden del orquestador; su fecha se queda en el 19-nov. YouTube: radar completo de perfiles. X y Google, por el recolector. Twitch, Instagram, Facebook y Reddit: sin explorar (ciclo corto, centrado en lo nuevo desde las 19:40)."
+    "_nota_rotacion": "Ciclo 22 (retomado: de 23:54 del 23-nov a 00:10 del 24-nov y de 23:53 del 24-nov a 00:30 del 25-nov). TikTok: virlo.ai leído dos veces (24 y 25-nov): 'In this town everybody goes out partying except me' pasa a #1 (476 creadores en 7 días), 'He wanna pay full price SNL' #2 (423; 477 el 24-nov), 'My moon my man couple montage' pasa a Fading (326), 'GTA 6 loading screen intro' sube (281), 'While they're out partying btw' sigue Fading. Entra 'I wish for straight teeth Willow' (177). Nada de los perfiles. YouTube: radar en dos pasadas (la segunda, sobre lo publicado el 24-nov). X y Google, por el recolector (Miss Universo y la NFL lo llenan todo). Kick: saltado por orden del orquestador. Instagram, Facebook, Twitch y Reddit: sin explorar (ciclo partido por la suspensión de la PC)."
   },
   "notas": [
+    "Ciclo 22 en esta PC, en la raíz (sin espacio.local.json), partido en dos por una suspensión. Primera pasada: de 23:54 del 23-nov a 00:10 del 24-nov (snapshot 2026-11-23_2354); la PC se suspendió y el vigilante cortó el ciclo. Segunda pasada: de 23:53 del 24-nov a 00:30 del 25-nov (snapshot 2026-11-24_2354; Wikipedia igual, trae el 23-nov). Todo lo que se usa se volvió a medir en la segunda pasada. Cada llamada con tope de 55-58 s (run.ps1, yt.ps1 y medir.ps1 del scratchpad: matan el árbol de procesos y piden a Windows que no se suspenda mientras dura). Pasaron del tope y se leyó el archivo parcial: 'Kris R' (-Hoy -Detalle -N 7) y 'millonario revela podcast' (-Recientes -Detalle -N 8). Presupuesto, sumando las dos pasadas: revisiones_de_canal 32/20 y busquedas_youtube 20/15 (la segunda pasada se hizo porque pasó un día entero), busquedas_web 6/20, lecturas_web 2/20 (virlo.ai dos veces, con curl --max-time 40), más unas 15 lecturas con yt-dlp (vistas, descripciones y 12 subtítulos).",
+    "Aprendizaje del ciclo 22: el corto que decide un patrón no cuenta mientras esté en borradores. '¿Cuánto gana Westcol en su mejor mes?' se cortó el 22-nov y lleva desde el 23-nov 19:46 en borradores de TikTok, sin publicar; formato-matematica-del-lujo pasa a apuestas por eso, no porque el corto rindiera poco. Cuando un patrón dependa de un corto, pedir en la respuesta final que se publique y se mida.",
+    "Aprendizaje del ciclo 22: el día después, lo que más rindió fue el protagonista viéndose en los clips. 'REACCIONANDO A LOS CLIPS DE LA GANGA EN GUATAPÉ' (The Chanty) llega a 6,2 veces su mediana por hora a las 10,5 h; el resumen de terceros con los mismos momentos se queda en 359/h. Es una variante nueva de formato-el-dia-despues-del-protagonista: se registra como 'reaccion-a-los-clips-co' en semilla.",
+    "Aprendizaje del ciclo 22: cuando los canales que suben a diario pasan 30 h sin subir (Samulx, LoncheWey), la visita se acabó. Lo que llega después son otras cámaras del último día (la casa de Ovy On The Drums desde Lonche y Willito) con momentos ya cortados. A partir de ahí, priorizar otros perfiles.",
+    "Aprendizaje del ciclo 22: las búsquedas por el nombre de un cantante traen reacciones a lanzamientos viejos ('REACCIÓN al NUEVO ALBUM de KRIS R', de un álbum del 15-oct; las reacciones a 'Hágalo Remix', del 15-nov). Antes de tratar una reacción como noticia, comprobar la fecha del lanzamiento.",
+    "Ciclo 22: excluidos por regla o fuera del enfoque: #MissUniverse2026, 'Miss Colombia', 'Paulina Vega', 'Fátima Bosch' y Miss International (concursos; #1 en X en CO, MX, ES y la lista mundial), '#DueloVIP', '#CapatazVIP', '#LaGranjaCapataz', '#LaGranjaVIP', '#GHVIP24N', '#TentacionesDBTFinal2', '#MasterChefCelebrity' y '#LaCasaDeAlofoke3' (realities); 'Villavicencio', 'Gobernación del Meta' y 'Nariño' (atentados); 'El Chapo Isidro', 'Sinaloa' y 'Guasave' (narcotráfico); 'Jensen Huang' (escándalo); la política de Colombia, México, Argentina y España; la NFL, la NBA y el fútbol; 'ODETTE Y JOAO SE CASAN' (HotSpanish Vlogs, La Mansión VIP 2); 'Katy Cardona YT' (viene de un reality); 'WESTCOL TERMINA su RELACION con LUISA CASTRO' (Cayco, chisme); '¿Por qué WESTCOL demandaría a HERRERA?' (Law for the People; caso legal, y de Herrera nada); 'Blessd, llamado a juicio' (RPTN, caso judicial); las re-subidas sin licencia (LONCHI, 'Lonche', LonchiClips, basuquito). Sin explicar: 'Ospina' (#11 en X Colombia, 19 h, el 23-nov; la búsqueda web solo trae a David Ospina, el arquero) y '#MFlowDisrespectsArgentina' (X Argentina, #17).",
     "Ciclo 21 (23-nov, de 23:55 del 22-nov a 00:30) en esta PC, en la raíz (sin espacio.local.json). Snapshot nuevo 2026-11-22_2355; el anterior es 2026-11-22_1758. Lo nuevo se busca desde el final del ciclo 20 (22-nov, 19:40). Nada de Kick, por orden del orquestador. Todas las llamadas con c20-run.ps1 del scratchpad (tope de 50-57 s y sin suspensión mientras dura); ninguna se congeló. Presupuesto: revisiones_de_canal 22/20 (dos de más: W Sound y WestClips), busquedas_youtube 15/15, busquedas_web 2/20, lecturas_web 1/20 (virlo.ai con curl --max-time 40), más unas 30 lecturas con yt-dlp (metadatos, descripciones y 6 subtítulos).",
     "Aprendizaje del ciclo 21: la hora de fin de un directo largo se saca del contenido, no de la fecha de subida. En el ciclo 20, 'falta un día y 5 horas' salía de un VOD del día anterior subido a las 13:46 del 22-nov, y se dio el fin para el 23-nov hacia las 19:00. Las 72 horas terminaron la noche del 22-nov (la última hora: 1vvSAlzi2jU y fXzITXkun0Y). Antes de fechar un cierre, buscar en los subtítulos la despedida o el 'apagamos el stream'.",
     "Aprendizaje del ciclo 21: el mismo momento rinde según quién lo titula. La clase de wakesurf de Ovy en Guatapé va a 2,3 veces la mediana por hora de Samulx ('OVY NOS ENSEÑA A SURFEAR…', con el maestro famoso en el título) y a 0,75 veces la de The Chanty ('SURFEANDO POR PRIMERA VEZ…', sin él). Cuando hay varias cámaras de un mismo momento, recomendar la que nombra a la persona famosa.",
@@ -98,8 +104,8 @@
   ],
   "candidatos_pendientes": [
     {
-      "id": "tema-anuel-tarde-en-bogota",
-      "nota": "Ciclo 20. 'Anuel' es #1 en X Colombia durante 21 h. Según los títulos de YouTube del 22-nov, llegó tarde y cantó 45 minutos en el Vive Claro de Bogotá el 21-nov ('TREMENDO LÍO CON ANUEL EN COLOMBIA…', Top Mundial, 1.918 vistas; 'ANUEL LE FALTA RESPETO AL PÚBLICO COLOMBIANO', JJ RAMIREZ RADIO TV SHOW). No hay video con él en persona ni crónica indexada. Solo entra si Anuel responde en cámara (sería un día después del protagonista); si la polémica pasa a reclamaciones o demandas, se cierra. Ciclo 21: baja de #1 a #5 en X Colombia (24 h en lista) y la búsqueda de YouTube de hoy solo trae comentarios ('Anuel ABANDONA Concierto', Trapeton, 5.572 vistas; Top Mundial, 3.874). Él no responde en cámara. Si el 24-nov sigue igual, se cierra."
+      "id": "formato-reunion-real-sin-filtro",
+      "nota": "Ciclo 22. Santiago Ospina (perfil de empresarios) sube dos reuniones reales de su constructora con su padre en dos días: 'Le dije a mi papá que su tiempo pasó (reunión real de mi constructora)' (U7SI-4IYrZM, 7:35, 23-nov) y 'Así se toman las decisiones en mi constructora (comité real, sin filtro)' (1Pn6TOoIZlM, 16 min, 24-nov). El choque padre-hijo con cifras ('un riesgo de 30 millones', 'el metro cuadrado en China') es un gancho claro, pero tienen 6 y 5 vistas. No se puntúa hasta tener dos señales: réplicas de otros empresarios con el formato 'reunión real' que rindan, o un corto suyo medido."
     }
   ],
   "candidatos_retirados_ciclo_8": [
@@ -164,12 +170,13 @@
         "streamers-con-negocio-es": "sin-verificar",
         "presumir-compra-co": "quemado",
         "artista-compra-club-co": "sin-verificar",
-        "lujo-sin-cifra-co": "emergente"
+        "lujo-sin-cifra-co": "emergente",
+        "reunion-real-de-empresa-co": "semilla"
       },
-      "indice_saturacion": 31,
-      "puntaje_oportunidad": 69,
-      "puntaje_desglose": "9 / 22 / 16 / 15 / 7",
-      "ventana_hasta": "2026-11-24",
+      "indice_saturacion": 33,
+      "puntaje_oportunidad": 65,
+      "puntaje_desglose": "6 / 22 / 16 / 15 / 6",
+      "ventana_hasta": "2026-11-28",
       "confianza": "baja",
       "genoma": {
         "gancho": "Cifra en pantalla en el segundo 0, en paradoja o comparación ('La prenda que más margen les deja', 'Un Lamborghini en vez de 15 Sequoias')",
@@ -432,6 +439,30 @@
           "mide": "senal_relacionada",
           "contexto": "youtube-co",
           "fecha": "2026-11-23"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=1Pn6TOoIZlM",
+          "metrica": "'Así se toman las decisiones en mi constructora (comité real, sin filtro)' (Santi Ospina, 11,2 K; 16 min; 24-nov 18:00): 5 vistas a las 6,1 h. Cifras en cámara: 'No vale la pena correr un riesgo por 30 millones de pesos' (1:00-1:40); arquitectos que 'cobran cientos de millones de pesos por el diseño de una mansión' (5:00-5:40)",
+          "tipo": "medido",
+          "mide": "senal_relacionada",
+          "contexto": "youtube-co",
+          "fecha": "2026-11-25"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=RLyZ7Cq_2-Y",
+          "metrica": "'Organicé una Boda Sorpresa a mi Editor' (Ibai, 17,5 M): 1.953.181 vistas a las 34,9 h. Sin cifra: 'el vídeo más caro de la historia de mi canal' (9:00) y 'presupuesto totalmente ilimitado' (19:30). En un canal tan grande mide fama, no el patrón",
+          "tipo": "medido",
+          "mide": "senal_relacionada",
+          "contexto": "youtube-es",
+          "fecha": "2026-11-24"
+        },
+        {
+          "url": "https://virlo.ai/trends",
+          "metrica": "'He wanna pay full price SNL' sigue fresco en TikTok en inglés: 423 creadores en 7 días el 25-nov (477 el 24-nov; #2). Audio de SNL, con derechos: solo señal",
+          "tipo": "medido",
+          "mide": "senal_relacionada",
+          "contexto": "tiktok-en",
+          "fecha": "2026-11-25"
         }
       ],
       "historial": [
@@ -512,6 +543,12 @@
           "etapa": "semilla",
           "indice_saturacion": 31,
           "senal": "Ciclo 21. El corto que decide el patrón ya existe: el Clipero cortó '¿Cuánto gana Westcol en su mejor mes?' (2026-11-22-westcol-mejor-mes, 12:59-13:37 de olXao5WK9qY), aprobado para la bandeja de TikTok y aún sin publicar ni medir (datos/publicador/metricas.json vacío). El lujo en el título sigue rindiendo sin cifra: la mansión millonaria de Lonche y Willito va a unas 6,6 veces su tour por Provenza (señal relacionada). En la clase de surf se habla de 'un Ferrari, un Lambo' y de la lancha nueva ('tiene baño, lavamanos… como un mini yate'; 'ya yo pongo 50 lucas') (9Pmh6QW_evQ, 3:00-4:30), pero entre bromas y sin una cifra clara: no sirve. Índice: densidad 8, réplicas recientes 9, señales tardías 0, fatiga 0, edad 14 (de 30 a 31). Puntaje igual (69). Si el 24-nov no hay corto medido, sale de las recomendaciones."
+        },
+        {
+          "fecha": "2026-11-25",
+          "etapa": "semilla",
+          "indice_saturacion": 33,
+          "senal": "Ciclo 22. Pasa de oportunidad a apuesta, como se había fijado: el 24-nov no hubo corto medido. '¿Cuánto gana Westcol en su mejor mes?' sigue en borradores de TikTok desde el 23-nov 19:46. Material nuevo con cifra dicha en cámara, pero sin audiencia: Santiago Ospina sube dos reuniones reales de su constructora con su padre ('No vale la pena correr un riesgo por 30 millones de pesos'; '2 millones de pesos por metro cuadrado… en China me traigo el doble'), con 5 y 6 vistas. Ibai titula sin cifra ('el vídeo más caro de mi canal'): 1,95 M a las 35 h, fama. En TikTok en inglés, 'He wanna pay full price' sigue fresco (423 creadores). Índice: densidad 8, réplicas recientes 10, señales tardías 0, fatiga 0, edad 15 (de 31 a 33). Fuerza de 9 a 6 e hibridación de 7 a 6: puntaje de 69 a 65. Sale de apuestas si al 28-nov no hay un corto medido."
         }
       ]
     },
@@ -926,10 +963,10 @@
         "streamers y creadores"
       ],
       "primera_vez_visto": "2026-11-08",
-      "etapa": "emergente",
+      "etapa": "crecimiento",
       "etapa_por_contexto": {
-        "youtube-es": "emergente",
-        "youtube-co": "emergente",
+        "youtube-es": "crecimiento",
+        "youtube-co": "crecimiento",
         "youtube-ar": "emergente",
         "kick-co": "semilla",
         "tiktok-co": "sin-verificar",
@@ -938,14 +975,15 @@
         "reunion-por-primera-vez-co": "semilla",
         "ciudad-de-noche-co": "emergente",
         "probando-la-mejor-co": "pico",
-        "lugar-o-experiencia-nueva-co": "emergente",
+        "lugar-o-experiencia-nueva-co": "crecimiento",
         "creador-de-viajes-sin-guia-co": "emergente",
-        "visita-de-vuelta-ar": "sin-verificar"
+        "visita-de-vuelta-ar": "sin-verificar",
+        "casa-de-un-famoso-co": "semilla"
       },
-      "indice_saturacion": 37,
-      "puntaje_oportunidad": 84,
-      "puntaje_desglose": "18 / 30 / 13 / 15 / 8",
-      "ventana_hasta": "2026-11-25",
+      "indice_saturacion": 46,
+      "puntaje_oportunidad": 75,
+      "puntaje_desglose": "17 / 22 / 13 / 15 / 8",
+      "ventana_hasta": "2026-11-26",
       "confianza": "media",
       "genoma": {
         "gancho": "'POR PRIMERA VEZ' en el título y en pantalla, con la reacción en el primer segundo (la cara al probar, el precio, el barrio)",
@@ -1402,6 +1440,38 @@
           "mide": "patron",
           "contexto": "youtube-ar",
           "fecha": "2026-11-23"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=sVm2xpo3rM4",
+          "metrica": "'FUI A GUATAPE CON LA GANGA' (Westcol, 2,1 M; 4 h 45 min; 23-nov 10:00): 101.482 vistas a las 37,9 h (2.676/h), 1,4 veces su mediana por hora (1.896/h); 5.054/h a las 14,2 h",
+          "tipo": "medido",
+          "mide": "patron",
+          "contexto": "youtube-co",
+          "fecha": "2026-11-24"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=SUEBErErDmA",
+          "metrica": "'UN DÍA DE LOCOS EN LA MANSIÓN DE OVY ON THE DRUMS' (Lonche y Willito, 118 K; 2 h 30 min; 24-nov 16:47): 8.073 vistas a las 7,3 h (1.106/h), unas 2,4 veces su tour por Provenza (455/h) y 0,37 veces la mansión millonaria (3.018/h a las 6,4 h)",
+          "tipo": "medido",
+          "mide": "patron",
+          "contexto": "youtube-co",
+          "fecha": "2026-11-25"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=rlmpoCjjW8Q",
+          "metrica": "La primera vez desde Argentina: Davoo ('nunca había ido a Colombia en mi vida', 0:00-1:30) llega a 522.544 vistas a las 49 h, 1,0 veces la mediana de vistas totales de sus 3 videos anteriores",
+          "tipo": "medido",
+          "mide": "patron",
+          "contexto": "youtube-ar",
+          "fecha": "2026-11-24"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=a6dgz2wtN6c",
+          "metrica": "En contra: 'FIESTA con WESTCOL, WILLITO, SAMULX, LEANDRO y CHANTY EN COLOMBIA' (Lonche Chacas, 24-nov 21:01): 843 vistas a las 3,1 h (272/h), 0,69 veces la mediana por hora del canal (396/h)",
+          "tipo": "medido",
+          "mide": "patron",
+          "contexto": "youtube-co",
+          "fecha": "2026-11-25"
         }
       ],
       "historial": [
@@ -1500,6 +1570,12 @@
           "etapa": "emergente",
           "indice_saturacion": 37,
           "senal": "Ciclo 21. La primera vez con maestro famoso es lo más rápido de lo nuevo: Ovy On The Drums le enseña wakesurf a La Ganga en Guatapé (Samulx, 2,3 veces su mediana por hora a las 4,3 h). La mansión millonaria de Lonche y Willito acelera de 833/h a 3.018/h (unas 6,6 veces su tour por Provenza) y el jet ski de The Chanty se sostiene a 2,65 veces. 'DESCONTROLANDO GUATAPE' frena de 6,3 a 3,9 veces: el sitio se gasta después de las 12 h, como en los ciclos 18 y 19. En contra, la misma clase desde la cámara de The Chanty, sin el maestro en el título, va a 0,75 veces. Las 72 horas terminaron el 22-nov, pero los mexicanos siguen de ruta por Colombia ('NOS VAMOS DE RUTA POR COLOMBIA', LONCHEVIP). Índice: densidad 18, réplicas recientes 6, señales tardías 2, fatiga 2, edad 9 (de 35 a 37). Las réplicas siguen por encima de su media: se queda en emergente. Puntaje igual (84). Ventana hasta el 25-nov."
+        },
+        {
+          "fecha": "2026-11-25",
+          "etapa": "crecimiento",
+          "indice_saturacion": 46,
+          "senal": "Ciclo 22. Pasa de emergente a crecimiento. Las réplicas siguen por encima de su media, pero con menos margen: 'FUI A GUATAPE CON LA GANGA' (Westcol) a 1,4 veces a las 38 h y la casa de Ovy On The Drums (Lonche y Willito) a unas 2,4 veces su tour por Provenza, mientras la fiesta de Lonche Chacas se queda en 0,69 veces y la clase de surf de Samulx baja a 0,9 veces a las 52 h. Aparecen recopilaciones de terceros ('MEJORES MOMENTOS DEL 72 HORAS', 359/h), Samulx y LoncheWey llevan más de 30 h sin subir y SoyPan ya está en Monterrey: la visita se acaba. La primera vez desde Argentina (Davoo, 'nunca había ido a Colombia') rinde en su línea. Índice: densidad 19, réplicas recientes 9, señales tardías 5, fatiga 3, edad 10 (de 37 a 46). Momento de 30 a 22 y fuerza de 18 a 17: puntaje de 84 a 75. Ventana hasta el 26-nov."
         }
       ]
     },
@@ -1952,17 +2028,18 @@
         "kick-co": "emergente",
         "musica-urbana-co": "sin-adaptar",
         "tiktok-es": "sin-verificar",
-        "recopilacion-de-terceros-co": "pico",
+        "recopilacion-de-terceros-co": "saturacion",
         "testimonio-sin-pregunta-co": "pico",
         "polemica-que-pasa-a-lo-legal-co": "quemado",
         "evento-emitido-entero-co": "pico",
         "concierto-desde-camara-de-invitado-co": "pico",
-        "evento-ajeno-desde-la-tribuna-ar": "emergente"
+        "evento-ajeno-desde-la-tribuna-ar": "emergente",
+        "reaccion-a-los-clips-co": "semilla"
       },
-      "indice_saturacion": 33,
-      "puntaje_oportunidad": 81,
-      "puntaje_desglose": "18 / 30 / 13 / 14 / 6",
-      "ventana_hasta": "2026-11-24",
+      "indice_saturacion": 36,
+      "puntaje_oportunidad": 80,
+      "puntaje_desglose": "17 / 30 / 13 / 14 / 6",
+      "ventana_hasta": "2026-11-26",
       "confianza": "media",
       "genoma": {
         "gancho": "Pregunta sobre el evento en pantalla, con la cara del protagonista ('¿Qué pasará con Herrera?', '¿Merecimos perder?', 'Lo que no se vio')",
@@ -2235,6 +2312,46 @@
           "mide": "patron",
           "contexto": "youtube-co",
           "fecha": "2026-11-23"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=9cshF4iOHW0",
+          "metrica": "'REACCIONANDO A LOS CLIPS DE LA GANGA EN GUATAPÉ' (The Chanty, 241 K; 13 min; 23-nov 13:47): 37.013 vistas a las 10,5 h (3.525/h), 6,2 veces la mediana por hora de sus subidas desde el 20-nov (566/h); 54.990 a las 34,1 h (1.611/h, 2,8 veces)",
+          "tipo": "medido",
+          "mide": "patron",
+          "contexto": "youtube-co",
+          "fecha": "2026-11-24"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=rlmpoCjjW8Q",
+          "metrica": "'DAVOO XENEIZE CUENTA SU ANECDOTA YENDO A VER BOCA-ATLETICO MINEIRO' (Davoo Xeneize, 937 K; 44 min; 22-nov 23:05): 424.431 vistas a las 25 h y 522.544 a las 49 h (10.654/h), 1,0 veces la mediana de vistas totales de sus 3 videos anteriores (523.482)",
+          "tipo": "medido",
+          "mide": "patron",
+          "contexto": "youtube-ar",
+          "fecha": "2026-11-24"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=0XIkXdvkOgc",
+          "metrica": "'ASÍ TERMINÉ DESPUÉS DE PASAR 72 HORAS CON WESTCOL' (Katy Cardona YT, 46,8 K; 31 min; 24-nov 12:00): 21.177 vistas a las 11,9 h (1.780/h). Solo señal: viene de un reality (config.excluir) y no se corta",
+          "tipo": "medido",
+          "mide": "patron",
+          "contexto": "youtube-co",
+          "fecha": "2026-11-24"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=wcFZHzo1Y-A",
+          "metrica": "'NO SABEMOS QUE PASO AYER' (Samulx, 190 K; 22-nov 13:46): 95.368 vistas a las 10,2 h (9.319/h), 3,6 veces su mediana por hora (2.556/h). El gancho del título es de pareja (excluido)",
+          "tipo": "medido",
+          "mide": "patron",
+          "contexto": "youtube-co",
+          "fecha": "2026-11-23"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=N7fZGy7f26U",
+          "metrica": "En contra de la versión sin protagonista: 'MEJORES MOMENTOS DEL 72 HORAS CON LA GANGA *resumen completo*' (basuquito, 6,7 K): 4.303 vistas a las 12 h (359/h)",
+          "tipo": "medido",
+          "mide": "patron",
+          "contexto": "youtube-co",
+          "fecha": "2026-11-24"
         }
       ],
       "historial": [
@@ -2291,6 +2408,12 @@
           "etapa": "emergente",
           "indice_saturacion": 33,
           "senal": "Ciclo 21. 'NO SABEMOS QUE PASO AYER' (Samulx) sigue acelerando: de 3,3 a 3,6 veces su mediana por hora a las 10,2 h. Corrección de fecha: las 72 horas terminaron la noche del 22-nov, no el 23-nov hacia las 19:00 (lo dicen la despedida de Samulx en 1vvSAlzi2jU y la de The Chanty en fXzITXkun0Y, 'no aguantaron las 72 horas'). El día después es el 23-nov. Davoo sube a 2,2 veces su mediana; Soy Roberto Uribe frena (de 20.822/h a 18.106/h). La versión sin protagonista sigue floja (Info Stream COL, unas 300/h). Índice: densidad 12, réplicas recientes 10, señales tardías 3, fatiga 1, edad 7 (de 32 a 33). Fuerza de 17 a 18: puntaje de 80 a 81. Ventana hasta el 24-nov."
+        },
+        {
+          "fecha": "2026-11-25",
+          "etapa": "emergente",
+          "indice_saturacion": 36,
+          "senal": "Ciclo 22. El día después de las 72 horas (23 y 24-nov) lo ganó el protagonista viéndose en los clips: 'REACCIONANDO A LOS CLIPS DE LA GANGA EN GUATAPÉ' (The Chanty) a 6,2 veces su mediana por hora a las 10,5 h y 2,8 veces a las 34 h. Davoo cuenta su viaje a la final y se queda en la línea de su canal (522.544 vistas a las 49 h, 1,0 veces la mediana de vistas totales). Katy Cardona (excluida) también sube su día después (1.780/h). El resumen de terceros se queda en 359/h (recopilaciones de terceros, de pico a saturación). Índice: densidad 13, réplicas recientes 10, señales tardías 4, fatiga 1, edad 8 (de 33 a 36). Fuerza de 18 a 17: puntaje de 81 a 80. Ventana hasta el 26-nov; después, esperar el próximo evento de un perfil."
         }
       ]
     },
@@ -2312,18 +2435,18 @@
         "empresarios exitosos y emprendimiento"
       ],
       "primera_vez_visto": "2026-11-17",
-      "etapa": "saturacion",
+      "etapa": "quemado",
       "etapa_por_contexto": {
         "kick-co": "quemado",
-        "youtube-co": "saturacion",
+        "youtube-co": "quemado",
         "copias-de-terceros-co": "saturacion",
         "tiktok-es": "sin-verificar",
         "kick-co-72-horas": "sin-verificar",
-        "titulo-72-horas-co": "saturacion"
+        "titulo-72-horas-co": "quemado"
       },
-      "indice_saturacion": 76,
-      "puntaje_oportunidad": 35,
-      "puntaje_desglose": "8 / 0 / 8 / 15 / 4",
+      "indice_saturacion": 87,
+      "puntaje_oportunidad": 0,
+      "puntaje_desglose": "6 / 0 / 8 / 15 / 3",
       "ventana_hasta": "2026-11-19",
       "confianza": "media",
       "genoma": {
@@ -2519,6 +2642,12 @@
           "etapa": "saturacion",
           "indice_saturacion": 76,
           "senal": "Ciclo 21. El directo de las 72 horas terminó la noche del 22-nov (la despedida en minimotos por Guatapé: 'Por fin apagamos el stream', Samulx; 'no aguantaron las 72 horas', The Chanty), antes de lo que se calculó en el ciclo 20. Westcol sube el arranque con el título '72 horas' y rinde en su línea (0,93 veces); las recopilaciones de terceros ('LO MEJOR DE LAS 72 HORAS', 'ASÍ TERMINÓ EL DESAFÍO') son copias o comentarios. Lo que rinde sigue yendo a los formatos (la primera vez con maestro y el día después). Índice: densidad 18, réplicas recientes 25, señales tardías 13, fatiga 8, edad 12. Fuerza de 10 a 8 e hibridación de 5 a 4: puntaje de 38 a 35. Pasa a quemado cuando acabe el día después (25-nov), salvo que se confirmen las 24 horas en Argentina."
+        },
+        {
+          "fecha": "2026-11-25",
+          "etapa": "quemado",
+          "indice_saturacion": 87,
+          "senal": "Ciclo 22. Pasa a quemado, como se había previsto al acabar el día después. Lo que queda son recopilaciones de terceros ('MEJORES MOMENTOS DEL 72 HORAS', basuquito, 359/h), el día después de una invitada excluida y otras cámaras del último día. Samulx y LoncheWey llevan más de 30 h sin subir y SoyPan ya está en Monterrey. Las 24 horas en Argentina no se confirmaron. Índice: densidad 18, réplicas recientes 28, señales tardías 17, fatiga 12, edad 12. Se archiva el 9-dic si no vuelve."
         }
       ]
     },
@@ -2540,17 +2669,17 @@
         "empresarios exitosos y emprendimiento"
       ],
       "primera_vez_visto": "2026-11-19",
-      "etapa": "pico",
+      "etapa": "saturacion",
       "etapa_por_contexto": {
-        "youtube-co": "pico",
-        "prensa-co": "pico",
+        "youtube-co": "saturacion",
+        "prensa-co": "saturacion",
         "x-co": "sin-adaptar",
         "tiktok-co": "sin-verificar",
         "blessd-en-persona-co": "sin-verificar"
       },
-      "indice_saturacion": 67,
-      "puntaje_oportunidad": 43,
-      "puntaje_desglose": "5 / 8 / 8 / 15 / 7",
+      "indice_saturacion": 74,
+      "puntaje_oportunidad": 30,
+      "puntaje_desglose": "4 / 0 / 8 / 15 / 3",
       "ventana_hasta": "2026-11-21",
       "confianza": "media",
       "genoma": {
@@ -2696,6 +2825,12 @@
           "etapa": "pico",
           "indice_saturacion": 67,
           "senal": "Ciclo 20. Sigue bajando: su canal no sube nada en 36 h, 'Blessd Pereira' (recientes) solo trae dos piezas pequeñas sobre él (191/h y 120/h) y la prensa indexada es la de la firma (18-19 nov). Ni 'Blessd' ni 'Pereira' en X ni en Google (snapshot 2026-11-22_1758). Índice: densidad 8, réplicas recientes 29, señales tardías 15, fatiga 4, edad 11. Fuerza de 6 a 5: puntaje de 44 a 43. Si el 24-nov Blessd sigue sin hablar del club en cámara, pasa a saturación. Nada de su proceso judicial ni de Herrera."
+        },
+        {
+          "fecha": "2026-11-25",
+          "etapa": "saturacion",
+          "indice_saturacion": 74,
+          "senal": "Ciclo 22. Pasa a saturación, como se fijó: el 24-nov Blessd sigue sin hablar del club en cámara. Su canal no sube nada en 48 h, 'Blessd Pereira' (recientes, 48 h) da 0 resultados y 'Blessd' (hoy) trae una nota de su proceso judicial (RPTN), que no se toca. Ni 'Blessd' ni 'Pereira' en X ni en Google. Índice: densidad 8, réplicas recientes 30, señales tardías 16, fatiga 6, edad 14. Puntaje de 43 a 30. Pasa a quemado el 28-nov si no hay nada suyo en cámara."
         }
       ]
     }
@@ -2796,6 +2931,12 @@
     {
       "id": "formato-mientras-ellos-de-fiesta",
       "nota": "Se retira en el ciclo 21 sin puntuar. En virlo.ai (19:07 del 22-nov), 'While they're out partying btw' pasa a Fading (205 creadores en 7 días; 275 en el ciclo 19) y 'In this town everybody goes out partying except me' sigue Fresh (424). La búsqueda de YouTube 'mientras ellos estan de fiesta yo' (esta semana) y la búsqueda web no encuentran ninguna versión en español. El gen perecedero es un audio con derechos que en inglés ya empieza a caer, la Legión corta clips de videos largos (el formato pide grabar contenido propio) y las 72 horas de La Ganga, el contraste que lo hacía oportuno, terminaron el 22-nov. Si aparece una versión en español que rinda en Reels o TikTok, se reabre con el mismo id."
+    }
+  ],
+  "candidatos_retirados_ciclo_22": [
+    {
+      "id": "tema-anuel-tarde-en-bogota",
+      "nota": "Ciclo 20. 'Anuel' es #1 en X Colombia durante 21 h. Según los títulos de YouTube del 22-nov, llegó tarde y cantó 45 minutos en el Vive Claro de Bogotá el 21-nov ('TREMENDO LÍO CON ANUEL EN COLOMBIA…', Top Mundial, 1.918 vistas; 'ANUEL LE FALTA RESPETO AL PÚBLICO COLOMBIANO', JJ RAMIREZ RADIO TV SHOW). No hay video con él en persona ni crónica indexada. Solo entra si Anuel responde en cámara (sería un día después del protagonista); si la polémica pasa a reclamaciones o demandas, se cierra. Ciclo 21: baja de #1 a #5 en X Colombia (24 h en lista) y la búsqueda de YouTube de hoy solo trae comentarios ('Anuel ABANDONA Concierto', Trapeton, 5.572 vistas; Top Mundial, 3.874). Él no responde en cámara. Si el 24-nov sigue igual, se cierra. Ciclo 22: se cierra sin puntuar. 'Anuel' baja al #32 de X Colombia el 23-nov y sale de la lista el 24-nov; no hay nada suyo en cámara sobre el concierto."
     }
   ]
 }

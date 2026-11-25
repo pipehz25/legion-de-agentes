@@ -1,6 +1,12 @@
 # El invitado le califica el negocio al anfitrión (en su cara)
 
-> **Estado (23-nov, 00:30, ciclo 21): vigente hasta el 25-nov, con puntaje 84 (sin cambios).** Lo nuevo:
+> **Estado (25-nov, 00:30, ciclo 22): vigente hasta el 26-nov, con puntaje 75 (84 en el ciclo 21); el patrón base pasa de emergente a crecimiento.** Lo nuevo:
+> - **La visita se acaba.** Samulx y LoncheWey llevan más de 30 h sin subir y SoyPan ya está en Monterrey. Lo último es otra cámara del día en Guatapé: ['UN DÍA DE LOCOS EN LA MANSIÓN DE OVY ON THE DRUMS'](https://www.youtube.com/watch?v=SUEBErErDmA) (Lonche y Willito, 1.106/h a las 7,3 h, unas 2,4 veces su tour por Provenza).
+>   - Lo que no se ha cortado: "esa puerta vale medio Ferrari" (8:00-8:30) y la casa flotante (47:00-47:40).
+> - **Las réplicas aún rinden, con menos margen:** 'FUI A GUATAPE CON LA GANGA' (Westcol) va a 1,4 veces su mediana a las 38 h. La fiesta de Lonche Chacas se queda en 0,69 veces.
+> - **Siguiente ocasión:** el próximo visitante famoso de un perfil. Mientras tanto, la ficha queda de referencia; no hay que forzar más piezas de esta visita.
+>
+> **Estado anterior (23-nov, 00:30, ciclo 21): vigente hasta el 25-nov, con puntaje 84 (sin cambios).** Lo nuevo:
 > - **La primera vez con maestro famoso es lo más rápido de lo nuevo.** ['OVY NOS ENSEÑA A SURFEAR A TODA LA GANGA EN GUATAPE'](https://www.youtube.com/watch?v=9Pmh6QW_evQ) (Samulx) va a 5.957/h a las 4,3 h, 2,3 veces su mediana por hora. Ovy On The Drums, el productor de W Sound con Westcol, hace de maestro y califica a cada uno ('La verdad, Leandro no está apto para eso. Siguiente'). Es esta misma ficha con el veredicto al revés: el anfitrión famoso califica al visitante.
 > - **El título decide.** La misma clase desde la cámara de The Chanty, sin el maestro en el título ([SURFEANDO POR PRIMERA VEZ…](https://www.youtube.com/watch?v=hoGec5hIHpo)), va a 0,75 veces. Si hay varias cámaras, se corta la que nombra al famoso.
 > - **La mansión acelera:** ['PASAMOS 24 HORAS CON WESTCOL EN UNA MANSIÓN MILLONARIA'](https://www.youtube.com/watch?v=ULUKb4dlZd8) (Lonche y Willito) pasa de 833/h a 3.018/h a las 6,4 h, unas 6,6 veces su tour por Provenza. Clip: la llegada y la vista ('Este es puro paraíso de millonario', 2:00-3:00).

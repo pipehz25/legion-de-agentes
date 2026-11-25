@@ -1,101 +1,25 @@
 {
-  "generado": "2026-11-23T00:30:00-05:00",
-  "ciclo": 21,
+  "generado": "2026-11-25T00:30:00-05:00",
+  "ciclo": 22,
   "enfoque": "Música urbana de cantantes jóvenes, empresarios exitosos y streamers (config.perfiles y similares de datos/cazador-viral/perfiles.json). Excluidos: reality shows, concursos de TV, chisme de televisión y casos judiciales de famosos.",
   "notas": [
-    "Ventana de 36 h calculada a las 00:30 del 23-nov: entra lo publicado desde el 2026-11-21T12:30-05:00. Lo nuevo es lo publicado o descubierto desde el final del ciclo 20 (22-nov, 19:40). Métricas medidas entre las 23:58 del 22-nov y las 00:16 del 23-nov (campo medido_a).",
-    "Kick se saltó por orden del orquestador (ni API ni páginas). Todo se midió por YouTube. Ninguna llamada se congeló.",
-    "Corrección importante: el directo de las 72 horas de La Ganga terminó la noche del 22-nov, no hacia las 19:00 del 23-nov como se dijo en el ciclo 20 (ese cálculo salía de un VOD del día anterior). En la última hora, en minimotos por Guatapé, Samulx dice 'Por fin apagamos el stream. Empieza lo bueno' y se despiden con 'Muchas gracias por apoyar en 72 horas… Las cumplimos todas' (1vvSAlzi2jU, 0:00 y 21:00). Desde la cámara de The Chanty, en cambio: 'Es nuestra fase final porque no aguantamos, no aguantaron las 72 horas' (fXzITXkun0Y, 36:00). El día después es hoy, 23-nov.",
-    "Lo nuevo y más rápido: 'OVY NOS ENSEÑA A SURFEAR A TODA LA GANGA EN GUATAPE' (Samulx; 5.957/h a las 4,3 h, 2,3 veces su mediana por hora de 2.556/h). Ovy On The Drums, el productor de W Sound con Westcol, hace de maestro: entra como similar.",
-    "La mansión acelera: 'PASAMOS 24 HORAS CON WESTCOL EN UNA MANSIÓN MILLONARIA' (Lonche y Willito) pasa de 833/h a las 1,9 h a 3.018/h a las 6,4 h, unas 6,6 veces lo que hacía el tour por Provenza del mismo canal (455/h). El Clipero no la ha cortado.",
-    "'NO SABEMOS QUE PASO AYER' (Samulx) sigue acelerando: 9.319/h a las 10,2 h, 3,6 veces su mediana por hora. El Clipero ya sacó dos clips (el refrán y el avión a Cartagena); queda el tramo 20:00-23:00.",
-    "Westcol sube a su canal el arranque de las 72 horas ('Vamos a HACER un STREAM por 72 HORAS con LA GANGA', 1.754/h, 0,93 veces su mediana por hora). El corto de la cifra ('¿Cuánto gana Westcol en su mejor mes?', 2026-11-22-westcol-mejor-mes) ya está cortado y en la cola de TikTok, aún sin publicar ni medir.",
-    "Los cantantes, nada: Kris R, Blessd, Ryan Castro, Maluma, J Balvin, Peso Pluma y Feid no suben nada nuevo ni salen en persona en la búsqueda de hoy. 'BLESSD vs El Kun Agüero: Eliminados de la Copa Potrero' (LaJotadera, 1.146/h con 527 suscriptores) es el vlog de un jugador de su equipo, sin Blessd en cámara y de fútbol aficionado: fuera. Empresarios: nada nuevo de Santiago Ospina ni de Diego RR.",
-    "Descartados por contenido: 'EL MEJOR BAILE DE LA GANGA | WESTCOL' (WestClips, 3.771/h): casi todo es música con derechos y el resto son bromas a los que duermen. 'KATY CARDONA Y WESTCOL SE PREPARAN PARA UNA FIESTA' (showcliping, 1.952/h): Katy Cardona viene de un reality (config.excluir). 'ASÍ TERMINÓ EL DESAFÍO DE 72 HORAS' (Info Stream COL): comentario con clips ajenos.",
-    "Fuera de la ventana desde esta noche: Coco Maggio en Barranquilla (21-nov, 09:00). Ya cortado y fuera de la lista: 'CUANTO ES LO MAXIMO QUE HEMOS GANADO EN 1 MES' (Westcol)."
+    "Ciclo 22, retomado: empezó a las 23:54 del 23-nov, la PC se suspendió hacia las 00:10 del 24-nov y se retomó a las 23:53 del 24-nov. Ventana de 36 h calculada a las 00:30 del 25-nov: entra lo publicado desde el 2026-11-23T12:30-05:00. Lo nuevo es lo publicado desde el final del ciclo 21 (23-nov, 00:30). Todo lo que se usa se volvió a medir entre las 23:55 del 24-nov y las 00:07 del 25-nov (campo medido_a).",
+    "Kick se saltó por orden del orquestador. Nada de Herrera: ni el de Stream Fighters (sale en un video de terceros sobre una demanda, descartado) ni el futbolista de Boca.",
+    "Variedad fuera de La Ganga, como pidió el orquestador: Ibai (la boda sorpresa de su editor), Santiago Ospina (dos reuniones reales de su constructora con su padre) y Køddy G (entrevista en Mix Radio Colombia). Van primero aunque La Ganga tenga más ritmo medido en dos casos, porque la cola de TikTok de La Ganga está llena. Las tres de La Ganga van al final, 'solo si queda hueco'.",
+    "Cantantes: nada nuevo en persona en 48 h. Sin subidas en los canales de Blessd, Ryan Castro, Feid, Kris R, J Balvin, Peso Pluma, Hades66, Ovy On The Drums ni Køddy G. 'Blessd Pereira' (recientes, 48 h): 0 resultados. Las búsquedas por nombre solo traen reacciones, letras, mixes y karaokes. 'Hágalo Remix' (Køddy G con Ryan Castro) es del 15-nov y 'El Trap de Kolombia 2' (Kris R), del 15-oct: las reacciones nuevas no son fuente. El video de Westcol y Blessd con un robot es un corto de terceros sin fuente larga (el robot es del 14-nov).",
+    "Empresarios: Santiago Ospina sube dos videos (arriba). Diego RR (sus dos canales) y Sebastián Suárez, nada. 'Fundador Rappi: créetela…' (Dinstinto, 14 min, 23-nov 11:42; 1.338 vistas a las 36,2 h) queda justo fuera de la ventana.",
+    "Fuera de la ventana desde esta noche: el viaje de Davoo a la final ('CUENTA SU ANECDOTA…', 22-nov 23:05; 522.544 vistas a las 49 h) y 'CARRERA FUTBOLERA vs DAVO XENEIZE' (La Cobra, 23-nov 10:33; 364.368 a las 37,6 h). 'BOCA CAMPEON… ANALISIS DE TODO' (Davoo, 9.606/h) es análisis de fútbol: fuera.",
+    "Descartados: 'ME INVITARON AL LANZAMIENTO MÁS EXCLUSIVO DEL AÑO' (The Chanty, 976/h): un lanzamiento patrocinado de un snack con Rappi y Universal; todo es publicidad. 'ASÍ TERMINÉ DESPUÉS DE PASAR 72 HORAS CON WESTCOL' (Katy Cardona YT, 1.780/h): viene de un reality. 'WESTCOL TERMINA su RELACION…' (Cayco) y la nueva integrante de La Ganga: chisme o sin comprobar. 'FIESTA con WESTCOL… EN COLOMBIA' (Lonche Chacas, 272/h): fiesta con alcohol y por debajo de su media. 'SEBASTIAN AYALA Rompe el silencio' (Sinvergüenza Podcast, 1.900/h): no se pudo comprobar quién es ni si encaja.",
+    "El corto '¿Cuánto gana Westcol en su mejor mes?' sigue en borradores de TikTok desde el 23-nov 19:46, sin publicar ni medir. Por eso formato-matematica-del-lujo pasa a apuestas (se fijó que sin corto medido el 24-nov salía de las oportunidades)."
   ],
   "oportunidades": [
-    {
-      "id": "formato-primera-vez-en-medellin",
-      "nombre": "El extranjero que descubre la ciudad por primera vez (Medellín, Guatapé, Bogotá y Barranquilla), con un local famoso de guía o sin él",
-      "tipo": "formato",
-      "etapa": "emergente",
-      "puntaje_oportunidad": 84,
-      "ventana_hasta": "2026-11-25",
-      "confianza": "media",
-      "plataformas_objetivo": [
-        "tiktok",
-        "instagram",
-        "youtube"
-      ],
-      "nichos": [
-        "streamers y creadores"
-      ],
-      "resumen": "Sigue emergente con 84. La primera vez con maestro famoso es lo más rápido de lo nuevo: Ovy On The Drums le enseña wakesurf a La Ganga en Guatapé (Samulx, 2,3 veces su mediana por hora a las 4,3 h). La mansión millonaria de Lonche y Willito acelera a unas 6,6 veces lo que hacía su tour por Provenza, y 'DESCONTROLANDO GUATAPE' se sostiene a 3,9 veces a las 13 h. En contra, la misma clase de surf desde la cámara de The Chanty rinde a 0,75 veces: gana la versión con el maestro en el título. Las 72 horas terminaron el 22-nov, pero los mexicanos siguen de ruta por Colombia. Ventana hasta el 25-nov.",
-      "genes_clave": {
-        "gancho": "El sitio o la experiencia nueva en pantalla ('Guatapé por primera vez', 'una mansión millonaria', 'Ovy nos enseña a surfear'), con la reacción del visitante en el primer segundo",
-        "estructura": "Visitante extranjero + guía local famoso (o él solo con la pregunta) + lugar o experiencia nueva + veredicto en la cara",
-        "participacion": "'¿A dónde lo llevan mañana?' o '¿Vale la pena ir?'"
-      },
-      "evidencia": [
-        {
-          "url": "https://www.youtube.com/watch?v=9Pmh6QW_evQ",
-          "metrica": "'OVY NOS ENSEÑA A SURFEAR A TODA LA GANGA EN GUATAPE MUY COMPLICADO' (Samulx, 190 K; 35 min; 22-nov 19:43): 25.321 vistas a las 4,3 h (5.957/h), 2,3 veces su mediana por hora (2.556/h)",
-          "tipo": "medido",
-          "mide": "patron",
-          "contexto": "youtube-co",
-          "fecha": "2026-11-23"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=ULUKb4dlZd8",
-          "metrica": "'PASAMOS 24 HORAS CON WESTCOL EN UNA MANSIÓN MILLONARIA EN COLOMBIA' (Lonche y Willito, 118 K; 3 h 25 min; 22-nov 17:33): 19.353 vistas a las 6,4 h (3.018/h; 833/h a las 1,9 h), unas 6,6 veces el tour por Provenza del mismo canal (455/h, ciclo 17)",
-          "tipo": "medido",
-          "mide": "patron",
-          "contexto": "youtube-co",
-          "fecha": "2026-11-23"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=pzhADojtbcI",
-          "metrica": "'DESCONTROLANDO GUATAPE…' (Lonche Chacas): 20.019 vistas a las 13 h (1.545/h), 3,9 veces la mediana por hora del canal (396/h); baja desde 2.477/h a las 7,3 h",
-          "tipo": "medido",
-          "mide": "patron",
-          "contexto": "youtube-co",
-          "fecha": "2026-11-23"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=ZGb1HxyHgPs",
-          "metrica": "'MONTANDO JETSKI CON LA GANGA EN GUATAPÉ' (The Chanty, 240 K): 43.538 vistas a las 29 h (1.500/h), 2,65 veces la mediana por hora de sus subidas desde el 20-nov (566/h)",
-          "tipo": "medido",
-          "mide": "patron",
-          "contexto": "youtube-co",
-          "fecha": "2026-11-23"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=hoGec5hIHpo",
-          "metrica": "En contra: 'SURFEANDO POR PRIMERA VEZ CON LA GANGA EN GUATAPÉ' (The Chanty; la misma clase, sin el maestro en el título): 1.246 vistas a las 2,9 h (424/h), 0,75 veces su mediana por hora",
-          "tipo": "medido",
-          "mide": "patron",
-          "contexto": "youtube-co",
-          "fecha": "2026-11-23"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=ncTfqAy3mVM",
-          "metrica": "Réplica argentina con guía famoso: 'VIAJE a COLOMBIA con EL DENGUE… CONOCÍ a WESTCOL' (Okyyy, 589 K; 54 min): 2.697 vistas a las 5 h (542/h); sin mediana del canal medida",
-          "tipo": "medido",
-          "mide": "patron",
-          "contexto": "youtube-ar",
-          "fecha": "2026-11-23"
-        }
-      ],
-      "formato_hibrido": "salidas/cazador-viral/formatos/formato-el-invitado-califica-el-negocio.md"
-    },
     {
       "id": "formato-el-dia-despues-del-protagonista",
       "nombre": "Lo que no se vio: el día después contado por el protagonista, con una pregunta en el título",
       "tipo": "formato",
       "etapa": "emergente",
-      "puntaje_oportunidad": 81,
-      "ventana_hasta": "2026-11-24",
+      "puntaje_oportunidad": 80,
+      "ventana_hasta": "2026-11-26",
       "confianza": "media",
       "plataformas_objetivo": [
         "tiktok",
@@ -105,63 +29,131 @@
       "nichos": [
         "streamers y creadores"
       ],
-      "resumen": "Sigue emergente y sube de 80 a 81. 'NO SABEMOS QUE PASO AYER' (Samulx) acelera a 3,6 veces su mediana por hora a las 10,2 h. Y la próxima aplicación ya llegó: las 72 horas de La Ganga terminaron la noche del 22-nov (no el 23-nov), así que el día después es hoy. La última hora ya está subida ('Por fin apagamos el stream. Empieza lo bueno', Samulx; 'no aguantaron las 72 horas', The Chanty). Para clips: lo que cuente cada uno el 23 y el 24-nov de lo que pasó fuera de cámara, con un gancho que no sea de pareja. Ventana hasta el 24-nov.",
+      "resumen": "Sigue emergente y baja de 81 a 80. El día después de las 72 horas ya pasó (23 y 24-nov) y lo que más rindió fue el protagonista reaccionando a los clips del evento: 'REACCIONANDO A LOS CLIPS DE LA GANGA EN GUATAPÉ' (The Chanty) llegó a 6,2 veces su mediana por hora a las 10,5 h y sigue a 2,8 veces a las 34 h. Davoo cuenta su viaje a la final (522.544 vistas a las 49 h, en la línea de su canal). La versión sin protagonista sigue floja (resumen de terceros, 359/h). Ventana hasta el 26-nov para la cola del evento; después, esperar el próximo evento de un perfil.",
       "genes_clave": {
-        "gancho": "Lo que no se vio, con la cara del creador ('No sabemos qué pasó ayer', 'Lo que no salió en la tele', 'Así lo viví')",
-        "estructura": "Testimonio en primera persona del día después: lo que pasó fuera de cámara (la noche, el hotel, la tribuna, el festejo), contado por él, y su frase más fuerte como remate",
-        "participacion": "'¿Tú habrías ido?' o '¿Qué crees que pasó?'"
+        "gancho": "Lo que no se vio, con la cara del creador ('No sabemos qué pasó ayer', 'Reaccionando a los clips', 'Así lo viví')",
+        "estructura": "Testimonio o reacción en primera persona del día después: lo que pasó fuera de cámara, o el protagonista viéndose en los clips más compartidos, y su frase más fuerte como remate",
+        "participacion": "'¿Tú habrías aguantado?' o '¿Qué crees que pasó?'"
       },
       "evidencia": [
         {
-          "url": "https://www.youtube.com/watch?v=wcFZHzo1Y-A",
-          "metrica": "'NO SABEMOS QUE PASO AYER 😬 ¿LEANDRO CORONÓ CON KATTY?' (Samulx, 190 K; 26 min; 22-nov 13:46): 95.368 vistas a las 10,2 h (9.319/h; 8.350/h a las 5,5 h), 3,6 veces su mediana por hora (2.556/h). El gancho del título es de pareja (excluido)",
+          "url": "https://www.youtube.com/watch?v=9cshF4iOHW0",
+          "metrica": "'REACCIONANDO A LOS CLIPS DE LA GANGA EN GUATAPÉ' (The Chanty, 241 K; 13 min; 23-nov 13:47): 37.013 vistas a las 10,5 h (3.525/h), 6,2 veces la mediana por hora de sus subidas desde el 20-nov (566/h); 54.990 a las 34,1 h (1.611/h, 2,8 veces)",
           "tipo": "medido",
           "mide": "patron",
           "contexto": "youtube-co",
-          "fecha": "2026-11-23"
+          "fecha": "2026-11-24"
         },
         {
-          "url": "https://www.youtube.com/watch?v=1vvSAlzi2jU",
-          "metrica": "'PASEO EN MINIMOTOS CON LA GANGA, LEANDRO SE CAYÓ DE UNA CUATRIMOTO' (Samulx; la última hora de las 72 horas): 635 vistas a la media hora (1.322/h); 'Por fin apagamos el stream… Nos merecemos una fiesta fuera de cámara' (0:00) y 'Las cumplimos todas' (21:00)",
-          "tipo": "medido",
-          "mide": "patron",
-          "contexto": "youtube-co",
-          "fecha": "2026-11-23"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=IGjKe0aNlbs",
-          "metrica": "'DAVOO XENEIZE OPINA DE BOCA 2 ATLETICO MINEIRO 0' (Davoo Xeneize, 936 K): 1.151.540 vistas a las 25 h, 2,2 veces la mediana de vistas totales de sus 3 videos anteriores",
+          "url": "https://www.youtube.com/watch?v=rlmpoCjjW8Q",
+          "metrica": "'DAVOO XENEIZE CUENTA SU ANECDOTA YENDO A VER BOCA-ATLETICO MINEIRO' (Davoo Xeneize, 937 K; 44 min; 22-nov 23:05): 424.431 vistas a las 25 h y 522.544 a las 49 h (10.654/h), 1,0 veces la mediana de vistas totales de sus 3 videos anteriores (523.482)",
           "tipo": "medido",
           "mide": "patron",
           "contexto": "youtube-ar",
-          "fecha": "2026-11-23"
+          "fecha": "2026-11-24"
         },
         {
-          "url": "https://www.youtube.com/watch?v=40gAwbuwZac",
-          "metrica": "'Así se VIVIÓ la FINAL de BOCA JUNIORS vs ATLÉTICO MINEIRO' (Soy Roberto Uribe, 1,12 M): 356.881 vistas a las 19,7 h (18.106/h; frena desde 20.822/h a las 14,8 h)",
+          "url": "https://www.youtube.com/watch?v=0XIkXdvkOgc",
+          "metrica": "'ASÍ TERMINÉ DESPUÉS DE PASAR 72 HORAS CON WESTCOL' (Katy Cardona YT, 46,8 K; 31 min; 24-nov 12:00): 21.177 vistas a las 11,9 h (1.780/h). Solo señal: viene de un reality (config.excluir) y no se corta",
+          "tipo": "medido",
+          "mide": "patron",
+          "contexto": "youtube-co",
+          "fecha": "2026-11-24"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=wcFZHzo1Y-A",
+          "metrica": "'NO SABEMOS QUE PASO AYER' (Samulx, 190 K; 22-nov 13:46): 95.368 vistas a las 10,2 h (9.319/h), 3,6 veces su mediana por hora (2.556/h). El gancho del título es de pareja (excluido)",
           "tipo": "medido",
           "mide": "patron",
           "contexto": "youtube-co",
           "fecha": "2026-11-23"
         },
         {
-          "url": "https://www.youtube.com/watch?v=5eHZTY5alwE",
-          "metrica": "En contra de la versión sin protagonista: 'ASÍ TERMINÓ EL DESAFÍO DE 72 HORAS DE WESTCOL Y LA GANGA' (Info Stream COL, 3,86 K; comentario con clips): 1.499 vistas a las 5 h (unas 300/h)",
+          "url": "https://www.youtube.com/watch?v=N7fZGy7f26U",
+          "metrica": "En contra de la versión sin protagonista: 'MEJORES MOMENTOS DEL 72 HORAS CON LA GANGA *resumen completo*' (basuquito, 6,7 K): 4.303 vistas a las 12 h (359/h)",
           "tipo": "medido",
           "mide": "patron",
           "contexto": "youtube-co",
-          "fecha": "2026-11-23"
+          "fecha": "2026-11-24"
         }
       ],
       "formato_hibrido": "salidas/cazador-viral/formatos/formato-lo-que-no-se-vio.md"
     },
     {
+      "id": "formato-primera-vez-en-medellin",
+      "nombre": "El extranjero que descubre la ciudad por primera vez (Medellín, Guatapé, Bogotá y Barranquilla), con un local famoso de guía o sin él",
+      "tipo": "formato",
+      "etapa": "crecimiento",
+      "puntaje_oportunidad": 75,
+      "ventana_hasta": "2026-11-26",
+      "confianza": "media",
+      "plataformas_objetivo": [
+        "tiktok",
+        "instagram",
+        "youtube"
+      ],
+      "nichos": [
+        "streamers y creadores"
+      ],
+      "resumen": "Pasa de emergente a crecimiento y baja de 84 a 75. Las réplicas aún rinden por encima de su media ('FUI A GUATAPE CON LA GANGA', Westcol, 1,4 veces a las 38 h; la mansión de Ovy On The Drums, Lonche y Willito, unas 2,4 veces su tour por Provenza), pero ya hay recopilaciones de terceros, Samulx y LoncheWey llevan más de 30 h sin subir y SoyPan ya está de vuelta en Monterrey: la visita se acaba. Lo nuevo en Colombia (Ovy en su casa, el último día en Guatapé) es material del 22-nov que en buena parte ya se cortó. Ventana hasta el 26-nov.",
+      "genes_clave": {
+        "gancho": "El sitio o la experiencia nueva en pantalla ('la mansión de Ovy On The Drums', 'nunca había ido a Colombia'), con la reacción del visitante en el primer segundo",
+        "estructura": "Visitante extranjero + anfitrión famoso (o él solo con la pregunta) + lugar o experiencia nueva + veredicto en la cara",
+        "participacion": "'¿A dónde lo llevarías tú?' o '¿Vale la pena ir?'"
+      },
+      "evidencia": [
+        {
+          "url": "https://www.youtube.com/watch?v=sVm2xpo3rM4",
+          "metrica": "'FUI A GUATAPE CON LA GANGA' (Westcol, 2,1 M; 4 h 45 min; 23-nov 10:00): 101.482 vistas a las 37,9 h (2.676/h), 1,4 veces su mediana por hora (1.896/h); 5.054/h a las 14,2 h",
+          "tipo": "medido",
+          "mide": "patron",
+          "contexto": "youtube-co",
+          "fecha": "2026-11-24"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=SUEBErErDmA",
+          "metrica": "'UN DÍA DE LOCOS EN LA MANSIÓN DE OVY ON THE DRUMS' (Lonche y Willito, 118 K; 2 h 30 min; 24-nov 16:47): 8.073 vistas a las 7,3 h (1.106/h), unas 2,4 veces su tour por Provenza (455/h) y 0,37 veces la mansión millonaria (3.018/h a las 6,4 h)",
+          "tipo": "medido",
+          "mide": "patron",
+          "contexto": "youtube-co",
+          "fecha": "2026-11-25"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=9Pmh6QW_evQ",
+          "metrica": "'OVY NOS ENSEÑA A SURFEAR A TODA LA GANGA EN GUATAPE' (Samulx, 190 K): 121.381 vistas a las 52,4 h (2.316/h; 5.957/h a las 4,3 h y 3.363/h a las 28,4 h), 0,9 veces su mediana por hora",
+          "tipo": "medido",
+          "mide": "patron",
+          "contexto": "youtube-co",
+          "fecha": "2026-11-24"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=rlmpoCjjW8Q",
+          "metrica": "La primera vez desde Argentina: Davoo ('nunca había ido a Colombia en mi vida', 0:00-1:30) llega a 522.544 vistas a las 49 h, 1,0 veces la mediana de vistas totales de sus 3 videos anteriores",
+          "tipo": "medido",
+          "mide": "patron",
+          "contexto": "youtube-ar",
+          "fecha": "2026-11-24"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=a6dgz2wtN6c",
+          "metrica": "En contra: 'FIESTA con WESTCOL, WILLITO, SAMULX, LEANDRO y CHANTY EN COLOMBIA' (Lonche Chacas, 24-nov 21:01): 843 vistas a las 3,1 h (272/h), 0,69 veces la mediana por hora del canal (396/h)",
+          "tipo": "medido",
+          "mide": "patron",
+          "contexto": "youtube-co",
+          "fecha": "2026-11-25"
+        }
+      ],
+      "formato_hibrido": "salidas/cazador-viral/formatos/formato-el-invitado-califica-el-negocio.md"
+    }
+  ],
+  "apuestas": [
+    {
       "id": "formato-matematica-del-lujo",
       "nombre": "El empresario revela la cifra del negocio (margen, costo o paradoja) y la explica",
       "tipo": "formato",
       "etapa": "semilla",
-      "puntaje_oportunidad": 69,
-      "ventana_hasta": "2026-11-24",
+      "puntaje_oportunidad": 65,
+      "ventana_hasta": "2026-11-28",
       "confianza": "baja",
       "plataformas_objetivo": [
         "tiktok",
@@ -173,21 +165,13 @@
         "streamers y creadores",
         "música urbana: cantantes jóvenes"
       ],
-      "resumen": "Sigue en semilla con 69. La prueba que faltaba ya está cortada: el Clipero sacó '¿Cuánto gana Westcol en su mejor mes?' (2026-11-22-westcol-mejor-mes, 12:59-13:37 de olXao5WK9qY) y está en la cola de TikTok para el 23-24 nov, aún sin medir. El lujo en el título sigue rindiendo sin cifra (la mansión millonaria de Lonche y Willito, unas 6,6 veces su tour por Provenza). Si el 24-nov no hay corto medido, sale.",
+      "resumen": "Pasa de oportunidad a apuesta y baja de 69 a 65: el 24-nov no hubo corto medido, como se había fijado. '¿Cuánto gana Westcol en su mejor mes?' sigue en borradores de TikTok desde el 23-nov (sin publicar ni medir). Hay material nuevo con cifras dichas en cámara, pero sin audiencia: Santiago Ospina sube dos reuniones reales de su constructora con su padre ('No vale la pena correr un riesgo por 30 millones de pesos'; '2 millones de pesos por metro cuadrado… en China me traigo el doble'), con 5 y 6 vistas. En TikTok en inglés, 'He wanna pay full price' sigue fresco (423 creadores en 7 días; audio con derechos, solo señal).",
       "genes_clave": {
-        "gancho": "La cifra en pantalla en el segundo 0, en paradoja o comparación ('2 millones de dólares en un mes', 'Un Lamborghini en vez de 15 Sequoias')",
-        "estructura": "Cifra, explicación corta del porqué (de dónde sale el dinero, el margen o el precio) y la reacción de los demás",
-        "participacion": "Pregunta para adivinar antes de revelar ('¿Cuánto crees que gana un streamer al mes?') o '¿Lo sabías?'"
+        "gancho": "La cifra en pantalla en el segundo 0, en paradoja o comparación ('2 millones de dólares en un mes', 'Un riesgo de 30 millones no vale la pena')",
+        "estructura": "Cifra, explicación corta del porqué (de dónde sale el dinero, el margen o el precio) y la reacción del otro (el socio, el padre, la Ganga)",
+        "participacion": "Pregunta para adivinar antes de revelar ('¿Cuánto crees que cuesta el metro cuadrado?') o '¿Tú qué harías?'"
       },
       "evidencia": [
-        {
-          "url": "https://www.youtube.com/watch?v=eIRYiimMx_E",
-          "metrica": "Lujo sin cifra en el título, dentro del mismo viaje: '24 HORAS en COLOMBIA con WILLITO y WESTCOL *muchos lujos*' (LoncheWey, 384 K; 19-nov) tiene unas 61.000 vistas (lista del canal, redondeada), frente a 11.000-16.000 de sus otras 4 subidas del viaje (18-22 nov): de 4 a 5 veces",
-          "tipo": "medido",
-          "mide": "patron",
-          "contexto": "youtube-mx",
-          "fecha": "2026-11-22"
-        },
         {
           "url": "https://www.youtube.com/watch?v=_koEcQBXZnw",
           "metrica": "'¿CUÁNTO VALE TU OUTFIT? EN STREAM FIGHTERS 5' (Jorge Andrés, 1,32 M; con Kris R y Hades66): 433.379 vistas a las 46,5 h, 2,09 veces la mediana de vistas totales de sus 9 videos anteriores (207.784)",
@@ -197,251 +181,147 @@
           "fecha": "2026-11-17"
         },
         {
-          "url": "https://www.youtube.com/watch?v=olXao5WK9qY",
-          "metrica": "'CUANTO ES LO MAXIMO QUE HEMOS GANADO EN 1 MES' (Westcol, 2,1 M; 15 min): 23.423 vistas a las 21,9 h (1.070/h), 0,56 veces su mediana por hora (1.896/h). La cifra se dice en cámara del 13:20 al 14:10 ('un cheque de 1 millón', '2 millones de dólares'); el corto sigue sin cortarse. Ciclo 21: el Clipero ya cortó el tramo de la cifra (2026-11-22-westcol-mejor-mes, 12:59-13:37), en la cola de TikTok y aún sin medir",
+          "url": "https://www.youtube.com/watch?v=eIRYiimMx_E",
+          "metrica": "Lujo sin cifra en el título, dentro del mismo viaje: '24 HORAS en COLOMBIA… *muchos lujos*' (LoncheWey) tiene unas 61.000 vistas, de 4 a 5 veces sus otras 4 subidas del viaje",
           "tipo": "medido",
           "mide": "patron",
-          "contexto": "youtube-co",
+          "contexto": "youtube-mx",
           "fecha": "2026-11-22"
         },
         {
-          "url": "https://www.youtube.com/watch?v=ULUKb4dlZd8",
-          "metrica": "Lujo sin cifra en el título: 'PASAMOS 24 HORAS CON WESTCOL EN UNA MANSIÓN MILLONARIA' (Lonche y Willito): 3.018/h a las 6,4 h, unas 6,6 veces su tour por Provenza. No se dice el precio en los tramos revisados",
+          "url": "https://www.youtube.com/watch?v=olXao5WK9qY",
+          "metrica": "'CUANTO ES LO MAXIMO QUE HEMOS GANADO EN 1 MES' (Westcol): 0,56 veces su mediana por hora a las 21,9 h; la cifra se dice del 13:20 al 14:10. El corto (2026-11-22-westcol-mejor-mes) sigue en borradores de TikTok desde el 23-nov 19:46, sin medir",
+          "tipo": "medido",
+          "mide": "patron",
+          "contexto": "youtube-co",
+          "fecha": "2026-11-24"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=1Pn6TOoIZlM",
+          "metrica": "'Así se toman las decisiones en mi constructora (comité real, sin filtro)' (Santi Ospina, 11,2 K; 16 min; 24-nov 18:00): 5 vistas a las 6,1 h. Cifras en cámara: 'No vale la pena correr un riesgo por 30 millones de pesos' (1:00-1:40); arquitectos que 'cobran cientos de millones de pesos por el diseño de una mansión' (5:00-5:40)",
           "tipo": "medido",
           "mide": "senal_relacionada",
           "contexto": "youtube-co",
-          "fecha": "2026-11-23"
+          "fecha": "2026-11-25"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=RLyZ7Cq_2-Y",
+          "metrica": "'Organicé una Boda Sorpresa a mi Editor' (Ibai, 17,5 M): 1.953.181 vistas a las 34,9 h. Sin cifra: 'el vídeo más caro de la historia de mi canal' (9:00) y 'presupuesto totalmente ilimitado' (19:30). En un canal tan grande mide fama, no el patrón",
+          "tipo": "medido",
+          "mide": "senal_relacionada",
+          "contexto": "youtube-es",
+          "fecha": "2026-11-24"
         }
       ],
-      "formato_hibrido": "salidas/cazador-viral/formatos/formato-la-cifra-del-negocio.md"
+      "formato_hibrido": "salidas/cazador-viral/formatos/formato-la-cifra-del-negocio.md",
+      "falta": "Una medida del corto con la cifra en destino: publicar y medir a las 24 h '¿Cuánto gana Westcol en su mejor mes?' (en borradores de TikTok desde el 23-nov) o un corto de Santiago Ospina con la cifra ('un riesgo de 30 millones'). Si al 28-nov no hay ninguno medido, sale de apuestas."
     }
   ],
-  "apuestas": [],
   "fuentes_para_clips": [
     {
-      "url": "https://www.youtube.com/watch?v=9Pmh6QW_evQ",
-      "titulo": "OVY NOS ENSEÑA A SURFEAR A TODA LA GANGA EN GUATAPE MUY COMPLICADO",
-      "canal": "Samulx",
-      "publicado": "2026-11-22T19:43:37-05:00",
-      "horas_desde": 4.3,
-      "vistas": 25321,
-      "vistas_por_hora": 5957,
-      "duracion_seg": 2129,
-      "medido_a": "2026-11-22T23:58:40-05:00",
-      "perfil": "Samulx (similar), con Ovy On The Drums (similar nuevo), Westcol, Leandro La Sapa, Lonche, The Chanty y Willito",
+      "url": "https://www.youtube.com/watch?v=RLyZ7Cq_2-Y",
+      "titulo": "Organicé una Boda Sorpresa a mi Editor",
+      "canal": "Ibai",
+      "publicado": "2026-11-23T13:00:22-05:00",
+      "horas_desde": 34.9,
+      "vistas": 1953181,
+      "vistas_por_hora": 55941,
+      "duracion_seg": 2047,
+      "medido_a": "2026-11-24T23:55:00-05:00",
+      "perfil": "Ibai (similar)",
       "aparece": true,
-      "por_que": "Nueva y lo más rápido de lo nuevo: 2,3 veces la mediana por hora de Samulx. Ovy On The Drums (el productor de W Sound con Westcol) le enseña wakesurf a La Ganga: la primera vez con maestro famoso. Tramos limpios (subtítulos automáticos): 12:00-13:30 (Ovy le explica a Leandro cómo pararse), 15:00-17:00 ('Leandro es puro cuerpo, muy tieso'; 'La verdad, Leandro no está apto para eso. Siguiente'), 24:00-25:30 (The Chanty casi se para: 'cayó como una arepa') y 31:30-35:00 (Willito: 'casi lo logra, qué guerrero'). Fuera: 0:00-3:00 (bromas de cárcel y de narcos) y 6:00-7:30 (charla sexual); nada de alcohol. La misma clase desde otras cámaras: The Chanty (hoGec5hIHpo, 424/h) y Live Samulx (5gtoX20AqRA, 749/h).",
-      "oportunidad": "formato-primera-vez-en-medellin"
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=ULUKb4dlZd8",
-      "titulo": "PASAMOS 24 HORAS CON WESTCOL EN UNA MANSIÓN MILLONARIA EN COLOMBIA | LONCHE Y WILLITO",
-      "canal": "Lonche y Willito",
-      "publicado": "2026-11-22T17:33:58-05:00",
-      "horas_desde": 6.4,
-      "vistas": 19353,
-      "vistas_por_hora": 3018,
-      "duracion_seg": 12300,
-      "medido_a": "2026-11-22T23:58:40-05:00",
-      "perfil": "Lonche, con Willito (similar) y Westcol",
-      "aparece": true,
-      "por_que": "Acelera de 833/h (1,9 h) a 3.018/h (6,4 h), unas 6,6 veces su tour por Provenza, y el Clipero no la ha cortado. Tramos limpios: 2:00-3:00 (la llegada y la vista: 'Este es puro paraíso de millonario') y 30:00-31:30 (debate de streamers: 'GTA VI no rompió internet', el clip de Speed con 250.000 me gusta). Fuera: 0:00-1:00 (alcohol), hacia 2:04:00 y 3:20:00-3:23:00 (drogas y borrachera). En los tramos revisados nadie dice el precio de la mansión.",
-      "oportunidad": "formato-primera-vez-en-medellin"
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=wcFZHzo1Y-A",
-      "titulo": "NO SABEMOS QUE PASO AYER 😬 ¿LEANDRO CORONÓ CON KATTY?",
-      "canal": "Samulx",
-      "publicado": "2026-11-22T13:46:10-05:00",
-      "horas_desde": 10.2,
-      "vistas": 95368,
-      "vistas_por_hora": 9319,
-      "duracion_seg": 1573,
-      "medido_a": "2026-11-23T00:00:10-05:00",
-      "perfil": "Samulx (similar), con Leandro La Sapa, Willito y La Ganga",
-      "aparece": true,
-      "por_que": "Sigue acelerando: 3,6 veces su mediana por hora. El Clipero ya sacó dos clips (el refrán, 16:58-17:18, y el avión a Cartagena, 18:07-18:24). Queda el tramo 20:00-23:00 (el sancocho y la ruta en motos). Nada de lo de pareja del título ni del 0:00 al 16:00.",
-      "oportunidad": "formato-el-dia-despues-del-protagonista"
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=1vvSAlzi2jU",
-      "titulo": "PASEO EN MINIMOTOS CON LA GANGA, LEANDRO SE CAYÓ DE UNA CUATRIMOTO",
-      "canal": "Samulx",
-      "publicado": "2026-11-22T23:31:21-05:00",
-      "horas_desde": 0.5,
-      "vistas": 635,
-      "vistas_por_hora": 1322,
-      "duracion_seg": 1301,
-      "medido_a": "2026-11-23T00:00:10-05:00",
-      "perfil": "Samulx (similar), con Leandro La Sapa, Lonche, Willito y La Ganga",
-      "aparece": true,
-      "por_que": "Nueva: la última hora de las 72 horas, que terminaron la noche del 22-nov. Gancho de cierre: 'Por fin apagamos el stream. Empieza lo bueno' (0:00-0:30) y la despedida 'Muchas gracias por apoyar en 72 horas… Las cumplimos todas… vamos a extrañar' (21:00-21:40). Entre medias, las caídas en cuatrimoto sin heridos: 3:00-4:30 ('se cayó de una vuelta') y 13:30-16:00 ('solo rascó el codo', 'estuve en el aire un tiempito', Leandro: 'Renuncio'). Decir en pantalla que nadie se hizo daño; nada del seguidor que los tumba con la moto (16:30). Ritmo medido a la media hora (1.322/h): volver a medir. La misma ruta desde la cámara de The Chanty: fXzITXkun0Y (726/h a las 1,4 h, 1,28 veces su mediana; 'no aguantaron las 72 horas' en 36:00).",
-      "oportunidad": "formato-el-dia-despues-del-protagonista"
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=txl7BeF58KA",
-      "titulo": "Vamos a HACER un STREAM por 72 HORAS con LA GANGA | Westcol",
-      "canal": "WestCOL",
-      "publicado": "2026-11-22T19:45:00-05:00",
-      "horas_desde": 4.2,
-      "vistas": 7414,
-      "vistas_por_hora": 1754,
-      "duracion_seg": 1333,
-      "medido_a": "2026-11-22T23:58:40-05:00",
-      "perfil": "Westcol, con La Ganga",
-      "aparece": true,
-      "por_que": "Nueva del canal oficial de Westcol, a 0,93 veces su mediana por hora (1.896/h): el arranque de las 72 horas (el plan y las reglas), subido justo al terminar. Es la primera mitad de un 'así empezó, así acabó' con la despedida de Samulx. Tramos sin revisar.",
-      "oportunidad": "formato-el-dia-despues-del-protagonista"
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=IGjKe0aNlbs",
-      "titulo": "DAVOO XENEIZE OPINA DE BOCA 2 ATLETICO MINEIRO 0(2026) - COPA SUDAMERICANA (FINAL)",
-      "canal": "Davoo Xeneize",
-      "publicado": "2026-11-21T23:12:16-05:00",
-      "horas_desde": 25.0,
-      "vistas": 1151540,
-      "vistas_por_hora": 46024,
-      "duracion_seg": 1450,
-      "medido_a": "2026-11-23T00:13:30-05:00",
-      "perfil": "Davoo Xeneize (similar)",
-      "aparece": true,
-      "por_que": "Lo más visto de la ventana: 1,15 M a las 25 h, 2,2 veces la mediana de vistas totales de sus 3 videos anteriores. El Clipero cortó su cierre ('los otros 29 equipos'); quedan su reacción al título y lo que cuenta del viaje a Colombia. Solo él hablando: nada de imágenes del partido.",
-      "oportunidad": "formato-el-dia-despues-del-protagonista"
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=pzhADojtbcI",
-      "titulo": "DESCONTROLANDO GUATAPE con WESTCOL, SAMULX, WILLITO y LEANDRO 🔥| Lonche",
-      "canal": "Lonche Chacas",
-      "publicado": "2026-11-22T11:05:38-05:00",
-      "horas_desde": 13.0,
-      "vistas": 20019,
-      "vistas_por_hora": 1545,
-      "duracion_seg": 2359,
-      "medido_a": "2026-11-23T00:03:00-05:00",
-      "perfil": "Lonche, con Westcol, Samulx, Willito y Leandro La Sapa",
-      "aparece": true,
-      "por_que": "Frena de 2.477/h (7,3 h) a 1.545/h (13 h), aún 3,9 veces la mediana por hora del canal, y el Clipero no la ha cortado. Ya pasó de las 12 h del sitio: solo si sobra hueco. La llegada de los mexicanos y Westcol de guía; fuera el alcohol y las mujeres de fondo.",
-      "oportunidad": "formato-primera-vez-en-medellin"
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=NIXq58Hs-9w",
-      "titulo": "WESTCOL DE ROSE EN MOTOS CON TODA LA GANGA",
-      "canal": "juan diego mm",
-      "publicado": "2026-11-22T17:22:38-05:00",
-      "horas_desde": 6.7,
-      "vistas": 11252,
-      "vistas_por_hora": 1688,
-      "duracion_seg": 1291,
-      "medido_a": "2026-11-23T00:02:40-05:00",
-      "perfil": "Westcol, con La Ganga",
-      "aparece": true,
-      "por_que": "La ruta en motos por Guatapé desde la cámara de Westcol (juan diego mm, 114 K, recortes de sus directos): 1.688/h a las 6,7 h. Sin subtítulos automáticos todavía; si el Clipero no puede transcribirla, mejor la versión de Samulx (1vvSAlzi2jU).",
-      "oportunidad": "formato-primera-vez-en-medellin"
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=40gAwbuwZac",
-      "titulo": "Así se VIVIÓ la FINAL de BOCA JUNIORS vs ATLÉTICO MINEIRO 😱🔥",
-      "canal": "Soy Roberto Uribe",
-      "publicado": "2026-11-22T04:30:52-05:00",
-      "horas_desde": 19.7,
-      "vistas": 356881,
-      "vistas_por_hora": 18106,
-      "duracion_seg": 1095,
-      "medido_a": "2026-11-23T00:13:30-05:00",
-      "perfil": "Davoo Xeneize y La Cobra (los conoce en la tribuna)",
-      "aparece": true,
-      "por_que": "Frena de 20.822/h a 18.106/h. El Clipero cortó el micrófono con Davoo; quedan los momentos con La Cobra en la tribuna. Nada de imágenes del partido.",
-      "oportunidad": "formato-el-dia-despues-del-protagonista"
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=ZGb1HxyHgPs",
-      "titulo": "MONTANDO JETSKI CON LA GANGA EN GUATAPÉ",
-      "canal": "The Chanty",
-      "publicado": "2026-11-21T19:11:42-05:00",
-      "horas_desde": 29.0,
-      "vistas": 43538,
-      "vistas_por_hora": 1500,
-      "duracion_seg": 2026,
-      "medido_a": "2026-11-23T00:13:30-05:00",
-      "perfil": "The Chanty (similar), con La Ganga",
-      "aparece": true,
-      "por_que": "Se sostiene a 2,65 veces la mediana por hora de sus subidas desde el 20-nov (566/h) y nadie la ha cortado. La primera vez de los mexicanos en el jet ski y las caídas al agua. Sale de la ventana hacia las 07:10 del 23-nov.",
-      "oportunidad": "formato-primera-vez-en-medellin"
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=SIwsx7cNrfg",
-      "titulo": "GASTANDO TODO mi DINERO en COLOMBIA con WILLITO, WESTCOL y KATY CARDONA | LONCHE",
-      "canal": "LoncheWey",
-      "publicado": "2026-11-22T14:27:02-05:00",
-      "horas_desde": 9.6,
-      "vistas": 8367,
-      "vistas_por_hora": 872,
-      "duracion_seg": 2536,
-      "medido_a": "2026-11-23T00:03:00-05:00",
-      "perfil": "Lonche, con Willito y Westcol",
-      "aparece": true,
-      "por_que": "Estable a 872/h. Casi todo lleva música de fondo con derechos y no se dice ninguna cifra. El momento limpio son las reglas del bote (2:40-4:30: 'regla uno, sin zapatos; regla dos, no pisar la cojinería'). Nada de Katy Cardona (viene de un reality).",
-      "oportunidad": "formato-matematica-del-lujo"
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=ncTfqAy3mVM",
-      "titulo": "VIAJE a COLOMBIA con EL DENGUE 🇨🇴 CONOCÍ a WESTCOL, COMPRAS y STREAM FIGHTERS 5 - VLOG",
-      "canal": "Okyyy",
-      "publicado": "2026-11-22T19:00:01-05:00",
-      "horas_desde": 5.0,
-      "vistas": 2697,
-      "vistas_por_hora": 542,
-      "duracion_seg": 3239,
-      "medido_a": "2026-11-22T23:58:40-05:00",
-      "perfil": "Westcol (sale en el vlog, según la descripción: 'conocí a Westcol')",
-      "aparece": true,
-      "por_que": "Argentino (589 K) en su primera vez en Colombia: 542/h a las 5 h, sin mediana del canal medida. Momentos probables: el encuentro con Westcol y las reacciones a la ciudad. Nada de los combates de Stream Fighters ni de Herrera.",
-      "oportunidad": "formato-primera-vez-en-medellin"
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=5St0GQXddug",
-      "titulo": "VI A BOCA CAMPEÓN DE LA COPA SUDAMERICANA. VLOG EN COLOMBIA Y CELEBRACIÓN CON JUGADORES!",
-      "canal": "LA COBRA",
-      "publicado": "2026-11-22T09:55:52-05:00",
-      "horas_desde": 14.3,
-      "vistas": 482596,
-      "vistas_por_hora": 33664,
-      "duracion_seg": 1601,
-      "medido_a": "2026-11-23T00:16:00-05:00",
-      "perfil": "La Cobra (similar)",
-      "aparece": true,
-      "por_que": "482.596 vistas a las 14,4 h, 0,91 veces la mediana de vistas totales de sus 8 videos anteriores. El Clipero ya sacó 3 clips; queda poco: la llegada a Barranquilla (01:20) y la comida (07:23). Nada del partido (14:00-14:45) ni de la transmisión.",
-      "oportunidad": "formato-el-dia-despues-del-protagonista"
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=8WZzGev9mkg",
-      "titulo": "Me ENCONTRE a PIE GRANDE en GTA VI",
-      "canal": "WestCOL",
-      "publicado": "2026-11-21T15:32:32-05:00",
-      "horas_desde": 32.7,
-      "vistas": 41609,
-      "vistas_por_hora": 1271,
-      "duracion_seg": 9011,
-      "medido_a": "2026-11-23T00:16:00-05:00",
-      "perfil": "Westcol",
-      "aparece": true,
-      "por_que": "Directo del perfil (GTA VI solo entra así), a 0,67 veces su mediana por hora. Solo sus reacciones en cámara; sin imágenes largas del juego. Sale de la ventana hacia las 03:30 del 23-nov.",
+      "por_que": "Lo más rápido de la ventana y fuera de La Ganga: 1,95 M a las 34,9 h (968.191 a las 11,1 h). En un canal de 17,5 M mide fama (mediana de vistas totales de sus 10 videos anteriores: unos 7 M), pero los momentos son de sorpresa y emoción, fáciles de cortar. Tramos (subtítulos automáticos): 1:30-2:30 ('Alberto, tú te querías casar'), 18:00-19:00 (se lo revelan a Verónica: 'era para nosotros… ha sido una mentira brutal'), 19:30-20:00 ('presupuesto totalmente ilimitado') y 28:30-29:30 (el regalo de bodas: un viaje a Japón). Fuera: 9:15-10:50 (anuncio de Revolut) y la música de fondo de la boda. Castellano de España. Sale de la ventana hacia la 01:00 del 25-nov.",
       "oportunidad": null
     },
     {
-      "url": "https://www.youtube.com/watch?v=yHYpeKWeqyw",
-      "titulo": "Llevé a mi hijo a conocer mis restaurantes",
+      "url": "https://www.youtube.com/watch?v=1Pn6TOoIZlM",
+      "titulo": "Así se toman las decisiones en mi constructora (comité real, sin filtro)",
       "canal": "Santi Ospina",
-      "publicado": "2026-11-21T14:30:04-05:00",
-      "horas_desde": 33.8,
-      "vistas": 29,
+      "publicado": "2026-11-24T18:00:01-05:00",
+      "horas_desde": 6.1,
+      "vistas": 5,
       "vistas_por_hora": 1,
-      "duracion_seg": 688,
-      "medido_a": "2026-11-23T00:16:00-05:00",
+      "duracion_seg": 970,
+      "medido_a": "2026-11-25T00:03:00-05:00",
       "perfil": "Santiago Ospina (\"el de la X\")",
       "aparece": true,
-      "por_que": "Entra por salir el perfil en persona, no por ritmo (29 vistas). Si dice en cámara cuánto vende o cuántos restaurantes tiene, es la cifra del negocio. Sale de la ventana hacia las 02:30 del 23-nov.",
+      "por_que": "Nueva del perfil de empresarios, en persona: un comité real de su constructora con su padre. Entra por ser del perfil, no por ritmo (5 vistas). Tramos con cifra o choque: 0:00-0:30 ('las decisiones con la plata de terceros'), 1:00-1:40 (el padre: 'No vale la pena correr un riesgo por 30 millones de pesos'), 5:00-5:40 (arquitectos que 'cobran cientos de millones de pesos por el diseño de una mansión' y no visitan la obra) y 13:00-14:40 ('¿Para qué contrataste al que no te va a cumplir? Hubieras contratado al otro…'; 'vamos a traer todo de China'). Dos groserías sueltas.",
       "oportunidad": "formato-matematica-del-lujo"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=U7SI-4IYrZM",
+      "titulo": "Le dije a mi papá que su tiempo pasó (reunión real de mi constructora)",
+      "canal": "Santi Ospina",
+      "publicado": "2026-11-23T18:00:37-05:00",
+      "horas_desde": 29.9,
+      "vistas": 6,
+      "vistas_por_hora": 0,
+      "duracion_seg": 455,
+      "medido_a": "2026-11-24T23:55:00-05:00",
+      "perfil": "Santiago Ospina (\"el de la X\")",
+      "aparece": true,
+      "por_que": "Del perfil, en persona, con el mejor gancho de los dos: 'Su tiempo pasó' (0:00-0:25). Dura 7:35, por debajo de los 8 min, y se incluye por ser el único material de empresarios de la ventana. Tramos: 1:30-2:40 ('2 millones de pesos por metro cuadrado… ese mismo millón en China me puedo traer el doble'), 3:00-3:40 (el padre: '40 años… 50 trofeos… 100 trofeos') y 4:30-4:45 ('Bienvenido de nuevo a su empresa, ha sido contratado'). Sin audiencia todavía (6 vistas).",
+      "oportunidad": "formato-matematica-del-lujo"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=REAq17DhKsU",
+      "titulo": "Koddy G: “Ya llevo 5 temas pegados”, su conexión con Ryan Castro y el boom de Buenaventura",
+      "canal": "Mix Radio Colombia",
+      "publicado": "2026-11-23T16:50:09-05:00",
+      "horas_desde": 31.1,
+      "vistas": 46,
+      "vistas_por_hora": 1,
+      "duracion_seg": 1612,
+      "medido_a": "2026-11-24T23:55:00-05:00",
+      "perfil": "Køddy G (similar), habla de Ryan Castro",
+      "aparece": true,
+      "por_que": "Lo único de cantantes en la ventana: entrevista en persona al cantante de Buenaventura (Mix Radio Colombia, 60,5 K). Entra por el perfil, no por ritmo (46 vistas). Tramos: 1:00-2:00 (empezó la cuenta 'con cero' seguidores), 3:30-4:30 (su primer show: 'yo en qué me metí'), 7:00-7:40 (cómo Ryan Castro se montó al remix de 'Hágalo': 'eso fue muy random'), 10:00-10:40 ('decían que iba a pegar una sola… ya llevo cinco'), 12:00-12:40 (el mensaje a Maluma) y 15:30-16:30 (el cuaderno de Barbie lleno de letras). Nada de la música de fondo.",
+      "oportunidad": null
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=KqJ-qgIO90I",
+      "titulo": "¡LEANDRO tuvo un ACCIDENTE manejando moto! 🏍️💥| RODADA con LA GANGA  | Westcol",
+      "canal": "WestCOL",
+      "publicado": "2026-11-23T17:15:35-05:00",
+      "horas_desde": 30.7,
+      "vistas": 264439,
+      "vistas_por_hora": 8624,
+      "duracion_seg": 1280,
+      "medido_a": "2026-11-24T23:55:00-05:00",
+      "perfil": "Westcol, con Leandro La Sapa, Lonche, Samulx y La Ganga",
+      "aparece": true,
+      "por_que": "Lo que más sobre-rinde de los perfiles: 4,5 veces la mediana por hora de Westcol (11.891/h a las 6,7 h). Es la última hora de las 72 horas desde su cámara y nadie la ha cortado, pero la cola de La Ganga está llena: solo si queda hueco. Tramos: 14:00-15:30 ('solo raspó el codo', 'estuve en el aire un tiempito', Leandro: 'Renuncio') y 20:00-20:45 (la despedida: 'Las cumplimos todas… vamos a extrañar'). Decir en pantalla que nadie se hizo daño; nada del seguidor que los tumba ni de 1:00-2:30 (la caída en directo y los gritos).",
+      "oportunidad": "formato-el-dia-despues-del-protagonista"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=9cshF4iOHW0",
+      "titulo": "REACCIONANDO A LOS CLIPS DE LA GANGA EN GUATAPÉ",
+      "canal": "The Chanty",
+      "publicado": "2026-11-23T13:47:48-05:00",
+      "horas_desde": 34.1,
+      "vistas": 54990,
+      "vistas_por_hora": 1611,
+      "duracion_seg": 790,
+      "medido_a": "2026-11-24T23:55:00-05:00",
+      "perfil": "The Chanty (similar), sobre La Ganga",
+      "aparece": true,
+      "por_que": "El día después con el protagonista viéndose en los clips: 6,2 veces su mediana por hora a las 10,5 h y 2,8 veces a las 34 h. Tramos: 0:00-0:40 (se ríe de la caída de Leandro en moto) y 6:00-7:30 ('somos unos jóvenes que quieren andar en su motico… 110 horas en 4 días y medio… no he disfrutado mi vida'). Fuera: 3:00-3:40 (tragos) y 10:00-12:00 (parejas). La Ganga otra vez: solo si queda hueco. Sale de la ventana hacia las 01:45 del 25-nov.",
+      "oportunidad": "formato-el-dia-despues-del-protagonista"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=SUEBErErDmA",
+      "titulo": "UN DÍA DE LOCOS EN LA MANSIÓN DE OVY ON THE DRUMS | LONCHE Y WILLITO",
+      "canal": "Lonche y Willito",
+      "publicado": "2026-11-24T16:47:35-05:00",
+      "horas_desde": 7.3,
+      "vistas": 8073,
+      "vistas_por_hora": 1106,
+      "duracion_seg": 9023,
+      "medido_a": "2026-11-25T00:07:00-05:00",
+      "perfil": "Lonche y Willito, con Ovy On The Drums (similar), Westcol y La Ganga",
+      "aparece": true,
+      "por_que": "Nueva: el último día en Guatapé (22-nov) desde la cámara de Lonche, en la casa de Ovy On The Drums. Unas 2,4 veces el tour por Provenza del canal. Buena parte ya está cortada desde otras cámaras (el wakesurf y la despedida). Lo que no: 8:00-8:30 ('esa puerta vale medio Ferrari') y 47:00-47:40 (la casa flotante, 'Nauticasa'). Fuera las bromas sexuales (1:08:00-1:09:00) y el alcohol. Solo si queda hueco.",
+      "oportunidad": "formato-primera-vez-en-medellin"
     }
   ]
 }

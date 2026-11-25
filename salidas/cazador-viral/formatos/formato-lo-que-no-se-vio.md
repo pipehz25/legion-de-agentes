@@ -1,6 +1,13 @@
 # Lo que no se vio (el día después, contado por el protagonista)
 
-> **Estado (23-nov, 00:30, ciclo 21): vigente hasta el 24-nov, con puntaje 81 (80 en el ciclo 20).** Lo nuevo:
+> **Estado (25-nov, 00:30, ciclo 22): vigente hasta el 26-nov, con puntaje 80 (81 en el ciclo 21).** Lo nuevo:
+> - **Variante nueva: el protagonista viéndose en los clips.** ['REACCIONANDO A LOS CLIPS DE LA GANGA EN GUATAPÉ'](https://www.youtube.com/watch?v=9cshF4iOHW0) (The Chanty) llega a 6,2 veces su mediana por hora a las 10,5 h y sigue a 2,8 veces a las 34 h.
+>   - Gancho: él riéndose de la caída de Leandro (0:00-0:40). Remate: "110 horas en 4 días y medio… no he disfrutado mi vida" (6:00-7:30).
+>   - El resumen de terceros con los mismos momentos se queda en 359/h ([basuquito](https://www.youtube.com/watch?v=N7fZGy7f26U)): gana la cara del protagonista.
+> - **El viaje contado por él:** Davoo ([la anécdota de la final](https://www.youtube.com/watch?v=rlmpoCjjW8Q)) se queda en la línea de su canal (522.544 vistas a las 49 h). Ya está fuera de la ventana de fuentes.
+> - **El día después de las 72 horas ya pasó** (23 y 24-nov). Lo que queda hasta el 26-nov son las otras cámaras del último día. Después, esperar el próximo evento de un perfil.
+>
+> **Estado anterior (23-nov, 00:30, ciclo 21): vigente hasta el 24-nov, con puntaje 81 (80 en el ciclo 20).** Lo nuevo:
 > - **Corrección: las 72 horas terminaron la noche del 22-nov, no el 23-nov hacia las 19:00.** El 'falta un día y 5 horas' del ciclo 20 salía de un VOD del día anterior. La última hora es la ruta en minimotos por Guatapé: ['PASEO EN MINIMOTOS CON LA GANGA…'](https://www.youtube.com/watch?v=1vvSAlzi2jU) (Samulx: 'Por fin apagamos el stream. Empieza lo bueno… Nos merecemos una fiesta fuera de cámara', 0:00; 'Las cumplimos todas', 21:00) y [la misma ruta desde The Chanty](https://www.youtube.com/watch?v=fXzITXkun0Y) ('no aguantaron las 72 horas', 36:00).
 > - **El día después es hoy (23-nov).** Lo que cuente cada uno de lo que pasó fuera de cámara, con un gancho que no sea de pareja: "¿Aguantaron las 72 horas?" (la contradicción entre Samulx y The Chanty ya es el gancho).
 > - **'NO SABEMOS QUE PASO AYER' sigue acelerando:** 9.319/h a las 10,2 h, 3,6 veces la mediana por hora de Samulx. El Clipero ya sacó el refrán y el avión a Cartagena; queda el sancocho y la ruta en motos (20:00-23:00).
