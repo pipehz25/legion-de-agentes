@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-24-gta6-beach-gator",
+    "url_fuente":  "https://www.youtube.com/watch?v=TNGvT17c8Qg",
+    "video_id":  "TNGvT17c8Qg",
+    "inicio":  422.5,
+    "fin":  439,
+    "inicio_hms":  "0:07:02",
+    "duracion_seg":  16.5,
+    "gancho":  "POV: a peaceful walk on the beach",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "atardecer",
+    "resolucion":  "1440x2560",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -15.1,
+                  "limitador":  true,
+                  "entrada_lufs":  -26.76,
+                  "entrada_tp":  -12.73,
+                  "salida_lufs":  -14.97,
+                  "salida_tp":  -1.07
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-24-gta6-beach-gator/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-24-gta6-beach-gator/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-24-gta6-beach-gator/revision.jpg",
+    "creado":  "2026-11-24T23:58:45.3094757-05:00"
+}

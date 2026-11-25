@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-24-gta6-semi-swap",
+    "url_fuente":  "https://www.youtube.com/watch?v=FAYq-wgPO4g",
+    "video_id":  "FAYq-wgPO4g",
+    "inicio":  117.5,
+    "fin":  142,
+    "inicio_hms":  "0:01:57",
+    "duracion_seg":  24.5,
+    "gancho":  "Leonida Fails #10: he hit a semi, so he took it",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "negro",
+    "resolucion":  "1440x2560",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14.2,
+                  "limitador":  true,
+                  "entrada_lufs":  -22.3,
+                  "entrada_tp":  -9.12,
+                  "salida_lufs":  -14.92,
+                  "salida_tp":  -1.02
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-24-gta6-semi-swap/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-24-gta6-semi-swap/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-24-gta6-semi-swap/revision.jpg",
+    "creado":  "2026-11-24T23:18:57.8026141-05:00"
+}

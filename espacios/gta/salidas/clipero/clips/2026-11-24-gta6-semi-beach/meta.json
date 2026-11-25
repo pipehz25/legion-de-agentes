@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-24-gta6-semi-beach",
+    "url_fuente":  "https://www.youtube.com/watch?v=FAYq-wgPO4g",
+    "video_id":  "FAYq-wgPO4g",
+    "inicio":  223,
+    "fin":  246,
+    "inicio_hms":  "0:03:43",
+    "duracion_seg":  23,
+    "gancho":  "Leonida Fails #10: never take a semi to the beach",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "negro",
+    "resolucion":  "1440x2560",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -19.98,
+                  "entrada_tp":  -7.39,
+                  "salida_lufs":  -13.88,
+                  "salida_tp":  -1.41
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-24-gta6-semi-beach/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-24-gta6-semi-beach/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-24-gta6-semi-beach/revision.jpg",
+    "creado":  "2026-11-24T23:55:06.7400365-05:00"
+}

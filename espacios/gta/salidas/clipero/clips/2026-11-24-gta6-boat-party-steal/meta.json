@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-24-gta6-boat-party-steal",
+    "url_fuente":  "https://www.youtube.com/watch?v=TNGvT17c8Qg",
+    "video_id":  "TNGvT17c8Qg",
+    "inicio":  600,
+    "fin":  617,
+    "inicio_hms":  "0:10:00",
+    "duracion_seg":  17,
+    "gancho":  "POV: you crash a boat party",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "vice",
+    "resolucion":  "1440x2560",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14.2,
+                  "limitador":  true,
+                  "entrada_lufs":  -33.43,
+                  "entrada_tp":  -20.26,
+                  "salida_lufs":  -14.94,
+                  "salida_tp":  -1.03
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-24-gta6-boat-party-steal/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-24-gta6-boat-party-steal/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-24-gta6-boat-party-steal/revision.jpg",
+    "creado":  "2026-11-24T23:48:44.9671298-05:00"
+}

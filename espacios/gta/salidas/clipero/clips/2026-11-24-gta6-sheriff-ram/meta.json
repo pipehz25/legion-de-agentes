@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-24-gta6-sheriff-ram",
+    "url_fuente":  "https://www.youtube.com/watch?v=HQNTysKwzpk",
+    "video_id":  "HQNTysKwzpk",
+    "inicio":  220,
+    "fin":  236,
+    "inicio_hms":  "0:03:40",
+    "duracion_seg":  16,
+    "gancho":  "POV: the sheriff rams you",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "atardecer",
+    "resolucion":  "1440x2560",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -19,
+                  "entrada_tp":  -6.48,
+                  "salida_lufs":  -13.77,
+                  "salida_tp":  -1.48
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-24-gta6-sheriff-ram/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-24-gta6-sheriff-ram/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-24-gta6-sheriff-ram/revision.jpg",
+    "creado":  "2026-11-24T23:45:16.7695198-05:00"
+}

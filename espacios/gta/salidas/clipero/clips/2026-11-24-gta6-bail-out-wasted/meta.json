@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-24-gta6-bail-out-wasted",
+    "url_fuente":  "https://www.youtube.com/watch?v=FAYq-wgPO4g",
+    "video_id":  "FAYq-wgPO4g",
+    "inicio":  553.5,
+    "fin":  576,
+    "inicio_hms":  "0:09:13",
+    "duracion_seg":  22.5,
+    "gancho":  "Getaway Files #14: he bailed out... into the cops",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "negro",
+    "resolucion":  "1440x2560",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14.1,
+                  "limitador":  true,
+                  "entrada_lufs":  -20.75,
+                  "entrada_tp":  -7.7,
+                  "salida_lufs":  -14.08,
+                  "salida_tp":  -1.05
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-24-gta6-bail-out-wasted/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-24-gta6-bail-out-wasted/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-24-gta6-bail-out-wasted/revision.jpg",
+    "creado":  "2026-11-24T23:30:44.4063211-05:00"
+}

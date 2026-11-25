@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-24-gta6-dirt-bike-wasted",
+    "url_fuente":  "https://www.youtube.com/watch?v=FAYq-wgPO4g",
+    "video_id":  "FAYq-wgPO4g",
+    "inicio":  299.5,
+    "fin":  315.5,
+    "inicio_hms":  "0:04:59",
+    "duracion_seg":  16,
+    "gancho":  "POV: you trade the car for a dirt bike",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "vice",
+    "resolucion":  "1440x2560",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14.1,
+                  "limitador":  true,
+                  "entrada_lufs":  -21.73,
+                  "entrada_tp":  -8.68,
+                  "salida_lufs":  -14.26,
+                  "salida_tp":  -1.05
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-24-gta6-dirt-bike-wasted/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-24-gta6-dirt-bike-wasted/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-24-gta6-dirt-bike-wasted/revision.jpg",
+    "creado":  "2026-11-24T23:38:39.3847874-05:00"
+}

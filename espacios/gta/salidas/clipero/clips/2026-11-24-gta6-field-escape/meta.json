@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-24-gta6-field-escape",
+    "url_fuente":  "https://www.youtube.com/watch?v=ehUAju_x8CQ",
+    "video_id":  "ehUAju_x8CQ",
+    "inicio":  47.5,
+    "fin":  71,
+    "inicio_hms":  "0:00:47",
+    "duracion_seg":  23.5,
+    "gancho":  "Getaway Files #15: how he lost them",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "vice",
+    "resolucion":  "1440x2560",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -22.45,
+                  "entrada_tp":  -9.79,
+                  "salida_lufs":  -14.14,
+                  "salida_tp":  -1.34
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-24-gta6-field-escape/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-24-gta6-field-escape/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-24-gta6-field-escape/revision.jpg",
+    "creado":  "2026-11-24T23:36:04.5210530-05:00"
+}

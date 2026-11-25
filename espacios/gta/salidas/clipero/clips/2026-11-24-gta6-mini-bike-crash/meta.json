@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-24-gta6-mini-bike-crash",
+    "url_fuente":  "https://www.youtube.com/watch?v=_emqW5kdqJo",
+    "video_id":  "_emqW5kdqJo",
+    "inicio":  69.5,
+    "fin":  90.9,
+    "inicio_hms":  "0:01:09",
+    "duracion_seg":  21.4,
+    "gancho":  "Leonida Fails #9: should\u0027ve taken the car",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "atardecer",
+    "resolucion":  "1440x2560",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -22.83,
+                  "entrada_tp":  -9.92,
+                  "salida_lufs":  -13.93,
+                  "salida_tp":  -1.09
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-24-gta6-mini-bike-crash/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-24-gta6-mini-bike-crash/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-24-gta6-mini-bike-crash/revision.jpg",
+    "creado":  "2026-11-24T23:21:28.0232782-05:00"
+}
