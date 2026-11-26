@@ -39,7 +39,7 @@ Una legión de agentes autónomos, cada uno controlado por un loop. Esta sesión
 |------|----|-----------|
 | `/loop 6h /legion` | Felipe (tiene los videos, whisper y las credenciales de las cuentas principales y de risas) | Toda la cadena del espacio principal: 01 Cazador Urbano → 04 Cazador de Risas → 02 Clipero → 03 Publicador |
 | `/loop 6h /turno-lalo` | Santiago (tiene los videos y las credenciales de las cuentas de Lalo) | 02 → 03, solo en el espacio `lalo` |
-| `/loop 6h /turno-narrador` | Santiago y Felipe, cada uno en una sesión aparte (luego la Mac M6) | Videos largos del Narrador para YouTube (necesita la clave de ElevenLabs en esa PC) |
+| `/loop 24h /turno-narrador` | Felipe, en una sesión aparte (luego la Mac M6). Mientras siga el plan actual de ElevenLabs solo corre aquí, un video al día (D-16); al subir de plan, también Santiago | Videos largos del Narrador para YouTube (necesita la clave de ElevenLabs en esa PC) |
 
 - **Santiago** no corre `/legion`, `/turno-clips`, `/turno-cazador` ni ningún cazador: dos cazadores a la vez se pisan `datos/cazador-*`. Lo suyo es `/turno-lalo` y desarrollar.
 - **Felipe** no corre `/turno-lalo`.
