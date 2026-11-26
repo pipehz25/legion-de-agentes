@@ -117,7 +117,27 @@ async function hablaDeepgram(texto, modelo, destino, velocidad = 1) {
   fs.mkdirSync(path.dirname(destino), { recursive: true });
   fs.writeFileSync(destino + ".tmp", Buffer.from(await r.arrayBuffer()));
   fs.renameSync(destino + ".tmp", destino);
-  return Number(r.headers.get("dg-char-count")) || texto.length;
+  const cobrados = Number(r.headers.get("dg-char-count")) || texto.length;
+  // Registro de esta PC (la clave Member no deja ver el uso por la API): fecha local, modelo, caracteres.
+  fs.mkdirSync(path.dirname(DG_GASTO), { recursive: true });
+  fs.appendFileSync(DG_GASTO, `${fechaLocal()},${modelo},${cobrados}\n`, "utf8");
+  return cobrados;
+}
+const DG_GASTO = path.join(os.homedir(), ".legion", "deepgram", "gasto.csv");
+function fechaLocal(d = new Date()) {
+  const dos = (n) => String(Math.abs(n)).padStart(2, "0");
+  const z = -d.getTimezoneOffset();
+  return `${d.getFullYear()}-${dos(d.getMonth() + 1)}-${dos(d.getDate())}T${dos(d.getHours())}:${dos(d.getMinutes())}:${dos(d.getSeconds())}${z >= 0 ? "+" : "-"}${dos(Math.floor(Math.abs(z) / 60))}:${dos(Math.abs(z) % 60)}`;
+}
+// Caracteres de voz del mes en curso segun el registro de esta PC.
+function registradosDelMes() {
+  if (!fs.existsSync(DG_GASTO)) return 0;
+  const mes = fechaLocal().slice(0, 7);
+  return fs
+    .readFileSync(DG_GASTO, "utf8")
+    .split(/\r?\n/)
+    .filter((l) => l.startsWith(mes))
+    .reduce((suma, l) => suma + (Number(l.split(",")[2]) || 0), 0);
 }
 // Saldo y caracteres de voz del mes (lo que no deje ver la clave queda en null).
 async function cuentaDeepgram() {
@@ -143,7 +163,8 @@ function textoCuentaDeepgram(c) {
   const partes = [];
   if (c.saldo) partes.push(`saldo ${c.saldo}`);
   if (c.caracteresMes !== null) partes.push(`este mes van ${c.caracteresMes} caracteres de voz (${usdDeepgram(c.caracteresMes)})`);
-  return partes.length ? ` (proyecto ${c.proyecto}: ${partes.join("; ")})` : "";
+  else partes.push(`esta PC lleva ${registradosDelMes()} caracteres este mes (${usdDeepgram(registradosDelMes())})`);
+  return ` (${partes.join("; ")})`;
 }
 
 const modo = process.argv[2];
@@ -153,9 +174,11 @@ if (modo === "--saldo-deepgram") {
     console.log("La clave no ve ningun proyecto de Deepgram.");
     process.exit(1);
   }
-  console.log(`Deepgram, proyecto ${c.proyecto}`);
-  console.log(`  saldo: ${c.saldo ?? "la clave no puede verlo (hace falta una clave de rol Admin u Owner); miralo en console.deepgram.com"}`);
-  console.log(`  voz este mes: ${c.caracteresMes === null ? "la clave no puede verlo" : `${c.caracteresMes} caracteres (${usdDeepgram(c.caracteresMes)})`}`);
+  const propios = registradosDelMes();
+  console.log("Deepgram: la clave funciona");
+  console.log(`  saldo: ${c.saldo ?? "la clave no puede verlo (hace falta rol Admin u Owner); miralo en console.deepgram.com, Billing"}`);
+  console.log(`  voz este mes (cuenta): ${c.caracteresMes === null ? "la clave no puede verlo (falta usage:read)" : `${c.caracteresMes} caracteres (${usdDeepgram(c.caracteresMes)})`}`);
+  console.log(`  voz este mes (registro de esta PC, ${DG_GASTO}): ${propios} caracteres (${usdDeepgram(propios)})`);
   process.exit(0);
 }
 if (modo === "--muestra-deepgram") {
@@ -259,6 +282,15 @@ const WHISPER = buscaWhisper();
 const MODELO =
   [process.env.WHISPER_MODELO, path.join(ANIMADOS, "..", "herramientas", "modelos", "ggml-small-q5_1.bin")].find((m) => m && fs.existsSync(m)) || null;
 const revisarDeOido = [];
+// whisper-cli lee sus rutas como UTF-8, pero en Windows recibe la linea de comandos en ANSI: una
+// ruta con tildes (p. ej. "...\Legión de Agentes I.A\...") lo tumba sin decir nada. Por eso
+// corre desde la raiz del proyecto y recibe las rutas relativas a ella.
+const RAIZ = path.resolve(ANIMADOS, "..");
+function paraWhisper(ruta) {
+  const rel = path.relative(RAIZ, ruta);
+  return rel && !rel.startsWith("..") && !path.isAbsolute(rel) ? rel : ruta;
+}
+const whisper = (args, opciones = {}) => spawnSync(WHISPER, args, { encoding: "utf8", cwd: RAIZ, ...opciones });
 
 // Como suena un texto, sin lo que el oido no distingue (tildes, h muda, b/v, z/s, ll/y).
 const sonido = (s) =>
@@ -280,7 +312,7 @@ function difiere(audio, texto) {
   if (!WHISPER || !MODELO) return null;
   const wav16 = audio + ".oir.wav";
   correr("ffmpeg", ["-v", "error", "-y", "-i", audio, "-af", "adelay=300:all=1,apad=pad_dur=0.6", "-ar", "16000", "-ac", "1", "-c:a", "pcm_s16le", wav16]);
-  const r = spawnSync(WHISPER, ["-m", MODELO, "-l", "es", "-f", wav16, "-np", "-nt"], { encoding: "utf8" });
+  const r = whisper(["-m", paraWhisper(MODELO), "-l", "es", "-f", paraWhisper(wav16), "-np", "-nt"]);
   fs.rmSync(wav16, { force: true });
   if (r.status !== 0) return null;
   const a = sonido(texto);
@@ -378,9 +410,9 @@ function silenciosGrabacion(v) {
 // Lo que oye whisper, palabra por palabra, con su tiempo.
 function palabrasOidas(wav16, pista) {
   const base = wav16.replace(/\.wav$/, "");
-  const args = ["-m", MODELO, "-l", "es", "-f", wav16, "-ml", "1", "-sow", "-oj", "-of", base, "-np"];
+  const args = ["-m", paraWhisper(MODELO), "-l", "es", "-f", paraWhisper(wav16), "-ml", "1", "-sow", "-oj", "-of", paraWhisper(base), "-np"];
   if (pista) args.push("--prompt", pista);
-  const r = spawnSync(WHISPER, args, { encoding: "utf8", maxBuffer: 64 * 1024 * 1024 });
+  const r = whisper(args, { maxBuffer: 64 * 1024 * 1024 });
   if (r.status !== 0 || !fs.existsSync(base + ".json")) throw new Error("whisper no pudo transcribir la grabacion:\n" + (r.stderr || r.stdout));
   const datos = JSON.parse(fs.readFileSync(base + ".json", "utf8"));
   fs.rmSync(base + ".json", { force: true });

@@ -431,7 +431,7 @@ ElevenLabs cobra por carácter: **10 minutos de narración son unos 8.000 a 9.00
 `"motor": "deepgram"` y `"voz": "aura-2-<nombre>-es"` (Aura-2, [voces en español](https://developers.deepgram.com/docs/tts-models): colombianas `celeste` y `gloria`; mexicanas `valerio`, `sirio`, `javier`, `luciano`, `estrella` y `olivia`; latinoamericanas `aquila` y `selena`; de España y de Argentina, otras). Cuesta 0,030 USD por 1.000 caracteres (unos 0,17 USD un video de 5.800). Funciona como ElevenLabs: misma caché por frase en `animados/.voz-cache/`, mismo `tope_caracteres`, la misma comprobación con whisper y `"velocidad"` opcional. Antes de generar dice lo que va a cobrar, el saldo y lo que lleva el mes; al terminar, lo que cobró.
 
 - **Clave:** la guarda una persona con `powershell -NoProfile -ExecutionPolicy Bypass -File animados\herramientas\guardar-clave-deepgram.ps1` (queda en `%USERPROFILE%\.legion\deepgram\clave.txt`). Con una clave de rol Member se ve el uso; para ver el saldo, de rol Admin u Owner.
-- **Uso y saldo:** `node animados/herramientas/voz.mjs --saldo-deepgram`.
+- **Uso y saldo:** `node animados/herramientas/voz.mjs --saldo-deepgram`. Una clave Member no deja ver el uso ni el saldo por la API (faltan `usage:read` y `billing:read`), así que cada PC anota lo que cobra cada pedido (la cabecera `dg-char-count`) en `%USERPROFILE%\.legion\deepgram\gasto.csv` y `--saldo-deepgram` suma el mes. El saldo de la cuenta se mira en console.deepgram.com.
 - **Muestra de una voz:** `node animados/herramientas/voz.mjs --muestra-deepgram aura-2-valerio-es <salida.wav> "<texto>"`.
 - Hasta 2.000 caracteres por frase (las frases de los guiones caben de sobra).
 
