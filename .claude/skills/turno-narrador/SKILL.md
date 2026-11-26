@@ -16,27 +16,29 @@ Antes de empezar temas nuevos, busca en `animados/propios/*/guion.json` los que 
 
 ## 2. Guion (si no existe)
 - Tema: el siguiente `pendiente` de `datos/narrador/temas.json`, solo del nicho `historia` (el único con plantillas horizontales probadas; los demás nichos esperan a que se prueben sus estilos). Respeta el orden de las series.
-- Lanza Agent `subagent_type: narrador`, prompt: `Encargo: largo <id>. Sigue tu procedimiento.` Espera a que termine.
+- **Dos PCs:** si el turno corre en más de una PC, apártalo antes de escribir nada: pon el tema en `"estado": "en-produccion"` con `"pc": "<nombre de esta PC>"`, haz commit y push de `datos/narrador/temas.json` y solo entonces sigue. Si el push choca, `git pull --rebase --autostash`, vuelve a mirar y toma otro tema si ya lo apartaron. Nunca tomes un tema `en-produccion` de otra PC.
+- Lanza Agent `subagent_type: narrador`, prompt: `Encargo: largo <id>. Sigue tu procedimiento.` Si haces varios videos a la vez, lanza los guiones en el mismo mensaje y agrega al prompt `Otro agente trabaja en paralelo: no edites temas.json.`; luego actualízalo tú.
 
 ## 3. Voz (una sola vez)
-1. Sube `tope_caracteres` del guion a `9500`.
-2. Corre `node animados/herramientas/voz.mjs animados/propios/<id>` y anota los caracteres que dice que va a generar y lo que lleva la cuenta en el mes.
-3. Vuelve a dejar `tope_caracteres` en `50`.
+1. Revisa que el guion no tenga BOM ni acentos rotos (`Ã`, `Â`). Si los tiene, arréglalo antes de pagar voz.
+2. Sube `tope_caracteres` del guion a `9500` **con `sed` o node**, nunca con `Get-Content`/`Set-Content` de PowerShell 5.1: leen el UTF-8 como ANSI, rompen los acentos y la voz sale leyendo basura (pasó con hi-boyaca y costó una voz entera).
+3. Corre `node animados/herramientas/voz.mjs animados/propios/<id>` y anota los caracteres que dice que va a generar y lo que lleva la cuenta en el mes. Si se corta la conexión, vuelve a correrlo: lo ya generado queda en caché.
+4. Vuelve a dejar `tope_caracteres` en `50`.
 
 Si pasa del tope, no lo subas más: avísalo en el informe y deja el tema para revisión.
 
 ## 4. Escenas (dos subagentes a la vez)
 1. Reparte los capítulos en dos mitades de duración parecida: `c0` con la primera.
-2. Lanza **en el mismo mensaje** dos Agent `subagent_type: narrador` con `model: "sonnet"`, uno por mitad, con el prompt `Encargo: escenas <id> <capítulos>. Usa la copia <id>-tmp-a` (o `-tmp-b`).
+2. Lanza **en el mismo mensaje** dos Agent `subagent_type: narrador` con `model: "sonnet"`, uno por mitad, con el prompt `Encargo: escenas <id> <capítulos>. Usa la copia <id>-tmp-a` (o `-tmp-b`). Si hay otros agentes renderizando a la vez, agrega: `Si un render falla por Chrome ocupado, espera y reintenta.`
 3. Espera a los dos. Si un capítulo no quedó, relánzalo solo para ese capítulo.
 
 ## 5. Unir, exportar y revisar
 1. `node animados/herramientas/une-escenas.mjs animados/propios/<id> animados/propios/<id>/escenas/c0.json ...` (todos los capítulos).
-2. `node animados/herramientas/producir.mjs animados/propios/<id>` (unos 15 min; en segundo plano). Debe decir «0 caracteres por generar».
+2. `node animados/herramientas/producir.mjs animados/propios/<id>` (unos 12 min; en segundo plano). Debe decir «0 caracteres por generar». Con varios videos, expórtalos uno detrás de otro, no a la vez. El render baja GSAP de internet: si falla con `ERR_NAME_NOT_RESOLVED`, se cayó la conexión; vuelve a correrlo y solo rehace los capítulos que faltan.
 3. Saca 6 cuadros repartidos del MP4 (con `herramientas/bin/ffmpeg.exe -ss <s> -frames:v 1 -vf scale=480:-1`) y míralos con Read.
    - Si algo se ve mal (texto cortado, escena vacía, cosas encimadas), anótalo.
    - Si es grave, relanza el subagente de escenas de ese capítulo y vuelve a producir: solo se rehace ese capítulo.
-4. Copia `<id>.mp4`, `miniatura.jpg`, `descripcion.txt`, `comentario-fuentes.txt` y `<id>.srt` a `C:\Users\scmej\Downloads\Narrador-videos\<id>\`.
+4. Copia `<id>.mp4`, `miniatura.jpg`, `descripcion.txt`, `<id>.srt`, `fuentes.md`, `creditos-imagenes.md` y, si existe, `comentario-fuentes.txt` a `%USERPROFILE%\Downloads\Narrador-videos\<id>\`. Marca el tema en `temas.json` como `guion` con una nota de la fecha y la ruta del MP4.
 5. Borra las copias `animados/propios/<id>-tmp-*` y `salidas/narrador/<id>-tmp-*`.
 
 ## 6. Subir a GitHub

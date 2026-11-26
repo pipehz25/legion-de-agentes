@@ -75,6 +75,7 @@ Sin definir. Espacio reservado en Mission Control.
 
 | # | Fecha | Decisión | Quién | Por qué |
 |---|---|---|---|---|
+| D-15 | 2026-11-24 | Formato estándar de los largos: 6 a 7 min (máx. 5.800 caracteres), voz ElevenLabs Flash (`eleven_flash_v2_5`), guion y escenas con Sonnet, momentos interactivos (preguntas, adivina, mito o realidad, cifra revelada, repaso, pregunta para comentar) y paleta propia por video. El turno puede correr en varias PCs apartando el tema antes de empezar | Santiago | Bajar el costo hacia 1 USD por video (de ~3,8 a ~1,5) y subir la retención. Probado en Buriticá, Gran Colombia y Policarpa |
 | D-14 | 2026-11-20 | Videos largos de YouTube (8 a 10 min) horizontales con escenas diseñadas y animadas con código, voz de ElevenLabs (voz «Jose»), producción diaria con `/turno-narrador`. Reemplaza, solo para los largos, la voz grabada de D-04; avanza P-10 | Santiago | El estilo con diseño es el que funciona; grabar la voz a mano no escala. Primer video: Panamá (9:27) |
 | D-11 | 2026-11-19 | Se compra una Mac mini M6 de 1 TB para producir todo el día; la gestiona Felipe. Cierra P-05 | Santiago y Felipe (reunión) | Producir videos sin depender de las PCs de trabajo |
 | D-12 | 2026-11-19 | CurioSismo es un canal de Felipe (hecho con CODE ART de Viani Pro). Responde Q-08 | Felipe (reunión) | — |
