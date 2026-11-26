@@ -9,7 +9,7 @@
 //       <video>/tiempos.json           (inicio y fin de cada frase y de cada palabra)
 //
 // La voz sale de una grabacion de una persona ("motor": "grabada"), de ElevenLabs, de
-// Deepgram, de Higgsfield, de Kokoro (local) o de archivos sueltos. Los tiempos por palabra salen del
+// Deepgram, de AI33, de Higgsfield, de Kokoro (local) o de archivos sueltos. Los tiempos por palabra salen del
 // propio audio: se detectan sus pausas y cada palabra recibe su parte del tramo.
 //
 // Sale con codigo 3 si el guion pide voz grabada y la grabacion todavia no esta.
@@ -167,7 +167,111 @@ function textoCuentaDeepgram(c) {
   return ` (${partes.join("; ")})`;
 }
 
+// --- AI33 / OpenSpeaker ("motor": "ai33") ---------------------------------------------
+// Revendedor con voces de ElevenLabs (las de su biblioteca, p. ej. "Jose"), Minimax, Edge y
+// otras; se paga con creditos de AI33. La clave va FUERA del proyecto: en AI33_API_KEY o en
+// ~/.legion/ai33/clave.txt; este script la usa y nunca la imprime. "voz" en el guion es el
+// voice_id con su prefijo ("elevenlabs_C12mZePhNoo0RoTXhSFV" es Jose); sin prefijo se toma
+// como de ElevenLabs. Es asincrono: se crea la tarea y se consulta hasta que trae el audio.
+//   node animados/herramientas/voz.mjs --saldo-ai33                   (creditos y gasto del mes)
+//   node animados/herramientas/voz.mjs --voces-ai33 <busqueda>         (voces de ElevenLabs en espanol)
+//   node animados/herramientas/voz.mjs --muestra-ai33 <voice_id> <salida.mp3> <texto>
+const AI33_API = "https://api.ai33.pro";
+const AI33_ARCHIVO_CLAVE = path.join(os.homedir(), ".legion", "ai33", "clave.txt");
+const AI33_GASTO = path.join(os.homedir(), ".legion", "ai33", "gasto.csv");
+function claveAi33() {
+  const clave = (process.env.AI33_API_KEY || (fs.existsSync(AI33_ARCHIVO_CLAVE) ? fs.readFileSync(AI33_ARCHIVO_CLAVE, "utf8") : "")).trim();
+  if (!clave) throw new Error(`Falta la clave de AI33 en ${AI33_ARCHIVO_CLAVE} (no la pegues en el chat).`);
+  if (/[\x00-\x1f\x7f]/.test(clave) || clave.length < 20) throw new Error(`La clave de AI33 guardada en ${AI33_ARCHIVO_CLAVE} no es valida.`);
+  return clave;
+}
+const espera = (ms) => new Promise((listo) => setTimeout(listo, ms));
+async function ai33(ruta, opciones = {}) {
+  for (let intento = 1; ; intento++) {
+    const r = await fetch(AI33_API + ruta, { ...opciones, headers: { "xi-api-key": claveAi33(), ...(opciones.headers || {}) } });
+    // 429 (limite de pedidos) y 503 server_busy son temporales: se espera y se reintenta.
+    if ((r.status === 429 || r.status === 503) && intento <= 6) {
+      await espera(1000 * (Number(r.headers.get("retry-after")) || 2 ** intento));
+      continue;
+    }
+    if (!r.ok) {
+      let detalle = "";
+      try {
+        detalle = await r.text();
+      } catch {}
+      const error = new Error(`AI33 respondio ${r.status} en ${ruta.split("?")[0]}: ${detalle.slice(0, 400)}`);
+      error.status = r.status;
+      throw error;
+    }
+    return r;
+  }
+}
+const vozAi33 = (voz) => (/^(elevenlabs|minimax|clone|edge|kokoro|vbee|fishaudio)_/.test(voz) ? voz : "elevenlabs_" + voz);
+async function creditosAi33() {
+  return Number((await (await ai33("/v1/credits")).json()).credits);
+}
+// Genera un texto con una voz y lo deja en `destino` (MP3). Devuelve los creditos que costo.
+async function hablaAi33(texto, voz, destino, velocidad = 1) {
+  const form = new FormData();
+  form.set("text", texto);
+  form.set("voice_id", vozAi33(voz));
+  if (velocidad !== 1) form.set("speed", String(velocidad));
+  form.set("with_transcript", "false");
+  const creada = await (await ai33("/v3/text-to-speech", { method: "POST", body: form })).json();
+  if (!creada.task_id) throw new Error("AI33 no devolvio task_id: " + JSON.stringify(creada).slice(0, 300));
+  const limite = Date.now() + 5 * 60 * 1000;
+  let tarea = null;
+  for (let pausa = 1500; Date.now() < limite; pausa = Math.min(pausa * 1.4, 6000)) {
+    await espera(pausa);
+    tarea = await (await ai33(`/v1/task/${creada.task_id}`, { headers: { "Content-Type": "application/json" } })).json();
+    if (tarea.status === "done") break;
+    if (/error|fail|cancel/i.test(String(tarea.status))) throw new Error(`AI33 fallo la tarea ${creada.task_id}: ${tarea.error_message || tarea.status}`);
+  }
+  if (!tarea || tarea.status !== "done") throw new Error(`AI33 no termino la tarea ${creada.task_id} en 5 minutos (va en ${tarea?.progress ?? "?"} %).`);
+  const url = tarea.metadata?.audio_url || tarea.output_uri;
+  if (!url) throw new Error(`La tarea ${creada.task_id} de AI33 termino sin audio_url.`);
+  const audio = await fetch(url);
+  if (!audio.ok) throw new Error(`No pude bajar el audio de AI33 (${audio.status}).`);
+  fs.mkdirSync(path.dirname(destino), { recursive: true });
+  fs.writeFileSync(destino + ".tmp", Buffer.from(await audio.arrayBuffer()));
+  fs.renameSync(destino + ".tmp", destino);
+  const creditos = Number(tarea.credit_cost) || 0;
+  fs.mkdirSync(path.dirname(AI33_GASTO), { recursive: true });
+  fs.appendFileSync(AI33_GASTO, `${fechaLocal()},${vozAi33(voz)},${texto.length},${creditos}\n`, "utf8");
+  return creditos;
+}
+function gastoAi33DelMes() {
+  const mes = fechaLocal().slice(0, 7);
+  const filas = fs.existsSync(AI33_GASTO) ? fs.readFileSync(AI33_GASTO, "utf8").split(/\r?\n/).filter((l) => l.startsWith(mes)) : [];
+  return filas.reduce((s, l) => ({ caracteres: s.caracteres + (Number(l.split(",")[2]) || 0), creditos: s.creditos + (Number(l.split(",")[3]) || 0) }), { caracteres: 0, creditos: 0 });
+}
+
 const modo = process.argv[2];
+if (modo === "--saldo-ai33") {
+  const g = gastoAi33DelMes();
+  console.log(`AI33: quedan ${await creditosAi33()} creditos`);
+  console.log(`  gasto este mes (registro de esta PC, ${AI33_GASTO}): ${g.caracteres} caracteres, ${g.creditos} creditos`);
+  process.exit(0);
+}
+if (modo === "--voces-ai33") {
+  const q = new URLSearchParams({ provider: "elevenlabs", language: "Spanish", page_size: "30" });
+  if (process.argv[3]) q.set("search", process.argv.slice(3).join(" "));
+  for (const v of (await (await ai33("/v3/voices?" + q)).json()).data || []) {
+    console.log(`${v.voice_id}  ${v.name}  [${[v.locale, v.gender, v.age, v.accent].filter(Boolean).join(", ")}]`);
+  }
+  process.exit(0);
+}
+if (modo === "--muestra-ai33") {
+  const [voz, salida, ...palabras] = process.argv.slice(3);
+  if (!voz || !salida || !palabras.length) {
+    console.error("Uso: node animados/herramientas/voz.mjs --muestra-ai33 <voice_id> <salida.mp3> <texto>");
+    process.exit(1);
+  }
+  const texto = palabras.join(" ");
+  const creditos = await hablaAi33(texto, voz, path.resolve(salida));
+  console.log(`${vozAi33(voz)}: ${texto.length} caracteres, ${creditos} creditos -> ${path.resolve(salida)}`);
+  process.exit(0);
+}
 if (modo === "--saldo-deepgram") {
   const c = await cuentaDeepgram();
   if (!c.proyecto) {
@@ -655,6 +759,19 @@ function firmaDeepgram(frase) {
   return { firma, dicho, modelo, velocidad, guardado: path.join(ANIMADOS, ".voz-cache", crypto.createHash("sha1").update(firma).digest("hex") + ".wav") };
 }
 
+// AI33: firma de cada frase (texto, voz y velocidad) y su archivo en la cache.
+let ai33Creditos = 0;
+function firmaAi33(frase) {
+  const voz = frase.voz || guion.voz;
+  if (!voz) throw new Error('Con "motor": "ai33" el guion necesita "voz" (p. ej. "elevenlabs_C12mZePhNoo0RoTXhSFV"; mira: node animados/herramientas/voz.mjs --voces-ai33 <busqueda>).');
+  const velocidad = frase.velocidad || guion.velocidad || 1;
+  const dicho = paraLaVoz(frase.texto);
+  const sellado = { texto: frase.texto, motor: "ai33", voz: vozAi33(voz), velocidad };
+  if (dicho !== frase.texto) sellado.dicho = dicho;
+  const firma = JSON.stringify(sellado);
+  return { firma, dicho, voz, velocidad, guardado: path.join(ANIMADOS, ".voz-cache", crypto.createHash("sha1").update(firma).digest("hex") + ".mp3") };
+}
+
 // 1. Una frase por archivo: voz, y recorte del silencio de los extremos.
 async function hablar(frase) {
   const txt = path.join(dirVoz, frase.id + ".txt");
@@ -701,6 +818,22 @@ async function hablar(frase) {
       fs.writeFileSync(guardado + ".tmp", Buffer.from(await r.arrayBuffer()));
       fs.renameSync(guardado + ".tmp", guardado);
       // No se reintenta solo (cada intento cuesta): si whisper oye algo distinto, se avisa.
+      const fallos = difiere(guardado, frase.texto);
+      if (fallos !== null && fallos > Math.max(1, Math.round(sonido(frase.texto).length * 0.2))) {
+        revisarDeOido.push(`${frase.id} "${frase.texto}": whisper oye ${fallos} palabra(s) distinta(s)`);
+      }
+    }
+    correr("ffmpeg", ["-v", "error", "-y", "-i", guardado, "-af", recorte, "-ar", "48000", "-ac", "1", wav]);
+    fs.writeFileSync(sello, firma, "utf8");
+    return wav;
+  }
+
+  if (MOTOR === "ai33") {
+    const { firma, dicho, voz, velocidad, guardado } = firmaAi33(frase);
+    if (yaEsta(firma)) return wav;
+    // Cada frase se paga una sola vez: queda en animados/.voz-cache/ por texto, voz y velocidad.
+    if (!fs.existsSync(guardado)) {
+      ai33Creditos += await hablaAi33(dicho, voz, guardado, velocidad);
       const fallos = difiere(guardado, frase.texto);
       if (fallos !== null && fallos > Math.max(1, Math.round(sonido(frase.texto).length * 0.2))) {
         revisarDeOido.push(`${frase.id} "${frase.texto}": whisper oye ${fallos} palabra(s) distinta(s)`);
@@ -942,6 +1075,27 @@ if (MOTOR === "deepgram") {
     process.exit(1);
   }
 }
+if (MOTOR === "ai33") {
+  let porPagar = 0;
+  for (const frase of guion.frases) {
+    const { firma, dicho, guardado } = firmaAi33(frase);
+    const sello = path.join(dirVoz, frase.id + ".firma");
+    const yaHecha = fs.existsSync(path.join(dirVoz, frase.id + ".wav")) && fs.existsSync(sello) && fs.readFileSync(sello, "utf8") === firma;
+    if (!yaHecha && !fs.existsSync(guardado)) porPagar += dicho.length;
+  }
+  let cuenta = "";
+  if (porPagar > 0) {
+    try {
+      cuenta = ` (quedan ${await creditosAi33()} creditos)`;
+    } catch {}
+  }
+  console.log(`AI33, voz ${vozAi33(guion.voz || "")}: ${porPagar} caracteres por generar${cuenta}`);
+  const tope = guion.tope_caracteres ?? 3000;
+  if (porPagar > tope) {
+    console.error(`No sigo: ${porPagar} caracteres pasan el tope de ${tope}. Si es a proposito, sube "tope_caracteres" en el guion.`);
+    process.exit(1);
+  }
+}
 
 for (const frase of guion.frases) {
   process.stdout.write(`voz ${frase.id} ... `);
@@ -1007,6 +1161,7 @@ fs.writeFileSync(
   "utf8",
 );
 if (dgCobrados > 0) console.log(`\nDeepgram cobro ${dgCobrados} caracteres (${usdDeepgram(dgCobrados)}).`);
+if (ai33Creditos > 0) console.log(`\nAI33 cobro ${ai33Creditos} creditos.`);
 if (revisarDeOido.length) {
   console.log("\nPara revisar de oido (la voz puede haber dicho algo distinto al guion):");
   revisarDeOido.forEach((r) => console.log("  - " + r));

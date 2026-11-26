@@ -435,6 +435,15 @@ ElevenLabs cobra por carácter: **10 minutos de narración son unos 8.000 a 9.00
 - **Muestra de una voz:** `node animados/herramientas/voz.mjs --muestra-deepgram aura-2-valerio-es <salida.wav> "<texto>"`.
 - Hasta 2.000 caracteres por frase (las frases de los guiones caben de sobra).
 
+### Voz de AI33 (revendedor, con la voz «Jose» de ElevenLabs)
+
+`"motor": "ai33"` y `"voz": "elevenlabs_C12mZePhNoo0RoTXhSFV"` (Jose; también tiene voces `minimax_`, `edge_`, `kokoro_` y otras). AI33 (OpenSpeaker, api.ai33.pro) revende voces de ElevenLabs y otros proveedores por créditos propios: el 2026-11-26, 571 caracteres con Jose costaron 639 créditos (~1,12 por carácter; unos 6.500 un video de 5.800). Funciona como los otros motores (caché por frase, tope, whisper) y es asíncrono (crea la tarea y la consulta hasta que trae el MP3).
+
+- **Clave:** en `%USERPROFILE%\.legion\ai33\clave.txt` (o `AI33_API_KEY`), fuera del proyecto.
+- **Créditos y gasto:** `node animados/herramientas/voz.mjs --saldo-ai33` (lo que queda en la cuenta y lo que esta PC lleva en el mes, de `%USERPROFILE%\.legion\ai33\gasto.csv`).
+- **Voces:** `node animados/herramientas/voz.mjs --voces-ai33 <búsqueda>`; muestra: `--muestra-ai33 <voice_id> <salida.mp3> "<texto>"`.
+- **Ojo con los derechos:** no tiene un acuerdo público con ElevenLabs a la vista y su menú ofrece «Shared account». Antes de publicar con esta voz, revisen sus términos de uso.
+
 ### Rendimiento
 
 El render se reparte en tramos que corren en paralelo (un tramo por cada 3 hilos del procesador; `LEGION_TRAMOS_A_LA_VEZ` lo cambia). Medido el 2026-11-19 en la PC de Santiago (portátil con Windows, 16 hilos, 5 tramos a la vez):
