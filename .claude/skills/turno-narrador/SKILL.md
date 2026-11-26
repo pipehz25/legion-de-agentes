@@ -22,6 +22,7 @@ Antes de empezar temas nuevos, busca en `animados/propios/*/guion.json` los que 
 
 ## 3. Voz (una sola vez)
 1. Revisa que el guion no tenga BOM ni acentos rotos (`Ã`, `Â`). Si los tiene, arréglalo antes de pagar voz.
+   **Saldo (la cuenta de ElevenLabs es compartida entre las PCs):** con `tope_caracteres` aún en `50`, corre `voz.mjs` una vez: dice los caracteres por generar y lo que lleva la cuenta en el mes, y se detiene sin pagar. Si lo que lleva más lo de este video pasa el límite del plan, no generes: deja el tema `en-produccion` de esta PC y dilo en el informe (el turno siguiente lo retoma cuando haya saldo).
 2. Sube `tope_caracteres` del guion a `9500` **con `sed` o node**, nunca con `Get-Content`/`Set-Content` de PowerShell 5.1: leen el UTF-8 como ANSI, rompen los acentos y la voz sale leyendo basura (pasó con hi-boyaca y costó una voz entera).
 3. Corre `node animados/herramientas/voz.mjs animados/propios/<id>` y anota los caracteres que dice que va a generar y lo que lleva la cuenta en el mes. Si se corta la conexión, vuelve a correrlo: lo ya generado queda en caché.
 4. Vuelve a dejar `tope_caracteres` en `50`.
