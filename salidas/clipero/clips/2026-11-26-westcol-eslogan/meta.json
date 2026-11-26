@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-26-westcol-eslogan",
+    "url_fuente":  "https://www.youtube.com/watch?v=affDfigv4uo",
+    "video_id":  "affDfigv4uo",
+    "inicio":  180.69,
+    "fin":  205.7,
+    "inicio_hms":  "0:03:00",
+    "duracion_seg":  25,
+    "gancho":  "El eslogan de Westcol para el Senado",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  73,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "color":  "",
+    "resolucion":  "1080x1920",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -19.39,
+                  "entrada_tp":  -6.82,
+                  "salida_lufs":  -14.17,
+                  "salida_tp":  -1.43
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-26-westcol-eslogan/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-26-westcol-eslogan/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-26-westcol-eslogan/revision.jpg",
+    "creado":  "2026-11-26T16:05:17.4659492-05:00"
+}

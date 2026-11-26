@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-26-parenlamano-oso-gta",
+    "url_fuente":  "https://www.youtube.com/watch?v=aryvOXUsWBI",
+    "video_id":  "aryvOXUsWBI",
+    "inicio":  1203.01,
+    "fin":  1223.5,
+    "inicio_hms":  "0:20:03",
+    "duracion_seg":  20.5,
+    "gancho":  "Lo salvó de un oso en GTA VI",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  90,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "color":  "",
+    "resolucion":  "1080x1920",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -17.19,
+                  "entrada_tp":  -6.44,
+                  "salida_lufs":  -14.1,
+                  "salida_tp":  -3.27
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-26-parenlamano-oso-gta/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-26-parenlamano-oso-gta/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-26-parenlamano-oso-gta/revision.jpg",
+    "creado":  "2026-11-26T16:15:21.9116317-05:00"
+}

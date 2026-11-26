@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-26-westcol-biche",
+    "url_fuente":  "https://www.youtube.com/watch?v=affDfigv4uo",
+    "video_id":  "affDfigv4uo",
+    "inicio":  1134.69,
+    "fin":  1183.64,
+    "inicio_hms":  "0:18:54",
+    "duracion_seg":  49,
+    "gancho":  "Un senador le regala biche a Westcol",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  135,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "color":  "",
+    "resolucion":  "1080x1920",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -18.27,
+                  "entrada_tp":  -5.73,
+                  "salida_lufs":  -13.99,
+                  "salida_tp":  -1.46
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-26-westcol-biche/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-26-westcol-biche/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-26-westcol-biche/revision.jpg",
+    "creado":  "2026-11-26T16:10:16.7787586-05:00"
+}

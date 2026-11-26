@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-26-cotorrisa-motel-perra",
+    "url_fuente":  "https://www.youtube.com/watch?v=hI4MD3IoPDQ",
+    "video_id":  "hI4MD3IoPDQ",
+    "inicio":  1292.15,
+    "fin":  1366.39,
+    "inicio_hms":  "0:21:32",
+    "duracion_seg":  74.3,
+    "gancho":  "Óscar Burgos llegó al motel con su esposa",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  218,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "color":  "",
+    "resolucion":  "1080x1920",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -16.23,
+                  "entrada_tp":  -3.5,
+                  "salida_lufs":  -14.11,
+                  "salida_tp":  -1.27
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-26-cotorrisa-motel-perra/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-26-cotorrisa-motel-perra/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-26-cotorrisa-motel-perra/revision.jpg",
+    "creado":  "2026-11-26T16:21:40.1690791-05:00"
+}

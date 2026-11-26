@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-26-westcol-familias-accion",
+    "url_fuente":  "https://www.youtube.com/watch?v=affDfigv4uo",
+    "video_id":  "affDfigv4uo",
+    "inicio":  3613.05,
+    "fin":  3667.6,
+    "inicio_hms":  "1:00:13",
+    "duracion_seg":  54.6,
+    "gancho":  "Westcol: Familias en Acción me salvó del hambre",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  161,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "color":  "",
+    "resolucion":  "1080x1920",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -16.59,
+                  "entrada_tp":  -4.1,
+                  "salida_lufs":  -14.52,
+                  "salida_tp":  -1.51
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-26-westcol-familias-accion/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-26-westcol-familias-accion/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-26-westcol-familias-accion/revision.jpg",
+    "creado":  "2026-11-26T16:02:09.0320066-05:00"
+}

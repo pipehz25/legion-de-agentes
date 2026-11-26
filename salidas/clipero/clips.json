@@ -1,7 +1,203 @@
 {
-    "generado":  "2026-11-25T19:41:00-05:00",
-    "ciclo":  24,
+    "generado":  "2026-11-26T16:27:05-05:00",
+    "ciclo":  25,
     "clips":  [
+                  {
+                      "id":  "2026-11-26-westcol-cinco-anitos",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  81,
+                      "gancho":  "Westcol quiere ser senador: le faltan cinco años",
+                      "archivo":  "salidas/clipero/clips/2026-11-26-westcol-cinco-anitos/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-26-westcol-cinco-anitos/ficha.md",
+                      "duracion_seg":  57.8,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=affDfigv4uo",
+                                     "canal":  "WestCOL",
+                                     "inicio":  29.81,
+                                     "fin":  87.66
+                                 },
+                      "oportunidad_cazador":  "tema-westcol-senador-por-un-dia",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-28"
+                  },
+                  {
+                      "id":  "2026-11-26-cotorrisa-motel-perra",
+                      "estado":  "listo",
+                      "tipo":  "historia",
+                      "puntaje":  79,
+                      "gancho":  "Óscar Burgos llegó al motel con su esposa",
+                      "archivo":  "salidas/clipero/clips/2026-11-26-cotorrisa-motel-perra/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-26-cotorrisa-motel-perra/ficha.md",
+                      "duracion_seg":  74.3,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=hI4MD3IoPDQ",
+                                     "canal":  "Slobotzky (La Cotorrisa)",
+                                     "inicio":  1292.15,
+                                     "fin":  1366.39
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-28"
+                  },
+                  {
+                      "id":  "2026-11-26-westcol-familias-accion",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  76,
+                      "gancho":  "Westcol: Familias en Acción me salvó del hambre",
+                      "archivo":  "salidas/clipero/clips/2026-11-26-westcol-familias-accion/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-26-westcol-familias-accion/ficha.md",
+                      "duracion_seg":  54.6,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=affDfigv4uo",
+                                     "canal":  "WestCOL",
+                                     "inicio":  3613.05,
+                                     "fin":  3667.6
+                                 },
+                      "oportunidad_cazador":  "tema-westcol-senador-por-un-dia",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-28"
+                  },
+                  {
+                      "id":  "2026-11-26-westcol-eslogan",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  73,
+                      "gancho":  "El eslogan de Westcol para el Senado",
+                      "archivo":  "salidas/clipero/clips/2026-11-26-westcol-eslogan/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-26-westcol-eslogan/ficha.md",
+                      "duracion_seg":  25.0,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=affDfigv4uo",
+                                     "canal":  "WestCOL",
+                                     "inicio":  180.69,
+                                     "fin":  205.7
+                                 },
+                      "oportunidad_cazador":  "tema-westcol-senador-por-un-dia",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  3,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-28"
+                  },
+                  {
+                      "id":  "2026-11-26-cotorrisa-orangutan-palomitas",
+                      "estado":  "listo",
+                      "tipo":  "historia",
+                      "puntaje":  73,
+                      "gancho":  "El orangután le pidió las palomitas al entrenador",
+                      "archivo":  "salidas/clipero/clips/2026-11-26-cotorrisa-orangutan-palomitas/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-26-cotorrisa-orangutan-palomitas/ficha.md",
+                      "duracion_seg":  42.1,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=hI4MD3IoPDQ",
+                                     "canal":  "Slobotzky (La Cotorrisa)",
+                                     "inicio":  5937.91,
+                                     "fin":  5980.0
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-28"
+                  },
+                  {
+                      "id":  "2026-11-26-parenlamano-oso-gta",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  72,
+                      "gancho":  "Lo salvó de un oso en GTA VI",
+                      "archivo":  "salidas/clipero/clips/2026-11-26-parenlamano-oso-gta/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-26-parenlamano-oso-gta/ficha.md",
+                      "duracion_seg":  20.5,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=aryvOXUsWBI",
+                                     "canal":  "Vorterix (Paren la Mano)",
+                                     "inicio":  1203.01,
+                                     "fin":  1223.5
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-28"
+                  },
+                  {
+                      "id":  "2026-11-26-westcol-biche",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  68,
+                      "gancho":  "Un senador le regala biche a Westcol",
+                      "archivo":  "salidas/clipero/clips/2026-11-26-westcol-biche/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-26-westcol-biche/ficha.md",
+                      "duracion_seg":  49.0,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=affDfigv4uo",
+                                     "canal":  "WestCOL",
+                                     "inicio":  1134.69,
+                                     "fin":  1183.64
+                                 },
+                      "oportunidad_cazador":  "tema-westcol-senador-por-un-dia",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  4,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-28"
+                  },
                   {
                       "id":  "2026-11-25-culpa-contrasena",
                       "estado":  "listo",

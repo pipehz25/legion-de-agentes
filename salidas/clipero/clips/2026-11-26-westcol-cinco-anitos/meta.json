@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-26-westcol-cinco-anitos",
+    "url_fuente":  "https://www.youtube.com/watch?v=affDfigv4uo",
+    "video_id":  "affDfigv4uo",
+    "inicio":  29.81,
+    "fin":  87.66,
+    "inicio_hms":  "0:00:29",
+    "duracion_seg":  57.8,
+    "gancho":  "Westcol quiere ser senador: le faltan cinco años",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  184,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "color":  "",
+    "resolucion":  "1080x1920",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -20,
+                  "entrada_tp":  -7.29,
+                  "salida_lufs":  -13.84,
+                  "salida_tp":  -1.29
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-26-westcol-cinco-anitos/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-26-westcol-cinco-anitos/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-26-westcol-cinco-anitos/revision.jpg",
+    "creado":  "2026-11-26T15:56:31.6658711-05:00"
+}

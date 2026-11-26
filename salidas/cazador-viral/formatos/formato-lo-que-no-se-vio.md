@@ -1,6 +1,11 @@
 # Lo que no se vio (el día después, contado por el protagonista)
 
-> **Estado (25-nov, 00:30, ciclo 22): vigente hasta el 26-nov, con puntaje 80 (81 en el ciclo 21).** Lo nuevo:
+> **Estado (26-nov, 15:30, ciclo 23): vigente hasta el 29-nov, con puntaje 78 (80 en el ciclo 22).** Lo nuevo:
+> - **El resumen del protagonista, tres días después, todavía rinde:** ['¿QUE PASO ANTIER? MEJORES MOMENTOS DE LAS 72 HORAS'](https://www.youtube.com/watch?v=QHCqem0oJY4) (Samulx), 1,41 veces su mediana a las 24,5 h. The Chanty vuelve a reaccionar a los clips ([Westcol en el Senado y La Ganga](https://www.youtube.com/watch?v=i_9ErTwig3Q), 1,4 veces; el título del Cartier engaña).
+> - **Próxima aplicación: el día después de Westcol en el Capitolio** (25-nov; `tema-westcol-senador-por-un-dia`). Si el 26 o el 27-nov cuenta qué le pasó fuera de cámara ("lo que no se vio del Senado"), es la pieza. Gancho sin política: "Lo que no salió del Senado".
+> - **Variante GTA VI:** el recap diario de la partida de un streamer es otra forma de "lo que te perdiste" (ficha [formato-dia-n-del-streamer-en-gta](formato-dia-n-del-streamer-en-gta.md)).
+>
+> **Estado anterior (25-nov, 00:30, ciclo 22): vigente hasta el 26-nov, con puntaje 80 (81 en el ciclo 21).** Lo nuevo:
 > - **Variante nueva: el protagonista viéndose en los clips.** ['REACCIONANDO A LOS CLIPS DE LA GANGA EN GUATAPÉ'](https://www.youtube.com/watch?v=9cshF4iOHW0) (The Chanty) llega a 6,2 veces su mediana por hora a las 10,5 h y sigue a 2,8 veces a las 34 h.
 >   - Gancho: él riéndose de la caída de Leandro (0:00-0:40). Remate: "110 horas en 4 días y medio… no he disfrutado mi vida" (6:00-7:30).
 >   - El resumen de terceros con los mismos momentos se queda en 359/h ([basuquito](https://www.youtube.com/watch?v=N7fZGy7f26U)): gana la cara del protagonista.

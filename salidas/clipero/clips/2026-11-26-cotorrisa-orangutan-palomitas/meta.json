@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-26-cotorrisa-orangutan-palomitas",
+    "url_fuente":  "https://www.youtube.com/watch?v=hI4MD3IoPDQ",
+    "video_id":  "hI4MD3IoPDQ",
+    "inicio":  5937.91,
+    "fin":  5980,
+    "inicio_hms":  "1:38:57",
+    "duracion_seg":  42.1,
+    "gancho":  "El orangután le pidió las palomitas al entrenador",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  140,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "color":  "",
+    "resolucion":  "1080x1920",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -14.47,
+                  "entrada_tp":  -1.58,
+                  "salida_lufs":  -14.22,
+                  "salida_tp":  -1.11
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-26-cotorrisa-orangutan-palomitas/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-26-cotorrisa-orangutan-palomitas/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-26-cotorrisa-orangutan-palomitas/revision.jpg",
+    "creado":  "2026-11-26T16:24:49.8750447-05:00"
+}
