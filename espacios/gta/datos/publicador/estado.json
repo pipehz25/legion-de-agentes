@@ -1,6 +1,6 @@
 {
-    "actualizado":  "2026-11-25T00:16:26-05:00",
-    "ciclo":  6,
+    "actualizado":  "2026-11-25T22:11:22-05:00",
+    "ciclo":  7,
     "ultimo_ciclo_clipero":  7,
     "entradas":  [
                      {
@@ -1103,10 +1103,10 @@
                                                },
                          "id_publicacion":  "lxsWvwnMuGM",
                          "url":  "https://www.youtube.com/shorts/lxsWvwnMuGM",
-                         "privacidad":  "private",
+                         "privacidad":  "public",
                          "publicado":  "2026-11-23T10:59:48-05:00",
                          "programado":  "2026-11-25T13:00:00-05:00",
-                         "motivo":  "Aprobado por el usuario en el chat el 2026-11-23, transmitido por el orquestador: Santiago vio la lista de los 15 clips con sus fechas y escribio \"empieza a subirlos por favor ya\". Aprobado para YouTube con la cuenta y la hora programada que dio el usuario; se le aviso de las groserias de NPC y de que las frases citadas salen de whisper, y aprobo igual. Tope de 5 al dia por canal contado por dia de publicacion. Ciclo 4 (2026-11-23T10:59:48-05:00): subido al intento 1, private con publishAt en 2026-11-25T13:00:00-05:00. Comprobado a las 11:03: processed, privado con publishAt 2026-11-25T18:00:00Z."
+                         "motivo":  "Aprobado por el usuario en el chat el 2026-11-23, transmitido por el orquestador: Santiago vio la lista de los 15 clips con sus fechas y escribio \"empieza a subirlos por favor ya\". Aprobado para YouTube con la cuenta y la hora programada que dio el usuario; se le aviso de las groserias de NPC y de que las frases citadas salen de whisper, y aprobo igual. Tope de 5 al dia por canal contado por dia de publicacion. Ciclo 4 (2026-11-23T10:59:48-05:00): subido al intento 1, private con publishAt en 2026-11-25T13:00:00-05:00. Comprobado a las 11:03: processed, privado con publishAt 2026-11-25T18:00:00Z. Ciclo 7 (2026-11-25T22:11:22-05:00): ya salio; videos lo muestra public."
                      },
                      {
                          "clip":  "2026-11-23-gta6-van-hiding-spot",
@@ -1132,10 +1132,10 @@
                                                },
                          "id_publicacion":  "olAoHppl2hk",
                          "url":  "https://www.youtube.com/shorts/olAoHppl2hk",
-                         "privacidad":  "private",
+                         "privacidad":  "public",
                          "publicado":  "2026-11-23T11:00:11-05:00",
                          "programado":  "2026-11-25T19:00:00-05:00",
-                         "motivo":  "Aprobado por el usuario en el chat el 2026-11-23, transmitido por el orquestador: Santiago vio la lista de los 15 clips con sus fechas y escribio \"empieza a subirlos por favor ya\". Aprobado para YouTube con la cuenta y la hora programada que dio el usuario; se le aviso de las groserias de NPC y de que las frases citadas salen de whisper, y aprobo igual. Tope de 5 al dia por canal contado por dia de publicacion. Ciclo 4 (2026-11-23T11:00:11-05:00): subido al intento 1, private con publishAt en 2026-11-25T19:00:00-05:00. Comprobado a las 11:03: processed, privado con publishAt 2026-11-26T00:00:00Z."
+                         "motivo":  "Aprobado por el usuario en el chat el 2026-11-23, transmitido por el orquestador: Santiago vio la lista de los 15 clips con sus fechas y escribio \"empieza a subirlos por favor ya\". Aprobado para YouTube con la cuenta y la hora programada que dio el usuario; se le aviso de las groserias de NPC y de que las frases citadas salen de whisper, y aprobo igual. Tope de 5 al dia por canal contado por dia de publicacion. Ciclo 4 (2026-11-23T11:00:11-05:00): subido al intento 1, private con publishAt en 2026-11-25T19:00:00-05:00. Comprobado a las 11:03: processed, privado con publishAt 2026-11-26T00:00:00Z. Ciclo 7 (2026-11-25T22:11:22-05:00): ya salio; videos lo muestra public."
                      },
                      {
                          "clip":  "2026-11-23-gta6-lucia-vs-six",
@@ -1161,10 +1161,10 @@
                                                },
                          "id_publicacion":  "4ZSihYviktA",
                          "url":  "https://www.youtube.com/shorts/4ZSihYviktA",
-                         "privacidad":  "private",
+                         "privacidad":  "public",
                          "publicado":  "2026-11-24T11:25:18-05:00",
                          "programado":  "2026-11-25T09:00:00-05:00",
-                         "motivo":  "Aprobado por el usuario en el chat el 2026-11-23, transmitido por el orquestador: Santiago vio la lista de los 15 clips con sus fechas y escribio \"empieza a subirlos por favor ya\". Aprobado para YouTube con la cuenta y la hora programada que dio el usuario; se le aviso de las groserias de NPC y de que las frases citadas salen de whisper, y aprobo igual. Tope de 5 al dia por canal contado por dia de publicacion. Por decision del usuario se sube manana 2026-11-24 por la manana, no hoy: gta-us ya llevaba unas 7 subidas hoy y el canal admite unas 10 al dia. Ciclo 5 (2026-11-24T11:25:18-05:00): subido al intento 1 desde la copia de GTA, private con publishAt 2026-11-25T14:00:00Z (= 2026-11-25T09:00:00-05:00). Comprobado con comprobar y videos a las 11:29: processed, privado, con su publishAt."
+                         "motivo":  "Aprobado por el usuario en el chat el 2026-11-23, transmitido por el orquestador: Santiago vio la lista de los 15 clips con sus fechas y escribio \"empieza a subirlos por favor ya\". Aprobado para YouTube con la cuenta y la hora programada que dio el usuario; se le aviso de las groserias de NPC y de que las frases citadas salen de whisper, y aprobo igual. Tope de 5 al dia por canal contado por dia de publicacion. Por decision del usuario se sube manana 2026-11-24 por la manana, no hoy: gta-us ya llevaba unas 7 subidas hoy y el canal admite unas 10 al dia. Ciclo 5 (2026-11-24T11:25:18-05:00): subido al intento 1 desde la copia de GTA, private con publishAt 2026-11-25T14:00:00Z (= 2026-11-25T09:00:00-05:00). Comprobado con comprobar y videos a las 11:29: processed, privado, con su publishAt. Ciclo 7 (2026-11-25T22:11:22-05:00): ya salio; videos lo muestra public."
                      },
                      {
                          "clip":  "2026-11-23-gta6-bridge-traffic-carjack",
@@ -1190,10 +1190,10 @@
                                                },
                          "id_publicacion":  "oAm6jwHYno4",
                          "url":  "https://www.youtube.com/shorts/oAm6jwHYno4",
-                         "privacidad":  "private",
+                         "privacidad":  "public",
                          "publicado":  "2026-11-24T11:25:48-05:00",
                          "programado":  "2026-11-25T12:00:00-05:00",
-                         "motivo":  "Aprobado por el usuario en el chat el 2026-11-23, transmitido por el orquestador: Santiago vio la lista de los 15 clips con sus fechas y escribio \"empieza a subirlos por favor ya\". Aprobado para YouTube con la cuenta y la hora programada que dio el usuario; se le aviso de las groserias de NPC y de que las frases citadas salen de whisper, y aprobo igual. Tope de 5 al dia por canal contado por dia de publicacion. Por decision del usuario se sube manana 2026-11-24 por la manana, no hoy: gta-us ya llevaba unas 7 subidas hoy y el canal admite unas 10 al dia. Ciclo 5 (2026-11-24T11:25:48-05:00): subido al intento 1 desde la copia de GTA, private con publishAt 2026-11-25T17:00:00Z (= 2026-11-25T12:00:00-05:00). Comprobado con comprobar y videos a las 11:29: processed, privado, con su publishAt."
+                         "motivo":  "Aprobado por el usuario en el chat el 2026-11-23, transmitido por el orquestador: Santiago vio la lista de los 15 clips con sus fechas y escribio \"empieza a subirlos por favor ya\". Aprobado para YouTube con la cuenta y la hora programada que dio el usuario; se le aviso de las groserias de NPC y de que las frases citadas salen de whisper, y aprobo igual. Tope de 5 al dia por canal contado por dia de publicacion. Por decision del usuario se sube manana 2026-11-24 por la manana, no hoy: gta-us ya llevaba unas 7 subidas hoy y el canal admite unas 10 al dia. Ciclo 5 (2026-11-24T11:25:48-05:00): subido al intento 1 desde la copia de GTA, private con publishAt 2026-11-25T17:00:00Z (= 2026-11-25T12:00:00-05:00). Comprobado con comprobar y videos a las 11:29: processed, privado, con su publishAt. Ciclo 7 (2026-11-25T22:11:22-05:00): ya salio; videos lo muestra public."
                      },
                      {
                          "clip":  "2026-11-23-gta6-crosswalk-not-interested",
@@ -1219,10 +1219,10 @@
                                                },
                          "id_publicacion":  "dT9Yf8GVp0Y",
                          "url":  "https://www.youtube.com/shorts/dT9Yf8GVp0Y",
-                         "privacidad":  "private",
+                         "privacidad":  "public",
                          "publicado":  "2026-11-24T11:26:14-05:00",
                          "programado":  "2026-11-25T15:00:00-05:00",
-                         "motivo":  "Aprobado por el usuario en el chat el 2026-11-23, transmitido por el orquestador: Santiago vio la lista de los 15 clips con sus fechas y escribio \"empieza a subirlos por favor ya\". Aprobado para YouTube con la cuenta y la hora programada que dio el usuario; se le aviso de las groserias de NPC y de que las frases citadas salen de whisper, y aprobo igual. Tope de 5 al dia por canal contado por dia de publicacion. Por decision del usuario se sube manana 2026-11-24 por la manana, no hoy: gta-us ya llevaba unas 7 subidas hoy y el canal admite unas 10 al dia. Ciclo 5 (2026-11-24T11:26:14-05:00): subido al intento 1 desde la copia de GTA, private con publishAt 2026-11-25T20:00:00Z (= 2026-11-25T15:00:00-05:00). Comprobado con comprobar y videos a las 11:29: processed, privado, con su publishAt."
+                         "motivo":  "Aprobado por el usuario en el chat el 2026-11-23, transmitido por el orquestador: Santiago vio la lista de los 15 clips con sus fechas y escribio \"empieza a subirlos por favor ya\". Aprobado para YouTube con la cuenta y la hora programada que dio el usuario; se le aviso de las groserias de NPC y de que las frases citadas salen de whisper, y aprobo igual. Tope de 5 al dia por canal contado por dia de publicacion. Por decision del usuario se sube manana 2026-11-24 por la manana, no hoy: gta-us ya llevaba unas 7 subidas hoy y el canal admite unas 10 al dia. Ciclo 5 (2026-11-24T11:26:14-05:00): subido al intento 1 desde la copia de GTA, private con publishAt 2026-11-25T20:00:00Z (= 2026-11-25T15:00:00-05:00). Comprobado con comprobar y videos a las 11:29: processed, privado, con su publishAt. Ciclo 7 (2026-11-25T22:11:22-05:00): ya salio; videos lo muestra public."
                      },
                      {
                          "clip":  "2026-11-23-gta6-bmx-wrong-stranger",
@@ -1248,10 +1248,10 @@
                                                },
                          "id_publicacion":  "wTya8WHEYWw",
                          "url":  "https://www.youtube.com/shorts/wTya8WHEYWw",
-                         "privacidad":  "private",
+                         "privacidad":  "public",
                          "publicado":  "2026-11-24T11:26:40-05:00",
                          "programado":  "2026-11-25T18:00:00-05:00",
-                         "motivo":  "Aprobado por el usuario en el chat el 2026-11-23, transmitido por el orquestador: Santiago vio la lista de los 15 clips con sus fechas y escribio \"empieza a subirlos por favor ya\". Aprobado para YouTube con la cuenta y la hora programada que dio el usuario; se le aviso de las groserias de NPC y de que las frases citadas salen de whisper, y aprobo igual. Tope de 5 al dia por canal contado por dia de publicacion. Por decision del usuario se sube manana 2026-11-24 por la manana, no hoy: gta-us ya llevaba unas 7 subidas hoy y el canal admite unas 10 al dia. Ciclo 5 (2026-11-24T11:26:40-05:00): subido al intento 1 desde la copia de GTA, private con publishAt 2026-11-25T23:00:00Z (= 2026-11-25T18:00:00-05:00). Comprobado con comprobar y videos a las 11:29: processed, privado, con su publishAt."
+                         "motivo":  "Aprobado por el usuario en el chat el 2026-11-23, transmitido por el orquestador: Santiago vio la lista de los 15 clips con sus fechas y escribio \"empieza a subirlos por favor ya\". Aprobado para YouTube con la cuenta y la hora programada que dio el usuario; se le aviso de las groserias de NPC y de que las frases citadas salen de whisper, y aprobo igual. Tope de 5 al dia por canal contado por dia de publicacion. Por decision del usuario se sube manana 2026-11-24 por la manana, no hoy: gta-us ya llevaba unas 7 subidas hoy y el canal admite unas 10 al dia. Ciclo 5 (2026-11-24T11:26:40-05:00): subido al intento 1 desde la copia de GTA, private con publishAt 2026-11-25T23:00:00Z (= 2026-11-25T18:00:00-05:00). Comprobado con comprobar y videos a las 11:29: processed, privado, con su publishAt. Ciclo 7 (2026-11-25T22:11:22-05:00): ya salio; videos lo muestra public."
                      },
                      {
                          "clip":  "2026-11-21-gta6-beach-camp-afterparty",
@@ -1277,10 +1277,10 @@
                                                },
                          "id_publicacion":  "_RbPvLj3GDc",
                          "url":  "https://www.youtube.com/shorts/_RbPvLj3GDc",
-                         "privacidad":  "private",
+                         "privacidad":  "public",
                          "publicado":  "2026-11-24T11:27:02-05:00",
                          "programado":  "2026-11-25T21:00:00-05:00",
-                         "motivo":  "Aprobado por el usuario en el chat el 2026-11-23, transmitido por el orquestador: Santiago vio la lista de los 15 clips con sus fechas y escribio \"empieza a subirlos por favor ya\". Aprobado para YouTube con la cuenta y la hora programada que dio el usuario; se le aviso de las groserias de NPC y de que las frases citadas salen de whisper, y aprobo igual. Tope de 5 al dia por canal contado por dia de publicacion. Por decision del usuario se sube manana 2026-11-24 por la manana, no hoy: gta-us ya llevaba unas 7 subidas hoy y el canal admite unas 10 al dia. Ciclo 5 (2026-11-24T11:27:02-05:00): subido al intento 1 desde la copia de GTA, private con publishAt 2026-11-26T02:00:00Z (= 2026-11-25T21:00:00-05:00). Comprobado con comprobar y videos a las 11:29: processed, privado, con su publishAt."
+                         "motivo":  "Aprobado por el usuario en el chat el 2026-11-23, transmitido por el orquestador: Santiago vio la lista de los 15 clips con sus fechas y escribio \"empieza a subirlos por favor ya\". Aprobado para YouTube con la cuenta y la hora programada que dio el usuario; se le aviso de las groserias de NPC y de que las frases citadas salen de whisper, y aprobo igual. Tope de 5 al dia por canal contado por dia de publicacion. Por decision del usuario se sube manana 2026-11-24 por la manana, no hoy: gta-us ya llevaba unas 7 subidas hoy y el canal admite unas 10 al dia. Ciclo 5 (2026-11-24T11:27:02-05:00): subido al intento 1 desde la copia de GTA, private con publishAt 2026-11-26T02:00:00Z (= 2026-11-25T21:00:00-05:00). Comprobado con comprobar y videos a las 11:29: processed, privado, con su publishAt. Ciclo 7 (2026-11-25T22:11:22-05:00): ya salio; videos lo muestra public."
                      },
                      {
                          "clip":  "2026-11-23-gta6-two-on-one",
@@ -1317,28 +1317,28 @@
                          "cuenta":  "gta-us",
                          "pieza":  "2026-11-24-gta6-provoke-brawl",
                          "gancho":  "POV: GTA 6 lets you pick Provoke",
-                         "estado":  "pendiente_aprobacion",
+                         "estado":  "publicado",
                          "envio":  "espacios/gta/datos/publicador/envios/2026-11-24-gta6-provoke-brawl__youtube.json",
                          "puntaje":  85,
                          "derechos":  "autorizado",
                          "ventana_hasta":  "2026-12-01",
                          "creado":  "2026-11-24T11:32:08-05:00",
-                         "aprobado":  null,
-                         "intentos":  0,
+                         "aprobado":  "2026-11-25T22:02:53-05:00",
+                         "intentos":  1,
                          "ultima_simulacion":  {
-                                                   "fecha":  "2026-11-24T11:32:08-05:00",
+                                                   "fecha":  "2026-11-25T22:03:09-05:00",
                                                    "ok":  true,
                                                    "avisos":  [
 
                                                               ],
                                                    "error":  null
                                                },
-                         "id_publicacion":  null,
-                         "url":  null,
-                         "privacidad":  null,
-                         "publicado":  null,
-                         "programado":  "2026-11-26T18:00:00-05:00",
-                         "motivo":  "Ciclo 6 del Clipero, preparado en el ciclo 5 del Publicador. Hora propuesta por el Publicador (programado del envio), no por el usuario: si aprueba sin decir otra, sale a esa hora. Solo YouTube: TikTok, Instagram y Facebook tienen todas sus cuentas de este espacio apagadas. Ciclo 6 (2026-11-25 00:15): hora propuesta sin cambios (falta mas de 1 h)."
+                         "id_publicacion":  "2b9schMYgto",
+                         "url":  "https://www.youtube.com/shorts/2b9schMYgto",
+                         "privacidad":  "private",
+                         "publicado":  "2026-11-25T22:08:46-05:00",
+                         "programado":  "2026-11-28T09:00:00-05:00",
+                         "motivo":  "Ciclo 6 del Clipero, preparado en el ciclo 5 del Publicador. Hora propuesta por el Publicador (programado del envio), no por el usuario: si aprueba sin decir otra, sale a esa hora. Solo YouTube: TikTok, Instagram y Facebook tienen todas sus cuentas de este espacio apagadas. Ciclo 6 (2026-11-25 00:15): hora propuesta sin cambios (falta mas de 1 h). Ciclo 7 (2026-11-25T22:02:53-05:00): aprobado por el usuario en el chat el 2026-11-25, transmitido por el orquestador: Santiago vio la lista de los 17 clips pendientes (todos los de los ciclos 6 y 7 menos cop-car-highway), se le ofrecio subirlos a 3 por canal y dia y respondio \u0027subelos\u0027. Aprobado solo para YouTube, con la cuenta del envio y la hora que dio el usuario (sustituye la propuesta), 2026-11-28T09:00:00-05:00. Se bajo a 3 por canal y dia porque los Shorts del 23 y 24-nov tienen de 0 a 5 vistas. Intercambiado con beach-gator (pedido: 27-nov 15:00) para no juntar el 28-nov en gta-us dos clips de TNGvT17c8Qg. Subido al intento 1 desde la copia de GTA (2026-11-25T22:08:46-05:00), private con publishAt 2026-11-28T14:00:00Z (= 2026-11-28T09:00:00-05:00); simulacion valida a las 2026-11-25T22:03:09-05:00. Comprobado con comprobar y videos a las 22:10: processed, privado, con su publishAt."
                      },
                      {
                          "clip":  "2026-11-24-gta6-excavator-heist",
@@ -1346,28 +1346,28 @@
                          "cuenta":  "gta-us",
                          "pieza":  "2026-11-24-gta6-excavator-heist",
                          "gancho":  "Leonida Fails #8: he stole the excavator",
-                         "estado":  "pendiente_aprobacion",
+                         "estado":  "publicado",
                          "envio":  "espacios/gta/datos/publicador/envios/2026-11-24-gta6-excavator-heist__youtube.json",
                          "puntaje":  82,
                          "derechos":  "autorizado",
                          "ventana_hasta":  "2026-12-01",
                          "creado":  "2026-11-24T11:32:08-05:00",
-                         "aprobado":  null,
-                         "intentos":  0,
+                         "aprobado":  "2026-11-25T22:02:53-05:00",
+                         "intentos":  1,
                          "ultima_simulacion":  {
-                                                   "fecha":  "2026-11-24T11:32:08-05:00",
+                                                   "fecha":  "2026-11-25T22:03:05-05:00",
                                                    "ok":  true,
                                                    "avisos":  [
 
                                                               ],
                                                    "error":  null
                                                },
-                         "id_publicacion":  null,
-                         "url":  null,
-                         "privacidad":  null,
-                         "publicado":  null,
-                         "programado":  "2026-11-26T12:00:00-05:00",
-                         "motivo":  "Ciclo 6 del Clipero, preparado en el ciclo 5 del Publicador. Hora propuesta por el Publicador (programado del envio), no por el usuario: si aprueba sin decir otra, sale a esa hora. Solo YouTube: TikTok, Instagram y Facebook tienen todas sus cuentas de este espacio apagadas. Ciclo 6 (2026-11-25 00:15): hora propuesta sin cambios (falta mas de 1 h)."
+                         "id_publicacion":  "562fU8taYHU",
+                         "url":  "https://www.youtube.com/shorts/562fU8taYHU",
+                         "privacidad":  "private",
+                         "publicado":  "2026-11-25T22:06:48-05:00",
+                         "programado":  "2026-11-27T09:00:00-05:00",
+                         "motivo":  "Ciclo 6 del Clipero, preparado en el ciclo 5 del Publicador. Hora propuesta por el Publicador (programado del envio), no por el usuario: si aprueba sin decir otra, sale a esa hora. Solo YouTube: TikTok, Instagram y Facebook tienen todas sus cuentas de este espacio apagadas. Ciclo 6 (2026-11-25 00:15): hora propuesta sin cambios (falta mas de 1 h). Ciclo 7 (2026-11-25T22:02:53-05:00): aprobado por el usuario en el chat el 2026-11-25, transmitido por el orquestador: Santiago vio la lista de los 17 clips pendientes (todos los de los ciclos 6 y 7 menos cop-car-highway), se le ofrecio subirlos a 3 por canal y dia y respondio \u0027subelos\u0027. Aprobado solo para YouTube, con la cuenta del envio y la hora que dio el usuario (sustituye la propuesta), 2026-11-27T09:00:00-05:00. Se bajo a 3 por canal y dia porque los Shorts del 23 y 24-nov tienen de 0 a 5 vistas. Subido al intento 1 desde la copia de GTA (2026-11-25T22:06:48-05:00), private con publishAt 2026-11-27T14:00:00Z (= 2026-11-27T09:00:00-05:00); simulacion valida a las 2026-11-25T22:03:05-05:00. Comprobado con comprobar y videos a las 22:10: processed, privado, con su publishAt."
                      },
                      {
                          "clip":  "2026-11-24-gta6-gasoline-truck-bed",
@@ -1375,28 +1375,28 @@
                          "cuenta":  "gta-us",
                          "pieza":  "2026-11-24-gta6-gasoline-truck-bed",
                          "gancho":  "POV: he fills his truck bed with gasoline",
-                         "estado":  "pendiente_aprobacion",
+                         "estado":  "publicado",
                          "envio":  "espacios/gta/datos/publicador/envios/2026-11-24-gta6-gasoline-truck-bed__youtube.json",
                          "puntaje":  77,
                          "derechos":  "autorizado",
                          "ventana_hasta":  "2026-12-01",
                          "creado":  "2026-11-24T11:32:08-05:00",
-                         "aprobado":  null,
-                         "intentos":  0,
+                         "aprobado":  "2026-11-25T22:02:53-05:00",
+                         "intentos":  1,
                          "ultima_simulacion":  {
-                                                   "fecha":  "2026-11-24T11:32:08-05:00",
+                                                   "fecha":  "2026-11-25T22:03:03-05:00",
                                                    "ok":  true,
                                                    "avisos":  [
 
                                                               ],
                                                    "error":  null
                                                },
-                         "id_publicacion":  null,
-                         "url":  null,
-                         "privacidad":  null,
-                         "publicado":  null,
-                         "programado":  "2026-11-26T15:00:00-05:00",
-                         "motivo":  "Ciclo 6 del Clipero, preparado en el ciclo 5 del Publicador. Hora propuesta por el Publicador (programado del envio), no por el usuario: si aprueba sin decir otra, sale a esa hora. Solo YouTube: TikTok, Instagram y Facebook tienen todas sus cuentas de este espacio apagadas. Ciclo 6 (2026-11-25 00:15): hora propuesta sin cambios (falta mas de 1 h)."
+                         "id_publicacion":  "h0vwDpIHY9g",
+                         "url":  "https://www.youtube.com/shorts/h0vwDpIHY9g",
+                         "privacidad":  "private",
+                         "publicado":  "2026-11-25T22:06:18-05:00",
+                         "programado":  "2026-11-26T21:00:00-05:00",
+                         "motivo":  "Ciclo 6 del Clipero, preparado en el ciclo 5 del Publicador. Hora propuesta por el Publicador (programado del envio), no por el usuario: si aprueba sin decir otra, sale a esa hora. Solo YouTube: TikTok, Instagram y Facebook tienen todas sus cuentas de este espacio apagadas. Ciclo 6 (2026-11-25 00:15): hora propuesta sin cambios (falta mas de 1 h). Ciclo 7 (2026-11-25T22:02:53-05:00): aprobado por el usuario en el chat el 2026-11-25, transmitido por el orquestador: Santiago vio la lista de los 17 clips pendientes (todos los de los ciclos 6 y 7 menos cop-car-highway), se le ofrecio subirlos a 3 por canal y dia y respondio \u0027subelos\u0027. Aprobado solo para YouTube, con la cuenta del envio y la hora que dio el usuario (sustituye la propuesta), 2026-11-26T21:00:00-05:00. Se bajo a 3 por canal y dia porque los Shorts del 23 y 24-nov tienen de 0 a 5 vistas. Subido al intento 1 desde la copia de GTA (2026-11-25T22:06:18-05:00), private con publishAt 2026-11-27T02:00:00Z (= 2026-11-26T21:00:00-05:00); simulacion valida a las 2026-11-25T22:03:03-05:00. Comprobado con comprobar y videos a las 22:10: processed, privado, con su publishAt."
                      },
                      {
                          "clip":  "2026-11-24-gta6-barrier-faceplant",
@@ -1404,28 +1404,28 @@
                          "cuenta":  "gta-us",
                          "pieza":  "2026-11-24-gta6-barrier-faceplant",
                          "gancho":  "Leonida Fails #7: the highway barrier won",
-                         "estado":  "pendiente_aprobacion",
+                         "estado":  "publicado",
                          "envio":  "espacios/gta/datos/publicador/envios/2026-11-24-gta6-barrier-faceplant__youtube.json",
                          "puntaje":  81,
                          "derechos":  "autorizado",
                          "ventana_hasta":  "2026-12-01",
                          "creado":  "2026-11-24T11:32:08-05:00",
-                         "aprobado":  null,
-                         "intentos":  0,
+                         "aprobado":  "2026-11-25T22:02:53-05:00",
+                         "intentos":  1,
                          "ultima_simulacion":  {
-                                                   "fecha":  "2026-11-24T11:32:08-05:00",
+                                                   "fecha":  "2026-11-25T22:03:02-05:00",
                                                    "ok":  true,
                                                    "avisos":  [
 
                                                               ],
                                                    "error":  null
                                                },
-                         "id_publicacion":  null,
-                         "url":  null,
-                         "privacidad":  null,
-                         "publicado":  null,
-                         "programado":  "2026-11-27T09:00:00-05:00",
-                         "motivo":  "Ciclo 6 del Clipero, preparado en el ciclo 5 del Publicador. Hora propuesta por el Publicador (programado del envio), no por el usuario: si aprueba sin decir otra, sale a esa hora. Solo YouTube: TikTok, Instagram y Facebook tienen todas sus cuentas de este espacio apagadas. Ciclo 6 (2026-11-25 00:15): hora propuesta sin cambios (falta mas de 1 h)."
+                         "id_publicacion":  "j2Ne6hD4ypU",
+                         "url":  "https://www.youtube.com/shorts/j2Ne6hD4ypU",
+                         "privacidad":  "private",
+                         "publicado":  "2026-11-25T22:04:44-05:00",
+                         "programado":  "2026-11-26T15:00:00-05:00",
+                         "motivo":  "Ciclo 6 del Clipero, preparado en el ciclo 5 del Publicador. Hora propuesta por el Publicador (programado del envio), no por el usuario: si aprueba sin decir otra, sale a esa hora. Solo YouTube: TikTok, Instagram y Facebook tienen todas sus cuentas de este espacio apagadas. Ciclo 6 (2026-11-25 00:15): hora propuesta sin cambios (falta mas de 1 h). Ciclo 7 (2026-11-25T22:02:53-05:00): aprobado por el usuario en el chat el 2026-11-25, transmitido por el orquestador: Santiago vio la lista de los 17 clips pendientes (todos los de los ciclos 6 y 7 menos cop-car-highway), se le ofrecio subirlos a 3 por canal y dia y respondio \u0027subelos\u0027. Aprobado solo para YouTube, con la cuenta del envio y la hora que dio el usuario (sustituye la propuesta), 2026-11-26T15:00:00-05:00. Se bajo a 3 por canal y dia porque los Shorts del 23 y 24-nov tienen de 0 a 5 vistas. Subido al intento 1 desde la copia de GTA (2026-11-25T22:04:44-05:00), private con publishAt 2026-11-26T20:00:00Z (= 2026-11-26T15:00:00-05:00); simulacion valida a las 2026-11-25T22:03:02-05:00. La conexion se corto en el byte 0 de 51240691; publicar.ps1 pregunto a YouTube cuanto habia llegado y siguio en la misma sesion. Un solo video (j2Ne6hD4ypU), sin copias rotas. Comprobado con comprobar y videos a las 22:10: processed, privado, con su publishAt."
                      },
                      {
                          "clip":  "2026-11-24-gta6-sheriff-suv",
@@ -1433,28 +1433,28 @@
                          "cuenta":  "gta-chases",
                          "pieza":  "2026-11-24-gta6-sheriff-suv",
                          "gancho":  "Getaway Files #13: the sheriff\u0027s SUV",
-                         "estado":  "pendiente_aprobacion",
+                         "estado":  "publicado",
                          "envio":  "espacios/gta/datos/publicador/envios/2026-11-24-gta6-sheriff-suv__youtube.json",
                          "puntaje":  79,
                          "derechos":  "autorizado",
                          "ventana_hasta":  "2026-12-01",
                          "creado":  "2026-11-24T11:32:08-05:00",
-                         "aprobado":  null,
-                         "intentos":  0,
+                         "aprobado":  "2026-11-25T22:02:53-05:00",
+                         "intentos":  1,
                          "ultima_simulacion":  {
-                                                   "fecha":  "2026-11-24T11:33:21-05:00",
+                                                   "fecha":  "2026-11-25T22:03:07-05:00",
                                                    "ok":  true,
                                                    "avisos":  [
 
                                                               ],
                                                    "error":  null
                                                },
-                         "id_publicacion":  null,
-                         "url":  null,
-                         "privacidad":  null,
-                         "publicado":  null,
-                         "programado":  "2026-11-26T22:00:00-05:00",
-                         "motivo":  "Ciclo 6 del Clipero, preparado en el ciclo 5 del Publicador. Hora propuesta por el Publicador (programado del envio), no por el usuario: si aprueba sin decir otra, sale a esa hora. Solo YouTube: TikTok, Instagram y Facebook tienen todas sus cuentas de este espacio apagadas. Ciclo 6 (2026-11-25 00:15): hora propuesta sin cambios (falta mas de 1 h)."
+                         "id_publicacion":  "sq31OQuLfHw",
+                         "url":  "https://www.youtube.com/shorts/sq31OQuLfHw",
+                         "privacidad":  "private",
+                         "publicado":  "2026-11-25T22:07:34-05:00",
+                         "programado":  "2026-11-27T16:00:00-05:00",
+                         "motivo":  "Ciclo 6 del Clipero, preparado en el ciclo 5 del Publicador. Hora propuesta por el Publicador (programado del envio), no por el usuario: si aprueba sin decir otra, sale a esa hora. Solo YouTube: TikTok, Instagram y Facebook tienen todas sus cuentas de este espacio apagadas. Ciclo 6 (2026-11-25 00:15): hora propuesta sin cambios (falta mas de 1 h). Ciclo 7 (2026-11-25T22:02:53-05:00): aprobado por el usuario en el chat el 2026-11-25, transmitido por el orquestador: Santiago vio la lista de los 17 clips pendientes (todos los de los ciclos 6 y 7 menos cop-car-highway), se le ofrecio subirlos a 3 por canal y dia y respondio \u0027subelos\u0027. Aprobado solo para YouTube, con la cuenta del envio y la hora que dio el usuario (sustituye la propuesta), 2026-11-27T16:00:00-05:00. Se bajo a 3 por canal y dia porque los Shorts del 23 y 24-nov tienen de 0 a 5 vistas. Subido al intento 1 desde la copia de GTA (2026-11-25T22:07:34-05:00), private con publishAt 2026-11-27T21:00:00Z (= 2026-11-27T16:00:00-05:00); simulacion valida a las 2026-11-25T22:03:07-05:00. Comprobado con comprobar y videos a las 22:10: processed, privado, con su publishAt."
                      },
                      {
                          "clip":  "2026-11-24-gta6-cop-car-highway",
@@ -1491,28 +1491,28 @@
                          "cuenta":  "gta-chases",
                          "pieza":  "2026-11-24-gta6-excavator-chase",
                          "gancho":  "Getaway Files #12: the excavator getaway",
-                         "estado":  "pendiente_aprobacion",
+                         "estado":  "publicado",
                          "envio":  "espacios/gta/datos/publicador/envios/2026-11-24-gta6-excavator-chase__youtube.json",
                          "puntaje":  80,
                          "derechos":  "autorizado",
                          "ventana_hasta":  "2026-12-01",
                          "creado":  "2026-11-24T11:32:08-05:00",
-                         "aprobado":  null,
-                         "intentos":  0,
+                         "aprobado":  "2026-11-25T22:02:53-05:00",
+                         "intentos":  1,
                          "ultima_simulacion":  {
-                                                   "fecha":  "2026-11-24T11:32:08-05:00",
+                                                   "fecha":  "2026-11-25T22:03:04-05:00",
                                                    "ok":  true,
                                                    "avisos":  [
 
                                                               ],
                                                    "error":  null
                                                },
-                         "id_publicacion":  null,
-                         "url":  null,
-                         "privacidad":  null,
-                         "publicado":  null,
-                         "programado":  "2026-11-26T16:00:00-05:00",
-                         "motivo":  "Ciclo 6 del Clipero, preparado en el ciclo 5 del Publicador. Hora propuesta por el Publicador (programado del envio), no por el usuario: si aprueba sin decir otra, sale a esa hora. Solo YouTube: TikTok, Instagram y Facebook tienen todas sus cuentas de este espacio apagadas. Ciclo 6 (2026-11-25 00:15): hora propuesta sin cambios (falta mas de 1 h)."
+                         "id_publicacion":  "7SHsRGDDLWk",
+                         "url":  "https://www.youtube.com/shorts/7SHsRGDDLWk",
+                         "privacidad":  "private",
+                         "publicado":  "2026-11-25T22:06:32-05:00",
+                         "programado":  "2026-11-26T22:00:00-05:00",
+                         "motivo":  "Ciclo 6 del Clipero, preparado en el ciclo 5 del Publicador. Hora propuesta por el Publicador (programado del envio), no por el usuario: si aprueba sin decir otra, sale a esa hora. Solo YouTube: TikTok, Instagram y Facebook tienen todas sus cuentas de este espacio apagadas. Ciclo 6 (2026-11-25 00:15): hora propuesta sin cambios (falta mas de 1 h). Ciclo 7 (2026-11-25T22:02:53-05:00): aprobado por el usuario en el chat el 2026-11-25, transmitido por el orquestador: Santiago vio la lista de los 17 clips pendientes (todos los de los ciclos 6 y 7 menos cop-car-highway), se le ofrecio subirlos a 3 por canal y dia y respondio \u0027subelos\u0027. Aprobado solo para YouTube, con la cuenta del envio y la hora que dio el usuario (sustituye la propuesta), 2026-11-26T22:00:00-05:00. Se bajo a 3 por canal y dia porque los Shorts del 23 y 24-nov tienen de 0 a 5 vistas. Subido al intento 1 desde la copia de GTA (2026-11-25T22:06:32-05:00), private con publishAt 2026-11-27T03:00:00Z (= 2026-11-26T22:00:00-05:00); simulacion valida a las 2026-11-25T22:03:04-05:00. Comprobado con comprobar y videos a las 22:10: processed, privado, con su publishAt."
                      },
                      {
                          "clip":  "2026-11-24-gta6-cop-car-carjack",
@@ -1520,28 +1520,28 @@
                          "cuenta":  "gta-chases",
                          "pieza":  "2026-11-24-gta6-cop-car-carjack",
                          "gancho":  "POV: you need a ride. Cop car it is.",
-                         "estado":  "pendiente_aprobacion",
+                         "estado":  "publicado",
                          "envio":  "espacios/gta/datos/publicador/envios/2026-11-24-gta6-cop-car-carjack__youtube.json",
                          "puntaje":  78,
                          "derechos":  "autorizado",
                          "ventana_hasta":  "2026-12-01",
                          "creado":  "2026-11-24T11:32:08-05:00",
-                         "aprobado":  null,
-                         "intentos":  0,
+                         "aprobado":  "2026-11-25T22:02:53-05:00",
+                         "intentos":  1,
                          "ultima_simulacion":  {
-                                                   "fecha":  "2026-11-24T11:32:08-05:00",
+                                                   "fecha":  "2026-11-25T22:03:01-05:00",
                                                    "ok":  true,
                                                    "avisos":  [
 
                                                               ],
                                                    "error":  null
                                                },
-                         "id_publicacion":  null,
-                         "url":  null,
-                         "privacidad":  null,
-                         "publicado":  null,
-                         "programado":  "2026-11-25T10:00:00-05:00",
-                         "motivo":  "Ciclo 6 del Clipero, preparado en el ciclo 5 del Publicador. Hora propuesta por el Publicador (programado del envio), no por el usuario: si aprueba sin decir otra, sale a esa hora. Solo YouTube: TikTok, Instagram y Facebook tienen todas sus cuentas de este espacio apagadas. Ciclo 6 (2026-11-25 00:15): hora propuesta sin cambios (falta mas de 1 h)."
+                         "id_publicacion":  "KxUsy8-4bqE",
+                         "url":  "https://www.youtube.com/shorts/KxUsy8-4bqE",
+                         "privacidad":  "private",
+                         "publicado":  "2026-11-25T22:03:25-05:00",
+                         "programado":  "2026-11-25T22:30:00-05:00",
+                         "motivo":  "Ciclo 6 del Clipero, preparado en el ciclo 5 del Publicador. Hora propuesta por el Publicador (programado del envio), no por el usuario: si aprueba sin decir otra, sale a esa hora. Solo YouTube: TikTok, Instagram y Facebook tienen todas sus cuentas de este espacio apagadas. Ciclo 6 (2026-11-25 00:15): hora propuesta sin cambios (falta mas de 1 h). Ciclo 7 (2026-11-25T22:02:53-05:00): aprobado por el usuario en el chat el 2026-11-25, transmitido por el orquestador: Santiago vio la lista de los 17 clips pendientes (todos los de los ciclos 6 y 7 menos cop-car-highway), se le ofrecio subirlos a 3 por canal y dia y respondio \u0027subelos\u0027. Aprobado solo para YouTube, con la cuenta del envio y la hora que dio el usuario (sustituye la propuesta), 2026-11-25T22:30:00-05:00. Se bajo a 3 por canal y dia porque los Shorts del 23 y 24-nov tienen de 0 a 5 vistas. La hora pedida (25-nov 22:00) ya habia llegado cuando corrio el ciclo (reloj de la PC: 22:00 del 25-nov), y el script exige 10 min de margen: se movio a 22:30 del mismo dia, que sigue siendo el tercero de gta-chases ese dia. Subido al intento 1 desde la copia de GTA (2026-11-25T22:03:25-05:00), private con publishAt 2026-11-26T03:30:00Z (= 2026-11-25T22:30:00-05:00); simulacion valida a las 2026-11-25T22:03:01-05:00. Comprobado con comprobar y videos a las 22:10: processed, privado, con su publishAt."
                      },
                      {
                          "clip":  "2026-11-24-gta6-private-jet-fail",
@@ -1549,28 +1549,28 @@
                          "cuenta":  "gta-chases",
                          "pieza":  "2026-11-24-gta6-private-jet-fail",
                          "gancho":  "Getaway Files #11: the private jet plan",
-                         "estado":  "pendiente_aprobacion",
+                         "estado":  "publicado",
                          "envio":  "espacios/gta/datos/publicador/envios/2026-11-24-gta6-private-jet-fail__youtube.json",
                          "puntaje":  84,
                          "derechos":  "autorizado",
                          "ventana_hasta":  "2026-12-01",
                          "creado":  "2026-11-24T11:32:08-05:00",
-                         "aprobado":  null,
-                         "intentos":  0,
+                         "aprobado":  "2026-11-25T22:02:53-05:00",
+                         "intentos":  1,
                          "ultima_simulacion":  {
-                                                   "fecha":  "2026-11-24T11:33:20-05:00",
+                                                   "fecha":  "2026-11-25T22:03:01-05:00",
                                                    "ok":  true,
                                                    "avisos":  [
 
                                                               ],
                                                    "error":  null
                                                },
-                         "id_publicacion":  null,
-                         "url":  null,
-                         "privacidad":  null,
-                         "publicado":  null,
-                         "programado":  "2026-11-25T16:00:00-05:00",
-                         "motivo":  "Ciclo 6 del Clipero, preparado en el ciclo 5 del Publicador. Hora propuesta por el Publicador (programado del envio), no por el usuario: si aprueba sin decir otra, sale a esa hora. Solo YouTube: TikTok, Instagram y Facebook tienen todas sus cuentas de este espacio apagadas. Ciclo 6 (2026-11-25 00:15): hora propuesta sin cambios (falta mas de 1 h)."
+                         "id_publicacion":  "OAQG6EuDPns",
+                         "url":  "https://www.youtube.com/shorts/OAQG6EuDPns",
+                         "privacidad":  "private",
+                         "publicado":  "2026-11-25T22:04:11-05:00",
+                         "programado":  "2026-11-26T10:00:00-05:00",
+                         "motivo":  "Ciclo 6 del Clipero, preparado en el ciclo 5 del Publicador. Hora propuesta por el Publicador (programado del envio), no por el usuario: si aprueba sin decir otra, sale a esa hora. Solo YouTube: TikTok, Instagram y Facebook tienen todas sus cuentas de este espacio apagadas. Ciclo 6 (2026-11-25 00:15): hora propuesta sin cambios (falta mas de 1 h). Ciclo 7 (2026-11-25T22:02:53-05:00): aprobado por el usuario en el chat el 2026-11-25, transmitido por el orquestador: Santiago vio la lista de los 17 clips pendientes (todos los de los ciclos 6 y 7 menos cop-car-highway), se le ofrecio subirlos a 3 por canal y dia y respondio \u0027subelos\u0027. Aprobado solo para YouTube, con la cuenta del envio y la hora que dio el usuario (sustituye la propuesta), 2026-11-26T10:00:00-05:00. Se bajo a 3 por canal y dia porque los Shorts del 23 y 24-nov tienen de 0 a 5 vistas. Subido al intento 1 desde la copia de GTA (2026-11-25T22:04:11-05:00), private con publishAt 2026-11-26T15:00:00Z (= 2026-11-26T10:00:00-05:00); simulacion valida a las 2026-11-25T22:03:01-05:00. Comprobado con comprobar y videos a las 22:10: processed, privado, con su publishAt."
                      },
                      {
                          "clip":  "2026-11-24-gta6-bridge-roadblock",
@@ -1578,28 +1578,28 @@
                          "cuenta":  "gta-chases",
                          "pieza":  "2026-11-24-gta6-bridge-roadblock",
                          "gancho":  "POV: the cops blocked the bridge",
-                         "estado":  "pendiente_aprobacion",
+                         "estado":  "publicado",
                          "envio":  "espacios/gta/datos/publicador/envios/2026-11-24-gta6-bridge-roadblock__youtube.json",
                          "puntaje":  82,
                          "derechos":  "autorizado",
                          "ventana_hasta":  "2026-12-01",
                          "creado":  "2026-11-24T11:32:08-05:00",
-                         "aprobado":  null,
-                         "intentos":  0,
+                         "aprobado":  "2026-11-25T22:02:53-05:00",
+                         "intentos":  1,
                          "ultima_simulacion":  {
-                                                   "fecha":  "2026-11-24T11:33:20-05:00",
+                                                   "fecha":  "2026-11-25T22:03:05-05:00",
                                                    "ok":  true,
                                                    "avisos":  [
 
                                                               ],
                                                    "error":  null
                                                },
-                         "id_publicacion":  null,
-                         "url":  null,
-                         "privacidad":  null,
-                         "publicado":  null,
-                         "programado":  "2026-11-25T22:00:00-05:00",
-                         "motivo":  "Ciclo 6 del Clipero, preparado en el ciclo 5 del Publicador. Hora propuesta por el Publicador (programado del envio), no por el usuario: si aprueba sin decir otra, sale a esa hora. Solo YouTube: TikTok, Instagram y Facebook tienen todas sus cuentas de este espacio apagadas. Ciclo 6 (2026-11-25 00:15): hora propuesta sin cambios (falta mas de 1 h)."
+                         "id_publicacion":  "Vkacs48GEHA",
+                         "url":  "https://www.youtube.com/shorts/Vkacs48GEHA",
+                         "privacidad":  "private",
+                         "publicado":  "2026-11-25T22:07:03-05:00",
+                         "programado":  "2026-11-27T10:00:00-05:00",
+                         "motivo":  "Ciclo 6 del Clipero, preparado en el ciclo 5 del Publicador. Hora propuesta por el Publicador (programado del envio), no por el usuario: si aprueba sin decir otra, sale a esa hora. Solo YouTube: TikTok, Instagram y Facebook tienen todas sus cuentas de este espacio apagadas. Ciclo 6 (2026-11-25 00:15): hora propuesta sin cambios (falta mas de 1 h). Ciclo 7 (2026-11-25T22:02:53-05:00): aprobado por el usuario en el chat el 2026-11-25, transmitido por el orquestador: Santiago vio la lista de los 17 clips pendientes (todos los de los ciclos 6 y 7 menos cop-car-highway), se le ofrecio subirlos a 3 por canal y dia y respondio \u0027subelos\u0027. Aprobado solo para YouTube, con la cuenta del envio y la hora que dio el usuario (sustituye la propuesta), 2026-11-27T10:00:00-05:00. Se bajo a 3 por canal y dia porque los Shorts del 23 y 24-nov tienen de 0 a 5 vistas. Subido al intento 1 desde la copia de GTA (2026-11-25T22:07:03-05:00), private con publishAt 2026-11-27T15:00:00Z (= 2026-11-27T10:00:00-05:00); simulacion valida a las 2026-11-25T22:03:05-05:00. Comprobado con comprobar y videos a las 22:10: processed, privado, con su publishAt."
                      },
                      {
                          "clip":  "2026-11-24-gta6-dirt-bike-wasted",
@@ -1607,28 +1607,28 @@
                          "cuenta":  "gta-chases",
                          "pieza":  "2026-11-24-gta6-dirt-bike-wasted",
                          "gancho":  "POV: you trade the car for a dirt bike",
-                         "estado":  "pendiente_aprobacion",
+                         "estado":  "publicado",
                          "envio":  "espacios/gta/datos/publicador/envios/2026-11-24-gta6-dirt-bike-wasted__youtube.json",
                          "puntaje":  78,
                          "derechos":  "autorizado",
                          "ventana_hasta":  "2026-12-02",
                          "creado":  "2026-11-25T00:16:26-05:00",
-                         "aprobado":  null,
-                         "intentos":  0,
+                         "aprobado":  "2026-11-25T22:02:53-05:00",
+                         "intentos":  1,
                          "ultima_simulacion":  {
-                                                   "fecha":  "2026-11-25T00:15:11-05:00",
+                                                   "fecha":  "2026-11-25T22:03:10-05:00",
                                                    "ok":  true,
                                                    "avisos":  [
 
                                                               ],
                                                    "error":  null
                                                },
-                         "id_publicacion":  null,
-                         "url":  null,
-                         "privacidad":  null,
-                         "publicado":  null,
-                         "programado":  "2026-11-26T13:00:00-05:00",
-                         "motivo":  "Ciclo 7 del Clipero, preparado en el ciclo 6 del Publicador (2026-11-25). Hora propuesta por el Publicador (programado del envio), no por el usuario: si aprueba sin decir otra, sale a esa hora. Solo YouTube: TikTok, Instagram y Facebook tienen todas sus cuentas de este espacio apagadas. Va al primer hueco libre de gta-chases (26-nov 13:00; el 25-nov ya esta 5/5). Misma fuente que bail-out-wasted (27-nov, gta-chases) y semi-beach (27-nov, gta-us): la ficha pide dias distintos y solo se cumple con bail-out-wasted y semi-beach separados 8 h el 27-nov, porque las horas del ciclo 6 se mantienen. Acaba en WASTED, como sheriff-suv (26-nov 22:00): 9 h de separacion."
+                         "id_publicacion":  "btupW-Eb6xA",
+                         "url":  "https://www.youtube.com/shorts/btupW-Eb6xA",
+                         "privacidad":  "private",
+                         "publicado":  "2026-11-25T22:08:59-05:00",
+                         "programado":  "2026-11-28T10:00:00-05:00",
+                         "motivo":  "Ciclo 7 del Clipero, preparado en el ciclo 6 del Publicador (2026-11-25). Hora propuesta por el Publicador (programado del envio), no por el usuario: si aprueba sin decir otra, sale a esa hora. Solo YouTube: TikTok, Instagram y Facebook tienen todas sus cuentas de este espacio apagadas. Va al primer hueco libre de gta-chases (26-nov 13:00; el 25-nov ya esta 5/5). Misma fuente que bail-out-wasted (27-nov, gta-chases) y semi-beach (27-nov, gta-us): la ficha pide dias distintos y solo se cumple con bail-out-wasted y semi-beach separados 8 h el 27-nov, porque las horas del ciclo 6 se mantienen. Acaba en WASTED, como sheriff-suv (26-nov 22:00): 9 h de separacion. Ciclo 7 (2026-11-25T22:02:53-05:00): aprobado por el usuario en el chat el 2026-11-25, transmitido por el orquestador: Santiago vio la lista de los 17 clips pendientes (todos los de los ciclos 6 y 7 menos cop-car-highway), se le ofrecio subirlos a 3 por canal y dia y respondio \u0027subelos\u0027. Aprobado solo para YouTube, con la cuenta del envio y la hora que dio el usuario (sustituye la propuesta), 2026-11-28T10:00:00-05:00. Se bajo a 3 por canal y dia porque los Shorts del 23 y 24-nov tienen de 0 a 5 vistas. Subido al intento 1 desde la copia de GTA (2026-11-25T22:08:59-05:00), private con publishAt 2026-11-28T15:00:00Z (= 2026-11-28T10:00:00-05:00); simulacion valida a las 2026-11-25T22:03:10-05:00. Comprobado con comprobar y videos a las 22:10: processed, privado, con su publishAt."
                      },
                      {
                          "clip":  "2026-11-24-gta6-sheriff-ram",
@@ -1636,28 +1636,28 @@
                          "cuenta":  "gta-chases",
                          "pieza":  "2026-11-24-gta6-sheriff-ram",
                          "gancho":  "POV: the sheriff rams you",
-                         "estado":  "pendiente_aprobacion",
+                         "estado":  "publicado",
                          "envio":  "espacios/gta/datos/publicador/envios/2026-11-24-gta6-sheriff-ram__youtube.json",
                          "puntaje":  72,
                          "derechos":  "autorizado",
                          "ventana_hasta":  "2026-12-02",
                          "creado":  "2026-11-25T00:16:26-05:00",
-                         "aprobado":  null,
-                         "intentos":  0,
+                         "aprobado":  "2026-11-25T22:02:53-05:00",
+                         "intentos":  1,
                          "ultima_simulacion":  {
-                                                   "fecha":  "2026-11-25T00:15:12-05:00",
+                                                   "fecha":  "2026-11-25T22:03:03-05:00",
                                                    "ok":  true,
                                                    "avisos":  [
 
                                                               ],
                                                    "error":  null
                                                },
-                         "id_publicacion":  null,
-                         "url":  null,
-                         "privacidad":  null,
-                         "publicado":  null,
-                         "programado":  "2026-11-26T19:00:00-05:00",
-                         "motivo":  "Ciclo 7 del Clipero, preparado en el ciclo 6 del Publicador (2026-11-25). Hora propuesta por el Publicador (programado del envio), no por el usuario: si aprueba sin decir otra, sale a esa hora. Solo YouTube: TikTok, Instagram y Facebook tienen todas sus cuentas de este espacio apagadas. La ficha pide que salga antes de bridge-roadblock (misma persecucion, 25-nov 22:00, pendiente del ciclo 6), pero el 25-nov de gta-chases esta lleno y las horas del ciclo 6 se mantienen por instruccion del orquestador: sale despues. Si el usuario quiere el orden de la ficha, se pueden intercambiar las dos horas al aprobar. La descripcion no cita el aviso Engine damaged, que queda fuera del encuadre vertical."
+                         "id_publicacion":  "P-92sxgk5tY",
+                         "url":  "https://www.youtube.com/shorts/P-92sxgk5tY",
+                         "privacidad":  "private",
+                         "publicado":  "2026-11-25T22:06:04-05:00",
+                         "programado":  "2026-11-26T16:00:00-05:00",
+                         "motivo":  "Ciclo 7 del Clipero, preparado en el ciclo 6 del Publicador (2026-11-25). Hora propuesta por el Publicador (programado del envio), no por el usuario: si aprueba sin decir otra, sale a esa hora. Solo YouTube: TikTok, Instagram y Facebook tienen todas sus cuentas de este espacio apagadas. La ficha pide que salga antes de bridge-roadblock (misma persecucion, 25-nov 22:00, pendiente del ciclo 6), pero el 25-nov de gta-chases esta lleno y las horas del ciclo 6 se mantienen por instruccion del orquestador: sale despues. Si el usuario quiere el orden de la ficha, se pueden intercambiar las dos horas al aprobar. La descripcion no cita el aviso Engine damaged, que queda fuera del encuadre vertical. Ciclo 7 (2026-11-25T22:02:53-05:00): aprobado por el usuario en el chat el 2026-11-25, transmitido por el orquestador: Santiago vio la lista de los 17 clips pendientes (todos los de los ciclos 6 y 7 menos cop-car-highway), se le ofrecio subirlos a 3 por canal y dia y respondio \u0027subelos\u0027. Aprobado solo para YouTube, con la cuenta del envio y la hora que dio el usuario (sustituye la propuesta), 2026-11-26T16:00:00-05:00. Se bajo a 3 por canal y dia porque los Shorts del 23 y 24-nov tienen de 0 a 5 vistas. Subido al intento 1 desde la copia de GTA (2026-11-25T22:06:04-05:00), private con publishAt 2026-11-26T21:00:00Z (= 2026-11-26T16:00:00-05:00); simulacion valida a las 2026-11-25T22:03:03-05:00. Comprobado con comprobar y videos a las 22:10: processed, privado, con su publishAt."
                      },
                      {
                          "clip":  "2026-11-24-gta6-bail-out-wasted",
@@ -1665,28 +1665,28 @@
                          "cuenta":  "gta-chases",
                          "pieza":  "2026-11-24-gta6-bail-out-wasted",
                          "gancho":  "Getaway Files #14: he bailed out... into the cops",
-                         "estado":  "pendiente_aprobacion",
+                         "estado":  "publicado",
                          "envio":  "espacios/gta/datos/publicador/envios/2026-11-24-gta6-bail-out-wasted__youtube.json",
                          "puntaje":  82,
                          "derechos":  "autorizado",
                          "ventana_hasta":  "2026-12-02",
                          "creado":  "2026-11-25T00:16:26-05:00",
-                         "aprobado":  null,
-                         "intentos":  0,
+                         "aprobado":  "2026-11-25T22:02:53-05:00",
+                         "intentos":  1,
                          "ultima_simulacion":  {
-                                                   "fecha":  "2026-11-25T00:15:12-05:00",
+                                                   "fecha":  "2026-11-25T22:03:08-05:00",
                                                    "ok":  true,
                                                    "avisos":  [
 
                                                               ],
                                                    "error":  null
                                                },
-                         "id_publicacion":  null,
-                         "url":  null,
-                         "privacidad":  null,
-                         "publicado":  null,
-                         "programado":  "2026-11-27T10:00:00-05:00",
-                         "motivo":  "Ciclo 7 del Clipero, preparado en el ciclo 6 del Publicador (2026-11-25). Hora propuesta por el Publicador (programado del envio), no por el usuario: si aprueba sin decir otra, sale a esa hora. Solo YouTube: TikTok, Instagram y Facebook tienen todas sus cuentas de este espacio apagadas. Getaway Files #14: va despues del #13 (sheriff-suv, 26-nov 22:00). La descripcion no dice two stars ni stolen pickup, que no se ven en el clip."
+                         "id_publicacion":  "66uzO-wmcag",
+                         "url":  "https://www.youtube.com/shorts/66uzO-wmcag",
+                         "privacidad":  "private",
+                         "publicado":  "2026-11-25T22:08:29-05:00",
+                         "programado":  "2026-11-27T22:00:00-05:00",
+                         "motivo":  "Ciclo 7 del Clipero, preparado en el ciclo 6 del Publicador (2026-11-25). Hora propuesta por el Publicador (programado del envio), no por el usuario: si aprueba sin decir otra, sale a esa hora. Solo YouTube: TikTok, Instagram y Facebook tienen todas sus cuentas de este espacio apagadas. Getaway Files #14: va despues del #13 (sheriff-suv, 26-nov 22:00). La descripcion no dice two stars ni stolen pickup, que no se ven en el clip. Ciclo 7 (2026-11-25T22:02:53-05:00): aprobado por el usuario en el chat el 2026-11-25, transmitido por el orquestador: Santiago vio la lista de los 17 clips pendientes (todos los de los ciclos 6 y 7 menos cop-car-highway), se le ofrecio subirlos a 3 por canal y dia y respondio \u0027subelos\u0027. Aprobado solo para YouTube, con la cuenta del envio y la hora que dio el usuario (sustituye la propuesta), 2026-11-27T22:00:00-05:00. Se bajo a 3 por canal y dia porque los Shorts del 23 y 24-nov tienen de 0 a 5 vistas. Subido al intento 1 desde la copia de GTA (2026-11-25T22:08:29-05:00), private con publishAt 2026-11-28T03:00:00Z (= 2026-11-27T22:00:00-05:00); simulacion valida a las 2026-11-25T22:03:08-05:00. Comprobado con comprobar y videos a las 22:10: processed, privado, con su publishAt."
                      },
                      {
                          "clip":  "2026-11-24-gta6-field-escape",
@@ -1694,28 +1694,28 @@
                          "cuenta":  "gta-chases",
                          "pieza":  "2026-11-24-gta6-field-escape",
                          "gancho":  "Getaway Files #15: how he lost them",
-                         "estado":  "pendiente_aprobacion",
+                         "estado":  "publicado",
                          "envio":  "espacios/gta/datos/publicador/envios/2026-11-24-gta6-field-escape__youtube.json",
                          "puntaje":  73,
                          "derechos":  "autorizado",
                          "ventana_hasta":  "2026-12-02",
                          "creado":  "2026-11-25T00:16:26-05:00",
-                         "aprobado":  null,
-                         "intentos":  0,
+                         "aprobado":  "2026-11-25T22:02:53-05:00",
+                         "intentos":  1,
                          "ultima_simulacion":  {
-                                                   "fecha":  "2026-11-25T00:15:13-05:00",
+                                                   "fecha":  "2026-11-25T22:03:11-05:00",
                                                    "ok":  true,
                                                    "avisos":  [
 
                                                               ],
                                                    "error":  null
                                                },
-                         "id_publicacion":  null,
-                         "url":  null,
-                         "privacidad":  null,
-                         "publicado":  null,
-                         "programado":  "2026-11-27T13:00:00-05:00",
-                         "motivo":  "Ciclo 7 del Clipero, preparado en el ciclo 6 del Publicador (2026-11-25). Hora propuesta por el Publicador (programado del envio), no por el usuario: si aprueba sin decir otra, sale a esa hora. Solo YouTube: TikTok, Instagram y Facebook tienen todas sus cuentas de este espacio apagadas. Getaway Files #15. Segunda parte de sunset-sign-shortcut (publicado el 24-nov 19:00 en gta-chases). El credito nombra tambien a Fox - No Copyright Gameplay (JP1hFy04VGk, 1494 s), de donde sale el material que Ftug recorto. La descripcion no cita la frase de la radio, que whisper oyo de dos maneras."
+                         "id_publicacion":  "hoG27a32v-U",
+                         "url":  "https://www.youtube.com/shorts/hoG27a32v-U",
+                         "privacidad":  "private",
+                         "publicado":  "2026-11-25T22:09:29-05:00",
+                         "programado":  "2026-11-28T16:00:00-05:00",
+                         "motivo":  "Ciclo 7 del Clipero, preparado en el ciclo 6 del Publicador (2026-11-25). Hora propuesta por el Publicador (programado del envio), no por el usuario: si aprueba sin decir otra, sale a esa hora. Solo YouTube: TikTok, Instagram y Facebook tienen todas sus cuentas de este espacio apagadas. Getaway Files #15. Segunda parte de sunset-sign-shortcut (publicado el 24-nov 19:00 en gta-chases). El credito nombra tambien a Fox - No Copyright Gameplay (JP1hFy04VGk, 1494 s), de donde sale el material que Ftug recorto. La descripcion no cita la frase de la radio, que whisper oyo de dos maneras. Ciclo 7 (2026-11-25T22:02:53-05:00): aprobado por el usuario en el chat el 2026-11-25, transmitido por el orquestador: Santiago vio la lista de los 17 clips pendientes (todos los de los ciclos 6 y 7 menos cop-car-highway), se le ofrecio subirlos a 3 por canal y dia y respondio \u0027subelos\u0027. Aprobado solo para YouTube, con la cuenta del envio y la hora que dio el usuario (sustituye la propuesta), 2026-11-28T16:00:00-05:00. Se bajo a 3 por canal y dia porque los Shorts del 23 y 24-nov tienen de 0 a 5 vistas. Subido al intento 1 desde la copia de GTA (2026-11-25T22:09:29-05:00), private con publishAt 2026-11-28T21:00:00Z (= 2026-11-28T16:00:00-05:00); simulacion valida a las 2026-11-25T22:03:11-05:00. Comprobado con comprobar y videos a las 22:10: processed, privado, con su publishAt."
                      },
                      {
                          "clip":  "2026-11-24-gta6-beach-gator",
@@ -1723,28 +1723,28 @@
                          "cuenta":  "gta-us",
                          "pieza":  "2026-11-24-gta6-beach-gator",
                          "gancho":  "POV: a peaceful walk on the beach",
-                         "estado":  "pendiente_aprobacion",
+                         "estado":  "publicado",
                          "envio":  "espacios/gta/datos/publicador/envios/2026-11-24-gta6-beach-gator__youtube.json",
                          "puntaje":  84,
                          "derechos":  "autorizado",
                          "ventana_hasta":  "2026-12-02",
                          "creado":  "2026-11-25T00:16:26-05:00",
-                         "aprobado":  null,
-                         "intentos":  0,
+                         "aprobado":  "2026-11-25T22:02:53-05:00",
+                         "intentos":  1,
                          "ultima_simulacion":  {
-                                                   "fecha":  "2026-11-25T00:15:14-05:00",
+                                                   "fecha":  "2026-11-25T22:03:06-05:00",
                                                    "ok":  true,
                                                    "avisos":  [
 
                                                               ],
                                                    "error":  null
                                                },
-                         "id_publicacion":  null,
-                         "url":  null,
-                         "privacidad":  null,
-                         "publicado":  null,
-                         "programado":  "2026-11-26T21:00:00-05:00",
-                         "motivo":  "Ciclo 7 del Clipero, preparado en el ciclo 6 del Publicador (2026-11-25). Hora propuesta por el Publicador (programado del envio), no por el usuario: si aprueba sin decir otra, sale a esa hora. Solo YouTube: TikTok, Instagram y Facebook tienen todas sus cuentas de este espacio apagadas. Unico hueco libre de gta-us el 26-nov. Sale antes que boat-party-steal (misma fuente, orden 2) y no lleva numero de serie, asi Leonida Fails #9 y #10 salen despues del #7 (27-nov 09:00)."
+                         "id_publicacion":  "kYifiDrye1E",
+                         "url":  "https://www.youtube.com/shorts/kYifiDrye1E",
+                         "privacidad":  "private",
+                         "publicado":  "2026-11-25T22:07:15-05:00",
+                         "programado":  "2026-11-27T15:00:00-05:00",
+                         "motivo":  "Ciclo 7 del Clipero, preparado en el ciclo 6 del Publicador (2026-11-25). Hora propuesta por el Publicador (programado del envio), no por el usuario: si aprueba sin decir otra, sale a esa hora. Solo YouTube: TikTok, Instagram y Facebook tienen todas sus cuentas de este espacio apagadas. Unico hueco libre de gta-us el 26-nov. Sale antes que boat-party-steal (misma fuente, orden 2) y no lleva numero de serie, asi Leonida Fails #9 y #10 salen despues del #7 (27-nov 09:00). Ciclo 7 (2026-11-25T22:02:53-05:00): aprobado por el usuario en el chat el 2026-11-25, transmitido por el orquestador: Santiago vio la lista de los 17 clips pendientes (todos los de los ciclos 6 y 7 menos cop-car-highway), se le ofrecio subirlos a 3 por canal y dia y respondio \u0027subelos\u0027. Aprobado solo para YouTube, con la cuenta del envio y la hora que dio el usuario (sustituye la propuesta), 2026-11-27T15:00:00-05:00. Se bajo a 3 por canal y dia porque los Shorts del 23 y 24-nov tienen de 0 a 5 vistas. Intercambiado con provoke-brawl (pedido: 28-nov 09:00): beach-gator y boat-party-steal son de la misma fuente (TNGvT17c8Qg) y caian el mismo dia en gta-us. Asi beach-gator sigue antes que boat-party-steal. Subido al intento 1 desde la copia de GTA (2026-11-25T22:07:15-05:00), private con publishAt 2026-11-27T20:00:00Z (= 2026-11-27T15:00:00-05:00); simulacion valida a las 2026-11-25T22:03:06-05:00. Comprobado con comprobar y videos a las 22:10: processed, privado, con su publishAt."
                      },
                      {
                          "clip":  "2026-11-24-gta6-mini-bike-crash",
@@ -1752,28 +1752,28 @@
                          "cuenta":  "gta-us",
                          "pieza":  "2026-11-24-gta6-mini-bike-crash",
                          "gancho":  "Leonida Fails #9: should\u0027ve taken the car",
-                         "estado":  "pendiente_aprobacion",
+                         "estado":  "publicado",
                          "envio":  "espacios/gta/datos/publicador/envios/2026-11-24-gta6-mini-bike-crash__youtube.json",
                          "puntaje":  80,
                          "derechos":  "autorizado",
                          "ventana_hasta":  "2026-12-02",
                          "creado":  "2026-11-25T00:16:26-05:00",
-                         "aprobado":  null,
-                         "intentos":  0,
+                         "aprobado":  "2026-11-25T22:02:53-05:00",
+                         "intentos":  1,
                          "ultima_simulacion":  {
-                                                   "fecha":  "2026-11-25T00:15:14-05:00",
+                                                   "fecha":  "2026-11-25T22:03:08-05:00",
                                                    "ok":  true,
                                                    "avisos":  [
 
                                                               ],
                                                    "error":  null
                                                },
-                         "id_publicacion":  null,
-                         "url":  null,
-                         "privacidad":  null,
-                         "publicado":  null,
-                         "programado":  "2026-11-27T12:00:00-05:00",
-                         "motivo":  "Ciclo 7 del Clipero, preparado en el ciclo 6 del Publicador (2026-11-25). Hora propuesta por el Publicador (programado del envio), no por el usuario: si aprueba sin decir otra, sale a esa hora. Solo YouTube: TikTok, Instagram y Facebook tienen todas sus cuentas de este espacio apagadas. Leonida Fails #9: despues del #7 (barrier-faceplant, 27-nov 09:00) y del #8. Se anade in GTA 6 al titulo de la ficha, como en todos los anteriores. La descripcion no menciona el pickup que deja atras, que queda fuera del corte."
+                         "id_publicacion":  "323xMAOX9zQ",
+                         "url":  "https://www.youtube.com/shorts/323xMAOX9zQ",
+                         "privacidad":  "private",
+                         "publicado":  "2026-11-25T22:08:12-05:00",
+                         "programado":  "2026-11-27T21:00:00-05:00",
+                         "motivo":  "Ciclo 7 del Clipero, preparado en el ciclo 6 del Publicador (2026-11-25). Hora propuesta por el Publicador (programado del envio), no por el usuario: si aprueba sin decir otra, sale a esa hora. Solo YouTube: TikTok, Instagram y Facebook tienen todas sus cuentas de este espacio apagadas. Leonida Fails #9: despues del #7 (barrier-faceplant, 27-nov 09:00) y del #8. Se anade in GTA 6 al titulo de la ficha, como en todos los anteriores. La descripcion no menciona el pickup que deja atras, que queda fuera del corte. Ciclo 7 (2026-11-25T22:02:53-05:00): aprobado por el usuario en el chat el 2026-11-25, transmitido por el orquestador: Santiago vio la lista de los 17 clips pendientes (todos los de los ciclos 6 y 7 menos cop-car-highway), se le ofrecio subirlos a 3 por canal y dia y respondio \u0027subelos\u0027. Aprobado solo para YouTube, con la cuenta del envio y la hora que dio el usuario (sustituye la propuesta), 2026-11-27T21:00:00-05:00. Se bajo a 3 por canal y dia porque los Shorts del 23 y 24-nov tienen de 0 a 5 vistas. Subido al intento 1 desde la copia de GTA (2026-11-25T22:08:12-05:00), private con publishAt 2026-11-28T02:00:00Z (= 2026-11-27T21:00:00-05:00); simulacion valida a las 2026-11-25T22:03:08-05:00. Comprobado con comprobar y videos a las 22:10: processed, privado, con su publishAt."
                      },
                      {
                          "clip":  "2026-11-24-gta6-boat-party-steal",
@@ -1781,28 +1781,28 @@
                          "cuenta":  "gta-us",
                          "pieza":  "2026-11-24-gta6-boat-party-steal",
                          "gancho":  "POV: you crash a boat party",
-                         "estado":  "pendiente_aprobacion",
+                         "estado":  "publicado",
                          "envio":  "espacios/gta/datos/publicador/envios/2026-11-24-gta6-boat-party-steal__youtube.json",
                          "puntaje":  79,
                          "derechos":  "autorizado",
                          "ventana_hasta":  "2026-12-02",
                          "creado":  "2026-11-25T00:16:26-05:00",
-                         "aprobado":  null,
-                         "intentos":  0,
+                         "aprobado":  "2026-11-25T22:02:53-05:00",
+                         "intentos":  1,
                          "ultima_simulacion":  {
-                                                   "fecha":  "2026-11-25T00:15:15-05:00",
+                                                   "fecha":  "2026-11-25T22:03:12-05:00",
                                                    "ok":  true,
                                                    "avisos":  [
 
                                                               ],
                                                    "error":  null
                                                },
-                         "id_publicacion":  null,
-                         "url":  null,
-                         "privacidad":  null,
-                         "publicado":  null,
-                         "programado":  "2026-11-27T15:00:00-05:00",
-                         "motivo":  "Ciclo 7 del Clipero, preparado en el ciclo 6 del Publicador (2026-11-25). Hora propuesta por el Publicador (programado del envio), no por el usuario: si aprueba sin decir otra, sale a esa hora. Solo YouTube: TikTok, Instagram y Facebook tienen todas sus cuentas de este espacio apagadas. Despues de beach-gator (misma fuente), en otro dia. Revisar la mujer en bikini de la popa (0:00-0:06): el Clipero dice que si se prefiere evitar, se descarta. La tarjeta Calder Shasa queda fuera del encuadre vertical (la cita el texto en pantalla)."
+                         "id_publicacion":  "YucwCYHxjp4",
+                         "url":  "https://www.youtube.com/shorts/YucwCYHxjp4",
+                         "privacidad":  "private",
+                         "publicado":  "2026-11-25T22:09:53-05:00",
+                         "programado":  "2026-11-28T21:00:00-05:00",
+                         "motivo":  "Ciclo 7 del Clipero, preparado en el ciclo 6 del Publicador (2026-11-25). Hora propuesta por el Publicador (programado del envio), no por el usuario: si aprueba sin decir otra, sale a esa hora. Solo YouTube: TikTok, Instagram y Facebook tienen todas sus cuentas de este espacio apagadas. Despues de beach-gator (misma fuente), en otro dia. Revisar la mujer en bikini de la popa (0:00-0:06): el Clipero dice que si se prefiere evitar, se descarta. La tarjeta Calder Shasa queda fuera del encuadre vertical (la cita el texto en pantalla). Ciclo 7 (2026-11-25T22:02:53-05:00): aprobado por el usuario en el chat el 2026-11-25, transmitido por el orquestador: Santiago vio la lista de los 17 clips pendientes (todos los de los ciclos 6 y 7 menos cop-car-highway), se le ofrecio subirlos a 3 por canal y dia y respondio \u0027subelos\u0027. Aprobado solo para YouTube, con la cuenta del envio y la hora que dio el usuario (sustituye la propuesta), 2026-11-28T21:00:00-05:00. Se bajo a 3 por canal y dia porque los Shorts del 23 y 24-nov tienen de 0 a 5 vistas. Subido al intento 1 desde la copia de GTA (2026-11-25T22:09:53-05:00), private con publishAt 2026-11-29T02:00:00Z (= 2026-11-28T21:00:00-05:00); simulacion valida a las 2026-11-25T22:03:12-05:00. Comprobado con comprobar y videos a las 22:10: processed, privado, con su publishAt."
                      },
                      {
                          "clip":  "2026-11-24-gta6-semi-beach",
@@ -1810,28 +1810,28 @@
                          "cuenta":  "gta-us",
                          "pieza":  "2026-11-24-gta6-semi-beach",
                          "gancho":  "Leonida Fails #10: never take a semi to the beach",
-                         "estado":  "pendiente_aprobacion",
+                         "estado":  "publicado",
                          "envio":  "espacios/gta/datos/publicador/envios/2026-11-24-gta6-semi-beach__youtube.json",
                          "puntaje":  81,
                          "derechos":  "autorizado",
                          "ventana_hasta":  "2026-12-02",
                          "creado":  "2026-11-25T00:16:26-05:00",
-                         "aprobado":  null,
-                         "intentos":  0,
+                         "aprobado":  "2026-11-25T22:02:53-05:00",
+                         "intentos":  1,
                          "ultima_simulacion":  {
-                                                   "fecha":  "2026-11-25T00:15:16-05:00",
+                                                   "fecha":  "2026-11-25T22:03:10-05:00",
                                                    "ok":  true,
                                                    "avisos":  [
 
                                                               ],
                                                    "error":  null
                                                },
-                         "id_publicacion":  null,
-                         "url":  null,
-                         "privacidad":  null,
-                         "publicado":  null,
-                         "programado":  "2026-11-27T18:00:00-05:00",
-                         "motivo":  "Ciclo 7 del Clipero, preparado en el ciclo 6 del Publicador (2026-11-25). Hora propuesta por el Publicador (programado del envio), no por el usuario: si aprueba sin decir otra, sale a esa hora. Solo YouTube: TikTok, Instagram y Facebook tienen todas sus cuentas de este espacio apagadas. Leonida Fails #10, despues del #9. Comparte dia con bail-out-wasted (misma fuente, gta-chases 10:00), 8 h despues. Se anade in GTA 6 al titulo de la ficha. La descripcion no dice que robo el camion, porque el robo queda fuera del corte."
+                         "id_publicacion":  "Mv5uuQ_Gd_M",
+                         "url":  "https://www.youtube.com/shorts/Mv5uuQ_Gd_M",
+                         "privacidad":  "private",
+                         "publicado":  "2026-11-25T22:09:16-05:00",
+                         "programado":  "2026-11-28T15:00:00-05:00",
+                         "motivo":  "Ciclo 7 del Clipero, preparado en el ciclo 6 del Publicador (2026-11-25). Hora propuesta por el Publicador (programado del envio), no por el usuario: si aprueba sin decir otra, sale a esa hora. Solo YouTube: TikTok, Instagram y Facebook tienen todas sus cuentas de este espacio apagadas. Leonida Fails #10, despues del #9. Comparte dia con bail-out-wasted (misma fuente, gta-chases 10:00), 8 h despues. Se anade in GTA 6 al titulo de la ficha. La descripcion no dice que robo el camion, porque el robo queda fuera del corte. Ciclo 7 (2026-11-25T22:02:53-05:00): aprobado por el usuario en el chat el 2026-11-25, transmitido por el orquestador: Santiago vio la lista de los 17 clips pendientes (todos los de los ciclos 6 y 7 menos cop-car-highway), se le ofrecio subirlos a 3 por canal y dia y respondio \u0027subelos\u0027. Aprobado solo para YouTube, con la cuenta del envio y la hora que dio el usuario (sustituye la propuesta), 2026-11-28T15:00:00-05:00. Se bajo a 3 por canal y dia porque los Shorts del 23 y 24-nov tienen de 0 a 5 vistas. Subido al intento 1 desde la copia de GTA (2026-11-25T22:09:16-05:00), private con publishAt 2026-11-28T20:00:00Z (= 2026-11-28T15:00:00-05:00); simulacion valida a las 2026-11-25T22:03:10-05:00. Comprobado con comprobar y videos a las 22:10: processed, privado, con su publishAt."
                      }
                  ]
 }
