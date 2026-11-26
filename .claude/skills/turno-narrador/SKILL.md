@@ -13,6 +13,7 @@ Actúas como orquestador: el trabajo pesado lo hacen subagentes. Anota la hora d
 
 ## 1. Retomar lo que quedó a medias
 Antes de empezar temas nuevos, busca en `animados/propios/*/guion.json` los que tengan `"tipo": "largo"` y `"orientacion": "horizontal"` y no tengan MP4 en `salidas/narrador/<id>/<id>.mp4`, y continúa cada uno desde el paso que le falte (2, 3, 4 o 5). Cuentan dentro del número de videos del turno.
+- **Solo lo de esta PC:** retoma únicamente los temas que en `temas.json` estén `en-produccion` con el `"pc"` de esta PC. Los que otra PC ya terminó (`guion` con nota de su MP4) aquí no tienen MP4 (los MP4 no viajan por GitHub) ni voz en la caché (`animados/.voz-cache/` tampoco viaja): retomarlos rehace el video y vuelve a pagar toda la voz.
 
 ## 2. Guion (si no existe)
 - Tema: el siguiente `pendiente` de `datos/narrador/temas.json`, solo del nicho `historia` (el único con plantillas horizontales probadas; los demás nichos esperan a que se prueben sus estilos). Respeta el orden de las series.
