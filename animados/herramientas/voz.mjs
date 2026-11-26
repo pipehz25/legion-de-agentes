@@ -47,6 +47,9 @@ function claveElevenlabs() {
       `Falta la clave de ElevenLabs. Guardala con: powershell -NoProfile -ExecutionPolicy Bypass -File animados\\herramientas\\guardar-clave-elevenlabs.ps1  (no la pegues en el chat).`,
     );
   }
+  if (/[\x00-\x1f\x7f]/.test(clave) || clave.length < 20) {
+    throw new Error("La clave de ElevenLabs guardada no es valida (si se pego con Ctrl+V, quedo solo la tecla). Vuelve a correr guardar-clave-elevenlabs.ps1 y pega con clic derecho.");
+  }
   return clave;
 }
 async function elevenlabs(ruta, opciones = {}) {
@@ -85,6 +88,9 @@ function claveDeepgram() {
     throw new Error(
       `Falta la clave de Deepgram. Guardala con: powershell -NoProfile -ExecutionPolicy Bypass -File animados\\herramientas\\guardar-clave-deepgram.ps1  (no la pegues en el chat).`,
     );
+  }
+  if (/[\x00-\x1f\x7f]/.test(clave) || clave.length < 20) {
+    throw new Error("La clave de Deepgram guardada no es valida (si se pego con Ctrl+V, quedo solo la tecla). Vuelve a correr guardar-clave-deepgram.ps1 y pega con clic derecho.");
   }
   return clave;
 }

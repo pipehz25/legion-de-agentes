@@ -15,7 +15,7 @@ $ErrorActionPreference = 'Stop'
 $dir = Join-Path $env:USERPROFILE '.legion\deepgram'
 New-Item -ItemType Directory -Force -Path $dir | Out-Null
 
-$segura = Read-Host 'Pega la clave de Deepgram (no se ve al pegarla) y presiona Enter' -AsSecureString
+$segura = Read-Host 'Pega la clave de Deepgram con CLIC DERECHO (no se ve al pegarla; Ctrl+V no sirve aqui) y presiona Enter' -AsSecureString
 $ptr = [Runtime.InteropServices.Marshal]::SecureStringToBSTR($segura)
 try {
   $clave = [Runtime.InteropServices.Marshal]::PtrToStringBSTR($ptr).Trim()
@@ -24,6 +24,10 @@ try {
 }
 if (-not $clave) {
   Write-Host 'No se guardo nada: la clave quedo vacia.'
+  exit 1
+}
+if ($clave -match '[\x00-\x1F\x7F]' -or $clave.Length -lt 20) {
+  Write-Host 'No se guardo nada: no llego la clave (si pegaste con Ctrl+V, llega solo la tecla). Vuelve a correrlo y pega con clic derecho.'
   exit 1
 }
 
