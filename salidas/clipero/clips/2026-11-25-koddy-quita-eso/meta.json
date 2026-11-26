@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-25-koddy-quita-eso",
+    "url_fuente":  "https://www.youtube.com/watch?v=REAq17DhKsU",
+    "video_id":  "REAq17DhKsU",
+    "inicio":  1264.15,
+    "fin":  1306.6,
+    "inicio_hms":  "0:21:04",
+    "duracion_seg":  42.5,
+    "gancho":  "Koddy G: de «quita eso» a contratarlo",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  171,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "color":  "",
+    "resolucion":  "1080x1920",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -17.49,
+                  "entrada_tp":  -8.5,
+                  "salida_lufs":  -14.59,
+                  "salida_tp":  -5.07
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-25-koddy-quita-eso/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-25-koddy-quita-eso/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-25-koddy-quita-eso/revision.jpg",
+    "creado":  "2026-11-25T19:39:55.7937828-05:00"
+}

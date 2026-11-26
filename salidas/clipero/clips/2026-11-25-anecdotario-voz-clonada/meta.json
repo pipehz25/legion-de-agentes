@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-25-anecdotario-voz-clonada",
+    "url_fuente":  "https://www.youtube.com/watch?v=5tZ_GGz7q8s",
+    "video_id":  "5tZ_GGz7q8s",
+    "inicio":  2758.67,
+    "fin":  2812.52,
+    "inicio_hms":  "0:45:58",
+    "duracion_seg":  53.9,
+    "gancho":  "Farid Dieck: clonaron su voz con IA",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  155,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "color":  "",
+    "resolucion":  "1080x1920",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -12.04,
+                  "entrada_tp":  -1.14,
+                  "salida_lufs":  -13.93,
+                  "salida_tp":  -3.11
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-25-anecdotario-voz-clonada/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-25-anecdotario-voz-clonada/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-25-anecdotario-voz-clonada/revision.jpg",
+    "creado":  "2026-11-25T19:12:58.3542567-05:00"
+}

@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-25-koddy-ryan-remix",
+    "url_fuente":  "https://www.youtube.com/watch?v=REAq17DhKsU",
+    "video_id":  "REAq17DhKsU",
+    "inicio":  429.35,
+    "fin":  469.1,
+    "inicio_hms":  "0:07:09",
+    "duracion_seg":  39.8,
+    "gancho":  "Koddy G: cómo entró Ryan Castro al remix",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  131,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "color":  "",
+    "resolucion":  "1080x1920",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -17.91,
+                  "entrada_tp":  -9.38,
+                  "salida_lufs":  -14.19,
+                  "salida_tp":  -5.48
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-25-koddy-ryan-remix/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-25-koddy-ryan-remix/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-25-koddy-ryan-remix/revision.jpg",
+    "creado":  "2026-11-25T19:25:55.1086361-05:00"
+}

@@ -1,8 +1,8 @@
 {
-    "actualizado":  "2026-11-23T19:50:00-05:00",
-    "ciclo":  23,
-    "ultimo_ciclo_cazador":  21,
-    "ultimo_ciclo_cazador_risas":  12,
+    "actualizado":  "2026-11-25T19:41:00-05:00",
+    "ciclo":  24,
+    "ultimo_ciclo_cazador":  22,
+    "ultimo_ciclo_cazador_risas":  13,
     "_nota_ciclo_16":  "Ciclo 16 (17-nov, desde la 01:26; procesa el ciclo 13 del Cazador Urbano y el 5 del de Risas; el ciclo 12 del Cazador Urbano no se procesó y queda cubierto por el 13). Cinco fuentes, como dice config: tres urbanas (Westcol sobre Herrera YQ-vOO3-Ghk, Samulx desde el hotel GkojR4E0tuY, Lonche con La Ganga s1betCsTVVE) y dos de risas (Hablando Huevadas en El Salvador qDAqPW70T7c, Anecdotario 378 de Ricardo Pérez VzE65NyXqb8). No se tocaron los VOD de Kick (whisper) porque las versiones de YouTube cubrían el mismo directo. Sin variantes: cada línea tiene una sola cuenta activa por plataforma (TikTok: principal y risas). Interrupciones: el ciclo se paró por el límite de uso tras el primer corte (se reanudó a las 12:54) y por una caída de red (ENOTFOUND) a media tarde; el corte de refri-papas falló y el de ganga-robot-precio salió con el video truncado a 47 s: se repitieron los dos. clips.json se actualizó por inserciones (el Publicador lo lee a la vez); no se podaron los clips de más de 7 días. Los 30 clips 2026-11-15-{antartida,sistema-solar,cables,apagon}-* (encargo CurioSismo, carpeta curiosismo/) no se registran ni se tocan: esperan la decisión del usuario. Herrera: la polémica empieza a tener ángulo legal (el propio Westcol habla de abogados; terceros titulan con una demanda); los clips evitan ese tramo y llevan \u0027si pasa a lo judicial, no se publica\u0027. Informe: salidas/clipero/informes/2026-11-17_0126.md.",
     "_nota_ciclo_15":  "Ciclo 15 (14-nov desde las 23:50; procesa el ciclo 11 del Cazador Urbano y el 4 del de Risas). Orden del orquestador: 1) urbano, Stream Fighters 5 de esta noche: Daren Ramírez contra El Agropecuario (G7gj3T1-_lk), la entrada de Westcol (pofJeEqiGF0) y lo mejor del pesaje completo (zkf8bOkg9kk), ventana hasta el 16-nov; las peleas grandes (Westcol contra Blessd, las parejas de streamers) no están subidas y quedan para el ciclo 16; 2) risas: primero lo que sale de la ventana el 15-nov (Paren la Mano del 12/11 uRZ2xc4sRyA, Juanpis Cap. 7 I2i3qkbPdXE, Liss Pereira T6Cw9kprkbc, Mestizos Precisos YdISeGSMqJo) y después Tirando Bola T9E21 (niP1DkpCYvs), Paren la Mano del 13/11 (92HshiOuj1k) y Nadie Sabe Nada 14x11 (pSyuyPq7uh0). Se pasa del tope de 5 fuentes por orden expresa del orquestador. Sin variantes: cada línea tiene una sola cuenta activa por plataforma (TikTok: risas y principal). Pendiente del ciclo 14: el clip 2026-11-13-samulx-chanty-cruce-willito (Gnhd74tjACk) se cortó sin registrar; se registra en este ciclo. Se paró hacia las 00:20 del 15-nov por el límite de uso con 2 clips del pesaje cortados sin registrar; se reanudó a las 18:10 con orden del orquestador: registrarlos, cortar los dos pendientes de Paren la Mano del 12/11 y seguir con Tirando Bola, Paren la Mano del 13/11 y Nadie Sabe Nada. Cierre (19:02): 16 clips nuevos (5 urbanos, 11 de risas) más el del ciclo 14; 6 fuentes nuevas. No se analizaron Juanpis Cap. 7 ni Liss Pereira (salen de la ventana el 15-nov a las 20:00) ni Mestizos Precisos (salió a las 12:30). Quedan propuestos con ventana hasta el 16-nov 5 momentos del pesaje (zkf8bOkg9kk), con palabras-rev.json ya corregido. Los clips del evento se revisan con hoja de fotogramas completa: el directo intercala rótulos de apuestas (Stake). Informe: salidas/clipero/informes/2026-11-14_2350.md.",
     "_nota_ciclo_14":  "Ciclo 14 (13-nov desde las 18:43; procesa el ciclo 10 del Cazador Urbano y el 3 del de Risas). Orden del orquestador: 1) risas primero y con volumen: La Cotorrisa 399 (XUh-fUA_o30), Paren la Mano del 12-nov (uRZ2xc4sRyA) y del 11-nov (Luquitas y el Papa; recorte del canal K4MCv-DXdmI), Jhovanoty disfrazado de De la Espriella (lEDdtE48rBk; gancho que diga que es disfraz, reglas de humor político) y Juanpis Cap. 7 (I2i3qkbPdXE); 2) urbano, solo 3-4 momentos de la previa de Stream Fighters 5 con ventana hasta el 15-nov. Se pasa del tope de 5 fuentes por orden expresa del orquestador. Sin variantes: cada línea tiene una sola cuenta activa por plataforma (TikTok: risas y principal).",
@@ -771,6 +771,41 @@
                         "titulo":  "OVY NOS ENSEÑA A SURFEAR A TODA LA GANGA EN GUATAPE 🔥MUY COMPLICADO",
                         "analizado":  "2026-11-23",
                         "resultado":  "2 clips (ciclo 23, urbano): ganga-leandro-wakesurf 72, ganga-bote-ferrari 70 | fuente_para_clips n.º 1 del Cazador Urbano (ciclo 21), 5.957 vistas/h a las 4,3 h, formato-primera-vez-en-medellin | Samulx (190.000), publicado 22-nov 19:43, 2.129 s, 83.059 vistas, 534 me gusta y 8 comentarios al analizar (23-nov 19:24; 3.505/h según canal a las 19:22) | sin picos; 1 marca (1:05) | transcripción leída entera (257 líneas): casi todo es la clase en el agua, con gritos y motor | el profesor sale de espaldas: los textos del video no nombran a Ovy | fuera: 0:00-2:46 (cárcel, \u0027sapear\u0027, Lonche \u0027aire a Pablo, narcotraficante\u0027), 3:22-4:33 (cadenas, \u0027le puse los cachos\u0027), 4:56-6:37 (charla sexual y alcohol), Katy Cardona pidiendo turno (22:08, reality), lo turístico \u0027de Pablo\u0027 (22:56-23:19), The Chanty \u0027casi lo logra… cayó como una arepa\u0027 (24:03-25:33, 68, misma idea que Leandro), Willito y la promoción de su TikTok (35:13) | saturación (19:28): la misma clase desde la cámara de The Chanty (hoGec5hIHpo) y recopilaciones largas de LagangaWSLCWLR, una con \u0027EL BOTE DE 350 MIL DÓLARES\u0027 en el título; sin cortos | palabras-rev.json: 350,000 → 350.000, \u0027cul\u0027 y \u0027ir\u0027 → (…)"
+                    },
+                    {
+                        "id":  "4i4O1pGkuPg",
+                        "url":  "https://www.youtube.com/watch?v=4i4O1pGkuPg",
+                        "titulo":  "LOS PREMIOS MÁS HU3VON3S | Los De La Culpa - Capítulo 269",
+                        "analizado":  "2026-11-25",
+                        "resultado":  "1 clip (ciclo 24, línea risas): culpa-contrasena 80 (Ricardo Quevedo en persona) + 3 propuestos sin puntuar (tramos de reserva del Cazador: las notas de voz 0:27:45, las excusas de Henry 0:40:50, el malabarista 0:37:29) | fuente_para_clips n.º 1 del Cazador de Risas (ciclo 13), prioridad alta, tramo 0:08:05-0:08:50 | Los De La Culpa (414.000), publicado 23-nov 20:56, 3.138 s, 175.158 vistas, 4.881 me gusta y 69 comentarios al analizar (25-nov 18:22; unas 3.860/h) | sin picos; 1 marca (15:30, 0 likes) | por la orden de tiempo se leyó el tramo 0:07:08-0:09:50; el Cazador leyó la transcripción entera y sus exclusiones se respetan | fuera: la silla de ruedas, la ludopatía y \u0027cuando lo mete\u0027, \u0027cacorro\u0027, los habitantes de calle, el \u0027orinador parolo\u0027, La Casa de los Famosos, \u0027ya soy más blanco\u0027, \u0027es coyote y pasa mojados\u0027, el juego de beber | saturación (18:22): solo el capítulo | primer corte empezaba en \u0027…vedo\u0027 (el nombre que dice el presentador): vuelto a cortar desde 486,93 s | sin palabras-rev.json"
+                    },
+                    {
+                        "id":  "-Mq_mOzwKU0",
+                        "url":  "https://www.youtube.com/watch?v=-Mq_mOzwKU0",
+                        "titulo":  "ALEJANDRA GUZMÁN \u0026 Escorpión Dorado #AlVolante la reina del rock pop mexicano la sigue rompiendo",
+                        "analizado":  "2026-11-25",
+                        "resultado":  "1 clip (ciclo 24, línea risas): guzman-birria 79 (Alejandra Guzmán y el Escorpión Dorado en persona) + 2 propuestos sin puntuar (Bidi bidi bom bom 0:18:58; la noche de talentos 0:26:58) | fuente_para_clips n.º 2 del Cazador de Risas (ciclo 13), prioridad alta, tramo 0:37:38-0:38:06 | canal del Escorpión Dorado (yt-dlp: \u0027PelucheEn ElEstuche\u0027, 9,6 M), publicado 24-nov 21:25, 3.295 s, 272.173 vistas, 4.733 me gusta y 162 comentarios al analizar (25-nov 19:04; unas 12.600/h) | sin picos; 2 marcas (22:30 y 33:00), fuera del tramo | se leyó el tramo 0:37:26-0:38:50; el Cazador leyó la transcripción entera | fuera: los enanos, lo sexual, anorexia y bulimia, La Casa de los Famosos y el rehab, Paulina Rubio y Erik Rubín, el marido en la cárcel (0:36:00-0:37:20), el fan del micrófono, Luis Miguel, la muerte de su mamá | saturación (19:05): sin recortes | palabras-rev.json: \u0027azzota\u0027 → (…), \u0027ale.\u0027 → \u0027Ale.\u0027"
+                    },
+                    {
+                        "id":  "5tZ_GGz7q8s",
+                        "url":  "https://www.youtube.com/watch?v=5tZ_GGz7q8s",
+                        "titulo":  "Anecdotario 379 - Clonaron mi voz para leer la Biblia FT. @FaridDieckOficial",
+                        "analizado":  "2026-11-25",
+                        "resultado":  "1 clip (ciclo 24, línea risas): anecdotario-voz-clonada 76 (Farid Dieck, Ricardo Pérez y Slobotzky en persona) | fuente_para_clips n.º 3 del Cazador de Risas (ciclo 13), prioridad media, tramo 0:45:58-0:46:52; sale de la ventana del Cazador el 25-nov a las 21:00 | Ricardo Pérez (3,17 M), publicado 22-nov 21:00, 5.476 s, 1.811.880 vistas, 32.211 me gusta y 300 comentarios al analizar (25-nov 19:08; unas 25.900/h) | sin picos; 8 marcas (1:08:30 el trastorno, 0:01:00, 0:55:00 la imitación, 1:13:00, 0:33:00, 1:12:00, 0:05:00, 0:10:00), ninguna en el tramo | se leyó el tramo 0:45:40-0:47:05; el Cazador leyó la transcripción entera | fuera: \u0027pero es un dictador\u0027 (0:46:52) y lo que sigue | final comprobado con whisper: acaba en \u0027eso no fue lo que dijo Jesús\u0027 | saturación (19:09): solo el episodio en YouTube; no se miró TikTok | palabras-rev.json: \u0027feligreses 15 80.\u0027 → (…)"
+                    },
+                    {
+                        "id":  "REAq17DhKsU",
+                        "url":  "https://www.youtube.com/watch?v=REAq17DhKsU",
+                        "titulo":  "Koddy G: “Ya llevo 5 temas pegados”, su conexión con Ryan Castro y el boom de Buenaventura",
+                        "analizado":  "2026-11-25",
+                        "resultado":  "2 clips (ciclo 24, urbano): koddy-quita-eso 71 y koddy-ryan-remix 68 (Køddy G en persona; Ryan Castro no sale) + 2 propuestos (\u0027ya llevo cinco\u0027 64, el primer show 63) | fuente_para_clips n.º 4 del Cazador Urbano (ciclo 22), única de cantantes | Mix Radio Colombia (60.600), publicado 23-nov 16:50, 1.612 s, 70 vistas, 3 me gusta y 1 comentario al analizar (25-nov 19:20) | sin picos ni marcas | transcripción leída entera (205 líneas): subtítulos automáticos flojos, voces de locutores y artista pisadas | fuera: \u0027para ver culitos\u0027 (0:01:56, sexual), \u0027¿anda casado, tiene novia?\u0027 (0:11:49, vida privada), la música de fondo | saturación (19:21): nada de esta entrevista; otras dos entrevistas suyas de la semana en otros canales | koddy-quita-eso se cortó tres veces (whisper, rev, rev con el final dudoso como (…)) | palabras-rev.json: los dos tramos (ver fichas); palabras-whisper.json del tramo 0:21:04-0:21:47"
+                    },
+                    {
+                        "id":  "1Pn6TOoIZlM",
+                        "url":  "https://www.youtube.com/watch?v=1Pn6TOoIZlM",
+                        "titulo":  "Así se toman las decisiones en mi constructora (comité real, sin filtro)",
+                        "analizado":  "2026-11-25",
+                        "resultado":  "sin clips (ciclo 24, urbano) + 2 propuestos (los arquitectos que \u0027cobran cientos de millones de pesos por el diseño de una mansión\u0027, 62; \u0027las puertas valen el doble, pero te cumple\u0027, 60) | fuente_para_clips n.º 2 del Cazador Urbano (ciclo 22), formato-matematica-del-lujo (apuesta, semilla) | Santi Ospina (11.200), publicado 24-nov 18:00, 970 s, 107 vistas y 1 comentario al analizar (25-nov 19:19) | sin picos ni marcas | transcripción leída entera (104 líneas): un comité de obra lleno de jerga, con voces que se pisan; por el texto no se sabe cuándo habla Santiago y cuándo su padre | ningún momento se entiende solo con su cifra: el \u002730 millones\u0027 no dice qué riesgo (55); \u0027una nómina de 20 micos\u0027 (52, fuera)"
                     }
                 ],
     "momentos":  [
@@ -8117,6 +8152,213 @@
                          "clip":  null,
                          "variante_de":  null,
                          "motivo":  "Willito \u0027casi lo logra\u0027 (sin remate) y la promoción del TikTok"
+                     },
+                     {
+                         "fuente":  "4i4O1pGkuPg",
+                         "inicio":  486.93,
+                         "fin":  531,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-25-culpa-contrasena",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "4i4O1pGkuPg",
+                         "inicio":  1665,
+                         "fin":  1785,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "tramo de reserva del Cazador de Risas (las notas de voz de Tato y \u0027Chicos, una pregunta\u0027), sin puntuar: un clip por fuente. Ventana hasta el 26-nov 20:56"
+                     },
+                     {
+                         "fuente":  "4i4O1pGkuPg",
+                         "inicio":  2450,
+                         "fin":  2517,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "tramo de reserva del Cazador de Risas (las excusas de Henry \u0027va por carretera\u0027), sin puntuar; cortar antes de \u0027es coyote y pasa mojados\u0027 (0:41:58). Ventana hasta el 26-nov 20:56"
+                     },
+                     {
+                         "fuente":  "4i4O1pGkuPg",
+                         "inicio":  2249,
+                         "fin":  2285,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "tramo de reserva del Cazador de Risas (el malabarista de semáforo), sin puntuar. Ventana hasta el 26-nov 20:56"
+                     },
+                     {
+                         "fuente":  "4i4O1pGkuPg",
+                         "inicio":  390,
+                         "fin":  485,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "la ludopatía y el chiste sexual de \u0027cuando lo mete\u0027 (exclusión del Cazador)"
+                     },
+                     {
+                         "fuente":  "4i4O1pGkuPg",
+                         "inicio":  562,
+                         "fin":  575,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "\u0027métanse un dedo\u0027 (fuera, como pidió el Cazador)"
+                     },
+                     {
+                         "fuente":  "-Mq_mOzwKU0",
+                         "inicio":  2253.17,
+                         "fin":  2278.82,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-25-guzman-birria",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "-Mq_mOzwKU0",
+                         "inicio":  1138,
+                         "fin":  1155,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "tramo de reserva del Cazador de Risas (Bidi bidi bom bom: el gancho tiene que decir que la canción es de Selena), sin puntuar. Ventana hasta el 27-nov 21:25"
+                     },
+                     {
+                         "fuente":  "-Mq_mOzwKU0",
+                         "inicio":  1618,
+                         "fin":  1638,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "tramo de reserva del Cazador de Risas (la noche de talentos: \u0027no me pidas una suma, una resta\u0027), sin puntuar. Ventana hasta el 27-nov 21:25"
+                     },
+                     {
+                         "fuente":  "-Mq_mOzwKU0",
+                         "inicio":  2280,
+                         "fin":  2324,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "\u0027Ey, Gera, regálame una birria\u0027, el coqueteo (\u0027no andar con ningún famoso\u0027) y el disfraz de Guasón: alarga sin remate claro; la birria se cortó sin esto"
+                     },
+                     {
+                         "fuente":  "5tZ_GGz7q8s",
+                         "inicio":  2758.67,
+                         "fin":  2812.52,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-25-anecdotario-voz-clonada",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "5tZ_GGz7q8s",
+                         "inicio":  2812.6,
+                         "fin":  2830,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "\u0027pero es un dictador\u0027: lleva a los videos de un dictador de Nicaragua (exclusión del Cazador)"
+                     },
+                     {
+                         "fuente":  "REAq17DhKsU",
+                         "inicio":  1264.15,
+                         "fin":  1306.6,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-25-koddy-quita-eso",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "REAq17DhKsU",
+                         "inicio":  429.35,
+                         "fin":  469.1,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-25-koddy-ryan-remix",
+                         "variante_de":  null,
+                         "motivo":  ""
+                     },
+                     {
+                         "fuente":  "REAq17DhKsU",
+                         "inicio":  600,
+                         "fin":  631,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "\u0027decían que iba a pegar una sola… ya llevo cinco\u0027 (64): la misma idea que koddy-quita-eso y subtítulos con voces pisadas"
+                     },
+                     {
+                         "fuente":  "REAq17DhKsU",
+                         "inicio":  201,
+                         "fin":  275,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "el primer show en Buenaventura, \u0027yo en qué me metí… me quería tirar de la tarima\u0027 (63): subtítulos muy pisados entre locutores y artista"
+                     },
+                     {
+                         "fuente":  "REAq17DhKsU",
+                         "inicio":  928,
+                         "fin":  974,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "el cuaderno de Barbie lleno de letras (58): sin remate claro"
+                     },
+                     {
+                         "fuente":  "REAq17DhKsU",
+                         "inicio":  116,
+                         "fin":  125,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "\u0027para ver culitos\u0027 (sexual)"
+                     },
+                     {
+                         "fuente":  "REAq17DhKsU",
+                         "inicio":  709,
+                         "fin":  722,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "\u0027¿anda casado, tiene novia?\u0027 (vida privada)"
+                     },
+                     {
+                         "fuente":  "1Pn6TOoIZlM",
+                         "inicio":  261,
+                         "fin":  318,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "los arquitectos que \u0027cobran cientos de millones de pesos por el diseño de una mansión\u0027 y no visitan la obra (62): no se sabe por la transcripción si habla Santiago o su padre, generaliza contra una profesión (\u0027hipizudos\u0027, \u0027chimbas de renders\u0027) y el comité está lleno de jerga; 107 vistas"
+                     },
+                     {
+                         "fuente":  "1Pn6TOoIZlM",
+                         "inicio":  787,
+                         "fin":  863,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "\u0027¿para qué contrataste al que no te va a cumplir?… las puertas valen el doble, pero te cumple\u0027 (60): voces que se pisan y subtítulos rotos; dura más de 75 s entero"
+                     },
+                     {
+                         "fuente":  "1Pn6TOoIZlM",
+                         "inicio":  63,
+                         "fin":  97,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "\u0027no vale la pena correr un riesgo por 30 millones de pesos\u0027 (55): no se dice qué riesgo; no se entiende solo"
+                     },
+                     {
+                         "fuente":  "1Pn6TOoIZlM",
+                         "inicio":  910,
+                         "fin":  952,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "\u0027nos vamos a traer todo de China… una nómina de 20 micos\u0027 (52): llama \u0027micos\u0027 a los trabajadores"
                      }
                  ],
     "lote_2026_11_06":  "ocho-videos-usuario",
@@ -8126,5 +8368,6 @@
     "_nota_ciclo_20":  "Ciclo 20 (21-nov, 21:12-21:45; procesa el ciclo 18 del Cazador Urbano y el 9 del de Risas, los dos nuevos respecto al ciclo 19 de las 11:50). Órdenes del orquestador: calidad antes que cantidad (la cola de TikTok risas sigue llena), un clip por fuente en risas; en urbano, las mejores fuentes son el segundo día de las 72 horas de La Ganga (Lonche en Guatapé, Samulx de noche y la fiesta de The Chanty, con alcohol y mujeres de fondo); nada sobre Herrera; no tocar curiosismo/; el Publicador corre a la vez desde las 21:23 y lee clips.json, que se escribe de una vez (archivo temporal y renombrado). Cinco fuentes, como dice config: tres urbanas y dos de risas. Risas: Nadie Sabe Nada 14x12 (2D50tEbbKfw, la única alta: el robot guardaespaldas, 80) y Mestizos Precisos 16 (xoTfI839Phw: se prefirió la anécdota del policía de Ricardo Quevedo, perfil en persona, 77, al tramo de la \u0027migajera\u0027 que marcaba el Cazador, que queda propuesto). Urbano: sin clips. Guatapé de Lonche (1jfaTc0PEsw) dio un solo momento en el umbral (\u0027¿Quién va a subir esa piedra?\u0027, 16:37-17:00, 70), pero el corte se colgó en la descarga y el reintento fuera del sandbox falló con \u0027ERROR: [youtube] The page needs to be reloaded\u0027 (21:41): queda propuesto. La noche de Samulx (TvMb0YlEoMM) es la misma de Provenza que CGICIcJ8lCY, con las hormigas ya cortadas; la fiesta de The Chanty (vEEzgQ4EyQU) es alcohol, drogas y vida privada, sin ninguna cifra. Por el mismo fallo de YouTube no se repitió el corte de Quevedo para quitar el último segundo (\u0027Si que lo migajero…\u0027). La Revuelta con Candela Peña (SQpP_Hjbim8) no se analizó: tope de fuentes y sale de la ventana a las 05:00 del 22-nov (además, el chiste es con una persona del público). La carta de La Luciérnaga del 20-nov (1umsdaFlemE, imitador de De la Espriella, derecha) no se cortó: el Cazador avisa de que desequilibra la balanza (derecha 2, centroizquierda 1); ningún clip político en este ciclo. Sin variantes: cada línea tiene una sola cuenta activa por plataforma. clips.json se reescribió con los nuevos delante; no se podaron los clips de más de 7 días. Informe: salidas/clipero/informes/2026-11-21_2112.md.",
     "_nota_ciclo_21":  "Ciclo 21 (22-nov, 12:45-13:30; procesa el ciclo 19 del Cazador Urbano y el 10 del de Risas, los dos nuevos). Órdenes del orquestador: lo fuerte es el día después de la final de Boca (La Cobra, Davoo, Soy Roberto Uribe), cortando solo a los creadores, sin imágenes del partido; también Samulx (fiesta en casa de Andrés Aguirre) y The Chanty (jet ski); nada sobre Herrera; Guatapé de Lonche (1jfaTc0PEsw) una sola vez y saltarlo si vuelve \u0027The page needs to be reloaded\u0027; risas: FranCupido Ep. 8 (0:03:00-0:04:18) alta y Nadie Sabe Nada 14x12 (32:35-33:35) solo si hay hueco; calidad antes que cantidad, priorizar urbano si hay momentos fuertes y limpios; no tocar curiosismo/; sin descargas abiertas al acabar (viene el Publicador). Cinco fuentes nuevas, como dice config: cuatro urbanas (La Cobra 5St0GQXddug, Davoo IGjKe0aNlbs, Roberto Uribe 40gAwbuwZac, The Chanty ZGb1HxyHgPs) y una de risas (FranCupido dMnCmCEZt4g; el Cazador de Risas solo traía una fuente nueva). 7 clips: 6 urbanos (cobra-prediccion-final 78, uribe-davoo-microfono 73, cobra-gracias-colombia 72, davoo-otros-29-equipos 71, cobra-medalla-merentiel 71 y ganga-piedra-penol 70, el momento propuesto del ciclo 20, que esta vez se descargó al primer intento) y 1 de risas (francupido-bombera-carga 79). Nadie Sabe Nada 14x12 (la IA que se lo inventó, 74) no se cortó: la cola de TikTok risas tiene 4 clips para el 22-nov y FranCupido entra el 23-nov; sigue propuesto hasta el 24-nov. The Chanty no dio nada (jet ski sin diálogo; el resto, alcohol y bromas sexuales). Se eligió The Chanty y no la fiesta de Samulx (MpO-v92soNE) para la cuarta plaza urbana porque la fiesta de The Chanty del ciclo 20, en la misma casa, fue todo alcohol y drogas: la de Samulx queda para el ciclo siguiente, con \u0027CUANTO ES LO MAXIMO QUE HEMOS GANADO EN 1 MES\u0027 de Westcol (olXao5WK9qY, la cifra en 13:20-14:10, perfil del usuario). cobra-prediccion-final se cortó dos veces: el primero acababa con el arranque de la frase siguiente en los subtítulos. Sin variantes: cada línea tiene una sola cuenta activa por plataforma. clips.json se reescribió de una vez con los nuevos delante; no se podaron los clips de más de 7 días. Ningún clip político. Informe: salidas/clipero/informes/2026-11-22_1245.md.",
     "_nota_ciclo_22":  "Ciclo 22 (22-nov, 20:13-20:35; procesa el ciclo 20 del Cazador Urbano y el 11 del de Risas, los dos nuevos). Órdenes del orquestador: sin Kick, nada sobre Herrera; pendientes la cifra de Westcol (olXao5WK9qY) y los tramos limpios de Samulx (16:00-19:30 y 20:00-23:00, que son de wcFZHzo1Y-A, \u0027NO SABEMOS QUE PASO AYER\u0027; la fiesta en casa de Andrés Aguirre, MpO-v92soNE, sigue sin analizar); DESCONTROLANDO GUATAPE de Lonche; risas: Juanpis con Brenda Asnicar (MoxauCN43ks) al final, solo si sus subtítulos se pueden bajar; calidad antes que cantidad (cola de risas llena); no tocar curiosismo/. Cuatro fuentes urbanas analizadas (Westcol, Samulx, Lonche, Okyyy). 3 clips urbanos: westcol-mejor-mes 76 (Westcol en persona; confirmar escuchando que la cifra la dice él), ganga-primera-piedra 72 y ganga-cartagena-privado 68 (\u0027éxtasis\u0027 en el subtítulo: ver antes de publicar). Lonche (pzhADojtbcI) y Okyyy (ncTfqAy3mVM) sin clips. Risas: ninguno. Juanpis no se analizó: el ciclo se cerró a las 20:35, antes de que acabara el estreno (hacia las 21:10), así que pasa al ciclo siguiente sin gastar plaza; FranCupido 21:50-22:48 (70) y NSN 14x12 32:35-33:35 (74, sale de la ventana el 24-nov a las 07:00) siguen propuestos por la cola llena. Sin variantes (una cuenta activa por línea y plataforma). Informe: salidas/clipero/informes/2026-11-22_2013.md.",
-    "_nota_ciclo_23":  "Ciclo 23 (23-nov; procesa el ciclo 21 del Cazador Urbano y el 12 del de Risas, los dos nuevos). Arrancó a las 00:45 y se cortó: la red falló (no resolvía www.youtube.com) y la PC se suspendió durante el primer analizar; el vigilante del orquestador lo paró a los 600 s. Se retomó a las 19:13 con órdenes: volver a medir, risas primero (la cuna de Hablando Huevadas y la consignación de Juanpis), ir a lo seguro (2-4 clips) y terminar antes de las 20:45; sin Kick, nada de Herrera, no tocar curiosismo/, salidas/para-subir/ ni %USERPROFILE%\\.legion. Tres fuentes analizadas (dos de risas, una urbana: la clase de wakesurf de Ovy en el canal de Samulx, la más rápida de lo nuevo). 4 clips: hh-cuna-inteligente 82 y juanpis-consigna-papa 78 (risas), ganga-leandro-wakesurf 72 y ganga-bote-ferrari 70 (urbano). En HH y Juanpis solo se leyeron los tramos (el Cazador leyó las transcripciones enteras). Corrección del Cazador Urbano: las 72 horas de La Ganga acabaron la noche del 22-nov, no el 23-nov a las 19:00. Se volvió a cortar ganga-cartagena-privado (mismo tramo) con el gancho \u0027Casi se van a Cartagena en avión privado\u0027 en vez de \u0027Ayer casi se van…\u0027, porque sale en la cola el 24-nov; se corrigió el texto de las fichas de cartagena-privado, primera-piedra, westcol-mejor-mes, piedra-penol, hit-cuatro-horas y lonche-hormigas-culonas; las ventanas no cambian (la del día después sigue hasta el 24-nov). Quedan sin analizar: los minimotos y la despedida de las 72 horas (1vvSAlzi2jU, 2.590/h), la mansión de Lonche y Willito (ULUKb4dlZd8), el arranque de Westcol (txl7BeF58KA), la fiesta en casa de Andrés Aguirre (MpO-v92soNE), The Chanty con la policía (ShuQKCtA1Js) y el Anecdotario 379 (5tZ_GGz7q8s). Sin variantes (una cuenta activa por línea y plataforma). Informe: salidas/clipero/informes/2026-11-23_1913.md."
+    "_nota_ciclo_23":  "Ciclo 23 (23-nov; procesa el ciclo 21 del Cazador Urbano y el 12 del de Risas, los dos nuevos). Arrancó a las 00:45 y se cortó: la red falló (no resolvía www.youtube.com) y la PC se suspendió durante el primer analizar; el vigilante del orquestador lo paró a los 600 s. Se retomó a las 19:13 con órdenes: volver a medir, risas primero (la cuna de Hablando Huevadas y la consignación de Juanpis), ir a lo seguro (2-4 clips) y terminar antes de las 20:45; sin Kick, nada de Herrera, no tocar curiosismo/, salidas/para-subir/ ni %USERPROFILE%\\.legion. Tres fuentes analizadas (dos de risas, una urbana: la clase de wakesurf de Ovy en el canal de Samulx, la más rápida de lo nuevo). 4 clips: hh-cuna-inteligente 82 y juanpis-consigna-papa 78 (risas), ganga-leandro-wakesurf 72 y ganga-bote-ferrari 70 (urbano). En HH y Juanpis solo se leyeron los tramos (el Cazador leyó las transcripciones enteras). Corrección del Cazador Urbano: las 72 horas de La Ganga acabaron la noche del 22-nov, no el 23-nov a las 19:00. Se volvió a cortar ganga-cartagena-privado (mismo tramo) con el gancho \u0027Casi se van a Cartagena en avión privado\u0027 en vez de \u0027Ayer casi se van…\u0027, porque sale en la cola el 24-nov; se corrigió el texto de las fichas de cartagena-privado, primera-piedra, westcol-mejor-mes, piedra-penol, hit-cuatro-horas y lonche-hormigas-culonas; las ventanas no cambian (la del día después sigue hasta el 24-nov). Quedan sin analizar: los minimotos y la despedida de las 72 horas (1vvSAlzi2jU, 2.590/h), la mansión de Lonche y Willito (ULUKb4dlZd8), el arranque de Westcol (txl7BeF58KA), la fiesta en casa de Andrés Aguirre (MpO-v92soNE), The Chanty con la policía (ShuQKCtA1Js) y el Anecdotario 379 (5tZ_GGz7q8s). Sin variantes (una cuenta activa por línea y plataforma). Informe: salidas/clipero/informes/2026-11-23_1913.md.",
+    "_nota_ciclo_24":  "Ciclo 24 (25-nov, 18:21-19:45; procesa el ciclo 22 del Cazador Urbano, generado a las 00:30, y el 13 del de Risas, de las 18:15; los dos nuevos respecto al ciclo 23, que procesó el 21 y el 12). Órdenes del orquestador: sin Kick, nada de Herrera, no tocar curiosismo/, salidas/para-subir/ ni %USERPROFILE%\\.legion, sin commit; ir a lo seguro (3-5 clips) y terminar hacia las 20:15. Risas por prioridad del Cazador: la contraseña de Quevedo, la birria de Alejandra Guzmán y, si cabía, la voz clonada del Anecdotario 379 (sale de la ventana hoy a las 21:00). Urbano: volver a medir; variedad fuera de La Ganga (Santiago Ospina y Køddy G, los dos con muy pocas vistas: juzgar si hay un momento que funcione solo); el accidente de Leandro (KqJ-qgIO90I) solo si quedaba hueco. Cinco fuentes analizadas (el tope): tres de risas y dos urbanas. 5 clips: culpa-contrasena 80, guzman-birria 79 y anecdotario-voz-clonada 76 (risas); koddy-quita-eso 71 y koddy-ryan-remix 68 (urbano). Santiago Ospina sin clip: el comité es jerga con voces que se pisan y ningún momento se entiende solo con su cifra (dos propuestos, 62 y 60). El accidente de Leandro no se analizó: tope de cinco fuentes alcanzado, y ya tenía 50 h. El primer corte (la contraseña) tardó 38 min (18:25-19:03; los demás, 2-4 min). En risas solo se leyeron los tramos (el Cazador leyó las transcripciones enteras); Ospina y Køddy, enteras. Sin variantes (una cuenta activa por línea y plataforma). Informe: salidas/clipero/informes/2026-11-25_1821.md."
 }

@@ -1,7 +1,147 @@
 {
-    "generado":  "2026-11-23T19:45:00-05:00",
-    "ciclo":  23,
+    "generado":  "2026-11-25T19:41:00-05:00",
+    "ciclo":  24,
     "clips":  [
+                  {
+                      "id":  "2026-11-25-culpa-contrasena",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  80,
+                      "gancho":  "Cuando cambias la contraseña y pones la misma",
+                      "archivo":  "salidas/clipero/clips/2026-11-25-culpa-contrasena/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-25-culpa-contrasena/ficha.md",
+                      "duracion_seg":  44.1,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=4i4O1pGkuPg",
+                                     "canal":  "Los De La Culpa",
+                                     "inicio":  486.93,
+                                     "fin":  531
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-26"
+                  },
+                  {
+                      "id":  "2026-11-25-guzman-birria",
+                      "estado":  "listo",
+                      "tipo":  "historia",
+                      "puntaje":  79,
+                      "gancho":  "Alejandra Guzmán intentó pasar desapercibida",
+                      "archivo":  "salidas/clipero/clips/2026-11-25-guzman-birria/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-25-guzman-birria/ficha.md",
+                      "duracion_seg":  25.7,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=-Mq_mOzwKU0",
+                                     "canal":  "Escorpión Dorado (Al Volante)",
+                                     "inicio":  2253.17,
+                                     "fin":  2278.82
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-27"
+                  },
+                  {
+                      "id":  "2026-11-25-anecdotario-voz-clonada",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  76,
+                      "gancho":  "Farid Dieck: clonaron su voz con IA",
+                      "archivo":  "salidas/clipero/clips/2026-11-25-anecdotario-voz-clonada/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-25-anecdotario-voz-clonada/ficha.md",
+                      "duracion_seg":  53.9,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=5tZ_GGz7q8s",
+                                     "canal":  "Ricardo Pérez (Anecdotario de La Cotorrisa)",
+                                     "inicio":  2758.67,
+                                     "fin":  2812.52
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-26"
+                  },
+                  {
+                      "id":  "2026-11-25-koddy-quita-eso",
+                      "estado":  "listo",
+                      "tipo":  "historia",
+                      "puntaje":  71,
+                      "gancho":  "Koddy G: de «quita eso» a contratarlo",
+                      "archivo":  "salidas/clipero/clips/2026-11-25-koddy-quita-eso/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-25-koddy-quita-eso/ficha.md",
+                      "duracion_seg":  42.5,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=REAq17DhKsU",
+                                     "canal":  "Mix Radio Colombia",
+                                     "inicio":  1264.15,
+                                     "fin":  1306.6
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "urbano",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-27"
+                  },
+                  {
+                      "id":  "2026-11-25-koddy-ryan-remix",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  68,
+                      "gancho":  "Koddy G: cómo entró Ryan Castro al remix",
+                      "archivo":  "salidas/clipero/clips/2026-11-25-koddy-ryan-remix/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-25-koddy-ryan-remix/ficha.md",
+                      "duracion_seg":  39.8,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=REAq17DhKsU",
+                                     "canal":  "Mix Radio Colombia",
+                                     "inicio":  429.35,
+                                     "fin":  469.1
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "urbano",
+                      "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-27"
+                  },
                   {
                       "id":  "2026-11-23-hh-cuna-inteligente",
                       "estado":  "listo",
