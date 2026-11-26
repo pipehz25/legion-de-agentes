@@ -426,6 +426,15 @@ Todo lo intermedio queda en `animados/propios/<id>/largo/` (no va a GitHub; la c
 
 ElevenLabs cobra por carácter: **10 minutos de narración son unos 8.000 a 9.000 caracteres** (de 1.300 a 1.500 palabras). Pon `tope_caracteres` un poco por encima de lo que mida el guion (`voz.mjs` cuenta antes de generar y no sigue si se pasa) y revisa el guion con Kokoro (`"motor": "kokoro"`, gratis) antes de gastar. Cada frase se paga una sola vez (`animados/.voz-cache/`): cambiar una frase solo cobra esa frase, y cambiar imágenes, capítulos o tarjetas no cobra nada.
 
+### Voz de Deepgram (alternativa a ElevenLabs)
+
+`"motor": "deepgram"` y `"voz": "aura-2-<nombre>-es"` (Aura-2, [voces en español](https://developers.deepgram.com/docs/tts-models): colombianas `celeste` y `gloria`; mexicanas `valerio`, `sirio`, `javier`, `luciano`, `estrella` y `olivia`; latinoamericanas `aquila` y `selena`; de España y de Argentina, otras). Cuesta 0,030 USD por 1.000 caracteres (unos 0,17 USD un video de 5.800). Funciona como ElevenLabs: misma caché por frase en `animados/.voz-cache/`, mismo `tope_caracteres`, la misma comprobación con whisper y `"velocidad"` opcional. Antes de generar dice lo que va a cobrar, el saldo y lo que lleva el mes; al terminar, lo que cobró.
+
+- **Clave:** la guarda una persona con `powershell -NoProfile -ExecutionPolicy Bypass -File animados\herramientas\guardar-clave-deepgram.ps1` (queda en `%USERPROFILE%\.legion\deepgram\clave.txt`). Con una clave de rol Member se ve el uso; para ver el saldo, de rol Admin u Owner.
+- **Uso y saldo:** `node animados/herramientas/voz.mjs --saldo-deepgram`.
+- **Muestra de una voz:** `node animados/herramientas/voz.mjs --muestra-deepgram aura-2-valerio-es <salida.wav> "<texto>"`.
+- Hasta 2.000 caracteres por frase (las frases de los guiones caben de sobra).
+
 ### Rendimiento
 
 El render se reparte en tramos que corren en paralelo (un tramo por cada 3 hilos del procesador; `LEGION_TRAMOS_A_LA_VEZ` lo cambia). Medido el 2026-11-19 en la PC de Santiago (portátil con Windows, 16 hilos, 5 tramos a la vez):

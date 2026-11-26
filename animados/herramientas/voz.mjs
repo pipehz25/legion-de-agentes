@@ -9,7 +9,7 @@
 //       <video>/tiempos.json           (inicio y fin de cada frase y de cada palabra)
 //
 // La voz sale de una grabacion de una persona ("motor": "grabada"), de ElevenLabs, de
-// Higgsfield, de Kokoro (local) o de archivos sueltos. Los tiempos por palabra salen del
+// Deepgram, de Higgsfield, de Kokoro (local) o de archivos sueltos. Los tiempos por palabra salen del
 // propio audio: se detectan sus pausas y cada palabra recibe su parte del tramo.
 //
 // Sale con codigo 3 si el guion pide voz grabada y la grabacion todavia no esta.
@@ -66,7 +66,102 @@ async function vocesElevenlabs() {
   return (await (await elevenlabs("/voices")).json()).voices || [];
 }
 
+// --- Deepgram ("motor": "deepgram") --------------------------------------------------
+// Voz de pago (Aura-2), se cobra por caracter: 0,030 USD por 1.000 en pago por uso (otro
+// precio con DEEPGRAM_USD_POR_MIL). La clave va FUERA del proyecto: en DEEPGRAM_API_KEY o en
+// ~/.legion/deepgram/clave.txt, que guarda una persona con
+// animados/herramientas/guardar-clave-deepgram.ps1; este script la usa y nunca la imprime.
+// "voz" en el guion es el modelo, p. ej. "aura-2-valerio-es" (voces en espanol:
+// https://developers.deepgram.com/docs/tts-models). Hasta 2.000 caracteres por frase.
+//   node animados/herramientas/voz.mjs --saldo-deepgram          (saldo y caracteres de voz del mes)
+//   node animados/herramientas/voz.mjs --muestra-deepgram <modelo> <salida.wav> <texto>
+const DG_API = "https://api.deepgram.com/v1";
+const DG_ARCHIVO_CLAVE = path.join(os.homedir(), ".legion", "deepgram", "clave.txt");
+const DG_USD_POR_MIL = Number(process.env.DEEPGRAM_USD_POR_MIL || 0.03);
+const usdDeepgram = (caracteres) => `~${((caracteres * DG_USD_POR_MIL) / 1000).toFixed(3)} USD`;
+function claveDeepgram() {
+  const clave = (process.env.DEEPGRAM_API_KEY || (fs.existsSync(DG_ARCHIVO_CLAVE) ? fs.readFileSync(DG_ARCHIVO_CLAVE, "utf8") : "")).trim();
+  if (!clave) {
+    throw new Error(
+      `Falta la clave de Deepgram. Guardala con: powershell -NoProfile -ExecutionPolicy Bypass -File animados\\herramientas\\guardar-clave-deepgram.ps1  (no la pegues en el chat).`,
+    );
+  }
+  return clave;
+}
+async function deepgram(ruta, opciones = {}) {
+  const r = await fetch(DG_API + ruta, { ...opciones, headers: { Authorization: "Token " + claveDeepgram(), ...(opciones.headers || {}) } });
+  if (!r.ok) {
+    let detalle = "";
+    try {
+      const j = await r.json();
+      detalle = j.err_msg || j.message || JSON.stringify(j);
+    } catch {}
+    const error = new Error(`Deepgram respondio ${r.status} en ${ruta.split("?")[0]}: ${String(detalle).slice(0, 400)}`);
+    error.status = r.status;
+    throw error;
+  }
+  return r;
+}
+// Genera un texto con un modelo y lo deja en `destino` (WAV a 48 kHz). Devuelve los caracteres cobrados.
+async function hablaDeepgram(texto, modelo, destino, velocidad = 1) {
+  if (texto.length > 2000) throw new Error(`Deepgram admite hasta 2.000 caracteres por pedido y esta frase tiene ${texto.length}: partela.`);
+  const q = new URLSearchParams({ model: modelo, encoding: "linear16", container: "wav", sample_rate: "48000" });
+  if (velocidad !== 1) q.set("speed", String(velocidad));
+  const r = await deepgram("/speak?" + q, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ text: texto }) });
+  fs.mkdirSync(path.dirname(destino), { recursive: true });
+  fs.writeFileSync(destino + ".tmp", Buffer.from(await r.arrayBuffer()));
+  fs.renameSync(destino + ".tmp", destino);
+  return Number(r.headers.get("dg-char-count")) || texto.length;
+}
+// Saldo y caracteres de voz del mes (lo que no deje ver la clave queda en null).
+async function cuentaDeepgram() {
+  const { projects = [] } = await (await deepgram("/projects")).json();
+  const p = projects[0];
+  if (!p) return { proyecto: null, saldo: null, caracteresMes: null };
+  let saldo = null;
+  try {
+    const b = await (await deepgram(`/projects/${p.project_id}/balances`)).json();
+    saldo = (b.balances || []).map((x) => `${Number(x.amount).toFixed(2)} ${x.units}`).join(" + ") || null;
+  } catch {}
+  let caracteresMes = null;
+  try {
+    const hoy = new Date();
+    const dia = (d) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+    const q = new URLSearchParams({ start: dia(new Date(hoy.getFullYear(), hoy.getMonth(), 1)), end: dia(hoy), endpoint: "speak" });
+    const u = await (await deepgram(`/projects/${p.project_id}/usage/breakdown?` + q)).json();
+    caracteresMes = (u.results || []).reduce((suma, x) => suma + (Number(x.tts_characters) || 0), 0);
+  } catch {}
+  return { proyecto: p.name || p.project_id, saldo, caracteresMes };
+}
+function textoCuentaDeepgram(c) {
+  const partes = [];
+  if (c.saldo) partes.push(`saldo ${c.saldo}`);
+  if (c.caracteresMes !== null) partes.push(`este mes van ${c.caracteresMes} caracteres de voz (${usdDeepgram(c.caracteresMes)})`);
+  return partes.length ? ` (proyecto ${c.proyecto}: ${partes.join("; ")})` : "";
+}
+
 const modo = process.argv[2];
+if (modo === "--saldo-deepgram") {
+  const c = await cuentaDeepgram();
+  if (!c.proyecto) {
+    console.log("La clave no ve ningun proyecto de Deepgram.");
+    process.exit(1);
+  }
+  console.log(`Deepgram, proyecto ${c.proyecto}`);
+  console.log(`  saldo: ${c.saldo ?? "la clave no puede verlo (hace falta una clave de rol Admin u Owner); miralo en console.deepgram.com"}`);
+  console.log(`  voz este mes: ${c.caracteresMes === null ? "la clave no puede verlo" : `${c.caracteresMes} caracteres (${usdDeepgram(c.caracteresMes)})`}`);
+  process.exit(0);
+}
+if (modo === "--muestra-deepgram") {
+  const [modelo, salida, ...palabras] = process.argv.slice(3);
+  if (!modelo || !salida || !palabras.length) {
+    console.error("Uso: node animados/herramientas/voz.mjs --muestra-deepgram <modelo> <salida.wav> <texto>");
+    process.exit(1);
+  }
+  const cobrados = await hablaDeepgram(palabras.join(" "), modelo, path.resolve(salida));
+  console.log(`${modelo}: ${cobrados} caracteres (${usdDeepgram(cobrados)}) -> ${path.resolve(salida)}`);
+  process.exit(0);
+}
 if (modo === "--voces-elevenlabs") {
   for (const v of await vocesElevenlabs()) {
     const l = v.labels || {};
@@ -507,6 +602,21 @@ function firmaElevenlabs(frase, vozId) {
   return { firma, dicho, guardado: path.join(ANIMADOS, ".voz-cache", crypto.createHash("sha1").update(firma).digest("hex") + ".mp3") };
 }
 
+// Deepgram: firma de cada frase (texto, modelo y velocidad) y su archivo en la cache.
+let dgCobrados = 0;
+function firmaDeepgram(frase) {
+  const modelo = frase.voz || guion.voz;
+  if (!modelo || !/^aura-/.test(modelo)) {
+    throw new Error('Con "motor": "deepgram" el guion necesita "voz" con un modelo Aura, p. ej. "aura-2-valerio-es".');
+  }
+  const velocidad = frase.velocidad || guion.velocidad || 1;
+  const dicho = paraLaVoz(frase.texto);
+  const sellado = { texto: frase.texto, motor: "deepgram", voz: modelo, velocidad };
+  if (dicho !== frase.texto) sellado.dicho = dicho;
+  const firma = JSON.stringify(sellado);
+  return { firma, dicho, modelo, velocidad, guardado: path.join(ANIMADOS, ".voz-cache", crypto.createHash("sha1").update(firma).digest("hex") + ".wav") };
+}
+
 // 1. Una frase por archivo: voz, y recorte del silencio de los extremos.
 async function hablar(frase) {
   const txt = path.join(dirVoz, frase.id + ".txt");
@@ -552,6 +662,23 @@ async function hablar(frase) {
       fs.mkdirSync(path.dirname(guardado), { recursive: true });
       fs.writeFileSync(guardado + ".tmp", Buffer.from(await r.arrayBuffer()));
       fs.renameSync(guardado + ".tmp", guardado);
+      // No se reintenta solo (cada intento cuesta): si whisper oye algo distinto, se avisa.
+      const fallos = difiere(guardado, frase.texto);
+      if (fallos !== null && fallos > Math.max(1, Math.round(sonido(frase.texto).length * 0.2))) {
+        revisarDeOido.push(`${frase.id} "${frase.texto}": whisper oye ${fallos} palabra(s) distinta(s)`);
+      }
+    }
+    correr("ffmpeg", ["-v", "error", "-y", "-i", guardado, "-af", recorte, "-ar", "48000", "-ac", "1", wav]);
+    fs.writeFileSync(sello, firma, "utf8");
+    return wav;
+  }
+
+  if (MOTOR === "deepgram") {
+    const { firma, dicho, modelo, velocidad, guardado } = firmaDeepgram(frase);
+    if (yaEsta(firma)) return wav;
+    // Cada frase se paga una sola vez: queda en animados/.voz-cache/ por texto, modelo y velocidad.
+    if (!fs.existsSync(guardado)) {
+      dgCobrados += await hablaDeepgram(dicho, modelo, guardado, velocidad);
       // No se reintenta solo (cada intento cuesta): si whisper oye algo distinto, se avisa.
       const fallos = difiere(guardado, frase.texto);
       if (fallos !== null && fallos > Math.max(1, Math.round(sonido(frase.texto).length * 0.2))) {
@@ -756,6 +883,27 @@ if (MOTOR === "elevenlabs") {
     process.exit(1);
   }
 }
+if (MOTOR === "deepgram") {
+  let porPagar = 0;
+  for (const frase of guion.frases) {
+    const { firma, dicho, guardado } = firmaDeepgram(frase);
+    const sello = path.join(dirVoz, frase.id + ".firma");
+    const yaHecha = fs.existsSync(path.join(dirVoz, frase.id + ".wav")) && fs.existsSync(sello) && fs.readFileSync(sello, "utf8") === firma;
+    if (!yaHecha && !fs.existsSync(guardado)) porPagar += dicho.length;
+  }
+  let cuenta = "";
+  if (porPagar > 0) {
+    try {
+      cuenta = textoCuentaDeepgram(await cuentaDeepgram());
+    } catch {}
+  }
+  console.log(`Deepgram, voz ${guion.voz}: ${porPagar} caracteres por generar (${usdDeepgram(porPagar)})${cuenta}`);
+  const tope = guion.tope_caracteres ?? 3000;
+  if (porPagar > tope) {
+    console.error(`No sigo: ${porPagar} caracteres pasan el tope de ${tope}. Si es a proposito, sube "tope_caracteres" en el guion.`);
+    process.exit(1);
+  }
+}
 
 for (const frase of guion.frases) {
   process.stdout.write(`voz ${frase.id} ... `);
@@ -820,6 +968,7 @@ fs.writeFileSync(
   JSON.stringify({ duracion: total, audio: "assets/narracion.wav", escenas, frases }, null, 2) + "\n",
   "utf8",
 );
+if (dgCobrados > 0) console.log(`\nDeepgram cobro ${dgCobrados} caracteres (${usdDeepgram(dgCobrados)}).`);
 if (revisarDeOido.length) {
   console.log("\nPara revisar de oido (la voz puede haber dicho algo distinto al guion):");
   revisarDeOido.forEach((r) => console.log("  - " + r));
