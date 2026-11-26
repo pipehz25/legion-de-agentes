@@ -1,0 +1,195 @@
+{
+  "capitulo": "c2",
+  "escenas": {
+    "c2-lima-bogota": {
+      "plantilla": "mapa",
+      "datos": {
+        "vistas": [{ "centro": [-74, -4], "ancho": 46 }],
+        "paises": [
+          { "id": "colombia", "color": "acento2", "opacidad": 0.35, "en": 0 },
+          { "id": "venezuela", "color": "acento2", "opacidad": 0.35, "en": 0 },
+          { "id": "ecuador", "color": "acento2", "opacidad": 0.35, "en": 0 },
+          { "id": "panama", "color": "acento2", "opacidad": 0.35, "en": 0 }
+        ],
+        "rutas": [{ "puntos": [[-77.04, -12.05], [-74.07, 4.71]], "estilo": "discontinua", "color": "acento", "palabra": "gobierno", "dur": 1.4 }],
+        "marcas": [
+          { "texto": "Lima", "lugar": [-77.04, -12.05], "lado": "derecha", "tam": 40, "palabra": "Lima" },
+          { "texto": "Bogotá", "lugar": "bogota", "lado": "derecha", "tam": 40, "palabra": "Bogotá" }
+        ],
+        "cartela": { "titulo": "1826", "sub": "Bolívar, lejos de Bogotá", "en": 0.02 }
+      }
+    },
+    "c2-santander": {
+      "plantilla": "personaje",
+      "datos": {
+        "personaje": "santander",
+        "pose": "firmar",
+        "anios": "Agosto 1824",
+        "rol": "Decreta: los hombres de 16 a 50 años, a alistarse",
+        "palabra_anios": "agosto",
+        "palabra_rol": "decretó"
+      }
+    },
+    "c2-cincuenta-mil": {
+      "plantilla": "cifra",
+      "datos": {
+        "valor": 50000,
+        "unidad": "soldados",
+        "rotulo": "pedidos a Venezuela",
+        "dibujo": "canon",
+        "palabra": "cincuenta",
+        "palabra_rotulo": "Venezuela"
+      }
+    },
+    "c2-paez": {
+      "plantilla": "personaje",
+      "datos": {
+        "personaje": "paez",
+        "pose": "brazos-cruzados",
+        "anios": "En 1826",
+        "rol": "Jefe militar de Venezuela",
+        "palabra_anios": "general",
+        "palabra_rol": "jefe"
+      }
+    },
+    "c2-juicio": {
+      "plantilla": "mapa",
+      "datos": {
+        "vistas": [{ "centro": [-70.5, 7.5], "ancho": 22 }],
+        "paises": [
+          { "id": "venezuela", "color": "acento", "opacidad": 0.35, "en": 0 },
+          { "id": "colombia", "color": "acento2", "opacidad": 0.4, "en": 0 }
+        ],
+        "rutas": [{ "puntos": [[-66.9, 10.5], [-74.07, 4.71]], "estilo": "flecha", "color": "acento", "palabra": "llamado", "dur": 1.4 }],
+        "marcas": [
+          { "texto": "Caracas", "lugar": "caracas", "lado": "arriba", "tam": 36, "en": 0.02 },
+          { "texto": "Bogotá", "lugar": "bogota", "lado": "derecha", "tam": 36, "palabra": "Bogotá" }
+        ],
+        "cartela": { "titulo": "Llamado a juicio", "sub": "De Caracas a Bogotá", "palabra": "destituido" },
+        "fichas": [{ "texto": "Juicio en Bogotá", "dibujo": "balanza", "tachar": true, "lugar": "abajo-derecha", "palabra": "juicio" }]
+      }
+    },
+    "c2-cosiata": {
+      "plantilla": "cifra",
+      "datos": {
+        "antes": "el 30 de abril de",
+        "cifra": "1826",
+        "rotulo": "Páez en rebeldía: nace La Cosiata",
+        "dibujo": "calendario",
+        "palabra": "1826",
+        "palabra_rotulo": "rebeldía"
+      }
+    },
+    "c2-morrocoy": {
+      "plantilla": "recorte",
+      "datos": {
+        "foto": "File:Chelonoidis carbonarius in Margarita island, Venezuela.jpg",
+        "pie": "Un morrocoy (Chelonoidis carbonarius), Venezuela",
+        "insignia": "También la llaman",
+        "titulo": "Revolución de los Morrocoyes",
+        "texto": "Un morrocoy es una especie de tortuga",
+        "lado": "derecha",
+        "palabras": { "titulo": "Revolución", "texto": "morrocoy" }
+      }
+    },
+    "c2-malestar": {
+      "plantilla": "mapa",
+      "datos": {
+        "vistas": [{ "centro": [-70, 7.5], "ancho": 24 }],
+        "paises": [
+          { "id": "venezuela", "color": "acento", "opacidad": 0.35, "en": 0 },
+          { "id": "colombia", "color": "acento2", "opacidad": 0.4, "en": 0 }
+        ],
+        "rutas": [{ "puntos": [[-74.07, 4.71], [-66.9, 10.5]], "estilo": "flecha", "color": "acento", "palabra": "mandaba", "dur": 1.5 }],
+        "marcas": [
+          { "texto": "Bogotá", "lugar": "bogota", "lado": "derecha", "tam": 36, "palabra": "Bogotá" },
+          { "texto": "Caracas", "lugar": "caracas", "lado": "arriba", "tam": 36, "palabra": "Caracas" }
+        ],
+        "cartela": { "titulo": "Un malestar viejo", "sub": "Bogotá manda; Caracas, en segundo plano", "palabra": "malestar" },
+        "fichas": [{ "texto": "Segundo plano", "dibujo": "balanza", "lugar": "abajo-izquierda", "palabra": "segundo" }]
+      }
+    },
+    "c2-adivina": {
+      "plantilla": "personaje",
+      "datos": {
+        "personaje": "bolivar",
+        "pose": "pensar",
+        "expresion": "pensativo",
+        "anios": "Adivina",
+        "rol": "¿Qué hizo ante la rebelión?",
+        "palabra_anios": "ahora",
+        "palabra_rol": "adivina"
+      }
+    },
+    "c2-opciones": {
+      "plantilla": "fichas",
+      "datos": {
+        "titulo": "¿Qué hizo Bolívar?",
+        "fichas": [
+          { "texto": "Mandó un ejército", "dibujo": "canon", "palabra": "ejército" },
+          { "texto": "Negoció con él", "dibujo": "pluma", "palabra": "negoció" }
+        ]
+      }
+    },
+    "c2-negocio": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": ["Negoció:", "amnistía general"],
+        "resalta": 1,
+        "insignia": "La respuesta",
+        "dibujo": "pluma",
+        "palabra_dibujo": "amnistía"
+      }
+    },
+    "c2-bolivar-paez": {
+      "plantilla": "dos-personajes",
+      "datos": {
+        "izquierda": { "personaje": "bolivar", "rol": "El Libertador", "pose": "saludar", "expresion": "sonrisa" },
+        "derecha": { "personaje": "paez", "rol": "Jefe civil y militar", "pose": "neutral", "expresion": "astuto" },
+        "firma": "izquierda",
+        "palabra_firma": "calma",
+        "foto": "File:Jose Antonio Páez.jpg",
+        "foto_pie": "Páez, retrato de la época",
+        "palabra_foto": "Páez"
+      }
+    },
+    "c2-principio-fin": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": ["El principio", "del fin"],
+        "resalta": 1,
+        "insignia": "Hay quienes la llaman",
+        "dibujo": "reloj"
+      }
+    },
+    "c2-mito": {
+      "plantilla": "fichas",
+      "datos": {
+        "titulo": "La Cosiata fue una guerra contra España",
+        "fichas": [
+          { "texto": "Mito", "dibujo": "derrumbe", "en": 0.25 },
+          { "texto": "Realidad", "dibujo": "bandera", "en": 0.34 }
+        ]
+      }
+    },
+    "c2-veredicto": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": ["Mito:", "fue una revuelta", "interna"],
+        "resalta": 0,
+        "dibujo": "derrumbe",
+        "palabra_dibujo": "Mito"
+      }
+    }
+  },
+  "frases": [
+    { "id": "f8c", "escena": "c2-lima-bogota" },
+    { "id": "f9", "escena": "c2-santander", "cortes": [{ "escena": "c2-cincuenta-mil", "palabra": 16 }] },
+    { "id": "f10", "escena": "c2-paez", "cortes": [{ "escena": "c2-juicio", "palabra": 9 }, { "escena": "c2-cosiata", "palabra": 21 }] },
+    { "id": "f10b", "escena": "c2-morrocoy", "cortes": [{ "escena": "c2-malestar", "palabra": 18 }] },
+    { "id": "f11", "escena": "c2-adivina", "cortes": [{ "escena": "c2-opciones", "palabra": 11 }], "pausa_despues": 3 },
+    { "id": "f12", "escena": "c2-negocio", "cortes": [{ "escena": "c2-bolivar-paez", "palabra": 12 }] },
+    { "id": "f12b", "escena": "c2-principio-fin" },
+    { "id": "f13", "escena": "c2-mito", "cortes": [{ "escena": "c2-veredicto", "palabra": 13 }] }
+  ]
+}

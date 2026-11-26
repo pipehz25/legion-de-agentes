@@ -1,0 +1,551 @@
+{
+  "capitulo": "c4",
+  "escenas": {
+    "c4-renuncia": {
+      "plantilla": "personaje",
+      "datos": {
+        "personaje": "bolivar",
+        "pose": "firmar",
+        "anios": "1830",
+        "rol": "Renuncia a la presidencia",
+        "palabra_rol": "renunci"
+      }
+    },
+    "c4-caicedo": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "Domingo Caicedo",
+        "lineas": [
+          "Presidente",
+          "interino"
+        ],
+        "resalta": 1,
+        "dibujo": "reloj",
+        "palabra_dibujo": "interino"
+      }
+    },
+    "c4-valencia": {
+      "plantilla": "mapa",
+      "datos": {
+        "vistas": [
+          {
+            "centro": [
+              -70,
+              7
+            ],
+            "ancho": 22
+          }
+        ],
+        "paises": [
+          {
+            "id": "venezuela",
+            "color": "acento",
+            "opacidad": 0.5,
+            "palabra": "Venezuela"
+          }
+        ],
+        "marcas": [
+          {
+            "texto": "Valencia",
+            "lugar": [
+              -68,
+              10.16
+            ],
+            "lado": "izquierda",
+            "tam": 36,
+            "palabra": "Valencia"
+          },
+          {
+            "texto": "Caracas",
+            "lugar": "caracas",
+            "lado": "derecha",
+            "tam": 32,
+            "palabra": "Venezuela"
+          }
+        ],
+        "cartela": {
+          "titulo": "Nace Venezuela",
+          "sub": "Congreso de Valencia, 1830",
+          "en": 0.02
+        }
+      }
+    },
+    "c4-quito": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "Quito, 1830",
+        "lineas": [
+          "Nace el Estado",
+          "del Ecuador"
+        ],
+        "resalta": 1,
+        "dibujo": "montana",
+        "palabra_dibujo": "Ecuador"
+      }
+    },
+    "c4-cadena": {
+      "plantilla": "cadena",
+      "datos": {
+        "eslabones": [
+          {
+            "texto": "Venezuela",
+            "palabra": "separ"
+          },
+          {
+            "texto": "Quito",
+            "palabra": "despu"
+          },
+          {
+            "texto": "Final legal",
+            "palabra": "tarde"
+          }
+        ],
+        "anios": [
+          "1830",
+          "1830",
+          "1831"
+        ],
+        "palabra_atras": "llegó",
+        "rotulo_atras": "Una caída en cadena"
+      }
+    },
+    "c4-sucre-dia": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "General Antonio José de Sucre",
+        "lineas": [
+          "Asesinado en",
+          "Berruecos"
+        ],
+        "resalta": 1,
+        "calendario": {
+          "arriba": "Junio",
+          "numero": "4",
+          "abajo": "1830",
+          "lado": "derecha",
+          "palabra": "cuatro"
+        }
+      }
+    },
+    "c4-quien": {
+      "plantilla": "tablero",
+      "datos": {
+        "personajes": [
+          {
+            "personaje": "sucre",
+            "rol": "Asesinado el 4 de junio"
+          },
+          {
+            "nombre": "José María Obando",
+            "corto": "J. M. Obando",
+            "rol": "Señalado por muchos",
+            "piel": "#d2a07a",
+            "pelo": "#2a1d16",
+            "peinado": "corto",
+            "barba": "patillas",
+            "ropa": "#3b3f4a",
+            "detalle": "#c9a256",
+            "corbata": "#f1ece0",
+            "cuello": "lazo",
+            "charreteras": true,
+            "expresion": "serio"
+          },
+          {
+            "nombre": "Juan José Flores",
+            "corto": "J. J. Flores",
+            "rol": "También acusado",
+            "piel": "#d6a47c",
+            "pelo": "#2a1d16",
+            "peinado": "corto",
+            "barba": "patillas",
+            "ropa": "#2f3a4a",
+            "detalle": "#c9a256",
+            "corbata": "#f1ece0",
+            "cuello": "lazo",
+            "charreteras": true,
+            "expresion": "serio"
+          }
+        ],
+        "titulo": "¿Quién lo ordenó?",
+        "palabras": {
+          "personajes": "Quién",
+          "hilos": "acusaciones",
+          "titulo": "ordenó"
+        }
+      }
+    },
+    "c4-ruta-sucre": {
+      "plantilla": "mapa",
+      "datos": {
+        "vistas": [
+          {
+            "centro": [
+              -76.6,
+              3.4
+            ],
+            "ancho": 14
+          },
+          {
+            "centro": [
+              -77.1,
+              1.5
+            ],
+            "ancho": 4.5,
+            "palabra": "muerte",
+            "dur": 1.2
+          }
+        ],
+        "paises": [
+          {
+            "id": "colombia",
+            "color": "acento2",
+            "opacidad": 0.3,
+            "en": 0
+          },
+          {
+            "id": "ecuador",
+            "color": "acento",
+            "opacidad": 0.2,
+            "en": 0
+          }
+        ],
+        "rutas": [
+          {
+            "puntos": [
+              [
+                -75.4,
+                4.6
+              ],
+              [
+                -76.4,
+                3
+              ],
+              [
+                -77.1,
+                1.5
+              ]
+            ],
+            "estilo": "flecha",
+            "color": "acento",
+            "grosor": 7,
+            "palabra": "regreso",
+            "dur": 1.6
+          }
+        ],
+        "marcas": [
+          {
+            "texto": "Pasto",
+            "lugar": [
+              -77.28,
+              1.21
+            ],
+            "lado": "derecha",
+            "tam": 30,
+            "palabra": "muerte"
+          },
+          {
+            "texto": "Berruecos",
+            "lugar": [
+              -77.1,
+              1.5
+            ],
+            "lado": "izquierda",
+            "tam": 34,
+            "palabra": "muerte"
+          }
+        ],
+        "rotulos": [
+          {
+            "texto": "Colombia",
+            "lugar": [
+              -74.2,
+              5.3
+            ],
+            "estilo": "pais",
+            "tam": 56,
+            "en": 0.1
+          }
+        ],
+        "cartela": {
+          "titulo": "Sucre rumbo al sur",
+          "sub": "Tras el Congreso Admirable",
+          "en": 0.02
+        }
+      }
+    },
+    "c4-santa-marta": {
+      "plantilla": "recorte",
+      "datos": {
+        "foto": "File:Simón Bolívar, 1825.jpg",
+        "pie": "Bolívar, por José Gil de Castro (1825)",
+        "lado": "izquierda",
+        "insignia": "Santa Marta, 1830",
+        "titulo": "Bolívar muere",
+        "texto": "Ese mismo año, en Santa Marta",
+        "palabras": {
+          "titulo": "Bolívar",
+          "texto": "murió"
+        }
+      }
+    },
+    "c4-que-dia": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "Pista: cuándo nació la Gran Colombia",
+        "lineas": [
+          "¿Qué día",
+          "murió Bolívar?"
+        ],
+        "resalta": 1,
+        "todo_al_inicio": true,
+        "calendario": {
+          "arriba": "Adivina",
+          "numero": "?",
+          "abajo": "el día",
+          "lado": "derecha",
+          "palabra": "día"
+        }
+      }
+    },
+    "c4-diecisiete": {
+      "plantilla": "cifra",
+      "datos": {
+        "titulo": "El mismo día, once años después",
+        "barras": false,
+        "cifras": [
+          {
+            "cifra": "17 dic.",
+            "rotulo": "1819: nace la Gran Colombia",
+            "palabra": "diecisiete"
+          },
+          {
+            "cifra": "17 dic.",
+            "rotulo": "1830: muere Bolívar",
+            "palabra": "1830",
+            "resalta": true
+          },
+          {
+            "valor": 11,
+            "unidad": "años",
+            "rotulo": "exactos entre ambos",
+            "palabra": "once"
+          }
+        ]
+      }
+    },
+    "c4-cuantos": {
+      "plantilla": "mapa",
+      "datos": {
+        "vistas": [
+          {
+            "centro": [
+              -73,
+              2.2
+            ],
+            "ancho": 28
+          }
+        ],
+        "paises": [
+          {
+            "id": "colombia",
+            "color": "acento2",
+            "opacidad": 0.5,
+            "en": 0
+          },
+          {
+            "id": "venezuela",
+            "color": "acento2",
+            "opacidad": 0.5,
+            "en": 0
+          },
+          {
+            "id": "ecuador",
+            "color": "acento2",
+            "opacidad": 0.5,
+            "en": 0
+          },
+          {
+            "id": "panama",
+            "color": "acento2",
+            "opacidad": 0.5,
+            "en": 0
+          }
+        ],
+        "rotulos": [
+          {
+            "texto": "¿Cuántos?",
+            "lugar": [
+              -70.5,
+              5.2
+            ],
+            "estilo": "titulo",
+            "tam": 84,
+            "en": 0.2
+          }
+        ],
+        "cartela": {
+          "titulo": "La Gran Colombia",
+          "sub": "¿En cuántos países se dividió?",
+          "en": 0.02
+        }
+      }
+    },
+    "c4-noviembre": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "Disolución legal",
+        "lineas": [
+          "Noviembre",
+          "de 1831"
+        ],
+        "resalta": 1,
+        "dibujo": "documento",
+        "palabra_dibujo": "disolvi"
+      }
+    },
+    "c4-tres": {
+      "plantilla": "mapa",
+      "datos": {
+        "vistas": [
+          {
+            "centro": [
+              -73,
+              2.2
+            ],
+            "ancho": 28
+          }
+        ],
+        "paises": [
+          {
+            "id": "venezuela",
+            "color": "acento",
+            "opacidad": 0.5,
+            "palabra": "Venezuela"
+          },
+          {
+            "id": "ecuador",
+            "color": "acento2",
+            "opacidad": 0.55,
+            "palabra": "Ecuador"
+          },
+          {
+            "id": "colombia",
+            "color": "bien",
+            "opacidad": 0.45,
+            "palabra": "Nueva"
+          },
+          {
+            "id": "panama",
+            "color": "bien",
+            "opacidad": 0.45,
+            "palabra": "Nueva"
+          }
+        ],
+        "rotulos": [
+          {
+            "texto": "Venezuela",
+            "lugar": [
+              -66.2,
+              7.4
+            ],
+            "estilo": "pais",
+            "tam": 44,
+            "palabra": "Venezuela"
+          },
+          {
+            "texto": "Ecuador",
+            "lugar": [
+              -78.6,
+              -0.2
+            ],
+            "estilo": "pais",
+            "tam": 40,
+            "palabra": "Ecuador"
+          },
+          {
+            "texto": "Nueva Granada",
+            "lugar": [
+              -74,
+              4
+            ],
+            "estilo": "pais",
+            "tam": 44,
+            "palabra": "Nueva"
+          }
+        ],
+        "cartela": {
+          "titulo": "Tres países",
+          "sub": "Venezuela, Ecuador y la Nueva Granada",
+          "en": 0.02
+        }
+      }
+    }
+  },
+  "frases": [
+    {
+      "id": "f19",
+      "escena": "c4-renuncia"
+    },
+    {
+      "id": "f19b",
+      "escena": "c4-caicedo"
+    },
+    {
+      "id": "f20",
+      "escena": "c4-valencia",
+      "cortes": [
+        {
+          "escena": "c4-quito",
+          "palabra": 12
+        }
+      ]
+    },
+    {
+      "id": "f20b",
+      "escena": "c4-cadena"
+    },
+    {
+      "id": "f21",
+      "escena": "c4-sucre-dia",
+      "cortes": [
+        {
+          "escena": "c4-quien",
+          "palabra": 19
+        }
+      ]
+    },
+    {
+      "id": "f21b",
+      "escena": "c4-ruta-sucre"
+    },
+    {
+      "id": "f22",
+      "escena": "c4-santa-marta",
+      "cortes": [
+        {
+          "escena": "c4-que-dia",
+          "palabra": 10
+        }
+      ]
+    },
+    {
+      "id": "f23",
+      "escena": "c4-diecisiete"
+    },
+    {
+      "id": "f23b",
+      "escena": "c4-cuantos",
+      "pausa_despues": 2.5
+    },
+    {
+      "id": "f24",
+      "escena": "c4-noviembre",
+      "cortes": [
+        {
+          "escena": "c4-tres",
+          "palabra": 10
+        }
+      ]
+    }
+  ]
+}

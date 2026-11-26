@@ -1,0 +1,194 @@
+{
+  "capitulo": "c4",
+  "escenas": {
+    "c4-consejo": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": ["Consejo", "de guerra"],
+        "resalta": 1,
+        "calendario": { "arriba": "Nov", "numero": "10", "abajo": "1817", "lado": "derecha", "palabra": "noviembre" }
+      }
+    },
+    "c4-condena": {
+      "plantilla": "dos-personajes",
+      "datos": {
+        "izquierda": { "personaje": "policarpa", "rol": "Condenada a muerte", "expresion": "serio", "pose": "neutral" },
+        "derecha": { "personaje": "sabarain", "rol": "Condenado junto con ella", "expresion": "serio", "pose": "neutral" }
+      }
+    },
+    "c4-pregunta": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": ["¿Cuántas personas", "fueron fusiladas", "ese día?"],
+        "resalta": 2,
+        "calendario": { "arriba": "Nov", "numero": "14", "abajo": "1817", "lado": "derecha", "palabra": "fusiladas" },
+        "todo_al_inicio": true
+      }
+    },
+    "c4-nueve": {
+      "plantilla": "cifra",
+      "datos": {
+        "valor": 9,
+        "unidad": "personas",
+        "rotulo": "fusiladas: ocho hombres y ella, la única mujer",
+        "dibujo": "cruz",
+        "palabra": "nueve",
+        "palabra_rotulo": "ocho"
+      }
+    },
+    "c4-santafe": {
+      "plantilla": "mapa",
+      "datos": {
+        "vistas": [
+          { "centro": [-76, 4.8], "ancho": 22 },
+          { "centro": [-74.1, 4.9], "ancho": 9, "palabra": "Santafé", "dur": 1.6 }
+        ],
+        "paises": [{ "id": "colombia", "color": "acento2", "opacidad": 0.25, "en": 0 }],
+        "marcas": [{ "texto": "Santafé de Bogotá", "lugar": "bogota", "lado": "derecha", "tam": 40, "palabra": "Santafé" }],
+        "rotulos": [{ "texto": "Colombia", "lugar": [-73, 2.3], "estilo": "pais", "tam": 46, "en": 0.05 }],
+        "cartela": { "titulo": "14 de noviembre de 1817", "sub": "Viernes, en Santafé de Bogotá", "palabra": "Fue" }
+      }
+    },
+    "c4-hora": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": ["La hora fijada:", "las nueve", "de la mañana"],
+        "resalta": 1,
+        "dibujo": "reloj",
+        "palabra_dibujo": "nueve"
+      }
+    },
+    "c4-cuatro": {
+      "plantilla": "cifra",
+      "datos": {
+        "valor": 4,
+        "unidad": "días",
+        "rotulo": "entre la condena y el fusilamiento",
+        "dibujo": "calendario",
+        "en": 0.05,
+        "palabra_rotulo": "fusilamiento"
+      }
+    },
+    "c4-capilla": {
+      "plantilla": "fichas",
+      "datos": {
+        "titulo": "La última noche",
+        "foto": "File:Claustro del Colegio Mayor de Nuestra Señora del Rosario (Bogotá) 01.JPG",
+        "foto_pie": "Claustro del Rosario (foto actual)",
+        "fichas": [
+          { "texto": "La víspera: 13 de nov.", "dibujo": "calendario", "palabra": "víspera," },
+          { "texto": "La capilla", "dibujo": "reloj", "palabra": "capilla," },
+          { "texto": "Salones del Rosario", "dibujo": "documento", "palabra": "salones" }
+        ]
+      }
+    },
+    "c4-cuentan": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": ["Pidieron", "arrodillarse,", "no de espaldas"],
+        "resalta": 1,
+        "insignia": "Según cuentan"
+      }
+    },
+    "c4-maldijo": {
+      "plantilla": "personaje",
+      "datos": {
+        "personaje": "policarpa",
+        "pose": "discurso",
+        "expresion": "enojado",
+        "anios": "14 nov 1817",
+        "rol": "No repitió las oraciones de los sacerdotes",
+        "palabra_rol": "repitió"
+      }
+    },
+    "c4-mito-opciones": {
+      "plantilla": "fichas",
+      "datos": {
+        "titulo": "Conocemos sus últimas palabras",
+        "fichas": [
+          { "texto": "Mito", "dibujo": "derrumbe", "palabra": "Mito" },
+          { "texto": "Realidad", "dibujo": "sello", "palabra": "realidad" }
+        ]
+      }
+    },
+    "c4-mito-veredicto": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": ["Veredicto:", "¡Mito!", "Varias versiones"],
+        "resalta": 1,
+        "dibujo": "derrumbe",
+        "palabra_dibujo": "Mito"
+      }
+    },
+    "c4-ninguna": {
+      "plantilla": "cifra",
+      "datos": {
+        "cifra": "0",
+        "rotulo": "frases suyas repetidas en este video",
+        "contar": false,
+        "palabra": "repetimos"
+      }
+    },
+    "c4-repaso-pregunta": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": ["Repaso:", "¿qué día fue", "el fusilamiento?"],
+        "resalta": 1,
+        "dibujo": "calendario",
+        "todo_al_inicio": true
+      }
+    },
+    "c4-repaso-tiempo": {
+      "plantilla": "linea-tiempo",
+      "datos": {
+        "titulo": "Repaso: los tres días",
+        "hitos": [
+          { "anio": "10 nov", "texto": "Consejo de guerra: la condena" },
+          { "anio": "13 nov", "texto": "La capilla, su última noche" },
+          { "anio": "14 nov", "texto": "El fusilamiento", "palabra": "14" }
+        ],
+        "actual": 2,
+        "palabra_actual": "14"
+      }
+    }
+  },
+  "frases": [
+    {
+      "id": "f19",
+      "escena": "c4-consejo",
+      "cortes": [{ "escena": "c4-condena", "palabra": 10 }]
+    },
+    {
+      "id": "f20",
+      "escena": "c4-pregunta",
+      "cortes": [{ "escena": "c4-nueve", "palabra": 13 }]
+    },
+    {
+      "id": "f21",
+      "escena": "c4-santafe",
+      "cortes": [{ "escena": "c4-hora", "palabra": 18 }]
+    },
+    {
+      "id": "f22",
+      "escena": "c4-cuatro",
+      "cortes": [
+        { "escena": "c4-capilla", "palabra": 10 },
+        { "escena": "c4-cuentan", "palabra": 27 },
+        { "escena": "c4-maldijo", "palabra": 43 }
+      ]
+    },
+    {
+      "id": "f23",
+      "escena": "c4-mito-opciones",
+      "cortes": [
+        { "escena": "c4-mito-veredicto", "palabra": 9 },
+        { "escena": "c4-ninguna", "palabra": 26 }
+      ]
+    },
+    {
+      "id": "f24",
+      "escena": "c4-repaso-pregunta",
+      "cortes": [{ "escena": "c4-repaso-tiempo", "palabra": 7 }]
+    }
+  ]
+}

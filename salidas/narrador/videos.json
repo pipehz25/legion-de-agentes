@@ -1,6 +1,34 @@
 {
-  "actualizado": "2026-11-23T16:59:58.177Z",
+  "actualizado": "2026-11-26T03:01:17.806Z",
   "videos": [
+    {
+      "id": "hi-gran-colombia",
+      "tipo": "largo",
+      "titulo": "¿Por qué se acabó la Gran Colombia? De 1819 a 1831",
+      "duracion_s": 420,
+      "producido": "2026-11-26T03:01:17.764Z",
+      "video": "salidas/narrador/hi-gran-colombia/hi-gran-colombia.mp4",
+      "portada": "salidas/narrador/hi-gran-colombia/miniatura.jpg",
+      "fuentes": "salidas/narrador/hi-gran-colombia/fuentes.md",
+      "descripcion": "salidas/narrador/hi-gran-colombia/descripcion.txt",
+      "subtitulos": "salidas/narrador/hi-gran-colombia/hi-gran-colombia.srt",
+      "video_en_esta_pc": true,
+      "publicacion": "¿Por qué se acabó la Gran Colombia? De 1819 a 1831\n\n#historia #colombia #independencia #grancolombia"
+    },
+    {
+      "id": "hi-policarpa",
+      "tipo": "largo",
+      "titulo": "¿Quién fue de verdad la Pola? Policarpa Salavarrieta, la costurera espía de la independencia",
+      "duracion_s": 397.3,
+      "producido": "2026-11-26T02:51:22.355Z",
+      "video": "salidas/narrador/hi-policarpa/hi-policarpa.mp4",
+      "portada": "salidas/narrador/hi-policarpa/miniatura.jpg",
+      "fuentes": "salidas/narrador/hi-policarpa/fuentes.md",
+      "descripcion": "salidas/narrador/hi-policarpa/descripcion.txt",
+      "subtitulos": "salidas/narrador/hi-policarpa/hi-policarpa.srt",
+      "video_en_esta_pc": true,
+      "publicacion": "¿Quién fue de verdad la Pola? Policarpa Salavarrieta, la costurera espía de la independencia\n\n#historia #colombia #lapola #independencia"
+    },
     {
       "id": "hi-buritica",
       "tipo": "largo",

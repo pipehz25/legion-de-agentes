@@ -81,12 +81,15 @@
       "pregunta": "¿Por qué se acabó la Gran Colombia?",
       "angulo": "1819-1831: un país enorme que no logró mantenerse unido.",
       "formato": "misterio histórico",
-      "estado": "pendiente",
+      "estado": "guion",
       "serie": {
         "id": "independencia",
         "parte": 3,
         "de": 3
-      }
+      },
+      "tipo": "largo",
+      "guion": "animados/propios/hi-gran-colombia/guion.json",
+      "nota": "2026-11-25: video largo horizontal hecho (Sonnet, voz Flash), MP4 en salidas/narrador/hi-gran-colombia/"
     },
     {
       "id": "hi-muralla",
@@ -102,7 +105,10 @@
       "pregunta": "¿Quién fue de verdad la Pola?",
       "angulo": "Policarpa Salavarrieta: espía de la independencia, fusilada en 1817.",
       "formato": "misterio histórico",
-      "estado": "pendiente"
+      "estado": "guion",
+      "tipo": "largo",
+      "guion": "animados/propios/hi-policarpa/guion.json",
+      "nota": "2026-11-25: video largo horizontal hecho (Sonnet, voz Flash), MP4 en salidas/narrador/hi-policarpa/"
     },
     {
       "id": "hi-zanzibar",

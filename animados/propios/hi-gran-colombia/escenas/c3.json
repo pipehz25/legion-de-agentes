@@ -1,0 +1,229 @@
+{
+  "capitulo": "c3",
+  "escenas": {
+    "c3-ocana": {
+      "plantilla": "recorte",
+      "datos": {
+        "foto": "File:Templo de San Francisco. Ocaña, Norte de Santander IMG 1516.JPG",
+        "pie": "Templo de San Francisco, Ocaña (foto actual)",
+        "lado": "izquierda",
+        "insignia": "Ocaña, 1828",
+        "titulo": "La convención de Ocaña",
+        "texto": "Para reformar la constitución",
+        "palabras": {
+          "titulo": "Ocaña",
+          "texto": "reformar"
+        }
+      }
+    },
+    "c3-bandos": {
+      "plantilla": "dos-personajes",
+      "datos": {
+        "izquierda": {
+          "personaje": "bolivar",
+          "rol": "Gobierno muy centralizado",
+          "pose": "senalar",
+          "expresion": "serio"
+        },
+        "derecha": {
+          "personaje": "santander",
+          "nombre": "Santander",
+          "rol": "Gobierno más descentralizado",
+          "pose": "brazos-cruzados",
+          "expresion": "serio"
+        }
+      }
+    },
+    "c3-cucuta": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "Lo que defendían",
+        "lineas": [
+          "La constitución",
+          "de Cúcuta"
+        ],
+        "resalta": 1,
+        "dibujo": "documento",
+        "palabra_dibujo": "constitución"
+      }
+    },
+    "c3-rivales": {
+      "plantilla": "tablero",
+      "datos": {
+        "personajes": [
+          {
+            "personaje": "bolivar",
+            "corto": "Bolívar",
+            "rol": "Centralista"
+          },
+          {
+            "personaje": "santander",
+            "rol": "Más descentralizado"
+          }
+        ],
+        "papeles": [
+          {
+            "foto": "File:Carta corográfica de la Gran Colombia 1825.jpg",
+            "pie": "Carta de la Gran Colombia (1825)"
+          }
+        ],
+        "titulo": "De aliados a rivales",
+        "palabras": {
+          "personajes": "Bolívar",
+          "papeles": "juntos",
+          "hilos": "bandos",
+          "titulo": "ahora"
+        }
+      }
+    },
+    "c3-sin-acuerdos": {
+      "plantilla": "fichas",
+      "datos": {
+        "titulo": "Convención de Ocaña, 1828",
+        "fichas": [
+          {
+            "texto": "Los de Bolívar se retiran",
+            "dibujo": "bandera",
+            "palabra": "abandon"
+          },
+          {
+            "texto": "Sin acuerdos",
+            "dibujo": "documento",
+            "palabra": "acuerdos",
+            "resalta": true
+          }
+        ]
+      }
+    },
+    "c3-pregunta": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "Respóndelo en voz alta",
+        "lineas": [
+          "¿Qué hizo",
+          "Bolívar?"
+        ],
+        "resalta": 1,
+        "dibujo": "reloj",
+        "palabra_dibujo": "Respóndelo"
+      }
+    },
+    "c3-dictador": {
+      "plantilla": "cifra",
+      "datos": {
+        "valor": 27,
+        "unidad": "de agosto",
+        "rotulo": "1828: asume poderes dictatoriales",
+        "dibujo": "pluma",
+        "palabra": "veintisiete",
+        "palabra_rotulo": "asumi"
+      }
+    },
+    "c3-vitalicio": {
+      "plantilla": "personaje",
+      "datos": {
+        "personaje": "bolivar",
+        "pose": "discurso",
+        "anios": "1828",
+        "rol": "Proponía un presidente vitalicio",
+        "palabra_rol": "vitalicio"
+      }
+    },
+    "c3-atentado": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "Conspiración Septembrina",
+        "lineas": [
+          "Atentado contra",
+          "Bolívar"
+        ],
+        "resalta": 1,
+        "calendario": {
+          "arriba": "Septiembre",
+          "numero": "25",
+          "abajo": "1828",
+          "lado": "derecha",
+          "palabra": "veinticinco"
+        }
+      }
+    },
+    "c3-exilio": {
+      "plantilla": "recorte",
+      "datos": {
+        "foto": "File:Francisco de Paula Santander (painting by José María Espinosa).jpg",
+        "pie": "Santander, por José María Espinosa",
+        "lado": "derecha",
+        "insignia": "Condenado a muerte",
+        "titulo": "Santander",
+        "texto": "Su condena se cambió por el exilio",
+        "palabras": {
+          "titulo": "Santander",
+          "texto": "muerte"
+        }
+      }
+    },
+    "c3-sintoma": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "Los historiadores discuten",
+        "lineas": [
+          "¿Causa del final",
+          "o síntoma?"
+        ],
+        "resalta": 1,
+        "dibujo": "balanza",
+        "palabra_dibujo": "discuten"
+      }
+    }
+  },
+  "frases": [
+    {
+      "id": "f14",
+      "escena": "c3-ocana",
+      "cortes": [
+        {
+          "escena": "c3-bandos",
+          "palabra": 12
+        },
+        {
+          "escena": "c3-cucuta",
+          "palabra": 23
+        }
+      ]
+    },
+    {
+      "id": "f14b",
+      "escena": "c3-rivales"
+    },
+    {
+      "id": "f15",
+      "escena": "c3-sin-acuerdos"
+    },
+    {
+      "id": "f16",
+      "escena": "c3-pregunta"
+    },
+    {
+      "id": "f17",
+      "escena": "c3-dictador"
+    },
+    {
+      "id": "f17b",
+      "escena": "c3-vitalicio"
+    },
+    {
+      "id": "f18",
+      "escena": "c3-atentado",
+      "cortes": [
+        {
+          "escena": "c3-exilio",
+          "palabra": 12
+        }
+      ]
+    },
+    {
+      "id": "f18b",
+      "escena": "c3-sintoma"
+    }
+  ]
+}

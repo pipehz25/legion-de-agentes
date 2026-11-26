@@ -1,0 +1,2125 @@
+{
+  "tipo": "largo",
+  "orientacion": "horizontal",
+  "titulo": "Policarpa Salavarrieta, la Pola: lo que sabemos y lo que se discute",
+  "nicho": "historia",
+  "nota": "Video largo por escenas, version corta (6 a 7 min) e interactiva. Guion escrito el 2026-11-24 sin escenas: cada capitulo trae 'escenas': {} para que otros agentes las diseñen con animados/contenido/escenas-horizontales.md. Cada frase con momento de participacion trae 'interaccion' (pregunta | adivina | mito-realidad | revela-cifra | repaso | comentar): usar plantillas de cifra (con contar), cadena, linea-tiempo o tablero con revelacion tras la pausa. La voz de ElevenLabs NO esta generada (modelo barato eleven_flash_v2_5): revisar el texto antes; despues de pagada, el texto no se cambia. Estilo: tema archivo con fondo/brillo rosa-vino propios (las plantillas horizontales traen colores de papel fijos). Personajes sin retrato comprobado de los demas (Sabaraín, Iglesias, Andrea): rasgos aproximados; el retrato de Policarpa de Commons (José María Espinosa) es solo elemento. Datos en discusion que el guion matiza o evita: lugar y año de nacimiento (Guaduas la version mas repetida; 1793 a 1796 segun la fuente: se dice que no es claro y no se da su edad), fecha exacta de la captura (no se dice dia; un estudio de la Universidad del Rosario la ubica hacia mediados de octubre y otra fuente un mes antes de la ejecucion: se dice que no se conoce con certeza), lugar de la captura (en la casa de Andrea Ricaurte segun Semana y la Enciclopedia del Banco de la República; Wikipedia dice que huyó y fue apresada unas cuadras al sur: se dicen las dos), lugar exacto de la ejecucion (un estudio habla de la Plaza Mayor, hoy Plaza de Bolívar, pero otras fuentes solo dicen 'las calles de Bogotá': se dice solo Bogotá) y hora (nueve de la mañana fijada; otras fuentes hablan de las once o del mediodía: se dice solo 'la hora fijada'), frases atribuidas (circulan versiones distintas y las fuentes serias no las citan: no se repite ninguna; se dice como discusion), nombre (Policarpa, Apolonia o Polonia: no se dice), relacion sentimental con Sabaraín (solo 'según se dice' en una fuente: no se dice), numero de mujeres ejecutadas en la Reconquista (una sola fuente: no se dice), fecha exacta de la Ley 44 (8 o 9 de noviembre de 1967: no se dice, solo 1967). Cuidado en pantalla: no poner la fecha de nacimiento ni 'tenía X años'.",
+  "motor": "elevenlabs",
+  "voz": "C12mZePhNoo0RoTXhSFV",
+  "modelo_voz": "eleven_flash_v2_5",
+  "tope_caracteres": 50,
+  "inicio": 0.2,
+  "pausa": 0.35,
+  "pausa_capitulo": 3,
+  "respiro_capitulo": 0.5,
+  "cola": 2.5,
+  "estilo": {
+    "tema": "archivo",
+    "fondo": "#dfb3a6",
+    "brillo": "#f4d9cf"
+  },
+  "miniatura": {
+    "texto": "LA POLA | ¿QUIÉN FUE?",
+    "imagen": "pola_retrato"
+  },
+  "publicacion": {
+    "titulo_youtube": "¿Quién fue de verdad la Pola? Policarpa Salavarrieta, la costurera espía de la independencia",
+    "descripcion": "¿Puede una costurera cambiar el rumbo de una guerra? Este video cuenta la vida de Policarpa Salavarrieta, la Pola, con preguntas, adivinanzas y un «¿mito o realidad?» para que participes.\n\nRecorremos su infancia y la epidemia de viruela de 1802, su trabajo como costurera y espía en la Bogotá de la Reconquista, la caída de su red, su captura, la condena del 10 de noviembre de 1817 y su fusilamiento el 14 de noviembre, el día que hoy es el Día de la Mujer Colombiana.\n\nCada dato está comprobado en al menos dos fuentes. Lo que se discute (el lugar y el año de su nacimiento, la fecha y el sitio de su captura, las frases que se le atribuyen) lo decimos como discusión. Las fuentes están en el primer comentario.\n\n¿Qué parte de esta historia no conocías? Cuéntanos en los comentarios.",
+    "hashtags": [
+      "historia",
+      "colombia",
+      "lapola",
+      "independencia"
+    ]
+  },
+  "fuentes": [
+    {
+      "dato": "Nació en Guaduas el 26 de enero de 1795 según el artículo (el encabezado dice 1796); no se ha hallado la partida de bautismo; familia acomodada; en 1797 la familia se mudó a Bogotá; en 1802 una epidemia de viruela mató a sus padres y a dos hermanos; hacia 1804 una hermana la llevó de regreso a Guaduas; trabajó como costurera; desde 1816 operó en una red de espionaje (recibir y enviar mensajes, comprar material de guerra, reclutar jóvenes) con Andrea Ricaurte y María del Carmen Rodríguez; cayeron los hermanos Almeyda y Alejo Sabaraín con documentos y una lista de nombres; el sargento Iglesias fue comisionado para arrestarla (según este artículo logró huir de la casa de Andrea Ricaurte y fue apresada unas cuadras al sur); encerrada en el Colegio Mayor del Rosario convertido en cárcel; 10 de noviembre de 1817 un consejo de guerra la condenó a muerte con Sabaraín y otros; fusilamiento fijado para el viernes 14 de noviembre de 1817 a las 9 de la mañana junto con Sabaraín, José María Arcos, Francisco Arellano, José Manuel Díaz, Manuel Salvador Díaz, Antonio Galeano, Esteban Marufu y José María Suárez; los condenados pidieron arrodillarse; no repitió las oraciones de los sacerdotes sino que maldijo a los españoles; su cuerpo no fue expuesto, fue enterrado en la Veracruz y luego sus hermanos sacerdotes lo llevaron a San Agustín; Ley 44 de 1967 (Carlos Lleras Restrepo) declaró el 14 de noviembre Día de la Mujer Colombiana; billete de 10.000 pesos (1995 a 2016); moneda conmemorativa desde el 10 de enero de 2023; muchos historiadores la consideran la mujer más representativa de la independencia",
+      "fuente": "Wikipedia en español, «Policarpa Salavarrieta»",
+      "url": "https://es.wikipedia.org/wiki/Policarpa_Salavarrieta"
+    },
+    {
+      "dato": "El lugar de nacimiento es incierto (Guaduas según unos; Mariquita o Bogotá según otros) y el año se da como 1793, 1794 o 1795; no se ha hallado la partida de bautismo; huérfana por la viruela de 1802 en Bogotá (la familia se dispersó); costurera en Guaduas; en Bogotá cosía para señoras realistas para reunir información sobre tropas y órdenes que pasaba a las guerrillas, sobre todo las de los Llanos; trabajo muy ligado al de Alejo Sabaraín, cuyo arresto con una lista de nombres ayudó a capturarla; el sargento Iglesias la arrestó en casa de Andrea Ricaurte de Lozano y quedó presa en el Colegio del Rosario; consejo de guerra la condenó el 10 de noviembre de 1817; fusilada a las 9 a. m. del 14 de noviembre de 1817 en Bogotá; pidieron arrodillarse y ella maldijo a los españoles en lugar de repetir las oraciones; el artículo no recoge frases textuales suyas; billete de 10.000 pesos emitido el 30 de noviembre de 1995; moneda de 10.000 pesos conmemorativa del bicentenario de su sacrificio desde el 10 de enero de 2023 (Ley 1903 de 2018)",
+      "fuente": "Banco de la República, Enciclopedia, «Policarpa Salavarrieta»",
+      "url": "https://enciclopedia.banrepcultural.org/index.php/Policarpa_Salavarrieta"
+    },
+    {
+      "dato": "Nació en Guaduas pero el lugar y la fecha exactos no son claros; familia acomodada; viruela de 1802 mató a sus padres y hermanos en Bogotá y la familia se dispersó; hacia 1804 una hermana la llevó de regreso a Guaduas; la mayoría de historiadores afirma que fue costurera en Guaduas y luego en Bogotá; Reconquista española llamada «Época del terror»; llegó a Bogotá en 1817 con salvoconductos falsos y una carta para Andrea Ricaurte y Lozano; cosía para señoras realistas para obtener información sobre tropas, armamento y órdenes, reclutaba jóvenes y compraba material de guerra, a menudo junto a Alejo Sabaraín; el arresto de Sabaraín fue decisivo; el sargento Iglesias la detuvo en la casa de Andrea Ricaurte; presa en un calabozo del Colegio del Rosario; condena del 10 de noviembre de 1817; no repetía las plegarias de los religiosos sino que maldecía a los españoles; su ejecución indignó a la población; sus hermanos sacerdotes guardaron sus restos en San Agustín",
+      "fuente": "Semana, «La historia de Policarpa Salavarrieta, la Pola»",
+      "url": "https://www.semana.com/nacion/articulo/historia-sobre-policarpa-salavarrieta-la-pola/540169/"
+    },
+    {
+      "dato": "La fecha de la captura no está establecida con precisión (según Andrea Ricaurte, hacia un mes antes de la ejecución; una nota de Oswaldo Díaz de 1959 la sitúa hacia el 15 de octubre de 1817); la cronología es discutida; el consejo de guerra fue el 10 de noviembre, la capilla el 13 y la ejecución el 14 de noviembre; los condenados pasaron la capilla en los salones del Colegio del Rosario; ejecutados ocho hombres y una mujer; la hora se da como las once de la mañana o el mediodía en distintos documentos (la hora fijada era las nueve); fue enterrada en la iglesia de San Agustín",
+      "fuente": "Universidad del Rosario, «La Pola en capilla: esbozo de una cronología por establecer»",
+      "url": "https://urosario.edu.co/documentos/la-pola-en-capilla-esbozo-de-una-cronologia-por-establecer"
+    },
+    {
+      "dato": "Ley 44 de 1967 (8 de noviembre de 1967, presidente Carlos Lleras Restrepo): la Nación se asocia a la conmemoración del sesquicentenario del sacrificio de la heroína Policarpa Salavarrieta; el artículo 2 declara el 14 de noviembre cívico y Día de la Mujer Colombiana en todo el territorio",
+      "fuente": "Rama Judicial de Colombia, Diario Oficial, Ley 44 de 1967",
+      "url": "https://www.ramajudicial.gov.co/documents/573203/887553/LEY+44+de+1967+D%C3%ADa+Mujer+Colombiana_DIARIO+OFICIAL.pdf/0132a769-a859-4c9d-8d0d-2f03648b2b67"
+    },
+    {
+      "dato": "Cita cinco frases como últimas palabras de la Pola (con redacción distinta a la de otras fuentes), presentadas con «Cuenta la historia», sin decir que sean textuales ni que estén discutidas; por eso el guion no repite ninguna y dice que circulan versiones distintas. Un estudio de la Universidad del Rosario y la Enciclopedia del Banco de la República no recogen ninguna cita textual suya",
+      "fuente": "Canal Trece, «Policarpa Salavarrieta en 5 frases»",
+      "url": "https://canaltrece.com.co/noticias/policarpa-salavarrieta-la-pola-fusilamiento/"
+    }
+  ],
+  "imagenes": {
+    "pola_retrato": {
+      "commons": "File:Policarpa Salabarrieta.jpg",
+      "que_muestra": "Retrato de Policarpa Salavarrieta por José María Espinosa Prieto (pintura, dominio público)",
+      "encuadre": "arriba",
+      "movimiento": "acercar"
+    },
+    "plaza_bolivar": {
+      "commons": "File:Plaza de Bolívar de Bogotá.jpg",
+      "que_muestra": "Plaza de Bolívar, Bogotá (foto, CC BY-SA 4.0, Sarahgarcial); solo como ambientación del centro de Bogotá",
+      "encuadre": "centro",
+      "movimiento": "derecha"
+    },
+    "claustro_rosario": {
+      "commons": "File:Claustro del Colegio Mayor de Nuestra Señora del Rosario (Bogotá) 01.JPG",
+      "que_muestra": "Claustro del Colegio Mayor de Nuestra Señora del Rosario, Bogotá (foto, CC BY-SA 3.0, Racso)",
+      "encuadre": "centro",
+      "movimiento": "acercar"
+    },
+    "rio_magdalena_guaduas": {
+      "commons": "File:Rio Magdalena vista Guaduas.jpg",
+      "que_muestra": "Río Magdalena visto desde Guaduas (foto, CC0, Mfrancoavellaneda)",
+      "encuadre": "centro",
+      "movimiento": "izquierda"
+    }
+  },
+  "personajes": {
+    "policarpa": {
+      "nombre": "Policarpa Salavarrieta",
+      "corto": "La Pola",
+      "rol": "Costurera y espía patriota",
+      "piel": "#d9a77f",
+      "pelo": "#2a1d16",
+      "peinado": "recogido",
+      "barba": "ninguna",
+      "sombrero": "ninguno",
+      "ropa": "#6b2d3a",
+      "detalle": "#d8a8a0",
+      "cuello": "ninguno",
+      "expresion": "serio"
+    },
+    "sabarain": {
+      "nombre": "Alejo Sabaraín",
+      "rol": "Patriota, compañero de red",
+      "piel": "#d2a07a",
+      "pelo": "#2a1d16",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "sombrero": "ninguno",
+      "ropa": "#3d4a5e",
+      "detalle": "#c9a256",
+      "cuello": "ninguno",
+      "expresion": "serio"
+    },
+    "iglesias": {
+      "nombre": "Sargento Iglesias",
+      "rol": "Agente español en Bogotá",
+      "bandera": "espana",
+      "piel": "#e2b48c",
+      "pelo": "#3a2a1e",
+      "peinado": "corto",
+      "barba": "candado",
+      "sombrero": "ala",
+      "ropa": "#5b3a2a",
+      "detalle": "#c9a256",
+      "cuello": "ninguno",
+      "expresion": "astuto"
+    },
+    "andrea": {
+      "nombre": "Andrea Ricaurte",
+      "rol": "Patriota, dueña de la casa",
+      "piel": "#e2b48c",
+      "pelo": "#4a3226",
+      "peinado": "recogido",
+      "barba": "ninguna",
+      "sombrero": "ninguno",
+      "ropa": "#3b4f45",
+      "detalle": "#9a7128",
+      "cuello": "ninguno",
+      "expresion": "pensativo"
+    }
+  },
+  "capitulos": [
+    {
+      "id": "c0",
+      "titulo": "",
+      "escenas": {
+        "c0-pregunta": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "Piénsalo y responde en voz alta",
+            "lineas": [
+              "¿Puede una",
+              "costurera cambiar",
+              "una guerra?"
+            ],
+            "resalta": 2,
+            "dibujo": "reloj",
+            "palabra_dibujo": "Piénsalo"
+          }
+        },
+        "c0-billete": {
+          "plantilla": "recorte",
+          "datos": {
+            "foto": "File:Policarpa Salabarrieta.jpg",
+            "pie": "Retrato por José María Espinosa",
+            "insignia": "Su rostro",
+            "titulo": "Visto por millones",
+            "texto": "Estuvo en el billete de diez mil pesos",
+            "lado": "izquierda",
+            "palabras": {
+              "titulo": "millones",
+              "texto": "visto"
+            }
+          }
+        },
+        "c0-pola": {
+          "plantilla": "personaje",
+          "datos": {
+            "personaje": "policarpa",
+            "pose": "brazos-cruzados",
+            "anios": "Bogotá, 1817",
+            "rol": "Para la historia: La Pola",
+            "palabra_rol": "historia"
+          }
+        },
+        "c0-reglas": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "Lo que vas a hacer en este video",
+            "fichas": [
+              {
+                "texto": "Adivinar",
+                "dibujo": "reloj",
+                "palabra": "adivinar,"
+              },
+              {
+                "texto": "Votar: mito o realidad",
+                "dibujo": "balanza",
+                "palabra": "mito"
+              },
+              {
+                "texto": "Separar lo comprobado",
+                "dibujo": "documento",
+                "palabra": "separar",
+                "resalta": true
+              }
+            ]
+          }
+        },
+        "c0-regla": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "La regla del video",
+            "lineas": [
+              "Cada pregunta,",
+              "respóndela",
+              "en voz alta"
+            ],
+            "resalta": 1,
+            "dibujo": "pluma",
+            "palabra_dibujo": "respuestas."
+          }
+        },
+        "c0-principio": {
+          "plantilla": "cadena",
+          "datos": {
+            "eslabones": [
+              {
+                "texto": "una niña",
+                "palabra": "niña,"
+              },
+              {
+                "texto": "un pueblo",
+                "palabra": "pueblo"
+              },
+              {
+                "texto": "una epidemia",
+                "palabra": "epidemia."
+              }
+            ]
+          }
+        }
+      },
+      "frases": [
+        {
+          "id": "f1",
+          "escena": "c0-pregunta",
+          "texto": "¿Puede una costurera cambiar el rumbo de una guerra? Piénsalo un momento y respóndelo en voz alta, aunque nadie te escuche.",
+          "interaccion": "pregunta",
+          "pausa_despues": 2.5
+        },
+        {
+          "id": "f2",
+          "escena": "c0-billete",
+          "texto": "Su rostro lo han visto millones de personas, porque estuvo en el billete de diez mil pesos. Se llamó Policarpa Salavarrieta, y la historia la recuerda como La Pola.",
+          "cortes": [
+            {
+              "escena": "c0-pola",
+              "palabra": 17
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "escena": "c0-reglas",
+          "texto": "En este video vas a adivinar, a votar entre mito y realidad, y a separar lo que sabemos de ella de lo que se ha repetido sin pruebas. Y recuerda la regla: cada pregunta, respóndela en voz alta. Tú pones las respuestas.",
+          "cortes": [
+            {
+              "escena": "c0-regla",
+              "palabra": 28
+            }
+          ],
+          "interaccion": "adivina"
+        },
+        {
+          "id": "f4",
+          "escena": "c0-principio",
+          "texto": "Empecemos por el principio: una niña, un pueblo y una epidemia."
+        }
+      ]
+    },
+    {
+      "id": "c1",
+      "titulo": "Una niña de Guaduas",
+      "escenas": {
+        "c1-guaduas": {
+          "plantilla": "mapa",
+          "datos": {
+            "vistas": [
+              {
+                "centro": [
+                  -74.2,
+                  4.7
+                ],
+                "ancho": 14
+              },
+              {
+                "centro": [
+                  -74.33,
+                  4.9
+                ],
+                "ancho": 3.6,
+                "palabra": "Guaduas,",
+                "dur": 1.4
+              }
+            ],
+            "paises": [
+              {
+                "id": "colombia",
+                "color": "acento2",
+                "opacidad": 0.3,
+                "en": 0
+              }
+            ],
+            "marcas": [
+              {
+                "texto": "Bogotá",
+                "lugar": "bogota",
+                "lado": "derecha",
+                "tam": 40,
+                "palabra": "Guaduas,"
+              },
+              {
+                "texto": "Guaduas",
+                "lugar": [
+                  -74.6,
+                  5.07
+                ],
+                "lado": "izquierda",
+                "tam": 44,
+                "palabra": "Guaduas,"
+              }
+            ],
+            "rotulos": [
+              {
+                "texto": "Cundinamarca",
+                "lugar": [
+                  -73.7,
+                  5.3
+                ],
+                "estilo": "pais",
+                "tam": 40,
+                "palabra": "Cundinamarca."
+              }
+            ],
+            "cartela": {
+              "titulo": "Guaduas, Cundinamarca",
+              "sub": "La versión más repetida",
+              "palabra": "Guaduas,"
+            }
+          }
+        },
+        "c1-claros": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "Pero ojo",
+            "lineas": [
+              "Ni el lugar",
+              "ni el año",
+              "están claros"
+            ],
+            "resalta": 2,
+            "calendario": {
+              "arriba": "Año",
+              "numero": "?",
+              "abajo": "incierto",
+              "lado": "derecha",
+              "palabra": "año"
+            }
+          }
+        },
+        "c1-anios": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "Las fuentes hablan de",
+            "fichas": [
+              {
+                "texto": "1793",
+                "dibujo": "calendario",
+                "palabra": "1793,"
+              },
+              {
+                "texto": "1794",
+                "dibujo": "calendario",
+                "palabra": "1794,"
+              },
+              {
+                "texto": "1795",
+                "dibujo": "calendario",
+                "palabra": "1795"
+              },
+              {
+                "texto": "1796",
+                "dibujo": "calendario",
+                "palabra": "1796,",
+                "resalta": true
+              }
+            ]
+          }
+        },
+        "c1-partida": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "Sin hallar",
+            "lineas": [
+              "Su partida",
+              "de bautismo",
+              "no aparece"
+            ],
+            "resalta": 2,
+            "dibujo": "documento",
+            "palabra_dibujo": "partida"
+          }
+        },
+        "c1-edad": {
+          "plantilla": "cifra",
+          "datos": {
+            "cifra": "¿?",
+            "rotulo": "Por eso no diremos su edad",
+            "palabra": "Por",
+            "palabra_rotulo": "eso"
+          }
+        },
+        "c1-familia": {
+          "plantilla": "cadena",
+          "datos": {
+            "eslabones": [
+              {
+                "texto": "acomodada",
+                "palabra": "acomodada"
+              },
+              {
+                "texto": "respetada",
+                "palabra": "respetada,"
+              },
+              {
+                "texto": "sin títulos",
+                "palabra": "títulos"
+              }
+            ]
+          }
+        },
+        "c1-bogota": {
+          "plantilla": "mapa",
+          "datos": {
+            "vistas": [
+              {
+                "centro": [
+                  -74.2,
+                  4.95
+                ],
+                "ancho": 6
+              }
+            ],
+            "paises": [
+              {
+                "id": "colombia",
+                "color": "acento2",
+                "opacidad": 0.3,
+                "en": 0
+              }
+            ],
+            "marcas": [
+              {
+                "texto": "Bogotá",
+                "lugar": "bogota",
+                "lado": "derecha",
+                "en": 0.3,
+                "tam": 48
+              },
+              {
+                "texto": "Guaduas",
+                "lugar": [
+                  -74.6,
+                  5.07
+                ],
+                "lado": "izquierda",
+                "en": 0.3,
+                "tam": 36
+              }
+            ],
+            "rotulos": [
+              {
+                "texto": "Cundinamarca",
+                "lugar": [
+                  -73.5,
+                  5.45
+                ],
+                "estilo": "pais",
+                "tam": 44,
+                "en": 0
+              }
+            ],
+            "cartela": {
+              "titulo": "Bogotá, 1802",
+              "sub": "Llega una epidemia de viruela",
+              "palabra": "Su"
+            },
+            "fichas": [
+              {
+                "titulo": "1802",
+                "texto": "Viruela",
+                "dibujo": "cruz",
+                "palabra": "1802,",
+                "lugar": "abajo-derecha"
+              }
+            ]
+          }
+        },
+        "c1-que-paso": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "Piénsalo",
+            "lineas": [
+              "¿Qué pasó",
+              "con su",
+              "familia?"
+            ],
+            "resalta": 2,
+            "dibujo": "reloj",
+            "palabra_dibujo": "Piénsalo."
+          }
+        },
+        "c1-perdidas": {
+          "plantilla": "cifra",
+          "datos": {
+            "titulo": "Lo que se llevó la viruela",
+            "barras": false,
+            "cifras": [
+              {
+                "valor": 2,
+                "unidad": "padres",
+                "rotulo": "Murieron",
+                "palabra": "padres"
+              },
+              {
+                "valor": 2,
+                "unidad": "hermanos",
+                "rotulo": "Murieron",
+                "palabra": "hermanos,"
+              }
+            ]
+          }
+        },
+        "c1-regreso": {
+          "plantilla": "mapa",
+          "datos": {
+            "vistas": [
+              {
+                "centro": [
+                  -74.34,
+                  4.9
+                ],
+                "ancho": 3.4
+              }
+            ],
+            "paises": [
+              {
+                "id": "colombia",
+                "color": "acento2",
+                "opacidad": 0.3,
+                "en": 0
+              }
+            ],
+            "rutas": [
+              {
+                "puntos": [
+                  [
+                    -74.08,
+                    4.71
+                  ],
+                  [
+                    -74.6,
+                    5.07
+                  ]
+                ],
+                "estilo": "flecha",
+                "color": "acento",
+                "palabra": "llevó",
+                "dur": 1.6
+              }
+            ],
+            "marcas": [
+              {
+                "texto": "Bogotá",
+                "lugar": "bogota",
+                "lado": "derecha",
+                "en": 0.1
+              },
+              {
+                "texto": "Guaduas",
+                "lugar": [
+                  -74.6,
+                  5.07
+                ],
+                "lado": "izquierda",
+                "palabra": "Guaduas,"
+              }
+            ],
+            "cartela": {
+              "titulo": "Hacia 1804",
+              "sub": "De Bogotá de vuelta a Guaduas",
+              "palabra": "Hacia"
+            },
+            "fichas": [
+              {
+                "titulo": "1804",
+                "texto": "Regreso",
+                "dibujo": "montana",
+                "palabra": "1804,",
+                "lugar": "abajo-derecha"
+              }
+            ]
+          }
+        },
+        "c1-magdalena": {
+          "plantilla": "recorte",
+          "datos": {
+            "foto": "File:Rio Magdalena vista Guaduas.jpg",
+            "pie": "Río Magdalena visto desde Guaduas",
+            "insignia": "Guaduas",
+            "titulo": "Allí fue costurera",
+            "texto": "Según la mayoría de los historiadores",
+            "lado": "derecha",
+            "palabras": {
+              "titulo": "Allí,",
+              "texto": "según"
+            }
+          }
+        },
+        "c1-oficio": {
+          "plantilla": "personaje",
+          "datos": {
+            "personaje": "policarpa",
+            "pose": "pensar",
+            "anios": "Guaduas",
+            "rol": "Costurera: un oficio humilde",
+            "palabra_rol": "humilde,"
+          }
+        },
+        "c1-repaso": {
+          "plantilla": "linea-tiempo",
+          "datos": {
+            "titulo": "Repaso: ¿en qué año fue la viruela?",
+            "actual": 0,
+            "palabra_actual": "mil",
+            "hitos": [
+              {
+                "anio": "1802",
+                "texto": "Epidemia de viruela en Bogotá"
+              },
+              {
+                "anio": "1804",
+                "texto": "Una hermana la lleva a Guaduas"
+              },
+              {
+                "anio": "1816",
+                "texto": "España reconquista la Nueva Granada"
+              },
+              {
+                "anio": "1817",
+                "texto": "Policarpa llega a Bogotá"
+              }
+            ]
+          }
+        }
+      },
+      "frases": [
+        {
+          "id": "f5",
+          "escena": "c1-guaduas",
+          "texto": "Policarpa nació, según la versión más repetida, en Guaduas, un pueblo de Cundinamarca. Pero ojo: ni el lugar ni el año están claros. Las fuentes hablan de 1793, 1794, 1795 y hasta 1796, y no se ha encontrado su partida de bautismo. Por eso aquí no vamos a decir su edad exacta. Lo que sí se sabe es que su familia era acomodada y respetada, aunque sin títulos de nobleza.",
+          "cortes": [
+            {
+              "escena": "c1-claros",
+              "palabra": 13
+            },
+            {
+              "escena": "c1-anios",
+              "palabra": 23
+            },
+            {
+              "escena": "c1-partida",
+              "palabra": 33
+            },
+            {
+              "escena": "c1-edad",
+              "palabra": 42
+            },
+            {
+              "escena": "c1-familia",
+              "palabra": 52
+            }
+          ]
+        },
+        {
+          "id": "f6",
+          "escena": "c1-bogota",
+          "texto": "Su familia vivía en Bogotá cuando, en 1802, llegó una epidemia de viruela. ¿Qué crees que pasó con la familia? Piénsalo.",
+          "cortes": [
+            {
+              "escena": "c1-que-paso",
+              "palabra": 13
+            }
+          ],
+          "interaccion": "pregunta",
+          "pausa_despues": 3
+        },
+        {
+          "id": "f7",
+          "escena": "c1-perdidas",
+          "texto": "La viruela mató a sus padres y a dos de sus hermanos, y los que quedaron se dispersaron. Hacia 1804, una hermana mayor la llevó de regreso a Guaduas, junto con uno de sus hermanos.",
+          "cortes": [
+            {
+              "escena": "c1-regreso",
+              "palabra": 18
+            }
+          ]
+        },
+        {
+          "id": "f8",
+          "escena": "c1-magdalena",
+          "texto": "Allí, según la mayoría de los historiadores, trabajó como costurera. Un oficio humilde, que años después le serviría de disfraz.",
+          "cortes": [
+            {
+              "escena": "c1-oficio",
+              "palabra": 10
+            }
+          ]
+        },
+        {
+          "id": "f8b",
+          "escena": "c1-repaso",
+          "texto": "Primer repaso: ¿en qué año fue la epidemia de viruela? Si dijiste mil ochocientos dos, vas muy bien.",
+          "interaccion": "repaso"
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "titulo": "La costurera espía",
+      "escenas": {
+        "c2-reconquista": {
+          "plantilla": "mapa",
+          "datos": {
+            "vistas": [
+              {
+                "centro": [
+                  -76,
+                  5.5
+                ],
+                "ancho": 30
+              }
+            ],
+            "paises": [
+              {
+                "id": "colombia",
+                "color": "acento2",
+                "opacidad": 0.35,
+                "en": 0
+              },
+              {
+                "id": "panama",
+                "color": "acento2",
+                "opacidad": 0.35,
+                "en": 0
+              }
+            ],
+            "banderas": [
+              {
+                "pais": "espana",
+                "lugar": [
+                  -74.2,
+                  4.6
+                ],
+                "tam": 110,
+                "palabra": "España"
+              }
+            ],
+            "rotulos": [
+              {
+                "texto": "Nueva Granada",
+                "lugar": [
+                  -76.5,
+                  7.2
+                ],
+                "estilo": "pais",
+                "tam": 44,
+                "en": 0
+              }
+            ],
+            "cartela": {
+              "titulo": "La Nueva Granada",
+              "sub": "Vuelve el dominio español"
+            },
+            "fichas": [
+              {
+                "titulo": "1816",
+                "texto": "Reconquista",
+                "dibujo": "bandera",
+                "palabra": "1816.",
+                "lugar": "abajo-derecha"
+              }
+            ]
+          }
+        },
+        "c2-bandos": {
+          "plantilla": "dos-personajes",
+          "datos": {
+            "izquierda": {
+              "nombre": "Un realista",
+              "rol": "Fiel al rey de España",
+              "bandera": "espana",
+              "palabra_bandera": "realistas,",
+              "piel": "#e2b48c",
+              "pelo": "#3a2a1e",
+              "peinado": "corto",
+              "barba": "bigote",
+              "sombrero": "kepis",
+              "ropa": "#7a2e2e",
+              "detalle": "#c9a256",
+              "expresion": "serio",
+              "pose": "brazos-cruzados"
+            },
+            "derecha": {
+              "nombre": "Un patriota",
+              "rol": "Quería la independencia",
+              "piel": "#d2a07a",
+              "pelo": "#2a1d16",
+              "peinado": "corto",
+              "barba": "ninguna",
+              "sombrero": "ninguno",
+              "ropa": "#3d4a5e",
+              "detalle": "#c9a256",
+              "expresion": "serio",
+              "pose": "jarras"
+            }
+          }
+        },
+        "c2-terror": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "Reconquista española",
+            "lineas": [
+              "La época",
+              "del terror"
+            ],
+            "resalta": 1,
+            "dibujo": "canon",
+            "palabra_dibujo": "terror."
+          }
+        },
+        "c2-llegada": {
+          "plantilla": "mapa",
+          "datos": {
+            "vistas": [
+              {
+                "centro": [
+                  -74.08,
+                  4.9
+                ],
+                "ancho": 4
+              }
+            ],
+            "paises": [
+              {
+                "id": "colombia",
+                "color": "acento2",
+                "opacidad": 0.3,
+                "en": 0
+              }
+            ],
+            "banderas": [
+              {
+                "pais": "espana",
+                "lugar": [
+                  -74.08,
+                  4.98
+                ],
+                "tam": 90,
+                "en": 0.2
+              }
+            ],
+            "rotulos": [
+              {
+                "texto": "Bogotá reconquistada",
+                "lugar": [
+                  -73.1,
+                  5.5
+                ],
+                "estilo": "pais",
+                "tam": 38,
+                "en": 0.2
+              }
+            ],
+            "marcas": [
+              {
+                "texto": "Bogotá",
+                "lugar": "bogota",
+                "lado": "derecha",
+                "en": 0.3,
+                "tam": 48
+              }
+            ],
+            "cartela": {
+              "titulo": "Bogotá, 1817",
+              "sub": "Llega con papeles falsos",
+              "palabra": "papeles"
+            },
+            "fichas": [
+              {
+                "titulo": "Falsos",
+                "texto": "Papeles",
+                "dibujo": "documento",
+                "palabra": "falsos,",
+                "lugar": "abajo-derecha"
+              }
+            ]
+          }
+        },
+        "c2-andrea": {
+          "plantilla": "dos-personajes",
+          "datos": {
+            "izquierda": {
+              "personaje": "policarpa",
+              "pose": "neutral"
+            },
+            "derecha": {
+              "personaje": "andrea",
+              "pose": "saludar",
+              "expresion": "sonrisa"
+            },
+            "foto": "File:Policarpa Salabarrieta.jpg",
+            "foto_pie": "Policarpa, por José María Espinosa",
+            "palabra_foto": "Ahí"
+          }
+        },
+        "c2-espia": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "Adivina",
+            "lineas": [
+              "¿Cómo espiar",
+              "sin entrar",
+              "a un cuartel?"
+            ],
+            "resalta": 2,
+            "dibujo": "documento",
+            "palabra_dibujo": "información"
+          }
+        },
+        "c2-espia-pausa": {
+          "plantilla": "cifra",
+          "datos": {
+            "cifra": "¿?",
+            "rotulo": "¿Cómo lo consigue? Piénsalo",
+            "palabra": "Piénsalo.",
+            "palabra_rotulo": "Piénsalo."
+          }
+        },
+        "c2-cosiendo": {
+          "plantilla": "personaje",
+          "datos": {
+            "personaje": "policarpa",
+            "pose": "firmar",
+            "anios": "Bogotá, 1817",
+            "rol": "Cosía para señoras realistas",
+            "palabra_rol": "señoras"
+          }
+        },
+        "c2-oidos": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "Lo que escuchaba mientras cosía",
+            "fichas": [
+              {
+                "texto": "Cuántos soldados había",
+                "dibujo": "bandera",
+                "palabra": "soldados"
+              },
+              {
+                "texto": "Qué armas tenían",
+                "dibujo": "canon",
+                "palabra": "armas"
+              },
+              {
+                "texto": "Qué órdenes llegaban",
+                "dibujo": "documento",
+                "palabra": "órdenes",
+                "resalta": true
+              }
+            ]
+          }
+        },
+        "c2-llanos": {
+          "plantilla": "mapa",
+          "datos": {
+            "vistas": [
+              {
+                "centro": [
+                  -73.2,
+                  4.8
+                ],
+                "ancho": 9
+              }
+            ],
+            "paises": [
+              {
+                "id": "colombia",
+                "color": "acento2",
+                "opacidad": 0.3,
+                "en": 0
+              }
+            ],
+            "rutas": [
+              {
+                "puntos": [
+                  [
+                    -74.08,
+                    4.71
+                  ],
+                  [
+                    -71.4,
+                    4.4
+                  ]
+                ],
+                "estilo": "flecha",
+                "color": "acento",
+                "en": 0.2,
+                "dur": 1.4
+              }
+            ],
+            "marcas": [
+              {
+                "texto": "Bogotá",
+                "lugar": "bogota",
+                "lado": "izquierda",
+                "en": 0,
+                "tam": 44
+              }
+            ],
+            "rotulos": [
+              {
+                "texto": "Los Llanos",
+                "lugar": [
+                  -71.6,
+                  5.4
+                ],
+                "estilo": "pais",
+                "tam": 44,
+                "palabra": "guerrillas"
+              }
+            ],
+            "cartela": {
+              "titulo": "La información viaja",
+              "sub": "Hasta las guerrillas de los Llanos"
+            }
+          }
+        },
+        "c2-reclutaba": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "Su red secreta",
+            "lineas": [
+              "Reclutaba jóvenes",
+              "y compraba",
+              "material de guerra"
+            ],
+            "resalta": 2,
+            "dibujo": "bandera",
+            "palabra_dibujo": "causa"
+          }
+        },
+        "c2-red": {
+          "plantilla": "dos-personajes",
+          "datos": {
+            "izquierda": {
+              "personaje": "policarpa",
+              "pose": "jarras"
+            },
+            "derecha": {
+              "personaje": "sabarain",
+              "pose": "senalar"
+            }
+          }
+        },
+        "c2-mito": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "«Policarpa trabajaba sola»",
+            "fichas": [
+              {
+                "texto": "Mito",
+                "dibujo": "cruz",
+                "palabra": "Mito",
+                "resalta": true
+              },
+              {
+                "texto": "Realidad",
+                "dibujo": "balanza",
+                "palabra": "realidad?"
+              }
+            ]
+          }
+        },
+        "c2-veredicto": {
+          "plantilla": "tablero",
+          "datos": {
+            "personajes": [
+              "policarpa",
+              "sabarain",
+              "andrea"
+            ],
+            "titulo": "Mito: tenía una red",
+            "palabras": {
+              "personajes": "Alejo",
+              "titulo": "Mito:"
+            }
+          }
+        }
+      },
+      "frases": [
+        {
+          "id": "f9",
+          "escena": "c2-reconquista",
+          "texto": "Pasemos a 1816. España había reconquistado la Nueva Granada, y los realistas, fieles al rey, perseguían a los patriotas, que querían la independencia. Aquellos años se llamaron la época del terror.",
+          "cortes": [
+            {
+              "escena": "c2-bandos",
+              "palabra": 9
+            },
+            {
+              "escena": "c2-terror",
+              "palabra": 23
+            }
+          ]
+        },
+        {
+          "id": "f10",
+          "escena": "c2-llegada",
+          "texto": "En 1817 Policarpa llegó a Bogotá con papeles falsos, a nombre de otra persona, y una carta para Andrea Ricaurte, una patriota que la recibió en su casa. Ahí empezó su trabajo secreto.",
+          "cortes": [
+            {
+              "escena": "c2-andrea",
+              "palabra": 14
+            }
+          ]
+        },
+        {
+          "id": "f11",
+          "escena": "c2-espia",
+          "texto": "Ahora adivina: ¿cómo crees que una joven consigue información de los soldados enemigos, sin entrar a un cuartel? Piénsalo.",
+          "cortes": [
+            {
+              "escena": "c2-espia-pausa",
+              "palabra": 18
+            }
+          ],
+          "interaccion": "adivina",
+          "pausa_despues": 3
+        },
+        {
+          "id": "f12",
+          "escena": "c2-cosiendo",
+          "texto": "Cosiendo. Cosía para señoras realistas, y mientras trabajaba escuchaba cuántos soldados había, qué armas tenían y qué órdenes llegaban. Esa información viajaba hasta las guerrillas de los Llanos.",
+          "cortes": [
+            {
+              "escena": "c2-oidos",
+              "palabra": 5
+            },
+            {
+              "escena": "c2-llanos",
+              "palabra": 19
+            }
+          ]
+        },
+        {
+          "id": "f13",
+          "escena": "c2-reclutaba",
+          "texto": "Además reclutaba jóvenes para la causa y compraba material de guerra, muchas veces junto a Alejo Sabaraín, otro patriota de su red.",
+          "cortes": [
+            {
+              "escena": "c2-red",
+              "palabra": 11
+            }
+          ]
+        },
+        {
+          "id": "f14",
+          "escena": "c2-mito",
+          "texto": "¿Mito o realidad? «Policarpa trabajaba sola.» Mito: tenía una red de patriotas, con Alejo Sabaraín y Andrea Ricaurte, entre otros.",
+          "cortes": [
+            {
+              "escena": "c2-veredicto",
+              "palabra": 6
+            }
+          ],
+          "interaccion": "mito-realidad",
+          "pausa_despues": 3
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "titulo": "La red cae",
+      "escenas": {
+        "c3-caer": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "En 1817,",
+              "la red",
+              "empezó a caer"
+            ],
+            "resalta": 2,
+            "dibujo": "derrumbe",
+            "palabra_dibujo": "caer"
+          }
+        },
+        "c3-almeyda": {
+          "plantilla": "cadena",
+          "datos": {
+            "eslabones": [
+              {
+                "texto": "Almeyda",
+                "palabra": "patriotas"
+              },
+              {
+                "texto": "Atrapados",
+                "palabra": "atrapados"
+              },
+              {
+                "texto": "Documentos",
+                "palabra": "documentos"
+              }
+            ]
+          }
+        },
+        "c3-sabarain": {
+          "plantilla": "personaje",
+          "datos": {
+            "personaje": "sabarain",
+            "pose": "neutral",
+            "anios": "En 1817",
+            "rol": "Detenido con una lista de nombres de realistas y patriotas",
+            "palabra_anios": "Sabaraín",
+            "palabra_rol": "detenido"
+          }
+        },
+        "c3-lista": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "Una lista que,",
+              "según se cuenta,",
+              "ella le entregó"
+            ],
+            "resalta": 2,
+            "dibujo": "documento",
+            "palabra_dibujo": "lista"
+          }
+        },
+        "c3-iglesias": {
+          "plantilla": "personaje",
+          "datos": {
+            "personaje": "iglesias",
+            "pose": "senalar",
+            "anios": "Sargento",
+            "rol": "Principal agente español en la ciudad: recibió la orden de arrestarla",
+            "palabra_rol": "principal"
+          }
+        },
+        "c3-donde": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "¿Y dónde",
+              "la atraparon?"
+            ],
+            "resalta": 1,
+            "dibujo": "balanza",
+            "palabra_dibujo": "versiones",
+            "todo_al_inicio": true
+          }
+        },
+        "c3-casa": {
+          "plantilla": "personaje",
+          "datos": {
+            "personaje": "andrea",
+            "pose": "neutral",
+            "nombre": "La arrestaron",
+            "anios": "Una versión",
+            "rol": "En la casa de Andrea Ricaurte",
+            "palabra_anios": "mayoría",
+            "palabra_rol": "casa"
+          }
+        },
+        "c3-escapo": {
+          "plantilla": "dos-personajes",
+          "datos": {
+            "izquierda": {
+              "personaje": "policarpa",
+              "rol": "Otra versión: escapó de la casa",
+              "expresion": "serio",
+              "pose": "neutral"
+            },
+            "derecha": {
+              "personaje": "iglesias",
+              "rol": "La alcanzó unas cuadras al sur",
+              "expresion": "astuto",
+              "pose": "senalar"
+            }
+          }
+        },
+        "c3-fecha": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "La fecha exacta",
+              "de su captura",
+              "no se conoce"
+            ],
+            "resalta": 2,
+            "calendario": {
+              "arriba": "Captura",
+              "numero": "?",
+              "abajo": "1817",
+              "lado": "derecha",
+              "palabra": "fecha"
+            }
+          }
+        },
+        "c3-rosario": {
+          "plantilla": "recorte",
+          "datos": {
+            "foto": "File:Claustro del Colegio Mayor de Nuestra Señora del Rosario (Bogotá) 01.JPG",
+            "pie": "Claustro del Colegio Mayor del Rosario (foto actual)",
+            "insignia": "Bogotá, 1817",
+            "titulo": "Una cárcel en un colegio",
+            "texto": "Colegio Mayor del Rosario, convertido en cárcel",
+            "lado": "izquierda",
+            "palabras": {
+              "foto": "encerraron",
+              "titulo": "Colegio",
+              "texto": "colegio"
+            }
+          }
+        },
+        "c3-salon": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "¿Tus últimos días",
+              "en un salón",
+              "de clases?"
+            ],
+            "resalta": 2,
+            "dibujo": "reloj",
+            "todo_al_inicio": true
+          }
+        }
+      },
+      "frases": [
+        {
+          "id": "f15",
+          "escena": "c3-caer",
+          "texto": "Pero en 1817 la red empezó a caer. Los hermanos Almeyda, patriotas que ella conocía, fueron atrapados con documentos comprometedores. Y Alejo Sabaraín fue detenido con una lista de nombres de realistas y patriotas, una lista que, según se cuenta, ella misma le había entregado.",
+          "cortes": [
+            {
+              "escena": "c3-almeyda",
+              "palabra": 11
+            },
+            {
+              "escena": "c3-sabarain",
+              "palabra": 20
+            },
+            {
+              "escena": "c3-lista",
+              "palabra": 34
+            }
+          ]
+        },
+        {
+          "id": "f16",
+          "escena": "c3-iglesias",
+          "texto": "El sargento Iglesias, el principal agente español en la ciudad, recibió la orden de arrestarla."
+        },
+        {
+          "id": "f17",
+          "escena": "c3-donde",
+          "texto": "¿Y dónde la atraparon? Aquí las versiones cambian. La mayoría cuenta que la arrestaron en la casa de Andrea Ricaurte. Otra versión dice que escapó de la casa y la alcanzaron unas cuadras al sur. Y la fecha exacta de su captura tampoco se conoce con certeza.",
+          "cortes": [
+            {
+              "escena": "c3-casa",
+              "palabra": 13
+            },
+            {
+              "escena": "c3-escapo",
+              "palabra": 20
+            },
+            {
+              "escena": "c3-fecha",
+              "palabra": 35
+            }
+          ],
+          "interaccion": "pregunta"
+        },
+        {
+          "id": "f18",
+          "escena": "c3-rosario",
+          "texto": "Lo que sí es seguro es que la encerraron en el Colegio Mayor del Rosario, un colegio de la ciudad convertido en cárcel. ¿Te imaginas pasar tus últimos días en un salón de clases?",
+          "cortes": [
+            {
+              "escena": "c3-salon",
+              "palabra": 23
+            }
+          ],
+          "interaccion": "pregunta",
+          "pausa_despues": 2
+        }
+      ]
+    },
+    {
+      "id": "c4",
+      "titulo": "El 14 de noviembre de 1817",
+      "escenas": {
+        "c4-consejo": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "Consejo",
+              "de guerra"
+            ],
+            "resalta": 1,
+            "calendario": {
+              "arriba": "Nov",
+              "numero": "10",
+              "abajo": "1817",
+              "lado": "derecha",
+              "palabra": "noviembre"
+            }
+          }
+        },
+        "c4-condena": {
+          "plantilla": "dos-personajes",
+          "datos": {
+            "izquierda": {
+              "personaje": "policarpa",
+              "rol": "Condenada a muerte",
+              "expresion": "serio",
+              "pose": "neutral"
+            },
+            "derecha": {
+              "personaje": "sabarain",
+              "rol": "Condenado junto con ella",
+              "expresion": "serio",
+              "pose": "neutral"
+            }
+          }
+        },
+        "c4-pregunta": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "¿Cuántas personas",
+              "fueron fusiladas",
+              "ese día?"
+            ],
+            "resalta": 2,
+            "calendario": {
+              "arriba": "Nov",
+              "numero": "14",
+              "abajo": "1817",
+              "lado": "derecha",
+              "palabra": "fusiladas"
+            },
+            "todo_al_inicio": true
+          }
+        },
+        "c4-nueve": {
+          "plantilla": "cifra",
+          "datos": {
+            "valor": 9,
+            "unidad": "personas",
+            "rotulo": "fusiladas: ocho hombres y ella, la única mujer",
+            "dibujo": "cruz",
+            "palabra": "nueve",
+            "palabra_rotulo": "ocho"
+          }
+        },
+        "c4-santafe": {
+          "plantilla": "mapa",
+          "datos": {
+            "vistas": [
+              {
+                "centro": [
+                  -76,
+                  4.8
+                ],
+                "ancho": 22
+              },
+              {
+                "centro": [
+                  -74.1,
+                  4.9
+                ],
+                "ancho": 9,
+                "palabra": "Santafé",
+                "dur": 1.6
+              }
+            ],
+            "paises": [
+              {
+                "id": "colombia",
+                "color": "acento2",
+                "opacidad": 0.25,
+                "en": 0
+              }
+            ],
+            "marcas": [
+              {
+                "texto": "Santafé de Bogotá",
+                "lugar": "bogota",
+                "lado": "derecha",
+                "tam": 40,
+                "palabra": "Santafé"
+              }
+            ],
+            "rotulos": [
+              {
+                "texto": "Colombia",
+                "lugar": [
+                  -73,
+                  2.3
+                ],
+                "estilo": "pais",
+                "tam": 46,
+                "en": 0.05
+              }
+            ],
+            "cartela": {
+              "titulo": "14 de noviembre de 1817",
+              "sub": "Viernes, en Santafé de Bogotá",
+              "palabra": "Fue"
+            }
+          }
+        },
+        "c4-hora": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "La hora fijada:",
+              "las nueve",
+              "de la mañana"
+            ],
+            "resalta": 1,
+            "dibujo": "reloj",
+            "palabra_dibujo": "nueve"
+          }
+        },
+        "c4-cuatro": {
+          "plantilla": "cifra",
+          "datos": {
+            "valor": 4,
+            "unidad": "días",
+            "rotulo": "entre la condena y el fusilamiento",
+            "dibujo": "calendario",
+            "en": 0.05,
+            "palabra_rotulo": "fusilamiento"
+          }
+        },
+        "c4-capilla": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "La última noche",
+            "foto": "File:Claustro del Colegio Mayor de Nuestra Señora del Rosario (Bogotá) 01.JPG",
+            "foto_pie": "Claustro del Rosario (foto actual)",
+            "fichas": [
+              {
+                "texto": "La víspera: 13 de nov.",
+                "dibujo": "calendario",
+                "palabra": "víspera,"
+              },
+              {
+                "texto": "La capilla",
+                "dibujo": "reloj",
+                "palabra": "capilla,"
+              },
+              {
+                "texto": "Salones del Rosario",
+                "dibujo": "documento",
+                "palabra": "salones"
+              }
+            ]
+          }
+        },
+        "c4-cuentan": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "Pidieron",
+              "arrodillarse,",
+              "no de espaldas"
+            ],
+            "resalta": 1,
+            "insignia": "Según cuentan"
+          }
+        },
+        "c4-maldijo": {
+          "plantilla": "personaje",
+          "datos": {
+            "personaje": "policarpa",
+            "pose": "discurso",
+            "expresion": "enojado",
+            "anios": "14 nov 1817",
+            "rol": "No repitió las oraciones de los sacerdotes",
+            "palabra_rol": "repitió"
+          }
+        },
+        "c4-mito-opciones": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "Conocemos sus últimas palabras",
+            "fichas": [
+              {
+                "texto": "Mito",
+                "dibujo": "derrumbe",
+                "palabra": "Mito"
+              },
+              {
+                "texto": "Realidad",
+                "dibujo": "sello",
+                "palabra": "realidad"
+              }
+            ]
+          }
+        },
+        "c4-mito-veredicto": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "Veredicto:",
+              "¡Mito!",
+              "Varias versiones"
+            ],
+            "resalta": 1,
+            "dibujo": "derrumbe",
+            "palabra_dibujo": "Mito"
+          }
+        },
+        "c4-ninguna": {
+          "plantilla": "cifra",
+          "datos": {
+            "cifra": "0",
+            "rotulo": "frases suyas repetidas en este video",
+            "contar": false,
+            "palabra": "repetimos"
+          }
+        },
+        "c4-repaso-pregunta": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "Repaso:",
+              "¿qué día fue",
+              "el fusilamiento?"
+            ],
+            "resalta": 1,
+            "dibujo": "calendario",
+            "todo_al_inicio": true
+          }
+        },
+        "c4-repaso-tiempo": {
+          "plantilla": "linea-tiempo",
+          "datos": {
+            "titulo": "Repaso: los tres días",
+            "hitos": [
+              {
+                "anio": "10 nov",
+                "texto": "Consejo de guerra: la condena"
+              },
+              {
+                "anio": "13 nov",
+                "texto": "La capilla, su última noche"
+              },
+              {
+                "anio": "14 nov",
+                "texto": "El fusilamiento",
+                "palabra": "14"
+              }
+            ],
+            "actual": 2,
+            "palabra_actual": "14"
+          }
+        }
+      },
+      "frases": [
+        {
+          "id": "f19",
+          "escena": "c4-consejo",
+          "texto": "El 10 de noviembre de 1817, un consejo de guerra la condenó a muerte, junto con Alejo Sabaraín y otros patriotas.",
+          "cortes": [
+            {
+              "escena": "c4-condena",
+              "palabra": 10
+            }
+          ]
+        },
+        {
+          "id": "f20",
+          "escena": "c4-pregunta",
+          "texto": "Adivina: ¿cuántas personas fueron fusiladas ese día en Bogotá, contándola a ella? Piénsalo. Fueron nueve: ocho hombres y ella, la única mujer.",
+          "cortes": [
+            {
+              "escena": "c4-nueve",
+              "palabra": 13
+            }
+          ],
+          "interaccion": "revela-cifra",
+          "pausa_despues": 3
+        },
+        {
+          "id": "f21",
+          "escena": "c4-santafe",
+          "texto": "Fue el viernes 14 de noviembre de 1817, en Santafé de Bogotá, como se llamaba entonces la ciudad, y la hora fijada eran las nueve de la mañana.",
+          "cortes": [
+            {
+              "escena": "c4-hora",
+              "palabra": 18
+            }
+          ]
+        },
+        {
+          "id": "f22",
+          "escena": "c4-cuatro",
+          "texto": "Entre la condena y el fusilamiento pasaron solo cuatro días. La víspera, los condenados pasaron la capilla, su última noche, en los salones del Colegio del Rosario. Cuentan que los condenados pidieron arrodillarse, en lugar de ponerse de espaldas, por considerarlo más religioso. Y que ella no repitió las oraciones de los sacerdotes: maldijo a los españoles.",
+          "cortes": [
+            {
+              "escena": "c4-capilla",
+              "palabra": 10
+            },
+            {
+              "escena": "c4-cuentan",
+              "palabra": 27
+            },
+            {
+              "escena": "c4-maldijo",
+              "palabra": 43
+            }
+          ]
+        },
+        {
+          "id": "f23",
+          "escena": "c4-mito-opciones",
+          "texto": "¿Mito o realidad? «Conocemos con exactitud sus últimas palabras.» Mito: circulan varias versiones distintas de sus frases, y no hay certeza de cuáles dijo de verdad. Por eso aquí no repetimos ninguna.",
+          "cortes": [
+            {
+              "escena": "c4-mito-veredicto",
+              "palabra": 9
+            },
+            {
+              "escena": "c4-ninguna",
+              "palabra": 26
+            }
+          ],
+          "interaccion": "mito-realidad",
+          "pausa_despues": 3
+        },
+        {
+          "id": "f24",
+          "escena": "c4-repaso-pregunta",
+          "texto": "Segundo repaso: ¿qué día fue el fusilamiento? Si dijiste el 14 de noviembre de 1817, vas muy bien.",
+          "cortes": [
+            {
+              "escena": "c4-repaso-tiempo",
+              "palabra": 7
+            }
+          ],
+          "interaccion": "repaso"
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "titulo": "La Pola hoy",
+      "escenas": {
+        "c5-cuerpo": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "Su cuerpo",
+              "no fue expuesto"
+            ],
+            "resalta": 1,
+            "insignia": "Después del fusilamiento"
+          }
+        },
+        "c5-sepultura": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "Su sepultura",
+            "fichas": [
+              {
+                "texto": "Iglesia de San Agustín",
+                "dibujo": "cruz",
+                "palabra": "iglesia"
+              },
+              {
+                "texto": "Sus hermanos sacerdotes",
+                "dibujo": "pluma",
+                "palabra": "hermanos"
+              }
+            ]
+          }
+        },
+        "c5-indigno": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "Su ejecución",
+              "indignó a la",
+              "población"
+            ],
+            "resalta": 2,
+            "insignia": "Según cuentan"
+          }
+        },
+        "c5-retrato": {
+          "plantilla": "recorte",
+          "datos": {
+            "foto": "File:Policarpa Salabarrieta.jpg",
+            "pie": "Retrato por José María Espinosa",
+            "insignia": "Muchos historiadores",
+            "titulo": "La mujer más representativa",
+            "texto": "de la independencia colombiana",
+            "lado": "izquierda",
+            "palabras": {
+              "foto": "Muchos",
+              "titulo": "mujer",
+              "texto": "representativa"
+            }
+          }
+        },
+        "c5-red": {
+          "plantilla": "dos-personajes",
+          "datos": {
+            "izquierda": {
+              "personaje": "policarpa",
+              "rol": "No fue la única mujer de su red",
+              "expresion": "serio",
+              "pose": "neutral"
+            },
+            "derecha": {
+              "personaje": "andrea",
+              "rol": "También arriesgó todo por la causa",
+              "expresion": "serio",
+              "pose": "neutral"
+            }
+          }
+        },
+        "c5-pregunta14": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "¿Qué se",
+              "conmemora en",
+              "Colombia?"
+            ],
+            "resalta": 2,
+            "calendario": {
+              "arriba": "Nov",
+              "numero": "14",
+              "abajo": "cada año",
+              "lado": "derecha",
+              "en": 0.1
+            },
+            "todo_al_inicio": true
+          }
+        },
+        "c5-150": {
+          "plantilla": "cifra",
+          "datos": {
+            "valor": 150,
+            "unidad": "años",
+            "rotulo": "de su sacrificio",
+            "dibujo": "calendario",
+            "palabra": "ciento",
+            "palabra_rotulo": "de"
+          }
+        },
+        "c5-ley": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "Día de la",
+              "Mujer Colombiana"
+            ],
+            "resalta": 1,
+            "insignia": "Ley 44 de 1967",
+            "dibujo": "bandera",
+            "palabra_dibujo": "Colombiana"
+          }
+        },
+        "c5-billete": {
+          "plantilla": "cifra",
+          "datos": {
+            "valor": 10000,
+            "moneda": "$",
+            "unidad": "pesos",
+            "rotulo": "El billete con su cara, desde 1995",
+            "en": 0.05,
+            "palabra_rotulo": "billete"
+          }
+        },
+        "c5-dinero": {
+          "plantilla": "linea-tiempo",
+          "datos": {
+            "titulo": "Su historia en el dinero",
+            "hitos": [
+              {
+                "anio": "1817",
+                "texto": "Su sacrificio"
+              },
+              {
+                "anio": "1995",
+                "texto": "Billete de 10.000 pesos"
+              },
+              {
+                "anio": "2023",
+                "texto": "Moneda conmemorativa",
+                "palabra": "2023"
+              }
+            ],
+            "actual": 2,
+            "palabra_actual": "2023"
+          }
+        },
+        "c5-200": {
+          "plantilla": "cifra",
+          "datos": {
+            "valor": 200,
+            "unidad": "años",
+            "rotulo": "de su sacrificio",
+            "dibujo": "calendario",
+            "palabra": "doscientos"
+          }
+        },
+        "c5-pregunta-fin": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "¿Puede una",
+              "costurera cambiar",
+              "una guerra?"
+            ],
+            "resalta": 1,
+            "insignia": "La pregunta del principio",
+            "todo_al_inicio": true
+          }
+        },
+        "c5-cadena": {
+          "plantilla": "cadena",
+          "datos": {
+            "eslabones": [
+              {
+                "texto": "Una aguja",
+                "palabra": "aguja,"
+              },
+              {
+                "texto": "Una red",
+                "palabra": "red"
+              },
+              {
+                "texto": "Mucho valor",
+                "palabra": "valor,"
+              }
+            ]
+          }
+        },
+        "c5-final": {
+          "plantilla": "personaje",
+          "datos": {
+            "personaje": "policarpa",
+            "pose": "senalar",
+            "anios": "La Pola",
+            "rol": "Arriesgó todo por una causa",
+            "palabra_anios": "arriesgó",
+            "palabra_rol": "arriesgó"
+          }
+        },
+        "c5-comenta": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "¿Qué parte de",
+              "esta historia",
+              "no conocías?"
+            ],
+            "resalta": 2,
+            "insignia": "Cuéntalo en los comentarios",
+            "dibujo": "pluma"
+          }
+        },
+        "c5-suscribete": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "Lo comprobado y lo que se discute",
+            "fichas": [
+              {
+                "texto": "Lo comprobado",
+                "dibujo": "documento",
+                "palabra": "comprobado"
+              },
+              {
+                "texto": "Lo que se discute",
+                "dibujo": "balanza",
+                "palabra": "discute,"
+              },
+              {
+                "texto": "Más historias con fuentes",
+                "dibujo": "tren",
+                "palabra": "suscríbete",
+                "resalta": true
+              }
+            ]
+          }
+        }
+      },
+      "frases": [
+        {
+          "id": "f25",
+          "escena": "c5-cuerpo",
+          "texto": "Su cuerpo no fue expuesto como los de sus compañeros. Quedó sepultado en la iglesia de San Agustín, y sus hermanos sacerdotes se ocuparon de sus restos.",
+          "cortes": [
+            {
+              "escena": "c5-sepultura",
+              "palabra": 10
+            }
+          ]
+        },
+        {
+          "id": "f26",
+          "escena": "c5-indigno",
+          "texto": "Su ejecución, cuentan, indignó a la población de la ciudad. Muchos historiadores la consideran la mujer más representativa de la independencia colombiana. Y no fue la única mujer de su red: Andrea Ricaurte también arriesgó todo por la causa.",
+          "cortes": [
+            {
+              "escena": "c5-retrato",
+              "palabra": 10
+            },
+            {
+              "escena": "c5-red",
+              "palabra": 22
+            }
+          ]
+        },
+        {
+          "id": "f27",
+          "escena": "c5-pregunta14",
+          "texto": "Antes de seguir, una pregunta: ¿sabes qué se conmemora en Colombia cada 14 de noviembre? Piénsalo. Cuando se cumplieron ciento cincuenta años de su sacrificio, una ley de 1967 declaró cada 14 de noviembre como el Día de la Mujer Colombiana.",
+          "cortes": [
+            {
+              "escena": "c5-150",
+              "palabra": 16
+            },
+            {
+              "escena": "c5-ley",
+              "palabra": 29
+            }
+          ],
+          "interaccion": "pregunta"
+        },
+        {
+          "id": "f28",
+          "escena": "c5-billete",
+          "texto": "Su cara estuvo en el billete de diez mil pesos desde 1995, y en 2023 el Banco de la República puso en circulación una moneda conmemorativa por los doscientos años de su sacrificio.",
+          "cortes": [
+            {
+              "escena": "c5-dinero",
+              "palabra": 12
+            },
+            {
+              "escena": "c5-200",
+              "palabra": 26
+            }
+          ]
+        },
+        {
+          "id": "f29",
+          "escena": "c5-pregunta-fin",
+          "texto": "Y volvamos a la pregunta del principio: ¿puede una costurera cambiar el rumbo de una guerra? Ella no ganó la guerra sola. Pero con una aguja, una red de patriotas y mucho valor, arriesgó todo por una causa, y su historia sigue viva.",
+          "cortes": [
+            {
+              "escena": "c5-cadena",
+              "palabra": 16
+            },
+            {
+              "escena": "c5-final",
+              "palabra": 33
+            }
+          ],
+          "interaccion": "repaso"
+        },
+        {
+          "id": "f30",
+          "escena": "c5-comenta",
+          "texto": "Cuéntame en los comentarios: ¿qué parte de esta historia no conocías? Y si te gustó que separemos lo comprobado de lo que se discute, suscríbete para ver más historias con fuentes.",
+          "cortes": [
+            {
+              "escena": "c5-suscribete",
+              "palabra": 11
+            }
+          ],
+          "interaccion": "comentar"
+        }
+      ]
+    }
+  ]
+}

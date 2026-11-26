@@ -1,0 +1,111 @@
+{
+  "capitulo": "c0",
+  "escenas": {
+    "c0-carta": {
+      "plantilla": "recorte",
+      "datos": {
+        "foto": "File:Carta corográfica de la Gran Colombia 1825.jpg",
+        "pie": "Carta corográfica de la Gran Colombia (1825)",
+        "insignia": "Gran Colombia, 1825",
+        "titulo": "El país que desapareció",
+        "texto": "Parte 3: ¿cómo se deshizo?",
+        "lado": "izquierda",
+        "palabras": { "titulo": "Gran", "texto": "pregunta" }
+      }
+    },
+    "c0-pregunta": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": ["¿Por qué se acabó", "la Gran Colombia?"],
+        "resalta": 1,
+        "todo_al_inicio": true,
+        "insignia": "Piénsalo y guarda tu respuesta",
+        "dibujo": "reloj",
+        "palabra_dibujo": "Piénsalo"
+      }
+    },
+    "c0-pais": {
+      "plantilla": "mapa",
+      "datos": {
+        "vistas": [{ "centro": [-72, 5], "ancho": 38 }],
+        "paises": [
+          { "id": "colombia", "color": "acento2", "opacidad": 0.45, "palabra": "Colombia" },
+          { "id": "venezuela", "color": "acento", "opacidad": 0.3, "palabra": "Venezuela" },
+          { "id": "panama", "color": "acento2", "opacidad": 0.6, "palabra": "Panamá" },
+          { "id": "ecuador", "color": "acento", "opacidad": 0.3, "palabra": "Ecuador" }
+        ],
+        "rotulos": [
+          { "texto": "Colombia", "lugar": [-73.5, 3.6], "estilo": "pais", "tam": 42, "palabra": "Colombia" },
+          { "texto": "Venezuela", "lugar": [-66.3, 7.6], "estilo": "pais", "tam": 42, "palabra": "Venezuela" },
+          { "texto": "Ecuador", "lugar": [-78.3, -1.4], "estilo": "pais", "tam": 34, "palabra": "Ecuador" },
+          { "texto": "Mar Caribe", "lugar": [-74, 12.2], "estilo": "mar", "tam": 34, "en": 0 }
+        ],
+        "marcas": [{ "texto": "Panamá", "lugar": "panama", "lado": "izquierda", "tam": 34, "palabra": "Panamá" }],
+        "cartela": { "titulo": "La Gran Colombia", "sub": "Cuatro países de hoy en uno solo", "en": 0.02 },
+        "fichas": [{ "tipo": "anios", "de": 1819, "a": 1831, "texto": "poco más de una década", "lugar": "abajo-derecha", "palabra": "duró" }]
+      }
+    },
+    "c0-regla": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": ["Cada pregunta,", "respóndela", "en voz alta"],
+        "resalta": 2,
+        "insignia": "La regla del video",
+        "dibujo": "documento",
+        "palabra_dibujo": "regla"
+      }
+    },
+    "c0-promesas": {
+      "plantilla": "fichas",
+      "datos": {
+        "titulo": "En este video",
+        "fichas": [
+          { "texto": "Adivinar", "dibujo": "reloj", "palabra": "adivinar" },
+          { "texto": "Mito o realidad", "dibujo": "balanza", "palabra": "mito" },
+          { "texto": "Coincidencia de fechas", "dibujo": "calendario", "palabra": "coincidencia" },
+          { "texto": "Tú pones las respuestas", "dibujo": "pluma", "palabra": "Tú", "resalta": true }
+        ]
+      }
+    },
+    "c0-dia": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": ["El día en que", "todo comenzó"],
+        "resalta": 1,
+        "dibujo": "calendario"
+      }
+    },
+    "c0-fechas": {
+      "plantilla": "linea-tiempo",
+      "datos": {
+        "titulo": "Guarda estas cuatro fechas",
+        "hitos": [
+          { "anio": "1819", "texto": "Nace la Gran Colombia", "palabra": "1819" },
+          { "anio": "1826", "texto": "La Cosiata", "palabra": "1826" },
+          { "anio": "1828", "texto": "Ocaña y la dictadura", "palabra": "1828" },
+          { "anio": "1830", "texto": "La separación", "palabra": "1830" }
+        ]
+      }
+    },
+    "c0-ultima": {
+      "plantilla": "cifra",
+      "datos": {
+        "cifra": "1830",
+        "unidad": "última fecha",
+        "rotulo": "La más sorprendente: quédate",
+        "dibujo": "calendario",
+        "palabra": "última",
+        "palabra_rotulo": "sorprendente"
+      }
+    }
+  },
+  "frases": [
+    { "id": "f1", "escena": "c0-carta", "cortes": [{ "escena": "c0-pregunta", "palabra": 16 }], "pausa_despues": 2.5 },
+    { "id": "f2", "escena": "c0-pais" },
+    { "id": "f2b", "escena": "c0-regla", "pausa_despues": 1.5 },
+    { "id": "f3", "escena": "c0-promesas" },
+    { "id": "f4", "escena": "c0-dia" },
+    { "id": "f4b", "escena": "c0-fechas" },
+    { "id": "f4c", "escena": "c0-ultima" }
+  ]
+}

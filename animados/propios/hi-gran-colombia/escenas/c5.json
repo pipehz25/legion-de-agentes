@@ -1,0 +1,341 @@
+{
+  "capitulo": "c5",
+  "escenas": {
+    "c5-tu-respuesta": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "La que guardaste al principio",
+        "lineas": [
+          "¿Cuál era",
+          "tu respuesta?"
+        ],
+        "resalta": 1,
+        "dibujo": "pluma",
+        "palabra_dibujo": "respuesta"
+      }
+    },
+    "c5-regiones": {
+      "plantilla": "mapa",
+      "datos": {
+        "vistas": [
+          {
+            "centro": [
+              -73,
+              2.2
+            ],
+            "ancho": 28
+          }
+        ],
+        "paises": [
+          {
+            "id": "venezuela",
+            "color": "acento",
+            "opacidad": 0.45,
+            "en": 0.3
+          },
+          {
+            "id": "colombia",
+            "color": "bien",
+            "opacidad": 0.45,
+            "en": 0.3
+          },
+          {
+            "id": "ecuador",
+            "color": "acento2",
+            "opacidad": 0.5,
+            "en": 0.3
+          },
+          {
+            "id": "panama",
+            "color": "alerta",
+            "opacidad": 0.35,
+            "en": 0.3
+          }
+        ],
+        "rutas": [
+          {
+            "puntos": [
+              [
+                -66.9,
+                10.5
+              ],
+              [
+                -74.07,
+                4.71
+              ],
+              [
+                -78.5,
+                -0.2
+              ]
+            ],
+            "estilo": "discontinua",
+            "color": "tinta",
+            "grosor": 5,
+            "palabra": "mal",
+            "dur": 1.5
+          }
+        ],
+        "marcas": [
+          {
+            "texto": "Caracas",
+            "lugar": "caracas",
+            "lado": "derecha",
+            "tam": 32,
+            "palabra": "distintas"
+          },
+          {
+            "texto": "Bogotá",
+            "lugar": "bogota",
+            "lado": "derecha",
+            "tam": 32,
+            "palabra": "distintas"
+          },
+          {
+            "texto": "Quito",
+            "lugar": "quito",
+            "lado": "derecha",
+            "tam": 32,
+            "palabra": "distintas"
+          }
+        ],
+        "cartela": {
+          "titulo": "Regiones muy distintas",
+          "sub": "Y mal comunicadas",
+          "palabra": "regiones"
+        }
+      }
+    },
+    "c5-lideres": {
+      "plantilla": "dos-personajes",
+      "datos": {
+        "izquierda": {
+          "personaje": "bolivar",
+          "rol": "Gobierno fuerte desde el centro",
+          "pose": "senalar",
+          "expresion": "serio"
+        },
+        "derecha": {
+          "personaje": "santander",
+          "nombre": "Santander",
+          "rol": "Más autonomía regional",
+          "pose": "jarras",
+          "expresion": "serio"
+        }
+      }
+    },
+    "c5-unidad": {
+      "plantilla": "recorte",
+      "datos": {
+        "foto": "File:Antonio José de Sucre (MCDS).jpg",
+        "pie": "Sucre, retrato de la época",
+        "lado": "derecha",
+        "insignia": "Sin los dos pilares",
+        "titulo": "Sin Sucre ni Bolívar",
+        "texto": "Nadie pudo sostener la unión",
+        "palabras": {
+          "titulo": "figuras",
+          "texto": "nadie"
+        }
+      }
+    },
+    "c5-votacion": {
+      "plantilla": "fichas",
+      "datos": {
+        "titulo": "«Fue culpa de una sola persona»",
+        "fichas": [
+          {
+            "texto": "Mito",
+            "palabra": "Mito",
+            "dibujo": "derrumbe"
+          },
+          {
+            "texto": "Realidad",
+            "palabra": "realidad",
+            "dibujo": "balanza"
+          }
+        ]
+      }
+    },
+    "c5-veredicto": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "Veredicto",
+        "lineas": [
+          "Es un mito:",
+          "hubo muchas causas"
+        ],
+        "resalta": 0,
+        "dibujo": "derrumbe",
+        "palabra_dibujo": "Mito"
+      }
+    },
+    "c5-repaso": {
+      "plantilla": "linea-tiempo",
+      "datos": {
+        "titulo": "Repaso final",
+        "actual": 3,
+        "palabra_actual": "1830",
+        "hitos": [
+          {
+            "anio": "1819",
+            "texto": "Nace la Gran Colombia",
+            "palabra": "1819"
+          },
+          {
+            "anio": "1826",
+            "texto": "La Cosiata",
+            "palabra": "1826"
+          },
+          {
+            "anio": "1828",
+            "texto": "Ocaña y la dictadura",
+            "palabra": "1828"
+          },
+          {
+            "anio": "1830",
+            "texto": "La separación",
+            "palabra": "1830"
+          }
+        ]
+      }
+    },
+    "c5-cuatro": {
+      "plantilla": "cifra",
+      "datos": {
+        "valor": 4,
+        "unidad": "fechas",
+        "rotulo": "y ya sabes cómo se deshizo",
+        "dibujo": "calendario",
+        "palabra": "recuerdas"
+      }
+    },
+    "c5-salvar": {
+      "plantilla": "fichas",
+      "datos": {
+        "titulo": "Tu respuesta",
+        "foto": "File:Carta corográfica de la Gran Colombia 1825.jpg",
+        "foto_pie": "Carta de la Gran Colombia (1825)",
+        "fichas": [
+          {
+            "texto": "Se pudo salvar",
+            "dibujo": "bandera",
+            "palabra": "salvar"
+          },
+          {
+            "texto": "Destinada a dividirse",
+            "dibujo": "derrumbe",
+            "palabra": "destinada"
+          }
+        ]
+      }
+    },
+    "c5-comenta": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "En los comentarios",
+        "lineas": [
+          "Déjame tu",
+          "respuesta"
+        ],
+        "resalta": 1
+      }
+    },
+    "c5-tres-partes": {
+      "plantilla": "linea-tiempo",
+      "datos": {
+        "titulo": "La independencia, en tres partes",
+        "actual": 2,
+        "palabra_actual": "y",
+        "hitos": [
+          {
+            "anio": "Parte 1",
+            "texto": "El florero de 1810",
+            "palabra": "florero"
+          },
+          {
+            "anio": "Parte 2",
+            "texto": "Boyacá, 1819",
+            "palabra": "Boyacá"
+          },
+          {
+            "anio": "Parte 3",
+            "texto": "Caída de la Gran Colombia",
+            "palabra": "y"
+          }
+        ]
+      }
+    },
+    "c5-gracias": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "Fin de la serie",
+        "lineas": [
+          "Gracias por",
+          "responder",
+          "en voz alta"
+        ],
+        "resalta": 2
+      }
+    }
+  },
+  "frases": [
+    {
+      "id": "f25",
+      "escena": "c5-tu-respuesta"
+    },
+    {
+      "id": "f26",
+      "escena": "c5-regiones",
+      "cortes": [
+        {
+          "escena": "c5-lideres",
+          "palabra": 14
+        }
+      ]
+    },
+    {
+      "id": "f26b",
+      "escena": "c5-unidad"
+    },
+    {
+      "id": "f27",
+      "escena": "c5-votacion",
+      "cortes": [
+        {
+          "escena": "c5-veredicto",
+          "palabra": 16
+        }
+      ]
+    },
+    {
+      "id": "f28",
+      "escena": "c5-repaso",
+      "cortes": [
+        {
+          "escena": "c5-cuatro",
+          "palabra": 15
+        }
+      ]
+    },
+    {
+      "id": "f29",
+      "escena": "c5-salvar",
+      "cortes": [
+        {
+          "escena": "c5-comenta",
+          "palabra": 19
+        }
+      ]
+    },
+    {
+      "id": "f30",
+      "escena": "c5-tres-partes",
+      "cortes": [
+        {
+          "escena": "c5-gracias",
+          "palabra": 23
+        }
+      ]
+    }
+  ]
+}

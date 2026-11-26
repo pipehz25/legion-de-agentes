@@ -1,0 +1,208 @@
+{
+  "capitulo": "c5",
+  "escenas": {
+    "c5-cuerpo": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": ["Su cuerpo", "no fue expuesto"],
+        "resalta": 1,
+        "insignia": "Después del fusilamiento"
+      }
+    },
+    "c5-sepultura": {
+      "plantilla": "fichas",
+      "datos": {
+        "titulo": "Su sepultura",
+        "fichas": [
+          { "texto": "Iglesia de San Agustín", "dibujo": "cruz", "palabra": "iglesia" },
+          { "texto": "Sus hermanos sacerdotes", "dibujo": "pluma", "palabra": "hermanos" }
+        ]
+      }
+    },
+    "c5-indigno": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": ["Su ejecución", "indignó a la", "población"],
+        "resalta": 2,
+        "insignia": "Según cuentan"
+      }
+    },
+    "c5-retrato": {
+      "plantilla": "recorte",
+      "datos": {
+        "foto": "File:Policarpa Salabarrieta.jpg",
+        "pie": "Retrato por José María Espinosa",
+        "insignia": "Muchos historiadores",
+        "titulo": "La mujer más representativa",
+        "texto": "de la independencia colombiana",
+        "lado": "izquierda",
+        "palabras": { "foto": "Muchos", "titulo": "mujer", "texto": "representativa" }
+      }
+    },
+    "c5-red": {
+      "plantilla": "dos-personajes",
+      "datos": {
+        "izquierda": { "personaje": "policarpa", "rol": "No fue la única mujer de su red", "expresion": "serio", "pose": "neutral" },
+        "derecha": { "personaje": "andrea", "rol": "También arriesgó todo por la causa", "expresion": "serio", "pose": "neutral" }
+      }
+    },
+    "c5-pregunta14": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": ["¿Qué se", "conmemora en", "Colombia?"],
+        "resalta": 2,
+        "calendario": { "arriba": "Nov", "numero": "14", "abajo": "cada año", "lado": "derecha", "en": 0.1 },
+        "todo_al_inicio": true
+      }
+    },
+    "c5-150": {
+      "plantilla": "cifra",
+      "datos": {
+        "valor": 150,
+        "unidad": "años",
+        "rotulo": "de su sacrificio",
+        "dibujo": "calendario",
+        "palabra": "ciento",
+        "palabra_rotulo": "de"
+      }
+    },
+    "c5-ley": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": ["Día de la", "Mujer Colombiana"],
+        "resalta": 1,
+        "insignia": "Ley 44 de 1967",
+        "dibujo": "bandera",
+        "palabra_dibujo": "Colombiana"
+      }
+    },
+    "c5-billete": {
+      "plantilla": "cifra",
+      "datos": {
+        "valor": 10000,
+        "moneda": "$",
+        "unidad": "pesos",
+        "rotulo": "El billete con su cara, desde 1995",
+        "en": 0.05,
+        "palabra_rotulo": "billete"
+      }
+    },
+    "c5-dinero": {
+      "plantilla": "linea-tiempo",
+      "datos": {
+        "titulo": "Su historia en el dinero",
+        "hitos": [
+          { "anio": "1817", "texto": "Su sacrificio" },
+          { "anio": "1995", "texto": "Billete de 10.000 pesos" },
+          { "anio": "2023", "texto": "Moneda conmemorativa", "palabra": "2023" }
+        ],
+        "actual": 2,
+        "palabra_actual": "2023"
+      }
+    },
+    "c5-200": {
+      "plantilla": "cifra",
+      "datos": {
+        "valor": 200,
+        "unidad": "años",
+        "rotulo": "de su sacrificio",
+        "dibujo": "calendario",
+        "palabra": "doscientos"
+      }
+    },
+    "c5-pregunta-fin": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": ["¿Puede una", "costurera cambiar", "una guerra?"],
+        "resalta": 1,
+        "insignia": "La pregunta del principio",
+        "todo_al_inicio": true
+      }
+    },
+    "c5-cadena": {
+      "plantilla": "cadena",
+      "datos": {
+        "eslabones": [
+          { "texto": "Una aguja", "palabra": "aguja," },
+          { "texto": "Una red", "palabra": "red" },
+          { "texto": "Mucho valor", "palabra": "valor," }
+        ]
+      }
+    },
+    "c5-final": {
+      "plantilla": "personaje",
+      "datos": {
+        "personaje": "policarpa",
+        "pose": "senalar",
+        "anios": "La Pola",
+        "rol": "Arriesgó todo por una causa",
+        "palabra_anios": "arriesgó",
+        "palabra_rol": "arriesgó"
+      }
+    },
+    "c5-comenta": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": ["¿Qué parte de", "esta historia", "no conocías?"],
+        "resalta": 2,
+        "insignia": "Cuéntalo en los comentarios",
+        "dibujo": "pluma"
+      }
+    },
+    "c5-suscribete": {
+      "plantilla": "fichas",
+      "datos": {
+        "titulo": "Lo comprobado y lo que se discute",
+        "fichas": [
+          { "texto": "Lo comprobado", "dibujo": "documento", "palabra": "comprobado" },
+          { "texto": "Lo que se discute", "dibujo": "balanza", "palabra": "discute," },
+          { "texto": "Más historias con fuentes", "dibujo": "tren", "palabra": "suscríbete", "resalta": true }
+        ]
+      }
+    }
+  },
+  "frases": [
+    {
+      "id": "f25",
+      "escena": "c5-cuerpo",
+      "cortes": [{ "escena": "c5-sepultura", "palabra": 10 }]
+    },
+    {
+      "id": "f26",
+      "escena": "c5-indigno",
+      "cortes": [
+        { "escena": "c5-retrato", "palabra": 10 },
+        { "escena": "c5-red", "palabra": 22 }
+      ]
+    },
+    {
+      "id": "f27",
+      "escena": "c5-pregunta14",
+      "cortes": [
+        { "escena": "c5-150", "palabra": 16 },
+        { "escena": "c5-ley", "palabra": 29 }
+      ]
+    },
+    {
+      "id": "f28",
+      "escena": "c5-billete",
+      "cortes": [
+        { "escena": "c5-dinero", "palabra": 12 },
+        { "escena": "c5-200", "palabra": 26 }
+      ]
+    },
+    {
+      "id": "f29",
+      "escena": "c5-pregunta-fin",
+      "cortes": [
+        { "escena": "c5-cadena", "palabra": 16 },
+        { "escena": "c5-final", "palabra": 33 }
+      ]
+    },
+    {
+      "id": "f30",
+      "escena": "c5-comenta",
+      "cortes": [{ "escena": "c5-suscribete", "palabra": 11 }]
+    }
+  ]
+}

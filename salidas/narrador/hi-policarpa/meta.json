@@ -1,0 +1,60 @@
+{
+  "id": "hi-policarpa",
+  "tipo": "largo",
+  "modo": "escenas",
+  "titulo": "¿Quién fue de verdad la Pola? Policarpa Salavarrieta, la costurera espía de la independencia",
+  "duracion_s": 397.3,
+  "volumen": "I: -14.0 LUFS",
+  "voz": "elevenlabs / C12mZePhNoo0RoTXhSFV",
+  "formato": "1920x1080",
+  "capitulos": [
+    {
+      "inicio": "00:00",
+      "titulo": "Introducción"
+    },
+    {
+      "inicio": "00:39",
+      "titulo": "Una niña de Guaduas"
+    },
+    {
+      "inicio": "01:49",
+      "titulo": "La costurera espía"
+    },
+    {
+      "inicio": "03:01",
+      "titulo": "La red cae"
+    },
+    {
+      "inicio": "03:53",
+      "titulo": "El 14 de noviembre de 1817"
+    },
+    {
+      "inicio": "05:12",
+      "titulo": "La Pola hoy"
+    }
+  ],
+  "escenas": 80,
+  "imagenes": 3,
+  "avisos": 4,
+  "tiempo_produccion_s": 466.6,
+  "tiempos_s": {
+    "voz": 93.2,
+    "fotos": 0.8,
+    "miniatura": 0,
+    "capitulos": 352.1,
+    "union": 19.5
+  },
+  "render_capitulos": {
+    "c5": {
+      "duracion_s": 84.733,
+      "render_s": 273,
+      "revision_s": 75
+    }
+  },
+  "producido": "2026-11-26T02:51:22.355Z",
+  "video": "hi-policarpa.mp4",
+  "portada": "miniatura.jpg",
+  "subtitulos": "hi-policarpa.srt",
+  "descripcion": "descripcion.txt",
+  "guion": "animados/propios/hi-policarpa/guion.json"
+}

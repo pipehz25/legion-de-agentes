@@ -1,0 +1,2612 @@
+{
+  "tipo": "largo",
+  "orientacion": "horizontal",
+  "titulo": "¿Por qué se acabó la Gran Colombia?",
+  "nicho": "historia",
+  "serie": {
+    "id": "independencia",
+    "parte": 3,
+    "de": 3
+  },
+  "nota": "Video largo por escenas, version corta (6 a 7 min) e interactiva, parte 3 de la serie independencia. Guion escrito el 2026-11-24 sin escenas: cada capitulo trae 'escenas': {} para que otros agentes las diseñen con animados/contenido/escenas-horizontales.md. Cada frase con momento de participacion trae 'interaccion' (pregunta | adivina | mito-realidad | revela-cifra | repaso | comentar). La voz de ElevenLabs NO esta generada (modelo barato eleven_flash_v2_5): revisar el texto antes; despues de pagada, el texto no se cambia. Estilo: tema archivo con fondo/brillo verde salvia propios (distinto del archivo por defecto de florero y boyaca y del dorado de buritica). Personajes sin retrato de cuerpo entero: rasgos aproximados de la epoca. Datos en discusion que el guion evita o matiza: fecha de la renuncia de Bolivar (enero o 4 de mayo de 1830 segun la fuente: solo se dice 1830), fecha exacta de la separacion de Venezuela (diciembre de 1829, mayo o septiembre de 1830: solo se dice 1830), dia exacto de apertura de la Convencion de Ocaña (2 o 9 de abril: solo se dice 1828), fecha de la constitucion de Cucuta (30 de agosto o 6 de octubre de 1821: solo se dice 1821), fecha legal de la disolucion (19 o 21 de noviembre de 1831: solo se dice noviembre de 1831), quien ordeno el asesinato de Sucre (se dice que sigue en discusion, sin dar culpable), y la capital (no se dice). Las causas de la disolucion se dicen como varias, sin elegir una. No usar en pantalla cifras de superficie ni de poblacion (varian entre fuentes) ni la tesis de que potencias extranjeras promovieron la separacion (una sola fuente).",
+  "motor": "elevenlabs",
+  "voz": "C12mZePhNoo0RoTXhSFV",
+  "modelo_voz": "eleven_flash_v2_5",
+  "tope_caracteres": 50,
+  "inicio": 0.2,
+  "pausa": 0.35,
+  "pausa_capitulo": 3,
+  "respiro_capitulo": 0.5,
+  "cola": 2.5,
+  "estilo": {
+    "tema": "archivo",
+    "fondo": "#b9cfc4",
+    "brillo": "#e3f0e6"
+  },
+  "miniatura": {
+    "texto": "GRAN COLOMBIA | ¿POR QUÉ SE ACABÓ?",
+    "imagen": "mapa_1824"
+  },
+  "publicacion": {
+    "titulo_youtube": "¿Por qué se acabó la Gran Colombia? De 1819 a 1831",
+    "descripcion": "La Gran Colombia unía lo que hoy son Colombia, Venezuela, Panamá y Ecuador, y duró poco más de una década. ¿Por qué se acabó? Este video lo cuenta con preguntas, adivinanzas y un «¿mito o realidad?» para que participes, y termina con una coincidencia de fechas que casi nadie conoce.\n\nTercera y última parte de la serie sobre la independencia: el nacimiento del país en 1819 y la constitución de Cúcuta, La Cosiata de Páez en 1826, la Convención de Ocaña y la dictadura de Bolívar en 1828, y el año 1830, con la separación de Venezuela y Ecuador, el asesinato de Sucre y la muerte de Bolívar.\n\nCada dato está comprobado en al menos dos fuentes; cuando las fuentes no coinciden en una fecha o en un culpable, lo decimos así. Las fuentes están en el primer comentario.\n\n¿Crees que la Gran Colombia se pudo salvar? Cuéntanos en los comentarios.",
+    "hashtags": [
+      "historia",
+      "colombia",
+      "independencia",
+      "grancolombia"
+    ]
+  },
+  "fuentes": [
+    {
+      "dato": "Gran Colombia: proclamada en Angostura el 17 de diciembre de 1819; presidente Bolívar y vicepresidente Santander tras el congreso de Cúcuta de 1821; Panamá se une en noviembre de 1821 y Quito y Guayaquil en 1822; La Cosiata de Páez (30 de abril de 1826); Convención de Ocaña (abril de 1828, termina el 10 de junio sin acuerdo); dictadura de Bolívar el 27 de agosto de 1828; Conspiración Septembrina el 25 de septiembre de 1828; Bolívar renuncia en 1830; Sucre asesinado en Berruecos el 4 de junio de 1830; Bolívar muere en Santa Marta el 17 de diciembre de 1830; disolución en noviembre de 1831; causas: diferencias entre federalistas y centralistas, tensiones regionales, crisis económica y falta de vías y comunicaciones, interés de sectores locales por la autonomía y recelo ante los planes de Bolívar de una constitución vitalicia con ejecutivo fuerte",
+      "fuente": "Wikipedia en español, «Gran Colombia»",
+      "url": "https://es.wikipedia.org/wiki/Gran_Colombia"
+    },
+    {
+      "dato": "Cosiata (30 de abril de 1826); Convención de Ocaña desde abril de 1828, con los bolivarianos retirándose y sin quórum; dictadura de Bolívar el 27 de agosto de 1828; atentado del 25 de septiembre de 1828 y condena a muerte de Santander conmutada por exilio; Congreso de Valencia instalado el 6 de mayo de 1830 y Venezuela autónoma; Quito se declara independiente el 13 de mayo de 1830 y forma el Estado de Ecuador; Sucre asesinado el 4 de junio de 1830; Bolívar muere el 17 de diciembre de 1830 en Santa Marta; Gran Colombia abolida legalmente en noviembre de 1831; causas: regionalismo y desarrollo desigual, centralismo contra federalismo, reclutamiento forzoso, vacío de liderazgo tras la muerte de Sucre y el retiro de Bolívar",
+      "fuente": "Wikipedia en inglés, «Dissolution of Gran Colombia»",
+      "url": "https://en.wikipedia.org/wiki/Dissolution_of_Gran_Colombia"
+    },
+    {
+      "dato": "La Cosiata: el 31 de agosto de 1824 Santander decretó el alistamiento general de ciudadanos de 16 a 50 años y pidió 50.000 hombres a Venezuela; el reclutamiento causó disturbios; el Senado destituyó a Páez y lo llamó a juicio en Bogotá; Páez se negó y se declaró en rebeldía; Bolívar viajó a Venezuela (llegó a Puerto Cabello el 31 de diciembre de 1826), dio una amnistía general y ratificó a Páez como jefe civil y militar; las diferencias de fondo no se resolvieron; un historiador la llama «el principio del fin»; Convención de Ocaña dividida entre centralistas (Bolívar) y federalistas (Santander y Páez)",
+      "fuente": "Wikipedia en inglés, «La Cosiata»",
+      "url": "https://en.wikipedia.org/wiki/La_Cosiata"
+    },
+    {
+      "dato": "Convención de Ocaña, abril a junio de 1828: Bolívar propuso una constitución muy centralizada, impopular; los partidarios de Santander defendieron la constitución de Cúcuta, que prohibía reformarla antes de 1831; los seguidores de Bolívar se retiraron y la convención terminó sin cumplir su objetivo; el 27 de agosto de 1828 Bolívar asumió poderes dictatoriales y suspendió la constitución de Cúcuta",
+      "fuente": "Wikipedia en inglés, «Convention of Ocaña»",
+      "url": "https://en.wikipedia.org/wiki/Convention_of_Oca%C3%B1a"
+    },
+    {
+      "dato": "La Cosiata comenzó en Valencia el 30 de abril de 1826; el decreto de reclutamiento de Santander es de agosto de 1824; Páez se negó a obedecer a Bogotá; había malestar por el centralismo bogotano; Bolívar viajó a Caracas y llegó a un acuerdo; después vino la Convención de Ocaña (abril de 1828), donde chocaron federalistas y centralistas, y una dictadura de 1828 a 1830; un congreso en Valencia en 1830 creó la República de Venezuela",
+      "fuente": "Lifeder, «La Cosiata»",
+      "url": "https://www.lifeder.com/cosiata/"
+    },
+    {
+      "dato": "Cronología de la disolución: dictadura y atentado de 1828; Bolívar renuncia el 4 de mayo de 1830 y lo sustituye Domingo Caicedo; Sucre asesinado en junio de 1830, lo que dejó un vacío de poder; Venezuela confirma su independencia el 22 de septiembre de 1830; Ecuador se declara independiente en un proceso de varios meses de 1830; Bolívar muere el 17 de diciembre de 1830; la Gran Colombia se disuelve en noviembre de 1831",
+      "fuente": "Lifeder, «Disolución de la Gran Colombia»",
+      "url": "https://www.lifeder.com/disolucion-gran-colombia/"
+    },
+    {
+      "dato": "Constitución de Cúcuta de 1821: creó la Gran Colombia uniendo Colombia (Nueva Granada), Panamá y Venezuela; Bolívar presidente y Santander vicepresidente; Ecuador se unió después",
+      "fuente": "Radio Nacional de Colombia, «Constitución de Cúcuta: 200 años de la creación de la Gran Colombia»",
+      "url": "https://radionacional.co/historia/constitucion-cucuta-200-anos-creacion-gran-colombia"
+    },
+    {
+      "dato": "Congreso de Cúcuta, mayo a octubre de 1821: Bolívar elegido presidente y Santander vicepresidente; la primera constitución era centralista en su estructura",
+      "fuente": "Encyclopedia.com, «Cúcuta, Congress of»",
+      "url": "https://encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/cucuta-congress"
+    },
+    {
+      "dato": "Asesinato de Sucre: la mañana del 4 de junio de 1830, en el sitio La Jacoba, en la montaña de Berruecos, al norte de Pasto; fueron cuatro disparos de fuego cruzado; viajaba de regreso al sur tras el fracaso del Congreso Admirable; Obando fue señalado y Morillo lo inculpó en 1842; Flores fue acusado durante años; la causa quedó sujeta al encubrimiento y a los vaivenes políticos",
+      "fuente": "El Comercio (Ecuador), «El asesinato de Sucre en Berruecos»",
+      "url": "https://www.elcomercio.com/tendencias/asesinato-sucre-berruecos-historia-heroe.html"
+    },
+    {
+      "dato": "Sucre asesinado en Berruecos el 4 de junio de 1830; la autoría intelectual se disputó desde el principio (Obando señalado por unos, acusaciones cruzadas, la tesis dominante apunta a Obando con pruebas en buena parte indirectas)",
+      "fuente": "Boletín de la Academia Nacional de la Historia (Caracas), J. Pérez Vila (1990), y Caracas Chronicles, «June 4, 1830: Sucre Assassinated in Berruecos»",
+      "url": "https://caracaschronicles.com/2018/06/04/june-4-1830-sucre-assassinated-in-berruecos"
+    },
+    {
+      "dato": "Obra de referencia sobre la Convención de Ocaña y su papel en la disolución (se discute si fue la causa real o si el colapso respondía a causas más profundas)",
+      "fuente": "Banco de la República, Boletín Cultural y Bibliográfico (artículo sobre la Convención de Ocaña)",
+      "url": "https://publicaciones.banrepcultural.org/index.php/boletin_cultural/article/download/4525/4756/9285"
+    },
+    {
+      "dato": "Morrocoy: nombre en Venezuela de la tortuga de patas rojas (Chelonoidis carbonarius); foto CC0 de Wikimedia Commons",
+      "fuente": "Wikimedia Commons, File:Chelonoidis carbonarius in Margarita island, Venezuela.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Chelonoidis_carbonarius_in_Margarita_island,_Venezuela.jpg"
+    }
+  ],
+  "imagenes": {
+    "mapa_1824": {
+      "commons": "File:Gran Colombia in 1824.svg",
+      "que_muestra": "Mapa político de la Gran Colombia en 1824 (CC BY-SA 4.0)",
+      "encuadre": "centro",
+      "movimiento": "acercar"
+    },
+    "carta_1825": {
+      "commons": "File:Carta corográfica de la Gran Colombia 1825.jpg",
+      "que_muestra": "Carta corográfica de la Gran Colombia, 1825 (dominio público)",
+      "encuadre": "centro",
+      "movimiento": "derecha"
+    },
+    "bolivar": {
+      "commons": "File:Simón Bolívar, 1825.jpg",
+      "que_muestra": "Simón Bolívar, retrato de José Gil de Castro (1825, dominio público)",
+      "encuadre": "arriba",
+      "movimiento": "acercar"
+    },
+    "santander": {
+      "commons": "File:Francisco de Paula Santander (painting by José María Espinosa).jpg",
+      "que_muestra": "Francisco de Paula Santander, retrato de José María Espinosa (dominio público)",
+      "encuadre": "arriba",
+      "movimiento": "acercar"
+    },
+    "paez": {
+      "commons": "File:Jose Antonio Páez.jpg",
+      "que_muestra": "Retrato de José Antonio Páez (dominio público)",
+      "encuadre": "arriba",
+      "movimiento": "acercar"
+    },
+    "sucre": {
+      "commons": "File:Antonio José de Sucre (MCDS).jpg",
+      "que_muestra": "Retrato de Antonio José de Sucre (dominio público)",
+      "encuadre": "arriba",
+      "movimiento": "acercar"
+    },
+    "ocana": {
+      "commons": "File:Templo de San Francisco. Ocaña, Norte de Santander IMG 1516.JPG",
+      "que_muestra": "Templo de San Francisco, Ocaña, Norte de Santander (foto, CC BY-SA 3.0)",
+      "encuadre": "centro",
+      "movimiento": "acercar"
+    }
+  },
+  "personajes": {
+    "bolivar": {
+      "nombre": "Simón Bolívar",
+      "rol": "El Libertador",
+      "piel": "#d9a77e",
+      "pelo": "#2a1d16",
+      "peinado": "corto",
+      "barba": "patillas",
+      "ropa": "#23305a",
+      "detalle": "#c9a256",
+      "corbata": "#f4f1ea",
+      "cuello": "lazo",
+      "charreteras": true,
+      "expresion": "serio"
+    },
+    "santander": {
+      "nombre": "Francisco de Paula Santander",
+      "corto": "F. de P. Santander",
+      "rol": "Vicepresidente",
+      "piel": "#e2b48c",
+      "pelo": "#3a2a1e",
+      "peinado": "corto",
+      "barba": "patillas",
+      "ropa": "#24304e",
+      "detalle": "#c9a256",
+      "corbata": "#f1ece0",
+      "cuello": "lazo",
+      "charreteras": true,
+      "expresion": "serio"
+    },
+    "paez": {
+      "nombre": "José Antonio Páez",
+      "corto": "J. A. Páez",
+      "rol": "Jefe militar de Venezuela",
+      "piel": "#cf9a74",
+      "pelo": "#2a1d16",
+      "peinado": "corto",
+      "barba": "patillas",
+      "ropa": "#3a4a3a",
+      "detalle": "#c9a256",
+      "corbata": "#f1ece0",
+      "cuello": "lazo",
+      "charreteras": true,
+      "expresion": "astuto"
+    },
+    "sucre": {
+      "nombre": "Antonio José de Sucre",
+      "corto": "A. J. de Sucre",
+      "rol": "General, héroe de Pichincha",
+      "piel": "#e2b48c",
+      "pelo": "#3a2a1e",
+      "peinado": "corto",
+      "barba": "patillas",
+      "ropa": "#2a3550",
+      "detalle": "#c9a256",
+      "corbata": "#f1ece0",
+      "cuello": "lazo",
+      "charreteras": true,
+      "expresion": "pensativo"
+    }
+  },
+  "capitulos": [
+    {
+      "id": "c0",
+      "titulo": "",
+      "escenas": {
+        "c0-carta": {
+          "plantilla": "recorte",
+          "datos": {
+            "foto": "File:Carta corográfica de la Gran Colombia 1825.jpg",
+            "pie": "Carta corográfica de la Gran Colombia (1825)",
+            "insignia": "Gran Colombia, 1825",
+            "titulo": "El país que desapareció",
+            "texto": "Parte 3: ¿cómo se deshizo?",
+            "lado": "izquierda",
+            "palabras": {
+              "titulo": "Gran",
+              "texto": "pregunta"
+            }
+          }
+        },
+        "c0-pregunta": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "¿Por qué se acabó",
+              "la Gran Colombia?"
+            ],
+            "resalta": 1,
+            "todo_al_inicio": true,
+            "insignia": "Piénsalo y guarda tu respuesta",
+            "dibujo": "reloj",
+            "palabra_dibujo": "Piénsalo"
+          }
+        },
+        "c0-pais": {
+          "plantilla": "mapa",
+          "datos": {
+            "vistas": [
+              {
+                "centro": [
+                  -72,
+                  5
+                ],
+                "ancho": 38
+              }
+            ],
+            "paises": [
+              {
+                "id": "colombia",
+                "color": "acento2",
+                "opacidad": 0.45,
+                "palabra": "Colombia"
+              },
+              {
+                "id": "venezuela",
+                "color": "acento",
+                "opacidad": 0.3,
+                "palabra": "Venezuela"
+              },
+              {
+                "id": "panama",
+                "color": "acento2",
+                "opacidad": 0.6,
+                "palabra": "Panamá"
+              },
+              {
+                "id": "ecuador",
+                "color": "acento",
+                "opacidad": 0.3,
+                "palabra": "Ecuador"
+              }
+            ],
+            "rotulos": [
+              {
+                "texto": "Colombia",
+                "lugar": [
+                  -73.5,
+                  3.6
+                ],
+                "estilo": "pais",
+                "tam": 42,
+                "palabra": "Colombia"
+              },
+              {
+                "texto": "Venezuela",
+                "lugar": [
+                  -66.3,
+                  7.6
+                ],
+                "estilo": "pais",
+                "tam": 42,
+                "palabra": "Venezuela"
+              },
+              {
+                "texto": "Ecuador",
+                "lugar": [
+                  -78.3,
+                  -1.4
+                ],
+                "estilo": "pais",
+                "tam": 34,
+                "palabra": "Ecuador"
+              },
+              {
+                "texto": "Mar Caribe",
+                "lugar": [
+                  -74,
+                  12.2
+                ],
+                "estilo": "mar",
+                "tam": 34,
+                "en": 0
+              }
+            ],
+            "marcas": [
+              {
+                "texto": "Panamá",
+                "lugar": "panama",
+                "lado": "izquierda",
+                "tam": 34,
+                "palabra": "Panamá"
+              }
+            ],
+            "cartela": {
+              "titulo": "La Gran Colombia",
+              "sub": "Cuatro países de hoy en uno solo",
+              "en": 0.02
+            },
+            "fichas": [
+              {
+                "tipo": "anios",
+                "de": 1819,
+                "a": 1831,
+                "texto": "poco más de una década",
+                "lugar": "abajo-derecha",
+                "palabra": "duró"
+              }
+            ]
+          }
+        },
+        "c0-regla": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "Cada pregunta,",
+              "respóndela",
+              "en voz alta"
+            ],
+            "resalta": 2,
+            "insignia": "La regla del video",
+            "dibujo": "documento",
+            "palabra_dibujo": "regla"
+          }
+        },
+        "c0-promesas": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "En este video",
+            "fichas": [
+              {
+                "texto": "Adivinar",
+                "dibujo": "reloj",
+                "palabra": "adivinar"
+              },
+              {
+                "texto": "Mito o realidad",
+                "dibujo": "balanza",
+                "palabra": "mito"
+              },
+              {
+                "texto": "Coincidencia de fechas",
+                "dibujo": "calendario",
+                "palabra": "coincidencia"
+              },
+              {
+                "texto": "Tú pones las respuestas",
+                "dibujo": "pluma",
+                "palabra": "Tú",
+                "resalta": true
+              }
+            ]
+          }
+        },
+        "c0-dia": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "El día en que",
+              "todo comenzó"
+            ],
+            "resalta": 1,
+            "dibujo": "calendario"
+          }
+        },
+        "c0-fechas": {
+          "plantilla": "linea-tiempo",
+          "datos": {
+            "titulo": "Guarda estas cuatro fechas",
+            "hitos": [
+              {
+                "anio": "1819",
+                "texto": "Nace la Gran Colombia",
+                "palabra": "1819"
+              },
+              {
+                "anio": "1826",
+                "texto": "La Cosiata",
+                "palabra": "1826"
+              },
+              {
+                "anio": "1828",
+                "texto": "Ocaña y la dictadura",
+                "palabra": "1828"
+              },
+              {
+                "anio": "1830",
+                "texto": "La separación",
+                "palabra": "1830"
+              }
+            ]
+          }
+        },
+        "c0-ultima": {
+          "plantilla": "cifra",
+          "datos": {
+            "cifra": "1830",
+            "unidad": "última fecha",
+            "rotulo": "La más sorprendente: quédate",
+            "dibujo": "calendario",
+            "palabra": "última",
+            "palabra_rotulo": "sorprendente"
+          }
+        }
+      },
+      "frases": [
+        {
+          "id": "f1",
+          "escena": "c0-carta",
+          "texto": "En la parte dos vimos nacer la Gran Colombia. Ahora llega la pregunta que dejamos pendiente: ¿por qué se acabó? Piénsalo un momento y guarda tu respuesta, porque al final la comprobamos.",
+          "cortes": [
+            {
+              "escena": "c0-pregunta",
+              "palabra": 16
+            }
+          ],
+          "interaccion": "pregunta",
+          "pausa_despues": 2.5
+        },
+        {
+          "id": "f2",
+          "escena": "c0-pais",
+          "texto": "Ese país unía lo que hoy son Colombia, Venezuela, Panamá y Ecuador, y duró poco más de una década."
+        },
+        {
+          "id": "f2b",
+          "escena": "c0-regla",
+          "texto": "La regla sigue igual: cada vez que oigas una pregunta, respóndela en voz alta, aunque nadie te escuche.",
+          "interaccion": "pregunta",
+          "pausa_despues": 1.5
+        },
+        {
+          "id": "f3",
+          "escena": "c0-promesas",
+          "texto": "Vas a adivinar, a votar entre mito y realidad, y a descubrir una coincidencia de fechas que parece sacada de una novela. Tú pones las respuestas.",
+          "interaccion": "adivina"
+        },
+        {
+          "id": "f4",
+          "escena": "c0-dia",
+          "texto": "Empecemos por el día en que todo comenzó."
+        },
+        {
+          "id": "f4b",
+          "escena": "c0-fechas",
+          "texto": "Guarda cuatro fechas: 1819, 1826, 1828 y 1830. Al final te las pido."
+        },
+        {
+          "id": "f4c",
+          "escena": "c0-ultima",
+          "texto": "Quédate hasta el final, porque la última fecha es la más sorprendente."
+        }
+      ]
+    },
+    {
+      "id": "c1",
+      "titulo": "Nace un gigante",
+      "escenas": {
+        "c1-fecha": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "Angostura,",
+              "17 de diciembre"
+            ],
+            "resalta": 1,
+            "insignia": "El nacimiento del país",
+            "calendario": {
+              "arriba": "Diciembre",
+              "numero": "17",
+              "abajo": "1819",
+              "lado": "izquierda",
+              "palabra": "diecisiete"
+            }
+          }
+        },
+        "c1-union": {
+          "plantilla": "mapa",
+          "datos": {
+            "vistas": [
+              {
+                "centro": [
+                  -70,
+                  6.5
+                ],
+                "ancho": 22
+              }
+            ],
+            "paises": [
+              {
+                "id": "venezuela",
+                "color": "acento",
+                "opacidad": 0.35,
+                "palabra": "Venezuela"
+              },
+              {
+                "id": "colombia",
+                "color": "acento2",
+                "opacidad": 0.45,
+                "palabra": "Nueva"
+              },
+              {
+                "id": "panama",
+                "color": "acento2",
+                "opacidad": 0.45,
+                "palabra": "Nueva"
+              }
+            ],
+            "rotulos": [
+              {
+                "texto": "Venezuela",
+                "lugar": [
+                  -66,
+                  7.2
+                ],
+                "estilo": "pais",
+                "tam": 40,
+                "palabra": "Venezuela"
+              },
+              {
+                "texto": "Nueva Granada",
+                "lugar": [
+                  -73.5,
+                  3.4
+                ],
+                "estilo": "pais",
+                "tam": 40,
+                "palabra": "Nueva"
+              },
+              {
+                "texto": "Mar Caribe",
+                "lugar": [
+                  -72,
+                  13
+                ],
+                "estilo": "mar",
+                "tam": 32,
+                "en": 0
+              }
+            ],
+            "marcas": [
+              {
+                "texto": "Angostura",
+                "lugar": [
+                  -63.55,
+                  8.13
+                ],
+                "lado": "derecha",
+                "tam": 34,
+                "en": 0.02
+              }
+            ],
+            "cartela": {
+              "titulo": "República de Colombia",
+              "sub": "Hoy, la Gran Colombia",
+              "palabra": "República"
+            }
+          }
+        },
+        "c1-cucuta": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "Congreso de",
+              "Cúcuta, 1821"
+            ],
+            "resalta": 1,
+            "insignia": "Una constitución nueva",
+            "dibujo": "documento",
+            "palabra_dibujo": "constitución"
+          }
+        },
+        "c1-presidentes": {
+          "plantilla": "dos-personajes",
+          "datos": {
+            "izquierda": {
+              "personaje": "bolivar",
+              "rol": "Presidente",
+              "pose": "senalar",
+              "expresion": "serio"
+            },
+            "derecha": {
+              "personaje": "santander",
+              "rol": "Vicepresidente",
+              "pose": "neutral",
+              "expresion": "serio"
+            }
+          }
+        },
+        "c1-centro": {
+          "plantilla": "mapa",
+          "datos": {
+            "vistas": [
+              {
+                "centro": [
+                  -72,
+                  6
+                ],
+                "ancho": 36
+              }
+            ],
+            "paises": [
+              {
+                "id": "colombia",
+                "color": "acento2",
+                "opacidad": 0.4,
+                "en": 0
+              },
+              {
+                "id": "venezuela",
+                "color": "acento",
+                "opacidad": 0.3,
+                "en": 0
+              },
+              {
+                "id": "panama",
+                "color": "acento2",
+                "opacidad": 0.4,
+                "en": 0
+              }
+            ],
+            "rutas": [
+              {
+                "puntos": [
+                  [
+                    -66.9,
+                    10.5
+                  ],
+                  [
+                    -74.07,
+                    4.71
+                  ]
+                ],
+                "estilo": "flecha",
+                "color": "acento",
+                "palabra": "decisiones",
+                "dur": 1.6
+              },
+              {
+                "puntos": [
+                  [
+                    -79.5,
+                    8.9
+                  ],
+                  [
+                    -74.07,
+                    4.71
+                  ]
+                ],
+                "estilo": "flecha",
+                "color": "acento",
+                "palabra": "tomaban",
+                "dur": 1.4
+              }
+            ],
+            "marcas": [
+              {
+                "texto": "Caracas",
+                "lugar": "caracas",
+                "lado": "arriba",
+                "tam": 32,
+                "palabra": "decisiones"
+              },
+              {
+                "texto": "Panamá",
+                "lugar": [
+                  -79.5,
+                  8.9
+                ],
+                "lado": "izquierda",
+                "tam": 30,
+                "palabra": "tomaban"
+              },
+              {
+                "texto": "Bogotá",
+                "lugar": "bogota",
+                "lado": "derecha",
+                "tam": 40,
+                "palabra": "centro"
+              }
+            ],
+            "cartela": {
+              "titulo": "Un país centralista",
+              "sub": "Las decisiones, desde el centro",
+              "en": 0.02
+            },
+            "fichas": [
+              {
+                "texto": "Decide el centro",
+                "dibujo": "documento",
+                "lugar": "abajo-derecha",
+                "palabra": "centro"
+              }
+            ]
+          }
+        },
+        "c1-pregunta": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "¿Un solo lugar",
+              "para gobernarlas",
+              "a todas?"
+            ],
+            "resalta": 2,
+            "todo_al_inicio": true,
+            "insignia": "Regiones distintas y lejanas",
+            "dibujo": "balanza"
+          }
+        },
+        "c1-piensalo": {
+          "plantilla": "cifra",
+          "datos": {
+            "cifra": "¿Sí o no?",
+            "unidad": "tu respuesta",
+            "rotulo": "Piénsalo antes de seguir",
+            "dibujo": "reloj",
+            "palabra": "Piénsalo",
+            "palabra_rotulo": "antes"
+          }
+        },
+        "c1-sumaron": {
+          "plantilla": "mapa",
+          "datos": {
+            "vistas": [
+              {
+                "centro": [
+                  -73.5,
+                  5.5
+                ],
+                "ancho": 30
+              }
+            ],
+            "paises": [
+              {
+                "id": "colombia",
+                "color": "acento2",
+                "opacidad": 0.4,
+                "en": 0
+              },
+              {
+                "id": "venezuela",
+                "color": "acento2",
+                "opacidad": 0.4,
+                "en": 0
+              },
+              {
+                "id": "panama",
+                "color": "acento",
+                "opacidad": 0.55,
+                "palabra": "Panamá"
+              },
+              {
+                "id": "ecuador",
+                "color": "acento",
+                "opacidad": 0.5,
+                "palabra": "Quito"
+              }
+            ],
+            "montes": {
+              "puntos": [
+                [
+                  -77.6,
+                  1.2
+                ],
+                [
+                  -76.5,
+                  3.2
+                ],
+                [
+                  -75.4,
+                  5.4
+                ]
+              ],
+              "tam": 38,
+              "palabra": "caminos"
+            },
+            "rutas": [
+              {
+                "puntos": [
+                  [
+                    -78.5,
+                    -0.2
+                  ],
+                  [
+                    -77.2,
+                    2
+                  ],
+                  [
+                    -75.6,
+                    3.6
+                  ],
+                  [
+                    -74.07,
+                    4.71
+                  ]
+                ],
+                "estilo": "discontinua",
+                "color": "acento",
+                "palabra": "escasos",
+                "dur": 1.6
+              }
+            ],
+            "marcas": [
+              {
+                "texto": "Panamá",
+                "lugar": [
+                  -79.5,
+                  8.9
+                ],
+                "lado": "izquierda",
+                "tam": 34,
+                "palabra": "Panamá"
+              },
+              {
+                "texto": "Quito",
+                "lugar": "quito",
+                "lado": "izquierda",
+                "tam": 34,
+                "palabra": "Quito"
+              },
+              {
+                "texto": "Bogotá",
+                "lugar": "bogota",
+                "lado": "derecha",
+                "tam": 32,
+                "palabra": "caminos"
+              }
+            ],
+            "rotulos": [
+              {
+                "texto": "Pocos caminos",
+                "lugar": [
+                  -76.2,
+                  1.2
+                ],
+                "estilo": "titulo",
+                "tam": 30,
+                "giro": -30,
+                "palabra": "escasos"
+              }
+            ],
+            "cartela": {
+              "titulo": "Se suman más regiones",
+              "sub": "Panamá y Quito, después",
+              "en": 0.02
+            }
+          }
+        },
+        "c1-regiones": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "Cada región, lo suyo",
+            "fichas": [
+              {
+                "texto": "Economías distintas",
+                "dibujo": "balanza",
+                "palabra": "economías"
+              },
+              {
+                "texto": "Intereses propios",
+                "dibujo": "bandera",
+                "palabra": "intereses",
+                "resalta": true
+              }
+            ]
+          }
+        }
+      },
+      "frases": [
+        {
+          "id": "f5",
+          "escena": "c1-fecha",
+          "texto": "Fue el diecisiete de diciembre de 1819, en Angostura. Venezuela y la Nueva Granada quedaron unidas en una sola república: la República de Colombia, que hoy llamamos la Gran Colombia.",
+          "cortes": [
+            {
+              "escena": "c1-union",
+              "palabra": 9
+            }
+          ]
+        },
+        {
+          "id": "f6",
+          "escena": "c1-cucuta",
+          "texto": "En 1821, el congreso reunido en Cúcuta escribió su constitución y eligió a Simón Bolívar como presidente y a Francisco de Paula Santander como vicepresidente.",
+          "cortes": [
+            {
+              "escena": "c1-presidentes",
+              "palabra": 12
+            }
+          ]
+        },
+        {
+          "id": "f6b",
+          "escena": "c1-centro",
+          "texto": "Aquella primera constitución era centralista en su estructura: las decisiones importantes se tomaban desde el centro del país, lejos de muchas regiones."
+        },
+        {
+          "id": "f7",
+          "escena": "c1-pregunta",
+          "texto": "¿Crees que regiones tan distintas y tan lejanas podían gobernarse desde un solo lugar? Piénsalo antes de seguir.",
+          "cortes": [
+            {
+              "escena": "c1-piensalo",
+              "palabra": 14
+            }
+          ],
+          "interaccion": "pregunta",
+          "pausa_despues": 2.5
+        },
+        {
+          "id": "f8",
+          "escena": "c1-sumaron",
+          "texto": "Panamá y Quito se sumaron después. Pero los caminos eran escasos, las economías muy distintas, y cada región tenía intereses propios.",
+          "cortes": [
+            {
+              "escena": "c1-regiones",
+              "palabra": 11
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "titulo": "La primera grieta",
+      "escenas": {
+        "c2-lima-bogota": {
+          "plantilla": "mapa",
+          "datos": {
+            "vistas": [
+              {
+                "centro": [
+                  -74,
+                  -4
+                ],
+                "ancho": 46
+              }
+            ],
+            "paises": [
+              {
+                "id": "colombia",
+                "color": "acento2",
+                "opacidad": 0.35,
+                "en": 0
+              },
+              {
+                "id": "venezuela",
+                "color": "acento2",
+                "opacidad": 0.35,
+                "en": 0
+              },
+              {
+                "id": "ecuador",
+                "color": "acento2",
+                "opacidad": 0.35,
+                "en": 0
+              },
+              {
+                "id": "panama",
+                "color": "acento2",
+                "opacidad": 0.35,
+                "en": 0
+              }
+            ],
+            "rutas": [
+              {
+                "puntos": [
+                  [
+                    -77.04,
+                    -12.05
+                  ],
+                  [
+                    -74.07,
+                    4.71
+                  ]
+                ],
+                "estilo": "discontinua",
+                "color": "acento",
+                "palabra": "gobierno",
+                "dur": 1.4
+              }
+            ],
+            "marcas": [
+              {
+                "texto": "Lima",
+                "lugar": [
+                  -77.04,
+                  -12.05
+                ],
+                "lado": "derecha",
+                "tam": 40,
+                "palabra": "Lima"
+              },
+              {
+                "texto": "Bogotá",
+                "lugar": "bogota",
+                "lado": "derecha",
+                "tam": 40,
+                "palabra": "Bogotá"
+              }
+            ],
+            "cartela": {
+              "titulo": "1826",
+              "sub": "Bolívar, lejos de Bogotá",
+              "en": 0.02
+            }
+          }
+        },
+        "c2-santander": {
+          "plantilla": "personaje",
+          "datos": {
+            "personaje": "santander",
+            "pose": "firmar",
+            "anios": "Agosto 1824",
+            "rol": "Decreta: los hombres de 16 a 50 años, a alistarse",
+            "palabra_anios": "agosto",
+            "palabra_rol": "decretó"
+          }
+        },
+        "c2-cincuenta-mil": {
+          "plantilla": "cifra",
+          "datos": {
+            "valor": 50000,
+            "unidad": "soldados",
+            "rotulo": "pedidos a Venezuela",
+            "dibujo": "canon",
+            "palabra": "cincuenta",
+            "palabra_rotulo": "Venezuela"
+          }
+        },
+        "c2-paez": {
+          "plantilla": "personaje",
+          "datos": {
+            "personaje": "paez",
+            "pose": "brazos-cruzados",
+            "anios": "En 1826",
+            "rol": "Jefe militar de Venezuela",
+            "palabra_anios": "general",
+            "palabra_rol": "jefe"
+          }
+        },
+        "c2-juicio": {
+          "plantilla": "mapa",
+          "datos": {
+            "vistas": [
+              {
+                "centro": [
+                  -70.5,
+                  7.5
+                ],
+                "ancho": 22
+              }
+            ],
+            "paises": [
+              {
+                "id": "venezuela",
+                "color": "acento",
+                "opacidad": 0.35,
+                "en": 0
+              },
+              {
+                "id": "colombia",
+                "color": "acento2",
+                "opacidad": 0.4,
+                "en": 0
+              }
+            ],
+            "rutas": [
+              {
+                "puntos": [
+                  [
+                    -66.9,
+                    10.5
+                  ],
+                  [
+                    -74.07,
+                    4.71
+                  ]
+                ],
+                "estilo": "flecha",
+                "color": "acento",
+                "palabra": "llamado",
+                "dur": 1.4
+              }
+            ],
+            "marcas": [
+              {
+                "texto": "Caracas",
+                "lugar": "caracas",
+                "lado": "arriba",
+                "tam": 36,
+                "en": 0.02
+              },
+              {
+                "texto": "Bogotá",
+                "lugar": "bogota",
+                "lado": "derecha",
+                "tam": 36,
+                "palabra": "Bogotá"
+              }
+            ],
+            "cartela": {
+              "titulo": "Llamado a juicio",
+              "sub": "De Caracas a Bogotá",
+              "palabra": "destituido"
+            },
+            "fichas": [
+              {
+                "texto": "Juicio en Bogotá",
+                "dibujo": "balanza",
+                "tachar": true,
+                "lugar": "abajo-derecha",
+                "palabra": "juicio"
+              }
+            ]
+          }
+        },
+        "c2-cosiata": {
+          "plantilla": "cifra",
+          "datos": {
+            "antes": "el 30 de abril de",
+            "cifra": "1826",
+            "rotulo": "Páez en rebeldía: nace La Cosiata",
+            "dibujo": "calendario",
+            "palabra": "1826",
+            "palabra_rotulo": "rebeldía"
+          }
+        },
+        "c2-morrocoy": {
+          "plantilla": "recorte",
+          "datos": {
+            "foto": "File:Chelonoidis carbonarius in Margarita island, Venezuela.jpg",
+            "pie": "Un morrocoy (Chelonoidis carbonarius), Venezuela",
+            "insignia": "También la llaman",
+            "titulo": "Revolución de los Morrocoyes",
+            "texto": "Un morrocoy es una especie de tortuga",
+            "lado": "derecha",
+            "palabras": {
+              "titulo": "Revolución",
+              "texto": "morrocoy"
+            }
+          }
+        },
+        "c2-malestar": {
+          "plantilla": "mapa",
+          "datos": {
+            "vistas": [
+              {
+                "centro": [
+                  -70,
+                  7.5
+                ],
+                "ancho": 24
+              }
+            ],
+            "paises": [
+              {
+                "id": "venezuela",
+                "color": "acento",
+                "opacidad": 0.35,
+                "en": 0
+              },
+              {
+                "id": "colombia",
+                "color": "acento2",
+                "opacidad": 0.4,
+                "en": 0
+              }
+            ],
+            "rutas": [
+              {
+                "puntos": [
+                  [
+                    -74.07,
+                    4.71
+                  ],
+                  [
+                    -66.9,
+                    10.5
+                  ]
+                ],
+                "estilo": "flecha",
+                "color": "acento",
+                "palabra": "mandaba",
+                "dur": 1.5
+              }
+            ],
+            "marcas": [
+              {
+                "texto": "Bogotá",
+                "lugar": "bogota",
+                "lado": "derecha",
+                "tam": 36,
+                "palabra": "Bogotá"
+              },
+              {
+                "texto": "Caracas",
+                "lugar": "caracas",
+                "lado": "arriba",
+                "tam": 36,
+                "palabra": "Caracas"
+              }
+            ],
+            "cartela": {
+              "titulo": "Un malestar viejo",
+              "sub": "Bogotá manda; Caracas, en segundo plano",
+              "palabra": "malestar"
+            },
+            "fichas": [
+              {
+                "texto": "Segundo plano",
+                "dibujo": "balanza",
+                "lugar": "abajo-izquierda",
+                "palabra": "segundo"
+              }
+            ]
+          }
+        },
+        "c2-adivina": {
+          "plantilla": "personaje",
+          "datos": {
+            "personaje": "bolivar",
+            "pose": "pensar",
+            "expresion": "pensativo",
+            "anios": "Adivina",
+            "rol": "¿Qué hizo ante la rebelión?",
+            "palabra_anios": "ahora",
+            "palabra_rol": "adivina"
+          }
+        },
+        "c2-opciones": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "¿Qué hizo Bolívar?",
+            "fichas": [
+              {
+                "texto": "Mandó un ejército",
+                "dibujo": "canon",
+                "palabra": "ejército"
+              },
+              {
+                "texto": "Negoció con él",
+                "dibujo": "pluma",
+                "palabra": "negoció"
+              }
+            ]
+          }
+        },
+        "c2-negocio": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "Negoció:",
+              "amnistía general"
+            ],
+            "resalta": 1,
+            "insignia": "La respuesta",
+            "dibujo": "pluma",
+            "palabra_dibujo": "amnistía"
+          }
+        },
+        "c2-bolivar-paez": {
+          "plantilla": "dos-personajes",
+          "datos": {
+            "izquierda": {
+              "personaje": "bolivar",
+              "rol": "El Libertador",
+              "pose": "saludar",
+              "expresion": "sonrisa"
+            },
+            "derecha": {
+              "personaje": "paez",
+              "rol": "Jefe civil y militar",
+              "pose": "neutral",
+              "expresion": "astuto"
+            },
+            "firma": "izquierda",
+            "palabra_firma": "calma",
+            "foto": "File:Jose Antonio Páez.jpg",
+            "foto_pie": "Páez, retrato de la época",
+            "palabra_foto": "Páez"
+          }
+        },
+        "c2-principio-fin": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "El principio",
+              "del fin"
+            ],
+            "resalta": 1,
+            "insignia": "Hay quienes la llaman",
+            "dibujo": "reloj"
+          }
+        },
+        "c2-mito": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "La Cosiata fue una guerra contra España",
+            "fichas": [
+              {
+                "texto": "Mito",
+                "dibujo": "derrumbe",
+                "en": 0.25
+              },
+              {
+                "texto": "Realidad",
+                "dibujo": "bandera",
+                "en": 0.34
+              }
+            ]
+          }
+        },
+        "c2-veredicto": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "Mito:",
+              "fue una revuelta",
+              "interna"
+            ],
+            "resalta": 0,
+            "dibujo": "derrumbe",
+            "palabra_dibujo": "Mito"
+          }
+        }
+      },
+      "frases": [
+        {
+          "id": "f8c",
+          "escena": "c2-lima-bogota",
+          "texto": "En 1826, Bolívar estaba en Lima, y el gobierno de Bogotá lo llevaba Santander."
+        },
+        {
+          "id": "f9",
+          "escena": "c2-santander",
+          "texto": "En agosto de 1824, Santander decretó que los hombres de dieciséis a cincuenta años debían alistarse, y pidió cincuenta mil soldados a Venezuela. El reclutamiento forzoso causó disturbios.",
+          "cortes": [
+            {
+              "escena": "c2-cincuenta-mil",
+              "palabra": 16
+            }
+          ]
+        },
+        {
+          "id": "f10",
+          "escena": "c2-paez",
+          "texto": "El general José Antonio Páez, jefe militar de Venezuela, fue destituido y llamado a juicio en Bogotá. Se negó a ir, y el treinta de abril de 1826 se declaró en rebeldía. Esa revuelta se llama La Cosiata.",
+          "cortes": [
+            {
+              "escena": "c2-juicio",
+              "palabra": 9
+            },
+            {
+              "escena": "c2-cosiata",
+              "palabra": 21
+            }
+          ]
+        },
+        {
+          "id": "f10b",
+          "escena": "c2-morrocoy",
+          "texto": "A La Cosiata también la llaman la Revolución de los Morrocoyes; un morrocoy es una especie de tortuga. De fondo había un malestar viejo: muchos venezolanos sentían que Bogotá mandaba demasiado, y que Caracas quedaba en segundo plano.",
+          "cortes": [
+            {
+              "escena": "c2-malestar",
+              "palabra": 18
+            }
+          ]
+        },
+        {
+          "id": "f11",
+          "escena": "c2-adivina",
+          "texto": "Y ahora adivina antes de que lo diga: ¿qué hizo Bolívar? ¿Mandó un ejército a castigarlo, o negoció con él?",
+          "cortes": [
+            {
+              "escena": "c2-opciones",
+              "palabra": 11
+            }
+          ],
+          "interaccion": "adivina",
+          "pausa_despues": 3
+        },
+        {
+          "id": "f12",
+          "escena": "c2-negocio",
+          "texto": "Negoció. Viajó a Venezuela, dio una amnistía general y confirmó a Páez como jefe civil y militar. La calma volvió, pero las diferencias de fondo quedaron sin resolver.",
+          "cortes": [
+            {
+              "escena": "c2-bolivar-paez",
+              "palabra": 12
+            }
+          ]
+        },
+        {
+          "id": "f12b",
+          "escena": "c2-principio-fin",
+          "texto": "Hay quienes la llaman el principio del fin."
+        },
+        {
+          "id": "f13",
+          "escena": "c2-mito",
+          "texto": "Hora de votar. ¿Mito o realidad? «La Cosiata fue una guerra contra España.» Mito: fue una revuelta interna, entre las autoridades de Venezuela y el gobierno de Bogotá.",
+          "cortes": [
+            {
+              "escena": "c2-veredicto",
+              "palabra": 13
+            }
+          ],
+          "interaccion": "mito-realidad"
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "titulo": "Ocaña y la dictadura",
+      "escenas": {
+        "c3-ocana": {
+          "plantilla": "recorte",
+          "datos": {
+            "foto": "File:Templo de San Francisco. Ocaña, Norte de Santander IMG 1516.JPG",
+            "pie": "Templo de San Francisco, Ocaña (foto actual)",
+            "lado": "izquierda",
+            "insignia": "Ocaña, 1828",
+            "titulo": "La convención de Ocaña",
+            "texto": "Para reformar la constitución",
+            "palabras": {
+              "titulo": "Ocaña",
+              "texto": "reformar"
+            }
+          }
+        },
+        "c3-bandos": {
+          "plantilla": "dos-personajes",
+          "datos": {
+            "izquierda": {
+              "personaje": "bolivar",
+              "rol": "Gobierno muy centralizado",
+              "pose": "senalar",
+              "expresion": "serio"
+            },
+            "derecha": {
+              "personaje": "santander",
+              "nombre": "Santander",
+              "rol": "Gobierno más descentralizado",
+              "pose": "brazos-cruzados",
+              "expresion": "serio"
+            }
+          }
+        },
+        "c3-cucuta": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "Lo que defendían",
+            "lineas": [
+              "La constitución",
+              "de Cúcuta"
+            ],
+            "resalta": 1,
+            "dibujo": "documento",
+            "palabra_dibujo": "constitución"
+          }
+        },
+        "c3-rivales": {
+          "plantilla": "tablero",
+          "datos": {
+            "personajes": [
+              {
+                "personaje": "bolivar",
+                "corto": "Bolívar",
+                "rol": "Centralista"
+              },
+              {
+                "personaje": "santander",
+                "rol": "Más descentralizado"
+              }
+            ],
+            "papeles": [
+              {
+                "foto": "File:Carta corográfica de la Gran Colombia 1825.jpg",
+                "pie": "Carta de la Gran Colombia (1825)"
+              }
+            ],
+            "titulo": "De aliados a rivales",
+            "palabras": {
+              "personajes": "Bolívar",
+              "papeles": "juntos",
+              "hilos": "bandos",
+              "titulo": "ahora"
+            }
+          }
+        },
+        "c3-sin-acuerdos": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "Convención de Ocaña, 1828",
+            "fichas": [
+              {
+                "texto": "Los de Bolívar se retiran",
+                "dibujo": "bandera",
+                "palabra": "abandon"
+              },
+              {
+                "texto": "Sin acuerdos",
+                "dibujo": "documento",
+                "palabra": "acuerdos",
+                "resalta": true
+              }
+            ]
+          }
+        },
+        "c3-pregunta": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "Respóndelo en voz alta",
+            "lineas": [
+              "¿Qué hizo",
+              "Bolívar?"
+            ],
+            "resalta": 1,
+            "dibujo": "reloj",
+            "palabra_dibujo": "Respóndelo"
+          }
+        },
+        "c3-dictador": {
+          "plantilla": "cifra",
+          "datos": {
+            "valor": 27,
+            "unidad": "de agosto",
+            "rotulo": "1828: asume poderes dictatoriales",
+            "dibujo": "pluma",
+            "palabra": "veintisiete",
+            "palabra_rotulo": "asumi"
+          }
+        },
+        "c3-vitalicio": {
+          "plantilla": "personaje",
+          "datos": {
+            "personaje": "bolivar",
+            "pose": "discurso",
+            "anios": "1828",
+            "rol": "Proponía un presidente vitalicio",
+            "palabra_rol": "vitalicio"
+          }
+        },
+        "c3-atentado": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "Conspiración Septembrina",
+            "lineas": [
+              "Atentado contra",
+              "Bolívar"
+            ],
+            "resalta": 1,
+            "calendario": {
+              "arriba": "Septiembre",
+              "numero": "25",
+              "abajo": "1828",
+              "lado": "derecha",
+              "palabra": "veinticinco"
+            }
+          }
+        },
+        "c3-exilio": {
+          "plantilla": "recorte",
+          "datos": {
+            "foto": "File:Francisco de Paula Santander (painting by José María Espinosa).jpg",
+            "pie": "Santander, por José María Espinosa",
+            "lado": "derecha",
+            "insignia": "Condenado a muerte",
+            "titulo": "Santander",
+            "texto": "Su condena se cambió por el exilio",
+            "palabras": {
+              "titulo": "Santander",
+              "texto": "muerte"
+            }
+          }
+        },
+        "c3-sintoma": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "Los historiadores discuten",
+            "lineas": [
+              "¿Causa del final",
+              "o síntoma?"
+            ],
+            "resalta": 1,
+            "dibujo": "balanza",
+            "palabra_dibujo": "discuten"
+          }
+        }
+      },
+      "frases": [
+        {
+          "id": "f14",
+          "escena": "c3-ocana",
+          "texto": "En 1828 se reunió en Ocaña una convención para reformar la constitución. Bolívar quería un gobierno muy centralizado. Los seguidores de Santander preferían uno más descentralizado, y defendían la constitución de Cúcuta.",
+          "cortes": [
+            {
+              "escena": "c3-bandos",
+              "palabra": 12
+            },
+            {
+              "escena": "c3-cucuta",
+              "palabra": 23
+            }
+          ]
+        },
+        {
+          "id": "f14b",
+          "escena": "c3-rivales",
+          "texto": "Bolívar y Santander, que habían ganado juntos la campaña de 1819, ahora estaban en bandos opuestos."
+        },
+        {
+          "id": "f15",
+          "escena": "c3-sin-acuerdos",
+          "texto": "Los partidarios de Bolívar abandonaron la convención, y terminó sin acuerdos."
+        },
+        {
+          "id": "f16",
+          "escena": "c3-pregunta",
+          "texto": "¿Qué crees que hizo Bolívar después de ese fracaso? Respóndelo en voz alta.",
+          "interaccion": "pregunta",
+          "pausa_despues": 2.5
+        },
+        {
+          "id": "f17",
+          "escena": "c3-dictador",
+          "texto": "El veintisiete de agosto de 1828, asumió poderes dictatoriales.",
+          "interaccion": "revela-cifra"
+        },
+        {
+          "id": "f17b",
+          "escena": "c3-vitalicio",
+          "texto": "Su propuesta de una constitución con presidente vitalicio despertó recelo entre los seguidores de Santander."
+        },
+        {
+          "id": "f18",
+          "escena": "c3-atentado",
+          "texto": "El veinticinco de septiembre hubo un atentado contra Bolívar, la Conspiración Septembrina. Santander fue condenado a muerte, y su condena se cambió por el exilio.",
+          "cortes": [
+            {
+              "escena": "c3-exilio",
+              "palabra": 12
+            }
+          ]
+        },
+        {
+          "id": "f18b",
+          "escena": "c3-sintoma",
+          "texto": "Los historiadores discuten si Ocaña fue la causa del final o solo un síntoma de problemas más profundos."
+        }
+      ]
+    },
+    {
+      "id": "c4",
+      "titulo": "El año 1830",
+      "escenas": {
+        "c4-renuncia": {
+          "plantilla": "personaje",
+          "datos": {
+            "personaje": "bolivar",
+            "pose": "firmar",
+            "anios": "1830",
+            "rol": "Renuncia a la presidencia",
+            "palabra_rol": "renunci"
+          }
+        },
+        "c4-caicedo": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "Domingo Caicedo",
+            "lineas": [
+              "Presidente",
+              "interino"
+            ],
+            "resalta": 1,
+            "dibujo": "reloj",
+            "palabra_dibujo": "interino"
+          }
+        },
+        "c4-valencia": {
+          "plantilla": "mapa",
+          "datos": {
+            "vistas": [
+              {
+                "centro": [
+                  -70,
+                  7
+                ],
+                "ancho": 22
+              }
+            ],
+            "paises": [
+              {
+                "id": "venezuela",
+                "color": "acento",
+                "opacidad": 0.5,
+                "palabra": "Venezuela"
+              }
+            ],
+            "marcas": [
+              {
+                "texto": "Valencia",
+                "lugar": [
+                  -68,
+                  10.16
+                ],
+                "lado": "izquierda",
+                "tam": 36,
+                "palabra": "Valencia"
+              },
+              {
+                "texto": "Caracas",
+                "lugar": "caracas",
+                "lado": "derecha",
+                "tam": 32,
+                "palabra": "Venezuela"
+              }
+            ],
+            "cartela": {
+              "titulo": "Nace Venezuela",
+              "sub": "Congreso de Valencia, 1830",
+              "en": 0.02
+            }
+          }
+        },
+        "c4-quito": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "Quito, 1830",
+            "lineas": [
+              "Nace el Estado",
+              "del Ecuador"
+            ],
+            "resalta": 1,
+            "dibujo": "montana",
+            "palabra_dibujo": "Ecuador"
+          }
+        },
+        "c4-cadena": {
+          "plantilla": "cadena",
+          "datos": {
+            "eslabones": [
+              {
+                "texto": "Venezuela",
+                "palabra": "separ"
+              },
+              {
+                "texto": "Quito",
+                "palabra": "despu"
+              },
+              {
+                "texto": "Final legal",
+                "palabra": "tarde"
+              }
+            ],
+            "anios": [
+              "1830",
+              "1830",
+              "1831"
+            ],
+            "palabra_atras": "llegó",
+            "rotulo_atras": "Una caída en cadena"
+          }
+        },
+        "c4-sucre-dia": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "General Antonio José de Sucre",
+            "lineas": [
+              "Asesinado en",
+              "Berruecos"
+            ],
+            "resalta": 1,
+            "calendario": {
+              "arriba": "Junio",
+              "numero": "4",
+              "abajo": "1830",
+              "lado": "derecha",
+              "palabra": "cuatro"
+            }
+          }
+        },
+        "c4-quien": {
+          "plantilla": "tablero",
+          "datos": {
+            "personajes": [
+              {
+                "personaje": "sucre",
+                "rol": "Asesinado el 4 de junio"
+              },
+              {
+                "nombre": "José María Obando",
+                "corto": "J. M. Obando",
+                "rol": "Señalado por muchos",
+                "piel": "#d2a07a",
+                "pelo": "#2a1d16",
+                "peinado": "corto",
+                "barba": "patillas",
+                "ropa": "#3b3f4a",
+                "detalle": "#c9a256",
+                "corbata": "#f1ece0",
+                "cuello": "lazo",
+                "charreteras": true,
+                "expresion": "serio"
+              },
+              {
+                "nombre": "Juan José Flores",
+                "corto": "J. J. Flores",
+                "rol": "También acusado",
+                "piel": "#d6a47c",
+                "pelo": "#2a1d16",
+                "peinado": "corto",
+                "barba": "patillas",
+                "ropa": "#2f3a4a",
+                "detalle": "#c9a256",
+                "corbata": "#f1ece0",
+                "cuello": "lazo",
+                "charreteras": true,
+                "expresion": "serio"
+              }
+            ],
+            "titulo": "¿Quién lo ordenó?",
+            "palabras": {
+              "personajes": "Quién",
+              "hilos": "acusaciones",
+              "titulo": "ordenó"
+            }
+          }
+        },
+        "c4-ruta-sucre": {
+          "plantilla": "mapa",
+          "datos": {
+            "vistas": [
+              {
+                "centro": [
+                  -76.6,
+                  3.4
+                ],
+                "ancho": 14
+              },
+              {
+                "centro": [
+                  -77.1,
+                  1.5
+                ],
+                "ancho": 4.5,
+                "palabra": "muerte",
+                "dur": 1.2
+              }
+            ],
+            "paises": [
+              {
+                "id": "colombia",
+                "color": "acento2",
+                "opacidad": 0.3,
+                "en": 0
+              },
+              {
+                "id": "ecuador",
+                "color": "acento",
+                "opacidad": 0.2,
+                "en": 0
+              }
+            ],
+            "rutas": [
+              {
+                "puntos": [
+                  [
+                    -75.4,
+                    4.6
+                  ],
+                  [
+                    -76.4,
+                    3
+                  ],
+                  [
+                    -77.1,
+                    1.5
+                  ]
+                ],
+                "estilo": "flecha",
+                "color": "acento",
+                "grosor": 7,
+                "palabra": "regreso",
+                "dur": 1.6
+              }
+            ],
+            "marcas": [
+              {
+                "texto": "Pasto",
+                "lugar": [
+                  -77.28,
+                  1.21
+                ],
+                "lado": "derecha",
+                "tam": 30,
+                "palabra": "muerte"
+              },
+              {
+                "texto": "Berruecos",
+                "lugar": [
+                  -77.1,
+                  1.5
+                ],
+                "lado": "izquierda",
+                "tam": 34,
+                "palabra": "muerte"
+              }
+            ],
+            "rotulos": [
+              {
+                "texto": "Colombia",
+                "lugar": [
+                  -74.2,
+                  5.3
+                ],
+                "estilo": "pais",
+                "tam": 56,
+                "en": 0.1
+              }
+            ],
+            "cartela": {
+              "titulo": "Sucre rumbo al sur",
+              "sub": "Tras el Congreso Admirable",
+              "en": 0.02
+            }
+          }
+        },
+        "c4-santa-marta": {
+          "plantilla": "recorte",
+          "datos": {
+            "foto": "File:Simón Bolívar, 1825.jpg",
+            "pie": "Bolívar, por José Gil de Castro (1825)",
+            "lado": "izquierda",
+            "insignia": "Santa Marta, 1830",
+            "titulo": "Bolívar muere",
+            "texto": "Ese mismo año, en Santa Marta",
+            "palabras": {
+              "titulo": "Bolívar",
+              "texto": "murió"
+            }
+          }
+        },
+        "c4-que-dia": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "Pista: cuándo nació la Gran Colombia",
+            "lineas": [
+              "¿Qué día",
+              "murió Bolívar?"
+            ],
+            "resalta": 1,
+            "todo_al_inicio": true,
+            "calendario": {
+              "arriba": "Adivina",
+              "numero": "?",
+              "abajo": "el día",
+              "lado": "derecha",
+              "palabra": "día"
+            }
+          }
+        },
+        "c4-diecisiete": {
+          "plantilla": "cifra",
+          "datos": {
+            "titulo": "El mismo día, once años después",
+            "barras": false,
+            "cifras": [
+              {
+                "cifra": "17 dic.",
+                "rotulo": "1819: nace la Gran Colombia",
+                "palabra": "diecisiete"
+              },
+              {
+                "cifra": "17 dic.",
+                "rotulo": "1830: muere Bolívar",
+                "palabra": "1830",
+                "resalta": true
+              },
+              {
+                "valor": 11,
+                "unidad": "años",
+                "rotulo": "exactos entre ambos",
+                "palabra": "once"
+              }
+            ]
+          }
+        },
+        "c4-cuantos": {
+          "plantilla": "mapa",
+          "datos": {
+            "vistas": [
+              {
+                "centro": [
+                  -73,
+                  2.2
+                ],
+                "ancho": 28
+              }
+            ],
+            "paises": [
+              {
+                "id": "colombia",
+                "color": "acento2",
+                "opacidad": 0.5,
+                "en": 0
+              },
+              {
+                "id": "venezuela",
+                "color": "acento2",
+                "opacidad": 0.5,
+                "en": 0
+              },
+              {
+                "id": "ecuador",
+                "color": "acento2",
+                "opacidad": 0.5,
+                "en": 0
+              },
+              {
+                "id": "panama",
+                "color": "acento2",
+                "opacidad": 0.5,
+                "en": 0
+              }
+            ],
+            "rotulos": [
+              {
+                "texto": "¿Cuántos?",
+                "lugar": [
+                  -70.5,
+                  5.2
+                ],
+                "estilo": "titulo",
+                "tam": 84,
+                "en": 0.2
+              }
+            ],
+            "cartela": {
+              "titulo": "La Gran Colombia",
+              "sub": "¿En cuántos países se dividió?",
+              "en": 0.02
+            }
+          }
+        },
+        "c4-noviembre": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "Disolución legal",
+            "lineas": [
+              "Noviembre",
+              "de 1831"
+            ],
+            "resalta": 1,
+            "dibujo": "documento",
+            "palabra_dibujo": "disolvi"
+          }
+        },
+        "c4-tres": {
+          "plantilla": "mapa",
+          "datos": {
+            "vistas": [
+              {
+                "centro": [
+                  -73,
+                  2.2
+                ],
+                "ancho": 28
+              }
+            ],
+            "paises": [
+              {
+                "id": "venezuela",
+                "color": "acento",
+                "opacidad": 0.5,
+                "palabra": "Venezuela"
+              },
+              {
+                "id": "ecuador",
+                "color": "acento2",
+                "opacidad": 0.55,
+                "palabra": "Ecuador"
+              },
+              {
+                "id": "colombia",
+                "color": "bien",
+                "opacidad": 0.45,
+                "palabra": "Nueva"
+              },
+              {
+                "id": "panama",
+                "color": "bien",
+                "opacidad": 0.45,
+                "palabra": "Nueva"
+              }
+            ],
+            "rotulos": [
+              {
+                "texto": "Venezuela",
+                "lugar": [
+                  -66.2,
+                  7.4
+                ],
+                "estilo": "pais",
+                "tam": 44,
+                "palabra": "Venezuela"
+              },
+              {
+                "texto": "Ecuador",
+                "lugar": [
+                  -78.6,
+                  -0.2
+                ],
+                "estilo": "pais",
+                "tam": 40,
+                "palabra": "Ecuador"
+              },
+              {
+                "texto": "Nueva Granada",
+                "lugar": [
+                  -74,
+                  4
+                ],
+                "estilo": "pais",
+                "tam": 44,
+                "palabra": "Nueva"
+              }
+            ],
+            "cartela": {
+              "titulo": "Tres países",
+              "sub": "Venezuela, Ecuador y la Nueva Granada",
+              "en": 0.02
+            }
+          }
+        }
+      },
+      "frases": [
+        {
+          "id": "f19",
+          "escena": "c4-renuncia",
+          "texto": "En 1830 todo se aceleró. Bolívar renunció a la presidencia."
+        },
+        {
+          "id": "f19b",
+          "escena": "c4-caicedo",
+          "texto": "El Congreso nombró presidente interino a Domingo Caicedo."
+        },
+        {
+          "id": "f20",
+          "escena": "c4-valencia",
+          "texto": "Ese año, un congreso reunido en Valencia creó la República de Venezuela. Y en Quito, el sur declaró su independencia y formó el Estado del Ecuador.",
+          "cortes": [
+            {
+              "escena": "c4-quito",
+              "palabra": 12
+            }
+          ]
+        },
+        {
+          "id": "f20b",
+          "escena": "c4-cadena",
+          "texto": "Fue una caída en cadena: primero se separó Venezuela, después Quito, y más tarde llegó el final legal."
+        },
+        {
+          "id": "f21",
+          "escena": "c4-sucre-dia",
+          "texto": "El cuatro de junio de 1830, en la montaña de Berruecos, fue asesinado el general Antonio José de Sucre. Quién ordenó el crimen sigue en discusión: muchos han señalado a José María Obando, pero el caso quedó entre acusaciones cruzadas.",
+          "cortes": [
+            {
+              "escena": "c4-quien",
+              "palabra": 19
+            }
+          ]
+        },
+        {
+          "id": "f21b",
+          "escena": "c4-ruta-sucre",
+          "texto": "Sucre viajaba de regreso al sur, después del fracaso de un último congreso, el llamado Congreso Admirable. Su muerte dejó un vacío de poder."
+        },
+        {
+          "id": "f22",
+          "escena": "c4-santa-marta",
+          "texto": "Ahora adivina. Bolívar murió ese mismo año, en Santa Marta. ¿Qué día? Te doy una pista: el mismo día en que nació la Gran Colombia.",
+          "cortes": [
+            {
+              "escena": "c4-que-dia",
+              "palabra": 10
+            }
+          ],
+          "interaccion": "adivina",
+          "pausa_despues": 3
+        },
+        {
+          "id": "f23",
+          "escena": "c4-diecisiete",
+          "texto": "Fue el diecisiete de diciembre de 1830, once años exactos después de crear el país que soñó.",
+          "interaccion": "revela-cifra"
+        },
+        {
+          "id": "f23b",
+          "escena": "c4-cuantos",
+          "texto": "Cuenta conmigo: ¿en cuántos países crees que se dividió? Piénsalo.",
+          "interaccion": "pregunta",
+          "pausa_despues": 2.5
+        },
+        {
+          "id": "f24",
+          "escena": "c4-noviembre",
+          "texto": "En noviembre de 1831, la Gran Colombia se disolvió legalmente. En su lugar quedaron tres: Venezuela, Ecuador y la Nueva Granada.",
+          "cortes": [
+            {
+              "escena": "c4-tres",
+              "palabra": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "titulo": "¿Por qué se acabó?",
+      "escenas": {
+        "c5-tu-respuesta": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "La que guardaste al principio",
+            "lineas": [
+              "¿Cuál era",
+              "tu respuesta?"
+            ],
+            "resalta": 1,
+            "dibujo": "pluma",
+            "palabra_dibujo": "respuesta"
+          }
+        },
+        "c5-regiones": {
+          "plantilla": "mapa",
+          "datos": {
+            "vistas": [
+              {
+                "centro": [
+                  -73,
+                  2.2
+                ],
+                "ancho": 28
+              }
+            ],
+            "paises": [
+              {
+                "id": "venezuela",
+                "color": "acento",
+                "opacidad": 0.45,
+                "en": 0.3
+              },
+              {
+                "id": "colombia",
+                "color": "bien",
+                "opacidad": 0.45,
+                "en": 0.3
+              },
+              {
+                "id": "ecuador",
+                "color": "acento2",
+                "opacidad": 0.5,
+                "en": 0.3
+              },
+              {
+                "id": "panama",
+                "color": "alerta",
+                "opacidad": 0.35,
+                "en": 0.3
+              }
+            ],
+            "rutas": [
+              {
+                "puntos": [
+                  [
+                    -66.9,
+                    10.5
+                  ],
+                  [
+                    -74.07,
+                    4.71
+                  ],
+                  [
+                    -78.5,
+                    -0.2
+                  ]
+                ],
+                "estilo": "discontinua",
+                "color": "tinta",
+                "grosor": 5,
+                "palabra": "mal",
+                "dur": 1.5
+              }
+            ],
+            "marcas": [
+              {
+                "texto": "Caracas",
+                "lugar": "caracas",
+                "lado": "derecha",
+                "tam": 32,
+                "palabra": "distintas"
+              },
+              {
+                "texto": "Bogotá",
+                "lugar": "bogota",
+                "lado": "derecha",
+                "tam": 32,
+                "palabra": "distintas"
+              },
+              {
+                "texto": "Quito",
+                "lugar": "quito",
+                "lado": "derecha",
+                "tam": 32,
+                "palabra": "distintas"
+              }
+            ],
+            "cartela": {
+              "titulo": "Regiones muy distintas",
+              "sub": "Y mal comunicadas",
+              "palabra": "regiones"
+            }
+          }
+        },
+        "c5-lideres": {
+          "plantilla": "dos-personajes",
+          "datos": {
+            "izquierda": {
+              "personaje": "bolivar",
+              "rol": "Gobierno fuerte desde el centro",
+              "pose": "senalar",
+              "expresion": "serio"
+            },
+            "derecha": {
+              "personaje": "santander",
+              "nombre": "Santander",
+              "rol": "Más autonomía regional",
+              "pose": "jarras",
+              "expresion": "serio"
+            }
+          }
+        },
+        "c5-unidad": {
+          "plantilla": "recorte",
+          "datos": {
+            "foto": "File:Antonio José de Sucre (MCDS).jpg",
+            "pie": "Sucre, retrato de la época",
+            "lado": "derecha",
+            "insignia": "Sin los dos pilares",
+            "titulo": "Sin Sucre ni Bolívar",
+            "texto": "Nadie pudo sostener la unión",
+            "palabras": {
+              "titulo": "figuras",
+              "texto": "nadie"
+            }
+          }
+        },
+        "c5-votacion": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "«Fue culpa de una sola persona»",
+            "fichas": [
+              {
+                "texto": "Mito",
+                "palabra": "Mito",
+                "dibujo": "derrumbe"
+              },
+              {
+                "texto": "Realidad",
+                "palabra": "realidad",
+                "dibujo": "balanza"
+              }
+            ]
+          }
+        },
+        "c5-veredicto": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "Veredicto",
+            "lineas": [
+              "Es un mito:",
+              "hubo muchas causas"
+            ],
+            "resalta": 0,
+            "dibujo": "derrumbe",
+            "palabra_dibujo": "Mito"
+          }
+        },
+        "c5-repaso": {
+          "plantilla": "linea-tiempo",
+          "datos": {
+            "titulo": "Repaso final",
+            "actual": 3,
+            "palabra_actual": "1830",
+            "hitos": [
+              {
+                "anio": "1819",
+                "texto": "Nace la Gran Colombia",
+                "palabra": "1819"
+              },
+              {
+                "anio": "1826",
+                "texto": "La Cosiata",
+                "palabra": "1826"
+              },
+              {
+                "anio": "1828",
+                "texto": "Ocaña y la dictadura",
+                "palabra": "1828"
+              },
+              {
+                "anio": "1830",
+                "texto": "La separación",
+                "palabra": "1830"
+              }
+            ]
+          }
+        },
+        "c5-cuatro": {
+          "plantilla": "cifra",
+          "datos": {
+            "valor": 4,
+            "unidad": "fechas",
+            "rotulo": "y ya sabes cómo se deshizo",
+            "dibujo": "calendario",
+            "palabra": "recuerdas"
+          }
+        },
+        "c5-salvar": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "Tu respuesta",
+            "foto": "File:Carta corográfica de la Gran Colombia 1825.jpg",
+            "foto_pie": "Carta de la Gran Colombia (1825)",
+            "fichas": [
+              {
+                "texto": "Se pudo salvar",
+                "dibujo": "bandera",
+                "palabra": "salvar"
+              },
+              {
+                "texto": "Destinada a dividirse",
+                "dibujo": "derrumbe",
+                "palabra": "destinada"
+              }
+            ]
+          }
+        },
+        "c5-comenta": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "En los comentarios",
+            "lineas": [
+              "Déjame tu",
+              "respuesta"
+            ],
+            "resalta": 1
+          }
+        },
+        "c5-tres-partes": {
+          "plantilla": "linea-tiempo",
+          "datos": {
+            "titulo": "La independencia, en tres partes",
+            "actual": 2,
+            "palabra_actual": "y",
+            "hitos": [
+              {
+                "anio": "Parte 1",
+                "texto": "El florero de 1810",
+                "palabra": "florero"
+              },
+              {
+                "anio": "Parte 2",
+                "texto": "Boyacá, 1819",
+                "palabra": "Boyacá"
+              },
+              {
+                "anio": "Parte 3",
+                "texto": "Caída de la Gran Colombia",
+                "palabra": "y"
+              }
+            ]
+          }
+        },
+        "c5-gracias": {
+          "plantilla": "titular",
+          "datos": {
+            "insignia": "Fin de la serie",
+            "lineas": [
+              "Gracias por",
+              "responder",
+              "en voz alta"
+            ],
+            "resalta": 2
+          }
+        }
+      },
+      "frases": [
+        {
+          "id": "f25",
+          "escena": "c5-tu-respuesta",
+          "texto": "Volvamos a tu respuesta del principio. ¿Ya la tienes? Compárala con lo que dicen los historiadores.",
+          "interaccion": "pregunta",
+          "pausa_despues": 2.5
+        },
+        {
+          "id": "f26",
+          "escena": "c5-regiones",
+          "texto": "No hubo una sola causa. Las regiones eran muy distintas y estaban mal comunicadas. Había una disputa entre centralistas y federalistas. Y sus líderes terminaron enfrentados entre sí.",
+          "cortes": [
+            {
+              "escena": "c5-lideres",
+              "palabra": 14
+            }
+          ]
+        },
+        {
+          "id": "f26b",
+          "escena": "c5-unidad",
+          "texto": "Y cuando murieron o se retiraron las figuras que mantenían la unión, como Sucre y Bolívar, nadie pudo sostenerla."
+        },
+        {
+          "id": "f27",
+          "escena": "c5-votacion",
+          "texto": "Última votación. ¿Mito o realidad? «La Gran Colombia se acabó por culpa de una sola persona.» Mito: las fuentes mencionan muchas causas, y los historiadores no coinciden en cuál pesó más.",
+          "cortes": [
+            {
+              "escena": "c5-veredicto",
+              "palabra": 16
+            }
+          ],
+          "interaccion": "mito-realidad"
+        },
+        {
+          "id": "f28",
+          "escena": "c5-repaso",
+          "texto": "Repaso final: 1819, nace. 1826, La Cosiata. 1828, Ocaña y la dictadura. 1830, la separación. Si lo recuerdas, ya sabes cómo se deshizo.",
+          "cortes": [
+            {
+              "escena": "c5-cuatro",
+              "palabra": 15
+            }
+          ],
+          "interaccion": "repaso"
+        },
+        {
+          "id": "f29",
+          "escena": "c5-salvar",
+          "texto": "Y ahora te toca a ti: ¿crees que la Gran Colombia se pudo salvar, o estaba destinada a dividirse? Déjame tu respuesta en los comentarios.",
+          "cortes": [
+            {
+              "escena": "c5-comenta",
+              "palabra": 19
+            }
+          ],
+          "interaccion": "comentar"
+        },
+        {
+          "id": "f30",
+          "escena": "c5-tres-partes",
+          "texto": "Con esta parte cerramos la serie sobre la independencia: el florero de 1810, Boyacá en 1819 y la caída de la Gran Colombia. Gracias por responder en voz alta.",
+          "cortes": [
+            {
+              "escena": "c5-gracias",
+              "palabra": 23
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

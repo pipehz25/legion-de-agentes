@@ -1,0 +1,175 @@
+{
+  "capitulo": "c1",
+  "escenas": {
+    "c1-guaduas": {
+      "plantilla": "mapa",
+      "datos": {
+        "vistas": [
+          { "centro": [-74.2, 4.7], "ancho": 14 },
+          { "centro": [-74.33, 4.9], "ancho": 3.6, "palabra": "Guaduas,", "dur": 1.4 }
+        ],
+        "paises": [{ "id": "colombia", "color": "acento2", "opacidad": 0.3, "en": 0 }],
+        "marcas": [
+          { "texto": "Bogotá", "lugar": "bogota", "lado": "derecha", "tam": 40, "palabra": "Guaduas," },
+          { "texto": "Guaduas", "lugar": [-74.6, 5.07], "lado": "izquierda", "tam": 44, "palabra": "Guaduas," }
+        ],
+        "rotulos": [
+          { "texto": "Cundinamarca", "lugar": [-73.7, 5.3], "estilo": "pais", "tam": 40, "palabra": "Cundinamarca." }
+        ],
+        "cartela": { "titulo": "Guaduas, Cundinamarca", "sub": "La versión más repetida", "palabra": "Guaduas," }
+      }
+    },
+    "c1-claros": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "Pero ojo",
+        "lineas": ["Ni el lugar", "ni el año", "están claros"],
+        "resalta": 2,
+        "calendario": { "arriba": "Año", "numero": "?", "abajo": "incierto", "lado": "derecha", "palabra": "año" }
+      }
+    },
+    "c1-anios": {
+      "plantilla": "fichas",
+      "datos": {
+        "titulo": "Las fuentes hablan de",
+        "fichas": [
+          { "texto": "1793", "dibujo": "calendario", "palabra": "1793," },
+          { "texto": "1794", "dibujo": "calendario", "palabra": "1794," },
+          { "texto": "1795", "dibujo": "calendario", "palabra": "1795" },
+          { "texto": "1796", "dibujo": "calendario", "palabra": "1796,", "resalta": true }
+        ]
+      }
+    },
+    "c1-partida": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "Sin hallar",
+        "lineas": ["Su partida", "de bautismo", "no aparece"],
+        "resalta": 2,
+        "dibujo": "documento",
+        "palabra_dibujo": "partida"
+      }
+    },
+    "c1-edad": {
+      "plantilla": "cifra",
+      "datos": {
+        "cifra": "¿?",
+        "rotulo": "Por eso no diremos su edad",
+        "palabra": "Por",
+        "palabra_rotulo": "eso"
+      }
+    },
+    "c1-familia": {
+      "plantilla": "cadena",
+      "datos": {
+        "eslabones": [
+          { "texto": "acomodada", "palabra": "acomodada" },
+          { "texto": "respetada", "palabra": "respetada," },
+          { "texto": "sin títulos", "palabra": "títulos" }
+        ]
+      }
+    },
+    "c1-bogota": {
+      "plantilla": "mapa",
+      "datos": {
+        "vistas": [{ "centro": [-74.2, 4.95], "ancho": 6 }],
+        "paises": [{ "id": "colombia", "color": "acento2", "opacidad": 0.3, "en": 0 }],
+        "marcas": [
+          { "texto": "Bogotá", "lugar": "bogota", "lado": "derecha", "en": 0.3, "tam": 48 },
+          { "texto": "Guaduas", "lugar": [-74.6, 5.07], "lado": "izquierda", "en": 0.3, "tam": 36 }
+        ],
+        "rotulos": [{ "texto": "Cundinamarca", "lugar": [-73.5, 5.45], "estilo": "pais", "tam": 44, "en": 0 }],
+        "cartela": { "titulo": "Bogotá, 1802", "sub": "Llega una epidemia de viruela", "palabra": "Su" },
+        "fichas": [{ "titulo": "1802", "texto": "Viruela", "dibujo": "cruz", "palabra": "1802,", "lugar": "abajo-derecha" }]
+      }
+    },
+    "c1-que-paso": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "Piénsalo",
+        "lineas": ["¿Qué pasó", "con su", "familia?"],
+        "resalta": 2,
+        "dibujo": "reloj",
+        "palabra_dibujo": "Piénsalo."
+      }
+    },
+    "c1-perdidas": {
+      "plantilla": "cifra",
+      "datos": {
+        "titulo": "Lo que se llevó la viruela",
+        "barras": false,
+        "cifras": [
+          { "valor": 2, "unidad": "padres", "rotulo": "Murieron", "palabra": "padres" },
+          { "valor": 2, "unidad": "hermanos", "rotulo": "Murieron", "palabra": "hermanos," }
+        ]
+      }
+    },
+    "c1-regreso": {
+      "plantilla": "mapa",
+      "datos": {
+        "vistas": [{ "centro": [-74.34, 4.9], "ancho": 3.4 }],
+        "paises": [{ "id": "colombia", "color": "acento2", "opacidad": 0.3, "en": 0 }],
+        "rutas": [{ "puntos": [[-74.08, 4.71], [-74.6, 5.07]], "estilo": "flecha", "color": "acento", "palabra": "llevó", "dur": 1.6 }],
+        "marcas": [
+          { "texto": "Bogotá", "lugar": "bogota", "lado": "derecha", "en": 0.1 },
+          { "texto": "Guaduas", "lugar": [-74.6, 5.07], "lado": "izquierda", "palabra": "Guaduas," }
+        ],
+        "cartela": { "titulo": "Hacia 1804", "sub": "De Bogotá de vuelta a Guaduas", "palabra": "Hacia" },
+        "fichas": [{ "titulo": "1804", "texto": "Regreso", "dibujo": "montana", "palabra": "1804,", "lugar": "abajo-derecha" }]
+      }
+    },
+    "c1-magdalena": {
+      "plantilla": "recorte",
+      "datos": {
+        "foto": "File:Rio Magdalena vista Guaduas.jpg",
+        "pie": "Río Magdalena visto desde Guaduas",
+        "insignia": "Guaduas",
+        "titulo": "Allí fue costurera",
+        "texto": "Según la mayoría de los historiadores",
+        "lado": "derecha",
+        "palabras": { "titulo": "Allí,", "texto": "según" }
+      }
+    },
+    "c1-oficio": {
+      "plantilla": "personaje",
+      "datos": {
+        "personaje": "policarpa",
+        "pose": "pensar",
+        "anios": "Guaduas",
+        "rol": "Costurera: un oficio humilde",
+        "palabra_rol": "humilde,"
+      }
+    },
+    "c1-repaso": {
+      "plantilla": "linea-tiempo",
+      "datos": {
+        "titulo": "Repaso: ¿en qué año fue la viruela?",
+        "actual": 0,
+        "palabra_actual": "mil",
+        "hitos": [
+          { "anio": "1802", "texto": "Epidemia de viruela en Bogotá" },
+          { "anio": "1804", "texto": "Una hermana la lleva a Guaduas" },
+          { "anio": "1816", "texto": "España reconquista la Nueva Granada" },
+          { "anio": "1817", "texto": "Policarpa llega a Bogotá" }
+        ]
+      }
+    }
+  },
+  "frases": [
+    {
+      "id": "f5",
+      "escena": "c1-guaduas",
+      "cortes": [
+        { "escena": "c1-claros", "palabra": 13 },
+        { "escena": "c1-anios", "palabra": 23 },
+        { "escena": "c1-partida", "palabra": 33 },
+        { "escena": "c1-edad", "palabra": 42 },
+        { "escena": "c1-familia", "palabra": 52 }
+      ]
+    },
+    { "id": "f6", "escena": "c1-bogota", "cortes": [{ "escena": "c1-que-paso", "palabra": 13 }], "pausa_despues": 3 },
+    { "id": "f7", "escena": "c1-perdidas", "cortes": [{ "escena": "c1-regreso", "palabra": 18 }] },
+    { "id": "f8", "escena": "c1-magdalena", "cortes": [{ "escena": "c1-oficio", "palabra": 10 }] },
+    { "id": "f8b", "escena": "c1-repaso" }
+  ]
+}

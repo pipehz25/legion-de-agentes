@@ -1,0 +1,139 @@
+{
+  "capitulo": "c3",
+  "escenas": {
+    "c3-caer": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": ["En 1817,", "la red", "empezó a caer"],
+        "resalta": 2,
+        "dibujo": "derrumbe",
+        "palabra_dibujo": "caer"
+      }
+    },
+    "c3-almeyda": {
+      "plantilla": "cadena",
+      "datos": {
+        "eslabones": [
+          { "texto": "Almeyda", "palabra": "patriotas" },
+          { "texto": "Atrapados", "palabra": "atrapados" },
+          { "texto": "Documentos", "palabra": "documentos" }
+        ]
+      }
+    },
+    "c3-sabarain": {
+      "plantilla": "personaje",
+      "datos": {
+        "personaje": "sabarain",
+        "pose": "neutral",
+        "anios": "En 1817",
+        "rol": "Detenido con una lista de nombres de realistas y patriotas",
+        "palabra_anios": "Sabaraín",
+        "palabra_rol": "detenido"
+      }
+    },
+    "c3-lista": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": ["Una lista que,", "según se cuenta,", "ella le entregó"],
+        "resalta": 2,
+        "dibujo": "documento",
+        "palabra_dibujo": "lista"
+      }
+    },
+    "c3-iglesias": {
+      "plantilla": "personaje",
+      "datos": {
+        "personaje": "iglesias",
+        "pose": "senalar",
+        "anios": "Sargento",
+        "rol": "Principal agente español en la ciudad: recibió la orden de arrestarla",
+        "palabra_rol": "principal"
+      }
+    },
+    "c3-donde": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": ["¿Y dónde", "la atraparon?"],
+        "resalta": 1,
+        "dibujo": "balanza",
+        "palabra_dibujo": "versiones",
+        "todo_al_inicio": true
+      }
+    },
+    "c3-casa": {
+      "plantilla": "personaje",
+      "datos": {
+        "personaje": "andrea",
+        "pose": "neutral",
+        "nombre": "La arrestaron",
+        "anios": "Una versión",
+        "rol": "En la casa de Andrea Ricaurte",
+        "palabra_anios": "mayoría",
+        "palabra_rol": "casa"
+      }
+    },
+    "c3-escapo": {
+      "plantilla": "dos-personajes",
+      "datos": {
+        "izquierda": { "personaje": "policarpa", "rol": "Otra versión: escapó de la casa", "expresion": "serio", "pose": "neutral" },
+        "derecha": { "personaje": "iglesias", "rol": "La alcanzó unas cuadras al sur", "expresion": "astuto", "pose": "senalar" }
+      }
+    },
+    "c3-fecha": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": ["La fecha exacta", "de su captura", "no se conoce"],
+        "resalta": 2,
+        "calendario": { "arriba": "Captura", "numero": "?", "abajo": "1817", "lado": "derecha", "palabra": "fecha" }
+      }
+    },
+    "c3-rosario": {
+      "plantilla": "recorte",
+      "datos": {
+        "foto": "File:Claustro del Colegio Mayor de Nuestra Señora del Rosario (Bogotá) 01.JPG",
+        "pie": "Claustro del Colegio Mayor del Rosario (foto actual)",
+        "insignia": "Bogotá, 1817",
+        "titulo": "Una cárcel en un colegio",
+        "texto": "Colegio Mayor del Rosario, convertido en cárcel",
+        "lado": "izquierda",
+        "palabras": { "foto": "encerraron", "titulo": "Colegio", "texto": "colegio" }
+      }
+    },
+    "c3-salon": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": ["¿Tus últimos días", "en un salón", "de clases?"],
+        "resalta": 2,
+        "dibujo": "reloj",
+        "todo_al_inicio": true
+      }
+    }
+  },
+  "frases": [
+    {
+      "id": "f15",
+      "escena": "c3-caer",
+      "cortes": [
+        { "escena": "c3-almeyda", "palabra": 11 },
+        { "escena": "c3-sabarain", "palabra": 20 },
+        { "escena": "c3-lista", "palabra": 34 }
+      ]
+    },
+    { "id": "f16", "escena": "c3-iglesias" },
+    {
+      "id": "f17",
+      "escena": "c3-donde",
+      "cortes": [
+        { "escena": "c3-casa", "palabra": 13 },
+        { "escena": "c3-escapo", "palabra": 20 },
+        { "escena": "c3-fecha", "palabra": 35 }
+      ]
+    },
+    {
+      "id": "f18",
+      "escena": "c3-rosario",
+      "cortes": [{ "escena": "c3-salon", "palabra": 23 }],
+      "pausa_despues": 2
+    }
+  ]
+}

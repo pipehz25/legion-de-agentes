@@ -1,0 +1,192 @@
+{
+  "capitulo": "c2",
+  "escenas": {
+    "c2-reconquista": {
+      "plantilla": "mapa",
+      "datos": {
+        "vistas": [{ "centro": [-76, 5.5], "ancho": 30 }],
+        "paises": [
+          { "id": "colombia", "color": "acento2", "opacidad": 0.35, "en": 0 },
+          { "id": "panama", "color": "acento2", "opacidad": 0.35, "en": 0 }
+        ],
+        "banderas": [{ "pais": "espana", "lugar": [-74.2, 4.6], "tam": 110, "palabra": "España" }],
+        "rotulos": [{ "texto": "Nueva Granada", "lugar": [-76.5, 7.2], "estilo": "pais", "tam": 44, "en": 0 }],
+        "cartela": { "titulo": "La Nueva Granada", "sub": "Vuelve el dominio español" },
+        "fichas": [{ "titulo": "1816", "texto": "Reconquista", "dibujo": "bandera", "palabra": "1816.", "lugar": "abajo-derecha" }]
+      }
+    },
+    "c2-bandos": {
+      "plantilla": "dos-personajes",
+      "datos": {
+        "izquierda": {
+          "nombre": "Un realista",
+          "rol": "Fiel al rey de España",
+          "bandera": "espana",
+          "palabra_bandera": "realistas,",
+          "piel": "#e2b48c",
+          "pelo": "#3a2a1e",
+          "peinado": "corto",
+          "barba": "bigote",
+          "sombrero": "kepis",
+          "ropa": "#7a2e2e",
+          "detalle": "#c9a256",
+          "expresion": "serio",
+          "pose": "brazos-cruzados"
+        },
+        "derecha": {
+          "nombre": "Un patriota",
+          "rol": "Quería la independencia",
+          "piel": "#d2a07a",
+          "pelo": "#2a1d16",
+          "peinado": "corto",
+          "barba": "ninguna",
+          "sombrero": "ninguno",
+          "ropa": "#3d4a5e",
+          "detalle": "#c9a256",
+          "expresion": "serio",
+          "pose": "jarras"
+        }
+      }
+    },
+    "c2-terror": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "Reconquista española",
+        "lineas": ["La época", "del terror"],
+        "resalta": 1,
+        "dibujo": "canon",
+        "palabra_dibujo": "terror."
+      }
+    },
+    "c2-llegada": {
+      "plantilla": "mapa",
+      "datos": {
+        "vistas": [{ "centro": [-74.08, 4.9], "ancho": 4 }],
+        "paises": [{ "id": "colombia", "color": "acento2", "opacidad": 0.3, "en": 0 }],
+        "banderas": [{ "pais": "espana", "lugar": [-74.08, 4.98], "tam": 90, "en": 0.2 }],
+        "rotulos": [{ "texto": "Bogotá reconquistada", "lugar": [-73.1, 5.5], "estilo": "pais", "tam": 38, "en": 0.2 }],
+        "marcas": [{ "texto": "Bogotá", "lugar": "bogota", "lado": "derecha", "en": 0.3, "tam": 48 }],
+        "cartela": { "titulo": "Bogotá, 1817", "sub": "Llega con papeles falsos", "palabra": "papeles" },
+        "fichas": [{ "titulo": "Falsos", "texto": "Papeles", "dibujo": "documento", "palabra": "falsos,", "lugar": "abajo-derecha" }]
+      }
+    },
+    "c2-andrea": {
+      "plantilla": "dos-personajes",
+      "datos": {
+        "izquierda": { "personaje": "policarpa", "pose": "neutral" },
+        "derecha": { "personaje": "andrea", "pose": "saludar", "expresion": "sonrisa" },
+        "foto": "File:Policarpa Salabarrieta.jpg",
+        "foto_pie": "Policarpa, por José María Espinosa",
+        "palabra_foto": "Ahí"
+      }
+    },
+    "c2-espia": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "Adivina",
+        "lineas": ["¿Cómo espiar", "sin entrar", "a un cuartel?"],
+        "resalta": 2,
+        "dibujo": "documento",
+        "palabra_dibujo": "información"
+      }
+    },
+    "c2-espia-pausa": {
+      "plantilla": "cifra",
+      "datos": {
+        "cifra": "¿?",
+        "rotulo": "¿Cómo lo consigue? Piénsalo",
+        "palabra": "Piénsalo.",
+        "palabra_rotulo": "Piénsalo."
+      }
+    },
+    "c2-cosiendo": {
+      "plantilla": "personaje",
+      "datos": {
+        "personaje": "policarpa",
+        "pose": "firmar",
+        "anios": "Bogotá, 1817",
+        "rol": "Cosía para señoras realistas",
+        "palabra_rol": "señoras"
+      }
+    },
+    "c2-oidos": {
+      "plantilla": "fichas",
+      "datos": {
+        "titulo": "Lo que escuchaba mientras cosía",
+        "fichas": [
+          { "texto": "Cuántos soldados había", "dibujo": "bandera", "palabra": "soldados" },
+          { "texto": "Qué armas tenían", "dibujo": "canon", "palabra": "armas" },
+          { "texto": "Qué órdenes llegaban", "dibujo": "documento", "palabra": "órdenes", "resalta": true }
+        ]
+      }
+    },
+    "c2-llanos": {
+      "plantilla": "mapa",
+      "datos": {
+        "vistas": [{ "centro": [-73.2, 4.8], "ancho": 9 }],
+        "paises": [{ "id": "colombia", "color": "acento2", "opacidad": 0.3, "en": 0 }],
+        "rutas": [{ "puntos": [[-74.08, 4.71], [-71.4, 4.4]], "estilo": "flecha", "color": "acento", "en": 0.2, "dur": 1.4 }],
+        "marcas": [{ "texto": "Bogotá", "lugar": "bogota", "lado": "izquierda", "en": 0, "tam": 44 }],
+        "rotulos": [{ "texto": "Los Llanos", "lugar": [-71.6, 5.4], "estilo": "pais", "tam": 44, "palabra": "guerrillas" }],
+        "cartela": { "titulo": "La información viaja", "sub": "Hasta las guerrillas de los Llanos" }
+      }
+    },
+    "c2-reclutaba": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "Su red secreta",
+        "lineas": ["Reclutaba jóvenes", "y compraba", "material de guerra"],
+        "resalta": 2,
+        "dibujo": "bandera",
+        "palabra_dibujo": "causa"
+      }
+    },
+    "c2-red": {
+      "plantilla": "dos-personajes",
+      "datos": {
+        "izquierda": { "personaje": "policarpa", "pose": "jarras" },
+        "derecha": { "personaje": "sabarain", "pose": "senalar" }
+      }
+    },
+    "c2-mito": {
+      "plantilla": "fichas",
+      "datos": {
+        "titulo": "«Policarpa trabajaba sola»",
+        "fichas": [
+          { "texto": "Mito", "dibujo": "cruz", "palabra": "Mito", "resalta": true },
+          { "texto": "Realidad", "dibujo": "balanza", "palabra": "realidad?" }
+        ]
+      }
+    },
+    "c2-veredicto": {
+      "plantilla": "tablero",
+      "datos": {
+        "personajes": ["policarpa", "sabarain", "andrea"],
+        "titulo": "Mito: tenía una red",
+        "palabras": { "personajes": "Alejo", "titulo": "Mito:" }
+      }
+    }
+  },
+  "frases": [
+    {
+      "id": "f9",
+      "escena": "c2-reconquista",
+      "cortes": [
+        { "escena": "c2-bandos", "palabra": 9 },
+        { "escena": "c2-terror", "palabra": 23 }
+      ]
+    },
+    { "id": "f10", "escena": "c2-llegada", "cortes": [{ "escena": "c2-andrea", "palabra": 14 }] },
+    { "id": "f11", "escena": "c2-espia", "cortes": [{ "escena": "c2-espia-pausa", "palabra": 18 }], "pausa_despues": 3 },
+    {
+      "id": "f12",
+      "escena": "c2-cosiendo",
+      "cortes": [
+        { "escena": "c2-oidos", "palabra": 5 },
+        { "escena": "c2-llanos", "palabra": 19 }
+      ]
+    },
+    { "id": "f13", "escena": "c2-reclutaba", "cortes": [{ "escena": "c2-red", "palabra": 11 }] },
+    { "id": "f14", "escena": "c2-mito", "cortes": [{ "escena": "c2-veredicto", "palabra": 6 }], "pausa_despues": 3 }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "hi-gran-colombia",
+  "tipo": "largo",
+  "modo": "escenas",
+  "titulo": "¿Por qué se acabó la Gran Colombia? De 1819 a 1831",
+  "duracion_s": 420,
+  "volumen": "I: -14.0 LUFS",
+  "voz": "elevenlabs / C12mZePhNoo0RoTXhSFV",
+  "formato": "1920x1080",
+  "capitulos": [
+    {
+      "inicio": "00:00",
+      "titulo": "Introducción"
+    },
+    {
+      "inicio": "00:53",
+      "titulo": "Nace un gigante"
+    },
+    {
+      "inicio": "01:46",
+      "titulo": "La primera grieta"
+    },
+    {
+      "inicio": "03:11",
+      "titulo": "Ocaña y la dictadura"
+    },
+    {
+      "inicio": "04:15",
+      "titulo": "El año 1830"
+    },
+    {
+      "inicio": "05:41",
+      "titulo": "¿Por qué se acabó?"
+    }
+  ],
+  "escenas": 74,
+  "imagenes": 8,
+  "avisos": 20,
+  "tiempo_produccion_s": 595.2,
+  "tiempos_s": {
+    "voz": 15.7,
+    "fotos": 0.4,
+    "miniatura": 0,
+    "capitulos": 557.4,
+    "union": 20.9
+  },
+  "render_capitulos": {
+    "c3": {
+      "duracion_s": 64.733,
+      "render_s": 169,
+      "revision_s": 27
+    },
+    "c4": {
+      "duracion_s": 85.2,
+      "render_s": 170,
+      "revision_s": 24
+    },
+    "c5": {
+      "duracion_s": 78.833,
+      "render_s": 144,
+      "revision_s": 23
+    }
+  },
+  "producido": "2026-11-26T03:01:17.764Z",
+  "video": "hi-gran-colombia.mp4",
+  "portada": "miniatura.jpg",
+  "subtitulos": "hi-gran-colombia.srt",
+  "descripcion": "descripcion.txt",
+  "guion": "animados/propios/hi-gran-colombia/guion.json"
+}

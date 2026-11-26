@@ -1,0 +1,74 @@
+{
+  "capitulo": "c0",
+  "escenas": {
+    "c0-pregunta": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "Piénsalo y responde en voz alta",
+        "lineas": ["¿Puede una", "costurera cambiar", "una guerra?"],
+        "resalta": 2,
+        "dibujo": "reloj",
+        "palabra_dibujo": "Piénsalo"
+      }
+    },
+    "c0-billete": {
+      "plantilla": "recorte",
+      "datos": {
+        "foto": "File:Policarpa Salabarrieta.jpg",
+        "pie": "Retrato por José María Espinosa",
+        "insignia": "Su rostro",
+        "titulo": "Visto por millones",
+        "texto": "Estuvo en el billete de diez mil pesos",
+        "lado": "izquierda",
+        "palabras": { "titulo": "millones", "texto": "visto" }
+      }
+    },
+    "c0-pola": {
+      "plantilla": "personaje",
+      "datos": {
+        "personaje": "policarpa",
+        "pose": "brazos-cruzados",
+        "anios": "Bogotá, 1817",
+        "rol": "Para la historia: La Pola",
+        "palabra_rol": "historia"
+      }
+    },
+    "c0-reglas": {
+      "plantilla": "fichas",
+      "datos": {
+        "titulo": "Lo que vas a hacer en este video",
+        "fichas": [
+          { "texto": "Adivinar", "dibujo": "reloj", "palabra": "adivinar," },
+          { "texto": "Votar: mito o realidad", "dibujo": "balanza", "palabra": "mito" },
+          { "texto": "Separar lo comprobado", "dibujo": "documento", "palabra": "separar", "resalta": true }
+        ]
+      }
+    },
+    "c0-regla": {
+      "plantilla": "titular",
+      "datos": {
+        "insignia": "La regla del video",
+        "lineas": ["Cada pregunta,", "respóndela", "en voz alta"],
+        "resalta": 1,
+        "dibujo": "pluma",
+        "palabra_dibujo": "respuestas."
+      }
+    },
+    "c0-principio": {
+      "plantilla": "cadena",
+      "datos": {
+        "eslabones": [
+          { "texto": "una niña", "palabra": "niña," },
+          { "texto": "un pueblo", "palabra": "pueblo" },
+          { "texto": "una epidemia", "palabra": "epidemia." }
+        ]
+      }
+    }
+  },
+  "frases": [
+    { "id": "f1", "escena": "c0-pregunta", "pausa_despues": 2.5 },
+    { "id": "f2", "escena": "c0-billete", "cortes": [{ "escena": "c0-pola", "palabra": 17 }] },
+    { "id": "f3", "escena": "c0-reglas", "cortes": [{ "escena": "c0-regla", "palabra": 28 }] },
+    { "id": "f4", "escena": "c0-principio" }
+  ]
+}

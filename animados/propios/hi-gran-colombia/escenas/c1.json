@@ -1,0 +1,132 @@
+{
+  "capitulo": "c1",
+  "escenas": {
+    "c1-fecha": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": ["Angostura,", "17 de diciembre"],
+        "resalta": 1,
+        "insignia": "El nacimiento del país",
+        "calendario": { "arriba": "Diciembre", "numero": "17", "abajo": "1819", "lado": "izquierda", "palabra": "diecisiete" }
+      }
+    },
+    "c1-union": {
+      "plantilla": "mapa",
+      "datos": {
+        "vistas": [{ "centro": [-70, 6.5], "ancho": 22 }],
+        "paises": [
+          { "id": "venezuela", "color": "acento", "opacidad": 0.35, "palabra": "Venezuela" },
+          { "id": "colombia", "color": "acento2", "opacidad": 0.45, "palabra": "Nueva" },
+          { "id": "panama", "color": "acento2", "opacidad": 0.45, "palabra": "Nueva" }
+        ],
+        "rotulos": [
+          { "texto": "Venezuela", "lugar": [-66, 7.2], "estilo": "pais", "tam": 40, "palabra": "Venezuela" },
+          { "texto": "Nueva Granada", "lugar": [-73.5, 3.4], "estilo": "pais", "tam": 40, "palabra": "Nueva" },
+          { "texto": "Mar Caribe", "lugar": [-72, 13], "estilo": "mar", "tam": 32, "en": 0 }
+        ],
+        "marcas": [{ "texto": "Angostura", "lugar": [-63.55, 8.13], "lado": "derecha", "tam": 34, "en": 0.02 }],
+        "cartela": { "titulo": "República de Colombia", "sub": "Hoy, la Gran Colombia", "palabra": "República" }
+      }
+    },
+    "c1-cucuta": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": ["Congreso de", "Cúcuta, 1821"],
+        "resalta": 1,
+        "insignia": "Una constitución nueva",
+        "dibujo": "documento",
+        "palabra_dibujo": "constitución"
+      }
+    },
+    "c1-presidentes": {
+      "plantilla": "dos-personajes",
+      "datos": {
+        "izquierda": { "personaje": "bolivar", "rol": "Presidente", "pose": "senalar", "expresion": "serio" },
+        "derecha": { "personaje": "santander", "rol": "Vicepresidente", "pose": "neutral", "expresion": "serio" }
+      }
+    },
+    "c1-centro": {
+      "plantilla": "mapa",
+      "datos": {
+        "vistas": [{ "centro": [-72, 6], "ancho": 36 }],
+        "paises": [
+          { "id": "colombia", "color": "acento2", "opacidad": 0.4, "en": 0 },
+          { "id": "venezuela", "color": "acento", "opacidad": 0.3, "en": 0 },
+          { "id": "panama", "color": "acento2", "opacidad": 0.4, "en": 0 }
+        ],
+        "rutas": [
+          { "puntos": [[-66.9, 10.5], [-74.07, 4.71]], "estilo": "flecha", "color": "acento", "palabra": "decisiones", "dur": 1.6 },
+          { "puntos": [[-79.5, 8.9], [-74.07, 4.71]], "estilo": "flecha", "color": "acento", "palabra": "tomaban", "dur": 1.4 }
+        ],
+        "marcas": [
+          { "texto": "Caracas", "lugar": "caracas", "lado": "arriba", "tam": 32, "palabra": "decisiones" },
+          { "texto": "Panamá", "lugar": [-79.5, 8.9], "lado": "izquierda", "tam": 30, "palabra": "tomaban" },
+          { "texto": "Bogotá", "lugar": "bogota", "lado": "derecha", "tam": 40, "palabra": "centro" }
+        ],
+        "cartela": { "titulo": "Un país centralista", "sub": "Las decisiones, desde el centro", "en": 0.02 },
+        "fichas": [{ "texto": "Decide el centro", "dibujo": "documento", "lugar": "abajo-derecha", "palabra": "centro" }]
+      }
+    },
+    "c1-pregunta": {
+      "plantilla": "titular",
+      "datos": {
+        "lineas": ["¿Un solo lugar", "para gobernarlas", "a todas?"],
+        "resalta": 2,
+        "todo_al_inicio": true,
+        "insignia": "Regiones distintas y lejanas",
+        "dibujo": "balanza"
+      }
+    },
+    "c1-piensalo": {
+      "plantilla": "cifra",
+      "datos": {
+        "cifra": "¿Sí o no?",
+        "unidad": "tu respuesta",
+        "rotulo": "Piénsalo antes de seguir",
+        "dibujo": "reloj",
+        "palabra": "Piénsalo",
+        "palabra_rotulo": "antes"
+      }
+    },
+    "c1-sumaron": {
+      "plantilla": "mapa",
+      "datos": {
+        "vistas": [{ "centro": [-73.5, 5.5], "ancho": 30 }],
+        "paises": [
+          { "id": "colombia", "color": "acento2", "opacidad": 0.4, "en": 0 },
+          { "id": "venezuela", "color": "acento2", "opacidad": 0.4, "en": 0 },
+          { "id": "panama", "color": "acento", "opacidad": 0.55, "palabra": "Panamá" },
+          { "id": "ecuador", "color": "acento", "opacidad": 0.5, "palabra": "Quito" }
+        ],
+        "montes": { "puntos": [[-77.6, 1.2], [-76.5, 3.2], [-75.4, 5.4]], "tam": 38, "palabra": "caminos" },
+        "rutas": [
+          { "puntos": [[-78.5, -0.2], [-77.2, 2], [-75.6, 3.6], [-74.07, 4.71]], "estilo": "discontinua", "color": "acento", "palabra": "escasos", "dur": 1.6 }
+        ],
+        "marcas": [
+          { "texto": "Panamá", "lugar": [-79.5, 8.9], "lado": "izquierda", "tam": 34, "palabra": "Panamá" },
+          { "texto": "Quito", "lugar": "quito", "lado": "izquierda", "tam": 34, "palabra": "Quito" },
+          { "texto": "Bogotá", "lugar": "bogota", "lado": "derecha", "tam": 32, "palabra": "caminos" }
+        ],
+        "rotulos": [{ "texto": "Pocos caminos", "lugar": [-76.2, 1.2], "estilo": "titulo", "tam": 30, "giro": -30, "palabra": "escasos" }],
+        "cartela": { "titulo": "Se suman más regiones", "sub": "Panamá y Quito, después", "en": 0.02 }
+      }
+    },
+    "c1-regiones": {
+      "plantilla": "fichas",
+      "datos": {
+        "titulo": "Cada región, lo suyo",
+        "fichas": [
+          { "texto": "Economías distintas", "dibujo": "balanza", "palabra": "economías" },
+          { "texto": "Intereses propios", "dibujo": "bandera", "palabra": "intereses", "resalta": true }
+        ]
+      }
+    }
+  },
+  "frases": [
+    { "id": "f5", "escena": "c1-fecha", "cortes": [{ "escena": "c1-union", "palabra": 9 }] },
+    { "id": "f6", "escena": "c1-cucuta", "cortes": [{ "escena": "c1-presidentes", "palabra": 12 }] },
+    { "id": "f6b", "escena": "c1-centro" },
+    { "id": "f7", "escena": "c1-pregunta", "cortes": [{ "escena": "c1-piensalo", "palabra": 14 }], "pausa_despues": 2.5 },
+    { "id": "f8", "escena": "c1-sumaron", "cortes": [{ "escena": "c1-regiones", "palabra": 11 }] }
+  ]
+}

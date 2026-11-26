@@ -1,0 +1,6 @@
+# Video largo: se versionan el guion y las imagenes propias; lo demas lo regenera producir.mjs
+*
+!.gitignore
+!guion.json
+!escenas/
+!escenas/*.json
