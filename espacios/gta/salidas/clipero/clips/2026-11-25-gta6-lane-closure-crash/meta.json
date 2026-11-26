@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-25-gta6-lane-closure-crash",
+    "url_fuente":  "https://www.youtube.com/watch?v=4IVyqMT4_30",
+    "video_id":  "4IVyqMT4_30",
+    "inicio":  88,
+    "fin":  110,
+    "inicio_hms":  "0:01:28",
+    "duracion_seg":  22,
+    "gancho":  "Leonida Fails #11: the lane was closed",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "vice",
+    "resolucion":  "1440x2560",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -21.7,
+                  "entrada_tp":  -8.85,
+                  "salida_lufs":  -14.14,
+                  "salida_tp":  -1.15
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-25-gta6-lane-closure-crash/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-25-gta6-lane-closure-crash/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-25-gta6-lane-closure-crash/revision.jpg",
+    "creado":  "2026-11-25T23:17:25.1630610-05:00"
+}

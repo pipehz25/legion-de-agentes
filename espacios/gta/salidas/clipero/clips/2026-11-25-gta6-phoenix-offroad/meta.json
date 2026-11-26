@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-25-gta6-phoenix-offroad",
+    "url_fuente":  "https://www.youtube.com/watch?v=e6inqQmm4t8",
+    "video_id":  "e6inqQmm4t8",
+    "inicio":  488,
+    "fin":  513,
+    "inicio_hms":  "0:08:08",
+    "duracion_seg":  25,
+    "gancho":  "Getaway Files #16: lose the cops off-road",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "atardecer",
+    "resolucion":  "1440x2560",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -22.56,
+                  "entrada_tp":  -10.03,
+                  "salida_lufs":  -14.08,
+                  "salida_tp":  -1.47
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-25-gta6-phoenix-offroad/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-25-gta6-phoenix-offroad/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-25-gta6-phoenix-offroad/revision.jpg",
+    "creado":  "2026-11-25T23:13:06.0801467-05:00"
+}

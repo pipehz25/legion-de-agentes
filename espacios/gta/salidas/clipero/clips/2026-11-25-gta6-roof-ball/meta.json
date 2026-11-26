@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-25-gta6-roof-ball",
+    "url_fuente":  "https://www.youtube.com/watch?v=7Ebie2L-UGg",
+    "video_id":  "7Ebie2L-UGg",
+    "inicio":  130,
+    "fin":  150,
+    "inicio_hms":  "0:02:10",
+    "duracion_seg":  20,
+    "gancho":  "POV: the ball goes off the roof",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "negro",
+    "resolucion":  "1440x2560",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -17.9,
+                  "limitador":  true,
+                  "entrada_lufs":  -38.55,
+                  "entrada_tp":  -21.72,
+                  "salida_lufs":  -17.81,
+                  "salida_tp":  -1.07
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-25-gta6-roof-ball/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-25-gta6-roof-ball/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-25-gta6-roof-ball/revision.jpg",
+    "creado":  "2026-11-25T23:19:02.6933007-05:00"
+}

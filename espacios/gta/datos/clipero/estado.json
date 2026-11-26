@@ -1,6 +1,6 @@
 {
-    "actualizado":  "2026-11-25T00:05:57-05:00",
-    "ciclo":  7,
+    "actualizado":  "2026-11-25T23:40:00-05:00",
+    "ciclo":  8,
     "ultimo_ciclo_cazador":  20,
     "ultimo_ciclo_cazador_risas":  11,
     "_nota_cazadores":  "Espacio con enfoque propio (GTA VI): los ciclos de los cazadores solo se anotan; sus oportunidades no se usan.",
@@ -9,22 +9,24 @@
                    "gta-us":  {
                                   "serie":  "Leonida Daily",
                                   "ultimo_numero":  7,
-                                  "rotacion_hechos":  34,
+                                  "rotacion_hechos":  36,
                                   "_rotacion":  "voz+atardecer, texto+vice, voz+negro, texto+atardecer, voz+vice, texto+negro; rotacion_hechos cuenta los clips narrados de la cuenta (el siguiente es el indice rotacion_hechos mod 6). Cuenta tambien los de Leonida Fails y los de formato texto. Ciclo 5: indices 12 a 25 (14 clips). Ciclo 6: indices 26 a 29 (barrier-faceplant voz+negro, gasoline-truck-bed texto+atardecer, excavator-heist voz+vice, provoke-brawl texto+negro).",
-                                  "_siguiente":  "voz+vice (indice 34: 34 mod 6 = 4)",
-                                  "_ciclo7":  "Indices 30 a 33: mini-bike-crash voz+atardecer (Leonida Fails #9), boat-party-steal texto+vice, semi-beach voz+negro (Leonida Fails #10), beach-gator texto+atardecer."
+                                  "_siguiente":  "voz+atardecer (indice 36: 36 mod 6 = 0)",
+                                  "_ciclo7":  "Indices 30 a 33: mini-bike-crash voz+atardecer (Leonida Fails #9), boat-party-steal texto+vice, semi-beach voz+negro (Leonida Fails #10), beach-gator texto+atardecer.",
+                                  "_ciclo8":  "Indices 34 y 35: lane-closure-crash voz+vice (Leonida Fails #11), roof-ball texto+negro."
                               },
                    "gta-chases":  {
                                       "serie":  "Getaway Files",
-                                      "ultimo_numero":  15,
-                                      "rotacion_hechos":  29,
-                                      "_siguiente":  "texto+negro (indice 29: 29 mod 6 = 5)",
+                                      "ultimo_numero":  16,
+                                      "rotacion_hechos":  31,
+                                      "_siguiente":  "texto+vice (indice 31: 31 mod 6 = 1)",
                                       "_ciclo6":  "Indices 19 a 24: bridge-roadblock texto+vice, private-jet-fail voz+negro (#11), cop-car-carjack texto+atardecer, excavator-chase voz+vice (#12), cop-car-highway texto+negro, sheriff-suv voz+atardecer (#13).",
-                                      "_ciclo7":  "Indices 25 a 28: dirt-bike-wasted texto+vice, bail-out-wasted voz+negro (Getaway Files #14), sheriff-ram texto+atardecer, field-escape voz+vice (Getaway Files #15)."
+                                      "_ciclo7":  "Indices 25 a 28: dirt-bike-wasted texto+vice, bail-out-wasted voz+negro (Getaway Files #14), sheriff-ram texto+atardecer, field-escape voz+vice (Getaway Files #15).",
+                                      "_ciclo8":  "Indices 29 y 30: respray-escape texto+negro, phoenix-offroad voz+atardecer (Getaway Files #16)."
                                   },
                    "gta-funny":  {
                                      "serie":  "Leonida Fails",
-                                     "ultimo_numero":  10,
+                                     "ultimo_numero":  11,
                                      "_nota":  "Mientras gta-funny está apagada, la serie (y su tono cómico) la usa gta-us con la voz de gta-us, am_michael (enfoque del 2026-11-21). La rotación de formato y color es la de gta-us."
                                  }
                },
@@ -59,23 +61,9 @@
                                          "motivo":  "primer intento en el aeropuerto con WASTED (6:34-7:05): repite la idea de private-jet-fail"
                                      },
                                      {
-                                         "id":  "7Ebie2L-UGg",
-                                         "url":  "https://www.youtube.com/watch?v=7Ebie2L-UGg",
-                                         "titulo":  "GTA 6 Free to Use Gameplay (GTA 6 No Copyright Gameplay), 381 s, 19-nov, 259 vistas",
-                                         "prioridad":  "alta",
-                                         "motivo":  "sin analizar; mismo canal y jugador que FAYq (persecuciones y caos)"
-                                     },
-                                     {
                                          "id":  "YUUqKqzF1_8",
                                          "url":  "https://www.youtube.com/watch?v=YUUqKqzF1_8",
                                          "titulo":  "Exploring Vice City (GTA 6 No Copyright Gameplay), 711 s, 20-nov",
-                                         "prioridad":  "media",
-                                         "motivo":  "sin analizar"
-                                     },
-                                     {
-                                         "id":  "4IVyqMT4_30",
-                                         "url":  "https://www.youtube.com/watch?v=4IVyqMT4_30",
-                                         "titulo":  "Free Roam (GTA 6 No Copyright Gameplay), 246 s, 20-nov",
                                          "prioridad":  "media",
                                          "motivo":  "sin analizar"
                                      },
@@ -85,13 +73,6 @@
                                          "titulo":  "Gta 6 motorcycle wheelies (Ftug), 422 s, 18-nov",
                                          "prioridad":  "media",
                                          "motivo":  "acrobacias (prioridad 3 del enfoque); Ftug recorta a menudo partidas de Fox: comprobar que no sea material ya usado"
-                                     },
-                                     {
-                                         "id":  "7LM5LDERH3I",
-                                         "url":  "https://www.youtube.com/watch?v=7LM5LDERH3I",
-                                         "titulo":  "Gta 6 Cluckin Bell Manager (Ftug), 246 s, 20-nov",
-                                         "prioridad":  "media",
-                                         "motivo":  "humor con NPC por el titulo; sin mirar"
                                      },
                                      {
                                          "id":  "fox-12-13",
@@ -148,6 +129,34 @@
                                          "titulo":  "Gta 6 Honey I\u0027m Home Lucia \u0026 Chill (Ftug), 941 s",
                                          "prioridad":  "revisar",
                                          "motivo":  "el titulo puede ser de contenido intimo: mirar el vistazo antes de cortar nada"
+                                     },
+                                     {
+                                         "id":  "ErM2QYlxA5k",
+                                         "url":  "https://www.youtube.com/watch?v=ErM2QYlxA5k",
+                                         "titulo":  "Gta 6 Swamped (Ftug), 1503 s, 25-nov",
+                                         "prioridad":  "media",
+                                         "motivo":  "sin analizar; el titulo puede ser una mision"
+                                     },
+                                     {
+                                         "id":  "sBXjsanInqw",
+                                         "url":  "https://www.youtube.com/watch?v=sBXjsanInqw",
+                                         "titulo":  "Gta 6 Free To Use Gameplay No Copyright ... #1 (Ftug), 2222 s, 25-nov",
+                                         "prioridad":  "baja",
+                                         "motivo":  "mismo titulo que Fox #1 (rlluMwJXbqg, casi todo historia y ya usado): comprobar si es un resubido antes de mirarlo"
+                                     },
+                                     {
+                                         "id":  "gta6nc-nuevos",
+                                         "url":  "https://www.youtube.com/channel/UCVvXmKa-gHRZhF6mT34zTpA",
+                                         "titulo":  "GTA 6 No Copyright Gameplay: _H1fvmLWrJU (scooter, 1404 s), Z15d4--Oaw0 (ron de Shirley y robo del scooter, 477 s), QQsfaZlVNOM (Ganado, 381 s), OeD5o14j6sw (playa, 479 s), qkRJG34mcdI (hidroavion al atardecer, 255 s)",
+                                         "prioridad":  "media",
+                                         "motivo":  "sin analizar; la playa puede tener bikinis en primer plano; el hidroavion y el scooter suenan tranquilos. No usar: IIyzbGzuLLA (sigilo, mision), MqAX3QMt4Fc (mision con decision final: spoilers), aLQBFUp3hfE (buceo, 2139 s), 6lUgOFAOjR8 (reformar la casa: tranquilo)"
+                                     },
+                                     {
+                                         "id":  "LFii73kZzOY",
+                                         "url":  "https://www.youtube.com/watch?v=LFii73kZzOY",
+                                         "titulo":  "Ftug, video restringido por edad",
+                                         "prioridad":  "no",
+                                         "motivo":  "YouTube lo restringe por edad (yt-dlp pide iniciar sesion): no usar"
                                      }
                                  ],
     "fuentes":  [
@@ -472,6 +481,41 @@
                         "titulo":  "GTA 6 NO COPYRIGHT GAMEPLAY - Free to Use 4k 60FPS Gameplay Footage (GTA 6 No Copyright Gameplay), 951 s, 20-nov",
                         "analizado":  "2026-11-24",
                         "resultado":  "vistazo cada 10 s; 2 clips: beach-gator (422.5-439) y boat-party-steal (600-617). No cortar: 9:55-9:57 (NPC con doble sentido sexual), 4:36-4:58 (discusion con una mujer, \u0027You just hit the wrong bitch!\u0027), 6:14-6:34 (gente tomando el sol en bikini), 7:19-7:24 (dispara al caiman). Sin usar: robo de una moto en una tienda (4:00-4:20), sube a un buque portacontenedores y entra en el puente (12:04-15:44, tranquilo), el barco robado con radio (10:42 en adelante). Usage Rules; licencia estandar de YouTube"
+                    },
+                    {
+                        "id":  "e6inqQmm4t8",
+                        "url":  "https://www.youtube.com/watch?v=e6inqQmm4t8",
+                        "titulo":  "GTA 6 No Copyright Gameplay 4K 60FPS | Search the impound for the Phoenix (Unwanted Attention) (GTA 6 No Copyright Gameplay), 917 s, 25-nov",
+                        "analizado":  "2026-11-25",
+                        "resultado":  "2 clips (mision de la historia, solo tramos jugables sin cinematicas): phoenix-offroad (488-513) y respray-escape (633-653.5). Vistazo cada 10 s e inspeccion a 0.75-1.5 s. Sin usar: salida del deposito con el Phoenix (7:57-8:03; repite la idea de impound-breakout), sigilo en el deposito con policias (6:14-7:46), trompos en la glorieta (9:00-9:09), derrape bajo el paso elevado (9:52-9:58). No cortar: 10:17-10:19 (peaton: Boy! The fuck is wrong with you?), cinematica en el coche (5:24-5:54), llamada de Brian (8:40-9:30), objetivo Deliver the Phoenix to Brian\u0027s garage (10:55 en adelante). Whisper marco [MUSIC PLAYING] a ratos en 8:02-8:22. Usage Rules (nueva redaccion) y licencia CC BY"
+                    },
+                    {
+                        "id":  "4IVyqMT4_30",
+                        "url":  "https://www.youtube.com/watch?v=4IVyqMT4_30",
+                        "titulo":  "GTA 6 NO COPYRIGHT GAMEPLAY - Free Roam 4k 60 FPS Open World Gameplay (GTA 6 No Copyright Gameplay), 246 s, 20-nov",
+                        "analizado":  "2026-11-25",
+                        "resultado":  "1 clip: lane-closure-crash (88-110). Vistazo cada 5 s e inspeccion a 0.5-2 s. Sin usar: mas choques (2:05-2:20, despues de abrir la rueda de radios en 1:52-1:56: posible musica de radio), robo de una camioneta sacando al conductor (2:40-2:56), choque en un cruce y huida a pie (3:26-3:50, rueda de armas en 3:36). Frases de NPC con hell y crap en 1:50-2:20. Usage Rules y licencia CC BY"
+                    },
+                    {
+                        "id":  "7Ebie2L-UGg",
+                        "url":  "https://www.youtube.com/watch?v=7Ebie2L-UGg",
+                        "titulo":  "GTA 6 Free to Use Gameplay - GTA 6 NO COPYRIGHT GAMEPLAY 60FPS (GTA 6 No Copyright Gameplay), 381 s, 19-nov",
+                        "analizado":  "2026-11-25",
+                        "resultado":  "1 clip: roof-ball (130-150). Vistazo cada 10 s e inspeccion a 0.75 s. Lo demas es tranquilo (baloncesto en casa, conducir hasta una tienda, esperar de pie 5:15-6:20). Aviso del juego en 0:22-0:29: You can\u0027t equip a weapon while in your neighborhood. Usage Rules y licencia CC BY; Free to Use en el titulo"
+                    },
+                    {
+                        "id":  "7LM5LDERH3I",
+                        "url":  "https://www.youtube.com/watch?v=7LM5LDERH3I",
+                        "titulo":  "Gta 6 Cluckin Bell Manager (Ftug), 246 s, 20-nov",
+                        "analizado":  "2026-11-25",
+                        "resultado":  "sin clips: de noche y muy oscuro; pelea con bates en un almacen para rescatar al encargado (parece una mision secundaria) y groserias (Fucking assholes, 2:07-2:12). Ftug, CC BY"
+                    },
+                    {
+                        "id":  "aD6UZzrgFvM",
+                        "url":  "https://www.youtube.com/watch?v=aD6UZzrgFvM",
+                        "titulo":  "Gta 6 Picking Lucia Up From Work (Ftug), 352 s, 25-nov",
+                        "analizado":  "2026-11-25",
+                        "resultado":  "sin clips: vida diaria tranquila (comprar en un restaurante, conducir, recoger a Lucia y charla en el coche). Ftug, CC BY"
                     }
                 ],
     "momentos":  [
@@ -1785,6 +1829,60 @@
                          "clip":  null,
                          "variante_de":  null,
                          "motivo":  "robo de moto y discusion con una mujer (\u0027You just hit the wrong bitch!\u0027)"
+                     },
+                     {
+                         "fuente":  "e6inqQmm4t8",
+                         "inicio":  633,
+                         "fin":  653.5,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-25-gta6-respray-escape",
+                         "variante_de":  null,
+                         "motivo":  "gta-chases, indice 29 texto+negro; narrado 18.2 s"
+                     },
+                     {
+                         "fuente":  "e6inqQmm4t8",
+                         "inicio":  488,
+                         "fin":  513,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-25-gta6-phoenix-offroad",
+                         "variante_de":  null,
+                         "motivo":  "gta-chases, indice 30 voz+atardecer, Getaway Files #16; narrado 20 s"
+                     },
+                     {
+                         "fuente":  "4IVyqMT4_30",
+                         "inicio":  88,
+                         "fin":  110,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-25-gta6-lane-closure-crash",
+                         "variante_de":  null,
+                         "motivo":  "gta-us, indice 34 voz+vice, Leonida Fails #11; narrado 20.2 s (primer corte 91-110 no cabia la voz)"
+                     },
+                     {
+                         "fuente":  "7Ebie2L-UGg",
+                         "inicio":  130,
+                         "fin":  150,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-25-gta6-roof-ball",
+                         "variante_de":  null,
+                         "motivo":  "gta-us, indice 35 texto+negro; narrado 17.4 s"
+                     },
+                     {
+                         "fuente":  "e6inqQmm4t8",
+                         "inicio":  477,
+                         "fin":  483,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "salida del deposito de la policia con el Phoenix: repite la idea de 2026-11-21-gta6-impound-breakout"
+                     },
+                     {
+                         "fuente":  "4IVyqMT4_30",
+                         "inicio":  125,
+                         "fin":  140,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "variante_de":  null,
+                         "motivo":  "mas choques tras abrir la rueda de radios (1:52-1:56): posible musica de radio y frases de NPC con hell y crap"
                      }
                  ],
     "clips_ciclo4":  [
@@ -1849,5 +1947,12 @@
                          "2026-11-24-gta6-field-escape",
                          "2026-11-24-gta6-sheriff-ram"
                      ],
-    "_ciclo7":  "2026-11-24 (turno de la noche, termino el 25 de madrugada): 8 clips narrados en 1440x2560 a 60 fps con logo, 4 para gta-chases (indices 25-28) y 4 para gta-us (indices 30-33), todos autorizado. semi-swap cortado y retenido (propuesto) por un insulto con referencia sexual. 9 fuentes nuevas (FAYq-wgPO4g, ehUAju_x8CQ, FC1kePoPBfQ, _emqW5kdqJo, uipqdblfaPg, qbLqWFblSM0, pk0WwzX6Ngk, 4ukSTa32HFI, TNGvT17c8Qg), 4 con clips; ademas se retomo un momento propuesto de HQNTysKwzpk (sheriff-ram). Descubrimiento: Ftug recorta partidas de Fox (ehUAju_x8CQ = Fox #6) y repite material (4ukSTa32HFI = campamento de konZi0msk6A)."
+    "_ciclo7":  "2026-11-24 (turno de la noche, termino el 25 de madrugada): 8 clips narrados en 1440x2560 a 60 fps con logo, 4 para gta-chases (indices 25-28) y 4 para gta-us (indices 30-33), todos autorizado. semi-swap cortado y retenido (propuesto) por un insulto con referencia sexual. 9 fuentes nuevas (FAYq-wgPO4g, ehUAju_x8CQ, FC1kePoPBfQ, _emqW5kdqJo, uipqdblfaPg, qbLqWFblSM0, pk0WwzX6Ngk, 4ukSTa32HFI, TNGvT17c8Qg), 4 con clips; ademas se retomo un momento propuesto de HQNTysKwzpk (sheriff-ram). Descubrimiento: Ftug recorta partidas de Fox (ehUAju_x8CQ = Fox #6) y repite material (4ukSTa32HFI = campamento de konZi0msk6A).",
+    "clips_ciclo8":  [
+                         "2026-11-25-gta6-respray-escape",
+                         "2026-11-25-gta6-phoenix-offroad",
+                         "2026-11-25-gta6-lane-closure-crash",
+                         "2026-11-25-gta6-roof-ball"
+                     ],
+    "_ciclo8":  "2026-11-25 (turno de la noche): pedido de solo 4 clips (2 gta-chases, 2 gta-us) porque desde hoy se publican 3 por canal y dia; cubren el hueco de gta-chases del 28-nov a las 22:00 y el comienzo del 29-nov. 4 narrados en 1440x2560 a 60 fps con logo, todos autorizado. 5 fuentes nuevas (tope del usuario): 7Ebie2L-UGg, 4IVyqMT4_30, 7LM5LDERH3I, aD6UZzrgFvM, e6inqQmm4t8; 3 con clips. No se uso ninguna fuente ya usada (pedido del usuario). La inspeccion fina se hizo con una copia a 480p/720p en el scratchpad de la sesion (yt-dlp + ffmpeg) y whisper local para buscar musica y groserias."
 }

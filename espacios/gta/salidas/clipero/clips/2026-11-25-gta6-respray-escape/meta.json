@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-25-gta6-respray-escape",
+    "url_fuente":  "https://www.youtube.com/watch?v=e6inqQmm4t8",
+    "video_id":  "e6inqQmm4t8",
+    "inicio":  633,
+    "fin":  653.5,
+    "inicio_hms":  "0:10:33",
+    "duracion_seg":  20.5,
+    "gancho":  "POV: the cops want a red Phoenix",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "negro",
+    "resolucion":  "1440x2560",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -26.07,
+                  "entrada_tp":  -13.56,
+                  "salida_lufs":  -14.04,
+                  "salida_tp":  -1.49
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-25-gta6-respray-escape/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-25-gta6-respray-escape/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-25-gta6-respray-escape/revision.jpg",
+    "creado":  "2026-11-25T23:11:03.8115801-05:00"
+}
