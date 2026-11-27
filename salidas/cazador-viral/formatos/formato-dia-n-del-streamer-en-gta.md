@@ -1,6 +1,17 @@
 # Día N del streamer en GTA VI
 
-> **Estado (26-nov, 15:30, ciclo 23): nuevo, vigente hasta el 30-nov, con puntaje 75 (base: `formato-mejores-momentos-gta-por-dia`).** La ventana se cierra cuando los grandes terminen el modo historia: algunos ya ven el final (Late, NICKMERCS).
+> **Estado (26-nov, 21:30, ciclo 24): baja a 63 y la ventana se acorta al 28-nov. En español pasa a pico; solo vale como arbitraje hacia Westcol y La Ganga, donde está en semilla.** Lo nuevo:
+> - **El Clipero no sacó ningún clip de las fuentes de GTA VI del ciclo 23** (informe 2026-11-26_1538): el día 8 de DjMaRiiO es diálogo del juego en inglés y cinemáticas, con spoilers, y sin picos de repetición no se puede leer; 'EL GOLPE MÁS DIFICIL…' de The Chanty, groserías, amenazas y comentarios sexuales. Para esta ficha valen los directos donde el streamer habla más de lo que juega.
+> - **Las copias del 'Día N' de las últimas 36 h no rinden** (de 1 a 35/h; solo [Paconi Ediciones](https://www.youtube.com/watch?v=ef96T8thMP8), 1.649/h) y El Baúl de Juan no siguió con el día 7.
+> - **Los grandes llegan al final y el final no dispara:** el [día 9 de DjMaRiiO](https://www.youtube.com/watch?v=ILUB3-uYx4M) ('¿LLEGAMOS AL FINAL?', 107.776/h) va a 0,73 veces su día 8 a la misma altura; The Chanty lo termina en Kick a 0,77 veces su mediana de VOD.
+> - **En Colombia hay hueco, pero pequeño:** un canal de recortes de Westcol sube sus GTA VI a 1,19-1,44 veces su mediana y nadie hace la serie numerada; la serie propia de Leandro ('GTA VI Cap #8') va en su línea (1,09 veces).
+> - **La aplicación que queda es el directo de hoy de Westcol** ('10 HORITAS EN EL SETEO RESCATANDO GTA VI', 79.863 espectadores a las 20:57, #2 de Kick). El juego va más o menos de 16:20 a 18:00 (clips de Kick). Si un fan dice que "termina el GTA 6", el título del clip es "El último día de Westcol en GTA VI", sin revelar el final.
+> - **Cuidados nuevos:**
+>   - Nada del club ni de desnudos: según Notebookcheck y TalkEsport, YouTube retiró directos de GTA VI por eso.
+>   - Comprobar que la fuente se lee: dos GTA VI de DjMaRiiO piden iniciar sesión por edad.
+>   - Nada del chiste de Westcol sobre el asalto en el Éxito de Cartagena ("fue culpa del GTA 6").
+>
+> **Estado anterior (26-nov, 15:30, ciclo 23): nuevo, vigente hasta el 30-nov, con puntaje 75 (base: `formato-mejores-momentos-gta-por-dia`).** La ventana se cierra cuando los grandes terminen el modo historia: algunos ya ven el final (Late, NICKMERCS).
 
 - **Fórmula:** serie diaria numerada ("DÍA 7") de `formato-mejores-momentos-gta-por-dia` + la cara del streamer reaccionando en el segundo 0 (gancho de `formato-el-dia-despues-del-protagonista`) + como opción, 1 s de "pantalla de carga" con el streamer dibujado al estilo GTA VI (`formato-pantalla-de-carga-gta-vi`).
 - **Patrones base:**

@@ -1,6 +1,16 @@
 # ¿Cuánto te deja? La cifra del negocio, dicha por el dueño
 
-> **Estado (25-nov, 00:30, ciclo 22): pasa a apuesta, con puntaje 65 (69 en el ciclo 21); sigue bajo el umbral de hibridación (70).** Lo nuevo:
+> **Estado (26-nov, 21:30, ciclo 24): vuelve a oportunidad, con puntaje 70 (65 en los ciclos 22 y 23), y llega al umbral de hibridación. Vigente hasta el 03-dic.** Lo nuevo:
+> - **Por fin una cifra dicha y explicada en cámara que rinde en Colombia.** En su directo de hoy, Westcol cuenta la multa de 54 millones por los daños de la mansión de Guatapé y explica de dónde sale: los colchones mojados, las puertas de arriba dañadas, "el dueño tiene razón" y "si la casa no se arregla, se pierden rentas".
+>   - ['Me MULTARON con $54 MILLONES por la MANSIÓN en GUATAPÉ | WESTCOL'](https://www.youtube.com/watch?v=al1S2G8wdzk) (Aida Victoria Stream, 17,6 K): 59.444 vistas a las 6,8 h (8.742/h), 0,89 veces la mediana de vistas totales de sus 14 videos anteriores. El 08-nov, su directo de los barrios con Samulx iba a 286/h. Es una re-subida: señal, no fuente.
+>   - Con el outfit de Jorge Andrés (2,09 veces), son dos señales independientes de que la cifra en el título y en cámara rinde con los perfiles.
+> - **Variante nueva, "la cuenta del día después":** el costo de un evento contado por el protagonista (la multa, la cena, los daños), con la cifra en el segundo 0 y "¿Quién crees que pagó?". Une esta ficha con [formato-lo-que-no-se-vio](formato-lo-que-no-se-vio.md).
+>   - Guion: 0-2 s, "$54.000.000" en pantalla con la cara de Westcol; 2-30 s, qué se dañó y por qué el dueño tiene razón; final, "si la casa no se arregla, se pierden rentas" y "¿Quién crees que pagó?".
+>   - Fuente: el VOD de Kick de hoy ('10 HORITAS EN EL SETEO RESCATANDO GTA VI', hacia las 14:00) cuando termine el directo. Sin groserías en el texto en pantalla; fuera la religión y el chiste del Éxito, que vienen justo después.
+> - **El lujo dentro del juego también vende:** en GTA VI, los creadores de habla hispana titulan con la compra cara ('MI PRIMERA VEZ CON EL COCHE MAS RÁPIDO… *BUGATTI*', DaniRep, 25.692/h; 'COMPRANDO MI PRIMER SUPER COCHE', TheDonato, 13.820/h). Sin medianas: señal relacionada.
+> - **Sigue pendiente:** '¿Cuánto gana Westcol en su mejor mes?' (en borradores de TikTok desde el 23-nov). Publicarlo y medirlo a las 24 h confirmaría el corto.
+>
+> **Estado anterior (25-nov, 00:30, ciclo 22): pasa a apuesta, con puntaje 65 (69 en el ciclo 21); sigue bajo el umbral de hibridación (70).** Lo nuevo:
 > - **El 24-nov no hubo corto medido.** '¿Cuánto gana Westcol en su mejor mes?' (2026-11-22-westcol-mejor-mes) sigue en borradores de TikTok desde el 23-nov 19:46. Como se fijó, la ficha sale de las oportunidades. Queda como apuesta hasta el 28-nov: si para entonces no hay un corto con la cifra medido a las 24 h, sale también de apuestas.
 > - **Material nuevo para la variante de empresarios, sin audiencia todavía.** Santiago Ospina sube dos reuniones reales de su constructora con su padre:
 >   - ['Le dije a mi papá que su tiempo pasó'](https://www.youtube.com/watch?v=U7SI-4IYrZM) (7:35; 6 vistas): "2 millones de pesos por metro cuadrado… ese mismo millón en China me puedo traer el doble" (1:30-2:40).

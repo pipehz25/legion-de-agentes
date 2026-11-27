@@ -1,92 +1,66 @@
 {
-  "generado": "2026-11-26T15:35:00-05:00",
-  "ciclo": 14,
+  "generado": "2026-11-27T00:10:00-05:00",
+  "ciclo": 15,
   "linea": "risas",
-  "enfoque": "Comedia y stand-up, humoristas y creadores de humor, y momentos graciosos reales de la política colombiana (legion/04-cazador-risas/config.json y enfoque.md). Excluidos: reality y concursos de TV, chisme de TV, casos judiciales, humor sobre tragedias, víctimas, violencia o enfermedades, humor que ataque a alguien por lo que es, vida privada, propaganda, periodo electoral y montajes. Los especiales de plataformas de pago no son fuentes. Enfoque del orquestador en este ciclo: lo viral del lanzamiento de GTA VI (19-nov), con humoristas y creadores de humor jugándolo o comentándolo, primero los perfiles que lo juegan en directo y lo de más vistas por hora; nada de tráileres ni de videos oficiales de Rockstar sin nadie encima.",
+  "enfoque": "Comedia y stand-up, humoristas y creadores de humor, y momentos graciosos reales de la política colombiana (legion/04-cazador-risas/config.json y enfoque.md). Excluidos: reality y concursos de TV, chisme de TV, casos judiciales, humor sobre tragedias, víctimas, violencia o enfermedades, humor que ataque a alguien por lo que es, vida privada, propaganda, periodo electoral y montajes. Los especiales de plataformas de pago no son fuentes. Enfoque del orquestador en este ciclo (el mismo del 14): lo viral del lanzamiento de GTA VI (19-nov), con humoristas y creadores de humor jugándolo o comentándolo, primero los perfiles que lo juegan en directo y lo de más vistas por hora; nada de tráileres ni de videos oficiales de Rockstar sin nadie encima.",
   "notas": [
-    "Ciclo 14, jueves 26-nov, de 15:09 a 15:35, 21 h después del ciclo 13. Ventana de 72 h: entra lo publicado desde el 2026-11-23T15:30-05:00. Todo se midió de nuevo a las 15:28:57 (campo medido_a).",
-    "GTA VI EN LA LÍNEA DE RISAS: ningún perfil de la lista juega GTA VI, ni en directo ni en video. Lo que hay de los perfiles son tres programas de humor que lo comentan: Paren la Mano del 25/11 (12.115/h; el tramo de GTA va de 0:16:00 a 0:21:00), La Revuelta del 24.11 (1.402/h) y La Luciérnaga del 25-nov (1.385/h; un sketch de la abuela que ve a su nieto jugar). Fuera de los perfiles, lo que más rinde son creadores de humor jugándolo: Rubius (78.233/h y 50.791/h) y El Mariana (18.146/h). Van como fuentes sin perfil (perfil null): no se añaden como similares, porque no coinciden con los perfiles de la línea y miden fama, no sobre-rendimiento.",
-    "SIN CRUCE CON EL CAZADOR URBANO: los directos y videos de GTA VI de Westcol, IlloJuan, DjMaRiiO, The Chanty, Vegetta y Auron están en salidas/cazador-viral/oportunidades.json y no se repiten aquí. Rubius, El Mariana y JuegaGerman no están en su lista (su búsqueda 'Rubius GTA 6' -Hoy no trajo nada).",
-    "EN LOS GAMEPLAYS DE GTA VI (Rubius y El Mariana): cortar solo tramos con su voz encima comentando; si el video lleva su cámara, mejor. Fuera las cinemáticas, el juego sin comentario (material de Rockstar sin nadie), la radio del juego (canciones con derechos) y los tramos donde el chiste es la violencia del juego (atropellos, golpes a peatones, el perro policía). Cuidado con los spoilers de la historia en el gancho.",
-    "LA POLÉMICA DE GTA VI EN COLOMBIA: La Luciérnaga del 25-nov comenta el video de la presentadora Daniela Pinedo sobre los padres que dejan jugar GTA VI a sus hijos (2:43:00-2:46:30). Es un debate, no un chiste: no se corta. La 'propuesta del petrismo de prohibir GTA 6' (canal TAROT FELINO, 20-nov) no la respalda ninguna noticia: no se trae. No hay ninguna otra polémica de GTA VI en la línea de humor en la ventana.",
-    "CALIDAD ANTES QUE CANTIDAD: un tramo principal por fuente y los demás de reserva. Si el Clipero solo puede hacer dos, que sean el oso de GTA VI en Paren la Mano (0:19:55-0:20:30) y el motel de Óscar Burgos en La Cotorrisa 401 (0:21:14-0:22:58). Si hace un tercero, la carta de 6.000 de Rubius (0:25:35-0:26:32).",
-    "YA CORTADO (Clipero, ciclo 24): guzman-birria (Al Volante), culpa-contrasena (Los De La Culpa) y anecdotario-voz-clonada (Anecdotario 379). Esos tramos no se proponen otra vez; las dos primeras fuentes siguen en la lista solo por sus tramos de reserva, con prioridad baja.",
-    "POLÍTICA: ningún momento propuesto, por sexto ciclo seguido. Se leyeron el choque entre Catherine Juvinao y Alfredo Mondragón en la Cámara (Blu Radio, 25-nov: un cruce de insultos, 'usted es burro o se las da', que acabó con Mondragón expulsado de la sesión), el Voz Populi del 24-nov ('Caredamón...': apodos al físico de los panelistas y bromas de 'objetivos' militares) y su 'Santos' sobre los 10 años del Acuerdo de Paz (guerrilleros y extorsiones). Nada cumple enfoque.md: ver el informe.",
+    "Ciclo 15, jueves 26-nov de 23:32 a viernes 27-nov 00:10, 8,5 h después del ciclo 14. Ventana de 72 h: entra lo publicado desde el 2026-11-24T00:00-05:00. Las fuentes nuevas se midieron a las 23:36:21 y las del ciclo 14, de nuevo, a las 23:56:33 (campo medido_a).",
+    "GTA VI EN LA LÍNEA DE RISAS: sigue sin haber ningún perfil de la lista que lo juegue, ni en directo ni en video, y ninguno emite en Kick. Lo que más rinde sigue siendo elRubius: 'Conseguí el Rango PSICOPATA en GTA 6' sube a 112.955/h (1.292.206 vistas a las 11,4 h). Ningún programa de la lista volvió a hablar de GTA VI el 26-nov: ni Paren la Mano (solo lo nombra en la presentación: 'el hombre del GTA 6'), ni Desde El Respeto, ni La Luciérnaga. El único humor nuevo con GTA VI es el Notidani de Daniel Samper ('¡ABELARDO SE METIÓ EN GTA VI!'), que es sátira con postura y queda fuera (ver POLÍTICA).",
+    "SI EL CLIPERO SOLO PUEDE HACER DOS DE RISAS: (1) el gimnasio de la playa de Rubius (8SWiS7zfB24, 0:10:20-0:11:45), lo de más vistas por hora de la línea y de GTA VI; (2) la carta de 6.000 de Rubius (q6BtP60NfIw, 0:25:35-0:26:32), que sale de la ventana HOY 27-nov a las 16:31. Si hace un tercero: el padre acompañante de Paren la Mano del 26/11 (kdmn16vYazg, 0:30:00-0:31:25; 45.453/h, no es de GTA VI). El Mariana (0:09:25-0:10:50) sale de la ventana hoy a las 17:50.",
+    "SIN CRUCE CON EL CAZADOR URBANO: los directos y videos de GTA VI de Westcol, IlloJuan, DjMaRiiO, The Chanty, Vegetta, Ibai, Samulx, Leandro La Sapa, DaniRep y TheDonato están en salidas/cazador-viral/oportunidades.json (ciclo 24) y no se repiten aquí. La frase de Westcol en el Congreso ('lo que pasó en el Éxito es por estar viendo GTA') es suya y además va de la toma de rehenes de Cartagena: no entra en risas.",
+    "EN LOS GAMEPLAYS DE GTA VI (Rubius y El Mariana): cortar solo tramos con su voz encima comentando; si el video lleva su cámara, mejor. Fuera las cinemáticas, el juego sin comentario, la radio del juego (canciones con derechos) y los tramos cuyo chiste es la violencia del juego. Cuidado con los spoilers en el gancho.",
+    "YA CORTADO (Clipero, ciclo 25): 2026-11-26-cotorrisa-motel-perra y 2026-11-26-cotorrisa-orangutan-palomitas (La Cotorrisa 401) y 2026-11-26-parenlamano-oso-gta (Paren la Mano 25/11). Esos tramos no se proponen otra vez; las dos fuentes siguen solo por sus tramos de reserva, con prioridad baja. Antes, en el ciclo 24: guzman-birria (Al Volante).",
+    "POLÍTICA: ningún momento propuesto, por séptimo ciclo seguido. Se leyeron el Notidani de Daniel Samper del 26-nov (el 'GTA Rambelardo', una sátira del presidente con pistola e insultos a Petro, más casos judiciales y la toma de rehenes) y el arranque de La Luciérnaga del 26-nov (el 'Petro' imitado va a lo sexual; Juvinao 'pide perdón a los burros' y vuelve a insultar a Mondragón). Nada cumple enfoque.md: ver el informe.",
     "Derechos: ninguna fuente está en fuentes_autorizadas. Todos los clips van sin_verificar y con crédito al canal y al programa (enfoque.md, Derechos). Los gameplays llevan además imágenes de Rockstar Games: crédito también al juego.",
-    "Sin oportunidades ni apuestas: ningún patrón llega a 60 puntos. Se abren dos patrones de vigilancia por GTA VI (tema-gta-vi-en-el-humor, 42, y formato-gta-vi-version-pais, 46), los dos en pico."
+    "Sin oportunidades ni apuestas: ningún patrón llega a 60 puntos. tema-gta-vi-en-el-humor baja a 38 (los programas de humor dejaron de comentarlo el 26-nov)."
   ],
   "oportunidades": [],
   "apuestas": [],
   "fuentes_para_clips": [
     {
-      "url": "https://www.youtube.com/watch?v=aryvOXUsWBI",
-      "titulo": "SE VIENE LA MARCA DE LUCAS Y LA MESITA DE GERMÁN | #ParenLaMano Completo - 25/11 | VORTERIX",
+      "url": "https://www.youtube.com/watch?v=kdmn16vYazg",
+      "titulo": "ROBER SE VA A BARILOCHE Y MARIO SE VA DE LA TELE? | #ParenLaMano Completo - 26/11 | VORTERIX",
       "canal": "Vorterix",
-      "publicado": "2026-11-25T19:29:38-05:00",
-      "horas_desde": 19.99, "vistas": 242188, "vistas_por_hora": 12115, "duracion_seg": 6348,
-      "medido_a": "2026-11-26T15:28:57-05:00",
+      "publicado": "2026-11-26T19:23:42-05:00",
+      "horas_desde": 4.21, "vistas": 191356, "vistas_por_hora": 45453, "duracion_seg": 6389,
+      "medido_a": "2026-11-26T23:36:21-05:00",
       "perfil": "Paren la Mano (Vorterix)",
       "aparece": true,
       "linea": "risas",
       "prioridad": "alta",
-      "gta_vi": true,
-      "sale_de_ventana": "2026-11-28T19:29:38-05:00",
-      "derechos": "sin_verificar",
-      "credito": "Paren la Mano, Vorterix",
-      "clips_ya_hechos": 0,
-      "tramos": [
-        { "tramo": "0:19:55-0:20:30", "que": "Principal, GTA VI. 'El otro día me metí en un bosque con una moto... un hombre me dice: Me está por matar el oso, me quiere comer, sálvame... Y él dijo que después me iba a transferir plata. Todavía no llegó. Pasaron dos días y todavía no me llegó. Además, no me pidió los datos' (0:20:20). Ojo: al describir al personaje dice 'de rasgos orientales... un chinito' (0:20:05). Si se oye en el clip, entrar justo después, en 'Me está por matar el oso', y poner la situación en el gancho" },
-        { "tramo": "0:17:20-0:18:45", "que": "De reserva, GTA VI. Comprarle ropa a Lucía 'es por momentos incómodo... Lucía tiene que comprarse tops y shorts' — '¿La pusiste discretita o no?' — 'Y evidentemente no' (0:18:32)" },
-        { "tramo": "0:16:00-0:16:40", "que": "De reserva, GTA VI. 'Estuve jugando GTA. Ya vengo mejor... me escapo bien de la policía' — 'cuanto más la pudras, peor se te pone'" }
-      ],
-      "por_que": "El único perfil de la línea que habla de GTA VI con un remate propio. 242.188 vistas a las 20 h (12.115/h), en la parte alta de los programas de la semana pasada (5.536-9.523/h a edades parecidas; el del Pollo Vignolo iba a 14.721/h). Se leyó el arranque (fútbol) y el tramo de GTA VI (0:16:00-0:21:00), no el programa entero. Fuera: lo de Boca y la final (0:13:00-0:16:00, fútbol argentino) y el 'te pones muy agresivo... matar gente' (0:20:45-0:21:20).",
-      "oportunidad": null
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=hI4MD3IoPDQ",
-      "titulo": "Episodio 401 - Fui al motel y duré 3 minutos FT. Oscar Burgos",
-      "canal": "Slobotzky",
-      "publicado": "2026-11-25T21:01:31-05:00",
-      "horas_desde": 18.46, "vistas": 518852, "vistas_por_hora": 28107, "duracion_seg": 6996,
-      "medido_a": "2026-11-26T15:28:57-05:00",
-      "perfil": "La Cotorrisa (Ricardo Pérez y Slobotzky)",
-      "aparece": true,
-      "linea": "risas",
-      "prioridad": "alta",
       "gta_vi": false,
-      "sale_de_ventana": "2026-11-28T21:01:31-05:00",
+      "sale_de_ventana": "2026-11-29T19:23:42-05:00",
       "derechos": "sin_verificar",
-      "credito": "La Cotorrisa, canal de Slobotzky; invitado Óscar Burgos",
+      "credito": "Paren la Mano, Vorterix (Mario Pergolini, Roberto Galati, Alfredo Montes de Oca, Joaco Cavanna y Lucas Rodríguez)",
       "clips_ya_hechos": 0,
       "tramos": [
-        { "tramo": "0:21:14-0:22:58", "que": "Principal, el momento del título. Óscar Burgos: 'Un día fuimos a una boda a carretera nacional... le digo, oye, aquí hay un motelito'. La chica de la lamparita: 'Óscar Burgos, ay, y vienes con tu esposa, qué padre', y le pide una foto. Su esposa entra al baño a ponerse cómoda y le llega un mensaje: 'Óscar, soy tu vecino, dejaste a tu perra en el patio, estamos 6 grados bajo cero... se te va a morir' (es su perra, el animal). Se van corriendo y la chica de la foto: 'uh, tres minutos' (0:22:50). Si queda largo, entrar en 'Y entonces llegamos al motel' (0:21:28)" },
-        { "tramo": "1:45:25-1:46:40", "que": "De reserva. El camello del circo: 'hacía un calor de 42 grados... oigan, ya está listo el camello... Esos viven en Arabia, en el desierto'. Eran dos hombres dentro de un traje de camello, 'media hora adentro de la carpa a 50 grados... Se murió una mitad del camello'. Entrar después de 'a huevos de árabe' (1:45:05), que queda fuera" },
-        { "tramo": "1:38:55-1:39:35", "que": "De reserva. El orangután le pide las palomitas al entrenador y él se las da enteras: 'si corro me alcanza, si me subo a un árbol me baja, me meto debajo de un carro me saca... Que se trague las pinches palomitas... Si quiere un coche le doy mis llaves'" }
+        { "tramo": "0:30:00-0:31:25", "que": "Principal, el momento del título. Robert cuenta que su hija lo llamó: 'Papi, ¿te puedo postular para padre acompañante del viaje [de egresados]?'. La mesa: 'Uy, Rob, es como que te pida una Ferrari'; 'se me vienen imágenes... Che, se está muriendo Pedrito'. Y él: 'escúchame, ¿hay alguna forma de... si pago dos viajes? Si le pago un poco más de un viaje de egresado a otro [padre]...' (0:31:20). Cortar antes de 'creen que le voy a conseguir cosas gratis... mucho profiláctico' (0:31:30). Entrar en 'Entonces me dice: Papi, ¿te puedo postular?' (0:30:00), después del chiste del patrocinador ('seco')" },
+        { "tramo": "0:25:30-0:26:25", "que": "De reserva. El accidente de moto de Robert (se rompió un dedo): baja el conductor de la camioneta, 'era un pibe... uno está con odio, quiere matar a alguien, y textual me dice: ¿Robert?'. 'Casi me matas, flaco'... 'No te vi'. Y remata: 'seguro está mirando para escuchar la anécdota, porque ya le dijo a todo el mundo: casi lo mato a Robert'. Lleva un insulto pitado; es un accidente leve contado en broma, sin heridos graves" }
       ],
-      "por_que": "Lo nuevo de un perfil que más rinde: 518.852 vistas a las 18,5 h (28.107/h), por encima de la 400 (15.146/h a las 62 h) y de la 399 (unas 20.500/h a las 45 h). Leído entero. El episodio es casi todo sexo, drogas y la pelea de box de Burgos contra Ernesto Chavana; solo pasan el filtro las historias del motel, del circo y de los animales. Fuera: el dron de Chavana en la cara de una mujer (0:00-0:04:30 y 1:12:45; una persona herida), el masaje y la masajista (0:13:20-0:14:00), Ojitos de Huevo y los chistes de ciegos (0:16:00-0:18:00), 'soy homosexual y me gusta el pene' (0:18:30-0:19:40), infidelidades, prostitutas y 'chichis' (0:23:30-0:34:00), las drogas y Hitler (0:51:00-1:09:00), la historia racista de la marihuana (1:00:30-1:04:30), 'la era de los negros en el box' (1:09:10), el boxeador muerto (1:11:00-1:11:30), Wendy Guevara (1:17:30), los enanos de Poncho de Nigris (1:18:00-1:19:00), 'los africanos están bien pinches loquitos' (1:33:15), el tigre que lo atacó (1:40:00-1:43:30) y 'huevos de árabe' (1:45:05).",
+      "por_que": "Lo nuevo de un perfil que más rinde: 191.356 vistas a las 4,2 h (45.453/h), casi cuatro veces el programa del 25/11 a una edad parecida (12.115/h a las 20 h) y muy por encima de los de la semana anterior (5.536-14.721/h). Leído de 0:00 a 1:28 por la transcripción. No hay GTA VI: solo lo nombran al presentar a Joaco ('el hombre del GTA 6'). Fuera: Michael Jackson, el vitiligo y el juicio (0:08:00-0:11:30), 'no le decimos judíos' (0:08:00), 'intendente después de la inundación' (0:07:30, una tragedia), Elon Musk 'drogado' (0:44:20), la canción de Mario 'Me duele todo' (0:53:30-0:57:40: música, otro tipo de derechos), el tutorial de TikTok para imitar a Mario (1:04:00, video ajeno), 'Robamos' (1:10:30, un programa de ladrones) y todo lo de Gran Hermano, Intrusos y Laura Ubfal (1:25:00 en adelante: reality y chisme de TV).",
       "oportunidad": null
     },
     {
-      "url": "https://www.youtube.com/watch?v=ulK-Dvra8fw",
-      "titulo": "Lalachus y Broncano comentan el GTA VI | #LaRevuelta 24.11.2026",
-      "canal": "La Revuelta",
-      "publicado": "2026-11-25T09:15:15-05:00",
-      "horas_desde": 30.23, "vistas": 42384, "vistas_por_hora": 1402, "duracion_seg": 692,
-      "medido_a": "2026-11-26T15:28:57-05:00",
-      "perfil": "David Broncano (La Revuelta)",
+      "url": "https://www.youtube.com/watch?v=XPWcvZRoKgI",
+      "titulo": "Sus traumas, sus chistes - Drunk Comedy (Cap. 9)",
+      "canal": "Juanpis González",
+      "publicado": "2026-11-26T20:00:09-05:00",
+      "horas_desde": 3.6, "vistas": 15524, "vistas_por_hora": 4312, "duracion_seg": 2458,
+      "medido_a": "2026-11-26T23:36:21-05:00",
+      "perfil": "Juanpis González (Alejandro Riaño), con Ricardo Quevedo e Iván Marín",
       "aparece": true,
       "linea": "risas",
       "prioridad": "media",
-      "gta_vi": true,
-      "sale_de_ventana": "2026-11-28T09:15:15-05:00",
+      "gta_vi": false,
+      "sale_de_ventana": "2026-11-29T20:00:09-05:00",
       "derechos": "sin_verificar",
-      "credito": "La Revuelta (RTVE), de David Broncano; colaboradora Lalachus",
+      "credito": "Drunk Comedy, canal de Juanpis González; con Iván Marín, Ricardo Quevedo, Alejandro Riaño y Antonio Sanint",
       "clips_ya_hechos": 0,
       "tramos": [
-        { "tramo": "0:07:05-0:07:56", "que": "Principal, GTA VI (igual que en el ciclo 13). Héctor: 'todos los GTA siempre han sido ilusiones que uno no podía tener: ser narcotraficante, tener discotecas... y en este juego tienes una casa'. Broncano: 'ahora en el GTA tienes las cosas que de verdad no podemos tener: una casa y una pareja estable' (0:07:52). Corta en 'Buen chiste, Héctor' (0:07:56)" },
-        { "tramo": "0:04:25-0:04:45", "que": "De reserva, corto. Lalachus: en el GTA 'hay que arreglar el tejado... y digo: joder, si llevo con una gotera dos años y medio en casa' (0:04:37)" }
+        { "tramo": "0:29:15-0:30:25", "que": "Principal. Antonio Sanint, su tusa más grande: 'en los 90... me fui a buscar destino a Los Ángeles... ahorrábamos para hablar por teléfono y en un momento nos prometimos amor eterno y yo le propuse matrimonio'. 'Le dije: en 6 meses vuelvo y nos casamos... Y como a los dos meses llamo a la casa y la mamá me dice: Ay, Antonio, es que ella salió a un concierto con unos amigos' (0:30:15). Una grosería pitada hacia 0:29:35" },
+        { "tramo": "0:36:25-0:37:45", "que": "De reserva. Iván Marín: 'Yo nunca me he separado y nunca me voy a separar' — 'Suena como una cárcel'. Y el cierre: 'a mis ojos, ustedes tres son más exitosos que yo, pero yo soy el único que no se ha separado' — 'Eso no te hace exitoso' (0:37:40). Si queda largo, saltar la parte de 'alcen la mano los que vinieron en pareja' (0:37:00)" }
       ],
-      "por_que": "Sigue sin clip y es el remate más limpio sobre GTA VI de la línea: se entiende en cualquier país. Rinde poco (42.384 vistas a las 30 h, 1.402/h; los fragmentos del programa suelen hacer 160.000-310.000 en dos días). Fuera: 'GTA es gays, transo...' y los servicios sexuales (0:06:00-0:06:30), Vox y la Junta Electoral (0:01:20-0:01:50) y las elecciones españolas del 29-N (0:09:30-0:11:00).",
+      "por_que": "Episodio nuevo del canal de Juanpis con dos perfiles en persona (Ricardo Quevedo e Iván Marín, presentados en 0:00:20) y Alejandro Riaño. 4.312/h a las 3,6 h; el cap. 8 iba a 2.683/h a las 39 h, pero a esta edad todavía no se puede hablar de sobre-rendimiento. Leído entero. Casi todo cae fuera: 'cacorro' y los chistes de gays y lesbianas (0:01:00-0:01:40, 0:16:00, 0:18:20-0:19:40 y 0:26:00), las diverticulitis y la colonoscopia (0:02:20-0:04:20, una enfermedad), el 'mini Alzheimer' (0:06:40), 'el enano no llegó' (0:10:20-0:11:00), los penes y la regla (0:12:30-0:13:20 y 0:31:00-0:33:40), la 'abuelita periquera' (0:16:50, drogas) y la tusa de Quevedo ('yo solo quería culiar', 0:26:20-0:28:10).",
       "oportunidad": null
     },
     {
@@ -94,8 +68,8 @@
       "titulo": "Mestizos Precisos T2 | Ep 17.- Bodas",
       "canal": "Franco Escamilla",
       "publicado": "2026-11-26T12:30:07-05:00",
-      "horas_desde": 2.98, "vistas": 22512, "vistas_por_hora": 7554, "duracion_seg": 3619,
-      "medido_a": "2026-11-26T15:28:57-05:00",
+      "horas_desde": 11.44, "vistas": 117848, "vistas_por_hora": 10301, "duracion_seg": 3619,
+      "medido_a": "2026-11-26T23:56:33-05:00",
       "perfil": "Franco Escamilla y Liss Pereira",
       "aparece": true,
       "linea": "risas",
@@ -106,12 +80,79 @@
       "credito": "Mestizos Precisos, canal de Franco Escamilla; mesa con Liss Pereira, Ricardo O'Farrill, José Rafael Guzmán, Juan Barraza y Alexa",
       "clips_ya_hechos": 0,
       "tramos": [
-        { "tramo": "0:05:30-0:06:15", "que": "Principal. Contra el ensayo de boda de los gringos: 'El ensayo de la... ¿qué vas a ensayar, hijo de tu madre? ¿Decir sí acepto?... yo he ido a ensayos donde ni siquiera ensayan. Eso es pura peda... la gente escoge un buen outfit, se sientan como estúpidos y hay que acostarnos temprano porque mañana es la boda'. Groserías pitadas o con subtítulo suavizado" },
-        { "tramo": "0:46:55-0:47:25", "que": "De reserva, corto. 'Siempre en las bodas hay alguien que quiere algo que no hay... el que menos plata metió en el sobre es el que más jode: el pollo estaba un poquito seco, ¿eh? O sea, tú comiste frijoles hoy' (0:47:20)" },
-        { "tramo": "0:52:00-0:52:50", "que": "De reserva. Franco, los tiempos de una boda en México: 'te traen una sopa de chile poblano adentro de un pan y luego tardan 20 minutos... al de al lado le traen el platillo que tú quieres... no cámbienlo entre ustedes porque están contados... y después tienes que esperar como 2 horas'. Corta antes de 'batallaron para levantarlo de la silla de ruedas' (0:52:58)" },
-        { "tramo": "0:58:05-0:58:45", "que": "De reserva, solo con cuidado. Liss Pereira: 'En Cúcuta, que es mi ciudad natal... metieron el ataúd con el muerto adentro para que viera el partido. Era superhincha... no dejan pasar un bafle al estadio, metieron un muerto en un ataúd y nadie dijo nada'. Corta antes de 'murió en un tiroteo el barra brava' (0:58:45)" }
+        { "tramo": "0:05:30-0:06:15", "que": "Principal (igual que en el ciclo 14). Contra el ensayo de boda de los gringos: '¿qué vas a ensayar, hijo de tu madre? ¿Decir sí acepto?... yo he ido a ensayos donde ni siquiera ensayan. Eso es pura peda... hay que acostarnos temprano porque mañana es la boda'. Groserías pitadas o con subtítulo suavizado" },
+        { "tramo": "0:46:55-0:47:25", "que": "De reserva, corto. 'El que menos plata metió en el sobre es el que más jode: el pollo estaba un poquito seco, ¿eh? O sea, tú comiste frijoles hoy' (0:47:20)" },
+        { "tramo": "0:52:00-0:52:50", "que": "De reserva. Franco, los tiempos de una boda en México: la sopa dentro de un pan, el platillo que le traen al de al lado, 'no cámbienlo entre ustedes porque están contados'. Corta antes de 'batallaron para levantarlo de la silla de ruedas' (0:52:58)" }
       ],
-      "por_que": "Episodio nuevo de Franco, subido hoy a las 12:30, leído entero: 22.512 vistas a las 3 h (7.554/h; demasiado pronto para hablar de sobre-rendimiento). Sale Liss Pereira en persona: la presentan como 'Pereira... de Cúcuta' (0:01:00) y ella dice 'en Cúcuta, que es mi ciudad natal' (0:58:05). El tema es las bodas, pero casi todo cae fuera: el brote psicótico y el internamiento de Ricardo O'Farrill (0:03:30-0:17:00), el tío bipolar que abofetea a la novia (0:18:00-0:23:30), la vecina con esquizofrenia (0:23:30-0:28:30), Maduro preso (0:01:20), 'si fuera racista' (0:08:00), el 'Chocorramo' (0:37:45), los chistes de judíos (0:38:00-0:41:00), la pelea de enanos (0:55:30-0:56:00), Jesús en Caná (0:45:30-0:46:50) y lo sexual (0:31:30-0:32:30, 0:45:00, 0:48:00-0:49:30 y 1:00:00).",
+      "por_que": "Sin clip todavía (el Clipero lo dejó en su lista de pendientes). Va a 10.301/h a las 11,4 h (117.848 vistas), en la media de Franco. Mismo filtro que en el ciclo 14 (el brote psicótico de O'Farrill, el tío que abofetea a la novia, la vecina con esquizofrenia, Maduro preso, los chistes de judíos, el 'Chocorramo', los enanos y lo sexual).",
+      "oportunidad": null
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ulK-Dvra8fw",
+      "titulo": "Lalachus y Broncano comentan el GTA VI | #LaRevuelta 24.11.2026",
+      "canal": "La Revuelta",
+      "publicado": "2026-11-25T09:15:15-05:00",
+      "horas_desde": 38.69, "vistas": 45591, "vistas_por_hora": 1178, "duracion_seg": 692,
+      "medido_a": "2026-11-26T23:56:33-05:00",
+      "perfil": "David Broncano (La Revuelta)",
+      "aparece": true,
+      "linea": "risas",
+      "prioridad": "media",
+      "gta_vi": true,
+      "sale_de_ventana": "2026-11-28T09:15:15-05:00",
+      "derechos": "sin_verificar",
+      "credito": "La Revuelta (RTVE), de David Broncano; colaboradora Lalachus",
+      "clips_ya_hechos": 0,
+      "tramos": [
+        { "tramo": "0:07:05-0:07:56", "que": "Principal, GTA VI. Héctor: 'todos los GTA siempre han sido ilusiones que uno no podía tener: ser narcotraficante, tener discotecas... y en este juego tienes una casa'. Broncano: 'ahora en el GTA tienes las cosas que de verdad no podemos tener: una casa y una pareja estable' (0:07:52). Corta en 'Buen chiste, Héctor' (0:07:56)" },
+        { "tramo": "0:04:25-0:04:45", "que": "De reserva, corto. Lalachus: en el GTA 'hay que arreglar el tejado... y digo: joder, si llevo con una gotera dos años y medio en casa' (0:04:37)" }
+      ],
+      "por_que": "El único perfil de la lista con un remate propio sobre GTA VI que sigue sin clip, y el más limpio: se entiende en cualquier país. Rinde poco (1.178/h). Fuera: 'GTA es gays, transo...' y los servicios sexuales (0:06:00-0:06:30), Vox y la Junta Electoral (0:01:20-0:01:50) y las elecciones españolas del 29-N (0:09:30-0:11:00).",
+      "oportunidad": null
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=hI4MD3IoPDQ",
+      "titulo": "Episodio 401 - Fui al motel y duré 3 minutos FT. Oscar Burgos",
+      "canal": "Slobotzky",
+      "publicado": "2026-11-25T21:01:31-05:00",
+      "horas_desde": 26.92, "vistas": 774262, "vistas_por_hora": 28762, "duracion_seg": 6996,
+      "medido_a": "2026-11-26T23:56:33-05:00",
+      "perfil": "La Cotorrisa (Ricardo Pérez y Slobotzky)",
+      "aparece": true,
+      "linea": "risas",
+      "prioridad": "baja",
+      "gta_vi": false,
+      "sale_de_ventana": "2026-11-28T21:01:31-05:00",
+      "derechos": "sin_verificar",
+      "credito": "La Cotorrisa, canal de Slobotzky; invitado Óscar Burgos",
+      "clips_ya_hechos": 2,
+      "tramos": [
+        { "tramo": "1:45:25-1:46:40", "que": "De reserva, el único que queda. El camello del circo: 'hacía un calor de 42 grados... Esos viven en Arabia, en el desierto'. Eran dos hombres dentro de un traje de camello, 'media hora adentro de la carpa a 50 grados... Se murió una mitad del camello'. Entrar después de 'a huevos de árabe' (1:45:05), que queda fuera" }
+      ],
+      "por_que": "Ya tiene dos clips (cotorrisa-motel-perra y cotorrisa-orangutan-palomitas). Sigue sobre-rindiendo: 774.262 vistas a las 27 h (28.762/h), por encima de la 400 y la 399. Solo para un tercer clip si sobra hueco. Mismo filtro que en el ciclo 14.",
+      "oportunidad": null
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=aryvOXUsWBI",
+      "titulo": "SE VIENE LA MARCA DE LUCAS Y LA MESITA DE GERMÁN | #ParenLaMano Completo - 25/11 | VORTERIX",
+      "canal": "Vorterix",
+      "publicado": "2026-11-25T19:29:38-05:00",
+      "horas_desde": 28.45, "vistas": 272499, "vistas_por_hora": 9578, "duracion_seg": 6348,
+      "medido_a": "2026-11-26T23:56:33-05:00",
+      "perfil": "Paren la Mano (Vorterix)",
+      "aparece": true,
+      "linea": "risas",
+      "prioridad": "baja",
+      "gta_vi": true,
+      "sale_de_ventana": "2026-11-28T19:29:38-05:00",
+      "derechos": "sin_verificar",
+      "credito": "Paren la Mano, Vorterix",
+      "clips_ya_hechos": 1,
+      "tramos": [
+        { "tramo": "0:16:00-0:16:40", "que": "De reserva, GTA VI. 'Estuve jugando GTA. Ya vengo mejor... me escapo bien de la policía' — 'cuanto más la pudras, peor se te pone'" },
+        { "tramo": "0:17:20-0:18:45", "que": "De reserva, GTA VI. Comprarle ropa a Lucía 'es por momentos incómodo... Lucía tiene que comprarse tops y shorts' — '¿La pusiste discretita o no?' — 'Y evidentemente no' (0:18:32)" }
+      ],
+      "por_que": "Ya tiene su clip de GTA VI (parenlamano-oso-gta, el oso y la transferencia). Quedan dos tramos cortos de GTA VI, más flojos. Solo si sobra hueco y se quiere un segundo clip del tema.",
       "oportunidad": null
     },
     {
@@ -119,8 +160,8 @@
       "titulo": "ALEJANDRA GUZMÁN & Escorpión Dorado #AlVolante la reina del rock pop mexicano la sigue rompiendo",
       "canal": "Escorpión Dorado",
       "publicado": "2026-11-24T21:25:22-05:00",
-      "horas_desde": 42.06, "vistas": 461395, "vistas_por_hora": 10970, "duracion_seg": 3295,
-      "medido_a": "2026-11-26T15:28:57-05:00",
+      "horas_desde": 50.52, "vistas": 550615, "vistas_por_hora": 10899, "duracion_seg": 3295,
+      "medido_a": "2026-11-26T23:56:33-05:00",
       "perfil": "Escorpión Dorado (Alex Montiel)",
       "aparece": true,
       "linea": "risas",
@@ -134,30 +175,29 @@
         { "tramo": "0:18:58-0:19:15", "que": "De reserva, corto. 'Una vez un chavito me pidió un autógrafo; le digo: a ver, dime cuál canto. Me dice: Bidi bidi bom bom' (que es de Selena). El gancho tiene que decir que esa canción no es suya" },
         { "tramo": "0:26:58-0:27:18", "que": "De reserva, corto. 'Lo que me gustaba era la noche de talentos. Educación artística, 10. Día de las madres, 10. Plastilina, 10. Pero no me pidas una suma, una resta'" }
       ],
-      "por_que": "Ya tiene su clip (2026-11-25-guzman-birria); el tramo de la birria no se propone otra vez. Sigue sobre-rindiendo (461.395 vistas a las 42 h; los Al Volante anteriores tenían 95.000 y 328.000 a la semana o más). Solo para un segundo clip si hay hueco. El filtro del ciclo 13 sigue igual (los enanos, lo sexual, la anorexia, el rehab, la cárcel del marido, la muerte de su mamá...).",
+      "por_que": "Ya tiene su clip (guzman-birria). Sigue sobre-rindiendo (550.615 vistas a las 50 h). Sale de la ventana hoy a las 21:25.",
       "oportunidad": null
     },
     {
-      "url": "https://www.youtube.com/watch?v=4i4O1pGkuPg",
-      "titulo": "LOS PREMIOS MÁS HU3VON3S | Los De La Culpa - Capítulo 269",
-      "canal": "Los De La Culpa",
-      "publicado": "2026-11-23T20:56:11-05:00",
-      "horas_desde": 66.55, "vistas": 200745, "vistas_por_hora": 3016, "duracion_seg": 3138,
-      "medido_a": "2026-11-26T15:28:57-05:00",
-      "perfil": "Ricardo Quevedo e Iván Marín (Los De La Culpa)",
+      "url": "https://www.youtube.com/watch?v=7-7o24YrgSw",
+      "titulo": "¿QUÉ PODRÍA SALIR MAL? (Con Maleja Restrepo) | PijamHada Real - Capítulo 10 | Liss Pereira",
+      "canal": "Liss Pereira",
+      "publicado": "2026-11-26T20:00:07-05:00",
+      "horas_desde": 3.6, "vistas": 1975, "vistas_por_hora": 549, "duracion_seg": 2566,
+      "medido_a": "2026-11-26T23:36:21-05:00",
+      "perfil": "Liss Pereira",
       "aparece": true,
       "linea": "risas",
       "prioridad": "baja",
       "gta_vi": false,
-      "sale_de_ventana": "2026-11-26T20:56:11-05:00",
+      "sale_de_ventana": "2026-11-29T20:00:07-05:00",
       "derechos": "sin_verificar",
-      "credito": "Los De La Culpa (Ricardo Quevedo, Iván Marín, Henry Delgado y el resto del elenco)",
-      "clips_ya_hechos": 1,
+      "credito": "PijamHada Real, canal de Liss Pereira; invitada Maleja Restrepo",
+      "clips_ya_hechos": 0,
       "tramos": [
-        { "tramo": "0:27:45-0:29:00", "que": "De reserva. Tato, el premio a las notas de voz más largas, que acaban en 'hoy quiero que sepan que vamos a comer pollo' (0:28:58)" },
-        { "tramo": "0:40:50-0:41:57", "que": "De reserva. La excusa de Henry para no contestar el chat: 'va por carretera... ahorita hablamos y pasan días' (0:41:56). Corta antes de 'es coyote y pasa mojados' (0:41:58)" }
+        { "tramo": "0:09:55-0:10:20", "que": "Principal, corto. Las cajas de suplementos que se esconden en el matrimonio: 'me llegan cajas... en el matrimonio es muy chistoso porque uno empieza a esconder esas cajas... si es la plata de uno, ¿por qué se siente uno mal?'. Entrar después del 'código' de la marca (0:09:45), que suena a publicidad" }
       ],
-      "por_que": "Ya tiene su clip (2026-11-25-culpa-contrasena). Sale de la ventana hoy a las 20:56: solo si el Clipero corre antes y le sobra hueco. Mismo filtro que en el ciclo 13.",
+      "por_que": "El capítulo 10 que se esperaba desde hace dos semanas, con Liss en persona. Rinde poco (549/h en un canal de 68,8 K; el cap. 9 hizo 229.000 en dos semanas). Revisado por los picos de risas de la transcripción, no entero. Fuera: lo de 'tirar' y el 'carómetro' (0:07:20-0:08:10, sexual), 'o es TDAH o es ser mujer' (0:11:40, un trastorno) y el 'gay no, cacorro' (0:24:00).",
       "oportunidad": null
     },
     {
@@ -165,8 +205,8 @@
       "titulo": "Conseguí el Rango \"PSICOPATA\" en GTA 6",
       "canal": "Rubius Z",
       "publicado": "2026-11-26T12:29:55-05:00",
-      "horas_desde": 2.98, "vistas": 233134, "vistas_por_hora": 78233, "duracion_seg": 1964,
-      "medido_a": "2026-11-26T15:28:57-05:00",
+      "horas_desde": 11.44, "vistas": 1292206, "vistas_por_hora": 112955, "duracion_seg": 1964,
+      "medido_a": "2026-11-26T23:56:33-05:00",
       "perfil": null,
       "aparece": false,
       "linea": "risas",
@@ -179,9 +219,9 @@
       "tramos": [
         { "tramo": "0:10:20-0:11:45", "que": "Principal, GTA VI. El gimnasio de la playa: 'Un poco de press de banca, a lo mejor. Venga, 30 kg... había que soltarlo lentamente, se me ha olvidado... Tenemos la fuerza muy baja, ¿eh?... Dominadas. Uno, dos, tres... Pero esto no me sube nada' y el remate: 'Jason parece más mi guardia de seguridad que mi novio' (0:11:45). Sin violencia ni groserías fuertes" },
         { "tramo": "0:31:00-0:31:25", "que": "De reserva, corto. Le ataca un tigre: 'Pobre gatito, tío... No juego más con este juego, tío. Ya está. Lo desinstalo, lo desinstalo, lo desinstalo'. Entrar después de 'ábreme la puerta, subnormal' (0:30:50), que queda fuera" },
-        { "tramo": "0:04:20-0:05:00", "que": "De reserva. Reconoce en el juego el barrio de Miami donde se alojó en la vida real: 'aquí estaba yo con Mael. Me quedé en uno de estos hoteles... juraría que era este, ¿eh? Era este 100 % porque además desayunábamos aquí'. Cortar antes de lo del 'gordo' en la puerta si suena a burla" }
+        { "tramo": "0:04:20-0:05:00", "que": "De reserva. Reconoce en el juego el barrio de Miami donde se alojó en la vida real: 'aquí estaba yo con Mael. Me quedé en uno de estos hoteles... Era este 100 % porque además desayunábamos aquí'. Cortar antes de lo del 'gordo' en la puerta si suena a burla" }
       ],
-      "por_que": "Lo de más vistas por hora de GTA VI en la línea: 233.134 vistas a las 3 h (78.233/h). elRubius es un creador de humor y aquí comenta en directo su partida con Lucía (sale su voz durante todo el video; comprobar si lleva su cámara). En un canal de 15 M mide fama: sus GTA VI anteriores tienen 2,3-4,9 M. El título viene del rango que desbloquea después de golpear a bañistas: ese tramo (0:06:00-0:10:05) queda fuera. Fuera también: el perro policía (0:19:40-0:20:40), 'deja que tu madre te dé teta' (0:08:45), 'subnormal' (0:30:50) y lo de Mandy (0:28:00-0:32:20, insinuaciones).",
+      "por_que": "Lo de más vistas por hora de la línea y de todo el humor con GTA VI: 1.292.206 vistas a las 11,4 h (112.955/h; a las 3 h iba a 78.233/h). elRubius es creador de humor y comenta su partida con Lucía con la voz encima todo el video (comprobar si lleva su cámara). En un canal de 15 M, en la parte alta de su media: sus GTA VI anteriores tienen 2,3-5,0 M. Fuera: el rango del título (golpes a bañistas, 0:06:00-0:10:05), el perro policía (0:19:40-0:20:40), 'deja que tu madre te dé teta' (0:08:45), 'subnormal' (0:30:50) y lo de Mandy (0:28:00-0:32:20, insinuaciones).",
       "oportunidad": null
     },
     {
@@ -189,8 +229,8 @@
       "titulo": "ROBANDO TIENDAS EN GTA 6 (CARTA DE $6.000)",
       "canal": "Rubius Z",
       "publicado": "2026-11-24T16:31:46-05:00",
-      "horas_desde": 46.95, "vistas": 2384639, "vistas_por_hora": 50791, "duracion_seg": 1685,
-      "medido_a": "2026-11-26T15:28:57-05:00",
+      "horas_desde": 55.41, "vistas": 2500358, "vistas_por_hora": 45125, "duracion_seg": 1685,
+      "medido_a": "2026-11-26T23:56:33-05:00",
       "perfil": null,
       "aparece": false,
       "linea": "risas",
@@ -204,7 +244,7 @@
         { "tramo": "0:25:35-0:26:32", "que": "Principal, GTA VI. La carta legendaria: 'Que venía por una carta de Pokémon... Plateado. Cómo brilla... Y firmada... ¿Como el LeBron James de este juego o qué?'. Se la lleva a un comprador: 'Te traigo una joyita, la encontré en el sótano de mi abuelo' y le dan '6000 pavos. La leyenda era real, gente. 6000 pavos por una carta. Un trozo de cartón con brilli' (0:26:30). Entrar después de 'más coca aquí' (0:25:20)" },
         { "tramo": "0:19:20-0:19:40", "que": "De reserva, corto. Tras un atraco fallido: '¿Qué hemos aprendido de este atraco, chicos? Uno, que somos muy malos. Dos, que tenemos que apagar alarmas'" }
       ],
-      "por_que": "El video de humor sobre GTA VI con más vistas de la ventana: 2.384.639 a las 47 h (50.791/h), aunque en su canal está en la media (fama, no sobre-rendimiento). El remate de la carta se entiende sin conocer el juego. Sale de la ventana mañana a las 16:31. Fuera: las bromas de no pagar la manutención de su hijo (0:08:15-0:10:10), 'le he cortado la cabeza' (0:02:20), los atracos con armas (0:13:40-0:23:00) y la coca (0:24:20-0:25:30).",
+      "por_que": "2.500.358 vistas a las 55 h (45.125/h). El remate de la carta se entiende sin conocer el juego. SALE DE LA VENTANA HOY 27-nov A LAS 16:31: si el Clipero corre antes, es el segundo de risas. Fuera: las bromas de no pagar la manutención de su hijo (0:08:15-0:10:10), 'le he cortado la cabeza' (0:02:20), los atracos con armas (0:13:40-0:23:00) y la coca (0:24:20-0:25:30).",
       "oportunidad": null
     },
     {
@@ -212,8 +252,8 @@
       "titulo": "ROBÉ EL AUTO DE RÁPIDOS Y FURIOSOS EN GTA VI",
       "canal": "ElMariana Gaming",
       "publicado": "2026-11-24T17:50:04-05:00",
-      "horas_desde": 45.65, "vistas": 828374, "vistas_por_hora": 18146, "duracion_seg": 1267,
-      "medido_a": "2026-11-26T15:28:57-05:00",
+      "horas_desde": 54.11, "vistas": 912862, "vistas_por_hora": 16870, "duracion_seg": 1267,
+      "medido_a": "2026-11-26T23:56:33-05:00",
       "perfil": null,
       "aparece": false,
       "linea": "risas",
@@ -227,7 +267,7 @@
         { "tramo": "0:09:25-0:10:50", "que": "Principal, GTA VI. En la zona de mansiones: 'Yo quiero esa vida, gente. Me siento bien pobre viendo así por la ventana'. '¿Quién fue el estúpido que dijo: déjame me meto a la casa de este señor?... El garaje es un estudio'. Y el remate: 'Es que yo ya he estado tantas veces acá en Miami. A mí me invitan a fiestas, pero yo no acepto... es esta vida que no tenemos, pero que queremos' (0:10:48)" },
         { "tramo": "0:13:38-0:13:48", "que": "De reserva, una línea. '5.49 millas. ¿Cuánto es eso en peso mexicano?'" }
       ],
-      "por_que": "Creador de humor mexicano jugando GTA VI con su voz encima: 828.374 vistas a las 46 h (18.146/h), en un canal de 9,9 M (en su media: su GTA VI anterior hizo 2,3 M). El tramo principal es de identificación ('la vida que no tenemos') y no tiene violencia. Fuera: el robo a la licorería con insultos (0:01:00-0:02:10), el 'Moreno' con el que llama al mecánico (0:03:20, 0:14:55 y 0:20:20), la rabieta del repintado (0:14:20-0:14:40) y el final 'Soy dama y se me respeta' (0:21:00).",
+      "por_que": "Creador de humor mexicano jugando GTA VI con su voz encima: 912.862 vistas a las 54 h (16.870/h), en su media. Sale de la ventana hoy a las 17:50. Fuera: el robo a la licorería con insultos (0:01:00-0:02:10), el 'Moreno' con el que llama al mecánico (0:03:20, 0:14:55 y 0:20:20), la rabieta del repintado (0:14:20-0:14:40) y el final 'Soy dama y se me respeta' (0:21:00).",
       "oportunidad": null
     },
     {
@@ -235,8 +275,8 @@
       "titulo": "EN VIVO | 4rm4s de juguete en toma de r3h3n3s en Cartagena - Polémica por GTA 6 | La Luciérnaga",
       "canal": "Caracol Radio",
       "publicado": "2026-11-25T19:03:25-05:00",
-      "horas_desde": 20.43, "vistas": 28289, "vistas_por_hora": 1385, "duracion_seg": 10575,
-      "medido_a": "2026-11-26T15:28:57-05:00",
+      "horas_desde": 28.89, "vistas": 29405, "vistas_por_hora": 1018, "duracion_seg": 10575,
+      "medido_a": "2026-11-26T23:56:33-05:00",
       "perfil": null,
       "aparece": false,
       "linea": "risas",
@@ -249,22 +289,28 @@
       "tramos": [
         { "tramo": "2:46:55-2:47:50", "que": "Principal, GTA VI. El sketch de Raquelita, la abuela paisa, con su nieto Betico: 'estoy jugando el nuevo Grand Theft Auto 6 y estoy más ocupado que el que le edita los videos a las Priellas'; 'vea, acá me estoy robando un taxi' — 'Eso lo veo yo todo el tiempo en el noticiero, no me parece nuevo'; 'Usted es Waterpy' — '¿Qué es eso?' — 'Aguafiestas'. Corta antes de 'Alias Primo Gay' (2:48:00)" }
       ],
-      "por_que": "La versión colombiana del tema: La Luciérnaga dedica un bloque a GTA VI (2:42:20-2:50:00) y lo cierra con un sketch. No es un momento político: Raquelita es un personaje del programa, no un político. Rinde en la media del programa (1.385/h; 805-2.245/h las semanas anteriores). Fuera: la toma de rehenes de Cartagena del título (violencia), el video de Daniela Pinedo sobre los niños y GTA (2:43:00-2:46:30; debate, no chiste), 'Alias Primo Gay' y 'bienvenido a la patria milagro' (2:48:00-2:48:20; alias de un criminal), 'ya se parece a Petro porque mantiene prendido' (2:48:40; vida privada) y la 'misión' con Ricardo Roa, Carlos Ramón González y Olmedo López (2:48:50-2:49:20; casos judiciales).",
+      "por_que": "La versión colombiana del tema, en un tramo sin políticos (Raquelita es un personaje del programa). El directo casi no crece (1.018/h). Fuera, como en el ciclo 14: la toma de rehenes del título, el debate de Daniela Pinedo (2:43:00-2:46:30), 'Alias Primo Gay' y 'patria milagro' (2:48:00-2:48:20), 'mantiene prendido' (2:48:40) y los funcionarios con casos judiciales (2:48:50-2:49:20).",
       "oportunidad": null
     }
   ],
   "pendientes": [
-    { "url": "https://www.youtube.com/channel/UCYiGq8XF7YQD00x7wAd62Zg", "titulo": "JuegaGerman: GTA 6 (4)", "perfil": null, "estado": "Germán Garmendia subió GTA 6 (1), (2) y (3) entre el 19 y el 20-nov (de 1,2 M a 5,7 M; el (3), 'ENCONTRÉ A PIE GRANDE!!!', es del 20-nov a las 18:50 y ya está fuera de la ventana). Nada de GTA VI desde entonces", "que_hacer": "Si sale el (4), es fuente de GTA VI: creador de humor jugando con su voz encima" },
+    { "url": "https://www.youtube.com/watch?v=FQZGrnn8gAk", "titulo": "Franco Escamilla: Monólogo Aroma a Papa ANIMADO [Avances 1995]", "perfil": "Franco Escamilla", "estado": "Estreno programado para el 27-nov hacia las 12:00 (yt-dlp: 'Premieres in 12 hours' a las 23:36). Por el título, un monólogo viejo animado", "que_hacer": "Leerlo cuando acabe el estreno; si es material de archivo, comprobar la fecha original" },
+    { "url": "https://www.youtube.com/channel/UCYiGq8XF7YQD00x7wAd62Zg", "titulo": "JuegaGerman: GTA 6 (4)", "perfil": null, "estado": "Nada de GTA VI desde el (3), del 20-nov. Lo último es 'Copito' (25-nov), sobre la muerte de su mascota: fuera", "que_hacer": "Si sale el (4), es fuente de GTA VI" },
+    { "url": "https://www.youtube.com/channel/UCO5BR4Ex3EM8PSLU7OSqtOw", "titulo": "La Revuelta 26.11", "perfil": "David Broncano (La Revuelta)", "estado": "Los fragmentos del programa del jueves suelen salir el viernes por la mañana (hora de Colombia)", "que_hacer": "Revisar en el próximo ciclo; después del 29-N ya vale la política española" },
     { "url": "https://www.youtube.com/channel/UCWU8fcAN3X8hjMR9k0rbV5g", "titulo": "Nadie Sabe Nada 14x13", "perfil": "Nadie Sabe Nada", "estado": "Se espera el sábado 28-nov hacia las 07:00", "que_hacer": "Leerlo en el ciclo del sábado" },
     { "url": "https://www.youtube.com/channel/UCba1vMvOHWlMddLARS382Zw", "titulo": "Hablando Huevadas, episodio del domingo", "perfil": "Hablando Huevadas", "estado": "Se espera el domingo 29-nov hacia las 21:00", "que_hacer": "Leer con el filtro de discapacidad, orientación, origen y físico" },
-    { "url": "https://www.youtube.com/channel/UC5yf6da_FAU_mT9bAkn_BHg", "titulo": "Anecdotario 380 (Ricardo Pérez)", "perfil": "La Cotorrisa", "estado": "Se espera la versión pública el domingo 29-nov hacia las 21:00", "que_hacer": "Leerlo cuando sea público" },
-    { "url": "https://www.youtube.com/channel/UC49w7S0pbX6HMJeiWibcvsg", "titulo": "Juanpis González: Boletín del Gomelo y Drunk Comedy cap. 9", "perfil": "Juanpis González (Alejandro Riaño)", "estado": "No salieron el 25 ni el 26-nov (lo último sigue siendo el de Brenda Asnicar, del 22-nov)", "que_hacer": "Revisar en el próximo ciclo" }
+    { "url": "https://www.youtube.com/channel/UC5yf6da_FAU_mT9bAkn_BHg", "titulo": "Anecdotario 380 (Ricardo Pérez)", "perfil": "La Cotorrisa", "estado": "Se espera la versión pública el domingo 29-nov hacia las 21:00", "que_hacer": "Leerlo cuando sea público" }
   ],
   "reserva": [
-    { "url": "https://www.youtube.com/watch?v=JMTG3V8Ldpo", "titulo": "Los ataques de risa de Eva Isanta y Luis Merlo rodando ANHQV | #LaRevuelta 25.11.2026", "perfil": "David Broncano (La Revuelta)", "vistas_por_hora": 3928, "medido_a": "2026-11-26T15:12:52-05:00", "sale_de_ventana": "2026-11-29T04:00:39-05:00", "motivo": "Leído entero. Lo que da título son tomas falsas de 'Aquí no hay quien viva' (Antena 3): material de otra cadena, no se recorta. Lo único limpio y propio es Luis Merlo, que hace de abuelo por primera vez: 'me di cuenta que tengo artritis... prostatitis... y un principio de cataratas... estoy demasiado mayor para abuelo' (0:00:35-0:01:05). Lo demás es sexual (las pajas y la ceguera, el polvo que no recuerdan, el sexo delante de los perros) o la 'esvástica pequeña' (0:13:15)" },
-    { "url": "https://www.youtube.com/watch?v=GikzSDSlG18", "titulo": "Especial del humor - Los mejores chistes de Piter Albeiro - Parte 2", "perfil": "Piter Albeiro", "vistas_por_hora": 843, "medido_a": "2026-11-25T18:00:57-05:00", "sale_de_ventana": "2026-11-26T19:00:06-05:00", "motivo": "Sale de la ventana hoy a las 19:00 sin clip. El tramo del asado (0:30:55-0:32:03) sigue siendo el único limpio" },
+    { "url": "https://www.youtube.com/watch?v=yUEUhqyQpbU", "titulo": "HISTORIAS DE FIESTAS DE FIN DE AÑO CON SEBA VDR | #DesdeElRespeto | COMPLETO 26/11 | VORTERIX", "perfil": "Paren la Mano (Vorterix), programa relacionado", "vistas_por_hora": 8159, "medido_a": "2026-11-26T23:36:21-05:00", "sale_de_ventana": "2026-11-29T16:32:24-05:00", "motivo": "Sin GTA VI. Casi todo son audios de oyentes con anécdotas de fiestas del trabajo (material de terceros) y los picos de risas son flojos (dos risas por cubo de 20 s como máximo). Ningún tramo propio con remate claro" },
+    { "url": "https://www.youtube.com/watch?v=KzpfBnxZVc0", "titulo": "MANO A MANO CON ENRIQUE PIÑEYRO EN EL MEDITERRÁNEO (y 'Lo Más Intenso Que Hicieron Después de la Primera Cita', UNYB7trbrPQ)", "perfil": "OLGA (Soñé que Volaba, Migue Granados)", "vistas_por_hora": 1972, "medido_a": "2026-11-26T23:36:21-05:00", "sale_de_ventana": "2026-11-29T16:28:33-05:00", "motivo": "Dos piezas largas de OLGA del 26-nov (53 y 42 min; 1.972/h y 955/h), en la parte baja del canal. No se leyeron: ninguna es de GTA VI y no rinden" },
+    { "url": "https://www.youtube.com/watch?v=srhxF-cNATU", "titulo": "Así intentábamos conquistar bailando | Me Pido la Ventana | Andrés López", "perfil": "Andrés López", "vistas_por_hora": 90, "medido_a": "2026-11-26T23:56:33-05:00", "sale_de_ventana": "2026-11-29T18:00:32-05:00", "motivo": "12 min, 533 vistas a las 6 h. Sigue la decisión pendiente del usuario sobre si mantenerlo" },
     { "url": "https://www.youtube.com/watch?v=UxVmWNAOayM", "titulo": "Lo que NO TE CONTARON sobre PETRO y ABELARDO en este 2026 - #PuroTeatro - Capítulo 22.", "perfil": "Suso el Paspi", "politica": "varias: sátira de Petro (izquierda) y de Abelardo de la Espriella (derecha)", "vistas_por_hora": null, "medido_a": "2026-11-26T15:20:00-05:00", "sale_de_ventana": "2026-11-27T12:12:52-05:00", "motivo": "Dura 7:11, menos de 8 min. Sin cambios desde el ciclo 13" },
-    { "url": "https://www.youtube.com/watch?v=Ayw1BpWuMuY", "titulo": "Recopilación de videos jamás publicados de Petro Escucha. - Jhovanoty", "perfil": "Jhovanoty", "politica": "izquierda: sátira de Gustavo Petro (imitación)", "vistas_por_hora": null, "medido_a": "2026-11-26T15:20:00-05:00", "sale_de_ventana": "2026-11-26T18:00:08-05:00", "motivo": "Sátira de archivo sin fecha: sigue esperando la decisión del usuario. Sale de la ventana hoy a las 18:00" },
-    { "url": "https://www.youtube.com/watch?v=x5NUKXhYvdE", "titulo": "GTA 6 pero versión VENEZOLANA | Juandinipa (y 'GRAND THEFT AUTO LATINOAMÉRICA' de Enchufe.tv, -kPHJTbSzkw)", "perfil": null, "vistas_por_hora": 1637, "medido_a": "2026-11-26T15:18:00-05:00", "sale_de_ventana": "2026-11-24T17:37:11-05:00", "motivo": "Sketches de humor que adaptan GTA VI a un país (patrón formato-gta-vi-version-pais). Duran 11 y 5 min, son del 21 y el 22-nov (fuera de la ventana el de Juandinipa) y son guiones ajenos: sirven para medir el formato, no para recortar" }
+    { "url": "https://www.youtube.com/watch?v=x5NUKXhYvdE", "titulo": "GTA 6 pero versión VENEZOLANA | Juandinipa (y 'GRAND THEFT AUTO LATINOAMÉRICA' de Enchufe.tv, -kPHJTbSzkw)", "perfil": null, "vistas_por_hora": 1637, "medido_a": "2026-11-26T15:18:00-05:00", "sale_de_ventana": "2026-11-24T17:37:11-05:00", "motivo": "Sketches que adaptan GTA VI a un país (patrón formato-gta-vi-version-pais). Son guiones ajenos: sirven para medir el formato, no para recortar" }
+  ],
+  "excluidos_del_ciclo": [
+    { "url": "https://www.youtube.com/watch?v=7jskuKvr7wQ", "titulo": "¡ABELARDO SE METIÓ EN GTA VI! + EL ROBO DEL SIGLO #notidanny", "perfil": "Daniel Samper Ospina", "politica": "derecha (sátira del presidente Abelardo de la Espriella) y, de fondo, izquierda (Petro, Verónica Estrada)", "vistas_por_hora": 2766, "medido_a": "2026-11-26T23:36:21-05:00", "motivo": "Leído entero. El 'GTA Rambelardo' (0:31:40-0:34:00) es un videojuego de sátira del presidente 'con la pistola' y 'que se enfrente a Petro y lo insulte', y antes encadena pullas a varios políticos ('los osos de Mafe Carrascal', 'el fruver de David Racero'). El resto del programa es comentario con postura: 'mal polvo' (0:05:20), los títulos falsos de Verónica Estrada (0:20:20-0:24:00, caso judicial), la toma de rehenes de Cartagena (0:26:40-0:31:20, violencia), las capturas grabadas y 'el enano' del Mundial de talla baja (0:46:00). Nada cumple enfoque.md" },
+    { "url": "https://www.youtube.com/watch?v=qe5elHrJM-E", "titulo": "EN VIVO: Detalles inéditos de secuestro en Cartagena - Sofía Vergara en Barranquilla | La Luciérnaga", "perfil": null, "politica": "izquierda (imitación de Petro) y centroizquierda contra izquierda (Juvinao y Mondragón)", "vistas_por_hora": 6757, "medido_a": "2026-11-26T23:38:16-05:00", "motivo": "Leído el arranque (0:02-0:13) y buscados GTA, Westcol y juegos en toda la transcripción: nada. Abre con la toma de rehenes (violencia) y con Juvinao que 'pide perdón a los burros' y habla de las 'limitaciones intelectuales de Mondragón' (0:05:00, otro insulto). El primer sketch, el 'Petro' de los murales de RTVC, va a lo sexual ('Triple X', Esperanza Gómez, 0:10:40-0:11:20)" },
+    { "url": "https://www.youtube.com/watch?v=P0x2HoLa_0w", "titulo": "NO DEBÍ SACAR A LUCIA DE LA CÁRCEL (GTA 6 Historia, Capitulo 2)", "perfil": null, "vistas_por_hora": 37117, "medido_a": "2026-11-26T23:36:21-05:00", "motivo": "Directo de 11,6 h de elRubius publicado el 23-nov a las 16:02: está fuera de la ventana de 72 h desde las 16:02 del 26-nov" }
   ]
 }

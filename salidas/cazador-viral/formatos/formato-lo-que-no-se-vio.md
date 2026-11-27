@@ -1,6 +1,14 @@
 # Lo que no se vio (el día después, contado por el protagonista)
 
-> **Estado (26-nov, 15:30, ciclo 23): vigente hasta el 29-nov, con puntaje 78 (80 en el ciclo 22).** Lo nuevo:
+> **Estado (26-nov, 21:30, ciclo 24): vigente hasta el 30-nov, con puntaje 80 (78 en el ciclo 23).** Lo nuevo:
+> - **Llega la revelación que faltaba de las 72 horas: la cuenta.** En su directo de hoy (Kick, hacia las 14:00), Westcol cuenta que les cobraron 54 millones por los daños de la mansión de Guatapé y por qué es justo ("los colchones de la última pieza estaban abajo y llenos de agua… si la casa no se arregla, se pierden rentas").
+>   - El recorte de un canal de terceros, ['Me MULTARON con $54 MILLONES por la MANSIÓN en GUATAPÉ'](https://www.youtube.com/watch?v=al1S2G8wdzk) (Aida Victoria Stream, 17,6 K), va a 8.742/h y en 6,8 h ya suma 0,89 veces la mediana de vistas totales del canal. Es señal, no fuente.
+>   - **La pieza propia sale del VOD de Kick** de '10 HORITAS EN EL SETEO RESCATANDO GTA VI' en cuanto termine el directo (hacia las 23:00). Gancho: "$54.000.000" en pantalla y "¿Quién crees que pagó?". Cruza con la ficha [formato-la-cifra-del-negocio](formato-la-cifra-del-negocio.md).
+>   - **Fuera del mismo directo:** la religión (3:00-4:30 del recorte) y el chiste del Capitolio sobre el asalto en el Éxito de Cartagena (7:00-10:30): hecho violento con víctimas.
+> - **El resumen del protagonista aguanta:** ['¿QUE PASO ANTIER?'](https://www.youtube.com/watch?v=QHCqem0oJY4) (Samulx) va a 1,34 veces su mediana a las 29 h y The Chanty reaccionando a los clips a 1,30.
+> - **El día después del Senado no llegó como se esperaba:** lo que Westcol cuenta del Capitolio es el chiste del Éxito, que no se toca.
+>
+> **Estado anterior (26-nov, 15:30, ciclo 23): vigente hasta el 29-nov, con puntaje 78 (80 en el ciclo 22).** Lo nuevo:
 > - **El resumen del protagonista, tres días después, todavía rinde:** ['¿QUE PASO ANTIER? MEJORES MOMENTOS DE LAS 72 HORAS'](https://www.youtube.com/watch?v=QHCqem0oJY4) (Samulx), 1,41 veces su mediana a las 24,5 h. The Chanty vuelve a reaccionar a los clips ([Westcol en el Senado y La Ganga](https://www.youtube.com/watch?v=i_9ErTwig3Q), 1,4 veces; el título del Cartier engaña).
 > - **Próxima aplicación: el día después de Westcol en el Capitolio** (25-nov; `tema-westcol-senador-por-un-dia`). Si el 26 o el 27-nov cuenta qué le pasó fuera de cámara ("lo que no se vio del Senado"), es la pieza. Gancho sin política: "Lo que no salió del Senado".
 > - **Variante GTA VI:** el recap diario de la partida de un streamer es otra forma de "lo que te perdiste" (ficha [formato-dia-n-del-streamer-en-gta](formato-dia-n-del-streamer-en-gta.md)).

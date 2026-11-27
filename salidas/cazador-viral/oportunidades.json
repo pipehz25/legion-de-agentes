@@ -1,16 +1,19 @@
 {
-  "generado": "2026-11-26T15:30:00-05:00",
-  "ciclo": 23,
-  "enfoque": "Música urbana de cantantes jóvenes, empresarios exitosos y streamers (config.perfiles y similares de datos/cazador-viral/perfiles.json). Excluidos: reality shows, concursos de TV, chisme de televisión y casos judiciales de famosos. Enfoque del orquestador en este ciclo: lo viral del lanzamiento de GTA VI (19-nov) con streamers y creadores encima, primero los perfiles que lo juegan en directo y lo de más vistas por hora; nada de tráileres ni videos oficiales de Rockstar sin nadie.",
+  "generado": "2026-11-26T21:00:00-05:00",
+  "ciclo": 24,
+  "enfoque": "Música urbana de cantantes jóvenes, empresarios exitosos y streamers (config.perfiles y similares de datos/cazador-viral/perfiles.json). Excluidos: reality shows, concursos de TV, chisme de televisión y casos judiciales de famosos. Enfoque del orquestador en este ciclo: lo viral del lanzamiento de GTA VI (19-nov) con streamers y creadores encima (jugándolo o reaccionando, momentos graciosos, polémicas), primero los perfiles que lo juegan en directo y lo de más vistas por hora; nada de tráileres ni videos oficiales de Rockstar sin nadie.",
   "notas": [
-    "Ventana de 36 h calculada a las 15:00 del 26-nov: entra lo publicado desde el 2026-11-25T03:00-05:00. Todo se midió entre las 14:28 y las 14:53 del 26-nov (campo medido_a).",
-    "GTA VI, una semana después: el tema se enfría en volumen (TikTok de 988.514 a 51.000 vistas por hora entre el 20 y el 25-nov, según virlo.ai; Wikipedia en inglés −80 %; ya no está en X en ninguna región) y llegan los finales del modo historia. No hay ninguna polémica de streamers hispanos en la ventana. Lo viral del lanzamiento en español fue IlloJuan borrando el juego en directo ante unos 500.000 espectadores (19-nov, fuera de la ventana).",
-    "Westcol está jugando GTA VI en directo ahora mismo: '10 HORITAS EN EL SETEO RESCATANDO GTA VI' (https://kick.com/westcol/videos/01a21906-aa88-7dc7-8ba3-6c95a8ea2f96), desde las 13:03, con 49.806 espectadores a las 14:31 y 54.995 hacia las 14:55 (#3 de Kick en el mundo). No va en fuentes_para_clips porque todavía no hay VOD: termina hacia las 23:00. Es la fuente número uno del ciclo siguiente. Si Westcol sube la versión editada a YouTube (lo hizo con sus GTA VI del 19 y 21-nov), usar esa; si no, el VOD de Kick sin subtítulos (whisper).",
-    "En los perfiles, GTA VI no sobre-rinde: en Kick, Westcol va a 1,0-1,32 veces su mediana de VOD con GTA VI y The Chanty a 0,32 veces la suya en YouTube. Lo que más sobre-rinde de Westcol es su día en el Senado (2,56 veces; 'Westcol' #6 en X Colombia durante 24 h). Lonche no emite en Kick desde el 22-nov (ya está en Los Mochis) y no juega GTA VI.",
-    "Similares nuevos, por GTA VI: IlloJuan (el mayor pico de un solo canal del lanzamiento, 403,7 K en Twitch) y DjMaRiiO (entre el 4.º y el 6.º en horas vistas), los dos de España y con sus directos enteros en YouTube con subtítulos.",
-    "En los directos de GTA VI: cortar solo tramos con la cara y la voz del streamer encima. Fuera las cinemáticas y el juego sin él (material de Rockstar sin nadie, como pidió el orquestador) y los tramos con la radio del juego sonando (canciones con derechos). Cuidado con los spoilers del final en el gancho.",
-    "Fuera de la ventana o del enfoque: el fútbol de Davoo (14.850/h) y de La Cobra (8.887/h); 'Feid, Snoop Dogg - GRACIAS X TODO' (video musical de 3,8 min, 15.447/h); los directos de GTA VI en inglés (Typical Gamer, TheBurntPeanut, NickEh30); las re-subidas sin licencia (Info Stream COL, El Baúl de Juan, Paconi Ediciones, clipsgang).",
-    "yt-dlp 2026.10.26 avisa de que no resuelve el 'n challenge' de YouTube ('Some formats may be missing'). Si una descarga falla o sale en baja calidad, hay que actualizar con herramientas/instalar.ps1."
+    "Ventana de 36 h calculada a las 21:00 del 26-nov: entra lo publicado desde el 2026-11-25T09:00-05:00. Todo se midió entre las 19:14 y las 20:53 del 26-nov (campo medido_a), salvo Diego RR y Santiago Ospina, que vienen del ciclo 23 (14:50). La PC estuvo en suspensión de 19:16 a 20:41.",
+    "Westcol sigue jugando GTA VI en directo en Kick: '10 HORITAS EN EL SETEO RESCATANDO GTA VI' (https://kick.com/westcol/videos/01a21906-aa88-7dc7-8ba3-6c95a8ea2f96), desde las 13:03, con 69.566 espectadores a las 19:15 (#2 de Kick en el mundo) y Samulx con él. No va en fuentes_para_clips porque no hay VOD hasta que termine (hacia las 23:00). Es la fuente número uno del ciclo siguiente: el juego va en la categoría de GTA VI más o menos de 16:20 a 18:00 (clips de Kick), y hacia las 14:00 cuenta la multa de 54 millones por los daños de la mansión de Guatapé (la cifra, para formato-matematica-del-lujo). Si sube una versión editada a YouTube, usar esa.",
+    "La multa de 54 millones ya tiene un recorte de terceros que vuela: 'Me MULTARON con $54 MILLONES por la MANSIÓN en GUATAPÉ | WESTCOL' (Aida Victoria Stream, 17,6 K; https://www.youtube.com/watch?v=al1S2G8wdzk), 59.444 vistas a las 6,8 h (8.742/h). No va como fuente: es un canal de recortes sin licencia confirmada. Tramo limpio en ese recorte: 0:00-2:30 (la cifra, los colchones mojados y las puertas, 'si la casa no se arregla, se pierden rentas'). Fuera 3:00-4:30 (religión) y 7:00-10:30 (el chiste del Éxito).",
+    "Polémica de GTA VI en la ventana, excluida: en el Capitolio (25-nov), Westcol dijo que el asalto en el Éxito de Cartagena 'fue culpa del GTA 6' y hoy explica que era un chiste. Hay piezas de terceros ('CASO ÉXITO DE CARTAGENA: La polémica declaración de Westcol sobre GTA VI', Javier Silva Informa, 48/h; Colombia.com, 13/h) y 'Éxito' es #1 en X Colombia (90.810 posts, 4 h). Es un hecho violento con víctimas: no se corta ni se usa como gancho. No está en el video editado del Senado (subtítulos revisados).",
+    "Cuidados para todo clip de GTA VI: solo tramos con la cara y la voz del streamer encima; nada de cinemáticas, tráileres ni juego sin él; fuera la radio del juego (Content ID: en 2025 IlloJuan tuvo un video de 9 h bloqueado por 15 s de música); nada de escenas del club o con desnudos (según Notebookcheck y TalkEsport, YouTube retiró directos de GTA VI por desnudos); el gancho no puede contar el final del juego; y nada del chiste del Éxito.",
+    "YouTube pide iniciar sesión por edad en algunos directos de GTA VI: en el canal de DjMaRiiO, 'DÍA 2' (Ve8tt9UzxQ8) y '50 COSAS QUE DEBES SABER' (JNDo24dNzZY) fallan en yt-dlp sin cookies. Los de esta lista se leyeron sin error.",
+    "Una semana después, GTA VI no sobre-rinde en los perfiles: en Kick, Samulx va a 1,27 veces su mediana de VOD y The Chanty, que lo termina en 12 h, a 0,77; en YouTube, Leandro va a 1,09 y The Chanty a 0,34. El final tampoco dispara: el día 9 de DjMaRiiO ('¿LLEGAMOS AL FINAL?') va a 0,73 veces su día 8. Las recopilaciones de 'momentos graciosos' siguen planas en español y en inglés (de 1 a 35/h en canales pequeños).",
+    "Kick y los VOD largos: los de Samulx y The Chanty no tienen subtítulos (whisper). The Chanty dura 12 h: solo si sobra tiempo.",
+    "Lo que dijo el Clipero del ciclo anterior (informe 2026-11-26_1538): de las fuentes de GTA VI, el día 8 de DjMaRiiO y 'EL GOLPE MÁS DIFICIL…' de The Chanty dieron 0 clips. El modo historia es diálogo del juego en inglés y cinemáticas, con spoilers, y un directo de 9 h sin picos de repetición no se puede leer entero; The Chanty eran groserías, amenazas y comentarios sexuales. Por eso salen de la lista y el día 9 de DjMaRiiO va abajo, hasta que tenga picos. Primero, los directos donde el streamer habla más de lo que juega (IlloJuan, Samulx en su primera vez, Westcol hoy).",
+    "Fuera del enfoque o de las reglas: el fútbol de Davoo (reacciones de Champions, 19.801/h); los canales de comentario político sobre Westcol en el Capitolio (Hassan Nassar, LibreMente Política, Santiago Giraldo); las re-subidas sin licencia (Aida Victoria Stream, Info Stream COL, PlanetaClips, Paisa Clips, West_Moments, el canal 'Westcol' de 513 suscriptores, El Baúl de Juan y Paconi Ediciones); Vegetta777 #9 (41.220/h; solo juego con su voz, sin cámara según la miniatura); y los directos de GTA VI en inglés.",
+    "yt-dlp 2026.10.26 sigue avisando de que no resuelve el 'n challenge' de YouTube; los metadatos y los subtítulos salen bien. Si una descarga falla o sale en baja calidad, hay que actualizar con herramientas/instalar.ps1."
   ],
   "oportunidades": [
     {
@@ -18,182 +21,95 @@
       "nombre": "Lo que no se vio: el día después contado por el protagonista, con una pregunta en el título",
       "tipo": "formato",
       "etapa": "emergente",
-      "puntaje_oportunidad": 78,
-      "ventana_hasta": "2026-11-29",
+      "puntaje_oportunidad": 80,
+      "ventana_hasta": "2026-11-30",
       "confianza": "media",
-      "plataformas_objetivo": [
-        "tiktok",
-        "instagram",
-        "youtube"
-      ],
-      "nichos": [
-        "streamers y creadores"
-      ],
-      "resumen": "Sigue emergente y baja de 80 a 78. Tres días después de las 72 horas, el resumen del propio protagonista todavía rinde ('¿QUE PASO ANTIER? MEJORES MOMENTOS DE LAS 72 HORAS', Samulx, 1,41 veces su mediana) y The Chanty vuelve a reaccionar a los clips (1,4 veces). El próximo día después ya tiene evento: Westcol en el Senado (25-nov). Ventana hasta el 29-nov.",
+      "plataformas_objetivo": ["tiktok", "instagram", "youtube"],
+      "nichos": ["streamers y creadores"],
+      "resumen": "Sube de 78 a 80. Cuatro días después de las 72 horas, Westcol revela en su directo lo que no se vio: la multa de 54 millones por los daños de la mansión de Guatapé. El recorte de un canal pequeño va a 8.742/h y en 6,8 h ya roza la mediana de vistas totales del canal; el resumen de Samulx sigue a 1,34 veces. La pieza propia sale del VOD de Kick de hoy. Ventana hasta el 30-nov.",
       "genes_clave": {
-        "gancho": "Lo que no se vio, con la cara del creador ('¿Qué pasó antier?', 'Reaccionando a los clips', 'Así lo viví')",
-        "estructura": "Testimonio, resumen o reacción en primera persona del día después, con su frase más fuerte como remate",
-        "participacion": "'¿Tú habrías aguantado?' o '¿Qué crees que pasó?'"
+        "gancho": "La revelación en pantalla con la cara del protagonista ('Me multaron con 54 millones', '¿Qué pasó antier?', 'Lo que no se vio')",
+        "estructura": "Testimonio en primera persona del día después: lo que pasó fuera de cámara, contado por él, con su frase más fuerte de remate",
+        "participacion": "'¿Quién crees que pagó?' o '¿Tú habrías aguantado?'"
       },
       "evidencia": [
-        {
-          "url": "https://www.youtube.com/watch?v=QHCqem0oJY4",
-          "metrica": "'¿QUE PASO ANTIER? MEJORES MOMENTOS DE LAS 72 HORAS CON LA GANGA' (Samulx, 191 K; 28 min; 25-nov 14:12): 88.235 vistas a las 24,5 h (3.601/h), 1,41 veces su mediana por hora (2.556/h)",
-          "tipo": "medido",
-          "mide": "patron",
-          "contexto": "youtube-co",
-          "fecha": "2026-11-26"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=i_9ErTwig3Q",
-          "metrica": "'LE COMPRÉ EL CARTIER A WESTCOL' (The Chanty, 241 K; 9,7 min): 15.841 vistas a las 20 h (792/h), 1,4 veces su mediana por hora (566/h); es él reaccionando a los TikToks de La Ganga y de Westcol en el Senado",
-          "tipo": "medido",
-          "mide": "patron",
-          "contexto": "youtube-co",
-          "fecha": "2026-11-26"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=9cshF4iOHW0",
-          "metrica": "'REACCIONANDO A LOS CLIPS DE LA GANGA EN GUATAPÉ' (The Chanty): 6,2 veces su mediana por hora a las 10,5 h y 2,8 veces a las 34 h",
-          "tipo": "medido",
-          "mide": "patron",
-          "contexto": "youtube-co",
-          "fecha": "2026-11-24"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=N7fZGy7f26U",
-          "metrica": "En contra de la versión sin protagonista: 'MEJORES MOMENTOS DEL 72 HORAS CON LA GANGA *resumen completo*' (basuquito, 6,7 K): 359/h",
-          "tipo": "medido",
-          "mide": "patron",
-          "contexto": "youtube-co",
-          "fecha": "2026-11-24"
-        }
+        { "url": "https://www.youtube.com/watch?v=al1S2G8wdzk", "metrica": "'Me MULTARON con $54 MILLONES por la MANSIÓN en GUATAPÉ | WESTCOL' (Aida Victoria Stream, 17,6 K; 18,8 min; 26-nov 14:01): 59.444 vistas a las 6,8 h (8.742/h), 0,89 veces la mediana de vistas totales de sus 14 videos anteriores (unas 66.500). Recorte de terceros del directo de Westcol: mide el patrón, no es fuente", "tipo": "medido", "mide": "patron", "contexto": "youtube-co", "fecha": "2026-11-26" },
+        { "url": "https://www.youtube.com/watch?v=QHCqem0oJY4", "metrica": "'¿QUE PASO ANTIER? MEJORES MOMENTOS DE LAS 72 HORAS CON LA GANGA' (Samulx, 191 K): 99.389 vistas a las 29,1 h (3.415/h), 1,34 veces su mediana por hora (2.556/h)", "tipo": "medido", "mide": "patron", "contexto": "youtube-co", "fecha": "2026-11-26" },
+        { "url": "https://www.youtube.com/watch?v=i_9ErTwig3Q", "metrica": "'LE COMPRÉ EL CARTIER A WESTCOL' (The Chanty, 241 K; él reaccionando a los clips): 17.995 vistas a las 24,4 h (738/h), 1,30 veces su mediana por hora (566/h)", "tipo": "medido", "mide": "patron", "contexto": "youtube-co", "fecha": "2026-11-26" },
+        { "url": "https://www.youtube.com/watch?v=N7fZGy7f26U", "metrica": "En contra de la versión sin protagonista: 'MEJORES MOMENTOS DEL 72 HORAS CON LA GANGA *resumen completo*' (basuquito, 6,7 K): 359/h", "tipo": "medido", "mide": "patron", "contexto": "youtube-co", "fecha": "2026-11-24" }
       ],
       "formato_hibrido": "salidas/cazador-viral/formatos/formato-lo-que-no-se-vio.md"
     },
     {
-      "id": "formato-mejores-momentos-gta-por-dia",
-      "nombre": "Día N del streamer en GTA VI: los mejores momentos de su directo del día, en serie numerada",
+      "id": "formato-matematica-del-lujo",
+      "nombre": "El empresario (o el streamer con negocio) revela la cifra y la explica",
       "tipo": "formato",
-      "etapa": "crecimiento",
-      "puntaje_oportunidad": 75,
-      "ventana_hasta": "2026-11-30",
-      "confianza": "media",
-      "plataformas_objetivo": [
-        "tiktok",
-        "instagram",
-        "youtube"
-      ],
-      "nichos": [
-        "streamers y creadores"
-      ],
-      "resumen": "Nuevo. Lo único de GTA VI que rinde por encima de su tamaño en español: canales pequeños que suben el 'Día 6' de IlloJuan (El Baúl de Juan, 17,5 veces sus suscriptores en 22 h). Las recopilaciones genéricas de varios streamers ya están saturadas (0-174/h). En Westcol y La Ganga nadie lo hace todavía (sin adaptar), y Westcol juega GTA VI hoy en directo. Ventana hasta el 30-nov, cuando los grandes terminen el modo historia.",
+      "etapa": "semilla",
+      "puntaje_oportunidad": 70,
+      "ventana_hasta": "2026-12-03",
+      "confianza": "baja",
+      "plataformas_objetivo": ["tiktok", "instagram", "youtube"],
+      "nichos": ["empresarios exitosos y emprendimiento", "streamers y creadores", "música urbana: cantantes jóvenes"],
+      "resumen": "Pasa de apuesta (65) a oportunidad (70): por fin una cifra dicha en cámara que rinde en Colombia. Westcol cuenta en su directo la multa de 54 millones por los daños de la mansión y explica por qué es justa (colchones mojados, puertas rotas, 'si la casa no se arregla, se pierden rentas'); el recorte con la cifra en el título va a 8.742/h en un canal de 17,6 K. Falta la pieza propia: cortarla del VOD de Kick de hoy en cuanto exista.",
       "genes_clave": {
-        "gancho": "'DÍA 7' y el nombre del streamer en pantalla, con su reacción al momento más loco en el segundo 0",
-        "estructura": "Serie diaria numerada: el mejor momento (o los 3 mejores) del directo de ese día",
-        "participacion": "Seguir la serie ('Día 8 mañana') y '¿Qué misión le falta?'"
+        "gancho": "La cifra en pantalla en el segundo 0 ('$54.000.000 de multa'), con la cara del que la dice",
+        "estructura": "Cifra, explicación corta del porqué (qué se dañó, quién paga, qué pasa si no se paga) y lección",
+        "participacion": "'¿Cuánto crees que les cobraron?' antes de revelar"
       },
       "evidencia": [
-        {
-          "url": "https://www.youtube.com/watch?v=Ig2fZ0Zk6sY",
-          "metrica": "'ILLOJUAN en GTA VI / Día 6 MEJORES MOMENTOS' (El Baúl de Juan, 6.080 suscriptores; 22,6 min): 106.118 vistas a las 21,9 h (4.846/h), 17,5 veces sus suscriptores",
-          "tipo": "medido",
-          "mide": "patron",
-          "contexto": "youtube-es",
-          "fecha": "2026-11-26"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=ef96T8thMP8",
-          "metrica": "'IlloJuan JUEGA GTA 6 - DÍA 6 (MEJORES MOMENTOS)' (Paconi Ediciones, 25,3 K; 56 min): 10.071 vistas a las 6,5 h (1.549/h), 0,4 veces sus suscriptores",
-          "tipo": "medido",
-          "mide": "patron",
-          "contexto": "youtube-es",
-          "fecha": "2026-11-26"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=sgSQKR7_fn8",
-          "metrica": "'MEJORES MOMENTOS GTA 6 #8 | AURON, ILLOJUAN, RUBIUS, SPREEN, VEGETTA' (PeseticasVFX, 68,8 K): 17.389 vistas a las 5,7 h (3.051/h)",
-          "tipo": "medido",
-          "mide": "patron",
-          "contexto": "youtube-es",
-          "fecha": "2026-11-26"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=KvpcQRCymt4",
-          "metrica": "En contra: las recopilaciones de varios streamers en canales nuevos o pequeños no rinden (Pedricoking 174/h; Directazos 2/h; Leonida Oculta 5 vistas; Marc 26/h)",
-          "tipo": "medido",
-          "mide": "patron",
-          "contexto": "youtube-es",
-          "fecha": "2026-11-26"
-        },
-        {
-          "url": "https://www.youtube.com/results?search_query=Westcol+GTA+6",
-          "metrica": "Sin adaptar: 'Westcol GTA 6' (esta semana, 36 h) da 0 resultados; nadie sube el 'día N' de Westcol ni de La Ganga",
-          "tipo": "medido",
-          "mide": "senal_relacionada",
-          "contexto": "youtube-co",
-          "fecha": "2026-11-26"
-        }
+        { "url": "https://www.youtube.com/watch?v=al1S2G8wdzk", "metrica": "'Me MULTARON con $54 MILLONES por la MANSIÓN en GUATAPÉ | WESTCOL' (Aida Victoria Stream, 17,6 K): 59.444 vistas a las 6,8 h (8.742/h), 0,89 veces la mediana de vistas totales de sus 14 videos anteriores; el 08-nov, su directo de los barrios con Samulx iba a 286/h. La cifra se dice en cámara del 0:30 al 2:30 (subtítulos automáticos)", "tipo": "medido", "mide": "patron", "contexto": "youtube-co", "fecha": "2026-11-26" },
+        { "url": "https://www.youtube.com/watch?v=_koEcQBXZnw", "metrica": "'¿CUÁNTO VALE TU OUTFIT? EN STREAM FIGHTERS 5' (Jorge Andrés, 1,32 M; con Kris R y Hades66): 433.379 vistas a las 46,5 h, 2,09 veces la mediana de vistas totales de sus 9 videos anteriores", "tipo": "medido", "mide": "patron", "contexto": "youtube-co", "fecha": "2026-11-17" },
+        { "url": "https://www.youtube.com/watch?v=olXao5WK9qY", "metrica": "En contra: 'CUANTO ES LO MAXIMO QUE HEMOS GANADO EN 1 MES' (Westcol) se quedó en 0,57 veces su mediana: la pregunta sin número en el título y la cifra al minuto 13 no rinden", "tipo": "medido", "mide": "patron", "contexto": "youtube-co", "fecha": "2026-11-22" }
       ],
-      "formato_hibrido": "salidas/cazador-viral/formatos/formato-dia-n-del-streamer-en-gta.md"
+      "formato_hibrido": "salidas/cazador-viral/formatos/formato-la-cifra-del-negocio.md"
     },
     {
       "id": "tema-westcol-senador-por-un-dia",
       "nombre": "Westcol, senador por un día en el Capitolio Nacional (25-nov)",
       "tipo": "tema",
-      "etapa": "emergente",
-      "puntaje_oportunidad": 70,
+      "etapa": "crecimiento",
+      "puntaje_oportunidad": 64,
       "ventana_hasta": "2026-11-28",
       "confianza": "media",
-      "plataformas_objetivo": [
-        "tiktok",
-        "instagram",
-        "youtube"
-      ],
-      "nichos": [
-        "streamers y creadores"
-      ],
-      "resumen": "Nuevo. Lo que más sobre-rinde de los perfiles en la ventana: 'FUI SENADOR DE COLOMBIA POR UN DÍA Y PASÓ ESTO' va a 2,56 veces la mediana de Westcol y 'Westcol' lleva 24 h en X Colombia (#6). Es político: solo momentos sin postura (la edad para ser senador, el senador que fue youtuber, la silla del presidente del Senado, la campanita de las votaciones). Ventana hasta el 28-nov.",
+      "plataformas_objetivo": ["tiktok", "instagram", "youtube"],
+      "nichos": ["streamers y creadores"],
+      "resumen": "Pasa a crecimiento y baja de 70 a 64. El video editado sube a 2,96 veces la mediana de Westcol y 'Westcol' sigue 24 h en X Colombia, pero el tema se lo llevan los canales de comentario político (Hassan Nassar, 3.290/h; LibreMente Política, 1.842/h) y la polémica de su chiste sobre el Éxito y GTA VI, que no se toca. Solo los momentos sin postura ya listados. Ventana hasta el 28-nov.",
       "genes_clave": {
         "gancho": "El streamer en el sitio del poder ('Westcol en la silla del presidente del Senado') o la pregunta inocente ('¿Puedo ser senador? —Te faltan cinco añitos')",
         "estructura": "Pez fuera del agua: recorrido, pregunta sin filtro y un dato raro del lugar",
         "participacion": "'¿Qué le preguntarías tú a un senador?'"
       },
       "evidencia": [
-        {
-          "url": "https://www.youtube.com/watch?v=affDfigv4uo",
-          "metrica": "'FUI SENADOR DE COLOMBIA POR UN DÍA Y PASÓ ESTO' (Westcol, 2,1 M; 62 min; 26-nov 08:00): 33.452 vistas a las 6,9 h (4.848/h), 2,56 veces su mediana por hora (1.896/h)",
-          "tipo": "medido",
-          "mide": "patron",
-          "contexto": "youtube-co",
-          "fecha": "2026-11-26"
-        },
-        {
-          "url": "https://trends24.in/colombia/",
-          "metrica": "'Westcol' #6 en X Colombia, 24 h en la lista, 17.780 posts (recolector, 26-nov 14:26)",
-          "tipo": "medido",
-          "mide": "patron",
-          "contexto": "x-co",
-          "fecha": "2026-11-26"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=mVXdaFm309Q",
-          "metrica": "'DEBATE de WESTCOL con los SENADORES de la república' (Info Stream COL, 3,9 K): 24.811 vistas a las 19,8 h, 6,4 veces sus suscriptores (re-subida sin licencia: solo señal)",
-          "tipo": "medido",
-          "mide": "patron",
-          "contexto": "youtube-co",
-          "fecha": "2026-11-26"
-        },
-        {
-          "url": "https://kick.com/westcol/videos/01a2138a-1838-7a0a-a2bc-59dba627f72d",
-          "metrica": "En contra: el VOD de Kick 'STREAM EN EL CAPITOLIO NACIONAL' suma 212.609 vistas (API v2) a ~1 día, 0,61 veces la mediana de sus 19 VOD anteriores. Editado rinde más que en directo",
-          "tipo": "medido",
-          "mide": "patron",
-          "contexto": "kick-co",
-          "fecha": "2026-11-26"
-        }
+        { "url": "https://www.youtube.com/watch?v=affDfigv4uo", "metrica": "'FUI SENADOR DE COLOMBIA POR UN DÍA Y PASÓ ESTO' (Westcol, 2,1 M): 71.769 vistas a las 12,8 h (5.607/h), 2,96 veces su mediana por hora (1.896/h)", "tipo": "medido", "mide": "patron", "contexto": "youtube-co", "fecha": "2026-11-26" },
+        { "url": "https://trends24.in/colombia/", "metrica": "'Westcol' #7 en X Colombia, 24 h en la lista (mejor puesto #6), 15.424 posts (recolector, 26-nov 19:12)", "tipo": "medido", "mide": "patron", "contexto": "x-co", "fecha": "2026-11-26" },
+        { "url": "https://www.youtube.com/watch?v=CMLh8lmSxPg", "metrica": "Lo toman los canales políticos: 'WESTCOL AL CAPITOLIO' (Hassan Nassar, 41,7 K) 28.298 vistas a las 8,6 h (3.290/h); 'JOTA PE HUMILLADO POR WESTCOL Y DUVALIER…' (LibreMente Política, 205 K) 1.842/h; 'TENSO cruce entre JP Hernández y Duvalier Sánchez en el stream de Westcol' (Santiago Giraldo) 602/h", "tipo": "medido", "mide": "patron", "contexto": "youtube-co", "fecha": "2026-11-26" },
+        { "url": "https://www.youtube.com/watch?v=CElTAZiTp0Y", "metrica": "En contra: 'PREGUNTAS SIN FILTRO AL PROCURADOR…' (Westcol) 713/h a las 21,8 h, 0,38 veces; 'ASÍ ES POR DENTRO EL LUGAR MÁS PODEROSO' 1.926/h, 1,02 veces. Rinde el video del día, no el resto", "tipo": "medido", "mide": "patron", "contexto": "youtube-co", "fecha": "2026-11-26" }
       ],
       "formato_hibrido": "salidas/cazador-viral/formatos/formato-el-streamer-en-el-poder.md"
+    },
+    {
+      "id": "formato-mejores-momentos-gta-por-dia",
+      "nombre": "Día N del streamer en GTA VI: los mejores momentos de su directo del día, en serie numerada",
+      "tipo": "formato",
+      "etapa": "pico",
+      "puntaje_oportunidad": 63,
+      "ventana_hasta": "2026-11-28",
+      "confianza": "baja",
+      "plataformas_objetivo": ["tiktok", "instagram", "youtube"],
+      "nichos": ["streamers y creadores"],
+      "resumen": "Baja de 75 a 63 y pasa a pico en español: las copias del 'Día N' de las últimas 36 h no rinden (de 1 a 35/h, salvo Paconi Ediciones, 1.649/h), los grandes llegan al final (DjMaRiiO, '¿LLEGAMOS AL FINAL?'; The Chanty lo terminó) y el Clipero no sacó ningún clip del día 8 de DjMaRiiO ni de The Chanty (cinemáticas, diálogo del juego en inglés, spoilers y groserías). Solo vale como arbitraje hacia Westcol y La Ganga, donde está en semilla: un canal de recortes de Westcol ya sube sus GTA VI a 1,2-1,4 veces su mediana. Lo que queda es el directo de hoy de Westcol, que habla más de lo que juega. Ventana hasta el 28-nov.",
+      "genes_clave": {
+        "gancho": "'DÍA N' y el nombre del streamer en pantalla, con su reacción al momento más loco en el segundo 0",
+        "estructura": "Serie diaria numerada: el mejor momento (o los 3 mejores) del directo de ese día",
+        "participacion": "Seguir la serie y '¿Qué misión le falta?'"
+      },
+      "evidencia": [
+        { "url": "https://www.youtube.com/watch?v=RU2zv3le2oA", "metrica": "Destino Colombia: en Aida Victoria Stream (17,6 K), 'GTA 6: SI PIERDO, REGALO UNA PS5 | WESTCOL' suma unas 96.000 vistas y 'WESTCOL Juega GTA 6 Por PRIMERA VEZ' unas 79.000: 1,44 y 1,19 veces la mediana de vistas totales de sus 14 videos anteriores (unas 66.500; lista del canal, redondeada, sin fecha exacta)", "tipo": "medido", "mide": "patron", "contexto": "youtube-co", "fecha": "2026-11-26" },
+        { "url": "https://www.youtube.com/watch?v=ef96T8thMP8", "metrica": "'IlloJuan JUEGA GTA 6 - DÍA 6 (MEJORES MOMENTOS)' (Paconi Ediciones, 25,4 K): 20.612 vistas a las 12,5 h (1.649/h). El Baúl de Juan no ha subido el día 7 en 36 h", "tipo": "medido", "mide": "patron", "contexto": "youtube-es", "fecha": "2026-11-26" },
+        { "url": "https://www.youtube.com/watch?v=H0wbDpPm6YE", "metrica": "En contra, las copias de las últimas 36 h: 'SEGUIMOS CON EL MODO HISTORIA GTA 6 - DIA 3' (Joxel Music) 35/h; 'CAPITULO 3… GTA 6 BROS' (DarknessMX, 125 K) 28/h; 'GTA 6… (día 8)' (El GTAverso) 3/h; 'Speed Finds an ALIEN in GTA 6 DAY 6 Best Moments' (Clip Heist GTA VI, 88 K) 1/h; 'The Most INSANE & Funniest GTA 6 Streamer Moments!' (Wrectros) 15/h", "tipo": "medido", "mide": "patron", "contexto": "youtube-es", "fecha": "2026-11-26" },
+        { "url": "https://www.youtube.com/watch?v=qPdoHEWLWR0", "metrica": "En La Ganga, la serie propia no sobre-rinde: 'GTA VI Cap #8' (Leandro La Sapa) 195/h a las 5,6 h, 1,09 veces su mediana por hora; 'Cap #7', 0,70 veces. Las re-subidas de fans de Westcol jugando, de 0 a 110/h", "tipo": "medido", "mide": "patron", "contexto": "youtube-co", "fecha": "2026-11-26" }
+      ],
+      "formato_hibrido": "salidas/cazador-viral/formatos/formato-dia-n-del-streamer-en-gta.md"
     }
   ],
   "apuestas": [
@@ -202,209 +118,145 @@
       "nombre": "La pantalla de carga de GTA VI: tu foto (o la de un famoso) convertida en personaje del juego",
       "tipo": "formato",
       "etapa": "crecimiento",
-      "puntaje_oportunidad": 67,
-      "ventana_hasta": "2026-12-03",
+      "puntaje_oportunidad": 66,
+      "ventana_hasta": "2026-11-30",
       "confianza": "baja",
-      "plataformas_objetivo": [
-        "tiktok",
-        "instagram"
-      ],
-      "nichos": [
-        "streamers y creadores"
-      ],
-      "resumen": "Nuevo. Plantilla de CapCut que convierte una foto en personaje ilustrado de GTA VI con atardecer tropical: en TikTok en inglés, 278 creadores en 7 días (4 veces la semana anterior). En español solo hay un tutorial sin audiencia y una guía de Blu Radio del 18-nov. Sirve como gancho visual de 1-2 s antes de un clip de GTA VI de un perfil.",
+      "plataformas_objetivo": ["tiktok", "instagram"],
+      "nichos": ["streamers y creadores"],
+      "resumen": "Baja de 67 a 66. En TikTok en inglés se frena un poco (265 creadores en 7 días, 3,2 veces la semana anterior; 278 y 4 veces en el ciclo 23). En español sigue sin réplicas medidas. Sirve como gancho visual de 1-2 s antes de un clip de GTA VI de un perfil.",
       "genes_clave": {
         "gancho": "La foto real que se convierte en ilustración de GTA VI al golpe del audio",
         "estructura": "Transformación antes-después",
         "participacion": "Plantilla copiable"
       },
       "evidencia": [
-        {
-          "url": "https://virlo.ai/trends",
-          "metrica": "'GTA 6 loading screen intro': 278 creadores en 7 días, 4 veces la semana anterior, 'Fresh' (26-nov)",
-          "tipo": "medido",
-          "mide": "patron",
-          "contexto": "tiktok-global",
-          "fecha": "2026-11-26"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=JmAee3HtEGk",
-          "metrica": "'Cómo hacer el efecto GTA Pantalla de Carga en CapCut' (IbelVioletaFS): 60 vistas. Primer tutorial en español, sin audiencia",
-          "tipo": "medido",
-          "mide": "patron",
-          "contexto": "youtube-es",
-          "fecha": "2026-11-26"
-        },
-        {
-          "url": "https://tokchart.com/es-mx/audios-de-tiktok",
-          "metrica": "TikTok México: 'G.T.A. – Grand Trance Audio (San AndDreams)' #4 (256 K videos, +18.100 al día) y #5 (263 K, +23.400 al día); sin saber si es el audio de la plantilla",
-          "tipo": "medido",
-          "mide": "senal_relacionada",
-          "contexto": "tiktok-mx",
-          "fecha": "2026-11-26"
-        }
+        { "url": "https://virlo.ai/trends", "metrica": "'GTA 6 loading screen intro', #4 de la semana: 265 creadores en 7 días, 3,2 veces la semana anterior, 'Fresh' (26-nov, 20:50)", "tipo": "medido", "mide": "patron", "contexto": "tiktok-global", "fecha": "2026-11-26" },
+        { "url": "https://www.youtube.com/watch?v=JmAee3HtEGk", "metrica": "'Cómo hacer el efecto GTA Pantalla de Carga en CapCut' (IbelVioletaFS): 60 vistas. Único tutorial en español", "tipo": "medido", "mide": "patron", "contexto": "youtube-es", "fecha": "2026-11-26" },
+        { "url": "https://tokchart.com/es-mx/audios-de-tiktok", "metrica": "TikTok México: 'G.T.A. – Grand Trance Audio (San AndDreams)' #4 y #5 (256 K y 263 K videos), las mismas cifras que en el ciclo 23 (la página no se actualizó)", "tipo": "medido", "mide": "senal_relacionada", "contexto": "tiktok-mx", "fecha": "2026-11-26" }
       ],
       "formato_hibrido": "salidas/cazador-viral/formatos/formato-dia-n-del-streamer-en-gta.md",
-      "falta": "Medir réplicas en español en TikTok México o Colombia: cuántos videos con la plantilla y las vistas de 3-5 de las últimas 72 h frente a la media de sus creadores; y confirmar si 'G.T.A. – Grand Trance Audio' es su audio (y si se puede usar). Si al 30-nov no hay réplicas en español que rindan, sale."
-    },
-    {
-      "id": "formato-matematica-del-lujo",
-      "nombre": "El empresario revela la cifra del negocio (margen, costo o paradoja) y la explica",
-      "tipo": "formato",
-      "etapa": "semilla",
-      "puntaje_oportunidad": 65,
-      "ventana_hasta": "2026-11-28",
-      "confianza": "baja",
-      "plataformas_objetivo": [
-        "tiktok",
-        "instagram",
-        "youtube"
-      ],
-      "nichos": [
-        "empresarios exitosos y emprendimiento",
-        "streamers y creadores",
-        "música urbana: cantantes jóvenes"
-      ],
-      "resumen": "Sigue de apuesta (65). '¿Cuánto gana Westcol en su mejor mes?' sigue sin publicar. Material nuevo: en el video del Senado de Westcol, un senador le explica el presupuesto ('634 billones… el 60 % se va en funcionamiento, el 20 % es deuda', 13:00-13:40). Es la cifra del país, en un debate político: solo como variante sin postura.",
-      "genes_clave": {
-        "gancho": "La cifra en pantalla en el segundo 0, en paradoja o comparación",
-        "estructura": "Cifra, explicación corta del porqué y la reacción del otro",
-        "participacion": "'¿Cuánto crees que es?' antes de revelar"
-      },
-      "evidencia": [
-        {
-          "url": "https://www.youtube.com/watch?v=_koEcQBXZnw",
-          "metrica": "'¿CUÁNTO VALE TU OUTFIT? EN STREAM FIGHTERS 5' (Jorge Andrés, 1,32 M; con Kris R y Hades66): 433.379 vistas a las 46,5 h, 2,09 veces la mediana de vistas totales de sus 9 videos anteriores",
-          "tipo": "medido",
-          "mide": "patron",
-          "contexto": "youtube-co",
-          "fecha": "2026-11-17"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=eIRYiimMx_E",
-          "metrica": "Lujo sin cifra en el título: '24 HORAS en COLOMBIA… *muchos lujos*' (LoncheWey) tiene unas 61.000 vistas, de 4 a 5 veces sus otras subidas del viaje",
-          "tipo": "medido",
-          "mide": "patron",
-          "contexto": "youtube-mx",
-          "fecha": "2026-11-22"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=affDfigv4uo",
-          "metrica": "'FUI SENADOR DE COLOMBIA POR UN DÍA' (Westcol, 2,56 veces su mediana): la cifra del presupuesto, explicada por un senador, del 13:00 al 13:40",
-          "tipo": "medido",
-          "mide": "senal_relacionada",
-          "contexto": "youtube-co",
-          "fecha": "2026-11-26"
-        }
-      ],
-      "formato_hibrido": "salidas/cazador-viral/formatos/formato-la-cifra-del-negocio.md",
-      "falta": "Una medida del corto con la cifra en destino: publicar y medir a las 24 h '¿Cuánto gana Westcol en su mejor mes?' (en la bandeja de TikTok desde el 23-nov) o un corto de Santiago Ospina con la cifra. Si al 28-nov no hay ninguno medido, sale de apuestas."
+      "falta": "Medir réplicas en español en TikTok México o Colombia (cuántos videos con la plantilla y las vistas de 3-5 de las últimas 72 h frente a la media de sus creadores) y saber si 'G.T.A. – Grand Trance Audio' es su audio. La búsqueda web no indexa TikTok: hace falta mirarlo a mano. Si al 30-nov no hay réplicas en español que rindan, sale."
     }
   ],
   "fuentes_para_clips": [
-    {
-      "url": "https://www.youtube.com/watch?v=Sp0CsNZXLGM",
-      "titulo": "GTA 6 | DIA 8 MODO HISTORIA (AUTÉNTICO CINE) DjMaRiiO",
-      "canal": "DjMaRiiO",
-      "publicado": "2026-11-25T20:03:00-05:00",
-      "horas_desde": 18.5,
-      "vistas": 508255,
-      "vistas_por_hora": 27473,
-      "duracion_seg": 32214,
-      "medido_a": "2026-11-26T14:31:00-05:00",
-      "perfil": "DjMaRiiO (similar nuevo)",
-      "aparece": true,
-      "por_que": "Lo de más vistas por hora de un perfil jugando GTA VI: el día 8 de su modo historia, en directo (9 h) y con su cara y su voz encima. Es de España (castellano peninsular). Usar los picos de 'más repetido' y los comentarios con marca de tiempo; cortar solo con él reaccionando, nunca cinemáticas ni juego sin él, y fuera la radio del juego (canciones con derechos). Va por el final del modo historia: ojo con los spoilers en el gancho.",
-      "oportunidad": "formato-mejores-momentos-gta-por-dia"
-    },
     {
       "url": "https://www.youtube.com/watch?v=sZbNyiCHakE",
       "titulo": "AHORA ES CUANDO EMPIEZA GTA 6 🚨 - Grand Theft Auto VI #5",
       "canal": "IlloJuan",
       "publicado": "2026-11-26T09:25:00-05:00",
-      "horas_desde": 5.3,
-      "vistas": 132224,
-      "vistas_por_hora": 24948,
+      "horas_desde": 11.4,
+      "vistas": 303144,
+      "vistas_por_hora": 26592,
       "duracion_seg": 23904,
-      "medido_a": "2026-11-26T14:45:00-05:00",
-      "perfil": "IlloJuan (similar nuevo)",
+      "medido_a": "2026-11-26T20:49:00-05:00",
+      "perfil": "IlloJuan (similar)",
       "aparece": true,
-      "por_que": "El streamer con el mayor pico del lanzamiento (403,7 K en Twitch), en su quinto directo de GTA VI (6 h 38 min). Es justo el material que canales pequeños convierten en 'Día N' con 17,5 veces sus suscriptores: el gancho 'Día 7 de IlloJuan en GTA VI' está probado. Mismos cuidados: solo con su cara y su voz, sin radio del juego ni cinemáticas. Castellano de España.",
+      "por_que": "El streamer hispano con más audiencia del lanzamiento, en su quinto directo de GTA VI (6 h 38 min), y la fuente que el Clipero dejó para hoy. Su serie de GTA VI rinde 3-4 veces su serie anterior de GTA V (19.129-26.592/h frente a 3.090-7.872/h de media). IlloJuan habla sin parar: buscar sus reacciones y chistes propios, no el diálogo del juego. Si a las 24 h ya tiene picos de repetición, empezar por ellos. Solo con su cara y su voz, sin radio ni cinemáticas. Castellano de España.",
       "oportunidad": "formato-mejores-momentos-gta-por-dia"
     },
     {
-      "url": "https://www.youtube.com/watch?v=OmTKDovQt78",
-      "titulo": "EL GOLPE MÁS DIFICIL QUE HE HECHO EN GTA VI",
-      "canal": "The Chanty",
-      "publicado": "2026-11-26T11:56:00-05:00",
-      "horas_desde": 2.7,
-      "vistas": 484,
-      "vistas_por_hora": 179,
-      "duracion_seg": 2844,
-      "medido_a": "2026-11-26T14:38:00-05:00",
+      "url": "https://kick.com/samulx/videos/01a21493-c7d8-7956-87c8-656b0415db75",
+      "titulo": "JUGANDO POR PRIMERA VEZ EL GTA VI",
+      "canal": "Samulx (Kick)",
+      "publicado": "2026-11-25T16:19:22-05:00",
+      "horas_desde": 28.4,
+      "vistas": 110376,
+      "vistas_por_hora": 3886,
+      "duracion_seg": 21929,
+      "medido_a": "2026-11-26T20:42:00-05:00",
+      "perfil": "Samulx (similar), de La Ganga",
+      "aparece": true,
+      "por_que": "Un perfil colombiano jugando GTA VI por primera vez, en directo (6 h 5 min): 1,27 veces la mediana de sus VOD de Kick según la API v2 (86.819 frente a 68.445). No está en YouTube (su canal no sube GTA VI en 36 h): es Kick, sin subtítulos (whisper, tarda). Buscar su primera reacción al juego y sus fallos con la cara encima. Mismos cuidados de GTA VI.",
+      "oportunidad": "formato-mejores-momentos-gta-por-dia"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=qPdoHEWLWR0",
+      "titulo": "ESTA es la MISIÓN más RARA de todo el JUEGO 😨 | GTA VI Cap #8",
+      "canal": "Leandro La Sapa",
+      "publicado": "2026-11-26T15:08:00-05:00",
+      "horas_desde": 5.6,
+      "vistas": 1093,
+      "vistas_por_hora": 195,
+      "duracion_seg": 5544,
+      "medido_a": "2026-11-26T20:45:00-05:00",
+      "perfil": "Leandro La Sapa (similar), de La Ganga",
+      "aparece": true,
+      "por_que": "El único de La Ganga con una serie propia y numerada de GTA VI (92 min), en su línea (1,09 veces su mediana por hora). Es su edición, no el directo entero. Sin mirar los subtítulos: buscar la 'misión más rara' del título y sus reacciones. Mismos cuidados.",
+      "oportunidad": "formato-mejores-momentos-gta-por-dia"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ILUB3-uYx4M",
+      "titulo": "GTA 6 | DIA 9 MODO HISTORIA ¿LLEGAMOS AL FINAL? DjMaRiiO",
+      "canal": "DjMaRiiO",
+      "publicado": "2026-11-26T17:23:00-05:00",
+      "horas_desde": 3.5,
+      "vistas": 377216,
+      "vistas_por_hora": 107776,
+      "duracion_seg": 24144,
+      "medido_a": "2026-11-26T20:52:00-05:00",
+      "perfil": "DjMaRiiO (similar)",
+      "aparece": true,
+      "por_que": "Lo de más vistas por hora de un perfil jugando GTA VI (día 9, 6 h 42 min, con el final del modo historia), pero va abajo por lo que pasó con su día 8: el Clipero no sacó nada (diálogo del juego en inglés, cinemáticas y spoilers) y sin picos de repetición un directo así no se puede leer. Solo cuando tenga picos (a partir de las 24 h, hacia las 17:00 del 27-nov) y solo tramos con él reaccionando. El gancho no puede contar el final. Castellano de España.",
+      "oportunidad": "formato-mejores-momentos-gta-por-dia"
+    },
+    {
+      "url": "https://kick.com/chanty/videos/01a2148c-b740-783e-8611-b6d290f6fbde",
+      "titulo": "FULL GTA VI HASTA QUE TERMINE DE PASARMELO |",
+      "canal": "The Chanty (Kick)",
+      "publicado": "2026-11-25T16:11:39-05:00",
+      "horas_desde": 27.1,
+      "vistas": 53445,
+      "vistas_por_hora": 1972,
+      "duracion_seg": 43652,
+      "medido_a": "2026-11-26T19:16:00-05:00",
       "perfil": "The Chanty (similar), de La Ganga",
       "aparece": true,
-      "por_que": "Un perfil colombiano jugando GTA VI con su cara (47 min). Va lento (0,32 veces su mediana a las 2,7 h; puede acelerar después de las 6 h). Tramos: 20:00-21:30 (el atraco: 'todo al suelo… hágale, hágale'), 38:00-38:40 ('¿Se murió Lucía? Ah, no, se murió la otra… también la maté yo… yo no soy ningún malo') y 41:00-41:20 ('apenas me dieron 100.000 a mí'). Lleno de groserías y comentarios sexuales: fuera 1:00-2:00, 40:00-40:20, 43:00-45:30 y la radio del juego.",
+      "por_que": "The Chanty termina GTA VI en un directo de 12 h 7 min: el final del juego de un perfil colombiano. Rinde poco (0,77 veces la mediana de sus VOD de Kick, API v2) y su 'EL GOLPE MÁS DIFICIL…' de YouTube no dio ningún clip (groserías, amenazas y comentarios sexuales). Es Kick, sin subtítulos y muy largo: solo si sobra tiempo de whisper, y solo la reacción al terminar el juego, en las últimas horas, sin revelar el final.",
       "oportunidad": "formato-mejores-momentos-gta-por-dia"
     },
     {
-      "url": "https://www.youtube.com/watch?v=-et-mx7bvFY",
-      "titulo": "SALVANDO A ANDRES AGUIRRE EN GTA VI",
-      "canal": "The Chanty",
-      "publicado": "2026-11-26T14:31:00-05:00",
-      "horas_desde": 1.0,
-      "vistas": 4,
-      "vistas_por_hora": 4,
-      "duracion_seg": 5370,
-      "medido_a": "2026-11-26T14:38:00-05:00",
-      "perfil": "The Chanty (similar), con Andrés Aguirre",
+      "url": "https://www.youtube.com/watch?v=lfrtLMiaa6I",
+      "titulo": "Adivina el Futbolista Profesional con Courtois",
+      "canal": "Ibai",
+      "publicado": "2026-11-26T12:59:00-05:00",
+      "horas_desde": 7.8,
+      "vistas": 1125815,
+      "vistas_por_hora": 144335,
+      "duracion_seg": 1284,
+      "medido_a": "2026-11-26T20:46:00-05:00",
+      "perfil": "Ibai (similar)",
       "aparece": true,
-      "por_que": "Su segundo GTA VI del día (89,5 min), recién subido: sin medir todavía. Sale Andrés Aguirre (el de la fiesta privada de La Ganga, sin identificar). Solo si queda hueco y tras mirar los picos: mismos cuidados que el anterior.",
-      "oportunidad": "formato-mejores-momentos-gta-por-dia"
+      "por_que": "Lo de más vistas por hora de los perfiles (1,13 M a las 7,8 h), aunque en su canal mide fama (es su ritmo habitual). Juego de adivinar con un futbolista invitado, no fútbol: las reacciones y los fallos. No es GTA VI. Castellano de España.",
+      "oportunidad": null
     },
     {
       "url": "https://www.youtube.com/watch?v=affDfigv4uo",
       "titulo": "FUI SENADOR DE COLOMBIA POR UN DÍA Y PASÓ ESTO",
       "canal": "WestCOL",
       "publicado": "2026-11-26T08:00:00-05:00",
-      "horas_desde": 6.9,
-      "vistas": 33452,
-      "vistas_por_hora": 4848,
+      "horas_desde": 12.8,
+      "vistas": 71769,
+      "vistas_por_hora": 5607,
       "duracion_seg": 3744,
-      "medido_a": "2026-11-26T14:51:00-05:00",
+      "medido_a": "2026-11-26T20:48:00-05:00",
       "perfil": "Westcol",
       "aparece": true,
-      "por_que": "Lo que más sobre-rinde de los perfiles: 2,56 veces la mediana de Westcol, con 'Westcol' #6 en X Colombia. Es político: solo tramos sin postura (subtítulos automáticos). 0:00-1:30 ('¿Cuántos años tiene? 25… es de 30 para arriba… te faltan cinco añitos'); 2:00-3:00 (el senador que fue youtuber: 'fui el primer creador de contenido en llegar al Congreso'); 3:00-3:30 (su eslogan: 'no tengo tanta experiencia… pero soy el más transparente'); 8:00-8:40 (los congresistas podían entrar armados y dejaban las armas en lockers); 17:00-17:40 (la campanita de las votaciones); 19:00-19:40 (el biche, risas); 35:00-35:40 ('empiezo con un suscriptor que fue mi mamá… 1 millón… hoy soy dos veces senador'); 55:00-55:20 ('Westcol se sentó en la silla del presidente del Senado y sin querer terminó haciendo un debate'). Fuera 20:00-58:00 (paz, guerrilla y Gobierno) y 12:00-12:40 (la indagatoria).",
+      "por_que": "Lo que más sobre-rinde de Westcol: 2,96 veces su mediana, con 'Westcol' 24 h en X Colombia. El Clipero ya sacó 4 clips de aquí (los 'cinco añitos', el eslogan, el biche y 'familias en acción'): quedan 2:00-3:00 (el senador que fue youtuber), 8:00-8:40 (las armas en lockers), 17:00-17:40 (la campanita), 35:00-35:40 ('un suscriptor que fue mi mamá') y 55:00-55:20 (la silla del presidente del Senado). Fuera 20:00-58:00 (política) y 12:00-12:40 (la indagatoria). El chiste del Éxito y GTA VI no está en este video.",
       "oportunidad": "tema-westcol-senador-por-un-dia"
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=lfrtLMiaa6I",
-      "titulo": "Adivina El Futbolista Profesional con Courtois",
-      "canal": "Ibai",
-      "publicado": "2026-11-26T12:59:00-05:00",
-      "horas_desde": 1.7,
-      "vistas": 89184,
-      "vistas_por_hora": 52461,
-      "duracion_seg": 1284,
-      "medido_a": "2026-11-26T14:42:00-05:00",
-      "perfil": "Ibai (similar)",
-      "aparece": true,
-      "por_que": "Lo más rápido de la ventana (52.461/h a las 1,7 h), aunque en un canal de 17,5 M mide fama. Es un juego de adivinar con un futbolista invitado, no fútbol: sirven las reacciones y los fallos al adivinar. No es GTA VI. Castellano de España; sin mirar los subtítulos.",
-      "oportunidad": null
     },
     {
       "url": "https://www.youtube.com/watch?v=QHCqem0oJY4",
       "titulo": "¿QUE PASO ANTIER? MEJORES MOMENTOS DE LAS 72 HORAS CON LA GANGA 🔥",
       "canal": "Samulx",
       "publicado": "2026-11-25T14:12:00-05:00",
-      "horas_desde": 24.5,
-      "vistas": 88235,
-      "vistas_por_hora": 3601,
+      "horas_desde": 29.1,
+      "vistas": 99389,
+      "vistas_por_hora": 3415,
       "duracion_seg": 1686,
-      "medido_a": "2026-11-26T14:40:00-05:00",
+      "medido_a": "2026-11-26T19:16:00-05:00",
       "perfil": "Samulx (similar), con La Ganga",
       "aparece": true,
-      "por_que": "El resumen de las 72 horas hecho por el protagonista, 1,41 veces su mediana. La mayoría de esos momentos ya se cortaron desde otras cámaras: solo si queda hueco y solo lo que no esté en clips.json.",
+      "por_que": "El resumen de las 72 horas hecho por el protagonista (1,34 veces su mediana a las 29 h). Casi todo ya se cortó desde otras cámaras: solo lo que no esté en clips.json.",
       "oportunidad": "formato-el-dia-despues-del-protagonista"
     },
     {
@@ -412,60 +264,15 @@
       "titulo": "ASÍ ES POR DENTRO EL LUGAR MÁS PODEROSO DE COLOMBIA",
       "canal": "WestCOL",
       "publicado": "2026-11-25T22:30:00-05:00",
-      "horas_desde": 16.4,
-      "vistas": 35558,
-      "vistas_por_hora": 2168,
+      "horas_desde": 22.3,
+      "vistas": 42945,
+      "vistas_por_hora": 1926,
       "duracion_seg": 2406,
-      "medido_a": "2026-11-26T14:51:00-05:00",
+      "medido_a": "2026-11-26T20:48:00-05:00",
       "perfil": "Westcol",
       "aparece": true,
-      "por_que": "El recorrido por el Capitolio (40 min), 1,14 veces su mediana. Para el dato raro del lugar (formato-el-streamer-en-el-poder); sin mirar los subtítulos: mismos cuidados políticos que el anterior.",
+      "por_que": "El recorrido por el Capitolio (40 min), 1,02 veces su mediana. Para el dato raro del lugar; sin mirar los subtítulos y con los mismos cuidados políticos.",
       "oportunidad": "tema-westcol-senador-por-un-dia"
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=i_9ErTwig3Q",
-      "titulo": "LE COMPRÉ EL CARTIER A WESTCOL⌚💵",
-      "canal": "The Chanty",
-      "publicado": "2026-11-25T18:51:00-05:00",
-      "horas_desde": 20.0,
-      "vistas": 15841,
-      "vistas_por_hora": 792,
-      "duracion_seg": 582,
-      "medido_a": "2026-11-26T14:51:00-05:00",
-      "perfil": "The Chanty (similar), sobre Westcol",
-      "aparece": true,
-      "por_que": "1,4 veces su mediana, pero el título engaña: es él reaccionando a TikToks de La Ganga y de Westcol en el Senado (Westcol no sale en persona). Tramos: 1:00-1:30 ('podríamos tirar un 24 horas cada semana') y 3:30-4:30 (se le cae el pelo). Fuera 2:00-2:30, 7:30-8:00 (parejas) y 9:00-9:40 (música). Solo si queda hueco.",
-      "oportunidad": "formato-el-dia-despues-del-protagonista"
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=CElTAZiTp0Y",
-      "titulo": "PREGUNTAS SIN FILTRO AL PROCURADOR Y AL PRESIDENTE DEL SENADO",
-      "canal": "WestCOL",
-      "publicado": "2026-11-25T23:00:00-05:00",
-      "horas_desde": 15.9,
-      "vistas": 10048,
-      "vistas_por_hora": 632,
-      "duracion_seg": 1062,
-      "medido_a": "2026-11-26T14:51:00-05:00",
-      "perfil": "Westcol",
-      "aparece": true,
-      "por_que": "Del perfil, en persona, pero rinde poco (0,33 veces): las preguntas políticas no tiran. Solo si queda hueco, y solo preguntas sin postura.",
-      "oportunidad": "tema-westcol-senador-por-un-dia"
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=MH4LSpsw_84",
-      "titulo": "LA MEJOR PARTIDA DE MIMIC PARTY!",
-      "canal": "JeltyTV",
-      "publicado": "2026-11-25T20:28:00-05:00",
-      "horas_desde": 18.3,
-      "vistas": 1400,
-      "vistas_por_hora": 77,
-      "duracion_seg": 1644,
-      "medido_a": "2026-11-26T14:44:00-05:00",
-      "perfil": "Jelty (similar)",
-      "aparece": true,
-      "por_que": "Lo único nuevo de Jelty (27 min de partida). No rinde: solo si queda hueco.",
-      "oportunidad": null
     },
     {
       "url": "https://www.youtube.com/watch?v=4tMv8wuMHGw",
@@ -479,7 +286,7 @@
       "medido_a": "2026-11-26T14:50:00-05:00",
       "perfil": "Diego Ramírez (RR Autos), con La Ganga",
       "aparece": true,
-      "por_que": "Del perfil de empresarios: su cámara de la ruta en motos por Guatapé (del 22-nov). Entra por ser del perfil, no por ritmo; el momento ya está cortado desde otras cámaras. Sin mirar los subtítulos.",
+      "por_que": "Del perfil de empresarios: su cámara de la ruta en motos por Guatapé. Entra por ser del perfil, no por ritmo (medido en el ciclo 23); el momento ya está cortado desde otras cámaras.",
       "oportunidad": null
     },
     {
@@ -494,37 +301,37 @@
       "medido_a": "2026-11-26T14:50:00-05:00",
       "perfil": "Santiago Ospina (\"el de la X\")",
       "aparece": true,
-      "por_que": "Nuevo del perfil de empresarios: un día real con su marca StradaBrand (centro de distribución, web internacional, lanzamiento). Entra por ser del perfil (39 vistas). Sin mirar los subtítulos: buscar la cifra dicha en cámara.",
+      "por_que": "Del perfil de empresarios, en persona: un día real con su marca StradaBrand. Entra por ser del perfil (39 vistas en el ciclo 23). Buscar la cifra dicha en cámara (formato-matematica-del-lujo).",
       "oportunidad": "formato-matematica-del-lujo"
     },
     {
-      "url": "https://www.youtube.com/watch?v=bdtCpWcitZM",
-      "titulo": "GTA 6 ¡VICE CITY ES NUESTRA! #9",
-      "canal": "VEGETTA777",
-      "publicado": "2026-11-26T14:18:00-05:00",
-      "horas_desde": 1.0,
-      "vistas": 155753,
-      "vistas_por_hora": 155753,
-      "duracion_seg": 15348,
-      "medido_a": "2026-11-26T14:31:00-05:00",
+      "url": "https://www.youtube.com/watch?v=DEJfudDGOw8",
+      "titulo": "MI PRIMERA VEZ CON EL COCHE MAS RÁPIDO DE GTA 6 *BUGATTI INCREIBLE*",
+      "canal": "DaniRep | +6 Vídeos Diarios De GTA 5 Online!",
+      "publicado": "2026-11-26T13:15:00-05:00",
+      "horas_desde": 7.6,
+      "vistas": 195261,
+      "vistas_por_hora": 25692,
+      "duracion_seg": 1164,
+      "medido_a": "2026-11-26T20:52:00-05:00",
       "perfil": null,
       "aparece": false,
-      "por_que": "Lo de más vistas por hora de GTA VI en español fuera de los perfiles: su directo #9 (4 h 15 min), con 155.753 vistas al terminar (las vistas del directo cuentan; el #8 iba a 18.651/h a las 24 h). Creador de España de 34,8 M: mide fama. Solo con su cara y su voz encima, sin cinemáticas ni radio del juego.",
+      "por_que": "Lo de más vistas por hora de GTA VI en español fuera de los perfiles en un video editado (19 min): creador de GTA de España (14,2 M), mide fama. 'Mi primera vez con el coche más rápido' es el lujo dentro del juego. En la miniatura sale su cara: comprobar que tiene cámara en el video; si solo hay juego con su voz, no sirve. Mismos cuidados.",
       "oportunidad": "formato-mejores-momentos-gta-por-dia"
     },
     {
-      "url": "https://www.youtube.com/watch?v=RXUEw5A9JEI",
-      "titulo": "EL ATRACO A JOYERÍA MÁS LIMPIO Y A 60 FPS 🌴 GTA 6 #7",
-      "canal": "Auron",
-      "publicado": "2026-11-26T14:00:00-05:00",
-      "horas_desde": 1.0,
-      "vistas": 10044,
-      "vistas_por_hora": 10044,
-      "duracion_seg": 4566,
-      "medido_a": "2026-11-26T14:47:00-05:00",
+      "url": "https://www.youtube.com/watch?v=IWBIVAn-4jU",
+      "titulo": "COMPRANDO MI PRIMER SUPER COCHE EN GTA 6 !! 🌴 MODO HISTORIA (8) - TheDonato",
+      "canal": "TheDonato",
+      "publicado": "2026-11-25T21:46:00-05:00",
+      "horas_desde": 23.1,
+      "vistas": 319252,
+      "vistas_por_hora": 13820,
+      "duracion_seg": 19818,
+      "medido_a": "2026-11-26T20:52:00-05:00",
       "perfil": null,
       "aparece": false,
-      "por_que": "AuronPlay (16 M), su séptimo capítulo de GTA VI editado (76 min), con un atraco como hilo: más fácil de cortar que un directo de 6 h. Mide fama. Mismos cuidados. Castellano de España.",
+      "por_que": "Directo de GTA VI de un creador grande de habla hispana (44 M; 5 h 30 min), con el lujo en el título ('mi primer super coche'). Mide fama. Comprobar que tiene cámara: solo tramos con él reaccionando. Mismos cuidados.",
       "oportunidad": "formato-mejores-momentos-gta-por-dia"
     }
   ]

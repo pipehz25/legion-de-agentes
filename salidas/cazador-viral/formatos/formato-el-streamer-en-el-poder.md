@@ -1,6 +1,12 @@
 # El streamer en el poder: la pregunta inocente y el dato que nadie sabía
 
-> **Estado (26-nov, 15:30, ciclo 23): nuevo, vigente hasta el 28-nov, con puntaje 70 (base: `tema-westcol-senador-por-un-dia`).** Político: solo momentos sin postura.
+> **Estado (26-nov, 21:30, ciclo 24): baja a 64 (bajo el umbral de hibridación) y pasa a crecimiento; vigente hasta el 28-nov.** Lo nuevo:
+> - **El video sigue subiendo:** ['FUI SENADOR DE COLOMBIA POR UN DÍA'](https://www.youtube.com/watch?v=affDfigv4uo), 2,96 veces la mediana de Westcol a las 12,8 h; "Westcol" sigue 24 h en X Colombia (#7).
+> - **Pero el tema se vuelve político:** lo toman canales de comentario ([Hassan Nassar](https://www.youtube.com/watch?v=CMLh8lmSxPg), 3.290/h; LibreMente Política, 1.842/h; el cruce entre JP Hernández y Duvalier Sánchez en su directo). Nada de eso se corta.
+> - **Y aparece una polémica que no se toca:** en el directo del Capitolio dijo que el asalto en el Éxito de Cartagena "fue culpa del GTA 6" (hoy lo explica como un chiste; "Éxito" #1 en X Colombia). Es un hecho violento con víctimas. No está en el video editado (subtítulos revisados): los tramos de la lista siguen limpios.
+> - El Clipero ya sacó 4 clips del Senado (los "cinco añitos", el eslogan, el biche y "familias en acción"). Lo que queda: el senador que fue youtuber (2:00-3:00), las armas en lockers (8:00-8:40), la campanita (17:00-17:40), "un suscriptor que fue mi mamá" (35:00-35:40) y la silla del presidente del Senado (55:00-55:20).
+>
+> **Estado anterior (26-nov, 15:30, ciclo 23): nuevo, vigente hasta el 28-nov, con puntaje 70 (base: `tema-westcol-senador-por-un-dia`).** Político: solo momentos sin postura.
 
 - **Fórmula:** el outsider en el sitio del poder (arquetipo de `tema-westcol-senador-por-un-dia`) + la pregunta inocente como gancho + un dato raro del lugar como payoff (gen de payoff de `formato-matematica-del-lujo`, la cifra o el dato explicado) + "¿qué le preguntarías tú?" como participación.
 - **Patrones base:**
