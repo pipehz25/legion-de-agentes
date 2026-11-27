@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-27-gta6-jeep-barrel-roll",
+    "url_fuente":  "https://www.youtube.com/watch?v=mIBnqfaamao",
+    "video_id":  "mIBnqfaamao",
+    "inicio":  35.6,
+    "fin":  52.3,
+    "inicio_hms":  "0:00:35",
+    "duracion_seg":  16.7,
+    "gancho":  "POV: just a calm drive",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "vice",
+    "resolucion":  "1440x2560",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -21.87,
+                  "entrada_tp":  -8.9,
+                  "salida_lufs":  -14.28,
+                  "salida_tp":  -1.03
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-27-gta6-jeep-barrel-roll/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-27-gta6-jeep-barrel-roll/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-27-gta6-jeep-barrel-roll/revision.jpg",
+    "creado":  "2026-11-27T11:22:52.6639022-05:00"
+}

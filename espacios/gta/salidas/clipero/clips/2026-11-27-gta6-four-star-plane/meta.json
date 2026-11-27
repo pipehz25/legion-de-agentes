@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-27-gta6-four-star-plane",
+    "url_fuente":  "https://www.youtube.com/watch?v=yQkb6x6IavY",
+    "video_id":  "yQkb6x6IavY",
+    "inicio":  500,
+    "fin":  521.3,
+    "inicio_hms":  "0:08:20",
+    "duracion_seg":  21.3,
+    "gancho":  "Getaway Files #17: four stars, one plane",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "negro",
+    "resolucion":  "1440x2560",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -12.56,
+                  "entrada_tp":  0.34,
+                  "salida_lufs":  -13.98,
+                  "salida_tp":  -1.11
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-27-gta6-four-star-plane/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-27-gta6-four-star-plane/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-27-gta6-four-star-plane/revision.jpg",
+    "creado":  "2026-11-27T11:28:24.7726866-05:00"
+}

@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-27-gta6-boar-look-back",
+    "url_fuente":  "https://www.youtube.com/watch?v=a56UCBby9As",
+    "video_id":  "a56UCBby9As",
+    "inicio":  62,
+    "fin":  79.9,
+    "inicio_hms":  "0:01:02",
+    "duracion_seg":  17.9,
+    "gancho":  "Leonida Fails #12: never look back",
+    "subtitulos":  "ninguno",
+    "palabras_subtituladas":  0,
+    "modo":  "marco",
+    "estilo":  "clasico",
+    "color":  "atardecer",
+    "resolucion":  "1440x2560",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -28.44,
+                  "entrada_tp":  -15.65,
+                  "salida_lufs":  -13.69,
+                  "salida_tp":  -1.21
+              },
+    "archivo":  "espacios/gta/salidas/clipero/clips/2026-11-27-gta6-boar-look-back/clip.mp4",
+    "portada":  "espacios/gta/salidas/clipero/clips/2026-11-27-gta6-boar-look-back/portada.jpg",
+    "revision":  "espacios/gta/salidas/clipero/clips/2026-11-27-gta6-boar-look-back/revision.jpg",
+    "creado":  "2026-11-27T11:31:06.7502597-05:00"
+}
