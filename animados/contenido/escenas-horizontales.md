@@ -1,6 +1,6 @@
 # Escenas horizontales: catálogo para escribir un video largo
 
-Referencia para diseñar las escenas de un video largo de YouTube (1920×1080, tema `archivo` o `cosmos`; ver «Temas») sin leer el código. El estilo es el de la muestra aprobada (`animados/propios/hi-panama-muestra`) y de los capítulos c0 y c1 de `animados/propios/hi-panama/guion.json`: míralos como ejemplo completo.
+Referencia para diseñar las escenas de un video largo de YouTube (1920×1080, tema `archivo`, `cosmos` o `expedicion`; ver «Temas») sin leer el código. El estilo es el de la muestra aprobada (`animados/propios/hi-panama-muestra`) y de los capítulos c0 y c1 de `animados/propios/hi-panama/guion.json`: míralos como ejemplo completo.
 
 ## 1. Cómo va en el guion
 
@@ -56,14 +56,15 @@ Un dato `foto` (o `foto_<algo>`) con el nombre exacto del archivo de Commons: `"
 - **Banderas:** `colombia`, `panama`, `eeuu`, `francia`, `espana`.
 - **Dibujos** (`dibujo` en `mapa` > `fichas`, `fichas`, `cifra` y `titular`): `calendario`, `canon`, `pluma`, `sello`, `ancla`, `tren`, `mosquito`, `lluvia`, `derrumbe`, `cruz`, `moneda`, `esclusa`, `barco`, `volcan`, `documento`, `draga`, `montana`, `bandera`, `balanza`, `reloj`.
 
-### Temas: `archivo` y `cosmos`
+### Temas: `archivo`, `cosmos` y `expedicion`
 
 Las plantillas horizontales toman todos sus colores y letras del tema (`estilo.tema` del guion; `herramientas/temas.mjs`):
 
 - **`archivo`** (historia): papel envejecido, tinta sepia, rojo lacre y oro viejo; Playfair Display y EB Garamond. Es el de los videos de historia; `estilo.fondo` y `estilo.brillo` (tonos claros) varían el papel.
-- **`cosmos`** (ciencia y misterios, canal CurioSismo): azul noche casi negro con estrellas y nebulosas fijas (siempre las mismas), hojas de vidrio oscuro con borde de luz, tinta clara, `acento` cian, `acento2` ámbar y `alerta` magenta, con resplandor; títulos y cifras en Exo 2, texto en Inter. El mapa sale como un mapa nocturno (tierra azul oscuro, costas cian) y los personajes llevan un contorno de luz. Pide `"estilo": { "tema": "cosmos" }`; si cambias `fondo`/`brillo`, que sean tonos oscuros.
+- **`cosmos`** (ciencia y misterios, canal CurioSismo): azul noche casi negro con estrellas y nebulosas fijas (siempre las mismas), hojas de vidrio oscuro con borde de luz, tinta clara, `acento` cian, `acento2` ámbar y `alerta` magenta, con resplandor; títulos y cifras en Exo 2, texto en Inter. El mapa sale como un mapa nocturno (tierra azul oscuro, costas cian) y los personajes llevan un contorno de luz. Pide `"estilo": { "tema": "cosmos" }`; si cambias `fondo`/`brillo`, que sean tonos oscuros. Resalta países con `acento` (cian): con `acento2` quedan grises.
+- **`expedicion`** (supervivencia, canal de Juliana): cuaderno de campo sobre un mapa topográfico. Verde oliva oscuro con curvas de nivel y retícula fijas, tarjetas de lona con borde claro y cinta amarilla, tinta clara, `acento` naranja de rescate (`#ff6a1a`), `acento2` amarillo de señal (`#ffd23f`), `alerta` rojo y `bien` verde musgo; sombras duras en vez de resplandor. Títulos en Oswald, texto en Barlow y cifras de estarcido (Big Shoulders Stencil Display), que en `cifra`, `fichas` y el calendario del `titular` dan el tono urgente. El mapa sale topográfico (tierra oliva con curvas de nivel, agua verde petróleo, costa clara). Pide `"estilo": { "tema": "expedicion" }`.
 
-Los colores por nombre (`acento`, `acento2`, `alerta`, `bien`, `tinta`) cambian solos con el tema: escribe nombres y no `#rrggbb`, o el color quedará fijo en los dos. Las banderas, las fotos y el paisaje de `vehiculo` conservan sus colores reales en cualquier tema (en `cosmos`, `vehiculo` todavía se ve sepia: mejor no usarlo ahí).
+Los colores por nombre (`acento`, `acento2`, `alerta`, `bien`, `tinta`) cambian solos con el tema: escribe nombres y no `#rrggbb`, o el color quedará fijo en los dos. Las banderas, las fotos y el paisaje de `vehiculo` conservan sus colores reales en cualquier tema (el paisaje de `vehiculo` se pasa por un filtro del tema: noche azul en `cosmos`, campo oliva en `expedicion`; la máquina lleva un contorno para despegarse).
 
 Para un color nuevo en una plantilla horizontal: agrégalo como variable en `HORIZONTAL_PAPEL` de `temas.mjs` (con el valor de `archivo`) y su versión en `cosmos`; en CSS se usa `var(--x)` y en un atributo de SVG escrito en JS, `colorTema("--x", "#respaldo")` (de `_escena-h-js.html`), porque `fill="var(--x)"` no siempre se resuelve.
 

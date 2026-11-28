@@ -51,6 +51,14 @@
       position: absolute;
       inset: 0;
     }
+    /* Textura encima del mapa (curvas de nivel en expedicion; nada en los demas temas). */
+    #{{id}}-mapa::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      background: var(--mapa-textura, none);
+    }
     #{{id}}-mapa svg {
       display: block;
       width: 1920px;

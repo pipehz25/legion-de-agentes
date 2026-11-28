@@ -1,4 +1,4 @@
-// temas.mjs - Temas visuales de los videos propios (Narrador): archivo, laboratorio, pizarra y cosmos.
+// temas.mjs - Temas visuales de los videos propios (Narrador): archivo, laboratorio, pizarra, cosmos y expedicion.
 //
 // Los usan montaje.mjs (Shorts verticales) y largo.mjs (videos largos de YouTube: tarjetas de
 // titulo y de capitulo y miniatura). Cada tema define variables CSS que usan las plantillas del
@@ -62,6 +62,43 @@ export function texturaEstrellas() {
   return `url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='${L}' height='${L}'>${partes.join("")}</svg>")`;
 }
 
+// Curvas de nivel de un mapa topografico para el tema expedicion: siempre las mismas (formula fija).
+// Un solo lienzo de 1920x1920 (no se repite: asi las curvas no se cortan en los bordes), con cerros
+// de anillos irregulares, una curva maestra mas gruesa cada cinco y una reticula de mapa muy suave.
+export function texturaTopografica() {
+  const h = (i) => {
+    const x = Math.sin(i * 12.9898 + 78.233) * 43758.5453;
+    return x - Math.floor(x);
+  };
+  const L = 1920;
+  const partes = [];
+  for (let k = 1; k < 8; k++) partes.push(`<path d='M${k * 240} 0 V${L} M0 ${k * 240} H${L}' stroke='%23e8dcae' stroke-opacity='0.035' stroke-width='2' fill='none'/>`);
+  const cerros = [
+    [330, 300, 9],
+    [1500, 420, 11],
+    [980, 1150, 12],
+    [250, 1520, 8],
+    [1700, 1650, 9],
+  ];
+  cerros.forEach(([cx, cy, n], c) => {
+    const f1 = h(c + 100) * 6.28;
+    const f2 = h(c + 200) * 6.28;
+    const f3 = h(c + 300) * 6.28;
+    for (let k = 1; k <= n; k++) {
+      const r = k * 44 + h(c * 50 + k) * 10;
+      let d = "";
+      for (let j = 0; j <= 72; j++) {
+        const a = (j / 72) * Math.PI * 2;
+        const rr = r * (1 + 0.16 * Math.sin(2 * a + f1) + 0.09 * Math.sin(3 * a + f2 + k * 0.12) + 0.05 * Math.sin(5 * a + f3));
+        d += (j ? "L" : "M") + (cx + rr * Math.cos(a)).toFixed(1) + " " + (cy + rr * 0.82 * Math.sin(a)).toFixed(1);
+      }
+      const maestra = k % 5 === 0;
+      partes.push(`<path d='${d}Z' fill='none' stroke='%23e8dcae' stroke-opacity='${maestra ? 0.13 : 0.075}' stroke-width='${maestra ? 3 : 1.6}'/>`);
+    }
+  });
+  return `url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='${L}' height='${L}'>${partes.join("")}</svg>") center / cover no-repeat`;
+}
+
 // Variables de las plantillas horizontales (videos largos): hojas, cintas, mapa, cadena, mesa...
 // Son los colores de papel que esas plantillas tenian escritos fijos. Los temas claros (archivo,
 // laboratorio y pizarra) se quedan con estos valores, asi que se ven exactamente como antes; cosmos
@@ -120,6 +157,9 @@ const HORIZONTAL_PAPEL = {
   "--firma": "#1f2a5a",
   "--figura-filtro": "none",
   "--pais-k": "1",
+  "--paisaje-filtro": "none",
+  "--vehiculo-filtro": "none",
+  "--mapa-textura": "none",
 };
 
 export const TEMAS = {
@@ -392,6 +432,9 @@ export const TEMAS = {
       "--mesa-oscura": "#0a1230",
       "--firma": "#3fe0ff",
       "--pais-k": "0.5",
+      // vehiculo: el paisaje sepia se vuelve una noche azul y la maquina lleva contorno de luz.
+      "--paisaje-filtro": "hue-rotate(185deg) saturate(0.75) brightness(0.42)",
+      "--vehiculo-filtro": "drop-shadow(0 0 2px rgba(210, 235, 255, 0.75)) drop-shadow(0 0 18px rgba(63, 224, 255, 0.25))",
       "--figura-filtro": "drop-shadow(0 0 1.5px rgba(210, 235, 255, 0.85)) drop-shadow(0 0 16px rgba(63, 224, 255, 0.25))",
     },
     fondoCss: (p) => `
@@ -400,6 +443,119 @@ export const TEMAS = {
           radial-gradient(ellipse 42% 34% at 82% 22%, rgba(255, 90, 168, 0.10) 0%, rgba(255, 90, 168, 0) 100%),
           radial-gradient(ellipse 50% 40% at 14% 78%, rgba(63, 160, 255, 0.12) 0%, rgba(63, 160, 255, 0) 100%),
           radial-gradient(ellipse 30% 22% at 60% 70%, rgba(150, 90, 255, 0.07) 0%, rgba(150, 90, 255, 0) 100%),
+          radial-gradient(ellipse 72% 50% at 50% 40%, ${p.brillo} 0%, ${p.brilloFin} 100%),
+          ${p.fondo}`,
+  },
+  // Supervivencia (canal de Juliana): cuaderno de campo sobre mapa topografico. Verde oliva oscuro con
+  // curvas de nivel fijas, tarjetas de lona con borde de cinta, tinta clara, naranja de rescate y
+  // amarillo de senal, verde musgo; titulos en Oswald, texto en Barlow y cifras de estarcido.
+  expedicion: {
+    fondo: "#262b1d",
+    brillo: "#3d4630",
+    google: "https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Barlow:wght@500;600;700&family=Big+Shoulders+Stencil+Display:wght@700;800;900&display=swap",
+    anchos: { anchoTitulo: 0.5, anchoTexto: 0.52, anchoCifra: 0.5 },
+    vars: {
+      "--tinta": "#f2ead0",
+      "--tinta-suave": "#c7c1a0",
+      "--acento": "#ff7a2a",
+      "--acento2": "#ffd23f",
+      "--alerta": "#ff3b2f",
+      "--bien": "#9cc063",
+      "--sobre-acento": "#1c1a10",
+      "--tarjeta": "rgba(52, 57, 38, 0.94)",
+      "--borde-tarjeta": "3px solid rgba(232, 220, 174, 0.4)",
+      "--sombra": "0 14px 30px rgba(0, 0, 0, 0.45)",
+      "--radio": "6px",
+      "--linea": "#ff7a2a",
+      "--riel": "rgba(232, 220, 174, 0.26)",
+      "--resplandor": "4px 4px 0 rgba(0, 0, 0, 0.5)",
+      "--resplandor-tinta": "3px 3px 0 rgba(0, 0, 0, 0.35)",
+      "--il-filtro": "drop-shadow(0 10px 12px rgba(0, 0, 0, 0.4))",
+      "--marco": "#ff7a2a",
+      "--marco-sombra": "0 0 0 6px #2f3422, 0 0 0 9px #ffd23f, 0 16px 30px rgba(0, 0, 0, 0.45)",
+      "--ins-fondo": "#ffd23f",
+      "--ins-tinta": "#1c1a10",
+      "--ins-borde": "0 solid transparent",
+      "--ins-sombra": "3px 3px 0 rgba(0, 0, 0, 0.45)",
+      "--lupa-aro": "#ffd23f",
+      "--lupa-mango": "#ff6a1a",
+      "--fuente-titulo": '"Oswald", sans-serif',
+      "--peso-titulo": "700",
+      "--espaciado-titulo": "0.005em",
+      "--fuente-texto": '"Barlow", sans-serif',
+      "--peso-texto": "600",
+      "--fuente-cifra": '"Big Shoulders Stencil Display", "Oswald", sans-serif',
+      "--fuente-sub": '"Barlow", sans-serif',
+      "--peso-sub": "700",
+      "--sub-tinta": "#fff6e0",
+      "--sub-clave": "#ffd23f",
+      "--sub-fondo": "rgba(24, 27, 17, 0.88)",
+      "--sub-borde": "2px solid rgba(255, 106, 26, 0.65)",
+      "--sub-caja": "0 8px 20px rgba(0, 0, 0, 0.4)",
+      "--sub-sombra": "none",
+      ...HORIZONTAL_PAPEL,
+      // Plantillas horizontales: lona y papel de campo oscuros, cinta amarilla, mapa topografico.
+      "--hoja": "#3a4029",
+      "--hoja-fin": "#2a2f1e",
+      "--hoja-alta": "#454c33",
+      "--hoja-baja": "#323826",
+      "--hoja-baja2": "#323826",
+      "--hoja-media": "#2f3422",
+      "--hoja-tablero": "#3d4430",
+      "--hoja-foto": "#23271a",
+      "--hoja-tinta": "#1c1a10",
+      "--cinta": "rgba(255, 210, 63, 0.88)",
+      "--sombra-rgb": "0, 0, 0",
+      "--sombra2-rgb": "0, 0, 0",
+      "--borde-rgb": "232, 220, 174",
+      "--mancha-rgb": "0, 0, 0",
+      "--hoja-rgb": "38, 43, 28",
+      "--halo": "#262b1c",
+      "--halo-rgb": "38, 43, 28",
+      "--icono-papel": "#2f3422",
+      "--trazo": "#f2ead0",
+      "--trazo-suave": "#b9b38f",
+      "--varilla": "#5d5a48",
+      "--varilla-luz": "#cfc8a2",
+      "--perilla": "#ff6a1a",
+      "--roseta": "#ffd23f",
+      "--mar": "#2b3f40",
+      "--mar-fin": "#1c2a2b",
+      "--mar-raya-rgb": "160, 205, 195",
+      "--tierra": "#4b5035",
+      "--mar-chico": "#2b3f40",
+      "--costa": "#eadfb0",
+      "--mar-halo": "rgba(190, 225, 215, 0.12)",
+      "--txt-mar": "#a8cbc2",
+      "--txt-mar2": "#a8cbc2",
+      "--txt-rio": "#bfe2d8",
+      "--lago": "#2f4546",
+      "--canal-agua": "#5f9c9a",
+      "--rio": "#7fb8b2",
+      "--luz-ventana": "#ffd23f",
+      "--cabina": "#454c33",
+      "--acero-1": "#dcd6bc",
+      "--acero-2": "#8c8970",
+      "--acero-3": "#3c3b2f",
+      "--acero-brillo": "#f6f1da",
+      "--hilo": "#ff6a1a",
+      "--pin": "#ff3b2f",
+      "--pin-luz": "#ffc9a8",
+      "--mesa": "#5a4a32",
+      "--mesa-luz": "#7a6544",
+      "--mesa-frente": "#3f3424",
+      "--mesa-oscura": "#2e2619",
+      "--firma": "#ffd23f",
+      "--pais-k": "0.5",
+      "--mapa-textura": texturaTopografica(),
+      "--figura-filtro": "drop-shadow(0 0 1.5px rgba(242, 234, 208, 0.7)) drop-shadow(0 8px 10px rgba(0, 0, 0, 0.4))",
+      "--paisaje-filtro": "hue-rotate(18deg) saturate(0.8) brightness(0.6)",
+      "--vehiculo-filtro": "drop-shadow(0 0 1.5px rgba(242, 234, 208, 0.6)) drop-shadow(0 10px 12px rgba(0, 0, 0, 0.45))",
+    },
+    fondoCss: (p) => `
+          radial-gradient(ellipse 125% 95% at 50% 45%, rgba(0, 0, 0, 0) 52%, rgba(0, 0, 0, 0.5) 100%),
+          ${texturaTopografica()},
+          radial-gradient(ellipse 50% 40% at 85% 85%, rgba(255, 106, 26, 0.07) 0%, rgba(255, 106, 26, 0) 100%),
           radial-gradient(ellipse 72% 50% at 50% 40%, ${p.brillo} 0%, ${p.brilloFin} 100%),
           ${p.fondo}`,
   },

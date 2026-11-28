@@ -20,6 +20,8 @@
     #{{id}}-paisaje {
       position: absolute;
       inset: 0;
+      /* El paisaje se dibuja en tonos de papel; los temas oscuros lo pasan a su luz (noche, campo). */
+      filter: var(--paisaje-filtro, none);
     }
     #{{id}}-veh {
       position: absolute;
@@ -31,6 +33,7 @@
     #{{id}}-veh-f {
       position: absolute;
       inset: 0;
+      filter: var(--vehiculo-filtro, none);
     }
     #{{id}}-sello {
       position: absolute;
