@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-27-westcol-multa-la-cagamos",
+    "url_fuente":  "https://www.youtube.com/watch?v=cmc2_uDXbQo",
+    "video_id":  "cmc2_uDXbQo",
+    "inicio":  84.41,
+    "fin":  111.66,
+    "inicio_hms":  "0:01:24",
+    "duracion_seg":  27.2,
+    "gancho":  "La multa de 54 millones por la mansión",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  87,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "color":  "",
+    "resolucion":  "1080x1920",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -20.63,
+                  "entrada_tp":  -13.26,
+                  "salida_lufs":  -13.98,
+                  "salida_tp":  -6.71
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-27-westcol-multa-la-cagamos/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-27-westcol-multa-la-cagamos/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-27-westcol-multa-la-cagamos/revision.jpg",
+    "creado":  "2026-11-27T18:34:04.0066228-05:00"
+}

@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-27-parenlamano-padre-acompanante",
+    "url_fuente":  "https://www.youtube.com/watch?v=kdmn16vYazg",
+    "video_id":  "kdmn16vYazg",
+    "inicio":  1817.01,
+    "fin":  1887.3,
+    "inicio_hms":  "0:30:17",
+    "duracion_seg":  70.3,
+    "gancho":  "Su hija lo postuló como padre acompañante",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  142,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "color":  "",
+    "resolucion":  "1080x1920",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -16.52,
+                  "entrada_tp":  -6.68,
+                  "salida_lufs":  -14.02,
+                  "salida_tp":  -4.16
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-27-parenlamano-padre-acompanante/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-27-parenlamano-padre-acompanante/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-27-parenlamano-padre-acompanante/revision.jpg",
+    "creado":  "2026-11-27T19:10:38.2823502-05:00"
+}

@@ -1,70 +1,76 @@
 # Pendientes del Publicador
 
-Generado: 2026-11-26T16:40:20-05:00 · ciclo 21 · entrada: `salidas/clipero/clips.json` (ciclo 25 del Clipero, generado el 2026-11-26 a las 16:27): 7 clips nuevos (4 urbanos, del día de Westcol en el Senado, y 3 de risas).
+Generado: 2026-11-27T20:36:47-05:00 · ciclo 22 · entrada: `salidas/clipero/clips.json` (ciclo 26 del Clipero, generado el 2026-11-27 a las 20:15): 12 clips nuevos (9 urbanos de Westcol y 3 de risas).
 
 **Cómo leer esta página**
 
-- **TikTok, hoy (16:37): 2 borradores nuevos en la bandeja.** No son públicos hasta que los publicas desde la app. La API solo manda el video: al publicar cada uno, **pega el texto de TikTok** de su sección.
-  - **`principal` (Legión Urbana), 1 de 4 hoy:** `westcol-cinco-anitos`, nuevo, con ventana hasta el 28-nov.
-  - **`risas` (@legion.risas), 1 de 4 hoy:** `guzman-birria`, con ventana hasta el 27-nov.
-  - No se mandó más porque cada cuenta ya tiene 5 borradores en 24 h (los 4 de anoche, 19:48-19:52, y el de hoy), el tope de TikTok.
-- **En cola** (aprobados automáticamente como borradores; van en el siguiente ciclo después de las 19:52 de hoy o el 27-nov, todos con ventana hasta el 28-nov):
-  - `principal`: `westcol-familias-accion`, `westcol-eslogan` y `westcol-biche`;
-  - `risas`: `cotorrisa-motel-perra`, `cotorrisa-orangutan-palomitas` y `parenlamano-oso-gta`.
+- **TikTok, hoy (20:29-20:34): 8 borradores nuevos en la bandeja**, 4 por cuenta. No son públicos hasta que los publicas desde la app. La API solo manda el video: al publicar cada uno, **pega el texto de TikTok** de su sección.
+  - **`principal` (Legión Urbana), 4 de 4 hoy:** `westcol-politica-cinco-anos` (nuevo), `westcol-familias-accion`, `westcol-eslogan` y `westcol-biche`. Los cuatro vencen el 28-nov.
+  - **`risas` (@legion.risas), 4 de 4 hoy:** `cotorrisa-motel-perra`, `cotorrisa-orangutan-palomitas` y `parenlamano-oso-gta` (vencen el 28-nov), y `parenlamano-padre-acompanante` (nuevo, vence el 29-nov).
+- **En cola** (aprobados automáticamente como borradores). El 28-nov cada cuenta admite 1 más antes de las 20:34, cuando salen de la ventana de 24 h los 4 de hoy, y 3 más después:
+  - **`principal`:** el 28-nov `westcol-moto-no-se-vio` y, después de las 20:34, `westcol-multa-la-cagamos`, `westcol-hijos` y `westcol-multa-cuenta`. El 29-nov, `westcol-ganga-china`, `westcol-ganga-finca`, `westcol-arcangel-la-10` y `westcol-helipuerto`. Todos caben antes de su ventana (30-nov; `helipuerto`, 3-dic).
+  - **`risas`:** el 28-nov `rubius-gym-gta` y, después de las 20:34, `parenlamano-casi-me-matas`. Los dos vencen el 29-nov.
 - **Qué publicar y cuándo** (ventana y fichas del Clipero):
-  - **Hoy, antes de que acabe el día:** `culpa-contrasena` y `anecdotario-voz-clonada` en `risas` (vencen hoy), mejor a horas distintas; `koddy-quita-eso` en `principal`, hacia las 19:00.
-  - **27-nov:** `guzman-birria` (la ficha la quiere en un día distinto de la contraseña, así que mejor mañana que hoy) y `koddy-ryan-remix` (19:00, otro día que `koddy-quita-eso`).
-  - **Westcol en el Senado** (los cuatro son del mismo video, uno por franja): `cinco-anitos` el 27-nov hacia las 12:00, `familias-accion` el 27-nov hacia las 19:00, `eslogan` el 28-nov hacia las 12:00 y `biche` el 28-nov hacia las 19:00.
-  - **Risas nuevos**, cuando lleguen a la bandeja: `cotorrisa-motel-perra` el 26-nov hacia las 21:00 o el 27-nov hacia las 19:00, `parenlamano-oso-gta` el 27-nov hacia las 13:00 y `cotorrisa-orangutan-palomitas` el 28-nov hacia las 13:00, separado del motel.
+  - **Mañana, 28-nov, temprano:** `westcol-politica-cinco-anos` hacia las 08:00 (vence ese día). Del Senado, `westcol-eslogan` hacia las 12:00 y `westcol-biche` hacia las 19:00; `westcol-familias-accion` también vence el 28-nov. Si los publicas todos, sepáralos en franjas distintas.
+  - **Risas, 28-nov:** `parenlamano-padre-acompanante` hacia las 13:00; `cotorrisa-motel-perra`, `cotorrisa-orangutan-palomitas` y `parenlamano-oso-gta` vencen ese día, mejor separados entre sí (el motel y el orangután son del mismo episodio).
+  - **Antes de que acabe hoy:** `guzman-birria` (risas), `koddy-quita-eso` y `koddy-ryan-remix` (principal) siguen en la bandeja con la ventana abierta hasta hoy.
 - **Revisa estos antes de publicar** (avisos del Clipero):
-  - **Contenido político (Senado):** los cuatro de Westcol pasan en el Capitolio, sin postura, partidos ni nadie del Gobierno, y los textos no nombran a ningún senador. `westcol-familias-accion` habla de un programa del Estado (Familias en Acción) y puede abrir debate en comentarios; su cifra «300.000 cada tres meses» no se sabe quién la dice y los textos no la citan. Si no quieres nada del Congreso en Legión Urbana, recházalos antes del siguiente ciclo (`/publicador rechazar 2026-11-26-westcol-familias-accion <motivo>`, y así con los otros) y descarta desde la app el borrador de `westcol-cinco-anitos`.
-  - **`parenlamano-oso-gta`:** el panelista describe al personaje del juego como «un hombre de rasgos orientales… un chinito». No es la base del chiste, pero si te suena a burla, no lo publiques: `/publicador rechazar 2026-11-26-parenlamano-oso-gta <motivo>` antes de que se envíe, o descártalo desde la app si ya llegó.
-  - **`westcol-biche`:** sale una botella de biche que solo se huele; nadie bebe y los textos no invitan a beber.
-  - **`cotorrisa-motel-perra`:** habla de sexo sin nada explícito y dura 74,3 s; dos groserías pitadas. «Perra» es su mascota.
-  - **Tramos dudosos marcados «(…)»:** `westcol-cinco-anitos`, `westcol-eslogan`, `westcol-biche`, `parenlamano-oso-gta`, `guzman-birria`, `anecdotario-voz-clonada`, `koddy-quita-eso` y `koddy-ryan-remix`. Escúchalos antes de publicar. Ningún texto cita esas palabras.
-    - En `koddy-quita-eso`, si al final se oye «por el doble», puedes añadirlo al título.
-  - **`anecdotario-voz-clonada`:** sale «Roberto Martínez» (0:46:43 de la fuente) tal como lo transcribió YouTube, sin identificar. Los textos no lo nombran.
-  - **Groserías pitadas** (salen como «***»): `culpa-contrasena` («estos hijo de ***»; además, «me emputa» se oye sin pitar), `guzman-birria` (la reacción final), `koddy-quita-eso` y `cotorrisa-motel-perra`. En `cotorrisa-orangutan-palomitas`, un «qué pedo, güey» y un «pinches» sin pitido.
-  - **`ganga-bote-ferrari`** (en la bandeja desde el 25-nov; su ventana acabó ayer): mira si la mujer de pelo largo y chaqueta negra de la izquierda es Katy Cardona, excluida por venir de un reality. **Si es ella, no lo publiques: descártalo desde la app.**
-  - **`westcol-mejor-mes`** (en la bandeja desde el 23-nov; ventana cerrada): no se puede asegurar que la voz que da la cifra sea la de Westcol. Si no es su voz, descártalo desde la app.
+  - **`westcol-multa-cuenta`** (en cola): en los primeros segundos Westcol enseña a cámara el móvil con el documento de la reclamación. **Míralo a tamaño completo:** si se lee el nombre, el teléfono o la dirección del dueño de la casa (una persona privada), no lo publiques. Recházalo (`/publicador rechazar 2026-11-27-westcol-multa-cuenta <motivo>`) antes de que se envíe, o descártalo desde la app si ya llegó.
+  - **Música con posibles derechos:** `westcol-arcangel-la-10` lleva un trozo de otro directo suyo; si debajo suena una canción de Arcángel, no se publica. `rubius-gym-gta` marca «[música]» hacia 10:38 y 11:39 en la fuente; si suena una canción reconocible (y no la radio del juego), no se publica.
+  - **Contenido político:** `westcol-politica-cinco-anos` (habla de entrar algún día en política, sin partidos ni candidatos) y los cuatro del Senado del 26-nov. Si no quieres política en Legión Urbana, descártalos desde la app.
+  - **`parenlamano-oso-gta`:** el panelista describe al personaje del juego como «un hombre de rasgos orientales… un chinito». Si suena a burla, no lo publiques.
+  - **Groserías pitadas o fuertes:** `westcol-hijos` («inmaduro de ***»), `westcol-ganga-finca` (dos palabras pitadas), `parenlamano-casi-me-matas` («sos ***»), `cotorrisa-motel-perra` (habla de sexo sin nada explícito). `westcol-multa-la-cagamos` lleva «la cagamos», «huevón» y «papi».
+  - **Tramos dudosos marcados «(…)»:** casi todos los clips nuevos. Escúchalos antes de publicar; ningún texto cita esas palabras.
+  - **`ganga-bote-ferrari`** (en la bandeja desde el 25-nov; ventana cerrada): si la mujer de pelo largo y chaqueta negra de la izquierda es Katy Cardona, excluida por venir de un reality, **no lo publiques: descártalo desde la app.**
+  - **`westcol-mejor-mes`** (en la bandeja desde el 23-nov; ventana cerrada): no se puede asegurar que la voz que da la cifra sea la de Westcol. Si no es su voz, descártalo.
 - **Caso Herrera** (pasa a lo legal; Cazador Urbano, 17-nov). Nada se reabre:
   - **`westcol-disculpa-pelea-jh` está en la bandeja de Legión Urbana: no lo publiques.** Descártalo desde la app.
   - **`westcol-herrera-no-planeado`:** el envío del 17-nov dio HTTP 500 y no se sabe si llegó. Si está en la bandeja, descártalo.
-- **Bandeja según la API: 82 borradores sin publicar** (44 en `principal` y 38 en `risas`). 76 tienen la ventana cerrada: 75 en la tabla del resumen y `westcol-disculpa-pelea-jh` (Herrera). **Publica o descarta** desde la app los que ya no quieras: así TikTok acepta mejor los siguientes.
-- **Vencieron sin enviarse en este ciclo:** las 10 entradas de Instagram y YouTube de `hh-cuna-inteligente`, `francupido-bombera-carga`, `juanpis-consigna-papa`, `ganga-leandro-wakesurf` y `ganga-bote-ferrari` (ventana 25-nov). Sus TikTok siguen en la bandeja. Para reabrir una: `/publicador aprobar <clip-id>:<plataforma>`.
-- **Instagram y YouTube:** pendientes de aprobación. Siguen sin activar y sin credenciales: aprobar ahora solo deja el envío listo.
+- **Bandeja según la API: 90 borradores sin publicar** (48 en `principal` y 42 en `risas`). **Publica o descarta** desde la app los que ya no quieras: así TikTok acepta mejor los siguientes.
+- **Vencieron sin enviarse en este ciclo:** las 4 entradas de Instagram y YouTube de `culpa-contrasena` y `anecdotario-voz-clonada` (ventana 26-nov). Sus TikTok siguen en la bandeja. Para reabrir una: `/publicador aprobar <clip-id>:<plataforma>`.
+- **Instagram y YouTube:** 44 entradas pendientes de aprobación. Siguen sin activar y sin credenciales: aprobar ahora solo deja el envío listo.
   - **YouTube lleva un canal por línea:** los urbanos van a `principal` (Legión Urbana) y los de risas a `risas` (Legión de Risas, apagado hasta que lo autorices).
   - **En YouTube lo aprobado sale público** al subirse (`youtube.privacidad: public`; Google ya no deja privado lo que suben los proyectos sin auditar).
   - En Instagram, los urbanos van a `principal` y los de risas a la cuenta `risas` (apagada), nunca a la urbana.
-  - Las de `culpa-contrasena` y `anecdotario-voz-clonada` vencen al acabar hoy.
+  - Las de `guzman-birria`, `koddy-quita-eso` y `koddy-ryan-remix` vencen al acabar hoy.
 - **Clips subidos a mano** (`legion/03-publicador/subidos-a-mano.json`): no aparecen aquí.
 - **Derechos:** todos los clips de esta página son `sin_verificar`: contenido de terceros sin permiso confirmado. Solo se publica con aprobación expresa (en TikTok, tu publicación desde la bandeja) y siempre con el crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
 
 ## Resumen
 
-Línea **urbano**: 6 clips.
+Línea **urbano**: 15 clips.
 
 | # | Clip | Puntaje | Ventana hasta | TikTok (principal) | Instagram (principal) | YouTube (principal) |
 |---|---|---|---|---|---|---|
-| 4 | `2026-11-25-koddy-quita-eso` | 71 | 2026-11-27 | en la bandeja desde 2026-11-25 19:51 (borrador) | pendiente de aprobación | pendiente de aprobación |
-| 5 | `2026-11-25-koddy-ryan-remix` | 68 | 2026-11-27 | en la bandeja desde 2026-11-25 19:52 (borrador) | pendiente de aprobación | pendiente de aprobación |
-| 6 | `2026-11-26-westcol-cinco-anitos` | 81 | 2026-11-28 | en la bandeja desde 2026-11-26 16:37 (borrador), **enviado hoy**, **nuevo** | pendiente de aprobación, **nuevo** | pendiente de aprobación, **nuevo** |
-| 8 | `2026-11-26-westcol-familias-accion` | 76 | 2026-11-28 | aprobado automáticamente; en cola (después de las 19:52 de hoy o el 27-nov), **nuevo** | pendiente de aprobación, **nuevo** | pendiente de aprobación, **nuevo** |
-| 9 | `2026-11-26-westcol-eslogan` | 73 | 2026-11-28 | aprobado automáticamente; en cola (después de las 19:52 de hoy o el 27-nov), **nuevo** | pendiente de aprobación, **nuevo** | pendiente de aprobación, **nuevo** |
-| 12 | `2026-11-26-westcol-biche` | 68 | 2026-11-28 | aprobado automáticamente; en cola (después de las 19:52 de hoy o el 27-nov), **nuevo** | pendiente de aprobación, **nuevo** | pendiente de aprobación, **nuevo** |
+| 2 | `2026-11-25-koddy-quita-eso` | 71 | 2026-11-27 | en la bandeja desde 2026-11-25 19:51 (borrador) | pendiente de aprobación; vence al acabar hoy | pendiente de aprobación; vence al acabar hoy |
+| 3 | `2026-11-25-koddy-ryan-remix` | 68 | 2026-11-27 | en la bandeja desde 2026-11-25 19:52 (borrador) | pendiente de aprobación; vence al acabar hoy | pendiente de aprobación; vence al acabar hoy |
+| 4 | `2026-11-27-westcol-politica-cinco-anos` | 80 | 2026-11-28 | en la bandeja desde 2026-11-27 20:29 (borrador), **enviado hoy**, **nuevo** | pendiente de aprobación, **nuevo** | pendiente de aprobación, **nuevo** |
+| 5 | `2026-11-26-westcol-cinco-anitos` | 81 | 2026-11-28 | en la bandeja desde 2026-11-26 16:37 (borrador) | pendiente de aprobación | pendiente de aprobación |
+| 7 | `2026-11-26-westcol-familias-accion` | 76 | 2026-11-28 | en la bandeja desde 2026-11-27 20:30 (borrador), **enviado hoy** | pendiente de aprobación | pendiente de aprobación |
+| 8 | `2026-11-26-westcol-eslogan` | 73 | 2026-11-28 | en la bandeja desde 2026-11-27 20:31 (borrador), **enviado hoy** | pendiente de aprobación | pendiente de aprobación |
+| 11 | `2026-11-26-westcol-biche` | 68 | 2026-11-28 | en la bandeja desde 2026-11-27 20:32 (borrador), **enviado hoy** | pendiente de aprobación | pendiente de aprobación |
+| 15 | `2026-11-27-westcol-moto-no-se-vio` | 84 | 2026-11-30 | aprobado automáticamente; en cola (28-nov o 29-nov), **nuevo** | pendiente de aprobación, **nuevo** | pendiente de aprobación, **nuevo** |
+| 16 | `2026-11-27-westcol-multa-la-cagamos` | 83 | 2026-11-30 | aprobado automáticamente; en cola (28-nov o 29-nov), **nuevo** | pendiente de aprobación, **nuevo** | pendiente de aprobación, **nuevo** |
+| 17 | `2026-11-27-westcol-hijos` | 78 | 2026-11-30 | aprobado automáticamente; en cola (28-nov o 29-nov), **nuevo** | pendiente de aprobación, **nuevo** | pendiente de aprobación, **nuevo** |
+| 18 | `2026-11-27-westcol-multa-cuenta` | 75 | 2026-11-30 | aprobado automáticamente; en cola (28-nov o 29-nov), **nuevo** | pendiente de aprobación, **nuevo** | pendiente de aprobación, **nuevo** |
+| 19 | `2026-11-27-westcol-ganga-china` | 72 | 2026-11-30 | aprobado automáticamente; en cola (28-nov o 29-nov), **nuevo** | pendiente de aprobación, **nuevo** | pendiente de aprobación, **nuevo** |
+| 20 | `2026-11-27-westcol-ganga-finca` | 70 | 2026-11-30 | aprobado automáticamente; en cola (28-nov o 29-nov), **nuevo** | pendiente de aprobación, **nuevo** | pendiente de aprobación, **nuevo** |
+| 21 | `2026-11-27-westcol-arcangel-la-10` | 66 | 2026-11-30 | aprobado automáticamente; en cola (28-nov o 29-nov), **nuevo** | pendiente de aprobación, **nuevo** | pendiente de aprobación, **nuevo** |
+| 22 | `2026-11-27-westcol-helipuerto` | 74 | 2026-12-03 | aprobado automáticamente; en cola (28-nov o 29-nov), **nuevo** | pendiente de aprobación, **nuevo** | pendiente de aprobación, **nuevo** |
 
-Línea **risas**: 6 clips.
+Línea **risas**: 7 clips.
 
 | # | Clip | Puntaje | Ventana hasta | TikTok (risas) | Instagram (risas) | YouTube (risas) |
 |---|---|---|---|---|---|---|
-| 1 | `2026-11-25-culpa-contrasena` | 80 | 2026-11-26 | en la bandeja desde 2026-11-25 19:51 (borrador) | pendiente de aprobación (cuenta apagada); vence al acabar hoy | pendiente de aprobación (cuenta apagada); vence al acabar hoy |
-| 2 | `2026-11-25-anecdotario-voz-clonada` | 76 | 2026-11-26 | en la bandeja desde 2026-11-25 19:52 (borrador) | pendiente de aprobación (cuenta apagada); vence al acabar hoy | pendiente de aprobación (cuenta apagada); vence al acabar hoy |
-| 3 | `2026-11-25-guzman-birria` | 79 | 2026-11-27 | en la bandeja desde 2026-11-26 16:37 (borrador), **enviado hoy** | pendiente de aprobación (cuenta apagada) | pendiente de aprobación (cuenta apagada) |
-| 7 | `2026-11-26-cotorrisa-motel-perra` | 79 | 2026-11-28 | aprobado automáticamente; en cola (después de las 19:52 de hoy o el 27-nov), **nuevo** | pendiente de aprobación (cuenta apagada), **nuevo** | pendiente de aprobación (cuenta apagada), **nuevo** |
-| 10 | `2026-11-26-cotorrisa-orangutan-palomitas` | 73 | 2026-11-28 | aprobado automáticamente; en cola (después de las 19:52 de hoy o el 27-nov), **nuevo** | pendiente de aprobación (cuenta apagada), **nuevo** | pendiente de aprobación (cuenta apagada), **nuevo** |
-| 11 | `2026-11-26-parenlamano-oso-gta` | 72 | 2026-11-28 | aprobado automáticamente; en cola (después de las 19:52 de hoy o el 27-nov), **nuevo** | pendiente de aprobación (cuenta apagada), **nuevo** | pendiente de aprobación (cuenta apagada), **nuevo** |
+| 1 | `2026-11-25-guzman-birria` | 79 | 2026-11-27 | en la bandeja desde 2026-11-26 16:37 (borrador) | pendiente de aprobación (cuenta apagada); vence al acabar hoy | pendiente de aprobación (cuenta apagada); vence al acabar hoy |
+| 6 | `2026-11-26-cotorrisa-motel-perra` | 79 | 2026-11-28 | en la bandeja desde 2026-11-27 20:30 (borrador), **enviado hoy** | pendiente de aprobación (cuenta apagada) | pendiente de aprobación (cuenta apagada) |
+| 9 | `2026-11-26-cotorrisa-orangutan-palomitas` | 73 | 2026-11-28 | en la bandeja desde 2026-11-27 20:31 (borrador), **enviado hoy** | pendiente de aprobación (cuenta apagada) | pendiente de aprobación (cuenta apagada) |
+| 10 | `2026-11-26-parenlamano-oso-gta` | 72 | 2026-11-28 | en la bandeja desde 2026-11-27 20:32 (borrador), **enviado hoy** | pendiente de aprobación (cuenta apagada) | pendiente de aprobación (cuenta apagada) |
+| 12 | `2026-11-27-parenlamano-padre-acompanante` | 78 | 2026-11-29 | en la bandeja desde 2026-11-27 20:33 (borrador), **enviado hoy**, **nuevo** | pendiente de aprobación (cuenta apagada), **nuevo** | pendiente de aprobación (cuenta apagada), **nuevo** |
+| 13 | `2026-11-27-rubius-gym-gta` | 70 | 2026-11-29 | aprobado automáticamente; en cola (28-nov o 29-nov), **nuevo** | pendiente de aprobación (cuenta apagada), **nuevo** | pendiente de aprobación (cuenta apagada), **nuevo** |
+| 14 | `2026-11-27-parenlamano-casi-me-matas` | 68 | 2026-11-29 | aprobado automáticamente; en cola (28-nov o 29-nov), **nuevo** | pendiente de aprobación (cuenta apagada), **nuevo** | pendiente de aprobación (cuenta apagada), **nuevo** |
 
-**Borradores con la ventana cerrada** (75; siguen en la bandeja de TikTok según la API; publícalos solo si aún te sirven, si no, descártalos desde la app para liberar sitio). El texto de cada uno está en su archivo de envío.
+**Borradores con la ventana cerrada** (77; siguen en la bandeja de TikTok según la API; publícalos solo si aún te sirven, si no, descártalos desde la app para liberar sitio). El texto de cada uno está en su archivo de envío.
 
 | Clip | Cuenta | En la bandeja desde | Ventana hasta | Texto |
 |---|---|---|---|---|
@@ -143,6 +149,8 @@ Línea **risas**: 6 clips.
 | `2026-11-22-francupido-bombera-carga` | risas | 2026-11-25 19:48 | 2026-11-25 | [envío](../../datos/publicador/envios/2026-11-22-francupido-bombera-carga__tiktok.json) |
 | `2026-11-23-juanpis-consigna-papa` | risas | 2026-11-25 19:49 | 2026-11-25 | [envío](../../datos/publicador/envios/2026-11-23-juanpis-consigna-papa__tiktok.json) |
 | `2026-11-23-ganga-bote-ferrari` | principal | 2026-11-25 19:49 | 2026-11-25 | [envío](../../datos/publicador/envios/2026-11-23-ganga-bote-ferrari__tiktok.json) · **míralo antes** (¿sale Katy Cardona?) |
+| `2026-11-25-culpa-contrasena` | risas | 2026-11-25 19:51 | 2026-11-26 | [envío](../../datos/publicador/envios/2026-11-25-culpa-contrasena__tiktok.json) |
+| `2026-11-25-anecdotario-voz-clonada` | risas | 2026-11-25 19:52 | 2026-11-26 | [envío](../../datos/publicador/envios/2026-11-25-anecdotario-voz-clonada__tiktok.json) |
 
 **Borradores que no conviene publicar** (caso Herrera; descártalos desde la app):
 
@@ -152,107 +160,7 @@ Línea **risas**: 6 clips.
 | `2026-11-17-westcol-herrera-no-planeado` | principal | no se sabe si llegó (HTTP 500 el 2026-11-17 16:57) | [envío](../../datos/publicador/envios/2026-11-17-westcol-herrera-no-planeado__tiktok.json) |
 
 
-## 1. `2026-11-25-culpa-contrasena`
-
-- **Gancho:** Cuando cambias la contraseña y pones la misma
-- **Puntaje:** 80 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-26 · **Línea:** risas · **Pieza:** original (sin variantes)
-- **Video:** [clip.mp4](../clipero/clips/2026-11-25-culpa-contrasena/clip.mp4) (44,1 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-25-culpa-contrasena/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=4i4O1pGkuPg
-- **Revisar antes de publicar:** Una grosería está pitada en la fuente («estos hijo de ***») y sale como «***»; «me emputa» se oye sin pitar. En los planos del público salen asistentes al show (no se les nombra). Los textos no citan la grosería ni copian el título del episodio («hu3von3s»). Ficha: publicarlo el 26-nov hacia las 13:00 o las 19:00, en un día distinto del Anecdotario (voz clonada) y de la birria.
-
-### TikTok · cuenta `risas` (@legion.risas) · en la bandeja desde 2026-11-25 19:51 (borrador): pega este texto al publicarlo
-
-```
-Cambias la contraseña… y pones la misma 🙃😂
-
-Ricardo Quevedo en Los De La Culpa: «Hay dos tipos de personas» con las contraseñas, y él es de los que no se acuerdan. La cambia, pasa por el correo y la verificación… y le sale «No puede usar la misma contraseña que antes». «¿Qué quieren de mí?».
-
-¿Te acuerdas de tus contraseñas o eres de los otros? 👇
-
-Crédito: Los De La Culpa (YouTube), «Los De La Culpa - Capítulo 269». Video original (minuto 8:07): https://youtu.be/4i4O1pGkuPg?t=487
-
-#RicardoQuevedo #LosDeLaCulpa #ComediaColombiana #StandUp #Contraseña
-```
-
-### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada); vence al acabar hoy
-
-```
-«No puede usar la misma contraseña que antes» 🙃
-
-Ricardo Quevedo, en Los De La Culpa, sobre los que no se acuerdan de la contraseña: la cambias, pasas por el correo y la verificación… y pones la misma que se suponía que no era. «¿Qué quieren de mí?».
-
-¿De qué tipo eres tú? 👇
-
-Crédito: Los De La Culpa (YouTube), «Los De La Culpa - Capítulo 269». Video original (minuto 8:07): https://youtu.be/4i4O1pGkuPg?t=487
-
-#RicardoQuevedo #LosDeLaCulpa #ComediaColombiana #StandUp #Contraseña
-```
-
-### YouTube · cuenta `risas` (canal de la Legión de Risas) · pendiente de aprobación (cuenta apagada); vence al acabar hoy
-
-**Título:** Ricardo Quevedo: hay dos tipos de personas con las contraseñas
-
-```
-Olvidas la contraseña, la cambias… y pones la misma: «No puede usar la misma contraseña que antes». Ricardo Quevedo en Los De La Culpa.
-
-Crédito: Los De La Culpa (YouTube), «Los De La Culpa - Capítulo 269». Video original (minuto 8:07): https://youtu.be/4i4O1pGkuPg?t=487
-
-#RicardoQuevedo #LosDeLaCulpa #ComediaColombiana #StandUp
-```
-
-**Etiquetas:** Ricardo Quevedo, Los De La Culpa, comedia colombiana, stand up, contraseña, contraseñas, humor, anécdotas
-
-
-## 2. `2026-11-25-anecdotario-voz-clonada`
-
-- **Gancho:** Farid Dieck: clonaron su voz con IA
-- **Puntaje:** 76 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-26 · **Línea:** risas · **Pieza:** original (sin variantes)
-- **Video:** [clip.mp4](../clipero/clips/2026-11-25-anecdotario-voz-clonada/clip.mp4) (53,9 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-25-anecdotario-voz-clonada/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=5tZ_GGz7q8s
-- **Revisar antes de publicar:** Escúchalo antes: tres palabras de los subtítulos automáticos no se entienden y van como «(…)» (0:46:19 de la fuente, «¿No eres tú el de…?»). «Roberto Martínez» (0:46:43) sale así en los subtítulos automáticos y no se ha podido comprobar quién es: los textos no lo citan. El remate lo dice alguien «haciendo de la mamá»; los textos no dicen quién. Habla de voces clonadas, pero el clip no lleva ninguna voz sintética. Termina antes de «pero es un dictador» (fuera). Ficha: lo antes posible, esta noche (25-nov) o el 26-nov hacia las 13:00, antes que la birria.
-
-### TikTok · cuenta `risas` (@legion.risas) · en la bandeja desde 2026-11-25 19:52 (borrador): pega este texto al publicarlo
-
-```
-Clonaron la voz de Farid Dieck… y ahora tiene que explicárselo a su mamá 😂
-
-«Mi voz se utiliza para todo»: anuncios que no hizo y hasta versículos de la Biblia que nunca leyó. «Me rompe el corazón decirte que no soy yo… mamá». En el Anecdotario 379, con Ricardo Pérez y Slobotzky.
-
-¿Te ha llegado un video con una voz clonada? 👇
-
-Crédito: Anecdotario 379, de La Cotorrisa, canal Ricardo Pérez (YouTube), «Clonaron mi voz para leer la Biblia FT. Farid Dieck». Video original (minuto 45:58): https://youtu.be/5tZ_GGz7q8s?t=2758
-
-#FaridDieck #Anecdotario #LaCotorrisa #RicardoPerez #Comedia
-```
-
-### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada); vence al acabar hoy
-
-```
-«Me rompe el corazón decirte que no soy yo… mamá» 😂
-
-La voz de Farid Dieck sale en anuncios que no hizo y en versículos de la Biblia que nunca leyó. Lo difícil es explicárselo a su mamá. Anecdotario 379, con Ricardo Pérez y Slobotzky.
-
-¿Te ha llegado un video con una voz clonada? 👇
-
-Crédito: Anecdotario 379, de La Cotorrisa, canal Ricardo Pérez (YouTube), «Clonaron mi voz para leer la Biblia FT. Farid Dieck». Video original (minuto 45:58): https://youtu.be/5tZ_GGz7q8s?t=2758
-
-#FaridDieck #Anecdotario #LaCotorrisa #RicardoPerez #Comedia
-```
-
-### YouTube · cuenta `risas` (canal de la Legión de Risas) · pendiente de aprobación (cuenta apagada); vence al acabar hoy
-
-**Título:** Farid Dieck en el Anecdotario: clonaron su voz para leer la Biblia
-
-```
-La voz de Farid Dieck sale en anuncios que no hizo y en versículos de la Biblia que nunca leyó. El problema es explicárselo a su mamá. Con Ricardo Pérez y Slobotzky en el Anecdotario 379 de La Cotorrisa.
-
-Crédito: Anecdotario 379, de La Cotorrisa, canal Ricardo Pérez (YouTube), «Clonaron mi voz para leer la Biblia FT. Farid Dieck». Video original (minuto 45:58): https://youtu.be/5tZ_GGz7q8s?t=2758
-
-#FaridDieck #Anecdotario #LaCotorrisa #Comedia
-```
-
-**Etiquetas:** Farid Dieck, Anecdotario, La Cotorrisa, Ricardo Pérez, Slobotzky, voz clonada, comedia, humor mexicano
-
-
-## 3. `2026-11-25-guzman-birria`
+## 1. `2026-11-25-guzman-birria`
 
 - **Gancho:** Alejandra Guzmán intentó pasar desapercibida
 - **Puntaje:** 79 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-27 · **Línea:** risas · **Pieza:** original (sin variantes)
@@ -273,7 +181,7 @@ Crédito: Al Volante, del Escorpión Dorado (YouTube), episodio con Alejandra Gu
 #AlejandraGuzman #EscorpionDorado #AlVolante #Comedia #Birria
 ```
 
-### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
+### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada); vence al acabar hoy
 
 ```
 Gorra, lentes y peluca… y aun así: «Sí, mi Ale» 😂
@@ -287,7 +195,7 @@ Crédito: Al Volante, del Escorpión Dorado (YouTube), episodio con Alejandra Gu
 #AlejandraGuzman #EscorpionDorado #AlVolante #Comedia #HumorMexicano
 ```
 
-### YouTube · cuenta `risas` (canal de la Legión de Risas) · pendiente de aprobación (cuenta apagada)
+### YouTube · cuenta `risas` (canal de la Legión de Risas) · pendiente de aprobación (cuenta apagada); vence al acabar hoy
 
 **Título:** Alejandra Guzmán se disfrazó para ir por una birria: «Sí, mi Ale»
 
@@ -302,7 +210,7 @@ Crédito: Al Volante, del Escorpión Dorado (YouTube), episodio con Alejandra Gu
 **Etiquetas:** Alejandra Guzmán, Escorpión Dorado, Al Volante, Alex Montiel, comedia, humor mexicano, birria, entrevista
 
 
-## 4. `2026-11-25-koddy-quita-eso`
+## 2. `2026-11-25-koddy-quita-eso`
 
 - **Gancho:** Koddy G: de «quita eso» a contratarlo
 - **Puntaje:** 71 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-27 · **Línea:** urbano · **Pieza:** original (sin variantes)
@@ -323,7 +231,7 @@ Crédito: Mix Radio Colombia (YouTube), entrevista a Koddy G («Ya llevo 5 temas
 #KoddyG #MusicaUrbana #Buenaventura #Motivacion
 ```
 
-### Instagram · cuenta `principal` · pendiente de aprobación
+### Instagram · cuenta `principal` · pendiente de aprobación; vence al acabar hoy
 
 ```
 «Me daba hasta pena salir a la calle»: Køddy G y sus comienzos 🎤
@@ -337,7 +245,7 @@ Crédito: Mix Radio Colombia (YouTube), entrevista a Koddy G («Ya llevo 5 temas
 #KoddyG #MusicaUrbana #Buenaventura #Motivacion
 ```
 
-### YouTube · cuenta `principal` (canal de la Legión Urbana) · pendiente de aprobación
+### YouTube · cuenta `principal` (canal de la Legión Urbana) · pendiente de aprobación; vence al acabar hoy
 
 **Título:** Køddy G: el amigo que le decía «quítame eso» ahora lo quiere contratar
 
@@ -352,7 +260,7 @@ Crédito: Mix Radio Colombia (YouTube), entrevista a Koddy G («Ya llevo 5 temas
 **Etiquetas:** Køddy G, Koddy G, Mix Radio Colombia, música urbana, Buenaventura, entrevista, comienzos, motivación
 
 
-## 5. `2026-11-25-koddy-ryan-remix`
+## 3. `2026-11-25-koddy-ryan-remix`
 
 - **Gancho:** Koddy G: cómo entró Ryan Castro al remix
 - **Puntaje:** 68 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-27 · **Línea:** urbano · **Pieza:** original (sin variantes)
@@ -373,7 +281,7 @@ Crédito: Mix Radio Colombia (YouTube), entrevista a Koddy G («Ya llevo 5 temas
 #KoddyG #RyanCastro #Hagalo #Remix #MusicaUrbana
 ```
 
-### Instagram · cuenta `principal` · pendiente de aprobación
+### Instagram · cuenta `principal` · pendiente de aprobación; vence al acabar hoy
 
 ```
 «Él tiró el TikTok, ya todo estaba hablado desde rato» 🎤
@@ -387,7 +295,7 @@ Crédito: Mix Radio Colombia (YouTube), entrevista a Koddy G («Ya llevo 5 temas
 #KoddyG #RyanCastro #Hagalo #Remix #MusicaUrbana
 ```
 
-### YouTube · cuenta `principal` (canal de la Legión Urbana) · pendiente de aprobación
+### YouTube · cuenta `principal` (canal de la Legión Urbana) · pendiente de aprobación; vence al acabar hoy
 
 **Título:** Køddy G: así llegó Ryan Castro al remix de «Hágalo»
 
@@ -402,7 +310,57 @@ Crédito: Mix Radio Colombia (YouTube), entrevista a Koddy G («Ya llevo 5 temas
 **Etiquetas:** Køddy G, Koddy G, Ryan Castro, Hágalo remix, Mix Radio Colombia, música urbana colombiana, entrevista, Buenaventura
 
 
-## 6. `2026-11-26-westcol-cinco-anitos`
+## 4. `2026-11-27-westcol-politica-cinco-anos`
+
+- **Gancho:** ¿Westcol político? Antes, 5 años de locuras
+- **Puntaje:** 80 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-28 · **Línea:** urbano · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-27-westcol-politica-cinco-anos/clip.mp4) (44,0 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-27-westcol-politica-cinco-anos/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=zcYV0CZF3K4
+- **Revisar antes de publicar:** Escúchalo antes: es contenido político (habla de entrar algún día en política), sin partidos, gobiernos ni candidatos y sin pedir el voto; si no se quiere política en la cuenta urbana, no se publica. Una palabra va como «(…)» y en la fuente va pitada una palabra del mensaje del chat («Lancel» es quien lo escribió). Las primeras frases son el mensaje del chat leído por Westcol, no una idea suya. Los textos no dicen que se sentara en la silla del presidente del Senado. Ficha: TikTok el 28-nov hacia las 08:00, el primero del día, por la ventana.
+
+### TikTok · cuenta `principal` (Legión Urbana) · en la bandeja desde 2026-11-27 20:29 (borrador): pega este texto al publicarlo
+
+```
+¿Westcol senador? «Me quedan 5 añitos de acción» 😅
+
+Un día después de su visita al Senado, el chat le pide que se lance de senador y después de presidente. Su respuesta: «Yo todavía quiero hacer mis locuras y que nadie me siga y que nadie me juzgue». Primero, 5 años más de acción; «ya después ya puedo empezar a usar corbata y traje».
+
+¿Lo ves de senador? 👇
+
+Crédito: WestCOL (YouTube), «¿VOY a TENER HIJOS? | RESPONDIENDO PREGUNTAS del CHAT | Westcol». Video original (minuto 26:36): https://youtu.be/zcYV0CZF3K4?t=1596
+
+#Westcol #Senado #Colombia #Streamer #Política
+```
+
+### Instagram · cuenta `principal` · pendiente de aprobación
+
+```
+¿Westcol en la política? «Yo todavía quiero hacer mis locuras» 😅
+
+Un día después de su visita al Senado, el chat le pide que se lance. Westcol: «Me quedan 5 añitos de acción […] y ya después ya puedo empezar a usar corbata y traje».
+
+¿Lo ves de senador? 👇
+
+Crédito: WestCOL (YouTube), «¿VOY a TENER HIJOS? | RESPONDIENDO PREGUNTAS del CHAT | Westcol». Video original (minuto 26:36): https://youtu.be/zcYV0CZF3K4?t=1596
+
+#Westcol #Senado #Colombia #Streamer #Política
+```
+
+### YouTube · cuenta `principal` (canal de la Legión Urbana) · pendiente de aprobación
+
+**Título:** ¿Westcol en la política? Esto le respondió al chat
+
+```
+Un día después de su visita al Senado, el chat le pide a Westcol que se lance de senador. Su respuesta: «Me quedan 5 añitos de acción […] y ya después ya puedo empezar a usar corbata y traje».
+
+Crédito: WestCOL (YouTube), «¿VOY a TENER HIJOS? | RESPONDIENDO PREGUNTAS del CHAT | Westcol». Video original (minuto 26:36): https://youtu.be/zcYV0CZF3K4?t=1596
+
+#Westcol #Senado #Colombia #Streamer
+```
+
+**Etiquetas:** Westcol, WestCOL, Westcol senador, Senado de Colombia, política, streamer, Kick, Colombia
+
+
+## 5. `2026-11-26-westcol-cinco-anitos`
 
 - **Gancho:** Westcol quiere ser senador: le faltan cinco años
 - **Puntaje:** 81 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-28 · **Línea:** urbano · **Pieza:** original (sin variantes)
@@ -452,14 +410,14 @@ Crédito: WestCOL (YouTube), «FUI SENADOR DE COLOMBIA POR UN DÍA Y PASÓ ESTO 
 **Etiquetas:** Westcol, WestCOL, Senado de Colombia, Capitolio, senador por un día, streamer, streamers colombianos, Colombia
 
 
-## 7. `2026-11-26-cotorrisa-motel-perra`
+## 6. `2026-11-26-cotorrisa-motel-perra`
 
 - **Gancho:** Óscar Burgos llegó al motel con su esposa
 - **Puntaje:** 79 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-28 · **Línea:** risas · **Pieza:** original (sin variantes)
 - **Video:** [clip.mp4](../clipero/clips/2026-11-26-cotorrisa-motel-perra/clip.mp4) (74,3 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-26-cotorrisa-motel-perra/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=hI4MD3IoPDQ
 - **Revisar antes de publicar:** Escúchalo antes: dura 74,3 s; habla de sexo sin nada explícito y hay dos groserías pitadas en la fuente. Se reordenaron dos palabras de los subtítulos. «Perra» es su mascota. Los textos no usan el título del episodio («Fui al motel y duré 3 minutos»). Ficha: TikTok el 26-nov hacia las 21:00 o el 27-nov hacia las 19:00, el primero de risas de este ciclo.
 
-### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola para el siguiente ciclo después de las 19:52 de hoy o el 27-nov
+### TikTok · cuenta `risas` (@legion.risas) · en la bandeja desde 2026-11-27 20:30 (borrador): pega este texto al publicarlo
 
 ```
 Se fue al motel con su esposa… y le escribió el vecino 😭
@@ -502,14 +460,14 @@ Crédito: La Cotorrisa (Slobotzky y Ricardo Pérez), canal Slobotzky (YouTube), 
 **Etiquetas:** La Cotorrisa, Óscar Burgos, Slobotzky, Ricardo Pérez, comedia, podcast de comedia, humor mexicano, anécdotas
 
 
-## 8. `2026-11-26-westcol-familias-accion`
+## 7. `2026-11-26-westcol-familias-accion`
 
 - **Gancho:** Westcol: Familias en Acción me salvó del hambre
 - **Puntaje:** 76 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-28 · **Línea:** urbano · **Pieza:** original (sin variantes)
 - **Video:** [clip.mp4](../clipero/clips/2026-11-26-westcol-familias-accion/clip.mp4) (54,6 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-26-westcol-familias-accion/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=affDfigv4uo
 - **Revisar antes de publicar:** Escúchalo antes: es contenido político (Senado) y Familias en Acción es un programa del Estado. Es una vivencia personal de Westcol, sin partido ni gobierno, pero en comentarios puede derivar en debate; si no se quiere nada del Congreso en la cuenta, no se publica. La cifra «300.000 cada tres meses» no se sabe quién la dice: los textos no la citan. Hablan varios a la vez en «él sí tuvo Familias en Acción». Ficha: TikTok el 27-nov hacia las 19:00, separado del de los cinco añitos.
 
-### TikTok · cuenta `principal` (Legión Urbana) · aprobado automáticamente; en cola para el siguiente ciclo después de las 19:52 de hoy o el 27-nov
+### TikTok · cuenta `principal` (Legión Urbana) · en la bandeja desde 2026-11-27 20:30 (borrador): pega este texto al publicarlo
 
 ```
 «El Estado no te ayudó», le dijeron a Westcol en el Senado… y él contestó esto 👀
@@ -552,14 +510,14 @@ Crédito: WestCOL (YouTube), «FUI SENADOR DE COLOMBIA POR UN DÍA Y PASÓ ESTO 
 **Etiquetas:** Westcol, WestCOL, Senado de Colombia, Familias en Acción, Capitolio, senador por un día, streamer, Colombia
 
 
-## 9. `2026-11-26-westcol-eslogan`
+## 8. `2026-11-26-westcol-eslogan`
 
 - **Gancho:** El eslogan de Westcol para el Senado
 - **Puntaje:** 73 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-28 · **Línea:** urbano · **Pieza:** original (sin variantes)
 - **Video:** [clip.mp4](../clipero/clips/2026-11-26-westcol-eslogan/clip.mp4) (25,0 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-26-westcol-eslogan/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=affDfigv4uo
 - **Revisar antes de publicar:** Escúchalo antes: lo que dice Westcol justo antes de «mi nuevo eslogan» va como «(…)»; la frase que le suman («Y hay que tener que saber sino hacer») va como la oyó YouTube y no se sabe quién es «Carlos» (los textos no lo nombran). Contenido del Senado, sin postura: una broma de Westcol sobre sí mismo. Ficha: TikTok el 28-nov hacia las 12:00.
 
-### TikTok · cuenta `principal` (Legión Urbana) · aprobado automáticamente; en cola para el siguiente ciclo después de las 19:52 de hoy o el 27-nov
+### TikTok · cuenta `principal` (Legión Urbana) · en la bandeja desde 2026-11-27 20:31 (borrador): pega este texto al publicarlo
 
 ```
 El eslogan de Westcol si algún día llega al Senado 😂
@@ -602,14 +560,14 @@ Crédito: WestCOL (YouTube), «FUI SENADOR DE COLOMBIA POR UN DÍA Y PASÓ ESTO 
 **Etiquetas:** Westcol, WestCOL, Senado de Colombia, Capitolio, eslogan, senador por un día, streamer, Colombia
 
 
-## 10. `2026-11-26-cotorrisa-orangutan-palomitas`
+## 9. `2026-11-26-cotorrisa-orangutan-palomitas`
 
 - **Gancho:** El orangután le pidió las palomitas al entrenador
 - **Puntaje:** 73 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-28 · **Línea:** risas · **Pieza:** original (sin variantes)
 - **Video:** [clip.mp4](../clipero/clips/2026-11-26-cotorrisa-orangutan-palomitas/clip.mp4) (42,1 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-26-cotorrisa-orangutan-palomitas/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=hI4MD3IoPDQ
 - **Revisar antes de publicar:** Escúchalo antes: un «qué pedo, güey» y un «pinches» sin pitido (lenguaje normal del programa). Nadie sale herido en el tramo; el ataque del tigre queda fuera. Se movió una palabra de los subtítulos. Ficha: TikTok el 28-nov hacia las 13:00, separado del motel.
 
-### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola para el siguiente ciclo después de las 19:52 de hoy o el 27-nov
+### TikTok · cuenta `risas` (@legion.risas) · en la bandeja desde 2026-11-27 20:31 (borrador): pega este texto al publicarlo
 
 ```
 El orangután le pidió las palomitas al entrenador… y se las dio todas 🦧
@@ -652,14 +610,14 @@ Crédito: La Cotorrisa (Slobotzky y Ricardo Pérez), canal Slobotzky (YouTube), 
 **Etiquetas:** La Cotorrisa, Óscar Burgos, Slobotzky, Ricardo Pérez, orangután, circo, comedia, humor mexicano
 
 
-## 11. `2026-11-26-parenlamano-oso-gta`
+## 10. `2026-11-26-parenlamano-oso-gta`
 
 - **Gancho:** Lo salvó de un oso en GTA VI
 - **Puntaje:** 72 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-28 · **Línea:** risas · **Pieza:** original (sin variantes)
 - **Video:** [clip.mp4](../clipero/clips/2026-11-26-parenlamano-oso-gta/clip.mp4) (20,5 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-26-parenlamano-oso-gta/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=aryvOXUsWBI
 - **Revisar antes de publicar:** Ojo antes de publicar: el panelista describe al personaje del juego como «un hombre de rasgos orientales… un chinito». No es la base del chiste, pero si suena a burla, no se publica (descarta el borrador o recházalo). Los textos no lo citan ni nombran al panelista. Una frase del compañero va como «(…)» y al final se oyen dos palabras sin subtítulo. Castellano de Argentina. Ficha: TikTok el 27-nov hacia las 13:00.
 
-### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola para el siguiente ciclo después de las 19:52 de hoy o el 27-nov
+### TikTok · cuenta `risas` (@legion.risas) · en la bandeja desde 2026-11-27 20:32 (borrador): pega este texto al publicarlo
 
 ```
 Lo salvó de un oso en GTA VI… y todavía espera la transferencia 😂
@@ -702,14 +660,14 @@ Crédito: Paren la Mano, Vorterix (YouTube), programa del 25/11. Video original 
 **Etiquetas:** Paren la Mano, Vorterix, GTA VI, GTA 6, Grand Theft Auto VI, humor argentino, comedia, gaming
 
 
-## 12. `2026-11-26-westcol-biche`
+## 11. `2026-11-26-westcol-biche`
 
 - **Gancho:** Un senador le regala biche a Westcol
 - **Puntaje:** 68 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-28 · **Línea:** urbano · **Pieza:** original (sin variantes)
 - **Video:** [clip.mp4](../clipero/clips/2026-11-26-westcol-biche/clip.mp4) (49,0 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-26-westcol-biche/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=affDfigv4uo
 - **Revisar antes de publicar:** Escúchalo antes: dos tramos van como «(…)». Sale una botella de biche (alcohol) que solo se huele; nadie bebe y los textos no invitan a beber. Contenido del Senado, sin postura; no se nombra al senador. Ficha: TikTok el 28-nov hacia las 19:00, el último de esta fuente.
 
-### TikTok · cuenta `principal` (Legión Urbana) · aprobado automáticamente; en cola para el siguiente ciclo después de las 19:52 de hoy o el 27-nov
+### TikTok · cuenta `principal` (Legión Urbana) · en la bandeja desde 2026-11-27 20:32 (borrador): pega este texto al publicarlo
 
 ```
 Un senador le regaló biche a Westcol en pleno Capitolio 🥃
@@ -752,9 +710,559 @@ Crédito: WestCOL (YouTube), «FUI SENADOR DE COLOMBIA POR UN DÍA Y PASÓ ESTO 
 **Etiquetas:** Westcol, WestCOL, biche, Senado de Colombia, Capitolio, Pacífico colombiano, streamer, Colombia
 
 
+## 12. `2026-11-27-parenlamano-padre-acompanante`
+
+- **Gancho:** Su hija lo postuló como padre acompañante
+- **Puntaje:** 78 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-29 · **Línea:** risas · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-27-parenlamano-padre-acompanante/clip.mp4) (70,3 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-27-parenlamano-padre-acompanante/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=kdmn16vYazg
+- **Revisar antes de publicar:** Escúchalo antes: voces que se pisan; cuatro tramos de subtítulo van como «(…)». «Che, se está muriendo Pedrito» es la mesa imaginando a Robert de acompañante, no un menor real. Hay una botella del patrocinador (Seco) sobre la mesa; el chiste del patrocinador queda fuera. Castellano de Argentina; dura 70,3 s. Ficha: TikTok el 28-nov hacia las 13:00.
+
+### TikTok · cuenta `risas` (@legion.risas) · en la bandeja desde 2026-11-27 20:33 (borrador): pega este texto al publicarlo
+
+```
+Su hija lo postuló como padre acompañante del viaje de egresados 😂
+
+En Paren la Mano, Robert cuenta la llamada: «Papi, ¿te puedo postular?». La mesa ya se imagina el viaje… y él pregunta: «¿Hay alguna forma de… si pago dos viajes?».
+
+¿Tú habrías ido de padre acompañante? 👇
+
+Crédito: Paren la Mano, Vorterix (YouTube), programa del 26/11. Video original (minuto 30:17): https://youtu.be/kdmn16vYazg?t=1817
+
+#ParenLaMano #Vorterix #Humor #ViajeDeEgresados #Argentina
+```
+
+### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
+
+```
+«Papi, ¿te puedo postular?»: el viaje de egresados de la hija de Robert 😂
+
+La hija de Robert lo postuló como padre acompañante y la mesa de Paren la Mano ya se imagina el resultado. Y él pregunta: «¿Si pago dos viajes?».
+
+¿Tú habrías ido? 👇
+
+Crédito: Paren la Mano, Vorterix (YouTube), programa del 26/11. Video original (minuto 30:17): https://youtu.be/kdmn16vYazg?t=1817
+
+#ParenLaMano #Vorterix #Humor #ViajeDeEgresados #Argentina
+```
+
+### YouTube · cuenta `risas` (canal de la Legión de Risas) · pendiente de aprobación (cuenta apagada)
+
+**Título:** Su hija lo postuló como padre acompañante del viaje de egresados
+
+```
+En Paren la Mano, Robert cuenta que su hija lo postuló como padre acompañante del viaje de egresados. La mesa ya se imagina el resultado.
+
+Crédito: Paren la Mano, Vorterix (YouTube), programa del 26/11. Video original (minuto 30:17): https://youtu.be/kdmn16vYazg?t=1817
+
+#ParenLaMano #Vorterix #Humor #Argentina
+```
+
+**Etiquetas:** Paren la Mano, Vorterix, Robert Galati, viaje de egresados, padre acompañante, humor argentino, comedia, streaming
+
+
+## 13. `2026-11-27-rubius-gym-gta`
+
+- **Gancho:** Día de gimnasio en GTA VI con Rubius
+- **Puntaje:** 70 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-29 · **Línea:** risas · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-27-rubius-gym-gta/clip.mp4) (73,3 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-27-rubius-gym-gta/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=8SWiS7zfB24
+- **Revisar antes de publicar:** Escúchalo antes: los subtítulos de la fuente marcan «[música]» hacia 10:38 y 11:39; si suena una canción reconocible (y no la radio del juego), no se publica (Content ID). Una palabra va como «(…)». Tiene silencios largos entre repeticiones. Imágenes del juego: GTA VI, Rockstar Games. Ficha: TikTok el 28-nov hacia las 19:00.
+
+### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola para el 28-nov (cada cuenta admite 1 borrador más antes de las 20:34, cuando salen de la ventana de 24 h los 4 de hoy, y el resto después) o el 29-nov
+
+```
+Rubius lleva a Lucía al gimnasio en GTA VI y Jason se queda mirando 😂
+
+Press de banca con 30 kilos, la barra que se le cae («había que soltarlo lentamente») y las dominadas: «Pero esto no me sube nada». Remate: «Jason parece más mi guardia de seguridad que mi novio».
+
+¿Cuánto levantarías tú? 👇
+
+Crédito: elRubius (Rubius Z, YouTube), «Conseguí el Rango "PSICOPATA" en GTA 6». Video original (minuto 10:31): https://youtu.be/8SWiS7zfB24?t=631 · Juego: GTA VI (Rockstar Games)
+
+#Rubius #GTA6 #GTAVI #Gaming #Humor
+```
+
+### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
+
+```
+«Jason parece más mi guardia de seguridad que mi novio» 😂
+
+elRubius lleva a Lucía al gimnasio de la playa en GTA VI: press de banca con 30 kilos, la barra que se le cae y «tenemos la fuerza muy baja, ¿eh?».
+
+¿Cuánto levantarías tú? 👇
+
+Crédito: elRubius (Rubius Z, YouTube), «Conseguí el Rango "PSICOPATA" en GTA 6». Video original (minuto 10:31): https://youtu.be/8SWiS7zfB24?t=631 · Juego: GTA VI (Rockstar Games)
+
+#Rubius #GTA6 #GTAVI #Gaming #Humor
+```
+
+### YouTube · cuenta `risas` (canal de la Legión de Risas) · pendiente de aprobación (cuenta apagada)
+
+**Título:** Rubius entrena con Lucía en GTA 6: «Tenemos la fuerza muy baja»
+
+```
+elRubius lleva a Lucía al gimnasio de la playa en GTA VI… y Jason se queda mirando. «Jason parece más mi guardia de seguridad que mi novio».
+
+Crédito: elRubius (Rubius Z, YouTube), «Conseguí el Rango "PSICOPATA" en GTA 6». Video original (minuto 10:31): https://youtu.be/8SWiS7zfB24?t=631 · Juego: GTA VI (Rockstar Games)
+
+#Rubius #GTA6 #GTAVI #Humor
+```
+
+**Etiquetas:** elRubius, Rubius, GTA VI, GTA 6, Grand Theft Auto VI, Lucía, Jason, gaming, humor
+
+
+## 14. `2026-11-27-parenlamano-casi-me-matas`
+
+- **Gancho:** Lo chocaron en moto y lo reconocieron
+- **Puntaje:** 68 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-29 · **Línea:** risas · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-27-parenlamano-casi-me-matas/clip.mp4) (41,8 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-27-parenlamano-casi-me-matas/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=kdmn16vYazg
+- **Revisar antes de publicar:** Escúchalo antes: es un accidente contado en broma por el propio Robert («quiere matar a alguien» es una forma de hablar del enojo). Dos insultos van pitados en la fuente («sos ***») y dos tramos de subtítulo como «(…)». Mejor en un día distinto de parenlamano-padre-acompanante. Ficha: TikTok el 30-nov hacia las 13:00, aunque la ventana acaba el 29-nov.
+
+### TikTok · cuenta `risas` (@legion.risas) · aprobado automáticamente; en cola para el 28-nov (cada cuenta admite 1 borrador más antes de las 20:34, cuando salen de la ventana de 24 h los 4 de hoy, y el resto después) o el 29-nov
+
+```
+Lo chocaron en la moto y el conductor le dijo: «¿Robert?» 😂
+
+En Paren la Mano, Robert cuenta el final de su accidente: el que lo chocó se baja, lo reconoce y Robert le dice «Casi me matas, flaco». Remate: «Seguro está mirando para escuchar la anécdota, porque ya le dijo a todo el mundo: “Casi lo mato a Robert”».
+
+¿Tú qué le habrías dicho? 👇
+
+Crédito: Paren la Mano, Vorterix (YouTube), programa del 26/11. Video original (minuto 25:44): https://youtu.be/kdmn16vYazg?t=1544
+
+#ParenLaMano #Vorterix #Humor #Anécdota #Argentina
+```
+
+### Instagram · cuenta `risas` · pendiente de aprobación (cuenta apagada)
+
+```
+«Casi me matas, flaco»: Robert y el que lo chocó en la moto 😂
+
+Cuando el conductor se bajó, lo reconoció: «¿Robert?». Y remata en Paren la Mano: «Ya le dijo a todo el mundo: “Casi lo mato a Robert”».
+
+¿Tú qué le habrías dicho? 👇
+
+Crédito: Paren la Mano, Vorterix (YouTube), programa del 26/11. Video original (minuto 25:44): https://youtu.be/kdmn16vYazg?t=1544
+
+#ParenLaMano #Vorterix #Humor #Anécdota #Argentina
+```
+
+### YouTube · cuenta `risas` (canal de la Legión de Risas) · pendiente de aprobación (cuenta apagada)
+
+**Título:** Lo chocaron en la moto y el conductor lo reconoció
+
+```
+En Paren la Mano, Robert cuenta el final de su accidente: el conductor que lo chocó se baja y lo reconoce. «Casi me matas, flaco».
+
+Crédito: Paren la Mano, Vorterix (YouTube), programa del 26/11. Video original (minuto 25:44): https://youtu.be/kdmn16vYazg?t=1544
+
+#ParenLaMano #Vorterix #Humor #Argentina
+```
+
+**Etiquetas:** Paren la Mano, Vorterix, Robert Galati, anécdota, accidente en moto, humor argentino, comedia, streaming
+
+
+## 15. `2026-11-27-westcol-moto-no-se-vio`
+
+- **Gancho:** Lo chocó una moto y no quedó grabado
+- **Puntaje:** 84 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-30 · **Línea:** urbano · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-27-westcol-moto-no-se-vio/clip.mp4) (59,2 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-27-westcol-moto-no-se-vio/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=zcYV0CZF3K4
+- **Revisar antes de publicar:** Escúchalo antes: cuatro tramos de subtítulo van como «(…)» y al final se oye el arranque de una palabra sin subtítulo. Él mismo dice que no sabe si quien lo chocó era un seguidor: los textos no lo dicen. Ficha: TikTok el 28-nov hacia las 19:00.
+
+### TikTok · cuenta `principal` (Legión Urbana) · aprobado automáticamente; en cola para el 28-nov (cada cuenta admite 1 borrador más antes de las 20:34, cuando salen de la ventana de 24 h los 4 de hoy, y el resto después) o el 29-nov
+
+```
+Lo que no se vio de las 72 horas: a Westcol lo chocó una moto 😳
+
+Al terminar las 72 horas con La Ganga, alguien en moto que venía con el celular en la mano se le echó encima. «Me alcanzó a pegar algo aquí atrás en la espalda que todavía me duele, y el pie». Cayó junto a un andén, al lado de unas púas, y de milagro no se rajó la mano.
+
+¿Te ha pasado algo así en moto? 👇
+
+Crédito: WestCOL (YouTube), «¿VOY a TENER HIJOS? | RESPONDIENDO PREGUNTAS del CHAT | Westcol». Video original (minuto 10:06): https://youtu.be/zcYV0CZF3K4?t=606
+
+#Westcol #LaGanga #72Horas #Streamer #Colombia
+```
+
+### Instagram · cuenta `principal` · pendiente de aprobación
+
+```
+«Todavía me duele»: lo que no se vio de las 72 horas de Westcol 😳
+
+Al terminar las 72 horas con La Ganga, a Westcol lo chocó alguien en moto que venía con el celular en la mano: «Me alcanzó a pegar algo aquí atrás en la espalda que todavía me duele, y el pie». Y pide cuidado: «Qué miedo esas motos».
+
+¿Te ha pasado algo así en moto? 👇
+
+Crédito: WestCOL (YouTube), «¿VOY a TENER HIJOS? | RESPONDIENDO PREGUNTAS del CHAT | Westcol». Video original (minuto 10:06): https://youtu.be/zcYV0CZF3K4?t=606
+
+#Westcol #LaGanga #72Horas #Streamer #Colombia
+```
+
+### YouTube · cuenta `principal` (canal de la Legión Urbana) · pendiente de aprobación
+
+**Título:** Westcol cuenta el choque en moto que no quedó grabado
+
+```
+Al terminar las 72 horas con La Ganga, a Westcol lo chocó alguien en moto que venía con el celular en la mano. «Me alcanzó a pegar algo aquí atrás en la espalda que todavía me duele, y el pie».
+
+Crédito: WestCOL (YouTube), «¿VOY a TENER HIJOS? | RESPONDIENDO PREGUNTAS del CHAT | Westcol». Video original (minuto 10:06): https://youtu.be/zcYV0CZF3K4?t=606
+
+#Westcol #LaGanga #72Horas #Streamer
+```
+
+**Etiquetas:** Westcol, WestCOL, La Ganga, 72 horas, choque en moto, streamer, Kick, Colombia
+
+
+## 16. `2026-11-27-westcol-multa-la-cagamos`
+
+- **Gancho:** La multa de 54 millones por la mansión
+- **Puntaje:** 83 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-30 · **Línea:** urbano · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-27-westcol-multa-la-cagamos/clip.mp4) (27,2 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-27-westcol-multa-la-cagamos/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=cmc2_uDXbQo
+- **Revisar antes de publicar:** Escúchalo antes: lleva «la cagamos», «huevón» y «papi» (coloquial, sin insultos a nadie); lo que sigue en la fuente (el jacuzzi y los insultos a Lonche) queda fuera del corte. Los textos hablan de la cuenta de los daños y no nombran al dueño de la casa. Ficha: TikTok el 28-nov hacia las 12:00, el primero de esta fuente.
+
+### TikTok · cuenta `principal` (Legión Urbana) · aprobado automáticamente; en cola para el 28-nov (cada cuenta admite 1 borrador más antes de las 20:34, cuando salen de la ventana de 24 h los 4 de hoy, y el resto después) o el 29-nov
+
+```
+Westcol reconoce el error: 54 millones por los daños de la mansión 😬
+
+El día después de las 72 horas con La Ganga, le llegó la cuenta de la casa. Y lo reconoce: «La cagamos totalmente […] 54 palos, y usted imagínese el dueño, porque el dueño tiene razón». Colchones llenos de agua, puertas dañadas y almohadas en el jacuzzi.
+
+¿Quién crees que pagó? 👇
+
+Crédito: WestCOL (YouTube), «ME PUSIERON una MULTA por 54 MILLONES de PESOS por DAÑAR una MANSIÓN | Westcol». Video original (minuto 1:24): https://youtu.be/cmc2_uDXbQo?t=84
+
+#Westcol #LaGanga #Guatapé #Streamer #Colombia
+```
+
+### Instagram · cuenta `principal` · pendiente de aprobación
+
+```
+«El dueño tiene razón»: Westcol y los 54 millones por la mansión 😬
+
+El día después de las 72 horas con La Ganga, Westcol reconoce el error: «La cagamos totalmente. Una loquera, aprendimos la lección». Y enumera los daños: colchones llenos de agua, puertas dañadas y almohadas en el jacuzzi.
+
+¿Quién crees que pagó? 👇
+
+Crédito: WestCOL (YouTube), «ME PUSIERON una MULTA por 54 MILLONES de PESOS por DAÑAR una MANSIÓN | Westcol». Video original (minuto 1:24): https://youtu.be/cmc2_uDXbQo?t=84
+
+#Westcol #LaGanga #Guatapé #Streamer #Colombia
+```
+
+### YouTube · cuenta `principal` (canal de la Legión Urbana) · pendiente de aprobación
+
+**Título:** ¿54 millones por dañar una mansión? Westcol lo explica
+
+```
+El día después de las 72 horas con La Ganga, a Westcol le llegó la cuenta de los daños de la casa: 54 millones. «La cagamos totalmente […] el dueño tiene razón».
+
+Crédito: WestCOL (YouTube), «ME PUSIERON una MULTA por 54 MILLONES de PESOS por DAÑAR una MANSIÓN | Westcol». Video original (minuto 1:24): https://youtu.be/cmc2_uDXbQo?t=84
+
+#Westcol #LaGanga #Guatapé #Streamer
+```
+
+**Etiquetas:** Westcol, WestCOL, Westcol multa, 54 millones, mansión, La Ganga, 72 horas, Guatapé
+
+
+## 17. `2026-11-27-westcol-hijos`
+
+- **Gancho:** ¿Westcol papá? Esto le respondió al chat
+- **Puntaje:** 78 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-30 · **Línea:** urbano · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-27-westcol-hijos/clip.mp4) (67,8 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-27-westcol-hijos/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=zcYV0CZF3K4
+- **Revisar antes de publicar:** Escúchalo antes: dos tramos van como «(…)» (uno parece la lectura de una alerta del directo) y se oye «13 viewers» tal cual; al final, el arranque de una palabra sin subtítulo. Una grosería va como «***» («inmaduro de ***»): los textos no la citan. Habla de su vida personal por decisión propia; lo que sigue en la fuente (fertilidad, pareja) queda fuera. Ficha: TikTok el 29-nov hacia las 12:00.
+
+### TikTok · cuenta `principal` (Legión Urbana) · aprobado automáticamente; en cola para el 28-nov (cada cuenta admite 1 borrador más antes de las 20:34, cuando salen de la ventana de 24 h los 4 de hoy, y el resto después) o el 29-nov
+
+```
+¿Westcol papá? «Yo sería muy buen padre» 👶
+
+El chat le pregunta si va a tener hijos y le dice que es inmaduro. Westcol: «En Colombia usted no tiene hijos por ser maduro». Y sigue: «Usted no nace aprendido para ser papá […] Si yo cuido a mis panas, yo cuido a mi familia».
+
+¿Tú qué le dirías? 👇
+
+Crédito: WestCOL (YouTube), «¿VOY a TENER HIJOS? | RESPONDIENDO PREGUNTAS del CHAT | Westcol». Video original (minuto 13:26): https://youtu.be/zcYV0CZF3K4?t=806
+
+#Westcol #Streamer #Colombia #Papá #Kick
+```
+
+### Instagram · cuenta `principal` · pendiente de aprobación
+
+```
+«Usted no nace aprendido para ser papá»: Westcol responde al chat 👶
+
+Le preguntan si va a tener hijos y le dicen que es inmaduro. Su respuesta: «En Colombia usted no tiene hijos por ser maduro […] yo sería muy buen padre».
+
+¿Tú qué le dirías? 👇
+
+Crédito: WestCOL (YouTube), «¿VOY a TENER HIJOS? | RESPONDIENDO PREGUNTAS del CHAT | Westcol». Video original (minuto 13:26): https://youtu.be/zcYV0CZF3K4?t=806
+
+#Westcol #Streamer #Colombia #Papá #Kick
+```
+
+### YouTube · cuenta `principal` (canal de la Legión Urbana) · pendiente de aprobación
+
+**Título:** Le preguntaron a Westcol si va a tener hijos
+
+```
+El chat le pregunta a Westcol si va a tener hijos y le dice que es inmaduro. Su respuesta: «En Colombia usted no tiene hijos por ser maduro […] yo sería muy buen padre».
+
+Crédito: WestCOL (YouTube), «¿VOY a TENER HIJOS? | RESPONDIENDO PREGUNTAS del CHAT | Westcol». Video original (minuto 13:26): https://youtu.be/zcYV0CZF3K4?t=806
+
+#Westcol #Streamer #Colombia #Kick
+```
+
+**Etiquetas:** Westcol, WestCOL, Westcol hijos, Westcol papá, preguntas del chat, streamer, Kick, Colombia
+
+
+## 18. `2026-11-27-westcol-multa-cuenta`
+
+- **Gancho:** Abrió la cuenta de los daños en directo
+- **Puntaje:** 75 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-30 · **Línea:** urbano · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-27-westcol-multa-cuenta/clip.mp4) (44,0 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-27-westcol-multa-cuenta/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=cmc2_uDXbQo
+- **Revisar antes de publicar:** Míralo antes a tamaño completo: en los primeros segundos enseña a cámara el móvil con el documento de la reclamación. Si se lee el nombre, el teléfono o la dirección del dueño de la casa (persona privada), no se publica (o hay que recortar la entrada hasta después del móvil). La segunda lectura de la cifra va como «54.481 (…)»: escúchala. Es otro momento del mismo video que westcol-multa-la-cagamos: mejor en días distintos. Ficha: TikTok el 29-nov hacia las 19:00, después de westcol-multa-la-cagamos.
+
+### TikTok · cuenta `principal` (Legión Urbana) · aprobado automáticamente; en cola para el 28-nov (cada cuenta admite 1 borrador más antes de las 20:34, cuando salen de la ventana de 24 h los 4 de hoy, y el resto después) o el 29-nov
+
+```
+¿Cuánto les cobraron por los daños de la mansión? Westcol abrió la cuenta en directo 😳
+
+La cifra: 54.481.686 pesos. Su reacción: «Ay, qué rico. Todo manifestado». Y remata: «Eso es algo que nos merecemos todos […] nosotros no podemos ir por la vida alquilando casas, haciendo lo que quieran con las casas de las personas».
+
+¿Te imaginabas tanto? 👇
+
+Crédito: WestCOL (YouTube), «ME PUSIERON una MULTA por 54 MILLONES de PESOS por DAÑAR una MANSIÓN | Westcol». Video original (minuto 0:22): https://youtu.be/cmc2_uDXbQo?t=22
+
+#Westcol #LaGanga #Guatapé #Streamer #Colombia
+```
+
+### Instagram · cuenta `principal` · pendiente de aprobación
+
+```
+«Se van a quedar aterrados»: Westcol abre la cuenta de la mansión en directo 😳
+
+La cifra de los daños de la casa de Guatapé: 54.481.686 pesos. «Ay, qué rico. Todo manifestado». Y remata: «Eso es algo que nos merecemos todos».
+
+¿Te imaginabas tanto? 👇
+
+Crédito: WestCOL (YouTube), «ME PUSIERON una MULTA por 54 MILLONES de PESOS por DAÑAR una MANSIÓN | Westcol». Video original (minuto 0:22): https://youtu.be/cmc2_uDXbQo?t=22
+
+#Westcol #LaGanga #Guatapé #Streamer #Colombia
+```
+
+### YouTube · cuenta `principal` (canal de la Legión Urbana) · pendiente de aprobación
+
+**Título:** ¿Cuánto les cobraron por la mansión? Westcol lo lee en directo
+
+```
+Westcol abre en directo la cuenta de los daños de la casa de Guatapé después de las 72 horas con La Ganga: 54.481.686 pesos. «Eso es algo que nos merecemos todos».
+
+Crédito: WestCOL (YouTube), «ME PUSIERON una MULTA por 54 MILLONES de PESOS por DAÑAR una MANSIÓN | Westcol». Video original (minuto 0:22): https://youtu.be/cmc2_uDXbQo?t=22
+
+#Westcol #LaGanga #Guatapé #Streamer
+```
+
+**Etiquetas:** Westcol, WestCOL, Westcol multa, mansión Guatapé, La Ganga, 72 horas, streamer, Colombia
+
+
+## 19. `2026-11-27-westcol-ganga-china`
+
+- **Gancho:** Quiere llevar a La Ganga a China
+- **Puntaje:** 72 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-30 · **Línea:** urbano · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-27-westcol-ganga-china/clip.mp4) (62,6 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-27-westcol-ganga-china/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=zcYV0CZF3K4
+- **Revisar antes de publicar:** Escúchalo antes: una palabra va como «(…)» («en todos los (…), en todos los túneles»). Es un deseo, no un plan cerrado; los textos no nombran a «Sami». Ficha: TikTok el 30-nov hacia las 19:00.
+
+### TikTok · cuenta `principal` (Legión Urbana) · aprobado automáticamente; en cola para el 28-nov (cada cuenta admite 1 borrador más antes de las 20:34, cuando salen de la ventana de 24 h los 4 de hoy, y el resto después) o el 29-nov
+
+```
+Westcol quiere llevar a toda La Ganga a China 🇨🇳
+
+Después de las 72 horas, ya piensa en el próximo directo largo: «Yo no quiero que sea de fiesta […] Imagíneme toda la ganga en la China». Por ahora es una idea: «Yo sí o sí voy a China, ese va a ser mi viaje anual, pero la ganga se invita».
+
+¿A qué país los mandarías tú? 👇
+
+Crédito: WestCOL (YouTube), «¿VOY a TENER HIJOS? | RESPONDIENDO PREGUNTAS del CHAT | Westcol». Video original (minuto 20:14): https://youtu.be/zcYV0CZF3K4?t=1214
+
+#Westcol #LaGanga #China #Streamer #Colombia
+```
+
+### Instagram · cuenta `principal` · pendiente de aprobación
+
+```
+«Yo no quiero que sea de fiesta»: el próximo plan de Westcol para La Ganga 🇨🇳
+
+Después de las 72 horas, ya piensa en otro directo largo, en un país «bien raro»: «Imagíneme toda la ganga en la China». Por ahora es una idea, no un plan cerrado.
+
+¿A qué país los mandarías tú? 👇
+
+Crédito: WestCOL (YouTube), «¿VOY a TENER HIJOS? | RESPONDIENDO PREGUNTAS del CHAT | Westcol». Video original (minuto 20:14): https://youtu.be/zcYV0CZF3K4?t=1214
+
+#Westcol #LaGanga #China #Streamer #Colombia
+```
+
+### YouTube · cuenta `principal` (canal de la Legión Urbana) · pendiente de aprobación
+
+**Título:** ¿La Ganga en China? Westcol lo quiere hacer
+
+```
+Después de las 72 horas, Westcol ya piensa en el próximo directo largo con La Ganga: «Yo no quiero que sea de fiesta […] Imagíneme toda la ganga en la China».
+
+Crédito: WestCOL (YouTube), «¿VOY a TENER HIJOS? | RESPONDIENDO PREGUNTAS del CHAT | Westcol». Video original (minuto 20:14): https://youtu.be/zcYV0CZF3K4?t=1214
+
+#Westcol #LaGanga #China #Streamer
+```
+
+**Etiquetas:** Westcol, WestCOL, La Ganga, Westcol China, 72 horas, streamer, Kick, Colombia
+
+
+## 20. `2026-11-27-westcol-ganga-finca`
+
+- **Gancho:** La idea: La Ganga 72 horas en una finca
+- **Puntaje:** 70 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-30 · **Línea:** urbano · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-27-westcol-ganga-finca/clip.mp4) (54,5 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-27-westcol-ganga-finca/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=zcYV0CZF3K4
+- **Revisar antes de publicar:** Escúchalo antes: dos palabras van pitadas en la fuente y duda en voz alta con las horas («82… 78… 72 horas, perdón»). Es una idea, no un plan anunciado. Ficha: TikTok el 1-dic hacia las 12:00, si queda hueco, aunque la ventana acaba el 30-nov.
+
+### TikTok · cuenta `principal` (Legión Urbana) · aprobado automáticamente; en cola para el 28-nov (cada cuenta admite 1 borrador más antes de las 20:34, cuando salen de la ventana de 24 h los 4 de hoy, y el resto después) o el 29-nov
+
+```
+La Ganga 72 horas en una finca… ordeñando 🐄😂
+
+La idea de Westcol para el próximo: 72 horas de La Ganga en una finca, sin más ayuda que los camarógrafos y haciendo su propia comida. «Si necesitamos leche, hay que ordeñar. Si necesitamos queso, lo tenemos que hacer». Remate: «Ahí nos morimos de hambre toda la ganga».
+
+¿Quién de La Ganga aguanta más? 👇
+
+Crédito: WestCOL (YouTube), «¿VOY a TENER HIJOS? | RESPONDIENDO PREGUNTAS del CHAT | Westcol». Video original (minuto 29:11): https://youtu.be/zcYV0CZF3K4?t=1751
+
+#Westcol #LaGanga #72Horas #Streamer #Colombia
+```
+
+### Instagram · cuenta `principal` · pendiente de aprobación
+
+```
+«Ahí nos morimos de hambre toda la ganga»: la idea de Westcol 🐄😂
+
+Otras 72 horas de La Ganga, pero en una finca y sin más ayuda que los camarógrafos: «Si necesitamos leche, hay que ordeñar». Es una idea, no un plan anunciado.
+
+¿Quién de La Ganga aguanta más? 👇
+
+Crédito: WestCOL (YouTube), «¿VOY a TENER HIJOS? | RESPONDIENDO PREGUNTAS del CHAT | Westcol». Video original (minuto 29:11): https://youtu.be/zcYV0CZF3K4?t=1751
+
+#Westcol #LaGanga #72Horas #Streamer #Colombia
+```
+
+### YouTube · cuenta `principal` (canal de la Legión Urbana) · pendiente de aprobación
+
+**Título:** ¿72 horas de La Ganga en una finca sin ayuda?
+
+```
+La idea de Westcol para el próximo directo largo: La Ganga 72 horas en una finca, haciendo su propia comida. «Si necesitamos leche, hay que ordeñar».
+
+Crédito: WestCOL (YouTube), «¿VOY a TENER HIJOS? | RESPONDIENDO PREGUNTAS del CHAT | Westcol». Video original (minuto 29:11): https://youtu.be/zcYV0CZF3K4?t=1751
+
+#Westcol #LaGanga #72Horas #Streamer
+```
+
+**Etiquetas:** Westcol, WestCOL, La Ganga, 72 horas, finca, streamer, Kick, Colombia
+
+
+## 21. `2026-11-27-westcol-arcangel-la-10`
+
+- **Gancho:** Juró que no lo dijo… y apareció el clip
+- **Puntaje:** 66 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-11-30 · **Línea:** urbano · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-27-westcol-arcangel-la-10/clip.mp4) (40,9 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-27-westcol-arcangel-la-10/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=zcYV0CZF3K4
+- **Revisar antes de publicar:** Escúchalo antes: el clip lleva un trozo de otro directo suyo (su voz hablando de Arcángel). Si debajo suena alguna canción de Arcángel, no se publica (Content ID). La negación previa no sale en el clip: los textos la cuentan como contexto. «La 10» es su serie de colaboraciones numeradas, según la ficha. Ficha: solo si queda hueco antes del 30-nov; es el más flojo de la fuente.
+
+### TikTok · cuenta `principal` (Legión Urbana) · aprobado automáticamente; en cola para el 28-nov (cada cuenta admite 1 borrador más antes de las 20:34, cuando salen de la ventana de 24 h los 4 de hoy, y el resto después) o el 29-nov
+
+```
+Westcol negó haberlo dicho… y el chat encontró el clip 😂
+
+Más temprano en el directo, Westcol amenazó con banear a quien dijera que él había asegurado que Arcángel sería «la 10» de sus colaboraciones. Hasta que llegó el clip: «Arcángel para mí es la 10». Su respuesta: «Yo no dije Arcángel es la 10. Bueno, sí lo dije».
+
+¿Quién quieres que sea la 10? 👇
+
+Crédito: WestCOL (YouTube), «¿VOY a TENER HIJOS? | RESPONDIENDO PREGUNTAS del CHAT | Westcol». Video original (minuto 11:08): https://youtu.be/zcYV0CZF3K4?t=668
+
+#Westcol #Arcángel #Kick #Streamer #Colombia
+```
+
+### Instagram · cuenta `principal` · pendiente de aprobación
+
+```
+«Yo no dije Arcángel es la 10. Bueno, sí lo dije» 😂
+
+Westcol amenazó con banear a quien dijera que él había asegurado que Arcángel sería «la 10» de sus colaboraciones… hasta que el chat le mandó el clip.
+
+¿Quién quieres que sea la 10? 👇
+
+Crédito: WestCOL (YouTube), «¿VOY a TENER HIJOS? | RESPONDIENDO PREGUNTAS del CHAT | Westcol». Video original (minuto 11:08): https://youtu.be/zcYV0CZF3K4?t=668
+
+#Westcol #Arcángel #Kick #Streamer #Colombia
+```
+
+### YouTube · cuenta `principal` (canal de la Legión Urbana) · pendiente de aprobación
+
+**Título:** Westcol vs. el chat: el clip de Arcángel y «la 10»
+
+```
+Westcol amenazó con banear a quien dijera que él había asegurado que Arcángel sería «la 10» de sus colaboraciones… hasta que el chat le mandó el clip. «Bueno, sí lo dije».
+
+Crédito: WestCOL (YouTube), «¿VOY a TENER HIJOS? | RESPONDIENDO PREGUNTAS del CHAT | Westcol». Video original (minuto 11:08): https://youtu.be/zcYV0CZF3K4?t=668
+
+#Westcol #Arcángel #Kick #Streamer
+```
+
+**Etiquetas:** Westcol, WestCOL, Arcángel, Arcangel, la 10, streamer, Kick, música urbana
+
+
+## 22. `2026-11-27-westcol-helipuerto`
+
+- **Gancho:** Westcol pidió permiso para un helipuerto en casa
+- **Puntaje:** 74 · **Derechos:** `sin_verificar` (contenido de terceros sin permiso confirmado: riesgo de Content ID, bloqueo o avisos por derechos de autor; ver arriba) · **Ventana hasta:** 2026-12-03 · **Línea:** urbano · **Pieza:** original (sin variantes)
+- **Video:** [clip.mp4](../clipero/clips/2026-11-27-westcol-helipuerto/clip.mp4) (51,8 s) · **Ficha:** [ficha.md](../clipero/clips/2026-11-27-westcol-helipuerto/ficha.md) · **Fuente:** https://www.youtube.com/watch?v=zcYV0CZF3K4
+- **Revisar antes de publicar:** Escúchalo antes: dos tramos van como «(…)» (el que debe de ser «helicóptero» no se oye entero, y otro ilegible). El helipuerto espera permiso: los textos dicen que lo quiere, no que lo tenga. No se usa el comentario «parece que West va a morir en helicóptero». Ficha: TikTok el 30-nov hacia las 12:00; ventana hasta el 3-dic.
+
+### TikTok · cuenta `principal` (Legión Urbana) · aprobado automáticamente; en cola para el 28-nov (cada cuenta admite 1 borrador más antes de las 20:34, cuando salen de la ventana de 24 h los 4 de hoy, y el resto después) o el 29-nov
+
+```
+Westcol quiere un helipuerto en su casa: «15 minuticos» a Guatapé 🚁
+
+Le preguntan cómo va la casa que está construyendo: la cerca, la cancha… y el permiso del helipuerto, que «se ha demorado mucho». Su predicción, a 3 años: «Nos vamos por todo el aire a Guatapé».
+
+¿Cuánto crees que cuesta un helipuerto? 👇
+
+Crédito: WestCOL (YouTube), «¿VOY a TENER HIJOS? | RESPONDIENDO PREGUNTAS del CHAT | Westcol». Video original (minuto 1:53): https://youtu.be/zcYV0CZF3K4?t=113
+
+#Westcol #Lujo #Mansión #Streamer #Colombia
+```
+
+### Instagram · cuenta `principal` · pendiente de aprobación
+
+```
+«Puro transporte aéreo»: Westcol quiere helipuerto en su casa… si le dan el permiso 🚁
+
+Cuenta cómo va la casa que está construyendo: la cerca, la cancha y un helipuerto cuyo permiso «se ha demorado mucho». Su predicción, a 3 años: «Nos vamos por todo el aire a Guatapé».
+
+¿Cuánto crees que cuesta un helipuerto? 👇
+
+Crédito: WestCOL (YouTube), «¿VOY a TENER HIJOS? | RESPONDIENDO PREGUNTAS del CHAT | Westcol». Video original (minuto 1:53): https://youtu.be/zcYV0CZF3K4?t=113
+
+#Westcol #Lujo #Mansión #Streamer #Colombia
+```
+
+### YouTube · cuenta `principal` (canal de la Legión Urbana) · pendiente de aprobación
+
+**Título:** ¿Un helipuerto en la casa de Westcol?
+
+```
+Westcol cuenta cómo va la casa que está construyendo: la cerca, la cancha y un helipuerto que espera permiso. «Nos vamos por todo el aire a Guatapé».
+
+Crédito: WestCOL (YouTube), «¿VOY a TENER HIJOS? | RESPONDIENDO PREGUNTAS del CHAT | Westcol». Video original (minuto 1:53): https://youtu.be/zcYV0CZF3K4?t=113
+
+#Westcol #Lujo #Streamer #Colombia
+```
+
+**Etiquetas:** Westcol, WestCOL, casa de Westcol, helipuerto, Guatapé, lujo, streamer, Colombia
+
+
 ## Comandos
 
-- Aprobar un clip en todas sus plataformas: `/publicador aprobar <clip-id>` (por ejemplo, `/publicador aprobar 2026-11-26-westcol-cinco-anitos`).
-- Aprobar una sola plataforma: `/publicador aprobar <clip-id>:<plataforma>` (por ejemplo, `/publicador aprobar 2026-11-26-cotorrisa-motel-perra:youtube`, o `/publicador aprobar 2026-11-23-hh-cuna-inteligente:instagram` para reabrir uno vencido).
+- Aprobar un clip en todas sus plataformas: `/publicador aprobar <clip-id>` (por ejemplo, `/publicador aprobar 2026-11-27-westcol-moto-no-se-vio`).
+- Aprobar una sola plataforma: `/publicador aprobar <clip-id>:<plataforma>` (por ejemplo, `/publicador aprobar 2026-11-27-parenlamano-padre-acompanante:youtube`, o `/publicador aprobar 2026-11-25-culpa-contrasena:instagram` para reabrir uno vencido).
 - Aprobar todo lo pendiente: `/publicador aprobar todo` (Instagram y YouTube siguen sin activar: solo deja los envíos listos; en YouTube, lo aprobado saldrá público).
 - Rechazar: `/publicador rechazar <clip-id> <motivo>`, o `/publicador rechazar <clip-id>:<plataforma> <motivo>` para una sola plataforma (con `:tiktok`, el clip deja de ir a la bandeja; si ya llegó, descártalo desde la app).

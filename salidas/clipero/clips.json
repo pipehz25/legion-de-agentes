@@ -1,7 +1,343 @@
 {
-    "generado":  "2026-11-26T16:27:05-05:00",
-    "ciclo":  25,
+    "generado":  "2026-11-27T20:15:00-05:00",
+    "ciclo":  26,
     "clips":  [
+                  {
+                      "id":  "2026-11-27-westcol-politica-cinco-anos",
+                      "estado":  "listo",
+                      "tipo":  "prediccion",
+                      "puntaje":  80,
+                      "gancho":  "¿Westcol político? Antes, 5 años de locuras",
+                      "archivo":  "salidas/clipero/clips/2026-11-27-westcol-politica-cinco-anos/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-27-westcol-politica-cinco-anos/ficha.md",
+                      "duracion_seg":  44.0,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=zcYV0CZF3K4",
+                                     "canal":  "WestCOL",
+                                     "inicio":  1596.17,
+                                     "fin":  1640.14
+                                 },
+                      "oportunidad_cazador":  "tema-westcol-senador-por-un-dia",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-28"
+                  },
+                  {
+                      "id":  "2026-11-27-westcol-moto-no-se-vio",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  84,
+                      "gancho":  "Lo chocó una moto y no quedó grabado",
+                      "archivo":  "salidas/clipero/clips/2026-11-27-westcol-moto-no-se-vio/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-27-westcol-moto-no-se-vio/ficha.md",
+                      "duracion_seg":  59.2,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=zcYV0CZF3K4",
+                                     "canal":  "WestCOL",
+                                     "inicio":  606.05,
+                                     "fin":  665.26
+                                 },
+                      "oportunidad_cazador":  "formato-el-dia-despues-del-protagonista",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-30"
+                  },
+                  {
+                      "id":  "2026-11-27-westcol-hijos",
+                      "estado":  "listo",
+                      "tipo":  "frase",
+                      "puntaje":  78,
+                      "gancho":  "¿Westcol papá? Esto le respondió al chat",
+                      "archivo":  "salidas/clipero/clips/2026-11-27-westcol-hijos/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-27-westcol-hijos/ficha.md",
+                      "duracion_seg":  67.8,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=zcYV0CZF3K4",
+                                     "canal":  "WestCOL",
+                                     "inicio":  806.69,
+                                     "fin":  874.5
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "urbano",
+                      "orden_en_fuente":  3,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-30"
+                  },
+                  {
+                      "id":  "2026-11-27-westcol-helipuerto",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  74,
+                      "gancho":  "Westcol pidió permiso para un helipuerto en casa",
+                      "archivo":  "salidas/clipero/clips/2026-11-27-westcol-helipuerto/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-27-westcol-helipuerto/ficha.md",
+                      "duracion_seg":  51.8,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=zcYV0CZF3K4",
+                                     "canal":  "WestCOL",
+                                     "inicio":  112.97,
+                                     "fin":  164.74
+                                 },
+                      "oportunidad_cazador":  "formato-matematica-del-lujo",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  4,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-12-03"
+                  },
+                  {
+                      "id":  "2026-11-27-westcol-ganga-china",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  72,
+                      "gancho":  "Quiere llevar a La Ganga a China",
+                      "archivo":  "salidas/clipero/clips/2026-11-27-westcol-ganga-china/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-27-westcol-ganga-china/ficha.md",
+                      "duracion_seg":  62.6,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=zcYV0CZF3K4",
+                                     "canal":  "WestCOL",
+                                     "inicio":  1213.85,
+                                     "fin":  1276.5
+                                 },
+                      "oportunidad_cazador":  "formato-el-dia-despues-del-protagonista",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  5,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-30"
+                  },
+                  {
+                      "id":  "2026-11-27-westcol-ganga-finca",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  70,
+                      "gancho":  "La idea: La Ganga 72 horas en una finca",
+                      "archivo":  "salidas/clipero/clips/2026-11-27-westcol-ganga-finca/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-27-westcol-ganga-finca/ficha.md",
+                      "duracion_seg":  54.5,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=zcYV0CZF3K4",
+                                     "canal":  "WestCOL",
+                                     "inicio":  1751.53,
+                                     "fin":  1806.06
+                                 },
+                      "oportunidad_cazador":  "formato-el-dia-despues-del-protagonista",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  6,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-30"
+                  },
+                  {
+                      "id":  "2026-11-27-westcol-arcangel-la-10",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  66,
+                      "gancho":  "Juró que no lo dijo… y apareció el clip",
+                      "archivo":  "salidas/clipero/clips/2026-11-27-westcol-arcangel-la-10/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-27-westcol-arcangel-la-10/ficha.md",
+                      "duracion_seg":  40.9,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=zcYV0CZF3K4",
+                                     "canal":  "WestCOL",
+                                     "inicio":  668.57,
+                                     "fin":  709.42
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "urbano",
+                      "orden_en_fuente":  7,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-30"
+                  },
+                  {
+                      "id":  "2026-11-27-westcol-multa-la-cagamos",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  83,
+                      "gancho":  "La multa de 54 millones por la mansión",
+                      "archivo":  "salidas/clipero/clips/2026-11-27-westcol-multa-la-cagamos/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-27-westcol-multa-la-cagamos/ficha.md",
+                      "duracion_seg":  27.2,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=cmc2_uDXbQo",
+                                     "canal":  "WestCOL",
+                                     "inicio":  84.41,
+                                     "fin":  111.66
+                                 },
+                      "oportunidad_cazador":  "formato-matematica-del-lujo",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-30"
+                  },
+                  {
+                      "id":  "2026-11-27-westcol-multa-cuenta",
+                      "estado":  "listo",
+                      "tipo":  "reaccion",
+                      "puntaje":  75,
+                      "gancho":  "Abrió la cuenta de los daños en directo",
+                      "archivo":  "salidas/clipero/clips/2026-11-27-westcol-multa-cuenta/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-27-westcol-multa-cuenta/ficha.md",
+                      "duracion_seg":  44.0,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=cmc2_uDXbQo",
+                                     "canal":  "WestCOL",
+                                     "inicio":  22.41,
+                                     "fin":  66.42
+                                 },
+                      "oportunidad_cazador":  "formato-el-dia-despues-del-protagonista",
+                      "linea":  "urbano",
+                      "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-30"
+                  },
+                  {
+                      "id":  "2026-11-27-parenlamano-padre-acompanante",
+                      "estado":  "listo",
+                      "tipo":  "historia",
+                      "puntaje":  78,
+                      "gancho":  "Su hija lo postuló como padre acompañante",
+                      "archivo":  "salidas/clipero/clips/2026-11-27-parenlamano-padre-acompanante/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-27-parenlamano-padre-acompanante/ficha.md",
+                      "duracion_seg":  70.3,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=kdmn16vYazg",
+                                     "canal":  "Vorterix",
+                                     "inicio":  1817.01,
+                                     "fin":  1887.3
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-29"
+                  },
+                  {
+                      "id":  "2026-11-27-parenlamano-casi-me-matas",
+                      "estado":  "listo",
+                      "tipo":  "historia",
+                      "puntaje":  68,
+                      "gancho":  "Lo chocaron en moto y lo reconocieron",
+                      "archivo":  "salidas/clipero/clips/2026-11-27-parenlamano-casi-me-matas/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-27-parenlamano-casi-me-matas/ficha.md",
+                      "duracion_seg":  41.8,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=kdmn16vYazg",
+                                     "canal":  "Vorterix",
+                                     "inicio":  1544.05,
+                                     "fin":  1585.82
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  2,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-29"
+                  },
+                  {
+                      "id":  "2026-11-27-rubius-gym-gta",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  70,
+                      "gancho":  "Día de gimnasio en GTA VI con Rubius",
+                      "archivo":  "salidas/clipero/clips/2026-11-27-rubius-gym-gta/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-27-rubius-gym-gta/ficha.md",
+                      "duracion_seg":  73.3,
+                      "fuente":  {
+                                     "url":  "https://www.youtube.com/watch?v=8SWiS7zfB24",
+                                     "canal":  "Rubius Z",
+                                     "inicio":  631.25,
+                                     "fin":  704.54
+                                 },
+                      "oportunidad_cazador":  null,
+                      "linea":  "risas",
+                      "orden_en_fuente":  1,
+                      "variante_de":  null,
+                      "diferencia":  "",
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-29"
+                  },
                   {
                       "id":  "2026-11-26-westcol-cinco-anitos",
                       "estado":  "listo",

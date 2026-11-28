@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-27-westcol-hijos",
+    "url_fuente":  "https://www.youtube.com/watch?v=zcYV0CZF3K4",
+    "video_id":  "zcYV0CZF3K4",
+    "inicio":  806.69,
+    "fin":  874.5,
+    "inicio_hms":  "0:13:26",
+    "duracion_seg":  67.8,
+    "gancho":  "¿Westcol papá? Esto le respondió al chat",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  253,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "color":  "",
+    "resolucion":  "1080x1920",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -21.22,
+                  "entrada_tp":  -12.5,
+                  "salida_lufs":  -13.93,
+                  "salida_tp":  -5.54
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-27-westcol-hijos/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-27-westcol-hijos/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-27-westcol-hijos/revision.jpg",
+    "creado":  "2026-11-27T19:50:19.5658881-05:00"
+}

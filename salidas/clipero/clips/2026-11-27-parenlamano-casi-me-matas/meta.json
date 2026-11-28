@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-27-parenlamano-casi-me-matas",
+    "url_fuente":  "https://www.youtube.com/watch?v=kdmn16vYazg",
+    "video_id":  "kdmn16vYazg",
+    "inicio":  1544.05,
+    "fin":  1585.82,
+    "inicio_hms":  "0:25:44",
+    "duracion_seg":  41.8,
+    "gancho":  "Lo chocaron en moto y lo reconocieron",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  110,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "color":  "",
+    "resolucion":  "1080x1920",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -16.93,
+                  "entrada_tp":  -6.8,
+                  "salida_lufs":  -13.95,
+                  "salida_tp":  -4.14
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-27-parenlamano-casi-me-matas/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-27-parenlamano-casi-me-matas/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-27-parenlamano-casi-me-matas/revision.jpg",
+    "creado":  "2026-11-27T19:27:20.2041249-05:00"
+}

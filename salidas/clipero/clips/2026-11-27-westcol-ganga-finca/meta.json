@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-27-westcol-ganga-finca",
+    "url_fuente":  "https://www.youtube.com/watch?v=zcYV0CZF3K4",
+    "video_id":  "zcYV0CZF3K4",
+    "inicio":  1751.53,
+    "fin":  1806.06,
+    "inicio_hms":  "0:29:11",
+    "duracion_seg":  54.5,
+    "gancho":  "La idea: La Ganga 72 horas en una finca",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  160,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "color":  "",
+    "resolucion":  "1080x1920",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -21.52,
+                  "entrada_tp":  -13.01,
+                  "salida_lufs":  -13.97,
+                  "salida_tp":  -5.53
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-27-westcol-ganga-finca/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-27-westcol-ganga-finca/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-27-westcol-ganga-finca/revision.jpg",
+    "creado":  "2026-11-27T20:09:16.8354649-05:00"
+}

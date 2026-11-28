@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-27-westcol-multa-cuenta",
+    "url_fuente":  "https://www.youtube.com/watch?v=cmc2_uDXbQo",
+    "video_id":  "cmc2_uDXbQo",
+    "inicio":  22.41,
+    "fin":  66.42,
+    "inicio_hms":  "0:00:22",
+    "duracion_seg":  44,
+    "gancho":  "Abrió la cuenta de los daños en directo",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  111,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "color":  "",
+    "resolucion":  "1080x1920",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -21.87,
+                  "entrada_tp":  -13.05,
+                  "salida_lufs":  -14.21,
+                  "salida_tp":  -5.18
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-27-westcol-multa-cuenta/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-27-westcol-multa-cuenta/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-27-westcol-multa-cuenta/revision.jpg",
+    "creado":  "2026-11-27T18:52:14.1139229-05:00"
+}

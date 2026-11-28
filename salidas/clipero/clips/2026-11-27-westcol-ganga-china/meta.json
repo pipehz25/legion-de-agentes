@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-27-westcol-ganga-china",
+    "url_fuente":  "https://www.youtube.com/watch?v=zcYV0CZF3K4",
+    "video_id":  "zcYV0CZF3K4",
+    "inicio":  1213.85,
+    "fin":  1276.5,
+    "inicio_hms":  "0:20:13",
+    "duracion_seg":  62.6,
+    "gancho":  "Quiere llevar a La Ganga a China",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  264,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "color":  "",
+    "resolucion":  "1080x1920",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -21.11,
+                  "entrada_tp":  -8.53,
+                  "salida_lufs":  -13.93,
+                  "salida_tp":  -2.05
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-27-westcol-ganga-china/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-27-westcol-ganga-china/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-27-westcol-ganga-china/revision.jpg",
+    "creado":  "2026-11-27T20:03:20.5099723-05:00"
+}

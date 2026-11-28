@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-27-westcol-moto-no-se-vio",
+    "url_fuente":  "https://www.youtube.com/watch?v=zcYV0CZF3K4",
+    "video_id":  "zcYV0CZF3K4",
+    "inicio":  606.05,
+    "fin":  665.26,
+    "inicio_hms":  "0:10:06",
+    "duracion_seg":  59.2,
+    "gancho":  "Lo chocó una moto y no quedó grabado",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  245,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "color":  "",
+    "resolucion":  "1080x1920",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -21.1,
+                  "entrada_tp":  -13.44,
+                  "salida_lufs":  -13.97,
+                  "salida_tp":  -6.54
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-27-westcol-moto-no-se-vio/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-27-westcol-moto-no-se-vio/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-27-westcol-moto-no-se-vio/revision.jpg",
+    "creado":  "2026-11-27T19:38:30.3013674-05:00"
+}

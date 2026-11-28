@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-27-rubius-gym-gta",
+    "url_fuente":  "https://www.youtube.com/watch?v=8SWiS7zfB24",
+    "video_id":  "8SWiS7zfB24",
+    "inicio":  631.25,
+    "fin":  704.54,
+    "inicio_hms":  "0:10:31",
+    "duracion_seg":  73.3,
+    "gancho":  "Día de gimnasio en GTA VI con Rubius",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  87,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "color":  "",
+    "resolucion":  "1080x1920",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -17.72,
+                  "entrada_tp":  -4.94,
+                  "salida_lufs":  -14.06,
+                  "salida_tp":  -1.22
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-27-rubius-gym-gta/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-27-rubius-gym-gta/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-27-rubius-gym-gta/revision.jpg",
+    "creado":  "2026-11-27T19:18:14.8753436-05:00"
+}

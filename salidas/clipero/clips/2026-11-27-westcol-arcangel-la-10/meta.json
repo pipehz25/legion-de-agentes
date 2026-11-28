@@ -1,0 +1,31 @@
+{
+    "id":  "2026-11-27-westcol-arcangel-la-10",
+    "url_fuente":  "https://www.youtube.com/watch?v=zcYV0CZF3K4",
+    "video_id":  "zcYV0CZF3K4",
+    "inicio":  668.57,
+    "fin":  709.42,
+    "inicio_hms":  "0:11:08",
+    "duracion_seg":  40.9,
+    "gancho":  "Juró que no lo dijo… y apareció el clip",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  121,
+    "modo":  "desenfoque",
+    "estilo":  "clasico",
+    "color":  "",
+    "resolucion":  "1080x1920",
+    "fuente_ancho":  1920,
+    "fuente_alto":  1080,
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -22.4,
+                  "entrada_tp":  -10.27,
+                  "salida_lufs":  -14.1,
+                  "salida_tp":  -1.88
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-27-westcol-arcangel-la-10/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-27-westcol-arcangel-la-10/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-27-westcol-arcangel-la-10/revision.jpg",
+    "creado":  "2026-11-27T20:14:45.4096718-05:00"
+}
