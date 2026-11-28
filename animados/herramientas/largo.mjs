@@ -940,7 +940,7 @@ function temaDe(guion) {
 }
 
 // Colores del texto de la miniatura (sobre la imagen oscurecida), por tema.
-const MINI = { archivo: ["#fff3d6", "#ffc93c"], laboratorio: ["#ffffff", "#5ff0e6"], pizarra: ["#ffffff", "#b8ff3c"], cosmos: ["#ffffff", "#3fe0ff"], expedicion: ["#fff6e0", "#ffd23f"] };
+const MINI = { archivo: ["#fff3d6", "#ffc93c"], laboratorio: ["#ffffff", "#5ff0e6"], pizarra: ["#ffffff", "#b8ff3c"], cosmos: ["#ffffff", "#3fe0ff"], expedicion: ["#fff6e0", "#ffd23f"], mercado: ["#ffffff", "#e3b341"] };
 
 // Reparte palabras en n lineas minimizando la mas larga; una linea que termina en una palabra de
 // enlace ("a", "de", "la", "y"...) cuenta como si fuera 6 letras mas larga, para no dejarla colgando.

@@ -1,4 +1,4 @@
-// temas.mjs - Temas visuales de los videos propios (Narrador): archivo, laboratorio, pizarra, cosmos y expedicion.
+// temas.mjs - Temas visuales de los videos propios (Narrador): archivo, laboratorio, pizarra, cosmos, expedicion y mercado.
 //
 // Los usan montaje.mjs (Shorts verticales) y largo.mjs (videos largos de YouTube: tarjetas de
 // titulo y de capitulo y miniatura). Cada tema define variables CSS que usan las plantillas del
@@ -97,6 +97,37 @@ export function texturaTopografica() {
     }
   });
   return `url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='${L}' height='${L}'>${partes.join("")}</svg>") center / cover no-repeat`;
+}
+
+// Papel de grafico financiero para el tema mercado: cuadricula fina y unas lineas de cotizacion
+// tenues, siempre las mismas (paseo con una formula fija, sin azar). Lienzo de 1920x1080 sin repetir.
+export function texturaMercado() {
+  const h = (i) => {
+    const x = Math.sin(i * 12.9898 + 78.233) * 43758.5453;
+    return x - Math.floor(x);
+  };
+  const W = 1920;
+  const H = 1080;
+  const partes = [];
+  for (let x = 40; x < W; x += 40) partes.push(`<path d='M${x} 0 V${H}' stroke='%238cb4be' stroke-opacity='${x % 200 === 0 ? 0.075 : 0.035}' stroke-width='1'/>`);
+  for (let y = 40; y < H; y += 40) partes.push(`<path d='M0 ${y} H${W}' stroke='%238cb4be' stroke-opacity='${y % 200 === 0 ? 0.075 : 0.035}' stroke-width='1'/>`);
+  const series = [
+    { y0: 760, deriva: -0.32, paso: 16, color: "%23e3b341", op: 0.16, semilla: 11000, area: true },
+    { y0: 430, deriva: 0.12, paso: 24, color: "%2322c55e", op: 0.1, semilla: 12000 },
+    { y0: 900, deriva: -0.05, paso: 20, color: "%23ef4444", op: 0.08, semilla: 13000 },
+  ];
+  for (const sr of series) {
+    let y = sr.y0;
+    let d = "";
+    for (let x = 0, k = 0; x <= W; x += sr.paso, k++) {
+      y += (h(sr.semilla + k) - 0.5) * 34 + sr.deriva * sr.paso * 0.5;
+      y = Math.max(120, Math.min(H - 60, y));
+      d += (k ? "L" : "M") + x + " " + y.toFixed(1);
+    }
+    if (sr.area) partes.push(`<path d='${d} L${W} ${H} L0 ${H} Z' fill='${sr.color}' fill-opacity='0.035'/>`);
+    partes.push(`<path d='${d}' fill='none' stroke='${sr.color}' stroke-opacity='${sr.op}' stroke-width='2.2' stroke-linejoin='round'/>`);
+  }
+  return `url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='${W}' height='${H}'>${partes.join("")}</svg>") center / cover no-repeat`;
 }
 
 // Variables de las plantillas horizontales (videos largos): hojas, cintas, mapa, cadena, mesa...
@@ -556,6 +587,120 @@ export const TEMAS = {
           radial-gradient(ellipse 125% 95% at 50% 45%, rgba(0, 0, 0, 0) 52%, rgba(0, 0, 0, 0.5) 100%),
           ${texturaTopografica()},
           radial-gradient(ellipse 50% 40% at 85% 85%, rgba(255, 106, 26, 0.07) 0%, rgba(255, 106, 26, 0) 100%),
+          radial-gradient(ellipse 72% 50% at 50% 40%, ${p.brillo} 0%, ${p.brilloFin} 100%),
+          ${p.fondo}`,
+  },
+  // Dinero (canal de Felipe): terminal financiera e informe economico. Azul petroleo casi negro con
+  // cuadricula de grafico y lineas de cotizacion fijas, paneles de terminal con borde fino, tinta clara,
+  // dorado como acento, verde alza y rojo baja; titulos en Fraunces, texto en IBM Plex Sans y cifras en
+  // IBM Plex Mono (tabulares, como precios).
+  mercado: {
+    fondo: "#081216",
+    brillo: "#14272e",
+    google: "https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700;800&family=IBM+Plex+Sans:wght@500;600;700&family=IBM+Plex+Mono:wght@500;600;700&display=swap",
+    anchos: { anchoTitulo: 0.56, anchoTexto: 0.54, anchoCifra: 0.62 },
+    vars: {
+      "--tinta": "#e8eef0",
+      "--tinta-suave": "#9fb0b6",
+      "--acento": "#e3b341",
+      "--acento2": "#22c55e",
+      "--alerta": "#ef4444",
+      "--bien": "#22c55e",
+      "--sobre-acento": "#081216",
+      "--tarjeta": "rgba(15, 29, 35, 0.92)",
+      "--borde-tarjeta": "2px solid rgba(140, 180, 190, 0.3)",
+      "--sombra": "0 12px 28px rgba(0, 0, 0, 0.45)",
+      "--radio": "4px",
+      "--linea": "#e3b341",
+      "--riel": "rgba(159, 176, 182, 0.22)",
+      "--resplandor": "0 0 14px rgba(227, 179, 65, 0.3)",
+      "--resplandor-tinta": "none",
+      "--il-filtro": "drop-shadow(0 10px 14px rgba(0, 0, 0, 0.45))",
+      "--marco": "#e3b341",
+      "--marco-sombra": "0 0 0 6px #0f1d22, 0 0 0 8px rgba(227, 179, 65, 0.45), 0 16px 32px rgba(0, 0, 0, 0.5)",
+      "--ins-fondo": "rgba(227, 179, 65, 0.12)",
+      "--ins-tinta": "#f0c75e",
+      "--ins-borde": "2px solid #e3b341",
+      "--ins-sombra": "none",
+      "--lupa-aro": "#e3b341",
+      "--lupa-mango": "#9fb0b6",
+      "--fuente-titulo": '"Fraunces", serif',
+      "--peso-titulo": "700",
+      "--espaciado-titulo": "-0.015em",
+      "--fuente-texto": '"IBM Plex Sans", sans-serif',
+      "--peso-texto": "500",
+      "--fuente-cifra": '"IBM Plex Mono", monospace',
+      "--fuente-sub": '"IBM Plex Sans", sans-serif',
+      "--peso-sub": "700",
+      "--sub-tinta": "#ffffff",
+      "--sub-clave": "#e3b341",
+      "--sub-fondo": "rgba(8, 16, 20, 0.88)",
+      "--sub-borde": "1px solid rgba(227, 179, 65, 0.5)",
+      "--sub-caja": "0 8px 20px rgba(0, 0, 0, 0.4)",
+      "--sub-sombra": "none",
+      ...HORIZONTAL_PAPEL,
+      // Plantillas horizontales: paneles de terminal, cinta dorada, mapa como grafico.
+      "--hoja": "#102127",
+      "--hoja-fin": "#0b171b",
+      "--hoja-alta": "#13262d",
+      "--hoja-baja": "#0d1b20",
+      "--hoja-baja2": "#0d1b20",
+      "--hoja-media": "#0e1c21",
+      "--hoja-tablero": "#11232a",
+      "--hoja-foto": "#0a1519",
+      "--hoja-tinta": "#081216",
+      "--cinta": "rgba(227, 179, 65, 0.75)",
+      "--sombra-rgb": "0, 0, 0",
+      "--sombra2-rgb": "0, 0, 0",
+      "--borde-rgb": "140, 180, 190",
+      "--mancha-rgb": "0, 0, 0",
+      "--hoja-rgb": "10, 20, 24",
+      "--halo": "#0b171b",
+      "--halo-rgb": "11, 23, 27",
+      "--icono-papel": "#0e1c21",
+      "--trazo": "#e8eef0",
+      "--trazo-suave": "#8aa0a8",
+      "--varilla": "#2c3f46",
+      "--varilla-luz": "#9fb0b6",
+      "--perilla": "#e3b341",
+      "--roseta": "#22c55e",
+      "--mar": "#0c1b22",
+      "--mar-fin": "#08121a",
+      "--mar-raya-rgb": "120, 170, 190",
+      "--tierra": "#172a31",
+      "--mar-chico": "#0c1b22",
+      "--costa": "#e3b341",
+      "--mar-halo": "rgba(227, 179, 65, 0.08)",
+      "--txt-mar": "#7fa3ad",
+      "--txt-mar2": "#7fa3ad",
+      "--txt-rio": "#9cc3cc",
+      "--lago": "#0f2229",
+      "--canal-agua": "#3f7f8f",
+      "--rio": "#5aa0b0",
+      "--luz-ventana": "#e3b341",
+      "--cabina": "#1b3038",
+      "--acero-1": "#d0d8da",
+      "--acero-2": "#7d8c91",
+      "--acero-3": "#2c393d",
+      "--acero-brillo": "#f2f5f5",
+      "--hilo": "#ef4444",
+      "--pin": "#ef4444",
+      "--pin-luz": "#ffb4b4",
+      "--mesa": "#1a2c33",
+      "--mesa-luz": "#2c4650",
+      "--mesa-frente": "#0f1c21",
+      "--mesa-oscura": "#0a1418",
+      "--firma": "#e3b341",
+      "--pais-k": "0.6",
+      "--mapa-textura": "linear-gradient(rgba(140, 180, 190, 0.06) 1px, rgba(140, 180, 190, 0) 1px) 0 0 / 40px 40px, linear-gradient(90deg, rgba(140, 180, 190, 0.06) 1px, rgba(140, 180, 190, 0) 1px) 0 0 / 40px 40px",
+      "--figura-filtro": "drop-shadow(0 0 1.5px rgba(232, 238, 240, 0.6)) drop-shadow(0 8px 12px rgba(0, 0, 0, 0.45))",
+      "--paisaje-filtro": "hue-rotate(160deg) saturate(0.35) brightness(0.45)",
+      "--vehiculo-filtro": "drop-shadow(0 0 1.5px rgba(232, 238, 240, 0.6)) drop-shadow(0 10px 12px rgba(0, 0, 0, 0.45))",
+    },
+    fondoCss: (p) => `
+          radial-gradient(ellipse 125% 95% at 50% 45%, rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, 0.5) 100%),
+          ${texturaMercado()},
+          radial-gradient(ellipse 50% 40% at 85% 15%, rgba(227, 179, 65, 0.06) 0%, rgba(227, 179, 65, 0) 100%),
           radial-gradient(ellipse 72% 50% at 50% 40%, ${p.brillo} 0%, ${p.brilloFin} 100%),
           ${p.fondo}`,
   },

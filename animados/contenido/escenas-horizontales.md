@@ -1,6 +1,6 @@
 # Escenas horizontales: catálogo para escribir un video largo
 
-Referencia para diseñar las escenas de un video largo de YouTube (1920×1080, tema `archivo`, `cosmos` o `expedicion`; ver «Temas») sin leer el código. El estilo es el de la muestra aprobada (`animados/propios/hi-panama-muestra`) y de los capítulos c0 y c1 de `animados/propios/hi-panama/guion.json`: míralos como ejemplo completo.
+Referencia para diseñar las escenas de un video largo de YouTube (1920×1080, tema `archivo`, `cosmos`, `expedicion` o `mercado`; ver «Temas») sin leer el código. El estilo es el de la muestra aprobada (`animados/propios/hi-panama-muestra`) y de los capítulos c0 y c1 de `animados/propios/hi-panama/guion.json`: míralos como ejemplo completo.
 
 ## 1. Cómo va en el guion
 
@@ -56,13 +56,14 @@ Un dato `foto` (o `foto_<algo>`) con el nombre exacto del archivo de Commons: `"
 - **Banderas:** `colombia`, `panama`, `eeuu`, `francia`, `espana`.
 - **Dibujos** (`dibujo` en `mapa` > `fichas`, `fichas`, `cifra` y `titular`): `calendario`, `canon`, `pluma`, `sello`, `ancla`, `tren`, `mosquito`, `lluvia`, `derrumbe`, `cruz`, `moneda`, `esclusa`, `barco`, `volcan`, `documento`, `draga`, `montana`, `bandera`, `balanza`, `reloj`.
 
-### Temas: `archivo`, `cosmos` y `expedicion`
+### Temas: `archivo`, `cosmos`, `expedicion` y `mercado`
 
 Las plantillas horizontales toman todos sus colores y letras del tema (`estilo.tema` del guion; `herramientas/temas.mjs`):
 
 - **`archivo`** (historia): papel envejecido, tinta sepia, rojo lacre y oro viejo; Playfair Display y EB Garamond. Es el de los videos de historia; `estilo.fondo` y `estilo.brillo` (tonos claros) varían el papel.
 - **`cosmos`** (ciencia y misterios, canal CurioSismo): azul noche casi negro con estrellas y nebulosas fijas (siempre las mismas), hojas de vidrio oscuro con borde de luz, tinta clara, `acento` cian, `acento2` ámbar y `alerta` magenta, con resplandor; títulos y cifras en Exo 2, texto en Inter. El mapa sale como un mapa nocturno (tierra azul oscuro, costas cian) y los personajes llevan un contorno de luz. Pide `"estilo": { "tema": "cosmos" }`; si cambias `fondo`/`brillo`, que sean tonos oscuros. Resalta países con `acento` (cian): con `acento2` quedan grises.
 - **`expedicion`** (supervivencia, canal de Juliana): cuaderno de campo sobre un mapa topográfico. Verde oliva oscuro con curvas de nivel y retícula fijas, tarjetas de lona con borde claro y cinta amarilla, tinta clara, `acento` naranja de rescate (`#ff6a1a`), `acento2` amarillo de señal (`#ffd23f`), `alerta` rojo y `bien` verde musgo; sombras duras en vez de resplandor. Títulos en Oswald, texto en Barlow y cifras de estarcido (Big Shoulders Stencil Display), que en `cifra`, `fichas` y el calendario del `titular` dan el tono urgente. El mapa sale topográfico (tierra oliva con curvas de nivel, agua verde petróleo, costa clara). Pide `"estilo": { "tema": "expedicion" }`.
+- **`mercado`** (dinero, canal de Felipe: historia económica, empresas, finanzas y crisis): terminal financiera e informe económico. Azul petróleo casi negro con cuadrícula de gráfico y tres líneas de cotización tenues fijas (una dorada con su área, una verde y una roja), paneles de terminal con borde fino, tinta clara, `acento` dorado (`#e3b341`), `acento2` y `bien` verde alza (`#22c55e`), `alerta` rojo baja (`#ef4444`). Títulos en Fraunces, texto en IBM Plex Sans y **cifras en IBM Plex Mono** (tabulares, como precios: `cifra`, años de `linea-tiempo`, calendario del `titular`). La roseta de `cifra` sale verde, como un billete; el mapa, como un gráfico (tierra petróleo, costa dorada, cuadrícula). Para una caída usa `alerta` en los colores de las escenas (rojo) y para una subida `bien` (verde). Pide `"estilo": { "tema": "mercado" }`.
 
 Los colores por nombre (`acento`, `acento2`, `alerta`, `bien`, `tinta`) cambian solos con el tema: escribe nombres y no `#rrggbb`, o el color quedará fijo en los dos. Las banderas, las fotos y el paisaje de `vehiculo` conservan sus colores reales en cualquier tema (el paisaje de `vehiculo` se pasa por un filtro del tema: noche azul en `cosmos`, campo oliva en `expedicion`; la máquina lleva un contorno para despegarse).
 

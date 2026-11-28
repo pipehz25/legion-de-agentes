@@ -176,6 +176,7 @@ En el guion:
 | `pizarra` | Dinero, datos, curiosidades | Casi negro (`#090d16`/`#17263f`) con puntos de cuadrícula | Blanco `#eef6ff` / cian neón `#3ff0ff` (con resplandor) / magenta `#ff4fd8`; lima `#b8ff3c` | Space Grotesk 700 / 500 |
 | `cosmos` | Ciencia y misterios (videos largos horizontales) | Azul noche (`#04070f`/`#0f1d3d`) con estrellas y nebulosas fijas | Blanco azulado `#eaf2ff` / cian `#3fe0ff` (con resplandor) / magenta `#ff5aa8`; ámbar `#ffb547` | Exo 2 800 / Inter 600 |
 | `expedicion` | Supervivencia (videos largos horizontales) | Verde oliva (`#262b1d`/`#3d4630`) con curvas de nivel y retícula fijas | Crema `#f2ead0` / naranja de rescate `#ff6a1a` / rojo `#ff3b2f`; amarillo de señal `#ffd23f`, musgo `#9cc063` | Oswald 700 / Barlow 600 (cifras: Big Shoulders Stencil Display) |
+| `mercado` | Dinero: historia económica, empresas, crisis (videos largos horizontales) | Azul petróleo casi negro (`#081216`/`#14272e`) con cuadrícula de gráfico y líneas de cotización fijas | Gris claro `#e8eef0` / dorado `#e3b341` / rojo baja `#ef4444`; verde alza `#22c55e` | Fraunces 700 / IBM Plex Sans 500 (cifras: IBM Plex Mono) |
 
 **Qué pone el tema** (`montaje.mjs`, objeto `TEMAS`): el fondo de `index.html`, el atributo `data-tema` en `<html>`, `window.__tema` (nombre y ancho medio de letra, para ajustar textos) y estas variables CSS, que son las que usan las plantillas del Narrador: `--papel`, `--tinta`, `--tinta-suave`, `--acento`, `--acento2`, `--alerta`, `--bien`, `--sobre-acento` (texto sobre un fondo de acento), `--tarjeta`, `--borde-tarjeta`, `--sombra`, `--radio`, `--linea`, `--riel`, `--resplandor`, `--il-filtro` (cómo se asientan las ilustraciones: en `archivo` se entintan en sepia; en `pizarra`, brillan), `--marco`, `--lupa-aro`, `--lupa-mango`, `--ins-*` (insignias), `--fuente-titulo`, `--fuente-texto`, `--fuente-cifra`, `--peso-titulo`, `--peso-texto` y `--sub-*` (subtítulos).
 
@@ -260,7 +261,7 @@ Piezas:
 - **Ficha de personajes.** `"personajes": { "roosevelt": { "nombre": "...", "rol": "...", "barba": "morsa", "gafas": "quevedos" } }` en el guion. En los datos de una escena, `{ "personaje": "roosevelt", "pose": "senalar" }` recibe la ficha (lo que se escribe manda encima) y en la lista del `tablero` basta el id. Así cada persona se ve igual en todo el video. Sirve en cualquier guion (también en los Shorts).
 - **Subtítulos.** En horizontal salen abajo (952 a 1040 px), más chicos y de hasta 4 palabras, sobre la misma píldora del tema; las plantillas horizontales dejan esa franja libre. `"subtitulos": false` en el guion los quita todos (para YouTube se pueden subir aparte: el video largo deja su `.srt`).
 
-**Temas horizontales disponibles:** `archivo` (historia, papel), `cosmos` (ciencia y misterios: noche estrellada, vidrio oscuro, cian y ámbar) y `expedicion` (supervivencia: mapa topográfico oliva, lona, naranja de rescate y amarillo de señal; detalles en [contenido/escenas-horizontales.md](contenido/escenas-horizontales.md), «Temas»).
+**Temas horizontales disponibles:** `archivo` (historia, papel), `cosmos` (ciencia y misterios: noche estrellada, vidrio oscuro, cian y ámbar), `expedicion` (supervivencia: mapa topográfico oliva, lona, naranja de rescate y amarillo de señal) y `mercado` (dinero: terminal financiera, cuadrícula de gráfico, dorado, verde alza y rojo baja, cifras monoespaciadas; detalles en [contenido/escenas-horizontales.md](contenido/escenas-horizontales.md), «Temas»).
 
 **Plantillas horizontales** (todas con `estilo.tema`; cada archivo explica sus datos en la cabecera). Los momentos se dan con una palabra dicha, con `{ "en": 0.5 }` (una parte de lo hablado en la escena) o en segundos desde que empieza la escena; en una escena que empieza a mitad de frase, solo cuentan las palabras dichas desde que empieza.
 
@@ -643,7 +644,7 @@ animados/
   herramientas/producir.mjs  todo de una vez: voz, montaje, revisión, render y entrega
   herramientas/voz.mjs       narración y tiempos por palabra
   herramientas/montaje.mjs   index.html, escenas de plantilla y subtítulos
-  herramientas/temas.mjs     temas visuales del Narrador (archivo, laboratorio, pizarra, cosmos, expedicion)
+  herramientas/temas.mjs     temas visuales del Narrador (archivo, laboratorio, pizarra, cosmos, expedicion, mercado)
   herramientas/largo.mjs     videos largos de YouTube con fotos (imágenes, tramos, tarjetas, miniatura, textos)
   herramientas/largo-escenas.mjs  videos largos de YouTube por escenas (capítulos, render por capítulo, unión)
   herramientas/escenas.mjs   cortes dentro de una frase y ficha de personajes (los usan montaje y largo-escenas)
