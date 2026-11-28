@@ -29,9 +29,9 @@
     }
     #{{id}}-foto-f {
       position: relative;
-      background: #fbf3df;
+      background: var(--hoja);
       padding: 16px 16px 8px;
-      box-shadow: 0 22px 44px rgba(70, 40, 15, 0.3), 0 0 0 2px rgba(59, 36, 21, 0.2);
+      box-shadow: 0 22px 44px rgba(var(--sombra-rgb), 0.3), 0 0 0 2px rgba(var(--borde-rgb), 0.2);
     }
     #{{id}}-foto-img {
       display: block;
@@ -51,7 +51,7 @@
       top: -16px;
       width: 120px;
       height: 36px;
-      background: rgba(225, 205, 150, 0.82);
+      background: var(--cinta);
     }
     .{{id}}-ficha {
       position: absolute;
@@ -67,8 +67,8 @@
       position: relative;
       flex: none;
       border-radius: 50%;
-      background: radial-gradient(circle at 50% 40%, #fbf3df 0%, #efe0bd 78%);
-      border: 5px solid rgba(59, 36, 21, 0.3);
+      background: radial-gradient(circle at 50% 40%, var(--hoja) 0%, var(--hoja-fin) 78%);
+      border: 5px solid rgba(var(--borde-rgb), 0.3);
     }
     .{{id}}-ilu-f {
       position: absolute;
@@ -130,7 +130,7 @@
         y = arriba + (abajo - arriba - hh) / 2;
       }
       caja.push({ x, y, w, hh });
-      const color = f.resalta ? "#a3302a" : "#3b2415";
+      const color = f.resalta ? colorTema("--acento", "#a3302a") : colorTema("--trazo", "#3b2415");
       const il = conFoto ? hh - 40 : Math.min(270, w - 120);
       // Sin foto, el rotulo puede ir en dos renglones: se calcula con casi el doble de ancho.
       const tam = conFoto ? tamPara(f.texto || "", (w - il - 90) * (String(f.texto || "").length > 18 ? 1.8 : 1), 52, 34, T.anchoTitulo) : tamPara(f.texto || "", (w - 60) * 1.8, 58, 36, T.anchoTitulo);

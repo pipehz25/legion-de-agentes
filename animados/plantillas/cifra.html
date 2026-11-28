@@ -33,15 +33,15 @@
     .{{id}}-papel {
       position: absolute;
       inset: 0;
-      background: linear-gradient(180deg, #fbf4e2 0%, #f1e3c0 100%);
+      background: linear-gradient(180deg, var(--hoja-alta) 0%, var(--hoja-baja2) 100%);
       border-radius: 8px;
-      box-shadow: 0 30px 60px rgba(70, 40, 15, 0.26), inset 0 0 0 2px rgba(59, 36, 21, 0.16), inset 0 0 70px rgba(150, 100, 40, 0.16);
+      box-shadow: 0 30px 60px rgba(var(--sombra-rgb), 0.26), inset 0 0 0 2px rgba(var(--borde-rgb), 0.16), inset 0 0 70px rgba(var(--mancha-rgb), 0.16);
     }
     .{{id}}-filete {
       position: absolute;
       inset: 22px;
       border: 3px solid var(--acento2);
-      box-shadow: inset 0 0 0 8px rgba(251, 244, 226, 0.7), inset 0 0 0 10px var(--acento2);
+      box-shadow: inset 0 0 0 8px rgba(var(--hoja-rgb), 0.7), inset 0 0 0 10px var(--acento2);
       border-radius: 4px;
     }
     #{{id}}-roseta {
@@ -58,9 +58,9 @@
       width: 300px;
       height: 300px;
       border-radius: 50%;
-      background: radial-gradient(circle at 50% 40%, #fbf3df 0%, #efe0bd 75%);
+      background: radial-gradient(circle at 50% 40%, var(--hoja) 0%, var(--hoja-fin) 75%);
       border: 8px solid var(--marco);
-      box-shadow: 0 0 0 5px #f6ebd0, 0 0 0 8px #3b2415, 0 14px 30px rgba(80, 50, 20, 0.28);
+      box-shadow: 0 0 0 5px var(--hoja-media), 0 0 0 8px var(--trazo), 0 14px 30px rgba(var(--sombra2-rgb), 0.28);
       opacity: 0;
     }
     #{{id}}-dibujo-f {
@@ -228,7 +228,7 @@
       Object.assign(cuerpo.style, conDibujo ? { left: "430px", width: "950px" } : { left: "100px", width: "1240px" });
       $("roseta").style.left = (conDibujo ? 590 : 400) + "px";
       if (!conDibujo) $("dibujo").style.display = "none";
-      else $("dibujo-f").innerHTML = `<svg class="{{id}}-arte" viewBox="0 0 100 100">${icono(D.dibujo, "#3b2415")}</svg>`;
+      else $("dibujo-f").innerHTML = `<svg class="{{id}}-arte" viewBox="0 0 100 100">${icono(D.dibujo, colorTema("--trazo", "#3b2415"))}</svg>`;
       if (!D.antes) $("antes").style.display = "none";
       if (!D.moneda) $("moneda").style.display = "none";
       if (!D.unidad) $("unidad").style.display = "none";
@@ -244,9 +244,10 @@
       $("num").style.minWidth = numerica ? `${(digitos + (final.length - digitos) * 0.35).toFixed(2)}ch` : "";
       $("rotulo").style.fontSize = tamPara(D.rotulo || "", ancho, 62, 42, T.anchoTitulo) + "px";
       // Roseta de grabado (como en un billete) que gira despacio detras del numero.
+      const roseta = colorTema("--roseta", "#9a7128");
       let ros = "";
-      for (let k = 0; k < 36; k++) ros += `<ellipse cx="320" cy="320" rx="300" ry="110" fill="none" stroke="#9a7128" stroke-width="1.6" transform="rotate(${k * 5} 320 320)" />`;
-      $("roseta").innerHTML = `<svg class="{{id}}-arte" viewBox="0 0 640 640">${ros}<circle cx="320" cy="320" r="300" fill="none" stroke="#9a7128" stroke-width="5" /><circle cx="320" cy="320" r="286" fill="none" stroke="#9a7128" stroke-width="2" stroke-dasharray="4 8" /></svg>`;
+      for (let k = 0; k < 36; k++) ros += `<ellipse cx="320" cy="320" rx="300" ry="110" fill="none" stroke="${roseta}" stroke-width="1.6" transform="rotate(${k * 5} 320 320)" />`;
+      $("roseta").innerHTML = `<svg class="{{id}}-arte" viewBox="0 0 640 640">${ros}<circle cx="320" cy="320" r="300" fill="none" stroke="${roseta}" stroke-width="5" /><circle cx="320" cy="320" r="286" fill="none" stroke="${roseta}" stroke-width="2" stroke-dasharray="4 8" /></svg>`;
 
       fx.entra(tl, el("hoja"), 0.02, { y: 50 }, 0.45);
       tl.fromTo(el("roseta"), { rotation: 0 }, { rotation: 40, duration: r.dur, ease: "none" }, 0);

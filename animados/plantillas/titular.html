@@ -58,9 +58,9 @@
     #{{id}}-hoja {
       position: absolute;
       inset: 0;
-      background: #fbf3df;
+      background: var(--hoja);
       border-radius: 14px;
-      box-shadow: 0 26px 50px rgba(70, 40, 15, 0.28), 0 0 0 3px rgba(59, 36, 21, 0.25);
+      box-shadow: 0 26px 50px rgba(var(--sombra-rgb), 0.28), 0 0 0 3px rgba(var(--borde-rgb), 0.25);
       overflow: hidden;
     }
     #{{id}}-banda {
@@ -70,7 +70,7 @@
       width: 100%;
       height: 136px;
       background: var(--acento);
-      color: #fbf3df;
+      color: var(--hoja-tinta);
       text-align: center;
       line-height: 150px;
       font-size: 50px;
@@ -94,7 +94,7 @@
       right: 40px;
       bottom: 34px;
       padding-top: 16px;
-      border-top: 3px solid rgba(59, 36, 21, 0.3);
+      border-top: 3px solid rgba(var(--borde-rgb), 0.3);
       text-align: center;
       font-size: 62px;
       letter-spacing: 0.08em;
@@ -106,7 +106,7 @@
       width: 30px;
       height: 70px;
       border-radius: 15px;
-      background: linear-gradient(90deg, #6f5a43, #d8c7a4 45%, #6f5a43);
+      background: linear-gradient(90deg, var(--varilla), var(--varilla-luz) 45%, var(--varilla));
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     }
     #{{id}}-sello {
@@ -127,7 +127,7 @@
       width: 470px;
       height: 470px;
       border-radius: 50%;
-      background: radial-gradient(circle at 50% 40%, #fbf3df 0%, #efe0bd 75%);
+      background: radial-gradient(circle at 50% 40%, var(--hoja) 0%, var(--hoja-fin) 75%);
       border: 12px solid var(--marco);
       box-shadow: var(--marco-sombra);
       opacity: 0;
@@ -174,7 +174,7 @@
     if (!conDibujo) $("dib").style.display = "none";
     if (conDibujo) {
       $("cal").style.display = "none";
-      $("dib-f").innerHTML = `<svg class="{{id}}-arte" viewBox="0 0 100 100">${icono(D.dibujo, "#3b2415")}</svg>`;
+      $("dib-f").innerHTML = `<svg class="{{id}}-arte" viewBox="0 0 100 100">${icono(D.dibujo, colorTema("--trazo", "#3b2415"))}</svg>`;
       if (D.lado_dibujo === "izquierda") {
         $("dib").style.left = "210px";
         Object.assign(caja.style, { left: "820px", width: "960px", alignItems: "flex-start" });
@@ -241,7 +241,7 @@
         const k = String(C.sello);
         $("sello").innerHTML =
           `<svg class="{{id}}-arte" viewBox="0 0 230 230"><circle cx="115" cy="115" r="100" fill="none" style="stroke: var(--acento)" stroke-width="10" /><circle cx="115" cy="115" r="84" fill="none" style="stroke: var(--acento)" stroke-width="3" />` +
-          `<text x="115" y="140" text-anchor="middle" font-family="Playfair Display, serif" font-weight="900" font-size="${k.length > 4 ? 52 : 70}" style="fill: var(--acento)">${esc(k)}</text></svg>`;
+          `<text x="115" y="140" text-anchor="middle" font-weight="900" font-size="${k.length > 4 ? 52 : 70}" style="font-family: var(--fuente-titulo); fill: var(--acento)">${esc(k)}</text></svg>`;
         const tS = tope(dicho(C.palabra_sello || C.sello, 0.4), 0.6);
         tl.fromTo(el("sello"), { opacity: 0, scale: 2.4, rotation: -30 }, { opacity: 0.92, scale: 1, rotation: -12, duration: 0.28, ease: "power3.in" }, tS);
         fx.tiembla(tl, el("cal-f"), tS + 0.28, 3, 6);

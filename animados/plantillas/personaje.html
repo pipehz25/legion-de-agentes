@@ -82,7 +82,7 @@
     // ---------- El retrato, armado con los datos (siempre igual para los mismos datos) ----------
 {{>figura-js}}
     const medio = Boolean(D.pose);
-    $("busto-f").innerHTML = '<svg class="{{id}}-arte" viewBox="' + (medio ? "-40 30 480 480" : "0 0 400 400") + '">' + figura(D, "{{id}}", medio ? "medio" : "busto") + "</svg>";
+    $("busto-f").innerHTML = '<svg class="{{id}}-arte {{id}}-fig" viewBox="' + (medio ? "-40 30 480 480" : "0 0 400 400") + '">' + figura(D, "{{id}}", medio ? "medio" : "busto") + "</svg>";
 
     // ---------- Textos ----------
     $("nombre").style.fontSize = tamPara(D.nombre, {{?v}}900{{/v}}{{?h}}740{{/h}}, 96, 56, T.anchoTitulo) + "px";

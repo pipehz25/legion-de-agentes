@@ -27,15 +27,15 @@
     #{{id}}-marco {
       position: absolute;
       inset: 0;
-      background: #fbf3df;
-      box-shadow: 0 26px 50px rgba(70, 40, 15, 0.3), 0 0 0 2px rgba(59, 36, 21, 0.2);
+      background: var(--hoja);
+      box-shadow: 0 26px 50px rgba(var(--sombra-rgb), 0.3), 0 0 0 2px rgba(var(--borde-rgb), 0.2);
     }
     #{{id}}-ventana {
       position: absolute;
       left: 18px;
       top: 18px;
       overflow: hidden;
-      background: #e8dcc0;
+      background: var(--hoja-foto);
     }
     #{{id}}-img {
       position: absolute;
@@ -68,7 +68,7 @@
       top: -18px;
       width: 130px;
       height: 38px;
-      background: rgba(225, 205, 150, 0.82);
+      background: var(--cinta);
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12);
     }
     #{{id}}-lado {

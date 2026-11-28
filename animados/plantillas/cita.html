@@ -159,9 +159,9 @@
     #{{id}}-hoja-f {
       position: absolute;
       inset: 0;
-      background: linear-gradient(180deg, #fbf4e2 0%, #f3e6c4 100%);
+      background: linear-gradient(180deg, var(--hoja-alta) 0%, var(--hoja-baja) 100%);
       border-radius: 6px;
-      box-shadow: 0 30px 60px rgba(70, 40, 15, 0.26), inset 0 0 0 2px rgba(59, 36, 21, 0.16), inset 0 0 60px rgba(150, 100, 40, 0.16);
+      box-shadow: 0 30px 60px rgba(var(--sombra-rgb), 0.26), inset 0 0 0 2px rgba(var(--borde-rgb), 0.16), inset 0 0 60px rgba(var(--mancha-rgb), 0.16);
     }
     #{{id}}-comillas {
       position: absolute;
@@ -239,7 +239,7 @@
     const hoja = $("hoja");
     if (conMedallon) {
       Object.assign(hoja.style, { left: "760px", width: "1020px" });
-      $("busto-f").innerHTML = `<svg class="{{id}}-arte" viewBox="0 0 400 400">${figura(D, "{{id}}", "busto")}</svg>`;
+      $("busto-f").innerHTML = `<svg class="{{id}}-arte {{id}}-fig" viewBox="0 0 400 400">${figura(D, "{{id}}", "busto")}</svg>`;
       if (!D.rol) $("placa").style.display = "none";
       else $("placa").style.fontSize = tamPara(D.rol, 500, 40, 28, T.anchoTexto) + "px";
     } else {

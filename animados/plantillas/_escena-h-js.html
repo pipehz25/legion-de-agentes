@@ -30,6 +30,15 @@
       return (n < 0 ? "-" : "") + e.replace(/\B(?=(\d{3})+(?!\d))/g, ".") + (d ? "," + d : "");
     };
     // Colores del tema por nombre ("acento", "acento2", "alerta", "bien", "tinta") o un color directo.
+    // Valor de una variable del tema ya resuelto ("#3b2415"), para los atributos de SVG escritos en
+    // JS (un atributo fill="var(--x)" no siempre se resuelve). Sin la variable, queda el respaldo.
+    const colorTema = (nombre, respaldo) => {
+      try {
+        return getComputedStyle(document.documentElement).getPropertyValue(nombre).trim() || respaldo;
+      } catch (e) {
+        return respaldo;
+      }
+    };
     const tono = (c, respaldo = "var(--acento)") => (!c ? respaldo : /^#[0-9a-fA-F]{3,8}$/.test(c) ? c : `var(--${c})`);
 
     // Banderas (lienzo 90x60), dibujadas planas: colombia, panama, eeuu, francia, espana.
@@ -62,12 +71,13 @@
     // tren, mosquito, lluvia, derrumbe, cruz, moneda, esclusa, barco, volcan, documento, draga,
     // montana, bandera, balanza, reloj.
     const icono = (nombre, c = "currentColor") => {
-      const papel = "#fbf3df";
+      const papel = colorTema("--icono-papel", "#fbf3df");
+      const rojo = colorTema("--pin", "#a3302a");
       const agua = "#8fa9ab";
       const I = {
         mosquito: `<path d="M44 40 C30 22 12 22 10 30 C12 38 30 42 44 42 Z" fill="${papel}" stroke="${c}" stroke-width="2.6" opacity="0.95" /><path d="M48 38 C46 18 30 6 22 10 C20 20 34 34 48 40 Z" fill="${papel}" stroke="${c}" stroke-width="2.6" opacity="0.95" />` +
           `<path d="M26 68 C34 56 48 48 62 46 C66 50 64 56 58 58 C46 62 36 68 26 68 Z" fill="${c}" /><path d="M36 61 L40 55 M44 57 L47 51 M52 54 L54 49" stroke="${papel}" stroke-width="2.4" stroke-linecap="round" />` +
-          `<ellipse cx="66" cy="45" rx="8" ry="7" fill="${c}" /><circle cx="69" cy="42" r="2.2" fill="#a3302a" /><path d="M72 46 L94 54" stroke="${c}" stroke-width="2.6" stroke-linecap="round" />` +
+          `<ellipse cx="66" cy="45" rx="8" ry="7" fill="${c}" /><circle cx="69" cy="42" r="2.2" fill="${rojo}" /><path d="M72 46 L94 54" stroke="${c}" stroke-width="2.6" stroke-linecap="round" />` +
           `<path d="M50 52 L40 74 L34 90 M56 50 L54 74 L50 92 M60 48 L68 70 L74 88 M62 46 L80 58 L92 74 M48 50 L30 60 L16 64" stroke="${c}" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round" />`,
         lluvia: `<path d="M24 54 C10 54 8 36 22 34 C22 18 44 14 50 28 C58 16 80 20 78 36 C94 36 94 54 78 54 Z" fill="${c}" /><path d="M30 64 l-6 14 M50 64 l-6 14 M70 64 l-6 14 M40 80 l-5 11 M60 80 l-5 11" stroke="${c}" stroke-width="6" stroke-linecap="round" />`,
         derrumbe: `<path d="M4 92 L4 22 C18 20 28 30 36 42 L50 66 L66 92 Z" fill="${c}" /><path d="M10 34 L22 40 M14 54 L28 58 M20 72 L36 76" stroke="${papel}" stroke-width="3" opacity="0.5" />` +
@@ -77,16 +87,16 @@
         esclusa: `<rect x="6" y="28" width="10" height="62" fill="${c}" /><rect x="84" y="28" width="10" height="62" fill="${c}" /><rect x="16" y="40" width="34" height="50" fill="${agua}" /><rect x="50" y="62" width="34" height="28" fill="${agua}" opacity="0.8" />` +
           `<path d="M50 22 V92" stroke="${c}" stroke-width="7" /><path d="M16 40 H50 M50 62 H84" stroke="${c}" stroke-width="2.5" /><rect x="4" y="88" width="92" height="7" fill="${c}" /><path d="M44 14 L56 14" stroke="${c}" stroke-width="5" stroke-linecap="round" />`,
         barco: `<path d="M8 60 L92 60 L80 80 L18 80 Z" fill="${c}" /><rect x="26" y="44" width="46" height="16" rx="2" fill="${papel}" stroke="${c}" stroke-width="3" /><rect x="44" y="22" width="12" height="22" fill="${c}" /><path d="M20 60 V26 M80 60 V32" stroke="${c}" stroke-width="3" /><path d="M4 88 q8 -6 16 0 t16 0 t16 0 t16 0 t16 0 t16 0" stroke="${c}" stroke-width="3" fill="none" />`,
-        volcan: `<path d="M6 92 L36 40 C42 34 58 34 64 40 L94 92 Z" fill="${c}" /><path d="M36 40 C44 48 56 48 64 40" fill="#a3302a" /><path d="M40 52 L46 60 L52 50 L58 60" stroke="#a3302a" stroke-width="3" fill="none" />` +
+        volcan: `<path d="M6 92 L36 40 C42 34 58 34 64 40 L94 92 Z" fill="${c}" /><path d="M36 40 C44 48 56 48 64 40" fill="${rojo}" /><path d="M40 52 L46 60 L52 50 L58 60" stroke="${rojo}" stroke-width="3" fill="none" />` +
           `<circle cx="48" cy="24" r="9" fill="${papel}" stroke="${c}" stroke-width="2.5" /><circle cx="60" cy="14" r="8" fill="${papel}" stroke="${c}" stroke-width="2.5" /><circle cx="38" cy="12" r="6" fill="${papel}" stroke="${c}" stroke-width="2.5" />`,
-        documento: `<path d="M20 6 H64 L82 24 V94 H20 Z" fill="${papel}" stroke="${c}" stroke-width="5" stroke-linejoin="round" /><path d="M64 6 V24 H82" fill="none" stroke="${c}" stroke-width="4" /><path d="M30 38 H70 M30 50 H70 M30 62 H58" stroke="${c}" stroke-width="5" stroke-linecap="round" /><circle cx="62" cy="80" r="9" fill="#a3302a" />`,
+        documento: `<path d="M20 6 H64 L82 24 V94 H20 Z" fill="${papel}" stroke="${c}" stroke-width="5" stroke-linejoin="round" /><path d="M64 6 V24 H82" fill="none" stroke="${c}" stroke-width="4" /><path d="M30 38 H70 M30 50 H70 M30 62 H58" stroke="${c}" stroke-width="5" stroke-linecap="round" /><circle cx="62" cy="80" r="9" fill="${rojo}" />`,
         draga: `<path d="M4 86 H96" stroke="${c}" stroke-width="5" /><rect x="10" y="50" width="46" height="26" rx="3" fill="${c}" /><rect x="16" y="36" width="8" height="16" fill="${c}" /><circle cx="18" cy="80" r="6" fill="${c}" /><circle cx="48" cy="80" r="6" fill="${c}" />` +
           `<path d="M50 54 L82 20" stroke="${c}" stroke-width="6" stroke-linecap="round" /><path d="M64 38 L86 60" stroke="${c}" stroke-width="5" stroke-linecap="round" /><path d="M78 56 L96 58 L90 74 L76 70 Z" fill="${c}" /><circle cx="20" cy="28" r="6" fill="${papel}" stroke="${c}" stroke-width="2.5" />`,
         montana: `<path d="M4 90 L36 30 L52 56 L66 38 L96 90 Z" fill="${c}" /><path d="M36 30 L44 44 L38 42 L32 48 Z M66 38 L72 48 L66 46 L62 50 Z" fill="${papel}" />`,
-        bandera: `<path d="M22 8 V94" stroke="${c}" stroke-width="6" stroke-linecap="round" /><path d="M25 12 C42 6 56 20 80 12 V50 C56 58 42 44 25 50 Z" fill="#a3302a" stroke="${c}" stroke-width="3" />`,
+        bandera: `<path d="M22 8 V94" stroke="${c}" stroke-width="6" stroke-linecap="round" /><path d="M25 12 C42 6 56 20 80 12 V50 C56 58 42 44 25 50 Z" fill="${rojo}" stroke="${c}" stroke-width="3" />`,
         balanza: `<path d="M50 12 V86 M30 90 H70 M18 26 H82" stroke="${c}" stroke-width="6" stroke-linecap="round" /><path d="M18 26 L8 56 H28 Z M82 26 L72 56 H92 Z" fill="none" stroke="${c}" stroke-width="3" /><path d="M6 56 Q18 68 30 56 Z M70 56 Q82 68 94 56 Z" fill="${c}" />`,
         reloj: `<circle cx="50" cy="50" r="38" fill="${papel}" stroke="${c}" stroke-width="7" /><path d="M50 26 V50 L66 60" stroke="${c}" stroke-width="6" fill="none" stroke-linecap="round" />`,
-        calendario: `<rect x="14" y="20" width="72" height="66" rx="8" fill="#fbf3df" stroke="${c}" stroke-width="6" /><rect x="14" y="20" width="72" height="18" rx="6" fill="${c}" /><rect x="28" y="10" width="8" height="20" rx="4" fill="${c}" /><rect x="64" y="10" width="8" height="20" rx="4" fill="${c}" />`,
+        calendario: `<rect x="14" y="20" width="72" height="66" rx="8" fill="${papel}" stroke="${c}" stroke-width="6" /><rect x="14" y="20" width="72" height="18" rx="6" fill="${c}" /><rect x="28" y="10" width="8" height="20" rx="4" fill="${c}" /><rect x="64" y="10" width="8" height="20" rx="4" fill="${c}" />`,
         canon: `<rect x="18" y="40" width="58" height="20" rx="9" fill="${c}" transform="rotate(-14 47 50)" /><circle cx="36" cy="68" r="15" fill="none" stroke="${c}" stroke-width="7" /><circle cx="36" cy="68" r="4" fill="${c}" /><rect x="10" y="80" width="62" height="7" rx="3" fill="${c}" />`,
         pluma: `<path d="M80 12 C52 20 34 44 26 74 L32 78 C46 52 62 36 86 22 Z" fill="${c}" /><path d="M26 74 L18 90" stroke="${c}" stroke-width="5" stroke-linecap="round" />`,
         sello: `<circle cx="50" cy="50" r="34" fill="none" stroke="${c}" stroke-width="6" /><circle cx="50" cy="50" r="24" fill="none" stroke="${c}" stroke-width="3" />`,

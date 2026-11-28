@@ -17,8 +17,8 @@
       width: 330px;
       height: 372px;
       padding: 16px 16px 12px;
-      background: #fbf3df;
-      box-shadow: 0 18px 36px rgba(70, 40, 15, 0.26), 0 0 0 2px rgba(59, 36, 21, 0.2);
+      background: var(--hoja);
+      box-shadow: 0 18px 36px rgba(var(--sombra-rgb), 0.26), 0 0 0 2px rgba(var(--borde-rgb), 0.2);
       opacity: 0;
     }
     .{{id}}-retrato-cara {
@@ -26,7 +26,7 @@
       height: 250px;
       overflow: hidden;
       border-radius: 4px;
-      background: radial-gradient(circle at 50% 40%, color-mix(in srgb, var(--acento2) 30%, #f6ebd0) 0%, #efe0bd 75%);
+      background: radial-gradient(circle at 50% 40%, color-mix(in srgb, var(--acento2) 30%, var(--hoja-media)) 0%, var(--hoja-fin) 75%);
     }
     .{{id}}-retrato-n {
       margin-top: 10px;
@@ -43,8 +43,8 @@
     .{{id}}-recorte {
       position: absolute;
       padding: 14px 14px 10px;
-      background: #f7efda;
-      box-shadow: 0 22px 44px rgba(70, 40, 15, 0.3), 0 0 0 2px rgba(59, 36, 21, 0.18);
+      background: var(--hoja-tablero);
+      box-shadow: 0 22px 44px rgba(var(--sombra-rgb), 0.3), 0 0 0 2px rgba(var(--borde-rgb), 0.18);
       opacity: 0;
     }
     .{{id}}-recorte img {
@@ -64,7 +64,7 @@
       top: -16px;
       width: 110px;
       height: 34px;
-      background: rgba(225, 205, 150, 0.82);
+      background: var(--cinta);
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12);
     }
     #{{id}}-hilos {
@@ -113,7 +113,7 @@
       const s = SITIO_R[i];
       pines.push([s.x + 181, s.y + 8]);
       h +=
-        `<div id="{{id}}-r${i}" class="{{id}}-retrato" style="left: ${s.x}px; top: ${s.y}px"><div class="{{id}}-retrato-cara"><svg class="{{id}}-arte" viewBox="40 60 320 310">${figura(p, "{{id}}-r" + i, "busto")}</svg></div>` +
+        `<div id="{{id}}-r${i}" class="{{id}}-retrato" style="left: ${s.x}px; top: ${s.y}px"><div class="{{id}}-retrato-cara"><svg class="{{id}}-arte {{id}}-fig" viewBox="40 60 320 310">${figura(p, "{{id}}-r" + i, "busto")}</svg></div>` +
         `<div class="{{id}}-retrato-n {{id}}-titulo">${esc(p.corto || p.nombre)}</div><div class="{{id}}-retrato-r {{id}}-suave">${esc(p.rol || "")}</div><div class="{{id}}-cinta" style="left: 110px; transform: rotate(-4deg)"></div></div>`;
     });
     papeles.forEach((p) => {
@@ -135,9 +135,9 @@
     tramos.forEach(([a, b], i) => {
       const mx = (a[0] + b[0]) / 2;
       const my = Math.max(a[1], b[1]) + 60;
-      hilos += `<path id="{{id}}-hilo-${i}" d="M${a[0]} ${a[1]} Q${mx} ${my} ${b[0]} ${b[1]}" fill="none" stroke="#b0302a" stroke-width="4" stroke-linecap="butt" pathLength="1" stroke-dasharray="1 1" stroke-dashoffset="1" />`;
+      hilos += `<path id="{{id}}-hilo-${i}" d="M${a[0]} ${a[1]} Q${mx} ${my} ${b[0]} ${b[1]}" fill="none" stroke="${colorTema("--hilo", "#b0302a")}" stroke-width="4" stroke-linecap="butt" pathLength="1" stroke-dasharray="1 1" stroke-dashoffset="1" />`;
     });
-    hilos += pines.map(([x, y], i) => `<g id="{{id}}-pin-${i}" opacity="0"><circle cx="${x}" cy="${y}" r="12" fill="#a3302a" /><circle cx="${x - 4}" cy="${y - 4}" r="4" fill="#f2b6a8" /></g>`).join("");
+    hilos += pines.map(([x, y], i) => `<g id="{{id}}-pin-${i}" opacity="0"><circle cx="${x}" cy="${y}" r="12" fill="${colorTema("--pin", "#a3302a")}" /><circle cx="${x - 4}" cy="${y - 4}" r="4" fill="${colorTema("--pin-luz", "#f2b6a8")}" /></g>`).join("");
     $("hilos").innerHTML = `<svg class="{{id}}-arte" viewBox="0 0 1920 1080">${hilos}</svg>`;
 
     // ---------- Movimiento ----------

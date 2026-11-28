@@ -44,8 +44,8 @@
       position: absolute;
       inset: 0;
       background:
-        repeating-linear-gradient(0deg, rgba(58, 74, 60, 0.07) 0, rgba(58, 74, 60, 0.07) 2px, rgba(58, 74, 60, 0) 2px, rgba(58, 74, 60, 0) 11px),
-        radial-gradient(ellipse 80% 70% at 50% 45%, #d9d9c0 0%, #c9ccb0 100%);
+        repeating-linear-gradient(0deg, rgba(var(--mar-raya-rgb), 0.07) 0, rgba(var(--mar-raya-rgb), 0.07) 2px, rgba(var(--mar-raya-rgb), 0) 2px, rgba(var(--mar-raya-rgb), 0) 11px),
+        radial-gradient(ellipse 80% 70% at 50% 45%, var(--mar) 0%, var(--mar-fin) 100%);
     }
     #{{id}}-mapa {
       position: absolute;
@@ -57,23 +57,23 @@
       height: 1080px;
     }
     .{{id}}-tierra {
-      fill: #f4e7c5;
+      fill: var(--tierra);
     }
     .{{id}}-costa {
       fill: none;
-      stroke: #3b2415;
+      stroke: var(--costa);
       stroke-width: 2.2px;
       stroke-linejoin: round;
     }
     .{{id}}-halo {
       fill: none;
-      stroke: #e6e5cf;
+      stroke: var(--mar-halo);
       stroke-width: 22px;
       stroke-linejoin: round;
     }
     .{{id}}-reja {
       fill: none;
-      stroke: #6f4e35;
+      stroke: var(--trazo-suave);
       stroke-opacity: 0.16;
       stroke-width: 1.2px;
     }
@@ -82,12 +82,12 @@
       font-weight: 700;
       fill: var(--tinta);
       paint-order: stroke;
-      stroke: #f6ecd0;
+      stroke: var(--halo);
       stroke-linejoin: round;
     }
     .{{id}}-txt-mar {
       font-style: italic;
-      fill: #3a5244;
+      fill: var(--txt-mar);
       stroke: none;
       letter-spacing: 0.12em;
     }
@@ -103,12 +103,12 @@
     }
     .{{id}}-txt-rio {
       font-style: italic;
-      fill: #2f5a68;
+      fill: var(--txt-rio);
       letter-spacing: 0.06em;
     }
     .{{id}}-lago {
-      fill: #cdd2b6;
-      stroke: #3b2415;
+      fill: var(--lago);
+      stroke: var(--costa);
       stroke-width: 1.8px;
       stroke-linejoin: round;
     }
@@ -116,7 +116,7 @@
       position: absolute;
       inset: 22px;
       border: 3px solid var(--acento2);
-      box-shadow: inset 0 0 0 7px rgba(246, 236, 208, 0.55), inset 0 0 0 9px rgba(59, 36, 21, 0.55);
+      box-shadow: inset 0 0 0 7px rgba(var(--halo-rgb), 0.55), inset 0 0 0 9px rgba(var(--borde-rgb), 0.55);
       border-radius: 4px;
     }
     #{{id}}-rosa {
@@ -256,6 +256,21 @@
 {{>escena-h-js}}
 {{>geo-americas}}
 
+    // Colores del tema para los atributos de SVG (en archivo, los de siempre).
+    const MC = {
+      trazo: colorTema("--trazo", "#3b2415"),
+      suave: colorTema("--trazo-suave", "#6f4e35"),
+      roseta: colorTema("--roseta", "#9a7128"),
+      pin: colorTema("--pin", "#a3302a"),
+      cabina: colorTema("--cabina", "#efe6cf"),
+      ventana: colorTema("--luz-ventana", "#f2d48a"),
+      halo: colorTema("--halo", "#f6ecd0"),
+      canal: colorTema("--canal-agua", "#a3c0c1"),
+      rio: colorTema("--rio", "#5f8a98"),
+    };
+    // Cuanto se tinen los paises encendidos (1 en archivo; menos en los temas oscuros, donde un tinte fuerte se ve turbio).
+    const kPais = Number(colorTema("--pais-k", "1")) || 1;
+
     const RATIO = 1080 / 1920;
     const lugar = (l) => (typeof l === "string" ? GEO.lugares[l] : l);
     const P = (l) => merc(lugar(l));
@@ -384,13 +399,13 @@
       if (ru.estilo === "flecha") svg += `<marker id="{{id}}-mk${i}" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="3.4" markerHeight="3.4" orient="auto"><path d="M0 0 L10 5 L0 10 L2.6 5 Z" style="fill: ${c}" /></marker>`;
       let trazo = "";
       if (ru.estilo === "tren") {
-        trazo = `<path d="${d}" fill="none" style="stroke: ${c}" stroke-width="${f3(g)}" stroke-linecap="round" stroke-linejoin="round" /><path d="${d}" fill="none" stroke="#f6ecd0" stroke-width="${f3(g * 0.45)}" stroke-dasharray="${f3(g * 1.6)} ${f3(g * 1.6)}" />`;
+        trazo = `<path d="${d}" fill="none" style="stroke: ${c}" stroke-width="${f3(g)}" stroke-linecap="round" stroke-linejoin="round" /><path d="${d}" fill="none" stroke="${MC.halo}" stroke-width="${f3(g * 0.45)}" stroke-dasharray="${f3(g * 1.6)} ${f3(g * 1.6)}" />`;
       } else if (ru.estilo === "canal") {
-        trazo = `<path d="${d}" fill="none" style="stroke: var(--tinta)" stroke-width="${f3(g)}" stroke-linecap="round" stroke-linejoin="round" /><path d="${d}" fill="none" stroke="#a3c0c1" stroke-width="${f3(g * 0.58)}" stroke-linecap="round" stroke-linejoin="round" />`;
+        trazo = `<path d="${d}" fill="none" style="stroke: var(--tinta)" stroke-width="${f3(g)}" stroke-linecap="round" stroke-linejoin="round" /><path d="${d}" fill="none" stroke="${MC.canal}" stroke-width="${f3(g * 0.58)}" stroke-linecap="round" stroke-linejoin="round" />`;
       } else if (ru.estilo === "resalte") {
         trazo = `<path d="${d}" fill="none" style="stroke: ${c}" stroke-width="${f3(g * 2.6)}" stroke-linecap="round" stroke-linejoin="round" opacity="0.38" />`;
       } else if (ru.estilo === "rio") {
-        trazo = `<path d="${d}" fill="none" stroke="${ru.color ? c : "#5f8a98"}" stroke-width="${f3(g)}" stroke-linecap="round" stroke-linejoin="round" />`;
+        trazo = `<path d="${d}" fill="none" stroke="${ru.color ? c : MC.rio}" stroke-width="${f3(g)}" stroke-linecap="round" stroke-linejoin="round" />`;
       } else if (ru.estilo === "discontinua") {
         trazo = `<path d="${d}" fill="none" style="stroke: ${c}" stroke-width="${f3(g)}" stroke-dasharray="${f3(g * 2.2)} ${f3(g * 1.5)}" stroke-linecap="round" />`;
       } else {
@@ -411,7 +426,7 @@
       pts.forEach((l, j) => {
         const [x, y] = P(l);
         const w = (M.tam ?? 80) * k * (0.8 + 0.2 * ((j * 37) % 3));
-        capas += `<g id="{{id}}-monte-${j}" opacity="0"><svg x="${f3(x - w / 2)}" y="${f3(y - w * 0.8)}" width="${f3(w)}" height="${f3(w)}" viewBox="0 0 100 100">${icono("montana", "#6f4e35")}</svg></g>`;
+        capas += `<g id="{{id}}-monte-${j}" opacity="0"><svg x="${f3(x - w / 2)}" y="${f3(y - w * 0.8)}" width="${f3(w)}" height="${f3(w)}" viewBox="0 0 100 100">${icono("montana", MC.suave)}</svg></g>`;
         montes.push({ j, t: t + j * 0.08 });
       });
     }
@@ -427,8 +442,8 @@
       const dx = lado === "derecha" ? w * 0.66 : lado === "izquierda" ? -w * 0.66 : 0;
       const dy = lado === "arriba" ? -w * 0.66 : lado === "abajo" ? w * 0.66 + tam * 0.7 : tam * 0.34;
       const ancla = lado === "derecha" ? "start" : lado === "izquierda" ? "end" : "middle";
-      capas += `<g id="{{id}}-escl-${i}" opacity="0"><circle cx="${f3(x)}" cy="${f3(y)}" r="${f3(w * 0.56)}" fill="#f6ecd0" style="stroke: var(--acento)" stroke-width="${f3(w * 0.06)}" />`;
-      capas += `<svg x="${f3(x - w * 0.4)}" y="${f3(y - w * 0.4)}" width="${f3(w * 0.8)}" height="${f3(w * 0.8)}" viewBox="0 0 100 100">${icono("esclusa", "#3b2415")}</svg>`;
+      capas += `<g id="{{id}}-escl-${i}" opacity="0"><circle cx="${f3(x)}" cy="${f3(y)}" r="${f3(w * 0.56)}" fill="${MC.halo}" style="stroke: var(--acento)" stroke-width="${f3(w * 0.06)}" />`;
+      capas += `<svg x="${f3(x - w * 0.4)}" y="${f3(y - w * 0.4)}" width="${f3(w * 0.8)}" height="${f3(w * 0.8)}" viewBox="0 0 100 100">${icono("esclusa", MC.trazo)}</svg>`;
       capas += `<text class="{{id}}-txt" x="${f3(x + dx)}" y="${f3(y + dy)}" text-anchor="${ancla}" font-size="${f3(tam)}" stroke-width="${f3(tam * 0.22)}">${esc(e.texto ?? NOMBRES_ESCLUSA[e.id] ?? "")}</text></g>`;
       return { ...e, i, t, x, y, fin: finDe(t, e.hasta) };
     });
@@ -445,7 +460,7 @@
       const dy = lado === "arriba" ? -r * 2.4 : lado === "abajo" ? r * 2.4 + tam * 0.7 : tam * 0.34;
       const ancla = lado === "derecha" ? "start" : lado === "izquierda" ? "end" : "middle";
       capas += `<g id="{{id}}-marca-${i}" opacity="0"><circle cx="${f3(x)}" cy="${f3(y)}" r="${f3(r * 2.6)}" id="{{id}}-onda-${i}" fill="none" style="stroke: var(--acento)" stroke-width="${f3(r * 0.35)}" opacity="0" />`;
-      capas += `<circle cx="${f3(x)}" cy="${f3(y)}" r="${f3(r)}" fill="#f6ecd0" style="stroke: var(--tinta)" stroke-width="${f3(r * 0.42)}" /><circle cx="${f3(x)}" cy="${f3(y)}" r="${f3(r * 0.45)}" style="fill: var(--acento)" />`;
+      capas += `<circle cx="${f3(x)}" cy="${f3(y)}" r="${f3(r)}" fill="${MC.halo}" style="stroke: var(--tinta)" stroke-width="${f3(r * 0.42)}" /><circle cx="${f3(x)}" cy="${f3(y)}" r="${f3(r * 0.45)}" style="fill: var(--acento)" />`;
       capas += `<text class="{{id}}-txt" x="${f3(x + dx)}" y="${f3(y + dy)}" text-anchor="${ancla}" font-size="${f3(tam)}" stroke-width="${f3(tam * 0.22)}">${esc(m.texto)}</text></g>`;
       return { ...m, i, t, fin: finDe(t, m.hasta) };
     });
@@ -470,8 +485,8 @@
       const w = (b.tam ?? 120) * k;
       const h = (w * 60) / 90;
       const asta = h * 2.1;
-      capas += `<g id="{{id}}-band-${i}" opacity="0"><ellipse cx="${f3(x)}" cy="${f3(y)}" rx="${f3(w * 0.16)}" ry="${f3(w * 0.06)}" fill="#3b2415" opacity="0.35" />`;
-      capas += `<rect x="${f3(x - w * 0.025)}" y="${f3(y - asta)}" width="${f3(w * 0.05)}" height="${f3(asta)}" fill="#3b2415" />`;
+      capas += `<g id="{{id}}-band-${i}" opacity="0"><ellipse cx="${f3(x)}" cy="${f3(y)}" rx="${f3(w * 0.16)}" ry="${f3(w * 0.06)}" fill="${MC.trazo}" opacity="0.35" />`;
+      capas += `<rect x="${f3(x - w * 0.025)}" y="${f3(y - asta)}" width="${f3(w * 0.05)}" height="${f3(asta)}" fill="${MC.trazo}" />`;
       capas += `<svg x="${f3(x)}" y="${f3(y - asta)}" width="${f3(w)}" height="${f3(h)}" viewBox="0 0 90 60" preserveAspectRatio="none">${bandera(b.pais)}</svg></g>`;
       return { ...b, i, t, fin: finDe(t, b.hasta), x, y };
     });
@@ -479,8 +494,8 @@
     // Iconos que recorren las rutas (encima de todo).
     const dibujoIcono = (tipo) =>
       tipo === "tren"
-        ? `<rect x="-46" y="-20" width="58" height="30" rx="5" fill="#3b2415" /><rect x="4" y="-36" width="30" height="46" rx="4" fill="#3b2415" /><rect x="10" y="-30" width="18" height="14" rx="2" fill="#f2d48a" /><rect x="-38" y="-46" width="12" height="28" rx="3" fill="#3b2415" /><path d="M-46 -48 C-52 -60 -40 -68 -30 -62 C-24 -74 -6 -70 -8 -58" fill="#efe6cf" stroke="#3b2415" stroke-width="2.5" /><circle cx="-30" cy="16" r="10" fill="#a3302a" /><circle cx="-6" cy="16" r="10" fill="#a3302a" /><circle cx="22" cy="16" r="10" fill="#a3302a" /><path d="M34 6 L50 14 L34 14 Z" fill="#3b2415" />`
-        : `<path d="M-60 0 L60 0 L46 22 L-50 22 Z" fill="#3b2415" /><path d="M-60 0 L60 0 L56 7 L-57 7 Z" fill="#a3302a" /><rect x="-34" y="-16" width="62" height="16" rx="3" fill="#efe6cf" stroke="#3b2415" stroke-width="2.5" /><rect x="-8" y="-44" width="14" height="30" rx="2" fill="#3b2415" /><rect x="-8" y="-38" width="14" height="6" fill="#a3302a" /><path d="M-42 -16 L-42 -64 M26 -16 L26 -58" stroke="#3b2415" stroke-width="4" /><path d="M-42 -60 L-20 -40 L-42 -40 Z M26 -54 L44 -36 L26 -36 Z" fill="#f6ecd0" stroke="#3b2415" stroke-width="2" /><circle cx="-1" cy="-56" r="9" fill="#e9e1cb" opacity="0.9" /><circle cx="-12" cy="-66" r="7" fill="#e9e1cb" opacity="0.7" />`;
+        ? `<rect x="-46" y="-20" width="58" height="30" rx="5" fill="${MC.trazo}" /><rect x="4" y="-36" width="30" height="46" rx="4" fill="${MC.trazo}" /><rect x="10" y="-30" width="18" height="14" rx="2" fill="${MC.ventana}" /><rect x="-38" y="-46" width="12" height="28" rx="3" fill="${MC.trazo}" /><path d="M-46 -48 C-52 -60 -40 -68 -30 -62 C-24 -74 -6 -70 -8 -58" fill="${MC.cabina}" stroke="${MC.trazo}" stroke-width="2.5" /><circle cx="-30" cy="16" r="10" fill="${MC.pin}" /><circle cx="-6" cy="16" r="10" fill="${MC.pin}" /><circle cx="22" cy="16" r="10" fill="${MC.pin}" /><path d="M34 6 L50 14 L34 14 Z" fill="${MC.trazo}" />`
+        : `<path d="M-60 0 L60 0 L46 22 L-50 22 Z" fill="${MC.trazo}" /><path d="M-60 0 L60 0 L56 7 L-57 7 Z" fill="${MC.pin}" /><rect x="-34" y="-16" width="62" height="16" rx="3" fill="${MC.cabina}" stroke="${MC.trazo}" stroke-width="2.5" /><rect x="-8" y="-44" width="14" height="30" rx="2" fill="${MC.trazo}" /><rect x="-8" y="-38" width="14" height="6" fill="${MC.pin}" /><path d="M-42 -16 L-42 -64 M26 -16 L26 -58" stroke="${MC.trazo}" stroke-width="4" /><path d="M-42 -60 L-20 -40 L-42 -40 Z M26 -54 L44 -36 L26 -36 Z" fill="${MC.halo}" stroke="${MC.trazo}" stroke-width="2" /><circle cx="-1" cy="-56" r="9" fill="#e9e1cb" opacity="0.9" /><circle cx="-12" cy="-66" r="7" fill="#e9e1cb" opacity="0.7" />`;
     rutas.forEach((ru) => {
       if (!ru.movil) return;
       const s = ((ru.tam_icono ?? 74) * ru.k) / 120;
@@ -492,9 +507,9 @@
 
     // Rosa de los vientos (adorno fijo).
     $("rosa").innerHTML =
-      '<svg class="{{id}}-arte" viewBox="0 0 150 150"><circle cx="75" cy="75" r="52" fill="none" stroke="#6f4e35" stroke-width="2" stroke-opacity="0.6" /><circle cx="75" cy="75" r="44" fill="none" stroke="#6f4e35" stroke-width="1" stroke-opacity="0.5" />' +
-      '<path d="M75 8 L86 75 L75 142 L64 75 Z" fill="#3b2415" /><path d="M75 8 L86 75 L75 75 Z" fill="#9a7128" /><path d="M8 75 L75 64 L142 75 L75 86 Z" fill="#6f4e35" /><path d="M8 75 L75 64 L75 75 Z" fill="#9a7128" />' +
-      '<text x="75" y="6" text-anchor="middle" font-family="Playfair Display, serif" font-weight="900" font-size="20" fill="#3b2415" dy="0">N</text></svg>';
+      `<svg class="{{id}}-arte" viewBox="0 0 150 150"><circle cx="75" cy="75" r="52" fill="none" stroke="${MC.suave}" stroke-width="2" stroke-opacity="0.6" /><circle cx="75" cy="75" r="44" fill="none" stroke="${MC.suave}" stroke-width="1" stroke-opacity="0.5" />` +
+      `<path d="M75 8 L86 75 L75 142 L64 75 Z" fill="${MC.trazo}" /><path d="M75 8 L86 75 L75 75 Z" fill="${MC.roseta}" /><path d="M8 75 L75 64 L142 75 L75 86 Z" fill="${MC.suave}" /><path d="M8 75 L75 64 L75 75 Z" fill="${MC.roseta}" />` +
+      `<text x="75" y="6" text-anchor="middle" font-weight="900" font-size="20" style="font-family: var(--fuente-titulo); fill: ${MC.trazo}" dy="0">N</text></svg>`;
 
     // ---------- Movimiento ----------
     const svgEl = el("svg");
@@ -523,7 +538,7 @@
 
     encendidos.forEach((p) => {
       const fin = p.hasta ? tope(momento(p.hasta, 0.9), 0.3) : null;
-      tl.fromTo(el("pais-" + p.i), { opacity: 0 }, { opacity: p.opacidad ?? 0.6, duration: 0.5, ease: "power1.out" }, p.t);
+      tl.fromTo(el("pais-" + p.i), { opacity: 0 }, { opacity: (p.opacidad ?? 0.6) * kPais, duration: 0.5, ease: "power1.out" }, p.t);
       if (fin !== null && fin > p.t + 0.5) tl.to(el("pais-" + p.i), { opacity: 0, duration: 0.5 }, fin);
     });
 
@@ -621,7 +636,7 @@
       for (let k = 0; k < (f.marcas || 0); k++) rayas += `<div style="position: relative"><div class="{{id}}-rayita"></div><div id="{{id}}-raya-${i}-${k}" class="{{id}}-rayita-luz"></div></div>`;
       hFichas +=
         `<div id="{{id}}-ficha-${i}" class="{{id}}-ficha {{id}}-tarjeta" style="${sitio}">` +
-        (f.dibujo ? `<div class="{{id}}-ficha-il"><svg class="{{id}}-arte" viewBox="0 0 100 100">${icono(f.dibujo, "#3b2415")}</svg>${f.tachar ? `<svg class="{{id}}-ficha-tacha" viewBox="0 0 100 100"><path id="{{id}}-tacha-${i}" d="M14 14 L86 86 M86 14 L14 86" stroke="#a3302a" stroke-width="11" stroke-linecap="butt" fill="none" pathLength="1" stroke-dasharray="1 1" stroke-dashoffset="1" /></svg>` : ""}</div>` : "") +
+        (f.dibujo ? `<div class="{{id}}-ficha-il"><svg class="{{id}}-arte" viewBox="0 0 100 100">${icono(f.dibujo, MC.trazo)}</svg>${f.tachar ? `<svg class="{{id}}-ficha-tacha" viewBox="0 0 100 100"><path id="{{id}}-tacha-${i}" d="M14 14 L86 86 M86 14 L14 86" stroke="${MC.pin}" stroke-width="11" stroke-linecap="butt" fill="none" pathLength="1" stroke-dasharray="1 1" stroke-dashoffset="1" /></svg>` : ""}</div>` : "") +
         `<div>${f.titulo ? `<div id="{{id}}-ficha-num-${i}" class="{{id}}-ficha-num {{id}}-cifra">${esc(f.titulo)}</div>` : ""}<div class="{{id}}-ficha-txt {{id}}-titulo">${esc(f.texto || "")}</div>${rayas ? `<div class="{{id}}-ficha-marcas">${rayas}</div>` : ""}</div></div>`;
     });
     $("fichas").innerHTML = hFichas;

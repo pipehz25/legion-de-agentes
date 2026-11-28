@@ -70,9 +70,9 @@
       opacity: 0;
     }
     #{{id}}-foto-marco {
-      background: #fbf3df;
+      background: var(--hoja);
       padding: 16px 16px 10px;
-      box-shadow: 0 20px 40px rgba(70, 40, 15, 0.3), 0 0 0 2px rgba(59, 36, 21, 0.2);
+      box-shadow: 0 20px 40px rgba(var(--sombra-rgb), 0.3), 0 0 0 2px rgba(var(--borde-rgb), 0.2);
     }
     #{{id}}-foto-img {
       display: block;
@@ -92,7 +92,7 @@
       top: -16px;
       width: 120px;
       height: 36px;
-      background: rgba(225, 205, 150, 0.82);
+      background: var(--cinta);
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12);
     }
   </style>
@@ -128,25 +128,25 @@
     if (D.firma === "izquierda") A.pose = "firmar";
     if (D.firma === "derecha") B.pose = "firmar";
     // El de la izquierda mira a la derecha (como se dibuja); el de la derecha se voltea.
-    $("fig-a-f").innerHTML = `<svg class="{{id}}-arte" viewBox="0 0 400 520">${figura(A, "{{id}}-a", "medio")}</svg>`;
-    $("fig-b-f").innerHTML = `<svg class="{{id}}-arte" viewBox="0 0 400 520"><g transform="translate(400 0) scale(-1 1)">${figura(B, "{{id}}-b", "medio")}</g></svg>`;
+    $("fig-a-f").innerHTML = `<svg class="{{id}}-arte {{id}}-fig" viewBox="0 0 400 520">${figura(A, "{{id}}-a", "medio")}</svg>`;
+    $("fig-b-f").innerHTML = `<svg class="{{id}}-arte {{id}}-fig" viewBox="0 0 400 520"><g transform="translate(400 0) scale(-1 1)">${figura(B, "{{id}}-b", "medio")}</g></svg>`;
     const asta = (pais, haciaDer) =>
-      `<svg class="{{id}}-arte" viewBox="0 0 120 200"><rect x="${haciaDer ? 18 : 96}" y="20" width="6" height="170" rx="3" fill="#6f5a43" /><circle cx="${haciaDer ? 21 : 99}" cy="18" r="7" fill="#c9a256" />` +
-      `<svg x="${haciaDer ? 24 : 6}" y="26" width="90" height="60" viewBox="0 0 90 60" preserveAspectRatio="none">${bandera(pais)}</svg><ellipse cx="${haciaDer ? 21 : 99}" cy="190" rx="22" ry="7" fill="#3b2415" /></svg>`;
+      `<svg class="{{id}}-arte" viewBox="0 0 120 200"><rect x="${haciaDer ? 18 : 96}" y="20" width="6" height="170" rx="3" fill="${colorTema("--varilla", "#6f5a43")}" /><circle cx="${haciaDer ? 21 : 99}" cy="18" r="7" fill="${colorTema("--perilla", "#c9a256")}" />` +
+      `<svg x="${haciaDer ? 24 : 6}" y="26" width="90" height="60" viewBox="0 0 90 60" preserveAspectRatio="none">${bandera(pais)}</svg><ellipse cx="${haciaDer ? 21 : 99}" cy="190" rx="22" ry="7" fill="${colorTema("--trazo", "#3b2415")}" /></svg>`;
     if (A.bandera) $("asta-a").innerHTML = asta(A.bandera, true);
     if (B.bandera) $("asta-b").innerHTML = asta(B.bandera, false);
     // Mesa de madera con su canto, y el documento encima.
     $("mesa").innerHTML =
-      `<svg class="{{id}}-arte" viewBox="0 0 1920 380" preserveAspectRatio="none"><path d="M60 0 H1860 L1920 46 H0 Z" fill="#8a5a33" /><path d="M60 0 H1860 L1872 10 H48 Z" fill="#a8734a" />` +
-      `<rect x="0" y="46" width="1920" height="334" fill="#6e4426" /><rect x="0" y="46" width="1920" height="14" fill="#5a361d" />` +
-      `<path d="M0 120 H1920 M0 230 H1920" stroke="#5a361d" stroke-width="3" opacity="0.5" /></svg>`;
+      `<svg class="{{id}}-arte" viewBox="0 0 1920 380" preserveAspectRatio="none"><path d="M60 0 H1860 L1920 46 H0 Z" fill="${colorTema("--mesa", "#8a5a33")}" /><path d="M60 0 H1860 L1872 10 H48 Z" fill="${colorTema("--mesa-luz", "#a8734a")}" />` +
+      `<rect x="0" y="46" width="1920" height="334" fill="${colorTema("--mesa-frente", "#6e4426")}" /><rect x="0" y="46" width="1920" height="14" fill="${colorTema("--mesa-oscura", "#5a361d")}" />` +
+      `<path d="M0 120 H1920 M0 230 H1920" stroke="${colorTema("--mesa-oscura", "#5a361d")}" stroke-width="3" opacity="0.5" /></svg>`;
     const firmaDer = D.firma !== "izquierda";
     // El documento queda bajo la mano de quien firma.
     $("papel").style.left = (firmaDer ? 1100 : 420) + "px";
     $("papel").innerHTML =
-      `<svg class="{{id}}-arte" viewBox="0 0 400 70"><path d="M40 6 H372 L392 64 H8 Z" fill="#fbf4e2" stroke="#3b2415" stroke-opacity="0.3" stroke-width="2" />` +
-      `<path d="M70 20 H250 M60 32 H300 M52 44 H200" stroke="#3b2415" stroke-opacity="0.25" stroke-width="4" stroke-linecap="round" />` +
-      `<path id="{{id}}-firma" d="M${firmaDer ? 250 : 60} 52 C${firmaDer ? "262 30 270 64 284 42 C294 28 298 60 312 46 C322 36 330 54 352 40" : "72 30 80 64 94 42 C104 28 108 60 122 46 C132 36 140 54 162 40"}" fill="none" stroke="#1f2a5a" stroke-width="3.5" stroke-linecap="butt" pathLength="1" stroke-dasharray="1 1" stroke-dashoffset="1" /></svg>`;
+      `<svg class="{{id}}-arte" viewBox="0 0 400 70"><path d="M40 6 H372 L392 64 H8 Z" fill="${colorTema("--hoja-alta", "#fbf4e2")}" stroke="${colorTema("--trazo", "#3b2415")}" stroke-opacity="0.3" stroke-width="2" />` +
+      `<path d="M70 20 H250 M60 32 H300 M52 44 H200" stroke="${colorTema("--trazo", "#3b2415")}" stroke-opacity="0.25" stroke-width="4" stroke-linecap="round" />` +
+      `<path id="{{id}}-firma" d="M${firmaDer ? 250 : 60} 52 C${firmaDer ? "262 30 270 64 284 42 C294 28 298 60 312 46 C322 36 330 54 352 40" : "72 30 80 64 94 42 C104 28 108 60 122 46 C132 36 140 54 162 40"}" fill="none" stroke="${colorTema("--firma", "#1f2a5a")}" stroke-width="3.5" stroke-linecap="butt" pathLength="1" stroke-dasharray="1 1" stroke-dashoffset="1" /></svg>`;
     if (!D.foto_src) $("foto").style.display = "none";
     ["placa-a", "placa-b"].forEach((p) => {
       const n = $(p).querySelector(".{{id}}-placa-n");

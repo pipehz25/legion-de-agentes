@@ -66,9 +66,9 @@
       opacity: 0;
     }
     #{{id}}-foto-marco {
-      background: #fbf3df;
+      background: var(--hoja);
       padding: 14px 14px 8px;
-      box-shadow: 0 20px 40px rgba(70, 40, 15, 0.3), 0 0 0 2px rgba(59, 36, 21, 0.2);
+      box-shadow: 0 20px 40px rgba(var(--sombra-rgb), 0.3), 0 0 0 2px rgba(var(--borde-rgb), 0.2);
     }
     #{{id}}-foto-img {
       display: block;
@@ -89,7 +89,7 @@
       top: -16px;
       width: 110px;
       height: 34px;
-      background: rgba(225, 205, 150, 0.82);
+      background: var(--cinta);
     }
   </style>
 
@@ -254,8 +254,8 @@
     if (D.anio) {
       const k = String(D.anio);
       $("sello").innerHTML =
-        `<svg class="{{id}}-arte" viewBox="0 0 270 270"><circle cx="135" cy="135" r="122" fill="#fbf3df" style="stroke: var(--acento)" stroke-width="10" /><circle cx="135" cy="135" r="104" fill="none" style="stroke: var(--acento)" stroke-width="3" stroke-dasharray="6 7" />` +
-        `<text x="135" y="160" text-anchor="middle" font-family="Playfair Display, serif" font-weight="900" font-size="${k.length > 4 ? 64 : 82}" style="fill: var(--acento)">${esc(k)}</text></svg>`;
+        `<svg class="{{id}}-arte" viewBox="0 0 270 270"><circle cx="135" cy="135" r="122" style="fill: var(--hoja); stroke: var(--acento)" stroke-width="10" /><circle cx="135" cy="135" r="104" fill="none" style="stroke: var(--acento)" stroke-width="3" stroke-dasharray="6 7" />` +
+        `<text x="135" y="160" text-anchor="middle" font-weight="900" font-size="${k.length > 4 ? 64 : 82}" style="font-family: var(--fuente-titulo); fill: var(--acento)">${esc(k)}</text></svg>`;
     } else {
       $("sello").style.display = "none";
       // Sin sello, el titulo y el dato ocupan su lugar.

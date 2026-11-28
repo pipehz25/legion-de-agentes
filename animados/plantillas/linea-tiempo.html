@@ -210,7 +210,7 @@
     <div id="{{id}}-titulo" class="{{id}}-titulo">{{d.titulo|}}<div id="{{id}}-titulo-raya"></div></div>
     <div id="{{id}}-riel"></div>
     <div id="{{id}}-hitos"></div>
-    <div id="{{id}}-flecha"><svg class="{{id}}-arte" viewBox="0 0 70 64"><path d="M6 6 H64 L35 58 Z" style="fill: var(--acento)" /><path d="M16 12 H54 L35 46 Z" fill="#fbf3df" opacity="0.35" /></svg></div>
+    <div id="{{id}}-flecha"><svg class="{{id}}-arte" viewBox="0 0 70 64"><path d="M6 6 H64 L35 58 Z" style="fill: var(--acento)" /><path d="M16 12 H54 L35 46 Z" style="fill: var(--hoja)" opacity="0.35" /></svg></div>
   </div>
 
   <script>
@@ -237,8 +237,8 @@
     // Riel: base, regla con rayitas y la luz (que llega hasta el hito actual).
     const largoLuz = xs[N - 1] - 70;
     let rs = `<svg class="{{id}}-arte" viewBox="0 0 1920 1080">`;
-    rs += `<path id="{{id}}-base" d="M70 ${Y} H1850" stroke="rgba(59, 36, 21, 0.28)" stroke-width="12" stroke-linecap="round" pathLength="1" stroke-dasharray="1 1" stroke-dashoffset="1" />`;
-    for (let x = 90; x <= 1830; x += 29) rs += `<path class="{{id}}-raya" d="M${x} ${Y + 14} V${Y + (Math.round((x - 90) / 29) % 5 === 0 ? 34 : 24)}" stroke="rgba(59, 36, 21, 0.3)" stroke-width="3" />`;
+    rs += `<path id="{{id}}-base" d="M70 ${Y} H1850" style="stroke: rgba(var(--borde-rgb), 0.28)" stroke-width="12" stroke-linecap="round" pathLength="1" stroke-dasharray="1 1" stroke-dashoffset="1" />`;
+    for (let x = 90; x <= 1830; x += 29) rs += `<path class="{{id}}-raya" d="M${x} ${Y + 14} V${Y + (Math.round((x - 90) / 29) % 5 === 0 ? 34 : 24)}" style="stroke: rgba(var(--borde-rgb), 0.3)" stroke-width="3" />`;
     rs += `<path id="{{id}}-luz" d="M70 ${Y} H${xs[N - 1].toFixed(1)}" style="stroke: var(--acento)" stroke-width="12" stroke-linecap="round" stroke-dasharray="${largoLuz.toFixed(1)} ${largoLuz.toFixed(1)}" stroke-dashoffset="${largoLuz.toFixed(1)}" />`;
     rs += `</svg>`;
     $("riel").innerHTML = rs;
@@ -251,7 +251,7 @@
       h += `<div id="{{id}}-a${i}" class="{{id}}-anio {{id}}-cifra" style="left: ${(x - 200).toFixed(1)}px; width: 400px; top: ${Y - 40 - tamAnio * 1.15}px; font-size: ${tamAnio}px${esActual ? "" : "; color: var(--tinta)"}">${esc(hi.anio)}</div>`;
       h += `<div id="{{id}}-p${i}" class="{{id}}-punto" style="left: ${(x - 46).toFixed(1)}px; top: ${Y - 46}px; width: 92px; height: 92px"><svg class="{{id}}-arte" viewBox="0 0 92 92">` +
         `<circle id="{{id}}-onda${i}" cx="46" cy="46" r="${r0 + 6}" fill="none" style="stroke: var(--acento)" stroke-width="5" opacity="0" />` +
-        `<circle cx="46" cy="46" r="${r0}" fill="#fbf3df" stroke="#3b2415" stroke-width="5" /><circle id="{{id}}-pc${i}" cx="46" cy="46" r="${r0 - 9}" style="fill: ${esActual ? "var(--acento)" : "var(--acento2)"}" /></svg></div>`;
+        `<circle cx="46" cy="46" r="${r0}" style="fill: var(--hoja); stroke: var(--trazo)" stroke-width="5" /><circle id="{{id}}-pc${i}" cx="46" cy="46" r="${r0 - 9}" style="fill: ${esActual ? "var(--acento)" : "var(--acento2)"}" /></svg></div>`;
       h += `<div id="{{id}}-t${i}" class="{{id}}-tarjeta-h {{id}}-tarjeta" style="left: ${(x - ancho / 2).toFixed(1)}px; width: ${ancho}px; top: ${Y + 62}px; font-size: ${tamTexto}px${esActual ? "; border-color: var(--acento); border-width: 5px" : ""}">${esc(sinViuda(hi.texto || ""))}</div>`;
     });
     $("hitos").innerHTML = h;

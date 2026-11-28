@@ -62,9 +62,9 @@
       line-height: 120px;
       text-align: center;
       font-size: 64px;
-      background: #fbf3df;
+      background: var(--hoja);
       border-radius: 10px 10px 10px 10px;
-      box-shadow: 0 14px 26px rgba(70, 40, 15, 0.24), 0 0 0 3px rgba(59, 36, 21, 0.22);
+      box-shadow: 0 14px 26px rgba(var(--sombra-rgb), 0.24), 0 0 0 3px rgba(var(--borde-rgb), 0.22);
     }
     #{{id}}-atras {
       position: absolute;
@@ -100,21 +100,23 @@
 
     // ---------- La cadena: eslabones de frente y de canto, alternados ----------
     const PASO = 64;
+    const brilloAcero = colorTema("--acero-brillo", "#b6a184");
+    const aceroGancho = colorTema("--acero-2", "#4a3a2c");
     const N = Math.floor(3800 / PASO);
-    let h = `<svg class="{{id}}-arte" viewBox="0 0 3800 120"><defs><linearGradient id="{{id}}-acero" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8b7863" /><stop offset="0.45" stop-color="#4a3a2c" /><stop offset="1" stop-color="#2c2219" /></linearGradient></defs>`;
+    let h = `<svg class="{{id}}-arte" viewBox="0 0 3800 120"><defs><linearGradient id="{{id}}-acero" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${colorTema("--acero-1", "#8b7863")}" /><stop offset="0.45" stop-color="${colorTema("--acero-2", "#4a3a2c")}" /><stop offset="1" stop-color="${colorTema("--acero-3", "#2c2219")}" /></linearGradient></defs>`;
     for (let k = 0; k < N; k++) {
       const x = k * PASO + 40;
       h +=
         k % 2
           ? `<rect id="{{id}}-e${k}" x="${x - 40}" y="52" width="80" height="18" rx="9" fill="url(#{{id}}-acero)" />`
-          : `<g id="{{id}}-e${k}"><ellipse cx="${x}" cy="61" rx="46" ry="27" fill="none" stroke="url(#{{id}}-acero)" stroke-width="15" /><ellipse cx="${x - 6}" cy="52" rx="28" ry="10" fill="none" stroke="#b6a184" stroke-width="3" opacity="0.5" /></g>`;
+          : `<g id="{{id}}-e${k}"><ellipse cx="${x}" cy="61" rx="46" ry="27" fill="none" stroke="url(#{{id}}-acero)" stroke-width="15" /><ellipse cx="${x - 6}" cy="52" rx="28" ry="10" fill="none" stroke="${brilloAcero}" stroke-width="3" opacity="0.5" /></g>`;
     }
     $("hierro").innerHTML = h + "</svg>";
 
     // ---------- Placas con palabras y etiquetas de anos ----------
     const esl = (D.eslabones || []).slice(0, 3);
     const xs = esl.length === 3 ? [280, 760, 1240] : [440, 1080];
-    const gancho = (ancho) => `<svg class="{{id}}-arte" viewBox="0 0 ${ancho} 130" style="position: absolute; left: 0; top: 0; width: ${ancho}px; height: 130px"><path d="M${ancho / 2} 6 V124" stroke="#4a3a2c" stroke-width="8" stroke-dasharray="14 8" /><circle cx="${ancho / 2}" cy="10" r="14" fill="none" stroke="#4a3a2c" stroke-width="7" /></svg>`;
+    const gancho = (ancho) => `<svg class="{{id}}-arte" viewBox="0 0 ${ancho} 130" style="position: absolute; left: 0; top: 0; width: ${ancho}px; height: 130px"><path d="M${ancho / 2} 6 V124" stroke="${aceroGancho}" stroke-width="8" stroke-dasharray="14 8" /><circle cx="${ancho / 2}" cy="10" r="14" fill="none" stroke="${aceroGancho}" stroke-width="7" /></svg>`;
     let colg = "";
     esl.forEach((e, i) => {
       colg += `<div id="{{id}}-placa-${i}" class="{{id}}-placa" style="left: ${xs[i]}px">${gancho(400)}<div class="{{id}}-placa-c {{id}}-tarjeta {{id}}-titulo"><span class="${i === esl.length - 1 ? "{{id}}-acento" : ""}">${esc(e.texto)}</span></div></div>`;
