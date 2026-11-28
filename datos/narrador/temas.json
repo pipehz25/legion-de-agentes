@@ -64,9 +64,8 @@
       "pregunta": "¿Napoleón era bajito?",
       "angulo": "Medía cerca de 1,69 m, normal para su época; el mito sale de la diferencia entre pulgadas francesas e inglesas y de la propaganda británica.",
       "formato": "mito o realidad",
-      "estado": "en-produccion",
-      "pc": "felipe",
-      "nota": "2026-11-26: apartado por la PC de Felipe para un largo de prueba con voz Deepgram"
+      "estado": "pendiente",
+      "nota": "2026-11-27: vuelve a pendiente para la línea de historia (D-19). La PC de Felipe lo usó solo como prueba de voz Deepgram (dejó 2 frases casi mudas y se descartó); su guion de prueba no se subió."
     },
     {
       "id": "hi-panama",
@@ -133,9 +132,8 @@
       "pregunta": "¿La Gran Muralla se ve desde el espacio?",
       "angulo": "Mito: a simple vista no se distingue desde la órbita; por qué se repite.",
       "formato": "mito o realidad",
-      "estado": "en-produccion",
-      "pc": "felipe",
-      "nota": "2026-11-26: apartado por la PC de Felipe para un largo de prueba con voz AI33"
+      "estado": "pendiente",
+      "nota": "2026-11-27: vuelve a pendiente para la línea de historia (D-19). La PC de Felipe lo usó solo como prueba de voz AI33, que ganó; su guion de prueba no se subió."
     },
     {
       "id": "hi-policarpa",
