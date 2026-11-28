@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Legion Publicador</title>
+<meta name="description" content="Legion Publicador: herramienta privada para subir videos propios a los canales de YouTube de su dueño.">
+<style>
+  :root { color-scheme: light dark; --texto: #1d1d1f; --suave: #5b5b62; --fondo: #fafaf7; --linea: #e3e1da; --acento: #b3261e; }
+  @media (prefers-color-scheme: dark) { :root { --texto: #ececec; --suave: #a8a8b0; --fondo: #16161a; --linea: #2c2c33; --acento: #ff8a80; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--fondo); color: var(--texto); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 56px 24px 72px; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 8px; }
+  h2 { font-size: 1.15rem; margin: 36px 0 8px; }
+  .sub { color: var(--suave); margin: 0 0 32px; }
+  a { color: var(--acento); }
+  ul { padding-left: 1.2em; }
+  code { font-size: .9em; }
+  nav { display: flex; gap: 20px; flex-wrap: wrap; border-top: 1px solid var(--linea); margin-top: 48px; padding-top: 20px; }
+  footer { color: var(--suave); font-size: .9rem; margin-top: 16px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Legion Publicador</h1>
+  <p class="sub">Herramienta privada de la Legión de Agentes para publicar videos en YouTube.</p>
+
+  <h2>Qué es</h2>
+  <p>Legion Publicador sube videos propios a los canales de YouTube de su dueño y lee las estadísticas de esos videos (vistas, me gusta y comentarios) para medir resultados.</p>
+  <p>No es un servicio abierto al público. Solo la usan los dueños de los canales, cada uno con su propia cuenta de Google, desde su propio computador.</p>
+
+  <h2>Qué permisos de YouTube pide</h2>
+  <ul>
+    <li><code>youtube.upload</code>: subir videos al canal que el dueño elige al autorizar.</li>
+    <li><code>youtube.readonly</code>: leer el nombre del canal y las estadísticas de sus videos.</li>
+  </ul>
+  <p>No pide acceso al correo, los contactos, Google Drive ni a ningún otro servicio de Google.</p>
+
+  <h2>Cómo funciona</h2>
+  <p>Solo se sube lo que el dueño aprueba. La autorización queda guardada en el computador del dueño y no pasa por ningún servidor de terceros. Se puede retirar en cualquier momento desde <a href="https://myaccount.google.com/permissions">la página de permisos de tu cuenta de Google</a>.</p>
+
+  <nav>
+    <a href="privacidad.html">Política de privacidad</a>
+    <a href="condiciones.html">Condiciones del servicio</a>
+    <a href="https://github.com/pipehz25">Contacto</a>
+  </nav>
+  <footer>Legion Publicador · Legión de Agentes</footer>
+</main>
+</body>
+</html>
