@@ -7,10 +7,30 @@
       "estilo": "archivo",
       "tono": "Misterio y relato: «el día que…», «nadie te contó…». Cercano, con tensión, sin fechas de más.",
       "enfoque": "Historia universal y, cuando se pueda, de Colombia y Latinoamérica (nos diferencia).",
-      "fuentes": ["Enciclopedia Britannica", "Museos (Museo Nacional de Colombia, British Museum, Smithsonian)", "Banco de la República (Red Cultural, Biblioteca Luis Ángel Arango)", "Biblioteca Nacional de Colombia", "Universidades y revistas académicas", "Archivos nacionales"],
-      "formatos": ["misterio histórico", "la historia en 3 pasos", "mito o realidad", "dato que no sabías"],
-      "ganchos": ["¿Por qué…?", "El día que…", "Lo que nadie te contó de…", "Esto no fue como te lo enseñaron"],
-      "limites": ["No glorificar violencia ni personajes criminales.", "Política reciente: solo hechos documentados, sin tomar partido."],
+      "fuentes": [
+        "Enciclopedia Britannica",
+        "Museos (Museo Nacional de Colombia, British Museum, Smithsonian)",
+        "Banco de la República (Red Cultural, Biblioteca Luis Ángel Arango)",
+        "Biblioteca Nacional de Colombia",
+        "Universidades y revistas académicas",
+        "Archivos nacionales"
+      ],
+      "formatos": [
+        "misterio histórico",
+        "la historia en 3 pasos",
+        "mito o realidad",
+        "dato que no sabías"
+      ],
+      "ganchos": [
+        "¿Por qué…?",
+        "El día que…",
+        "Lo que nadie te contó de…",
+        "Esto no fue como te lo enseñaron"
+      ],
+      "limites": [
+        "No glorificar violencia ni personajes criminales.",
+        "Política reciente: solo hechos documentados, sin tomar partido."
+      ],
       "cuentas": "por definir"
     },
     {
@@ -19,10 +39,28 @@
       "estilo": "laboratorio",
       "tono": "Descubrimiento y giro: un error, un accidente o alguien a quien no le creyeron.",
       "enfoque": "Cómo se descubrieron vacunas, antibióticos, anestesia, epidemias que cambiaron el mundo.",
-      "fuentes": ["National Library of Medicine (NIH)", "Organización Mundial de la Salud (OMS)", "Organización Panamericana de la Salud (OPS)", "Museos de ciencia y de historia de la medicina", "Revistas médicas (The Lancet, BMJ, NEJM) y sus artículos históricos", "Enciclopedia Britannica"],
-      "formatos": ["descubrimiento médico", "la historia en 3 pasos", "mito o realidad"],
-      "ganchos": ["El médico al que tomaron por loco…", "Un descuido que salvó millones", "Antes de esto, operar era…"],
-      "limites": ["Se cuentan hechos, no se dan consejos de salud.", "Nada de diagnósticos, dosis ni tratamientos."],
+      "fuentes": [
+        "National Library of Medicine (NIH)",
+        "Organización Mundial de la Salud (OMS)",
+        "Organización Panamericana de la Salud (OPS)",
+        "Museos de ciencia y de historia de la medicina",
+        "Revistas médicas (The Lancet, BMJ, NEJM) y sus artículos históricos",
+        "Enciclopedia Britannica"
+      ],
+      "formatos": [
+        "descubrimiento médico",
+        "la historia en 3 pasos",
+        "mito o realidad"
+      ],
+      "ganchos": [
+        "El médico al que tomaron por loco…",
+        "Un descuido que salvó millones",
+        "Antes de esto, operar era…"
+      ],
+      "limites": [
+        "Se cuentan hechos, no se dan consejos de salud.",
+        "Nada de diagnósticos, dosis ni tratamientos."
+      ],
       "cuentas": "por definir"
     },
     {
@@ -31,10 +69,27 @@
       "estilo": "laboratorio",
       "tono": "Curiosidad: una pregunta que todos se han hecho y una respuesta que se puede ver.",
       "enfoque": "Física, astronomía, biología y tecnología cotidiana.",
-      "fuentes": ["NASA", "ESA", "Universidades", "National Geographic", "Revistas científicas (Nature, Science) y sus notas de divulgación", "Enciclopedia Britannica"],
-      "formatos": ["dato que no sabías", "mito o realidad", "la historia en 3 pasos"],
-      "ganchos": ["¿Por qué…?", "¿Qué pasaría si…?", "Lo estás viendo mal"],
-      "limites": ["Si la ciencia no está cerrada (p. ej. por qué bostezamos), decir «se cree» y mostrar las dos ideas principales."],
+      "fuentes": [
+        "NASA",
+        "ESA",
+        "Universidades",
+        "National Geographic",
+        "Revistas científicas (Nature, Science) y sus notas de divulgación",
+        "Enciclopedia Britannica"
+      ],
+      "formatos": [
+        "dato que no sabías",
+        "mito o realidad",
+        "la historia en 3 pasos"
+      ],
+      "ganchos": [
+        "¿Por qué…?",
+        "¿Qué pasaría si…?",
+        "Lo estás viendo mal"
+      ],
+      "limites": [
+        "Si la ciencia no está cerrada (p. ej. por qué bostezamos), decir «se cree» y mostrar las dos ideas principales."
+      ],
       "cuentas": "CurioSismo o la cuenta de curiosidades"
     },
     {
@@ -43,10 +98,26 @@
       "estilo": "laboratorio",
       "tono": "Explicar cómo funciona el cuerpo, sin alarmar y sin recomendar.",
       "enfoque": "Cómo funciona el cuerpo y qué es una enfermedad, con fuentes oficiales.",
-      "fuentes": ["OMS", "OPS", "NIH / MedlinePlus", "Ministerio de Salud de Colombia", "Sociedades médicas"],
-      "formatos": ["dato que no sabías", "mito o realidad"],
-      "ganchos": ["¿Por qué…?", "Lo que pasa en tu cuerpo cuando…"],
-      "limites": ["Nunca diagnósticos, dosis, tratamientos, curas ni remedios caseros como tratamiento.", "Todo video queda en estado revision-medica hasta que lo revise una persona con formación en salud.", "Texto con: «Contenido informativo. No reemplaza la consulta médica.»"],
+      "fuentes": [
+        "OMS",
+        "OPS",
+        "NIH / MedlinePlus",
+        "Ministerio de Salud de Colombia",
+        "Sociedades médicas"
+      ],
+      "formatos": [
+        "dato que no sabías",
+        "mito o realidad"
+      ],
+      "ganchos": [
+        "¿Por qué…?",
+        "Lo que pasa en tu cuerpo cuando…"
+      ],
+      "limites": [
+        "Nunca diagnósticos, dosis, tratamientos, curas ni remedios caseros como tratamiento.",
+        "Todo video queda en estado revision-medica hasta que lo revise una persona con formación en salud.",
+        "Texto con: «Contenido informativo. No reemplaza la consulta médica.»"
+      ],
       "revision_obligatoria": true,
       "cuentas": "por definir (solo con revisión médica)"
     },
@@ -56,10 +127,28 @@
       "estilo": "pizarra",
       "tono": "Explicar con un objeto cotidiano (un pan, un billete, un grano de arroz).",
       "enfoque": "Historia del dinero y conceptos básicos (inflación, interés, por qué vale un billete).",
-      "fuentes": ["Banco de la República", "Bancos centrales (Reserva Federal, BCE)", "FMI y Banco Mundial (notas explicativas)", "Museos del dinero (Casa de Moneda)", "Enciclopedia Britannica", "Libros y artículos de historia económica"],
-      "formatos": ["dato que no sabías", "la historia en 3 pasos", "mito o realidad"],
-      "ganchos": ["¿Por qué…?", "Esto explica por qué todo sube", "El primer billete de la historia"],
-      "limites": ["Nunca consejos de inversión, promesas de rentabilidad ni criptomonedas para ganar.", "Texto con: «Contenido educativo, no es asesoría financiera.»"],
+      "fuentes": [
+        "Banco de la República",
+        "Bancos centrales (Reserva Federal, BCE)",
+        "FMI y Banco Mundial (notas explicativas)",
+        "Museos del dinero (Casa de Moneda)",
+        "Enciclopedia Britannica",
+        "Libros y artículos de historia económica"
+      ],
+      "formatos": [
+        "dato que no sabías",
+        "la historia en 3 pasos",
+        "mito o realidad"
+      ],
+      "ganchos": [
+        "¿Por qué…?",
+        "Esto explica por qué todo sube",
+        "El primer billete de la historia"
+      ],
+      "limites": [
+        "Nunca consejos de inversión, promesas de rentabilidad ni criptomonedas para ganar.",
+        "Texto con: «Contenido educativo, no es asesoría financiera.»"
+      ],
       "cuentas": "por definir"
     },
     {
@@ -68,11 +157,58 @@
       "estilo": "pizarra",
       "tono": "Rápido y sorprendente, con un dato que se pueda contar después.",
       "enfoque": "Naturaleza, animales, objetos cotidianos.",
-      "fuentes": ["National Geographic", "Museos de historia natural", "Universidades", "Enciclopedia Britannica"],
-      "formatos": ["dato que no sabías", "mito o realidad"],
-      "ganchos": ["¿Por qué…?", "Nadie sabe que…", "Esto cambia cómo ves…"],
-      "limites": ["Nada sin fuente; si es leyenda, se dice que es leyenda."],
+      "fuentes": [
+        "National Geographic",
+        "Museos de historia natural",
+        "Universidades",
+        "Enciclopedia Britannica"
+      ],
+      "formatos": [
+        "dato que no sabías",
+        "mito o realidad"
+      ],
+      "ganchos": [
+        "¿Por qué…?",
+        "Nadie sabe que…",
+        "Esto cambia cómo ves…"
+      ],
+      "limites": [
+        "Nada sin fuente; si es leyenda, se dice que es leyenda."
+      ],
       "cuentas": "CurioSismo o la cuenta de curiosidades"
+    },
+    {
+      "id": "supervivencia",
+      "nombre": "Supervivencia",
+      "estilo": "expedicion",
+      "tono": "Tensión y asombro: una persona real en una situación límite y cómo salió (o no). Respeto por los que murieron.",
+      "enfoque": "Historias reales de supervivencia (accidentes, naufragios, selva, montaña, desierto, frío), la ciencia de cuánto aguanta el cuerpo y los mitos de supervivencia que pueden matar.",
+      "fuentes": [
+        "Informes oficiales de accidentes e investigaciones",
+        "Libros y entrevistas de los propios sobrevivientes",
+        "Medios serios (BBC, National Geographic, El País, El Tiempo)",
+        "Cruz Roja y organismos de rescate",
+        "Revistas y sitios médicos de referencia para lo fisiológico"
+      ],
+      "formatos": [
+        "historia real en 3 actos",
+        "¿cuánto aguanta el cuerpo?",
+        "mito o realidad",
+        "qué hizo bien y qué hizo mal"
+      ],
+      "ganchos": [
+        "Tenía minutos para decidir",
+        "Nadie sabía que seguía vivo",
+        "Lo que hizo después fue lo que lo salvó"
+      ],
+      "limites": [
+        "Nada de instrucciones peligrosas ni tutoriales de riesgo (comer plantas silvestres, tomar agua sin tratar, cazar, fabricar armas, trepar, etc.): se cuenta lo que pasó, no se enseña a hacerlo.",
+        "Lo médico (hipotermia, deshidratación, heridas) solo como explicación general, con fuentes, y siempre: en una emergencia real, llamar a los servicios de emergencia.",
+        "Los mitos de supervivencia se desmienten con fuentes de organismos de rescate.",
+        "Víctimas y familias con respeto: sin morbo, sin imágenes de cuerpos, sin detalles gráficos innecesarios.",
+        "Historias con nombre propio: solo hechos documentados en dos fuentes; lo que el sobreviviente contó, como su relato."
+      ],
+      "cuentas": "Canal de supervivencia (lo lleva Juliana)"
     }
   ]
 }

@@ -39,7 +39,7 @@ Una legión de agentes autónomos, cada uno controlado por un loop. Esta sesión
 |------|----|-----------|
 | `/loop 6h /legion` | Felipe (tiene los videos, whisper y las credenciales de las cuentas principales y de risas) | Toda la cadena del espacio principal: 01 Cazador Urbano → 04 Cazador de Risas → 02 Clipero → 03 Publicador |
 | `/loop 6h /turno-lalo` | Santiago (tiene los videos y las credenciales de las cuentas de Lalo) | 02 → 03, solo en el espacio `lalo` |
-| `/loop 24h /turno-narrador` | Santiago y Felipe, cada uno en una sesión aparte (luego la Mac M6). Cada PC hace su línea según su `narrador.local.json` (D-17): Santiago historia (tema `archivo`, ElevenLabs); Felipe ciencia y misterios para CurioSismo (tema `cosmos`, voz AI33 o Deepgram) | Videos largos del Narrador para YouTube (cada PC necesita la clave de su voz) |
+| `/loop 24h /turno-narrador` | Santiago, Felipe y Juliana, cada uno en una sesión aparte (luego la Mac M6). Cada PC hace su línea según su `narrador.local.json` (D-17): Santiago historia (tema `archivo`, ElevenLabs); Felipe ciencia y misterios para CurioSismo (tema `cosmos`, voz AI33 o Deepgram); Juliana supervivencia (tema `expedicion`, D-18) | Videos largos del Narrador para YouTube (cada PC necesita la clave de su voz) |
 
 - **Santiago** no corre `/legion`, `/turno-clips`, `/turno-cazador` ni ningún cazador: dos cazadores a la vez se pisan `datos/cazador-*`. Lo suyo es `/turno-lalo` y desarrollar.
 - **Felipe** no corre `/turno-lalo`.

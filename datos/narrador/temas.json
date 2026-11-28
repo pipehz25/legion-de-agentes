@@ -33,6 +33,17 @@
         "ci-luna",
         "ci-vida"
       ]
+    },
+    {
+      "id": "sobrevivir-sudamerica",
+      "titulo": "Sobrevivir en Colombia y Sudamérica",
+      "nicho": "supervivencia",
+      "partes": [
+        "su-andes",
+        "su-koepcke",
+        "su-guaviare",
+        "su-armero"
+      ]
     }
   ],
   "temas": [
@@ -543,6 +554,176 @@
       "formato": "mito o realidad",
       "estado": "pendiente",
       "nota": "2026-11-27: misterio científico abierto, para CurioSismo. Por verificar en dos fuentes antes del guion."
+    },
+    {
+      "id": "su-andes",
+      "nicho": "supervivencia",
+      "pregunta": "¿Cómo sobrevivieron 72 días en la cordillera de los Andes?",
+      "angulo": "Vuelo 571 de la Fuerza Aérea Uruguaya, 13 de octubre de 1972: 45 a bordo, 16 sobrevivientes rescatados tras 72 días. Fernando Parrado y Roberto Canessa caminaron unos 10 días hasta encontrar al arriero chileno Sergio Catalán. La decisión de alimentarse de los fallecidos se cuenta solo como la contaron ellos (libros y entrevistas), sin detalles.",
+      "formato": "historia real en 3 actos",
+      "tipo": "largo",
+      "estado": "pendiente",
+      "serie": {
+        "id": "sobrevivir-sudamerica",
+        "parte": 1,
+        "de": 4
+      },
+      "nota": "2026-11-27: nicho nuevo (supervivencia), video largo horizontal de 6 a 7 min. Por verificar en dos fuentes antes del guion. Especial cuidado: víctimas con nombre y familias vivas; la antropofagia, en una frase sobria y con las palabras de los sobrevivientes, sin morbo."
+    },
+    {
+      "id": "su-koepcke",
+      "nicho": "supervivencia",
+      "pregunta": "¿Cómo sobrevivió una adolescente sola 11 días en la selva peruana tras caer de un avión?",
+      "angulo": "Juliane Koepcke, 17 años, única sobreviviente del vuelo 508 de LANSA (24 de diciembre de 1971, Amazonía peruana). Caminó y siguió el curso del agua, como le había enseñado su padre biólogo, hasta un refugio de madereros que la llevaron a ayuda. Fuentes: su libro «Cuando caí del cielo», entrevistas (BBC) y el documental de Herzog. Se cuenta lo que ella hizo, no como instrucciones.",
+      "formato": "qué hizo bien y qué hizo mal",
+      "tipo": "largo",
+      "estado": "pendiente",
+      "serie": {
+        "id": "sobrevivir-sudamerica",
+        "parte": 2,
+        "de": 4
+      },
+      "nota": "2026-11-27: nicho nuevo (supervivencia), video largo horizontal de 6 a 7 min. Por verificar en dos fuentes antes del guion. Especial cuidado: no presentar sus decisiones como guía para perderse en la selva; las demás víctimas del vuelo con respeto."
+    },
+    {
+      "id": "su-guaviare",
+      "nicho": "supervivencia",
+      "pregunta": "¿Cómo sobrevivieron cuatro niños 40 días solos en la selva colombiana?",
+      "angulo": "Avioneta Cessna 206 accidentada el 1 de mayo de 2023 entre Caquetá y Guaviare; murieron los tres adultos, entre ellos la madre. Los cuatro hermanos huitotos (de 13, 9 y 4 años y un bebé de 11 meses) fueron hallados el 9 de junio de 2023 en la Operación Esperanza, con militares e indígenas buscando juntos. El saber indígena de la selva, según lo dijeron sus familiares y las autoridades.",
+      "formato": "historia real en 3 actos",
+      "tipo": "largo",
+      "estado": "pendiente",
+      "serie": {
+        "id": "sobrevivir-sudamerica",
+        "parte": 3,
+        "de": 4
+      },
+      "nota": "2026-11-27: nicho nuevo (supervivencia), video largo horizontal de 6 a 7 min. Por verificar en dos fuentes antes del guion. Especial cuidado: son menores de edad: sin fotos de los niños, solo los datos que hicieron públicos las autoridades; fuera la disputa familiar y las acusaciones sin resolver; respeto por la madre fallecida y el pueblo huitoto."
+    },
+    {
+      "id": "su-armero",
+      "nicho": "supervivencia",
+      "pregunta": "¿Se pudo evitar la tragedia de Armero?",
+      "angulo": "13 de noviembre de 1985: la erupción del Nevado del Ruiz derritió parte del glaciar y los lahares sepultaron Armero; murieron más de 20.000 personas. Había mapa de amenaza y advertencias en las semanas previas. Lo que cambió después: Colombia creó su sistema nacional de atención de desastres (1988). Se cuenta con los informes oficiales y el Servicio Geológico Colombiano, desde la prevención y los que sobrevivieron.",
+      "formato": "historia real en 3 actos",
+      "tipo": "largo",
+      "estado": "pendiente",
+      "serie": {
+        "id": "sobrevivir-sudamerica",
+        "parte": 4,
+        "de": 4
+      },
+      "nota": "2026-11-27: nicho nuevo (supervivencia), video largo horizontal de 6 a 7 min. Por verificar en dos fuentes antes del guion. Especial cuidado: tragedia con miles de víctimas y sobrevivientes vivos: sin imágenes de cuerpos ni la foto de Omayra Sánchez; si se la nombra, con respeto y sin detalles de su agonía; responsabilidades solo como las establecieron fuentes oficiales."
+    },
+    {
+      "id": "su-shackleton",
+      "nicho": "supervivencia",
+      "pregunta": "¿Cómo volvieron vivos los 28 hombres del Endurance?",
+      "angulo": "Expedición de Ernest Shackleton (1914-1917): el Endurance quedó atrapado en el hielo del mar de Weddell y se hundió en 1915; tras meses en el hielo, la isla Elefante y el viaje en bote hasta Georgia del Sur, se salvó toda la tripulación del barco. Su pecio se encontró en 2022 a unos 3.000 m de profundidad.",
+      "formato": "historia real en 3 actos",
+      "tipo": "largo",
+      "estado": "pendiente",
+      "nota": "2026-11-27: nicho nuevo (supervivencia), video largo horizontal de 6 a 7 min. Por verificar en dos fuentes antes del guion. Ojo: el grupo del mar de Ross, de la misma expedición, sí tuvo muertos; decirlo para no exagerar."
+    },
+    {
+      "id": "su-alvarenga",
+      "nicho": "supervivencia",
+      "pregunta": "¿Se puede sobrevivir más de un año a la deriva en el océano?",
+      "angulo": "José Salvador Alvarenga, pescador salvadoreño que zarpó de México en noviembre de 2012 y llegó a las Islas Marshall en enero de 2014, tras unos 438 días a la deriva en el Pacífico. Las autoridades y los oceanógrafos consideraron posible la deriva. Lo que contó, como su relato (libro de Jonathan Franklin «438 días»).",
+      "formato": "historia real en 3 actos",
+      "tipo": "largo",
+      "estado": "pendiente",
+      "nota": "2026-11-27: nicho nuevo (supervivencia), video largo horizontal de 6 a 7 min. Por verificar en dos fuentes antes del guion. Especial cuidado: su compañero Ezequiel Córdoba murió en el bote: con respeto y sin especular; fuera la demanda de la familia."
+    },
+    {
+      "id": "su-apolo13",
+      "nicho": "supervivencia",
+      "pregunta": "¿Cómo volvieron a la Tierra los astronautas del Apolo 13?",
+      "angulo": "Abril de 1970: estalla un tanque de oxígeno camino a la Luna. Lovell, Swigert y Haise usaron el módulo lunar como bote salvavidas, adaptaron los filtros de dióxido de carbono (cuadrados en un hueco redondo) con materiales a bordo y regresaron el 17 de abril. Fuentes: NASA y su informe de la junta de revisión.",
+      "formato": "historia real en 3 actos",
+      "tipo": "largo",
+      "estado": "pendiente",
+      "nota": "2026-11-27: nicho nuevo (supervivencia), video largo horizontal de 6 a 7 min. Por verificar en dos fuentes antes del guion."
+    },
+    {
+      "id": "su-sin-agua",
+      "nicho": "supervivencia",
+      "pregunta": "¿Cuánto aguanta el cuerpo sin agua?",
+      "angulo": "La «regla de los 3» (3 minutos sin aire, 3 días sin agua, 3 semanas sin comida) es una aproximación, no una ley: depende del calor, el esfuerzo y la persona. Qué le pasa al cuerpo al deshidratarse, explicado en general con fuentes médicas, y casos documentados como contexto. Sin consejos ni retos: en una emergencia, llamar a los servicios de emergencia.",
+      "formato": "¿cuánto aguanta el cuerpo?",
+      "tipo": "largo",
+      "estado": "pendiente",
+      "nota": "2026-11-27: nicho nuevo (supervivencia), video largo horizontal de 6 a 7 min. Por verificar en dos fuentes antes del guion. Especial cuidado: tema fisiológico: cifras solo de fuentes médicas; probablemente requiere revisión de una persona con formación en salud (NARRADOR.md §5)."
+    },
+    {
+      "id": "su-sin-comida",
+      "nicho": "supervivencia",
+      "pregunta": "¿Cuánto aguanta el cuerpo sin comer?",
+      "angulo": "Qué hace el cuerpo cuando se acaba la comida (reservas, grasa, músculo). El caso extremo de Angus Barbieri, que ayunó 382 días (1965-1966) bajo supervisión médica, publicado en Postgraduate Medical Journal (1973): se dice que fue con control médico y que no se debe imitar.",
+      "formato": "¿cuánto aguanta el cuerpo?",
+      "tipo": "largo",
+      "estado": "pendiente",
+      "nota": "2026-11-27: nicho nuevo (supervivencia), video largo horizontal de 6 a 7 min. Por verificar en dos fuentes antes del guion. Especial cuidado: puede leerse como incitación al ayuno o a trastornos alimentarios: nada de retos ni cifras como meta; requiere revisión de una persona con formación en salud."
+    },
+    {
+      "id": "su-sin-dormir",
+      "nicho": "supervivencia",
+      "pregunta": "¿Cuánto tiempo puede estar despierto un ser humano?",
+      "angulo": "Randy Gardner, estudiante de 17 años, estuvo unas 264 horas (11 días) sin dormir en 1964 en San Diego, con observación del investigador William Dement. Qué le pasó (fallas de memoria, irritabilidad, alucinaciones) y por qué Guinness dejó de registrar este récord. Lo que dice la ciencia del sueño, sin consejos.",
+      "formato": "¿cuánto aguanta el cuerpo?",
+      "tipo": "largo",
+      "estado": "pendiente",
+      "nota": "2026-11-27: nicho nuevo (supervivencia), video largo horizontal de 6 a 7 min. Por verificar en dos fuentes antes del guion. Especial cuidado: decir que no se debe intentar; lo médico, general y con fuentes; revisión de salud recomendada."
+    },
+    {
+      "id": "su-mitos",
+      "nicho": "supervivencia",
+      "pregunta": "¿Qué mitos de supervivencia pueden matarte?",
+      "angulo": "Mitos que se repiten en películas y redes, desmentidos por organismos de rescate y médicos: chupar el veneno de una mordedura de serpiente, frotar con nieve una congelación, que el alcohol calienta en el frío, orinar sobre una picadura de medusa. Se explica por qué son falsos, sin dar procedimientos: la respuesta correcta es llamar a los servicios de emergencia.",
+      "formato": "mito o realidad",
+      "tipo": "largo",
+      "estado": "pendiente",
+      "nota": "2026-11-27: nicho nuevo (supervivencia), video largo horizontal de 6 a 7 min. Por verificar en dos fuentes antes del guion. Especial cuidado: cada mito con su fuente de rescate o médica (Cruz Roja, servicios de salud); no convertirlo en tutorial de primeros auxilios; revisión de salud recomendada."
+    },
+    {
+      "id": "su-prosperi",
+      "nicho": "supervivencia",
+      "pregunta": "¿Cómo sobrevivió un corredor perdido nueve días en el Sahara?",
+      "angulo": "Mauro Prosperi, policía y corredor italiano, se perdió en una tormenta de arena durante el Marathon des Sables de 1994 en Marruecos y fue hallado unos 9 días después en Argelia, a más de 200 km de la ruta. Lo que contó él (BBC y otras entrevistas), como su relato.",
+      "formato": "historia real en 3 actos",
+      "tipo": "largo",
+      "estado": "pendiente",
+      "nota": "2026-11-27: nicho nuevo (supervivencia), video largo horizontal de 6 a 7 min. Por verificar en dos fuentes antes del guion. Especial cuidado: en su relato hay un intento de quitarse la vida: dejarlo fuera o mencionarlo de forma sobria, sin método y con línea de ayuda; nada de lo que hizo para beber como instrucciones."
+    },
+    {
+      "id": "su-mineros",
+      "nicho": "supervivencia",
+      "pregunta": "¿Cómo sobrevivieron 33 mineros 69 días bajo tierra?",
+      "angulo": "Mina San José, Atacama (Chile), 5 de agosto de 2010: un derrumbe atrapa a 33 mineros a unos 700 m. A los 17 días, una sonda trajo el mensaje «Estamos bien en el refugio los 33»; el rescate en la cápsula Fénix terminó el 13 de octubre. Cómo se organizaron y racionaron, según ellos y el gobierno chileno.",
+      "formato": "historia real en 3 actos",
+      "tipo": "largo",
+      "estado": "pendiente",
+      "nota": "2026-11-27: nicho nuevo (supervivencia), video largo horizontal de 6 a 7 min. Por verificar en dos fuentes antes del guion."
+    },
+    {
+      "id": "su-siula-grande",
+      "nicho": "supervivencia",
+      "pregunta": "¿Qué harías si tu compañero de cordada tuviera que cortar la cuerda?",
+      "angulo": "Joe Simpson y Simon Yates en el Siula Grande (Andes de Perú), 1985: tras romperse una pierna en el descenso, Yates cortó la cuerda creyendo que no había otra salida; Simpson sobrevivió a la caída a una grieta y se arrastró días hasta el campamento. Contado por los dos en «Tocando el vacío» y entrevistas, sin juzgar a ninguno. Nada de técnicas de escalada.",
+      "formato": "qué hizo bien y qué hizo mal",
+      "tipo": "largo",
+      "estado": "pendiente",
+      "nota": "2026-11-27: nicho nuevo (supervivencia), video largo horizontal de 6 a 7 min. Por verificar en dos fuentes antes del guion."
+    },
+    {
+      "id": "su-bagenholm",
+      "nicho": "supervivencia",
+      "pregunta": "¿Se puede volver a la vida con el cuerpo a 13 grados?",
+      "angulo": "Anna Bågenholm, médica sueca, quedó atrapada bajo el hielo esquiando en 1999 y llegó al hospital de Tromsø (Noruega) con una temperatura corporal de 13,7 °C; la reanimaron y se recuperó. El caso se publicó en The Lancet (2000). Qué es la hipotermia y por qué los médicos dicen que nadie está muerto hasta que está «caliente y muerto», en general y con fuentes.",
+      "formato": "¿cuánto aguanta el cuerpo?",
+      "tipo": "largo",
+      "estado": "pendiente",
+      "nota": "2026-11-27: nicho nuevo (supervivencia), video largo horizontal de 6 a 7 min. Por verificar en dos fuentes antes del guion. Lo médico solo como explicación general; revisión de salud recomendada."
     }
   ]
 }
