@@ -95,7 +95,22 @@ function claveDeepgram() {
   return clave;
 }
 async function deepgram(ruta, opciones = {}) {
-  const r = await fetch(DG_API + ruta, { ...opciones, headers: { Authorization: "Token " + claveDeepgram(), ...(opciones.headers || {}) } });
+  let r;
+  for (let intento = 1; ; intento++) {
+    // Un corte de red (p. ej. HTTP/2 GOAWAY), un 429 o un 5xx se reintentan; lo ya generado queda en la cache.
+    try {
+      r = await fetch(DG_API + ruta, { ...opciones, headers: { Authorization: "Token " + claveDeepgram(), ...(opciones.headers || {}) } });
+    } catch (e) {
+      if (intento > 4) throw e;
+      await new Promise((listo) => setTimeout(listo, 1500 * intento));
+      continue;
+    }
+    if ((r.status === 429 || r.status >= 500) && intento <= 4) {
+      await new Promise((listo) => setTimeout(listo, 1000 * (Number(r.headers.get("retry-after")) || 2 * intento)));
+      continue;
+    }
+    break;
+  }
   if (!r.ok) {
     let detalle = "";
     try {
@@ -188,7 +203,15 @@ function claveAi33() {
 const espera = (ms) => new Promise((listo) => setTimeout(listo, ms));
 async function ai33(ruta, opciones = {}) {
   for (let intento = 1; ; intento++) {
-    const r = await fetch(AI33_API + ruta, { ...opciones, headers: { "xi-api-key": claveAi33(), ...(opciones.headers || {}) } });
+    let r;
+    try {
+      r = await fetch(AI33_API + ruta, { ...opciones, headers: { "xi-api-key": claveAi33(), ...(opciones.headers || {}) } });
+    } catch (e) {
+      // Corte de red: se reintenta (crear una tarea dos veces solo pasa si el corte fue despues de crearla).
+      if (intento > 4) throw e;
+      await espera(1500 * intento);
+      continue;
+    }
     // 429 (limite de pedidos) y 503 server_busy son temporales: se espera y se reintenta.
     if ((r.status === 429 || r.status === 503) && intento <= 6) {
       await espera(1000 * (Number(r.headers.get("retry-after")) || 2 ** intento));
@@ -849,12 +872,29 @@ async function hablar(frase) {
     if (yaEsta(firma)) return wav;
     // Cada frase se paga una sola vez: queda en animados/.voz-cache/ por texto, modelo y velocidad.
     if (!fs.existsSync(guardado)) {
-      dgCobrados += await hablaDeepgram(dicho, modelo, guardado, velocidad);
-      // No se reintenta solo (cada intento cuesta): si whisper oye algo distinto, se avisa.
-      const fallos = difiere(guardado, frase.texto);
-      if (fallos !== null && fallos > Math.max(1, Math.round(sonido(frase.texto).length * 0.2))) {
-        revisarDeOido.push(`${frase.id} "${frase.texto}": whisper oye ${fallos} palabra(s) distinta(s)`);
+      // Aura-2 en espanol a veces devuelve segundos de silencio o ruido (pasó en 4 de 22 frases de
+      // hi-napoleon). Si whisper no reconoce mas de la mitad, se pide otra vez (hasta 3 intentos,
+      // cada uno se cobra) y se queda el mejor. Con diferencias menores solo se avisa: los numeros
+      // escritos con letras (whisper los oye en cifras) ya cuentan como diferencia.
+      const palabras = sonido(frase.texto).length;
+      const avisar = Math.max(1, Math.round(palabras * 0.2));
+      let mejor = null;
+      for (let intento = 1; intento <= 3; intento++) {
+        const temporal = `${guardado}.${intento}.wav`;
+        dgCobrados += await hablaDeepgram(dicho, modelo, temporal, velocidad);
+        const fallos = difiere(temporal, frase.texto);
+        if (!mejor || (fallos !== null && fallos < mejor.fallos)) {
+          if (mejor) fs.rmSync(mejor.archivo, { force: true });
+          mejor = { archivo: temporal, fallos: fallos ?? 0 };
+        } else {
+          fs.rmSync(temporal, { force: true });
+        }
+        mejor.intentos = intento;
+        if (fallos === null || fallos <= palabras * 0.5) break;
       }
+      fs.renameSync(mejor.archivo, guardado);
+      if (mejor.intentos > 1) process.stdout.write(`(${mejor.intentos} intentos) `);
+      if (mejor.fallos > avisar) revisarDeOido.push(`${frase.id} "${frase.texto}": whisper oye ${mejor.fallos} palabra(s) distinta(s)${mejor.intentos > 1 ? ` tras ${mejor.intentos} intentos` : ""}`);
     }
     correr("ffmpeg", ["-v", "error", "-y", "-i", guardado, "-af", recorte, "-ar", "48000", "-ac", "1", wav]);
     fs.writeFileSync(sello, firma, "utf8");
