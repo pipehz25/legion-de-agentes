@@ -20,8 +20,10 @@
       "activa": false,
       "cuentas": [
         { "alias": "risas", "activa": false, "linea": "risas: clips de la línea risas (comedia, stand-up, humoristas y momentos graciosos de la política colombiana)" },
-        { "alias": "principal", "activa": true, "linea": "urbano: todo menos los clips de la línea risas; esos esperan a la cuenta risas aunque esté apagada" }
+        { "alias": "principal", "activa": true, "linea": "urbano: todo menos los clips de la línea risas; esos esperan a la cuenta risas aunque esté apagada" },
+        { "alias": "historia", "activa": false, "linea": "historia: solo los videos largos de historia del Narrador (canal History Legion); nunca recibe clips del Clipero" }
       ],
+      "_cuenta_historia": "Canal History Legion del usuario. Autorizada el 2026-11-27 en la PC de Felipe (estado: token valido, nombre History Legion) con el cliente OAuth de escritorio del proyecto de Google Cloud de Felipe; la app Legion Publicador esta En produccion, con pagina e politica de privacidad en https://pipehz25.github.io/legion-de-agentes/ (rama gh-pages). Queda apagada: el Narrador todavia no sube solo, asi que por ahora la cuenta sirve para leer el canal (publicar.ps1 videos -Plataforma youtube -Cuenta historia). youtube.activa sigue en false porque principal y risas no tienen credenciales.",
       "_cuentas_youtube": "Decision del usuario (2026-11-17): YouTube lleva dos canales, uno por linea. principal es el canal de la Legion Urbana y risas el de la Legion de Risas. Los dos se autorizan en la PC de Felipe con el cliente OAuth de su proyecto de Google Cloud (plataformas.md §3 y §10). risas sigue apagada hasta que se autorice; entonces se pone activa: true, y la plataforma activa: true cuando principal tenga token valido.",
       "privacidad": "public",
       "_privacidad": "private | unlisted | public. Desde el 2026-11-02 Google ya no deja en privado lo que suben los proyectos sin auditar, asi que sale con esta privacidad. Solo sube lo aprobado (modo aprobacion).",
