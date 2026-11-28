@@ -1,6 +1,20 @@
 {
-  "actualizado": "2026-11-26T03:01:17.806Z",
+  "actualizado": "2026-11-28T03:22:19.365Z",
   "videos": [
+    {
+      "id": "di-avianca",
+      "tipo": "largo",
+      "titulo": "¿Cómo nació Avianca? De SCADTA a la quiebra (1919-2021)",
+      "duracion_s": 462.3,
+      "producido": "2026-11-28T03:22:19.315Z",
+      "video": "salidas/narrador/di-avianca/di-avianca.mp4",
+      "portada": "salidas/narrador/di-avianca/miniatura.jpg",
+      "fuentes": "salidas/narrador/di-avianca/fuentes.md",
+      "descripcion": "salidas/narrador/di-avianca/descripcion.txt",
+      "subtitulos": "salidas/narrador/di-avianca/di-avianca.srt",
+      "video_en_esta_pc": true,
+      "publicacion": "¿Cómo nació Avianca? De SCADTA a la quiebra (1919-2021)\n\n#historiaeconomica #avianca #colombia #asinacieron"
+    },
     {
       "id": "hi-gran-colombia",
       "tipo": "largo",

@@ -1,0 +1,85 @@
+{
+  "id": "di-avianca",
+  "tipo": "largo",
+  "modo": "escenas",
+  "titulo": "¿Cómo nació Avianca? De SCADTA a la quiebra (1919-2021)",
+  "duracion_s": 462.3,
+  "volumen": "I: -14.0 LUFS",
+  "voz": "ai33 / elevenlabs_C12mZePhNoo0RoTXhSFV",
+  "formato": "1920x1080",
+  "capitulos": [
+    {
+      "inicio": "00:00",
+      "titulo": "Introducción"
+    },
+    {
+      "inicio": "00:54",
+      "titulo": "Un país difícil de cruzar"
+    },
+    {
+      "inicio": "01:43",
+      "titulo": "Ocho socios y dos aviones"
+    },
+    {
+      "inicio": "03:10",
+      "titulo": "El contrato que pagó las cuentas"
+    },
+    {
+      "inicio": "04:07",
+      "titulo": "Una guerra y un nombre nuevo"
+    },
+    {
+      "inicio": "05:17",
+      "titulo": "Dos veces al borde"
+    }
+  ],
+  "escenas": 82,
+  "imagenes": 3,
+  "avisos": 16,
+  "tiempo_produccion_s": 1430.3,
+  "tiempos_s": {
+    "voz": 10.5,
+    "fotos": 0.1,
+    "miniatura": 5.4,
+    "capitulos": 1391.8,
+    "union": 21.2
+  },
+  "render_capitulos": {
+    "c0": {
+      "duracion_s": 54.9,
+      "render_s": 132,
+      "revision_s": 15
+    },
+    "c1": {
+      "duracion_s": 48.367,
+      "render_s": 146,
+      "revision_s": 20
+    },
+    "c2": {
+      "duracion_s": 87.067,
+      "render_s": 242,
+      "revision_s": 24
+    },
+    "c3": {
+      "duracion_s": 56.767,
+      "render_s": 155,
+      "revision_s": 21
+    },
+    "c4": {
+      "duracion_s": 70.133,
+      "render_s": 193,
+      "revision_s": 28
+    },
+    "c5": {
+      "duracion_s": 144.867,
+      "render_s": 388,
+      "revision_s": 28
+    }
+  },
+  "producido": "2026-11-28T03:22:19.315Z",
+  "video": "di-avianca.mp4",
+  "portada": "miniatura.jpg",
+  "subtitulos": "di-avianca.srt",
+  "descripcion": "descripcion.txt",
+  "guion": "animados/propios/di-avianca/guion.json"
+}

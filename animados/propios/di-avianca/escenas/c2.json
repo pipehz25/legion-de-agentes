@@ -1,0 +1,42 @@
+{
+  "capitulo": "c2",
+  "escenas": {
+    "c2-firma": { "plantilla": "titular", "datos": { "lineas": ["Barranquilla,", "nace una sociedad"], "resalta": 1, "calendario": { "arriba": "Dic", "numero": "5", "abajo": "1919", "lado": "derecha", "palabra": "cinco" } } },
+    "c2-nombre": { "plantilla": "cifra", "datos": { "cifra": "SCADTA", "contar": false, "antes": "Sociedad", "rotulo": "Colombo-Alemana de Transportes Aéreos", "dibujo": "documento", "palabra": "Sociedad", "palabra_rotulo": "Colombo-Alemana" } },
+    "c2-ocho": { "plantilla": "titular", "datos": { "lineas": ["Ocho fundadores:", "¿cuántos de cada", "país?"], "resalta": 2, "insignia": "Piénsalo", "dibujo": "balanza", "palabra_dibujo": "cuántos" } },
+    "c2-cinco-tres": { "plantilla": "cifra", "datos": { "titulo": "Los ocho fundadores", "cifras": [ { "valor": 5, "unidad": "", "rotulo": "Colombianos, con Cortissoz", "palabra": "Cinco", "resalta": true }, { "valor": 3, "unidad": "", "rotulo": "Alemanes", "palabra": "tres" } ] } },
+    "c2-colombo": { "plantilla": "titular", "datos": { "lineas": ["Por eso:", "Colombo-Alemana"], "resalta": 1, "dibujo": "bandera", "palabra_dibujo": "nombre" } },
+    "c2-capital": { "plantilla": "fichas", "datos": { "titulo": "Los socios se juntan", "fichas": [ { "texto": "Capital reunido", "dibujo": "balanza", "palabra": "capital" }, { "texto": "Compra en Alemania", "dibujo": "documento", "palabra": "uno", "resalta": true } ] } },
+    "c2-ensamble": { "plantilla": "recorte", "datos": { "foto": "File:Ensamble hidroaviones Junkers F13 de Scadta.jpg", "pie": "Ensamble de los Junkers F-13 (agosto de 1920)", "insignia": "Dos hidroaviones", "titulo": "Junkers F-13", "texto": "Hechos de metal, comprados en Alemania", "palabras": { "foto": "dos", "titulo": "hidroaviones", "texto": "Junkers" } } },
+    "c2-puerto": { "plantilla": "mapa", "datos": {
+      "vistas": [ { "caja": [-76.2, 11.9, -73.4, 10.1] } ],
+      "paises": [ { "id": "colombia", "color": "acento2", "opacidad": 0.3, "en": 0 } ],
+      "rutas": [ { "puntos": [[-74.96, 10.99], [-74.78, 10.96]], "estilo": "flecha", "grosor": 9, "palabra": "armaron", "dur": 0.8 }, { "puntos": [[-74.9, 10.2], [-74.75, 10.6], [-74.8, 11.0], [-74.85, 11.1]], "estilo": "canal", "grosor": 10, "palabra": "adaptaron", "dur": 1.2 } ],
+      "marcas": [ { "texto": "Puerto Colombia", "lugar": [-74.96, 10.99], "lado": "izquierda", "tam": 38, "palabra": "Puerto" }, { "texto": "Barranquilla", "lugar": [-74.8, 10.96], "lado": "derecha", "tam": 38, "palabra": "Barranquilla" } ],
+      "rotulos": [ { "texto": "Mar Caribe", "lugar": [-75.5, 11.6], "estilo": "mar", "tam": 40, "en": 0 }, { "texto": "Río Magdalena", "lugar": [-74.3, 10.35], "estilo": "rio", "tam": 34, "palabra": "Magdalena." } ],
+      "cartela": { "titulo": "1920", "sub": "Llegan desarmados y se arman en Barranquilla", "palabra": "1920." } } },
+    "c2-pista": { "plantilla": "recorte", "datos": { "foto": "File:SCADTA Junkers W 34 \"Magdalena\".jpg", "pie": "Junkers W 34 «Magdalena» de SCADTA, junto al río", "insignia": "El truco", "titulo": "El río era la pista", "texto": "Sin pistas de aterrizaje", "palabras": { "titulo": "río", "texto": "Sin" } } },
+    "c2-adivina": { "plantilla": "titular", "datos": { "lineas": ["¿Cómo bautizaron", "al avión?"], "resalta": 1, "insignia": "Adivina", "dibujo": "pluma", "palabra_dibujo": "bautizaron" } },
+    "c2-nombre-avion": { "plantilla": "cifra", "datos": { "cifra": "Colombia", "contar": false, "antes": "Se llamó", "rotulo": "El avión del primer gran viaje", "dibujo": "bandera", "palabra": "Colombia.", "palabra_rotulo": "llamaron" } },
+    "c2-ruta-girardot": { "plantilla": "mapa", "datos": {
+      "vistas": [ { "centro": [-74.6, 7.1], "ancho": 17 } ],
+      "paises": [ { "id": "colombia", "color": "acento2", "opacidad": 0.3, "en": 0 } ],
+      "rutas": [ { "puntos": [[-74.85, 11.1], [-74.9, 10.3], [-74.7, 9.2], [-74.5, 8.3], [-74.4, 6.6], [-74.7, 5.3], [-74.8, 4.3]], "estilo": "flecha", "grosor": 10, "en": 0.05, "dur": 2.6 } ],
+      "marcas": [ { "texto": "Barranquilla", "lugar": [-74.8, 10.96], "lado": "derecha", "tam": 34, "en": 0 }, { "texto": "Girardot", "lugar": [-74.8, 4.3], "lado": "derecha", "tam": 38, "palabra": "Girardot." } ],
+      "rotulos": [ { "texto": "Río Magdalena", "lugar": [-73.4, 8.0], "estilo": "rio", "tam": 32, "palabra": "Magdalena," } ],
+      "cartela": { "titulo": "1920", "sub": "Una ruta que llegó hasta Girardot" } } },
+    "c2-horas": { "plantilla": "titular", "datos": { "lineas": ["Horas,", "no semanas"], "resalta": 1, "dibujo": "reloj", "palabra_dibujo": "horas," } },
+    "c2-apuesta": { "plantilla": "fichas", "datos": { "titulo": "Una apuesta con riesgo", "fichas": [ { "texto": "El avión fallaba", "dibujo": "derrumbe", "palabra": "avión" }, { "texto": "Cartas sin llegar", "dibujo": "documento", "palabra": "cartas" }, { "texto": "Lo invertido, perdido", "dibujo": "balanza", "palabra": "invertido", "resalta": true } ] } }
+  },
+  "frases": [
+    { "id": "f11", "escena": "c2-firma", "cortes": [ { "escena": "c2-nombre", "palabra": 16 } ] },
+    { "id": "f12", "escena": "c2-ocho" },
+    { "id": "f13", "escena": "c2-cinco-tres", "cortes": [ { "escena": "c2-colombo", "palabra": 11 } ] },
+    { "id": "f14", "escena": "c2-capital", "cortes": [ { "escena": "c2-ensamble", "palabra": 12 } ] },
+    { "id": "f15", "escena": "c2-puerto" },
+    { "id": "f16", "escena": "c2-pista" },
+    { "id": "f17", "escena": "c2-adivina" },
+    { "id": "f18", "escena": "c2-nombre-avion", "cortes": [ { "escena": "c2-ruta-girardot", "palabra": 7 } ] },
+    { "id": "f19", "escena": "c2-horas", "cortes": [ { "escena": "c2-apuesta", "palabra": 17 } ] }
+  ]
+}

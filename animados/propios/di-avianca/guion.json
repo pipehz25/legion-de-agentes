@@ -1,0 +1,2456 @@
+{
+  "tipo": "largo",
+  "orientacion": "horizontal",
+  "titulo": "¿Cómo nació Avianca?",
+  "nicho": "dinero",
+  "serie": {
+    "id": "asi-nacieron",
+    "parte": 1,
+    "de": 4
+  },
+  "nota": "Video largo por escenas, version corta (6 a 7 min) e interactiva, parte 1 de la serie Asi nacieron (historia economica, PC de Felipe, D-19). Guion escrito el 2026-11-27 sin escenas: cada capitulo trae 'escenas': {} para que otros agentes las diseñen con animados/contenido/escenas-horizontales.md. Cada frase con momento de participacion trae 'interaccion' (pregunta | adivina | mito-realidad | revela-cifra | repaso | comentar). Voz AI33 (voz Jose, sin modelo_voz): NO esta generada; revisar el texto antes, porque despues de generada no se cambia. Estilo: tema mercado con fondo/brillo azul marino propios. Limites de dinero: solo historia y conceptos (Capitulo 11), nada de consejos de inversion, rentabilidad ni acciones para comprar; ningun logo ni marca como elemento grafico (en Commons existen logos de SCADTA y Avianca: NO usarlos; no usar fotos donde se vea el logo actual). Personajes sin retrato de cuerpo entero: rasgos aproximados de la epoca, nunca su cara real. Datos en discusion que el guion evita o matiza: fecha y destino del primer vuelo (septiembre de 1920 a Puerto Berrio, octubre de 1920 a Girardot, o Barranquilla-Puerto Colombia segun la fuente: solo se dice 1920 y que la ruta llego hasta Girardot), capital inicial de SCADTA ($80.000, $100.000 o 800 dolares oro segun la fuente: no se dice), nombre exacto de los socios (Kaemmerer, Kaemerer o Kämmerer: no se nombra), cuando vendio Von Bauer sus acciones a Pan Am (acuerdo de 1930 segun una fuente, 1940 segun otra: solo se dice antes de la guerra), SACO (Servicio Aereo Colombiano; no confundir con SAM, que es de 1994), fecha exacta de la solicitud del Capitulo 11 de 2003 (21 o 23 de marzo: solo se dice marzo de 2003), cifra de deuda (4.900, mas de 5.000, 7.000 o 7.300 millones de dolares segun la fuente y el momento: NO se dice ni se muestra), y el puesto de Avianca entre las aerolineas mas antiguas (segunda segun unas fuentes, sexta segun otras: se dice 'de las mas antiguas' y que el titulo de la mas antigua se discute). No usar tampoco que SCADTA fue 'la primera aerolinea de America Latina' (una sola fuente sin respaldo).",
+  "motor": "ai33",
+  "voz": "elevenlabs_C12mZePhNoo0RoTXhSFV",
+  "tope_caracteres": 50,
+  "inicio": 0.2,
+  "pausa": 0.35,
+  "pausa_capitulo": 3,
+  "respiro_capitulo": 0.5,
+  "cola": 2.5,
+  "estilo": {
+    "tema": "mercado",
+    "fondo": "#0a1424",
+    "brillo": "#18284a"
+  },
+  "miniatura": {
+    "texto": "AVIANCA | ASÍ NACIÓ",
+    "imagen": "ensamble"
+  },
+  "publicacion": {
+    "titulo_youtube": "¿Cómo nació Avianca? De SCADTA a la quiebra (1919-2021)",
+    "descripcion": "¿Cómo nace una aerolínea en un país de montañas y pocas vías, y cómo sobrevive más de cien años? Este video lo cuenta con preguntas, adivinanzas y un «¿mito o realidad?» para que participes.\n\nParte 1 de «Así nacieron», la serie de historia económica sobre empresas que conoces, contadas desde su primer día. Hoy: SCADTA, fundada en Barranquilla el 5 de diciembre de 1919 con socios colombianos y alemanes, que usó hidroaviones sobre el río Magdalena; la fusión de 1940 que dio origen a Avianca; y los dos procesos de Capítulo 11, en 2003 y en 2020.\n\nCada dato está comprobado en al menos dos fuentes; cuando las fuentes no coinciden en una fecha o en una cifra, lo decimos así o lo dejamos fuera. Las fuentes están en el primer comentario.\n\nContenido educativo, no es asesoría financiera.\n\n¿Qué otra empresa colombiana quieres que contemos en esta serie? Cuéntanos en los comentarios. En la parte 2: Juan Valdez.",
+    "hashtags": [
+      "historiaeconomica",
+      "avianca",
+      "colombia",
+      "asinacieron"
+    ]
+  },
+  "fuentes": [
+    {
+      "dato": "SCADTA se funda en Barranquilla el 5 de diciembre de 1919 (Sociedad Colombo-Alemana de Transportes Aéreos); fundadores colombianos y alemanes; Avianca celebró su centenario en diciembre de 2019; fusión del 14 de junio de 1940 en Barranquilla con el Servicio Aéreo Colombiano (SACO) que forma Aerovías Nacionales de Colombia S.A.; Capítulo 11 de marzo de 2003 y salida con plan confirmado el 10 de diciembre de 2004; Capítulo 11 del 10 de mayo de 2020; con la salida de 2020 desaparece Avianca Holdings y se crea Avianca Group International Limited, con sede legal en el Reino Unido",
+      "fuente": "Wikipedia en español, «Avianca»",
+      "url": "https://es.wikipedia.org/wiki/Avianca"
+    },
+    {
+      "dato": "SCADTA fundada el 5 de diciembre de 1919 en Barranquilla; el 14 de junio de 1940, ya bajo propiedad empresarial estadounidense, se fusionó en Barranquilla con SACO y formó Aerovías Nacionales de Colombia S.A. (Avianca); plan de reorganización de 2004 confirmado el 10 de diciembre de 2004; Avianca Holdings y 23 afiliadas se acogieron al Capítulo 11 el 10 de mayo de 2020 por la pandemia de covid-19; el tribunal aprobó el plan el 2 de noviembre de 2021 y Avianca salió el 1 de diciembre de 2021",
+      "fuente": "Wikipedia en inglés, «Avianca»",
+      "url": "https://en.wikipedia.org/wiki/Avianca"
+    },
+    {
+      "dato": "SCADTA: fundada el 5 de diciembre de 1919, con sede en Barranquilla; hidroaviones Junkers que aterrizaban en el río Magdalena; Ernesto Cortissoz primer presidente; Peter Paul von Bauer, industrial austriaco, accionista principal; antes de la Segunda Guerra Mundial, el gobierno de Estados Unidos lo llevó a vender sus acciones a Pan American World Airways para evitar que la aerolínea cayera en manos de la Alemania nazi; en 1940 se fusionó con SACO y formó Avianca",
+      "fuente": "Wikipedia en inglés, «SCADTA»",
+      "url": "https://en.wikipedia.org/wiki/SCADTA"
+    },
+    {
+      "dato": "Escritura de SCADTA el 5 de diciembre de 1919 en Barranquilla; ocho fundadores (Werner Kämmerer, Stuart Hosie, Alberto Tietjen, Aristides Noguera, Cristóbal Restrepo, Rafael Palacios, Ernesto Cortissoz como primer presidente y Jacobo Correa); Junkers F-13 como primeros hidroaviones (julio de 1920), ensamblados en Barranquilla con adaptaciones para acuatizar sobre el río Magdalena; primer vuelo oficial en el Junkers F-13 «Colombia» hacia Girardot en octubre de 1920; contrato con el Gobierno para operar el correo nacional en 1922",
+      "fuente": "Portafolio, «Los 100 años de Avianca: un vuelo lleno de historia» (5 de diciembre de 2019)",
+      "url": "https://www.portafolio.co/negocios/empresas/los-100-anos-de-avianca-un-vuelo-lleno-de-historia-536260"
+    },
+    {
+      "dato": "SCADTA se constituyó en Barranquilla el 5 de diciembre de 1919 con cinco empresarios colombianos (entre ellos el banquero Ernesto Cortissoz) y tres alemanes; Barranquilla era la ciudad comercial más importante del país; el río Magdalena era eficiente pero lento y la aviación ofrecía velocidad; un socio compró en Alemania dos hidroaviones Junkers F-13 de metal que llegaron desarmados a Puerto Colombia en 1920; primer vuelo en el Junkers F-13 bautizado «Colombia»; en octubre de 1920 se inauguró la ruta a Girardot; SCADTA quería demostrar al Gobierno que el correo aéreo llegaba en horas y no en semanas o meses",
+      "fuente": "El Heraldo, «Un centenario de utopía»",
+      "url": "https://www.elheraldo.co/atlantico/un-centenario-de-utopia-759879"
+    },
+    {
+      "dato": "SCADTA nació en Barranquilla en 1919; las vías terrestres no estaban en buenas condiciones y había escasez de pistas de aterrizaje, por lo que se usaron hidroaviones sobre el río Magdalena; contratos de correo del Gobierno que le dieron ingresos constantes; Von Bauer vendió su participación a Pan American Airways antes de la Segunda Guerra Mundial; en 1940 se fusionó con SACO (Servicio Aéreo Colombiano) y nació Avianca",
+      "fuente": "Las2orillas, «Así nació SCADTA, la primera aerolínea de América Latina que despegó desde Colombia» (se cita solo lo anterior; el titular «primera» no se usa)",
+      "url": "https://www.las2orillas.co/asi-nacio-scadta-la-primera-aerolinea-de-america-latina-que-despego-desde-colombia/"
+    },
+    {
+      "dato": "Peter Paul von Bauer, industrial austriaco, empezó a invertir en SCADTA en 1921 y pasó a dirigirla; acuerdo con Pan American con participación mayoritaria en el capital; 1940: fusión con el Servicio Aéreo Colombiano, competidor menor, y nombre Aerovías Nacionales de Colombia (Avianca) el 14 de junio de 1940; presión de Estados Unidos para reducir la influencia alemana",
+      "fuente": "Encyclopedia.com, «Avianca (Aerovías Nacionales de Colombia SA)»",
+      "url": "https://encyclopedia.com/books/politics-and-business-magazines/avianca-aerovias-nacionales-de-colombia-sa"
+    },
+    {
+      "dato": "Servicio de correo aéreo: en 1922 el correo aéreo pasa a ser servicio nacional con SCADTA; Capítulo 11 de marzo de 2003 y de mayo de 2020",
+      "fuente": "Wikipedia en español, «Avianca» (sección de historia)",
+      "url": "https://es.wikipedia.org/wiki/Avianca"
+    },
+    {
+      "dato": "Avianca se acogió al Capítulo 11 el 10 de mayo de 2020, la segunda vez en menos de 20 años (la primera fue en marzo de 2003); el servicio de pasajeros estaba suspendido desde marzo por la pandemia; la empresa siguió operando en sus mercados (carga y vuelos humanitarios)",
+      "fuente": "La República, «Avianca vuelve a acogerse al Capítulo 11 y pone en jaque al servicio aéreo» (11 de mayo de 2020)",
+      "url": "https://www.larepublica.co/empresas/avianca-vuelve-a-acogerse-al-capitulo-11-y-pone-en-jaque-al-servicio-aereo-3004168"
+    },
+    {
+      "dato": "Capítulo 11: proceso de reorganización del Código de Bancarrota de EE. UU. que permite a una empresa viable reestructurar sus deudas mientras sigue operando; se negocia un plan con acreedores y un tribunal debe aprobarlo",
+      "fuente": "La República, «ABC sobre el Capítulo 11 del Código de Bancarrota de EE. UU. al que se acogió Avianca»",
+      "url": "https://www.larepublica.co/empresas/abc-sobre-el-capitulo-11-del-codigo-de-bancarrota-de-ee-uu-al-que-se-acogio-avianca-3004612"
+    },
+    {
+      "dato": "Capítulo 11: tipo de quiebra que ayuda a una empresa a reestructurar sus deudas en lugar de cerrar; la empresa suele seguir operando mientras prepara un plan; los acreedores votan y el tribunal lo confirma",
+      "fuente": "Tribunales de EE. UU. (uscourts.gov), «Chapter 11 - Bankruptcy Basics»",
+      "url": "https://www.uscourts.gov/court-programs/bankruptcy/bankruptcy-basics/chapter-11-bankruptcy-basics"
+    },
+    {
+      "dato": "Avianca salió del Capítulo 11 el 1 de diciembre de 2021 con la deuda reducida y más de mil millones de dólares de liquidez, según la compañía; el plan se confirmó a principios de noviembre; desaparece Avianca Holdings y nace Avianca Group International Limited, con domicilio en el Reino Unido",
+      "fuente": "La República, «Avianca salió del Capítulo 11 con deuda reducida y US$1.000 millones en liquidez» (1 de diciembre de 2021)",
+      "url": "https://www.larepublica.co/empresas/avianca-salio-del-capitulo-11-con-deuda-reducida-us-1-000-millones-en-liquidez-3270918"
+    },
+    {
+      "dato": "Avianca salió oficialmente del Capítulo 11 el 1 de diciembre de 2021 tras confirmarse el plan de reorganización",
+      "fuente": "El Heraldo, «Avianca salió del proceso de reorganización del Capítulo 11» (1 de diciembre de 2021)",
+      "url": "https://www.elheraldo.co/economia/2021/12/01/avianca-salio-del-proceso-de-reorganizacion-del-capitulo-11-869919/"
+    },
+    {
+      "dato": "Avianca (predecesora SCADTA, 5 de diciembre de 1919) figura entre las aerolíneas más antiguas aún en operación; el título de «la más antigua» se disputa según el criterio (empresa predecesora o actual, fecha de fundación o del primer servicio, nombre original, operación continua); KLM, establecida en 1919, también reclama su lugar; Avianca ha dicho en su publicidad ser la segunda más antigua, pero la lista la sitúa sexta",
+      "fuente": "Wikipedia en inglés, «List of oldest airlines»",
+      "url": "https://en.wikipedia.org/wiki/List_of_oldest_airlines"
+    },
+    {
+      "dato": "Avianca, a través de SCADTA, es presentada como la segunda aerolínea más antigua del mundo después de KLM y la más antigua del hemisferio occidental (afirmación que se matiza: la lista de aerolíneas más antiguas la sitúa más abajo según el criterio)",
+      "fuente": "Wikipedia en español, «Avianca»",
+      "url": "https://es.wikipedia.org/wiki/Avianca"
+    },
+    {
+      "dato": "Ensamble de los hidroaviones Junkers F-13 de SCADTA en sus hangares (6 de agosto de 1920); foto CC BY 4.0, Mauricio Umaña",
+      "fuente": "Wikimedia Commons, File:Ensamble hidroaviones Junkers F13 de Scadta.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Ensamble_hidroaviones_Junkers_F13_de_Scadta.jpg"
+    },
+    {
+      "dato": "Hangar de SCADTA en Veranillo, 1922; foto CC BY-SA 2.0",
+      "fuente": "Wikimedia Commons, File:Hangar SCADTA 1922 (51312094238).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Hangar_SCADTA_1922_(51312094238).jpg"
+    },
+    {
+      "dato": "Junkers W 34 «Magdalena» de SCADTA junto a la orilla de un río; dominio público",
+      "fuente": "Wikimedia Commons, File:SCADTA Junkers W 34 \"Magdalena\".jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:SCADTA_Junkers_W_34_%22Magdalena%22.jpg"
+    },
+    {
+      "dato": "Llegada del aviador Hellmuth von Krohn de SCADTA en el Junkers F-13 a Girardot, a orillas del río Magdalena; foto CC BY-SA 2.0, Mauricio Umaña",
+      "fuente": "Wikimedia Commons, File:Hellmuth von Krohn en Girardot.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Hellmuth_von_Krohn_en_Girardot.jpg"
+    }
+  ],
+  "imagenes": {
+    "ensamble": {
+      "commons": "File:Ensamble hidroaviones Junkers F13 de Scadta.jpg",
+      "que_muestra": "Ensamble de los hidroaviones Junkers F-13 de SCADTA, agosto de 1920 (CC BY 4.0, Mauricio Umaña)",
+      "encuadre": "centro",
+      "movimiento": "acercar"
+    },
+    "hangar_1922": {
+      "commons": "File:Hangar SCADTA 1922 (51312094238).jpg",
+      "que_muestra": "Hangar de SCADTA en Veranillo, 1922 (CC BY-SA 2.0)",
+      "encuadre": "centro",
+      "movimiento": "derecha"
+    },
+    "magdalena_w34": {
+      "commons": "File:SCADTA Junkers W 34 \"Magdalena\".jpg",
+      "que_muestra": "Junkers W 34 «Magdalena» de SCADTA junto a la orilla de un río (dominio público)",
+      "encuadre": "centro",
+      "movimiento": "acercar"
+    },
+    "krohn_girardot": {
+      "commons": "File:Hellmuth von Krohn en Girardot.jpg",
+      "que_muestra": "Llegada de un Junkers F-13 de SCADTA a Girardot, junto al río Magdalena (CC BY-SA 2.0, Mauricio Umaña)",
+      "encuadre": "centro",
+      "movimiento": "izquierda"
+    }
+  },
+  "personajes": {
+    "cortissoz": {
+      "nombre": "Ernesto Cortissoz",
+      "corto": "E. Cortissoz",
+      "rol": "Banquero y primer presidente",
+      "piel": "#dcb08a",
+      "pelo": "#2a2420",
+      "peinado": "raya",
+      "barba": "bigote",
+      "ropa": "#2b2f3a",
+      "detalle": "#c9a256",
+      "corbata": "#e8e4d8",
+      "cuello": "corbata",
+      "sombrero": "ninguno",
+      "expresion": "serio"
+    },
+    "vonbauer": {
+      "nombre": "Peter Paul von Bauer",
+      "corto": "P. P. von Bauer",
+      "rol": "Industrial austriaco",
+      "piel": "#e6bf9d",
+      "pelo": "#4a3a2c",
+      "peinado": "corto",
+      "barba": "bigote-encerado",
+      "ropa": "#3a3f35",
+      "detalle": "#b89b5e",
+      "corbata": "#ece7da",
+      "cuello": "corbata",
+      "sombrero": "ninguno",
+      "expresion": "astuto"
+    },
+    "piloto": {
+      "nombre": "Piloto alemán de SCADTA",
+      "corto": "Piloto",
+      "rol": "Pionero del correo aéreo",
+      "piel": "#e2b996",
+      "pelo": "#5a4430",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": "#5b4a36",
+      "detalle": "#a88d58",
+      "corbata": "#d9d2c0",
+      "cuello": "corbata",
+      "sombrero": "ninguno",
+      "gafas": true,
+      "expresion": "sonrisa"
+    }
+  },
+  "capitulos": [
+    {
+      "id": "c0",
+      "titulo": "",
+      "escenas": {
+        "c0-pregunta": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "¿Cómo nace",
+              "una aerolínea?"
+            ],
+            "resalta": 1,
+            "insignia": "Así nacieron · Avianca",
+            "dibujo": "reloj",
+            "palabra_dibujo": "nace"
+          }
+        },
+        "c0-cien": {
+          "plantilla": "cifra",
+          "datos": {
+            "valor": 100,
+            "antes": "más de",
+            "unidad": "años",
+            "rotulo": "volando. ¿Cómo lo logró?",
+            "dibujo": "reloj",
+            "palabra": "cien",
+            "palabra_rotulo": "sobrevive"
+          }
+        },
+        "c0-serie": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "Así nacieron",
+              "Parte 1"
+            ],
+            "resalta": 1,
+            "calendario": {
+              "arriba": "Serie",
+              "numero": "1",
+              "abajo": "Parte",
+              "lado": "derecha",
+              "palabra": "uno"
+            }
+          }
+        },
+        "c0-partes": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "En cada parte veremos",
+            "fichas": [
+              {
+                "texto": "El problema",
+                "dibujo": "montana",
+                "palabra": "problema"
+              },
+              {
+                "texto": "La decisión",
+                "dibujo": "pluma",
+                "palabra": "decisión"
+              },
+              {
+                "texto": "Lo que casi la hunde",
+                "dibujo": "derrumbe",
+                "palabra": "hunde",
+                "resalta": true
+              }
+            ]
+          }
+        },
+        "c0-regla": {
+          "plantilla": "cita",
+          "datos": {
+            "texto": "Cada vez que oigas una pregunta, respóndela en voz alta",
+            "autor": "La regla del video",
+            "fuente": "Aunque nadie te escuche"
+          }
+        },
+        "c0-juegos": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "Esto vas a encontrar",
+            "fichas": [
+              {
+                "texto": "Adivinanzas",
+                "dibujo": "documento",
+                "palabra": "adivinanzas"
+              },
+              {
+                "texto": "¿Mito o realidad?",
+                "dibujo": "balanza",
+                "palabra": "mito"
+              },
+              {
+                "texto": "Una cifra tras la pausa",
+                "dibujo": "reloj",
+                "palabra": "cifra",
+                "resalta": true
+              }
+            ]
+          }
+        },
+        "c0-fechas": {
+          "plantilla": "linea-tiempo",
+          "datos": {
+            "titulo": "Guarda cuatro fechas",
+            "hitos": [
+              {
+                "anio": "1919",
+                "texto": "Fecha uno",
+                "palabra": "1919"
+              },
+              {
+                "anio": "1940",
+                "texto": "Fecha dos",
+                "palabra": "1940"
+              },
+              {
+                "anio": "2003",
+                "texto": "Fecha tres",
+                "palabra": "2003"
+              },
+              {
+                "anio": "2020",
+                "texto": "Fecha cuatro",
+                "palabra": "2020"
+              }
+            ]
+          }
+        }
+      },
+      "frases": [
+        {
+          "id": "f1",
+          "escena": "c0-pregunta",
+          "texto": "¿Cómo nace una aerolínea en un país de montañas y pocas vías, y cómo sobrevive más de cien años? Piénsalo un momento y guarda tu respuesta, porque al final la comprobamos.",
+          "cortes": [
+            {
+              "escena": "c0-cien",
+              "palabra": 12
+            }
+          ],
+          "interaccion": "pregunta",
+          "pausa_despues": 2.5
+        },
+        {
+          "id": "f2",
+          "escena": "c0-serie",
+          "texto": "Esta es la parte uno de Así nacieron, una serie sobre empresas que conoces, contadas desde su primer día. En cada parte veremos el problema, la decisión que cambió todo y lo que casi la hunde. Hoy: Avianca.",
+          "cortes": [
+            {
+              "escena": "c0-partes",
+              "palabra": 14
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "escena": "c0-regla",
+          "texto": "La regla del video: cada vez que oigas una pregunta, respóndela en voz alta, aunque nadie te escuche.",
+          "interaccion": "pregunta",
+          "pausa_despues": 1.5
+        },
+        {
+          "id": "f4",
+          "escena": "c0-juegos",
+          "texto": "Habrá adivinanzas, un mito o realidad y una cifra que llega después de una pausa. Tú pones las respuestas.",
+          "interaccion": "adivina"
+        },
+        {
+          "id": "f5",
+          "escena": "c0-fechas",
+          "texto": "Guarda cuatro fechas: 1919, 1940, 2003 y 2020. Al final te las pido."
+        }
+      ]
+    },
+    {
+      "id": "c1",
+      "titulo": "Un país difícil de cruzar",
+      "escenas": {
+        "c1-mapa-colombia": {
+          "plantilla": "mapa",
+          "datos": {
+            "vistas": [
+              {
+                "centro": [
+                  -74,
+                  6.5
+                ],
+                "ancho": 22
+              }
+            ],
+            "paises": [
+              {
+                "id": "colombia",
+                "color": "acento2",
+                "opacidad": 0.3,
+                "en": 0
+              }
+            ],
+            "montes": {
+              "puntos": [
+                [
+                  -77.2,
+                  1.8
+                ],
+                [
+                  -76.4,
+                  3.6
+                ],
+                [
+                  -75.6,
+                  5.6
+                ],
+                [
+                  -74.4,
+                  7.6
+                ],
+                [
+                  -73.2,
+                  9.2
+                ]
+              ],
+              "tam": 60,
+              "en": 0.5
+            },
+            "rutas": [
+              {
+                "puntos": [
+                  [
+                    -74.85,
+                    11.1
+                  ],
+                  [
+                    -74.9,
+                    10.3
+                  ],
+                  [
+                    -74.7,
+                    9.2
+                  ],
+                  [
+                    -74.5,
+                    8.3
+                  ],
+                  [
+                    -74.4,
+                    6.6
+                  ],
+                  [
+                    -74.7,
+                    5.3
+                  ],
+                  [
+                    -74.8,
+                    4.3
+                  ],
+                  [
+                    -75.2,
+                    3
+                  ]
+                ],
+                "estilo": "canal",
+                "grosor": 10,
+                "en": 0.45,
+                "dur": 1.6
+              }
+            ],
+            "marcas": [
+              {
+                "texto": "Barranquilla",
+                "lugar": [
+                  -74.8,
+                  10.96
+                ],
+                "lado": "derecha",
+                "tam": 34,
+                "palabra": "Caribe"
+              },
+              {
+                "texto": "Bogotá",
+                "lugar": "bogota",
+                "lado": "derecha",
+                "tam": 34,
+                "palabra": "interior"
+              }
+            ],
+            "rotulos": [
+              {
+                "texto": "Mar Caribe",
+                "lugar": [
+                  -77.2,
+                  12.2
+                ],
+                "estilo": "mar",
+                "tam": 34,
+                "en": 0
+              },
+              {
+                "texto": "Río Magdalena",
+                "lugar": [
+                  -73.2,
+                  7.2
+                ],
+                "estilo": "rio",
+                "tam": 32,
+                "en": 0.9
+              }
+            ],
+            "cartela": {
+              "titulo": "Colombia, 1919",
+              "sub": "Montañas, selva y un río enorme"
+            }
+          }
+        },
+        "c1-pais-dificil": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "Un país difícil",
+            "fichas": [
+              {
+                "texto": "Montañas",
+                "dibujo": "montana",
+                "palabra": "montañas,"
+              },
+              {
+                "texto": "Selva",
+                "dibujo": "lluvia",
+                "palabra": "selva"
+              },
+              {
+                "texto": "Un río enorme",
+                "dibujo": "barco",
+                "palabra": "enorme:",
+                "resalta": true
+              }
+            ]
+          }
+        },
+        "c1-rio-lento": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "El río: útil,",
+              "pero muy lento"
+            ],
+            "resalta": 1,
+            "dibujo": "barco",
+            "palabra_dibujo": "río"
+          }
+        },
+        "c1-vias": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "Por tierra",
+            "fichas": [
+              {
+                "texto": "Vías precarias",
+                "dibujo": "derrumbe",
+                "palabra": "vías"
+              },
+              {
+                "texto": "Casi sin pistas",
+                "dibujo": "montana",
+                "palabra": "pistas",
+                "resalta": true
+              }
+            ]
+          }
+        },
+        "c1-mapa-barranquilla": {
+          "plantilla": "mapa",
+          "datos": {
+            "vistas": [
+              {
+                "caja": [
+                  -76.2,
+                  11.9,
+                  -73.4,
+                  10.1
+                ]
+              }
+            ],
+            "paises": [
+              {
+                "id": "colombia",
+                "color": "acento2",
+                "opacidad": 0.3,
+                "en": 0
+              }
+            ],
+            "rutas": [
+              {
+                "puntos": [
+                  [
+                    -74.9,
+                    10.2
+                  ],
+                  [
+                    -74.75,
+                    10.6
+                  ],
+                  [
+                    -74.8,
+                    11
+                  ],
+                  [
+                    -74.85,
+                    11.1
+                  ]
+                ],
+                "estilo": "canal",
+                "grosor": 10,
+                "palabra": "desembocadura",
+                "dur": 1.2
+              }
+            ],
+            "marcas": [
+              {
+                "texto": "Barranquilla",
+                "lugar": [
+                  -74.8,
+                  10.96
+                ],
+                "lado": "derecha",
+                "tam": 44,
+                "palabra": "Barranquilla,"
+              }
+            ],
+            "rotulos": [
+              {
+                "texto": "Mar Caribe",
+                "lugar": [
+                  -75.5,
+                  11.6
+                ],
+                "estilo": "mar",
+                "tam": 40,
+                "en": 0
+              },
+              {
+                "texto": "Río Magdalena",
+                "lugar": [
+                  -74.3,
+                  10.35
+                ],
+                "estilo": "rio",
+                "tam": 34,
+                "palabra": "río,"
+              }
+            ],
+            "cartela": {
+              "titulo": "Barranquilla, 1919",
+              "sub": "La ciudad comercial más importante",
+              "palabra": "ciudad"
+            }
+          }
+        },
+        "c1-semana": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "Cada semana",
+              "de espera:",
+              "dinero perdido"
+            ],
+            "resalta": 2,
+            "calendario": {
+              "arriba": "Una",
+              "numero": "1",
+              "abajo": "semana",
+              "lado": "derecha",
+              "palabra": "semana"
+            }
+          }
+        },
+        "c1-comerciante": {
+          "plantilla": "personaje",
+          "datos": {
+            "nombre": "Un comerciante",
+            "anios": "Barranquilla, 1919",
+            "rol": "Cada carta tarda semanas",
+            "peinado": "raya",
+            "barba": "bigote",
+            "ropa": "#2b3a4a",
+            "detalle": "#c9a256",
+            "corbata": "#e8e4d8",
+            "cuello": "corbata",
+            "sombrero": "canotier",
+            "expresion": "pensativo",
+            "pose": "pensar",
+            "palabra_anios": "Si",
+            "palabra_rol": "fueras"
+          }
+        },
+        "c1-pregunta": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "Una carta:",
+              "¿horas o semanas?"
+            ],
+            "resalta": 1,
+            "insignia": "Piénsalo",
+            "dibujo": "reloj",
+            "palabra_dibujo": "horas"
+          }
+        },
+        "c1-alas": {
+          "plantilla": "recorte",
+          "datos": {
+            "foto": "File:Hangar SCADTA 1922 (51312094238).jpg",
+            "pie": "Hangar de SCADTA en Veranillo (1922)",
+            "insignia": "Desde Alemania",
+            "titulo": "Y tenía alas",
+            "texto": "Aviones de metal, de Alemania",
+            "palabras": {
+              "titulo": "alas.",
+              "texto": "Alemania,"
+            }
+          }
+        }
+      },
+      "frases": [
+        {
+          "id": "f6",
+          "escena": "c1-mapa-colombia",
+          "texto": "Colombia, 1919. Entre la costa del Caribe y el interior del país hay montañas, selva y un río enorme: el Magdalena.",
+          "cortes": [
+            {
+              "escena": "c1-pais-dificil",
+              "palabra": 13
+            }
+          ]
+        },
+        {
+          "id": "f7",
+          "escena": "c1-rio-lento",
+          "texto": "El río era un camino útil, pero muy lento. Y por tierra, las vías eran precarias y casi no había pistas de aterrizaje.",
+          "cortes": [
+            {
+              "escena": "c1-vias",
+              "palabra": 9
+            }
+          ]
+        },
+        {
+          "id": "f8",
+          "escena": "c1-mapa-barranquilla",
+          "texto": "Barranquilla, en la desembocadura del río, era entonces la ciudad comercial más importante del país. Para sus comerciantes, cada semana de espera era dinero perdido.",
+          "cortes": [
+            {
+              "escena": "c1-semana",
+              "palabra": 15
+            }
+          ]
+        },
+        {
+          "id": "f9",
+          "escena": "c1-comerciante",
+          "texto": "Si fueras uno de esos comerciantes, ¿cómo harías para que una carta llegara en horas y no en semanas? Piénsalo antes de seguir.",
+          "cortes": [
+            {
+              "escena": "c1-pregunta",
+              "palabra": 6
+            }
+          ],
+          "interaccion": "pregunta",
+          "pausa_despues": 2.5
+        },
+        {
+          "id": "f10",
+          "escena": "c1-alas",
+          "texto": "La respuesta llegó desde Alemania, y tenía alas."
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "titulo": "Ocho socios y dos aviones",
+      "escenas": {
+        "c2-firma": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "Barranquilla,",
+              "nace una sociedad"
+            ],
+            "resalta": 1,
+            "calendario": {
+              "arriba": "Dic",
+              "numero": "5",
+              "abajo": "1919",
+              "lado": "derecha",
+              "palabra": "cinco"
+            }
+          }
+        },
+        "c2-nombre": {
+          "plantilla": "cifra",
+          "datos": {
+            "cifra": "SCADTA",
+            "contar": false,
+            "antes": "Sociedad",
+            "rotulo": "Colombo-Alemana de Transportes Aéreos",
+            "dibujo": "documento",
+            "palabra": "Sociedad",
+            "palabra_rotulo": "Colombo-Alemana"
+          }
+        },
+        "c2-ocho": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "Ocho fundadores:",
+              "¿cuántos de cada",
+              "país?"
+            ],
+            "resalta": 2,
+            "insignia": "Piénsalo",
+            "dibujo": "balanza",
+            "palabra_dibujo": "cuántos"
+          }
+        },
+        "c2-cinco-tres": {
+          "plantilla": "cifra",
+          "datos": {
+            "titulo": "Los ocho fundadores",
+            "cifras": [
+              {
+                "valor": 5,
+                "unidad": "",
+                "rotulo": "Colombianos, con Cortissoz",
+                "palabra": "Cinco",
+                "resalta": true
+              },
+              {
+                "valor": 3,
+                "unidad": "",
+                "rotulo": "Alemanes",
+                "palabra": "tres"
+              }
+            ]
+          }
+        },
+        "c2-colombo": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "Por eso:",
+              "Colombo-Alemana"
+            ],
+            "resalta": 1,
+            "dibujo": "bandera",
+            "palabra_dibujo": "nombre"
+          }
+        },
+        "c2-capital": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "Los socios se juntan",
+            "fichas": [
+              {
+                "texto": "Capital reunido",
+                "dibujo": "balanza",
+                "palabra": "capital"
+              },
+              {
+                "texto": "Compra en Alemania",
+                "dibujo": "documento",
+                "palabra": "uno",
+                "resalta": true
+              }
+            ]
+          }
+        },
+        "c2-ensamble": {
+          "plantilla": "recorte",
+          "datos": {
+            "foto": "File:Ensamble hidroaviones Junkers F13 de Scadta.jpg",
+            "pie": "Ensamble de los Junkers F-13 (agosto de 1920)",
+            "insignia": "Dos hidroaviones",
+            "titulo": "Junkers F-13",
+            "texto": "Hechos de metal, comprados en Alemania",
+            "palabras": {
+              "foto": "dos",
+              "titulo": "hidroaviones",
+              "texto": "Junkers"
+            }
+          }
+        },
+        "c2-puerto": {
+          "plantilla": "mapa",
+          "datos": {
+            "vistas": [
+              {
+                "caja": [
+                  -76.2,
+                  11.9,
+                  -73.4,
+                  10.1
+                ]
+              }
+            ],
+            "paises": [
+              {
+                "id": "colombia",
+                "color": "acento2",
+                "opacidad": 0.3,
+                "en": 0
+              }
+            ],
+            "rutas": [
+              {
+                "puntos": [
+                  [
+                    -74.96,
+                    10.99
+                  ],
+                  [
+                    -74.78,
+                    10.96
+                  ]
+                ],
+                "estilo": "flecha",
+                "grosor": 9,
+                "palabra": "armaron",
+                "dur": 0.8
+              },
+              {
+                "puntos": [
+                  [
+                    -74.9,
+                    10.2
+                  ],
+                  [
+                    -74.75,
+                    10.6
+                  ],
+                  [
+                    -74.8,
+                    11
+                  ],
+                  [
+                    -74.85,
+                    11.1
+                  ]
+                ],
+                "estilo": "canal",
+                "grosor": 10,
+                "palabra": "adaptaron",
+                "dur": 1.2
+              }
+            ],
+            "marcas": [
+              {
+                "texto": "Puerto Colombia",
+                "lugar": [
+                  -74.96,
+                  10.99
+                ],
+                "lado": "izquierda",
+                "tam": 38,
+                "palabra": "Puerto"
+              },
+              {
+                "texto": "Barranquilla",
+                "lugar": [
+                  -74.8,
+                  10.96
+                ],
+                "lado": "derecha",
+                "tam": 38,
+                "palabra": "Barranquilla"
+              }
+            ],
+            "rotulos": [
+              {
+                "texto": "Mar Caribe",
+                "lugar": [
+                  -75.5,
+                  11.6
+                ],
+                "estilo": "mar",
+                "tam": 40,
+                "en": 0
+              },
+              {
+                "texto": "Río Magdalena",
+                "lugar": [
+                  -74.3,
+                  10.35
+                ],
+                "estilo": "rio",
+                "tam": 34,
+                "palabra": "Magdalena."
+              }
+            ],
+            "cartela": {
+              "titulo": "1920",
+              "sub": "Llegan desarmados y se arman en Barranquilla",
+              "palabra": "1920."
+            }
+          }
+        },
+        "c2-pista": {
+          "plantilla": "recorte",
+          "datos": {
+            "foto": "File:SCADTA Junkers W 34 \"Magdalena\".jpg",
+            "pie": "Junkers W 34 «Magdalena» de SCADTA, junto al río",
+            "insignia": "El truco",
+            "titulo": "El río era la pista",
+            "texto": "Sin pistas de aterrizaje",
+            "palabras": {
+              "titulo": "río",
+              "texto": "Sin"
+            }
+          }
+        },
+        "c2-adivina": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "¿Cómo bautizaron",
+              "al avión?"
+            ],
+            "resalta": 1,
+            "insignia": "Adivina",
+            "dibujo": "pluma",
+            "palabra_dibujo": "bautizaron"
+          }
+        },
+        "c2-nombre-avion": {
+          "plantilla": "cifra",
+          "datos": {
+            "cifra": "Colombia",
+            "contar": false,
+            "antes": "Se llamó",
+            "rotulo": "El avión del primer gran viaje",
+            "dibujo": "bandera",
+            "palabra": "Colombia.",
+            "palabra_rotulo": "llamaron"
+          }
+        },
+        "c2-ruta-girardot": {
+          "plantilla": "mapa",
+          "datos": {
+            "vistas": [
+              {
+                "centro": [
+                  -74.6,
+                  7.1
+                ],
+                "ancho": 17
+              }
+            ],
+            "paises": [
+              {
+                "id": "colombia",
+                "color": "acento2",
+                "opacidad": 0.3,
+                "en": 0
+              }
+            ],
+            "rutas": [
+              {
+                "puntos": [
+                  [
+                    -74.85,
+                    11.1
+                  ],
+                  [
+                    -74.9,
+                    10.3
+                  ],
+                  [
+                    -74.7,
+                    9.2
+                  ],
+                  [
+                    -74.5,
+                    8.3
+                  ],
+                  [
+                    -74.4,
+                    6.6
+                  ],
+                  [
+                    -74.7,
+                    5.3
+                  ],
+                  [
+                    -74.8,
+                    4.3
+                  ]
+                ],
+                "estilo": "flecha",
+                "grosor": 10,
+                "en": 0.05,
+                "dur": 2.6
+              }
+            ],
+            "marcas": [
+              {
+                "texto": "Barranquilla",
+                "lugar": [
+                  -74.8,
+                  10.96
+                ],
+                "lado": "derecha",
+                "tam": 34,
+                "en": 0
+              },
+              {
+                "texto": "Girardot",
+                "lugar": [
+                  -74.8,
+                  4.3
+                ],
+                "lado": "derecha",
+                "tam": 38,
+                "palabra": "Girardot."
+              }
+            ],
+            "rotulos": [
+              {
+                "texto": "Río Magdalena",
+                "lugar": [
+                  -73.4,
+                  8
+                ],
+                "estilo": "rio",
+                "tam": 32,
+                "palabra": "Magdalena,"
+              }
+            ],
+            "cartela": {
+              "titulo": "1920",
+              "sub": "Una ruta que llegó hasta Girardot"
+            }
+          }
+        },
+        "c2-horas": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "Horas,",
+              "no semanas"
+            ],
+            "resalta": 1,
+            "dibujo": "reloj",
+            "palabra_dibujo": "horas,"
+          }
+        },
+        "c2-apuesta": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "Una apuesta con riesgo",
+            "fichas": [
+              {
+                "texto": "El avión fallaba",
+                "dibujo": "derrumbe",
+                "palabra": "avión"
+              },
+              {
+                "texto": "Cartas sin llegar",
+                "dibujo": "documento",
+                "palabra": "cartas"
+              },
+              {
+                "texto": "Lo invertido, perdido",
+                "dibujo": "balanza",
+                "palabra": "invertido",
+                "resalta": true
+              }
+            ]
+          }
+        }
+      },
+      "frases": [
+        {
+          "id": "f11",
+          "escena": "c2-firma",
+          "texto": "El cinco de diciembre de 1919, en Barranquilla, se firmó la escritura de una empresa nueva: la Sociedad Colombo-Alemana de Transportes Aéreos, SCADTA.",
+          "cortes": [
+            {
+              "escena": "c2-nombre",
+              "palabra": 16
+            }
+          ]
+        },
+        {
+          "id": "f12",
+          "escena": "c2-ocho",
+          "texto": "Fueron ocho los fundadores. ¿Cuántos crees que eran colombianos y cuántos alemanes? Piénsalo.",
+          "interaccion": "pregunta",
+          "pausa_despues": 2.5
+        },
+        {
+          "id": "f13",
+          "escena": "c2-cinco-tres",
+          "texto": "Cinco colombianos, entre ellos el banquero Ernesto Cortissoz, y tres alemanes. Por eso el nombre dice colombo-alemana.",
+          "cortes": [
+            {
+              "escena": "c2-colombo",
+              "palabra": 11
+            }
+          ],
+          "interaccion": "revela-cifra"
+        },
+        {
+          "id": "f14",
+          "escena": "c2-capital",
+          "texto": "Los socios reunieron el capital inicial, y uno de ellos compró en Alemania dos hidroaviones Junkers F-13, hechos de metal.",
+          "cortes": [
+            {
+              "escena": "c2-ensamble",
+              "palabra": 12
+            }
+          ]
+        },
+        {
+          "id": "f15",
+          "escena": "c2-puerto",
+          "texto": "Llegaron desarmados a Puerto Colombia en 1920. Los armaron en Barranquilla y los adaptaron para posarse sobre el agua del río Magdalena."
+        },
+        {
+          "id": "f16",
+          "escena": "c2-pista",
+          "texto": "Sin pistas de aterrizaje, el río era la pista. Ese fue el truco que resolvió el problema."
+        },
+        {
+          "id": "f17",
+          "escena": "c2-adivina",
+          "texto": "Adivina antes de que lo diga: ¿cómo bautizaron al avión del primer gran viaje por el país?",
+          "interaccion": "adivina",
+          "pausa_despues": 2.5
+        },
+        {
+          "id": "f18",
+          "escena": "c2-nombre-avion",
+          "texto": "Lo llamaron Colombia. En 1920 voló siguiendo el río Magdalena, y esa ruta llegó hasta Girardot.",
+          "cortes": [
+            {
+              "escena": "c2-ruta-girardot",
+              "palabra": 7
+            }
+          ]
+        },
+        {
+          "id": "f19",
+          "escena": "c2-horas",
+          "texto": "El objetivo era demostrar que una carta podía llegar en horas, y no en semanas o meses. Era una apuesta con riesgo: si el avión fallaba, las cartas no llegaban y lo invertido se perdía.",
+          "cortes": [
+            {
+              "escena": "c2-apuesta",
+              "palabra": 17
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "titulo": "El contrato que pagó las cuentas",
+      "escenas": {
+        "c3-no-basta": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "Aviones solos",
+              "no bastan"
+            ],
+            "resalta": 1,
+            "dibujo": "bandera",
+            "palabra_dibujo": "basta."
+          }
+        },
+        "c3-gastos": {
+          "plantilla": "cadena",
+          "datos": {
+            "eslabones": [
+              {
+                "texto": "Combustible",
+                "palabra": "combustible,"
+              },
+              {
+                "texto": "Pilotos",
+                "palabra": "pilotos"
+              },
+              {
+                "texto": "Repuestos",
+                "palabra": "repuestos."
+              }
+            ]
+          }
+        },
+        "c3-historia": {
+          "plantilla": "linea-tiempo",
+          "datos": {
+            "titulo": "SCADTA, los primeros años",
+            "actual": 3,
+            "palabra_actual": "1922",
+            "hitos": [
+              {
+                "anio": "1919",
+                "texto": "Nace SCADTA en Barranquilla"
+              },
+              {
+                "anio": "1920",
+                "texto": "Llegan los hidroaviones"
+              },
+              {
+                "anio": "1921",
+                "texto": "Von Bauer empieza a invertir"
+              },
+              {
+                "anio": "1922",
+                "texto": "Contrato del correo nacional"
+              }
+            ]
+          }
+        },
+        "c3-constantes": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "Ingresos",
+              "constantes"
+            ],
+            "resalta": 1,
+            "calendario": {
+              "arriba": "Cada",
+              "numero": "1",
+              "abajo": "mes",
+              "lado": "derecha",
+              "palabra": "constantes."
+            }
+          }
+        },
+        "c3-calma": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "Cuando un cliente paga",
+            "fichas": [
+              {
+                "texto": "Pago regular",
+                "dibujo": "calendario",
+                "palabra": "regular,"
+              },
+              {
+                "texto": "Planear con calma",
+                "dibujo": "reloj",
+                "palabra": "planear",
+                "resalta": true
+              }
+            ]
+          }
+        },
+        "c3-vonbauer": {
+          "plantilla": "personaje",
+          "datos": {
+            "personaje": "vonbauer",
+            "anios": "Desde 1921",
+            "rol": "Industrial austriaco, accionista principal",
+            "palabra_rol": "industrial"
+          }
+        },
+        "c3-1921": {
+          "plantilla": "cifra",
+          "datos": {
+            "cifra": "1921",
+            "contar": false,
+            "antes": "Desde",
+            "rotulo": "invierte hasta ser accionista principal",
+            "dibujo": "calendario",
+            "palabra": "1921",
+            "palabra_rotulo": "invertir"
+          }
+        },
+        "c3-pregunta": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "Piensa en una",
+              "empresa nueva"
+            ],
+            "resalta": 1,
+            "dibujo": "documento",
+            "palabra_dibujo": "empresa"
+          }
+        },
+        "c3-que-pesa": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "¿Qué pesa más?",
+            "fichas": [
+              {
+                "texto": "Una buena idea",
+                "dibujo": "pluma",
+                "palabra": "idea"
+              },
+              {
+                "texto": "Quién te pague",
+                "dibujo": "balanza",
+                "palabra": "quién"
+              }
+            ]
+          }
+        },
+        "c3-circulo": {
+          "plantilla": "cadena",
+          "datos": {
+            "eslabones": [
+              {
+                "texto": "Correo",
+                "palabra": "correo"
+              },
+              {
+                "texto": "Vuelos",
+                "palabra": "vuelos,"
+              },
+              {
+                "texto": "Rutas",
+                "palabra": "abrían"
+              }
+            ]
+          }
+        }
+      },
+      "frases": [
+        {
+          "id": "f20",
+          "escena": "c3-no-basta",
+          "texto": "Pero tener aviones no basta. Una empresa necesita ingresos que se repitan, mes tras mes, para pagar combustible, pilotos y repuestos.",
+          "cortes": [
+            {
+              "escena": "c3-gastos",
+              "palabra": 8
+            }
+          ]
+        },
+        {
+          "id": "f21",
+          "escena": "c3-historia",
+          "texto": "SCADTA encontró los suyos en el correo. En 1922 firmó un contrato con el Gobierno para llevar el correo nacional, y eso le dio ingresos constantes. Cuando un cliente paga de forma regular, una empresa puede planear con más calma.",
+          "cortes": [
+            {
+              "escena": "c3-constantes",
+              "palabra": 15
+            },
+            {
+              "escena": "c3-calma",
+              "palabra": 26
+            }
+          ]
+        },
+        {
+          "id": "f22",
+          "escena": "c3-vonbauer",
+          "texto": "Mientras tanto, un industrial austriaco, Peter Paul von Bauer, empezó a invertir en 1921 y llegó a ser el accionista principal.",
+          "cortes": [
+            {
+              "escena": "c3-1921",
+              "palabra": 12
+            }
+          ]
+        },
+        {
+          "id": "f23",
+          "escena": "c3-pregunta",
+          "texto": "Piensa en una empresa nueva: ¿qué pesa más, tener una buena idea o tener quién te pague por ella? Respóndelo antes de seguir.",
+          "cortes": [
+            {
+              "escena": "c3-que-pesa",
+              "palabra": 8
+            }
+          ],
+          "interaccion": "pregunta",
+          "pausa_despues": 2.5
+        },
+        {
+          "id": "f24",
+          "escena": "c3-circulo",
+          "texto": "En SCADTA, el correo ayudaba a pagar los vuelos, y los vuelos abrían rutas nuevas."
+        }
+      ]
+    },
+    {
+      "id": "c4",
+      "titulo": "Una guerra y un nombre nuevo",
+      "escenas": {
+        "c4-veinte": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "Más de veinte años",
+              "después"
+            ],
+            "resalta": 1,
+            "dibujo": "reloj",
+            "palabra_dibujo": "años"
+          }
+        },
+        "c4-presion": {
+          "plantilla": "mapa",
+          "datos": {
+            "vistas": [
+              {
+                "centro": [
+                  -76,
+                  16
+                ],
+                "ancho": 44
+              }
+            ],
+            "paises": [
+              {
+                "id": "colombia",
+                "color": "acento2",
+                "opacidad": 0.35,
+                "en": 0
+              }
+            ],
+            "banderas": [
+              {
+                "pais": "eeuu",
+                "lugar": [
+                  -76.5,
+                  22.9
+                ],
+                "palabra": "Estados"
+              }
+            ],
+            "rutas": [
+              {
+                "puntos": [
+                  [
+                    -76.5,
+                    21.8
+                  ],
+                  [
+                    -74.9,
+                    11.3
+                  ]
+                ],
+                "estilo": "flecha",
+                "color": "alerta",
+                "palabra": "quería",
+                "dur": 1.2
+              }
+            ],
+            "marcas": [
+              {
+                "texto": "Barranquilla",
+                "lugar": [
+                  -74.8,
+                  11
+                ],
+                "lado": "derecha",
+                "palabra": "SCADTA"
+              }
+            ],
+            "cartela": {
+              "titulo": "Guerra y presión",
+              "sub": "EE. UU. quería menos influencia alemana",
+              "en": 0.05
+            }
+          }
+        },
+        "c4-vonbauer": {
+          "plantilla": "personaje",
+          "datos": {
+            "personaje": "vonbauer",
+            "pose": "brazos-cruzados",
+            "anios": "Desde 1921",
+            "rol": "Industrial austriaco y accionista principal de SCADTA",
+            "palabra_rol": "acciones"
+          }
+        },
+        "c4-venta": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "La propiedad cambió de manos",
+            "fichas": [
+              {
+                "texto": "Vende Von Bauer",
+                "dibujo": "documento",
+                "en": 0.05
+              },
+              {
+                "texto": "Compra Pan American",
+                "dibujo": "bandera",
+                "palabra": "American",
+                "resalta": true
+              }
+            ]
+          }
+        },
+        "c4-fusion-fecha": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "Se fusionan",
+              "en Barranquilla"
+            ],
+            "resalta": 1,
+            "calendario": {
+              "arriba": "Jun",
+              "numero": "14",
+              "abajo": "1940",
+              "lado": "derecha",
+              "palabra": "catorce"
+            }
+          }
+        },
+        "c4-fusion": {
+          "plantilla": "cadena",
+          "datos": {
+            "eslabones": [
+              {
+                "texto": "SCADTA",
+                "palabra": "fusionó"
+              },
+              {
+                "texto": "SACO",
+                "palabra": "Servicio"
+              }
+            ],
+            "anios": [
+              "1919",
+              "1940"
+            ],
+            "palabra_atras": "conocido",
+            "rotulo_atras": "Dos empresas, una"
+          }
+        },
+        "c4-nombre": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "Aerovías",
+              "Nacionales",
+              "de Colombia"
+            ],
+            "resalta": 2,
+            "insignia": "Siglas: AVIANCA",
+            "dibujo": "documento",
+            "palabra_dibujo": "siglas"
+          }
+        },
+        "c4-votar": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "«Avianca es la más antigua del mundo»",
+            "fichas": [
+              {
+                "texto": "Mito",
+                "dibujo": "balanza",
+                "palabra": "Mito"
+              },
+              {
+                "texto": "Realidad",
+                "dibujo": "reloj",
+                "palabra": "realidad"
+              }
+            ]
+          }
+        },
+        "c4-veredicto": {
+          "plantilla": "cifra",
+          "datos": {
+            "cifra": "Mito",
+            "contar": false,
+            "rotulo": "Una de las más antiguas, no la más antigua",
+            "dibujo": "calendario",
+            "palabra": "Mito",
+            "palabra_rotulo": "antiguas,"
+          }
+        },
+        "c4-orden": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "El orden cambia",
+              "según cómo cuentes"
+            ],
+            "resalta": 1,
+            "dibujo": "balanza",
+            "palabra_dibujo": "orden"
+          }
+        },
+        "c4-criterios": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "Tres formas de contar",
+            "fichas": [
+              {
+                "texto": "El primer vuelo",
+                "dibujo": "barco",
+                "en": 0.03
+              },
+              {
+                "texto": "El nombre actual",
+                "dibujo": "documento",
+                "palabra": "nombre"
+              },
+              {
+                "texto": "La empresa anterior",
+                "dibujo": "pluma",
+                "palabra": "empresa"
+              },
+              {
+                "texto": "KLM nació en 1919",
+                "dibujo": "reloj",
+                "palabra": "KLM",
+                "resalta": true
+              }
+            ]
+          }
+        }
+      },
+      "frases": [
+        {
+          "id": "f25",
+          "escena": "c4-veinte",
+          "texto": "Pasaron más de veinte años y llegó la Segunda Guerra Mundial. SCADTA tenía raíces alemanas, y Estados Unidos quería reducir la influencia alemana en la región.",
+          "cortes": [
+            {
+              "escena": "c4-presion",
+              "palabra": 11
+            }
+          ]
+        },
+        {
+          "id": "f26",
+          "escena": "c4-vonbauer",
+          "texto": "Antes de la guerra, Von Bauer había vendido sus acciones a la estadounidense Pan American Airways. La empresa ya no era la misma de 1919.",
+          "cortes": [
+            {
+              "escena": "c4-venta",
+              "palabra": 13
+            }
+          ]
+        },
+        {
+          "id": "f27",
+          "escena": "c4-fusion-fecha",
+          "texto": "El catorce de junio de 1940, en Barranquilla, SCADTA se fusionó con una empresa más pequeña, el Servicio Aéreo Colombiano, conocido como SACO.",
+          "cortes": [
+            {
+              "escena": "c4-fusion",
+              "palabra": 10
+            }
+          ]
+        },
+        {
+          "id": "f28",
+          "escena": "c4-nombre",
+          "texto": "Así nació Aerovías Nacionales de Colombia, cuyas siglas forman un nombre que hoy conoces: Avianca."
+        },
+        {
+          "id": "f29",
+          "escena": "c4-votar",
+          "texto": "Ahora toca votar. ¿Mito o realidad? «Avianca es la aerolínea más antigua del mundo.»",
+          "interaccion": "mito-realidad",
+          "pausa_despues": 3
+        },
+        {
+          "id": "f30",
+          "escena": "c4-veredicto",
+          "texto": "Mito. Es de las más antiguas, pero el título de la más antigua lo reclaman varias, y el orden cambia según cómo cuentes: desde el primer vuelo, desde el nombre actual o desde la empresa anterior. KLM, por ejemplo, también nació en 1919.",
+          "cortes": [
+            {
+              "escena": "c4-orden",
+              "palabra": 16
+            },
+            {
+              "escena": "c4-criterios",
+              "palabra": 27
+            }
+          ],
+          "interaccion": "mito-realidad"
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "titulo": "Dos veces al borde",
+      "escenas": {
+        "c5-seis": {
+          "plantilla": "cifra",
+          "datos": {
+            "valor": 6,
+            "antes": "Más de",
+            "unidad": "décadas",
+            "rotulo": "después de la fusión de 1940",
+            "dibujo": "reloj",
+            "palabra": "seis",
+            "palabra_rotulo": "después,"
+          }
+        },
+        "c5-vieja": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "Muy vieja,",
+              "sin dinero",
+              "para pagar"
+            ],
+            "resalta": 1,
+            "dibujo": "balanza",
+            "palabra_dibujo": "debe"
+          }
+        },
+        "c5-2003": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "El primer Capítulo 11",
+            "fichas": [
+              {
+                "texto": "Marzo de 2003",
+                "dibujo": "calendario",
+                "palabra": "marzo"
+              },
+              {
+                "texto": "Capítulo 11",
+                "dibujo": "documento",
+                "palabra": "Capítulo"
+              },
+              {
+                "texto": "Ley de EE. UU.",
+                "dibujo": "balanza",
+                "palabra": "ley",
+                "resalta": true
+              }
+            ]
+          }
+        },
+        "c5-que-es": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "¿Qué es el",
+              "Capítulo 11?"
+            ],
+            "resalta": 1,
+            "dibujo": "documento",
+            "palabra_dibujo": "Capítulo"
+          }
+        },
+        "c5-como": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "Cómo funciona",
+            "fichas": [
+              {
+                "texto": "Reorganiza sus deudas",
+                "dibujo": "documento",
+                "palabra": "reorganizar"
+              },
+              {
+                "texto": "Sigue operando",
+                "dibujo": "reloj",
+                "palabra": "sigue",
+                "resalta": true
+              }
+            ]
+          }
+        },
+        "c5-acuerdo": {
+          "plantilla": "cadena",
+          "datos": {
+            "eslabones": [
+              {
+                "texto": "Plan",
+                "palabra": "plan"
+              },
+              {
+                "texto": "Acreedores",
+                "palabra": "acreedores"
+              },
+              {
+                "texto": "Tribunal",
+                "palabra": "tribunal"
+              }
+            ],
+            "anios": [
+              "2003"
+            ],
+            "palabra_atras": "aprobarlo",
+            "rotulo_atras": "Capítulo 11, 2003"
+          }
+        },
+        "c5-2004": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "Diciembre de 2004:",
+              "plan confirmado"
+            ],
+            "resalta": 1,
+            "dibujo": "documento",
+            "palabra_dibujo": "plan"
+          }
+        },
+        "c5-17": {
+          "plantilla": "cifra",
+          "datos": {
+            "valor": 17,
+            "antes": "Pasaron",
+            "unidad": "años",
+            "rotulo": "entre el primer y el segundo Capítulo 11",
+            "dibujo": "calendario",
+            "palabra": "Diecisiete",
+            "palabra_rotulo": "después"
+          }
+        },
+        "c5-restricciones": {
+          "plantilla": "mapa",
+          "datos": {
+            "vistas": [
+              {
+                "centro": [
+                  -76,
+                  13
+                ],
+                "ancho": 44
+              }
+            ],
+            "paises": [
+              {
+                "id": "colombia",
+                "color": "acento2",
+                "opacidad": 0.3,
+                "en": 0
+              }
+            ],
+            "rutas": [
+              {
+                "puntos": [
+                  [
+                    -74.07,
+                    4.71
+                  ],
+                  [
+                    -79.5,
+                    9
+                  ]
+                ],
+                "estilo": "discontinua",
+                "color": "alerta",
+                "palabra": "restricciones",
+                "dur": 1
+              },
+              {
+                "puntos": [
+                  [
+                    -74.07,
+                    4.71
+                  ],
+                  [
+                    -66.9,
+                    10.5
+                  ]
+                ],
+                "estilo": "discontinua",
+                "color": "alerta",
+                "palabra": "viaje",
+                "dur": 1
+              },
+              {
+                "puntos": [
+                  [
+                    -74.07,
+                    4.71
+                  ],
+                  [
+                    -78.5,
+                    -0.2
+                  ]
+                ],
+                "estilo": "discontinua",
+                "color": "alerta",
+                "palabra": "covid-19",
+                "dur": 1
+              }
+            ],
+            "marcas": [
+              {
+                "texto": "Bogotá",
+                "lugar": [
+                  -74.07,
+                  4.71
+                ],
+                "lado": "derecha",
+                "palabra": "Con"
+              }
+            ],
+            "cartela": {
+              "titulo": "Viajes restringidos",
+              "sub": "Covid-19, 2020",
+              "en": 0.05
+            }
+          }
+        },
+        "c5-pandemia": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "Durante la pandemia",
+            "fichas": [
+              {
+                "texto": "Pasajeros: suspendido",
+                "dibujo": "reloj",
+                "palabra": "suspendido,",
+                "resalta": true
+              },
+              {
+                "texto": "Vuelos de carga",
+                "dibujo": "tren",
+                "palabra": "carga"
+              },
+              {
+                "texto": "Vuelos humanitarios",
+                "dibujo": "bandera",
+                "palabra": "humanitarios"
+              }
+            ]
+          }
+        },
+        "c5-mayo": {
+          "plantilla": "linea-tiempo",
+          "datos": {
+            "titulo": "Dos veces al borde",
+            "actual": 2,
+            "palabra_actual": "2020,",
+            "hitos": [
+              {
+                "anio": "2003",
+                "texto": "Primer Capítulo 11"
+              },
+              {
+                "anio": "2004",
+                "texto": "Plan de reorganización confirmado"
+              },
+              {
+                "anio": "2020",
+                "texto": "Segundo Capítulo 11"
+              }
+            ]
+          }
+        },
+        "c5-cuantos": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "¿Cuántos años",
+              "tenía ya",
+              "la empresa?"
+            ],
+            "resalta": 2,
+            "dibujo": "reloj",
+            "palabra_dibujo": "años"
+          }
+        },
+        "c5-cien": {
+          "plantilla": "cifra",
+          "datos": {
+            "valor": 100,
+            "unidad": "años",
+            "rotulo": "cumplidos en diciembre de 2019",
+            "dibujo": "calendario",
+            "palabra": "cien",
+            "palabra_rotulo": "centenario"
+          }
+        },
+        "c5-medio": {
+          "plantilla": "linea-tiempo",
+          "datos": {
+            "titulo": "Cerca de año y medio",
+            "actual": 2,
+            "palabra_actual": "medio.",
+            "hitos": [
+              {
+                "anio": "2019",
+                "texto": "Centenario, en diciembre"
+              },
+              {
+                "anio": "2020",
+                "texto": "Segundo Capítulo 11, en mayo"
+              },
+              {
+                "anio": "2021",
+                "texto": "Salida del Capítulo 11, en diciembre"
+              }
+            ]
+          }
+        },
+        "c5-salida": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "Salió del",
+              "Capítulo 11"
+            ],
+            "resalta": 1,
+            "calendario": {
+              "arriba": "Dic",
+              "numero": "1",
+              "abajo": "2021",
+              "lado": "derecha",
+              "palabra": "diciembre",
+              "sello": "Salió",
+              "palabra_sello": "salió"
+            }
+          }
+        },
+        "c5-liquidez": {
+          "plantilla": "cifra",
+          "datos": {
+            "valor": 1000,
+            "moneda": "US$",
+            "unidad": "millones",
+            "antes": "Más de",
+            "rotulo": "de liquidez, según la propia empresa",
+            "palabra": "mil",
+            "palabra_rotulo": "liquidez,"
+          }
+        },
+        "c5-holdings": {
+          "plantilla": "fichas",
+          "datos": {
+            "titulo": "La empresa que salió era distinta",
+            "fichas": [
+              {
+                "texto": "Se va Avianca Holdings",
+                "dibujo": "derrumbe",
+                "palabra": "desapareció"
+              },
+              {
+                "texto": "Nace una nueva matriz",
+                "dibujo": "documento",
+                "palabra": "Holdings",
+                "resalta": true
+              }
+            ]
+          }
+        },
+        "c5-reino": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "Nueva matriz",
+              "en el Reino Unido"
+            ],
+            "resalta": 1,
+            "dibujo": "bandera",
+            "palabra_dibujo": "Reino"
+          }
+        },
+        "c5-repaso-a": {
+          "plantilla": "cadena",
+          "datos": {
+            "eslabones": [
+              {
+                "texto": "Nace SCADTA",
+                "palabra": "nace"
+              },
+              {
+                "texto": "Barranquilla",
+                "palabra": "Barranquilla"
+              }
+            ],
+            "anios": [
+              "1919"
+            ],
+            "palabra_atras": "Barranquilla",
+            "rotulo_atras": "Año 1919"
+          }
+        },
+        "c5-repaso-b": {
+          "plantilla": "linea-tiempo",
+          "datos": {
+            "titulo": "Las fechas",
+            "actual": 2,
+            "palabra_actual": "2003:",
+            "hitos": [
+              {
+                "anio": "1919",
+                "texto": "Nace SCADTA en Barranquilla"
+              },
+              {
+                "anio": "1940",
+                "texto": "Se fusiona y nace Avianca",
+                "palabra": "1940:"
+              },
+              {
+                "anio": "2003",
+                "texto": "Primer Capítulo 11",
+                "palabra": "2003:"
+              }
+            ]
+          }
+        },
+        "c5-repaso-c": {
+          "plantilla": "cifra",
+          "datos": {
+            "titulo": "Las dos últimas fechas",
+            "barras": false,
+            "cifras": [
+              {
+                "cifra": "2020",
+                "rotulo": "El segundo Capítulo 11",
+                "palabra": "2020:"
+              },
+              {
+                "cifra": "2021",
+                "rotulo": "La salida, en diciembre",
+                "palabra": "2021:",
+                "resalta": true
+              }
+            ]
+          }
+        },
+        "c5-leccion-a": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "La lección de",
+              "historia económica"
+            ],
+            "resalta": 1,
+            "dibujo": "pluma",
+            "palabra_dibujo": "lección"
+          }
+        },
+        "c5-leccion-b": {
+          "plantilla": "cadena",
+          "datos": {
+            "eslabones": [
+              {
+                "texto": "Cien años",
+                "palabra": "cien"
+              },
+              {
+                "texto": "Adaptarse",
+                "palabra": "adaptarse"
+              }
+            ],
+            "anios": [
+              "1919",
+              "2019"
+            ],
+            "palabra_atras": "cuando",
+            "rotulo_atras": "Un siglo de cambios"
+          }
+        },
+        "c5-aviso": {
+          "plantilla": "fichas",
+          "datos": {
+            "fichas": [
+              {
+                "texto": "Contenido educativo",
+                "dibujo": "documento",
+                "palabra": "educativo"
+              },
+              {
+                "texto": "No es asesoría financiera",
+                "dibujo": "balanza",
+                "palabra": "asesoría"
+              }
+            ]
+          }
+        },
+        "c5-comentar": {
+          "plantilla": "titular",
+          "datos": {
+            "lineas": [
+              "¿Qué otra empresa",
+              "colombiana",
+              "contamos?"
+            ],
+            "resalta": 2,
+            "insignia": "Respóndelo en los comentarios",
+            "dibujo": "bandera",
+            "palabra_dibujo": "colombiana"
+          }
+        },
+        "c5-parte2": {
+          "plantilla": "cifra",
+          "datos": {
+            "cifra": "2",
+            "contar": false,
+            "antes": "Parte",
+            "rotulo": "Juan Valdez y el café de Colombia",
+            "dibujo": "montana",
+            "palabra": "dos:",
+            "palabra_rotulo": "Juan"
+          }
+        }
+      },
+      "frases": [
+        {
+          "id": "f31",
+          "escena": "c5-seis",
+          "texto": "Más de seis décadas después, la historia dio otro giro. Una empresa puede ser muy vieja y aun así quedarse sin dinero para pagar lo que debe.",
+          "cortes": [
+            {
+              "escena": "c5-vieja",
+              "palabra": 10
+            }
+          ]
+        },
+        {
+          "id": "f32",
+          "escena": "c5-2003",
+          "texto": "En marzo de 2003, Avianca se acogió al Capítulo 11, una figura de la ley de quiebras de Estados Unidos."
+        },
+        {
+          "id": "f33",
+          "escena": "c5-que-es",
+          "texto": "¿Qué es el Capítulo 11? Es un proceso que ayuda a una empresa a reorganizar sus deudas en lugar de cerrar. La empresa sigue operando mientras negocia un plan con sus acreedores, y un tribunal debe aprobarlo.",
+          "cortes": [
+            {
+              "escena": "c5-como",
+              "palabra": 14
+            },
+            {
+              "escena": "c5-acuerdo",
+              "palabra": 27
+            }
+          ]
+        },
+        {
+          "id": "f34",
+          "escena": "c5-2004",
+          "texto": "Los aviones siguieron volando, y en diciembre de 2004 se confirmó el plan de reorganización."
+        },
+        {
+          "id": "f35",
+          "escena": "c5-17",
+          "texto": "Diecisiete años después llegó la segunda vez, y fue por la pandemia. Con las restricciones de viaje de la covid-19, el servicio de pasajeros llevaba semanas suspendido, aunque siguieron los vuelos de carga y los humanitarios.",
+          "cortes": [
+            {
+              "escena": "c5-restricciones",
+              "palabra": 12
+            },
+            {
+              "escena": "c5-pandemia",
+              "palabra": 24
+            }
+          ]
+        },
+        {
+          "id": "f36",
+          "escena": "c5-mayo",
+          "texto": "El diez de mayo de 2020, Avianca volvió al Capítulo 11. Adivina antes de que lo diga: ¿cuántos años tenía ya la empresa?",
+          "cortes": [
+            {
+              "escena": "c5-cuantos",
+              "palabra": 11
+            }
+          ],
+          "interaccion": "adivina",
+          "pausa_despues": 2.5
+        },
+        {
+          "id": "f37",
+          "escena": "c5-cien",
+          "texto": "Tenía cien años: había cumplido su centenario en diciembre de 2019, cinco meses antes.",
+          "interaccion": "revela-cifra"
+        },
+        {
+          "id": "f38",
+          "escena": "c5-medio",
+          "texto": "El proceso duró cerca de año y medio. El primero de diciembre de 2021, Avianca salió del Capítulo 11, con la deuda reducida y más de mil millones de dólares de liquidez, según la propia empresa.",
+          "cortes": [
+            {
+              "escena": "c5-salida",
+              "palabra": 11
+            },
+            {
+              "escena": "c5-liquidez",
+              "palabra": 21
+            }
+          ]
+        },
+        {
+          "id": "f39",
+          "escena": "c5-holdings",
+          "texto": "Y la empresa que salió era distinta: desapareció Avianca Holdings y nació una nueva matriz, con sede en el Reino Unido.",
+          "cortes": [
+            {
+              "escena": "c5-reino",
+              "palabra": 13
+            }
+          ]
+        },
+        {
+          "id": "f40",
+          "escena": "c5-repaso-a",
+          "texto": "Repasemos las fechas. 1919: nace SCADTA en Barranquilla. 1940: se fusiona y nace Avianca. 2003: el primer Capítulo 11. 2020: el segundo. Y diciembre de 2021: la salida.",
+          "cortes": [
+            {
+              "escena": "c5-repaso-b",
+              "palabra": 8
+            },
+            {
+              "escena": "c5-repaso-c",
+              "palabra": 19
+            }
+          ],
+          "interaccion": "repaso"
+        },
+        {
+          "id": "f41",
+          "escena": "c5-leccion-a",
+          "texto": "La lección de historia económica: una empresa nace resolviendo un problema, pero para durar cien años tiene que adaptarse cuando el mundo cambia.",
+          "cortes": [
+            {
+              "escena": "c5-leccion-b",
+              "palabra": 11
+            }
+          ]
+        },
+        {
+          "id": "f42",
+          "escena": "c5-aviso",
+          "texto": "Este video es educativo y no es asesoría financiera."
+        },
+        {
+          "id": "f43",
+          "escena": "c5-comentar",
+          "texto": "¿Qué otra empresa colombiana quieres que contemos en esta serie? Dímelo en los comentarios.",
+          "interaccion": "comentar",
+          "pausa_despues": 1.5
+        },
+        {
+          "id": "f44",
+          "escena": "c5-parte2",
+          "texto": "En la parte dos: Juan Valdez, un personaje inventado y el café de Colombia."
+        }
+      ]
+    }
+  ]
+}

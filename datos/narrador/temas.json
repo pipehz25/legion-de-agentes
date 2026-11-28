@@ -741,14 +741,13 @@
       "angulo": "SCADTA se fundó en Barranquilla en diciembre de 1919 con socios colombianos y alemanes, con hidroaviones sobre el río Magdalena; en 1940, en plena Segunda Guerra Mundial, se fusionó con Servicio Aéreo Colombiano y nació Avianca. La decisión que la hizo crecer: unir el país por aire cuando no había carreteras. Los momentos en que casi quiebra: el capítulo 11 de 2003 y el de mayo de 2020 en la pandemia, del que salió en 2021. Se dice «una de las más antiguas» (el título de la más antigua lo reclaman varias).",
       "formato": "la historia en 3 pasos",
       "tipo": "largo",
-      "estado": "en-produccion",
+      "estado": "guion",
       "serie": {
         "id": "asi-nacieron",
         "parte": 1,
         "de": 4
       },
-      "nota": "2026-11-27: apartado por la PC de Felipe (turno, voz AI33). 2026-11-27: línea nueva de historia económica (PC de Felipe), video largo horizontal de 6 a 7 min. Por verificar en dos fuentes antes del guion. Educativo: sin consejos de inversión ni promesas de ganancia; sin logos ni marcas como elemento gráfico; texto con «Contenido educativo, no es asesoría financiera.»",
-      "pc": "felipe"
+      "nota": "2026-11-27: largo terminado en la PC de Felipe (7:42, voz AI33 Jose, tema mercado). MP4 en %USERPROFILE%DownloadsNarrador-videosdi-aviancadi-avianca.mp4. Primero de la línea de historia económica (D-19)."
     },
     {
       "id": "di-juan-valdez",

@@ -1,0 +1,78 @@
+{
+  "capitulo": "c5",
+  "escenas": {
+    "c5-seis": { "plantilla": "cifra", "datos": { "valor": 6, "antes": "Más de", "unidad": "décadas", "rotulo": "después de la fusión de 1940", "dibujo": "reloj", "palabra": "seis", "palabra_rotulo": "después," } },
+    "c5-vieja": { "plantilla": "titular", "datos": { "lineas": ["Muy vieja,", "sin dinero", "para pagar"], "resalta": 1, "dibujo": "balanza", "palabra_dibujo": "debe" } },
+    "c5-2003": { "plantilla": "fichas", "datos": { "titulo": "El primer Capítulo 11", "fichas": [
+      { "texto": "Marzo de 2003", "dibujo": "calendario", "palabra": "marzo" },
+      { "texto": "Capítulo 11", "dibujo": "documento", "palabra": "Capítulo" },
+      { "texto": "Ley de EE. UU.", "dibujo": "balanza", "palabra": "ley", "resalta": true } ] } },
+    "c5-que-es": { "plantilla": "titular", "datos": { "lineas": ["¿Qué es el", "Capítulo 11?"], "resalta": 1, "dibujo": "documento", "palabra_dibujo": "Capítulo" } },
+    "c5-como": { "plantilla": "fichas", "datos": { "titulo": "Cómo funciona", "fichas": [
+      { "texto": "Reorganiza sus deudas", "dibujo": "documento", "palabra": "reorganizar" },
+      { "texto": "Sigue operando", "dibujo": "reloj", "palabra": "sigue", "resalta": true } ] } },
+    "c5-acuerdo": { "plantilla": "cadena", "datos": { "eslabones": [{ "texto": "Plan", "palabra": "plan" }, { "texto": "Acreedores", "palabra": "acreedores" }, { "texto": "Tribunal", "palabra": "tribunal" }], "anios": ["2003"], "palabra_atras": "aprobarlo", "rotulo_atras": "Capítulo 11, 2003" } },
+    "c5-2004": { "plantilla": "titular", "datos": { "lineas": ["Diciembre de 2004:", "plan confirmado"], "resalta": 1, "dibujo": "documento", "palabra_dibujo": "plan" } },
+    "c5-17": { "plantilla": "cifra", "datos": { "valor": 17, "antes": "Pasaron", "unidad": "años", "rotulo": "entre el primer y el segundo Capítulo 11", "dibujo": "calendario", "palabra": "Diecisiete", "palabra_rotulo": "después" } },
+    "c5-restricciones": { "plantilla": "mapa", "datos": {
+      "vistas": [{ "centro": [-76, 13], "ancho": 44 }],
+      "paises": [{ "id": "colombia", "color": "acento2", "opacidad": 0.3, "en": 0 }],
+      "rutas": [
+        { "puntos": [[-74.07, 4.71], [-79.5, 9.0]], "estilo": "discontinua", "color": "alerta", "palabra": "restricciones", "dur": 1.0 },
+        { "puntos": [[-74.07, 4.71], [-66.9, 10.5]], "estilo": "discontinua", "color": "alerta", "palabra": "viaje", "dur": 1.0 },
+        { "puntos": [[-74.07, 4.71], [-78.5, -0.2]], "estilo": "discontinua", "color": "alerta", "palabra": "covid-19", "dur": 1.0 } ],
+      "marcas": [{ "texto": "Bogotá", "lugar": [-74.07, 4.71], "lado": "derecha", "palabra": "Con" }],
+      "cartela": { "titulo": "Viajes restringidos", "sub": "Covid-19, 2020", "en": 0.05 } } },
+    "c5-pandemia": { "plantilla": "fichas", "datos": { "titulo": "Durante la pandemia", "fichas": [
+      { "texto": "Pasajeros: suspendido", "dibujo": "reloj", "palabra": "suspendido,", "resalta": true },
+      { "texto": "Vuelos de carga", "dibujo": "tren", "palabra": "carga" },
+      { "texto": "Vuelos humanitarios", "dibujo": "bandera", "palabra": "humanitarios" } ] } },
+    "c5-mayo": { "plantilla": "linea-tiempo", "datos": { "titulo": "Dos veces al borde", "actual": 2, "palabra_actual": "2020,", "hitos": [
+      { "anio": "2003", "texto": "Primer Capítulo 11" },
+      { "anio": "2004", "texto": "Plan de reorganización confirmado" },
+      { "anio": "2020", "texto": "Segundo Capítulo 11" } ] } },
+    "c5-cuantos": { "plantilla": "titular", "datos": { "lineas": ["¿Cuántos años", "tenía ya", "la empresa?"], "resalta": 2, "dibujo": "reloj", "palabra_dibujo": "años" } },
+    "c5-cien": { "plantilla": "cifra", "datos": { "valor": 100, "unidad": "años", "rotulo": "cumplidos en diciembre de 2019", "dibujo": "calendario", "palabra": "cien", "palabra_rotulo": "centenario" } },
+    "c5-medio": { "plantilla": "linea-tiempo", "datos": { "titulo": "Cerca de año y medio", "actual": 2, "palabra_actual": "medio.", "hitos": [
+      { "anio": "2019", "texto": "Centenario, en diciembre" },
+      { "anio": "2020", "texto": "Segundo Capítulo 11, en mayo" },
+      { "anio": "2021", "texto": "Salida del Capítulo 11, en diciembre" } ] } },
+    "c5-salida": { "plantilla": "titular", "datos": { "lineas": ["Salió del", "Capítulo 11"], "resalta": 1, "calendario": { "arriba": "Dic", "numero": "1", "abajo": "2021", "lado": "derecha", "palabra": "diciembre", "sello": "Salió", "palabra_sello": "salió" } } },
+    "c5-liquidez": { "plantilla": "cifra", "datos": { "valor": 1000, "moneda": "US$", "unidad": "millones", "antes": "Más de", "rotulo": "de liquidez, según la propia empresa", "palabra": "mil", "palabra_rotulo": "liquidez," } },
+    "c5-holdings": { "plantilla": "fichas", "datos": { "titulo": "La empresa que salió era distinta", "fichas": [
+      { "texto": "Se va Avianca Holdings", "dibujo": "derrumbe", "palabra": "desapareció" },
+      { "texto": "Nace una nueva matriz", "dibujo": "documento", "palabra": "Holdings", "resalta": true } ] } },
+    "c5-reino": { "plantilla": "titular", "datos": { "lineas": ["Nueva matriz", "en el Reino Unido"], "resalta": 1, "dibujo": "bandera", "palabra_dibujo": "Reino" } },
+    "c5-repaso-a": { "plantilla": "cadena", "datos": { "eslabones": [{ "texto": "Nace SCADTA", "palabra": "nace" }, { "texto": "Barranquilla", "palabra": "Barranquilla" }], "anios": ["1919"], "palabra_atras": "Barranquilla", "rotulo_atras": "Año 1919" } },
+    "c5-repaso-b": { "plantilla": "linea-tiempo", "datos": { "titulo": "Las fechas", "actual": 2, "palabra_actual": "2003:", "hitos": [
+      { "anio": "1919", "texto": "Nace SCADTA en Barranquilla" },
+      { "anio": "1940", "texto": "Se fusiona y nace Avianca", "palabra": "1940:" },
+      { "anio": "2003", "texto": "Primer Capítulo 11", "palabra": "2003:" } ] } },
+    "c5-repaso-c": { "plantilla": "cifra", "datos": { "titulo": "Las dos últimas fechas", "barras": false, "cifras": [
+      { "cifra": "2020", "rotulo": "El segundo Capítulo 11", "palabra": "2020:" },
+      { "cifra": "2021", "rotulo": "La salida, en diciembre", "palabra": "2021:", "resalta": true } ] } },
+    "c5-leccion-a": { "plantilla": "titular", "datos": { "lineas": ["La lección de", "historia económica"], "resalta": 1, "dibujo": "pluma", "palabra_dibujo": "lección" } },
+    "c5-leccion-b": { "plantilla": "cadena", "datos": { "eslabones": [{ "texto": "Cien años", "palabra": "cien" }, { "texto": "Adaptarse", "palabra": "adaptarse" }], "anios": ["1919", "2019"], "palabra_atras": "cuando", "rotulo_atras": "Un siglo de cambios" } },
+    "c5-aviso": { "plantilla": "fichas", "datos": { "fichas": [
+      { "texto": "Contenido educativo", "dibujo": "documento", "palabra": "educativo" },
+      { "texto": "No es asesoría financiera", "dibujo": "balanza", "palabra": "asesoría" } ] } },
+    "c5-comentar": { "plantilla": "titular", "datos": { "lineas": ["¿Qué otra empresa", "colombiana", "contamos?"], "resalta": 2, "insignia": "Respóndelo en los comentarios", "dibujo": "bandera", "palabra_dibujo": "colombiana" } },
+    "c5-parte2": { "plantilla": "cifra", "datos": { "cifra": "2", "contar": false, "antes": "Parte", "rotulo": "Juan Valdez y el café de Colombia", "dibujo": "montana", "palabra": "dos:", "palabra_rotulo": "Juan" } }
+  },
+  "frases": [
+    { "id": "f31", "escena": "c5-seis", "cortes": [{ "escena": "c5-vieja", "palabra": 10 }] },
+    { "id": "f32", "escena": "c5-2003" },
+    { "id": "f33", "escena": "c5-que-es", "cortes": [{ "escena": "c5-como", "palabra": 14 }, { "escena": "c5-acuerdo", "palabra": 27 }] },
+    { "id": "f34", "escena": "c5-2004" },
+    { "id": "f35", "escena": "c5-17", "cortes": [{ "escena": "c5-restricciones", "palabra": 12 }, { "escena": "c5-pandemia", "palabra": 24 }] },
+    { "id": "f36", "escena": "c5-mayo", "cortes": [{ "escena": "c5-cuantos", "palabra": 11 }] },
+    { "id": "f37", "escena": "c5-cien" },
+    { "id": "f38", "escena": "c5-medio", "cortes": [{ "escena": "c5-salida", "palabra": 11 }, { "escena": "c5-liquidez", "palabra": 21 }] },
+    { "id": "f39", "escena": "c5-holdings", "cortes": [{ "escena": "c5-reino", "palabra": 13 }] },
+    { "id": "f40", "escena": "c5-repaso-a", "cortes": [{ "escena": "c5-repaso-b", "palabra": 8 }, { "escena": "c5-repaso-c", "palabra": 19 }] },
+    { "id": "f41", "escena": "c5-leccion-a", "cortes": [{ "escena": "c5-leccion-b", "palabra": 11 }] },
+    { "id": "f42", "escena": "c5-aviso" },
+    { "id": "f43", "escena": "c5-comentar" },
+    { "id": "f44", "escena": "c5-parte2" }
+  ]
+}

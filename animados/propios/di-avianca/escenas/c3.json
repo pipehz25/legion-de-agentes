@@ -1,0 +1,22 @@
+{
+  "capitulo": "c3",
+  "escenas": {
+    "c3-no-basta": { "plantilla": "titular", "datos": { "lineas": ["Aviones solos", "no bastan"], "resalta": 1, "dibujo": "bandera", "palabra_dibujo": "basta." } },
+    "c3-gastos": { "plantilla": "cadena", "datos": { "eslabones": [ { "texto": "Combustible", "palabra": "combustible," }, { "texto": "Pilotos", "palabra": "pilotos" }, { "texto": "Repuestos", "palabra": "repuestos." } ] } },
+    "c3-historia": { "plantilla": "linea-tiempo", "datos": { "titulo": "SCADTA, los primeros años", "actual": 3, "palabra_actual": "1922", "hitos": [ { "anio": "1919", "texto": "Nace SCADTA en Barranquilla" }, { "anio": "1920", "texto": "Llegan los hidroaviones" }, { "anio": "1921", "texto": "Von Bauer empieza a invertir" }, { "anio": "1922", "texto": "Contrato del correo nacional" } ] } },
+    "c3-constantes": { "plantilla": "titular", "datos": { "lineas": ["Ingresos", "constantes"], "resalta": 1, "calendario": { "arriba": "Cada", "numero": "1", "abajo": "mes", "lado": "derecha", "palabra": "constantes." } } },
+    "c3-calma": { "plantilla": "fichas", "datos": { "titulo": "Cuando un cliente paga", "fichas": [ { "texto": "Pago regular", "dibujo": "calendario", "palabra": "regular," }, { "texto": "Planear con calma", "dibujo": "reloj", "palabra": "planear", "resalta": true } ] } },
+    "c3-vonbauer": { "plantilla": "personaje", "datos": { "personaje": "vonbauer", "anios": "Desde 1921", "rol": "Industrial austriaco, accionista principal", "palabra_rol": "industrial" } },
+    "c3-1921": { "plantilla": "cifra", "datos": { "cifra": "1921", "contar": false, "antes": "Desde", "rotulo": "invierte hasta ser accionista principal", "dibujo": "calendario", "palabra": "1921", "palabra_rotulo": "invertir" } },
+    "c3-pregunta": { "plantilla": "titular", "datos": { "lineas": ["Piensa en una", "empresa nueva"], "resalta": 1, "dibujo": "documento", "palabra_dibujo": "empresa" } },
+    "c3-que-pesa": { "plantilla": "fichas", "datos": { "titulo": "¿Qué pesa más?", "fichas": [ { "texto": "Una buena idea", "dibujo": "pluma", "palabra": "idea" }, { "texto": "Quién te pague", "dibujo": "balanza", "palabra": "quién" } ] } },
+    "c3-circulo": { "plantilla": "cadena", "datos": { "eslabones": [ { "texto": "Correo", "palabra": "correo" }, { "texto": "Vuelos", "palabra": "vuelos," }, { "texto": "Rutas", "palabra": "abrían" } ] } }
+  },
+  "frases": [
+    { "id": "f20", "escena": "c3-no-basta", "cortes": [ { "escena": "c3-gastos", "palabra": 8 } ] },
+    { "id": "f21", "escena": "c3-historia", "cortes": [ { "escena": "c3-constantes", "palabra": 15 }, { "escena": "c3-calma", "palabra": 26 } ] },
+    { "id": "f22", "escena": "c3-vonbauer", "cortes": [ { "escena": "c3-1921", "palabra": 12 } ] },
+    { "id": "f23", "escena": "c3-pregunta", "cortes": [ { "escena": "c3-que-pesa", "palabra": 8 } ] },
+    { "id": "f24", "escena": "c3-circulo" }
+  ]
+}

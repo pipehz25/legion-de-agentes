@@ -1,0 +1,34 @@
+{
+  "capitulo": "c1",
+  "escenas": {
+    "c1-mapa-colombia": { "plantilla": "mapa", "datos": {
+      "vistas": [ { "centro": [-74, 6.5], "ancho": 22 } ],
+      "paises": [ { "id": "colombia", "color": "acento2", "opacidad": 0.3, "en": 0 } ],
+      "montes": { "puntos": [[-77.2, 1.8], [-76.4, 3.6], [-75.6, 5.6], [-74.4, 7.6], [-73.2, 9.2]], "tam": 60, "en": 0.5 },
+      "rutas": [ { "puntos": [[-74.85, 11.1], [-74.9, 10.3], [-74.7, 9.2], [-74.5, 8.3], [-74.4, 6.6], [-74.7, 5.3], [-74.8, 4.3], [-75.2, 3.0]], "estilo": "canal", "grosor": 10, "en": 0.45, "dur": 1.6 } ],
+      "marcas": [ { "texto": "Barranquilla", "lugar": [-74.8, 10.96], "lado": "derecha", "tam": 34, "palabra": "Caribe" }, { "texto": "Bogotá", "lugar": "bogota", "lado": "derecha", "tam": 34, "palabra": "interior" } ],
+      "rotulos": [ { "texto": "Mar Caribe", "lugar": [-77.2, 12.2], "estilo": "mar", "tam": 34, "en": 0 }, { "texto": "Río Magdalena", "lugar": [-73.2, 7.2], "estilo": "rio", "tam": 32, "en": 0.9 } ],
+      "cartela": { "titulo": "Colombia, 1919", "sub": "Montañas, selva y un río enorme" } } },
+    "c1-pais-dificil": { "plantilla": "fichas", "datos": { "titulo": "Un país difícil", "fichas": [ { "texto": "Montañas", "dibujo": "montana", "palabra": "montañas," }, { "texto": "Selva", "dibujo": "lluvia", "palabra": "selva" }, { "texto": "Un río enorme", "dibujo": "barco", "palabra": "enorme:", "resalta": true } ] } },
+    "c1-rio-lento": { "plantilla": "titular", "datos": { "lineas": ["El río: útil,", "pero muy lento"], "resalta": 1, "dibujo": "barco", "palabra_dibujo": "río" } },
+    "c1-vias": { "plantilla": "fichas", "datos": { "titulo": "Por tierra", "fichas": [ { "texto": "Vías precarias", "dibujo": "derrumbe", "palabra": "vías" }, { "texto": "Casi sin pistas", "dibujo": "montana", "palabra": "pistas", "resalta": true } ] } },
+    "c1-mapa-barranquilla": { "plantilla": "mapa", "datos": {
+      "vistas": [ { "caja": [-76.2, 11.9, -73.4, 10.1] } ],
+      "paises": [ { "id": "colombia", "color": "acento2", "opacidad": 0.3, "en": 0 } ],
+      "rutas": [ { "puntos": [[-74.9, 10.2], [-74.75, 10.6], [-74.8, 11.0], [-74.85, 11.1]], "estilo": "canal", "grosor": 10, "palabra": "desembocadura", "dur": 1.2 } ],
+      "marcas": [ { "texto": "Barranquilla", "lugar": [-74.8, 10.96], "lado": "derecha", "tam": 44, "palabra": "Barranquilla," } ],
+      "rotulos": [ { "texto": "Mar Caribe", "lugar": [-75.5, 11.6], "estilo": "mar", "tam": 40, "en": 0 }, { "texto": "Río Magdalena", "lugar": [-74.3, 10.35], "estilo": "rio", "tam": 34, "palabra": "río," } ],
+      "cartela": { "titulo": "Barranquilla, 1919", "sub": "La ciudad comercial más importante", "palabra": "ciudad" } } },
+    "c1-semana": { "plantilla": "titular", "datos": { "lineas": ["Cada semana", "de espera:", "dinero perdido"], "resalta": 2, "calendario": { "arriba": "Una", "numero": "1", "abajo": "semana", "lado": "derecha", "palabra": "semana" } } },
+    "c1-comerciante": { "plantilla": "personaje", "datos": { "nombre": "Un comerciante", "anios": "Barranquilla, 1919", "rol": "Cada carta tarda semanas", "peinado": "raya", "barba": "bigote", "ropa": "#2b3a4a", "detalle": "#c9a256", "corbata": "#e8e4d8", "cuello": "corbata", "sombrero": "canotier", "expresion": "pensativo", "pose": "pensar", "palabra_anios": "Si", "palabra_rol": "fueras" } },
+    "c1-pregunta": { "plantilla": "titular", "datos": { "lineas": ["Una carta:", "¿horas o semanas?"], "resalta": 1, "insignia": "Piénsalo", "dibujo": "reloj", "palabra_dibujo": "horas" } },
+    "c1-alas": { "plantilla": "recorte", "datos": { "foto": "File:Hangar SCADTA 1922 (51312094238).jpg", "pie": "Hangar de SCADTA en Veranillo (1922)", "insignia": "Desde Alemania", "titulo": "Y tenía alas", "texto": "Aviones de metal, de Alemania", "palabras": { "titulo": "alas.", "texto": "Alemania," } } }
+  },
+  "frases": [
+    { "id": "f6", "escena": "c1-mapa-colombia", "cortes": [ { "escena": "c1-pais-dificil", "palabra": 13 } ] },
+    { "id": "f7", "escena": "c1-rio-lento", "cortes": [ { "escena": "c1-vias", "palabra": 9 } ] },
+    { "id": "f8", "escena": "c1-mapa-barranquilla", "cortes": [ { "escena": "c1-semana", "palabra": 15 } ] },
+    { "id": "f9", "escena": "c1-comerciante", "cortes": [ { "escena": "c1-pregunta", "palabra": 6 } ] },
+    { "id": "f10", "escena": "c1-alas" }
+  ]
+}

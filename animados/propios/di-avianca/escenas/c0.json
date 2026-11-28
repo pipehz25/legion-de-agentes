@@ -1,0 +1,19 @@
+{
+  "capitulo": "c0",
+  "escenas": {
+    "c0-pregunta": { "plantilla": "titular", "datos": { "lineas": ["¿Cómo nace", "una aerolínea?"], "resalta": 1, "insignia": "Así nacieron · Avianca", "dibujo": "reloj", "palabra_dibujo": "nace" } },
+    "c0-cien": { "plantilla": "cifra", "datos": { "valor": 100, "antes": "más de", "unidad": "años", "rotulo": "volando. ¿Cómo lo logró?", "dibujo": "reloj", "palabra": "cien", "palabra_rotulo": "sobrevive" } },
+    "c0-serie": { "plantilla": "titular", "datos": { "lineas": ["Así nacieron", "Parte 1"], "resalta": 1, "calendario": { "arriba": "Serie", "numero": "1", "abajo": "Parte", "lado": "derecha", "palabra": "uno" } } },
+    "c0-partes": { "plantilla": "fichas", "datos": { "titulo": "En cada parte veremos", "fichas": [ { "texto": "El problema", "dibujo": "montana", "palabra": "problema" }, { "texto": "La decisión", "dibujo": "pluma", "palabra": "decisión" }, { "texto": "Lo que casi la hunde", "dibujo": "derrumbe", "palabra": "hunde", "resalta": true } ] } },
+    "c0-regla": { "plantilla": "cita", "datos": { "texto": "Cada vez que oigas una pregunta, respóndela en voz alta", "autor": "La regla del video", "fuente": "Aunque nadie te escuche" } },
+    "c0-juegos": { "plantilla": "fichas", "datos": { "titulo": "Esto vas a encontrar", "fichas": [ { "texto": "Adivinanzas", "dibujo": "documento", "palabra": "adivinanzas" }, { "texto": "¿Mito o realidad?", "dibujo": "balanza", "palabra": "mito" }, { "texto": "Una cifra tras la pausa", "dibujo": "reloj", "palabra": "cifra", "resalta": true } ] } },
+    "c0-fechas": { "plantilla": "linea-tiempo", "datos": { "titulo": "Guarda cuatro fechas", "hitos": [ { "anio": "1919", "texto": "Fecha uno", "palabra": "1919" }, { "anio": "1940", "texto": "Fecha dos", "palabra": "1940" }, { "anio": "2003", "texto": "Fecha tres", "palabra": "2003" }, { "anio": "2020", "texto": "Fecha cuatro", "palabra": "2020" } ] } }
+  },
+  "frases": [
+    { "id": "f1", "escena": "c0-pregunta", "cortes": [ { "escena": "c0-cien", "palabra": 12 } ] },
+    { "id": "f2", "escena": "c0-serie", "cortes": [ { "escena": "c0-partes", "palabra": 14 } ] },
+    { "id": "f3", "escena": "c0-regla" },
+    { "id": "f4", "escena": "c0-juegos" },
+    { "id": "f5", "escena": "c0-fechas" }
+  ]
+}

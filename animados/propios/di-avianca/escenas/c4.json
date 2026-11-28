@@ -1,0 +1,38 @@
+{
+  "capitulo": "c4",
+  "escenas": {
+    "c4-veinte": { "plantilla": "titular", "datos": { "lineas": ["Más de veinte años", "después"], "resalta": 1, "dibujo": "reloj", "palabra_dibujo": "años" } },
+    "c4-presion": { "plantilla": "mapa", "datos": {
+      "vistas": [{ "centro": [-76, 16], "ancho": 44 }],
+      "paises": [{ "id": "colombia", "color": "acento2", "opacidad": 0.35, "en": 0 }],
+      "banderas": [{ "pais": "eeuu", "lugar": [-76.5, 22.9], "palabra": "Estados" }],
+      "rutas": [{ "puntos": [[-76.5, 21.8], [-74.9, 11.3]], "estilo": "flecha", "color": "alerta", "palabra": "quería", "dur": 1.2 }],
+      "marcas": [{ "texto": "Barranquilla", "lugar": [-74.8, 11.0], "lado": "derecha", "palabra": "SCADTA" }],
+      "cartela": { "titulo": "Guerra y presión", "sub": "EE. UU. quería menos influencia alemana", "en": 0.05 } } },
+    "c4-vonbauer": { "plantilla": "personaje", "datos": { "personaje": "vonbauer", "pose": "brazos-cruzados", "anios": "Desde 1921", "rol": "Industrial austriaco y accionista principal de SCADTA", "palabra_rol": "acciones" } },
+    "c4-venta": { "plantilla": "fichas", "datos": { "titulo": "La propiedad cambió de manos", "fichas": [
+      { "texto": "Vende Von Bauer", "dibujo": "documento", "en": 0.05 },
+      { "texto": "Compra Pan American", "dibujo": "bandera", "palabra": "American", "resalta": true } ] } },
+    "c4-fusion-fecha": { "plantilla": "titular", "datos": { "lineas": ["Se fusionan", "en Barranquilla"], "resalta": 1, "calendario": { "arriba": "Jun", "numero": "14", "abajo": "1940", "lado": "derecha", "palabra": "catorce" } } },
+    "c4-fusion": { "plantilla": "cadena", "datos": { "eslabones": [{ "texto": "SCADTA", "palabra": "fusionó" }, { "texto": "SACO", "palabra": "Servicio" }], "anios": ["1919", "1940"], "palabra_atras": "conocido", "rotulo_atras": "Dos empresas, una" } },
+    "c4-nombre": { "plantilla": "titular", "datos": { "lineas": ["Aerovías", "Nacionales", "de Colombia"], "resalta": 2, "insignia": "Siglas: AVIANCA", "dibujo": "documento", "palabra_dibujo": "siglas" } },
+    "c4-votar": { "plantilla": "fichas", "datos": { "titulo": "«Avianca es la más antigua del mundo»", "fichas": [
+      { "texto": "Mito", "dibujo": "balanza", "palabra": "Mito" },
+      { "texto": "Realidad", "dibujo": "reloj", "palabra": "realidad" } ] } },
+    "c4-veredicto": { "plantilla": "cifra", "datos": { "cifra": "Mito", "contar": false, "rotulo": "Una de las más antiguas, no la más antigua", "dibujo": "calendario", "palabra": "Mito", "palabra_rotulo": "antiguas," } },
+    "c4-orden": { "plantilla": "titular", "datos": { "lineas": ["El orden cambia", "según cómo cuentes"], "resalta": 1, "dibujo": "balanza", "palabra_dibujo": "orden" } },
+    "c4-criterios": { "plantilla": "fichas", "datos": { "titulo": "Tres formas de contar", "fichas": [
+      { "texto": "El primer vuelo", "dibujo": "barco", "en": 0.03 },
+      { "texto": "El nombre actual", "dibujo": "documento", "palabra": "nombre" },
+      { "texto": "La empresa anterior", "dibujo": "pluma", "palabra": "empresa" },
+      { "texto": "KLM nació en 1919", "dibujo": "reloj", "palabra": "KLM", "resalta": true } ] } }
+  },
+  "frases": [
+    { "id": "f25", "escena": "c4-veinte", "cortes": [{ "escena": "c4-presion", "palabra": 11 }] },
+    { "id": "f26", "escena": "c4-vonbauer", "cortes": [{ "escena": "c4-venta", "palabra": 13 }] },
+    { "id": "f27", "escena": "c4-fusion-fecha", "cortes": [{ "escena": "c4-fusion", "palabra": 10 }] },
+    { "id": "f28", "escena": "c4-nombre" },
+    { "id": "f29", "escena": "c4-votar" },
+    { "id": "f30", "escena": "c4-veredicto", "cortes": [{ "escena": "c4-orden", "palabra": 16 }, { "escena": "c4-criterios", "palabra": 27 }] }
+  ]
+}
