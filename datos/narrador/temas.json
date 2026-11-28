@@ -1,6 +1,6 @@
 {
   "_info": "Banco de temas del Narrador. estado: pendiente | guion (guion escrito, sin producir) | esperando-grabacion | revision-medica | hecho | descartado. Son ideas de partida: cada dato se verifica en dos fuentes antes de escribir el guion (animados/contenido/NARRADOR.md §4). Para agregar: /narrador temas <nicho> [n].",
-  "actualizado": "2026-11-26",
+  "actualizado": "2026-11-27",
   "series": [
     {
       "id": "pandemias",
@@ -20,6 +20,18 @@
         "hi-florero",
         "hi-boyaca",
         "hi-gran-colombia"
+      ]
+    },
+    {
+      "id": "origen",
+      "titulo": "¿Cómo se creó el mundo?",
+      "nicho": "ciencia",
+      "partes": [
+        "ci-big-bang",
+        "ci-estrellas",
+        "ci-tierra",
+        "ci-luna",
+        "ci-vida"
       ]
     }
   ],
@@ -411,6 +423,126 @@
       "estado": "guion",
       "guion": "animados/propios/hi-buritica/guion.json",
       "nota": "2026-11-23: guion de video largo corto e interactivo (horizontal, 6 a 7 min, c0 + 5 capitulos, 38 frases, voz eleven_flash_v2_5, tema archivo con fondo dorado, 4 imagenes de Commons verificadas por la API, 16 fuentes). Cada momento de participacion lleva el campo interaccion. Sin escenas y sin voz generada. Siglos XIX y XX en Buriticá: fuentes escasas y contradictorias, el guion lo dice."
+    },
+    {
+      "id": "ci-big-bang",
+      "nicho": "ciencia",
+      "pregunta": "¿Cómo sabemos que hubo un Big Bang?",
+      "angulo": "Consenso: el universo tiene unos 13.800 millones de años y no explotó desde un punto, sino que el espacio entero se expande. Tres pruebas: las galaxias se alejan (Lemaître 1927, Hubble 1929), la radiación de fondo de microondas (Penzias y Wilson, 1965) y la proporción de hidrógeno y helio que predice la teoría. Se discute, y se dice como discusión: la inflación del primer instante, qué hubo «antes» (si la pregunta tiene sentido) y la «tensión de Hubble», que da dos velocidades de expansión distintas según cómo se mida.",
+      "formato": "la historia en 3 pasos",
+      "tipo": "largo",
+      "estado": "pendiente",
+      "serie": {
+        "id": "origen",
+        "parte": 1,
+        "de": 5
+      },
+      "nota": "2026-11-27: serie «¿Cómo se creó el mundo?» para CurioSismo (video largo horizontal, 6 a 7 min). Cifras de partida por verificar en dos fuentes antes del guion."
+    },
+    {
+      "id": "ci-estrellas",
+      "nicho": "ciencia",
+      "pregunta": "¿De verdad somos polvo de estrellas?",
+      "angulo": "Consenso: del Big Bang salieron casi solo hidrógeno y helio (y una pizca de litio); el carbono, el oxígeno y el calcio de tu cuerpo se fabricaron dentro de estrellas, y el hierro es el límite de esa fusión. Los elementos más pesados, como el oro, salen de explosiones de supernova y de choques de estrellas de neutrones (la kilonova observada en 2017, GW170817). Ojo: el hidrógeno de tu cuerpo viene directo del Big Bang, así que eres «casi todo» polvo de estrellas. Se discute: cuándo se encendieron las primeras estrellas (el telescopio James Webb mueve la fecha) y cuánto oro aporta cada origen.",
+      "formato": "dato que no sabías",
+      "tipo": "largo",
+      "estado": "pendiente",
+      "serie": {
+        "id": "origen",
+        "parte": 2,
+        "de": 5
+      },
+      "nota": "2026-11-27: serie «¿Cómo se creó el mundo?» para CurioSismo (video largo horizontal, 6 a 7 min). Cifras de partida por verificar en dos fuentes antes del guion."
+    },
+    {
+      "id": "ci-tierra",
+      "nicho": "ciencia",
+      "pregunta": "¿Cómo se formó la Tierra?",
+      "angulo": "Consenso: hace unos 4.540 millones de años (edad sacada de meteoritos y rocas, con un margen de decenas de millones), a partir del disco de gas y polvo que giraba alrededor del Sol joven: granos que se pegan, rocas, planetesimales y choques que la calentaron hasta que el hierro se hundió al núcleo. Los cristales de circón de Jack Hills (Australia), de unos 4.400 millones de años, son lo más viejo que tenemos de ella. Se discute: de dónde salió el agua (asteroides, cometas o la propia Tierra) y si hubo un «bombardeo intenso tardío».",
+      "formato": "la historia en 3 pasos",
+      "tipo": "largo",
+      "estado": "pendiente",
+      "serie": {
+        "id": "origen",
+        "parte": 3,
+        "de": 5
+      },
+      "nota": "2026-11-27: serie «¿Cómo se creó el mundo?» para CurioSismo (video largo horizontal, 6 a 7 min). Cifras de partida por verificar en dos fuentes antes del guion."
+    },
+    {
+      "id": "ci-luna",
+      "nicho": "ciencia",
+      "pregunta": "¿De dónde salió la Luna?",
+      "angulo": "Consenso: la hipótesis del gran impacto. Un cuerpo del tamaño aproximado de Marte (llamado Tea) chocó con la Tierra joven hace unos 4.500 millones de años y los restos formaron la Luna. Pruebas: las rocas de las misiones Apolo, una Luna con poco hierro y núcleo pequeño, y una composición casi idéntica a la de la Tierra. Mito: que la Luna se arrancó del océano Pacífico (la idea de fisión de George Darwin, descartada). Se discute: por qué la Luna se parece tanto a la Tierra si Tea era otro mundo (impacto más violento, «sinestia», varios choques) y si quedan restos de Tea en el manto terrestre (estudio de 2023, aún en debate).",
+      "formato": "mito o realidad",
+      "tipo": "largo",
+      "estado": "pendiente",
+      "serie": {
+        "id": "origen",
+        "parte": 4,
+        "de": 5
+      },
+      "nota": "2026-11-27: serie «¿Cómo se creó el mundo?» para CurioSismo (video largo horizontal, 6 a 7 min). Cifras de partida por verificar en dos fuentes antes del guion."
+    },
+    {
+      "id": "ci-vida",
+      "nicho": "ciencia",
+      "pregunta": "¿Cómo empezó la vida en la Tierra?",
+      "angulo": "Lo seguro: hay rastros de vida microbiana de al menos unos 3.500 millones de años (estromatolitos y microfósiles; los de 3.700 millones en Groenlandia se discuten) y el experimento de Miller y Urey (1952-1953) mostró que los aminoácidos se forman solos con química sencilla. Lo abierto, dicho como pregunta abierta de verdad: cómo se pasó de química a vida. Hipótesis principales: el «mundo de ARN», las fuentes hidrotermales del fondo del mar o charcas tibias en tierra firme. Nadie ha creado vida desde cero en un laboratorio.",
+      "formato": "la historia en 3 pasos",
+      "tipo": "largo",
+      "estado": "pendiente",
+      "serie": {
+        "id": "origen",
+        "parte": 5,
+        "de": 5
+      },
+      "nota": "2026-11-27: serie «¿Cómo se creó el mundo?» para CurioSismo (video largo horizontal, 6 a 7 min). Cifras de partida por verificar en dos fuentes antes del guion."
+    },
+    {
+      "id": "ci-materia-oscura",
+      "nicho": "ciencia",
+      "pregunta": "¿De qué está hecha casi toda la materia del universo?",
+      "angulo": "Materia oscura: cerca del 85 % de la materia no brilla ni se ha detectado directamente, pero su gravedad se nota (Zwicky y los cúmulos, 1933; Vera Rubin y la rotación de las galaxias, años 70; lentes gravitacionales y el cúmulo Bala). Misterio abierto: qué partícula es; los detectores no la han encontrado. Hay teorías alternativas de gravedad modificada (MOND), minoritarias, y se dicen como tales.",
+      "formato": "dato que no sabías",
+      "estado": "pendiente",
+      "nota": "2026-11-27: misterio científico abierto, para CurioSismo. Por verificar en dos fuentes antes del guion."
+    },
+    {
+      "id": "ci-energia-oscura",
+      "nicho": "ciencia",
+      "pregunta": "¿Por qué el universo se expande cada vez más rápido?",
+      "angulo": "En 1998 dos equipos midieron supernovas lejanas y descubrieron que la expansión se acelera (Nobel de Física 2011). A la causa la llaman «energía oscura», cerca del 70 % del contenido del universo, y nadie sabe qué es. Los datos del proyecto DESI (2024-2025) sugieren que podría ir cambiando con el tiempo: se dice como indicio en discusión, no como descubrimiento.",
+      "formato": "dato que no sabías",
+      "estado": "pendiente",
+      "nota": "2026-11-27: misterio científico abierto, para CurioSismo. Por verificar en dos fuentes antes del guion."
+    },
+    {
+      "id": "ci-bostezo",
+      "nicho": "ciencia",
+      "pregunta": "¿Por qué bostezamos?",
+      "angulo": "Nadie lo sabe con certeza. Mito: que bostezamos por falta de oxígeno (Provine lo puso a prueba en 1987 y respirar más oxígeno no cambió los bostezos). Las ideas con más estudios: enfriar el cerebro y una señal social, porque se contagia. Se dicen las dos como «se cree» (límite del nicho). Sin consejos de salud.",
+      "formato": "mito o realidad",
+      "estado": "pendiente",
+      "nota": "2026-11-27: misterio científico abierto, para CurioSismo. Por verificar en dos fuentes antes del guion."
+    },
+    {
+      "id": "ci-anguilas",
+      "nicho": "ciencia",
+      "pregunta": "¿Por qué nadie ha visto a las anguilas reproducirse?",
+      "angulo": "La anguila europea viaja miles de kilómetros hasta el mar de los Sargazos para desovar: lo dedujo Johannes Schmidt en los años 20 porque allí halló las larvas más pequeñas. Pero nadie ha visto nunca a una anguila adulta reproducirse en libertad ni ha encontrado sus huevos en el mar; el rastreo con satélite (2022) siguió a algunas hasta la zona. Misterio abierto de la biología marina, desde Aristóteles.",
+      "formato": "dato que no sabías",
+      "estado": "pendiente",
+      "nota": "2026-11-27: misterio científico abierto, para CurioSismo. Por verificar en dos fuentes antes del guion."
+    },
+    {
+      "id": "ci-rayo-globular",
+      "nicho": "ciencia",
+      "pregunta": "¿Existen las bolas de fuego que salen de los rayos?",
+      "angulo": "El rayo globular: esferas brillantes que flotan unos segundos durante tormentas. Hubo siglos de testimonios y casi ninguna medición, hasta que en 2012 científicos chinos grabaron por casualidad su espectro (publicado en 2014), con elementos del suelo. Existe, pero no hay explicación aceptada: la hipótesis del suelo vaporizado y otras se dicen como hipótesis. Nada de explicaciones sobrenaturales.",
+      "formato": "mito o realidad",
+      "estado": "pendiente",
+      "nota": "2026-11-27: misterio científico abierto, para CurioSismo. Por verificar en dos fuentes antes del guion."
     }
   ]
 }
