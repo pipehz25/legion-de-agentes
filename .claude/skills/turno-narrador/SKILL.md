@@ -10,15 +10,16 @@ Actúas como orquestador: el trabajo pesado lo hacen subagentes. Anota la hora d
 ## 0. Preparar
 1. `git pull --rebase --autostash`.
 2. Cuántos videos: el número de `$ARGUMENTS` (por defecto 1, máximo 3 por turno). Si trae ids, son esos temas.
+3. **Línea de esta PC (D-17):** lee `narrador.local.json` en la raíz del proyecto (no viaja por GitHub). Dice el `pc` (el nombre con que aparta temas), los `nichos` que produce, el `tema` visual y la voz (`motor`, `voz`, `modelo_voz`). Si no existe, esta PC hace historia: `{"pc": "<nombre del equipo>", "nichos": ["historia"], "tema": "archivo", "motor": "elevenlabs", "voz": "C12mZePhNoo0RoTXhSFV", "modelo_voz": "eleven_flash_v2_5"}`. Cada PC hace solo sus nichos, para que los dos canales no se parezcan.
 
 ## 1. Retomar lo que quedó a medias
 Antes de empezar temas nuevos, busca en `animados/propios/*/guion.json` los que tengan `"tipo": "largo"` y `"orientacion": "horizontal"` y no tengan MP4 en `salidas/narrador/<id>/<id>.mp4`, y continúa cada uno desde el paso que le falte (2, 3, 4 o 5). Cuentan dentro del número de videos del turno.
 - **Solo lo de esta PC:** retoma únicamente los temas que en `temas.json` estén `en-produccion` con el `"pc"` de esta PC. Los que otra PC ya terminó (`guion` con nota de su MP4) aquí no tienen MP4 (los MP4 no viajan por GitHub) ni voz en la caché (`animados/.voz-cache/` tampoco viaja): retomarlos rehace el video y vuelve a pagar toda la voz.
 
 ## 2. Guion (si no existe)
-- Tema: el siguiente `pendiente` de `datos/narrador/temas.json`, solo del nicho `historia` (el único con plantillas horizontales probadas; los demás nichos esperan a que se prueben sus estilos). Respeta el orden de las series.
+- Tema: el siguiente `pendiente` de `datos/narrador/temas.json` de los `nichos` de esta PC (paso 0.3). Respeta el orden de las series.
 - **Dos PCs:** si el turno corre en más de una PC, apártalo antes de escribir nada: pon el tema en `"estado": "en-produccion"` con `"pc": "<nombre de esta PC>"`, haz commit y push de `datos/narrador/temas.json` y solo entonces sigue. Si el push choca, `git pull --rebase --autostash`, vuelve a mirar y toma otro tema si ya lo apartaron. Nunca tomes un tema `en-produccion` de otra PC.
-- Lanza Agent `subagent_type: narrador`, prompt: `Encargo: largo <id>. Sigue tu procedimiento.` Si haces varios videos a la vez, lanza los guiones en el mismo mensaje y agrega al prompt `Otro agente trabaja en paralelo: no edites temas.json.`; luego actualízalo tú.
+- Lanza Agent `subagent_type: narrador`, prompt: `Encargo: largo <id>. Sigue tu procedimiento. Tema visual: <tema>. Voz: motor <motor>, voz <voz>, modelo_voz <modelo_voz>.` (los de `narrador.local.json`). Si haces varios videos a la vez, lanza los guiones en el mismo mensaje y agrega al prompt `Otro agente trabaja en paralelo: no edites temas.json.`; luego actualízalo tú.
 
 ## 3. Voz (una sola vez)
 1. Revisa que el guion no tenga BOM ni acentos rotos (`Ã`, `Â`). Si los tiene, arréglalo antes de pagar voz.

@@ -29,6 +29,9 @@ espacios/*/datos/publicador/envios/*.enviando
 # En que espacio trabaja esta PC: cada PC tiene el suyo
 espacio.local.json
 
+# Que nichos, tema visual y voz produce el Narrador en esta PC (D-17)
+narrador.local.json
+
 # Configuracion personal de Claude Code
 .claude/settings.local.json
 
