@@ -44,6 +44,17 @@
         "su-guaviare",
         "su-armero"
       ]
+    },
+    {
+      "id": "asi-nacieron",
+      "titulo": "Así nacieron",
+      "nicho": "dinero",
+      "partes": [
+        "di-avianca",
+        "di-juan-valdez",
+        "di-ford",
+        "di-apple"
+      ]
     }
   ],
   "temas": [
@@ -724,6 +735,176 @@
       "tipo": "largo",
       "estado": "pendiente",
       "nota": "2026-11-27: nicho nuevo (supervivencia), video largo horizontal de 6 a 7 min. Por verificar en dos fuentes antes del guion. Lo médico solo como explicación general; revisión de salud recomendada."
+    },
+    {
+      "id": "di-avianca",
+      "nicho": "dinero",
+      "pregunta": "¿Cómo nació una de las aerolíneas más antiguas del mundo en Barranquilla?",
+      "angulo": "SCADTA se fundó en Barranquilla en diciembre de 1919 con socios colombianos y alemanes, con hidroaviones sobre el río Magdalena; en 1940, en plena Segunda Guerra Mundial, se fusionó con Servicio Aéreo Colombiano y nació Avianca. La decisión que la hizo crecer: unir el país por aire cuando no había carreteras. Los momentos en que casi quiebra: el capítulo 11 de 2003 y el de mayo de 2020 en la pandemia, del que salió en 2021. Se dice «una de las más antiguas» (el título de la más antigua lo reclaman varias).",
+      "formato": "la historia en 3 pasos",
+      "tipo": "largo",
+      "estado": "pendiente",
+      "serie": {
+        "id": "asi-nacieron",
+        "parte": 1,
+        "de": 4
+      },
+      "nota": "2026-11-27: línea nueva de historia económica (PC de Felipe), video largo horizontal de 6 a 7 min. Por verificar en dos fuentes antes del guion. Educativo: sin consejos de inversión ni promesas de ganancia; sin logos ni marcas como elemento gráfico; texto con «Contenido educativo, no es asesoría financiera.»"
+    },
+    {
+      "id": "di-juan-valdez",
+      "nicho": "dinero",
+      "pregunta": "¿Por qué un personaje inventado salvó el café de Colombia?",
+      "angulo": "La Federación Nacional de Cafeteros nació en 1927; en 1958-1959 creó a Juan Valdez para que el mundo pidiera café de Colombia por su nombre. La crisis: en 1989 se rompió el pacto internacional de cuotas del café y los precios se hundieron; la respuesta fue vender valor agregado y en 2002 abrieron las primeras tiendas Juan Valdez. Sin mostrar la marca ni el logo: la historia del campesino caficultor, los precios y las decisiones.",
+      "formato": "la historia en 3 pasos",
+      "tipo": "largo",
+      "estado": "pendiente",
+      "serie": {
+        "id": "asi-nacieron",
+        "parte": 2,
+        "de": 4
+      },
+      "nota": "2026-11-27: línea nueva de historia económica (PC de Felipe), video largo horizontal de 6 a 7 min. Por verificar en dos fuentes antes del guion. Educativo: sin consejos de inversión ni promesas de ganancia; sin logos ni marcas como elemento gráfico; texto con «Contenido educativo, no es asesoría financiera.»"
+    },
+    {
+      "id": "di-ford",
+      "nicho": "dinero",
+      "pregunta": "¿Cómo un hombre que quebró dos veces terminó poniendo el mundo sobre ruedas?",
+      "angulo": "Henry Ford fracasó con la Detroit Automobile Company (1899) y salió de la Henry Ford Company (1901) antes de fundar la Ford Motor Company en 1903. Lo que la hizo crecer: el Modelo T (1908), la línea de ensamblaje móvil (1913) y el salario de 5 dólares al día (1914). El momento en que casi se hunde: al final de la Segunda Guerra perdía millones al mes y Henry Ford II tomó el mando en 1945. Sin logos ni fotos de marca.",
+      "formato": "la historia en 3 pasos",
+      "tipo": "largo",
+      "estado": "pendiente",
+      "serie": {
+        "id": "asi-nacieron",
+        "parte": 3,
+        "de": 4
+      },
+      "nota": "2026-11-27: línea nueva de historia económica (PC de Felipe), video largo horizontal de 6 a 7 min. Por verificar en dos fuentes antes del guion. Educativo: sin consejos de inversión ni promesas de ganancia; sin logos ni marcas como elemento gráfico; texto con «Contenido educativo, no es asesoría financiera.»"
+    },
+    {
+      "id": "di-apple",
+      "nicho": "dinero",
+      "pregunta": "¿Sabías que Apple estuvo a unos meses de quebrar?",
+      "angulo": "Fundada en 1976 por Steve Jobs, Steve Wozniak y Ronald Wayne (que vendió su parte a los 12 días); el primer gran éxito fue el Apple II (1977). Jobs salió en 1985; en 1997, con pérdidas enormes, la empresa compró NeXT, Jobs volvió y Microsoft invirtió 150 millones de dólares. Después vinieron el iMac (1998) y el iPod (2001). Lo del garaje se cuenta con matiz: Wozniak dijo que su papel está exagerado. Sin logos ni productos de marca en pantalla: dibujos genéricos.",
+      "formato": "la historia en 3 pasos",
+      "tipo": "largo",
+      "estado": "pendiente",
+      "serie": {
+        "id": "asi-nacieron",
+        "parte": 4,
+        "de": 4
+      },
+      "nota": "2026-11-27: línea nueva de historia económica (PC de Felipe), video largo horizontal de 6 a 7 min. Por verificar en dos fuentes antes del guion. Educativo: sin consejos de inversión ni promesas de ganancia; sin logos ni marcas como elemento gráfico; texto con «Contenido educativo, no es asesoría financiera.»"
+    },
+    {
+      "id": "di-bolsa-amsterdam",
+      "nicho": "dinero",
+      "pregunta": "¿Dónde y por qué se compró la primera acción de la historia?",
+      "angulo": "La Compañía Neerlandesa de las Indias Orientales (VOC) se fundó en 1602 y vendió acciones a cualquiera; como el dinero quedaba atrapado años, la gente empezó a revender sus partes y así nació la Bolsa de Ámsterdam, considerada la primera bolsa de valores moderna. Qué era una acción, un dividendo y por qué la VOC terminó disuelta en 1799. Se cuenta también el lado oscuro: el comercio colonial y la violencia de la compañía.",
+      "formato": "la historia en 3 pasos",
+      "tipo": "largo",
+      "estado": "pendiente",
+      "nota": "2026-11-27: línea nueva de historia económica (PC de Felipe), video largo horizontal de 6 a 7 min. Por verificar en dos fuentes antes del guion. Educativo: sin consejos de inversión ni promesas de ganancia; sin logos ni marcas como elemento gráfico; texto con «Contenido educativo, no es asesoría financiera.»"
+    },
+    {
+      "id": "di-fiebre-tulipanes",
+      "nicho": "dinero",
+      "pregunta": "¿De verdad un bulbo de tulipán llegó a costar lo que una casa?",
+      "angulo": "Holanda, 1636-1637: los contratos por bulbos raros se dispararon y se derrumbaron en febrero de 1637 (Haarlem). La versión clásica viene de Charles Mackay (1841); historiadores como Anne Goldgar (Tulipmania, 2007) muestran que la escala y la ruina general se exageraron. Se cuenta como mito o realidad, con las dos versiones. Versión larga del corto di-tulipanes.",
+      "formato": "mito o realidad",
+      "tipo": "largo",
+      "estado": "pendiente",
+      "nota": "2026-11-27: línea nueva de historia económica (PC de Felipe), video largo horizontal de 6 a 7 min. Por verificar en dos fuentes antes del guion. Educativo: sin consejos de inversión ni promesas de ganancia; sin logos ni marcas como elemento gráfico; texto con «Contenido educativo, no es asesoría financiera.»"
+    },
+    {
+      "id": "di-crac-1929",
+      "nicho": "dinero",
+      "pregunta": "¿Cómo se perdió una fortuna en un solo día de octubre de 1929?",
+      "angulo": "Jueves negro (24 de octubre) y martes negro (29 de octubre de 1929) en Wall Street; compras a crédito, caída del índice Dow Jones de cerca del 89 % entre 1929 y julio de 1932, y la Gran Depresión, con un desempleo de alrededor del 25 % en EE. UU. en 1933. Cómo llegó a Colombia: el fin de la «danza de los millones» y la caída del precio del café. Los suicidios en masa de banqueros, como mito.",
+      "formato": "la historia en 3 pasos",
+      "tipo": "largo",
+      "estado": "pendiente",
+      "nota": "2026-11-27: línea nueva de historia económica (PC de Felipe), video largo horizontal de 6 a 7 min. Por verificar en dos fuentes antes del guion. Educativo: sin consejos de inversión ni promesas de ganancia; sin logos ni marcas como elemento gráfico; texto con «Contenido educativo, no es asesoría financiera.»"
+    },
+    {
+      "id": "di-crisis-2008",
+      "nicho": "dinero",
+      "pregunta": "¿Cómo unas hipotecas en Estados Unidos hicieron temblar al mundo entero?",
+      "angulo": "Hipotecas subprime, préstamos empaquetados y revendidos, y la quiebra de Lehman Brothers el 15 de septiembre de 2008, la mayor de la historia de EE. UU.; rescates bancarios y la Gran Recesión. Explicado con una cadena de préstamos y sin señalar culpables más allá de lo que establecieron la Comisión de Investigación de la Crisis Financiera (2011) y los tribunales.",
+      "formato": "la historia en 3 pasos",
+      "tipo": "largo",
+      "estado": "pendiente",
+      "nota": "2026-11-27: línea nueva de historia económica (PC de Felipe), video largo horizontal de 6 a 7 min. Por verificar en dos fuentes antes del guion. Educativo: sin consejos de inversión ni promesas de ganancia; sin logos ni marcas como elemento gráfico; texto con «Contenido educativo, no es asesoría financiera.»"
+    },
+    {
+      "id": "di-papel-moneda",
+      "nicho": "dinero",
+      "pregunta": "¿Quién se atrevió a cambiar el oro por un papel?",
+      "angulo": "China, dinastía Song: comerciantes de Sichuan usaban recibos de depósito y en 1024 el gobierno emitió el jiaozi oficial; Marco Polo contó asombrado el papel moneda de los mongoles. En Europa, el Banco de Estocolmo emitió los primeros billetes en 1661 y quebró por imprimir de más. Del recibo al billete y por qué el papel vale por confianza. Versión larga del corto di-primer-billete.",
+      "formato": "dato que no sabías",
+      "tipo": "largo",
+      "estado": "pendiente",
+      "nota": "2026-11-27: línea nueva de historia económica (PC de Felipe), video largo horizontal de 6 a 7 min. Por verificar en dos fuentes antes del guion. Educativo: sin consejos de inversión ni promesas de ganancia; sin logos ni marcas como elemento gráfico; texto con «Contenido educativo, no es asesoría financiera.»"
+    },
+    {
+      "id": "di-banco-republica",
+      "nicho": "dinero",
+      "pregunta": "¿Por qué Colombia tuvo que traer a un gringo para crear su banco central?",
+      "angulo": "Antes había varios bancos que emitían billetes y, tras la Guerra de los Mil Días (1899-1902), el papel moneda se devaluó con fuerza. En 1923 llegó la Misión Kemmerer, encabezada por el economista estadounidense Edwin Kemmerer, y la Ley 25 de 1923 creó el Banco de la República (fundado el 23 de julio de 1923) como único emisor. La Constitución de 1991 le dio autonomía. Fuente principal: el propio Banco de la República.",
+      "formato": "la historia en 3 pasos",
+      "tipo": "largo",
+      "estado": "pendiente",
+      "nota": "2026-11-27: línea nueva de historia económica (PC de Felipe), video largo horizontal de 6 a 7 min. Por verificar en dos fuentes antes del guion. Educativo: sin consejos de inversión ni promesas de ganancia; sin logos ni marcas como elemento gráfico; texto con «Contenido educativo, no es asesoría financiera.»"
+    },
+    {
+      "id": "di-dmg",
+      "nicho": "dinero",
+      "pregunta": "¿Cómo una empresa del Putumayo atrapó a cientos de miles de colombianos?",
+      "angulo": "DMG, de David Murcia Guzmán, prometía devolver en mercancía o dinero mucho más de lo que recibía; el Gobierno la intervino en noviembre de 2008 por captación ilegal, en la misma ola de pirámides de ese año. Murcia fue extraditado a EE. UU. y condenado allí por lavado de activos. Qué es una pirámide y por qué siempre cae, como explicación general; solo hechos judiciales y oficiales, sin señalar a personas sin condena.",
+      "formato": "la historia en 3 pasos",
+      "tipo": "largo",
+      "estado": "pendiente",
+      "nota": "2026-11-27: línea nueva de historia económica (PC de Felipe), video largo horizontal de 6 a 7 min. Por verificar en dos fuentes antes del guion. Educativo: sin consejos de inversión ni promesas de ganancia; sin logos ni marcas como elemento gráfico; texto con «Contenido educativo, no es asesoría financiera.»"
+    },
+    {
+      "id": "di-enron",
+      "nicho": "dinero",
+      "pregunta": "¿Cómo una de las empresas más admiradas de EE. UU. desapareció en semanas?",
+      "angulo": "Enron, la gigante de energía de Houston, ocultó deudas con contabilidad engañosa y sociedades fuera de balance; se declaró en quiebra el 2 de diciembre de 2001, cayó con ella la auditora Arthur Andersen y en 2002 llegó la ley Sarbanes-Oxley. Condenas como las fijaron los tribunales (la de Kenneth Lay se anuló al morir antes de la apelación). La lección: cuando las cuentas no se entienden.",
+      "formato": "la historia en 3 pasos",
+      "tipo": "largo",
+      "estado": "pendiente",
+      "nota": "2026-11-27: línea nueva de historia económica (PC de Felipe), video largo horizontal de 6 a 7 min. Por verificar en dos fuentes antes del guion. Educativo: sin consejos de inversión ni promesas de ganancia; sin logos ni marcas como elemento gráfico; texto con «Contenido educativo, no es asesoría financiera.»"
+    },
+    {
+      "id": "di-puntocom",
+      "nicho": "dinero",
+      "pregunta": "¿Por qué en el año 2000 una empresa valía millones solo por terminar en «.com»?",
+      "angulo": "Burbuja puntocom: el índice Nasdaq tocó su máximo el 10 de marzo de 2000 y cayó cerca del 78 % hasta octubre de 2002; empresas sin ganancias salieron a bolsa y quebraron (Pets.com cerró en noviembre de 2000), mientras unas pocas sobrevivieron. Sin nombrar ganadores para invertir: qué es una burbuja y por qué se repite el patrón.",
+      "formato": "la historia en 3 pasos",
+      "tipo": "largo",
+      "estado": "pendiente",
+      "nota": "2026-11-27: línea nueva de historia económica (PC de Felipe), video largo horizontal de 6 a 7 min. Por verificar en dos fuentes antes del guion. Educativo: sin consejos de inversión ni promesas de ganancia; sin logos ni marcas como elemento gráfico; texto con «Contenido educativo, no es asesoría financiera.»"
+    },
+    {
+      "id": "di-tarjeta-credito",
+      "nicho": "dinero",
+      "pregunta": "¿De verdad la tarjeta de crédito nació porque alguien olvidó la billetera en una cena?",
+      "angulo": "Diners Club (1950) y la historia de Frank McNamara y la cena sin billetera, que sus propios fundadores admitieron que fue en parte un relato de promoción. Después, en 1958, Bank of America envió 60.000 tarjetas sin pedir en Fresno (California): nació BankAmericard, que en 1976 pasó a llamarse Visa. Mito o realidad, sin mostrar marcas ni logos.",
+      "formato": "mito o realidad",
+      "tipo": "largo",
+      "estado": "pendiente",
+      "nota": "2026-11-27: línea nueva de historia económica (PC de Felipe), video largo horizontal de 6 a 7 min. Por verificar en dos fuentes antes del guion. Educativo: sin consejos de inversión ni promesas de ganancia; sin logos ni marcas como elemento gráfico; texto con «Contenido educativo, no es asesoría financiera.»"
+    },
+    {
+      "id": "di-mansa-musa",
+      "nicho": "dinero",
+      "pregunta": "¿Un rey regaló tanto oro que hizo bajar su precio en El Cairo?",
+      "angulo": "Mansa Musa, rey de Malí, peregrinó a La Meca en 1324; según el cronista al-Umari, repartió tanto oro en El Cairo que su valor bajó durante años. Qué es la inflación contada con un rey. Lo de «el hombre más rico de la historia» se dice como discusión: no hay forma de medirlo.",
+      "formato": "mito o realidad",
+      "tipo": "largo",
+      "estado": "pendiente",
+      "nota": "2026-11-27: línea nueva de historia económica (PC de Felipe), video largo horizontal de 6 a 7 min. Por verificar en dos fuentes antes del guion. Educativo: sin consejos de inversión ni promesas de ganancia; sin logos ni marcas como elemento gráfico; texto con «Contenido educativo, no es asesoría financiera.»"
     }
   ]
 }
